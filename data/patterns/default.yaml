@@ -1,0 +1,13 @@
+patterns:
+  - pattern: "assets/{mod_id}/lang/{lang}.json"
+    type: lang
+    parser: json_lang
+    priority: 100
+    required: true
+    description: "Standard Minecraft language file"
+
+  - pattern: "data/{mod_id}/patchouli_books/{book_id}/{lang}/entries/**/*.json"
+    type: book
+    parser: patchouli
+    priority: 90
+    description: "Patchouli book entries"

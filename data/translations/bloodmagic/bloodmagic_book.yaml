@@ -1,0 +1,48 @@
+# Blood Magic - Patchouli Book Configuration
+# ガイドブックの基本設定翻訳
+
+mod_id: bloodmagic
+mod_name: Blood Magic
+version: 3.x.x
+mc_version: 1.20.1
+source_language: en_us
+target_language: ja_jp
+
+book:
+  id: guide
+  texture: "patchouli:textures/gui/book_red.png"
+  filler_texture: "bloodmagic:textures/gui/patchouli_book/page_filler.png"
+  creative_tab: "bloodmagic:bloodmagic"
+  model: "bloodmagic:book"
+  show_progress: false
+  use_resource_pack: true
+
+# マクロ定義（色コード）
+macros:
+  water: "$(#0000AA)"      # 水の意志 - 青
+  air: "$(#AAAA00)"        # 風の意志 - 黄
+  fire: "$(#AA0000)"       # 火の意志 - 赤
+  earth: "$(#00AA00)"      # 地の意志 - 緑
+  blank: "$(#888888)"      # 無属性 - 灰
+  dusk: "$(#9400D3)"       # 黄昏 - 紫
+  dawn: "$(6)"             # 夜明け - 金
+  steadfast: "$(#0000AA)"  # 堅固 - 青
+  destructive: "$(#AAAA00)"# 破壊 - 黄
+  vengeful: "$(#AA0000)"   # 復讐 - 赤
+  corrosive: "$(#00AA00)"  # 腐食 - 緑
+  raw: "$(#36C6C6)"        # 無属性意志 - シアン
+  blood: "$(#AA0000)"      # 血 - 赤
+
+# ローカライゼーションキー（言語ファイルに定義が必要）
+localization_keys:
+  - key: "guide.bloodmagic.name"
+    translation: "Sanguine Scientiem"
+    note: "ラテン語で「血の知識」を意味する、Blood Magicのガイドブック名"
+
+  - key: "guide.bloodmagic.subtitle"
+    translation: "あなたの生命、あなたの魔法"
+    note: "Blood Magicのテーマを表すサブタイトル"
+
+  - key: "guide.bloodmagic.landing_text"
+    translation: "Blood Magicの世界へようこそ。このガイドブックでは、祭壇の構築から強力な儀式の実行まで、血の魔法の基礎を学ぶことができます。"
+    note: "ガイドブックのランディングページテキスト"

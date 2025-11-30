@@ -1,0 +1,134 @@
+# Technology Mods Common Terms
+# Used by: Create, Mekanism, Applied Energistics, Thermal, etc.
+
+scope: "category:tech"
+
+terms:
+  # ===== Power/Energy =====
+  - source: "Energy"
+    target: "エネルギー"
+    tags: [power, mechanic]
+
+  - source: "Power"
+    target: "パワー"
+    tags: [power, mechanic]
+
+  - source: "Forge Energy"
+    target: "FE"
+    tags: [power, mechanic]
+    context: "FE is commonly kept as abbreviation"
+
+  - source: "RF"
+    target: "RF"
+    tags: [power, mechanic]
+    context: "Redstone Flux - kept as abbreviation"
+
+  - source: "EU"
+    target: "EU"
+    tags: [power, mechanic]
+    context: "Energy Units - kept as abbreviation"
+
+  # ===== Processing =====
+  - source: "Smelting"
+    target: "製錬"
+    tags: [process]
+
+  - source: "Crushing"
+    target: "粉砕"
+    tags: [process]
+
+  - source: "Grinding"
+    target: "粉砕"
+    tags: [process]
+
+  - source: "Pressing"
+    target: "プレス"
+    tags: [process]
+
+  - source: "Mixing"
+    target: "混合"
+    tags: [process]
+
+  - source: "Compacting"
+    target: "圧縮"
+    tags: [process]
+
+  - source: "Sawing"
+    target: "製材"
+    tags: [process]
+
+  # ===== Machine Parts =====
+  - source: "Motor"
+    target: "モーター"
+    tags: [item, component]
+
+  - source: "Gear"
+    target: "ギア"
+    tags: [item, component]
+
+  - source: "Cogwheel"
+    target: "歯車"
+    tags: [item, component]
+
+  - source: "Shaft"
+    target: "シャフト"
+    tags: [item, component]
+    context: "Rotational component, not mining shaft"
+
+  - source: "Pipe"
+    target: "パイプ"
+    tags: [block, transport]
+
+  - source: "Cable"
+    target: "ケーブル"
+    tags: [block, transport]
+
+  - source: "Conduit"
+    target: "導管"
+    tags: [block, transport]
+
+  - source: "Duct"
+    target: "ダクト"
+    tags: [block, transport]
+
+  # ===== Storage =====
+  - source: "Tank"
+    target: "タンク"
+    tags: [block, storage]
+
+  - source: "Buffer"
+    target: "バッファ"
+    tags: [block, storage]
+
+  - source: "Cache"
+    target: "キャッシュ"
+    tags: [block, storage]
+
+  # ===== Automation =====
+  - source: "Input"
+    target: "入力"
+    tags: [ui, mechanic]
+
+  - source: "Output"
+    target: "出力"
+    tags: [ui, mechanic]
+
+  - source: "Automation"
+    target: "自動化"
+    tags: [mechanic]
+
+  - source: "Filter"
+    target: "フィルター"
+    tags: [item, mechanic]
+
+  - source: "Upgrade"
+    target: "アップグレード"
+    tags: [item]
+
+  - source: "Efficiency"
+    target: "効率"
+    tags: [mechanic]
+
+  - source: "Speed"
+    target: "速度"
+    tags: [mechanic]

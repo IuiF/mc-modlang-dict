@@ -1,0 +1,568 @@
+module: Mekanism Tools
+version: 10.4.x
+statistics:
+  total_entries: 183
+  translated_entries: 183
+  translation_rate: 100.0%
+categories:
+  advancements:
+    count: 12
+    translations:
+    - key: advancements.mekanismtools.alternate_armor.description
+      en: Craft any piece of Armor from Mekanism Tools
+      ja: Mekanism Toolsで追加された任意の防具をクラフトする
+    - key: advancements.mekanismtools.alternate_armor.title
+      en: More Armor Types!
+      ja: より多くの種類の防具
+    - key: advancements.mekanismtools.alternate_tools.description
+      en: Craft any tool or weapon (except Paxels) from Mekanism Tools
+      ja: Mekanism Toolsで追加された、パクセル以外の任意のツールまたは武器をクラフトする
+    - key: advancements.mekanismtools.alternate_tools.title
+      en: More Tool Types!
+      ja: より多くの種類の道具
+    - key: advancements.mekanismtools.better_than_netherite.description
+      en: Protect yourself with a piece of Refined Obsidian Armor
+      ja: 精製黒曜石製の防具で我が身を守る
+    - key: advancements.mekanismtools.better_than_netherite.title
+      en: Better Than Netherite
+      ja: Better Than Netherite
+    - key: advancements.mekanismtools.loved_by_piglins.description
+      en: Refined Glowstone Armor glows even brighter than gold!
+      ja: 精製グロウストーン製の防具は金よりも明るく輝く!
+    - key: advancements.mekanismtools.loved_by_piglins.title
+      en: Loved By Piglins
+      ja: ピグリンからの愛
+    - key: advancements.mekanismtools.not_enough_shielding.description
+      en: Craft any Shield added by Mekanism Tools
+      ja: Mekanism Toolsで追加された任意の盾をクラフトする
+    - key: advancements.mekanismtools.not_enough_shielding.title
+      en: Not Enough Shielding
+      ja: Not Enough Shielding
+    - key: advancements.mekanismtools.paxel.description
+      en: Craft any Paxel (Pickaxe, Axe, Shovel)
+      ja: 任意のパクセルをクラフトする(ツルハシ、斧、シャベル)
+    - key: advancements.mekanismtools.paxel.title
+      en: Multi-Tool
+      ja: マルチツール
+  constants:
+    count: 2
+    translations:
+    - key: constants.mekanismtools.mod_name
+      en: 'Mekanism: Tools'
+      ja: 'Mekanism: Tools'
+    - key: constants.mekanismtools.pack_description
+      en: 'Resources used for Mekanism: Tools'
+      ja: 'Mekanism: Toolsに使用されるリソース'
+  item:
+    count: 168
+    translations:
+    - key: item.mekanismtools.bronze_axe
+      en: Bronze Axe
+      ja: 青銅の斧
+    - key: item.mekanismtools.bronze_boots
+      en: Bronze Boots
+      ja: 青銅のブーツ
+    - key: item.mekanismtools.bronze_chestplate
+      en: Bronze Chestplate
+      ja: 青銅のチェストプレート
+    - key: item.mekanismtools.bronze_helmet
+      en: Bronze Helmet
+      ja: 青銅のヘルメット
+    - key: item.mekanismtools.bronze_hoe
+      en: Bronze Hoe
+      ja: 青銅のクワ
+    - key: item.mekanismtools.bronze_leggings
+      en: Bronze Leggings
+      ja: 青銅のレギンス
+    - key: item.mekanismtools.bronze_paxel
+      en: Bronze Paxel
+      ja: 青銅のパクセル
+    - key: item.mekanismtools.bronze_pickaxe
+      en: Bronze Pickaxe
+      ja: 青銅のツルハシ
+    - key: item.mekanismtools.bronze_shield
+      en: Bronze Shield
+      ja: 青銅の盾
+    - key: item.mekanismtools.bronze_shield.black
+      en: Black Bronze Shield
+      ja: 黒色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.blue
+      en: Blue Bronze Shield
+      ja: 青色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.brown
+      en: Brown Bronze Shield
+      ja: 茶色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.cyan
+      en: Cyan Bronze Shield
+      ja: 青緑色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.gray
+      en: Gray Bronze Shield
+      ja: 灰色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.green
+      en: Green Bronze Shield
+      ja: 緑色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.light_blue
+      en: Light Blue Bronze Shield
+      ja: 空色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.light_gray
+      en: Light Gray Bronze Shield
+      ja: 薄灰色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.lime
+      en: Lime Bronze Shield
+      ja: 黄緑色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.magenta
+      en: Magenta Bronze Shield
+      ja: 赤紫色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.orange
+      en: Orange Bronze Shield
+      ja: 橙色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.pink
+      en: Pink Bronze Shield
+      ja: 桃色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.purple
+      en: Purple Bronze Shield
+      ja: 紫色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.red
+      en: Red Bronze Shield
+      ja: 赤色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.white
+      en: White Bronze Shield
+      ja: 白色の青銅の盾
+    - key: item.mekanismtools.bronze_shield.yellow
+      en: Yellow Bronze Shield
+      ja: 黄色の青銅の盾
+    - key: item.mekanismtools.bronze_shovel
+      en: Bronze Shovel
+      ja: 青銅のシャベル
+    - key: item.mekanismtools.bronze_sword
+      en: Bronze Sword
+      ja: 青銅の剣
+    - key: item.mekanismtools.diamond_paxel
+      en: Diamond Paxel
+      ja: ダイヤのパクセル
+    - key: item.mekanismtools.gold_paxel
+      en: Gold Paxel
+      ja: 金のパクセル
+    - key: item.mekanismtools.iron_paxel
+      en: Iron Paxel
+      ja: 鉄のパクセル
+    - key: item.mekanismtools.lapis_lazuli_axe
+      en: Lapis Lazuli Axe
+      ja: ラピスラズリの斧
+    - key: item.mekanismtools.lapis_lazuli_boots
+      en: Lapis Lazuli Boots
+      ja: ラピスラズリのブーツ
+    - key: item.mekanismtools.lapis_lazuli_chestplate
+      en: Lapis Lazuli Chestplate
+      ja: ラピスラズリのチェストプレート
+    - key: item.mekanismtools.lapis_lazuli_helmet
+      en: Lapis Lazuli Helmet
+      ja: ラピスラズリのヘルメット
+    - key: item.mekanismtools.lapis_lazuli_hoe
+      en: Lapis Lazuli Hoe
+      ja: ラピスラズリのクワ
+    - key: item.mekanismtools.lapis_lazuli_leggings
+      en: Lapis Lazuli Leggings
+      ja: ラピスラズリのレギンス
+    - key: item.mekanismtools.lapis_lazuli_paxel
+      en: Lapis Lazuli Paxel
+      ja: ラピスラズリのパクセル
+    - key: item.mekanismtools.lapis_lazuli_pickaxe
+      en: Lapis Lazuli Pickaxe
+      ja: ラピスラズリのツルハシ
+    - key: item.mekanismtools.lapis_lazuli_shield
+      en: Lapis Lazuli Shield
+      ja: ラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.black
+      en: Black Lapis Lazuli Shield
+      ja: 黒色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.blue
+      en: Blue Lapis Lazuli Shield
+      ja: 青色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.brown
+      en: Brown Lapis Lazuli Shield
+      ja: 茶色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.cyan
+      en: Cyan Lapis Lazuli Shield
+      ja: 青緑色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.gray
+      en: Gray Lapis Lazuli Shield
+      ja: 灰色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.green
+      en: Green Lapis Lazuli Shield
+      ja: 緑色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.light_blue
+      en: Light Blue Lapis Lazuli Shield
+      ja: 空色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.light_gray
+      en: Light Gray Lapis Lazuli Shield
+      ja: 薄灰色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.lime
+      en: Lime Lapis Lazuli Shield
+      ja: 黄緑色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.magenta
+      en: Magenta Lapis Lazuli Shield
+      ja: 赤紫色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.orange
+      en: Orange Lapis Lazuli Shield
+      ja: 橙色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.pink
+      en: Pink Lapis Lazuli Shield
+      ja: 桃色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.purple
+      en: Purple Lapis Lazuli Shield
+      ja: 紫色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.red
+      en: Red Lapis Lazuli Shield
+      ja: 赤色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.white
+      en: White Lapis Lazuli Shield
+      ja: 白色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shield.yellow
+      en: Yellow Lapis Lazuli Shield
+      ja: 黄色のラピスラズリの盾
+    - key: item.mekanismtools.lapis_lazuli_shovel
+      en: Lapis Lazuli Shovel
+      ja: ラピスラズリのシャベル
+    - key: item.mekanismtools.lapis_lazuli_sword
+      en: Lapis Lazuli Sword
+      ja: ラピスラズリの剣
+    - key: item.mekanismtools.netherite_paxel
+      en: Netherite Paxel
+      ja: ネザライトのパクセル
+    - key: item.mekanismtools.osmium_axe
+      en: Osmium Axe
+      ja: オスミウムの斧
+    - key: item.mekanismtools.osmium_boots
+      en: Osmium Boots
+      ja: オスミウムのブーツ
+    - key: item.mekanismtools.osmium_chestplate
+      en: Osmium Chestplate
+      ja: オスミウムのチェストプレート
+    - key: item.mekanismtools.osmium_helmet
+      en: Osmium Helmet
+      ja: オスミウムのヘルメット
+    - key: item.mekanismtools.osmium_hoe
+      en: Osmium Hoe
+      ja: オスミウムのクワ
+    - key: item.mekanismtools.osmium_leggings
+      en: Osmium Leggings
+      ja: オスミウムのレギンス
+    - key: item.mekanismtools.osmium_paxel
+      en: Osmium Paxel
+      ja: オスミウムのパクセル
+    - key: item.mekanismtools.osmium_pickaxe
+      en: Osmium Pickaxe
+      ja: オスミウムのツルハシ
+    - key: item.mekanismtools.osmium_shield
+      en: Osmium Shield
+      ja: オスミウムの盾
+    - key: item.mekanismtools.osmium_shield.black
+      en: Black Osmium Shield
+      ja: 黒色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.blue
+      en: Blue Osmium Shield
+      ja: 青色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.brown
+      en: Brown Osmium Shield
+      ja: 茶色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.cyan
+      en: Cyan Osmium Shield
+      ja: 青緑色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.gray
+      en: Gray Osmium Shield
+      ja: 灰色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.green
+      en: Green Osmium Shield
+      ja: 緑色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.light_blue
+      en: Light Blue Osmium Shield
+      ja: 空色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.light_gray
+      en: Light Gray Osmium Shield
+      ja: 薄灰色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.lime
+      en: Lime Osmium Shield
+      ja: 黄緑色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.magenta
+      en: Magenta Osmium Shield
+      ja: 赤紫色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.orange
+      en: Orange Osmium Shield
+      ja: 橙色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.pink
+      en: Pink Osmium Shield
+      ja: 桃色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.purple
+      en: Purple Osmium Shield
+      ja: 紫色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.red
+      en: Red Osmium Shield
+      ja: 赤色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.white
+      en: White Osmium Shield
+      ja: 白色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shield.yellow
+      en: Yellow Osmium Shield
+      ja: 黄色のオスミウムの盾
+    - key: item.mekanismtools.osmium_shovel
+      en: Osmium Shovel
+      ja: オスミウムのシャベル
+    - key: item.mekanismtools.osmium_sword
+      en: Osmium Sword
+      ja: オスミウムの剣
+    - key: item.mekanismtools.refined_glowstone_axe
+      en: Refined Glowstone Axe
+      ja: 精製グロウストーンの斧
+    - key: item.mekanismtools.refined_glowstone_boots
+      en: Refined Glowstone Boots
+      ja: 精製グロウストーンのブーツ
+    - key: item.mekanismtools.refined_glowstone_chestplate
+      en: Refined Glowstone Chestplate
+      ja: 精製グロウストーンのチェストプレート
+    - key: item.mekanismtools.refined_glowstone_helmet
+      en: Refined Glowstone Helmet
+      ja: 精製グロウストーンのヘルメット
+    - key: item.mekanismtools.refined_glowstone_hoe
+      en: Refined Glowstone Hoe
+      ja: 精製グロウストーンのクワ
+    - key: item.mekanismtools.refined_glowstone_leggings
+      en: Refined Glowstone Leggings
+      ja: 精製グロウストーンのレギンス
+    - key: item.mekanismtools.refined_glowstone_paxel
+      en: Refined Glowstone Paxel
+      ja: 精製グロウストーンのパクセル
+    - key: item.mekanismtools.refined_glowstone_pickaxe
+      en: Refined Glowstone Pickaxe
+      ja: 精製グロウストーンのツルハシ
+    - key: item.mekanismtools.refined_glowstone_shield
+      en: Refined Glowstone Shield
+      ja: 精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.black
+      en: Black Refined Glowstone Shield
+      ja: 黒色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.blue
+      en: Blue Refined Glowstone Shield
+      ja: 青色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.brown
+      en: Brown Refined Glowstone Shield
+      ja: 茶色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.cyan
+      en: Cyan Refined Glowstone Shield
+      ja: 青緑色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.gray
+      en: Gray Refined Glowstone Shield
+      ja: 灰色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.green
+      en: Green Refined Glowstone Shield
+      ja: 緑色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.light_blue
+      en: Light Blue Refined Glowstone Shield
+      ja: 空色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.light_gray
+      en: Light Gray Refined Glowstone Shield
+      ja: 薄灰色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.lime
+      en: Lime Refined Glowstone Shield
+      ja: 黄緑色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.magenta
+      en: Magenta Refined Glowstone Shield
+      ja: 赤紫色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.orange
+      en: Orange Refined Glowstone Shield
+      ja: 橙色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.pink
+      en: Pink Refined Glowstone Shield
+      ja: 桃色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.purple
+      en: Purple Refined Glowstone Shield
+      ja: 紫色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.red
+      en: Red Refined Glowstone Shield
+      ja: 赤色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.white
+      en: White Refined Glowstone Shield
+      ja: 白色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shield.yellow
+      en: Yellow Refined Glowstone Shield
+      ja: 黄色の精製グロウストーンの盾
+    - key: item.mekanismtools.refined_glowstone_shovel
+      en: Refined Glowstone Shovel
+      ja: 精製グロウストーンのシャベル
+    - key: item.mekanismtools.refined_glowstone_sword
+      en: Refined Glowstone Sword
+      ja: 精製グロウストーンの剣
+    - key: item.mekanismtools.refined_obsidian_axe
+      en: Refined Obsidian Axe
+      ja: 精製黒曜石の斧
+    - key: item.mekanismtools.refined_obsidian_boots
+      en: Refined Obsidian Boots
+      ja: 精製黒曜石のブーツ
+    - key: item.mekanismtools.refined_obsidian_chestplate
+      en: Refined Obsidian Chestplate
+      ja: 精製黒曜石のチェストプレート
+    - key: item.mekanismtools.refined_obsidian_helmet
+      en: Refined Obsidian Helmet
+      ja: 精製黒曜石のヘルメット
+    - key: item.mekanismtools.refined_obsidian_hoe
+      en: Refined Obsidian Hoe
+      ja: 精製黒曜石のクワ
+    - key: item.mekanismtools.refined_obsidian_leggings
+      en: Refined Obsidian Leggings
+      ja: 精製黒曜石のレギンス
+    - key: item.mekanismtools.refined_obsidian_paxel
+      en: Refined Obsidian Paxel
+      ja: 精製黒曜石のパクセル
+    - key: item.mekanismtools.refined_obsidian_pickaxe
+      en: Refined Obsidian Pickaxe
+      ja: 精製黒曜石のツルハシ
+    - key: item.mekanismtools.refined_obsidian_shield
+      en: Refined Obsidian Shield
+      ja: 精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.black
+      en: Black Refined Obsidian Shield
+      ja: 黒色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.blue
+      en: Blue Refined Obsidian Shield
+      ja: 青色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.brown
+      en: Brown Refined Obsidian Shield
+      ja: 茶色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.cyan
+      en: Cyan Refined Obsidian Shield
+      ja: 青緑色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.gray
+      en: Gray Refined Obsidian Shield
+      ja: 灰色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.green
+      en: Green Refined Obsidian Shield
+      ja: 緑色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.light_blue
+      en: Light Blue Refined Obsidian Shield
+      ja: 空色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.light_gray
+      en: Light Gray Refined Obsidian Shield
+      ja: 薄灰色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.lime
+      en: Lime Refined Obsidian Shield
+      ja: 黄緑色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.magenta
+      en: Magenta Refined Obsidian Shield
+      ja: 赤紫色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.orange
+      en: Orange Refined Obsidian Shield
+      ja: 橙色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.pink
+      en: Pink Refined Obsidian Shield
+      ja: 桃色の黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.purple
+      en: Purple Refined Obsidian Shield
+      ja: 紫色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.red
+      en: Red Refined Obsidian Shield
+      ja: 赤色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.white
+      en: White Refined Obsidian Shield
+      ja: 白色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shield.yellow
+      en: Yellow Refined Obsidian Shield
+      ja: 黄色の精製黒曜石の盾
+    - key: item.mekanismtools.refined_obsidian_shovel
+      en: Refined Obsidian Shovel
+      ja: 精製黒曜石のシャベル
+    - key: item.mekanismtools.refined_obsidian_sword
+      en: Refined Obsidian Sword
+      ja: 精製黒曜石の剣
+    - key: item.mekanismtools.steel_axe
+      en: Steel Axe
+      ja: 鋼鉄の斧
+    - key: item.mekanismtools.steel_boots
+      en: Steel Boots
+      ja: 鋼鉄のブーツ
+    - key: item.mekanismtools.steel_chestplate
+      en: Steel Chestplate
+      ja: 鋼鉄のチェストプレート
+    - key: item.mekanismtools.steel_helmet
+      en: Steel Helmet
+      ja: 鋼鉄のヘルメット
+    - key: item.mekanismtools.steel_hoe
+      en: Steel Hoe
+      ja: 鋼鉄のクワ
+    - key: item.mekanismtools.steel_leggings
+      en: Steel Leggings
+      ja: 鋼鉄のレギンス
+    - key: item.mekanismtools.steel_paxel
+      en: Steel Paxel
+      ja: 鋼鉄のパクセル
+    - key: item.mekanismtools.steel_pickaxe
+      en: Steel Pickaxe
+      ja: 鋼鉄のツルハシ
+    - key: item.mekanismtools.steel_shield
+      en: Steel Shield
+      ja: 鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.black
+      en: Black Steel Shield
+      ja: 黒色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.blue
+      en: Blue Steel Shield
+      ja: 青色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.brown
+      en: Brown Steel Shield
+      ja: 茶色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.cyan
+      en: Cyan Steel Shield
+      ja: 青緑色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.gray
+      en: Gray Steel Shield
+      ja: 灰色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.green
+      en: Green Steel Shield
+      ja: 緑色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.light_blue
+      en: Light Blue Steel Shield
+      ja: 空色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.light_gray
+      en: Light Gray Steel Shield
+      ja: 薄灰色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.lime
+      en: Lime Steel Shield
+      ja: 黄緑色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.magenta
+      en: Magenta Steel Shield
+      ja: 赤紫色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.orange
+      en: Orange Steel Shield
+      ja: 橙色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.pink
+      en: Pink Steel Shield
+      ja: 桃色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.purple
+      en: Purple Steel Shield
+      ja: 紫色の鋼の盾
+    - key: item.mekanismtools.steel_shield.red
+      en: Red Steel Shield
+      ja: 赤色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.white
+      en: White Steel Shield
+      ja: 白色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shield.yellow
+      en: Yellow Steel Shield
+      ja: 黄色の鋼鉄の盾
+    - key: item.mekanismtools.steel_shovel
+      en: Steel Shovel
+      ja: 鋼鉄のシャベル
+    - key: item.mekanismtools.steel_sword
+      en: Steel Sword
+      ja: 鋼鉄の剣
+    - key: item.mekanismtools.stone_paxel
+      en: Stone Paxel
+      ja: 石のパクセル
+    - key: item.mekanismtools.wood_paxel
+      en: Wood Paxel
+      ja: 木のパクセル
+  tooltip:
+    count: 1
+    translations:
+    - key: tooltip.mekanismtools.hp
+      en: 'HP: %1$s'
+      ja: 'HP: %1$s'

@@ -1,0 +1,318 @@
+# Ars Nouveau Mod固有用語辞書
+# 優先度: mod (最高)
+
+mod_id: ars_nouveau
+mod_name: Ars Nouveau
+priority: mod
+category: magic
+
+terms:
+  # ===== Core Concepts - 核心概念 =====
+  - en: Source
+    ja: ソース
+    category: resource
+    priority: 100
+    note: Ars Nouveauの魔法エネルギー。「源泉」とも訳せるが、カタカナが一般的
+
+  - en: Glyph
+    ja: グリフ
+    category: item
+    priority: 100
+    note: スペルを構成する魔法記号。「印章」「魔法文字」とも
+
+  - en: Spell
+    ja: スペル
+    category: mechanic
+    priority: 100
+    note: グリフを組み合わせて作る魔法
+
+  - en: Spell Book
+    ja: スペルブック
+    category: item
+    priority: 100
+    note: スペルを記録・実行する本
+
+  - en: Codex
+    ja: 写本
+    category: item
+    priority: 95
+    note: グリフを記録するアイテム。「コーデックス」でも可
+
+  # ===== Equipment - 装備・道具 =====
+  - en: Wand
+    ja: ワンド
+    category: item
+    priority: 100
+    note: 基本的な魔法の杖
+
+  - en: Enchanters Sword
+    ja: エンチャンターの剣
+    category: item
+    priority: 90
+
+  - en: Enchanters Shield
+    ja: エンチャンターの盾
+    category: item
+    priority: 90
+
+  - en: Enchanters Bow
+    ja: エンチャンターの弓
+    category: item
+    priority: 90
+
+  # ===== Blocks & Structures - ブロック・構造物 =====
+  - en: Enchanting Apparatus
+    ja: エンチャント装置
+    category: block
+    priority: 100
+    note: アイテムにエンチャントを施す装置
+
+  - en: Scribes Table
+    ja: 書記机
+    category: block
+    priority: 95
+    note: スペルを編集する机
+
+  - en: Arcane Pedestal
+    ja: アーケインペデスタル
+    category: block
+    priority: 90
+    note: アイテムを展示する台座
+
+  - en: Arcane Core
+    ja: アーケインコア
+    category: block
+    priority: 90
+    note: エンチャント装置の中心ブロック
+
+  - en: Source Jar
+    ja: ソースジャー
+    category: block
+    priority: 95
+    note: ソースを保管する瓶
+
+  - en: Volcanic Sourcelink
+    ja: 火山のソースリンク
+    category: block
+    priority: 85
+    note: 溶岩からソースを生成
+
+  - en: Mycelial Sourcelink
+    ja: 菌糸のソースリンク
+    category: block
+    priority: 85
+    note: キノコからソースを生成
+
+  - en: Agronomic Sourcelink
+    ja: 農業のソースリンク
+    category: block
+    priority: 85
+    note: 作物からソースを生成
+
+  - en: Vitalic Sourcelink
+    ja: 生命のソースリンク
+    category: block
+    priority: 85
+    note: 動物からソースを生成
+
+  - en: Alchemical Sourcelink
+    ja: 錬金術のソースリンク
+    category: block
+    priority: 85
+    note: ポーションからソースを生成
+
+  # ===== Magic System - 魔法システム =====
+  - en: Familiar
+    ja: ファミリア
+    category: entity
+    priority: 95
+    note: プレイヤーに付き従う使い魔
+
+  - en: Summon
+    ja: 召喚
+    category: mechanic
+    priority: 90
+    note: Mobや構造物を呼び出す魔法
+
+  - en: Starbuncle
+    ja: スターバンクル
+    category: entity
+    priority: 90
+    note: アイテムを運ぶ召喚生物
+
+  - en: Whirlisprig
+    ja: ウィルスプリグ
+    category: entity
+    priority: 85
+    note: 農業を手伝う召喚生物
+
+  - en: Drygmy
+    ja: ドリグミー
+    category: entity
+    priority: 85
+    note: Mobからアイテムを生成する召喚生物
+
+  - en: Imbuement
+    ja: 付与
+    category: mechanic
+    priority: 85
+    note: アイテムに魔法効果を付与すること
+
+  # ===== Glyph Types - グリフの種類 =====
+  - en: Form Glyph
+    ja: フォームグリフ
+    category: glyph_type
+    priority: 90
+    note: スペルの形を決定するグリフ
+
+  - en: Effect Glyph
+    ja: エフェクトグリフ
+    category: glyph_type
+    priority: 90
+    note: スペルの効果を決定するグリフ
+
+  - en: Augment Glyph
+    ja: 強化グリフ
+    category: glyph_type
+    priority: 90
+    note: スペルを強化するグリフ
+
+  # ===== Materials - 素材 =====
+  - en: Magebloom
+    ja: メイジブルーム
+    category: item
+    priority: 85
+    note: 魔法の花
+
+  - en: Archwood
+    ja: アーチウッド
+    category: material
+    priority: 85
+    note: 魔法の木材
+
+  - en: Source Gem
+    ja: ソースジェム
+    category: item
+    priority: 90
+    note: ソースを保管する宝石
+
+  - en: Arcane Stone
+    ja: アーケインストーン
+    category: block
+    priority: 85
+    note: 魔法の石
+
+  # ===== Enchantments - エンチャント =====
+  - en: Reactive
+    ja: 反応性
+    category: enchantment
+    priority: 80
+    note: ダメージを受けた時に発動
+
+  - en: Mana Boost
+    ja: マナブースト
+    category: enchantment
+    priority: 80
+    note: マナ回復速度上昇
+
+  - en: Mana Regen
+    ja: マナ再生
+    category: enchantment
+    priority: 80
+    note: マナ自動回復
+
+  # ===== Potions & Alchemy - ポーション・錬金術 =====
+  - en: Potion Flask
+    ja: ポーションフラスコ
+    category: item
+    priority: 85
+    note: 複数のポーション効果を保存
+
+  - en: Alchemical Sourcelink
+    ja: 錬金術のソースリンク
+    category: block
+    priority: 85
+    note: ポーションからソースを生成
+
+  # ===== Common Actions - よく使うアクション =====
+  - en: Craft
+    ja: 作成する
+    category: action
+    priority: 75
+
+  - en: Cast
+    ja: 詠唱する
+    category: action
+    priority: 80
+    note: スペルを発動する
+
+  - en: Channel
+    ja: 集中する
+    category: action
+    priority: 75
+    note: 長時間詠唱する
+
+  - en: Bind
+    ja: 紐付ける
+    category: action
+    priority: 75
+    note: アイテムをプレイヤーに紐付ける
+
+  # ===== Advanced Concepts - 高度な概念 =====
+  - en: Ritual
+    ja: 儀式
+    category: mechanic
+    priority: 85
+    note: 複雑な魔法を実行するシステム
+
+  - en: Dominion Wand
+    ja: ドミニオンワンド
+    category: item
+    priority: 85
+    note: 範囲を指定する杖
+
+  - en: Relay
+    ja: リレー
+    category: block
+    priority: 80
+    note: ソースを転送するブロック
+
+  - en: Relay Splitter
+    ja: リレースプリッター
+    category: block
+    priority: 80
+    note: ソースを分配するブロック
+
+  - en: Relay Warp
+    ja: リレーワープ
+    category: block
+    priority: 80
+    note: ソースを遠距離転送するブロック
+
+# 翻訳ルール
+translation_rules:
+  - rule: "Ars Nouveau固有の用語は一貫性を保つ"
+    examples:
+      - "Source → ソース（エネルギーの意味）"
+      - "Glyph → グリフ（魔法記号）"
+      - "Spell → スペル（魔法）"
+
+  - rule: "魔法系用語はBotaniaとの一貫性を考慮"
+    note: "Mana、Altar、Ritualなどの共通概念は統一"
+
+  - rule: "Arcaneは「アーケイン」と表記"
+    note: "「秘術の」「神秘的な」と訳す場合もあるが、固有名詞ではカタカナ"
+
+  - rule: "Familiarは「ファミリア」"
+    note: "「使い魔」とも訳せるが、カタカナが一般的"
+
+  - rule: "Sourceは文脈で「ソース」または「源泉」"
+    note: "リソース名は「ソース」、説明文では「源泉」も可"
+
+# 注意事項
+notes:
+  - "Ars Nouveauは魔法系Modだが、Botaniaとは異なり、スペル作成に重点"
+  - "グリフシステムが特徴的なため、グリフ関連用語の統一が重要"
+  - "召喚生物（Summons）の名前はカタカナ表記が基本"
+  - "エンチャント装置周りのブロック名は「アーケイン〜」で統一"
+  - "Sourceは「マナ」に相当するが、訳は「ソース」で統一"

@@ -1,0 +1,1405 @@
+# Blood Magic - Alchemy Array Category Complete Translation
+# Blood Magic - 錬金術陣カテゴリ完全翻訳
+
+mod_id: bloodmagic
+mc_version: 1.16.3
+source_language: en_us
+target_language: ja_jp
+category: alchemy_array
+translation_date: "2025-11-29"
+translator: Claude Code
+
+# ==============================================================================
+# FUNCTIONAL ARRAYS - 機能的な陣
+# ==============================================================================
+
+entries:
+  # --------------------------------------------------------------------------
+  # Arcane Ash / Alchemy Array Basics
+  # --------------------------------------------------------------------------
+  - id: arcane_ash
+    category: alchemy_array/functional_array
+    name:
+      source: "Alchemy Array Basics"
+      translation: "錬金術陣の基本"
+    icon: "bloodmagic:arcaneashes"
+    pages:
+      - page: 0
+        type: "text"
+        source: "$(item)Arcane Ashes$() are an item that is pivotal in the creation of Alchemy Arrays. $(item)Arcane Ashes$() can be crafted in the $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() using some early game items."
+        translation: "$(item)秘術の灰$()は、錬金術陣の作成に不可欠なアイテムです。$(item)秘術の灰$()は、いくつかの序盤のアイテムを使って$(l:bloodmagic:alchemy_table/alchemy_table)錬金術テーブル$()で作成できます。"
+
+      - page: 1
+        type: "crafting_alchemy_table"
+        heading:
+          source: "Arcane Ashes"
+          translation: "秘術の灰"
+        recipe: "bloodmagic:alchemytable/arcane_ash"
+
+      - page: 2
+        type: "text"
+        source: "In order to create an Alchemy Array, press [$(k:use)] while looking at a block with the $(item)Arcane Ashes$() in hand. This will consume 1 durability out of 20 from the $(item)Arcane Ashes$() and draw a simple $(thing)Alchemy Array$(), that by itself has no effects. $(br2)When you click on the $(thing)Alchemy Array$(), it will consume a single $(item)item$() from the stack in your hand and hold it in the array. These items are then used to determine the $(thing)Alchemy Array$()'s effect."
+        translation: "錬金術陣を作成するには、$(item)秘術の灰$()を手に持ってブロックを見ながら[$(k:use)]を押します。これにより$(item)秘術の灰$()の耐久値20のうち1が消費され、それ自体には効果のない単純な$(thing)錬金術陣$()が描かれます。$(br2)$(thing)錬金術陣$()をクリックすると、手に持っているスタックから1つの$(item)アイテム$()を消費し、陣の中に保持します。これらのアイテムは、$(thing)錬金術陣$()の効果を決定するために使用されます。"
+
+      - page: 3
+        type: "image"
+        images:
+          - "bloodmagic:images/entries/alchemy_array/simple_array.png"
+          - "bloodmagic:images/entries/alchemy_array/divination_array_1.png"
+          - "bloodmagic:images/entries/alchemy_array/divination_array_2.png"
+        title:
+          source: "Alchemy Array"
+          translation: "錬金術陣"
+        border: true
+        text:
+          source: "$(thing)Alchemy Array$() showing the array with: no inputs; only the $(item)base item$(); both $(item)base$() and $(item)catalyst$()."
+          translation: "$(thing)錬金術陣$()：入力なし、$(item)基礎アイテム$()のみ、$(item)基礎$()と$(item)触媒$()の両方の状態を示しています。"
+
+      - page: 4
+        type: "text"
+        source: "Each effect requires two items: a $(item)base$() and a $(item)catalyst$(). The $(item)base$() is the first item that you click the array with after it is drawn, and the $(item)catalyst$() is the second item. When you apply the base item, the design of the array will change if it is valid, and the array will activate once you apply the catalyst."
+        translation: "各効果には2つのアイテムが必要です：$(item)基礎$()と$(item)触媒$()です。$(item)基礎$()は、陣を描いた後に最初にクリックするアイテムで、$(item)触媒$()は2番目のアイテムです。基礎アイテムを適用すると、それが有効な場合は陣のデザインが変わり、触媒を適用すると陣が起動します。"
+
+      - page: 5
+        type: "text"
+        source: "Although only a few arrays are currently implemented, eventually you will have arrays that range from simple $(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)crafting arrays$(/l) to even teleportation arrays."
+        translation: "現在実装されているのは少数の陣だけですが、最終的には単純な$(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)クラフト陣$(/l)からテレポート陣まで、様々な陣が利用できるようになります。"
+
+  # --------------------------------------------------------------------------
+  # Crafting Array
+  # --------------------------------------------------------------------------
+  - id: crafting_array
+    category: alchemy_array/functional_array
+    name:
+      source: "Crafting with Arrays"
+      translation: "陣によるクラフト"
+    icon: "bloodmagic:divinationsigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "$(1)Alchemy Arrays of Crafting$() are one of the simplest forms of array. These arrays inscribe the $(item)base item$() onto the $(item)catalyst$(), transforming them both into a useful item (after a small, pretty animation)."
+        translation: "$(1)クラフトの錬金術陣$()は、最も単純な形式の陣の1つです。これらの陣は$(item)基礎アイテム$()を$(item)触媒$()に刻み込み、両方を有用なアイテムに変換します（小さな美しいアニメーションの後）。"
+
+      - page: 1
+        type: "text"
+        source: "While some of these resulting items can be crafted $(l:bloodmagic:alchemy_array/sigil/divination)using very simple ingredients$(/l), others require additional steps to create useful items."
+        translation: "これらの結果アイテムの一部は$(l:bloodmagic:alchemy_array/sigil/divination)非常に単純な材料を使って$(/l)作成できますが、有用なアイテムを作成するには追加の手順が必要なものもあります。"
+
+  # --------------------------------------------------------------------------
+  # Movement Arrays
+  # --------------------------------------------------------------------------
+  - id: movement_arrays
+    category: alchemy_array/functional_array
+    name:
+      source: "Movement Array"
+      translation: "移動陣"
+    icon: "minecraft:feather"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The Movement Arrays are a pair of arrays that throws players, mobs, items, etc in a specific direction.  One will throw the items horizontally, while the other will throw them vertically."
+        translation: "移動陣は、プレイヤー、Mob、アイテムなどを特定の方向に投げ飛ばす一対の陣です。一方は水平方向に投げ飛ばし、もう一方は垂直方向に投げ飛ばします。"
+
+      - page: 1
+        type: "2x_functional_array"
+        a.heading:
+          source: "Speed Array"
+          translation: "速度陣"
+        a.recipe: "bloodmagic:array/movement"
+        a.image: "movementarray.png"
+        b.heading:
+          source: "Updraft Array"
+          translation: "上昇気流陣"
+        b.recipe: "bloodmagic:array/updraft"
+        b.image: "updraftarray.png"
+
+  # --------------------------------------------------------------------------
+  # Spike Array
+  # --------------------------------------------------------------------------
+  - id: spike_array
+    category: alchemy_array/functional_array
+    name:
+      source: "Spike Array"
+      translation: "棘陣"
+    icon: "minecraft:iron_ingot"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The Spike Array is a rather simple array with a single purpose. When a living entity steps into the array, they are hit with a full heart of damage. This is good for mob traps, or for making your base a bit spikier for players."
+        translation: "棘陣は単一の目的を持つ非常にシンプルな陣です。生きているエンティティが陣に踏み込むと、ハート1個分のダメージを受けます。Mobトラップや、拠点をプレイヤーにとって少し危険にするのに適しています。"
+
+      - page: 1
+        type: "functional_array"
+        heading:
+          source: "Spike Array"
+          translation: "棘陣"
+        recipe: "bloodmagic:array/spike"
+        image: "spikearray.png"
+
+  # --------------------------------------------------------------------------
+  # Time Arrays (Day/Night)
+  # --------------------------------------------------------------------------
+  - id: time_arrays
+    category: alchemy_array/functional_array
+    name:
+      source: "Day/Night Arrays"
+      translation: "昼夜陣"
+    icon: "minecraft:clock"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Time-based arrays are straight-forward arrays that control the time of day. The items will be consumed once the array starts changing the time. These recipes are temporary and will change in the future.$(br2)The Day array will change the time of day to the next sunrise. The Night array will change the time of day to the next sunset."
+        translation: "時間ベースの陣は、時刻を制御する直接的な陣です。陣が時間の変更を開始すると、アイテムが消費されます。これらのレシピは暫定的なもので、将来変更されます。$(br2)昼陣は時刻を次の日の出に変更します。夜陣は時刻を次の日の入りに変更します。"
+
+      - page: 1
+        type: "2x_functional_array"
+        a.heading:
+          source: "New Dawn"
+          translation: "新しい夜明け"
+        a.recipe: "bloodmagic:array/day"
+        a.image: "sunarray.png"
+        b.heading:
+          source: "True Twilight"
+          translation: "真の黄昏"
+        b.recipe: "bloodmagic:array/night"
+        b.image: "moonarray.png"
+
+# ==============================================================================
+# SIGILS - シジル
+# ==============================================================================
+
+  # --------------------------------------------------------------------------
+  # Air Sigil
+  # --------------------------------------------------------------------------
+  - id: air
+    category: alchemy_array/sigil
+    name:
+      source: "Air Sigil"
+      translation: "大気のシジル"
+    icon: "bloodmagic:airsigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Throws you in the direction you're facing, at a cost of $(blood)50 LP$() per use. Note that this does not provide any sort of Feather Falling effect, so be careful when landing! A good way to get around quickly, albeit with some risk. Many an unwary mage has met their end by running out of $(blood)LP$() in their $(l:bloodmagic:altar/soul_network)Soul Network$() while flying miles above the countryside."
+        translation: "使用ごとに$(blood)50 LP$()のコストで、向いている方向に飛ばします。これはフェザーフォーリング効果を提供しないので、着地には注意してください！多少のリスクはありますが、素早く移動する良い方法です。多くの不用心な魔術師が、田園地帯の遥か上空を飛行中に$(l:bloodmagic:altar/soul_network)ソウルネットワーク$()の$(blood)LP$()を使い果たして命を落としています。"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Air Reagent"
+          translation: "大気の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_air"
+        array.heading:
+          source: "Air Sigil"
+          translation: "大気のシジル"
+        array.recipe: "bloodmagic:array/airsigil"
+        array.text:
+          source: "$(italic)I feel lighter already...$()"
+          translation: "$(italic)もう軽くなった気がする...$()"
+
+  # --------------------------------------------------------------------------
+  # Blood Light Sigil
+  # --------------------------------------------------------------------------
+  - id: blood_light
+    category: alchemy_array/sigil
+    name:
+      source: "Sigil of the Blood Lamp"
+      translation: "血の灯火のシジル"
+    icon: "bloodmagic:bloodlightsigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The $(item)Sigil of the Blood Lamp$() is a handy tool for any miner, dungeon delver, or simply any Sanguimancer that doesn't like dark patches and feels that torches and glowstone blocks get in the way. When used, this sigil launches a Blood Light in the direction you are facing. When it hits a block, it spawns a nearly-invisible light source at a cost of $(blood)10 LP$()."
+        translation: "$(item)血の灯火のシジル$()は、あらゆる鉱夫、ダンジョン探索者、または単に暗い場所が嫌いで松明やグロウストーンブロックが邪魔だと感じる血の魔術師にとって便利なツールです。使用すると、このシジルは向いている方向に血の光を放ちます。ブロックに当たると、$(blood)10 LP$()のコストでほぼ不可視の光源を生成します。"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Blood Lamp Reagent"
+          translation: "血の灯火の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_blood_light"
+        array.heading:
+          source: "Sigil of the Blood Lamp"
+          translation: "血の灯火のシジル"
+        array.recipe: "bloodmagic:array/bloodlightsigil"
+        array.text:
+          source: "$(italic)I see a light!"
+          translation: "$(italic)光が見える！"
+
+  # --------------------------------------------------------------------------
+  # Divination Sigil
+  # --------------------------------------------------------------------------
+  - id: divination
+    category: alchemy_array/sigil
+    name:
+      source: "Divination Sigil"
+      translation: "占いのシジル"
+    icon: "bloodmagic:divinationsigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The $(item)Divination Sigil$() is probably the first of many sigils that you would like to craft in Blood Magic. In order to craft the sigil, you need to create an $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Alchemy Array$(/l) and use $(item)Redstone Dust$() and a $(item)Blank Slate$() as the base and catalyst items, respectively."
+        translation: "$(item)占いのシジル$()は、おそらくBlood Magicで作成したい多くのシジルの中で最初のものでしょう。このシジルを作成するには、$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)錬金術陣$(/l)を作成し、基礎と触媒アイテムとして、それぞれ$(item)レッドストーンダスト$()と$(item)空白の石板$()を使用する必要があります。"
+
+      - page: 1
+        type: "crafting_array"
+        heading:
+          source: "Divination Sigil"
+          translation: "占いのシジル"
+        recipe: "bloodmagic:array/divinationsigil"
+        text:
+          source: " $(italic)Peer into the soul."
+          translation: " $(italic)魂を覗き込む。"
+
+      - page: 2
+        type: "image"
+        images:
+          - "bloodmagic:images/entries/sigil/divination_sigil.png"
+        title:
+          source: "Divination Sigil Array"
+          translation: "占いのシジル陣"
+        border: true
+        text:
+          source: "The Divination Sigil, next to its crafting array."
+          translation: "占いのシジルと、そのクラフト陣。"
+
+      - page: 3
+        type: "text"
+        source: "The Divination Sigil has two primary uses: $(br)$(li)When any player presses [$(k:use)] while aiming at the air with a bound sigil, it will display the amount of $(blood)LP$() that is in the owner's $(l:bloodmagic:altar/soul_network)Soul Network.$(/l)$(li)When pressing [$(k:use)] on a $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l), it will tell the player the altar's current Tier, the amount of $(blood)Life Essence$() stored in the altar, as well as its current max capacity. Having a $(item)Divination Sigil$() on hand can also be helpful for the $(l:bloodmagic:utility/incense_altar)Incense Altar$()."
+        translation: "占いのシジルには2つの主な用途があります：$(br)$(li)結合したシジルを持って空中に向けて[$(k:use)]を押すと、所有者の$(l:bloodmagic:altar/soul_network)ソウルネットワーク$(/l)内の$(blood)LP$()の量が表示されます。$(li)$(l:bloodmagic:altar/blood_altar)血の祭壇$(/l)で[$(k:use)]を押すと、祭壇の現在のティア、祭壇に保存されている$(blood)生命のエッセンス$()の量、および現在の最大容量がプレイヤーに表示されます。$(item)占いのシジル$()を手元に置いておくことは、$(l:bloodmagic:utility/incense_altar)香の祭壇$()でも役立ちます。"
+
+      - page: 4
+        type: "image"
+        images:
+          - "bloodmagic:images/entries/sigil/divination_sigil_info.png"
+        title:
+          source: "Divination's Sigil Display"
+          translation: "占いのシジルの表示"
+        border: true
+        text:
+          source: "The Divination Sigil displays this HUD when you are looking at a Blood Altar."
+          translation: "占いのシジルは、血の祭壇を見ているときにこのHUDを表示します。"
+
+  # --------------------------------------------------------------------------
+  # Green Grove Sigil
+  # --------------------------------------------------------------------------
+  - id: grove
+    category: alchemy_array/sigil
+    name:
+      source: "Sigil of the Green Grove"
+      translation: "緑の森のシジル"
+    icon: "bloodmagic:growthsigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The $(item)Sigil of the Green Grove$() is an item that has multiple uses. Crafted in an array with a $(item)Growth Reagent$() and a $(item)Reinforced Slate$(), the sigil can use your $(thing)Soul Network$()'s $(blood)LP$() to nourish and grow nearby plants."
+        translation: "$(item)緑の森のシジル$()は、複数の用途を持つアイテムです。$(item)成長の試薬$()と$(item)強化石板$()を使って陣で作成され、このシジルはあなたの$(thing)ソウルネットワーク$()の$(blood)LP$()を使って近くの植物を育成し成長させることができます。"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Growth Reagent"
+          translation: "成長の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_growth"
+        array.heading:
+          source: "Sigil of the Green Grove"
+          translation: "緑の森のシジル"
+        array.recipe: "bloodmagic:array/growthsigil"
+
+      - page: 2
+        type: "image"
+        images:
+          - "bloodmagic:images/entries/sigil/grove_sigil1.png"
+          - "bloodmagic:images/entries/sigil/grove_sigil2.png"
+          - "bloodmagic:images/entries/sigil/grove_sigil3.png"
+        title:
+          source: "Green Grove Sigil Array"
+          translation: "緑の森のシジル陣"
+        border: true
+        text:
+          source: "The Sigil of the Green Grove's array, plus its primary uses."
+          translation: "緑の森のシジルの陣と、その主な用途。"
+
+      - page: 3
+        type: "text"
+        source: "If you press [$(k:use)] on a block that is $(2)IGrowable$(), it will apply the bonemeal effect while consuming $(blood)150 LP$(). $(br2)However, if you hold [$(k:sneak)] and [$(k:use)] while aiming at the air, it will light up to indicate that it is activated, and will consume $(blood)150 LP$() every 5 seconds until deactivated. Every block in a 7x7x5 high volume centered on the player will have a growth tick applied to it. Good for farming those taters!"
+        translation: "$(2)成長可能な$()ブロックで[$(k:use)]を押すと、$(blood)150 LP$()を消費して骨粉効果を適用します。$(br2)ただし、空中に向けて[$(k:sneak)]と[$(k:use)]を押し続けると、起動を示すために光り、無効化するまで5秒ごとに$(blood)150 LP$()を消費します。プレイヤーを中心とした7x7x高さ5のボリューム内のすべてのブロックに成長ティックが適用されます。ジャガイモ栽培に最適です！"
+
+      - page: 4
+        type: "text"
+        flag: "mod:curios"
+        source: "As you have the $(thing)Curios API$() installed, you can equip this $(item)Sigil$() as a charm. If you want to wear more curios at once, consider using a $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Holding$(), or the $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() for your $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$()."
+        translation: "$(thing)Curios API$()がインストールされているため、この$(item)シジル$()をチャームとして装備できます。一度に複数のキュリオを装備したい場合は、$(l:bloodmagic:alchemy_array/sigil/holding)保持のシジル$()、または$(l:bloodmagic:alchemy_array/living_equipment/living_basics)生きている防具$()用の$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)ソケット付きアップグレード$()の使用を検討してください。"
+
+  # --------------------------------------------------------------------------
+  # Holding Sigil
+  # --------------------------------------------------------------------------
+  - id: holding
+    category: alchemy_array/sigil
+    name:
+      source: "Sigil of Holding"
+      translation: "保持のシジル"
+    icon: "bloodmagic:sigilofholding"
+    pages:
+      - page: 0
+        type: "text"
+        source: "This Sigil can hold up to 5 other $(item)Sigils$() at a time, providing you with their passive effects and allowing you to activate them on a whim.$(br)Press [$(k:bloodmagic.keybind.open_holding)] while holding the Sigil to open its inventory.$() $(br)Press [$(k:bloodmagic.keybind.cycle_holding_pos)] to cycle forward,$() or [$(k:bloodmagic.keybind.cycle_holding_neg)] to cycle backwards.$() holding [$(k:sneak)] and using your mousewheel also works."
+        translation: "このシジルは最大5つの他の$(item)シジル$()を同時に保持でき、パッシブ効果を提供し、気まぐれに起動することができます。$(br)シジルを持ちながら[$(k:bloodmagic.keybind.open_holding)]を押してインベントリを開きます。$() $(br)[$(k:bloodmagic.keybind.cycle_holding_pos)]を押して前方に切り替え、$()または[$(k:bloodmagic.keybind.cycle_holding_neg)]を押して後方に切り替えます。$() [$(k:sneak)]を押しながらマウスホイールを使用することもできます。"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Holding Reagent"
+          translation: "保持の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_holding"
+        array.heading:
+          source: "Sigil of Holding"
+          translation: "保持のシジル"
+        array.recipe: "bloodmagic:array/holdingsigil"
+        array.text:
+          source: "$(italic)Sigil-ception"
+          translation: "$(italic)シジルの入れ子"
+
+      - page: 2
+        type: "text"
+        flag: "mod:curios"
+        source: "As you have the $(thing)Curios API$() installed, you can equip this $(item)Sigil$() as a charm. If you want to wear more curios at once, consider using the $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() for your $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$()."
+        translation: "$(thing)Curios API$()がインストールされているため、この$(item)シジル$()をチャームとして装備できます。一度に複数のキュリオを装備したい場合は、$(l:bloodmagic:alchemy_array/living_equipment/living_basics)生きている防具$()用の$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)ソケット付きアップグレード$()の使用を検討してください。"
+
+  # --------------------------------------------------------------------------
+  # Ice Sigil
+  # --------------------------------------------------------------------------
+  - id: ice
+    category: alchemy_array/sigil
+    name:
+      source: "Sigil of the Frozen Lake [NYI]"
+      translation: "凍てつく湖のシジル [未実装]"
+    icon: "bloodmagic:icesigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "[WIP Notes]$(br)[Not Yet Implemented]$(br2)Frostwalker Enchantment as a Sigil."
+        translation: "[作業中メモ]$(br)[未実装]$(br2)氷渡りエンチャントのシジル版。"
+
+  # --------------------------------------------------------------------------
+  # Lava Sigil
+  # --------------------------------------------------------------------------
+  - id: lava
+    category: alchemy_array/sigil
+    name:
+      source: "Lava Sigil"
+      translation: "溶岩のシジル"
+    icon: "bloodmagic:lavasigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The sister sigil to the $(l:bloodmagic:alchemy_array/sigil/water)Water Sigil$(/l). Press [$(k:use)] when holding the $(item)Lava Sigil$() to create a source block of $(fire)lava$() on the ground, for the cost of $(blood)1000 LP$(). Crafted in an $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Alchemy Array$(/l) using a $(item)Lava Reagent$() and a $(item)Blank Slate,$() it'll drain 5 hearts from you if you don't have enough LP in your $(l:bloodmagic:altar/soul_network)Soul Network.$(/l)"
+        translation: "$(l:bloodmagic:alchemy_array/sigil/water)水のシジル$(/l)の姉妹シジル。$(item)溶岩のシジル$()を持って[$(k:use)]を押すと、$(blood)1000 LP$()のコストで地面に$(fire)溶岩$()のソースブロックを作成します。$(item)溶岩の試薬$()と$(item)空白の石板$()を使って$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)錬金術陣$(/l)で作成され、$(l:bloodmagic:altar/soul_network)ソウルネットワーク$(/l)に十分なLPがない場合は、ハート5個分を消耗します。"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Lava Reagent"
+          translation: "溶岩の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_lava"
+        array.heading:
+          source: "Lava Sigil"
+          translation: "溶岩のシジル"
+        array.recipe: "bloodmagic:array/lavasigil"
+        array.text:
+          source: "$(italic)HOT! DO NOT EAT$()"
+          translation: "$(italic)熱い！食べないでください$()"
+
+      - page: 2
+        type: "image"
+        images:
+          - "bloodmagic:images/entries/sigil/lava_sigil1.png"
+          - "bloodmagic:images/entries/sigil/lava_sigil2.png"
+        title:
+          source: "Lava Sigil Array"
+          translation: "溶岩のシジル陣"
+        border: true
+        text:
+          source: "The Lava Sigil, next to its crafting array, plus its primary use."
+          translation: "溶岩のシジルと、そのクラフト陣、および主な用途。"
+
+      - page: 3
+        type: "crafting_alchemy_table"
+        heading:
+          source: "Lava Bucket"
+          translation: "溶岩バケツ"
+        recipe: "bloodmagic:alchemytable/sigil_lava_bucket"
+        text:
+          source: "What's more, it can be used in the $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() to automate the production of $(fire)Lava Buckets$(). The Sigil is not consumed in this recipe."
+          translation: "さらに、$(l:bloodmagic:alchemy_table/alchemy_table)錬金術テーブル$()で使用して$(fire)溶岩バケツ$()の生産を自動化できます。このレシピでシジルは消費されません。"
+
+  # --------------------------------------------------------------------------
+  # Magnetism Sigil
+  # --------------------------------------------------------------------------
+  - id: magnetism
+    category: alchemy_array/sigil
+    name:
+      source: "Sigil of Magnetism"
+      translation: "磁力のシジル"
+    icon: "bloodmagic:sigilofmagnetism"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Increases the player's item pickup range to 7 blocks when active. Toggle on/off by holding the Sigil in your hand, and then holding [$(k:sneak)] and pressing [$(k:use)]. $(br2)Consumes 50 $(blood)LP$() every 5 seconds while active."
+        translation: "アクティブ時にプレイヤーのアイテム拾得範囲を7ブロックに拡大します。シジルを手に持ち、[$(k:sneak)]を押しながら[$(k:use)]を押してオン/オフを切り替えます。$(br2)アクティブ中は5秒ごとに50 $(blood)LP$()を消費します。"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Magnetism Reagent"
+          translation: "磁力の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_magnetism"
+        array.heading:
+          source: "Sigil of Magnetism"
+          translation: "磁力のシジル"
+        array.recipe: "bloodmagic:array/magnetismsigil"
+
+      - page: 2
+        type: "text"
+        flag: "mod:curios"
+        source: "As you have the $(thing)Curios API$() installed, you can equip this $(item)Sigil$() as a charm. If you want to wear more curios at once, consider using a $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Holding$(), or the $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() for your $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$()."
+        translation: "$(thing)Curios API$()がインストールされているため、この$(item)シジル$()をチャームとして装備できます。一度に複数のキュリオを装備したい場合は、$(l:bloodmagic:alchemy_array/sigil/holding)保持のシジル$()、または$(l:bloodmagic:alchemy_array/living_equipment/living_basics)生きている防具$()用の$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)ソケット付きアップグレード$()の使用を検討してください。"
+
+  # --------------------------------------------------------------------------
+  # Mining Sigil
+  # --------------------------------------------------------------------------
+  - id: mining
+    category: alchemy_array/sigil
+    name:
+      source: "Sigil of the Fast Miner"
+      translation: "俊速の採掘師のシジル"
+    icon: "bloodmagic:miningsigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The $(item)Sigil of the Fast Miner$() is a Sigil that, when activated using [$(k:sneak)] and [$(k:use)], will consume $(blood)100 LP$() every 5 seconds and apply the Haste potion effect. Thus, it increases your mining, digging, and cutting speeds. Crafted using the $(item)Mining Reagent$() and $(item)Reinforced Slate$() in an alchemy array."
+        translation: "$(item)俊速の採掘師のシジル$()は、[$(k:sneak)]と[$(k:use)]を使って起動すると、5秒ごとに$(blood)100 LP$()を消費し、採掘速度上昇のポーション効果を適用するシジルです。これにより、採掘、掘削、伐採の速度が上昇します。錬金術陣で$(item)採掘の試薬$()と$(item)強化石板$()を使って作成されます。"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Mining Reagent"
+          translation: "採掘の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_fastminer"
+        array.heading:
+          source: "Sigil of the Fast Miner"
+          translation: "俊速の採掘師のシジル"
+        array.recipe: "bloodmagic:array/fastminersigil"
+
+      - page: 2
+        type: "image"
+        images:
+          - "bloodmagic:images/entries/sigil/mining_sigil1.png"
+          - "bloodmagic:images/entries/sigil/mining_sigil2.png"
+        title:
+          source: "Fast Miner Sigil Array"
+          translation: "俊速の採掘師のシジル陣"
+        border: true
+        text:
+          source: "The Sigil of the Fast Miner's array, plus its primary uses."
+          translation: "俊速の採掘師のシジルの陣と、その主な用途。"
+
+      - page: 3
+        type: "text"
+        flag: "mod:curios"
+        source: "As you have the $(thing)Curios API$() installed, you can equip this $(item)Sigil$() as a charm. If you want to wear more curios at once, consider using a $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Holding$(), or the $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() for your $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$()."
+        translation: "$(thing)Curios API$()がインストールされているため、この$(item)シジル$()をチャームとして装備できます。一度に複数のキュリオを装備したい場合は、$(l:bloodmagic:alchemy_array/sigil/holding)保持のシジル$()、または$(l:bloodmagic:alchemy_array/living_equipment/living_basics)生きている防具$()用の$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)ソケット付きアップグレード$()の使用を検討してください。"
+
+  # --------------------------------------------------------------------------
+  # Seer's Sigil
+  # --------------------------------------------------------------------------
+  - id: seer
+    category: alchemy_array/sigil
+    name:
+      source: "Seer's Sigil"
+      translation: "予見者のシジル"
+    icon: "bloodmagic:seersigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The $(item)Seer's Sigil$() is a more advanced form of the $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$().  Alongside showing the amount of LP in the bound player's $(l:bloodmagic:altar/soul_network)Soul Network$(/l), it also shows more information when looking at a $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l)."
+        translation: "$(item)予見者のシジル$()は、$(l:bloodmagic:alchemy_array/sigil/divination)占いのシジル$()のより高度な形態です。結合されたプレイヤーの$(l:bloodmagic:altar/soul_network)ソウルネットワーク$(/l)内のLPの量を表示するとともに、$(l:bloodmagic:altar/blood_altar)血の祭壇$(/l)を見ているときに、より多くの情報を表示します。"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Sight Reagent"
+          translation: "視覚の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_sight"
+        array.heading:
+          source: "Seer's Sigil"
+          translation: "予見者のシジル"
+        array.recipe: "bloodmagic:array/seersigil"
+        array.text:
+          source: "$(italic)When seeing all is not enough"
+          translation: "$(italic)全てを見ることでも十分でない時"
+
+      - page: 2
+        type: "text"
+        source: "From top to bottom, we have: $(li)The current Tier of the $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l). $(li)The amount of blood currently inside the Altar, and the current total capacity of the Altar. (This defaults to 10,000mb, but may be increased with $(l:bloodmagic:altar/blood_rune/capacity_rune)Runes of Capacity$() and $(l:bloodmagic:altar/blood_rune/aug_capacity_rune)Runes of Augmented Capacity.$() $(li)The current crafting progress, if any. $(li)LP Consumption/Tick - how much LP the Altar will use per tick when crafting. $(li) Current LP Storage of any $(l:bloodmagic:altar/blood_rune/charging_rune)Charging Runes$() you may have."
+        translation: "上から順に：$(li)$(l:bloodmagic:altar/blood_altar)血の祭壇$(/l)の現在のティア。$(li)祭壇内の現在の血の量と、祭壇の現在の総容量。（デフォルトは10,000mbですが、$(l:bloodmagic:altar/blood_rune/capacity_rune)容量のルーン$()と$(l:bloodmagic:altar/blood_rune/aug_capacity_rune)増強容量のルーン$()で増やすことができます。）$(li)現在のクラフト進行状況（ある場合）。$(li)LP消費/ティック - クラフト時に祭壇がティックごとに使用するLPの量。$(li)あなたが持っているかもしれない$(l:bloodmagic:altar/blood_rune/charging_rune)チャージングルーン$()の現在のLP貯蔵量。"
+
+      - page: 3
+        type: "image"
+        images:
+          - "bloodmagic:images/entries/sigil/seer_sigil_info.png"
+        title:
+          source: "Seer's Sigil Display"
+          translation: "予見者のシジルの表示"
+        border: true
+        text:
+          source: "The Seer's Sigil displays this HUD when you are looking at a Blood Altar."
+          translation: "予見者のシジルは、血の祭壇を見ているときにこのHUDを表示します。"
+
+  # --------------------------------------------------------------------------
+  # Suppression Sigil
+  # --------------------------------------------------------------------------
+  - id: suppression
+    category: alchemy_array/sigil
+    name:
+      source: "Sigil of Suppression"
+      translation: "抑制のシジル"
+    icon: "bloodmagic:sigilofsuppression"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The $(item)Sigil of Suppression$(), when activated via pressing [$(k:use)], will temporarily obliviate all fluids in a roughly 6-block radius of its holder. A short while after moving away from the liquid in question, it will return as though it never left. While this will make exploring the lava oceans of the Nether much easier, beware of jumping into any deep pools of water with this active!"
+        translation: "$(item)抑制のシジル$()は、[$(k:use)]を押して起動すると、保持者のおよそ6ブロック半径内のすべての液体を一時的に消滅させます。問題の液体から離れてしばらくすると、それは去らなかったかのように戻ります。これによりネザーの溶岩の海の探索が格段に簡単になりますが、これをアクティブにしたまま深い水たまりに飛び込まないよう注意してください！"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Suppression Reagent"
+          translation: "抑制の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_suppression"
+        array.heading:
+          source: "Sigil of Suppression"
+          translation: "抑制のシジル"
+        array.recipe: "bloodmagic:array/suppressionsigil"
+        array.text:
+          source: "$(italic)Better than a Void Sigil®!"
+          translation: "$(italic)虚空のシジル®より優れている！"
+
+  # --------------------------------------------------------------------------
+  # Teleposition Sigil
+  # --------------------------------------------------------------------------
+  - id: teleposition
+    category: alchemy_array/sigil
+    name:
+      source: "Teleposition Sigil"
+      translation: "転位のシジル"
+    icon: "bloodmagic:telepositionsigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Teleports the user to a linked Teleposer at a cost of $(blood)1000 LP$() per use. By shift-clicking on a Teleposer with the sigil in hand, the location and dimension of the Teleposer can be recorded, allowing for a quick escape back home. $(br2)Just don't move the Teleposer by accident..."
+        translation: "使用ごとに$(blood)1000 LP$()のコストで、リンクされたテレポーザーにユーザーをテレポートします。シジルを手に持ってテレポーザーをシフトクリックすることで、テレポーザーの場所とディメンションを記録でき、自宅への素早い脱出が可能になります。$(br2)ただし、テレポーザーを誤って動かさないように..."
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Teleposition Reagent"
+          translation: "転位の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_teleposition"
+        array.heading:
+          source: "Teleposition Sigil"
+          translation: "転位のシジル"
+        array.recipe: "bloodmagic:array/telepositionsigil"
+        array.text:
+          source: "$(italic)Now you see me...!$()"
+          translation: "$(italic)今、あなたは私を見ている...！$()"
+
+  # --------------------------------------------------------------------------
+  # Void Sigil
+  # --------------------------------------------------------------------------
+  - id: void
+    category: alchemy_array/sigil
+    name:
+      source: "Void Sigil"
+      translation: "虚空のシジル"
+    icon: "bloodmagic:voidsigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The $(item)Void sigil$(), when you press [$(k:use)] while looking at any fluid, will destroy it at a cost of 50LP per block. Good for clearing out irksome lava flows without all that tedious placing and breaking of individual blocks."
+        translation: "$(item)虚空のシジル$()は、任意の液体を見ながら[$(k:use)]を押すと、ブロックごとに50LPのコストでそれを破壊します。煩わしい溶岩流を、個々のブロックを配置して壊すという面倒な作業なしで除去するのに適しています。"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Void Reagent"
+          translation: "虚空の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_void"
+        array.heading:
+          source: "Void Sigil"
+          translation: "虚空のシジル"
+        array.recipe: "bloodmagic:array/voidsigil"
+        array.text:
+          source: "$(italic)Better than a Swiffer®!"
+          translation: "$(italic)スイッファー®より優れている！"
+
+  # --------------------------------------------------------------------------
+  # Water Sigil
+  # --------------------------------------------------------------------------
+  - id: water
+    category: alchemy_array/sigil
+    name:
+      source: "Water Sigil"
+      translation: "水のシジル"
+    icon: "bloodmagic:watersigil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "The $(item)Water Sigil$() is a rather simple sigil. When you press [$(k:use)] while looking at a block, you can drain 100LP from your $(l:bloodmagic:altar/soul_network)Soul Network$(/l) to place a source block of water in the world. If there's not enough LP, it will instead drain the toll from your health. Crafted using a $(item)Water Reagent$() and a $(item)Blank Slate.$()"
+        translation: "$(item)水のシジル$()は非常にシンプルなシジルです。ブロックを見ながら[$(k:use)]を押すと、$(l:bloodmagic:altar/soul_network)ソウルネットワーク$(/l)から100LPを消費して、世界に水のソースブロックを配置できます。LPが不足している場合は、代わりに体力から代償を支払います。$(item)水の試薬$()と$(item)空白の石板$()を使って作成されます。"
+
+      - page: 1
+        type: "crafting_2-step_sigil"
+        alchemy_table.heading:
+          source: "Water Reagent"
+          translation: "水の試薬"
+        alchemy_table.recipe: "bloodmagic:alchemytable/reagent_water"
+        array.heading:
+          source: "Water Sigil"
+          translation: "水のシジル"
+        array.recipe: "bloodmagic:array/watersigil"
+        array.text:
+          source: "$(italic)Infinite water, anyone?"
+          translation: "$(italic)無限の水、いかがですか？"
+
+      - page: 2
+        type: "image"
+        images:
+          - "bloodmagic:images/entries/sigil/water_sigil1.png"
+          - "bloodmagic:images/entries/sigil/water_sigil2.png"
+        title:
+          source: "Water Sigil Array"
+          translation: "水のシジル陣"
+        border: true
+        text:
+          source: "The Water Sigil, next to its crafting array, plus its primary use."
+          translation: "水のシジルと、そのクラフト陣、および主な用途。"
+
+      - page: 3
+        type: "crafting_alchemy_table"
+        heading:
+          source: "Water Bucket"
+          translation: "水バケツ"
+        recipe: "bloodmagic:alchemytable/sigil_water_bucket"
+        text:
+          source: "What's more, it can be used in the $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() to automate the production of $(water)Water Buckets$(). The Sigil is not consumed in this recipe."
+          translation: "さらに、$(l:bloodmagic:alchemy_table/alchemy_table)錬金術テーブル$()で使用して$(water)水バケツ$()の生産を自動化できます。このレシピでシジルは消費されません。"
+
+# ==============================================================================
+# LIVING EQUIPMENT - 生きている装備
+# ==============================================================================
+
+  # --------------------------------------------------------------------------
+  # Living Equipment Basics
+  # --------------------------------------------------------------------------
+  - id: living_basics
+    category: alchemy_array/living_equipment
+    name:
+      source: "Living Equipment Basics"
+      translation: "生きている装備の基本"
+    icon: "bloodmagic:reagentbinding"
+    pages:
+      - page: 0
+        type: "text"
+        source: "To create $(item)Living Equipment$(), you will first need $(item)Iron Armor$() (or $(item)Iron Armour$(), if you prefer), some $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arcane Ash$(), and some $(item)Binding Reagent$(). You'll also need at least a $(br)$(l:bloodmagic:demon_will/will_manipulation/soul_gem)Common Tartaric Gem$() in order to hold the $(item)Demon Will$() required."
+        translation: "$(item)生きている装備$()を作成するには、まず$(item)鉄の防具$()（お好みで$(item)Iron Armour$()でも可）、$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)秘術の灰$()、および$(item)結合の試薬$()が必要です。また、必要な$(item)悪魔の意志$()を保持するために、少なくとも$(br)$(l:bloodmagic:demon_will/will_manipulation/soul_gem)通常タルタロスの宝石$()が必要です。"
+
+      - page: 1
+        type: "crafting_alchemy_table"
+        heading:
+          source: "Binding Reagent"
+          translation: "結合の試薬"
+        recipe: "bloodmagic:alchemytable/reagent_binding"
+        text:
+          source: "$(italic)It clings to me tightly...$() $(br2)$(br2)$(item)Living Equipment$() is equivalent in durability to $(item)Diamond Armour$(), and can be repaired in an $(thing)Anvil$() with more $(thing)Binding Reagent.$()"
+          translation: "$(italic)私にしっかりとまとわりついている...$() $(br2)$(br2)$(item)生きている装備$()は耐久性が$(item)ダイヤモンド防具$()と同等で、より多くの$(thing)結合の試薬$()を使って$(thing)金床$()で修理できます。"
+
+      - page: 2
+        type: "text"
+        source: "as with any other Alchemy Array, press [$(k:use)] while looking at a block with the $(item)Arcane Ashes$() in hand, then apply the $(item)Binding Reagent$(). Then place in your $(item)Iron Helmet$(), $(item)Iron Chestplate$(), $(item)Iron Leggings$() or $(item)Iron Boots$(), stand back, and watch the show.$(br2) Living Equipment starts off equivalent to Iron, but it has $(thing)Upgrade Points$() that can, with care, be spent to train it in specific ways. It starts with 100, but there may be ways to surpass this limitation..."
+        translation: "他の錬金術陣と同様に、$(item)秘術の灰$()を手に持ってブロックを見ながら[$(k:use)]を押し、次に$(item)結合の試薬$()を適用します。その後、$(item)鉄のヘルメット$()、$(item)鉄のチェストプレート$()、$(item)鉄のレギンス$()、または$(item)鉄のブーツ$()を置き、後ろに下がってショーを見守りましょう。$(br2)生きている装備は最初は鉄と同等ですが、注意深く使うことで特定の方法で訓練するために使える$(thing)アップグレードポイント$()があります。最初は100ですが、この制限を超える方法があるかもしれません..."
+
+      - page: 3
+        type: "crafting_array"
+        heading:
+          source: "Ritual of Binding"
+          translation: "結合の儀式"
+        recipe: "bloodmagic:array/living_helmet"
+        text:
+          source: "It's alive, all right... and it's learning from you. You'd best be careful what you teach it. $(br2)You can keep a closer eye on what it's learned so far by holding [$(k:sneak)] when you look at it."
+          translation: "確かに生きています...そして、あなたから学んでいます。何を教えるか注意した方が良いでしょう。$(br2)それを見るときに[$(k:sneak)]を押し続けることで、これまでに学んだことをより詳しく確認できます。"
+
+  # --------------------------------------------------------------------------
+  # Living Tomes
+  # --------------------------------------------------------------------------
+  - id: living_tomes
+    category: alchemy_array/living_equipment
+    name:
+      source: "Upgrade Tomes"
+      translation: "アップグレードの書"
+    icon: "bloodmagic:upgradetome"
+    priority: true
+    pages:
+      - page: 0
+        type: "text"
+        source: "Upon activating the $(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Sound of the Cleansing Soul$(), a series of magical $(item)Tomes$() will manifest around you. $(br2)By pressing [$(k:use)] whilst holding one of these, you can 'teach' your chestplate one level of this skill (Assuming it has enough spare points to learn it). Holding [$(k:sneak)] and [$(k:use)] will instead consume as much XP from the tome as possible."
+        translation: "$(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)魂を浄化する音$()を起動すると、一連の魔法の$(item)書$()があなたの周りに現れます。$(br2)これらの1つを持って[$(k:use)]を押すことで、チェストプレートにこのスキルの1レベルを「教える」ことができます（学習するのに十分な余剰ポイントがあると仮定）。[$(k:sneak)]と[$(k:use)]を押し続けると、代わりに書から可能な限り多くのXPを消費します。"
+
+      - page: 1
+        type: "text"
+        source: "Doing so will consume the $(item)Tome$() and apply all EXP from it to your chestplate - unless there are not enough $(thing)Upgrade Points$() available. $(br2)In this case, the Tome will apply as much EXP as it can and store the remainder - unless there's less than 1 level's worth left, in which case the tome will be destroyed."
+        translation: "これを行うと$(item)書$()が消費され、すべてのEXPがチェストプレートに適用されます - 十分な$(thing)アップグレードポイント$()が利用可能でない限り。$(br2)この場合、書は可能な限り多くのEXPを適用し、残りを保存します - 1レベル分未満が残っている場合を除き、その場合は書が破壊されます。"
+
+      - page: 2
+        type: "text"
+        source: "This is an excellent way to focus training on abilities you wish to see more of, whilst conveniently forgetting ones you find less useful. $(br2)Alternately, you can teach different chestplates different skills, so you can have one chestplate for mining, one for combat, and yet another for exploration."
+        translation: "これは、より多く見たい能力に訓練を集中させ、役に立たないと思うものを都合よく忘れる優れた方法です。$(br2)あるいは、異なるチェストプレートに異なるスキルを教えることもでき、採掘用、戦闘用、探索用というように複数のチェストプレートを持つことができます。"
+
+  # --------------------------------------------------------------------------
+  # Living Upgrades
+  # --------------------------------------------------------------------------
+  - id: living_upgrades
+    category: alchemy_array/living_equipment
+    name:
+      source: "Living Equipment Upgrades"
+      translation: "生きている装備のアップグレード"
+    icon: "bloodmagic:upgradetome"
+    priority: true
+    pages:
+      - page: 0
+        type: "text"
+        source: "While wearing this new armour, you have felt it growing, trying to assist you with various tasks it has seen you perform. $(br2)It seems to be able to perform in a number of areas, but its growth is limited, and trying to do everything at once is quite fruitless."
+        translation: "この新しい防具を身に着けている間、それが成長し、あなたが行うのを見た様々なタスクであなたを助けようとしているのを感じました。$(br2)いくつかの分野で機能できるようですが、その成長には限界があり、一度にすべてを行おうとするのは全く無駄です。"
+
+      - page: 1
+        type: "text"
+        source: "Perhaps multiple specialised sets may be a good idea? Of course, you'll have to train it carefully if you want more than a smattering of poorly-directed benefits. $(br2)Fortunately, you have devised a $(l:rituals/ritual_list/ritual_upgrade_remove)Ritual$() that will assist with training, and $(l:rituals/ritual_list/ritual_armour_evolve)another one$() that will imbue your armour with a greater ability to grow."
+        translation: "複数の専門化されたセットが良いアイデアかもしれませんね？もちろん、方向性の定まらない利点をわずかに得る以上のものを望むなら、慎重に訓練する必要があります。$(br2)幸いにも、訓練を支援する$(l:rituals/ritual_list/ritual_upgrade_remove)儀式$()と、防具により大きな成長能力を吹き込む$(l:rituals/ritual_list/ritual_armour_evolve)別の儀式$()を考案しました。"
+
+  # --------------------------------------------------------------------------
+  # Training Bracelet
+  # --------------------------------------------------------------------------
+  - id: training_bracelet
+    category: alchemy_array/living_equipment
+    name:
+      source: "Training Bracelet"
+      translation: "訓練の腕輪"
+    icon: "bloodmagic:upgradetrainer"
+    pages:
+      - page: 0
+        type: "text"
+        source: "This new equipment is an incredible help, but its undirected growth can sometimes be... frustrating. To this end, you have devised a form of $(item)Training Bracelet$() to assist you in your endeavours. Once crafted, a simple press of the [$(k:use)] will activate its menu and allow you to specify which abilities to focus your attention on... or which ones to avoid."
+        translation: "この新しい装備は信じられないほど役立ちますが、その方向性のない成長は時々...イライラさせられることがあります。この目的のために、あなたの努力を支援する$(item)訓練の腕輪$()の形態を考案しました。作成後、[$(k:use)]を簡単に押すだけでメニューが起動し、どの能力に注意を集中するか...またはどれを避けるかを指定できます。"
+
+      - page: 1
+        type: "crafting_array"
+        heading:
+          source: "Training Bracelet"
+          translation: "訓練の腕輪"
+        recipe: "bloodmagic:array/living_trainer"
+        text:
+          source: "$(italic)*Insert Rocky Training Montage here*$()"
+          translation: "$(italic)*ここにロッキーのトレーニングモンタージュを挿入*$()"
+
+      - page: 2
+        type: "image"
+        images:
+          - "bloodmagic:images/entries/alchemy_array/living_equipment/training_bracelet.png"
+        title:
+          source: "Training Bracelet GUI"
+          translation: "訓練の腕輪GUI"
+        border: false
+        text:
+          source: "The Training Bracelet's Menu - it can keep track of up to 16 different upgrades at once."
+          translation: "訓練の腕輪のメニュー - 一度に最大16種類の異なるアップグレードを追跡できます。"
+
+      - page: 3
+        type: "text"
+        source: "The bracelet can specify a limit for any given upgrade (assuming you have a copy of the $(item)Tome$() to hand). For example, you could tell it to limit Strong Legs to level 3 - once you reach this level, Strong Legs will no longer gain experience. It can also prevent or allow the training of all other skills that you haven't otherwise specified. If you want to allow all upgrades except one, you can add that one to the bracelet in 'allow others' mode and set its level cap to 0."
+        translation: "腕輪は、任意のアップグレードの制限を指定できます（$(item)書$()のコピーを手元に持っていると仮定）。たとえば、強靭な脚をレベル3に制限するように指示できます - このレベルに達すると、強靭な脚はもはや経験値を得られません。また、他に指定していないすべてのスキルの訓練を防止または許可することもできます。1つを除くすべてのアップグレードを許可したい場合は、その1つを「他を許可」モードで腕輪に追加し、そのレベル上限を0に設定できます。"
+
+# ==============================================================================
+# ARMOR UPGRADES - 防具アップグレード
+# ==============================================================================
+
+  # --------------------------------------------------------------------------
+  # Body Builder
+  # --------------------------------------------------------------------------
+  - id: body_builder
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Body Builder"
+      translation: "肉体強化"
+    icon: "minecraft:cooked_beef"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Grants Knockback Resistance and bonus Health. Caps out at 100% Resistance and 10 half-hearts of health. $(br2)Trained by: Eating food. $(br2)Maximum level: 5"
+        translation: "効果：ノックバック耐性とボーナス体力を付与します。最大で100%耐性とハート5個分の体力。$(br2)訓練方法：食料を食べる。$(br2)最大レベル：5"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:knockback_resist"
+
+  # --------------------------------------------------------------------------
+  # Brilliance
+  # --------------------------------------------------------------------------
+  - id: brilliance
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Brilliance"
+      translation: "輝き"
+    icon: "minecraft:diamond"
+    pages:
+      - page: 0
+        type: "crafting_alchemy_table"
+        heading:
+          source: "Brilliance"
+          translation: "輝き"
+        recipe: "bloodmagic:alchemytable/upgrade_brilliance"
+        text:
+          source: "Effect: Improves your armour defence. Caps out at +5 Armour and +8 Toughness. $(br2)Trained by: crafting a living tome in the Alchemy Table. Each tome adds 1 level of Brilliance. $(br2)Maximum level: 5"
+          translation: "効果：防具の防御力を向上させます。最大で防御力+5、強靭性+8。$(br2)訓練方法：錬金術テーブルで生きている書を作成する。各書は輝きを1レベル追加します。$(br2)最大レベル：5"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:diamond_protect"
+
+  # --------------------------------------------------------------------------
+  # Charging Strike
+  # --------------------------------------------------------------------------
+  - id: charging_strike
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Charging Strike"
+      translation: "突撃打撃"
+    icon: "minecraft:golden_axe"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Increases damage and knockback from sprinting attacks, up to +50%. $(br2)Trained by: Dealing damage while sprinting. $(br2)Maximum level: 5"
+        translation: "効果：走りながらの攻撃によるダメージとノックバックを最大+50%増加させます。$(br2)訓練方法：走りながらダメージを与える。$(br2)最大レベル：5"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:sprint_attack"
+
+  # --------------------------------------------------------------------------
+  # Curios Sockets
+  # --------------------------------------------------------------------------
+  - id: curios_sockets
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Socketed"
+      translation: "ソケット付き"
+    icon: "bloodmagic:soulsnare"
+    flag: "mod:curios"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Adds $(thing)Living Armour Socket$() Curios Slots to the player that are able to hold compatible $(6)Blood Magic$() items. $(br2)This upgrade can't be trained, only crafted. By default, each $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Upgrade Tome$() adds one additional slot."
+        translation: "プレイヤーに$(thing)生きている防具ソケット$()のキュリオスロットを追加し、互換性のある$(6)Blood Magic$()アイテムを保持できるようにします。$(br2)このアップグレードは訓練できず、クラフトのみ可能です。デフォルトでは、各$(l:bloodmagic:alchemy_array/living_equipment/living_tomes)アップグレードの書$()が1つの追加スロットを追加します。"
+
+      - page: 1
+        type: "bloodmagic:crafting_upgrade_alchemy_table"
+        a.heading:
+          source: "Socketed Tome"
+          translation: "ソケット付きの書"
+        a.recipe: "bloodmagic:alchemytable/curios_upgrade"
+        b.upgrade: "bloodmagic:curios_socket"
+
+  # --------------------------------------------------------------------------
+  # Dwarven Might
+  # --------------------------------------------------------------------------
+  - id: dwarven_might
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Dwarven Might"
+      translation: "ドワーフの力"
+    icon: "minecraft:diamond_pickaxe"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Increases mining speed while mining identical blocks. After a certain level, gives a Haste buff after breaking blocks. $(br2)Trained by: Mining. $(br2)Maximum level: 10"
+        translation: "効果：同じブロックを採掘している間、採掘速度を上昇させます。特定のレベル以降、ブロックを破壊した後に採掘速度上昇バフを付与します。$(br2)訓練方法：採掘。$(br2)最大レベル：10"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:digging"
+
+  # --------------------------------------------------------------------------
+  # Elytra
+  # --------------------------------------------------------------------------
+  - id: elytra
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Elytra"
+      translation: "エリトラ"
+    icon: "minecraft:elytra"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Adds an Elytra to your Living Armor. Rather than being trained, the $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Upgrade Tome$() must be crafted. $(br2)This Elytra does drain durability from the Chestplate, but at half the speed of a normal Elytra. $(br2)It also looks pretty neat."
+        translation: "生きている防具にエリトラを追加します。訓練ではなく、$(l:bloodmagic:alchemy_array/living_equipment/living_tomes)アップグレードの書$()を作成する必要があります。$(br2)このエリトラはチェストプレートの耐久値を消耗しますが、通常のエリトラの半分の速度です。$(br2)見た目もなかなかです。"
+
+      - page: 1
+        type: "bloodmagic:crafting_upgrade_array"
+        a.heading:
+          source: "Elytra Tome"
+          translation: "エリトラの書"
+        a.recipe: "bloodmagic:array/living_elytra_upgrade"
+        b.upgrade: "bloodmagic:elytra"
+
+  # --------------------------------------------------------------------------
+  # Experienced
+  # --------------------------------------------------------------------------
+  - id: experienced
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Experienced"
+      translation: "経験豊富"
+    icon: "minecraft:experience_bottle"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Increases XP drops from killing mobs, up to 150%. $(br2)Trained by: Collecting XP. $(br2)Maximum level: 10"
+        translation: "効果：Mobを倒すことで得られるXPドロップを最大150%増加させます。$(br2)訓練方法：XPを収集する。$(br2)最大レベル：10"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:experienced"
+
+  # --------------------------------------------------------------------------
+  # Fierce Strike
+  # --------------------------------------------------------------------------
+  - id: fierce_strike
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Fierce Strike"
+      translation: "猛烈打撃"
+    icon: "minecraft:golden_sword"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Melee attacks do additional damage $(br2)Trained by: Performing Melee attacks. $(br2)Maximum level: 10"
+        translation: "効果：近接攻撃が追加ダメージを与えます。$(br2)訓練方法：近接攻撃を行う。$(br2)最大レベル：10"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:melee_damage"
+
+  # --------------------------------------------------------------------------
+  # Gift of Ignis
+  # --------------------------------------------------------------------------
+  - id: gift_of_ignis
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Gift of Ignis"
+      translation: "イグニスの加護"
+    icon: "minecraft:blaze_powder"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Provides Fire Resistance. Higher levels last longer and recharge faster. $(br2)Trained by: Being on Fire. ($(item)Potions of Fire Resistance$() may be your friend here.) $(br2)Maximum level: 5"
+        translation: "効果：火炎耐性を提供します。レベルが高いほど持続時間が長く、リチャージが速くなります。$(br2)訓練方法：火がついている状態。（$(item)火炎耐性のポーション$()がここで役立つかもしれません。）$(br2)最大レベル：5"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:fire_resist"
+
+  # --------------------------------------------------------------------------
+  # Healthy
+  # --------------------------------------------------------------------------
+  - id: healthy
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Healthy"
+      translation: "健康"
+    icon: "minecraft:golden_apple"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Grants additional health, up to 50 half-hearts. $(br2)Trained by: Restoring health (Ordinary healing, or via $(item)Potions of Healing$() or $(item)Potions of Regeneration$().) $(br2)Maximum level: 10"
+        translation: "効果：追加の体力を付与します。最大でハート25個分。$(br2)訓練方法：体力を回復する（通常の回復、または$(item)治癒のポーション$()や$(item)再生のポーション$()経由）。$(br2)最大レベル：10"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:health"
+
+  # --------------------------------------------------------------------------
+  # Pin Cushion
+  # --------------------------------------------------------------------------
+  - id: pin_cushion
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Pin Cushion"
+      translation: "針山"
+    icon: "minecraft:arrow"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Offers protection from arrows. $(br2)Trained by: Being shot. $(br2)Maximum level: 10"
+        translation: "効果：矢からの保護を提供します。$(br2)訓練方法：射られる。$(br2)最大レベル：10"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:arrow_protect"
+
+  # --------------------------------------------------------------------------
+  # Poison Resistance
+  # --------------------------------------------------------------------------
+  - id: poison_resistance
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Poison Resistance"
+      translation: "毒耐性"
+    icon: "minecraft:milk_bucket"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Cures Poison. Has a cooldown which shortens with additional levels. $(br2)Trained by: Being Poisoned. $(br2)Maximum level: 5"
+        translation: "効果：毒を治療します。レベルが上がるとクールダウンが短縮されます。$(br2)訓練方法：毒状態になる。$(br2)最大レベル：5"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:poison_resist"
+
+  # --------------------------------------------------------------------------
+  # Quick Feet
+  # --------------------------------------------------------------------------
+  - id: quick_feet
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Quick Feet"
+      translation: "俊足"
+    icon: "minecraft:sugar"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Increases player movement speed up to 150%. $(br2)Trained by: Running around. $(br2)Maximum level: 10"
+        translation: "効果：プレイヤーの移動速度を最大150%増加させます。$(br2)訓練方法：走り回る。$(br2)最大レベル：10"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:speed"
+
+  # --------------------------------------------------------------------------
+  # Repair
+  # --------------------------------------------------------------------------
+  - id: repair
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Repair"
+      translation: "修復"
+    icon: "minecraft:anvil"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Repairs a random piece of worn armour every 100 ticks $(br2)Trained by: repairing your chestplate (in an anvil, with the repair enchantment, etc). $(br2)Maximum level: 1"
+        translation: "効果：100ティックごとに装備している防具のランダムな1部位を修復します。$(br2)訓練方法：チェストプレートを修復する（金床で、修繕のエンチャントなど）。$(br2)最大レベル：1"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:repair"
+
+  # --------------------------------------------------------------------------
+  # Soft Fall
+  # --------------------------------------------------------------------------
+  - id: soft_fall
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Soft Fall"
+      translation: "軟着陸"
+    icon: "minecraft:feather"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Reduces fall damage, up to complete immunity. $(br2)Trained by: Getting hurt from falls. $(br2)Maximum level: 5"
+        translation: "効果：落下ダメージを軽減します。最大で完全な免疫。$(br2)訓練方法：落下でダメージを受ける。$(br2)最大レベル：5"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:fall_protect"
+
+  # --------------------------------------------------------------------------
+  # Strong Legs
+  # --------------------------------------------------------------------------
+  - id: strong_legs
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Strong Legs"
+      translation: "強靭な脚"
+    icon: "minecraft:diamond_leggings"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Increases jump height and reduces fall damage, up to a maximum of an additional 7.5 blocks and 83% fall resistance. Can be negated by holding [$(k:sneak)] while jumping. $(br2)Trained by: Jumping around. $(br2)Maximum level: 10"
+        translation: "効果：ジャンプの高さを増加させ、落下ダメージを軽減します。最大で追加7.5ブロック、83%の落下耐性。ジャンプ中に[$(k:sneak)]を押し続けることで無効化できます。$(br2)訓練方法：ジャンプする。$(br2)最大レベル：10"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:jump"
+
+  # --------------------------------------------------------------------------
+  # Tough
+  # --------------------------------------------------------------------------
+  - id: tough
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Tough"
+      translation: "頑強"
+    icon: "minecraft:shield"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Protects you from non-projectile harm. $(br2)Trained by: Taking damage from anything but projectiles. $(br2)Maximum level: 10"
+        translation: "効果：非飛び道具からの危害からあなたを保護します。$(br2)訓練方法：飛び道具以外からダメージを受ける。$(br2)最大レベル：10"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:physical_protect"
+
+  # --------------------------------------------------------------------------
+  # Tough Palms
+  # --------------------------------------------------------------------------
+  - id: tough_palms
+    category: alchemy_array/living_equipment/armor_upgrades
+    name:
+      source: "Tough Palms"
+      translation: "頑丈な手のひら"
+    icon: "bloodmagic:sacrificialdagger"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Grants a bonus to Self Sacrifice, up to an additional 150%. $(br2)Trained by: Sacrificing Blood with the Sacrificial Knife. $(br2)Maximum level: 10"
+        translation: "効果：自己犠牲にボーナスを付与します。最大で追加150%。$(br2)訓練方法：生贄のナイフで血を犠牲にする。$(br2)最大レベル：10"
+
+      - page: 1
+        type: "bloodmagic:living_armour_upgrade_table"
+        upgrade: "bloodmagic:self_sacrifice"
+
+# ==============================================================================
+# ARMOR DOWNGRADES - 防具ダウングレード
+# ==============================================================================
+
+  # --------------------------------------------------------------------------
+  # Battle Hungry
+  # --------------------------------------------------------------------------
+  - id: battle_hungry
+    category: alchemy_array/living_equipment/armor_downgrades
+    name:
+      source: "Battle Hungry"
+      translation: "戦闘飢餓"
+    icon: "minecraft:rotten_flesh"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Gives you hunger if you haven't attacked something recently. Higher levels give you a shorter cooldown window and make the hunger worse."
+        translation: "最近何かを攻撃していない場合、空腹を与えます。レベルが高いほどクールダウンウィンドウが短くなり、空腹がひどくなります。"
+
+      - page: 1
+        type: "living_armour_downgrade"
+        a.recipe: "bloodmagic:downgrade/battle_hungry"
+        b.upgrade: "bloodmagic:battle_hungry"
+
+  # --------------------------------------------------------------------------
+  # Crippled Arm
+  # --------------------------------------------------------------------------
+  - id: crippled_arm
+    category: alchemy_array/living_equipment/armor_downgrades
+    name:
+      source: "Crippled Arm"
+      translation: "不自由な腕"
+    icon: "minecraft:shield"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Prevents you from using your offhand item. This includes placing torches, raising your shield, etc."
+        translation: "効果：オフハンドアイテムの使用を防ぎます。これには松明の設置、盾を上げることなどが含まれます。"
+
+      - page: 1
+        type: "living_armour_downgrade"
+        a.recipe: "bloodmagic:downgrade/crippled_arm"
+        b.upgrade: "bloodmagic:crippled_arm"
+
+  # --------------------------------------------------------------------------
+  # Dig Slowdown (Leadened Pick)
+  # --------------------------------------------------------------------------
+  - id: dig_slowdown
+    category: alchemy_array/living_equipment/armor_downgrades
+    name:
+      source: "Leadened Pick"
+      translation: "鉛のつるはし"
+    icon: "minecraft:stone_pickaxe"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Reduces your dig speed. Caps out at an 80% reduction."
+        translation: "効果：掘削速度を低下させます。最大で80%の減少。"
+
+      - page: 1
+        type: "living_armour_downgrade"
+        a.recipe: "bloodmagic:downgrade/dig_slowdown"
+        b.upgrade: "bloodmagic:dig_slowdown"
+
+  # --------------------------------------------------------------------------
+  # Melee Decrease (Dulled Blade)
+  # --------------------------------------------------------------------------
+  - id: melee_decrease
+    category: alchemy_array/living_equipment/armor_downgrades
+    name:
+      source: "Dulled Blade"
+      translation: "鈍刀"
+    icon: "minecraft:stone_sword"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Reduces your melee damage. Caps out at an 80% reduction."
+        translation: "近接ダメージを減少させます。最大で80%の減少。"
+
+      - page: 1
+        type: "living_armour_downgrade"
+        a.recipe: "bloodmagic:downgrade/melee_decrease"
+        b.upgrade: "bloodmagic:melee_decrease"
+
+  # --------------------------------------------------------------------------
+  # Quenched
+  # --------------------------------------------------------------------------
+  - id: quenched
+    category: alchemy_array/living_equipment/armor_downgrades
+    name:
+      source: "Quenched"
+      translation: "渇水"
+    icon: "minecraft:glass_bottle"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Prevents you from drinking any potions whilst wearing the armour."
+        translation: "防具を着用している間、ポーションを飲むことを防ぎます。"
+
+      - page: 1
+        type: "living_armour_downgrade"
+        a.recipe: "bloodmagic:downgrade/quenched"
+        b.upgrade: "bloodmagic:quenched"
+
+  # --------------------------------------------------------------------------
+  # Slow Heal (Diseased)
+  # --------------------------------------------------------------------------
+  - id: slow_heal
+    category: alchemy_array/living_equipment/armor_downgrades
+    name:
+      source: "Diseased"
+      translation: "疾病"
+    icon: "minecraft:ghast_tear"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Reduces the effectiveness of all healing sources. Caps out at 80%, so a source that would normally heal 10 hearts will only heal 2."
+        translation: "すべての回復源の効果を低下させます。最大で80%なので、通常ハート10個分を回復する源はハート2個分しか回復しません。"
+
+      - page: 1
+        type: "living_armour_downgrade"
+        a.recipe: "bloodmagic:downgrade/slow_heal"
+        b.upgrade: "bloodmagic:slow_heal"
+
+  # --------------------------------------------------------------------------
+  # Speed Decrease (Limp Leg)
+  # --------------------------------------------------------------------------
+  - id: speed_decrease
+    category: alchemy_array/living_equipment/armor_downgrades
+    name:
+      source: "Limp Leg"
+      translation: "足萎え"
+    icon: "minecraft:soul_sand"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Effect: Reduces your movement speed significantly. Caps out at a 70% reduction. $(br2)Maximum level: 10"
+        translation: "効果：移動速度を大幅に低下させます。最大で70%の減少。$(br2)最大レベル：10"
+
+      - page: 1
+        type: "living_armour_downgrade"
+        a.recipe: "bloodmagic:downgrade/speed_decrease"
+        b.upgrade: "bloodmagic:speed_decrease"
+
+  # --------------------------------------------------------------------------
+  # Storm Trooper
+  # --------------------------------------------------------------------------
+  - id: storm_trooper
+    category: alchemy_array/living_equipment/armor_downgrades
+    name:
+      source: "Storm Trooper"
+      translation: "ストームトルーパー"
+    icon: "minecraft:arrow"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Makes you wildly inaccurate when shooting bows and crossbows."
+        translation: "弓やクロスボウで射撃する際に、極端に不正確になります。"
+
+      - page: 1
+        type: "living_armour_downgrade"
+        a.recipe: "bloodmagic:downgrade/storm_trooper"
+        b.upgrade: "bloodmagic:storm_trooper"
+
+  # --------------------------------------------------------------------------
+  # Swim Decrease (Concrete Shoes)
+  # --------------------------------------------------------------------------
+  - id: swim_decrease
+    category: alchemy_array/living_equipment/armor_downgrades
+    name:
+      source: "Concrete Shoes"
+      translation: "コンクリート靴"
+    icon: "minecraft:water_bucket"
+    pages:
+      - page: 0
+        type: "text"
+        source: "Reduces your swim speed significantly. Caps out at an 80% reduction."
+        translation: "泳ぐ速度を大幅に低下させます。最大で80%の減少。"
+
+      - page: 1
+        type: "living_armour_downgrade"
+        a.recipe: "bloodmagic:downgrade/swim_decrease"
+        b.upgrade: "bloodmagic:swim_decrease"
+
+# ==============================================================================
+# TRANSLATION STATISTICS - 翻訳統計
+# ==============================================================================
+
+statistics:
+  total_entries: 50
+  categories:
+    functional_arrays: 5
+    sigils: 14
+    living_equipment_basics: 4
+    armor_upgrades: 18
+    armor_downgrades: 9
+  translation_rate: "100%"
+  total_pages: 120+
+
+# ==============================================================================
+# TRANSLATION NOTES - 翻訳注記
+# ==============================================================================
+
+translation_notes:
+  - "全50エントリの完全翻訳完了"
+  - "Patchouliマクロ（$(br), $(item), $(l:...)等）を全て保持"
+  - "色コードマクロ（$(blood), $(raw)等）を変更せず保持"
+  - "Blood Magic用語辞書に基づいた一貫性のある翻訳"
+  - "Living Armourは「生きている防具」と統一"
+  - "Upgradeは「アップグレード」、Downgradeは「ダウングレード」とカタカナ表記"
+  - "Storm Trooperはスターウォーズへの言及として「ストームトルーパー」のまま"
+
+# ==============================================================================
+# END OF TRANSLATION
+# ==============================================================================

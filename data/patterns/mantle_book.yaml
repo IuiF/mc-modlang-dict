@@ -1,0 +1,6 @@
+patterns:
+  - pattern: "assets/{mod_id}/mantle/book/{book_id}/{lang}/**/*.json"
+    type: mantle_book
+    parser: mantle_book
+    priority: 90
+    description: "Mantle Book pages (Tinkers' Construct)"

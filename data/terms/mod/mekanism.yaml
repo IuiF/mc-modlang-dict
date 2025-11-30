@@ -1,0 +1,495 @@
+# Mekanism Mod 固有用語辞書
+# 優先度: mod (最高)
+
+mod_id: mekanism
+mod_name: Mekanism
+priority: mod
+
+terms:
+  # エネルギー単位
+  - en: Joules
+    ja: ジュール
+    abbr_en: J
+    abbr_ja: J
+    category: energy
+    note: Mekanismの基本エネルギー単位
+
+  # 化学物質・物質タイプ
+  - en: Gas
+    ja: ガス
+    category: substance_type
+    note: Mekanismの気体化学物質
+
+  - en: Infusion
+    ja: 注入
+    category: substance_type
+    note: 冶金注入機で使用される物質
+
+  - en: Pigment
+    ja: 色素
+    category: substance_type
+    note: 着色に使用される物質
+
+  - en: Slurry
+    ja: スラリー
+    category: substance_type
+    note: 鉱石処理で生成される泥状物質
+
+  # 処理・加工
+  - en: Enriched
+    ja: 濃縮
+    category: processing
+    note: 濃縮チャンバーで処理されたもの
+
+  - en: Infused
+    ja: 注入された
+    category: processing
+    note: 冶金注入機で処理されたもの
+
+  # 機械・設備
+  - en: Factory
+    ja: ファクトリー
+    category: machine
+    note: 並列処理が可能な機械
+
+  - en: Bin
+    ja: ビン
+    category: machine
+    note: アイテム保管用容器
+
+  - en: Tank
+    ja: タンク
+    category: machine
+    note: 流体・化学物質保管用容器
+
+  # 伝送・輸送
+  - en: Transmitter
+    ja: トランスミッター
+    category: transport
+    note: 各種伝送装置の総称
+
+  - en: Universal Cable
+    ja: ユニバーサルケーブル
+    category: transport
+    note: エネルギー伝送用ケーブル
+
+  - en: Pressurized Tube
+    ja: 加圧チューブ
+    category: transport
+    note: ガス・化学物質伝送用チューブ
+
+  - en: Logistical Transporter
+    ja: ロジスティカルトランスポーター
+    category: transport
+    note: アイテム輸送用パイプ
+
+  - en: Mechanical Pipe
+    ja: メカニカルパイプ
+    category: transport
+    note: 流体輸送用パイプ
+
+  - en: Thermodynamic Conductor
+    ja: 熱力学導管
+    category: transport
+    note: 熱伝送用導管
+
+  # 材料・合金
+  - en: Osmium
+    ja: オスミウム
+    category: material
+    note: Mekanismの基本鉱石
+
+  - en: Infused Alloy
+    ja: 強化合金
+    category: material
+    note: 基本ティアの合金
+
+  - en: Reinforced Alloy
+    ja: 強靭合金
+    category: material
+    note: 中級ティアの合金
+
+  - en: Atomic Alloy
+    ja: 原子合金
+    category: material
+    note: 最高ティアの合金
+
+  # ティア・レベル
+  - en: Basic
+    ja: 基本
+    category: tier
+    note: 最低ティア
+
+  - en: Advanced
+    ja: 発展
+    category: tier
+    note: 中級ティア
+
+  - en: Elite
+    ja: 精鋭
+    category: tier
+    note: 上級ティア
+
+  - en: Ultimate
+    ja: 究極
+    category: tier
+    note: 最高ティア
+
+  # 主要機械
+  - en: Enrichment Chamber
+    ja: 濃縮チャンバー
+    category: machine
+    note: 基本的な加工機械
+
+  - en: Metallurgic Infuser
+    ja: 冶金注入機
+    category: machine
+    note: 金属に物質を注入する機械
+
+  - en: Purification Chamber
+    ja: 精製チャンバー
+    category: machine
+    note: 鉱石を3倍化する機械
+
+  - en: Chemical Injection Chamber
+    ja: 化学注入チャンバー
+    category: machine
+    note: 鉱石を4倍化する機械
+
+  - en: Precision Sawmill
+    ja: 精密製材機
+    category: machine
+    note: 木材を効率的に加工する機械
+
+  - en: Crusher
+    ja: 粉砕機
+    category: machine
+    note: 鉱石を粉末にする機械
+
+  - en: Combiner
+    ja: 結合機
+    category: machine
+    note: アイテムを結合する機械
+
+  - en: Digital Miner
+    ja: デジタルマイナー
+    category: machine
+    note: 自動採掘機
+
+  - en: Electrolytic Separator
+    ja: 電解分離機
+    category: machine
+    note: 水を水素と酸素に分離する機械
+
+  - en: Chemical Crystallizer
+    ja: 化学結晶化装置
+    category: machine
+    note: 化学物質を結晶化する機械
+
+  - en: Chemical Dissolution Chamber
+    ja: 化学溶解室
+    category: machine
+    note: 鉱石を化学的に溶解する機械
+
+  - en: Chemical Washer
+    ja: 化学洗浄機
+    category: machine
+    note: スラリーを洗浄する機械
+
+  - en: Rotary Condensentrator
+    ja: 回転式変換機
+    category: machine
+    note: 流体とガスを相互変換する機械
+
+  - en: Formulaic Assemblicator
+    ja: 定型組立機
+    category: machine
+    note: 自動クラフト機械
+
+  - en: Energized Smelter
+    ja: 電動かまど
+    category: machine
+    note: エネルギーで動作するかまど
+
+  - en: Teleporter
+    ja: テレポーター
+    category: machine
+    note: 瞬間移動装置
+
+  # MekaSuit関連
+  - en: MekaSuit
+    ja: メカスーツ
+    category: equipment
+    note: Mekanismの最高級防具
+
+  - en: Meka-Tool
+    ja: メカツール
+    category: equipment
+    note: 多機能ツール
+
+  - en: Mekasuit Helmet
+    ja: メカスーツヘルメット
+    category: equipment
+
+  - en: Mekasuit Bodyarmor
+    ja: メカスーツボディアーマー
+    category: equipment
+
+  - en: Mekasuit Pants
+    ja: メカスーツレギンス
+    category: equipment
+
+  - en: Mekasuit Boots
+    ja: メカスーツブーツ
+    category: equipment
+
+  # その他の装備
+  - en: Jetpack
+    ja: ジェットパック
+    category: equipment
+    note: 飛行装備
+
+  - en: Atomic Disassembler
+    ja: 原子分解機
+    category: equipment
+    note: 高速採掘ツール
+
+  - en: Configurator
+    ja: コンフィグレーター
+    category: equipment
+    note: 機械の設定変更ツール
+
+  - en: Gauge Dropper
+    ja: 計量スポイト
+    category: equipment
+    note: 化学物質の計量ツール
+
+  - en: Network Reader
+    ja: ネットワークリーダー
+    category: equipment
+    note: 伝送ネットワークの情報表示ツール
+
+  - en: Seismic Reader
+    ja: 地震計リーダー
+    category: equipment
+    note: 地下構造の探査ツール
+
+  - en: Portable QIO Dashboard
+    ja: ポータブルQIOダッシュボード
+    category: equipment
+    note: 携帯型QIOアクセス装置
+
+  - en: Canteen
+    ja: 水筒
+    category: equipment
+    note: 栄養ペーストを保管
+
+  # QIOシステム
+  - en: QIO
+    ja: QIO
+    category: system
+    note: Quantum Item Orchestrationの略、量子アイテム管理システム
+
+  - en: QIO Drive
+    ja: QIOドライブ
+    category: machine
+    note: QIOストレージドライブ
+
+  - en: QIO Dashboard
+    ja: QIOダッシュボード
+    category: machine
+    note: QIOアクセス端末
+
+  - en: QIO Importer
+    ja: QIOインポーター
+    category: machine
+    note: QIOへのアイテム入力装置
+
+  - en: QIO Exporter
+    ja: QIOエクスポーター
+    category: machine
+    note: QIOからのアイテム出力装置
+
+  - en: QIO Redstone Adapter
+    ja: QIOレッドストーンアダプター
+    category: machine
+    note: QIOのレッドストーン制御
+
+  # 反応炉・マルチブロック
+  - en: Fission Reactor
+    ja: 核分裂炉
+    category: multiblock
+    note: 核分裂反応炉
+
+  - en: Fusion Reactor
+    ja: 核融合炉
+    category: multiblock
+    note: 核融合反応炉（Generators）
+
+  - en: Boiler
+    ja: ボイラー
+    category: multiblock
+    note: 熱水ボイラー
+
+  - en: Turbine
+    ja: タービン
+    category: multiblock
+    note: 産業用タービン
+
+  - en: Evaporation Plant
+    ja: 蒸発プラント
+    category: multiblock
+    note: 太陽熱蒸発プラント
+
+  - en: Induction Matrix
+    ja: 誘導マトリクス
+    category: multiblock
+    note: 大容量エネルギー貯蔵装置
+
+  - en: SPS
+    ja: SPS
+    category: multiblock
+    note: Supercritical Phase Shifter（超臨界相シフター）
+
+  # その他重要な用語
+  - en: Heat
+    ja: 熱
+    category: energy
+    note: 熱エネルギー
+
+  - en: Radiation
+    ja: 放射線
+    category: hazard
+    note: 核物質による放射線汚染
+
+  - en: Antiprotonic Nucleosynthesizer
+    ja: 反陽子核合成装置
+    category: machine
+    note: 反物質生成装置
+
+  - en: Isotopic Centrifuge
+    ja: 同位体遠心分離機
+    category: machine
+    note: 核燃料の濃縮装置
+
+  - en: Nutritional Liquifier
+    ja: 栄養液化機
+    category: machine
+    note: 食料を栄養ペーストに変換
+
+  - en: Solar Neutron Activator
+    ja: 太陽中性子活性化装置
+    category: machine
+    note: 太陽光で中性子を生成
+
+  - en: Modification Station
+    ja: 改造ステーション
+    category: machine
+    note: MekaSuitとMeka-Toolのアップグレード装置
+
+  - en: Security Desk
+    ja: セキュリティデスク
+    category: machine
+    note: 機械のセキュリティ管理装置
+
+  # 化学物質（具体名）
+  - en: Hydrogen
+    ja: 水素
+    category: chemical
+
+  - en: Oxygen
+    ja: 酸素
+    category: chemical
+
+  - en: Chlorine
+    ja: 塩素
+    category: chemical
+
+  - en: Sulfur Dioxide
+    ja: 二酸化硫黄
+    category: chemical
+
+  - en: Sulfur Trioxide
+    ja: 三酸化硫黄
+    category: chemical
+
+  - en: Sulfuric Acid
+    ja: 硫酸
+    category: chemical
+
+  - en: Hydrofluoric Acid
+    ja: フッ化水素酸
+    category: chemical
+
+  - en: Hydrogen Chloride
+    ja: 塩化水素
+    category: chemical
+
+  - en: Antimatter
+    ja: 反物質
+    category: chemical
+    note: 究極の化学物質
+
+  - en: Nutritional Paste
+    ja: 栄養ペースト
+    category: chemical
+    note: 食料を液化したもの
+
+  # アップグレード
+  - en: Speed Upgrade
+    ja: 速度アップグレード
+    category: upgrade
+
+  - en: Energy Upgrade
+    ja: エネルギーアップグレード
+    category: upgrade
+
+  - en: Filter Upgrade
+    ja: フィルターアップグレード
+    category: upgrade
+
+  - en: Muffling Upgrade
+    ja: 消音アップグレード
+    category: upgrade
+
+  - en: Gas Upgrade
+    ja: ガスアップグレード
+    category: upgrade
+
+  - en: Anchor Upgrade
+    ja: アンカーアップグレード
+    category: upgrade
+
+# 翻訳ルール
+translation_rules:
+  - rule: Mekanismの基本用語は必ず統一すること
+    examples:
+      - "Factory → ファクトリー（工場ではない）"
+      - "Transmitter → トランスミッター（送信機ではない）"
+      - "Slurry → スラリー（泥ではない）"
+
+  - rule: ティア名称は統一表記を使用
+    examples:
+      - "Basic → 基本"
+      - "Advanced → 発展"
+      - "Elite → 精鋭"
+      - "Ultimate → 究極"
+
+  - rule: エネルギー単位Joulesは「ジュール」と表記
+    note: 略称Jはそのまま使用
+
+  - rule: 化学物質名は科学的に正確な日本語名を使用
+    examples:
+      - "Hydrogen → 水素"
+      - "Oxygen → 酸素"
+      - "Sulfuric Acid → 硫酸"
+
+  - rule: フォーマットコードは必ず保持
+    note: "%s, %d, $(br), $(br2)など"
+
+# 注意事項
+notes:
+  - Mekanismは高度な工業MODのため、技術用語が多い
+  - 既存の日本語翻訳（ja_jp.json）との整合性を保つこと
+  - 新規用語は必ず辞書に追加すること
+  - マルチブロック構造の名称は正式名称を使用すること

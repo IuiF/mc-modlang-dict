@@ -1,0 +1,1453 @@
+# Blood Magic - Patchouli Entries Translation: alchemy_table Category\n# Blood Magic - Patchouli エントリ翻訳: alchemy_table カテゴリ\n# Complete translation of all 37 entries\n\nmod_id: bloodmagic
+mc_version: 1.16.3
+source_language: en_us
+target_language: ja_jp
+category: alchemy_table
+translator: Claude Code
+translation_date: '2025-11-29'
+total_entries: 37
+entries:
+- id: alchemy_table
+  file: alchemy_table.json
+  name:
+    source: Alchemy Table
+    translation: 錬金術テーブル
+  icon: bloodmagic:alchemytable
+  category: bloodmagic:alchemy_table
+  page_count: 14
+  pages:
+  - page: 0
+    type: text
+    source: The $(item)Alchemy Table$() crafts items using $(blood)LP$() from a $(l:bloodmagic:altar/soul_network)Soul
+      Network$(/l). The $(thing)Soul Network$() used and Tier of recipes available
+      are determined by the $(item)Blood Orb$() inserted on the right side of the
+      GUI. $(br2)The $(item)Alchemy Table$() is used to craft a handful of $(6)Blood
+      Magic$() components, and provides alternate recipes for some vanilla items as
+      well.
+    translation: The $(item)錬金術テーブル$() crafts items using $(blood)LP$() from a $(l:bloodmagic:altar/soul_network)ソウルネットワーク$(/l).
+      The $(thing)ソウルネットワーク$() used and ティア of recipes available are determined by
+      the $(item)血のオーブ$() inserted on the right side of the GUI. $(br2)The $(item)錬金術テーブル$()
+      is used to craft a handful of $(6)Blood Magic$() components, and provides alternate
+      recipes for some vanilla items as well.
+  - page: 1
+    type: crafting
+    source: When looking at $(item)Alchemy Table$() recipes in this book (or in $(thing)JEI$()),
+      please hover over the arrow with an "LP" label to view Time, $(blood)LP$() drain,
+      and Tier information.
+    translation: When looking at $(item)錬金術テーブル$() recipes in this book (or in $(thing)JEI$()),
+      please hover over the arrow with an "LP" label to view Time, $(blood)LP$() drain,
+      and ティア information.
+    recipe: bloodmagic:alchemy_table
+  - page: 2
+    type: image
+    source: The Alchemy Table can be inserted into or extracted from using these buttons.
+    translation: The 錬金術テーブル can be inserted into or extracted from using these buttons.
+    title:
+      source: Alchemy Table GUI
+      translation: 錬金術テーブル GUI
+    images:
+    - bloodmagic:images/entries/alchemy_table/alchemy_table_gui.png
+    border: true
+  - page: 3
+    type: text
+    source: The $(item)Alchemy Table$() has a number of buttons on its right hand
+      side. These are, in order, $(bold)D$()own, $(bold)U$()p, $(bold)N$()orth, $(bold)S$()outh,
+      $(bold)W$()est, and $(bold)E$()ast. To use them, first click on any slot in
+      the Alchemy Table. (Here, we have selected the central 'finished item' slot,
+      for demonstration.) Next, click on one of these six buttons to toggle whether
+      or not the $(item)Alchemy Table$() should allow $(item)Hoppers$(), pipes, or
+      other such external interference from this face. To return to the table's normal
+      function,
+    translation: The $(item)錬金術テーブル$() has a number of buttons on its right hand side.
+      These are, in order, $(bold)D$()own, $(bold)U$()p, $(bold)N$()orth, $(bold)S$()outh,
+      $(bold)W$()est, and $(bold)E$()ast. To use them, first click on any slot in
+      the 錬金術テーブル. (Here, we have selected the central 'finished item' slot, for demonstration.)
+      Next, click on one of these six buttons to toggle whether or not the $(item)錬金術テーブル$()
+      should allow $(item)ホッパー$(), pipes, or other such external interference from
+      this face. To return to the table's normal function,
+  - page: 4
+    type: text
+    source: simply click the slot again to deselect it. The icon displayed in the
+      slot shows whether it is accepting inputs or providing outputs. In the example
+      picture, we are allowing pipes to take from our central slot only on the $(bold)D$()own
+      slot, and any attempts to extract items from other sides will not succeed.
+    translation: simply click the slot again to deselect it. The icon displayed in
+      the slot shows whether it is accepting inputs or providing outputs. In the example
+      picture, we are allowing pipes to take from our central slot only on the $(bold)D$()own
+      slot, and any attempts to extract items from other sides will not succeed.
+  - page: 5
+    type: image
+    source: The Alchemy Table will tell you when something is wrong.
+    translation: The 錬金術テーブル will tell you when something is wrong.
+    title:
+      source: Alchemy Table Errors
+      translation: 錬金術テーブル Errors
+    images:
+    - bloodmagic:images/entries/alchemy_table/alchemy_table_orb_error.png
+    - bloodmagic:images/entries/alchemy_table/alchemy_table_soul_error.png
+    border: true
+    anchor: errors
+  - page: 6
+    type: text
+    source: 'The two most common reasons for a recipe to not work in the Alchemy Table
+      are as follows: $(li)$(bold)Orb Error$(): Either there is no Blood Orb present
+      in the relevant slot, or the Orb you are trying to use is not a high enough
+      level for this recipe. $(li)$(bold)Soul Network Error$(): The orb is of a valid
+      level, but either you have not bound it to yourself (right click while holding
+      it), or your Soul Network does not have enough LP in it. $(br2)The following
+      pages document a number of recipes currently available for the Alchemy Table,'
+    translation: 'The two most common reasons for a recipe to not work in the 錬金術テーブル
+      are as follows: $(li)$(bold)Orb Error$(): Either there is no 血のオーブ present in
+      the relevant slot, or the Orb you are trying to use is not a high enough level
+      for this recipe. $(li)$(bold)ソウルネットワーク Error$(): The orb is of a valid level,
+      but either you have not bound it to yourself (right click while holding it),
+      or your ソウルネットワーク does not have enough LP in it. $(br2)The following pages document
+      a number of recipes currently available for the 錬金術テーブル,'
+  - page: 7
+    type: 3x_crafting_alchemy_table
+    a_heading:
+      source: Grass
+      translation: 草ブロック
+    a_recipe: bloodmagic:alchemytable/grass_block
+    b_heading:
+      source: Leather
+      translation: 革
+    b_recipe: bloodmagic:alchemytable/leather_from_flesh
+    c_heading:
+      source: Bread
+      translation: パン
+    c_recipe: bloodmagic:alchemytable/bread
+  - page: 8
+    type: 2x_crafting_alchemy_table
+    a_heading:
+      source: Clay
+      translation: 粘土
+    a_recipe: bloodmagic:alchemytable/clay_from_sand
+    b_heading:
+      source: String
+      translation: 糸
+    b_recipe: bloodmagic:alchemytable/string
+  - page: 9
+    type: 3x_crafting_alchemy_table
+    a_heading:
+      source: Plant Oil
+      translation: 植物油
+    a_recipe: bloodmagic:alchemytable/plantoil_from_wheat
+    b_recipe: bloodmagic:alchemytable/plantoil_from_carrots
+    c_recipe: bloodmagic:alchemytable/plantoil_from_taters
+  - page: 10
+    type: 3x_crafting_alchemy_table
+    a_heading:
+      source: Plant Oil Cont.
+      translation: 植物油 Cont.
+    a_recipe: bloodmagic:alchemytable/plantoil_from_beets
+    b_heading:
+      source: Coal Sand
+      translation: 石炭砂
+    b_recipe: bloodmagic:alchemytable/sand_coal
+    c_heading:
+      source: Explosive Powder
+      translation: 爆発性粉末
+    c_recipe: bloodmagic:alchemytable/explosive_powder
+  - page: 11
+    type: 3x_crafting_alchemy_table
+    a_heading:
+      source: Flint
+      translation: 火打石
+    a_recipe: bloodmagic:alchemytable/flint_from_gravel
+    b_heading:
+      source: Saltpeter
+      translation: 硝石
+    b_recipe: bloodmagic:alchemytable/saltpeter
+    c_heading:
+      source: Gunpowder
+      translation: 火薬
+    c_recipe: bloodmagic:alchemytable/gunpowder
+  - page: 12
+    type: 2x_crafting_alchemy_table
+    a_heading:
+      source: Lava Bucket
+      translation: 溶岩入りバケツ
+    a_recipe: bloodmagic:alchemytable/sigil_lava_bucket
+    b_heading:
+      source: Water Bucket
+      translation: 水入りバケツ
+    b_recipe: bloodmagic:alchemytable/sigil_water_bucket
+  - page: 13
+    type: text
+    source: The $(l:bloodmagic:alchemy_array/sigil/lava)Lava$() and $(l:bloodmagic:alchemy_array/sigil/water)Water
+      Sigils$() are not consumed in either of these recipes. What's more, the $(item)Water
+      Sigil$() can be used in place of a $(water)Water Bucket$() in any Alchemy Table
+      Recipe.
+    translation: The $(l:bloodmagic:alchemy_array/sigil/lava)Lava$() and $(l:bloodmagic:alchemy_array/sigil/water)水のシジルs$()
+      are not consumed in either of these recipes. What's more, the $(item)水のシジル$()
+      can be used in place of a $(water)水入りバケツ$() in any 錬金術テーブル Recipe.
+- id: anointments
+  file: anointments.json
+  name:
+    source: Anointments
+    translation: 膏薬
+  icon: bloodmagic:melee_anointment
+  category: bloodmagic:alchemy_table
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(item)Anointments$() are essentially $(item)potions$() for your tools,
+      weapons, and even your $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Charges$().
+      By Pressing [$(k:use)] with the $(item)anointment$() in one hand, it will be
+      applied to the item in your other hand, if possible. Not all anointments work
+      on all equipment! $(br2)Unlike $(item)potions$(), $(item)anointments$() aren't
+      timed; rather, they wear off a bit at a time as your tool or weapon is used.
+    translation: $(item)膏薬$() are essentially $(item)potions$() for your tools, weapons,
+      and even your $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Charges$().
+      By Pressing [$(k:use)] with the $(item)anointment$() in one hand, it will be
+      applied to the item in your other hand, if possible. Not all anointments work
+      on all equipment! $(br2)Unlike $(item)potions$(), $(item)anointments$() aren't
+      timed; rather, they wear off a bit at a time as your tool or weapon is used.
+  - page: 1
+    type: crafting_alchemy_table
+    source: A sturdy Vial that can contain otherwise uncontainable mixtures.
+    translation: A sturdy Vial that can contain otherwise uncontainable mixtures.
+    heading:
+      source: Slate-infused Vial
+      translation: 石板-infused Vial
+    recipe: bloodmagic:alchemytable/slate_vial
+- id: potions
+  file: potions.json
+  name:
+    source: Potion Crafting Basics
+    translation: ポーション Crafting Basics
+  icon: bloodmagic:alchemy_flask
+  category: bloodmagic:alchemy_table
+  page_count: 14
+  pages:
+  - page: 0
+    type: text
+    source: The basics of $(thing)Potion Crafting$() are known to all and sundry throughout
+      the land. Even common Clerics and Witches have a firm grasp of the basics of
+      brewing - take a handful of semi-rare ingredients, mix them together in the
+      correct proportions, and consume the result (while holding your nose, if needed).
+    translation: The basics of $(thing)ポーション Crafting$() are known to all and sundry
+      throughout the land. Even common Clerics and Witches have a firm grasp of the
+      basics of brewing - take a handful of semi-rare ingredients, mix them together
+      in the correct proportions, and consume the result (while holding your nose,
+      if needed).
+  - page: 1
+    type: text
+    source: The addition of $(blood)Life Essence$() and some frankly ingenious Sanguimancy
+      has allowed you to turbocharge the practice, however. $(br2)By imbuing ordinary
+      $(item)Glass Bottles$() with your powers, you are able to hold far more than
+      a single swig of liquid, and with the use of various $(item)Catalysts$() you
+      have figured out how to combine multiple effects in one flask without them muddying
+      together and cancelling out.
+    translation: The addition of $(blood)生命のエッセンス$() and some frankly ingenious Sanguimancy
+      has allowed you to turbocharge the practice, however. $(br2)By imbuing ordinary
+      $(item)ガラス瓶s$() with your powers, you are able to hold far more than a single
+      swig of liquid, and with the use of various $(item)触媒$() you have figured out
+      how to combine multiple effects in one flask without them muddying together
+      and cancelling out.
+  - page: 2
+    type: crafting_altar
+    source: A sturdy Flask that is far more capacious than any measly bottle!
+    translation: A sturdy Flask that is far more capacious than any measly bottle!
+    heading:
+      source: Alchemy Flask
+      translation: 錬金術フラスク
+    recipe: bloodmagic:altar/alchemy_flask
+  - page: 3
+    type: text
+    source: Of course, a bottle, no matter how advanced, is all but useless without
+      something to fill it. $(br2)Alongside all the usual well known $(thing)Effects$()
+      such as $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/water_breathing)Water
+      Breathing$(), $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/regeneration)Regeneration$(),
+      or $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Night Vision$(),
+      we have also perfected a variety of other, more specialised recipes, such as
+      $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Flight$(), $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)Obsidian
+      Cloak$(), or even $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)Passive$().
+      These potions and many more are documented further on in the book.
+    translation: Of course, a bottle, no matter how advanced, is all but useless without
+      something to fill it. $(br2)Alongside all the usual well known $(thing)効果$()
+      such as $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/water_breathing)水中呼吸$(),
+      $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/regeneration)再生$(), or $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)暗視$(),
+      we have also perfected a variety of other, more specialised recipes, such as
+      $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)飛行$(), $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)黒曜石の外套$(),
+      or even $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)平和$().
+      These potions and many more are documented further on in the book.
+  - page: 4
+    type: crafting
+    source: Once you have used up any kind of $(item)alchemy flask$(), simply wash
+      out and refill it with $(water)water$(), to get a fresh new flask ready for
+      use. $(br2)Flasks also have their equivalent to $(thing)Splash$() and $(thing)Lingering
+      Potions$().
+    translation: Once you have used up any kind of $(item)alchemy flask$(), simply
+      wash out and refill it with $(water)water$(), to get a fresh new flask ready
+      for use. $(br2)Flasks also have their equivalent to $(thing)スプラッシュ$() and $(thing)残留
+      ポーション$().
+    recipe: bloodmagic:alchemy_flask
+  - page: 5
+    type: 2x_crafting_flask
+    a_heading:
+      source: Splash Alchemy Flask
+      translation: スプラッシュ 錬金術フラスク
+    a_recipe: bloodmagic:flask/flask_splash
+    b_heading:
+      source: Lingering Alchemy Flask
+      translation: 残留 錬金術フラスク
+    b_recipe: bloodmagic:flask/flask_lingering
+  - page: 6
+    type: text
+    source: You may recall me mentioning the ability to make multiple $(thing)effects$()
+      in a single $(item)Flask$(). Luckily, this process couldn't be easier. Simply
+      brew up a potion, and use the resulting Flask in place of your empty Flask in
+      the second brewing. For example, if you made a Flask of $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Bounce$(),
+      then took that flask and used it as an ingredient in a flask of $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Night
+      Vision$(), you'd end up with an 8-dose Flask that gives you $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Bounce$()
+      and $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Night Vision$()
+      with every swig!
+    translation: You may recall me mentioning the ability to make multiple $(thing)effects$()
+      in a single $(item)Flask$(). Luckily, this process couldn't be easier. Simply
+      brew up a potion, and use the resulting Flask in place of your empty Flask in
+      the second brewing. For example, if you made a Flask of $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)跳ね返り$(),
+      then took that flask and used it as an ingredient in a flask of $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)暗視$(),
+      you'd end up with an 8-dose Flask that gives you $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)跳ね返り$()
+      and $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)暗視$() with
+      every swig!
+  - page: 7
+    type: text
+    source: Next up, we have $(item)Catalysts$(). There are a few kinds of catalyst,
+      with a few different effects, so let's start off with the simplest three - $(item)Simple
+      Catalyst$(), $(item)Small Power Catalyst$(), and $(item)Small Lengthening Catalyst$().
+      Of these, the first is the most straightforward - it provides a base to almost
+      every Alchemical Potion, much as $(item)Nether Wart$() does for standard Potions.
+    translation: Next up, we have $(item)触媒$(). There are a few kinds of catalyst,
+      with a few different effects, so let's start off with the simplest three - $(item)シンプル触媒$(),
+      $(item)Small 強化触媒$(), and $(item)Small 延長触媒$(). Of these, the first is the most
+      straightforward - it provides a base to almost every Alchemical ポーション, much
+      as $(item)ネザーウォート$() does for standard ポーション.
+  - page: 8
+    type: crafting_alchemy_table
+    source: A good base for nearly any effect. Stock up, you'll want a lot of these.
+    translation: A good base for nearly any effect. Stock up, you'll want a lot of
+      these.
+    heading:
+      source: Simple Catalyst
+      translation: シンプル触媒
+    recipe: bloodmagic:alchemytable/simple_catalyst
+  - page: 9
+    type: crafting_alchemy_table
+    source: $(item)Power Catalysts$() increase the potency of the topmost $(thing)effect$()
+      inside the $(item)Flask$(), while decreasing the duration of the effect. It
+      is roughly analogous to $(item)Glowstone$() in more standard potions. If the
+      most recently applied effect cannot accept the catalyst, it will attempt to
+      boost the second topmost, and so on.
+    translation: $(item)強化触媒s$() increase the potency of the topmost $(thing)effect$()
+      inside the $(item)Flask$(), while decreasing the duration of the effect. It
+      is roughly analogous to $(item)グロウストーン$() in more standard potions. If the most
+      recently applied effect cannot accept the catalyst, it will attempt to boost
+      the second topmost, and so on.
+    heading:
+      source: Small Power Catalyst
+      translation: Small 強化触媒
+    recipe: bloodmagic:alchemytable/mundane_power
+  - page: 10
+    type: crafting_alchemy_table
+    source: $(item)Lengthening Catalysts$() increase the duration of the topmost $(thing)effect$()
+      inside the $(item)Flask$(). It is roughly analogous to $(item)Redstone$() in
+      more standard potions. If the most recently applied effect cannot accept the
+      catalyst, it will attempt to boost the second topmost, and so on.
+    translation: $(item)延長触媒s$() increase the duration of the topmost $(thing)effect$()
+      inside the $(item)Flask$(). It is roughly analogous to $(item)レッドストーン$() in
+      more standard potions. If the most recently applied effect cannot accept the
+      catalyst, it will attempt to boost the second topmost, and so on.
+    heading:
+      source: Small Lengthening Catalyst
+      translation: Small 延長触媒
+    recipe: bloodmagic:alchemytable/mundane_lengthening
+  - page: 11
+    type: crafting_alchemy_table
+    source: $(item)Combinational Catalysts$() are a little more niche - they take
+      two defined effects and synthesise a third, related effect from them. For example,
+      a Flask with $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Suspended$()
+      and $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)Levitation$()
+      would, when brewed with this catalyst, produce a Flask of $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Flight$().
+    translation: $(item)組み合わせ触媒s$() are a little more niche - they take two defined
+      effects and synthesise a third, related effect from them. For example, a Flask
+      with $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)浮遊状態$()
+      and $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)浮遊$() would,
+      when brewed with this catalyst, produce a Flask of $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)飛行$().
+    heading:
+      source: Combinational Catalyst
+      translation: 組み合わせ触媒
+    recipe: bloodmagic:alchemytable/combinational
+  - page: 12
+    type: crafting_alchemy_table
+    source: $(item)Filling Agents$() can be used to refresh the contents of a Flask,
+      at the cost of losing some of the effects - the Weak Filling Agent can only
+      preserve the topmost effect on the Flask. If you wish to preserve a different
+      effect, consider using the $(item)Simple Cycling Catalyst.$()
+    translation: $(item)充填剤s$() can be used to refresh the contents of a Flask, at
+      the cost of losing some of the effects - the Weak 充填剤 can only preserve the
+      topmost effect on the Flask. If you wish to preserve a different effect, consider
+      using the $(item)Simple サイクル触媒.$()
+    heading:
+      source: Weak Filling Agent
+      translation: Weak 充填剤
+    recipe: bloodmagic:alchemytable/weak_filling
+  - page: 13
+    type: crafting_alchemy_table
+    source: The $(item)Cycling Catalyst$() can be used to alter the order of effects
+      inside the Flask, and thus change which effect will be altered by another Catalyst
+      or Agent.
+    translation: The $(item)サイクル触媒$() can be used to alter the order of effects inside
+      the Flask, and thus change which effect will be altered by another 触媒 or Agent.
+    heading:
+      source: Simple Cycling Catalyst
+      translation: Simple サイクル触媒
+    recipe: bloodmagic:alchemytable/cycling_catalyst
+- id: bow_power_anointment
+  file: bow_power_anointment.json
+  name:
+    source: Iron Tip
+    translation: 鉄の先端
+  icon: bloodmagic:bow_power_anointment
+  category: bloodmagic:alchemy_table/anointments
+  page_count: 3
+  pages:
+  - page: 0
+    type: crafting_alchemy_table
+    source: 'Increases the damage of fired arrows by 25%. Also stacks with Vanilla
+      enchantments. $(br2)Valid items: Bows, Crossbows.$(br2)Applies: Heavy Shot I
+      (256 shots)'
+    translation: 'Increases the damage of fired arrows by 25%. Also stacks with Vanilla
+      enchantments. $(br2)Valid items: Bows, Crossbows.$(br2)Applies: Heavy Shot I
+      (256 shots)'
+    heading:
+      source: Iron Tip
+      translation: 鉄の先端
+    recipe: bloodmagic:alchemytable/bow_power_anointment
+  - page: 1
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lasts four times longer. $(br2)Applies:
+      Heavy Shot I (1024 shots)'
+    translation: 'This upgraded version of the anointment lasts four times longer.
+      $(br2)Applies: Heavy Shot I (1024 shots)'
+    heading:
+      source: Iron Tip L
+      translation: 鉄の先端 L
+    recipe: bloodmagic:alchemytable/bow_power_anointment_l
+  - page: 2
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment increases the damage by 50% instead.
+      $(br2)Applies: Heavy Shot II (256 shots)'
+    translation: 'This upgraded version of the anointment increases the damage by
+      50% instead. $(br2)Applies: Heavy Shot II (256 shots)'
+    heading:
+      source: Iron Tip II
+      translation: 鉄の先端 II
+    recipe: bloodmagic:alchemytable/bow_power_anointment_2
+- id: bow_velocity_anointment
+  file: bow_velocity_anointment.json
+  name:
+    source: Archer's Polish
+    translation: 弓研磨剤
+  icon: bloodmagic:bow_velocity_anointment
+  category: bloodmagic:alchemy_table/anointments
+  page_count: 3
+  pages:
+  - page: 0
+    type: crafting_alchemy_table
+    source: 'Increases the velocity of fired arrows by 50%. This also increases the
+      damage dealt by your arrows proportionally. Also stacks with Vanilla enchantments.
+      $(br2)Valid items: Bows, Crossbows.$(br2)Applies: Sniping I (256 shots)'
+    translation: 'Increases the velocity of fired arrows by 50%. This also increases
+      the damage dealt by your arrows proportionally. Also stacks with Vanilla enchantments.
+      $(br2)Valid items: Bows, Crossbows.$(br2)Applies: Sniping I (256 shots)'
+    heading:
+      source: Archer's Polish
+      translation: 弓研磨剤
+    recipe: bloodmagic:alchemytable/bow_velocity_anointment
+  - page: 1
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lasts four times longer. $(br2)Applies:
+      Sniping I (1024 shots)'
+    translation: 'This upgraded version of the anointment lasts four times longer.
+      $(br2)Applies: Sniping I (1024 shots)'
+    heading:
+      source: Archer's Polish L
+      translation: 弓研磨剤 L
+    recipe: bloodmagic:alchemytable/bow_velocity_anointment_l
+  - page: 2
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment increases the velocity by 100%
+      instead. $(br2)Applies: Sniping II (256 shots)'
+    translation: 'This upgraded version of the anointment increases the velocity by
+      100% instead. $(br2)Applies: Sniping II (256 shots)'
+    heading:
+      source: Archer's Polish II
+      translation: 弓研磨剤 II
+    recipe: bloodmagic:alchemytable/bow_velocity_anointment_2
+- id: fortune_anointment
+  file: fortune_anointment.json
+  name:
+    source: Fortuna Extract
+    translation: フォルトゥーナエキス
+  icon: bloodmagic:fortune_anointment
+  category: bloodmagic:alchemy_table/anointments
+  page_count: 3
+  pages:
+  - page: 0
+    type: crafting_alchemy_table
+    source: 'Increases the yield of some harvested blocks. Also stacks with the Fortune
+      enchantment. $(br2)Valid items: Tools, Swords, Charges. $(br2)Applies: Fortunate
+      I (256 blocks)'
+    translation: 'Increases the yield of some harvested blocks. Also stacks with the
+      Fortune enchantment. $(br2)Valid items: Tools, Swords, Charges. $(br2)Applies:
+      Fortunate I (256 blocks)'
+    heading:
+      source: Fortuna Extract
+      translation: フォルトゥーナエキス
+    recipe: bloodmagic:alchemytable/fortune_anointment
+  - page: 1
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lasts four times longer. $(br2)Applies:
+      Fortunate I (1024 blocks)'
+    translation: 'This upgraded version of the anointment lasts four times longer.
+      $(br2)Applies: Fortunate I (1024 blocks)'
+    heading:
+      source: Fortuna Extract L
+      translation: フォルトゥーナエキス L
+    recipe: bloodmagic:alchemytable/fortune_anointment_l
+  - page: 2
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment increases the yield. $(br2)Applies:
+      Fortunate II (256 blocks)'
+    translation: 'This upgraded version of the anointment increases the yield. $(br2)Applies:
+      Fortunate II (256 blocks)'
+    heading:
+      source: Fortuna Extract II
+      translation: フォルトゥーナエキス II
+    recipe: bloodmagic:alchemytable/fortune_anointment_2
+- id: hidden_knowledge_anointment
+  file: hidden_knowledge_anointment.json
+  name:
+    source: Miner's Secrets
+    translation: Miner's Secrets
+  icon: bloodmagic:hidden_knowledge_anointment
+  category: bloodmagic:alchemy_table/anointments
+  page_count: 3
+  pages:
+  - page: 0
+    type: crafting_alchemy_table
+    source: 'Blocks drop exp on successful harvest. Drops +2exp per block. $(br2)Valid
+      items: Tools, Swords, Charges.$(br2)Applies: Miner''s Secrets I (256 blocks)'
+    translation: 'Blocks drop exp on successful harvest. Drops +2exp per block. $(br2)Valid
+      items: Tools, Swords, Charges.$(br2)Applies: Miner''s Secrets I (256 blocks)'
+    heading:
+      source: Miner's Secrets
+      translation: Miner's Secrets
+    recipe: bloodmagic:alchemytable/hidden_knowledge_anointment
+  - page: 1
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lasts four times longer. $(br2)Applies:
+      Miner''s Secrets I (1024 blocks)'
+    translation: 'This upgraded version of the anointment lasts four times longer.
+      $(br2)Applies: Miner''s Secrets I (1024 blocks)'
+    heading:
+      source: Miner's Secrets L
+      translation: Miner's Secrets L
+    recipe: bloodmagic:alchemytable/hidden_knowledge_anointment_l
+  - page: 2
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment increases the yield. $(br2)Applies:
+      Miner''s Secrets II (256 blocks)'
+    translation: 'This upgraded version of the anointment increases the yield. $(br2)Applies:
+      Miner''s Secrets II (256 blocks)'
+    heading:
+      source: Miner's Secrets II
+      translation: Miner's Secrets II
+    recipe: bloodmagic:alchemytable/hidden_knowledge_anointment_2
+- id: holy_water_anointment
+  file: holy_water_anointment.json
+  name:
+    source: Holy Water
+    translation: 聖水
+  icon: bloodmagic:holy_water_anointment
+  category: bloodmagic:alchemy_table/anointments
+  page_count: 3
+  pages:
+  - page: 0
+    type: crafting_alchemy_table
+    source: 'Temporarily increases the melee damage dealt to undead mobs by +5. $(br2)Valid
+      items: Tools, Swords.$(br2)Applies: Holy Light I (256 hits)'
+    translation: 'Temporarily increases the melee damage dealt to undead mobs by +5.
+      $(br2)Valid items: Tools, Swords.$(br2)Applies: Holy Light I (256 hits)'
+    heading:
+      source: Holy Water
+      translation: 聖水
+    recipe: bloodmagic:alchemytable/holy_water_anointment
+  - page: 1
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lasts four times longer. $(br2)Applies:
+      Holy Light I (1024 hits)'
+    translation: 'This upgraded version of the anointment lasts four times longer.
+      $(br2)Applies: Holy Light I (1024 hits)'
+    heading:
+      source: Holy Water L
+      translation: 聖水 L
+    recipe: bloodmagic:alchemytable/holy_water_anointment_l
+  - page: 2
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment increases melee damage dealt
+      to undead mobs by +10. $(br2)Applies: Holy Light II (256 hits)'
+    translation: 'This upgraded version of the anointment increases melee damage dealt
+      to undead mobs by +10. $(br2)Applies: Holy Light II (256 hits)'
+    heading:
+      source: Holy Water II
+      translation: 聖水 II
+    recipe: bloodmagic:alchemytable/holy_water_anointment_2
+- id: looting_anointment
+  file: looting_anointment.json
+  name:
+    source: Plunderer's Glint
+    translation: Plunderer's Glint
+  icon: bloodmagic:looting_anointment
+  category: bloodmagic:alchemy_table/anointments
+  page_count: 3
+  pages:
+  - page: 0
+    type: crafting_alchemy_table
+    source: 'Increases the drops from killed mobs. Also stacks with the Looting enchantment.$(br2)Valid
+      items: Tools, Swords.$(br2)Applies: Plundering I (256 hits)'
+    translation: 'Increases the drops from killed mobs. Also stacks with the ドロップ増加
+      enchantment.$(br2)Valid items: Tools, Swords.$(br2)Applies: Plundering I (256
+      hits)'
+    heading:
+      source: Plunderer's Glint
+      translation: Plunderer's Glint
+    recipe: bloodmagic:alchemytable/looting_anointment
+  - page: 1
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lasts four times longer. $(br2)Applies:
+      Plundering I (1024 hits)'
+    translation: 'This upgraded version of the anointment lasts four times longer.
+      $(br2)Applies: Plundering I (1024 hits)'
+    heading:
+      source: Plunderer's Glint L
+      translation: Plunderer's Glint L
+    recipe: bloodmagic:alchemytable/looting_anointment_l
+  - page: 2
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment further increases the drops from
+      killed mobs. $(br2)Applies: Plundering II (256 hits)'
+    translation: 'This upgraded version of the anointment further increases the drops
+      from killed mobs. $(br2)Applies: Plundering II (256 hits)'
+    heading:
+      source: Plunderer's Glint II
+      translation: Plunderer's Glint II
+    recipe: bloodmagic:alchemytable/looting_anointment_2
+- id: melee_anointment
+  file: melee_anointment.json
+  name:
+    source: Honing Oil
+    translation: 研磨油
+  icon: bloodmagic:melee_anointment
+  category: bloodmagic:alchemy_table/anointments
+  page_count: 3
+  pages:
+  - page: 0
+    type: crafting_alchemy_table
+    source: 'Temporarily increases the melee damage dealt by +3. $(br2)Valid items:
+      Tools, Swords.$(br2)Applies: Whetstone I (256 hits)'
+    translation: 'Temporarily increases the melee damage dealt by +3. $(br2)Valid
+      items: Tools, Swords.$(br2)Applies: Whetstone I (256 hits)'
+    heading:
+      source: Honing Oil
+      translation: 研磨油
+    recipe: bloodmagic:alchemytable/melee_damage_anointment
+  - page: 1
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lasts four times longer. $(br2)Applies:
+      Whetstone I (1024 hits)'
+    translation: 'This upgraded version of the anointment lasts four times longer.
+      $(br2)Applies: Whetstone I (1024 hits)'
+    heading:
+      source: Honing Oil L
+      translation: 研磨油 L
+    recipe: bloodmagic:alchemytable/melee_damage_anointment_l
+  - page: 2
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment increases melee damage dealt
+      by +6. $(br2)Applies: Whetstone II (256 hits)'
+    translation: 'This upgraded version of the anointment increases melee damage dealt
+      by +6. $(br2)Applies: Whetstone II (256 hits)'
+    heading:
+      source: Honing Oil II
+      translation: 研磨油 II
+    recipe: bloodmagic:alchemytable/melee_damage_anointment_2
+- id: quick_draw_anointment
+  file: quick_draw_anointment.json
+  name:
+    source: Dexterity Alkahest
+    translation: Dexterity Alkahest
+  icon: bloodmagic:quick_draw_anointment
+  category: bloodmagic:alchemy_table/anointments
+  page_count: 3
+  pages:
+  - page: 0
+    type: crafting_alchemy_table
+    source: 'Lowers the draw time of bows and crossbows by 33%. $(br2)Valid items:
+      Bows, Crossbows.$(br2)Applies: Deft Hands I (256 shots)'
+    translation: 'Lowers the draw time of bows and crossbows by 33%. $(br2)Valid items:
+      Bows, Crossbows.$(br2)Applies: Deft Hands I (256 shots)'
+    heading:
+      source: Dexterity Alkahest
+      translation: Dexterity Alkahest
+    recipe: bloodmagic:alchemytable/quick_draw_anointment
+  - page: 1
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lasts four times longer. $(br2)Applies:
+      Deft Hands I (1024 shots)'
+    translation: 'This upgraded version of the anointment lasts four times longer.
+      $(br2)Applies: Deft Hands I (1024 shots)'
+    heading:
+      source: Dexterity Alkahest L
+      translation: Dexterity Alkahest L
+    recipe: bloodmagic:alchemytable/quick_draw_anointment_l
+  - page: 2
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lowers the draw time of bows
+      and crossbows by 50%. $(br2)Applies: Deft Hands II (256 shots)'
+    translation: 'This upgraded version of the anointment lowers the draw time of
+      bows and crossbows by 50%. $(br2)Applies: Deft Hands II (256 shots)'
+    heading:
+      source: Dexterity Alkahest II
+      translation: Dexterity Alkahest II
+    recipe: bloodmagic:alchemytable/quick_draw_anointment_2
+- id: silk_touch_anointment
+  file: silk_touch_anointment.json
+  name:
+    source: Soft Coating
+    translation: Soft Coating
+  icon: bloodmagic:silk_touch_anointment
+  category: bloodmagic:alchemy_table/anointments
+  page_count: 2
+  pages:
+  - page: 0
+    type: crafting_alchemy_table
+    source: 'Applies Silk Touch to blocks harvested. Does not stack with the vanilla
+      enchantment.$(br2)Valid items: Tools, Swords, Charges.$(br2)Applies: Soft Touch
+      I (256 blocks)'
+    translation: 'Applies シルクタッチ to blocks harvested. Does not stack with the vanilla
+      enchantment.$(br2)Valid items: Tools, Swords, Charges.$(br2)Applies: Soft Touch
+      I (256 blocks)'
+    heading:
+      source: Soft Coating
+      translation: Soft Coating
+    recipe: bloodmagic:alchemytable/silk_touch_anointment
+  - page: 1
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lasts four times longer. $(br2)Applies:
+      Soft Touch I (1024 blocks)'
+    translation: 'This upgraded version of the anointment lasts four times longer.
+      $(br2)Applies: Soft Touch I (1024 blocks)'
+    heading:
+      source: Soft Coating L
+      translation: Soft Coating L
+    recipe: bloodmagic:alchemytable/silk_touch_anointment_l
+- id: smelting_anointment
+  file: smelting_anointment.json
+  name:
+    source: Slow-burning Oil
+    translation: Slow-burning Oil
+  icon: bloodmagic:smelting_anointment
+  category: bloodmagic:alchemy_table/anointments
+  page_count: 2
+  pages:
+  - page: 0
+    type: crafting_alchemy_table
+    source: 'Uses heat to smelt harvested blocks. $(br2)Valid items: Tools, Swords,
+      Charges. $(br2)Applies: Heated Tool I (256 blocks)'
+    translation: 'Uses heat to smelt harvested blocks. $(br2)Valid items: Tools, Swords,
+      Charges. $(br2)Applies: Heated Tool I (256 blocks)'
+    heading:
+      source: Slow-burning Oil
+      translation: Slow-burning Oil
+    recipe: bloodmagic:alchemytable/smelting_anointment
+  - page: 1
+    type: crafting_alchemy_table
+    source: 'This upgraded version of the anointment lasts four times longer. $(br2)Applies:
+      Heated Tool I (1024 blocks)'
+    translation: 'This upgraded version of the anointment lasts four times longer.
+      $(br2)Applies: Heated Tool I (1024 blocks)'
+    heading:
+      source: Slow-burning Oil L
+      translation: Slow-burning Oil L
+    recipe: bloodmagic:alchemytable/smelting_anointment_l
+- id: bounce
+  file: bounce.json
+  name:
+    source: Bounce
+    translation: 跳ね返り
+  icon: minecraft:slime_ball
+  category: bloodmagic:alchemy_table/potion_flasks/blood_magic
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: If the target would take fall damage, $(thing)Bounce$() will instead cause
+      them to spring harmlessly off the ground. Whee! $(br2)Crouching before impact
+      will prevent you from bouncing.
+    translation: If the target would take fall damage, $(thing)跳ね返り$() will instead
+      cause them to spring harmlessly off the ground. Whee! $(br2)Crouching before
+      impact will prevent you from bouncing.
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Bounce (3:00)
+      translation: 跳ね返り (3:00)
+    a_recipe: bloodmagic:flask/bounce
+    b_heading:
+      source: Bounce (8:00)
+      translation: 跳ね返り (8:00)
+    b_recipe: bloodmagic:flask/length_bounce
+- id: flight
+  file: flight.json
+  name:
+    source: Flight
+    translation: 飛行
+  icon: minecraft:feather
+  category: bloodmagic:alchemy_table/potion_flasks/blood_magic
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Flight$() gives the target a temporary dose of creative-style
+      Flight, similar to if they were within the range of the $(l:bloodmagic:rituals/ritual_list/ritual_condor)Reverence
+      of the Condor$() ritual. Higher levels increase flight speed.
+    translation: $(thing)飛行$() gives the target a temporary dose of creative-style
+      飛行, similar to if they were within the range of the $(l:bloodmagic:rituals/ritual_list/ritual_condor)Reverence
+      of the Condor$() ritual. Higher levels increase flight speed.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Flight (3:00)
+      translation: 飛行 (3:00)
+    a_recipe: bloodmagic:flask/suspended_to_flight
+    b_heading:
+      source: Flight (8:00)
+      translation: 飛行 (8:00)
+    b_recipe: bloodmagic:flask/length_flight
+    c_heading:
+      source: Flight II (1:30)
+      translation: 飛行 II (1:30)
+    c_recipe: bloodmagic:flask/potency_flight
+- id: gravity
+  file: gravity.json
+  name:
+    source: Gravity
+    translation: 重力
+  icon: minecraft:tropical_fish
+  category: bloodmagic:alchemy_table/potion_flasks/blood_magic
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Gravity$() cause the target to fall faster and take more damage
+      on landing. It does not reduce jump height, however.
+    translation: $(thing)重力$() cause the target to fall faster and take more damage
+      on landing. It does not reduce jump height, however.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Gravity (3:00)
+      translation: 重力 (3:00)
+    a_recipe: bloodmagic:flask/gravity
+    b_heading:
+      source: Gravity (8:00)
+      translation: 重力 (8:00)
+    b_recipe: bloodmagic:flask/length_gravity
+    c_heading:
+      source: Gravity II (1:30)
+      translation: 重力 II (1:30)
+    c_recipe: bloodmagic:flask/potency_gravity
+- id: grounded
+  file: grounded.json
+  name:
+    source: Grounded
+    translation: 接地
+  icon: minecraft:string
+  category: bloodmagic:alchemy_table/potion_flasks/blood_magic
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Grounded$() prevents the target from jumping. Swimming is unaffected,
+      however.
+    translation: $(thing)接地$() prevents the target from jumping. Swimming is unaffected,
+      however.
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Grounded (3:00)
+      translation: 接地 (3:00)
+    a_recipe: bloodmagic:flask/jump_to_grounded
+    b_heading:
+      source: Grounded (8:00)
+      translation: 接地 (8:00)
+    b_recipe: bloodmagic:flask/length_grounded
+- id: hard_cloak
+  file: hard_cloak.json
+  name:
+    source: Hard Cloak
+    translation: 硬化の外套
+  icon: minecraft:obsidian
+  category: bloodmagic:alchemy_table/potion_flasks/blood_magic
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Hard Cloak$() provides 3 points of Armour Toughness per level
+      when used.
+    translation: $(thing)硬化の外套$() provides 3 points of Armour Toughness per level
+      when used.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Hard Cloak (3:00)
+      translation: 硬化の外套 (3:00)
+    a_recipe: bloodmagic:flask/hard_cloak
+    b_heading:
+      source: Hard Cloak (8:00)
+      translation: 硬化の外套 (8:00)
+    b_recipe: bloodmagic:flask/length_hard_cloak
+    c_heading:
+      source: Hard Cloak II (1:30)
+      translation: 硬化の外套 II (1:30)
+    c_recipe: bloodmagic:flask/potency_hard_cloak
+- id: heavy_heart
+  file: heavy_heart.json
+  name:
+    source: Heavy Heart
+    translation: 重い心臓
+  icon: minecraft:slime_ball
+  category: bloodmagic:alchemy_table/potion_flasks/blood_magic
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Heavy Heart$() drags the target steadily downwards, making flying
+      and swimming significantly more difficult.
+    translation: $(thing)重い心臓$() drags the target steadily downwards, making flying
+      and swimming significantly more difficult.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Heavy Heart (3:00)
+      translation: 重い心臓 (3:00)
+    a_recipe: bloodmagic:flask/gravity_to_heart
+    b_heading:
+      source: Heavy Heart (8:00)
+      translation: 重い心臓 (8:00)
+    b_recipe: bloodmagic:flask/length_heavy_heart
+    c_heading:
+      source: Heavy Heart II (1:30)
+      translation: 重い心臓 II (1:30)
+    c_recipe: bloodmagic:flask/potency_heavy_heart
+- id: obsidian_cloak
+  file: obsidian_cloak.json
+  name:
+    source: Obsidian Cloak
+    translation: 黒曜石の外套
+  icon: minecraft:diamond
+  category: bloodmagic:alchemy_table/potion_flasks/blood_magic
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Obsidian Cloak$() reduces all damage taken from non-magical sources
+      by 20% per level.
+    translation: $(thing)黒曜石の外套$() reduces all damage taken from non-magical sources
+      by 20% per level.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Obsidian Cloak (3:00)
+      translation: 黒曜石の外套 (3:00)
+    a_recipe: bloodmagic:flask/hard_to_obsidian
+    b_heading:
+      source: Obsidian Cloak (8:00)
+      translation: 黒曜石の外套 (8:00)
+    b_recipe: bloodmagic:flask/length_obsidian_cloak
+    c_heading:
+      source: Obsidian Cloak II (1:30)
+      translation: 黒曜石の外套 II (1:30)
+    c_recipe: bloodmagic:flask/potency_obsidian_cloak
+- id: passive
+  file: passive.json
+  name:
+    source: Passive
+    translation: 平和
+  icon: minecraft:honeycomb
+  category: bloodmagic:alchemy_table/potion_flasks/blood_magic
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Passive$() prevents the affected target from attacking. Players
+      are unaffected, however.
+    translation: $(thing)平和$() prevents the affected target from attacking. Players
+      are unaffected, however.
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Passive (3:00)
+      translation: 平和 (3:00)
+    a_recipe: bloodmagic:flask/passivity
+    b_heading:
+      source: Passive (8:00)
+      translation: 平和 (8:00)
+    b_recipe: bloodmagic:flask/length_passivity
+- id: suspended
+  file: suspended.json
+  name:
+    source: Suspended
+    translation: 浮遊状態
+  icon: minecraft:cobweb
+  category: bloodmagic:alchemy_table/potion_flasks/blood_magic
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Suspended$() prevents the target from jumping, falling, or being
+      affected by gravity in any way whatsoever. They can still move, however, sliding
+      about as though on a flat, never-ending plane of ice.
+    translation: $(thing)浮遊状態$() prevents the target from jumping, falling, or being
+      affected by gravity in any way whatsoever. They can still move, however, sliding
+      about as though on a flat, never-ending plane of ice.
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Suspended (3:00)
+      translation: 浮遊状態 (3:00)
+    a_recipe: bloodmagic:flask/gravity_to_suspended
+    b_heading:
+      source: Suspended (8:00)
+      translation: 浮遊状態 (8:00)
+    b_recipe: bloodmagic:flask/length_suspended
+- id: fire_resistance
+  file: fire_resistance.json
+  name:
+    source: Fire Resistance
+    translation: 火炎耐性
+  icon: minecraft:magma_cream
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Fire Resistance$() makes the target immune to most fire-based
+      damage.
+    translation: $(thing)火炎耐性$() makes the target immune to most fire-based damage.
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Fire Resistance (3:00)
+      translation: 火炎耐性 (3:00)
+    a_recipe: bloodmagic:flask/fire_resist
+    b_heading:
+      source: Fire Resistance (8:00)
+      translation: 火炎耐性 (8:00)
+    b_recipe: bloodmagic:flask/length_fire_resist
+- id: instant_damage
+  file: instant_damage.json
+  name:
+    source: Instant Damage
+    translation: 即時ダメージ
+  icon: minecraft:iron_sword
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Instant Damage$() inflicts 6 points of $(thing)Magic Damage$()
+      to the target per level. If the target is $(thing)Undead$(), they will be healed
+      for 6 points per level instead.
+    translation: $(thing)即時ダメージ$() inflicts 6 points of $(thing)Magic Damage$() to
+      the target per level. If the target is $(thing)Undead$(), they will be healed
+      for 6 points per level instead.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Damage from Health
+      translation: Damage from Health
+    a_recipe: bloodmagic:flask/health_to_harm
+    b_heading:
+      source: Damage from Poison
+      translation: Damage from 毒
+    b_recipe: bloodmagic:flask/poison_to_harm
+    c_heading:
+      source: Instant Damage II
+      translation: 即時ダメージ II
+    c_recipe: bloodmagic:flask/potency_harm
+- id: instant_health
+  file: instant_health.json
+  name:
+    source: Instant Health
+    translation: 即時回復
+  icon: minecraft:glistering_melon_slice
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Instant Health$() heals the target for 4 points per level. If
+      the target is $(thing)Undead$(), they will be harmed for 4 points per level
+      instead.
+    translation: $(thing)即時回復$() heals the target for 4 points per level. If the target
+      is $(thing)Undead$(), they will be harmed for 4 points per level instead.
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Instant Health
+      translation: 即時回復
+    a_recipe: bloodmagic:flask/health
+    b_heading:
+      source: Instant Health II
+      translation: 即時回復 II
+    b_recipe: bloodmagic:flask/potency_health
+- id: invisibility
+  file: invisibility.json
+  name:
+    source: Invisibility
+    translation: 透明化
+  icon: minecraft:glass_pane
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Invisibility$() causes the target to disappear from view, making
+      it harder for them to be spotted. This effect does not extend to any $(item)Armour$()
+      or held items, any of which may be a give-away as to the target's location.
+    translation: $(thing)透明化$() causes the target to disappear from view, making it
+      harder for them to be spotted. This effect does not extend to any $(item)Armour$()
+      or held items, any of which may be a give-away as to the target's location.
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Invisibility (3:00)
+      translation: 透明化 (3:00)
+    a_recipe: bloodmagic:flask/night_to_invis
+    b_heading:
+      source: Invisibility (8:00)
+      translation: 透明化 (8:00)
+    b_recipe: bloodmagic:flask/length_invisibility
+- id: jump_boost
+  file: jump_boost.json
+  name:
+    source: Jump Boost
+    translation: 跳躍力上昇
+  icon: minecraft:rabbit_foot
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Jump Boost$() increases the target's jump height by 50% per level.
+      It also reduces fall damage by 1 point per level.
+    translation: $(thing)跳躍力上昇$() increases the target's jump height by 50% per level.
+      It also reduces fall damage by 1 point per level.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Jump Boost (3:00)
+      translation: 跳躍力上昇 (3:00)
+    a_recipe: bloodmagic:flask/jump_boost
+    b_heading:
+      source: Jump Boost (8:00)
+      translation: 跳躍力上昇 (8:00)
+    b_recipe: bloodmagic:flask/length_jump_boost
+    c_heading:
+      source: Jump Boost II (1:30)
+      translation: 跳躍力上昇 II (1:30)
+    c_recipe: bloodmagic:flask/potency_jump_boost
+- id: levitation
+  file: levitation.json
+  name:
+    source: Levitation
+    translation: 浮遊
+  icon: minecraft:shulker_shell
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Levitation$() causes the target to float up into the air.
+    translation: $(thing)浮遊$() causes the target to float up into the air.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Levitation (3:00)
+      translation: 浮遊 (3:00)
+    a_recipe: bloodmagic:flask/fall_to_levitation
+    b_heading:
+      source: Levitation (8:00)
+      translation: 浮遊 (8:00)
+    b_recipe: bloodmagic:flask/length_levitation
+    c_heading:
+      source: Levitation II (1:30)
+      translation: 浮遊 II (1:30)
+    c_recipe: bloodmagic:flask/potency_levitation
+- id: night_vision
+  file: night_vision.json
+  name:
+    source: Night Vision
+    translation: 暗視
+  icon: minecraft:golden_carrot
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Night Vision$() increases the target's ability to see in darkness
+      and underwater.
+    translation: $(thing)暗視$() increases the target's ability to see in darkness and
+      underwater.
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Night Vision (3:00)
+      translation: 暗視 (3:00)
+    a_recipe: bloodmagic:flask/night_vision
+    b_heading:
+      source: Night Vision (8:00)
+      translation: 暗視 (8:00)
+    b_recipe: bloodmagic:flask/length_night_vision
+- id: poison
+  file: poison.json
+  name:
+    source: Poison
+    translation: 毒
+  icon: minecraft:spider_eye
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Poison$() deals damage over time to the target, but cannot kill
+      them on its own. Higher levels deal faster damage.
+    translation: $(thing)毒$() deals damage over time to the target, but cannot kill
+      them on its own. Higher levels deal faster damage.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Poison (3:00)
+      translation: 毒 (3:00)
+    a_recipe: bloodmagic:flask/poison
+    b_heading:
+      source: Poison (8:00)
+      translation: 毒 (8:00)
+    b_recipe: bloodmagic:flask/length_poison
+    c_heading:
+      source: Poison II (1:30)
+      translation: 毒 II (1:30)
+    c_recipe: bloodmagic:flask/potency_poison
+- id: regeneration
+  file: regeneration.json
+  name:
+    source: Regeneration
+    translation: 再生
+  icon: minecraft:ghast_tear
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Regeneration$() heals the target over time. Higher levels increase
+      the rate of healing.
+    translation: $(thing)再生$() heals the target over time. Higher levels increase
+      the rate of healing.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Regeneration (3:00)
+      translation: 再生 (3:00)
+    a_recipe: bloodmagic:flask/regen
+    b_heading:
+      source: Regeneration (8:00)
+      translation: 再生 (8:00)
+    b_recipe: bloodmagic:flask/length_regen
+    c_heading:
+      source: Regeneration II (1:30)
+      translation: 再生 II (1:30)
+    c_recipe: bloodmagic:flask/potency_regen
+- id: slow_falling
+  file: slow_falling.json
+  name:
+    source: Slow Falling
+    translation: 低速落下
+  icon: minecraft:phantom_membrane
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Slow Falling$() causes the target to fall slowly and take no fall
+      damage, akin to a $(thing)chicken$().
+    translation: $(thing)低速落下$() causes the target to fall slowly and take no fall
+      damage, akin to a $(thing)chicken$().
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Slow Falling (3:00)
+      translation: 低速落下 (3:00)
+    a_recipe: bloodmagic:flask/slow_fall
+    b_heading:
+      source: Slow Falling (8:00)
+      translation: 低速落下 (8:00)
+    b_recipe: bloodmagic:flask/length_slow_fall
+- id: slowness
+  file: slowness.json
+  name:
+    source: Slowness
+    translation: 鈍化
+  icon: minecraft:soul_sand
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 3
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Slowness$() decreases the target's movement speed by 15% per level.
+      $(br2)See overleaf for Catalyst Combinations
+    translation: $(thing)鈍化$() decreases the target's movement speed by 15% per level.
+      $(br2)See overleaf for 触媒 Combinations
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Slowness from Speed
+      translation: 鈍化 from 移動速度上昇
+    a_recipe: bloodmagic:flask/speed_to_slow
+    b_heading:
+      source: Slowness from Jump Boost
+      translation: 鈍化 from 跳躍力上昇
+    b_recipe: bloodmagic:flask/jump_to_slow
+  - page: 2
+    type: 2x_crafting_flask
+    a_heading:
+      source: Slowness (8:00)
+      translation: 鈍化 (8:00)
+    a_recipe: bloodmagic:flask/length_slowness
+    b_heading:
+      source: Slowness II (1:30)
+      translation: 鈍化 II (1:30)
+    b_recipe: bloodmagic:flask/potency_slowness
+- id: speed
+  file: speed.json
+  name:
+    source: Speed
+    translation: 移動速度上昇
+  icon: minecraft:sugar
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Speed$() increases the target's movement speed by 20% per level.
+    translation: $(thing)移動速度上昇$() increases the target's movement speed by 20% per
+      level.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Speed (3:00)
+      translation: 移動速度上昇 (3:00)
+    a_recipe: bloodmagic:flask/speed_boost
+    b_heading:
+      source: Speed (8:00)
+      translation: 移動速度上昇 (8:00)
+    b_recipe: bloodmagic:flask/length_speed_boost
+    c_heading:
+      source: Speed II (1:30)
+      translation: 移動速度上昇 II (1:30)
+    c_recipe: bloodmagic:flask/potency_speed_boost
+- id: strength
+  file: strength.json
+  name:
+    source: Strength
+    translation: 攻撃力上昇
+  icon: minecraft:blaze_powder
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Strength$() increases the target's attack damage by 3 points per
+      level.
+    translation: $(thing)攻撃力上昇$() increases the target's attack damage by 3 points
+      per level.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Strength (3:00)
+      translation: 攻撃力上昇 (3:00)
+    a_recipe: bloodmagic:flask/strength
+    b_heading:
+      source: Strength (8:00)
+      translation: 攻撃力上昇 (8:00)
+    b_recipe: bloodmagic:flask/length_strength
+    c_heading:
+      source: Strength II (1:30)
+      translation: 攻撃力上昇 II (1:30)
+    c_recipe: bloodmagic:flask/potency_strength
+- id: water_breathing
+  file: water_breathing.json
+  name:
+    source: Water Breathing
+    translation: 水中呼吸
+  icon: minecraft:sugar
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Water Breathing$() allows the target to breathe underwater.
+    translation: $(thing)水中呼吸$() allows the target to breathe underwater.
+  - page: 1
+    type: 2x_crafting_flask
+    a_heading:
+      source: Water Breathing (3:00)
+      translation: 水中呼吸 (3:00)
+    a_recipe: bloodmagic:flask/water_breathing
+    b_heading:
+      source: Water Breathing (8:00)
+      translation: 水中呼吸 (8:00)
+    b_recipe: bloodmagic:flask/length_water_breathing
+- id: weakness
+  file: weakness.json
+  name:
+    source: Weakness
+    translation: 弱体化
+  icon: minecraft:fermented_spider_eye
+  category: bloodmagic:alchemy_table/potion_flasks/vanilla
+  page_count: 2
+  pages:
+  - page: 0
+    type: text
+    source: $(thing)Weakness$() decreases the target's attack damage by 4 points per
+      level.
+    translation: $(thing)弱体化$() decreases the target's attack damage by 4 points per
+      level.
+  - page: 1
+    type: 3x_crafting_flask
+    a_heading:
+      source: Weakness (3:00)
+      translation: 弱体化 (3:00)
+    a_recipe: bloodmagic:flask/weakness
+    b_heading:
+      source: Weakness (8:00)
+      translation: 弱体化 (8:00)
+    b_recipe: bloodmagic:flask/length_weakness
+    c_heading:
+      source: Weakness II (1:30)
+      translation: 弱体化 II (1:30)
+    c_recipe: bloodmagic:flask/potency_weakness

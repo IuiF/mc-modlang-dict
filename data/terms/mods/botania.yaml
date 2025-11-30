@@ -1,0 +1,462 @@
+scope: mod
+mod_id: botania
+priority: 90
+terms:
+  # Core Concepts - マナシステム
+  - source: "Mana"
+    target: "マナ"
+    tags: [mechanic, core]
+    priority: 100
+    notes: "Botaniaの中核リソース。魔法の力"
+
+  - source: "Mana Pool"
+    target: "マナプール"
+    tags: [block, storage]
+    priority: 100
+    notes: "マナを蓄える基本装置"
+
+  - source: "Mana Spreader"
+    target: "マナスプレッダー"
+    tags: [block, transfer]
+    priority: 100
+    notes: "マナを転送する装置"
+
+  - source: "Spark"
+    target: "スパーク"
+    tags: [block, transfer]
+    priority: 95
+    notes: "マナプール間でマナを転送"
+
+  - source: "Lexica Botania"
+    target: "ボタニア植物辞典"
+    tags: [item, guide]
+    priority: 100
+    notes: "Botaniaのガイドブック"
+
+  # Flowers - 花
+  - source: "Mystical Flower"
+    target: "神秘的な花"
+    tags: [block, material]
+    priority: 100
+
+  - source: "Petal"
+    target: "花びら"
+    tags: [item, material]
+    priority: 100
+
+  - source: "Petal Apothecary"
+    target: "花びらの調合所"
+    tags: [block, crafting]
+    priority: 100
+    notes: "魔法の花を作成する台"
+
+  - source: "Pure Daisy"
+    target: "ピュアデイジー"
+    tags: [block, functional_flower]
+    priority: 100
+    notes: "ブロックを変換する花"
+
+  - source: "Generating Flora"
+    target: "生成植物"
+    tags: [category]
+    priority: 95
+    notes: "マナを生成する花の総称"
+
+  - source: "Functional Flora"
+    target: "機能植物"
+    tags: [category]
+    priority: 95
+    notes: "特殊機能を持つ花の総称"
+
+  # Runes & Advanced Crafting
+  - source: "Rune"
+    target: "ルーン"
+    tags: [item, material]
+    priority: 100
+
+  - source: "Rune Altar"
+    target: "ルーン祭壇"
+    tags: [block, crafting]
+    priority: 100
+    notes: "ルーンを作成する祭壇"
+
+  - source: "Mana Infusion"
+    target: "マナ注入"
+    tags: [mechanic, crafting]
+    priority: 95
+    notes: "マナプールでアイテムを変換"
+
+  - source: "Elven"
+    target: "エルフの"
+    tags: [prefix]
+    priority: 95
+    notes: "エルフ関連のアイテム・ブロック"
+
+  - source: "Alfheim"
+    target: "アルフヘイム"
+    tags: [dimension, lore]
+    priority: 95
+    notes: "エルフの次元"
+
+  - source: "Gaia"
+    target: "ガイア"
+    tags: [boss, lore]
+    priority: 95
+    notes: "Botaniaの最終ボス"
+
+  # Tools & Equipment
+  - source: "Wand of the Forest"
+    target: "森の杖"
+    tags: [item, tool]
+    priority: 100
+    notes: "Botaniaの基本ツール"
+
+  - source: "Mana Tablet"
+    target: "マナタブレット"
+    tags: [item, storage]
+    priority: 95
+    notes: "携帯型マナ保管アイテム"
+
+  - source: "Mana Ring"
+    target: "マナリング"
+    tags: [item, bauble]
+    priority: 95
+
+  - source: "Mana Mirror"
+    target: "マナミラー"
+    tags: [item, storage]
+    priority: 95
+    notes: "マナプールと連携する携帯ストレージ"
+
+  # Materials
+  - source: "Livingrock"
+    target: "リビングロック"
+    tags: [block, material]
+    priority: 100
+    notes: "Pure Daisyで石から変換"
+
+  - source: "Livingwood"
+    target: "リビングウッド"
+    tags: [block, material]
+    priority: 100
+    notes: "Pure Daisyで木材から変換"
+
+  - source: "Manasteel"
+    target: "マナスチール"
+    tags: [material, ingot]
+    priority: 100
+    notes: "マナ注入で作る基本金属"
+
+  - source: "Terrasteel"
+    target: "テラスチール"
+    tags: [material, ingot]
+    priority: 100
+    notes: "高度なマナ金属"
+
+  - source: "Elementium"
+    target: "エレメンチウム"
+    tags: [material, ingot]
+    priority: 100
+    notes: "エルフの金属"
+
+  - source: "Dragonstone"
+    target: "ドラゴンストーン"
+    tags: [material, gem]
+    priority: 95
+
+  - source: "Mana Diamond"
+    target: "マナダイヤモンド"
+    tags: [material, gem]
+    priority: 95
+
+  - source: "Mana Pearl"
+    target: "マナパール"
+    tags: [material, gem]
+    priority: 95
+
+  # Lenses
+  - source: "Lens"
+    target: "レンズ"
+    tags: [item, component]
+    priority: 95
+    notes: "Spreaderに装着して効果を付与"
+
+  - source: "Bore Lens"
+    target: "掘削レンズ"
+    tags: [item, lens]
+    priority: 90
+
+  - source: "Phantom Lens"
+    target: "ファントムレンズ"
+    tags: [item, lens]
+    priority: 90
+
+  - source: "Composite Lens"
+    target: "複合レンズ"
+    tags: [mechanic]
+    priority: 90
+    notes: "複数のレンズを組み合わせる"
+
+  # Devices
+  - source: "Corporea"
+    target: "コーポリア"
+    tags: [mechanic, system]
+    priority: 95
+    notes: "高度な自動化システム"
+
+  - source: "Corporea Index"
+    target: "コーポリアインデックス"
+    tags: [block, corporea]
+    priority: 95
+    notes: "アイテム検索・要求システム"
+
+  - source: "Corporea Spark"
+    target: "コーポリアスパーク"
+    tags: [block, corporea]
+    priority: 95
+
+  - source: "Mana Enchanter"
+    target: "マナエンチャンター"
+    tags: [block, enchanting]
+    priority: 95
+    notes: "マナでエンチャント"
+
+  - source: "Conjuration Catalyst"
+    target: "召喚触媒"
+    tags: [block, component]
+    priority: 90
+
+  - source: "Alchemy Catalyst"
+    target: "錬金触媒"
+    tags: [block, component]
+    priority: 90
+
+  # Baubles (Trinkets)
+  - source: "Bauble"
+    target: "装飾品"
+    tags: [category]
+    priority: 95
+    notes: "装備可能なアクセサリー"
+
+  - source: "Band of Mana"
+    target: "マナの指輪"
+    tags: [item, bauble]
+    priority: 90
+
+  - source: "Band of Aura"
+    target: "オーラの指輪"
+    tags: [item, bauble]
+    priority: 90
+
+  - source: "Tectonic Girdle"
+    target: "テクトニックガードル"
+    tags: [item, bauble]
+    priority: 90
+
+  - source: "Tainted Blood Pendant"
+    target: "汚染された血のペンダント"
+    tags: [item, bauble]
+    priority: 90
+
+  - source: "Flügel Tiara"
+    target: "フリューゲルティアラ"
+    tags: [item, bauble]
+    priority: 95
+    notes: "飛行能力を付与する頭装備"
+
+  # Generation Flowers - マナ生成花
+  - source: "Endoflame"
+    target: "エンドフレイム"
+    tags: [block, generating_flower]
+    priority: 95
+    notes: "燃料を燃やしてマナ生成"
+
+  - source: "Hydroangeas"
+    target: "ハイドロアンジアス"
+    tags: [block, generating_flower]
+    priority: 90
+    notes: "水を消費してマナ生成"
+
+  - source: "Thermalily"
+    target: "サーマリリー"
+    tags: [block, generating_flower]
+    priority: 90
+    notes: "溶岩を消費してマナ生成"
+
+  - source: "Rosa Arcana"
+    target: "ロサアルカーナ"
+    tags: [block, generating_flower]
+    priority: 90
+    notes: "経験値を消費してマナ生成"
+
+  - source: "Munchdew"
+    target: "マンチデュー"
+    tags: [block, generating_flower]
+    priority: 90
+    notes: "葉ブロックを食べてマナ生成"
+
+  - source: "Entropinnyum"
+    target: "エントロピニウム"
+    tags: [block, generating_flower]
+    priority: 90
+    notes: "TNT爆発からマナ生成"
+
+  - source: "Spectrolus"
+    target: "スペクトロラス"
+    tags: [block, generating_flower]
+    priority: 90
+    notes: "羊毛を消費してマナ生成"
+
+  - source: "Gourmaryllis"
+    target: "グルマリリス"
+    tags: [block, generating_flower]
+    priority: 90
+    notes: "食べ物を消費してマナ生成"
+
+  # Functional Flowers - 機能花
+  - source: "Jiyuulia"
+    target: "ジユウリア"
+    tags: [block, functional_flower]
+    priority: 90
+    notes: "周囲の植物の成長を早める"
+
+  - source: "Rannuncarpus"
+    target: "ランヌンカルプス"
+    tags: [block, functional_flower]
+    priority: 90
+    notes: "アイテムを自動配置"
+
+  - source: "Hopperhock"
+    target: "ホッパーホック"
+    tags: [block, functional_flower]
+    priority: 90
+    notes: "アイテムを自動回収"
+
+  - source: "Agricarnation"
+    target: "アグリカーネーション"
+    tags: [block, functional_flower]
+    priority: 90
+    notes: "作物の成長を促進"
+
+  - source: "Bellethorne"
+    target: "ベルソーン"
+    tags: [block, functional_flower]
+    priority: 90
+    notes: "周囲のMobにダメージ"
+
+  - source: "Dreadthorne"
+    target: "ドレッドソーン"
+    tags: [block, functional_flower]
+    priority: 85
+    notes: "Bellethorneの強化版"
+
+  - source: "Orechid"
+    target: "オーキッド"
+    tags: [block, functional_flower]
+    priority: 90
+    notes: "石を鉱石に変換"
+
+  - source: "Orechid Ignem"
+    target: "オーキッドイグネム"
+    tags: [block, functional_flower]
+    priority: 85
+    notes: "ネザーの石をネザー鉱石に変換"
+
+  # Pylons
+  - source: "Pylon"
+    target: "柱"
+    tags: [block, structure]
+    priority: 95
+
+  - source: "Mana Pylon"
+    target: "マナの柱"
+    tags: [block, structure]
+    priority: 95
+
+  - source: "Natura Pylon"
+    target: "自然の柱"
+    tags: [block, structure]
+    priority: 90
+
+  - source: "Gaia Pylon"
+    target: "ガイアの柱"
+    tags: [block, structure]
+    priority: 90
+
+  # Misc Terms
+  - source: "Brew"
+    target: "醸造物"
+    tags: [mechanic]
+    priority: 90
+    notes: "ポーション効果を持つアイテム"
+
+  - source: "Vial"
+    target: "小瓶"
+    tags: [item]
+    priority: 85
+
+  - source: "Flask"
+    target: "フラスコ"
+    tags: [item]
+    priority: 85
+
+  - source: "Incense"
+    target: "お香"
+    tags: [item]
+    priority: 85
+
+  - source: "Soulbound"
+    target: "ソウルバウンド"
+    tags: [enchantment]
+    priority: 90
+    notes: "死亡時にアイテムを保持"
+
+  - source: "Relic"
+    target: "遺物"
+    tags: [item, rare]
+    priority: 95
+    notes: "非常に強力なアイテム"
+
+  # Common Actions/States
+  - source: "Bind"
+    target: "接続"
+    tags: [action]
+    priority: 80
+
+  - source: "Infuse"
+    target: "注入"
+    tags: [action]
+    priority: 80
+
+  - source: "Generate"
+    target: "生成"
+    tags: [action]
+    priority: 80
+
+  - source: "Passive"
+    target: "受動的"
+    tags: [state]
+    priority: 75
+    notes: "自動的に動作する"
+
+  - source: "Active"
+    target: "能動的"
+    tags: [state]
+    priority: 75
+    notes: "手動で動作する"
+
+  # Lexicon/Patchouli用語
+  - source: "Lexicon"
+    target: "植物辞典"
+    tags: [item]
+    priority: 100
+
+  - source: "Entry"
+    target: "項目"
+    tags: [ui]
+    priority: 80
+
+  - source: "Category"
+    target: "カテゴリ"
+    tags: [ui]
+    priority: 80

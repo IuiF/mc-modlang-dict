@@ -1,0 +1,457 @@
+# Tinkers' Construct Mod Specific Terms
+# Mod ID: tconstruct
+# Version: 3.8.x (MC 1.20.1)
+
+scope: "mod:tconstruct"
+
+terms:
+  # ===== Core Systems =====
+  - source: "Smeltery"
+    target: "精錬炉"
+    tags: [multiblock, system]
+    priority: 100
+    context: "Main multiblock structure for melting metals"
+
+  - source: "Foundry"
+    target: "鋳造所"
+    tags: [multiblock, system]
+    priority: 100
+    context: "Advanced version of Smeltery"
+
+  - source: "Tinker Station"
+    target: "改造ステーション"
+    tags: [block, crafting]
+    priority: 90
+
+  - source: "Tinker's Anvil"
+    target: "ティンカーの金床"
+    tags: [block, crafting]
+    priority: 90
+
+  - source: "Part Builder"
+    target: "パーツ作成台"
+    tags: [block, crafting]
+    priority: 90
+
+  # ===== Materials =====
+  - source: "Seared"
+    target: "焼成"
+    tags: [material, adjective]
+    priority: 100
+    context: "Smeltery building blocks"
+
+  - source: "Scorched"
+    target: "焦熱"
+    tags: [material, adjective]
+    priority: 100
+    context: "Foundry building blocks"
+
+  - source: "Molten"
+    target: "溶融"
+    tags: [fluid, adjective]
+    priority: 95
+
+  # ===== Tool Parts =====
+  - source: "Tool Part"
+    target: "ツールパーツ"
+    tags: [item, component]
+    priority: 90
+
+  - source: "Pattern"
+    target: "型紙"
+    tags: [item, crafting]
+    priority: 95
+    context: "Paper/wood patterns for crafting"
+
+  - source: "Cast"
+    target: "鋳型"
+    tags: [item, crafting]
+    priority: 95
+    context: "Metal casts for casting"
+
+  - source: "Casting"
+    target: "鋳造"
+    tags: [process]
+    priority: 90
+
+  - source: "Casting Table"
+    target: "鋳造台"
+    tags: [block]
+    priority: 90
+
+  - source: "Casting Basin"
+    target: "鋳造盤"
+    tags: [block]
+    priority: 90
+
+  # ===== Tool Stats =====
+  - source: "Durability"
+    target: "耐久値"
+    tags: [stat]
+    priority: 90
+
+  - source: "Mining Speed"
+    target: "採掘速度"
+    tags: [stat]
+    priority: 90
+
+  - source: "Attack Damage"
+    target: "攻撃力"
+    tags: [stat]
+    priority: 90
+
+  - source: "Harvest Level"
+    target: "採掘レベル"
+    tags: [stat]
+    priority: 90
+
+  - source: "Harvest Tier"
+    target: "採掘層"
+    tags: [stat]
+    priority: 90
+    context: "1.18+ version of Harvest Level"
+
+  # ===== Modifiers =====
+  - source: "Modifier"
+    target: "モディファイア"
+    tags: [mechanic]
+    priority: 100
+
+  - source: "Trait"
+    target: "特性"
+    tags: [mechanic]
+    priority: 90
+
+  - source: "Ability"
+    target: "能力"
+    tags: [mechanic]
+    priority: 85
+
+  - source: "Upgrade"
+    target: "強化"
+    tags: [modifier]
+    priority: 85
+
+  - source: "Reinforcement"
+    target: "補強"
+    tags: [modifier]
+    priority: 85
+
+  # ===== Tool Types =====
+  - source: "Pickaxe"
+    target: "ピッケル"
+    tags: [tool]
+    priority: 80
+
+  - source: "Mattock"
+    target: "マトック"
+    tags: [tool]
+    priority: 85
+
+  - source: "Excavator"
+    target: "掘削機"
+    tags: [tool]
+    priority: 85
+
+  - source: "Hammer"
+    target: "ハンマー"
+    tags: [tool]
+    priority: 80
+
+  - source: "Cleaver"
+    target: "包丁"
+    tags: [tool]
+    priority: 85
+
+  - source: "Broadsword"
+    target: "ブロードソード"
+    tags: [tool]
+    priority: 85
+
+  - source: "Scythe"
+    target: "大鎌"
+    tags: [tool]
+    priority: 85
+
+  # ===== Tool Parts Names =====
+  - source: "Pick Head"
+    target: "ピッケルヘッド"
+    tags: [part]
+    priority: 80
+
+  - source: "Axe Head"
+    target: "斧ヘッド"
+    tags: [part]
+    priority: 80
+
+  - source: "Shovel Head"
+    target: "シャベルヘッド"
+    tags: [part]
+    priority: 80
+
+  - source: "Sword Blade"
+    target: "剣の刀身"
+    tags: [part]
+    priority: 80
+
+  - source: "Tool Binding"
+    target: "ツール接合部"
+    tags: [part]
+    priority: 80
+
+  - source: "Tool Handle"
+    target: "ツール柄"
+    tags: [part]
+    priority: 80
+
+  - source: "Tool Rod"
+    target: "ツール棒"
+    tags: [part]
+    priority: 80
+
+  - source: "Large Plate"
+    target: "大きなプレート"
+    tags: [part]
+    priority: 80
+
+  - source: "Repair Kit"
+    target: "修理キット"
+    tags: [part]
+    priority: 85
+
+  # ===== Smeltery Components =====
+  - source: "Smeltery Controller"
+    target: "精錬炉コントローラー"
+    tags: [block]
+    priority: 90
+
+  - source: "Seared Drain"
+    target: "焼成排出口"
+    tags: [block]
+    priority: 85
+
+  - source: "Seared Duct"
+    target: "焼成ダクト"
+    tags: [block]
+    priority: 85
+
+  - source: "Seared Chute"
+    target: "焼成投入口"
+    tags: [block]
+    priority: 85
+
+  - source: "Seared Tank"
+    target: "焼成タンク"
+    tags: [block]
+    priority: 85
+
+  - source: "Seared Fuel Tank"
+    target: "焼成燃料タンク"
+    tags: [block]
+    priority: 85
+
+  - source: "Seared Lantern"
+    target: "焼成ランタン"
+    tags: [block]
+    priority: 80
+
+  - source: "Seared Faucet"
+    target: "焼成蛇口"
+    tags: [block]
+    priority: 85
+
+  - source: "Seared Channel"
+    target: "焼成水路"
+    tags: [block]
+    priority: 85
+
+  # ===== Foundry Components =====
+  - source: "Foundry Controller"
+    target: "鋳造所コントローラー"
+    tags: [block]
+    priority: 90
+
+  - source: "Scorched Drain"
+    target: "焦熱排出口"
+    tags: [block]
+    priority: 85
+
+  - source: "Scorched Duct"
+    target: "焦熱ダクト"
+    tags: [block]
+    priority: 85
+
+  - source: "Scorched Chute"
+    target: "焦熱投入口"
+    tags: [block]
+    priority: 85
+
+  - source: "Scorched Tank"
+    target: "焦熱タンク"
+    tags: [block]
+    priority: 85
+
+  - source: "Alloyer"
+    target: "合金炉"
+    tags: [block]
+    priority: 85
+
+  # ===== Book Related =====
+  - source: "Materials and You"
+    target: "素材と君"
+    tags: [book]
+    priority: 90
+    context: "Volume 1 book title"
+
+  - source: "Puny Smelting"
+    target: "小さな精錬"
+    tags: [book]
+    priority: 90
+    context: "Volume 2 book title"
+
+  - source: "Mighty Smelting"
+    target: "偉大なる精錬"
+    tags: [book]
+    priority: 90
+    context: "Volume 3 book title"
+
+  - source: "Tinkers' Gadgetry"
+    target: "ティンカーの道具術"
+    tags: [book]
+    priority: 90
+    context: "Volume 4 book title"
+
+  - source: "Fantastic Foundry"
+    target: "素晴らしき鋳造所"
+    tags: [book]
+    priority: 90
+    context: "Volume 5 book title"
+
+  - source: "Encyclopedia of Tinkering"
+    target: "ティンカリング大百科"
+    tags: [book]
+    priority: 90
+    context: "Encyclopedia book title"
+
+  # ===== Slime Related =====
+  - source: "Slime"
+    target: "スライム"
+    tags: [entity, material]
+    priority: 85
+
+  - source: "Congealed Slime"
+    target: "凝固スライム"
+    tags: [block]
+    priority: 85
+
+  - source: "Slime Sapling"
+    target: "スライムの苗木"
+    tags: [block]
+    priority: 80
+
+  - source: "Slime Leaves"
+    target: "スライムの葉"
+    tags: [block]
+    priority: 80
+
+  - source: "Slimeball"
+    target: "スライムボール"
+    tags: [item]
+    priority: 80
+
+  # ===== Material Types =====
+  - source: "Cobalt"
+    target: "コバルト"
+    tags: [material, metal]
+    priority: 85
+
+  - source: "Manyullyn"
+    target: "マニュリン"
+    tags: [material, metal]
+    priority: 85
+
+  - source: "Hepatizon"
+    target: "ヘパティゾン"
+    tags: [material, metal]
+    priority: 85
+
+  - source: "Queens Slime"
+    target: "女王スライム"
+    tags: [material, metal]
+    priority: 85
+
+  - source: "Manyullyn"
+    target: "マニュリン"
+    tags: [material, metal]
+    priority: 85
+
+  - source: "Pig Iron"
+    target: "ピグアイアン"
+    tags: [material, metal]
+    priority: 85
+
+  - source: "Rose Gold"
+    target: "ローズゴールド"
+    tags: [material, metal]
+    priority: 85
+
+  - source: "Knightslime"
+    target: "ナイトスライム"
+    tags: [material]
+    priority: 85
+
+  # ===== Common Terms =====
+  - source: "Ingot"
+    target: "インゴット"
+    tags: [item]
+    priority: 70
+
+  - source: "Nugget"
+    target: "塊"
+    tags: [item]
+    priority: 70
+
+  - source: "Block"
+    target: "ブロック"
+    tags: [block]
+    priority: 70
+
+  - source: "Ore"
+    target: "鉱石"
+    tags: [block]
+    priority: 75
+
+  - source: "Gem"
+    target: "宝石"
+    tags: [item]
+    priority: 70
+
+  - source: "Crystal"
+    target: "結晶"
+    tags: [item]
+    priority: 70
+
+  - source: "Shard"
+    target: "欠片"
+    tags: [item]
+    priority: 70
+
+  - source: "Dust"
+    target: "粉"
+    tags: [item]
+    priority: 70
+
+  - source: "Plate"
+    target: "プレート"
+    tags: [item]
+    priority: 70
+
+  - source: "Rod"
+    target: "棒"
+    tags: [item]
+    priority: 70
+
+  - source: "Gear"
+    target: "ギア"
+    tags: [item]
+    priority: 70

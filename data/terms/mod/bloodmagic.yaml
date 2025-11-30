@@ -1,0 +1,422 @@
+# Blood Magic - Mod-Specific Terminology Dictionary
+# Blood Magic固有用語辞書
+
+mod_id: bloodmagic
+mod_name: Blood Magic
+version: 3.x.x
+mc_version: 1.20.1
+priority: high
+
+terms:
+  # ==============================================================================
+  # Core Concepts - 核心概念
+  # ==============================================================================
+
+  - term: "Blood Magic"
+    reading: "ブラッドマジック"
+    translation: "Blood Magic"
+    category: mod_name
+    description: "血の魔法を使用するMod名。固有名詞として英語のまま表記"
+    usage: "公式Mod名、変更不可"
+
+  - term: "Life Points"
+    abbreviation: "LP"
+    translation: "ライフポイント"
+    reading: "LP"
+    category: resource
+    description: "Blood Magicの主要リソース。血から変換された生命のエッセンス"
+    context: "$(blood)LP$() は常に赤色で表示される"
+    usage: "略称「LP」は変更せず、LPのまま使用"
+
+  - term: "Life Essence"
+    translation: "生命のエッセンス"
+    reading: "せいめいのエッセンス"
+    category: resource
+    description: "血から変換された純粋な生命エネルギー。LPの正式名称"
+    related: ["LP", "blood"]
+
+  # ==============================================================================
+  # Structures & Blocks - 構造物とブロック
+  # ==============================================================================
+
+  - term: "Blood Altar"
+    translation: "血の祭壇"
+    reading: "ちのさいだん"
+    category: structure
+    description: "Blood Magicの中心的な構造物。血をLPに変換する"
+    tiers: [1, 2, 3, 4, 5]
+    note: "ティアによって規模が拡大"
+
+  - term: "Altar"
+    translation: "祭壇"
+    reading: "さいだん"
+    category: structure
+    description: "Blood Altarの略称"
+
+  - term: "Master Ritual Stone"
+    translation: "マスター儀式石"
+    reading: "マスターぎしきいし"
+    category: block
+    description: "儀式の中心となる石。すべての儀式に1つ必要"
+
+  - term: "Ritual Stone"
+    translation: "儀式石"
+    reading: "ぎしきいし"
+    category: block
+    description: "儀式を構成する石"
+
+  - term: "Blood Rune"
+    translation: "血のルーン"
+    reading: "ちのルーン"
+    category: block
+    description: "祭壇をアップグレードするための石"
+    variants:
+      - "Blank Rune: 空白のルーン"
+      - "Sacrifice Rune: 生贄のルーン"
+      - "Self-Sacrifice Rune: 自己犠牲のルーン"
+      - "Speed Rune: 速度のルーン"
+      - "Capacity Rune: 容量のルーン"
+
+  # ==============================================================================
+  # Tools & Weapons - 道具と武器
+  # ==============================================================================
+
+  - term: "Sacrificial Knife"
+    translation: "生贄のナイフ"
+    reading: "いけにえのナイフ"
+    category: tool
+    description: "自己犠牲でLPを生成するナイフ"
+    generates: "200 LP per use (costs 1 heart)"
+
+  - term: "Dagger of Sacrifice"
+    translation: "生贄の短剣"
+    reading: "いけにえのたんけん"
+    category: tool
+    description: "Mobを犠牲にしてLPを生成する短剣"
+    tier_requirement: 2
+
+  - term: "Sentient Sword"
+    translation: "意識剣"
+    reading: "いしきけん"
+    category: weapon
+    description: "意識を持つ剣。悪魔の意志を収集できる"
+    alternative: "感覚剣"
+    note: "Sentient = 感覚を持つ、意識のある"
+
+  - term: "Sentient Tools"
+    translation: "意識のある道具"
+    reading: "いしきのあるどうぐ"
+    category: tool
+    description: "意識を持つツール類の総称"
+
+  - term: "Ritual Diviner"
+    translation: "儀式占い師"
+    reading: "ぎしきうらないし"
+    category: tool
+    description: "儀式の構築を補助するツール"
+    tiers:
+      - "Weak: 弱き儀式占い師"
+      - "Dusk: 黄昏の儀式占い師"
+      - "Dawn: 夜明けの儀式占い師"
+
+  # ==============================================================================
+  # Items - アイテム
+  # ==============================================================================
+
+  - term: "Blood Orb"
+    translation: "血のオーブ"
+    reading: "ちのオーブ"
+    category: item
+    description: "LPを保存するオーブ"
+    tiers:
+      - "Weak Blood Orb: 弱き血のオーブ"
+      - "Apprentice Blood Orb: 見習いの血のオーブ"
+      - "Magician's Blood Orb: 魔術師の血のオーブ"
+      - "Master Blood Orb: 達人の血のオーブ"
+      - "Archmage's Blood Orb: 大魔術師の血のオーブ"
+      - "Transcendent Blood Orb: 超越の血のオーブ"
+
+  - term: "Slate"
+    translation: "石板"
+    reading: "せきばん"
+    category: item
+    description: "祭壇で作成される板状のアイテム"
+    tiers:
+      - "Blank Slate: 空白の石板"
+      - "Reinforced Slate: 強化石板"
+      - "Imbued Slate: 染み込んだ石板"
+      - "Demonic Slate: 悪魔の石板"
+      - "Ethereal Slate: エーテルの石板"
+
+  - term: "Sigil"
+    translation: "シジル"
+    reading: "シジル"
+    category: item
+    description: "特殊な能力を発動するアイテム"
+    note: "印章、魔法印の意味だが、カタカナ表記が一般的"
+    examples:
+      - "Divination Sigil: 占いのシジル"
+      - "Water Sigil: 水のシジル"
+      - "Lava Sigil: 溶岩のシジル"
+      - "Void Sigil: 虚空のシジル"
+
+  # ==============================================================================
+  # Demon Will System - 悪魔の意志システム
+  # ==============================================================================
+
+  - term: "Demon Will"
+    translation: "悪魔の意志"
+    reading: "あくまのいし"
+    category: resource
+    description: "悪魔から得られる意志のエネルギー"
+    color_code: "$(raw)"
+
+  - term: "Will"
+    translation: "意志"
+    reading: "いし"
+    category: resource
+    description: "Demon Willの略称"
+
+  - term: "Aspected Will"
+    translation: "属性付き意志"
+    reading: "ぞくせいつきいし"
+    category: resource
+    description: "特定の属性を持つ悪魔の意志"
+    aspects:
+      - "Corrosive Will: 腐食の意志 (green)"
+      - "Destructive Will: 破壊の意志 (yellow)"
+      - "Vengeful Will: 復讐の意志 (red)"
+      - "Steadfast Will: 堅固の意志 (blue)"
+
+  - term: "Soul Snare"
+    translation: "ソウルスネア"
+    reading: "ソウルスネア"
+    category: item
+    description: "Mobから悪魔の意志を抽出する罠"
+    note: "Snare = 罠、わな"
+
+  - term: "Tartaric Gem"
+    translation: "タルタロスの宝石"
+    reading: "タルタロスのほうせき"
+    category: item
+    description: "悪魔の意志を保存する宝石"
+    tiers:
+      - "Petty Tartaric Gem: 下級タルタロスの宝石"
+      - "Lesser Tartaric Gem: 小タルタロスの宝石"
+      - "Common Tartaric Gem: 通常タルタロスの宝石"
+      - "Greater Tartaric Gem: 大タルタロスの宝石"
+    note: "Tartarus = ギリシャ神話の地獄の最下層"
+
+  - term: "Hellfire Forge"
+    translation: "地獄の炉"
+    reading: "じごくのろ"
+    category: block
+    description: "悪魔の意志を使ってアイテムを作成する炉"
+    alternative: "ヘルファイア・フォージ"
+
+  - term: "Soul Forge"
+    translation: "ソウルフォージ"
+    reading: "ソウルフォージ"
+    category: block
+    description: "Hellfire Forgeの別名"
+    note: "文脈によってはこちらを使用"
+
+  # ==============================================================================
+  # Alchemy - 錬金術
+  # ==============================================================================
+
+  - term: "Alchemy Table"
+    translation: "錬金術テーブル"
+    reading: "れんきんじゅつテーブル"
+    category: block
+    description: "LPを使って様々なアイテムを作成するテーブル"
+
+  - term: "Alchemy Array"
+    translation: "錬金術陣"
+    reading: "れんきんじゅつじん"
+    category: structure
+    description: "地面に描かれた錬金術の魔法陣"
+    note: "Array = 配列、陣形"
+
+  - term: "Arcane Ashes"
+    translation: "秘術の灰"
+    reading: "ひじゅつのはい"
+    category: item
+    description: "錬金術陣を描くための灰"
+    alternative: "神秘の灰"
+
+  - term: "Anointment"
+    translation: "膏薬"
+    reading: "こうやく"
+    category: item
+    description: "装備やツールに塗る強化薬"
+    note: "Anoint = 油を塗る、聖別する"
+    alternative: "塗油"
+
+  # ==============================================================================
+  # Living Equipment - 生きている装備
+  # ==============================================================================
+
+  - term: "Living Armour"
+    translation: "生きている防具"
+    reading: "いきているぼうぐ"
+    category: item
+    description: "成長・進化する防具システム"
+    alternative: "リビングアーマー"
+
+  - term: "Living Equipment"
+    translation: "生きている装備"
+    reading: "いきているそうび"
+    category: item
+    description: "Living Armourの総称"
+
+  - term: "Upgrade"
+    translation: "アップグレード"
+    reading: "アップグレード"
+    category: system
+    description: "Living Armourの強化要素"
+
+  - term: "Downgrade"
+    translation: "ダウングレード"
+    reading: "ダウングレード"
+    category: system
+    description: "負の効果を持つがポイントを節約できる要素"
+
+  - term: "Upgrade Tome"
+    translation: "アップグレードの書"
+    reading: "アップグレードのしょ"
+    category: item
+    description: "アップグレードを保存する本"
+
+  - term: "Training Bracelet"
+    translation: "訓練の腕輪"
+    reading: "くんれんのうでわ"
+    category: item
+    description: "アップグレードをコピーできる腕輪"
+
+  # ==============================================================================
+  # Rituals - 儀式
+  # ==============================================================================
+
+  - term: "Ritual"
+    translation: "儀式"
+    reading: "ぎしき"
+    category: system
+    description: "LPを消費して特殊効果を発動するシステム"
+
+  - term: "Activation Crystal"
+    translation: "起動クリスタル"
+    reading: "きどうクリスタル"
+    category: item
+    description: "儀式を起動するためのクリスタル"
+    tiers:
+      - "Weak Activation Crystal: 弱き起動クリスタル"
+      - "Awakened Activation Crystal: 覚醒した起動クリスタル"
+
+  - term: "Ritual Tinkerer"
+    translation: "儀式調整師"
+    reading: "ぎしきちょうせいし"
+    category: block
+    description: "儀式の効果を調整するブロック"
+    note: "Tinkerer = 修理工、調整する人"
+
+  # ==============================================================================
+  # Dimensions & Dungeons - 次元とダンジョン
+  # ==============================================================================
+
+  - term: "Demon Realm"
+    translation: "悪魔の領域"
+    reading: "あくまのりょういき"
+    category: dimension
+    description: "Blood Magicで追加される危険な次元"
+    alternative: "魔界"
+
+  - term: "Edge of the Hidden Realm"
+    translation: "隠された領域の境界"
+    reading: "かくされたりょういきのきょうかい"
+    category: ritual
+    description: "簡易ダンジョンに入るための儀式"
+
+  - term: "Pathway to the Endless Realm"
+    translation: "無限の領域への道"
+    reading: "むげんのりょういきへのみち"
+    category: ritual
+    description: "悪魔の領域に入るための儀式"
+
+  - term: "Demonite"
+    translation: "デモナイト"
+    reading: "デモナイト"
+    category: material
+    description: "悪魔の領域で採掘できる鉱石"
+
+  - term: "Hellforged Block"
+    translation: "地獄で鍛えられたブロック"
+    reading: "じごくできたえられたブロック"
+    category: block
+    description: "デモナイトから作られるブロック"
+
+  - term: "Tau Fruit"
+    translation: "タウフルーツ"
+    reading: "タウフルーツ"
+    category: item
+    description: "ダンジョンで入手できる果実"
+
+  # ==============================================================================
+  # Systems - システム
+  # ==============================================================================
+
+  - term: "Soul Network"
+    translation: "ソウルネットワーク"
+    reading: "ソウルネットワーク"
+    category: system
+    description: "プレイヤーのLPを保持・管理するシステム"
+
+  - term: "Tier"
+    translation: "ティア"
+    reading: "ティア"
+    category: system
+    description: "段階、等級を表す"
+    range: "1-6 (通常は1-5まで)"
+
+  - term: "Sanguimancer"
+    translation: "血の魔術師"
+    reading: "ちのまじゅつし"
+    category: lore
+    description: "Blood Magicを使う魔術師"
+    etymology: "Sangui (blood) + mancer (magician)"
+
+  # ==============================================================================
+  # Misc - その他
+  # ==============================================================================
+
+  - term: "Incense Altar"
+    translation: "香の祭壇"
+    reading: "こうのさいだん"
+    category: block
+    description: "香を焚く祭壇"
+
+  - term: "Sacrifice"
+    translation: "生贄"
+    reading: "いけにえ"
+    category: mechanic
+    description: "Mobを犠牲にしてLPを得る行為"
+
+  - term: "Self-Sacrifice"
+    translation: "自己犠牲"
+    reading: "じこぎせい"
+    category: mechanic
+    description: "自分のHPを使ってLPを生成する行為"
+
+translation_guidelines:
+  - rule: "Blood Magic固有の用語は一貫性を保つ"
+  - rule: "LPは略称のまま使用し、日本語化しない"
+  - rule: "ティア表記は「ティア1」「ティア2」のようにカタカナ+数字"
+  - rule: "Patchouliマクロ（$(br), $(item), $(l:...)等）は必ず保持"
+  - rule: "色コードマクロ（$(blood), $(raw)等）は変更しない"
+  - rule: "固有名詞（Ritual名、アイテム名）はカタカナまたは意訳"
+
+notes:
+  - "Blood Magicは血と犠牲をテーマとしたModのため、用語も重厚で神秘的な雰囲気を保つ"
+  - "ラテン語由来の用語が多い（Sanguine, Tartaric等）"
+  - "儀式名は詩的な表現が多く、意訳が必要"
+  - "装備やアイテムの進化システムが特徴的"

@@ -1,0 +1,669 @@
+module: Mekanism Generators
+version: 10.4.x
+statistics:
+  total_entries: 202
+  translated_entries: 202
+  translation_rate: 100.0%
+categories:
+  advancements:
+    count: 8
+    translations:
+    - key: advancements.mekanismgenerators.burn_the_gas.description
+      en: Craft a Gas-Burning Generator to burn Ethylene
+      ja: エチレンを燃焼させるためにガス燃焼発電機をクラフトする
+    - key: advancements.mekanismgenerators.burn_the_gas.title
+      en: Burn the Gas
+      ja: ガスを燃やす
+    - key: advancements.mekanismgenerators.heat_generator.description
+      en: Craft a Heat Generator to start making power
+      ja: 熱発電機をクラフトして発電を始めよう
+    - key: advancements.mekanismgenerators.heat_generator.title
+      en: Your First Generator
+      ja: はじめての発電機
+    - key: advancements.mekanismgenerators.solar_generator.description
+      en: Renewable daytime energy
+      ja: 再生可能な昼間のエネルギー
+    - key: advancements.mekanismgenerators.solar_generator.title
+      en: Power of the Sun
+      ja: 太陽の力
+    - key: advancements.mekanismgenerators.wind_generator.description
+      en: Hopefully there is some wind nearby
+      ja: 近くに風があると良いだろう
+    - key: advancements.mekanismgenerators.wind_generator.title
+      en: Spin Baby Spin
+      ja: 回る赤ちゃん回る
+  block:
+    count: 28
+    translations:
+    - key: block.mekanismgenerators.advanced_solar_generator
+      en: Advanced Solar Generator
+      ja: 発展型太陽光発電機
+    - key: block.mekanismgenerators.bio_generator
+      en: Bio-Generator
+      ja: バイオ発電機
+    - key: block.mekanismgenerators.bioethanol
+      en: Bioethanol
+      ja: バイオエタノール
+    - key: block.mekanismgenerators.control_rod_assembly
+      en: Control Rod Assembly
+      ja: 制御棒の部品
+    - key: block.mekanismgenerators.deuterium
+      en: Liquid Deuterium
+      ja: 液体重水素
+    - key: block.mekanismgenerators.electromagnetic_coil
+      en: Electromagnetic Coil
+      ja: 電磁コイル
+    - key: block.mekanismgenerators.fission_fuel_assembly
+      en: Fission Fuel Assembly
+      ja: 核分裂炉燃料の部品
+    - key: block.mekanismgenerators.fission_reactor_casing
+      en: Fission Reactor Casing
+      ja: 核分裂炉筐体
+    - key: block.mekanismgenerators.fission_reactor_logic_adapter
+      en: Fission Reactor Logic Adapter
+      ja: 核分裂炉論理アダプター
+    - key: block.mekanismgenerators.fission_reactor_port
+      en: Fission Reactor Port
+      ja: 核分裂炉ポート
+    - key: block.mekanismgenerators.fusion_fuel
+      en: Liquid D-T Fuel
+      ja: 液体D-T燃料
+    - key: block.mekanismgenerators.fusion_reactor_controller
+      en: Fusion Reactor Controller
+      ja: 核分裂炉制御装置
+    - key: block.mekanismgenerators.fusion_reactor_frame
+      en: Fusion Reactor Frame
+      ja: 核融合炉フレーム
+    - key: block.mekanismgenerators.fusion_reactor_logic_adapter
+      en: Fusion Reactor Logic Adapter
+      ja: 核融合炉論理アダプター
+    - key: block.mekanismgenerators.fusion_reactor_port
+      en: Fusion Reactor Port
+      ja: 核融合炉ポート
+    - key: block.mekanismgenerators.gas_burning_generator
+      en: Gas-Burning Generator
+      ja: ガス燃焼発電機
+    - key: block.mekanismgenerators.heat_generator
+      en: Heat Generator
+      ja: 熱発電機
+    - key: block.mekanismgenerators.laser_focus_matrix
+      en: Laser Focus Matrix
+      ja: レーザーフォーカスマトリックス
+    - key: block.mekanismgenerators.reactor_glass
+      en: Reactor Glass
+      ja: 反応炉窓
+    - key: block.mekanismgenerators.rotational_complex
+      en: Rotational Complex
+      ja: 回転機構
+    - key: block.mekanismgenerators.saturating_condenser
+      en: Saturating Condenser
+      ja: 飽和凝縮器
+    - key: block.mekanismgenerators.solar_generator
+      en: Solar Generator
+      ja: 太陽光発電機
+    - key: block.mekanismgenerators.tritium
+      en: Liquid Tritium
+      ja: 液体三重水素
+    - key: block.mekanismgenerators.turbine_casing
+      en: Turbine Casing
+      ja: タービンケース
+    - key: block.mekanismgenerators.turbine_rotor
+      en: Turbine Rotor
+      ja: タービンローター
+    - key: block.mekanismgenerators.turbine_valve
+      en: Turbine Valve
+      ja: タービンバルブ
+    - key: block.mekanismgenerators.turbine_vent
+      en: Turbine Vent
+      ja: 蒸気排出口
+    - key: block.mekanismgenerators.wind_generator
+      en: Wind Generator
+      ja: 風力発電機
+  constants:
+    count: 2
+    translations:
+    - key: constants.mekanismgenerators.mod_name
+      en: 'Mekanism: Generators'
+      ja: 'Mekanism: Generators'
+    - key: constants.mekanismgenerators.pack_description
+      en: 'Resources used for Mekanism: Generators'
+      ja: 'Mekanism: Generatorsに使用されるリソース'
+  container:
+    count: 8
+    translations:
+    - key: container.mekanismgenerators.advanced_solar_generator
+      en: Advanced Solar Generator
+      ja: 発展型太陽光発電機
+    - key: container.mekanismgenerators.bio_generator
+      en: Bio-Generator
+      ja: バイオ発電機
+    - key: container.mekanismgenerators.fission_reactor_logic_adapter
+      en: Fission Reactor Logic Adapter
+      ja: 核分裂炉論理アダプター
+    - key: container.mekanismgenerators.fusion_reactor_logic_adapter
+      en: Fusion Reactor Logic Adapter
+      ja: 核融合炉論理アダプター
+    - key: container.mekanismgenerators.gas_burning_generator
+      en: Gas-Burning Generator
+      ja: ガス燃焼発電機
+    - key: container.mekanismgenerators.heat_generator
+      en: Heat Generator
+      ja: 熱発電機
+    - key: container.mekanismgenerators.solar_generator
+      en: Solar Generator
+      ja: 太陽光発電機
+    - key: container.mekanismgenerators.wind_generator
+      en: Wind Generator
+      ja: 風力発電機
+  description:
+    count: 34
+    translations:
+    - key: description.mekanismgenerators.advanced_solar_generator
+      en: An advanced generator that directly absorbs the sun's rays with little loss to produce energy.
+      ja: よりエネルギーの変換効率が良い、太陽光を直接的に吸収して発電する発電機です。
+    - key: description.mekanismgenerators.bio_generator
+      en: A generator that burns organic materials of the world to produce energy.
+      ja: 世界中のオーガニックな素材を燃やしエネルギーを生産する発電機です。
+    - key: description.mekanismgenerators.control_rod_assembly
+      en: A collection of control rods used to halt a fission chain reaction. Placed on top of a tower of Fission Fuel Assemblies.
+      ja: 核分裂連鎖反応の停止に用いる制御棒の集合体です。核分裂炉燃料の部品の塔の頂点に配置します。
+    - key: description.mekanismgenerators.electromagnetic_coil
+      en: A block that converts kinetic energy from a Rotational Complex into usable electricity. These can be placed in any
+        arrangement above your Rotational Complex, as long as they are all touching each other and the complex itself.
+      ja: 回転機構からの運動エネルギーを電力に変換するブロックです。 回転機構より上で、かつすべてのブロックや回転機構に一つでも接続していれば、どのようにも配置できます。
+    - key: description.mekanismgenerators.fission_fuel_assembly
+      en: A cluster of fuel rods used to house fission fuel within a Fission Reactor. These can be stacked on top of each
+        other.
+      ja: 核分裂燃料を核分裂反応器内に格納するために使用される燃料棒の集合体。これらは互いに重ねられます。
+    - key: description.mekanismgenerators.fission_reactor_casing
+      en: Lead-infused steel casing used to create a Fission Reactor. Mostly heat-resistant, mostly radiation-resistant, and
+        mostly safe!
+      ja: 核融合炉の組み立てに使用される、鉛を吹き込んだ鋼鉄製の筐体です。たいてい熱・放射線耐性を有しており、だいたい安全です!
+    - key: description.mekanismgenerators.fission_reactor_logic_adapter
+      en: A block that can be used to monitor or control the Fission Reactor with redstone.
+      ja: レッドストーン信号によって核融合炉を監視または制御するために使用するブロックです。
+    - key: description.mekanismgenerators.fission_reactor_port
+      en: A port which can be placed on a Fission Reactor multiblock to transfer coolant, fuel, and waste.
+      ja: 冷媒、燃料、そして廃棄物を輸送するために、核融合炉のマルチブロックに組み込めるポートです。
+    - key: description.mekanismgenerators.fusion_reactor_controller
+      en: The controlling block for the entire Fusion Reactor structure.
+      ja: 核融合炉全体を制御するためのコントローラ。
+    - key: description.mekanismgenerators.fusion_reactor_frame
+      en: Reinforced framing that can be used in the Fusion Reactor multiblock.
+      ja: 核融合炉のマルチブロックを構成する強化された筐体です。
+    - key: description.mekanismgenerators.fusion_reactor_logic_adapter
+      en: A block that can be used to allow basic monitoring of a reactor using redstone.
+      ja: 核融合炉の状態を元にレッドストーン信号を出力するブロックです。
+    - key: description.mekanismgenerators.fusion_reactor_port
+      en: A block of reinforced framing that is capable of managing both the gas and energy transfer of the Fusion Reactor.
+      ja: 核融合炉筐体の一つで、電力の出力燃料などの搬入を担います。
+    - key: description.mekanismgenerators.gas_burning_generator
+      en: A generator that harnesses the varying molecular gases to produce energy.
+      ja: 様々なガスで発電する発電機です。
+    - key: description.mekanismgenerators.geothermal_generator_unit
+      en: Harnesses geothermal energy from the surrounding environment, and improves protection against damage from heat sources.
+        Install multiple for faster charging and greater protection.
+      ja: 周囲の環境から得られる地熱エネルギーを利用して、熱源からのダメージに対する防護性能を向上させます。複数設置することで、より高速な充電とより強力な防護性能を実現します。
+    - key: description.mekanismgenerators.heat_generator
+      en: A generator that uses the heat of lava or other burnable resources to produce energy.
+      ja: 溶岩からの熱や燃料で発電する発電機です。
+    - key: description.mekanismgenerators.laser_focus_matrix
+      en: A panel of Fusion Reactor Glass that is capable of absorbing optical energy and thereby heating up the Fusion Reactor.
+      ja: レーザー光を受け入れ、炉を加熱するための核融合炉窓のパネルです。
+    - key: description.mekanismgenerators.reactor.logic.activation
+      en: Activate the reactor when powered, and deactivate when unpowered
+      ja: 信号がある時に起動、ない時に停止
+    - key: description.mekanismgenerators.reactor.logic.capacity
+      en: Output when the reactor's core heat capacity has been met
+      ja: 熱の値が更新した時
+    - key: description.mekanismgenerators.reactor.logic.damaged
+      en: Output when the reactor reaches critical damage levels (100%+).
+      ja: 致命的なダメージレベル(100%以上) の時
+    - key: description.mekanismgenerators.reactor.logic.depleted
+      en: Output when the reactor has insufficient fuel to sustain a reaction
+      ja: 反応に十分な量の燃料が不足している時
+    - key: description.mekanismgenerators.reactor.logic.disabled
+      en: Will not handle redstone
+      ja: レッドストーン信号を出力しない
+    - key: description.mekanismgenerators.reactor.logic.excess_waste
+      en: Output when the reactor has excess waste
+      ja: 余分な廃棄物がある時
+    - key: description.mekanismgenerators.reactor.logic.ready
+      en: Output when the reactor has reached the required heat level to ignite
+      ja: 核融合炉の起動に必要な熱量が確保出来た時点で
+    - key: description.mekanismgenerators.reactor.logic.temperature
+      en: Output when the reactor reaches dangerous temperatures
+      ja: 危険な温度に達した時
+    - key: description.mekanismgenerators.reactor_glass
+      en: Reinforced glass that can be used in the Fission Reactor and Fusion Reactor multiblocks (as well as any others!).
+      ja: 核分裂炉及び核融合炉のマルチブロック(勿論その他にも)に使用できる強化されたガラスです。
+    - key: description.mekanismgenerators.rotational_complex
+      en: A connector that is placed on the highest Turbine Rotor of an Industrial Turbine to carry kinetic energy into its
+        Electromagnetic Coils.
+      ja: 電磁コイルに運動エネルギーを伝えるために、タービンローターの上に設置するコネクターです。
+    - key: description.mekanismgenerators.saturating_condenser
+      en: A block that condenses steam processed by an Industrial Turbine into reusable water. These can be placed in any
+        arrangement above your rotational complex.
+      ja: 工業用タービンで使用された蒸気を凝縮し、水として再利用できるようにします。 このブロックは回転機構より上の任意の場所に配置できます。
+    - key: description.mekanismgenerators.solar_generator
+      en: A generator that uses the power of the sun to produce energy.
+      ja: 太陽光で発電します。
+    - key: description.mekanismgenerators.solar_recharging_unit
+      en: Harnesses the power of the sun to charge your MekaSuit. Install multiple for faster charging.
+      ja: MekaSuitに太陽光発電能力を追加します。複数インストールするとより早く充電できるようになります。
+    - key: description.mekanismgenerators.turbine_casing
+      en: Pressure-resistant casing used in the creation of an Industrial Turbine.
+      ja: 工業用タービンを構成する、耐圧性の筐体です。
+    - key: description.mekanismgenerators.turbine_rotor
+      en: The steel rod that is used to house Turbine Blades within an Industrial Turbine.
+      ja: 工業用タービンの内部にある、タービンの羽の軸となる鋼鉄製の棒です。
+    - key: description.mekanismgenerators.turbine_valve
+      en: A type of Turbine Casing that includes a port for the transfer of energy and steam.
+      ja: タービン筐体の一つで、電力の出力口や蒸気の搬入口となります。
+    - key: description.mekanismgenerators.turbine_vent
+      en: A type of Turbine Casing with an integrated vent for the release of steam. These should be placed on the level of
+        or above the turbine's Rotational Complex.
+      ja: タービン筐体の一つで、蒸気を排出するための通気口です。回転機構以上の高さにある必要があります。
+    - key: description.mekanismgenerators.wind_generator
+      en: A generator that uses the strength of the wind to produce energy, with greater efficiency at higher levels.
+      ja: 風の力を利用して電力を生み出します。高い位置にあるほどより多く発電します。
+  fission:
+    count: 31
+    translations:
+    - key: fission.mekanismgenerators.activate
+      en: Activate
+      ja: 有効化
+    - key: fission.mekanismgenerators.boil_efficiency
+      en: 'Boil Efficiency: %1$s'
+      ja: '沸騰効率: %1$s'
+    - key: fission.mekanismgenerators.burn_rate
+      en: 'Current Burn Rate:'
+      ja: '現在の燃焼効率:'
+    - key: fission.mekanismgenerators.coolant_tank
+      en: Coolant Tank
+      ja: 冷媒タンク
+    - key: fission.mekanismgenerators.damage
+      en: 'Damage: %1$s'
+      ja: 'ダメージ: %1$s'
+    - key: fission.mekanismgenerators.fission_reactor
+      en: Fission Reactor
+      ja: 核分裂炉
+    - key: fission.mekanismgenerators.force_disabled
+      en: Reactor must reach safe damage and temperature levels before it can be reactivated.
+      ja: 炉の再起動には、安全なダメージ及び温度レベルに達する必要があります。
+    - key: fission.mekanismgenerators.fuel_statistics
+      en: Fuel Statistics
+      ja: 燃料の統計
+    - key: fission.mekanismgenerators.fuel_tank
+      en: Fuel Tank
+      ja: 燃料タンク
+    - key: fission.mekanismgenerators.heat_capacity
+      en: 'Heat Capacity: %1$s J/K'
+      ja: '熱容量: %1$s J/K'
+    - key: fission.mekanismgenerators.heat_graph
+      en: 'Heat Graph:'
+      ja: '熱グラフ:'
+    - key: fission.mekanismgenerators.heat_statistics
+      en: Heat Statistics
+      ja: 熱の統計
+    - key: fission.mekanismgenerators.heated_coolant_tank
+      en: Heated Coolant Tank
+      ja: 加熱された冷媒のタンク
+    - key: fission.mekanismgenerators.heating_rate
+      en: 'Heating Rate: %1$s mB/t'
+      ja: '加熱効率: %1$s mB/t'
+    - key: fission.mekanismgenerators.invalid_bad_control_rod
+      en: Couldn't form, improper placement for Control Rod Assembly at %1$s.
+      ja: 構成に失敗しました。%1$sの制御棒の部品の配置が不適当です。
+    - key: fission.mekanismgenerators.invalid_bad_fuel_assembly
+      en: Couldn't form, missing fuel assembly for control rod at %1$s.
+      ja: 構成に失敗しました。%1$sに制御棒用の燃料の部品がありません。
+    - key: fission.mekanismgenerators.invalid_extra_control_rod
+      en: Couldn't form, found extra Control Rod Assembly at %1$s.
+      ja: 構成に失敗しました。%1$sに余分な制御棒の部品が存在します。
+    - key: fission.mekanismgenerators.invalid_malformed_fuel_assembly
+      en: Couldn't form, invalid Fission Fuel Assembly placement at %1$s.
+      ja: 構成に失敗しました。%1$sに無効な核分裂炉燃料の部品が存在します。
+    - key: fission.mekanismgenerators.invalid_missing_fuel_assembly
+      en: Couldn't form, no fuel assembly structures present.
+      ja: 構成に失敗しました。燃料部品の構造が存在しません。
+    - key: fission.mekanismgenerators.max_burn_rate
+      en: 'Max Burn Rate: %1$s mB/t'
+      ja: '最大燃焼効率: %1$s mb/t'
+    - key: fission.mekanismgenerators.missing_control_rod
+      en: Couldn't form, missing control rod for fuel assembly at %1$s.
+      ja: 構成に失敗しました。%1$sに燃料の部品用の制御棒がありません。
+    - key: fission.mekanismgenerators.port_mode_change
+      en: 'Port mode changed to: %1$s'
+      ja: ポートモードを%1$sに変更しました
+    - key: fission.mekanismgenerators.port_mode_input
+      en: input only
+      ja: 入力のみ
+    - key: fission.mekanismgenerators.port_mode_output_coolant
+      en: output coolant
+      ja: 冷媒出力
+    - key: fission.mekanismgenerators.port_mode_output_waste
+      en: output waste
+      ja: 廃棄物出力
+    - key: fission.mekanismgenerators.rate_limit
+      en: 'Rate Limit: %1$s mB/t'
+      ja: '効率制限: %1$s mB/t'
+    - key: fission.mekanismgenerators.scram
+      en: SCRAM
+      ja: 緊急停止
+    - key: fission.mekanismgenerators.set_rate_limit
+      en: 'Set Rate Limit:'
+      ja: '効率上限の設定:'
+    - key: fission.mekanismgenerators.stats
+      en: Fission Reactor Statistics
+      ja: 核分裂炉の詳細
+    - key: fission.mekanismgenerators.surface_area
+      en: 'Fuel Surface Area: %1$s m2'
+      ja: '燃料表面積: %1$s m2'
+    - key: fission.mekanismgenerators.waste_tank
+      en: Waste Tank
+      ja: 廃棄物タンク
+  gas:
+    count: 3
+    translations:
+    - key: gas.mekanismgenerators.deuterium
+      en: Deuterium
+      ja: 重水素
+    - key: gas.mekanismgenerators.fusion_fuel
+      en: D-T Fuel
+      ja: D-T燃料
+    - key: gas.mekanismgenerators.tritium
+      en: Tritium
+      ja: 三重水素
+  gui:
+    count: 5
+    translations:
+    - key: gui.mekanismgenerators.bio_generator.bio_fuel
+      en: 'BioFuel: %1$s'
+      ja: 'バイオ燃料: %1$s'
+    - key: gui.mekanismgenerators.gas_burning_generator.burn_rate
+      en: 'Burn Rate: %1$s mB/t'
+      ja: '燃焼効率: %1$s'
+    - key: gui.mekanismgenerators.output_rate.short
+      en: 'Out: %1$s/t'
+      ja: '搬出: %1$s/t'
+    - key: gui.mekanismgenerators.power
+      en: 'Power: %1$s'
+      ja: 'エネルギー: %1$s'
+    - key: gui.mekanismgenerators.producing.amount
+      en: 'Producing: %1$s/t'
+      ja: '生成: %1$s/t'
+  item:
+    count: 7
+    translations:
+    - key: item.mekanismgenerators.bioethanol_bucket
+      en: Bioethanol Bucket
+      ja: バイオエタノール入りバケツ
+    - key: item.mekanismgenerators.deuterium_bucket
+      en: Liquid Deuterium Bucket
+      ja: 液体重水素入りバケツ
+    - key: item.mekanismgenerators.fusion_fuel_bucket
+      en: Liquid D-T Fuel Bucket
+      ja: 液体D-T燃料入りバケツ
+    - key: item.mekanismgenerators.hohlraum
+      en: Hohlraum
+      ja: ホールラウム
+    - key: item.mekanismgenerators.solar_panel
+      en: Solar Panel
+      ja: ソーラーパネル
+    - key: item.mekanismgenerators.tritium_bucket
+      en: Liquid Tritium Bucket
+      ja: 液体三重水素入りバケツ
+    - key: item.mekanismgenerators.turbine_blade
+      en: Turbine Blade
+      ja: タービンの羽
+  module:
+    count: 2
+    translations:
+    - key: module.mekanismgenerators.geothermal_generator_unit
+      en: Geothermal Generator Unit
+      ja: 地熱発電ユニット
+    - key: module.mekanismgenerators.solar_recharging_unit
+      en: Solar Recharging Unit
+      ja: 太陽光再充電ユニット
+  reactor:
+    count: 30
+    translations:
+    - key: reactor.mekanismgenerators.configurator.port_eject
+      en: 'Toggled Reactor Port eject mode to: %1$s.'
+      ja: 核融合搬入出ポートの搬出設定を%1$sに切り替えました。
+    - key: reactor.mekanismgenerators.fuel
+      en: Fuel
+      ja: 燃料
+    - key: reactor.mekanismgenerators.fuel.edit_rate
+      en: 'Edit Rate:'
+      ja: 'レートを編集: '
+    - key: reactor.mekanismgenerators.fuel.injection_rate
+      en: 'Injection Rate: %1$s'
+      ja: '注入レート: %1$s'
+    - key: reactor.mekanismgenerators.fusion_reactor
+      en: Fusion Reactor
+      ja: 核融合炉
+    - key: reactor.mekanismgenerators.heat
+      en: Heat
+      ja: 熱
+    - key: reactor.mekanismgenerators.heat.case
+      en: 'Case: %1$s'
+      ja: '筐体: %1$s'
+    - key: reactor.mekanismgenerators.heat.plasma
+      en: 'Plasma: %1$s'
+      ja: 'プラズマ: %1$s'
+    - key: reactor.mekanismgenerators.logic.activation
+      en: Activation
+      ja: 起動
+    - key: reactor.mekanismgenerators.logic.active_cooling
+      en: 'Active cooling: %1$s'
+      ja: '能動冷却: %1$s'
+    - key: reactor.mekanismgenerators.logic.capacity
+      en: Heat Capacity Met
+      ja: 熱飽和時
+    - key: reactor.mekanismgenerators.logic.damaged
+      en: Damage Critical
+      ja: 重大損傷時
+    - key: reactor.mekanismgenerators.logic.depleted
+      en: Insufficient Fuel
+      ja: 燃料不足時
+    - key: reactor.mekanismgenerators.logic.disabled
+      en: Disabled
+      ja: 無効
+    - key: reactor.mekanismgenerators.logic.excess_waste
+      en: Excess Waste
+      ja: 廃棄物過剰時
+    - key: reactor.mekanismgenerators.logic.outputting
+      en: Outputting
+      ja: アウトプット
+    - key: reactor.mekanismgenerators.logic.powered
+      en: Powered
+      ja: 動作中
+    - key: reactor.mekanismgenerators.logic.ready
+      en: Ready for Ignition
+      ja: 起動準備完了時
+    - key: reactor.mekanismgenerators.logic.redstone_output_mode
+      en: 'Redstone mode: %1$s'
+      ja: 'レッドストーンモード: %1$s'
+    - key: reactor.mekanismgenerators.logic.temperature
+      en: High Temperature
+      ja: 高温時
+    - key: reactor.mekanismgenerators.logic.toggle_cooling
+      en: Toggle Cooling Measurements
+      ja: 値の尺度を切り替える
+    - key: reactor.mekanismgenerators.stats
+      en: Stats
+      ja: 核融合炉の状態
+    - key: reactor.mekanismgenerators.stats.active
+      en: Water-Cooled
+      ja: 水冷
+    - key: reactor.mekanismgenerators.stats.ignition
+      en: 'Ignition Temp: %1$s'
+      ja: '点火温度: %1$s'
+    - key: reactor.mekanismgenerators.stats.max_casing
+      en: 'Max. Casing Temp: %1$s'
+      ja: '最高筐体温度: %1$s'
+    - key: reactor.mekanismgenerators.stats.max_plasma
+      en: 'Max. Plasma Temp: %1$s'
+      ja: '最高プラズマ温度: %1$s'
+    - key: reactor.mekanismgenerators.stats.min_inject
+      en: 'Min. Inject Rate: %1$s'
+      ja: '最低誘導レート: %1$s'
+    - key: reactor.mekanismgenerators.stats.passive
+      en: Air-Cooled
+      ja: 空冷
+    - key: reactor.mekanismgenerators.stats.passive_generation
+      en: 'Passive Generation: %1$s/t'
+      ja: '熱平衡時の発電量: %1$s/t'
+    - key: reactor.mekanismgenerators.stats.steam_production
+      en: 'Steam Production: %1$s mB/t'
+      ja: '蒸気の生成量: %1$s mB/t'
+  sound_event:
+    count: 7
+    translations:
+    - key: sound_event.mekanismgenerators.tile.generator.bio
+      en: Bio generator hums
+      ja: バイオ発電機がうなる
+    - key: sound_event.mekanismgenerators.tile.generator.gas
+      en: Gas generator hums
+      ja: ガス燃焼発電機がうなる
+    - key: sound_event.mekanismgenerators.tile.generator.heat
+      en: Heat generator hums
+      ja: 熱発電機がうなる
+    - key: sound_event.mekanismgenerators.tile.generator.solar
+      en: Solar generator hums
+      ja: 太陽光発電機がうなる
+    - key: sound_event.mekanismgenerators.tile.generator.wind
+      en: Wind generator wooshes
+      ja: 風力発電機がブーンと音を立てる
+    - key: sound_event.mekanismgenerators.tile.machine.fission_reactor
+      en: Fission reactor hums
+      ja: 核分裂炉がうなる
+    - key: sound_event.mekanismgenerators.tile.machine.fusion_reactor
+      en: Fusion reactor hums
+      ja: 核融合炉がうなる
+  tooltip:
+    count: 2
+    translations:
+    - key: tooltip.mekanismgenerators.hohlraum.insufficient_fuel
+      en: Insufficient Fuel
+      ja: 燃料不足
+    - key: tooltip.mekanismgenerators.hohlraum.ready_for_reaction
+      en: Ready for Reaction!
+      ja: 起動準備完了!
+  turbine:
+    count: 33
+    translations:
+    - key: turbine.mekanismgenerators.capacity
+      en: 'Capacity: %1$s mB'
+      ja: '容量: %1$s mB'
+    - key: turbine.mekanismgenerators.flow_rate
+      en: 'Flow rate: %1$s mB/t'
+      ja: '流量: %1$s mB/t'
+    - key: turbine.mekanismgenerators.industrial_turbine
+      en: Industrial Turbine
+      ja: 工業用タービン
+    - key: turbine.mekanismgenerators.invalid_bad_complex
+      en: Couldn't form, found improperly placed Rotational Complex at %1$s. Complex must be centered above Turbine Rotors.
+      ja: 構成に失敗しました。%1$sに不適当な配置の回転機構があります。回転機構を中心かつタービンローターの上に配置してください。
+    - key: turbine.mekanismgenerators.invalid_bad_rotor
+      en: Couldn't form, found invalid Turbine Rotor at %1$s. Turbine Rotors must be centered below Rotational Complex.
+      ja: 構成に失敗しました。%1$sに無効なタービンローターが存在します。タービンローターを中心かつ回転機構の下に配置してください。
+    - key: turbine.mekanismgenerators.invalid_bad_rotors
+      en: Couldn't form, invalid Turbine Rotor arrangement.
+      ja: 構成に失敗しました。タービンローターの配置が無効です。
+    - key: turbine.mekanismgenerators.invalid_condenser_below_complex
+      en: Couldn't form, found improperly placed Saturating Condenser at %1$s. Saturating Condensers must be above Pressure
+        Disperser layer.
+      ja: 構成に失敗しました。%1$sに不適当な配置の飽和凝縮器が存在します。飽和凝縮器を圧力分散器の層より上に配置してください。
+    - key: turbine.mekanismgenerators.invalid_even_length
+      en: Couldn't form, width and length of structure must be odd.
+      ja: 構成に失敗しました。幅と長さを奇数にしてください。
+    - key: turbine.mekanismgenerators.invalid_malformed_coils
+      en: Couldn't form, Electromagnetic Coil arrangement is malformed. Coils must be connected to Rotational Complex and
+        adjacently connected.
+      ja: 構成に失敗しました。電磁コイルの配置が不適当です。電磁コイルを回転機構に接続してください。
+    - key: turbine.mekanismgenerators.invalid_malformed_dispersers
+      en: Couldn't form, Pressure Disperser arrangement is malformed. Dispersers must create complete horizontal layer surrounding
+        Rotational Complex.
+      ja: 構成に失敗しました。圧力分散機の配置が不適当です。圧力分散機は、回転機構を囲んだ水平な層である必要があります。
+    - key: turbine.mekanismgenerators.invalid_missing_coils
+      en: Couldn't form, no Electromagnetic Coils present.
+      ja: 構成に失敗しました。電磁コイルが存在しません。
+    - key: turbine.mekanismgenerators.invalid_missing_complex
+      en: Couldn't form, no Rotational Complex present.
+      ja: 構成に失敗しました。回転機構がありません。
+    - key: turbine.mekanismgenerators.invalid_missing_disperser
+      en: Couldn't form, expected but didn't find Pressure Disperser at %1$s.
+      ja: 構成に失敗しました。必要な圧力分散機が%1$sに存在しません。
+    - key: turbine.mekanismgenerators.invalid_rotors_not_contiguous
+      en: Couldn't form, rotors are invalid (non-contiguous).
+      ja: 構成に失敗しました。不適当なタービンローターです(連続していません)。
+    - key: turbine.mekanismgenerators.invalid_too_narrow
+      en: Couldn't form, structure is too narrow to support turbine size.
+      ja: 構成に失敗しました。タービンの格納には狭すぎる構造です。
+    - key: turbine.mekanismgenerators.invalid_vent_below_complex
+      en: Couldn't form, found a Turbine Vent below Pressure Disperser layer. Vents must be at or above vertical position
+        of disperser layer.
+      ja: 構成に失敗しました。圧力分散器の下に蒸気排出口が存在します。蒸気排出口を圧力分散器の垂直方向に上に配置してください。
+    - key: turbine.mekanismgenerators.production_amount
+      en: 'Production: %1$s'
+      ja: '生成量: %1$s'
+    - key: turbine.mekanismgenerators.stats
+      en: Turbine Statistics
+      ja: タービンの状態
+    - key: turbine.mekanismgenerators.stats.blades
+      en: 'Blades: %1$s %2$s'
+      ja: 'タービンの羽: %1$s %2$s'
+    - key: turbine.mekanismgenerators.stats.coils
+      en: 'Coils: %1$s %2$s'
+      ja: 'コイルの数: %1$s %2$s'
+    - key: turbine.mekanismgenerators.stats.dispersers
+      en: 'Dispersers: %1$s %2$s'
+      ja: '圧力分散器: %1$s %2$s'
+    - key: turbine.mekanismgenerators.stats.limiting
+      en: (Limiting)
+      ja: (限定的)
+    - key: turbine.mekanismgenerators.stats.max_flow
+      en: 'Max flow: %1$s mB/t'
+      ja: '最大流量: %1$s mB/t'
+    - key: turbine.mekanismgenerators.stats.max_production
+      en: 'Max Production: %1$s'
+      ja: '最大生成量: %1$s'
+    - key: turbine.mekanismgenerators.stats.max_water_output
+      en: 'Max Water Output: %1$s mB/t'
+      ja: '最大排水量: %1$s mB/t'
+    - key: turbine.mekanismgenerators.stats.production
+      en: Production
+      ja: 生成量
+    - key: turbine.mekanismgenerators.stats.steam_flow
+      en: Steam Flow
+      ja: 蒸気の流れ
+    - key: turbine.mekanismgenerators.stats.tank_volume
+      en: 'Tank Volume: %1$s'
+      ja: 'タンク容量: %1$s'
+    - key: turbine.mekanismgenerators.stats.vents
+      en: 'Vents: %1$s %2$s'
+      ja: '蒸気排出口: %1$s %2$s'
+    - key: turbine.mekanismgenerators.steam_input
+      en: 'Steam Input: %1$s mB/t'
+      ja: '蒸気搬入量: %1$s mB/t'
+    - key: turbine.mekanismgenerators.tooltip.steamdump
+      en: Dumping Steam
+      ja: 蒸気を破棄する
+    - key: turbine.mekanismgenerators.tooltip.steamdump.warning
+      en: Water will NOT be recycled
+      ja: 水は再利用されません
+    - key: turbine.mekanismgenerators.tooltip.steamdump_excess
+      en: Dumping excess Steam
+      ja: 余分な蒸気を破棄する
+  wind_generator:
+    count: 2
+    translations:
+    - key: wind_generator.mekanismgenerators.no_wind
+      en: No wind
+      ja: 送風がありません
+    - key: wind_generator.mekanismgenerators.sky_blocked
+      en: Sky blocked
+      ja: 空に面していません

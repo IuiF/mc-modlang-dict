@@ -1,0 +1,406 @@
+scope: mod
+mod_id: create
+priority: 90
+terms:
+  # Core Concepts
+  - source: "Kinetic"
+    target: "回転動力"
+    tags: [mechanic, core]
+    priority: 100
+    notes: "Create Modの中核概念。動力伝達システム"
+
+  - source: "Stress"
+    target: "ストレス"
+    tags: [mechanic, core]
+    priority: 100
+    notes: "機械の負荷を表す単位"
+
+  - source: "RPM"
+    target: "RPM"
+    tags: [mechanic, unit]
+    priority: 100
+    notes: "回転数（Rotations Per Minute）はそのまま"
+
+  - source: "Contraption"
+    target: "装置"
+    tags: [mechanic, structure]
+    priority: 95
+    notes: "可動構造物の総称"
+
+  - source: "Schematic"
+    target: "設計図"
+    tags: [item, tool]
+    priority: 95
+
+  # Materials & Alloys
+  - source: "Andesite Alloy"
+    target: "安山岩合金"
+    tags: [material, alloy]
+    priority: 100
+
+  - source: "Brass"
+    target: "真鍮"
+    tags: [material, alloy]
+    priority: 100
+
+  - source: "Zinc"
+    target: "亜鉛"
+    tags: [material]
+    priority: 100
+
+  - source: "Rose Quartz"
+    target: "ローズクォーツ"
+    tags: [material]
+    priority: 95
+
+  - source: "Polished Rose Quartz"
+    target: "磨かれたローズクォーツ"
+    tags: [material]
+    priority: 95
+
+  - source: "Sturdy Sheet"
+    target: "頑丈なシート"
+    tags: [material]
+    priority: 95
+
+  # Basic Components
+  - source: "Cogwheel"
+    target: "歯車"
+    tags: [block, component]
+    priority: 100
+
+  - source: "Large Cogwheel"
+    target: "大きな歯車"
+    tags: [block, component]
+    priority: 100
+
+  - source: "Shaft"
+    target: "シャフト"
+    tags: [block, component]
+    priority: 100
+
+  - source: "Casing"
+    target: "ケーシング"
+    tags: [block, component]
+    priority: 95
+
+  - source: "Gearbox"
+    target: "ギアボックス"
+    tags: [block, component]
+    priority: 95
+
+  - source: "Encased"
+    target: "覆われた"
+    tags: [prefix]
+    priority: 90
+    notes: "Encased Fan = 覆われたファン"
+
+  # Mechanical Devices
+  - source: "Mechanical Belt"
+    target: "機械式ベルト"
+    tags: [block, transport]
+    priority: 95
+
+  - source: "Mechanical Press"
+    target: "機械式プレス"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Mechanical Mixer"
+    target: "機械式ミキサー"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Mechanical Pump"
+    target: "機械式ポンプ"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Mechanical Saw"
+    target: "機械式ノコギリ"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Mechanical Drill"
+    target: "機械式ドリル"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Mechanical Harvester"
+    target: "機械式収穫機"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Mechanical Plough"
+    target: "機械式プラウ"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Mechanical Arm"
+    target: "機械式アーム"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Mechanical Crafter"
+    target: "機械式クラフター"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Deployer"
+    target: "デプロイヤー"
+    tags: [block, machine]
+    priority: 95
+    notes: "自動アイテム使用装置"
+
+  # Crushing & Processing
+  - source: "Crushing Wheel"
+    target: "粉砕ホイール"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Millstone"
+    target: "石臼"
+    tags: [block, machine]
+    priority: 95
+
+  - source: "Encased Fan"
+    target: "覆われたファン"
+    tags: [block, machine]
+    priority: 95
+
+  # Fluid Handling
+  - source: "Fluid Pipe"
+    target: "液体パイプ"
+    tags: [block, fluid]
+    priority: 95
+
+  - source: "Fluid Tank"
+    target: "液体タンク"
+    tags: [block, fluid]
+    priority: 95
+
+  - source: "Hose Pulley"
+    target: "ホースプーリー"
+    tags: [block, fluid]
+    priority: 95
+
+  - source: "Spout"
+    target: "注ぎ口"
+    tags: [block, fluid]
+    priority: 95
+
+  - source: "Item Drain"
+    target: "アイテム排液口"
+    tags: [block, fluid]
+    priority: 95
+
+  # Power Generation
+  - source: "Water Wheel"
+    target: "水車"
+    tags: [block, power]
+    priority: 100
+
+  - source: "Windmill"
+    target: "風車"
+    tags: [block, power]
+    priority: 100
+
+  - source: "Steam Engine"
+    target: "蒸気機関"
+    tags: [block, power]
+    priority: 95
+
+  - source: "Blaze Burner"
+    target: "ブレイズバーナー"
+    tags: [block, power]
+    priority: 95
+
+  - source: "Boiler"
+    target: "ボイラー"
+    tags: [block, power]
+    priority: 95
+
+  # Bearings & Motion
+  - source: "Mechanical Bearing"
+    target: "機械式ベアリング"
+    tags: [block, component]
+    priority: 95
+
+  - source: "Clockwork Bearing"
+    target: "時計仕掛けのベアリング"
+    tags: [block, component]
+    priority: 95
+
+  - source: "Rope Pulley"
+    target: "ロープ滑車"
+    tags: [block, component]
+    priority: 95
+
+  - source: "Piston Extension Pole"
+    target: "ピストン延長ポール"
+    tags: [block, component]
+    priority: 95
+
+  # Storage & Logistics
+  - source: "Funnel"
+    target: "ファンネル"
+    tags: [block, logistics]
+    priority: 95
+
+  - source: "Chute"
+    target: "シュート"
+    tags: [block, logistics]
+    priority: 95
+
+  - source: "Smart Chute"
+    target: "スマートシュート"
+    tags: [block, logistics]
+    priority: 95
+
+  - source: "Portable Storage Interface"
+    target: "ポータブル収納インターフェース"
+    tags: [block, logistics]
+    priority: 95
+
+  # Trains
+  - source: "Train"
+    target: "列車"
+    tags: [vehicle]
+    priority: 100
+
+  - source: "Train Track"
+    target: "線路"
+    tags: [block, rail]
+    priority: 100
+
+  - source: "Train Signal"
+    target: "信号機"
+    tags: [block, rail]
+    priority: 95
+
+  - source: "Train Station"
+    target: "駅"
+    tags: [block, rail]
+    priority: 100
+
+  - source: "Train Schedule"
+    target: "列車スケジュール"
+    tags: [mechanic]
+    priority: 95
+
+  - source: "Conductor"
+    target: "運転士"
+    tags: [npc]
+    priority: 95
+
+  # Tools & Equipment
+  - source: "Wrench"
+    target: "レンチ"
+    tags: [item, tool]
+    priority: 95
+
+  - source: "Engineer's Goggles"
+    target: "エンジニアのゴーグル"
+    tags: [item, tool]
+    priority: 95
+
+  - source: "Extendo Grip"
+    target: "エクステンドグリップ"
+    tags: [item, tool]
+    priority: 95
+
+  - source: "Potato Cannon"
+    target: "ポテトキャノン"
+    tags: [item, weapon]
+    priority: 95
+
+  - source: "Copper Backtank"
+    target: "銅のバックタンク"
+    tags: [item, equipment]
+    priority: 95
+
+  - source: "Diving Helmet"
+    target: "潜水ヘルメット"
+    tags: [item, equipment]
+    priority: 95
+
+  # Measurement & Control
+  - source: "Speedometer"
+    target: "速度計"
+    tags: [block, gauge]
+    priority: 95
+
+  - source: "Stressometer"
+    target: "ストレスメーター"
+    tags: [block, gauge]
+    priority: 95
+
+  - source: "Rotation Speed Controller"
+    target: "回転速度コントローラー"
+    tags: [block, control]
+    priority: 95
+
+  - source: "Sequenced Gearshift"
+    target: "シーケンス式ギアシフト"
+    tags: [block, control]
+    priority: 95
+
+  # Redstone & Logic
+  - source: "Redstone Link"
+    target: "レッドストーンリンク"
+    tags: [block, redstone]
+    priority: 95
+
+  - source: "Linked Controller"
+    target: "リンクコントローラー"
+    tags: [item, redstone]
+    priority: 95
+
+  # Decoration & Misc
+  - source: "Super Glue"
+    target: "強力接着剤"
+    tags: [item, misc]
+    priority: 95
+
+  - source: "Cuckoo Clock"
+    target: "鳩時計"
+    tags: [block, decoration]
+    priority: 95
+
+  - source: "Display Board"
+    target: "ディスプレイボード"
+    tags: [block, display]
+    priority: 95
+
+  - source: "Display Link"
+    target: "ディスプレイリンク"
+    tags: [block, display]
+    priority: 95
+
+  # Ponder System
+  - source: "Ponder"
+    target: "ポンダー"
+    tags: [ui, tutorial]
+    priority: 100
+    notes: "ゲーム内チュートリアルシステム"
+
+  # Common Actions
+  - source: "Assemble"
+    target: "組み立てる"
+    tags: [action]
+    priority: 80
+
+  - source: "Disassemble"
+    target: "分解する"
+    tags: [action]
+    priority: 80
+
+  - source: "Process"
+    target: "加工する"
+    tags: [action]
+    priority: 80
+
+  - source: "Transfer"
+    target: "移送する"
+    tags: [action]
+    priority: 80

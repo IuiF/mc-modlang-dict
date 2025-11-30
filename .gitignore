@@ -1,0 +1,52 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+moddict
+
+# Test binary
+*.test
+
+# Output
+*.out
+
+# Dependency directories
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Workspace - Mod files (copyright)
+workspace/imports/*.jar
+workspace/imports/*.zip
+workspace/exports/*
+workspace/temp/*
+!workspace/imports/.gitkeep
+!workspace/exports/.gitkeep
+!workspace/temp/.gitkeep
+
+# Build artifacts
+/dist/
+/releases/*.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local

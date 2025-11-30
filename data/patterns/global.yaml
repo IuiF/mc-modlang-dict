@@ -1,0 +1,63 @@
+# Global File Patterns
+# All mods use these patterns by default
+
+patterns:
+  # Standard Forge/Fabric lang file
+  - pattern: "assets/{mod_id}/lang/{lang}.json"
+    type: lang
+    parser: json_lang
+    priority: 100
+    required: true
+    description: "Standard mod language file"
+
+  # Patchouli guide books
+  - pattern: "assets/{mod_id}/patchouli_books/*/{lang}/**/*.json"
+    type: book
+    parser: patchouli
+    priority: 90
+    description: "Patchouli in-game guide book"
+
+  # Legacy .lang format (1.12 and earlier)
+  - pattern: "assets/{mod_id}/lang/{lang}.lang"
+    type: lang
+    parser: lang_legacy
+    priority: 80
+    description: "Legacy language file format"
+
+  # Data pack translations
+  - pattern: "data/{mod_id}/**/{lang}/*.json"
+    type: data
+    parser: json_generic
+    priority: 70
+    description: "Data pack translations"
+
+  # FTB Quests
+  - pattern: "config/ftbquests/**/*.snbt"
+    type: quest
+    parser: snbt
+    priority: 60
+    description: "FTB Quests quest files"
+
+  # Better Quests
+  - pattern: "config/betterquesting/**/*.json"
+    type: quest
+    parser: json_generic
+    priority: 60
+    description: "Better Questing quest files"
+
+# Variable definitions
+variables:
+  lang:
+    source: "en_us"
+    targets:
+      - "ja_jp"
+      - "zh_cn"
+      - "zh_tw"
+      - "ko_kr"
+      - "de_de"
+      - "fr_fr"
+      - "es_es"
+      - "pt_br"
+      - "ru_ru"
+  mod_id:
+    detection: "auto"  # Detected from mods.toml or mcmod.info

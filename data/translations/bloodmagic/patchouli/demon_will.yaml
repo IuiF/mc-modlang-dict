@@ -1,0 +1,671 @@
+# Blood Magic - Patchouli Book Translations
+# Category: demon_will (悪魔の意志)
+# 22 entries complete translation
+
+mod: bloodmagic
+book: guide
+category: demon_will
+language: ja_jp
+translator: Claude Code
+date: 2025-11-29
+status: complete
+entries_count: 22
+
+# ============================================================================
+# DEMONIC ITEMS (悪魔のアイテム) - 4 entries
+# ============================================================================
+
+demonic_items:
+
+  explosive_charges:
+    name: "爆発物"
+    icon: "bloodmagic:shaped_charge"
+    category: "bloodmagic:demon_will/demonic_items"
+    pages:
+      - type: "text"
+        text: "これらの装置は、従来の採掘や伐採に代わるものだ。ブロックに向かって投げると自爆し、目的のブロックを破壊する。"
+
+      - type: "text"
+        text: "材料と意志を使ってチャージを強化できる。3つの強化が利用可能：$(br)$(item)Fortunate$()：幸運Iを適用$(br)$(item)Heated Tool$()：ブロックを製錬$(br)$(item)Soft Touch$()：シルクタッチを適用"
+
+      - type: "2x_crafting_soulforge"
+        a.heading: "成形爆薬"
+        a.recipe: "bloodmagic:soulforge/shaped_charge"
+        a.text: "5×5×5の立方体を破壊する。つるはしレベルのドロップを生成。"
+        b.heading: "成形爆薬 - 幸運"
+        b.recipe: "bloodmagic:anointment/shaped_charge_fortune"
+
+      - type: "2x_crafting_alchemy_table"
+        a.heading: "成形爆薬 - 製錬"
+        a.recipe: "bloodmagic:anointment/shaped_charge_smelting"
+        b.heading: "成形爆薬 - シルクタッチ"
+        b.recipe: "bloodmagic:anointment/shaped_charge_silk_touch"
+
+      - type: "2x_crafting_soulforge"
+        a.heading: "伐採爆薬"
+        a.recipe: "bloodmagic:soulforge/cutting_charge"
+        a.text: "木を切り倒す。最大2スタックの原木を破壊。"
+        b.heading: "伐採爆薬 - 幸運"
+        b.recipe: "bloodmagic:anointment/cutting_charge_fortune"
+
+      - type: "2x_crafting_alchemy_table"
+        a.heading: "伐採爆薬 - 製錬"
+        a.recipe: "bloodmagic:anointment/cutting_charge_smelting"
+        b.heading: "伐採爆薬 - シルクタッチ"
+        b.recipe: "bloodmagic:anointment/cutting_charge_silk_touch"
+
+      - type: "2x_crafting_soulforge"
+        a.heading: "制御爆薬"
+        a.recipe: "bloodmagic:soulforge/controlled_charge"
+        a.text: "同一ブロックのみを対象とする。最大3スタックを破壊。"
+        b.heading: "制御爆薬 - 幸運"
+        b.recipe: "bloodmagic:anointment/controlled_charge_fortune"
+
+      - type: "2x_crafting_alchemy_table"
+        a.heading: "制御爆薬 - 製錬"
+        a.recipe: "bloodmagic:anointment/controlled_charge_smelting"
+        b.heading: "制御爆薬 - シルクタッチ"
+        b.recipe: "bloodmagic:anointment/controlled_charge_silk_touch"
+
+      - type: "2x_crafting_soulforge"
+        a.heading: "菌類爆薬"
+        a.recipe: "bloodmagic:soulforge/fungal_charge"
+        a.text: "巨大キノコ用に設計。最大3スタックを処理。"
+        b.heading: "菌類爆薬 - 幸運"
+        b.recipe: "bloodmagic:anointment/fungal_charge_fortune"
+
+      - type: "2x_crafting_alchemy_table"
+        a.heading: "菌類爆薬 - 製錬"
+        a.recipe: "bloodmagic:anointment/fungal_charge_smelting"
+        b.heading: "菌類爆薬 - シルクタッチ"
+        b.recipe: "bloodmagic:anointment/fungal_charge_silk_touch"
+
+  sentient_sword:
+    name: "意識剣"
+    icon: "bloodmagic:soulsword"
+    category: "bloodmagic:demon_will/demonic_items"
+    pages:
+      - type: "text"
+        text: "$(item)意識剣$()は、$(l:bloodmagic:demon_will/will_manipulation/soul_snare)ソウルスネア$()の代わりとして、悪魔の意志を収集するのに優れている。この武器は$(l:bloodmagic:demon_will/will_manipulation/soul_gem)タルタロスの宝石$()を持っていることで真価を発揮し、金床で結晶化した意志を使って修理できる。"
+
+      - type: "crafting_soulforge"
+        heading: "意識剣"
+        recipe: "bloodmagic:soulforge/sentientsword"
+        text: "インベントリで剣を持ちながら使用キーを押すと、剣の統計を更新できる。大量の意志を獲得した後や、新しい属性をテストする時に便利だ。"
+
+  sentient_tools:
+    name: "意識のある道具"
+    icon: "bloodmagic:soulpickaxe"
+    category: "bloodmagic:demon_will/demonic_items"
+    pages:
+      - type: "text"
+        text: "$(item)意識のある道具$()は$(l:bloodmagic:demon_will/demonic_items/sentient_sword)意識剣$()と同様に機能し、結晶化した意志で修理でき、非常にエンチャントしやすい。"
+
+      - type: "crafting_soulforge"
+        heading: "意識のつるはし"
+        recipe: "bloodmagic:soulforge/sentientpickaxe"
+        text: "意志と共に向上し、石を容易に切り裂く。適切に強化すれば、ネザライトを超える性能を発揮する。"
+
+      - type: "text"
+        text: "$(item)意識の鎌$()は恐るべき武器であり、範囲内の全ての敵にダメージを与える。"
+
+      - type: "crafting_soulforge"
+        heading: "意識の鎌"
+        recipe: "bloodmagic:soulforge/sentientscythe"
+        text: "武器としての性質にもかかわらず、クワとしても機能する。"
+
+      - type: "text"
+        text: "$(item)意識の斧$()は鉄の斧よりもダメージが向上している。"
+
+      - type: "crafting_soulforge"
+        heading: "意識の斧"
+        recipe: "bloodmagic:soulforge/sentientaxe"
+        text: "鉄の斧からネザライトレベルまで向上する可能性がある。"
+
+      - type: "crafting_soulforge"
+        heading: "意識のシャベル"
+        recipe: "bloodmagic:soulforge/sentientshovel"
+        text: "鉄のシャベルから始まり、ネザライトレベルまで向上する可能性がある。"
+
+  throwing_daggers:
+    name: "投擲短剣"
+    icon: "bloodmagic:throwing_dagger"
+    category: "bloodmagic:demon_will/demonic_items"
+    extra_recipe_mappings:
+      - ["bloodmagic:slate_ampoule", 3]
+    pages:
+      - type: "text"
+        text: "弓やクロスボウは投げるには十分ではない。投擲短剣は光沢があり、邪悪な効果を持つ。"
+
+      - type: "crafting_soulforge"
+        heading: "鉄の投擲短剣"
+        recipe: "bloodmagic:soulforge/throwing_dagger"
+        text: "高速な武器で、10ダメージを与える。プレイヤーが$(l:bloodmagic:demon_will/will_manipulation/demon_will)悪魔の意志$()を持っている時、意識剣と同様に意志をドロップする。"
+
+      - type: "crafting_soulforge"
+        heading: "注射器投擲短剣"
+        recipe: "bloodmagic:soulforge/syringe_dagger"
+        text: "意志よりも生命のエッセンスを優先するプレイヤー向け。ダメージは低いが、より良い価値と敵のドロップを提供する。"
+
+      - type: "text"
+        text: "$(item)石板アンプル$()は砕けると$(l:bloodmagic:altar/altar)血の祭壇$()に$(blood)500 LP$()を転送する。ルーンの影響を受けない。"
+
+# ============================================================================
+# ITEM ROUTING (アイテムルーティング) - 9 entries
+# ============================================================================
+
+item_routing:
+
+  composite_item_filter:
+    name: "複合アイテムフィルター"
+    icon: "bloodmagic:itemrouterfiltercomposite"
+    category: "bloodmagic:demon_will/item_routing"
+    pages:
+      - type: "text"
+        text: "$(item)複合アイテムフィルター$()は単体では機能しないが、他のタイプの$(item)フィルター$()と組み合わせることで、そのフィルターのルールを適用できる。$(br2)例えば、エンチャントフィルターの「任意のエンチャント」とタグフィルターの「forge:swords」を組み合わせて、エンチャントされた剣のみを通過させることができる。"
+
+      - type: "text"
+        text: "$(l:bloodmagic:demon_will/item_routing/standard_item_filter)標準アイテムフィルター$()と同様に、数量セレクタと許可/拒否機能を持つ。数量を空白にすると、デフォルトで「すべて」になる。他のフィルターと組み合わせると、GUIに追加のボタンが表示される。"
+
+      - type: "2x_crafting_alchemy_table"
+        a.heading: "複合アイテムフィルター"
+        a.recipe: "bloodmagic:alchemytable/composite_router_filter"
+        b.heading: "タグフィルターの追加"
+        b.recipe: "bloodmagic:alchemytable/filter/composite_tag_filter"
+
+      - type: "2x_crafting_alchemy_table"
+        a.heading: "エンチャントフィルターの追加"
+        a.recipe: "bloodmagic:alchemytable/filter/composite_enchant_filter"
+        b.heading: "Modフィルターの追加"
+        b.recipe: "bloodmagic:alchemytable/filter/composite_mod_filter"
+
+  enchantments_item_filter:
+    name: "エンチャントアイテムフィルター"
+    icon: "bloodmagic:itemrouterfilterenchant"
+    category: "bloodmagic:demon_will/item_routing"
+    pages:
+      - type: "text"
+        text: "$(item)エンチャントアイテムフィルター$()は、アイテムが持つ（または持たない）エンチャントによってアイテムを分類する。"
+
+      - type: "crafting_alchemy_table"
+        heading: "エンチャントアイテムフィルター"
+        recipe: "bloodmagic:alchemytable/enchant_router_filter"
+        text: "このレシピには、任意のエンチャント本が使用できる。$(br2)標準アイテムフィルターと同様の機能に加え、追加機能がある。"
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/item_routing/enchantments_item_filter.png"]
+        title: "エンチャントフィルターのGUI"
+        border: true
+        text: "ハイライトされた2つの新しいボタン。"
+
+      - type: "text"
+        text: "「全てのエンチャント」「任意のエンチャント」または特定のエンチャントに一致させることができる。さらに、レベルを一致させるかどうかも切り替えられる。$(br2)エンチャントされていないアイテムを使用すると、エンチャントの変更を許可または拒否できる。"
+
+  filter_parts:
+    name: "フィルター部品"
+    icon: "bloodmagic:componentframeparts"
+    category: "bloodmagic:demon_will/item_routing"
+    pages:
+      - type: "crafting_alchemy_table"
+        heading: "フィルター部品"
+        recipe: "bloodmagic:alchemytable/component_frame_parts"
+        text: "$(item)フィルター部品$()は全ての$(item)フィルター$()の必須コンポーネント。単体では使用できない。"
+
+  mod_item_filter:
+    name: "Modアイテムフィルター"
+    icon: "bloodmagic:itemrouterfiltermoditems"
+    category: "bloodmagic:demon_will/item_routing"
+    pages:
+      - type: "text"
+        text: "$(item)Modアイテムフィルター$()は、異なるModから最大9個のアイテムを選択できる。数量セレクタと許可/拒否機能を持つ。フィルターにアイテムを追加すると、$(thing)同じModの任意のアイテム$()が一致する。数量を空白にすると、デフォルトで「すべて」になる。"
+
+      - type: "crafting_alchemy_table"
+        heading: "Modアイテムフィルター"
+        recipe: "bloodmagic:alchemytable/mod_router_filter"
+        text: "Mod別にアイテムを整理するために使用できる。Blood Magicのアイテムをフィルターに追加すると、Blood Magicの全アイテムがそのルールに従う。"
+
+  node_router:
+    name: "ノードルーター"
+    icon: "bloodmagic:noderouter"
+    category: "bloodmagic:demon_will/item_routing"
+    priority: true
+    pages:
+      - type: "text"
+        text: "$(item)ノードルーター$()は、ノードをネットワークに接続するために使用される。スニークキーと使用キーを押しながらノードをターゲットし、16ブロック以内の別のノードで繰り返すとリンクが作成される。詳細は$(l:bloodmagic:demon_will/item_routing/routing_nodes)ルーティングノード$()を参照。"
+
+      - type: "crafting_soulforge"
+        heading: "ノードルーター"
+        recipe: "bloodmagic:soulforge/node_router"
+        text: "少し魔法の杖。"
+
+  routing_nodes:
+    name: "ルーティングノード"
+    icon: "bloodmagic:masterroutingnode"
+    category: "bloodmagic:demon_will/item_routing"
+    priority: true
+    pages:
+      - type: "text"
+        text: "$(item)ルーティングノード$()は、悪魔の意志を使ってアイテムを魔法的に転送する別の方法だ。"
+
+      - type: "text"
+        text: "ノードのネットワークには3つの必須要素がある：$(br)$(item)入力ノード$() - アイテムを取り出す$(br)$(item)出力ノード$() - アイテムを挿入する$(br)$(item)マスタールーティングノード$() - ネットワークの中心$(br2)$(item)マスター$()は少なくとも1つの$(item)入力$()と$(item)出力$()に接続する必要がある。"
+
+      - type: "crafting_soulforge"
+        heading: "マスタールーティングノード"
+        recipe: "bloodmagic:soulforge/master_routing_node"
+        text: "ネットワークの中心。"
+
+      - type: "crafting_soulforge"
+        heading: "ルーティングノード"
+        recipe: "bloodmagic:soulforge/routing_node"
+        text: "入力と出力の中間ノード。$(item)マスター$()と$(item)入力$()または$(item)出力$()の間が16ブロックを超える場合に使用。"
+
+      - type: "crafting_soulforge"
+        heading: "入力ルーティングノード"
+        recipe: "bloodmagic:soulforge/input_routing_node"
+        text: "隣接するインベントリからアイテムを取り出す。"
+
+      - type: "crafting_soulforge"
+        heading: "出力ルーティングノード"
+        recipe: "bloodmagic:soulforge/output_routing_node"
+        text: "隣接するインベントリにアイテムを挿入する。"
+
+      - type: "text"
+        text: "ネットワークを設定するには、$(item)マスター$()から始める。$(item)ノードルーター$()を持ち、スニークキーと使用キーを押しながら$(item)マスター$()を右クリックし、別のノードに対して繰り返す。$(br2)次に、$(item)入力$()または$(item)出力$()ノードを開き、フィルターを挿入する。"
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/item_routing/routing_nodes_world.png"]
+        title: "ルーティングノードのセットアップ"
+        border: true
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/item_routing/routing_nodes_gui.png"]
+        title: "ルーティングノードのGUI"
+        border: true
+        text: "上、下、北、南、東、西の各方向にフィルターを配置できる。"
+
+      - type: "text"
+        text: "$(item)入力$()と$(item)出力$()にはそれぞれ優先度があり、どこから取り出し、どこに挿入するかを決定する。$(br2)$(item)入力$()のデフォルト優先度は0で、$(item)出力$()は5だ。優先度が高いほど、最初に確認される。"
+
+      - type: "text"
+        text: "各側面に複数のフィルターを配置できる。優先度は上から下に向かって減少する。$(br2)$(item)入力$()の優先度は$(item)出力$()より先に確認される。つまり、優先度0の$(item)入力$()は、優先度5の$(item)出力$()より先に確認される。"
+
+      - type: "text"
+        text: "ノードに複数の側面がある場合、北→南→西→東→上→下の順で確認される。"
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/item_routing/routing_nodes_complete.png"]
+        title: "完全なルーティングネットワーク"
+        border: true
+        text: "これでアイテムをルーティングできる！"
+
+  standard_item_filter:
+    name: "標準アイテムフィルター"
+    icon: "bloodmagic:itemrouterfilterexact"
+    category: "bloodmagic:demon_will/item_routing"
+    pages:
+      - type: "text"
+        text: "$(item)標準アイテムフィルター$()は、ルーティングノードに挿入すると、隣接するインベントリから引き出す、または挿入する最大9個のアイテムを選択できる。数量を空白にすると、デフォルトで「すべて」になる。"
+
+      - type: "crafting_alchemy_table"
+        heading: "標準アイテムフィルター"
+        recipe: "bloodmagic:alchemytable/exact_router_filter"
+        text: "許可と拒否を切り替えられる。拒否では数量が無視される。"
+
+      - type: "text"
+        text: "$(item)入力ルーティングノード$()では、数量はインベントリに残すアイテムの数を示し、余剰分がインポートされる。$(br2)$(item)出力ルーティングノード$()では、数量はストックするアイテムの数を示し、余剰分はネットワークに残る。"
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/item_routing/standard_item_filter_gui.png"]
+        title: "標準アイテムフィルターのGUI"
+        border: true
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/item_routing/standard_item_filter_tooltip.png"]
+        title: "適切に設定されたフィルターのツールチップ"
+        border: true
+
+  tag_item_filter:
+    name: "タグアイテムフィルター"
+    icon: "bloodmagic:itemrouterfilteroredict"
+    category: "bloodmagic:demon_will/item_routing"
+    pages:
+      - type: "text"
+        text: "$(item)タグアイテムフィルター$()は、最大9個のアイテムを選択でき、関連するタグでフィルタリングできる。数量セレクタと許可/拒否機能を持つ。数量を空白にすると、デフォルトで「すべて」になる。"
+
+      - type: "crafting_alchemy_table"
+        heading: "タグアイテムフィルター"
+        recipe: "bloodmagic:alchemytable/tag_router_filter"
+        text: "アイテムのカテゴリ全体を拒否または許可するために使用できる。例えば、「forge:ores」タグを持つ全てのアイテムを炉にルーティングできる。"
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/item_routing/tag_item_filter_gui.png"]
+        title: "タグアイテムフィルターのGUI"
+        border: true
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/item_routing/tag_item_filter_tooltip.png"]
+        title: "タグアイテムフィルターのツールチップ"
+        border: true
+
+  upgrades:
+    name: "アップグレード"
+    icon: "bloodmagic:mastercore"
+    category: "bloodmagic:demon_will/item_routing"
+    pages:
+      - type: "text"
+        text: "現在、ルーティングネットワークで利用可能な$(thing)アップグレード$()は1つのみ。$(br2)$(item)基本ルーティングロジックアップグレード$()は、操作ごとに転送されるアイテムの総量を増加させる（現在は1秒に1回）。デフォルトでは、ネットワークは一度に16個のアイテムを転送するが、これらは各8個ずつキャップを上げる。"
+
+      - type: "crafting_soulforge"
+        heading: "基本ルーティングロジックアップグレード"
+        recipe: "bloodmagic:soulforge/master_node_upgrade"
+        text: "これらのアップグレードは16までスタックでき、合計で毎秒144個のアイテムを転送できる。これは、多くの異なるアイテムを一度に転送する必要がある場合、複数のスタックに分割できることに注意。"
+
+# ============================================================================
+# WILL MANIPULATION (意志の操作) - 9 entries
+# ============================================================================
+
+will_manipulation:
+
+  aspected_will:
+    name: "悪魔の意志の属性"
+    icon: "bloodmagic:vengefulcrystal"
+    category: "bloodmagic:demon_will/will_manipulation"
+    extra_recipe_mappings:
+      - ["bloodmagic:corrosivecrystal", 0]
+      - ["bloodmagic:destructivecrystal", 1]
+      - ["bloodmagic:vengefulcrystal", 2]
+      - ["bloodmagic:steadfastcrystal", 3]
+      - ["bloodmagic:basemonstersoulcorrosive", 4]
+      - ["bloodmagic:basemonstersouldestructive", 5]
+      - ["bloodmagic:basemonstersoulvengeful", 6]
+      - ["bloodmagic:basemonstersoulsteadfast", 7]
+      - ["bloodmagic:soulgemlesser", 8]
+      - ["bloodmagic:soulgemcommon", 9]
+      - ["bloodmagic:soulgemgreater", 10]
+      - ["bloodmagic:soulforgeraw", 11]
+    pages:
+      - type: "text"
+        text: "$(raw)生の悪魔の意志$()は万能だが、時にはより専門的なものが必要になる。「共鳴する多面結晶の儀式」を使えば、$(raw)生の意志$()を4つの特化したタイプに分割できる。"
+
+      - type: "text"
+        text: "各属性は異なるエレメンタルルーンに結び付いている：$(br)$(corrosive)腐食の意志$() - 空気のルーン$(br)$(destructive)破壊の意志$() - 大地のルーン$(br)$(vengeful)復讐の意志$() - 炎のルーン$(br)$(steadfast)堅固の意志$() - 水のルーン"
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/will_manipulation/aspected_will.png"]
+        title: "4つの属性"
+        border: true
+        anchor: "crystals"
+
+      - type: "text"
+        text: "属性をツールに適用するには、空のタルタロスの宝石を$(l:bloodmagic:demon_will/will_manipulation/soul_forge)ソウルフォージ$()（$(l:bloodmagic:demon_will/will_manipulation/aura)悪魔のるつぼ$()と同じチャンク内）に配置し、目的の属性の結晶を供給して宝石をその意志タイプで満たす。ツールは、プレイヤーが最も多く持っている意志タイプを自動的に採用する。"
+
+      - type: "text"
+        text: "$(corrosive)腐食の意志$()：攻撃に毒またはウィザーを付与する確率がある。"
+
+      - type: "text"
+        text: "$(destructive)破壊の意志$()：他のどの意志タイプよりもダメージを増加させるが、攻撃速度が低下する。"
+
+      - type: "text"
+        text: "$(vengeful)復讐の意志$()：ダメージを増加させる（生ほどではない）。攻撃速度を増加させる。移動速度バフを与える。"
+
+      - type: "text"
+        text: "$(steadfast)堅固の意志$()：ダメージを増加させる（生ほどではない）が、キル後に吸収効果を付与する。"
+
+  aura:
+    name: "悪魔の意志のオーラ"
+    icon: "bloodmagic:demoncrucible"
+    category: "bloodmagic:demon_will/will_manipulation"
+    pages:
+      - type: "text"
+        text: "悪魔のエッセンスは、悪魔のるつぼで燃やすことでオーラに解放できる。"
+
+      - type: "crafting_soulforge"
+        heading: "悪魔のるつぼ"
+        recipe: "bloodmagic:soulforge/demon_crucible"
+        text: "るつぼは$(l:bloodmagic:demon_will/will_manipulation/soul_gem)タルタロスの宝石$()、$(l:bloodmagic:demon_will/will_manipulation/demon_will)悪魔の意志$()、または$(l:bloodmagic:demon_will/will_manipulation/crystallized_will#crystals)意志の結晶$()で充填できる。"
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/will_manipulation/demon_crucible.png"]
+        title: "悪魔のるつぼ"
+        border: true
+        text: "るつぼの中にタルタロスの宝石がある。"
+
+      - type: "text"
+        text: "$(raw)生の意志$()から、精製された$(raw)生の結晶$()を作成できる。これらを$(l:bloodmagic:demon_will/will_manipulation/aspected_will)4つの属性$()に分割し、儀式に使用できる。"
+
+      - type: "text"
+        text: "オーラは$(thing)チャンクベース$()で、各タイプごとに100ユニットの上限がある。$(l:bloodmagic:demon_will/will_manipulation/aura_gauge)オーラゲージ$()を参照。"
+
+      - type: "crafting_soulforge"
+        heading: "悪魔のパイロン"
+        recipe: "bloodmagic:soulforge/demon_pylon"
+        text: "悪魔のパイロンは、隣接する全てのチャンクから全ての種類の意志を引き寄せる。"
+
+      - type: "text"
+        text: "$(l:bloodmagic:demon_will/will_manipulation/soul_forge)ソウルフォージ$()に宝石を入れ、ツールを変更するために使用できる。詳細は$(l:bloodmagic:demon_will/will_manipulation/aspected_will)属性付き意志$()を参照。"
+    relations:
+      - "bloodmagic:demon_will/will_manipulation/soul_forge"
+      - "bloodmagic:demon_will/will_manipulation/aura_gauge"
+      - "bloodmagic:demon_will/will_manipulation/crystallized_will"
+      - "bloodmagic:demon_will/will_manipulation/aspected_will"
+      - "bloodmagic:demon_will/will_manipulation/soul_gem"
+
+  aura_gauge:
+    name: "悪魔の意志のオーラゲージ"
+    icon: "bloodmagic:demonwillgauge"
+    category: "bloodmagic:demon_will/will_manipulation"
+    pages:
+      - type: "text"
+        text: "$(item)悪魔の意志のオーラゲージ$()をインベントリに入れておくと、ローカルオーラに含まれる悪魔の意志の量が表示される。"
+
+      - type: "crafting_soulforge"
+        heading: "悪魔の意志のオーラゲージ"
+        recipe: "bloodmagic:soulforge/demon_will_gauge"
+        text: "ゲージは5つの意志の属性を測定する：$(raw)生$()、$(corrosive)腐食$()、$(steadfast)堅固$()、$(destructive)破壊$()、$(vengeful)復讐$()。"
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/demon_will_aura_gauge.png"]
+        title: "オーラゲージのHUD要素"
+        border: true
+
+      - type: "text"
+        text: "ゲージは左上隅に表示され、各属性をチャンクごとに色分けされたバーで表示する。スニークキーを押すと、各属性の数値（1-100）が表示される。100は各属性のチャンクごとの最大容量を表す。"
+
+  crystallized_will:
+    name: "結晶化した意志"
+    icon: "bloodmagic:defaultcrystal"
+    category: "bloodmagic:demon_will/will_manipulation"
+    extra_recipe_mappings:
+      - ["bloodmagic:demoncrucible", 0]
+      - ["bloodmagic:demoncrystallizer", 1]
+      - ["bloodmagic:rawdemoncrystal", 2]
+      - ["bloodmagic:defaultcrystal", 3]
+    pages:
+      - type: "text"
+        text: "$(l:bloodmagic:demon_will/will_manipulation/soul_gem)タルタロスの宝石$()に悪魔の意志を保存するのは良いが、世界に解き放つことが必要な時もある。そのためには、$(item)悪魔の結晶生成器$()が必要だ。"
+
+      - type: "crafting_soulforge"
+        heading: "悪魔のるつぼ"
+        recipe: "bloodmagic:soulforge/demon_crucible"
+        text: "供給されたアイテムから意志を消費し、チャンクに注入する。完全に枯渇したアイテムは破壊され、他のソースは選択的に燃やされる。"
+
+      - type: "crafting_soulforge"
+        heading: "悪魔の結晶生成器"
+        recipe: "bloodmagic:soulforge/demon_crystallizer"
+        text: "保存された悪魔の意志を意志の結晶に変換する。最初の尖塔は100の意志を消費し、その後の尖塔はそれぞれ45を消費するが、悪魔のるつぼで50として燃やせるため、正味5の利益がある。"
+
+      - type: "text"
+        text: "$(item)悪魔の結晶生成器$()の尖塔は、インベントリの総意志が1,024以上の時のみ収穫できる。$(br2)つるはしで破壊すると、すぐに収穫できる。"
+
+  demon_will:
+    name: "悪魔の意志"
+    icon: "bloodmagic:basemonstersoul"
+    category: "bloodmagic:demon_will/will_manipulation"
+    extra_recipe_mappings:
+      - ["bloodmagic:basemonstersoul", 0]
+    pages:
+      - type: "text"
+        text: "$(l:bloodmagic:altar/altar)血の祭壇$()を手に入れたら、2つの方法で悪魔の意志を集める必要がある：Mobに$(l:bloodmagic:demon_will/will_manipulation/soul_snare)ソウルスネア$()を使用するか、$(l:bloodmagic:demon_will/demonic_items/sentient_sword)意識剣$()で敵対的なクリーチャーを倒す。"
+
+      - type: "text"
+        text: "悪魔の意志はBlood Magicにおける繰り返し使用されるリソースで、$(l:bloodmagic:demon_will/will_manipulation/soul_forge)ソウルフォージ$()に動力を供給し、死んだ存在に染み込んだ残留悪魔エネルギーを表す。"
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/demon_will.png"]
+        title: "悪魔の意志"
+        border: true
+
+      - type: "text"
+        text: "収集した意志は、ソウルフォージでツールを作成するために使用するか、$(l:bloodmagic:demon_will/will_manipulation/soul_gem)タルタロスの宝石$()に保存してインベントリスペースを管理できる。"
+
+  soul_forge:
+    name: "ソウルフォージ"
+    icon: "bloodmagic:soulforge"
+    category: "bloodmagic:demon_will/will_manipulation"
+    pages:
+      - type: "text"
+        text: "$(item)ソウルフォージ$()は、$(l:bloodmagic:altar/altar)血の祭壇$()と並ぶBlood Magicの核心的なクラフティングメカニクスの1つだ。"
+
+      - type: "crafting_altar"
+        heading: "ソウルフォージ"
+        recipe: "bloodmagic:soul_forge"
+        text: "Mobから収穫した$(l:bloodmagic:demon_will/will_manipulation/demon_will)悪魔の意志$()を処理し、$(l:bloodmagic:demon_will/demonic_items/sentient_tools)意識のあるツール$()、$(l:bloodmagic:demon_will/will_manipulation/soul_gem)宝石$()、試薬、秘術の灰など、様々なアイテムを作成する。"
+
+  soul_gem:
+    name: "タルタロスの宝石"
+    icon: "bloodmagic:soulgemgreater"
+    category: "bloodmagic:demon_will/will_manipulation"
+    extra_recipe_mappings:
+      - ["bloodmagic:soulgempetty", 0]
+      - ["bloodmagic:soulgemlesser", 1]
+      - ["bloodmagic:soulgemcommon", 2]
+      - ["bloodmagic:soulgemgreater", 3]
+    pages:
+      - type: "text"
+        text: "$(l:bloodmagic:demon_will/will_manipulation/demon_will)悪魔の意志$()は非常に有用なリソースだが、$(item)タルタロスの宝石$()に保存する必要がある。これらの宝石は散らばった意志の破片を吸収できる。"
+
+      - type: "crafting_soulforge"
+        heading: "下級タルタロスの宝石"
+        recipe: "bloodmagic:soulforge/soul_gem_petty"
+        text: "64の意志を保持。$(br2)宝石を地面に置かれた意志の上に投げるか、使用キーを押しながら$(l:bloodmagic:demon_will/will_manipulation/soul_forge)ソウルフォージ$()に向けて使用すると、意志が転送される。"
+
+      - type: "crafting_soulforge"
+        heading: "小タルタロスの宝石"
+        recipe: "bloodmagic:soulforge/soul_gem_lesser"
+        text: "256の意志を保持。$(br2)ソウルフォージでのクラフトは、より大きな宝石をソウルフォージに入れると、最初に意志を消費することに注意。"
+
+      - type: "crafting_soulforge"
+        heading: "通常タルタロスの宝石"
+        recipe: "bloodmagic:soulforge/soul_gem_common"
+        text: "1,024の意志を保持。$(br2)$(item)染み込んだ石板$()が必要で、$(l:bloodmagic:altar/altar)血の祭壇$()の進行が必要。"
+
+      - type: "crafting_soulforge"
+        heading: "大タルタロスの宝石"
+        recipe: "bloodmagic:soulforge/soul_gem_greater"
+        text: "4,096の意志を保持。$(br2)$(item)悪魔の石板$()、$(item)弱き血の欠片$()、$(item)悪魔の意志の結晶$()が必要。"
+
+      - type: "text"
+        flag: "curios:*"
+        text: "Curios APIがインストールされている場合、タルタロスの宝石をネックレスとして装備でき、$(l:bloodmagic:demon_will/demonic_items/sentient_sword)意識剣$()と$(l:bloodmagic:demon_will/demonic_items/sentient_tools)意識のある道具$()がそこから意志を引き出す。"
+
+  soul_snare:
+    name: "最初の意志"
+    icon: "bloodmagic:soulsnare"
+    category: "bloodmagic:demon_will/will_manipulation"
+    priority: true
+    pages:
+      - type: "crafting_altar"
+        heading: "ソウルスネア"
+        recipe: "bloodmagic:altar/soul_snare"
+        text: "$(item)ソウルスネア$()は、Blood Magicの悪魔の意志部分への入り口だ。"
+
+      - type: "text"
+        text: "ソウルスネアを作成し、敵対的なMobに向かって投げる。白い粒子が現れたら、そのクリーチャーを倒す。死亡時に悪魔の意志をドロップする。$(br2)略奪エンチャントは意志のドロップを増加させる。$(br2)$(l:bloodmagic:demon_will/demonic_items/sentient_sword)意識剣$()と$(l:bloodmagic:demon_will/will_manipulation/soul_gem)タルタロスの宝石$()を作成すると、収集が簡単になる。"
+
+      - type: "image"
+        images: ["bloodmagic:images/entries/demon_will/will_manipulation/soul_snare.png"]
+        title: "ソウルスネア"
+        border: true
+        text: "スネアに当たった後の白い粒子を持つスケルトン。"
+
+  will_catalysts:
+    name: "意志の触媒"
+    icon: "bloodmagic:rawdemoncatalyst"
+    category: "bloodmagic:demon_will/will_manipulation"
+    extra_recipe_mappings:
+      - ["bloodmagic:rawdemoncatalyst", 0]
+      - ["bloodmagic:steadfastdemoncatalyst", 1]
+      - ["bloodmagic:destructivedemoncatalyst", 2]
+      - ["bloodmagic:vengefuldemoncatalyst", 3]
+      - ["bloodmagic:corrosivedemoncatalyst", 4]
+    pages:
+      - type: "text"
+        text: "悪魔の意志を集めるのは面倒だ。ありがたいことに、$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)意志の結晶$()と$(item)結晶クラスター$()を使って自動化できる。"
+
+      - type: "text"
+        text: "$(item)結晶クラスター$()は$(l:bloodmagic:demon_will/will_manipulation/soul_forge)ソウルフォージ$()で作成できる。$(raw)生$()、$(steadfast)堅固$()、$(destructive)破壊$()、$(vengeful)復讐$()、$(corrosive)腐食$()の各タイプがある。"
+
+      - type: "2x_crafting_soulforge"
+        a.heading: "生の悪魔の結晶クラスター"
+        a.recipe: "bloodmagic:soulforge/rawcrystal_cluster"
+        b.heading: "堅固の悪魔の結晶クラスター"
+        b.recipe: "bloodmagic:soulforge/steadfastcrystal_cluster"
+
+      - type: "2x_crafting_soulforge"
+        a.heading: "破壊の悪魔の結晶クラスター"
+        a.recipe: "bloodmagic:soulforge/destructivecrystal_cluster"
+        b.heading: "復讐の悪魔の結晶クラスター"
+        b.recipe: "bloodmagic:soulforge/vengefulcrystal_cluster"
+
+      - type: "crafting_soulforge"
+        heading: "腐食の悪魔の結晶クラスター"
+        recipe: "bloodmagic:soulforge/corrosivecrystal_cluster"
+
+      - type: "text"
+        text: "しかし、問題がある：結晶の成長は遅い。解決策は$(item)意志の触媒$()だ。これらは尖塔を成長させるために必要な意志を45から25に減らし、成長速度を10倍にする。各投与量は10本の尖塔分の成長に有効だ。"
+
+      - type: "2x_crafting_alchemy_table"
+        a.heading: "生の悪魔の触媒"
+        a.recipe: "bloodmagic:alchemytable/demon_catalyst_raw"
+        b.heading: "堅固の悪魔の触媒"
+        b.recipe: "bloodmagic:alchemytable/demon_catalyst_steadfast"
+
+      - type: "2x_crafting_alchemy_table"
+        a.heading: "破壊の悪魔の触媒"
+        a.recipe: "bloodmagic:alchemytable/demon_catalyst_destructive"
+        b.heading: "復讐の悪魔の触媒"
+        b.recipe: "bloodmagic:alchemytable/demon_catalyst_vengeful"
+
+      - type: "crafting_alchemy_table"
+        heading: "腐食の悪魔の触媒"
+        recipe: "bloodmagic:alchemytable/demon_catalyst_corrosive"
+
+      - type: "text"
+        text: "触媒は成長速度の問題を解決するが、別の問題が生じる：手動で触媒を適用する必要がある。$(br2)幸いなことに、「見捨てられた魂の収集」儀式と$(l:bloodmagic:demon_will/item_routing/routing_nodes)ルーティングノード$()システムを使えば、これも自動化できる。"
+
+# ============================================================================
+# TRANSLATION NOTES
+# ============================================================================
+
+translation_notes:
+  - "全22エントリの翻訳完了"
+  - "Patchouliマクロ（$(br), $(br2), $(item), $(l:...), $(thing)）を全て保持"
+  - "Blood Magic用語辞書に準拠"
+  - "色コードマクロ（$(blood), $(raw), $(corrosive), $(destructive), $(vengeful), $(steadfast)）を保持"
+  - "内部リンクの整合性を維持"
+
+terminology_used:
+  - "Demon Will: 悪魔の意志"
+  - "Sentient: 意識のある / 意識剣"
+  - "Tartaric Gem: タルタロスの宝石"
+  - "Soul Forge: ソウルフォージ"
+  - "Soul Snare: ソウルスネア"
+  - "Aspected Will: 属性付き意志"
+  - "Aura: オーラ"
+  - "Routing Node: ルーティングノード"
+  - "Filter: フィルター"
+  - "Corrosive: 腐食"
+  - "Destructive: 破壊"
+  - "Vengeful: 復讐"
+  - "Steadfast: 堅固"

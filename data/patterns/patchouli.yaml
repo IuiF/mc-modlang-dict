@@ -1,0 +1,12 @@
+patterns:
+  - pattern: "assets/{mod_id}/patchouli_books/{book_id}/{lang}/categories/*.json"
+    type: patchouli_category
+    parser: patchouli
+    priority: 90
+    description: "Patchouli book category definitions"
+
+  - pattern: "assets/{mod_id}/patchouli_books/{book_id}/{lang}/entries/**/*.json"
+    type: patchouli_entry
+    parser: patchouli
+    priority: 90
+    description: "Patchouli book entry pages"
