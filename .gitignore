@@ -4,7 +4,7 @@
 *.dll
 *.so
 *.dylib
-moddict
+/moddict
 
 # Test binary
 *.test
@@ -28,8 +28,12 @@ Thumbs.db
 
 # Database files
 *.db
+*.db.backup
 *.sqlite
 *.sqlite3
+
+# Backup files
+*.backup
 
 # Workspace - Mod files (copyright)
 workspace/imports/*.jar

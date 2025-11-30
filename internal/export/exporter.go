@@ -20,12 +20,12 @@ func NewExporter() *Exporter {
 }
 
 // ExportJSON exports translations to a JSON lang file.
-// Only includes entries with non-nil TargetText.
-func (e *Exporter) ExportJSON(translations []*models.Translation, destPath string) error {
+// Uses TranslationWithSource which contains Key from translation_sources.
+func (e *Exporter) ExportJSON(translations []*models.TranslationWithSource, destPath string) error {
 	result := make(map[string]string)
 
 	for _, trans := range translations {
-		if trans.TargetText != nil {
+		if trans.TargetText != nil && trans.Key != "" {
 			result[trans.Key] = *trans.TargetText
 		}
 	}
@@ -35,7 +35,7 @@ func (e *Exporter) ExportJSON(translations []*models.Translation, destPath strin
 
 // ExportMerged exports translations merged with original content.
 // Translated entries use TargetText, untranslated entries keep original.
-func (e *Exporter) ExportMerged(originalContent []byte, translations []*models.Translation, destPath string) error {
+func (e *Exporter) ExportMerged(originalContent []byte, translations []*models.TranslationWithSource, destPath string) error {
 	// Parse original content
 	var original map[string]interface{}
 	if err := json.Unmarshal(originalContent, &original); err != nil {
@@ -45,7 +45,7 @@ func (e *Exporter) ExportMerged(originalContent []byte, translations []*models.T
 	// Create translation lookup map
 	translationMap := make(map[string]string)
 	for _, trans := range translations {
-		if trans.TargetText != nil {
+		if trans.TargetText != nil && trans.Key != "" {
 			translationMap[trans.Key] = *trans.TargetText
 		}
 	}

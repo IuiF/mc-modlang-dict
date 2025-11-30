@@ -20,9 +20,9 @@ func TestExporter_ExportJSON(t *testing.T) {
 	exp := NewExporter()
 	destDir := t.TempDir()
 
-	translations := []*models.Translation{
-		{Key: "item.create.wrench", SourceText: "Wrench", TargetText: strPtr("レンチ")},
-		{Key: "block.create.gearbox", SourceText: "Gearbox", TargetText: strPtr("ギアボックス")},
+	translations := []*models.TranslationWithSource{
+		{Key: "item.create.wrench", SourceText: "Wrench", Translation: models.Translation{TargetText: strPtr("レンチ")}},
+		{Key: "block.create.gearbox", SourceText: "Gearbox", Translation: models.Translation{TargetText: strPtr("ギアボックス")}},
 	}
 
 	destPath := filepath.Join(destDir, "ja_jp.json")
@@ -51,9 +51,9 @@ func TestExporter_ExportJSON_SkipUntranslated(t *testing.T) {
 	exp := NewExporter()
 	destDir := t.TempDir()
 
-	translations := []*models.Translation{
-		{Key: "item.create.wrench", SourceText: "Wrench", TargetText: strPtr("レンチ")},
-		{Key: "block.create.gearbox", SourceText: "Gearbox", TargetText: nil}, // Not translated
+	translations := []*models.TranslationWithSource{
+		{Key: "item.create.wrench", SourceText: "Wrench", Translation: models.Translation{TargetText: strPtr("レンチ")}},
+		{Key: "block.create.gearbox", SourceText: "Gearbox", Translation: models.Translation{TargetText: nil}}, // Not translated
 	}
 
 	destPath := filepath.Join(destDir, "ja_jp.json")
@@ -87,9 +87,9 @@ func TestExporter_ExportMerged(t *testing.T) {
   "tooltip.create.hint": "Hint"
 }`)
 
-	translations := []*models.Translation{
-		{Key: "item.create.wrench", SourceText: "Wrench", TargetText: strPtr("レンチ")},
-		{Key: "block.create.gearbox", SourceText: "Gearbox", TargetText: strPtr("ギアボックス")},
+	translations := []*models.TranslationWithSource{
+		{Key: "item.create.wrench", SourceText: "Wrench", Translation: models.Translation{TargetText: strPtr("レンチ")}},
+		{Key: "block.create.gearbox", SourceText: "Gearbox", Translation: models.Translation{TargetText: strPtr("ギアボックス")}},
 	}
 
 	destPath := filepath.Join(destDir, "ja_jp.json")

@@ -59,6 +59,8 @@ func (r *Repository) Migrate() error {
 		&models.Mod{},
 		&models.ModVersion{},
 		&models.Term{},
+		&models.TranslationSource{},
+		&models.SourceVersion{},
 		&models.Translation{},
 		&models.FilePattern{},
 		&models.VersionDiff{},
@@ -417,4 +419,336 @@ func (r *Repository) BulkSaveDiffs(ctx context.Context, diffs []*models.VersionD
 		}
 		return nil
 	})
+}
+
+// TranslationSource operations
+
+// GetSource retrieves a translation source by ID.
+func (r *Repository) GetSource(ctx context.Context, id int64) (*models.TranslationSource, error) {
+	var source models.TranslationSource
+	if err := r.db.WithContext(ctx).First(&source, id).Error; err != nil {
+		if errors.Is(err, gorm.ErrRecordNotFound) {
+			return nil, fmt.Errorf("source not found")
+		}
+		return nil, fmt.Errorf("failed to get source %d: %w", id, err)
+	}
+	return &source, nil
+}
+
+// GetSourceByKey retrieves a source by mod ID, key, and source text.
+func (r *Repository) GetSourceByKey(ctx context.Context, modID, key, sourceText string) (*models.TranslationSource, error) {
+	var source models.TranslationSource
+	err := r.db.WithContext(ctx).
+		Where("mod_id = ? AND key = ? AND source_text = ?", modID, key, sourceText).
+		First(&source).Error
+	if err != nil {
+		if errors.Is(err, gorm.ErrRecordNotFound) {
+			return nil, nil // Not found is not an error
+		}
+		return nil, fmt.Errorf("failed to get source: %w", err)
+	}
+	return &source, nil
+}
+
+// ListSourcesByMod retrieves all current sources for a mod.
+func (r *Repository) ListSourcesByMod(ctx context.Context, modID string, currentOnly bool) ([]*models.TranslationSource, error) {
+	var sources []*models.TranslationSource
+	query := r.db.WithContext(ctx).Where("mod_id = ?", modID)
+	if currentOnly {
+		query = query.Where("is_current = ?", true)
+	}
+	if err := query.Find(&sources).Error; err != nil {
+		return nil, fmt.Errorf("failed to list sources: %w", err)
+	}
+	return sources, nil
+}
+
+// ListSourcesByVersion retrieves all sources for a specific version.
+func (r *Repository) ListSourcesByVersion(ctx context.Context, versionID int64) ([]*models.TranslationSource, error) {
+	var sources []*models.TranslationSource
+	err := r.db.WithContext(ctx).
+		Joins("JOIN source_versions ON source_versions.source_id = translation_sources.id").
+		Where("source_versions.mod_version_id = ?", versionID).
+		Find(&sources).Error
+	if err != nil {
+		return nil, fmt.Errorf("failed to list sources by version: %w", err)
+	}
+	return sources, nil
+}
+
+// SaveSource creates or updates a translation source.
+func (r *Repository) SaveSource(ctx context.Context, source *models.TranslationSource) error {
+	if err := r.db.WithContext(ctx).Save(source).Error; err != nil {
+		return fmt.Errorf("failed to save source: %w", err)
+	}
+	return nil
+}
+
+// BulkSaveSources creates or updates multiple sources in a transaction.
+func (r *Repository) BulkSaveSources(ctx context.Context, sources []*models.TranslationSource) error {
+	return r.db.WithContext(ctx).Transaction(func(tx *gorm.DB) error {
+		for _, source := range sources {
+			if err := tx.Save(source).Error; err != nil {
+				return fmt.Errorf("failed to save source: %w", err)
+			}
+		}
+		return nil
+	})
+}
+
+// SourceVersion operations
+
+// LinkSourceToVersion creates a link between a source and a version.
+func (r *Repository) LinkSourceToVersion(ctx context.Context, sourceID, versionID int64) error {
+	sv := &models.SourceVersion{
+		SourceID:     sourceID,
+		ModVersionID: versionID,
+	}
+	// Use FirstOrCreate to avoid duplicates
+	return r.db.WithContext(ctx).
+		Where("source_id = ? AND mod_version_id = ?", sourceID, versionID).
+		FirstOrCreate(sv).Error
+}
+
+// GetSourceVersions retrieves all version links for a source.
+func (r *Repository) GetSourceVersions(ctx context.Context, sourceID int64) ([]*models.SourceVersion, error) {
+	var svs []*models.SourceVersion
+	if err := r.db.WithContext(ctx).Where("source_id = ?", sourceID).Find(&svs).Error; err != nil {
+		return nil, fmt.Errorf("failed to get source versions: %w", err)
+	}
+	return svs, nil
+}
+
+// New Translation operations (source-based)
+
+// GetTranslationBySource retrieves a translation by source ID and target language.
+func (r *Repository) GetTranslationBySource(ctx context.Context, sourceID int64, targetLang string) (*models.Translation, error) {
+	var trans models.Translation
+	err := r.db.WithContext(ctx).
+		Where("source_id = ? AND target_lang = ?", sourceID, targetLang).
+		First(&trans).Error
+	if err != nil {
+		if errors.Is(err, gorm.ErrRecordNotFound) {
+			return nil, ErrTranslationNotFound
+		}
+		return nil, fmt.Errorf("failed to get translation: %w", err)
+	}
+	return &trans, nil
+}
+
+// ListTranslationsByMod retrieves translations for a mod (current sources only).
+func (r *Repository) ListTranslationsByMod(ctx context.Context, modID string, filter interfaces.TranslationFilter) ([]*models.Translation, error) {
+	var translations []*models.Translation
+	query := r.db.WithContext(ctx).
+		Joins("JOIN translation_sources ON translation_sources.id = translations.source_id").
+		Where("translation_sources.mod_id = ? AND translation_sources.is_current = ?", modID, true)
+
+	if filter.TargetLang != "" {
+		query = query.Where("translations.target_lang = ?", filter.TargetLang)
+	}
+	if filter.Status != "" {
+		query = query.Where("translations.status = ?", filter.Status)
+	}
+	if filter.Limit > 0 {
+		query = query.Limit(filter.Limit)
+	}
+	if filter.Offset > 0 {
+		query = query.Offset(filter.Offset)
+	}
+
+	if err := query.Find(&translations).Error; err != nil {
+		return nil, fmt.Errorf("failed to list translations: %w", err)
+	}
+	return translations, nil
+}
+
+// GetDB returns the underlying GORM database for complex operations.
+func (r *Repository) GetDB() *gorm.DB {
+	return r.db
+}
+
+// ListTranslationsWithSourceByMod retrieves translations with source info for a mod's default version.
+// This is the primary query method for the new schema.
+func (r *Repository) ListTranslationsWithSourceByMod(ctx context.Context, modID string, filter interfaces.TranslationFilter) ([]*models.TranslationWithSource, error) {
+	var results []*models.TranslationWithSource
+
+	query := r.db.WithContext(ctx).
+		Table("translations").
+		Select(`
+			translations.*,
+			translation_sources.key as key,
+			translation_sources.source_text as source_text,
+			translation_sources.source_lang as source_lang,
+			translation_sources.is_current as is_current
+		`).
+		Joins("JOIN translation_sources ON translation_sources.id = translations.source_id").
+		Joins("JOIN source_versions ON source_versions.source_id = translation_sources.id").
+		Joins("JOIN mod_versions ON mod_versions.id = source_versions.mod_version_id").
+		Where("translation_sources.mod_id = ? AND mod_versions.is_default = ?", modID, true)
+
+	if filter.TargetLang != "" {
+		query = query.Where("translations.target_lang = ?", filter.TargetLang)
+	}
+	if filter.Status != "" {
+		query = query.Where("translations.status = ?", filter.Status)
+	}
+	if filter.Limit > 0 {
+		query = query.Limit(filter.Limit)
+	}
+	if filter.Offset > 0 {
+		query = query.Offset(filter.Offset)
+	}
+
+	if err := query.Scan(&results).Error; err != nil {
+		return nil, fmt.Errorf("failed to list translations with source: %w", err)
+	}
+
+	return results, nil
+}
+
+// GetTranslationBySourceID retrieves a translation by source ID.
+func (r *Repository) GetTranslationBySourceID(ctx context.Context, sourceID int64) (*models.Translation, error) {
+	var trans models.Translation
+	err := r.db.WithContext(ctx).
+		Where("source_id = ?", sourceID).
+		First(&trans).Error
+	if err != nil {
+		if errors.Is(err, gorm.ErrRecordNotFound) {
+			return nil, ErrTranslationNotFound
+		}
+		return nil, fmt.Errorf("failed to get translation: %w", err)
+	}
+	return &trans, nil
+}
+
+// GetSourceByModAndKey retrieves a current source by mod ID and key.
+func (r *Repository) GetSourceByModAndKey(ctx context.Context, modID, key string) (*models.TranslationSource, error) {
+	var source models.TranslationSource
+	err := r.db.WithContext(ctx).
+		Where("mod_id = ? AND key = ? AND is_current = ?", modID, key, true).
+		First(&source).Error
+	if err != nil {
+		if errors.Is(err, gorm.ErrRecordNotFound) {
+			return nil, nil
+		}
+		return nil, fmt.Errorf("failed to get source: %w", err)
+	}
+	return &source, nil
+}
+
+// CountTranslationsByMod returns translation counts by status for a mod's default version.
+func (r *Repository) CountTranslationsByMod(ctx context.Context, modID string) (map[string]int, error) {
+	type StatusCount struct {
+		Status string
+		Count  int
+	}
+	var counts []StatusCount
+
+	err := r.db.WithContext(ctx).
+		Table("translations").
+		Select("translations.status, COUNT(*) as count").
+		Joins("JOIN translation_sources ON translation_sources.id = translations.source_id").
+		Joins("JOIN source_versions ON source_versions.source_id = translation_sources.id").
+		Joins("JOIN mod_versions ON mod_versions.id = source_versions.mod_version_id").
+		Where("translation_sources.mod_id = ? AND mod_versions.is_default = ?", modID, true).
+		Group("translations.status").
+		Scan(&counts).Error
+	if err != nil {
+		return nil, fmt.Errorf("failed to count translations: %w", err)
+	}
+
+	result := make(map[string]int)
+	for _, c := range counts {
+		result[c.Status] = c.Count
+	}
+	return result, nil
+}
+
+// GetDefaultVersion returns the default version for a mod.
+func (r *Repository) GetDefaultVersion(ctx context.Context, modID string) (*models.ModVersion, error) {
+	var version models.ModVersion
+	err := r.db.WithContext(ctx).
+		Where("mod_id = ? AND is_default = ?", modID, true).
+		First(&version).Error
+	if err != nil {
+		if errors.Is(err, gorm.ErrRecordNotFound) {
+			// Fallback to first version if no default set
+			err = r.db.WithContext(ctx).
+				Where("mod_id = ?", modID).
+				Order("id DESC").
+				First(&version).Error
+			if err != nil {
+				return nil, ErrVersionNotFound
+			}
+			return &version, nil
+		}
+		return nil, fmt.Errorf("failed to get default version: %w", err)
+	}
+	return &version, nil
+}
+
+// SetDefaultVersion sets a version as the default for its mod.
+func (r *Repository) SetDefaultVersion(ctx context.Context, versionID int64) error {
+	// Get the version to find mod_id
+	var version models.ModVersion
+	if err := r.db.WithContext(ctx).First(&version, versionID).Error; err != nil {
+		return fmt.Errorf("failed to get version: %w", err)
+	}
+
+	return r.db.WithContext(ctx).Transaction(func(tx *gorm.DB) error {
+		// Clear existing default
+		if err := tx.Model(&models.ModVersion{}).
+			Where("mod_id = ?", version.ModID).
+			Update("is_default", false).Error; err != nil {
+			return err
+		}
+		// Set new default
+		if err := tx.Model(&models.ModVersion{}).
+			Where("id = ?", versionID).
+			Update("is_default", true).Error; err != nil {
+			return err
+		}
+		return nil
+	})
+}
+
+// GetOrCreateSource finds an existing source or creates a new one.
+// Returns (source, created, error) where created is true if a new source was created.
+func (r *Repository) GetOrCreateSource(ctx context.Context, modID, key, sourceText, sourceLang string) (*models.TranslationSource, bool, error) {
+	// Try to find existing source with same mod_id + key + source_text
+	existing, err := r.GetSourceByKey(ctx, modID, key, sourceText)
+	if err != nil {
+		return nil, false, err
+	}
+	if existing != nil {
+		return existing, false, nil
+	}
+
+	// Create new source
+	source := &models.TranslationSource{
+		ModID:      modID,
+		Key:        key,
+		SourceText: sourceText,
+		SourceLang: sourceLang,
+		IsCurrent:  true, // Deprecated but keep for compatibility
+	}
+	if err := r.db.WithContext(ctx).Create(source).Error; err != nil {
+		return nil, false, fmt.Errorf("failed to create source: %w", err)
+	}
+	return source, true, nil
+}
+
+// GetTranslationForSource retrieves the translation for a source.
+func (r *Repository) GetTranslationForSource(ctx context.Context, sourceID int64) (*models.Translation, error) {
+	var trans models.Translation
+	err := r.db.WithContext(ctx).
+		Where("source_id = ?", sourceID).
+		First(&trans).Error
+	if err != nil {
+		if errors.Is(err, gorm.ErrRecordNotFound) {
+			return nil, nil
+		}
+		return nil, fmt.Errorf("failed to get translation: %w", err)
+	}
+	return &trans, nil
 }

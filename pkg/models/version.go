@@ -8,7 +8,8 @@ type ModVersion struct {
 	ModID           string            `json:"mod_id" gorm:"index;not null"`
 	Version         string            `json:"version" gorm:"not null"`
 	MCVersion       string            `json:"mc_version" gorm:"not null"`
-	Loader          string            `json:"loader"` // forge, fabric, neoforge, quilt
+	Loader          string            `json:"loader"`                              // forge, fabric, neoforge, quilt
+	IsDefault       bool              `json:"is_default" gorm:"default:false"`     // Default version for this mod
 	ParentVersionID *int64            `json:"parent_version_id,omitempty"`
 	Stats           VersionStats      `json:"stats" gorm:"embedded"`
 	Metadata        map[string]string `json:"metadata,omitempty" gorm:"serializer:json"`
