@@ -217,8 +217,14 @@ func importFromJSON(ctx context.Context, repo *database.Repository, modID, jsonP
 	}
 
 	// Update translations by looking up source by mod_id and key
-	var updated, notFound int
+	var updated, notFound, skippedEmpty int
 	for key, target := range translations {
+		// Skip empty translations to prevent data corruption
+		if target == "" {
+			skippedEmpty++
+			continue
+		}
+
 		source, err := repo.GetSourceByModAndKey(ctx, modID, key)
 		if err != nil {
 			fmt.Printf("Warning: failed to get source for %s: %v\n", key, err)
@@ -246,6 +252,9 @@ func importFromJSON(ctx context.Context, repo *database.Repository, modID, jsonP
 	}
 
 	fmt.Printf("Updated %d translations from %s\n", updated, jsonPath)
+	if skippedEmpty > 0 {
+		fmt.Printf("Skipped empty translations: %d\n", skippedEmpty)
+	}
 	if notFound > 0 {
 		fmt.Printf("Keys not found in DB: %d\n", notFound)
 	}

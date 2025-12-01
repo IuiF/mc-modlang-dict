@@ -36,10 +36,12 @@ Thumbs.db
 *.backup
 
 # Workspace - Mod files (copyright)
-workspace/imports/*.jar
-workspace/imports/*.zip
+workspace/imports/**/*.jar
+workspace/imports/**/*.zip
+workspace/imports/**/
 workspace/exports/*
 workspace/temp/*
+workspace/mods/*
 !workspace/imports/.gitkeep
 !workspace/exports/.gitkeep
 !workspace/temp/.gitkeep

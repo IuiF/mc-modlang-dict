@@ -57,28 +57,131 @@ Minecraft Modの翻訳辞書とファイル構造パターンを管理するGo�
 - 公式にしかないキーがあれば検出漏れとして調査
 ```
 
-### 翻訳エージェント実行パターン
+### 翻訳エージェント厳密ワークフロー（必須）
+
+**⚠️ 全てのエージェントはこのワークフローに厳密に従うこと**
+
+#### ステップ1: 初期化（必須）
+
+```bash
+# 1-1. Modのインポート
+./moddict import -jar workspace/imports/mods/[mod.jar]
+./moddict repair
+
+# 1-2. 公式翻訳の確認と適用
+unzip -l workspace/imports/mods/[mod.jar] | grep -i ja_jp
+# ja_jp.jsonが存在する場合のみ:
+unzip -p workspace/imports/mods/[mod.jar] 'assets/*/lang/ja_jp.json' > /tmp/official_ja.json
+./moddict translate -mod [mod_id] -official /tmp/official_ja.json
+
+# 1-3. 初期ステータス確認
+./moddict translate -mod [mod_id] -status
+```
+
+#### ステップ2: 翻訳ループ（厳守）
+
+```bash
+# 2-1. pendingエクスポート
+./moddict translate -mod [mod_id] -export /tmp/pending.json -limit 20
+
+# 2-2. 翻訳実行（エージェント内で翻訳を生成）
+# ⚠️ 翻訳JSONには空文字("")を含めてはならない
+# ⚠️ 翻訳できないキーはJSONに含めない（空文字で埋めない）
+
+# 2-3. 翻訳インポート
+./moddict translate -mod [mod_id] -json /tmp/translated.json
+
+# 2-4. 進捗確認
+./moddict translate -mod [mod_id] -status
+# Pending: 0 になるまで繰り返し
+```
+
+#### ステップ3: 完了検証（必須）
+
+```bash
+# 3-1. 最終ステータス確認
+./moddict translate -mod [mod_id] -status
+# → Progress: 100.0% を確認
+
+# 3-2. 空target_textがないか検証
+# ※ CLIにvalidateコマンドがない場合はスキップ可
+```
+
+### 翻訳JSON生成ルール（厳守）
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              DBから20件ずつクエリ                         │
-└─────────────────────────────────────────────────────────┘
-        │           │           │           │
-        ▼           ▼           ▼           ▼
-┌───────────┐ ┌───────────┐ ┌───────────┐ ┌───────────┐
-│ Haiku #1  │ │ Haiku #2  │ │ Haiku #3  │ │ Haiku #4  │
-│ 1-20件    │ │ 21-40件   │ │ 41-60件   │ │ 61-80件   │
-└───────────┘ └───────────┘ └───────────┘ └───────────┘
-        │           │           │           │
-        ▼           ▼           ▼           ▼
-┌─────────────────────────────────────────────────────────┐
-│              100件完了 → エージェントリセット              │
-└─────────────────────────────────────────────────────────┘
+✅ 正しい翻訳JSON:
+{
+  "item.mod.example": "サンプルアイテム",
+  "block.mod.example": "サンプルブロック"
+}
+
+❌ 禁止パターン1: 空文字
+{
+  "item.mod.example": "",      ← データ破損の原因
+  "block.mod.example": "サンプルブロック"
+}
+
+❌ 禁止パターン2: 翻訳できないキーを含める
+{
+  "item.mod.example": "item.mod.example",  ← 原文のままは無意味
+  "block.mod.example": "サンプルブロック"
+}
+
+✅ 翻訳できないキーは含めない:
+{
+  "block.mod.example": "サンプルブロック"
+}
+```
+
+### エージェント実行パターン（コンテキスト効率化）
+
+**重要: サブエージェントにDB操作を委任する**
+
+```
+❌ NG: メインでJSON出力 → 内容確認 → サブエージェントに渡す
+       （メインコンテキストにJSONが展開されてしまう）
+
+✅ OK: サブエージェント起動 → エージェント内でDB操作 → 完了報告のみ返す
+       （メインコンテキストを消費しない）
+```
+
+**サブエージェントへの指示テンプレート:**
+```
+[Mod名]の翻訳を行ってください。
+
+【厳守事項】
+- 翻訳JSONに空文字("")を含めない
+- 翻訳できないキーはJSONに含めない
+- 各ステップでステータスを確認する
+
+1. JARをインポート:
+   ./moddict import -jar workspace/imports/mods/[mod.jar]
+   ./moddict repair
+
+2. 公式翻訳確認・インポート:
+   unzip -l [mod.jar] | grep ja_jp
+   （あれば）./moddict translate -mod [mod_id] -official [ja_jp.json]
+
+3. ステータス確認:
+   ./moddict translate -mod [mod_id] -status
+
+4. pendingがあれば20件ずつ翻訳:
+   ./moddict translate -mod [mod_id] -export pending.json -limit 20
+   （翻訳後 - 空文字を含めない）
+   ./moddict translate -mod [mod_id] -json translated.json
+   ./moddict translate -mod [mod_id] -status  # 毎回確認
+   （繰り返し）
+
+5. 100%になったら報告
+
+翻訳ルール: フォーマットコード保持、Minecraft公式用語準拠
+最終報告: Mod ID、総キー数、翻訳完了数、ステータス
 ```
 
 **Haikuを使う理由**: 翻訳タスクは定型的で、コスト効率が良い。
-**20件ずつの理由**: 適度なバッチサイズで品質を維持。
-**100件リセットの理由**: コンテキスト肥大化によるパフォーマンス低下を防止。
+**DB直接操作の理由**: メインコンテキストにJSONを展開しない。
+**完了報告のみの理由**: 必要最小限の情報のみメインに返す。
 
 ### データ管理はDBで行う（重要）
 
@@ -231,8 +334,14 @@ moddict export -mod [mod_id]                          # 翻訳済みファイル
 | Mekanism | `mekanism` | 10.4.16 | 1.20.1 | 1,656 | 100%完了 |
 | Tinkers' Construct | `tconstruct` | 3.10.2.92 | 1.20.1 | 2,883 | 100%完了 |
 | Ars Nouveau | `ars_nouveau` | 4.10.0 | 1.20.1 | 1,545 | 100%完了 |
+| Farmers Delight | `farmersdelight` | 1.2.4 | 1.20.1 | 286 | 100%完了 |
+| Applied Energistics 2 | `ae2` | 15.2.13 | 1.20.1 | 1,007 | 100%完了 |
+| Thermal Foundation | `thermal_foundation` | 11.0.6 | 1.20.1 | 119 | 100%完了 |
+| GregTech CEu | `gtceu` | 1.4.4 | 1.20.1 | 5,947 | 100%完了 |
+| EnderIO | `enderio` | 6.1.8 | 1.20.1 | 543 | 100%完了 |
+| Mystical Agriculture | `mysticalagriculture` | 7.0.13 | 1.20.1 | 748 | 100%完了 |
 
-**合計: 14,637キー翻訳完了**
+**合計: 23,287キー翻訳完了**
 
 ※ 新バージョンリリース時は `moddict import` で差分のみ追加翻訳
 

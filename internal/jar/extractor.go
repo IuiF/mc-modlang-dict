@@ -51,6 +51,7 @@ func (e *Extractor) Extract(jarPath, destDir string) (*ExtractResult, error) {
 
 	// First pass: detect mod info and collect file list
 	var fabricModJSON, modsToml []byte
+	var isNeoForge bool
 
 	for _, file := range reader.File {
 		switch file.Name {
@@ -59,10 +60,20 @@ func (e *Extractor) Extract(jarPath, destDir string) (*ExtractResult, error) {
 			if err != nil {
 				return nil, fmt.Errorf("failed to read fabric.mod.json: %w", err)
 			}
-		case "META-INF/mods.toml":
+		case "META-INF/neoforge.mods.toml":
+			// NeoForge uses neoforge.mods.toml (prioritize over mods.toml)
 			modsToml, err = readZipFile(file)
 			if err != nil {
-				return nil, fmt.Errorf("failed to read mods.toml: %w", err)
+				return nil, fmt.Errorf("failed to read neoforge.mods.toml: %w", err)
+			}
+			isNeoForge = true
+		case "META-INF/mods.toml":
+			// Only use mods.toml if we haven't found neoforge.mods.toml
+			if modsToml == nil {
+				modsToml, err = readZipFile(file)
+				if err != nil {
+					return nil, fmt.Errorf("failed to read mods.toml: %w", err)
+				}
 			}
 		case "quilt.mod.json":
 			// Quilt uses similar format to Fabric
@@ -100,7 +111,11 @@ func (e *Extractor) Extract(jarPath, destDir string) (*ExtractResult, error) {
 		result.Version = info.Version
 		result.Authors = info.Authors
 		result.Description = info.Description
-		result.Loader = "forge"
+		if isNeoForge {
+			result.Loader = "neoforge"
+		} else {
+			result.Loader = "forge"
+		}
 	}
 
 	// Second pass: extract files
