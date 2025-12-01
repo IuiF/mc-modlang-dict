@@ -24,6 +24,9 @@ Repair database inconsistencies:
 1. Set is_default=true for only the latest version of each mod
 2. Merge duplicate sources (same mod_id + key + source_text)
 3. Clean up orphaned data
+4. Verify data integrity
+5. Reset is_current flag for all sources
+6. Ensure all sources are linked to default version
 
 Options:
 `)
@@ -169,8 +172,38 @@ Options:
 	}
 	fmt.Printf("  Sources merged: %d\n\n", sourcesMerged)
 
-	// 3. Clean up sources without translations
-	fmt.Println("Step 3: Finding orphaned sources (no translation)...")
+	// 3. Clean up duplicate translations (same source_id)
+	fmt.Println("Step 3: Finding duplicate translations (same source_id)...")
+	type DuplicateTranslation struct {
+		SourceID int64
+		Count    int64
+		MinID    int64
+	}
+	var duplicateTranslations []DuplicateTranslation
+	err = db.Raw(`
+		SELECT source_id, COUNT(*) as count, MIN(id) as min_id
+		FROM translations
+		GROUP BY source_id
+		HAVING count > 1
+	`).Scan(&duplicateTranslations).Error
+	if err != nil {
+		return fmt.Errorf("failed to find duplicate translations: %w", err)
+	}
+
+	fmt.Printf("  Found %d source IDs with duplicate translations\n", len(duplicateTranslations))
+
+	translationsMerged := 0
+	if len(duplicateTranslations) > 0 && !*dryRun {
+		for _, dup := range duplicateTranslations {
+			// Keep the first one, delete the rest
+			db.Exec(`DELETE FROM translations WHERE source_id = ? AND id > ?`, dup.SourceID, dup.MinID)
+			translationsMerged += int(dup.Count - 1)
+		}
+		fmt.Printf("  Removed %d duplicate translations\n", translationsMerged)
+	}
+
+	// 4. Clean up sources without translations
+	fmt.Println("Step 4: Finding orphaned sources (no translation)...")
 	var orphanedSources int64
 	db.Raw(`
 		SELECT COUNT(*) FROM translation_sources s
@@ -189,8 +222,8 @@ Options:
 		fmt.Printf("  Created pending translations for orphaned sources\n")
 	}
 
-	// 4. Verify counts
-	fmt.Println("\nStep 4: Verifying data integrity...")
+	// 5. Verify counts
+	fmt.Println("\nStep 5: Verifying data integrity...")
 
 	// Check for sources without version links
 	var unlinkedSources int64
@@ -218,8 +251,15 @@ Options:
 		fmt.Printf("  Linked orphaned sources to default versions\n")
 	}
 
-	// 5. Link all sources to default version (for sources linked to other versions but not default)
-	fmt.Println("\nStep 5: Ensuring all sources are linked to default version...")
+	// 6. Reset is_current flag for all sources (deprecated field but need consistency)
+	fmt.Println("\nStep 6: Resetting is_current flag for all sources...")
+	if !*dryRun {
+		db.Exec(`UPDATE translation_sources SET is_current = true`)
+		fmt.Printf("  All sources marked as is_current=true\n")
+	}
+
+	// 7. Link all sources to default version (for sources linked to other versions but not default)
+	fmt.Println("\nStep 7: Ensuring all sources are linked to default version...")
 	var sourcesNotLinkedToDefault int64
 	for _, mod := range mods {
 		defaultVersion, err := repo.GetDefaultVersion(ctx, mod.ID)

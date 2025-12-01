@@ -621,11 +621,12 @@ func (r *Repository) GetTranslationBySourceID(ctx context.Context, sourceID int6
 	return &trans, nil
 }
 
-// GetSourceByModAndKey retrieves a current source by mod ID and key.
+// GetSourceByModAndKey retrieves a source by mod ID and key.
+// Note: is_current condition removed as it's deprecated and causes issues with translation imports
 func (r *Repository) GetSourceByModAndKey(ctx context.Context, modID, key string) (*models.TranslationSource, error) {
 	var source models.TranslationSource
 	err := r.db.WithContext(ctx).
-		Where("mod_id = ? AND key = ? AND is_current = ?", modID, key, true).
+		Where("mod_id = ? AND key = ?", modID, key).
 		First(&source).Error
 	if err != nil {
 		if errors.Is(err, gorm.ErrRecordNotFound) {
