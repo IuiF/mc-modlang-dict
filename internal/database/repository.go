@@ -739,6 +739,34 @@ func (r *Repository) GetOrCreateSource(ctx context.Context, modID, key, sourceTe
 	return source, true, nil
 }
 
+// GetOrCreateVersion finds an existing version or creates a new one.
+// Returns (version, created, error) where created is true if a new version was created.
+func (r *Repository) GetOrCreateVersion(ctx context.Context, modID, version, loader string) (*models.ModVersion, bool, error) {
+	// Try to find existing version with same mod_id + version
+	var existing models.ModVersion
+	err := r.db.WithContext(ctx).
+		Where("mod_id = ? AND version = ?", modID, version).
+		First(&existing).Error
+	if err == nil {
+		return &existing, false, nil
+	}
+	if !errors.Is(err, gorm.ErrRecordNotFound) {
+		return nil, false, fmt.Errorf("failed to check existing version: %w", err)
+	}
+
+	// Create new version
+	newVersion := &models.ModVersion{
+		ModID:     modID,
+		Version:   version,
+		Loader:    loader,
+		IsDefault: false,
+	}
+	if err := r.db.WithContext(ctx).Create(newVersion).Error; err != nil {
+		return nil, false, fmt.Errorf("failed to create version: %w", err)
+	}
+	return newVersion, true, nil
+}
+
 // GetTranslationForSource retrieves the translation for a source.
 func (r *Repository) GetTranslationForSource(ctx context.Context, sourceID int64) (*models.Translation, error) {
 	var trans models.Translation

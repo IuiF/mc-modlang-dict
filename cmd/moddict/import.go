@@ -99,16 +99,16 @@ Examples:
 		return fmt.Errorf("failed to save mod: %w", err)
 	}
 
-	// Create version (will be set as default)
-	modVersion := &models.ModVersion{
-		ModID:     result.ModID,
-		Version:   result.Version,
-		Loader:    result.Loader,
-		IsDefault: false, // Will be set after creation
+	// Get or create version (reuses existing if mod_id + version matches)
+	modVersion, versionCreated, err := repo.GetOrCreateVersion(ctx, result.ModID, result.Version, result.Loader)
+	if err != nil {
+		return fmt.Errorf("failed to get/create version: %w", err)
 	}
 
-	if err := repo.SaveVersion(ctx, modVersion); err != nil {
-		return fmt.Errorf("failed to save version: %w", err)
+	if versionCreated {
+		fmt.Printf("Created new version: %s\n", result.Version)
+	} else {
+		fmt.Printf("Reusing existing version: %s (ID=%d)\n", result.Version, modVersion.ID)
 	}
 
 	// Set this version as default

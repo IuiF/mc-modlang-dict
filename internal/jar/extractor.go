@@ -186,11 +186,11 @@ func (e *Extractor) detectFabricMod(content []byte) (*ExtractResult, error) {
 // forgeModInfo represents mods.toml structure.
 type forgeModInfo struct {
 	Mods []struct {
-		ModID       string `toml:"modId"`
-		Version     string `toml:"version"`
-		DisplayName string `toml:"displayName"`
-		Authors     string `toml:"authors"`
-		Description string `toml:"description"`
+		ModID       string        `toml:"modId"`
+		Version     string        `toml:"version"`
+		DisplayName string        `toml:"displayName"`
+		Authors     interface{}   `toml:"authors"` // Can be string or []string
+		Description string        `toml:"description"`
 	} `toml:"mods"`
 }
 
@@ -207,8 +207,19 @@ func (e *Extractor) detectForgeMod(content []byte) (*ExtractResult, error) {
 
 	mod := info.Mods[0]
 	authors := []string{}
-	if mod.Authors != "" {
-		authors = []string{mod.Authors}
+
+	// Handle both string and []string for authors
+	switch v := mod.Authors.(type) {
+	case string:
+		if v != "" {
+			authors = []string{v}
+		}
+	case []interface{}:
+		for _, a := range v {
+			if s, ok := a.(string); ok {
+				authors = append(authors, s)
+			}
+		}
 	}
 
 	return &ExtractResult{

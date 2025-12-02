@@ -226,7 +226,7 @@ unzip -p workspace/imports/mods/[mod.jar] 'assets/*/lang/ja_jp.json' > /tmp/offi
 
 | コマンド | 説明 |
 |---------|------|
-| `moddict import -jar [file]` | JARからインポート（既存ソース再利用、新バージョンをデフォルトに設定） |
+| `moddict import -jar [file]` | JARからインポート（既存ソース・バージョン再利用、インポートしたバージョンをデフォルトに設定） |
 | `moddict import-dir` | ディレクトリからインポート |
 | `moddict translate -mod [id] -status` | 翻訳進捗確認 |
 | `moddict translate -mod [id] -export [file] -limit N` | pendingをエクスポート |
