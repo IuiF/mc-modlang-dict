@@ -116,6 +116,44 @@ unzip -p workspace/imports/mods/[mod.jar] 'assets/*/lang/ja_jp.json' > /tmp/offi
 - 翻訳が自動的に継承される（継承コマンド不要）
 - source_textが変わったキーのみ新規ソースを作成（pending状態）
 
+#### 継承の仕組み
+
+```
+旧バージョン (v1.0)              新バージョン (v2.0)
+┌────────────────────┐          ┌────────────────────┐
+│ key: item.sword    │          │ key: item.sword    │
+│ source: "Sword"    │ ──同じ→  │ source: "Sword"    │
+│ 翻訳: "剣" ✓       │          │ 翻訳: "剣" ✓ (継承)│
+└────────────────────┘          └────────────────────┘
+
+┌────────────────────┐          ┌────────────────────┐
+│ key: item.axe      │          │ key: item.axe      │
+│ source: "Axe"      │ ──変更→  │ source: "Battle Axe"│
+│ 翻訳: "斧" ✓       │          │ 翻訳: pending ✗    │
+└────────────────────┘          └────────────────────┘
+
+                                ┌────────────────────┐
+                    新規追加 →  │ key: item.spear    │
+                                │ source: "Spear"    │
+                                │ 翻訳: pending ✗    │
+                                └────────────────────┘
+```
+
+#### 実際の作業量
+
+| キーの状況 | 作業量 |
+|-----------|--------|
+| 95%同じ | 5%だけ翻訳 → **すぐ終わる** |
+| 80%同じ | 20%翻訳 → 少し作業 |
+| 50%同じ | 50%翻訳 → それなりに作業 |
+
+```bash
+# バージョン更新時の作業フロー
+./moddict import -jar mymod-v2.0.jar   # 自動継承
+./moddict translate -mod mymod -status  # pending数を確認
+# → ほとんどが継承済みなら、残りのpendingだけ翻訳すればOK
+```
+
 ### 翻訳JSON生成ルール（厳守）
 
 ```
@@ -141,6 +179,24 @@ unzip -p workspace/imports/mods/[mod.jar] 'assets/*/lang/ja_jp.json' > /tmp/offi
 {
   "block.mod.example": "サンプルブロック"
 }
+```
+
+### データ品質保護（自動チェック）
+
+CLIに以下の自動チェック機能が実装されています：
+
+1. **翻訳インポート時** (`-json`, `-official`)
+   - 空文字("")の翻訳は自動スキップ
+   - source_text = target_text（原文と同一）の翻訳は自動スキップ
+   - スキップされた件数がレポートされる
+
+2. **修復コマンド** (`moddict repair`)
+   - source=target問題を検出してレポート
+   - 問題があれば手動修正用のSQLを表示
+
+```bash
+# 定期的にrepairを実行して品質チェック
+./moddict repair -dry-run
 ```
 
 ---

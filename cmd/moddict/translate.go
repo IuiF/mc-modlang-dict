@@ -217,7 +217,7 @@ func importFromJSON(ctx context.Context, repo *database.Repository, modID, jsonP
 	}
 
 	// Update translations by looking up source by mod_id and key
-	var updated, notFound, skippedEmpty int
+	var updated, notFound, skippedEmpty, skippedSameAsSource int
 	for key, target := range translations {
 		// Skip empty translations to prevent data corruption
 		if target == "" {
@@ -232,6 +232,12 @@ func importFromJSON(ctx context.Context, repo *database.Repository, modID, jsonP
 		}
 		if source == nil {
 			notFound++
+			continue
+		}
+
+		// Skip if target is same as source (untranslated)
+		if target == source.SourceText {
+			skippedSameAsSource++
 			continue
 		}
 
@@ -254,6 +260,9 @@ func importFromJSON(ctx context.Context, repo *database.Repository, modID, jsonP
 	fmt.Printf("Updated %d translations from %s\n", updated, jsonPath)
 	if skippedEmpty > 0 {
 		fmt.Printf("Skipped empty translations: %d\n", skippedEmpty)
+	}
+	if skippedSameAsSource > 0 {
+		fmt.Printf("Skipped same-as-source (untranslated): %d\n", skippedSameAsSource)
 	}
 	if notFound > 0 {
 		fmt.Printf("Keys not found in DB: %d\n", notFound)
@@ -376,6 +385,7 @@ func extractPatchouliYAML(entry map[string]interface{}, result map[string]string
 
 // importOfficialJSON imports official translations from ja_jp.json
 // Sets translator=official, status=verified for imported translations
+// Skips entries where target_text equals source_text (untranslated in official file)
 func importOfficialJSON(ctx context.Context, repo *database.Repository, modID, jsonPath string) error {
 	content, err := os.ReadFile(jsonPath)
 	if err != nil {
@@ -388,10 +398,16 @@ func importOfficialJSON(ctx context.Context, repo *database.Repository, modID, j
 	}
 
 	// Track statistics
-	var updated, alreadyOfficial, notFound int
+	var updated, alreadyOfficial, notFound, skippedEmpty, skippedSameAsSource int
 	officialStr := "official"
 
 	for key, target := range officialTranslations {
+		// Skip empty translations
+		if target == "" {
+			skippedEmpty++
+			continue
+		}
+
 		source, err := repo.GetSourceByModAndKey(ctx, modID, key)
 		if err != nil {
 			fmt.Printf("Warning: failed to get source for %s: %v\n", key, err)
@@ -399,6 +415,12 @@ func importOfficialJSON(ctx context.Context, repo *database.Repository, modID, j
 		}
 		if source == nil {
 			notFound++
+			continue
+		}
+
+		// Skip if target is same as source (untranslated in official file)
+		if target == source.SourceText {
+			skippedSameAsSource++
 			continue
 		}
 
@@ -431,6 +453,8 @@ func importOfficialJSON(ctx context.Context, repo *database.Repository, modID, j
 	fmt.Printf("Total official keys:    %d\n", len(officialTranslations))
 	fmt.Printf("Updated to official:    %d\n", updated)
 	fmt.Printf("Already official:       %d\n", alreadyOfficial)
+	fmt.Printf("Skipped empty:          %d\n", skippedEmpty)
+	fmt.Printf("Skipped same-as-source: %d\n", skippedSameAsSource)
 	fmt.Printf("Keys not in DB:         %d\n", notFound)
 
 	return nil

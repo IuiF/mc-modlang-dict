@@ -1,0 +1,7 @@
+patterns:
+  - pattern: "{mod_id}_localization/{lang}.json"
+    type: lang
+    parser: json_lang
+    priority: 100
+    required: true
+    description: "CrashAssistant custom language file location"

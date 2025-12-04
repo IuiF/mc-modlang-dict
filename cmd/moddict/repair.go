@@ -301,6 +301,44 @@ Options:
 		fmt.Printf("  Linked %d sources to default versions\n", sourcesNotLinkedToDefault)
 	}
 
+	// 8. Detect and fix source=target translations (untranslated entries)
+	fmt.Println("\nStep 8: Detecting source=target translations (untranslated entries)...")
+	type SameAsSource struct {
+		ModID string
+		Count int64
+	}
+	var sameAsSourceByMod []SameAsSource
+	db.Raw(`
+		SELECT ts.mod_id, COUNT(*) as count
+		FROM translations t
+		JOIN translation_sources ts ON t.source_id = ts.id
+		WHERE t.target_lang = 'ja_jp' AND ts.source_text = t.target_text
+		GROUP BY ts.mod_id
+		ORDER BY count DESC
+	`).Scan(&sameAsSourceByMod)
+
+	var totalSameAsSource int64
+	for _, s := range sameAsSourceByMod {
+		totalSameAsSource += s.Count
+	}
+
+	if totalSameAsSource > 0 {
+		fmt.Printf("  Found %d translations where target = source (by mod):\n", totalSameAsSource)
+		for _, s := range sameAsSourceByMod {
+			if s.Count > 10 { // Only show mods with more than 10 issues
+				fmt.Printf("    %s: %d entries\n", s.ModID, s.Count)
+			}
+		}
+		fmt.Printf("\n  To fix, run: DELETE FROM translations WHERE id IN (\n")
+		fmt.Printf("    SELECT t.id FROM translations t\n")
+		fmt.Printf("    JOIN translation_sources ts ON t.source_id = ts.id\n")
+		fmt.Printf("    WHERE t.target_lang = 'ja_jp' AND ts.source_text = t.target_text\n")
+		fmt.Printf("  )\n")
+		fmt.Printf("  Then re-run translation for pending entries.\n")
+	} else {
+		fmt.Printf("  No source=target translations found (good!)\n")
+	}
+
 	// Final stats
 	fmt.Println("\n=== Summary ===")
 	var totalSources, totalTranslations int64
@@ -308,6 +346,9 @@ Options:
 	db.Raw(`SELECT COUNT(*) FROM translations`).Scan(&totalTranslations)
 	fmt.Printf("Total sources: %d\n", totalSources)
 	fmt.Printf("Total translations: %d\n", totalTranslations)
+	if totalSameAsSource > 0 {
+		fmt.Printf("Source=Target issues: %d (requires manual fix)\n", totalSameAsSource)
+	}
 
 	if *dryRun {
 		fmt.Println("\n[DRY RUN] No changes made.")

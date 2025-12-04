@@ -606,11 +606,11 @@ func (r *Repository) ListTranslationsWithSourceByMod(ctx context.Context, modID 
 	return results, nil
 }
 
-// GetTranslationBySourceID retrieves a translation by source ID.
+// GetTranslationBySourceID retrieves a translation by source ID for ja_jp language.
 func (r *Repository) GetTranslationBySourceID(ctx context.Context, sourceID int64) (*models.Translation, error) {
 	var trans models.Translation
 	err := r.db.WithContext(ctx).
-		Where("source_id = ?", sourceID).
+		Where("source_id = ? AND target_lang = ?", sourceID, "ja_jp").
 		First(&trans).Error
 	if err != nil {
 		if errors.Is(err, gorm.ErrRecordNotFound) {
@@ -622,11 +622,14 @@ func (r *Repository) GetTranslationBySourceID(ctx context.Context, sourceID int6
 }
 
 // GetSourceByModAndKey retrieves a source by mod ID and key.
-// Note: is_current condition removed as it's deprecated and causes issues with translation imports
+// Prioritizes sources linked to the default (is_default=true) version.
 func (r *Repository) GetSourceByModAndKey(ctx context.Context, modID, key string) (*models.TranslationSource, error) {
 	var source models.TranslationSource
 	err := r.db.WithContext(ctx).
-		Where("mod_id = ? AND key = ?", modID, key).
+		Joins("LEFT JOIN source_versions sv ON translation_sources.id = sv.source_id").
+		Joins("LEFT JOIN mod_versions mv ON sv.mod_version_id = mv.id").
+		Where("translation_sources.mod_id = ? AND translation_sources.key = ?", modID, key).
+		Order("CASE WHEN mv.is_default = 1 THEN 0 ELSE 1 END, translation_sources.id DESC").
 		First(&source).Error
 	if err != nil {
 		if errors.Is(err, gorm.ErrRecordNotFound) {
@@ -638,6 +641,7 @@ func (r *Repository) GetSourceByModAndKey(ctx context.Context, modID, key string
 }
 
 // CountTranslationsByMod returns translation counts by status for a mod's default version.
+// Sources without translations are counted as "pending".
 func (r *Repository) CountTranslationsByMod(ctx context.Context, modID string) (map[string]int, error) {
 	type StatusCount struct {
 		Status string
@@ -645,6 +649,7 @@ func (r *Repository) CountTranslationsByMod(ctx context.Context, modID string) (
 	}
 	var counts []StatusCount
 
+	// Count existing translations by status
 	err := r.db.WithContext(ctx).
 		Table("translations").
 		Select("translations.status, COUNT(*) as count").
@@ -662,6 +667,21 @@ func (r *Repository) CountTranslationsByMod(ctx context.Context, modID string) (
 	for _, c := range counts {
 		result[c.Status] = c.Count
 	}
+
+	// Count sources without translations (true pending)
+	var pendingCount int64
+	err = r.db.WithContext(ctx).
+		Table("translation_sources").
+		Joins("JOIN source_versions ON source_versions.source_id = translation_sources.id").
+		Joins("JOIN mod_versions ON mod_versions.id = source_versions.mod_version_id").
+		Joins("LEFT JOIN translations ON translations.source_id = translation_sources.id AND translations.target_lang = 'ja_jp'").
+		Where("translation_sources.mod_id = ? AND mod_versions.is_default = ? AND translations.id IS NULL", modID, true).
+		Count(&pendingCount).Error
+	if err != nil {
+		return nil, fmt.Errorf("failed to count pending sources: %w", err)
+	}
+
+	result[models.StatusPending] += int(pendingCount)
 	return result, nil
 }
 
