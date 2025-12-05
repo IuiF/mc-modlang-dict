@@ -1,0 +1,85 @@
+﻿key,source_text,target_text,status
+block.pipez.energy_pipe,Energy Pipe,エネルギーパイプ,verified
+block.pipez.fluid_pipe,Fluid Pipe,流体パイプ,verified
+block.pipez.gas_pipe,Gas Pipe,ガスパイプ,verified
+block.pipez.item_pipe,Item Pipe,アイテムパイプ,verified
+block.pipez.universal_pipe,Universal Pipe,ユニバーサルパイプ,verified
+config.jade.plugin_pipez.pipe,Pipe,パイプ,verified
+item.pipez.advanced_upgrade,Advanced Pipe Upgrade,発展パイプアップグレード,verified
+item.pipez.basic_upgrade,Basic Pipe Upgrade,基本パイプアップグレード,verified
+item.pipez.filter_destination_tool,Filter Destination Tool,目的地フィルターツール,verified
+item.pipez.improved_upgrade,Improved Pipe Upgrade,改良パイプアップグレード,verified
+item.pipez.infinity_upgrade,Infinity Pipe Upgrade,無限パイプアップグレード,verified
+item.pipez.ultimate_upgrade,Ultimate Pipe Upgrade,究極パイプアップグレード,verified
+item.pipez.wrench,Pipe Wrench,パイプレンチ,verified
+itemGroup.pipez,Pipez,パイペズ,translated
+message.pipez.direction.down,Down,下,verified
+message.pipez.direction.east,East,東,verified
+message.pipez.direction.north,North,北,verified
+message.pipez.direction.south,South,南,verified
+message.pipez.direction.up,Up,上,verified
+message.pipez.direction.west,West,西,verified
+message.pipez.filter.add,Add,追加,verified
+message.pipez.filter.any_item,Any item,任意の,verified
+message.pipez.filter.cancel,Cancel,キャンセル,verified
+message.pipez.filter.destination,Destination,目的地,verified
+message.pipez.filter.edit,Edit,編集,verified
+message.pipez.filter.inverted,Inverted,反転,verified
+message.pipez.filter.item,Item: %s,アイテム：%s,verified
+message.pipez.filter.item_tag,Item/Tag,アイテム／タグ,verified
+message.pipez.filter.nbt,NBT: %s,NBT：%s,verified
+message.pipez.filter.nbt.exact,(exact),（正確）,verified
+message.pipez.filter.nbt.tag,%s Tag,%s個のタグ,verified
+message.pipez.filter.nbt.tags,%s Tags,%s個のタグ,verified
+message.pipez.filter.nbt_string,NBT Data,NBTデータ,verified
+message.pipez.filter.remove,Remove,削除,verified
+message.pipez.filter.submit,Submit,確定,verified
+message.pipez.filter.tag,Tag: %s,タグ：%s,verified
+message.pipez.filter_destination_tool.destination,"Destination: %s, %s, %s, %s","目的地：%s, %s, %s, %s",verified
+message.pipez.filter_destination_tool.destination.any,Destination: Any,目的地：任意,verified
+message.pipez.filter_destination_tool.destination.set,Destination set,目的地を設定しました,verified
+tooltip.pipez.distribution,Distribution: %s,目的地：%s,verified
+tooltip.pipez.distribution.furthest,Furthest First,遠い方を優先,verified
+tooltip.pipez.distribution.nearest,Nearest First,近い方を優先,verified
+tooltip.pipez.distribution.random,Random,ランダム,verified
+tooltip.pipez.distribution.round_robin,Round Robin,順繰り分配,verified
+tooltip.pipez.energy,Energy,エネルギー,verified
+tooltip.pipez.filter.accepts_tag,Any %s,任意の%s,verified
+tooltip.pipez.filter.destination.click_to_remove,Click to remove,クリックして削除,verified
+tooltip.pipez.filter.destination.description,Use the filter destination tool to set a destination,目的地フィルターツールで目的地を設定,verified
+tooltip.pipez.filter.destination_distance,%s block(s) away,距離：%sブロック,verified
+tooltip.pipez.filter.destination_location,"At X=%s, Y=%s, Z=%s","位置：X=%s, Y=%s, Z=%s",verified
+tooltip.pipez.filter.destination_side,Facing %s,方向：%s,verified
+tooltip.pipez.filter.inverted,Inverted,反転,verified
+tooltip.pipez.filter.item_tag.description,Tags prefixed with # or item IDs,タグ（接頭辞：#）またはアイテムID,verified
+tooltip.pipez.filter.nbt.exact,Match exact NBT data,正確なNBTデータと一致,verified
+tooltip.pipez.filter.nbt.not_exact,Match only provided tags,指定されたタグのみと一致,verified
+tooltip.pipez.filter.nbt_string.description,NBT Data,NBTデータ,verified
+tooltip.pipez.filter.nbt_string.no_nbt,This type can't have NBT tags,NBTタグを持つことができない種類です,verified
+tooltip.pipez.filter.not,Not,以外,verified
+tooltip.pipez.filter.not_inverted,Regular,通常,verified
+tooltip.pipez.filter.unknown_block,UNKNOWN BLOCK,不明なブロック,verified
+tooltip.pipez.filter_destination_tool,Click on a block to set destination,ブロックをクリックして目的地を設定,verified
+tooltip.pipez.filter_destination_tool.destination,"Destination: X=%s, Y=%s, Z=%s, %s","目的地：X=%s, Y=%s, Z=%s, %s",verified
+tooltip.pipez.filter_mode,Filter Mode: %s,フィルター：%s,verified
+tooltip.pipez.filter_mode.blacklist,Blacklist,ブラックリスト,verified
+tooltip.pipez.filter_mode.whitelist,Whitelist,ホワイトリスト,verified
+tooltip.pipez.fluid,Fluid,流体,verified
+tooltip.pipez.gas,Gas,ガス,verified
+tooltip.pipez.item,Items,アイテム,verified
+tooltip.pipez.no_upgrade,No Upgrade,アップグレードなし,verified
+tooltip.pipez.rate.energy,Transferring %s FE every tick,1ティック毎に%s FEのエネルギーを輸送,verified
+tooltip.pipez.rate.fluid,Transferring %s mB every tick,1ティック毎に%s mBの流体を輸送,verified
+tooltip.pipez.rate.gas,Transferring %s mB gas every tick,1ティック毎に%s mBのガスを輸送,verified
+tooltip.pipez.rate.item,Transferring %s items every %s tick(s),%2$sティック毎に%1$s個のアイテムを輸送,verified
+tooltip.pipez.redstone_mode,Redstone Mode: %s,レッドストーン：%s,verified
+tooltip.pipez.redstone_mode.always_off,Always Off,常にオフ,verified
+tooltip.pipez.redstone_mode.ignored,Ignored,無視,verified
+tooltip.pipez.redstone_mode.off_when_powered,Off When Powered,オフのときのみ動作,verified
+tooltip.pipez.redstone_mode.on_when_powered,On When Powered,オンのときのみ動作,verified
+tooltip.pipez.upgrade.configured,Configured for %s,設定済み：%s,verified
+tooltip.pipez.upgrade.configured.energy,Energy,エネルギー,verified
+tooltip.pipez.upgrade.configured.fluid,Fluids,流体,verified
+tooltip.pipez.upgrade.configured.gas,Gases,ガス,verified
+tooltip.pipez.upgrade.configured.item,Items,アイテム,verified
+tooltip.pipez.wrench,Click on a pipe to configure,パイプをクリックして設定,verified

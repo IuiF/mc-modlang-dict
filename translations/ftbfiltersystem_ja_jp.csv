@@ -1,0 +1,92 @@
+﻿key,source_text,target_text,status
+filter.ftbfiltersystem.and.name,All Of,すべて一致,translated
+filter.ftbfiltersystem.and.tooltip,Compound filter: this filter matches if ALL of its child filters match.,複合フィルター: このフィルターは、子フィルターのすべてが一致する場合にマッチします。,translated
+filter.ftbfiltersystem.block.name,Is Block,ブロック判定,translated
+filter.ftbfiltersystem.block.tooltip,Simple filter which matches if the item is a placeable block.,アイテムが配置可能なブロックであるかを判定する単純なフィルター。,translated
+filter.ftbfiltersystem.component.name,Item Component,アイテムコンポーネント,translated
+filter.ftbfiltersystem.component.tooltip,"Matches item data components on an item.
+Supports exact (all components must match) and fuzzy matches (only match components in the filter).
+If you have admin permissions, items in your inventory which have (non-default) component data can be clicked to copy their current data into the text editor, serialized as SNBT.","アイテムのコンポーネントデータにマッチします。
+完全一致（すべてのコンポーネントが一致する必要があります）とファジー一致（フィルター内のコンポーネントのみをマッチ）をサポートします。
+管理者権限がある場合、インベントリ内の（デフォルト以外の）コンポーネントデータを持つアイテムをクリックして、現在のデータをテキストエディターにコピーして、SNBTとしてシリアル化できます。",translated
+filter.ftbfiltersystem.custom.name,Custom,カスタム,translated
+filter.ftbfiltersystem.custom.tooltip,"Advanced filter intended for modders and modpack makers.
+Fires a CustomFilterEvent when a match is attempted; set the event result to indicate a successful or failed match.
+Use the textfield to provide freeform text data which is passed to the event as the 'data' parameter.","モッダーとモッドパック作成者向けの高度なフィルター。
+マッチ試行時にCustomFilterEventを発火します。イベント結果を設定して、成功または失敗したマッチを示します。
+テキストフィールドを使用して、イベントの「data」パラメータとして渡される自由形式のテキストデータを提供します。",translated
+filter.ftbfiltersystem.durability.name,Durability,耐久度,translated
+filter.ftbfiltersystem.durability.tooltip,"Matches an item based on its remaining durability.
+Non-damageable items are considered to have a durability of 0.","残りの耐久度に基づいてアイテムをマッチします。
+非ダメージアイテムは耐久度0と見なされます。",translated
+filter.ftbfiltersystem.expression.name,Expression,式,translated
+filter.ftbfiltersystem.expression.tooltip,"Allows a literal filter expression to be entered or loaded from a Filter item in your inventory.
+It is optional (but recommended!) to assign a custom name, for clarity.","リテラルフィルター式を入力するか、インベントリ内のフィルターアイテムから読み込むことができます。
+カスタム名を割り当てることはオプションですが（推奨！）、わかりやすくするためです。",translated
+filter.ftbfiltersystem.food_value.name,Food Value,食料価値,translated
+filter.ftbfiltersystem.food_value.tooltip,"Matches an item based on its nutritional value (half-shanks of food restored)
+Non-food items have a nutritional value of 0","栄養価値（回復する半シャンク分）に基づいてアイテムをマッチします
+非食料アイテムは栄養価0です",translated
+filter.ftbfiltersystem.item.name,Item,アイテム,translated
+filter.ftbfiltersystem.item.tooltip,"Matches against a specific item.
+Item component data is not checked here (see Component Filter)
+Items can be picked from Creative or Inventory item lists.
+Use the textfield to filter item ID's to limit the displayed items.","特定のアイテムに対してマッチします。
+アイテムコンポーネントデータはここではチェックされません（コンポーネントフィルターを参照）
+クリエイティブまたはインベントリアイテムリストからアイテムを選択できます。
+テキストフィールドを使用してアイテムIDをフィルタリングし、表示されるアイテムを制限します。",translated
+filter.ftbfiltersystem.item_tag.name,Item Tag,アイテムタグ,translated
+filter.ftbfiltersystem.item_tag.tooltip,"Matches against an item tag; items which are in the tag will be matched.
+Use the textfield to filter displayed item tags.","アイテムタグに対してマッチします。タグ内にあるアイテムがマッチします。
+テキストフィールドを使用して表示されるアイテムタグをフィルタリングします。",translated
+filter.ftbfiltersystem.max_stack_size.name,Max Stack Size,最大スタックサイズ,translated
+filter.ftbfiltersystem.max_stack_size.tooltip,"Matches against an item's maximum stack size.
+Unstackable items have a maximum stack size of 1.","アイテムの最大スタックサイズに対してマッチします。
+スタック不可アイテムの最大スタックサイズは1です。",translated
+filter.ftbfiltersystem.mod.name,Mod,,pending
+filter.ftbfiltersystem.mod.tooltip,"Matches against the mod which adds the item.
+Vanilla items are in the Minecraft 'mod'.","アイテムを追加したModに対してマッチします。
+バニラアイテムは「Minecraft」Modにあります。",translated
+filter.ftbfiltersystem.not.name,Not,以外,translated
+filter.ftbfiltersystem.not.tooltip,Compound filter: this filter matches if its child filter does NOT match. At most one child can be added.,複合フィルター: このフィルターは、子フィルターがマッチしない場合にマッチします。最大1つの子を追加できます。,translated
+filter.ftbfiltersystem.only_one.name,Only One Of,1つだけ一致,translated
+filter.ftbfiltersystem.only_one.tooltip,Compound filter: this filter matches if exactly ONE of its child filters matches.,複合フィルター: このフィルターは、子フィルターのうちちょうど1つがマッチする場合にマッチします。,translated
+filter.ftbfiltersystem.or.name,Any Of,いずれか一致,translated
+filter.ftbfiltersystem.or.tooltip,Compound filter: this filter matches if ANY of its child filters match.,複合フィルター: このフィルターは、子フィルターのいずれかがマッチする場合にマッチします。,translated
+filter.ftbfiltersystem.root.name,Root (All Of),ルート（すべて一致）,translated
+filter.ftbfiltersystem.stack_size.name,Stack Size,スタックサイズ,translated
+filter.ftbfiltersystem.stack_size.tooltip,Matches against an item's current stack size.,アイテムの現在のスタックサイズに対してマッチします。,translated
+ftbfiltersystem,FTB Filter System,FTBフィルターシステム,translated
+ftbfiltersystem.gui.add,Add...,追加...,translated
+ftbfiltersystem.gui.basic,Basic Filters,基本フィルター,translated
+ftbfiltersystem.gui.changes_made,You have made changes to this filter,このフィルターに変更を加えました,translated
+ftbfiltersystem.gui.changes_made.question,Close the editor without saving?,保存せずにエディターを閉じますか？,translated
+ftbfiltersystem.gui.compound,Compound Filters,複合フィルター,translated
+ftbfiltersystem.gui.configure,Configure...,設定...,translated
+ftbfiltersystem.gui.custom_data,Extra Custom Data:,追加のカスタムデータ:,translated
+ftbfiltersystem.gui.custom_id,Custom Event ID:,カスタムイベントID:,translated
+ftbfiltersystem.gui.custom_name,Custom Name,カスタム名,translated
+ftbfiltersystem.gui.delete,Delete,削除,translated
+ftbfiltersystem.gui.filter_bad,Filter Parse Failed!,フィルター解析に失敗！,translated
+ftbfiltersystem.gui.filter_ok,Filter Parsed OK,フィルター解析OK,translated
+ftbfiltersystem.gui.fuzzy_match,Fuzzy Component Match?,ファジーコンポーネント一致？,translated
+ftbfiltersystem.gui.item_source.creative,Creative,クリエイティブ,translated
+ftbfiltersystem.gui.item_source.inventory,Inv,インベントリ,translated
+ftbfiltersystem.gui.item_source.mod,Mod,,pending
+ftbfiltersystem.gui.nbt_bad,SNBT Parse Failed!,SNBT解析に失敗！,translated
+ftbfiltersystem.gui.nbt_ok,SNBT Parsed OK,SNBT解析OK,translated
+ftbfiltersystem.gui.percentage,Percentage,パーセンテージ,translated
+ftbfiltersystem.message.cache_cleared,Cleared compiled filter cache,コンパイル済みフィルターキャッシュをクリアしました,translated
+ftbfiltersystem.message.changes_saved,Filter has been updated!,フィルターが更新されました！,translated
+ftbfiltersystem.message.components_header,%s data component(s) on %s:,%s上の%sデータコンポーネント:,translated
+ftbfiltersystem.message.components_header_none,No data components,データコンポーネントなし,translated
+ftbfiltersystem.message.matched,Filter matches: %s,フィルターが一致: %s,translated
+ftbfiltersystem.message.no_offhand_item,Hold an item to be tested in your off hand,オフハンドでテストするアイテムを持ってください,translated
+ftbfiltersystem.message.non_default_components,Showing non-default components only,デフォルト以外のコンポーネントのみを表示しています,translated
+ftbfiltersystem.message.not_a_filter,You must hold a Smart Filter in your main hand,メインハンドにスマートフィルターを持つ必要があります,translated
+ftbfiltersystem.message.not_configured,This Smart Filter has no filter configured,このスマートフィルターにはフィルターが設定されていません,translated
+ftbfiltersystem.message.not_matched,Filter does not match: %s,フィルターが一致しません: %s,translated
+ftbfiltersystem.message.parse_failed,Filter parse failure: %s,フィルター解析エラー: %s,translated
+item.ftbfiltersystem.smart_filter,Smart Filter,スマートフィルター,translated
+item.ftbfiltersystem.smart_filter.tooltip.1,Right-click: configure filter,右クリック: フィルターを設定,translated
+item.ftbfiltersystem.smart_filter.tooltip.2,Sneak + Right-click: Test filter with item in off hand,Shift+右クリック: オフハンドのアイテムでフィルターをテスト,translated

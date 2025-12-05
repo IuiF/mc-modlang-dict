@@ -1,0 +1,90 @@
+﻿key,source_text,target_text,status
+block.comforts.hammock.missing_rope,There must also be a rope and nail on the other end to hang the hammock,反対側にもロープと釘が必要です,verified
+block.comforts.hammock.no_rope,You must hang the hammock on a pair of rope and nail,ハンモックはロープと釘で吊るす必要があります,verified
+block.comforts.hammock.no_sleep,You can only sleep during the day,日中のみ寝ることができます,verified
+block.comforts.hammock.no_sleep.2,"You can only sleep during the day, at night, or during thunderstorms",日中、夜もしくは雷雨のときのみ寝ることができます,verified
+block.comforts.hammock.no_space,There is not enough space to fit the hammock,ハンモックの設置に必要なスペースが足りません,verified
+block.comforts.hammock.occupied,This hammock is occupied,このハンモックは既に使われています,verified
+block.comforts.hammock.too_far_away,You may not rest now; the hammock is too far away,ハンモックから離れ過ぎているため寝ることができません,verified
+block.comforts.hammock_black,Black Hammock Cloth,黒色のハンモック,verified
+block.comforts.hammock_blue,Blue Hammock Cloth,青色のハンモック,verified
+block.comforts.hammock_brown,Brown Hammock Cloth,茶色のハンモック,verified
+block.comforts.hammock_cyan,Cyan Hammock Cloth,青緑色のハンモック,verified
+block.comforts.hammock_gray,Gray Hammock Cloth,灰色のハンモック,verified
+block.comforts.hammock_green,Green Hammock Cloth,緑色のハンモック,verified
+block.comforts.hammock_light_blue,Light Blue Hammock Cloth,空色のハンモック,verified
+block.comforts.hammock_light_gray,Light Gray Hammock Cloth,薄灰色のハンモック,verified
+block.comforts.hammock_lime,Lime Hammock Cloth,黄緑色のハンモック,verified
+block.comforts.hammock_magenta,Magenta Hammock Cloth,赤紫色のハンモック,verified
+block.comforts.hammock_orange,Orange Hammock Cloth,橙色のハンモック,verified
+block.comforts.hammock_pink,Pink Hammock Cloth,桃色のハンモック,verified
+block.comforts.hammock_purple,Purple Hammock Cloth,紫色のハンモック,verified
+block.comforts.hammock_red,Red Hammock Cloth,赤色のハンモック,verified
+block.comforts.hammock_white,White Hammock Cloth,白色のハンモック,verified
+block.comforts.hammock_yellow,Yellow Hammock Cloth,黄色のハンモック,verified
+block.comforts.no_sleep,"This is decorative, you cannot sleep here",装飾用のため寝ることができません,verified
+block.comforts.rope_and_nail,Rope and Nail,ロープと釘,verified
+block.comforts.sleeping_bag.broke,The sleeping bag broke,寝袋が壊れました,verified
+block.comforts.sleeping_bag.occupied,This sleeping bag is occupied,この寝袋は既に使われています,verified
+block.comforts.sleeping_bag.too_far_away,You may not rest now; the sleeping bag is too far away,寝袋から離れ過ぎているため寝ることができません,verified
+block.comforts.sleeping_bag_black,Black Sleeping Bag,黒色の寝袋,verified
+block.comforts.sleeping_bag_blue,Blue Sleeping Bag,青色の寝袋,verified
+block.comforts.sleeping_bag_brown,Brown Sleeping Bag,茶色の寝袋,verified
+block.comforts.sleeping_bag_cyan,Cyan Sleeping Bag,青緑色の寝袋,verified
+block.comforts.sleeping_bag_gray,Gray Sleeping Bag,灰色の寝袋,verified
+block.comforts.sleeping_bag_green,Green Sleeping Bag,緑色の寝袋,verified
+block.comforts.sleeping_bag_light_blue,Light Blue Sleeping Bag,空色の寝袋,verified
+block.comforts.sleeping_bag_light_gray,Light Gray Sleeping Bag,薄灰色の寝袋,verified
+block.comforts.sleeping_bag_lime,Lime Sleeping Bag,黄緑色の寝袋,verified
+block.comforts.sleeping_bag_magenta,Magenta Sleeping Bag,赤紫色の寝袋,verified
+block.comforts.sleeping_bag_orange,Orange Sleeping Bag,橙色の寝袋,verified
+block.comforts.sleeping_bag_pink,Pink Sleeping Bag,桃色の寝袋,verified
+block.comforts.sleeping_bag_purple,Purple Sleeping Bag,紫色の寝袋,verified
+block.comforts.sleeping_bag_red,Red Sleeping Bag,赤色の寝袋,verified
+block.comforts.sleeping_bag_white,White Sleeping Bag,白色の寝袋,verified
+block.comforts.sleeping_bag_yellow,Yellow Sleeping Bag,黄色の寝袋,verified
+capability.comforts.not_sleepy,You may not rest now; you don't feel sleepy yet,眠気を感じていないため寝ることができません,verified
+comforts.networking.failed,Comforts Networking Failure: %s,Comforts ネットワークへの接続に失敗しました：%s,verified
+comforts.skipping_day,Sleeping through this day,日中が過ごされます,verified
+gui.comforts.config.autoUse.description,"If enabled, players automatically attempt to use sleeping bags when placed.",有効にすると、プレイヤーは寝袋を設置したとき自動的に睡眠を試みます。,verified
+gui.comforts.config.autoUse.name,Automatically use sleeping bags,寝袋の自動使用,verified
+gui.comforts.config.daySleepingPercentage.description,"What percentage of players must sleep to skip the day.
+A percentage value of 0 will allow the day to be skipped by just 1 player, and a percentage value of 100 will require all players to sleep before skipping the day.
+A value of less than 0 will default to the playerSleepingPercentage game rule.","日中をスキップするために必要なベッドで寝ているプレイヤーの割合を設定できます。
+値が0のときは1人のプレイヤーだけで日中をスキップできるようになり、値が100のときは日中をスキップする前にすべてのプレイヤーが睡眠する必要があります。
+値が0未満のときはデフォルトのplayerSleepingPercentageを使用します。",verified
+gui.comforts.config.daySleepingPercentage.name,Day sleep percentage,日中の就寝率,verified
+gui.comforts.config.dayWakeTimeOffset.description,"The amount of time, in ticks, to add or remove from the new time after sleeping through a night.",夜に睡眠した後の新しい時間に追加または削除するティック数を設定できます。,verified
+gui.comforts.config.dayWakeTimeOffset.name,Night to day wake time offset,起床時間のオフセット（夜から日中）,verified
+gui.comforts.config.enableHammockRecipes.description,"If enabled, the default hammock recipes will be available.",有効にすると、デフォルトのハンモックのレシピが利用可能になります。,verified
+gui.comforts.config.enableHammockRecipes.name,Enable hammock recipes,ハンモックのレシピを有効化,verified
+gui.comforts.config.enableSleepingBagRecipes.description,"If enabled, the default sleeping bag recipes will be available.",有効にすると、デフォルトの寝袋のレシピが利用可能になります。,verified
+gui.comforts.config.enableSleepingBagRecipes.name,Enable sleeping bag recipes,寝袋のレシピを有効化,verified
+gui.comforts.config.hammockUse.description,The time of day that hammocks can be used.,ハンモックを使用できる時間帯を設定できます。,verified
+gui.comforts.config.hammockUse.name,Time of day to use hammocks,ハンモックを使用できる時間,verified
+gui.comforts.config.hammocksStopPhantoms.description,"If enabled, attempting to sleep in hammocks stops phantoms from spawning.",有効にすると、ハンモックで睡眠を試みるとファントムのスポーンが停止します。,verified
+gui.comforts.config.hammocksStopPhantoms.name,Hammocks stop phantoms,ハンモックでファントムのスポーンを防ぐ,verified
+gui.comforts.config.nightWakeTimeOffset.description,"The amount of time, in ticks, to add or remove from the new time after sleeping through a day.",日中に睡眠した後の新しい時間に追加または削除するティック数を設定できます。,verified
+gui.comforts.config.nightWakeTimeOffset.name,Day to night wake time offset,起床時間のオフセット（日中から夜）,verified
+gui.comforts.config.restMultiplier.description,"If restrictSleeping is true, this value will determine the length of wait time (larger numbers sleep sooner).",restrictSleepingがtrueのとき、この値によって待機時間の長さが決まります（数値が大きいほど早く眠ることができます）。,verified
+gui.comforts.config.restMultiplier.name,Sleepiness multiplier,眠気倍率,verified
+gui.comforts.config.restrictSleeping.description,"If enabled, players cannot sleep again for a period of time after sleeping.",有効にすると、プレイヤーは一度眠ると一定時間再び眠ることができなくなります。,verified
+gui.comforts.config.restrictSleeping.name,Restrict consecutive sleeping,連続睡眠の制限,verified
+gui.comforts.config.sleepingBagBreakChance.description,The percentage chance that a sleeping bag will break upon use.,使用時に寝袋が壊れる確率を設定できます。,verified
+gui.comforts.config.sleepingBagBreakChance.name,Sleeping bag break chance,寝袋が壊れる確率,verified
+gui.comforts.config.sleepingBagBreakChanceLuckMultiplier.description,The value that will be multiplied by a player's luck then added to sleepingBagBreakChance.,プレイヤーの運を乗じた値をsleepingBagBreakChanceに加算します。,verified
+gui.comforts.config.sleepingBagBreakChanceLuckMultiplier.name,Sleeping bag luck multiplier,寝袋の破壊倍率,verified
+gui.comforts.config.sleepingBagEffects.description,"The status effects to apply to players after using the sleeping bag.
+Format: effect;duration(secs);power","寝袋の使用後にプレイヤーに付与されるステータス効果を指定します。
+形式：効果;持続時間（秒）;強度",verified
+gui.comforts.config.sleepingBagEffects.name,Sleeping bag effects,寝袋でステータス効果を付与,verified
+gui.comforts.config.sleepingBagUse.description,The time of day that sleeping bags can be used.,寝袋を使用できる時間帯を設定できます。,verified
+gui.comforts.config.sleepingBagUse.name,Time of day to use sleeping bags,寝袋を使用できる時間,verified
+gui.comforts.config.sleepingBagsStopPhantoms.description,"If enabled, attempting to sleep in sleeping bags stops phantoms from spawning.",有効にすると、寝袋で睡眠を試みるとファントムのスポーンが停止します。,verified
+gui.comforts.config.sleepingBagsStopPhantoms.name,Sleeping bags stop phantoms,寝袋でファントムのスポーンを防ぐ,verified
+item.comforts.hammock.placement.tooltip,Requires %s to place.,設置には%sが必要です,verified
+item.comforts.rope_and_nail.placement.tooltip,Used for placing hammocks.,ハンモックの設置に使用します,verified
+item.comforts.sleeping_bag.auto_use.tooltip.0,Automatically attempts to sleep.,自動的に睡眠を試みます,verified
+item.comforts.sleeping_bag.auto_use.tooltip.1,"To place, use while crouching.",スニークしながら使用で設置できます,verified
+itemGroup.comforts,Comforts,快適さ,translated
+itemGroup.comforts.general,Comforts,汎用,translated

@@ -1,0 +1,352 @@
+﻿key,source_text,target_text,status
+fluid_type.sophisticatedcore.experience,Experience,経験値,verified
+gui.sophisticatedcore.buttons.cancel,Cancel,キャンセル,translated
+gui.sophisticatedcore.buttons.confirm,Confirm,確認,translated
+gui.sophisticatedcore.buttons.sort_action,Sort Inventory,並べ替え,verified
+gui.sophisticatedcore.buttons.sort_by_count,By Count,個数順,verified
+gui.sophisticatedcore.buttons.sort_by_mod,By Mod,Modで並べ替え,translated
+gui.sophisticatedcore.buttons.sort_by_name,By Name,五十音順,verified
+gui.sophisticatedcore.buttons.sort_by_tags,By Tags,タグ順,verified
+gui.sophisticatedcore.buttons.transfer_to_inventory,Transfer to Inventory,インベントリに転送,translated
+gui.sophisticatedcore.buttons.transfer_to_inventory_filtered,Transfer Matching to Inventory,マッチしたアイテムをインベントリに転送,translated
+gui.sophisticatedcore.buttons.transfer_to_inventory_filtered.transfer_all,Shift To Transfer All,すべてを転送するにはShiftキーを押してください,translated
+gui.sophisticatedcore.buttons.transfer_to_storage,Transfer to Storage,ストレージに転送,translated
+gui.sophisticatedcore.buttons.transfer_to_storage_filtered,Transfer Matching to Storage,マッチしたアイテムをストレージに転送,translated
+gui.sophisticatedcore.buttons.transfer_to_storage_filtered.transfer_all,Shift To Transfer All,すべてを転送するにはShiftキーを押してください,translated
+gui.sophisticatedcore.buttons.transparent,No Color,色なし,translated
+gui.sophisticatedcore.buttons.upgrade_switch_disabled,OFF,オフ,translated
+gui.sophisticatedcore.buttons.upgrade_switch_enabled,ON,オン,translated
+gui.sophisticatedcore.buttons.upgrade_switch_inactive,INACTIVE,無効,translated
+gui.sophisticatedcore.error.add.any_upgrade_exists,All upgrade slots need to be empty,すべてのアップグレードスロットが空である必要があります,translated
+gui.sophisticatedcore.error.add.battery_energy_high,Backpack can't support this battery upgrade. Upgrade backpack or add stack multiplier to get at least %sx higher max energy,バッテリ機能を追加できません。リュックのグレードを上げるか、スタック数を%s倍以上にしてください。,verified
+gui.sophisticatedcore.error.add.battery_exists,There's already Battery Upgrade in another upgrade slot,バッテリ機能は既に追加されています。,verified
+gui.sophisticatedcore.error.add.needs_occupied_inventory_slots,There's an item in at least one of the last %s slots needed for %s,%sスロットの空きがないと%sを追加できません。,verified
+gui.sophisticatedcore.error.add.no_upgrade_can_be_added,No upgrade can be added,アップグレードを追加できません,translated
+gui.sophisticatedcore.error.add.only_single_upgrade_allowed,Only single %s can be used in %s,%s は %s にはひとつしか使えません,verified
+gui.sophisticatedcore.error.add.only_x_upgrades_allowed,Only %dx %s can be used in %s,%s は %s には%d個しか使えません,verified
+gui.sophisticatedcore.error.add.tank_capacity_high,Backpack can't support this tank upgrade. Upgrade backpack or add stack multiplier to get at least %sx higher capacity,タンク機能を追加できません。リュックのグレードを上げるか、スタック数を%s倍以上にしてください。,verified
+gui.sophisticatedcore.error.add.two_tank_upgrades_present,There are already two Tank Upgrades in other upgrade slots,既にタンク機能が2つ追加されています。,verified
+gui.sophisticatedcore.error.add.upgrade_not_allowed,%s can't be used in %s,%s は %s には使えません,verified
+gui.sophisticatedcore.error.remove.banned_item,This item must be removed before the upgrade can be,このアイテムをアップグレードの前に削除する必要があります,translated
+gui.sophisticatedcore.error.remove.infinity_upgrade_only_admin,Only admins can remove Infinity Upgrade,管理者のみが無限アップグレードを削除できます,translated
+gui.sophisticatedcore.error.remove.stack_low_multiplier,There's at least one slot or upgrade that requires multiplier higher than %s,%s倍以上にスタックされているアイテムがあるので外せません。,verified
+gui.sophisticatedcore.label.no_search_results,No items match the search,検索に一致するアイテムがありません,translated
+gui.sophisticatedcore.narrate.context_button,Context toggle set to: %s,文章を固定: %s,verified
+gui.sophisticatedcore.narrate.context_button.usage,Click to toggle context,クリックで文章を固定,verified
+gui.sophisticatedcore.narrate.tab_button,Upgrade tab open/close button,追加機能タブを開閉するボタン,verified
+gui.sophisticatedcore.settings.buttons.context_player,Player,全てに適用,verified
+gui.sophisticatedcore.settings.buttons.context_player.tooltip,Player level settings,プレイヤ単位で設定,verified
+gui.sophisticatedcore.settings.buttons.context_player.tooltip_detail,Apply to all backpacks/storages unless overriden,個別に上書き設定がない限り、プレイヤが保有する全てのリュックに適用されます。,verified
+gui.sophisticatedcore.settings.buttons.display_side_front,Show on Front,正面に表示,verified
+gui.sophisticatedcore.settings.buttons.display_side_left,Show on Left side,左側に表示,verified
+gui.sophisticatedcore.settings.buttons.display_side_right,Show on Right side,右側に表示,verified
+gui.sophisticatedcore.settings.buttons.export_template,Export Settings to %s,設定を %s に出力,verified
+gui.sophisticatedcore.settings.buttons.export_template.additional_info,Creates data pack with snbt file,SNBTファイルを含むデータパックを作成,verified
+gui.sophisticatedcore.settings.buttons.export_template.enter_file_name,Enter file name,ファイル名を入力,verified
+gui.sophisticatedcore.settings.buttons.keep_search_phrase.off,Keep Search Phrase: OFF,検索フレーズを保持: オフ,translated
+gui.sophisticatedcore.settings.buttons.keep_search_phrase.off.tooltip,Backpack / Storage gui clears the search phrase when closed and shows all unfiltered item when open again,バックパック/ストレージGUIは閉じた時に検索フレーズをクリアし、もう一度開いた時にフィルタリングされていないアイテムをすべて表示します,translated
+gui.sophisticatedcore.settings.buttons.keep_search_phrase.on,Keep Search Phrase: ON,検索フレーズを保持: オン,translated
+gui.sophisticatedcore.settings.buttons.keep_search_phrase.on.tooltip,Backpack / Storage gui keeps the search phrase and prefills it / filters by it when open again,バックパック/ストレージGUIは検索フレーズを保持し、もう一度開いた時に事前入力/フィルタリングします,translated
+gui.sophisticatedcore.settings.buttons.keep_tab_open.off,Keep Tab Open: OFF,開いたタブを記憶: OFF,verified
+gui.sophisticatedcore.settings.buttons.keep_tab_open.off.tooltip,Open upgrade tab gets closed when the backpack/storage gui is closed and when the gui is next open all of the tabs are closed,リュックのGUIを閉じたときに、全ての追加機能タブを閉じ、次に開いたときにはどのタブも開きません。,verified
+gui.sophisticatedcore.settings.buttons.keep_tab_open.on,Keep Tab Open: ON,開いたタブを記憶: ON,verified
+gui.sophisticatedcore.settings.buttons.keep_tab_open.on.tooltip,On close of its gui the backpack/storage records which upgrade tab was last open and opens it when the gui is open next time,リュックのGUIを閉じたときに、最後に開いていた追加機能タブを記憶し、次回開いたときにそのタブを開きます。,verified
+gui.sophisticatedcore.settings.buttons.load_template,Load Settings from slot %s,スロット %s をロード,verified
+gui.sophisticatedcore.settings.buttons.load_template.controls,Scroll to change slot,スクロールでスロットを変更,verified
+gui.sophisticatedcore.settings.buttons.load_template.no_save,No Settings to Load exist,ロードするデータがありません,verified
+gui.sophisticatedcore.settings.buttons.load_template.source,From %s data pack,データパック %s から,verified
+gui.sophisticatedcore.settings.buttons.load_template.too_many_setting_slots,Settings don't fit in this storage,設定があいません,verified
+gui.sophisticatedcore.settings.buttons.rotate,Rotate,回転,verified
+gui.sophisticatedcore.settings.buttons.rotate_detail,"Clockwise = Left Click
+Counter-Clockwise = Right Click","左クリック＝時計回り
+右クリック＝反時計回り",verified
+gui.sophisticatedcore.settings.buttons.save_template,Save Settings to slot %s,スロット %s へ保存,verified
+gui.sophisticatedcore.settings.buttons.save_template.controls,Scroll to change slot,スクロールでスロットを変更,verified
+gui.sophisticatedcore.settings.buttons.save_template.custom_name_slot,Enter Slot Name,スロット名を入力,verified
+gui.sophisticatedcore.settings.buttons.select_all_slots,Select All Slots,全てのスロットを選択,verified
+gui.sophisticatedcore.settings.buttons.shift_click_open_tab.off,Shift Click Into Inventory First,インベントリ優先,verified
+gui.sophisticatedcore.settings.buttons.shift_click_open_tab.off.tooltip,Shift click from storage/inventory will first try to put the stack in inventory/storage and only then into an open tab.,リュックやインベントリからSHIFTキーを押すと、インベントリやリュックに優先的に入れ、その後に追加機能タブにアイテムを収納します。,verified
+gui.sophisticatedcore.settings.buttons.shift_click_open_tab.on,Shift Click Into Open Tab First,拡張機能のタブ優先,verified
+gui.sophisticatedcore.settings.buttons.shift_click_open_tab.on.tooltip,Shift click from storage/inventory will first try to put the stack in an open tab and only then into inventory/storage.,リュックやインベントリからSHIFTキーを押すと、開いている追加機能タブに優先的に入れ、その後にインベントリやリュックにアイテムを収納します。,verified
+gui.sophisticatedcore.settings.buttons.toggle_color,Toggle Color,選択スロットの色,verified
+gui.sophisticatedcore.settings.buttons.toggle_color_detail,"Next = Left Click
+Previous = Right Click","左クリック＝次の色へ
+右クリック＝前の色へ",verified
+gui.sophisticatedcore.settings.buttons.unselect_all_slots,Unselect All Slots,スロット選択を全解除,verified
+gui.sophisticatedcore.settings.item_display,Item Disp.,ラベル表示,verified
+gui.sophisticatedcore.settings.item_display.tooltip,Item Display Settings,ラベル表示設定,verified
+gui.sophisticatedcore.settings.item_display.tooltip_detail,Allows selecting a slot that will be used to show its item on top of storage,リュックのラベルとして表示するアイテムを指定します。,verified
+gui.sophisticatedcore.settings.item_display.tooltip_open_detail,"Allows selecting a slot that will be used to show its item on top of storage
+Select slot = left click/drag
+Unselect slot = right click/drag","リュックのラベルとして表示するアイテムを指定します。
+左クリック＝スロットを選択
+右クリック＝選択を解除",verified
+gui.sophisticatedcore.settings.memory,Memory,個別設定,verified
+gui.sophisticatedcore.settings.memory.tooltip,Slot Memory Settings,スロットごとの設定,verified
+gui.sophisticatedcore.settings.memory.tooltip_detail,"Allows selecting slots that remember their contents and only allow matching stacks in them
+Open tab to modify slot settings","スロットの内容を記憶し、一致するアイテムのみ収納します。
+設定タブを開く",verified
+gui.sophisticatedcore.settings.memory.tooltip_open_detail,"Allows selecting slots that remember their contents and only allow matching stacks in them
+Select all / Unselect all = buttons
+Select slot = left click/drag
+Unselect slot = right click/drag","スロットの内容を記憶し、一致するアイテムのみ収納します。
+全選択/全解除＝ボタンを押す
+個別選択＝左クリック/ドラッグ
+選択解除＝右クリック/ドラッグ",verified
+gui.sophisticatedcore.settings.message.export_template,Exported Settings to %s,設定を %s に出力,verified
+gui.sophisticatedcore.settings.message.export_template.empty_name,File name can't be empty,ファイル名を入力してください,verified
+gui.sophisticatedcore.settings.message.export_template.invalid_characters,File name contains invalid character(s): %s,%s はファイル名には使えない文字です,verified
+gui.sophisticatedcore.settings.message.load_template,Loaded Settings from slot %s,スロット %s をロードしました,verified
+gui.sophisticatedcore.settings.message.save_template,Saved Settings to slot %s,スロット %s へ保存しました,verified
+gui.sophisticatedcore.settings.no_sort,No Sort,並び替え除外,verified
+gui.sophisticatedcore.settings.no_sort.tooltip,No Sort Slot Settings,並び替えの除外設定,verified
+gui.sophisticatedcore.settings.no_sort.tooltip_detail,"Allows selecting slots that are ignored by sorting
+Open tab to modify slot settings","並び替えしないスロットを指定します。
+除外設定のタブを開きます。",verified
+gui.sophisticatedcore.settings.no_sort.tooltip_open_detail,"Allows selecting slots that are ignored by sorting
+Select all / Unselect all = buttons
+Select slot = left click/drag
+Unselect slot = right click/drag","並び替えしないスロットを指定します。
+全選択/全解除＝ボタンを押す
+スロットの選択＝左クリック/ドラッグ
+選択解除＝右クリック/ドラッグ",verified
+gui.sophisticatedcore.status.cannot_deposit_item,Could not deposit %s into any storage,%s をストレージに預けることができませんでした,translated
+gui.sophisticatedcore.status.cannot_deposit_items,Could not deposit any items into storage,ストレージにアイテムを預けることができませんでした,translated
+gui.sophisticatedcore.status.cannot_restock_full_stack,Stack %s is already full,スタック %s は既にいっぱいです,translated
+gui.sophisticatedcore.status.cannot_restock_full_stacks,All stacks are already full,すべてのスタックが既にいっぱいです,translated
+gui.sophisticatedcore.status.cannot_restock_item,Could not restock %s from any storage,ストレージから %s を再入荷できませんでした,translated
+gui.sophisticatedcore.status.cannot_restock_items,Could not restock any items from storage,ストレージからアイテムを再入荷できませんでした,translated
+gui.sophisticatedcore.status.deposited_item,Deposited %s into storage,%s をストレージに預けました,translated
+gui.sophisticatedcore.status.deposited_items,Deposited %s items into storage,%s 個のアイテムをストレージに預けました,translated
+gui.sophisticatedcore.status.matching_items_found,Item type found in %s locations.,アイテムタイプが %s か所で見つかりました。,translated
+gui.sophisticatedcore.status.matching_stacks_found,Exact item found in %s locations.,完全に一致するアイテムが %s か所で見つかりました。,translated
+gui.sophisticatedcore.status.no_matching_items_found,No exact item or item type found,完全に一致するアイテムまたはアイテムタイプが見つかりません,translated
+gui.sophisticatedcore.status.no_storage_in_range,No storage was found in range,範囲内にストレージが見つかりません,translated
+gui.sophisticatedcore.status.restocked_item,Restocked %s from storage,ストレージから %s を再入荷しました,translated
+gui.sophisticatedcore.status.restocked_items,Restocked %s items from storage,ストレージから %s 個のアイテムを再入荷しました,translated
+gui.sophisticatedcore.text_box.search_box,Click to search,クリックして検索,translated
+gui.sophisticatedcore.text_box.search_box_detail,@ prefix to search by mod name,@プレフィックスでMod名で検索,translated
+gui.sophisticatedcore.tooltip.stack_count,Count: %s,個数: %s,verified
+gui.sophisticatedcore.upgrades.advanced_alchemy,Adv. Alchemy,上級錬金術,translated
+gui.sophisticatedcore.upgrades.advanced_alchemy.tooltip,Advanced Alchemy Settings,上級錬金術設定,translated
+gui.sophisticatedcore.upgrades.advanced_compacting,Adv. Comp...,圧縮・改,verified
+gui.sophisticatedcore.upgrades.advanced_compacting.tooltip,Advanced Compacting Settings,圧縮機能・改,verified
+gui.sophisticatedcore.upgrades.advanced_feeding,Adv. Feeding,ごはん・改,verified
+gui.sophisticatedcore.upgrades.advanced_feeding.tooltip,Advanced Feeding Settings,ごはん機能・改,verified
+gui.sophisticatedcore.upgrades.advanced_filter,Adv. Filter,仕分け・改,verified
+gui.sophisticatedcore.upgrades.advanced_filter.tooltip,Advanced Filter Settings,仕分け機能・改,verified
+gui.sophisticatedcore.upgrades.advanced_jukebox,Jukebox,ジュークボックス,translated
+gui.sophisticatedcore.upgrades.advanced_jukebox.tooltip,Advanced Jukebox,上級ジュークボックス,translated
+gui.sophisticatedcore.upgrades.advanced_magnet,Adv. Magnet,引き寄せ・改,verified
+gui.sophisticatedcore.upgrades.advanced_magnet.tooltip,Advanced Magnet Settings,引き寄せ機能・改,verified
+gui.sophisticatedcore.upgrades.advanced_pickup,Adv. Pickup,直入れ・改,verified
+gui.sophisticatedcore.upgrades.advanced_pickup.tooltip,Advanced Pickup Settings,直入れ機能・改,verified
+gui.sophisticatedcore.upgrades.advanced_pump,Adv. Pump,ポンプ・改,verified
+gui.sophisticatedcore.upgrades.advanced_pump.tooltip,Advanced Pump,ポンプ機能・改,verified
+gui.sophisticatedcore.upgrades.advanced_void,Adv. Void,ごみ箱・改,verified
+gui.sophisticatedcore.upgrades.advanced_void.tooltip,Advanced Void Settings,ごみ箱機能・改,verified
+gui.sophisticatedcore.upgrades.alchemy,Alchemy,錬金術,translated
+gui.sophisticatedcore.upgrades.alchemy.tooltip,Alchemy Settings,錬金術設定,translated
+gui.sophisticatedcore.upgrades.auto_blasting,Auto-blast,石焼き・改,verified
+gui.sophisticatedcore.upgrades.auto_blasting.tooltip,Auto-Blasting,鉱石かまど機能・改,verified
+gui.sophisticatedcore.upgrades.auto_smelting,Auto-smelt,かまど・改,verified
+gui.sophisticatedcore.upgrades.auto_smelting.tooltip,Auto-Smelting,かまど機能・改,verified
+gui.sophisticatedcore.upgrades.auto_smoking,Auto-smoke,肉焼き・改,verified
+gui.sophisticatedcore.upgrades.auto_smoking.tooltip,Auto-Smoking,食料かまど機能・改,verified
+gui.sophisticatedcore.upgrades.battery,Batt.,バッテリ,verified
+gui.sophisticatedcore.upgrades.battery.contents_tooltip,%s FE out of %s FE,%s FE 中 %s FE,verified
+gui.sophisticatedcore.upgrades.battery.tooltip,Battery,バッテリ,verified
+gui.sophisticatedcore.upgrades.blasting,Blasting,石焼き,verified
+gui.sophisticatedcore.upgrades.blasting.tooltip,Blasting,鉱石かまど機能,verified
+gui.sophisticatedcore.upgrades.buttons.add_tag,Add Tag,タグを追加,verified
+gui.sophisticatedcore.upgrades.buttons.add_tag.controls,"Scroll to Select, Click to Add",スクロールして選択し、クリックすると追加します。,verified
+gui.sophisticatedcore.upgrades.buttons.add_tag.no_additional_tags,All Item's tags are already added,全てのアイテムのタグを追加済みです。,verified
+gui.sophisticatedcore.upgrades.buttons.add_tag.no_item,<- Click an Item into slot to start adding its tags,<- スロット内のアイテムをクリックすると、タグを追加します。,verified
+gui.sophisticatedcore.upgrades.buttons.alchemy_condition.value_controls,Scroll to Change Value,スクロールして値を変更,translated
+gui.sophisticatedcore.upgrades.buttons.alchemy_condition_always,Keep Active,アクティブに保つ,translated
+gui.sophisticatedcore.upgrades.buttons.alchemy_condition_falling,When Falling,落下時,translated
+gui.sophisticatedcore.upgrades.buttons.alchemy_condition_hurt,When Hurt (Below %s Health),ダメージを受けたとき（%s 未満のヘルス）,translated
+gui.sophisticatedcore.upgrades.buttons.alchemy_condition_mining,When Mining,採掘時,translated
+gui.sophisticatedcore.upgrades.buttons.alchemy_condition_negative_effect,When Affected by Negative Effect,負のエフェクトの影響を受けたとき,translated
+gui.sophisticatedcore.upgrades.buttons.alchemy_condition_never,Never,決して,translated
+gui.sophisticatedcore.upgrades.buttons.alchemy_condition_on_fire,When on Fire,炎上時,translated
+gui.sophisticatedcore.upgrades.buttons.alchemy_condition_sprinting,When Sprinting,スプリント時,translated
+gui.sophisticatedcore.upgrades.buttons.alchemy_condition_under_water,When Under Water,水中のとき,translated
+gui.sophisticatedcore.upgrades.buttons.all_effects_missing,All Effects Missing,すべてのエフェクトが欠落,translated
+gui.sophisticatedcore.upgrades.buttons.allow,Allow,指定したアイテムのみ,verified
+gui.sophisticatedcore.upgrades.buttons.any_effect_missing,Any Effect Missing,任意のエフェクトが欠落,translated
+gui.sophisticatedcore.upgrades.buttons.block,Block,指定したアイテム以外,verified
+gui.sophisticatedcore.upgrades.buttons.compact_anything,Compact Anything,全てのアイテムを圧縮,verified
+gui.sophisticatedcore.upgrades.buttons.compact_only_uncraftable,Compact Only Uncraftable,元に戻せないアイテムは圧縮しない,verified
+gui.sophisticatedcore.upgrades.buttons.direction_both,Input & Output,出し入れを制限,verified
+gui.sophisticatedcore.upgrades.buttons.direction_input,Input,入れるアイテムを制限,verified
+gui.sophisticatedcore.upgrades.buttons.direction_output,Output,取り出すアイテムを制限,verified
+gui.sophisticatedcore.upgrades.buttons.do_not_consider_health,"Do not consider health
+Ignores player's health and only feeds based on hunger setting","体力を考慮しません。
+満腹度の設定のみで食べます。",verified
+gui.sophisticatedcore.upgrades.buttons.do_not_interact_with_hand,"Do Not Interact With
+Fluid Container in Hand",手に持った液体容器から回収しない,verified
+gui.sophisticatedcore.upgrades.buttons.do_not_interact_with_tanks_and_pipes,Do Not Interact With Tanks & Pipes,タンクとパイプとの相互作用をしない,translated
+gui.sophisticatedcore.upgrades.buttons.do_not_interact_with_world,Do Not Interact With World,周囲の液体は回収しない,verified
+gui.sophisticatedcore.upgrades.buttons.do_not_mend_items,Do Not Repair Items,耐久度を回復しない,verified
+gui.sophisticatedcore.upgrades.buttons.do_not_pickup_items,Do Not Pickup Items,アイテムを回収しない,verified
+gui.sophisticatedcore.upgrades.buttons.do_not_pickup_xp,Do Not Pickup Experience,経験値を回収しない,verified
+gui.sophisticatedcore.upgrades.buttons.entity_match_entities,Target Entities Only,エンティティのみをターゲット,translated
+gui.sophisticatedcore.upgrades.buttons.entity_match_players,Target Players Only,プレイヤーのみをターゲット,translated
+gui.sophisticatedcore.upgrades.buttons.entity_match_players_and_entities,Target Both Players & Entities,プレイヤーとエンティティの両方をターゲット,translated
+gui.sophisticatedcore.upgrades.buttons.feed_immediately_when_hurt,"Feed player immediately when hurt
+Ignores hunger setting when player is not at max health","体力が減るとすぐに食べます。
+体力が減った場合は満腹度の設定より優先されます。",verified
+gui.sophisticatedcore.upgrades.buttons.hunger_level_any,"Feed as soon as player is tiny bit hungry
+wastes quite a few hunger points of the food","満腹度が少しでも減ると食べます。
+食料の消費が激しいです。",verified
+gui.sophisticatedcore.upgrades.buttons.hunger_level_full,"Only feed when player is hungry enough
+to not waste any hunger points of the food at all",食料が全く無駄にならないように食べます。,verified
+gui.sophisticatedcore.upgrades.buttons.hunger_level_half,"Only feed when player is hungry enough
+to only waste half hunger points of the food at most","適当なタイミングで食べます。
+食料をあまり無駄にしません。",verified
+gui.sophisticatedcore.upgrades.buttons.ignore_amplifier,Ignore Amplifier,増幅器を無視,translated
+gui.sophisticatedcore.upgrades.buttons.ignore_durability,Ignore Durability,耐久力は無視,verified
+gui.sophisticatedcore.upgrades.buttons.ignore_duration,Ignore Duration,期間を無視,translated
+gui.sophisticatedcore.upgrades.buttons.ignore_nbt,Ignore NBT,NBTは無視,verified
+gui.sophisticatedcore.upgrades.buttons.interact_with_hand,"Interact With
+Fluid Container in Hand",手に持った液体容器から回収,verified
+gui.sophisticatedcore.upgrades.buttons.interact_with_tanks_and_pipes,Interact With Tanks & Pipes,タンクとパイプと相互作用する,translated
+gui.sophisticatedcore.upgrades.buttons.interact_with_world,Interact With World,周囲の液体を回収,verified
+gui.sophisticatedcore.upgrades.buttons.match_all_tags,Match All Tags,全てのタグを適用,verified
+gui.sophisticatedcore.upgrades.buttons.match_amplifier,Match Amplifier,増幅器を一致させる,translated
+gui.sophisticatedcore.upgrades.buttons.match_any_tag,Match Any Tag,指定したタグのみ適用,verified
+gui.sophisticatedcore.upgrades.buttons.match_durability,Match Durability,耐久力が一致するアイテムのみ,verified
+gui.sophisticatedcore.upgrades.buttons.match_duration,Match Duration,期間を一致させる,translated
+gui.sophisticatedcore.upgrades.buttons.match_item,Match Item,一致するアイテムのみ,verified
+gui.sophisticatedcore.upgrades.buttons.match_mod,Match Mod,MODが一致するアイテムのみ,verified
+gui.sophisticatedcore.upgrades.buttons.match_nbt,Match NBT,NBTが一致するアイテムのみ,verified
+gui.sophisticatedcore.upgrades.buttons.match_tags,Match Tags,タグが一致するアイテムのみ,verified
+gui.sophisticatedcore.upgrades.buttons.mend_items,Repair Items With Mending,修繕で耐久度を回復,verified
+gui.sophisticatedcore.upgrades.buttons.next_disc,Next,次へ,translated
+gui.sophisticatedcore.upgrades.buttons.next_result,Next,次へ,translated
+gui.sophisticatedcore.upgrades.buttons.no_repeat,Repeat Disabled,リピート無効,translated
+gui.sophisticatedcore.upgrades.buttons.only_automatic,Only works with other upgrades/automation,他の追加機能や、ホッパー・ケーブルなどで入ってきたアイテムのみ,verified
+gui.sophisticatedcore.upgrades.buttons.pickup_items,Pickup Items,アイテムを回収する,verified
+gui.sophisticatedcore.upgrades.buttons.pickup_xp,Pickup Experience,経験値を回収する,verified
+gui.sophisticatedcore.upgrades.buttons.pickup_xp.detail,Requires Tank Upgrade,タンク機能が必要です。,verified
+gui.sophisticatedcore.upgrades.buttons.play,Play,再生,verified
+gui.sophisticatedcore.upgrades.buttons.previous_disc,Previous,前へ,translated
+gui.sophisticatedcore.upgrades.buttons.previous_result,Previous,前へ,translated
+gui.sophisticatedcore.upgrades.buttons.pump_input,Input,液体を回収,verified
+gui.sophisticatedcore.upgrades.buttons.pump_output,Output,液体を取り出す,verified
+gui.sophisticatedcore.upgrades.buttons.remove_tag,Remove Tag,タグを削除,verified
+gui.sophisticatedcore.upgrades.buttons.remove_tag.controls,"Scroll to Select, Click to Remove",スクロールして選択し、クリックすると削除します。,verified
+gui.sophisticatedcore.upgrades.buttons.remove_tag.empty,No tags to remove,削除するタグがありません。,verified
+gui.sophisticatedcore.upgrades.buttons.repeat_all,Repeat All,すべてリピート,translated
+gui.sophisticatedcore.upgrades.buttons.repeat_one,Repeat One,1つリピート,translated
+gui.sophisticatedcore.upgrades.buttons.select_result,Select Result,結果を選択,translated
+gui.sophisticatedcore.upgrades.buttons.shuffle_off,Shuffle Disabled,シャッフル無効,translated
+gui.sophisticatedcore.upgrades.buttons.shuffle_on,Shuffle Enabled,シャッフル有効,translated
+gui.sophisticatedcore.upgrades.buttons.stop,Stop,停止,verified
+gui.sophisticatedcore.upgrades.buttons.store_all_experience,Store All Experience,全ての経験値を回収,verified
+gui.sophisticatedcore.upgrades.buttons.store_levels,Store %s Levels,%s レベル分の経験値を回収,verified
+gui.sophisticatedcore.upgrades.buttons.store_levels.controls,Scroll to change # of levels,スクロールでレベルを変更,verified
+gui.sophisticatedcore.upgrades.buttons.take_all_experience,Take All Experience,全ての経験値を取り出す,verified
+gui.sophisticatedcore.upgrades.buttons.take_levels,Take %s Levels,%s レベル分の経験値を取り出す,verified
+gui.sophisticatedcore.upgrades.buttons.take_levels.controls,Scroll to change # of levels,スクロールでレベルを変更,verified
+gui.sophisticatedcore.upgrades.buttons.void_any,Void Any,全て消去,verified
+gui.sophisticatedcore.upgrades.buttons.void_anything_disabled,Void Anything option is disabled,「全て消去」オプションは無効です。,verified
+gui.sophisticatedcore.upgrades.buttons.void_overflow,Void Overflow,1枠キープして消去,verified
+gui.sophisticatedcore.upgrades.buttons.void_overflow.detail,"Allows single slot to be filled with the item
+and voids anything that overflows",1枠分は残し、2枠目以降のアイテムを消去します。,verified
+gui.sophisticatedcore.upgrades.buttons.works_in_gui,Works in GUI as well,手動で入れたアイテムも対象,verified
+gui.sophisticatedcore.upgrades.buttons.xp_pump_input,Pump Experience From Player,プレイヤから経験値を回収,verified
+gui.sophisticatedcore.upgrades.buttons.xp_pump_keep,Keep Player at Level,プレイヤーをレベルで保つ,translated
+gui.sophisticatedcore.upgrades.buttons.xp_pump_off,Pump Off,無効,verified
+gui.sophisticatedcore.upgrades.buttons.xp_pump_output,Pump Experience To Player,プレイヤに経験値を戻す,verified
+gui.sophisticatedcore.upgrades.chipped_alchemy_bench,Alchemy,錬金術,translated
+gui.sophisticatedcore.upgrades.chipped_alchemy_bench.tooltip,Alchemy Bench,錬金術台,translated
+gui.sophisticatedcore.upgrades.chipped_botanist_workbench,Botanist,植物学者,translated
+gui.sophisticatedcore.upgrades.chipped_botanist_workbench.tooltip,Botanist's Workbench,植物学者の作業台,translated
+gui.sophisticatedcore.upgrades.chipped_carpenters_table,Carpenters,大工,translated
+gui.sophisticatedcore.upgrades.chipped_carpenters_table.tooltip,Carpenters Table,大工の作業台,translated
+gui.sophisticatedcore.upgrades.chipped_glassblower,Glassblower,ガラス職人,translated
+gui.sophisticatedcore.upgrades.chipped_glassblower.tooltip,Glassblower,ガラス職人,translated
+gui.sophisticatedcore.upgrades.chipped_loom_table,Loom,織機,translated
+gui.sophisticatedcore.upgrades.chipped_loom_table.tooltip,Loom Table,織機台,translated
+gui.sophisticatedcore.upgrades.chipped_mason_table,Mason,石工,translated
+gui.sophisticatedcore.upgrades.chipped_mason_table.tooltip,Mason Table,石工の作業台,translated
+gui.sophisticatedcore.upgrades.chipped_tinkering_table,Tinkering,ティンカリング,translated
+gui.sophisticatedcore.upgrades.chipped_tinkering_table.tooltip,Tinkering Table,ティンカリングテーブル,translated
+gui.sophisticatedcore.upgrades.compacting,Compa...,圧縮,verified
+gui.sophisticatedcore.upgrades.compacting.tooltip,Compacting Settings,圧縮機能,verified
+gui.sophisticatedcore.upgrades.controls.xp_level_select,%s lvls,%sレベル,verified
+gui.sophisticatedcore.upgrades.controls.xp_level_select.tooltip,Level at which Pump Stops,使用する経験値レベル,verified
+gui.sophisticatedcore.upgrades.controls.xp_level_select.tooltip.controls,Scroll to change,スクロールでレベルを変更,verified
+gui.sophisticatedcore.upgrades.crafting,Craft,作業台,verified
+gui.sophisticatedcore.upgrades.crafting.tooltip,Crafting,作業台機能,verified
+gui.sophisticatedcore.upgrades.feeding,Feeding,ごはん,verified
+gui.sophisticatedcore.upgrades.feeding.tooltip,Feeding Settings,ごはん機能,verified
+gui.sophisticatedcore.upgrades.filter,Filter,仕分け,verified
+gui.sophisticatedcore.upgrades.filter.tooltip,Filter Settings,仕分け機能,verified
+gui.sophisticatedcore.upgrades.jukebox,Jukebox,音楽,verified
+gui.sophisticatedcore.upgrades.jukebox.tooltip,Jukebox,ジュークボックス,verified
+gui.sophisticatedcore.upgrades.magnet,Magnet,引き寄せ,verified
+gui.sophisticatedcore.upgrades.magnet.tooltip,Magnet Settings,引き寄せ機能,verified
+gui.sophisticatedcore.upgrades.pickup,Pickup,直入れ,verified
+gui.sophisticatedcore.upgrades.pickup.tooltip,Pickup Settings,直入れ機能,verified
+gui.sophisticatedcore.upgrades.pump,Pump,ポンプ,verified
+gui.sophisticatedcore.upgrades.pump.tooltip,Pump,ポンプ機能,verified
+gui.sophisticatedcore.upgrades.sawmill,Sawmill,製材所,translated
+gui.sophisticatedcore.upgrades.sawmill.tooltip,Sawmill,製材所,translated
+gui.sophisticatedcore.upgrades.slots.battery_input.tooltip,Input,取り出す,verified
+gui.sophisticatedcore.upgrades.slots.battery_output.tooltip,Output,回収,verified
+gui.sophisticatedcore.upgrades.slots.tank_input.tooltip,Input,取り出す,verified
+gui.sophisticatedcore.upgrades.slots.tank_output.tooltip,Output,回収,verified
+gui.sophisticatedcore.upgrades.smelting,Smelting,かまど,verified
+gui.sophisticatedcore.upgrades.smelting.tooltip,Smelting,かまど機能,verified
+gui.sophisticatedcore.upgrades.smoking,Smoking,肉焼き,verified
+gui.sophisticatedcore.upgrades.smoking.tooltip,Smoking,食料かまど機能,verified
+gui.sophisticatedcore.upgrades.stonecutter,Stonecutter,石切台,verified
+gui.sophisticatedcore.upgrades.stonecutter.tooltip,Stonecutter,石切台機能,verified
+gui.sophisticatedcore.upgrades.tag_list.empty,No tags selected,タグが選択されていません,verified
+gui.sophisticatedcore.upgrades.tag_list.tag_overflow,+ %s more,あと %s 個のタグ,verified
+gui.sophisticatedcore.upgrades.tag_list.title,Tags,タグ一覧,verified
+gui.sophisticatedcore.upgrades.tank,Tank,タンク,verified
+gui.sophisticatedcore.upgrades.tank.contents_tooltip,%s mB out of %s mB,%s mB 中 %s mB,verified
+gui.sophisticatedcore.upgrades.tank.tooltip,Tank,タンク機能,verified
+gui.sophisticatedcore.upgrades.tank.xp_contents_tooltip,%s out of %s xp levels,%s 中 %s 経験値レベル,verified
+gui.sophisticatedcore.upgrades.void,Void,ごみ箱,verified
+gui.sophisticatedcore.upgrades.void.tooltip,Void Settings,ごみ箱機能,verified
+gui.sophisticatedcore.upgrades.xp_pump,Exp. Pump,EXPポンプ,verified
+gui.sophisticatedcore.upgrades.xp_pump.tooltip,Experience Pump,EXPポンプ機能,verified
+item.sophisticatedcore.storage.tooltip.empty,No Upgrades or Inventory Contents,からっぽ,verified
+item.sophisticatedcore.storage.tooltip.energy,%s FE,,pending
+item.sophisticatedcore.storage.tooltip.fluid,%s mB %s,,pending
+item.sophisticatedcore.storage.tooltip.fluid_empty,Empty tank,空のタンク,verified
+item.sophisticatedcore.storage.tooltip.inventory,Inventory,インベントリ,verified
+item.sophisticatedcore.storage.tooltip.press_for_contents,Press <%s> to View Contents,<%s>を押すと中身を表示,verified
+item.sophisticatedcore.storage.tooltip.right_click_to_add_to_storage,Right Click To Add,右クリックで追加,verified
+item.sophisticatedcore.storage.tooltip.shift,Left Shift,左SHIFTキー,verified
+item.sophisticatedcore.storage.tooltip.stack_multiplier,Stack Size Multiplier: %s,スタック数: %s倍,verified
+item.sophisticatedcore.storage.tooltip.upgrades,Upgrades,アップグレード,verified
+item.sophisticatedcore.xp_bucket,Bucket of Experience,経験値バケット,translated
+itemGroup.sophisticatedcore,Sophisticated Core,,pending
+keybind.sophisticatedcore.category,Sophisticated Mods,,pending
+keybind.sophisticatedcore.deposit_item,Deposit Item into Storage/Backpack,アイテムをストレージ/バックパックに預ける,translated
+keybind.sophisticatedcore.item_highlight,Highlight Storage with Item,アイテムでストレージをハイライト,translated
+keybind.sophisticatedcore.restock_item,Restock Item from Storage/Backpack,ストレージ/バックパックからアイテムを再入荷,translated
+keybind.sophisticatedcore.sort,Sort Storage/Backpack,ストレージ/バックパックを並べ替え,translated
+upgrade_group.sophisticatedcore.cooking_upgrades,Furnace Upgrades,かまど機能,verified
+upgrade_group.sophisticatedcore.jukebox_upgrades,Jukebox Upgrades,ジュークボックスアップグレード,translated
+upgrade_group.sophisticatedcore.stack_upgrades,Stack Upgrades,スタック数増加,verified
+fluid.sophisticatedcore.xp_still,Experience,経験値,translated
+gui.sophisticatedcore.tooltip.stack_limit,Limit: %s,上限: %s,translated
+gui.sophisticatedcore.upgrades.chipped_carpenter_workbench,Carpenter's,大工の,translated
+gui.sophisticatedcore.upgrades.chipped_carpenter_workbench.tooltip,Carpenter's Workbench,大工の作業台,translated
+gui.sophisticatedcore.upgrades.chipped_glassblower_workbench,Glassblower's,ガラス職人の,translated
+gui.sophisticatedcore.upgrades.chipped_glassblower_workbench.tooltip,Glassblower's Workbench,ガラス職人の作業台,translated
+gui.sophisticatedcore.upgrades.chipped_mason_workbench,Mason's,石工の,translated
+gui.sophisticatedcore.upgrades.chipped_mason_workbench.tooltip,Mason's Workbench,石工の作業台,translated
+gui.sophisticatedcore.upgrades.chipped_philosopher_workbench,Philosopher's,哲学者の,translated
+gui.sophisticatedcore.upgrades.chipped_philosopher_workbench.tooltip,Philosopher's Workbench,哲学者の作業台,translated
+gui.sophisticatedcore.upgrades.chipped_shephed_workbench.tooltip,Shepherd's Workbench,羊飼いの作業台,translated
+gui.sophisticatedcore.upgrades.chipped_shepherd_workbench,Shepherd's,羊飼いの,translated
+gui.sophisticatedcore.upgrades.chipped_tinkerer_workbench,Tinkerer's,修理工の,translated
+gui.sophisticatedcore.upgrades.chipped_tinkerer_workbench.tooltip,Tinkerer's Workbench,修理工の作業台,translated

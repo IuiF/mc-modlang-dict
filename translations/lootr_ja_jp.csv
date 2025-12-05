@@ -1,0 +1,158 @@
+﻿key,source_text,target_text,status
+block.lootr.lootr_barrel,Loot Barrel,お宝樽,verified
+block.lootr.lootr_chest,Loot Chest,お宝チェスト,verified
+block.lootr.lootr_inventory,Loot Chest,お宝チェスト,verified
+block.lootr.lootr_shulker,Loot Shulker,お宝シュルカーボックス,verified
+block.lootr.lootr_trapped_chest,Loot Chest,お宝チェスト,verified
+block.lootr.trophy,Centennial Trophy,百年祭トロフィー,verified
+entity.lootr.lootr_minecart,Minecart with Loot Chest,チェストが付いたマインカート,translated
+itemGroup.lootr,Lootr,Lootrアイテム,translated
+lootr.advancements.100loot.description,Open 100 Lootr containers!,100個のインスタンス化された、プレイヤーごとのルートコンテナを開き、ご褒美を集めてください！,translated
+lootr.advancements.100loot.title,Centennial,百年祭,verified
+lootr.advancements.10loot.description,Open 10 Lootr containers!,10個のインスタンス化された、プレイヤーごとのルートコンテナを開き、ご褒美を集めてください！,translated
+lootr.advancements.10loot.title,Delightful Decade,ダース・ダース,translated
+lootr.advancements.1barrel.description,Open your first Lootr barrel!,初めてのインスタンス化された、プレイヤーごとのルートバレルを開き、ご褒美を集めてください！,translated
+lootr.advancements.1barrel.title,Barrel Booty,樽のお宝,verified
+lootr.advancements.1cart.description,Open your first Lootr minecart!,初めてのインスタンス化された、プレイヤーごとのルートマインカートを開き、ご褒美を集めてください！,translated
+lootr.advancements.1cart.title,Tunnel Treasures,トンネルのお宝,verified
+lootr.advancements.1chest.description,Open your first Lootr chest!,初めてのインスタンス化された、プレイヤーごとのルートチェストを開き、ご褒美を集めてください！,translated
+lootr.advancements.1chest.title,'X' Marks the Spot,「X」印の場所,verified
+lootr.advancements.1shulker.description,Open your first Lootr shulker!,初めてのインスタンス化された、プレイヤーごとのルートシュルカーボックスを開き、ご褒美を集めてください！,translated
+lootr.advancements.1shulker.title,Bounty Box,賞金箱,verified
+lootr.advancements.25loot.description,Open 25 Lootr containers!,25個のインスタンス化された、プレイヤーごとのルートコンテナを開き、ご褒美を集めてください！,translated
+lootr.advancements.25loot.title,Close Quarters,四半世紀,verified
+lootr.advancements.50loot.description,Open 50 Lootr containers!,50個のインスタンス化された、プレイヤーごとのルートコンテナを開き、ご褒美を集めてください！,translated
+lootr.advancements.50loot.title,Half-Century,ペンテコンター,translated
+lootr.advancements.root.description,"Bring instanced, per-player Loot into your world.",プレイヤー一人一人のために用意された宝箱をこのワールドに！,verified
+lootr.advancements.root.title,Belongs in a Museum,博物館に収蔵,verified
+lootr.advancements.social.description,Open one of every Lootr container type!,世界中のあらゆるタイプのインスタンス化された、プレイヤーごとのルートコンテナを1つずつ開いてください！,translated
+lootr.advancements.social.title,Socialised Loot,宝箱の多様性,verified
+lootr.commands.blockpos,"%s,%s,%s","X,Y,Z",translated
+lootr.commands.create,Created a Lootr %s at %s using the loot table %s.,ルートテーブル%3$sを使用して、%2$sにLootrの%1$sを作成しました,verified
+lootr.commands.summon,Summoned a Lootr Cart at %s using the loot table %s.,ルートテーブル%2$sを使用して、%1$sにLootrのトロッコを召喚しました,verified
+lootr.commands.usage,/lootr barrel | barrel <loot-table> | chest | chest <loot-table> | cart | cart <loot-table> | shulker | shulker <loot-table> | trapped_chest | trapped_chest <loot-table> | custom | refresh | decay | open_as <player> | open_as_uuid <uuid> | id | openers,/lootr barrel | barrel <ルートテーブル> | chest | chest <ルートテーブル> | cart | cart <ルートテーブル> | shulker | shulker <ルートテーブル> | convert | custom <id> | refresh | decay,translated
+lootr.configuration.blast_immune,Blast Immunity,爆発を無効化,verified
+lootr.configuration.blast_resistant,Blast Resistance,爆発耐性,verified
+lootr.configuration.breaking,Breaking,破壊,verified
+lootr.configuration.check_world_border,Disable Conversion Outside World Border,ワールドボーダー外での変換を無効化,verified
+lootr.configuration.conversion,Conversion,変換,verified
+lootr.configuration.convert_elytra,Convert Elytra Item Frames,エリトラ入りの額縁を変換,verified
+lootr.configuration.convert_mineshafts,Convert Mineshaft Chest Carts,廃坑のチェスト付きのトロッコを変換する,verified
+lootr.configuration.decay,Decay,崩壊,verified
+lootr.configuration.decay_all,Decay All,すべての宝箱を崩壊させる,verified
+lootr.configuration.decay_dimensions,Decay Dimensions,崩壊させるディメンション,verified
+lootr.configuration.decay_loot_tables,Decay Loot Tables,崩壊させるルートテーブル,verified
+lootr.configuration.decay_modids,Decay ModIDs,崩壊させるModID,verified
+lootr.configuration.decay_value,Decay Value,崩壊までの時間,verified
+lootr.configuration.dimension_blacklist,Dimension Blacklist,ディメンションのブラックリスト,verified
+lootr.configuration.dimension_whitelist,Dimension Whitelist,ディメンションのホワイトリスト,verified
+lootr.configuration.disable,Disable Conversion,変換を無効化,verified
+lootr.configuration.disable_break,Disable Break,破壊を禁止,verified
+lootr.configuration.disable_message_styles,Disable Style And Formatting In Notifications,通知のフォーマットと書式設定を無効化,verified
+lootr.configuration.disable_notifications,Disable Notifications,通知を無効化,verified
+lootr.configuration.enable_break,Enable All Breaking,すべての破壊を許可,verified
+lootr.configuration.enable_fake_player_break,Enable Fake Player Breaking,偽のプレイヤーによる破壊を許可,verified
+lootr.configuration.loot_modid_blacklist,Loot ModID Blacklist,ModIDのブラックリスト,verified
+lootr.configuration.loot_table_blacklist,Loot Table Blacklist,ルートテーブルのブラックリスト,verified
+lootr.configuration.max_age,Maximum Block Entity Age,ブロックエンティティの最大保存期間,verified
+lootr.configuration.modid_dimension_blacklist,Dimension Modid Blacklist,ディメンションのModIDのブラックリスト,verified
+lootr.configuration.modid_dimension_whitelist,Dimension Modid Whitelist,ディメンションのModIDのホワイトリスト,verified
+lootr.configuration.new_textures,Classic Textures,クラシックテクスチャ,verified
+lootr.configuration.notification_delay,Delay,崩壊,verified
+lootr.configuration.notifications,Notifications,通知,verified
+lootr.configuration.perform_decay_while_ticking,Perform Decay While Ticking,ティック中に劣化を実行,translated
+lootr.configuration.perform_piecewise_check,Perform Piecewise Check,段階的チェックを実行,translated
+lootr.configuration.perform_refresh_while_ticking,Perform Refresh While Ticking,ティック中にリフレッシュを実行,translated
+lootr.configuration.power,Redstone Power,レッドストーン動力,translated
+lootr.configuration.power_comparators,Power Comparators,コンパレーターの出力,verified
+lootr.configuration.randomise_seed,Randomize Seed,ランダムなシード値を使用,verified
+lootr.configuration.refresh,Refresh,再生成,verified
+lootr.configuration.refresh_all,Refresh All,すべての宝箱を再生成させる,verified
+lootr.configuration.refresh_dimensions,Refresh Dimensions,再生成させるディメンション,verified
+lootr.configuration.refresh_loot_tables,Refresh Loot Tables,再生成させるルートテーブル,verified
+lootr.configuration.refresh_modids,Refresh ModIDs,再生成させるModID,verified
+lootr.configuration.refresh_value,Refresh Value,再生成までの時間,verified
+lootr.configuration.report_unresolved_tables,Report Unresolved Loot Tables to Players,未解決のルートテーブルをプレイヤーに報告,verified
+lootr.configuration.should_drop_player_loot,Broken Containers Drop Player's Loot,壊れたコンテナがプレイヤーのアイテムを落とす,translated
+lootr.configuration.start_decay_while_ticking,Start Decay While Ticking,ティック中に劣化を開始,translated
+lootr.configuration.start_refresh_while_ticking,Start Refresh While Ticking,ティック中にリフレッシュを開始,translated
+lootr.configuration.textures,Client Textures,クライアントテクスチャ,translated
+lootr.configuration.trapped_custom,Custom Inventories Are Trapped,カスタムインベントリのトラップ化,verified
+lootr.configuration.vanilla_textures,Vanilla Textures,バニラのテクスチャを使用,verified
+lootr.configuration.whitelist,Lists,リスト,verified
+lootr.message.cannot_break,Loot containers and carts cannot be broken.,アイテム入りの宝箱やトロッコは破壊できません。,verified
+lootr.message.cannot_break_sneak,Loot containers and carts can only be broken while sneaking in creative mode.,アイテム入りの宝箱やトロッコは、クリエイティブモードかつスニーク中にのみ破壊することが出来ます。,verified
+lootr.message.cart_should_sneak,"Breaking the cart will delete your unique loot and items! In order to break, you must sneak while attacking",このトロッコを壊すと、中身のアイテムがすべて削除されます！スニーク中にのみ破壊することが出来ます。,verified
+lootr.message.cart_should_sneak3,per-player per-cart,それぞれのプレイヤーごと,verified
+lootr.message.decay_in,This container will decay completely in %s seconds.,この宝箱は、あと%s秒で完全に崩れ去ります。,verified
+lootr.message.decay_start,The container begins to crumble at your touch! It will decay completely in %s seconds.,触った途端、宝箱が崩れ始めた！%s秒後に完全に崩れ去ります。,verified
+lootr.message.decayed,The decaying container crumbles at your touch!,朽ちた宝箱が崩れていく！,verified
+lootr.message.invalid_block,The container that you have tried to open is invalid as it has not generated its identifier.,開こうとした宝箱は、識別子が生成されていないため開くことができません。,verified
+lootr.message.invalid_table,Error with mod [%s]! The loot table for this container [%s] could not be found and loot was not generated. Please check your `latest.log` for loading errors.,Mod [%s]でエラーが発生しました！このコンテナ [%s]のルートテーブルが見つからなかったため、中身のアイテムが生成されませんでした。エラーの内容は「latest.log」を参照してください。,verified
+lootr.message.refresh_in,This container will refresh its contents in %s seconds.,この宝箱は、%s秒後に中身を再生成します。,verified
+lootr.message.refresh_start,The container will refresh with new contents in %s seconds!,この宝箱は、%s秒後に中身が新しく再生成されます！,verified
+lootr.message.refreshed,The contents of the container are refreshed at your touch!,この宝箱に触ると、中身が再生成されます！,verified
+lootr.message.should_sneak,"Breaking the chest will delete your unique loot and all items in the chest! In order to break, you must sneak while doing so.",このチェストを壊すと、中身のアイテムがすべて削除されます！スニーク中にのみ破壊することが出来ます。,verified
+lootr.message.should_sneak2,"As loot is %s, only break if really needed.",この中には%sのお宝が入っているので、必要な場合にのみ破壊してください。,verified
+lootr.message.should_sneak3,per-player per-chest,それぞれのプレイヤーごと,verified
+stat.lootr.looted_stat,Chests Looted,お宝チェストを開いた回数,verified
+tag.block.lootr.barrels,Lootr Barrels,Lootrの樽,translated
+tag.block.lootr.chests,Lootr Chests,Lootrのチェスト,translated
+tag.block.lootr.containers,Lootr Containers,Lootrのコンテナ,translated
+tag.block.lootr.shulkers,Lootr Shulkers,Lootrのシュルカーボックス,translated
+tag.block.lootr.trapped_chests,Trapped Lootr Chests,Lootrのトラップチェスト,translated
+text.autoconfig.lootr.option.breaking,Breaking,破壊,verified
+text.autoconfig.lootr.option.breaking.blast_immune,Blast Immunity,爆発を無効化,verified
+text.autoconfig.lootr.option.breaking.blast_resistant,Blast Resistance,爆発耐性,verified
+text.autoconfig.lootr.option.breaking.disable_break,Disable Break,破壊を禁止,verified
+text.autoconfig.lootr.option.breaking.enable_break,Enable All Breaking,すべての破壊を許可,verified
+text.autoconfig.lootr.option.breaking.enable_fake_player_break,Enable Fake Player Breaking,偽のプレイヤーによる破壊を許可,verified
+text.autoconfig.lootr.option.breaking.power_comparators,Power Comparators,コンパレーターの出力,verified
+text.autoconfig.lootr.option.breaking.trapped_custom,Custom Inventories Are Trapped,カスタムインベントリのトラップ化,verified
+text.autoconfig.lootr.option.client,Client,クライアント側,verified
+text.autoconfig.lootr.option.client.old_textures,Classic Textures,クラシックテクスチャ,verified
+text.autoconfig.lootr.option.client.vanilla_textures,Vanilla Textures,バニラのテクスチャを使用,verified
+text.autoconfig.lootr.option.conversion,Conversion,変換,verified
+text.autoconfig.lootr.option.conversion.convert_elytra,Convert Elytra Item Frames,エリトラ入りの額縁を変換,verified
+text.autoconfig.lootr.option.conversion.convert_mineshafts,Convert Mineshaft Chest Carts,廃坑のチェスト付きのトロッコを変換する,verified
+text.autoconfig.lootr.option.conversion.disable,Disable Conversion,変換を無効化,verified
+text.autoconfig.lootr.option.conversion.max_entry_age,Maximum Block Entity Age,ブロックエンティティの最大保存期間,verified
+text.autoconfig.lootr.option.conversion.perform_piecewise_check,Perform Piecewise Check,段階的チェックを実行,translated
+text.autoconfig.lootr.option.conversion.rename_container_block_entities,Rename Container Block Entities,既存のコンテナブロックエンティティの名前を変更,verified
+text.autoconfig.lootr.option.conversion.world_border,Disable Conversion Outside World Border,ワールドボーダー外での変換を無効化,verified
+text.autoconfig.lootr.option.debug,Debug,デバッグ,verified
+text.autoconfig.lootr.option.debug.report_invalid_tables,Report Invalid Tables,無効なルートテーブルを報告,verified
+text.autoconfig.lootr.option.debug.report_unresolved_tables,Report Unresolved Loot Tables to Players,未解決のルートテーブルをプレイヤーに報告,verified
+text.autoconfig.lootr.option.decay,Decay,崩壊,verified
+text.autoconfig.lootr.option.decay.decay_all,Decay All,すべての宝箱を崩壊させる,verified
+text.autoconfig.lootr.option.decay.decay_dimensions,Decay Dimensions,崩壊させるディメンション,verified
+text.autoconfig.lootr.option.decay.decay_loot_tables,Decay Loot Tables,崩壊させるルートテーブル,verified
+text.autoconfig.lootr.option.decay.decay_modids,Decay ModIDs,崩壊させるModID,verified
+text.autoconfig.lootr.option.decay.decay_value,Decay Value,崩壊までの時間,verified
+text.autoconfig.lootr.option.decay.perform_tick_decay,Perform Decay While Ticking,ティック中に劣化を実行,translated
+text.autoconfig.lootr.option.decay.start_tick_decay,Start Decay While Ticking,ティック中に劣化を開始,translated
+text.autoconfig.lootr.option.lists,Lists,リスト,verified
+text.autoconfig.lootr.option.lists.dimension_blacklist,Dimension Blacklist,ディメンションのブラックリスト,verified
+text.autoconfig.lootr.option.lists.dimension_whitelist,Dimension Whitelist,ディメンションのホワイトリスト,verified
+text.autoconfig.lootr.option.lists.loot_modid_blacklist,Loot ModID Blacklist,ModIDのブラックリスト,verified
+text.autoconfig.lootr.option.lists.loot_table_blacklist,Loot Table Blacklist,ルートテーブルのブラックリスト,verified
+text.autoconfig.lootr.option.lists.modid_dimension_blacklist,Dimension Modid Blacklist,ディメンションのModIDのブラックリスト,verified
+text.autoconfig.lootr.option.lists.modid_dimension_whitelist,Dimension Modid Whitelist,ディメンションのModIDのホワイトリスト,verified
+text.autoconfig.lootr.option.notifications,Notifications,通知,verified
+text.autoconfig.lootr.option.notifications.disable_message_styles,Disable Style And Formatting In Notifications,通知のフォーマットと書式設定を無効化,verified
+text.autoconfig.lootr.option.notifications.disable_notifications,Disable Notifications,通知を無効化,verified
+text.autoconfig.lootr.option.notifications.notification_delay,Delay,崩壊,verified
+text.autoconfig.lootr.option.refresh,Refresh,再生成,verified
+text.autoconfig.lootr.option.refresh.perform_tick_refresh,Perform Refresh While Ticking,ティック中にリフレッシュを実行,translated
+text.autoconfig.lootr.option.refresh.refresh_all,Refresh All,すべての宝箱を再生成させる,verified
+text.autoconfig.lootr.option.refresh.refresh_dimensions,Refresh Dimensions,再生成させるディメンション,verified
+text.autoconfig.lootr.option.refresh.refresh_loot_tables,Refresh Loot Tables,再生成させるルートテーブル,verified
+text.autoconfig.lootr.option.refresh.refresh_modids,Refresh ModIDs,再生成させるModID,verified
+text.autoconfig.lootr.option.refresh.refresh_value,Refresh Value,再生成までの時間,verified
+text.autoconfig.lootr.option.refresh.start_tick_refresh,Start Refresh While Ticking,ティック中にリフレッシュを開始,translated
+text.autoconfig.lootr.option.seed,Seed,シード値,verified
+text.autoconfig.lootr.option.seed.randomize_seed,Randomize Seed,ランダムなシード値を使用,verified
+text.autoconfig.lootr.title,Lootr,Lootr設定,translated
+item.lootr.crown,Crown of the Master Looter,お宝マスターの王冠,verified
+lootr.advancements.1337loot.description,Open a total of 1337 containers! Wow!,合計1337個の宝箱を開けよう！すごっ！,verified
+lootr.advancements.1337loot.title,/\/\4$73R 10073R,マスター・ルーター,translated
