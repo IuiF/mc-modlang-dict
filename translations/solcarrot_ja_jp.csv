@@ -1,121 +1,61 @@
 ﻿key,source_text,target_text
 command.solcarrot.foodlist.clear.success,Food list reset!,フードリストがリセットされました！
-command.solcarrot.foodlist.clear.success,Food list reset!,フードリストがリセットされました！
-command.solcarrot.foodlist.no_permissions,You do not have the permissions necessary to apply this command to other players!,このコマンドを他のプレイヤーに適用するために必要な権限がありません！
 command.solcarrot.foodlist.no_permissions,You do not have the permissions necessary to apply this command to other players!,このコマンドを他のプレイヤーに適用するために必要な権限がありません！
 command.solcarrot.foodlist.size.desc.foods_eaten.plural,You've eaten %s unique foods!,%s個のユニークな食べ物を食べました！
-command.solcarrot.foodlist.size.desc.foods_eaten.plural,You've eaten %s unique foods!,%s個のユニークな食べ物を食べました！
-command.solcarrot.foodlist.size.desc.foods_eaten.singular,You've eaten one unique food!,ユニークな食べ物を1つ食べました！
 command.solcarrot.foodlist.size.desc.foods_eaten.singular,You've eaten one unique food!,ユニークな食べ物を1つ食べました！
 command.solcarrot.foodlist.size.desc.milestone.max,You sadly cannot gain any more health from trying new foods.,申し訳ありませんが、新しい食べ物を試しても、これ以上ヘルスを増やすことはできません。
-command.solcarrot.foodlist.size.desc.milestone.max,You sadly cannot gain any more health from trying new foods.,申し訳ありませんが、新しい食べ物を試しても、これ以上ヘルスを増やすことはできません。
-command.solcarrot.foodlist.size.desc.milestone.more,You need %s more to increase your max health.,あなたの最大ヘルスを増加させるにはあと%s個が必要です。
 command.solcarrot.foodlist.size.desc.milestone.more,You need %s more to increase your max health.,あなたの最大ヘルスを増加させるにはあと%s個が必要です。
 command.solcarrot.foodlist.sync.success,Food list synchronized!,フードリストが同期されました！
-command.solcarrot.foodlist.sync.success,Food list synchronized!,フードリストが同期されました！
-config.solcarrot.base_hearts,Base Hearts,ベースハート
 config.solcarrot.base_hearts,Base Hearts,ベースハート
 config.solcarrot.food_blacklist,Blacklist,ブラックリスト
-config.solcarrot.food_blacklist,Blacklist,ブラックリスト
-config.solcarrot.food_whitelist,Whitelist (disables blacklist),ホワイトリスト（ブラックリストを無効化）
 config.solcarrot.food_whitelist,Whitelist (disables blacklist),ホワイトリスト（ブラックリストを無効化）
 config.solcarrot.hearts_per_milestone,Hearts per Milestone,マイルストーンあたりのハート
-config.solcarrot.hearts_per_milestone,Hearts per Milestone,マイルストーンあたりのハート
-config.solcarrot.is_food_tooltip_enabled,Enable Food Tooltip,フードツールチップを有効化
 config.solcarrot.is_food_tooltip_enabled,Enable Food Tooltip,フードツールチップを有効化
 config.solcarrot.milestones,Milestones,マイルストーン
-config.solcarrot.milestones,Milestones,マイルストーン
-config.solcarrot.minimum_food_value,Minimum Food Value,最小フード値
 config.solcarrot.minimum_food_value,Minimum Food Value,最小フード値
 config.solcarrot.reset_on_death,Reset on Death,死亡時にリセット
-config.solcarrot.reset_on_death,Reset on Death,死亡時にリセット
-config.solcarrot.should_play_milestone_sounds,Enable Milestone Sounds,マイルストーンサウンドを有効化
 config.solcarrot.should_play_milestone_sounds,Enable Milestone Sounds,マイルストーンサウンドを有効化
 config.solcarrot.should_show_progress_above_hotbar,Show Progress Above Hotbar,ホットバーの上に進捗を表示
-config.solcarrot.should_show_progress_above_hotbar,Show Progress Above Hotbar,ホットバーの上に進捗を表示
-config.solcarrot.should_show_uneaten_foods,Show Uneaten Foods,食べていない食べ物を表示
 config.solcarrot.should_show_uneaten_foods,Show Uneaten Foods,食べていない食べ物を表示
 config.solcarrot.should_spawn_intermediate_particles,Enable Intermediate Particles,中間パーティクルを有効化
-config.solcarrot.should_spawn_intermediate_particles,Enable Intermediate Particles,中間パーティクルを有効化
-config.solcarrot.should_spawn_milestone_particles,Enable Milestone Particles,マイルストーンパーティクルを有効化
 config.solcarrot.should_spawn_milestone_particles,Enable Milestone Particles,マイルストーンパーティクルを有効化
 gui.solcarrot.food_book.config,Configuration,設定
-gui.solcarrot.food_book.config,Configuration,設定
-gui.solcarrot.food_book.config.blacklist,Foods Blacklisted,ブラックリストに登録された食べ物
 gui.solcarrot.food_book.config.blacklist,Foods Blacklisted,ブラックリストに登録された食べ物
 gui.solcarrot.food_book.config.eaten_cheap_foods,Boring Foods Tasted,退屈な食べ物を試した
-gui.solcarrot.food_book.config.eaten_cheap_foods,Boring Foods Tasted,退屈な食べ物を試した
-gui.solcarrot.food_book.config.hearty_fraction,Nourishing Foods,栄養価の高い食べ物
 gui.solcarrot.food_book.config.hearty_fraction,Nourishing Foods,栄養価の高い食べ物
 gui.solcarrot.food_book.config.minimum_food_value,Minimum Food Value,最小フード値
-gui.solcarrot.food_book.config.minimum_food_value,Minimum Food Value,最小フード値
-gui.solcarrot.food_book.config.tooltip.blacklist,How many foods have been disabled by the blacklist.,ブラックリストによって無効化された食べ物の数。
 gui.solcarrot.food_book.config.tooltip.blacklist,How many foods have been disabled by the blacklist.,ブラックリストによって無効化された食べ物の数。
 gui.solcarrot.food_book.config.tooltip.eaten_cheap_foods,"Out of the %1$s foods that aren't nourishing enough to improve your health, you've eaten %2$s.",あなたの健康を改善するのに十分な栄養価がない%1$s個の食べ物のうち、%2$s個を食べました。
-gui.solcarrot.food_book.config.tooltip.eaten_cheap_foods,"Out of the %1$s foods that aren't nourishing enough to improve your health, you've eaten %2$s.",あなたの健康を改善するのに十分な栄養価がない%1$s個の食べ物のうち、%2$s個を食べました。
-gui.solcarrot.food_book.config.tooltip.hearty_fraction,"Out of %1$s foods, %2$s are nourishing enough to improve your health.",%1$s個の食べ物のうち、%2$s個が健康を改善するのに十分な栄養価があります。
 gui.solcarrot.food_book.config.tooltip.hearty_fraction,"Out of %1$s foods, %2$s are nourishing enough to improve your health.",%1$s個の食べ物のうち、%2$s個が健康を改善するのに十分な栄養価があります。
 gui.solcarrot.food_book.config.tooltip.minimum_food_value,The minimum hunger value foods need to provide in order to count towards milestones.,マイルストーンにカウントされるために、食べ物が提供する必要のある最小空腹値。
-gui.solcarrot.food_book.config.tooltip.minimum_food_value,The minimum hunger value foods need to provide in order to count towards milestones.,マイルストーンにカウントされるために、食べ物が提供する必要のある最小空腹値。
-gui.solcarrot.food_book.config.tooltip.whitelist,How many foods the whitelist allows.,ホワイトリストが許可する食べ物の数。
 gui.solcarrot.food_book.config.tooltip.whitelist,How many foods the whitelist allows.,ホワイトリストが許可する食べ物の数。
 gui.solcarrot.food_book.config.whitelist,Foods Whitelisted,ホワイトリストに登録された食べ物
-gui.solcarrot.food_book.config.whitelist,Foods Whitelisted,ホワイトリストに登録された食べ物
-gui.solcarrot.food_book.eaten_foods,Already Tasted: %s,既に試した：%s
 gui.solcarrot.food_book.eaten_foods,Already Tasted: %s,既に試した：%s
 gui.solcarrot.food_book.fraction,%1$s/%2$s,
-gui.solcarrot.food_book.fraction,%1$s/%2$s,
-gui.solcarrot.food_book.stats,Overview,概要
 gui.solcarrot.food_book.stats,Overview,概要
 gui.solcarrot.food_book.stats.foods_tasted,Foods Tasted,試した食べ物
-gui.solcarrot.food_book.stats.foods_tasted,Foods Tasted,試した食べ物
-gui.solcarrot.food_book.stats.hearts_gained,Hearts Gained,獲得したハート
 gui.solcarrot.food_book.stats.hearts_gained,Hearts Gained,獲得したハート
 gui.solcarrot.food_book.stats.tooltip.foods_tasted,Foods Tasted: %s,試した食べ物：%s
-gui.solcarrot.food_book.stats.tooltip.foods_tasted,Foods Tasted: %s,試した食べ物：%s
-gui.solcarrot.food_book.stats.tooltip.hearts_per_milestone.plural,%s Hearts per Milestone,マイルストーンあたり%s個のハート
 gui.solcarrot.food_book.stats.tooltip.hearts_per_milestone.plural,%s Hearts per Milestone,マイルストーンあたり%s個のハート
 gui.solcarrot.food_book.stats.tooltip.hearts_per_milestone.singular,1 Heart per Milestone,マイルストーンあたり1個のハート
-gui.solcarrot.food_book.stats.tooltip.hearts_per_milestone.singular,1 Heart per Milestone,マイルストーンあたり1個のハート
-gui.solcarrot.food_book.stats.tooltip.next_milestone,Next Milestone: %s,次のマイルストーン：%s
 gui.solcarrot.food_book.stats.tooltip.next_milestone,Next Milestone: %s,次のマイルストーン：%s
 gui.solcarrot.food_book.stats.tooltip.previous_milestone,Last Milestone: %s,前のマイルストーン：%s
-gui.solcarrot.food_book.stats.tooltip.previous_milestone,Last Milestone: %s,前のマイルストーン：%s
-gui.solcarrot.food_book.stats.tooltip.progress,%s More Until Next Milestone,次のマイルストーンまであと%s個
 gui.solcarrot.food_book.stats.tooltip.progress,%s More Until Next Milestone,次のマイルストーンまであと%s個
 gui.solcarrot.food_book.stats.tooltip.progress.max,Highest Milestone Reached!,最高マイルストーン達成！
-gui.solcarrot.food_book.stats.tooltip.progress.max,Highest Milestone Reached!,最高マイルストーン達成！
-gui.solcarrot.food_book.stats.tooltip.total_foods,%s Total Foods,合計%s個の食べ物
 gui.solcarrot.food_book.stats.tooltip.total_foods,%s Total Foods,合計%s個の食べ物
 gui.solcarrot.food_book.uneaten_foods,Not Yet Tried: %s,まだ試していない：%s
-gui.solcarrot.food_book.uneaten_foods,Not Yet Tried: %s,まだ試していない：%s
-item.solcarrot.food_book,Food Book,フードブック
 item.solcarrot.food_book,Food Book,フードブック
 message.solcarrot.chat_wrapper,[SoL: Carrot] %s,
-message.solcarrot.chat_wrapper,[SoL: Carrot] %s,
-message.solcarrot.finished.chat,Your desire to seek unique foods is finally satisfied.,ユニークな食べ物を求めるあなたの欲求がようやく満たされました。
 message.solcarrot.finished.chat,Your desire to seek unique foods is finally satisfied.,ユニークな食べ物を求めるあなたの欲求がようやく満たされました。
 message.solcarrot.finished.hotbar,You've gained %s. Your desire to seek unique foods is finally satisfied.,%sを獲得しました。ユニークな食べ物を求めるあなたの欲求がようやく満たされました。
-message.solcarrot.finished.hotbar,You've gained %s. Your desire to seek unique foods is finally satisfied.,%sを獲得しました。ユニークな食べ物を求めるあなたの欲求がようやく満たされました。
-message.solcarrot.hearts.plural,%s hearts,%s個のハート
 message.solcarrot.hearts.plural,%s hearts,%s個のハート
 message.solcarrot.hearts.singular,a heart,1つのハート
-message.solcarrot.hearts.singular,a heart,1つのハート
-message.solcarrot.milestone_achieved,What a unique flavor! You've gained %s!,なんてユニークな味わい！%sを獲得しました！
 message.solcarrot.milestone_achieved,What a unique flavor! You've gained %s!,なんてユニークな味わい！%sを獲得しました！
 solcarrot.networking.food_list_message.failed,Failed to synchronize food list! %s,フードリストの同期に失敗しました！%s
-solcarrot.networking.food_list_message.failed,Failed to synchronize food list! %s,フードリストの同期に失敗しました！%s
-tooltip.solcarrot.cheap,This food is not nourishing enough to improve your health.,この食べ物は栄養価が十分ではなく、あなたの健康を改善することはできません。
 tooltip.solcarrot.cheap,This food is not nourishing enough to improve your health.,この食べ物は栄養価が十分ではなく、あなたの健康を改善することはできません。
 tooltip.solcarrot.cheap.eaten,Eaten: No noticeable effect,食べた：顕著な効果がない
-tooltip.solcarrot.cheap.eaten,Eaten: No noticeable effect,食べた：顕著な効果がない
-tooltip.solcarrot.disabled.blacklist,This food is in the blacklist and thus cannot improve your health.,この食べ物はブラックリストに登録されているため、あなたの健康を改善することはできません。
 tooltip.solcarrot.disabled.blacklist,This food is in the blacklist and thus cannot improve your health.,この食べ物はブラックリストに登録されているため、あなたの健康を改善することはできません。
 tooltip.solcarrot.disabled.eaten,Eaten: No noticeable effect,食べた：顕著な効果がない
-tooltip.solcarrot.disabled.eaten,Eaten: No noticeable effect,食べた：顕著な効果がない
-tooltip.solcarrot.disabled.whitelist,This food is not in the whitelist and thus cannot improve your health.,この食べ物はホワイトリストに登録されていないため、あなたの健康を改善することはできません。
 tooltip.solcarrot.disabled.whitelist,This food is not in the whitelist and thus cannot improve your health.,この食べ物はホワイトリストに登録されていないため、あなたの健康を改善することはできません。
 tooltip.solcarrot.hearty.eaten,Eaten: Assisted in adding hearts,食べた：ハート追加を補助
-tooltip.solcarrot.hearty.eaten,Eaten: Assisted in adding hearts,食べた：ハート追加を補助
-tooltip.solcarrot.hearty.not_eaten,Not yet eaten! What does it taste like?,まだ食べていない！どんな味がするのだろう？
 tooltip.solcarrot.hearty.not_eaten,Not yet eaten! What does it taste like?,まだ食べていない！どんな味がするのだろう？

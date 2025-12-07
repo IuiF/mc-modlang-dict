@@ -575,7 +575,14 @@ func (r *Repository) ListTranslationsWithSourceByMod(ctx context.Context, modID 
 	query := r.db.WithContext(ctx).
 		Table("translations").
 		Select(`
-			translations.*,
+			DISTINCT translations.id,
+			translations.source_id,
+			translations.target_text,
+			translations.target_lang,
+			translations.status,
+			translations.translator,
+			translations.created_at,
+			translations.updated_at,
 			translation_sources.key as key,
 			translation_sources.source_text as source_text,
 			translation_sources.source_lang as source_lang,
