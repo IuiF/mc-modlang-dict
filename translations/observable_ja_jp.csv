@@ -1,36 +1,70 @@
-﻿key,source_text,target_text,status
-category.observable.keybinds,Observable,,pending
-key.observable.profile,Show profiler screen,プロファイラー画面を表示,translated
-screen.observable.client_settings,Settings,設定,translated
-screen.observable.profile,Profile,プロファイル,translated
-screen.observable.results,Results,結果,translated
-text.observable.after_save,Open this file at %s,このファイルを %s で開く,translated
-text.observable.announce,This pack contains Observable for finding lag sources. See %s to learn how to use it.,このパックはLag源を見つけるためのObservableを含んでいます。使用方法については %s を参照してください。,translated
-text.observable.cmd,"Observable is a server-side entity profiler that can help you figure out what's lagging your server. To learn more, go to %s.",Observableはサーバー側のエンティティプロファイラーであり、サーバーが何を遅くしているのかを把握するのに役立ちます。詳細については %s を参照してください。,translated
-text.observable.discord,Discord,,pending
-text.observable.docs,Wiki,,pending
-text.observable.donate,Donate,寄付,translated
-text.observable.entity_not_found,Entity not found. Perhaps it died or was otherwise removed?,エンティティが見つかりません。もしかして死亡したか、別の方法で削除されたのでしょうか?,translated
-text.observable.error,Error performing action: %s,操作実行時にエラーが発生しました: %s,translated
-text.observable.get_btn,Get!,取得!,translated
-text.observable.get_field,Enter profile URL/hash...,プロファイルURL/ハッシュを入力...,translated
-text.observable.maxBlockDist,Max block label distance (blocks):,最大ブロックラベル距離(ブロック):,translated
-text.observable.maxEntityCount,Max # of entities:,最大エンティティ数:,translated
-text.observable.maxEntityDist,Max entity label distance (blocks):,最大エンティティラベル距離(ブロック):,translated
-text.observable.minRate,Minimum rate to visualize (μs/t):,可視化する最小レート(μs/t):,translated
-text.observable.no_permissions,You don't have permissions to start a profiler,プロファイラーを開始する権限がありません,translated
-text.observable.normalize,Normalize results:,結果を正規化:,translated
-text.observable.overlay,Overlay,オーバーレイ,translated
-text.observable.profile_fps,Profile FPS,FPSをプロファイル,translated
-text.observable.profile_saved,Profile saved locally to %s,プロファイルをローカルに %s に保存しました,translated
-text.observable.profile_started,Running Observable profile for %d seconds...,Observable プロファイルを %d 秒間実行中...,translated
-text.observable.profile_tps,Profile TPS,TPSをプロファイル,translated
-text.observable.profile_uploaded,Profile uploaded to %s,プロファイルを %s にアップロードしました,translated
-text.observable.report,Please report this at github.com/tasgon/observable/issues,github.com/tasgon/observable/issues で報告してください,translated
-text.observable.sampler,Profile with sampler (adds overhead),サンプラーでプロファイル(オーバーヘッドを追加),translated
-text.observable.suggest,It seems your server is running a little slow (%s tps). %s to find lag sources.,サーバーの実行速度が少し遅い(%s tps)ようです。lag源を見つけるためにObservableの使用を検討してください。,translated
-text.observable.suggest_action,Consider using Observable,Observableの使用を検討してください,translated
-text.observable.unavailable,Observable is not installed on the server,Observableはサーバーにインストールされていません,translated
-text.observable.unimplemented,Unimplemented!,未実装!,translated
-text.observable.upload_failed,Profile could not be uploaded,プロファイルをアップロードできませんでした,translated
-text.observable.results,Results,,pending
+﻿key,source_text,target_text
+category.observable.keybinds,Observable,
+category.observable.keybinds,Observable,
+key.observable.profile,Show profiler screen,プロファイラー画面を表示
+key.observable.profile,Show profiler screen,プロファイラー画面を表示
+screen.observable.client_settings,Settings,設定
+screen.observable.client_settings,Settings,設定
+screen.observable.profile,Profile,プロファイル
+screen.observable.profile,Profile,プロファイル
+screen.observable.results,Results,結果
+screen.observable.results,Results,結果
+text.observable.after_save,Open this file at %s,このファイルを %s で開く
+text.observable.after_save,Open this file at %s,このファイルを %s で開く
+text.observable.announce,This pack contains Observable for finding lag sources. See %s to learn how to use it.,このパックはLag源を見つけるためのObservableを含んでいます。使用方法については %s を参照してください。
+text.observable.announce,This pack contains Observable for finding lag sources. See %s to learn how to use it.,このパックはLag源を見つけるためのObservableを含んでいます。使用方法については %s を参照してください。
+text.observable.cmd,"Observable is a server-side entity profiler that can help you figure out what's lagging your server. To learn more, go to %s.",Observableはサーバー側のエンティティプロファイラーであり、サーバーが何を遅くしているのかを把握するのに役立ちます。詳細については %s を参照してください。
+text.observable.cmd,"Observable is a server-side entity profiler that can help you figure out what's lagging your server. To learn more, go to %s.",Observableはサーバー側のエンティティプロファイラーであり、サーバーが何を遅くしているのかを把握するのに役立ちます。詳細については %s を参照してください。
+text.observable.discord,Discord,
+text.observable.discord,Discord,
+text.observable.docs,Wiki,
+text.observable.docs,Wiki,
+text.observable.donate,Donate,寄付
+text.observable.donate,Donate,寄付
+text.observable.entity_not_found,Entity not found. Perhaps it died or was otherwise removed?,エンティティが見つかりません。もしかして死亡したか、別の方法で削除されたのでしょうか?
+text.observable.entity_not_found,Entity not found. Perhaps it died or was otherwise removed?,エンティティが見つかりません。もしかして死亡したか、別の方法で削除されたのでしょうか?
+text.observable.error,Error performing action: %s,操作実行時にエラーが発生しました: %s
+text.observable.error,Error performing action: %s,操作実行時にエラーが発生しました: %s
+text.observable.get_btn,Get!,取得!
+text.observable.get_btn,Get!,取得!
+text.observable.get_field,Enter profile URL/hash...,プロファイルURL/ハッシュを入力...
+text.observable.get_field,Enter profile URL/hash...,プロファイルURL/ハッシュを入力...
+text.observable.maxBlockDist,Max block label distance (blocks):,最大ブロックラベル距離(ブロック):
+text.observable.maxBlockDist,Max block label distance (blocks):,最大ブロックラベル距離(ブロック):
+text.observable.maxEntityCount,Max # of entities:,最大エンティティ数:
+text.observable.maxEntityCount,Max # of entities:,最大エンティティ数:
+text.observable.maxEntityDist,Max entity label distance (blocks):,最大エンティティラベル距離(ブロック):
+text.observable.maxEntityDist,Max entity label distance (blocks):,最大エンティティラベル距離(ブロック):
+text.observable.minRate,Minimum rate to visualize (μs/t):,可視化する最小レート(μs/t):
+text.observable.minRate,Minimum rate to visualize (μs/t):,可視化する最小レート(μs/t):
+text.observable.no_permissions,You don't have permissions to start a profiler,プロファイラーを開始する権限がありません
+text.observable.no_permissions,You don't have permissions to start a profiler,プロファイラーを開始する権限がありません
+text.observable.normalize,Normalize results:,結果を正規化:
+text.observable.normalize,Normalize results:,結果を正規化:
+text.observable.overlay,Overlay,オーバーレイ
+text.observable.overlay,Overlay,オーバーレイ
+text.observable.profile_fps,Profile FPS,FPSをプロファイル
+text.observable.profile_fps,Profile FPS,FPSをプロファイル
+text.observable.profile_saved,Profile saved locally to %s,プロファイルをローカルに %s に保存しました
+text.observable.profile_saved,Profile saved locally to %s,プロファイルをローカルに %s に保存しました
+text.observable.profile_started,Running Observable profile for %d seconds...,Observable プロファイルを %d 秒間実行中...
+text.observable.profile_started,Running Observable profile for %d seconds...,Observable プロファイルを %d 秒間実行中...
+text.observable.profile_tps,Profile TPS,TPSをプロファイル
+text.observable.profile_tps,Profile TPS,TPSをプロファイル
+text.observable.profile_uploaded,Profile uploaded to %s,プロファイルを %s にアップロードしました
+text.observable.profile_uploaded,Profile uploaded to %s,プロファイルを %s にアップロードしました
+text.observable.report,Please report this at github.com/tasgon/observable/issues,github.com/tasgon/observable/issues で報告してください
+text.observable.report,Please report this at github.com/tasgon/observable/issues,github.com/tasgon/observable/issues で報告してください
+text.observable.sampler,Profile with sampler (adds overhead),サンプラーでプロファイル(オーバーヘッドを追加)
+text.observable.sampler,Profile with sampler (adds overhead),サンプラーでプロファイル(オーバーヘッドを追加)
+text.observable.suggest,It seems your server is running a little slow (%s tps). %s to find lag sources.,サーバーの実行速度が少し遅い(%s tps)ようです。lag源を見つけるためにObservableの使用を検討してください。
+text.observable.suggest,It seems your server is running a little slow (%s tps). %s to find lag sources.,サーバーの実行速度が少し遅い(%s tps)ようです。lag源を見つけるためにObservableの使用を検討してください。
+text.observable.suggest_action,Consider using Observable,Observableの使用を検討してください
+text.observable.suggest_action,Consider using Observable,Observableの使用を検討してください
+text.observable.unavailable,Observable is not installed on the server,Observableはサーバーにインストールされていません
+text.observable.unavailable,Observable is not installed on the server,Observableはサーバーにインストールされていません
+text.observable.unimplemented,Unimplemented!,未実装!
+text.observable.unimplemented,Unimplemented!,未実装!
+text.observable.upload_failed,Profile could not be uploaded,プロファイルをアップロードできませんでした
+text.observable.upload_failed,Profile could not be uploaded,プロファイルをアップロードできませんでした
+text.observable.results,Results,

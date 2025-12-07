@@ -1,48 +1,95 @@
-﻿key,source_text,target_text,status
-balm.configuration.exampleCategory,Example Category,設定カテゴリ例,translated
-config.balm.exampleBoolean,Example Boolean,ブール値の例,translated
-config.balm.exampleCategory.exampleFloat,Example Float,浮動小数点の例,translated
-config.balm.exampleCategory.innerField,Example Inner Field,内部フィールドの例,translated
-config.balm.exampleEnum,Example Enum,列挙型の例,translated
-config.balm.exampleEnumList,Example Enum List,列挙型リストの例,translated
-config.balm.exampleInt,Example Int,整数の例,translated
-config.balm.exampleIntList,Example Int List,整数リストの例,translated
-config.balm.exampleMultilineString,Example Multiline String,複数行文字列の例,translated
-config.balm.exampleResourceLocationSet,Example Resource Location Set,リソースロケーションセットの例,translated
-config.balm.exampleString,Example String,文字列の例,translated
-config.balm.exampleStringList,Example String List,文字列リストの例,translated
-config.jade.plugin_balm.jade,Balm,バーム,translated
-disconnect.balm.mod_missing_on_client,You do not have %s installed. Please install %s version %s to play on this server.,%s がインストールされていません。サーバーでプレイするには %s バージョン %s をインストールしてください。,translated
-disconnect.balm.mod_missing_on_server,The server does not have %s installed. Please remove the mod from your game or install it on the server as well.,サーバーに %s がインストールされていません。ゲームからModを削除するか、サーバーにもインストールしてください。,translated
-disconnect.balm.mod_version_mismatch,"Version mismatch for %s. The server expects version %s, but you currently have %s installed. Please install the correct version.",%s のバージョンが一致しません。サーバーはバージョン %s を期待していますが、現在 %s がインストールされています。正しいバージョンをインストールしてください。,translated
-tag.item.c.chests.chests,Wooden Chests,木製チェスト,translated
-tag.item.c.cooking_oil,Cooking Oil,食用油,translated
-tag.item.c.dyes,Dyes,染料,translated
-tag.item.c.dyes.black,Black Dyes,黒色染料,translated
-tag.item.c.dyes.blue,Blue Dyes,青色染料,translated
-tag.item.c.dyes.brown,Brown Dyes,茶色染料,translated
-tag.item.c.dyes.cyan,Cyan Dyes,シアン染料,translated
-tag.item.c.dyes.gray,Gray Dyes,灰色染料,translated
-tag.item.c.dyes.green,Green Dyes,緑色染料,translated
-tag.item.c.dyes.light_blue,Light Blue Dyes,水色染料,translated
-tag.item.c.dyes.light_gray,Light Gray Dyes,薄灰色染料,translated
-tag.item.c.dyes.lime,Lime Dyes,ライム色染料,translated
-tag.item.c.dyes.magenta,Magenta Dyes,マゼンタ色染料,translated
-tag.item.c.dyes.orange,Orange Dyes,オレンジ色染料,translated
-tag.item.c.dyes.pink,Pink Dyes,ピンク色染料,translated
-tag.item.c.dyes.purple,Purple Dyes,紫色染料,translated
-tag.item.c.dyes.red,Red Dyes,赤色染料,translated
-tag.item.c.dyes.white,White Dyes,白色染料,translated
-tag.item.c.dyes.yellow,Yellow Dyes,黄色染料,translated
-tag.item.c.eggs,Eggs,卵,translated
-tag.item.c.gems,Gems,宝石,translated
-tag.item.c.gems.diamond,Diamonds,ダイヤモンド,translated
-tag.item.c.gems.emerald,Emeralds,エメラルド,translated
-tag.item.c.ingots,Ingots,インゴット,translated
-tag.item.c.ingots.iron,Iron Ingots,鉄インゴット,translated
-tag.item.c.nuggets,Nuggets,ナゲット,translated
-tag.item.c.nuggets.gold,Gold Nuggets,金ナゲット,translated
-tag.item.c.nuggets.iron,Iron Nuggets,鉄ナゲット,translated
-tag.item.c.ores,Ores,鉱石,translated
-tag.item.c.rods.wooden,Wooden Rods,木製ロッド,translated
-tag.item.c.stones,Stones,石,translated
+﻿key,source_text,target_text
+balm.configuration.exampleCategory,Example Category,設定カテゴリ例
+balm.configuration.exampleCategory,Example Category,設定カテゴリ例
+config.balm.exampleBoolean,Example Boolean,ブール値の例
+config.balm.exampleBoolean,Example Boolean,ブール値の例
+config.balm.exampleCategory.exampleFloat,Example Float,浮動小数点の例
+config.balm.exampleCategory.exampleFloat,Example Float,浮動小数点の例
+config.balm.exampleCategory.innerField,Example Inner Field,内部フィールドの例
+config.balm.exampleCategory.innerField,Example Inner Field,内部フィールドの例
+config.balm.exampleEnum,Example Enum,列挙型の例
+config.balm.exampleEnum,Example Enum,列挙型の例
+config.balm.exampleEnumList,Example Enum List,列挙型リストの例
+config.balm.exampleEnumList,Example Enum List,列挙型リストの例
+config.balm.exampleInt,Example Int,整数の例
+config.balm.exampleInt,Example Int,整数の例
+config.balm.exampleIntList,Example Int List,整数リストの例
+config.balm.exampleIntList,Example Int List,整数リストの例
+config.balm.exampleMultilineString,Example Multiline String,複数行文字列の例
+config.balm.exampleMultilineString,Example Multiline String,複数行文字列の例
+config.balm.exampleResourceLocationSet,Example Resource Location Set,リソースロケーションセットの例
+config.balm.exampleResourceLocationSet,Example Resource Location Set,リソースロケーションセットの例
+config.balm.exampleString,Example String,文字列の例
+config.balm.exampleString,Example String,文字列の例
+config.balm.exampleStringList,Example String List,文字列リストの例
+config.balm.exampleStringList,Example String List,文字列リストの例
+config.jade.plugin_balm.jade,Balm,バーム
+config.jade.plugin_balm.jade,Balm,バーム
+disconnect.balm.mod_missing_on_client,You do not have %s installed. Please install %s version %s to play on this server.,%s がインストールされていません。サーバーでプレイするには %s バージョン %s をインストールしてください。
+disconnect.balm.mod_missing_on_client,You do not have %s installed. Please install %s version %s to play on this server.,%s がインストールされていません。サーバーでプレイするには %s バージョン %s をインストールしてください。
+disconnect.balm.mod_missing_on_server,The server does not have %s installed. Please remove the mod from your game or install it on the server as well.,サーバーに %s がインストールされていません。ゲームからModを削除するか、サーバーにもインストールしてください。
+disconnect.balm.mod_missing_on_server,The server does not have %s installed. Please remove the mod from your game or install it on the server as well.,サーバーに %s がインストールされていません。ゲームからModを削除するか、サーバーにもインストールしてください。
+disconnect.balm.mod_version_mismatch,"Version mismatch for %s. The server expects version %s, but you currently have %s installed. Please install the correct version.",%s のバージョンが一致しません。サーバーはバージョン %s を期待していますが、現在 %s がインストールされています。正しいバージョンをインストールしてください。
+disconnect.balm.mod_version_mismatch,"Version mismatch for %s. The server expects version %s, but you currently have %s installed. Please install the correct version.",%s のバージョンが一致しません。サーバーはバージョン %s を期待していますが、現在 %s がインストールされています。正しいバージョンをインストールしてください。
+tag.item.c.chests.chests,Wooden Chests,木製チェスト
+tag.item.c.chests.chests,Wooden Chests,木製チェスト
+tag.item.c.cooking_oil,Cooking Oil,食用油
+tag.item.c.cooking_oil,Cooking Oil,食用油
+tag.item.c.dyes,Dyes,染料
+tag.item.c.dyes,Dyes,染料
+tag.item.c.dyes.black,Black Dyes,黒色染料
+tag.item.c.dyes.black,Black Dyes,黒色染料
+tag.item.c.dyes.blue,Blue Dyes,青色染料
+tag.item.c.dyes.blue,Blue Dyes,青色染料
+tag.item.c.dyes.brown,Brown Dyes,茶色染料
+tag.item.c.dyes.brown,Brown Dyes,茶色染料
+tag.item.c.dyes.cyan,Cyan Dyes,シアン染料
+tag.item.c.dyes.cyan,Cyan Dyes,シアン染料
+tag.item.c.dyes.gray,Gray Dyes,灰色染料
+tag.item.c.dyes.gray,Gray Dyes,灰色染料
+tag.item.c.dyes.green,Green Dyes,緑色染料
+tag.item.c.dyes.green,Green Dyes,緑色染料
+tag.item.c.dyes.light_blue,Light Blue Dyes,水色染料
+tag.item.c.dyes.light_blue,Light Blue Dyes,水色染料
+tag.item.c.dyes.light_gray,Light Gray Dyes,薄灰色染料
+tag.item.c.dyes.light_gray,Light Gray Dyes,薄灰色染料
+tag.item.c.dyes.lime,Lime Dyes,ライム色染料
+tag.item.c.dyes.lime,Lime Dyes,ライム色染料
+tag.item.c.dyes.magenta,Magenta Dyes,マゼンタ色染料
+tag.item.c.dyes.magenta,Magenta Dyes,マゼンタ色染料
+tag.item.c.dyes.orange,Orange Dyes,オレンジ色染料
+tag.item.c.dyes.orange,Orange Dyes,オレンジ色染料
+tag.item.c.dyes.pink,Pink Dyes,ピンク色染料
+tag.item.c.dyes.pink,Pink Dyes,ピンク色染料
+tag.item.c.dyes.purple,Purple Dyes,紫色染料
+tag.item.c.dyes.purple,Purple Dyes,紫色染料
+tag.item.c.dyes.red,Red Dyes,赤色染料
+tag.item.c.dyes.red,Red Dyes,赤色染料
+tag.item.c.dyes.white,White Dyes,白色染料
+tag.item.c.dyes.white,White Dyes,白色染料
+tag.item.c.dyes.yellow,Yellow Dyes,黄色染料
+tag.item.c.dyes.yellow,Yellow Dyes,黄色染料
+tag.item.c.eggs,Eggs,卵
+tag.item.c.eggs,Eggs,卵
+tag.item.c.gems,Gems,宝石
+tag.item.c.gems,Gems,宝石
+tag.item.c.gems.diamond,Diamonds,ダイヤモンド
+tag.item.c.gems.diamond,Diamonds,ダイヤモンド
+tag.item.c.gems.emerald,Emeralds,エメラルド
+tag.item.c.gems.emerald,Emeralds,エメラルド
+tag.item.c.ingots,Ingots,インゴット
+tag.item.c.ingots,Ingots,インゴット
+tag.item.c.ingots.iron,Iron Ingots,鉄インゴット
+tag.item.c.ingots.iron,Iron Ingots,鉄インゴット
+tag.item.c.nuggets,Nuggets,塊
+tag.item.c.nuggets,Nuggets,塊
+tag.item.c.nuggets.gold,Gold Nuggets,金塊
+tag.item.c.nuggets.gold,Gold Nuggets,金塊
+tag.item.c.nuggets.iron,Iron Nuggets,鉄塊
+tag.item.c.nuggets.iron,Iron Nuggets,鉄塊
+tag.item.c.ores,Ores,鉱石
+tag.item.c.ores,Ores,鉱石
+tag.item.c.rods.wooden,Wooden Rods,木製ロッド
+tag.item.c.rods.wooden,Wooden Rods,木製ロッド
+tag.item.c.stones,Stones,石
+tag.item.c.stones,Stones,石

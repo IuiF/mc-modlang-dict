@@ -1,60 +1,60 @@
-﻿key,source_text,target_text,status
-inventory.btn,Muffler,マフラー,translated
-key.open_muffler_gui,Open sound muffler screen,サウンドマフラー画面を開く,translated
+﻿key,source_text,target_text
+inventory.btn,Muffler,マフラー
+key.open_muffler_gui,Open sound muffler screen,サウンドマフラー画面を開く
 log.error.loadAnchorList,ESM: Error loading Anchor list:\n %s,"ESM: アンカーリスト読み込みエラー:
- %s",translated
+ %s"
 log.error.loadMuffledList,ESM: Error loading the muffled sounds list:\n %s,"ESM: ミュート済みサウンドリスト読み込みエラー:
- %s",translated
+ %s"
 log.error.saveAnchorList,ESM: Error saving the Anchor list\n %s,"ESM: アンカーリスト保存エラー
- %s",translated
+ %s"
 log.error.saveMuffledList,ESM: Error saving the muffled sounds list:\n %s,"ESM: ミュート済みサウンドリスト保存エラー
- %s",translated
-log.warn.loadAnchorList,ESM: Anchor list not found; Creating empty Anchor list,ESM: アンカーリストが見つかりません。空のアンカーリストを作成しています,translated
-log.warn.loadMuffledList,ESM: Muffled list not found; Creating empty Muffled list,ESM: ミュート済みリストが見つかりません。空のミュート済みリストを作成しています,translated
-main_screen.btn.accept,Accept,承認,translated
-main_screen.btn.anchors.disabled,Anchors are disabled!,アンカーは無効です！,translated
-main_screen.btn.anchors.edit,Edit Anchor,アンカーを編集,translated
-main_screen.btn.anchors.set,Set Anchor,アンカーを設定,translated
-main_screen.btn.anchors.set_message,Set the anchor first,最初にアンカーを設定してください,translated
-main_screen.btn.anchors.set_range,Range: 1 - 32,範囲: 1 - 32,translated
-main_screen.btn.anchors.set_title,Change Anchor title,アンカータイトルを変更,translated
-main_screen.btn.cancel,Cancel,キャンセル,translated
-main_screen.btn.csl.all,All,すべて,translated
-main_screen.btn.csl.muffled,Muffled,ミュート済み,translated
-main_screen.btn.csl.recent,Recent,最近,translated
-main_screen.btn.csl.tooltip,Showing %s sounds,%s 個のサウンドを表示,translated
-main_screen.btn.delete.anchor,Delete Anchor,アンカーを削除,translated
-main_screen.btn.delete.list,Delete Muffled List,ミュート済みリストを削除,translated
-main_screen.btn.delete.sounds,Delete muffled sounds,ミュート済みサウンドを削除,translated
-main_screen.btn.next_sounds,Next Sounds,次のサウンド,translated
-main_screen.btn.previous_sounds,Previous Sounds,前のサウンド,translated
-main_screen.btn.tms.start,Start muffling,ミュート開始,translated
-main_screen.btn.tms.stop,Stop muffling,ミュート停止,translated
-main_screen.empty,Nothing to show here yet..,まだ表示するものがありません。,translated
-main_screen.main_title,ESM - Main Screen,ESM - メイン画面,translated
-main_screen.side_screen.dimension,Dimension: %s,ディメンション: %s,translated
-main_screen.side_screen.radius,Radius: %s,半径: %s,translated
-main_screen.side_screen.title,Title: ,タイトル: ,translated
-main_screen.side_screen.x,X: %s,X座標: %s,translated
-main_screen.side_screen.y,Y: %s,Y座標: %s,translated
-main_screen.side_screen.z,Z: %s,Z座標: %s,translated
-main_screen.tip,Tip: %s,ヒント: %s,translated
-slider.btn.muffler.muffle,Muffle sound,サウンドをミュート,translated
-slider.btn.muffler.unmuffle,Unmuffle sound,サウンドをミュート解除,translated
-slider.btn.play.play_sound,Play/Stop sound,サウンド再生/停止,translated
-slider.btn.volume,Volume: ,ボリューム: ,translated
-tip.change_volume,You can change the volume of muffled sounds by dragging the slider,スライダーをドラッグしてミュート済みサウンドのボリュームを変更できます,translated
-tip.dark_theme,You can set the dark theme in the config,設定でダークテーマを設定できます,translated
-tip.disable,You can disable these tips in the config,設定でこれらのヒントを無効にできます,translated
-tip.inv_button,You can move the inventory button by holding the RMB over the button and dragging it around,ボタンの上で右クリックを押しながらドラッグすることで、インベントリボタンを移動できます,translated
-tip.inv_button_disable,You can disable and enable the muffler button on your inventory screen in the config,設定でインベントリ画面のマフラーボタンを有効/無効にできます,translated
-tip.left_buttons,You can change the side of the Muffler and Play buttons to the left in the config,設定でマフラーボタンとプレイボタンを左側に変更できます,translated
-tip.modify_anchors,"Once you've set the Anchors, you can click the marker button to move the position at any time.",アンカーを設定した後、マーカーボタンをクリックするといつでも位置を移動できます。,translated
-tip.modify_anchors_2,You can change the name and range of the Anchors once you've set the position,位置を設定した後、アンカーの名前と範囲を変更できます,translated
-tip.no_anchors,You can disable the Anchors in the config,設定でアンカーを無効にできます,translated
-tip.play_sound,You can play any sound by pressing the corresponding Play sound button,対応するサウンド再生ボタンを押すことで、任意のサウンドを再生できます,translated
-tip.reset_recent_sounds,"Hold Shift on the ""Recent"" sounds screen and click the trash button to clear the recent sounds list",「最近」サウンド画面でShiftを押しながらゴミ箱ボタンをクリックして、最近のサウンドリストをクリアできます,translated
-tip.set_anchors,Click any of the Anchor buttons (the numbered ones) and then click the marker like button (in the right) to set the Anchor position,アンカーボタン（番号が付いたもの）のいずれかをクリックしてから、マーカーのようなボタン（右側）をクリックしてアンカー位置を設定します,translated
-tip.sound_blacklist,You can blacklist sounds in the config,設定でサウンドをブラックリストに登録できます,translated
-tip.unmuffle,"You can stop muffling all the selected sounds by pressing the Stop muffling sounds button, press it again to resume the muffling",「ミュート停止」ボタンを押すと、選択したすべてのサウンドのミュートを停止できます。もう一度押すとミュートが再開されます,translated
-tip.use_anchors,Anchors (the top 10 buttons) are used to muffle sounds in a selected area,アンカー（上部の10個のボタン）は、選択した領域のサウンドをミュートするために使用されます,translated
+ %s"
+log.warn.loadAnchorList,ESM: Anchor list not found; Creating empty Anchor list,ESM: アンカーリストが見つかりません。空のアンカーリストを作成しています
+log.warn.loadMuffledList,ESM: Muffled list not found; Creating empty Muffled list,ESM: ミュート済みリストが見つかりません。空のミュート済みリストを作成しています
+main_screen.btn.accept,Accept,承認
+main_screen.btn.anchors.disabled,Anchors are disabled!,アンカーは無効です！
+main_screen.btn.anchors.edit,Edit Anchor,アンカーを編集
+main_screen.btn.anchors.set,Set Anchor,アンカーを設定
+main_screen.btn.anchors.set_message,Set the anchor first,最初にアンカーを設定してください
+main_screen.btn.anchors.set_range,Range: 1 - 32,範囲: 1 - 32
+main_screen.btn.anchors.set_title,Change Anchor title,アンカータイトルを変更
+main_screen.btn.cancel,Cancel,キャンセル
+main_screen.btn.csl.all,All,すべて
+main_screen.btn.csl.muffled,Muffled,ミュート済み
+main_screen.btn.csl.recent,Recent,最近
+main_screen.btn.csl.tooltip,Showing %s sounds,%s 個のサウンドを表示
+main_screen.btn.delete.anchor,Delete Anchor,アンカーを削除
+main_screen.btn.delete.list,Delete Muffled List,ミュート済みリストを削除
+main_screen.btn.delete.sounds,Delete muffled sounds,ミュート済みサウンドを削除
+main_screen.btn.next_sounds,Next Sounds,次のサウンド
+main_screen.btn.previous_sounds,Previous Sounds,前のサウンド
+main_screen.btn.tms.start,Start muffling,ミュート開始
+main_screen.btn.tms.stop,Stop muffling,ミュート停止
+main_screen.empty,Nothing to show here yet..,まだ表示するものがありません。
+main_screen.main_title,ESM - Main Screen,ESM - メイン画面
+main_screen.side_screen.dimension,Dimension: %s,ディメンション: %s
+main_screen.side_screen.radius,Radius: %s,半径: %s
+main_screen.side_screen.title,Title: ,タイトル: 
+main_screen.side_screen.x,X: %s,X座標: %s
+main_screen.side_screen.y,Y: %s,Y座標: %s
+main_screen.side_screen.z,Z: %s,Z座標: %s
+main_screen.tip,Tip: %s,ヒント: %s
+slider.btn.muffler.muffle,Muffle sound,サウンドをミュート
+slider.btn.muffler.unmuffle,Unmuffle sound,サウンドをミュート解除
+slider.btn.play.play_sound,Play/Stop sound,サウンド再生/停止
+slider.btn.volume,Volume: ,ボリューム: 
+tip.change_volume,You can change the volume of muffled sounds by dragging the slider,スライダーをドラッグしてミュート済みサウンドのボリュームを変更できます
+tip.dark_theme,You can set the dark theme in the config,設定でダークテーマを設定できます
+tip.disable,You can disable these tips in the config,設定でこれらのヒントを無効にできます
+tip.inv_button,You can move the inventory button by holding the RMB over the button and dragging it around,ボタンの上で右クリックを押しながらドラッグすることで、インベントリボタンを移動できます
+tip.inv_button_disable,You can disable and enable the muffler button on your inventory screen in the config,設定でインベントリ画面のマフラーボタンを有効/無効にできます
+tip.left_buttons,You can change the side of the Muffler and Play buttons to the left in the config,設定でマフラーボタンとプレイボタンを左側に変更できます
+tip.modify_anchors,"Once you've set the Anchors, you can click the marker button to move the position at any time.",アンカーを設定した後、マーカーボタンをクリックするといつでも位置を移動できます。
+tip.modify_anchors_2,You can change the name and range of the Anchors once you've set the position,位置を設定した後、アンカーの名前と範囲を変更できます
+tip.no_anchors,You can disable the Anchors in the config,設定でアンカーを無効にできます
+tip.play_sound,You can play any sound by pressing the corresponding Play sound button,対応するサウンド再生ボタンを押すことで、任意のサウンドを再生できます
+tip.reset_recent_sounds,"Hold Shift on the ""Recent"" sounds screen and click the trash button to clear the recent sounds list",「最近」サウンド画面でShiftを押しながらゴミ箱ボタンをクリックして、最近のサウンドリストをクリアできます
+tip.set_anchors,Click any of the Anchor buttons (the numbered ones) and then click the marker like button (in the right) to set the Anchor position,アンカーボタン（番号が付いたもの）のいずれかをクリックしてから、マーカーのようなボタン（右側）をクリックしてアンカー位置を設定します
+tip.sound_blacklist,You can blacklist sounds in the config,設定でサウンドをブラックリストに登録できます
+tip.unmuffle,"You can stop muffling all the selected sounds by pressing the Stop muffling sounds button, press it again to resume the muffling",「ミュート停止」ボタンを押すと、選択したすべてのサウンドのミュートを停止できます。もう一度押すとミュートが再開されます
+tip.use_anchors,Anchors (the top 10 buttons) are used to muffle sounds in a selected area,アンカー（上部の10個のボタン）は、選択した領域のサウンドをミュートするために使用されます

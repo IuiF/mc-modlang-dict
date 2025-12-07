@@ -1,61 +1,61 @@
-﻿key,source_text,target_text,status
-accuracy.energymeter.exact,Exact,正確,translated
-accuracy.energymeter.interval,Interval,間隔,translated
-block.energymeter.meter,Energy Meter,エネルギーメーター,translated
-block_side.energymeter.back,Back,背面,translated
-block_side.energymeter.bottom,Bottom,底面,translated
-block_side.energymeter.front,Front,前面,translated
-block_side.energymeter.left,Left,左側,translated
-block_side.energymeter.right,Right,右側,translated
-block_side.energymeter.top,Top,上面,translated
-container.energymeter.meter,Energy Meter,エネルギーメーター,translated
-io_setting.energymeter.in,Input,入力,translated
-io_setting.energymeter.off,Off,オフ,translated
-io_setting.energymeter.out,Output,出力,translated
-io_setting.energymeter.screen,Screen,スクリーン,translated
-itemGroup.energymeter,Energy Meter,エネルギーメーター,translated
-label.energymeter.accuracy,Accuracy,精度,translated
-label.energymeter.interval,I,間隔,translated
-label.energymeter.meter,Energy Meter,エネルギーメーター,translated
-label.energymeter.mode,Mode,モード,translated
-label.energymeter.number,Number,数値,translated
-label.energymeter.status,Status,ステータス,translated
-label.energymeter.threshold,T,閾値,translated
-label.energymeter.transfer_rate,Transfer Rate,転送レート,translated
-mode.energymeter.consumer,Consumer,消費者,translated
-mode.energymeter.transfer,Transfer,転送,translated
-number.energymeter.long,Long,ロング,translated
-number.energymeter.short,Short,ショート,translated
-status.energymeter.connected,Connected,接続済み,translated
-status.energymeter.consuming,Consuming,消費中,translated
-status.energymeter.disconnected,Disconnected,切断,translated
-status.energymeter.transferring,Transferring,転送中,translated
-tooltip.energymeter.accuracy,Accuracy Setting,精度設定,translated
-tooltip.energymeter.accuracy_desc_1,Defines the accuracy of the Energy Meter.,エネルギーメーターの精度を定義します。,translated
-tooltip.energymeter.accuracy_desc_2,"Displays the average rate over the last 5 ticks. Each period, it will discard previous values and show only the current period, leading to spikes if energy is flowing inconsistently.",直近5ティックの平均レートを表示します。各期間ごとに以前の値を破棄し、現在の期間の値のみを表示するため、エネルギー供給が不安定な場合はスパイクが発生します。,translated
-tooltip.energymeter.accuracy_desc_3,"Accepts a custom tick interval and calculates the average over that period. Additionally, it will factor in the rate from the previous period, smoothing out spikes and improving accuracy over multiple cycles.",カスタムティック間隔を受け入れて、その期間の平均値を計算します。さらに、前の期間のレートを考慮して、スパイクを平滑化し、複数のサイクルにわたって精度を向上させます。,translated
-tooltip.energymeter.action_1,to switch,切り替える,translated
-tooltip.energymeter.action_2,to reset,リセットする,translated
-tooltip.energymeter.action_3,to toggle,切り替える,translated
-tooltip.energymeter.action_4,to show extended info,拡張情報を表示,translated
-tooltip.energymeter.action_5,to change interval,間隔を変更,translated
-tooltip.energymeter.action_6,to apply interval,間隔を適用,translated
-tooltip.energymeter.action_click,Click,クリック,translated
-tooltip.energymeter.action_hold,Hold,保持,translated
-tooltip.energymeter.current,Current,現在,translated
-tooltip.energymeter.interval,Update Interval,更新間隔,translated
-tooltip.energymeter.interval_desc_1,Defines the number of ticks (1s = 20 ticks) between each calculation of the transfer rate.,転送レートを計算するティック間の数（1秒 = 20ティック）を定義します。,translated
-tooltip.energymeter.interval_desc_2,Higher values will even out spikes but result in slower updates on the display.,高い値はスパイクをなくしますが、表示の更新が遅くなります。,translated
-tooltip.energymeter.io_mode,Mode,モード,translated
-tooltip.energymeter.io_side,Side,側面,translated
-tooltip.energymeter.mode,Mode Setting,モード設定,translated
-tooltip.energymeter.mode_desc_1,Defines the mode of the Energy Meter.,エネルギーメーターのモードを定義します。,translated
-tooltip.energymeter.mode_desc_2,Acts like a normal cable. Energy will be equally distributed and is only limited by the input/output.,通常のケーブルのように機能します。エネルギーは均等に分配され、入出力によってのみ制限されます。,translated
-tooltip.energymeter.mode_desc_3,Acts like a trash can. Incoming energy will be voided. This can be used to measure the maximum incoming energy.,ゴミ箱のように機能します。入力エネルギーは無効化されます。これを使用して最大入力エネルギーを測定できます。,translated
-tooltip.energymeter.number,Number Setting,数値設定,translated
-tooltip.energymeter.number_desc_1,Defines if the formatting of the transfer rate should be short or long.,転送レートのフォーマットが短いか長いかを定義します。,translated
-tooltip.energymeter.number_desc_2,"Only affects the number if it's more than 1,000 FE/t.","数値が1,000 FE/t以上の場合のみに影響します。",translated
-tooltip.energymeter.side_config,I/O Configuration,入出力設定,translated
-tooltip.energymeter.threshold,Zero Threshold,ゼロ閾値,translated
-tooltip.energymeter.threshold_desc_1,"Defines the reset threshold in ticks (1s = 20 ticks). If no energy is received during this period, metering resets to zero.",リセット閾値をティック単位で定義します（1秒 = 20ティック）。この期間中にエネルギーが受け取られない場合、計測がゼロにリセットされます。,translated
-tooltip.energymeter.threshold_desc_2,"Lower values will detect energy loss quicker. The value cannot be higher than the interval, as this would be of no use.",低い値はエネルギー損失をより速く検出します。値は間隔よりも高くすることはできません。そうしないと役に立たないからです。,translated
+﻿key,source_text,target_text
+accuracy.energymeter.exact,Exact,正確
+accuracy.energymeter.interval,Interval,間隔
+block.energymeter.meter,Energy Meter,エネルギーメーター
+block_side.energymeter.back,Back,背面
+block_side.energymeter.bottom,Bottom,底面
+block_side.energymeter.front,Front,前面
+block_side.energymeter.left,Left,左側
+block_side.energymeter.right,Right,右側
+block_side.energymeter.top,Top,上面
+container.energymeter.meter,Energy Meter,エネルギーメーター
+io_setting.energymeter.in,Input,入力
+io_setting.energymeter.off,Off,オフ
+io_setting.energymeter.out,Output,出力
+io_setting.energymeter.screen,Screen,スクリーン
+itemGroup.energymeter,Energy Meter,エネルギーメーター
+label.energymeter.accuracy,Accuracy,精度
+label.energymeter.interval,I,間隔
+label.energymeter.meter,Energy Meter,エネルギーメーター
+label.energymeter.mode,Mode,モード
+label.energymeter.number,Number,数値
+label.energymeter.status,Status,ステータス
+label.energymeter.threshold,T,閾値
+label.energymeter.transfer_rate,Transfer Rate,転送レート
+mode.energymeter.consumer,Consumer,消費者
+mode.energymeter.transfer,Transfer,転送
+number.energymeter.long,Long,ロング
+number.energymeter.short,Short,ショート
+status.energymeter.connected,Connected,接続済み
+status.energymeter.consuming,Consuming,消費中
+status.energymeter.disconnected,Disconnected,切断
+status.energymeter.transferring,Transferring,転送中
+tooltip.energymeter.accuracy,Accuracy Setting,精度設定
+tooltip.energymeter.accuracy_desc_1,Defines the accuracy of the Energy Meter.,エネルギーメーターの精度を定義します。
+tooltip.energymeter.accuracy_desc_2,"Displays the average rate over the last 5 ticks. Each period, it will discard previous values and show only the current period, leading to spikes if energy is flowing inconsistently.",直近5ティックの平均レートを表示します。各期間ごとに以前の値を破棄し、現在の期間の値のみを表示するため、エネルギー供給が不安定な場合はスパイクが発生します。
+tooltip.energymeter.accuracy_desc_3,"Accepts a custom tick interval and calculates the average over that period. Additionally, it will factor in the rate from the previous period, smoothing out spikes and improving accuracy over multiple cycles.",カスタムティック間隔を受け入れて、その期間の平均値を計算します。さらに、前の期間のレートを考慮して、スパイクを平滑化し、複数のサイクルにわたって精度を向上させます。
+tooltip.energymeter.action_1,to switch,切り替える
+tooltip.energymeter.action_2,to reset,リセットする
+tooltip.energymeter.action_3,to toggle,切り替える
+tooltip.energymeter.action_4,to show extended info,拡張情報を表示
+tooltip.energymeter.action_5,to change interval,間隔を変更
+tooltip.energymeter.action_6,to apply interval,間隔を適用
+tooltip.energymeter.action_click,Click,クリック
+tooltip.energymeter.action_hold,Hold,保持
+tooltip.energymeter.current,Current,現在
+tooltip.energymeter.interval,Update Interval,更新間隔
+tooltip.energymeter.interval_desc_1,Defines the number of ticks (1s = 20 ticks) between each calculation of the transfer rate.,転送レートを計算するティック間の数（1秒 = 20ティック）を定義します。
+tooltip.energymeter.interval_desc_2,Higher values will even out spikes but result in slower updates on the display.,高い値はスパイクをなくしますが、表示の更新が遅くなります。
+tooltip.energymeter.io_mode,Mode,モード
+tooltip.energymeter.io_side,Side,側面
+tooltip.energymeter.mode,Mode Setting,モード設定
+tooltip.energymeter.mode_desc_1,Defines the mode of the Energy Meter.,エネルギーメーターのモードを定義します。
+tooltip.energymeter.mode_desc_2,Acts like a normal cable. Energy will be equally distributed and is only limited by the input/output.,通常のケーブルのように機能します。エネルギーは均等に分配され、入出力によってのみ制限されます。
+tooltip.energymeter.mode_desc_3,Acts like a trash can. Incoming energy will be voided. This can be used to measure the maximum incoming energy.,ゴミ箱のように機能します。入力エネルギーは無効化されます。これを使用して最大入力エネルギーを測定できます。
+tooltip.energymeter.number,Number Setting,数値設定
+tooltip.energymeter.number_desc_1,Defines if the formatting of the transfer rate should be short or long.,転送レートのフォーマットが短いか長いかを定義します。
+tooltip.energymeter.number_desc_2,"Only affects the number if it's more than 1,000 FE/t.","数値が1,000 FE/t以上の場合のみに影響します。"
+tooltip.energymeter.side_config,I/O Configuration,入出力設定
+tooltip.energymeter.threshold,Zero Threshold,ゼロ閾値
+tooltip.energymeter.threshold_desc_1,"Defines the reset threshold in ticks (1s = 20 ticks). If no energy is received during this period, metering resets to zero.",リセット閾値をティック単位で定義します（1秒 = 20ティック）。この期間中にエネルギーが受け取られない場合、計測がゼロにリセットされます。
+tooltip.energymeter.threshold_desc_2,"Lower values will detect energy loss quicker. The value cannot be higher than the interval, as this would be of no use.",低い値はエネルギー損失をより速く検出します。値は間隔よりも高くすることはできません。そうしないと役に立たないからです。

@@ -1,18 +1,18 @@
-﻿key,source_text,target_text,status
-config.ding.cat.ding.desc,Configs related to how ding works,Dingの動作方法に関する設定,translated
-config.ding.cat.ding.name,Ding-related Configs,Ding関連の設定,translated
-config.ding.cat.load.desc,Configs for ding to trigger when the game loads,ゲーム読み込み時にDingを実行する設定,translated
-config.ding.cat.load.name,Minecraft Load-related Configs,Minecraft読み込み関連の設定,translated
-config.ding.cat.resourcesReload.desc,Configs for ding to trigger when resources are reloaded,リソース再読み込み時にDingを実行する設定,translated
-config.ding.cat.resourcesReload.name,Resources reloaded-related Configs,リソース再読み込み関連の設定,translated
-config.ding.cat.world.desc,Configs for ding to trigger when the world loads after connecting to a server,サーバーに接続してワールドが読み込まれる際にDingを実行する設定,translated
-config.ding.cat.world.name,Loading a world-related Configs,ワールド読み込み関連の設定,translated
-config.ding.prop.category.desc,"Sound category for the sound played when Minecraft finishes loading. EG: ""ambient"" or ""music"". Defaults to ""master"" if Ding cannot find your category.","Minecraft起動完了時に再生される音の音声カテゴリー。例：""ambient""または""music""。Dingがカテゴリーを見つけられない場合は""master""がデフォルトです。",translated
-config.ding.prop.category.name,(Load) Sound Category,（読み込み）音声カテゴリー,translated
-config.ding.prop.categoryResourcesReload.desc,"Sound category for the sound played when resources complete reloading. EG: ""ambient"" or ""music"". Defaults to ""master"" if Ding cannot find your category.","リソース再読み込み完了時に再生される音の音声カテゴリー。例：""ambient""または""music""。Dingがカテゴリーを見つけられない場合は""master""がデフォルトです。",translated
-config.ding.prop.categoryResourcesReload.name,(Resources Reload) Sound Category,（リソース再読み込み）音声カテゴリー,translated
-config.ding.prop.categoryWorld.desc,"Sound category for the sound played when the world finishes loading (after connecting to a server). EG: ""ambient"" or ""music"". Defaults to ""master"" if Ding cannot find your category.","サーバー接続後にワールドが読み込まれた際に再生される音の音声カテゴリー。例：""ambient""または""music""。Dingがカテゴリーを見つけられない場合は""master""がデフォルトです。",translated
-config.ding.prop.categoryWorld.name,(World Load) Sound Category,（ワールド読み込み）音声カテゴリー,translated
+﻿key,source_text,target_text
+config.ding.cat.ding.desc,Configs related to how ding works,Dingの動作方法に関する設定
+config.ding.cat.ding.name,Ding-related Configs,Ding関連の設定
+config.ding.cat.load.desc,Configs for ding to trigger when the game loads,ゲーム読み込み時にDingを実行する設定
+config.ding.cat.load.name,Minecraft Load-related Configs,Minecraft読み込み関連の設定
+config.ding.cat.resourcesReload.desc,Configs for ding to trigger when resources are reloaded,リソース再読み込み時にDingを実行する設定
+config.ding.cat.resourcesReload.name,Resources reloaded-related Configs,リソース再読み込み関連の設定
+config.ding.cat.world.desc,Configs for ding to trigger when the world loads after connecting to a server,サーバーに接続してワールドが読み込まれる際にDingを実行する設定
+config.ding.cat.world.name,Loading a world-related Configs,ワールド読み込み関連の設定
+config.ding.prop.category.desc,"Sound category for the sound played when Minecraft finishes loading. EG: ""ambient"" or ""music"". Defaults to ""master"" if Ding cannot find your category.","Minecraft起動完了時に再生される音の音声カテゴリー。例：""ambient""または""music""。Dingがカテゴリーを見つけられない場合は""master""がデフォルトです。"
+config.ding.prop.category.name,(Load) Sound Category,（読み込み）音声カテゴリー
+config.ding.prop.categoryResourcesReload.desc,"Sound category for the sound played when resources complete reloading. EG: ""ambient"" or ""music"". Defaults to ""master"" if Ding cannot find your category.","リソース再読み込み完了時に再生される音の音声カテゴリー。例：""ambient""または""music""。Dingがカテゴリーを見つけられない場合は""master""がデフォルトです。"
+config.ding.prop.categoryResourcesReload.name,(Resources Reload) Sound Category,（リソース再読み込み）音声カテゴリー
+config.ding.prop.categoryWorld.desc,"Sound category for the sound played when the world finishes loading (after connecting to a server). EG: ""ambient"" or ""music"". Defaults to ""master"" if Ding cannot find your category.","サーバー接続後にワールドが読み込まれた際に再生される音の音声カテゴリー。例：""ambient""または""music""。Dingがカテゴリーを見つけられない場合は""master""がデフォルトです。"
+config.ding.prop.categoryWorld.name,(World Load) Sound Category,（ワールド読み込み）音声カテゴリー
 config.ding.prop.name.desc,"Resource Location based name of the sound file to play when Minecraft finishes loading.
 EG: ""ui.button.click"" or ""entity.experience_orb.pickup""
 
@@ -25,35 +25,35 @@ If you want to use external sounds, consider looking into the mods that add reso
 Modがインストールされている場合、Modの音を使用することもできます。
 例：modname:modsound.boing
 
-外部サウンドを使用したい場合は、リソースを追加するModの使用を検討してください。",translated
-config.ding.prop.name.name,(Load) Sound Name,（読み込み）音の名前,translated
+外部サウンドを使用したい場合は、リソースを追加するModの使用を検討してください。"
+config.ding.prop.name.name,(Load) Sound Name,（読み込み）音の名前
 config.ding.prop.nameResourcesReload.desc,"Resource Location based name of the sound file to play when resources complete reloading.
 
 Look at the ""name"" config for more details.","リソース再読み込み完了時に再生する音ファイルのリソースロケーションベースの名前。
 
-詳細は""name""設定を参照してください。",translated
-config.ding.prop.nameResourcesReload.name,(Resources Reload) Sound Name,（リソース再読み込み）音の名前,translated
+詳細は""name""設定を参照してください。"
+config.ding.prop.nameResourcesReload.name,(Resources Reload) Sound Name,（リソース再読み込み）音の名前
 config.ding.prop.nameWorld.desc,"Resource Location based name of the sound file to play when the world finishes loading (after connecting to a server).
 
 Look at the ""name"" config for more details.","サーバー接続後にワールドが読み込まれた際に再生する音ファイルのリソースロケーションベースの名前。
 
-詳細は""name""設定を参照してください。",translated
-config.ding.prop.nameWorld.name,(World Load) Sound Name,（ワールド読み込み）音の名前,translated
-config.ding.prop.pitch.desc,Pitch of the sound (when Minecraft loads),（Minecraft読み込み時の）音のピッチ,translated
-config.ding.prop.pitch.name,(Load) Sound Pitch,（読み込み）音のピッチ,translated
-config.ding.prop.pitchResourcesReload.desc,Pitch of the sound (when resources complete reloading),（リソース再読み込み完了時の）音のピッチ,translated
-config.ding.prop.pitchResourcesReload.name,(Resources Reload) Sound Pitch,（リソース再読み込み）音のピッチ,translated
-config.ding.prop.pitchWorld.desc,Pitch of the sound (when the world loads after connecting to a server),（サーバー接続後のワールド読み込み時の）音のピッチ,translated
-config.ding.prop.pitchWorld.name,(World Load) Sound Pitch,（ワールド読み込み）音のピッチ,translated
-config.ding.prop.playOnLoad.desc,Play sound when the game loads.,ゲーム読み込み時に音を再生します。,translated
-config.ding.prop.playOnLoad.name,Play Sound - Load,音の再生 - 読み込み,translated
-config.ding.prop.playOnResourcesReload.desc,Play sound when resources complete reloading. Requires game to be restarted when changing this option.,リソース再読み込み完了時に音を再生します。このオプションを変更する場合はゲームを再起動する必要があります。,translated
-config.ding.prop.playOnResourcesReload.name,Play Sound - Resources Reload,音の再生 - リソース再読み込み,translated
-config.ding.prop.playOnWorld.desc,Play sound when the world loads after connecting to a server. Requires game to be restarted when changing this option.,サーバー接続後のワールド読み込み時に音を再生します。このオプションを変更する場合はゲームを再起動する必要があります。,translated
-config.ding.prop.playOnWorld.name,Play Sound - World Load,音の再生 - ワールド読み込み,translated
-config.ding.prop.volume.desc,Volume of the volume (when Minecraft loads),（Minecraft読み込み時の）音量,translated
-config.ding.prop.volume.name,(Load) Sound Volume,（読み込み）音量,translated
-config.ding.prop.volumeResourcesReload.desc,Volume of the sound (when resources complete reloading),（リソース再読み込み完了時の）音量,translated
-config.ding.prop.volumeResourcesReload.name,(Resources Reload) Sound Volume,（リソース再読み込み）音量,translated
-config.ding.prop.volumeWorld.desc,Volume of the sound (when the world loads after connecting to a server),（サーバー接続後のワールド読み込み時の）音量,translated
-config.ding.prop.volumeWorld.name,(World Load) Sound Volume,（ワールド読み込み）音量,translated
+詳細は""name""設定を参照してください。"
+config.ding.prop.nameWorld.name,(World Load) Sound Name,（ワールド読み込み）音の名前
+config.ding.prop.pitch.desc,Pitch of the sound (when Minecraft loads),（Minecraft読み込み時の）音のピッチ
+config.ding.prop.pitch.name,(Load) Sound Pitch,（読み込み）音のピッチ
+config.ding.prop.pitchResourcesReload.desc,Pitch of the sound (when resources complete reloading),（リソース再読み込み完了時の）音のピッチ
+config.ding.prop.pitchResourcesReload.name,(Resources Reload) Sound Pitch,（リソース再読み込み）音のピッチ
+config.ding.prop.pitchWorld.desc,Pitch of the sound (when the world loads after connecting to a server),（サーバー接続後のワールド読み込み時の）音のピッチ
+config.ding.prop.pitchWorld.name,(World Load) Sound Pitch,（ワールド読み込み）音のピッチ
+config.ding.prop.playOnLoad.desc,Play sound when the game loads.,ゲーム読み込み時に音を再生します。
+config.ding.prop.playOnLoad.name,Play Sound - Load,音の再生 - 読み込み
+config.ding.prop.playOnResourcesReload.desc,Play sound when resources complete reloading. Requires game to be restarted when changing this option.,リソース再読み込み完了時に音を再生します。このオプションを変更する場合はゲームを再起動する必要があります。
+config.ding.prop.playOnResourcesReload.name,Play Sound - Resources Reload,音の再生 - リソース再読み込み
+config.ding.prop.playOnWorld.desc,Play sound when the world loads after connecting to a server. Requires game to be restarted when changing this option.,サーバー接続後のワールド読み込み時に音を再生します。このオプションを変更する場合はゲームを再起動する必要があります。
+config.ding.prop.playOnWorld.name,Play Sound - World Load,音の再生 - ワールド読み込み
+config.ding.prop.volume.desc,Volume of the volume (when Minecraft loads),（Minecraft読み込み時の）音量
+config.ding.prop.volume.name,(Load) Sound Volume,（読み込み）音量
+config.ding.prop.volumeResourcesReload.desc,Volume of the sound (when resources complete reloading),（リソース再読み込み完了時の）音量
+config.ding.prop.volumeResourcesReload.name,(Resources Reload) Sound Volume,（リソース再読み込み）音量
+config.ding.prop.volumeWorld.desc,Volume of the sound (when the world loads after connecting to a server),（サーバー接続後のワールド読み込み時の）音量
+config.ding.prop.volumeWorld.name,(World Load) Sound Volume,（ワールド読み込み）音量

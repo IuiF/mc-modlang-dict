@@ -1,38 +1,38 @@
-﻿key,source_text,target_text,status
-gui.scannable.block_module.list,Blocks,ブロック,translated
-gui.scannable.entity_module.list,Entities,エンティティ,translated
-gui.scannable.overlay.distance,%s (%sm),%s (%sメートル),translated
-gui.scannable.scanner.active_modules,Modules,モジュール,translated
-gui.scannable.scanner.active_modules.desc,These are the active modules which are used when performing a scan.,スキャン実行時に使用されるアクティブなモジュールです。,translated
-gui.scannable.scanner.inactive_modules,Inactive,非アクティブ,translated
-gui.scannable.scanner.inactive_modules.desc,These are convenience slots for storing additional modules. They are not used when performing a scan.,追加のモジュールを保存するための便利なスロットです。スキャン実行時には使用されません。,translated
-gui.scannable.scanner.progress,Charging... %s%%,チャージ中... %s%%,translated
-item.scannable.blank_module,Blank Scanner Module,空のスキャナーモジュール,translated
-item.scannable.block_module,Scanner Module: Block,スキャナーモジュール: ブロック,translated
-item.scannable.block_module.desc,Detects configured blocks. Use on a block to add it to the configuration. Use on air to manage configuration.,設定されたブロックを検出します。ブロックに使用して設定に追加します。空気に使用して設定を管理します。,translated
-item.scannable.block_module.list,Configured blocks:,設定されたブロック:,translated
-item.scannable.common_ores_module,Scanner Module: Common Ores,スキャナーモジュール: 一般的な鉱石,translated
-item.scannable.common_ores_module.desc,"Detects common ores (e.g. coal, iron).",一般的な鉱石(石炭、鉄など)を検出します。,translated
-item.scannable.entity_module,Scanner Module: Living Entity,スキャナーモジュール: 生物エンティティ,translated
-item.scannable.entity_module.desc,Detects configured living entities. Use on an entity to add it to the configuration. Use on air to manage configuration,設定された生物エンティティを検出します。エンティティに使用して設定に追加します。空気に使用して設定を管理します,translated
-item.scannable.entity_module.list,Configured entities:,設定されたエンティティ:,translated
-item.scannable.fluid_module,Scanner Module: Fluids,スキャナーモジュール: 液体,translated
-item.scannable.fluid_module.desc,"Detects fluids (e.g. water, lava).",液体(水、溶岩など)を検出します。,translated
-item.scannable.friendly_entity_module,Scanner Module: Animals,スキャナーモジュール: 動物,translated
-item.scannable.friendly_entity_module.desc,Detects friendly living entities.,友好的な生物エンティティを検出します。,translated
-item.scannable.hostile_entity_module,Scanner Module: Monsters,スキャナーモジュール: モンスター,translated
-item.scannable.hostile_entity_module.desc,Detects hostile living entities.,敵対的な生物エンティティを検出します。,translated
-item.scannable.range_module,Scanner Module: Range,スキャナーモジュール: 範囲,translated
-item.scannable.range_module.desc,Increase the range of scans.,スキャンの範囲を増加させます。,translated
-item.scannable.rare_ores_module,Scanner Module: Rare Ores,スキャナーモジュール: レアオア,translated
-item.scannable.rare_ores_module.desc,"Detects rare ores (e.g. diamond, emerald).",レアな鉱石(ダイヤモンド、エメラルドなど)を検出します。,translated
-item.scannable.scanner,Scanner,スキャナー,translated
-item.scannable.scanner.desc,Use to scan for nearby points of interest.,近くの興味深いポイントをスキャンするために使用します。,translated
-item.scannable.scanner.energy,Energy: %s/%s,エネルギー: %s/%s,translated
-itemGroup.scannable.common,Scannable,スキャン,translated
-message.scannable.block_ignored,Invalid block.,無効なブロックです。,translated
-message.scannable.no_free_slots,No free slots.,空いているスロットがありません。,translated
-message.scannable.no_scan_modules,No scanning module installed.,スキャンモジュールがインストールされていません。,translated
-message.scannable.not_enough_energy,Not enough energy.,エネルギーが不足しています。,translated
-tooltip.scannable.list_item,§7- §f%s§r,§7• §f%s§r,translated
-tooltip.scannable.module.energy_cost,Energy cost: %s,エネルギーコスト: %s,translated
+﻿key,source_text,target_text
+gui.scannable.block_module.list,Blocks,ブロック
+gui.scannable.entity_module.list,Entities,エンティティ
+gui.scannable.overlay.distance,%s (%sm),%s (%sメートル)
+gui.scannable.scanner.active_modules,Modules,モジュール
+gui.scannable.scanner.active_modules.desc,These are the active modules which are used when performing a scan.,スキャン実行時に使用されるアクティブなモジュールです。
+gui.scannable.scanner.inactive_modules,Inactive,非アクティブ
+gui.scannable.scanner.inactive_modules.desc,These are convenience slots for storing additional modules. They are not used when performing a scan.,追加のモジュールを保存するための便利なスロットです。スキャン実行時には使用されません。
+gui.scannable.scanner.progress,Charging... %s%%,チャージ中... %s%%
+item.scannable.blank_module,Blank Scanner Module,空のスキャナーモジュール
+item.scannable.block_module,Scanner Module: Block,スキャナーモジュール: ブロック
+item.scannable.block_module.desc,Detects configured blocks. Use on a block to add it to the configuration. Use on air to manage configuration.,設定されたブロックを検出します。ブロックに使用して設定に追加します。空気に使用して設定を管理します。
+item.scannable.block_module.list,Configured blocks:,設定されたブロック:
+item.scannable.common_ores_module,Scanner Module: Common Ores,スキャナーモジュール: 一般的な鉱石
+item.scannable.common_ores_module.desc,"Detects common ores (e.g. coal, iron).",一般的な鉱石(石炭、鉄など)を検出します。
+item.scannable.entity_module,Scanner Module: Living Entity,スキャナーモジュール: 生物エンティティ
+item.scannable.entity_module.desc,Detects configured living entities. Use on an entity to add it to the configuration. Use on air to manage configuration,設定された生物エンティティを検出します。エンティティに使用して設定に追加します。空気に使用して設定を管理します
+item.scannable.entity_module.list,Configured entities:,設定されたエンティティ:
+item.scannable.fluid_module,Scanner Module: Fluids,スキャナーモジュール: 液体
+item.scannable.fluid_module.desc,"Detects fluids (e.g. water, lava).",液体(水、溶岩など)を検出します。
+item.scannable.friendly_entity_module,Scanner Module: Animals,スキャナーモジュール: 動物
+item.scannable.friendly_entity_module.desc,Detects friendly living entities.,友好的な生物エンティティを検出します。
+item.scannable.hostile_entity_module,Scanner Module: Monsters,スキャナーモジュール: モンスター
+item.scannable.hostile_entity_module.desc,Detects hostile living entities.,敵対的な生物エンティティを検出します。
+item.scannable.range_module,Scanner Module: Range,スキャナーモジュール: 範囲
+item.scannable.range_module.desc,Increase the range of scans.,スキャンの範囲を増加させます。
+item.scannable.rare_ores_module,Scanner Module: Rare Ores,スキャナーモジュール: レアオア
+item.scannable.rare_ores_module.desc,"Detects rare ores (e.g. diamond, emerald).",レアな鉱石(ダイヤモンド、エメラルドなど)を検出します。
+item.scannable.scanner,Scanner,スキャナー
+item.scannable.scanner.desc,Use to scan for nearby points of interest.,近くの興味深いポイントをスキャンするために使用します。
+item.scannable.scanner.energy,Energy: %s/%s,エネルギー: %s/%s
+itemGroup.scannable.common,Scannable,スキャン
+message.scannable.block_ignored,Invalid block.,無効なブロックです。
+message.scannable.no_free_slots,No free slots.,空いているスロットがありません。
+message.scannable.no_scan_modules,No scanning module installed.,スキャンモジュールがインストールされていません。
+message.scannable.not_enough_energy,Not enough energy.,エネルギーが不足しています。
+tooltip.scannable.list_item,§7- §f%s§r,§7• §f%s§r
+tooltip.scannable.module.energy_cost,Energy cost: %s,エネルギーコスト: %s

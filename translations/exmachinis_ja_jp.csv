@@ -1,0 +1,137 @@
+﻿key,source_text,target_text
+advancement.exmachinis.diamond_upgrade,"Do more at once, faster!",より多く、より速く!
+advancement.exmachinis.diamond_upgrade.desc,Craft a Diamond Upgrade,ダイヤモンドアップグレードをクラフト
+advancement.exmachinis.flux_compactor,Put it back together!,元に戻しましょう!
+advancement.exmachinis.flux_compactor.desc,Pesky pieces filling up your storage? Craft a Flux Compactor,厄介なピースがストレージをいっぱいにしていますか? フラックスコンパクターをクラフト
+advancement.exmachinis.flux_hammer,Break it down!,砕きましょう!
+advancement.exmachinis.flux_hammer.desc,No more pounding sand! Craft a Flux Hammer,もう砂をたたく必要はありません! フラックスハンマーをクラフト
+advancement.exmachinis.flux_sieve,Sieving...with flux!,フラックスでふるい分け!
+advancement.exmachinis.flux_sieve.desc,Tired of right-clicking? Craft a Flux Sieve,右クリックに飽きましたか? フラックスふるいをクラフト
+advancement.exmachinis.gold_upgrade,Do more at once!,より多く一度に!
+advancement.exmachinis.gold_upgrade.desc,Craft a Gold Upgrade,ゴールドアップグレードをクラフト
+advancement.exmachinis.netherite_upgrade,Is this the end?,これが終わりですか?
+advancement.exmachinis.netherite_upgrade.desc,"""No, this is netherite."" Craft a Netherite Upgrade","""いいえ、ネザライトです。"" ネザライトアップグレードをクラフト"
+advancement.exmachinis.root,Ex Machinis,
+advancement.exmachinis.root.desc,"From machines, automation!",マシンから、自動化へ!
+block.exmachinis.flux_compactor,Flux Compactor,フラックスコンパクター
+block.exmachinis.flux_hammer,Flux Hammer,フラックスハンマー
+block.exmachinis.flux_sieve,Flux Sieve,フラックスふるい
+block.exmachinis.item_buffer,Item Buffer,アイテムバッファ
+exmachinis.int.jei.category.compacting,Flux Compactor,フラックスコンパクター
+exmachinis.int.jei.category.flux_compactor,"The Flux Compactor will take items from the internal inventory,
+and place the outputs into an inventory below.
+
+Upgrades can be added to increase the number of items processed at once.
+
+The block can be disabled by a redstone signal.
+
+The output side can be configured by shift + right-clicking with an Ex Nihilo hammer.
+","フラックスコンパクターは内部インベントリからアイテムを取り込み、
+出力を下のインベントリに設置します。
+
+アップグレードを追加して、一度に処理するアイテム数を増やすことができます。
+
+このブロックはレッドストーン信号で無効にできます。
+
+出力側はEx Nihiloハンマーでシフト+右クリックで設定できます。
+"
+exmachinis.int.jei.category.flux_hammer,"The Flux Hammer will take items from an inventory above,
+and place the outputs into an inventory in front.
+
+Upgrades can be added to increase the number of items processed at once.
+
+The block can be disabled by a redstone signal.
+
+The output side can be configured by shift + right-clicking with an Ex Nihilo hammer.
+","フラックスハンマーは上のインベントリからアイテムを取り込み、
+出力を前のインベントリに設置します。
+
+アップグレードを追加して、一度に処理するアイテム数を増やすことができます。
+
+このブロックはレッドストーン信号で無効にできます。
+
+出力側はEx Nihiloハンマーでシフト+右クリックで設定できます。
+"
+exmachinis.int.jei.category.flux_sieve,"The Flux Sieve will take items from the internal inventory,
+and place the outputs into an inventory below.
+
+Upgrades can be added to increase the number of items processed at once.
+
+Meshes can be enchanted in an anvil with Fortune to increase drop chances.
+
+The block can be disabled by a redstone signal.
+
+The output side can be configured by shift + right-clicking with an Ex Nihilo hammer.
+","フラックスふるいは内部インベントリからアイテムを取り込み、
+出力を下のインベントリに設置します。
+
+アップグレードを追加して、一度に処理するアイテム数を増やすことができます。
+
+メッシュは金床でフォーチュンエンチャントして、ドロップ確率を上げることができます。
+
+このブロックはレッドストーン信号で無効にできます。
+
+出力側はEx Nihiloハンマーでシフト+右クリックで設定できます。
+"
+exmachinis.int.jei.category.item_buffer,"The Item Buffer will take items from the internal inventory,
+and move them into an inventory below.
+
+Upgrades can be added to increase the number of items processed at once.
+
+A comparator upgrade can be added to produce a redstone signal in a particular direction.
+You could use this to turn off other machines.
+
+The block can be disabled by a redstone signal.
+
+The output side can be configured by shift + right-clicking with an Ex Nihilo hammer.
+","アイテムバッファは内部インベントリからアイテムを取り込み、
+下のインベントリに移動します。
+
+アップグレードを追加して、一度に処理するアイテム数を増やすことができます。
+
+コンパレーターアップグレードを追加して、特定の方向にレッドストーン信号を生成できます。
+これを使用して他のマシンをオフにすることができます。
+
+このブロックはレッドストーン信号で無効にできます。
+
+出力側はEx Nihiloハンマーでシフト+右クリックで設定できます。
+"
+gui.exmachinis.inventoryFull,Inventory is full.,インベントリがいっぱいです。
+gui.exmachinis.inventoryMissing,Missing inventory on output side.,出力側にインベントリがありません。
+gui.exmachinis.meshMissing,Mesh required for operation.,動作にはメッシュが必要です。
+gui.exmachinis.noStatus,Machine starting up...,マシンが起動中です...
+gui.exmachinis.outOfEnergy,Out of energy.,エネルギーが不足しています。
+gui.exmachinis.redstoneDisabled,Disabled by redstone signal.,レッドストーン信号で無効です。
+gui.exmachinis.toggleWork,Working status,作業ステータス
+gui.exmachinis.workArea,Work area (in chunks),作業範囲（チャンク単位）
+gui.exmachinis.workAreaBlocks,Work area (in blocks),作業範囲（ブロック単位）
+gui.exmachinis.working,Machine is working.,マシンが動作しています。
+item.exmachinis.comparator_upgrade,Comparator Upgrade,コンパレーターアップグレード
+item.exmachinis.diamond_upgrade,Diamond Upgrade,ダイヤモンドアップグレード
+item.exmachinis.gold_upgrade,Gold Upgrade,ゴールドアップグレード
+item.exmachinis.netherite_upgrade,Netherite Upgrade,ネザライトアップグレード
+itemGroup.exmachinis,Ex Machinis,
+tooltip.exmachinis.activated,Activated,有効化
+tooltip.exmachinis.compactor1,RF-powered automatic compactor,RF駆動自動コンパクター
+tooltip.exmachinis.comparatorDirection,Direction: %s,方向: %s
+tooltip.exmachinis.comparatorSetDirection1,Sneak + right-click on a block to,スニーク + ブロックを右クリック
+tooltip.exmachinis.comparatorSetDirection2,set the redstone output direction,レッドストーン出力方向を
+tooltip.exmachinis.comparatorSetDirection3,to the clicked face of the block.,クリックしたブロックの面に設定
+tooltip.exmachinis.costPerBlock,RF cost per item: %d,アイテムあたりのRFコスト: %d
+tooltip.exmachinis.diamondItemsProcessed,16/32/64,
+tooltip.exmachinis.energyPerTick,RF per tick: %s RF/t,RF/tick: %s RF/t
+tooltip.exmachinis.fluxBar,Redstone Flux:,レッドストーンフラックス:
+tooltip.exmachinis.fluxData,%d/%d RF stored,%d/%d RF 保存
+tooltip.exmachinis.goldItemsProcessed,2/4/8,
+tooltip.exmachinis.hammer1,RF-powered automatic hammer,RF駆動自動ハンマー
+tooltip.exmachinis.itemsProcessed,Items processed: %s,処理されたアイテム: %s
+tooltip.exmachinis.meshSlot,Mesh Slot,メッシュスロット
+tooltip.exmachinis.netheriteItemsProcessed,64,
+tooltip.exmachinis.player,Player: %s,プレイヤー: %s
+tooltip.exmachinis.processingTime,Processing time: %d ticks,処理時間: %d ticks
+tooltip.exmachinis.progress,Progress: %d/%d seconds,進捗: %d/%d 秒
+tooltip.exmachinis.sieve1,RF-powered automatic sieve,RF駆動自動ふるい
+tooltip.exmachinis.stackSize,Upgrade count: %s,アップグレード数: %s
+tooltip.exmachinis.upgradeSlot,Upgrade Slot,アップグレードスロット
+tooltip.exmachinis.workBar,Work Progress:,作業進捗:
+tooltip.exmachinis.workData,%d/%d ticks,

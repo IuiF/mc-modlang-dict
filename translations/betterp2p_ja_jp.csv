@@ -1,0 +1,48 @@
+﻿key,source_text,target_text
+gui.advanced_memory_card.bind,Bind,バインド
+gui.advanced_memory_card.desc.effect,Effect:,効果:
+gui.advanced_memory_card.desc.not_set,Not set,未設定
+gui.advanced_memory_card.dim,Dim: %d,次元: %d
+gui.advanced_memory_card.error.same_type,P2P already this type.,P2P は既にこのタイプです。
+gui.advanced_memory_card.extra.channel,Channels used: %s,使用チャンネル: %s
+gui.advanced_memory_card.gui_scale.dynamic,Current Size: Automatic,現在のサイズ: 自動
+gui.advanced_memory_card.gui_scale.large,Current Size: Large,現在のサイズ: 大
+gui.advanced_memory_card.gui_scale.normal,Current Size: Standard,現在のサイズ: 標準
+gui.advanced_memory_card.gui_scale.small,Current Size: Small,現在のサイズ: 小
+gui.advanced_memory_card.mode.copy,Current Mode: Copy Input to Output,現在のモード: 入力を出力にコピー
+gui.advanced_memory_card.mode.copy.desc.1,• §aSelected P2P §7must be an §9input.,• §a選択されたP2P §7は §9入力である必要があります。
+gui.advanced_memory_card.mode.copy.desc.2,"• Before binding, the §bbind §btarget §7has its connections removed.",• バインド前に、§bバインド §bターゲット §7の接続が削除されます。
+gui.advanced_memory_card.mode.copy.desc.3,"• The §aselected §aP2P §7becomes the §9input§7, while the §bbind §btarget §7is added to the list of the §aselected §aP2P's §6outputs§7.",• §a選択されたP2P §7は §9入力になり、§bバインド §bターゲット §7は §a選択されたP2P §7の §6出力リスト§7に追加されます。
+gui.advanced_memory_card.mode.copy.desc.4,• The §bbind target §7becomes the same type as its new input.,• §bバインド ターゲット §7は新しい入力と同じタイプになります。
+gui.advanced_memory_card.mode.input,Current Mode: Bind to Input,現在のモード: 入力にバインド
+gui.advanced_memory_card.mode.input.desc.1,"• Before binding, the §aselected §aP2P §7and §bbind §btarget §7(if output) have their connections removed.",• バインド前に、§a選択されたP2P §7と §bバインド §bターゲット §7(出力の場合)の接続が削除されます。
+gui.advanced_memory_card.mode.input.desc.2,"• The §aselected P2P §7becomes the the §6output§7, while the §bbind §btarget §7becomes the §9input§7.",• §a選択されたP2P §7は §6出力になり、§bバインド §bターゲット §7は §9入力になります。
+gui.advanced_memory_card.mode.input.desc.3,"• The §aselected P2P §7becomes the same type as its new input, and the §bbind §btarget §7is added to the output list.",• §a選択されたP2P §7は新しい入力と同じタイプになり、§bバインド §bターゲット §7は出力リストに追加されます。
+gui.advanced_memory_card.mode.output,Current Mode: Bind to Output,現在のモード: 出力にバインド
+gui.advanced_memory_card.mode.output.desc.1,"• Before binding, the §aselected §aP2P §7(if output) and §bbind §btarget §7have their connections removed.",• バインド前に、§a選択されたP2P §7(出力の場合)と §bバインド §bターゲット §7の接続が削除されます。
+gui.advanced_memory_card.mode.output.desc.2,"• The §aselected P2P §7becomes the the §9input§7, while the §bbind §btarget §7becomes the §6output§7.",• §a選択されたP2P §7は §9入力になり、§bバインド §bターゲット §7は §6出力になります。
+gui.advanced_memory_card.mode.output.desc.3,"• The §bbind target §7becomes the same type as its new input, and is added to the output list.",• §bバインド ターゲット §7は新しい入力と同じタイプになり、出力リストに追加されます。
+gui.advanced_memory_card.mode.unbind,Current Mode: Unbind,現在のモード: バインド解除
+gui.advanced_memory_card.mode.unbind.desc.1,• Disables normal functions; you can no longer bind P2Ps.,• 通常の機能を無効にします。P2P をバインドできなくなります。
+gui.advanced_memory_card.mode.unbind.desc.2,"• All bound P2Ps are now unbindable, which resets its frequency and converts it back to an §9input§7.",• すべてのバインドされたP2P がバインド可能になり、周波数がリセットされて §9入力に戻ります。
+gui.advanced_memory_card.name,Name: %s,名前: %s
+gui.advanced_memory_card.p2p_status.bound,Bound,バインド済み
+gui.advanced_memory_card.p2p_status.input,Input,入力
+gui.advanced_memory_card.p2p_status.offline,Offline,オフライン
+gui.advanced_memory_card.p2p_status.output,Output,出力
+gui.advanced_memory_card.p2p_status.unbound,Unbound,バインド未設定
+gui.advanced_memory_card.pos,"Pos: %d, %d, %d","位置: %d, %d, %d"
+gui.advanced_memory_card.select,Select,選択
+gui.advanced_memory_card.side,Side: %s,側面: %s
+gui.advanced_memory_card.sortinfo1,Sorting tags,タグでソート
+gui.advanced_memory_card.sortinfo2,Show Input P2Ps only,入力P2P のみを表示
+gui.advanced_memory_card.sortinfo3,Show Output P2Ps only,出力P2P のみを表示
+gui.advanced_memory_card.sortinfo4,Show Bound P2Ps only,バインド済みP2P のみを表示
+gui.advanced_memory_card.sortinfo5,Show Unbound P2Ps only,バインド未設定のP2P のみを表示
+gui.advanced_memory_card.sortinfo6,Filter by type name(s),タイプ名でフィルター
+gui.advanced_memory_card.sortinfo7,Tags are space separated and are combined w/ the AND operator.,タグはスペース区切りであり、AND演算子で結合されます。
+gui.advanced_memory_card.types.any,§aAll,§aすべて
+gui.advanced_memory_card.types.filtered,Showing: %s,表示中: %s
+gui.advanced_memory_card.unbind,Unbind,バインド解除
+item.betterp2p.advanced_memory_card,Advanced Memory Card,高度なメモリカード
+item.betterp2p.advanced_memory_card.selected,Frequency:,周波数:

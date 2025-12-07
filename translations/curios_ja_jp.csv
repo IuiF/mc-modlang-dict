@@ -1,55 +1,103 @@
-﻿key,source_text,target_text,status
-argument.curios.type.unknown,Unknown curio slot type %s,不明なキュリオスロットタイプ %s,translated
-argument.entity.options.curios.description,Entity curios inventory,エンティティのキュリオスインベントリ,translated
-commands.curios.add.success,%d slots of type %s have been added to %s,%s に %s タイプのスロット %d 個が追加されました,translated
-commands.curios.clear.success,Slot %s has been cleared for %s,%s の %s スロットがクリアされました,translated
-commands.curios.clearAll.success,All slots have been cleared for %s,%s のすべてのスロットがクリアされました,translated
-commands.curios.drop.success,Dropped items in slot %s for %s,%s の %s スロット内のアイテムがドロップされました,translated
-commands.curios.dropAll.success,Dropped items in all slots for %s,%s のすべてのスロット内のアイテムがドロップされました,translated
-commands.curios.lock.success,Slot %s has been locked for %s,%s の %s スロットがロックされました,translated
-commands.curios.remove.success,%d slots of type %s have been removed from %s,%s から %s タイプのスロット %d 個が削除されました,translated
-commands.curios.replace.success,Replaced slot %s for %s with %s,%s の %s スロットが %s に置き換わりました,translated
-commands.curios.reset.success,Reset slots for %s,%s のスロットがリセットされました,translated
-commands.curios.set.success,Type %s now has been set to %d slots for %s,%s の %s タイプが %d スロットに設定されました,translated
-commands.curios.unlock.success,Slot %s has been unlocked for %s,%s の %s スロットがアンロックされました,translated
-curios.cosmetic,Cosmetic,化粧品,translated
-curios.identifier.back,Back,背中,translated
-curios.identifier.belt,Belt,腰,translated
-curios.identifier.body,Body,体,translated
-curios.identifier.bracelet,Bracelet,腕輪,translated
-curios.identifier.charm,Charm,チャーム,translated
-curios.identifier.curio,Curio,キュリオ,translated
-curios.identifier.hands,Hands,手,translated
-curios.identifier.head,Head,頭,translated
-curios.identifier.necklace,Necklace,ネックレス,translated
-curios.identifier.ring,Ring,指輪,translated
-curios.modifiers.back,When on back:,背中に装備時:,translated
-curios.modifiers.belt,When worn as belt:,腰に装備時:,translated
-curios.modifiers.body,When on body:,体に装備時:,translated
-curios.modifiers.bracelet,When worn as bracelet:,腕輪として装備時:,translated
-curios.modifiers.charm,When worn as charm:,チャームとして装備時:,translated
-curios.modifiers.curio,When worn as curio:,キュリオとして装備時:,translated
-curios.modifiers.hands,When on hands:,手に装備時:,translated
-curios.modifiers.head,When on head:,頭に装備時:,translated
-curios.modifiers.necklace,When around neck:,首に装備時:,translated
-curios.modifiers.ring,When worn as ring:,指輪として装備時:,translated
-curios.modifiers.slots.plus,+%s %s Slot,+%s %s スロット,translated
-curios.modifiers.slots.plus.multiple,+%s %s Slots,+%s %s スロット,translated
-curios.modifiers.slots.take,%s %s Slot,%s %s スロット,translated
-curios.modifiers.slots.take.multiple,%s %s Slots,%s %s スロット,translated
-curios.name,Curios,,pending
-curios.networking.failed,Curios Networking Failure,Curios ネットワーク エラー,translated
-curios.slot,Slot,スロット,translated
-curios.tooltip.inactive,Inactive Slot,非アクティブスロット,translated
-curios.tooltip.slot,Slot:,スロット:,translated
-gui.curios.page,Page %d / %d,ページ %d / %d,translated
-gui.curios.toggle,Toggle Visibility,表示切り替え,translated
-gui.curios.toggle.cosmetics,Toggle Cosmetics,化粧品の表示切り替え,translated
-key.curios.category,Curios,,pending
-key.curios.open.desc,Open/Close Curios Inventory,キュリオスインベントリを開く/閉じる,translated
-curios.modifiers.slots.plus.0,+%s %s Slots,,pending
-curios.modifiers.slots.plus.1,+%s%% %s Slots,,pending
-curios.modifiers.slots.plus.2,+%s%% %s Slots,,pending
-curios.modifiers.slots.take.0,-%s %s Slots,,pending
-curios.modifiers.slots.take.1,-%s%% %s Slots,,pending
-curios.modifiers.slots.take.2,-%s%% %s Slots,,pending
+﻿key,source_text,target_text
+argument.curios.type.unknown,Unknown curio slot type %s,不明なキュリオスロットタイプ %s
+argument.curios.type.unknown,Unknown curio slot type %s,不明なキュリオスロットタイプ %s
+argument.entity.options.curios.description,Entity curios inventory,エンティティのキュリオスインベントリ
+argument.entity.options.curios.description,Entity curios inventory,エンティティのキュリオスインベントリ
+commands.curios.add.success,%d slots of type %s have been added to %s,%s に %s タイプのスロット %d 個が追加されました
+commands.curios.add.success,%d slots of type %s have been added to %s,%s に %s タイプのスロット %d 個が追加されました
+commands.curios.clear.success,Slot %s has been cleared for %s,%s の %s スロットがクリアされました
+commands.curios.clear.success,Slot %s has been cleared for %s,%s の %s スロットがクリアされました
+commands.curios.clearAll.success,All slots have been cleared for %s,%s のすべてのスロットがクリアされました
+commands.curios.clearAll.success,All slots have been cleared for %s,%s のすべてのスロットがクリアされました
+commands.curios.drop.success,Dropped items in slot %s for %s,%s の %s スロット内のアイテムがドロップされました
+commands.curios.drop.success,Dropped items in slot %s for %s,%s の %s スロット内のアイテムがドロップされました
+commands.curios.dropAll.success,Dropped items in all slots for %s,%s のすべてのスロット内のアイテムがドロップされました
+commands.curios.dropAll.success,Dropped items in all slots for %s,%s のすべてのスロット内のアイテムがドロップされました
+commands.curios.lock.success,Slot %s has been locked for %s,%s の %s スロットがロックされました
+commands.curios.lock.success,Slot %s has been locked for %s,%s の %s スロットがロックされました
+commands.curios.remove.success,%d slots of type %s have been removed from %s,%s から %s タイプのスロット %d 個が削除されました
+commands.curios.remove.success,%d slots of type %s have been removed from %s,%s から %s タイプのスロット %d 個が削除されました
+commands.curios.replace.success,Replaced slot %s for %s with %s,%s の %s スロットが %s に置き換わりました
+commands.curios.replace.success,Replaced slot %s for %s with %s,%s の %s スロットが %s に置き換わりました
+commands.curios.reset.success,Reset slots for %s,%s のスロットがリセットされました
+commands.curios.reset.success,Reset slots for %s,%s のスロットがリセットされました
+commands.curios.set.success,Type %s now has been set to %d slots for %s,%s の %s タイプが %d スロットに設定されました
+commands.curios.set.success,Type %s now has been set to %d slots for %s,%s の %s タイプが %d スロットに設定されました
+commands.curios.unlock.success,Slot %s has been unlocked for %s,%s の %s スロットがアンロックされました
+commands.curios.unlock.success,Slot %s has been unlocked for %s,%s の %s スロットがアンロックされました
+curios.cosmetic,Cosmetic,化粧品
+curios.cosmetic,Cosmetic,化粧品
+curios.identifier.back,Back,背中
+curios.identifier.back,Back,背中
+curios.identifier.belt,Belt,腰
+curios.identifier.belt,Belt,腰
+curios.identifier.body,Body,体
+curios.identifier.body,Body,体
+curios.identifier.bracelet,Bracelet,腕輪
+curios.identifier.bracelet,Bracelet,腕輪
+curios.identifier.charm,Charm,チャーム
+curios.identifier.charm,Charm,チャーム
+curios.identifier.curio,Curio,キュリオ
+curios.identifier.curio,Curio,キュリオ
+curios.identifier.hands,Hands,手
+curios.identifier.hands,Hands,手
+curios.identifier.head,Head,頭
+curios.identifier.head,Head,頭
+curios.identifier.necklace,Necklace,ネックレス
+curios.identifier.necklace,Necklace,ネックレス
+curios.identifier.ring,Ring,指輪
+curios.identifier.ring,Ring,指輪
+curios.modifiers.back,When on back:,背中に装備時:
+curios.modifiers.back,When on back:,背中に装備時:
+curios.modifiers.belt,When worn as belt:,腰に装備時:
+curios.modifiers.belt,When worn as belt:,腰に装備時:
+curios.modifiers.body,When on body:,体に装備時:
+curios.modifiers.body,When on body:,体に装備時:
+curios.modifiers.bracelet,When worn as bracelet:,腕輪として装備時:
+curios.modifiers.bracelet,When worn as bracelet:,腕輪として装備時:
+curios.modifiers.charm,When worn as charm:,チャームとして装備時:
+curios.modifiers.charm,When worn as charm:,チャームとして装備時:
+curios.modifiers.curio,When worn as curio:,キュリオとして装備時:
+curios.modifiers.curio,When worn as curio:,キュリオとして装備時:
+curios.modifiers.hands,When on hands:,手に装備時:
+curios.modifiers.hands,When on hands:,手に装備時:
+curios.modifiers.head,When on head:,頭に装備時:
+curios.modifiers.head,When on head:,頭に装備時:
+curios.modifiers.necklace,When around neck:,首に装備時:
+curios.modifiers.necklace,When around neck:,首に装備時:
+curios.modifiers.ring,When worn as ring:,指輪として装備時:
+curios.modifiers.ring,When worn as ring:,指輪として装備時:
+curios.modifiers.slots.plus,+%s %s Slot,+%s %s スロット
+curios.modifiers.slots.plus,+%s %s Slot,+%s %s スロット
+curios.modifiers.slots.plus.multiple,+%s %s Slots,+%s %s スロット
+curios.modifiers.slots.plus.multiple,+%s %s Slots,+%s %s スロット
+curios.modifiers.slots.take,%s %s Slot,%s %s スロット
+curios.modifiers.slots.take,%s %s Slot,%s %s スロット
+curios.modifiers.slots.take.multiple,%s %s Slots,%s %s スロット
+curios.modifiers.slots.take.multiple,%s %s Slots,%s %s スロット
+curios.name,Curios,キュリオ
+curios.name,Curios,キュリオ
+curios.networking.failed,Curios Networking Failure,Curios ネットワーク エラー
+curios.networking.failed,Curios Networking Failure,Curios ネットワーク エラー
+curios.slot,Slot,スロット
+curios.slot,Slot,スロット
+curios.tooltip.inactive,Inactive Slot,非アクティブスロット
+curios.tooltip.inactive,Inactive Slot,非アクティブスロット
+curios.tooltip.slot,Slot:,スロット:
+curios.tooltip.slot,Slot:,スロット:
+gui.curios.page,Page %d / %d,ページ %d / %d
+gui.curios.page,Page %d / %d,ページ %d / %d
+gui.curios.toggle,Toggle Visibility,表示切り替え
+gui.curios.toggle,Toggle Visibility,表示切り替え
+gui.curios.toggle.cosmetics,Toggle Cosmetics,化粧品の表示切り替え
+gui.curios.toggle.cosmetics,Toggle Cosmetics,化粧品の表示切り替え
+key.curios.category,Curios,キュリオ
+key.curios.category,Curios,キュリオ
+key.curios.open.desc,Open/Close Curios Inventory,キュリオスインベントリを開く/閉じる
+key.curios.open.desc,Open/Close Curios Inventory,キュリオスインベントリを開く/閉じる
+curios.modifiers.slots.plus.0,+%s %s Slots,+%s %sスロット
+curios.modifiers.slots.plus.1,+%s%% %s Slots,+%s%% %sスロット
+curios.modifiers.slots.plus.2,+%s%% %s Slots,+%s%% %sスロット
+curios.modifiers.slots.take.0,-%s %s Slots,-%s %sスロット
+curios.modifiers.slots.take.1,-%s%% %s Slots,-%s%% %sスロット
+curios.modifiers.slots.take.2,-%s%% %s Slots,-%s%% %sスロット

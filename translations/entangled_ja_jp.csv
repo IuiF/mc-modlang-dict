@@ -1,25 +1,73 @@
-﻿key,source_text,target_text,status
-config.jade.plugin_entangled.entangled_block_component,Entangled Block,エンタングルドブロック,translated
-entangled.block.block,Entangled Block,エンタングルドブロック,translated
-entangled.entangled_binder.clear,Connection cleared!,接続を切断しました！,translated
-entangled.entangled_binder.info,Can bind entangled blocks to other blocks,エンタングルドブロックを他のブロックに接続できます,translated
-entangled.entangled_binder.info.target.known,"Linked to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中",translated
-entangled.entangled_binder.info.target.unknown,"Linked to a block in the %4$s at (%1$d, %2$d, %3$d)","(%1$d, %2$d, %3$d)の%4$s内のブロックに接続中",translated
-entangled.entangled_binder.select,Block selected!,ブロックを選択しました！,translated
-entangled.entangled_binder.unknown_dimension,Binder is bound to unknown dimension '%s'!,バインダーが不明なディメンション「%s」に接続されています！,translated
-entangled.entangled_block.bind,Block bound!,ブロックを接続しました！,translated
-entangled.entangled_block.info.bound,"Bound to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中",translated
-entangled.entangled_block.info.infinite_other_dimension,Can be bound to other blocks,他のブロックに接続できます,translated
-entangled.entangled_block.info.infinite_same_dimension,Can be bound to blocks in the same dimension,同じディメンション内のブロックに接続できます,translated
-entangled.entangled_block.info.ranged_other_dimension,Can be bound to blocks up to %d blocks away or to blocks in other dimensions,最大%dブロック離れたブロック、または他のディメンションのブロックに接続できます,translated
-entangled.entangled_block.info.ranged_same_dimension,Can be bound to blocks in the same dimension up to %d blocks away,同じディメンション内の最大%dブロック離れたブロックに接続できます,translated
-entangled.entangled_block.no_selection,No block selected!,ブロックが選択されていません！,translated
-entangled.entangled_block.self,Can't bind a block to itself!,ブロックを自身に接続することはできません！,translated
-entangled.entangled_block.too_far,The targeted block is too far away!,対象のブロックが遠すぎます！,translated
-entangled.entangled_block.unbind,Block unbound!,ブロックの接続を解除しました！,translated
-entangled.entangled_block.wrong_dimension,The targeted block must be in the same dimension!,対象のブロックは同じディメンション内にある必要があります！,translated
-entangled.item.item,Entangled Binder,エンタングルド・バインダー,translated
-entangled.waila.bound_other_dimension,"Bound to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中",translated
-entangled.waila.bound_same_dimension,"Bound to %1$s at (%2$d, %3$d, %4$d)","(%2$d, %3$d, %4$d)の%1$sに接続中",translated
-entangled.waila.invalid_block,Invalid block '%s'!,無効なブロック「%s」です！,translated
-entangled.waila.unbound,Unbound,接続解除,translated
+﻿key,source_text,target_text
+config.jade.plugin_entangled.entangled_block_component,Entangled Block,エンタングルドブロック
+config.jade.plugin_entangled.entangled_block_component,Entangled Block,エンタングルドブロック
+config.jade.plugin_entangled.entangled_block_component,Entangled Block,エンタングルドブロック
+entangled.block.block,Entangled Block,エンタングルドブロック
+entangled.block.block,Entangled Block,エンタングルドブロック
+entangled.block.block,Entangled Block,エンタングルドブロック
+entangled.entangled_binder.clear,Connection cleared!,接続を切断しました！
+entangled.entangled_binder.clear,Connection cleared!,接続を切断しました！
+entangled.entangled_binder.clear,Connection cleared!,接続を切断しました！
+entangled.entangled_binder.info,Can bind entangled blocks to other blocks,エンタングルドブロックを他のブロックに接続できます
+entangled.entangled_binder.info,Can bind entangled blocks to other blocks,エンタングルドブロックを他のブロックに接続できます
+entangled.entangled_binder.info,Can bind entangled blocks to other blocks,エンタングルドブロックを他のブロックに接続できます
+entangled.entangled_binder.info.target.known,"Linked to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.entangled_binder.info.target.known,"Linked to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.entangled_binder.info.target.known,"Linked to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.entangled_binder.info.target.unknown,"Linked to a block in the %4$s at (%1$d, %2$d, %3$d)","(%1$d, %2$d, %3$d)の%4$s内のブロックに接続中"
+entangled.entangled_binder.info.target.unknown,"Linked to a block in the %4$s at (%1$d, %2$d, %3$d)","(%1$d, %2$d, %3$d)の%4$s内のブロックに接続中"
+entangled.entangled_binder.info.target.unknown,"Linked to a block in the %4$s at (%1$d, %2$d, %3$d)","(%1$d, %2$d, %3$d)の%4$s内のブロックに接続中"
+entangled.entangled_binder.select,Block selected!,ブロックを選択しました！
+entangled.entangled_binder.select,Block selected!,ブロックを選択しました！
+entangled.entangled_binder.select,Block selected!,ブロックを選択しました！
+entangled.entangled_binder.unknown_dimension,Binder is bound to unknown dimension '%s'!,バインダーが不明なディメンション「%s」に接続されています！
+entangled.entangled_binder.unknown_dimension,Binder is bound to unknown dimension '%s'!,バインダーが不明なディメンション「%s」に接続されています！
+entangled.entangled_binder.unknown_dimension,Binder is bound to unknown dimension '%s'!,バインダーが不明なディメンション「%s」に接続されています！
+entangled.entangled_block.bind,Block bound!,ブロックを接続しました！
+entangled.entangled_block.bind,Block bound!,ブロックを接続しました！
+entangled.entangled_block.bind,Block bound!,ブロックを接続しました！
+entangled.entangled_block.info.bound,"Bound to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.entangled_block.info.bound,"Bound to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.entangled_block.info.bound,"Bound to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.entangled_block.info.infinite_other_dimension,Can be bound to other blocks,他のブロックに接続できます
+entangled.entangled_block.info.infinite_other_dimension,Can be bound to other blocks,他のブロックに接続できます
+entangled.entangled_block.info.infinite_other_dimension,Can be bound to other blocks,他のブロックに接続できます
+entangled.entangled_block.info.infinite_same_dimension,Can be bound to blocks in the same dimension,同じディメンション内のブロックに接続できます
+entangled.entangled_block.info.infinite_same_dimension,Can be bound to blocks in the same dimension,同じディメンション内のブロックに接続できます
+entangled.entangled_block.info.infinite_same_dimension,Can be bound to blocks in the same dimension,同じディメンション内のブロックに接続できます
+entangled.entangled_block.info.ranged_other_dimension,Can be bound to blocks up to %d blocks away or to blocks in other dimensions,最大%dブロック離れたブロック、または他のディメンションのブロックに接続できます
+entangled.entangled_block.info.ranged_other_dimension,Can be bound to blocks up to %d blocks away or to blocks in other dimensions,最大%dブロック離れたブロック、または他のディメンションのブロックに接続できます
+entangled.entangled_block.info.ranged_other_dimension,Can be bound to blocks up to %d blocks away or to blocks in other dimensions,最大%dブロック離れたブロック、または他のディメンションのブロックに接続できます
+entangled.entangled_block.info.ranged_same_dimension,Can be bound to blocks in the same dimension up to %d blocks away,同じディメンション内の最大%dブロック離れたブロックに接続できます
+entangled.entangled_block.info.ranged_same_dimension,Can be bound to blocks in the same dimension up to %d blocks away,同じディメンション内の最大%dブロック離れたブロックに接続できます
+entangled.entangled_block.info.ranged_same_dimension,Can be bound to blocks in the same dimension up to %d blocks away,同じディメンション内の最大%dブロック離れたブロックに接続できます
+entangled.entangled_block.no_selection,No block selected!,ブロックが選択されていません！
+entangled.entangled_block.no_selection,No block selected!,ブロックが選択されていません！
+entangled.entangled_block.no_selection,No block selected!,ブロックが選択されていません！
+entangled.entangled_block.self,Can't bind a block to itself!,ブロックを自身に接続することはできません！
+entangled.entangled_block.self,Can't bind a block to itself!,ブロックを自身に接続することはできません！
+entangled.entangled_block.self,Can't bind a block to itself!,ブロックを自身に接続することはできません！
+entangled.entangled_block.too_far,The targeted block is too far away!,対象のブロックが遠すぎます！
+entangled.entangled_block.too_far,The targeted block is too far away!,対象のブロックが遠すぎます！
+entangled.entangled_block.too_far,The targeted block is too far away!,対象のブロックが遠すぎます！
+entangled.entangled_block.unbind,Block unbound!,ブロックの接続を解除しました！
+entangled.entangled_block.unbind,Block unbound!,ブロックの接続を解除しました！
+entangled.entangled_block.unbind,Block unbound!,ブロックの接続を解除しました！
+entangled.entangled_block.wrong_dimension,The targeted block must be in the same dimension!,対象のブロックは同じディメンション内にある必要があります！
+entangled.entangled_block.wrong_dimension,The targeted block must be in the same dimension!,対象のブロックは同じディメンション内にある必要があります！
+entangled.entangled_block.wrong_dimension,The targeted block must be in the same dimension!,対象のブロックは同じディメンション内にある必要があります！
+entangled.item.item,Entangled Binder,エンタングルド・バインダー
+entangled.item.item,Entangled Binder,エンタングルド・バインダー
+entangled.item.item,Entangled Binder,エンタングルド・バインダー
+entangled.waila.bound_other_dimension,"Bound to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.waila.bound_other_dimension,"Bound to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.waila.bound_other_dimension,"Bound to %1$s in the %5$s at (%2$d, %3$d, %4$d)","%5$s内の(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.waila.bound_same_dimension,"Bound to %1$s at (%2$d, %3$d, %4$d)","(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.waila.bound_same_dimension,"Bound to %1$s at (%2$d, %3$d, %4$d)","(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.waila.bound_same_dimension,"Bound to %1$s at (%2$d, %3$d, %4$d)","(%2$d, %3$d, %4$d)の%1$sに接続中"
+entangled.waila.invalid_block,Invalid block '%s'!,無効なブロック「%s」です！
+entangled.waila.invalid_block,Invalid block '%s'!,無効なブロック「%s」です！
+entangled.waila.invalid_block,Invalid block '%s'!,無効なブロック「%s」です！
+entangled.waila.unbound,Unbound,接続解除
+entangled.waila.unbound,Unbound,接続解除
+entangled.waila.unbound,Unbound,接続解除

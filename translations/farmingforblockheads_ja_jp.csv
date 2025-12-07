@@ -1,66 +1,160 @@
-﻿key,source_text,target_text,status
-block.farmingforblockheads.chicken_nest,Chicken Nest,ニワトリの巣,verified
-block.farmingforblockheads.feeding_trough,Feeding Trough,餌箱,verified
-block.farmingforblockheads.fertilized_farmland_healthy,Fertilized Farmland,肥沃な耕地,verified
-block.farmingforblockheads.fertilized_farmland_healthy_stable,Fertilized Farmland,肥沃な耕地,verified
-block.farmingforblockheads.fertilized_farmland_rich,Fertilized Farmland,肥沃な耕地,verified
-block.farmingforblockheads.fertilized_farmland_rich_stable,Fertilized Farmland,肥沃な耕地,verified
-block.farmingforblockheads.fertilized_farmland_stable,Fertilized Farmland,肥沃な耕地,verified
-block.farmingforblockheads.market,Market,市場,verified
-category.farmingforblockheads.flowers,Flowers,花,verified
-category.farmingforblockheads.other,Other,その他,verified
-category.farmingforblockheads.saplings,Saplings,苗木,verified
-category.farmingforblockheads.seeds,Seeds,種,verified
-commands.farmingforblockheads.reload.success,Farming for Blockheads registries reloaded.,Farming for Blockheadsのレジストリを再読み込みしました,verified
-config.farmingforblockheads.chickenNestRange,Chicken Nest Range,ニワトリの巣の効果範囲,verified
-config.farmingforblockheads.chickenNestRange.tooltip,The range at which the chicken nest picks up laid eggs.,ニワトリの巣が卵を収集する範囲。,verified
-config.farmingforblockheads.feedingTroughMaxAnimals,Feeding Trough Max Animals,餌箱の最大動物数,verified
-config.farmingforblockheads.feedingTroughMaxAnimals.tooltip,The maximum amount of animals (per type) until the feeding trough stops feeding.,餌箱が機能停止するまでの動物の最大数（種類ごと）。,verified
-config.farmingforblockheads.feedingTroughRange,Feeding Trough Range,餌箱の効果範囲,verified
-config.farmingforblockheads.feedingTroughRange.tooltip,The range within animals can be fed by the feeding trough.,餌箱で動物が求愛状態に入る範囲。,verified
-config.farmingforblockheads.fertilizerBonusCropChance,Green Fertilizer Bonus Crop Chance,緑色の肥料で収穫量が増える確率,verified
-config.farmingforblockheads.fertilizerBonusCropChance.tooltip,The chance to get a bonus crop when using Green Fertilizer.,緑色の肥料の影響を受けた作物の収穫量が増える確率。,verified
-config.farmingforblockheads.fertilizerBonusGrowthChance,Red Fertilizer Bonus Growth Chance,赤色の肥料で成長段階が増える確率,verified
-config.farmingforblockheads.fertilizerBonusGrowthChance.tooltip,The chance to get a bonus growth when using Red Fertilizer.,赤色の肥料の影響を受けた作物の成長段階が増える確率。,verified
-config.farmingforblockheads.fertilizerRegressionChance,Fertilizer Regression Chance,肥沃な耕地が通常の耕地に戻る確率,verified
-config.farmingforblockheads.fertilizerRegressionChance.tooltip,The chance for Fertilized Farmland to turn back into regular Farmland (per provided bonus).,肥沃な耕地が通常の耕地に戻る確率（効果発生ごと）。,verified
-config.farmingforblockheads.merchantNames,Merchant Names,商人の名前,verified
-config.farmingforblockheads.merchantNames.tooltip,List of names the merchant can have.,商人の名前候補の一覧。,verified
-config.farmingforblockheads.title,Farming for Blockheads,農業のためのブロックヘッド,translated
-config.farmingforblockheads.treatMerchantsLikeBabies,Treat Merchants like Babies,商人を子どもとして扱う,verified
-config.farmingforblockheads.treatMerchantsLikeBabies.tooltip,"If true, merchants will be considered babies (on a technical level only), which may resolve exploits based on merchant death loot (like blood)",trueにすると、商人は技術的に子どもとして扱われます。商人の死亡時のドロップ（血液など）に基づくエクスプロイトが解決される可能性があります。,verified
-container.farmingforblockheads.market,Market,市場,verified
-entity.farmingforblockheads.merchant,Merchant,商人,verified
-farmingforblockheads.subtitle.falling,Something falling from a great height,何かがものすごい高さから落ちてくる,verified
-gui.farmingforblockheads.market.cost,%s,,pending
-gui.farmingforblockheads.market.no_selection,No Selection,未選択,verified
-item.farmingforblockheads.green_fertilizer,Green Fertilizer,緑色の肥料,verified
-item.farmingforblockheads.red_fertilizer,Red Fertilizer,赤色の肥料,verified
-item.farmingforblockheads.yellow_fertilizer,Yellow Fertilizer,黄色の肥料,verified
-itemGroup.farmingforblockheads.farmingforblockheads,Farming for Blockheads,農業のためのブロックヘッド,translated
-jei.farmingforblockheads.market,Market,市場,verified
-tooltip.farmingforblockheads.chicken_nest,Collects eggs laid by chicken,ニワトリが産んだ卵を収集します,verified
-tooltip.farmingforblockheads.feeding_trough,Auto-feeds nearby animals ready to mate,近くの動物に自動で餌を与えます,verified
-tooltip.farmingforblockheads.green_fertilizer,Increases crop output,作物の収穫量が増加します,verified
-tooltip.farmingforblockheads.payment,Cost: %s,コスト：%s,verified
-tooltip.farmingforblockheads.payment_item,%dx %s,%2$s %1$d個,verified
-tooltip.farmingforblockheads.red_fertilizer,Speeds up growth,作物の成長が早くなります,verified
-tooltip.farmingforblockheads.yellow_fertilizer,Prevents trampling,踏まれても土に戻らなくなります,verified
-commands.farmingforblockheads:reload.success,Farming for Blockheads registries reloaded.,Farming for Blockheads レジストリをリロードしました。,translated
-gui.farmingforblockheads:market.cost,%dx %s,%d個の %s,translated
-gui.farmingforblockheads:market.no_selection,No Selection,選択なし,translated
-gui.farmingforblockheads:market.tooltip_cost,Cost: %s,コスト: %s,translated
-gui.farmingforblockheads:market.tooltip_flowers,Flowers,花,translated
-gui.farmingforblockheads:market.tooltip_none,No tooltip specified,説明は指定されていません,translated
-gui.farmingforblockheads:market.tooltip_other,Other,その他,translated
-gui.farmingforblockheads:market.tooltip_saplings,Saplings,苗木,translated
-gui.farmingforblockheads:market.tooltip_seeds,Seeds,種,translated
-jei.farmingforblockheads:market,Market,マーケット,translated
-tooltip.farmingforblockheads:chicken_nest,Collects eggs laid by chicken,鶏が産んだ卵を回収します,translated
-tooltip.farmingforblockheads:feeding_trough,Auto-feeds nearby animals,近くの動物に自動給餌します,translated
-tooltip.farmingforblockheads:fertilizer_healthy,Speeds up growth,成長を加速します,translated
-tooltip.farmingforblockheads:fertilizer_rich,Increases crop output,作物の出力を増加させます,translated
-tooltip.farmingforblockheads:fertilizer_stable,Prevents trampling,踏み潰しを防止します,translated
-tooltip.farmingforblockheads:trait_healthy,Speeds up growth,成長を加速します,translated
-tooltip.farmingforblockheads:trait_rich,Increases crop output,作物の出力を増加させます,translated
-tooltip.farmingforblockheads:trait_stable,Prevents trampling,踏み潰しを防止します,translated
+﻿key,source_text,target_text
+block.farmingforblockheads.chicken_nest,Chicken Nest,ニワトリの巣
+block.farmingforblockheads.chicken_nest,Chicken Nest,ニワトリの巣
+block.farmingforblockheads.chicken_nest,Chicken Nest,ニワトリの巣
+block.farmingforblockheads.feeding_trough,Feeding Trough,餌箱
+block.farmingforblockheads.feeding_trough,Feeding Trough,餌箱
+block.farmingforblockheads.feeding_trough,Feeding Trough,餌箱
+block.farmingforblockheads.fertilized_farmland_healthy,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_healthy,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_healthy,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_healthy_stable,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_healthy_stable,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_healthy_stable,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_rich,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_rich,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_rich,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_rich_stable,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_rich_stable,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_rich_stable,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_stable,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_stable,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.fertilized_farmland_stable,Fertilized Farmland,肥沃な耕地
+block.farmingforblockheads.market,Market,市場
+block.farmingforblockheads.market,Market,市場
+block.farmingforblockheads.market,Market,市場
+category.farmingforblockheads.flowers,Flowers,花
+category.farmingforblockheads.flowers,Flowers,花
+category.farmingforblockheads.flowers,Flowers,花
+category.farmingforblockheads.other,Other,その他
+category.farmingforblockheads.other,Other,その他
+category.farmingforblockheads.other,Other,その他
+category.farmingforblockheads.saplings,Saplings,苗木
+category.farmingforblockheads.saplings,Saplings,苗木
+category.farmingforblockheads.saplings,Saplings,苗木
+category.farmingforblockheads.seeds,Seeds,種
+category.farmingforblockheads.seeds,Seeds,種
+category.farmingforblockheads.seeds,Seeds,種
+commands.farmingforblockheads.reload.success,Farming for Blockheads registries reloaded.,Farming for Blockheadsのレジストリを再読み込みしました
+commands.farmingforblockheads.reload.success,Farming for Blockheads registries reloaded.,Farming for Blockheadsのレジストリを再読み込みしました
+commands.farmingforblockheads.reload.success,Farming for Blockheads registries reloaded.,Farming for Blockheadsのレジストリを再読み込みしました
+config.farmingforblockheads.chickenNestRange,Chicken Nest Range,ニワトリの巣の効果範囲
+config.farmingforblockheads.chickenNestRange,Chicken Nest Range,ニワトリの巣の効果範囲
+config.farmingforblockheads.chickenNestRange,Chicken Nest Range,ニワトリの巣の効果範囲
+config.farmingforblockheads.chickenNestRange.tooltip,The range at which the chicken nest picks up laid eggs.,ニワトリの巣が卵を収集する範囲。
+config.farmingforblockheads.chickenNestRange.tooltip,The range at which the chicken nest picks up laid eggs.,ニワトリの巣が卵を収集する範囲。
+config.farmingforblockheads.chickenNestRange.tooltip,The range at which the chicken nest picks up laid eggs.,ニワトリの巣が卵を収集する範囲。
+config.farmingforblockheads.feedingTroughMaxAnimals,Feeding Trough Max Animals,餌箱の最大動物数
+config.farmingforblockheads.feedingTroughMaxAnimals,Feeding Trough Max Animals,餌箱の最大動物数
+config.farmingforblockheads.feedingTroughMaxAnimals,Feeding Trough Max Animals,餌箱の最大動物数
+config.farmingforblockheads.feedingTroughMaxAnimals.tooltip,The maximum amount of animals (per type) until the feeding trough stops feeding.,餌箱が機能停止するまでの動物の最大数（種類ごと）。
+config.farmingforblockheads.feedingTroughMaxAnimals.tooltip,The maximum amount of animals (per type) until the feeding trough stops feeding.,餌箱が機能停止するまでの動物の最大数（種類ごと）。
+config.farmingforblockheads.feedingTroughMaxAnimals.tooltip,The maximum amount of animals (per type) until the feeding trough stops feeding.,餌箱が機能停止するまでの動物の最大数（種類ごと）。
+config.farmingforblockheads.feedingTroughRange,Feeding Trough Range,餌箱の効果範囲
+config.farmingforblockheads.feedingTroughRange,Feeding Trough Range,餌箱の効果範囲
+config.farmingforblockheads.feedingTroughRange,Feeding Trough Range,餌箱の効果範囲
+config.farmingforblockheads.feedingTroughRange.tooltip,The range within animals can be fed by the feeding trough.,餌箱で動物が求愛状態に入る範囲。
+config.farmingforblockheads.feedingTroughRange.tooltip,The range within animals can be fed by the feeding trough.,餌箱で動物が求愛状態に入る範囲。
+config.farmingforblockheads.feedingTroughRange.tooltip,The range within animals can be fed by the feeding trough.,餌箱で動物が求愛状態に入る範囲。
+config.farmingforblockheads.fertilizerBonusCropChance,Green Fertilizer Bonus Crop Chance,緑色の肥料で収穫量が増える確率
+config.farmingforblockheads.fertilizerBonusCropChance,Green Fertilizer Bonus Crop Chance,緑色の肥料で収穫量が増える確率
+config.farmingforblockheads.fertilizerBonusCropChance,Green Fertilizer Bonus Crop Chance,緑色の肥料で収穫量が増える確率
+config.farmingforblockheads.fertilizerBonusCropChance.tooltip,The chance to get a bonus crop when using Green Fertilizer.,緑色の肥料の影響を受けた作物の収穫量が増える確率。
+config.farmingforblockheads.fertilizerBonusCropChance.tooltip,The chance to get a bonus crop when using Green Fertilizer.,緑色の肥料の影響を受けた作物の収穫量が増える確率。
+config.farmingforblockheads.fertilizerBonusCropChance.tooltip,The chance to get a bonus crop when using Green Fertilizer.,緑色の肥料の影響を受けた作物の収穫量が増える確率。
+config.farmingforblockheads.fertilizerBonusGrowthChance,Red Fertilizer Bonus Growth Chance,赤色の肥料で成長段階が増える確率
+config.farmingforblockheads.fertilizerBonusGrowthChance,Red Fertilizer Bonus Growth Chance,赤色の肥料で成長段階が増える確率
+config.farmingforblockheads.fertilizerBonusGrowthChance,Red Fertilizer Bonus Growth Chance,赤色の肥料で成長段階が増える確率
+config.farmingforblockheads.fertilizerBonusGrowthChance.tooltip,The chance to get a bonus growth when using Red Fertilizer.,赤色の肥料の影響を受けた作物の成長段階が増える確率。
+config.farmingforblockheads.fertilizerBonusGrowthChance.tooltip,The chance to get a bonus growth when using Red Fertilizer.,赤色の肥料の影響を受けた作物の成長段階が増える確率。
+config.farmingforblockheads.fertilizerBonusGrowthChance.tooltip,The chance to get a bonus growth when using Red Fertilizer.,赤色の肥料の影響を受けた作物の成長段階が増える確率。
+config.farmingforblockheads.fertilizerRegressionChance,Fertilizer Regression Chance,肥沃な耕地が通常の耕地に戻る確率
+config.farmingforblockheads.fertilizerRegressionChance,Fertilizer Regression Chance,肥沃な耕地が通常の耕地に戻る確率
+config.farmingforblockheads.fertilizerRegressionChance,Fertilizer Regression Chance,肥沃な耕地が通常の耕地に戻る確率
+config.farmingforblockheads.fertilizerRegressionChance.tooltip,The chance for Fertilized Farmland to turn back into regular Farmland (per provided bonus).,肥沃な耕地が通常の耕地に戻る確率（効果発生ごと）。
+config.farmingforblockheads.fertilizerRegressionChance.tooltip,The chance for Fertilized Farmland to turn back into regular Farmland (per provided bonus).,肥沃な耕地が通常の耕地に戻る確率（効果発生ごと）。
+config.farmingforblockheads.fertilizerRegressionChance.tooltip,The chance for Fertilized Farmland to turn back into regular Farmland (per provided bonus).,肥沃な耕地が通常の耕地に戻る確率（効果発生ごと）。
+config.farmingforblockheads.merchantNames,Merchant Names,商人の名前
+config.farmingforblockheads.merchantNames,Merchant Names,商人の名前
+config.farmingforblockheads.merchantNames,Merchant Names,商人の名前
+config.farmingforblockheads.merchantNames.tooltip,List of names the merchant can have.,商人の名前候補の一覧。
+config.farmingforblockheads.merchantNames.tooltip,List of names the merchant can have.,商人の名前候補の一覧。
+config.farmingforblockheads.merchantNames.tooltip,List of names the merchant can have.,商人の名前候補の一覧。
+config.farmingforblockheads.title,Farming for Blockheads,農業のためのブロックヘッド
+config.farmingforblockheads.title,Farming for Blockheads,農業のためのブロックヘッド
+config.farmingforblockheads.title,Farming for Blockheads,農業のためのブロックヘッド
+config.farmingforblockheads.treatMerchantsLikeBabies,Treat Merchants like Babies,商人を子どもとして扱う
+config.farmingforblockheads.treatMerchantsLikeBabies,Treat Merchants like Babies,商人を子どもとして扱う
+config.farmingforblockheads.treatMerchantsLikeBabies,Treat Merchants like Babies,商人を子どもとして扱う
+config.farmingforblockheads.treatMerchantsLikeBabies.tooltip,"If true, merchants will be considered babies (on a technical level only), which may resolve exploits based on merchant death loot (like blood)",trueにすると、商人は技術的に子どもとして扱われます。商人の死亡時のドロップ（血液など）に基づくエクスプロイトが解決される可能性があります。
+config.farmingforblockheads.treatMerchantsLikeBabies.tooltip,"If true, merchants will be considered babies (on a technical level only), which may resolve exploits based on merchant death loot (like blood)",trueにすると、商人は技術的に子どもとして扱われます。商人の死亡時のドロップ（血液など）に基づくエクスプロイトが解決される可能性があります。
+config.farmingforblockheads.treatMerchantsLikeBabies.tooltip,"If true, merchants will be considered babies (on a technical level only), which may resolve exploits based on merchant death loot (like blood)",trueにすると、商人は技術的に子どもとして扱われます。商人の死亡時のドロップ（血液など）に基づくエクスプロイトが解決される可能性があります。
+container.farmingforblockheads.market,Market,市場
+container.farmingforblockheads.market,Market,市場
+container.farmingforblockheads.market,Market,市場
+entity.farmingforblockheads.merchant,Merchant,商人
+entity.farmingforblockheads.merchant,Merchant,商人
+entity.farmingforblockheads.merchant,Merchant,商人
+farmingforblockheads.subtitle.falling,Something falling from a great height,何かがものすごい高さから落ちてくる
+farmingforblockheads.subtitle.falling,Something falling from a great height,何かがものすごい高さから落ちてくる
+farmingforblockheads.subtitle.falling,Something falling from a great height,何かがものすごい高さから落ちてくる
+gui.farmingforblockheads.market.cost,%s,
+gui.farmingforblockheads.market.cost,%s,
+gui.farmingforblockheads.market.cost,%s,
+gui.farmingforblockheads.market.no_selection,No Selection,未選択
+gui.farmingforblockheads.market.no_selection,No Selection,未選択
+gui.farmingforblockheads.market.no_selection,No Selection,未選択
+item.farmingforblockheads.green_fertilizer,Green Fertilizer,緑色の肥料
+item.farmingforblockheads.green_fertilizer,Green Fertilizer,緑色の肥料
+item.farmingforblockheads.green_fertilizer,Green Fertilizer,緑色の肥料
+item.farmingforblockheads.red_fertilizer,Red Fertilizer,赤色の肥料
+item.farmingforblockheads.red_fertilizer,Red Fertilizer,赤色の肥料
+item.farmingforblockheads.red_fertilizer,Red Fertilizer,赤色の肥料
+item.farmingforblockheads.yellow_fertilizer,Yellow Fertilizer,黄色の肥料
+item.farmingforblockheads.yellow_fertilizer,Yellow Fertilizer,黄色の肥料
+item.farmingforblockheads.yellow_fertilizer,Yellow Fertilizer,黄色の肥料
+itemGroup.farmingforblockheads.farmingforblockheads,Farming for Blockheads,農業のためのブロックヘッド
+itemGroup.farmingforblockheads.farmingforblockheads,Farming for Blockheads,農業のためのブロックヘッド
+itemGroup.farmingforblockheads.farmingforblockheads,Farming for Blockheads,農業のためのブロックヘッド
+jei.farmingforblockheads.market,Market,市場
+jei.farmingforblockheads.market,Market,市場
+jei.farmingforblockheads.market,Market,市場
+tooltip.farmingforblockheads.chicken_nest,Collects eggs laid by chicken,ニワトリが産んだ卵を収集します
+tooltip.farmingforblockheads.chicken_nest,Collects eggs laid by chicken,ニワトリが産んだ卵を収集します
+tooltip.farmingforblockheads.chicken_nest,Collects eggs laid by chicken,ニワトリが産んだ卵を収集します
+tooltip.farmingforblockheads.feeding_trough,Auto-feeds nearby animals ready to mate,近くの動物に自動で餌を与えます
+tooltip.farmingforblockheads.feeding_trough,Auto-feeds nearby animals ready to mate,近くの動物に自動で餌を与えます
+tooltip.farmingforblockheads.feeding_trough,Auto-feeds nearby animals ready to mate,近くの動物に自動で餌を与えます
+tooltip.farmingforblockheads.green_fertilizer,Increases crop output,作物の収穫量が増加します
+tooltip.farmingforblockheads.green_fertilizer,Increases crop output,作物の収穫量が増加します
+tooltip.farmingforblockheads.green_fertilizer,Increases crop output,作物の収穫量が増加します
+tooltip.farmingforblockheads.payment,Cost: %s,コスト：%s
+tooltip.farmingforblockheads.payment,Cost: %s,コスト：%s
+tooltip.farmingforblockheads.payment,Cost: %s,コスト：%s
+tooltip.farmingforblockheads.payment_item,%dx %s,%2$s %1$d個
+tooltip.farmingforblockheads.payment_item,%dx %s,%2$s %1$d個
+tooltip.farmingforblockheads.payment_item,%dx %s,%2$s %1$d個
+tooltip.farmingforblockheads.red_fertilizer,Speeds up growth,作物の成長が早くなります
+tooltip.farmingforblockheads.red_fertilizer,Speeds up growth,作物の成長が早くなります
+tooltip.farmingforblockheads.red_fertilizer,Speeds up growth,作物の成長が早くなります
+tooltip.farmingforblockheads.yellow_fertilizer,Prevents trampling,踏まれても土に戻らなくなります
+tooltip.farmingforblockheads.yellow_fertilizer,Prevents trampling,踏まれても土に戻らなくなります
+tooltip.farmingforblockheads.yellow_fertilizer,Prevents trampling,踏まれても土に戻らなくなります
+commands.farmingforblockheads:reload.success,Farming for Blockheads registries reloaded.,Farming for Blockheads レジストリをリロードしました。
+gui.farmingforblockheads:market.cost,%dx %s,%d個の %s
+gui.farmingforblockheads:market.no_selection,No Selection,選択なし
+gui.farmingforblockheads:market.tooltip_cost,Cost: %s,コスト: %s
+gui.farmingforblockheads:market.tooltip_flowers,Flowers,花
+gui.farmingforblockheads:market.tooltip_none,No tooltip specified,説明は指定されていません
+gui.farmingforblockheads:market.tooltip_other,Other,その他
+gui.farmingforblockheads:market.tooltip_saplings,Saplings,苗木
+gui.farmingforblockheads:market.tooltip_seeds,Seeds,種
+jei.farmingforblockheads:market,Market,マーケット
+tooltip.farmingforblockheads:chicken_nest,Collects eggs laid by chicken,鶏が産んだ卵を回収します
+tooltip.farmingforblockheads:feeding_trough,Auto-feeds nearby animals,近くの動物に自動給餌します
+tooltip.farmingforblockheads:fertilizer_healthy,Speeds up growth,成長を加速します
+tooltip.farmingforblockheads:fertilizer_rich,Increases crop output,作物の出力を増加させます
+tooltip.farmingforblockheads:fertilizer_stable,Prevents trampling,踏み潰しを防止します
+tooltip.farmingforblockheads:trait_healthy,Speeds up growth,成長を加速します
+tooltip.farmingforblockheads:trait_rich,Increases crop output,作物の出力を増加させます
+tooltip.farmingforblockheads:trait_stable,Prevents trampling,踏み潰しを防止します

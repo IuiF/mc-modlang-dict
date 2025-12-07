@@ -145,7 +145,7 @@ Examples:
 }
 
 // exportCSV exports translations to a CSV file
-// Format: key,source_text,target_text,status
+// Format: key,source_text,target_text
 func exportCSV(translations []*models.TranslationWithSource, outputPath string) error {
 	file, err := os.Create(outputPath)
 	if err != nil {
@@ -160,7 +160,7 @@ func exportCSV(translations []*models.TranslationWithSource, outputPath string) 
 	defer writer.Flush()
 
 	// Write header
-	header := []string{"key", "source_text", "target_text", "status"}
+	header := []string{"key", "source_text", "target_text"}
 	if err := writer.Write(header); err != nil {
 		return fmt.Errorf("failed to write header: %w", err)
 	}
@@ -171,7 +171,7 @@ func exportCSV(translations []*models.TranslationWithSource, outputPath string) 
 		if t.TargetText != nil {
 			targetText = *t.TargetText
 		}
-		row := []string{t.Key, t.SourceText, targetText, t.Status}
+		row := []string{t.Key, t.SourceText, targetText}
 		if err := writer.Write(row); err != nil {
 			return fmt.Errorf("failed to write row: %w", err)
 		}

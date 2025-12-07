@@ -1,233 +1,473 @@
-﻿key,source_text,target_text,status
-__Tags,Tag Names for Recipe Viewers,レシピビューア用のタグ名,translated
-__commands,Command Text,コマンドテキスト,translated
-__days,Names of the days,曜日の名前,translated
-__fonts,Unofficial language entries for the vanilla text fonts.,バニラテキストフォント用の非公式言語エントリ,translated
-__formatting,,フォーマット,translated
-__months,Names of the months,月の名前,translated
-__moon_phases,The names of different moon phases that appear in game.,ゲーム内に表示される異なる月相の名前,translated
-__time_units,Entries for various time units that may be displayed in game.,ゲーム内に表示される可能性のある様々な時間単位のエントリ,translated
-commands.bookshelf.debug.no_info,No debug information available for this command.,このコマンドでは利用可能なデバッグ情報がありません。,translated
-commands.bookshelf.debug.too_long,Debug output is too big for chat. Please check your game log instead.,デバッグ出力がチャットに収まりません。ゲームログを確認してください。,translated
-commands.bookshelf.debug.yes_info,Debug information has been logged to your game log. Click to copy output.,デバッグ情報がゲームログに記録されました。クリックして出力をコピー。,translated
-commands.bookshelf.font.bad_sender,The font rename command,フォント名変更コマンド,translated
-commands.bookshelf.font.unsupported_block,Could not apply font to '%s'. This type of block is not supported.,フォントを '%s' に適用できませんでした。このタイプのブロックはサポートされていません。,translated
-commands.bookshelf.hand.error.internal,Error encountered while formatting text. Check logs for more info.,テキストをフォーマット中にエラーが発生しました。詳細はログを確認してください。,translated
-commands.bookshelf.hand.error.not_air,Item must not be empty or air!,アイテムは空または空気ブロックであってはいけません！,translated
-commands.bookshelf.structure.error.no_structures,No structures could be found.,構造を見つけることができませんでした。,translated
-commands.bookshelf.structure.found,Found %s structure(s)!,%s 個の構造が見つかりました！,translated
-day.bookshelf.friday,Friday,金曜日,translated
-day.bookshelf.monday,Monday,月曜日,translated
-day.bookshelf.saturday,Saturday,土曜日,translated
-day.bookshelf.sunday,Sunday,日曜日,translated
-day.bookshelf.thursday,Thursday,木曜日,translated
-day.bookshelf.tuesday,Tuesday,火曜日,translated
-day.bookshelf.wednesday,Wednesday,水曜日,translated
-font.minecraft.alt,Standard Galactic Alphabet,標準銀河アルファベット,translated
-font.minecraft.alt.desc,A rune based font associated with enchanting and magic.,エンチャントと魔法に関連したルーンベースのフォント。,translated
-font.minecraft.alt.preview,Majik fox cub solved the waspy dragons quiz,不思議な力を持つ子ギツネが、怒ったドラゴンのなぞなぞを解きました,translated
-font.minecraft.default,Default,デフォルト,translated
-font.minecraft.default.desc,The standard font in Minecraft.,Minecraftの標準フォント。,translated
-font.minecraft.default.preview,The quick brown fox jumps over the lazy dog.,すばやい茶色のキツネは怠け者の犬を飛び越えます,translated
-font.minecraft.illageralt,Illager Alphabet,ウィッチ文字,translated
-font.minecraft.illageralt.desc,A mysterious font used by the illagers.,ウィッチによって使用される謎のフォント。,translated
-font.minecraft.illageralt.preview,Grumpy wizards make a toxic brew for the jovial queen.,気難しい魔法使いは陽気な女王のための有毒なビールを作ります,translated
-font.minecraft.uniform,Uniform,ユニフォーム,translated
-font.minecraft.uniform.desc,A plain font that is not stylized.,スタイライズされていないシンプルなフォント。,translated
-font.minecraft.uniform.preview,The quick brown fox jumps over the lazy dog.,すばやい茶色のキツネは怠け者の犬を飛び越えます,translated
-format.bookshelf.center,%s : %s,%s : %s,translated
-format.bookshelf.left,%s :%s,%s :%s,translated
-format.bookshelf.none,%s%s,%s%s,translated
-format.bookshelf.right,%s: %s,%s: %s,translated
-format.bookshelf.spaced,%s %s,%s %s,translated
-format.bookshelf.unit_rate,%s/%s,%s/%s,translated
-gui.jei.category.loot.name,Loot Table,ルートテーブル,translated
-month.bookshelf.april,April,4月,translated
-month.bookshelf.august,August,8月,translated
-month.bookshelf.december,December,12月,translated
-month.bookshelf.february,February,2月,translated
-month.bookshelf.january,January,1月,translated
-month.bookshelf.july,July,7月,translated
-month.bookshelf.june,June,6月,translated
-month.bookshelf.march,March,3月,translated
-month.bookshelf.may,May,5月,translated
-month.bookshelf.november,November,11月,translated
-month.bookshelf.october,October,10月,translated
-month.bookshelf.september,September,9月,translated
-moon.phase.first.quarter,First Quarter,上弦の月,translated
-moon.phase.full,Full Moon,満月,translated
-moon.phase.last.quarter,Last Quarter,下弦の月,translated
-moon.phase.new,New Moon,新月,translated
-moon.phase.waning.crescent,Waning Crescent,下弦前の三日月,translated
-moon.phase.waning.gibbous,Waning Gibbous,上弦後の満月近い月,translated
-moon.phase.waxing.crescent,Waxing Crescent,上弦前の三日月,translated
-moon.phase.waxing.gibbous,Waxing Gibbous,下弦前の満月近い月,translated
-table.builtin.block_drops,Block - %s,ブロック - %s,translated
-table.minecraft.archaeology.desert_pyramid.name,Desert Pyramid,砂漠のピラミッド,translated
-table.minecraft.archaeology.desert_well.name,Desert Well,砂漠の井戸,translated
-table.minecraft.archaeology.ocean_ruin_cold.name,Ocean Ruin - Cold,海底遺跡 - 冷たい海,translated
-table.minecraft.archaeology.ocean_ruin_warm.name,Ocean Ruin - Warm,海底遺跡 - 温かい海,translated
-table.minecraft.archaeology.trail_ruins_common.name,Trail Ruins - Common,古い道 - 一般的,translated
-table.minecraft.archaeology.trail_ruins_rare.name,Trail Ruins - Rare,古い道 - レア,translated
-table.minecraft.chests.abandoned_mineshaft.name,Abandoned Mineshaft,廃坑,translated
-table.minecraft.chests.ancient_city.name,Ancient City,古代都市,translated
-table.minecraft.chests.ancient_city_ice_box.name,Ancient City Ice Box,古代都市 - 冷凍庫,translated
-table.minecraft.chests.bastion_bridge.name,Bastion - Bridge,砦 - 橋,translated
-table.minecraft.chests.bastion_hoglin_stable.name,Bastion - Hoglin Stable,砦 - ホグリン厩舎,translated
-table.minecraft.chests.bastion_other.name,Bastion - Other,砦 - その他,translated
-table.minecraft.chests.bastion_treasure.name,Bastion - Treasure,砦 - 宝物,translated
-table.minecraft.chests.buried_treasure.name,Buried Treasure,埋もれた宝,translated
-table.minecraft.chests.desert_pyramid.name,Desert Pyramid,砂漠のピラミッド,translated
-table.minecraft.chests.end_city_treasure.name,End City Treasure,エンドシティの宝,translated
-table.minecraft.chests.igloo_chest.name,Igloo Chest,イグルーのチェスト,translated
-table.minecraft.chests.jungle_temple.name,Jungle Temple - Chest,ジャングルの寺院 - チェスト,translated
-table.minecraft.chests.jungle_temple_dispenser.name,Jungle Temple - Dispenser,ジャングルの寺院 - ディスペンサー,translated
-table.minecraft.chests.nether_bridge.name,Nether Bridge,ネザーの砦,translated
-table.minecraft.chests.pillager_outpost.name,Pillager Outpost,ピリジャーの前哨基地,translated
-table.minecraft.chests.ruined_portal.name,Ruined Portal,破壊されたポータル,translated
-table.minecraft.chests.shipwreck_map.name,Shipwreck Map,沈没船 - 地図,translated
-table.minecraft.chests.shipwreck_supply.name,Shipwreck - Supply,沈没船 - 補給品,translated
-table.minecraft.chests.shipwreck_treasure.name,Shipwreck - Treasure,沈没船 - 宝物,translated
-table.minecraft.chests.simple_dungeon.name,Dungeon,ダンジョン,translated
-table.minecraft.chests.spawn_bonus_chest.name,Spawn Bonus Chest,スポーンボーナスチェスト,translated
-table.minecraft.chests.stronghold_corridor.name,Stronghold - Corridor,要塞 - 廊下,translated
-table.minecraft.chests.stronghold_crossing.name,Stronghold - Crossing,要塞 - 交差点,translated
-table.minecraft.chests.stronghold_library.name,Stronghold - Library,要塞 - 図書館,translated
-table.minecraft.chests.trial_chambers.corridor.name,Trial Chamber - Corridor,トライアルチャンバー - 廊下,translated
-table.minecraft.chests.trial_chambers.entrance.name,Trial Chamber - Entrance,トライアルチャンバー - 入口,translated
-table.minecraft.chests.trial_chambers.intersection.name,Trial Chamber - Intersection,トライアルチャンバー - 交差点,translated
-table.minecraft.chests.trial_chambers.intersection_barrel.name,Trial Chamber - Intersection Barrel,トライアルチャンバー - 交差点の樽,translated
-table.minecraft.chests.trial_chambers.reward.name,Trial Chamber - Reward,トライアルチャンバー - 報酬,translated
-table.minecraft.chests.trial_chambers.reward_common.name,Trial Chamber - Common Reward,トライアルチャンバー - 一般的な報酬,translated
-table.minecraft.chests.trial_chambers.reward_ominous.name,Trial Chamber - Ominous Reward,トライアルチャンバー - 不気味な報酬,translated
-table.minecraft.chests.trial_chambers.reward_ominous_common.name,Trial Chamber - Ominous Reward - Common,トライアルチャンバー - 不気味な報酬 - 一般的,translated
-table.minecraft.chests.trial_chambers.reward_ominous_rare.name,Trial Chamber - Ominous Reward - Rare,トライアルチャンバー - 不気味な報酬 - レア,translated
-table.minecraft.chests.trial_chambers.reward_ominous_unique.name,Trial Chamber - Ominous Reward - Unique,トライアルチャンバー - 不気味な報酬 - 唯一,translated
-table.minecraft.chests.trial_chambers.reward_rare.name,Trial Chamber - Rare Reward,トライアルチャンバー - レアな報酬,translated
-table.minecraft.chests.trial_chambers.reward_unique.name,Trial Chamber - Unique Reward,トライアルチャンバー - 唯一の報酬,translated
-table.minecraft.chests.trial_chambers.supply.name,Trial Chamber - Supply,トライアルチャンバー - 補給品,translated
-table.minecraft.chests.underwater_ruin_big.name,Underwater Ruin - Big,水中遺跡 - 大,translated
-table.minecraft.chests.underwater_ruin_small.name,Underwater Ruin - Small,水中遺跡 - 小,translated
-table.minecraft.chests.village.village_armorer.name,Village - Armorer,村 - 防具屋,translated
-table.minecraft.chests.village.village_butcher.name,Village - Butcher,村 - 肉屋,translated
-table.minecraft.chests.village.village_cartographer.name,Village - Cartographer,村 - 製図家,translated
-table.minecraft.chests.village.village_desert_house.name,Village - Desert House,村 - 砂漠の家,translated
-table.minecraft.chests.village.village_fisher.name,Village - Fisher,村 - 漁師,translated
-table.minecraft.chests.village.village_fletcher.name,Village - Fletcher,村 - 矢師,translated
-table.minecraft.chests.village.village_mason.name,Village - Mason,村 - 職人,translated
-table.minecraft.chests.village.village_plains_house.name,Village - Plains House,村 - 平原の家,translated
-table.minecraft.chests.village.village_savanna_house.name,Village - Savanna House,村 - サバンナの家,translated
-table.minecraft.chests.village.village_shepherd.name,Village - Shepherd,村 - 羊飼い,translated
-table.minecraft.chests.village.village_snowy_house.name,Village - Snowy House,村 - 雪の家,translated
-table.minecraft.chests.village.village_taiga_house.name,Village - Taiga House,村 - タイガの家,translated
-table.minecraft.chests.village.village_tannery.name,Village - Tannery,村 - タンナー,translated
-table.minecraft.chests.village.village_temple.name,Village - Temple,村 - 寺院,translated
-table.minecraft.chests.village.village_toolsmith.name,Village - Toolsmith,村 - 道具鍛冶屋,translated
-table.minecraft.chests.village.village_weaponsmith.name,Village - Weaponsmith,村 - 武器鍛冶屋,translated
-table.minecraft.chests.woodland_mansion.name,Woodland Mansion,森の館,translated
-table.minecraft.dispensers.trial_chambers.chamber.name,Trial Chamber - Chamber,トライアルチャンバー - チャンバー,translated
-table.minecraft.dispensers.trial_chambers.corridor.name,Trial Chamber - Corridor,トライアルチャンバー - 廊下,translated
-table.minecraft.dispensers.trial_chambers.water.name,Trial Chamber - Water,トライアルチャンバー - 水,translated
-table.minecraft.empty.name,Empty,空,translated
-table.minecraft.equipment.trial_chamber.name,Trial Chamber,トライアルチャンバー,translated
-table.minecraft.equipment.trial_chamber_melee.name,Trial Chamber - Melee,トライアルチャンバー - 近接,translated
-table.minecraft.equipment.trial_chamber_ranged.name,Trial Chamber - Ranged,トライアルチャンバー - 遠隔,translated
-table.minecraft.gameplay.cat_morning_gift.name,Cat - Morning Gift,猫 - 朝のプレゼント,translated
-table.minecraft.gameplay.fishing.fish.name,Fishing - Fish,釣り - 魚,translated
-table.minecraft.gameplay.fishing.junk.name,Fishing - Junk,釣り - ガラクタ,translated
-table.minecraft.gameplay.fishing.name,Fishing,釣り,translated
-table.minecraft.gameplay.fishing.treasure.name,Fishing - Treasure,釣り - 宝物,translated
-table.minecraft.gameplay.hero_of_the_village.armorer_gift.name,Hero Of The Village - Armorer,村の勇者 - 防具屋の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.butcher_gift.name,Hero Of The Village - Butcher,村の勇者 - 肉屋の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.cartographer_gift.name,Hero Of The Village - Cartographer,村の勇者 - 製図家の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.cleric_gift.name,Hero Of The Village - Cleric,村の勇者 - 司祭の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.farmer_gift.name,Hero Of The Village - Farmer,村の勇者 - 農民の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.fisherman_gift.name,Hero Of The Village - Fisherman,村の勇者 - 漁師の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.fletcher_gift.name,Hero Of The Village - Fletcher,村の勇者 - 矢師の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.leatherworker_gift.name,Hero Of The Village - Leatherworker,村の勇者 - 革製職人の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.librarian_gift.name,Hero Of The Village - Librarian,村の勇者 - 司書の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.mason_gift.name,Hero Of The Village - Mason,村の勇者 - 職人の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.shepherd_gift.name,Hero Of The Village - Shepherd,村の勇者 - 羊飼いの贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.toolsmith_gift.name,Hero Of The Village - Toolsmith,村の勇者 - 道具鍛冶屋の贈り物,translated
-table.minecraft.gameplay.hero_of_the_village.weaponsmith_gift.name,Hero Of The Village - Weaponsmith,村の勇者 - 武器鍛冶屋の贈り物,translated
-table.minecraft.gameplay.panda_sneeze.name,Panda Sneeze,パンダのくしゃみ,translated
-table.minecraft.gameplay.piglin_bartering.name,Piglin Bartering,ピグリンの物々交換,translated
-table.minecraft.gameplay.sniffer_digging.name,Sniffer Digging,スニファーの掘り,translated
-table.minecraft.pots.trial_chambers.corridor.name,Trial Chamber - Corridor Pot,トライアルチャンバー - 廊下の壺,translated
-table.minecraft.shearing.bogged.name,Bogged - Shearing,沼地モブ - 毛刈り,translated
-table.minecraft.spawners.ominous.trial_chamber.consumables.name,Trial Chamber - Ominous Consumables,トライアルチャンバー - 不気味な消耗品,translated
-table.minecraft.spawners.ominous.trial_chamber.key.name,Trial Chamber - Ominous Key,トライアルチャンバー - 不気味なキー,translated
-table.minecraft.spawners.trial_chamber.consumables.name,Trial Chamber - Consumables,トライアルチャンバー - 消耗品,translated
-table.minecraft.spawners.trial_chamber.items_to_drop_when_ominous.name,Trial Chamber - Ominous Drops,トライアルチャンバー - 不気味なドロップ,translated
-table.minecraft.spawners.trial_chamber.key.name,Trial Chamber - Key,トライアルチャンバー - キー,translated
-tag.item.bookshelf.creative_tab.minecraft.building_blocks,Building Blocks Tab,建築ブロックタブ,translated
-tag.item.bookshelf.creative_tab.minecraft.colored_blocks,Colored Blocks Tab,カラーブロックタブ,translated
-tag.item.bookshelf.creative_tab.minecraft.combat,Combat Tab,戦闘タブ,translated
-tag.item.bookshelf.creative_tab.minecraft.food_and_drinks,Food and Drinks Tab,食べ物と飲み物タブ,translated
-tag.item.bookshelf.creative_tab.minecraft.functional_blocks,Functional Blocks Tab,機能ブロックタブ,translated
-tag.item.bookshelf.creative_tab.minecraft.ingredients,Ingredients Tab,材料タブ,translated
-tag.item.bookshelf.creative_tab.minecraft.natural_blocks,Natural Blocks Tab,自然ブロックタブ,translated
-tag.item.bookshelf.creative_tab.minecraft.op_blocks,OP/Admin Tab,OP/管理者タブ,translated
-tag.item.bookshelf.creative_tab.minecraft.redstone_blocks,Redstone Tab,レッドストーンタブ,translated
-tag.item.bookshelf.creative_tab.minecraft.spawn_eggs,Spawn Eggs Tab,スポーンエッグタブ,translated
-tag.item.bookshelf.creative_tab.minecraft.tools_and_utilities,Tools & Utilities Tab,ツール & ユーティリティタブ,translated
-tooltips.bookshelf.loot.dynamic,Dynamic Drop,ダイナミックドロップ,translated
-tooltips.bookshelf.loot.dynamic.desc,Some drops depend on the context.,一部のドロップは文脈に依存します。,translated
-tooltips.bookshelf.loot.empty,Empty Drop,空のドロップ,translated
-tooltips.bookshelf.loot.empty.desc,It's possible for nothing to drop!,何もドロップされない可能性があります！,translated
-tooltips.bookshelf.loot.unknown,Unknown Drop,未知のドロップ,translated
-tooltips.bookshelf.loot.unknown.desc,Some drops can not be displayed right now.,一部のドロップは現在表示できません。,translated
-units.bookshelf.day,Day,日,translated
-units.bookshelf.day.abbreviated,d,日,translated
-units.bookshelf.day.plural,Days,日,translated
-units.bookshelf.hour,Hour,時間,translated
-units.bookshelf.hour.abbreviated,h,時,translated
-units.bookshelf.hour.plural,Hours,時間,translated
-units.bookshelf.millisecond,Millisecond,ミリ秒,translated
-units.bookshelf.millisecond.abbreviated,ms,ms,translated
-units.bookshelf.millisecond.plural,Milliseconds,ミリ秒,translated
-units.bookshelf.minute,Minute,分,translated
-units.bookshelf.minute.abbreviated,m,分,translated
-units.bookshelf.minute.plural,Minutes,分,translated
-units.bookshelf.month,Month,月,translated
-units.bookshelf.month.abbreviated,mo,月,translated
-units.bookshelf.month.plural,Months,月,translated
-units.bookshelf.nanosecond,Nanosecond,ナノ秒,translated
-units.bookshelf.nanosecond.abbreviated,ns,ns,translated
-units.bookshelf.nanosecond.plural,Nanoseconds,ナノ秒,translated
-units.bookshelf.second,Second,秒,translated
-units.bookshelf.second.abbreviated,s,秒,translated
-units.bookshelf.second.plural,Seconds,秒,translated
-units.bookshelf.tick,Tick,ティック,translated
-units.bookshelf.tick.abbreviated,t,t,translated
-units.bookshelf.tick.plural,Ticks,ティック,translated
-units.bookshelf.week,Week,週,translated
-units.bookshelf.week.abbreviated,wk,週,translated
-units.bookshelf.week.plural,Weeks,週,translated
-units.bookshelf.year,Year,年,translated
-units.bookshelf.year.abbreviated,yr,年,translated
-units.bookshelf.year.plural,Years,年,translated
-_comment,Misc,Misc,translated
-argument.bookshelf.unknown_value,The value '%s' is unknown.,値 '%s' は不明です。,translated
-commands.bookshelf.loot_tables,Found %d missing loot tables for %s.,%s に対して %d 個の欠落ルートテーブルが見つかりました。,translated
-commands.bookshelf.loot_tables.wildcard,Found %d missing loot tables for all mods.,すべての Mod に対して %d 個の欠落ルートテーブルが見つかりました。,translated
-text.bookshelf.ticks,Ticks: %s,ティック: %s,translated
-time.bookshelf.day.friday,Friday,金曜日,translated
-time.bookshelf.day.monday,Monday,月曜日,translated
-time.bookshelf.day.saturday,Saturday,土曜日,translated
-time.bookshelf.day.sunday,Sunday,日曜日,translated
-time.bookshelf.day.thursday,Thursday,木曜日,translated
-time.bookshelf.day.tuesday,Tuesday,火曜日,translated
-time.bookshelf.day.wednesday,Wednesday,水曜日,translated
-time.bookshelf.month.april,April,4月,translated
-time.bookshelf.month.august,August,8月,translated
-time.bookshelf.month.december,December,12月,translated
-time.bookshelf.month.february,February,2月,translated
-time.bookshelf.month.january,January,1月,translated
-time.bookshelf.month.july,July,7月,translated
-time.bookshelf.month.june,June,6月,translated
-time.bookshelf.month.march,March,3月,translated
-time.bookshelf.month.may,May,5月,translated
-time.bookshelf.month.november,November,11月,translated
-time.bookshelf.month.october,October,10月,translated
-time.bookshelf.month.september,September,9月,translated
+﻿key,source_text,target_text
+__Tags,Tag Names for Recipe Viewers,レシピビューア用のタグ名
+__Tags,Tag Names for Recipe Viewers,レシピビューア用のタグ名
+__commands,Command Text,コマンドテキスト
+__commands,Command Text,コマンドテキスト
+__days,Names of the days,曜日の名前
+__days,Names of the days,曜日の名前
+__fonts,Unofficial language entries for the vanilla text fonts.,バニラテキストフォント用の非公式言語エントリ
+__fonts,Unofficial language entries for the vanilla text fonts.,バニラテキストフォント用の非公式言語エントリ
+__formatting,,フォーマット
+__formatting,,フォーマット
+__months,Names of the months,月の名前
+__months,Names of the months,月の名前
+__moon_phases,The names of different moon phases that appear in game.,ゲーム内に表示される異なる月相の名前
+__moon_phases,The names of different moon phases that appear in game.,ゲーム内に表示される異なる月相の名前
+__time_units,Entries for various time units that may be displayed in game.,ゲーム内に表示される可能性のある様々な時間単位のエントリ
+__time_units,Entries for various time units that may be displayed in game.,ゲーム内に表示される可能性のある様々な時間単位のエントリ
+commands.bookshelf.debug.no_info,No debug information available for this command.,このコマンドでは利用可能なデバッグ情報がありません。
+commands.bookshelf.debug.no_info,No debug information available for this command.,このコマンドでは利用可能なデバッグ情報がありません。
+commands.bookshelf.debug.too_long,Debug output is too big for chat. Please check your game log instead.,デバッグ出力がチャットに収まりません。ゲームログを確認してください。
+commands.bookshelf.debug.too_long,Debug output is too big for chat. Please check your game log instead.,デバッグ出力がチャットに収まりません。ゲームログを確認してください。
+commands.bookshelf.debug.yes_info,Debug information has been logged to your game log. Click to copy output.,デバッグ情報がゲームログに記録されました。クリックして出力をコピー。
+commands.bookshelf.debug.yes_info,Debug information has been logged to your game log. Click to copy output.,デバッグ情報がゲームログに記録されました。クリックして出力をコピー。
+commands.bookshelf.font.bad_sender,The font rename command,フォント名変更コマンド
+commands.bookshelf.font.bad_sender,The font rename command,フォント名変更コマンド
+commands.bookshelf.font.unsupported_block,Could not apply font to '%s'. This type of block is not supported.,フォントを '%s' に適用できませんでした。このタイプのブロックはサポートされていません。
+commands.bookshelf.font.unsupported_block,Could not apply font to '%s'. This type of block is not supported.,フォントを '%s' に適用できませんでした。このタイプのブロックはサポートされていません。
+commands.bookshelf.hand.error.internal,Error encountered while formatting text. Check logs for more info.,テキストをフォーマット中にエラーが発生しました。詳細はログを確認してください。
+commands.bookshelf.hand.error.internal,Error encountered while formatting text. Check logs for more info.,テキストをフォーマット中にエラーが発生しました。詳細はログを確認してください。
+commands.bookshelf.hand.error.not_air,Item must not be empty or air!,アイテムは空または空気ブロックであってはいけません！
+commands.bookshelf.hand.error.not_air,Item must not be empty or air!,アイテムは空または空気ブロックであってはいけません！
+commands.bookshelf.structure.error.no_structures,No structures could be found.,構造を見つけることができませんでした。
+commands.bookshelf.structure.error.no_structures,No structures could be found.,構造を見つけることができませんでした。
+commands.bookshelf.structure.found,Found %s structure(s)!,%s 個の構造が見つかりました！
+commands.bookshelf.structure.found,Found %s structure(s)!,%s 個の構造が見つかりました！
+day.bookshelf.friday,Friday,金曜日
+day.bookshelf.friday,Friday,金曜日
+day.bookshelf.monday,Monday,月曜日
+day.bookshelf.monday,Monday,月曜日
+day.bookshelf.saturday,Saturday,土曜日
+day.bookshelf.saturday,Saturday,土曜日
+day.bookshelf.sunday,Sunday,日曜日
+day.bookshelf.sunday,Sunday,日曜日
+day.bookshelf.thursday,Thursday,木曜日
+day.bookshelf.thursday,Thursday,木曜日
+day.bookshelf.tuesday,Tuesday,火曜日
+day.bookshelf.tuesday,Tuesday,火曜日
+day.bookshelf.wednesday,Wednesday,水曜日
+day.bookshelf.wednesday,Wednesday,水曜日
+font.minecraft.alt,Standard Galactic Alphabet,標準銀河アルファベット
+font.minecraft.alt,Standard Galactic Alphabet,標準銀河アルファベット
+font.minecraft.alt.desc,A rune based font associated with enchanting and magic.,エンチャントと魔法に関連したルーンベースのフォント。
+font.minecraft.alt.desc,A rune based font associated with enchanting and magic.,エンチャントと魔法に関連したルーンベースのフォント。
+font.minecraft.alt.preview,Majik fox cub solved the waspy dragons quiz,不思議な力を持つ子ギツネが、怒ったドラゴンのなぞなぞを解きました
+font.minecraft.alt.preview,Majik fox cub solved the waspy dragons quiz,不思議な力を持つ子ギツネが、怒ったドラゴンのなぞなぞを解きました
+font.minecraft.default,Default,デフォルト
+font.minecraft.default,Default,デフォルト
+font.minecraft.default.desc,The standard font in Minecraft.,Minecraftの標準フォント。
+font.minecraft.default.desc,The standard font in Minecraft.,Minecraftの標準フォント。
+font.minecraft.default.preview,The quick brown fox jumps over the lazy dog.,すばやい茶色のキツネは怠け者の犬を飛び越えます
+font.minecraft.default.preview,The quick brown fox jumps over the lazy dog.,すばやい茶色のキツネは怠け者の犬を飛び越えます
+font.minecraft.illageralt,Illager Alphabet,ウィッチ文字
+font.minecraft.illageralt,Illager Alphabet,ウィッチ文字
+font.minecraft.illageralt.desc,A mysterious font used by the illagers.,ウィッチによって使用される謎のフォント。
+font.minecraft.illageralt.desc,A mysterious font used by the illagers.,ウィッチによって使用される謎のフォント。
+font.minecraft.illageralt.preview,Grumpy wizards make a toxic brew for the jovial queen.,気難しい魔法使いは陽気な女王のための有毒なビールを作ります
+font.minecraft.illageralt.preview,Grumpy wizards make a toxic brew for the jovial queen.,気難しい魔法使いは陽気な女王のための有毒なビールを作ります
+font.minecraft.uniform,Uniform,ユニフォーム
+font.minecraft.uniform,Uniform,ユニフォーム
+font.minecraft.uniform.desc,A plain font that is not stylized.,スタイライズされていないシンプルなフォント。
+font.minecraft.uniform.desc,A plain font that is not stylized.,スタイライズされていないシンプルなフォント。
+font.minecraft.uniform.preview,The quick brown fox jumps over the lazy dog.,すばやい茶色のキツネは怠け者の犬を飛び越えます
+font.minecraft.uniform.preview,The quick brown fox jumps over the lazy dog.,すばやい茶色のキツネは怠け者の犬を飛び越えます
+format.bookshelf.center,%s : %s,%s : %s
+format.bookshelf.center,%s : %s,%s : %s
+format.bookshelf.left,%s :%s,%s :%s
+format.bookshelf.left,%s :%s,%s :%s
+format.bookshelf.none,%s%s,%s%s
+format.bookshelf.none,%s%s,%s%s
+format.bookshelf.right,%s: %s,%s: %s
+format.bookshelf.right,%s: %s,%s: %s
+format.bookshelf.spaced,%s %s,%s %s
+format.bookshelf.spaced,%s %s,%s %s
+format.bookshelf.unit_rate,%s/%s,%s/%s
+format.bookshelf.unit_rate,%s/%s,%s/%s
+gui.jei.category.loot.name,Loot Table,ルートテーブル
+gui.jei.category.loot.name,Loot Table,ルートテーブル
+month.bookshelf.april,April,4月
+month.bookshelf.april,April,4月
+month.bookshelf.august,August,8月
+month.bookshelf.august,August,8月
+month.bookshelf.december,December,12月
+month.bookshelf.december,December,12月
+month.bookshelf.february,February,2月
+month.bookshelf.february,February,2月
+month.bookshelf.january,January,1月
+month.bookshelf.january,January,1月
+month.bookshelf.july,July,7月
+month.bookshelf.july,July,7月
+month.bookshelf.june,June,6月
+month.bookshelf.june,June,6月
+month.bookshelf.march,March,3月
+month.bookshelf.march,March,3月
+month.bookshelf.may,May,5月
+month.bookshelf.may,May,5月
+month.bookshelf.november,November,11月
+month.bookshelf.november,November,11月
+month.bookshelf.october,October,10月
+month.bookshelf.october,October,10月
+month.bookshelf.september,September,9月
+month.bookshelf.september,September,9月
+moon.phase.first.quarter,First Quarter,上弦の月
+moon.phase.first.quarter,First Quarter,上弦の月
+moon.phase.first.quarter,First Quarter,上弦の月
+moon.phase.full,Full Moon,満月
+moon.phase.full,Full Moon,満月
+moon.phase.full,Full Moon,満月
+moon.phase.last.quarter,Last Quarter,下弦の月
+moon.phase.last.quarter,Last Quarter,下弦の月
+moon.phase.last.quarter,Last Quarter,下弦の月
+moon.phase.new,New Moon,新月
+moon.phase.new,New Moon,新月
+moon.phase.new,New Moon,新月
+moon.phase.waning.crescent,Waning Crescent,下弦前の三日月
+moon.phase.waning.crescent,Waning Crescent,下弦前の三日月
+moon.phase.waning.crescent,Waning Crescent,下弦前の三日月
+moon.phase.waning.gibbous,Waning Gibbous,上弦後の満月近い月
+moon.phase.waning.gibbous,Waning Gibbous,上弦後の満月近い月
+moon.phase.waning.gibbous,Waning Gibbous,上弦後の満月近い月
+moon.phase.waxing.crescent,Waxing Crescent,上弦前の三日月
+moon.phase.waxing.crescent,Waxing Crescent,上弦前の三日月
+moon.phase.waxing.crescent,Waxing Crescent,上弦前の三日月
+moon.phase.waxing.gibbous,Waxing Gibbous,下弦前の満月近い月
+moon.phase.waxing.gibbous,Waxing Gibbous,下弦前の満月近い月
+moon.phase.waxing.gibbous,Waxing Gibbous,下弦前の満月近い月
+table.builtin.block_drops,Block - %s,ブロック - %s
+table.builtin.block_drops,Block - %s,ブロック - %s
+table.minecraft.archaeology.desert_pyramid.name,Desert Pyramid,砂漠のピラミッド
+table.minecraft.archaeology.desert_pyramid.name,Desert Pyramid,砂漠のピラミッド
+table.minecraft.archaeology.desert_well.name,Desert Well,砂漠の井戸
+table.minecraft.archaeology.desert_well.name,Desert Well,砂漠の井戸
+table.minecraft.archaeology.ocean_ruin_cold.name,Ocean Ruin - Cold,海底遺跡 - 冷たい海
+table.minecraft.archaeology.ocean_ruin_cold.name,Ocean Ruin - Cold,海底遺跡 - 冷たい海
+table.minecraft.archaeology.ocean_ruin_warm.name,Ocean Ruin - Warm,海底遺跡 - 温かい海
+table.minecraft.archaeology.ocean_ruin_warm.name,Ocean Ruin - Warm,海底遺跡 - 温かい海
+table.minecraft.archaeology.trail_ruins_common.name,Trail Ruins - Common,古い道 - 一般的
+table.minecraft.archaeology.trail_ruins_common.name,Trail Ruins - Common,古い道 - 一般的
+table.minecraft.archaeology.trail_ruins_rare.name,Trail Ruins - Rare,古い道 - レア
+table.minecraft.archaeology.trail_ruins_rare.name,Trail Ruins - Rare,古い道 - レア
+table.minecraft.chests.abandoned_mineshaft.name,Abandoned Mineshaft,廃坑
+table.minecraft.chests.abandoned_mineshaft.name,Abandoned Mineshaft,廃坑
+table.minecraft.chests.ancient_city.name,Ancient City,古代都市
+table.minecraft.chests.ancient_city.name,Ancient City,古代都市
+table.minecraft.chests.ancient_city_ice_box.name,Ancient City Ice Box,古代都市 - 冷凍庫
+table.minecraft.chests.ancient_city_ice_box.name,Ancient City Ice Box,古代都市 - 冷凍庫
+table.minecraft.chests.bastion_bridge.name,Bastion - Bridge,砦 - 橋
+table.minecraft.chests.bastion_bridge.name,Bastion - Bridge,砦 - 橋
+table.minecraft.chests.bastion_hoglin_stable.name,Bastion - Hoglin Stable,砦 - ホグリン厩舎
+table.minecraft.chests.bastion_hoglin_stable.name,Bastion - Hoglin Stable,砦 - ホグリン厩舎
+table.minecraft.chests.bastion_other.name,Bastion - Other,砦 - その他
+table.minecraft.chests.bastion_other.name,Bastion - Other,砦 - その他
+table.minecraft.chests.bastion_treasure.name,Bastion - Treasure,砦 - 宝物
+table.minecraft.chests.bastion_treasure.name,Bastion - Treasure,砦 - 宝物
+table.minecraft.chests.buried_treasure.name,Buried Treasure,埋もれた宝
+table.minecraft.chests.buried_treasure.name,Buried Treasure,埋もれた宝
+table.minecraft.chests.desert_pyramid.name,Desert Pyramid,砂漠のピラミッド
+table.minecraft.chests.desert_pyramid.name,Desert Pyramid,砂漠のピラミッド
+table.minecraft.chests.end_city_treasure.name,End City Treasure,エンドシティの宝
+table.minecraft.chests.end_city_treasure.name,End City Treasure,エンドシティの宝
+table.minecraft.chests.igloo_chest.name,Igloo Chest,イグルーのチェスト
+table.minecraft.chests.igloo_chest.name,Igloo Chest,イグルーのチェスト
+table.minecraft.chests.jungle_temple.name,Jungle Temple - Chest,ジャングルの寺院 - チェスト
+table.minecraft.chests.jungle_temple.name,Jungle Temple - Chest,ジャングルの寺院 - チェスト
+table.minecraft.chests.jungle_temple_dispenser.name,Jungle Temple - Dispenser,ジャングルの寺院 - ディスペンサー
+table.minecraft.chests.jungle_temple_dispenser.name,Jungle Temple - Dispenser,ジャングルの寺院 - ディスペンサー
+table.minecraft.chests.nether_bridge.name,Nether Bridge,ネザーの砦
+table.minecraft.chests.nether_bridge.name,Nether Bridge,ネザーの砦
+table.minecraft.chests.pillager_outpost.name,Pillager Outpost,ピリジャーの前哨基地
+table.minecraft.chests.pillager_outpost.name,Pillager Outpost,ピリジャーの前哨基地
+table.minecraft.chests.ruined_portal.name,Ruined Portal,破壊されたポータル
+table.minecraft.chests.ruined_portal.name,Ruined Portal,破壊されたポータル
+table.minecraft.chests.shipwreck_map.name,Shipwreck Map,沈没船 - 地図
+table.minecraft.chests.shipwreck_map.name,Shipwreck Map,沈没船 - 地図
+table.minecraft.chests.shipwreck_supply.name,Shipwreck - Supply,沈没船 - 補給品
+table.minecraft.chests.shipwreck_supply.name,Shipwreck - Supply,沈没船 - 補給品
+table.minecraft.chests.shipwreck_treasure.name,Shipwreck - Treasure,沈没船 - 宝物
+table.minecraft.chests.shipwreck_treasure.name,Shipwreck - Treasure,沈没船 - 宝物
+table.minecraft.chests.simple_dungeon.name,Dungeon,ダンジョン
+table.minecraft.chests.simple_dungeon.name,Dungeon,ダンジョン
+table.minecraft.chests.spawn_bonus_chest.name,Spawn Bonus Chest,スポーンボーナスチェスト
+table.minecraft.chests.spawn_bonus_chest.name,Spawn Bonus Chest,スポーンボーナスチェスト
+table.minecraft.chests.stronghold_corridor.name,Stronghold - Corridor,要塞 - 廊下
+table.minecraft.chests.stronghold_corridor.name,Stronghold - Corridor,要塞 - 廊下
+table.minecraft.chests.stronghold_crossing.name,Stronghold - Crossing,要塞 - 交差点
+table.minecraft.chests.stronghold_crossing.name,Stronghold - Crossing,要塞 - 交差点
+table.minecraft.chests.stronghold_library.name,Stronghold - Library,要塞 - 図書館
+table.minecraft.chests.stronghold_library.name,Stronghold - Library,要塞 - 図書館
+table.minecraft.chests.trial_chambers.corridor.name,Trial Chamber - Corridor,トライアルチャンバー - 廊下
+table.minecraft.chests.trial_chambers.corridor.name,Trial Chamber - Corridor,トライアルチャンバー - 廊下
+table.minecraft.chests.trial_chambers.entrance.name,Trial Chamber - Entrance,トライアルチャンバー - 入口
+table.minecraft.chests.trial_chambers.entrance.name,Trial Chamber - Entrance,トライアルチャンバー - 入口
+table.minecraft.chests.trial_chambers.intersection.name,Trial Chamber - Intersection,トライアルチャンバー - 交差点
+table.minecraft.chests.trial_chambers.intersection.name,Trial Chamber - Intersection,トライアルチャンバー - 交差点
+table.minecraft.chests.trial_chambers.intersection_barrel.name,Trial Chamber - Intersection Barrel,トライアルチャンバー - 交差点の樽
+table.minecraft.chests.trial_chambers.intersection_barrel.name,Trial Chamber - Intersection Barrel,トライアルチャンバー - 交差点の樽
+table.minecraft.chests.trial_chambers.reward.name,Trial Chamber - Reward,トライアルチャンバー - 報酬
+table.minecraft.chests.trial_chambers.reward.name,Trial Chamber - Reward,トライアルチャンバー - 報酬
+table.minecraft.chests.trial_chambers.reward_common.name,Trial Chamber - Common Reward,トライアルチャンバー - 一般的な報酬
+table.minecraft.chests.trial_chambers.reward_common.name,Trial Chamber - Common Reward,トライアルチャンバー - 一般的な報酬
+table.minecraft.chests.trial_chambers.reward_ominous.name,Trial Chamber - Ominous Reward,トライアルチャンバー - 不気味な報酬
+table.minecraft.chests.trial_chambers.reward_ominous.name,Trial Chamber - Ominous Reward,トライアルチャンバー - 不気味な報酬
+table.minecraft.chests.trial_chambers.reward_ominous_common.name,Trial Chamber - Ominous Reward - Common,トライアルチャンバー - 不気味な報酬 - 一般的
+table.minecraft.chests.trial_chambers.reward_ominous_common.name,Trial Chamber - Ominous Reward - Common,トライアルチャンバー - 不気味な報酬 - 一般的
+table.minecraft.chests.trial_chambers.reward_ominous_rare.name,Trial Chamber - Ominous Reward - Rare,トライアルチャンバー - 不気味な報酬 - レア
+table.minecraft.chests.trial_chambers.reward_ominous_rare.name,Trial Chamber - Ominous Reward - Rare,トライアルチャンバー - 不気味な報酬 - レア
+table.minecraft.chests.trial_chambers.reward_ominous_unique.name,Trial Chamber - Ominous Reward - Unique,トライアルチャンバー - 不気味な報酬 - 唯一
+table.minecraft.chests.trial_chambers.reward_ominous_unique.name,Trial Chamber - Ominous Reward - Unique,トライアルチャンバー - 不気味な報酬 - 唯一
+table.minecraft.chests.trial_chambers.reward_rare.name,Trial Chamber - Rare Reward,トライアルチャンバー - レアな報酬
+table.minecraft.chests.trial_chambers.reward_rare.name,Trial Chamber - Rare Reward,トライアルチャンバー - レアな報酬
+table.minecraft.chests.trial_chambers.reward_unique.name,Trial Chamber - Unique Reward,トライアルチャンバー - 唯一の報酬
+table.minecraft.chests.trial_chambers.reward_unique.name,Trial Chamber - Unique Reward,トライアルチャンバー - 唯一の報酬
+table.minecraft.chests.trial_chambers.supply.name,Trial Chamber - Supply,トライアルチャンバー - 補給品
+table.minecraft.chests.trial_chambers.supply.name,Trial Chamber - Supply,トライアルチャンバー - 補給品
+table.minecraft.chests.underwater_ruin_big.name,Underwater Ruin - Big,水中遺跡 - 大
+table.minecraft.chests.underwater_ruin_big.name,Underwater Ruin - Big,水中遺跡 - 大
+table.minecraft.chests.underwater_ruin_small.name,Underwater Ruin - Small,水中遺跡 - 小
+table.minecraft.chests.underwater_ruin_small.name,Underwater Ruin - Small,水中遺跡 - 小
+table.minecraft.chests.village.village_armorer.name,Village - Armorer,村 - 防具屋
+table.minecraft.chests.village.village_armorer.name,Village - Armorer,村 - 防具屋
+table.minecraft.chests.village.village_butcher.name,Village - Butcher,村 - 肉屋
+table.minecraft.chests.village.village_butcher.name,Village - Butcher,村 - 肉屋
+table.minecraft.chests.village.village_cartographer.name,Village - Cartographer,村 - 製図家
+table.minecraft.chests.village.village_cartographer.name,Village - Cartographer,村 - 製図家
+table.minecraft.chests.village.village_desert_house.name,Village - Desert House,村 - 砂漠の家
+table.minecraft.chests.village.village_desert_house.name,Village - Desert House,村 - 砂漠の家
+table.minecraft.chests.village.village_fisher.name,Village - Fisher,村 - 漁師
+table.minecraft.chests.village.village_fisher.name,Village - Fisher,村 - 漁師
+table.minecraft.chests.village.village_fletcher.name,Village - Fletcher,村 - 矢師
+table.minecraft.chests.village.village_fletcher.name,Village - Fletcher,村 - 矢師
+table.minecraft.chests.village.village_mason.name,Village - Mason,村 - 職人
+table.minecraft.chests.village.village_mason.name,Village - Mason,村 - 職人
+table.minecraft.chests.village.village_plains_house.name,Village - Plains House,村 - 平原の家
+table.minecraft.chests.village.village_plains_house.name,Village - Plains House,村 - 平原の家
+table.minecraft.chests.village.village_savanna_house.name,Village - Savanna House,村 - サバンナの家
+table.minecraft.chests.village.village_savanna_house.name,Village - Savanna House,村 - サバンナの家
+table.minecraft.chests.village.village_shepherd.name,Village - Shepherd,村 - 羊飼い
+table.minecraft.chests.village.village_shepherd.name,Village - Shepherd,村 - 羊飼い
+table.minecraft.chests.village.village_snowy_house.name,Village - Snowy House,村 - 雪の家
+table.minecraft.chests.village.village_snowy_house.name,Village - Snowy House,村 - 雪の家
+table.minecraft.chests.village.village_taiga_house.name,Village - Taiga House,村 - タイガの家
+table.minecraft.chests.village.village_taiga_house.name,Village - Taiga House,村 - タイガの家
+table.minecraft.chests.village.village_tannery.name,Village - Tannery,村 - タンナー
+table.minecraft.chests.village.village_tannery.name,Village - Tannery,村 - タンナー
+table.minecraft.chests.village.village_temple.name,Village - Temple,村 - 寺院
+table.minecraft.chests.village.village_temple.name,Village - Temple,村 - 寺院
+table.minecraft.chests.village.village_toolsmith.name,Village - Toolsmith,村 - 道具鍛冶屋
+table.minecraft.chests.village.village_toolsmith.name,Village - Toolsmith,村 - 道具鍛冶屋
+table.minecraft.chests.village.village_weaponsmith.name,Village - Weaponsmith,村 - 武器鍛冶屋
+table.minecraft.chests.village.village_weaponsmith.name,Village - Weaponsmith,村 - 武器鍛冶屋
+table.minecraft.chests.woodland_mansion.name,Woodland Mansion,森の館
+table.minecraft.chests.woodland_mansion.name,Woodland Mansion,森の館
+table.minecraft.dispensers.trial_chambers.chamber.name,Trial Chamber - Chamber,トライアルチャンバー - チャンバー
+table.minecraft.dispensers.trial_chambers.chamber.name,Trial Chamber - Chamber,トライアルチャンバー - チャンバー
+table.minecraft.dispensers.trial_chambers.corridor.name,Trial Chamber - Corridor,トライアルチャンバー - 廊下
+table.minecraft.dispensers.trial_chambers.corridor.name,Trial Chamber - Corridor,トライアルチャンバー - 廊下
+table.minecraft.dispensers.trial_chambers.water.name,Trial Chamber - Water,トライアルチャンバー - 水
+table.minecraft.dispensers.trial_chambers.water.name,Trial Chamber - Water,トライアルチャンバー - 水
+table.minecraft.empty.name,Empty,空
+table.minecraft.empty.name,Empty,空
+table.minecraft.equipment.trial_chamber.name,Trial Chamber,トライアルチャンバー
+table.minecraft.equipment.trial_chamber.name,Trial Chamber,トライアルチャンバー
+table.minecraft.equipment.trial_chamber_melee.name,Trial Chamber - Melee,トライアルチャンバー - 近接
+table.minecraft.equipment.trial_chamber_melee.name,Trial Chamber - Melee,トライアルチャンバー - 近接
+table.minecraft.equipment.trial_chamber_ranged.name,Trial Chamber - Ranged,トライアルチャンバー - 遠隔
+table.minecraft.equipment.trial_chamber_ranged.name,Trial Chamber - Ranged,トライアルチャンバー - 遠隔
+table.minecraft.gameplay.cat_morning_gift.name,Cat - Morning Gift,猫 - 朝のプレゼント
+table.minecraft.gameplay.cat_morning_gift.name,Cat - Morning Gift,猫 - 朝のプレゼント
+table.minecraft.gameplay.fishing.fish.name,Fishing - Fish,釣り - 魚
+table.minecraft.gameplay.fishing.fish.name,Fishing - Fish,釣り - 魚
+table.minecraft.gameplay.fishing.junk.name,Fishing - Junk,釣り - ガラクタ
+table.minecraft.gameplay.fishing.junk.name,Fishing - Junk,釣り - ガラクタ
+table.minecraft.gameplay.fishing.name,Fishing,釣り
+table.minecraft.gameplay.fishing.name,Fishing,釣り
+table.minecraft.gameplay.fishing.treasure.name,Fishing - Treasure,釣り - 宝物
+table.minecraft.gameplay.fishing.treasure.name,Fishing - Treasure,釣り - 宝物
+table.minecraft.gameplay.hero_of_the_village.armorer_gift.name,Hero Of The Village - Armorer,村の勇者 - 防具屋の贈り物
+table.minecraft.gameplay.hero_of_the_village.armorer_gift.name,Hero Of The Village - Armorer,村の勇者 - 防具屋の贈り物
+table.minecraft.gameplay.hero_of_the_village.butcher_gift.name,Hero Of The Village - Butcher,村の勇者 - 肉屋の贈り物
+table.minecraft.gameplay.hero_of_the_village.butcher_gift.name,Hero Of The Village - Butcher,村の勇者 - 肉屋の贈り物
+table.minecraft.gameplay.hero_of_the_village.cartographer_gift.name,Hero Of The Village - Cartographer,村の勇者 - 製図家の贈り物
+table.minecraft.gameplay.hero_of_the_village.cartographer_gift.name,Hero Of The Village - Cartographer,村の勇者 - 製図家の贈り物
+table.minecraft.gameplay.hero_of_the_village.cleric_gift.name,Hero Of The Village - Cleric,村の勇者 - 司祭の贈り物
+table.minecraft.gameplay.hero_of_the_village.cleric_gift.name,Hero Of The Village - Cleric,村の勇者 - 司祭の贈り物
+table.minecraft.gameplay.hero_of_the_village.farmer_gift.name,Hero Of The Village - Farmer,村の勇者 - 農民の贈り物
+table.minecraft.gameplay.hero_of_the_village.farmer_gift.name,Hero Of The Village - Farmer,村の勇者 - 農民の贈り物
+table.minecraft.gameplay.hero_of_the_village.fisherman_gift.name,Hero Of The Village - Fisherman,村の勇者 - 漁師の贈り物
+table.minecraft.gameplay.hero_of_the_village.fisherman_gift.name,Hero Of The Village - Fisherman,村の勇者 - 漁師の贈り物
+table.minecraft.gameplay.hero_of_the_village.fletcher_gift.name,Hero Of The Village - Fletcher,村の勇者 - 矢師の贈り物
+table.minecraft.gameplay.hero_of_the_village.fletcher_gift.name,Hero Of The Village - Fletcher,村の勇者 - 矢師の贈り物
+table.minecraft.gameplay.hero_of_the_village.leatherworker_gift.name,Hero Of The Village - Leatherworker,村の勇者 - 革製職人の贈り物
+table.minecraft.gameplay.hero_of_the_village.leatherworker_gift.name,Hero Of The Village - Leatherworker,村の勇者 - 革製職人の贈り物
+table.minecraft.gameplay.hero_of_the_village.librarian_gift.name,Hero Of The Village - Librarian,村の勇者 - 司書の贈り物
+table.minecraft.gameplay.hero_of_the_village.librarian_gift.name,Hero Of The Village - Librarian,村の勇者 - 司書の贈り物
+table.minecraft.gameplay.hero_of_the_village.mason_gift.name,Hero Of The Village - Mason,村の勇者 - 職人の贈り物
+table.minecraft.gameplay.hero_of_the_village.mason_gift.name,Hero Of The Village - Mason,村の勇者 - 職人の贈り物
+table.minecraft.gameplay.hero_of_the_village.shepherd_gift.name,Hero Of The Village - Shepherd,村の勇者 - 羊飼いの贈り物
+table.minecraft.gameplay.hero_of_the_village.shepherd_gift.name,Hero Of The Village - Shepherd,村の勇者 - 羊飼いの贈り物
+table.minecraft.gameplay.hero_of_the_village.toolsmith_gift.name,Hero Of The Village - Toolsmith,村の勇者 - 道具鍛冶屋の贈り物
+table.minecraft.gameplay.hero_of_the_village.toolsmith_gift.name,Hero Of The Village - Toolsmith,村の勇者 - 道具鍛冶屋の贈り物
+table.minecraft.gameplay.hero_of_the_village.weaponsmith_gift.name,Hero Of The Village - Weaponsmith,村の勇者 - 武器鍛冶屋の贈り物
+table.minecraft.gameplay.hero_of_the_village.weaponsmith_gift.name,Hero Of The Village - Weaponsmith,村の勇者 - 武器鍛冶屋の贈り物
+table.minecraft.gameplay.panda_sneeze.name,Panda Sneeze,パンダのくしゃみ
+table.minecraft.gameplay.panda_sneeze.name,Panda Sneeze,パンダのくしゃみ
+table.minecraft.gameplay.piglin_bartering.name,Piglin Bartering,ピグリンの物々交換
+table.minecraft.gameplay.piglin_bartering.name,Piglin Bartering,ピグリンの物々交換
+table.minecraft.gameplay.sniffer_digging.name,Sniffer Digging,スニファーの掘り
+table.minecraft.gameplay.sniffer_digging.name,Sniffer Digging,スニファーの掘り
+table.minecraft.pots.trial_chambers.corridor.name,Trial Chamber - Corridor Pot,トライアルチャンバー - 廊下の壺
+table.minecraft.pots.trial_chambers.corridor.name,Trial Chamber - Corridor Pot,トライアルチャンバー - 廊下の壺
+table.minecraft.shearing.bogged.name,Bogged - Shearing,沼地モブ - 毛刈り
+table.minecraft.shearing.bogged.name,Bogged - Shearing,沼地モブ - 毛刈り
+table.minecraft.spawners.ominous.trial_chamber.consumables.name,Trial Chamber - Ominous Consumables,トライアルチャンバー - 不気味な消耗品
+table.minecraft.spawners.ominous.trial_chamber.consumables.name,Trial Chamber - Ominous Consumables,トライアルチャンバー - 不気味な消耗品
+table.minecraft.spawners.ominous.trial_chamber.key.name,Trial Chamber - Ominous Key,トライアルチャンバー - 不気味なキー
+table.minecraft.spawners.ominous.trial_chamber.key.name,Trial Chamber - Ominous Key,トライアルチャンバー - 不気味なキー
+table.minecraft.spawners.trial_chamber.consumables.name,Trial Chamber - Consumables,トライアルチャンバー - 消耗品
+table.minecraft.spawners.trial_chamber.consumables.name,Trial Chamber - Consumables,トライアルチャンバー - 消耗品
+table.minecraft.spawners.trial_chamber.items_to_drop_when_ominous.name,Trial Chamber - Ominous Drops,トライアルチャンバー - 不気味なドロップ
+table.minecraft.spawners.trial_chamber.items_to_drop_when_ominous.name,Trial Chamber - Ominous Drops,トライアルチャンバー - 不気味なドロップ
+table.minecraft.spawners.trial_chamber.key.name,Trial Chamber - Key,トライアルチャンバー - キー
+table.minecraft.spawners.trial_chamber.key.name,Trial Chamber - Key,トライアルチャンバー - キー
+tag.item.bookshelf.creative_tab.minecraft.building_blocks,Building Blocks Tab,建築ブロックタブ
+tag.item.bookshelf.creative_tab.minecraft.building_blocks,Building Blocks Tab,建築ブロックタブ
+tag.item.bookshelf.creative_tab.minecraft.colored_blocks,Colored Blocks Tab,カラーブロックタブ
+tag.item.bookshelf.creative_tab.minecraft.colored_blocks,Colored Blocks Tab,カラーブロックタブ
+tag.item.bookshelf.creative_tab.minecraft.combat,Combat Tab,戦闘タブ
+tag.item.bookshelf.creative_tab.minecraft.combat,Combat Tab,戦闘タブ
+tag.item.bookshelf.creative_tab.minecraft.food_and_drinks,Food and Drinks Tab,食べ物と飲み物タブ
+tag.item.bookshelf.creative_tab.minecraft.food_and_drinks,Food and Drinks Tab,食べ物と飲み物タブ
+tag.item.bookshelf.creative_tab.minecraft.functional_blocks,Functional Blocks Tab,機能ブロックタブ
+tag.item.bookshelf.creative_tab.minecraft.functional_blocks,Functional Blocks Tab,機能ブロックタブ
+tag.item.bookshelf.creative_tab.minecraft.ingredients,Ingredients Tab,材料タブ
+tag.item.bookshelf.creative_tab.minecraft.ingredients,Ingredients Tab,材料タブ
+tag.item.bookshelf.creative_tab.minecraft.natural_blocks,Natural Blocks Tab,自然ブロックタブ
+tag.item.bookshelf.creative_tab.minecraft.natural_blocks,Natural Blocks Tab,自然ブロックタブ
+tag.item.bookshelf.creative_tab.minecraft.op_blocks,OP/Admin Tab,OP/管理者タブ
+tag.item.bookshelf.creative_tab.minecraft.op_blocks,OP/Admin Tab,OP/管理者タブ
+tag.item.bookshelf.creative_tab.minecraft.redstone_blocks,Redstone Tab,レッドストーンタブ
+tag.item.bookshelf.creative_tab.minecraft.redstone_blocks,Redstone Tab,レッドストーンタブ
+tag.item.bookshelf.creative_tab.minecraft.spawn_eggs,Spawn Eggs Tab,スポーンエッグタブ
+tag.item.bookshelf.creative_tab.minecraft.spawn_eggs,Spawn Eggs Tab,スポーンエッグタブ
+tag.item.bookshelf.creative_tab.minecraft.tools_and_utilities,Tools & Utilities Tab,ツール & ユーティリティタブ
+tag.item.bookshelf.creative_tab.minecraft.tools_and_utilities,Tools & Utilities Tab,ツール & ユーティリティタブ
+tooltips.bookshelf.loot.dynamic,Dynamic Drop,ダイナミックドロップ
+tooltips.bookshelf.loot.dynamic,Dynamic Drop,ダイナミックドロップ
+tooltips.bookshelf.loot.dynamic.desc,Some drops depend on the context.,一部のドロップは文脈に依存します。
+tooltips.bookshelf.loot.dynamic.desc,Some drops depend on the context.,一部のドロップは文脈に依存します。
+tooltips.bookshelf.loot.empty,Empty Drop,空のドロップ
+tooltips.bookshelf.loot.empty,Empty Drop,空のドロップ
+tooltips.bookshelf.loot.empty.desc,It's possible for nothing to drop!,何もドロップされない可能性があります！
+tooltips.bookshelf.loot.empty.desc,It's possible for nothing to drop!,何もドロップされない可能性があります！
+tooltips.bookshelf.loot.unknown,Unknown Drop,未知のドロップ
+tooltips.bookshelf.loot.unknown,Unknown Drop,未知のドロップ
+tooltips.bookshelf.loot.unknown.desc,Some drops can not be displayed right now.,一部のドロップは現在表示できません。
+tooltips.bookshelf.loot.unknown.desc,Some drops can not be displayed right now.,一部のドロップは現在表示できません。
+units.bookshelf.day,Day,日
+units.bookshelf.day,Day,日
+units.bookshelf.day.abbreviated,d,日
+units.bookshelf.day.abbreviated,d,日
+units.bookshelf.day.plural,Days,日
+units.bookshelf.day.plural,Days,日
+units.bookshelf.hour,Hour,時間
+units.bookshelf.hour,Hour,時間
+units.bookshelf.hour.abbreviated,h,時
+units.bookshelf.hour.abbreviated,h,時
+units.bookshelf.hour.plural,Hours,時間
+units.bookshelf.hour.plural,Hours,時間
+units.bookshelf.millisecond,Millisecond,ミリ秒
+units.bookshelf.millisecond,Millisecond,ミリ秒
+units.bookshelf.millisecond.abbreviated,ms,ms
+units.bookshelf.millisecond.abbreviated,ms,ms
+units.bookshelf.millisecond.plural,Milliseconds,ミリ秒
+units.bookshelf.millisecond.plural,Milliseconds,ミリ秒
+units.bookshelf.minute,Minute,分
+units.bookshelf.minute,Minute,分
+units.bookshelf.minute.abbreviated,m,分
+units.bookshelf.minute.abbreviated,m,分
+units.bookshelf.minute.plural,Minutes,分
+units.bookshelf.minute.plural,Minutes,分
+units.bookshelf.month,Month,月
+units.bookshelf.month,Month,月
+units.bookshelf.month.abbreviated,mo,月
+units.bookshelf.month.abbreviated,mo,月
+units.bookshelf.month.plural,Months,月
+units.bookshelf.month.plural,Months,月
+units.bookshelf.nanosecond,Nanosecond,ナノ秒
+units.bookshelf.nanosecond,Nanosecond,ナノ秒
+units.bookshelf.nanosecond.abbreviated,ns,ns
+units.bookshelf.nanosecond.abbreviated,ns,ns
+units.bookshelf.nanosecond.plural,Nanoseconds,ナノ秒
+units.bookshelf.nanosecond.plural,Nanoseconds,ナノ秒
+units.bookshelf.second,Second,秒
+units.bookshelf.second,Second,秒
+units.bookshelf.second.abbreviated,s,秒
+units.bookshelf.second.abbreviated,s,秒
+units.bookshelf.second.plural,Seconds,秒
+units.bookshelf.second.plural,Seconds,秒
+units.bookshelf.tick,Tick,ティック
+units.bookshelf.tick,Tick,ティック
+units.bookshelf.tick.abbreviated,t,t
+units.bookshelf.tick.abbreviated,t,t
+units.bookshelf.tick.plural,Ticks,ティック
+units.bookshelf.tick.plural,Ticks,ティック
+units.bookshelf.week,Week,週
+units.bookshelf.week,Week,週
+units.bookshelf.week.abbreviated,wk,週
+units.bookshelf.week.abbreviated,wk,週
+units.bookshelf.week.plural,Weeks,週
+units.bookshelf.week.plural,Weeks,週
+units.bookshelf.year,Year,年
+units.bookshelf.year,Year,年
+units.bookshelf.year.abbreviated,yr,年
+units.bookshelf.year.abbreviated,yr,年
+units.bookshelf.year.plural,Years,年
+units.bookshelf.year.plural,Years,年
+_comment,Misc,Misc
+_comment,Misc,Misc
+argument.bookshelf.unknown_value,The value '%s' is unknown.,値 '%s' は不明です。
+argument.bookshelf.unknown_value,The value '%s' is unknown.,値 '%s' は不明です。
+commands.bookshelf.loot_tables,Found %d missing loot tables for %s.,%s に対して %d 個の欠落ルートテーブルが見つかりました。
+commands.bookshelf.loot_tables,Found %d missing loot tables for %s.,%s に対して %d 個の欠落ルートテーブルが見つかりました。
+commands.bookshelf.loot_tables.wildcard,Found %d missing loot tables for all mods.,すべての Mod に対して %d 個の欠落ルートテーブルが見つかりました。
+commands.bookshelf.loot_tables.wildcard,Found %d missing loot tables for all mods.,すべての Mod に対して %d 個の欠落ルートテーブルが見つかりました。
+text.bookshelf.ticks,Ticks: %s,ティック: %s
+text.bookshelf.ticks,Ticks: %s,ティック: %s
+time.bookshelf.day.friday,Friday,金曜日
+time.bookshelf.day.friday,Friday,金曜日
+time.bookshelf.day.monday,Monday,月曜日
+time.bookshelf.day.monday,Monday,月曜日
+time.bookshelf.day.saturday,Saturday,土曜日
+time.bookshelf.day.saturday,Saturday,土曜日
+time.bookshelf.day.sunday,Sunday,日曜日
+time.bookshelf.day.sunday,Sunday,日曜日
+time.bookshelf.day.thursday,Thursday,木曜日
+time.bookshelf.day.thursday,Thursday,木曜日
+time.bookshelf.day.tuesday,Tuesday,火曜日
+time.bookshelf.day.tuesday,Tuesday,火曜日
+time.bookshelf.day.wednesday,Wednesday,水曜日
+time.bookshelf.day.wednesday,Wednesday,水曜日
+time.bookshelf.month.april,April,4月
+time.bookshelf.month.april,April,4月
+time.bookshelf.month.august,August,8月
+time.bookshelf.month.august,August,8月
+time.bookshelf.month.december,December,12月
+time.bookshelf.month.december,December,12月
+time.bookshelf.month.february,February,2月
+time.bookshelf.month.february,February,2月
+time.bookshelf.month.january,January,1月
+time.bookshelf.month.january,January,1月
+time.bookshelf.month.july,July,7月
+time.bookshelf.month.july,July,7月
+time.bookshelf.month.june,June,6月
+time.bookshelf.month.june,June,6月
+time.bookshelf.month.march,March,3月
+time.bookshelf.month.march,March,3月
+time.bookshelf.month.may,May,5月
+time.bookshelf.month.may,May,5月
+time.bookshelf.month.november,November,11月
+time.bookshelf.month.november,November,11月
+time.bookshelf.month.october,October,10月
+time.bookshelf.month.october,October,10月
+time.bookshelf.month.september,September,9月
+time.bookshelf.month.september,September,9月

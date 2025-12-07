@@ -1,5 +1,5 @@
-﻿key,source_text,target_text,status
-block.rsgauges.arrow_target,Arrow Target,矢的,translated
+﻿key,source_text,target_text
+block.rsgauges.arrow_target,Arrow Target,矢的
 block.rsgauges.arrow_target.help,"A target that emits a redstone
  pulse to the block it is attached
  to when it is hit with an arrow
@@ -9,12 +9,12 @@ block.rsgauges.arrow_target.help,"A target that emits a redstone
 、取り付けられているブロックに
 レッドストーンパルスを発する目標。
  ${rsgauges.switch.feature.outputconfig.help}
- ${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.door_sensor_switch,Door sensor,ドアセンサー,translated
+ ${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.door_sensor_switch,Door sensor,ドアセンサー
 block.rsgauges.door_sensor_switch.help,"A player detector that is mounted
  on walls above doors.§r","ドアの上の壁に取り付けられた
-プレイヤー検知器。§r",translated
-block.rsgauges.elevator_button,Elevator Button,エレベーターボタン,translated
+プレイヤー検知器。§r"
+block.rsgauges.elevator_button,Elevator Button,エレベーターボタン
 block.rsgauges.elevator_button.help,"Points up, down, or in both directions
 depending on where you click the wall
 when placing.
@@ -26,8 +26,8 @@ ${rsgauges.switch.feature.linksource.help}","設置時に壁をクリックし�
 ${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.glass_button,Glass Button,ガラスボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.glass_button,Glass Button,ガラスボタン
 block.rsgauges.glass_button.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -40,8 +40,8 @@ ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.colortinting.help}",translated
-block.rsgauges.glass_contact_mat,Glass Contact Plate,ガラスコンタクトプレート,translated
+${rsgauges.switch.feature.colortinting.help}"
+block.rsgauges.glass_contact_mat,Glass Contact Plate,ガラスコンタクトプレート
 block.rsgauges.glass_contact_mat.help,"A glass floor plate that changes
  color and emits a redstone signal
  when exposed to mechanical
@@ -65,8 +65,8 @@ ${rsgauges.switch.feature.colortinting.help}","機械的な圧力（例えば誰
  ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.colortinting.help}",translated
-block.rsgauges.glass_day_timer,Glass Day Timer Clock,ガラス日時タイマークロック,translated
+${rsgauges.switch.feature.colortinting.help}"
+block.rsgauges.glass_day_timer,Glass Day Timer Clock,ガラス日時タイマークロック
 block.rsgauges.glass_day_timer.help,"A small glass device that emits a
  redstone signal from a configured
  start (day) time to a configured
@@ -98,8 +98,8 @@ ${rsgauges.switch.feature.linksource.help}","設定された開始時刻から�
 ブロックに対して行われます。
 切り替え音は発しません。
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.glass_door_contact_mat,Configurable Glass Contact Plate,設定可能なガラスコンタクトプレート,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.glass_door_contact_mat,Configurable Glass Contact Plate,設定可能なガラスコンタクトプレート
 block.rsgauges.glass_door_contact_mat.help,"A glass floor plate that changes
  color and emits a redstone signal
  when exposed to mechanical
@@ -123,8 +123,8 @@ ${rsgauges.switch.feature.colortinting.help}","機械的な圧力（例えば誰
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.colortinting.help}",translated
-block.rsgauges.glass_entity_detector,Glass Infrared Entity Detector,ガラス赤外線エンティティ検知器,translated
+${rsgauges.switch.feature.colortinting.help}"
+block.rsgauges.glass_entity_detector,Glass Infrared Entity Detector,ガラス赤外線エンティティ検知器
 block.rsgauges.glass_entity_detector.help,"A small glass device that
  observes a defined volume and
  emits a redstone signal if it
@@ -157,8 +157,8 @@ ${rsgauges.switch.feature.linksource.help}","定義されたボリュームを�
 ブロックに対して行われます。
 切り替え音は発しません。
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.glass_interval_timer,Glass Interval Signal Timer,ガラス間隔信号タイマー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.glass_interval_timer,Glass Interval Signal Timer,ガラス間隔信号タイマー
 block.rsgauges.glass_interval_timer.help,"Emits a signal with a defined on-
  and off-time. Configured using
  buttons on the front:
@@ -188,8 +188,8 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.outputconfig.help}
  スイッチリンクターゲットとして
 タイマーは実行とスタンバイ
-モード間で切り替わります。",translated
-block.rsgauges.glass_linear_entity_detector,Glass Linear Laser Entity Detector,ガラス直線レーザーエンティティ検知器,translated
+モード間で切り替わります。"
+block.rsgauges.glass_linear_entity_detector,Glass Linear Laser Entity Detector,ガラス直線レーザーエンティティ検知器
 block.rsgauges.glass_linear_entity_detector.help,"A small glass device that observes
  in one direction and emits a
  redstone signal if it senses an
@@ -219,8 +219,8 @@ ${rsgauges.switch.feature.linksource.help}","1方向を観察し、
 アウトプットはセンサーが置かれている
 ブロックに対して行われます。
 切り替え音は発しません。 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.glass_rotary_switch,Bistable Glass Switch,双安定ガラススイッチ,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.glass_rotary_switch,Bistable Glass Switch,双安定ガラススイッチ
 block.rsgauges.glass_rotary_switch.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
@@ -229,8 +229,8 @@ ${rsgauges.switch.feature.colortinting.help}","${rsgauges.switch.feature.typebis
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.colortinting.help}",translated
-block.rsgauges.glass_small_button,Small Glass Button,小型ガラスボタン,translated
+${rsgauges.switch.feature.colortinting.help}"
+block.rsgauges.glass_small_button,Small Glass Button,小型ガラスボタン
 block.rsgauges.glass_small_button.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -243,8 +243,8 @@ ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.colortinting.help}",translated
-block.rsgauges.glass_touch_button,Glass Touch Button,ガラスタッチボタン,translated
+${rsgauges.switch.feature.colortinting.help}"
+block.rsgauges.glass_touch_button,Glass Touch Button,ガラスタッチボタン
 block.rsgauges.glass_touch_button.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -257,8 +257,8 @@ ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.colortinting.help}",translated
-block.rsgauges.glass_touch_switch,Bistable Glass Touch Switch,双安定ガラスタッチスイッチ,translated
+${rsgauges.switch.feature.colortinting.help}"
+block.rsgauges.glass_touch_switch,Bistable Glass Touch Switch,双安定ガラスタッチスイッチ
 block.rsgauges.glass_touch_switch.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
@@ -267,25 +267,25 @@ ${rsgauges.switch.feature.colortinting.help}","${rsgauges.switch.feature.typebis
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.colortinting.help}",translated
-block.rsgauges.glass_vertical_bar_gauge,Glass Bar Redstone Gauge,ガラスバーレッドストーンゲージ,translated
-block.rsgauges.glass_vertical_bar_gauge.help,${block.rsgauges.industrial_analog_angular_gauge.help},${block.rsgauges.industrial_analog_angular_gauge.help},translated
-block.rsgauges.industrial_alarm_lamp,Alarm Lamp,警報ランプ,translated
+${rsgauges.switch.feature.colortinting.help}"
+block.rsgauges.glass_vertical_bar_gauge,Glass Bar Redstone Gauge,ガラスバーレッドストーンゲージ
+block.rsgauges.glass_vertical_bar_gauge.help,${block.rsgauges.industrial_analog_angular_gauge.help},${block.rsgauges.industrial_analog_angular_gauge.help}
+block.rsgauges.industrial_alarm_lamp,Alarm Lamp,警報ランプ
 block.rsgauges.industrial_alarm_lamp.help,"A red lamp that blinks when
  detecting a redstone signal from
  the block it is attached to.
  Emits light when active.","取り付けられているブロックからの
 レッドストーン信号を検出したときに
 点滅する赤色ランプ。
-アクティブな場合、光を発します。",translated
-block.rsgauges.industrial_alarm_siren,Alarm Siren,警報サイレン,translated
+アクティブな場合、光を発します。"
+block.rsgauges.industrial_alarm_siren,Alarm Siren,警報サイレン
 block.rsgauges.industrial_alarm_siren.help,"A siren that frequently emits an
  alarm sound when detecting a
  redstone signal from the block
  it is attached to.","取り付けられているブロックから
 レッドストーン信号を検出したときに
-頻繁に警報音を発するサイレン。",translated
-block.rsgauges.industrial_analog_angular_gauge,Analog Voltmeter Redstone Gauge,アナログボルトメーターレッドストーンゲージ,translated
+頻繁に警報音を発するサイレン。"
+block.rsgauges.industrial_analog_angular_gauge,Analog Voltmeter Redstone Gauge,アナログボルトメーターレッドストーンゲージ
 block.rsgauges.industrial_analog_angular_gauge.help,"A display device that can be
  attached to a solid block to
  visualize the redstone power of
@@ -307,10 +307,10 @@ block.rsgauges.industrial_analog_angular_gauge.help,"A display device that can b
 間接的に測定します。
 強力と弱力の両方がサポートされています。
 間接的な弱い測定はわずかな
-遅延があります。",translated
-block.rsgauges.industrial_analog_horizontal_gauge,Small Analog Voltmeter Redstone Gauge,小型アナログボルトメーターレッドストーンゲージ,translated
-block.rsgauges.industrial_analog_horizontal_gauge.help,${block.rsgauges.industrial_analog_angular_gauge.help},${block.rsgauges.industrial_analog_angular_gauge.help},translated
-block.rsgauges.industrial_block_detector,Industrial Block Category Detector,産業ブロックカテゴリ検知器,translated
+遅延があります。"
+block.rsgauges.industrial_analog_horizontal_gauge,Small Analog Voltmeter Redstone Gauge,小型アナログボルトメーターレッドストーンゲージ
+block.rsgauges.industrial_analog_horizontal_gauge.help,${block.rsgauges.industrial_analog_angular_gauge.help},${block.rsgauges.industrial_analog_angular_gauge.help}
+block.rsgauges.industrial_block_detector,Industrial Block Category Detector,産業ブロックカテゴリ検知器
 block.rsgauges.industrial_block_detector.help,"Emits a redstone signal if one or
  more blocks in front if it match a
  configured category. Configure
@@ -331,8 +331,8 @@ ${rsgauges.switch.feature.linksource.help}","その前にある1つ以上のブ�
  - §4アウトプットパワー§r
  - §2フィルター§r（固体、流体、木のログ）
  ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_button,Machine Button,機械ボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_button,Machine Button,機械ボタン
 block.rsgauges.industrial_button.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -345,8 +345,8 @@ ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.projectilesense.help}",translated
-block.rsgauges.industrial_comparator_switch,Industrial Comparator Switch,産業コンパレーターオススイッチ,translated
+${rsgauges.switch.feature.projectilesense.help}"
+block.rsgauges.industrial_comparator_switch,Industrial Comparator Switch,産業コンパレーターオススイッチ
 block.rsgauges.industrial_comparator_switch.help,"A small device that that emits a
  redstone signal depending on the
  comparator output level, inventory
@@ -378,8 +378,8 @@ ${rsgauges.switch.feature.linksource.help}","コンパレーター出力レベ�
 スイッチはパワーを出力しませんが、
 スイッチリンクソースとして使用できます。
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_contact_mat,Industrial Contact Mat,産業コンタクトマット,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_contact_mat,Industrial Contact Mat,産業コンタクトマット
 block.rsgauges.industrial_contact_mat.help,"An industrial floor contact mat
  that emits a redstone signal when
  exposed to mechanical pressure
@@ -397,8 +397,8 @@ ${rsgauges.switch.feature.linksource.help}","機械的な圧力（例えば誰�
 アウトプットは前面と下面です。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_day_timer,Industrial Day Timer Clock,産業日時タイマークロック,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_day_timer,Industrial Day Timer Clock,産業日時タイマークロック
 block.rsgauges.industrial_day_timer.help,"A small device that emits a
  redstone signal from a configured
  start (day) time to a configured
@@ -427,8 +427,8 @@ ${rsgauges.switch.feature.linksource.help}","設定された開始時刻から�
 アウトプットはセンサーが置かれている
 ブロックに対して行われます。
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_dimmer,Industrial Dimmer,産業ディマー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_dimmer,Industrial Dimmer,産業ディマー
 block.rsgauges.industrial_dimmer.help,"An industrial manual redstone
  power dimmer. Allows to manually
  set an output signal between 0
@@ -442,8 +442,8 @@ ${rsgauges.switch.feature.linksource.help}","産業用手動レッドストー�
 手動で設定できます。
 垂直クリック位置が信号強度を定義します。
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_door_contact_mat,Industrial Door Contact Mat,産業ドアコンタクトマット,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_door_contact_mat,Industrial Door Contact Mat,産業ドアコンタクトマット
 block.rsgauges.industrial_door_contact_mat.help,"An industrial floor contact mat
  that emits a redstone signal when
  exposed to mechanical pressure on
@@ -463,8 +463,8 @@ ${rsgauges.switch.feature.linksource.help}","機械的な圧力（例えば誰�
 ${rsgauges.switch.feature.contactmat.touch.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_double_pole_button,Industrial Button,産業ボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_double_pole_button,Industrial Button,産業ボタン
 block.rsgauges.industrial_double_pole_button.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -475,8 +475,8 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_entity_detector,Industrial Infrared Entity Detector,産業赤外線エンティティ検知器,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_entity_detector,Industrial Infrared Entity Detector,産業赤外線エンティティ検知器
 block.rsgauges.industrial_entity_detector.help,"A small device that observes a
  defined volume and emits a
  redstone signal if it sees an
@@ -506,8 +506,8 @@ ${rsgauges.switch.feature.linksource.help}","定義されたボリュームを�
 アウトプットはセンサーが置かれている
 ブロックに対して行われます。
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_estop_switch,ESTOP Button,ESTOPボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_estop_switch,ESTOP Button,ESTOPボタン
 block.rsgauges.industrial_estop_switch.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
@@ -516,8 +516,8 @@ ${rsgauges.switch.feature.linksource.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
- 発射物で発射することができます。",translated
-block.rsgauges.industrial_fallthrough_detector,Industrial Fall-Through Detection Frame,産業落下検知フレーム,translated
+ 発射物で発射することができます。"
+block.rsgauges.industrial_fallthrough_detector,Industrial Fall-Through Detection Frame,産業落下検知フレーム
 block.rsgauges.industrial_fallthrough_detector.help,"An industrial sensor frame that
  emits a redstone signal when
  something falls through it. Output
@@ -531,8 +531,8 @@ ${rsgauges.switch.feature.linksource.help}","何かがそれを通って落下�
 ブロックに対して行われます。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_fenced_button,Fenced Machine Button,フェンス付き機械ボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_fenced_button,Fenced Machine Button,フェンス付き機械ボタン
 block.rsgauges.industrial_fenced_button.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -543,8 +543,8 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_foot_button,Industrial Foot Button,産業フットボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_foot_button,Industrial Foot Button,産業フットボタン
 block.rsgauges.industrial_foot_button.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -555,14 +555,14 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_green_blinking_led,Green Blinking LED Redstone Indicator,緑点滅LEDレッドストーンインジケーター,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_green_blinking_led,Green Blinking LED Redstone Indicator,緑点滅LEDレッドストーンインジケーター
 block.rsgauges.industrial_green_blinking_led.help,"${block.rsgauges.industrial_white_led.help}
  Blinks with a frequency of about 0.5Hz.","${block.rsgauges.industrial_white_led.help}
- 約0.5Hzの周波数で点滅します。",translated
-block.rsgauges.industrial_green_led,Green LED Redstone Indicator,緑LEDレッドストーンインジケーター,translated
-block.rsgauges.industrial_green_led.help,${block.rsgauges.industrial_white_led.help},${block.rsgauges.industrial_white_led.help},translated
-block.rsgauges.industrial_high_sensitive_trapdoor,Industrial Sensitive Shock Activated Trapdoor,産業高感度衝撃作動トラップドア,translated
+ 約0.5Hzの周波数で点滅します。"
+block.rsgauges.industrial_green_led,Green LED Redstone Indicator,緑LEDレッドストーンインジケーター
+block.rsgauges.industrial_green_led.help,${block.rsgauges.industrial_white_led.help},${block.rsgauges.industrial_white_led.help}
+block.rsgauges.industrial_high_sensitive_trapdoor,Industrial Sensitive Shock Activated Trapdoor,産業高感度衝撃作動トラップドア
 block.rsgauges.industrial_high_sensitive_trapdoor.help,"An industrial floor trap door
  that swings open and emits a
  redstone signal when someone or
@@ -581,8 +581,8 @@ ${rsgauges.switch.feature.linksource.help}","誰かまたは何かが落ちて�
 ブロックに対して行われます。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_hopper_switch,Hopper Blocker,ホッパーブロッカー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_hopper_switch,Hopper Blocker,ホッパーブロッカー
 block.rsgauges.industrial_hopper_switch.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
@@ -591,8 +591,8 @@ ${rsgauges.switch.feature.hoppermountable.help}","${rsgauges.switch.feature.type
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.hoppermountable.help}",translated
-block.rsgauges.industrial_interval_timer,Industrial Interval Signal Timer,産業間隔信号タイマー,translated
+${rsgauges.switch.feature.hoppermountable.help}"
+block.rsgauges.industrial_interval_timer,Industrial Interval Signal Timer,産業間隔信号タイマー
 block.rsgauges.industrial_interval_timer.help,"Emits a signal with a defined on-
  and off-time. Configured using
  buttons on the front:
@@ -622,8 +622,8 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.outputconfig.help}
  スイッチリンクターゲットとして
 タイマーは実行とスタンバイ
-モード間で切り替わります。",translated
-block.rsgauges.industrial_knock_button,Knock Detector Pulse Switch (industrial),ノック検知器パルススイッチ（産業用）,translated
+モード間で切り替わります。"
+block.rsgauges.industrial_knock_button,Knock Detector Pulse Switch (industrial),ノック検知器パルススイッチ（産業用）
 block.rsgauges.industrial_knock_button.help,"Emits a redstone pulse when the
  adjacent block of its facing is
  clicked.
@@ -638,8 +638,8 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_knock_switch,Knock Detector Bistable Switch (industrial),ノック検知器双安定スイッチ（産業用）,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_knock_switch,Knock Detector Bistable Switch (industrial),ノック検知器双安定スイッチ（産業用）
 block.rsgauges.industrial_knock_switch.help,"Switches on/off when the adjacent
  block of its facing is clicked.§r
 ${rsgauges.switch.feature.outputconfig.help}
@@ -648,16 +648,16 @@ ${rsgauges.switch.feature.linksource.help}","隣接するブロックの向い�
 クリックされたときにオン/オフで切り替わります。§r
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_lever,Industrial Lever,産業レバー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_lever,Industrial Lever,産業レバー
 block.rsgauges.industrial_lever.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_light_sensor,Industrial Local Light Sensor,産業ローカル照度センサー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_light_sensor,Industrial Local Light Sensor,産業ローカル照度センサー
 block.rsgauges.industrial_light_sensor.help,"A small device that measures the
  local light level at its location
  and emits a redstone signal
@@ -694,8 +694,8 @@ ${rsgauges.switch.feature.linksource.help}","その場所のローカル照度�
 アウトプットはセンサーが置かれている
 ブロックに対して行われます。
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_lightning_sensor,Industrial Thunderstorm Detector,産業雷嵐検知器,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_lightning_sensor,Industrial Thunderstorm Detector,産業雷嵐検知器
 block.rsgauges.industrial_lightning_sensor.help,"A small wall mounted device that
  emits a redstone signal when it
  senses a high electric potential
@@ -714,8 +714,8 @@ ${rsgauges.switch.feature.linksource.help}","空中の高い電位を感知す�
 アウトプットはセンサーが置かれている
 ブロックに対して行われます。
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_linear_entity_detector,Industrial Linear Laser Entity Detector,産業直線レーザーエンティティ検知器,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_linear_entity_detector,Industrial Linear Laser Entity Detector,産業直線レーザーエンティティ検知器
 block.rsgauges.industrial_linear_entity_detector.help,"A small device that observes in
  one direction and emits a redstone
  signal if it senses an entity.§r
@@ -743,16 +743,16 @@ ${rsgauges.switch.feature.linksource.help}","1方向を観察し、エンティ�
 アウトプットはセンサーが置かれている
 ブロックに対して行われます。
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_machine_switch,Two-Button Machine Switch,2ボタン機械スイッチ,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_machine_switch,Two-Button Machine Switch,2ボタン機械スイッチ
 block.rsgauges.industrial_machine_switch.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_pull_handle,Industrial Pull Handle Button,産業プルハンドルボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_pull_handle,Industrial Pull Handle Button,産業プルハンドルボタン
 block.rsgauges.industrial_pull_handle.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -763,8 +763,8 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_rain_sensor,Industrial Rain Sensor,産業雨センサー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_rain_sensor,Industrial Rain Sensor,産業雨センサー
 block.rsgauges.industrial_rain_sensor.help,"A small wall mounted device that
  emits a redstone signal when it
  rains on it. The buttons on the
@@ -781,14 +781,14 @@ ${rsgauges.switch.feature.linksource.help}","その上に雨が降ったとき�
  アウトプットはセンサーが置かれている
 ブロックに対して行われます。
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_red_blinking_led,Red LED Redstone Indicator,赤LEDレッドストーンインジケーター,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_red_blinking_led,Red LED Redstone Indicator,赤LEDレッドストーンインジケーター
 block.rsgauges.industrial_red_blinking_led.help,"${block.rsgauges.industrial_white_led.help}
  Blinks with a frequency of about 0.5Hz.","${block.rsgauges.industrial_white_led.help}
- 約0.5Hzの周波数で点滅します。",translated
-block.rsgauges.industrial_red_led,Red LED Redstone Indicator,赤LEDレッドストーンインジケーター,translated
-block.rsgauges.industrial_red_led.help,${block.rsgauges.industrial_white_led.help},${block.rsgauges.industrial_white_led.help},translated
-block.rsgauges.industrial_rotary_lever,Industrial Rotary Lever,産業ロータリーレバー,translated
+ 約0.5Hzの周波数で点滅します。"
+block.rsgauges.industrial_red_led,Red LED Redstone Indicator,赤LEDレッドストーンインジケーター
+block.rsgauges.industrial_red_led.help,${block.rsgauges.industrial_white_led.help},${block.rsgauges.industrial_white_led.help}
+block.rsgauges.industrial_rotary_lever,Industrial Rotary Lever,産業ロータリーレバー
 block.rsgauges.industrial_rotary_lever.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
@@ -797,16 +797,16 @@ ${rsgauges.switch.feature.hoppermountable.help}","${rsgauges.switch.feature.type
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.hoppermountable.help}",translated
-block.rsgauges.industrial_rotary_machine_switch,Rotary Machine Switch,ロータリー機械スイッチ,translated
+${rsgauges.switch.feature.hoppermountable.help}"
+block.rsgauges.industrial_rotary_machine_switch,Rotary Machine Switch,ロータリー機械スイッチ
 block.rsgauges.industrial_rotary_machine_switch.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_shock_sensitive_contact_mat,Industrial Shock Sensitive Contact Mat,産業衝撃感知コンタクトマット,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_shock_sensitive_contact_mat,Industrial Shock Sensitive Contact Mat,産業衝撃感知コンタクトマット
 block.rsgauges.industrial_shock_sensitive_contact_mat.help,"An industrial contact mat emitting
  a redstone pulse when exposed to
  mechanical shock from above (e.g.
@@ -823,8 +823,8 @@ ${rsgauges.switch.feature.linksource.help}","上からの機械的衝撃（例�
 パワーは常に15です。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_shock_sensitive_trapdoor,Industrial Shock Activated Trapdoor,産業衝撃作動トラップドア,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_shock_sensitive_trapdoor,Industrial Shock Activated Trapdoor,産業衝撃作動トラップドア
 block.rsgauges.industrial_shock_sensitive_trapdoor.help,"An industrial floor trap door
  that swings open and emits a
  redstone signal when someone or
@@ -841,18 +841,18 @@ ${rsgauges.switch.feature.linksource.help}","誰かまたは何かが落ちて�
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_small_digital_gauge,Small Digital Display Redstone Gauge,小型デジタル表示レッドストーンゲージ,translated
-block.rsgauges.industrial_small_digital_gauge.help,${block.rsgauges.industrial_analog_angular_gauge.help},${block.rsgauges.industrial_analog_angular_gauge.help},translated
-block.rsgauges.industrial_small_lever,Industrial Contact Lever,産業コンタクトレバー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_small_digital_gauge,Small Digital Display Redstone Gauge,小型デジタル表示レッドストーンゲージ
+block.rsgauges.industrial_small_digital_gauge.help,${block.rsgauges.industrial_analog_angular_gauge.help},${block.rsgauges.industrial_analog_angular_gauge.help}
+block.rsgauges.industrial_small_lever,Industrial Contact Lever,産業コンタクトレバー
 block.rsgauges.industrial_small_lever.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_switchlink_cased_pulse_receiver,Industrial Cased Pulse Switch Link Receiver,産業フルブロックパルススイッチリンク受信機,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_switchlink_cased_pulse_receiver,Industrial Cased Pulse Switch Link Receiver,産業フルブロックパルススイッチリンク受信機
 block.rsgauges.industrial_switchlink_cased_pulse_receiver.help,"A full block industrial pulse
  switching device that is optimized
  to be used as a Switch Link
@@ -876,8 +876,8 @@ ${rsgauges.switch.feature.pulsetime.help}","フルブロック産業パルス
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.pulsetime.help}",translated
-block.rsgauges.industrial_switchlink_cased_receiver,Industrial Cased Switch Link Receiver,産業フルブロックスイッチリンク受信機,translated
+${rsgauges.switch.feature.pulsetime.help}"
+block.rsgauges.industrial_switchlink_cased_receiver,Industrial Cased Switch Link Receiver,産業フルブロックスイッチリンク受信機
 block.rsgauges.industrial_switchlink_cased_receiver.help,"A full block cased industrial
  bistable switching device that is
  optimized to be used as a Switch
@@ -896,8 +896,8 @@ ${rsgauges.switch.feature.linksource.help}","フルブロック産業双安定
 アクティブ化することもできます。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_switchlink_pulse_receiver,Industrial Pulse Switch Link Receiver,産業パルススイッチリンク受信機,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_switchlink_pulse_receiver,Industrial Pulse Switch Link Receiver,産業パルススイッチリンク受信機
 block.rsgauges.industrial_switchlink_pulse_receiver.help,"A small industrial pulse switching
  device that is optimized to be
  used as a Switch Link target. Like
@@ -921,8 +921,8 @@ ${rsgauges.switch.feature.pulsetime.help}","小型産業パルス切り替え
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.pulsetime.help}",translated
-block.rsgauges.industrial_switchlink_pulse_relay,Industrial Switch Link Pulse Transmitter,産業スイッチリンクパルス送信機,translated
+${rsgauges.switch.feature.pulsetime.help}"
+block.rsgauges.industrial_switchlink_pulse_relay,Industrial Switch Link Pulse Transmitter,産業スイッチリンクパルス送信機
 block.rsgauges.industrial_switchlink_pulse_relay.help,"A small industrial pulse switching
  device optimized to be used as a
  Switch Link relay with redstone
@@ -950,8 +950,8 @@ ${rsgauges.switch.feature.linksource.help}","小型産業パルス切り替え
 入力極性と感度（デフォルトは弱）を
 変更できます。
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_switchlink_receiver,Industrial Switch Link Receiver,産業スイッチリンク受信機,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_switchlink_receiver,Industrial Switch Link Receiver,産業スイッチリンク受信機
 block.rsgauges.industrial_switchlink_receiver.help,"A small industrial bistable
  switching device that is optimized
  to be used as a Switch Link target
@@ -969,8 +969,8 @@ ${rsgauges.switch.feature.linksource.help}","小型産業双安定
 アクティブ化することもできます。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_switchlink_receiver_analog,Industrial Analog Switch Link Receiver,産業アナログスイッチリンク受信機,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_switchlink_receiver_analog,Industrial Analog Switch Link Receiver,産業アナログスイッチリンク受信機
 block.rsgauges.industrial_switchlink_receiver_analog.help,"Small device to output analog Redstone signals from received Switch Link signals. Can be used in conjunction with an analog link transmitter, comparator switch, or dimmer.
 .${rsgauges.switch.feature.linktarget.help}","受信したスイッチリンク信号から
 アナログレッドストーン信号を出力する
@@ -978,8 +978,8 @@ block.rsgauges.industrial_switchlink_receiver_analog.help,"Small device to outpu
 アナログリンク送信機、コンパレーター
 スイッチ、またはディマーと組み合わせて
 使用できます。
-${rsgauges.switch.feature.linktarget.help}",translated
-block.rsgauges.industrial_switchlink_relay,Industrial Switch Link Transmitter,産業スイッチリンク送信機,translated
+${rsgauges.switch.feature.linktarget.help}"
+block.rsgauges.industrial_switchlink_relay,Industrial Switch Link Transmitter,産業スイッチリンク送信機
 block.rsgauges.industrial_switchlink_relay.help,"A small industrial switching
  device that is optimized to be
  used as a Switch Link relay with
@@ -1019,24 +1019,24 @@ ${rsgauges.switch.feature.linksource.help}","小型産業切り替え
 テスト用にレバーのように手動で
 アクティブ化することもできます。
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_switchlink_relay_analog,Industrial Analog Switch Link Transmitter,産業アナログスイッチリンク送信機,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_switchlink_relay_analog,Industrial Analog Switch Link Transmitter,産業アナログスイッチリンク送信機
 block.rsgauges.industrial_switchlink_relay_analog.help,"A small device that transmits detected redstone signals wirelessly as analog information to switch link targets. It cannot emit redstone signals itself.
 ${rsgauges.switch.feature.linksource.help}","検出されたレッドストーン信号を
 アナログ情報としてスイッチリンク
 ターゲットにワイヤレスで送信する
 小型デバイス。
 レッドストーン信号を発することはできません。
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.industrial_tube_gauge,Glass Tube Redstone Gauge,ガラスチューブレッドストーンゲージ,translated
-block.rsgauges.industrial_tube_gauge.help,${block.rsgauges.industrial_analog_angular_gauge.help},${block.rsgauges.industrial_analog_angular_gauge.help},translated
-block.rsgauges.industrial_vertical_bar_gauge,Analog Bar Redstone Gauge,アナログバーレッドストーンゲージ,translated
-block.rsgauges.industrial_vertical_bar_gauge.help,${block.rsgauges.industrial_analog_angular_gauge.help},${block.rsgauges.industrial_analog_angular_gauge.help},translated
-block.rsgauges.industrial_white_blinking_led,White Blinking LED Redstone Indicator,白点滅LEDレッドストーンインジケーター,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.industrial_tube_gauge,Glass Tube Redstone Gauge,ガラスチューブレッドストーンゲージ
+block.rsgauges.industrial_tube_gauge.help,${block.rsgauges.industrial_analog_angular_gauge.help},${block.rsgauges.industrial_analog_angular_gauge.help}
+block.rsgauges.industrial_vertical_bar_gauge,Analog Bar Redstone Gauge,アナログバーレッドストーンゲージ
+block.rsgauges.industrial_vertical_bar_gauge.help,${block.rsgauges.industrial_analog_angular_gauge.help},${block.rsgauges.industrial_analog_angular_gauge.help}
+block.rsgauges.industrial_white_blinking_led,White Blinking LED Redstone Indicator,白点滅LEDレッドストーンインジケーター
 block.rsgauges.industrial_white_blinking_led.help,"${block.rsgauges.industrial_white_led.help}
  Blinks with a frequency of about 0.5Hz.","${block.rsgauges.industrial_white_led.help}
- 約0.5Hzの周波数で点滅します。",translated
-block.rsgauges.industrial_white_led,White LED Redstone Indicator,白LEDレッドストーンインジケーター,translated
+ 約0.5Hzの周波数で点滅します。"
+block.rsgauges.industrial_white_led,White LED Redstone Indicator,白LEDレッドストーンインジケーター
 block.rsgauges.industrial_white_led.help,"A small device that can be
  attached to a block to indicate
  if that block is powered. If the
@@ -1051,38 +1051,38 @@ block.rsgauges.industrial_white_led.help,"A small device that can be
 提供できる場合、ブロックの出力を使用します。
 そうでない場合、隣接するブロックからブロックが
 受け取るパワーを参照します。
-染料で左クリックしてLED色を変更します。",translated
-block.rsgauges.industrial_yellow_blinking_led,Yellow Blinking LED Redstone Indicator,黄点滅LEDレッドストーンインジケーター,translated
+染料で左クリックしてLED色を変更します。"
+block.rsgauges.industrial_yellow_blinking_led,Yellow Blinking LED Redstone Indicator,黄点滅LEDレッドストーンインジケーター
 block.rsgauges.industrial_yellow_blinking_led.help,"${block.rsgauges.industrial_white_led.help}
  Blinks with a frequency of about 0.5Hz.","${block.rsgauges.industrial_white_led.help}
- 約0.5Hzの周波数で点滅します。",translated
-block.rsgauges.industrial_yellow_led,Yellow LED Redstone Indicator,黄LEDレッドストーンインジケーター,translated
-block.rsgauges.industrial_yellow_led.help,${block.rsgauges.industrial_white_led.help},${block.rsgauges.industrial_white_led.help},translated
-block.rsgauges.light_switch,Small Light Switch,小型ライトスイッチ,translated
+ 約0.5Hzの周波数で点滅します。"
+block.rsgauges.industrial_yellow_led,Yellow LED Redstone Indicator,黄LEDレッドストーンインジケーター
+block.rsgauges.industrial_yellow_led.help,${block.rsgauges.industrial_white_led.help},${block.rsgauges.industrial_white_led.help}
+block.rsgauges.light_switch,Small Light Switch,小型ライトスイッチ
 block.rsgauges.light_switch.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.oldfancy_bistableswitch1,Old Fancy Lever,古風なレバー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.oldfancy_bistableswitch1,Old Fancy Lever,古風なレバー
 block.rsgauges.oldfancy_bistableswitch1.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.oldfancy_bistableswitch2,Old Fancy Rotary Lever,古風なロータリーレバー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.oldfancy_bistableswitch2,Old Fancy Rotary Lever,古風なロータリーレバー
 block.rsgauges.oldfancy_bistableswitch2.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.oldfancy_button,Old Fancy Button,古風なボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.oldfancy_button,Old Fancy Button,古風なボタン
 block.rsgauges.oldfancy_button.help,"${rsgauges.switch.feature.typepulse.help}${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
@@ -1093,8 +1093,8 @@ ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.projectilesense.help}",translated
-block.rsgauges.oldfancy_small_button,Small Old Fancy Button,小型古風なボタン,translated
+${rsgauges.switch.feature.projectilesense.help}"
+block.rsgauges.oldfancy_small_button,Small Old Fancy Button,小型古風なボタン
 block.rsgauges.oldfancy_small_button.help,"${rsgauges.switch.feature.typepulse.help}${rsgauges.switch.feature.outputconfig.help} ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
@@ -1103,8 +1103,8 @@ ${rsgauges.switch.feature.projectilesense.help}","${rsgauges.switch.feature.type
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.projectilesense.help}",translated
-block.rsgauges.oldfancy_spring_reset_chain,Old Fancy Chain Button,古風なチェーンボタン,translated
+${rsgauges.switch.feature.projectilesense.help}"
+block.rsgauges.oldfancy_spring_reset_chain,Old Fancy Chain Button,古風なチェーンボタン
 block.rsgauges.oldfancy_spring_reset_chain.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -1115,8 +1115,8 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.red_power_plant,Red power plant,赤い力の植物,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.red_power_plant,Red power plant,赤い力の植物
 block.rsgauges.red_power_plant.help,"Artificial red flower that
  looks very similar to a poppy,
  emitting a redstone signal to the
@@ -1132,8 +1132,8 @@ ${rsgauges.switch.feature.linksource.help}","ポピーと非常に似ている
 発します。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_angular_lever,Rustic Rotary Lever,素朴なロータリーレバー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_angular_lever,Rustic Rotary Lever,素朴なロータリーレバー
 block.rsgauges.rustic_angular_lever.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
@@ -1142,8 +1142,8 @@ ${rsgauges.switch.feature.hoppermountable.help}","${rsgauges.switch.feature.type
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.hoppermountable.help}",translated
-block.rsgauges.rustic_button,Rustic Button,素朴なボタン,translated
+${rsgauges.switch.feature.hoppermountable.help}"
+block.rsgauges.rustic_button,Rustic Button,素朴なボタン
 block.rsgauges.rustic_button.help,"${rsgauges.switch.feature.typepulse.help}${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
@@ -1154,8 +1154,8 @@ ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.projectilesense.help}",translated
-block.rsgauges.rustic_contact_plate,Rustic Pressure Plate,素朴な圧力板,translated
+${rsgauges.switch.feature.projectilesense.help}"
+block.rsgauges.rustic_contact_plate,Rustic Pressure Plate,素朴な圧力板
 block.rsgauges.rustic_contact_plate.help,"A metal plate that emits a redstone
  signal when exposed to mechanical
  pressure from above (e.g. someone
@@ -1175,8 +1175,8 @@ ${rsgauges.switch.feature.linksource.help}","上からの機械的圧力
 下面です。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_door_contact_plate,Rustic Door Pressure Plate,素朴なドア圧力板,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_door_contact_plate,Rustic Door Pressure Plate,素朴なドア圧力板
 block.rsgauges.rustic_door_contact_plate.help,"A metal plate that emits a
  redstone signal when exposed to
  mechanical pressure from above
@@ -1198,8 +1198,8 @@ ${rsgauges.switch.feature.linksource.help}","上からの機械的圧力
 ${rsgauges.switch.feature.contactmat.touch.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_fallthrough_detector,Rustic Fall-Through Detector Trapdoor,素朴な落下検知トラップドア,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_fallthrough_detector,Rustic Fall-Through Detector Trapdoor,素朴な落下検知トラップドア
 block.rsgauges.rustic_fallthrough_detector.help,"A metal trap door that swings
  open emits a redstone signal when
  something touches it. Output is
@@ -1214,8 +1214,8 @@ ${rsgauges.switch.feature.linksource.help}","何かがそれに接触したと�
 行われます。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_high_sensitive_trapdoor,Rustic Sensitive Shock Activated Trapdoor,素朴な高感度衝撃作動トラップドア,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_high_sensitive_trapdoor,Rustic Sensitive Shock Activated Trapdoor,素朴な高感度衝撃作動トラップドア
 block.rsgauges.rustic_high_sensitive_trapdoor.help,"Metal floor trap door that swings
  open and emits a redstone signal
  when someone or something falls
@@ -1235,16 +1235,16 @@ ${rsgauges.switch.feature.linksource.help}","誰かまたは何かが
 行われます。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_lever,Rustic Lever,素朴なレバー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_lever,Rustic Lever,素朴なレバー
 block.rsgauges.rustic_lever.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_nail_button,Rustic Nail Button,素朴な釘ボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_nail_button,Rustic Nail Button,素朴な釘ボタン
 block.rsgauges.rustic_nail_button.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -1255,16 +1255,16 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_nail_lever,Rustic Nail Lever,素朴な釘レバー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_nail_lever,Rustic Nail Lever,素朴な釘レバー
 block.rsgauges.rustic_nail_lever.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_semaphore,Rustic Redstone Semaphore,素朴なレッドストーンセマフォー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_semaphore,Rustic Redstone Semaphore,素朴なレッドストーンセマフォー
 block.rsgauges.rustic_semaphore.help,"A small metal case with a
  semaphore flag, which raises when
  the block to that the indicator
@@ -1285,8 +1285,8 @@ block.rsgauges.rustic_semaphore.help,"A small metal case with a
 ブロックが隣接するブロックから
 受け取るパワーを参照します。
 染料で左クリックして旗を
-染色します。",translated
-block.rsgauges.rustic_shock_sensitive_plate,Rustic Shock Sensitive Pressure Plate,素朴な衝撃感知圧力板,translated
+染色します。"
+block.rsgauges.rustic_shock_sensitive_plate,Rustic Shock Sensitive Pressure Plate,素朴な衝撃感知圧力板
 block.rsgauges.rustic_shock_sensitive_plate.help,"A metal plate emitting a redstone
  pulse when exposed to mechanical
  shock from above (e.g. something
@@ -1303,8 +1303,8 @@ ${rsgauges.switch.feature.linksource.help}","上からの機械的衝撃
 下面です。パワーは常に15です。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_shock_sensitive_trapdoor,Rustic Shock Activated Trapdoor,素朴な衝撃作動トラップドア,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_shock_sensitive_trapdoor,Rustic Shock Activated Trapdoor,素朴な衝撃作動トラップドア
 block.rsgauges.rustic_shock_sensitive_trapdoor.help,"A metal floor trap door that
  swings open and emits a redstone
  signal when someone or something
@@ -1323,8 +1323,8 @@ ${rsgauges.switch.feature.linksource.help}","誰かまたは何かが
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_small_button,Rustic Small Button,素朴な小型ボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_small_button,Rustic Small Button,素朴な小型ボタン
 block.rsgauges.rustic_small_button.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -1335,8 +1335,8 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_spring_reset_chain,Rustic Chain Button,素朴なチェーンボタン,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_spring_reset_chain,Rustic Chain Button,素朴なチェーンボタン
 block.rsgauges.rustic_spring_reset_chain.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
@@ -1347,22 +1347,22 @@ ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.rustic_two_hinge_lever,Rustic Two-Hinge Lever,素朴なツーヒンジレバー,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.rustic_two_hinge_lever,Rustic Two-Hinge Lever,素朴なツーヒンジレバー
 block.rsgauges.rustic_two_hinge_lever.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.sensitive_glass_block,Redstone-Sensitive Glass Block (Light Emitting),レッドストーン感知ガラスブロック（発光）,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.sensitive_glass_block,Redstone-Sensitive Glass Block (Light Emitting),レッドストーン感知ガラスブロック（発光）
 block.rsgauges.sensitive_glass_block.help,"Glass block that emits light when
  it is powered by a redstone signal,
  similar to a redstone lamp.","レッドストーン信号によって
 給電されたときに光を発するガラスブロック。
-レッドストーンランプのようなもの。",translated
-block.rsgauges.stained_sensitiveglass,Coloured Redstone-Sensitive Glass Block,カラーレッドストーン感知ガラスブロック,translated
+レッドストーンランプのようなもの。"
+block.rsgauges.stained_sensitiveglass,Coloured Redstone-Sensitive Glass Block,カラーレッドストーン感知ガラスブロック
 block.rsgauges.stained_sensitiveglass.help,"Glass block that changes from
  transparent to colored when it is
  powered by a redstone signal. A
@@ -1371,16 +1371,16 @@ block.rsgauges.stained_sensitiveglass.help,"Glass block that changes from
 給電されたときに透明から
 カラーに変わるガラスブロック。
 うっすらとした破線のフレーミングは
-未給電状態の色を示します。",translated
-block.rsgauges.valve_wheel_switch,Valve Switch,バルブスイッチ,translated
+未給電状態の色を示します。"
+block.rsgauges.valve_wheel_switch,Valve Switch,バルブスイッチ
 block.rsgauges.valve_wheel_switch.help,"${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebistable.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
-${rsgauges.switch.feature.linksource.help}",translated
-block.rsgauges.yellow_power_plant,Yellow power plant,黄色い力の植物,translated
+${rsgauges.switch.feature.linksource.help}"
+block.rsgauges.yellow_power_plant,Yellow power plant,黄色い力の植物
 block.rsgauges.yellow_power_plant.help,"Artificial yellow flower that
  looks very similar to dandelion,
  emitting a redstone signal to the
@@ -1396,8 +1396,8 @@ ${rsgauges.switch.feature.linksource.help}","タンポポと非常に似てい�
 発します。
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}",translated
-item.rsgauges.switchlink_pearl,Switch Link Pearl,スイッチリンクパール,translated
+${rsgauges.switch.feature.linksource.help}"
+item.rsgauges.switchlink_pearl,Switch Link Pearl,スイッチリンクパール
 item.rsgauges.switchlink_pearl.help,"Created by left clicking a switch
  with an Ender pearl. Remote
  activates that (target) switch when
@@ -1438,181 +1438,181 @@ item.rsgauges.switchlink_pearl.help,"Created by left clicking a switch
 異なるスイッチタイプは
 リンクトリガーへの反応が
 異なる場合があります
-（簡単に試してみてください）。",translated
-itemGroup.tabrsgauges,Gauges and Switches,ゲージとスイッチ,translated
-language,English,日本語,translated
-language.code,en_us,ja_jp,translated
-language.region,United States,日本,translated
-rsgauges.config.title,Gauges and Switches Config,ゲージとスイッチの設定,translated
-rsgauges.gaugeconfig.options.comparator,Comparator Input,コンパレーター入力,translated
-rsgauges.gaugeconfig.options.inverted,Inverted,反転,translated
-rsgauges.gaugeconfig.options.notinverted,Normal,通常,translated
-rsgauges.subtitle.industrial_alarm_siren,Alarm siren,警報サイレン,translated
+（簡単に試してみてください）。"
+itemGroup.tabrsgauges,Gauges and Switches,ゲージとスイッチ
+language,English,日本語
+language.code,en_us,ja_jp
+language.region,United States,日本
+rsgauges.config.title,Gauges and Switches Config,ゲージとスイッチの設定
+rsgauges.gaugeconfig.options.comparator,Comparator Input,コンパレーター入力
+rsgauges.gaugeconfig.options.inverted,Inverted,反転
+rsgauges.gaugeconfig.options.notinverted,Normal,通常
+rsgauges.subtitle.industrial_alarm_siren,Alarm siren,警報サイレン
 rsgauges.switch.feature.colortinting.help,"Left-click with any dye to color
  tint the switch.","染料で左クリックしてスイッチの色を
-染色します。",translated
+染色します。"
 rsgauges.switch.feature.contactmat.offdelay.help,"Left-click with a stack of
  redstone to set the hold-time
  between 0.1s (1) and 6.4s (64).","レッドストーンのスタックで左クリックして
 ホールド時間を0.1s(1)から6.4s(64)の間で
-設定します。",translated
+設定します。"
 rsgauges.switch.feature.contactmat.touch.help,"Click on the touch config up/down
  buttons to set output power,
  entity filter, entity count,
  and sensitivity.","タッチコンフィグの上下ボタンをクリックして
 アウトプットパワー、エンティティフィルター、
-エンティティカウント、および感度を設定します。",translated
-rsgauges.switch.feature.hoppermountable.help,Can be placed on hoppers.,ホッパーに設置できます。,translated
+エンティティカウント、および感度を設定します。"
+rsgauges.switch.feature.hoppermountable.help,Can be placed on hoppers.,ホッパーに設置できます。
 rsgauges.switch.feature.linksource.help,"Click with a Switch Link Pearl to
  use this switch as link source.","スイッチリンクパールでクリックして
 このスイッチをリンクソースとして
-使用します。",translated
+使用します。"
 rsgauges.switch.feature.linktarget.help,"Click with an Ender pearl to get
  a Switch Link Pearl linked to
  this switch.","エンダーパールでクリックしてこのスイッチに
 リンクされたスイッチリンクパールを
-取得します。",translated
+取得します。"
 rsgauges.switch.feature.outputconfig.help,"Click with a Redstone Torch to
  configure the output (cycles
  through the options that this
  switch supports).","レッドストーン松明でクリックして
 アウトプット設定をします
 （このスイッチがサポートするオプションを
-サイクルします）。",translated
-rsgauges.switch.feature.projectilesense.help,Can be activated with projectiles.,発射物で起動できます。,translated
+サイクルします）。"
+rsgauges.switch.feature.projectilesense.help,Can be activated with projectiles.,発射物で起動できます。
 rsgauges.switch.feature.pulseextend.help,"Activate while already active to
  extend the pulse time.","既にアクティブな状態で起動して
-パルス時間を延長します。",translated
+パルス時間を延長します。"
 rsgauges.switch.feature.pulsetime.help,"Left-click with a stack of
  redstone to set a fixed pulse time
  between 0.1s (1) and 6.4s (64).","レッドストーンのスタックで左クリックして
 固定パルス時間を0.1s(1)から6.4s(64)の
-間で設定します。",translated
+間で設定します。"
 rsgauges.switch.feature.typebistable.help,"A switch that is manually flipped
  on or off like a lever.","レバーのように手動で
-オン・オフに切り替えられるスイッチ。",translated
+オン・オフに切り替えられるスイッチ。"
 rsgauges.switch.feature.typepulse.help,"A switch that outputs a redstone
  signal for a short time, like a
  button.","ボタンのような短い時間で
-レッドストーン信号を出力するスイッチ。",translated
-rsgauges.switchconfig.blocksensor,%1$s%2$s%3$s%4$s%5$s,%1$s%2$s%3$s%4$s%5$s,translated
-rsgauges.switchconfig.blocksensor.debounce,debounce: %1$s,デバウンス: %1$s,translated
-rsgauges.switchconfig.blocksensor.filter,filter: %1$s,フィルター: %1$s,translated
-rsgauges.switchconfig.blocksensor.filter.air,air,空気,translated
-rsgauges.switchconfig.blocksensor.filter.any,any block,任意のブロック,translated
-rsgauges.switchconfig.blocksensor.filter.crop,crop,作物,translated
-rsgauges.switchconfig.blocksensor.filter.crop_mature,mature crop,成熟した作物,translated
-rsgauges.switchconfig.blocksensor.filter.fertile,fertile soil,肥沃な土,translated
-rsgauges.switchconfig.blocksensor.filter.liquid,liquid,液体,translated
-rsgauges.switchconfig.blocksensor.filter.material_clay,clay/ceramics,粘土・陶磁器,translated
-rsgauges.switchconfig.blocksensor.filter.material_glass,glass,ガラス,translated
-rsgauges.switchconfig.blocksensor.filter.material_stone,stone,石,translated
-rsgauges.switchconfig.blocksensor.filter.material_water,water/ice,水・氷,translated
-rsgauges.switchconfig.blocksensor.filter.material_wood,wooden,木製,translated
-rsgauges.switchconfig.blocksensor.filter.ore,ore,鉱石,translated
-rsgauges.switchconfig.blocksensor.filter.planks,planks,板材,translated
-rsgauges.switchconfig.blocksensor.filter.plant,plant,植物,translated
-rsgauges.switchconfig.blocksensor.filter.sapling,sapling,苗木,translated
-rsgauges.switchconfig.blocksensor.filter.slab,slab,ハーフブロック,translated
-rsgauges.switchconfig.blocksensor.filter.soil,soil,土,translated
-rsgauges.switchconfig.blocksensor.filter.solid,solid,固体,translated
-rsgauges.switchconfig.blocksensor.filter.woodlog,wood log,木のログ,translated
-rsgauges.switchconfig.blocksensor.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.blocksensor.range,range: %1$s,距離: %1$s,translated
-rsgauges.switchconfig.blocksensor.threshold,threshold: %1$s,しきい値: %1$s,translated
-rsgauges.switchconfig.comparator_switch,%1$s%2$s%3$s%4$s,%1$s%2$s%3$s%4$s,translated
-rsgauges.switchconfig.comparator_switch.mode0,comparator mode,コンパレーターモード,translated
-rsgauges.switchconfig.comparator_switch.mode1,used inventory slots,使用インベントリスロット,translated
-rsgauges.switchconfig.comparator_switch.mode2,free inventory slots,空きインベントリスロット,translated
-rsgauges.switchconfig.comparator_switch.mode3,redstone signal strength,レッドストーン信号強度,translated
-rsgauges.switchconfig.comparator_switch.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.comparator_switch.threshold_off,off-level: %1$s,オフレベル: %1$s,translated
-rsgauges.switchconfig.comparator_switch.threshold_on,on-level: %1$s,オンレベル: %1$s,translated
-rsgauges.switchconfig.daytimerclock,%1$s%2$s%3$s%4$s,%1$s%2$s%3$s%4$s,translated
-rsgauges.switchconfig.daytimerclock.daytime_off,off: %1$s,オフ: %1$s,translated
-rsgauges.switchconfig.daytimerclock.daytime_on,on: %1$s,オン: %1$s,translated
-rsgauges.switchconfig.daytimerclock.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.daytimerclock.random,random: %1$s,ランダム: %1$s,translated
-rsgauges.switchconfig.detector.entity_filter,entity type: %1$s,エンティティタイプ: %1$s,translated
-rsgauges.switchconfig.detector.entity_filter.animals,animals,動物,translated
-rsgauges.switchconfig.detector.entity_filter.creatures,creatures,生き物,translated
-rsgauges.switchconfig.detector.entity_filter.everything,everything,すべて,translated
-rsgauges.switchconfig.detector.entity_filter.mobs,mobs,モブ,translated
-rsgauges.switchconfig.detector.entity_filter.objects,objects,オブジェクト,translated
-rsgauges.switchconfig.detector.entity_filter.players,players,プレイヤー,translated
-rsgauges.switchconfig.detector.entity_filter.villagers,villagers,村人,translated
-rsgauges.switchconfig.detector.entity_threshold,entity threshold: %1$s,エンティティしきい値: %1$s,translated
-rsgauges.switchconfig.detector.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.detector.sensor_range,sensor range: %1$s,センサー距離: %1$s,translated
-rsgauges.switchconfig.dimmerswitch.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.intervaltimer,%1$s%2$s%3$s%4$s%5$s,%1$s%2$s%3$s%4$s%5$s,translated
-rsgauges.switchconfig.intervaltimer.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.intervaltimer.ramp,ramp: %1$s,ランプ: %1$s,translated
-rsgauges.switchconfig.intervaltimer.standby,STANDBY,スタンバイ,translated
-rsgauges.switchconfig.intervaltimer.t_off,off: %1$ss,オフ: %1$ss,translated
-rsgauges.switchconfig.intervaltimer.t_on,on: %1$ss,オン: %1$ss,translated
-rsgauges.switchconfig.lightsensor,%1$s%2$s%3$s%4$s,%1$s%2$s%3$s%4$s,translated
-rsgauges.switchconfig.lightsensor.debounce,debounce: %1$s %2$s,デバウンス: %1$s %2$s,translated
-rsgauges.switchconfig.lightsensor.lightunit,lux,ルクス,translated
-rsgauges.switchconfig.lightsensor.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.lightsensor.threshold_off,off: %1$s%2$s,オフ: %1$s%2$s,translated
-rsgauges.switchconfig.lightsensor.threshold_on,on: %1$s%2$s,オン: %1$s%2$s,translated
-rsgauges.switchconfig.options,%1$s,%1$s,translated
-rsgauges.switchconfig.options.no_output,no output,出力なし,translated
-rsgauges.switchconfig.options.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.options.pulsetime,pulse: %1$ss (%2$s ticks),パルス: %1$ss (%2$s ティック),translated
-rsgauges.switchconfig.options.strong,strong,強い,translated
-rsgauges.switchconfig.options.stronginverted,strong inverted,強い反転,translated
-rsgauges.switchconfig.options.weak,weak,弱い,translated
-rsgauges.switchconfig.options.weakinverted,weak inverted,弱い反転,translated
-rsgauges.switchconfig.rainsensor.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.thundersensor.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.tinting,tinted %1$s,%1$sの色を付けた,translated
-rsgauges.switchconfig.tinting.black,black,黒色,translated
-rsgauges.switchconfig.tinting.blue,blue,青色,translated
-rsgauges.switchconfig.tinting.brown,brown,茶色,translated
-rsgauges.switchconfig.tinting.cyan,cyan,青緑色,translated
-rsgauges.switchconfig.tinting.gray,gray,灰色,translated
-rsgauges.switchconfig.tinting.green,green,緑色,translated
-rsgauges.switchconfig.tinting.lightblue,light blue,空色,translated
-rsgauges.switchconfig.tinting.lime,lime,黄緑色,translated
-rsgauges.switchconfig.tinting.magenta,magenta,赤紫色,translated
-rsgauges.switchconfig.tinting.orange,orange,橙色,translated
-rsgauges.switchconfig.tinting.pink,pink,桃色,translated
-rsgauges.switchconfig.tinting.purple,purple,紫色,translated
-rsgauges.switchconfig.tinting.red,red,赤色,translated
-rsgauges.switchconfig.tinting.silver,light gray,薄灰色,translated
-rsgauges.switchconfig.tinting.white,white,白色,translated
-rsgauges.switchconfig.tinting.yellow,yellow,黄色,translated
-rsgauges.switchconfig.touchcontactmat.entity_filter,entity type: %1$s,エンティティタイプ: %1$s,translated
-rsgauges.switchconfig.touchcontactmat.entity_filter.animals,animals,動物,translated
-rsgauges.switchconfig.touchcontactmat.entity_filter.creatures,creatures,生き物,translated
-rsgauges.switchconfig.touchcontactmat.entity_filter.everything,everything,すべて,translated
-rsgauges.switchconfig.touchcontactmat.entity_filter.mobs,mobs,モブ,translated
-rsgauges.switchconfig.touchcontactmat.entity_filter.objects,objects,オブジェクト,translated
-rsgauges.switchconfig.touchcontactmat.entity_filter.players,players,プレイヤー,translated
-rsgauges.switchconfig.touchcontactmat.entity_filter.villagers,villagers,村人,translated
-rsgauges.switchconfig.touchcontactmat.entity_threshold,entity threshold: %1$s,エンティティしきい値: %1$s,translated
-rsgauges.switchconfig.touchcontactmat.output_power,power: %1$s,パワー: %1$s,translated
-rsgauges.switchconfig.touchcontactmat.sensitivity,sensitivity: %1$s,感度: %1$s,translated
-rsgauges.switchconfig.touchcontactmat.sensitivity.high,high,高い,translated
-rsgauges.switchconfig.touchcontactmat.sensitivity.normal,normal,通常,translated
-rsgauges.switchlinking.relayconfig.confval0,Trigger as source output.,ソース出力としてトリガー。,translated
-rsgauges.switchlinking.relayconfig.confval1,Trigger on source activation.,ソースアクティベーション時にトリガー。,translated
-rsgauges.switchlinking.relayconfig.confval2,Trigger on source deactivation.,ソース非アクティベーション時にトリガー。,translated
-rsgauges.switchlinking.relayconfig.confval3,Trigger on source change.,ソース変更時にトリガー。,translated
-rsgauges.switchlinking.relayconfig.confval4,Trigger as source inverse output.,ソース逆出力としてトリガー。,translated
-rsgauges.switchlinking.source_assign.error_alreadylinked,Already linked to the target of that pearl,既にそのパールのターゲットにリンク済み,translated
-rsgauges.switchlinking.source_assign.error_failed,Link pearl don't like that switch,リンクパールがそのスイッチを好みません,translated
-rsgauges.switchlinking.source_assign.error_nosource,This switch cannot link to target switches,このスイッチはターゲットスイッチにリンクできません,translated
-rsgauges.switchlinking.source_assign.error_toofaraway,Target is too far away for this switch,ターゲットはこのスイッチから遠すぎます,translated
-rsgauges.switchlinking.source_assign.ok,Link pearl plugged,リンクパールを接続しました,translated
-rsgauges.switchlinking.switchlink_pearl.tooltip.linkedblock,Linked to %1$s.,%1$sにリンク済み。,translated
-rsgauges.switchlinking.switchlink_pearl.tooltip.linkeddistance,Target is %1$s blocks away.,ターゲットは%1$sブロック離れています。,translated
-rsgauges.switchlinking.switchlink_pearl.tooltip.toofaraway,(too far away),（遠すぎます）,translated
-rsgauges.switchlinking.switchlink_pearl.use.targetgone,Target switch is broken or relocated,ターゲットスイッチが壊れているか移動しています,translated
-rsgauges.switchlinking.switchlink_pearl.use.toofaraway,Target switch is too far away from you,ターゲットスイッチがあなたから遠すぎます,translated
-rsgauges.switchlinking.target_assign.error_notarget,This switch cannot be a link target,このスイッチはリンクターゲットになることはできません,translated
-rsgauges.switchlinking.target_assign.ok,Target switch memorized,ターゲットスイッチを記憶しました,translated
-rsgauges.tooltip.hint.extended,§6[§9shift§r more§6]§r,§6[§9shift§r もっと見る§6]§r,translated
-rsgauges.tooltip.hint.help,§6[§9ctrl-shift§r help§6]§r,§6[§9ctrl-shift§r ヘルプ§6]§r,translated
+レッドストーン信号を出力するスイッチ。"
+rsgauges.switchconfig.blocksensor,%1$s%2$s%3$s%4$s%5$s,%1$s%2$s%3$s%4$s%5$s
+rsgauges.switchconfig.blocksensor.debounce,debounce: %1$s,デバウンス: %1$s
+rsgauges.switchconfig.blocksensor.filter,filter: %1$s,フィルター: %1$s
+rsgauges.switchconfig.blocksensor.filter.air,air,空気
+rsgauges.switchconfig.blocksensor.filter.any,any block,任意のブロック
+rsgauges.switchconfig.blocksensor.filter.crop,crop,作物
+rsgauges.switchconfig.blocksensor.filter.crop_mature,mature crop,成熟した作物
+rsgauges.switchconfig.blocksensor.filter.fertile,fertile soil,肥沃な土
+rsgauges.switchconfig.blocksensor.filter.liquid,liquid,液体
+rsgauges.switchconfig.blocksensor.filter.material_clay,clay/ceramics,粘土・陶磁器
+rsgauges.switchconfig.blocksensor.filter.material_glass,glass,ガラス
+rsgauges.switchconfig.blocksensor.filter.material_stone,stone,石
+rsgauges.switchconfig.blocksensor.filter.material_water,water/ice,水・氷
+rsgauges.switchconfig.blocksensor.filter.material_wood,wooden,木製
+rsgauges.switchconfig.blocksensor.filter.ore,ore,鉱石
+rsgauges.switchconfig.blocksensor.filter.planks,planks,板材
+rsgauges.switchconfig.blocksensor.filter.plant,plant,植物
+rsgauges.switchconfig.blocksensor.filter.sapling,sapling,苗木
+rsgauges.switchconfig.blocksensor.filter.slab,slab,ハーフブロック
+rsgauges.switchconfig.blocksensor.filter.soil,soil,土
+rsgauges.switchconfig.blocksensor.filter.solid,solid,固体
+rsgauges.switchconfig.blocksensor.filter.woodlog,wood log,木のログ
+rsgauges.switchconfig.blocksensor.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.blocksensor.range,range: %1$s,距離: %1$s
+rsgauges.switchconfig.blocksensor.threshold,threshold: %1$s,しきい値: %1$s
+rsgauges.switchconfig.comparator_switch,%1$s%2$s%3$s%4$s,%1$s%2$s%3$s%4$s
+rsgauges.switchconfig.comparator_switch.mode0,comparator mode,コンパレーターモード
+rsgauges.switchconfig.comparator_switch.mode1,used inventory slots,使用インベントリスロット
+rsgauges.switchconfig.comparator_switch.mode2,free inventory slots,空きインベントリスロット
+rsgauges.switchconfig.comparator_switch.mode3,redstone signal strength,レッドストーン信号強度
+rsgauges.switchconfig.comparator_switch.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.comparator_switch.threshold_off,off-level: %1$s,オフレベル: %1$s
+rsgauges.switchconfig.comparator_switch.threshold_on,on-level: %1$s,オンレベル: %1$s
+rsgauges.switchconfig.daytimerclock,%1$s%2$s%3$s%4$s,%1$s%2$s%3$s%4$s
+rsgauges.switchconfig.daytimerclock.daytime_off,off: %1$s,オフ: %1$s
+rsgauges.switchconfig.daytimerclock.daytime_on,on: %1$s,オン: %1$s
+rsgauges.switchconfig.daytimerclock.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.daytimerclock.random,random: %1$s,ランダム: %1$s
+rsgauges.switchconfig.detector.entity_filter,entity type: %1$s,エンティティタイプ: %1$s
+rsgauges.switchconfig.detector.entity_filter.animals,animals,動物
+rsgauges.switchconfig.detector.entity_filter.creatures,creatures,生き物
+rsgauges.switchconfig.detector.entity_filter.everything,everything,すべて
+rsgauges.switchconfig.detector.entity_filter.mobs,mobs,モブ
+rsgauges.switchconfig.detector.entity_filter.objects,objects,オブジェクト
+rsgauges.switchconfig.detector.entity_filter.players,players,プレイヤー
+rsgauges.switchconfig.detector.entity_filter.villagers,villagers,村人
+rsgauges.switchconfig.detector.entity_threshold,entity threshold: %1$s,エンティティしきい値: %1$s
+rsgauges.switchconfig.detector.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.detector.sensor_range,sensor range: %1$s,センサー距離: %1$s
+rsgauges.switchconfig.dimmerswitch.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.intervaltimer,%1$s%2$s%3$s%4$s%5$s,%1$s%2$s%3$s%4$s%5$s
+rsgauges.switchconfig.intervaltimer.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.intervaltimer.ramp,ramp: %1$s,ランプ: %1$s
+rsgauges.switchconfig.intervaltimer.standby,STANDBY,スタンバイ
+rsgauges.switchconfig.intervaltimer.t_off,off: %1$ss,オフ: %1$ss
+rsgauges.switchconfig.intervaltimer.t_on,on: %1$ss,オン: %1$ss
+rsgauges.switchconfig.lightsensor,%1$s%2$s%3$s%4$s,%1$s%2$s%3$s%4$s
+rsgauges.switchconfig.lightsensor.debounce,debounce: %1$s %2$s,デバウンス: %1$s %2$s
+rsgauges.switchconfig.lightsensor.lightunit,lux,ルクス
+rsgauges.switchconfig.lightsensor.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.lightsensor.threshold_off,off: %1$s%2$s,オフ: %1$s%2$s
+rsgauges.switchconfig.lightsensor.threshold_on,on: %1$s%2$s,オン: %1$s%2$s
+rsgauges.switchconfig.options,%1$s,%1$s
+rsgauges.switchconfig.options.no_output,no output,出力なし
+rsgauges.switchconfig.options.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.options.pulsetime,pulse: %1$ss (%2$s ticks),パルス: %1$ss (%2$s ティック)
+rsgauges.switchconfig.options.strong,strong,強い
+rsgauges.switchconfig.options.stronginverted,strong inverted,強い反転
+rsgauges.switchconfig.options.weak,weak,弱い
+rsgauges.switchconfig.options.weakinverted,weak inverted,弱い反転
+rsgauges.switchconfig.rainsensor.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.thundersensor.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.tinting,tinted %1$s,%1$sの色を付けた
+rsgauges.switchconfig.tinting.black,black,黒色
+rsgauges.switchconfig.tinting.blue,blue,青色
+rsgauges.switchconfig.tinting.brown,brown,茶色
+rsgauges.switchconfig.tinting.cyan,cyan,青緑色
+rsgauges.switchconfig.tinting.gray,gray,灰色
+rsgauges.switchconfig.tinting.green,green,緑色
+rsgauges.switchconfig.tinting.lightblue,light blue,空色
+rsgauges.switchconfig.tinting.lime,lime,黄緑色
+rsgauges.switchconfig.tinting.magenta,magenta,赤紫色
+rsgauges.switchconfig.tinting.orange,orange,橙色
+rsgauges.switchconfig.tinting.pink,pink,桃色
+rsgauges.switchconfig.tinting.purple,purple,紫色
+rsgauges.switchconfig.tinting.red,red,赤色
+rsgauges.switchconfig.tinting.silver,light gray,薄灰色
+rsgauges.switchconfig.tinting.white,white,白色
+rsgauges.switchconfig.tinting.yellow,yellow,黄色
+rsgauges.switchconfig.touchcontactmat.entity_filter,entity type: %1$s,エンティティタイプ: %1$s
+rsgauges.switchconfig.touchcontactmat.entity_filter.animals,animals,動物
+rsgauges.switchconfig.touchcontactmat.entity_filter.creatures,creatures,生き物
+rsgauges.switchconfig.touchcontactmat.entity_filter.everything,everything,すべて
+rsgauges.switchconfig.touchcontactmat.entity_filter.mobs,mobs,モブ
+rsgauges.switchconfig.touchcontactmat.entity_filter.objects,objects,オブジェクト
+rsgauges.switchconfig.touchcontactmat.entity_filter.players,players,プレイヤー
+rsgauges.switchconfig.touchcontactmat.entity_filter.villagers,villagers,村人
+rsgauges.switchconfig.touchcontactmat.entity_threshold,entity threshold: %1$s,エンティティしきい値: %1$s
+rsgauges.switchconfig.touchcontactmat.output_power,power: %1$s,パワー: %1$s
+rsgauges.switchconfig.touchcontactmat.sensitivity,sensitivity: %1$s,感度: %1$s
+rsgauges.switchconfig.touchcontactmat.sensitivity.high,high,高い
+rsgauges.switchconfig.touchcontactmat.sensitivity.normal,normal,通常
+rsgauges.switchlinking.relayconfig.confval0,Trigger as source output.,ソース出力としてトリガー。
+rsgauges.switchlinking.relayconfig.confval1,Trigger on source activation.,ソースアクティベーション時にトリガー。
+rsgauges.switchlinking.relayconfig.confval2,Trigger on source deactivation.,ソース非アクティベーション時にトリガー。
+rsgauges.switchlinking.relayconfig.confval3,Trigger on source change.,ソース変更時にトリガー。
+rsgauges.switchlinking.relayconfig.confval4,Trigger as source inverse output.,ソース逆出力としてトリガー。
+rsgauges.switchlinking.source_assign.error_alreadylinked,Already linked to the target of that pearl,既にそのパールのターゲットにリンク済み
+rsgauges.switchlinking.source_assign.error_failed,Link pearl don't like that switch,リンクパールがそのスイッチを好みません
+rsgauges.switchlinking.source_assign.error_nosource,This switch cannot link to target switches,このスイッチはターゲットスイッチにリンクできません
+rsgauges.switchlinking.source_assign.error_toofaraway,Target is too far away for this switch,ターゲットはこのスイッチから遠すぎます
+rsgauges.switchlinking.source_assign.ok,Link pearl plugged,リンクパールを接続しました
+rsgauges.switchlinking.switchlink_pearl.tooltip.linkedblock,Linked to %1$s.,%1$sにリンク済み。
+rsgauges.switchlinking.switchlink_pearl.tooltip.linkeddistance,Target is %1$s blocks away.,ターゲットは%1$sブロック離れています。
+rsgauges.switchlinking.switchlink_pearl.tooltip.toofaraway,(too far away),（遠すぎます）
+rsgauges.switchlinking.switchlink_pearl.use.targetgone,Target switch is broken or relocated,ターゲットスイッチが壊れているか移動しています
+rsgauges.switchlinking.switchlink_pearl.use.toofaraway,Target switch is too far away from you,ターゲットスイッチがあなたから遠すぎます
+rsgauges.switchlinking.target_assign.error_notarget,This switch cannot be a link target,このスイッチはリンクターゲットになることはできません
+rsgauges.switchlinking.target_assign.ok,Target switch memorized,ターゲットスイッチを記憶しました
+rsgauges.tooltip.hint.extended,§6[§9shift§r more§6]§r,§6[§9shift§r もっと見る§6]§r
+rsgauges.tooltip.hint.help,§6[§9ctrl-shift§r help§6]§r,§6[§9ctrl-shift§r ヘルプ§6]§r

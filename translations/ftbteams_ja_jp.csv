@@ -1,99 +1,197 @@
-﻿key,source_text,target_text,status
-ftbteams.accept,Accept ✔,承認 ✔,translated
-ftbteams.already_in_party,You are already in a party!,既にパーティーに参加しています！,translated
-ftbteams.api_override,In this modpack you can only create party from inventory 'My Team' button!,このモッドパックではインベントリの「マイチーム」ボタンからのみパーティーを作成できます！,translated
-ftbteams.cant_edit,You can't edit %s!,%sを編集できません！,translated
-ftbteams.cant_kick_owner,Can't kick the owner!,オーナーをキックできません！,translated
-ftbteams.click_show_info,Click to show team info,クリックしてチーム情報を表示,translated
-ftbteams.create_party,Create a Party,パーティーを作成,translated
-ftbteams.create_party.info,Create a Party team to invite members and progress together,パーティーチームを作成してメンバーを招待し、一緒に進行します,translated
-ftbteams.decline,Decline ✘,拒否 ✘,translated
-ftbteams.gui.add_ally,Ally,同盟,translated
-ftbteams.gui.add_members,Add Members,メンバーを追加,translated
-ftbteams.gui.create_party,Description,説明,translated
-ftbteams.gui.demote,Demote %s,%sを降格,translated
-ftbteams.gui.demote.confirm,Do you want to demote player %s?,プレイヤー %sを降格しますか？,translated
-ftbteams.gui.disband,Disband Party,パーティーを解散,translated
-ftbteams.gui.disband.confirm,Do you want to disband the party?,パーティーを解散しますか？,translated
-ftbteams.gui.invite,Invite Player(s),プレイヤーを招待,translated
-ftbteams.gui.kick,Kick %s,%sをキック,translated
-ftbteams.gui.kick.confirm,Do you want to kick player %s?,プレイヤー %sをキックしますか？,translated
-ftbteams.gui.leave,Leave Party,パーティーから退出,translated
-ftbteams.gui.leave.confirm,Do you want to leave the party?,パーティーから退出しますか？,translated
-ftbteams.gui.manage_allies,Manage Allies,同盟を管理,translated
-ftbteams.gui.no_players,No players available,利用可能なプレイヤーがいません,translated
-ftbteams.gui.party_description,Description,説明,translated
-ftbteams.gui.party_name,Party Name,パーティー名,translated
-ftbteams.gui.promote,Promote %s,%sを昇格,translated
-ftbteams.gui.promote.confirm,Do you want to promote player %s?,プレイヤー %sを昇格しますか？,translated
-ftbteams.gui.remove_ally,Un-Ally with %s,%sとの同盟を解除,translated
-ftbteams.gui.remove_ally.confirm,Do you want to remove %s as an Ally?,%sを同盟から削除してもよろしいですか？,translated
-ftbteams.gui.send_invite,Invite,招待を送信,translated
-ftbteams.gui.toggle_chat,Click to toggle,クリックしてトグル,translated
-ftbteams.gui.transfer_ownership,Make %s Party Owner,%sをパーティーオーナーにする,translated
-ftbteams.gui.transfer_ownership.confirm,Do you want to make %s party owner?,%sをパーティーオーナーにしますか？,translated
-ftbteams.info.id,Long Team ID: %s,ロングチームID: %s,translated
-ftbteams.info.members,Members:,メンバー:,translated
-ftbteams.info.members.none,No members,メンバーなし,translated
-ftbteams.info.owner,Owner: %s,オーナー: %s,translated
-ftbteams.info.owner.none,None,なし,translated
-ftbteams.info.short_id,Short Team ID: %s,ショートチームID: %s,translated
-ftbteams.list,All FTB Teams: %s,全FTBチーム: %s,translated
-ftbteams.message.add_ally,Player %s is now an ally of your team!,プレイヤー %sはあなたのチームの同盟国になりました！,translated
-ftbteams.message.chat_redirected.off,Chat messages are sent to vanilla chat,チャットメッセージはバニラチャットに送信されます,translated
-ftbteams.message.chat_redirected.on,Chat messages are redirected to team chat,チャットメッセージはチームチャットにリダイレクトされます,translated
-ftbteams.message.created_server_team,Created new server team '%s'!,新しいサーバーチーム「%s」を作成しました！,translated
-ftbteams.message.declined,You have declined the invitation,招待を辞退しました,translated
-ftbteams.message.deleted_server_team,Deleted server team '%s'!,サーバーチーム「%s」を削除しました！,translated
-ftbteams.message.demoted,Demoted %s to Member!,%sをメンバーに降格しました！,translated
-ftbteams.message.invite_sent,%s has invited you to join their party!,%sがパーティーへの招待を送りました！,translated
-ftbteams.message.invited,Invited %s,%sを招待しました,translated
-ftbteams.message.joined,%s has joined your party!,%sがパーティーに参加しました！,translated
-ftbteams.message.kicked,Kicked %s from %s!,%sを%sからキックしました！,translated
-ftbteams.message.left_party,Player %s left your party!,プレイヤー %sがパーティーから退出しました！,translated
-ftbteams.message.no_longer_allied,You are no longer an ally of '%s'!,「%s」との同盟は終了しました！,translated
-ftbteams.message.now_allied,You are now an ally of '%s'!,「%s」と同盟を結びました！,translated
-ftbteams.message.promoted,Promoted %s to Officer!,%sをオフィサーに昇格しました！,translated
-ftbteams.message.remove_ally,Player %s is no longer an ally of your team!,プレイヤー %sはあなたのチームの同盟国ではなくなりました！,translated
-ftbteams.message.team_disbanded,Forcibly disbanded party team '%s' (%s) !,パーティーチーム「%s」（%s）を強制解散しました！,translated
-ftbteams.message.transfer_owner,Transferred ownership to %s!,所有権を%sに譲渡しました！,translated
+﻿key,source_text,target_text
+ftbteams.accept,Accept ✔,承認 ✔
+ftbteams.accept,Accept ✔,承認 ✔
+ftbteams.already_in_party,You are already in a party!,既にパーティーに参加しています！
+ftbteams.already_in_party,You are already in a party!,既にパーティーに参加しています！
+ftbteams.api_override,In this modpack you can only create party from inventory 'My Team' button!,このモッドパックではインベントリの「マイチーム」ボタンからのみパーティーを作成できます！
+ftbteams.api_override,In this modpack you can only create party from inventory 'My Team' button!,このモッドパックではインベントリの「マイチーム」ボタンからのみパーティーを作成できます！
+ftbteams.cant_edit,You can't edit %s!,%sを編集できません！
+ftbteams.cant_edit,You can't edit %s!,%sを編集できません！
+ftbteams.cant_kick_owner,Can't kick the owner!,オーナーをキックできません！
+ftbteams.cant_kick_owner,Can't kick the owner!,オーナーをキックできません！
+ftbteams.click_show_info,Click to show team info,クリックしてチーム情報を表示
+ftbteams.click_show_info,Click to show team info,クリックしてチーム情報を表示
+ftbteams.create_party,Create a Party,パーティーを作成
+ftbteams.create_party,Create a Party,パーティーを作成
+ftbteams.create_party.info,Create a Party team to invite members and progress together,パーティーチームを作成してメンバーを招待し、一緒に進行します
+ftbteams.create_party.info,Create a Party team to invite members and progress together,パーティーチームを作成してメンバーを招待し、一緒に進行します
+ftbteams.decline,Decline ✘,拒否 ✘
+ftbteams.decline,Decline ✘,拒否 ✘
+ftbteams.gui.add_ally,Ally,同盟
+ftbteams.gui.add_ally,Ally,同盟
+ftbteams.gui.add_members,Add Members,メンバーを追加
+ftbteams.gui.add_members,Add Members,メンバーを追加
+ftbteams.gui.create_party,Description,説明
+ftbteams.gui.create_party,Description,説明
+ftbteams.gui.demote,Demote %s,%sを降格
+ftbteams.gui.demote,Demote %s,%sを降格
+ftbteams.gui.demote.confirm,Do you want to demote player %s?,プレイヤー %sを降格しますか？
+ftbteams.gui.demote.confirm,Do you want to demote player %s?,プレイヤー %sを降格しますか？
+ftbteams.gui.disband,Disband Party,パーティーを解散
+ftbteams.gui.disband,Disband Party,パーティーを解散
+ftbteams.gui.disband.confirm,Do you want to disband the party?,パーティーを解散しますか？
+ftbteams.gui.disband.confirm,Do you want to disband the party?,パーティーを解散しますか？
+ftbteams.gui.invite,Invite Player(s),プレイヤーを招待
+ftbteams.gui.invite,Invite Player(s),プレイヤーを招待
+ftbteams.gui.kick,Kick %s,%sをキック
+ftbteams.gui.kick,Kick %s,%sをキック
+ftbteams.gui.kick.confirm,Do you want to kick player %s?,プレイヤー %sをキックしますか？
+ftbteams.gui.kick.confirm,Do you want to kick player %s?,プレイヤー %sをキックしますか？
+ftbteams.gui.leave,Leave Party,パーティーから退出
+ftbteams.gui.leave,Leave Party,パーティーから退出
+ftbteams.gui.leave.confirm,Do you want to leave the party?,パーティーから退出しますか？
+ftbteams.gui.leave.confirm,Do you want to leave the party?,パーティーから退出しますか？
+ftbteams.gui.manage_allies,Manage Allies,同盟を管理
+ftbteams.gui.manage_allies,Manage Allies,同盟を管理
+ftbteams.gui.no_players,No players available,利用可能なプレイヤーがいません
+ftbteams.gui.no_players,No players available,利用可能なプレイヤーがいません
+ftbteams.gui.party_description,Description,説明
+ftbteams.gui.party_description,Description,説明
+ftbteams.gui.party_name,Party Name,パーティー名
+ftbteams.gui.party_name,Party Name,パーティー名
+ftbteams.gui.promote,Promote %s,%sを昇格
+ftbteams.gui.promote,Promote %s,%sを昇格
+ftbteams.gui.promote.confirm,Do you want to promote player %s?,プレイヤー %sを昇格しますか？
+ftbteams.gui.promote.confirm,Do you want to promote player %s?,プレイヤー %sを昇格しますか？
+ftbteams.gui.remove_ally,Un-Ally with %s,%sとの同盟を解除
+ftbteams.gui.remove_ally,Un-Ally with %s,%sとの同盟を解除
+ftbteams.gui.remove_ally.confirm,Do you want to remove %s as an Ally?,%sを同盟から削除してもよろしいですか？
+ftbteams.gui.remove_ally.confirm,Do you want to remove %s as an Ally?,%sを同盟から削除してもよろしいですか？
+ftbteams.gui.send_invite,Invite,招待を送信
+ftbteams.gui.send_invite,Invite,招待を送信
+ftbteams.gui.toggle_chat,Click to toggle,クリックしてトグル
+ftbteams.gui.toggle_chat,Click to toggle,クリックしてトグル
+ftbteams.gui.transfer_ownership,Make %s Party Owner,%sをパーティーオーナーにする
+ftbteams.gui.transfer_ownership,Make %s Party Owner,%sをパーティーオーナーにする
+ftbteams.gui.transfer_ownership.confirm,Do you want to make %s party owner?,%sをパーティーオーナーにしますか？
+ftbteams.gui.transfer_ownership.confirm,Do you want to make %s party owner?,%sをパーティーオーナーにしますか？
+ftbteams.info.id,Long Team ID: %s,ロングチームID: %s
+ftbteams.info.id,Long Team ID: %s,ロングチームID: %s
+ftbteams.info.members,Members:,メンバー:
+ftbteams.info.members,Members:,メンバー:
+ftbteams.info.members.none,No members,メンバーなし
+ftbteams.info.members.none,No members,メンバーなし
+ftbteams.info.owner,Owner: %s,オーナー: %s
+ftbteams.info.owner,Owner: %s,オーナー: %s
+ftbteams.info.owner.none,None,なし
+ftbteams.info.owner.none,None,なし
+ftbteams.info.short_id,Short Team ID: %s,ショートチームID: %s
+ftbteams.info.short_id,Short Team ID: %s,ショートチームID: %s
+ftbteams.list,All FTB Teams: %s,全FTBチーム: %s
+ftbteams.list,All FTB Teams: %s,全FTBチーム: %s
+ftbteams.message.add_ally,Player %s is now an ally of your team!,プレイヤー %sはあなたのチームの同盟国になりました！
+ftbteams.message.add_ally,Player %s is now an ally of your team!,プレイヤー %sはあなたのチームの同盟国になりました！
+ftbteams.message.chat_redirected.off,Chat messages are sent to vanilla chat,チャットメッセージはバニラチャットに送信されます
+ftbteams.message.chat_redirected.off,Chat messages are sent to vanilla chat,チャットメッセージはバニラチャットに送信されます
+ftbteams.message.chat_redirected.on,Chat messages are redirected to team chat,チャットメッセージはチームチャットにリダイレクトされます
+ftbteams.message.chat_redirected.on,Chat messages are redirected to team chat,チャットメッセージはチームチャットにリダイレクトされます
+ftbteams.message.created_server_team,Created new server team '%s'!,新しいサーバーチーム「%s」を作成しました！
+ftbteams.message.created_server_team,Created new server team '%s'!,新しいサーバーチーム「%s」を作成しました！
+ftbteams.message.declined,You have declined the invitation,招待を辞退しました
+ftbteams.message.declined,You have declined the invitation,招待を辞退しました
+ftbteams.message.deleted_server_team,Deleted server team '%s'!,サーバーチーム「%s」を削除しました！
+ftbteams.message.deleted_server_team,Deleted server team '%s'!,サーバーチーム「%s」を削除しました！
+ftbteams.message.demoted,Demoted %s to Member!,%sをメンバーに降格しました！
+ftbteams.message.demoted,Demoted %s to Member!,%sをメンバーに降格しました！
+ftbteams.message.invite_sent,%s has invited you to join their party!,%sがパーティーへの招待を送りました！
+ftbteams.message.invite_sent,%s has invited you to join their party!,%sがパーティーへの招待を送りました！
+ftbteams.message.invited,Invited %s,%sを招待しました
+ftbteams.message.invited,Invited %s,%sを招待しました
+ftbteams.message.joined,%s has joined your party!,%sがパーティーに参加しました！
+ftbteams.message.joined,%s has joined your party!,%sがパーティーに参加しました！
+ftbteams.message.kicked,Kicked %s from %s!,%sを%sからキックしました！
+ftbteams.message.kicked,Kicked %s from %s!,%sを%sからキックしました！
+ftbteams.message.left_party,Player %s left your party!,プレイヤー %sがパーティーから退出しました！
+ftbteams.message.left_party,Player %s left your party!,プレイヤー %sがパーティーから退出しました！
+ftbteams.message.no_longer_allied,You are no longer an ally of '%s'!,「%s」との同盟は終了しました！
+ftbteams.message.no_longer_allied,You are no longer an ally of '%s'!,「%s」との同盟は終了しました！
+ftbteams.message.now_allied,You are now an ally of '%s'!,「%s」と同盟を結びました！
+ftbteams.message.now_allied,You are now an ally of '%s'!,「%s」と同盟を結びました！
+ftbteams.message.promoted,Promoted %s to Officer!,%sをオフィサーに昇格しました！
+ftbteams.message.promoted,Promoted %s to Officer!,%sをオフィサーに昇格しました！
+ftbteams.message.remove_ally,Player %s is no longer an ally of your team!,プレイヤー %sはあなたのチームの同盟国ではなくなりました！
+ftbteams.message.remove_ally,Player %s is no longer an ally of your team!,プレイヤー %sはあなたのチームの同盟国ではなくなりました！
+ftbteams.message.team_disbanded,Forcibly disbanded party team '%s' (%s) !,パーティーチーム「%s」（%s）を強制解散しました！
+ftbteams.message.team_disbanded,Forcibly disbanded party team '%s' (%s) !,パーティーチーム「%s」（%s）を強制解散しました！
+ftbteams.message.transfer_owner,Transferred ownership to %s!,所有権を%sに譲渡しました！
+ftbteams.message.transfer_owner,Transferred ownership to %s!,所有権を%sに譲渡しました！
 ftbteams.missing_data,"Team data has not been received from the server!
 FTB Teams will not function correctly.
 Check server log for errors, and ensure your server is in online mode.","チームデータがサーバーから受け取られていません！
 FTBチームは正しく機能しません。
-サーバーログでエラーを確認し、サーバーがオンラインモードになっていることを確認してください。",translated
-ftbteams.name_too_short,Team name is too short! (must be >=3 characters),チーム名が短すぎます！（3文字以上である必要があります）,translated
-ftbteams.not_in_party,You haven't created or joined a party!,パーティーを作成または参加していません！,translated
-ftbteams.not_invited,You are not invited to join %s!,%sへの参加招待を受けていません！,translated
-ftbteams.not_member,%s is not a member of %s!,%sは%sのメンバーではありません！,translated
-ftbteams.not_officer,%s is not an officer of %s!,%sは%sのオフィサーではありません！,translated
-ftbteams.owner_cant_leave,You must transfer ownership of the team before you can leave!,退出する前にチームの所有権を譲渡する必要があります！,translated
-ftbteams.party_api_only,In this modpack you cannot create party teams directly!,このモッドパックではパーティーチームを直接作成できません！,translated
-ftbteams.player_already_in_party,Player '%s' is already in a party!,プレイヤー「%s」は既にパーティーに参加しています！,translated
-ftbteams.privacy_mode.allies,Allies,同盟,translated
-ftbteams.privacy_mode.private,Private,プライベート,translated
-ftbteams.privacy_mode.public,Public,公開,translated
-ftbteams.property_not_found,Property ID not found!,プロパティIDが見つかりません！,translated
-ftbteams.ranks.ally,Ally,同盟,translated
-ftbteams.ranks.enemy,Enemy,敵,translated
-ftbteams.ranks.invited,Invited,招待済み,translated
-ftbteams.ranks.member,Member,メンバー,translated
-ftbteams.ranks.none,None,なし,translated
-ftbteams.ranks.officer,Officer,オフィサー,translated
-ftbteams.ranks.owner,Owner,オーナー,translated
-ftbteams.server_permissions_prevent,Server permissions prevent you from doing that.,サーバーの権限によってそれを実行できません。,translated
-ftbteams.team_already_exists,Team %s already exists!,チーム %sは既に存在します！,translated
-ftbteams.team_not_found,Team '%s' not found!,チーム「%s」が見つかりません！,translated
-ftbteams.team_type.party,Party Team,パーティーチーム,translated
-ftbteams.team_type.player,Player Team,プレイヤーチーム,translated
-ftbteams.team_type.server,Server Team,サーバーチーム,translated
-ftbteamsconfig,Team Properties,チームプロパティ,translated
-ftbteamsconfig.ftbteams,Basic Team Properties,基本チームプロパティ,translated
-ftbteamsconfig.ftbteams.color,Color,色,translated
-ftbteamsconfig.ftbteams.description,Description,説明,translated
-ftbteamsconfig.ftbteams.display_name,Display Name,表示名,translated
-ftbteamsconfig.ftbteams.free_to_join,Free to Join,自由に参加,translated
-ftbteamsconfig.ftbteams.max_msg_history_size,Message History Maximum Size,メッセージ履歴の最大サイズ,translated
-key.categories.ftbteams,FTB Teams,FTBチーム,translated
-key.ftbteams.open_gui,Open Teams GUI,チームGUIを開く,translated
-sidebar_button.ftbteams.my_team,My Team,マイチーム,translated
+サーバーログでエラーを確認し、サーバーがオンラインモードになっていることを確認してください。"
+ftbteams.missing_data,"Team data has not been received from the server!
+FTB Teams will not function correctly.
+Check server log for errors, and ensure your server is in online mode.","チームデータがサーバーから受け取られていません！
+FTBチームは正しく機能しません。
+サーバーログでエラーを確認し、サーバーがオンラインモードになっていることを確認してください。"
+ftbteams.name_too_short,Team name is too short! (must be >=3 characters),チーム名が短すぎます！（3文字以上である必要があります）
+ftbteams.name_too_short,Team name is too short! (must be >=3 characters),チーム名が短すぎます！（3文字以上である必要があります）
+ftbteams.not_in_party,You haven't created or joined a party!,パーティーを作成または参加していません！
+ftbteams.not_in_party,You haven't created or joined a party!,パーティーを作成または参加していません！
+ftbteams.not_invited,You are not invited to join %s!,%sへの参加招待を受けていません！
+ftbteams.not_invited,You are not invited to join %s!,%sへの参加招待を受けていません！
+ftbteams.not_member,%s is not a member of %s!,%sは%sのメンバーではありません！
+ftbteams.not_member,%s is not a member of %s!,%sは%sのメンバーではありません！
+ftbteams.not_officer,%s is not an officer of %s!,%sは%sのオフィサーではありません！
+ftbteams.not_officer,%s is not an officer of %s!,%sは%sのオフィサーではありません！
+ftbteams.owner_cant_leave,You must transfer ownership of the team before you can leave!,退出する前にチームの所有権を譲渡する必要があります！
+ftbteams.owner_cant_leave,You must transfer ownership of the team before you can leave!,退出する前にチームの所有権を譲渡する必要があります！
+ftbteams.party_api_only,In this modpack you cannot create party teams directly!,このモッドパックではパーティーチームを直接作成できません！
+ftbteams.party_api_only,In this modpack you cannot create party teams directly!,このモッドパックではパーティーチームを直接作成できません！
+ftbteams.player_already_in_party,Player '%s' is already in a party!,プレイヤー「%s」は既にパーティーに参加しています！
+ftbteams.player_already_in_party,Player '%s' is already in a party!,プレイヤー「%s」は既にパーティーに参加しています！
+ftbteams.privacy_mode.allies,Allies,同盟
+ftbteams.privacy_mode.allies,Allies,同盟
+ftbteams.privacy_mode.private,Private,プライベート
+ftbteams.privacy_mode.private,Private,プライベート
+ftbteams.privacy_mode.public,Public,公開
+ftbteams.privacy_mode.public,Public,公開
+ftbteams.property_not_found,Property ID not found!,プロパティIDが見つかりません！
+ftbteams.property_not_found,Property ID not found!,プロパティIDが見つかりません！
+ftbteams.ranks.ally,Ally,同盟
+ftbteams.ranks.ally,Ally,同盟
+ftbteams.ranks.enemy,Enemy,敵
+ftbteams.ranks.enemy,Enemy,敵
+ftbteams.ranks.invited,Invited,招待済み
+ftbteams.ranks.invited,Invited,招待済み
+ftbteams.ranks.member,Member,メンバー
+ftbteams.ranks.member,Member,メンバー
+ftbteams.ranks.none,None,なし
+ftbteams.ranks.none,None,なし
+ftbteams.ranks.officer,Officer,オフィサー
+ftbteams.ranks.officer,Officer,オフィサー
+ftbteams.ranks.owner,Owner,オーナー
+ftbteams.ranks.owner,Owner,オーナー
+ftbteams.server_permissions_prevent,Server permissions prevent you from doing that.,サーバーの権限によってそれを実行できません。
+ftbteams.server_permissions_prevent,Server permissions prevent you from doing that.,サーバーの権限によってそれを実行できません。
+ftbteams.team_already_exists,Team %s already exists!,チーム %sは既に存在します！
+ftbteams.team_already_exists,Team %s already exists!,チーム %sは既に存在します！
+ftbteams.team_not_found,Team '%s' not found!,チーム「%s」が見つかりません！
+ftbteams.team_not_found,Team '%s' not found!,チーム「%s」が見つかりません！
+ftbteams.team_type.party,Party Team,パーティーチーム
+ftbteams.team_type.party,Party Team,パーティーチーム
+ftbteams.team_type.player,Player Team,プレイヤーチーム
+ftbteams.team_type.player,Player Team,プレイヤーチーム
+ftbteams.team_type.server,Server Team,サーバーチーム
+ftbteams.team_type.server,Server Team,サーバーチーム
+ftbteamsconfig,Team Properties,チームプロパティ
+ftbteamsconfig,Team Properties,チームプロパティ
+ftbteamsconfig.ftbteams,Basic Team Properties,基本チームプロパティ
+ftbteamsconfig.ftbteams,Basic Team Properties,基本チームプロパティ
+ftbteamsconfig.ftbteams.color,Color,色
+ftbteamsconfig.ftbteams.color,Color,色
+ftbteamsconfig.ftbteams.description,Description,説明
+ftbteamsconfig.ftbteams.description,Description,説明
+ftbteamsconfig.ftbteams.display_name,Display Name,表示名
+ftbteamsconfig.ftbteams.display_name,Display Name,表示名
+ftbteamsconfig.ftbteams.free_to_join,Free to Join,自由に参加
+ftbteamsconfig.ftbteams.free_to_join,Free to Join,自由に参加
+ftbteamsconfig.ftbteams.max_msg_history_size,Message History Maximum Size,メッセージ履歴の最大サイズ
+ftbteamsconfig.ftbteams.max_msg_history_size,Message History Maximum Size,メッセージ履歴の最大サイズ
+key.categories.ftbteams,FTB Teams,FTBチーム
+key.categories.ftbteams,FTB Teams,FTBチーム
+key.ftbteams.open_gui,Open Teams GUI,チームGUIを開く
+key.ftbteams.open_gui,Open Teams GUI,チームGUIを開く
+sidebar_button.ftbteams.my_team,My Team,マイチーム
+sidebar_button.ftbteams.my_team,My Team,マイチーム

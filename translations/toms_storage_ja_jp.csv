@@ -1,0 +1,148 @@
+﻿key,source_text,target_text
+block.toms_storage.ts.crafting_terminal,Crafting Terminal,クラフティングターミナル
+block.toms_storage.ts.inventory_cable,Inventory Cable,インベントリケーブル
+block.toms_storage.ts.inventory_cable_connector,Inventory Cable Connector,インベントリケーブルコネクター
+block.toms_storage.ts.inventory_cable_connector_filtered,Inventory Cable Connector (Filtered),フィルター付きインベントリケーブルコネクター
+block.toms_storage.ts.inventory_cable_connector_framed,Inventory Cable Connector (Framed),フレーム型インベントリケーブルコネクター
+block.toms_storage.ts.inventory_cable_framed,Framed Inventory Cable,フレーム型インベントリケーブル
+block.toms_storage.ts.inventory_connector,Inventory Connector,インベントリコネクター
+block.toms_storage.ts.inventory_hopper_basic,Basic Inventory Hopper,基本インベントリホッパー
+block.toms_storage.ts.inventory_proxy,Inventory Proxy,インベントリプロキシ
+block.toms_storage.ts.level_emitter,Level Emitter,レベルエミッター
+block.toms_storage.ts.open_crate,Open Crate,オープンクレート
+block.toms_storage.ts.painted_trim,Inventory Trim,ペイント済みトリム
+block.toms_storage.ts.storage_terminal,Storage Terminal,ストレージターミナル
+block.toms_storage.ts.trim,Inventory Trim,トリム
+chat.toms_storage.inv_link_access_denied,Access Denied,インベントリリンクのアクセスが拒否されました
+chat.toms_storage.inventory_connector.free_slots,Inventory Connector: %d free/%d slots.,フリースロット: %s
+chat.toms_storage.terminal_bound,Bound Advanced Wireless Terminal,ターミナルがバインドされました
+chat.toms_storage.terminal_invalid_block,Invalid block,無効なブロックです
+chat.toms_storage.terminal_out_of_range,Terminal out of range,ターミナルが範囲外です
+item.toms_storage.ts.adv_wireless_terminal,Advanced Wireless Terminal,高度なワイヤレスターミナル
+item.toms_storage.ts.item_filter,Item Filter,アイテムフィルター
+item.toms_storage.ts.paint_kit,Paint Kit,ペイントキット
+item.toms_storage.ts.polymorphic_item_filter,Polymorphic Item Filter,ポリモーフィックアイテムフィルター
+item.toms_storage.ts.tag_item_filter,Tag Item Filter,タグアイテムフィルター
+item.toms_storage.ts.wireless_terminal,Wireless Terminal,ワイヤレスターミナル
+itemGroup.toms_storage.tab,Tom's Simple Storage,
+key.toms_storage.open_terminal,[Tom's Simple Storage] Open Terminal,ターミナルを開く
+narrator.toms_storage.inventory_link_channel,Inventory Link Channel Name Field,インベントリリンク チャンネル
+narrator.toms_storage.level_emitter_amount,Level Emitter Item Count,レベルエミッター 量
+narrator.toms_storage.terminal_search,Terminal Search Field,ターミナル検索
+tag.toms_storage.trims,Inventory Trims,トリム
+text.autoconfig.toms_storage.option.advWirelessRange,Advanced wireless terminal range,高度なワイヤレス範囲
+text.autoconfig.toms_storage.option.invConnectorMaxCables,Inventory Cable Connector Maximum number of cables,インベントリコネクター 最大ケーブル数
+text.autoconfig.toms_storage.option.invDupScanSize,Inventory Connector duplicate finder max slot count,インベントリ複製スキャンサイズ
+text.autoconfig.toms_storage.option.invLinkBeaconLvl,Inventory Cable Connector requied beacon level for inventory linking,インベントリリンク ビーコンレベル
+text.autoconfig.toms_storage.option.invLinkBeaconLvl.@Tooltip,"Value of 0 only requires a single beacon block nearby
+Value of -1 disables this feature entirely",インベントリリンクの無線範囲に影響するビーコンレベルを設定します
+text.autoconfig.toms_storage.option.invLinkBeaconLvlDim,Inventory Cable Connector requied beacon level for cross dimensional access,インベントリリンク ビーコンレベル (ディメンション)
+text.autoconfig.toms_storage.option.invLinkBeaconLvlDim.@Tooltip,"Value of 0 only requires a single beacon block nearby
+Value of -1 disables this feature entirely",ディメンション間での無線リンク範囲に影響するビーコンレベルを設定します
+text.autoconfig.toms_storage.option.invRange,Inventory Connector Range,インベントリ範囲
+text.autoconfig.toms_storage.option.multiblockInv,Multiblock inventories,マルチブロックインベントリ
+text.autoconfig.toms_storage.option.onlyTrims,Only Allow Trims to Connect Inventories,トリムのみを接続可能
+text.autoconfig.toms_storage.option.wirelessRange,Wireless terminal reach,ワイヤレス範囲
+text.autoconfig.toms_storage.option.wirelessTermBeaconLvl,Advanced wireless terminal requied beacon level for infinite range,ワイヤレスターミナル ビーコンレベル
+text.autoconfig.toms_storage.option.wirelessTermBeaconLvl.@Tooltip,"Value of 0 only requires a single beacon block nearby
+Value of -1 disables this feature entirely",ワイヤレスターミナルの無線範囲に影響するビーコンレベルを設定します
+text.autoconfig.toms_storage.option.wirelessTermBeaconLvlDim,Adv Wireless terminal requied beacon level for cross dimensional access,ワイヤレスターミナル ビーコンレベル (ディメンション)
+text.autoconfig.toms_storage.option.wirelessTermBeaconLvlDim.@Tooltip,"Value of 0 only requires a single beacon block nearby
+Value of -1 disables this feature entirely",ディメンション間でのワイヤレスターミナルの無線リンク範囲に影響するビーコンレベルを設定します
+text.autoconfig.toms_storage.title,Tom's Simple Storage Configuration,Tom's Simple Storage 設定
+tomsstorage.config.adv_wireless_beacon_lvl,"Advanced wireless terminal requied beacon level for infinite range
+Value of 0 only requires a single beacon block nearby
+Value of -1 disables this feature entirely",高度なワイヤレス ビーコンレベル
+tomsstorage.config.adv_wireless_beacon_lvl_dim,"Adv Wireless terminal requied beacon level for cross dimensional access
+Value of 0 only requires a single beacon block nearby
+Value of -1 disables this feature entirely",高度なワイヤレス ビーコンレベル (ディメンション)
+tomsstorage.config.adv_wireless_range,Advanced wireless terminal range,高度なワイヤレス範囲
+tomsstorage.config.inv_cable_connector_max_scan,Inventory Cable Connector Maximum number of cables,インベントリケーブルコネクター 最大スキャン数
+tomsstorage.config.inv_dup_scan_size,Inventory Connector duplicate finder max slot count,インベントリ複製スキャンサイズ
+tomsstorage.config.inv_link_beacon_lvl,"Inventory Cable Connector requied beacon level for inventory linking
+Value of -1 disables this feature entirely",インベントリリンク ビーコンレベル
+tomsstorage.config.inv_link_beacon_lvl_dim,"Inventory Cable Connector requied beacon level for cross dimensional access
+Value of -1 disables this feature entirely",インベントリリンク ビーコンレベル (ディメンション)
+tomsstorage.config.inventory_connector_range,Inventory Connector Range,インベントリコネクター範囲
+tomsstorage.config.multiblock_inv,Multiblock inventories,マルチブロックインベントリ
+tomsstorage.config.only_trims_connect,Only Allow Trims to Connect Inventories,トリムのみを接続可能
+tomsstorage.config.wireless_reach,Wireless terminal reach,ワイヤレス到達範囲
+tooltip.toms_storage.adv_wireless_terminal,Shift right click a terminal to bind it.\Range: %d blocks\The teminal's chunk has to be loaded,高度なワイヤレスターミナル
+tooltip.toms_storage.adv_wireless_terminal.beacon1,Build a level %d beacon in an 8 block radius of the bound terminal to make it accessible from anywhere in the same dimension.,ビーコン レベル I
+tooltip.toms_storage.adv_wireless_terminal.beacon2,Build a level %d beacon to make it accessible from anywhere across dimensions.,ビーコン レベル II
+tooltip.toms_storage.adv_wireless_terminal.bound,"Bound to (%s, %s, %s) in %s",バインド済み
+tooltip.toms_storage.adv_wireless_terminal.keybind,Press the %s key to open,ターミナルを開く
+tooltip.toms_storage.adv_wireless_terminal.keybind.outline,[%s],Shift キーを押し続けて詳細情報を表示
+tooltip.toms_storage.allowList_0,Reject matching,ホワイトリスト
+tooltip.toms_storage.allowList_1,Allow matching,ブラックリスト
+tooltip.toms_storage.amount,Item Amount: %d,数量
+tooltip.toms_storage.crafting_terminal,Gives access to your items.\Place it on an inventory.\Has a builtin crafting table.,クラフティングターミナル
+tooltip.toms_storage.ctrlMode_0,AE Like Controls\Pull one item: Shift+Right Click\Transfer one item: Ctrl+Shift+Right Click,アイテムをリスト表示
+tooltip.toms_storage.ctrlMode_1,Refined Storage Like Controls\Pull one item: Middle Click\Transfer one item: Shift+Middle Click,アイテムをグリッド表示
+tooltip.toms_storage.ctrlMode_2,Vanilla Like Controls\Pull one item: Right Click\Transfer one item: Shift+Right Click,アイテムを大きく表示
+tooltip.toms_storage.empty,Empty,空
+tooltip.toms_storage.filter_item,Filter: %s,フィルターアイテム
+tooltip.toms_storage.filtered,Can be filtered,フィルター済み
+tooltip.toms_storage.ghostMode_0,Enable sorting while holding SHIFT,ゴーストモード: オフ
+tooltip.toms_storage.ghostMode_1,Disable sorting while holding SHIFT,ゴーストモード: オン
+tooltip.toms_storage.hold_shift_for_info,Hold SHIFT for more info.,Shift キーを押し続けて詳細情報を表示
+tooltip.toms_storage.inventory_cable,Connects inventories across\long distances. Inventory Cable Connectors\have to be used to attach inventories\One Inventory Connector must be\present in the network.,インベントリケーブル
+tooltip.toms_storage.inventory_cable_connector,Connects the inventory to the\Inventory Network. Or gives access to the network.\Required to connect terminals.,インベントリケーブルコネクター
+tooltip.toms_storage.inventory_cable_connector_link,The both sides' chunk has to be loaded,ワイヤレスリンク
+tooltip.toms_storage.inventory_cable_connector_link.beacon1,Place it on a level %d beacon to make an inventory link accessible from anywhere in the same dimension.,ビーコン レベル I
+tooltip.toms_storage.inventory_cable_connector_link.beacon2,Place it on a level %d beacon to make an inventory link accessible from anywhere across dimensions.,ビーコン レベル II
+tooltip.toms_storage.inventory_connector,Connects all of the touching inventories into one.\Use the Storage Terminal to access\all of your items. Trims can connect the gaps.,インベントリコネクター
+tooltip.toms_storage.inventory_hopper,Import or export from your Inventory Network\Right click an item to set the filter.\Shift click with an empty hand to clear filter.,インベントリホッパー
+tooltip.toms_storage.inventory_proxy,Extends the face of the block its pointing at.,インベントリプロキシ
+tooltip.toms_storage.item_filter,"Allow filtering multiple items, damage and NBT",アイテムフィルター
+tooltip.toms_storage.items_missing,Some items may not be inserted into the crafting grid,不足しているアイテム
+tooltip.toms_storage.keepLast_0,Don't keep last item in slot,最後のアイテムを残さない
+tooltip.toms_storage.keepLast_1,Keep last item in slot,最後のアイテムを残す
+tooltip.toms_storage.level_emitter,Emits a redstone signal based on Inventory System contents.,レベルエミッター
+tooltip.toms_storage.link_public_0,Private Channel,プライベート
+tooltip.toms_storage.link_public_1,Public Channel,パブリック
+tooltip.toms_storage.link_remote_0,Access remote Inventories,ローカルリンク
+tooltip.toms_storage.link_remote_1,Provide Inventories for Remote Access,リモートリンク
+tooltip.toms_storage.loop,Loop detected in your storage system,ループ
+tooltip.toms_storage.lvlEm_lt_0,Emit when more than specified in storage,より少ない
+tooltip.toms_storage.lvlEm_lt_1,Emit when less than specified in storage,より多い
+tooltip.toms_storage.matchNBT_0,Don't match NBT,NBT データを無視
+tooltip.toms_storage.matchNBT_1,Match NBT,NBT データを一致させる
+tooltip.toms_storage.nbt_overflow,"This item's tag is too big, the item may not show correctly in the terminal",NBT データ超過
+tooltip.toms_storage.open_crate,Converts the block in front of it\into an inventory.\Beware: Creates Item Entities,オープンクレート
+tooltip.toms_storage.paint_kit,Paint blocks to match\their surroundings!,ペイントキット
+tooltip.toms_storage.paintable,Can be painted,ペイント可能
+tooltip.toms_storage.poly_item_filter,Only allow inserting items that already exists in this inventory,ポリモーフィックアイテムフィルター
+tooltip.toms_storage.priority_0,Priority: Lowest,優先度: 最小
+tooltip.toms_storage.priority_1,Priority: Low,優先度: 低
+tooltip.toms_storage.priority_2,Priority: Normal,優先度: 中
+tooltip.toms_storage.priority_3,Priority: High,優先度: 高
+tooltip.toms_storage.priority_4,Priority: Highest,優先度: 最高
+tooltip.toms_storage.pull_0,Don't pull from players inventory when crafting,抽出しない
+tooltip.toms_storage.pull_1,Pull missing items from players inventory when crafting,抽出する
+tooltip.toms_storage.search_0,Standard Search,検索モード: オフ
+tooltip.toms_storage.search_1,Auto Search,検索モード: テキスト検索
+tooltip.toms_storage.search_2,Standard Search Keep,検索モード: Mod ID 検索
+tooltip.toms_storage.search_3,Auto Search Keep,検索モード: ツールチップ検索
+tooltip.toms_storage.search_4,%s Synced Standard Search,検索モード: タグ検索
+tooltip.toms_storage.search_5,%s Synced Auto Search,検索モード: 名前検索
+tooltip.toms_storage.search_6,%s Synced Standard Search Keep,検索モード: 説明検索
+tooltip.toms_storage.search_7,%s Synced Auto Search Keep,検索モード: RegEx 検索
+tooltip.toms_storage.sorting_0,Sort by Item Amount,ソート: アイテム名
+tooltip.toms_storage.sorting_1,Sort by Item Name,ソート: 数量
+tooltip.toms_storage.sorting_2,Sort by Mod,ソート: MOD ID
+tooltip.toms_storage.storage_terminal,Gives access to your items.\Place it on an inventory.,ストレージターミナル
+tooltip.toms_storage.tag_item_filter,Filter using tags,タグアイテムフィルター
+tooltip.toms_storage.tallMode_0,Terminal Size: Default,高さモード: オフ
+tooltip.toms_storage.tallMode_1,Terminal Size: Auto,高さモード: オン
+tooltip.toms_storage.terminal_beacon,Beacon level: %d%s,ターミナル ビーコン
+tooltip.toms_storage.terminal_beacon.anywhere,This terminal is accessible anywhere\with the Advanced Wireless Terminal,どこでも接続可能
+tooltip.toms_storage.terminal_beacon.sameDim,This terminal is accessible anywhere\in this dimension\with the Advanced Wireless Terminal,同じディメンション内のみ
+tooltip.toms_storage.trim,Connects inventories with the Inventory Connector.,トリム
+tooltip.toms_storage.wireless_terminal,Extends your reach for the terminal.\Reach: %d blocks,ワイヤレスターミナル
+ts.connector_filtered,Set Filter,フィルター付きコネクター
+ts.crafting_terminal,C. Terminal,クラフティングターミナル
+ts.inventory_connector,Inventory Link,インベントリコネクター
+ts.inventory_connector.beacon_level,Beacon Level: %d,ビーコン レベル: %s
+ts.level_emitter,Level Emitter,レベルエミッター
+ts.storage_terminal,S. Terminal,ストレージターミナル
