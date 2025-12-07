@@ -28,6 +28,8 @@ Thumbs.db
 
 # Database files
 *.db
+*.db-shm
+*.db-wal
 *.db.backup
 *.sqlite
 *.sqlite3
@@ -56,3 +58,7 @@ workspace/mods/*
 # Environment
 .env
 .env.local
+
+# Temporary scripts
+batch_translate*.sh
+translate_nc.py
