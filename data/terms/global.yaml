@@ -24,3 +24,140 @@ terms:
     target: "金インゴット"
     tags: [item, material]
     priority: 100
+
+  # ===== 金属名（Minecraft公式訳準拠）=====
+  - source: "Tin"
+    target: "スズ"
+    tags: [material]
+    priority: 100
+    context: "Minecraft公式訳。漢字「錫」は使わない"
+
+  - source: "Copper"
+    target: "銅"
+    tags: [material]
+    priority: 100
+
+  - source: "Lead"
+    target: "鉛"
+    tags: [material]
+    priority: 100
+
+  - source: "Nickel"
+    target: "ニッケル"
+    tags: [material]
+    priority: 100
+
+  - source: "Silver"
+    target: "銀"
+    tags: [material]
+    priority: 100
+
+  - source: "Zinc"
+    target: "亜鉛"
+    tags: [material]
+    priority: 100
+
+  - source: "Bronze"
+    target: "青銅"
+    tags: [material]
+    priority: 100
+    context: "「ブロンズ」ではなく「青銅」"
+
+  - source: "Brass"
+    target: "真鍮"
+    tags: [material]
+    priority: 100
+    context: "「黄銅」ではなく「真鍮」"
+
+  - source: "Steel"
+    target: "鋼"
+    tags: [material]
+    priority: 100
+
+  - source: "Aluminum"
+    target: "アルミニウム"
+    tags: [material]
+    priority: 100
+
+  - source: "Platinum"
+    target: "プラチナ"
+    tags: [material]
+    priority: 100
+
+  - source: "Iridium"
+    target: "イリジウム"
+    tags: [material]
+    priority: 100
+
+  - source: "Osmium"
+    target: "オスミウム"
+    tags: [material]
+    priority: 100
+
+  - source: "Uranium"
+    target: "ウラニウム"
+    tags: [material]
+    priority: 100
+
+  # ===== ブロック・鉱石（Minecraft公式訳準拠）=====
+  - source: "Deepslate"
+    target: "深層岩"
+    tags: [block]
+    priority: 100
+    context: "Minecraft公式訳。「ディープスレート」は使わない"
+
+  - source: "Ore"
+    target: "鉱石"
+    tags: [block]
+    priority: 100
+
+  # ===== 派生アイテム =====
+  - source: "Ingot"
+    target: "インゴット"
+    tags: [item]
+    priority: 100
+
+  - source: "Nugget"
+    target: "塊"
+    tags: [item]
+    priority: 100
+    context: "Minecraft公式訳（金塊、鉄塊）に準拠。「ナゲット」は使わない"
+
+  - source: "Dust"
+    target: "粉"
+    tags: [item]
+    priority: 100
+    context: "「ダスト」「粉末」ではなく「粉」"
+
+  - source: "Gear"
+    target: "歯車"
+    tags: [item]
+    priority: 100
+    context: "「ギア」ではなく「歯車」。ただしCreateのCogwheelも「歯車」"
+
+  - source: "Plate"
+    target: "板"
+    tags: [item]
+    priority: 100
+    context: "「プレート」ではなく「板」"
+
+  - source: "Rod"
+    target: "棒"
+    tags: [item]
+    priority: 100
+    context: "「ロッド」ではなく「棒」。ただしBlaze Rodは「ブレイズロッド」（公式）"
+
+  - source: "Wire"
+    target: "ワイヤー"
+    tags: [item]
+    priority: 100
+
+  - source: "Chunk"
+    target: "塊"
+    tags: [item]
+    priority: 100
+
+  - source: "Clump"
+    target: "塊"
+    tags: [item]
+    priority: 100
