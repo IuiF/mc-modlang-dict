@@ -285,8 +285,14 @@ func importFromYAML(ctx context.Context, repo *database.Repository, modID, yamlP
 	// Extract translations from YAML structure
 	translations := extractTranslationsFromYAML(data)
 
-	var updated, notFound int
+	var updated, notFound, skippedEmpty, skippedSameAsSource int
 	for key, target := range translations {
+		// Skip empty translations to prevent data corruption
+		if target == "" {
+			skippedEmpty++
+			continue
+		}
+
 		source, err := repo.GetSourceByModAndKey(ctx, modID, key)
 		if err != nil {
 			fmt.Printf("Warning: failed to get source for %s: %v\n", key, err)
@@ -294,6 +300,12 @@ func importFromYAML(ctx context.Context, repo *database.Repository, modID, yamlP
 		}
 		if source == nil {
 			notFound++
+			continue
+		}
+
+		// Skip if target is same as source (untranslated)
+		if target == source.SourceText {
+			skippedSameAsSource++
 			continue
 		}
 
@@ -313,6 +325,12 @@ func importFromYAML(ctx context.Context, repo *database.Repository, modID, yamlP
 	}
 
 	fmt.Printf("Updated %d translations from %s\n", updated, yamlPath)
+	if skippedEmpty > 0 {
+		fmt.Printf("Skipped empty translations: %d\n", skippedEmpty)
+	}
+	if skippedSameAsSource > 0 {
+		fmt.Printf("Skipped same-as-source (untranslated): %d\n", skippedSameAsSource)
+	}
 	if notFound > 0 {
 		fmt.Printf("Keys not found in DB: %d\n", notFound)
 	}

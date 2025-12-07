@@ -339,6 +339,70 @@ Options:
 		fmt.Printf("  No source=target translations found (good!)\n")
 	}
 
+	// 9. Clean up duplicate sources (same mod_id + key, different source_text from old versions)
+	fmt.Println("\nStep 9: Cleaning up duplicate sources (same mod_id + key)...")
+	type DuplicateKey struct {
+		ModID string
+		Key   string
+		Count int64
+	}
+	var duplicateKeys []DuplicateKey
+	db.Raw(`
+		SELECT mod_id, key, COUNT(*) as count
+		FROM translation_sources
+		GROUP BY mod_id, key
+		HAVING count > 1
+	`).Scan(&duplicateKeys)
+
+	duplicateSourcesRemoved := 0
+	if len(duplicateKeys) > 0 {
+		fmt.Printf("  Found %d keys with multiple sources\n", len(duplicateKeys))
+
+		if !*dryRun {
+			for _, dk := range duplicateKeys {
+				// Find the source linked to default version
+				var defaultSourceID int64
+				db.Raw(`
+					SELECT ts.id FROM translation_sources ts
+					JOIN source_versions sv ON ts.id = sv.source_id
+					JOIN mod_versions mv ON sv.mod_version_id = mv.id
+					WHERE ts.mod_id = ? AND ts.key = ? AND mv.is_default = 1
+					LIMIT 1
+				`, dk.ModID, dk.Key).Scan(&defaultSourceID)
+
+				if defaultSourceID == 0 {
+					// No source linked to default, keep the newest one
+					db.Raw(`
+						SELECT id FROM translation_sources
+						WHERE mod_id = ? AND key = ?
+						ORDER BY id DESC LIMIT 1
+					`, dk.ModID, dk.Key).Scan(&defaultSourceID)
+				}
+
+				if defaultSourceID > 0 {
+					// Delete other sources and their translations
+					var otherSourceIDs []int64
+					db.Raw(`
+						SELECT id FROM translation_sources
+						WHERE mod_id = ? AND key = ? AND id != ?
+					`, dk.ModID, dk.Key, defaultSourceID).Scan(&otherSourceIDs)
+
+					for _, sid := range otherSourceIDs {
+						db.Exec(`DELETE FROM translations WHERE source_id = ?`, sid)
+						db.Exec(`DELETE FROM source_versions WHERE source_id = ?`, sid)
+						db.Exec(`DELETE FROM translation_sources WHERE id = ?`, sid)
+						duplicateSourcesRemoved++
+					}
+				}
+			}
+			fmt.Printf("  Removed %d duplicate sources\n", duplicateSourcesRemoved)
+		} else {
+			fmt.Printf("  Would remove approximately %d duplicate sources\n", len(duplicateKeys))
+		}
+	} else {
+		fmt.Printf("  No duplicate sources found (good!)\n")
+	}
+
 	// Final stats
 	fmt.Println("\n=== Summary ===")
 	var totalSources, totalTranslations int64
