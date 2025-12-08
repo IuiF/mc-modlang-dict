@@ -53,6 +53,11 @@ func (r *Repository) Close() error {
 	return sqlDB.Close()
 }
 
+// DB returns the underlying gorm.DB for advanced queries.
+func (r *Repository) DB() *gorm.DB {
+	return r.db
+}
+
 // Migrate runs database migrations.
 func (r *Repository) Migrate() error {
 	return r.db.AutoMigrate(

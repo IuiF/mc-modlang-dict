@@ -27,6 +27,8 @@ func main() {
 		err = runTranslate(args)
 	case "export":
 		err = runExport(args)
+	case "view":
+		err = runView(args)
 	case "build":
 		err = runBuild(args)
 	case "migrate":
@@ -64,6 +66,7 @@ Commands:
   import-dir  Import translations from a directory (cloned repo)
   translate   Add/update translations, show status
   export      Export translations to various formats
+  view        View translations in the database
   build       Build translation database from YAML files
   migrate     Migrate existing data to new source-based schema
   repair      Repair database inconsistencies
