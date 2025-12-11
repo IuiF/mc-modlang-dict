@@ -108,8 +108,8 @@ block.bloodmagic.woodbrickpath,Wooden Path,木製道
 block.bloodmagic.woodtilepath,Tiled Wooden Path,タイル木製道
 block.bloodmagic.wornstonebrickpath,Worn Stone Path,摩耗石レンガ道
 block.bloodmagic.wornstonetilepath,Tiled Worn Stone Path,タイル摩耗石道
-bloodmagic.keybind.cycle_holding_neg,Cycle Sigil (-),シギル切り替え（-）
-bloodmagic.keybind.cycle_holding_pos,Cycle Sigil (+),シギル切り替え（+）
+bloodmagic.keybind.cycle_holding_neg,Cycle Sigil (-),シギル切り替え(-)
+bloodmagic.keybind.cycle_holding_pos,Cycle Sigil (+),シギル切り替え(+)
 bloodmagic.keybind.open_holding,Open Sigil of Holding,保持のシギルを開く
 chat.bloodmagic.damageSource,%s's soul became too weak,%sの魂が弱すぎました
 chat.bloodmagic.diviner.blockedBuild,"Unable to replace block at %d, %d, %d.","%d, %d, %dのブロックを交換できません。"
@@ -153,23 +153,19 @@ gui.bloodmagic.default,Default,デフォルト
 gui.bloodmagic.empty,Empty,空
 gui.bloodmagic.save,Save,保存
 gui.bloodmagic.toggle,Toggle,切り替え
-guide.bloodmagic.landing_text,"Welcome to $(6)Blood Magic$()! $(br2)$(l:bloodmagic:utility/nyi)A lot of stuff$() isn't yet implemented, so please excuse our dust. $(br2)Click $(l:bloodmagic:utility/getting_started)HERE$() to get started. If you find any bugs, please report them on our $(l:https://github.com/WayofTime/BloodMagic/issues)Github$().",$(6)血の魔法$()へようこそ！ $(br2)$(l:bloodmagic:utility/nyi)多くのコンテンツ$()はまだ実装されていないので、お待たせして申し訳ございません。 $(br2)$(l:bloodmagic:utility/getting_started)ここをクリック$()して開始してください。バグを見つけた場合は、$(l:https://github.com/WayofTime/BloodMagic/issues)Github$()でご報告ください。
+guide.bloodmagic.landing_text,"Welcome to $(6)Blood Magic$()! $(br2)$(l:bloodmagic:utility/nyi)A lot of stuff$() isn't yet implemented, so please excuse our dust. $(br2)Click $(l:bloodmagic:utility/getting_started)HERE$() to get started. If you find any bugs, please report them on our $(l:https://github.com/WayofTime/BloodMagic/issues)Github$().",$(6)血の魔法$()へようこそ！$(br2)$(l:bloodmagic:utility/nyi)多くのコンテンツ$()はまだ実装されていないので、お待たせして申し訳ございません。$(br2)$(l:bloodmagic:utility/getting_started)ここをクリック$()して開始してください。バグを見つけた場合は、$(l:https://github.com/WayofTime/BloodMagic/issues)ギットハブ$()でご報告ください。
 guide.bloodmagic.name,Sanguine Scientiem,サングイン・サイエンティエム
 guide.bloodmagic.subtitle,Alchemical Wizardry,錬金術の魔法
 guide.patchouli.bloodmagic.arc_processor.fluid,%dmb of %s,%dmbの%s
 guide.patchouli.bloodmagic.arc_processor.no_fluid,None,なし
-guide.patchouli.bloodmagic.common.double_new_line,$(br2)%s,$(br2)%s
 guide.patchouli.bloodmagic.living_armour_upgrade_table.level,Level,レベル
 guide.patchouli.bloodmagic.living_armour_upgrade_table.upgrade_points,Upgrade Points,アップグレードポイント
 guide.patchouli.bloodmagic.ritual_info.activation_cost,$(br)Activation Cost: $(blood)%d LP$(),$(br)発動コスト: $(blood)%d LP$()
-guide.patchouli.bloodmagic.ritual_info.awakened_activation_crystal_link,$(l:bloodmagic:rituals/activation_crystals#awakened)%s$(/l),$(l:血magic:儀式s/activation_クリスタルs#覚醒)%s$(/l)
-guide.patchouli.bloodmagic.ritual_info.counter_formatter,$(br)%s%s$(),$(br)%s%s$()
+guide.patchouli.bloodmagic.ritual_info.awakened_activation_crystal_link,$(l:bloodmagic:rituals/activation_crystals#awakened)%s$(/l),$(l:血の魔法:儀式/アクティベーションクリスタル#覚醒)%s$(/l)
 guide.patchouli.bloodmagic.ritual_info.full_range,Full Range,全範囲
-guide.patchouli.bloodmagic.ritual_info.info_formatter,%s$(br)%s$(br2)%s$(br)%s%s%s,%s$(br)%s$(br2)%s$(br)%s%s%s
 guide.patchouli.bloodmagic.ritual_info.range_formatter,$(br) $(li)Max Volume: %s$(li)Horizontal Radius: %s$(li)Vertical Radius: %s,$(br) $(li)最大容量: %s$(li)水平半径: %s$(li)垂直半径: %s
-guide.patchouli.bloodmagic.ritual_info.text_override_formatter,\$(%s)%s\$(),\$(%s)%s\$()
-guide.patchouli.bloodmagic.ritual_info.upkeep_cost,$(br)Base Usage Cost: $(blood)%d LP$()$(br)Base Interval: %d Ticks,$(br)基本使用コスト: $(blood)%d LP$()$(br)基本間隔: %d Ticks
-guide.patchouli.bloodmagic.ritual_info.weak_activation_crystal_link,$(l:bloodmagic:rituals/activation_crystals#weak)%s$(/l),$(l:血magic:儀式s/activation_クリスタルs#弱い)%s$(/l)
+guide.patchouli.bloodmagic.ritual_info.upkeep_cost,$(br)Base Usage Cost: $(blood)%d LP$()$(br)Base Interval: %d Ticks,$(br)基本使用コスト: $(blood)%d LP$()$(br)基本間隔: %d ティック
+guide.patchouli.bloodmagic.ritual_info.weak_activation_crystal_link,$(l:bloodmagic:rituals/activation_crystals#weak)%s$(/l),$(l:血の魔法:儀式/アクティベーションクリスタル#弱い)%s$(/l)
 hud.bloodmagic.inactive,Inactive,非アクティブ
 item.bloodmagic.activationcrystalawakened,Awakened Activation Crystal,覚醒発動クリスタル
 item.bloodmagic.activationcrystalcreative,Creative Activation Crystal,クリエイティブ発動クリスタル
@@ -195,7 +191,7 @@ item.bloodmagic.basiccuttingfluid,Basic Cutting Fluid,基本切削液
 item.bloodmagic.blankslate,Blank Slate,白紙
 item.bloodmagic.bleedingedge,Hellforged Record,地獄鍛造記録
 item.bloodmagic.bleedingedge.desc,Bleeding Edge of the Hidden Realm,隠れた領域の流血する刃
-item.bloodmagic.bloodlightsigil,Sigil of the Blood Lamp,Sigil of the 血 Lamp
+item.bloodmagic.bloodlightsigil,Sigil of the Blood Lamp,血の明かりのシジル
 item.bloodmagic.bow_power_anointment,Iron Tip,鉄の先端
 item.bloodmagic.bow_power_anointment_2,Iron Tip II,鉄の先端II
 item.bloodmagic.bow_power_anointment_3,Iron Tip III,鉄の先端III
@@ -208,29 +204,29 @@ item.bloodmagic.bow_velocity_anointment_3,Archer's Polish III,弓師の艶出し
 item.bloodmagic.bow_velocity_anointment_l,Archer's Polish L,弓師の艶出しL
 item.bloodmagic.bow_velocity_anointment_xl,Archer's Polish XL,弓師の艶出しXL
 item.bloodmagic.coalsand,Coal Sand,石炭 サンド
-item.bloodmagic.combinationalcatalyst,Combinational Catalyst,Combinational 触媒
+item.bloodmagic.combinationalcatalyst,Combinational Catalyst,組み合わせ触媒
 item.bloodmagic.componentframeparts,Filter Parts,フィルター パーツ
 item.bloodmagic.copperfragment,Copper Fragment,銅 フラグメント
 item.bloodmagic.coppergravel,Copper Gravel,銅 砂利
 item.bloodmagic.coppersand,Copper Sand,銅 サンド
-item.bloodmagic.corrosivecatalyst,Corrosive Will Catalyst,腐食 Will 触媒
-item.bloodmagic.corrosivecrystal,Corrosive Will Crystal,腐食 Will クリスタル
+item.bloodmagic.corrosivecatalyst,Corrosive Will Catalyst,腐食ウィル触媒
+item.bloodmagic.corrosivecrystal,Corrosive Will Crystal,腐食Willクリスタル
 item.bloodmagic.corrupted_dust,Corrupted Dust,堕落 粉
-item.bloodmagic.corrupted_tinydust,Tiny Corrupted Dust,Tiny 堕落 粉
-item.bloodmagic.cyclingcatalyst,Simple Cycling Catalyst,Simple Cycling 触媒
-item.bloodmagic.daggerofsacrifice,Dagger of Sacrifice,短剣 of Sacrifice
-item.bloodmagic.defaultcrystal,Demon Will Crystal,悪魔 Will クリスタル
-item.bloodmagic.demonitefragment,Demonite Fragment,悪魔ite Fragment
-item.bloodmagic.demonitegravel,Demonite Gravel,悪魔ite Gravel
+item.bloodmagic.corrupted_tinydust,Tiny Corrupted Dust,ちっぽけな堕落 粉
+item.bloodmagic.cyclingcatalyst,Simple Cycling Catalyst,シンプルサイクリング触媒
+item.bloodmagic.daggerofsacrifice,Dagger of Sacrifice,献祭の短剣
+item.bloodmagic.defaultcrystal,Demon Will Crystal,悪魔Willクリスタル
+item.bloodmagic.demonitefragment,Demonite Fragment,悪魔石の破片
+item.bloodmagic.demonitegravel,Demonite Gravel,悪魔石の砂利
 item.bloodmagic.demonslate,Demonic Slate,悪魔ic スレート
-item.bloodmagic.demonwillgauge,Demon Will Aura Gauge,悪魔 Will Aura Gauge
-item.bloodmagic.destructivecatalyst,Destructive Will Catalyst,破壊 Will 触媒
-item.bloodmagic.destructivecrystal,Destructive Will Crystal,破壊 Will クリスタル
-item.bloodmagic.divinationsigil,Divination Sigil,Divination シギル
+item.bloodmagic.demonwillgauge,Demon Will Aura Gauge,悪魔の意志オーラゲージ
+item.bloodmagic.destructivecatalyst,Destructive Will Catalyst,破壊ウィル触媒
+item.bloodmagic.destructivecrystal,Destructive Will Crystal,破壊Willクリスタル
+item.bloodmagic.divinationsigil,Divination Sigil,占いのシジル
 item.bloodmagic.duskscribetool,Inscription Tool: Dusk,刻印 工具: 黄昏
 item.bloodmagic.earthscribetool,Inscription Tool: Earth,刻印 工具: 大地
 item.bloodmagic.enhancedteleposerfocus,Enhanced Teleposition Focus,強化テレポーション焦点
-item.bloodmagic.etherealslate,Ethereal Slate,Ethereal スレート
+item.bloodmagic.etherealslate,Ethereal Slate,幽玄石板
 item.bloodmagic.experiencebook,Tome of Peritia,ペリティア全書
 item.bloodmagic.explosivepowder,Explosive Powder,爆発性粉
 item.bloodmagic.firescribetool,Inscription Tool: Fire,刻印 工具: 火
@@ -239,16 +235,16 @@ item.bloodmagic.fortune_anointment_2,Fortuna Extract II,フォルトゥナ抽出
 item.bloodmagic.fortune_anointment_3,Fortuna Extract III,フォルトゥナ抽出液III
 item.bloodmagic.fortune_anointment_l,Fortuna Extract L,フォルトゥナ抽出液L
 item.bloodmagic.fortune_anointment_xl,Fortuna Extract XL,フォルトゥナ抽出液XL
-item.bloodmagic.fragment_netherite_scrap,Ancient Debris Fragment,Ancient Debris フラグメント
+item.bloodmagic.fragment_netherite_scrap,Ancient Debris Fragment,古代の残骸の破片
 item.bloodmagic.furnacecell_primitive,Primitive Fuel Cell,原始燃料セル
 item.bloodmagic.goldfragment,Gold Fragment,金 フラグメント
 item.bloodmagic.goldgravel,Gold Gravel,金 砂利
 item.bloodmagic.goldsand,Gold Sand,金 サンド
-item.bloodmagic.gravel_netherite_scrap,Ancient Debris Gravel,Ancient Debris 砂利
+item.bloodmagic.gravel_netherite_scrap,Ancient Debris Gravel,古代の残骸の砂利
 item.bloodmagic.growthsigil,Sigil of the Green Grove,緑の木立のシギル
-item.bloodmagic.hellforged_explosive_cell,Hellforged Explosive Cell,地獄鍛造 Explosive Cell
-item.bloodmagic.hellforged_resonator,Hellforged Resonator,地獄鍛造 Resonator
-item.bloodmagic.hellforgedparts,Intricate Hellforged Parts,Intricate 地獄鍛造 パーツ
+item.bloodmagic.hellforged_explosive_cell,Hellforged Explosive Cell,地獄鍛造爆発セル
+item.bloodmagic.hellforged_resonator,Hellforged Resonator,地獄鍛造レゾネーター
+item.bloodmagic.hellforgedparts,Intricate Hellforged Parts,複雑な地獄鍛造パーツ
 item.bloodmagic.hidden_knowledge_anointment,Miner's Secrets,鉱夫の秘密
 item.bloodmagic.hidden_knowledge_anointment_2,Miner's Secrets II,鉱夫の秘密II
 item.bloodmagic.hidden_knowledge_anointment_3,Miner's Secrets III,鉱夫の秘密III
@@ -259,44 +255,44 @@ item.bloodmagic.holy_water_anointment_2,Holy Water II,聖 水 II
 item.bloodmagic.holy_water_anointment_3,Holy Water III,聖 水 III
 item.bloodmagic.holy_water_anointment_l,Holy Water L,聖 水 L
 item.bloodmagic.holy_water_anointment_xl,Holy Water XL,聖 水 XL
-item.bloodmagic.icesigil,Sigil of the Frozen Lake,シギル of the Frozen Lake
-item.bloodmagic.infusedslate,Imbued Slate,Imbued スレート
-item.bloodmagic.ingot_hellforged,Hellforged Ingot,地獄鍛造 Ingot
-item.bloodmagic.intermediatecuttingfluid,Intermediate Cutting Fluid,Intermediate 切削 流体
+item.bloodmagic.icesigil,Sigil of the Frozen Lake,シジル（氷結湖）
+item.bloodmagic.infusedslate,Imbued Slate,充魔石板
+item.bloodmagic.ingot_hellforged,Hellforged Ingot,地獄鍛造インゴット
+item.bloodmagic.intermediatecuttingfluid,Intermediate Cutting Fluid,中級切削液
 item.bloodmagic.ironfragment,Iron Fragment,鉄 フラグメント
 item.bloodmagic.irongravel,Iron Gravel,鉄 砂利
 item.bloodmagic.ironsand,Iron Sand,鉄 サンド
-item.bloodmagic.itemrouterfiltercomposite,Composite Item Filter,Composite Item フィルター
-item.bloodmagic.itemrouterfilterenchant,Enchantments Item Filter,Enchantments Item フィルター
-item.bloodmagic.itemrouterfilterexact,Standard Item Filter,標準 Item フィルター
-item.bloodmagic.itemrouterfiltermoditems,Mod Item Filter,Mod Item フィルター
-item.bloodmagic.itemrouterfilteroredict,Tag Item Filter,Tag Item フィルター
-item.bloodmagic.lavacrystal,Lava Crystal,Lava クリスタル
-item.bloodmagic.lavasigil,Lava Sigil,Lava シギル
+item.bloodmagic.itemrouterfiltercomposite,Composite Item Filter,複合アイテムフィルター
+item.bloodmagic.itemrouterfilterenchant,Enchantments Item Filter,エンチャントs アイテムフィルター
+item.bloodmagic.itemrouterfilterexact,Standard Item Filter,標準 アイテムフィルター
+item.bloodmagic.itemrouterfiltermoditems,Mod Item Filter,Modアイテムフィルター
+item.bloodmagic.itemrouterfilteroredict,Tag Item Filter,タグアイテムフィルター
+item.bloodmagic.lavacrystal,Lava Crystal,溶岩 クリスタル
+item.bloodmagic.lavasigil,Lava Sigil,溶岩 シギル
 item.bloodmagic.life_essence_bucket,Bucket of Life,生命のエッセンスバケツ
-item.bloodmagic.livingboots,Living Boots,Living ブーツ
-item.bloodmagic.livinghelmet,Living Helmet,Living ヘルメット
-item.bloodmagic.livingleggings,Living Leggings,Living レギンス
-item.bloodmagic.livingplate,Living Chestplate,Living チェストプレート
+item.bloodmagic.livingboots,Living Boots,リビングブーツ
+item.bloodmagic.livinghelmet,Living Helmet,リビングヘルメット
+item.bloodmagic.livingleggings,Living Leggings,リビングレギンス
+item.bloodmagic.livingplate,Living Chestplate,リビングチェストプレート
 item.bloodmagic.looting_anointment,Plunderer's Glint,略奪者の光沢
 item.bloodmagic.looting_anointment_2,Plunderer's Glint II,略奪者の光沢II
 item.bloodmagic.looting_anointment_3,Plunderer's Glint III,略奪者の光沢III
 item.bloodmagic.looting_anointment_l,Plunderer's Glint L,略奪者の光沢L
 item.bloodmagic.looting_anointment_xl,Plunderer's Glint XL,略奪者の光沢XL
-item.bloodmagic.magicianbloodorb,Magician's Blood Orb,Magician's 血 オーブ
+item.bloodmagic.magicianbloodorb,Magician's Blood Orb,魔術師の血のオーブ
 item.bloodmagic.masterbloodorb,Master Blood Orb,マスター 血 オーブ
-item.bloodmagic.mastercore,Basic Routing Logic Upgrade,Basic Routing Logic アップグレード
+item.bloodmagic.mastercore,Basic Routing Logic Upgrade,基本ルーティングロジックアップグレード
 item.bloodmagic.melee_anointment,Honing Oil,研石油
 item.bloodmagic.melee_anointment_2,Honing Oil II,研石油II
 item.bloodmagic.melee_anointment_3,Honing Oil III,研石油III
 item.bloodmagic.melee_anointment_l,Honing Oil L,研石油L
 item.bloodmagic.melee_anointment_xl,Honing Oil XL,研石油XL
 item.bloodmagic.mineentrancekey,Foreman's Key,鉱山監督のキー
-item.bloodmagic.minekey,Miner's Key,鉱夫's Key
-item.bloodmagic.miningsigil,Sigil of the Fast Miner,シギル of the Fast 鉱夫
-item.bloodmagic.mundanelengtheningcatalyst,Small Lengthening Catalyst,Small 延長 触媒
-item.bloodmagic.mundanepowercatalyst,Small Power Catalyst,Small パワー 触媒
-item.bloodmagic.noderouter,Node Router,ノード Router
+item.bloodmagic.minekey,Miner's Key,鉱夫のKey
+item.bloodmagic.miningsigil,Sigil of the Fast Miner,採掘のシジル
+item.bloodmagic.mundanelengtheningcatalyst,Small Lengthening Catalyst,小さい延長 触媒
+item.bloodmagic.mundanepowercatalyst,Small Power Catalyst,小さいパワー 触媒
+item.bloodmagic.noderouter,Node Router,ノードルーター
 item.bloodmagic.plantoil,Plant Oil,植物油
 item.bloodmagic.primitive_crystalline_resonator,Reinforced Resonator,強化クリスタルレゾネーター
 item.bloodmagic.primitive_explosive_cell,Reinforced Explosive Cell,強化爆発性セル
@@ -311,54 +307,54 @@ item.bloodmagic.rawdemonite,Raw Demonite,未処理 デモナイト
 item.bloodmagic.reagentair,Air Reagent,空気 試薬
 item.bloodmagic.reagentbinding,Binding Reagent,バインディング 試薬
 item.bloodmagic.reagentbloodlight,Blood Lamp Reagent,血 ランプ 試薬
-item.bloodmagic.reagentfastminer,Mining Reagent,Mining 試薬
-item.bloodmagic.reagentgrowth,Growth Reagent,Growth 試薬
-item.bloodmagic.reagentholding,Holding Reagent,Holding 試薬
+item.bloodmagic.reagentfastminer,Mining Reagent,採掘試薬
+item.bloodmagic.reagentgrowth,Growth Reagent,成長試薬
+item.bloodmagic.reagentholding,Holding Reagent,保有試薬
 item.bloodmagic.reagentlava,Lava Reagent,Lava 試薬
-item.bloodmagic.reagentmagnetism,Magnetism Reagent,Magnetism 試薬
+item.bloodmagic.reagentmagnetism,Magnetism Reagent,磁性試薬
 item.bloodmagic.reagentsight,Sight Reagent,Sight 試薬
-item.bloodmagic.reagentsuppression,Suppression Reagent,Suppression 試薬
-item.bloodmagic.reagentteleposition,Teleposition Reagent,Teleposition 試薬
+item.bloodmagic.reagentsuppression,Suppression Reagent,抑制試薬
+item.bloodmagic.reagentteleposition,Teleposition Reagent,テレポジション試薬
 item.bloodmagic.reagentvoid,Void Reagent,Void 試薬
 item.bloodmagic.reagentwater,Water Reagent,水 試薬
-item.bloodmagic.reinforcedslate,Reinforced Slate,強化 Slate
-item.bloodmagic.reinforcedteleposerfocus,Reinforced Teleposition Focus,強化 Teleposition Focus
-item.bloodmagic.resonator,Crystal Resonator,Crystal レゾネーター
-item.bloodmagic.ritualdiviner,Ritual Diviner,儀式 Diviner
-item.bloodmagic.ritualdivinerdusk,Ritual Diviner [Dusk],儀式 Diviner [Dusk]
-item.bloodmagic.ritualtinkerer,Ritual Tinkerer,Ritual スズkerer
+item.bloodmagic.reinforcedslate,Reinforced Slate,強化Slate
+item.bloodmagic.reinforcedteleposerfocus,Reinforced Teleposition Focus,強化テレポジションフォーカス
+item.bloodmagic.resonator,Crystal Resonator,結晶レゾネーター
+item.bloodmagic.ritualdiviner,Ritual Diviner,儀式占い師
+item.bloodmagic.ritualdivinerdusk,Ritual Diviner [Dusk],儀式占い師（夕暮れ）
+item.bloodmagic.ritualtinkerer,Ritual Tinkerer,リチュアル スズkerer
 item.bloodmagic.sacrificialdagger,Sacrificial Knife,生贄用ナイフ
 item.bloodmagic.saltpeter,Saltpeter,硝石
-item.bloodmagic.sand_hellforged,Hellforged Sand,Hellforged サンド
-item.bloodmagic.sand_netherite,Netherite Scrap Sand,ネットherite Scrap サンド
+item.bloodmagic.sand_hellforged,Hellforged Sand,地獄鍛造砂
+item.bloodmagic.sand_netherite,Netherite Scrap Sand,ネザライト屑砂
 item.bloodmagic.sanguinereverter,Sanguine Reverter,血色の回復者
-item.bloodmagic.seersigil,Seer's Sigil,Seer's シギル
-item.bloodmagic.sigilofholding,Sigil of Holding,シギル of Holding
-item.bloodmagic.sigilofmagnetism,Sigil of Magnetism,シギル of Magnetism
-item.bloodmagic.sigilofsuppression,Sigil of Suppression,シギル of Suppression
+item.bloodmagic.seersigil,Seer's Sigil,シーアのシギル
+item.bloodmagic.sigilofholding,Sigil of Holding,保有のシジル
+item.bloodmagic.sigilofmagnetism,Sigil of Magnetism,磁性のシジル
+item.bloodmagic.sigilofsuppression,Sigil of Suppression,抑制のシジル
 item.bloodmagic.silk_touch_anointment,Soft Coating,柔軟なコーティング
 item.bloodmagic.silk_touch_anointment_l,Soft Coating L,柔軟なコーティングL
 item.bloodmagic.silk_touch_anointment_xl,Soft Coating XL,柔軟なコーティングXL
-item.bloodmagic.simplecatalyst,Simple Catalyst,Simple 触媒
+item.bloodmagic.simplecatalyst,Simple Catalyst,シンプル触媒
 item.bloodmagic.simplekey,Iron Key,鉄 キー
-item.bloodmagic.slate_ampoule,Slate Ampoule,スレート Ampoule
-item.bloodmagic.slate_vial,Slate-infused Vial,スレート-infused Vial
+item.bloodmagic.slate_ampoule,Slate Ampoule,石板アンプル
+item.bloodmagic.slate_vial,Slate-infused Vial,石板入りバイアル
 item.bloodmagic.smelting_anointment,Slow-burning Oil,ゆっくり燃える油
 item.bloodmagic.smelting_anointment_l,Slow-burning Oil L,ゆっくり燃える油L
 item.bloodmagic.smelting_anointment_xl,Slow-burning Oil XL,ゆっくり燃える油XL
-item.bloodmagic.soulaxe,Sentient Axe,Sentient 斧
-item.bloodmagic.soulgemcommon,Common Tartaric Gem,Common Tartaric 宝石
-item.bloodmagic.soulgemgreater,Greater Tartaric Gem,Greater Tartaric 宝石
-item.bloodmagic.soulgemlesser,Lesser Tartaric Gem,Lesser Tartaric 宝石
-item.bloodmagic.soulgempetty,Petty Tartaric Gem,Petty Tartaric 宝石
+item.bloodmagic.soulaxe,Sentient Axe,精界の斧
+item.bloodmagic.soulgemcommon,Common Tartaric Gem,通常タルタル宝石
+item.bloodmagic.soulgemgreater,Greater Tartaric Gem,上級タルタル宝石
+item.bloodmagic.soulgemlesser,Lesser Tartaric Gem,下級タルタル宝石
+item.bloodmagic.soulgempetty,Petty Tartaric Gem,小さなタルタル宝石
 item.bloodmagic.soulpickaxe,Sentient Pickaxe,知性を持つツルハシ
 item.bloodmagic.soulscythe,Sentient Scythe,知性を持つ鎌
 item.bloodmagic.soulshovel,Sentient Shovel,知性を持つシャベル
 item.bloodmagic.soulsnare,Soul Snare,ソウルスネア
 item.bloodmagic.soulsword,Sentient Sword,知性を持つ剣
-item.bloodmagic.standardfillingagent,Standard Filling Agent,スタンドard Filling Agent
+item.bloodmagic.standardfillingagent,Standard Filling Agent,標準充填エージェント
 item.bloodmagic.steadfastcatalyst,Steadfast Will Catalyst,堅牢な意志触媒
-item.bloodmagic.steadfastcrystal,Steadfast Will Crystal,Steadfast Will クリスタル
+item.bloodmagic.steadfastcrystal,Steadfast Will Crystal,不動の意志クリスタル
 item.bloodmagic.strengthenedcatalyst,Strengthened Catalyst,強化触媒
 item.bloodmagic.sulfur,Sulfur,硫黄
 item.bloodmagic.syntheticpoint,Synthetic Upgrade Point,合成アップグレードポイント
@@ -373,9 +369,9 @@ item.bloodmagic.upgradetome,Living Armour Upgrade Tome,生きた鎧アップグ�
 item.bloodmagic.upgradetrainer,Living Armour Training Bracelet,生きた鎧訓練ブレスレット
 item.bloodmagic.vengefulcatalyst,Vengeful Will Catalyst,復讐の意志触媒
 item.bloodmagic.vengefulcrystal,Vengeful Will Crystal,復讐の意志クリスタル
-item.bloodmagic.voiding_anointment,Void Essence,ボイド Essence
-item.bloodmagic.voiding_anointment_l,Void Essence L,ボイド Essence L
-item.bloodmagic.voiding_anointment_xl,Void Essence XL,ボイド Essence XL
+item.bloodmagic.voiding_anointment,Void Essence,虚無エッセンス
+item.bloodmagic.voiding_anointment_l,Void Essence L,虚無エッセンス大
+item.bloodmagic.voiding_anointment_xl,Void Essence XL,虚無エッセンス超大
 item.bloodmagic.voidsigil,Void Sigil,ボイド Sigil
 item.bloodmagic.waterscribetool,Inscription Tool: Water,刻印工具：水
 item.bloodmagic.watersigil,Water Sigil,水のシギル
@@ -466,195 +462,195 @@ ritual.bloodmagic.blockRange.tooFar,The block range given is too far! Needs to b
 ritual.bloodmagic.cobblestoneRitual,Le Vulcanos Frigius,火山冷たき儀式
 ritual.bloodmagic.condorRitual,Reverence of the Condor,コンドルへの敬意
 ritual.bloodmagic.condorRitual.flightRange.info,Players within this range will receive a Flight buff.,この範囲内のプレイヤーは飛行バフを受け取ります。
-ritual.bloodmagic.condorRitual.info,Provides flight in an area around the ritual.,Provides flight in an area around the 儀式.
-ritual.bloodmagic.containmentRitual,Ritual of Containment,儀式 of Containment
-ritual.bloodmagic.containmentRitual.containmentRange.info,"(Containment) The area of the ritual where mobs will be pulled. All mobs are pulled towards the master ritual stone, regardless of where this area is.","(Containment) The area of the 儀式 where mobs will be pulled. All mobs are pulled towards the master 儀式 stone, regardless of where this area is."
-ritual.bloodmagic.containmentRitual.info,Pulls all mobs within its area towards the master ritual stone.,Pulls all mobs within its area towards the master 儀式 stone.
-ritual.bloodmagic.craftingRitual,Rhythm of the Beating Anvil,リズム of the 打ち鳴らされる金床
-ritual.bloodmagic.craftingRitual.corrosive.info,(Corrosive) Ritual will instead craft using the linked Alchemy Table.,(Corrosive) 儀式 will instead craft using the linked Alchemy Table.
-ritual.bloodmagic.craftingRitual.hellforgedRange.info,(Steadfast/Corrosive) Inserts and extracts items from the connected Hellfire Forge or Alchemy Table.,(堅牢/腐食) Inserts and extracts items from the connected ヘルファイア フォージ or Alchemy テーブル.
-ritual.bloodmagic.craftingRitual.info,Crafts items based on the linked Item Filter using the connected Input inventory.,Crafts items based on the linked Item フィルター using the connected Input inventory.
-ritual.bloodmagic.craftingRitual.inputRange.info,(Chest) Input: Items for crafting are taken from this inventory.,(チェスト) Input: Items for crafting are taken from this inventory.
-ritual.bloodmagic.craftingRitual.outputFilterRange.info,"(Item Frame/Chest) Output Filter: If present, selects from possible outputs based on filter, and crafts until the selected amount is in output inventory.","(Item Frame/チェスト) Output フィルター: If present, selects from possible outputs based on filter, and crafts until the selected amount is in output inventory."
-ritual.bloodmagic.craftingRitual.outputRange.info,"(Chest) Output: crafted items are inserted into the selected inventory, or spawned in the world if missing.","(チェスト) Output: crafted items are inserted into the selected inventory, or spawned in the world if missing."
-ritual.bloodmagic.craftingRitual.recipeRange.info,(Item Frame/Chest) Input Filter: uses Item Filter to determine shape of recipe and selected items.,(Item Frame/チェスト) Input フィルター: uses Item フィルター to determine shape of recipe and selected items.
-ritual.bloodmagic.craftingRitual.steadfast.info,(Steadfast) Ritual will instead craft using the linked Hellfire Forge.,(Steadfast) 儀式 will instead craft using the linked Hellfire Forge.
-ritual.bloodmagic.crushingRitual,Ritual of the Crusher,儀式 of the Crusher
-ritual.bloodmagic.crushingRitual.chest.info,(Chest) The location of the inventory that the ritual will place the broken blocks into.,(Chest) The location of the inventory that the 儀式 will place the broken blocks into.
-ritual.bloodmagic.crushingRitual.corrosive.info,(Corrosive) All blocks are broken to be processed with a form of Cutting Fluid. Overrides Silk Touch where applicable.,(腐食) All blocks are broken to be processed with a form of Cutting Fluid. Overrides Silk Touch where applicable.
-ritual.bloodmagic.crushingRitual.crushingRange.info,(Crushing) The blocks that the ritual will break.,(Crushing) The blocks that the 儀式 will break.
-ritual.bloodmagic.crushingRitual.default.info,(Raw) Increases the speed of the ritual based on the total amount of Raw Will in the Aura.,(Raw) Increases the speed of the 儀式 based on the total amount of Raw Will in the Aura.
-ritual.bloodmagic.crushingRitual.destructive.info,(Destructive) Blocks are broken down forcefully: all blocks broken are affected by Fortune III.,(破壊) Blocks are broken down forcefully: all blocks broken are affected by Fortune III.
-ritual.bloodmagic.crushingRitual.info,Breaks blocks within its crushing range and places the items into the linked chest.,ブロックを破壊 内 its crushing range and places the アイテム into the リンクed chest.
-ritual.bloodmagic.crushingRitual.steadfast.info,(Steadfast) Causes all blocks that are broken to be picked up with Silk Touch. Overrides Fortune where applicable.,(堅牢) Causes all blocks that are broken to be picked up with Silk Touch. Overrides Fortune where applicable.
-ritual.bloodmagic.crushingRitual.vengeful.info,(Vengeful) Compresses the inventory on successful operation. Currently only does one compression per operation.,(復讐) Compresses the inventory on successful operation. 現在 only does one compression per operation.
-ritual.bloodmagic.crystalHarvestRitual,Crack of the Fractured Crystal,Crack of the Fractured クリスタル
-ritual.bloodmagic.crystalHarvestRitual.crystal.info,"(Crystal) All Demon Will crystal clusters have a single crystal broken off, spawning the crystal into the world. If there is only one crystal on the cluster, it will not break it.","(クリスタル) All 悪魔 Will crystal clusters have a single crystal broken off, spawning the crystal into the world. If there is only one crystal on the cluster, it will not break it."
-ritual.bloodmagic.crystalHarvestRitual.info,"Breaks Demon Will Crystal Clusters of all aspects within its range, dropping the results on top of the crystals.","Breaks 悪魔 Will クリスタル Clusters of all aspects within its range, dropping the results on top of the crystals."
-ritual.bloodmagic.crystalSplitRitual,Resonance of the Faceted Crystal,Resonance of the Faceted クリスタル
-ritual.bloodmagic.crystalSplitRitual.info,Splits apart a well-grown Raw crystal cluster into separately aspected crystal clusters.,分割 a よく育った 生 クリスタル cluster into 別々に アスペクト crystal clusters.
-ritual.bloodmagic.downgradeRitual,Penance of the Leadened Soul,懺悔 of the 重い ソウル
-ritual.bloodmagic.downgradeRitual.info,Consumes items from a linked chest to forcefully downgrade worn Living Armour.,アイテムを消費 from a リンクed chest to forcefully ダウングレード worn 生きた鎧.
-ritual.bloodmagic.ellipseRitual,Focus of the Ellipsoid,Focus of the 楕円体
-ritual.bloodmagic.ellipseRitual.chest.info,(Chest) The location of the inventory that the ritual will grab blocks from to place in the world.,(Chest) The location of the inventory that the 儀式 will grab blocks from to place in the world.
-ritual.bloodmagic.ellipseRitual.info,Creates a hollow spheroid around the ritual using the blocks in the attached chest.,Creates a hollow spheroid around the 儀式 using the blocks in the attached chest.
-ritual.bloodmagic.ellipseRitual.spheroidRange.info,"(Placement) The range that the ritual will place its blocks in. Note that the Spheroid is centered on the ritual - if one side is shorter than the side opposite, the spheroid will be truncated.","(Placement) The range that the 儀式 will place its blocks in. Note that the Spheroid is centered on the 儀式 - if one side is shorter than the side opposite, the spheroid will be truncated."
-ritual.bloodmagic.eternalSoulRitual.info,Capable of transferring Life Essence from a Network back into an Altar at a cost.,Capable of transferring Life Essence from a ネットワーク back into an Altar at a cost.
+ritual.bloodmagic.condorRitual.info,Provides flight in an area around the ritual.,儀式の周囲エリアで飛行を提供します。
+ritual.bloodmagic.containmentRitual,Ritual of Containment,拘束の儀式
+ritual.bloodmagic.containmentRitual.containmentRange.info,"(Containment) The area of the ritual where mobs will be pulled. All mobs are pulled towards the master ritual stone, regardless of where this area is.",（拘束）儀式の範囲内でモブが引き寄せられるエリア。すべてのモブはマスター儀式石に向かって引き寄せられます。このエリアがどこにあるかは関係ありません。
+ritual.bloodmagic.containmentRitual.info,Pulls all mobs within its area towards the master ritual stone.,マスター儀式石に向かって、その範囲内のすべてのモブを引き寄せます。
+ritual.bloodmagic.craftingRitual,Rhythm of the Beating Anvil,リズムの打ち鳴らされる金床
+ritual.bloodmagic.craftingRitual.corrosive.info,(Corrosive) Ritual will instead craft using the linked Alchemy Table.,（腐食）儀式は代わりにリンクされたアルケミーテーブルを使用してクラフトします。
+ritual.bloodmagic.craftingRitual.hellforgedRange.info,(Steadfast/Corrosive) Inserts and extracts items from the connected Hellfire Forge or Alchemy Table.,（堅牢/腐食）ヘルファイアフォージまたはアルケミーテーブルに接続されたアイテムの挿入と抽出。
+ritual.bloodmagic.craftingRitual.info,Crafts items based on the linked Item Filter using the connected Input inventory.,リンクされたアイテムフィルターに基づいてアイテムをクラフトし、接続された入力インベントリから取得します。
+ritual.bloodmagic.craftingRitual.inputRange.info,(Chest) Input: Items for crafting are taken from this inventory.,（チェスト）入力：クラフト用のアイテムはこのインベントリから取得されます。
+ritual.bloodmagic.craftingRitual.outputFilterRange.info,"(Item Frame/Chest) Output Filter: If present, selects from possible outputs based on filter, and crafts until the selected amount is in output inventory.",（アイテムフレーム/チェスト）出力フィルター：存在する場合、フィルターに基づいて可能な出力から選択し、選択された量が出力インベントリにあるまでクラフトします。
+ritual.bloodmagic.craftingRitual.outputRange.info,"(Chest) Output: crafted items are inserted into the selected inventory, or spawned in the world if missing.",（チェスト）出力：クラフトされたアイテムは選択されたインベントリに挿入されるか、見つからない場合は世界に生成されます。
+ritual.bloodmagic.craftingRitual.recipeRange.info,(Item Frame/Chest) Input Filter: uses Item Filter to determine shape of recipe and selected items.,（アイテムフレーム/チェスト）入力フィルター：アイテムフィルターを使用してレシピの形状と選択されたアイテムを決定します。
+ritual.bloodmagic.craftingRitual.steadfast.info,(Steadfast) Ritual will instead craft using the linked Hellfire Forge.,（堅牢）儀式は代わりにリンクされたヘルファイアフォージを使用してクラフトします。
+ritual.bloodmagic.crushingRitual,Ritual of the Crusher,破砕の儀式
+ritual.bloodmagic.crushingRitual.chest.info,(Chest) The location of the inventory that the ritual will place the broken blocks into.,（チェスト）儀式が破砕されたブロックを配置するインベントリの場所。
+ritual.bloodmagic.crushingRitual.corrosive.info,(Corrosive) All blocks are broken to be processed with a form of Cutting Fluid. Overrides Silk Touch where applicable.,（腐食）すべてのブロックは切削液で処理するために破砕されます。該当する場合はシルクタッチをオーバーライドします。
+ritual.bloodmagic.crushingRitual.crushingRange.info,(Crushing) The blocks that the ritual will break.,（破砕）儀式が破砕するブロック。
+ritual.bloodmagic.crushingRitual.default.info,(Raw) Increases the speed of the ritual based on the total amount of Raw Will in the Aura.,（生成）オーラ内の生の意志の総量に基づいて儀式の速度を上げます。
+ritual.bloodmagic.crushingRitual.destructive.info,(Destructive) Blocks are broken down forcefully: all blocks broken are affected by Fortune III.,（破壊）ブロックは強力に破砕されます：破砕されたすべてのブロックは幸運IIIの影響を受けます。
+ritual.bloodmagic.crushingRitual.info,Breaks blocks within its crushing range and places the items into the linked chest.,破砕範囲内のブロックを破砕し、アイテムをリンクされたチェストに配置します。
+ritual.bloodmagic.crushingRitual.steadfast.info,(Steadfast) Causes all blocks that are broken to be picked up with Silk Touch. Overrides Fortune where applicable.,（堅牢）破砕されたすべてのブロックがシルクタッチで拾われます。該当する場合は幸運をオーバーライドします。
+ritual.bloodmagic.crushingRitual.vengeful.info,(Vengeful) Compresses the inventory on successful operation. Currently only does one compression per operation.,（復讐）成功時にインベントリを圧縮します。現在、操作ごとに1つの圧縮のみが行われます。
+ritual.bloodmagic.crystalHarvestRitual,Crack of the Fractured Crystal,砕けたクリスタルの亀裂
+ritual.bloodmagic.crystalHarvestRitual.crystal.info,"(Crystal) All Demon Will crystal clusters have a single crystal broken off, spawning the crystal into the world. If there is only one crystal on the cluster, it will not break it.",（クリスタル）すべての悪魔の意志クリスタルクラスターから1つのクリスタルが破砕され、クリスタルが世界に生成されます。クラスターに1つだけクリスタルがある場合、それは破砕されません。
+ritual.bloodmagic.crystalHarvestRitual.info,"Breaks Demon Will Crystal Clusters of all aspects within its range, dropping the results on top of the crystals.",範囲内のすべての側面の悪魔の意志クリスタルクラスターを破砕し、結果をクリスタルの上に落とします。
+ritual.bloodmagic.crystalSplitRitual,Resonance of the Faceted Crystal,ファセットされたクリスタルの共鳴
+ritual.bloodmagic.crystalSplitRitual.info,Splits apart a well-grown Raw crystal cluster into separately aspected crystal clusters.,よく育った生のクリスタルクラスターを個別の側面を持つクリスタルクラスターに分割します。
+ritual.bloodmagic.downgradeRitual,Penance of the Leadened Soul,懺悔の重いソウル
+ritual.bloodmagic.downgradeRitual.info,Consumes items from a linked chest to forcefully downgrade worn Living Armour.,リンクされたチェストからアイテムを消費して、摩耗したリビングアーマーを強制的にダウングレードします。
+ritual.bloodmagic.ellipseRitual,Focus of the Ellipsoid,楕円体の焦点
+ritual.bloodmagic.ellipseRitual.chest.info,(Chest) The location of the inventory that the ritual will grab blocks from to place in the world.,（チェスト）儀式が世界に配置するブロックを取得するインベントリの場所。
+ritual.bloodmagic.ellipseRitual.info,Creates a hollow spheroid around the ritual using the blocks in the attached chest.,儀式の周りに、接続されたチェスト内のブロックを使用して、中空の楕円体を作成します。
+ritual.bloodmagic.ellipseRitual.spheroidRange.info,"(Placement) The range that the ritual will place its blocks in. Note that the Spheroid is centered on the ritual - if one side is shorter than the side opposite, the spheroid will be truncated.",（配置）儀式がブロックを配置する範囲。楕円体は儀式を中心に配置されることに注意してください。一方の側がもう一方の側より短い場合、楕円体は切り詰められます。
+ritual.bloodmagic.eternalSoulRitual.info,Capable of transferring Life Essence from a Network back into an Altar at a cost.,ネットワークからライフエッセンスを祭壇に転送することができます（コスト必要）。
 ritual.bloodmagic.expulsionRitual,Aura of Expulsion,Aura of 排出
-ritual.bloodmagic.expulsionRitual.expulsionRange.info,(Expulsion) The area from which players that are not owner or have an orb in the chest will be teleported away from.,(排出) The area from which players that are not owner or have an orb in the chest will be teleported away from.
-ritual.bloodmagic.expulsionRitual.info,Expels players from its range that are neither the owner nor have a bound blood orb in the chest on top of the master ritual stone.,Expels players from its range that are neither the owner nor have a bound blood orb in the chest on top of the master 儀式 stone.
-ritual.bloodmagic.featheredKnifeRitual,Ritual of the Feathered Knife,儀式 of the Feathered Knife
-ritual.bloodmagic.featheredKnifeRitual.altar.info,(Altar) This range defines the area that the ritual searches for the Blood Altar. Changing this will either expand or limit the range to a certain region.,(Altar) This range defines the area that the 儀式 searches for the Blood Altar. Changing this will either expand or limit the range to a certain region.
-ritual.bloodmagic.featheredKnifeRitual.corrosive.info,(Corrosive) Uses the player's current Incense Bonus (if any) to increase the yield. Stand near an Incense Altar to maintain this bonus.,(腐食) 使用 the player's current Incense Bonus (if any) to increase the yield. Stand near an Incense Altar to maintain this bonus.
-ritual.bloodmagic.featheredKnifeRitual.damage.info,(Damage) This defines where the ritual will damage a player. Players inside of this range will receive damage over time up to the specified limit.,(ダメージ) This defines where the 儀式 will damage a player. Players inside of this range will receive damage over time up to the specified limit.
-ritual.bloodmagic.featheredKnifeRitual.default.info,(Raw) Increases the speed of the ritual based on the total amount of Raw Will in the Aura.,(Raw) Increases the speed of the 儀式 based on the total amount of Raw Will in the Aura.
-ritual.bloodmagic.featheredKnifeRitual.destructive.info,(Destructive) Increases the yield of the ritual based on the total amount of Destructive Will in the Aura.,(Destructive) Increases the yield of the 儀式 based on the total amount of Destructive Will in the Aura.
-ritual.bloodmagic.featheredKnifeRitual.info,Drains health from players in its area and puts the LP into a nearby blood altar. LP Gains are affected by Runes of Self Sacrifice and Tough Palms.,健康をドレイン from プレイヤー in its 範囲 and 置くs the LP into a nearby blood 祭壇. LP Gains are affected by ルーン of 自己 sacrifice and タフ パーム.
-ritual.bloodmagic.featheredKnifeRitual.steadfast.info,(Steadfast) Sets the minimum health for sacrificing from 30%% to 70%%.,(Steadfast) Sets the 最小健康 for sacrifice from 30%% to 70%%.
-ritual.bloodmagic.featheredKnifeRitual.vengeful.info,(Vengeful) Sets the minimum health for sacrificing to 10%%. Overridden by Steadfast for the Owner if active.,(Vengeful) Sets the 最小健康 for sacrifice to 10%%. オーバーライド by Steadfast for the 所有者 if アクティブ.
-ritual.bloodmagic.fellingRitual,Crash of The Timberman,クラッシュ of The Timberman
-ritual.bloodmagic.fellingRitual.chest.info,(Chest) The location of the inventory that the ritual will place the results into.,(Chest) The location of the inventory that the 儀式 will place the results into.
-ritual.bloodmagic.fellingRitual.fellingRange.info,(Cutting) The range that the ritual will search out logs and leaves in order to cut down.,(Cutting) The range that the 儀式 will search out logs and leaves in order to cut down.
-ritual.bloodmagic.fellingRitual.info,"A standard tree-cutting machine, this ritual will cut down all trees and leaves within its area and collect the drops.","A standard tree-cutting machine, this 儀式 will cut down all trees and leaves within its area and collect the drops."
-ritual.bloodmagic.forsakenSoulRitual,Gathering of the Forsaken Souls,集い of the 見捨てられた ソウルs
-ritual.bloodmagic.forsakenSoulRitual.chest.info,(Chest) Chest for catalyst items.,(チェスト) チェスト for catalyst items.
-ritual.bloodmagic.forsakenSoulRitual.crystal.info,(Crystal) Will Crystals in this range have catalysts applied to them to increase growth speed.,(Crystal) Will Crystals in this range have 触媒 適用 to them to 増加 成長 speed.
-ritual.bloodmagic.forsakenSoulRitual.info,Applies Will catalysts to crystals within range from the attached inventory.,Will を適用 触媒 to クリスタル 内 range from the 接続されたインベントリ.
-ritual.bloodmagic.fullStomachRitual,Ritual of the Satiated Stomach,儀式 of the Satiated Stomach
-ritual.bloodmagic.fullStomachRitual.chest.info,(Chest) The location of the inventory that the ritual will grab food from to feed players in range.,(Chest) The location of the inventory that the 儀式 will grab food from to feed players in range.
-ritual.bloodmagic.fullStomachRitual.fillRange.info,(Feeding) The range that the ritual will look at to feed players.,(Feeding) The range that the 儀式 will look at to feed players.
-ritual.bloodmagic.fullStomachRitual.info,Takes food from the linked chest and fills the player's saturation with it.,食べ物を取る from the リンクed chest and を満たす player's 満腹度 with it.
-ritual.bloodmagic.greenGroveRitual,Ritual of the Green Grove,儀式 of the Green Grove
-ritual.bloodmagic.greenGroveRitual.corrosive.info,"(Corrosive) Entities within range are attacked by nearby plants, leeching away their life to feed their own growth.","(Corrosive) エンティティーズ within range are attacked by nearby plants, leeching away their life to feed their own growth."
-ritual.bloodmagic.greenGroveRitual.default.info,(Raw) Increases the speed of all ritual operations based on the total amount of Raw Will in the Aura.,(Raw) Increases the speed of all 儀式 operations based on the total amount of Raw Will in the Aura.
-ritual.bloodmagic.greenGroveRitual.destructive.info,(Destructive) Increases the maximum growth range of the ritual based on the total amount of Destructive Will in the Aura.,(Destructive) Increases the maximum growth range of the 儀式 based on the total amount of Destructive Will in the Aura.
-ritual.bloodmagic.greenGroveRitual.growing.info,(Growth) The area that the ritual will grow plants in.,(Growth) The area that the 儀式 will grow plants in.
-ritual.bloodmagic.greenGroveRitual.hydrate.info,"(Steadfast) Blocks within this range are rehydrated into farmland, and seeds within the area are planted nearby.","(堅牢) Blocks within this range are rehydrated into farmland, and seeds within the area are planted nearby."
+ritual.bloodmagic.expulsionRitual.expulsionRange.info,(Expulsion) The area from which players that are not owner or have an orb in the chest will be teleported away from.,（排出）所有者ではなく、マスター儀式石の上のチェストにオーブを持っていないプレイヤーがテレポートされるエリア。
+ritual.bloodmagic.expulsionRitual.info,Expels players from its range that are neither the owner nor have a bound blood orb in the chest on top of the master ritual stone.,範囲外のプレイヤーのうち、所有者ではなく、マスター儀式石の上のチェストにバインドされた血のオーブを持たないプレイヤーを排出します。
+ritual.bloodmagic.featheredKnifeRitual,Ritual of the Feathered Knife,羽根刀の儀式
+ritual.bloodmagic.featheredKnifeRitual.altar.info,(Altar) This range defines the area that the ritual searches for the Blood Altar. Changing this will either expand or limit the range to a certain region.,（祭壇）この範囲は儀式が血の祭壇を検索するエリアを定義します。これを変更すると、特定の地域への範囲が拡大または制限されます。
+ritual.bloodmagic.featheredKnifeRitual.corrosive.info,(Corrosive) Uses the player's current Incense Bonus (if any) to increase the yield. Stand near an Incense Altar to maintain this bonus.,（腐食）プレイヤーの現在の香のボーナス（ある場合）を使用して収量を増加させます。香の祭壇の近くに立ってこのボーナスを維持してください。
+ritual.bloodmagic.featheredKnifeRitual.damage.info,(Damage) This defines where the ritual will damage a player. Players inside of this range will receive damage over time up to the specified limit.,（ダメージ）これは儀式がプレイヤーにダメージを与える場所を定義します。この範囲内のプレイヤーは、指定された制限までの時間経過ダメージを受けます。
+ritual.bloodmagic.featheredKnifeRitual.default.info,(Raw) Increases the speed of the ritual based on the total amount of Raw Will in the Aura.,（生成）オーラ内の生の意志の総量に基づいて儀式の速度を上げます。
+ritual.bloodmagic.featheredKnifeRitual.destructive.info,(Destructive) Increases the yield of the ritual based on the total amount of Destructive Will in the Aura.,（破壊）オーラ内の破壊的意志の総量に基づいて儀式の収量を上げます。
+ritual.bloodmagic.featheredKnifeRitual.info,Drains health from players in its area and puts the LP into a nearby blood altar. LP Gains are affected by Runes of Self Sacrifice and Tough Palms.,その範囲内のプレイヤーからヘルスをドレインし、LPを近くの血の祭壇に入れます。LP獲得は自己犠牲のルーンと厳しい手のひらに影響されます。
+ritual.bloodmagic.featheredKnifeRitual.steadfast.info,(Steadfast) Sets the minimum health for sacrificing from 30%% to 70%%.,（堅牢）犠牲の最小ヘルスを30%%から70%%に設定します。
+ritual.bloodmagic.featheredKnifeRitual.vengeful.info,(Vengeful) Sets the minimum health for sacrificing to 10%%. Overridden by Steadfast for the Owner if active.,（復讐）犠牲の最小ヘルスを10%%に設定します。アクティブな場合、オーナーの堅牢により上書きされます。
+ritual.bloodmagic.fellingRitual,Crash of The Timberman,木こりのクラッシュ
+ritual.bloodmagic.fellingRitual.chest.info,(Chest) The location of the inventory that the ritual will place the results into.,（チェスト）儀式が結果を配置するインベントリの場所。
+ritual.bloodmagic.fellingRitual.fellingRange.info,(Cutting) The range that the ritual will search out logs and leaves in order to cut down.,（切断）儀式が丸太と葉を検索して切り倒す範囲。
+ritual.bloodmagic.fellingRitual.info,"A standard tree-cutting machine, this ritual will cut down all trees and leaves within its area and collect the drops.",この標準的な木材切り機は、その範囲内のすべての木と葉を切り倒し、ドロップを収集します。
+ritual.bloodmagic.forsakenSoulRitual,Gathering of the Forsaken Souls,集いの見捨てられた ソウルs
+ritual.bloodmagic.forsakenSoulRitual.chest.info,(Chest) Chest for catalyst items.,（チェスト）触媒アイテムのチェスト。
+ritual.bloodmagic.forsakenSoulRitual.crystal.info,(Crystal) Will Crystals in this range have catalysts applied to them to increase growth speed.,（クリスタル）この範囲内の意志クリスタルに触媒が適用され、成長速度が増加します。
+ritual.bloodmagic.forsakenSoulRitual.info,Applies Will catalysts to crystals within range from the attached inventory.,アタッチされたインベントリから意志触媒をクリスタルに適用します。
+ritual.bloodmagic.fullStomachRitual,Ritual of the Satiated Stomach,満腹の儀式
+ritual.bloodmagic.fullStomachRitual.chest.info,(Chest) The location of the inventory that the ritual will grab food from to feed players in range.,（チェスト）儀式が範囲内のプレイヤーに食べさせる食料を取得するインベントリの場所。
+ritual.bloodmagic.fullStomachRitual.fillRange.info,(Feeding) The range that the ritual will look at to feed players.,（給食）儀式がプレイヤーに食べさせるのを見る範囲。
+ritual.bloodmagic.fullStomachRitual.info,Takes food from the linked chest and fills the player's saturation with it.,リンクされたチェストから食料を取り、プレイヤーの満腹度を満たします。
+ritual.bloodmagic.greenGroveRitual,Ritual of the Green Grove,緑の恵みの儀式
+ritual.bloodmagic.greenGroveRitual.corrosive.info,"(Corrosive) Entities within range are attacked by nearby plants, leeching away their life to feed their own growth.",（腐食）範囲内のエンティティは近くの植物に攻撃され、彼らの生命を自らの成長に吸い上げます。
+ritual.bloodmagic.greenGroveRitual.default.info,(Raw) Increases the speed of all ritual operations based on the total amount of Raw Will in the Aura.,（生成）オーラ内の生の意志の総量に基づいて、すべての儀式操作の速度を上げます。
+ritual.bloodmagic.greenGroveRitual.destructive.info,(Destructive) Increases the maximum growth range of the ritual based on the total amount of Destructive Will in the Aura.,（破壊）オーラ内の破壊的意志の総量に基づいて、儀式の最大成長範囲を上げます。
+ritual.bloodmagic.greenGroveRitual.growing.info,(Growth) The area that the ritual will grow plants in.,（成長）儀式が植物を成長させる領域。
+ritual.bloodmagic.greenGroveRitual.hydrate.info,"(Steadfast) Blocks within this range are rehydrated into farmland, and seeds within the area are planted nearby.",（堅牢）この範囲内のブロックは農地に再水和され、この範囲内の種は近くに植えられます。
 ritual.bloodmagic.greenGroveRitual.info,Grows crops within its area.,作物を育てる 内 its 範囲.
-ritual.bloodmagic.greenGroveRitual.leech.info,(Corrosive) Entities in this area have their life drained to grow nearby crops.,(Corrosive) エンティティーズ in this area have their life drained to grow nearby crops.
-ritual.bloodmagic.greenGroveRitual.steadfast.info,(Steadfast) Seeds are replanted and blocks are hydrated within the Hydration range.,(堅牢) Seeds are replanted and blocks are hydrated within the Hydration range.
-ritual.bloodmagic.greenGroveRitual.vengeful.info,(Vengeful) Increases the rate that a growth tick is successful.,(復讐) 増加 the rate that a growth tick is successful.
+ritual.bloodmagic.greenGroveRitual.leech.info,(Corrosive) Entities in this area have their life drained to grow nearby crops.,（腐食）この範囲内のエンティティは生命を吸い上げられ、近くの作物を成長させます。
+ritual.bloodmagic.greenGroveRitual.steadfast.info,(Steadfast) Seeds are replanted and blocks are hydrated within the Hydration range.,（堅牢）種は再植えされ、ブロックは補水範囲内で補水されます。
+ritual.bloodmagic.greenGroveRitual.vengeful.info,(Vengeful) Increases the rate that a growth tick is successful.,（復讐）成長ティックが成功する率を上げます。
 ritual.bloodmagic.groundingRitual,The Sinner's Burden,罪人の負担
-ritual.bloodmagic.groundingRitual.corrosive.info,(Corrosive) Disables gravity.,(腐食) Disables gravity.
+ritual.bloodmagic.groundingRitual.corrosive.info,(Corrosive) Disables gravity.,（腐食）重力を無効にします。
 ritual.bloodmagic.groundingRitual.default.info,(Raw) Affects players.,(生) 影響 プレイヤー.
-ritual.bloodmagic.groundingRitual.destructive.info,(Destructive) Applies Heavy Heart.,(破壊) Applies Heavy Heart.
-ritual.bloodmagic.groundingRitual.groundingRange.info,(Range) Affects entities within range.,(Range) 影響 エンティティ 内 range.
-ritual.bloodmagic.groundingRitual.info,Increases gravity and prevents jumping.,増加 gravity and prevents jumping.
-ritual.bloodmagic.groundingRitual.steadfast.info,(Steadfast) Affects Bosses. Doesn't affect bosses that are immune against motion change or immune against potions (except Wither and Ender Dragon).,(Steadfast) Affects Bosses. Doesn't affect bosses that are immune against motion change or immune against potions (except Wither and エンドer Dragon).
-ritual.bloodmagic.groundingRitual.vengeful.info,(Vengeful) Applies Levitation.,(復讐) Applies Levitation.
-ritual.bloodmagic.harvestRitual,Reap of the Harvest Moon,刈り取り of the 収穫 ムーン
-ritual.bloodmagic.harvestRitual.harvestRange.info,(Harvesting) Plants within this range will be harvested.,(収穫ing) Plants within this range will be harvested.
-ritual.bloodmagic.harvestRitual.info,"Harvests plants within its range, dropping the results on the ground.","収穫s plants within its range, dropping the results on the ground."
-ritual.bloodmagic.interdictionRitual,Ritual of Interdiction,儀式 of Interdiction
-ritual.bloodmagic.interdictionRitual.info,Pushes all mobs within its area away from the master ritual stone.,Pushes all mobs within its area away from the master 儀式 stone.
-ritual.bloodmagic.interdictionRitual.interdictionRange.info,"(Push) The area of the ritual where mobs will be pushed. All mobs are pushed away from the master ritual stone, regardless of where this area is.","(Push) The area of the 儀式 where mobs will be pushed. All mobs are pushed away from the master 儀式 stone, regardless of where this area is."
-ritual.bloodmagic.jumpRitual,Ritual of the High Jump,儀式 of the High Jump
-ritual.bloodmagic.jumpRitual.info,Causes entities to leap up into the air.,エンティティを引き起こす to リープ up into the air.
+ritual.bloodmagic.groundingRitual.destructive.info,(Destructive) Applies Heavy Heart.,（破壊）ヘビーハートを適用します。
+ritual.bloodmagic.groundingRitual.groundingRange.info,(Range) Affects entities within range.,（範囲）範囲内のエンティティに影響します。
+ritual.bloodmagic.groundingRitual.info,Increases gravity and prevents jumping.,重力を上げ、ジャンプを防ぎます。
+ritual.bloodmagic.groundingRitual.steadfast.info,(Steadfast) Affects Bosses. Doesn't affect bosses that are immune against motion change or immune against potions (except Wither and Ender Dragon).,（堅牢）ボスに影響します。動き変更に対して免疫なボスや、ポーション（ウィザーとエンダードラゴンを除く）に対して免疫なボスには影響しません。
+ritual.bloodmagic.groundingRitual.vengeful.info,(Vengeful) Applies Levitation.,（復讐）浮遊を適用します。
+ritual.bloodmagic.harvestRitual,Reap of the Harvest Moon,刈り取りの収穫 ムーン
+ritual.bloodmagic.harvestRitual.harvestRange.info,(Harvesting) Plants within this range will be harvested.,（収穫）この範囲内の植物が収穫されます。
+ritual.bloodmagic.harvestRitual.info,"Harvests plants within its range, dropping the results on the ground.",その範囲内の植物を収穫し、地面に結果をドロップします。
+ritual.bloodmagic.interdictionRitual,Ritual of Interdiction,相互排除の儀式
+ritual.bloodmagic.interdictionRitual.info,Pushes all mobs within its area away from the master ritual stone.,マスター儀式石から、その範囲内のすべてのモブを離れるように押します。
+ritual.bloodmagic.interdictionRitual.interdictionRange.info,"(Push) The area of the ritual where mobs will be pushed. All mobs are pushed away from the master ritual stone, regardless of where this area is.",（プッシュ）モブが押される儀式のエリア。すべてのモブは、このエリアがどこにあるかに関係なく、マスター儀式石から離れるように押されます。
+ritual.bloodmagic.jumpRitual,Ritual of the High Jump,高いジャンプの儀式
+ritual.bloodmagic.jumpRitual.info,Causes entities to leap up into the air.,エンティティが空中に跳躍します。
 ritual.bloodmagic.jumpRitual.jumpPower.info,(Power) Overall height of descriptor controls jump height and cost.,(パワー) ディスクリプターの全高さがジャンプの高さとコストを制御します。
-ritual.bloodmagic.jumpRitual.jumpRange.info,(Jumping) Entities in this range will be launched in the air.,(Jumping) エンティティーズ in this range will be launched in the air.
-ritual.bloodmagic.lavaRitual,Serenade of the Nether,セレナード of the ネザー
-ritual.bloodmagic.lavaRitual.corrosive.info,(Corrosive) Entities within range that are immune to fire are damaged severely.,(Corrosive) エンティティーズ within range that are immune to fire are damaged severely.
-ritual.bloodmagic.lavaRitual.default.info,(Raw) Decreases the LP cost of placing lava and allows the lava to be directly placed into a tank or other fluid-handling block.,(生) LP を減らす cost of 溶岩を配置 and allows the lava to be 直接配置 into a タンク or other フルイド処理 ブロック.
-ritual.bloodmagic.lavaRitual.destructive.info,(Destructive) Lava placement range is increased based on the total amount of Destructive Will in the Aura.,(破壊) Lava placement range is increased based on the total amount of 破壊 Will in the Aura.
-ritual.bloodmagic.lavaRitual.fireDamage.info,(Corrosive) Entities within this range that are immune to fire damage are hurt proportionally to the amount of Corrosive Will in the Aura.,(Corrosive) エンティティーズ within this range that are immune to fire damage are hurt proportionally to the amount of Corrosive Will in the Aura.
-ritual.bloodmagic.lavaRitual.fireFuse.info,(Vengeful) Entities in this range are afflicted by Fire Fuse.,(Vengeful) エンティティーズ in this range are afflicted by Fire Fuse.
-ritual.bloodmagic.lavaRitual.fireResist.info,(Steadfast) Players within this range have Fire Resistance applied to them.,(堅牢) Players within this range have Fire Resistance applied to them.
-ritual.bloodmagic.lavaRitual.info,Generates a source of lava from the master ritual stone.,Generates a source of lava from the master 儀式 stone.
-ritual.bloodmagic.lavaRitual.lavaRange.info,(Lava) The area within which the Ritual will place Lava Source Blocks.,(Lava) The area within which the 儀式 will place Lava Source Blocks.
-ritual.bloodmagic.lavaRitual.lavaTank.info,(Raw) The tank that the ritual will place lava into.,(Raw) The tank that the 儀式 will place lava into.
-ritual.bloodmagic.lavaRitual.steadfast.info,(Steadfast) Players within this range have Fire Resistance applied to them.,(堅牢) Players within this range have Fire Resistance applied to them.
-ritual.bloodmagic.lavaRitual.vengeful.info,(Vengeful) Entities within range have Fire Fuse applied to them.,(Vengeful) エンティティーズ within range have Fire Fuse applied to them.
-ritual.bloodmagic.magneticRitual,Ritual of Magnetism,儀式 of Magnetism
-ritual.bloodmagic.magneticRitual.info,Pulls up ores from the ground and puts them into its placement range.,プルアップ 鉱石 from the 地面 and 置くs them into its 配置 range.
-ritual.bloodmagic.magneticRitual.placementRange.info,(Placement) The area that the ritual will place the grabbed ores into.,(Placement) The area that the 儀式 will place the grabbed ores into.
-ritual.bloodmagic.meteorRitual,Mark of the Falling Tower,マーク of the 落下 塔
-ritual.bloodmagic.meteorRitual.info,"Consumes an item inside of its item range to summon a meteor full of resources from the sky, aimed directly at the ritual.","Consumes an item inside of its item range to summon a meteor full of resources from the sky, aimed directly at the 儀式."
+ritual.bloodmagic.jumpRitual.jumpRange.info,(Jumping) Entities in this range will be launched in the air.,（ジャンピング）この範囲内のエンティティは空気中に発射されます。
+ritual.bloodmagic.lavaRitual,Serenade of the Nether,セレナードのネザー
+ritual.bloodmagic.lavaRitual.corrosive.info,(Corrosive) Entities within range that are immune to fire are damaged severely.,（腐食）範囲内で火に免疫なエンティティは深刻なダメージを受けます。
+ritual.bloodmagic.lavaRitual.default.info,(Raw) Decreases the LP cost of placing lava and allows the lava to be directly placed into a tank or other fluid-handling block.,（生成）溶岩配置のLPコストを削減し、溶岩をタンクまたは他の流体処理ブロックに直接配置できます。
+ritual.bloodmagic.lavaRitual.destructive.info,(Destructive) Lava placement range is increased based on the total amount of Destructive Will in the Aura.,（破壊）オーラ内の破壊的意志の総量に基づいて、溶岩配置範囲が増加します。
+ritual.bloodmagic.lavaRitual.fireDamage.info,(Corrosive) Entities within this range that are immune to fire damage are hurt proportionally to the amount of Corrosive Will in the Aura.,（腐食）この範囲内で火ダメージに免疫なエンティティは、オーラ内の腐食的意志の量に比例してダメージを受けます。
+ritual.bloodmagic.lavaRitual.fireFuse.info,(Vengeful) Entities in this range are afflicted by Fire Fuse.,（復讐）この範囲内のエンティティは焼火の被害を受けます。
+ritual.bloodmagic.lavaRitual.fireResist.info,(Steadfast) Players within this range have Fire Resistance applied to them.,（堅牢）この範囲内のプレイヤーは耐火を適用されます。
+ritual.bloodmagic.lavaRitual.info,Generates a source of lava from the master ritual stone.,マスター儀式石から溶岩のソースを生成します。
+ritual.bloodmagic.lavaRitual.lavaRange.info,(Lava) The area within which the Ritual will place Lava Source Blocks.,（溶岩）儀式が溶岩源ブロックを配置する範囲。
+ritual.bloodmagic.lavaRitual.lavaTank.info,(Raw) The tank that the ritual will place lava into.,（生成）儀式が溶岩を配置するタンク。
+ritual.bloodmagic.lavaRitual.steadfast.info,(Steadfast) Players within this range have Fire Resistance applied to them.,（堅牢）この範囲内のプレイヤーは耐火を適用されます。
+ritual.bloodmagic.lavaRitual.vengeful.info,(Vengeful) Entities within range have Fire Fuse applied to them.,（復讐）この範囲内のエンティティは焼火を適用されます。
+ritual.bloodmagic.magneticRitual,Ritual of Magnetism,磁性の儀式
+ritual.bloodmagic.magneticRitual.info,Pulls up ores from the ground and puts them into its placement range.,地面から鉱石を掘り出し、その配置範囲に配置します。
+ritual.bloodmagic.magneticRitual.placementRange.info,(Placement) The area that the ritual will place the grabbed ores into.,（配置）儀式が掴んだ鉱石を配置する領域。
+ritual.bloodmagic.meteorRitual,Mark of the Falling Tower,マークの落下 塔
+ritual.bloodmagic.meteorRitual.info,"Consumes an item inside of its item range to summon a meteor full of resources from the sky, aimed directly at the ritual.",その範囲内のアイテムを消費して、空から資源に満ちた隕石を降らせ、儀式に直接狙いを定めます。
 ritual.bloodmagic.placerRitual,Domain of The Filler,ドメイン of The 埋め立て
-ritual.bloodmagic.placerRitual.chest.info,(Chest) The location of the inventory that the ritual will grab blocks from to place in the world.,(Chest) The location of the inventory that the 儀式 will grab blocks from to place in the world.
-ritual.bloodmagic.placerRitual.info,Grabs blocks that are inside of the connected inventory and places them into the world.,ブロックをつかむ that are 内部 of the 接続されたインベントリ and それを配置 into the 世界.
-ritual.bloodmagic.placerRitual.placerRange.info,(Placement) The range that the ritual will place its blocks in.,(Placement) The range that the 儀式 will place its blocks in.
-ritual.bloodmagic.portalRitual,The Gate of the Fold,The ゲート of the 折り目
-ritual.bloodmagic.portalRitual.info,"Creates a portal network based on the activator and the immediately surrounding blocks. Blocks can be changed after activation without changing the network of portals, and portals with the same ""key"" will link together.","Creates a ポータルネットワーク based on the アクティベーター and the immediately 周囲 ブロックs. Blocks can be 変更 after アクティベーション without changing the network of portals, and portals with the same ""key"" will リンク together."
+ritual.bloodmagic.placerRitual.chest.info,(Chest) The location of the inventory that the ritual will grab blocks from to place in the world.,（チェスト）儀式が世界に配置するブロックを取得するインベントリの場所。
+ritual.bloodmagic.placerRitual.info,Grabs blocks that are inside of the connected inventory and places them into the world.,接続されたインベントリ内のブロックをつかみ、世界に配置します。
+ritual.bloodmagic.placerRitual.placerRange.info,(Placement) The range that the ritual will place its blocks in.,（配置）儀式がブロックを配置する範囲。
+ritual.bloodmagic.portalRitual,The Gate of the Fold,ポータルネットワークの門
+ritual.bloodmagic.portalRitual.info,"Creates a portal network based on the activator and the immediately surrounding blocks. Blocks can be changed after activation without changing the network of portals, and portals with the same ""key"" will link together.",アクティベーターと周囲のブロックに基づいてポータルネットワークを作成します。アクティベーション後、ネットワークを変更せずにブロックを変更でき、同じ「キー」を持つポータルは相互にリンクします。
 ritual.bloodmagic.pumpRitual,Hymn of Siphoning,讃歌 of 吸い上げ
-ritual.bloodmagic.pumpRitual.info,Looks around the world and grabs fluids from the defined area. Will only remove and put the fluid into the connected tank if the tank has at least a bucket's worth of the same fluid.,周りを見る the 世界 and つかむ フルーイッド from the 定義 範囲. Will only 削除 and 置く the fluid into the connected タンク if the タンク has at least a バケツ's worth of the same fluid.
-ritual.bloodmagic.pumpRitual.pumpRange.info,(Pump) The region that the ritual will look for fluids to grab from the world.,(Pump) The region that the 儀式 will look for fluids to grab from the world.
-ritual.bloodmagic.regenerationRitual,Ritual of Regeneration,儀式 of Regeneration
-ritual.bloodmagic.regenerationRitual.corrosive.info,(Corrosive) Steals health from non-players inside of its Vampirism range and directly heals players.,(腐食) Steals health from non-players inside of its ヴァンパイアリズム range and directly heals players.
+ritual.bloodmagic.pumpRitual.info,Looks around the world and grabs fluids from the defined area. Will only remove and put the fluid into the connected tank if the tank has at least a bucket's worth of the same fluid.,世界を見回り、定義された領域から流体を集めます。接続されたタンクが同じ流体の少なくともバケツ分の量を持っている場合にのみ、流体を削除してタンクに配置します。
+ritual.bloodmagic.pumpRitual.pumpRange.info,(Pump) The region that the ritual will look for fluids to grab from the world.,（ポンプ）儀式が世界から掴む流体を探す地域。
+ritual.bloodmagic.regenerationRitual,Ritual of Regeneration,再生の儀式
+ritual.bloodmagic.regenerationRitual.corrosive.info,(Corrosive) Steals health from non-players inside of its Vampirism range and directly heals players.,（腐食）バンパイアリズム範囲内の非プレイヤーからヘルスを盗み、プレイヤーを直接癒します。
 ritual.bloodmagic.regenerationRitual.default.info,(Raw),(生)
 ritual.bloodmagic.regenerationRitual.destructive.info,(Destructive),(破壊)
-ritual.bloodmagic.regenerationRitual.heal.info,(Healing) Entities within this range will receive a regeneration buff.,(Healing) エンティティーズ within this range will receive a regeneration buff.
-ritual.bloodmagic.regenerationRitual.info,Casts regeneration on entities within its range if they are missing health.,キャスト 再生 on エンティティ 内 its range if they are 不足 health.
+ritual.bloodmagic.regenerationRitual.heal.info,(Healing) Entities within this range will receive a regeneration buff.,（治癒）この範囲内のエンティティは再生バフを受け取ります。
+ritual.bloodmagic.regenerationRitual.info,Casts regeneration on entities within its range if they are missing health.,ヘルスが不足している場合、その範囲内のエンティティに再生をキャストします。
 ritual.bloodmagic.regenerationRitual.steadfast.info,(Steadfast),(堅牢)
-ritual.bloodmagic.regenerationRitual.vampire.info,(Vampirism) Mobs within this range have their health syphoned to heal players in the Healing range.,(ヴァンパイアリズム) Mobs within this range have their health syphoned to heal players in the Healing range.
+ritual.bloodmagic.regenerationRitual.vampire.info,(Vampirism) Mobs within this range have their health syphoned to heal players in the Healing range.,（バンパイアリズム）この範囲内のモブはヘルスを吸い上げられ、治癒範囲内のプレイヤーを癒します。
 ritual.bloodmagic.regenerationRitual.vengeful.info,(Vengeful),(復讐)
-ritual.bloodmagic.simpleDungeonRitual,Edge of the Hidden Realm,エッジ of the 隠れた レルム
-ritual.bloodmagic.simpleDungeonRitual.info,"Summons an Inversion Pillar, a tenuous gateway to the Demon Realm.","Summons an 反転 ピラー, a tenuous gateway to the 悪魔 レルム."
-ritual.bloodmagic.speedRitual,Ritual of Speed,儀式 of Speed
-ritual.bloodmagic.speedRitual.corrosive.info,(Corrosive) Further increases horizontal velocity based on total Will.,(腐食) Further increases horizontal velocity based on total Will.
-ritual.bloodmagic.speedRitual.default.info,(Raw) Increases the velocity caused by the ritual based on total Will.,(Raw) Increases the velocity caused by the 儀式 based on total Will.
-ritual.bloodmagic.speedRitual.destructive.info,(Destructive) Prevents child mobs and players from being transported. Players are transported if paired with Vengeful.,(破壊) Prevents child mobs and players from being transported. Players are transported if paired with 復讐.
-ritual.bloodmagic.speedRitual.info,Launches players within its range in the direction of the ritual.,Launches players within its range in the direction of the 儀式.
-ritual.bloodmagic.speedRitual.sanicRange.info,(Speed) All entities within this area are launched in the direction of the arrow formed by the ritual.,(Speed) All entities within this area are launched in the direction of the arrow formed by the 儀式.
-ritual.bloodmagic.speedRitual.steadfast.info,"(Steadfast) Applies Soft Fall to mobs and players when transported, preventing fall damage.","(堅牢) Applies ソフト 落下 to mobs and players when transported, preventing fall damage."
-ritual.bloodmagic.speedRitual.vengeful.info,(Vengeful) Prevents adult mobs and players from being transported. Players are transported if paired with Destructive.,(復讐) Prevents adult mobs and players from being transported. Players are transported if paired with 破壊.
-ritual.bloodmagic.sphereRitual,Dawn of the New Moon,ドーン of the New ムーン
-ritual.bloodmagic.sphereRitual.info,"Cracks open the ground, transporting a spheroid from the ground into the air. The shape extracted will be a spheroid of the designated size.","クラック open the ground, transporting a spheroid from the ground into the air. The shape extracted will be a spheroid of the designated size."
-ritual.bloodmagic.sphereRitual.spheroidRange.info,(Extraction) The range that the ritual will extract blocks from. The blocks are placed on the vertical opposite side of the MRS.,(Extraction) The range that the 儀式 will extract blocks from. The blocks are placed on the vertical opposite side of the MRS.
-ritual.bloodmagic.standardDungeonRitual,Pathway to the Endless Realm,Pathway to the エンドless Realm
-ritual.bloodmagic.standardDungeonRitual.info,Summons an Inversion Pillar to go deeper into the Demon Realm.,Summons an 反転 ピラー to go deeper into the 悪魔 レルム.
-ritual.bloodmagic.suppressionRitual,Ritual of Suppression,儀式 of Suppression
-ritual.bloodmagic.suppressionRitual.info,Suppresses fluids within its range - deactivating the ritual returns the fluids back to the world.,Suppresses fluids within its range - deactivating the 儀式 returns the fluids back to the world.
-ritual.bloodmagic.suppressionRitual.suppressionRange.info,(Suppress) All liquids within the range are suppressed.,(抑圧) All リキッド 内 the range are 抑圧.
+ritual.bloodmagic.simpleDungeonRitual,Edge of the Hidden Realm,エッジの隠れたレルム
+ritual.bloodmagic.simpleDungeonRitual.info,"Summons an Inversion Pillar, a tenuous gateway to the Demon Realm.",転倒した柱を召喚します。悪魔領域への危ういゲートウェイです。
+ritual.bloodmagic.speedRitual,Ritual of Speed,儀式 of スピード
+ritual.bloodmagic.speedRitual.corrosive.info,(Corrosive) Further increases horizontal velocity based on total Will.,（腐食）総意志に基づいて水平速度をさらに上げます。
+ritual.bloodmagic.speedRitual.default.info,(Raw) Increases the velocity caused by the ritual based on total Will.,（生成）儀式によって引き起こされた速度を総意志に基づいて上げます。
+ritual.bloodmagic.speedRitual.destructive.info,(Destructive) Prevents child mobs and players from being transported. Players are transported if paired with Vengeful.,（破壊）子モブとプレイヤーの輸送を防ぎます。復讐とペアリングされた場合、プレイヤーが輸送されます。
+ritual.bloodmagic.speedRitual.info,Launches players within its range in the direction of the ritual.,その範囲内のプレイヤーを儀式の方向に発射します。
+ritual.bloodmagic.speedRitual.sanicRange.info,(Speed) All entities within this area are launched in the direction of the arrow formed by the ritual.,（速度）このエリア内のすべてのエンティティは、儀式によって形成される矢の方向に発射されます。
+ritual.bloodmagic.speedRitual.steadfast.info,"(Steadfast) Applies Soft Fall to mobs and players when transported, preventing fall damage.",（堅牢）輸送時にモブとプレイヤーに軟着地を適用し、落下ダメージを防ぎます。
+ritual.bloodmagic.speedRitual.vengeful.info,(Vengeful) Prevents adult mobs and players from being transported. Players are transported if paired with Destructive.,（復讐）成人モブとプレイヤーの輸送を防ぎます。破壊とペアリングされた場合、プレイヤーが輸送されます。
+ritual.bloodmagic.sphereRitual,Dawn of the New Moon,新月の夜明け
+ritual.bloodmagic.sphereRitual.info,"Cracks open the ground, transporting a spheroid from the ground into the air. The shape extracted will be a spheroid of the designated size.",地面を割き、地面から空への楕円体を輸送します。抽出された形状は指定されたサイズの楕円体になります。
+ritual.bloodmagic.sphereRitual.spheroidRange.info,(Extraction) The range that the ritual will extract blocks from. The blocks are placed on the vertical opposite side of the MRS.,（抽出）儀式がブロックを抽出する範囲。ブロックはマスター儀式石の垂直反対側に配置されます。
+ritual.bloodmagic.standardDungeonRitual,Pathway to the Endless Realm,エンドレス領域への通路
+ritual.bloodmagic.standardDungeonRitual.info,Summons an Inversion Pillar to go deeper into the Demon Realm.,転倒した柱を召喚して、悪魔領域をさらに深く進みます。
+ritual.bloodmagic.suppressionRitual,Ritual of Suppression,抑制の儀式
+ritual.bloodmagic.suppressionRitual.info,Suppresses fluids within its range - deactivating the ritual returns the fluids back to the world.,その範囲内の流体を抑制します。儀式を非アクティブ化すると、流体が世界に戻ります。
+ritual.bloodmagic.suppressionRitual.suppressionRange.info,(Suppress) All liquids within the range are suppressed.,（抑制）範囲内のすべての液体は抑制されます。
 ritual.bloodmagic.testRitual,Test Ritual,Test 儀式
-ritual.bloodmagic.upgradeRemoveRitual,Sound of the Cleansing Soul,サウンド of the クレンジング ソウル
-ritual.bloodmagic.upgradeRemoveRitual.info,Removes all upgrades from your Living Armor and gives you the corresponding Upgrade Tomes. These Tomes can be used to re-apply them to your Living Armor.,Removes all upgrades from your Living Armor and gives you the corresponding アップグレード Tomes. These Tomes can be used to re-apply them to your Living Armor.
-ritual.bloodmagic.waterRitual,Ritual of the Full Spring,儀式 of the Full Spring
-ritual.bloodmagic.waterRitual.info,Generates a source of water from the Master Ritual Stone.,Generates a source of water from the Master 儀式 Stone.
-ritual.bloodmagic.waterRitual.waterRange.info,(Water) The area within which the Ritual will place Water Source Blocks.,(Water) The area within which the 儀式 will place Water Source Blocks.
-ritual.bloodmagic.waterRitual.waterTank.info,(Raw) The tank that the ritual will place water into.,(Raw) The tank that the 儀式 will place water into.
+ritual.bloodmagic.upgradeRemoveRitual,Sound of the Cleansing Soul,サウンドのクレンジング ソウル
+ritual.bloodmagic.upgradeRemoveRitual.info,Removes all upgrades from your Living Armor and gives you the corresponding Upgrade Tomes. These Tomes can be used to re-apply them to your Living Armor.,リビングアーマーからすべてのアップグレードを削除し、対応するアップグレードトームを提供します。これらのトームを使用して、リビングアーマーに再度適用できます。
+ritual.bloodmagic.waterRitual,Ritual of the Full Spring,満水の源の儀式
+ritual.bloodmagic.waterRitual.info,Generates a source of water from the Master Ritual Stone.,マスター儀式石から水のソースを生成します。
+ritual.bloodmagic.waterRitual.waterRange.info,(Water) The area within which the Ritual will place Water Source Blocks.,（水）儀式が水源ブロックを配置する範囲。
+ritual.bloodmagic.waterRitual.waterTank.info,(Raw) The tank that the ritual will place water into.,（生成）儀式が水を配置するタンク。
 ritual.bloodmagic.wellOfSufferingRitual,Well of Suffering,苦しみの井戸
-ritual.bloodmagic.wellOfSufferingRitual.altar.info,(Altar) The area that the ritual searches for a Blood Altar to deposit its Blood into.,(Altar) The area that the 儀式 searches for a Blood Altar to deposit its Blood into.
-ritual.bloodmagic.wellOfSufferingRitual.damage.info,"(Damage) All mobs within this area will take damage every second or so until they die. This does not include players, fortunately. ","(ダメージ) All mobs within this area will take damage every second or so until they die. This does not include players, fortunately. "
-ritual.bloodmagic.wellOfSufferingRitual.info,Attacks mobs within its damage zone and puts the LP into a nearby blood altar.,攻撃 モブ 内 its ダメージ ゾーン and 置くs the LP into a nearby blood 祭壇.
-ritual.bloodmagic.willConfig.set,The ritual will use these Demon Will types: %s.,The 儀式 will use these Demon Will types: %s.
-ritual.bloodmagic.willConfig.void,The ritual no longer uses Demon Will.,The 儀式 no longer uses Demon Will.
+ritual.bloodmagic.wellOfSufferingRitual.altar.info,(Altar) The area that the ritual searches for a Blood Altar to deposit its Blood into.,（祭壇）儀式が血を預ける血の祭壇を探す領域。
+ritual.bloodmagic.wellOfSufferingRitual.damage.info,"(Damage) All mobs within this area will take damage every second or so until they die. This does not include players, fortunately. ",（ダメージ）この範囲内のすべてのモブは、死ぬまで毎秒程度ダメージを受けます。幸い、プレイヤーは含まれていません。
+ritual.bloodmagic.wellOfSufferingRitual.info,Attacks mobs within its damage zone and puts the LP into a nearby blood altar.,その範囲内のモブを攻撃し、近くの血の祭壇にLPを配置します。
+ritual.bloodmagic.willConfig.set,The ritual will use these Demon Will types: %s.,儀式はこれらの悪魔の意志タイプを使用します：%s。
+ritual.bloodmagic.willConfig.void,The ritual no longer uses Demon Will.,儀式はもはや悪魔の意志を使用しません。
 ritual.bloodmagic.yawningVoidRitual,Yawning of the Void,虚無のあくび
-ritual.bloodmagic.yawningVoidRitual.chest.info,(Chest) Chooses the first Item Filter to determine which blocks to destroy.,(チェスト) Chooses the first Item フィルター to determine which blocks to destroy.
-ritual.bloodmagic.yawningVoidRitual.corrosive.info,(Corrosive) Destroys blocks that match the filter. Remaining are not destroyed.,(腐食) Destroys blocks that match the filter. 残り are not destroyed.
-ritual.bloodmagic.yawningVoidRitual.default.info,(Raw) Increases the speed of the ritual based on the total amount of Raw Will in the Aura.,(Raw) Increases the speed of the 儀式 based on the total amount of Raw Will in the Aura.
-ritual.bloodmagic.yawningVoidRitual.info,Destroys blocks within a large area.,破壊 ブロックs 内 a 大きな 範囲.
-ritual.bloodmagic.yawningVoidRitual.placementRange.info,"(Placement) Based on Will config, blocks not destroyed are placed within range.","(配置) ベース on Will config, blocks not destroyed are placed within range."
-ritual.bloodmagic.yawningVoidRitual.quarryRange.info,(Quarry) Blocks within range are destroyed.,(Quarry) Blocks 内 range are destroyed.
-ritual.bloodmagic.yawningVoidRitual.steadfast.info,"(Steadfast) Non-destroyed blocks are placed in separate region. If no filter applied, all blocks are moved.","(堅牢) Non-destroyed blocks are placed in separate region. If no filter applied, all blocks are moved."
-ritual.bloodmagic.zephyrRitual,Call of the Zephyr,Call of the 微風
-ritual.bloodmagic.zephyrRitual.chest.info,(Chest) The location of the inventory that the ritual will place the picked up items into.,(Chest) The location of the inventory that the 儀式 will place the picked up items into.
-ritual.bloodmagic.zephyrRitual.info,Picks up items within its range and places them into the linked chest.,ピック up アイテム 内 its range and それを配置 into the リンクed chest.
-ritual.bloodmagic.zephyrRitual.zephyrRange.info,(Suction) Items within this range will be sucked into the linked chest.,(サクション) Items within this range will be sucked into the linked chest.
-tile.bloodmagic.alchemytable.name,Alchemy Table,Alchemy テーブル
-tile.bloodmagic.arc.name,Alchemical Reaction Chamber,錬金術 Reaction チャンバー
-tile.bloodmagic.masterroutingnode.name,Master Routing Node,マスター ルーティング ノード
+ritual.bloodmagic.yawningVoidRitual.chest.info,(Chest) Chooses the first Item Filter to determine which blocks to destroy.,（チェスト）最初のアイテムフィルターを選択して、破壊するブロックを決定します。
+ritual.bloodmagic.yawningVoidRitual.corrosive.info,(Corrosive) Destroys blocks that match the filter. Remaining are not destroyed.,（腐食）フィルターに一致するブロックを破壊します。残りは破壊されません。
+ritual.bloodmagic.yawningVoidRitual.default.info,(Raw) Increases the speed of the ritual based on the total amount of Raw Will in the Aura.,（生成）オーラ内の生の意志の総量に基づいて儀式の速度を上げます。
+ritual.bloodmagic.yawningVoidRitual.info,Destroys blocks within a large area.,破壊 ブロックs 内 a 大きな範囲.
+ritual.bloodmagic.yawningVoidRitual.placementRange.info,"(Placement) Based on Will config, blocks not destroyed are placed within range.",（配置）意志の設定に基づいて、破壊されないブロックは範囲内に配置されます。
+ritual.bloodmagic.yawningVoidRitual.quarryRange.info,(Quarry) Blocks within range are destroyed.,（採石）範囲内のブロックは破壊されます。
+ritual.bloodmagic.yawningVoidRitual.steadfast.info,"(Steadfast) Non-destroyed blocks are placed in separate region. If no filter applied, all blocks are moved.",（堅牢）破壊されないブロックは別の領域に配置されます。フィルターが適用されない場合、すべてのブロックが移動されます。
+ritual.bloodmagic.zephyrRitual,Call of the Zephyr,ゼファーの呼び声
+ritual.bloodmagic.zephyrRitual.chest.info,(Chest) The location of the inventory that the ritual will place the picked up items into.,（チェスト）儀式が拾ったアイテムを配置するインベントリの場所。
+ritual.bloodmagic.zephyrRitual.info,Picks up items within its range and places them into the linked chest.,その範囲内のアイテムを拾い、リンクされたチェストに配置します。
+ritual.bloodmagic.zephyrRitual.zephyrRange.info,(Suction) Items within this range will be sucked into the linked chest.,（吸引）この範囲内のアイテムはリンクされたチェストに吸い込まれます。
+tile.bloodmagic.alchemytable.name,Alchemy Table,錬金術テーブル
+tile.bloodmagic.arc.name,Alchemical Reaction Chamber,錬金術反応チャンバー
+tile.bloodmagic.masterroutingnode.name,Master Routing Node,マスタールーティング ノード
 tile.bloodmagic.soulforge.name,Hellfire Forge,ヘルファイア フォージ
 tile.bloodmagic.teleposer.name,Teleposer,テレポーザー
 tooltip.bloodmagic.activated,Activated,アクティベ
-tooltip.bloodmagic.activationcrystal.awakened,Activates more powerful rituals.,Activates more powerful 儀式s.
-tooltip.bloodmagic.activationcrystal.creative,Creative Only - Activates any ritual.,Creative Only - Activates any 儀式.
-tooltip.bloodmagic.activationcrystal.weak,Activates low-level rituals.,Activates low-level 儀式s.
-tooltip.bloodmagic.alchemytable.lperror.text,"Insufficient LP in Soul Network, or Blood Orb is not Bound.","不足 LP in ソウル ネットワーク, or Blood オーブ is not バウンド."
-tooltip.bloodmagic.alchemytable.lperror.title,Soul Network Error,ソウル ネットワーク エラー
-tooltip.bloodmagic.alchemytable.orberror.text,Orb's Tier is not high enough for this recipe.,オーブ's Tier is not high enough for this recipe.
+tooltip.bloodmagic.activationcrystal.awakened,Activates more powerful rituals.,より強力な儀式をアクティベートします。
+tooltip.bloodmagic.activationcrystal.creative,Creative Only - Activates any ritual.,クリエイティブのみ - あらゆる儀式をアクティベートします。
+tooltip.bloodmagic.activationcrystal.weak,Activates low-level rituals.,低レベル儀式をアクティベートします。
+tooltip.bloodmagic.alchemytable.lperror.text,"Insufficient LP in Soul Network, or Blood Orb is not Bound.",ソウルネットワークのLP不足、または血のオーブがバインドされていません。
+tooltip.bloodmagic.alchemytable.lperror.title,Soul Network Error,ソウル ネットワークエラー
+tooltip.bloodmagic.alchemytable.orberror.text,Orb's Tier is not high enough for this recipe.,オーブのティアがこのレシピに対して十分に高くありません。
 tooltip.bloodmagic.alchemytable.orberror.title,Orb Error,オーブ エラー
-tooltip.bloodmagic.arcaneAshes,Ashes used to draw an alchemy circle.,灰 used to draw an alchemy circle.
-tooltip.bloodmagic.arctool.additionaldrops,Increases chance of additional outputs by: x%s.,チャンスを増やす of additional 出力 by: x%s.
+tooltip.bloodmagic.arcaneAshes,Ashes used to draw an alchemy circle.,錬金術の円を描くために使用される灰。
+tooltip.bloodmagic.arctool.additionaldrops,Increases chance of additional outputs by: x%s.,追加の出力の確率を増加させます：x%s。
 tooltip.bloodmagic.arctool.craftspeed,Increases crafting speed by: x%s.,作成速度を増加させます: x%s。
 tooltip.bloodmagic.arctool.uses,Uses remaining: %s.,使用可能: %s。
-tooltip.bloodmagic.basicfilter.desc,Will make sure the items match.,するでしょう sure the アイテム match.
-tooltip.bloodmagic.basicnodeupgrade,Increases a Master Routing Node's speed.,増加 a マスター ルーティング ノード's speed.
-tooltip.bloodmagic.blockeddoor,The lock breaks and fizzles out of existence!,ロック 壊れる and シズル out of 存在!
-tooltip.bloodmagic.blood_provider.slate.desc,A simple ampoule containing 500LP.,A シンプル ampoule 含む 500LP.
-tooltip.bloodmagic.compositefilter.desc,Filters based off of contained filters.,フィルターs based off of contained filters.
-tooltip.bloodmagic.config.disabled,Currently disabled in the Config.,現在 disabled in the コンフィグ.
-tooltip.bloodmagic.contained_filters,Contained Filters:,Contained フィルターs:
-tooltip.bloodmagic.crystalCatalyst,Accelerates the growth of will.,加速 the growth of will.
+tooltip.bloodmagic.basicfilter.desc,Will make sure the items match.,アイテムが一致することを確認します。
+tooltip.bloodmagic.basicnodeupgrade,Increases a Master Routing Node's speed.,増加 a マスタールーティング ノードのspeed.
+tooltip.bloodmagic.blockeddoor,The lock breaks and fizzles out of existence!,ロックが壊れて存在から消えます！
+tooltip.bloodmagic.blood_provider.slate.desc,A simple ampoule containing 500LP.,500LPを含む単純なアンプル。
+tooltip.bloodmagic.compositefilter.desc,Filters based off of contained filters.,含まれるフィルターに基づいてフィルターします。
+tooltip.bloodmagic.config.disabled,Currently disabled in the Config.,このコンフィグでは現在無効です。
+tooltip.bloodmagic.contained_filters,Contained Filters:,含まれるフィルター：
+tooltip.bloodmagic.crystalCatalyst,Accelerates the growth of will.,意志の成長を加速します。
 tooltip.bloodmagic.currentBaseType.corrosive,Corrosive,腐食
 tooltip.bloodmagic.currentBaseType.default,Raw,生
 tooltip.bloodmagic.currentBaseType.destructive,Destructive,破壊
@@ -663,30 +659,30 @@ tooltip.bloodmagic.currentBaseType.vengeful,Vengeful,復讐
 tooltip.bloodmagic.currentOwner,Current owner: %s.,現在の所有者: %s。
 tooltip.bloodmagic.currentTier,Current tier: %d.,現在のティア: %d。
 tooltip.bloodmagic.currentType.corrosive,Contains: Corrosive Will,含む: 腐食 Will
-tooltip.bloodmagic.currentType.default,Contains: Raw Will,含む: Raw Will
+tooltip.bloodmagic.currentType.default,Contains: Raw Will,含むもの：生の意志
 tooltip.bloodmagic.currentType.destructive,Contains: Destructive Will,含む: 破壊 Will
 tooltip.bloodmagic.currentType.steadfast,Contains: Steadfast Will,含む: 堅牢 Will
 tooltip.bloodmagic.currentType.vengeful,Contains: Vengeful Will,含む: 復讐 Will
 tooltip.bloodmagic.deactivated,Deactivated,非アクティブ
-tooltip.bloodmagic.decoration.notSafe,Dangerous for decoration!,危険 for decoration!
-tooltip.bloodmagic.decoration.safe,Safe for decoration.,安全 for decoration.
-tooltip.bloodmagic.diviner.airRune,Air Runes: %d,Air ルーン: %d
-tooltip.bloodmagic.diviner.blankRune,Blank Runes: %d,Blank ルーン: %d
+tooltip.bloodmagic.decoration.notSafe,Dangerous for decoration!,装飾には危険です！
+tooltip.bloodmagic.decoration.safe,Safe for decoration.,装飾には安全です。
+tooltip.bloodmagic.diviner.airRune,Air Runes: %d,風のルーン: %d
+tooltip.bloodmagic.diviner.blankRune,Blank Runes: %d,白紙のルーン: %d
 tooltip.bloodmagic.diviner.currentDirection,Current Direction: %s,現在の方向: %s
-tooltip.bloodmagic.diviner.currentRitual,Current Ritual: %s,Current 儀式: %s
-tooltip.bloodmagic.diviner.dawnRune,Dawn Runes: %d,Dawn ルーン: %d
-tooltip.bloodmagic.diviner.duskRune,Dusk Runes: %d,Dusk ルーン: %d
-tooltip.bloodmagic.diviner.earthRune,Earth Runes: %d,Earth ルーン: %d
-tooltip.bloodmagic.diviner.extraExtraInfo,-Hold shift + alt for augmentation info-,-Hold shift + alt for augmentation 情報-
-tooltip.bloodmagic.diviner.extraInfo,Press shift for extra info.,Press shift for extra 情報.
-tooltip.bloodmagic.diviner.fireRune,Fire Runes: %d,Fire ルーン: %d
-tooltip.bloodmagic.diviner.totalRune,Total Runes: %d,Total ルーン: %d
-tooltip.bloodmagic.diviner.waterRune,Water Runes: %d,Water ルーン: %d
-tooltip.bloodmagic.enchantfilter.desc,Filters based off of enchantments.,フィルターs based off of enchantments.
-tooltip.bloodmagic.experienceTome,A book used to store experience.,A book used to store exごとience.
+tooltip.bloodmagic.diviner.currentRitual,Current Ritual: %s,現在の儀式：%s
+tooltip.bloodmagic.diviner.dawnRune,Dawn Runes: %d,夜明けルーン: %d
+tooltip.bloodmagic.diviner.duskRune,Dusk Runes: %d,薄暗いルーン: %d
+tooltip.bloodmagic.diviner.earthRune,Earth Runes: %d,地球ルーン: %d
+tooltip.bloodmagic.diviner.extraExtraInfo,-Hold shift + alt for augmentation info-,-シフト+アルトを保持して強化情報を取得-
+tooltip.bloodmagic.diviner.extraInfo,Press shift for extra info.,シフトを押して追加情報を取得します。
+tooltip.bloodmagic.diviner.fireRune,Fire Runes: %d,炎 ルーン: %d
+tooltip.bloodmagic.diviner.totalRune,Total Runes: %d,合計ルーン: %d
+tooltip.bloodmagic.diviner.waterRune,Water Runes: %d,水 ルーン: %d
+tooltip.bloodmagic.enchantfilter.desc,Filters based off of enchantments.,エンチャントに基づいてフィルターします。
+tooltip.bloodmagic.experienceTome,A book used to store experience.,経験を保存するために使用される本。
 tooltip.bloodmagic.experienceTome.exp,Exp: %0.3f,経験値: %0.3f
 tooltip.bloodmagic.experienceTome.expLevel,Level: %d,レベル: %d
-tooltip.bloodmagic.extraInfo,-Hold shift for more info-,-Hold shift for more 情報-
+tooltip.bloodmagic.extraInfo,-Hold shift for more info-,-詳細情報はシフトを押してください-
 tooltip.bloodmagic.filter.all,All: %s,すべて: %s
 tooltip.bloodmagic.filter.anytag,Any Tag of %s,%s のいずれかのタグ
 tooltip.bloodmagic.filter.blacklist,Deny:,拒否:
@@ -694,13 +690,13 @@ tooltip.bloodmagic.filter.count,%sx %s,
 tooltip.bloodmagic.filter.enchant_combination,%s: %s,
 tooltip.bloodmagic.filter.from_mod,From: %s,モッドから: %s
 tooltip.bloodmagic.filter.whitelist,Allow:,ホワイトリスト:
-tooltip.bloodmagic.ghost.amount,Ghost item amount: %d.,ゴースト item 数: %d。
+tooltip.bloodmagic.ghost.amount,Ghost item amount: %d.,ゴーストアイテム数: %d。
 tooltip.bloodmagic.ghost.everything,Everything,すべて
 tooltip.bloodmagic.hellforgedparts,These parts are currently beyond your crafting capabilities...,これらのパーツは現在、あなたの作成能力を超えています...
-tooltip.bloodmagic.holdShiftForInfo,Press shift for extra info.,Press shift for extra 情報.
+tooltip.bloodmagic.holdShiftForInfo,Press shift for extra info.,シフトを押して追加情報を取得します。
 tooltip.bloodmagic.incorrectKey,The key does not fit in this lock...,このロックにはキーが合いません...
 tooltip.bloodmagic.inscriber.desc,The writing is on the wall...,壁に文字が書かれています...
-tooltip.bloodmagic.livingarmour.extraExtraInfo,&9-Hold shift + M for progress info-,&9-Hold shift + M for progress 情報-
+tooltip.bloodmagic.livingarmour.extraExtraInfo,&9-Hold shift + M for progress info-,&9-シフト+Mを押して進捗情報を取得-
 tooltip.bloodmagic.livingarmour.upgrade.level,%s (Level %d),%s (レベル %d)
 tooltip.bloodmagic.livingarmour.upgrade.points,Upgrade points: %s / %s,アップグレードポイント: %s / %s
 tooltip.bloodmagic.livingarmour.upgrade.progress,%s (%d/100),
@@ -708,22 +704,22 @@ tooltip.bloodmagic.livingtomescrap.desc,Fragments of a living tome.,生きた全
 tooltip.bloodmagic.livingtomescrap.points,Contained upgrade points: %s.,含まれるアップグレードポイント: %s。
 tooltip.bloodmagic.livingtrainer.upgrade.points,Upgrade points: %s,アップグレードポイント: %s
 tooltip.bloodmagic.mineentrancekey,A key used to gain access to the mines.,鉱山へのアクセスに使用されるキー。
-tooltip.bloodmagic.minekey,Unlocks doors within the mines.,Unlocks doors 内 the mines.
-tooltip.bloodmagic.modfilter.desc,Filters based off of the source mod.,フィルターs based off of the source mod.
-tooltip.bloodmagic.orb.desc,Stores raw Life Essence.,St鉱石 raw Life Essence.
+tooltip.bloodmagic.minekey,Unlocks doors within the mines.,マインズ内のドアのロックを解除します。
+tooltip.bloodmagic.modfilter.desc,Filters based off of the source mod.,ソースModに基づいてフィルターします。
+tooltip.bloodmagic.orb.desc,Stores raw Life Essence.,生のライフエッセンスを保存します。
 tooltip.bloodmagic.orb.owner,Added by: %s.,追加者: %s。
 tooltip.bloodmagic.ritualReader.currentState,Current mode: %s,現在のモード: %s
-tooltip.bloodmagic.ritualReader.desc.information,Right click on an active Master Ritual Stone to gather basic information about the ritual.,Right click on an active Master 儀式 Stone to gather basic 情報rmation about the 儀式.
-tooltip.bloodmagic.ritualReader.desc.set_area,Right click on an active Master Ritual stone to cycle what area of the ritual you want to modify. Then click on the two corners of the new range you want to set the range.,Right click on an active Master 儀式 stone to cycle what area of the 儀式 you want to modify. Then click on the two corners of the new range you want to set the range.
-tooltip.bloodmagic.ritualReader.desc.set_will_types,Set the types of demon will that the ritual will consume from the aura by right clicking on the MRS with the same types of crystals on your hotbar.,Set the types of demon will that the 儀式 will consume from the aura by right clicking on the MRS with the same types of crystals on your hotbar.
-tooltip.bloodmagic.ritualReader.information,Information,情報rmation
+tooltip.bloodmagic.ritualReader.desc.information,Right click on an active Master Ritual Stone to gather basic information about the ritual.,アクティブなマスター儀式石を右クリックして、儀式に関する基本情報を収集します。
+tooltip.bloodmagic.ritualReader.desc.set_area,Right click on an active Master Ritual stone to cycle what area of the ritual you want to modify. Then click on the two corners of the new range you want to set the range.,アクティブなマスター儀式石を右クリックして、変更したい儀式のエリアをサイクルします。次に、設定したい新しい範囲の2つのコーナーをクリックします。
+tooltip.bloodmagic.ritualReader.desc.set_will_types,Set the types of demon will that the ritual will consume from the aura by right clicking on the MRS with the same types of crystals on your hotbar.,ホットバーに同じタイプのクリスタルを使用してMRSを右クリックして、儀式がオーラから消費する悪魔の意志のタイプを設定します。
+tooltip.bloodmagic.ritualReader.information,Information,情報
 tooltip.bloodmagic.ritualReader.set_area,Define Area,領域を定義
 tooltip.bloodmagic.ritualReader.set_will_types,Set Will Consumed,消費される意志を設定
 tooltip.bloodmagic.sacrificialdagger.desc,Just a prick of the finger will suffice...,指の一刺しで十分です...
-tooltip.bloodmagic.sentientAxe.desc,Uses demon will to unleash its full potential.,使用 demon will to unleash its full potential.
-tooltip.bloodmagic.sentientPickaxe.desc,Uses demon will to unleash its full potential.,使用 demon will to unleash its full potential.
-tooltip.bloodmagic.sentientShovel.desc,Uses demon will to unleash its full potential.,使用 demon will to unleash its full potential.
-tooltip.bloodmagic.sentientSword.desc,Uses demon will to unleash its full potential.,使用 demon will to unleash its full potential.
+tooltip.bloodmagic.sentientAxe.desc,Uses demon will to unleash its full potential.,悪魔の意志を使用してその完全な可能性を解放します。
+tooltip.bloodmagic.sentientPickaxe.desc,Uses demon will to unleash its full potential.,悪魔の意志を使用してその完全な可能性を解放します。
+tooltip.bloodmagic.sentientShovel.desc,Uses demon will to unleash its full potential.,悪魔の意志を使用してその完全な可能性を解放します。
+tooltip.bloodmagic.sentientSword.desc,Uses demon will to unleash its full potential.,悪魔の意志を使用してその完全な可能性を解放します。
 tooltip.bloodmagic.sigil.air.desc,I feel lighter already...,もうすでに軽く感じます...
 tooltip.bloodmagic.sigil.bloodlight.desc,I see a light!,I see a ライト!
 tooltip.bloodmagic.sigil.divination.currentAltarCapacity,Current Capacity: %d LP.,現在の容量: %d LP
@@ -735,11 +731,11 @@ tooltip.bloodmagic.sigil.divination.desc,Peer into the soul.,魂を覗き見る
 tooltip.bloodmagic.sigil.divination.otherNetwork,Peering into the soul of %s.,%sの魂を覗き見る
 tooltip.bloodmagic.sigil.fastminer.desc,"Keep mining, and mining...",掘って、掘って、また掘る...
 tooltip.bloodmagic.sigil.greengrove.desc,Environmentally friendly,環境に優しい
-tooltip.bloodmagic.sigil.holding.desc,Sigil-ception,シギル-ception
+tooltip.bloodmagic.sigil.holding.desc,Sigil-ception,シジル-セプション
 tooltip.bloodmagic.sigil.holding.press,Press %s to modify.,%sを押して変更
 tooltip.bloodmagic.sigil.holding.sigilInSlot,Slot %d: %s.,スロット%d: %s
 tooltip.bloodmagic.sigil.lava.desc,HOT! DO NOT EAT,熱い！食べないで
-tooltip.bloodmagic.sigil.magnetism.desc,I have a very magnetic personality,I have a very magnetic ごとsonality
+tooltip.bloodmagic.sigil.magnetism.desc,I have a very magnetic personality,私はとても磁性のパーソナリティを持っています
 tooltip.bloodmagic.sigil.seer.currentAltarCapacity,Current Capacity: %d LP.,現在の容量: %d LP
 tooltip.bloodmagic.sigil.seer.currentAltarConsumptionRate,Consumption Rate: %d LP.,消費速度: %d LP
 tooltip.bloodmagic.sigil.seer.currentAltarProgress,Current Progress: %d LP/ %s LP.,現在の進捗: %d LP/ %s LP
@@ -752,19 +748,19 @@ tooltip.bloodmagic.sigil.seer.currentTranquility,Current Tranquility: %d.,現在
 tooltip.bloodmagic.sigil.seer.desc,When seeing all is not enough.,全てを見ても足りない時
 tooltip.bloodmagic.sigil.teleposition.desc,Now you see me...!,今見えて...消えた！
 tooltip.bloodmagic.sigil.void.desc,Better than a Swiffer®!,掃除機より優秀！
-tooltip.bloodmagic.sigil.water.desc,"Infinite water, anyone?","Infinite 水, anyone?"
-tooltip.bloodmagic.simplekey,A simple key that can open dungeon doors.,A シンプル key that can open dungeon doors.
-tooltip.bloodmagic.slate.desc,Infused stone inside of a Blood Altar.,Infused stone 内部 of a Blood Altar.
-tooltip.bloodmagic.slate_vial,A glass vial infused with a simple slate.,A glass vial infused with a シンプル slate.
-tooltip.bloodmagic.soulGem.common,A gem used to contain more will.,A ジェム used to contain more will.
-tooltip.bloodmagic.soulGem.grand,A gem used to contain a large amount of will.,A gem used to contain a 大きな amount of will.
-tooltip.bloodmagic.soulGem.greater,A gem used to contain a greater amount of will.,A ジェム used to contain a greater amount of will.
-tooltip.bloodmagic.soulGem.lesser,A gem used to contain some will.,A ジェム used to contain some will.
-tooltip.bloodmagic.soulGem.petty,A gem used to contain a little will.,A ジェム used to contain a little will.
+tooltip.bloodmagic.sigil.water.desc,"Infinite water, anyone?",無限の水、誰か？
+tooltip.bloodmagic.simplekey,A simple key that can open dungeon doors.,ダンジョンドアを開くことができるシンプルなキー。
+tooltip.bloodmagic.slate.desc,Infused stone inside of a Blood Altar.,血の祭壇の内部に注入された石。
+tooltip.bloodmagic.slate_vial,A glass vial infused with a simple slate.,シンプルな石板に注入されたガラス瓶。
+tooltip.bloodmagic.soulGem.common,A gem used to contain more will.,より多くの意志を含むために使用されるジェム。
+tooltip.bloodmagic.soulGem.grand,A gem used to contain a large amount of will.,大量の意志を含むために使用されるジェム。
+tooltip.bloodmagic.soulGem.greater,A gem used to contain a greater amount of will.,より多くの意志を含むために使用されるジェム。
+tooltip.bloodmagic.soulGem.lesser,A gem used to contain some will.,いくつかの意志を含むために使用されるジェム。
+tooltip.bloodmagic.soulGem.petty,A gem used to contain a little will.,少しの意志を含むために使用されるジェム。
 tooltip.bloodmagic.soulSnare.desc,Throw at a monster and then kill them to obtain their demonic will.,モンスターに投げて倒すと、悪魔の意志を得られる
 tooltip.bloodmagic.specialspawn,You feel a spatial distortion in this room...,この部屋に空間の歪みを感じる...
-tooltip.bloodmagic.syntheticpoint.desc,A synthetic living armour point. It's... wriggling.,A synthetic living armour ポイント. It's... wriggling.
-tooltip.bloodmagic.tagfilter.desc,Filters based off of an item's ItemTags.,フィルターs based off of an item's ItemTags.
+tooltip.bloodmagic.syntheticpoint.desc,A synthetic living armour point. It's... wriggling.,合成リビングアーマーポイント。それは...うねっています。
+tooltip.bloodmagic.tagfilter.desc,Filters based off of an item's ItemTags.,アイテムのアイテムタグに基づいてフィルターします。
 tooltip.bloodmagic.telepositionfocus.coords,"Current coordinates: (%d, %d, %d).","現在の座標: (%d, %d, %d)"
 tooltip.bloodmagic.telepositionfocus.world,World: %d.,ワールド: %d
 tooltip.bloodmagic.throwing_dagger.desc,Not to be used in the kitchen.,キッチンでは使わないでください
@@ -773,8 +769,8 @@ tooltip.bloodmagic.trainer.blacklist,Allow other upgrades.,他のアップグレ
 tooltip.bloodmagic.trainer.deny,Deny:,拒否:
 tooltip.bloodmagic.trainer.whitelist,Block other upgrades.,他のアップグレードをブロック
 tooltip.bloodmagic.will,Will Quality: %s.,意志の品質: %s
-tooltip.bloodmagic.willGauge,A strange device that can measure the Demon Will in the Aura.,A strange device that can measure the 悪魔 Will in the Aura.
-trainer.bloodmagic.allowupgrade,Allow up to: %s %s,アップグレード許可
+tooltip.bloodmagic.willGauge,A strange device that can measure the Demon Will in the Aura.,オーラ内の悪魔の意志を測定できる奇妙なデバイス。
+trainer.bloodmagic.allowupgrade,Allow up to: %s %s,
 trainer.bloodmagic.blacklist,Allow other upgrades,ブラックリスト
-trainer.bloodmagic.blockupgrade,Deny: %s,ブロック アップグレード
-trainer.bloodmagic.whitelist,Deny other upgrades,拒否 other upgrades
+trainer.bloodmagic.blockupgrade,Deny: %s,
+trainer.bloodmagic.whitelist,Deny other upgrades,その他のアップグレードを拒否します

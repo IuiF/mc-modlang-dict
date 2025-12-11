@@ -110,7 +110,7 @@ advancements.apotheosis.spawncount.desc,Raise the spawn count of a spawner to 16
 advancements.apotheosis.spawner,Apothic Spawners,Apothicスポナー
 advancements.apotheosis.spawner.desc,Collect a mob spawner using Silk Touch.,シルクタッチを使ってMobスポナーを回収する
 advancements.apotheosis.spawner.root,Apotheosis Spawners,Apotheosisスポナー
-advancements.apotheosis.spawner.root.desc,"Spawners can be collected and modified, see JEI for info.",スポナーは回収、改造することができます。詳しくはJEIをご覧ください。
+advancements.apotheosis.spawner.root.desc,"Spawners can be collected and modified, see JEI for info.",スポナーは回収、改造できます。詳しくはJEIをご覧ください。
 advancements.apotheosis.spawnrange,Mobs for Miles,長距離用モブ
 advancements.apotheosis.spawnrange.desc,Raise the spawn range of a spawner to 32,スポナーのスポーン範囲を32に引き上げる
 advancements.apotheosis.splitting,Enchantment Crusher,エンチャントクラッシャー
@@ -362,19 +362,19 @@ block.apotheosis.stoneshelf,Stoneshelf,石の本棚
 block.apotheosis.treasure_shelf,Deepshelf of Arcane Treasures,秘宝の深淵の本棚
 block.reeds,Sugar Cane,サトウキビ
 bonus.apotheosis:all_stats.desc,+%s%% to All Stats,すべてのステータスを+%s%%。
-bonus.apotheosis:bloody_arrow.desc,"When firing, you lose %s%% Max Health and deal %s%% damage. %s",発射時、最大体力を%s%%失い、%s%%のダメージを与える。 %s
+bonus.apotheosis:bloody_arrow.desc,"When firing, you lose %s%% Max Health and deal %s%% damage. %s",発射時、最大体力を%s%%失い、%s%%のダメージを与える。%s
 bonus.apotheosis:durability.desc,Ignores %s%% of durability damage,%s%%の耐久力ダメージを無視します。
 bonus.apotheosis:enchantment.desc,+%s %s to %s,+%s%sの %s
 bonus.apotheosis:enchantment.desc.global,+%s %s to all existing enchantments,すべてのエンチャントに+%s%s加算する
 bonus.apotheosis:enchantment.desc.mustExist,+%s %s to existing %s,+%s%s %sを加算する
-bonus.apotheosis:leech_block.desc,Blocking an attack heals you for %s%% of the damage. %s,攻撃をブロックすると、ダメージの%s%%回復する。 %s
-bonus.apotheosis:mageslayer.desc,Ignore %s%% of magic damage and heal for the same amount.,魔法ダメージの%s%%を無視し、同量の回復を行う。
+bonus.apotheosis:leech_block.desc,Blocking an attack heals you for %s%% of the damage. %s,攻撃をブロックすると、ダメージの%s%%回復する。%s
+bonus.apotheosis:mageslayer.desc,Ignore %s%% of magic damage and heal for the same amount.,魔法ダメージの%s%%を無視し、同量の回復する。
 bonus.apotheosis:multi_attr.desc.and,%s and %s,%sと%s
 bonus.apotheosis:multi_attr.desc.and_but,"%s and %s, but %s",%sと%s、代わりに%s
 bonus.apotheosis:multi_attr.desc.but_and,"%s, but %s and %s",%s、代わりに%sと%s
-bonus.apotheosis:twilight_fortification.desc,Taking damage has a %s%% chance to fortify you with Twilight Shields. %s,ダメージを受けると、%s%の確率でTwilight Shieldsを付与する。 %s
+bonus.apotheosis:twilight_fortification.desc,Taking damage has a %s%% chance to fortify you with Twilight Shields. %s,ダメージを受けると、%s%の確率でTwilight シールドsを付与する。%s
 bonus.apotheosis:twilight_ore_magnet.desc,"Can be used as an Ore Magnet, costing an extra %s durability.",鉱石磁石として使用可能だが、追加で%sの耐久力を消費します。
-bonus.apotheosis:twilight_treasure_goblin.desc,Attacking an entity has a %s%% chance to summon a Treasure Goblin. %s,エンティティを攻撃すると、%s%% の確率でトレジャーゴブリンを召喚する。 %s
+bonus.apotheosis:twilight_treasure_goblin.desc,Attacking an entity has a %s%% chance to summon a Treasure Goblin. %s,エンティティを攻撃すると、%s%% の確率でトレジャーゴブリンを召喚する。%s
 book.apotheosis.landing,"Welcome to the world of Apotheosis.$(br2)Apotheosis is organized into $(#8080FF)Modules$(), and so is the content of this book.$(br2)Disabled modules are hidden.",Apotheosisの世界へようこそ。$(br2)Apotheosisは$(#8080FF)モジュール$()で構成されており、本書の内容も同様です。$(br2)無効化されたモジュールは非表示になります。
 book.apotheosis.name,Chronicle of Shadows,影の年代記
 book.apotheosis.subtitle,Guide to Apotheosis,神化への道しるべ
@@ -390,7 +390,7 @@ button.apotheosis.salvage,Salvage Items,解体アイテム
 button.apotheosis.upgrade,Upgrade Gem,ジェムをアップグレードする
 button.apotheosis.upgrade.no,Missing Inputs,入力がありません
 comment_id,Guidebook,ガイドブック
-config.jade.plugin_apotheosis.adventure,Apoth Adventure Module,アポス アドベンチャー モジュール
+config.jade.plugin_apotheosis.adventure,Apoth Adventure Module,アポス アドベンチャーモジュール
 config.jade.plugin_apotheosis.ench,Apoth Ench Module,アポスエンチャモジュール
 config.jade.plugin_apotheosis.spawner,Apoth Spawner Module,アポススポナーモジュール
 container.apotheosis.reforge,Reforge,再鍛造
@@ -406,7 +406,7 @@ death.attack.apotheosis:psychic.player,%s attack was reflected by %s.,%sの攻�
 enchantment.apotheosis.bane_of_illagers,Bane of Illagers,イリジャー特攻
 enchantment.apotheosis.bane_of_illagers.desc,Illagers take increased damage.,イリジャーへのダメージが増加する。
 enchantment.apotheosis.berserkers_fury,Berserker's Fury,狂戦士の怒り
-enchantment.apotheosis.berserkers_fury.desc,Become enraged when taking damage. [⌛ 0:45],ダメージを受けると怒り狂う。 [⌛ 0:45]
+enchantment.apotheosis.berserkers_fury.desc,Become enraged when taking damage. [⌛ 0:45],ダメージを受けると怒り狂う。[⌛ 0:45]
 enchantment.apotheosis.capturing,Capturing,捕獲
 enchantment.apotheosis.capturing.desc,Makes mobs have a chance to drop their spawn egg.,モブがスポーンエッグを落とす可能性があります
 enchantment.apotheosis.chainsaw,Chainsaw,チェーンソー
@@ -602,31 +602,31 @@ gem_class.weapon,Weapons,武器
 gem_class.weapon_or_tool,Weapons or Tools,武器またはツール
 generic.reachDistance,Reach Distance,リーチ距離
 gui.apotheosis.enchant.arcana,Arcana,アルカナ
-gui.apotheosis.enchant.arcana.desc," - Ethereal Purity"," - エーテルの純度"
+gui.apotheosis.enchant.arcana.desc," - Ethereal Purity",- エーテルの純度
 gui.apotheosis.enchant.arcana.desc2,Makes rare enchantments more common,レアエンチャントをコモンにし、
 gui.apotheosis.enchant.arcana.desc3,and increases the number of enchantments,エンチャントの数を増やす。
 gui.apotheosis.enchant.arcana.desc4,Base Value: %s%%,基準値: %s%%
 gui.apotheosis.enchant.arcana.desc5,Total Value: %s%%,合計値: %s%%
 gui.apotheosis.enchant.eterna,Eterna,エテルナ
-gui.apotheosis.enchant.eterna.desc," - Magical Energy"," - 魔法エネルギー"
+gui.apotheosis.enchant.eterna.desc," - Magical Energy",- 魔法エネルギー
 gui.apotheosis.enchant.eterna.desc2,Set the max enchanting level,エンチャントレベルの上限を設定します
 gui.apotheosis.enchant.eterna.desc3,Current Value: %s/%s,現在の値: %s/%s
 gui.apotheosis.enchant.quanta,Quanta,クアンタ
-gui.apotheosis.enchant.quanta.desc," - Pure Chaos"," - 純粋な混沌"
+gui.apotheosis.enchant.quanta.desc," - Pure Chaos",- 純粋な混沌
 gui.apotheosis.enchant.quanta.desc2,Increases underlying randomness,基礎となるランダム性を高めます
-gui.apotheosis.enchant.quanta.desc3," lessens the negative effects"," 悪影響が軽減される"
+gui.apotheosis.enchant.quanta.desc3," lessens the negative effects",悪影響が軽減される
 gui.apotheosis.enchant.quanta.desc4,Current Value: %s%%,現在の値: %s%%
 gui.apotheosis.enchant.rectification,Rectification,修正
 info.apoth.modifier_disabled,This Modifier is Disabled,このモディファイアは無効です
 info.apotheosis.affix_item,Apothic Affix Item,Apothic称号付きアイテム
 info.apotheosis.all_available,View all available enchantments,利用可能なエンチャントをすべて表示
-info.apotheosis.allows_treasure," - Allows Treasure Enchantments"," - お宝エンチャントが可能になる"
-info.apotheosis.altar,"The Altar of the Sea is a focus for conversion of enchanted items.\n\nTo begin, place one enchanted item on each pillar. Once all items are provided, the altar will drain experience from nearby players.\nIf experience cannot be drained, white particles will spawn.\n\nOnce complete, all items are consumed, and an enchanted book is generated.  Treasure enchantments can be obtained.",海の祭壇は、エンチャントされたアイテムを変換するための中心となります。\n\nまず、エンチャントされたアイテムを1つずつ柱に置きます。 すべてのアイテムが用意されると、祭壇は近くのプレイヤーから経験値を吸収します。\n経験値を吸収できない場合、白いパーティクルが発生します。\n\n完了すると、すべてのアイテムがなくなり、エンチャント本が生成されます。お宝エンチャントが手に入ります。
+info.apotheosis.allows_treasure," - Allows Treasure Enchantments",- お宝エンチャントが可能になる
+info.apotheosis.altar,"The Altar of the Sea is a focus for conversion of enchanted items.\n\nTo begin, place one enchanted item on each pillar. Once all items are provided, the altar will drain experience from nearby players.\nIf experience cannot be drained, white particles will spawn.\n\nOnce complete, all items are consumed, and an enchanted book is generated.  Treasure enchantments can be obtained.",海の祭壇は、エンチャントされたアイテムを変換するための中心となります。\n\nまず、エンチャントされたアイテムを1つずつ柱に置きます。すべてのアイテムが用意されると、祭壇は近くのプレイヤーから経験値を吸収します。\n経験値を吸収できない場合、白いパーティクルが発生します。\n\n完了すると、すべてのアイテムがなくなり、エンチャント本が生成されます。お宝エンチャントが手に入ります。
 info.apotheosis.anvil,Can be enchanted.,エンチャント可能。
 info.apotheosis.anvil_at,Forging at Level %s,レベルの鍛造 %s
 info.apotheosis.anvil_xp_cost,Raw XP Cost: %s,純粋なXPコスト: %s
-info.apotheosis.arcana," - Arcana: %s%%"," - アルカナ: %s%%"
-info.apotheosis.arcana.p," - Arcana: +%s%%"," - アルカナ: +%s%%"
+info.apotheosis.arcana," - Arcana: %s%%",- アルカナ: %s%%
+info.apotheosis.arcana.p," - Arcana: +%s%%",- アルカナ: +%s%%
 info.apotheosis.arcana.t,Arcana: %s%%,アルカナ: %s%%
 info.apotheosis.arcana_bonus,Arcane Empowerments,秘術の強化
 info.apotheosis.book_range,"Power Range: [%s, %s]","出力範囲: [%s, %s]"
@@ -639,8 +639,8 @@ info.apotheosis.bow_tome,Accepts bow enchantments.,弓のエンチャントを�
 info.apotheosis.broadhead_arrow,Bleeding (0:15),出血 (0:15)
 info.apotheosis.capturing,The capturing enchantment gives monsters a chance to drop their spawn egg.\n \nDrop Rate: 0.4%% per level,捕獲エンチャントはモンスターを捕獲してスポーンエッグをドロップする可能性を付与する。\n \nドロップ率:0.4%%/レベル
 info.apotheosis.chestplate_tome,Accepts chestplate enchantments.,チェストプレートのエンチャントを受け付けます。
-info.apotheosis.clues," - Enchanting Clues: %s"," - エンチャントのヒント: %s"
-info.apotheosis.clues.p," - Enchanting Clues: +%s"," - エンチャントのヒント: +%s"
+info.apotheosis.clues," - Enchanting Clues: %s",- エンチャントのヒント: %s
+info.apotheosis.clues.p," - Enchanting Clues: +%s",- エンチャントのヒント: +%s
 info.apotheosis.clues.t,Enchanting Clues: %s,エンチャントのヒント: %s
 info.apotheosis.cobweb,Can be used to remove enchantments.,エンチャントの除去に使用できる。
 info.apotheosis.containedentity,Held Entity: %s,保有エンティティ: %s
@@ -660,8 +660,8 @@ info.apotheosis.enchinfo_rarity,Rarity: %s,レアリティ: %s
 info.apotheosis.enchinfo_slot,Enchantment Slot %s,エンチャントスロット %s
 info.apotheosis.enchinfo_title,Available Enchantments,利用可能なエンチャント
 info.apotheosis.ender_lead,"The Ender Lead is an item that can be used to move animals around.  Punch an animal to capture, and right click to release it.  The leash will not work on other types of entities.",エンダーリードは動物を移動させるためのアイテムです。動物をパンチして捕獲し、右クリックでリリースします。この紐は、他のタイプのエンティティには使えません。
-info.apotheosis.eterna," - Eterna: %s"," - エテルナ: %s"
-info.apotheosis.eterna.p," - Eterna: +%s (Max %s)"," - エテルナ: +%s (最大 %s)"
+info.apotheosis.eterna," - Eterna: %s",- エテルナ: %s
+info.apotheosis.eterna.p," - Eterna: +%s (Max %s)",- エテルナ: +%s (最大 %s)
 info.apotheosis.eterna.t,Eterna: %s/%s,エテルナ: %s/%s
 info.apotheosis.eterna_at_least,Requires at least: %s/%s,最低限必要な条件: %s/%s
 info.apotheosis.eterna_at_most,But no more than: %s/%s,だがこれ以上は不可: %s/%s
@@ -691,7 +691,7 @@ info.apotheosis.improved_scrap_tome2,Destroys the item in the process.,使用す
 info.apotheosis.infusion_failed,Infusion Criteria Not Met,注入の基準を満たしていません
 info.apotheosis.item_ench,Item Enchantability: %s,エンチャント可能性: %s
 info.apotheosis.leggings_tome,Accepts legplate enchantments.,レギンスのエンチャントを受け付けます。
-info.apotheosis.library,The enchantment library is a block that stores enchantments.  Inserting an enchanted book will deposit it.  Left-clicking on a stored enchantment will extract one level of it.  Shift-clicking will extract the max level available.,エンチャント書庫はエンチャントを保存するブロックです。エンチャントされた本を入れると、その本が預けられます。保存されているエンチャントを左クリックすると、そのエンチャントが1レベル抽出されます。Shiftを押しながらクリックすると、利用可能な最大レベルが抽出されます。
+info.apotheosis.library,The enchantment library is a block that stores enchantments.  Inserting an enchanted book will deposit it.  Left-clicking on a stored enchantment will extract one level of it.  Shift-clicking will extract the max level available.,エンチャント書庫はエンチャントを保存するブロックです。エンチャントされた本を入れると、その本が預けられます。保存されているエンチャントを左クリックすると、そのエンチャントが1レベル抽出されます。シフトを押しながらクリックすると、利用可能な最大レベルが抽出されます。
 info.apotheosis.lootable,Lootable,略奪可能
 info.apotheosis.lootable.not,Not Lootable,略奪不可能
 info.apotheosis.masterwork,Masterwork,傑作
@@ -709,29 +709,29 @@ info.apotheosis.percent_exact,Requires exactly: %s%%,正確に必要: %s%%
 info.apotheosis.pickaxe_tome,Accepts pickaxe enchantments.,ツルハシのエンチャントを受け付けます。
 info.apotheosis.power_range,Power Range: %s to %s,出力範囲: %sから%s
 info.apotheosis.prismatic_cobweb,Can be used to remove curses.,呪いを除去に使用できます。
-info.apotheosis.quanta," - Quanta: %s%%"," - クアンタ: %s%%"
-info.apotheosis.quanta.p," - Quanta: +%s%%"," - クアンタ: +%s%%"
+info.apotheosis.quanta," - Quanta: %s%%",- クアンタ: %s%%
+info.apotheosis.quanta.p," - Quanta: +%s%%",- クアンタ: +%s%%
 info.apotheosis.quanta.t,Quanta: %s%%,クアンタ: %s%%
 info.apotheosis.quanta_buff,Quantic Warping,量子のゆがみ
 info.apotheosis.quanta_growth,Growth Potential: %s%%,成長の可能性: %s%%
 info.apotheosis.quanta_reduc,Reduction Potential: %s%%,削減の可能性: %s%%
 info.apotheosis.rarity_material,Rarity Material (%s),レアリティ素材 (%s)
-info.apotheosis.rectification," - Rectification: %s%%"," - 修正: %s%%"
-info.apotheosis.rectification.p," - Rectification: +%s%%"," - 修正: +%s%%"
+info.apotheosis.rectification," - Rectification: %s%%",- 修正: %s%%
+info.apotheosis.rectification.p," - Rectification: +%s%%",- 修正: +%s%%
 info.apotheosis.rectification.t,Rectification: %s%%,修正: %s%%
 info.apotheosis.rel_weights,Relative Weights,相対的重み
 info.apotheosis.runes,The Runes Reveal,ルーン文字が明かす
 info.apotheosis.runes_all,The Runes Reveal All,ルーン文字がすべてを明かす
 info.apotheosis.salvaging,Rarity Materials are obtained by salvaging Affix Items in a Salvaging Table.,レアリティ素材は、解体作業台で称号付きアイテムを解体することで入手できます。
-info.apotheosis.scrap_tome,Extracts half of the enchantments from an item.,アイテムからエンチャントの半分を抽出します。 
+info.apotheosis.scrap_tome,Extracts half of the enchantments from an item.,アイテムからエンチャントの半分を抽出します。
 info.apotheosis.scrap_tome2,Destroys the item in the process.,使用することで元のアイテムは失われます。
 info.apotheosis.slider_power,Power: %s,出力: %s
 info.apotheosis.socketing,"Gems can be socketed with a Smithing Table. Item on the left, gem on the right.
 
-Choose wisely, as removing a socketed gem is costly.","ジェムは鍛冶台でソケットすることができます。左がアイテムで、右がジェムです。
+Choose wisely, as removing a socketed gem is costly.","ジェムは鍛冶台でソケットできます。左がアイテムで、右がジェムです。
 
 ソケット加工されたジェムを取り外すにはコストがかかるので、賢明な選択をしてください。"
-info.apotheosis.spawner,Spawners can be collected with %s and may be modified with various items.,スポーナーは%sで回収でき、さまざまなアイテムで改造することができます。
+info.apotheosis.spawner,Spawners can be collected with %s and may be modified with various items.,スポーナーは%sで回収でき、さまざまなアイテムで改造できます。
 info.apotheosis.spawner.always_drop,"Spawners may be modified with various items, and will always drop when broken.",スポナーは様々なアイテムで改造することができ、壊すと必ずドロップします。
 info.apotheosis.spawner.no_silk,"Spawners may be modified with various items, but collection with Silk Touch is currently disabled.",スポナーは様々なアイテムで改造可能だが、シルクタッチでの収集は現在のところできなくなっています。
 info.apotheosis.tome_error,Bugged Item - Right click in the air to turn into an enchanted book.,バグのあるアイテム - 空中で右クリックするとエンチャント本に変わる。
@@ -836,7 +836,7 @@ item.minecraft.lingering_potion.effect.flying,Lingering Potion of Flying,飛翔�
 item.minecraft.lingering_potion.effect.grievous,Lingering Potion of Healing Reduction,致命傷の残留ポーション
 item.minecraft.lingering_potion.effect.haste,Lingering Potion of Haste,採掘速度上昇の残留ポーション
 item.minecraft.lingering_potion.effect.knowledge,Lingering Potion of Ancient Knowledge,古の知識の残留ポーション
-item.minecraft.lingering_potion.effect.resistance,Lingering Potion of Resistance," 耐性の残留ポーション"
+item.minecraft.lingering_potion.effect.resistance,Lingering Potion of Resistance,耐性の残留ポーション
 item.minecraft.lingering_potion.effect.sundering,Lingering Potion of Sundering,崩壊の残留ポーション
 item.minecraft.lingering_potion.effect.vitality,Lingering Potion of Healing Boost,漲る活力の残留ポーション
 item.minecraft.lingering_potion.effect.wither,Lingering Potion of Wither,衰弱の残留ポーション
@@ -868,7 +868,7 @@ item.minecraft.tipped_arrow.effect.haste,Arrow of Haste,採掘速度上昇の矢
 item.minecraft.tipped_arrow.effect.knowledge,Arrow of Ancient Knowledge,古の知識の矢
 item.minecraft.tipped_arrow.effect.resistance,Arrow of Resistance,耐性の矢
 item.minecraft.tipped_arrow.effect.sundering,Arrow of Sundering,崩壊の矢
-item.minecraft.tipped_arrow.effect.vitality,Arrow of Healing Boost,漲る活力のの矢
+item.minecraft.tipped_arrow.effect.vitality,Arrow of Healing Boost,漲る活力の矢
 item.minecraft.tipped_arrow.effect.wither,Arrow of Wither,衰弱の矢
 itemGroup.apotheosis.adventure,Apotheosis: Adventure Module,Apotheosis:冒険モジュール
 itemGroup.apotheosis.ench,Apotheosis: Enchanting Module,Apotheosis: エンチャントモジュール
@@ -876,8 +876,8 @@ key.apotheosis.toggle_radial_mining,Change Radial Mining Mode,放射採掘モー
 key.categories.apotheosis,Apotheosis,
 menu.apotheosis.gem_cutting,Gem Cutting,ジェム加工
 misc.apotheosis.affix_bounds,[%s - %s],[%s - %s]
-misc.apotheosis.affix_name.four,%s %s %s %s,%1$s%2$s%4$s%3$s
-misc.apotheosis.affix_name.three,%s %s %s,%1$s%3$s%2$s
+misc.apotheosis.affix_name.four,%s %s %s %s,%1$s %2$s %3$s %4$s
+misc.apotheosis.affix_name.three,%s %s %s,%1$s %2$s %3$s
 misc.apotheosis.affix_name.two,%s %s,%s%s
 misc.apotheosis.banned,Cannot be used on a Spawner,スポーナーには使用できません
 misc.apotheosis.blacklisted_potion,Cannot be converted into a Potion Charm.,ポーションチャームには変換できません。
@@ -959,7 +959,7 @@ stat.apotheosis.silent.desc,Spawned entities will make no noise,スポーンし�
 stat.apotheosis.spawn_count,Spawn Count,スポーン数
 stat.apotheosis.spawn_count.desc,The number of entities spawned at once,一度にスポーンするエンティティ数
 stat.apotheosis.spawn_range,Spawn Range,スポーン範囲
-stat.apotheosis.spawn_range.desc,The radius (in blocks) that mobs can spawn in,モブがスポーンできる半径（ブロック単位）
+stat.apotheosis.spawn_range.desc,The radius (in blocks) that mobs can spawn in,モブがスポーンできる半径(ブロック単位)
 text.apotheosis.alternative_page,Page %s/%s (scroll to change),ページ %s/%s (スクロールして変更します)
 text.apotheosis.any_x_item,Any %s Affix Item,任意の%s称号付きアイテム
 text.apotheosis.anything,Anything,何でも

@@ -17,7 +17,7 @@ error.gateways.wave_elapsed,Wave Timer Expired,ウェーブタイマー終了
 error.gateways.wave_failed,The Gateway imploded because there was not enough space to spawn the next wave,次のウェーブをスポーンさせるスペースが不足したため、ゲートが崩壊しました
 failure.gateways.chance,%s Chance of %s,%sの確率で%s
 failure.gateways.explosion,Explosion of Radius %s,半径%sの爆発
-failure.gateways.mob_effect,%s,
+failure.gateways.mob_effect,%s,%sを習得できませんでした
 failure.gateways.summon,Summons %s,%sを召喚
 gateways.basic/blaze,Blaze Gateway,ブレイズゲート
 gateways.basic/enderman,Enderman Gateway,エンダーマンゲート
@@ -32,15 +32,14 @@ info.gateways.gate_pearl,"A Gate Pearl allows you to summon a Gateway by using i
 It can only be used when the new Gateway would not be too close to another Gateway, based on the current spacing.
 ","ゲートパールはブロックに使用することでゲートを召喚できます。
 
-現在の間隔設定に基づき、他のゲートに近すぎない場所でのみ使用できます。
-"
+現在の間隔設定に基づき、他のゲートに近すぎない場所でのみ使用できます。"
 info.gateways.gate_pearl.2,"An open Gateway will fail in a burst of lightning if it cannot spawn a mob, any active mob walks too far away, or the wave timer elapses.
 
 Rewards will spawn from the Gateway as they are obtained.","開いているゲートは、モブをスポーンできない場合、アクティブなモブが遠くに離れた場合、またはウェーブタイマーが終了した場合に雷と共に失敗します。
 
 報酬は獲得時にゲートからスポーンします。"
 item.gateways.gate_pearl,Gate Pearl,ゲートパール
-itemGroup.gateways,Gateways to Eternity,
+itemGroup.gateways,Gateways to Eternity,永遠へのゲートウェイ
 modifier.gateways.gear_set,Equipped With %s,%sを装備
 name.gateways.acidic_slime,Acidic Slime,アシッドスライム
 name.gateways.butcher,Butcher,ブッチャー
@@ -68,8 +67,8 @@ rule.gateways.remove_mobs_on_failure,Remove Mobs on Failure: %s,失敗時にモ�
 rule.gateways.spacing,Spacing: %s,間隔: %s
 rule.gateways.spawn_range,Spawn Range: %s,スポーン範囲: %s
 stat.gateways.gates_defeated,Gateways Defeated,攻略したゲート数
-tooltip.gateways.alt,[alt],
-tooltip.gateways.ctrl,[ctrl],
+tooltip.gateways.alt,[alt],[Alt]
+tooltip.gateways.ctrl,[ctrl],[Ctrl]
 tooltip.gateways.dot,• %s,
 tooltip.gateways.dot_with_count,• %s %s,
 tooltip.gateways.endless.base_wave,Base Wave,基本ウェーブ
@@ -78,21 +77,21 @@ tooltip.gateways.endless.num_modif,%s Endless Modifier,%s エンドレスモデ�
 tooltip.gateways.endless.num_modifs,%s Endless Modifiers,%s エンドレスモディファイア
 tooltip.gateways.endless.setup_time,%s Setup Time,%s 準備時間
 tooltip.gateways.endless.wave_time,%s Max Wave Time,%s 最大ウェーブ時間
-tooltip.gateways.entities,Entities: ,エンティティ: 
+tooltip.gateways.entities,Entities: ,エンティティ:
 tooltip.gateways.failures,Failure Penalties,失敗ペナルティ
 tooltip.gateways.false,Disabled,無効
 tooltip.gateways.key_rewards,Key Rewards,主要報酬
-tooltip.gateways.modifiers,Modifiers: ,モディファイア: 
+tooltip.gateways.modifiers,Modifiers: ,モディファイア:
 tooltip.gateways.num_failure,%s Penalty,%s ペナルティ
 tooltip.gateways.num_failures,%s Penalties,%s ペナルティ
 tooltip.gateways.num_rule,%s Rule Change,%s ルール変更
 tooltip.gateways.num_rules,%s Rule Changes,%s ルール変更
 tooltip.gateways.num_wave,%s Wave,%s ウェーブ
 tooltip.gateways.num_waves,%s Waves,%s ウェーブ
-tooltip.gateways.rewards,Rewards: ,報酬: 
+tooltip.gateways.rewards,Rewards: ,報酬:
 tooltip.gateways.rules,Rule Changes,ルール変更
-tooltip.gateways.scroll,[scroll],
-tooltip.gateways.shift,[shift],
+tooltip.gateways.scroll,[scroll],[スクロール]
+tooltip.gateways.shift,[shift],[シフト]
 tooltip.gateways.true,Enabled,有効
 tooltip.gateways.wave,Wave %s/%s,ウェーブ %s/%s
 tooltip.gateways.with_count,%s %s,

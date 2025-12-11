@@ -105,7 +105,7 @@ advancements.minecolonies.colony_population_5.description,Time for more citizens
 advancements.minecolonies.colony_population_5.title,Hometown,故郷
 advancements.minecolonies.colony_population_50.description,50 Citizens is enough to have one of each worker - and then some!,50人の市民は各労働者を1人ずつ確保するのに十分である！
 advancements.minecolonies.colony_population_50.title,Village,村
-advancements.minecolonies.colony_population_75.description,You settled. You survived. You thrived.,あなたは定住した。あなたは生き延びた。あなたは繁栄した。
+advancements.minecolonies.colony_population_75.description,You settled. You survived. You thrived.,定住した。生き延びた。繁栄した。
 advancements.minecolonies.colony_population_75.title,Town,街
 advancements.minecolonies.complete_build_request_2_builder.description,Upgrade your Builder's Hut so you can upgrade other huts too!,建築事務所をアップグレードすると他の小屋もアップグレードできるようになります！
 advancements.minecolonies.complete_build_request_2_builder.title,Level Up!,レベルアップ！
@@ -133,7 +133,7 @@ block.blockHutTownHall.abandonaddofficer,"If you want to add yourself as an offi
 block.blockHutTownHall.abandonmessagelink,[ABANDON],[放棄]
 block.blockHutTownHall.addofficermessagelink,[ADD AS OFFICER],[オフィサーとして追加]
 block.blockHutTownHall.deletemessagelink,[DELETE],[削除]
-block.blockHutTownHall.messageplacedalready,You have placed a Town Hall already!,あなたはすでに市庁舎を設置しています！
+block.blockHutTownHall.messageplacedalready,You have placed a Town Hall already!,プレイヤーはすでに市庁舎を設置しています！
 block.blockHutTownHall.messageplacedalreadydel,"You have placed a Town Hall already. If you want to delete your colony to start a new one, click:",すでに市庁舎が存在しています。今のコロニーを消去して新しいコロニーを開始したい場合はクリックしてください。
 block.blockHutTownHall.messageplacedalreadyinfi,"You have placed a Town Hall already. If you want to delete your colony to start a new one, click [DELETE]. If you want to start a new colony but not delete your old one, click [ABANDON].",すでに市庁舎が存在しています。今のコロニーを消去して新しいコロニーを開始したい場合は[削除]をクリックします。新しいコロニーを開始したいが古いコロニーを消去しない場合は[放棄]をクリックします。
 block.blockhuttownhall.messagecitizendeathdesc,Citizen %s,市民 %s
@@ -421,13 +421,13 @@ com.minecolonies.command.citizeninfo.activity,§2Citizen state: §f%s §2Job: §
 com.minecolonies.command.citizeninfo.desc,§2ID: §f %d §2 Name: §f %s,§2ID: §f %d §2 名前: §f %s
 com.minecolonies.command.citizeninfo.food,"§2Full food history: §f%s, §2Quality: §f%d, §2Diversity: §f%d, §2Last Eaten: §f%s","§2完全な食事履歴: §f%s, §2品質: §f%d, §2多様性: §f%d, §2最後の食事: §f%s"
 com.minecolonies.command.citizeninfo.health,§2Health: §f%s §2Max Health: §f%s,§2体力: §f%s §2最大体力: §f%s
-com.minecolonies.command.citizeninfo.homepos,§2Home position: §4x=§f%s §4y=§f%s §4z=§f%s,§2住居の位置: §4x=§f%s §4y=§f%s §4z=§f%s
+com.minecolonies.command.citizeninfo.homepos,§2Home position: §4x=§f%s §4y=§f%s §4z=§f%s,§2住居の位置: x=§f%s y=§f%s z=§f%s
 com.minecolonies.command.citizeninfo.job,§2Job: §f%s,§2職業: §f%s
 com.minecolonies.command.citizeninfo.jobnull,§2Job: §fUnemployed,§2職業: §f無職
-com.minecolonies.command.citizeninfo.noactivity,§4No activity is being desired or executed!,§4No 要望する作業も実行している作業もありません！
+com.minecolonies.command.citizeninfo.noactivity,§4No activity is being desired or executed!,No 要望する作業も実行している作業もありません！
 com.minecolonies.command.citizeninfo.notfound,"Wrong citizen ID, no citizen found.",市民のIDに誤りがあります。検索できませんでした。
 com.minecolonies.command.citizeninfo.notloaded,Citizen entity not loaded!,市民のエンティティはロードされませんでした！
-com.minecolonies.command.citizeninfo.pos,§2Citizen position: §4x=§f%s §4y=§f%s §4z=§f%s,§2市民の現在地: §4x=§f%s §4y=§f%s §4z=§f%s
+com.minecolonies.command.citizeninfo.pos,§2Citizen position: §4x=§f%s §4y=§f%s §4z=§f%s,§2市民の現在地: x=§f%s y=§f%s z=§f%s
 com.minecolonies.command.citizeninfo.skills,"§2Athletics: §f%s §2Dexterity: §f%s §2Strength: §f%s
 §2Agility: §f%s §2Stamina: §f%s §2Mana: §f%s
 §2Adaptability: §f%s §2Focus: §f%s §2Creativity: §f%s
@@ -435,14 +435,14 @@ com.minecolonies.command.citizeninfo.skills,"§2Athletics: §f%s §2Dexterity: �
 §2敏捷性: §f%s §2スタミナ: §f%s §2魔力: §f%s
 §2適応性: §f%s §2集中力: §f%s §2創造性: §f%s
 §2知識: §f%s §2知能: §f%s"
-com.minecolonies.command.citizeninfo.workpos,§2Work position: §4x=§f%s §4y=§f%s §4z=§f%s,§2作業位置: §4x=§f%s §4y=§f%s §4z=§f%s
-com.minecolonies.command.citizeninfo.workposnull,§2Work position: §4No work position found!,§2作業位置: §4作業位置が見つかりません！
+com.minecolonies.command.citizeninfo.workpos,§2Work position: §4x=§f%s §4y=§f%s §4z=§f%s,§2作業位置: x=§f%s y=§f%s z=§f%s
+com.minecolonies.command.citizeninfo.workposnull,§2Work position: §4No work position found!,§2作業位置: 作業位置が見つかりません！
 com.minecolonies.command.citizenkill.success,Has been killed.,市民は処刑されました。
-com.minecolonies.command.citizenlist.next,next -> ,次へ -> 
+com.minecolonies.command.citizenlist.next,next -> ,次へ ->
 com.minecolonies.command.citizenlist.pageline,§2 ----------------,
 com.minecolonies.command.citizenlist.pagestyle,§2 | ,
-com.minecolonies.command.citizenlist.pagetop,§2   ------------------ page %d of %d ------------------,§2   ------------------ ページ %d/%d ------------------
-com.minecolonies.command.citizenlist.prev," <- prev"," <- 前へ"
+com.minecolonies.command.citizenlist.pagetop,§2   ------------------ page %d of %d ------------------,§2 ------------------ ページ %d/%d ------------------
+com.minecolonies.command.citizenlist.prev," <- prev",<- 前へ
 com.minecolonies.command.citizenmodify.success,The %s of %s is now %s.,%2$sの%1$sは現在%3$sです。
 com.minecolonies.command.citizenreload.success,Updated entity for citizen ID %s.,市民ID%sのエンティティを更新しました。
 com.minecolonies.command.citizenspawn.success,Spawned new citizen (%s).,新たな市民をスポーンしました (%s)
@@ -462,11 +462,11 @@ com.minecolonies.command.delete.confirm.final.here,Here,ここ
 com.minecolonies.command.delete.confirm.suggest.delete,Delete all buildings,すべての建物を削除
 com.minecolonies.command.delete.confirm.suggest.keep,Keep all buildings,すべての建物を維持
 com.minecolonies.command.delete.success,Created backup and deleted colony %s.,バックアップを作成し、コロニー%sを削除しました。
-com.minecolonies.command.deleteable.success,Changed deletable flag of colony ID %s. It is now set to %s.,コロニーID%sの削除フラグを変更しました。 現在%sです。
+com.minecolonies.command.deleteable.success,Changed deletable flag of colony ID %s. It is now set to %s.,コロニーID%sの削除フラグを変更しました。現在%sです。
 com.minecolonies.command.export.success,Exported colony to zip: %s,コロニーをzipにエクスポートしました: %s
 com.minecolonies.command.gui.browsebuilding.loading,searching ...,検索中...
-com.minecolonies.command.help.discord,Join the community at  ,コミュニティに参加する  
-com.minecolonies.command.help.wiki,Check out the wiki to learn more: ,詳細についてはwikiを確認してください: 
+com.minecolonies.command.help.discord,Join the community at  ,コミュニティに参加する
+com.minecolonies.command.help.wiki,Check out the wiki to learn more: ,詳細についてはwikiを確認してください:
 com.minecolonies.command.loadbackup.success,Successfully loaded backup.,バックアップが正常に読み込まれました。
 com.minecolonies.command.noentityfound,No matching entity found,一致するエンティティが見つかりませんでした
 com.minecolonies.command.notcreative,Must be in Creative Mode to use this command.,このコマンドを使用するにはクリエイティブモードになっている必要があります。
@@ -487,22 +487,22 @@ com.minecolonies.command.rtp.notallowed,You're not allowed to teleport. Change t
 com.minecolonies.command.rtp.success,Hold on tight. You're going places!,しっかり捕まって！誰かのコロニーへ飛びましょう！
 com.minecolonies.command.rtp.wrongdim,Random teleporting is only allowed in the overworld.,ランダムテレポートはオーバーワールドのみ可能です。
 com.minecolonies.command.teleport.success,Teleporting you to colony %s.,コロニー%sにテレポートします。
-com.minecolonies.command.whereami.colonyclose,You're not inside any colony. The closest colony is approx %.2f blocks away.,あなたはコロニー内にいません。もっとも近いコロニーは%.2fブロック離れています。
-com.minecolonies.command.whereami.incolony,You're inside colony %s with ID %s. The colony center is approx %.2f blocks away.,あなたは%sのコロニー内 ID%sにいます。コロニーの中心は約%.2fブロック離れています
+com.minecolonies.command.whereami.colonyclose,You're not inside any colony. The closest colony is approx %.2f blocks away.,プレイヤーはコロニー内にいません。もっとも近いコロニーは%.2fブロック離れています。
+com.minecolonies.command.whereami.incolony,You're inside colony %s with ID %s. The colony center is approx %.2f blocks away.,プレイヤーは%sのコロニー内 ID%sにいます。コロニーの中心は約%.2fブロック離れています
 com.minecolonies.command.whereami.nocolony,No close colony.,近くにコロニーはありません。
-com.minecolonies.command.whoami.hascolony,You are %s. Your colony is %s with ID %d at position %s.,あなたは%sです。あなたのコロニーは%sでIDは%d、中心は%sです。
-com.minecolonies.command.whoami.nocolony,You are %s. You do not have a colony.,あなたは%sです。あなたのコロニーはありません。
+com.minecolonies.command.whoami.hascolony,You are %s. Your colony is %s with ID %d at position %s.,プレイヤーは%sです。あなたのコロニーは%sでIDは%d、中心は%sです。
+com.minecolonies.command.whoami.nocolony,You are %s. You do not have a colony.,プレイヤーは%sです。あなたのコロニーはありません。
 com.minecolonies.configgui.title,MineColonies Config,MineColonies設定
 com.minecolonies.core.apiary.setting.both,Honeycomb and Honey,ハニカムとハチミツ
 com.minecolonies.core.apiary.setting.honey,Honey,ハチミツ
 com.minecolonies.core.apiary.setting.honeycomb,Honeycomb,ハニカム
-com.minecolonies.core.barbarians.mercy,§4Defeat! The raiders finished what they came here for to return another day!,§4敗北！襲撃者たちは、ここに来た目的を終えて別の日に戻ってきた！
+com.minecolonies.core.barbarians.mercy,§4Defeat! The raiders finished what they came here for to return another day!,敗北！襲撃者たちは、ここに来た目的を終えて別の日に戻ってきた！
 com.minecolonies.core.builder.setting.automatic,Automatic,自動
 com.minecolonies.core.builder.setting.manual,Manual,手動
 com.minecolonies.core.building.help,Help,ヘルプ
 com.minecolonies.core.building.inv_sum,Building Inventory Summary,建物インベントリの概要
 com.minecolonies.core.colony.diplomacy.status.allies,§2Ally,§2味方
-com.minecolonies.core.colony.diplomacy.status.hostile,§4Enemy,§4敵対
+com.minecolonies.core.colony.diplomacy.status.hostile,§4Enemy,敵対
 com.minecolonies.core.colony.diplomacy.status.neutral,§6Neutral,§6中立
 com.minecolonies.core.colonyconnection.fail,"Attempted to connect to another colony, but the connection is incomplete or missing a gatehouse on the other colonies side",別のコロニーに接続しようとしましたが、接続が不完全であるか、他のコロニー側に門番小屋がありません
 com.minecolonies.core.colonyconnection.path.failure,Couldn't Path from %s to %s,%sから%sへのパスができませんでした
@@ -510,7 +510,7 @@ com.minecolonies.core.colonyconnection.success,Successfully Connected %s to %s,%
 com.minecolonies.core.configsetting,Based on Config Setting,コンフィグ設定に基づく
 com.minecolonies.core.crafting.setting.maxstock,Warehouse Stock,倉庫のストック
 com.minecolonies.core.crafting.setting.priority,Priority,優先度
-com.minecolonies.core.crop.cantplant,You do not possess the necessary knowledge to plant this crop. You should ask a Colony's Farmer to plant this for you!,あなたはこの作物を植えるのに必要な知識を持っていません。農家に頼んで植えてもらうべきです！
+com.minecolonies.core.crop.cantplant,You do not possess the necessary knowledge to plant this crop. You should ask a Colony's Farmer to plant this for you!,この作物を植えるのに必要な知識を持っていません。農家に頼んで植えてもらうべきです！
 com.minecolonies.core.event.summary.citizen.born,%d kid(s) were born,%d人の子供が生まれました
 com.minecolonies.core.event.summary.citizen.died,%d citizen(s) died,%d人の市民が死亡しました
 com.minecolonies.core.event.summary.citizen.grownup,%d kid(s) grew up,%d人の子供が成長しました
@@ -531,7 +531,7 @@ com.minecolonies.core.guard.setting.patrol,Patrol,パトロール
 com.minecolonies.core.guard.setting.patrol.auto,Automatic,自動
 com.minecolonies.core.guard.setting.patrol.manual,Manual,手動
 com.minecolonies.core.guard.setting.patrol_mine,Patrol Mine,鉱坑パトロール
-com.minecolonies.core.gui.banner.patreon,Patreon exclusive,Patreon限定
+com.minecolonies.core.gui.banner.patreon,Patreon exclusive,パトレオン限定
 com.minecolonies.core.gui.colony.abandon.confirm,Abandon Colony,コロニーを放棄する
 com.minecolonies.core.gui.colony.abandon.proceed,Are you sure you wish to proceed? This action cannot be undone and you may not be able to alter certain settings in the old colony anymore!,本当に続行しますか？この操作は元に戻すことができず古いコロニーの特定の設定を変更できなくなる可能性があります！
 com.minecolonies.core.gui.colony.abandon.success,Successfully abandoned your colony!,コロニーの放棄に成功しました！
@@ -546,9 +546,9 @@ com.minecolonies.core.gui.colony.abandon.warning,"⚠ Warning ⚠
 
  - Or step down from your position as mayor and retain a role as an officer within the old colony.","⚠ 警告 ⚠ 
 
-あなたはすでに[%d %d %d]にある%sという集落を管理しています。 
+あなたはすでに[%d %d %d]にある%sという集落を管理しています。
 
-ここに別の集落を設立したい場合は、次の 2 つのオプションがあります:
+ここに別の集落を設立したい場合は、次の2 つのオプションがあります:
 
 - 既存の集落を完全に破壊し、ゴーストタウンを残す。
 
@@ -562,11 +562,11 @@ com.minecolonies.core.gui.colony.delete.warning,"⚠ Warning ⚠
 
  If you wish to establish another settlement here, you must destroy the old settlement entirely, leaving behind a ghost town.","⚠ 警告 ⚠ 
 
-あなたはすでに[%d %d %d]にある%sという集落を管理しています。 
+あなたはすでに[%d %d %d]にある%sという集落を管理しています。
 
 ここに別の集落を設立したい場合は古い集落を完全に破壊してゴーストタウンを残す必要があります。"
 com.minecolonies.core.gui.colony.destroy.success,Successfully destroyed your colony!,コロニーの破壊に成功しました！
-com.minecolonies.core.gui.colony.manage.cancel,Cancel,取消
+com.minecolonies.core.gui.colony.manage.cancel,Cancel,キャンセル
 com.minecolonies.core.gui.colony.reactivate.question,"Are you, valiant traveler, brave enough to pick up where we failed and rebuild %s to its former glory?",勇敢な旅人よ、我々が失敗したところを拾い上げて%sをかつての栄光へと再建する勇気はあるか？
 com.minecolonies.core.gui.colony.reactivate.title,Historic Record: %s,歴史的記録: %s
 com.minecolonies.core.gui.colonylist.direct.desc,Direct Connections:,直接接続:
@@ -580,7 +580,7 @@ com.minecolonies.core.gui.colonylist.travel.tooltip,Only possible for Allied col
 com.minecolonies.core.gui.connectionevent.ally_confirmed,§2Confirmed the Alliance!,§2同盟を確認しました！
 com.minecolonies.core.gui.connectionevent.ally_request,§2Requested an Alliance!,§2同盟を要請しました！
 com.minecolonies.core.gui.connectionevent.disconnected,§6Severed Ties with your Colony!,§6コロニーとのつながりが断たれました！
-com.minecolonies.core.gui.connectionevent.feud_started,§4Declared a Feud!,§4敵対を宣言しました！
+com.minecolonies.core.gui.connectionevent.feud_started,§4Declared a Feud!,敵対を宣言しました！
 com.minecolonies.core.gui.connectionevent.neutral_set,§6Set Relationship to Neutral!,§6関係を中立に設定！
 com.minecolonies.core.gui.connectioneventlist.accept_ally,Accept Alliance,同盟を受け入れる
 com.minecolonies.core.gui.connectioneventlist.desc,Connection Event List,接続イベントリスト
@@ -595,7 +595,7 @@ com.minecolonies.core.gui.modules.stats.hidezerolabel,Hide Zero Values,ゼロ値
 com.minecolonies.core.gui.nextpage,Next Page,次のページ
 com.minecolonies.core.gui.prevpage,Previous Page,前のページ
 com.minecolonies.core.gui.reactivate.button,Reinstate Settlement,集落を復元
-com.minecolonies.core.gui.reactivate.message.living,"This once thrived as a %s. With careful attention and the skilled hands of a builder, you can breathe new life into this structure, enabling citizens to once again call it home. Assign a builder to restore it to its former glory, reactivating its purpose and revitalizing the community.",ここはかつて%sとして繁栄していました。慎重な注意と建築家の熟練した手によってこの建造物に新しい命を吹き込み、市民が再びこの建物を家と呼べるようにすることができます。建築家を任命してかつての栄光を取り戻し、その目的を再活性化させ、コミュニティを活性化させましょう。
+com.minecolonies.core.gui.reactivate.message.living,"This once thrived as a %s. With careful attention and the skilled hands of a builder, you can breathe new life into this structure, enabling citizens to once again call it home. Assign a builder to restore it to its former glory, reactivating its purpose and revitalizing the community.",ここはかつて%sとして繁栄していました。慎重な注意と建築家の熟練した手によってこの建造物に新しい命を吹き込み、市民が再びこの建物を家と呼べるようにできます。建築家を任命してかつての栄光を取り戻し、その目的を再活性化させ、コミュニティを活性化させましょう。
 com.minecolonies.core.gui.reactivate.message.working,"This building once hummed with the activity of a %s. By initiating its reactivation, you'll open doors for citizens to resume their work here. Entrust a skilled builder with its repair, restoring it to its former functionality and igniting productivity once more.",この建物はかつて%sの活動で賑わっていました。再活性化を開始することで市民がここで仕事を再開できるようになります。熟練した建築家に修理を依頼して以前の機能を回復し、生産性を再び高めましょう。
 com.minecolonies.core.gui.restaurant.foodquality,Eaten up to Residence level: %d,居住レベルまで消費: %d
 com.minecolonies.core.gui.restaurant.vanillafoodquality,Citizens get only 25% nutrition from this food!,市民はこの食べ物から栄養の25%しか摂取していません！
@@ -612,9 +612,9 @@ com.minecolonies.core.item.colonymap.playerresolvedrequests.count,Unmet Needs: %
 com.minecolonies.core.item.colonymap.registered,Drawing mapdata on the colony map from %s.,%sからのコロニー地図上にマップデータを描画しています。
 com.minecolonies.core.item.colonysign.tip,"Shift-right-click a Gatehouse to begin.
 Place signs every 50 blocks along the path to the other colony.
-Shift-right-click the target Gatehouse or Colony Sign to complete the connection.","門番小屋をShiftキーを押しながら右クリックして開始します。
+Shift-right-click the target Gatehouse or Colony Sign to complete the connection.","門番小屋をシフトキーを押しながら右クリックして開始します。
 他のコロニーへの道に沿って50ブロックごとに看板を設置します。
-対象の門番小屋またはコロニーの看板をShiftキーを押しながら右クリックして接続を完了します。"
+対象の門番小屋またはコロニーの看板をシフトキーを押しながら右クリックして接続を完了します。"
 com.minecolonies.core.item.colonysign.tip.colony,Colony Id Set: %d,コロニーIDセット: %d
 com.minecolonies.core.item.crop.tooltip,Ask a Farmer to plant this for you,農家に頼んで植えてもらう
 com.minecolonies.core.item.crop.tooltip.biome.coldbiomes,Only suitable for Cold Biomes,寒冷バイオームにのみ適しています
@@ -632,7 +632,7 @@ com.minecolonies.core.item.food.tooltip.tier.3,This food will make your citizens
 com.minecolonies.core.item.sign.connected,Successfully connected sign %s to %s,看板%sを%sに正常に接続しました
 com.minecolonies.core.item.sign.disrupted,Connection to Sign at %s disrupted,%sの看板への接続が中断されました
 com.minecolonies.core.item.sign.missinglink,The link of signs does not lead back to a gate house. Fix this first before expanding the connection.,看板のリンクが門番小屋に戻っていません。接続を拡張する前に、まずこれを修正してください。
-com.minecolonies.core.item.sign.needcolony,No colony set (sneak + use the sign on a gate house or a previous sign),コロニー設定されていません(門番小屋の看板または以前の看板をスニークで使用）
+com.minecolonies.core.item.sign.needcolony,No colony set (sneak + use the sign on a gate house or a previous sign),コロニー設定されていません(門番小屋の看板または以前の看板をスニークで使用)
 com.minecolonies.core.item.sign.noperm,No permission to setup signs. Needs Manage Huts permission.,看板を設置する権限がありません。小屋の管理権限が必要です。
 com.minecolonies.core.item.sign.nullcolony,Colony not found. Colony of Sign might've been deleted.,コロニーが見つかりません。看板のコロニーが削除された可能性があります。
 com.minecolonies.core.item.sign.registered,Noted %s on the sign.,看板に%sと記されています。
@@ -661,9 +661,9 @@ com.minecolonies.coremod.action.builder.upgrading,"Upgrading %s
 %d > %d"
 com.minecolonies.coremod.ai.betterfood,Can I have better food please?,もっといいものを食べさせてくれないか？
 com.minecolonies.coremod.ai.betterfood.children,Ew! I don't want to eat that!,うわぁ！それは食べたくない！
-com.minecolonies.coremod.ai.nohospital,I have %s and need to be cured with %s! Please build a Hospital (or give me the items directly).,私は %s に罹り、 %s で治療する必要があります！ 病院を建ててください (もしくはアイテムを直接ください)。
+com.minecolonies.coremod.ai.nohospital,I have %s and need to be cured with %s! Please build a Hospital (or give me the items directly).,私は %s に罹り、%s で治療する必要があります！ 病院を建ててください(もしくはアイテムを直接ください)。
 com.minecolonies.coremod.ai.norestaurant,Please build a dining hall or get me something to eat!,食堂を建てるか何か食べ物を買ってきてください！
-com.minecolonies.coremod.ai.waitingforcure,I'm waiting to be cured of %s and need to be cured with %s!,私は %s で療養中で、 %s で治療する必要があります！
+com.minecolonies.coremod.ai.waitingforcure,I'm waiting to be cured of %s and need to be cured with %s!,私は %s で療養中で、%s で治療する必要があります！
 com.minecolonies.coremod.ai.wrongfood,The food I have is too raw to eat!,持っている食材が生々しすぎて食べられない！
 com.minecolonies.coremod.armorlevel.0,Leather,革
 com.minecolonies.coremod.armorlevel.1,Gold,金
@@ -722,7 +722,7 @@ com.minecolonies.coremod.entity.citizen.raid,Help! The colony is being raided. I
 com.minecolonies.coremod.entity.citizen.raining,"I don't like staying out in the rain, my clothes are gonna get wet.",雨の中で外にいるのは好きじゃない。服が濡れてしまうから。
 com.minecolonies.coremod.entity.citizen.sleep,All citizens are tucked into bed.,全市民が就寝しました。
 com.minecolonies.coremod.entity.citizen.sleeping,zZzz... I want to sleep... Why are you bothering me?,zZzz... 眠たい... なんで邪魔するの？
-com.minecolonies.coremod.error.supplychestalreadyplaced,You have already placed a Supply Ship or Camp in this world!,あなたは既に支給キャンプ・シップを設置済みです！
+com.minecolonies.coremod.error.supplychestalreadyplaced,You have already placed a Supply Ship or Camp in this world!,既に支給キャンプ・シップを設置済みです！
 com.minecolonies.coremod.finished,Finished!,完了!
 com.minecolonies.coremod.florist.nocompost,I need compost to plant my flowers!,花を植えるのに堆肥が必要なんです！
 com.minecolonies.coremod.florist.noflowers,"I can't work, all my flowers are disabled!",全ての花が使えないので仕事にならない！
@@ -750,13 +750,13 @@ com.minecolonies.coremod.gui.barracks.spies.desc,"During raids, you can hire spi
 com.minecolonies.coremod.gui.barracks.spieshire,Hire,雇う
 com.minecolonies.coremod.gui.beekeeper.addhives,Get hive tool,巣の設定ツール
 com.minecolonies.coremod.gui.blocks.distance,%d blocks,%d ブロック
-com.minecolonies.coremod.gui.builder.cancel,Cancel,取消
+com.minecolonies.coremod.gui.builder.cancel,Cancel,キャンセル
 com.minecolonies.coremod.gui.builder.select,Assign,割当て
 com.minecolonies.coremod.gui.building.rename.title,Rename Your Building,建物の名前を変更する
 com.minecolonies.coremod.gui.buildingassignmentmode,Building Assignment Mode:,建設割当モード:
 com.minecolonies.coremod.gui.buildinghiremode,Building Hiring Mode:,建物の雇用モード:
 com.minecolonies.coremod.gui.buildtool.nohutininventory,The hut block was not found in your inventory.,小屋ブロックを所持していません。
-com.minecolonies.coremod.gui.buildtool.wrongcolony,The building was picked up in colony %d. You can only place it in that colony now!,レベルを保持した建築ブロックを取得しました。これはコロニー%dでのみ再設置できます 。
+com.minecolonies.coremod.gui.buildtool.wrongcolony,The building was picked up in colony %d. You can only place it in that colony now!,レベルを保持した建築ブロックを取得しました。これはコロニー%dでのみ再設置できます。
 com.minecolonies.coremod.gui.chat.andromeda,"We have come on our journey to visit all the corners of the universe. However, this seems like a nice place to rest for a couple moments. Prepared to provide research related services in payment for exotic minerals.",私たちは宇宙の隅々まで訪れる旅に出ました。しかしここはしばらく休むにはいい場所のようです。珍しい鉱物と引き換えに研究関連サービスを提供する用意があります。
 com.minecolonies.coremod.gui.chat.arston,"I am Arston, former military advisor and general of the draconian army. I can offer my expertise to run and strengthen your army",私は元軍事顧問でドラコニア軍の将軍であるアーストンであります。貴殿の軍隊の運営と強化に専門知識を提供できます。
 com.minecolonies.coremod.gui.chat.cammy,"I am an elven brewmaster from the fallen Silverleaf Realm, roaming MineColonies offering exotic brews, seeking allies to reclaim his homeland's lost magic and glory",私は滅びたシルバーリーフ王国出身のエルフの醸造家で、鉱山コロニーを歩き回りエキゾチックな醸造酒を提供しながら故郷の失われた魔法と栄光を取り戻すために仲間を探してるんだ
@@ -786,12 +786,12 @@ com.minecolonies.coremod.gui.chat.notenoughitems,You do not have the fitting ite
 com.minecolonies.coremod.gui.chat.notnow,Maybe later,また後で
 com.minecolonies.coremod.gui.chat.okay,I will work on it!,頑張ります！
 com.minecolonies.coremod.gui.chat.potatogod,"I used to be just Jack then I made a bet with the Devil.. What was his name?.. 'Ray', I think. Anyways, being a cactus has.. interrupted my relationships. I've been wandering these lands for as long as I can remember. Then finally, I saw your pathetic village and thought 'hmm.. someone that lame could definitely use my help!'",昔はただのジャックだった...だが悪魔と賭けをした... 彼の名前は？「レイ」だったと思う。とにかくサボテンになったことで...人間関係を邪魔されたんだ。物心ついたときからこの土地をさまよっていた。そしてついに君の哀れな村を見て、「うーん......あんなにいい加減な奴は絶対に俺の助けが必要だ！」と思ったんだ。
-com.minecolonies.coremod.gui.chat.recruit,Recruit for ,採用アイテム 
+com.minecolonies.coremod.gui.chat.recruit,Recruit for ,採用アイテム
 com.minecolonies.coremod.gui.chat.recruitcost,I would be willing to join your colony for %d.,私は%dであなたのコロニーに参加したい。
 com.minecolonies.coremod.gui.chat.recruitstory1,"I come from a cold place up north. Hoping to find a warmer place, I stopped by your tavern.",私は北の寒いところから来たんだ。暖かい場所を求めて、あなたの酒場に立ち寄ったんだ。
 com.minecolonies.coremod.gui.chat.recruitstory10,"I have excellent masonry skills, but my father wanted a cowhand instead.",私には優れた石工の技術があるが、父は代わりに牛飼いを望んだ。
 com.minecolonies.coremod.gui.chat.recruitstory11,"I am a noble from a distant town, I'll surely become the governor of this tiny colony soon.",我は遠くの町から来た貴族である。我はきっとすぐにこの小さなコロニーの総督になると考えている。
-com.minecolonies.coremod.gui.chat.recruitstory12,*mumbles* mae tree force bee wich you.,*つぶやき* mae tree force bee wich you.
+com.minecolonies.coremod.gui.chat.recruitstory12,*mumbles* mae tree force bee wich you.,*つぶやき* mae tree force 蜂 wich you.
 com.minecolonies.coremod.gui.chat.recruitstory13,"I have seen many towns, but none as beautiful as this.",私は多くの町を見てきましたが、これほど美しい町はなかったです。
 com.minecolonies.coremod.gui.chat.recruitstory14,I come from a neighboring town where I worked as a Carpenter.,私は隣町の出身で大工として働いていました。
 com.minecolonies.coremod.gui.chat.recruitstory15,"I am from a place where the old, dusty books live. But after living so long in between these books, I needed to see other people.",私は古くてほこりっぽい本がたくさんある場所から来ました。でも、その本たちの間で長い間暮らしていたら他の人と会いたくなったんです。
@@ -844,7 +844,7 @@ com.minecolonies.coremod.gui.citizen.job.skills.stamina,Stamina,スタミナ
 com.minecolonies.coremod.gui.citizen.job.skills.strength,Strength,筋力
 com.minecolonies.coremod.gui.citizen.main,Info,情報
 com.minecolonies.coremod.gui.citizen.requests,Open requests:,未解決のリクエスト
-com.minecolonies.coremod.gui.citizen.requestscancel,Cancel,取消
+com.minecolonies.coremod.gui.citizen.requestscancel,Cancel,キャンセル
 com.minecolonies.coremod.gui.citizen.requestsfulfill,Fulfill,満たす
 com.minecolonies.coremod.gui.citizen.requesttitle,Requests,リクエスト
 com.minecolonies.coremod.gui.citizen.skills,Skills,スキル
@@ -866,17 +866,17 @@ com.minecolonies.coremod.gui.colony.create.failed,"Oopsy, just noticed you alrea
 com.minecolonies.coremod.gui.colony.create.notileentity,"Missing tile entity for the Town Hall block, try placing it down again!",市庁舎ブロックのタイルの実体がありません。もう一度置いてみてください！
 com.minecolonies.coremod.gui.colony.delete,Delete own colony,所有コロニーを削除
 com.minecolonies.coremod.gui.colony.delete.cancel,§2Don't delete!,§2いいえ、削除しません！
-com.minecolonies.coremod.gui.colony.delete.confirm,"§4Yes, delete!",§4はい、削除します！
-com.minecolonies.coremod.gui.colony.delete.notfound,You do not currently own a colony to delete!,あなたは現在、削除するコロニーを所有していません！
+com.minecolonies.coremod.gui.colony.delete.confirm,"§4Yes, delete!",はい、削除します！
+com.minecolonies.coremod.gui.colony.delete.notfound,You do not currently own a colony to delete!,プレイヤーは現在、削除するコロニーを所有していません！
 com.minecolonies.coremod.gui.colony.delete.success,Successfully deleted your colony!,コロニーの削除に成功しました！
-com.minecolonies.coremod.gui.colony.denied.existing,"§l§4There is an existing colony you own, delete it before creating a new one.",§l§4所有している既存のコロニーがあるので、それを削除してから新しいコロニーを作成してください。
-com.minecolonies.coremod.gui.colony.denied.existingandabandon,"§4There is an existing colony you own, delete or abandon it before creating a new one.",§4所有している既存のコロニーがあるので、それを削除または放棄してから新しいコロニーを作成してください。
-com.minecolonies.coremod.gui.colony.denied.tooclose,§l§4 Colony %s is too close.,§l§4 コロニー%sが近すぎます。
-com.minecolonies.coremod.gui.colony.here,You are inside %s owned by %s,あなたは%s （所有者: %s）にいます。
+com.minecolonies.coremod.gui.colony.denied.existing,"§l§4There is an existing colony you own, delete it before creating a new one.",所有している既存のコロニーがあるので、それを削除してから新しいコロニーを作成してください。
+com.minecolonies.coremod.gui.colony.denied.existingandabandon,"§4There is an existing colony you own, delete or abandon it before creating a new one.",所有している既存のコロニーがあるので、それを削除または放棄してから新しいコロニーを作成してください。
+com.minecolonies.coremod.gui.colony.denied.tooclose,§l§4 Colony %s is too close.,コロニー%sが近すぎます。
+com.minecolonies.coremod.gui.colony.here,You are inside %s owned by %s,%s (所有者: %s)にいます。
 com.minecolonies.coremod.gui.colony.near,Colony with ID %d is nearby.,ID%dのコロニーが近くに存在します。
 com.minecolonies.coremod.gui.colony.none,You do not currently own a colony.,現在、あなたはコロニーを所有していません。
 com.minecolonies.coremod.gui.colony.nonenearby,No nearby colony found.,近くにコロニーはありません。
-com.minecolonies.coremod.gui.colony.own,You own an existing colony at %s.,あなたは%sに既存のコロニーを所有しています。
+com.minecolonies.coremod.gui.colony.own,You own an existing colony at %s.,プレイヤーは%sに既存のコロニーを所有しています。
 com.minecolonies.coremod.gui.colony.packdesc,Current Pack: %s,現在のパック: %s
 com.minecolonies.coremod.gui.cowboy.collect,Collecting Milk,牛乳を収集する
 com.minecolonies.coremod.gui.cowboy.notcollect,Not Collecting Milk,牛乳を収集しない
@@ -950,7 +950,7 @@ com.minecolonies.coremod.gui.home.assign,Assign %d citizens,市民を%dに割り
 com.minecolonies.coremod.gui.home.assigned,Assigned Citizens: %d/%d,割り当てられた市民: %d/%d
 com.minecolonies.coremod.gui.home.current,Current home: %d %d %d,現在のホーム: %d %d %d
 com.minecolonies.coremod.gui.home.currently,Current work distance: %d blocks,現在の作業距離: %dブロック
-com.minecolonies.coremod.gui.home.hire.warning,Turn the hiring mode of this hut (or colony) to manual to remove this citizen or assign another one.,この小屋(またはコロニー)の雇用モードを手動にすると、この市民の割り当てを解除したり別の市民を割り当てたりすることができます。
+com.minecolonies.coremod.gui.home.hire.warning,Turn the hiring mode of this hut (or colony) to manual to remove this citizen or assign another one.,この小屋(またはコロニー)の雇用モードを手動にすると、この市民の割り当てを解除したり別の市民を割り当てたりできます。
 com.minecolonies.coremod.gui.home.homeless,Homeless,ホームレス
 com.minecolonies.coremod.gui.home.liveshere,Lives here,居住地
 com.minecolonies.coremod.gui.home.manage,Manage Housing,住宅管理
@@ -975,7 +975,7 @@ com.minecolonies.coremod.gui.progress.res,Supplied %s / Used %s,供給済 %s / �
 com.minecolonies.coremod.gui.progress.step,Step %d/%d,ステップ %d/%d
 com.minecolonies.coremod.gui.quarry.desc,"To start the Quarry construct a Mine, hire a Quarrier and assign the Quarrier to the Quarry",採石場を開始するには鉱山を建設し、採石師を雇い、採石師に採石場を割り当てます。
 com.minecolonies.coremod.gui.reactivate.button,Reactivate,再有効化
-com.minecolonies.coremod.gui.reactivate.message,This building was abandoned together with this colony a long time ago. You can reactivate this building to allow citizens to live or work here. Let a builder repair it to restore it to its initial state.,この建物は、このコロニーと一緒にずっと前に放棄されました。この建物を再活性化すると、市民がここに住んだり働いたりできるようにすることができます。建築家に修理を依頼して、初期状態に戻してもらいましょう。
+com.minecolonies.coremod.gui.reactivate.message,This building was abandoned together with this colony a long time ago. You can reactivate this building to allow citizens to live or work here. Let a builder repair it to restore it to its initial state.,この建物は、このコロニーと一緒にずっと前に放棄されました。この建物を再活性化すると、市民がここに住んだり働いたりできるようにできます。建築家に修理を依頼して、初期状態に戻してもらいましょう。
 com.minecolonies.coremod.gui.recipe.disable,Disable,無効
 com.minecolonies.coremod.gui.recipe.done,Successfully saved recipe!,レシピの保存に成功しました！
 com.minecolonies.coremod.gui.recipe.enable,Enable,有効
@@ -995,7 +995,7 @@ com.minecolonies.coremod.gui.showemployed,Show employed?,雇用済み市民を�
 com.minecolonies.coremod.gui.structure.delete.title,Delete Structure,構造物を破棄する
 com.minecolonies.coremod.gui.tavern.visitordeath,The visitor %s died from %s at %s and word spreads around that your Tavern is a dangerous place. You are likely to see fewer visitors in the future!,訪問者%sは%sにより%sで死亡し、あなたの酒場は危険な場所だという噂が広まりました。今後は訪問者が減る可能性があります。
 com.minecolonies.coremod.gui.tooldesc.scepterbeekeeper,Right-click a beehive with the tool to add it to the hut. Right-click any other block to discard the tool.,ツールでミツバチの巣を右クリックして小屋に追加します。ツールを処分するには他のブロックを右クリックします。
-com.minecolonies.coremod.gui.tooldesc.scepterguard,Right click positions to mark as guard or patrol points. Right-click the same position to close and discard.,右クリックでガード地点や巡回地点としてマークします。同じ位置を右クリックして閉じて処分することができます。
+com.minecolonies.coremod.gui.tooldesc.scepterguard,Right click positions to mark as guard or patrol points. Right-click the same position to close and discard.,右クリックでガード地点や巡回地点としてマークします。同じ位置を右クリックして閉じて処分できます。
 com.minecolonies.coremod.gui.tooldesc.scepterlumberjack,Restrict the Forester's working zone (in 3D) by right-clicking one corner and left-clicking the opposite corner with the tool (allowing for height).,木こりの作業領域(3D)を制限するには片方の角を右クリックし、ツールで反対側の角(高さを調整できます)を左クリックします。
 com.minecolonies.coremod.gui.townHall.map,Town Map,市街地図
 com.minecolonies.coremod.gui.townhall.actions,Home,ホーム
@@ -1046,7 +1046,7 @@ com.minecolonies.coremod.gui.townhall.happiness.idleatjob,Idling as a Worker,ニ
 com.minecolonies.coremod.gui.townhall.happiness.mysticalsite,Mystical Sites,神秘の祭壇
 com.minecolonies.coremod.gui.townhall.happiness.quest,Quest,クエスト
 com.minecolonies.coremod.gui.townhall.happiness.raidwithoutdeath,Raids without Deaths,死者のないレイド
-com.minecolonies.coremod.gui.townhall.happiness.saturation,Hunger,満腹度
+com.minecolonies.coremod.gui.townhall.happiness.saturation,Hunger,空腹
 com.minecolonies.coremod.gui.townhall.happiness.school,Kids in School,学校の子供たち
 com.minecolonies.coremod.gui.townhall.happiness.security,Guards in the Colony,コロニー内のガード数
 com.minecolonies.coremod.gui.townhall.happiness.slepttonight,Getting Sleep,睡眠の確保
@@ -1060,7 +1060,7 @@ com.minecolonies.coremod.gui.townhall.jobhiring.tooltip,Automatically assigns ci
 com.minecolonies.coremod.gui.townhall.mercenary,Hire Mercenaries,傭兵を呼ぶ
 com.minecolonies.coremod.gui.townhall.mercenary.title,Mercenary Help,傭兵について
 com.minecolonies.coremod.gui.townhall.mercenaryhire,Hire,雇う
-com.minecolonies.coremod.gui.townhall.mercenarystory,"You've encountered some Mercenaries near your colony, and they offer to help with defending your colony. A price they did not name, but you get the feeling that they will not leave bare-handed. Hire at your own risk!",あなたはコロニーの周辺で小さな傭兵団に遭遇しました。彼らはあなたのコロニーの警備を申し出てきます。対価を求めない彼らの態度には何か裏を感じます。リスク覚悟で彼らを雇うかどうかはあなた次第でしょう。
+com.minecolonies.coremod.gui.townhall.mercenarystory,"You've encountered some Mercenaries near your colony, and they offer to help with defending your colony. A price they did not name, but you get the feeling that they will not leave bare-handed. Hire at your own risk!",プレイヤーはコロニーの周辺で小さな傭兵団に遭遇しました。彼らはあなたのコロニーの警備を申し出てきます。対価を求めない彼らの態度には何か裏を感じます。リスク覚悟で彼らを雇うかどうかはあなた次第でしょう。
 com.minecolonies.coremod.gui.townhall.movein,New citizens spawning:,新規市民のスポーン:
 com.minecolonies.coremod.gui.townhall.movein.tooltip,Controls children and initial citizen spawning,子供と市民の初期スポーンを管理します
 com.minecolonies.coremod.gui.townhall.off,Off,オフ
@@ -1081,7 +1081,7 @@ com.minecolonies.coremod.gui.townhall.population.each,%s: %d/%d,
 com.minecolonies.coremod.gui.townhall.population.florists,Florists: %d/%d,花屋: %d/%d
 com.minecolonies.coremod.gui.townhall.population.healers,Healers: %d/%d,治癒士: %d/%d
 com.minecolonies.coremod.gui.townhall.population.researchers,Researchers: %d/%d,研究員: %d/%d
-com.minecolonies.coremod.gui.townhall.population.totalcitizens,Number of Citizens: ,市民の数: 
+com.minecolonies.coremod.gui.townhall.population.totalcitizens,Number of Citizens: ,市民の数:
 com.minecolonies.coremod.gui.townhall.population.totalcitizens.configlimited,Reached Configured Limit,設定の上限に達した
 com.minecolonies.coremod.gui.townhall.population.totalcitizens.count,%d/%d,
 com.minecolonies.coremod.gui.townhall.population.totalcitizens.houselimited,Needs Housing,住宅不足
@@ -1165,7 +1165,7 @@ com.minecolonies.coremod.gui.townhall.tape.tooltip,Controls construction tape be
 com.minecolonies.coremod.gui.townhall.togglespec,Toggle Specialization,専門性の切り替え
 com.minecolonies.coremod.gui.townhall.toolow,Town Hall level too low!,市庁舎のレベルが低すぎます！
 com.minecolonies.coremod.gui.townhall.tp,Do you really want to teleport to %s? [YES],%sにテレポートしてよろしいですか？ [YES]
-com.minecolonies.coremod.gui.townhall.visual,§lCosmetic Options:,§lコスメティックオプション:
+com.minecolonies.coremod.gui.townhall.visual,§lCosmetic Options:,コスメティックオプション:
 com.minecolonies.coremod.gui.townhall.workorders,Work Orders,作業の指示
 com.minecolonies.coremod.gui.townhall.workorders.empty,No work orders,作業指示なし
 com.minecolonies.coremod.gui.townhalltab.actions,Home,ホーム
@@ -1196,7 +1196,7 @@ com.minecolonies.coremod.gui.workerhuts.bad_style,Wrong Style!,形状がおか�
 com.minecolonies.coremod.gui.workerhuts.barbpoints,Last Barbarian Spawns,最後の蛮族の出現
 com.minecolonies.coremod.gui.workerhuts.barbpoints.current,Current Barbarian Position,現在の蛮族の位置
 com.minecolonies.coremod.gui.workerhuts.build,Build Building,建築を開始する
-com.minecolonies.coremod.gui.workerhuts.buildprio,Pickup Prio.: ,集荷優先順位: 
+com.minecolonies.coremod.gui.workerhuts.buildprio,Pickup Prio.: ,集荷優先順位:
 com.minecolonies.coremod.gui.workerhuts.buildrepair,Build Options,建築オプション
 com.minecolonies.coremod.gui.workerhuts.buildtype,Building Style:,建築スタイル:
 com.minecolonies.coremod.gui.workerhuts.calculate,Recalculate List,リストを初期状態に戻す
@@ -1210,7 +1210,7 @@ com.minecolonies.coremod.gui.workerhuts.crafting,Teach Recipe,レシピを教え
 com.minecolonies.coremod.gui.workerhuts.crushersettings,Settings,設定
 com.minecolonies.coremod.gui.workerhuts.deconstruct,Deconstruct,解体
 com.minecolonies.coremod.gui.workerhuts.deliveryman.deliveries,Deliveries,配達
-com.minecolonies.coremod.gui.workerhuts.deliveryman.priority,Priority: ,優先度: 
+com.minecolonies.coremod.gui.workerhuts.deliveryman.priority,Priority: ,優先度:
 com.minecolonies.coremod.gui.workerhuts.deliveryprio.never,Never,供給しない
 com.minecolonies.coremod.gui.workerhuts.druid,Druid,僧侶
 com.minecolonies.coremod.gui.workerhuts.fields,Fields,畑
@@ -1303,7 +1303,7 @@ com.minecolonies.coremod.gui.workerhuts.unassign,Remove Citizen,市民を退去�
 com.minecolonies.coremod.gui.workerhuts.upgrade,Upgrade,アップグレード
 com.minecolonies.coremod.gui.workerhuts.upgradeunavailable,No Upgrade Available,アップグレード不可
 com.minecolonies.coremod.gui.workerhuts.warehouse.couriers,Couriers,配達員
-com.minecolonies.coremod.gui.workerhuts.workerassigned,§lAssigned Workers:,§l割り当て済み労働者:
+com.minecolonies.coremod.gui.workerhuts.workerassigned,§lAssigned Workers:,割り当て済み労働者:
 com.minecolonies.coremod.gui.workerhuts.workorder,Work Orders,作業の指示
 com.minecolonies.coremod.gui.xofz,%d of %d,%d / %d
 com.minecolonies.coremod.healer.fullinv,"My inventory is full, I can't receive the cure!",インベントリが一杯でお薬が受け取れないんだけど！
@@ -1312,7 +1312,7 @@ com.minecolonies.coremod.hut.incolony,Has to be placed inside a Colony,コロニ
 com.minecolonies.coremod.in_progress,In Progress,進行中
 com.minecolonies.coremod.info.baker.0,"The Baker is part of the food production of your colony. They will bake bread, cookies, pumpkin pie, and/or cake. On page two of the Bakery GUI, you can select which items you want them to make.",パン屋はあなたのコロニーの食料生産の一翼を担います。彼らは、パン、クッキー、パンプキンパイ、ケーキを焼きます。パン屋のGUIの2ページ目で、どのアイテムを作らせるかを選択できます。
 com.minecolonies.coremod.info.baker.0.name,Introduction,はじめに
-com.minecolonies.coremod.info.baker.1,The Baker cannot make any food with items that are not consumed in the making like pots and pans. These are usually from mods like Pam's.,パン屋は鍋やフライパンのようなクラフトするときに消費されないものを使って料理を作ることはできません。これらは通常Pam'sのようなMODのものです。
+com.minecolonies.coremod.info.baker.1,The Baker cannot make any food with items that are not consumed in the making like pots and pans. These are usually from mods like Pam's.,パン屋は鍋やフライパンのようなクラフトするときに消費されないものを使って料理を作ることはできません。これらは通常PamのようなMODのものです。
 com.minecolonies.coremod.info.baker.1.name,Restrictions,制限事項
 com.minecolonies.coremod.info.baker.2,"Now let's cover some frequently asked questions:
 
@@ -1346,7 +1346,7 @@ com.minecolonies.coremod.info.barracks.2,"Now let's cover some frequently asked 
 A 1. 可能です。ただし、兵舎塔のレベルは、その兵舎が所属する兵舎を基準に決定されます。そのため、レベル5の兵舎を1つ持っていても、2つ目の兵舎がレベル1であれば、その兵舎にはレベル1の塔を1つしか持つことができません。"
 com.minecolonies.coremod.info.barracks.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.barrackstower.0,"The Barracks Tower is the heart of your military defense. Each Barracks Tower employs 1 Guard per level for a total of 5. However, the Guards will also live in the tower, freeing up beds for more citizens.
-There are two different types of Guards, Knights and Archers. Knights use swords, while Archers use bows.","兵舎塔は軍事防衛の中心です。各兵舎塔は1レベルにつき1人のガードを雇い、合計5人のガードを配置します。ただし、ガードは塔の中でも生活するため、より多くの市民のためにベッドを確保することができます。
+There are two different types of Guards, Knights and Archers. Knights use swords, while Archers use bows.","兵舎塔は軍事防衛の中心です。各兵舎塔は1レベルにつき1人のガードを雇い、合計5人のガードを配置します。ただし、ガードは塔の中でも生活するため、より多くの市民のためにベッドを確保できます。
 ガードには騎士と射手の2種類がある。騎士は剣を使い、射手は弓を使います。"
 com.minecolonies.coremod.info.barrackstower.0.name,Introduction,はじめに
 com.minecolonies.coremod.info.barrackstower.1,"Now let's cover restrictions:
@@ -1361,11 +1361,11 @@ com.minecolonies.coremod.info.barrackstower.1,"Now let's cover restrictions:
  ","それでは制限事項を説明します。
 
  1. ガードは小屋のレベルに応じて特定の道具のレベルをアンロックします。
-   Lv0. 木/金の道具
-   Lv1. 石の道具
-   Lv2. 鉄の道具
-   Lv3. ダイヤモンドの道具
-   Lv4～5 エンチャントされた道具 "
+ Lv0. 木/金の道具
+ Lv1. 石の道具
+ Lv2. 鉄の道具
+ Lv3. ダイヤモンドの道具
+ Lv4～5 エンチャントされた道具"
 com.minecolonies.coremod.info.barrackstower.1.name,Restrictions,制限事項
 com.minecolonies.coremod.info.barrackstower.2,"Now let's cover some frequently asked questions:
 
@@ -1373,7 +1373,7 @@ com.minecolonies.coremod.info.barrackstower.2,"Now let's cover some frequently a
    A 1. Guards will not ask for updated equipment until they use up their current equipment.","それでは、よくあるご質問を取り上げます。
 
  Q 1. 兵舎塔のレベルが上がりましたが、衛兵が上位の装備を要求してきません。
-   A 1. ガードは現在の装備を使い切るまで、更新された装備を要求してきません。"
+ A 1. ガードは現在の装備を使い切るまで、更新された装備を要求してきません。"
 com.minecolonies.coremod.info.barrackstower.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.barrackstower.3,"As all workers do, the Guards level up while working.
  At higher levels, a Guard's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
@@ -1387,7 +1387,7 @@ com.minecolonies.coremod.info.builder.0,"The Builder is the heart of your colony
  For your Builder to build, upgrade, reposition, or repair a hut that isn't their own, their hut must be at least the same level as the other hut. For example, the Builder's Hut must be level 3 or above to build a level 3 hut.","建築家はコロニーの心臓部です。彼らがいなければ何もできないでしょう！
  建築家以外のすべての小屋作業員は、自分の建物を少なくともレベル1まで建てないと何もできません。もし建築家が小屋をレベル0(小屋がない状態)にしている場合、建築できるのは自分の小屋だけです。
 
- 建築家が自分の小屋以外の小屋を建築、アップグレード、再配置、 修理するためにはその小屋が他の小屋と同じレベル以上でなければな りません。例えば、レベル3の小屋を建てるためには、建築家の小屋はレベル3以上でなければなりません。"
+ 建築家が自分の小屋以外の小屋を建築、アップグレード、再配置、修理するためにはその小屋が他の小屋と同じレベル以上でなければなりません。例えば、レベル3の小屋を建てるためには、建築家の小屋はレベル3以上でなければなりません。"
 com.minecolonies.coremod.info.builder.0.name,Introduction,はじめに
 com.minecolonies.coremod.info.builder.1,"Let's cover builder restrictions:
 
@@ -1401,13 +1401,13 @@ com.minecolonies.coremod.info.builder.1,"Let's cover builder restrictions:
  2. Builders have a maximum range of 100 blocks for buildings for automatic assignment. If your building is outside that range, in the top right of the build options GUI (for the hut you want to be built) you can select which Builder to assign to that building.","ここでは建築家の制限について説明します。
 
  1. 建築家(および他のほとんどの労働者)は小屋のレベルに応じて特定の道具のレベルをアンロックします。
-   Lv0. 木/金の道具
-   Lv1. 石の道具
-   Lv2. 鉄の道具
-   Lv3. ダイヤの道具
-   Lv4～5. エンチャントされた道具
+ Lv0. 木/金の道具
+ Lv1. 石の道具
+ Lv2. 鉄の道具
+ Lv3. ダイヤの道具
+ Lv4～5. エンチャントされた道具
 
- 2. 建築家は自動割り当ての建物の範囲が最大100ブロックまでとなっています。建物がその範囲外である場合、建築オプションGUIの右上(建てたい小屋の場合)でその建物に割り当てる建築家を選択することができます。"
+ 2. 建築家は自動割り当ての建物の範囲が最大100ブロックまでとなっています。建物がその範囲外である場合、建築オプションGUIの右上(建てたい小屋の場合)でその建物に割り当てる建築家を選択できます。"
 com.minecolonies.coremod.info.builder.1.name,Restrictions,制限事項
 com.minecolonies.coremod.info.builder.2,"Now let's cover some frequently asked questions:
 
@@ -1415,12 +1415,12 @@ com.minecolonies.coremod.info.builder.2,"Now let's cover some frequently asked q
    A 1. Things like Air, Dirt Paths, and other blocks will show up in the required resources tab from time to time. While they do show up, focus mainly on your Builder's personal request tab. They'll usually request the correct block and convert it accordingly (e.g. request dirt and then use a shovel on it).","それでは、よくあるご質問を取り上げます。
 
  Q 1. 必要なリソースのページで、入手不可能と思われるアイテムや、入手にシルクタッチが必要なアイテムが表示されています。どうしたらいいですか？
-   A 1.空気、土の道、その他のブロックなどは、時々必要な資源タブに表示されます。これらは表示されますが、主に建築家の個人的な要求タブに注目してください。通常、正しいブロックを要求し、それに応じて変換します（例：土を要求し、その上でシャベルを使用する）。"
+ A 1.空気、土の道、その他のブロックなどは、時々必要な資源タブに表示されます。これらは表示されますが、主に建築家の個人的な要求タブに注目してください。通常、正しいブロックを要求し、それに応じて変換します(例：土を要求し、その上でシャベルを使用する)。"
 com.minecolonies.coremod.info.builder.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.builder.3,"As all workers do, the Builder levels up while working.
  At higher levels, the Builder's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
  However, their level is capped by the level of their home. Thus, if they are unhappy with their living conditions, they will stop leveling until you provide them with better housing.","すべての労働者がそうであるように、建築家も作業中にレベルアップします。
-レベルが上がると、建築家のスピードが上がります。 ただし、レベルアップの上限は住んでいる小屋のレベルです。したがって、もし彼らが生活環境に不満があれば、あなたがより良い住居を提供するまで、彼らはレベルアップを停止します。"
+レベルが上がると、建築家のスピードが上がります。ただし、レベルアップの上限は住んでいる小屋のレベルです。したがって、もし彼らが生活環境に不満があれば、あなたがより良い住居を提供するまで、彼らはレベルアップを停止します。"
 com.minecolonies.coremod.info.builder.3.name,Leveling,レベル上げ
 com.minecolonies.coremod.info.chickenherder.0,"The Chicken Farmer is part of the food production of your colony. The Chicken Farmer breeds, raises, and butchers chickens. They will collect eggs, feathers, and meat, as well as any drops from other mods. The Chicken Farmer will keep two chickens alive per level of their hut.",鶏飼いはあなたのコロニーの食糧生産の一部です。鶏飼いはニワトリを繁殖、飼育、屠殺します。彼らは卵、羽、肉、そして他のMODからのドロップを集めます。鶏飼いは小屋の1レベルにつき2羽のニワトリを生かしておきます。
 com.minecolonies.coremod.info.chickenherder.0.name,Introduction,はじめに
@@ -1436,11 +1436,11 @@ com.minecolonies.coremod.info.chickenherder.1,"Now let's cover restrictions:
  2. At least two chickens must be provided for the Chicken Farmer to start breeding and butchering.","それでは制限事項を説明します。
 
  1. 養鶏場は小屋のレベルに応じて特定の道具のレベルをアンロックします。
-   Lv0. 木/金の道具
-   Lv1. 石の道具
-   Lv2. 鉄の道具
-   Lv3. ダイヤモンドの道具
-   Lv4～5. エンチャントされた道具
+ Lv0. 木/金の道具
+ Lv1. 石の道具
+ Lv2. 鉄の道具
+ Lv3. ダイヤモンドの道具
+ Lv4～5. エンチャントされた道具
 
  2. 鶏飼いが繁殖と肉処理を始めるには少なくとも2羽のニワトリを用意する必要があります。"
 com.minecolonies.coremod.info.chickenherder.1.name,Restrictions,制限事項
@@ -1450,7 +1450,7 @@ com.minecolonies.coremod.info.chickenherder.2,"Now let's cover some frequently a
    A 1. You need to supply at least two chickens to get things started. The Chicken Farmer also needs seeds to breed the chickens and an axe to butcher them.","それでは、よくあるご質問を取り上げます。
 
  Q 1. 養鶏家が活動するために必要なものは何ですか？
-   A 1. 最低でも2羽のニワトリが必要です。また、養鶏家には、ニワトリを繁殖させるための種と、ニワトリを屠殺するための斧が必要です。"
+ A 1. 最低でも2羽のニワトリが必要です。また、養鶏家には、ニワトリを繁殖させるための種と、ニワトリを屠殺するための斧が必要です。"
 com.minecolonies.coremod.info.chickenherder.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.chickenherder.3,"As all workers do, the Chicken Farmer levels up while working.
  At higher levels, a Chicken Farmer's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
@@ -1472,7 +1472,7 @@ com.minecolonies.coremod.info.composter.1,"Now let's cover restrictions:
    Be careful using food items if you have a large colony but not many food production huts!","それでは、制限事項を説明します。
 
  1. コンポスターで堆肥を作るために、どのアイテムを使用するかを選択する必要があります。これは小屋のGUIの2ページ目にあります。
-   コロニーが大きくても食料生産小屋が少ない場合は、食料アイテムの使用に注意してください!"
+ コロニーが大きくても食料生産小屋が少ない場合は、食料アイテムの使用に注意してください!"
 com.minecolonies.coremod.info.composter.1.name,Restrictions,制限事項
 com.minecolonies.coremod.info.composter.2,"Now let's cover some frequently asked questions:
 
@@ -1480,7 +1480,7 @@ com.minecolonies.coremod.info.composter.2,"Now let's cover some frequently asked
    A 1. Yes, but these must be added in the MineColonies configuration file. This is found in (your instance folder)/config/minecolonies-common.toml.","それでは、よくあるご質問をご紹介します。
 
  Q 1. 他のMODのアイテムを使用することはできますか？
-   A 1.はい。しかし、これらはMineColonies設定ファイルに追加する必要があります。これは(あなたのインスタンスフォルダ)/config/minecolonies-common.tomlにあります。"
+ A 1.はい。しかし、これらはMineColonies設定ファイルに追加する必要があります。これは(あなたのインスタンスフォルダ)/config/minecolonies-common.tomlにあります。"
 com.minecolonies.coremod.info.composter.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.composter.3,"As all workers do, the Composter levels up while working.
  At higher levels, a Composter's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
@@ -1498,7 +1498,7 @@ com.minecolonies.coremod.info.cook.1,"Now let's cover some frequently asked ques
    A 1. You can provide pre-cooked items for the waiter to distribute to your citizens.","それではよくあるご質問を取り上げます。
 
  Q 1. ウェイターが調理済みのアイテムを要求してきますが、これは正常なのでしょうか？
-   A 1. 調理済みのアイテムをウェイターに渡して、市民に配ることができます。"
+ A 1. 調理済みのアイテムをウェイターに渡して、市民に配ることができます。"
 com.minecolonies.coremod.info.cook.1.name,FAQ,よくある質問
 com.minecolonies.coremod.info.cook.2,"As all workers do, the Waiter levels up while working.
  At higher levels, a Waiter's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
@@ -1519,11 +1519,11 @@ com.minecolonies.coremod.info.cowboy.1,"Now let's cover restrictions:
  2. At least two cows must be provided for the Cowhand to start breeding and butchering.","それでは制限事項を説明します。
 
  1. 牛舎は小屋のレベルに応じて特定の道具のレベルをアンロックします。
-   Lv0. 木/金の道具
-   Lv1. 石の道具
-   Lv2. 鉄の道具
-   Lv3. ダイヤモンドの道具
-   Lv4～5 エンチャントされた道具
+ Lv0. 木/金の道具
+ Lv1. 石の道具
+ Lv2. 鉄の道具
+ Lv3. ダイヤモンドの道具
+ Lv4～5 エンチャントされた道具
 
  2. 牛飼いが繁殖と屠殺を始めるには少なくとも2頭のウシを用意する必要があります。"
 com.minecolonies.coremod.info.cowboy.1.name,Restrictions,制限事項
@@ -1533,7 +1533,7 @@ com.minecolonies.coremod.info.cowboy.2,"Now let's cover some frequently asked qu
    A 1. You need to supply at least two cows to get things started. The Cowhand also needs wheat to breed the cows and an axe to butcher them.","それでは、よくあるご質問を取り上げます。
 
  Q 1. 牛飼いが働くために必要なものは何ですか？
-   A 1. 最低でも2頭の牛を用意する必要があります。また、牛飼いには牛を育てるための小麦と、牛を屠殺するための斧が必要です。"
+ A 1. 最低でも2頭の牛を用意する必要があります。また、牛飼いには牛を育てるための小麦と、牛を屠殺するための斧が必要です。"
 com.minecolonies.coremod.info.cowboy.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.cowboy.3,"As all workers do, the Cowhand levels up while working.
  At higher levels, a Cowhand's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
@@ -1557,7 +1557,7 @@ com.minecolonies.coremod.info.deliveryman.1,"Now let's cover restrictions:
  レベル2：2スタック 
  レベル3：4スタック
  レベル4：8スタック 
- レベル5：スタック数無制限（インベントリに収納可能なもの）"
+ レベル5：スタック数無制限(インベントリに収納可能なもの)"
 com.minecolonies.coremod.info.deliveryman.1.name,Restrictions,制限事項
 com.minecolonies.coremod.info.deliveryman.2,"Now let's cover some frequently asked questions:
 
@@ -1568,7 +1568,7 @@ com.minecolonies.coremod.info.deliveryman.2,"Now let's cover some frequently ask
  A 2. No, the delivery schedule is determined by the order the request is sent.","それでは、よくあるご質問をご紹介します。
 
 Q 1. 配達員の集荷優先順位を変更するにはどうしたらよいですか？
-   A 1. 各小屋には集荷の優先順位が設定されています。1が最低、10が最高で、「絶対」もあります。
+ A 1. 各小屋には集荷の優先順位が設定されています。1が最低、10が最高で、「絶対」もあります。
 
  Q 2. 集荷の優先順位を変更することはできますか？
  A 2. いいえ。配送スケジュールはリクエストを送信した順番に決定されます。"
@@ -1576,9 +1576,9 @@ com.minecolonies.coremod.info.deliveryman.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.deliveryman.3,"As all workers do, Couriers level up while working.
  At higher levels, a Courier's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
  However, their level is capped by the level of their home. Thus, if they are unhappy with their living conditions, they will stop leveling until you provide them with better housing.","すべての労働者がそうであるように、配達員は働きながらレベルアップします。
-レベルが上がると、配達員のスピードが上がります。 しかし、彼らのレベルは、その家のレベルによって制限されます。そのため、生活環境に不満がある場合は、より良い住居を提供するまで、レベルアップが停止します。"
+レベルが上がると、配達員のスピードが上がります。しかし、彼らのレベルは、その家のレベルによって制限されます。そのため、生活環境に不満がある場合は、より良い住居を提供するまで、レベルアップが停止します。"
 com.minecolonies.coremod.info.deliveryman.3.name,Leveling,レベル上げ
-com.minecolonies.coremod.info.farmer.0,"The Farmer is part of the food production of your colony. The Farmer grows crops for the colony. The Farmer can plant and harvest any crop that is planted in farmland, even from other mods.",農家はあなたのコロニーの食糧生産の一部です。農家はコロニーのために作物を育てます。農家は農地に植えられている作物であれば、他のMODの作物であっても植えて収穫することができます。
+com.minecolonies.coremod.info.farmer.0,"The Farmer is part of the food production of your colony. The Farmer grows crops for the colony. The Farmer can plant and harvest any crop that is planted in farmland, even from other mods.",農家はあなたのコロニーの食糧生産の一部です。農家はコロニーのために作物を育てます。農家は農地に植えられている作物であれば、他のMODの作物であっても植えて収穫できます。
 com.minecolonies.coremod.info.farmer.0.name,Introduction,はじめに
 com.minecolonies.coremod.info.farmer.1,"Farmers unlock certain tool levels per their hut level:
    lvl 0. Wood/Gold Tools
@@ -1589,13 +1589,13 @@ com.minecolonies.coremod.info.farmer.1,"Farmers unlock certain tool levels per t
 
  2. Farmers cannot grow plants that do not use farmland, such as sugar cane, cactus, or bamboo. These are grown by the Planter instead.
  Farmers can only maintain one field per each hut level.","農家は小屋のレベルに応じて特定の道具のレベルを解除します。
-   Lv0. 木/金の道具
-   Lv1. 石の道具
-   Lv2. 鉄の道具
-   Lv3. ダイヤモンドの道具
-   Lv4～5. エンチャントされた道具
+ Lv0. 木/金の道具
+ Lv1. 石の道具
+ Lv2. 鉄の道具
+ Lv3. ダイヤモンドの道具
+ Lv4～5. エンチャントされた道具
 
- 2. 農家ではサトウキビ、サボテン、竹など、農地を使わない植物を栽培することはできません。 農家は各小屋レベルごとに1つの畑しか維持できません。"
+ 2. 農家ではサトウキビ、サボテン、竹など、農地を使わない植物を栽培することはできません。農家は各小屋レベルごとに1つの畑しか維持できません。"
 com.minecolonies.coremod.info.farmer.1.name,Restrictions,制限事項
 com.minecolonies.coremod.info.farmer.2,"Now let's cover some frequently asked questions:
 
@@ -1603,7 +1603,7 @@ com.minecolonies.coremod.info.farmer.2,"Now let's cover some frequently asked qu
    A 1. Use the Field GUI to set the size of the field.","それでは、よくあるご質問を取り上げます。
 
  Q 1. 畑を小さくしたいのですが、最大サイズまで作物を育てないように農夫に指示するにはどうしたらいいですか？
-   A 1. フィールドGUIで、フィールドの大きさを設定することができます。"
+ A 1. フィールドGUIで、フィールドの大きさを設定できます。"
 com.minecolonies.coremod.info.farmer.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.farmer.3,"As all workers do, the Farmer levels up while working.
  At higher levels, a Farmer's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
@@ -1653,7 +1653,7 @@ You can increase this chance by upgrading the Graveyard, building a Mystical Sit
 この確率は、「墓地」のアップグレード、「神秘の祭壇」の建設、「大学」での研究を完了させることで上げることができます。"
 com.minecolonies.coremod.info.graveyard.1.name,Resurrection,復活
 com.minecolonies.coremod.info.guardtower.0,"The Guard Tower is the basic hut for your military defense. Each Guard Tower employs one Guard. However, the Guard will also live in the tower, freeing up a bed for more citizens.
-There are two different types of Guards, Knights and Archers. Knights use swords, while Archers use bows.","ガードタワーは軍事防衛のための基本的な小屋です。各ガードタワーは1人のガードを雇います。ただし、ガードもタワーに住むため、より多くの市民のためにベッドを確保することができます。
+There are two different types of Guards, Knights and Archers. Knights use swords, while Archers use bows.","ガードタワーは軍事防衛のための基本的な小屋です。各ガードタワーは1人のガードを雇います。ただし、ガードもタワーに住むため、より多くの市民のためにベッドを確保できます。
 ガードには騎士と射手の2種類があります。騎士は剣を使い、射手は弓を使います。"
 com.minecolonies.coremod.info.guardtower.0.name,Introduction,はじめに
 com.minecolonies.coremod.info.guardtower.1,"Now let's cover restrictions:
@@ -1668,13 +1668,11 @@ com.minecolonies.coremod.info.guardtower.1,"Now let's cover restrictions:
 ","それでは制限事項を説明します。
 
  1. ガードは小屋のレベルに応じて特定の道具のレベルをアンロックします。
-   Lv0. 木/金の道具
-   Lv1. 石の道具
-   Lv2. 鉄の道具
-   Lv3. ダイヤモンドの道具
-   Lv4～5 エンチャントされた道具
-
-"
+ Lv0. 木/金の道具
+ Lv1. 石の道具
+ Lv2. 鉄の道具
+ Lv3. ダイヤモンドの道具
+ Lv4～5 エンチャントされた道具"
 com.minecolonies.coremod.info.guardtower.1.name,Restrictions,制限事項
 com.minecolonies.coremod.info.guardtower.2,"Now let's cover some frequently asked questions:
 
@@ -1682,7 +1680,7 @@ com.minecolonies.coremod.info.guardtower.2,"Now let's cover some frequently aske
    A 1. Guards will not ask for updated equipment until they use up their current equipment.","それでは、よくあるご質問をご紹介します。
 
  Q 1. ガードタワーがレベルアップしましたが、ガードが上位の装備を要求してきません。なぜでしょうか？
-   A 1. ガードは現在の装備を使い切るまで、更新された装備を要求することはありません。"
+ A 1. ガードは現在の装備を使い切るまで、更新された装備を要求することはありません。"
 com.minecolonies.coremod.info.guardtower.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.guardtower.3,"As all workers do, the Guard levels up while working.
  At higher levels, a Guard's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
@@ -1708,11 +1706,11 @@ com.minecolonies.coremod.info.lumberjack.1,"Now let's cover restrictions:
  2. Foresters are able to search for trees within 150 blocks of them (not their hut). While searching, they start with a 50 block range and then increase that range by 5 if they do not find a tree.","それでは制限事項を説明します。
 
  1. 木こりは小屋のレベルに応じて特定の道具のレベルをアンロックします。
-   Lv0. 木/金の道具
-   Lv1. 石の道具
-   Lv2. 鉄の道具
-   Lv3. ダイヤモンドの道具
-   Lv4～5. エンチャントされた道具
+ Lv0. 木/金の道具
+ Lv1. 石の道具
+ Lv2. 鉄の道具
+ Lv3. ダイヤモンドの道具
+ Lv4～5. エンチャントされた道具
 
  2. 木こりは自分から150ブロック以内の木(小屋を除く)を探すことができます。探索中は50ブロックの範囲からスタートし、木が見つからなかった場合は5ブロックずつ範囲を広げていきます。"
 com.minecolonies.coremod.info.lumberjack.1.name,Restrictions,制限事項
@@ -1738,12 +1736,11 @@ com.minecolonies.coremod.info.miner.1,"Let's cover restrictions:
  ","ここでは制限について説明します。
 
  1. 鉱夫は小屋のレベルに応じて特定の道具のレベルをアンロックします。
-   Lv0. 木/金の道具
-   LV1. 石の道具
-   LV2. 鉄の道具
-   LV3. ダイヤモンドの道具
-   LV4～5. エンチャントされた道具
- "
+ Lv0. 木/金の道具
+ LV1. 石の道具
+ LV2. 鉄の道具
+ LV3. ダイヤモンドの道具
+ LV4～5. エンチャントされた道具"
 com.minecolonies.coremod.info.miner.1.name,Restrictions,制限事項
 com.minecolonies.coremod.info.miner.2,"Now let's cover some frequently asked questions:
 
@@ -1753,13 +1750,11 @@ com.minecolonies.coremod.info.miner.2,"Now let's cover some frequently asked que
 ","それでは、よくあるご質問を取り上げます。
 
  Q 1. 鉱夫はどこまで掘り進んだらノードを作るのですか？
-   A 1. 介入がない場合、レベル1ではyレベル50、レベル2ではyレベル30、レベル3ではyレベル5になってからノードを作成します。
-
-"
+ A 1. 介入がない場合、レベル1ではyレベル50、レベル2ではyレベル30、レベル3ではyレベル5になってからノードを作成します。"
 com.minecolonies.coremod.info.miner.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.miner.3,"Q2. My Miner just stops working or wanders around above ground, why?
   A 2. Either something is blocking their path or they don't have the necessary materials. See page 1 for the materials they need or check the Miner's request page.","Q2. 鉱夫が動かなくなったり、地上を徘徊するようになりました。
-  A 2. 鉱夫の行く手を阻むものがあるか、必要な素材がないかのどちらかです。必要な素材は、1ページ目をご覧いただくか、鉱夫の依頼ページをご確認ください。"
+ A 2. 鉱夫の行く手を阻むものがあるか、必要な素材がないかのどちらかです。必要な素材は、1ページ目をご覧いただくか、鉱夫の依頼ページをご確認ください。"
 com.minecolonies.coremod.info.miner.3.name,FAQ con't,よくある質問の続き
 com.minecolonies.coremod.info.miner.4,"As all workers do, Miners level up while working.
  At higher levels, the Miner's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
@@ -1780,12 +1775,12 @@ com.minecolonies.coremod.info.shepherd.1,"Now let's cover restrictions:
 
  2. At least two sheep must be provided for the Shepherd to start breeding and butchering.","それでは制限事項を説明します。
 
- 1. 羊舎は小屋のレベルに応じて特定の道具のレベルをアンロックします。
-   Lv0. 木/金の道具
-   Lv1. 石の道具
-   Lv2. 鉄の道具
-   Lv3. ダイヤモンドの道具
-   Lv4～5. エンチャントされた道具
+ 1. 羊飼いは小屋のレベルに応じて特定の道具のレベルをアンロックします。
+ Lv0. 木/金の道具
+ Lv1. 石の道具
+ Lv2. 鉄の道具
+ Lv3. ダイヤモンドの道具
+ Lv4～5. エンチャントされた道具
 
  2. 羊飼いが繁殖と屠殺を始めるには少なくとも2匹のヒツジを用意する必要があります。"
 com.minecolonies.coremod.info.shepherd.1.name,Restrictions,制限事項
@@ -1795,7 +1790,7 @@ com.minecolonies.coremod.info.shepherd.2,"Now let's cover some frequently asked 
    A 1. You need to supply at least two sheep to get things started. The Shepherd also needs wheat to breed the sheep, shears to shear the wool, and an axe to butcher the sheep.","それでは、よくあるご質問を取り上げます。
 
  Q 1. 羊飼いが働くために必要なものは何ですか？
-   A 1. 羊を2匹以上用意すれば、羊飼いを始めることができます。羊飼いには、羊を育てるための小麦、羊毛を刈るための鋏、羊を屠殺するための斧も必要です。"
+ A 1. 羊を2匹以上用意すれば、羊飼いを始めることができます。羊飼いには、羊を育てるための小麦、羊毛を刈るための鋏、羊を屠殺するための斧も必要です。"
 com.minecolonies.coremod.info.shepherd.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.shepherd.3,"As all workers do, the Shepherd levels up while working.
  At higher levels, a Shepherd's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
@@ -1816,12 +1811,12 @@ com.minecolonies.coremod.info.swineherder.1,"Now let's cover restrictions:
 
  2. At least two pigs must be provided for the Swineherd to start breeding and butchering.","それでは制限事項を説明します。
 
- 1. 養豚場は小屋のレベルに応じて特定の道具のレベルをアンロックします。
-   Lv0. 木/金の道具
-   Lv1. 石の道具
-   Lv2. 鉄の道具
-   Lv3. ダイヤモンドの道具
-   Lv4～5. エンチャントされた道具
+ 1. 養豚家は小屋のレベルに応じて特定の道具のレベルをアンロックします。
+ Lv0. 木/金の道具
+ Lv1. 石の道具
+ Lv2. 鉄の道具
+ Lv3. ダイヤモンドの道具
+ Lv4～5. エンチャントされた道具
 
  2. 養豚家が繁殖と屠殺を始めるには少なくとも2匹の豚を用意する必要があります。"
 com.minecolonies.coremod.info.swineherder.1.name,Restrictions,制限事項
@@ -1831,7 +1826,7 @@ com.minecolonies.coremod.info.swineherder.2,"Now let's cover some frequently ask
    A 1. You need to supply at least two pigs to get things started. The Swineherd also needs carrots to breed the pigs and an axe to butcher them.","それでは、よくあるご質問を取り上げます。
 
  Q 1. 養豚家が活動するために必要なものは何ですか？
-   A 1. 豚を2匹以上用意すれば、活動を開始できます。また、養豚家は豚を飼育するためのニンジン、豚を屠殺するための斧が必要です。"
+ A 1. 豚を2匹以上用意すれば、活動を開始できます。また、養豚家は豚を飼育するためのニンジン、豚を屠殺するための斧が必要です。"
 com.minecolonies.coremod.info.swineherder.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.swineherder.3,"As all workers do, the Swineherd levels up while working.
  At higher levels, a Swineherd's speed increases. The higher their hut level and Intelligence skill, the quicker they level up. 
@@ -1855,9 +1850,7 @@ com.minecolonies.coremod.info.warehouse.2,"3. Now let's cover some frequently as
 ","3. それでは、よくあるご質問を取り上げます。
 
  Q 1. 与えられた収納スペースをもっと増やしたいのですが、どうすればいいのでしょうか？
- A 1. 建物をアップグレードしてください。建物がレベル5の場合、GUIの2ページ目でエメラルドブロックを使って買い足すことで、各ラックのスペースを増やすことができます。これは3回行うことができます。
-
-"
+ A 1. 建物をアップグレードしてください。建物がレベル5の場合、GUIの2ページ目でエメラルドブロックを使って買い足すことで、各ラックのスペースを増やすことができます。これは3回行うことができます。"
 com.minecolonies.coremod.info.warehouse.2.name,FAQ,よくある質問
 com.minecolonies.coremod.info.warehouse.3,"Q 2. I want to move my Warehouse, can I do that? 
  A 2. You can, but if there is anything in the racks, the contents will spill out when the racks are removed by the Builder. If you must move the Warehouse, remove all the contents from the racks first, and watch to make sure any Couriers don't deliver items.","Q 2. 倉庫を移動したいのですができますか？
@@ -1870,7 +1863,7 @@ com.minecolonies.coremod.interaction.poison,Ugh! What was that? I'm not feeling 
 com.minecolonies.coremod.interaction.visitor.food,Tasty food? I guess I'll stay a bit longer here,美味しいもの？もうちょっとここにいようかな。
 com.minecolonies.coremod.invalidbuilding,The Building %s at position %d %d %d is missing its original blueprint of style %s. Building potentially inoperable. Please recover the blueprint or pickup and replace the building.,建物%s(位置%d %d %d)にはスタイル%sの元の設計図がありません。建物は操作不能になる可能性があります。設計図を修復するか建物を取得して再配置してください。
 com.minecolonies.coremod.item.adventure.token.gui,"This token represents an encounter with a monster, and is not useful outside of a Minecolonies adventure simulation",このトークンはモンスターとの遭遇を表すもので、Minecoloniesのアドベンチャー・シミュレーション以外では役に立ちません。
-com.minecolonies.coremod.item.adventure.token.name.gui,Encounter with: ,エンカウント: 
+com.minecolonies.coremod.item.adventure.token.name.gui,Encounter with: ,エンカウント:
 com.minecolonies.coremod.item.available.gui,Crafted by a %s,%sで作成
 com.minecolonies.coremod.item.bannerrallyguards.deselected,Removed %s at %s from rallying list.,%s(%sの)を招集リストから削除しました。
 com.minecolonies.coremod.item.bannerrallyguards.gui,Right-click to open the GUI.,右クリックでGUIを開く
@@ -1904,9 +1897,9 @@ com.minecolonies.coremod.item.questlog.gui.available,Available Quests,受注可�
 com.minecolonies.coremod.item.questlog.gui.completed,Completed,完了済
 com.minecolonies.coremod.item.questlog.gui.completed_multiple,Times completed: %d/%d,完了した回数: %d/%d
 com.minecolonies.coremod.item.questlog.gui.finished,Finished Quests,完了したクエスト
-com.minecolonies.coremod.item.questlog.gui.giver_prefix,Citizen: ,市民: 
+com.minecolonies.coremod.item.questlog.gui.giver_prefix,Citizen: ,市民:
 com.minecolonies.coremod.item.questlog.gui.inprogress,In Progress Quests,進行中のクエスト
-com.minecolonies.coremod.item.questlog.gui.name_prefix,Name: ,クエスト名: 
+com.minecolonies.coremod.item.questlog.gui.name_prefix,Name: ,クエスト名:
 com.minecolonies.coremod.item.questlog.gui.title,Quest Log,クエストログ
 com.minecolonies.coremod.item.questlog.gui.track_citizen,Track citizen,市民を追跡
 com.minecolonies.coremod.item.questlog.needcolony,No colony set (sneak + use the clipboard on the Town Hall),コロニーがセットされていません (市庁舎にスニークしながらクリップボードを使用してください)
@@ -1932,7 +1925,7 @@ com.minecolonies.coremod.jei.biomerestriction.tip,"Only available in one of the 
 com.minecolonies.coremod.jei.blacksmith,"Crafts tools, weapons, armour, and many other things made of metal.",ツール、武器、鎧など金属でできたさまざまなものをクラフトする。
 com.minecolonies.coremod.jei.chance.tip,§e%d%% chance,§e%d%%の確率
 com.minecolonies.coremod.jei.chancenegskill.tip,§e%d%% base chance §c- skill modifier,§e基本確率%d%%§c-スキル修正値
-com.minecolonies.coremod.jei.chanceskill.tip,§e%d%% base chance §a+ skill modifier,§e基本確率%d%%§a+スキル修正値
+com.minecolonies.coremod.jei.chanceskill.tip,§e%d%% base chance §a+ skill modifier,§e基本確率%d%%+スキル修正値
 com.minecolonies.coremod.jei.chef,Cooks custom food on demand,要望に応じて特注料理を調理します
 com.minecolonies.coremod.jei.chickenherder,Keeps a watchful eye out for §mspies§r chickens.,§mスパイ§rのニワトリに目を光らせます。
 com.minecolonies.coremod.jei.composter,"Uses compost barrels to turn various items into compost or dirt (look up usages for the compost barrel to see more). At higher skill levels, they can work faster than you can.",堆肥樽を使いさまざまなものを堆肥や土に変える(詳しくは堆肥樽の使い方を参照)。熟練度が高くなるとあなたよりも早く作業できるようになる。
@@ -1984,7 +1977,7 @@ com.minecolonies.coremod.job.glassblower,Glassblower,ガラス職人
 com.minecolonies.coremod.job.guard.assignmine,Please assign this Guard to a Mine in the Mine GUI.,鉱坑GUIでこのガードを鉱坑に割り当ててください。
 com.minecolonies.coremod.job.guard.switch,Switched to guarding since the player is out of sight.,プレイヤーと離れ過ぎたため、通常のパトロールに切り替えます。
 com.minecolonies.coremod.job.guard.tool.taskguard,Right-click on a block to set it as a guarding spot.,ブロックを右クリックして、防衛地点を設定します。
-com.minecolonies.coremod.job.guard.tool.taskpatrol,Right-click on a block to add it as a patrol target. Double-click to close the tool.,ブロックを右クリックしてパトロール地点を追加します。 ダブルクリックでツールを閉じます。
+com.minecolonies.coremod.job.guard.tool.taskpatrol,Right-click on a block to add it as a patrol target. Double-click to close the tool.,ブロックを右クリックしてパトロール地点を追加します。ダブルクリックでツールを閉じます。
 com.minecolonies.coremod.job.guard.toolclickguard,Added position %s as a new guarding target.,位置%sを新しいガード地点として登録しました。
 com.minecolonies.coremod.job.guard.toolclickguardtoofar,"Too far away from Guard Tower, please upgrade your Guard Tower to set this spot!",この場所に建築するにはガードタワーから離れ過ぎています、アップグレードしてください！
 com.minecolonies.coremod.job.guard.toolclickpatrol,Added position %s as a new patrolling target.,位置%sを新しい巡回地点として登録しました。
@@ -2016,7 +2009,7 @@ com.minecolonies.coremod.journeymap.options.colonistnameminimap.tooltip,"When ti
 com.minecolonies.coremod.journeymap.options.colonistteam,Citizens use Team Color,チームカラーを使用する市民
 com.minecolonies.coremod.journeymap.options.colonistteam.tooltip,"When ticked, citizens (but not visitors) will appear in the map radar using the colony color. Otherwise they'll use the standard neutral/hostile color",チェックを入れると市民(訪問者は含まない)はコロニーの色でマップレーダーに表示されます。そうでない場合は標準の中立/敵対色で表示されます。
 com.minecolonies.coremod.journeymap.options.colonisttooltips,Show Citizen Tooltips,市民のツールチップを表示
-com.minecolonies.coremod.journeymap.options.colonisttooltips.tooltip,"When ticked, shows the name and job of a citizen you're pointing at in the fullscreen map (useful when names are disabled)",ティックすると、フルスクリーンマップでポイントしている市民の名前と職業を表示します（名前が無効の場合に便利です）
+com.minecolonies.coremod.journeymap.options.colonisttooltips.tooltip,"When ticked, shows the name and job of a citizen you're pointing at in the fullscreen map (useful when names are disabled)",ティックすると、フルスクリーンマップでポイントしている市民の名前と職業を表示します(名前が無効の場合に便利です)
 com.minecolonies.coremod.journeymap.options.colonyname,Show Colony Name,コロニー名を表示
 com.minecolonies.coremod.journeymap.options.colonyname.tooltip,Shows the colony name in the fullscreen and web maps,フルスクリーンおよびウェブマップにコロニー名を表示する
 com.minecolonies.coremod.journeymap.options.deathpoints,Deathpoints,死亡地点
@@ -2045,10 +2038,10 @@ com.minecolonies.coremod.max.schematic.reallyfar,Really far in the,本当に遠�
 com.minecolonies.coremod.mercenary.mercenarystealcitizen,"%s is unhappy, a Mercenary took their %s!",%s は不幸を感じています、傭兵は彼らの %s を奪いました！
 com.minecolonies.coremod.mercenary.stealbuilding,A Mercenary just stole %s from a building!,傭兵が建物から %s を盗みました！
 com.minecolonies.coremod.missingitems,Awaiting Materials,素材待ち
-com.minecolonies.coremod.mourning,Close family and friends will mourn %s tomorrow out of respect. ,近しい家族や友人は明日、敬意を表して%sを悼むでしょう。 
+com.minecolonies.coremod.mourning,Close family and friends will mourn %s tomorrow out of respect. ,近しい家族や友人は明日、敬意を表して%sを悼むでしょう。
 com.minecolonies.coremod.movebuilding.invalid,"Can't reposition to this position, undestroyable block at destination!",この位置には破壊不可能なブロックがあるので再配置できません！
 com.minecolonies.coremod.netherminer.nofood,Please configure the menu of food items I should bring along for my trips to the Nether,ネザー旅行に持っていくべき食事のメニューを設定してください
-com.minecolonies.coremod.nospaceforgrave,Your Graveyard is full and %s couldn't be buried. Upgrade it or build more Graveyards before this happens again!,あなたの墓地は満杯で、%sを埋葬することができませんでした。この現象が再び起こる前に、アップグレードを行うか、より多くの墓地を建設してください。
+com.minecolonies.coremod.nospaceforgrave,Your Graveyard is full and %s couldn't be buried. Upgrade it or build more Graveyards before this happens again!,あなたの墓地は満杯で、%sを埋葬することができませんでした。この現象が再び起こる前に、アップグレードするか、より多くの墓地を建設してください。
 com.minecolonies.coremod.notresolved,Awaiting Resolvers!,解決者待ち！
 com.minecolonies.coremod.permission.access_free_blocks,Access Free-Blocks,ブロックに自由にアクセスできる
 com.minecolonies.coremod.permission.access_huts,Access GUIs,GUIへのアクセス
@@ -2067,7 +2060,7 @@ com.minecolonies.coremod.permission.hurt_visitor,Hurt Visitor,傷ついた訪問
 com.minecolonies.coremod.permission.manage_huts,Manage Huts,小屋の作業管理
 com.minecolonies.coremod.permission.map_border,Show Border on Maps,マップに境界線を表示
 com.minecolonies.coremod.permission.map_deaths,Show Deaths on Maps,マップに死者を表示
-com.minecolonies.coremod.permission.no,You do not have permission to do this in this colony!,あなたはこのコロニーでそれを行う権限がありません！
+com.minecolonies.coremod.permission.no,You do not have permission to do this in this colony!,プレイヤーはこのコロニーでそれする権限がありません！
 com.minecolonies.coremod.permission.open_container,Open Containers,アイテムストレージのアクセス
 com.minecolonies.coremod.permission.pickup_item,Pick Up Items,アイテムを取得する
 com.minecolonies.coremod.permission.place_blocks,Place Blocks,ブロックの設置
@@ -2088,7 +2081,7 @@ com.minecolonies.coremod.placement.noperm,Error on placement! You don't have the
 com.minecolonies.coremod.placement.outofcolony,Error on placement! Building or Decoration partially outside of the colony!,配置時のエラー！建物や装飾の一部がコロニーの外にあります！
 com.minecolonies.coremod.placement.townhalltooclose,Error on placement! You are too close to an existing colony!,配置時のエラー！既存のコロニーに近すぎます！
 com.minecolonies.coremod.playerinvfull,"You can't pick up this item, as your inventory is full!",インベントリが一杯なのでこのアイテムを集荷できません！
-com.minecolonies.coremod.playerinvfull.hotbarinsert," was dropped in front of you, as your inventory is full!"," がインベントリがいっぱいなのであなたの前にドロップされました！"
+com.minecolonies.coremod.playerinvfull.hotbarinsert," was dropped in front of you, as your inventory is full!",がインベントリがいっぱいなのであなたの前にドロップされました！
 com.minecolonies.coremod.progress.childgrow,%s grew up and wants a job now.,%sは成長し、今は仕事を求めています。
 com.minecolonies.coremod.progress.colony_founded,"News spreads swiftly of the newly founded settlement. Before long, pioneers from distant lands will flock to join the ranks of your burgeoning colony.",新しく設立された入植地のニュースは瞬く間に広まります。やがて、遠方からの開拓者たちが急成長する植民地の仲間入りをしようと集まってきます。
 com.minecolonies.coremod.progress.colony_reactivated,"Word of a courageous adventurer dedicated to restoring the glory of %s swiftly traverses the land. Eager settlers and former residents alike are drawn to your townhall, inspired by the opportunity to contribute their skills and efforts to this noble endeavor.",%sの栄光を取り戻そうとする勇敢な冒険家の噂は瞬く間に土地を駆け巡った。熱心な入植者や元市民たちはこの崇高な試みに自分の技術と努力を捧げる機会に触発され、あなたの市庁舎に引き寄せられる。
@@ -2096,7 +2089,7 @@ com.minecolonies.coremod.progress.newchild,"A new child, %s, is now happily livi
 com.minecolonies.coremod.progress.supplies_placed,"§6 Welcome to MineColonies. Now that you have your supplies, how about searching a nice location to place your Town Hall to create your colony?",§6 MineColoniesへようこそ。物資が揃ったところで、コロニーを作るために市庁舎を設置する素敵な場所を探してみてはいかがでしょうか？
 com.minecolonies.coremod.pvp.attack.guardgroupsize,"§eBeware, %s §ehas now: %d §eguards!",§e注意してください、%s§eには現在: %d§eガードがいます！
 com.minecolonies.coremod.pvp.attack.start,"§cBeware, %s§c is attacking you and they brought guards!",§c注意してください、%s§cがあなたを攻撃しておりガードも連れて来ています！
-com.minecolonies.coremod.pvp.defended.success,§aYou successfully defended your colony against %s§a.,§aあなたは%sからコロニーを守ることに成功しました。§a
+com.minecolonies.coremod.pvp.defended.success,§aYou successfully defended your colony against %s§a.,プレイヤーは%sからコロニーを守ることに成功しました。
 com.minecolonies.coremod.pvp.townhall.break.start,Beware! %s started breaking your Town Hall!,注意！%sがあなたの市庁舎を壊し始めました！
 com.minecolonies.coremod.pvp.townhall.broke,Beware!!! %s broke your Town Hall by over %d%%! At 100%% it will be lost!!!,注意！！！%sがあなたの市庁舎を%d%%以上壊しました！100%%になると消滅します！！！
 com.minecolonies.coremod.quarrier.finishedquarry,"I finished the current quarry I'm assigned to, I need more!",今担当している採石場を終わらせたので、もっと採石したいです！
@@ -2110,7 +2103,7 @@ com.minecolonies.coremod.questobjectives.breakblock.progress,%d/%d %s blocks min
 com.minecolonies.coremod.questobjectives.buildbuilding,I am still waiting for you to build %d level %d %s!,私はまだあなたがレベル%2$dの%3$sを%1$d個建築してくれるのを待っています！
 com.minecolonies.coremod.questobjectives.buildbuilding.cumulative,I am still waiting for you to build or upgrade %d levels of %s!,私はまだあなたが%dレベルの%sを建築またはアップグレードするのを待っています！
 com.minecolonies.coremod.questobjectives.buildbuilding.cumulative.existing,I am still waiting for you to reach %s totaling %d levels!,私はあなたが%sを合計%dレベルに到達するのをまだ待っています！
-com.minecolonies.coremod.questobjectives.buildbuilding.existing,I am still waiting for you to reach level %d for %d %s!,%2$d個の%3$sのためにあなたがレベル%1%dに到達するのをまだ待っています！
+com.minecolonies.coremod.questobjectives.buildbuilding.existing,I am still waiting for you to reach level %d for %d %s!,%2$d個の%3$sのためにあなたがレベル%1$dに到達するのをまだ待っています！
 com.minecolonies.coremod.questobjectives.buildbuilding.progress,%d/%d %s buildings built,%d/%d %s の建物が建設
 com.minecolonies.coremod.questobjectives.buildbuilding.progress.cumulative,%d/%d totaling levels of %s buildings built,%d/%d レベルの %s の建物が建設
 com.minecolonies.coremod.questobjectives.delivery.progress,%d/%d %s delivered,%d/%d %sを配達済
@@ -2190,7 +2183,7 @@ com.minecolonies.coremod.research.limit.onemaxperbranch,Only one max-level resea
 com.minecolonies.coremod.research.limit.requirement,Requirement : %s %s,必要条件 : %s %s
 com.minecolonies.coremod.research.locked,Locked.,ロックされた。
 com.minecolonies.coremod.research.requirement.building.level,Requires %s(s) totaling at least %d levels!,少なくとも%sが合計%dレベル必要です！
-com.minecolonies.coremod.research.requirement.building.or," or "," または "
+com.minecolonies.coremod.research.requirement.building.or," or ",または
 com.minecolonies.coremod.research.requirement.building.single.level,Requires any one %s(s) at least %d levels!,少なくとも%sが%d レベル必要です！
 com.minecolonies.coremod.research.requirement.research,Requires %s!,%sが必要です！
 com.minecolonies.coremod.research.requirement.university.level,Requires University Level %d,大学レベル%dが必要
@@ -2298,7 +2291,7 @@ com.minecolonies.coremod.status.serving,Serving,配給中
 com.minecolonies.coremod.status.shepherd.shearing,Shearing,毛刈り中
 com.minecolonies.coremod.status.sleeping,Let me sleep,帰路へ着く
 com.minecolonies.coremod.status.stuckinleaves,Stuck in leaves!,葉っぱに挟まれた！
-com.minecolonies.coremod.status.waiting,Waiting for ,待機中 
+com.minecolonies.coremod.status.waiting,Waiting for ,待機中
 com.minecolonies.coremod.status.waitingForBuild,Waiting for a build order,建築オーダーを待っています
 com.minecolonies.coremod.status.worker.goingtohut,Going to Hut,持ち場へ移動中
 com.minecolonies.coremod.status.working,Working,仕事中
@@ -3016,7 +3009,7 @@ entity.norsemenarcher,Archer Norseman,ノースマン弓兵
 entity.norsemenchief,Chief Norseman,ノースマン頭目
 entity.pharao,Pharaoh,ファラオ
 entity.pirate,Pirate,海賊
-entity.researcher.moreknowledge,"During your absence, your Researchers used the time to do some extra work. This will speed up their current research a bit!",あなたが不在の間、研究者はいくつかの追加作業を行うために時間を費やしました。これで少しは研究がはかどるでしょう。
+entity.researcher.moreknowledge,"During your absence, your Researchers used the time to do some extra work. This will speed up their current research a bit!",あなたが不在の間、研究者はいくつかの追加作業するために時間を費やしました。これで少しは研究がはかどるでしょう。
 entity.shieldmaiden,Shieldmaiden,シールドメイデン
 entity.worker.inventoryfullchestfull,Please make space in my chests/racks. I am not able to dump my inventory.,チェストやラックに空きを作って下さい。荷物が搬入できません。
 event.minecolonies.raidmessage1,Mysterious warriors have been spotted %s of %s!,謎の戦士が%2$sの%1$sで目撃されました！
@@ -3050,10 +3043,10 @@ item.minecolonies.assistanthammer_gold,Golden Builder's Assistant Hammer,金の�
 item.minecolonies.assistanthammer_iron,Iron Builder's Assistant Hammer,鉄の建築家の補助ハンマー
 item.minecolonies.baked_salmon,Baked Salmon,焼き鮭
 item.minecolonies.banner_rally_guards,Rallying Banner,集いの御旗
-item.minecolonies.banner_rally_guards.activated,You have rallied your army. %d Guards are answering your call!,あなたは部隊を招集しました。%dのガードが招集に応じました！
+item.minecolonies.banner_rally_guards.activated,You have rallied your army. %d Guards are answering your call!,プレイヤーは部隊を招集しました。%dのガードが招集に応じました！
 item.minecolonies.banner_rally_guards.activated.needsresearch,"You guards couldn't understand this command, maybe you have to research this at the University first.",あなたのガードはこの命令が理解できませんでした。まず大学でこれを研究する必要があるかもしれません。
-item.minecolonies.banner_rally_guards.activated.noguards,You have rallied your army...of none. Good luck!,あなたは軍隊を集めましたね...誰もいないけど。幸運を祈る！
-item.minecolonies.banner_rally_guards.deactivated,You have dismissed your army. Your Guards will return to regular duty.,あなたは部隊への招集を解きました。ガードたちは巡回に戻ります。
+item.minecolonies.banner_rally_guards.activated.noguards,You have rallied your army...of none. Good luck!,軍隊を集めましたね...誰もいないけど。幸運を祈る！
+item.minecolonies.banner_rally_guards.deactivated,You have dismissed your army. Your Guards will return to regular duty.,プレイヤーは部隊への招集を解きました。ガードたちは巡回に戻ります。
 item.minecolonies.banner_rally_guards.outofrange,"Your Guards will not rally so far away, they are sworn to protect their families! The disappointed Guards are going home now.",コロニーから離れ過ぎています。ガード達が守るのはコロニーの民です！あなたを置いてガードたちは家路につきました。
 item.minecolonies.barbarcheregg,Archer Barbarian Spawn Egg,蛮族弓兵のスポーンエッグ
 item.minecolonies.barbarianegg,Barbarian Spawn Egg,蛮族のスポーンエッグ
@@ -3166,7 +3159,7 @@ item.minecolonies.scepterbeekeeper.maxhives,You have reached the maximum number 
 item.minecolonies.scepterbeekeeper.removehive,Hive removed successfully,巣を作業範囲から外しました
 item.minecolonies.scepterguard,Guard Scepter,護りの王笏
 item.minecolonies.scepterlumberjack,Forest Tool,森の道具
-item.minecolonies.scepterlumberjack.restrictionset,"Forester restricted zone set (x: %d to %d, y: %d to %d, z: %d to %d, total: %d blocks). The max size is %d blocks.",木こりの制限ゾーンが設定されました。 (x: %d ～ %d、y: %d ～ %d、z: %d ～ %d、合計: %d ブロック) 最大サイズは%dブロックです。
+item.minecolonies.scepterlumberjack.restrictionset,"Forester restricted zone set (x: %d to %d, y: %d to %d, z: %d to %d, total: %d blocks). The max size is %d blocks.",木こりの制限ゾーンが設定されました。(x: %d ～ %d、y: %d ～ %d、z: %d ～ %d、合計: %d ブロック) 最大サイズは%dブロックです。
 item.minecolonies.scepterlumberjack.restrictiontoobig,A zone of %d blocks is too large. The maximum restricted volume for the Forester is %d blocks.,%dブロックのゾーンは広すぎます。木こりの最大制限ボリュームは%dブロックです。
 item.minecolonies.scepterlumberjack.usedend,Position A set. Select Position B with a right-click or discard tool when finished.,位置Aを設定します。完了したら右クリックで位置Bを選択するかツールを処分します。
 item.minecolonies.scepterlumberjack.usedstart,Position B set. Select Position A with a left-click or discard tool when finished.,位置Bを設定します。完了したら左クリックで位置Aを選択するかツールを処分します。
@@ -3229,7 +3222,7 @@ key.minecolonies.categories.general,MineColonies,
 key.minecolonies.toggle_goggles,Toggle Goggles Preview,ゴーグルのプレビュー切替
 message.positiondist,Position: %s %s %s Distance: %s blocks,位置: %s %s %s 距離: %sブロック
 minecolonies.config.allowglobalnamechanges,Name Changes,名前の変更
-minecolonies.config.allowglobalnamechanges.comment,"Should players be allowed to change citizen names? -1 for false, 0 for certain players only, 1 for true. (To set which players can change the names, see ""Special Permissions Group"" below.)","プレイヤーが市民の名前を変更することを許可しますか？falseの場合は-1、特定のプレイヤーのみの場合は0、trueの場合は1です。 (どのプレイヤーが名前を変更できるかを設定するには、後述の""特別権限グループ""を参照してください)"
+minecolonies.config.allowglobalnamechanges.comment,"Should players be allowed to change citizen names? -1 for false, 0 for certain players only, 1 for true. (To set which players can change the names, see ""Special Permissions Group"" below.)","プレイヤーが市民の名前を変更することを許可しますか？falseの場合は-1、特定のプレイヤーのみの場合は0、trueの場合は1です。(どのプレイヤーが名前を変更できるかを設定するには、後述の""特別権限グループ""を参照してください)"
 minecolonies.config.allowinfinitecolonies,Infinite Colonies,無限コロニー
 minecolonies.config.allowinfinitecolonies.comment,Should players be allowed to abandon their colony to create a new one easily? Note: This is buggy!,プレイヤーがコロニーを放棄し、新たなコロニーを簡単に作れるようにする？注: これはバグだらけです。
 minecolonies.config.allowinfinitesupplychests,Infinite Supply Camps/Ships,無限支給キャンプ/船
@@ -3243,7 +3236,7 @@ minecolonies.config.alwaysrendernametag.comment,Should citizen name tags be rend
 minecolonies.config.auditcraftingtags,Audit Crafting Tags,監査クラフティングタグ
 minecolonies.config.auditcraftingtags.comment,"When loading recipes, generate audit CSV files to help debug datapacks or extra mods.",レシピをロードするときに、データパックや追加MODのデバッグに役立つ監査CSVファイルを生成します。
 minecolonies.config.averageemptycolonydistance,Average Empty Colony Distance - Needs Complete Restart,空のコロニーの平均距離 - 完全な再起動が必要です。
-minecolonies.config.averageemptycolonydistance.comment,Average distance in chunks between 2 empty colonies,2つの空のコロニー間の平均距離（チャンク単位）
+minecolonies.config.averageemptycolonydistance.comment,Average distance in chunks between 2 empty colonies,2つの空のコロニー間の平均距離(チャンク単位)
 minecolonies.config.averagenumberofnightsbetweenraids,Average Number of Nights Between Raids,襲撃発生の平均日数
 minecolonies.config.averagenumberofnightsbetweenraids.comment,The average number of nights between raids.,襲撃が発生する夜の平均日数間隔。
 minecolonies.config.badvisitorchance,Bad Recruitment Chance,採用失敗確率
@@ -3258,30 +3251,30 @@ minecolonies.config.builderplaceconstructiontape,Construction Tape Placement,建
 minecolonies.config.builderplaceconstructiontape.comment,Should construction tape be placed around in-construction builds?,建設中の建物の周りに建設用テープを設置する？
 minecolonies.config.buildgogglerange,Build Goggles Range,建築家のゴーグルの範囲
 minecolonies.config.buildgogglerange.comment,How close (in blocks) you need to be to see work orders while wearing the Build Goggles.,建築家のゴーグルを装着した状態で作業指示を見るために必要な距離(ブロック単位)。
-minecolonies.config.canplayeruseaddofficercommand,Can Players Use the Add Officer Command,プレイヤーの オフィサーの追加 コマンドの使用許可
-minecolonies.config.canplayeruseaddofficercommand.comment,Should players be allowed to use the /mc colony addOfficer command?,プレイヤーの /mc colony addOfficer コマンドの使用を許可しますか？
-minecolonies.config.canplayeruseallytownhallteleport,Can Players TP to Allies,同盟者への TP の許可
+minecolonies.config.canplayeruseaddofficercommand,Can Players Use the Add Officer Command,プレイヤーのオフィサーの追加 コマンドの使用許可
+minecolonies.config.canplayeruseaddofficercommand.comment,Should players be allowed to use the /mc colony addOfficer command?,プレイヤーの /mc colony addOff氷r コマンドの使用を許可しますか？
+minecolonies.config.canplayeruseallytownhallteleport,Can Players TP to Allies,同盟者へのTP の許可
 minecolonies.config.canplayeruseallytownhallteleport.comment,Can players teleport to allied colonies?,同盟コロニーへのテレポートを許可しますか？
-minecolonies.config.canplayerusecitizeninfocommand,Can Players Use the Citizen Info Command,プレイヤーの 市民インフォメーションコマンド の許可
+minecolonies.config.canplayerusecitizeninfocommand,Can Players Use the Citizen Info Command,プレイヤーの市民インフォメーションコマンド の許可
 minecolonies.config.canplayerusecitizeninfocommand.comment,Should players be allowed to use the /mc citizens info command?,プレイヤーの /mc citizens info コマンドの使用を許可しますか？
-minecolonies.config.canplayerusecolonytpcommand,Can Players Use the Colony TP Command,プレイヤーの コロニーTP コマンドの使用許可
-minecolonies.config.canplayerusecolonytpcommand.comment,Should players be allowed to use the /mc colony teleport command?,プレイヤーの /mc colony teleport コマンドの使用を許可しますか？
-minecolonies.config.canplayerusedeletecolonycommand,Can Players Use the Delete Colony Command,プレイヤーの コロニー削除コマンド の許可
+minecolonies.config.canplayerusecolonytpcommand,Can Players Use the Colony TP Command,プレイヤーのコロニーTP コマンドの使用許可
+minecolonies.config.canplayerusecolonytpcommand.comment,Should players be allowed to use the /mc colony teleport command?,プレイヤーの/mc colony teleport コマンドの使用を許可しますか？
+minecolonies.config.canplayerusedeletecolonycommand,Can Players Use the Delete Colony Command,プレイヤーのコロニー削除コマンド の許可
 minecolonies.config.canplayerusedeletecolonycommand.comment,Should players be allowed to use the /mc colony delete command?,プレイヤーの /mc colony delete コマンドの使用を許可しますか？
-minecolonies.config.canplayerusehometpcommand,Can Players Use the Home TP Command,プレイヤーの Home TP コマンド使用許可
-minecolonies.config.canplayerusehometpcommand.comment,Should players be allowed to use the /mc home command? Note: Only owners of the colony can use this command.,プレイヤーの /mc home コマンドの使用を許可しますか？　※このコマンドはコロニーのオーナーのみが使用できます。
-minecolonies.config.canplayerusekillcitizenscommand,Can Players Use the Kill Citizens Command,プレイヤーの 市民をキルする コマンドの使用許可
-minecolonies.config.canplayerusekillcitizenscommand.comment,Should players be allowed to use the /mc citizens kill command?,プレイヤーの /mc citizen kill コマンドの使用を許可しますか？
-minecolonies.config.canplayeruselistcitizenscommand,Can Players Use the List Citizens Command,プレイヤーの 市民をリストアップ コマンドの使用許可
-minecolonies.config.canplayeruselistcitizenscommand.comment,Should players be allowed to use the /mc citizens list command?,プレイヤーの /mc citizens list コマンドの使用を許可しますか？
+minecolonies.config.canplayerusehometpcommand,Can Players Use the Home TP Command,プレイヤーのHome TP コマンド使用許可
+minecolonies.config.canplayerusehometpcommand.comment,Should players be allowed to use the /mc home command? Note: Only owners of the colony can use this command.,プレイヤーの/mc home コマンドの使用を許可しますか？　※このコマンドはコロニーのオーナーのみが使用できます。
+minecolonies.config.canplayerusekillcitizenscommand,Can Players Use the Kill Citizens Command,プレイヤーの市民をキルする コマンドの使用許可
+minecolonies.config.canplayerusekillcitizenscommand.comment,Should players be allowed to use the /mc citizens kill command?,プレイヤーの/mc citizen kill コマンドの使用を許可しますか？
+minecolonies.config.canplayeruselistcitizenscommand,Can Players Use the List Citizens Command,プレイヤーの市民をリストアップ コマンドの使用許可
+minecolonies.config.canplayeruselistcitizenscommand.comment,Should players be allowed to use the /mc citizens list command?,プレイヤーの /mc citizensリストコマンドの使用を許可しますか？
 minecolonies.config.canplayerusemodifycitizenscommand,Can Players Use the Modify Citizens Command,プレイヤーの市民を変更するコマンドの使用許可
 minecolonies.config.canplayerusemodifycitizenscommand.comment,Should players be allowed to use the /mc citizens modify command?,プレイヤーの /mc citizen modify コマンドの使用を許可しますか？
 minecolonies.config.canplayeruseresetcommand,Can Players Use the Request System Reset Command,"プレイヤーが ""リクエストシステムリセット"" コマンドを使用できるか"
 minecolonies.config.canplayeruseresetcommand.comment,Should players be allowed to use the /mc colony requestsystem-reset command?,"プレイヤーに "" /mc colony requestsystem-reset "" コマンドの使用を許可しますか？"
-minecolonies.config.canplayerusertpcommand,Can Players Use the RTP Command,プレイヤーの RTP コマンド許可
-minecolonies.config.canplayerusertpcommand.comment,Should players be allowed to use the /mc rtp command?,プレーヤーの /mc rtp コマンドの使用を許可しますか？
-minecolonies.config.canplayeruseshowcolonyinfocommand,Can Players Use the Show Colony Info Command,プレイヤーの コロニー情報表示 コマンドの許可
-minecolonies.config.canplayeruseshowcolonyinfocommand.comment,Should players be allowed to use the /mc colony info command?,プレイヤーの /mc colony info コマンドの使用を許可しますか？
+minecolonies.config.canplayerusertpcommand,Can Players Use the RTP Command,プレイヤーのRTP コマンド許可
+minecolonies.config.canplayerusertpcommand.comment,Should players be allowed to use the /mc rtp command?,プレーヤーの/mc rtp コマンドの使用を許可しますか？
+minecolonies.config.canplayeruseshowcolonyinfocommand,Can Players Use the Show Colony Info Command,プレイヤーのコロニー情報表示 コマンドの許可
+minecolonies.config.canplayeruseshowcolonyinfocommand.comment,Should players be allowed to use the /mc colony info command?,プレイヤーの/mc colony info コマンドの使用を許可しますか？
 minecolonies.config.citizencallforhelp,Citizens Call for Help,市民からの救援要請
 minecolonies.config.citizencallforhelp.comment,Should citizens call Guards for help when attacked?,襲われたときに市民はガードに助けを求めるかどうか。
 minecolonies.config.citizenrespawninterval,Initial Citizen Respawn Interval,初期市民のリスポーン間隔
@@ -3321,7 +3314,7 @@ minecolonies.config.dirtfromcompost.comment,Quantity of dirt per compost filling
 minecolonies.config.disablecitizenvoices,Citizen Sounds,市民の音声
 minecolonies.config.disablecitizenvoices.comment,Disable citizen voices.,市民の声を無効化する
 minecolonies.config.disableemptycolonies,Disable Empty Colonies,空のコロニーを無効化
-minecolonies.config.disableemptycolonies.comment,Will stop empty colonies from being generated in the world - Needs world Reload,ワールドに空のコロニーが生成されるのを防ぎます。 ワールドの再読み込みが必要です。
+minecolonies.config.disableemptycolonies.comment,Will stop empty colonies from being generated in the world - Needs world Reload,ワールドに空のコロニーが生成されるのを防ぎます。ワールドの再読み込みが必要です。
 minecolonies.config.diseasemodifier,Disease Modifier,発症率
 minecolonies.config.diseasemodifier.comment,"How common diseases are. 1 = Very common, 100 = extremely rare.",病気がどれほど一般的か。1 = 一般的、100 = 極稀に。
 minecolonies.config.diseases,Diseases,病気
@@ -3369,7 +3362,7 @@ minecolonies.config.listofplantables.comment,The items and item-tags that the Fl
 minecolonies.config.loadtime,Colony chunk loading duration,コロニーチャンクのロード時間
 minecolonies.config.loadtime.comment,"Set how long chunks stay loaded after player leaves, does not persist through restarts. Default: 10min",プレイヤーが去った後チャンクがロードされたままになる時間を設定します。デフォルト: 10分
 minecolonies.config.luckyblockchance,Ore Chance,鉱石のチャンス
-minecolonies.config.luckyblockchance.comment,"Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. (To change which ores the Miner can find, see ""List of Lucky Ores"".)",丸石や石を採掘したときに鉱石が手に入る確率です。（デフォルトで、データパックで他の素材に拡張可能です）これはパーセンテージです。(鉱夫が見つけることができる鉱石を変更するには、「幸運の鉱石のリスト」を参照してください)
+minecolonies.config.luckyblockchance.comment,"Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. (To change which ores the Miner can find, see ""List of Lucky Ores"".)",丸石や石を採掘したときに鉱石が手に入る確率です。(デフォルトで、データパックで他の素材に拡張可能です)これはパーセンテージです。(鉱夫が見つけることができる鉱石を変更するには、「幸運の鉱石のリスト」を参照してください)
 minecolonies.config.luckyores,List of Lucky Ores,幸運の鉱石一覧
 minecolonies.config.luckyores.comment,"List of ore blocks rarely found magically by Miners (see ""Ore Chance""). Includes the block and its chance, separated by exclamation marks.",鉱夫が魔法で見つけることが稀な鉱石ブロック(「鉱石のチャンス」を参照)の一覧。感嘆符で区切られたブロックとその確率を含む。
 minecolonies.config.maxRaiders,Maximum amount of raiders,襲撃者の最大数
@@ -3389,7 +3382,7 @@ minecolonies.config.maxkeptbackups.comment,Set the max amount of backups kept,�
 minecolonies.config.maxtreesize,Max Tree Size,最大ツリーサイズ
 minecolonies.config.maxtreesize.comment,Max log count in one tree for the Forester to check during their tree search.,木こりが木の検索の際に確認する、1本の木における最大原木数。
 minecolonies.config.maxyforbarbarians,Max Height for Raiders,襲撃者の出現最大高度
-minecolonies.config.maxyforbarbarians.comment,Max Y level (height) for Raiders to spawn.,襲撃者がスポーン可能な最大の Y レベル(高さ)。
+minecolonies.config.maxyforbarbarians.comment,Max Y level (height) for Raiders to spawn.,襲撃者がスポーン可能な最大のY レベル(高さ)。
 minecolonies.config.mincolonydistance,Minimum Colony Distance,最小コロニー距離
 minecolonies.config.mincolonydistance.comment,The minimum distance (in chunks) between colonies.,コロニー間の最小距離(チャンク単位) です。
 minecolonies.config.mindistancefromworldspawn,Min Distance from World Spawn,ワールド生成時の最少領地範囲
@@ -3405,13 +3398,13 @@ minecolonies.config.mobattackcitizens.comment,Should mobs attack citizens?,MOB�
 minecolonies.config.neighborbuildingrange,Neighbor Building Range,隣接する建物の範囲
 minecolonies.config.neighborbuildingrange.comment,"How close a building needs to be to another to be considered a neighbor, in blocks. -1 = intersecting, 0 = touching",ある建物が他の建物とどのくらい近ければ隣接しているとみなされるかをブロック単位で示したものです。-1 = 交差している、0 = 接触している
 minecolonies.config.neighborbuildingrendering,Neighbor Building Rendering,隣接する建物の完成予想図
-minecolonies.config.neighborbuildingrendering.comment,"By default, when placing a schematic near other buildings, the already-placed buildings will show as if they were at level 5 and have a blue outline around them. You can disable that by setting this to false.",デフォルトでは、他の建物の近くに設計図を配置すると、既に配置されている建物はレベル5のように表示され、その周りに青い輪郭が表示されます。これをfalseに設定することで無効にすることができます。
+minecolonies.config.neighborbuildingrendering.comment,"By default, when placing a schematic near other buildings, the already-placed buildings will show as if they were at level 5 and have a blue outline around them. You can disable that by setting this to false.",デフォルトでは、他の建物の近くに設計図を配置すると、既に配置されている建物はレベル5のように表示され、その周りに青い輪郭が表示されます。これをfalseに設定することで無効にできます。
 minecolonies.config.nosupplyplacementrestrictions,No supply camp placing restrictions,サプライキャンプの配置制限なし
 minecolonies.config.nosupplyplacementrestrictions.comment,"Disables supply camp placing restrictions, intended for skyworlds and similar",スカイワールドや類似の支給キャンプの設置制限を無効にします
 minecolonies.config.numberofattemptsforsafetp,Number of Attempts for Safe TP,安全なテレポートのための試行回数
 minecolonies.config.numberofattemptsforsafetp.comment,Amount of attempts to find a safe random teleport (with /mc rtp).,安全な場所へのランダムテレポート検索回数( /mc rtp 使用時)
-minecolonies.config.officersreceiveadvancements,Officers Receive Advancements,幹部の昇進
-minecolonies.config.officersreceiveadvancements.comment,Should officers of a colony receive advancements from that colony?,コロニーの役員は、そのコロニーから昇進を受けるべきですか？
+minecolonies.config.officersreceiveadvancements,Officers Receive Advancements,幹部の進捗
+minecolonies.config.officersreceiveadvancements.comment,Should officers of a colony receive advancements from that colony?,コロニーの役員は、そのコロニーから進捗を受けるべきですか？
 minecolonies.config.pathfinding,Pathfinding Settings,経路探索設定
 minecolonies.config.pathfinding.comment,All configurations related to pathfinding,経路探索に関する全ての設定
 minecolonies.config.pathfindingdebugdraw,Pathfinding Debug Draw,デバッグ用導線の表示
@@ -3427,7 +3420,7 @@ minecolonies.config.permissioneventbypassminpermlevel.comment,Disables colony pe
 minecolonies.config.permissions,Permission Settings,権限設定
 minecolonies.config.permissions.comment,All permission configuration options,全ての権限設定オプション
 minecolonies.config.pvp_mode,PVP Mode,PVP モード
-minecolonies.config.pvp_mode.comment,Turn on MineColonies PVP mode (colonies can be destroyed and griefed under certain conditions).,MineColoniesのPVPモードをONにします(コロニーを破壊する事ができ、市民は悲嘆にくれるでしょう)
+minecolonies.config.pvp_mode.comment,Turn on MineColonies PVP mode (colonies can be destroyed and griefed under certain conditions).,MineColoniesのPVPモードをONにします(コロニーを破壊する事ができ、市民は破壊されるでしょう)
 minecolonies.config.raidDifficulty,Raid Difficulty,襲撃難易度
 minecolonies.config.raidDifficulty.comment,The difficulty setting for raids.,襲撃の難易度を設定します。
 minecolonies.config.raidersbreakblocks,Do raiders break blocks,襲撃者がブロックを破壊するか
@@ -3439,7 +3432,7 @@ minecolonies.config.requestsystem.comment,All configurations related to the requ
 minecolonies.config.research,Research Settings,研究設定
 minecolonies.config.research.comment,All configurations related to the research system,研究システムに関するすべての設定
 minecolonies.config.researchcreativecompletion,Research Creative Completion,クリエイティブモード時の研究完了
-minecolonies.config.researchcreativecompletion.comment,"Allows automatic and (near) instant completion of research for players in creative mode. If false, creative players will still be able to begin researches, but will have normal progress rates.",クリエイティブモードのプレイヤーに対して、研究を自動的かつ（ほぼ）即座に完了させることを許可します。falseの場合、クリエイティブモードのプレイヤーも研究を始められますが、通常の進行速度になります。
+minecolonies.config.researchcreativecompletion.comment,"Allows automatic and (near) instant completion of research for players in creative mode. If false, creative players will still be able to begin researches, but will have normal progress rates.",クリエイティブモードのプレイヤーに対して、研究を自動的かつ(ほぼ)即座に完了させることを許可します。falseの場合、クリエイティブモードのプレイヤーも研究を始められますが、通常の進行速度になります。
 minecolonies.config.researchdebuglog,Log Research Data,研究用データの記録
 minecolonies.config.researchdebuglog.comment,Significantly increases the amount of information related to research datapacks that is logged during the world load.,ワールドロード時に記録される研究用データパックに関連する情報量を大幅に増やします。
 minecolonies.config.researchresetcost,Cost to Undo a Completed Research,完了した研究をもとに戻すのに必要なコスト
@@ -3628,7 +3621,7 @@ minecolonies.quests.tutorial.builder.obj0.answer0,Yes sure!,えぇもちろん�
 minecolonies.quests.tutorial.builder.obj0.answer0.reply,"Nice, so let's get this builder hut built then. Right click the builder hut block, go into 'Build Options' and click 'Build Building'",よし、ではこの建築事務所を建ててみよう。建築事務所のブロックを右クリックして「建築オプション」から「建築を開始する」をクリックしてみようか。
 minecolonies.quests.tutorial.builder.obj0.answer0.reply.answer0,Already done!,もうやったよ！
 minecolonies.quests.tutorial.builder.obj0.answer0.reply.answer1,On it!,任せて！
-minecolonies.quests.tutorial.builder.obj0.answer0.reply.answer1.reply,No Problem! To see what the builder requires for this building you can right click the hut and select the 'Required Resources' tab which is the second tab from the top on the left. You can drop off items there directly or through the inventory available through the inventory button in the bottom middle of the main page or by shift right clicking the block.,問題ありません！建築家がこの建物を建てるために必要なものを確認するには小屋を右クリックし、左側の上から2番目のタブである「必要なリソース」タブを選択することができる。そこに直接アイテムを置くか、メイン ページの下部中央にあるインベントリ ボタンまたはブロックをスニークしながら右クリックして利用可能なインベントリに置くことができます。
+minecolonies.quests.tutorial.builder.obj0.answer0.reply.answer1.reply,No Problem! To see what the builder requires for this building you can right click the hut and select the 'Required Resources' tab which is the second tab from the top on the left. You can drop off items there directly or through the inventory available through the inventory button in the bottom middle of the main page or by shift right clicking the block.,問題ありません！建築家がこの建物を建てるために必要なものを確認するには小屋を右クリックし、左側の上から2番目のタブである「必要なリソース」タブを選択することができる。そこに直接アイテムを置くか、メイン ページの下部中央にあるインベントリボタンまたはブロックをスニークしながら右クリックして利用可能なインベントリに置くことができます。
 minecolonies.quests.tutorial.builder.obj0.answer0.reply.answer1.reply.answer0,Okay thanks!,わかりました、ありがとう！
 minecolonies.quests.tutorial.builder.obj0.answer0.reply.answer1.reply.answer0.reply,Great! Come back to me once you checked that out!,素晴らしい！それを確認したらまた私のところに来てください！
 minecolonies.quests.tutorial.builder.obj0.answer0.reply.answer1.reply.answer0.reply.answer0,"Understood, be right back!",わかった、すぐに戻る！
@@ -3651,12 +3644,12 @@ minecolonies.quests.tutorial.builder.obj1.answer2.reply.answer0,Awesome!,素晴�
 minecolonies.quests.tutorial.builder.obj1.answer3,"Not yet, I will get to it later!",まだだよ、後で行くよ！
 minecolonies.quests.tutorial.builder.obj2,"Welcome back, were you able to check out the resource requirement list?",おかえりなさい、必要なリソースリストはチェックできましたか？
 minecolonies.quests.tutorial.builder.obj2.answer0,"No, I forgot how to do it!",いや、やり方を忘れてしまった！
-minecolonies.quests.tutorial.builder.obj2.answer0.reply,No Problem! To see what the builder requires for this building you can right click the hut and select the 'Required Resources' tab which is the second tab from the top on the left. You can drop off items there directly or through the inventory available through the inventory button in the bottom middle of the main page or by shift right clicking the block.,問題ありません！建築家がこの建物を建てるために必要なものを確認するには小屋を右クリックし、左側の上から2番目のタブである「必要なリソース」タブを選択することができる。そこに直接アイテムを置くか、メイン ページの下部中央にあるインベントリ ボタンまたはブロックをスニークしながら右クリックして利用可能なインベントリに置くことができます。
+minecolonies.quests.tutorial.builder.obj2.answer0.reply,No Problem! To see what the builder requires for this building you can right click the hut and select the 'Required Resources' tab which is the second tab from the top on the left. You can drop off items there directly or through the inventory available through the inventory button in the bottom middle of the main page or by shift right clicking the block.,問題ありません！建築家がこの建物を建てるために必要なものを確認するには小屋を右クリックし、左側の上から2番目のタブである「必要なリソース」タブを選択することができる。そこに直接アイテムを置くか、メイン ページの下部中央にあるインベントリボタンまたはブロックをスニークしながら右クリックして利用可能なインベントリに置くことができます。
 minecolonies.quests.tutorial.builder.obj2.answer0.reply.answer0,Okay thanks!,わかりました、ありがとう！
 minecolonies.quests.tutorial.builder.obj2.answer0.reply.answer0.reply,Great! Come back to me once you checked that out!,素晴らしい！それを確認したらまた私のところに来てください！
 minecolonies.quests.tutorial.builder.obj2.answer0.reply.answer0.reply.answer0,"Understood, be right back!",わかった、すぐに戻る！
 minecolonies.quests.tutorial.builder.obj2.answer1,"Yes, done, what's next?",はい、終わったよ。次はどうする？
-minecolonies.quests.tutorial.builder.obj2.answer1.reply,Awesome! Your builder might also need some tools to prepare the building area. You can supervise your builders immediate needs by right clicking them and selecting the 'Open Requests' tab which is the second from the top on the left. You can fulfill the request right there or through their inventory by shift right clicking them.,すごい！建築家はまた建築エリアを準備するためにいくつかの道具を必要とするかもしれません。建築家を右クリックして左側の上から2番目にある「未解決のリクエスト」タブを選択すると、建築家がすぐに必要とするものを管理することができます。その場でリクエストをこなすこともできますしインベントリからリクエストをこなすこともできます。
+minecolonies.quests.tutorial.builder.obj2.answer1.reply,Awesome! Your builder might also need some tools to prepare the building area. You can supervise your builders immediate needs by right clicking them and selecting the 'Open Requests' tab which is the second from the top on the left. You can fulfill the request right there or through their inventory by shift right clicking them.,すごい！建築家はまた建築エリアを準備するためにいくつかの道具を必要とするかもしれません。建築家を右クリックして左側の上から2番目にある「未解決のリクエスト」タブを選択すると、建築家がすぐに必要とするものを管理できます。その場でリクエストをこなすこともできますしインベントリからリクエストをこなすこともできます。
 minecolonies.quests.tutorial.builder.obj2.answer1.reply.answer0,"Oh nice, good to know!",そうか、それはよかった！
 minecolonies.quests.tutorial.builder.obj2.answer1.reply.answer0.reply,Great! Come back to me once the builder finished building.,素晴らしい！建築家が建築を終えたらまた来てください。
 minecolonies.quests.tutorial.builder.obj2.answer1.reply.answer0.reply.answer0,On it!,任せて！
@@ -3908,7 +3901,7 @@ minecolonies.quests.tutorial.restaurant.obj3.answer0,See you in a bit!,また後
 minecolonies.quests.tutorial.sawmill,I saw that!,見たよ！
 minecolonies.quests.tutorial.sawmill.obj0,I see you working yourself to death crafting all these stairs and planks on your own. I think it's about time to get a sawmill to automate this task!,階段や板材を一人で死ぬ気で作っているのが見えるよ。そろそろこの作業を自動化する製材所が必要だと思う！
 minecolonies.quests.tutorial.sawmill.obj0.answer0,Plleeeeeeassse!,頼むよぉぉぉぉぉ！
-minecolonies.quests.tutorial.sawmill.obj0.answer0.reply,"The sawmill is able to craft most wood related blocks on demand and your couriers will make sure that they get all they need for it! But before we do that, we need to first research it at the university!'",製材所ではほとんどの木材に関連するブロックをオンデマンドで製造することができます！しかし、その前にまず大学で研究する必要があるんだ！
+minecolonies.quests.tutorial.sawmill.obj0.answer0.reply,"The sawmill is able to craft most wood related blocks on demand and your couriers will make sure that they get all they need for it! But before we do that, we need to first research it at the university!'",製材所ではほとんどの木材に関連するブロックをオンデマンドで製造できます！しかし、その前にまず大学で研究する必要があるんだ！
 minecolonies.quests.tutorial.sawmill.obj0.answer0.reply.answer0,On it!,任せて！
 minecolonies.quests.tutorial.sawmill.obj0.answer0.reply.answer1,Already done!,もうやったよ！
 minecolonies.quests.tutorial.sawmill.obj0.answer0.reply.answer1.reply,"Alrighty then! You know the drill, craft the sawmill hut block in a crafting bench, place it and let your builder build it. This time put three wooden axes in the middle, put the build tool at the top and fill up the rest with planks.",さて、それでは！さて、お作法はおわかりだろう。作業台で製材所のブロックをクラフトし、それを置いて、建築家に建てさせるのだ。今回は真ん中に木の斧を3本置き、一番上にビルドツールを置き、残りを板材で埋める。
@@ -4215,8 +4208,8 @@ tag.item.minecolonies.stonesmeltery_product_excluded,Stonesmelter Crafting Exclu
 tag.item.minecolonies.storage_blocks,Storage Blocks,ストレージブロック
 tile.blockhut.alreadyclaimed,You cannot assign a work order which is already claimed somewhere.,すでにどこかで申請されている作業指示を割り当てることはできません。
 tile.blockhut.cannotbuild,You cannot assign a work order to a builder who cannot build it.,作業指示を、それを建設できない建築家に割り当てることはできません。
-tile.blockhut.messagenopermission,You don't have permission to open huts in %s.,あなたは%sの小屋を編集する権限がありません。
-tile.blockhut.messagenopermissionplace,You don't have permission to place huts in %s.,あなたは%sの小屋を編集する権限がありません。
+tile.blockhut.messagenopermission,You don't have permission to open huts in %s.,プレイヤーは%sの小屋を編集する権限がありません。
+tile.blockhut.messagenopermissionplace,You don't have permission to place huts in %s.,プレイヤーは%sの小屋を編集する権限がありません。
 tile.blockhut.messagenotownhall,You need to place a Town Hall first!,先に市庁舎ブロックを設置する必要があります。
 tile.blockhut.messagetoofarfromtownhall,You cannot place a building outside of your colony! Expand your colony by upgrading the Town Hall and/or building and upgrading Guard Towers and Barracks.,建築場所がコロニーの領地外のようです！市庁舎をアップグレードしたりコロニーの端に兵舎塔や兵舎を建設、アップグレードすることによりあなたの領地を拡大できます。
 tile.blockhut.notforbuilder,You cannot assign a builder this work order - it is not meant for builders.,この作業指示は建築家向けではないため、建築家に割り当てることはできません。

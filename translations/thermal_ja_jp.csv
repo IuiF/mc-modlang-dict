@@ -1,7 +1,7 @@
 ﻿key,source_text,target_text
-_comment,========================================================================================================,========================================================================================================
+_comment,========================================================================================================,
 advancements.thermal.root.description,The beginnings of a thermally expanded world!,サーマルに拡張された世界のはじまり
-advancements.thermal.root.title,Thermal Series,Thermal Series
+advancements.thermal.root.title,Thermal Series,サーマルシリーズ
 advancements.thermal.wrench.description,Craft a Crescent Hammer.,クレセントハンマーを作成する
 advancements.thermal.wrench.title,Looks Like a Wrench,レンチのようなもの
 attachment.thermal.energy_limiter,Redstone Flux Limiter,レッドストーンフラックスリミッター
@@ -174,9 +174,9 @@ block.thermal.machine_crucible.keyword,machine melter,機械 melter
 block.thermal.machine_crystallizer,Crystallizer,結晶化機
 block.thermal.machine_frame,Machine Frame,マシンフレーム
 block.thermal.machine_furnace,Redstone Furnace,レッドストーンかまど
-block.thermal.machine_furnace.keyword,cooking furnace machine,cooking furnace 機械
+block.thermal.machine_furnace.keyword,cooking furnace machine,クッキング furnace 機械
 block.thermal.machine_insolator,Phytogenic Insolator,植物日照機
-block.thermal.machine_insolator.keyword,catalyst cloche crops farm fertilizer machine plant sapling tree,catalyst cloche crops farm fertilizer 機械 plant sapling tree
+block.thermal.machine_insolator.keyword,catalyst cloche crops farm fertilizer machine plant sapling tree,catalyst cloche crops farm fertilizer 機械 plant 樹液ling tree
 block.thermal.machine_press,Multiservo Press,マルチサーボプレス機
 block.thermal.machine_press.keyword,coin gear machine,coin gear 機械
 block.thermal.machine_pulverizer,Pulverizer,粉砕機
@@ -205,7 +205,7 @@ block.thermal.onion_block,Crate of Onions,タマネギクレート
 block.thermal.orange_rockwool,Orange Rockwool,橙色の岩綿
 block.thermal.peanut,Peanuts,ピーナッツ
 block.thermal.peanut_block,Sack of Peanuts,ピーナッツ袋
-block.thermal.phyto_tnt,PNT,PNT
+block.thermal.phyto_tnt,PNT,
 block.thermal.phyto_tnt.desc,Spreads Phyto-Gro in a large area. Not throwable.,広大な範囲にフィト・グローを散布しますが、投げられません。
 block.thermal.phyto_tnt.keyword,fertilizer tnt,肥料 爆発物
 block.thermal.phytosoil,Phyto-Soil,フィト・ソイル
@@ -376,13 +376,13 @@ info.thermal.device_fisher.1,Must be placed in a body of water.,水中に設置�
 info.thermal.device_fisher.2,Hang up your fishing rod.,釣り竿を吊るし上げよう。
 info.thermal.device_fluid_buffer.0,Stores and transfers fluids. Can automatically extract.,液体を溜めて転送できます。自動搬出ができます。
 info.thermal.device_fluid_buffer.1,"It's like a hopper, for fluids!",液体用ホッパーのようなものです。
-info.thermal.device_fluid_buffer.2,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,ShiftキーやCtrlキーで流入出量を細かく設定できます。
+info.thermal.device_fluid_buffer.2,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,シフトキーやCtrlキーで流入出量を細かく設定できます。§r§r§r
 info.thermal.device_hive_extractor.0,Carefully extracts products from beehives.,生産物を養蜂箱から慎重に抽出します。
 info.thermal.device_hive_extractor.1,Good for bees and keepers alike!,ミツバチにも、養蜂家にも助けとなります。
 info.thermal.device_hive_extractor.2,Buzz buzz.,ブンブンブン
 info.thermal.device_item_buffer.0,Stores and transfers items. Can automatically extract.,アイテムを溜めて転送できます。自動搬出ができます。
 info.thermal.device_item_buffer.1,"Better than a Hopper, really!",ホッパーより実際優秀。
-info.thermal.device_item_buffer.2,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,ShiftキーやCtrlキーで搬入出数を細かく設定できます。
+info.thermal.device_item_buffer.2,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,シフトキーやCtrlキーで搬入出数を細かく設定できます。§r§r§r
 info.thermal.device_nullifier.0,Destroys anything placed into it.,この中に置かれたものすべてを消滅させます。
 info.thermal.device_nullifier.1,Items and fluid inserted with automation are destroyed instantly.,自動搬入されたアイテムや流体は即座に消滅します。
 info.thermal.device_nullifier.2,Items inserted manually must be destroyed with the button.,手動で入れられたアイテムは、ボタンを押すまで消滅されません。
@@ -398,7 +398,7 @@ info.thermal.device_soil_infuser.0,Infuses nearby Phyto-Soil with Redstone Flux.
 info.thermal.device_soil_infuser.1,Affects one layer above and below.,上下一ブロックずつに効果があります。
 info.thermal.device_soil_infuser.2,"Safe for crops, really!",作物には実際安全
 info.thermal.device_tree_extractor.0,Extracts fluids from adjacent trees.,隣接する樹木から流体を抽出します。
-info.thermal.device_tree_extractor.1,Use fertilizer to boost production.,肥料を使うと生産効率を増加することができます。
+info.thermal.device_tree_extractor.1,Use fertilizer to boost production.,肥料を使うと生産効率を増加できます。
 info.thermal.device_tree_extractor.2,Put down the axe.,斧を下ろそう。
 info.thermal.device_water_gen.0,Provides copious amounts of water.,大量の水を供給します。
 info.thermal.device_water_gen.1,Requires adjacent water sources to function.,稼働には水源を隣接させる必要があります。
@@ -422,16 +422,16 @@ info.thermal.dynamo_numismatic.2,"Don't overthink it, just insert coins.",あま
 info.thermal.dynamo_stirling.0,Generates Redstone Flux using solid fuels.,固形燃料からRFを生成します。
 info.thermal.dynamo_stirling.1,Most things that work in a Furnace work here too.,かまどの燃料はほとんど使用できます。
 info.thermal.energy_cell.0,Stores and transfers Redstone Flux.,レッドストーンフラックスを溜め、移送します。
-info.thermal.energy_cell.1,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,§e§oShift§rと§e§oCtrl§rでより精密に量を調節できます。
+info.thermal.energy_cell.1,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,§e§oシフト§rと§e§oCtrl§rでより精密に量を調節できます。
 info.thermal.energy_limiter_attachment.0,Limits the amount of energy flowing through it.,これを通して流れるエネルギー量を制限します。
 info.thermal.energy_limiter_attachment.1,Can be configured to allow different amounts in each direction.,それぞれの方向へ向かう量をそれぞれ変更できます。
-info.thermal.energy_limiter_attachment.2,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,ShiftキーやCtrlキーで入出力量を細かく設定できます。
+info.thermal.energy_limiter_attachment.2,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,シフトキーやCtrlキーで入出力量を細かく設定できます。§r§r§r
 info.thermal.energy_mod,Energy Modifier,エネルギー倍率
 info.thermal.filter_attachment.mode.0,Bidirectional Filtering,双方向フィルタリング
 info.thermal.filter_attachment.mode.1,Outbound (From Duct) Filtering,アウトバウンド(ダクトから)フィルタリング
 info.thermal.filter_attachment.mode.2,Inbound (To Duct) Filtering,インバウンド(ダクトへ)フィルタリング
 info.thermal.fluid_cell.0,Stores and transfers Fluids.,流体を溜め、移送します。
-info.thermal.fluid_cell.1,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,§e§oShift§rと§e§oCtrl§rでより精密に量を調節できます。
+info.thermal.fluid_cell.1,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,§e§oシフト§rと§e§oCtrl§rでより精密に量を調節できます。
 info.thermal.fluid_filter_attachment.0,Place items containing fluid in slots to add the fluid to the filter list.,液体を含むアイテムをスロットに置くと、フィルターリストに液体が登録されます。
 info.thermal.fluid_filter_attachment.1,Additional options can be used to fine-tune filtering.,追加オプションからより細かいフィルター設定を行えます。
 info.thermal.fluid_filter_attachment.2,Redstone Control can be used to temporarily disable filtering.,レッドストーン制御でフィルター設定を一時的に無効にできます。
@@ -453,18 +453,18 @@ info.thermal.item_buffer.0,Restricts quantity and flow of items.,アイテムの
 info.thermal.item_buffer.1,Set desired items and quantities using the left grid.,左のグリッドで、希望するアイテムとその個数を設定します。
 info.thermal.item_buffer.2,Mouse wheel can be used to fine-tune item quantity.,ラッチI/Oは、搬出にはすべてのアイテムが存在する必要があります。
 info.thermal.item_buffer.3,Latch I/O requires all items to be present before extraction is allowed.,特定のアイテムの比率を維持するのに役立ちます。
-info.thermal.item_buffer.4,Very useful for maintaining specific item ratios.,Very useful for maintaining specific item ratios.
+info.thermal.item_buffer.4,Very useful for maintaining specific item ratios.,アイテム比率を維持するのに非常に便利です。
 info.thermal.item_buffer.mode.0,I/O: Normal,I/O: 通常
 info.thermal.item_buffer.mode.1,I/O: Latch,I/O: ラッチ
 info.thermal.item_cell.0,Stores and transfers Items.,アイテムを貯め、移送します。
-info.thermal.item_cell.1,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,§e§oShift§rと§e§oCtrl§rでより精密に量を調節できます。
+info.thermal.item_cell.1,Hold §e§oShift§r and/or §e§oCtrl§r to fine tune amounts.,§e§oシフト§rと§e§oCtrl§rでより精密に量を調節できます。
 info.thermal.lock.use,Use on a compatible block to secure it.,適合するブロックに使用することでセキュリティを設定できます。
 info.thermal.lock.use.sneak,Use while sneaking to secure a compatible item held in the offhand.,スニークしながら使用することで、オフハンドの適合するアイテムにセキュリティを設定できます。
 info.thermal.machine_bottler.0,Fills containers with fluids.,容器に流体を詰めます。
 info.thermal.machine_bottler.1,This is required to consume certain beverages.,特定の飲み物を摂取するために必要となります。
 info.thermal.machine_bottler.2,Refreshing!,さわやか
 info.thermal.machine_brewer.0,Brews potions and imbues fluids.,ポーションを醸造して液体を変質させます。
-info.thermal.machine_brewer.1,You might want a few of these in a row.,連続して醸造することができます。
+info.thermal.machine_brewer.1,You might want a few of these in a row.,連続して醸造できます。
 info.thermal.machine_brewer.2,Bottles not included.,瓶は不要です!
 info.thermal.machine_centrifuge.0,Separates items into their components.,アイテムをクラフト前の素材へと分離します。
 info.thermal.machine_centrifuge.1,Some items will process into a fluid component.,幾つかのアイテムは流体も分離します。
@@ -480,7 +480,7 @@ info.thermal.machine_crucible.1,Very useful for creating advanced blocks.,上位
 info.thermal.machine_crucible.2,Keep away from small children and pets.,小さい子供やペットから離してご使用下さい。
 info.thermal.machine_crystallizer.0,Grows and reforms crystalline structures.,結晶構造を成長・改質します。
 info.thermal.machine_crystallizer.1,Requires a fluid and at least one item.,流体と少なくとも1つのアイテムが必要です。
-info.thermal.machine_crystallizer.2,"Shine on, you crazy diamond.","Shine on, you crazy diamond."
+info.thermal.machine_crystallizer.2,"Shine on, you crazy diamond.",輝きますように、狂ったダイヤモンド。
 info.thermal.machine_furnace.0,Smelts things using Redstone Flux.,RFでアイテムを製錬します。
 info.thermal.machine_furnace.1,Uses very little energy to cook food.,食べ物の調理はとても少ないRFで済みます。
 info.thermal.machine_furnace.2,Om nom nom.,もぐもぐもぐ
@@ -515,8 +515,8 @@ info.thermal.quiver.mode.1,Imbuing Enabled,自動浸潤有効
 info.thermal.quiver.use,Use to place arrows into the quiver.,使用すると矢を矢筒に入れます。
 info.thermal.quiver.use.sneak,Use while sneaking to remove arrows.,スニークしながらの使用で矢を取り出します。
 info.thermal.redprint.contents,Contents:,内容:
-info.thermal.redprint.data.Filter,Filter Parameters,Filter Parameters
-info.thermal.redprint.data.FilterAttachmentMode,Filter Attachment Mode,Filter Attachment Mode
+info.thermal.redprint.data.Filter,Filter Parameters,フィルターパラメータ
+info.thermal.redprint.data.FilterAttachmentMode,Filter Attachment Mode,フィルターアタッチメントモード
 info.thermal.redprint.data.RSControl,Redstone Control,レッドストーン制御
 info.thermal.redprint.data.Sides,Side Configuration,側面設定
 info.thermal.redprint.data.Xfer,Transfer Control,輸送設定
@@ -552,25 +552,25 @@ item.thermal.apatite,Apatite,燐灰石
 item.thermal.apatite_dust,Apatite Dust,燐灰石の粉
 item.thermal.aquachow,Aqua-Chow,アクア・チャウ
 item.thermal.aquachow.desc,Use in the §e§oAquatic Entangler§r§6 to catch more fish.,§e§o水資源投網機§r§6で漁獲量を向上するために使用します。
-item.thermal.aquachow.keyword,bait,bait
+item.thermal.aquachow.keyword,bait,
 item.thermal.area_depth_augment,Axial Enhancement,同軸拡張
-item.thermal.area_depth_augment.keyword,augment,augment
+item.thermal.area_depth_augment.keyword,augment,
 item.thermal.area_radius_augment,Radial Enhancement,範囲拡張
-item.thermal.area_radius_augment.keyword,augment drill tool,augment drill tool
+item.thermal.area_radius_augment.keyword,augment drill tool,
 item.thermal.barley,Barley,大麦
 item.thermal.barley_seeds,Barley Seeds,大麦の種
 item.thermal.basalz_powder,Basalz Powder,バザルツパウダー
 item.thermal.basalz_rod,Basalz Shard,バザルツシャード
 item.thermal.basalz_spawn_egg,Basalz Spawn Egg,バザルツのスポーンエッグ
 item.thermal.beekeeper_boots,Beekeeper's Boots,養蜂家のブーツ
-item.thermal.beekeeper_boots.keyword,armor honey sting,armor honey sting
+item.thermal.beekeeper_boots.keyword,armor honey sting,
 item.thermal.beekeeper_chestplate,Beekeeper's Jacket,養蜂家のジャケット
-item.thermal.beekeeper_chestplate.keyword,armor chestplate honey sting,armor chestplate honey sting
+item.thermal.beekeeper_chestplate.keyword,armor chestplate honey sting,
 item.thermal.beekeeper_fabric,Woven Fabric,織布
 item.thermal.beekeeper_helmet,Beekeeper's Hood,養蜂家のフード
-item.thermal.beekeeper_helmet.keyword,armor helmet honey sting,armor helmet honey sting
+item.thermal.beekeeper_helmet.keyword,armor helmet honey sting,
 item.thermal.beekeeper_leggings,Beekeeper's Pants,養蜂家のパンツ
-item.thermal.beekeeper_leggings.keyword,armor honey leggings sting,armor honey leggings sting
+item.thermal.beekeeper_leggings.keyword,armor honey leggings sting,
 item.thermal.bell_pepper,Bell Pepper,パプリカ
 item.thermal.bell_pepper_seeds,Bell Pepper Seeds,パプリカの種
 item.thermal.biocrude_bucket,Bio-crude Oil Bucket,バイオクルード入りバケツ
@@ -589,11 +589,11 @@ item.thermal.bronze_nugget,Bronze Nugget,青銅塊
 item.thermal.bronze_plate,Bronze Plate,青銅の板
 item.thermal.cheese_wedge,Cheese,チーズ
 item.thermal.chiller_ball_cast,Ball Cast,ボール金型
-item.thermal.chiller_ball_cast.keyword,chiller freezer,chiller freezer
+item.thermal.chiller_ball_cast.keyword,chiller freezer,
 item.thermal.chiller_ingot_cast,Ingot Cast,インゴット金型
-item.thermal.chiller_ingot_cast.keyword,chiller freezer,chiller freezer
+item.thermal.chiller_ingot_cast.keyword,chiller freezer,
 item.thermal.chiller_rod_cast,Rod Cast,棒金型
-item.thermal.chiller_rod_cast.keyword,chiller freezer,chiller freezer
+item.thermal.chiller_rod_cast.keyword,chiller freezer,
 item.thermal.cinnabar,Cinnabar,辰砂
 item.thermal.cinnabar_dust,Cinnabar Dust,辰砂の粉
 item.thermal.coal_coke,Coke,コークス
@@ -622,37 +622,37 @@ item.thermal.crude_oil_bucket,Crude Oil Bucket,原油入りバケツ
 item.thermal.cured_rubber,Cured Rubber,硬化ゴム
 item.thermal.deep_aquachow,Benthic Aqua-Chow,深海アクア・チャウ
 item.thermal.deep_aquachow.desc,Use in the §e§oAquatic Entangler§r§6 to catch things from the deep. Best used in Ocean biomes.,§e§o水資源投網機§r§6で深海のものを捕らえるために使用します。海洋バイオームにおいて効果的です。
-item.thermal.deep_aquachow.keyword,bait,bait
+item.thermal.deep_aquachow.keyword,bait,
 item.thermal.detonator,Remote Detonator,遠隔起爆装置
 item.thermal.detonator.desc,Allows for remote priming and detonation of TNT.,TNTの遠隔呼び出し・起爆が出来ます。
-item.thermal.detonator.keyword,tnt,tnt
+item.thermal.detonator.keyword,tnt,
 item.thermal.diamond_coin,Diamond Coin,ダイヤモンドのコイン
 item.thermal.diamond_dust,Diamond Dust,ダイヤモンドの粉
 item.thermal.diamond_gear,Diamond Gear,ダイヤモンドの歯車
 item.thermal.diamond_nugget,Diamond Nugget,ダイヤモンド塊
 item.thermal.diamond_plate,Diamond Plate,ダイヤモンドのプレート
 item.thermal.diving_boots,Diving Flippers,ダイビングフリッパー
-item.thermal.diving_boots.keyword,armor boots underwater,armor boots underwater
+item.thermal.diving_boots.keyword,armor boots underwater,
 item.thermal.diving_chestplate,Diving Suit,ダイビングスーツ
-item.thermal.diving_chestplate.keyword,armor chestplate underwater,armor chestplate underwater
+item.thermal.diving_chestplate.keyword,armor chestplate underwater,
 item.thermal.diving_fabric,Marine Fabric,海布
 item.thermal.diving_helmet,Diving Helmet,ダイビングヘルメット
-item.thermal.diving_helmet.keyword,armor underwater,armor underwater
+item.thermal.diving_helmet.keyword,armor underwater,
 item.thermal.diving_leggings,Diving Leggings,ダイビングレギンス
-item.thermal.diving_leggings.keyword,armor underwater,armor underwater
+item.thermal.diving_leggings.keyword,armor underwater,
 item.thermal.dough,Dough,生地
 item.thermal.drill_head,Drill Head,ドリルヘッド
 item.thermal.dual_filter_augment,Dual Filter,デュアルフィルター
 item.thermal.dual_filter_augment.desc,Allows for item and fluid restriction.,アイテムと流体を限定できます。
-item.thermal.dual_filter_augment.keyword,augment filter,augment filter
+item.thermal.dual_filter_augment.keyword,augment filter,
 item.thermal.dynamo_ender_coil_augment,Ender Frequency Tuner,エンダー周波数同調機
 item.thermal.dynamo_force_coil_augment,Beam Projection Array,光線投影配列
 item.thermal.dynamo_fuel_augment,Multi-cycle Injectors,複循環燃料噴射装置
 item.thermal.dynamo_fuel_augment.desc,Increases fuel efficiency.,燃料効率を上昇させます。
-item.thermal.dynamo_fuel_augment.keyword,augment dynamo,augment dynamo
+item.thermal.dynamo_fuel_augment.keyword,augment dynamo,
 item.thermal.dynamo_output_augment,Auxiliary Reaction Chamber,補助反応室
 item.thermal.dynamo_output_augment.desc,Increases generation rate but reduces efficiency.,生成率を上昇させますが、燃料効率は下がります。
-item.thermal.dynamo_output_augment.keyword,augment dynamo,augment dynamo
+item.thermal.dynamo_output_augment.keyword,augment dynamo,
 item.thermal.dynamo_steam_coil_augment,Steam Boiler Conversion,蒸気ボイラー化
 item.thermal.dynamo_throttle_augment,Excitation Field Limiter,励磁場リミッタ
 item.thermal.dynamo_throttle_augment.desc,Prevents RF from being lost after coil saturation.,コイル容量が飽和した後のRFのロスを防止します。
@@ -660,7 +660,7 @@ item.thermal.earth_charge,Earth Charge,アースチャージ
 item.thermal.earth_grenade,Tectonic Grenade,地動グレネード
 item.thermal.earth_grenade.desc,Breaks apart rocks and earth. Very effective for mining.,岩や土を破壊します。採掘に大変便利です。
 item.thermal.earth_tnt_minecart,Minecart with Tectonic Explosive,地動爆弾付きトロッコ
-item.thermal.earth_tnt_minecart.keyword,basalz earth tnt,basalz earth tnt
+item.thermal.earth_tnt_minecart.keyword,basalz earth tnt,
 item.thermal.eggplant,Eggplant,ナス
 item.thermal.eggplant_seeds,Eggplant Seeds,ナスの種
 item.thermal.electrum_coin,Electrum Coin,エレクトラムのコイン
@@ -679,7 +679,7 @@ item.thermal.ender_grenade,Disruption Grenade,混乱グレネード
 item.thermal.ender_grenade.desc,Creates a disruptive area which teleports things away.,物をテレポートさせる混乱したエリアを作ります。
 item.thermal.ender_pearl_dust,Ender Pearl Dust,エンダーパールの粉
 item.thermal.ender_tnt_minecart,Minecart with Ender Explosive,混乱爆弾付きトロッコ
-item.thermal.ender_tnt_minecart.keyword,tnt,tnt
+item.thermal.ender_tnt_minecart.keyword,tnt,
 item.thermal.enderium_coin,Enderium Coin,エンダリウムのコイン
 item.thermal.enderium_dust,Enderium Blend,エンダリウムの粉
 item.thermal.enderium_gear,Enderium Gear,エンダリウムの歯車
@@ -694,46 +694,46 @@ item.thermal.filter_attachment,Attachment: Filter,アタッチメント: フィ�
 item.thermal.fire_grenade,Inferno Grenade,灼熱グレネード
 item.thermal.fire_grenade.desc,Ignites an area on impact.,爆風と共に範囲を炎上させます。
 item.thermal.fire_tnt_minecart,Minecart with Inferno Explosive,灼熱爆弾付きトロッコ
-item.thermal.fire_tnt_minecart.keyword,blaze fire tnt,blaze fire tnt
+item.thermal.fire_tnt_minecart.keyword,blaze fire tnt,
 item.thermal.flax,Flax,亜麻
 item.thermal.flax_seeds,Flax Seeds,亜麻の種
 item.thermal.flour,Flour,小麦粉
 item.thermal.fluid_filter_augment,Fluid Filter,流体フィルター
 item.thermal.fluid_filter_augment.desc,Allows for fluid restriction.,流体を限定できます。
-item.thermal.fluid_filter_augment.keyword,augment filter,augment filter
+item.thermal.fluid_filter_augment.keyword,augment filter,
 item.thermal.fluid_minecart,Fluid Tank Minecart,流体タンクトロッコ
 item.thermal.fluid_reservoir,Reservoir,リザーバー
 item.thermal.fluid_reservoir.desc,Stores fluid and refills equipped items. Can also be used to pick up and place fluids.,流体の保存と装備アイテムへの補充を行います。また、液体の汲み上げや配置にも使用できます。
-item.thermal.fluid_reservoir.keyword,refiller,refiller
+item.thermal.fluid_reservoir.keyword,refiller,
 item.thermal.fluid_tank_augment,Expanded Tank Construction,拡張タンク機構
-item.thermal.fluid_tank_augment.keyword,augment fluid storage tank,augment fluid storage tank
+item.thermal.fluid_tank_augment.keyword,augment fluid storage tank,
 item.thermal.fluid_tank_creative_augment,Creative Tank Construction,クリエイティブタンク構築
 item.thermal.fluid_tank_creative_augment.desc,Functionally unlimited fluid.,機能的な無限の流体
-item.thermal.fluid_tank_creative_augment.keyword,augment creative fluid storage tank,augment creative fluid storage tank
+item.thermal.fluid_tank_creative_augment.keyword,augment creative fluid storage tank,
 item.thermal.flux_capacitor,Flux Capacitor,RF蓄電池
 item.thermal.flux_capacitor.desc,Stores Redstone Flux and recharges other items.,RFを蓄電し、他のアイテムに充電します。
-item.thermal.flux_capacitor.keyword,battery recharger rf,battery recharger rf
+item.thermal.flux_capacitor.keyword,battery recharger rf,
 item.thermal.flux_drill,Fluxbore,フラックスボア
 item.thermal.flux_drill.desc,Mines blocks using Redstone Flux.,RFでブロックを掘削します。
-item.thermal.flux_drill.keyword,drill pickaxe shovel tool,drill pickaxe shovel tool
+item.thermal.flux_drill.keyword,drill pickaxe shovel tool,
 item.thermal.flux_magnet,FluxoMagnet,フラックスマグネット
 item.thermal.flux_magnet.desc,Attracts items using Redstone Flux.,RFでアイテムを引き寄せます。
 item.thermal.flux_pump,FluiVac,フルイヴァック
 item.thermal.flux_pump.desc,Transfers fluids using Redstone Flux.,RFで流体を移し替えます。
 item.thermal.flux_saw,Fluxsaw,フラックスソー
 item.thermal.flux_saw.desc,Cuts blocks using Redstone Flux.,RFでブロックを伐採します。
-item.thermal.flux_saw.keyword,axe tool,axe tool
+item.thermal.flux_saw.keyword,axe tool,
 item.thermal.frost_melon_seeds,Frost Melon Seeds,フロストメロンの種
 item.thermal.frost_melon_slice,Frost Melon Slice,フロストメロンスライス
 item.thermal.glowstone_bucket,Energized Glowstone Bucket,活性化グロウストーン入りバケツ
 item.thermal.glowstone_grenade,Radiant Grenade,輻射グレネード
 item.thermal.glowstone_grenade.desc,Brightens an area on impact. Harms undead.,衝撃とともに周囲を明るくします。アンデッドにダメージを与えます。
 item.thermal.glowstone_mushroom,Glimmercap Mushroom,ヨアカリタケ
-item.thermal.glowstone_mushroom.keyword,glowstone,glowstone
+item.thermal.glowstone_mushroom.keyword,glowstone,
 item.thermal.glowstone_mushroom_spores,Glimmercap Spores,ヨアカリタケの胞子
-item.thermal.glowstone_mushroom_spores.keyword,glowstone,glowstone
+item.thermal.glowstone_mushroom_spores.keyword,glowstone,
 item.thermal.glowstone_tnt_minecart,Minecart with Radiant Explosive,輻射爆弾付きトロッコ
-item.thermal.glowstone_tnt_minecart.keyword,tnt,tnt
+item.thermal.glowstone_tnt_minecart.keyword,tnt,
 item.thermal.gold_coin,Gold Coin,金のコイン
 item.thermal.gold_dust,Gold Dust,金の粉
 item.thermal.gold_gear,Gold Gear,金の歯車
@@ -742,18 +742,18 @@ item.thermal.green_bean,Green Bean,サヤインゲン
 item.thermal.green_bean_pie,Green Bean Pie,サヤインゲンパイ
 item.thermal.green_bean_seeds,Green Bean Seeds,サヤインゲンの種
 item.thermal.gunpowder_mushroom,Boomshroom,ブームッシュルーム
-item.thermal.gunpowder_mushroom.keyword,gunpowder,gunpowder
+item.thermal.gunpowder_mushroom.keyword,gunpowder,
 item.thermal.gunpowder_mushroom_spores,Boomshroom Spores,ブームッシュルームの胞子
-item.thermal.gunpowder_mushroom_spores.keyword,gunpowder,gunpowder
+item.thermal.gunpowder_mushroom_spores.keyword,gunpowder,
 item.thermal.hazmat_boots,Hazmat Boots,ハズマットブーツ
-item.thermal.hazmat_boots.keyword,armor radiation,armor radiation
+item.thermal.hazmat_boots.keyword,armor radiation,
 item.thermal.hazmat_chestplate,Hazmat Suit,ハズマットスーツ
-item.thermal.hazmat_chestplate.keyword,armor chestplate radiation,armor chestplate radiation
+item.thermal.hazmat_chestplate.keyword,armor chestplate radiation,
 item.thermal.hazmat_fabric,Protective Fabric,防護布
 item.thermal.hazmat_helmet,Hazmat Helmet,ハズマットヘルメット
-item.thermal.hazmat_helmet.keyword,armor radiation,armor radiation
+item.thermal.hazmat_helmet.keyword,armor radiation,
 item.thermal.hazmat_leggings,Hazmat Pants,ハズマットパンツ
-item.thermal.hazmat_leggings.keyword,armor leggings radiation,armor leggings radiation
+item.thermal.hazmat_leggings.keyword,armor leggings radiation,
 item.thermal.hearty_stew,Hearty Stew,たっぷりシチュー
 item.thermal.heavy_oil_bucket,Heavy Oil Bucket,重油入りバケツ
 item.thermal.hops,Hops,ホップ
@@ -762,7 +762,7 @@ item.thermal.ice_charge,Ice Charge,アイスチャージ
 item.thermal.ice_grenade,Glacial Grenade,氷冷グレネード
 item.thermal.ice_grenade.desc,Freezes an area on impact.,爆風と共に範囲を凍結させます。
 item.thermal.ice_tnt_minecart,Minecart with Glacial Explosive,氷冷爆弾付きトロッコ
-item.thermal.ice_tnt_minecart.keyword,blizz ice tnt,blizz ice tnt
+item.thermal.ice_tnt_minecart.keyword,blizz ice tnt,
 item.thermal.invar_coin,Invar Coin,インバーのコイン
 item.thermal.invar_dust,Invar Blend,インバーの粉
 item.thermal.invar_gear,Invar Gear,インバーの歯車
@@ -775,12 +775,12 @@ item.thermal.iron_gear,Iron Gear,鉄の歯車
 item.thermal.iron_plate,Iron Plate,鉄の板
 item.thermal.item_filter_augment,Item Filter,アイテムフィルター
 item.thermal.item_filter_augment.desc,Allows for item restriction.,アイテムを限定できます。
-item.thermal.item_filter_augment.keyword,augment filter,augment filter
+item.thermal.item_filter_augment.keyword,augment filter,
 item.thermal.jar,Glass Jar,ガラスの保存瓶
 item.thermal.jelly,Jar of Jelly,ゼリー入り保存瓶
 item.thermal.junk_net,Junk Net,ガラクタ収集網
 item.thermal.junk_net.desc,Use in the §e§oAquatic Entangler§r§6 to catch junk. Not consumable.,§e§o水資源投網機§r§6でガラクタを集めるために使用します。耐久値はありませn。
-item.thermal.junk_net.keyword,bait,bait
+item.thermal.junk_net.keyword,bait,
 item.thermal.lapis_coin,Lapis Coin,ラピスラズリのコイン
 item.thermal.lapis_dust,Lapis Dust,ラピスラズリの粉
 item.thermal.lapis_gear,Lapis Gear,ラピスラズリの歯車
@@ -799,10 +799,10 @@ item.thermal.lightning_charge,Lightning Charge,ライトニングチャージ
 item.thermal.lightning_grenade,Fulminating Grenade,雷轟グレネード
 item.thermal.lightning_grenade.desc,Shocks an area on impact. May bring the thunder.,爆風と共に範囲に雷撃をもたらします。落雷を引き起こすでしょう。
 item.thermal.lightning_tnt_minecart,Minecart with Fulminating Explosive,雷轟爆弾付きトロッコ
-item.thermal.lightning_tnt_minecart.keyword,blitz lightning tnt,blitz lightning tnt
+item.thermal.lightning_tnt_minecart.keyword,blitz lightning tnt,
 item.thermal.lock,Signalum Security Lock,シグナルム安全錠
 item.thermal.lock.desc,Used to enable security on compatible blocks and items.,ブロックに対して使用することでセキュリティを有効にします。
-item.thermal.lock.keyword,lock secure security,lock secure security
+item.thermal.lock.keyword,lock secure security,
 item.thermal.lumium_coin,Lumium Coin,ルミウムのコイン
 item.thermal.lumium_dust,Lumium Blend,ルミウムの粉
 item.thermal.lumium_gear,Lumium Gear,ルミウムの歯車
@@ -810,28 +810,28 @@ item.thermal.lumium_ingot,Lumium Ingot,ルミウムインゴット
 item.thermal.lumium_nugget,Lumium Nugget,ルミウム塊
 item.thermal.lumium_plate,Lumium Plate,ルミウムのプレート
 item.thermal.machine_catalyst_augment,Catalytic Reclamation Chamber,触媒再生室
-item.thermal.machine_catalyst_augment.keyword,augment catalyst machine,augment catalyst machine
+item.thermal.machine_catalyst_augment.keyword,augment catalyst machine,
 item.thermal.machine_catalyst_creative_augment,Creative Reclamation Chamber,クリエイティブ触媒再生室
 item.thermal.machine_catalyst_creative_augment.desc,No catalysts used.,触媒を消費しません。
-item.thermal.machine_catalyst_creative_augment.keyword,augment catalyst creative machine,augment catalyst creative machine
+item.thermal.machine_catalyst_creative_augment.keyword,augment catalyst creative machine,
 item.thermal.machine_cycle_augment,Cyclical Processing,周期的処理
 item.thermal.machine_cycle_augment.desc,Products may be transferred to input on process completion.,処理が完了した場合に、生産物が自動的に入力スロットに再投入される場合があります。
-item.thermal.machine_cycle_augment.keyword,augment machine,augment machine
+item.thermal.machine_cycle_augment.keyword,augment machine,
 item.thermal.machine_efficiency_augment,Flux Efficiency,フラックス効率
 item.thermal.machine_efficiency_augment.desc,Increases RF efficiency but reduces process speed.,RF使用効率を上昇させますが、処理速度が低下します。
-item.thermal.machine_efficiency_augment.keyword,augment machine,augment machine
+item.thermal.machine_efficiency_augment.keyword,augment machine,
 item.thermal.machine_efficiency_creative_augment,Creative Flux Efficiency,クリエイティブフラックス効率
 item.thermal.machine_efficiency_creative_augment.desc,"No RF used, very fast processing.",RFを消費せず、処理速度を著しく加速させます。
-item.thermal.machine_efficiency_creative_augment.keyword,augment creative machine,augment creative machine
+item.thermal.machine_efficiency_creative_augment.keyword,augment creative machine,
 item.thermal.machine_null_augment,Auxiliary Cactus,追加サボテン
 item.thermal.machine_null_augment.desc,Destroys excess non-primary item outputs.,余剰副産物を破棄します。
-item.thermal.machine_null_augment.keyword,augment machine trash void,augment machine trash void
+item.thermal.machine_null_augment.keyword,augment machine trash void,
 item.thermal.machine_output_augment,Auxiliary Process Sieve,補助処理フィルター
 item.thermal.machine_output_augment.desc,Increases non-primary item output production.,副産物の生産量を増加させます。
-item.thermal.machine_output_augment.keyword,augment machine,augment machine
+item.thermal.machine_output_augment.keyword,augment machine,
 item.thermal.machine_speed_augment,Flux Linkage Amplifier,フラックス結合増幅器
 item.thermal.machine_speed_augment.desc,Increases process speed but reduces RF efficiency.,処理速度を加速させますが、RF使用効率が低下します。
-item.thermal.machine_speed_augment.keyword,augment machine overclock speed,augment machine overclock speed
+item.thermal.machine_speed_augment.keyword,augment machine overclock speed,
 item.thermal.netherite_coin,Netherite Coin,ネザライトのコイン
 item.thermal.netherite_dust,Netherite Dust,ネザライトの粉
 item.thermal.netherite_gear,Netherite Gear,ネザライトの歯車
@@ -848,7 +848,7 @@ item.thermal.niter_dust,Niter Dust,硝石の粉
 item.thermal.nuke_grenade,Nuclear Grenade,核グレネード
 item.thermal.nuke_grenade.desc,Not for use at close range.,近接での使用に適しません。
 item.thermal.nuke_tnt_minecart,Minecart with Nuclear Explosive,核爆弾付きトロッコ
-item.thermal.nuke_tnt_minecart.keyword,tnt,tnt
+item.thermal.nuke_tnt_minecart.keyword,tnt,
 item.thermal.onion,Onion,タマネギ
 item.thermal.onion_seeds,Onion Seeds,タマネギの種
 item.thermal.onion_stew,Onion Stew,タマネギシチュー
@@ -859,31 +859,31 @@ item.thermal.peanut_seeds,Peanut Seeds,ピーナッツの種
 item.thermal.phyto_grenade,Phyto-Gronade,フィト・グレネード
 item.thermal.phyto_grenade.desc,Throwable Phyto-Gro with increased area.,広範囲に使用できる投げられるフィト・グローです。
 item.thermal.phyto_tnt_minecart,Minecart with PNT,PNT付きトロッコ
-item.thermal.phyto_tnt_minecart.keyword,fertilizer tnt,fertilizer tnt
+item.thermal.phyto_tnt_minecart.keyword,fertilizer tnt,
 item.thermal.phytogro,Phyto-Gro,フィト・グロー
 item.thermal.phytogro.desc,Extremely potent fertilizer.,非常に強力な肥料
 item.thermal.potion_amplifier_augment,Alchemical Amplifier,錬金的増幅回路
 item.thermal.potion_amplifier_augment.desc,Increases the strength of an applied potion.,醸造するポーションの効果を増強します。
-item.thermal.potion_amplifier_augment.keyword,augment potion,augment potion
+item.thermal.potion_amplifier_augment.keyword,augment potion,
 item.thermal.potion_duration_augment,Alchemical Extender,錬金的増量剤
 item.thermal.potion_duration_augment.desc,Increases the duration of an applied potion.,醸造するポーションの持続時間を増加します。
-item.thermal.potion_duration_augment.keyword,augment potion,augment potion
+item.thermal.potion_duration_augment.keyword,augment potion,
 item.thermal.potion_infuser,Potion Infuser,ポーション注射器
 item.thermal.potion_infuser.desc,Stores and infuses potions.,ポーションを溜め、注射します。
-item.thermal.potion_infuser.keyword,potion,potion
+item.thermal.potion_infuser.keyword,potion,
 item.thermal.potion_quiver,Alchemical Quiver,錬金矢筒
 item.thermal.potion_quiver.desc,Imbues arrows with potions.,ポーションを矢に浸潤します。
-item.thermal.potion_quiver.keyword,potion,potion
+item.thermal.potion_quiver.keyword,potion,
 item.thermal.press_coin_die,Numismatic Die,貨幣の打ち抜き型
-item.thermal.press_coin_die.keyword,press,press
+item.thermal.press_coin_die.keyword,press,
 item.thermal.press_gear_die,Gearworking Die,歯車の打ち抜き型
-item.thermal.press_gear_die.keyword,press,press
+item.thermal.press_gear_die.keyword,press,
 item.thermal.press_packing_2x2_die,Packing Die (2x2),パッキング型 (2x2)
-item.thermal.press_packing_2x2_die.keyword,press,press
+item.thermal.press_packing_2x2_die.keyword,press,
 item.thermal.press_packing_3x3_die,Packing Die (3x3),パッキング型 (3x3)
-item.thermal.press_packing_3x3_die.keyword,press,press
+item.thermal.press_packing_3x3_die.keyword,press,
 item.thermal.press_unpacking_die,Unpacking Die,アンパッキング型
-item.thermal.press_unpacking_die.keyword,press,press
+item.thermal.press_unpacking_die.keyword,press,
 item.thermal.quartz_coin,Quartz Coin,ネザークォーツのコイン
 item.thermal.quartz_dust,Quartz Dust,ネザークォーツの粉
 item.thermal.quartz_gear,Quartz Gear,ネザークォーツの歯車
@@ -897,33 +897,33 @@ item.thermal.raw_silver,Raw Silver,銀の原石
 item.thermal.raw_tin,Raw Tin,スズの原石
 item.thermal.redprint,Redprint,レッドプリント
 item.thermal.redprint.desc,Copies and transfers settings between blocks.,ブロックの設定をコピーアンドペーストできます。
-item.thermal.redprint.keyword,copy settings,copy settings
+item.thermal.redprint.keyword,copy settings,
 item.thermal.redstone_bucket,Destabilized Redstone Bucket,励起レッドストーン入りバケツ
 item.thermal.redstone_grenade,Redstone Grenade,レッドストーングレネード
 item.thermal.redstone_grenade.desc,Creates an area of redstone signal on impact.,衝撃とともにレッドストーン信号を発するエリアを作ります。
 item.thermal.redstone_mushroom,Fluxtooth Mushroom,フラックスハリタケ
-item.thermal.redstone_mushroom.keyword,redstone,redstone
+item.thermal.redstone_mushroom.keyword,redstone,
 item.thermal.redstone_mushroom_spores,Fluxtooth Spores,フラックスハリタケの胞子
-item.thermal.redstone_mushroom_spores.keyword,redstone,redstone
+item.thermal.redstone_mushroom_spores.keyword,redstone,
 item.thermal.redstone_servo,Redstone Servo,レッドストーン自律機構
 item.thermal.redstone_tnt_minecart,Minecart with Redstone Explosive,レッドストーン爆弾付きトロッコ
-item.thermal.redstone_tnt_minecart.keyword,tnt,tnt
+item.thermal.redstone_tnt_minecart.keyword,tnt,
 item.thermal.refined_biofuel_bucket,Grassoline Bucket,グラソリン入りバケツ
 item.thermal.refined_fuel_bucket,Refined Fuel Bucket,精製燃料入りバケツ
 item.thermal.resin_bucket,Resin Bucket,樹脂入りバケツ
 item.thermal.rf_coil,Redstone Flux Coil,レッドストーンフラックスコイル
 item.thermal.rf_coil_augment,Expanded RF Coil,拡張RFコイル
-item.thermal.rf_coil_augment.keyword,augment energy rf storage,augment energy rf storage
+item.thermal.rf_coil_augment.keyword,augment energy rf storage,
 item.thermal.rf_coil_creative_augment,Creative RF Coil,クリエイティブRFコイル
 item.thermal.rf_coil_creative_augment.desc,Functionally unlimited RF.,機能的な無限のRF
-item.thermal.rf_coil_creative_augment.keyword,augment creative energy rf storage,augment creative energy rf storage
+item.thermal.rf_coil_creative_augment.keyword,augment creative energy rf storage,
 item.thermal.rf_coil_storage_augment,Stabilized RF Coil,安定RFコイル
-item.thermal.rf_coil_storage_augment.keyword,augment energy rf storage,augment energy rf storage
+item.thermal.rf_coil_storage_augment.keyword,augment energy rf storage,
 item.thermal.rf_coil_xfer_augment,High-Flux RF Coil,高フラックスRFコイル
-item.thermal.rf_coil_xfer_augment.keyword,augment energy rf storage,augment energy rf storage
+item.thermal.rf_coil_xfer_augment.keyword,augment energy rf storage,
 item.thermal.rf_potato,Capacitato,バッテリイモ
 item.thermal.rf_potato.desc,Stores Redstone Flux.,レッドストーンフラックスを溜めます。
-item.thermal.rf_potato.keyword,battery,battery
+item.thermal.rf_potato.keyword,battery,
 item.thermal.rice,Rice,米
 item.thermal.rice_seeds,Rice Seeds,米の種
 item.thermal.rich_slag,Rich Slag,上質な鉱滓
@@ -936,7 +936,7 @@ item.thermal.rose_gold_plate,Rose Gold Plate,ローズゴールドのプレー�
 item.thermal.rosin,Rosin,ロジン
 item.thermal.rs_control_augment,Redstone Response Mechanism,レッドストーン応答機構
 item.thermal.rs_control_augment.desc,Allows control via redstone signals.,レッドストーン信号による制御を可能にします。
-item.thermal.rs_control_augment.keyword,augment redstone,augment redstone
+item.thermal.rs_control_augment.keyword,augment redstone,
 item.thermal.rubber,Rubber,ゴム
 item.thermal.ruby,Ruby,ルビー
 item.thermal.ruby_dust,Ruby Dust,ルビーの粉
@@ -953,7 +953,7 @@ item.thermal.sapphire_nugget,Sapphire Nugget,サファイア塊
 item.thermal.sapphire_plate,Sapphire Plate,サファイアのプレート
 item.thermal.satchel,Satchel,サッチェル
 item.thermal.satchel.desc,Stores items. Can be configured with a filter.,アイテムを収集します。フィルターを用いた設定ができます。
-item.thermal.satchel.keyword,backpack pouch storage,backpack pouch storage
+item.thermal.satchel.keyword,backpack pouch storage,
 item.thermal.saw_blade,Saw Blade,鋸歯
 item.thermal.sawdust,Sawdust,おがくず
 item.thermal.seed_oil_bucket,Seed Oil Bucket,種油入りバケツ
@@ -977,11 +977,11 @@ item.thermal.slag,Slag,鉱滓
 item.thermal.slime_grenade,Slime Grenade,スライムグレネード
 item.thermal.slime_grenade.desc,Slimes targets in an area. High knockback.,範囲内のターゲットをべとべとにします。高いノックバックを与えます。
 item.thermal.slime_mushroom,Slitake Mushroom,スライタケ
-item.thermal.slime_mushroom.keyword,slime,slime
+item.thermal.slime_mushroom.keyword,slime,
 item.thermal.slime_mushroom_spores,Slitake Spores,スライタケの胞子
-item.thermal.slime_mushroom_spores.keyword,slime,slime
+item.thermal.slime_mushroom_spores.keyword,slime,
 item.thermal.slime_tnt_minecart,Minecart with Slime Explosive,スライム爆弾付きトロッコ
-item.thermal.slime_tnt_minecart.keyword,tnt,tnt
+item.thermal.slime_tnt_minecart.keyword,tnt,
 item.thermal.slot_seal,Slot Seal,スロット封
 item.thermal.slot_seal.desc,Prevents a slot from being used. Useful in machines with multiple input slots.,スロットが使用されないようにします。複数の入力スロットを持つ機械に使用できます。
 item.thermal.spinach,Spinach,ホウレンソウ
@@ -1018,29 +1018,29 @@ item.thermal.turbo_servo_attachment,Attachment: Turbo-Servo,アタッチメン�
 item.thermal.underwater_minecart,Underwater Minecart,潜水トロッコ
 item.thermal.upgrade_augment_1,Hardened Integral Components,ハーデンド統合コンポーネント
 item.thermal.upgrade_augment_1.desc,Improves base attributes. Other augments may be more effective as a result.,基本属性を改良し、オーグメントを拡張します。
-item.thermal.upgrade_augment_1.keyword,augment kit upgrade,augment kit upgrade
+item.thermal.upgrade_augment_1.keyword,augment kit upgrade,
 item.thermal.upgrade_augment_2,Reinforced Integral Components,レインフォースド統合コンポーネント
 item.thermal.upgrade_augment_2.desc,Improves base attributes. Other augments may be more effective as a result.,基本属性を改良し、オーグメントを拡張します。
-item.thermal.upgrade_augment_2.keyword,augment kit upgrade,augment kit upgrade
+item.thermal.upgrade_augment_2.keyword,augment kit upgrade,
 item.thermal.upgrade_augment_3,Resonant Integral Components,レゾナント統合コンポーネント
 item.thermal.upgrade_augment_3.desc,Improves base attributes. Other augments may be more effective as a result.,基本属性を改良し、オーグメントを拡張します。
-item.thermal.upgrade_augment_3.keyword,augment kit upgrade,augment kit upgrade
+item.thermal.upgrade_augment_3.keyword,augment kit upgrade,
 item.thermal.upgrade_augment_4,Resonant+ Integral Components,レゾナント+統合コンポーネント
 item.thermal.upgrade_augment_4.desc,Improves base attributes. Other augments may be more effective as a result.,基本属性を改良し、オーグメントを拡張します。
-item.thermal.upgrade_augment_4.keyword,augment kit upgrade,augment kit upgrade
+item.thermal.upgrade_augment_4.keyword,augment kit upgrade,
 item.thermal.watering_can,Watering Can,ジョウロ
 item.thermal.watering_can.desc,Improves plant growth using water.,水をやって植物の成長を促進します。
-item.thermal.watering_can.keyword,crops farm fertilizer,crops farm fertilizer
+item.thermal.watering_can.keyword,crops farm fertilizer,
 item.thermal.wrench,Crescent Hammer,クレセントハンマー
 item.thermal.wrench.desc,Rotates many blocks. Also known as a Wrench.,多くのブロックを回転できます。また、レンチとして使用できます。
-item.thermal.wrench.keyword,wrench,wrench
+item.thermal.wrench.keyword,wrench,
 item.thermal.xp_crystal,Insightful Crystal,洞察に満ちるクリスタル
 item.thermal.xp_crystal.desc,Stores experience.,経験値を溜め込みます。
-item.thermal.xp_crystal.keyword,experience storage xp,experience storage xp
+item.thermal.xp_crystal.keyword,experience storage xp,
 item.thermal.xp_stew,Perspicacious Stew,慧眼のシチュー
 item.thermal.xp_storage_augment,Knowledge Concentrator,知識濃縮装置
 item.thermal.xp_storage_augment.desc,Allows XP to be stored and retrieved.,経験値の保管と取り出しができるようになります。
-item.thermal.xp_storage_augment.keyword,augment experience xp,augment experience xp
+item.thermal.xp_storage_augment.keyword,augment experience xp,
 itemGroup.thermal.blocks,Thermal Series: Blocks,Thermal Series: ブロック
 itemGroup.thermal.devices,Thermal Series: Machinery,Thermal Series: 機械装置
 itemGroup.thermal.foods,Thermal Series: Crops and Foods,Thermal Series: 作物と食料
@@ -1073,4 +1073,4 @@ subtitles.thermal.item.magnet,Magnet yoinks,フラックスマグネットが引
 subtitles.thermal.misc.tinker,Augment installs,オーグメントがインストールされる
 thermal.book.landing_text,"Welcome to the Thermal Series' guide book! From all of us who worked on it, we hope you enjoy.",サーマルシリーズのガイドブックにようこそ!担当者一同、心よりお待ちしております。
 thermal.book.name,Thermalpedia,サーマルペディア
-thermal.book.subtitle,MC 1.18.2,MC 1.18.2
+thermal.book.subtitle,MC 1.18.2,

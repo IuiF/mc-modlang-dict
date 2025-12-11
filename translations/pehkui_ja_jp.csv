@@ -6,9 +6,9 @@ argument.pehkui.easing.invalid,Unknown easing '%s',不明なイージング '%s'
 argument.pehkui.modifier.invalid,Unknown scale modifier '%s',不明なスケール修飾子 '%s'
 argument.pehkui.type.invalid,Unknown scale type '%s',不明なスケールタイプ '%s'
 commands.pehkui.debug.audit.end,Mixin environment audit complete!,Mixinの環境監査が完了しました！
-commands.pehkui.debug.audit.end.client,Mixin environment audit (client) complete!,Mixinの環境監査（クライアント）が完了しました！
+commands.pehkui.debug.audit.end.client,Mixin environment audit (client) complete!,Mixinの環境監査(クライアント)が完了しました！
 commands.pehkui.debug.audit.start,Starting Mixin environment audit...,Mixinの環境監査を開始しています...
-commands.pehkui.debug.audit.start.client,Starting Mixin environment audit (client)...,Mixinの環境監査（クライアント）を開始しています...
+commands.pehkui.debug.audit.start.client,Starting Mixin environment audit (client)...,Mixinの環境監査(クライアント)を開始しています...
 commands.pehkui.debug.config.changed.value,"Config ""%s"" was changed from ""%s"" to ""%s""","設定 ""%s"" が ""%s"" から ""%s"" に変更されました"
 commands.pehkui.debug.config.get.value,"Config ""%s"" is currently set to ""%s""","設定 ""%s"" は現在 ""%s"" に設定されています"
 commands.pehkui.debug.config.reset,%s config entries have been reset to their default values,%s個の設定エントリがデフォルト値にリセットされました
@@ -32,68 +32,68 @@ pehkui.configgui.enableCommands,Whether commands such as /scale should be enable
 pehkui.configgui.enableDebugCommands,Whether internal debugging commands should be enabled,内部デバッグコマンドを有効にするかどうか
 pehkui.configgui.keepAllScalesOnRespawn,Whether all scales should not get reset on respawn,リスポーン時にすべてのスケールをリセットしないかどうか
 pehkui.configgui.minimumCameraDepth,Minimum value for the projection matrix's camera depth. Vanilla defaults to 0.05,プロジェクション行列のカメラ深度の最小値。バニラのデフォルトは0.05です
-pehkui.configgui.scale_limits.attack.maximum,Maximum value for the scale type pehkui:attack,スケールタイプpehkui:attackの最大値
-pehkui.configgui.scale_limits.attack.minimum,Minimum value for the scale type pehkui:attack,スケールタイプpehkui:attackの最小値
-pehkui.configgui.scale_limits.attack_speed.maximum,Maximum value for the scale type pehkui:attack_speed,スケールタイプpehkui:attack_speedの最大値
-pehkui.configgui.scale_limits.attack_speed.minimum,Minimum value for the scale type pehkui:attack_speed,スケールタイプpehkui:attack_speedの最小値
-pehkui.configgui.scale_limits.base.maximum,Maximum value for the scale type pehkui:base,スケールタイプpehkui:baseの最大値
-pehkui.configgui.scale_limits.base.minimum,Minimum value for the scale type pehkui:base,スケールタイプpehkui:baseの最小値
-pehkui.configgui.scale_limits.block_reach.maximum,Maximum value for the scale type pehkui:block_reach,スケールタイプpehkui:block_reachの最大値
-pehkui.configgui.scale_limits.block_reach.minimum,Minimum value for the scale type pehkui:block_reach,スケールタイプpehkui:block_reachの最小値
-pehkui.configgui.scale_limits.defense.maximum,Maximum value for the scale type pehkui:defense,スケールタイプpehkui:defenseの最大値
-pehkui.configgui.scale_limits.defense.minimum,Minimum value for the scale type pehkui:defense,スケールタイプpehkui:defenseの最小値
-pehkui.configgui.scale_limits.drops.maximum,Maximum value for the scale type pehkui:drops,スケールタイプpehkui:dropsの最大値
-pehkui.configgui.scale_limits.drops.minimum,Minimum value for the scale type pehkui:drops,スケールタイプpehkui:dropsの最小値
-pehkui.configgui.scale_limits.entity_reach.maximum,Maximum value for the scale type pehkui:entity_reach,スケールタイプpehkui:entity_reachの最大値
-pehkui.configgui.scale_limits.entity_reach.minimum,Minimum value for the scale type pehkui:entity_reach,スケールタイプpehkui:entity_reachの最小値
-pehkui.configgui.scale_limits.explosions.maximum,Maximum value for the scale type pehkui:explosions,スケールタイプpehkui:explosionsの最大値
-pehkui.configgui.scale_limits.explosions.minimum,Minimum value for the scale type pehkui:explosions,スケールタイプpehkui:explosionsの最小値
-pehkui.configgui.scale_limits.eye_height.maximum,Maximum value for the scale type pehkui:eye_height,スケールタイプpehkui:eye_heightの最大値
-pehkui.configgui.scale_limits.eye_height.minimum,Minimum value for the scale type pehkui:eye_height,スケールタイプpehkui:eye_heightの最小値
-pehkui.configgui.scale_limits.falling.maximum,Maximum value for the scale type pehkui:falling,スケールタイプpehkui:fallingの最大値
-pehkui.configgui.scale_limits.falling.minimum,Minimum value for the scale type pehkui:falling,スケールタイプpehkui:fallingの最小値
-pehkui.configgui.scale_limits.flight.maximum,Maximum value for the scale type pehkui:flight,スケールタイプpehkui:flightの最大値
-pehkui.configgui.scale_limits.flight.minimum,Minimum value for the scale type pehkui:flight,スケールタイプpehkui:flightの最小値
-pehkui.configgui.scale_limits.health.maximum,Maximum value for the scale type pehkui:health,スケールタイプpehkui:healthの最大値
-pehkui.configgui.scale_limits.health.minimum,Minimum value for the scale type pehkui:health,スケールタイプpehkui:healthの最小値
-pehkui.configgui.scale_limits.height.maximum,Maximum value for the scale type pehkui:height,スケールタイプpehkui:heightの最大値
-pehkui.configgui.scale_limits.height.minimum,Minimum value for the scale type pehkui:height,スケールタイプpehkui:heightの最小値
-pehkui.configgui.scale_limits.held_item.maximum,Maximum value for the scale type pehkui:held_item,スケールタイプpehkui:held_itemの最大値
-pehkui.configgui.scale_limits.held_item.minimum,Minimum value for the scale type pehkui:held_item,スケールタイプpehkui:held_itemの最小値
-pehkui.configgui.scale_limits.hitbox_height.maximum,Maximum value for the scale type pehkui:hitbox_height,スケールタイプpehkui:hitbox_heightの最大値
-pehkui.configgui.scale_limits.hitbox_height.minimum,Minimum value for the scale type pehkui:hitbox_height,スケールタイプpehkui:hitbox_heightの最小値
-pehkui.configgui.scale_limits.hitbox_width.maximum,Maximum value for the scale type pehkui:hitbox_width,スケールタイプpehkui:hitbox_widthの最大値
-pehkui.configgui.scale_limits.hitbox_width.minimum,Minimum value for the scale type pehkui:hitbox_width,スケールタイプpehkui:hitbox_widthの最小値
-pehkui.configgui.scale_limits.interaction_box_height.maximum,Maximum value for the scale type pehkui:interaction_box_height,スケールタイプpehkui:interaction_box_heightの最大値
-pehkui.configgui.scale_limits.interaction_box_height.minimum,Minimum value for the scale type pehkui:interaction_box_height,スケールタイプpehkui:interaction_box_heightの最小値
-pehkui.configgui.scale_limits.interaction_box_width.maximum,Maximum value for the scale type pehkui:interaction_box_width,スケールタイプpehkui:interaction_box_widthの最大値
-pehkui.configgui.scale_limits.interaction_box_width.minimum,Minimum value for the scale type pehkui:interaction_box_width,スケールタイプpehkui:interaction_box_widthの最小値
-pehkui.configgui.scale_limits.jump_height.maximum,Maximum value for the scale type pehkui:jump_height,スケールタイプpehkui:jump_heightの最大値
-pehkui.configgui.scale_limits.jump_height.minimum,Minimum value for the scale type pehkui:jump_height,スケールタイプpehkui:jump_heightの最小値
-pehkui.configgui.scale_limits.knockback.maximum,Maximum value for the scale type pehkui:knockback,スケールタイプpehkui:knockbackの最大値
-pehkui.configgui.scale_limits.knockback.minimum,Minimum value for the scale type pehkui:knockback,スケールタイプpehkui:knockbackの最小値
-pehkui.configgui.scale_limits.mining_speed.maximum,Maximum value for the scale type pehkui:mining_speed,スケールタイプpehkui:mining_speedの最大値
-pehkui.configgui.scale_limits.mining_speed.minimum,Minimum value for the scale type pehkui:mining_speed,スケールタイプpehkui:mining_speedの最小値
-pehkui.configgui.scale_limits.model_height.maximum,Maximum value for the scale type pehkui:model_height,スケールタイプpehkui:model_heightの最大値
-pehkui.configgui.scale_limits.model_height.minimum,Minimum value for the scale type pehkui:model_height,スケールタイプpehkui:model_heightの最小値
-pehkui.configgui.scale_limits.model_width.maximum,Maximum value for the scale type pehkui:model_width,スケールタイプpehkui:model_widthの最大値
-pehkui.configgui.scale_limits.model_width.minimum,Minimum value for the scale type pehkui:model_width,スケールタイプpehkui:model_widthの最小値
-pehkui.configgui.scale_limits.motion.maximum,Maximum value for the scale type pehkui:motion,スケールタイプpehkui:motionの最大値
-pehkui.configgui.scale_limits.motion.minimum,Minimum value for the scale type pehkui:motion,スケールタイプpehkui:motionの最小値
-pehkui.configgui.scale_limits.projectiles.maximum,Maximum value for the scale type pehkui:projectiles,スケールタイプpehkui:projectilesの最大値
-pehkui.configgui.scale_limits.projectiles.minimum,Minimum value for the scale type pehkui:projectiles,スケールタイプpehkui:projectilesの最小値
-pehkui.configgui.scale_limits.reach.maximum,Maximum value for the scale type pehkui:reach,スケールタイプpehkui:reachの最大値
-pehkui.configgui.scale_limits.reach.minimum,Minimum value for the scale type pehkui:reach,スケールタイプpehkui:reachの最小値
-pehkui.configgui.scale_limits.step_height.maximum,Maximum value for the scale type pehkui:step_height,スケールタイプpehkui:step_heightの最大値
-pehkui.configgui.scale_limits.step_height.minimum,Minimum value for the scale type pehkui:step_height,スケールタイプpehkui:step_heightの最小値
-pehkui.configgui.scale_limits.third_person.maximum,Maximum value for the scale type pehkui:third_person,スケールタイプpehkui:third_personの最大値
-pehkui.configgui.scale_limits.third_person.minimum,Minimum value for the scale type pehkui:third_person,スケールタイプpehkui:third_personの最小値
-pehkui.configgui.scale_limits.view_bobbing.maximum,Maximum value for the scale type pehkuiview_bobbing:,スケールタイプpehkui:view_bobbingの最大値
-pehkui.configgui.scale_limits.view_bobbing.minimum,Minimum value for the scale type pehkui:view_bobbing,スケールタイプpehkui:view_bobbingの最小値
-pehkui.configgui.scale_limits.visibility.maximum,Maximum value for the scale type pehkui:visibility,スケールタイプpehkui:visibilityの最大値
-pehkui.configgui.scale_limits.visibility.minimum,Minimum value for the scale type pehkui:visibility,スケールタイプpehkui:visibilityの最小値
-pehkui.configgui.scale_limits.width.maximum,Maximum value for the scale type pehkui:width,スケールタイプpehkui:widthの最大値
-pehkui.configgui.scale_limits.width.minimum,Minimum value for the scale type pehkui:width,スケールタイプpehkui:widthの最小値
+pehkui.configgui.scale_limits.attack.maximum,Maximum value for the scale type pehkui:attack,スケールタイプペフクイ:attackの最大値
+pehkui.configgui.scale_limits.attack.minimum,Minimum value for the scale type pehkui:attack,スケールタイプペフクイ:attackの最小値
+pehkui.configgui.scale_limits.attack_speed.maximum,Maximum value for the scale type pehkui:attack_speed,スケールタイプペフクイ:attack_speedの最大値
+pehkui.configgui.scale_limits.attack_speed.minimum,Minimum value for the scale type pehkui:attack_speed,スケールタイプペフクイ:attack_speedの最小値
+pehkui.configgui.scale_limits.base.maximum,Maximum value for the scale type pehkui:base,スケールタイプペフクイ:baseの最大値
+pehkui.configgui.scale_limits.base.minimum,Minimum value for the scale type pehkui:base,スケールタイプペフクイ:baseの最小値
+pehkui.configgui.scale_limits.block_reach.maximum,Maximum value for the scale type pehkui:block_reach,スケールタイプペフクイ:block_reachの最大値
+pehkui.configgui.scale_limits.block_reach.minimum,Minimum value for the scale type pehkui:block_reach,スケールタイプペフクイ:block_reachの最小値
+pehkui.configgui.scale_limits.defense.maximum,Maximum value for the scale type pehkui:defense,スケールタイプペフクイ:defenseの最大値
+pehkui.configgui.scale_limits.defense.minimum,Minimum value for the scale type pehkui:defense,スケールタイプペフクイ:defenseの最小値
+pehkui.configgui.scale_limits.drops.maximum,Maximum value for the scale type pehkui:drops,スケールタイプペフクイ:dropsの最大値
+pehkui.configgui.scale_limits.drops.minimum,Minimum value for the scale type pehkui:drops,スケールタイプペフクイ:dropsの最小値
+pehkui.configgui.scale_limits.entity_reach.maximum,Maximum value for the scale type pehkui:entity_reach,スケールタイプペフクイ:entity_reachの最大値
+pehkui.configgui.scale_limits.entity_reach.minimum,Minimum value for the scale type pehkui:entity_reach,スケールタイプペフクイ:entity_reachの最小値
+pehkui.configgui.scale_limits.explosions.maximum,Maximum value for the scale type pehkui:explosions,スケールタイプペフクイ:explosionsの最大値
+pehkui.configgui.scale_limits.explosions.minimum,Minimum value for the scale type pehkui:explosions,スケールタイプペフクイ:explosionsの最小値
+pehkui.configgui.scale_limits.eye_height.maximum,Maximum value for the scale type pehkui:eye_height,スケールタイプペフクイ:eye_heightの最大値
+pehkui.configgui.scale_limits.eye_height.minimum,Minimum value for the scale type pehkui:eye_height,スケールタイプペフクイ:eye_heightの最小値
+pehkui.configgui.scale_limits.falling.maximum,Maximum value for the scale type pehkui:falling,スケールタイプペフクイ:fallingの最大値
+pehkui.configgui.scale_limits.falling.minimum,Minimum value for the scale type pehkui:falling,スケールタイプペフクイ:fallingの最小値
+pehkui.configgui.scale_limits.flight.maximum,Maximum value for the scale type pehkui:flight,スケールタイプペフクイ:flightの最大値
+pehkui.configgui.scale_limits.flight.minimum,Minimum value for the scale type pehkui:flight,スケールタイプペフクイ:flightの最小値
+pehkui.configgui.scale_limits.health.maximum,Maximum value for the scale type pehkui:health,スケールタイプペフクイ:healthの最大値
+pehkui.configgui.scale_limits.health.minimum,Minimum value for the scale type pehkui:health,スケールタイプペフクイ:healthの最小値
+pehkui.configgui.scale_limits.height.maximum,Maximum value for the scale type pehkui:height,スケールタイプペフクイ:heightの最大値
+pehkui.configgui.scale_limits.height.minimum,Minimum value for the scale type pehkui:height,スケールタイプペフクイ:heightの最小値
+pehkui.configgui.scale_limits.held_item.maximum,Maximum value for the scale type pehkui:held_item,スケールタイプペフクイ:held_itemの最大値
+pehkui.configgui.scale_limits.held_item.minimum,Minimum value for the scale type pehkui:held_item,スケールタイプペフクイ:held_itemの最小値
+pehkui.configgui.scale_limits.hitbox_height.maximum,Maximum value for the scale type pehkui:hitbox_height,スケールタイプペフクイ:hitbox_heightの最大値
+pehkui.configgui.scale_limits.hitbox_height.minimum,Minimum value for the scale type pehkui:hitbox_height,スケールタイプペフクイ:hitbox_heightの最小値
+pehkui.configgui.scale_limits.hitbox_width.maximum,Maximum value for the scale type pehkui:hitbox_width,スケールタイプペフクイ:hitbox_widthの最大値
+pehkui.configgui.scale_limits.hitbox_width.minimum,Minimum value for the scale type pehkui:hitbox_width,スケールタイプペフクイ:hitbox_widthの最小値
+pehkui.configgui.scale_limits.interaction_box_height.maximum,Maximum value for the scale type pehkui:interaction_box_height,スケールタイプペフクイ:interaction_box_heightの最大値
+pehkui.configgui.scale_limits.interaction_box_height.minimum,Minimum value for the scale type pehkui:interaction_box_height,スケールタイプペフクイ:interaction_box_heightの最小値
+pehkui.configgui.scale_limits.interaction_box_width.maximum,Maximum value for the scale type pehkui:interaction_box_width,スケールタイプペフクイ:interaction_box_widthの最大値
+pehkui.configgui.scale_limits.interaction_box_width.minimum,Minimum value for the scale type pehkui:interaction_box_width,スケールタイプペフクイ:interaction_box_widthの最小値
+pehkui.configgui.scale_limits.jump_height.maximum,Maximum value for the scale type pehkui:jump_height,スケールタイプペフクイ:jump_heightの最大値
+pehkui.configgui.scale_limits.jump_height.minimum,Minimum value for the scale type pehkui:jump_height,スケールタイプペフクイ:jump_heightの最小値
+pehkui.configgui.scale_limits.knockback.maximum,Maximum value for the scale type pehkui:knockback,スケールタイプペフクイ:knockbackの最大値
+pehkui.configgui.scale_limits.knockback.minimum,Minimum value for the scale type pehkui:knockback,スケールタイプペフクイ:knockbackの最小値
+pehkui.configgui.scale_limits.mining_speed.maximum,Maximum value for the scale type pehkui:mining_speed,スケールタイプペフクイ:ミニng_speedの最大値
+pehkui.configgui.scale_limits.mining_speed.minimum,Minimum value for the scale type pehkui:mining_speed,スケールタイプペフクイ:ミニng_speedの最小値
+pehkui.configgui.scale_limits.model_height.maximum,Maximum value for the scale type pehkui:model_height,スケールタイプペフクイ:model_heightの最大値
+pehkui.configgui.scale_limits.model_height.minimum,Minimum value for the scale type pehkui:model_height,スケールタイプペフクイ:model_heightの最小値
+pehkui.configgui.scale_limits.model_width.maximum,Maximum value for the scale type pehkui:model_width,スケールタイプペフクイ:model_widthの最大値
+pehkui.configgui.scale_limits.model_width.minimum,Minimum value for the scale type pehkui:model_width,スケールタイプペフクイ:model_widthの最小値
+pehkui.configgui.scale_limits.motion.maximum,Maximum value for the scale type pehkui:motion,スケールタイプペフクイ:motionの最大値
+pehkui.configgui.scale_limits.motion.minimum,Minimum value for the scale type pehkui:motion,スケールタイプペフクイ:motionの最小値
+pehkui.configgui.scale_limits.projectiles.maximum,Maximum value for the scale type pehkui:projectiles,スケールタイプペフクイ:発射体の最大値
+pehkui.configgui.scale_limits.projectiles.minimum,Minimum value for the scale type pehkui:projectiles,スケールタイプペフクイ:発射体の最小値
+pehkui.configgui.scale_limits.reach.maximum,Maximum value for the scale type pehkui:reach,スケールタイプペフクイ:reachの最大値
+pehkui.configgui.scale_limits.reach.minimum,Minimum value for the scale type pehkui:reach,スケールタイプペフクイ:reachの最小値
+pehkui.configgui.scale_limits.step_height.maximum,Maximum value for the scale type pehkui:step_height,スケールタイプペフクイ:step_heightの最大値
+pehkui.configgui.scale_limits.step_height.minimum,Minimum value for the scale type pehkui:step_height,スケールタイプペフクイ:step_heightの最小値
+pehkui.configgui.scale_limits.third_person.maximum,Maximum value for the scale type pehkui:third_person,スケールタイプペフクイ:third_personの最大値
+pehkui.configgui.scale_limits.third_person.minimum,Minimum value for the scale type pehkui:third_person,スケールタイプペフクイ:third_personの最小値
+pehkui.configgui.scale_limits.view_bobbing.maximum,Maximum value for the scale type pehkuiview_bobbing:,スケールタイプペフクイ:view_bobbingの最大値
+pehkui.configgui.scale_limits.view_bobbing.minimum,Minimum value for the scale type pehkui:view_bobbing,スケールタイプペフクイ:view_bobbingの最小値
+pehkui.configgui.scale_limits.visibility.maximum,Maximum value for the scale type pehkui:visibility,スケールタイプペフクイ:visibilityの最大値
+pehkui.configgui.scale_limits.visibility.minimum,Minimum value for the scale type pehkui:visibility,スケールタイプペフクイ:visibilityの最小値
+pehkui.configgui.scale_limits.width.maximum,Maximum value for the scale type pehkui:width,スケールタイプペフクイ:widthの最大値
+pehkui.configgui.scale_limits.width.minimum,Minimum value for the scale type pehkui:width,スケールタイプペフクイ:widthの最小値
 pehkui.configgui.scaledAttack,Whether the attack damage scales should be enabled,攻撃ダメージのスケール機能を有効にするかどうか
 pehkui.configgui.scaledDefense,Whether the defense scale should be enabled,防御スケール機能を有効にするかどうか
 pehkui.configgui.scaledExplosions,Whether the explosion scale should be enabled,爆発スケール機能を有効にするかどうか

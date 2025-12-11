@@ -28,7 +28,9 @@ advancements.silentgear.crimson_repair_kit.title,More Bang for the Buck,価値�
 advancements.silentgear.crimson_steel.description,Craft an ingot of crimson steel!,深紅鋼インゴットを作ろう！
 advancements.silentgear.crimson_steel.title,That Strong Enough For You?,これで強さは十分？
 advancements.silentgear.crossbow.description,Craft a Silent Gear crossbow,Silent Gearのクロスボウをクラフトする
-advancements.silentgear.crossbow.title,Do You Want a Crossbow (Body)?,クロスボウ（本体）欲しい？
+advancements.silentgear.crossbow.title,Do You Want a Crossbow (Body)?,クロスボウ(本体)欲しい？
+advancements.silentgear.crude_knife.description,Craft a crude knife to use on your stone anvil,石の金床で使用する粗雑なナイフを作る
+advancements.silentgear.crude_knife.title,"Crude, But Effective",粗雑、だが効果的
 advancements.silentgear.grader_catalyst_2.description,Obtain a tier 2 catalyst (blazing dust),ティア2触媒を手に入れる(燃え盛る粉)
 advancements.silentgear.grader_catalyst_2.title,Tier 2 Grader Catalyst,ティア2 グレーダー触媒
 advancements.silentgear.grader_catalyst_3.description,Obtain a tier 3 catalyst (glittery dust),ティア3触媒を手に入れる (きらびやかな粉)
@@ -71,6 +73,8 @@ advancements.silentgear.sickle.description,Craft a sickle to harvest many plants
 advancements.silentgear.sickle.title,Plant Destroyer,プラントデストロイヤー
 advancements.silentgear.standard_tools.description,"Craft a Silent Gear pickaxe, shovel, and axe",Silent Gearのツルハシ、シャベル、斧をクラフトする
 advancements.silentgear.standard_tools.title,Standard Tools,スタンダードツール
+advancements.silentgear.stone_anvil.description,Craft a stone anvil,石の金床を作る
+advancements.silentgear.stone_anvil.title,I Am Stone Age,石器時代の幕開けだ！
 advancements.silentgear.survival_tool.description,"Craft a knife or a dagger. Weak, but fast! Has some crafting uses...",ナイフやダガーを作ろう。弱いけど速い！クラフトの用途がいくつか...
 advancements.silentgear.survival_tool.title,Survival Tool,サバイバル道具
 advancements.silentgear.swords.description,"Craft a Silent Gear sword, katana, and machete",Silent Gearの剣、刀、ナタをクラフトする
@@ -83,6 +87,9 @@ advancements.silentgear.tip_upgrade.description,"Craft a tip upgrade, then craft
 advancements.silentgear.tip_upgrade.title,Upgrade My Tool!,私の道具をアップグレード！
 advancements.silentgear.upgrade_base.description,You might want to make a few...,いくつか作ってみてはいかがだろう...
 advancements.silentgear.upgrade_base.title,Upgrade Base,アップグレードベース
+block.silentgear.alloy_forge,Alloy Forge,合金炉
+block.silentgear.alloy_maker.desc,Makes alloys of: %s,作成可能な種類の合金: %s
+block.silentgear.alloy_maker.workEnabled,Work: %s,動作: %s
 block.silentgear.azure_electrum_block,Block of Azure Electrum,アズールエレクトラムブロック
 block.silentgear.azure_silver_block,Block of Azure Silver,アズールシルバーブロック
 block.silentgear.azure_silver_ore,Azure Silver Ore,アズールシルバー鉱石
@@ -96,6 +103,7 @@ block.silentgear.brown_fluffy_block,Brown Fluffy Block,茶色の綿毛ブロッ�
 block.silentgear.crimson_iron_block,Block of Crimson Iron,深紅鉄ブロック
 block.silentgear.crimson_iron_ore,Crimson Iron Ore,深紅鉄鉱石
 block.silentgear.crimson_steel_block,Block of Crimson Steel,深紅鋼ブロック
+block.silentgear.crude_mixer,Crude Mixer,粗雑なミキサー
 block.silentgear.cyan_fluffy_block,Cyan Fluffy Block,青緑色の綿毛ブロック
 block.silentgear.deepslate_bort_ore,Deepslate Bort Ore,深層ボルト鉱石
 block.silentgear.flax_plant,Flax Plant,亜麻
@@ -134,9 +142,12 @@ block.silentgear.refabricator,Refabricator,リファブリケーター
 block.silentgear.salvager,Salvager,回収機
 block.silentgear.salvager.desc,Can break down some items into their components,一部のアイテムを素材に分解できます
 block.silentgear.starlight_charger,Starlight Charger,スターライトチャージャー
+block.silentgear.stone_anvil,Stone Anvil,石の金床
 block.silentgear.stone_torch,Stone Torch,石の松明
 block.silentgear.stripped_netherwood_log,Stripped Netherwood Log,樹皮を剥いだネザーウッドの原木
 block.silentgear.stripped_netherwood_wood,Stripped Netherwood Wood,樹皮を剥いだネザーウッドの木
+block.silentgear.super_mixer,Super Mixer,スーパーミキサー
+block.silentgear.super_mixer.desc,Makes alloys of any material,任意の材料の合金を作成可能
 block.silentgear.tyrian_steel_block,Block of Tyrian Steel,ティリアン鋼ブロック
 block.silentgear.white_fluffy_block,White Fluffy Block,白色の綿毛ブロック
 block.silentgear.wild_flax_plant,Wild Flax Plant,野生の亜麻
@@ -147,7 +158,7 @@ command.silentgear.grade.notMaterial,%s is not a material,%s は素材ではあ�
 command.silentgear.grade.success,Set grade %1$s on %2$s,グレード %1$s を %2$s に設定
 command.silentgear.invalidItemType,%s is not a gear item,%s はギアアイテムではありません
 command.silentgear.lockStats.locked,locked,ロック
-command.silentgear.lockStats.success,Stats on §e%s§r are now %s§r (assuming item is valid),§e%s§r のステータスが %s§r になりました (アイテムが有効であると仮定します)。
+command.silentgear.lockStats.success,Stats on §e%s§r are now %s§r (assuming item is valid),§e%s§r のステータスが %s§r になりました(アイテムが有効であると仮定します)。
 command.silentgear.lockStats.unlocked,unlocked,アンロック
 command.silentgear.lock_stats.invalid,Not holding a valid gear item,有効なギアアイテムを持っていない
 command.silentgear.lock_stats.locked,Stats of %s are now locked,%s のステータスがロックされました
@@ -164,12 +175,20 @@ command.silentgear.stats.info.formatPart,"    - %s: [%s]",
 command.silentgear.stats.info.header,Stats for %s's %s,%s の %s の統計
 command.silentgear.traits.maxLevel,Max Level: %d,最大レベル: %d
 command.silentgear.traits.traitNotFound,Trait does not exist,トレイトが存在しない
+container.silentgear.alloy_forge,Alloy Forge,合金炉
 container.silentgear.blueprint_book,Blueprint Book (Ctrl+click),設計図本 (Ctrl+クリック)
+container.silentgear.crude_mixer,Crude Mixer,粗雑なミキサー
+container.silentgear.material_charger,Starlight Charger,素材チャージャー
 container.silentgear.material_charger.charge,Charge: %s / %s,チャージ: %s / %s
 container.silentgear.material_charger.charge.hint,Gains charge when exposed to starlight,星明かりに照らされるとチャージが増加します
+container.silentgear.material_charger.structure_level,Structure Level: %d,構造レベル: %d
+container.silentgear.material_charger.structure_level.hint,Please allow up to 30 seconds for this to update,更新には最大30秒かかる場合があります
+container.silentgear.material_grader,Material Grader,素材グレーダー
 container.silentgear.metal_press,Metal Press,金属プレス
 container.silentgear.recrystallizer,Recrystallizer,リクリスタライザー
 container.silentgear.refabricator,Refabricator,リファブリケーター
+container.silentgear.salvager,Salvager,回収機
+container.silentgear.super_mixer,Super Mixer,スーパーミキサー
 enchantment.silentgear.star_charged,Star Charged,スターチャージ
 enchantment.silentgear.star_charged.desc,Enhances material stats substantially. Applied to material items by the Starlight Charger.,素材のステータスが大幅に強化されます。スターライトチャージャーによって素材アイテムに適用されます。
 entity.minecraft.villager.silentgear.gear_smith,Gear Smith,ギアスミス
@@ -194,9 +213,12 @@ gearType.silentgear.hoe,Hoe,クワ
 gearType.silentgear.katana,Katana,刀
 gearType.silentgear.knife,Knife,ナイフ
 gearType.silentgear.leggings,Leggings,レギンス
+gearType.silentgear.mace,Mace,メイス
 gearType.silentgear.machete,Machete,ナタ
 gearType.silentgear.mattock,Mattock,マトック
 gearType.silentgear.melee_weapon,Melee Weapons,近接武器
+gearType.silentgear.necklace,Necklace,ネックレス
+gearType.silentgear.none,None,無し
 gearType.silentgear.part,Part,部品
 gearType.silentgear.paxel,Paxel,パクセル
 gearType.silentgear.pickaxe,Pickaxe,ツルハシ
@@ -213,8 +235,27 @@ gearType.silentgear.spear,Spear,槍
 gearType.silentgear.sword,Sword,剣
 gearType.silentgear.tool,Tools,道具
 gearType.silentgear.trident,Trident,トライデント
+gearType.silentgear.weapon,Weapon,武器
+grade.silentgear.A,A,
+grade.silentgear.B,B,
+grade.silentgear.C,C,
+grade.silentgear.D,D,
+grade.silentgear.E,E,
+grade.silentgear.MAX,MAX,
+grade.silentgear.NONE,not graded,グレード無し
+grade.silentgear.S,S,
+grade.silentgear.SS,SS,
+grade.silentgear.SSS,SSS,
 gui.silentgear.material_grader.catalystTier,Catalyst Tier: %s,触媒ティア: %s
+harvestTier.minecraft.diamond,Diamond,ダイヤモンド
+harvestTier.minecraft.gold,Gold,金
+harvestTier.minecraft.iron,Iron,鉄
+harvestTier.minecraft.netherite,Netherite,ネザライト
+harvestTier.minecraft.stone,Stone,石
+harvestTier.minecraft.wood,Wood,木
 item.silentgear.advanced_upgrade_base,Advanced Upgrade Base,上位アップグレードベース
+item.silentgear.alloy_ingot,%s Alloy,%s合金インゴット
+item.silentgear.armor_body,Armor Body,複合アーマーボディ
 item.silentgear.armor_body.nameProper,%s Armor Body,%sのアーマーボディ
 item.silentgear.arrow,Arrow,矢
 item.silentgear.arrow.nameProper,%s Arrow,%sの矢
@@ -222,6 +263,7 @@ item.silentgear.arrow_heads,Arrow Heads,矢じり
 item.silentgear.arrow_heads.nameProper,%s Arrow Heads,%sの矢じり
 item.silentgear.axe,Axe,斧
 item.silentgear.axe.nameProper,%s Axe,%sの斧
+item.silentgear.axe_head,Axe Head,複合斧頭
 item.silentgear.axe_head.nameProper,%s Axe Head,%sの斧頭
 item.silentgear.azure_electrum_dust,Azure Electrum Dust,アズールエレクトラムの粉
 item.silentgear.azure_electrum_ingot,Azure Electrum Ingot,アズールエレクトラムインゴット
@@ -231,6 +273,7 @@ item.silentgear.azure_silver_chunks,Azure Silver Ore Chunks,アズールシル�
 item.silentgear.azure_silver_dust,Azure Silver Dust,アズールシルバーの粉
 item.silentgear.azure_silver_ingot,Azure Silver Ingot,アズールシルバーインゴット
 item.silentgear.azure_silver_nugget,Azure Silver Nugget,アズールシルバー塊
+item.silentgear.binding,Binding,複合バインド
 item.silentgear.binding.nameProper,%s Binding,%sのバインド
 item.silentgear.blaze_gold_dust,Blaze Gold Dust,ブレイズゴールドの粉
 item.silentgear.blaze_gold_ingot,Blaze Gold Ingot,ブレイズゴールドインゴット
@@ -253,10 +296,12 @@ item.silentgear.blueprint.hoe.desc,Garden tool,お庭の道具
 item.silentgear.blueprint.jeiTip,Press U (default controls) to see recipes in JEI,Uキー(デフォルト)を押して、JEIのレシピを表示
 item.silentgear.blueprint.katana.desc,Swift sword,素早い剣
 item.silentgear.blueprint.knife.desc,Survival tool,サバイバルの道具
+item.silentgear.blueprint.mace.desc,Brings baddies bigger boo-boos,ワルいやつにはデカい「イタイ」を！
 item.silentgear.blueprint.machete.desc,Jungle essential,ジャングルの必需品
 item.silentgear.blueprint.materialAmount,Material Required: %d,必要な材料: %d
 item.silentgear.blueprint.mattock.desc,Better than hoes,クワの上位互換
 item.silentgear.blueprint.multiUse,Can be used many times,何度でも使える
+item.silentgear.blueprint.necklace.desc,Can fit a tree trunk and maybe your neck,木の幹にもあなたの首にもフィット
 item.silentgear.blueprint.paxel.desc,AIOT,アイオット
 item.silentgear.blueprint.pickaxe.desc,Your best friend,キミの最高の友達
 item.silentgear.blueprint.prospector_hammer.desc,Ore sniffer,鉱石スニッファー
@@ -287,6 +332,7 @@ item.silentgear.bort,Bort,ボルト
 item.silentgear.bow,Bow,弓
 item.silentgear.bow.nameProper,%s Bow,%sの弓
 item.silentgear.bow.unstrung,Unstrung %s,張られていない%s
+item.silentgear.bow_limbs,Bow Limbs,複合弓弦
 item.silentgear.bow_limbs.nameProper,%s Bow Limbs,%sの弓弦
 item.silentgear.bracelet,Bracelet,ブレスレット
 item.silentgear.bracelet.nameProper,%s Bracelet,%sのブレスレット
@@ -297,7 +343,11 @@ item.silentgear.chestplate,Chestplate,チェストプレート
 item.silentgear.chestplate.nameProper,%s Chestplate,%sのチェストプレート
 item.silentgear.chestplate_plates,Chestplate Plates,チェストプレートプレート
 item.silentgear.chestplate_plates.nameProper,%s Chestplate Plates,%sのチェストプレートプレート
+item.silentgear.coating,Coating,複合コーティング
 item.silentgear.coating.nameProper,%s Coating,%sのコーティング
+item.silentgear.coating_smithing_template,Coating Smithing Template,コーティング鍛冶型
+item.silentgear.compound_part.part_name,Gear Part: %s,ギア部品: %s
+item.silentgear.cord,Cord,複合紐
 item.silentgear.cord.nameProper,%s Cord,%sの紐
 item.silentgear.crimson_iron_chunks,Crimson Iron Ore Chunks,深紅鉄鉱石塊
 item.silentgear.crimson_iron_dust,Crimson Iron Dust,深紅鉄の粉
@@ -310,13 +360,21 @@ item.silentgear.crimson_steel_nugget,Crimson Steel Nugget,深紅鋼塊
 item.silentgear.crossbow,Crossbow,クロスボウ
 item.silentgear.crossbow.nameProper,%s Crossbow,%sのクロスボウ
 item.silentgear.crossbow.unstrung,Unstrung %s,張られていない%s
+item.silentgear.crossbow_limbs,Crossbow Limbs,複合クロスボウ弦
 item.silentgear.crossbow_limbs.nameProper,%s Crossbow Limbs,%sのクロスボウ弦
+item.silentgear.crude_alloy,Crude %s Alloy,粗雑な%s合金
+item.silentgear.crude_hammer,Crude Hammer,粗雑なハンマー
+item.silentgear.crude_knife,Crude Knife,粗雑なナイフ
 item.silentgear.crude_repair_kit,Crude Repair Kit,粗雑な修理キット
+item.silentgear.crude_tool_parts,Crude Tool Parts,粗雑な道具部品
 item.silentgear.crushed_shulker_shell,Crushed Shulker Shell,砕いたシュルカーの殻
 item.silentgear.custom_gem,%s,
+item.silentgear.custom_gem.literal,Custom Gem,カスタム宝石
 item.silentgear.custom_ingot,%s Ingot,%sインゴット
+item.silentgear.custom_ingot.literal,Custom Ingot,カスタムインゴット
 item.silentgear.dagger,Dagger,ダガー
 item.silentgear.dagger.nameProper,%s Dagger,%sのダガー
+item.silentgear.dagger_blade,Dagger Blade,複合ダガー刃
 item.silentgear.dagger_blade.nameProper,%s Dagger Blade,%sのダガー刃
 item.silentgear.diamond_shard,Diamond Shard,ダイヤモンドの欠片
 item.silentgear.dried_sinew,Dried Sinew,乾燥した筋
@@ -327,6 +385,7 @@ item.silentgear.elytra_wings.nameProper,%s Elytra Wings,%sのエリトラの羽
 item.silentgear.emerald_shard,Emerald Shard,エメラルドの欠片
 item.silentgear.excavator,Excavator,エクスカベーター
 item.silentgear.excavator.nameProper,%s Excavator,%sのエクスカベーター
+item.silentgear.excavator_head,Excavator Head,複合エクスカベーター頭
 item.silentgear.excavator_head.nameProper,%s Excavator Head,%sのエクスカベーター頭
 item.silentgear.fine_silk,Fine Silk,良い絹糸
 item.silentgear.fine_silk.desc,Drops rarely from spiders when killed,クモを倒すとごくたまに落とす
@@ -339,6 +398,7 @@ item.silentgear.flax_fiber,Flax Fiber,亜麻繊維
 item.silentgear.flax_flowers,Flax Flowers,亜麻の花
 item.silentgear.flax_seeds,Flax Seeds,亜麻の種
 item.silentgear.flax_string,Flax String,亜麻ひも
+item.silentgear.fletching,Fletching,複合矢羽根
 item.silentgear.fletching.nameProper,%s Fletching,%sの矢羽根
 item.silentgear.fluffy_fabric,Fluffy Fabric,綿の生地
 item.silentgear.fluffy_feather,Fluffy Feather,綿の羽毛
@@ -352,13 +412,15 @@ item.silentgear.glittery_dust,Glittery Dust,きらびやかな粉
 item.silentgear.glowing_dust,Glowing Dust,輝く粉
 item.silentgear.glowstone_coated_upgrade,Glowstone-Coated Upgrade,グロウストーンコーティングアップグレード
 item.silentgear.golden_nether_banana,Golden Nether Banana,金のネザーバナナ
+item.silentgear.grip,Grip,複合グリップ
 item.silentgear.grip.nameProper,%s Grip,%sのグリップ
 item.silentgear.guide_book,Silent Gear Guide,Silent Gearガイド
-item.silentgear.guide_book.check_wiki,Check the wiki instead: ,代わりにwikiを確認してください: 
+item.silentgear.guide_book.check_wiki,Check the wiki instead: ,代わりにwikiを確認してください:
 item.silentgear.guide_book.unimplemented1,Not implemented and unlikely to happen anytime soon,実装されておらず、すぐには実現する可能性は低いです
 item.silentgear.guide_book.unimplemented2,Use this item to get a link to the wiki,このアイテムを使用して、Wiki へのリンクを取得します
 item.silentgear.hammer,Hammer,ハンマー
 item.silentgear.hammer.nameProper,%s Hammer,%sのハンマー
+item.silentgear.hammer_head,Hammer Head,複合ハンマー頭
 item.silentgear.hammer_head.nameProper,%s Hammer Head,%sのハンマー頭
 item.silentgear.helmet,Helmet,ヘルメット
 item.silentgear.helmet.nameProper,%s Helmet,%sのヘルメット
@@ -366,15 +428,18 @@ item.silentgear.helmet_plates,Helmet Plates,ヘルメットプレート
 item.silentgear.helmet_plates.nameProper,%s Helmet Plates,%sのヘルメットプレート
 item.silentgear.hoe,Hoe,クワ
 item.silentgear.hoe.nameProper,%s Hoe,%sのクワ
+item.silentgear.hoe_head,Hoe Head,複合クワ頭
 item.silentgear.hoe_head.nameProper,%s Hoe Head,%sのクワ頭
 item.silentgear.hybrid_gem,%s Hybrid Gem,%sの混合宝石
 item.silentgear.iron_rod,Iron Rod,鉄の棒
 item.silentgear.jeweler_tools,Jeweler Tools,宝石ツール
 item.silentgear.katana,Katana,刀
 item.silentgear.katana.nameProper,%s Katana,%sの刀
+item.silentgear.katana_blade,Katana Blade,複合刀刃
 item.silentgear.katana_blade.nameProper,%s Katana Blade,%sの刀刃
 item.silentgear.knife,Knife,ナイフ
 item.silentgear.knife.nameProper,%s Knife,%sのナイフ
+item.silentgear.knife_blade,Knife Blade,複合ナイフ刃
 item.silentgear.knife_blade.nameProper,%s Knife Blade,%sのナイフ刃
 item.silentgear.lapis_coated_upgrade,Lapis-Coated Upgrade,ラピスコーティングアップグレード
 item.silentgear.leather_scrap,Leather Scrap,革の切れ端
@@ -384,26 +449,39 @@ item.silentgear.leggings,Leggings,レギンス
 item.silentgear.leggings.nameProper,%s Leggings,%sのレギンス
 item.silentgear.lining,Lining,裏地
 item.silentgear.lining.nameProper,%s Lining,%sの裏地
+item.silentgear.mace,Mace,メイス
+item.silentgear.mace.nameProper,%s Mace,%sのメイス
+item.silentgear.mace_core,Mace Core,メイスコア
+item.silentgear.mace_core.nameProper,%s Mace Core,%sのメイスコア
 item.silentgear.machete,Machete,ナタ
 item.silentgear.machete.nameProper,%s Machete,%sのナタ
+item.silentgear.machete_blade,Machete Blade,複合ナタ刃
 item.silentgear.machete_blade.nameProper,%s Machete Blade,%sのナタ刃
+item.silentgear.magnetic_upgrade,Magnetic Upgrade,磁気アップグレード
 item.silentgear.mattock,Mattock,マトック
 item.silentgear.mattock.nameProper,%s Mattock,%sのマトック
+item.silentgear.mattock_head,Mattock Head,複合マトック頭
 item.silentgear.mattock_head.nameProper,%s Mattock Head,%sのマトック頭
 item.silentgear.mixed_fabric,%s Mixed Fabric,%sの混合生地
 item.silentgear.mod_kit,Gear Mod Kit,ギア改造キット
 item.silentgear.mod_kit.keyHint,Cycle part type with %s and %s,サイクル部品タイプ(%s と %s)
 item.silentgear.mod_kit.selected,Removes parts of type: %s,タイプ %s の部品を削除します。
+item.silentgear.necklace,Necklace,ネックレス
+item.silentgear.necklace.nameProper,%s Necklace,%sのネックレス
+item.silentgear.necklace_chain,Necklace Chain,ネックレスチェーン
+item.silentgear.necklace_chain.nameProper,%s Necklace Chain,%sのネックレス チェーン
 item.silentgear.nether_banana,Nether Banana,ネザーバナナ
 item.silentgear.nether_star_fragment,Nether Star Fragment,ネザースターの欠片
 item.silentgear.netherwood_charcoal,Netherwood Charcoal,ネザーウッド木炭
 item.silentgear.netherwood_stick,Netherwood Stick,ネザーウッドの棒
 item.silentgear.paxel,Paxel,パクセル
 item.silentgear.paxel.nameProper,%s Paxel,%sのパクセル
+item.silentgear.paxel_head,Paxel Head,複合パクセル頭
 item.silentgear.paxel_head.nameProper,%s Paxel Head,%sのパクセル頭
 item.silentgear.pebble,Pebble,小石
 item.silentgear.pickaxe,Pickaxe,ツルハシ
 item.silentgear.pickaxe.nameProper,%s Pickaxe,%sのツルハシ
+item.silentgear.pickaxe_head,Pickaxe Head,複合ツルハシ頭
 item.silentgear.pickaxe_head.nameProper,%s Pickaxe Head,%sのツルハシ頭
 item.silentgear.prospector_hammer,Prospector Hammer,プロスペクターハンマー
 item.silentgear.prospector_hammer.finds,Finds: %s,検索対象: %s
@@ -428,23 +506,32 @@ item.silentgear.ring_shank,Ring Shank,リングシャンク
 item.silentgear.ring_shank.nameProper,%s Ring Shank,%sのリングシャンク
 item.silentgear.road_maker_upgrade,Road Maker Upgrade,ロードメーカーアップグレード
 item.silentgear.road_maker_upgrade.desc,Allows excavators to create grass paths in 3x3 patches,エクスカベーターが3×3の範囲で草の道を作成できるようにします
+item.silentgear.rod,Tool Rod,複合道具棒
 item.silentgear.rod.nameProper,%s Tool Rod,%sの道具棒
 item.silentgear.rough_rod,Rough Rod,粗末棒
 item.silentgear.rough_rod.desc,"Can be used to craft tools like in vanilla, but has some negative effects. Good for emergencies.",バニラのように道具を作れますがマイナス面もあります。緊急時に最適です。
 item.silentgear.saw,Saw,ノコギリ
 item.silentgear.saw.nameProper,%s Saw,%sのノコギリ
+item.silentgear.saw_blade,Saw Blade,複合ノコギリ刃
 item.silentgear.saw_blade.nameProper,%s Saw Blade,%sのノコギリ刃
+item.silentgear.setting,Jewelry Setting,中石
+item.silentgear.setting.nameProper,%s Jewelry Setting,%sの中石
+item.silentgear.shear_blades,Shear Blades,ハサミ刃
+item.silentgear.shear_blades.nameProper,%s Shear Blades,%sのハサミ刃
 item.silentgear.shears,Shears,ハサミ
 item.silentgear.shears.nameProper,%s Shears,%sのハサミ
 item.silentgear.sheet_metal,%s Sheet Metal,%sの金属シート
 item.silentgear.shield,Shield,盾
 item.silentgear.shield.nameProper,%s Shield,%sの盾
+item.silentgear.shield_plate,Shield Plate,複合盾プレート
 item.silentgear.shield_plate.nameProper,%s Shield Plate,%sの盾プレート
 item.silentgear.shovel,Shovel,シャベル
 item.silentgear.shovel.nameProper,%s Shovel,%sのシャベル
+item.silentgear.shovel_head,Shovel Head,複合シャベル頭
 item.silentgear.shovel_head.nameProper,%s Shovel Head,%sのシャベル頭
 item.silentgear.sickle,Sickle,鎌
 item.silentgear.sickle.nameProper,%s Sickle,%sの鎌
+item.silentgear.sickle_blade,Sickle Blade,複合鎌刃
 item.silentgear.sickle_blade.nameProper,%s Sickle Blade,%sの鎌刃
 item.silentgear.sinew,Sinew,筋
 item.silentgear.sinew.desc,Drops occasionally from some animals when killed,一部の動物を倒したときに一定確率でドロップします
@@ -452,23 +539,29 @@ item.silentgear.sinew_fiber,Sinew Fiber,筋繊維
 item.silentgear.slingshot,Slingshot,パチンコ
 item.silentgear.slingshot.nameProper,%s Slingshot,%sのパチンコ
 item.silentgear.slingshot_ammo.desc,Slingshot Ammo,パチンコの弾
+item.silentgear.slingshot_limbs,Slingshot Limbs,パチンコの弦
 item.silentgear.slingshot_limbs.nameProper,%s Slingshot Limbs,%sのパチンコの弦
 item.silentgear.spear,Spear,槍
 item.silentgear.spear.nameProper,%s Spear,%sの槍
+item.silentgear.spear_tip,Spear Tip,複合槍の先端
 item.silentgear.spear_tip.nameProper,%s Spear Tip,%sの槍の先端
 item.silentgear.spoon_upgrade,Spoon Upgrade,スプーンアップグレード
 item.silentgear.spoon_upgrade.desc,Allows pickaxes to work as a shovel,ツルハシをシャベルとして機能させることができます
 item.silentgear.starmetal_dust,Starmetal Dust,スター金属の粉
 item.silentgear.stone_rod,Stone Rod,石の棒
 item.silentgear.sturdy_repair_kit,Sturdy Repair Kit,頑丈な修理キット
+item.silentgear.super_alloy,%s Super Alloy,%sスーパー合金
 item.silentgear.sword,Sword,剣
 item.silentgear.sword.nameProper,%s Sword,%sの剣
+item.silentgear.sword_blade,Sword Blade,複合剣刃
 item.silentgear.sword_blade.nameProper,%s Sword Blade,%sの剣刃
 item.silentgear.template,%s Template,%sの型板
 item.silentgear.template_board,Template Board,型板用の板
+item.silentgear.tip,Tip Upgrade,複合チップアップグレード
 item.silentgear.tip.nameProper,%s Tip Upgrade,%sのチップアップグレード
 item.silentgear.trident,Trident,トライデント
 item.silentgear.trident.nameProper,%s Trident,%sのトライデント
+item.silentgear.trident_prongs,Trident Prongs,複合トライデント突起
 item.silentgear.trident_prongs.nameProper,%s Trident Prongs,%sのトライデント突起
 item.silentgear.tyrian_steel_dust,Tyrian Steel Dust,ティリアン鋼の粉
 item.silentgear.tyrian_steel_ingot,Tyrian Steel Ingot,ティリアン鋼インゴット
@@ -477,6 +570,8 @@ item.silentgear.upgrade_base,Upgrade Base,アップグレード基礎
 item.silentgear.very_crude_repair_kit,Very Crude Repair Kit,非常に粗雑な修理キット
 item.silentgear.wide_plate_upgrade,Wide Plate Upgrade,ワイドプレートアップグレード
 item.silentgear.wide_plate_upgrade.desc,Increases the effect radius of hammers and excavators by 1 (not stackable),ハンマーとエクスカベーターの掘削範囲を1増やす(スタック不可)
+itemGroup.silentgear,Silent Gear: Main,Silent Gear
+itemGroup.silentgear.gear,Silent Gear: Gear,Silent Gear : 歯車
 jei.silentgear.axe.desc,A standard axe,スタンダードな斧
 jei.silentgear.blueprint.desc,"Blueprints and templates are used to craft tool heads and armor. Blueprints can be reused infinitely, templates are single-use. When used in the crafting station, you can mix materials. Otherwise, the materials must all be the same. Check the tooltip of the blueprint/template for details on crafting the final item.",設計図と型板は道具の頭と防具をクラフトするために使用されます。設計図は無限に再利用でき、型板は使い捨てです。クラフティングステーションで使用すると素材を混ぜることができます。それ以外の場合、素材はすべて同じである必要があります。最終的なアイテムの作成の詳細については設計図または型板のツールチップを参照してください。
 jei.silentgear.blueprintType,Blueprint: %s,設計図: %s
@@ -485,10 +580,21 @@ jei.silentgear.crossbow.desc,Similar to vanilla crossbows.,バニラのクロス
 jei.silentgear.dagger.desc,"Basically a very light sword. Low damage and shorter reach, but very high attack speed. It also reduces the target's invulnerability time when hit.",基本的には非常に軽い剣です。ダメージが低く、リーチは短いですが、攻撃速度は非常に高いです。また、命中したときのターゲットの無敵時間を短縮します。
 jei.silentgear.excavator.desc,Mines soil in a 3x3 area.,3×3の範囲で土壌を掘削します。
 jei.silentgear.fishing_rod.desc,It's a fishing rod. What more do you want?,釣り竿です。これ以上何を望む？
+jei.silentgear.group.alloy_making.fabric,Fabric Alloys,生地合成
+jei.silentgear.group.alloy_making.gem,Gem Alloys,宝石混合
+jei.silentgear.group.alloy_making.metal,Metal Alloys,金属合金
+jei.silentgear.group.alloy_making.super,Super Alloys,スーパー合金
+jei.silentgear.group.gearCrafting,Gear Crafting,ギアクラフト
+jei.silentgear.group.grading,Grading,グレーディング
+jei.silentgear.group.salvaging,Salvaging,回収
+jei.silentgear.group.tool_action,Tool Action,ツール操作
 jei.silentgear.hammer.desc,"Mines stone and ores in a 3x3 area. Ores are only broken when aiming at ores, by default.",3×3の範囲で石と鉱石を採掘します。デフォルトでは鉱石を採掘したときのみ鉱石が破壊されます。
 jei.silentgear.hoe.desc,A standard hoe,スタンダードなクワ
+jei.silentgear.katana.desc,A sword that is heavier and stronger than standard swords.,クラシックな剣より少し速く、少し弱い剣です。また、リーチが少し長いです。
 jei.silentgear.knife.desc,"Similar to daggers. Has higher durability, but less damage and speed.",ダガーに似ています。耐久力は高いですが、攻撃力と速度は劣ります。
+jei.silentgear.machete.desc,"A multi-function blade. It's a sword, axe, and sickle, but works best as a sword. Slightly faster and weaker than standard swords. Like sickles, it can clear an area of plants, but the range is smaller.",多機能ブレード。剣、斧、鎌を併せ持ち、剣として最適に機能します。攻撃速度はわずかに劣り、攻撃力は高いです。鎌のように植物を刈り取れますが、範囲は劣ります。
 jei.silentgear.materialType,Material: %s,素材: %s
+jei.silentgear.material_category.not_separator," except ",除外
 jei.silentgear.mattock.desc,"The ultimate farming tool, capable of tilling and digging soil and chopping wood. A bit slower than a shovel or axe, but more durable. Should work in anything that requires a hoe.",耕して土を掘削し、木を切ることができる究極の農具用道具。シャベルや斧より少し遅いですが、耐久力が高めです。クワで掘れるものは何でも掘れます。
 jei.silentgear.partType,Part: %s,部品: %s
 jei.silentgear.paxel.desc,"An all-in-one tool that functions as a pickaxe, axe, and shovel. It has a small durability bonus, but a small penalty to harvest speed and enchantability.",ツルハシ、斧、シャベルとして機能するオールインワンツール。耐久力は大差ないですが採掘速度とエンチャントにわずかなペナルティがあります。
@@ -503,7 +609,7 @@ jei.silentgear.slingshot.desc,"Fast draw speed, low damage. Can only fire pebble
 jei.silentgear.spear.desc,"Weaker than swords, but has a longer attack reach.",剣よりも弱いですが、リーチが長くなります。
 jei.silentgear.spoon_upgrade.desc,Let's your pickaxe mine dirt and such. Because reasons.,ツルハシで土を採掘しよう。
 jei.silentgear.sword.desc,A classic sword with balanced damage and speed. The guard takes the appearance of the second material used in crafting.,ダメージとスピードのバランスが取れたクラシックな剣。ガードはクラフトで使用される第二の素材の外観をとっています。
-jei.silentgear.tip_upgrade.desc,"Allows an existing tool/weapon to be further upgraded. Most tip upgrades will add (or subtract) a fixed amount to certain stats, but some add will multipliers instead. Hold the Ctrl key to view stat modifiers in the tooltip.",既存のツール/ウェポンをさらにアップグレードできるようにします。ほとんどのチップアップグレードは特定のステータスに一定量を追加（または減算）するが、代わりに乗数を追加するものもある。Ctrlキーを押しながら操作すると、ツールチップにステータスが表示される。
+jei.silentgear.tip_upgrade.desc,"Allows an existing tool/weapon to be further upgraded. Most tip upgrades will add (or subtract) a fixed amount to certain stats, but some add will multipliers instead. Hold the Ctrl key to view stat modifiers in the tooltip.",既存のツール/ウェポンをさらにアップグレードできるようにします。ほとんどのチップアップグレードは特定のステータスに一定量を追加(または減算)するが、代わりに乗数を追加するものもある。Ctrlキーを押しながら操作すると、ツールチップにステータスが表示される。
 jei.silentgear.tool_head.desc,"Tool heads, blades, bow limbs, and more! These are the core of tools and weapons, constructed with a blueprint/template and some number of main tool materials. Check the blueprint/template tooltip for more info.",道具の頭、刃、弓の弦など！これらは道具や武器の核となるもので、設計図/型板といくつかの主要な道具材料で構成されます。詳細については、設計図/型板のツールチップを確認してください。
 jei.silentgear.tooltip.sample1,Sample recipe,見本レシピ
 jei.silentgear.tooltip.sample2,Gear made with any materials will work,どんな素材のギアでも使用できます。
@@ -511,7 +617,26 @@ key.categories.silentgear,Silent Gear,サイレント歯車
 key.silentgear.cycle.back,Cycle Back,サイクル前
 key.silentgear.cycle.next,Cycle Next,サイクル次
 key.silentgear.cycleMaterialInfo,Cycle Material Info,サイクル素材詳細
+key.silentgear.displayItemConstruction,Display Construction and Materials,建設と資材を表示
+key.silentgear.displayItemProperties,Display Properties and Traits,プロパティと形質を表示
+key.silentgear.displayTraitDescriptions,Display Trait Descriptions,特性の説明を表示
 key.silentgear.openItem,Open Item,オープンアイテム
+material.group.silentgear.advanced,Advanced,発展
+material.group.silentgear.any,Any,任意
+material.group.silentgear.basic,Basic,基本
+material.group.silentgear.cloth,Cloth,布
+material.group.silentgear.dust,Dust,粉
+material.group.silentgear.endgame,Endgame,エンドゲーム
+material.group.silentgear.fiber,Fiber,繊維
+material.group.silentgear.gem,Gem,宝石
+material.group.silentgear.intangible,Intangible,無形
+material.group.silentgear.intermediate,Intermediate,中級
+material.group.silentgear.metal,Metal,金属
+material.group.silentgear.organic,Organic,有機
+material.group.silentgear.rock,Rock,岩
+material.group.silentgear.sheet,Sheet,シート
+material.group.silentgear.slime,Slime,スライム
+material.group.silentgear.wood,Wood,木
 material.silentgear.aluminum,Aluminum,アルミニウム
 material.silentgear.aluminum_steel,Aluminum Steel,アルミニウム鋼
 material.silentgear.amethyst,Amethyst,アメジスト
@@ -527,11 +652,13 @@ material.silentgear.blaze_gold,Blaze Gold,ブレイズゴールド
 material.silentgear.blaze_rod,Blaze Rod,ブレイズロッド
 material.silentgear.bone,Bone,骨
 material.silentgear.brass,Brass,真鍮
+material.silentgear.breeze_rod,Breeze Rod,そよ風の棒
 material.silentgear.bronze,Bronze,青銅
 material.silentgear.compressed_iron,Compressed Iron,圧縮鉄
 material.silentgear.copper,Copper,銅
 material.silentgear.crimson_iron,Crimson Iron,深紅鉄
 material.silentgear.crimson_steel,Crimson Steel,深紅鋼
+material.silentgear.crushed_shulker_shell,Shulker Shell,シュルカーの殻
 material.silentgear.diamond,Diamond,ダイヤモンド
 material.silentgear.dimerald,Dimerald,ダイメラルド
 material.silentgear.electrum,Electrum,エレクトラム
@@ -646,6 +773,12 @@ misc.silentgear.curiosNotInstalled,Requires Curios API to equip,装備するに�
 misc.silentgear.exampleOutput1,Example output (modular recipe),出力例 (モジュラーレシピ)
 misc.silentgear.exampleOutput2,"If you crafted this, something went wrong!",これを作ったら、何かがうまくいきませんでした！
 misc.silentgear.graderCatalyst,Grader Catalyst (Tier %d),グレーダー触媒 (ティア %d)
+misc.silentgear.harvestLevel,Harvest Level: %s,採掘レベル: %s
+misc.silentgear.harvestLevel.0,Wood,木
+misc.silentgear.harvestLevel.1,Stone,石
+misc.silentgear.harvestLevel.2,Iron,鉄
+misc.silentgear.harvestLevel.3,Diamond,ダイヤモンド
+misc.silentgear.harvestLevel.4,Netherite,ネザライト
 misc.silentgear.invalidParts,Seems to contain invalid parts,無効な部品が含まれているようです
 misc.silentgear.jeiNotInstalled,JEI is not installed? Please consider installing the Just Enough Items (JEI) mod.,JEIがインストールされていませんか？Just Enough Items(JEI)modのインストールを検討してください。
 misc.silentgear.key,[%s],
@@ -655,6 +788,7 @@ misc.silentgear.notifyOnBreak,Your %s has broken. You should fix that... Conside
 misc.silentgear.off,Off,オフ
 misc.silentgear.on,On,オン
 misc.silentgear.poorlyMade,This item is poorly made and will not last long,このアイテムは作りが悪く、長持ちしません
+misc.silentgear.space," ",
 misc.silentgear.spaceBrackets," (%s)",
 misc.silentgear.starlightChargerCataylst,Starlight Charger Catalyst (Tier %d),スターライトチャージャー触媒 (ティア %d)
 misc.silentgear.supportedPartTypes,Parts/upgrades supported by item,部品/アイテムでサポートされているアップグレード
@@ -663,9 +797,11 @@ misc.silentgear.tooltip.blacklist,Blacklist: %s,ブラックリスト: %s
 misc.silentgear.tooltip.construction,Construction,構造
 misc.silentgear.tooltip.material,SGear Material,SGear素材
 misc.silentgear.tooltip.material.keyHint,%s/%s,
+misc.silentgear.tooltip.none,None,なし
+misc.silentgear.tooltip.properties,Properties,属性
 misc.silentgear.tooltip.traits,Traits,特徴
-misc.silentgear.unknown,Unknown,未知
-misc.silentgear.wip,WIP (Expect Changes),WIP (変更の予定)
+misc.silentgear.unknown,Unknown,不明
+misc.silentgear.wip,WIP (Expect Changes),作成中 (変更の予定)
 part.silentgear.gradeOnPart,Grade: %s,グレード: %s
 part.silentgear.type.binding,Binding,バインド
 part.silentgear.type.coating,Coating,コーティング
@@ -677,7 +813,100 @@ part.silentgear.type.main,Main,メイン
 part.silentgear.type.misc_upgrade,Misc Upgrade,その他のアップグレード
 part.silentgear.type.none,None,無し
 part.silentgear.type.rod,Tool Rod,道具棒
+part.silentgear.type.setting,Jewelry Setting,宝石設定
 part.silentgear.type.tip,Tip Upgrade,チップアップグレード
+property.silentgear.additive,Additive,添加剤
+property.silentgear.armor,Armor,防御力
+property.silentgear.armorFormat,%1$s (%2$s),
+property.silentgear.armor_durability,Armor Durability,防具耐久値
+property.silentgear.armor_toughness,Armor Toughness,防具強度
+property.silentgear.attack_damage,Attack Damage,攻撃力
+property.silentgear.attack_reach,Attack Reach,エンティティまでの距離
+property.silentgear.attack_speed,Attack Speed,攻撃速度
+property.silentgear.block_reach,Block Reach,ブロックまでの距離
+property.silentgear.boolean_false,No,いいえ
+property.silentgear.boolean_true,Yes,はい
+property.silentgear.charging_value,Charging Value,チャージ量
+property.silentgear.displayFormat,%1$s §r§8:§r %2$s,
+property.silentgear.draw_speed,Draw Speed,弓引き速度
+property.silentgear.durability,Durability,耐久力
+property.silentgear.durabilityFormat,%1$s / %2$s,
+property.silentgear.enchantment_value,Enchantment Value,エンチャント値
+property.silentgear.harvest_speed,Harvest Speed,採掘速度
+property.silentgear.harvest_tier,Harvest Tier,採掘ティア
+property.silentgear.harvest_tier.withLevelHint,%s (%s),
+property.silentgear.knockback_resistance,Knockback Resistance,ノックバック耐性
+property.silentgear.magic_armor,Magic Armor,魔法防御力
+property.silentgear.magic_damage,Magic Damage,魔法ダメージ
+property.silentgear.projectile_accuracy,Projectile Accuracy,飛び道具精度
+property.silentgear.projectile_speed,Projectile Speed,発射物速度
+property.silentgear.ranged_damage,Ranged Damage,距離ダメージ
+property.silentgear.rarity,Rarity,レア度
+property.silentgear.repair_efficiency,Repair Efficiency,修理効率
+property.silentgear.repair_value,Repair Bonus,修理ボーナス
+property.silentgear.traits,Traits,特性
+property.silentgear.traits.displayWithDescription,%1$s§r§7: %2$s,
+silentgear.configuration.allow_enchanted_effect,Allow Enchanted Effect,エンチャント効果の許可
+silentgear.configuration.allow_enchanting,Allow Enchanting,エンチャントの許可
+silentgear.configuration.anvil_effectiveness,Anvil Effectiveness,金床効率
+silentgear.configuration.aoe_tool,AOE Tool,範囲採掘道具
+silentgear.configuration.azure,Azure,アズール
+silentgear.configuration.blueprint,Blueprint,設計図
+silentgear.configuration.break_down_parts_with_gear,Break Down Parts With Gear,歯車で部品を分解する
+silentgear.configuration.breaks_permanently,Breaks Permanently,完全に破壊
+silentgear.configuration.can_charge_parts,Can Charge Parts,パーツをチャージ可能
+silentgear.configuration.can_grade_parts,Can Grade Parts,パーツをグレード分け可能
+silentgear.configuration.capacity,Capacity,容量
+silentgear.configuration.charge_rate,Charge Rate,チャージ率
+silentgear.configuration.crimson,Crimson,深紅
+silentgear.configuration.crude,Crude,粗雑
+silentgear.configuration.damage_factor_levels,Damage Factor Levels,ダメージ率レベル
+silentgear.configuration.debug,Debug,デバッグ
+silentgear.configuration.destroy_swapped_parts,Destroy Swapped Parts,交換された部品を破壊する
+silentgear.configuration.disable_on_crouch,Disable On Crouch,しゃがんで無効化
+silentgear.configuration.efficiency,Efficiency,効率
+silentgear.configuration.enchanting,Enchanting,エンチャント
+silentgear.configuration.force_remove_enchantments,Force Remove Enchantments,エンチャントを強制削除
+silentgear.configuration.gear,Gear,ギア
+silentgear.configuration.item,Item,アイテム
+silentgear.configuration.item_magnet,Item Magnet,アイテム磁石
+silentgear.configuration.logging,Logging,ログ
+silentgear.configuration.match_mode,Match Mode,一致モード
+silentgear.configuration.material_grader,Material Grader,素材グレーダー
+silentgear.configuration.max,Max,最大
+silentgear.configuration.max_charge,Max Charge,最大チャージ
+silentgear.configuration.median_grade,Median Grade,中央のグレード
+silentgear.configuration.min,Min,最小
+silentgear.configuration.missing,Missing,不足
+silentgear.configuration.ores,Ores,鉱石
+silentgear.configuration.other,Other,その他
+silentgear.configuration.part_loss_rate,Part Loss Rate,部品損失率
+silentgear.configuration.properties,Properties,属性
+silentgear.configuration.prospector_hammer,Prospector Hammer,プロスペクターハンマー
+silentgear.configuration.range,Range,範囲
+silentgear.configuration.recursion_depth,Recursion Depth,再帰性
+silentgear.configuration.repair_kit,Repair Kit,修理キット
+silentgear.configuration.repairs,Repairs,修理
+silentgear.configuration.requires_view_of_sky,Requires View of Sky,空が見える必要がある
+silentgear.configuration.salvager,Salvager,回収機
+silentgear.configuration.saw,Saw,ノコギリ
+silentgear.configuration.send_broken_message,Send Broken Message,破損時にメッセージを送信
+silentgear.configuration.show_material_tooltips,Show Material Tooltips,素材ツールチップの表示
+silentgear.configuration.show_part_tooltips,Show Part Tooltips,部品ツールチップの表示
+silentgear.configuration.show_wip_text,Show WIP Text,作成中テキストの表示
+silentgear.configuration.spawn_with_starter_blueprints,Spawn With Starter Blueprints,スターターの設計図を持ってスポーンする
+silentgear.configuration.standard,Standard,標準
+silentgear.configuration.standard_deviation,Standard Deviation,標準偏位
+silentgear.configuration.starlight_charger,Starlight Charger,スターライトチャージャー
+silentgear.configuration.sturdy,Sturdy,頑丈さ
+silentgear.configuration.tooltip,Tooltip,ツールチップ
+silentgear.configuration.trait,Trait,特徴
+silentgear.configuration.types_allowed,Types Allowed,許可されたタイプ
+silentgear.configuration.upgrades,Upgrades,アップグレード
+silentgear.configuration.vanilla_style_tooltips,Vanilla-Style Tooltips,バニラスタイルツールチップ
+silentgear.configuration.very_crude,Very Crude,非常に粗末な
+silentgear.configuration.work_time,Work Time,作業時間
+subtitles.item.silentgear.gear_damaged,Gear item damaged,ギアアイテムが破損
 trait.condition.silentgear.and," AND ",かつ
 trait.condition.silentgear.gear_type,Gear Type: %s,ギアタイプ: %s
 trait.condition.silentgear.material_count,Material Count: %d,素材数: %d
@@ -696,11 +925,13 @@ trait.silentgear.aquatic.desc,"Full set of armor gives water breathing, deals mo
 trait.silentgear.bastion,Bastion,バスティオン
 trait.silentgear.bastion.desc,Provides bonus armor,ボーナス防御力を提供する
 trait.silentgear.bending,Bending,ベンディング
+trait.silentgear.bending.desc,Gear sometimes takes extra damage,ギアが時々追加ダメージを受ける(フレキシブルでキャンセル)
 trait.silentgear.bounce,Bounce,バウンス
 trait.silentgear.bounce.desc,"Boots negate fall damage, armor knocks back attackers",ブーツは落下ダメージを無効化し、防具は攻撃者をノックバックします
 trait.silentgear.brilliant,Brilliant,ブリリアント
 trait.silentgear.brilliant.desc,Shiny! Piglin like.,まぶしい！ピグリンみたい
 trait.silentgear.brittle,Brittle,脆弱
+trait.silentgear.brittle.desc,Gear sometimes takes extra damage,ギアが時々追加のダメージを受ける(可鍛性でキャンセル)
 trait.silentgear.bulky,Bulky,バルキー
 trait.silentgear.bulky.desc,"TODO, not tested",TODO、テストされていません
 trait.silentgear.chilled,Chilled,チルド
@@ -712,6 +943,7 @@ trait.silentgear.confetti.desc,I like big boom boom,ビッグブームブーム�
 trait.silentgear.crackler,Crackler,クラックラー
 trait.silentgear.crackler.desc,Creates and places basalt at the cost of durability,耐久値を犠牲にして玄武岩を作成し、設置する。
 trait.silentgear.crude,Crude,粗雑
+trait.silentgear.crude.desc,Reduces synergy,シナジーを減少させる (シナジーブーストでキャンセル)
 trait.silentgear.crushing,Crushing,破砕
 trait.silentgear.crushing.desc,Increases armor or decreases attack damage as gear is damaged,ギアがダメージを受けると、防御力が増加するか、攻撃力が減少する
 trait.silentgear.cure_poison,Cure Poison,キュアポイズン
@@ -724,6 +956,7 @@ trait.silentgear.displayFormat,%1$s %2$s,
 trait.silentgear.eroded,Eroded,侵食
 trait.silentgear.eroded.desc,Increases harvest speed and reduces attack damage as gear is damaged,採掘速度が上がり、装備がダメージを受けると攻撃ダメージが軽減される
 trait.silentgear.fiery,Fiery,炎
+trait.silentgear.fiery.desc,Not implemented,火の神髄または炎を適切な装備に加える
 trait.silentgear.fireproof,Fireproof,耐火
 trait.silentgear.fireproof.desc,Cannot be destroyed when dropped in fire or lava,火や溶岩にドロップしてもロストしない
 trait.silentgear.flame_ward,Flame Ward,フレイムワード
@@ -732,13 +965,19 @@ trait.silentgear.flammable,Flammable,可燃
 trait.silentgear.flammable.desc,Takes damage when on fire and can be used as fuel,燃えているときにダメージを受け、燃料として使用できます
 trait.silentgear.flammable.itemDestroyed,Your %s burnt up,あなたの%sは燃え尽きました
 trait.silentgear.flexible,Flexible,フレキシブル
+trait.silentgear.flexible.desc,Gear occasionally takes less damage,ギアが受けるダメージが時々少なくなります(脆弱でキャンセル)
 trait.silentgear.floatstoner,Floatstoner,フロートストーナー
 trait.silentgear.floatstoner.desc,Creates and places end stone at the cost of durability,耐久性を犠牲にしてエンドストーンを作成し、設置する
+trait.silentgear.fortunate,Fortunate,幸運
+trait.silentgear.fortunate.desc,Blocks mined drop extra items like with Fortune (does not stack with enchantments),採掘したブロックが幸運のように追加アイテムをドロップ(エンチャントとは重複しない)
 trait.silentgear.gold_digger,Gold Digger,ゴールドディガー
 trait.silentgear.gold_digger.desc,Sometimes increases nugget drops when mining,採掘時に塊が落ちることがある
 trait.silentgear.greedy,Greedy,貪欲
 trait.silentgear.greedy.desc,Increases the mining speed for ores,鉱石の採掘速度が上がる
 trait.silentgear.hard,Hard,ハード
+trait.silentgear.hard.desc,Increases harvest speed or decreases ranged damage as item is damaged,アイテムがダメージを受けると、採掘速度が上がるか、範囲ダメージが減少する(ソフトでキャンセル)
+trait.silentgear.heat_resistant,Heat-Resistant,耐熱
+trait.silentgear.heat_resistant.desc,Reduces fire damage,炎ダメージを軽減
 trait.silentgear.heavy,Heavy,ヘビー
 trait.silentgear.heavy.desc,Armor decreases movement speed,防具は移動速度を低下させる
 trait.silentgear.holy,Holy,ホーリー
@@ -767,6 +1006,7 @@ trait.silentgear.magmatic.desc,Auto-smelting,自動精錬
 trait.silentgear.magnetic,Magnetic,磁力
 trait.silentgear.magnetic.desc,Pulls in nearby items,近くのアイテムを引き寄せる
 trait.silentgear.malleable,Malleable,可鍛性
+trait.silentgear.malleable.desc,Gear sometimes takes less damage,ギアが受けるダメージが少ない場合がある(脆弱でキャンセル)
 trait.silentgear.mighty,Mighty,強大
 trait.silentgear.mighty.desc,Gives strength and/or haste on tools based on trait level,特性レベルに基づいて道具に強さや速攻を与える
 trait.silentgear.moonwalker,Moonwalker,ムーンウォーカー
@@ -791,9 +1031,11 @@ trait.silentgear.rustic.desc,Increases synergy if it's 100% or less,シナジー
 trait.silentgear.sharp,Sharp,鋭利
 trait.silentgear.sharp.desc,Gain harvest speed and attack damage as durability is lost,耐久力が低下すると、収穫速度と攻撃ダメージが増加する
 trait.silentgear.silky,Silky,シルキー
+trait.silentgear.silky.desc,Blocks mined drop themselves like with Silk Touch (does not stack with enchantments),採掘道具にシルクタッチを追加
 trait.silentgear.snow_walker,Snow Walker,スノーウォーカー
 trait.silentgear.snow_walker.desc,Walk on powder snow without sinking,粉雪の上を歩けるようにする
 trait.silentgear.soft,Soft,ソフト
+trait.silentgear.soft.desc,Reduces harvest speed as tool is damaged,ツールが損傷すると採掘速度が下がる(ハードでキャンセル)
 trait.silentgear.spoon,Spoon,スプーン
 trait.silentgear.spoon.desc,Pickaxes can mine soil,ツルハシで土を掘れるようになる
 trait.silentgear.stellar,Stellar,ステラ
@@ -816,6 +1058,10 @@ trait.silentgear.vulcan,Vulcan,ウルカヌス
 trait.silentgear.vulcan.desc,Places obsidian at a high durability cost,黒曜石を高い耐久性コストで設置
 trait.silentgear.widen,Widen,拡大
 trait.silentgear.widen.desc,Increases the effect radius of hammers and excavators,ハンマーとエクスカベーターの効果範囲を拡大する
+trait.silentgear.wind_blast,Wind Blast,風の爆発
+trait.silentgear.wind_blast.desc,Creates a blast of wind when attacking,攻撃時に風の爆発を生成
+trait.silentgear.yummy,Yummy,おいしい！
+trait.silentgear.yummy.desc,"Makes the item edible, but...",アイテムを食べられるようにするが...
 advancements.silentgear.crafting_station.description,Craft a crafting station. It has some useful extra features!,クラフトステーション を作成する。便利な追加機能があります！
 advancements.silentgear.crafting_station.title,Upgrade My Crafting Table!,クラフトテーブルをアップグレード！
 advancements.silentgear.crude_tool.description,Craft a tool with a rough rod. Useful if you have no blueprints or templates.,ラフロッド を使用してツールを作成する。設計図やテンプレートがない場合に便利です。
@@ -823,58 +1069,24 @@ advancements.silentgear.crude_tool.title,"Crude, But Effective",ラフだが効�
 block.silentgear.compounder.desc,Makes compounds of: %s,化合物を作成: %s
 block.silentgear.compounder.workEnabled,Work: %s,稼働: %s
 block.silentgear.metal_alloyer,Metal Alloyer,金属合金装置
-container.silentgear.material_charger,Material Charger,素材チャージャー
 container.silentgear.metal_alloyer,Metal Alloyer,金属合金装置
 gui.silentgear.category.gearCrafting,Gear Crafting,ギアクラフト
 item.silengear.custom_gem,Custom Gem (No Data),カスタムジェム (データなし)
 item.silengear.custom_ingot,Custom Ingot (No Data),カスタムインゴット (データなし)
 item.silentgear.adornment,Adornment,装飾品
 item.silentgear.adornment.nameProper,%s Adornment,%s 装飾品
-item.silentgear.alloy_ingot,%s Alloy Ingot,%s 合金インゴット
-item.silentgear.armor_body,Compound Armor Body,複合装甲パーツ
-item.silentgear.axe_head,Compound Axe Head,複合斧刃
-item.silentgear.binding,Compound Binding,複合結合部
 item.silentgear.blueprint.canMix,Material mixing possible!,素材の混合が可能！
 item.silentgear.blueprint.mixing.disabled,Mixing materials is disabled by the config,素材の混合は設定で無効になっています
 item.silentgear.blueprint.mixing.enabled,Mixing materials is enabled,素材の混合が有効です
-item.silentgear.bow_limbs,Compound Bow Limbs,複合弓の腕木
-item.silentgear.coating,Compound Coating,複合コーティング
-item.silentgear.cord,Compound Cord,複合コード
-item.silentgear.crossbow_limbs,Compound Crossbow Limbs,複合クロスボウの腕木
-item.silentgear.dagger_blade,Compound Dagger Blade,複合ダガー刃
-item.silentgear.excavator_head,Compound Excavator Head,複合エクスカベーター頭部
-item.silentgear.fletching,Compound Fletching,複合矢羽根
-item.silentgear.grip,Compound Grip,複合握り柄
-item.silentgear.hammer_head,Compound Hammer Head,複合ハンマー頭部
-item.silentgear.hoe_head,Compound Hoe Head,複合クワ頭部
-item.silentgear.katana_blade,Compound Katana Blade,複合刀刃
-item.silentgear.knife_blade,Compound Knife Blade,複合ナイフ刃
 item.silentgear.long_rod,Compound Long Tool Rod,複合ロングツールロッド
 item.silentgear.long_rod.nameProper,%s Long Tool Rod,%s ロングツールロッド
-item.silentgear.machete_blade,Compound Machete Blade,複合マチェーテ刃
-item.silentgear.mattock_head,Compound Mattock Head,複合つるはし頭部
-item.silentgear.paxel_head,Compound Paxel Head,複合パクセル頭部
-item.silentgear.pickaxe_head,Compound Pickaxe Head,複合ピッケル頭部
-item.silentgear.rod,Compound Tool Rod,複合ツールロッド
-item.silentgear.saw_blade,Compound Saw Blade,複合のこぎり刃
 item.silentgear.shears_blades,Compound Shears Blades,複合はさみ刃
 item.silentgear.shears_blades.nameProper,%s Shears Blades,%s はさみ刃
-item.silentgear.shield_plate,Compound Shield Plate,複合盾プレート
-item.silentgear.shovel_head,Compound Shovel Head,複合シャベル頭部
-item.silentgear.sickle_blade,Compound Sickle Blade,複合鎌刃
-item.silentgear.slingshot_limbs,Compound Slingshot Limbs,複合スリングショット腕木
-item.silentgear.spear_tip,Compound Spear Tip,複合槍先
-item.silentgear.sword_blade,Compound Sword Blade,複合剣刃
-item.silentgear.tip,Compound Tip Upgrade,複合先端アップグレード
-item.silentgear.trident_prongs,Compound Trident Prongs,複合三叉矛爪
-itemGroup.silentgear,Silent Gear,
 jei.silentgear.category.compounding.fabric,Fabric Compounding,布地合成
 jei.silentgear.category.compounding.gem,Gem Compounding,宝石合成
 jei.silentgear.category.compounding.metal,Metal Compounding,金属合成
 jei.silentgear.category.grading,Grading,等級判定
 jei.silentgear.category.salvaging,Salvaging,分解
-jei.silentgear.katana.desc,"A sword that is slightly faster, but a little weaker than classic swords. Katana can also reach a little further than standard swords.",古典的な剣よりも速く、少し弱い刀です。刀は標準的な剣より少し遠くまで届きます。
-jei.silentgear.machete.desc,"A multi-function blade. It's a sword, axe, and sickle, but works best as a sword. Slightly slower attack speed, but higher damage than standard swords. Like sickles, it can clear an area of plants, but the range is smaller.",多機能な刃です。剣でもあり、斧でもあり、鎌でもありますが、剣として最も効果的です。攻撃速度は遅いですが、ダメージは標準的な剣より高いです。鎌と同様に、植物エリアをクリアできますが、範囲は小さいです。
 key.silentgear.displayConstruction,Display Gear Construction,ギア構造を表示
 key.silentgear.displayStats,Display Stats and Info,ステータスと情報を表示
 key.silentgear.displayTraits,Display Gear Traits,ギア特性を表示
@@ -890,13 +1102,7 @@ material.category.silentgear.rock,Rock,岩石
 material.category.silentgear.sheet,Sheet,板
 material.category.silentgear.slime,Slime,スライム
 material.category.silentgear.wood,Wood,木材
-misc.silentgear.harvestLevel,Harvest Level: %d (%s),採掘レベル: %d (%s)
-misc.silentgear.harvestLevel.0,Stone,石
-misc.silentgear.harvestLevel.1,Iron,鉄
-misc.silentgear.harvestLevel.2,Diamond,ダイヤモンド
-misc.silentgear.harvestLevel.3,Obsidian,黒曜石
-misc.silentgear.harvestLevel.4,Azure Silver,アズール シルバー
-misc.silentgear.tier,Tier %d,
+misc.silentgear.tier,Tier %d,ティア %d
 misc.silentgear.tooltip.ctrlForStats,Stats §8<Press Ctrl>,ステータス §8<Ctrl キーを押す>
 misc.silentgear.tooltip.stats,Stats,ステータス
 part.silentgear.binding,Binding,結合部
@@ -945,12 +1151,3 @@ stat.silentgear.rarity,Rarity,レアリティ
 stat.silentgear.reach_distance,Reach Distance,リーチ距離
 stat.silentgear.repair_efficiency,Repair Efficiency,修復効率
 stat.silentgear.repair_value,Repair Bonus,修復ボーナス
-trait.silentgear.bending.desc,Gear sometimes takes extra damage (cancels with Flexible),ギアが時々追加ダメージを受ける（柔軟性とキャンセル）
-trait.silentgear.brittle.desc,Gear sometimes takes extra damage (cancels with Malleable),ギアが時々追加ダメージを受ける（展性とキャンセル）
-trait.silentgear.crude.desc,Reduces synergy (cancels with Synergy Boost),シナジーを低減する（シナジーブーストとキャンセル）
-trait.silentgear.fiery.desc,Adds Fire Aspect or Flame to appropriate gear,適切なギアに火炎効果または炎を付与
-trait.silentgear.flexible.desc,Gear occasionally takes less damage (cancels with Brittle),ギアがたまにダメージを軽減する（脆性とキャンセル）
-trait.silentgear.hard.desc,Increases harvest speed or decreases ranged damage as item is damaged (cancels with Soft),採掘速度を上昇させるか、アイテムが損傷するにつれて遠隔ダメージを低減（柔軟性とキャンセル）
-trait.silentgear.malleable.desc,Gear sometimes takes less damage (cancels with Brittle),ギアが時々ダメージを軽減する（脆性とキャンセル）
-trait.silentgear.silky.desc,Adds Silk Touch to harvest tools,採掘ツールにシルクタッチを付与
-trait.silentgear.soft.desc,Reduces harvest speed as tool is damaged (cancels with Hard),ツールが損傷するにつれて採掘速度を低減（硬度とキャンセル）

@@ -7,10 +7,10 @@ block.xnet.connector,Connector,コネクタ
 block.xnet.controller,Controller,コントローラー
 block.xnet.facade,Facade,ファサード
 block.xnet.netcable,Network Cable,ネットワークケーブル
-block.xnet.redstone_proxy,Redstone Proxy,レッドストーン プロキシ
-block.xnet.redstone_proxy_upd,Redstone Proxy (update),レッドストーン プロキシ (更新)
+block.xnet.redstone_proxy,Redstone Proxy,レッドストーンプロキシ
+block.xnet.redstone_proxy_upd,Redstone Proxy (update),レッドストーンプロキシ (更新)
 block.xnet.router,Router,ルーター
-block.xnet.wireless_router,Wireless Router,ワイヤレス ルーター
+block.xnet.wireless_router,Wireless Router,ワイヤレスルーター
 item.xnet.advanced_connector_blue,Advanced Blue Connector,応用型 青いコネクタ
 item.xnet.advanced_connector_green,Advanced Green Connector,応用型 緑のコネクタ
 item.xnet.advanced_connector_red,Advanced Red Connector,応用型 赤いコネクタ
@@ -20,7 +20,7 @@ item.xnet.connector_blue,Blue Connector,青いコネクタ
 item.xnet.connector_green,Green Connector,緑のコネクタ
 item.xnet.connector_red,Red Connector,赤いコネクタ
 item.xnet.connector_routing,Routing Connector,ルーティングコネクタ
-item.xnet.connector_upgrade,Connector Upgrade Kit,コネクタ アップグレードキット
+item.xnet.connector_upgrade,Connector Upgrade Kit,コネクタアップグレードキット
 item.xnet.connector_yellow,Yellow Connector,黄色いコネクタ
 item.xnet.facade_blue,Blue Facade,青いファサード
 item.xnet.facade_green,Green Facade,緑のファサード
@@ -32,32 +32,32 @@ item.xnet.netcable_green,Green Network Cable,緑のネットワークケーブ�
 item.xnet.netcable_red,Red Network Cable,赤いネットワークケーブル
 item.xnet.netcable_routing,Routing Network Cable,ルーティングネットワークケーブル
 item.xnet.netcable_yellow,Yellow Network Cable,黄色いネットワークケーブル
-item.xnet.xnet_manual,XNet Manual,XNet マニュアル
+item.xnet.xnet_manual,XNet Manual,XNetマニュアル
 itemGroup.xnet,XNet,エックスネット
 message.xnet.advanced_connector.gold,Allow access to different sides. Supports faster item transfer,異なるサイドへのアクセスを許可します。より高速なアイテム転送をサポート
 message.xnet.advanced_connector.header,Place connector next to block or machine that should be connected to the network,ブロックまたはネットワークに接続するマシンの隣にコネクタを配置します
-message.xnet.advanced_connector.info,Max RF: ,最大 RF: 
+message.xnet.advanced_connector.info,Max RF: ,最大 RF:
 message.xnet.antenna.header,Place one or two antenna's on top of an antenna base,アンテナベースの上に1つまたは2つのアンテナを配置します
-message.xnet.antenna.one,One: ,1つ: 
-message.xnet.antenna.two,Two: ,2つ: 
+message.xnet.antenna.one,One: ,1つ:
+message.xnet.antenna.two,Two: ,2つ:
 message.xnet.antenna_base.header,An antenna base has to be placed on top of a wireless router,アンテナベースはワイヤレスルーターの上に配置する必要があります
 message.xnet.antenna_dish.header,An antenna dish has to be placed on top of an antenna base and allows very extreme wireless range,アンテナディッシュはアンテナベースの上に配置する必要があり、非常に長距離のワイヤレス範囲を提供します
-message.xnet.antenna_dish.info,Power usage: ,電力消費: 
+message.xnet.antenna_dish.info,Power usage: ,電力消費:
 message.xnet.connector.header,Place connector next to block or machine that should be connected to the network,ブロックまたはネットワークに接続するマシンの隣にコネクタを配置します
-message.xnet.connector.info,Max RF: ,最大 RF: 
+message.xnet.connector.info,Max RF: ,最大 RF:
 message.xnet.controller.header,The base block for automation in XNet,XNetのオートメーション用の基本ブロック
-message.xnet.facade.gold,Right or sneak-right click on block to mimic. Right or sneak-right click on cable/connector to hide,ブロックをミミック（模倣）するには右クリックまたはShift+右クリック。ケーブル/コネクタを隠すには右クリックまたはShift+右クリック
-message.xnet.facade.header,This block can mimic other blocks and be used to cover XNet cables,このブロックは他のブロックをミミック（模倣）でき、XNetケーブルをカバーするために使用できます
-message.xnet.facade.info,Mimicking: ,ミミック（模倣）中: 
+message.xnet.facade.gold,Right or sneak-right click on block to mimic. Right or sneak-right click on cable/connector to hide,ブロックをミミック(模倣)するには右クリックまたはシフト+右クリック。ケーブル/コネクタを隠すには右クリックまたはシフト+右クリック
+message.xnet.facade.header,This block can mimic other blocks and be used to cover XNet cables,このブロックは他のブロックをミミック(模倣)でき、XNetケーブルをカバーするために使用できます
+message.xnet.facade.info,Mimicking: ,ミミック(模倣)中:
 message.xnet.redstone_proxy.gold,This version does no block update!,このバージョンはブロック更新を行いません！
 message.xnet.redstone_proxy.header,Acts as a proxy block for redstone. XNet can connect to this,レッドストーンのプロキシブロックとして機能します。XNetはこれに接続できます
 message.xnet.redstone_proxy_upd.gold,This version does a block update!,このバージョンはブロック更新を行います！
 message.xnet.redstone_proxy_upd.header,Acts as a proxy block for redstone. XNet can connect to this,レッドストーンのプロキシブロックとして機能します。XNetはこれに接続できます
-message.xnet.router.header,With this block you can connect multiple channels (controllers),このブロックで複数のチャネル（コントローラー）を接続できます
-message.xnet.shiftmessage,<Press Shift>,<Shiftを押す>
+message.xnet.router.header,With this block you can connect multiple channels (controllers),このブロックで複数のチャネル(コントローラー)を接続できます
+message.xnet.shiftmessage,<Press Shift>,<シフトを押す>
 message.xnet.wireless_router.gold,This needs an antenna on top to work!,機能するためにはアンテナが必要です！
 message.xnet.wireless_router.header,With this block you can connect multiple channels remotely. Connect this to a normal router using a router cable,このブロックで複数のチャネルをリモートで接続できます。これをルーターケーブルを使って通常のルーターに接続してください
-xnet.block.label,Block: ,ブロック: 
+xnet.block.label,Block: ,ブロック:
 xnet.cancel.label,Cancel,キャンセル
 xnet.channel.copy.tooltip,Copy this channel to|the clipboard,このチャネルをコピー|クリップボードへ
 xnet.channel.edit.tooltip.exist,Edit channel %d|Type: %s,チャネル %d を編集|タイプ: %s
@@ -73,18 +73,18 @@ xnet.channel.paste.tooltip,Create a new channel|from the clipboard,新しいチ�
 xnet.channel.remove.tooltip,Remove this channel,このチャネルを削除
 xnet.connector.already.advanced,This connector is already advanced!,このコネクタは既に応用型です！
 xnet.connector.copy.tooltip,Copy this connector|to the clipboard,このコネクタをコピー|クリップボードへ
-xnet.connector.label,Connector: ,コネクタ: 
+xnet.connector.label,Connector: ,コネクタ:
 xnet.connector.name.tooltip,Set the name of this connector,このコネクタの名前を設定
 xnet.connector.paste.tooltip,Create a new connector|from the clipboard,新しいコネクタを作成|クリップボードから
 xnet.connector.remove.tooltip,Remove this connector,このコネクタを削除
-xnet.connector.upgrade,Sneak right click this on a|normal connector to upgrade it|to an advanced connector,Shift+右クリックでこれを|通常のコネクタに使用して|応用型コネクタにアップグレード
+xnet.connector.upgrade,Sneak right click this on a|normal connector to upgrade it|to an advanced connector,シフト+右クリックでこれを|通常のコネクタに使用して|応用型コネクタにアップグレード
 xnet.connector.use.it.to.upgrade,Use this item on a connector to upgrade it!,コネクタをアップグレードするために、このアイテムを使用してください！
 xnet.connector.was.upgraded,Connector was upgraded,コネクタがアップグレードされました
 xnet.create.label,Create,作成
-xnet.directions.label,Directions: ,方向: 
+xnet.directions.label,Directions: ,方向:
 xnet.double.click.highlight,(doubleclick to highlight),(ダブルクリックでハイライト)
-xnet.energy.minmax.tooltip.formatted,Disable %s if energy|is too %s,%s を無効化（エネルギーが|多すぎる場合）
-xnet.energy.rate.tooltip.formatted,Max energy %s rate|(limited to %d per tick),最大エネルギー %s レート|（1ティックあたり %d に制限）
+xnet.energy.minmax.tooltip.formatted,Disable %s if energy|is too %s,
+xnet.energy.rate.tooltip.formatted,Max energy %s rate|(limited to %d per tick),最大エネルギー %s レート|(1ティックあたり %d に制限)
 xnet.enum.channelmode.priority,Priority,プライオリティ
 xnet.enum.channelmode.priority.tooltip,Item distribution mode|Current:Priority,アイテム配分モード|現在:プライオリティ
 xnet.enum.channelmode.roundrobin,Roundrobin,ラウンドロビン
@@ -136,16 +136,16 @@ xnet.error.large.copy,Clipboard too large!,クリップボードが大きすぎ�
 xnet.error.nothing.selected,Nothing selected!,何も選択されていません！
 xnet.error.read.copy,Error reading from clipboard!,クリップボードからの読み取りエラー！
 xnet.ext.ending,extraction,抽出
-xnet.facade.current.mimic.formatted,Facade is now mimicking %s,ファサードが %s をミミック（模倣）しています
+xnet.facade.current.mimic.formatted,Facade is now mimicking %s,ファサードが %s をミミック(模倣)しています
 xnet.filter.label,Filter,フィルター
-xnet.fluid.minmax.tooltip.formatted,Disable %s if fluid|is too %s,%s を無効化（流体が|多すぎる場合）
-xnet.fluid.rate.tooltip.formatted,Fluid %s rate|(max %d mb),流体 %s レート|（最大 %d mB）
+xnet.fluid.minmax.tooltip.formatted,Disable %s if fluid|is too %s,
+xnet.fluid.rate.tooltip.formatted,Fluid %s rate|(max %d mb),流体 %s レート|(最大 %d mB)
 xnet.high.format,high,高い
 xnet.index.label,Index,インデックス
 xnet.ins.ending,insertion,挿入
 xnet.item.blacklist.label,BL,ブラックリスト
 xnet.item.blacklist.tooltip,Enable blacklist mode,ブラックリストモードを有効化
-xnet.item.count.tooltip.formatted,Disable %s if destination|inventory has too %s items,%s を無効化（宛先|インベントリのアイテム数が多い場合）
+xnet.item.count.tooltip.formatted,Disable %s if destination|inventory has too %s items,
 xnet.item.ext.count.tooltip,Amount of items to extract|per operation,操作ごとに抽出するアイテム数
 xnet.item.filter.index.tooltip,Filter Index,フィルターインデックス
 xnet.item.filter.off,<Off>,<オフ>
@@ -156,7 +156,7 @@ xnet.item.nbt.tooltip,NBT matching,NBTマッチング
 xnet.item.tags.label,Tags,タグ
 xnet.item.tags.tooltip,Tag matching,タグマッチング
 xnet.logic.counter.filter.tooltip,Count inputs before output impulse,出力インパルスの前に入力をカウント
-xnet.logic.impulseDuration.tooltip,Length of impulse in ticks,インパルスの長さ（ティック）
+xnet.logic.impulseDuration.tooltip,Length of impulse in ticks,インパルスの長さ(ティック)
 xnet.logic.impulseMode.label,Impulse mode:,インパルスモード:
 xnet.logic.impulseMode.tooltip,"If enabled, connector will output a short impulse|instead of a constant signal",有効な場合、コネクタは定数信号の代わりに短いインパルスを出力します
 xnet.logic.input.channel.tooltip,Input RS channel,入力RSチャネル
@@ -172,10 +172,10 @@ xnet.message.block.highlighted,The block is now highlighted,ブロックがハ�
 xnet.message.channel.copied,Copied channel,チャネルをコピーしました
 xnet.message.confirm.remove.channel.formatted,Really remove channel %d?,チャネル %d を削除してもよろしいですか？
 xnet.min,Min,最小
-xnet.name.label,Name: ,名前: 
+xnet.name.label,Name: ,名前:
 xnet.paste.label,Paste,貼り付け
 xnet.pos.label,Pos,位置
-xnet.positon.label,Position: ,位置: 
+xnet.positon.label,Position: ,位置:
 xnet.priority.label,Pri,優先度
 xnet.priority.tooltip,Insertion priority,挿入優先度
 xnet.rate.label,Rate,レート

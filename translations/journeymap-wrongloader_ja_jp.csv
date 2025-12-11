@@ -17,11 +17,11 @@ jm.advanced.cache_villagers.tooltip,Duration (in milliseconds) radar data is cac
 jm.advanced.checkupdates,Check for Mod Updates,JourneyMapの更新を確認する
 jm.advanced.checkupdates.tooltip,Turning this off means you won't be notified when there's a new version of JourneyMap available.,OFFにすると、新しいバージョンがリリースされても通知されなくなります。
 jm.advanced.chunk_caching,Chunk Data Caching,チャンクデータキャッシング
-jm.advanced.chunk_caching.tooltip,"Enables or disables chunk caching, when disabled teleporting or creating waypoints outside of your render range will default to minecraft sealevel y=64.",チャンクキャッシングを有効または無効にします。無効にすると、レンダリング範囲外のテレポートまたはウェイポイント作成時、デフォルトでMinecraftのシーレベル（y=64）が使用されます。
+jm.advanced.chunk_caching.tooltip,"Enables or disables chunk caching, when disabled teleporting or creating waypoints outside of your render range will default to minecraft sealevel y=64.",チャンクキャッシングを有効または無効にします。無効にすると、レンダリング範囲外のテレポートまたはウェイポイント作成時、デフォルトでMinecraftのシーレベル(y=64)が使用されます。
 jm.advanced.gl_error_check,GL Error Checking,GLエラーチェック
 jm.advanced.gl_error_check.tooltip,"Enables GL Error checking, enabling can decrease performance, restart required after changing this value.",GLエラーチェックを有効にします。有効にするとパフォーマンスが低下する可能性があります。この値を変更した後は再起動が必要です。
 jm.advanced.loglevel,Logging Level,ログとして記録する情報
-jm.advanced.loglevel.tooltip,Caution! Some logging levels will hurt performance. Keep the default unless otherwise instructed.,注意! ログの情報量を多くすればパフォーマンスに影響が出ます。 特に理由のない場合はデフォルトのままにしてください。
+jm.advanced.loglevel.tooltip,Caution! Some logging levels will hurt performance. Keep the default unless otherwise instructed.,注意! ログの情報量を多くすればパフォーマンスに影響が出ます。特に理由のない場合はデフォルトのままにしてください。
 jm.advanced.mob_icon_fade,Mob Icon Fade,モブアイコンフェード
 jm.advanced.mob_icon_fade.tooltip,Enable/Disable Mob Icons from fading based on vertical distance.,モブアイコンを垂直距離に基づいてフェードするかどうかを有効/無効にします。
 jm.advanced.player_icon_fade,Player Icon Fade,プレイヤーアイコンフェード
@@ -127,7 +127,7 @@ jm.colorpalette.villager_dot,Villager Dot,村人ドット
 jm.colorpalette.villager_label,Villager Label,村人ラベル
 jm.colorpalette.world,World,ワールド
 jm.common.action_bar.waypoint_rendering.message,JourneyMap: Waypoint rendering %1$s§f press [%2$s] to %3$s.,JourneyMap: ウェイポイントレンダリング %1$s§f [%2$s] を押して %3$s。
-jm.common.action_bar.waypoint_rendering.toggle.disabled,§4Disabled,§4無効
+jm.common.action_bar.waypoint_rendering.toggle.disabled,§4Disabled,無効
 jm.common.action_bar.waypoint_rendering.toggle.enable,§2Enabled,§2有効
 jm.common.action_bar.waypoint_rendering.toggle.opposite.disabled,§edisable§f,§e無効化§f
 jm.common.action_bar.waypoint_rendering.toggle.opposite.enable,§eenable§f,§e有効化§f
@@ -238,7 +238,7 @@ jm.common.font_scale.tooltip,The font scale for labels and text,ボタンとテ�
 jm.common.fullscreen.minimal_mode,Minimal UI,最小UI
 jm.common.fullscreen.minimal_mode.tooltip,Hides a bunch of the buttons to make the UI a bit more minimal.,UIをより最小限に見せるために、多くのボタンを非表示にします。
 jm.common.fullscreen_drag_scale,Drag Scale,ドラッグスケール
-jm.common.fullscreen_drag_scale.tooltip,"Custom drag scale, higher number slows it down. This is useful when your OS does display scaling, primarily OSX retina displays.",カスタムドラッグスケール。数値が大きいほど遅くなります。OSディスプレイスケーリング（主にOSXRetinaディスプレイ）を使用する場合に便利です。
+jm.common.fullscreen_drag_scale.tooltip,"Custom drag scale, higher number slows it down. This is useful when your OS does display scaling, primarily OSX retina displays.",カスタムドラッグスケール。数値が大きいほど遅くなります。OSディスプレイスケーリング(主にOS XRetinaディスプレイ)を使用する場合に便利です。
 jm.common.grid_edit,Edit Grid...,グリッドを編集...
 jm.common.grid_edit.tooltip,Change the appearance of the chunk grid on all maps,全マップのグリッドの表示を設定します
 jm.common.grid_editor,Grid Editor,グリッドエディター
@@ -279,7 +279,7 @@ jm.common.info_slot.movement_speed,Movement Speed,移動速度
 jm.common.info_slot.movement_speed.game,Speed: %1$s blocks/sec,速度: %1$s ブロック/秒
 jm.common.info_slot.movement_speed.tooltip,Displays Movement Speed as Blocks per Second.,移動速度をブロック/秒で表示します。
 jm.common.info_slot.weather,Weather,天気
-jm.common.info_slot.weather.clear,Clear,晴れ
+jm.common.info_slot.weather.clear,Clear,クリア
 jm.common.info_slot.weather.label,Weather: %1$s,天気: %1$s
 jm.common.info_slot.weather.rain,Raining,雨
 jm.common.info_slot.weather.thunder,Thunder Storm,雷雨
@@ -290,9 +290,9 @@ jm.common.location_format,Location,座標の表示形式
 jm.common.location_format.tooltip,Format of how location coordinates are displayed. Note: 'v' stands for vertical chunk.,座標をどのような形式で表示するかを指定します。「V」は高さのスライスの数値です。
 jm.common.location_format_verbose,Verbose Location,座標の記述を細かくする
 jm.common.location_format_verbose.tooltip,"Location shows coordinate names (x,y,z) with the numbers",ミニマップ下などの座標を、「x/y/z」の記号付きで表示します
-jm.common.location_xyvz_label,"x, y (v), z",X、Y（縦）、Z
-jm.common.location_xyvz_plain,"%1$s, %3$s (%4$s), %2$s",%1$s、%3$s（%4$s）、%2$s
-jm.common.location_xyvz_verbose,"x: %1$s, y: %3$s (%4$s), z: %2$s",X: %1$s、Y: %3$s（%4$s）、Z: %2$s
+jm.common.location_xyvz_label,"x, y (v), z",X、Y(縦)、Z
+jm.common.location_xyvz_plain,"%1$s, %3$s (%4$s), %2$s",%1$s、%3$s(%4$s)、%2$s
+jm.common.location_xyvz_verbose,"x: %1$s, y: %3$s (%4$s), z: %2$s",X: %1$s、Y: %3$s(%4$s)、Z: %2$s
 jm.common.location_xyz_label,"x, y, z",X、Y、Z
 jm.common.location_xyz_plain,"%1$s, %3$s, %2$s",%1$s、%3$s、%2$s
 jm.common.location_xyz_verbose,"x: %1$s, y: %3$s, z: %2$s",X: %1$s、Y: %3$s、Z: %2$s
@@ -302,9 +302,9 @@ jm.common.location_xz_verbose,"x: %1$s, z: %2$s",X: %1$s、Z: %2$s
 jm.common.location_xzy_label,"x, z, y",X、Z、Y
 jm.common.location_xzy_plain,"%1$s, %2$s, %3$s",%1$s、%2$s、%3$s
 jm.common.location_xzy_verbose,"x: %1$s, z: %2$s, y: %3$s",X: %1$s、Z: %2$s、Y: %3$s
-jm.common.location_xzyv_label,"x, z, y (v)",X、Z、Y（縦）
-jm.common.location_xzyv_plain,"%1$s, %2$s, %3$s (%4$s)",%1$s、%2$s、%3$s（%4$s）
-jm.common.location_xzyv_verbose,"x: %1$s, z: %2$s, y: %3$s (%4$s)",X: %1$s、Z: %2$s、Y: %3$s（%4$s）
+jm.common.location_xzyv_label,"x, z, y (v)",X、Z、Y(縦)
+jm.common.location_xzyv_plain,"%1$s, %2$s, %3$s (%4$s)",%1$s、%2$s、%3$s(%4$s)
+jm.common.location_xzyv_verbose,"x: %1$s, z: %2$s, y: %3$s (%4$s)",X: %1$s、Z: %2$s、Y: %3$s(%4$s)
 jm.common.log_warning,Log level %1$s will slow down the game. Do not use for normal gameplay!,ログレベル「%1$s」はゲームの動作を著しく重くします。通常のプレイでは使わないで下さい!
 jm.common.map.render_only_player_chunk,Map only Player Chunk,プレイヤーチャンクのみマップ
 jm.common.map.render_only_player_chunk.tooltip,"This setting only maps the chunk the player is currently standing it.
@@ -324,11 +324,11 @@ jm.common.map_filter.nether,Nether Map Filter,ネザーマップフィルター
 jm.common.map_filter.nether.tooltip,Apply the filter to the nether cave map.,ネザーケーブマップにフィルターを適用します。
 jm.common.map_filter.night,Night Map Filter,夜間マップフィルター
 jm.common.map_filter.night.tooltip,Apply the filter to the night map.,夜間マップにフィルターを適用します。
-jm.common.map_filter.sepia_1,Sepia Variant 1,セピア バリアント 1
+jm.common.map_filter.sepia_1,Sepia Variant 1,セピアバリアント 1
 jm.common.map_filter.sepia_1.tooltip,Sepia color filter,セピアカラーフィルター
-jm.common.map_filter.sepia_2,Sepia Variant 2,セピア バリアント 2
+jm.common.map_filter.sepia_2,Sepia Variant 2,セピアバリアント 2
 jm.common.map_filter.sepia_2.tooltip,Sepia color filter,セピアカラーフィルター
-jm.common.map_filter.sepia_3,Sepia Variant 3,セピア バリアント 3
+jm.common.map_filter.sepia_3,Sepia Variant 3,セピアバリアント 3
 jm.common.map_filter.sepia_3.tooltip,Sepia color filter,セピアカラーフィルター
 jm.common.map_filter.topo,Topography Map Filter,地形図マップフィルター
 jm.common.map_filter.topo.tooltip,Apply the filter to the Topography map.,地形図マップにフィルターを適用します。
@@ -392,7 +392,7 @@ jm.common.minimap_behind_screens.tooltip,Allow Minimap to render behind screens.
 jm.common.minimap_options.title,Minimap Position,ミニマップ位置
 jm.common.minimap_options.title_text,Drag with Mouse or Arrow Keys to move selected item.,マウスまたは矢印キーをドラッグして、選択アイテムを移動します。
 jm.common.minimap_position.button,Position,位置
-jm.common.minimap_position.button.tooltip,Click to EditMinimap and Effect Icon Locations,クリックしてミニマップとエフェクト アイコンの位置を編集
+jm.common.minimap_position.button.tooltip,Click to EditMinimap and Effect Icon Locations,クリックしてミニマップとエフェクトアイコンの位置を編集
 jm.common.mipmap_levels,Zoom Mipmap Levels,ズームミップマップレベル
 jm.common.mipmap_levels.tooltip,"The levels of mipmaps to generate for zooming out on the map. Increasing will create higher quality zoomed out images, but will use more memory. This is set to 0 for Intel GPUs",地図をズームアウトする際に生成するミップマップのレベル。増やすと高品質なズームアウト画像が生成されますが、メモリを消費します。Intel GPUではデフォルトで0に設定されています
 jm.common.mob_icon_set,Mob Icons,Mobのアイコン
@@ -451,8 +451,8 @@ jm.common.renderstats_debug_cave,Caves: %1$s (%2$s) + %3$s (%4$s) = %5$s chunks 
 jm.common.renderstats_debug_cave_simple,Caves: %1$s = %2$s chunks in %3$sms (avg %4$sms),洞窟: %1$s = %2$s チャンク が %3$s ミリ秒かけて更新されています(平均 %4$s ミリ秒)
 jm.common.renderstats_debug_surface,Surface: %1$s (%2$s) + %3$s (%4$s) = %5$s chunks in %6$sms (avg %7$sms),地表: %1$s (%2$s) + %3$s (%4$s) = %5$s チャンクが %6$s ミリ秒かけて更新されています (平均 %7$s ミリ秒)
 jm.common.renderstats_debug_surface_simple,Surface: %1$s = %2$s chunks in %3$sms (avg %4$sms),地表: %1$s = %2$s チャンクが %3$s ミリ秒かけて更新されています (平均 %4$s ミリ秒)
-jm.common.renderstats_debug_topo,Topo: %1$s (%2$s) + %3$s (%4$s) = %5$s chunks in %6$sms (avg %7$sms),地形図: %1$s（%2$s）+ %3$s（%4$s）= %5$s チャンク（%6$sms 内、平均 %7$sms）
-jm.common.renderstats_debug_topo_simple,Topo: %1$s = %2$s chunks in %3$sms (avg %4$sms),地形図: %1$s = %2$s チャンク（%3$sms 内、平均 %4$sms）
+jm.common.renderstats_debug_topo,Topo: %1$s (%2$s) + %3$s (%4$s) = %5$s chunks in %6$sms (avg %7$sms),地形図: %1$s(%2$s)+ %3$s(%4$s)= %5$s チャンク(%6$sms 内、平均 %7$sms)
+jm.common.renderstats_debug_topo_simple,Topo: %1$s = %2$s chunks in %3$sms (avg %4$sms),地形図: %1$s = %2$s チャンク(%3$sms 内、平均 %4$sms)
 jm.common.reset,Reset,リセット
 jm.common.revealshape,Reveal Shape,マップを生成する範囲の形
 jm.common.revealshape.tooltip,Shape of the map area revealed around you. Circle reveals fewer chunks than Square and will improve performance.,プレイヤーの周囲の、マップを描画していく範囲の形です。円形のほうが動作が軽くなります。
@@ -478,7 +478,7 @@ jm.common.show_entity_names,Show Entity Names,エンティティ名を表示
 jm.common.show_entity_names.tooltip,"Show names of pets, NPCs, etc. on the map.",ペット、NPC等の名前をマップに表示します
 jm.common.show_grid,Show Grid,グリッドを表示
 jm.common.show_grid.tooltip,Show a grid of chunk boundaries on the map,チャンクの境界線のグリッドを表示します。
-jm.common.show_grid_shift.tooltip,Hold Shift to edit,Shiftキーを押しながらクリックしてグリッドの設定へ
+jm.common.show_grid_shift.tooltip,Hold Shift to edit,シフトキーを押しながらクリックしてグリッドの設定へ
 jm.common.show_hostile_names,Show Hostile Mob Names,敵対的なモブの名前を表示
 jm.common.show_hostile_names.tooltip,Show names of hostile mobs on the map.,敵対的なモブの名前をマップに表示します
 jm.common.show_keys,Show Keys,キーを表示
@@ -532,7 +532,7 @@ jm.common.submit,Submit,送信
 jm.common.system_time_format,System Time Format,システム時間形式
 jm.common.system_time_format.tooltip,"""Time format for the InfoSlot:System Time""",InfoSlot:System TimeのTime format
 jm.common.tile_display_quality,High Display Quality,細かい描画
-jm.common.tile_display_quality.tooltip,"Recommended for use with ""My Heading"" Minimap rotation. Uncheck to improve zoom performance and memory usage. Only affects how a map tile displays, not how it is saved.",ミニマップの回転を「プレイヤーが向いている方向」にすることをおすすめします。チェックを外すとズームの速度やメモリの使用量が改善されます。 既にセーブされているマップに影響はありません。
+jm.common.tile_display_quality.tooltip,"Recommended for use with ""My Heading"" Minimap rotation. Uncheck to improve zoom performance and memory usage. Only affects how a map tile displays, not how it is saved.",ミニマップの回転を「プレイヤーが向いている方向」にすることをおすすめします。チェックを外すとズームの速度やメモリの使用量が改善されます。既にセーブされているマップに影響はありません。
 jm.common.time_format,Info Slot Game Time Format,Info Slot ゲーム時間形式
 jm.common.time_format.tooltip,Time format for the InfoSlots for game time.,ゲーム時間のInfoSlotsの時間形式。
 jm.common.topo.height.max,Custom Max Topo Height,カスタム最大地形高さ
@@ -546,7 +546,7 @@ jm.common.topo.height.max_synced.tooltip,"Currently Synced to the current world'
 
 %1$s"
 jm.common.ui_theme,UI Theme,UIのテーマ
-jm.common.ui_theme.tooltip,The Theme used to display UI controls in the Fullscreen Map and to style the MiniMap,テーマでミニマップや全画面マップの見た目を変更することができます
+jm.common.ui_theme.tooltip,The Theme used to display UI controls in the Fullscreen Map and to style the MiniMap,テーマでミニマップや全画面マップの見た目を変更できます
 jm.common.ui_theme_applied,UI Theme applied. Go to §bOptions > MiniMap Preset #§f to customize the MiniMap appearance.,UIテーマは当てはまりました。§bOptionsに行くMiniMap外観をカスタマイズするMiniMapがプリセットされました#§f。
 jm.common.ui_theme_author,Author: §b%1$s§f,作者: §b%1$s§f
 jm.common.ui_theme_name,Name: §b%1$s§f,テーマ名: §b%1$s§f
@@ -582,9 +582,9 @@ jm.config.category.fullmap.tooltip,Configure the appearance of the Fullscreen Ma
 jm.config.category.map_filters,Map Filters,マップフィルター
 jm.config.category.map_filters.tooltip,Configure Map Color Filters.,マップ色フィルターを設定します。
 jm.config.category.minimap,MiniMap Preset 1,ミニマッププリセット 1
-jm.config.category.minimap.tooltip,Configure the appearance of MiniMap Preset 1. (Switch between presets in-game using the '\' key),ミニマッププリセット 1の見た目を設定します。 ('￥'キーでプリセットを切り替えられます)
+jm.config.category.minimap.tooltip,Configure the appearance of MiniMap Preset 1. (Switch between presets in-game using the '\' key),ミニマッププリセット 1の見た目を設定します。('￥'キーでプリセットを切り替えられます)
 jm.config.category.minimap2,MiniMap Preset 2,ミニマッププリセット 2
-jm.config.category.minimap2.tooltip,Configure the appearance of MiniMap Preset 2. (Switch between presets in-game using the '\' key),ミニマッププリセット 2の見た目を変更します。 ('￥'キーでプリセットを切り替えられます)
+jm.config.category.minimap2.tooltip,Configure the appearance of MiniMap Preset 2. (Switch between presets in-game using the '\' key),ミニマッププリセット 2の見た目を変更します。('￥'キーでプリセットを切り替えられます)
 jm.config.category.minimap_position,Minimap Position Options,ミニマップ位置オプション
 jm.config.category.minimap_position.tooltip,Configure how the Minimap and Effects are located and rendered.,ミニマップとエフェクトの位置とレンダリング方法を設定します。
 jm.config.category.waypoint,Waypoints,ウェイポイント
@@ -607,7 +607,7 @@ jm.config.file_header_5,"For more information, go to: %1$s",詳しい情報は�
 jm.config.reset,Reset,すべての設定をリセット
 jm.config.reset.tooltip,Reset all options in this section back to their default values,このセクションの全ての設定を初期値にリセットします
 jm.config.tooltip_format,%1$s%2$s,
-jm.error.compatability,Incompatability error running %1$s for Forge %2$s. Ensure your version of Forge is compatible.,Forge %2$s で、 %1$s の動作に問題が発生しました。JourneyMapに対応している正しいバージョンのForgeを使って下さい。
+jm.error.compatability,Incompatability error running %1$s for Forge %2$s. Ensure your version of Forge is compatible.,Forge %2$s で、%1$s の動作に問題が発生しました。JourneyMapに対応している正しいバージョンのForgeを使って下さい。
 jm.error.java6,JourneyMap requires Java 7 or Java 8. Update your launcher profile to use a newer version of Java.,JourneyMapの動作にはJava 7 もしくは Java 8が必要です。ランチャーでProfileを編集し、新バージョンのJavaを使って下さい。
 jm.feature.fairplay,FairPlay,フェアプレイ版
 jm.feature.unlimited,Unlimited,無制限版
@@ -619,7 +619,7 @@ jm.fullscreen.hotkeys_south,Pan South (16 Blocks),南にスクロール (16 ブ�
 jm.fullscreen.hotkeys_title,Fullscreen Map Hot Keys,全画面マップのショートカットキー
 jm.fullscreen.hotkeys_waypoint,Create/Edit Waypoint,ウェイポイントの作成/編集
 jm.fullscreen.hotkeys_west,Pan West (16 Blocks),西にスクロール (16 ブロック分)
-jm.fullscreen.map_biome,Biome,フルスクリーン バイオーム
+jm.fullscreen.map_biome,Biome,フルスクリーンバイオーム
 jm.fullscreen.map_cave_layers,Cave Layers,洞窟レイヤー
 jm.fullscreen.map_cave_layers.button,Vertical Chunk :,垂直チャンク :
 jm.fullscreen.map_cave_layers.button.tooltip,y:%1$s - y:%2$s,
@@ -637,8 +637,8 @@ jm.fullscreen.show_theme_button.tooltip,Shows the theme selection button on the 
 jm.fullscreen.title,Full-screen Map,全画面マップ
 jm.fullscreen.zoom_in,Zoom In,ズームイン
 jm.fullscreen.zoom_out,Zoom Out,ズームアウト
-jm.hud.effects.anchor,Anchor Effect Icons,エフェクト アイコンを固定
-jm.hud.effects.anchor.tooltip,Anchors the effect icons to the minimap.,エフェクト アイコンをミニマップに固定します。
+jm.hud.effects.anchor,Anchor Effect Icons,エフェクトアイコンを固定
+jm.hud.effects.anchor.tooltip,Anchors the effect icons to the minimap.,エフェクトアイコンをミニマップに固定します。
 jm.hud.effects.enable,Move Effect Icons,エフェクトアイコンを移動
 jm.hud.effects.enable.tooltip,Enables moving the potion effects away from the minimap.,ポーション エフェクトをミニマップから離すことができます。
 jm.hud.effects.hide,Hide Effect Icons,エフェクトアイコンを非表示
@@ -690,7 +690,7 @@ jm.minimap.info_slot.font_scale.tooltip,The font scale used for info slots.,情�
 jm.minimap.info_slot.top,Top,上部
 jm.minimap.info_slot.top.tooltip,Slot goes on top of the minimap.,スロットはミニマップの上部に配置されます
 jm.minimap.map_type,Map Type,マップ タイプ
-jm.minimap.map_type.tooltip,"Locks the Map Type to this value.(nether is always cave, but can force slice when set to underground)",マップタイプをこの値にロックします（ネザーは常に洞窟ですが、地下に設定されている場合はスライスを強制できます）
+jm.minimap.map_type.tooltip,"Locks the Map Type to this value.(nether is always cave, but can force slice when set to underground)",マップタイプをこの値にロックします(ネザーは常に洞窟ですが、地下に設定されている場合はスライスを強制できます)
 jm.minimap.mob_display,Mob Display,モブ表示
 jm.minimap.mob_display.tooltip,Show mobs as icons or colored dots.,モブをアイコンまたは色付き点として表示
 jm.minimap.mob_display_scale,Mob Display Scale,モブ表示スケール
@@ -764,11 +764,11 @@ jm.minimap.show_reticle.tooltip,Show a reticle (crosshairs) on the MiniMap,ミ�
 jm.minimap.show_waypointlabels,Show Waypoint Labels,ウェイポイントの名前を表示
 jm.minimap.show_waypointlabels.tooltip,Show waypoint labels on the map,ミニマップにウェイポイントの名前を表示します。
 jm.minimap.size,Size,Minimap Size
-jm.minimap.size.tooltip,Adjust the size of the MiniMap (as percent of window size). Sizes over 768px may hurt performance.,The width and height of the minimap in pixels.
+jm.minimap.size.tooltip,Adjust the size of the MiniMap (as percent of window size). Sizes over 768px may hurt performance.,The width and heightのミニmap in pixels.
 jm.minimap.terrain_alpha,Map Opacity,ミニマップの透明度
 jm.minimap.terrain_alpha.tooltip,Adjust how opaque the map is (as a percentage),パーセントで透明度を指定します。
 jm.minimap.terrain_background_alpha,Map Background Opacity,地形背景不透明度
-jm.minimap.terrain_background_alpha.tooltip,Adjust how opaque the map background is (as a percentage),マップ背景の不透明度を調整（パーセンテージ）
+jm.minimap.terrain_background_alpha.tooltip,Adjust how opaque the map background is (as a percentage),マップ背景の不透明度を調整(パーセンテージ)
 jm.minimap.texture_size,Small Icons,小さいアイコンを使う
 jm.minimap.texture_size.tooltip,Use small icons on the map,マップ上のアイコンを小さくします
 jm.minimap.title,Mini Map,ミニマップの設定
@@ -777,7 +777,7 @@ jm.minimap.waypointicon_scale.tooltip,The scale for waypoint icons,ウェイポ�
 jm.minimap.waypointlabel_scale,Waypoint Label Scale,ウェイポイントラベルスケール
 jm.minimap.waypointlabel_scale.tooltip,The font scale for waypoint labels,ウェイポイントラベルのスケール
 jm.mod.addon.pokemon.options.category,Pokemon Options,ポケモンオプション
-jm.mod.addon.pokemon.options.category.tooltip,"Options for Pokemon mods that are provided by JourneyMap, not by the Pokemon mod.",JourneyMapが提供するポケモンMod向けのオプション（ポケモンMod自体は除く）
+jm.mod.addon.pokemon.options.category.tooltip,"Options for Pokemon mods that are provided by JourneyMap, not by the Pokemon mod.",JourneyMapが提供するポケモンMod向けのオプション(ポケモンMod自体は除く)
 jm.mod.addon.pokemon.options.show_pokemon,Show Pokemon,ポケモンを表示
 jm.mod.addon.pokemon.options.show_pokemon.tooltip,Show Pokemon on the map. This option will not work if the server has disables animals,ポケモンをマップに表示
 jm.options.multiplayer.button_label,Multiplayer,マルチプレイ
@@ -785,7 +785,7 @@ jm.options.multiplayer.category.debug,Debug Options,デバッグオプション
 jm.options.multiplayer.category.debug.tooltip,"Server Admin only debug options, these are user based.",デバッグオプション
 jm.options.multiplayer.category.radar,Radar Options,レーダーオプション
 jm.options.multiplayer.category.radar.tooltip,"Control how others see you on the map. Note, these options only work when expanded radar is enabled.",マップ上での見え方を制御します。注: これらのオプションは、拡張レーダーが有効な場合のみ機能します。
-jm.options.multiplayer.loaded_chunks.block,Display Loaded Chunks: Block Ticking,読み込まれたチャンクを表示: ブロック ティッキング
+jm.options.multiplayer.loaded_chunks.block,Display Loaded Chunks: Block Ticking,積み込まれたチャンクを表示: ブロック ティッキング
 jm.options.multiplayer.loaded_chunks.block.tooltip,Displays loaded chunks with the BLOCK_TICKING status. These chunks are ticking.,BLOCK_TICKING ステータスで読み込まれたチャンクを表示します。これらのチャンクはティッキング中です。
 jm.options.multiplayer.loaded_chunks.entity,Display Loaded Chunks: Entity Ticking,読み込まれたチャンクを表示: エンティティ ティッキング
 jm.options.multiplayer.loaded_chunks.entity.tooltip,Displays loaded chunks with the ENTITY_TICKING status. These chunks are ticking.,ENTITY_TICKING ステータスで読み込まれたチャンクを表示します。これらのチャンクはティッキング中です。
@@ -801,11 +801,11 @@ jm.options.multiplayer.title,Multiplayer Options,マルチプレイヤーオプ�
 jm.server.allow_death_points,Allow Death Waypoints,死亡ウェイポイントを許可
 jm.server.allow_death_points.tooltip,Whether to allow Death Waypoints to be created on user death.,ユーザーの死亡時に死亡ウェイポイントの作成を許可するかどうか
 jm.server.allow_in_game_beacons,Allow Waypoint Beacons,ウェイポイント ビーコンを許可
-jm.server.allow_in_game_beacons.tooltip,Whether to allow rendering of In-Game beacons to render. (does not disable map waypoints),ゲーム内ビーコンのレンダリングを許可するかどうか（マップウェイポイントは無効になりません）
+jm.server.allow_in_game_beacons.tooltip,Whether to allow rendering of In-Game beacons to render. (does not disable map waypoints),ゲーム内ビーコンのレンダリングを許可するかどうか(マップウェイポイントは無効になりません)
 jm.server.allow_journeymap,Allow Journeymap,JourneyMap を許可
 jm.server.allow_journeymap.tooltip,Whether to allow journeymap to function for non-ops.,非OPユーザーがJourneyMapを使用できるかどうか
 jm.server.allow_right_click_teleport,Allow Right Click Teleport,右クリック テレポートを許可
-jm.server.allow_right_click_teleport.tooltip,Allows right click teleporting on the map when waypoint teleport is enabled. This only works when waypoint teleporting is enabled.,ウェイポイント テレポートが有効の場合、マップ上で右クリック テレポートを許可します。これはウェイポイント テレポートが有効な場合のみ機能します。
+jm.server.allow_right_click_teleport.tooltip,Allows right click teleporting on the map when waypoint teleport is enabled. This only works when waypoint teleporting is enabled.,ウェイポイントテレポートが有効の場合、マップ上で右クリック テレポートを許可します。これはウェイポイントテレポートが有効な場合のみ機能します。
 jm.server.allow_view_server_prop,Allow Server Admin View,サーバー管理者ビューを許可
 jm.server.allow_view_server_prop.tooltip,Whether non op users can view server admin screen in read-only mode.,非OPユーザーがサーバー管理画面を読み取り専用モードで表示できるかどうか
 jm.server.allow_waypoints,Allow Waypoints,ウェイポイントを許可
@@ -822,7 +822,7 @@ jm.server.cross_dim_tp.tooltip,Enable Cross Dimension Waypoint teleporting for n
 jm.server.edit.button.close,Close,閉じる
 jm.server.edit.chkbox.enable,Enable,スキップ
 jm.server.edit.chkbox.enable.tooltip,[Enable/Disable]: Enabling this dimension will override the global properties for this dimension.,スキップ
-jm.server.edit.chkbox.teleport,Waypoint Teleporting,ウェイポイント テレポート
+jm.server.edit.chkbox.teleport,Waypoint Teleporting,ウェイポイントテレポート
 jm.server.edit.chkbox.teleport.tooltip,"[Enable/Disable]: Allows or prevents teleport teleporting via waypoint manager.
 [Enable/Disable]: If [disabled] will prevent teleporting to, from, and within this dimension.
 If [enabled] will allow teleporting within this dimension and to dimensions with teleport [enabled].",[有効/無効]: ウェイポイントマネージャー経由のテレポートを許可または防止します。[無効]に設定するとこのディメンション内およびディメンション間のテレポートを防止します。[有効]に設定するとこのディメンション内およびテレポート[有効]設定されているディメンションへのテレポートが許可されます
@@ -830,7 +830,7 @@ jm.server.edit.chkbox.world.id,World ID,ワールド ID
 jm.server.edit.chkbox.world.id.tooltip,"[Enable/Disable]: Enabling will change the save directory for this servers mapping data.
 The primary use is to prevent maps and settings from being over-written when using a multi-world setup and when users do not give servers unique names.
 WARNING: If [disabled] and then [enabling] on an active server will reset all user mapping data.",[有効/無効]: 有効にするとこのサーバーのマッピングデータの保存ディレクトリが変更されます。主な用途はマルチワールドセットアップの使用時およびユーザーがサーバーに一意の名前を付けないときにマップと設定が上書きされるのを防ぐことです。警告: [無効]の場合、アクティブなサーバーで[有効]にするとすべてのユーザーマッピングデータがリセットされます
-jm.server.edit.fullscreen_server_biomes,Fullscreen Biomes,フルスクリーン バイオーム
+jm.server.edit.fullscreen_server_biomes,Fullscreen Biomes,フルスクリーンバイオーム
 jm.server.edit.fullscreen_server_biomes.tooltip,"Lets the user mouse over anywhere on the fullscreen to view biomes, works like single-player.",フルスクリーンマップ内のどこにマウスを合わせてもバイオームを表示できます。シングルプレイと同様に機能します。
 jm.server.edit.hide_ops,Hide Ops,Op を非表示
 jm.server.edit.hide_ops.tooltip,Hide Ops on radar when Expanded Radar is enabled.,拡大レーダーが有効な場合、レーダーからOpを非表示にします。
@@ -874,7 +874,7 @@ Op: Fully disables radar for everyone but OP users, check boxes work for Ops.
 None: Radar is disabled for everyone.","全員: レーダーはすべてのプレイヤーで機能します。個別のチェックボックスで特定項目を無効にできます。
 Op: Op以外のすべてのプレイヤーのレーダーを完全に無効にします。チェックボックスはOp向けに機能します。
 なし: すべてのプレイヤーのレーダーが無効です。"
-jm.server.edit.slider.update,Ticks per player update,プレイヤー更新間隔（ティック）
+jm.server.edit.slider.update,Ticks per player update,プレイヤー更新間隔(ティック)
 jm.server.edit.slider.update.tooltip,How often the server will send player location updates.,サーバーがプレイヤーの位置情報を更新する頻度を設定します。
 jm.server.edit.toggle.base.all,[All]: Everyone can use this feature.,[全員]: すべてのプレイヤーがこの機能を使用できます。
 jm.server.edit.toggle.base.none,[None]: No-One can use this feature it is [disabled].,[なし]: 誰もこの機能を使用できません。[無効]です。
@@ -930,7 +930,7 @@ jm.theme.labelsource.fps.tooltip,Show current Frames Per Second,FPS
 jm.theme.labelsource.gametime,Game Time,ゲーム時間
 jm.theme.labelsource.gametime.day,Daytime,昼間
 jm.theme.labelsource.gametime.night,Night,夜
-jm.theme.labelsource.gametime.real,Game Time with Offset,ゲーム時間（オフセット付き）
+jm.theme.labelsource.gametime.real,Game Time with Offset,ゲーム時間(オフセット付き)
 jm.theme.labelsource.gametime.real.tooltip,"Minecraft Time has a new day starting at 6am, this setting offsets that by 6 hours so it shows a new day starting at midnight.",夜間
 jm.theme.labelsource.gametime.sunrise,Sunrise,日出
 jm.theme.labelsource.gametime.sunset,Sunset,日没
@@ -944,7 +944,7 @@ jm.theme.labelsource.moonphase.day,Day,昼
 jm.theme.labelsource.moonphase.first_quarter,First Quarter,第1四半月
 jm.theme.labelsource.moonphase.full_moon,Full Moon,満月
 jm.theme.labelsource.moonphase.new_moon,New Moon,新月
-jm.theme.labelsource.moonphase.pre,Moon Phase: ,月の満ち欠け: 
+jm.theme.labelsource.moonphase.pre,Moon Phase: ,月の満ち欠け:
 jm.theme.labelsource.moonphase.third_quarter,Third Quarter,下弦月
 jm.theme.labelsource.moonphase.tooltip,Shows the current Moon Phase.,現在の月の満ち欠けを表示します。
 jm.theme.labelsource.moonphase.waning_crescent,Waning Crescent,下弦月前
@@ -1024,7 +1024,7 @@ jm.waypoint.display_management,Waypoint In-Game Display and Management,ウェイ
 jm.waypoint.distance,Distance,距離:
 jm.waypoint.distance_meters,(%1$sm),
 jm.waypoint.double_click_create,Double Click to Create,ダブルクリックして作成
-jm.waypoint.double_click_create.tooltip,Double clicking on the fullscreen map will create a waypoint at location.,フルスクリーン マップをダブルクリックすると、その位置にウェイポイントが作成されます。
+jm.waypoint.double_click_create.tooltip,Double clicking on the fullscreen map will create a waypoint at location.,フルスクリーンマップをダブルクリックすると、その位置にウェイポイントが作成されます。
 jm.waypoint.edit,Edit,ウェイポイントの編集
 jm.waypoint.edit_group.color_override,Color Override,色をオーバーライド
 jm.waypoint.edit_group.color_override.tooltip,Enabling this will force all waypoints in this group to use the group's color. If unchecked waypoints will use their individual color.,有効にするとこのグループのすべてのウェイポイントがグループの色を使用するように強制されます。無効にするとウェイポイントは個別の色を使用します。
@@ -1040,7 +1040,7 @@ jm.waypoint.edit_label,Edit,編集
 jm.waypoint.edit_label.tooltip,Edit Waypoint,ウェイポイントを編集
 jm.waypoint.edit_title,Edit Waypoint,ウェイポイントの編集
 jm.waypoint.editor.button_format,Editor XYZ Button Layout,エディター XYZ ボタンレイアウト
-jm.waypoint.editor.button_format.tooltip,"Select the format for the X, Y, Z buttons in the waypoint editor.",ウェイポイントエディターの X、Y、Z ボタンのフォーマットを選択します。
+jm.waypoint.editor.button_format.tooltip,"Select the format for the X, Y, Z buttons in the waypoint editor.",ウェイポイントエディターのX、Y、Z ボタンのフォーマットを選択します。
 jm.waypoint.editor.coord_layout,Coordinate Layout,座標レイアウト
 jm.waypoint.editor.coord_layout.tooltip,Configure the input type used for waypoint coordinates.,ウェイポイント座標に使用される入力タイプを設定します。
 jm.waypoint.editor.field,Single Field,単一フィールド
@@ -1065,7 +1065,7 @@ jm.waypoint.enable_waypoint,Enable,有効化
 jm.waypoint.enable_waypoints,Enable All,すべて有効化
 jm.waypoint.enable_waypoints.tooltip,Enable only the current visible Waypoints in the list.,リスト内の現在表示されているウェイポイントのみを有効にします。
 jm.waypoint.find,To Map,探す
-jm.waypoint.find.tooltip,Goes to Waypoint on Fullscreen Map,フルスクリーン マップのウェイポイントに移動
+jm.waypoint.find.tooltip,Goes to Waypoint on Fullscreen Map,フルスクリーンマップのウェイポイントに移動
 jm.waypoint.font_scale,Font Scale,文字の大きさ
 jm.waypoint.font_scale.tooltip,The font scale used to display waypoint labels in-game.,ゲーム内のウェイポイントに表示される文字の大きさを設定します。
 jm.waypoint.green_abbreviated,G,緑
@@ -1094,7 +1094,7 @@ jm.waypoint.groups.temp.name,Temp,一時
 jm.waypoint.help_create_ingame,Create/Edit Waypoint (in game),ゲーム内のウェイポイントの作成/編集
 jm.waypoint.help_create_inmap,Create/Edit Waypoint (in map),マップ内のウェイポイントの作成/編集
 jm.waypoint.help_import_rei,Or copy §b%1$s§f to §b%2$s§f and restart Minecraft.,§b%1$s§f を §b%2$s§f にコピーしてマイクラを再起動して下さい。
-jm.waypoint.help_import_rei_title,Import Rei's MiniMap Waypoints,Rei’s minimapのウェイポイントをインポート
+jm.waypoint.help_import_rei_title,Import Rei's MiniMap Waypoints,Rei’s ミニmapのウェイポイントをインポート
 jm.waypoint.help_import_voxel,Or copy §b%1$s§f to §b%2$s§f and restart Minecraft.,§b%1$s§f を §b%2$s§f にコピーしてマイクラを再起動して下さい。
 jm.waypoint.help_import_voxel_title,Import VoxelMap Waypoints,VoxelMapのウェイポイントをインポート
 jm.waypoint.help_manage_ingame,Waypoint Manager (in game),ウェイポイントの管理(ゲーム内)
@@ -1103,14 +1103,14 @@ jm.waypoint.hide_all,Hide All,すべて非表示
 jm.waypoint.icon.select,Waypoint Icon Selection,ウェイポイントアイコン選択
 jm.waypoint.icon.select.tooltip,Select an Icon!,アイコンを選択してください！
 jm.waypoint.ignore_render_distance,Ignore Render Distance,表示距離を無視
-jm.waypoint.ignore_render_distance.tooltip,"Ignore the vanilla render distance setting, enabling this feature is useful when mods that expand beyond visuals vanilla render distance are present.",バニラの表示距離設定を無視します。バニラの表示距離を超える視覚的拡張を行うModが存在する場合、この機能を有効にすると便利です。
-jm.waypoint.import_rei_errors,Imported %1$s waypoints from Rei's MiniMap with %2$s errors. See log for details.,Rei’s minimapから %1$s ウェイポイントをインポートしましたが %2$s エラーが発生しました。 ログで詳細を確認して下さい。
-jm.waypoint.import_rei_failure,No Rei's MiniMap waypoints were imported. See journeymap.log for details.,Rei’s minimapからインポートしたウェイポイントが見つかりません。journeymap.logで詳細を確認して下さい。
-jm.waypoint.import_rei_file_error,Could not import Rei's MiniMap waypoint file: %1$s,Rei’s minimapのウェイポイントのファイルをインポートできませんでした: %1$s
-jm.waypoint.import_rei_success,Imported %1$s waypoints from of Rei's Minimap.,Rei’s minimapから %1$s ウェイポイントをインポートしました。
-jm.waypoint.import_rei_version,Your version of Rei's MiniMap is not supported.,あなたのRei’s minimapのバージョンは非対応です。
+jm.waypoint.ignore_render_distance.tooltip,"Ignore the vanilla render distance setting, enabling this feature is useful when mods that expand beyond visuals vanilla render distance are present.",バニラの表示距離設定を無視します。バニラの表示距離を超える視覚的拡張するModが存在する場合、この機能を有効にすると便利です。
+jm.waypoint.import_rei_errors,Imported %1$s waypoints from Rei's MiniMap with %2$s errors. See log for details.,Rei’s ミニmapから %1$s ウェイポイントをインポートしましたが %2$s エラーが発生しました。ログで詳細を確認して下さい。
+jm.waypoint.import_rei_failure,No Rei's MiniMap waypoints were imported. See journeymap.log for details.,Rei’s ミニmapからインポートしたウェイポイントが見つかりません。journeymap.logで詳細を確認して下さい。
+jm.waypoint.import_rei_file_error,Could not import Rei's MiniMap waypoint file: %1$s,Rei’s ミニmapのウェイポイントのファイルをインポートできませんでした: %1$s
+jm.waypoint.import_rei_success,Imported %1$s waypoints from of Rei's Minimap.,Rei’s ミニmapから %1$s ウェイポイントをインポートしました。
+jm.waypoint.import_rei_version,Your version of Rei's MiniMap is not supported.,あなたのRei’s ミニmapのバージョンは非対応です。
 jm.waypoint.import_vox_errors,Imported %1$s waypoints from VoxelMap with %2$s errors. See log for details.,VoxelMapから %1$s ウェイポイントをインポートしましたが、%2$s エラーが発生しました。ログで詳細を確認して下さい。
-jm.waypoint.import_vox_failure,No VoxelMap waypoints were imported. See journeymap.log for details.,VoxelMapからインポートしたウェイポイントが見つかりません。 journeymap.logで詳細を確認して下さい。
+jm.waypoint.import_vox_failure,No VoxelMap waypoints were imported. See journeymap.log for details.,VoxelMapからインポートしたウェイポイントが見つかりません。journeymap.logで詳細を確認して下さい。
 jm.waypoint.import_vox_file_error,Could not import VoxelMap waypoint file: %1$s,VoxelMapのウェイポイントのファイルをインポートできませんでした: %1$s
 jm.waypoint.import_vox_success,Imported %1$s waypoints from VoxelMap.,VoxelMapから %1$s ウェイポイントをインポートしました。
 jm.waypoint.import_vox_version,Your version of VoxelMap is not supported. Please update to:,あなたのVoxelMapのバージョンは非対応です。以下のバージョンにアップデートして下さい:
@@ -1130,7 +1130,7 @@ jm.waypoint.map.render_enabled.tooltip,Disables/Enables rendering of all waypoin
 jm.waypoint.max_distance,Maximum Distance,ウェイポイントを表示する最大の距離
 jm.waypoint.max_distance.tooltip,The maximum distance from you (in blocks/meters) that a waypoint should be displayed. Affects both waypoints on maps and waypoint beacons. Set to 0 for no maximum.,プレイヤーからどれくらいの範囲のウェイポイントを表示するのかをブロックの数で指定します。この設定はマップ上とゲーム内のウェイポイントのビーコン両方に影響します。0にすると限りなくウェイポイントを表示します。
 jm.waypoint.min_distance,Minimum Distance,最小距離
-jm.waypoint.min_distance.tooltip,The minimum distance from you (in blocks/meters) that a waypoint beacon should be displayed. Set to 0 for no minimum.,ウェイポイントビーコンが表示されるあなたからの最小距離（ブロック/メートル）。最小値なしの場合は0に設定します。
+jm.waypoint.min_distance.tooltip,The minimum distance from you (in blocks/meters) that a waypoint beacon should be displayed. Set to 0 for no minimum.,ウェイポイントビーコンが表示されるあなたからの最小距離(ブロック/メートル)。最小値なしの場合は0に設定します。
 jm.waypoint.name,Name,名前
 jm.waypoint.new,New...,新規作成...
 jm.waypoint.new_title,New Waypoint,新しいウェイポイント
@@ -1180,9 +1180,9 @@ jm.waypoint.teleport,Teleport,テレポート
 jm.waypoint.teleport.tooltip,Teleport to Waypoint,ウェイポイントにテレポート
 jm.waypoint.teleport.whole_numbers,Remove Decimals from Teleport,テレポートから小数を削除
 jm.waypoint.teleport.whole_numbers.tooltip,"Some servers do not support teleporting to center of the block, so enabling this option uses whole numbers instead of adding the .5 to the value.",一部のサーバーはブロック中央へのテレポートをサポートしていないため、このオプションを有効にするとvalue に.5を追加する代わりに整数を使用します。
-jm.waypoint.teleport_command,Custom Waypoint Teleport Command,カスタム ウェイポイント テレポート コマンド
+jm.waypoint.teleport_command,Custom Waypoint Teleport Command,カスタム ウェイポイントテレポート コマンド
 jm.waypoint.teleport_command.tooltip,Set the teleport command for your server. Create the custom command for your server with these keys. Player Name:{name} - Waypoint Coordinates:{x} {y} {z} - Target Dimension:{dim} - Waypoint Name: {wpname}.,サーバーのテレポートコマンドを設定します。これらのキーを使用してサーバー用のカスタムコマンドを作成します。プレイヤー名:{name} - ウェイポイント座標:{x} {y} {z} - ターゲットディメンション:{dim} - ウェイポイント名: {wpname}。
-jm.waypoint.temp,Temp: ,一時: 
+jm.waypoint.temp,Temp: ,一時:
 jm.waypoint.temp_waypoint_remove_distance,Temporary Waypoint Remove Distance,一時ウェイポイント削除距離
 jm.waypoint.temp_waypoint_remove_distance.tooltip,The distance from player when temporary waypoints are auto removed.,一時ウェイポイントが自動的に削除されるプレイヤーからの距離。
 jm.waypoint.texture_size,Small Icon,小さいアイコン
@@ -1221,7 +1221,7 @@ jm.webmap.caves_menu_item_title,Show cave/interior map when you are not under sk
 jm.webmap.day_button_text,Day,昼
 jm.webmap.day_button_title,The world map as it appears in daylight.,ワールドマップが昼の状態で表示されます。
 jm.webmap.donate_text,Donate to JourneyMap,JourneyMapに寄付
-jm.webmap.donate_title,Donate to JourneyMap development using Patreon,PatreonでJourneyMapの開発を応援する
+jm.webmap.donate_title,Donate to JourneyMap development using Patreon,パトレオンでJourneyMapの開発を応援する
 jm.webmap.elevation_text,Elevation:,高度:
 jm.webmap.email_sub_text,JourneyMap news Email,JourneyMapのニュースをメールで受け取る
 jm.webmap.email_sub_title,Subscribe to JourneyMap news by Email,JourneyMapのニュースマガジンに登録!
@@ -1269,15 +1269,15 @@ jm.webmap.zoom_slider_name,Zoom,ズーム
 key.journeymap.create_waypoint,Create Waypoint,ウェイポイントを作成
 key.journeymap.day,Show Day Map,昼のマップ
 key.journeymap.fullscreen.disable_buttons,Disable Fullscreen Buttons,フルスクリーン ボタンを無効化
-key.journeymap.fullscreen.east,Pan East (16 Blocks),東へパン（16ブロック）
-key.journeymap.fullscreen.map_zoom,Map Zoom:,フルスクリーン マップ
+key.journeymap.fullscreen.east,Pan East (16 Blocks),東へパン(16ブロック)
+key.journeymap.fullscreen.map_zoom,Map Zoom:,フルスクリーンマップ
 key.journeymap.fullscreen.menu.chat_position,Chat Position,チャット位置
-key.journeymap.fullscreen.north,Pan North (16 Blocks),北へパン（16ブロック）
-key.journeymap.fullscreen.south,Pan South (16 Blocks),南へパン（16ブロック）
-key.journeymap.fullscreen.west,Pan West (16 Blocks),西にパン（16ブロック）
+key.journeymap.fullscreen.north,Pan North (16 Blocks),北へパン(16ブロック)
+key.journeymap.fullscreen.south,Pan South (16 Blocks),南へパン(16ブロック)
+key.journeymap.fullscreen.west,Pan West (16 Blocks),西にパン(16ブロック)
 key.journeymap.fullscreen_actions,Actions Manager,アクションマネージャー
-key.journeymap.fullscreen_chat_position,Chat Position (at cursor),チャット位置（カーソル位置）
-key.journeymap.fullscreen_create_waypoint,Create Waypoint (at cursor),ウェイポイント作成（カーソル位置）
+key.journeymap.fullscreen_chat_position,Chat Position (at cursor),チャット位置(カーソル位置)
+key.journeymap.fullscreen_create_waypoint,Create Waypoint (at cursor),ウェイポイント作成(カーソル位置)
 key.journeymap.fullscreen_follow_player,Follow Player,プレイヤーをフォロー
 key.journeymap.fullscreen_options,Options Manager,オプションマネージャー
 key.journeymap.fullscreen_waypoints,Waypoint Manager,ウェイポイントマネージャー

@@ -21,7 +21,7 @@ advancements.irons_spellbooks.make_wayward_compass.title,And so a Quest Begins!,
 advancements.irons_spellbooks.pyrium_staff.description,Forge a fiery staff from Pyrium,パイリウムで炎の杖を鍛造する
 advancements.irons_spellbooks.pyrium_staff.title,Ancient Beckonings,古き声の呼び掛け
 advancements.irons_spellbooks.root.description,There's more than meets the eye to this world...,この世界は、見えるものだけが全てではない...
-advancements.irons_spellbooks.root.title,Iron's Spells 'n Spellbooks,アイアンの魔法書
+advancements.irons_spellbooks.root.title,Iron's Spells 'n Spellbooks,鉄の魔法書
 advancements.irons_spellbooks.spell_book_blaze.description,Obtain a Blaze Instruction Manual.,煉獄のマニュアルを入手する
 advancements.irons_spellbooks.spell_book_blaze.title,Defunct Machinery,機能を失った設備
 advancements.irons_spellbooks.spell_book_blood.description,Craft the Vampiric Spellbook,吸血鬼のスペルブックを製作する
@@ -58,7 +58,7 @@ advancements.irons_spellbooks.staff_ice.description,Construct an Ice Staff.,氷�
 advancements.irons_spellbooks.staff_ice.title,Mournful Magic,嘆きの魔法
 advancements.irons_spellbooks.staff_lightning_rod.description,Transform a Lightning Rod into a Rod O' Lightning... And hopefully survive the process.,避雷針を雷の杖に変化させる。...そしてその過程で生き残ること
 advancements.irons_spellbooks.staff_lightning_rod.title,Shocking Discovery,ショックな発見
-advancements.irons_spellbooks.staff_root.description,Acquire a Staff casting implement. Use to Cast!,魔法を使うための杖を入手する。 さあ魔法を唱えよう!
+advancements.irons_spellbooks.staff_root.description,Acquire a Staff casting implement. Use to Cast!,魔法を使うための杖を入手する。さあ魔法を唱えよう!
 advancements.irons_spellbooks.staff_root.title,No Longer Short-Staffed,スタッフ不足はもう解消
 advancements.irons_spellbooks.steal_from_wizard.description,Anger a wizard by looting a nearby chest,近くのチェストを荒らして術師を怒らせる
 advancements.irons_spellbooks.steal_from_wizard.title,A Fool's Folly,愚か者の行為
@@ -154,7 +154,7 @@ commands.irons_spellbooks.generate_recipe_data.failed,Site data generation faile
 commands.irons_spellbooks.irons_debug_command.success,Saved debug data in %s,%sにデバッグデータを保存した
 commands.mana.add.success.multiple,Gave %s mana to %s players,%s マナを %s プレイヤーに与えた
 commands.mana.add.success.single,Gave %s mana to %s,%s マナを %s に与えた
-commands.mana.get.success,%s has %s mana,%1$sは%2$sマナを保有している
+commands.mana.get.success,%s has %s mana,%sは%sマナを保有している
 commands.mana.set.success.multiple,Set mana to %s for %s players,%s プレイヤーのマナを %s に設定する
 commands.mana.set.success.single,Set mana to %s for %s,%s のマナを %s に設定する
 curios.identifier.spellbook,Spell Book,魔法書
@@ -181,7 +181,7 @@ death.attack.irons_spellbooks.arrow_volley,%1$s was shot by %2$s's magic arrow,%
 death.attack.irons_spellbooks.arrow_volley.item,%1$s was shot by %2$s's magic arrow while using %3$s,%1$sは %3$sの使用中に %2$sの魔法の矢で撃たれた
 death.attack.irons_spellbooks.ascension,%1$s was ascended to the afterlife with %2$s's help,%1$sは %2$sの助けであの世に昇天した
 death.attack.irons_spellbooks.ascension.item,%1$s was ascended to the afterlife with help from %2$s's %3$s,%1$sは %2$sの %3$sの助けであの世に昇天した
-death.attack.irons_spellbooks.ball_lightning,%1$s was zapped to death by %2$s,1$sは %2$sによってザッピングされて死んだ
+death.attack.irons_spellbooks.ball_lightning,%1$s was zapped to death by %2$s,
 death.attack.irons_spellbooks.ball_lightning.item,%1$s was zapped to death by %2$s while using %3$s,%1$sは %3$sの使用中に %2$sによってザッピングされて死んだ
 death.attack.irons_spellbooks.black_hole,%1$s's atoms were crushed in %2$s's black hole,%1$sの原子は %2$sのブラック ホールで砕かれた
 death.attack.irons_spellbooks.black_hole.item,%1$s's atoms were crushed in %2$s's black hole while using %3$s,%3$sの使用中に %1$sの原子が %2$sのブラック ホールで砕かれた
@@ -198,7 +198,7 @@ death.attack.irons_spellbooks.chain_creeper.item,%1$s was blown to smithereens b
 death.attack.irons_spellbooks.chain_lightning,%1$s was zapped to death by %2$s,%1$sは %2$sによって電撃を受けて死亡した
 death.attack.irons_spellbooks.chain_lightning.item,%1$s was zapped to death by %2$s's %3$s,%1$sは %2$sの %3$sによって電撃を受けて死亡した
 death.attack.irons_spellbooks.cone_of_cold,%1$s was frozen solid by %2$s's,%1$sは %2$sによって凍結された
-death.attack.irons_spellbooks.cone_of_cold.item,%1$s was frozen solid by %2$s's using %3$s,%1$sは %2$sが %3$を使用して凍結された
+death.attack.irons_spellbooks.cone_of_cold.item,%1$s was frozen solid by %2$s's using %3$s,
 death.attack.irons_spellbooks.devour,%1$s was devoured by %2$s,%1$sは %2$sに食いつくされた
 death.attack.irons_spellbooks.devour.item,%1$s was devoured by %2$s while using %3$s,%1$sは %3$sの使用中に %2$sによって食いつくされた
 death.attack.irons_spellbooks.divine_smite,%1$s was smitten by %2$s,%1$sは %2$sに夢中になった
@@ -208,7 +208,7 @@ death.attack.irons_spellbooks.dragon_breath.item,%1$s was roasted by %2$s's drag
 death.attack.irons_spellbooks.earthquake,%1$s was decimated in %2$s's earthquake,%1$sは %2$sの地震で壊滅した
 death.attack.irons_spellbooks.earthquake.item,%1$s was decimated in %2$s's earthquake caused by %3$s,%1$sは %3$sによって引き起こされた%2$sの地震で壊滅した。
 death.attack.irons_spellbooks.echoing_strikes,%1$s was killed by and echo of %2$s's magic,%1$sは %2$sの魔法の反響によって殺された
-death.attack.irons_spellbooks.echoing_strikes.item,%1$s was killed by and echo of %2$s's magic while using %3$s,%1$ は %3$sの使用中に %2$sの魔法の反響によって殺された
+death.attack.irons_spellbooks.echoing_strikes.item,%1$s was killed by and echo of %2$s's magic while using %3$s,
 death.attack.irons_spellbooks.eldritch_blast,%1$s was blasted away by %2$s,%1$sは %2$sによって吹き飛ばされた
 death.attack.irons_spellbooks.eldritch_blast.item,%1$s was blasted away by %2$s while using %3$s,%1$sは %3$sの使用中に %2$sによって吹き飛ばされた
 death.attack.irons_spellbooks.electrocute,%1$s was electrocuted by %2$s,%1$sは %2$sによって感電死した
@@ -369,7 +369,7 @@ effect.irons_spellbooks.true_invisibility.description,Your body as well as armor
 effect.irons_spellbooks.vigor,Vigor,活力
 effect.irons_spellbooks.vigor.description,Gain 1 additional heart of max hp per level,レベルごとに最大HPのハートを1つ追加で獲得
 entity.irons_spellbooks.acid_orb,Acid Orb,酸のオーブ
-entity.irons_spellbooks.apothecarist,Apothecarist," 薬剤師"
+entity.irons_spellbooks.apothecarist,Apothecarist,薬剤師
 entity.irons_spellbooks.archevoker,Archevoker,アーキヴォーカー
 entity.irons_spellbooks.black_hole,Black Hole,ブラックホール
 entity.irons_spellbooks.blood_needle,Blood Needle,ブラッドニードル
@@ -467,7 +467,7 @@ irons_spellbooks.tetra_bar.holy_spell_power.tooltip,Increases imbued holy spell 
 irons_spellbooks.tetra_bar.ice_spell_power.tooltip,Increases imbued ice spell power by §e%s.,付与された氷の呪文の威力を§e%s 増加させる
 irons_spellbooks.tetra_bar.lightning_spell_power.tooltip,Increases imbued lightning spell power by §e%s.,付与された雷の呪文の威力を§e%s 増加させる
 irons_spellbooks.tetra_bar.max_mana.tooltip,Increases Max Mana when held by §e%s.,最大マナが§e%s増加します。
-irons_spellbooks.tetra_bar.spell_resist.tooltip,Increases spell resistance while held by §e%s.," 持ってる間、呪文耐性が§e%s増加する"
+irons_spellbooks.tetra_bar.spell_resist.tooltip,Increases spell resistance while held by §e%s.,持ってる間、呪文耐性が§e%s増加する
 irons_spellbooks.tetra_effect.freeze,Freezing,凍結
 irons_spellbooks.tetra_effect.freeze.tooltip,Stacks the freezing effect for §e%s seconds.,凍結効果を§e%s 秒間スタックする
 irons_spellbooks.tetra_effect.mana_siphon,Mana Siphon,マナ吸収
@@ -485,9 +485,9 @@ item.apotheosis.gem.irons_spellbooks:lightning,Storm Gem,嵐の宝石
 item.apotheosis.gem.irons_spellbooks:nature,Natural Gem,自然の宝石
 item.apotheosis.gem.irons_spellbooks:spell_resist,Gem of Arcane Protection,秘術の守護の宝石
 item.apotheosis.gem.irons_spellbooks:summoning,Necromancy Gem,死者蘇生の宝石
-item.irons_spellbooks.affinity_ring,Ring of %s Affinity," %sが馴染んだリング"
+item.irons_spellbooks.affinity_ring,Ring of %s Affinity,%sが馴染んだリング
 item.irons_spellbooks.alchemical_trade_route,Alchemical Trade Route,錬金術交易ルート
-item.irons_spellbooks.amethyst_rapier,Amethyst Rapier,紫水晶のレイピア
+item.irons_spellbooks.amethyst_rapier,Amethyst Rapier,アメシストのレイピア
 item.irons_spellbooks.amethyst_resonance_charm,Amethyst Resonance Charm,アメジストの共鳴チャーム
 item.irons_spellbooks.ancient_battleground_map,Legion Outpost,兵団の前哨基地
 item.irons_spellbooks.ancient_knowledge_fragment,Ancient Knowledge Fragment,古代の知識の断片
@@ -508,15 +508,15 @@ item.irons_spellbooks.archevoker_log.entry_1.1,"We reached the location to which
 item.irons_spellbooks.archevoker_log.entry_1.2,"we rose with purpose anew, and began to etch a barrier of logs and home of stone.",今朝、我らは新たなる覚悟を胸に目覚め、丸太を組みて障壁を築き、石を積みて安息の地を形作り始めた。
 item.irons_spellbooks.archevoker_log.entry_2.1,"Our construction draws nigh its completion. As I pen these very words, the final shipment of supplies flow into our haven - enough timber, freshly hewn from the surrounding wilds, to finish the enclosure, and panes of glass",我らが築きし砦は、今まさに完成の刻を迎えんとしている。この手に筆を執る間にも、最後の物資が我らが安息の地へと運び込まれている。囲いを締めくくるに足るほどの木材は、周囲の原生林より切り出されたばかりの新しきもの。
 item.irons_spellbooks.archevoker_log.entry_2.2,"sent from Fort Greater. Soon shall the research commence, the likes of which may yet shake the pillars of the world.",そして、遥かフォート・グレーターより届けられた硝子の板もまた、陽の光を受けて煌めいている。間もなく、研究が始まる。その探求の果てには、この世の礎すらも揺るがすような真理が待ち受けているやもしれぬ。
-item.irons_spellbooks.archevoker_log.entry_3.1,"A strange unease takes root within my mind. This magic - though wondrous - doth twist the senses. I could have sworn there was a cellar beneath the chapel's floor, and yet now none recall it. Even my most trusted lieutenant",奇妙なる不安が、我が心の奥深くに根を張り始めている。この魔法――たしかに驚異的なる力を持つものの――何かが感覚を捻じ曲げているように思えてならぬ。たとえば、礼拝堂の床下にかつて存在したはずの地下貯蔵庫。確かに、我が記憶にはそれがあった。
+item.irons_spellbooks.archevoker_log.entry_3.1,"A strange unease takes root within my mind. This magic - though wondrous - doth twist the senses. I could have sworn there was a cellar beneath the chapel's floor, and yet now none recall it. Even my most trusted lieutenant",奇妙なる不安が、我が心の奥深くに根を張り始めている。この魔法――たしかに驚異的なる力を持つもの――何かが感覚を捻じ曲げているように思えてならぬ。たとえば、礼拝堂の床下にかつて存在したはずの地下貯蔵庫。確かに、我が記憶にはそれがあった。
 item.irons_spellbooks.archevoker_log.entry_3.2,claims such a thing never was. Am I alone in this delusion? Has madness begun to gnaw at me?,だが今、誰ひとりとしてそれを思い出せぬのだ。最も信頼する副官殿でさえも、そのようなものは初めから存在しなかったと言い切るのだ。では、ただ我のみが誤った幻を見ているというのか？・・狂気が、静かに我が心を蝕み始めているのだろうか――？
 item.irons_spellbooks.archevoker_log.entry_4.1,"Our scouts return with tidings of a village, not far from our encampment. This is good news, for supplies dwindle. We shall lay siege and easily procure what is needed, for the distance is not great.",斥候たちが戻り、我らが野営地より遠くない地に小さき村があると報せをもたらした。これは吉報である。なにしろ、我らの物資は尽きかけているのだから。幸いにも、距離はさほど離れておらぬ。我らが力をもって包囲すれば、容易く必要なものを
 item.irons_spellbooks.archevoker_log.entry_4.2,"However, the magical research in these lands proves troublesome - few are the answers we seek. It may soon come to pass that we abandon this place, move to the next site.",手にすることができよう。されど、この地における魔法の研究は、思いのほか困難を極めている。我らが求める答えは、未だ霧の彼方に隠されたままだ。このままでは、いずれこの地を見限り、新たなる研究の地へと移らねばならぬ時が来るやもしれぬ。
-item.irons_spellbooks.archevoker_log.header,Day ,日 
-item.irons_spellbooks.archevoker_log.page_1,"We arrived at the location He sent us to just before last dusk, a march of many days. One last time, we slept on the dirt; this morning we rose with purpose anew, beginning to etch a barrier of logs and home of stone.",私たちは、何日もかけて行進し、最後の夕暮れの直前に神が私たちを送ってくださった場所に到着しました。 最後にもう一度、私たちは土の上で眠った。 今朝、私たちは新たな目的を持って立ち上がり、丸太の障壁と石の家を刻み始めた。
-item.irons_spellbooks.archevoker_log.page_2,"Construction is near complete. As I write, supplies make their way into our hospice - freshly hewn wood from the area, a shipment of glass from fort greater. Discovery awaits.",建設はほぼ完了している。 私がこれを書いている間にも、地域から切り出されたばかりの木材やフォート・グレーターからのガラスなど、物資が私たちのホスピスに届けられている。 すべての呪文には発見が待っているはずだ。
+item.irons_spellbooks.archevoker_log.header,Day ,日
+item.irons_spellbooks.archevoker_log.page_1,"We arrived at the location He sent us to just before last dusk, a march of many days. One last time, we slept on the dirt; this morning we rose with purpose anew, beginning to etch a barrier of logs and home of stone.",私たちは、何日もかけて行進し、最後の夕暮れの直前に神が私たちを送ってくださった場所に到着しました。最後にもう一度、私たちは土の上で眠った。今朝、私たちは新たな目的を持って立ち上がり、丸太の障壁と石の家を刻み始めた。
+item.irons_spellbooks.archevoker_log.page_2,"Construction is near complete. As I write, supplies make their way into our hospice - freshly hewn wood from the area, a shipment of glass from fort greater. Discovery awaits.",建設はほぼ完了している。私がこれを書いている間にも、地域から切り出されたばかりの木材やフォート・グレーターからのガラスなど、物資が私たちのホスピスに届けられている。すべての呪文には発見が待っているはずだ。
 item.irons_spellbooks.archevoker_log.page_3,"I had never thought it possible, this magic seems to be messing with my mind. I swear there used to be a cellar below the chapel, yet even my second in command says it were never so... Surely I cannot be the one going mad?",かつては礼拝堂の下に地下室があったと思うが、副司令官ですらそんなものはなかったと言っていたな...気が狂っているのは私だろうか?
-item.irons_spellbooks.archevoker_log.page_4,"Scouts have returned with fantastic news, that of a village, and not too far to return the supplies here with ease after laying siege. However, magical research in this area seems to be inconclusive. We may be abandoning soon.",偵察隊は村に関する素晴らしいニュースを持って戻ってきたが、包囲を敷いた後、ここに物資を簡単に戻すのにそれほど遠くはない。 しかし、この分野における魔法の研究は結論が出ていないようだ。 もうすぐ放棄するかもしれない。
+item.irons_spellbooks.archevoker_log.page_4,"Scouts have returned with fantastic news, that of a village, and not too far to return the supplies here with ease after laying siege. However, magical research in this area seems to be inconclusive. We may be abandoning soon.",偵察隊は村に関する素晴らしいニュースを持って戻ってきたが、包囲を敷いた後、ここに物資を簡単に戻すのにそれほど遠くはない。しかし、この分野における魔法の研究は結論が出ていないようだ。もうすぐ放棄するかもしれない。
 item.irons_spellbooks.archevoker_logbook_translated,Archevoker's Logbook,召喚術士の日誌(翻訳版)
 item.irons_spellbooks.archevoker_logbook_untranslated,Archevoker's Logbook,召喚術士の日誌(原本)
 item.irons_spellbooks.archevoker_spawn_egg,Archevoker Spawn Egg,アーキヴォーカーのスポーンエッグ
@@ -536,12 +536,11 @@ item.irons_spellbooks.bloody_vellum,Bloody Vellum,血のような羊皮紙
 item.irons_spellbooks.boreal_blade,Boreal Blade,北極の刃
 item.irons_spellbooks.cast_time_ring,Ring of Expediency,利便のリング
 item.irons_spellbooks.casters_tea,Caster's Tea,キャスターのお茶
-item.irons_spellbooks.casters_tea.desc," Reduces Active Spell Cooldowns by 15%"," アクティブな呪文のクールダウンを15%短縮する"
+item.irons_spellbooks.casters_tea.desc," Reduces Active Spell Cooldowns by 15%",アクティブな呪文のクールダウンを15%短縮する
 item.irons_spellbooks.chained_book,Chained Book,鎖で封じた本
 item.irons_spellbooks.chronicle,The Chronicle,年代記
 item.irons_spellbooks.chronicle.chapter,"Chapter %s:
-","第%s章:
-"
+",第%s章:
 item.irons_spellbooks.chronicle.chapter_1,The Loyal Souls,忠実な魂たち
 item.irons_spellbooks.chronicle.chapter_2,The Faithful Souls,信心深い魂たち
 item.irons_spellbooks.chronicle.chapter_3,The Lost Souls,失われた魂たち
@@ -624,7 +623,7 @@ item.irons_spellbooks.furled_map.dimension_fail,This map does not lead to anythi
 item.irons_spellbooks.furled_map.guide,"Furled Maps hold a map leading to a set structure within. They can be found, traded for, or crafted, aiding you in your journeys.",折り目のある地図は、その中に特定の構造へ導く地図が入っています。見つけたり、取引したり、製作したりすることができ、旅をサポートします。
 item.irons_spellbooks.furled_map_ancient,Ancient Furled Map,古の巻かれた地図
 item.irons_spellbooks.furled_map_descriptor_framing,[%s],
-item.irons_spellbooks.gold_crown,Iron's Crown,アイアンの王冠
+item.irons_spellbooks.gold_crown,Iron's Crown,鉄の王冠
 item.irons_spellbooks.gold_spell_book,Apprentice's Spell Book,見習いの魔法書
 item.irons_spellbooks.graybeard_staff,Graybeard Staff,長老の杖
 item.irons_spellbooks.greater_conjurers_talisman,Greater Conjurer's Talisman,強化魔術士のお守り
@@ -654,7 +653,7 @@ item.irons_spellbooks.illusioner_spell_book,Book of Illusions,幻想の書
 item.irons_spellbooks.improved_blood_staff,Improved Blood Staff,改良された血液魔術の杖
 item.irons_spellbooks.infernal_sorcerer_chestplate,Infernal Sorcerer Chestplate,地獄の魔術師の胸部装甲
 item.irons_spellbooks.infernal_sorcerer_chestplate.desc,Dealing Fire Spell Damage adds a stack of Immolation to the creature,火の呪文ダメージを与えると、その生物に焼却スタックが1つ追加されます
-item.irons_spellbooks.infernal_sorcerer_chestplate.immolate.desc,"At 3 Immolation stacks, cause an explosion (%s damage), spreading Immolation",焼却スタックが3つで爆発を起こし（%sダメージ）、焼却を拡散します
+item.irons_spellbooks.infernal_sorcerer_chestplate.immolate.desc,"At 3 Immolation stacks, cause an explosion (%s damage), spreading Immolation",焼却スタックが3つで爆発を起こし(%sダメージ)、焼却を拡散します
 item.irons_spellbooks.invisibility_elixir,Invisibility Elixir,透明化のエリクサー
 item.irons_spellbooks.invisibility_ring,Ring of Invisibility,不可視のリング
 item.irons_spellbooks.invisibility_ring.desc,"I would say read the fine print, but I can't see it",細かい注釈を読んでくれと言いたいが、見えないなこれ
@@ -773,14 +772,14 @@ item.minecraft.lingering_potion.effect.mana,Lingering Potion of Mana,マナの�
 item.minecraft.potion.effect.mana,Potion of Mana,マナのポーション
 item.minecraft.splash_potion.effect.mana,Splash Potion of Mana,マナのスプラッシュポーション
 item.minecraft.tipped_arrow.effect.mana,Arrow of Mana,マナの矢
-itemGroup.irons_spellbooks.blocks_tab,Iron's Spellbooks Blocks,Iron's Spellbooksのブロック
-itemGroup.irons_spellbooks.spell_equipment_tab,Iron's Spellbooks Equipment,Iron's Spellbooksの装備品
-itemGroup.irons_spellbooks.spell_materials_tab,Iron's Spellbooks Materials,Iron's Spellbooksの材料
-itemGroup.irons_spellbooks.spellbook_scrolls_tab,Iron's Spellbooks Scrolls,Iron's Spellbooksのスクロール
+itemGroup.irons_spellbooks.blocks_tab,Iron's Spellbooks Blocks,Ironのスペルbooksのブロック
+itemGroup.irons_spellbooks.spell_equipment_tab,Iron's Spellbooks Equipment,Ironのスペルbooksの装備品
+itemGroup.irons_spellbooks.spell_materials_tab,Iron's Spellbooks Materials,Ironのスペルbooksの材料
+itemGroup.irons_spellbooks.spellbook_scrolls_tab,Iron's Spellbooks Scrolls,Ironのスペルbooksのスクロール
 jukebox_song.irons_spellbooks.dead_king_lullaby,Caner Crebes - King's Lullaby,
 jukebox_song.irons_spellbooks.flame_still_burns,Caner Crebes - The Flame Still Burns,
-key.irons_spellbooks.group_1,Iron's Spells 'n Spellbooks - General,Iron's Spells 'n Spellbooks - 全般
-key.irons_spellbooks.group_2,Iron's Spells 'n Spellbooks - Quick Cast,Iron's Spells 'n Spellbooks - クイックキャスト
+key.irons_spellbooks.group_1,Iron's Spells 'n Spellbooks - General,Ironのスペルs 'n スペルbooks - 全般
+key.irons_spellbooks.group_2,Iron's Spells 'n Spellbooks - Quick Cast,Ironのスペルs 'n スペルbooks - クイックキャスト
 key.irons_spellbooks.spell_bar_modifier,Spell Bar Scroll Modifier,スペルバーの呪文選択
 key.irons_spellbooks.spell_quick_cast_1,Quick Cast Slot 01,クイックキャストスロット01
 key.irons_spellbooks.spell_quick_cast_10,Quick Cast Slot 10,クイックキャストスロット10
@@ -894,11 +893,11 @@ spell.irons_spellbooks.counterspell.guide,"Cast to interrupt any targeted magica
 spell.irons_spellbooks.creeper_revenge,Revenge of the Creeper,リベンジクリーパー
 spell.irons_spellbooks.creeper_revenge.guide,The creeper tryna steal my stuff again,クリーパーがまた私のものを盗もうとしている
 spell.irons_spellbooks.devour,Devour,捕食
-spell.irons_spellbooks.devour.guide,"Pull in a nearby creature and attack them with a bite, leeching 15% of damage done as health. If the creature is killed, you temporarily gain additional max HP. Created by the Ancient Magician known as Yorhavich.",近くのモブを捕らえて噛みつき攻撃し、与えられたダメージの15%を体力として獲得する。 モブが殺された場合、一時的に追加の最大HPを獲得する。古代の魔術師ヨーハヴィッヒによって作成された呪文
+spell.irons_spellbooks.devour.guide,"Pull in a nearby creature and attack them with a bite, leeching 15% of damage done as health. If the creature is killed, you temporarily gain additional max HP. Created by the Ancient Magician known as Yorhavich.",近くのモブを捕らえて噛みつき攻撃し、与えられたダメージの15%を体力として獲得する。モブが殺された場合、一時的に追加の最大HPを獲得する。古代の魔術師ヨーハヴィッヒによって作成された呪文
 spell.irons_spellbooks.divine_smite,Divine Smite,ディバイン・スマイト
-spell.irons_spellbooks.divine_smite.guide,"With a fervor of holy energy, swing forth your weapon, doing a melee area attack. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments.",聖なるエネルギーの熱意を持って、武器を振り上げ、近接範囲攻撃を行う。この呪文は中断されない。ダメージは、保持している武器の近接ダメージに比例する
+spell.irons_spellbooks.divine_smite.guide,"With a fervor of holy energy, swing forth your weapon, doing a melee area attack. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments.",聖なるエネルギーの熱意を持って、武器を振り上げ、近接範囲攻撃する。この呪文は中断されない。ダメージは、保持している武器の近接ダメージに比例する
 spell.irons_spellbooks.dragon_breath,Dragon's Breath,ドラゴンブレス
-spell.irons_spellbooks.dragon_breath.guide,"Hold to spew a cone of dragon breath forwards. Each time a creature is hit, there is a chance to create a pool of dragon breath at their feet.",長押しすると、ドラゴンブレスを前方に吐き出します。 モブが攻撃を受けるたびに、足元にドラゴンブレスのエリアが生成される可能性がある
+spell.irons_spellbooks.dragon_breath.guide,"Hold to spew a cone of dragon breath forwards. Each time a creature is hit, there is a chance to create a pool of dragon breath at their feet.",長押しすると、ドラゴンブレスを前方に吐き出します。モブが攻撃を受けるたびに、足元にドラゴンブレスのエリアが生成される可能性がある
 spell.irons_spellbooks.earthquake,Earthquake,地震
 spell.irons_spellbooks.earthquake.guide,"Conjure an earthquake around a targeted creature or location, causing tremors to ripple through the ground, damaging and slowing creatures in the area.",ターゲットの生き物や場所の周囲に地震を引き起こし、地面に揺れを引き起こし、その範囲の生き物にダメージを与え、さらに速度を低下させる
 spell.irons_spellbooks.echoing_strikes,Echoing Strikes,エコーストライク
@@ -908,7 +907,7 @@ spell.irons_spellbooks.eldritch_blast.guide,"Fire rays of pure, devastating ener
 spell.irons_spellbooks.electrocute,Electrocute,感電
 spell.irons_spellbooks.electrocute.guide,"Hold to manifest a cone of electrical energy, damaging creatures in its path.",長押しすると電気エネルギーの円錐が現れ、その経路にいる生き物にダメージを与える
 spell.irons_spellbooks.evasion,Evasion,回避
-spell.irons_spellbooks.evasion.guide,"Cast to imbue yourself with ender energy. Upon being attacked while under its effects, you will immediately teleport within a short radius and avoid taking any damage. Only a finite amount of hits can be dodged before the effect immediately wears off.",エンダーエネルギーを自分自身に吹き込むためにキャストする。 その影響下にある間に攻撃を受けると、すぐに短い半径内にテレポートし、ダメージを受けることを避ける。効果が切れる前に回避できる攻撃の数は限られている
+spell.irons_spellbooks.evasion.guide,"Cast to imbue yourself with ender energy. Upon being attacked while under its effects, you will immediately teleport within a short radius and avoid taking any damage. Only a finite amount of hits can be dodged before the effect immediately wears off.",エンダーエネルギーを自分自身に吹き込むためにキャストする。その影響下にある間に攻撃を受けると、すぐに短い半径内にテレポートし、ダメージを受けることを避ける。効果が切れる前に回避できる攻撃の数は限られている
 spell.irons_spellbooks.fang_strike,Fang Strike,ファングストライク
 spell.irons_spellbooks.fang_strike.guide,"Conjure a line of evoker fangs in front of you, in classic illager fashion.",古くから伝わる邪悪な村人の呪文で、目の前にエヴォーカーの牙の列を召喚する
 spell.irons_spellbooks.fang_ward,Fang Ward,ファングウォード
@@ -924,11 +923,11 @@ spell.irons_spellbooks.firebolt.guide,"Shoot a small projectile of fire, ignitin
 spell.irons_spellbooks.firecracker,Firecracker,爆竹
 spell.irons_spellbooks.firecracker.guide,Instantaneously conjure a firework where you look that explodes in a small radius around it.,見ている場所に瞬時に花火を引き起こし、その周囲で爆発します。
 spell.irons_spellbooks.firefly_swarm,Firefly Swarm,蛍の群れ
-spell.irons_spellbooks.firefly_swarm.guide,"Emanate a swarm of violent fireflies, following a targeted creature and dealing aoe damage. If the initial target dies, the last harmed creature will be targeted.",凶暴なホタルの群れを放ち、ターゲットのモブを追跡し、広範囲ダメージを与える。 最初のターゲットが死亡した場合、最後に被害を受けたクリーチャーがターゲットになる
+spell.irons_spellbooks.firefly_swarm.guide,"Emanate a swarm of violent fireflies, following a targeted creature and dealing aoe damage. If the initial target dies, the last harmed creature will be targeted.",凶暴なホタルの群れを放ち、ターゲットのモブを追跡し、広範囲ダメージを与える。最初のターゲットが死亡した場合、最後に被害を受けたクリーチャーがターゲットになる
 spell.irons_spellbooks.flaming_barrage,Flaming Barrage,炎の弾幕
 spell.irons_spellbooks.flaming_barrage.guide,"Repeatedly cast to shoot individual small fireballs, which home towards your cursor, or the creature your cursor is targeting.",選択したターゲットに発動する。再発動の終了時に、各ターゲットに小さな火の玉の集中砲火が当たる
 spell.irons_spellbooks.flaming_strike,Flaming Strike,フレイムストライク
-spell.irons_spellbooks.flaming_strike.guide,Unleash a sweeping melee attack in the form of a wreath of flames. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments.,炎の花輪の形で広範囲の近接攻撃を繰り出す。 この呪文は中断不可能。ダメージは、保持している武器の近接ダメージとエンチャントから減少する
+spell.irons_spellbooks.flaming_strike.guide,Unleash a sweeping melee attack in the form of a wreath of flames. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments.,炎の花輪の形で広範囲の近接攻撃を繰り出す。この呪文は中断不可能。ダメージは、保持している武器の近接ダメージとエンチャントから減少する
 spell.irons_spellbooks.fortify,Fortify,強化
 spell.irons_spellbooks.fortify.guide,"Upon casting, fortify every friendly creature within a radius around you, giving them temporary HP.",詠唱すると、自身の周囲の半径内のすべての友好的なモブを強化し、一時的なHPを与える
 spell.irons_spellbooks.frost_step,Frost Step,フロストステップ
@@ -952,7 +951,7 @@ spell.irons_spellbooks.heal.guide,Cast to infuse yourself with holy energy and i
 spell.irons_spellbooks.healing_circle,Healing Circle,ヒーリングサークル
 spell.irons_spellbooks.healing_circle.guide,"Around a targeted creature or block, place a stationary circle of holy magic that heals allies within",対象のクリーチャーまたはブロックの周囲に、内部の味方を癒す聖なる魔法の固定円を配置する
 spell.irons_spellbooks.heartstop,Heartstop,ハートストップ
-spell.irons_spellbooks.heartstop.guide,"Cast to inflict yourself with Heartstop, an effect that makes you temporarily invulnerable. However, once it wears off, you take 50% of all damage accumulated while under its effects.",唱えると、一時的に無敵になる効果であるハートストップを自分自身に与える。 ただし、効果が切れるとその効果中に蓄積されたすべてのダメージの50%を受ける
+spell.irons_spellbooks.heartstop.guide,"Cast to inflict yourself with Heartstop, an effect that makes you temporarily invulnerable. However, once it wears off, you take 50% of all damage accumulated while under its effects.",唱えると、一時的に無敵になる効果であるハートストップを自分自身に与える。ただし、効果が切れるとその効果中に蓄積されたすべてのダメージの50%を受ける
 spell.irons_spellbooks.heat_surge,Heat Surge,ヒートサージ
 spell.irons_spellbooks.heat_surge.guide,"Emanate a surge of fiery magic, igniting and rending creatures in a radius around you. Rended creatures have reduced armor.",激しい魔法の波を発し、あなたの周囲の範囲内のクリーチャーに点火して引き裂く。引き裂かれたクリーチャーの装甲は減少する
 spell.irons_spellbooks.ice_block,Ice Block,氷塊
@@ -974,7 +973,7 @@ spell.irons_spellbooks.lob_creeper.guide,"Lob the head of a creeper forward that
 spell.irons_spellbooks.magic_arrow,Magic Arrow,魔法の矢
 spell.irons_spellbooks.magic_arrow.guide,Hold to charge a piercing arrow made of arcane energy. This arrow has no gravity and can travel through blocks.,長押しすると、秘術のエネルギーで作られた貫通矢をチャージできる。この矢には重力を受けず、ブロックを通り抜けることができる
 spell.irons_spellbooks.magic_missile,Magic Missile,マジックミサイル
-spell.irons_spellbooks.magic_missile.guide,Shoot a bolt of concentrated arcane magic. Also a trademark of every wizard.,濃縮された秘術魔法のボルトを発射する。 すべての魔道士が身につけるべき魔法のひとつ
+spell.irons_spellbooks.magic_missile.guide,Shoot a bolt of concentrated arcane magic. Also a trademark of every wizard.,濃縮された秘術魔法のボルトを発射する。すべての魔道士が身につけるべき魔法のひとつ
 spell.irons_spellbooks.magma_bomb,Magma Bomb,マグマボム
 spell.irons_spellbooks.magma_bomb.guide,"Launch a bomb made from magma, exploding on impact and leaving a field of fire where it lands",マグマから作られた爆弾を発射し、衝撃で爆発し、着弾した場所に火を残す
 spell.irons_spellbooks.none,None,無し
@@ -1034,7 +1033,7 @@ spell.irons_spellbooks.stomp.guide,"With a magic force, stomp the ground in fron
 spell.irons_spellbooks.summon_ender_chest,Summon Ender Chest,エンダーチェスト召喚
 spell.irons_spellbooks.summon_ender_chest.guide,Apparate your Ender Chest inventory upon casting.,唱えた時にエンダーチェストのインベントリを出現させる
 spell.irons_spellbooks.summon_horse,Summon Horse,馬召喚
-spell.irons_spellbooks.summon_horse.guide,"Conjure a spectral steed that will follow you around and only let you ride. The horse's speed, health, and jump height scales with spell power.",自身を追いかけて、自分だけを乗せてくれる幽霊の馬を召喚する。 馬のスピード、体力、ジャンプの高さは呪文の力に応じて変化する
+spell.irons_spellbooks.summon_horse.guide,"Conjure a spectral steed that will follow you around and only let you ride. The horse's speed, health, and jump height scales with spell power.",自身を追いかけて、自分だけを乗せてくれる幽霊の馬を召喚する。馬のスピード、体力、ジャンプの高さは呪文の力に応じて変化する
 spell.irons_spellbooks.summon_polar_bear,Summon Polar Bear,シロクマ召喚
 spell.irons_spellbooks.summon_polar_bear.guide,"Cast to summon a polar bear who will follow, protect, and fight for you, as well as providing a mount.",唱えると、自身を追従し、保護し、戦ってくれるシロクマを召喚する。シロクマには騎乗できる
 spell.irons_spellbooks.summon_swords,Summon Swords,三剣召喚
@@ -1112,31 +1111,31 @@ text.apotheosis.category.curios:spellbook.plural,Spellbooks,魔法書
 tooltip.irons_spellbooks.can_be_imbued,Can be Imbued (%s/%s),注入可能 (%s/%s)
 tooltip.irons_spellbooks.can_be_imbued_frame,Can be Imbued %s,注入可能 %s
 tooltip.irons_spellbooks.can_be_imbued_number,(%s/%s),
-tooltip.irons_spellbooks.cast_charge,%s Charge Time,チャージに必要な時間: %s 
-tooltip.irons_spellbooks.cast_continuous,%s Cast Duration,呪文の持続時間: %s 
-tooltip.irons_spellbooks.cast_long,%s Cast Time,詠唱に必要な時間: %s 
-tooltip.irons_spellbooks.cast_type," %s Cast",コスト: %s 
+tooltip.irons_spellbooks.cast_charge,%s Charge Time,チャージに必要な時間: %s
+tooltip.irons_spellbooks.cast_continuous,%s Cast Duration,呪文の持続時間: %s
+tooltip.irons_spellbooks.cast_long,%s Cast Time,詠唱に必要な時間: %s
+tooltip.irons_spellbooks.cast_type," %s Cast",コスト: %s
 tooltip.irons_spellbooks.casting_implement_tooltip,Active Spell:,アクティブスペル:
 tooltip.irons_spellbooks.cooldown_length_seconds," %d Cooldown",クールダウン: %d
 tooltip.irons_spellbooks.empty_affinity_ring,Unattuned,この指輪は空っぽのようだ
-tooltip.irons_spellbooks.enhance_spell_level,+1 level to %s," %sにレベル+1"
-tooltip.irons_spellbooks.enhance_spell_level_plural,+%s levels to %s," %2$sにレベル+%1$s"
+tooltip.irons_spellbooks.enhance_spell_level,+1 level to %s,%sにレベル+1
+tooltip.irons_spellbooks.enhance_spell_level_plural,+%s levels to %s,%sにレベル+%s
 tooltip.irons_spellbooks.evasion_description," Allows %d Hits to be Evaded",%d回のヒットを回避できるようにする
 tooltip.irons_spellbooks.imbue_slots,Imbue Slots: %d/%d,スロットを埋め込む: %d/%d
 tooltip.irons_spellbooks.imbued_tooltip,Imbued Spell:,注入された呪文:
 tooltip.irons_spellbooks.imbued_tooltip_plural,Imbued Spells:,付与された呪文:
 tooltip.irons_spellbooks.improved_format,Improved %s,%sを改善しました
 tooltip.irons_spellbooks.ink_tooltip,Can Craft %s Scrolls,%sのスクロールを作成可能
-tooltip.irons_spellbooks.instant_mana_description," Restores %d Mana + %d%% of Max Mana","マナを%d回復, 最大マナ +%d%% "
+tooltip.irons_spellbooks.instant_mana_description," Restores %d Mana + %d%% of Max Mana","マナを%d回復, 最大マナ +%d%%"
 tooltip.irons_spellbooks.level,Level %s,レベル %s
 tooltip.irons_spellbooks.level_minus,%d (%d),
 tooltip.irons_spellbooks.level_plus,%d (+%d),
-tooltip.irons_spellbooks.mana_cost," %d Mana Cost"," マナコスト: %d"
-tooltip.irons_spellbooks.mana_cost_per_second," %d Mana/s"," %d マナ/s"
+tooltip.irons_spellbooks.mana_cost," %d Mana Cost",マナコスト: %d
+tooltip.irons_spellbooks.mana_cost_per_second," %d Mana/s",%d マナ/s
 tooltip.irons_spellbooks.modifiers.multihand,When in Either Hand:,どちらかの手に持っているとき:
 tooltip.irons_spellbooks.no_affinity,No,なし
 tooltip.irons_spellbooks.oakskin_description,+%d%% Damage Reduction,ダメージ軽減: +%d%%
-tooltip.irons_spellbooks.passive_ability,Passive Ability (%s cooldown):," パッシブアビリティ(%sのクールダウン):"
+tooltip.irons_spellbooks.passive_ability,Passive Ability (%s cooldown):,パッシブアビリティ(%sのクールダウン):
 tooltip.irons_spellbooks.passive_ability_no_cooldown,Passive Ability:,受動能力:
 tooltip.irons_spellbooks.press_to_cast,Press [%s] to cast,[%s] を押してキャストします
 tooltip.irons_spellbooks.press_to_cast_active,[%s] to cast,[%s] をキャストする
@@ -1146,7 +1145,7 @@ tooltip.irons_spellbooks.selected_spell,[%s %d],
 tooltip.irons_spellbooks.shift_tooltip,[Shift+],
 tooltip.irons_spellbooks.spell_title,%s [Lvl %d],%s [Lv. %d]
 tooltip.irons_spellbooks.spellbook_rarity,%s Spell Book,%s スペルブック
-tooltip.irons_spellbooks.spellbook_spell_count,%s Spell Slots,スペルスロットの数: %s 
+tooltip.irons_spellbooks.spellbook_spell_count,%s Spell Slots,スペルスロットの数: %s
 tooltip.irons_spellbooks.spellbook_tooltip,Inscribed Spells:,刻まれた呪文:
 tooltip.irons_spellbooks.spellbook_unique,Unique,ユニーク
 tooltip.irons_spellbooks.translated,Translated,翻訳済
@@ -1154,13 +1153,13 @@ tooltip.irons_spellbooks.untranslated,Untranslated,未翻訳
 tooltip.irons_spellbooks.upgrade_plus_format,%s +%d,
 tooltip.irons_spellbooks.upgrade_tooltip,When used for Upgrade:,アップグレードに使用する場合:
 ui.irons_spellbooks.absorption,%d Temporary HP,臨時のHP: %d
-ui.irons_spellbooks.additional_poisoned_damage,%d%% Additional Poisoned Damage,追加の毒ダメージ: %d%% 
+ui.irons_spellbooks.additional_poisoned_damage,%d%% Additional Poisoned Damage,追加の毒ダメージ: %d%%
 ui.irons_spellbooks.aoe_damage,%d AOE Damage,範囲ダメージ: %d
 ui.irons_spellbooks.aoe_healing,%d AOE Healing,範囲回復: %d
 ui.irons_spellbooks.arcane_anvil_title,Arcane Anvil,秘術の金床
 ui.irons_spellbooks.base_damage,%d Base Damage,%dの基本ダメージ
 ui.irons_spellbooks.blast_count,%d Blasts,爆発回数: %d
-ui.irons_spellbooks.cast_charge,%s Charge Time,チャージに必要な時間: %s 
+ui.irons_spellbooks.cast_charge,%s Charge Time,チャージに必要な時間: %s
 ui.irons_spellbooks.cast_continuous,%s Duration,呪文の持続時間: %s
 ui.irons_spellbooks.cast_error_adventure,This spell cannot be cast from Adventure Mode!,アドベンチャーモードではこの呪文は使えない!
 ui.irons_spellbooks.cast_error_combat,This spell cannot be cast from combat.,この呪文は戦闘中にキャストできません。
@@ -1174,23 +1173,23 @@ ui.irons_spellbooks.cast_error_target,This spell requires a target.,この呪文
 ui.irons_spellbooks.cast_error_target_block,Target a block.,ブロックをターゲットにしよう
 ui.irons_spellbooks.cast_error_unlearned,You can't understand this spell...,あなたにはこの呪文は理解できないようだ...
 ui.irons_spellbooks.cast_instant,Instant Cast,即時発動
-ui.irons_spellbooks.cast_long,%s Cast Time,詠唱に必要な時間: %s 
-ui.irons_spellbooks.cast_range,%d Cast Range,キャスト範囲: %d 
+ui.irons_spellbooks.cast_long,%s Cast Time,詠唱に必要な時間: %s
+ui.irons_spellbooks.cast_range,%d Cast Range,キャスト範囲: %d
 ui.irons_spellbooks.cast_ready,Cast!,発動!
 ui.irons_spellbooks.cast_type,%s Cast,%sキャスト
 ui.irons_spellbooks.charge_ready,Charged,チャージ完了
-ui.irons_spellbooks.cooldown,%s Cooldown,クールダウン: %d
-ui.irons_spellbooks.damage,%d Damage,ダメージ: %d 
+ui.irons_spellbooks.cooldown,%s Cooldown,クールダウン: %s
+ui.irons_spellbooks.damage,%d Damage,ダメージ: %d
 ui.irons_spellbooks.damage_reduction,+%d%% Damage Reduction,ダメージ軽減: %d%%
 ui.irons_spellbooks.dimensions,%dx%dx%d,
 ui.irons_spellbooks.distance,%d Block Range,射程距離: %d
 ui.irons_spellbooks.duration,%d Duration,持続時間: %d
-ui.irons_spellbooks.effect_length,%d Effect Length,%dの間効果が続く 
+ui.irons_spellbooks.effect_length,%d Effect Length,%dの間効果が続く
 ui.irons_spellbooks.empty,Empty,空
 ui.irons_spellbooks.empty_slot,Empty Slot,空きスロット
 ui.irons_spellbooks.empty_spellbook_lectern,This Spellbook is empty...,この魔法書は空っぽだ...
 ui.irons_spellbooks.error_place_block_dimension,This block cannot be placed in this dimension.,このブロックはこのディメンションに配置できません。
-ui.irons_spellbooks.fang_count,%d Fangs,ファングの数: %d 
+ui.irons_spellbooks.fang_count,%d Fangs,ファングの数: %d
 ui.irons_spellbooks.freeze_time,%s Freeze Time,凍結時間: %s
 ui.irons_spellbooks.frostbite_success_chance,Auto-Success Threshold: %d% Chance,自動成功の閾値: %d%
 ui.irons_spellbooks.greater_healing,Max Healing,完全回復
@@ -1207,9 +1206,9 @@ ui.irons_spellbooks.ink_rarity_error,Obtain higher quality ink,より高品質�
 ui.irons_spellbooks.inscription_table_rarity_error,This scroll is too rare for this spell book.,この巻物は高度すぎてこの魔法書には書き込めない
 ui.irons_spellbooks.inscription_table_title,Inscription Table,銘刻台
 ui.irons_spellbooks.level,Level %d,レベル %d
-ui.irons_spellbooks.mana_cost,%d Mana,マナ消費: %d 
+ui.irons_spellbooks.mana_cost,%d Mana,マナ消費: %d
 ui.irons_spellbooks.mana_recovery,%d Mana Recovery,マナ回復量: %d
-ui.irons_spellbooks.max_hp_on_kill,%d Max HP on Kill,倒した時%dだけHP吸収 
+ui.irons_spellbooks.max_hp_on_kill,%d Max HP on Kill,倒した時%dだけHP吸収
 ui.irons_spellbooks.max_victims,%d Max Targets,最大ターゲット数: %d
 ui.irons_spellbooks.no_selection,Select a Spell,呪文を選択してください
 ui.irons_spellbooks.no_spell_book,No SpellBook,魔法書がない
@@ -1222,22 +1221,22 @@ ui.irons_spellbooks.portal_target_failure,Target another empty Portal Frame to f
 ui.irons_spellbooks.projectile_count,%d Projectiles,飛翔物の数: %d
 ui.irons_spellbooks.radius,%d Block Radius,範囲: 半径%dブロック
 ui.irons_spellbooks.recast_count,%d Casts,発動回数: %d
-ui.irons_spellbooks.reduced_damage,%d%% Reduced Damage,攻撃力を%d%%低下させる 
-ui.irons_spellbooks.reduced_healing,%d%% Reduced Healing,再生能力を%d%%低下させる 
-ui.irons_spellbooks.rend,%d%% Reduced Armor,防御力を減少させる 
+ui.irons_spellbooks.reduced_damage,%d%% Reduced Damage,攻撃力を%d%%低下させる
+ui.irons_spellbooks.reduced_healing,%d%% Reduced Healing,再生能力を%d%%低下させる
+ui.irons_spellbooks.rend,%d%% Reduced Armor,
 ui.irons_spellbooks.research_already_learned,This spell is already learned,この呪文はすでに修得している
 ui.irons_spellbooks.research_warning,Hold to Learn (1 Manuscript),ホールドして修得 (原稿1つ)
-ui.irons_spellbooks.ring_count,%d Rings,ファングの輪の数: %d 
+ui.irons_spellbooks.ring_count,%d Rings,ファングの輪の数: %d
 ui.irons_spellbooks.sacrifice_target_failure,You must target one of your summons,召喚したモブの1つを対象にする必要がある
 ui.irons_spellbooks.scroll_forge_title,Scroll Forge,スクロールフォージ
-ui.irons_spellbooks.shatter_damage,%d Shatter Damage,砕け散った際のダメージ: %d 
+ui.irons_spellbooks.shatter_damage,%d Shatter Damage,砕け散った際のダメージ: %d
 ui.irons_spellbooks.slowed,%d%% Slowed,%d%%だけ遅くする
 ui.irons_spellbooks.slowness_effect,Slowness %d,移動速度低下: %d
 ui.irons_spellbooks.spell_target_success,%s targeted with %s,%sを%sでターゲットにした
 ui.irons_spellbooks.spell_target_success_self,Self targeted with %s,%sで自己ターゲット
 ui.irons_spellbooks.spell_target_warning,%s is targeting you with %s!,%sはあなたを%sでターゲットにしている!
 ui.irons_spellbooks.spike_count,%d Spikes,スパイクの数: %d
-ui.irons_spellbooks.strength,%d Strength,吹き飛ばす力: %d 
+ui.irons_spellbooks.strength,%d Strength,吹き飛ばす力: %d
 ui.irons_spellbooks.summon_count,%d Summons,召喚数: %d
 ui.irons_spellbooks.summon_despawn_message,%s faded from this world.,%sはこの世から消えてしまった
 ui.irons_spellbooks.unlearned_error,This spell must be learned first,この呪文は最初に修得しなければならない

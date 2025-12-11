@@ -58,7 +58,6 @@ config.waila.plugin_minecraft.display_furnace_contents,Furnace Contents,かま�
 config.waila.plugin_minecraft.effective_tool,Effective Tool,効率的なツール
 config.waila.plugin_minecraft.effects,Entity Effects,エンティティの効果
 config.waila.plugin_minecraft.ench_power,Ench Power,エンチャント力
-config.waila.plugin_minecraft.fe,Forge Energy,Forge Energy
 config.waila.plugin_minecraft.fluid,Fluid Tank,流動体タンク
 config.waila.plugin_minecraft.harvest_tool,Harvest Tool,採掘ツール
 config.waila.plugin_minecraft.harvest_tool_new_line,Tool in New Line,ツールを新しい行に表示
@@ -93,18 +92,15 @@ gui.waila.waila_settings,%s Settings,%s 設定
 jade.beehive.bees,Bees: %s,蜂の数: %s
 jade.beehive.honey,Honey: %s,ハチミツ: %s
 jade.ench_power,Ench Power: %s,エンチャ出力: %s
-jade.fe,%s / %s,%s / %s
-jade.fluid,%s %s,%s %s
 jade.fluid.empty,Empty,空
-jade.fraction,%d / %d,%d / %d
 jade.harvest_tool.unbreakable,Can't break,壊せない
 jade.horseStat.jump,Jump height: %d,ジャンプ高さ: %d
 jade.horseStat.speed,Speed: %d,速度: %d
 jade.infinity,+∞,∞
 jade.instrument.banjo,Banjo,バンジョー
-jade.instrument.basedrum,Bass Drum (Kick),バスドラム（キック）
-jade.instrument.bass,Bass (Contrabass),ベース（コントラバス）
-jade.instrument.bell,Bells (Glockenspiel),ベル（グロッケンシュピール）
+jade.instrument.basedrum,Bass Drum (Kick),バスドラム(キック)
+jade.instrument.bass,Bass (Contrabass),ベース(コントラバス)
+jade.instrument.bell,Bells (Glockenspiel),ベル(グロッケンシュピール)
 jade.instrument.bit,Square Wave,電子音 (矩形波)
 jade.instrument.chime,Chimes,チャイム
 jade.instrument.cow_bell,Cow Bell,カウベル
@@ -121,13 +117,9 @@ jade.llamaStrength,Strength: %s,強さ: %s
 jade.locked,Inventory is locked,インベントリはロックされています
 jade.mobbreeding.time,Breeding CD: %ds,繁殖クールダウン: %ds
 jade.mobgrowth.time,Growing time: %ds,成長時間: %ds
-jade.modName.cpp,Crafting++,Crafting++
 jade.nextEgg,Next Egg: %ds,次の卵: %ds
 jade.not_generated,Inventory isn't generated,インベントリは生成されていません
 jade.owner,Owner: %s,所有者: %s
-jade.potion,%s %s (%s),%s %s (%s)
-jade.seconds,%ds,%ds
-jade.spawner,%s (%s),%s (%s)
 jade.tnt.unstable,Unstable,不安定
 key.waila.config,Open Config,設定を開く
 key.waila.narrate,Narrate,ナレーション
@@ -188,7 +180,7 @@ config.jade.display_mode_hold_key,Hold,保持
 config.jade.display_mode_hold_key_desc,Display keybind must be held.,表示キーバインドは保持が必要
 config.jade.display_mode_lite,Lite,ライト
 config.jade.display_mode_lite_desc,Hold [Show Details] key to show further information.,【詳細を表示】キーを保持することでさらに詳細な情報が表示される
-config.jade.display_mode_lite_desc.fabric,Hold Shift to show further information.,Shiftキーを保持することでさらに詳細な情報が表示される
+config.jade.display_mode_lite_desc.fabric,Hold Shift to show further information.,シフトキーを保持することでさらに詳細な情報が表示される
 config.jade.display_mode_toggle,Toggle,切替
 config.jade.display_mode_toggle_desc,Display keybind will toggle it on and off.,表示キーバインドでオン/オフを切り替える
 config.jade.display_tooltip,Display Tooltip,ツールチップを表示
@@ -317,7 +309,7 @@ config.jade.tts_mode_press,Press,押す
 config.jade.tts_mode_toggle,Toggle,切替
 gui.jade.by,Made with %s by Snownee,Snowneeによって%sで作成されました
 gui.jade.configuration,Jade Configuration,%s 構成
-gui.jade.configuration.desc1,a §fUI enhancement§r mod that,§f見ているもの§rに関する§f情報を表示する§rUI拡張MODです。
+gui.jade.configuration.desc1,a §fUI enhancement§r mod that,§f見ているもの§rに関する情報を表示するUI拡張MODです
 gui.jade.configuration.desc2,§fdisplays information§r about what §fyou are looking at§r.,§f見ている対象§rについての§f情報§rを表示します。
 gui.jade.disabled_by_mods,This option is disabled by the following mods:,このオプションは次のMODによって無効にされています:
 gui.jade.forced_plugin_config,This option is controlled by the server,このオプションはサーバーが制御します
@@ -338,14 +330,8 @@ jade.down,Down,下
 jade.east,East,東
 jade.error,"<Error occurred, plz report to %s>",<%sMODからエラー、報告してください>
 jade.fluid2,%s %s / %s,
-jade.harvest_tool.unbreakable,Unbreakable,破壊不可
 jade.hopper.locked,Hopper is locked,ホッパーはロックされています
-jade.horseStat.jump,Jump height: %s,ジャンプの高さ: %s
-jade.horseStat.speed,Speed: %s,速度: %s
 jade.input_signal,Input: %d,入力: %d
-jade.instrument.basedrum,Bass Drum,バスドラム (キック)
-jade.instrument.bass,Bass,バス (コントラバス)
-jade.instrument.bell,Bells,ベル (グロッケンシュピール)
 jade.instrument.creeper,Creeper,クリーパー
 jade.instrument.custom_head,Custom Head,カスタムの頭
 jade.instrument.dragon,Dragon,ドラゴン
@@ -353,15 +339,10 @@ jade.instrument.piglin,Piglin,ピグリン
 jade.instrument.skeleton,Skeleton,スケルトン
 jade.instrument.wither_skeleton,Wither Skeleton,ウィザースケルトン
 jade.instrument.zombie,Zombie,ゾンビ
-jade.mobbreeding.time,Breeding CD: %s,繁殖残り時間: %s
 jade.mobduplication.time,Duplication CD: %s,複製残り時間: %s
-jade.mobgrowth.time,Growing time: %s,成長までの時間: %s
-jade.nextEgg,Next Egg: %s,産卵まで: %s
 jade.north,North,北
-jade.potion,%s (%s),
-jade.seconds,{0}s,{0}秒
 jade.south,South,南
-jade.theme.jade.create,Create,
+jade.theme.jade.create,Create,作成
 jade.theme.jade.dark,Dark,ダーク
 jade.theme.jade.top,One Probe,
 jade.theme.jade.waila,Classic,クラシック

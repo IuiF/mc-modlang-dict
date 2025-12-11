@@ -1,17 +1,17 @@
 ﻿key,source_text,target_text
-ftbultimine.change_shape,Hold Shift + (Scroll Mouse or Up/Down keys) to change shape,Shift + （マウスをスクロールまたは上下キー）を押してシェイプを変更
+ftbultimine.change_shape,Hold Shift + (Scroll Mouse or Up/Down keys) to change shape,シフト + (マウスをスクロールまたは上下キー)を押してシェイプを変更
 ftbultimine.change_shape.next,Cycle to Next Shape,次のシェイプに切り替え
 ftbultimine.change_shape.no_shift,Scroll Mouse or Up/Down keys to change shape,マウスをスクロールまたは上下キーを押してシェイプを変更
 ftbultimine.change_shape.prev,Cycle to Previous Shape,前のシェイプに切り替え
-ftbultimine.change_shape.short,Hold Shift for menu,Shiftを押してメニューを開く
+ftbultimine.change_shape.short,Hold Shift for menu,シフトを押してメニューを開く
 ftbultimine.client_settings,Client Settings,クライアント設定
 ftbultimine.client_settings.general,General,一般
 ftbultimine.client_settings.general.require_ultimine_key_for_cycling,Require Ultimine Key for Shape Cycling,シェイプ切り替えにUltimineキーが必須
 ftbultimine.client_settings.general.require_ultimine_key_for_cycling.tooltip,"If true, the Ultimine key (` by default) must be held to cycle shapes via the keyboard (up/down cursor keys by default).
-If false, shapes can be cycled at any time.","Trueの場合、Ultimineキー（デフォルトは`）を押しながらキーボード（デフォルトは上下カーソルキー）でシェイプを切り替える必要があります。
+If false, shapes can be cycled at any time.","Trueの場合、Ultimineキー(デフォルトは`)を押しながらキーボード(デフォルトは上下カーソルキー)でシェイプを切り替える必要があります。
 Falseの場合、いつでもシェイプを切り替えられます。"
 ftbultimine.client_settings.general.shape_feedback_hotbar_message,Hotbar Message on Shape Change,シェイプ変更時のホットバーメッセージ
-ftbultimine.client_settings.general.shape_feedback_hotbar_message.tooltip,"If true, show a feedback message with the new shape on the hotbar when the Ultimining shape is changed",Trueの場合、Ultiminingシェイプが変更されたときにホットバーに新しいシェイプのフィードバックメッセージを表示します
+ftbultimine.client_settings.general.shape_feedback_hotbar_message.tooltip,"If true, show a feedback message with the new shape on the hotbar when the Ultimining shape is changed",Trueの場合、Ultiミニngシェイプが変更されたときにホットバーに新しいシェイプのフィードバックメッセージを表示します
 ftbultimine.client_settings.overlay,Overlay Panel,オーバーレイパネル
 ftbultimine.client_settings.overlay.overlay_inset_x,Overlay Panel X Inset,オーバーレイパネルX インセット
 ftbultimine.client_settings.overlay.overlay_inset_x.tooltip,"Inset is toward center of screen.
@@ -69,17 +69,17 @@ i.e. it must be able to harvest dropped items
 See also 'Require Tool to Ultimine'","Trueの場合、装備されたツールはultimineされているブロックに対して有効である必要があります。
 つまり、ドロップされたアイテムを採掘できる必要があります
 「Ultimineにツールが必須」も参照してください"
-ftbultimine.server_settings.costs_limits.ultimine_cooldown,Ultimine cooldown (ticks),Ultimineクールダウン（ティック）
+ftbultimine.server_settings.costs_limits.ultimine_cooldown,Ultimine cooldown (ticks),Ultimineクールダウン(ティック)
 ftbultimine.server_settings.costs_limits.ultimine_cooldown.tooltip,"Time in ticks required between successive uses of the Ultimine function
 20 ticks = 1 second
-If FTB Ranks is installed, the 'ftbultimine.ultimine_cooldown' node takes priority, if present","Ultimine機能の連続使用間に必要な時間（ティック）
+If FTB Ranks is installed, the 'ftbultimine.ultimine_cooldown' node takes priority, if present","Ultimine機能の連続使用間に必要な時間(ティック)
 20ティック = 1秒
 FTB Ranksがインストールされている場合、存在する場合は「ftbultimine.ultimine_cooldown」ノードが優先されます"
 ftbultimine.server_settings.features,Features,機能
 ftbultimine.server_settings.features.right_click_axe,Axe: Right-Click multiple blocks,斧: 複数ブロックに右クリック
 ftbultimine.server_settings.features.right_click_crystals,Allow Ultimine harvesting of crystals,クリスタル採掘のUltimineを許可
 ftbultimine.server_settings.features.right_click_crystals.tooltip,"Requires the FTB Ez Crystals mod to be installed (NeoForge only)
-Harvest vanilla Amethyst and other modded crystals","FTB Ez Crystalsモッドがインストールされている必要があります（NeoForgeのみ）
+Harvest vanilla Amethyst and other modded crystals","FTB Ez Crystalsモッドがインストールされている必要があります(NeoForgeのみ)
 バニラアメジストおよび他のmodded結晶を採掘"
 ftbultimine.server_settings.features.right_click_harvesting,Allow Ultimine harvesting of crops,作物採掘のUltimineを許可
 ftbultimine.server_settings.features.right_click_hoe,Hoe: Right-Click multiple blocks,クワ: 複数ブロックに右クリック
@@ -89,19 +89,19 @@ ftbultimine.server_settings.features.single_crop_harvesting.tooltip,"When true, 
 ftbultimine.server_settings.misc,Miscellaneous,その他
 ftbultimine.server_settings.misc.cancel_on_block_break_fail,Cancel on Block Break Failure,ブロック破壊失敗時にキャンセル
 ftbultimine.server_settings.misc.cancel_on_block_break_fail.tooltip,Advanced setting: stop digging if unbreakable blocks are encountered instead of skipping over those blocks,高度な設定: 壊せないブロックに遭遇した場合、それらをスキップするのではなく、掘掘を停止します
-ftbultimine.server_settings.misc.merge_tags,Merge Tags (Shapeless),タグをマージ（形状なし）
-ftbultimine.server_settings.misc.merge_tags.tooltip,"For shapeless digging mode, any blocks in these tags which share a block tag with the original mined block are valid candidates for Ultimining.",形状なしの掘掘モードでは、元の採掘されたブロックとブロックタグを共有するこれらのタグ内のブロックはUltiminingの有効な候補です。
-ftbultimine.server_settings.misc.merge_tags_shaped,Merge Tags (Shaped),タグをマージ（形状あり）
+ftbultimine.server_settings.misc.merge_tags,Merge Tags (Shapeless),タグをマージ(形状なし)
+ftbultimine.server_settings.misc.merge_tags.tooltip,"For shapeless digging mode, any blocks in these tags which share a block tag with the original mined block are valid candidates for Ultimining.",形状なしの掘掘モードでは、元の採掘されたブロックとブロックタグを共有するこれらのタグ内のブロックはUltiミニngの有効な候補です。
+ftbultimine.server_settings.misc.merge_tags_shaped,Merge Tags (Shaped),タグをマージ(形状あり)
 ftbultimine.server_settings.misc.merge_tags_shaped.tooltip,"For shaped digging modes, any blocks in these tags which share a block tag with the original mined block are valid candidates for Ultimining.
-Default of '*' means any block is a valid candidate.","形状付き掘掘モードでは、元の採掘されたブロックとブロックタグを共有するこれらのタグ内のブロックはUltiminingの有効な候補です。
+Default of '*' means any block is a valid candidate.","形状付き掘掘モードでは、元の採掘されたブロックとブロックタグを共有するこれらのタグ内のブロックはUltiミニngの有効な候補です。
 デフォルトの「*」は、任意のブロックが有効な候補であることを意味します。"
 ftbultimine.server_settings.misc.prevent_tool_break,Tool Breakage Protection,ツール破損保護
-ftbultimine.server_settings.misc.prevent_tool_break.tooltip,Ultimining will stop if the equipped tool has this much durability or less remaining. Setting this to 0 allows tools to break.,装備されたツールが指定された耐久度以下の場合、Ultiminingは停止します。これを0に設定するとツールが破損することができます。
+ftbultimine.server_settings.misc.prevent_tool_break.tooltip,Ultimining will stop if the equipped tool has this much durability or less remaining. Setting this to 0 allows tools to break.,装備されたツールが指定された耐久度以下の場合、Ultiミニngは停止します。これを0に設定するとツールが破損できます。
 ftbultimine.shape.ftbultimine.escape_tunnel,Escape Tunnel,脱出トンネル
-ftbultimine.shape.ftbultimine.large_tunnel,Large Tunnel (3x3),大型トンネル（3x3）
+ftbultimine.shape.ftbultimine.large_tunnel,Large Tunnel (3x3),大型トンネル(3x3)
 ftbultimine.shape.ftbultimine.mining_tunnel,Mining Tunnel,採掘トンネル
 ftbultimine.shape.ftbultimine.shapeless,Shapeless,形状なし
-ftbultimine.shape.ftbultimine.small_square,Small Square (3x3),小さな正方形（3x3）
+ftbultimine.shape.ftbultimine.small_square,Small Square (3x3),小さな正方形(3x3)
 ftbultimine.shape.ftbultimine.small_tunnel,Small Tunnel,小さなトンネル
 item.ftbultimine.ultiminer,Ultiminer,
 item.ftbultimine.ultiminer.tooltip,Enables the use of %s when active,有効な場合、%sの使用を有効にします

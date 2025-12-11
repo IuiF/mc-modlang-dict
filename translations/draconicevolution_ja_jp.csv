@@ -49,6 +49,7 @@ block.draconicevolution.wyvern_io_crystal,Wyvern Energy I/O Crystal,ワイバー
 block.draconicevolution.wyvern_relay_crystal,Wyvern Energy Relay Crystal,ワイバーンエネルギー継電クリスタル
 block.draconicevolution.wyvern_wireless_crystal,Wyvern Wireless Energy Crystal,ワイバーン無線エネルギークリスタル
 death.attack.administrative.kill,%1$s deserved to die by the powers that be,%1$sは、権力者による死に値した
+death.attack.draconicevolution.draconic_guardian,%1$s was torn apart by %2$s,%1$s は %2$s に引き裂かれた
 death.attack.draconicevolution.guardian_laser,%1$s was vaporized by %2$s using a frickin laser beam,%1$sは%2$sのfrickin laser beamによって気化させられた
 death.attack.draconicevolution.guardian_projectile,%1$s was obliterated by %2$s,%1$sは%2$sによって抹消された
 disenchanter.draconicevolution.not_enough_levels,You require %s levels to extract that enchantment!,そのエンチャントを抽出するには%sレベルが必要です!
@@ -104,10 +105,27 @@ gui.draconicevolution.boolean_property.inactive,Inactive,非アクティブ
 gui.draconicevolution.boolean_property.no,No,いいえ
 gui.draconicevolution.boolean_property.true,True,有効
 gui.draconicevolution.boolean_property.yes,Yes,はい
+gui.draconicevolution.celestial_manipulator.midDay,Noon,正午
 gui.draconicevolution.celestial_manipulator.midnight,Midnight,深夜
+gui.draconicevolution.celestial_manipulator.moonRise,Moonrise,月出
+gui.draconicevolution.celestial_manipulator.moonSet,Moonset,月没
+gui.draconicevolution.celestial_manipulator.rs.0,Clear Skies,晴れ
+gui.draconicevolution.celestial_manipulator.rs.1,Create Rain,雨を作成
+gui.draconicevolution.celestial_manipulator.rs.2,Create Storm,嵐を作成
+gui.draconicevolution.celestial_manipulator.rs.3,Sunrise,日の出
+gui.draconicevolution.celestial_manipulator.rs.4,Noon,正午
+gui.draconicevolution.celestial_manipulator.rs.5,Sunset,日の入り
+gui.draconicevolution.celestial_manipulator.rs.6,Moonrise,月出
+gui.draconicevolution.celestial_manipulator.rs.7,Midnight,真夜中
+gui.draconicevolution.celestial_manipulator.rs.8,Moonset,月没
 gui.draconicevolution.celestial_manipulator.skip24,Skip 24 Hours,24時間スキップ
 gui.draconicevolution.celestial_manipulator.skipTo,Skip To,スキップ
+gui.draconicevolution.celestial_manipulator.startRain,Create Rain,雨を作成
+gui.draconicevolution.celestial_manipulator.startStorm,Create Storm,嵐を作成
 gui.draconicevolution.celestial_manipulator.stop,Stop Skipping,スキップ停止
+gui.draconicevolution.celestial_manipulator.stopRain,Clear Skies,晴れにする
+gui.draconicevolution.celestial_manipulator.sunRise,Sunrise,日の出
+gui.draconicevolution.celestial_manipulator.sunSet,Sunset,日の入り
 gui.draconicevolution.celestial_manipulator.time,Time,時間
 gui.draconicevolution.celestial_manipulator.weather,Weather,天候
 gui.draconicevolution.disenchanter.cost,XP Cost in Levels: %s,XPコスト(レベル別): %s
@@ -156,7 +174,7 @@ gui.draconicevolution.dislocator.update.info,Update the selected location to you
 gui.draconicevolution.draconium_chest.color_picker,Change Chest Color,チェストの色を変更
 gui.draconicevolution.draconium_chest.feed.all.info,"Auto-Smelt: All
 Feed all smeltable items into the furnace.","自動精錬:全て
-全ての精錬可能なアイテムを自動的に精錬します。 "
+全ての精錬可能なアイテムを自動的に精錬します。"
 gui.draconicevolution.draconium_chest.feed.filter.info,"Auto-Smelt: Filtered
 Feed any items that are already being smelted into the furnace.","自動精錬:フィルター
 現在精錬されているものを追加で精錬します"
@@ -278,7 +296,7 @@ gui.draconicevolution.generator.output_power,Output Power:,出力:
 gui.draconicevolution.grinder.aoe,AOE:,範囲:
 gui.draconicevolution.grinder.aoe.info,"Changes the grinder's Area Of Effect.
 (The area in which it will kill mobs.)","グラインダーの効果範囲を変更します。
-(モブを倒す範囲です。"
+（モブを倒す範囲です）"
 gui.draconicevolution.grinder.claim.xp,Claim XP,XP回収
 gui.draconicevolution.grinder.claim.xp.info,Claim all stored XP,蓄積された全ての経験値を回収
 gui.draconicevolution.grinder.claim.xp.level.info,Claim 1 experience level,1レベル回収
@@ -288,9 +306,10 @@ gui.draconicevolution.grinder.collect.items.info,"If enabled, the Grinder will c
 gui.draconicevolution.grinder.collect.xp,Collect XP,XP収集
 gui.draconicevolution.grinder.collect.xp.info,"If enabled, the Grinder will collect XP dropped within the kill area and store it internally.
 This XP can then be claimed by a player or piped out if there is a mod installed that adds liquid XP.","有効にすると、粉砕機はキルエリア内にドロップしたXPを収集し、内部に保管します。
-このXPは、プレイヤーが受け取るか、液体XPを追加するMODがインストールされている場合は搬出することができます。"
+このXPは、プレイヤーが受け取るか、液体XPを追加するMODがインストールされている場合は搬出できます。"
 gui.draconicevolution.grinder.show_aoe,Show AOE,範囲を表示
 gui.draconicevolution.grinder.stored_xp,Stored Experience:,貯蓄経験値:
+gui.draconicevolution.grinder.stored_xp.raw,(Raw XP),(生XP)
 gui.draconicevolution.grinder.weapon_slot,Optional weapon to use when attacking.,攻撃時に使用するオプションの武器。
 gui.draconicevolution.item_config.add_group,Add Group,グループを追加
 gui.draconicevolution.item_config.add_group.info,Add a New Property Group,新しいプロパティグループを追加
@@ -302,20 +321,29 @@ gui.draconicevolution.item_config.configure,Configure,構成
 gui.draconicevolution.item_config.copy_group.info,Copy Group,グループをコピー
 gui.draconicevolution.item_config.delete_group.info,Delete,削除
 gui.draconicevolution.item_config.delete_zone.info,Drop a property or group here to delete it.,プロパティまたはグループをここにドロップして削除します。
+gui.draconicevolution.item_config.disable_adv_xover,Disable Advanced Crossover,アドバンスド・クロスオーバーを無効化
 gui.draconicevolution.item_config.disable_adv_xover.info,"Hide configured properties, property groups and presets when in simple configuration mode.",単純な構成モードでは、構成されたプロパティ、プロパティグループ、およびプリセットを非表示にします。
+gui.draconicevolution.item_config.disable_snapping,Disable Snapping,スナップを無効化
 gui.draconicevolution.item_config.disable_snapping.info,Toggle Property/Group Position Snapping,プロパティ/グループ位置スナップの切り替え
+gui.draconicevolution.item_config.disable_visualization,Disable Visualization,ビジュアライゼーションを無効化
 gui.draconicevolution.item_config.disable_visualization.info,Toggle the highlight/animation that occurs over a properties associated item when hovering over or editing a property.,プロパティにカーソルを合わせるとき、またはプロパティを編集するときに、プロパティに関連付けられたアイテム上で発生するハイライト/アニメーションを切り替えます。
 gui.draconicevolution.item_config.drop_create_group.info,Drop to Create Group,ドロップしてグループを作成
 gui.draconicevolution.item_config.drop_prop_here,Drop Property Here,ここにプロパティをドロップ
 gui.draconicevolution.item_config.drop_to_delete.info,Drop to delete.,ドロップして削除します。
 gui.draconicevolution.item_config.edit_preset.info,Edit Preset Properties,プリセットプロパティの編集
+gui.draconicevolution.item_config.enable_adv_xover,Enable Advanced Crossover,アドバンスド・クロスオーバーを有効化
 gui.draconicevolution.item_config.enable_adv_xover.info,"Show configured properties, property groups and presets when in simple configuration mode.",単純な構成モードの場合、構成されたプロパティ、プロパティグループ、およびプリセットを表示します。
+gui.draconicevolution.item_config.enable_snapping,Enable Snapping,スナップを有効化
+gui.draconicevolution.item_config.enable_visualization,Enable Visualization,ビジュアライゼーションを有効化
 gui.draconicevolution.item_config.expand_group.info,Expand Group,グループを展開
 gui.draconicevolution.item_config.global.info,"Toggle global mode
 When in global mode, a property will be applied to all equipment of the same type.
 Please note that when in global mode, the displayed value may not match the item's actual value.","グローバルモードの切り替え
 グローバルモードでは、同じタイプのすべての拡張パーツにプロパティが適用されます。
 グローバルモードでは、表示される値がアイテムの実際の値と一致しない場合があることに注意してください。"
+gui.draconicevolution.item_config.hide_delete_zone,"Hide ""Delete Zone""",「削除ゾーン」を非表示
+gui.draconicevolution.item_config.hide_group_button,"Hide ""New Group"" Button",「新規グループ」ボタンを非表示
+gui.draconicevolution.item_config.hide_unavailable,Hide Unavailable,利用不可を非表示
 gui.draconicevolution.item_config.hide_unavailable.info,Hide properties if the associated item is not available.,関連付けられたアイテムが使用できない場合は、プロパティを非表示にします。
 gui.draconicevolution.item_config.move_group.info,Click and drag to move this group.,クリックしてドラッグし、このグループを移動します。
 gui.draconicevolution.item_config.move_prop.info,Click and drag to move property.,クリックしてドラッグし、プロパティを移動します。
@@ -327,6 +355,9 @@ gui.draconicevolution.item_config.options,Options,設定
 gui.draconicevolution.item_config.provider_unavailable,Item not available.,アイテムはご利用いただけません。
 gui.draconicevolution.item_config.select_item_to_get_started,Select a configurable item to get started.,構成可能な品目を選択して開始します。
 gui.draconicevolution.item_config.set_key_bind.info,Click to set a keybind for this preset.,クリックすると、このプリセットのキーバインドを設定できます。
+gui.draconicevolution.item_config.show_delete_zone,"Show ""Delete Zone""",「削除ゾーン」を表示
+gui.draconicevolution.item_config.show_group_button,"Show ""New Group"" Button",「新規グループ」ボタンを表示
+gui.draconicevolution.item_config.show_unavailable,Show Unavailable,利用不可を表示
 gui.draconicevolution.item_config.show_unavailable.info,Show properties if the associated item is not available.,関連付けられたアイテムが使用できない場合は、プロパティを表示します。
 gui.draconicevolution.item_config.toggle_advanced.info,Toggle advanced config mode,詳細設定モードの切り替え
 gui.draconicevolution.item_config.toggle_global_binding.info,"Global Binding
@@ -453,34 +484,79 @@ item.draconicevolution.awakened_draconium_dust,Awakened Draconium Dust,覚醒ド
 item.draconicevolution.awakened_draconium_ingot,Awakened Draconium Ingot,覚醒ドラコニウムインゴット
 item.draconicevolution.awakened_draconium_nugget,Awakened Draconium Nugget,覚醒ドラコニウム塊
 item.draconicevolution.chaos_shard,Chaos Shard,カオスの破片
+item.draconicevolution.chaotic_aoe_module,Chaotic AOE Module,カオティック 範囲 モジュール
 item.draconicevolution.chaotic_axe,Chaotic Axe,カオティックの斧
 item.draconicevolution.chaotic_bow,Chaotic Bow,カオティックの弓
 item.draconicevolution.chaotic_capacitor,Chaotic Capacitor,カオティック蓄電器
 item.draconicevolution.chaotic_chestpiece,Chaotic Chestpiece,カオティックチェストピース
 item.draconicevolution.chaotic_core,Chaotic Core,カオティックコア
+item.draconicevolution.chaotic_damage_module,Chaotic Damage Module,カオティックダメージモジュール
 item.draconicevolution.chaotic_energy_core,Chaotic Energy Controller,カオティックエネルギー制御装置
+item.draconicevolution.chaotic_energy_link_module,Chaos-Entangled Quantum Energy Tunnel,カオティックエネルギー リンクモジュール
+item.draconicevolution.chaotic_energy_module,Chaotic Energy Module,カオティックエネルギーモジュール
+item.draconicevolution.chaotic_flight_module,Chaotic Flight Module,カオティック フライト モジュール
 item.draconicevolution.chaotic_hoe,Chaotic Hoe,カオティックのクワ
+item.draconicevolution.chaotic_jump_module,Chaotic Jump Module,カオティック ジャンプ モジュール
+item.draconicevolution.chaotic_large_shield_capacity_module,Chaotic Large Shield Capacity Module,カオティックラージ シールド キャパシティモジュール
 item.draconicevolution.chaotic_pickaxe,Chaotic Pickaxe,カオティックのツルハシ
+item.draconicevolution.chaotic_proj_accuracy_module,Chaotic Projectile Accuracy Module,カオティック Proj アキュラシーモジュール
+item.draconicevolution.chaotic_proj_damage_module,Chaotic Projectile Damage Module,カオティック Proj ダメージモジュール
+item.draconicevolution.chaotic_proj_grav_comp_module,Chaotic Projectile Gravity Compensation Module,カオティック Proj Grav Comp モジュール
+item.draconicevolution.chaotic_proj_penetration_module,Chaotic Projectile Penetration Module,カオティック Proj ペネトレーションモジュール
+item.draconicevolution.chaotic_proj_velocity_module,Chaotic Projectile Velocity Module,カオティック Proj ベロシティモジュール
+item.draconicevolution.chaotic_shield_capacity_module,Chaotic Shield Capacity Module,カオティックシールド キャパシティモジュール
+item.draconicevolution.chaotic_shield_control_module,Chaotic Shield Control Module,カオティックシールド コントロールモジュール
+item.draconicevolution.chaotic_shield_recovery_module,Chaotic Shield Recovery Module,カオティックシールド リカバリーモジュール
 item.draconicevolution.chaotic_shovel,Chaotic Shovel,カオティックのシャベル
+item.draconicevolution.chaotic_speed_module,Chaotic Speed Module,カオティック スピード モジュール
 item.draconicevolution.chaotic_staff,Chaotic Staff of Power,カオティックの力の杖
 item.draconicevolution.chaotic_sword,Chaotic Sword,カオティックの剣
+item.draconicevolution.chaotic_tree_harvest_module,Chaotic Deforestation Module,カオティック 木材収穫 モジュール
+item.draconicevolution.chaotic_undying_module,Chaotic Undying Module,カオティック 不滅 モジュール
 item.draconicevolution.creative_capacitor,Creative Capacitor,クリエイティブ蓄電器
 item.draconicevolution.crystal_binder,Crystal Binder,クリスタルバインダー
 item.draconicevolution.dislocator,Dislocator,ディスロケーター
+item.draconicevolution.draconic_aoe_module,Draconic AOE Module,ドラコニック 範囲 モジュール
+item.draconicevolution.draconic_auto_feed_module,Draconic Auto Feed Module,ドラコニック 自動フィードモジュール
 item.draconicevolution.draconic_axe,Draconic Axe,ドラコニックの斧
 item.draconicevolution.draconic_bow,Draconic Bow,ドラコニックの弓
 item.draconicevolution.draconic_capacitor,Draconic Capacitor,ドラコニック蓄電器
 item.draconicevolution.draconic_chestpiece,Draconic Chestpiece,ドラコニックチェストピース
+item.draconicevolution.draconic_damage_module,Draconic Damage Module,ドラコニック ダメージモジュール
+item.draconicevolution.draconic_ender_collection_module,Filterable Ender Collection Module,ドラコニックエンダー コレクション モジュール
 item.draconicevolution.draconic_energy_core,Draconic Energy Controller,ドラコニックエネルギー制御装置
+item.draconicevolution.draconic_energy_link_module,Quantum Energy Tunnel,ドラコニックエネルギー リンクモジュール
+item.draconicevolution.draconic_energy_module,Draconic Energy Module,ドラコニックエネルギーモジュール
+item.draconicevolution.draconic_flight_module,Draconic Flight Module,ドラコニック フライト モジュール
 item.draconicevolution.draconic_hoe,Draconic Hoe,ドラコニックのクワ
+item.draconicevolution.draconic_jump_module,Draconic Jump Module,ドラコニック ジャンプ モジュール
+item.draconicevolution.draconic_large_shield_capacity_module,Draconic Large Shield Capacity Module,ドラコニックラージ シールド キャパシティモジュール
 item.draconicevolution.draconic_pickaxe,Draconic Pickaxe,ドラコニックのツルハシ
+item.draconicevolution.draconic_proj_accuracy_module,Draconic Projectile Accuracy Module,ドラコニック Proj アキュラシーモジュール
+item.draconicevolution.draconic_proj_anti_immune_module,Projectile Immunity Cancellation Module,ドラコニック Proj アンチイムーン モジュール
+item.draconicevolution.draconic_proj_damage_module,Draconic Projectile Damage Module,ドラコニック Proj ダメージモジュール
+item.draconicevolution.draconic_proj_grav_comp_module,Draconic Projectile Gravity Compensation Module,ドラコニック Proj Grav Comp モジュール
+item.draconicevolution.draconic_proj_penetration_module,Draconic Projectile Penetration Module,ドラコニック Proj ペネトレーションモジュール
+item.draconicevolution.draconic_proj_velocity_module,Draconic Projectile Velocity Module,ドラコニック Proj ベロシティモジュール
+item.draconicevolution.draconic_shield_capacity_module,Draconic Shield Capacity Module,ドラコニックシールド キャパシティモジュール
+item.draconicevolution.draconic_shield_control_module,Draconic Shield Control Module,ドラコニックシールド コントロールモジュール
+item.draconicevolution.draconic_shield_recovery_module,Draconic Shield Recovery Module,ドラコニックシールド リカバリーモジュール
 item.draconicevolution.draconic_shovel,Draconic Shovel,ドラコニックのシャベル
+item.draconicevolution.draconic_speed_module,Draconic Speed Module,ドラコニック スピード モジュール
 item.draconicevolution.draconic_staff,Draconic Staff of Power,ドラコニックの力の杖
 item.draconicevolution.draconic_sword,Draconic Sword,ドラコニックの剣
+item.draconicevolution.draconic_tree_harvest_module,Draconic Forest Reduction Assistant,ドラコニック 木材収穫 モジュール
+item.draconicevolution.draconic_undying_module,Draconic Undying Module,ドラコニック 不滅 モジュール
+item.draconicevolution.draconium_aoe_module,AOE Module,Draconium 範囲 モジュール
+item.draconicevolution.draconium_auto_feed_module,Auto Feed Module,Draconium 自動フィードモジュール
 item.draconicevolution.draconium_core,Draconium Core,ドラコニウムコア
+item.draconicevolution.draconium_damage_module,Damage Module,Draconium ダメージモジュール
 item.draconicevolution.draconium_dust,Draconium Dust,ドラコニウムの粉
+item.draconicevolution.draconium_energy_module,Energy Module,Draconium エネルギーモジュール
 item.draconicevolution.draconium_ingot,Draconium Ingot,ドラコニウムインゴット
+item.draconicevolution.draconium_jump_module,Jump Module,Draconium ジャンプ モジュール
 item.draconicevolution.draconium_nugget,Draconium Nugget,ドラコニウム塊
+item.draconicevolution.draconium_speed_module,Speed Module,Draconium スピード モジュール
 item.draconicevolution.dragon_heart,Dragon Heart,ドラゴンハート
 item.draconicevolution.info_tablet,Information Tablet,情報タブレット
 item.draconicevolution.large_chaos_frag,Large Chaos Fragment,大型カオスフラグメント
@@ -498,23 +574,47 @@ item.draconicevolution.reactor_prt_out_rotor,Reactor Stabilizer Outer Rotor,リ�
 item.draconicevolution.reactor_prt_rotor_full,Reactor Stabilizer Rotor Assembly,リアクター安定化装置ローター組立部品
 item.draconicevolution.reactor_prt_stab_frame,Reactor Stabilizer Frame,リアクター安定化装置外枠
 item.draconicevolution.small_chaos_frag,Tiny Chaos Fragment,極小カオスフラグメント
+item.draconicevolution.wyvern_aoe_module,Wyvern AOE Module,ワイバーン 範囲 モジュール
+item.draconicevolution.wyvern_auto_feed_module,Wyvern Auto Feed Module,ワイバーン 自動フィードモジュール
+item.draconicevolution.wyvern_auto_fire_module,Auto Fire Module,ワイバーン 自動 炎 モジュール
 item.draconicevolution.wyvern_axe,Wyvern Axe,ワイバーンの斧
 item.draconicevolution.wyvern_bow,Wyvern Bow,ワイバーンの弓
 item.draconicevolution.wyvern_capacitor,Wyvern Capacitor,ワイバーン蓄電器
 item.draconicevolution.wyvern_chestpiece,Wyvern Chestpiece,ワイバーンチェストピース
 item.draconicevolution.wyvern_core,Wyvern Core,ワイバーンコア
+item.draconicevolution.wyvern_damage_module,Wyvern Damage Module,ワイバーン ダメージモジュール
+item.draconicevolution.wyvern_ender_collection_module,Ender Collection Module,ワイバーン エンダー コレクション モジュール
 item.draconicevolution.wyvern_energy_core,Wyvern Energy Controller,ワイバーンエネルギー制御装置
+item.draconicevolution.wyvern_energy_link_module,Wireless Energy Link,ワイバーン エネルギー リンクモジュール
+item.draconicevolution.wyvern_energy_module,Wyvern Energy Module,ワイバーン エネルギーモジュール
+item.draconicevolution.wyvern_flight_module,Wyvern Flight Module,ワイバーン フライト モジュール
+item.draconicevolution.wyvern_hill_step_module,Hill Step Module,ワイバーン 丘 段階 モジュール
 item.draconicevolution.wyvern_hoe,Wyvern Hoe,ワイバーンのクワ
+item.draconicevolution.wyvern_jump_module,Wyvern Jump Module,ワイバーン ジャンプ モジュール
+item.draconicevolution.wyvern_junk_filter_module,Selective Incineration Module,ワイバーン ジャンク フィルターモジュール
+item.draconicevolution.wyvern_large_shield_capacity_module,Wyvern Large Shield Capacity Module,ワイバーン ラージ シールド キャパシティモジュール
+item.draconicevolution.wyvern_night_vision_module,Night Vision Module,ワイバーン 夜間 視覚 モジュール
 item.draconicevolution.wyvern_pickaxe,Wyvern Pickaxe,ワイバーンのツルハシ
+item.draconicevolution.wyvern_proj_accuracy_module,Wyvern Projectile Accuracy Module,ワイバーン Proj アキュラシーモジュール
+item.draconicevolution.wyvern_proj_damage_module,Wyvern Projectile Damage Module,ワイバーン Proj ダメージモジュール
+item.draconicevolution.wyvern_proj_grav_comp_module,Wyvern Projectile Gravity Compensation Module,ワイバーン Proj Grav Comp モジュール
+item.draconicevolution.wyvern_proj_penetration_module,Wyvern Projectile Penetration Module,ワイバーン Proj ペネトレーションモジュール
+item.draconicevolution.wyvern_proj_velocity_module,Wyvern Projectile Velocity Module,ワイバーン Proj ベロシティモジュール
+item.draconicevolution.wyvern_shield_capacity_module,Wyvern Shield Capacity Module,ワイバーンシールド キャパシティモジュール
+item.draconicevolution.wyvern_shield_control_module,Wyvern Shield Control Module,ワイバーンシールド コントロールモジュール
+item.draconicevolution.wyvern_shield_recovery_module,Wyvern Shield Recovery Module,ワイバーンシールド リカバリーモジュール
 item.draconicevolution.wyvern_shovel,Wyvern Shovel,ワイバーンのシャベル
+item.draconicevolution.wyvern_speed_module,Wyvern Speed Module,ワイバーン スピード モジュール
 item.draconicevolution.wyvern_sword,Wyvern Sword,ワイバーンの剣
+item.draconicevolution.wyvern_tree_harvest_module,Wyvern Tree Harvester,ワイバーン 木材収穫 モジュール
+item.draconicevolution.wyvern_undying_module,Wyvern Undying Module,ワイバーン 不滅 モジュール
 itemGroup.draconicevolution.blocks,Draconic Evolution Blocks,DraconicEvolution ブロック
 itemGroup.draconicevolution.items,Draconic Evolution Items,DraconicEvolution アイテム
 itemGroup.draconicevolution.modules,Draconic Evolution Modules,DraconicEvolution モジュール
 item_dislocate.draconicevolution.activate,Item Dislocator Activated,アイテムディスロケーターがアクティブになりました
 item_dislocate.draconicevolution.deactivate,Item Dislocator Deactivated,アイテムディスロケーターが非アクティブになりました
 item_prop.draconicevolution.aoe_safe,AOE Safe Mode,範囲セーフモード
-item_prop.draconicevolution.aoe_safe.blocked,§9(§aAOE Safe Mode is enabled§9)§cOperation cancelled due to TileEntity within AOE range.,§9(§範囲セーフモードが有効になっているa§9)§cタイルエンティティが採掘範囲内にある為、操作がキャンセルされました
+item_prop.draconicevolution.aoe_safe.blocked,§9(§aAOE Safe Mode is enabled§9)§cOperation cancelled due to TileEntity within AOE range.,(§範囲セーフモードが有効になっているa)§cタイルエンティティが採掘範囲内にある為、操作がキャンセルされました
 item_prop.draconicevolution.aoe_safe.info,"When enabled, this tool will not break anything if it detects a tile entity within its AOE range. This can help prevent you from accidentally breaking half of your base with a single misclick.",有効にすると、このツールは採掘範囲内にタイルエンティティを検出した場合に破壊をキャンセルします。クリックミスで破壊するのを防ぐことができます。
 item_prop.draconicevolution.attack_aoe,Attack Radius,攻撃半径
 item_prop.draconicevolution.attack_aoe.info,"Allows you to adjust the area covered by this weapon's swing.
@@ -531,7 +631,7 @@ item_prop.draconicevolution.ender_collection_mod.enabled,Ender Collection,エン
 item_prop.draconicevolution.energy_link_mod.enabled,Enable Link,リンク有効
 item_prop.draconicevolution.energy_link_mod.enabled.info,"Allows you to enable / disable the link.
 The link requires constant energy to maintain.
-But activating the link also requires a significant amount of energy.","リンクを有効/無効にすることができます。
+But activating the link also requires a significant amount of energy.","リンクを有効/無効にできます。
 リンクを維持するためには、一定のエネルギーが必要です。
 ただし、リンクをアクティブにするには、大量のエネルギーも必要です。"
 item_prop.draconicevolution.feed_mod.consume_food,Consume Food,食べ物を消費
@@ -562,7 +662,7 @@ item_prop.draconicevolution.run_speed.info,Allows you to adjust the speed boost 
 item_prop.draconicevolution.shield_mod.always_visible,Shield Always Visible,シールドの可視
 item_prop.draconicevolution.shield_mod.always_visible.info,"Purely cosmetic. If false, your shield will only be visible when it absorbs damage.",コスメティック設定。無効の場合、シールドはダメージ吸収時にのみ表示されます。
 item_prop.draconicevolution.shield_mod.enabled,Shield Toggle,シールド切り替え
-item_prop.draconicevolution.shield_mod.enabled.info,Allows you to disable your shield. This prevents your shield from using power but leaves you vulnerable to damage.,シールドを無効にすることができます。これにより、シールドがパワーを使用するのを防ぎますが、ダメージに対して脆弱になります。
+item_prop.draconicevolution.shield_mod.enabled.info,Allows you to disable your shield. This prevents your shield from using power but leaves you vulnerable to damage.,シールドを無効にできます。これにより、シールドがパワーを使用するのを防ぎますが、ダメージに対して脆弱になります。
 item_prop.draconicevolution.tree_harvest_mod.leaves,Harvest Leaves,木こりによる葉破壊
 item_prop.draconicevolution.tree_harvest_mod.range,Harvest Radius,木こり範囲
 item_prop.draconicevolution.walk_speed,Walk Speed,歩行速度
@@ -587,7 +687,7 @@ modular_item.draconicevolution.error.only_one_use_override_module,There is alrea
 modular_item.draconicevolution.requires_energy,This item requires energy modules to function.,このアイテムはエネルギーモジュールを要求しています。
 modular_item.draconicevolution.requires_energy_press,Press %s to open module config.,%s を押してモジュール構成を開きます。
 module.draconicevolution.aoe.name,AOE,範囲
-module.draconicevolution.aoe.value,%sx%s,Value
+module.draconicevolution.aoe.value,%sx%s,
 module.draconicevolution.auto_feed.name,Food Storage,食料ストレージ
 module.draconicevolution.auto_feed.stored,Food Stored:,食料貯蓄:
 module.draconicevolution.auto_feed.stored.value,%s Hunger Points,%s 満腹度
@@ -596,29 +696,29 @@ module.draconicevolution.damage.attack,+%s Attack Damage,+%s 攻撃力
 module.draconicevolution.damage.name,Damage,ダメージ
 module.draconicevolution.ender_storage.about,Transfers collected items to your personal ender chest.,収集したアイテムを自分だけのエンダーチェストに移します。
 module.draconicevolution.ender_storage.about_compat,Can be bound to an Ender Storage ender chest.,エンダーストレージのエンダーチェストに接続できます。
-module.draconicevolution.ender_storage.about_compat2,(Shift+Right Click ender chest with module),(モジュール付きのエンダーチェストをShift+右クリック)
+module.draconicevolution.ender_storage.about_compat2,(Shift+Right Click ender chest with module),(モジュール付きのエンダーチェストをシフト+右クリック)
 module.draconicevolution.ender_storage.frequency,Frequency,周波数
-module.draconicevolution.ender_storage.how_to_clear,Shift right click module to clear,Shiftキーを押しながらモジュールを右クリックで消去
+module.draconicevolution.ender_storage.how_to_clear,Shift right click module to clear,シフトキーを押しながらモジュールを右クリックで消去
 module.draconicevolution.ender_storage.owner,Owner,オーナー
 module.draconicevolution.energy.capacity,Energy Capacity,エネルギー蓄電
-module.draconicevolution.energy.capacity.value,+%s OP,Value
+module.draconicevolution.energy.capacity.value,+%s OP,
 module.draconicevolution.energy.stored_energy,Stored Energy,蓄電量
 module.draconicevolution.energy.transfer,Energy Transfer,エネルギー伝達
-module.draconicevolution.energy.transfer.value,+%s OP/t,Value
+module.draconicevolution.energy.transfer.value,+%s OP/t,
 module.draconicevolution.energy_link.activation,Activation Energy,活性化エネルギー
-module.draconicevolution.energy_link.activation.value,%s OP,Value
+module.draconicevolution.energy_link.activation.value,%s OP,
 module.draconicevolution.energy_link.charging,Activating,アクティブ化
 module.draconicevolution.energy_link.core_not_active,Core must be active.,コアがアクティブである必要があります。
 module.draconicevolution.energy_link.dimensional,Inter-Dimensional,次元間
 module.draconicevolution.energy_link.dimensional.false,False,無効
 module.draconicevolution.energy_link.dimensional.true,True,有効
-module.draconicevolution.energy_link.link_to_core,Shift Right Click Energy Core with module to link.,Shift右クリックでエネルギーコアとモジュールをリンクします。
+module.draconicevolution.energy_link.link_to_core,Shift Right Click Energy Core with module to link.,シフト右クリックでエネルギーコアとモジュールをリンクします。
 module.draconicevolution.energy_link.linked_core,Linked Core,コアと接続済み
 module.draconicevolution.energy_link.operation,Operation Energy,オペレーションエネルギー
 module.draconicevolution.energy_link.operation.value,"Min: %s, Max: %s OP/t","最小: %s, 最大: %s OP/t"
 module.draconicevolution.energy_link.transfer,Transfer Rate,伝達レート
-module.draconicevolution.energy_link.transfer.value,%s OP/t,Value
-module.draconicevolution.filtered_module.clear_slot,Shift+Right click to clear,Shift+右クリックで消去
+module.draconicevolution.energy_link.transfer.value,%s OP/t,
+module.draconicevolution.filtered_module.clear_slot,Shift+Right click to clear,シフト+右クリックで消去
 module.draconicevolution.filtered_module.configure_slot,Right click to set tag filter,右クリックでタグフィルターを設定
 module.draconicevolution.filtered_module.filter_by_tag,Filter by item tag,アイテムタグによるフィルタリング
 module.draconicevolution.filtered_module.filter_example,e.g. forge:stone,例: forge:stone
@@ -636,33 +736,33 @@ module.draconicevolution.flight.true.false,Elytra,エリトラ
 module.draconicevolution.flight.true.true,Creative & Elytra,クリエイティブ&エリトラ
 module.draconicevolution.grid_size,Module Size,モジュールサイズ
 module.draconicevolution.jump.name,Jump Boost,ジャンプブースト
-module.draconicevolution.jump.value,+%s%%,Value
+module.draconicevolution.jump.value,+%s%%,
 module.draconicevolution.max_installable,Max Installable,最大搭載量
 module.draconicevolution.module_type,Module Type,モジュールタイプ
 module.draconicevolution.proj_accuracy.name,Inaccuracy,不正確
-module.draconicevolution.proj_accuracy.value,%s%%,Value
+module.draconicevolution.proj_accuracy.value,%s%%,
 module.draconicevolution.proj_damage.name,Base Damage,基礎ダメージ
-module.draconicevolution.proj_damage.value,%s%%,Value
+module.draconicevolution.proj_damage.value,%s%%,
 module.draconicevolution.proj_grav_comp.name,Gravity Cancellation,重力耐性
-module.draconicevolution.proj_grav_comp.value,%s%%,Value
+module.draconicevolution.proj_grav_comp.value,%s%%,
 module.draconicevolution.proj_penetration.info,Increases the chance a projectile will pass through a target and potentially hit additional targets.,発射物がターゲットを貫通し、追加のターゲットに命中する可能性が高くなります。
 module.draconicevolution.proj_penetration.info2,Decreases by 25%% for every subsequent target.,後続のターゲットごとに25%減少します。
 module.draconicevolution.proj_penetration.name,Penetration Chance,貫通率
-module.draconicevolution.proj_penetration.value,%s%%,Value
+module.draconicevolution.proj_penetration.value,%s%%,
 module.draconicevolution.proj_velocity.name,Velocity,速度
-module.draconicevolution.proj_velocity.value,%s%% (~%s m/s),Value
+module.draconicevolution.proj_velocity.value,%s%% (~%s m/s),
 module.draconicevolution.shield_capacity.name,Shield Capacity,シールド容量
 module.draconicevolution.shield_capacity.value,%s points,%s ポイント
 module.draconicevolution.shield_control.name,Shield Cooldown,シールドクールダウン
 module.draconicevolution.shield_control.value,%s Seconds,%s 秒
 module.draconicevolution.shield_passive.name,Shield Operating Cost,シールド運用コスト
-module.draconicevolution.shield_passive.value,%s OP/t,Value
+module.draconicevolution.shield_passive.value,%s OP/t,
 module.draconicevolution.shield_recharge.name,Shield Recharge,シールド再チャージ
 module.draconicevolution.shield_recharge.value,"%s pps (%s seconds)
 @ %s OP/t","%s pps (%s 秒)
 @ %s OP/t"
 module.draconicevolution.speed.name,Speed,速度
-module.draconicevolution.speed.value,+%s%%,Value
+module.draconicevolution.speed.value,+%s%%,
 module.draconicevolution.tree_harvest.area,Area: Hold right click in centre of target area.,エリア:ターゲットエリアの中央で右クリックを押し続けます。
 module.draconicevolution.tree_harvest.single,Single: Hold right click on tree.,シングル:樹を右クリックし続けます。
 module.draconicevolution.tree_harvest_range.name,Tree Harvest Range,木こり範囲
@@ -672,7 +772,7 @@ module.draconicevolution.tree_harvest_speed.value,%s Blocks/s,%sブロック/s
 module.draconicevolution.undying.charge.name,Charge Time,チャージ時間
 module.draconicevolution.undying.charge.value,%s Seconds,%s 秒
 module.draconicevolution.undying.energy.name,Charge Energy,チャージエネルギー
-module.draconicevolution.undying.energy.value,%sOP @%s OP/t,Value
+module.draconicevolution.undying.energy.value,%sOP @%s OP/t,
 module.draconicevolution.undying.health.name,Health Boost,体力増強
 module.draconicevolution.undying.health.value,%s Health points,%s 体力
 module.draconicevolution.undying.invuln.active,Invulnerable for %s Seconds,%s 秒間無敵
@@ -709,27 +809,27 @@ msg.draconicevolution.celestial_manipulator.insufficientPower,Not enough energy.
 msg.draconicevolution.celestial_manipulator.notRaining,You can't stop rain that isn't there!,降っていない雨は止められません！
 msg.draconicevolution.energy_core.already_building,Assembly already in progress!,組み立てはすでに進行中です!
 msg.draconicevolution.energy_core.core_not_found,404 Core Not Found!!!,Core Not Found
-numprefix.draconicevolution.10-12," Tera ",10-12
-numprefix.draconicevolution.10-15," Peta ",10-15
-numprefix.draconicevolution.10-18," Exa ",10-18
-numprefix.draconicevolution.10-21," Zetta ",10-21
-numprefix.draconicevolution.10-24," Yotta ",10-24
-numprefix.draconicevolution.10-27," Octillion ",10-27
-numprefix.draconicevolution.10-3," Kilo ",10-3
-numprefix.draconicevolution.10-30," Nonillion ",10-30
-numprefix.draconicevolution.10-33," Decillion ",10-33
-numprefix.draconicevolution.10-36," Undecillion ",10-36
-numprefix.draconicevolution.10-39," Duodecillion ",10-39
-numprefix.draconicevolution.10-42," Tredecillion ",10-42
-numprefix.draconicevolution.10-45," Quattuordecillion ",10-45
-numprefix.draconicevolution.10-48," Quindecillion ",10-48
-numprefix.draconicevolution.10-51," Sexdecillion ",10-51
-numprefix.draconicevolution.10-54," Septendecillion ",10-54
-numprefix.draconicevolution.10-57," Octodecillion ",10-57
-numprefix.draconicevolution.10-6," Mega ",10-6
-numprefix.draconicevolution.10-60," Novemdecillion ",10-60
-numprefix.draconicevolution.10-63," Vigintillion ",10-63
-numprefix.draconicevolution.10-9," Giga ",10-9
+numprefix.draconicevolution.10-12," Tera ",テラ
+numprefix.draconicevolution.10-15," Peta ",ペタ
+numprefix.draconicevolution.10-18," Exa ",エクサ
+numprefix.draconicevolution.10-21," Zetta ",ゼタ
+numprefix.draconicevolution.10-24," Yotta ",ヨタ
+numprefix.draconicevolution.10-27," Octillion ",オクティリオン
+numprefix.draconicevolution.10-3," Kilo ",キロ
+numprefix.draconicevolution.10-30," Nonillion ",ノニリオン
+numprefix.draconicevolution.10-33," Decillion ",デシリオン
+numprefix.draconicevolution.10-36," Undecillion ",ウンデシリオン
+numprefix.draconicevolution.10-39," Duodecillion ",ドゥオデシリオン
+numprefix.draconicevolution.10-42," Tredecillion ",トレデシリオン
+numprefix.draconicevolution.10-45," Quattuordecillion ",クアトゥオルデシリオン
+numprefix.draconicevolution.10-48," Quindecillion ",クインデシリオン
+numprefix.draconicevolution.10-51," Sexdecillion ",セクスデシリオン
+numprefix.draconicevolution.10-54," Septendecillion ",セプテンデシリオン
+numprefix.draconicevolution.10-57," Octodecillion ",オクトデシリオン
+numprefix.draconicevolution.10-6," Mega ",メガ
+numprefix.draconicevolution.10-60," Novemdecillion ",ノヴェムデシリオン
+numprefix.draconicevolution.10-63," Vigintillion ",ヴィジンティリオン
+numprefix.draconicevolution.10-9," Giga ",ギガ
 tech_level.draconicevolution.chaotic,Chaotic,カオティック
 tech_level.draconicevolution.draconic,Draconic,ドラコニック
 tech_level.draconicevolution.draconium,Draconium,ドラコニウム
@@ -759,20 +859,8 @@ gui.draconicevolution.entity_detector.rsmax.info,The minimum number of detected 
 gui.draconicevolution.entity_detector.rsmin.info,The minimum number of detected entities required to produce a redstone signal of 1.,レッドストーン信号を生成するために必要な検出されたエンティティの最小数は1です。
 gui.draconicevolution.grinder.close_large_view,Close large filter view.,大きなフィルタービューを閉じます。
 gui.draconicevolution.grinder.xp_value,%s (Raw XP),%s (生の経験値)
-gui.draconicevolution.item_config.disable_adv_xover,Advanced Crossover: Enabled,高度なクロスオーバー:有効
-gui.draconicevolution.item_config.disable_snapping,Snapping: Enabled,スナップ:有効
-gui.draconicevolution.item_config.disable_visualization,Visualization: Enabled,視覚化: 有効
-gui.draconicevolution.item_config.enable_adv_xover,Advanced Crossover: Disabled,発展クロスオーバー:無効
-gui.draconicevolution.item_config.enable_snapping,Snapping: Disabled,スナップ:無効
-gui.draconicevolution.item_config.enable_visualization,Visualization: Disabled,視覚化: 無効
-gui.draconicevolution.item_config.hide_delete_zone,"""Delete Zone"": Shown",「削除ゾーン」: 表示
-gui.draconicevolution.item_config.hide_group_button,"""New Group"" Button: Shown",「新しいグループ」ボタン:表示
-gui.draconicevolution.item_config.hide_unavailable,Unavailable: Shown,利用不可: 表示中
 gui.draconicevolution.item_config.no_items_for_preset.msg,[No configurable items found for this preset],[このプリセットの構成可能なアイテムは見つかりませんでした]
-gui.draconicevolution.item_config.preset_applied.msg,"Config preset: ""%s"" Applied to: ",構成プリセット:「%s」適用先: 
-gui.draconicevolution.item_config.show_delete_zone,"""Delete Zone"": Hidden",「ゾーンの削除」:非表示
-gui.draconicevolution.item_config.show_group_button,"""New Group"" Button: Hidden",「新しいグループ」ボタン:非表示
-gui.draconicevolution.item_config.show_unavailable,Unavailable: Hidden,利用不可: 非表示
+gui.draconicevolution.item_config.preset_applied.msg,"Config preset: ""%s"" Applied to: ",構成プリセット:「%s」適用先:
 item.draconicevolution.item_chaotic_aoe,Chaotic AOE Module,カオティック範囲モジュール
 item.draconicevolution.item_chaotic_damage,Chaotic Damage Module,カオティックダメージモジュール
 item.draconicevolution.item_chaotic_energy,Chaotic Energy Module,カオティックエネルギーモジュール

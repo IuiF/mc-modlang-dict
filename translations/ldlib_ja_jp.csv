@@ -13,10 +13,10 @@ graph_processor.process_mode.step_finish,finish!,完了！
 graph_processor.show_debug_info,show debug info,デバッグ情報を表示
 ldlib.author,Hello kilaBash!,こんにちは kilaBash！
 ldlib.compass.c_press,Press [C] open compass,[C]を押してコンパスを開く
-ldlib.fluid.amount,§9Amount: %d/%d,§9液体量: %d/%d
+ldlib.fluid.amount,§9Amount: %d/%d,液体量: %d/%d
 ldlib.fluid.empty,Empty,空
-ldlib.fluid.state_gas,§aState: Gaseous,§a状態: ガス
-ldlib.fluid.state_liquid,§aState: Liquid,§a状態: 液体
+ldlib.fluid.state_gas,§aState: Gaseous,状態: ガス
+ldlib.fluid.state_liquid,§aState: Liquid,状態: 液体
 ldlib.fluid.temperature,§cTemperature: %d K,§c温度: %d K
 ldlib.gui.compass.add_node,Add Node,ノードを追加
 ldlib.gui.compass.add_section,Add Section,セクションを追加
@@ -36,7 +36,7 @@ ldlib.gui.compass.mode.link.tooltip,"- Drag to connect two nodes.
 ldlib.gui.compass.mode.move,Move,移動
 ldlib.gui.compass.mode.move.tooltip,"- Drag the node to adjust its position
 - Press Shift for fine-grained movement","- ノードをドラッグして位置を調整します
-- Shiftキーを押して細かい移動をします"
+- シフトキーを押して細かい移動をします"
 ldlib.gui.compass.refresh,refresh,更新
 ldlib.gui.compass.remove_node,Remove Node,ノードを削除
 ldlib.gui.compass.remove_section,Remove Section,セクションを削除
@@ -197,7 +197,7 @@ ldlib.gui.editor.tips.allowXEIIngredientOverMouse,"if ture, the widget will be a
 ldlib.gui.editor.tips.ask_to_save,"current project hasn't been saved, do you want to save it?",現在のプロジェクトは保存されていません。保存しますか？
 ldlib.gui.editor.tips.cell_animation,Tick time between cells,セル間のティック時間
 ldlib.gui.editor.tips.cell_from,Start cell index,開始セルインデックス
-ldlib.gui.editor.tips.cell_size,Refer to how many cells does the animation texture need to be divided into (side length),アニメーションテクスチャを分割する必要があるセルの数（辺の長さ）
+ldlib.gui.editor.tips.cell_size,Refer to how many cells does the animation texture need to be divided into (side length),アニメーションテクスチャを分割する必要があるセルの数(辺の長さ)
 ldlib.gui.editor.tips.cell_to,End cell index,終了セルインデックス
 ldlib.gui.editor.tips.click_select_image,clicking to select an image,クリックして画像を選択
 ldlib.gui.editor.tips.corner_size。0,Set the border size of this texture.,このテクスチャのボーダーサイズを設定します。
@@ -205,7 +205,7 @@ ldlib.gui.editor.tips.corner_size。1,The border of this texture will not be aff
 ldlib.gui.editor.tips.drag_item,reorder items by dragging,ドラッグしてアイテムを並び替える
 ldlib.gui.editor.tips.hover_tips,Hover tips. Each item identifies a new row.,ホバーヒント。各項目は新しい行を識別します。
 ldlib.gui.editor.tips.id,"Widget id, it doesn't have to be unique，and can be empty.",ウィジェットID。一意である必要はなく、空にすることもできます。
-ldlib.gui.editor.tips.image_size,"The size of the image, (I know it's a kind of annoying, why not automatically read?)",画像のサイズ（面倒なのはわかります。なぜ自動で読み込まないの？）
+ldlib.gui.editor.tips.image_size,"The size of the image, (I know it's a kind of annoying, why not automatically read?)",画像のサイズ(面倒なのはわかります。なぜ自動で読み込まないの？)
 ldlib.gui.editor.tips.image_text_type,Text Type,テキストタイプ
 ldlib.gui.editor.tips.image_text_width,"Text width, text out of range will be hidden, roll, or new line according to type",テキスト幅。範囲外のテキストは非表示、スクロール、またはタイプに従って改行されます
 ldlib.gui.editor.tips.isDynamicSized,size will be adjusted according to content,サイズはコンテンツに応じて調整されます
@@ -228,12 +228,12 @@ ldlib.gui.editor.tips.shader_location,"Shader Source, it should be a vsh file un
 ldlib.gui.editor.tips.shader_resolution,"Render resolution, raise it if you think the image is blurry",レンダリング解像度。画像がぼやけていると思ったら上げてください
 ldlib.gui.editor.tips.texture_type,Switching the texture type will not modify references of the previous one.,テクスチャタイプを切り替えても、以前のテクスチャへの参照は変更されません。
 ldlib.gui.editor.toggle_configurable.tooltip,Enable / Disable,有効/無効
-ldlib.gui.text_field.compound_tag,compound(nbt) tag,複合（NBT）タグ
+ldlib.gui.text_field.compound_tag,compound(nbt) tag,複合(NBT)タグ
 ldlib.gui.text_field.number.0,from %d to %d,%dから%dまで
 ldlib.gui.text_field.number.1,bigger than %d,%dより大きい
 ldlib.gui.text_field.number.2,smaller than %d,%dより小さい
 ldlib.gui.text_field.number.3,any number,任意の数値
-ldlib.gui.text_field.number.wheel,§ascroll wheel adjusts number§r (%s),§aスクロールホイールで数値を調整§r（%s）
+ldlib.gui.text_field.number.wheel,§ascroll wheel adjusts number§r (%s),スクロールホイールで数値を調整§r(%s)
 ldlib.gui.text_field.resourcelocation,allow [0-9][a-z][_-./],許可文字: [0-9][a-z][_-./]
 ldlib.gui.tips.block_meta,BlockState Metadata,ブロック状態メタデータ
 ldlib.gui.tips.block_selector,Block Name,ブロック名

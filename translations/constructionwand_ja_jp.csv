@@ -1,9 +1,9 @@
 ﻿key,source_text,target_text
 constructionwand.description.core,"§5§nINSTALLATION§0§r
-Put your new core together with your wand in a crafting grid to install it. To switch between cores, hold down %s and left click empty space with your wand or use the option screen.","§5§nインストール§0§r
+Put your new core together with your wand in a crafting grid to install it. To switch between cores, hold down %s and left click empty space with your wand or use the option screen.","§nインストール§r
 新しいコアを自分のワンドと一緒にクラフトグリッドに配置してインストールしてください。コアを切り替えるには、%sを押しながら空いている場所をワンドで左クリックするか、オプション画面を使用してください。"
-constructionwand.description.core_angel,"The angel core places a block on the opposite side of the block (or row of blocks) you are facing. Maximum distance depends on wand tier. Right click empty space to place a block in midair. To do that, you'll need to have the block you want to place in your offhand.",エンジェルコアは、あなたが面している側（またはブロック行）の反対側にブロックを配置します。最大距離はワンドのティアによって異なります。空いている空間にブロックを配置するには右クリックしてください。その場合は、配置したいブロックをオフハンドに持っている必要があります。
-constructionwand.description.core_destruction,"The destruction core destroys blocks (no tile entities) on the side facing you. Maximum number of blocks depends on wand tier. Destroyed blocks disappear into the void, you can use the undo feature if you've made a mistake.",破壊コアは、あなたに面している側のブロック（タイルエンティティなし）を破壊します。破壊される最大ブロック数はワンドのティアに依存します。破壊されたブロックはボイドに消えていきます。ミスを犯した場合は、アンドゥ機能を使用できます。
+constructionwand.description.core_angel,"The angel core places a block on the opposite side of the block (or row of blocks) you are facing. Maximum distance depends on wand tier. Right click empty space to place a block in midair. To do that, you'll need to have the block you want to place in your offhand.",エンジェルコアは、あなたが面している側(またはブロック行)の反対側にブロックを配置します。最大距離はワンドのティアによって異なります。空いている空間にブロックを配置するには右クリックしてください。その場合は、配置したいブロックをオフハンドに持っている必要があります。
+constructionwand.description.core_destruction,"The destruction core destroys blocks (no tile entities) on the side facing you. Maximum number of blocks depends on wand tier. Destroyed blocks disappear into the void, you can use the undo feature if you've made a mistake.",破壊コアは、あなたに面している側のブロック(タイルエンティティなし)を破壊します。破壊される最大ブロック数はワンドのティアに依存します。破壊されたブロックはボイドに消えていきます。ミスを犯した場合は、アンドゥ機能を使用できます。
 constructionwand.description.durability.limited,for %d blocks,%dブロック分
 constructionwand.description.durability.unlimited,forever,永遠に
 constructionwand.description.key.sneak,Sneak,スニーク
@@ -23,17 +23,17 @@ Shulker boxes, bundles and many containers from other mods can provide building 
 §5§nOFFHAND PRIORITY§0§r
 Having blocks in your offhand will place them instead of the block you're looking at.","%1$sは、あなたに面している建物の側に最大%2$dブロックを配置でき、%3$s持続します。
 
-%5$sを押しながらスクロールして配置制限を変更します（水平、垂直、北/南、東/西、ロックなし）。
+%5$sを押しながらスクロールして配置制限を変更します(水平、垂直、北/南、東/西、ロックなし)。
 
-オプション画面を%6$s§9+右クリック§0で開きます。
+オプション画面を%6$s+右クリックで開きます。
 
-§5§nアンドゥ§0§r
-§9スニーク+§0%4$sを押しながらブロックを見ると、緑色の枠線で最後に配置したブロックが表示されます。§9スニーク+§0%4$s§9+右クリック§0すると、その操作をアンドゥして、すべてのアイテムを戻すことができます。破壊コアを使用した場合、ブロックが復元されます。
+§nアンドゥ§r
+スニーク+%4$sを押しながらブロックを見ると、緑色の枠線で最後に配置したブロックが表示されます。スニーク+%4$s+右クリックすると、その操作をアンドゥして、すべてのアイテムを戻すことができます。破壊コアを使用した場合、ブロックが復元されます。
 
-§5§nコンテナ§0§r
+§nコンテナ§r
 シュルカーボックス、バンドル、および他のMODからの多くのコンテナは、ワンドの建築ブロックを提供できます。
 
-§5§nオフハンド優先度§0§r
+§nオフハンド優先度§r
 オフハンドにブロックがあると、見ているブロックの代わりにそれらが配置されます。"
 constructionwand.option.cores,,コア
 constructionwand.option.cores.constructionwand:core_angel,§6Angel Core,§6エンジェルコア
@@ -42,47 +42,47 @@ constructionwand.option.cores.constructionwand:core_destruction,§cDestruction C
 constructionwand.option.cores.constructionwand:core_destruction.desc,Destroys blocks on the side facing you,あなたに面している側のブロックを破壊
 constructionwand.option.cores.constructionwand:default,Construction Core,建設コア
 constructionwand.option.cores.constructionwand:default.desc,Extend your building on the side facing you,あなたに面している側に建築を拡張
-constructionwand.option.direction,Direction: ,方向: 
-constructionwand.option.direction.player,§aPlayer,§aプレイヤー
+constructionwand.option.direction,Direction: ,方向:
+constructionwand.option.direction.player,§aPlayer,プレイヤー
 constructionwand.option.direction.player.desc,Place blocks facing the player,プレイヤーに面したブロックを配置
 constructionwand.option.direction.target,§6Target,§6ターゲット
 constructionwand.option.direction.target.desc,Place blocks with same direction as target block,ターゲットブロックと同じ方向でブロックを配置
-constructionwand.option.lock,Restriction: ,制限: 
+constructionwand.option.lock,Restriction: ,制限:
 constructionwand.option.lock.eastwest,§6East/West,§6東/西
 constructionwand.option.lock.eastwest.desc,Build a row in E/W direction on top of the original block,元のブロックの上に東/西方向の行を構築
-constructionwand.option.lock.horizontal,§aLeft/Right,§a左/右
+constructionwand.option.lock.horizontal,§aLeft/Right,左/右
 constructionwand.option.lock.horizontal.desc,Build a horizontal column in front of the original block,元のブロックの前に水平列を構築
 constructionwand.option.lock.nolock,§cNone,§cなし
 constructionwand.option.lock.nolock.desc,Extend from any side of the original block,元のブロックの任意の側から拡張
 constructionwand.option.lock.northsouth,§6North/South,§6北/南
 constructionwand.option.lock.northsouth.desc,Build a row in N/S direction on top of the original block,元のブロックの上に北/南方向の行を構築
-constructionwand.option.lock.vertical,§aUp/Down,§a上/下
+constructionwand.option.lock.vertical,§aUp/Down,上/下
 constructionwand.option.lock.vertical.desc,Build a vertical column in front of the original block,元のブロックの前に垂直列を構築
-constructionwand.option.match,Matching: ,マッチング: 
+constructionwand.option.match,Matching: ,マッチング:
 constructionwand.option.match.any,§cAny,§c任意
 constructionwand.option.match.any.desc,Extend any block,任意のブロックを拡張
-constructionwand.option.match.exact,§aExact,§a正確
+constructionwand.option.match.exact,§aExact,正確
 constructionwand.option.match.exact.desc,Only extend blocks that are exactly the same,完全に同じブロックのみを拡張
 constructionwand.option.match.similar,§6Similar,§6類似
-constructionwand.option.match.similar.desc,Treat similar blocks (dirt/grass types) equally,類似ブロック（土/草など）を等しく扱う
-constructionwand.option.random,Random: ,ランダム: 
+constructionwand.option.match.similar.desc,Treat similar blocks (dirt/grass types) equally,類似ブロック(土/草など)を等しく扱う
+constructionwand.option.random,Random: ,ランダム:
 constructionwand.option.random.no,§cNo,§cいいえ
 constructionwand.option.random.no.desc,Don't randomize placed blocks,配置されたブロックをランダム化しない
-constructionwand.option.random.yes,§aYes,§aはい
+constructionwand.option.random.yes,§aYes,はい
 constructionwand.option.random.yes.desc,Place random blocks present in your hotbar,ホットバーに存在するランダムなブロックを配置
-constructionwand.option.replace,Replacement: ,置き換え: 
+constructionwand.option.replace,Replacement: ,置き換え:
 constructionwand.option.replace.no,§cNo,§cいいえ
 constructionwand.option.replace.no.desc,Don't replace blocks,ブロックを置き換えない
-constructionwand.option.replace.yes,§aYes,§aはい
+constructionwand.option.replace.yes,§aYes,はい
 constructionwand.option.replace.yes.desc,"Replace certain blocks like fluids, snow and tallgrass",液体、雪、背の高い草などの特定のブロックを置き換える
 constructionwand.tooltip.blocks,Max. %d blocks,最大 %dブロック
 constructionwand.tooltip.core_tip,Combine the core with your wand in a crafting grid,コアをクラフトグリッドのワンドと組み合わせる
 constructionwand.tooltip.cores,Wand cores:,ワンドコア:
-constructionwand.tooltip.shift,Press [SHIFT],[Shift]を押す
+constructionwand.tooltip.shift,Press [SHIFT],[シフト]を押す
 item.constructionwand.core_angel,Angel Wand Core,エンジェルワンドコア
 item.constructionwand.core_destruction,Destruction Wand Core,破壊ワンドコア
 item.constructionwand.diamond_wand,Diamond Wand,ダイヤモンドワンド
 item.constructionwand.infinity_wand,Infinity Wand,インフィニティワンド
-item.constructionwand.iron_wand,Iron Wand,アイアンワンド
+item.constructionwand.iron_wand,Iron Wand,鉄ワンド
 item.constructionwand.stone_wand,Stone Wand,ストーンワンド
 stat.constructionwand.use_wand,Blocks placed using Wand,ワンドで配置されたブロック数

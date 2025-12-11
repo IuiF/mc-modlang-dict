@@ -16,7 +16,7 @@ sodium.options.attack_indicator.tooltip,Controls where the Attack Indicator is d
 sodium.options.autosave_indicator.tooltip,"If enabled, an indicator will be shown when the game is saving the world to disk.",有効にすると、ゲームがワールドをディスクに保存するときにインジケーターが表示されます。
 sodium.options.biome_blend.tooltip,Controls the range which biomes will be sampled for block colorization. Higher values greatly increase the amount of time it takes to build chunks for diminishing improvements in quality.,ブロック色分けのためにバイオームがサンプリングされる範囲を制御します。値が高いほど、品質の向上が少なくなるにつれて、チャンクを構築するのに必要な時間が大幅に増加します。
 sodium.options.biome_blend.value,%s block(s),%s ブロック
-sodium.options.brightness.tooltip,Controls the brightness (gamma) of the game.,ゲームの明るさ（ガンマ）を制御します。
+sodium.options.brightness.tooltip,Controls the brightness (gamma) of the game.,ゲームの明るさ(ガンマ)を制御します。
 sodium.options.buttons.apply,Apply,適用
 sodium.options.buttons.donate,Support Sodium!,Sodiumをサポート!
 sodium.options.buttons.undo,Undo,元に戻す
@@ -39,7 +39,7 @@ sodium.options.enable_memory_tracing.tooltip,"Debugging feature. If enabled, sta
 sodium.options.entity_distance.tooltip,Controls how far away entities can render from the player. Higher values increase the render distance at the expense of frame rates.,プレイヤーからエンティティをレンダリングできる距離を制御します。値が高いほど、フレームレートを低下させる代わりにレンダリング距離が増加します。
 sodium.options.entity_shadows.tooltip,"If enabled, basic shadows will be rendered beneath mobs and other entities.",有効にすると、モブおよび他のエンティティの下に基本的な影がレンダリングされます。
 sodium.options.fps_limit.tooltip,"Limits the maximum number of frames per second. This can help reduce battery usage and general system load when multi-tasking. If V-Sync is enabled, this option will be ignored unless it is lower than your display's refresh rate.",1秒あたりのフレームの最大数を制限します。これはマルチタスキング時のバッテリー使用量と全般的なシステム負荷を削減するのに役立ちます。V-Syncが有効な場合、このオプションはディスプレイのリフレッシュレートより低い場合を除き無視されます。
-sodium.options.fullscreen.tooltip,"If enabled, the game will display in full-screen (if supported).",有効にすると、ゲームはフルスクリーンで表示されます（サポートされている場合）。
+sodium.options.fullscreen.tooltip,"If enabled, the game will display in full-screen (if supported).",有効にすると、ゲームはフルスクリーンで表示されます(サポートされている場合)。
 sodium.options.graphics_quality.tooltip,"The default graphics quality controls some legacy options and is necessary for mod compatibility. If the options below are left to ""Default"", they will use this setting.",デフォルトのグラフィックス品質は、いくつかのレガシーオプションを制御し、Mod互換性に必要です。以下のオプションが「デフォルト」のままの場合、この設定を使用します。
 sodium.options.gui_scale.tooltip,"Sets the maximum scale factor to be used for the user interface. If 'auto' is used, then the largest scale factor will always be used.",ユーザーインターフェースに使用する最大スケールファクターを設定します。「自動」を使用する場合、最大スケールファクターが常に使用されます。
 sodium.options.leaves_quality.name,Leaves Quality,葉の品質
@@ -62,7 +62,7 @@ sodium.options.use_compact_vertex_format.tooltip,"If enabled, a more compact ver
 sodium.options.use_entity_culling.name,Use Entity Culling,エンティティ カリングを使用
 sodium.options.use_entity_culling.tooltip,"If enabled, entities determined not to be in any visible chunks will be skipped during rendering. This can help improve performance by avoiding the rendering of entities located underground or behind walls.",有効にすると、表示されているチャンク内にないと判定されたエンティティはレンダリング中にスキップされます。これは地下の壁の奥などの場所にあるエンティティのレンダリングを回避することで、パフォーマンスの向上に役立ちます。
 sodium.options.use_fog_occlusion.name,Use Fog Occlusion,フォグ オクルージョンを使用
-sodium.options.use_fog_occlusion.tooltip,"If enabled, chunks which are determined to be fully hidden by fog effects will not be rendered, helping to improve performance. The improvement can be more dramatic when fog effects are heavier (such as while underwater), but it may cause undesirable visual artifacts between the sky and fog in some scenarios.",有効にすると、フォグエフェクトによって完全に隠れていると判定されたチャンクはレンダリングされず、パフォーマンスの向上に役立ちます。改善はフォグエフェクトがより重い場合（例えば水中の場合）でより劇的ですが、いくつかのシナリオでは空とフォグの間に不要なビジュアルアーティファクトが生じる可能性があります。
+sodium.options.use_fog_occlusion.tooltip,"If enabled, chunks which are determined to be fully hidden by fog effects will not be rendered, helping to improve performance. The improvement can be more dramatic when fog effects are heavier (such as while underwater), but it may cause undesirable visual artifacts between the sky and fog in some scenarios.",有効にすると、フォグエフェクトによって完全に隠れていると判定されたチャンクはレンダリングされず、パフォーマンスの向上に役立ちます。改善はフォグエフェクトがより重い場合(例えば水中の場合)でより劇的ですが、いくつかのシナリオでは空とフォグの間に不要なビジュアルアーティファクトが生じる可能性があります。
 sodium.options.use_particle_culling.name,Use Particle Culling,パーティクル カリングを使用
 sodium.options.use_particle_culling.tooltip,"If enabled, only particles which are determined to be visible will be rendered. This can provide a significant improvement to frame rates when many particles are nearby.",有効にすると、表示されていると判定されたパーティクルのみがレンダリングされます。これは多くのパーティクルが近くにある場合、フレームレートに大幅な改善をもたらします。
 sodium.options.use_persistent_mapping.name,Use Persistent Mapping,永続的マッピングを使用
@@ -70,7 +70,7 @@ sodium.options.use_persistent_mapping.tooltip,"If enabled, a small amount of mem
 
 Requires OpenGL 4.4 or ARB_buffer_storage.","有効にすると、チャンク更新とエンティティレンダリングを高速化するために、少量のメモリが永続的にマップされます。
 
-OpenGL 4.4 またはARB_buffer_storageが必要です。"
+オープンGL 4.4 またはARB_buffer_storageが必要です。"
 sodium.options.v_sync.tooltip,"If enabled, the game's frame rate will be synchronized to the monitor's refresh rate, making for a generally smoother experience at the expense of overall input latency. This setting might reduce performance if your system is too slow.",有効にすると、ゲームのフレームレートはモニターのリフレッシュレートに同期され、全体的な入力遅延を代償として一般的により滑らかな体験が得られます。この設定はシステムが遅い場合、パフォーマンスを低下させる可能性があります。
 sodium.options.view_bobbing.tooltip,"If enabled, the player's view will sway and bob when moving around. Players who experience motion sickness while playing can benefit from disabling this.",有効にすると、周りを移動する際にプレイヤーの視点が揺動します。ゲーム中に動揺感を経験するプレイヤーはこれを無効にすることで恩恵を受けることができます。
 sodium.options.view_distance.tooltip,"The render distance controls how far away terrain will be rendered. Shorter distances mean that less terrain will be rendered, improving frame rates.",レンダリング距離は地形がレンダリングされる距離を制御します。短い距離はレンダリングされる地形が少なくなり、フレームレートが向上します。

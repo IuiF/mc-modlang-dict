@@ -1,14 +1,10 @@
 ﻿key,source_text,target_text
 inventory.btn,Muffler,マフラー
 key.open_muffler_gui,Open sound muffler screen,サウンドマフラー画面を開く
-log.error.loadAnchorList,ESM: Error loading Anchor list:\n %s,"ESM: アンカーリスト読み込みエラー:
- %s"
-log.error.loadMuffledList,ESM: Error loading the muffled sounds list:\n %s,"ESM: ミュート済みサウンドリスト読み込みエラー:
- %s"
-log.error.saveAnchorList,ESM: Error saving the Anchor list\n %s,"ESM: アンカーリスト保存エラー
- %s"
-log.error.saveMuffledList,ESM: Error saving the muffled sounds list:\n %s,"ESM: ミュート済みサウンドリスト保存エラー
- %s"
+log.error.loadAnchorList,ESM: Error loading Anchor list:\n %s,ESM: アンカーリスト読み込みエラー:\n %s
+log.error.loadMuffledList,ESM: Error loading the muffled sounds list:\n %s,ESM: ミュート済みサウンドリスト読み込みエラー:\n %s
+log.error.saveAnchorList,ESM: Error saving the Anchor list\n %s,ESM: アンカーリスト保存エラー\n %s
+log.error.saveMuffledList,ESM: Error saving the muffled sounds list:\n %s,ESM: ミュート済みサウンドリスト保存エラー\n %s
 log.warn.loadAnchorList,ESM: Anchor list not found; Creating empty Anchor list,ESM: アンカーリストが見つかりません。空のアンカーリストを作成しています
 log.warn.loadMuffledList,ESM: Muffled list not found; Creating empty Muffled list,ESM: ミュート済みリストが見つかりません。空のミュート済みリストを作成しています
 main_screen.btn.accept,Accept,承認
@@ -34,7 +30,7 @@ main_screen.empty,Nothing to show here yet..,まだ表示するものがあり�
 main_screen.main_title,ESM - Main Screen,ESM - メイン画面
 main_screen.side_screen.dimension,Dimension: %s,ディメンション: %s
 main_screen.side_screen.radius,Radius: %s,半径: %s
-main_screen.side_screen.title,Title: ,タイトル: 
+main_screen.side_screen.title,Title: ,タイトル:
 main_screen.side_screen.x,X: %s,X座標: %s
 main_screen.side_screen.y,Y: %s,Y座標: %s
 main_screen.side_screen.z,Z: %s,Z座標: %s
@@ -42,7 +38,7 @@ main_screen.tip,Tip: %s,ヒント: %s
 slider.btn.muffler.muffle,Muffle sound,サウンドをミュート
 slider.btn.muffler.unmuffle,Unmuffle sound,サウンドをミュート解除
 slider.btn.play.play_sound,Play/Stop sound,サウンド再生/停止
-slider.btn.volume,Volume: ,ボリューム: 
+slider.btn.volume,Volume: ,ボリューム:
 tip.change_volume,You can change the volume of muffled sounds by dragging the slider,スライダーをドラッグしてミュート済みサウンドのボリュームを変更できます
 tip.dark_theme,You can set the dark theme in the config,設定でダークテーマを設定できます
 tip.disable,You can disable these tips in the config,設定でこれらのヒントを無効にできます
@@ -53,8 +49,8 @@ tip.modify_anchors,"Once you've set the Anchors, you can click the marker button
 tip.modify_anchors_2,You can change the name and range of the Anchors once you've set the position,位置を設定した後、アンカーの名前と範囲を変更できます
 tip.no_anchors,You can disable the Anchors in the config,設定でアンカーを無効にできます
 tip.play_sound,You can play any sound by pressing the corresponding Play sound button,対応するサウンド再生ボタンを押すことで、任意のサウンドを再生できます
-tip.reset_recent_sounds,"Hold Shift on the ""Recent"" sounds screen and click the trash button to clear the recent sounds list",「最近」サウンド画面でShiftを押しながらゴミ箱ボタンをクリックして、最近のサウンドリストをクリアできます
-tip.set_anchors,Click any of the Anchor buttons (the numbered ones) and then click the marker like button (in the right) to set the Anchor position,アンカーボタン（番号が付いたもの）のいずれかをクリックしてから、マーカーのようなボタン（右側）をクリックしてアンカー位置を設定します
+tip.reset_recent_sounds,"Hold Shift on the ""Recent"" sounds screen and click the trash button to clear the recent sounds list",「最近」サウンド画面でシフトを押しながらゴミ箱ボタンをクリックして、最近のサウンドリストをクリアできます
+tip.set_anchors,Click any of the Anchor buttons (the numbered ones) and then click the marker like button (in the right) to set the Anchor position,アンカーボタン(番号が付いたもの)のいずれかをクリックしてから、マーカーのようなボタン(右側)をクリックしてアンカー位置を設定します
 tip.sound_blacklist,You can blacklist sounds in the config,設定でサウンドをブラックリストに登録できます
 tip.unmuffle,"You can stop muffling all the selected sounds by pressing the Stop muffling sounds button, press it again to resume the muffling",「ミュート停止」ボタンを押すと、選択したすべてのサウンドのミュートを停止できます。もう一度押すとミュートが再開されます
-tip.use_anchors,Anchors (the top 10 buttons) are used to muffle sounds in a selected area,アンカー（上部の10個のボタン）は、選択した領域のサウンドをミュートするために使用されます
+tip.use_anchors,Anchors (the top 10 buttons) are used to muffle sounds in a selected area,アンカー(上部の10個のボタン)は、選択した領域のサウンドをミュートするために使用されます

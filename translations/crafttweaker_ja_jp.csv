@@ -4,16 +4,16 @@ crafttweaker.command.click.copy,Click to copy [%s],クリックして [%s] を�
 crafttweaker.command.click.goto,Click to go to [%s],クリックして [%s] に移動
 crafttweaker.command.click.open,Click to open [%s],クリックして [%s] を開く
 crafttweaker.command.click.run,Click to run [%s],クリックして [%s] を実行
-crafttweaker.command.conflict.begin,Conflict testing%s has begun: ,コンフリクト検査%s が開始されました: 
+crafttweaker.command.conflict.begin,Conflict testing%s has begun: ,コンフリクト検査%s が開始されました:
 crafttweaker.command.conflict.complete,Conflict testing completed: results are in crafttweaker.log,コンフリクト検査が完了しました: 結果は crafttweaker.log にあります
-crafttweaker.command.conflict.description.output," for output %s"," 出力 %s の場合"
-crafttweaker.command.conflict.description.type," for type %s"," タイプ %s の場合"
+crafttweaker.command.conflict.description.output," for output %s",出力 %s の場合
+crafttweaker.command.conflict.description.type," for type %s",タイプ %s の場合
 crafttweaker.command.conflict.error,An error has occurred during conflict testing: please check the logs,コンフリクト検査中にエラーが発生しました: ログを確認してください
 crafttweaker.command.conflict.hand.empty,No item in hand: unable to check conflicts for an empty item,手に持っているアイテムがありません: 空のアイテムのコンフリクトを確認できません
-crafttweaker.command.conflict.warnings,do not /reload the server or quit the world in the meantime,その間に /reload をしたり、ワールドを終了しないでください
+crafttweaker.command.conflict.warnings,do not /reload the server or quit the world in the meantime,その間に /リロードをしたり、ワールドを終了しないでください
 crafttweaker.command.description.conflicts,Identifies and reports conflicts between various recipes,様々なレシピ間のコンフリクトを特定して報告します
 crafttweaker.command.description.ctgui,Provides info on the state of CTGUI,CTGUI の状態に関する情報を表示します
-crafttweaker.command.description.discord,Provides a link to the CraftTweaker discord server,CraftTweaker Discord サーバーへのリンクを表示します
+crafttweaker.command.description.discord,Provides a link to the CraftTweaker discord server,CraftTweaker ディスコード サーバーへのリンクを表示します
 crafttweaker.command.description.docs,Opens a link to the docs,ドキュメントへのリンクを開きます
 crafttweaker.command.description.dump,Dumps available sub commands for the dump command,dump コマンドの利用可能なサブコマンドをダンプします
 crafttweaker.command.description.dump.biomes,Outputs the names of all registered biomes,登録されているすべてのバイオームの名前を出力します
@@ -28,16 +28,16 @@ crafttweaker.command.description.dump.tag.contents,Outputs the contents of all t
 crafttweaker.command.description.dump.tool_tiers,Outputs information on all Tool Tiers,すべてのツールティアに関する情報を出力します
 crafttweaker.command.description.dump.villager.trades,Outputs information on all Villager Trades,すべての村人取引に関する情報を出力します
 crafttweaker.command.description.dump.wandering.trades,Outputs information on all Wandering Trader Trades,すべての行商人取引に関する情報を出力します
-crafttweaker.command.description.examples,"Creates example scripts based on the mods installed, and opens the example folder",インストールされている Mod に基づいてサンプルスクリプトを作成し、サンプルフォルダを開きます
+crafttweaker.command.description.examples,"Creates example scripts based on the mods installed, and opens the example folder",インストールされている Modに基づいてサンプルスクリプトを作成し、サンプルフォルダを開きます
 crafttweaker.command.description.give,Gives the player an item using the Bracket handler syntax. You can also apply tags by appending a .withTag() call.,ブラケットハンドラー構文を使用してプレイヤーにアイテムを与えます。.withTag() を追加してタグを適用することもできます。
-crafttweaker.command.description.hand,Outputs the name and tags (if any) of the item in your hand,手に持っているアイテムの名前とタグ（あれば）を出力します
+crafttweaker.command.description.hand,Outputs the name and tags (if any) of the item in your hand,手に持っているアイテムの名前とタグ(あれば)を出力します
 crafttweaker.command.description.hand.attributes,Outputs the AttributeModifiers of the item in your hand,手に持っているアイテムの属性修飾子を出力します
 crafttweaker.command.description.hand.data,Outputs the formatted data of the held item,手に持っているアイテムのフォーマットされたデータを出力します
 crafttweaker.command.description.hand.registryname,Outputs the registry name of the item in your hand,手に持っているアイテムのレジストリ名を出力します
 crafttweaker.command.description.hand.tags,Outputs the tags of the item in your hand,手に持っているアイテムのタグを出力します
-crafttweaker.command.description.hand.vanilla,Outputs the name and tags (if any) of the item in your hand in vanilla format,手に持っているアイテムの名前とタグ（あれば）をバニラ形式で出力します
+crafttweaker.command.description.hand.vanilla,Outputs the name and tags (if any) of the item in your hand in vanilla format,手に持っているアイテムの名前とタグ(あれば)をバニラ形式で出力します
 crafttweaker.command.description.help,Prints this command list,このコマンドリストを表示します
-crafttweaker.command.description.info.block,"Activates or deactivates the block reader. In block info mode, right-clicking a block will tell you it's name, metadata and Block Entity data if applicable.",ブロックリーダーをアクティベートまたはデアクティベートします。ブロック情報モードでは、ブロックを右クリックするとその名前、メタデータ、およびブロックエンティティデータ（該当する場合）が表示されます。
+crafttweaker.command.description.info.block,"Activates or deactivates the block reader. In block info mode, right-clicking a block will tell you it's name, metadata and Block Entity data if applicable.",ブロックリーダーをアクティベートまたはデアクティベートします。ブロック情報モードでは、ブロックを右クリックするとその名前、メタデータ、およびブロックエンティティデータ(該当する場合)が表示されます。
 crafttweaker.command.description.info.entity,"Activates or deactivates the entity reader. In entity info mode, right-clicking an entity will tell you it's name and data.",エンティティリーダーをアクティベートまたはデアクティベートします。エンティティ情報モードでは、エンティティを右クリックするとその名前とデータが表示されます。
 crafttweaker.command.description.inventory,Outputs the names of the item in your inventory,インベントリ内のアイテムの名前を出力します
 crafttweaker.command.description.inventory.registryNames,Outputs the registry names of the items in your inventory,インベントリ内のアイテムのレジストリ名を出力します
@@ -45,12 +45,12 @@ crafttweaker.command.description.inventory.tags,Outputs the tags of the items in
 crafttweaker.command.description.issues,Opens a link to the issue tracker,問題追跡ツールへのリンクを開きます
 crafttweaker.command.description.log,Opens the log file,ログファイルを開きます
 crafttweaker.command.description.mods,Outputs the current modlist.,現在のモッドリストを出力します。
-crafttweaker.command.description.patreon,Opens a link to patreon,Patreon へのリンクを開きます
+crafttweaker.command.description.patreon,Opens a link to patreon,パトレオン へのリンクを開きます
 crafttweaker.command.description.recipes,Outputs information on all recipes.,すべてのレシピに関する情報を出力します。
 crafttweaker.command.description.recipes.hand,Outputs information on all Recipes for the held item,手に持っているアイテムのすべてのレシピに関する情報を出力します
 crafttweaker.command.description.recipes.inventory,Outputs information on all Recipes for the items in the player's inventory,プレイヤーのインベントリ内のアイテムのすべてのレシピに関する情報を出力します
 crafttweaker.command.description.recipes.manager,Outputs information on recipes for the recipe manager given as argument,引数として指定されたレシピマネージャーのレシピに関する情報を出力します
-crafttweaker.command.description.reload,Points people to /reload,/reload に人々を導きます
+crafttweaker.command.description.reload,Points people to /reload,/リロード に人々を導きます
 crafttweaker.command.description.script,Opens the scripts folder,スクリプトフォルダを開きます
 crafttweaker.command.description.syntax,Checks the syntax of the scripts,スクリプトの構文をチェックします
 crafttweaker.command.dump.generated,List of '%s' brackets generated!,'%s' ブラケットのリストが生成されました！
@@ -67,17 +67,17 @@ crafttweaker.command.info.block.activated,Block info mode activated. Right-click
 crafttweaker.command.info.block.deactivated,Block info mode deactivated,ブロック情報モードが無効化されました
 crafttweaker.command.info.block.entity.data,Block Entity Data: %s,ブロックエンティティデータ: %s
 crafttweaker.command.info.block.name,Block Name: %s,ブロック名: %s
-crafttweaker.command.info.block.properties,Properties: ,プロパティ: 
+crafttweaker.command.info.block.properties,Properties: ,プロパティ:
 crafttweaker.command.info.entity.activated,Entity info mode activated. Right-click an entity to see its data.,エンティティ情報モードが有効化されました。エンティティを右クリックしてそのデータを表示します。
 crafttweaker.command.info.entity.data,Entity Data: %s,エンティティデータ: %s
 crafttweaker.command.info.entity.deactivated,Entity info mode deactivated,エンティティ情報モードが無効化されました
 crafttweaker.command.info.entity.name,Entity Name: %s,エンティティ名: %s
-crafttweaker.command.info.entity.type.bracket,EntityType Bracket: %s,EntityType ブラケット: %s
+crafttweaker.command.info.entity.type.bracket,EntityType Bracket: %s,エンティティType ブラケット: %s
 crafttweaker.command.list.check.log,%s list generated! Check the %s file!,%s リストが生成されました！ %s ファイルを確認してください！
 crafttweaker.command.misc.biomes,Biomes,バイオーム
 crafttweaker.command.misc.block,Block,ブロック
 crafttweaker.command.misc.blockstate,BlockState,ブロックスケート
-crafttweaker.command.misc.ctgui,CT GUI was limiting and very buggy and has since been removed. It is now recommended to learn ZenScript instead - you can browse the wiki for reference (/ct wiki) or ask for help on the Discord server (/ct discord).,CT GUI は制限があり非常にバグが多かったため、削除されました。現在は ZenScript を学ぶことをお勧めします - wiki で参照を参照できます (/ct wiki) または Discord サーバーでヘルプを求めることができます (/ct discord)。
+crafttweaker.command.misc.ctgui,CT GUI was limiting and very buggy and has since been removed. It is now recommended to learn ZenScript instead - you can browse the wiki for reference (/ct wiki) or ask for help on the Discord server (/ct discord).,CT GUI は制限があり非常にバグが多かったため、削除されました。現在は ZenScript を学ぶことをお勧めします - wiki で参照を参照できます (/ct wiki) または ディスコード サーバーでヘルプを求めることができます (/ct discord)。
 crafttweaker.command.misc.data,Data,データ
 crafttweaker.command.misc.fake_players,Fake Players,フェイクプレイヤー
 crafttweaker.command.misc.fluid,Fluid,液体

@@ -5,7 +5,7 @@ __support_create_stuff,https://www.curseforge.com/minecraft/mc-mods/create-stuff
 __support_deeperdarker,https://www.curseforge.com/minecraft/mc-mods/deeperdarker,
 __support_dungeonsenchantments,https://www.curseforge.com/minecraft/mc-mods/dungeons-enchantments,
 __support_endlessbiomes,https://www.curseforge.com/minecraft/mc-mods/endless-biomes,
-__support_gofish,Go Fish support https://www.curseforge.com/minecraft/mc-mods/go-fish,Go Fish サポート https://www.curseforge.com/minecraft/mc-mods/go-fish
+__support_gofish,Go Fish support https://www.curseforge.com/minecraft/mc-mods/go-fish,ゴーフィッシュ サポート https://www.curseforge.com/minecraft/mc-mods/go-fish
 __support_grapplemod,Grapple Mod https://www.curseforge.com/minecraft/mc-mods/grappling-hook-mod,グラップルMod https://www.curseforge.com/minecraft/mc-mods/grappling-hook-mod
 __support_hunterillager,https://www.curseforge.com/minecraft/mc-mods/huntersreturn,
 __support_improved_exp,https://www.curseforge.com/minecraft/mc-mods/improved-exp,
@@ -27,9 +27,9 @@ enchantment.dungeonsenchantments.cowardice.desc,Attacks do more damage when the 
 enchantment.dungeonsenchantments.deflect.desc,Arrows may deflect back at the shooter.,矢が射手に戻ってくることがあります。
 enchantment.dungeonsenchantments.exploding.desc,Attacks also create an explosion.,攻撃により爆発も発生します。
 enchantment.dungeonsenchantments.freezing.desc,Attacks slow the target down.,攻撃により対象を遅くします。
-enchantment.dungeonsenchantments.fuse_shot.desc,Bows may shoot explosive arrows.,弓が爆発する矢を発射することができます。
+enchantment.dungeonsenchantments.fuse_shot.desc,Bows may shoot explosive arrows.,弓が爆発する矢を発射できます。
 enchantment.dungeonsenchantments.guarding_strike.desc,Defeating enemies boosts your defence temporarily.,敵を倒すと、一時的に防御がアップします。
-enchantment.dungeonsenchantments.illagers_bane.desc,Attacks do more damage against illagers.,モブハンター（イリジャー）に対する攻撃がより多くのダメージを与えます。
+enchantment.dungeonsenchantments.illagers_bane.desc,Attacks do more damage against illagers.,モブハンター(イリジャー)に対する攻撃がより多くのダメージを与えます。
 enchantment.dungeonsenchantments.leeching.desc,Defeating enemies will heal the user.,敵を倒すとユーザーが回復します。
 enchantment.dungeonsenchantments.pain_cycle.desc,Attacks hurt the user. Every fifth attack deals massive damage.,攻撃でユーザーも傷つきます。5番目の攻撃ごとに大量のダメージを与えます。
 enchantment.dungeonsenchantments.radiance.desc,Heals nearby players.,近くのプレイヤーを回復します。
@@ -132,7 +132,9 @@ enchantment.minecraft.aqua_affinity.desc,Increases mining speed while underwater
 enchantment.minecraft.bane_of_arthropods.desc,Increases damage against arthropods such as Spiders and Silverfish.,クモやシルバーフィッシュ等の虫に対してのダメージを増加させます。
 enchantment.minecraft.binding_curse.desc,Prevents the cursed item from being removed from an armor slot.,防具が外せなくなります。
 enchantment.minecraft.blast_protection.desc,Reduces damage from explosions and explosion knockback.,爆発によるダメージとノックバックを軽減します。
+enchantment.minecraft.breach.desc,Increases the effectiveness of attacks against armored targets.,装甲を装備した対象への攻撃の効果を増加させます。
 enchantment.minecraft.channeling.desc,Allows the trident to summon lightning bolts during thunderstorms.,雷雨の際に、トライデントを命中させた地点に雷を落とします。
+enchantment.minecraft.density.desc,Increases attack damage based on your fall distance.,落下距離に基づいて攻撃ダメージを増加させます。
 enchantment.minecraft.depth_strider.desc,Increases movement speed while underwater.,水中での移動速度を上昇させます。
 enchantment.minecraft.efficiency.desc,Increases mining speed of the tool.,採掘速度が向上します。
 enchantment.minecraft.feather_falling.desc,Reduces fall damage and ender pearl teleportation damage.,落下とエンダーパールによるテレポートでのダメージを軽減します。
@@ -162,10 +164,12 @@ enchantment.minecraft.sharpness.desc,Increases the damage of the item.,ダメー
 enchantment.minecraft.silk_touch.desc,Allows fragile blocks such as glass to be collected.,ガラスなどの壊れやすいブロックが回収できるようになります。
 enchantment.minecraft.smite.desc,Increases damage against undead mobs such as Zombies and Skeletons.,ゾンビやスケルトンなどのアンデットに対してのダメージを増加させます。
 enchantment.minecraft.soul_speed.desc,Increases movement speed on soul blocks.,ソウルサンドやソウルソイル上での移動速度が増加します。
+enchantment.minecraft.sweeping_edge.desc,Increases the damage of sweeping attacks.,範囲攻撃のダメージを増加させます。
 enchantment.minecraft.swift_sneak.desc,Increases movement speed while sneaking.,スニーク時の移動速度が上昇します。
 enchantment.minecraft.thorns.desc,Causes damage to enemies when they attack you.,攻撃してきた敵にダメージを与えます。
 enchantment.minecraft.unbreaking.desc,Causes the tool to lose durability at a slower rate.,耐久値が減りにくくなります。
 enchantment.minecraft.vanishing_curse.desc,Destroys the cursed item if you die with it in your inventory.,死亡時にこのエンチャントの付いているアイテムは完全に消滅します。
+enchantment.minecraft.wind_burst.desc,Smash attacks will launch the user back into the air.,強打攻撃がユーザーを空中に戻します。
 enchantment.shieldsplus.ablaze.desc,Sets attackers and projectiles on fire.,攻撃者と飛行する物体に火をつけます。
 enchantment.shieldsplus.aegis.desc,Reduces damage taken while blocking.,ブロック中に受けるダメージを軽減します。
 enchantment.shieldsplus.fast_recovery.desc,Reduces shield cooldown times.,シールドクールダウンを短縮します。
@@ -177,6 +181,21 @@ enchantment.shieldsplus.shield_bash.desc,Gives the shield a bash attack.,シー�
 enchantment.stalwart_dungeons.thunder_strike.desc,Gives hammers the ability to summon lightning.,ハンマーに稲妻を召喚する能力を与えます。
 enchdesc.activate.message,Hold shift to view enchantment descriptions.,説明を表示するにはshiftキーを長押ししてください。
 enchdesc.jei.compatible_items.title,Compatible Items,対応アイテム
+__support_extended_enchantments,Extended Enchantments https://www.curseforge.com/minecraft/mc-mods/extended-enchants-fabric,拡張エンチャント https://www.curseforge.com/minecraft/mc-mods/extended-enchants-fabric
+enchantment.exenchants.bad_doings.desc,Sometimes gives the user a luck debuff.,ユーザーに時々不運のデバフを付与します。
+enchantment.exenchants.charge_up.desc,Sometimes gives the user weakness followed by a big strength buff.,ユーザーに時々弱体を付与し、その後大きな強度バフを与えます。
+enchantment.exenchants.empowerment.desc,Randomly gives the user a strength buff.,ユーザーにランダムに強度バフを付与します。
+enchantment.exenchants.explosion.desc,The weapon can create damageless explosions.,武器はダメージを与えない爆発を生み出すことができます。
+enchantment.exenchants.flame_thorns.desc,Has a chance to set attackers on fire.,攻撃者に着火する確率があります。
+enchantment.exenchants.fleet_foot.desc,Gives the user a speed boost when their health is low.,体力が低いとき、ユーザーに速度ブーストを付与します。
+enchantment.exenchants.fulmination.desc,The weapon can summon lightning on opponents.,武器は敵に雷を召喚できます。
+enchantment.exenchants.haste_escape.desc,Gives the user a digging speed boost when their health is low.,体力が低いとき、ユーザーに採掘速度ブーストを付与します。
+enchantment.exenchants.ice_thorns.desc,Has a chance to give attackers slowness.,攻撃者に鈍化を与える確率があります。
+enchantment.exenchants.icicle.desc,Has a chance of inflicting a slowness debuff on enemies.,敵に鈍化デバフを与える確率があります。
+enchantment.exenchants.levitation_curse.desc,Sometimes gives the user the levitation debuff.,ユーザーに時々浮遊デバフを与えます。
+enchantment.exenchants.medicsaid.desc,Slightly heals the user when they are low on health.,体力が低いとき、ユーザーをわずかに治癒します。
+enchantment.exenchants.slowness_curse.desc,Sometimes gives the user a slowness debuff.,ユーザーに時々鈍化デバフを与えます。
+enchantment.exenchants.toxicity.desc,The weapon will say cringey stuff about your opponent.,武器があなたの敵について嫌な言葉を言います。
 enchantment.minecraft.sweeping.desc,Increases the damage of sweeping attacks.,範囲攻撃のダメージを増加させます。
 __support_galosphere,https://www.curseforge.com/minecraft/mc-mods/galosphere,
 enchantment.galosphere.enfeeble.desc,Inflicts slowness on entities hit by the saltbound tablet's pillars.,ソルトボウンドタブレットの柱に当たったエンティティに衰弱を付与します。

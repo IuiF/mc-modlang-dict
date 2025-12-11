@@ -50,7 +50,7 @@ block.functionalstorage.warped_2,Warped Drawer (1x2),歪んだドロワー (1x2)
 block.functionalstorage.warped_4,Warped Drawer (2x2),歪んだドロワー (2x2)
 config.jade.plugin_functionalstorage.armory,Functional Storage Armory,ファンクショナルストレージ 防具庫
 config.jade.plugin_functionalstorage.drawer,Functional Storage Drawers,ファンクショナルストレージ 引き出し
-configurationtool.configmode,Config Mode: ,コンフィグモード: 
+configurationtool.configmode,Config Mode: ,コンフィグモード:
 configurationtool.configmode.indicator,Swap indicator modes,インジケーターモードの切り替え
 configurationtool.configmode.indicator.mode_0,Hidden,隠す
 configurationtool.configmode.indicator.mode_1,Show progress bar,プログレスバーを表示する
@@ -58,11 +58,11 @@ configurationtool.configmode.indicator.mode_2,Show progress bar only when full,�
 configurationtool.configmode.indicator.mode_3,Show progress bar only when full without background,フレーム付きドロワーで満タンの時だけプログレスバーを表示する
 configurationtool.configmode.locking,Locking,ロック
 configurationtool.configmode.swapped,Swapped mode to ,モード切り替え：
-configurationtool.configmode.toggle_numbers,Hide/Show Amounts,量 隠す/表示 
+configurationtool.configmode.toggle_numbers,Hide/Show Amounts,量 隠す/表示
 configurationtool.configmode.toggle_render,Hide/Show Item/Fluid Renders,アイテム/液体レンダリング表示/非表示
-configurationtool.configmode.toggle_upgrades,Hide/Show Upgrade Renders,アップグレードの表示 隠す/表示 
+configurationtool.configmode.toggle_upgrades,Hide/Show Upgrade Renders,アップグレードの表示 隠す/表示
 configurationtool.use,Sneak + Right Click in the air to change modes. Right click a drawer to toggle the option.,空中でシフト右クリックするとモードを変更できます。ドロワーを右クリックすると設定を変更できます。
-drawer.block.contents,Contents: ,コンテンツ: 
+drawer.block.contents,Contents: ,コンテンツ:
 drawer.block.multiplier,Storage multiplier: %s,ストレージスタック:%s
 drawer.block.upgrades,Upgrades:,アップグレード:
 drawer.block.upgrades.is_creative,Creative,クリエイティブ
@@ -87,17 +87,16 @@ drawer_upgrade.functionalstorage.void.item,Voids excess items,余剰分のアイ
 frameddrawer.use,"How 2 Change Texture: 
 Inside a crafting window place the block you want use the texture of for the outside of the drawer in the first slot of the crafting window, on the second slot put the block that will be used for the texture on the inside of the framed drawer and on the third slot put a framed drawer. You can change the drawer divider texture by adding a block into the 4th slot
 ","テクスチャ変更方法:
-クラフティングウィンドウ内で、引き出しの外側に使いたいテクスチャのブロックを第1スロットに、フレーム付き引き出しの内側に使うテクスチャのブロックを第2スロットに、フレーム付き引き出しを第3スロットに配置してください。
-"
+クラフティングウィンドウ内で、引き出しの外側に使いたいテクスチャのブロックを第1スロットに、フレーム付き引き出しの内側に使うテクスチャのブロックを第2スロットに、フレーム付き引き出しを第3スロットに配置してください。"
 functionalupgrade.desc.execute_every_tick,Every %s ticks:,%sティック毎に:
 functionalupgrade.desc.generate_fluid,Generates %s mb of %s,%s mbの%sを生成
 functionalupgrade.desc.generate_item,Generates %s %s,%sの%sを生成
-gui.functionalstorage.amount,Amount: ,量: 
+gui.functionalstorage.amount,Amount: ,量:
 gui.functionalstorage.empty,Empty,空
-gui.functionalstorage.fluid,Fluid: ,液体: 
-gui.functionalstorage.item,Item: ,アイテム: 
+gui.functionalstorage.fluid,Fluid: ,液体:
+gui.functionalstorage.item,Item: ,アイテム:
 gui.functionalstorage.open_gui,Right Click while Crouching to open the GUI,シフト右クリックするとGUIが開きます
-gui.functionalstorage.slot,Slot: ,スロット: 
+gui.functionalstorage.slot,Slot: ,スロット:
 gui.functionalstorage.storage,Storage,ストレージ
 gui.functionalstorage.storage_range,Range,範囲
 gui.functionalstorage.utility,Utility,ユーティリティー
@@ -118,27 +117,27 @@ item.functionalstorage.pusher_upgrade,Pusher Upgrade,搬出アップグレード
 item.functionalstorage.redstone_upgrade,Redstone Upgrade,レッドストーンアップグレード
 item.functionalstorage.void_upgrade,Void Upgrade,ボイドアップグレード
 item.functionalstorage.water_generator_upgrade,Water Generator Upgrade,水生成アップグレード
-item.utility.direction,Direction: ,方向: 
+item.utility.direction,Direction: ,方向:
 item.utility.direction.desc,Right click in a GUI to change direction,GUIで右クリックして方向を変える
 item.utility.downgrade,Downgrades the slots to a max of 64 items,スロットを最大64アイテムにダウングレードします
-item.utility.slot,Slot: ,スロット: 
+item.utility.slot,Slot: ,スロット:
 item.utility.slot.desc,Right click in a GUI to change slot,GUIで右クリックしてスロットを変更する
 itemGroup.functionalstorage,Functional Storage,ファンクショナルストレージ
 key.categories.storage,Storage,ストレージ
 key.categories.utility,Utility,ユーティリティー
-linkingtool.controller,Controller: ,コントローラー: 
+linkingtool.controller,Controller: ,コントローラー:
 linkingtool.controller.configured,Controller configured to the tool,コントローラーをツールに設定
 linkingtool.drawer.clear,Cleared drawer frequency,ドロワーの周波数をクリア
 linkingtool.ender.changed,Changed drawer frequency,ドロワーの周波数を変更
 linkingtool.ender.clear,Sneak + Right Click in the air to clear frequency.,空中でシフト右クリックすると周波数がクリアされます。
-linkingtool.ender.frequency,Frequency: ,周波数: 
+linkingtool.ender.frequency,Frequency: ,周波数:
 linkingtool.ender.stored,Stored frequency in the tool,ツールに周波数を保存
 linkingtool.ender.warning,"Cannot change frequency, there are items in the drawer. Sneak + Right Click again to ignore this safety",周波数を変更できません。ドロワーにアイテムが含まれています。スニーク＋右クリックで此の安全制限を無視
-linkingtool.linkingaction,Linking Action: ,リンクアクション: 
+linkingtool.linkingaction,Linking Action: ,リンクアクション:
 linkingtool.linkingaction.add,Add,追加
 linkingtool.linkingaction.remove,Remove,削除
 linkingtool.linkingaction.swapped,Swapped action to %s,アクションを%sに切り替え
-linkingtool.linkingmode,Linking Mode: ,リンキングモード: 
+linkingtool.linkingmode,Linking Mode: ,リンキングモード:
 linkingtool.linkingmode.multiple,Multiple,複数
 linkingtool.linkingmode.multiple.desc,Links multiple drawers between 2 points,2点間の複数のドロワーをリンクします
 linkingtool.linkingmode.single,Single,シングル
@@ -169,10 +168,9 @@ storageupgrade.desc.set_base,Sets the base %s to %s,ベース%sを%sに設定
 storageupgrade.obj.controller_range,controller radius,コントローラー範囲
 storageupgrade.obj.fluid_storage,the block fluid storage,ブロック流体ストレージ
 storageupgrade.obj.item_storage,the block item storage,ブロックアイテムストレージ
-upgrade.type,Type: ,タイプ: 
+upgrade.type,Type: ,タイプ:
 upgrade.type.storage,Storage,ストレージ
 upgrade.type.utility,Utility,ユーティリティー
-storageupgrade.desc.fluid,Multiplies the block fluid storage by ,ブロックの液体ストレージ容量を 
-storageupgrade.desc.item,Multiplies the block item storage by ,ブロックのアイテムストレージ容量を 
-configurationtool.configmode.toggle_render,Hide/Show Item Renders,アイテム描画の表示/非表示
+storageupgrade.desc.fluid,Multiplies the block fluid storage by ,ブロックの液体ストレージ容量を
+storageupgrade.desc.item,Multiplies the block item storage by ,ブロックのアイテムストレージ容量を
 storageupgrade.desc.range,Increases controller radius by %s blocks,コントローラーの範囲を%sブロック拡大します

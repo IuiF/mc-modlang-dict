@@ -89,7 +89,7 @@ advancement.create.extendo_grip_dual.desc,"Dual-wield Extendo Grips for superhum
 §7(Hidden Advancement)","マジックハンドの二刀流で超人的なリーチを手に入れる§7
 (隠し進捗)"
 advancement.create.factory_gauge,High Logistics,高度な物流
-advancement.create.factory_gauge.desc,Trigger an automatic package request using Factory Gauges,ファクトリーゲージを使用して自動小包リクエストを行う
+advancement.create.factory_gauge.desc,Trigger an automatic package request using Factory Gauges,ファクトリーゲージを使用して自動小包リクエストする
 advancement.create.fan_processing,Processing by Particle,パーティクル加工
 advancement.create.fan_processing.desc,Use an Encased Fan to process materials,ケース入りファンを使って素材を加工する
 advancement.create.fist_bump,"Pound It, Bro!",グータッチだ、兄弟！
@@ -179,14 +179,14 @@ advancement.create.speed_controller,Engineers hate this simple trick!,俺に言�
 advancement.create.speed_controller.desc,Fine-tune your Contraption with a Rotation Speed Controller,回転速度コントローラーでからくりを微調整する
 advancement.create.spout,Sploosh,ばしゃばしゃ
 advancement.create.spout.desc,Watch a fluid-containing item be filled by a Spout,アイテム注液口が液体を充填している様子を見る
-advancement.create.steam_engine,The Powerhouse,発転(はつてん)所
+advancement.create.steam_engine,The Powerhouse,発電(はつでん)所
 advancement.create.steam_engine.desc,Use a Steam Engine to generate torque,蒸気エンジンでトルクを生み出す
 advancement.create.steam_engine_maxed,Full Steam,全速前進だ！
 advancement.create.steam_engine_maxed.desc,Run a boiler at the maximum level of power,ボイラーを最大レベルで稼働させる
 advancement.create.steam_whistle,Voice of an Angel,天使の歌声
 advancement.create.steam_whistle.desc,Activate a Steam Whistle,汽笛を稼働させる
 advancement.create.stock_ticker,Order Up!,注文します！
-advancement.create.stock_ticker.desc,Employ a mob at your stock ticker and make your first requests,ストックティッカーでモブを雇い、最初のリクエストを行う
+advancement.create.stock_ticker.desc,Employ a mob at your stock ticker and make your first requests,ストックティッカーでモブを雇い、最初のリクエストする
 advancement.create.stressometer,Stress for Nerds,応力オタク
 advancement.create.stressometer.desc,Get an exact readout with the help of Engineer's Goggles and a Stressometer,エンジニアのゴーグルを通して、応力計から正確な値を読み取る
 advancement.create.stressometer_maxed,Perfectly Stressed,無駄のない動き
@@ -297,7 +297,7 @@ block.create.brown_seat,Brown Seat,茶色のシート
 block.create.brown_table_cloth,Brown Table Cloth,茶色のテーブルクロス
 block.create.brown_toolbox,Brown Toolbox,茶色の工具箱
 block.create.brown_valve_handle,Brown Valve Handle,茶色のバルブハンドル
-block.create.calcite_pillar,Calcite Pillar,方解石の柱
+block.create.calcite_pillar,Calcite Pillar,カルサイトの柱
 block.create.cardboard_block,Block of Cardboard,段ボールブロック
 block.create.cart_assembler,Cart Assembler,トロッコアセンブラ
 block.create.chain_conveyor,Chain Conveyor,チェーンコンベア
@@ -377,14 +377,14 @@ block.create.cut_asurine_bricks,Cut Asurine Bricks,研がれた瑠璃岩レン�
 block.create.cut_asurine_slab,Cut Asurine Slab,研がれた瑠璃岩のハーフブロック
 block.create.cut_asurine_stairs,Cut Asurine Stairs,研がれた瑠璃岩の階段
 block.create.cut_asurine_wall,Cut Asurine Wall,研がれた瑠璃岩の塀
-block.create.cut_calcite,Cut Calcite,研がれた方解石
-block.create.cut_calcite_brick_slab,Cut Calcite Brick Slab,研がれた方解石レンガのハーフブロック
-block.create.cut_calcite_brick_stairs,Cut Calcite Brick Stairs,研がれた方解石レンガの階段
-block.create.cut_calcite_brick_wall,Cut Calcite Brick Wall,研がれた方解石レンガの塀
-block.create.cut_calcite_bricks,Cut Calcite Bricks,研がれた方解石レンガ
-block.create.cut_calcite_slab,Cut Calcite Slab,研がれた方解石のハーフブロック
-block.create.cut_calcite_stairs,Cut Calcite Stairs,研がれた方解石の階段
-block.create.cut_calcite_wall,Cut Calcite Wall,研がれた方解石の塀
+block.create.cut_calcite,Cut Calcite,研がれたカルサイト
+block.create.cut_calcite_brick_slab,Cut Calcite Brick Slab,研がれたカルサイトレンガのハーフブロック
+block.create.cut_calcite_brick_stairs,Cut Calcite Brick Stairs,研がれたカルサイトレンガの階段
+block.create.cut_calcite_brick_wall,Cut Calcite Brick Wall,研がれたカルサイトレンガの塀
+block.create.cut_calcite_bricks,Cut Calcite Bricks,研がれたカルサイトレンガ
+block.create.cut_calcite_slab,Cut Calcite Slab,研がれたカルサイトのハーフブロック
+block.create.cut_calcite_stairs,Cut Calcite Stairs,研がれたカルサイトの階段
+block.create.cut_calcite_wall,Cut Calcite Wall,研がれたカルサイトの塀
 block.create.cut_crimsite,Cut Crimsite,研がれた真紅岩
 block.create.cut_crimsite_brick_slab,Cut Crimsite Brick Slab,研がれた真紅岩レンガのハーフブロック
 block.create.cut_crimsite_brick_stairs,Cut Crimsite Brick Stairs,研がれた真紅岩レンガの階段
@@ -564,7 +564,7 @@ block.create.large_cogwheel,Large Cogwheel,大きな歯車
 block.create.large_water_wheel,Large Water Wheel,大きな水車
 block.create.layered_andesite,Layered Andesite,安山岩の組石
 block.create.layered_asurine,Layered Asurine,瑠璃岩の組石
-block.create.layered_calcite,Layered Calcite,方解石の組石
+block.create.layered_calcite,Layered Calcite,カルサイトの組石
 block.create.layered_crimsite,Layered Crimsite,真紅岩の組石
 block.create.layered_deepslate,Layered Deepslate,深層岩の組石
 block.create.layered_diorite,Layered Diorite,閃緑岩の組石
@@ -577,7 +577,7 @@ block.create.layered_scoria,Layered Scoria,スコリアの組石
 block.create.layered_tuff,Layered Tuff,凝灰岩の組石
 block.create.layered_veridium,Layered Veridium,緑青岩の組石
 block.create.lectern_controller,Lectern Controller,書見台コントローラー
-block.create.light_blue_nixie_tube,Light Blue Nixie Tube,空色のニキシー菅
+block.create.light_blue_nixie_tube,Light Blue Nixie Tube,空色のニキシー管
 block.create.light_blue_postbox,Light Blue Postbox,空色の郵便箱
 block.create.light_blue_sail,Light Blue Sail,空色の帆
 block.create.light_blue_seat,Light Blue Seat,空色のシート
@@ -679,10 +679,10 @@ block.create.polished_cut_asurine,Polished Cut Asurine,磨かれた研がれた�
 block.create.polished_cut_asurine_slab,Polished Cut Asurine Slab,磨かれた研がれた瑠璃岩のハーフブロック
 block.create.polished_cut_asurine_stairs,Polished Cut Asurine Stairs,磨かれた研がれた瑠璃岩の階段
 block.create.polished_cut_asurine_wall,Polished Cut Asurine Wall,磨かれた研がれた瑠璃岩の塀
-block.create.polished_cut_calcite,Polished Cut Calcite,磨かれた方解石
-block.create.polished_cut_calcite_slab,Polished Cut Calcite Slab,磨かれた方解石のハーフブロック
-block.create.polished_cut_calcite_stairs,Polished Cut Calcite Stairs,磨かれた方解石の階段
-block.create.polished_cut_calcite_wall,Polished Cut Calcite Wall,磨かれた方解石の塀
+block.create.polished_cut_calcite,Polished Cut Calcite,磨かれたカルサイト
+block.create.polished_cut_calcite_slab,Polished Cut Calcite Slab,磨かれたカルサイトのハーフブロック
+block.create.polished_cut_calcite_stairs,Polished Cut Calcite Stairs,磨かれたカルサイトの階段
+block.create.polished_cut_calcite_wall,Polished Cut Calcite Wall,磨かれたカルサイトの塀
 block.create.polished_cut_crimsite,Polished Cut Crimsite,磨かれた研がれた真紅岩
 block.create.polished_cut_crimsite_slab,Polished Cut Crimsite Slab,磨かれた研がれた真紅岩のハーフブロック
 block.create.polished_cut_crimsite_stairs,Polished Cut Crimsite Stairs,磨かれた研がれた真紅岩の階段
@@ -793,10 +793,10 @@ block.create.small_asurine_brick_stairs,Small Asurine Brick Stairs,小さな瑠�
 block.create.small_asurine_brick_wall,Small Asurine Brick Wall,小さな瑠璃岩レンガの塀
 block.create.small_asurine_bricks,Small Asurine Bricks,小さな瑠璃岩レンガ
 block.create.small_bogey,Small Bogey,小さな台車
-block.create.small_calcite_brick_slab,Small Calcite Brick Slab,小さな方解石レンガのハーフブロック
-block.create.small_calcite_brick_stairs,Small Calcite Brick Stairs,小さな方解石レンガの階段
-block.create.small_calcite_brick_wall,Small Calcite Brick Wall,小さな方解石レンガの塀
-block.create.small_calcite_bricks,Small Calcite Bricks,小さな方解石レンガ
+block.create.small_calcite_brick_slab,Small Calcite Brick Slab,小さなカルサイトレンガのハーフブロック
+block.create.small_calcite_brick_stairs,Small Calcite Brick Stairs,小さなカルサイトレンガの階段
+block.create.small_calcite_brick_wall,Small Calcite Brick Wall,小さなカルサイトレンガの塀
+block.create.small_calcite_bricks,Small Calcite Bricks,小さなカルサイトレンガ
 block.create.small_crimsite_brick_slab,Small Crimsite Brick Slab,小さな真紅岩レンガのハーフブロック
 block.create.small_crimsite_brick_stairs,Small Crimsite Brick Stairs,小さな真紅岩レンガの階段
 block.create.small_crimsite_brick_wall,Small Crimsite Brick Wall,小さな真紅岩レンガの塀
@@ -951,16 +951,16 @@ create.bogey.style.standard,Standard,標準
 create.bogey.style.updated_style,Updated style,スタイルを更新しました
 create.bogey.style.updated_style_and_size,Updated style and size,スタイルと大きさを更新しました
 create.boiler.heat,Heat,熱量
-create.boiler.heat_dots,...... ,... 
+create.boiler.heat_dots,...... ,...
 create.boiler.idle,Idle,停止中
 create.boiler.lvl,Lvl %1$s,レベル%1$s
 create.boiler.max_lvl,Max,レベル最大
 create.boiler.passive,Passive,レベル最小
 create.boiler.per_tick,%1$s per Tick,1ティックあたり%1$s
 create.boiler.size,Size,容量
-create.boiler.size_dots,....... ,... 
-create.boiler.status,Boiler Status:  %1$s,ボイラー状態:  %1$s
-create.boiler.status_short,Boiler:  %1$s,ボイラー:  %1$s
+create.boiler.size_dots,....... ,...
+create.boiler.status,Boiler Status:  %1$s,ボイラー状態: %1$s
+create.boiler.status_short,Boiler:  %1$s,ボイラー: %1$s
 create.boiler.via_engines,via %1$s engines,%1$s基のエンジン経由
 create.boiler.via_one_engine,via 1 engine,1基のエンジン経由
 create.boiler.water,Water,水量
@@ -990,7 +990,7 @@ create.command.debuginfo.sending,Collecting debug information...,デバッグ情
 create.command.killTPSCommand,killtps,
 create.command.killTPSCommand.argument.tickTime,tickTime,
 create.command.killTPSCommand.status.slowed_by.0,[Create]: Server tick is currently slowed by %s ms :o,[Create]:サーバーティックは現在 %s ms 遅くなっています :o
-create.command.killTPSCommand.status.slowed_by.1,[Create]: Server tick is slowed by %s ms now >:),[Create]: サーバーティックが %s ms 遅くなりました >:)
+create.command.killTPSCommand.status.slowed_by.1,[Create]: Server tick is slowed by %s ms now >:),[Create]: サーバーティックが %s ms 遅くなりました>:)
 create.command.killTPSCommand.status.slowed_by.2,[Create]: Server tick is back to regular speed :D,[Create]: サーバーティックが通常の速度に戻りました:D
 create.command.killTPSCommand.status.usage.0,[Create]: use /killtps stop to bring back server tick to regular speed,[Create]: /killtps stopを使用してサーバーのティックを通常の速度に戻します
 create.command.killTPSCommand.status.usage.1,[Create]: use /killtps start <tickTime> to artificially slow down the server tick,[Create]: /killtps start <tickTime>を使用して、サーバーのティックを意図的に遅くします
@@ -1069,7 +1069,7 @@ create.display_link.view_compatible,Click to view all Compatible,クリックし
 create.display_link.writing_to,Send to:,送信先:
 create.display_source.accumulate_items,Accumulate Item Count,蓄積アイテムカウンター
 create.display_source.boiler.for_boiler_status,for Boiler Status,ボイラーステータスの表示に
-create.display_source.boiler.not_enough_space,Not enough space ,十分なスペースがありません 
+create.display_source.boiler.not_enough_space,Not enough space ,十分なスペースがありません
 create.display_source.boiler_status,Boiler Status,ボイラー状態
 create.display_source.combine_item_names,Combine Item Names,アイテム名を結合
 create.display_source.computer,From Computer,コンピューターから
@@ -1087,7 +1087,7 @@ create.display_source.item_throughput.interval,Interval,間隔
 create.display_source.item_throughput.interval.hour,per Hour,毎時
 create.display_source.item_throughput.interval.minute,per Minute,毎分
 create.display_source.item_throughput.interval.second,per Second,毎秒
-create.display_source.kinetic_speed,Rotation Speed (RPM),回転速度（RPM）
+create.display_source.kinetic_speed,Rotation Speed (RPM),回転速度(RPM)
 create.display_source.kinetic_speed.absolute,Ignore Direction,回転方向を無視
 create.display_source.kinetic_speed.directional,Include Direction,回転方向を含める
 create.display_source.kinetic_stress,Network Stress,ネットワークの応力
@@ -1145,7 +1145,7 @@ create.factory_panel.click_to_relocate,Click a spot to relocate this panel to...
 create.factory_panel.connection_aborted,Input connection aborted,入力の接続をキャンセルしました
 create.factory_panel.cycled_arrow_path,Cycled arrow pathing mode %1$s,矢印の経路設定を変更: %1$s
 create.factory_panel.hold_to_set_amount,Click and hold for target amount,クリック長押しで目標量を設定
-create.factory_panel.in_progress,(In Progress),（処理中）
+create.factory_panel.in_progress,(In Progress),(処理中)
 create.factory_panel.input_in_restock_mode,Input gauge cannot be in restock mode,入力ゲージは補充モードでは使用できません
 create.factory_panel.link_connected,Gauge connected to %1$s,ゲージは%1$sに接続されました
 create.factory_panel.new_factory_task,New factory task,新規ファクトリータスク
@@ -1160,8 +1160,8 @@ create.factory_panel.some_links_unloaded,Some links are not loaded,いくつか�
 create.factory_panel.target_amount,Target Amount in Storage,収納ブロック内の目標量
 create.factory_panel.too_far_apart,Blocks are too far away from each other,ブロック同士が離れすぎています
 create.factory_panel.tune_before_placing,Tune to a stock link before placing,設置する前にストックリンクに調整してください
-create.flap_display.cycles.alphabet," ;A;B;C;D;E;F;G;H;I;J;K;L;M;N;O;P;Q;R;S;T;U;V;X;Y;Z",
-create.flap_display.cycles.arrival_time,"   ; min;now;15s;30s;45s","   ; 分;到着;15秒;30秒;45秒"
+create.flap_display.cycles.alphabet," ;A;B;C;D;E;F;G;H;I;J;K;L;M;N;O;P;Q;R;S;T;U;V;X;Y;Z",A;B;C;D;E;F;G;H;I;J;K;L;M;N;O;P;Q;R;S;T;U;V;X;Y;Z
+create.flap_display.cycles.arrival_time,"   ; min;now;15s;30s;45s",; 分;到着;15秒;30秒;45秒
 create.flap_display.cycles.fluid_units,mB;B ,
 create.flap_display.cycles.instant," ; ",
 create.flap_display.cycles.numeric," ;0;1;2;3;4;5;6;7;8;9",
@@ -1178,7 +1178,7 @@ create.generic.daytime.second,Second,秒
 create.generic.delay,Delay,遅延
 create.generic.duration,Duration,時間
 create.generic.height,Height,高さ
-create.generic.in_quotes,"""%1$s""",
+create.generic.in_quotes,"""%1$s""",「%1$s」
 create.generic.length,Length,長さ
 create.generic.notes,F#;F;E;D#;D;C#;C;B;A#;A;G#;G,
 create.generic.pitch,Pitch: %1$s,音程: %1$s
@@ -1254,7 +1254,7 @@ create.gui.factory_panel.expected_output_tip,The amount of output returning,成�
 create.gui.factory_panel.expected_output_tip_1,after each successful request,返される出力量
 create.gui.factory_panel.expected_output_tip_2,Scroll to change,スクロールして変更
 create.gui.factory_panel.has_link_connections,Gauge has connected links,ゲージがリンクに接続されました
-create.gui.factory_panel.inactive," Inactive "," 無効 "
+create.gui.factory_panel.inactive," Inactive ",無効
 create.gui.factory_panel.left_click_disconnect,Left-Click to disconnect,左クリックで切断します
 create.gui.factory_panel.left_click_reset,Left-Click to reset,左クリックでリセットします
 create.gui.factory_panel.no_open_promises,No open promises,約束なし
@@ -1301,7 +1301,7 @@ create.gui.gauge.info_header,Gauge Information:,計器の情報:
 create.gui.goggles.at_current_speed,at current speed,現在の速度で
 create.gui.goggles.basin_contents,Basin Contents:,鉢の内容物:
 create.gui.goggles.fluid_container,Fluid Container Info:,液体コンテナの情報:
-create.gui.goggles.fluid_container.capacity,Capacity: ,容量: 
+create.gui.goggles.fluid_container.capacity,Capacity: ,容量:
 create.gui.goggles.generator_stats,Generator Stats:,原動機の統計:
 create.gui.goggles.kinetic_stats,Kinetic Stats:,動力の統計:
 create.gui.goggles.pole_length,Pole Length:,ポールの長さ:
@@ -1309,7 +1309,7 @@ create.gui.package_port.catch_packages,Catch packages addressed to...,このア�
 create.gui.package_port.catch_packages_empty,Leave empty to match non-addressed,アドレス未指定にマッチさせたい場合は空白のままにしてください
 create.gui.package_port.catch_packages_wildcard,Use * as a text wildcard,* を使うと任意の文章を指定できます
 create.gui.package_port.not_targeting_anything,No target selected,対象が未選択
-create.gui.package_port.send_and_receive,Send and receive packages,小包の発送と受取を行う
+create.gui.package_port.send_and_receive,Send and receive packages,小包の発送と受取する
 create.gui.package_port.send_only,Only send packages,小包の発送のみ行う
 create.gui.pojav.content,"Mobile devices have extremely low quality graphics drivers, which cause visual issues that are impossible for Create to fix. No support will be provided for any issues you encounter.",モバイルデバイスのグラフィックスドライバは非常に品質が低いため、Createが修正できない視覚的な問題を引き起こします。どんな問題が起こったとしても、サポートは提供されません。
 create.gui.pojav.continue,Continue Anyway,とにかく続行
@@ -1447,7 +1447,7 @@ create.gui.terrainzapper.searchDiagonal,Follow Diagonals,対角線にフォロ�
 create.gui.terrainzapper.searchFuzzy,Ignore Material Borders,素材の境界を無視
 create.gui.terrainzapper.title,Handheld Blockzapper,携帯型ブロックザッパー
 create.gui.terrainzapper.tool,Tool,ツール
-create.gui.terrainzapper.tool.clear,Clear,削除
+create.gui.terrainzapper.tool.clear,Clear,クリア
 create.gui.terrainzapper.tool.fill,Fill,埋立
 create.gui.terrainzapper.tool.flatten,Flatten,なだらかに
 create.gui.terrainzapper.tool.overlay,Overlay,被せる
@@ -1469,7 +1469,7 @@ create.gui.toolmenu.cycle,[SCROLL] to Cycle,[スクロール] で循環
 create.gui.toolmenu.focusKey,Hold [%1$s] to Focus,[%1$s] 長押しでフォーカスする
 create.gui.value_settings.hold_to_edit,Click and hold to edit,クリック長押しで編集
 create.gui.value_settings.release_to_confirm,Release %1$s to Confirm,%1$sを離して確定
-create.hint.blocked_frogport,A _Package_ caught by this _Frogport_ could not be transferred to the _inventory_ _below._ Could it be full?,この _配送ガエル_ にキャッチされた _小包_ は _下側の__収納ブロック_ に転送できませんでした。中身が満杯かもしれません
+create.hint.blocked_frogport,A _Package_ caught by this _Frogport_ could not be transferred to the _inventory_ _below._ Could it be full?,この_配送ガエル_ にキャッチされた_小包_ は _下側の__収納ブロック_ に転送できませんでした。中身が満杯かもしれません
 create.hint.blocked_frogport.title,Contains Packages,小包を保持
 create.hint.derailed_train,It appears this _Train_ is no longer sitting on a connected track piece. _Right-Click_ using a _wrench_ in order to relocate it to a nearby track.,この_列車_は繋がった線路の上に乗っていないようです。レンチで右クリックして近くの線路に移してください。
 create.hint.derailed_train.title,Derailed Train,列車が脱線しています
@@ -1524,7 +1524,7 @@ create.item_attributes.fluid_container.inverted,cannot store fluids,液体を貯
 create.item_attributes.furnace_fuel,is furnace fuel,かまどの燃料か
 create.item_attributes.furnace_fuel.inverted,is not furnace fuel,かまどの燃料でないか
 create.item_attributes.has_enchant,is enchanted with %1$s,%1$sエンチャントされているか
-create.item_attributes.has_enchant.inverted,is not enchanted with %1$s,エンチャントがされていないか
+create.item_attributes.has_enchant.inverted,is not enchanted with %1$s,
 create.item_attributes.has_fluid,contains %1$s,%1$sを含んでいるか
 create.item_attributes.has_fluid.inverted,does not contain %1$s,%1$sを含んでいないか
 create.item_attributes.has_name,has the custom name %1$s,%1$sの名前が付けられているか
@@ -1706,13 +1706,13 @@ create.ponder.brass_tunnel_modes.text_10,'Synchronize Inputs' is a unique settin
 create.ponder.brass_tunnel_modes.text_11,Items are only allowed past if every tunnel in the group has one waiting,アイテムはグループ内の全てのトンネルがアイテムを搬入できる場合のみ通過を許可します
 create.ponder.brass_tunnel_modes.text_12,This ensures that all affected belts supply items at the same rate,これにより、影響を受ける全てのベルトに同じ割合でアイテムを供給できます
 create.ponder.brass_tunnel_modes.text_2,'Split' will attempt to distribute the stack evenly between available outputs,「スタック分割」は、アイテムを通せる搬出口の間でアイテムスタックを均等に分配しようとします
-create.ponder.brass_tunnel_modes.text_3,"If an output is unable to take more items, it will be skipped",搬出口がアイテムを通せない場合はスキップされます 
+create.ponder.brass_tunnel_modes.text_3,"If an output is unable to take more items, it will be skipped",搬出口がアイテムを通せない場合はスキップされます
 create.ponder.brass_tunnel_modes.text_4,"'Forced Split' will never skip outputs, and instead wait until they are free",「強制スタック分割」は搬出をスキップせず、それができるようになるまで待機します
-create.ponder.brass_tunnel_modes.text_5,"'Round Robin' keeps stacks whole, and cycles through outputs iteratively",「順繰り分配」 はスタックを分割せず、それぞれの搬出口から順番に搬出します 
+create.ponder.brass_tunnel_modes.text_5,"'Round Robin' keeps stacks whole, and cycles through outputs iteratively",「順繰り分配」 はスタックを分割せず、それぞれの搬出口から順番に搬出します
 create.ponder.brass_tunnel_modes.text_6,"Once Again, if an output is unable to take more items, it will be skipped",繰り返しになりますが、搬出口がアイテムを通せない場合はスキップされます
 create.ponder.brass_tunnel_modes.text_7,'Forced Round Robin' never skips outputs,「強制順繰り分配」は、搬出をスキップしません
-create.ponder.brass_tunnel_modes.text_8,'Prefer Nearest' prioritizes the outputs closest to the items' input location,「近い所を優先」アイテムの搬入口に最も近い搬出口から優先して分配します 
-create.ponder.brass_tunnel_modes.text_9,'Randomize' will distribute whole stacks to randomly picked outputs,「ランダム」は、スタック全体をランダムに選択した搬出口に分配します 
+create.ponder.brass_tunnel_modes.text_8,'Prefer Nearest' prioritizes the outputs closest to the items' input location,「近い所を優先」アイテムの搬入口に最も近い搬出口から優先して分配します
+create.ponder.brass_tunnel_modes.text_9,'Randomize' will distribute whole stacks to randomly picked outputs,「ランダム」は、スタック全体をランダムに選択した搬出口に分配します
 create.ponder.cart_assembler.header,Moving Structures using Cart Assemblers,トロッコアセンブラによる構造物の移動
 create.ponder.cart_assembler.text_1,Powered Cart Assemblers mount attached structures to passing Minecarts,レッドストーン信号を受けたアセンブラは通過するトロッコに、取り付けられた構造物を取り付けます
 create.ponder.cart_assembler.text_2,"Without a redstone signal, it disassembles passing cart contraptions back into blocks",レッドストーン信号を受けていない場合、通過するトロッコの構造物を取り外し、ブロックへ戻します
@@ -1746,7 +1746,7 @@ create.ponder.chain_gearshift.text_2,"When Powered, the speed transmitted to oth
 create.ponder.chain_gearshift.text_3,"Whenever the Powered Gearshift is not at the source, its speed will be halved instead",信号を受けているチェーンギアシフトが動力源でない場合、速度が半分になります
 create.ponder.chain_gearshift.text_4,"In both cases, Chain Drives in the row always run at 2x the speed of the Powered Gearshift",いずれの場合も、列内のチェーンドライブは常に「信号入りチェーンギアシフト」の2倍の速度で動作します
 create.ponder.chain_gearshift.text_5,"Using analog signals, the ratio can be adjusted more precisely between 1 and 2",レッドストーン信号の強度で、比率を1と2の間でより正確に調整できます
-create.ponder.chain_gearshift.text_6,12 RPM,
+create.ponder.chain_gearshift.text_6,12 RPM,12RPM
 create.ponder.chute.header,Transporting Items downward via Chutes,シュートによる下方向へ運搬
 create.ponder.chute.text_1,Chutes can transport items vertically from and to inventories,シュートは、収納ブロックから垂直方向にアイテムを運搬できます
 create.ponder.chute.text_2,"Using the Wrench, a window can be created",レンチを使って、窓を付けられます
@@ -1920,7 +1920,7 @@ create.ponder.factory_gauge_recipe.text_17,Each gauge maintains the stock level 
 create.ponder.factory_gauge_recipe.text_2,They will instead monitor stock levels of all linked inventories,ゲージはリンクされているすべての収納ブロックの在庫量を監視します
 create.ponder.factory_gauge_recipe.text_3,Right-click it with the item that should be monitored,監視したいアイテムで右クリックします
 create.ponder.factory_gauge_recipe.text_4,It will now display the total amount present on the network,ネットワーク内にある合計量を表示するようになりました
-create.ponder.factory_gauge_recipe.text_5,The gauge can replenish stock levels by sending other items to be processed,ゲージはアイテムを加工工程に送ることで、在庫を補充することができます
+create.ponder.factory_gauge_recipe.text_5,The gauge can replenish stock levels by sending other items to be processed,ゲージはアイテムを加工工程に送ることで、在庫を補充できます
 create.ponder.factory_gauge_recipe.text_6,"First, add the required ingredients as new factory gauges",まず、必要な材料をファクトリーゲージとして追加します
 create.ponder.factory_gauge_recipe.text_7,"From the target's UI, new connections can be made",目標となるゲージのUIから新しい接続を作成できます
 create.ponder.factory_gauge_recipe.text_8,"For aesthetics, input panels can be wrenched to change the pathing",入力パネルにレンチを使うことで、線のつながりを美しく変更できます
@@ -1932,7 +1932,7 @@ create.ponder.factory_gauge_restocker.text_11,"From there, they can be routed to
 create.ponder.factory_gauge_restocker.text_2,"When placed on a packager, factory gauges can monitor items inside the inventory",梱包機に設置されると、ファクトリーゲージは収納ブロック内のアイテムを監視できます
 create.ponder.factory_gauge_restocker.text_3,Right-click it with the item that should be monitored,監視したいアイテムで右クリックします
 create.ponder.factory_gauge_restocker.text_4,It will now display the amount present in the inventory,収納ブロック内にある量を表示するようになりました
-create.ponder.factory_gauge_restocker.text_5,The gauge can refill this inventory from the logistics network,ゲージは物流ネットワークから在庫を補充することができます
+create.ponder.factory_gauge_restocker.text_5,The gauge can refill this inventory from the logistics network,ゲージは物流ネットワークから在庫を補充できます
 create.ponder.factory_gauge_restocker.text_6,Right-click it again to open its configuration UI,もう一度右クリックすると設定画面を開けます
 create.ponder.factory_gauge_restocker.text_7,Set an address that should be used for the requested items,リクエストされたアイテムに使用されるアドレスを設定します
 create.ponder.factory_gauge_restocker.text_8,The target amount to maintain can now be set by holding Right-click on the gauge,右クリック長押しで維持される目標量を設定できるようになります
@@ -2184,7 +2184,7 @@ create.ponder.mechanical_roller_fill.text_3,"On 'straight fill', they will place
 create.ponder.mechanical_roller_fill.text_4,"On 'sloped fill', layers placed further down will increase in size",「傾斜をつけて埋め立て」は、下の層に行くほど幅が大きくなります
 create.ponder.mechanical_roller_fill.text_5,"As opposed to 'clear & pave', neither of these modes will cause the rollers to break existing blocks",「撤去・舗装」と違い、これらのモードは既存のブロックを破壊しません
 create.ponder.mechanical_roller_pave.header,Clearing and Paving with the Roller,ローラーによる撤去・舗装
-create.ponder.mechanical_roller_pave.text_1,Mechanical rollers help to clean up terrain around tracks or paths,メカニカルローラーは線路やその周りの地形をなめらかにするのに役立ちます
+create.ponder.mechanical_roller_pave.text_1,Mechanical rollers help to clean up terrain around tracks or paths,メカニカルローラーは線路やその周りの地形をなめらかなにするのに役立ちます
 create.ponder.mechanical_roller_pave.text_2,"In its default mode, without a material set, it will simply clear blocks like a Drill",デフォルトモードで材料がセットされていないとき、これはドリルのようにブロックを破壊します
 create.ponder.mechanical_roller_pave.text_3,"While disassembled, a suitable paving material can be specified",分解されている間、適切な舗装素材を指定できます
 create.ponder.mechanical_roller_pave.text_4,Materials can be supplied via chests or barrels attached to the structure,素材は構造物中のチェストや樽から供給されます
@@ -2237,7 +2237,7 @@ create.ponder.package_frogport.text_9,Peter,ピーター
 create.ponder.packager.header,Creating and unwrapping packages,小包の梱包と開梱
 create.ponder.packager.text_1,Attach packagers to the inventory they should target,対象となる収納ブロックに梱包機を取り付けてください
 create.ponder.packager.text_2,"Given redstone power, it will pack items from the inventory into a package",レッドストーン信号が与えられると、収納ブロックのアイテムを小包に梱包します
-create.ponder.packager.text_3,These can be picked up and transported like any other item,これらは他のアイテムと同様に回収や輸送をすることができます
+create.ponder.packager.text_3,These can be picked up and transported like any other item,これらは他のアイテムと同様に回収や輸送をできます
 create.ponder.packager.text_4,"Packages inserted will be destroyed, unpacking the contents into the inventory",搬入された小包は開梱され、中身を収納ブロックに収納します
 create.ponder.packager.text_5,Full,満杯
 create.ponder.packager.text_6,Packagers will not accept packages they cannot fully unpack,梱包機は中身を完全に開梱できない小包を受け付けません
@@ -2482,7 +2482,7 @@ create.ponder.stock_ticker.text_7,"From there, they can be transported to the re
 create.ponder.stock_ticker.text_8,"Using attribute or list filters, categories can be added to the item listings",属性またはリストフィルターを使用すると、分類をアイテムリストに追加できます
 create.ponder.stock_ticker.text_9,Right-click the Stock ticker to open the category editor,ストックティッカーを右クリックして分類の編集画面を開きます
 create.ponder.stock_ticker_address.header,Addressing a Stock ticker order,ストックティッカーの注文へのアドレス付与
-create.ponder.stock_ticker_address.text_1,"When ordering items, a target address can be set in the request",アイテムを注文するとき、リクエストに宛先アドレスを設定することができます
+create.ponder.stock_ticker_address.text_1,"When ordering items, a target address can be set in the request",アイテムを注文するとき、リクエストに宛先アドレスを設定できます
 create.ponder.stock_ticker_address.text_10,"Aside from filters, Frogports and Postboxes have package routing abilities",フィルタ以外にも、配送ガエルと郵便箱には小包の仕分け能力があります
 create.ponder.stock_ticker_address.text_11,Inspect them to find out more about their behaviour,詳しくはこれらのアイテムを確認してください
 create.ponder.stock_ticker_address.text_2,→ Workshop,→ 作業場
@@ -2760,7 +2760,7 @@ create.schedule.condition.powered,Station Powered,駅が赤石信号を受けた
 create.schedule.condition.powered.status,Waiting for redstone,レッドストーン信号を待っています
 create.schedule.condition.redstone_link,Redstone Link,レッドストーンリンク
 create.schedule.condition.redstone_link.frequency_powered,Frequency powered:,周波数がオンなら:
-create.schedule.condition.redstone_link.frequency_state,Frequency state:,周波数の状態: 
+create.schedule.condition.redstone_link.frequency_state,Frequency state:,周波数の状態:
 create.schedule.condition.redstone_link.frequency_unpowered,Frequency not powered:,周波数がオフなら:
 create.schedule.condition.redstone_link.powered,Powered,オン
 create.schedule.condition.redstone_link.status,Waiting for redstone link,レッドストーンリンクを待つ
@@ -2783,7 +2783,7 @@ create.schedule.condition.threshold.status,Cargo: %1$s/%2$s %3$s,貨物: %1$s/%2
 create.schedule.condition.threshold.train_holds,Train holds %1$s,鉄道が指定%1$s積んだら
 create.schedule.condition.threshold.x_units_of_item,%1$s %2$s of %3$s,%1$s %2$sの%3$s
 create.schedule.condition.time_of_day,Time of Day,指定時刻
-create.schedule.condition.time_of_day.digital_format,%1$s:%3$s %4$s,
+create.schedule.condition.time_of_day.digital_format,%1$s:%3$s %4$s,%4$s%1$s:%3$s
 create.schedule.condition.time_of_day.rotation,Rotation,繰り返し
 create.schedule.condition.time_of_day.rotation.every_0_15,Every 0:15,15分ごと
 create.schedule.condition.time_of_day.rotation.every_0_30,Every 0:30,30分ごと
@@ -2796,20 +2796,20 @@ create.schedule.condition.time_of_day.rotation.every_3,Every 3:00,3時間ごと
 create.schedule.condition.time_of_day.rotation.every_4,Every 4:00,4時間ごと
 create.schedule.condition.time_of_day.rotation.every_6,Every 6:00,6時間ごと
 create.schedule.condition.time_of_day.scheduled,Scheduled Time: %1$s,予定時刻: %1$s
-create.schedule.condition.time_of_day.status,Departs at ,発車時刻: 
+create.schedule.condition.time_of_day.status,Departs at ,発車時刻:
 create.schedule.condition.unloaded,Chunk Unloaded,チャンクロードが解除されたら
 create.schedule.condition.unloaded.status,Waiting for chunk unload,チャンクアンロードを待っています
 create.schedule.condition_type,Continue if/after:,もし～ならば／～後に再開:
 create.schedule.continued,Schedule resumed,運行を再開しました
 create.schedule.instruction.address_filter_edit_box,Retrieve Packages with this Address,このアドレスの小包を回収
-create.schedule.instruction.address_filter_edit_box_1,Use * as a text wildcard," * を使うと任意の文章を指定できます"
+create.schedule.instruction.address_filter_edit_box_1,Use * as a text wildcard,* を使うと任意の文章を指定できます
 create.schedule.instruction.address_filter_edit_box_2,Train may navigate anywhere to collect it,小包を回収するため列車はどこへでも行きます
 create.schedule.instruction.address_filter_edit_box_3,Add another instruction to make it return,帰還させるためには別の指示を追加します
 create.schedule.instruction.destination,Travel to Station,駅へ移動
 create.schedule.instruction.destination.summary,Next Stop:,止まる駅:
 create.schedule.instruction.editor,Instruction Editor,命令エディタ
 create.schedule.instruction.filter_edit_box,Station Name,駅名
-create.schedule.instruction.filter_edit_box_1,Use * as a text wildcard," * を使うと任意の文章を指定できます"
+create.schedule.instruction.filter_edit_box_1,Use * as a text wildcard,* を使うと任意の文章を指定できます
 create.schedule.instruction.filter_edit_box_2,"Example: 'My Station, Platform *'",例: '東京駅*番線'
 create.schedule.instruction.filter_edit_box_3,Train picks nearest unoccupied match,列車は一致し空いている駅の中で最も近い駅を選びます
 create.schedule.instruction.name_edit_box,Schedule Title,時刻表名
@@ -2858,29 +2858,29 @@ create.schematic.tool.deploy.description.2,Hold [Ctrl] to select at a fixed dist
 create.schematic.tool.deploy.description.3,[Ctrl]-Scroll to change the distance.,[Ctrl]-スクロールして距離を変更します
 create.schematic.tool.flip,Mirror,裏返し
 create.schematic.tool.flip.description.0,Flips the Schematic along the face you select.,選択した面に沿って概略図を反転します
-create.schematic.tool.flip.description.1,Point at the Schematic and [CTRL]-Scroll to flip it.,概略図をポイントし、 [Ctrl]-スクロールして反転します
+create.schematic.tool.flip.description.1,Point at the Schematic and [CTRL]-Scroll to flip it.,概略図をポイントし、[Ctrl]-スクロールして反転します
 create.schematic.tool.flip.description.2,,クリックして反転操作を確認
-create.schematic.tool.flip.description.3,,Shiftを押しながらクリックして反転軸を変更
+create.schematic.tool.flip.description.3,,シフトを押しながらクリックして反転軸を変更
 create.schematic.tool.move,Move XZ,XZを移動
 create.schematic.tool.move.description.0,Shifts the Schematic Horizontally.,概略図を水平に動かします
-create.schematic.tool.move.description.1,Point at the Schematic and [CTRL]-Scroll to push it.,概略図を向け、 [Ctrl]-スクロールして押し出します
+create.schematic.tool.move.description.1,Point at the Schematic and [CTRL]-Scroll to push it.,概略図を向け、[Ctrl]-スクロールして押し出します
 create.schematic.tool.move.description.2,,クリックして移動操作を確認
-create.schematic.tool.move.description.3,,Shiftを押しながらクリックして移動軸を変更
+create.schematic.tool.move.description.3,,シフトを押しながらクリックして移動軸を変更
 create.schematic.tool.move_y,Move Y,Y軸を移動
 create.schematic.tool.move_y.description.0,Shifts the Schematic Vertically.,概略図を垂直に移動させます
 create.schematic.tool.move_y.description.1,[CTRL]-Scroll to move it up/down.,[CTRL]-スクロールで上下に移動させます
 create.schematic.tool.move_y.description.2,,クリックしてY軸移動を確認
-create.schematic.tool.move_y.description.3,,Shiftを押しながらクリックしてY軸方向を変更
+create.schematic.tool.move_y.description.3,,シフトを押しながらクリックしてY軸方向を変更
 create.schematic.tool.print,Print,印刷
 create.schematic.tool.print.description.0,Instantly places the structure in the world.,構造物を即座にワールドに配置します
 create.schematic.tool.print.description.1,[Right-Click] to confirm placement at the current location.,[右クリック] して、現在の場所への配置を確認します
 create.schematic.tool.print.description.2,This tool is for Creative Mode only.,このツールはクリエイティブモード専用です
-create.schematic.tool.print.description.3,,Shiftを押しながらクリックして印刷パラメータを変更
+create.schematic.tool.print.description.3,,シフトを押しながらクリックして印刷パラメータを変更
 create.schematic.tool.rotate,Rotate,回転
 create.schematic.tool.rotate.description.0,Rotates the Schematic around its center.,概略図を中心に回転させます
 create.schematic.tool.rotate.description.1,[CTRL]-Scroll to rotate by 90 Degrees.,[Ctrl]-スクロールして90度回転します
 create.schematic.tool.rotate.description.2,,クリックして回転操作を確認
-create.schematic.tool.rotate.description.3,,Shiftを押しながらクリックして回転方向を変更
+create.schematic.tool.rotate.description.3,,シフトを押しながらクリックして回転方向を変更
 create.schematicAndQuill.abort,Removed selection.,選択を削除しました
 create.schematicAndQuill.convert,Save and Upload Immediately,保存してすぐに適用
 create.schematicAndQuill.dimensions,Schematic Size: %1$sx%2$sx%3$s,概略図サイズ: %1$sx%2$sx%3$s
@@ -2911,7 +2911,7 @@ create.schematicannon.status.skipping,Skipping,スキップ
 create.schematicannon.status.stopped,Stopped,停止
 create.schematicannon.status.targetNotLoaded,Target is not loaded,ブロックが読み込まれていません
 create.schematicannon.status.targetOutsideRange,Target too far away,対象が遠すぎます
-create.schematics.maxAllowedSize,The maximum allowed schematic file size is:,最大許容概略図ファイルサイズ: 
+create.schematics.maxAllowedSize,The maximum allowed schematic file size is:,最大許容概略図ファイルサイズ:
 create.schematics.synchronizing,Syncing...,同期しています...
 create.schematics.uploadTooLarge,Your schematic exceeds limitations specified by the server.,概略図が大きすぎます
 create.schematics.wrongFormat,The schematic you are trying to upload is either corrupt or encoded wrongly! It should be encoded with GZIP compatible format.,アップロードしようとしている概略図は、破損しているか、誤ったエンコードがなされています! GZIP互換形式でエンコードされている必要があります。
@@ -3032,9 +3032,9 @@ create.table_cloth.price_per_order,Price per Order,毎注文ごとの価格
 create.table_cloth.shop_configured,Item shop configured,アイテムショップが設定されました
 create.table_cloth.shopping_list_discarded,Shopping list discarded,買い物リストを破棄しました
 create.table_cloth.sneak_click_discard,Sneak-Click to discard,スニーククリックで破棄できます
-create.table_cloth.total_cost,Total cost: ,合計費用: 
+create.table_cloth.total_cost,Total cost: ,合計費用:
 create.terrainzapper.leftClickToSet,Left-Click a Block to set Material,ブロックをスニークせず右クリックでブロックを選択
-create.terrainzapper.shiftRightClickToSet,Shift-Right-Click to Select a Shape,Shift+右クリックで形状を選択
+create.terrainzapper.shiftRightClickToSet,Shift-Right-Click to Select a Shape,シフト+右クリックで形状を選択
 create.terrainzapper.usingBlock,Using: %1$s,使用中: %1$s
 create.toolbox.depositAll,Return items to nearby Toolboxes,近くの工具箱にアイテムを戻す
 create.toolbox.depositBox,Return items to Toolbox,工具箱にアイテムを戻す
@@ -3043,7 +3043,7 @@ create.toolbox.outOfRange,Toolbox of held item not in Range,範囲内に工具�
 create.toolbox.unequip,Unequip: %1$s,装備解除: %1$s
 create.tooltip.analogStrength,Analog Strength: %1$s/15,アナログ強度: %1$s/15
 create.tooltip.brass_tunnel.contains,Currently distributing:,配布中:
-create.tooltip.brass_tunnel.contains_entry,> %1$s x%2$s,
+create.tooltip.brass_tunnel.contains_entry,> %1$s x%2$s,> %1$s x %2$s
 create.tooltip.brass_tunnel.retrieve,Right-Click to retrieve,右クリックで取り出し
 create.tooltip.capacityProvided,Kinetic Stress Capacity:,許容応力:
 create.tooltip.capacityProvided.high,Large,大
@@ -3098,8 +3098,8 @@ create.track.turn_90,Can only turn up to 90 Degrees,90度を超えるターン�
 create.track.turn_start,Cannot start connection from a Turn,ターンから接続は始められません
 create.track.valid_connection,Can Connect ✔,接続可能 ✔
 create.track_signal.cannot_change_mode,Unable to switch mode of this Signal,この信号のモードを切り替えることはできません
-create.track_signal.mode_change.cross_signal,-> Allow passage if section fully traversable," -> 区間をよどみなく走行できるなら通過を許可"
-create.track_signal.mode_change.entry_signal,-> Allow passage if section unoccupied," -> 区間が空いているなら通過を許可"
+create.track_signal.mode_change.cross_signal,-> Allow passage if section fully traversable,-> 区間をよどみなく走行できるなら通過を許可
+create.track_signal.mode_change.entry_signal,-> Allow passage if section unoccupied,-> 区間が空いているなら通過を許可
 create.track_signal.mode_controlled_by_computer,Signal mode is controlled by computer,シグナルモードはコンピュータによって制御されています
 create.track_target.clear,Cleared track selection,線路の選択を解除しました
 create.track_target.invalid,Cannot target this track here,この線路を選択することはできません
@@ -3146,21 +3146,21 @@ create.train_assembly.requires_casing,Use Train Casing to create bogeys on track
 create.train_assembly.sideways_controls,Train Controls cannot face sideways,列車運転台は横向きにできません
 create.train_assembly.single_bogey_carriage,This Bogey type cannot support a carriage on its own,このタイプの台車は単体で列車にできません
 create.train_assembly.too_many_bogeys,Too many Bogeys attached: %1$s,台車が多すぎます：%1$s
-create.train_map.cannot_traverse_section,"  Cannot fully traverse","  完全な横断が不可能"
-create.train_map.conductor_missing," <!> Conductor Missing"," <!> 車掌が不在"
-create.train_map.derailed," <!> Derailed"," <!> 脱線"
-create.train_map.for_other_train,"  for %1$s","  %1$sのため"
-create.train_map.fuel_boosted," Fuel boosted ✔"," 燃料で加速中✔"
-create.train_map.navigation_failed," <!> Navigation Failed"," <!> 経路探索に失敗"
-create.train_map.player_controlled," -> Controlled by Player"," -> プレイヤーが制御"
-create.train_map.redstone_powered,"  Redstone Powered","  レッドストーン信号のため"
-create.train_map.schedule_interrupted," <!> Schedule Interrupted"," <!> 時刻表が中断"
-create.train_map.section_reserved,"  Section reserved","  区間が予約済み"
+create.train_map.cannot_traverse_section,"  Cannot fully traverse",完全な横断が不可能
+create.train_map.conductor_missing," <!> Conductor Missing",<!> 車掌が不在
+create.train_map.derailed," <!> Derailed",<!> 脱線
+create.train_map.for_other_train,"  for %1$s",%1$sのため
+create.train_map.fuel_boosted," Fuel boosted ✔",燃料で加速中✔
+create.train_map.navigation_failed," <!> Navigation Failed",<!> 経路探索に失敗
+create.train_map.player_controlled," -> Controlled by Player",-> プレイヤーが制御
+create.train_map.redstone_powered,"  Redstone Powered",レッドストーン信号のため
+create.train_map.schedule_interrupted," <!> Schedule Interrupted",<!> 時刻表が中断
+create.train_map.section_reserved,"  Section reserved",区間が予約済み
 create.train_map.toggle,Train network overlay,鉄道路線図オーバーレイ
 create.train_map.train_at_station," >| %1$s",
 create.train_map.train_moving_to_station," >> %1$s (%2$sm)",
 create.train_map.train_owned_by,by %1$s,所有者: %1$s
-create.train_map.waiting_at_signal," Waiting at Signal"," 信号待ち"
+create.train_map.waiting_at_signal," Waiting at Signal",信号待ち
 create.tunnel.selection_mode.forced_round_robin,Forced Round Robin,強制順繰り分配
 create.tunnel.selection_mode.forced_split,Forced Split,強制スタック分割
 create.tunnel.selection_mode.prefer_nearest,Prefer Nearest,近い所を優先
@@ -3647,7 +3647,7 @@ tag.item.create.seats,Seats,座席
 tag.item.create.sleepers,Sleepers,枕木
 tag.item.create.stone_types.andesite,Andesite,安山岩
 tag.item.create.stone_types.asurine,Asurine,アスリン
-tag.item.create.stone_types.calcite,Calcite,方解石
+tag.item.create.stone_types.calcite,Calcite,カルサイト
 tag.item.create.stone_types.crimsite,Crimsite,クリムサイト
 tag.item.create.stone_types.deepslate,Deepslate,深層岩
 tag.item.create.stone_types.diorite,Diorite,閃緑岩
@@ -3669,35 +3669,35 @@ tag.item.create.upgrade_aquatic.coral,Upgrade Aquatic Coral,アップグレー�
 tag.item.create.upright_on_belt,Upright on Belts,ベルトの上で立つ
 tag.item.create.valve_handles,Valve Handles,バルブハンドル
 tag.recipe_serializer.create.automation_ignore,Non-automatable,自動化不可
-create.display_source.computer_display_source,From Computer,コンピュータから
-create.gui.threshold_switch.move_to_lower_at,Move to lower lane at %1$s%%,下レーンに移動: %1$s%%
-create.gui.threshold_switch.move_to_upper_at,Move to upper lane at %1$s%%,上レーンに移動: %1$s%%
-create.keyinfo.ponder,Ponder,
-create.keyinfo.scrolldown,Simulate Mousewheel Down (inworld),マウスホイール下シミュレート（ワールド内）
-create.keyinfo.scrollup,Simulate Mousewheel Up (inworld),マウスホイール上シミュレート（ワールド内）
-create.ponder.associated,Associated Entries,関連エントリ
-create.ponder.categories,Available Categories in Create,Createの利用可能なカテゴリ
+create.display_source.computer_display_source,From Computer,コンピューターから
+create.gui.threshold_switch.move_to_lower_at,Move to lower lane at %1$s%%,動作の下限は%1$s%%
+create.gui.threshold_switch.move_to_upper_at,Move to upper lane at %1$s%%,動作の上限は%1$s%%
+create.keyinfo.ponder,Ponder,熟考
+create.keyinfo.scrolldown,Simulate Mousewheel Down (inworld),マウスホイールダウンをシミュレーション(この世界で)
+create.keyinfo.scrollup,Simulate Mousewheel Up (inworld),マウスホイールアップをシミュレート(この世界で)
+create.ponder.associated,Associated Entries,関連項目
+create.ponder.categories,Available Categories in Create,Createで閲覧できるカテゴリ
 create.ponder.close,Close,閉じる
 create.ponder.exit,Exit,終了
-create.ponder.hold_to_ponder,Hold [%1$s] to Ponder,[%1$s]を押しながらPonderを開く
-create.ponder.identify,Identify,識別
+create.ponder.hold_to_ponder,Hold [%1$s] to Ponder,[%1$s] 長押しで思案画面を開く
+create.ponder.identify,Identify,ブロック名を確認
 create.ponder.identify_mode,"Identify mode active.
-Unpause with [%1$s]","識別モード有効です。
-[%1$s]で再開します"
-create.ponder.index_description,Click one of the icons to learn about its associated Items and Blocks,アイコンをクリックして関連するアイテムとブロックについて学ぶ
-create.ponder.index_title,Ponder Index,Ponder索引
+Unpause with [%1$s]","確認モードになっています。
+ [%1$s] で一時停止を解除"
+create.ponder.index_description,Click one of the icons to learn about its associated Items and Blocks,アイテムをクリックすると、関連するアイテムやブロックの情報が表示されます。
+create.ponder.index_title,Ponder Index,思案索引
 create.ponder.next,Next Scene,次のシーン
 create.ponder.next_up,Up Next:,次:
-create.ponder.pondering,Pondering about...,について思考中...
+create.ponder.pondering,Pondering about...,思案中...
 create.ponder.previous,Previous Scene,前のシーン
-create.ponder.replay,Replay,リプレイ
-create.ponder.shared.ctrl_and,Ctrl +,
-create.ponder.shared.sneak_and,Sneak +,
-create.ponder.slow_text,Comfy Reading,ゆっくり読む
-create.ponder.subject,Subject of this scene,このシーンの対象
+create.ponder.replay,Replay,最初から
+create.ponder.shared.ctrl_and,Ctrl +,Ctrl +
+create.ponder.shared.sneak_and,Sneak +,スニーク +
+create.ponder.slow_text,Comfy Reading,熟考(スロー再生)
+create.ponder.subject,Subject of this scene,このシーンの主題
 create.ponder.tag.recently_updated,Recent Changes,最近の変更
-create.ponder.tag.recently_updated.description,Components that have been added or changed significantly in the latest versions of Create,Createの最新バージョンで追加または大幅に変更されたコンポーネント
+create.ponder.tag.recently_updated.description,Components that have been added or changed significantly in the latest versions of Create,Createの最新バージョンで追加または大幅に変更された機械
 create.ponder.think_back,Think Back,戻る
-create.ponder.welcome,Welcome to Ponder,Ponderへようこそ
-death.attack.create.cuckoo_clock_explosion,%1$s was blown up by tampered cuckoo clock,%1$sは改ざんされたカッコー時計で爆発しました
-death.attack.create.cuckoo_clock_explosion.player,%1$s was blown up by tampered cuckoo clock,%1$sは改ざんされたカッコー時計で爆発しました
+create.ponder.welcome,Welcome to Ponder,思案画面へようこそ
+death.attack.create.cuckoo_clock_explosion,%1$s was blown up by tampered cuckoo clock,%1$sは改造された鳩時計に爆破された
+death.attack.create.cuckoo_clock_explosion.player,%1$s was blown up by tampered cuckoo clock,%1$sは改造された鳩時計に爆破された

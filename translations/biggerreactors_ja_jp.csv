@@ -64,16 +64,16 @@ jei.biggerreactors.classic.turbine_coil_bonus,Bonus: %s,ボーナス: %s
 jei.biggerreactors.classic.turbine_coil_efficiency,Efficiency: %s,効率: %s
 jei.biggerreactors.classic.turbine_coil_extraction,Extraction Rate: %s,抽出速度: %s
 multiblock.error.biggerreactors.control_rod_not_on_top,"Control rods can only be placed on the top of the reactor (%d, %d, %d).","制御棒は反応炉の上部にのみ配置できます (%d, %d, %d)。"
-multiblock.error.biggerreactors.coolant_and_power_ports,"Reactors may only have coolant ports (actively-cooled type) or power taps (passively-cooled type), not both.",反応炉は冷却液ポート（活冷却型）または電力タップ（受動冷却型）のみを持つことができます。両方は不可です。
-multiblock.error.biggerreactors.dangling_internal_part,"There appears to be another reactor inside this one, is something wrong? (%d, %d, %d).","この反応炉の中に別の反応炉がありますか？何か問題があります（%d, %d, %d）。"
-multiblock.error.biggerreactors.fuel_rod_gap,"All fuel elements must extend from top of the reactor to the bottom (%d, %d, %d).","すべての燃料要素は反応炉の上から下まで伸びなければなりません（%d, %d, %d）。"
-multiblock.error.biggerreactors.heat_exchanger.dangling_channel,"All channels must be connected to a fluid port. (%d, %d, %d)","すべてのチャネルは流体ポートに接続されている必要があります。（%d, %d, %d）"
-multiblock.error.biggerreactors.heat_exchanger.dangling_internal_part,"There appears to be another heat exchanger inside this one, is something wrong? (%d, %d, %d).","この熱交換機の中に別の熱交換機がありますか？何か問題があります（%d, %d, %d）。"
+multiblock.error.biggerreactors.coolant_and_power_ports,"Reactors may only have coolant ports (actively-cooled type) or power taps (passively-cooled type), not both.",反応炉は冷却液ポート(活冷却型)または電力タップ(受動冷却型)のみを持つことができます。両方は不可です。
+multiblock.error.biggerreactors.dangling_internal_part,"There appears to be another reactor inside this one, is something wrong? (%d, %d, %d).","この反応炉の中に別の反応炉がありますか？何か問題があります(%d, %d, %d)。"
+multiblock.error.biggerreactors.fuel_rod_gap,"All fuel elements must extend from top of the reactor to the bottom (%d, %d, %d).","すべての燃料要素は反応炉の上から下まで伸びなければなりません(%d, %d, %d)。"
+multiblock.error.biggerreactors.heat_exchanger.dangling_channel,"All channels must be connected to a fluid port. (%d, %d, %d)","すべてのチャネルは流体ポートに接続されている必要があります。(%d, %d, %d)"
+multiblock.error.biggerreactors.heat_exchanger.dangling_internal_part,"There appears to be another heat exchanger inside this one, is something wrong? (%d, %d, %d).","この熱交換機の中に別の熱交換機がありますか？何か問題があります(%d, %d, %d)。"
 multiblock.error.biggerreactors.heat_exchanger.duplicate_port_types,Both the evaporator and condenser must connect to two fluid ports.,エバポレーターとコンデンサーの両方が2つの流体ポートに接続する必要があります。
 multiblock.error.biggerreactors.heat_exchanger.fluid_port_unconnected,All fluid ports must have a connected channel.,すべての流体ポートは接続されたチャネルを持つ必要があります。
 multiblock.error.biggerreactors.heat_exchanger.invalid_port_count,Exactly 4 fluid ports are required.,正確に4つの流体ポートが必要です。
 multiblock.error.biggerreactors.heat_exchanger.missing_channel_type,At least one evaporator and one condenser channel are required.,少なくとも1つのエバポレーターとコンデンサーチャネルが必要です。
-multiblock.error.biggerreactors.no_control_rod_for_fuel_rod,"All fuel elements must be topped with a control rod (%d, %d).","すべての燃料要素は制御棒の上部に配置する必要があります（%d, %d）。"
+multiblock.error.biggerreactors.no_control_rod_for_fuel_rod,"All fuel elements must be topped with a control rod (%d, %d).","すべての燃料要素は制御棒の上部に配置する必要があります(%d, %d)。"
 multiblock.error.biggerreactors.no_manifold_neighbor,Reactor coolant manifolds must neighbor another manifold or a casing,反応炉冷却液マニホールドは別のマニホールドまたはケーシングに隣接する必要があります。
 multiblock.error.biggerreactors.no_rods,Reactors must have at least one fuel element.,反応炉は少なくとも1つの燃料要素を持つ必要があります。
 multiblock.error.biggerreactors.no_terminal,Reactors require at least one terminal.,反応炉は少なくとも1つのターミナルが必要です。
@@ -84,7 +84,7 @@ multiblock.error.biggerreactors.turbine.rotor_bearing_count,"Turbines require ex
 screen.biggerreactors.cyanite_reprocessor,Cyanite Reprocessor,シアナイトリプロセッサー
 screen.biggerreactors.cyanite_reprocessor.internal_battery.tooltip,Internal Battery,内部バッテリー
 screen.biggerreactors.cyanite_reprocessor.water_tank.tooltip,Water Tank,水タンク
-screen.biggerreactors.disabled,Disabled,無効化
+screen.biggerreactors.disabled,Disabled,無効
 screen.biggerreactors.heat_exchanger_fluid_port,Heat Exchanger Fluid Port,熱交換機流体ポート
 screen.biggerreactors.heat_exchanger_fluid_port.channel_type.condenser,Channel Connection: §cCondenser,チャネル接続: §cコンデンサー
 screen.biggerreactors.heat_exchanger_fluid_port.channel_type.evaporator,Channel Connection: §9Evaporator,チャネル接続: §9エバポレーター
@@ -166,9 +166,9 @@ screen.biggerreactors.reactor_control_rod.insert_rod.tooltip,"Insert Rod
 §8[Ctrl + Shift]: Max insertion.
 §8[Alt]: Apply to all rods.","ロッドを挿入
 §7挿入を増やすと反応速度が低下します。
-§8[Shift]: 10%挿入。
+§8[シフト]: 10%挿入。
 §8[Ctrl]: 50%挿入。
-§8[Ctrl + Shift]: 最大挿入。
+§8[Ctrl + シフト]: 最大挿入。
 §8[Alt]: すべてのロッドに適用。"
 screen.biggerreactors.reactor_control_rod.name,Name:,名前:
 screen.biggerreactors.reactor_control_rod.retract_rod.tooltip,"Retract Rod
@@ -178,9 +178,9 @@ screen.biggerreactors.reactor_control_rod.retract_rod.tooltip,"Retract Rod
 §8[Ctrl + Shift]: Max retraction.
 §8[Alt]: Apply to all rods.","ロッドを引き出す
 §7挿入を減らすと反応速度が上がります。
-§8[Shift]: 10%引き出す。
+§8[シフト]: 10%引き出す。
 §8[Ctrl]: 50%引き出す。
-§8[Ctrl + Shift]: 最大引き出す。
+§8[Ctrl + シフト]: 最大引き出す。
 §8[Alt]: すべてのロッドに適用。"
 screen.biggerreactors.reactor_coolant_port,Reactor Coolant Port,反応炉冷却液ポート
 screen.biggerreactors.reactor_coolant_port.direction_toggle.input,Direction: §3Input,方向: §3入力
@@ -198,53 +198,53 @@ screen.biggerreactors.reactor_redstone_port.apply_changes.tooltip,"Apply Changes
 §7Your changes will not take affect until applied.","変更を適用
 §7変更は適用されるまで有効になりません。"
 screen.biggerreactors.reactor_redstone_port.choose_setting,Pick a setting:,設定を選択:
-screen.biggerreactors.reactor_redstone_port.input_control_rod_insertion,Change Control Rod Insertion (Input),制御棒挿入を変更（入力）
+screen.biggerreactors.reactor_redstone_port.input_control_rod_insertion,Change Control Rod Insertion (Input),制御棒挿入を変更(入力)
 screen.biggerreactors.reactor_redstone_port.input_control_rod_insertion.tooltip,"Change Control Rod Insertion (Input)
 §8[On Pulse] Move the control rod, depending on the current mode.
-§8[On Signal] Set the insertion level depending on whether redstone is applied.","制御棒挿入を変更（入力）
+§8[On Signal] Set the insertion level depending on whether redstone is applied.","制御棒挿入を変更(入力)
 §8[パルス時] 現在のモードに応じてコントロールロッドを移動します。
 §8[信号時] レッドストーンが適用されているかどうかに基づいて挿入レベルを設定します。"
 screen.biggerreactors.reactor_redstone_port.input_control_rod_insertion.while_off,Otherwise:,それ以外:
 screen.biggerreactors.reactor_redstone_port.input_control_rod_insertion.while_on,While signal applied:,信号が適用中:
-screen.biggerreactors.reactor_redstone_port.input_eject_waste,Eject Waste (Input),廃棄物を排出（入力）
+screen.biggerreactors.reactor_redstone_port.input_eject_waste,Eject Waste (Input),廃棄物を排出(入力)
 screen.biggerreactors.reactor_redstone_port.input_eject_waste.tooltip,"Eject Waste (Input)
 §8[On Pulse] Eject all waste from the reactor.
-§8[On Signal] N/A.","廃棄物を排出（入力）
+§8[On Signal] N/A.","廃棄物を排出(入力)
 §8[パルス時] 反応炉からすべての廃棄物を排出します。
 §8[信号時] 該当なし。"
-screen.biggerreactors.reactor_redstone_port.input_reactor_activity,Change Reactor Status (Input),反応炉ステータスを変更（入力）
+screen.biggerreactors.reactor_redstone_port.input_reactor_activity,Change Reactor Status (Input),反応炉ステータスを変更(入力)
 screen.biggerreactors.reactor_redstone_port.input_reactor_activity.tooltip,"Change Reactor Status (Input)
 §8[On Pulse] Toggle whether the reactor is on or off.
-§8[On Signal] When redstone is applied, the reactor is active.","反応炉ステータスを変更（入力）
+§8[On Signal] When redstone is applied, the reactor is active.","反応炉ステータスを変更(入力)
 §8[パルス時] 反応炉のオン/オフを切り替えます。
 §8[信号時] レッドストーンが適用された場合、反応炉がアクティブになります。"
-screen.biggerreactors.reactor_redstone_port.output_casing_temp,Casing Temperature (Output),ケーシング温度（出力）
+screen.biggerreactors.reactor_redstone_port.output_casing_temp,Casing Temperature (Output),ケーシング温度(出力)
 screen.biggerreactors.reactor_redstone_port.output_casing_temp.tooltip,"Casing Temperature (Output)
-§8[While Above/Below] Trigger when the fuel temperature is above or below the set temperature.","ケーシング温度（出力）
+§8[While Above/Below] Trigger when the fuel temperature is above or below the set temperature.","ケーシング温度(出力)
 §8[上記/下記] 燃料温度が設定温度より上または下の場合にトリガーします。"
-screen.biggerreactors.reactor_redstone_port.output_fuel_amount,Fuel Amount (Output),燃料量（出力）
+screen.biggerreactors.reactor_redstone_port.output_fuel_amount,Fuel Amount (Output),燃料量(出力)
 screen.biggerreactors.reactor_redstone_port.output_fuel_amount.tooltip,"Fuel Amount (Output)
-§8[While Above/Below] Trigger when the fuel level is above or below the set amount.","燃料量（出力）
+§8[While Above/Below] Trigger when the fuel level is above or below the set amount.","燃料量(出力)
 §8[上記/下記] 燃料レベルが設定量より上または下の場合にトリガーします。"
-screen.biggerreactors.reactor_redstone_port.output_fuel_enrichment,Fuel Enrichment (Output),燃料濃縮度（出力）
+screen.biggerreactors.reactor_redstone_port.output_fuel_enrichment,Fuel Enrichment (Output),燃料濃縮度(出力)
 screen.biggerreactors.reactor_redstone_port.output_fuel_enrichment.tooltip,"Fuel Enrichment (Output)
-§8[While Above/Below] Trigger when the fuel enrichment level is above or below the set percentage.","燃料濃縮度（出力）
+§8[While Above/Below] Trigger when the fuel enrichment level is above or below the set percentage.","燃料濃縮度(出力)
 §8[上記/下記] 燃料濃縮度が設定パーセンテージより上または下の場合にトリガーします。"
-screen.biggerreactors.reactor_redstone_port.output_fuel_temp,Fuel Temperature (Output),燃料温度（出力）
+screen.biggerreactors.reactor_redstone_port.output_fuel_temp,Fuel Temperature (Output),燃料温度(出力)
 screen.biggerreactors.reactor_redstone_port.output_fuel_temp.tooltip,"Fuel Temperature (Output)
-§8[While Above/Below] Trigger when the fuel temperature is above or below the set temperature.","燃料温度（出力）
+§8[While Above/Below] Trigger when the fuel temperature is above or below the set temperature.","燃料温度(出力)
 §8[上記/下記] 燃料温度が設定温度より上または下の場合にトリガーします。"
-screen.biggerreactors.reactor_redstone_port.output_output_stored,Output Stored (Output),出力保存量（出力）
+screen.biggerreactors.reactor_redstone_port.output_output_stored,Output Stored (Output),出力保存量(出力)
 screen.biggerreactors.reactor_redstone_port.output_output_stored.tooltip,"Output Stored (Output)
-§8[While Above/Below] Trigger when the output stored is above or below the set amount.","出力保存量（出力）
+§8[While Above/Below] Trigger when the output stored is above or below the set amount.","出力保存量(出力)
 §8[上記/下記] 出力保存量が設定量より上または下の場合にトリガーします。"
-screen.biggerreactors.reactor_redstone_port.output_waste_amount,Waste Amount (Output),廃棄物量（出力）
+screen.biggerreactors.reactor_redstone_port.output_waste_amount,Waste Amount (Output),廃棄物量(出力)
 screen.biggerreactors.reactor_redstone_port.output_waste_amount.tooltip,"Waste Amount (Output)
-§8[While Above/Below] Trigger when the waste level is above or below the set amount.","廃棄物量（出力）
+§8[While Above/Below] Trigger when the waste level is above or below the set amount.","廃棄物量(出力)
 §8[上記/下記] 廃棄物レベルが設定量より上または下の場合にトリガーします。"
 screen.biggerreactors.reactor_redstone_port.revert_changes.tooltip,"§4[UNIMPLEMENTED]
 Revert Changes
-§7Reset current changes to those last applied.","§4[未実装]
+§7Reset current changes to those last applied.","[未実装]
 変更を戻す
 §7現在の変更を最後に適用したものにリセットします。"
 screen.biggerreactors.reactor_redstone_port.text_buffer_a.mode_a,Insert by:,挿入量:
@@ -314,7 +314,7 @@ screen.biggerreactors.reactor_terminal.fuel_mix.tooltip,"Fuel Mix
 screen.biggerreactors.reactor_terminal.fuel_mix_gauge.tooltip,"%%s/%%s Mixed
 §a%%s of Fuel
 §b%%s of Waste","%%s/%%s 混合
-§a%%s 燃料
+%%s 燃料
 §b%%s 廃棄物"
 screen.biggerreactors.reactor_terminal.fuel_usage_rate.tooltip,"Fuel Usage Rate
 §7How much fuel the reactor is consuming.","燃料使用速度
@@ -357,9 +357,9 @@ screen.biggerreactors.turbine_terminal.flow_rate_decrease.tooltip,"Decrease Flow
 §8[Ctrl]: Decrease by %s mB.
 §8[Ctrl + Shift]: Decrease by %s mB.","流量を減少
 §7流量を低くするとローター速度が低下します。
-§8[Shift]: %s mB減少。
+§8[シフト]: %s mB減少。
 §8[Ctrl]: %s mB減少。
-§8[Ctrl + Shift]: %s mB減少。"
+§8[Ctrl + シフト]: %s mB減少。"
 screen.biggerreactors.turbine_terminal.flow_rate_governor.tooltip,"Flow Rate Governor
 §7How fast the turbine will process fluids.","流量ガバナー
 §7タービンがどの速さで流体を処理するか。"
@@ -369,9 +369,9 @@ screen.biggerreactors.turbine_terminal.flow_rate_increase.tooltip,"Increase Flow
 §8[Ctrl]: Increase by %s mB.
 §8[Ctrl + Shift]: Increase by %s mB.","流量を増加
 §7流量を高くするとローター速度が上昇します。
-§8[Shift]: %s mB増加。
+§8[シフト]: %s mB増加。
 §8[Ctrl]: %s mB増加。
-§8[Ctrl + Shift]: %s mB増加。"
+§8[Ctrl + シフト]: %s mB増加。"
 screen.biggerreactors.turbine_terminal.intake_tank.tooltip,"Intake Tank
 §7How much hot intake is stored internally.","吸入タンク
 §7内部に保存されている熱い吸入流体の量。"
@@ -392,3 +392,9 @@ screen.biggerreactors.turbine_terminal.vent_state_toggle.overflow,Vent: §6Overf
 screen.biggerreactors.turbine_terminal.vent_state_toggle.tooltip,"Toggle Exhaust Venting
 §7Set how or whether exhaust will be vented.","排気ベントを切り替え
 §7排気がどのように、またはどのようにベント放出されるかを設定します。"
+block.biggerreactors.deepslate_uranium_ore,Deepslate Uranium Ore,
+block.biggerreactors.raw_uranium_block,Raw Uranium Block,
+item.biggerreactors.uranium_chunk,Uranium Chunk,
+item_group.biggerreactors,Bigger Reactors,
+tooltip.biggerreactors.is_a_coil,§eThis block can be used as a coil in a Bigger Turbine,
+tooltip.biggerreactors.is_a_moderator,§eThis can be used as a moderator in a Bigger Reactor,

@@ -1,6 +1,6 @@
 ﻿key,source_text,target_text
 block.custommachinery.custom_machine_block,Some machine block,カスタム機械ブロック
-config.jade.plugin_custommachinery.machine_component_provider,Custom Machinery provider,Custom Machinery プロバイダー
+config.jade.plugin_custommachinery.machine_component_provider,Custom Machinery provider,カスタム Machinery プロバイダー
 custommachinery.box_creator.copy,Click to copy to clipboard,クリップボードにコピー
 custommachinery.box_creator.create_box,The selected box is : %s,選択されたボックス : %s
 custommachinery.box_creator.first_block,First Block : %s,最初のブロック : %s
@@ -28,7 +28,7 @@ custommachinery.gui.baseinfo.name,Name:,名前：
 custommachinery.gui.baseinfo.namespace,NameSpace:,ネームスペース：
 custommachinery.gui.baseinfo.packname,Datapack:,データパック：
 custommachinery.gui.component.buildertypewidget,Click to circle available Components,利用可能なコンポーネントをサイクルするにはクリック
-custommachinery.gui.component.empty,Use these buttons to add some Components ->,これらのボタンを使用してコンポーネントを追加してください ->
+custommachinery.gui.component.empty,Use these buttons to add some Components ->,これらのボタンを使用してコンポーネントを追加してください->
 custommachinery.gui.component.select,Select a Component to edit,編集するコンポーネントを選択
 custommachinery.gui.config.auto_input,Auto Input,自動入力
 custommachinery.gui.config.auto_output,Auto Output,自動出力
@@ -50,7 +50,6 @@ custommachinery.gui.element.dump.name,Dump,廃棄
 custommachinery.gui.element.dump.tooltip,All %s will be lost,%sがすべて失われます
 custommachinery.gui.element.energy.tooltip,Energy: %s %s / %s %s,エネルギー: %s %s / %s %s
 custommachinery.gui.element.fluid.empty,Empty : %smB / %smB,空き : %smB / %smB
-custommachinery.gui.element.fluid.tooltip,: %smB / %smB,: %smB / %smB
 custommachinery.gui.element.fuel.tooltip,Burn Time: %s,燃焼時間: %s
 custommachinery.gui.element.reset.name,Reset,リセット
 custommachinery.gui.element.reset.tooltip,All already consumed inputs will be lost !,既に消費されたすべての入力は失われます！
@@ -70,7 +69,7 @@ custommachinery.jei.ingredient.chance.0,Not consumed,消費されません
 custommachinery.jei.ingredient.energy,Energy: %s %s,エネルギー: %s %s
 custommachinery.jei.ingredient.energy.input,Consume %s %s,%s %sを消費
 custommachinery.jei.ingredient.energy.output,Produce %s %s,%s %sを生成
-custommachinery.jei.ingredient.energy.pertick,Energy: %s %s per tick,エネルギー: %s %s/tick
+custommachinery.jei.ingredient.energy.pertick,Energy: %s %s per tick,エネルギー: %s %s/ティック
 custommachinery.jei.ingredient.energy.pertick.input,Consume %s %s @ %s %s/t,%s %sを消費 @ %s %s/t
 custommachinery.jei.ingredient.energy.pertick.output,Produce %s %s @ %s %s/t,%s %sを生成 @ %s %s/t
 custommachinery.jei.ingredient.fluid.pertick,Per tick,チックあたり
@@ -86,10 +85,8 @@ custommachinery.jei.recipe.time,Duration: %sticks,期間: %sticks
 custommachinery.machine.component.energy,Energy,エネルギー
 custommachinery.machine.component.fluid,Fluid,流体
 custommachinery.machine.component.item,Item,アイテム
-custommachinery.machine.loader.crafttweaker,CraftTweaker,CraftTweaker
 custommachinery.machine.loader.datapack,Datapack,データパック
 custommachinery.machine.loader.default,Default,デフォルト
-custommachinery.machine.loader.kubejs,KubeJS,KubeJS
 custommachinery.machine_creator.warning,"Disabled, use json files to create your machines",無効化、JSONファイルを使用して機械を作成してください
 custommachinery.requirement.mode.input,Input,入力
 custommachinery.requirement.mode.output,Output,出力
@@ -121,8 +118,8 @@ custommachinery.requirements.drop.info.produce,Drop %s,%sをドロップ
 custommachinery.requirements.drop.info.whitelist,Accepted items :,受け入れられたアイテム：
 custommachinery.requirements.durability.error.input,"Not enough durability in %s, %s needed but %s found !",%sの耐久性が不足しています、%sが必要ですが%sが見つかりました！
 custommachinery.requirements.durability.error.output,"Can't repair %s, trying to repair %s durability but only %s missing !",%sを修復できません、%s耐久性を修復しようとしていますが、%sが不足しています！
-custommachinery.requirements.effect.info.end,Give %s %s for %s ticks in a radius of %s blocks on end,終了時に%sブロックの半径内のエンティティに%s ticks間%sを付与
-custommachinery.requirements.effect.info.tick,Give %s %s for %s ticks in a radius of %s blocks each tick,各チックに%sブロックの半径内のエンティティに%s ticks間%sを付与
+custommachinery.requirements.effect.info.end,Give %s %s for %s ticks in a radius of %s blocks on end,
+custommachinery.requirements.effect.info.tick,Give %s %s for %s ticks in a radius of %s blocks each tick,
 custommachinery.requirements.effect.info.whitelist,Entity Whitelist :,エンティティホワイトリスト：
 custommachinery.requirements.energy.error.input,"Not enough energy, %sFE needed but only %sFE found !",エネルギーが不足しています、%sFEが必要ですが、%sFEしかありません！
 custommachinery.requirements.energy.error.output,Not enough space for storing %sFE !,%sFEを保存するのに十分なスペースがありません！
@@ -131,7 +128,7 @@ custommachinery.requirements.energypertick.error.output,Not enough space for sto
 custommachinery.requirements.entity.amount.error,Not enough entities nearby !,近くにエンティティが不足しています！
 custommachinery.requirements.entity.blacklist,Entity blacklist:,エンティティブラックリスト:
 custommachinery.requirements.entity.check_amount.info,Requires %s entities in a %s blocks radius,%sブロックの半径内に%sのエンティティを必要
-custommachinery.requirements.entity.check_health.info,Requires %s entity HP in a %s blocks radius (not consumed),%sブロックの半径内に%sエンティティHPを必要（消費されません）
+custommachinery.requirements.entity.check_health.info,Requires %s entity HP in a %s blocks radius (not consumed),%sブロックの半径内に%sエンティティHPを必要(消費されません)
 custommachinery.requirements.entity.consume_health.info,Requires and consume %s entity HP in a %s blocks radius,%sブロックの半径内に%sエンティティHPを必要および消費
 custommachinery.requirements.entity.health.error,Can't collect %s health points with nearby entities !,近くのエンティティで%sヘルスポイントを集められません！
 custommachinery.requirements.entity.kill.info,Kill %s entities in %s blocks radius,%sブロックの半径内に%sのエンティティを倒す
@@ -163,7 +160,6 @@ custommachinery.requirements.structure.click,Click to view the required structur
 custommachinery.requirements.structure.destroy,Will destroy structure,構造を破壊します
 custommachinery.requirements.structure.error,Invalid structure !,無効な構造！
 custommachinery.requirements.structure.info,Requires a structure,構造を必要
-custommachinery.requirements.structure.list,"   %sx %s","   %sx %s"
 custommachinery.requirements.structure.shift,Press [Ctrl] to view blocks list,[Ctrl]を押してブロックリストを表示
 custommachinery.requirements.time.error,This recipe cannot be processed at this time of the day,このレシピは1日のこの時間では処理できません
 custommachinery.requirements.time.info,Valid Time ranges :,有効な時間範囲：
@@ -185,7 +181,7 @@ custommachinery.structure_creator.message,"Structure generated, click to copy : 
 custommachinery.structure_creator.no_blocks,No blocks are selected,ブロックが選択されていません
 custommachinery.structure_creator.reset,Right click in the air while crouching to reset,スニークしながら空気をクリックしてリセット
 custommachinery.structure_creator.select,Right click a block to add or remove it,ブロックを右クリックして追加または削除
-custommachinery.upgrade.tooltip,(Shift) Custom Machine Upgrade,(Shift) カスタム機械アップグレード
+custommachinery.upgrade.tooltip,(Shift) Custom Machine Upgrade,(シフト) カスタム機械アップグレード
 item.custommachinery.box_creator_item,Box Creator,ボックスクリエーター
 item.custommachinery.machine_creator_item,Machine Creator,機械クリエーター
 item.custommachinery.structure_creator,Structure Creator,構造クリエーター
@@ -224,5 +220,3 @@ text.autoconfig.custommachinery.option.logMissingOptional,Log missing optional p
 text.autoconfig.custommachinery.option.modelFolders,Models folders,モデルフォルダ
 text.autoconfig.custommachinery.option.needAdvancedInfoForRecipeID,Need advanced info for recipe ID,レシピIDに高度な情報が必要
 text.autoconfig.custommachinery.option.structureRenderTime,Structure render time,構造レンダリング時間
-unit.energy.fabric,E,E
-unit.energy.forge,FE,FE

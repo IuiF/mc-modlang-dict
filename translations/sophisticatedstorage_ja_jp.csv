@@ -1,6 +1,6 @@
 ﻿key,source_text,target_text
 block.sophisticatedstorage.barrel,%s%sBarrel,%s%s樽
-block.sophisticatedstorage.barrel.tooltip.flat_top," (Flat Top)"," (平らな上部)"
+block.sophisticatedstorage.barrel.tooltip.flat_top," (Flat Top)",(平らな上部)
 block.sophisticatedstorage.chest,%s%sChest,%s%sチェスト
 block.sophisticatedstorage.controller,Storage Controller,ストレージコントローラ
 block.sophisticatedstorage.controller.tooltip,Allows to deposit and pipe items to and from a connected multiblock of storages,ストレージを連結させ、アイテムを出し入れできるようになります。
@@ -51,7 +51,7 @@ block.sophisticatedstorage.storage_connector,%s Storage Connector,%sストレー
 block.sophisticatedstorage.storage_connector.tooltip,Bridges gaps between storage blocks in a storage multiblock.,ストレージマルチブロック内のストレージブロック間のギャップを埋めます。
 block.sophisticatedstorage.storage_input,Storage Input,ストレージ収納装置
 block.sophisticatedstorage.storage_input.tooltip,"When placed in storage multiblock allows to pipe items into it
-Optimized for low tps impact",パイプなどでアイテムを収納することができます
+Optimized for low tps impact",パイプなどでアイテムを収納できます
 block.sophisticatedstorage.storage_io,Storage I/O,ストレージ入出力
 block.sophisticatedstorage.storage_io.tooltip,When placed in storage multiblock allows to pipe items to and from it,パイプなどからアイテムを入れたり出したりできます
 block.sophisticatedstorage.storage_link,Storage Link,ストレージ連結装置
@@ -121,7 +121,6 @@ gui.sophisticatedstorage.upgrades.buttons.io_mode_off,Off,無効
 gui.sophisticatedstorage.upgrades.buttons.io_mode_pull,Pull,入れる
 gui.sophisticatedstorage.upgrades.buttons.io_mode_push,Push,取り出す
 gui.sophisticatedstorage.upgrades.buttons.io_mode_push_pull,Push & Pull,出し入れ
-gui.sophisticatedstorage.upgrades.buttons.io_mode_side_info,%s (%s),%s (%s)
 gui.sophisticatedstorage.upgrades.buttons.match_storage_contents,Match Storage Contents,既に入っているアイテムのみ
 gui.sophisticatedstorage.upgrades.buttons.refill_crafting_grid,Refill Crafting Grid,製作台を補充
 gui.sophisticatedstorage.upgrades.buttons.shift_click_into_inventory,"Shift Click Result Into
@@ -152,7 +151,7 @@ Faster and with input / output options","上のブロックからアイテムを
 より高速で、入力/出力オプション付き"
 item.sophisticatedstorage.advanced_jukebox_upgrade,Advanced Jukebox Upgrade,上級なジュークボックスアップグレード
 item.sophisticatedstorage.advanced_jukebox_upgrade.tooltip,"Portable Jukebox with support for more music discs
-Also more playback options","ポータブルジュークボックス（より多くの音楽ディスクに対応）
+Also more playback options","ポータブルジュークボックス(より多くの音楽ディスクに対応)
 さらに多くの再生オプション付き"
 item.sophisticatedstorage.advanced_magnet_upgrade,Advanced Magnet Upgrade,アイテム引き寄せ機能・改
 item.sophisticatedstorage.advanced_magnet_upgrade.tooltip,"Magnets items into storage at a greater range
@@ -167,7 +166,7 @@ item.sophisticatedstorage.advanced_pump_upgrade.tooltip,"Pumps Fluids between Ta
 Works with fluid containers in hand and fluid blocks in world
 Allows to filter which fluids are pumped","タンク機能に置いたストレージに液体を出し入れします。
 周囲の液体を回収できます。
-回収する液体を指定することができます。"
+回収する液体を指定できます。"
 item.sophisticatedstorage.advanced_void_upgrade,Advanced Void Upgrade,ごみ箱機能・改
 item.sophisticatedstorage.advanced_void_upgrade.tooltip,"Voids items selected in filter
 Has more filtering options","指定したアイテムを消滅させます。
@@ -192,20 +191,20 @@ item.sophisticatedstorage.basic_to_iron_tier_upgrade,Basic to Iron Tier Upgrade,
 item.sophisticatedstorage.basic_to_netherite_tier_upgrade,Basic to Netherite Tier Upgrade,チェスト用アップグレード(基本→ネザライト)
 item.sophisticatedstorage.blasting_upgrade,Blasting Upgrade,鉱石かまど機能
 item.sophisticatedstorage.blasting_upgrade.tooltip,Blasting ores and metal stuff in an upgrade tab,チェスト内で鉱石を手動で焼けるようになります。
-item.sophisticatedstorage.chipped.alchemy_bench_upgrade,Chipped: Alchemy Bench Upgrade,Chipped: 錬金術台アップグレード
-item.sophisticatedstorage.chipped.alchemy_bench_upgrade.tooltip,Chipped Alchemy Bench in an upgrade tab,アップグレードタブにChipped錬金術台を搭載
-item.sophisticatedstorage.chipped.botanist_workbench_upgrade,Chipped: Botanist's Workbench Upgrade,Chipped: 植物学者の作業台アップグレード
-item.sophisticatedstorage.chipped.botanist_workbench_upgrade.tooltip,Chipped Botanist's Workbench in an upgrade tab,アップグレードタブにChipped植物学者の作業台を搭載
-item.sophisticatedstorage.chipped.carpenters_table_upgrade,Chipped: Carpenters Workbench Upgrade,Chipped: 大工の作業台アップグレード
-item.sophisticatedstorage.chipped.carpenters_table_upgrade.tooltip,Chipped Carpenters Workbench in an upgrade tab,アップグレードタブにChipped大工の作業台を搭載
-item.sophisticatedstorage.chipped.glassblower_upgrade,Chipped: Glassblower Upgrade,Chipped: ガラス職人アップグレード
-item.sophisticatedstorage.chipped.glassblower_upgrade.tooltip,Chipped Glassblower in an upgrade tab,アップグレードタブにChippedガラス職人を搭載
-item.sophisticatedstorage.chipped.loom_table_upgrade,Chipped: Loom Table Upgrade,Chipped: 織機台アップグレード
-item.sophisticatedstorage.chipped.loom_table_upgrade.tooltip,Chipped Loom Table in an upgrade tab,アップグレードタブにChipped織機台を搭載
-item.sophisticatedstorage.chipped.mason_table_upgrade,Chipped: Mason Table Upgrade,Chipped: 石工の作業台アップグレード
-item.sophisticatedstorage.chipped.mason_table_upgrade.tooltip,Chipped Mason Table in an upgrade tab,アップグレードタブにChipped石工の作業台を搭載
-item.sophisticatedstorage.chipped.tinkering_table_upgrade,Chipped: Tinkering Table Upgrade,Chipped: ティンカリングテーブルアップグレード
-item.sophisticatedstorage.chipped.tinkering_table_upgrade.tooltip,Chipped Tinkering Table in an upgrade tab,アップグレードタブにChippedティンカリングテーブルを搭載
+item.sophisticatedstorage.chipped.alchemy_bench_upgrade,Chipped: Alchemy Bench Upgrade,欠けた: 錬金術台アップグレード
+item.sophisticatedstorage.chipped.alchemy_bench_upgrade.tooltip,Chipped Alchemy Bench in an upgrade tab,アップグレードタブに欠けた錬金術台を搭載
+item.sophisticatedstorage.chipped.botanist_workbench_upgrade,Chipped: Botanist's Workbench Upgrade,欠けた: 植物学者の作業台アップグレード
+item.sophisticatedstorage.chipped.botanist_workbench_upgrade.tooltip,Chipped Botanist's Workbench in an upgrade tab,アップグレードタブに欠けた植物学者の作業台を搭載
+item.sophisticatedstorage.chipped.carpenters_table_upgrade,Chipped: Carpenters Workbench Upgrade,欠けた: 大工の作業台アップグレード
+item.sophisticatedstorage.chipped.carpenters_table_upgrade.tooltip,Chipped Carpenters Workbench in an upgrade tab,アップグレードタブに欠けた大工の作業台を搭載
+item.sophisticatedstorage.chipped.glassblower_upgrade,Chipped: Glassblower Upgrade,欠けた: ガラス職人アップグレード
+item.sophisticatedstorage.chipped.glassblower_upgrade.tooltip,Chipped Glassblower in an upgrade tab,アップグレードタブに欠けたガラス職人を搭載
+item.sophisticatedstorage.chipped.loom_table_upgrade,Chipped: Loom Table Upgrade,欠けた: 織機台アップグレード
+item.sophisticatedstorage.chipped.loom_table_upgrade.tooltip,Chipped Loom Table in an upgrade tab,アップグレードタブに欠けた織機台を搭載
+item.sophisticatedstorage.chipped.mason_table_upgrade,Chipped: Mason Table Upgrade,欠けた: 石工の作業台アップグレード
+item.sophisticatedstorage.chipped.mason_table_upgrade.tooltip,Chipped Mason Table in an upgrade tab,アップグレードタブに欠けた石工の作業台を搭載
+item.sophisticatedstorage.chipped.tinkering_table_upgrade,Chipped: Tinkering Table Upgrade,欠けた: ティンカリングテーブルアップグレード
+item.sophisticatedstorage.chipped.tinkering_table_upgrade.tooltip,Chipped Tinkering Table in an upgrade tab,アップグレードタブに欠けたティンカリングテーブルを搭載
 item.sophisticatedstorage.compacting_upgrade,Compacting Upgrade,アイテム圧縮機能
 item.sophisticatedstorage.compacting_upgrade.tooltip,"Compacts items into their compressed variants
 Only 2x2 recipes",2x2で圧縮できるアイテムを自動で圧縮します。
@@ -232,7 +231,7 @@ item.sophisticatedstorage.gold_to_diamond_tier_upgrade,Gold to Diamond Tier Upgr
 item.sophisticatedstorage.gold_to_netherite_tier_upgrade,Gold to Netherite Tier Upgrade,チェスト用アップグレード(金→ネザライト)
 item.sophisticatedstorage.hopper_upgrade,Hopper Upgrade,ホッパー機能
 item.sophisticatedstorage.hopper_upgrade.tooltip,Pulls items from block on top and/or pushes them to block below,ホッパーを使わずに直接アイテムを出し入れします。
-item.sophisticatedstorage.infinity_upgrade,Infinity Upgrade (Admin),インフィニティアップグレード（管理者用）
+item.sophisticatedstorage.infinity_upgrade,Infinity Upgrade (Admin),インフィニティアップグレード(管理者用)
 item.sophisticatedstorage.infinity_upgrade.tooltip,"Makes all items in storage infinite
 Only admins can set infinite items and break storage","ストレージ内のすべてのアイテムを無限にします
 管理者のみが無限アイテムを設定してストレージを破壊できます"
@@ -255,7 +254,7 @@ Set decoration it applies in decoration table","ワールド内のストレー�
 装飾テーブルで適用する装飾を設定"
 item.sophisticatedstorage.paintbrush.tooltip.accent_color,Accent Color: %s,アクセント色：%s
 item.sophisticatedstorage.paintbrush.tooltip.main_color,Main Color: %s,メイン色：%s
-item.sophisticatedstorage.paintbrush.tooltip.material," - %s: %s"," - %s：%s"
+item.sophisticatedstorage.paintbrush.tooltip.material," - %s: %s",- %s：%s
 item.sophisticatedstorage.paintbrush.tooltip.materials,Materials:,マテリアル：
 item.sophisticatedstorage.pickup_upgrade,Pickup Upgrade,アイテム直入れ機能
 item.sophisticatedstorage.pickup_upgrade.tooltip,Makes storage pickup items,拾ったアイテムが直接チェストに入ります。
@@ -268,14 +267,14 @@ item.sophisticatedstorage.smelting_upgrade,Smelting Upgrade,かまど機能
 item.sophisticatedstorage.smelting_upgrade.tooltip,Smelting in an upgrade tab,チェスト内で食料や鉱石を手動で焼けるようになります。
 item.sophisticatedstorage.smoking_upgrade,Smoking Upgrade,食料かまど機能
 item.sophisticatedstorage.smoking_upgrade.tooltip,Smoking food in an upgrade tab,チェスト内で食料を手動で焼けるようになります。
-item.sophisticatedstorage.stack_downgrade_tier_1,Stack Downgrade Tier 1,スタックダウングレード Tier 1
+item.sophisticatedstorage.stack_downgrade_tier_1,Stack Downgrade Tier 1,スタックダウングレードティア1
 item.sophisticatedstorage.stack_downgrade_tier_1.tooltip,Divides the number of stacks that can fit in a slot by 8,スロットに入るスタックの数を8で割る
-item.sophisticatedstorage.stack_downgrade_tier_2,Stack Downgrade Tier 2,スタックダウングレード Tier 2
+item.sophisticatedstorage.stack_downgrade_tier_2,Stack Downgrade Tier 2,スタックダウングレードティア2
 item.sophisticatedstorage.stack_downgrade_tier_2.tooltip,Divides the number of stacks that can fit in a slot by 16,スロットに入るスタックの数を16で割る
-item.sophisticatedstorage.stack_downgrade_tier_3,Stack Downgrade Tier 3,スタックダウングレード Tier 3
+item.sophisticatedstorage.stack_downgrade_tier_3,Stack Downgrade Tier 3,スタックダウングレードティア3
 item.sophisticatedstorage.stack_downgrade_tier_3.tooltip,Divides the number of stacks that can fit in a slot by 32,スロットに入るスタックの数を32で割る
-item.sophisticatedstorage.stack_upgrade_omega_tier,Stack Upgrade Omega Tier,スタックアップグレード オメガ Tier
-item.sophisticatedstorage.stack_upgrade_omega_tier.tooltip,"Multiplies stacks per slot by the maximum value (×33,554,431)","スロットあたりのスタック数を最大値（×33,554,431）で乗算"
+item.sophisticatedstorage.stack_upgrade_omega_tier,Stack Upgrade Omega Tier,スタックアップグレード オメガティア
+item.sophisticatedstorage.stack_upgrade_omega_tier.tooltip,"Multiplies stacks per slot by the maximum value (×33,554,431)","スロットあたりのスタック数を最大値(×33,554,431)で乗算"
 item.sophisticatedstorage.stack_upgrade_tier_1,Stack Upgrade Tier 1,スタック数増加x2
 item.sophisticatedstorage.stack_upgrade_tier_1.tooltip,Multiplies the number of stacks that can fit in a slot by 2,1スロットあたりのスタック数を2倍にします。
 item.sophisticatedstorage.stack_upgrade_tier_1_plus,Stack Upgrade Tier 1 Plus,スタック数増加x3
@@ -286,7 +285,7 @@ item.sophisticatedstorage.stack_upgrade_tier_3,Stack Upgrade Tier 3,スタック
 item.sophisticatedstorage.stack_upgrade_tier_3.tooltip,Multiplies the number of stacks that can fit in a slot by 8,1スロットあたりのスタック数を8倍にします。
 item.sophisticatedstorage.stack_upgrade_tier_4,Stack Upgrade Tier 4,スタック数増加x16
 item.sophisticatedstorage.stack_upgrade_tier_4.tooltip,Multiplies the number of stacks that can fit in a slot by 16,1スロットあたりのスタック数を16倍にします。
-item.sophisticatedstorage.stack_upgrade_tier_5,Stack Upgrade Tier 5,スタックアップグレード Tier 5
+item.sophisticatedstorage.stack_upgrade_tier_5,Stack Upgrade Tier 5,スタックアップグレードティア5
 item.sophisticatedstorage.stack_upgrade_tier_5.tooltip,Multiplies the number of stacks that can fit in a slot by 32,スロットに入るスタックの数を32で乗算
 item.sophisticatedstorage.stonecutter_upgrade,Stonecutter Upgrade,石切台機能
 item.sophisticatedstorage.stonecutter_upgrade.tooltip,Stonecutter in an upgrade tab,チェスト内で手動で石切台が使えるようになります。
@@ -296,7 +295,7 @@ item.sophisticatedstorage.storage_io,Storage I/O,ストレージ入出力装置
 item.sophisticatedstorage.storage_link,Storage Link,ストレージ連結装置
 item.sophisticatedstorage.storage_output,Storage Output,ストレージ搬出装置
 item.sophisticatedstorage.storage_tool,Storage Tool,ストレージツール
-item.sophisticatedstorage.storage_tool.overlay.linking,Linking to controller at x:%s y:%s z:%s," x:%s y:%s z:%s のコントローラと連結しています。"
+item.sophisticatedstorage.storage_tool.overlay.linking,Linking to controller at x:%s y:%s z:%s,x:%s y:%s z:%s のコントローラと連結しています。
 item.sophisticatedstorage.storage_tool.overlay.toggling_count_display,Showing/Hiding Count(s),個数を表示/非表示
 item.sophisticatedstorage.storage_tool.overlay.toggling_fill_level_display,Showing/Hiding Fill Levels,使用率を表示/非表示
 item.sophisticatedstorage.storage_tool.overlay.toggling_lock,Locking/Unlocking,ロック/解除
@@ -319,7 +318,6 @@ item.sophisticatedstorage.void_upgrade,Void Upgrade,ごみ箱機能
 item.sophisticatedstorage.void_upgrade.tooltip,Voids items selected in filter,フィルタで指定したアイテムを消滅させます。
 item.sophisticatedstorage.xp_pump_upgrade,Experience Pump Upgrade,経験値ポンプ機能
 item.sophisticatedstorage.xp_pump_upgrade.tooltip,Pumps experience between Tank upgrade and player,タンク機能と併用し、プレイヤの経験値を液体経験値に変換します。
-itemGroup.sophisticatedstorage,Sophisticated Storage,Sophisticated Storage
 wood_name.sophisticatedstorage.acacia,Acacia,アカシアの
 wood_name.sophisticatedstorage.bamboo,Bamboo,竹
 wood_name.sophisticatedstorage.birch,Birch,シラカバの
@@ -331,17 +329,16 @@ wood_name.sophisticatedstorage.mangrove,Mangrove,マングローブの
 wood_name.sophisticatedstorage.oak,Oak,オークの
 wood_name.sophisticatedstorage.spruce,Spruce,トウヒの
 wood_name.sophisticatedstorage.warped,Warped,歪んだ
-item.sophisticatedstorage.chipped.carpenter_workbench_upgrade,Chipped: Carpenter's Workbench Upgrade,Chipped: 大工の作業台アップグレード
-item.sophisticatedstorage.chipped.carpenter_workbench_upgrade.tooltip,Chipped Carpenter's Workbench in an upgrade tab,アップグレードタブに Chipped 大工の作業台を表示します
-item.sophisticatedstorage.chipped.glassblower_workbench_upgrade,Chipped: Glassblower's Workbench Upgrade,Chipped: ガラス職人の作業台アップグレード
-item.sophisticatedstorage.chipped.glassblower_workbench_upgrade.tooltip,Chipped Glassblower's Workbench in an upgrade tab,アップグレードタブに Chipped ガラス職人の作業台を表示します
-item.sophisticatedstorage.chipped.mason_workbench_upgrade,Chipped: Mason's Workbench Upgrade,Chipped: 左官の作業台アップグレード
-item.sophisticatedstorage.chipped.mason_workbench_upgrade.tooltip,Chipped Mason's Workbench in an upgrade tab,アップグレードタブに Chipped 左官の作業台を表示します
-item.sophisticatedstorage.chipped.philosopher_workbench_upgrade,Chipped: Philosopher's Workbench Upgrade,Chipped: 哲学者の作業台アップグレード
-item.sophisticatedstorage.chipped.philosopher_workbench_upgrade.tooltip,Chipped Philosopher's Workbench in an upgrade tab,アップグレードタブに Chipped 哲学者の作業台を表示します
-item.sophisticatedstorage.chipped.shepherd_workbench_upgrade,Chipped: Shepherd's Workbench Upgrade,Chipped: 羊飼いの作業台アップグレード
-item.sophisticatedstorage.chipped.shepherd_workbench_upgrade.tooltip,Chipped Shepherd's Workbench in an upgrade tab,アップグレードタブに Chipped 羊飼いの作業台を表示します
-item.sophisticatedstorage.chipped.tinkerer_workbench_upgrade,Chipped: Tinkerer's Workbench Upgrade,Chipped: 修理屋の作業台アップグレード
-item.sophisticatedstorage.chipped.tinkerer_workbench_upgrade.tooltip,Chipped Tinkerer's Workbench in an upgrade tab,アップグレードタブに Chipped 修理屋の作業台を表示します
-keybind.sophisticatedstorage.category,Sophisticated Storage,Sophisticated Storage
+item.sophisticatedstorage.chipped.carpenter_workbench_upgrade,Chipped: Carpenter's Workbench Upgrade,欠けた: 大工の作業台アップグレード
+item.sophisticatedstorage.chipped.carpenter_workbench_upgrade.tooltip,Chipped Carpenter's Workbench in an upgrade tab,アップグレードタブに チップ 大工の作業台を表示します
+item.sophisticatedstorage.chipped.glassblower_workbench_upgrade,Chipped: Glassblower's Workbench Upgrade,欠けた: ガラス職人の作業台アップグレード
+item.sophisticatedstorage.chipped.glassblower_workbench_upgrade.tooltip,Chipped Glassblower's Workbench in an upgrade tab,アップグレードタブに チップ ガラス職人の作業台を表示します
+item.sophisticatedstorage.chipped.mason_workbench_upgrade,Chipped: Mason's Workbench Upgrade,欠けた: 左官の作業台アップグレード
+item.sophisticatedstorage.chipped.mason_workbench_upgrade.tooltip,Chipped Mason's Workbench in an upgrade tab,アップグレードタブに チップ 左官の作業台を表示します
+item.sophisticatedstorage.chipped.philosopher_workbench_upgrade,Chipped: Philosopher's Workbench Upgrade,欠けた: 哲学者の作業台アップグレード
+item.sophisticatedstorage.chipped.philosopher_workbench_upgrade.tooltip,Chipped Philosopher's Workbench in an upgrade tab,アップグレードタブに チップ 哲学者の作業台を表示します
+item.sophisticatedstorage.chipped.shepherd_workbench_upgrade,Chipped: Shepherd's Workbench Upgrade,欠けた: 羊飼いの作業台アップグレード
+item.sophisticatedstorage.chipped.shepherd_workbench_upgrade.tooltip,Chipped Shepherd's Workbench in an upgrade tab,アップグレードタブに チップ 羊飼いの作業台を表示します
+item.sophisticatedstorage.chipped.tinkerer_workbench_upgrade,Chipped: Tinkerer's Workbench Upgrade,欠けた: 修理工の作業台アップグレード
+item.sophisticatedstorage.chipped.tinkerer_workbench_upgrade.tooltip,Chipped Tinkerer's Workbench in an upgrade tab,アップグレードタブに チップ 修理工の作業台を表示します
 keybind.sophisticatedstorage.sort,Sort Storage,並び替え

@@ -5,13 +5,12 @@ item.patchouli.guide_book,Guide Book,ガイドブック
 item.patchouli.guide_book.invalid,Invalid book: %s,無効なブック: %s
 item.patchouli.guide_book.undefined,Invalid book: no ID defined,無効なブック: IDが定義されていません
 item.patchouli:intro_book.landing,"With $(item)Patchouli$(), you can make easy to read, advancement unlockable $(thing)books$() for mods and modpacks!",$(item)Patchouli$()を使用すると、簡単に読めるアドバンスメント連動可能な$(thing)書籍$()をModやModパックのために作成できます！
-item.patchouli:intro_book.name,Patchouli,Patchouli
 item.patchouli:intro_book.subtitle,Documentation for everyone,みんなのためのドキュメント
 item.patchouli:pamphlet.landing,"A test pamphlet, which is a book with only one category.",テスト用パンフレット。カテゴリが1つだけの書籍です。
 item.patchouli:pamphlet.name,Test Pamphlet,テスト用パンフレット
 item.patchouli:test_book_1.landing,Not as fun landing text but still here.,つまらないランディングテキストですが、ここにあります。
 item.patchouli:test_book_1.name,Test Book 1,テストブック1
-item.patchouli:test_book_2.landing,Landing text! It even supports $(2)colors$() and $(4)the $(bold)like$()!,ランディングテキスト！$(2)色$()と$(4)$(bold)のような$()ものにも対応しています！
+item.patchouli:test_book_2.landing,Landing text! It even supports $(2)colors$() and $(4)the $(bold)like$()!,ランディングテキスト！$(2)色$()と$(4)$(太字)のような$()ものにも対応しています！
 item.patchouli:test_book_2.name,Test Book 2,テストブック2
 item.patchouli:test_completion.landing,This book changes colors when you unlock entries!,このブックはエントリをアンロックするときに色が変わります！
 item.patchouli:test_completion.name,Test Advancement-Driven Book,テストアドバンスメント連動ブック
@@ -19,10 +18,10 @@ patchouli.gui.lexicon.add_bookmark,Add Bookmark,ブックマークを追加
 patchouli.gui.lexicon.added_by,Added by %s,%sによって追加されました
 patchouli.gui.lexicon.button.advancements,Advancements,アドバンスメント
 patchouli.gui.lexicon.button.back,Back,戻る
-patchouli.gui.lexicon.button.back.info,Shift-Click to return to Home,Shift-クリックでホームに戻る
+patchouli.gui.lexicon.button.back.info,Shift-Click to return to Home,シフト-クリックでホームに戻る
 patchouli.gui.lexicon.button.config,Configuration,設定
 patchouli.gui.lexicon.button.editor,Editor,エディタ
-patchouli.gui.lexicon.button.editor.info,(Shift-Click to Reload),（Shift-クリックで再読み込み）
+patchouli.gui.lexicon.button.editor.info,(Shift-Click to Reload),(シフト-クリックで再読み込み)
 patchouli.gui.lexicon.button.history,History,履歴
 patchouli.gui.lexicon.button.mark_all_read,Mark all as read,すべて既読にする
 patchouli.gui.lexicon.button.mark_category_read,Mark this category as read,このカテゴリを既読にする
@@ -38,7 +37,7 @@ patchouli.gui.lexicon.button.resize.size5,Huge,超大
 patchouli.gui.lexicon.button.resize.size6,How large is your monitor even?,モニターはそんなに大きいの？
 patchouli.gui.lexicon.button.toggle_mock_header,Toggle Mock Header,モックヘッダーを切り替える
 patchouli.gui.lexicon.button.visualize,Visualize,ビジュアライズ
-patchouli.gui.lexicon.button.visualize.info,(Click again to clear),（もう一度クリックしてクリア）
+patchouli.gui.lexicon.button.visualize.info,(Click again to clear),(もう一度クリックしてクリア)
 patchouli.gui.lexicon.categories,Categories,カテゴリ
 patchouli.gui.lexicon.chapters,Chapters,章
 patchouli.gui.lexicon.complete,Complete!,完了！
@@ -47,23 +46,23 @@ patchouli.gui.lexicon.edition_str,%s Edition,%s版
 patchouli.gui.lexicon.editor,Book Editor,書籍エディタ
 patchouli.gui.lexicon.editor.info,This is an editor for Patchouli book entries. It's meant to be used for development or translation. There's no use for it if you're a player.$(br2)Please reference the $(l:https://github.com/Vazkii/Patchouli/wiki/Text-Formatting-101)Patchouli wiki$() for usable control codes.,これはPatchouliの書籍エントリ用のエディタです。開発や翻訳での使用を想定しています。プレイヤーであれば使う価値がありません。$(br2)使用可能なコントロールコードについては$(l:https://github.com/Vazkii/Patchouli/wiki/Text-Formatting-101)Patchouliウィキ$()を参照してください。
 patchouli.gui.lexicon.editor.mock_header,Mock Header,モックヘッダー
-patchouli.gui.lexicon.external_link,(External Link),（外部リンク）
+patchouli.gui.lexicon.external_link,(External Link),(外部リンク)
 patchouli.gui.lexicon.history,Reading History,読書履歴
-patchouli.gui.lexicon.history.info,"This section stores the previous few chapters you've visited.$(br2)Chapters are automatically added and removed as you browse through the book. Should you wish to keep them referenced for longer, you may bookmark them. $(br2)$(o)Tip: Try shift-clicking a chapter button!$()",このセクションは、以前訪問した章を保存します。$(br2)ブックを閲覧する際に、章は自動的に追加・削除されます。より長く参照したい場合はブックマークできます。 $(br2)$(o)ヒント: 章ボタンをShift-クリックしてみてください！$()
+patchouli.gui.lexicon.history.info,"This section stores the previous few chapters you've visited.$(br2)Chapters are automatically added and removed as you browse through the book. Should you wish to keep them referenced for longer, you may bookmark them. $(br2)$(o)Tip: Try shift-clicking a chapter button!$()",このセクションは、以前訪問した章を保存します。$(br2)ブックを閲覧する際に、章は自動的に追加・削除されます。より長く参照したい場合はブックマークできます。$(br2)$(o)ヒント: 章ボタンをシフト-クリックしてみてください！$()
 patchouli.gui.lexicon.incomplete,Incomplete,未完了
 patchouli.gui.lexicon.index,Entry Index,エントリインデックス
 patchouli.gui.lexicon.index.info,"An index of every chapter available in this book.$(br2)You may search through the index, or any other category, by simply typing in your query. A search bar will then appear to assist you.",このブックで利用可能なすべての章のインデックス。$(br2)インデックスまたは他のカテゴリを検索できます。クエリを入力するだけで検索バーが表示されます。
 patchouli.gui.lexicon.keybind,Keybind: %s,キーバインド: %s
 patchouli.gui.lexicon.keybind_missing,No such keybind: %s,そのようなキーバインドはありません: %s
-patchouli.gui.lexicon.landing_info,"(Placeholder landing text, define your own in your book json file!)",（プレースホルダーのランディングテキスト。ブックのjsonファイルで独自に定義してください！）
+patchouli.gui.lexicon.landing_info,"(Placeholder landing text, define your own in your book json file!)",(プレースホルダーのランディングテキスト。ブックのjsonファイルで独自に定義してください！)
 patchouli.gui.lexicon.loading_error,Loading error!,読み込みエラー！
-patchouli.gui.lexicon.loading_error_hover,(Hover for info),（情報の上にマウスを移動）
+patchouli.gui.lexicon.loading_error_hover,(Hover for info),(情報の上にマウスを移動)
 patchouli.gui.lexicon.loading_error_log,Check your log for more,詳細はログを確認してください
-patchouli.gui.lexicon.locked,(Locked),（ロック済み）
+patchouli.gui.lexicon.locked,(Locked),(ロック済み)
 patchouli.gui.lexicon.mark_complete,Mark Complete,完了済みにマーク
 patchouli.gui.lexicon.mark_incomplete,Mark Incomplete,未完了にマーク
 patchouli.gui.lexicon.multiblock_bookmark,Visualized Structure,ビジュアライズされた構造
-patchouli.gui.lexicon.needs_air,(Clear blocks marked in red),（赤でマーク済みのブロックをクリア）
+patchouli.gui.lexicon.needs_air,(Clear blocks marked in red),(赤でマーク済みのブロックをクリア)
 patchouli.gui.lexicon.no_entries,No Entries,エントリなし
 patchouli.gui.lexicon.no_results,No Results,結果なし
 patchouli.gui.lexicon.not_anchored,Right-Click a Block to anchor the Structure,ブロックを右クリックして構造をアンカーする
@@ -75,16 +74,16 @@ patchouli.gui.lexicon.progress_tooltip.secret,Plus %d Secrets,他に%d個のシ�
 patchouli.gui.lexicon.progress_tooltip.secret1,Plus 1 Secret,他に1個のシークレット
 patchouli.gui.lexicon.relations,Related Chapters,関連する章
 patchouli.gui.lexicon.reloaded,Books reloaded in %d ms.,書籍が%d msで再読み込みされました。
-patchouli.gui.lexicon.remove_bookmark,(Shift-Click to Remove),（Shift-クリックで削除）
-patchouli.gui.lexicon.sad,:(,:(
+patchouli.gui.lexicon.remove_bookmark,(Shift-Click to Remove),(シフト-クリックで削除)
 patchouli.gui.lexicon.seconds,%ss,%s秒
 patchouli.gui.lexicon.shapeless,Shapeless,無定形
-patchouli.gui.lexicon.shift_for_recipe,Shift-Click for Recipe,Shift-クリックでレシピを表示
+patchouli.gui.lexicon.shift_for_recipe,Shift-Click for Recipe,シフト-クリックでレシピを表示
 patchouli.gui.lexicon.sneak,Sneak to view,スニークで表示
 patchouli.gui.lexicon.structure_complete,Complete!,完了！
 patchouli.gui.lexicon.toast,New Chapters,新しい章
 patchouli.gui.lexicon.toast.info,New Chapters Unlocked,新しい章がアンロックされました
 patchouli.gui.lexicon.view,View entry,エントリを表示
-patchouli.gui.lexicon.visualize_letter,V,V
 patchouli.subtitle.book_flip,Page Turns,ページターン
 patchouli.subtitle.book_open,Book Opens,本を開く
+patchouli.gui.lexicon.button.resize.verybig.container,%s?,%s？
+patchouli.gui.lexicon.button.resize.verybig.message,How large is your monitor even,お使いのモニターはどれだけ大きいんですか

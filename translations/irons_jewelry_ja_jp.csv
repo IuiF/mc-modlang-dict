@@ -7,7 +7,7 @@ action.irons_jewelry.apply_effect.name,Apply Effect,エフェクト
 action.irons_jewelry.apply_effect.self,Gain %s%s,%s%s を得る
 action.irons_jewelry.apply_freeze.add.entity,Inflict %s of Freeze,%s 凍結させる
 action.irons_jewelry.apply_freeze.add.self,Gain %s of Freeze,%s 凍結させる
-action.irons_jewelry.apply_freeze.freeze.entity,Freeze for %s," %s 凍結させる"
+action.irons_jewelry.apply_freeze.freeze.entity,Freeze for %s,%s 凍結させる
 action.irons_jewelry.apply_freeze.freeze.self,Freeze Self for %s,自身の周りを %s 凍結させる
 action.irons_jewelry.apply_freeze.name,Freeze,凍結
 action.irons_jewelry.create_items,Create %s %s Items,%s 個の %s を生成する
@@ -15,31 +15,31 @@ action.irons_jewelry.create_items.chance,%s%% chance to Create %s %s Items,%s%% 
 action.irons_jewelry.create_items.chance.singular,%s%% chance to Create %s,%s%% の確率で %s を生成する
 action.irons_jewelry.create_items.name,Create Items,アイテム生成
 action.irons_jewelry.create_items.singular,Create %s,生成 %s
-action.irons_jewelry.explode,Create a %s explosion (%s Block Radius)," %s の爆発を起こす (半径 %s ブロック)"
+action.irons_jewelry.explode,Create a %s explosion (%s Block Radius),%s の爆発を起こす (半径 %s ブロック)
 action.irons_jewelry.explode.name,Create Explosion,爆発
-action.irons_jewelry.explode.self,Emanate a %s explosion (%s Block Radius)," %s の爆発を起こす (半径 %s ブロック)"
+action.irons_jewelry.explode.self,Emanate a %s explosion (%s Block Radius),%s の爆発を起こす (半径 %s ブロック)
 action.irons_jewelry.explode.wind_burst,Wind Burst,ウィンドバースト
 action.irons_jewelry.heal,Heal %s HP,%s ハート回復
 action.irons_jewelry.heal.name,Heal,回復
 action.irons_jewelry.ignite,Ignite %s for %s,%s を %s 秒間燃やす
 action.irons_jewelry.ignite.name,Ignite,炎上
 action.irons_jewelry.knockback.name,Apply Knockback,ノックバック
-action.irons_jewelry.knockback.pull,Pull %s In (%sx Strength)," %s を引き寄せる (%sx 強さ)"
-action.irons_jewelry.knockback.push,Knock %s Back (%sx Strength)," %s をノックバックさせる (%sx 強さ)"
+action.irons_jewelry.knockback.pull,Pull %s In (%sx Strength),%s を引き寄せる (%sx 強さ)
+action.irons_jewelry.knockback.push,Knock %s Back (%sx Strength),%s をノックバックさせる (%sx 強さ)
 block.irons_jewelry.jewelcrafting_station,Jewelcrafting Station,宝石加工台
 bonus.irons_jewelry.attribute_bonus,Attribute,効果
 bonus.irons_jewelry.effect_immunity_bonus,Effect Immunity,エフェクトに耐性を得る
 bonus.irons_jewelry.effect_immunity_bonus.description,Grants immunity to %s,%s の耐性を得る
 bonus.irons_jewelry.effect_on_hit_bonus,Effect on Hit,攻撃した時に発動
-bonus.irons_jewelry.effect_on_hit_bonus.description,"When hit, gain %s for %s seconds",攻撃した時、 %s を %s 秒間得る
+bonus.irons_jewelry.effect_on_hit_bonus.description,"When hit, gain %s for %s seconds",攻撃した時、%s を %s 秒間得る
 bonus.irons_jewelry.on_attack_bonus,Action on Attack,攻撃した時に発動
-bonus.irons_jewelry.on_attack_bonus.description,"On Attack, %s",攻撃した時、 %s
+bonus.irons_jewelry.on_attack_bonus.description,"On Attack, %s",攻撃した時、%s
 bonus.irons_jewelry.on_projectile_hit_bonus,Action on Projectile Hit,遠距離攻撃が当たった時に発動
-bonus.irons_jewelry.on_projectile_hit_bonus.description,"On projectile hit, %s",遠距離攻撃が当たった時、 %s
+bonus.irons_jewelry.on_projectile_hit_bonus.description,"On projectile hit, %s",遠距離攻撃が当たった時、%s
 bonus.irons_jewelry.on_shield_block_bonus,Action on Shield Block,盾で防いだ時に発動
-bonus.irons_jewelry.on_shield_block_bonus.description,"On shield block, %s",盾で攻撃をブロックした時、 %s
+bonus.irons_jewelry.on_shield_block_bonus.description,"On shield block, %s",盾で攻撃をブロックした時、%s
 bonus.irons_jewelry.on_take_damage_bonus,Action when Attacked,攻撃された時に発動
-bonus.irons_jewelry.on_take_damage_bonus.description,"When Attacked, %s",攻撃された時、 %s
+bonus.irons_jewelry.on_take_damage_bonus.description,"When Attacked, %s",攻撃された時、%s
 bonus.irons_jewelry.piglin_neutral_bonus,Piglin Neutrality,ピグリンの中立化
 bonus.irons_jewelry.piglin_neutral_bonus.description,Makes Piglins Neutral,ピグリンを中立にする
 bonus.irons_jewelry.trade_discount_bonus,Trade Discount,取引割引
@@ -168,7 +168,7 @@ pattern.irons_jewelry.bane_ring,Bane Ring,破滅の指輪
 pattern.irons_jewelry.bane_ring.item,%1$s Bane Ring,%1$s破滅の指輪
 pattern.irons_jewelry.barbed_band,Barbed Band,棘のバンド
 pattern.irons_jewelry.barbed_band.item,%2$s Barbed Band,%2$sの棘のバンド
-pattern.irons_jewelry.effect_on_hit_ring,Ring of Response (WIP),感応のリング (WIP)
+pattern.irons_jewelry.effect_on_hit_ring,Ring of Response (WIP),感応のリング (作成中)
 pattern.irons_jewelry.effect_on_hit_ring.item,%s Ring of Response,%sの感応のリング
 pattern.irons_jewelry.gemset_ring,Gemset Ring,宝石のはめ込まれたリング
 pattern.irons_jewelry.gemset_ring.item,%s Ring,%sのリング

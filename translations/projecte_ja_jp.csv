@@ -64,22 +64,17 @@ command.projecte.dump_missing_emc.none_missing,All Items have an EMC value.,全�
 command.projecte.dump_missing_emc.one_missing,"One Item is missing an EMC value, printing to server log.",1個のアイテムがEMC値を持っていません。サーバーログに出力します。
 command.projecte.emc.invalid_item,"Error: The item or tag ""%s"" was not found!","エラー: アイテムまたはタグ ""%s"" が見つかりません！"
 command.projecte.emc.no_item,Please give an item or tag to change,アイテムまたはタグを指定してください
-command.projecte.reload.notice,"Restart or use ""/reload"" when all changes are complete.","全ての変更が完了したら、再起動するか ""/reload"" を使用してください。"
+command.projecte.reload.notice,"Restart or use ""/reload"" when all changes are complete.","全ての変更が完了したら、再起動するか ""/リロード"" を使用してください。"
 command.projecte.remove.success,Removed EMC value for %s.,%s のEMC値を削除しました。
 command.projecte.reset.success,Reset EMC value for %s.,%s のEMC値をリセットしました。
 command.projecte.set.success,Set EMC value for %s to %s!,%s のEMC値を %s に設定しました！
-command.projecte.showbag.named,%s (%s),%s (%s)
 command.projecte.showbag.offline.notfound,UUID %s not found in playerdata/,UUID %s がplayerdata/ に見つかりません
 command.projecte.showbag.offline.uuid,Malformed UUID: %s,不正なUUID: %s
 curios.identifier.klein_star,Klein Star,クラインスター
-divining_rod.projecte.avg_emc,Average EMC for %s blocks: %s,平均EMC（%s ブロック）: %s
+divining_rod.projecte.avg_emc,Average EMC for %s blocks: %s,平均EMC(%s ブロック): %s
 divining_rod.projecte.max_emc,Max EMC: %s,最大EMC: %s
-divining_rod.projecte.range.16,16x3x3,16x3x3
-divining_rod.projecte.range.3,3x3x3,3x3x3
-divining_rod.projecte.range.64,64x3x3,64x3x3
 divining_rod.projecte.second_max,Second Max EMC: %s,第2最大EMC: %s
 divining_rod.projecte.third_max,Third Max EMC: %s,第3最大EMC: %s
-emc.projecte.emc,%s EMC,%s EMC
 emc.projecte.has_knowledge,Transmutable,変換可能
 emc.projecte.max_gen_rate,Maximum Generation Rate: %s EMC/s,最大生成レート: %s EMC/秒
 emc.projecte.max_output_rate,Maximum Output Rate: %s EMC/s,最大出力レート: %s EMC/秒
@@ -95,7 +90,7 @@ emc.projecte.postfix.15,%s Octodecillion,%s 静
 emc.projecte.postfix.16,%s Novemdecillion,%s 寧
 emc.projecte.postfix.17,%s Vigintillion,%s 不可思議
 emc.projecte.postfix.2,%s Quintillion,%s 垓
-emc.projecte.postfix.3,%s Sextillion,%s し
+emc.projecte.postfix.3,%s Sextillion,%s 秭
 emc.projecte.postfix.4,%s Septillion,%s 穣
 emc.projecte.postfix.5,%s Octillion,%s 溝
 emc.projecte.postfix.6,%s Nonillion,%s 澗
@@ -104,10 +99,8 @@ emc.projecte.postfix.8,%s Undecillion,%s 清
 emc.projecte.postfix.9,%s Duodecillion,%s 静
 emc.projecte.stored,Stored EMC: %s,貯蔵EMC: %s
 emc.projecte.too_much,WAY TOO MUCH,非常に多すぎる
-emc.projecte.tooltip,EMC: %s,EMC: %s
 emc.projecte.tooltip.stack,Stack EMC: %s,スタック EMC: %s
 emc.projecte.tooltip.stack.with_sell,Stack EMC: %s (%s),スタック EMC: %s (%s)
-emc.projecte.tooltip.with_sell,EMC: %s (%s),EMC: %s (%s)
 entity.projecte.fire_projectile,Fireball,ファイアボール
 entity.projecte.homing_arrow,Homing Arrow,ホーミング矢
 entity.projecte.lava_projectile,Lava Orb,溶岩玉
@@ -137,7 +130,7 @@ gui.projecte.relay.mk3,Relay MKIII,リレー MKIII
 item.projecte.aeternalis_fuel,Aeternalis Fuel,エターナリス燃料
 item.projecte.alchemical_coal,Alchemical Coal,錬金炭
 item.projecte.arcana_ring,Ring of Arcana,アルカナの指輪
-item.projecte.archangel_smite,Archangel's Smite,大天使の指輪 [WIP]
+item.projecte.archangel_smite,Archangel's Smite,大天使の指輪 [作成中]
 item.projecte.black_alchemical_bag,Alchemical Bag (Black),錬金バッグ
 item.projecte.black_hole_band,Black Hole Band,吸引の指輪
 item.projecte.blue_alchemical_bag,Alchemical Bag (Blue),錬金バッグ
@@ -222,7 +215,7 @@ item.projecte.yellow_alchemical_bag,Alchemical Bag (Yellow),錬金バッグ
 item.projecte.zero_ring,Zero Ring,絶対零度の指輪
 jei.projecte.collector,Collector Fuel Upgrades,コレクター燃料アップグレード
 jei.projecte.world_transmute,World Transmutation,ワールド変換
-jei.projecte.world_transmute.description,"Click in world, shift click for second output",ワールドをクリック、Shift+クリックで2番目の出力
+jei.projecte.world_transmute.description,"Click in world, shift click for second output",ワールドをクリック、シフト+クリックで2番目の出力
 key.projecte.boots_toggle,Boots Effects,ブーツ効果
 key.projecte.charge,Charge,チャージ
 key.projecte.extra_function,Extra Function,追加機能
@@ -231,7 +224,6 @@ key.projecte.helmet_toggle,Helmet Effects,ヘルメット効果
 key.projecte.mode,Change Mode,モード変更
 misc.projecte.blacklist,Blacklist,ブラックリスト
 misc.projecte.high_alchemist_joined,High alchemist %s has joined the server,高き錬金術師 %s がサーバーに参加しました
-misc.projecte.mod_name,ProjectE,ProjectE
 misc.projecte.mode_switch,Set target to: %s,ターゲットを %s に設定しました
 misc.projecte.seconds,%s seconds,%s 秒
 misc.projecte.seconds.every_tick,%s seconds (every tick),%s 秒 (毎ティック)
@@ -241,27 +233,26 @@ misc.projecte.whitelist,Whitelist,ホワイトリスト
 mode.projecte.arcana.1,Zero,ゼロ
 mode.projecte.arcana.2,Ignition,点火
 mode.projecte.arcana.3,Harvest,収穫
-mode.projecte.arcana.4,SWRG,SWRG
 mode.projecte.current,Mode: %s,モード: %s
 mode.projecte.invalid,Invalid Mode,無効なモード
 mode.projecte.katar.1,Slay Hostile,敵対的モブを倒す
 mode.projecte.katar.2,Slay All,全モブを倒す
 mode.projecte.mercurial_eye.1,Creation,生成
 mode.projecte.mercurial_eye.2,Extension,延長
-mode.projecte.mercurial_eye.3,Extension-Classic,延長（クラシック）
+mode.projecte.mercurial_eye.3,Extension-Classic,延長(クラシック)
 mode.projecte.mercurial_eye.4,Transmutation,変換
-mode.projecte.mercurial_eye.5,Transmutation-Classic,変換（クラシック）
+mode.projecte.mercurial_eye.5,Transmutation-Classic,変換(クラシック)
 mode.projecte.mercurial_eye.6,Pillar,ピラー
 mode.projecte.morning_star.1,Standard,標準
-mode.projecte.morning_star.2,3x Tallshot,3x 背景高
-mode.projecte.morning_star.3,3x Wideshot,3x 広背景
+mode.projecte.morning_star.2,3x Tallshot,3x トールショット
+mode.projecte.morning_star.3,3x Wideshot,3x ワイドショット
 mode.projecte.morning_star.4,3x Longshot,3x 遠距離
 mode.projecte.philosopher.1,Cube,キューブ
 mode.projecte.philosopher.2,Panel,パネル
 mode.projecte.philosopher.3,Line,ライン
 mode.projecte.pick.1,Standard,標準
-mode.projecte.pick.2,3x Tallshot,3x 背景高
-mode.projecte.pick.3,3x Wideshot,3x 広背景
+mode.projecte.pick.2,3x Tallshot,3x トールショット
+mode.projecte.pick.3,3x Wideshot,3x ワイドショット
 mode.projecte.pick.4,3x Longshot,3x 遠距離
 mode.projecte.red_sword.1,Slay Hostile,敵対的モブを倒す
 mode.projecte.red_sword.2,Slay All,全モブを倒す
@@ -322,7 +313,7 @@ tooltip.projecte.gem_density.1,Condenses items on the go,移動中にアイテ�
 tooltip.projecte.gem_density.2,Current target: %s,現在のターゲット: %s
 tooltip.projecte.gem_density.3,Press %s to change target,%s キーでターゲットを変更
 tooltip.projecte.gem_density.4,Right click to set up blacklist/whitelist,右クリックでブラックリスト/ホワイトリストをセットアップ
-tooltip.projecte.gem_density.5,Shift right click to toggle,Shift+右クリックでトグル
+tooltip.projecte.gem_density.5,Shift right click to toggle,シフト+右クリックでトグル
 tooltip.projecte.philostone,Press %s to open a crafting grid,%s キーで作成グリッドを開く
 tooltip.projecte.stored_xp,Stored XP: %s,保存XP: %s
 tooltip.projecte.time_watch.1,Become the master of time,時の主となれ
@@ -335,18 +326,7 @@ tooltip.projecte.volcanite.4,All operations cost 32 EMC!,全ての操作は32 EM
 transmutation.projecte.learned.1,L,習
 transmutation.projecte.learned.2,e,得
 transmutation.projecte.learned.3,a,！
-transmutation.projecte.learned.4,r,r
-transmutation.projecte.learned.5,n,n
-transmutation.projecte.learned.6,e,e
-transmutation.projecte.learned.7,d,d
-transmutation.projecte.learned.8,!,!
 transmutation.projecte.transmute,Transmutation,変換
 transmutation.projecte.unlearned.1,U,未
 transmutation.projecte.unlearned.2,n,習
 transmutation.projecte.unlearned.3,l,得
-transmutation.projecte.unlearned.4,e,e
-transmutation.projecte.unlearned.5,a,a
-transmutation.projecte.unlearned.6,r,r
-transmutation.projecte.unlearned.7,n,n
-transmutation.projecte.unlearned.8,e,e
-transmutation.projecte.unlearned.9,d,d

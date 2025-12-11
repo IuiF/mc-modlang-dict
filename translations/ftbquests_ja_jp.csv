@@ -1,6 +1,7 @@
 ﻿key,source_text,target_text
 block.ftbquests.aux_task_screen,Task Screen,タスク画面
 block.ftbquests.barrier,Quest Barrier,クエスト障壁
+block.ftbquests.barrier.invis_when_open,Invisible When Open,開いている時は透明
 block.ftbquests.barrier.object,Object ID,オブジェクトID
 block.ftbquests.chest,Quest Chest,クエスト宝箱
 block.ftbquests.chest.input,Input Slot,入力スロット
@@ -30,7 +31,7 @@ block.ftbquests.screen.indestructible,Indestructible,破壊不可
 block.ftbquests.screen.input_mode_icon,Input Mode Icon,入力モードアイコン
 block.ftbquests.screen.input_only,Input Only,入力のみ
 block.ftbquests.screen.missing_data,Broken Block / Missing Data!,破損したブロック / データがありません！
-block.ftbquests.screen.no_permission,You don't have permission to configure this!,このブロックの設定を行う権限がありません。
+block.ftbquests.screen.no_permission,You don't have permission to configure this!,このブロックの設定する権限がありません。
 block.ftbquests.screen.size,Size,サイズ
 block.ftbquests.screen.skin,Skin,スキン
 block.ftbquests.screen.task_index,Task Index,タスクインデックス
@@ -51,9 +52,12 @@ commands.ftbquests.command.error.invalid_type,Invalid changeProgress type: %s!,�
 commands.ftbquests.command.error.no_file,"No quest file was found, what's going on?!",クエストファイルが見つかりません。どうなったのです？！
 commands.ftbquests.command.error.no_inventory,Target block does not contain an inventory!,対象のブロックはインベントリを含みません！
 commands.ftbquests.command.error.no_object,No quest object found for ID %s!,ID %sのクエストオブジェクトが見つかりません！
-commands.ftbquests.command.error.not_editing,You must be in editing mode (/ftbquests editing_mode) to do this!,これを行うには編集モード (/ftbquests editing_mode) に入る必要があります！
+commands.ftbquests.command.error.not_editing,You must be in editing mode (/ftbquests editing_mode) to do this!,これするには編集モード (/ftbquests editing_mode) に入る必要があります！
 commands.ftbquests.command.feedback.clear_display_cache,Item display cache has been cleared for all players,すべてのプレイヤーのアイテム表示キャッシュがクリアされました
+commands.ftbquests.command.feedback.reloaded,Quest and progression data reloaded from file!,クエストと進捗データがファイルから再読み込みされました！
 commands.ftbquests.command.feedback.reloaded.disclaimer,Note: Quest reloading is a quest developer convenience tool and not recommended for use on live servers.,注意: クエスト再読み込みはクエスト開発者用の便利ツールであり、ライブサーバーでの使用は推奨されません。
+commands.ftbquests.command.feedback.reloaded_progress,Progression data reloaded from file!,進捗データがファイルから再読み込みされました！
+commands.ftbquests.command.feedback.reloaded_quest,Quest data reloaded from file!,クエストデータがファイルから再読み込みされました！
 commands.ftbquests.command.feedback.rewards_blocked,Quest reward blocking for for team '%s' set to: %s,チーム '%s' のクエスト報酬ブロッキングを次に設定しました: %s
 commands.ftbquests.command.feedback.table_exported,Successfully exported Reward Table '%s' with %s items to the target block!,報酬テーブル '%s' を %s個のアイテムとともにターゲットブロックにエクスポートしました！
 commands.ftbquests.command.feedback.table_imported,Successfully imported Reward Table '%s' with %s items!,報酬テーブル '%s' を%sアイテムと共にインポートしました！
@@ -64,12 +68,26 @@ commands.ftbquests.export_rewards_to_chest.text,Exported %s / %s items from '%s'
 commands.ftbquests.export_rewards_to_chest.usage,/ftbquests export_rewards_to_chest <reward_table>,/ftbquests export_rewards_to_chest <報酬テーブル>
 commands.ftbquests.import_rewards_from_chest.invalid_id,Invalid Reward Table ID!,無効な報酬テーブルID！
 commands.ftbquests.import_rewards_from_chest.text,Imported %d items into %s,%d個のアイテムを%sにインポートしました
-commands.ftbquests.import_rewards_from_chest.usage,/ftbquests import_rewards_from_chest <reward_table> [weight] [replace],/ftbquests import_rewards_from_chest <報酬テーブル> [重み] [置換]
+commands.ftbquests.import_rewards_from_chest.usage,/ftbquests import_rewards_from_chest <reward_table> [weight] [replace],/ftbquestsインプort_rewards_from_chest <報酬テーブル> [重み] [置換]
 commands.ftbquests.locked.disabled,Unlocked quests for %s,%s のクエストをアンロックしました
 commands.ftbquests.locked.enabled,Locked quests for %s,%s のクエストをロックしました
 commands.ftbquests.weigh_from_emc.invalid_id,Invalid Reward Table ID!,無効な報酬テーブルID！
 commands.ftbquests.weigh_from_emc.text,Changed item reward weight based on EMC in %s,%s 内のアイテム報酬の重さを EMC に基づいて変更しました
+config.jade.plugin_ftbquests.barrier,Barriers,障壁
 ftbquests,FTB Quests,FTB クエスト
+ftbquests.barrier.teleport,Teleportation,テレポーテーション
+ftbquests.barrier.teleport.dest_x,Destination X,目的地X
+ftbquests.barrier.teleport.dest_y,Destination Y,目的地Y
+ftbquests.barrier.teleport.dest_z,Destination Z,目的地Z
+ftbquests.barrier.teleport.dimension,Destination Dimension ID,目的地ディメンションID
+ftbquests.barrier.teleport.dimension.tooltip,Leave empty for teleportation in the current dimension,現在のディメンションでのテレポートには空白のままにしてください
+ftbquests.barrier.teleport.enabled,Teleportation Enabled,テレポーテーション有効
+ftbquests.barrier.teleport.pitch,Player Pitch,プレイヤーピッチ
+ftbquests.barrier.teleport.pitch.tooltip,"Positive values look down, negative values look up",正の値は下を見て、負の値は上を見ます
+ftbquests.barrier.teleport.relative,Relative Dest Coordinates,相対目的地座標
+ftbquests.barrier.teleport.relative.tooltip,"When true, destination is relative to Barrier block position",trueの場合、目的地はBarrierブロックの位置を基準とします
+ftbquests.barrier.teleport.yaw,Player Yaw,プレイヤーヨー
+ftbquests.barrier.teleport.yaw.tooltip,"0 = South, 90 = West, 180 = North, 270 = East",0 = 南、90 = 西、180 = 北、270 = 東
 ftbquests.chapter,Chapter,チャプター
 ftbquests.chapter.appearance.default_min_width,Default Min Opened Quest Window Width,デフォルト開き時クエストウィンドウ最小幅
 ftbquests.chapter.appearance.default_quest_shape,Default Quest Shape,デフォルトクエスト形状
@@ -118,14 +136,19 @@ ftbquests.chapter.subtitle,Subtitle,サブタイトル
 ftbquests.chapter.visibility.always_invisible,Always Invisible,常に非表示
 ftbquests.chapter.visibility.default_hide_dependency_lines,Default 'Hide Dependency Lines',デフォルト「依存関係の線を非表示」
 ftbquests.chapter.visibility.hide_quest_details_until_startable,Hide Quest Details Until Startable,開始可能になるまでクエスト詳細を非表示
+ftbquests.chapter.visibility.hide_quest_until_deps_complete,Hide Quests Until Dependencies Complete,依存関係が完了するまでクエストを非表示
 ftbquests.chapter.visibility.hide_quest_until_deps_visible,Hide Quests Until Dependencies Visible,依存関係が表示されるまでクエストを非表示
+ftbquests.chapter.visibility.hide_text_until_complete,Hide Text Until Quest is Completed,クエスト完了までテキストを非表示
 ftbquests.chapter_group,Chapter Group,チャプターグループ
 ftbquests.chapter_groups,Chapter Groups,チャプターグループ
 ftbquests.chapters,Chapters,チャプター
 ftbquests.completion_command,Completion Command,完了コマンド
+ftbquests.custom_icon.entity,Entity: %s,エンティティ: %s
+ftbquests.custom_icon.texture,Texture: %s,テクスチャ: %s
 ftbquests.dependencies,Dependencies,依存関係
 ftbquests.dependency,Dependency,依存関係
 ftbquests.disable_completion_toast,Disable Completion Toast,完了トーストを無効化
+ftbquests.file,Quest Book,クエストブック
 ftbquests.file.allow_take_quest_blocks,Allow to Take Quest Blocks,クエストブロックの取得を許可
 ftbquests.file.allow_take_quest_blocks.tooltip,Allow to obtain Quest Blocks from the Quests GUI.,クエストGUIからクエストブロックを取得することを許可
 ftbquests.file.completed,All chapters completed!,すべてのチャプターが完了しました！
@@ -137,15 +160,25 @@ ftbquests.file.defaults.quest_shape,Quest Shape,クエスト形状
 ftbquests.file.defaults.reward_team,Reward 'Team Reward',報酬「チーム報酬」
 ftbquests.file.detection_delay,Item Auto-Detection Minimum Interval,アイテム自動検出最小間隔
 ftbquests.file.detection_delay.tooltip,"Minimum interval (in ticks) between checks of a player's inventory when it changes
-Higher values are kinder on server TPS, especially if players inventories change frequently, but mean longer delays for quest auto-completion messages.","プレイヤーのインベントリが変更されるたびにチェック間隔（ティック）
+Higher values are kinder on server TPS, especially if players inventories change frequently, but mean longer delays for quest auto-completion messages.","プレイヤーのインベントリが変更されるたびにチェック間隔(ティック)
 値が高いほどサーバーTPS に優しいですが、プレイヤーのインベントリが頻繁に変更される場合、クエストの自動完了メッセージが遅くなります。"
 ftbquests.file.disable_gui,Disable GUI,GUIを無効化
+ftbquests.file.drop_book_on_death,Drop FTB Quests Book on Death,死亡時にFTB Questsブックを落とす
 ftbquests.file.drop_loot_crates,Entities Drop Loot Crates,エンティティがルートクレートを落とす
 ftbquests.file.emergency_items,Emergency Items,緊急アイテム
+ftbquests.file.emergency_items.get_items,Get Items,アイテムを取得
 ftbquests.file.emergency_items_cooldown,Emergency Items Cooldown,緊急アイテムクールダウン
 ftbquests.file.emergency_items_cooldown.tooltip,Cooldown timer for emergency items to respawn.,緊急アイテムを復活させるためのクールダウンタイマー。
+ftbquests.file.fallback_locale,Fallback Locale,フォールバックロケール
+ftbquests.file.fallback_locale.tooltip,"The locale used for translations not found in the current locale
+This can be overridden on the client via Player Preferences
+Defaults to 'en_us' if empty","現在のロケールで見つからない翻訳に使用されるロケール
+こはプレイヤーの設定でクライアント側でオーバーライド可能です
+空の場合は「en_us」がデフォルトになります"
 ftbquests.file.full_screen_quest_view,Full Screen Quest View,フルスクリーンクエストビュー
 ftbquests.file.grid_scale,Grid Scale,グリッドスケール
+ftbquests.file.hide_excluded_quests,Hide Quests in excluded questlines,除外されたクエストラインのクエストを非表示
+ftbquests.file.hide_excluded_quests.tooltip,"If false, excluded quests will remain visible but grayed out",false の場合、除外されたクエストは非表示のままですがグレーアウトされます
 ftbquests.file.lock_message,Lock Message,ロックメッセージ
 ftbquests.file.loot_crate_no_drop,Entity Loot Crate Drop Empty Weight,エンティティルートクレートドロップ空の重さ
 ftbquests.file.pause_game,Quest Screen Pauses SSP Game,ゲームを一時停止
@@ -158,7 +191,7 @@ ftbquests.file.progression_mode.tooltip,"Linear: quest must be complete before d
 Flexible: tasks in dependant quests can be progressed at any time,
   but dependant quests can't be completed until dependency is completed","リニア: 依存するクエストが開始される前にクエストを完了する必要があります
 フレキシブル: 依存するクエスト内のタスクはいつでも進捗可能ですが、
-  依存するクエストが完了するまで依存するクエストは完了できません"
+ 依存するクエストが完了するまで依存するクエストは完了できません"
 ftbquests.gui.add_dependencies,Add selected as dependencies,選択した項目を依存関係として追加
 ftbquests.gui.add_dependencies_self,Add as dependency to selected,選択した項目に依存関係として追加
 ftbquests.gui.add_reward_all,Add reward to all...,すべてに報酬を追加...
@@ -171,6 +204,7 @@ ftbquests.gui.change_progress.complete,Complete,完了
 ftbquests.gui.change_progress.complete_deps,Complete (+Dependencies),完了 (+ 依存関係)
 ftbquests.gui.change_progress.reset,Reset,リセット
 ftbquests.gui.change_progress.reset_deps,Reset (+Dependencies),リセット (+依存関係)
+ftbquests.gui.clear_autofocused,Clear Autofocused Quest,オートフォーカスクエストをクリア
 ftbquests.gui.clear_formatting,Clear Formatting,フォーマットをクリア
 ftbquests.gui.clear_reward_all,Clear rewards from all,すべての報酬をクリア
 ftbquests.gui.collect_rewards,Click to collect all rewards!,クリックしてすべての報酬を受け取る！
@@ -182,21 +216,105 @@ ftbquests.gui.copy_id.paste_hint,You can use this ID to paste quests or quest li
 ftbquests.gui.copy_id.quick_properties,Quick Edit Properties...,クイック編集プロパティ...
 ftbquests.gui.edit,Edit,編集
 ftbquests.gui.edit_description,Quest Description Editor,クエスト説明エディター
-ftbquests.gui.edit_description.help,Shift+Enter: save & exit,Shift+Enter: 保存して終了
+ftbquests.gui.edit_description.help,Shift+Enter: save & exit,シフト+Enter: 保存して終了
 ftbquests.gui.edit_file,Edit File,ファイルを編集
 ftbquests.gui.edit_linked_quest,Edit Linked Quest,リンクされたクエストを編集
 ftbquests.gui.edit_quest_props,Quest Properties,クエストプロパティ
 ftbquests.gui.edit_text,Edit Text,テキストを編集
 ftbquests.gui.error,Error!,エラー！
+ftbquests.gui.error.already_component,Line is already text component JSON!,行は既にテキストコンポーネントJSON です！
+ftbquests.gui.error.selection_multiple_lines,Selection extends over multiple lines!,選択が複数行に及んでいます！
 ftbquests.gui.export_spreadsheet,Export Spreadsheet,スプレッドシートをエクスポート
 ftbquests.gui.fix_aspect_ratio_h,Adjust Height to Aspect Ratio,アスペクト比に合わせて高さを調整
 ftbquests.gui.fix_aspect_ratio_w,Adjust Width to Aspect Ratio,アスペクト比に合わせて幅を調整
 ftbquests.gui.goto_linked_quest,Go to Linked Quest (in chapter: %s),リンクされたクエストに移動 (チャプター: %s)
+ftbquests.gui.icon_menu.entity,Entity Face Icon,エンティティ顔アイコン
+ftbquests.gui.icon_menu.image,Image Icon,画像アイコン
+ftbquests.gui.icon_menu.item,Item Icon,アイテムアイコン
 ftbquests.gui.image,Add Image,画像を追加
+ftbquests.gui.image.align,Alignment,配置
+ftbquests.gui.image.fit,Fit to Panel Width?,パネル幅に合わせる？
+ftbquests.gui.image.height,Image Height,画像の高さ
+ftbquests.gui.image.image,Image Location,画像の場所
+ftbquests.gui.image.width,Image Width,画像の幅
 ftbquests.gui.insert_link,Insert Link,リンクを挿入
+ftbquests.gui.key_reference.editor,"Editor Mode
+Ctrl + Left Mouse;Toggle Selection
+Left Alt + Left Mouse;Properties Editor
+Right Alt + Left Mouse;Copy Quest
+Middle Mouse;Move Selected Quest(s)
+Right Mouse;Context Menu
+Middle Mouse: Drag;Select Quests in Drag Box
+Ctrl + Middle Mouse: Drag;Toggle Selection in Box
+Ctrl + A;Select All
+Ctrl + D;Select None
+Ctrl + Up/Down/Left/Right;Move Selected Quests
+Ctrl + R;Toggle Crosshairs
+Ctrl + C;Copy Selected/Hovered Object
+Ctrl + V;Paste Selection
+Ctrl + Shift + V;Paste Quest (no dependencies)
+Ctrl + Alt + V;Paste as Quest Link
+
+Quest View Panel
+T;Edit Quest Title
+S;Edit Quest Subtitle
+D;Edit Quest Description","エディターモード
+Ctrl + 左マウス;選択をトグル
+左Alt + 左マウス;プロパティエディター
+右Alt + 左マウス;クエストをコピー
+中央マウス;選択されたクエストを移動
+右マウス;コンテキストメニュー
+中央マウス: ドラッグ;ドラッグボックス内のクエストを選択
+Ctrl + 中央マウス: ドラッグ;ボックス内の選択をトグル
+Ctrl + A;すべて選択
+Ctrl + D;選択解除
+Ctrl + 上下左右;選択されたクエストを移動
+Ctrl + R;十字線をトグル
+Ctrl + C;選択された/ホバーされたオブジェクトをコピー
+Ctrl + V;選択を貼り付け
+Ctrl + シフト + V;クエストを貼り付け (依存関係なし)
+Ctrl + Alt + V;クエストリンクとして貼り付け
+
+クエスト表示パネル
+T;クエストタイトルを編集
+S;クエストサブタイトルを編集
+D;クエスト説明を編集"
+ftbquests.gui.key_reference.player,"General Controls
+-;Zoom out
++;Zoom in
+0;Reset Zoom
+Tab;Next Chapter
+Shift + Tab;Previous Chapter
+1 - 9;Go to Chapter
+Space;Recenter View
+Ctrl + F;Search
+F1;While hovering quest, show extended info
+Left Mouse;View Quest Details
+Mouse Wheel;Scroll Up/Down
+Shift + Mouse Wheel;Scroll Left/Right
+Ctrl + Mouse Wheel;Zoom In/Out
+Backspace;While viewing quest, go to last-viewed quest
+Ctrl + P;Player Preferences","一般的なコントロール
+-;ズームアウト
++;ズームイン
+0;ズームをリセット
+Tab;次のチャプター
+シフト + Tab;前のチャプター
+1 - 9;チャプターに移動
+Space;ビューの中央に戻す
+Ctrl + F;検索
+F1;クエストをホバー中、拡張情報を表示
+左マウス;クエストの詳細を表示
+マウスホイール;上下にスクロール
+シフト + マウスホイール;左右にスクロール
+Ctrl + マウスホイール;ズームイン/アウト
+バックスペース;クエストを表示中、最後に表示したクエストに移動
+Ctrl + P;プレイヤー設定"
 ftbquests.gui.line,Add Text Line,テキスト行を追加
 ftbquests.gui.linked_quest_id,Linked Quest ID: %s,リンクされたクエストID: %s
 ftbquests.gui.looping_dependencies,Looping dependencies!,ループしている依存関係！
+ftbquests.gui.move_left,Move Left,左に移動
+ftbquests.gui.move_right,Move Right,右に移動
 ftbquests.gui.move_to_chapter,Move to another chapter,別のチャプターに移動
 ftbquests.gui.move_tooltip,Shortcut: Middle mouse button click,ショートカット: 中央マウスボタンをクリック
 ftbquests.gui.no_dependants,No Dependants,依存するものなし
@@ -219,6 +337,7 @@ ftbquests.gui.required_by,Required by,必須
 ftbquests.gui.requires,Requires,必須
 ftbquests.gui.reset_progress,Reset Progress,進捗をリセット
 ftbquests.gui.reset_progress_q,Reset progress for your team?,チームの進捗をリセットしますか？
+ftbquests.gui.restore,Restore,復元
 ftbquests.gui.save_as_file,Download Quest Files,クエストファイルをダウンロード
 ftbquests.gui.save_on_server,Save on Server now,サーバーに今すぐ保存
 ftbquests.gui.saved_as_file,Quests saved on client in %s,クエストがクライアントの %s に保存されました
@@ -227,25 +346,61 @@ ftbquests.gui.select_quest_object,Select Quest Object,クエストオブジェ�
 ftbquests.gui.select_reward_table,Select Reward Table,報酬テーブルを選択
 ftbquests.gui.select_reward_type,Select Reward Type,報酬タイプを選択
 ftbquests.gui.select_task_type,Select Task Type,タスクタイプを選択
+ftbquests.gui.set_autofocused,Set as Autofocused Quest,オートフォーカスクエストとして設定
+ftbquests.gui.submit,Submit,送信
 ftbquests.gui.times_completed,Times completed,完了回数
 ftbquests.gui.undo,Undo,元に戻す
 ftbquests.gui.unpin,Unpin,ピンを削除
 ftbquests.gui.use_as_quest_icon,Use Task Icon as Quest Icon,タスクアイコンをクエストアイコンとして使用
+ftbquests.gui.use_default_lang,[Use Default Language],[デフォルト言語を使用]
 ftbquests.gui.view_dependants,View Dependants,依存するものを表示
 ftbquests.gui.view_dependencies,View Dependencies,依存関係を表示
 ftbquests.gui.view_quest_links,View Quest Link(s),クエストリンクを表示
 ftbquests.gui.wiki,Open Wiki,Wikiを開く
 ftbquests.icon,Icon,アイコン
+ftbquests.icon.tooltip,"Custom icon
+Shift-click: select an item texture
+Alt-click: select an entity texture
+Ctrl-click: select an image texture","カスタムアイコン
+シフトキーをクリック: アイテムテクスチャを選択
+Altキーをクリック: エンティティテクスチャを選択
+Ctrlキーをクリック: 画像テクスチャを選択"
 ftbquests.leaderboard_progress,FTB Quests Progress,FTB Quests 進捗
 ftbquests.loot.entitydrops,Entity Drops,エンティティ Drops
 ftbquests.loot.entitytype.boss,Boss,ボス
 ftbquests.loot.entitytype.monster,Monster,モンスター
 ftbquests.loot.entitytype.passive,Passive,パッシブ
 ftbquests.message.configurator_bound,Configurator Bound: %s,コンフィグレーターが束縛: %s
-ftbquests.message.missing_task_screen,Task Screen is missing!,タスク Screen is missing!
-ftbquests.message.task_screen_inaccessible,Task Screen is not accessible from here!,タスク Screen is not accessible from here!
+ftbquests.message.missing_task_screen,Task Screen is missing!,タスク スクリーン is missing!
+ftbquests.message.missing_xlate_1,No translation for %s in current locale '%s',%s の翻訳がありません、現在のロケール '%s'
+ftbquests.message.missing_xlate_2,Falling back to '%s','%s' にフォールバック中
+ftbquests.message.task_screen_inaccessible,Task Screen is not accessible from here!,タスク スクリーン is not accessible from here!
+ftbquests.notifications,Notifications,通知
+ftbquests.notifications.completion_sounds,Play Completion Sounds,完了音を再生
+ftbquests.notifications.completion_sounds.tooltip,"Play sounds when a task, quest or chapter is completed",タスク、クエスト、またはチャプターが完了したときに音を再生
+ftbquests.notifications.completion_style,Completion Notification Style,完了通知スタイル
+ftbquests.notifications.completion_style.tooltip,"How to notify you when a task, quest or chapter is completed
+Note: 'Action Bar' and 'None' may lead to completion notices being missed","タスク、クエスト、またはチャプターが完了したときの通知方法
+注: 「アクションバー」と「なし」は完了通知を見落とす可能性があります"
+ftbquests.notifications.reward_style,Reward Notification Style,報酬 Notification Style
+ftbquests.notifications.reward_style.tooltip,How to notify you when a reward is received outside of the reward GUI,報酬GUIの外で報酬を受け取ったときの通知方法
 ftbquests.null,None,なし
 ftbquests.objects,%d object(s),%d個のオブジェクト
+ftbquests.pinned,Pinned Quests,ピン留めされたクエスト
+ftbquests.pinned.auto_pin_follows,Auto-pin Follows,オートピンフォロー
+ftbquests.pinned.auto_pin_follows.tooltip,"• Chapter: only available quests in the last-viewed chapter are shown
+• Quest Book: available quests from every chapter are shown","• チャプター: 最後に表示されたチャプターで利用可能なクエストのみが表示されます
+• クエストブック: すべてのチャプターで利用可能なクエストが表示されます"
+ftbquests.pinned.pinned_quests_inset_x,Pinned Quests Panel X Inset,ピン留めされたクエストパネルXインセット
+ftbquests.pinned.pinned_quests_inset_x.tooltip,"Inset is toward center of screen.
+Ignored if X pos is center.","インセットは画面の中央に向かいます。
+X位置が中央の場合は無視されます。"
+ftbquests.pinned.pinned_quests_inset_y,Pinned Quests Panel Y Inset,ピン留めされたクエストパネルYインセット
+ftbquests.pinned.pinned_quests_inset_y.tooltip,"Inset is toward center of screen.
+Ignored if Y pos is center.","インセットは画面の中央に向かいます。
+Y位置が中央の場合は無視されます。"
+ftbquests.pinned.pinned_quests_pos,Pinned Quests Panel Position,ピン留めされたクエストパネル位置
+ftbquests.pinned.pinned_quests_scale,Pinned Quests Panel Scaling,ピン留めされたクエストパネルスケーリング
 ftbquests.progress,Progress,進捗
 ftbquests.quest,Quest,クエスト
 ftbquests.quest.appearance,Appearance,外観
@@ -265,6 +420,10 @@ ftbquests.quest.dependencies.dependency_requirement,Dependency Requirement,依�
 ftbquests.quest.dependencies.hide_dependency_lines,Hide Dependency Lines,依存関係の線を非表示
 ftbquests.quest.dependencies.hide_dependent_lines,Hide Dependent Lines,依存する線を非表示
 ftbquests.quest.dependencies.hide_dependent_lines.tooltip,Controls display of dependency lines to quests which are unlocked by this one,このクエストでアンロックされるクエストへの依存関係の線の表示を制御
+ftbquests.quest.dependencies.max_completable_dependents,Max Completable Dependents,最大完了可能な依存するもの
+ftbquests.quest.dependencies.max_completable_dependents.tooltip,"If > 0, at most this number of dependents can be completed, and uncompleted dependents become unavailable
+Useful to have exclusive branches in a questline","> 0の場合、この数までの依存するものが完了でき、完了していない依存するものは利用不可になります
+クエストラインに排他的なブランチを持つのに便利"
 ftbquests.quest.dependencies.min_required_dependencies,Min Required Dependencies,最小必須依存関係
 ftbquests.quest.dependency_requirement.all_completed,All Completed,すべて完了
 ftbquests.quest.dependency_requirement.all_started,All Started,すべて開始
@@ -275,25 +434,37 @@ ftbquests.quest.description,Description,説明
 ftbquests.quest.hidden_quests_footer,%d hidden,%d個が非表示
 ftbquests.quest.hide_dependency_lines.tooltip,Controls display of dependency lines from quests which unlock this one,このクエストをアンロックするクエストからの依存関係の線の表示を制御
 ftbquests.quest.locked,Locked: uncompleted dependencies,ロック: 完了していない依存関係
+ftbquests.quest.locked.cooldown,Repeatable in %s,%s で繰り返し可能
+ftbquests.quest.locked.excluded,Locked: excluded by another questline,ロック: 別のクエストラインで除外
 ftbquests.quest.min_required_dependencies.tooltip,"If you set this to anything more than 0, it becomes an OR quest, where only certain amount of dependencies is required for it to unlock",これを0より大きい値に設定すると、OR クエストになり、特定数の依存関係のみがそれをアンロックするために必要
 ftbquests.quest.min_required_header,%d required,%d個必須
 ftbquests.quest.misc,Misc,その他
 ftbquests.quest.misc.can_repeat,Repeatable Quest,繰り返し可能なクエスト
+ftbquests.quest.misc.completion_count,Completed %s time,%s回完了
+ftbquests.quest.misc.completion_count.plural,Completed %s times,%s回完了
 ftbquests.quest.misc.disable_jei,Disable JEI Recipe,JEIレシピを無効化
+ftbquests.quest.misc.exclusive,Exclusive Quest Branch,排他的なクエストブランチ
+ftbquests.quest.misc.exclusive.desc,Completing this makes other branches unavailable,これを完了すると、他のブランチが利用不可になります
 ftbquests.quest.misc.guide_page,Guide Page,ガイドページ
 ftbquests.quest.misc.ignore_reward_blocking,Ignore reward blocking,報酬ブロッキングを無視
 ftbquests.quest.misc.ignore_reward_blocking.tooltip,Offer the quest reward(s) even if rewards are blocked for the team by the '/ftbquests block_rewards' command,報酬がブロックされている場合でも、クエスト報酬を提供する
 ftbquests.quest.misc.optional,Optional Quest,オプションクエスト
+ftbquests.quest.misc.optional_task,Optional Task,オプションタスク
 ftbquests.quest.misc.progression_mode,Progression Mode,進捗モード
+ftbquests.quest.misc.repeat_cooldown,Quest Repeat Cooldown,クエスト繰り返しクールダウン
+ftbquests.quest.misc.repeat_cooldown.tooltip,"Only applies if 'Repeatable Quest' is true.
+The delay in seconds between claiming all the rewards for the quest and being able to redo the quest's tasks.","'繰り返し可能なクエスト'が真の場合のみ適用されます。
+遅延(秒単位)"
 ftbquests.quest.misc.require_sequential_tasks,Sequential Task Completion,順序的なタスク完了
 ftbquests.quest.misc.require_sequential_tasks.tooltip,"When true, tasks must be completed in the strict order in which they were added to the quest
 Default means to use chapter setting",true の場合、タスクは厳密な順序で完了する必要があります
 ftbquests.quest.shape.circle,Circle,円形
 ftbquests.quest.shape.default,Default,デフォルト
-ftbquests.quest.shape.diamond,Diamond,ダイヤ形
+ftbquests.quest.shape.diamond,Diamond,ダイヤモンド
 ftbquests.quest.shape.gear,Gear,歯車
 ftbquests.quest.shape.heart,Heart,ハート
 ftbquests.quest.shape.hexagon,Hexagon,六角形
+ftbquests.quest.shape.none,<None>,なし
 ftbquests.quest.shape.octagon,Octagon,八角形
 ftbquests.quest.shape.pentagon,Pentagon,五角形
 ftbquests.quest.shape.rsquare,Rounded Square,丸い正方形
@@ -301,14 +472,22 @@ ftbquests.quest.shape.square,Square,正方形
 ftbquests.quest.subtitle,Subtitle,サブタイトル
 ftbquests.quest.tasks_ignore_dependencies,Tasks Ignore Dependencies,タスクは依存関係を無視
 ftbquests.quest.tasks_ignore_dependencies.tooltip,Allow to start tasks without completing dependencies,依存関係に関係なく、タスクを開始・完了できます
+ftbquests.quest.text_hidden_outside_edit_mode,Description text hidden outside edit mode: quest not completed,編集モード外ではテキストが非表示
 ftbquests.quest.visibility,Visibility,表示設定
 ftbquests.quest.visibility.hide_details_until_startable,Hide Details Until Startable,開始可能になるまで詳細を非表示
 ftbquests.quest.visibility.hide_details_until_startable.tooltip,"If true, then quest details (text and tasks) can't be viewed until the quest can be started",クエストが開始可能になるまで詳細を非表示
+ftbquests.quest.visibility.hide_lock_icon,Hide Lock Icon,ロックアイコンを非表示
+ftbquests.quest.visibility.hide_lock_icon.tooltip,Hide the lock icon that is normally shown when quest is locked due to a dependency,ロックされたクエストのロックアイコンを非表示
 ftbquests.quest.visibility.hide_text_until_complete,Hide Text Until Quest is Completed,完了までテキストを非表示
+ftbquests.quest.visibility.hide_text_until_complete.tooltip,"Quest details can be opened, but no description text is displayed until the quest is completed",クエストが完了するまでテキストを非表示
+ftbquests.quest.visibility.hide_until_deps_complete,Hide Quest Until Dependencies Complete,依存関係が完了するまで非表示
+ftbquests.quest.visibility.hide_until_deps_visible,Hide Quest Until Dependencies Visible,依存関係が表示されるまで非表示
 ftbquests.quest.visibility.invisible,Invisible Until Completed,非表示
 ftbquests.quest.visibility.invisible.tooltip,"Quest is invisible to players until completed.
 Useful for ""easter egg"" optional quests.",GUIに表示されません
 ftbquests.quest.visibility.invisible_until_tasks,Invisible until X tasks are completed,タスクが完了するまで非表示
+ftbquests.quest.visibility.invisible_until_tasks.tooltip,"Only applies if ""Invisible Until Completed"" is true.
+If > 0, quest becomes visible if X or more tasks are completed.",すべてのタスクが完了するまで非表示
 ftbquests.quest_link,Quest Link,クエストリンク
 ftbquests.quest_link.shape,Shape,形状
 ftbquests.quest_link.size,Size,サイズ
@@ -335,30 +514,46 @@ ftbquests.reward.autoclaim.no_toast,"Enabled, No Toast",有効、トーストな
 ftbquests.reward.blocked,%d reward(s) blocked for team '%s',%d 報酬(s) ブロックed for team '%s'
 ftbquests.reward.claim_all,Claim All Rewards,Claim All 報酬s
 ftbquests.reward.collected,Reward Collected!,報酬 Collected!
+ftbquests.reward.disable_reward_screen_blur,Disable Reward Screen Blur,Disable 報酬 スクリーン Blur
 ftbquests.reward.emergency,Emergency Item,Emergency アイテム
 ftbquests.reward.exclude_from_claim_all,Exclude from Claim All,すべて請求から除外
 ftbquests.reward.exclude_from_claim_all.tooltip,"Ignore this reward when the ""Claim All"" button is clicked
 This setting cannot be changed for Loot, Random
  and Choice reward types","Ignore this 報酬 when the ""Claim All"" button is clicked
 This setting cannot be changed for Loot, Random
- and Choice 報酬 types"
+ and Cho氷 報酬 types"
 ftbquests.reward.ftbquests.advancement,Advancement,アドバンスメント
 ftbquests.reward.ftbquests.advancement.criterion,Criterion,基準
 ftbquests.reward.ftbquests.advancement.criterion.tooltip,"Optional, set if you want only one criterion to be granted",オプション、1つの基準のみを与える場合に設定
-ftbquests.reward.ftbquests.choice,Choice Reward,Choice 報酬
+ftbquests.reward.ftbquests.all_table,All Table Reward,All Table 報酬
+ftbquests.reward.ftbquests.choice,Choice Reward,Cho氷 報酬
 ftbquests.reward.ftbquests.command,Command,コマンド
+ftbquests.reward.ftbquests.command.feedback_message,Feedback Toast,フィードバックトースト
+ftbquests.reward.ftbquests.command.feedback_message.tooltip,Toast message on command success,コマンド成功時のトーストメッセージ
+ftbquests.reward.ftbquests.command.permission_level,Run with Permission Level,権限レベルで実行
+ftbquests.reward.ftbquests.command.permission_level.tooltip,"0 = player
+1 = Moderator
+2 = Game Master
+3 = Server Admin
+4 = Server Owner","0 = プレイヤー
+1 = モデレーター
+2 = ゲームマスター
+3 = サーバー管理者
+4 = サーバーオーナー"
 ftbquests.reward.ftbquests.command.silent,Silent,サイレント
+ftbquests.reward.ftbquests.command.success,Successfully claimed command reward,Successfully claimed command 報酬
 ftbquests.reward.ftbquests.command.tooltip,"Vanilla substitutions, e.g. @p, are supported
 Special substitutions:
 {x} / {y} / {z} - player's current X/Y/Z pos
 {quest} - ID of this quest
 {chapter} - ID of this chapter
-{team} - short name of player's team","Vanilla substitutions, e.g. @p, are supported
+{team} - short name of player's team","Vanilla substitutions, e.g. @p, are 支えられた
 Special substitutions:
-{x} / {y} / {z} - player's current X/Y/Z pos
+{x} / {y} / {z} - playerのcurrent X/Y/Z pos
 {クエスト} - ID of this クエスト
 {チャプター} - ID of this チャプター
-{team} - short name of player's team"
+{team} - short名前of playerのteam"
+ftbquests.reward.ftbquests.currency,Currency,通貨
 ftbquests.reward.ftbquests.custom,Custom,カスタム
 ftbquests.reward.ftbquests.gamestage,Stage,ステージ
 ftbquests.reward.ftbquests.gamestage.remove,Remove,削除
@@ -391,13 +586,16 @@ ftbquests.reward.ftbquests.xp,XP,経験値
 ftbquests.reward.ftbquests.xp_levels,XP Levels,経験値レベル
 ftbquests.reward.random_bonus,Random Bonus,ランダムボーナス
 ftbquests.reward.team_reward,Team Reward,Team 報酬
+ftbquests.reward.team_reward.tooltip,"When true, this is one reward for the whole team; only the submitting player receives it
+When false, all online players receive the reward","When true, this is one 報酬 for その whole team; only その submitting プレイヤー receives it
+When false, all online プレイヤーs receive その 報酬"
 ftbquests.reward.this_blocked,Reward blocked for team '%s',報酬 blocked for team '%s'
 ftbquests.reward_table,Reward Table,報酬 Table
-ftbquests.reward_table.and_more,...and %d more,その他
-ftbquests.reward_table.disable_loot_crate,Disable Loot Crate,Disable ルート クレート
+ftbquests.reward_table.and_more,...and %d more,
+ftbquests.reward_table.disable_loot_crate,Disable Loot Crate,無効にする ルート クレート
 ftbquests.reward_table.edit,Edit Reward Table,Edit 報酬 Table
 ftbquests.reward_table.empty_weight,Empty Weight,Empty 重さ
-ftbquests.reward_table.enable_loot_crate,Enable Loot Crate,Enable ルート クレート
+ftbquests.reward_table.enable_loot_crate,Enable Loot Crate,有効にする ルート クレート
 ftbquests.reward_table.hide_tooltip,Hide Tooltip,ツールチップを非表示
 ftbquests.reward_table.loot_crate.boss_weight,Weight (Boss),重さ (Boss)
 ftbquests.reward_table.loot_crate.color,Color,色
@@ -411,7 +609,7 @@ ftbquests.reward_table.loot_size,Loot Size,ルート Size
 ftbquests.reward_table.nothing,Nothing,何もない
 ftbquests.reward_table.set_weight,Set Weight,重さを設定
 ftbquests.reward_table.use_title,Use Title,タイトルを使用
-ftbquests.reward_table.used_in,Used in %d Quest Rewards,使用対象
+ftbquests.reward_table.used_in,Used in %d Quest Rewards,
 ftbquests.reward_table.weight,Weight,重さ
 ftbquests.reward_tables,Edit Reward Tables,報酬テーブル
 ftbquests.rewards,Rewards,報酬
@@ -426,12 +624,12 @@ ftbquests.task.ftbquests.advancement,Advancement,アドバンスメント
 ftbquests.task.ftbquests.advancement.criterion,Criterion,基準
 ftbquests.task.ftbquests.biome,Visit Biome,バイオーム
 ftbquests.task.ftbquests.biome.biome,Biome,バイオーム
-ftbquests.task.ftbquests.botania_mana,Botania Mana,Botania マナ
+ftbquests.task.ftbquests.botania_mana,Botania Mana,ボタニアマナ
 ftbquests.task.ftbquests.botania_mana.show_numbers,Show Numbers,数値を表示
-ftbquests.task.ftbquests.botania_mana.text,%d Mana,テキスト
+ftbquests.task.ftbquests.botania_mana.text,%d Mana,
 ftbquests.task.ftbquests.botania_mana.value,Mana,値
 ftbquests.task.ftbquests.buildcraft_mj,BuildCraft Energy,BuildCraft MJ
-ftbquests.task.ftbquests.buildcraft_mj.text,%d MJ,テキスト
+ftbquests.task.ftbquests.buildcraft_mj.text,%d MJ,
 ftbquests.task.ftbquests.buildcraft_mj.value,mJ,値
 ftbquests.task.ftbquests.checkmark,Checkmark,チェックマーク
 ftbquests.task.ftbquests.custom,Custom,カスタム
@@ -442,12 +640,12 @@ ftbquests.task.ftbquests.fluid,Fluid,液体
 ftbquests.task.ftbquests.fluid.amount,Amount,量
 ftbquests.task.ftbquests.fluid.fluid,Fluid,液体
 ftbquests.task.ftbquests.fluid.fluid_nbt,Fluid NBT,液体NBT
-ftbquests.task.ftbquests.forge_energy,Forge Energy,Forge エネルギー
-ftbquests.task.ftbquests.forge_energy.text,%d FE,テキスト
+ftbquests.task.ftbquests.forge_energy,Forge Energy,フォージエネルギー
+ftbquests.task.ftbquests.forge_energy.text,%d FE,
 ftbquests.task.ftbquests.forge_energy.value,FE / RF,値
 ftbquests.task.ftbquests.gamestage,Stage,ゲームステージ
 ftbquests.task.ftbquests.ic2_energy,IC2 Energy,IC2 エネルギー
-ftbquests.task.ftbquests.ic2_energy.text,%d EU,テキスト
+ftbquests.task.ftbquests.ic2_energy.text,%d EU,
 ftbquests.task.ftbquests.ic2_energy.value,EU,値
 ftbquests.task.ftbquests.interaction,Interaction,相互作用
 ftbquests.task.ftbquests.interaction.match,Match,マッチ
@@ -462,18 +660,33 @@ ftbquests.task.ftbquests.item.convert_tag,Convert to '%s' Tag Filter,%s タグ�
 ftbquests.task.ftbquests.item.count,Count,数
 ftbquests.task.ftbquests.item.hide_valid_items,Hide Valid Items,有効なアイテムを非表示
 ftbquests.task.ftbquests.item.ignore_damage,Ignore Damage,ダメージを無視
+ftbquests.task.ftbquests.item.match_components,Match Data Components,データコンポーネントを照合
+ftbquests.task.ftbquests.item.match_components.tooltip,"None: ignore item component data
+Fuzzy: only check data components present in the filter stack
+Strict: filter stack data components must match the checked item exactly","なし：アイテムのコンポーネントデータを無視
+あいまい：フィルタスタックに存在するデータコンポーネントのみをチェック
+厳密：フィルタスタックのデータコンポーネントが、チェック対象のアイテムと完全に一致していることを確認"
 ftbquests.task.ftbquests.item.nbt_mode,NBT Mode,NBTモード
 ftbquests.task.ftbquests.item.only_from_crafting,Only Detect From Crafting,クラフトからのみ検出
 ftbquests.task.ftbquests.item.select_tag,Select an Item Tag,アイテムタグを選択
 ftbquests.task.ftbquests.item.task_screen_only,Only From Task Screen,タスク画面からのみ
 ftbquests.task.ftbquests.item.task_screen_only.tooltip,"When true, items may only be submitted by piping into a Task Screen
 Only applies when Consume Items is true for this task.","真の場合、アイテムはタスク画面にパイプ入力することでのみ送信できます
-これは、このタスクのアイテムを消費がtrueの場合にのみ適用されます。"
+これは、このタスクのアイテムを消費が真の場合にのみ適用されます。"
 ftbquests.task.ftbquests.item.valid_for,Valid items for %s,%s に有効なアイテム
 ftbquests.task.ftbquests.item.valid_items,Valid items:,有効なアイテム：
 ftbquests.task.ftbquests.item.view_items,Click to view valid items,クリックして有効なアイテムを表示
 ftbquests.task.ftbquests.kill,Kill Entity,エンティティを倒す
+ftbquests.task.ftbquests.kill.custom_name,Entity Name,エンティティ名
+ftbquests.task.ftbquests.kill.custom_name.tooltip,"For players, their player name
+For other entities, a custom name applied by a Name Tag","プレイヤーの場合はプレイヤー名
+他のエンティティの場合はネームタグで適用されたカスタム名"
+ftbquests.task.ftbquests.kill.entity,Entity Type,エンティティタイプ
+ftbquests.task.ftbquests.kill.entity.tooltip,This is ignored if Entity Type Tag is non-empty,エンティティタイプタグが空でない場合は無視されます
+ftbquests.task.ftbquests.kill.entity_type_tag,Entity Type Tag,エンティティタイプタグ
+ftbquests.task.ftbquests.kill.entity_type_tag.tooltip,"If non-empty, this takes precedence over the Entity Type",空でない場合、これはエンティティタイプより優先されます
 ftbquests.task.ftbquests.kill.title,Kill: %sx %s,倒す：%sx %s
+ftbquests.task.ftbquests.kill.title_named,Kill: %sx %s named '%s',倒す：%sx %s(名前: %s)
 ftbquests.task.ftbquests.kill.value,Count,数
 ftbquests.task.ftbquests.location,Location,場所
 ftbquests.task.ftbquests.location.d,Z Size (D),Z サイズ (D)
@@ -482,11 +695,11 @@ ftbquests.task.ftbquests.location.h,Y Size (H),Y サイズ (H)
 ftbquests.task.ftbquests.location.ignore_dim,Ignore Dimension,ディメンションを無視
 ftbquests.task.ftbquests.location.w,X Size (W),X サイズ (W)
 ftbquests.task.ftbquests.location.x,X Position,X 座標
-ftbquests.task.ftbquests.location.x.tooltip,Minimum X for player (player-X must be >= X and < X+W),プレイヤーの最小X（player-X は X 以上 X+W 未満である必要があります）
+ftbquests.task.ftbquests.location.x.tooltip,Minimum X for player (player-X must be >= X and < X+W),プレイヤーの最小X(player-X は X 以上 X+W 未満である必要があります)
 ftbquests.task.ftbquests.location.y,Y Position,Y 座標
-ftbquests.task.ftbquests.location.y.tooltip,Minimum Y for player (player-Y must be >= Y and < Y+H),プレイヤーの最小Y（player-Y は Y 以上 Y+H 未満である必要があります）
+ftbquests.task.ftbquests.location.y.tooltip,Minimum Y for player (player-Y must be >= Y and < Y+H),プレイヤーの最小Y(player-Y は Y 以上 Y+H 未満である必要があります)
 ftbquests.task.ftbquests.location.z,Z Position,Z 座標
-ftbquests.task.ftbquests.location.z.tooltip,Minimum Z for player (player-Z must be >= Z and < Z+D),プレイヤーの最小Z（player-Z は Z 以上 Z+D 未満である必要があります）
+ftbquests.task.ftbquests.location.z.tooltip,Minimum Z for player (player-Z must be >= Z and < Z+D),プレイヤーの最小Z(player-Z は Z 以上 Z+D 未満である必要があります)
 ftbquests.task.ftbquests.npc_dialog,CustomNPCs Dialog,CustomNPCs ダイアログ
 ftbquests.task.ftbquests.npc_dialog.id,Dialog ID,ダイアログ ID
 ftbquests.task.ftbquests.npc_faction,CustomNPCs Faction,CustomNPCs フォーション
@@ -512,6 +725,8 @@ ftbquests.task.ftbquests.xp,XP Levels,XPレベル
 ftbquests.task.ftbquests.xp.points,Points,ポイント
 ftbquests.task.ftbquests.xp.points.tooltip,Use XP points to complete instead of levels. Use a calculator to find out what the value should be,レベルの代わりにXPポイントを使用して完了します。値が何であるかを調べるには計算機を使用してください
 ftbquests.task.ftbquests.xp.value,XP,
+ftbquests.task.gave_item,Gave Task Item: %s,タスクアイテムを与えました: %s
+ftbquests.task.grab_item,Grab Copy of Item,アイテムのコピーをつかむ
 ftbquests.task.max_input,Max Input Rate,Max 入力 Rate
 ftbquests.task.task_screen_only,Items can ONLY be submitted via a Task Screen!,アイテムはタスク画面経由でのみ送信できます！
 ftbquests.task_title,Task Title,タスクタイトル
@@ -519,122 +734,117 @@ ftbquests.tasks,Tasks,タスク
 ftbquests.team,Team,チーム
 ftbquests.title,Title,タイトル
 ftbquests.title.tooltip,Custom title,カスタムタイトル
+ftbquests.translation_key.chapter_subtitle,chapter subtitle,チャプター字幕
+ftbquests.translation_key.quest_desc,quest description,クエスト説明
+ftbquests.translation_key.quest_subtitle,quest subtitle,クエスト字幕
+ftbquests.translation_key.title,title,タイトル
+ftbquests.ui,User Interface,ユーザーインターフェース
+ftbquests.ui.backspace_history,Backspace Key for View History,ビューの履歴用のバックスペースキー
+ftbquests.ui.backspace_history.tooltip,"When true, pressing Backspace while a quest is being viewed opens the previously-viewed quest.
+When false, Backspace behaves like Escape, simply closing the quest.","真の場合、クエストを表示している際にバックスペースを押すと、以前に表示したクエストが開きます。
+偽の場合、バックスペースはエスケープのように動作し、クエストを単に閉じます。"
+ftbquests.ui.chapter_panel_pinned,Chapter Panel Pinned Open,チャプターパネルをピン留めして開く
+ftbquests.ui.notification.action_bar,Action Bar,アクションバー
+ftbquests.ui.notification.chat,Chat,チャット
+ftbquests.ui.notification.none,None,なし
+ftbquests.ui.notification.toast,Toast,トースト
 ftbquests.ui.old_scroll_wheel,Old-style Scroll Wheel Behavior,旧式スクロールホイール動作
 ftbquests.ui.old_scroll_wheel.tooltip,"When false, scroll wheel scrolls up & down: hold Shift to pan, Ctrl to zoom
-When true, scroll wheel only zooms (1.19 and earlier behavior)","偽の場合、スクロールホイールで上下にスクロール：パンはShiftキー、ズームはCtrlキーを押しながら
-真の場合、スクロールホイールはズームのみ（1.19以前の動作）"
+When true, scroll wheel only zooms (1.19 and earlier behavior)","偽の場合、スクロールホイールで上下にスクロール：パンはシフトキー、ズームはCtrlキーを押しながら
+真の場合、スクロールホイールはズームのみ(1.19以前の動作)"
+ftbquests.ui.show_lock_icon,Show Icon for Locked Quests,ロックされたクエストのアイコンを表示
+ftbquests.ui.show_lock_icon.tooltip,Show a padlock icon on any quests which can't yet be started due to dependency or exclusion restrictions.,依存性または除外制限により、まだ開始できないクエストに南京錠アイコンを表示します。
 ftbquests.unnamed,Unnamed,名前なし
+ftbquests.xlate,Translations,翻訳
+ftbquests.xlate.editing_locale,Locale Override,ロケールオーバーライド
+ftbquests.xlate.editing_locale.tooltip,"The language used for editing FTB Quests text: title text for chapters, quests, tasks and reward tables, subtitles for chapters and quests, and quest description text.
+If empty, use the current Minecraft language setting.","FTB Questsテキスト編集に使用される言語：チャプター、クエスト、タスク、報酬テーブルのタイトルテキスト、チャプターとクエストの字幕、およびクエストの説明テキスト。
+空の場合は、現在のMinecraft言語設定を使用します。"
+ftbquests.xlate.fallback_locale,Fallback Locale,フォールバックロケール
+ftbquests.xlate.fallback_locale.tooltip,"The locale used for translations not found in the current locale
+If empty, defaults to the server-defined questbook fallback locale","現在のロケールにない翻訳に使用されるロケール
+空の場合、サーバー定義のクエストブックフォールバックロケールにデフォルト設定されます"
+ftbquests.xlate.hilite_missing,Highlight missing translations,欠落している翻訳を強調表示
+ftbquests.xlate.hilite_missing.tooltip,"If true, quest text with no translation in the current locale is highlighted when in edit mode and an Editing Locale other than 'en_us'",真の場合、現在のロケールに翻訳がないクエストテキストは、編集モードで「en_us」以外の編集ロケールがある場合に強調表示されます
+item.ftbquests.barrier.invis_when_open,Invisible when open: %s,
+item.ftbquests.barrier.object.quest_barrier,Configured Quest: %s,
+item.ftbquests.barrier.object.stage_barrier,Configured Stage: %s,
+item.ftbquests.barrier.rightclick,"Right-click to configure settings
+Middle-click to pick a copy, including settings",右クリック
+item.ftbquests.barrier.skin,Appears As: %s,
 item.ftbquests.book,Quest Book,FTB Quests
 item.ftbquests.book.disabled,Quest Book GUI is disabled!,無効
 item.ftbquests.book.tooltip,Right-click to open quest window,FTB Questsブック
 item.ftbquests.custom_icon,Custom Icon,カスタムアイコン
 item.ftbquests.custom_icon.tooltip,Right-click on 'Icon' in editor to open custom image selector,カスタムアイコンのツールチップ
 item.ftbquests.lootcrate,Loot Crate,ルートクレート
-item.ftbquests.lootcrate.missing,ERROR: unknown loot crate '%s'!,見つかりません
-item.ftbquests.lootcrate.tooltip_1,Right-click to open,ルートクレート（内容1）
-item.ftbquests.lootcrate.tooltip_2,Sneak-right-click to open all in hand,ルートクレート（内容2）
+item.ftbquests.lootcrate.missing,ERROR: unknown loot crate '%s'!,
+item.ftbquests.lootcrate.tooltip_1,Right-click to open,ルートクレート(内容1)
+item.ftbquests.lootcrate.tooltip_2,Sneak-right-click to open all in hand,ルートクレート(内容2)
 item.ftbquests.missing_item,Missing Item,見つからないアイテム
 item.ftbquests.task_screen_configurator,Task Screen Configurator,タスク画面コンフィギュレーター
 item.ftbquests.task_screen_configurator.tooltip,Sneak + Right-Click a Task Screen block to bind,タスク画面を構成するためのツール
 itemGroup.ftbquests.ftbquests,FTB Quests,FTB クエスト
 jei.ftbquests.lootcrates,Loot Crates,ルートクレート
-jei.ftbquests.lootcrates.chance,Chance: %s,チャンス
+jei.ftbquests.lootcrates.chance,Chance: %s,
 jei.ftbquests.lootcrates.dropped_by,Dropped by:,ドロップ元
-jei.ftbquests.lootcrates.no_chance,No item chance: %s,チャンスなし
+jei.ftbquests.lootcrates.no_chance,No item chance: %s,
 key.categories.ftbquests,FTB Quests,FTB クエスト
 key.ftbquests.quests,Open Quests,クエスト
 sidebar_button.ftbquests.quests,Quests,クエスト
 sidebar_button.ftbquests.quests.no_team,Join a team to complete quests!,チーム未選択
+ftbquests.chapter.always_invisible,Always Invisible,常に不可視
+ftbquests.chapter.default_hide_dependency_lines,Default 'Hide Dependency Lines',デフォルト「依存関係ラインを隠す」
+ftbquests.chapter.default_min_width,Default Min Opened Quest Window Width,デフォルト最小開きクエストウィンドウ幅
+ftbquests.chapter.default_quest_shape,Default Quest Shape,デフォルトクエスト形状
+ftbquests.chapter.hide_quest_details_until_startable,Hide Quest Details Until Startable,開始可能になるまでクエスト詳細を隠す
+ftbquests.chapter.progression_mode,Progression Mode,進行モード
+ftbquests.quest.can_repeat,Repeatable quest,繰り返し可能なクエスト
+ftbquests.quest.dependency_requirement,Dependency Requirement,ディペンデンシー要件
+ftbquests.quest.disable_jei,Disable JEI Recipe,JEIレシピを無効化
+ftbquests.quest.guide_page,Guide Page,ガイドページ
+ftbquests.quest.hide,Hide Quest Until Dependencies are Visible,依存関係が表示されるまでクエストを隠す
+ftbquests.quest.hide_dependency_lines,Hide Dependency Lines,依存関係ラインを隠す
+ftbquests.quest.hide_details_until_startable,Hide Details Until Startable,開始可能になるまで詳細を隠す
+ftbquests.quest.hide_details_until_startable.tooltip,"If true, then quest details (text and tasks) can't be viewed until the quest can be started",trueの場合、クエスト詳細(テキストとタスク)は、クエストが開始できるようになるまで表示できません
+ftbquests.quest.hide_text_until_complete,Hide Text Until Quest is Completed,クエスト完了まで文字を隠す
+ftbquests.quest.ignore_reward_blocking,Ignore reward blocking,報酬ブロックを無視
+ftbquests.quest.ignore_reward_blocking.tooltip,Offer the quest reward(s) even if rewards are blocked for the team by the '/ftbquests block_rewards' command,'/ftbquests block_rewards'コマンドでチームに対して報酬がブロックされている場合でも、クエスト報酬を提供します
+ftbquests.quest.invisible,Invisible,不可視
+ftbquests.quest.invisible.tooltip,Quest is invisible to players until completed,クエストは完了するまでプレイヤーから不可視です
+ftbquests.quest.invisible_until_tasks,Invisible until X tasks are completed,X個のタスクが完了するまで不可視
+ftbquests.quest.invisible_until_tasks.tooltip,"Only applies if Invisible is true.
+If > 0, quest becomes visible if X or more tasks are completed.","不可視が真の場合のみ適用されます。
+0より大きい場合、X個以上のタスクが完了するとクエストが表示されます。"
+ftbquests.quest.min_required_dependencies,Min Required Dependencies,最小必須依存関係数
+ftbquests.quest.min_width,Min Opened Quest Window Width,最小開きクエストウィンドウ幅
+ftbquests.quest.optional,Optional,オプション
+ftbquests.quest.progression_mode,Progression Mode,進行モード
+ftbquests.quest.shape,Shape,形状
+ftbquests.quest.size,Size,サイズ
+ftbquests.quest.x,X,X座標
+ftbquests.quest.y,Y,Y座標
+ftbquests.reward.ftbquests.command.player,Run as Player,プレイヤーとして実行
 ftbquests.task.ftbquests.item.match_nbt,Match NBT,NBTマッチ
+ftbquests.task.ftbquests.item.match_nbt.tooltip,"Default: item must be in 'itemfilters:match_nbt' item tag
+False: never check NBT
+True: always check NBT","デフォルト：アイテムは「itemfilters:match_nbt」アイテムタグにある必要があります
+False：NBTをチェックしません
+True：常にNBTをチェック"
 ftbquests.task.ftbquests.item.weak_nbt_match,Weak NBT Match,弱NBTマッチ
+ftbquests.task.ftbquests.item.weak_nbt_match.tooltip,"False: exact NBT match required
+True: only match on top-level NBT fields
+   which are in the filter item","False：正確なNBTマッチが必要です
+True：フィルターアイテムにあるトップレベルNBTフィールドのみマッチさせます"
 item.ftbquests.barrier.config,Rename in anvil to set the Quest ID,金床で名前を変更してクエストIDを設定
 item.ftbquests.barrier.disabled,Only works in Editing Mode!,編集モードでのみ動作します！
 item.ftbquests.barrier.nogui,GUI is still work in progress,GUIはまだ開発中です
 item.ftbquests.stage_barrier.config,Rename in anvil to set the Stage,金床で名前を変更してステージを設定
-commands.ftbquests.command.feedback.reloaded,Quest data reloaded from file!,クエストデータをファイルから再読み込みしました！
 ftbquest.gui.clear_autofocused,Clear Autofocused Quest,オートフォーカスクエストを解除
 ftbquest.gui.set_autofocused,Set as Autofocused Quest,オートフォーカスクエストに設定
-ftbquests.file,Modpack,Modパック
-ftbquests.gui.key_reference.editor,"Editor Mode
-Ctrl + Left Mouse;Toggle Selection
-Middle Mouse;Move Selected Quest(s)
-Right Mouse;Context Menu
-Middle Mouse: Drag;Select Quests in Drag Box
-Ctrl + Middle Mouse: Drag;Toggle Selection in Box
-Ctrl + A;Select All
-Ctrl + D;Select None
-Ctrl + Up/Down/Left/Right;Move Selected Quests
-Ctrl + R;Toggle Crosshairs
-Ctrl + C;Copy Selected/Hovered Object
-Ctrl + V;Paste Selection
-Ctrl + Shift + V;Paste Quest (no dependencies)
-Ctrl + Alt + V;Paste as Quest Link
-
-Quest View Panel
-T;Edit Quest Title
-S;Edit Quest Subtitle
-D;Edit Quest Description","エディターモード
-Ctrl + 左クリック：選択を切替
-中クリック：選択したクエストを移動
-右クリック：コンテキストメニュー
-中クリック：ドラッグでボックス内のクエストを選択
-Ctrl + 中クリック：ドラッグでボックス内の選択を切替
-Ctrl + A：すべて選択
-Ctrl + D：選択解除
-Ctrl + ↑/↓/←/→：選択したクエストを移動
-Ctrl + R：十字線を切替
-Ctrl + C：選択/ホバー中のオブジェクトをコピー
-Ctrl + V：選択を貼り付け
-Ctrl + Shift + V：クエストを貼り付け（依存関係なし）
-Ctrl + Alt + V：クエストリンクとして貼り付け
-
-クエスト表示パネル
-T：クエストタイトルを編集
-S：クエストサブタイトルを編集
-D：クエスト説明を編集"
-ftbquests.gui.key_reference.player,"General Controls
--;Zoom out
-+;Zoom in
-0;Reset Zoom
-Tab;Next Chapter
-Shift + Tab;Previous Chapter
-1 - 9;Go to Chapter
-Space;Recenter View
-Ctrl + F;Search
-F1;While hovering quest, show extended info
-Left Mouse;View Quest Details
-Mouse Wheel;Scroll Up/Down
-Shift + Mouse Wheel;Scroll Left/Right
-Ctrl + Mouse Wheel;Zoom In/Out","基本操作
--：ズームアウト
-+：ズームイン
-0：ズームをリセット
-Tab：次のチャプター
-Shift + Tab：前のチャプター
-1 - 9：チャプターへ移動
-Space：表示を中央に戻す
-Ctrl + F：検索
-F1：クエストにホバー中に詳細情報を表示
-左クリック：クエスト詳細を表示
-マウスホイール：上下スクロール
-Shift + マウスホイール：左右スクロール
-Ctrl + マウスホイール：ズームイン/アウト"
-ftbquests.icon.tooltip,Custom icon,カスタムアイコン
 ftbquests.quest.visibility.hide,Hide Quest Until Dependencies are Visible,依存クエストが表示されるまで非表示
-ftbquests.quest.visibility.invisible_until_tasks.tooltip,"Only applies if Invisible is true.
-If > 0, quest becomes visible if X or more tasks are completed.","「非表示」がtrueの場合のみ適用されます。
-0より大きい場合、X個以上のタスクが完了するとクエストが表示されます。"
 ftbquests.reward.ftbquests.command.elevate,Run with Elevated Permission,昇格した権限で実行
 ftbquests.reward.ftbquests.command.elevate.tooltip,Run the command as if the player had permission level 2,プレイヤーが権限レベル2を持っているかのようにコマンドを実行
-ftbquests.task.ftbquests.item.match_nbt.tooltip,"Default: item must be in 'itemfilters:check_nbt' item tag
-False: never check NBT
-True: always check NBT","デフォルト：アイテムが'itemfilters:check_nbt'アイテムタグに含まれている必要があります
-False：NBTをチェックしない
-True：常にNBTをチェック"
-ftbquests.task.ftbquests.item.weak_nbt_match.tooltip,"False: exact NBT match required
-True: NBT fields in the checked item but not in the filter item won't cause a match failure","False：完全なNBT一致が必要
-True：チェック対象アイテムにあってフィルターアイテムにないNBTフィールドは一致失敗の原因になりません"
-ftbquests.task.ftbquests.kill.entity,Entity Name,エンティティ名
 ftbquests.ui.pinned_quests_inset_x,Pinned Quests Panel X Inset,ピン留めクエストパネルX内側オフセット
 ftbquests.ui.pinned_quests_inset_x.tooltip,"Inset is toward center of screen.
 Ignored if X pos is center.","内側オフセットは画面中央に向かいます。

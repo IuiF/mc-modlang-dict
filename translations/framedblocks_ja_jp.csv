@@ -9,8 +9,8 @@ block.framedblocks.framed_corner_pillar,Framed Corner Pillar,フレームコー�
 block.framedblocks.framed_corner_slope,Framed Corner Slope,フレームコーナースロープ
 block.framedblocks.framed_cube,Framed Cube,フレームキューブ
 block.framedblocks.framed_detector_rail_slope,Framed Detector Rail Slope,フレーム検知レール斜面
-block.framedblocks.framed_divided_panel_horizontal,Framed Divided Panel (Horizontal),フレーム分割パネル（横）
-block.framedblocks.framed_divided_panel_vertical,Framed Divided Panel (Vertical),フレーム分割パネル（縦）
+block.framedblocks.framed_divided_panel_horizontal,Framed Divided Panel (Horizontal),フレーム分割パネル(横)
+block.framedblocks.framed_divided_panel_vertical,Framed Divided Panel (Vertical),フレーム分割パネル(縦)
 block.framedblocks.framed_divided_slab,Framed Divided Slab,フレーム分割スラブ
 block.framedblocks.framed_divided_slope,Framed Divided Slope,フレーム分割スロープ
 block.framedblocks.framed_divided_stairs,Framed Divided Stairs,フレーム分割階段
@@ -62,6 +62,8 @@ block.framedblocks.framed_flat_stacked_slope_panel_corner,Framed Flat Stacked Sl
 block.framedblocks.framed_flat_stacked_slope_slab_corner,Framed Flat Stacked Slope Slab Corner,フレームフラット積み重ねたスロープスラブコーナー
 block.framedblocks.framed_floor_board,Framed Floor Board,フレームフロアボード
 block.framedblocks.framed_flower_pot,Framed Flower Pot,フレーム植木鉢
+block.framedblocks.framed_gate,Framed Fence Gate,フレームフェンスゲート
+block.framedblocks.framed_gate_door,Framed Gate,フレームゲート
 block.framedblocks.framed_glowing_cube,Framed Glowing Cube,フレーム発光キューブ
 block.framedblocks.framed_glowing_item_frame,Framed Glow Item Frame,フレーム発光アイテムフレーム
 block.framedblocks.framed_gold_pressure_plate,Framed Light Weighted Pressure Plate,フレーム軽圧力板
@@ -77,6 +79,7 @@ block.framedblocks.framed_inner_threeway_corner,Framed Inner Threeway Corner,フ
 block.framedblocks.framed_inv_double_slope_panel,Framed Inverted Double Slope Panel,フレーム逆ダブルスロープパネル
 block.framedblocks.framed_inv_double_slope_slab,Framed Inverted Double Slope Slab,フレーム逆ダブルスロープスラブ
 block.framedblocks.framed_iron_door,Framed Iron Door,フレーム鉄ドア
+block.framedblocks.framed_iron_gate_door,Framed Iron Gate,フレーム鉄ゲート
 block.framedblocks.framed_iron_pressure_plate,Framed Heavy Weighted Pressure Plate,フレーム重圧力板
 block.framedblocks.framed_iron_trapdoor,Framed Iron Trapdoor,フレーム鉄トラップドア
 block.framedblocks.framed_item_frame,Framed Item Frame,フレームアイテムフレーム
@@ -88,7 +91,7 @@ block.framedblocks.framed_lever,Framed Lever,フレームレバー
 block.framedblocks.framed_mini_cube,Framed Mini Cube,フレームミニキューブ
 block.framedblocks.framed_obsidian_pressure_plate,Framed Obsidian Pressure Plate,フレーム黒曜石圧力板
 block.framedblocks.framed_one_way_window,Framed One-Way Window,フレーム一方向窓
-block.framedblocks.framed_pane,Framed Pane,フレームパネル（ガラス）
+block.framedblocks.framed_pane,Framed Pane,フレームパネル(ガラス)
 block.framedblocks.framed_panel,Framed Panel,フレームパネル
 block.framedblocks.framed_pillar,Framed Pillar,フレームピラー
 block.framedblocks.framed_post,Framed Post,フレームポスト
@@ -155,6 +158,8 @@ config.framedblocks.server.intangibleMarkerItem,Intangibility marker item,無形
 config.framedblocks.server.oneWayWindowOwnable,One-Way Window ownability,一方向窓の所有可能性
 desc.framedblocks.blueprint_block,Contained Block: %s,内包ブロック：%s
 desc.framedblocks.blueprint_camo,Camo Block: %s,カモブロック：%s
+desc.framedblocks.blueprint_cant_copy,This block can currently not be copied!,このブロックは現在コピーできません！
+desc.framedblocks.blueprint_cant_place_fluid_camo,Copying blocks with fluid camos is currently not possible!,流体カモを持つブロックをコピーすることは現在不可能です！
 desc.framedblocks.blueprint_false,false,偽
 desc.framedblocks.blueprint_illuminated,Illuminated: %s,発光：%s
 desc.framedblocks.blueprint_intangible,Intangible: %s,無形：%s
@@ -171,14 +176,23 @@ item.framedblocks.framed_reinforcement,Framed Reinforcement,フレーム強化
 item.framedblocks.framed_screwdriver,Framed Screwdriver,フレームドライバー
 item.framedblocks.framed_wrench,Framed Wrench,フレームレンチ
 itemGroup.framed_blocks,FramedBlocks,フレームブロック
+msg.framedblocks.blacklisted,This block is blacklisted!,このブロックはブラックリストに登録されています！
+msg.framedblocks.block_entity,Blocks with BlockEntities cannot be inserted into framed blocks!,ブロックエンティティを持つブロックはフレームブロックに挿入できません！
+msg.framedblocks.frame_crafter.fail.incorrect_additive,Incorrect additive ingredient present,不正な添加剤が含まれています
+msg.framedblocks.frame_crafter.fail.insufficient_additive,Insufficient amount of additive ingredient present,不十分な量の添加剤が含まれています
 msg.framedblocks.frame_crafter.fail.material_lcm,Too few input items to evenly convert to this output,出力に均等に変換するには入力アイテムが少なすぎます
 msg.framedblocks.frame_crafter.fail.material_value,Insufficient input material available,不十分な入力材料が利用可能です
+msg.framedblocks.frame_crafter.fail.missing_additive,Missing additive ingredient,添加剤が見つかりません
+msg.framedblocks.frame_crafter.fail.none,Craftable,クラフト可能
+msg.framedblocks.frame_crafter.fail.unexpected_additive,Unexpected additive ingredient present,予期しない添加剤が含まれています
 msg.framedblocks.framing_saw.transfer.invalid_recipe,Invalid recipe,無効なレシピ
+msg.framedblocks.framing_saw.transfer.not_implemented,No items will be transferred,アイテムは転送されません
 msg.framedblocks.lock_state,The state of this block is now %s,このブロックの状態は現在%sです
 msg.framedblocks.lock_state.locked,locked,ロック
 msg.framedblocks.lock_state.unlocked,unlocked,アンロック
 msg.framedblocks.prism_offset.switch,Hit with a Framed Hammer to toggle the offset,フレームハンマーで殴ってオフセットを切り替える
 msg.framedblocks.split_line.switch,Hit with a Framed Hammer to switch the orientation of the split-line,フレームハンマーで殴って分割線の向きを切り替える
+title.framedblocks.frame_crafter,Framing Saw,フレーミングソー
 title.framedblocks.framed_chest,Framed Chest,フレームチェスト
 title.framedblocks.framed_secret_storage,Framed Secret Storage,フレーム隠し箱
 tooltip.framedblocks.frame_bg.set_camo,Hit with a Framed Hammer to use the camo as background,フレームハンマーで殴ってカモを背景として使用
@@ -232,115 +246,111 @@ tooltip.framedblocks.y_slope,Block uses %s faces for vertical sloped faces.,ブ�
 tooltip.framedblocks.y_slope.horizontal,horizontal,水平
 tooltip.framedblocks.y_slope.toggle,Hit with a Framed Wrench to switch to %s faces,フレームレンチで殴って%s面に切り替える
 tooltip.framedblocks.y_slope.vertical,vertical,垂直
-block.framedblocks.framed_adj_double_copycat_panel,Framed Adjustable Double Copycat Panel,
-block.framedblocks.framed_adj_double_copycat_slab,Framed Adjustable Double Copycat Slab,
-block.framedblocks.framed_adj_double_panel,Framed Adjustable Double Panel,
-block.framedblocks.framed_adj_double_slab,Framed Adjustable Double Slab,
-block.framedblocks.framed_bookshelf,Framed Bookshelf,
-block.framedblocks.framed_centered_panel,Framed Centered Panel,
-block.framedblocks.framed_centered_slab,Framed Centered Slab,
-block.framedblocks.framed_checkered_cube,Framed Checkered Cube,
-block.framedblocks.framed_checkered_cube_segment,Framed Checkered Cube Segment,
-block.framedblocks.framed_checkered_panel,Framed Checkered Panel,
-block.framedblocks.framed_checkered_panel_segment,Framed Checkered Panel Segment,
-block.framedblocks.framed_checkered_slab,Framed Checkered Slab,
-block.framedblocks.framed_checkered_slab_segment,Framed Checkered Slab Segment,
-block.framedblocks.framed_chiseled_bookshelf,Framed Chiseled Bookshelf,
-block.framedblocks.framed_collapsible_copycat_block,Framed Collapsible Copycat Block,
-block.framedblocks.framed_compound_slope_panel,Framed Compound Slope Panel,
-block.framedblocks.framed_compound_slope_slab,Framed Compound Slope Slab,
-block.framedblocks.framed_corner_strip,Framed Corner Strip,
-block.framedblocks.framed_double_half_stairs,Framed Double Half Stairs,
-block.framedblocks.framed_double_threeway_corner_pillar,Framed Double Threeway Corner Pillar,
-block.framedblocks.framed_elevated_double_slope_edge,Framed Elevated Double Slope Edge,
-block.framedblocks.framed_elevated_slope_edge,Framed Elevated Slope Edge,
-block.framedblocks.framed_ext_corner_slope_panel,Framed Extended Corner Slope Panel,
-block.framedblocks.framed_ext_corner_slope_panel_w,Framed Extended Corner Slope Panel,
-block.framedblocks.framed_ext_double_corner_slope_panel,Framed Extended Double Corner Slope Panel,
-block.framedblocks.framed_ext_double_corner_slope_panel_w,Framed Extended Double Corner Slope Panel,
-block.framedblocks.framed_ext_inner_corner_slope_panel,Framed Extended Inner Corner Slope Panel,
-block.framedblocks.framed_ext_inner_corner_slope_panel_w,Framed Extended Inner Corner Slope Panel,
-block.framedblocks.framed_ext_inner_double_corner_slope_panel,Framed Extended Inner Double Slope Panel Corner,
-block.framedblocks.framed_ext_inner_double_corner_slope_panel_w,Framed Extended Inner Double Slope Panel Corner,
-block.framedblocks.framed_fence_gate,Framed Fence Gate,
-block.framedblocks.framed_gate,Framed Gate,
-block.framedblocks.framed_hanging_sign,Framed Hanging Sign,
-block.framedblocks.framed_inv_double_corner_slope_panel,Framed Inverse Double Corner Slope Panel,
-block.framedblocks.framed_inv_double_corner_slope_panel_w,Framed Inverse Double Corner Slope Panel,
-block.framedblocks.framed_iron_gate,Framed Iron Gate,
-block.framedblocks.framed_large_corner_slope_panel,Framed Large Corner Slope Panel,
-block.framedblocks.framed_large_corner_slope_panel_w,Framed Large Corner Slope Panel,
-block.framedblocks.framed_large_double_corner_slope_panel,Framed Large Double Corner Slope Panel,
-block.framedblocks.framed_large_double_corner_slope_panel_w,Framed Large Double Corner Slope Panel,
-block.framedblocks.framed_large_inner_corner_slope_panel,Framed Large Inner Corner Slope Panel,
-block.framedblocks.framed_large_inner_corner_slope_panel_w,Framed Large Inner Corner Slope Panel,
-block.framedblocks.framed_masonry_corner,Framed Masonry Corner,
-block.framedblocks.framed_masonry_corner_segment,Framed Masonry Corner Segment,
-block.framedblocks.framed_sliced_stairs_panel,Framed Sliced Stairs (Panel),
-block.framedblocks.framed_sliced_stairs_slab,Framed Sliced Stairs (Slab),
-block.framedblocks.framed_slope_edge,Framed Slope Edge,
-block.framedblocks.framed_small_corner_slope_panel,Framed Small Corner Slope Panel,
-block.framedblocks.framed_small_corner_slope_panel_w,Framed Small Corner Slope Panel,
-block.framedblocks.framed_small_double_corner_slope_panel,Framed Small Double Corner Slope Panel,
-block.framedblocks.framed_small_double_corner_slope_panel_w,Framed Small Double Corner Slope Panel,
-block.framedblocks.framed_small_inner_corner_slope_panel,Framed Small Inner Corner Slope Panel,
-block.framedblocks.framed_small_inner_corner_slope_panel_w,Framed Small Inner Corner Slope Panel,
-block.framedblocks.framed_stacked_corner_slope_panel,Framed Stacked Corner Slope Panel,
-block.framedblocks.framed_stacked_corner_slope_panel_w,Framed Stacked Corner Slope Panel,
-block.framedblocks.framed_stacked_inner_corner_slope_panel,Framed Stacked Inner Corner Slope Panel,
-block.framedblocks.framed_stacked_inner_corner_slope_panel_w,Framed Stacked Inner Corner Slope Panel,
-block.framedblocks.framed_stacked_slope_edge,Framed Stacked Slope Edge,
-block.framedblocks.framed_thick_lattice,Framed Thick Lattice,
-block.framedblocks.framed_threeway_corner_pillar,Framed Threeway Corner Pillar,
-block.framedblocks.framed_tube,Framed Tube,
-block.framedblocks.framed_vertical_double_half_stairs,Framed Vertical Double Half Stairs,
-block.framedblocks.framed_vertical_sliced_stairs,Framed Vertical Sliced Stairs,
-block.framedblocks.framed_wall_hanging_sign,Framed Hanging Sign,
-block.framedblocks.powered_framing_saw,Powered Framing Saw,
-config.framedblocks.client.altGhostRenderer,Use alternative placement preview renderer,
-config.framedblocks.client.camoMessageVerbosity,Disallowed camo message verbosity,
-config.framedblocks.client.camoRotationMode,Camo Rotation overlay: Display mode,
-config.framedblocks.client.conTexMode,Connected textures mode,
-config.framedblocks.client.forceAoOnGlowingBlocks,Force ambient occlusion on glowing framed blocks,
-config.framedblocks.client.itemFrameBackgroundMode,Item Frame Background overlay: Display mode,
-config.framedblocks.client.showAllRecipePermutationsInEmi,Show all Framing Saw recipe permutations in EMI,
-config.framedblocks.client.showButtonPlateTypeOverlay,Show button and pressure plate type overlay,
-config.framedblocks.client.showSpecialCubeTypeOverlay,Show special cube type overlay,
-config.framedblocks.client.solidFrameMode,Solid frame mode,
-config.framedblocks.server.consumeCamoItem,Consume camo item,
-config.framedblocks.server.glowstoneLightLevel,Glowstone Light Level,
-config.jade.plugin_framedblocks.framed_item_frame,Framed Item Frame,
-desc.framedblocks.blueprint_cant_copy,[Framed Blueprint] This block can currently not be copied!,
-desc.framedblocks.blueprint_cant_place_fluid_camo,[Framed Blueprint] Copying blocks with fluid camos is currently not possible!,
-desc.framedblocks.blueprint_missing_materials,[Framed Blueprint] Missing required materials:,
-msg.framedblocks.camo.blacklisted,This block is disallowed as a camo!,
-msg.framedblocks.camo.block_entity,Blocks with BlockEntities cannot be inserted into framed blocks!,
-msg.framedblocks.camo.non_solid,Untagged non-solid blocks cannot be inserted into framed blocks!,
-msg.framedblocks.frame_crafter.fail.incorrect_additive_0,Incorrect additive ingredient present in the first slot,
-msg.framedblocks.frame_crafter.fail.incorrect_additive_1,Incorrect additive ingredient present in the second slot,
-msg.framedblocks.frame_crafter.fail.incorrect_additive_2,Incorrect additive ingredient present in the third slot,
-msg.framedblocks.frame_crafter.fail.insufficient_additive_0,Insufficient amount of additive ingredient present in the first slot,
-msg.framedblocks.frame_crafter.fail.insufficient_additive_1,Insufficient amount of additive ingredient present in the second slot,
-msg.framedblocks.frame_crafter.fail.insufficient_additive_2,Insufficient amount of additive ingredient present in the third slot,
-msg.framedblocks.frame_crafter.fail.missing_additive_0,Missing additive ingredient in the first slot,
-msg.framedblocks.frame_crafter.fail.missing_additive_1,Missing additive ingredient in the second slot,
-msg.framedblocks.frame_crafter.fail.missing_additive_2,Missing additive ingredient in the third slot,
-msg.framedblocks.frame_crafter.fail.output_size,Result count exceeds maximum result stack size,
-msg.framedblocks.frame_crafter.fail.success,Craftable,
-msg.framedblocks.frame_crafter.fail.unexpected_additive_0,Unexpected additive ingredient present in the first slot,
-msg.framedblocks.frame_crafter.fail.unexpected_additive_1,Unexpected additive ingredient present in the second slot,
-msg.framedblocks.frame_crafter.fail.unexpected_additive_2,Unexpected additive ingredient present in the third slot,
-msg.framedblocks.framing_saw.transfer.not_implemented,"Transfer not implemented, no items will be transferred",
-msg.framedblocks.powered_saw.status,Status: ,
-msg.framedblocks.powered_saw.status.no_match,Recipe doesn't match,
-msg.framedblocks.powered_saw.status.no_recipe,No recipe,
-msg.framedblocks.powered_saw.status.ready,Ready,
-title.framedblocks.framing_saw,Framing Saw,
-title.framedblocks.powered_framing_saw,Powered Framing Saw,
-title.framedblocks.powered_saw.target_block,Target:,
-title.framedblocks.sign.edit,Edit sign,
-tooltip.framedblocks.camo_rotation.false,The targetted camo cannot be rotated,
-tooltip.framedblocks.camo_rotation.true,The targetted camo can be rotated,
-tooltip.framedblocks.framing_saw.output_count,"Result size: %s, max size: %s",
-tooltip.framedblocks.powered_saw.energy,%s / %s FE,
-tooltip.framedblocks.powered_saw.status.no_recipe,"No recipe selected, click the target slot with any framed block to select a recipe",
+block.framedblocks.framed_adj_double_copycat_panel,Framed Adjustable Double Copycat Panel,フレーム調整可能なダブルコピーキャットパネル
+block.framedblocks.framed_adj_double_copycat_slab,Framed Adjustable Double Copycat Slab,フレーム調整可能なダブルコピーキャットハーフブロック
+block.framedblocks.framed_adj_double_panel,Framed Adjustable Double Panel,フレーム調整可能なダブルパネル
+block.framedblocks.framed_adj_double_slab,Framed Adjustable Double Slab,フレーム調整可能なダブルハーフブロック
+block.framedblocks.framed_bookshelf,Framed Bookshelf,フレーム本棚
+block.framedblocks.framed_centered_panel,Framed Centered Panel,フレーム中央パネル
+block.framedblocks.framed_centered_slab,Framed Centered Slab,フレーム中央ハーフブロック
+block.framedblocks.framed_checkered_cube,Framed Checkered Cube,フレームチェッカーキューブ
+block.framedblocks.framed_checkered_cube_segment,Framed Checkered Cube Segment,フレームチェッカーキューブセグメント
+block.framedblocks.framed_checkered_panel,Framed Checkered Panel,フレームチェッカーパネル
+block.framedblocks.framed_checkered_panel_segment,Framed Checkered Panel Segment,フレームチェッカーパネルセグメント
+block.framedblocks.framed_checkered_slab,Framed Checkered Slab,フレームチェッカーハーフブロック
+block.framedblocks.framed_checkered_slab_segment,Framed Checkered Slab Segment,フレームチェッカーハーフブロックセグメント
+block.framedblocks.framed_chiseled_bookshelf,Framed Chiseled Bookshelf,フレーム刻み目本棚
+block.framedblocks.framed_collapsible_copycat_block,Framed Collapsible Copycat Block,フレーム収納可能なコピーキャットブロック
+block.framedblocks.framed_compound_slope_panel,Framed Compound Slope Panel,フレーム複合スロープパネル
+block.framedblocks.framed_compound_slope_slab,Framed Compound Slope Slab,フレーム複合スロープハーフブロック
+block.framedblocks.framed_corner_strip,Framed Corner Strip,フレームコーナーストリップ
+block.framedblocks.framed_double_half_stairs,Framed Double Half Stairs,フレームダブルハーフ階段
+block.framedblocks.framed_double_threeway_corner_pillar,Framed Double Threeway Corner Pillar,フレームダブル三方向コーナーピラー
+block.framedblocks.framed_elevated_double_slope_edge,Framed Elevated Double Slope Edge,フレーム高いダブルスロープエッジ
+block.framedblocks.framed_elevated_slope_edge,Framed Elevated Slope Edge,フレーム高いスロープエッジ
+block.framedblocks.framed_ext_corner_slope_panel,Framed Extended Corner Slope Panel,フレーム拡張コーナースロープパネル
+block.framedblocks.framed_ext_corner_slope_panel_w,Framed Extended Corner Slope Panel,フレーム拡張コーナースロープパネル
+block.framedblocks.framed_ext_double_corner_slope_panel,Framed Extended Double Corner Slope Panel,フレーム拡張ダブルコーナースロープパネル
+block.framedblocks.framed_ext_double_corner_slope_panel_w,Framed Extended Double Corner Slope Panel,フレーム拡張ダブルコーナースロープパネル
+block.framedblocks.framed_ext_inner_corner_slope_panel,Framed Extended Inner Corner Slope Panel,フレーム拡張内側コーナースロープパネル
+block.framedblocks.framed_ext_inner_corner_slope_panel_w,Framed Extended Inner Corner Slope Panel,フレーム拡張内側コーナースロープパネル
+block.framedblocks.framed_ext_inner_double_corner_slope_panel,Framed Extended Inner Double Slope Panel Corner,フレーム拡張内側ダブルスロープパネルコーナー
+block.framedblocks.framed_ext_inner_double_corner_slope_panel_w,Framed Extended Inner Double Slope Panel Corner,フレーム拡張内側ダブルスロープパネルコーナー
+block.framedblocks.framed_fence_gate,Framed Fence Gate,フレームフェンスゲート
+block.framedblocks.framed_hanging_sign,Framed Hanging Sign,フレームハンギング看板
+block.framedblocks.framed_inv_double_corner_slope_panel,Framed Inverse Double Corner Slope Panel,フレーム逆ダブルコーナースロープパネル
+block.framedblocks.framed_inv_double_corner_slope_panel_w,Framed Inverse Double Corner Slope Panel,フレーム逆ダブルコーナースロープパネル
+block.framedblocks.framed_iron_gate,Framed Iron Gate,フレーム鉄ゲート
+block.framedblocks.framed_large_corner_slope_panel,Framed Large Corner Slope Panel,フレーム大型コーナースロープパネル
+block.framedblocks.framed_large_corner_slope_panel_w,Framed Large Corner Slope Panel,フレーム大型コーナースロープパネル
+block.framedblocks.framed_large_double_corner_slope_panel,Framed Large Double Corner Slope Panel,フレーム大型ダブルコーナースロープパネル
+block.framedblocks.framed_large_double_corner_slope_panel_w,Framed Large Double Corner Slope Panel,フレーム大型ダブルコーナースロープパネル
+block.framedblocks.framed_large_inner_corner_slope_panel,Framed Large Inner Corner Slope Panel,フレーム大型内側コーナースロープパネル
+block.framedblocks.framed_large_inner_corner_slope_panel_w,Framed Large Inner Corner Slope Panel,フレーム大型内側コーナースロープパネル
+block.framedblocks.framed_masonry_corner,Framed Masonry Corner,フレームレンガ造コーナー
+block.framedblocks.framed_masonry_corner_segment,Framed Masonry Corner Segment,フレームレンガ造コーナーセグメント
+block.framedblocks.framed_sliced_stairs_panel,Framed Sliced Stairs (Panel),フレームスライス階段 (パネル)
+block.framedblocks.framed_sliced_stairs_slab,Framed Sliced Stairs (Slab),フレームスライス階段 (ハーフブロック)
+block.framedblocks.framed_slope_edge,Framed Slope Edge,フレームスロープエッジ
+block.framedblocks.framed_small_corner_slope_panel,Framed Small Corner Slope Panel,フレーム小型コーナースロープパネル
+block.framedblocks.framed_small_corner_slope_panel_w,Framed Small Corner Slope Panel,フレーム小型コーナースロープパネル
+block.framedblocks.framed_small_double_corner_slope_panel,Framed Small Double Corner Slope Panel,フレーム小型ダブルコーナースロープパネル
+block.framedblocks.framed_small_double_corner_slope_panel_w,Framed Small Double Corner Slope Panel,フレーム小型ダブルコーナースロープパネル
+block.framedblocks.framed_small_inner_corner_slope_panel,Framed Small Inner Corner Slope Panel,フレーム小型内側コーナースロープパネル
+block.framedblocks.framed_small_inner_corner_slope_panel_w,Framed Small Inner Corner Slope Panel,フレーム小型内側コーナースロープパネル
+block.framedblocks.framed_stacked_corner_slope_panel,Framed Stacked Corner Slope Panel,フレーム積み重ねコーナースロープパネル
+block.framedblocks.framed_stacked_corner_slope_panel_w,Framed Stacked Corner Slope Panel,フレーム積み重ねコーナースロープパネル
+block.framedblocks.framed_stacked_inner_corner_slope_panel,Framed Stacked Inner Corner Slope Panel,フレーム積み重ね内側コーナースロープパネル
+block.framedblocks.framed_stacked_inner_corner_slope_panel_w,Framed Stacked Inner Corner Slope Panel,フレーム積み重ね内側コーナースロープパネル
+block.framedblocks.framed_stacked_slope_edge,Framed Stacked Slope Edge,フレーム積み重ねスロープエッジ
+block.framedblocks.framed_thick_lattice,Framed Thick Lattice,フレーム厚いラティス
+block.framedblocks.framed_threeway_corner_pillar,Framed Threeway Corner Pillar,フレーム三方向コーナーピラー
+block.framedblocks.framed_tube,Framed Tube,フレームチューブ
+block.framedblocks.framed_vertical_double_half_stairs,Framed Vertical Double Half Stairs,フレーム縦ダブルハーフ階段
+block.framedblocks.framed_vertical_sliced_stairs,Framed Vertical Sliced Stairs,フレーム縦スライス階段
+block.framedblocks.framed_wall_hanging_sign,Framed Hanging Sign,フレームハンギング看板
+block.framedblocks.powered_framing_saw,Powered Framing Saw,パワーフレーミングソー
+config.framedblocks.client.altGhostRenderer,Use alternative placement preview renderer,代替配置プレビューレンダラーを使用
+config.framedblocks.client.camoMessageVerbosity,Disallowed camo message verbosity,カモフラージュメッセージの詳細度設定
+config.framedblocks.client.camoRotationMode,Camo Rotation overlay: Display mode,カモフラージュ回転オーバーレイ: 表示モード
+config.framedblocks.client.conTexMode,Connected textures mode,接続テクスチャモード
+config.framedblocks.client.forceAoOnGlowingBlocks,Force ambient occlusion on glowing framed blocks,グロースト フレームブロックにアンビエントオクルージョンを強制
+config.framedblocks.client.itemFrameBackgroundMode,Item Frame Background overlay: Display mode,アイテムフレーム背景オーバーレイ: 表示モード
+config.framedblocks.client.showAllRecipePermutationsInEmi,Show all Framing Saw recipe permutations in EMI,EMIにフレーミングソーレシピの全バリエーションを表示
+config.framedblocks.client.showButtonPlateTypeOverlay,Show button and pressure plate type overlay,ボタンとプレッシャープレートタイプオーバーレイを表示
+config.framedblocks.client.showSpecialCubeTypeOverlay,Show special cube type overlay,特殊キューブタイプオーバーレイを表示
+config.framedblocks.client.solidFrameMode,Solid frame mode,ソリッドフレームモード
+config.framedblocks.server.consumeCamoItem,Consume camo item,カモフラージュアイテムを消費
+config.framedblocks.server.glowstoneLightLevel,Glowstone Light Level,グロウストーンライトレベル
+config.jade.plugin_framedblocks.framed_item_frame,Framed Item Frame,フレームアイテムフレーム
+desc.framedblocks.blueprint_missing_materials,[Framed Blueprint] Missing required materials:,[フレームブループリント] 必須マテリアルが不足しています:
+msg.framedblocks.camo.blacklisted,This block is disallowed as a camo!,このブロックはカモフラージュとして使用不可です！
+msg.framedblocks.camo.block_entity,Blocks with BlockEntities cannot be inserted into framed blocks!,ブロックエンティティを持つブロックはフレームブロックに挿入できません！
+msg.framedblocks.camo.non_solid,Untagged non-solid blocks cannot be inserted into framed blocks!,タグ付けされていないソリッドではないブロックはフレームブロックに挿入できません！
+msg.framedblocks.frame_crafter.fail.incorrect_additive_0,Incorrect additive ingredient present in the first slot,最初のスロットに不正な追加材料があります
+msg.framedblocks.frame_crafter.fail.incorrect_additive_1,Incorrect additive ingredient present in the second slot,2番目のスロットに不正な追加材料があります
+msg.framedblocks.frame_crafter.fail.incorrect_additive_2,Incorrect additive ingredient present in the third slot,3番目のスロットに不正な追加材料があります
+msg.framedblocks.frame_crafter.fail.insufficient_additive_0,Insufficient amount of additive ingredient present in the first slot,最初のスロットに追加材料の量が不足しています
+msg.framedblocks.frame_crafter.fail.insufficient_additive_1,Insufficient amount of additive ingredient present in the second slot,2番目のスロットに追加材料の量が不足しています
+msg.framedblocks.frame_crafter.fail.insufficient_additive_2,Insufficient amount of additive ingredient present in the third slot,3番目のスロットに追加材料の量が不足しています
+msg.framedblocks.frame_crafter.fail.missing_additive_0,Missing additive ingredient in the first slot,最初のスロットに追加材料が不足しています
+msg.framedblocks.frame_crafter.fail.missing_additive_1,Missing additive ingredient in the second slot,2番目のスロットに追加材料が不足しています
+msg.framedblocks.frame_crafter.fail.missing_additive_2,Missing additive ingredient in the third slot,3番目のスロットに追加材料が不足しています
+msg.framedblocks.frame_crafter.fail.output_size,Result count exceeds maximum result stack size,結果のカウントが最大スタックサイズを超えています
+msg.framedblocks.frame_crafter.fail.success,Craftable,クラフト可能
+msg.framedblocks.frame_crafter.fail.unexpected_additive_0,Unexpected additive ingredient present in the first slot,最初のスロットに予期しない追加材料があります
+msg.framedblocks.frame_crafter.fail.unexpected_additive_1,Unexpected additive ingredient present in the second slot,2番目のスロットに予期しない追加材料があります
+msg.framedblocks.frame_crafter.fail.unexpected_additive_2,Unexpected additive ingredient present in the third slot,3番目のスロットに予期しない追加材料があります
+msg.framedblocks.powered_saw.status,Status: ,ステータス:
+msg.framedblocks.powered_saw.status.no_match,Recipe doesn't match,レシピが一致しません
+msg.framedblocks.powered_saw.status.no_recipe,No recipe,レシピなし
+msg.framedblocks.powered_saw.status.ready,Ready,準備完了
+title.framedblocks.framing_saw,Framing Saw,フレーミングソー
+title.framedblocks.powered_framing_saw,Powered Framing Saw,パワーフレーミングソー
+title.framedblocks.powered_saw.target_block,Target:,ターゲット:
+title.framedblocks.sign.edit,Edit sign,看板を編集
+tooltip.framedblocks.camo_rotation.false,The targetted camo cannot be rotated,対象のカモフラージュは回転できません
+tooltip.framedblocks.camo_rotation.true,The targetted camo can be rotated,対象のカモフラージュは回転可能です
+tooltip.framedblocks.framing_saw.output_count,"Result size: %s, max size: %s",結果サイズ: %s、最大サイズ: %s
+tooltip.framedblocks.powered_saw.energy,%s / %s FE,エネルギー: %s / %s FE
+tooltip.framedblocks.powered_saw.status.no_recipe,"No recipe selected, click the target slot with any framed block to select a recipe",レシピが選択されていません。ターゲットスロットをクリックしてフレームブロックでレシピを選択してください

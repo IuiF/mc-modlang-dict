@@ -1,5 +1,5 @@
 ﻿key,source_text,target_text
-_comment,"## Positional parameters (%1$s, %2$s, %3$s, etc.) may be reordered to suit your language's sentence structure",## JourneyMap 5.2.0 Resource Bundle - ja_JP
+_comment,"## Positional parameters (%1$s, %2$s, %3$s, etc.) may be reordered to suit your language's sentence structure",
 jm.advanced.announcemod,Announce Mod,JourneyMapが準備完了したらチャットに流す
 jm.advanced.announcemod.tooltip,Announces in the chat window that JourneyMap is ready.,JourneyMapの動作が開始されたらチャットに流します。
 jm.advanced.automappoll,AutoMap Poll Frequency,マップ自動生成機能の速度を制限する幅
@@ -21,7 +21,7 @@ jm.advanced.chunk_caching.tooltip,"Enables or disables chunk caching, when disab
 jm.advanced.gl_error_check,GL Error Checking,GLエラーチェック
 jm.advanced.gl_error_check.tooltip,"Enables GL Error checking, enabling can decrease performance, restart required after changing this value.",GLエラーチェックを有効にします。有効にするとパフォーマンス低下の可能性があり、値を変更した後の再起動が必要です。
 jm.advanced.loglevel,Logging Level,ログとして記録する情報
-jm.advanced.loglevel.tooltip,Caution! Some logging levels will hurt performance. Keep the default unless otherwise instructed.,注意! ログの情報量を多くすればパフォーマンスに影響が出ます。 特に理由のない場合はデフォルトのままにしてください。
+jm.advanced.loglevel.tooltip,Caution! Some logging levels will hurt performance. Keep the default unless otherwise instructed.,注意! ログの情報量を多くすればパフォーマンスに影響が出ます。特に理由のない場合はデフォルトのままにしてください。
 jm.advanced.port,Web Server Port,ウェブサーバーのポート
 jm.advanced.port.tooltip,"The default port used to display the web map in your browser, enter a value between 80 and 10000. If the port is already in use, JourneyMap will try to find an open one by increments of 10.",ブラウザ上でマップを表示する際に使うポートを指定します。ポートが既に使用されている場合、JourneyMapが開いているポートを10ずつずらして探します。
 jm.advanced.recordcachestats,Record Cache Statistics,統計を記録
@@ -104,7 +104,7 @@ jm.common.file_updates_complete,File updates complete. Mapping resumed.,ファ�
 jm.common.font_scale,Font Scale,文字の大きさ
 jm.common.font_scale.tooltip,The font scale for labels and text,ボタンとテキストの文字の大きさを設定します
 jm.common.fullscreen_drag_scale,Drag Scale,ドラッグスケール
-jm.common.fullscreen_drag_scale.tooltip,"Custom drag scale, higher number slows it down. This is useful when your OS does display scaling, primarily OSX retina displays.",カスタムドラッグスケール。数値が高いほど遅くなります。OSがディスプレイスケーリングを行う場合（主にOSXレティナディスプレイ）に便利です。
+jm.common.fullscreen_drag_scale.tooltip,"Custom drag scale, higher number slows it down. This is useful when your OS does display scaling, primarily OSX retina displays.",カスタムドラッグスケール。数値が高いほど遅くなります。OSがディスプレイスケーリングする場合(主にOS Xレティナディスプレイ)に便利です。
 jm.common.grid_edit,Edit Grid...,グリッドを編集...
 jm.common.grid_edit.tooltip,Change the appearance of the chunk grid on all maps,全マップのグリッドの表示を設定します
 jm.common.grid_editor,Grid Editor,グリッドエディター
@@ -125,9 +125,9 @@ jm.common.location_format,Location,座標の表示形式
 jm.common.location_format.tooltip,Format of how location coordinates are displayed. Note: 'v' stands for vertical chunk.,座標をどのような形式で表示するかを指定します。「V」は高さのスライスの数値です。
 jm.common.location_format_verbose,Verbose Location,座標の記述を細かくする
 jm.common.location_format_verbose.tooltip,"Location shows coordinate names (x,y,z) with the numbers",ミニマップ下などの座標を、「x/y/z」の記号付きで表示します
-jm.common.location_xyvz_label,"x, y (v), z",x、y（v）、z
-jm.common.location_xyvz_plain,"%1$s, %3$s (%4$s), %2$s",%1$s、%3$s（%4$s）、%2$s
-jm.common.location_xyvz_verbose,"x: %1$s, y: %3$s (%4$s), z: %2$s",x：%1$s、y：%3$s（%4$s）、z：%2$s
+jm.common.location_xyvz_label,"x, y (v), z",x、y(v)、z
+jm.common.location_xyvz_plain,"%1$s, %3$s (%4$s), %2$s",%1$s、%3$s(%4$s)、%2$s
+jm.common.location_xyvz_verbose,"x: %1$s, y: %3$s (%4$s), z: %2$s",x：%1$s、y：%3$s(%4$s)、z：%2$s
 jm.common.location_xyz_label,"x, y, z",x、y、z
 jm.common.location_xyz_plain,"%1$s, %3$s, %2$s",%1$s、%3$s、%2$s
 jm.common.location_xyz_verbose,"x: %1$s, y: %3$s, z: %2$s",x：%1$s、y：%3$s、z：%2$s
@@ -137,9 +137,9 @@ jm.common.location_xz_verbose,"x: %1$s, z: %2$s",x：%1$s、z：%2$s
 jm.common.location_xzy_label,"x, z, y",x、z、y
 jm.common.location_xzy_plain,"%1$s, %2$s, %3$s",%1$s、%2$s、%3$s
 jm.common.location_xzy_verbose,"x: %1$s, z: %2$s, y: %3$s",x：%1$s、z：%2$s、y：%3$s
-jm.common.location_xzyv_label,"x, z, y (v)",x、z、y（v）
-jm.common.location_xzyv_plain,"%1$s, %2$s, %3$s (%4$s)",%1$s、%2$s、%3$s（%4$s）
-jm.common.location_xzyv_verbose,"x: %1$s, z: %2$s, y: %3$s (%4$s)",x：%1$s、z：%2$s、y：%3$s（%4$s）
+jm.common.location_xzyv_label,"x, z, y (v)",x、z、y(v)
+jm.common.location_xzyv_plain,"%1$s, %2$s, %3$s (%4$s)",%1$s、%2$s、%3$s(%4$s)
+jm.common.location_xzyv_verbose,"x: %1$s, z: %2$s, y: %3$s (%4$s)",x：%1$s、z：%2$s、y：%3$s(%4$s)
 jm.common.log_warning,Log level %1$s will slow down the game. Do not use for normal gameplay!,ログレベル「%1$s」はゲームの動作を著しく重くします。通常のプレイでは使わないで下さい!
 jm.common.map_saved,Map saved: %1$s,マップを画像として保存しました: %1$s
 jm.common.map_style_antialiasing,Use Antialiasing,アンチエイリアスを有効にする
@@ -247,7 +247,7 @@ jm.common.show_entity_names,Show Entity Names,エンティティ名を表示
 jm.common.show_entity_names.tooltip,"Show names of pets, NPCs, etc. on the map",ペットやNPCなどの名前をマップに表示
 jm.common.show_grid,Show Grid,グリッドを表示
 jm.common.show_grid.tooltip,Show a grid of chunk boundaries on the map,チャンクの境界線のグリッドを表示します。
-jm.common.show_grid_shift.tooltip,Hold Shift to edit,Shiftキーを押しながらクリックしてグリッドの設定へ
+jm.common.show_grid_shift.tooltip,Hold Shift to edit,シフトキーを押しながらクリックしてグリッドの設定へ
 jm.common.show_keys,Show Keys,キー表示
 jm.common.show_keys.tooltip,Show key bindings and descriptions,キーバインディングと説明を表示
 jm.common.show_mobs,Show Mobs,Mobを表示
@@ -273,7 +273,7 @@ jm.common.splash_artist,Artist,アーティスト
 jm.common.splash_developer,Developer,開発者
 jm.common.splash_friend,Friend,友人
 jm.common.splash_icons,Icons,アイコン
-jm.common.splash_patreon,Patron,Patreon
+jm.common.splash_patreon,Patron,パトレオン
 jm.common.splash_tester,Tester,テスター
 jm.common.splash_title,About JourneyMap %1$s,JourneyMap %1$s について
 jm.common.splash_walloffame,Wall of Fame,栄光の殿堂
@@ -281,11 +281,11 @@ jm.common.splash_whatisnew,What's New?,新機能
 jm.common.system_time_format,System Time Format,システム時間形式
 jm.common.system_time_format.tooltip,"""Time format for the InfoSlot:System Time""",「InfoSlot:システム時刻」の時刻フォーマット
 jm.common.tile_display_quality,High Display Quality,細かい描画
-jm.common.tile_display_quality.tooltip,"Recommended for use with ""My Heading"" Minimap rotation. Uncheck to improve zoom performance and memory usage. Only affects how a map tile displays, not how it is saved.",ミニマップの回転を「プレイヤーが向いている方向」にすることをおすすめします。チェックを外すとズームの速度やメモリの使用量が改善されます。 既にセーブされているマップに影響はありません。
+jm.common.tile_display_quality.tooltip,"Recommended for use with ""My Heading"" Minimap rotation. Uncheck to improve zoom performance and memory usage. Only affects how a map tile displays, not how it is saved.",ミニマップの回転を「プレイヤーが向いている方向」にすることをおすすめします。チェックを外すとズームの速度やメモリの使用量が改善されます。既にセーブされているマップに影響はありません。
 jm.common.time_format,Real Game Time Format,実際のゲーム時刻フォーマット
 jm.common.time_format.tooltip,"""Time format for the InfoSlot:Real Game Time""",「InfoSlot:実際のゲーム時刻」の時刻フォーマット
 jm.common.ui_theme,UI Theme,UIのテーマ
-jm.common.ui_theme.tooltip,The Theme used to display UI controls in the Fullscreen Map and to style the MiniMap,テーマでミニマップや全画面マップの見た目を変更することができます
+jm.common.ui_theme.tooltip,The Theme used to display UI controls in the Fullscreen Map and to style the MiniMap,テーマでミニマップや全画面マップの見た目を変更できます
 jm.common.ui_theme_applied,UI Theme applied. Go to §bOptions > MiniMap Preset #§f to customize the MiniMap appearance.,UIテーマは当てはまりました。§bOptionsに行くMiniMap外観をカスタマイズするMiniMapがプリセットされました#§f。
 jm.common.ui_theme_author,Author: §b%1$s§f,作者: §b%1$s§f
 jm.common.ui_theme_name,Name: §b%1$s§f,テーマ名: §b%1$s§f
@@ -305,9 +305,9 @@ jm.config.category.cartography.tooltip,Configure how map images are created,生�
 jm.config.category.fullmap,Fullscreen Map,フルスクリーンマップ
 jm.config.category.fullmap.tooltip,Configure the appearance of the Fullscreen Map,全画面マップの見た目を設定します。
 jm.config.category.minimap,MiniMap Preset 1,ミニマッププリセット 1
-jm.config.category.minimap.tooltip,Configure the appearance of MiniMap Preset 1. (Switch between presets in-game using the '\' key),ミニマッププリセット 1の見た目を設定します。 ('￥'キーでプリセットを切り替えられます)
+jm.config.category.minimap.tooltip,Configure the appearance of MiniMap Preset 1. (Switch between presets in-game using the '\' key),ミニマッププリセット 1の見た目を設定します。('￥'キーでプリセットを切り替えられます)
 jm.config.category.minimap2,MiniMap Preset 2,ミニマッププリセット 2
-jm.config.category.minimap2.tooltip,Configure the appearance of MiniMap Preset 2. (Switch between presets in-game using the '\' key),ミニマッププリセット 2の見た目を変更します。 ('￥'キーでプリセットを切り替えられます)
+jm.config.category.minimap2.tooltip,Configure the appearance of MiniMap Preset 2. (Switch between presets in-game using the '\' key),ミニマッププリセット 2の見た目を変更します。('￥'キーでプリセットを切り替えられます)
 jm.config.category.minimap_position,Minimap Position Options,ミニマップ位置オプション
 jm.config.category.minimap_position.tooltip,Configure how the Minimap and Effects are located and rendered.,ミニマップと効果の位置とレンダリング方法を設定
 jm.config.category.waypoint,Waypoints,ウェイポイント
@@ -327,7 +327,7 @@ jm.config.file_header_5,"For more information, go to: %1$s",詳しい情報は�
 jm.config.reset,Reset,すべての設定をリセット
 jm.config.reset.tooltip,Reset all options in this section back to their default values,このセクションの全ての設定を初期値にリセットします
 jm.config.tooltip_format,%1$s%2$s,
-jm.error.compatability,Incompatability error running %1$s for Forge %2$s. Ensure your version of Forge is compatible.,Forge %2$s で、 %1$s の動作に問題が発生しました。JourneyMapに対応している正しいバージョンのForgeを使って下さい。
+jm.error.compatability,Incompatability error running %1$s for Forge %2$s. Ensure your version of Forge is compatible.,Forge %2$s で、%1$s の動作に問題が発生しました。JourneyMapに対応している正しいバージョンのForgeを使って下さい。
 jm.error.java6,JourneyMap requires Java 7 or Java 8. Update your launcher profile to use a newer version of Java.,JourneyMapの動作にはJava 7 もしくは Java 8が必要です。ランチャーでProfileを編集し、新バージョンのJavaを使って下さい。
 jm.feature.fairplay,FairPlay,フェアプレイ版
 jm.feature.unlimited,Unlimited,無制限版
@@ -448,7 +448,7 @@ jm.minimap.size.tooltip,Adjust the size of the MiniMap (as percent of window siz
 jm.minimap.terrain_alpha,Map Opacity,ミニマップの透明度
 jm.minimap.terrain_alpha.tooltip,Adjust how opaque the map is (as a percentage),パーセントで透明度を指定します。
 jm.minimap.terrain_background_alpha,Map Background Opacity,マップ背景の不透明度
-jm.minimap.terrain_background_alpha.tooltip,Adjust how opaque the map background is (as a percentage),マップ背景の不透明度を調整（パーセンテージ）
+jm.minimap.terrain_background_alpha.tooltip,Adjust how opaque the map background is (as a percentage),マップ背景の不透明度を調整(パーセンテージ)
 jm.minimap.texture_size,Small Icons,小さいアイコンを使う
 jm.minimap.texture_size.tooltip,Use small icons on the map,マップ上のアイコンを小さくします
 jm.minimap.title,Mini Map,ミニマップの設定
@@ -590,7 +590,7 @@ jm.theme.labelsource.moonphase.day,Day,日
 jm.theme.labelsource.moonphase.first_quarter,First Quarter,第一四半期
 jm.theme.labelsource.moonphase.full_moon,Full Moon,満月
 jm.theme.labelsource.moonphase.new_moon,New Moon,新月
-jm.theme.labelsource.moonphase.pre,Moon Phase: ,月の満ち欠け: 
+jm.theme.labelsource.moonphase.pre,Moon Phase: ,月の満ち欠け:
 jm.theme.labelsource.moonphase.third_quarter,Third Quarter,第三四半期
 jm.theme.labelsource.moonphase.waning_crescent,Waning Crescent,下弦の月
 jm.theme.labelsource.moonphase.waning_gibbous,Waning Gibbous,十六夜
@@ -629,7 +629,7 @@ jm.waypoint.dimensions,Dimensions,ディメンション
 jm.waypoint.disable,Disable,無効にする
 jm.waypoint.display_management,Waypoint In-Game Display and Management,ウェイポイントのゲーム内での表示と管理
 jm.waypoint.distance,Distance,距離:
-jm.waypoint.distance_meters,(%1$sm),（%1$sメートル）
+jm.waypoint.distance_meters,(%1$sm),(%1$sメートル)
 jm.waypoint.double_click_create,Double Click to Create,ダブルクリックで作成
 jm.waypoint.double_click_create.tooltip,Double clicking on the fullscreen map will create a waypoint at location.,フルスクリーンマップをダブルクリックすると、その位置にウェイポイントが作成されます
 jm.waypoint.edit,Edit,ウェイポイントの編集
@@ -647,19 +647,19 @@ jm.waypoint.green_abbreviated,G,緑
 jm.waypoint.help_create_ingame,Create/Edit Waypoint (in game),ゲーム内のウェイポイントの作成/編集
 jm.waypoint.help_create_inmap,Create/Edit Waypoint (in map),マップ内のウェイポイントの作成/編集
 jm.waypoint.help_import_rei,Or copy §b%1$s§f to §b%2$s§f and restart Minecraft.,§b%1$s§f を §b%2$s§f にコピーしてマイクラを再起動して下さい。
-jm.waypoint.help_import_rei_title,Import Rei's MiniMap Waypoints,Rei’s minimapのウェイポイントをインポート
+jm.waypoint.help_import_rei_title,Import Rei's MiniMap Waypoints,Rei’s ミニmapのウェイポイントをインポート
 jm.waypoint.help_import_voxel,Or copy §b%1$s§f to §b%2$s§f and restart Minecraft.,§b%1$s§f を §b%2$s§f にコピーしてマイクラを再起動して下さい。
 jm.waypoint.help_import_voxel_title,Import VoxelMap Waypoints,VoxelMapのウェイポイントをインポート
 jm.waypoint.help_manage_ingame,Waypoint Manager (in game),ウェイポイントの管理(ゲーム内)
 jm.waypoint.help_title,Waypoint Help,ウェイポイントのヘルプ
 jm.waypoint.hide_all,Hide All,すべて非表示
-jm.waypoint.import_rei_errors,Imported %1$s waypoints from Rei's MiniMap with %2$s errors. See log for details.,Rei’s minimapから %1$s ウェイポイントをインポートしましたが %2$s エラーが発生しました。 ログで詳細を確認して下さい。
-jm.waypoint.import_rei_failure,No Rei's MiniMap waypoints were imported. See journeymap.log for details.,Rei’s minimapからインポートしたウェイポイントが見つかりません。journeymap.logで詳細を確認して下さい。
-jm.waypoint.import_rei_file_error,Could not import Rei's MiniMap waypoint file: %1$s,Rei’s minimapのウェイポイントのファイルをインポートできませんでした: %1$s
-jm.waypoint.import_rei_success,Imported %1$s waypoints from of Rei's Minimap.,Rei’s minimapから %1$s ウェイポイントをインポートしました。
-jm.waypoint.import_rei_version,Your version of Rei's MiniMap is not supported.,あなたのRei’s minimapのバージョンは非対応です。
+jm.waypoint.import_rei_errors,Imported %1$s waypoints from Rei's MiniMap with %2$s errors. See log for details.,Rei’s ミニmapから %1$s ウェイポイントをインポートしましたが %2$s エラーが発生しました。ログで詳細を確認して下さい。
+jm.waypoint.import_rei_failure,No Rei's MiniMap waypoints were imported. See journeymap.log for details.,Rei’s ミニmapからインポートしたウェイポイントが見つかりません。journeymap.logで詳細を確認して下さい。
+jm.waypoint.import_rei_file_error,Could not import Rei's MiniMap waypoint file: %1$s,Rei’s ミニmapのウェイポイントのファイルをインポートできませんでした: %1$s
+jm.waypoint.import_rei_success,Imported %1$s waypoints from of Rei's Minimap.,Rei’s ミニmapから %1$s ウェイポイントをインポートしました。
+jm.waypoint.import_rei_version,Your version of Rei's MiniMap is not supported.,あなたのRei’s ミニmapのバージョンは非対応です。
 jm.waypoint.import_vox_errors,Imported %1$s waypoints from VoxelMap with %2$s errors. See log for details.,VoxelMapから %1$s ウェイポイントをインポートしましたが、%2$s エラーが発生しました。ログで詳細を確認して下さい。
-jm.waypoint.import_vox_failure,No VoxelMap waypoints were imported. See journeymap.log for details.,VoxelMapからインポートしたウェイポイントが見つかりません。 journeymap.logで詳細を確認して下さい。
+jm.waypoint.import_vox_failure,No VoxelMap waypoints were imported. See journeymap.log for details.,VoxelMapからインポートしたウェイポイントが見つかりません。journeymap.logで詳細を確認して下さい。
 jm.waypoint.import_vox_file_error,Could not import VoxelMap waypoint file: %1$s,VoxelMapのウェイポイントのファイルをインポートできませんでした: %1$s
 jm.waypoint.import_vox_success,Imported %1$s waypoints from VoxelMap.,VoxelMapから %1$s ウェイポイントをインポートしました。
 jm.waypoint.import_vox_version,Your version of VoxelMap is not supported. Please update to:,あなたのVoxelMapのバージョンは非対応です。以下のバージョンにアップデートして下さい:
@@ -703,7 +703,7 @@ jm.waypoint.show_texture.tooltip,Show the icon of a waypoint with its beacon,ウ
 jm.waypoint.teleport,Teleport,テレポート
 jm.waypoint.teleport_command,Custom Waypoint Teleport Command,カスタムウェイポイントテレポートコマンド
 jm.waypoint.teleport_command.tooltip,Set the teleport command for your server. Create the custom command for your server with these keys. Player Name:{name} - Waypoint Coordinates:{x} {y} {z} - Target Dimension:{dim}.,サーバー用のテレポートコマンドを設定します。これらのキーでサーバーのカスタムコマンドを作成します。プレイヤー名:{name} - ウェイポイント座標:{x} {y} {z} - ターゲット ディメンション:{dim}。
-jm.waypoint.temp,Temp: ,一時: 
+jm.waypoint.temp,Temp: ,一時:
 jm.waypoint.temp_waypoint_remove_distance,Temporary Waypoint Remove Distance,一時ウェイポイント削除距離
 jm.waypoint.temp_waypoint_remove_distance.tooltip,The distance from player when temporary waypoints are auto removed.,一時ウェイポイントが自動削除されるプレイヤーからの距離
 jm.waypoint.texture_size,Small Icon,小さいアイコン
@@ -733,7 +733,7 @@ jm.webmap.caves_menu_item_title,Show cave/interior map when you are not under sk
 jm.webmap.day_button_text,Day,昼
 jm.webmap.day_button_title,The world map as it appears in daylight.,ワールドマップが昼の状態で表示されます。
 jm.webmap.donate_text,Donate to JourneyMap,JourneyMapに寄付
-jm.webmap.donate_title,Donate to JourneyMap development using Patreon,PatreonでJourneyMapの開発を応援する
+jm.webmap.donate_title,Donate to JourneyMap development using Patreon,パトレオンでJourneyMapの開発を応援する
 jm.webmap.elevation_text,Elevation:,高度:
 jm.webmap.email_sub_text,JourneyMap news Email,JourneyMapのニュースをメールで受け取る
 jm.webmap.email_sub_title,Subscribe to JourneyMap news by Email,JourneyMapのニュースマガジンに登録!

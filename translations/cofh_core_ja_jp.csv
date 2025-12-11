@@ -22,6 +22,8 @@ commands.cofh.repair.success.multiple,Repaired equipment for %s entities,%sの�
 commands.cofh.repair.success.single,Repaired equipment for %s,%sの装備を修理しました
 commands.cofh.zap.success.multiple,Zapped %s entities,%sのエンティティに感電させました
 commands.cofh.zap.success.single,Zapped %s,%sに感電させました
+death.attack.knife,%1$s got knifed by %2$s!,%1$sは%2$sにナイフで刺されました。
+death.attack.knife.item,%1$s was poked by %2$s using %3$s!,%1$sは%2$sに%3$sで突かれました。
 effect.cofh_core.amplification,Amplification,増幅
 effect.cofh_core.chilled,Chilled,冷却
 effect.cofh_core.clarity,Clarity,明晰
@@ -80,6 +82,10 @@ enchantment.minecraft.sweeping.desc,Increases sweep attack damage.,スイープ�
 enchantment.minecraft.thorns.desc,Damages attackers.,攻撃者にダメージを与えます。
 enchantment.minecraft.unbreaking.desc,Increases effective durability.,効果的な耐久性を増加させます。
 enchantment.minecraft.vanishing_curse.desc,The item will disappear forever when the owner dies.,所有者が死ぬとアイテムは永遠に消えます。
+fluid.cofh_core.experience,Essence of Knowledge,知識の本質
+fluid.cofh_core.honey,Honey,蜂蜜
+fluid.cofh_core.potion,Potion,ポーション
+fluid.cofh_core.steam,Steam,蒸気
 forge.swimSpeed,Swim Speed,遊泳速度
 info.cofh.access,Access,アクセス
 info.cofh.access_friends,Friends Only,フレンドのみ
@@ -98,7 +104,7 @@ info.cofh.chance,Chance,確率
 info.cofh.chance_additional,Additional Chance,追加確率
 info.cofh.claimable,Claimable,請求可能
 info.cofh.click_to_claim,§e§oClick§r§7 to claim.,§e§oクリック§r§7して請求します。
-info.cofh.click_to_clear,§e§oAlt+Shift+Click§r§7 to clear.,§e§oAlt+Shift+クリック§r§7でクリアします。
+info.cofh.click_to_clear,§e§oAlt+Shift+Click§r§7 to clear.,§e§oAlt+シフト+クリック§r§7でクリアします。
 info.cofh.configuration,Configuration,設定
 info.cofh.control_status,Control Status,制御ステータス
 info.cofh.crossbow_loaded,Loaded from:,ロード元:
@@ -126,7 +132,7 @@ info.cofh.fluid_tags,Fluid Tags,流体タグ
 info.cofh.heads,Heads,ヘッド
 info.cofh.high,High,高
 info.cofh.hold_ctrl_for_tags,Hold §e§oCtrl§r§7 for Tags,§e§oCtrl§r§7キーを押したままタグを表示
-info.cofh.hold_shift_for_details,Hold §e§oShift§r§7 for Details,§e§oShift§r§7キーを押したまま詳細を表示
+info.cofh.hold_shift_for_details,Hold §e§oShift§r§7 for Details,§e§oシフト§r§7キーを押したまま詳細を表示
 info.cofh.ignored,Ignored,無視
 info.cofh.increase_by,Increase by,増加
 info.cofh.infinite,Infinite,無限
@@ -172,6 +178,7 @@ info.cofh_core.fluid_filter.1,Additional options can be used to fine-tune behavi
 info.cofh_core.item_filter.0,Place items in slots to add them to the filter list.,スロットにアイテムを配置してフィルターリストに追加します。
 info.cofh_core.item_filter.1,Additional options can be used to fine-tune behavior.,追加オプションを使用して動作を微調整できます。
 info.cofh_use_sneak_deactivate,Use while sneaking to deactivate.,スニークしながら使用して無効化します。
+item.cofh_core.ectoplasm,Ectoplasm,エクトプラズム
 item.minecraft.lingering_potion.effect.amplification,Lingering Potion of Amplification,残留増幅のポーション
 item.minecraft.lingering_potion.effect.clarity,Lingering Potion of Clarity,残留明晰のポーション
 item.minecraft.lingering_potion.effect.enderference,Lingering Potion of Enderference,残留エンド干渉のポーション

@@ -31,10 +31,10 @@ container.ironfurnaces.wireless_energy_heater,Wireless Heater,ワイヤレスエ
 ironfurnaces.jei_category_blasting,Generator | Blasting,ジェネレーター | 溶鉱炉
 ironfurnaces.jei_category_regular,Augment: Generator,拡張装置: ジェネレーター
 ironfurnaces.jei_category_smoking,Generator | Smoking,ジェネレーター | 燻製炉
-ironfurnaces.update.buttonOptions,"Click: Changelog, Shift-Click: Download! (In Browser)",クリック: 変更ログ、Shift+クリック: ダウンロード！（ブラウザで開く）
+ironfurnaces.update.buttonOptions,"Click: Changelog, Shift-Click: Download! (In Browser)",クリック: 変更ログ、シフト+クリック: ダウンロード！(ブラウザで開く)
 ironfurnaces.update.buttons,"[{""text"":""[""},{""text"":""Click for Changelog"",""color"":""green"",""clickEvent"":{""action"":""open_url"",""value"":""%s""}},{""text"":""] ["",""color"":""none""},{""text"":""Click for Download"",""color"":""green"",""clickEvent"":{""action"":""open_url"",""value"":""%s""}},{""text"":""]"",""color"":""none""}]","[{""text"":""[""},{""text"":""変更ログを表示"",""color"":""green"",""clickEvent"":{""action"":""open_url"",""value"":""%s""}},{""text"":""] ["",""color"":""none""},{""text"":""ダウンロードを実行"",""color"":""green"",""clickEvent"":{""action"":""open_url"",""value"":""%s""}},{""text"":""]"",""color"":""none""}]"
-ironfurnaces.update.failed,"[{""text"":""The Update Check for ""},{""text"":""Iron Furnaces "",""color"":""dark_green""},{""text"":""failed! Check Logs for more Info!"",""color"":""none""}]","[{""text"":""アイアンファーネスの更新チェック ""},{""text"":""失敗 "",""color"":""dark_green""},{""text"":""しました！詳細はログを確認してください！"",""color"":""none""}]"
-ironfurnaces.update.speech,"[{""text"":""There is an Update for ""},{""text"":""Iron Furnaces "",""color"":""dark_green""},{""text"":""available!"",""color"":""none""}]","[{""text"":""アイアンファーネスの ""},{""text"":""更新 "",""color"":""dark_green""},{""text"":""が利用可能です！"",""color"":""none""}]"
+ironfurnaces.update.failed,"[{""text"":""The Update Check for ""},{""text"":""Iron Furnaces "",""color"":""dark_green""},{""text"":""failed! Check Logs for more Info!"",""color"":""none""}]","[{""text"":""鉄ファーネスの更新チェック ""},{""text"":""失敗 "",""color"":""dark_green""},{""text"":""しました！詳細はログを確認してください！"",""color"":""none""}]"
+ironfurnaces.update.speech,"[{""text"":""There is an Update for ""},{""text"":""Iron Furnaces "",""color"":""dark_green""},{""text"":""available!"",""color"":""none""}]","[{""text"":""鉄ファーネスの ""},{""text"":""更新 "",""color"":""dark_green""},{""text"":""が利用可能です！"",""color"":""none""}]"
 ironfurnaces.update.version,"[{""text"":""Current Version: ""},{""text"":""%s"",""color"":""dark_red""},{""text"":"", newest Version: "",""color"":""none""},{""text"":""%s"",""color"":""dark_green""}]","[{""text"":""現在のバージョン: ""},{""text"":""%s"",""color"":""dark_red""},{""text"":""、最新バージョン: "",""color"":""none""},{""text"":""%s"",""color"":""dark_green""}]"
 item.ironfurnaces.augment_blasting,Augment: Blasting,拡張装置: 溶鉱炉
 item.ironfurnaces.augment_factory,Augment: Factory,拡張装置: ファクトリー
@@ -66,7 +66,7 @@ item.ironfurnaces.upgrade_silver,Copper to Silver Furnace Upgrade,銅→銀か�
 item.ironfurnaces.upgrade_silver2,Iron to Silver Furnace Upgrade,鉄→銀かまど アップグレード
 item.ironfurnaces.upgrade_unobtainium,Vibranium to Unobtainium Furnace Upgrade,ヴィブラニウム→ウノブテイニウムかまど アップグレード
 item.ironfurnaces.upgrade_vibranium,Allthemodium to Vibranium Furnace Upgrade,アルミニウム→ヴィブラニウムかまど アップグレード
-itemGroup.ironfurnaces,Iron Furnaces,アイアンファーネス
+itemGroup.ironfurnaces,Iron Furnaces,鉄ファーネス
 tooltip.ironfurnaces.augment_blasting,Only allows for blasting recipes.,溶鉱炉のレシピのみを使用できます。
 tooltip.ironfurnaces.augment_factory_con,-Uses power for heat instead of fuel.,-燃料の代わりに電力を使用します。
 tooltip.ironfurnaces.augment_factory_pro,+Converts the furnace into a factory.,+ファーネスをファクトリーに変換します。
@@ -100,7 +100,7 @@ tooltip.ironfurnaces.gui_bottom,Bottom,下
 tooltip.ironfurnaces.gui_close,Close Config,設定を閉じる
 tooltip.ironfurnaces.gui_front,Front,前
 tooltip.ironfurnaces.gui_fuel,Fuel Input/Eject,燃料入力/射出
-tooltip.ironfurnaces.gui_hold_shift,Hold ,Shift キーを押して
+tooltip.ironfurnaces.gui_hold_shift,Hold ,シフトキーを押して
 tooltip.ironfurnaces.gui_input,Input,入力
 tooltip.ironfurnaces.gui_input_output,Input/Output,入力/出力
 tooltip.ironfurnaces.gui_left,Left,左
@@ -119,19 +119,19 @@ tooltip.ironfurnaces.gui_reset,Reset All,すべてをリセット
 tooltip.ironfurnaces.gui_right,Right,右
 tooltip.ironfurnaces.gui_shift_more_options," for more options",その他のオプション
 tooltip.ironfurnaces.gui_top,Top,上
-tooltip.ironfurnaces.heater,Bound to: ,結合先: 
+tooltip.ironfurnaces.heater,Bound to: ,結合先:
 tooltip.ironfurnaces.heaterX,X: ,
 tooltip.ironfurnaces.heaterY,Y: ,
 tooltip.ironfurnaces.heaterZ,Z: ,
-tooltip.ironfurnaces.heater_block,Link with a Wireless Heat Receiver (done by placing the receiver in the Wireless Heat Transmitter),ワイヤレス熱受信器と結合します（受信器をワイヤレス熱伝送装置に配置することで実行）
+tooltip.ironfurnaces.heater_block,Link with a Wireless Heat Receiver (done by placing the receiver in the Wireless Heat Transmitter),ワイヤレス熱受信器と結合します(受信器をワイヤレス熱伝送装置に配置することで実行)
 tooltip.ironfurnaces.heater_block1,Provide this block with Forge Energy and it will power all Wireless Heat Receivers that are bound,このブロックにForgeエネルギーを供給すると、結合されたすべてのワイヤレス熱受信器に電力を供給します
 tooltip.ironfurnaces.heater_not_bound,Has yet to be bound to an energy source!,まだエネルギーソースに結合されていません！
 tooltip.ironfurnaces.heater_tip,Place in the fuel slot of the furnace,かまどの燃料スロットに配置します
-tooltip.ironfurnaces.heater_tip1,Only works from Iron tier and above,Iron 段階以上でのみ動作します
+tooltip.ironfurnaces.heater_tip1,Only works from Iron tier and above,鉄 段階以上でのみ動作します
 tooltip.ironfurnaces.hold,Hold ,押し続けて
 tooltip.ironfurnaces.rainbow_blowup,Something is telling me to blow it up...,何かが爆破するように言っている...
 tooltip.ironfurnaces.rainbow_gen1,Will generate,生成する
-tooltip.ironfurnaces.rainbow_gen2,RF/tick if all other furnaces are generating power,RF/ティック （他のすべてのかまどが電力を生成している場合）
+tooltip.ironfurnaces.rainbow_gen2,RF/tick if all other furnaces are generating power,RF/ティック (他のすべてのかまどが電力を生成している場合)
 tooltip.ironfurnaces.rainbow_gen3,"For power generation, one of each tier of furnace must be an active generator and not have a full buffer",電力生成の場合、各層の1つのかまどはアクティブなジェネレーターである必要があり、バッファが満杯ではない
 tooltip.ironfurnaces.rainbow_gen4,"Outputs energy to any side that is configured as output, it wont add energy to the internal buffer",出力として構成されている任意のサイドにエネルギーを出力し、内部バッファにエネルギーを追加しません
 tooltip.ironfurnaces.rainbow_gen5,You can only have one Rainbow Generator,レインボージェネレーターは1つだけが可能です

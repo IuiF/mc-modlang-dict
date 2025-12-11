@@ -11,10 +11,10 @@ block.rftoolsbuilder.mover_control4,Mover Control (Page 4),ムーバーコント
 block.rftoolsbuilder.mover_controller,Mover Controller,ムーバーコントローラー
 block.rftoolsbuilder.mover_status,Mover Status,ムーバーステータス
 block.rftoolsbuilder.red_shield_template_block,Red Shield Template,赤いシールドテンプレート
-block.rftoolsbuilder.shield_block1,Shield Projector Tier 1,シールドプロジェクターTier 1
-block.rftoolsbuilder.shield_block2,Shield Projector Tier 2,シールドプロジェクターTier 2
-block.rftoolsbuilder.shield_block3,Shield Projector Tier 3,シールドプロジェクターTier 3
-block.rftoolsbuilder.shield_block4,Shield Projector Tier 4,シールドプロジェクターTier 4
+block.rftoolsbuilder.shield_block1,Shield Projector Tier 1,シールドプロジェクターティア1
+block.rftoolsbuilder.shield_block2,Shield Projector Tier 2,シールドプロジェクターティア2
+block.rftoolsbuilder.shield_block3,Shield Projector Tier 3,シールドプロジェクターティア3
+block.rftoolsbuilder.shield_block4,Shield Projector Tier 4,シールドプロジェクターティア4
 block.rftoolsbuilder.shielding_cutout,Shield,シールド
 block.rftoolsbuilder.shielding_solid,Shield,シールド
 block.rftoolsbuilder.shielding_translucent,Shield,シールド
@@ -59,35 +59,35 @@ message.rftoolsbuilder.mover_controller.header,The controller for the mover syst
 message.rftoolsbuilder.mover_status.gold,Put this in your vehicle!,これをビークルに入れてください!
 message.rftoolsbuilder.mover_status.header,The Mover status screen. With this block you can get more information about this platform,ムーバーステータス画面。このプラットフォームの詳細情報を取得できます
 message.rftoolsbuilder.red_shield_template_block.header,This block can be used to build a shield. The set of template blocks with the same color should touch the shield projector,このブロックはシールドを構築するために使用できます。同じ色のテンプレートブロックセットはシールドプロジェクターに接していることが必要です
-message.rftoolsbuilder.shape_card.dimension,Dimension: ,ディメンション: 
-message.rftoolsbuilder.shape_card.formulas,Formulas: ,計算式: 
-message.rftoolsbuilder.shape_card.header,"This card represents an area that can be used by the shield or builder. Sneak right click on builder to start mark mode, then right click to mark two corners of wanted area",このカードはシールドまたはビルダーで使用可能な領域を表します。Shift+右クリックでマークモードを開始、右クリックで目的の領域の2つのコーナーをマークしてください
-message.rftoolsbuilder.shape_card.offset,Offset: ,オフセット: 
-message.rftoolsbuilder.shape_card.scan,Scan id: ,スキャンID: 
-message.rftoolsbuilder.shape_card.shape,Shape: ,シェイプ: 
+message.rftoolsbuilder.shape_card.dimension,Dimension: ,ディメンション:
+message.rftoolsbuilder.shape_card.formulas,Formulas: ,計算式:
+message.rftoolsbuilder.shape_card.header,"This card represents an area that can be used by the shield or builder. Sneak right click on builder to start mark mode, then right click to mark two corners of wanted area",このカードはシールドまたはビルダーで使用可能な領域を表します。シフト+右クリックでマークモードを開始、右クリックで目的の領域の2つのコーナーをマークしてください
+message.rftoolsbuilder.shape_card.offset,Offset: ,オフセット:
+message.rftoolsbuilder.shape_card.scan,Scan id: ,スキャンID:
+message.rftoolsbuilder.shape_card.shape,Shape: ,シェイプ:
 message.rftoolsbuilder.shape_card.warning,Disabled in config!,設定で無効化されています!
 message.rftoolsbuilder.shield_block1.gold,Infusing bonus: reduced power consumption and increased damage,インフューズボーナス: 電力消費量削減とダメージ増加
-message.rftoolsbuilder.shield_block1.header,"This machine forms a shield out of adjacent template blocks. It can filter based on type of mob and do various things (damage, solid, ...). Use the Smart Wrench to add sections to the shield",このマシンは隣接するテンプレートブロックからシールドを形成します。Mob タイプに基づいてフィルタリングでき、様々なことができます (ダメージ、固体など)。スマートレンチを使用してシールドにセクションを追加してください
-message.rftoolsbuilder.shield_block1.info,Supported blocks: ,サポートされているブロック: 
+message.rftoolsbuilder.shield_block1.header,"This machine forms a shield out of adjacent template blocks. It can filter based on type of mob and do various things (damage, solid, ...). Use the Smart Wrench to add sections to the shield",このマシンは隣接するテンプレートブロックからシールドを形成します。モブタイプに基づいてフィルタリングでき、様々なことができます (ダメージ、固体など)。スマートレンチを使用してシールドにセクションを追加してください
+message.rftoolsbuilder.shield_block1.info,Supported blocks: ,サポートされているブロック:
 message.rftoolsbuilder.shield_block2.gold,Infusing bonus: reduced power consumption and increased damage,インフューズボーナス: 電力消費量削減とダメージ増加
-message.rftoolsbuilder.shield_block2.header,"This machine forms a shield out of adjacent template blocks. It can filter based on type of mob and do various things (damage, solid, ...). Use the Smart Wrench to add sections to the shield",このマシンは隣接するテンプレートブロックからシールドを形成します。Mob タイプに基づいてフィルタリングでき、様々なことができます (ダメージ、固体など)。スマートレンチを使用してシールドにセクションを追加してください
-message.rftoolsbuilder.shield_block2.info,Supported blocks: ,サポートされているブロック: 
+message.rftoolsbuilder.shield_block2.header,"This machine forms a shield out of adjacent template blocks. It can filter based on type of mob and do various things (damage, solid, ...). Use the Smart Wrench to add sections to the shield",このマシンは隣接するテンプレートブロックからシールドを形成します。モブタイプに基づいてフィルタリングでき、様々なことができます (ダメージ、固体など)。スマートレンチを使用してシールドにセクションを追加してください
+message.rftoolsbuilder.shield_block2.info,Supported blocks: ,サポートされているブロック:
 message.rftoolsbuilder.shield_block3.gold,Infusing bonus: reduced power consumption and increased damage,インフューズボーナス: 電力消費量削減とダメージ増加
-message.rftoolsbuilder.shield_block3.header,"This machine forms a shield out of adjacent template blocks. It can filter based on type of mob and do various things (damage, solid, ...). Use the Smart Wrench to add sections to the shield",このマシンは隣接するテンプレートブロックからシールドを形成します。Mob タイプに基づいてフィルタリングでき、様々なことができます (ダメージ、固体など)。スマートレンチを使用してシールドにセクションを追加してください
-message.rftoolsbuilder.shield_block3.info,Supported blocks: ,サポートされているブロック: 
+message.rftoolsbuilder.shield_block3.header,"This machine forms a shield out of adjacent template blocks. It can filter based on type of mob and do various things (damage, solid, ...). Use the Smart Wrench to add sections to the shield",このマシンは隣接するテンプレートブロックからシールドを形成します。モブタイプに基づいてフィルタリングでき、様々なことができます (ダメージ、固体など)。スマートレンチを使用してシールドにセクションを追加してください
+message.rftoolsbuilder.shield_block3.info,Supported blocks: ,サポートされているブロック:
 message.rftoolsbuilder.shield_block4.gold,Infusing bonus: reduced power consumption and increased damage,インフューズボーナス: 電力消費量削減とダメージ増加
-message.rftoolsbuilder.shield_block4.header,"This machine forms a shield out of adjacent template blocks. It can filter based on type of mob and do various things (damage, solid, ...). Use the Smart Wrench to add sections to the shield",このマシンは隣接するテンプレートブロックからシールドを形成します。Mob タイプに基づいてフィルタリングでき、様々なことができます (ダメージ、固体など)。スマートレンチを使用してシールドにセクションを追加してください
-message.rftoolsbuilder.shield_block4.info,Supported blocks: ,サポートされているブロック: 
-message.rftoolsbuilder.shiftmessage,<Press Shift>,<Shiftキーを押してください>
-message.rftoolsbuilder.space_chamber_card.channel,Channel: ,チャンネル: 
-message.rftoolsbuilder.space_chamber_card.cost,Base cost: ,基本コスト: 
+message.rftoolsbuilder.shield_block4.header,"This machine forms a shield out of adjacent template blocks. It can filter based on type of mob and do various things (damage, solid, ...). Use the Smart Wrench to add sections to the shield",このマシンは隣接するテンプレートブロックからシールドを形成します。モブタイプに基づいてフィルタリングでき、様々なことができます (ダメージ、固体など)。スマートレンチを使用してシールドにセクションを追加してください
+message.rftoolsbuilder.shield_block4.info,Supported blocks: ,サポートされているブロック:
+message.rftoolsbuilder.shiftmessage,<Press Shift>,<シフトキーを押してください>
+message.rftoolsbuilder.space_chamber_card.channel,Channel: ,チャンネル:
+message.rftoolsbuilder.space_chamber_card.cost,Base cost: ,基本コスト:
 message.rftoolsbuilder.space_chamber_card.extra,(final cost depends on infusion level),(最終コストはインフュージョンレベルに依存します)
-message.rftoolsbuilder.space_chamber_card.gold,Sneak right-click on a space chamber controller to set the channel for this card. Right-click in the air to show an overview of the area contents. Insert it in a builder to copy/move the linked area,スペースチャンバーコントローラーにShift+右クリックしてこのカードのチャンネルを設定します。空中で右クリックして領域コンテンツの概要を表示します。ビルダーに挿入してリンク領域をコピー/移動します
+message.rftoolsbuilder.space_chamber_card.gold,Sneak right-click on a space chamber controller to set the channel for this card. Right-click in the air to show an overview of the area contents. Insert it in a builder to copy/move the linked area,スペースチャンバーコントローラーにシフト+右クリックしてこのカードのチャンネルを設定します。空中で右クリックして領域コンテンツの概要を表示します。ビルダーに挿入してリンク領域をコピー/移動します
 message.rftoolsbuilder.space_chamber_card.header,Use this card to link with a space chamber,このカードを使用してスペースチャンバーにリンクします
-message.rftoolsbuilder.space_chamber_controller.channel,Channel: ,チャンネル: 
+message.rftoolsbuilder.space_chamber_controller.channel,Channel: ,チャンネル:
 message.rftoolsbuilder.space_chamber_controller.header,This block is one of the eight corners of an area of space you want to copy/move elsewhere. The other corners should be normal space chamber blocks,このブロックはコピー/移動したい空間領域の8つのコーナーの1つです。その他のコーナーは通常のスペースチャンバーブロックである必要があります
 message.rftoolsbuilder.vehicle_builder.header,"Using a space card linked to a space chamber, this block can make a vehicle in the vehicle card",スペースチャンバーにリンクされたスペースカードを使用して、このブロックはビークルカードにビークルを作成できます
-message.rftoolsbuilder.vehicle_card.contents,Contents: ,コンテンツ: 
+message.rftoolsbuilder.vehicle_card.contents,Contents: ,コンテンツ:
 message.rftoolsbuilder.vehicle_card.header,A vehicle card. Use the Vehicle Builder to put a vehicle in this card,ビークルカード。ビークルビルダーを使用してこのカードにビークルを入れます
-message.rftoolsbuilder.vehicle_card.name,Name: ,名前: 
+message.rftoolsbuilder.vehicle_card.name,Name: ,名前:
 message.rftoolsbuilder.yellow_shield_template_block.header,This block can be used to build a shield. The set of template blocks with the same color should touch the shield projector,このブロックはシールドを構築するために使用できます。同じ色のテンプレートブロックセットはシールドプロジェクターに接していることが必要です

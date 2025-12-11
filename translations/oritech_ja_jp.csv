@@ -9,8 +9,8 @@ advancements.oritech.augmenter,Cybernetics!,サイバネティクス！
 advancements.oritech.augmenter.description,Enhance your natural… limitations! Warning: May cause increased desire to say 'beep boop'.,突破しましょう。限界を！ 警告：ビープ音でしか会話できなくなる可能性があります。
 advancements.oritech.begin,Oritech,オリテックへようこそ
 advancements.oritech.begin.description,"Nickel & Dime - Start your technological adventure by acquiring some raw nickel. Shine on, you crazy miner!",ニッケルアンドダイム - ニッケルの原石を獲得して、あなたのテクノロジーな冒険を始めましょう。輝け、狂気の採掘者よ！
-advancements.oritech.catalyst,Arcane Tinkerer,アーケインの修理屋
-advancements.oritech.catalyst.description,Acquire an Arcane Stabilizer (Warning: May contain souls!),アーケイン制御器を手に入れる。（ソウルの扱いには気をつけろ。）
+advancements.oritech.catalyst,Arcane Tinkerer,アーケインの修理工
+advancements.oritech.catalyst.description,Acquire an Arcane Stabilizer (Warning: May contain souls!),アーケイン制御器を手に入れる。(ソウルの扱いには気をつけろ。)
 advancements.oritech.centrifuge,Spin Doctor,大回転斬り
 advancements.oritech.centrifuge.description,Acquire a centrifuge and separate the good from the bad. Spin to win!,遠心分離機を獲得し、良いものと悪いものを分離する。勝ちたくば回れ！
 advancements.oritech.drill,Drill Sergeant,練習ドリル
@@ -18,7 +18,7 @@ advancements.oritech.drill.description,"Obtain a hand drill and start boring thr
 advancements.oritech.exo_boots,Boots like Feathers,羽のようなブーツ
 advancements.oritech.exo_boots.description,Craft Exo Boots and say goodbye to fall damage. Gravity? Never heard of it!,Exoブーツをクラフトして、落下ダメージに別れを告げよう。重力？初耳だな！
 advancements.oritech.exo_chest,Heart of Steel,鋼鉄の心臓
-advancements.oritech.exo_chest.description,"Craft an Exo Chestplate and protect your core. Iron Man, who?",Exoチェストプレートをクラフトして、あなたのコアを守ろう。アイアンマン…って誰だ？
+advancements.oritech.exo_chest.description,"Craft an Exo Chestplate and protect your core. Iron Man, who?",Exoチェストプレートをクラフトして、あなたのコアを守ろう。鉄マン…って誰だ？
 advancements.oritech.exo_helmet,Head Start,頭角を現す
 advancements.oritech.exo_helmet.description,Craft an Exo Helmet and get ahead in the game. Mind over matter!,Exoヘルメットをクラフトして、ゲームの先頭に立とう。気合があれば何でもできる！
 advancements.oritech.exo_legs,Leg Day,明日は脚の日
@@ -265,7 +265,7 @@ emi.category.oritech.reactor,Reactor Fuelling,原子炉の稼働
 emi.category.oritech.refinery,Refining,精製
 emi.category.oritech.steam_engine,Steam Usage,蒸気の使用
 emi.title.oritech.collisionspeed,Min. collision energy: %sJ,必要な衝突エネルギー: %s J
-emi.title.oritech.cookingtime,%ds (%d ticks),%d 秒（%d ティック）
+emi.title.oritech.cookingtime,%ds (%d ticks),%d 秒(%d ティック)
 emi.title.oritech.laser_interaction,Enderic Laser Block Destruction,エンダリックレーザーでブロック破壊
 fluid.oritech.still_biofuel,Biofuel,バイオ燃料
 fluid.oritech.still_diesel,Diesel,ディーゼル
@@ -409,7 +409,7 @@ itemgroup.oritech.components,Oritech Components,Oritech 素材
 itemgroup.oritech.decorative,Oritech Blocks,Oritech ブロック
 itemgroup.oritech.equipment,Oritech Equipment,Oritech 装備
 itemgroup.oritech.machines,Oritech Machines,Oritech 機械
-key.oritech.augment_screen,(Hold) Implant Controls [Oritech],（長押し）オーグメント操作 [Oritech]
+key.oritech.augment_screen,(Hold) Implant Controls [Oritech],(長押し)オーグメント操作 [Oritech]
 message.oritech.catalyst.cost,Cost: %d,コスト： %d
 message.oritech.deep_drill.ore_placement,Machine must be placed on ore nodes,マシンは鉱石資源ノード上に配置する必要があります。
 message.oritech.drone.invalid_distance,Target must be at least 50 blocks away.,目標地点は少なくとも50ブロック離れている必要があります。
@@ -426,20 +426,20 @@ message.oritech.machine_frame.missing_frame,Missing frame. Add an empty rectangu
 message.oritech.pump.busy,Pump is working...,ポンプは稼働しています...
 message.oritech.pump.extending,Trunk is extending...,ポンプ管が拡張中...
 message.oritech.pump.full,Tank is full,タンクがいっぱいです。
-message.oritech.pump.initializing,Pump is initializing... (This might take a moment for large bodies of liquid),ポンプが初期化されています... （大容量の液体の場合はしばらく時間がかかることがあります）
+message.oritech.pump.initializing,Pump is initializing... (This might take a moment for large bodies of liquid),ポンプが初期化されています... (大容量の液体の場合はしばらく時間がかかることがあります)
 message.oritech.pump.low_energy,Not enough energy!,エネルギーが足りません！
 message.oritech.pump.no_fluids,No liquids available,液体を入手できません。
 message.oritech.pump.pump_finished,All liquids have been pumped,すべての液体がポンプで送られました。
 message.oritech.pump.starting,Starting,開始中
 message.oritech.reactor_edge_invalid,Invalid: Reactor Wall edges need to be rectangular,無効：原子炉用ウォールは矩形である必要があります。
 message.oritech.reactor_interior_issues,"Invalid: Reactor Interior Components to be identical on all Y-Layers, and need corresponding ports on top",無効：原子炉の内部部品は全てが垂直方向に同一部品で構成され、その頂点に対応するポートが必要です。
-message.oritech.reactor_wall_invalid,"Invalid: Reactor Walls need to be made of reactor-compatible blocks (e.g. reactor walls, ports, controllers)",無効：原子炉を構成するブロックは、原子炉用互換ブロック（例：原子炉用ウォール、各種ポート、コントローラー）である必要があります。
+message.oritech.reactor_wall_invalid,"Invalid: Reactor Walls need to be made of reactor-compatible blocks (e.g. reactor walls, ports, controllers)",無効：原子炉を構成するブロックは、原子炉用互換ブロック(例：原子炉用ウォール、各種ポート、コントローラー)である必要があります。
 message.oritech.spawner.no_cage,Missing mob cage!,モブケージがありません！
 message.oritech.spawner.no_mob,No mob caught. Move a mob on top to load it into the spawner,モブを捕まえていません。上にモブを移動させてスポナーに読み込ませてください。
 message.oritech.steamengine.controller_link,Steam engine is chained to main engine (see highlighted block). Use only the main engine.,このスチームエンジンはメインエンジンに連結されています(ハイライトされたブロックを参照してください)。メインエンジンを使用してください。
 message.oritech.target_designator.hunter_all,all non-player mobs,プレイヤー以外の全てのモブ
 message.oritech.target_designator.hunter_hostile,hostile mobs only,敵対的なモブ
-message.oritech.target_designator.hunter_neutral,hostile and neutral mobs (pets excluded),敵対的と中立的なモブ（ペットを除く）
+message.oritech.target_designator.hunter_neutral,hostile and neutral mobs (pets excluded),敵対的と中立的なモブ(ペットを除く)
 message.oritech.target_designator.hunter_target,Hunter target set to %s,ハンティングターゲットを%sに設定しました。
 message.oritech.target_designator.position_invalid,"Invalid position for drone port, target port must be at least 50 blocks away",ドローンポートの位置が無効です。ターゲットポートは少なくとも50ブロック離れている必要があります。
 message.oritech.target_designator.position_saved,Position saved to machine,座標は機械に保存されました。
@@ -487,16 +487,16 @@ oritech.text.augment.gravity.desc,Counters planetary pull with anti-gravitationa
 oritech.text.augment.gravity.desc.1,Reduces gravity effect by 50%.,重力の影響を50%軽減します。
 oritech.text.augment.hpboost,Steel-Infused Frame,スチール含有機構
 oritech.text.augment.hpboost.desc,"Integrates a durable framework, enhancing your body's resilience.",耐久性のある構造を骨格に組み込むことで体の耐久性を向上！
-oritech.text.augment.hpboost.desc.1,Increases maximum health by 6 (3 hearts).,最大体力が6ポイント増加します。（3ハート分）
+oritech.text.augment.hpboost.desc.1,Increases maximum health by 6 (3 hearts).,最大体力が6ポイント増加します。(3ハート分)
 oritech.text.augment.hpboostmore,Carbon-Reinforced Lungs,カーボン含有機構
 oritech.text.augment.hpboostmore.desc,Reinforces respiratory systems with carbon fibers for increased stamina.,カーボンファイバーを用いて呼吸器系を補強することでスタミナを増強！
-oritech.text.augment.hpboostmore.desc.1,Adds 4 health points (2 hearts).,最大体力を4ポイント加えます。（2ハート分）
+oritech.text.augment.hpboostmore.desc.1,Adds 4 health points (2 hearts).,最大体力を4ポイント加えます。(2ハート分)
 oritech.text.augment.hpboostultimate,Living Fortress,歩く要塞
 oritech.text.augment.hpboostultimate.desc,Fuses organic tissue with liquid metal for unparalleled endurance.,液体金属を各臓器に注入することで比類なき耐久性を獲得！
-oritech.text.augment.hpboostultimate.desc.1,Grants +10 health (5 hearts).,体力+10を獲得します。（5ハート分）
+oritech.text.augment.hpboostultimate.desc.1,Grants +10 health (5 hearts).,体力+10を獲得します。(5ハート分)
 oritech.text.augment.hpboostultra,Hyper-Redundancy Matrix,超重複マトリクス
 oritech.text.augment.hpboostultra.desc,Overclocks biological systems with redundant nano-machines.,冗長性ナノマシンを投与し生物学的システムをオーバークロックする！
-oritech.text.augment.hpboostultra.desc.1,Boosts maximum health by 10 (5 hearts).,最大体力が10ポイント向上します。（5ハート分）
+oritech.text.augment.hpboostultra.desc.1,Boosts maximum health by 10 (5 hearts).,最大体力が10ポイント向上します。(5ハート分)
 oritech.text.augment.luck,Luck,幸運
 oritech.text.augment.luck.desc,Alters probability fields through quantum entanglement.,量子もつれを通じて確率場を操作する！
 oritech.text.augment.luck.desc.1,Adds additional luck in all loot-table rolls.,すべてのルートテーブルで幸運の値を追加した状態で抽選する。
@@ -547,15 +547,15 @@ oritech.text.augment.weaponreach,Weapon Reach,ウェポンリーチ
 oritech.text.augment.weaponreach.desc,Extends melee weapons range with energy-enhanced actuators.,エネルギー強化アクチュエーターで近接武器の範囲を拡大する！
 oritech.text.augment.weaponreach.desc.1,Increases attack reach by 30% of base value.,攻撃範囲が基本値の30%分増加します。
 oritech.text.augment_ingredient_tip,Accepts any:,以下のいずれかを受け入れます：
-oritech.text.augment_op.apply,Apply ,適用 
-oritech.text.augment_op.pending,Researching ,研究中 
-oritech.text.augment_op.remove,Remove ,デリート 
-oritech.text.augment_op.research,Research ,研究 
+oritech.text.augment_op.apply,Apply ,適用
+oritech.text.augment_op.pending,Researching ,研究中
+oritech.text.augment_op.remove,Remove ,デリート
+oritech.text.augment_op.research,Research ,研究
 oritech.text.augment_research_time,Research Time: %s seconds,研究時間： %s 秒
-oritech.text.augment_resource_cost,Resource Cost:,リソースコスト： 
+oritech.text.augment_resource_cost,Resource Cost:,リソースコスト：
 oritech.text.augment_toggle,Release while hovering over an augment to toggle.,オーグメントにカーソルを合わせた状態で離すと切り替え。
 oritech.text.energy_cost,RF Research Cost: %s RF,研究のRFコスト： %s RF
-oritech.text.missing_requirements_title,Missing Requirements:,不足条件： 
+oritech.text.missing_requirements_title,Missing Requirements:,不足条件：
 oritech.text.required_station,Requires: %s,必要： %s
 rei.process.oritech:assembler,Assembling,組み立て
 rei.process.oritech:atomic_forge,Engraving,彫金加工
@@ -573,7 +573,7 @@ rei.process.oritech:pulverizer,Pulverizing,粉砕
 rei.process.oritech:reactor,Reactor Fuelling,原子炉の稼働
 rei.process.oritech:refinery,Refining,精製
 rei.process.oritech:steam_engine,Steam Usage,蒸気の使用
-rei.title.oritech.cookingtime,%ds (%d ticks),%d 秒（%d ティック）
+rei.title.oritech.cookingtime,%ds (%d ticks),%d 秒(%d ティック)
 tag.item.c.bananas,Bananas,バナナ
 tag.item.c.biodiesel,Biodiesel,バイオディーゼル
 tag.item.c.carbon_fibre,Carbon Fibre,カーボンファイバー
@@ -734,7 +734,7 @@ text.config.oritech-config.option.basicJetpack.speed,Basic Jetpack Speed,基本�
 text.config.oritech-config.option.bendFactor,Particle Curve Requirement Factor,粒子加速器の要求される弧距離の増加係数
 text.config.oritech-config.option.blackHoleRequiredSpeed,Minimum Black Hole Collision Energy,ブラックホール生成の最小衝突エネルギー
 text.config.oritech-config.option.blackHoleTachyonEnergy,Energy of Tachyons from Black Holes,ブラックホールから飛来するタキオンのエネルギー
-text.config.oritech-config.option.blockBreakHardnessExponentialFactor,Block breaking hardness exponential scaling factor,ブロック硬度影響係数（指数）
+text.config.oritech-config.option.blockBreakHardnessExponentialFactor,Block breaking hardness exponential scaling factor,ブロック硬度影響係数(指数)
 text.config.oritech-config.option.blockBreakHardnessExponentialFactor.tooltip,Applies to the destroyer block and enderic laser. Lower = hardness has a lower effect on speed.,デストロイヤーブロックとエンダリックレーザーに適用されます。値を小さくすると、ブロックの硬度が破壊速度に与える影響が小さくなります。
 text.config.oritech-config.option.boringNukes,Boring Nukes,核爆弾の弱体化
 text.config.oritech-config.option.catalystBaseSouls,Catalyst Base Soul Capacity,カタリストの基本ソウル容量
@@ -799,8 +799,8 @@ text.config.oritech-config.option.fertilizerConfig.workEnergyUsage,Work Energy U
 text.config.oritech-config.option.fluidPipeExtractAmountBuckets,Fluid Pipe Extract Amount Buckets,流体パイプのバケツ単位の抽出量
 text.config.oritech-config.option.fluidPipeExtractIntervalDuration,Fluid Pipe Extract Interval Duration,流体パイプのインターバル時間
 text.config.oritech-config.option.fluidPipeInternalStorageBuckets,Fluid Pipe Internal Storage Buckets,流体パイプの内蔵バケツ量
-text.config.oritech-config.option.generateOresFabricOnly,[Fabric Only] Generate Ores,[Fabric Only] 鉱石の生成
-text.config.oritech-config.option.generateOresFabricOnly.tooltip,"This setting only works on fabric. On Neoforge, a datapack is required because NF is annoying.",この設定はFabricでのみ動作します。Neoforgeは微妙なのでこの設定のためにデータパックが必要です。
+text.config.oritech-config.option.generateOresFabricOnly,[Fabric Only] Generate Ores,[ファブリック Only] 鉱石の生成
+text.config.oritech-config.option.generateOresFabricOnly.tooltip,"This setting only works on fabric. On Neoforge, a datapack is required because NF is annoying.",この設定はファブリックでのみ動作します。Neoforgeは微妙なのでこの設定のためにデータパックが必要です。
 text.config.oritech-config.option.generators.animationSpeedMultiplier,Animation Speed Multiplier,アニメーション速度倍率
 text.config.oritech-config.option.generators.basicGeneratorData.energyCapacity,Energy Capacity,エネルギー容量
 text.config.oritech-config.option.generators.basicGeneratorData.energyPerTick,Energy Per Tick,ティックあたりのエネルギー
@@ -826,7 +826,7 @@ text.config.oritech-config.option.generators.steamEngineData.energyCapacity,Ener
 text.config.oritech-config.option.generators.steamEngineData.maxEnergyExtraction,Max Energy Extraction,最大エネルギー出力量
 text.config.oritech-config.option.generators.steamEngineData.rfToSteamRatio,RF -> Steam Ratio,RF->蒸気の効率
 text.config.oritech-config.option.generators.steamEngineData.rfToSteamRatio.tooltip,Applies to generators with the steam addon. How many droplets of steam will be produced per the usual RF,スチームアドオンされた発電機に適用されます。通常のRFにつき、何mbの蒸気を生産するか
-text.config.oritech-config.option.generators.steamEngineData.steamBoilerCapacityBuckets,Steam Boiler Capacity (in buckets),スチームボイラーの容量（バケツ単位）
+text.config.oritech-config.option.generators.steamEngineData.steamBoilerCapacityBuckets,Steam Boiler Capacity (in buckets),スチームボイラーの容量(バケツ単位)
 text.config.oritech-config.option.generators.steamEngineData.steamBoilerCapacityBuckets.tooltip,Steam capacity of steam-boiler enabled generators and the steam engine.,蒸気生成可能な発電機とスチームエンジンの蒸気の保存可能量。
 text.config.oritech-config.option.generators.steamEngineData.steamToRfRatio,Energy Per Steam Unit (in the steam engine),蒸気単位あたりのエネルギー (蒸気エンジン)
 text.config.oritech-config.option.generators.steamEngineData.stopOnEnergyFull,Stop on full energy storage,エネルギーストレージが満タンで停止
@@ -849,7 +849,7 @@ text.config.oritech-config.option.laserArmConfig.energyPerTick,Energy Per Tick,�
 text.config.oritech-config.option.laserArmConfig.maxEnergyInsertion,Max Energy Insertion,最大エネルギー入力量
 text.config.oritech-config.option.laserArmConfig.range,Range,射程範囲
 text.config.oritech-config.option.layeredExtenders,Layered Extenders,エクステンダーの階層化を許可
-text.config.oritech-config.option.layeredExtenders.tooltip,"When enabled, the machine core quality determines how many layers of machine extenders can be used. If false, its just directly the amount.",この設定を有効にすると、マシンのコア品質に応じて、アドオンエクステンダーを置ける範囲（＝有効距離）が広がります。無効にすると、中心からのブロック数で制限されます。（例：設置しても中心から最大4ブロック分までしか機能しません。）
+text.config.oritech-config.option.layeredExtenders.tooltip,"When enabled, the machine core quality determines how many layers of machine extenders can be used. If false, its just directly the amount.",この設定を有効にすると、マシンのコア品質に応じて、アドオンエクステンダーを置ける範囲(＝有効距離)が広がります。無効にすると、中心からのブロック数で制限されます。(例：設置しても中心から最大4ブロック分までしか機能しません。)
 text.config.oritech-config.option.machineVolumeMultiplier,Machine Sound Volume,機械のサウンドボリューム
 text.config.oritech-config.option.maxGateDist,Maximum Particle Gate Distance,粒子ゲートの最大距離
 text.config.oritech-config.option.maxHeat,Maximum Heat,最大熱量
@@ -969,9 +969,9 @@ text.oritech.accelerator.ui.waiting.0,Waiting.,待機中.
 text.oritech.accelerator.ui.waiting.1,Waiting..,待機中..
 text.oritech.accelerator.ui.waiting.2,Waiting...,待機中...
 text.oritech.augmenter_active,ETA: %s seconds,残り時間： %s 秒
-text.oritech.augmenter_creative_tooltip,"In creative mode, you can research / apply augments without needing the resources to be present.",クリエイティブモードでは、リソースを必要とせずにオーグメントを研究/適用することができます。
+text.oritech.augmenter_creative_tooltip,"In creative mode, you can research / apply augments without needing the resources to be present.",クリエイティブモードでは、リソースを必要とせずにオーグメントを研究/適用できます。
 text.oritech.begin_research,Begin Research,研究開始
-text.oritech.cancel,Cancel,戻る
+text.oritech.cancel,Cancel,キャンセル
 text.oritech.install,Install,インストール
 text.oritech.load_augments.tooltip,Load existing player Augments into the Machine,プレイヤーに適用されているオーグメントを機械にロード
 text.oritech.loaded_augments,Loaded Augments: %s,ロードされたオーグメント： %s
@@ -1019,21 +1019,21 @@ title.oritech.details,Details,詳細
 title.oritech.enchanter.catalysts,%d / %d Catalysts,%d / %d カタリスト
 title.oritech.enchanter.catalysts_available,%d / %d catalysts available,%d / %d カタリストが利用可能
 title.oritech.enchanter.souls_used,%d / %d Souls used,%d / %d ソウルを使用
-title.oritech.energy.inAvgSecond,∅ %s RF/t,∅ %s RF/t（平均入力）
+title.oritech.energy.inAvgSecond,∅ %s RF/t,∅ %s RF/t(平均入力)
 title.oritech.energy.inAvgSecond.tooltip,Average RF/t input over the last second.,直前の１秒間で受信した平均RF/t。
-title.oritech.energy.inLastTick,📈 %s RF/t,📈 %s RF/t（前フレーム入力）
+title.oritech.energy.inLastTick,📈 %s RF/t,📈 %s RF/t(前フレーム入力)
 title.oritech.energy.inLastTick.tooltip,Total amount of RF received in the last game tick.,直前のゲームティックで受信したRFの合計量。
-title.oritech.energy.inPeak,📊 %s RF/t,📊 %s RF/t（ピーク入力）
+title.oritech.energy.inPeak,📊 %s RF/t,📊 %s RF/t(ピーク入力)
 title.oritech.energy.inPeak.tooltip,Highest RF/t received in the last second.,直前の１秒間で受信された中で最も高いRF/t。
 title.oritech.energy.inSources,%s Source(s),%s ソース
 title.oritech.energy.inSources.tooltip,"Number of RF insertion events in the last tick
 (e.g. the number of machines/blocks sending energy to this block).","直前のティックでのRF挿入イベントの総数。
-（例えばこのブロックにエネルギーを送ったブロック・機械の数）"
-title.oritech.energy.outAvgSecond,∅ %s RF/t,∅ %s RF/t（平均出力）
+(例えばこのブロックにエネルギーを送ったブロック・機械の数)"
+title.oritech.energy.outAvgSecond,∅ %s RF/t,∅ %s RF/t(平均出力)
 title.oritech.energy.outAvgSecond.tooltip,Average RF/t output over the last second.,直前の１秒間で送信した平均RF/t。
-title.oritech.energy.outLastTick,📈 %s RF/t,📈 %s RF/t（前フレーム出力）
+title.oritech.energy.outLastTick,📈 %s RF/t,📈 %s RF/t(前フレーム出力)
 title.oritech.energy.outLastTick.tooltip,Amount of RF that was extracted from this block in the last tick.,直前のティックでこのブロックから送信したRFの量。
-title.oritech.energy.outPeak,📊 %s RF/t,📊 %s RF/t（ピーク出力）
+title.oritech.energy.outPeak,📊 %s RF/t,📊 %s RF/t(ピーク出力)
 title.oritech.energy.outPeak.tooltip,Maximum RF/t that was extracted in the last second.,最後の１秒間で送信した最大RF/t。
 title.oritech.inventory_proxy,Machine Inventory Access,機械のインベントリへのアクセス
 title.oritech.item_filter.component,Components,コンポーネント
@@ -1049,10 +1049,10 @@ title.oritech.machine.addon_range,%d Range,+%d 射程
 title.oritech.machine.capacitor_added_capacity,🔋 %d RF ,🔋 %d RF 容量追加
 title.oritech.machine.capacitor_added_throughput,🔋 %d RF/t,🔋 %d RF/t スループット追加
 title.oritech.machine.no_addons,No addons connected,アドオンは接続されていません。
-title.oritech.machine_efficiency,⚡ %s%% ,⚡ %s%%（効率）
+title.oritech.machine_efficiency,⚡ %s%% ,⚡ %s%%(効率)
 title.oritech.machine_energy_production,↗ %d RF/t ,↗ %d RF/t 発電
 title.oritech.machine_option_enabled,🔨 Enabled,🔨 有効
-title.oritech.machine_speed,⌛ %s%% ,⌛ %s%%（速度）
+title.oritech.machine_speed,⌛ %s%% ,⌛ %s%%(速度)
 title.oritech.redstone_input_control,Control Input,入力制御
 title.oritech.redstone_output_active,Activity Measure,アクティビティ測定
 title.oritech.redstone_output_power,Power Measure,電力測定
@@ -1067,7 +1067,7 @@ tooltip.oritech.accelerator_sensor,Emits a redstone signal based on the speed of
 tooltip.oritech.addon_acceptor_desc,Allows energy to be inserted to the addon instead of the machine itself.,機械本体の代わりにこのアドオンにエネルギーを挿入できるようにします。
 tooltip.oritech.addon_boiler_desc,"Allows a generator to produce steam instead of RF. Input water at this addon, and extract steam from it",RFの代わりに発電機が蒸気を生成できるようにします。このアドオンに水を注入し、蒸気を取り出します。
 tooltip.oritech.addon_burst_desc,Allows the machine to operate in very fast bursts. Applicable to processing machines.,非常に高速なバースト動作を可能にします。加工系機械に適用できます。
-tooltip.oritech.addon_capacity_desc,Energy Capacity ,エネルギー容量 
+tooltip.oritech.addon_capacity_desc,Energy Capacity ,エネルギー容量
 tooltip.oritech.addon_combi_burst,Burst Time: %s ticks,バースト可能時間： %s ティック
 tooltip.oritech.addon_combi_crop,Enabled Crop Filter,種のフィルタリングを有効にする
 tooltip.oritech.addon_combi_fluid,Enabled Fluid Processing,流体処理を有効にする
@@ -1075,8 +1075,8 @@ tooltip.oritech.addon_combi_quarry,Quarry Factor: %s,クァーリー係数： %s
 tooltip.oritech.addon_combi_silk,Enabled Silk Touch,シルクタッチを有効にする
 tooltip.oritech.addon_combi_yield,Yield Bonus: %s,生産量ボーナス： %s
 tooltip.oritech.addon_crop_desc,Applicable to Block Destroyer and Enderic Laser. Skips non-grown crops or animals,ブロックデストロイヤーとエンダリックレーザーに適用可能です。成長しきってない作物や動物をスキップします。
-tooltip.oritech.addon_desc,Addon slots: ,アドオンスロット： 
-tooltip.oritech.addon_efficiency_desc,Energy Efficiency ,エネルギー効率 
+tooltip.oritech.addon_desc,Addon slots: ,アドオンスロット：
+tooltip.oritech.addon_efficiency_desc,Energy Efficiency ,エネルギー効率
 tooltip.oritech.addon_extender_desc,Allows additional addons to be connected,アドオンをさらに追加で接続できるようにします。
 tooltip.oritech.addon_fluid_desc,Allows fluid processing. Applicable to centrifuge and drone port.,遠心分離機とドローンポートに適用可能です。機械が流体を扱えるようにします。
 tooltip.oritech.addon_hunter_desc,Applicable to Enderic Laser. Used to target living entities. Range increases with each addon.,エンダリックレーザーに適用可能です。生物のエンティティをターゲットにするために使用します。アドオンを積み増すごとに射程距離が増加します。
@@ -1085,8 +1085,8 @@ tooltip.oritech.addon_proxy_select,Select proxy target slot,対象となるス�
 tooltip.oritech.addon_quarry_desc,Applicable to block destroyer and Enderic Laser. Increases working area size.,ブロックデストロイヤーとエンダリックレーザーに適用可能です。有効範囲のサイズが増加します。
 tooltip.oritech.addon_redstone_desc,Allows further redstone and comparator configuration,レッドストーンやコンパレータの設定をさらに可能にします。
 tooltip.oritech.addon_silk_touch_desc,Applicable Silk Touch on Destroyer and Enderic Laser.,ブロックデストロイヤーとエンダリックレーザーにシルクタッチを適用させます。
-tooltip.oritech.addon_speed_desc,Operation Speed ,動作速度 
-tooltip.oritech.addon_transfer_desc,Energy Transfer Rate ,エネルギー転送速度 
+tooltip.oritech.addon_speed_desc,Operation Speed ,動作速度
+tooltip.oritech.addon_transfer_desc,Energy Transfer Rate ,エネルギー転送速度
 tooltip.oritech.addon_yield_desc,Doubles byproduct amount in Fragment Forge. Increases block breaking yield in Block Destroyer and Enderic Laser.,フラグメントフォージでの副産物を２倍にします。ブロックデストロイヤーとエンダリックレーザーでのブロック破壊時のドロップ量が増加します。
 tooltip.oritech.augment_research_station,"Is built on research station slots, similar to addon slots.",アドオンスロットのように、研究ステーションのスロットに設置してください。
 tooltip.oritech.augmenter.1,Used for cybernetic augmentations. Can be used to install and remove augments.,サイバネティックオーグメントに使用します。オーグメントのインストールと除去に使用します。
@@ -1104,20 +1104,20 @@ tooltip.oritech.chambers,"Each extra processing chamber means that the machine w
 process X additional items each cycle.",追加した補助処理室アドオンの数だけ、1回の処理で扱えるアイテムが増えます。
 tooltip.oritech.charger,Used to charge and fill equipment.,装備の充電と燃料の供給に使用します。
 tooltip.oritech.combi_addon_desc,Only works if it is the first and only applied addon.,これが最初に適用された唯一のアドオンである場合にのみ動作します。
-tooltip.oritech.cooler_block,Works twice as fast (and efficient) in cold biomes.,冷たいバイオームでは2倍の速さ（と効率）になります。
-tooltip.oritech.core_desc,Multiblock. Required Machine Cores: ,マルチブロックです。必要なマシンコアの数： 
-tooltip.oritech.cost_tooltip,Cost: ,コスト： 
+tooltip.oritech.cooler_block,Works twice as fast (and efficient) in cold biomes.,冷たいバイオームでは2倍の速さ(と効率)になります。
+tooltip.oritech.core_desc,Multiblock. Required Machine Cores: ,マルチブロックです。必要なマシンコアの数：
+tooltip.oritech.cost_tooltip,Cost: ,コスト：
 tooltip.oritech.creative_tank,Right click with a bucket to set or an empty one to empty.,中身の入ったバケツを右クリックして設定する。空のバケツなら中身を空にします。
 tooltip.oritech.electric_mace,Unleashes a small lightning storm when attacking. Works similar to a normal mace.,攻撃すると小さな雷を放ちます。通常のメイスと同様の効果があります。
 tooltip.oritech.electric_mace.1,Maces deal increased damage when attacking while falling from a great height.,メイス同様、高所から落下しながら攻撃するとダメージが増加します。
 tooltip.oritech.enchanter,Applies enchantments using energy and souls from nearby catalysts.,近くのカタリストからエネルギーとソウルを使用してエンチャントを適用します。
-tooltip.oritech.enchanter_catalysts_ready," Catalysts"," カタリスト"
+tooltip.oritech.enchanter_catalysts_ready," Catalysts",カタリスト
 tooltip.oritech.enchanter_item_needed,Insert Item,アイテムの挿入
 tooltip.oritech.enchanter_selection,Select Enchantment,エンチャントを選択
-tooltip.oritech.enchanter_souls_used," Souls Used"," ソウルを使用"
+tooltip.oritech.enchanter_souls_used," Souls Used",ソウルを使用
 tooltip.oritech.energy_capacity,%d RF,容量: %d RF
 tooltip.oritech.energy_indicator,%d/%d RF,%d / %d RF
-tooltip.oritech.energy_max_transfer,Max Transfer Rate: ,最大転送速度： 
+tooltip.oritech.energy_max_transfer,Max Transfer Rate: ,最大転送速度：
 tooltip.oritech.energy_stored,Stored: %d RF,貯蔵量： %d RF
 tooltip.oritech.energy_transfer_rate,%d RF/t,転送速度: %d RF/t
 tooltip.oritech.energy_usage,"%s / %s RF
@@ -1140,7 +1140,7 @@ tooltip.oritech.fluid_empty,Empty,空
 tooltip.oritech.fluxite,Can also be created by harvesting grown amethyst with an enderic laser,エンダリックレーザーで育ったアメジストを収穫することで作成可能です。
 tooltip.oritech.frame_needed,Must be built on a machine frame,マシンフレームに隣接している必要があります。
 tooltip.oritech.fuel_generator_block.extra,Outputs energy only at the visual connector ports.,エネルギーは見た目通りの接続ポートからのみ出力できます。
-tooltip.oritech.generator_rate_desc,Production: ,生産： 
+tooltip.oritech.generator_rate_desc,Production: ,生産：
 tooltip.oritech.input_mode_fill_evenly,"Fills items evenly. New items are always
 put into the lowest matching slot.","アイテムを均等に振り分けます。新しいアイテムは
 常に数の少ない一致するスロットに入れられます。"
@@ -1149,9 +1149,7 @@ next slot when the first has been filled.","左から右へスロットを埋め
 最初のスロットが埋まったら次の列へ移動します。"
 tooltip.oritech.input_mode_sided,"Items interactions are sided.
 
-","面ごとにアイテムのやり取りをする。
-
-"
+",面ごとにアイテムのやり取りをする。
 tooltip.oritech.item_extra_info,Hold ctrl for more info,ctrlを押して詳しい情報を表示
 tooltip.oritech.item_filter,Used to filter which items can be inserted into an inventory.,インベントリに挿入するアイテムをフィルタリングするために使用します。
 tooltip.oritech.item_filter.blacklist,"Currently only allows items through which 
@@ -1175,7 +1173,7 @@ tooltip.oritech.jetpack_usage2,Is faster with turbofuel.,ターボ燃料があ�
 tooltip.oritech.laser_arm.addon_hunter_damage,Effective Beam Damage,有効ビームダメージ
 tooltip.oritech.laser_arm.addon_hunter_range,Effective beam range,有効ビーム範囲
 tooltip.oritech.laser_arm.addon_range,Effective beam radius,有効ビーム半径
-tooltip.oritech.laser_arm_block.extra,Can also be built on walls and ceilings.,また、壁や天井に設置することができます。
+tooltip.oritech.laser_arm_block.extra,Can also be built on walls and ceilings.,また、壁や天井に設置できます。
 tooltip.oritech.machine.addon_fortune,Yield addon count. 3 is the effective maximum,生成量アドオンの数です。最大値は3です。
 tooltip.oritech.machine.addon_looting,Yield addon count. 3 is the effective maximum,生成量アドオンの数です。最大値は3です。
 tooltip.oritech.machine.addon_silk_touch,"When Silk Touch addon and Fortune Addon are installed at the same time, Silk Touch takes priority.",シルクタッチアドオンと幸運アドオンが同時にインストールされると、シルクタッチが優先されます。
@@ -1196,30 +1194,27 @@ Current quality progress: %s","機械の品質： %d
 より良いコアを使用することで品質を向上できます。
 
 詳細な現在の品質の段階： %s"
-tooltip.oritech.machine_capacity_desc,Energy Capacity: ,エネルギー容量： 
-tooltip.oritech.machine_core_block,Better cores only allow more addon extenders to be connected.,高性能のコアほど、より多くのマシンエクステンダーを接続することができます。
+tooltip.oritech.machine_capacity_desc,Energy Capacity: ,エネルギー容量：
+tooltip.oritech.machine_core_block,Better cores only allow more addon extenders to be connected.,高性能のコアほど、より多くのマシンエクステンダーを接続できます。
 tooltip.oritech.machine_efficiency,Energy Efficiency Change,エネルギー効率の変化率
 tooltip.oritech.machine_frame,Yes there is a config option to change the bounding box of this.,オプションで当たり判定や有効範囲を変えられます。
 tooltip.oritech.machine_frame.1,Max Length: %sx%s blocks.,最大長： %sx%s ブロック。
-tooltip.oritech.machine_rate_desc,Energy Usage: ,消費エネルギー： 
+tooltip.oritech.machine_rate_desc,Energy Usage: ,消費エネルギー：
 tooltip.oritech.machine_speed,Processing Speed,処理速度
 tooltip.oritech.million_abbrev,M,百万
 tooltip.oritech.mode_sided_bottom,"%s: Extract only
-","%s: 搬出限定
-"
+",%s: 搬出限定
 tooltip.oritech.mode_sided_slot_number,"%s: Slot %s
-","%s： スロット %s 
-"
+",%s： スロット %s
 tooltip.oritech.mode_sided_top,"%s: Input only
-","%s: 搬入限定
-"
+",%s: 搬入限定
 tooltip.oritech.motor,Right click an item pipe extraction interface to upgrade it to extract from all slots.,アイテムパイプの抽出面を右クリックして、すべてのスロットから取り出せるようにアップグレードできます。
 tooltip.oritech.needs_laser_power,Must be powered via an enderic laser,エンダリックレーザーを介して給電する必要があります。
-tooltip.oritech.oracle_available,Open the corresponding help page in the Oracle Index.,Oracle Indexで対応するヘルプページを開きます。
-tooltip.oritech.oracle_missing,Oracle Index Wiki Mod is not installed. Ingame help is not available.,Oracle Index Wiki Modがインストールされてないため、ゲーム内のヘルプが利用できません。
+tooltip.oritech.oracle_available,Open the corresponding help page in the Oracle Index.,オラクル Indexで対応するヘルプページを開きます。
+tooltip.oritech.oracle_missing,Oracle Index Wiki Mod is not installed. Ingame help is not available.,オラクル Index Wiki Modがインストールされてないため、ゲーム内のヘルプが利用できません。
 tooltip.oritech.overchargedcrystal,Unending amounts of raw energy seem to be contained within it.,この中には、無限の原始的なエネルギーが含まれているようです。
 tooltip.oritech.particle_collector,Collects the energy of tachyons emitted by particle collisions.,粒子衝突によって放出されたタキオンのエネルギーを集めます。
-tooltip.oritech.pipe_booster,Increases the extraction speed of a fluid/item pipe behind it,後ろにある流体またはアイテムパイプの抽出速度を向上させます。
+tooltip.oritech.pipe_booster,Increases the extraction speed of a fluid/item pipe behind it,後ろにある流体/アイテムパイプの抽出速度を向上させます。
 tooltip.oritech.pipe_duct_warning,"Only connects to pipes, not machines.",パイプとだけ接続し、機械とは接続しません。
 tooltip.oritech.plutonium_pellet,Used as nuclear reactor fuel.,原子炉の燃料として使用します。
 tooltip.oritech.portable_laser.1,"Left mouse fires a continous beam that can transfer energy, mine blocks, damage",左クリックは超直線的ビームを発射します。エネルギーの輸送、ブロックの採掘、エンティティに
@@ -1228,14 +1223,14 @@ tooltip.oritech.portable_laser.3,Right-Click creates a high-energy explosion.,�
 tooltip.oritech.portable_laser.4,,
 tooltip.oritech.portable_laser.5,"Works with most pickaxe enchantments, unbreaking, and sharpness.",ほとんどのツルハシのエンチャント、不可壊、ダメージ増加も機能します。
 tooltip.oritech.portable_laser.status.begin,Mining Mode: ,採掘モード：
-tooltip.oritech.portable_laser.status.hint," (Sneak + Right-Click to toggle)",（スニーク＋右クリックで切り替え）
+tooltip.oritech.portable_laser.status.hint," (Sneak + Right-Click to toggle)",(スニーク＋右クリックで切り替え)
 tooltip.oritech.portable_laser.status.shot_mining_error,"No shot fired, mining mode is enabled.",採掘モードが有効なので、弾は発射されませんでした。
 tooltip.oritech.processing_addon_desc,Allows an additional recipe instance to be processed per cycle.,レシピ1回の処理サイクルで、並列処理をして同時に複数アイテムを処理できるようにします。
 tooltip.oritech.progress_indicator,"%d / %d ticks
 (base %d ticks)","%d / %d ティック
-（基本 %d ティック）"
+(基本 %d ティック)"
 tooltip.oritech.promethium_axe,Sneak while harvesting to break the entire tree,スニークしながら伐採で木全体を壊すことができます。
-tooltip.oritech.promethium_pick,Shift + right click to switch mode,Shift + 右クリックでモードを切り替えます。
+tooltip.oritech.promethium_pick,Shift + right click to switch mode,シフト + 右クリックでモードを切り替えます。
 tooltip.oritech.pulverizer_dust_combine,Auto-combines small dusts to ingots.,自動的に小さい粉などをインゴットに結合する。
 tooltip.oritech.pump_redstone,Can be disabled with a redstone signal.,レッドストーン信号で無効にできます。
 tooltip.oritech.reactor_absorber_port,This is where coolant is supplied to reactor heat absorbers.,リアクター吸収ポート
@@ -1253,7 +1248,7 @@ tooltip.oritech.reactor_controller.5,a nuclear reactor.,原子炉の操作時は
 tooltip.oritech.reactor_double_rod,"The core of your reactor. Must be placed inside a reactor, with a fuel port on top.",リアクターダブルロッド
 tooltip.oritech.reactor_double_rod.0,,
 tooltip.oritech.reactor_double_rod.1,"Heat generated from this component can be removed with heat pipes, absorbers or",設置してください。この部品から生成された熱は、ヒートパイプ、
-tooltip.oritech.reactor_double_rod.2,vents.,熱吸収体、または排気口で除去することができます。
+tooltip.oritech.reactor_double_rod.2,vents.,熱吸収体、または排気口で除去できます。
 tooltip.oritech.reactor_energy_port,Outputs the energy of the reactor.,リアクターエネルギーポート
 tooltip.oritech.reactor_energy_port.0,,
 tooltip.oritech.reactor_energy_port.rate,Max Rate: %s RF/t.,出力上限： %s RF/t.
@@ -1268,7 +1263,7 @@ tooltip.oritech.reactor_port_mode.2,Output Energy Amount,エネルギー量を�
 tooltip.oritech.reactor_quad_rod,"The core of your reactor. Must be placed inside a reactor, with a fuel port on top.",リアクタークワッドロッド
 tooltip.oritech.reactor_quad_rod.0,,
 tooltip.oritech.reactor_quad_rod.1,"Heat generated from this component can be removed with heat pipes, absorbers or",設置してください。この部品から生成された熱は、ヒートパイプ、
-tooltip.oritech.reactor_quad_rod.2,vents.,熱吸収体、または排気口で除去することができます。
+tooltip.oritech.reactor_quad_rod.2,vents.,熱吸収体、または排気口で除去できます。
 tooltip.oritech.reactor_redstone_port,"Allows the reactor to be controlled via redstone, and can be read with a comparator.",リアクターレッドストーンポート
 tooltip.oritech.reactor_redstone_port.0,,
 tooltip.oritech.reactor_redstone_port.1,A redstone signal to this block will disable the INSERTION of new fuel. Already consumed fuel,このブロックへのレッドストーン信号は新しい燃料の「挿入」を無効にします。
@@ -1279,11 +1274,11 @@ tooltip.oritech.reactor_reflector,Increases the efficiency of nearby reactor rod
 tooltip.oritech.reactor_rod,"The core of your reactor. Must be placed inside a reactor, with a fuel port on top.",リアクターロッド
 tooltip.oritech.reactor_rod.0,,
 tooltip.oritech.reactor_rod.1,"Heat generated from this component can be removed with heat pipes, absorbers or",設置してください。この部品から生成された熱は、ヒートパイプ、
-tooltip.oritech.reactor_rod.2,vents.,熱吸収体、または排気口で除去することができます。
+tooltip.oritech.reactor_rod.2,vents.,熱吸収体、または排気口で除去できます。
 tooltip.oritech.reactor_vent,Removes heat from the hottest neighboring component.,リアクターベント
 tooltip.oritech.reactor_vent.0,,
 tooltip.oritech.reactor_vent.1,Max heat removal amount is calculated as follows:,最大熱除去量は次のように計算されます：
-tooltip.oritech.reactor_vent.2,4 + (temperature difference) / 100,4 + （温度の差） / 100
+tooltip.oritech.reactor_vent.2,4 + (temperature difference) / 100,4 + (温度の差) / 100
 tooltip.oritech.reactor_wall,Durable plating for the outer layer of the nuclear reactor.,原子炉の外壁を形作る高耐久性メッキです。
 tooltip.oritech.redstone_disabled,Stopped,停止しました
 tooltip.oritech.redstone_disabled.tooltip,This machine has been disabled with an active redstone signal.,この機械は、レッドストーン信号がオンのため使用不可になっています。
@@ -1302,7 +1297,7 @@ tooltip.oritech.redstone_output_active,Comparators will measure whether the mach
 tooltip.oritech.redstone_output_power,Comparators will measure the energy storage,コンパレーターでエネルギー貯蔵量を測定できます。
 tooltip.oritech.redstone_output_progress,Comparators will measure the current recipe progress,コンパレーターで現在のレシピの進捗状況を測定できます。
 tooltip.oritech.redstone_output_slot,Comparators will measure selected inventory slot,コンパレーターで選択したスロットを測定できます。
-tooltip.oritech.refinery_block,Can have up to 2 refinery tank chambers on top of it.,この上面に最大2つまで精製チャンバーを設置することができます。
+tooltip.oritech.refinery_block,Can have up to 2 refinery tank chambers on top of it.,この上面に最大2つまで精製チャンバーを設置できます。
 tooltip.oritech.refinery_module,Up to 2 of these can be placed on top of a refinery.,これを最大2つまで精製機の上に置くことができます。
 tooltip.oritech.refinery_module_count,"Two extra chamber tank modules can be built on top to unlock the respective tanks.
 Having no modules doubles the item and first slow output.
@@ -1320,11 +1315,11 @@ tooltip.oritech.spawner,Traps the first mob that walks on it in a cage underneat
 tooltip.oritech.spawner.collected_souls,%d / %d Souls,%d / %d ソウル
 tooltip.oritech.spawner2,Collects and uses souls from entities parting nearby.,近くの倒れたエンティティからソウルを収集して使用します。
 tooltip.oritech.spawner_cage,Used to build a cage of the required size under the spawner controller.,スポナーコントローラーの下に、必要なサイズの枠を構築するために使用します。
-tooltip.oritech.steam_consumption,Total steam consumption in storage units (droplets) per tick (includes chained generators),ティックあたりの単位蒸気（su）の合計消費量（連結された発電機を含む）
-tooltip.oritech.steam_energy_production,Total production (includes chained generators),合計生産量（連結された発電機を含む）
+tooltip.oritech.steam_consumption,Total steam consumption in storage units (droplets) per tick (includes chained generators),ティックあたりの単位蒸気(su)の合計消費量(連結された発電機を含む)
+tooltip.oritech.steam_energy_production,Total production (includes chained generators),合計生産量(連結された発電機を含む)
 tooltip.oritech.steam_engine,Processes steam into RF and water. Can be chained together by,蒸気をRFと水に加工します。一直線に複数設置すれば、
 tooltip.oritech.steam_engine.1,building multiple in a line. Only the first engine needs to be,連結動作が可能です。連結中は先頭のエンジンを操作してください。
-tooltip.oritech.steam_engine.2,interacted with (e.g. input steam only to the first engine).,（例：最初のエンジンにのみ蒸気を挿入します）
+tooltip.oritech.steam_engine.2,interacted with (e.g. input steam only to the first engine).,(例：最初のエンジンにのみ蒸気を挿入します)
 tooltip.oritech.steam_production,Amount of steam droplets produced per tick. Any excess will be lost when the storage is full.,ティックあたりの蒸気生成量です。貯蔵量がいっぱいになると、あふれた蒸気は失われます。
 tooltip.oritech.steam_workers,Chained steam generators will share/use the steam and water tank of this block.,連結されたスチームエンジンは、このブロックの蒸気と水タンクを共有・使用します。
 tooltip.oritech.superconductor,Cannot connect to normal energy pipes.,通常のエネルギーパイプには接続できません。

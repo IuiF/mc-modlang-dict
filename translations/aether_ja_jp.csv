@@ -6,7 +6,7 @@ accessories.slot.aether.pendant_slot,Pendant,ペンダント
 accessories.slot.aether.ring_slot,Ring,リング
 accessories.slot.aether.shield_slot,Shield,盾
 advancement.aether.aether_sleep,A Well Earned Rest,勝ち取った休息
-advancement.aether.aether_sleep.desc,Finally sleep in the Aether,（やっと）エーテルで寝る
+advancement.aether.aether_sleep.desc,Finally sleep in the Aether,(やっと)エーテルで寝る
 advancement.aether.black_moa,Let's Fly!,さあ、飛ぼう！
 advancement.aether.black_moa.desc,Ride a Black Moa,黒いモアに乗る
 advancement.aether.blue_aercloud,To Infinity and Beyond!,無限の彼方へ！
@@ -46,7 +46,7 @@ advancement.aether.obtain_petal.desc,Harvest an Aechor Petal from an Aechor Plan
 advancement.aether.phoenix_armor,Fireproof,防火
 advancement.aether.phoenix_armor.desc,Obtain a piece of Phoenix armor from the Gold Dungeon,ゴールドダンジョンから不死鳥防具を入手する
 advancement.aether.prevent_aechor_petal_spawning,Tending The Garden,庭のお手入れ
-advancement.aether.prevent_aechor_petal_spawning.desc,Deter Aechor Plants by planting a flower on Enchanted Grass,エンチャントされた草ブロックに花を植えることで、エーコル草の防除を行う
+advancement.aether.prevent_aechor_petal_spawning.desc,Deter Aechor Plants by planting a flower on Enchanted Grass,エンチャントされた草ブロックに花を植えることで、エーコル草の防除する
 advancement.aether.prevent_swet_spawning,Get Off My Lawn!,さっさと出ていきな！
 advancement.aether.prevent_swet_spawning.desc,Deter Swets by placing down a Swet Banner,スェットの旗を設置し、スェットを追い払う
 advancement.aether.read_lore,The More You Know!,知れば知るほど！
@@ -100,11 +100,11 @@ aether.configuration.World Generation,World Generation,ワールド生成
 aether.configuration.World Generation.button,Options,設定
 aether.configuration.World Generation.tooltip,Config options that affect the mod's world generation,Modのワールド生成に影響する設定
 aether.configuration.section.aether.client.toml,Client Settings,クライアント設定
-aether.configuration.section.aether.client.toml.title,The Aether Client Configuration,The Aether クライアント設定
+aether.configuration.section.aether.client.toml.title,The Aether Client Configuration,そのAether クライアント設定
 aether.configuration.section.aether.common.toml,Common Settings,共通設定
 aether.configuration.section.aether.common.toml.title,The Aether Common Configuration,The Aether 共通設定
 aether.configuration.section.aether.server.toml,Server Settings,サーバー設定
-aether.configuration.section.aether.server.toml.title,The Aether Server Configuration,The Aether サーバー設定
+aether.configuration.section.aether.server.toml.title,The Aether Server Configuration,そのAether サーバー設定
 aether.configuration.title,The Aether Configuration,The Aether 設定
 aether.dungeon.bronze_dungeon,Bronze Dungeon,ブロンズダンジョン
 aether.dungeon.gold_dungeon,Gold Dungeon,ゴールドダンジョン
@@ -113,9 +113,9 @@ aether.gold_treasure_chest_locked,This Treasure Chest must be unlocked with a Go
 aether.hammer_of_kingbdogz_cooldown,Cooldown,クールダウン
 aether.life_shard_limit,You can only use a total of %s Life Shards.,使用できるライフシャードは、合計%s個のみです
 aether.loot,Aether Loot,エーテルのお宝
-aether.menu_title.minecraft_left,Minecraft (Left),Minecraft（左寄り）
+aether.menu_title.minecraft_left,Minecraft (Left),Minecraft(左寄り)
 aether.menu_title.the_aether,The Aether,エーテル界
-aether.menu_title.the_aether_left,The Aether (Left),The Aether（左）
+aether.menu_title.the_aether_left,The Aether (Left),The Aether(左)
 aether.pro_tips.line.aether.aerogel_explosion_resistance,"Aerogel acts as an explosion-resistant, transparent block.",エアロゲルは爆発耐久性を持つ透明なブロックだ。
 aether.pro_tips.line.aether.aether_day_length,Days in the Aether realm last 3 times longer than surface days.,エーテル界での1日は地上の3倍長い。
 aether.pro_tips.line.aether.altar_repairing,Altars can repair damaged items and enhance existing items.,祭壇はアイテムを修理し、既存のアイテムの能力を高められる。
@@ -324,8 +324,8 @@ config.aether.client.audio.disable_aether_boss_music,"Disables the Aether's boss
 config.aether.client.audio.disable_aether_boss_music.tooltip,"Disables the Aether's boss fight music, only works if 'Disables Aether music manager' is false",エーテルのボス戦のBGMを無効にする。なお「Disables Aether music manager」がfalseの場合のみ有効。
 config.aether.client.audio.disable_aether_menu_music,"Disables the Aether's menu music in case another mod implements its own, only works if 'Disables Aether music manager' is false",別のMODが独自のメニュー音楽を実装している場合、エーテルのメニュー音楽を無効にする。'Disables Aether music manager' 設定がfalseの場合にのみ働く
 config.aether.client.audio.disable_aether_menu_music.tooltip,"Disables the Aether's menu music in case another mod implements its own, only works if 'Disables Aether music manager' is false",別のMODが独自のメニュー音楽を実装している場合、エーテルのメニュー音楽を無効にする。'Disables Aether music manager' 設定がfalseの場合にのみ働く
-config.aether.client.audio.disable_aether_world_preview_menu_music,"Disables the menu music on the Aether world preview menu, only works if 'Disables Aether music manager' is false",エーテルのワールドプレビュー時のメニュー音楽を無効にする。 'Disables Aether music manager' 設定がfalseの場合にのみ働く
-config.aether.client.audio.disable_aether_world_preview_menu_music.tooltip,"Disables the menu music on the Aether world preview menu, only works if 'Disables Aether music manager' is false",エーテルのワールドプレビュー時のメニュー音楽を無効にする。 'Disables Aether music manager' 設定がfalseの場合にのみ働く
+config.aether.client.audio.disable_aether_world_preview_menu_music,"Disables the menu music on the Aether world preview menu, only works if 'Disables Aether music manager' is false",エーテルのワールドプレビュー時のメニュー音楽を無効にする。'Disables Aether music manager' 設定がfalseの場合にのみ働く
+config.aether.client.audio.disable_aether_world_preview_menu_music.tooltip,"Disables the menu music on the Aether world preview menu, only works if 'Disables Aether music manager' is false",エーテルのワールドプレビュー時のメニュー音楽を無効にする。'Disables Aether music manager' 設定がfalseの場合にのみ働く
 config.aether.client.audio.disable_music_manager,"Disables the Aether's internal music manager, if true, this overrides all other audio configs",エーテル音楽マネージャーを無効にする。trueの場合、他のすべてのオーディオ設定をオーバーライドする
 config.aether.client.audio.disable_music_manager.tooltip,"Disables the Aether's internal music manager, if true, this overrides all other audio configs",エーテル音楽マネージャーを無効にする。trueの場合、他のすべてのオーディオ設定をオーバーライドする
 config.aether.client.audio.disable_vanilla_world_preview_menu_music,"Disables the menu music on the vanilla world preview menu, only works if 'Disables Aether music manager' is false",バニラのワールドプレビュー時のメニュー音楽を無効にする。'Disables Aether music manager' 設定がfalseの場合にのみ働く
@@ -334,10 +334,10 @@ config.aether.client.audio.music_backup_max_delay,Sets the maximum delay for the
 config.aether.client.audio.music_backup_max_delay.tooltip,Sets the maximum delay for the Aether's music manager to use if needing to reset the song delay outside the Aether,エーテル外での曲の遅延をリセットする必要がある場合に使用する、エーテル音楽マネージャーの最大遅延を設定する
 config.aether.client.audio.music_backup_min_delay,Sets the minimum delay for the Aether's music manager to use if needing to reset the song delay outside the Aether,エーテル外での曲の遅延をリセットする必要がある場合に使用する、エーテル音楽マネージャーの最小遅延を設定する
 config.aether.client.audio.music_backup_min_delay.tooltip,Sets the minimum delay for the Aether's music manager to use if needing to reset the song delay outside the Aether,エーテル外での曲の遅延をリセットする必要がある場合に使用する、エーテル音楽マネージャーの最小遅延を設定する
-config.aether.client.gui.align_aether_menu_elements_left,"Aligns the elements of the Aether menu to the left, only works if 'Align menu left with world preview' is set to false",エーテルのメニューの要素を左に揃える。'Align menu left with world preview' がfalseの場合にのみ働く
-config.aether.client.gui.align_aether_menu_elements_left.tooltip,"Aligns the elements of the Aether menu to the left, only works if 'Align menu left with world preview' is set to false",エーテルのメニューの要素を左に揃える。'Align menu left with world preview' がfalseの場合にのみ働く
-config.aether.client.gui.align_vanilla_menu_elements_left,"Aligns the elements of the vanilla menu to the left, only works if 'Align menu left with world preview' is set to false",バニラのメニューの要素を左に揃える。'Align menu left with world preview' がfalseの場合にのみ働く
-config.aether.client.gui.align_vanilla_menu_elements_left.tooltip,"Aligns the elements of the vanilla menu to the left, only works if 'Align menu left with world preview' is set to false",バニラのメニューの要素を左に揃える。'Align menu left with world preview' がfalseの場合にのみ働く
+config.aether.client.gui.align_aether_menu_elements_left,"Aligns the elements of the Aether menu to the left, only works if 'Align menu left with world preview' is set to false",エーテルのメニューの要素を左に揃える。'Align menu leftでworld preview' がfalseの場合にのみ働く
+config.aether.client.gui.align_aether_menu_elements_left.tooltip,"Aligns the elements of the Aether menu to the left, only works if 'Align menu left with world preview' is set to false",エーテルのメニューの要素を左に揃える。'Align menu leftでworld preview' がfalseの場合にのみ働く
+config.aether.client.gui.align_vanilla_menu_elements_left,"Aligns the elements of the vanilla menu to the left, only works if 'Align menu left with world preview' is set to false",バニラのメニューの要素を左に揃える。'Align menu leftでworld preview' がfalseの場合にのみ働く
+config.aether.client.gui.align_vanilla_menu_elements_left.tooltip,"Aligns the elements of the vanilla menu to the left, only works if 'Align menu left with world preview' is set to false",バニラのメニューの要素を左に揃える。'Align menu leftでworld preview' がfalseの場合にのみ働く
 config.aether.client.gui.button_accessories_x,The x-coordinate of the accessories button in the accessories menu,アクセサリーメニューのアクセサリーボタンのx座標
 config.aether.client.gui.button_accessories_x.tooltip,The x-coordinate of the accessories button in the accessories menu,アクセサリーメニューのアクセサリーボタンのx座標
 config.aether.client.gui.button_accessories_y,The y-coordinate of the accessories button in the accessories menu,アクセサリーメニューのアクセサリーボタンのy座標
@@ -390,8 +390,8 @@ config.aether.common.gameplay.repeat_sun_spirit_dialogue,Determines whether the 
 config.aether.common.gameplay.repeat_sun_spirit_dialogue.tooltip,Determines whether the Sun Spirit's dialogue when meeting him should play through every time you meet him,太陽の精霊の台詞が、会うたびに再生されるかどうかを決定する
 config.aether.common.gameplay.reposition_slider_message,Moves the message for when a player attacks the Slider with an incorrect item to be above the hotbar instead of in chat,プレイヤーが間違ったアイテムでスライダーを攻撃したときのメッセージ表示を、チャット内からホットバー上部に切り替える。
 config.aether.common.gameplay.reposition_slider_message.tooltip,Moves the message for when a player attacks the Slider with an incorrect item to be above the hotbar instead of in chat,プレイヤーが間違ったアイテムでスライダーを攻撃したときのメッセージ表示を、チャット内からホットバー上部に切り替える。
-config.aether.common.gameplay.show_patreon_message,Determines if a message that links The Aether mod's Patreon should show,エーテルModのPatreonにリンクするメッセージを表示するかを決める
-config.aether.common.gameplay.show_patreon_message.tooltip,Determines if a message that links The Aether mod's Patreon should show,エーテルModのPatreonにリンクするメッセージを表示するかを決める
+config.aether.common.gameplay.show_patreon_message,Determines if a message that links The Aether mod's Patreon should show,エーテルModのパトレオンにリンクするメッセージを表示するかを決める
+config.aether.common.gameplay.show_patreon_message.tooltip,Determines if a message that links The Aether mod's Patreon should show,エーテルModのパトレオンにリンクするメッセージを表示するかを決める
 config.aether.common.gameplay.start_with_portal,"On world creation, the player is given an Aether Portal Frame item to automatically go to the Aether with",ワールド生成時、エーテルに自動的に移動できるエーテルポータルフレームがプレイヤーに与えられる
 config.aether.common.gameplay.start_with_portal.tooltip,"On world creation, the player is given an Aether Portal Frame item to automatically go to the Aether with",ワールド生成時、エーテルに自動的に移動できるエーテルポータルフレームがプレイヤーに与えられる
 config.aether.common.gameplay.use_default_accessories_menu,Use the default accessories menu instead of the Aether's Accessories Menu. WARNING: Do not enable this without emptying your equipped accessories,Aetherのアクセサリーメニューの代わりにデフォルトのアクセサリーメニューを使用する。警告: 装備中のアクセサリーを空にせずに有効にしないでください
@@ -861,7 +861,7 @@ lore.block.aether.ambrosium_ore,The most common ore in the Aether. The ore's dro
 lore.block.aether.ambrosium_torch,"The main light source in the Aether, made from a Skyroot Stick and Ambrosium Shard.",スカイルートとアンブロシアで作られる、エーテルでの主な光源。
 lore.block.aether.angelic_slab,"Crafted from Angelic Stone. Slabs are half blocks, versatile for decoration and smooth slopes. Try adding some to a building's roofing!",神聖石からクラフトされる。ハーフブロックは様々な飾りや、滑らかなスロープを作るのに便利だ。建物の屋根に使ってみよう！
 lore.block.aether.angelic_stairs,Crafted from Angelic Stone. Stairs are useful for adding verticality to builds and are often used for decoration too!,神聖石からクラフトされる。階段は建物に垂直性を足す以外にも、装飾に使えるぞ！
-lore.block.aether.angelic_stone,"Angelic Stone is the main block that makes up Silver Dungeons. There is a chance some of them can be traps when generated in dungeons, but you cannot collect them as traps. It is unbreakable until you have defeated the boss, but it's worth it for that block.",神聖石はシルバーダンジョンを構成する主なブロック。ダンジョンで自然生成されるものの中には罠になっているものもあるが、これらは罠の機能を保持したまま回収することができない。ボスを倒すまで破壊不可能だが、その分装飾品としての価値は非常に高い。
+lore.block.aether.angelic_stone,"Angelic Stone is the main block that makes up Silver Dungeons. There is a chance some of them can be traps when generated in dungeons, but you cannot collect them as traps. It is unbreakable until you have defeated the boss, but it's worth it for that block.",神聖石はシルバーダンジョンを構成する主なブロック。ダンジョンで自然生成されるもの中には罠になっているものもあるが、これらは罠の機能を保持したまま回収することができない。ボスを倒すまで破壊不可能だが、その分装飾品としての価値は非常に高い。
 lore.block.aether.angelic_wall,Crafted from Angelic Stone. Can be used for decorative enclosures and defenses. Great for keeping nasty intruders away!,神聖石からクラフトされる。装飾的な囲いや防御壁に使える。嫌な侵入者を防ぐのに最適だ！
 lore.block.aether.berry_bush,"These bushes can be found all over the Aether. They provide Blue Berries when broken and then turn into bare stems. If placed on Enchanted Aether Grass, the drops are doubled.",この低木はエーテル各地で自生している。壊すと蒼いベリーを落とし、裸の枝のみの姿に変わる。エンチャントされたエーテル草に植えられると、ベリーのドロップが倍増される。
 lore.block.aether.berry_bush_stem,This is the result of harvesting the Blue Berries from a Berry Bush. It can take some time for them to grow back.,蒼いベリーをベリーの低木から収穫した結果が、このアイテム。再びベリーが実るのには時間を要する。
@@ -915,7 +915,7 @@ lore.block.aether.pillar_top,The top of the Silver Dungeon's decorative pillars;
 lore.block.aether.present,"Break this to get a wonderful holiday gift! Be careful, as there's a chance you could get ssssssurprised!",壊すと素敵なホリデーギフトがもらえます！ただし、驚かされる可能性もあるのでご注意を！
 lore.block.aether.purple_flower,These pretty violet flowers can be found in large numbers around the Aether. They can be crafted into Purple Dye when placed in a Crafting Table.,これらの美しい紫色の花はエーテル中で群落を形成している。作業台に入れることで紫色の染料にクラフトできる。
 lore.block.aether.quicksoil,"A silky sand with extremely slippery properties. It can be seen floating on the side of the Aether's islands. Be careful around it, or you'll fall off.",非常に滑りやすい性質を持つ、滑らかな砂。エーテルの島の端でみられる。付近を歩くときは足元に注意しないと、落下してしまうぞ。
-lore.block.aether.quicksoil_glass,"After enchanting Quicksoil, you can get this tinted glass. It is slightly slippery and makes for a great window.",流土をエンチャントすると、この着色されたガラスを手に入れられる。滑りやすい性質は少し残っているものの、窓としては良い働きをしてくれるだろう。
+lore.block.aether.quicksoil_glass,"After enchanting Quicksoil, you can get this tinted glass. It is slightly slippery and makes for a great window.",流土をエンチャントすると、この着色されたガラスを手に入れられる。滑りやすい性質は少し残っているもの、窓としては良い働きをしてくれるだろう。
 lore.block.aether.quicksoil_glass_pane,A thin decorative variant of Quicksoil Glass. It is slightly slippery and makes for a great window.,薄い装飾的な流土のガラス。少し滑りやすく、窓に使える。
 lore.block.aether.sentry_stone,"The light version of Carved Stone, also found in Bronze Dungeons.",ブロンズダンジョンで見つかる、光を放つ刻印石。
 lore.block.aether.skyroot_bed,"Crafted with wool and Skyroot Planks. You can only sleep at night to skip nighttime, but during the day you can set your respawn point in the Aether. You cannot sleep while monsters are nearby.",羊毛とスカイルートの板材からクラフトされる。夜の時間を飛ばすためには夜間に寝る必要があるが、日中使用してもエーテルでのリスポーン地点を設定することはできる。モンスターが近くにいる場合は眠れない。
@@ -983,7 +983,7 @@ lore.item.aether.gravitite_hoe,Part of the Aether's best tool tier. It can be us
 lore.item.aether.gravitite_leggings,"Part of the Aether's best armor set. When the full set is worn, you get an extra high jump!",エーテルの最強の防具の一式の一つ。一式を全て装備すると、非常に高い跳躍力を手にすることができるぞ！
 lore.item.aether.gravitite_pickaxe,"Part of the Aether's best tool tier. When mining with this powerful tool, you can right-click on any stone block, and it will levitate into the air! You can mine any ore with this pickaxe.",天界最高のツールティアの一部。この強力なツールで採掘中に石ブロックを右クリックすると、空中に浮かびます！このつるはしであらゆる鉱石を採掘できます。
 lore.item.aether.gravitite_shovel,"Part of the Aether's best tool tier. This shovel has the special ability to make dirt blocks or sand levitate! When combined with enchantments such as Efficiency, it will instantly break Aether Dirt!",天界最高のツールティアの一部。このシャベルは土ブロックや砂を浮かせる特殊能力があります！効率などのエンチャントと組み合わせると、天界の土を一瞬で壊せます！
-lore.item.aether.gravitite_sword,"Part of the Aether's best tool tier. When attacking with this powerful weapon, anything you hit will be flung into the air, causing lots of damage!",エーテルの最強の道具の一つ。 この強力な武器で攻撃する時、攻撃された者は空中に舞い上がり、大ダメージを与えるぞ！
+lore.item.aether.gravitite_sword,"Part of the Aether's best tool tier. When attacking with this powerful weapon, anything you hit will be flung into the air, causing lots of damage!",エーテルの最強の道具の一つ。この強力な武器で攻撃する時、攻撃された者は空中に舞い上がり、大ダメージを与えるぞ！
 lore.item.aether.hammer_of_jeb,"A mysterious hammer that can shoot projectiles. At one point, it vanished from existence. It's said this was actually Jeb's hammer at one point.",謎の物体を発射することができる、不思議なハンマー。ある一時期、世界からその存在を消していた。一時期Jebの持ち物であったと言い伝えられている。
 lore.item.aether.hammer_of_kingbdogz,A mighty hammer that shoots heavy projectiles at mobs. It's said that Kingbdogz actually held this hammer.,重い発射物をモブに撃つ、偉大なハンマー。Kingbdogzが手にしていたと言われている。
 lore.item.aether.healing_stone,"Obtained from enchanting Holystone, it can be used as a reliable healing source, providing Regeneration. It has a surprisingly juicy flavor.",聖石を祭壇でエンチャントすることで入手できる。信頼できる回復限として使え、一時的な再生能力を付与する。味は驚くほどジューシー。
@@ -1009,7 +1009,7 @@ lore.item.aether.music_disc_ascending_dawn,"A music disc that plays ""Ascending 
 lore.item.aether.music_disc_chinchilla,"A music disc that plays ""chinchilla"" by RENREN.",RENRENの「chinchilla」が流れるレコード。
 lore.item.aether.music_disc_high,"A music disc that plays ""high"" by RENREN.",RENRENの「high」が流れるレコード。
 lore.item.aether.music_disc_klepto,"A music disc that plays ""klepto"" by sunsette.","sunsette作、""klepto"" が再生されるレコード。"
-lore.item.aether.music_disc_sliders_wrath,"A music disc that plays ""Slider's Wrath"" by sunsette.",sunsetteの「Slider's Wrath」が流れるレコード。
+lore.item.aether.music_disc_sliders_wrath,"A music disc that plays ""Slider's Wrath"" by sunsette.",sunsetteの「スライドrのWrath」が流れるレコード。
 lore.item.aether.nature_staff,A staff that can allow for commanding tamed Moas. It allows them to sit on the ground.,飼いならしたモアに命令できる杖。地面に座らせることができます。
 lore.item.aether.neptune_boots,"Found in Bronze Dungeons, this armor allows for faster swimming in water. The full set is a much better replacement for the Depth Strider enchantment.",ブロンズダンジョンで見つかるこの防具は、水中での遊泳スピードを上げる。フルセットで装備すると、性能は水中歩行エンチャントを凌駕する。
 lore.item.aether.neptune_chestplate,"Found in Bronze Dungeons, this armor allows for faster swimming in water. Combined with an Iron Bubble, this armor set is super useful for defeating underwater temples.",ブロンズダンジョンで見つかるこの防具は、水中での遊泳速度を上げる。鉄の泡と組み合わせると、海底遺跡を攻略するのに非常に役立つ。
@@ -1057,7 +1057,7 @@ lore.item.aether.skyroot_tadpole_bucket,A Skyroot Bucket with a Tadpole inside. 
 lore.item.aether.skyroot_tropical_fish_bucket,A Skyroot Bucket containing a Tropical Fish. A helpful way to transport and catalog the numerous varieties of Tropical Fish.,熱帯魚の入ったスカイルートバケツ。多種多様な熱帯魚を運び、記録する作業を助けてくれる。
 lore.item.aether.skyroot_water_bucket,A Skyroot Bucket that is filled to the brim with water.,水で満たされたスカイルートバケツ。
 lore.item.aether.swet_ball,A gooey orb that is dropped from Blue Swets. It can be used to fertilize soil. Another use is to put it alongside String to make a Lead.,ブルースウェットからドロップするねばねばした球体。土壌の肥料として使えます。糸と組み合わせてリードを作ることもできます。
-lore.item.aether.swet_banner,A decorative banner with the likeness of a Swet. By placing this down you can prevent them from appearing around your home.,スウェットを模した装飾用の旗。 これを下げておけば、彼らが家の周りに現れることはないだろう。
+lore.item.aether.swet_banner,A decorative banner with the likeness of a Swet. By placing this down you can prevent them from appearing around your home.,スウェットを模した装飾用の旗。これを下げておけば、彼らが家の周りに現れることはないだろう。
 lore.item.aether.swet_cape,"A common cape that is found in Bronze Dungeons. It allows for the wearer to ride Swets, as they become friendly when they see someone wearing it.",ブロンズダンジョンで見つかる一般的なマント。着用者がスウェットに乗れるようになり、これを着ている人を見るとスウェットが友好的になります。
 lore.item.aether.valkyrie_axe,"A tool unique to the Silver Dungeon. This Axe has a very far reach and very high attack power. You can use this to your advantage, but be warned, the attack cooldown is very high.",シルバーダンジョン特有のツールであるこの斧は、非常に長いリーチと非常に高い攻撃力を誇る。有利に使える場面は多いかもしれないが、攻撃クールダウンが非常に長いことに注意！
 lore.item.aether.valkyrie_boots,"An armor unique to the Silver Dungeon. When fully worn, you are granted temporary flight. Quite useful for getting to high places.",シルバーダンジョン特有の防具。フルセットで装備すると、一時的な飛行能力を手に入れられる。高い場所に行きたいときに便利。

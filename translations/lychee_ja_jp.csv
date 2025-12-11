@@ -1,5 +1,5 @@
 ﻿key,source_text,target_text
-contextual.lychee,"{0,choice,1#Condition|1<Conditions}:","{0,choice,1#条件|1<条件}:"
+contextual.lychee,"{0,choice,1#Condition|1<Conditions}:","{0,cho氷,1#条件|1<条件}:"
 contextual.lychee.and,True for all:,すべてを満たす:
 contextual.lychee.chance,Chance: %s,確率: %s
 contextual.lychee.check_param.has,Has param: %s,パラメータあり: %s
@@ -51,9 +51,9 @@ direction.lychee.west,West,西
 postAction.lychee.damage_item,Damage item by %s,%s ダメージでアイテム破損
 postAction.lychee.drop_xp,{0} Xp,{0} 経験値
 postAction.lychee.execute,Execute a command,コマンド実行
-postAction.lychee.explode.destroy,Explode (destroy blocks),爆発（ブロック破壊）
-postAction.lychee.explode.destroy_with_decay,Explode (destroy blocks with decay),爆発（ブロック破壊・腐食）
-postAction.lychee.explode.keep,Explode (no terrain damage),爆発（地形無傷）
+postAction.lychee.explode.destroy,Explode (destroy blocks),爆発(ブロック破壊)
+postAction.lychee.explode.destroy_with_decay,Explode (destroy blocks with decay),爆発(ブロック破壊・腐食)
+postAction.lychee.explode.keep,Explode (no terrain damage),爆発(地形無傷)
 postAction.lychee.hurt,Causes %s damage,%s ダメージを与える
 postAction.lychee.if,Conditional action,条件付きアクション
 postAction.lychee.place,Place %s,%s を配置
@@ -82,8 +82,8 @@ structure.minecraft.village,Village,村
 tip.lychee.anyBlock,Any Block,任意のブロック
 tip.lychee.block_clicking,Click on block,ブロックをクリック
 tip.lychee.block_interacting,Use on block,ブロックを使用
-tip.lychee.ifFailure,If failed: §4✕,失敗時: §4✕
-tip.lychee.ifSuccess,If succeeded: §a✔,成功時: §a✔
+tip.lychee.ifFailure,If failed: §4✕,失敗時: ✕
+tip.lychee.ifSuccess,If succeeded: §a✔,成功時: ✔
 tip.lychee.ingredient.air,Requires empty hand,空の手が必須
 tip.lychee.ingredient.any,Allows any item,任意のアイテムを許可
 tip.lychee.nbtPredicate,Has NBT predicate,NBT述語がある
@@ -91,6 +91,6 @@ tip.lychee.preventDefault.default,No consumption,消費なし
 tip.lychee.randomChance,Chance: %s × %s,確率: %s × %s
 tip.lychee.randomChance.one,Chance: %s,確率: %s
 tip.lychee.sec,{0}s,{0}秒
-weather.lychee.clear,Clear,晴れ
+weather.lychee.clear,Clear,クリア
 weather.lychee.rain,Rain,雨
 weather.lychee.thunder,Thunder,雷

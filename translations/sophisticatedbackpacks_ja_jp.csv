@@ -6,11 +6,37 @@ block.sophisticatedbackpacks.gold_backpack,Gold Backpack,金のリュック
 block.sophisticatedbackpacks.iron_backpack,Iron Backpack,鉄のリュック
 block.sophisticatedbackpacks.netherite_backpack,Netherite Backpack,ネザライトのリュック
 chat.sophisticatedbackpacks.backpack_uuid.tooltip,Click to give backpack UUID: %s,クリックでUUIDを付与: %s
+commands.sophisticatedbackpacks.dynamic.add.delayed,The item '%2$s' is marked to be added to '%1$s' at the end,アイテム「%2$s」が「%1$s」に最後に追加される予定です
+commands.sophisticatedbackpacks.dynamic.add.success,Successfully added item '%2$s' to '%1$s',アイテム「%2$s」を「%1$s」に正常に追加しました
+commands.sophisticatedbackpacks.dynamic.begin.noBaseTemplate,The template '%s' to base this dynamic template of does not exist,このダイナミックテンプレートの基になるテンプレート「%s」が存在しません
+commands.sophisticatedbackpacks.dynamic.begin.success,Successfully started a dynamic template '%s',ダイナミックテンプレート「%s」を正常に開始しました
+commands.sophisticatedbackpacks.dynamic.end.addRemainingItemsFailed,Not all items could be added: Remaining %d x %s,すべてのアイテムを追加できませんでした：残り %d x %s
+commands.sophisticatedbackpacks.dynamic.end.success,Successfully ended the dynamic template '%s',ダイナミックテンプレート「%s」を正常に終了しました
+commands.sophisticatedbackpacks.dynamic.templateInUse,The dynamic template name '%s' is currently in use,ダイナミックテンプレート名「%s」は現在使用中です
+commands.sophisticatedbackpacks.dynamic.templateNotInUse,The dynamic template '%s' is currently not in use,ダイナミックテンプレート「%s」は現在使用されていません
 commands.sophisticatedbackpacks.give.success,Gave backpack to %s,[%s]を与えました
 commands.sophisticatedbackpacks.list.cloth_color,Cloth,布地
 commands.sophisticatedbackpacks.list.header,"Backpack Name, Colors, Last Open By, Last Open On","リュックの名前, 色, 最後に開けた時間, 最後に閉じた時間"
 commands.sophisticatedbackpacks.list.trim_color,Trim,トリム
 commands.sophisticatedbackpacks.remove_non_player.success,Removed %s non player backpacks,[%s]を削除しました。
+commands.sophisticatedbackpacks.template.backpackempty,Backpack is empty,バックパックは空です
+commands.sophisticatedbackpacks.template.create.alreadyexists,Template '%s' already exists,テンプレート「%s」は既に存在します
+commands.sophisticatedbackpacks.template.create.nobackpack,No backpack in main hand found,メインハンドにバックパックが見つかりません
+commands.sophisticatedbackpacks.template.create.success,Template '%s' created successfully,テンプレート「%s」を正常に作成しました
+commands.sophisticatedbackpacks.template.delete.success,Template '%s' deleted successfully,テンプレート「%s」を正常に削除しました
+commands.sophisticatedbackpacks.template.export.failure.invalid_characters,Template name contains invalid character(s): %s,テンプレート名に無効な文字が含まれています：%s
+commands.sophisticatedbackpacks.template.export.failure.notemplate,The template '%s' does not exist,テンプレート「%s」は存在しません
+commands.sophisticatedbackpacks.template.export.success,Exported template to %s,テンプレートを %s にエクスポートしました
+commands.sophisticatedbackpacks.template.give.backpack.success,Gave backpack to %s,%s にバックパックを付与しました
+commands.sophisticatedbackpacks.template.give.failure.notemplate,The template '%s' does not exist,テンプレート「%s」は存在しません
+commands.sophisticatedbackpacks.template.give.failure.notpersistent,The template '%s' is not persistent and can not be used with the 'template give' command,テンプレート「%s」は永続的ではなく、「template give」コマンドで使用できません
+commands.sophisticatedbackpacks.template.list.delete,Delete Template,テンプレート削除
+commands.sophisticatedbackpacks.template.list.delete.tooltip,Click to delete template: %s,テンプレート「%s」を削除するにはクリック
+commands.sophisticatedbackpacks.template.list.export,Export Template,テンプレートをエクスポート
+commands.sophisticatedbackpacks.template.list.export.tooltip,Click to export template '%s' into a datapack,テンプレート「%s」をデータパックにエクスポートするにはクリック
+commands.sophisticatedbackpacks.template.list.give,Give Backpack,バックパックを付与
+commands.sophisticatedbackpacks.template.list.give.tooltip,Click to give backpack with template: %s,テンプレート「%s」のバックパックを付与するにはクリック
+commands.sophisticatedbackpacks.template.list.header,"Template Name, Actions",テンプレート名、アクション
 gui.sophisticatedbackpacks.back_to_backpack.tooltip,Back To Backpack,戻る
 gui.sophisticatedbackpacks.buttons.upgrade_switch_disabled,OFF,オフ
 gui.sophisticatedbackpacks.buttons.upgrade_switch_enabled,ON,オン
@@ -57,6 +83,7 @@ gui.sophisticatedbackpacks.upgrades.anvil.tooltip,Anvil,金床機能
 gui.sophisticatedbackpacks.upgrades.buttons.allow,Allow,指定したアイテムのみ
 gui.sophisticatedbackpacks.upgrades.buttons.block,Block,指定したアイテム以外
 gui.sophisticatedbackpacks.upgrades.buttons.deposit_filter_type_inventory,Match Inventory Contents,既に入っているアイテムのみ
+gui.sophisticatedbackpacks.upgrades.buttons.do_not_refill_crafting_grid,Do Not Refill Crafting Grid,製作台を補充しない
 gui.sophisticatedbackpacks.upgrades.buttons.do_not_swap_tools,Do Not Swap Tools,ツールは交換しない
 gui.sophisticatedbackpacks.upgrades.buttons.do_not_swap_tools.detail,Tools are never swapped into hand,ツールの持ち替えを行いません
 gui.sophisticatedbackpacks.upgrades.buttons.do_not_swap_weapon,Do Not Swap Weapon,武器は交換しない
@@ -68,6 +95,7 @@ of main backpack first",メインのリュックを優先
 gui.sophisticatedbackpacks.upgrades.buttons.match_backpack_contents,Match Backpack Contents,既に入っているアイテムのみ
 gui.sophisticatedbackpacks.upgrades.buttons.only_swap_for_tools,Only Swap For Other Tools,ツール同士のみ交換
 gui.sophisticatedbackpacks.upgrades.buttons.only_swap_for_tools.detail,"Swaps tool into hand only if it holds another tool, does not swap for weapon",武器を持っているときはツールに持ち替えません
+gui.sophisticatedbackpacks.upgrades.buttons.refill_crafting_grid,Refill Crafting Grid,製作台を補充
 gui.sophisticatedbackpacks.upgrades.buttons.shift_click_into_backpack,"Shift Click Result Into
 Backpack",完成品をSHIFT＋クリックするとリュックへ
 gui.sophisticatedbackpacks.upgrades.buttons.shift_click_into_inventory,"Shift Click Result Into
@@ -95,6 +123,10 @@ gui.sophisticatedbackpacks.upgrades.restock,Restock,回収
 gui.sophisticatedbackpacks.upgrades.restock.tooltip,Restock Settings,回収機能
 gui.sophisticatedbackpacks.upgrades.smithing,Smithing,鍛冶台
 gui.sophisticatedbackpacks.upgrades.smithing.tooltip,Smithing,鍛冶台機能
+item.sophisticatedbackpacks.advanced_alchemy_upgrade,Advanced Alchemy Upgrade,上級な錬金術アップグレード
+item.sophisticatedbackpacks.advanced_alchemy_upgrade.tooltip,"Automatically uses potions, food with effects, or milk buckets
+Has additional effect filtering options","ポーション、効果を持つ食べ物、ミルクバケツを自動使用
+追加の効果フィルタリングオプション付き"
 item.sophisticatedbackpacks.advanced_compacting_upgrade,Advanced Compacting Upgrade,アイテム圧縮機能・改
 item.sophisticatedbackpacks.advanced_compacting_upgrade.tooltip,"Compacts items into their compressed variants
 Both 2x2 and 3x3 recipes with more filtering options","圧縮できるアイテムを自動で圧縮します。
@@ -128,7 +160,7 @@ item.sophisticatedbackpacks.advanced_pump_upgrade.tooltip,"Pumps Fluids between 
 Works with fluid containers in hand and fluid blocks in world
 Allows to filter which fluids are pumped","タンク機能に置いたストレージに液体を出し入れします。
 周囲の液体を回収できます。
-回収する液体を指定することができます。"
+回収する液体を指定できます。"
 item.sophisticatedbackpacks.advanced_refill_upgrade,Advanced Refill Upgrade,補充機能・改
 item.sophisticatedbackpacks.advanced_refill_upgrade.tooltip,"Keeps refilling stack of selected items in player's inventory
 Allows for more precise target slot selection
@@ -141,12 +173,13 @@ Has more filtering options","スニークで右クリックしたチェストか
 アイテムフィルタの数が増えます。"
 item.sophisticatedbackpacks.advanced_tool_swapper_upgrade,Advanced Tool Swapper Upgrade,ツール交換機能・改
 item.sophisticatedbackpacks.advanced_tool_swapper_upgrade.tooltip,"Automatically swaps item in player's hand for the one effective on the block/entity when these are left clicked.
-Has filter options and enables swapping wrench like tools for block/entity player is looking at with %s","ブロックを破壊するとき、適切なツールに自動で切り替わります。
-フィルタで交換するツールを指定できます。"
+Has filter options and enables swapping wrench like tools for block/entity player is looking at with %s",
 item.sophisticatedbackpacks.advanced_void_upgrade,Advanced Void Upgrade,ごみ箱機能・改
 item.sophisticatedbackpacks.advanced_void_upgrade.tooltip,"Voids items selected in filter
 Has more filtering options","指定したアイテムを消滅させます。
 指定できるアイテム数が増えます。"
+item.sophisticatedbackpacks.alchemy_upgrade,Alchemy Upgrade,錬金術アップグレード
+item.sophisticatedbackpacks.alchemy_upgrade.tooltip,"Automatically uses potions, food with effects, or milk buckets",ポーション、効果を持つ食べ物、ミルクバケツを自動使用
 item.sophisticatedbackpacks.anvil_upgrade,Anvil Upgrade,金床機能
 item.sophisticatedbackpacks.anvil_upgrade.tooltip,Anvil in an upgrade tab,リュック内で金床が使えるようになります。
 item.sophisticatedbackpacks.auto_blasting_upgrade,Auto-blasting Upgrade,鉱石かまど機能・改
@@ -171,7 +204,7 @@ item.sophisticatedbackpacks.chipped.carpenters_table_upgrade,Chipped: Carpenters
 item.sophisticatedbackpacks.chipped.carpenters_table_upgrade.tooltip,Chipped Carpenters Workbench in an upgrade tab,リュック内で大工の作業台が使えるようになります。
 item.sophisticatedbackpacks.chipped.glassblower_upgrade,Chipped: Glassblower Upgrade,ガラス職人機能
 item.sophisticatedbackpacks.chipped.glassblower_upgrade.tooltip,Chipped Glassblower in an upgrade tab,リュック内でガラス職人が使えるようになります。
-item.sophisticatedbackpacks.chipped.loom_table_upgrade,Chipped: Loom Table Upgrade,織り機機能
+item.sophisticatedbackpacks.chipped.loom_table_upgrade,Chipped: Loom Table Upgrade,織り機能
 item.sophisticatedbackpacks.chipped.loom_table_upgrade.tooltip,Chipped Loom Table in an upgrade tab,リュック内で織り機が使えるようになります。
 item.sophisticatedbackpacks.chipped.mason_table_upgrade,Chipped: Mason Table Upgrade,石工のテーブル機能
 item.sophisticatedbackpacks.chipped.mason_table_upgrade.tooltip,Chipped Mason Table in an upgrade tab,リュック内で石工のテーブルが使えるようになります。
@@ -214,6 +247,8 @@ item.sophisticatedbackpacks.refill_upgrade,Refill Upgrade,補充機能
 item.sophisticatedbackpacks.refill_upgrade.tooltip,Keeps refilling stack of selected items in player's inventory,消費したアイテムをリュックから補充します。
 item.sophisticatedbackpacks.restock_upgrade,Restock Upgrade,回収機能
 item.sophisticatedbackpacks.restock_upgrade.tooltip,Restocks backpack from sneak right clicked inventory,スニークで右クリックしたチェストから、アイテムをリュックに回収します。
+item.sophisticatedbackpacks.sawmill.sawmill_upgrade,Sawmill Upgrade,ソーミルアップグレード
+item.sophisticatedbackpacks.sawmill.sawmill_upgrade.tooltip,Saw in an upgrade tab,アップグレードタブのこぎり
 item.sophisticatedbackpacks.smelting_upgrade,Smelting Upgrade,かまど機能
 item.sophisticatedbackpacks.smelting_upgrade.tooltip,Smelting in an upgrade tab,リュック内で食料や鉱石を手動で焼けるようになります。
 item.sophisticatedbackpacks.smithing_upgrade,Smithing Upgrade,鍛冶台機能
@@ -227,6 +262,7 @@ item.sophisticatedbackpacks.stack_downgrade_tier_2.tooltip,Divides the number of
 item.sophisticatedbackpacks.stack_downgrade_tier_3,Stack Downgrade Tier 3,スタック数減少/32
 item.sophisticatedbackpacks.stack_downgrade_tier_3.tooltip,Divides the number of stacks that can fit in a slot by 32,1スロットあたりのスタック数を32で割ります。
 item.sophisticatedbackpacks.stack_upgrade_omega_tier,Stack Upgrade Omega Tier,スタック数増加 オメガ
+item.sophisticatedbackpacks.stack_upgrade_omega_tier.tooltip,"Multiplies stacks per slot by the maximum value (×33,554,431)","1スロットあたりのスタック数を2,147,483,647にします。"
 item.sophisticatedbackpacks.stack_upgrade_starter_tier,Stack Upgrade Starter Tier,スタック数増加x1.5
 item.sophisticatedbackpacks.stack_upgrade_starter_tier.tooltip,Multiplies the number of stacks that can fit in a slot by 1.5,1スロットあたりのスタック数を1.5倍にします。
 item.sophisticatedbackpacks.stack_upgrade_tier_1,Stack Upgrade Tier 1,スタック数増加x2
@@ -262,5 +298,16 @@ keybind.sophisticatedbackpacks.toggle_upgrade_3,Switch Upgrade in the 3rd Slot O
 keybind.sophisticatedbackpacks.toggle_upgrade_4,Switch Upgrade in the 4th Slot On/Off,4つ目の追加機能のON/OFF
 keybind.sophisticatedbackpacks.toggle_upgrade_5,Switch Upgrade in the 5th Slot On/Off,5つ目の追加機能のON/OFF
 keybind.sophisticatedbackpacks.tool_swap,Swap tool based on current block/entity,壊すブロックに応じてツールを交換
+item.sophisticatedbackpacks.chipped.carpenter_workbench_upgrade,Chipped: Carpenter's Workbench Upgrade,欠けた：大工台アップグレード
+item.sophisticatedbackpacks.chipped.carpenter_workbench_upgrade.tooltip,Chipped Carpenter's Workbench in an upgrade tab,アップグレードタブで使用できる チップの大工台
+item.sophisticatedbackpacks.chipped.glassblower_workbench_upgrade,Chipped: Glassblower's Workbench Upgrade,欠けた：ガラス職人の作業台アップグレード
+item.sophisticatedbackpacks.chipped.glassblower_workbench_upgrade.tooltip,Chipped Glassblower's Workbench in an upgrade tab,アップグレードタブで使用できる チップのガラス職人の作業台
+item.sophisticatedbackpacks.chipped.mason_workbench_upgrade,Chipped: Mason's Workbench Upgrade,欠けた：石工の作業台アップグレード
+item.sophisticatedbackpacks.chipped.mason_workbench_upgrade.tooltip,Chipped Mason's Workbench in an upgrade tab,アップグレードタブで使用できる チップの石工の作業台
+item.sophisticatedbackpacks.chipped.philosopher_workbench_upgrade,Chipped: Philosopher's Workbench Upgrade,欠けた：思想家の作業台アップグレード
+item.sophisticatedbackpacks.chipped.philosopher_workbench_upgrade.tooltip,Chipped Philosopher's Workbench in an upgrade tab,アップグレードタブで使用できる チップの思想家の作業台
+item.sophisticatedbackpacks.chipped.shepherd_workbench_upgrade,Chipped: Shepherd's Workbench Upgrade,欠けた：羊飼いの作業台アップグレード
+item.sophisticatedbackpacks.chipped.shepherd_workbench_upgrade.tooltip,Chipped Shepherd's Workbench in an upgrade tab,アップグレードタブで使用できる チップの羊飼いの作業台
+item.sophisticatedbackpacks.chipped.tinkerer_workbench_upgrade,Chipped: Tinkerer's Workbench Upgrade,欠けた：修理工の作業台アップグレード
+item.sophisticatedbackpacks.chipped.tinkerer_workbench_upgrade.tooltip,Chipped Tinkerer's Workbench in an upgrade tab,アップグレードタブで使用できる チップの修理工の作業台
 keybind.sophisticatedbackpacks.sort,Sort Backpack,並び替え
-item.sophisticatedbackpacks.stack_upgrade_omega_tier.tooltip,"Raises the stack size limit to 2,147,483,647","スタックサイズ上限を2,147,483,647に引き上げます"

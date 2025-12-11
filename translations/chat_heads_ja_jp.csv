@@ -1,0 +1,64 @@
+﻿key,source_text,target_text
+modmenu.descriptionTranslation.chat_heads,"See who are you chatting with!
+This mod adds player heads next to their chat messages.","チャット相手が誰かを確認できます！
+このModはチャットメッセージの横にプレイヤーの頭を表示します。"
+text.autoconfig.chat_heads.option.explanation,"""UUIDs""? ""Heuristics""?",「UUID」？「ヒューリスティック」？
+text.autoconfig.chat_heads.option.explanation.@Tooltip,"Normally, servers tell us who sent a message,
+i.e. the sender's UUID. However, many servers do not.
+They can even send fake UUIDs. In these cases we need to use
+a heuristic, i.e. we guess by the message content.
+This heuristic is not perfect, so it might mismatch heads.","通常、サーバーはメッセージ送信者を教えてくれます。
+つまり、送信者のUUIDです。しかし、多くのサーバーはそうではありません。
+偽のUUIDを送信することもあります。このような場合、
+ヒューリスティック(メッセージ内容から推測)を使用する必要があります。
+このヒューリスティックは完璧ではないため、
+頭が正しく表示されない場合があります。"
+text.autoconfig.chat_heads.option.handleSystemMessages,Handle system messages,システムメッセージを処理
+text.autoconfig.chat_heads.option.handleSystemMessages.@Tooltip,"Whether heads can be added to ""pure"" server messages.
+Note that many servers (e.g. running the FreedomChat plugin)
+turn player messages into server messages!
+Only disable this option if you know what you are doing!","「純粋な」サーバーメッセージに頭を追加できるかどうか。
+多くのサーバー(例：FreedomChatプラグインを実行中)では
+プレイヤーメッセージをサーバーメッセージに変換します！
+このオプションを無効にするのは、あなたが何をしているか
+分かっている場合のみです！"
+text.autoconfig.chat_heads.option.nameAliases,Name aliases,名前エイリアス
+text.autoconfig.chat_heads.option.nameAliases.@Tooltip,"Some servers allow setting nicknames which can't automatically be matched.
+Here you can manually match those nicknames to their profile name, like:
+nickname -> profilename","一部のサーバーはニックネーム設定を許可していますが、
+自動的にマッチさせることはできません。
+ここでニックネームをプロフィール名に手動でマッチさせることができます。例えば：
+ニックネーム -> プロフィール名"
+text.autoconfig.chat_heads.option.offsetNonPlayerText,Offset non-player chat text,非プレイヤーテキストのオフセット
+text.autoconfig.chat_heads.option.offsetNonPlayerText.@Tooltip,"All text will be aligned if enabled
+Only applies to ""Before Line"" rendering","有効にするとすべてのテキストが揃います
+「行の前」レンダリングにのみ適用されます"
+text.autoconfig.chat_heads.option.renderPosition,Render Position,表示位置
+text.autoconfig.chat_heads.option.renderPosition.@Tooltip,"Where to render the chat heads
+
+Note: ""Before Name"" may be incompatible with certain mods.
+For Caxton and Modern UI, ""Before Line"" will automatically be used.","チャットヘッドを表示する場所
+
+注：「名前の前」は特定のModと互換性がない場合があります。
+CaxtonとモダンUIの場合は、自動的に「行の前」が使用されます。"
+text.autoconfig.chat_heads.option.renderPosition.BEFORE_LINE,Before Line,行の前
+text.autoconfig.chat_heads.option.renderPosition.BEFORE_NAME,Before Name,名前の前
+text.autoconfig.chat_heads.option.senderDetection,Sender Detection,送信者検出
+text.autoconfig.chat_heads.option.senderDetection.@Tooltip,"For most servers ""UUID and heuristic"" works fine.
+If the server sends fake UUIDs, ""Heuristic only""
+has to be used.","ほとんどのサーバーでは「UUIDとヒューリスティック」が正常に機能します。
+サーバーが偽のUUIDを送信する場合、
+「ヒューリスティックのみ」を使用する必要があります。"
+text.autoconfig.chat_heads.option.senderDetection.HEURISTIC_ONLY,Heuristic only,ヒューリスティックのみ
+text.autoconfig.chat_heads.option.senderDetection.UUID_AND_HEURISTIC,UUID and heuristic,UUIDとヒューリスティック
+text.autoconfig.chat_heads.option.senderDetection.UUID_ONLY,UUID only,UUIDのみ
+text.autoconfig.chat_heads.option.smartHeuristics,Smart heuristics,スマートヒューリスティック
+text.autoconfig.chat_heads.option.smartHeuristics.@Tooltip,"Turn off heuristics if the server is known to send UUIDs.
+(Applies to the ""UUID and heuristic"" sender detection)","サーバーがUUIDを送信することが確認されている場合、
+ヒューリスティックをオフにします。
+(「UUIDとヒューリスティック」送信者検出に適用)"
+text.autoconfig.chat_heads.title,Chat Heads,
+text.chat_heads.config.error.cloth_config_curseforge_link,Open Cloth Config page on CurseForge,CurseForgeでCloth 設定ページを開く
+text.chat_heads.config.error.cloth_config_modrinth_link,Open Cloth Config page on Modrinth,ModrinthでCloth 設定ページを開く
+text.chat_heads.config.error.no_cloth_config,Cloth Config is not installed!,Cloth 設定がインストールされていません！
+text.chat_heads.config.error.title,Couldn't open config menu,設定メニューを開けませんでした

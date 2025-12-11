@@ -19,7 +19,7 @@ block.redstonepen.control_box.error.invalid_character,Invalid character,無効�
 block.redstonepen.control_box.error.invalid_number_of_arguments,Invalid number of function arguments,無効な関数引数の数です
 block.redstonepen.control_box.error.missing_closing_function_parenthesis,Expected closing function parenthesis ')',関数のクロージング括弧 ')' が必要です
 block.redstonepen.control_box.error.missing_closing_parenthesis,Expected closing parenthesis ')',クロージング括弧 ')' が必要です
-block.redstonepen.control_box.error.missing_function_arguments,Expected function arguments (including parentheses),関数の引数（括弧を含む）が必要です
+block.redstonepen.control_box.error.missing_function_arguments,Expected function arguments (including parentheses),関数の引数(括弧を含む)が必要です
 block.redstonepen.control_box.error.parse_error,Parse error,パースエラー
 block.redstonepen.control_box.error.symbol_readonly,Symbol/variable is readonly,シンボル/変数は読み取り専用です
 block.redstonepen.control_box.error.unexpected_character,Unexpected character,予期しない文字です
@@ -41,7 +41,7 @@ block.redstonepen.control_box.help.1,"§nBasics:§r§7 The RLC provides digital 
 §7Hover the RLC symbol to see internal variable values
 §7(only when running). The port list shows the current
 §7signal values, and if a port is input, output, or unused.
-§7Copy/paste clipboard button, needless to say ;)","§n基本:§r§7 RLCはすべての方向でデジタル(ON/OFF)およびアナログ§7(信号強度、コンパレータ出力)レッドストーンI/Oを提供します。ポート§7はRed、Blue、Yellow、Green、Up、Downの最初の文字です。§7数式のセットでプログラムします。すべてのコード行は同じティック§7で計算されます(入力読み取り→計算→出力書き込み)。コードは大文字§7小文字を区別しません(""R""は""r""と同じ)。独自の変数も設定でき、§7その値はRLCが停止されるまで保持されます。§7パースエラーはマーク表示され、プログラムの開始を妨げます。§7§7RUN/STOPボタンをクリックしてプログラムを開始または停止します。§7RLCシンボルにホバーして内部変数値を確認します§7(実行時のみ)。ポートリストは現在の§7信号値、およびポートが入力、出力、または未使用かを表示します。§7コピー/ペーストクリップボードボタン、言わずもがなですが ;)"
+§7Copy/paste clipboard button, needless to say ;)","§n基本:§r§7 RLCはすべての方向でデジタル(ON/OFF)およびアナログ§7(信号強度、コンパレータ出力)レッドストーンI/Oを提供します。ポート§7はRed、Blue、Yellow、Green、Up、Downの最初の文字です。§7数式のセットでプログラムします。すべてのコード行は同じティック§7で計算されます(入力読み取り→計算→出力書き込み)。コードは大文字§7小文字を区別しません(""R""は""r""と同じ)。独自の変数も設定でき、§7その値はRLCが停止されるまで保持されます。§7パースエラーはマーク表示され、プログラムの開始を妨げます。§7§7RUN/STOPボタンをクリックしてプログラムを開始または停止します。§7RLCシンボルにホバーして内部変数値を確認します§7(実行時のみ)。ポートリストは現在の§7信号値、およびポートが入力、出力、または未使用かを表示します。§7コピー/ペーストクリップボードボタン、言わずもがなですが ;)§r"
 block.redstonepen.control_box.help.10,"§nFurther:§r§7 The Control normally calculates every 4 ticks,
 §7when an input port changes form ON->OFF or OFF->ON,
 §7the run cycle is re-scheduled to the next possible tick.
@@ -74,7 +74,7 @@ block.redstonepen.control_box.help.3,"§nArithmetic§r§7 is Integer arithmetic 
 §7Port values however are implicitly clamped to the
 §7valid redstone value range 0..15.
 §7Int32 wrap-over applies, division-by-zero yields
-§70 and a singularity to the Dungeon Dimensions.","§n算術§rはRLCでの整数演算です。つまり§7""A * 1.5""は受け入れられず、除算は§7ゼロに向けて丸められます。サポートされている操作は:§7§7  ""+""、""-""、""*""、""/""、""%""(後者はモジュロ除算)。§7§7変数の割り当ては任意の正または負の§732ビット整数値を保有します(必要以上に大きい)。§7ただし、ポート値は暗黙的に§7有効なレッドストーン値の範囲0..15にクランプされます。§7Int32ラップオーバーが適用され、ゼロ除算は§70を生成し、ダンジョン次元への特異点を生じさせます。"
+§70 and a singularity to the Dungeon Dimensions.","§n算術§rはRLCでの整数演算です。つまり§7""A * 1.5""は受け入れられず、除算は§7ゼロに向けて丸められます。サポートされている操作は:§7 ""+""、""-""、""*""、""/""、""%""(後者はモジュロ除算)。§7変数の割り当ては任意の正または負の§732ビット整数値を保有します(必要以上に大きい)。§7ただし、ポート値は暗黙的に§7有効なレッドストーン値の範囲0..15にクランプされます。§7Int32ラップオーバーが適用され、ゼロ除算は§70を生成し、ダンジョン次元への特異点を生じさせます。§r"
 block.redstonepen.control_box.help.4,"§nRelational§r§7 operators provide numeric comparisons:
 §7
 §7  ""=="" (equal), ""!="" (not equal),
@@ -85,7 +85,7 @@ block.redstonepen.control_box.help.4,"§nRelational§r§7 operators provide nume
 §7""false"", and 15 if ""true"". As the values are numbers,
 §7you can directly calculate with them. E.g. ""G=(R>11)/3""
 §7results in 5 or 0. However, better would be instead
-§7using the IF function: ""G = IF( R>11, 5, 0 )"".","§n関係§r演算子は数値比較を提供します:§7§7  ""==""(等しい)、""!=""(等しくない)、§7  "">=""(大きい等しい)、""<=""(小さい等しい)、§7  "">""(より大きい)、""<""(より小さい)。§7§7比較結果が§7""偽""の場合は0に評価され、""真""の場合は15に評価されます。値は数値なので、§7直接それらで計算できます。例えば""G=(R>11)/3""§7は5または0を結果として生じさせます。ただし、代わりに§7IF関数を使用する方が良いでしょう:""G = IF( R>11, 5, 0 )""。"
+§7using the IF function: ""G = IF( R>11, 5, 0 )"".","§n関係§r演算子は数値比較を提供します:§7§7 ""==""(等しい)、""!=""(等しくない)、§7 "">=""(大きい等しい)、""<=""(小さい等しい)、§7 "">""(より大きい)、""<""(より小さい)。§7§7比較結果が§7""偽""の場合は0に評価され、""真""の場合は15に評価されます。値は数値なので、§7直接それらで計算できます。例えば""G=(R>11)/3""§7は5または0を結果として生じさせます。ただし、代わりに§7IF関数を使用する方が良いでしょう:""G = IF( R>11, 5, 0 )""。§r"
 block.redstonepen.control_box.help.5,"§nLogical§r§7 operations work with ""Redstone Boolean"" values,
 §7which are integral numbers. Operands that are greater
 §7than 0 are considered ""true"". The operations yield 0 for
@@ -98,7 +98,7 @@ block.redstonepen.control_box.help.5,"§nLogical§r§7 operations work with ""Re
 §7
 §7Rule of thumb: The OPs see inputs like a Redstone Lamp
 §7and yield outputs like a Lever. Coders: There are no
-§7bitwise operations.","§n論理§r操作は""Redstone Boolean""値で機能します。§70より大きいオペランドは""真""と見なされます。操作は§7""偽""の場合は0を、""真""の場合は15を生成します。サポートされているのは:§7§7 AND: ""AND""、""&&""、""&""§7 OR: ""OR""、""||""、""|""§7 XOR: ""XOR""、""^""§7 NOT: ""NOT""、""!""§7§7経験則: OPはレッドストーンランプのように入力を見て、§7レバーのような出力を生成します。コーダー向け: ビット単位の操作はありません。"
+§7bitwise operations.","§n論理§r操作は""レッドストーン 真偽値""値で機能します。§70より大きいオペランドは""真""と見なされます。操作は§7""偽""の場合は0を、""真""の場合は15を生成します。サポートされているのは:§7§7 AND: ""AND""、""&&""、""&""§7 OR: ""OR""、""||""、""|""§7 XOR: ""XOR""、""^""§7 NOT: ""NOT""、""!""§7§7経験則: OPはレッドストーンランプのように入力を見て、§7レバーのような出力を生成します。コーダー向け: ビット単位の操作はありません。§r§r"
 block.redstonepen.control_box.help.6,"§nEdge Detection§r§7 means tracking of inputs the moment they
 §7change from OFF [0] to ON [>0] and vice versa.
 §7Rising edge triggers are set up with the "".RE"" suffix, and
@@ -112,7 +112,7 @@ block.redstonepen.control_box.help.6,"§nEdge Detection§r§7 means tracking of 
 §7
 §7Notes: Although the RLC may not execute every tick, edges
 §7are still detected on input ports (""interrupt""). The PLC
-§7equivalents are called RTRIG and FTRIG.","§nエッジ検出§rは入力がOFF [0]からON [>0]に変わる瞬間、またはその逆を追跡することを意味します。§7立ち上がりエッジトリガーは"".RE""サフィックスで設定され、§7入力がOFFからONに変わると1ティック15になります。§7立ち下がりエッジトリガーは"".FE""サフィックスで設定され、§7入力がONからOFFに変わると1ティック15になります。§7例:§7§7 C = C+IF(R.RE OR G.FE OR Y.CO.RE, 1, 0) # C をカウントアップ§7 C = CNT1(G.RE, B.RE, 10) # アップダウンカウンター1を使用§7§7注: RLCは毎ティック実行されない場合がありますが、エッジは§7入力ポート(""インターラプト"")でも検出されます。PLC§7の等価物はRTRIGおよびFTRIGと呼ばれます。"
+§7equivalents are called RTRIG and FTRIG.","§nエッジ検出§rは入力がOFF [0]からON [>0]に変わる瞬間、またはその逆を追跡することを意味します。§7立ち上がりエッジトリガーは"".RE""サフィックスで設定され、§7入力がOFFからONに変わると1ティック15になります。§7立ち下がりエッジトリガーは"".FE""サフィックスで設定され、§7入力がONからOFFに変わると1ティック15になります。§7例:§7§7 C = C+IF(R.RE OR G.FE OR Y.CO.RE, 1, 0) # C をカウントアップ§7 C = CNT1(G.RE, B.RE, 10) # アップダウンカウンター1を使用§7§7注: RLCは毎ティック実行されない場合がありますが、エッジは§7入力ポート(""インターラプト"")でも検出されます。PLC§7の等価物はRTRIGおよびFTRIGと呼ばれます。§r"
 block.redstonepen.control_box.help.7,"§nTimers§r§7 in PLCs are signal based. The dominant three
 §7are implemented in the RLC: TON, TOF, and TP:
 §7TON is a Switch-On-Delay. The input signal must be steadily
@@ -143,7 +143,7 @@ block.redstonepen.control_box.help.8,"§nCounters§r§7 help keeping track of ev
 §7
 §7N holds the new counter value. Note: For event counting use
 §7signal edges (e.g. G.RE) as inputs. Counters are not guaranteed
-§7tick time accurate (use timers for timing).","§nカウンター§rはイベント発生の追跡を支援します。RLCは§7オプションの入力§7引数を持つ5つのアップダウンカウンター CNT1..5を持っています:§7§7N = CNTx(Iup)   # Iup > 0 の場合カウントアップ§7N = CNTx(Iup, Idown)   # IDown>0: 0にカウントバック§7N = CNTx(Iup, Idown, Max)   # 0..Max をカウント§7N = CNTx(Iup, Idown, Min, Max)   # Min..Max をカウント§7N = CNTx(Iup, Idown, Min, Max, Reset)    # Min にリセット§7§7N は新しいカウンター値を保有します。注: イベントカウント用に§7信号エッジ(例 G.RE)を入力として使用してください。カウンターはティック時間§7精度が保証されていません(タイミング用にタイマーを使用してください)。"
+§7tick time accurate (use timers for timing).","§nカウンター§rはイベント発生の追跡を支援します。RLCは§7オプションの入力§7引数を持つ5つのアップダウンカウンター CNT1..5を持っています:§7§7N = CNTx(入力) # 入力 > 0 の場合カウントアップ§7N = CNTx(入力, 出力) # 出力>0: 0にカウントバック§7N = CNTx(入力, 出力, 最大) # 0..最大 をカウント§7N = CNTx(入力, 出力, 最小, 最大) # 最小..最大 をカウント§7N = CNTx(入力, 出力, 最小, 最大, リセット) # 最小 にリセット§7§7N は新しいカウンター値を保有します。注: イベントカウント用に§7信号エッジ(例 G.RE)を入力として使用してください。カウンターはティック時間§7精度が保証されていません(タイミング用にタイマーを使用してください)。§r"
 block.redstonepen.control_box.help.9,"§nFunction Reference§r
 §7IF(X,A,B)   # A if X>0 else B
 §7INV(X)   # Redstone invert: 15-X, result 0..15.
@@ -156,10 +156,10 @@ block.redstonepen.control_box.help.9,"§nFunction Reference§r
 §7
 §7TIVx(T) # Interval, pulse every T ticks (TIV1/TIV2/TIV3)§r
 §7TIVx(T, EN) # Interval, pulse every T ticks if ENable set.
-§7# (Minimum interval is 3 ticks).","§n関数リファレンス§r§7IF(X,A,B)   # X>0の場合A、そうでない場合B§7INV(X)   # レッドストーン反転: 15-X、結果 0..15。§7MAX(A,B,...)、MIN(...)、MEAN(...)   # 最小、最大、平均§7LIM(X)、LIM(X,B)、LIM(X,A,B)   # 0..15、0..B、A..B にリミット§7TIME()、CLOCK()    # 日時、ゲーム時間§7RND()   # ランダム 0..15§7§7§nRLC固有の関数ブロック§r§7§7TIVx(T) # インターバル、T ティックごとにパルス (TIV1/TIV2/TIV3)§r§7TIVx(T, EN) # インターバル、T ティックごとにパルス(ENable 設定時)。§7# (最小インターバルは3ティック)。"
+§7# (Minimum interval is 3 ticks).","§n関数リファレンス§r§7IF(X,A,B) # X>0の場合A、そうでない場合B§7INV(X) # レッドストーン反転: 15-X、結果 0..15。§7MAX(A,B,...)、MIN(...)、MEAN(...) # 最小、最大、平均§7LIM(X)、LIM(X,B)、LIM(X,A,B) # 0..15、0..B、A..B にリミット§7TIME()、CLOCK() # 日時、ゲーム時間§7RND() # ランダム 0..15§7§7§nRLC固有の関数ブロック§r§7§7TIVx(T) # インターバル、T ティックごとにパルス (TIV1/TIV2/TIV3)§r§7TIVx(T, EN) # インターバル、T ティックごとにパルス(ENable 設定時)。§7# (最小インターバルは3ティック)。"
 block.redstonepen.control_box.tooltips.copyall,Copy code to clipboard,コードをクリップボードにコピー
 block.redstonepen.control_box.tooltips.pasteall,Paste code from clipboard,クリップボードからコードを貼り付け
-block.redstonepen.control_box.tooltips.rcaplayer,RCA connection to player %1$s,プレイヤー %1$s への RCA接続
+block.redstonepen.control_box.tooltips.rcaplayer,RCA connection to player %1$s,プレイヤー %1$s へのRCA接続
 block.redstonepen.control_box.tooltips.runstop,RUN/STOP,実行/停止
 block.redstonepen.inverted_relay,Inverted Redstone Relay,反転レッドストーンリレー
 block.redstonepen.inverted_relay.help,"Re-lays incoming signals from the back and the sides to the front with output power 15. The output is inverted (0 if there is an input signal, 15 if not). The switch-off delay is one redstone tick, switches on immediately.
@@ -179,13 +179,13 @@ Tracks do normally §lnot§r power the blocks they are placed on (click the cent
 Too many tracks at unconnected faces in one block cause cross-talk and will not work, simply re-route then.","すべての方向に薄いレッドストーントラックを描くまたは削除するために使用する詰め替え可能なペン。
 右クリック=配置、左クリック=削除、スニーク:中央コネクタを許可。
 トラックは通常、配置されているブロックに電力を供給しません(トラックの中央をクリックして明示的にコネクタを配置/削除)。ブロックを見ながらスニークして、現在どのようなレッドストーン信号があるかを確認してください。クラフトインベントリのレッドストーンで修復。
-1ブロック内の接続されていない面に多すぎるトラックがあるとクロストークが発生し、機能しなくなります。単にルート変更してください。"
+1ブロック内の接続されていない面に多すぎるトラックがあるとクロストークが発生し、機能しなくなります。単にルート変更してください。§r"
 item.redstonepen.pen.tooltip.numstored,%1$s redstone stored,%1$s レッドストーン保存
 item.redstonepen.pen.tooltip.rsfrominventory,Uses redstone in your inventory,インベントリのレッドストーンを使用
 item.redstonepen.quill,Redstone Quill,レッドストーンペン(quill)
 item.redstonepen.quill.help,"Used to draw or remove thin Redstone Tracks in all directions. These tracks do normally §lnot§r power the blocks they are placed on (click the center of a track to explicitly place/remove a connector). Sneak while looking at blocks to see what Redstone signal they currently have.
 Too many tracks at unconnected faces in one block cause cross-talk and will not work, simply re-route then.","すべての方向に薄いレッドストーントラックを描くまたは削除するために使用されます。これらのトラックは通常、配置されているブロックに電力を供給しません(トラックの中央をクリックして明示的にコネクタを配置/削除)。ブロックを見ながらスニークして、現在どのようなレッドストーン信号があるかを確認してください。
-1ブロック内の接続されていない面に多すぎるトラックがあるとクロストークが発生し、機能しなくなります。単にルート変更してください。"
+1ブロック内の接続されていない面に多すぎるトラックがあるとクロストークが発生し、機能しなくなります。単にルート変更してください。§r"
 item.redstonepen.remote,Redstone Remote,レッドストーンリモート
 item.redstonepen.remote.help,"Used to activate/flip Buttons and Levers. Left click the block to mark its position, later use remote to trigger that block. The block chunk has to be loaded, no inter-dimensional operation.",ボタンとレバーを起動/反転するために使用されます。ブロックの位置をマークするために左クリックし、後でリモートを使用してそのブロックをトリガーします。ブロックチャンクはロードされている必要があり、次元間操作はありません。
 item.redstonepen.remote.tooltip.linkedto,"Linked to %4$s [%1$s,%2$s,%3$s]","%4$s [%1$s,%2$s,%3$s] にリンク"
@@ -194,8 +194,8 @@ itemGroup.tabredstonepen,Redstone Pen,レッドストーンペン
 language,English,英語
 language.code,en_us,ja_jp
 language.region,United States,日本
-redstonepen.overlay.comparator_compare," compare"," 比較"
-redstonepen.overlay.comparator_subtract," subtract"," 減算"
+redstonepen.overlay.comparator_compare," compare",比較
+redstonepen.overlay.comparator_subtract," subtract",減算
 redstonepen.overlay.direct_power,[%1$s],
 redstonepen.overlay.direct_power_at,[%1$s] @ %2$s,
 redstonepen.overlay.indirect_power,(%1$s) @ %2$s,
@@ -203,5 +203,5 @@ redstonepen.overlay.remote_saved,"Link saved %4$s [%1$s, %2$s, %3$s]","リンク
 redstonepen.overlay.repeater_delay," %1$st",
 redstonepen.overlay.track_power,<%1$s>,
 redstonepen.overlay.wire_power,<%1$s>,
-redstonepen.tooltip.hint.extended,§6[§9shift§r More§6]§r,§6[§9shift§r 詳細§6]§r
-redstonepen.tooltip.hint.help,§6[§9ctrl-shift§r Help§6]§r,§6[§9ctrl-shift§r ヘルプ§6]§r
+redstonepen.tooltip.hint.extended,§6[§9shift§r More§6]§r,§6[shift§r 詳細§6]§r
+redstonepen.tooltip.hint.help,§6[§9ctrl-shift§r Help§6]§r,§6[ctrl-shift§r ヘルプ§6]§r

@@ -7,8 +7,8 @@ filter.ftbfiltersystem.component.name,Item Component,アイテムコンポーネ
 filter.ftbfiltersystem.component.tooltip,"Matches item data components on an item.
 Supports exact (all components must match) and fuzzy matches (only match components in the filter).
 If you have admin permissions, items in your inventory which have (non-default) component data can be clicked to copy their current data into the text editor, serialized as SNBT.","アイテムのコンポーネントデータにマッチします。
-完全一致（すべてのコンポーネントが一致する必要があります）とファジー一致（フィルター内のコンポーネントのみをマッチ）をサポートします。
-管理者権限がある場合、インベントリ内の（デフォルト以外の）コンポーネントデータを持つアイテムをクリックして、現在のデータをテキストエディターにコピーして、SNBTとしてシリアル化できます。"
+完全一致(すべてのコンポーネントが一致する必要があります)とファジー一致(フィルター内のコンポーネントのみをマッチ)をサポートします。
+管理者権限がある場合、インベントリ内の(デフォルト以外の)コンポーネントデータを持つアイテムをクリックして、現在のデータをテキストエディターにコピーして、SNBTとしてシリアル化できます。"
 filter.ftbfiltersystem.custom.name,Custom,カスタム
 filter.ftbfiltersystem.custom.tooltip,"Advanced filter intended for modders and modpack makers.
 Fires a CustomFilterEvent when a match is attempted; set the event result to indicate a successful or failed match.
@@ -22,17 +22,17 @@ Non-damageable items are considered to have a durability of 0.","残りの耐久
 filter.ftbfiltersystem.expression.name,Expression,式
 filter.ftbfiltersystem.expression.tooltip,"Allows a literal filter expression to be entered or loaded from a Filter item in your inventory.
 It is optional (but recommended!) to assign a custom name, for clarity.","リテラルフィルター式を入力するか、インベントリ内のフィルターアイテムから読み込むことができます。
-カスタム名を割り当てることはオプションですが（推奨！）、わかりやすくするためです。"
+カスタム名を割り当てることはオプションですが(推奨！)、わかりやすくするためです。"
 filter.ftbfiltersystem.food_value.name,Food Value,食料価値
 filter.ftbfiltersystem.food_value.tooltip,"Matches an item based on its nutritional value (half-shanks of food restored)
-Non-food items have a nutritional value of 0","栄養価値（回復する半シャンク分）に基づいてアイテムをマッチします
+Non-food items have a nutritional value of 0","栄養価値(回復する半シャンク分)に基づいてアイテムをマッチします
 非食料アイテムは栄養価0です"
 filter.ftbfiltersystem.item.name,Item,アイテム
 filter.ftbfiltersystem.item.tooltip,"Matches against a specific item.
 Item component data is not checked here (see Component Filter)
 Items can be picked from Creative or Inventory item lists.
 Use the textfield to filter item ID's to limit the displayed items.","特定のアイテムに対してマッチします。
-アイテムコンポーネントデータはここではチェックされません（コンポーネントフィルターを参照）
+アイテムコンポーネントデータはここではチェックされません(コンポーネントフィルターを参照)
 クリエイティブまたはインベントリアイテムリストからアイテムを選択できます。
 テキストフィールドを使用してアイテムIDをフィルタリングし、表示されるアイテムを制限します。"
 filter.ftbfiltersystem.item_tag.name,Item Tag,アイテムタグ
@@ -53,7 +53,7 @@ filter.ftbfiltersystem.only_one.name,Only One Of,1つだけ一致
 filter.ftbfiltersystem.only_one.tooltip,Compound filter: this filter matches if exactly ONE of its child filters matches.,複合フィルター: このフィルターは、子フィルターのうちちょうど1つがマッチする場合にマッチします。
 filter.ftbfiltersystem.or.name,Any Of,いずれか一致
 filter.ftbfiltersystem.or.tooltip,Compound filter: this filter matches if ANY of its child filters match.,複合フィルター: このフィルターは、子フィルターのいずれかがマッチする場合にマッチします。
-filter.ftbfiltersystem.root.name,Root (All Of),ルート（すべて一致）
+filter.ftbfiltersystem.root.name,Root (All Of),ルート(すべて一致)
 filter.ftbfiltersystem.stack_size.name,Stack Size,スタックサイズ
 filter.ftbfiltersystem.stack_size.tooltip,Matches against an item's current stack size.,アイテムの現在のスタックサイズに対してマッチします。
 ftbfiltersystem,FTB Filter System,FTBフィルターシステム
@@ -89,4 +89,4 @@ ftbfiltersystem.message.not_matched,Filter does not match: %s,フィルターが
 ftbfiltersystem.message.parse_failed,Filter parse failure: %s,フィルター解析エラー: %s
 item.ftbfiltersystem.smart_filter,Smart Filter,スマートフィルター
 item.ftbfiltersystem.smart_filter.tooltip.1,Right-click: configure filter,右クリック: フィルターを設定
-item.ftbfiltersystem.smart_filter.tooltip.2,Sneak + Right-click: Test filter with item in off hand,Shift+右クリック: オフハンドのアイテムでフィルターをテスト
+item.ftbfiltersystem.smart_filter.tooltip.2,Sneak + Right-click: Test filter with item in off hand,シフト+右クリック: オフハンドのアイテムでフィルターをテスト

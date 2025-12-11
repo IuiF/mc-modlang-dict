@@ -44,7 +44,7 @@ tooltip.energymeter.action_click,Click,クリック
 tooltip.energymeter.action_hold,Hold,保持
 tooltip.energymeter.current,Current,現在
 tooltip.energymeter.interval,Update Interval,更新間隔
-tooltip.energymeter.interval_desc_1,Defines the number of ticks (1s = 20 ticks) between each calculation of the transfer rate.,転送レートを計算するティック間の数（1秒 = 20ティック）を定義します。
+tooltip.energymeter.interval_desc_1,Defines the number of ticks (1s = 20 ticks) between each calculation of the transfer rate.,転送レートを計算するティック間の数(1秒 = 20ティック)を定義します。
 tooltip.energymeter.interval_desc_2,Higher values will even out spikes but result in slower updates on the display.,高い値はスパイクをなくしますが、表示の更新が遅くなります。
 tooltip.energymeter.io_mode,Mode,モード
 tooltip.energymeter.io_side,Side,側面
@@ -57,5 +57,5 @@ tooltip.energymeter.number_desc_1,Defines if the formatting of the transfer rate
 tooltip.energymeter.number_desc_2,"Only affects the number if it's more than 1,000 FE/t.","数値が1,000 FE/t以上の場合のみに影響します。"
 tooltip.energymeter.side_config,I/O Configuration,入出力設定
 tooltip.energymeter.threshold,Zero Threshold,ゼロ閾値
-tooltip.energymeter.threshold_desc_1,"Defines the reset threshold in ticks (1s = 20 ticks). If no energy is received during this period, metering resets to zero.",リセット閾値をティック単位で定義します（1秒 = 20ティック）。この期間中にエネルギーが受け取られない場合、計測がゼロにリセットされます。
+tooltip.energymeter.threshold_desc_1,"Defines the reset threshold in ticks (1s = 20 ticks). If no energy is received during this period, metering resets to zero.",リセット閾値をティック単位で定義します(1秒 = 20ティック)。この期間中にエネルギーが受け取られない場合、計測がゼロにリセットされます。
 tooltip.energymeter.threshold_desc_2,"Lower values will detect energy loss quicker. The value cannot be higher than the interval, as this would be of no use.",低い値はエネルギー損失をより速く検出します。値は間隔よりも高くすることはできません。そうしないと役に立たないからです。

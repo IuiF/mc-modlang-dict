@@ -44,12 +44,12 @@ ftbchunks.appearance.shadows,Shadows,影
 ftbchunks.appearance.water_height_factor,Water height factor,水高ファクター
 ftbchunks.biome_blend.blend_11x11,Blend 11x11,ブレンド 11x11
 ftbchunks.biome_blend.blend_13x13,Blend 13x13,ブレンド 13x13
-ftbchunks.biome_blend.blend_15x15,Blend 15x15 (Slowest),ブレンド 15x15（最速度）
+ftbchunks.biome_blend.blend_15x15,Blend 15x15 (Slowest),ブレンド 15x15(最速度)
 ftbchunks.biome_blend.blend_3x3,Blend 3x3,ブレンド 3x3
 ftbchunks.biome_blend.blend_5x5,Blend 5x5,ブレンド 5x5
 ftbchunks.biome_blend.blend_7x7,Blend 7x7,ブレンド 7x7
 ftbchunks.biome_blend.blend_9x9,Blend 9x9,ブレンド 9x9
-ftbchunks.biome_blend.none,None (Fastest),なし（最速）
+ftbchunks.biome_blend.none,None (Fastest),なし(最速)
 ftbchunks.claim_result,Chunks modified: %d / %d,チャンク変更: %d / %d
 ftbchunks.claim_result.already_claimed,Chunk already claimed,チャンクはすでにクレームされています
 ftbchunks.claim_result.already_loaded,Chunk already loaded,チャンクはすでにロードされています
@@ -68,7 +68,7 @@ Wildcards are allowed, e.g. ""othermod:*"" matches all dimensions added by ""oth
 ワイルドカードが許可されています。例：""othermod:*""は""othermod""によって追加されたすべてのディメンションと一致します"
 ftbchunks.claiming.claim_dimension_whitelist,Dimension Whitelist,ディメンションホワイトリスト
 ftbchunks.claiming.claim_dimension_whitelist.tooltip,"Whitelist for dimension ID's where chunks may be claimed. If non-empty, dimension *must* be in this list (and also not in ""Dimension Blacklist"".
-Same syntax as for ""Dimension Blacklist""","チャンクがクレームされるディメンションIDのホワイトリスト。空でない場合、ディメンションはこのリストにある必要があります（および""ディメンションブラックリスト""にもない）。
+Same syntax as for ""Dimension Blacklist""","チャンクがクレームされるディメンションIDのホワイトリスト。空でない場合、ディメンションはこのリストにある必要があります(および""ディメンションブラックリスト""にもない)。
 ""ディメンションブラックリスト""と同じ構文"
 ftbchunks.claiming.hard_team_claim_limit,Hard Max Team Claim Limit,ハード最大チームクレーム制限
 ftbchunks.claiming.hard_team_claim_limit.tooltip,"Hard claim limit for party teams, regardless of member count or Party Limit Calculation mode.
@@ -105,9 +105,9 @@ ftbchunks.commands.is_force_loaded,Force Loaded: %s,強制ロード済み: %s
 ftbchunks.commands.location,Location: %s,場所: %s
 ftbchunks.commands.no_personal_info,Can't get personal team data for: %s,%sの個人チームデータを取得できません
 ftbchunks.commands.not_claimed,Chunk not claimed,チャンククレーム対象外
-ftbchunks.commands.owner,Owner: ,所有者: 
+ftbchunks.commands.owner,Owner: ,所有者:
 ftbchunks.commands.unclaimed,Unclaimed chunks: %d,アンクレーム済みチャンク: %d
-ftbchunks.commands.unloaded,Un-forceloaded chunks: %d (of %d total claimed),未強制ロード済みチャンク: %d（クレーム済み合計%d個）
+ftbchunks.commands.unloaded,Un-forceloaded chunks: %d (of %d total claimed),未強制ロード済みチャンク: %d(クレーム済み合計%d個)
 ftbchunks.deathpoint_removed,Waypoint '%s' auto-removed,ウェイポイント'%s'が自動削除されました
 ftbchunks.disable_protection,Disable Claim Protection,クレーム保護を無効にする
 ftbchunks.disable_protection.tooltip,"Useful for private servers where everyone is trusted, and claims are only used for force-loading",誰もが信頼でき、クレームが強制ロードのみに使用されるプライベートサーバーに有用です
@@ -170,8 +170,8 @@ Alt;Hold to show absolute chunk claim/force times","クレーミング
 右ボタン;ドラッグしてエリアをアンクレーム
 
 強制ロード
-Shift + 左ボタン;ドラッグしてエリアを強制ロード
-Shift + 右ボタン;ドラッグしてエリアを強制解除
+シフト + 左ボタン;ドラッグしてエリアを強制ロード
+シフト + 右ボタン;ドラッグしてエリアを強制解除
 マウスホイール;強制ロード済みチャンク上で回転させて自動有効期限を調整
 
 雑多
@@ -212,9 +212,9 @@ F3+G;Toggle Chunk Grid","マウス
 キー
 Space;プレイヤーをビューの中心に配置
 C;チャンククレーム画面を開く
-T;ポイントにテレポート（OP必須）
+T;ポイントにテレポート(OP必須)
 S;設定画面を開く
-Ctrl + S;サーバー設定画面を開く（OP必須）
+Ctrl + S;サーバー設定画面を開く(OP必須)
 F3+G;チャンクグリッドをトグル"
 ftbchunks.gui.mouse_wheel_expiry,Mouse Wheel: adjust force-load expiry,マウスホイール: 強制ロード有効期限を調整
 ftbchunks.gui.move_down,Move Down,下に移動
@@ -281,35 +281,35 @@ ftbchunks.minimap.position.none,None,Nオンe
 ftbchunks.minimap.position.right,Right,右
 ftbchunks.minimap.position.top_left,Top Left,Top 左
 ftbchunks.minimap.position.top_right,Top Right,Top 右
-ftbchunks.minimap.position_offset_condition,Position Offset condition,Positiオン Offset cオンditiオン
-ftbchunks.minimap.position_offset_x,Position Offset X,Positiオン Offset X
-ftbchunks.minimap.position_offset_y,Position Offset Y,Positiオン Offset Y
+ftbchunks.minimap.position_offset_condition,Position Offset condition,Positiオンオフセット cオンditiオン
+ftbchunks.minimap.position_offset_x,Position Offset X,Positiオンオフセット X
+ftbchunks.minimap.position_offset_y,Position Offset Y,Positiオンオフセット Y
 ftbchunks.minimap.proportional,Proportional sizing,Proportiオンal sizing
 ftbchunks.minimap.proportional.tooltip,"When true, minimap size is proportional to 10%% of the screen width (modifiable by the Scale setting)
-When false, it is a fixed size regardless of screen resolution","When true, minimap size is proportiオンal to 10%% of the screen width (modifiable by the Scale setting)
-When false, it is a fixed size regardless of screen resolutiオン"
+When false, it is a fixed size regardless of screen resolution","When true, ミニmap size is proportiオンal to 10%%のスクリーン width (modifiable by the Scale setting)
+When false, it is a fixed size regardless of スクリーン resolutiオン"
 ftbchunks.minimap.reticle,Reticle Lines,レティクルライン
 ftbchunks.minimap.scale,Scale,スケール
 ftbchunks.minimap.show_fps,Show FPS,表示 FPS
 ftbchunks.minimap.show_game_time,Show Game Time,表示 Game Time
 ftbchunks.minimap.show_player_when_unlocked,Show player when not locked north,表示 player when not locked north
 ftbchunks.minimap.show_real_time,Show Real Time,表示 Real Time
-ftbchunks.minimap.square,Square Minimap,Square Miniマップ
-ftbchunks.minimap.text_above_minimap,Show Text above minimap,表示 Text above minimap
+ftbchunks.minimap.square,Square Minimap,四角 Miniマップ
+ftbchunks.minimap.text_above_minimap,Show Text above minimap,表示 Text above ミニmap
 ftbchunks.minimap.visibility,Visibility,可視性
 ftbchunks.minimap.waypoints,Waypoints,ウェイポイント
 ftbchunks.minimap.xyz,XYZ,XYZ座標
 ftbchunks.minimap.zone,Zone,Zオンe
 ftbchunks.minimap.zoom,Zoom,ズーム
-ftbchunks.need_to_claim_chunk,You need to claim this chunk to interact with blocks here!,You need to claim this チャンク to interact with blocks here!
-ftbchunks.no_server_mod,FTB Chunks requires mod on server!,FTB Chunks requires mod オン server!
+ftbchunks.need_to_claim_chunk,You need to claim this chunk to interact with blocks here!,You need to claim this チャンク to interactでblocks here!
+ftbchunks.no_server_mod,FTB Chunks requires mod on server!,FTB チャンク requires mod オン server!
 ftbchunks.no_wilderness,Protect Unclaimed Regions,Protect Unclaimed Regiオンs
 ftbchunks.no_wilderness.tooltip,"If true, chunks must be claimed before they can be built on","If true, chunks must be claimed before they can be built オン"
 ftbchunks.no_wilderness_dimensions,Protect Unclaimed Regions Per-Dimension,Protect Unclaimed Regiオンs Per-Dimensiオン
 ftbchunks.no_wilderness_dimensions.tooltip,"List of dimension ID's where chunks must be claimed before modifying.
 E.g. add ""minecraft:the_nether"" to require chunks to be claimed in the Nether.
-Wildcards are allowed, e.g. ""othermod:*"" matches all dimensions added by ""othermod""","List of dimensiオン ID's where chunks must be claimed before modifying.
-E.g. add ""minecraft:the_nether"" to require chunks to be claimed in the Nether.
+Wildcards are allowed, e.g. ""othermod:*"" matches all dimensions added by ""othermod""","List of dimensiオン IDのwhere chunks must be claimed before modifying.
+E.g. add ""minecraft:the_ネザー"" to require chunks to be claimed in the Nether.
 Wildcards are allowed, e.g. ""othermod:*"" matches all dimensiオンs added by ""othermod"""
 ftbchunks.party_limit_mode.average,Average,平均
 ftbchunks.party_limit_mode.largest,Largest,最大
@@ -317,13 +317,13 @@ ftbchunks.party_limit_mode.owner,Owner,所有者
 ftbchunks.party_limit_mode.sum,Sum,合計
 ftbchunks.piston_protection,Piston Protection,Pistオン Protectiオン
 ftbchunks.piston_protection.tooltip,"If true, pistons may not push/pull blocks across claims owned by different teams (unless the block is entering/leaving a claim with block edit mode set to Public)
-If 'disable_protection' is set to true, this setting is ignored.","If true, pistオンs may not push/pull blocks across claims owned by different teams (unless the block is entering/leaving a claim with block edit mode set to Public)
+If 'disable_protection' is set to true, this setting is ignored.","If true, pistオンs may not push/pull blocks across claims owned by different teams (unless the block is entering/leaving a claimでblock edit mode set to Public)
 If 'disable_protectiオン' is set to true, this setting is ignored."
 ftbchunks.protect_unknown_explosions,Prevent Explosions from Unknown Sources,Prevent Explosiオンs from Unknown Sources
 ftbchunks.protect_unknown_explosions.tooltip,"Some explosion sources (e.g. Ghasts) can't be determined in code.
 If this setting is true, damage from these explosion is prevented in protected chunks.","Some explosiオン sources (e.g. Ghasts) can't be determined in code.
 If this setting is true, damage from these explosiオン is prevented in protected chunks."
-ftbchunks.pvp_mode,Allow PvP Combat in Claimed Chunks,Allow PvP Combat in Claimed チャンクs
+ftbchunks.pvp_mode,Allow PvP Combat in Claimed Chunks,Allow PvP戦闘 in 請求済みチャンクs
 ftbchunks.pvp_mode.always,Always,常に
 ftbchunks.pvp_mode.never,Never,決して
 ftbchunks.pvp_mode.per_team,Per Team,チームごと
@@ -333,24 +333,24 @@ PER_TEAM: teams can decide if PvP is allowed in their claims via team property",
 NEVER: prevent PvP in all claimed チャンクs
 PER_TEAM: teams can decide if PvP is allowed in their claims via team property"
 ftbchunks.real_time,Real Time: %s,Real 時間: %s
-ftbchunks.require_game_stage,Require Game Stage for Mapping,Require Game Stage for マップping
-ftbchunks.require_game_stage.tooltip,"If true, players must have the 'ftbchunks_mapping' game stage (KubeJS and/or Gamestages required) to be able to open the map or see the minimap","If true, プレイヤーs must have the 'ftbchunks_mapping' game stage (KubeJS and/or Gamestages required) to be able to open the map or see the minimap"
-ftbchunks.show_wilderness.just_claimed,Show only Claimed Chunks,表示 only Claimed Chunks
+ftbchunks.require_game_stage,Require Game Stage for Mapping,Require ゲーム Stage for マップping
+ftbchunks.require_game_stage.tooltip,"If true, players must have the 'ftbchunks_mapping' game stage (KubeJS and/or Gamestages required) to be able to open the map or see the minimap","If true, プレイヤーs must have the 'ftbchunks_mapping' game stage (KubeJS and/or Gamestages required) to be able to open the map or see the ミニmap"
+ftbchunks.show_wilderness.just_claimed,Show only Claimed Chunks,表示 only Claimedチャンク
 ftbchunks.show_wilderness.show_wilderness,Show Wilderness,表示 Wilderness
 ftbchunks.team_prop_defaults,Team Property Defaults,Team Property デフォルトs
 ftbchunks.team_prop_defaults.def_allow_explosions,Allow Explosion Damage,Allow Explosiオン Damage
 ftbchunks.team_prop_defaults.def_block_edit,Block Edit Mode,Block 編集 Mode
 ftbchunks.team_prop_defaults.def_block_edit_interact,Block Edit/Interact Mode,Block 編集/Interact Mode
-ftbchunks.team_prop_defaults.def_block_interact,Block Interact Mode,Block Interact モード
+ftbchunks.team_prop_defaults.def_block_interact,Block Interact Mode,ブロックインタラクト モード
 ftbchunks.team_prop_defaults.def_claim_visibility,Claim Visibility,クレーム可視性
-ftbchunks.team_prop_defaults.def_entity_attack,Non-living Entity Attack Mode,Nオン-living Entity Attack Mode
-ftbchunks.team_prop_defaults.def_entity_interact,Entity Interact Mode,Entity Interact モード
-ftbchunks.team_prop_defaults.def_fake_player_ids,Allow Fake Players by ID,Allow Fake プレイヤーs by ID
-ftbchunks.team_prop_defaults.def_fake_players,Allow All Fake Players,Allow All Fake プレイヤーs
+ftbchunks.team_prop_defaults.def_entity_attack,Non-living Entity Attack Mode,Nオン-living エンティティ Attack Mode
+ftbchunks.team_prop_defaults.def_entity_interact,Entity Interact Mode,エンティティ Interact モード
+ftbchunks.team_prop_defaults.def_fake_player_ids,Allow Fake Players by ID,を許可 フェイクプレイヤーs by ID
+ftbchunks.team_prop_defaults.def_fake_players,Allow All Fake Players,Allow All フェイクプレイヤーs
 ftbchunks.team_prop_defaults.def_mob_griefing,Allow Mob Griefing Actions,Allow Mob Griefing Actiオンs
-ftbchunks.team_prop_defaults.def_named_fake_players,Named Fake Players,Named Fake プレイヤーs
+ftbchunks.team_prop_defaults.def_named_fake_players,Named Fake Players,Named フェイクプレイヤーs
 ftbchunks.team_prop_defaults.def_player_visibility,Location Visibility,Locatiオン Visibility
-ftbchunks.team_prop_defaults.def_pvp,Allow PvP Combat,すべてow PvP Combat
+ftbchunks.team_prop_defaults.def_pvp,Allow PvP Combat,すべてow PvP戦闘
 ftbchunks.time_mode.clock,Clock,時計
 ftbchunks.time_mode.twelve,Twelve,12時間
 ftbchunks.time_mode.twenty_four,Twenty Four,24時間
@@ -378,7 +378,7 @@ ftbchunks.waypoints.waypoint_focus_scale,Focused waypoint scaling,フォーカ�
 ftbchunks.waypoints.waypoint_focus_scale.tooltip,How big do focused waypoints grow?,フォーカスウェイポイントはどのくらい大きく成長しますか？
 ftbchunks.waypoints.waypoint_max_distance,Max waypoint draw distance,最大ウェイポイント描画距離
 ftbchunks.zoom_warning,Max zoom-out limited due to memory constraints,メモリ制約により最大ズームアウトが制限されます
-ftbteamsconfig.ftbchunks,FTB Chunks Properties,FTB Chunks プロパティ
+ftbteamsconfig.ftbchunks,FTB Chunks Properties,FTB チャンク プロパティ
 ftbteamsconfig.ftbchunks.allow_explosions,Allow Explosion Damage,爆発ダメージを許可
 ftbteamsconfig.ftbchunks.allow_explosions.tooltip,Should explosions be able to damage blocks in claimed areas?,爆発によってクレーム領域内のブロックが損傷されるべきですか？
 ftbteamsconfig.ftbchunks.allow_fake_players,Allow All Fake Players,すべてのフェイクプレイヤーを許可
@@ -414,10 +414,10 @@ ftbteamsconfig.ftbchunks.claim_visibility.tooltip,Controls who can see your clai
 ftbteamsconfig.ftbchunks.entity_interact_mode,Entity Interact Mode,エンティティ相互作用モード
 ftbteamsconfig.ftbchunks.entity_interact_mode.tooltip,Used when entities are right-clicked,エンティティが右クリックされるときに使用される
 ftbteamsconfig.ftbchunks.location_mode,Location Visibility,場所の可視性
-ftbteamsconfig.ftbchunks.location_mode.tooltip,Controls who can see you on the map or minimap (outside the normal vanilla tracking range),マップまたはミニマップで（通常のバニラトラッキング範囲外の）誰があなたを見ることができるかを制御する
+ftbteamsconfig.ftbchunks.location_mode.tooltip,Controls who can see you on the map or minimap (outside the normal vanilla tracking range),マップまたはミニマップで(通常のバニラトラッキング範囲外の)誰があなたを見ることができるかを制御する
 ftbteamsconfig.ftbchunks.minimap_mode,Minimap Mode,ミニマップモード
 ftbteamsconfig.ftbchunks.nonliving_entity_attack_mode,Non-living Entity Attack Mode,非生体エンティティ攻撃モード
-ftbteamsconfig.ftbchunks.nonliving_entity_attack_mode.tooltip,"Used when non-living entities (paintings, item frames etc.) are left-clicked",非生体エンティティ（絵画、アイテムフレームなど）が左クリックされるときに使用される
+ftbteamsconfig.ftbchunks.nonliving_entity_attack_mode.tooltip,"Used when non-living entities (paintings, item frames etc.) are left-clicked",非生体エンティティ(絵画、アイテムフレームなど)が左クリックされるときに使用される
 key.categories.ftbchunks,FTB Chunks,
 key.ftbchunks.add_waypoint,Quick Add Waypoint,クイック追加ウェイポイント
 key.ftbchunks.claim_manager,Open Claim Manager,クレーム管理画面を開く
@@ -448,8 +448,8 @@ mob_category.monster,Monster,モンスター
 mob_category.underground_water_creature,Underground Water Creature,地下水生物
 mob_category.water_ambient,Water Ambient,水中周囲
 mob_category.water_creature,Water Creature,水生物
-sidebar_button.ftbchunks.chunks,FTB Chunks: Map,FTB Chunks: マップ
-sidebar_button.ftbchunks.claim_chunks,FTB Chunks: Claim Manager,FTB Chunks: クレーム管理
+sidebar_button.ftbchunks.chunks,FTB Chunks: Map,FTB チャンク: マップ
+sidebar_button.ftbchunks.claim_chunks,FTB Chunks: Claim Manager,FTB チャンク: クレーム管理
 tag.item.ftbchunks.right_click_blacklist,Right Click Blacklist,右クリックブラックリスト
 tag.item.ftbchunks.right_click_whitelist,Right Click Whitelist,右クリックホワイトリスト
 wilderness,Wilderness,荒野
@@ -482,10 +482,10 @@ DEFAULT: allow force-loading IF the team has at least
  OR 'Allow Forceloading for Offline Players' is true.","常になし: 所有チームに少なくとも1人のオンラインプレイヤーがいる場合のみチャンク強制ロードを許可
 常に許可: 常に強制ロードを許可。オンラインプレイヤーがいなくても許可
 デフォルト: チームに「ftbchunks.chunk_load_offline」FTBランク権限を持つプレイヤーが少なくとも1人いる場合、またはオフラインプレイヤーの強制ロード許可が有効な場合は強制ロードを許可"
-ftbchunks.hard_team_claim_limit,Hard Max Team Claim Limit,チームの最大クレーム制限（ハード）
+ftbchunks.hard_team_claim_limit,Hard Max Team Claim Limit,チームの最大クレーム制限(ハード)
 ftbchunks.hard_team_claim_limit.tooltip,"Hard claim limit for party teams,
  regardless of member count or Party Limit Calculation mode",パーティーチームのハードクレーム制限。メンバー数またはパーティー制限計算モードに関係なく
-ftbchunks.hard_team_force_limit,Hard Max Team Forceload Limit,チームの最大強制ロード制限（ハード）
+ftbchunks.hard_team_force_limit,Hard Max Team Forceload Limit,チームの最大強制ロード制限(ハード)
 ftbchunks.hard_team_force_limit.tooltip,"Hard forceload limit for party teams,
  regardless of member count or Party Limit Calculation mode",パーティーチームの強制ロード制限。メンバー数またはパーティー制限計算モードに関係なく
 ftbchunks.in_world_waypoints,Show waypoints in world,ワールド内にウェイポイントを表示
@@ -516,7 +516,7 @@ If this is bothersome, set this to false.","有効にすると、マップの最
 ftbchunks.memory.region_release_time,Idle region release timeout,アイドル領域解放タイムアウト
 ftbchunks.memory.region_release_time.tooltip,"Timeout in seconds to release data for 512x512 regions which haven't been accessed recently
 Smaller values mean less memory usage, but more disk access as released regions are reloaded
-Set to 0 to disable releasing of region data.","最近アクセスされていない512x512領域のデータを解放するまでのタイムアウト（秒）。
+Set to 0 to disable releasing of region data.","最近アクセスされていない512x512領域のデータを解放するまでのタイムアウト(秒)。
 より小さい値はメモリ使用量を少なくしますが、解放された領域が再ロードされるため、ディスクアクセスが増加します。
 0に設定すると領域データの解放が無効になります。"
 ftbchunks.noise,Noise,ノイズ

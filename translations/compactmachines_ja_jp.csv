@@ -25,11 +25,11 @@ config.jade.plugin_compactmachines.bound_machine,Bound Compact Machines,バウ�
 config.jade.plugin_compactmachines.show_owner,Show Machine Owners,マシンオーナーを表示
 curios.identifier.psd,Personal Shrinking Device,個人用シュリンカー
 entity.minecraft.villager.compactmachines.tinkerer,Spatial Tinkerer,空間職人
-gamerule.compactmachines.allow_creative_oob,Allow Creative OOB,クリエイティブOOBを許可
+gamerule.compactmachines.allow_creative_oob,Allow Creative OOB,クリエイティブ境界外を許可
 gamerule.compactmachines.allow_creative_oob.description,Allow out-of-bounds creative players,範囲外のクリエイティブプレイヤーを許可
-gamerule.compactmachines.allow_spectator_oob,Allow Spectators OOB,スペクテイターOOBを許可
+gamerule.compactmachines.allow_spectator_oob,Allow Spectators OOB,スペクテイター境界外を許可
 gamerule.compactmachines.allow_spectator_oob.description,Allow out-of-bounds spectators,範囲外のスペクテイターを許可
-gamerule.compactmachines.allow_survival_oob,Allow Survival OOB,サバイバルOOBを許可
+gamerule.compactmachines.allow_survival_oob,Allow Survival OOB,サバイバル境界外を許可
 gamerule.compactmachines.allow_survival_oob.description,Allow out-of-bounds survival players,範囲外のサバイバルプレイヤーを許可
 gamerule.compactmachines.damage_oob,Damage OOB Players,範囲外プレイヤーへのダメージ
 gamerule.compactmachines.damage_oob.description,Damage players that are out of bounds,範囲外のプレイヤーにダメージを与える
@@ -40,7 +40,7 @@ item.compactmachines.personal_shrinking_device,Personal Shrinking Device,個人�
 item.compactmachines.shrinking_module,Atom Shrinking Module,原子縮小モジュール
 itemGroup.compactmachines.main,Compact Machines,コンパクトマシン
 jei.compactmachines.machines,"Machines are used to make pocket dimensions. Craft a machine and place it in world, then use a Personal Shrinking Device to go inside.",マシンはポケット次元を作るために使用されます。マシンをクラフトして世界に配置し、個人用シュリンカーを使用して内部に入ります。
-jei.compactmachines.shrinking_device,Use the Personal Shrinking Device (PSD) on a machine in order to enter a compact space.,個人用シュリンカー（PSD）をマシンに使用して、コンパクトスペースに入ります。
+jei.compactmachines.shrinking_device,Use the Personal Shrinking Device (PSD) on a machine in order to enter a compact space.,個人用シュリンカー(PSD)をマシンに使用して、コンパクトスペースに入ります。
 key.category.compactmachines.general,Compact Machines,コンパクトマシン
 key.mapping.compactmachines.exit_room,Quick-Exit Compact Machine,コンパクトマシンから素早く脱出
 key.mapping.compactmachines.open_upgrade_screen,Open Room Upgrade Screen,ルームアップグレード画面を開く
@@ -49,7 +49,7 @@ machine.compactmachines.machine.owner,Owner: %s,オーナー: %s
 machine.compactmachines.machine.size,Internal Size: %1$s,内部サイズ: %1$s
 machine.compactmachines.machine_room_info,Machine at %1$s is bound to a %2$s size room at %3$s,%1$sのマシンは%3$sにある%2$sサイズのルームにバウンドされています
 machine.compactmachines.new_machine,New Machine,新しいマシン
-messages.compactmachines.hint.hold_shift,Hold shift for details.,詳細についてはShiftを押し続けてください。
+messages.compactmachines.hint.hold_shift,Hold shift for details.,詳細についてはシフトを押し続けてください。
 messages.compactmachines.how_did_you_get_here,How did you get here?!,どうやってここに来たんですか？！
 messages.compactmachines.solid_wall,Warning! Unbreakable for non-creative players!,警告！クリエイティブプレイヤー以外は破壊不可です！
 messages.compactmachines.teleport_oob,An otherworldly force prevents your teleportation.,異次元の力があなたのテレポートを阻止します。

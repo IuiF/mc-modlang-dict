@@ -4,7 +4,7 @@ block.buildinggadgets.charging_station,Charging Station,充電ステーション
 block.buildinggadgets.construction_block,Construction Block,建築ブロック
 block.buildinggadgets.construction_block_dense,Dense Construction Block,濃密な建築ブロック
 block.buildinggadgets.construction_block_powder,Construction Block Powder,建築ブロック粉
-block.buildinggadgets.effect_block,(Unused)Effect Block,（未使用）エフェクトブロック
+block.buildinggadgets.effect_block,(Unused)Effect Block,(未使用)エフェクトブロック
 block.buildinggadgets.template_manager,Template Manager,テンプレートマネージャー
 buildinggadgets.commands.force_unloaded.list,Player with UUID %s has ForceLoadedChunks set to %b.,UUID %s のプレイヤーのForceLoadedChunksが%bに設定されています。
 buildinggadgets.commands.force_unloaded.no_player,Cannot toggle player status without a player unload status to target!,プレイヤーのアンロードステータスがないため、プレイヤーのステータスを切り替えできません！
@@ -26,10 +26,10 @@ buildinggadgets.easter_eggs.dire_9x9.no_dire_wire,No Dire-Wire this time. Please
 buildinggadgets.message.anchor_removed,Anchor Removed,アンカーを削除
 buildinggadgets.message.anchor_set,Render Anchored,レンダーをアンカー
 buildinggadgets.message.area_reset,Copy Area Reset,コピー範囲をリセット
-buildinggadgets.message.area_too_big,"Area too Large, max area is 65 536 X 256 X 65 536 (Right click empty air to reset)",範囲が大きすぎます。最大範囲は65 536×256×65 536です（空中を右クリックしてリセット）
+buildinggadgets.message.area_too_big,"Area too Large, max area is 65 536 X 256 X 65 536 (Right click empty air to reset)",範囲が大きすぎます。最大範囲は65 536×256×65 536です(空中を右クリックしてリセット)
 buildinggadgets.message.boundTE,Bound Gadget to Inventory,ガジェットをインベントリにバインド
-buildinggadgets.message.build_too_large,"Attempted to perform a build of size (%d, %d, %d) which is larger then your server's defined max size of (%d, %d, %d). If you want to build nonetheless, please use the OverrideBuildSize command.",サイズ（%d、%d、%d）のビルドを実行しようとしましたが、これはサーバーの定義された最大サイズ（%d、%d、%d）より大きいです。それでもビルドしたい場合は、OverrideBuildSizeコマンドを使用してください。
-buildinggadgets.message.build_unloaded,"Attempted to perform a build which would have enclosed %d unloaded chunks. If you want to build nonetheless, please use the ForceLoadChunks command.",サイズ（%d、%d、%d）のビルドを実行しようとしましたが、%dのアンロードされたチャンクが含まれます。それでもビルドしたい場合は、ForceLoadChunksコマンドを使用してください。
+buildinggadgets.message.build_too_large,"Attempted to perform a build of size (%d, %d, %d) which is larger then your server's defined max size of (%d, %d, %d). If you want to build nonetheless, please use the OverrideBuildSize command.",サイズ(%d、%d、%d)のビルドを実行しようとしましたが、これはサーバーの定義された最大サイズ(%d、%d、%d)より大きいです。それでもビルドしたい場合は、OverrideBuildSizeコマンドを使用してください。
+buildinggadgets.message.build_unloaded,"Attempted to perform a build which would have enclosed %d unloaded chunks. If you want to build nonetheless, please use the ForceLoadChunks command.",サイズ(%d、%d、%d)のビルドを実行しようとしましたが、%dのアンロードされたチャンクが含まれます。それでもビルドしたい場合は、ForceLoadChunksコマンドを使用してください。
 buildinggadgets.message.building.placement,Block Placement: %s,ブロック配置：%s
 buildinggadgets.message.connected_area,Connected Area: %s,接続された範囲：%s
 buildinggadgets.message.connected_surface,Connected Surface: %s,接続された表面：%s
@@ -37,14 +37,14 @@ buildinggadgets.message.copied,Area Copied,範囲をコピー
 buildinggadgets.message.copy_clipboard_success,Copy to Clipboard successful,クリップボードへのコピーが成功しました
 buildinggadgets.message.copy_failed.error,Could not copy to clipboard.,クリップボードへのコピーができませんでした。
 buildinggadgets.message.copy_failed.template_write,Could not write Template binary.,テンプレートバイナリを書き込めませんでした。
-buildinggadgets.message.copy_too_large,"Attempted to perform a copy of size (%d, %d, %d) which is larger then your server's defined max size of (%d, %d, %d). If you want to copy nonetheless, please use the OverrideCopySize command.",サイズ（%d、%d、%d）のコピーを実行しようとしましたが、これはサーバーの定義された最大サイズ（%d、%d、%d）より大きいです。それでもコピーしたい場合は、OverrideCopySizeコマンドを使用してください。
+buildinggadgets.message.copy_too_large,"Attempted to perform a copy of size (%d, %d, %d) which is larger then your server's defined max size of (%d, %d, %d). If you want to copy nonetheless, please use the OverrideCopySize command.",サイズ(%d、%d、%d)のコピーを実行しようとしましたが、これはサーバーの定義された最大サイズ(%d、%d、%d)より大きいです。それでもコピーしたい場合は、OverrideCopySizeコマンドを使用してください。
 buildinggadgets.message.copy_unloaded,"Attempted to perform a copy which would have enclosed %d unloaded chunks. If you want to copy nonetheless, please use the ForceLoadChunks command.",%dのアンロードされたチャンクが含まれるコピーを実行しようとしました。それでもコピーしたい場合は、ForceLoadChunksコマンドを使用してください。
 buildinggadgets.message.destroy_size_too_large,Maximum Destruction size is %1$dx%1$dx%1$d,最大破壊サイズは%1$d×%1$d×%1$dです
 buildinggadgets.message.failed_to_bind,Failed to bind to inventory,インベントリへのバインドに失敗しました
 buildinggadgets.message.first_copy,First Position set,最初の位置を設定
 buildinggadgets.message.fuzzy_mode,Fuzzy Mode: %s,ファジーモード：%s
 buildinggadgets.message.gadget_busy,The Gadget is currently Busy. Please Wait.,ガジェットは現在ビジーです。お待ちください。
-buildinggadgets.message.invalid_block,Invalid Block (%s),無効なブロック（%s）
+buildinggadgets.message.invalid_block,Invalid Block (%s),無効なブロック(%s)
 buildinggadgets.message.invalid_inventory,This block is not a valid inventory,このブロックは有効なインベントリではありません
 buildinggadgets.message.mirrored,Blocks Mirrored,ブロックをミラー反転
 buildinggadgets.message.not_copied,Area Copy Failed,範囲のコピーに失敗しました
@@ -55,7 +55,7 @@ buildinggadgets.message.paste_failed.corrupt_json,"Paste Failed, Corrupt JSON",�
 buildinggadgets.message.paste_failed.invalid_json,"Paste Failed, Invalid JSON",貼り付けに失敗しました。JSONが無効です
 buildinggadgets.message.paste_failed.link_copied,"Paste Failed. Please copy the raw json data, instead of a Link.",貼り付けに失敗しました。リンクではなく、生のJSONデータをコピーしてください。
 buildinggadgets.message.paste_failed.too_recent_version,"Paste Failed, Template version %s is unknown to this instance. Please use only Templates that were build up to format version %s.",貼り付けに失敗しました。テンプレートバージョン%sはこのインスタンスで不明です。フォーマットバージョン%sまでで構築されたテンプレートのみを使用してください。
-buildinggadgets.message.paste_failed.wrong_mc_version,"Paste Failed, MC Version %s is not supported. Please use only templates that were build for (%s) -> (%s)",貼り付けに失敗しました。MCバージョン%sはサポートされていません。（%s）→（%s）で構築されたテンプレートのみを使用してください
+buildinggadgets.message.paste_failed.wrong_mc_version,"Paste Failed, MC Version %s is not supported. Please use only templates that were build for (%s) -> (%s)",貼り付けに失敗しました。MCバージョン%sはサポートされていません。(%s)→(%s)で構築されたテンプレートのみを使用してください
 buildinggadgets.message.paste_success,Paste from Clipboard successful,クリップボードから貼り付けが成功しました
 buildinggadgets.message.place.atop,On Top,上に
 buildinggadgets.message.place.inside,Inside,内部
@@ -64,11 +64,11 @@ buildinggadgets.message.raytrace_fluid,Raytracing Fluids: %s,流体レイトレ�
 buildinggadgets.message.rotated,Blocks Rotated,ブロックを回転
 buildinggadgets.message.server_busy,The Server is currently Busy. Please Wait.,サーバーは現在ビジーです。お待ちください。
 buildinggadgets.message.template_build,Template build,テンプレートビルド
-buildinggadgets.message.too_many_blocks,"Too Many Blocks, Limit is 2 147 483 647 (Right click empty air to reset)",ブロック数が多すぎます。上限は2147483647です（空中を右クリックしてリセット）
-buildinggadgets.message.too_many_dif_blocks,"Too Many different Blocks, Limit is 16 777 216 (Right click empty air to reset)",異なるブロックが多すぎます。上限は16777216です（空中を右クリックしてリセット）
+buildinggadgets.message.too_many_blocks,"Too Many Blocks, Limit is 2 147 483 647 (Right click empty air to reset)",ブロック数が多すぎます。上限は2147483647です(空中を右クリックしてリセット)
+buildinggadgets.message.too_many_dif_blocks,"Too Many different Blocks, Limit is 16 777 216 (Right click empty air to reset)",異なるブロックが多すぎます。上限は16777216です(空中を右クリックしてリセット)
 buildinggadgets.message.tool_mode,Tool Mode: %s,ツールモード：%s
 buildinggadgets.message.unboundTE,Unbound Gadget from Inventory,ガジェットをインベントリから解除
-buildinggadgets.message.undo_failed,Undo Failed (Too far away?),元に戻すに失敗しました（遠すぎますか？）
+buildinggadgets.message.undo_failed,Undo Failed (Too far away?),元に戻すに失敗しました(遠すぎますか？)
 buildinggadgets.message.undo_missing_items,Missing Items for Undo,元に戻すためのアイテムが不足しています
 buildinggadgets.message.undo_unloaded,"Attempted to perform an undo which would have enclosed %d unloaded chunks. If you want to undo nonetheless, please use the ForceLoadChunks command.",%dのアンロードされたチャンクが含まれる元に戻す操作を実行しようとしました。それでも元に戻したい場合は、ForceLoadChunksコマンドを使用してください。
 buildinggadgets.modes.build_to_me,Build To Me,私にビルド
@@ -104,11 +104,11 @@ gui.buildinggadgets.destruction.field.right,Right,右
 gui.buildinggadgets.destruction.field.up,Up,上
 gui.buildinggadgets.field.end,End,終了
 gui.buildinggadgets.field.start,Start,開始
-gui.buildinggadgets.help.area.arrow.data_flow,"Represents the flow of data from one item to another; either from a template to a gadget/template, or from a gadget/template to a template or piece of paper",1つのアイテムから別のアイテムへのデータフロー（テンプレートからガジェット/テンプレート、またはガジェット/テンプレートからテンプレートまたは紙へ）を表します
+gui.buildinggadgets.help.area.arrow.data_flow,"Represents the flow of data from one item to another; either from a template to a gadget/template, or from a gadget/template to a template or piece of paper",1つのアイテムから別のアイテムへのデータフロー(テンプレートからガジェット/テンプレート、またはガジェット/テンプレートからテンプレートまたは紙へ)を表します
 gui.buildinggadgets.help.area.field.template_name,"When data is saved/pasted, the resulting template will have this name",データが保存/貼り付けされる場合、結果のテンプレートはこの名前を持つようになります
 gui.buildinggadgets.help.area.preview,Preview of the data stored in the gadget/template,ガジェット/テンプレートに保存されているデータのプレビュー
-gui.buildinggadgets.help.area.slot.gadget,Accepts §ncopy-paste gadget§r or §ntemplate§r to be saved/copied from and loaded to \n\n§9Colored overlay§r indicates that the item will receive data,§nコピー-貼り付けガジェット§rまたは§nテンプレート§rを受け取ります。保存/コピーと読み込みができます\n\n§9カラーオーバーレイ§rはアイテムがデータを受け取ることを示します
-gui.buildinggadgets.help.area.slot.template,Accepts §npaper§r or §ntemplate§r to be loaded from and saved/pasted to\n\n§9Colored overlay§r indicates that the item will receive data,§n紙§rまたは§nテンプレート§rを受け取ります。読み込みと保存/貼り付けができます\n\n§9カラーオーバーレイ§rはアイテムがデータを受け取ることを示します
+gui.buildinggadgets.help.area.slot.gadget,Accepts §ncopy-paste gadget§r or §ntemplate§r to be saved/copied from and loaded to \n\n§9Colored overlay§r indicates that the item will receive data,§nコピー-貼り付けガジェット§rまたは§nテンプレート§rを受け取ります。保存/コピーと読み込みができます\n\nカラーオーバーレイ§rはアイテムがデータを受け取ることを示します
+gui.buildinggadgets.help.area.slot.template,Accepts §npaper§r or §ntemplate§r to be loaded from and saved/pasted to\n\n§9Colored overlay§r indicates that the item will receive data,§n紙§rまたは§nテンプレート§rを受け取ります。読み込みと保存/貼り付けができます\n\nカラーオーバーレイ§rはアイテムがデータを受け取ることを示します
 gui.buildinggadgets.help.button.copy,Copies data from a gadget/template to your computer's clipboard,ガジェット/テンプレートからコンピュータのクリップボードにデータをコピーします
 gui.buildinggadgets.help.button.help.enter,Show hovering help text,ホバーテキストを表示
 gui.buildinggadgets.help.button.help.exit,Exit help mode,ヘルプモードを終了
@@ -119,16 +119,16 @@ gui.buildinggadgets.materialList.button.close,Close,閉じる
 gui.buildinggadgets.materialList.button.copyList,Copy,コピー
 gui.buildinggadgets.materialList.button.sorting.missingAcse,Missing ↓,不足 ↓
 gui.buildinggadgets.materialList.button.sorting.missingDesc,Missing ↑,不足 ↑
-gui.buildinggadgets.materialList.button.sorting.nameAZ,A-Z,昇順（A-Z）
-gui.buildinggadgets.materialList.button.sorting.nameZA,Z-A,降順（Z-A）
+gui.buildinggadgets.materialList.button.sorting.nameAZ,A-Z,昇順(A-Z)
+gui.buildinggadgets.materialList.button.sorting.nameZA,Z-A,降順(Z-A)
 gui.buildinggadgets.materialList.button.sorting.requiredAcse,Required ↓,必要 ↓
 gui.buildinggadgets.materialList.button.sorting.requiredDesc,Required ↑,必要 ↑
 gui.buildinggadgets.materialList.help.copyList,"Copy a text version of the material list.
 Press Ctrl/Command to create a detailed version with code names","マテリアルリストのテキスト版をコピーします。
 Ctrl/Commandを押して、コード名を含む詳細版を作成します"
 gui.buildinggadgets.materialList.message.copyList.success,Successfully copied material list,マテリアルリストのコピーに成功しました
-gui.buildinggadgets.materialList.title,Material List for %s by %s,%sのマテリアルリスト（作者：%s）
-gui.buildinggadgets.materialList.titleAuthorOnly,Material List by %s,マテリアルリスト（作者：%s）
+gui.buildinggadgets.materialList.title,Material List for %s by %s,%sのマテリアルリスト(作者：%s)
+gui.buildinggadgets.materialList.titleAuthorOnly,Material List by %s,マテリアルリスト(作者：%s)
 gui.buildinggadgets.materialList.titleEmpty,Material List,マテリアルリスト
 gui.buildinggadgets.materialList.titleNameOnly,Material List for %s,%sのマテリアルリスト
 gui.buildinggadgets.single.cancel,Cancel,キャンセル
@@ -161,16 +161,16 @@ key.buildinggadgets.connected_area,Connected Area,接続された範囲
 key.buildinggadgets.fuzzy,Fuzzy,ファジー
 key.buildinggadgets.material_list,Open Material List,マテリアルリストを開く
 key.buildinggadgets.range,Range / Overlay,範囲 / オーバーレイ
-key.buildinggadgets.rotate_mirror,Rotate / Mirror,回転 / ミラー
+key.buildinggadgets.rotate_mirror,Rotate / Mirror,回転/ ミラー
 key.buildinggadgets.settings_menu,Settings Menu,設定メニュー
 key.buildinggadgets.undo,Undo,元に戻す
 tooltip.charger.burn_time,Burn time left: %ss,燃焼時間残数：%s秒
 tooltip.charger.energy,Energy: %s FE,エネルギー：%s FE
 tooltip.charger.fuel_empty,No fuel,燃料なし
 tooltip.constructionblockpowder.helptext,Place next to water,水の隣に配置してください
-tooltip.donotuse,DO NOT USE (WIP),使用しないでください（WIP）
+tooltip.donotuse,DO NOT USE (WIP),使用しないでください(作成中)
 tooltip.gadget.anchor,Anchor,アンカー
-tooltip.gadget.block,Block: %s,ブロク
+tooltip.gadget.block,Block: %s,
 tooltip.gadget.building.place_atop,Place On Top: %s,上に配置：%s
 tooltip.gadget.connected,Connected %s,接続 %s
 tooltip.gadget.connected_area,Connected Area: %s,接続された範囲：%s
@@ -180,8 +180,8 @@ tooltip.gadget.destroywarning,WARNING: This tool voids blocks.,警告：この�
 tooltip.gadget.energy,Energy: %s/%s,エネルギー：%s/%s
 tooltip.gadget.fuzzy,Fuzzy: %s,ファジー：%s
 tooltip.gadget.mirror,Mirror,ミラー
-tooltip.gadget.mode,Mode: %s,モード
-tooltip.gadget.range,Range: %s (%s blocks),距離
+tooltip.gadget.mode,Mode: %s,
+tooltip.gadget.range,Range: %s (%s blocks),
 tooltip.gadget.raytrace_fluid,Raytrace Fluid: %s,流体レイトレース：%s
 tooltip.gadget.rotate,Rotate,回転
 tooltip.gadget.undo,Undo,元に戻す

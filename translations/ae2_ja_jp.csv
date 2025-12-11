@@ -41,7 +41,6 @@ achievement.ae2.QNB,Quantum Tunneling,量子トンネル
 achievement.ae2.QNB.desc,Craft a Quantum Link,量子リンクをクラフトする
 achievement.ae2.Recursive,Recursive Networking,再帰的ネットワーク
 achievement.ae2.Recursive.desc,Place a Storage Bus on an Interface.,ストレージバスにインターフェースを設置する。
-achievement.ae2.Root,Applied Energistics,Applied Energistics
 achievement.ae2.Root.desc,When a chest is simply not enough. Acquire Copper to start your AE2 adventure.,チェストだけでは足りない場合。
 achievement.ae2.SpatialIO,Spatial Coordination,空間座標
 achievement.ae2.SpatialIO.desc,Craft a Spatial IO Port,空間入出力ポートをクラフトする
@@ -89,7 +88,7 @@ ae2.rei_jei_integration.quartz_buds_grow_on_budding_quartz,Quartz buds grow on b
 ae2.rei_jei_integration.recipe_too_large,Recipe larger than 3x3,レシピが3x3より大きいです
 ae2.rei_jei_integration.requires_processing_mode,Requires processing mode,処理モードが必要です
 ae2.rei_jei_integration.right_click,Right-Click,右クリック
-ae2.rei_jei_integration.shift_right_click,Shift+Right-Click,Shift+右クリック
+ae2.rei_jei_integration.shift_right_click,Shift+Right-Click,シフト+右クリック
 ae2.rei_jei_integration.silk_touch_prevents_decay_for_imperfect,Silk touch prevents decay for imperfect budding quartz.,シルクタッチは不完全な芽生えたクォーツの劣化を防ぎます。
 ae2.rei_jei_integration.spatial_io_never_causes_any_decay,Spatial I/O never causes any decay.,空間入出力によって劣化が発生することはありません。
 ae2.rei_jei_integration.submerge_in,Submerge in,浸す
@@ -101,7 +100,7 @@ block.ae2.1k_crafting_storage,1k Crafting Storage,1k クラフトストレージ
 block.ae2.256k_crafting_storage,256k Crafting Storage,256k クラフトストレージ
 block.ae2.4k_crafting_storage,4k Crafting Storage,4k クラフトストレージ
 block.ae2.64k_crafting_storage,64k Crafting Storage,64k クラフトストレージ
-block.ae2.cable_bus,AE2 Cable and/or Bus,AE2ケーブルまたはバス
+block.ae2.cable_bus,AE2 Cable and/or Bus,AE2ケーブル/バス
 block.ae2.cell_workbench,Cell Workbench,セル作業台
 block.ae2.charger,Charger,チャージャー
 block.ae2.chest,ME Chest,MEチェスト
@@ -252,7 +251,7 @@ chat.ae2.TestWorldSetupComplete,Test world setup completed in %s,テストワー
 chat.ae2.TestWorldSetupFailed,Setting up the test world failed: %s,テストワールドのセットアップに失敗しました: %s
 chat.ae2.Unknown,Unknown,不明
 chat.ae2.UnknownAE2Player,Unknown AE2 Player (%s),不明なAE2プレイヤー (%s)
-chat.ae2.UnknownHotkey,Unknown Hotkey: ,不明なホットキー: 
+chat.ae2.UnknownHotkey,Unknown Hotkey: ,不明なホットキー:
 chat.ae2.UnsupportedUpgrade,This upgrade is not supported by this machine.,このアップグレードはこのマシンではサポートされていません。
 chat.ae2.When,When,日時
 chat.ae2.isNowLocked,Monitor is now Locked.,モニターはロックされました。
@@ -260,7 +259,7 @@ chat.ae2.isNowUnlocked,Monitor is now Unlocked.,モニターのロックが解�
 commands.ae2.ChunkLoggerOff,Chunk Logging is now off,チャンクロギング: オフ
 commands.ae2.ChunkLoggerOn,Chunk Logging is now on,チャンクロギング: オン
 commands.ae2.permissions,You do not have adequate permissions to run this command.,このコマンドを実行するための権限がありません。
-commands.ae2.usage,"Commands provided by Applied Energistics 2 - use /ae2 list for a list, and /ae2 help _____ for help with a command.",Applied Energistics 2によるコマンド - /ae2 list でリストを表示、/ae2 help _____ でヘルプを表示。
+commands.ae2.usage,"Commands provided by Applied Energistics 2 - use /ae2 list for a list, and /ae2 help _____ for help with a command.",Applied Energistics 2によるコマンド - /ae2リストでリストを表示、/ae2 help _____ でヘルプを表示。
 config.jade.plugin_ae2.charger,AE2 Charger,AE2チャージャー
 config.jade.plugin_ae2.crafting_monitor,AE2 Crafting Monitor,AE2クラフトモニター
 config.jade.plugin_ae2.debug,AE2 Debug Info,AE2デバッグ情報
@@ -296,7 +295,6 @@ gui.ae2.Blank,Blank,空
 gui.ae2.Blue,Blue,青色
 gui.ae2.Brown,Brown,茶色
 gui.ae2.BytesUsed,%s Bytes Used,%s バイト使用済み
-gui.ae2.CPUs,CPU,CPU
 gui.ae2.CalculatingWait,Calculating Please Wait...,計算中 しばらくお待ち下さい...
 gui.ae2.CanBeEnchanted,Can be enchanted,エンチャント可能
 gui.ae2.Cancel,Cancel,キャンセル
@@ -306,7 +304,6 @@ gui.ae2.CellWorkbench,Cell Workbench,セル作業台
 gui.ae2.CertusQuartzObtain,"Certus Quartz is grown by the various Budding Certus Quartz blocks, which can be found in meteors, or crafted from regular Certus Quartz blocks.",ケルタスクォーツは、隕石から見つかる様々なケルタスクォーツブロック、または通常のケルタスクォーツブロックからクラフトされる芽生えたケルタスクォーツブロックによって成長します。
 gui.ae2.ChannelEnergyDrain,Channel Passive Drain: %s,チャンネル受動排出: %s
 gui.ae2.Clean,Clean,消去
-gui.ae2.CompatibleUpgrade,%s (%s),%s (%s)
 gui.ae2.CompatibleUpgrades,Compatible Upgrades:,互換性のあるアップグレード:
 gui.ae2.Condenser,Matter Condenser,マターコンデンサー
 gui.ae2.Config,Config,コンフィグ
@@ -339,12 +336,10 @@ gui.ae2.CraftingPlan,Crafting Plan - %s,クラフト計画 - %s
 gui.ae2.CraftingStatus,Crafting Status,クラフト状況
 gui.ae2.CraftingTerminal,Crafting Terminal,クラフトターミナル
 gui.ae2.Crafts,Crafts,クラフト
-gui.ae2.CreativeTab,Applied Energistics 2,Applied Energistics 2
 gui.ae2.CreativeTabFacades,Applied Energistics 2 - Facades,Applied Energistics 2 - 外装
 gui.ae2.Cyan,Cyan,空色
 gui.ae2.Deprecated,Deprecated,非推奨
 gui.ae2.Drive,ME Drive,MEドライブ
-gui.ae2.ETAFormat,HH:mm:ss,HH:mm:ss
 gui.ae2.Efficiency,Efficiency: %s%%,効率: %s%%
 gui.ae2.Empty,Empty,空
 gui.ae2.Encoded,Encoded,エンコード済み
@@ -408,7 +403,6 @@ gui.ae2.Nothing,Nothing,無し
 gui.ae2.NumberGreaterThanMaxValue,Please enter a number less than or equal to %s,%s以下の数値を入力してください
 gui.ae2.NumberLessThanMinValue,Please enter a number greater than or equal to %s,%s以上の数値を入力してください
 gui.ae2.NumberNonInteger,Must be whole number,整数でなければなりません
-gui.ae2.OCTunnel,OpenComputers,OpenComputers
 gui.ae2.Of,of,の
 gui.ae2.OfSecondOutput,%1$d%% Chance for second output.,2番目の出力率 %1$d%%。
 gui.ae2.Or,or,または
@@ -435,7 +429,7 @@ gui.ae2.PortableCells,Portable Cells,ポータブルセル
 gui.ae2.PowerInputRate,Energy Generation: %s,エネルギー充電率: %s
 gui.ae2.PowerUsageRate,Energy Usage: %s,エネルギー使用率: %s
 gui.ae2.Precise,Precise,正確
-gui.ae2.PressShiftForFullList,Press [Shift] for full list,[Shift] を押して全リストを表示
+gui.ae2.PressShiftForFullList,Press [Shift] for full list,[シフト] を押して全リストを表示
 gui.ae2.PressureTunnel,Pressure,圧力
 gui.ae2.Priority,Priority,優先度
 gui.ae2.PriorityExtractionHint,Extraction: Lower priority first,取り出し: 優先度の低い順
@@ -471,7 +465,7 @@ gui.ae2.SearchSettingsUseInternalSearch,Use AE,AEを使用
 gui.ae2.SearchTooltip,Search in Name,名前で検索
 gui.ae2.SearchTooltipItemId,Use * to search by id (*cell),*を使ってID名で検索する (*cell)
 gui.ae2.SearchTooltipModId,Use @ to search by mod (@ae2),@を使ってMod名で検索する (@ae2)
-gui.ae2.SearchTooltipTag,Use # to search by tags (#ingot),#を使用してタグで検索（#ores）
+gui.ae2.SearchTooltipTag,Use # to search by tags (#ingot),#を使用してタグで検索(#ores)
 gui.ae2.SearchTooltipToolTips,Use $ to search in tooltips ($looting),$を使ってツールチップを検索する ($looting)
 gui.ae2.SelectAmount,Select Amount,数量を選択
 gui.ae2.SelectedCraftingCPU,Crafting CPU: %s,クラフトCPU: %s
@@ -512,7 +506,6 @@ gui.ae2.TerminalSettingsPinAutoCraftedItems,Pin auto-crafted items to first row,
 gui.ae2.TerminalSettingsTitle,Terminal Settings,ターミナル設定
 gui.ae2.TerminalViewCellsTooltip,View Cells,表示セル
 gui.ae2.ToCraft,To Craft: %s,クラフトへ: %s
-gui.ae2.ToastCraftingJobFinishedText,%d %s,%d %s
 gui.ae2.ToastCraftingJobFinishedTitle,Auto-Crafting Complete,自動クラフトが完了しました
 gui.ae2.TransformTypeExplode,Explode,爆発
 gui.ae2.TransformTypeThrowInFluid,Throw in %s,%sに投げる
@@ -534,8 +527,6 @@ gui.ae2.Yellow,Yellow,黄色
 gui.ae2.Yes,Yes,はい
 gui.ae2.inWorldCraftingPresses,Crafting Presses are obtained by breaking a Mysterious Cube. Mysterious Cubes are in the center of meteorites which can be found in around the world. They can be located by using a meteorite compass.,クラフトプレスは世界中にある隕石の中心にあり、隕石コンパスを使用して見つけることができます。
 gui.ae2.inWorldSingularity,To create drop 1 Singularity and 1 Ender Dust and cause an explosion within range of the items.,作成するにはシンギュラリティ1つとエンダー粉1つを置いて、爆発に巻き込ませてください。
-gui.ae2.units.appliedenergistics,AE,AE
-gui.ae2.units.fe,FE,FE
 gui.tooltips.ae2.ActiveOnPulse,Activate once per pulse,信号ごとに1回有効
 gui.tooltips.ae2.ActiveWithSignal,Active with signal,信号有りで有効
 gui.tooltips.ae2.ActiveWithoutSignal,Active without signal,信号無しで有効
@@ -551,7 +542,7 @@ gui.tooltips.ae2.BlockPlacementYes,Blocks will be placed as block.,ブロック�
 gui.tooltips.ae2.Blocking,Do not push crafting ingredients if inventory contains a pattern input.,インベントリにアイテムが含まれている場合、クラフトアイテムを送信しないでください。
 gui.tooltips.ae2.CanExtractFrom,Can extract from %s,%sから抽出可能
 gui.tooltips.ae2.CanInsertFrom,Can insert from %s,%sから挿入可能
-gui.tooltips.ae2.Clear,Clear,消去
+gui.tooltips.ae2.Clear,Clear,クリア
 gui.tooltips.ae2.ClearSettings,Clear Config/Settings,設定の削除
 gui.tooltips.ae2.CondenserOutput,ME Condenser - Output,MEコンデンサー - 出力
 gui.tooltips.ae2.CpuSelectionMode,CPU Auto-Selection Mode,CPU自動選択モード
@@ -627,7 +618,6 @@ gui.tooltips.ae2.LockCraftingWhileRedstoneLow,Without redstone signal,レッド�
 gui.tooltips.ae2.MatterBalls,"Condense Into Matter Balls
 %s per item",マターボールへの凝縮\nアイテムごとに%s個
 gui.tooltips.ae2.MiddleClick,Middle-Click,中クリック
-gui.tooltips.ae2.Mod,Mod,Mod
 gui.tooltips.ae2.ModifyAmountAction,%s: Modify Amount,%s: 数量の変更
 gui.tooltips.ae2.MouseButton,Mouse %d,マウス %d
 gui.tooltips.ae2.MoveWhenEmpty,Move to output when empty.,空の場合は出力に移行します。
@@ -704,7 +694,7 @@ gui.tooltips.ae2.TransferDirection,Transfer Direction,転送方向
 gui.tooltips.ae2.TransferToNetwork,Transfer data to Network,ネットワークへのデータ転送
 gui.tooltips.ae2.TransferToStorageCell,Transfer data to Storage Cell,ストレージセルへのデータ転送
 gui.tooltips.ae2.Trash,Destroy Items,アイテムを消去
-gui.tooltips.ae2.TrashController,Deletion via Shift / Space Clicking.,Shift / スペースによる削除です。
+gui.tooltips.ae2.TrashController,Deletion via Shift / Space Clicking.,シフト / スペースによる削除です。
 gui.tooltips.ae2.TypeFilter,Filter Types,フィルタータイプ
 gui.tooltips.ae2.View,View,表示
 gui.tooltips.ae2.Write,Insert Only,挿入のみ
@@ -970,7 +960,6 @@ item.ae2.yellow_lumen_paint_ball,Yellow Lumen Paint Ball,黄色の輝くペイ�
 item.ae2.yellow_paint_ball,Yellow Paint Ball,黄色のペイントボール
 item.ae2.yellow_smart_cable,Yellow ME Smart Cable,黄色のMEスマートケーブル
 item.ae2.yellow_smart_dense_cable,Yellow ME Dense Smart Cable,黄色のME高密度スマートケーブル
-key.ae2.category,Applied Energistics 2,Applied Energistics 2
 key.ae2.guide,Open Guide for Items,アイテムのガイドを開く
 key.ae2.mouse_wheel_item_modifier,Modifier for Mouse-Wheel Items,マウスホイールアイテムの追加オプション
 key.ae2.part_placement_opposite,Place Parts on Opposite Side,反対側にパーツを置く
@@ -995,7 +984,6 @@ theoneprobe.ae2.p2p_input_one_output,Linked (Input Side),リンク済み(入力�
 theoneprobe.ae2.p2p_output,Linked (Output Side),リンク済み(出力側)
 theoneprobe.ae2.p2p_unlinked,Unlinked,リンクされてない
 theoneprobe.ae2.showing,Showing,表示中
-theoneprobe.ae2.stored_energy,%1$d / %2$d,%1$d / %2$d
 theoneprobe.ae2.unlocked,Unlocked,解錠された
 waila.ae2.Channels,%1$d Channels,%1$dチャンネル
 waila.ae2.ChannelsOf,%1$d of %2$d Channels,%1$d / %2$dチャンネル
@@ -1025,13 +1013,11 @@ waila.ae2.Showing,Showing,表示中
 waila.ae2.Stored,Stored: %s / %s,保管済み: %s / %s
 waila.ae2.Suppressed,Suppressed,抑制されました
 waila.ae2.Unlocked,Unlocked,解錠された
-achievement.ae2.QuartzCrystal,Applied Energistics 2,Applied Energistics 2
 achievement.ae2.QuartzCrystal.desc,Obtain your first Certus Quartz Crystal.,最初のサーティスクォーツクリスタルを入手する。
 ae2.rei_jei_integration.silk_touch_causes_less_decay,Silk touch causes less decay,シルクタッチはより少ない分解を引き起こす
 ae2.rei_jei_integration.spatial_io_causes_none,Spatial I/O causes none,スペーシャルI/Oは分解を引き起こさない
 ae2.rei_jei_integration.throwing_in_water_category,Throwing In Water,水に投入する
 ae2.rei_jei_integration.with_crystal_growth_accelerators,With Crystal Growth Accelerators:,クリスタルグロースアクセレーターを使用：
-block.ae2.debug_chunk_loader,Dev.ChunkLoader,Dev.ChunkLoader
 block.ae2.deepslate_quartz_ore,Deepslate Certus Quartz Ore,深板サーティスクォーツ鉱石
 block.ae2.quartz_growth_accelerator,Crystal Growth Accelerator,クリスタル成長加速器
 block.ae2.quartz_ore,Certus Quartz Ore,ケルタスクォーツ鉱石
@@ -1043,7 +1029,6 @@ entity.ae2.growing_crystal,Growing Crystal,成長中のクリスタル
 entity.ae2.singularity,Singularity,シンギュラリティ
 gui.ae2.ChargedQuartz,"Charged Certus Quartz is crafted by inserting an uncharged Certus Quartz Crystal into the Charger, and powering it.",チャージ済みケルタスクォーツはチャージャーを使うことで、チャージされていないケルタスクォーツから作ることができます。
 gui.ae2.Chest,ME Chest,MEチェスト
-gui.ae2.LargeFontCraft,+,+
 gui.ae2.NoPermissions,No Permissions Selected,権限未選択
 gui.ae2.SearchSettingsSearchTooltips,Search in tooltips,ツールチップ内を検索
 gui.ae2.SearchTooltipIncludingTooltips,Search in Name and Tooltip,名前とツールチップ内を検索
@@ -1061,14 +1046,13 @@ gui.ae2.security.inject.name,Deposit,預ける
 gui.ae2.security.inject.tip,User is allowed to store new items into storage.,ユーザーは新しいアイテムをストレージに保存できます。
 gui.ae2.security.security.name,Security,セキュリティ
 gui.ae2.security.security.tip,User can access and modify the security terminal of the network.,ユーザーは、ネットワークのセキュリティ端末にアクセスして変更できます。
-gui.ae2.units.rf,RF,RF
 gui.tooltips.ae2.ShowAll,Show All,すべて表示
 gui.tooltips.ae2.ShowFluidsOnly,Show Fluids only,流体のみを表示
 gui.tooltips.ae2.ShowItemsOnly,Show Items only,アイテムのみを表示
 gui.tooltips.ae2.Substitutions,Item Substitutions,鉱石辞書の置換
 item.ae2.biometric_card,Biometric Card,バイオメトリクスカード
 item.ae2.certus_crystal_seed,Certus Quartz Seed,サーティスクォーツシード
-item.ae2.creative_fluid_cell,Creative ME Fluid Cell,Creative MEフルイドセル
+item.ae2.creative_fluid_cell,Creative ME Fluid Cell,クリエイティブMEフルイドセル
 item.ae2.creative_item_cell,Creative ME Item Cell,クリエイティブMEストレージセル
 item.ae2.fluix_crystal_seed,Fluix Seed,Fluixシード
 item.ae2.identity_annihilation_plane,ME Identity Annihilation Plane,MEアイデンティティアンニヒレーションプレーン
@@ -1089,5 +1073,15 @@ item.ae2.memory_card_red,Red Memory Card,赤色メモリカード
 item.ae2.memory_card_white,White Memory Card,白色メモリカード
 item.ae2.memory_card_yellow,Yellow Memory Card,黄色メモリカード
 itemGroup.ae2.facades,Applied Energistics 2 - Facades,Applied Energistics 2 - 外観
-itemGroup.ae2.main,Applied Energistics 2,Applied Energistics 2
 waila.ae2.IdentityDeprecated,Deprecated. Convert with SHIFT + RIGHT-CLICK,廃止予定です。SHIFT + 右クリックで変換してください
+ae2.guidebook.Close,Close,
+ae2.guidebook.ContentFrom,Content from,
+ae2.guidebook.HideAnnotations,Hide Annotations,
+ae2.guidebook.HistoryGoBack,Go back one page,
+ae2.guidebook.HistoryGoForward,Go forward one page,
+ae2.guidebook.HoldToShow,Hold [%s] to open guide,
+ae2.guidebook.ResetView,Reset View,
+ae2.guidebook.Search,Search,
+ae2.guidebook.ShowAnnotations,Show Annotations,
+ae2.guidebook.ZoomIn,Zoom In,
+ae2.guidebook.ZoomOut,Zoom Out,

@@ -1,15 +1,11 @@
 ﻿key,source_text,target_text
-_comment,Thermal,Thermal
 block.hostilenetworks.loot_fabricator,Loot Fabricator,ルート製造機
 block.hostilenetworks.sim_chamber,Simulation Chamber,シミュレーションチャンバー
 curios.identifier.deep_learner,Deep Learner,ディープラーナー
-enchantment.level.0,0,0
 hostilenetworks.color_text.build,Build a Data Model,データモデルを構築
 hostilenetworks.color_text.failed,failed,失敗
 hostilenetworks.color_text.false,false,偽
-hostilenetworks.color_text.hud,HUD,HUD
 hostilenetworks.color_text.rclick,Right-Click,右クリック
-hostilenetworks.color_text.shift,SHIFT,SHIFT
 hostilenetworks.color_text.success,succeeded,成功
 hostilenetworks.color_text.true,true,真
 hostilenetworks.fail.energy,"Cannot begin simulation
@@ -31,11 +27,10 @@ to begin the simulation","シミュレーションを開始するには
 hostilenetworks.fail.output,"Cannot begin simulation
 Output buffers are occupied","シミュレーション開始不可
 出力バッファが満杯です"
-hostilenetworks.gui.accuracy,Model Accuracy: ,モデル精度: 
+hostilenetworks.gui.accuracy,Model Accuracy: ,モデル精度:
 hostilenetworks.gui.clear,Click to clear selection,選択をクリア
 hostilenetworks.gui.cost,Model energy cost: %s FE/t,モデルエネルギーコスト: %s FE/t
 hostilenetworks.gui.data,%s/%s Data collected,%s/%s データ収集済み
-hostilenetworks.gui.energy,%s/%s FE,%s/%s FE
 hostilenetworks.gui.fab_cost,Energy cost: %s FE/t,エネルギーコスト: %s FE/t
 hostilenetworks.gui.info,Information,情報
 hostilenetworks.gui.kill,kill,討伐
@@ -50,38 +45,36 @@ hostilenetworks.gui.learner_empty.6,you must deliver the killing blow.,敵にト
 hostilenetworks.gui.max_data,I am at maximum potential,最大ポテンシャルに達しました
 hostilenetworks.gui.max_tier,You cannot improve me further,これ以上改善できません
 hostilenetworks.gui.name,Name,名前
-hostilenetworks.gui.next_tier,Upgrades to ,アップグレード先: 
-hostilenetworks.gui.next_tier2," in %s "," に %s "
+hostilenetworks.gui.next_tier,Upgrades to ,アップグレード先:
+hostilenetworks.gui.next_tier2," in %s ",に %s
 hostilenetworks.gui.stats,Statistics,統計情報
-hostilenetworks.gui.target,Sim Target: ,シミュレーション対象: 
-hostilenetworks.gui.tier,Model Tier: ,モデルティア: 
+hostilenetworks.gui.target,Sim Target: ,シミュレーション対象:
+hostilenetworks.gui.tier,Model Tier: ,モデルティア:
 hostilenetworks.gui.variant,%s (Variant),%s (バリアント)
 hostilenetworks.hud.kills,%s Remaining,%s 残り
-hostilenetworks.hud.model," Model"," モデル"
+hostilenetworks.hud.model," Model",モデル
+hostilenetworks.info.click_to_attune,%s on an entity to %s.,%s を敵に対して %s。
 hostilenetworks.info.data,Data Collected: %s,収集データ: %s
 hostilenetworks.info.deep_learner,Displays a %s when held and models are within,所持時にモデルが範囲内にあると %s を表示
 hostilenetworks.info.dl_contains,Contains the following models,以下のモデルを含む
 hostilenetworks.info.dpk,Data Per Kill: %s,1討伐あたりのデータ: %s
-hostilenetworks.info.dprog,%s/%s,%s/%s
 hostilenetworks.info.exp,Generates Experience: %s,経験値生成: %s
 hostilenetworks.info.hold_shift,- Hold %s for more info,- %s を長押しで詳細表示
 hostilenetworks.info.looting,Looting Level: %s,略奪レベル: %s
 hostilenetworks.info.no_base_drop,No Base Drop Produced,基本ドロップなし
 hostilenetworks.info.player,Player Drops: %s,プレイヤードロップ: %s
-hostilenetworks.info.rft,%s FE/t,%s FE/t
 hostilenetworks.info.rolls,Loot Table Copies: %s,ルートテーブルコピー数: %s
 hostilenetworks.info.sim_cost,Simulation Cost: %s,シミュレーションコスト: %s
-hostilenetworks.info.sub_list,"  - %s","  - %s"
 hostilenetworks.info.subtypes,Variants:,バリアント:
 hostilenetworks.info.tier,Tier: %s,ティア: %s
 hostilenetworks.msg.built,Successfully constructed a %s Data Model,%s データモデルを正常に構築しました
 hostilenetworks.msg.no_model,No known models exist for this specimen.,このサンプルに対する既知のモデルは存在しません。
-hostilenetworks.run.0,> Launching runtime ,> ランタイム起動 
+hostilenetworks.run.0,> Launching runtime ,> ランタイム起動
 hostilenetworks.run.1,> Iteration #%s started,> イテレーション #%s を開始
 hostilenetworks.run.2,> Loading model from chip memory,> チップメモリからモデルをロード
 hostilenetworks.run.3,> Assessing threat level,> 脅威レベルを評価中
 hostilenetworks.run.4,> Engaging enemy,> 敵を攻撃中
-hostilenetworks.run.5,> Sequence prediction ,> シーケンス予測 
+hostilenetworks.run.5,> Sequence prediction ,> シーケンス予測
 hostilenetworks.run.6,> Processing results...,> 結果を処理中...
 hostilenetworks.tier.advanced,Advanced,高度
 hostilenetworks.tier.basic,Basic,基本
@@ -335,7 +328,7 @@ to be fair.","単純なゴブリン鉱夫。
 トワイライトはそこまで深くない
 まあ、正当な理由だが。"
 hostilenetworks.trivia.sheep,"Masters of color, and all things warm.
-Usually held back, unless blessed by _jeb.","色と温かいものの達人。
+Usually held back, unless blessed by _jeb.","色と温かいもの達人。
 通常は抑制されるが、_jebの祝福を受けると別。"
 hostilenetworks.trivia.shulker,"A reinforced, teleporting cannon.
 Makes a nice chest when slain.","強化された、テレポート砲。
@@ -463,6 +456,7 @@ Has a lot of gold, though.","ネザーの貧しい住人が
 item.hostilenetworks.blank_data_model,Model Framework,モデルフレームワーク
 item.hostilenetworks.data_model,%s Data Model,%s データモデル
 item.hostilenetworks.deep_learner,Deep Learner,ディープラーナー
+item.hostilenetworks.empty_prediction,Prediction Matrix,予測マトリックス
 item.hostilenetworks.end_prediction,Generalized Ender Prediction,一般化エンダー予測
 item.hostilenetworks.nether_prediction,Generalized Nether Prediction,一般化ネザー予測
 item.hostilenetworks.overworld_prediction,Generalized Overworld Prediction,一般化オーバーワールド予測
@@ -473,7 +467,6 @@ name.hostilenetworks.ars_wilden,Wilden,ワイルド
 name.hostilenetworks.twilight_giant,Twilight Giant,トワイライト ジャイアント
 name.hostilenetworks.twilight_goblin,Twilight Goblin,トワイライト ゴブリン
 name.hostilenetworks.twilight_ice,Twilight Ice Elemental,トワイライト アイス エレメンタル
-hostilenetworks.info.attunment_disabled,Model attunement is disabled,
-hostilenetworks.info.click_to_attune,%s on an entity to %s,
-hostilenetworks.info.disabled,(Disabled),
-item.hostilenetworks.prediction_matrix,Prediction Matrix,
+hostilenetworks.info.attunment_disabled,Model attunement is disabled,モデルのアチューンメントは無効です
+hostilenetworks.info.disabled,(Disabled),(無効)
+item.hostilenetworks.prediction_matrix,Prediction Matrix,予測マトリックス

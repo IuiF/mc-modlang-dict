@@ -22,21 +22,21 @@ embeddium.plus.options.common.slow,Slow,遅い
 embeddium.plus.options.common.superfast,Super Fast,超高速
 embeddium.plus.options.culling.entity.desc,"If enabled, Entities will be hidden based on configured distance limit",有効にした場合、エンティティは設定された距離制限に基づいて非表示になります
 embeddium.plus.options.culling.entity.distance.horizontal.desc,"Hides and does not tick entities beyond this many blocks. Huge performance increase, especially around modded farms.",このブロック数を超えたエンティティを非表示にしてティックしません。パフォーマンスが大幅に向上します。特に modded ファームの周辺で。
-embeddium.plus.options.culling.entity.distance.horizontal.title,Entities Max Distance (Horizontal),エンティティ最大距離（水平）
+embeddium.plus.options.culling.entity.distance.horizontal.title,Entities Max Distance (Horizontal),エンティティ最大距離(水平)
 embeddium.plus.options.culling.entity.distance.vertical.desc,"Hides and does not tick entities underneath this many blocks, improving performance above caves. This should ideally be set lower than the horizontal distance.",このブロック数下のエンティティを非表示にしてティックしないため、洞窟上のパフォーマンスが向上します。これは水平距離より低く設定するのが理想的です。
-embeddium.plus.options.culling.entity.distance.vertical.title,Entities Max Distance (Vertical),エンティティ最大距離（垂直）
+embeddium.plus.options.culling.entity.distance.vertical.title,Entities Max Distance (Vertical),エンティティ最大距離(垂直)
 embeddium.plus.options.culling.entity.title,Use Max Entity Distance,最大エンティティ距離を使用
-embeddium.plus.options.culling.monster.desc,"If enabled, Monsters (hostile entities) will be hidden based on configured distance limit",有効にした場合、モンスター（ホスタイルエンティティ）は設定された距離制限に基づいて非表示になります
+embeddium.plus.options.culling.monster.desc,"If enabled, Monsters (hostile entities) will be hidden based on configured distance limit",有効にした場合、モンスター(ホスタイルエンティティ)は設定された距離制限に基づいて非表示になります
 embeddium.plus.options.culling.monster.distance.horizontal.desc,"Hides and does not tick monsters beyond this many blocks. Huge performance increase, especially around XP farms.",このブロック数を超えたモンスターを非表示にしてティックしません。パフォーマンスが大幅に向上します。特に XP ファームの周辺で。
-embeddium.plus.options.culling.monster.distance.horizontal.title,Monsters Max Distance (Horizontal),モンスター最大距離（水平）
+embeddium.plus.options.culling.monster.distance.horizontal.title,Monsters Max Distance (Horizontal),モンスター最大距離(水平)
 embeddium.plus.options.culling.monster.distance.vertical.desc,"Hides and does not tick monsters underneath this many blocks, improving performance above caves. This should ideally be set lower than the horizontal distance.",このブロック数下のモンスターを非表示にしてティックしないため、洞窟上のパフォーマンスが向上します。これは水平距離より低く設定するのが理想的です。
-embeddium.plus.options.culling.monster.distance.vertical.title,Monsters Max Distance (Vertical),モンスター最大距離（垂直）
+embeddium.plus.options.culling.monster.distance.vertical.title,Monsters Max Distance (Vertical),モンスター最大距離(垂直)
 embeddium.plus.options.culling.monster.title,Use Max Monster Distance,最大モンスター距離を使用
 embeddium.plus.options.culling.page,Entity Culling,エンティティカリング
 embeddium.plus.options.culling.tile.distance.horizontal.desc,"Hides block entities beyond this many blocks. Huge performance increase, especially around lots of modded machines.",このブロック数を超えたブロックエンティティを非表示にします。パフォーマンスが大幅に向上します。特に多くの modded マシンの周辺で。
-embeddium.plus.options.culling.tile.distance.horizontal.title,Block Entities Max Distance (Horizontal),ブロックエンティティ最大距離（水平）
-embeddium.plus.options.culling.tile.distance.vertical.desc,"Hides block entities underneath this many blocks, improving performance above caves (if you have your machines in caves, for some reason). This should ideally be set lower than the horizontal distance.",このブロック数下のブロックエンティティを非表示にし、洞窟上のパフォーマンスを改善します（理由は不明ですが、洞窟にマシンがある場合）。これは水平距離より低く設定するのが理想的です。
-embeddium.plus.options.culling.tile.distance.vertical.title,Block Entities Max Distance (Vertical),ブロックエンティティ最大距離（垂直）
+embeddium.plus.options.culling.tile.distance.horizontal.title,Block Entities Max Distance (Horizontal),ブロックエンティティ最大距離(水平)
+embeddium.plus.options.culling.tile.distance.vertical.desc,"Hides block entities underneath this many blocks, improving performance above caves (if you have your machines in caves, for some reason). This should ideally be set lower than the horizontal distance.",このブロック数下のブロックエンティティを非表示にし、洞窟上のパフォーマンスを改善します(理由は不明ですが、洞窟にマシンがある場合)。これは水平距離より低く設定するのが理想的です。
+embeddium.plus.options.culling.tile.distance.vertical.title,Block Entities Max Distance (Vertical),ブロックエンティティ最大距離(垂直)
 embeddium.plus.options.culling.tiles.desc,"If enabled, Block Entities will be hidden based on configured distance limit",有効にした場合、ブロックエンティティは設定された距離制限に基づいて非表示になります
 embeddium.plus.options.culling.tiles.title,Use max Block Entity Distance,最大ブロックエンティティ距離を使用
 embeddium.plus.options.darkness.blocklightonly.desc,"If enabled, Disables sky, fog and moon brightness, making blocks as a only source of light",有効にした場合、スカイライト、フォグ、月の明るさが無効になり、ブロックのみが光源になります
@@ -55,9 +55,9 @@ embeddium.plus.options.darkness.mode.reallydark,Really Dark,本当に暗い
 embeddium.plus.options.darkness.mode.title,Darkness Mode,暗闇モード
 embeddium.plus.options.darkness.moonphase.desc,"If enabled, Darkness will be affected by Moon Phases",有効にした場合、暗闇は月の満ち欠けの影響を受けます
 embeddium.plus.options.darkness.moonphase.fresh.desc,"Configure brightness on a new moon, or minimal bright level on black moon phase",新月の明るさを設定、または黒月の最小明るさレベルを設定します
-embeddium.plus.options.darkness.moonphase.fresh.title,New Moon Bright (min),新月の明るさ（最小）
+embeddium.plus.options.darkness.moonphase.fresh.title,New Moon Bright (min),新月の明るさ(最小)
 embeddium.plus.options.darkness.moonphase.full.desc,"Configure brightness on a full moon, or maximum bright level on black moon phase",満月の明るさを設定、または黒月の最大明るさレベルを設定します
-embeddium.plus.options.darkness.moonphase.full.title,Full Moon Bright (max),満月の明るさ（最大）
+embeddium.plus.options.darkness.moonphase.full.title,Full Moon Bright (max),満月の明るさ(最大)
 embeddium.plus.options.darkness.moonphase.title,Use Moon Phases,月の満ち欠けを使用
 embeddium.plus.options.darkness.nether.brightness.desc,Configure fog brightness in the Nether when darkness is enabled.,暗闇が有効な場合、ネザー内のフォグの明るさを設定します。
 embeddium.plus.options.darkness.nether.brightness.title,Nether Fog Brightness,ネザー フォグの明るさ
@@ -96,7 +96,7 @@ embeddium.plus.options.displayfps.system.title,Display Metrics,メトリクス�
 embeddium.plus.options.displayfps.title,Display FPS,FPSを表示
 embeddium.plus.options.dynlights.entities.desc,"If enabled, dynamic lighting will be showed on entities (dropped items, mobs, etc).
 
-This can drastically increase the amount of lighting updates, even when you're not holding a torch.","有効にした場合、ダイナミックライティングはエンティティ（ドロップされたアイテム、モブなど）に表示されます。
+This can drastically increase the amount of lighting updates, even when you're not holding a torch.","有効にした場合、ダイナミックライティングはエンティティ(ドロップされたアイテム、モブなど)に表示されます。
 
 これはトーチを持っていなくても、ライティング更新の量を大幅に増やす可能性があります。"
 embeddium.plus.options.dynlights.entities.title,Use for Entities,エンティティに使用
@@ -109,7 +109,7 @@ Lighting recalculation can be expensive, so slower values will give better perfo
 embeddium.plus.options.dynlights.speed.title,Light Updates Speed,ライト更新速度
 embeddium.plus.options.dynlights.tiles.desc,"If enabled, dynamic lighting will be showed on tile entities (furnaces, modded machines, etc).
 
-This can drastically increase the amount of lighting updates, even when you're not around furnaces","有効にした場合、ダイナミックライティングはブロックエンティティ（かまど、modded マシンなど）に表示されます。
+This can drastically increase the amount of lighting updates, even when you're not around furnaces","有効にした場合、ダイナミックライティングはブロックエンティティ(かまど、modded マシンなど)に表示されます。
 
 これはかまどの周辺にいなくても、ライティング更新の量を大幅に増やす可能性があります"
 embeddium.plus.options.dynlights.tiles.title,Use for Block Entities,ブロックエンティティに使用
@@ -131,7 +131,7 @@ embeddium.plus.options.fog.desc,"If disabled, removed fog effect only in the ove
 embeddium.plus.options.fog.title,Use Fog,フォグを使用
 embeddium.plus.options.fontshadow.desc,"If disabled, text will stop rendering shadows giving a flat style.
 Increases FPS depending of how much text is on the screen, specially with BetterF3 mods","無効にした場合、テキストはシャドウの描画を停止するため、フラットスタイルになります。
-スクリーン上のテキスト量に応じてFPSが向上します（特にBetterF3 modの場合）"
+スクリーン上のテキスト量に応じてFPSが向上します(特にBetterF3 modの場合)"
 embeddium.plus.options.fontshadow.title,Font Shadows,フォントシャドウ
 embeddium.plus.options.jei.desc,"If enabled, JEI/REI/EMI item list will be hidden unless you search for something. Press space to search for everything.",有効にした場合、何かを検索しない限り JEI/REI/EMI アイテムリストは非表示になります。スペースを押してすべてを検索します。
 embeddium.plus.options.jei.title,Hide JEI/REI/EMI Until Searching,検索までJEI/REI/EMIを非表示
@@ -170,12 +170,12 @@ embeddium.plus.options.screen.title,Fullscreen Mode,フルスクリーンモー�
 embeddium.plus.options.screen.windowed,Windowed,ウィンドウモード
 embeddium.plus.options.zoom.cinematic.desc,"Enable Cinematic Camera while zooming.
 If you disable this, you should also try setting `zoomSmoothnessMs` to `0`","ズーム中にシネマティックカメラを有効にします。
-これを無効にする場合は、""zoomSmoothnessMs""を""0""に設定することもお勧めします"
+これを無効にする場合は、""zoom滑らかなnessMs""を""0""に設定することもお勧めします"
 embeddium.plus.options.zoom.cinematic.title,Cinematic Zoom,シネマティックズーム
 embeddium.plus.options.zoom.default.desc,Default starting zoom percentage.,デフォルトの開始ズーム率。
 embeddium.plus.options.zoom.default.title,Default Zoom,デフォルトズーム
 embeddium.plus.options.zoom.desc,"If `true`, the mod will be disabled (on some platforms, key binds will still show in game options; they won't do anything if this is set to `true`).
-Requires re-launch to take effect.","`true`の場合、モッドは無効になります（一部のプラットフォームでは、キーバインドはゲームオプションで表示されます。`true`に設定されている場合は機能しません）。
+Requires re-launch to take effect.","`true`の場合、モッドは無効になります(一部のプラットフォームでは、キーバインドはゲームオプションで表示されます。`true`に設定されている場合は機能しません)。
 再起動して有効にします。"
 embeddium.plus.options.zoom.easing_exponent.animation.desc,"The exponent used for easing animations.
 You should probably leave this at the default if you don't understand what it does.","アニメーションをイージングするために使用される指数。
@@ -196,22 +196,22 @@ This will prevent you from scrolling through your hotbar while zooming if enable
 embeddium.plus.options.zoom.scrolling.title,Zoom Scrolling,ズームスクロール
 embeddium.plus.options.zoom.sensitive.desc,"Mouse Sensitivity will not be reduced below this amount while zoomed in.
 Set to `1.0` to prevent it from being changed at all (not recommended without `enableCinematicZoom`).","マウス感度はズーム時にこの量を下回ることはありません。
-`1.0`に設定して、完全に変更されないようにします（`enableCinematicZoom`なしでは推奨されません）。"
+`1.0`に設定して、完全に変更されないようにします(`enableCinematicZoom`なしでは推奨されません)。"
 embeddium.plus.options.zoom.sensitive.title,Mouse Sensitive Floor,マウス感度フロア
 embeddium.plus.options.zoom.smoothness.desc,"FOV changes will be spread out over this many milliseconds.
 Set to `0` to disable animations.","FOV変更はこの多くのミリ秒に分散されます。
 アニメーションを無効にするには`0`に設定します。"
 embeddium.plus.options.zoom.smoothness.title,Zoom Smoothness,ズームスムーズネス
 embeddium.plus.options.zoom.speed.desc,"Speed for Zoom In/Out key binds & zoom scrolling (if enabled).
-DEFAULT: `20`","ズームイン/アウトキーバインドおよびズームスクロール（有効な場合）の速度。
+DEFAULT: `20`","ズームイン/アウトキーバインドおよびズームスクロール(有効な場合)の速度。
 デフォルト: `20`"
 embeddium.plus.options.zoom.speed.title,Zoom Speed,ズーム速度
 embeddium.plus.options.zoom.third_person.max.desc,"Maximum third-person zoom distance (in blocks).
-Set to `0.0` to disable third-person zoom.","最大三人称ズーム距離（ブロック単位）。
+Set to `0.0` to disable third-person zoom.","最大三人称ズーム距離(ブロック単位)。
 三人称ズームを無効にするには`0.0`に設定します。"
 embeddium.plus.options.zoom.third_person.max.title,Third person Maximum FOV,三人称最大FOV
 embeddium.plus.options.zoom.third_person.min.desc,"Minimum third-person zoom distance (in blocks).
-Set to `4.0` to mimic vanilla.","最小三人称ズーム距離（ブロック単位）。
+Set to `4.0` to mimic vanilla.","最小三人称ズーム距離(ブロック単位)。
 バニラをまねるには`4.0`に設定します。"
 embeddium.plus.options.zoom.third_person.min.title,Third person Minimum FOV,三人称最小FOV
 embeddium.plus.options.zoom.title,Enable Zume,ズームを有効にする

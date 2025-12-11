@@ -53,13 +53,13 @@ description.mekanismgenerators.heat_generator,A generator that uses the heat of 
 description.mekanismgenerators.laser_focus_matrix,A panel of Fusion Reactor Glass that is capable of absorbing optical energy and thereby heating up the Fusion Reactor.,光学エネルギーを吸収することで融合炉を加熱できる融合炉ガラスのパネル。
 description.mekanismgenerators.reactor.logic.activation,"Activate the reactor when powered, and deactivate when unpowered",リアクターが電力を受けるとアクティブ化し、電力がない場合は非アクティブ化
 description.mekanismgenerators.reactor.logic.capacity,Output when the reactor's core heat capacity has been met,リアクターのコア熱容量が満たされた場合に出力
-description.mekanismgenerators.reactor.logic.damaged,Output when the reactor reaches critical damage levels (100%+).,リアクターが重大なダメージレベル（100%以上）に達したときに出力
+description.mekanismgenerators.reactor.logic.damaged,Output when the reactor reaches critical damage levels (100%+).,リアクターが重大なダメージレベル(100%以上)に達したときに出力
 description.mekanismgenerators.reactor.logic.depleted,Output when the reactor has insufficient fuel to sustain a reaction,リアクターが反応を維持するのに不十分な燃料を持つ場合に出力
 description.mekanismgenerators.reactor.logic.disabled,Will not handle redstone,レッドストーンを処理しません
 description.mekanismgenerators.reactor.logic.excess_waste,Output when the reactor has excess waste,リアクターが過剰な廃棄物を持つ場合に出力
 description.mekanismgenerators.reactor.logic.ready,Output when the reactor has reached the required heat level to ignite,リアクターが点火に必要な熱レベルに達したときに出力
 description.mekanismgenerators.reactor.logic.temperature,Output when the reactor reaches dangerous temperatures,リアクターが危険な温度に達したときに出力
-description.mekanismgenerators.reactor_glass,Reinforced glass that can be used in the Fission Reactor and Fusion Reactor multiblocks (as well as any others!).,分裂炉および融合炉マルチブロック（および他の用途）で使用できる強化ガラス。
+description.mekanismgenerators.reactor_glass,Reinforced glass that can be used in the Fission Reactor and Fusion Reactor multiblocks (as well as any others!).,分裂炉および融合炉マルチブロック(および他の用途)で使用できる強化ガラス。
 description.mekanismgenerators.rotational_complex,A connector that is placed on the highest Turbine Rotor of an Industrial Turbine to carry kinetic energy into its Electromagnetic Coils.,産業用タービンの最高のタービンロータに配置され、回転エネルギーをその電磁コイルに運ぶコネクタ。
 description.mekanismgenerators.saturating_condenser,A block that condenses steam processed by an Industrial Turbine into reusable water. These can be placed in any arrangement above your rotational complex.,産業用タービンで処理された蒸気を再利用可能な水に凝縮するブロック。
 description.mekanismgenerators.solar_generator,A generator that uses the power of the sun to produce energy.,太陽の力を利用して電力を生成する発電機。
@@ -177,7 +177,7 @@ turbine.mekanismgenerators.invalid_malformed_dispersers,"Couldn't form, Pressure
 turbine.mekanismgenerators.invalid_missing_coils,"Couldn't form, no Electromagnetic Coils present.",形成できません。電磁コイルがありません。
 turbine.mekanismgenerators.invalid_missing_complex,"Couldn't form, no Rotational Complex present.",形成できません。回転複合体がありません。
 turbine.mekanismgenerators.invalid_missing_disperser,"Couldn't form, expected but didn't find Pressure Disperser at %1$s.",形成できません。位置%1$sで圧力ディスパーザが必要ですが見つかりません。
-turbine.mekanismgenerators.invalid_rotors_not_contiguous,"Couldn't form, rotors are invalid (non-contiguous).",形成できません。ロータが無効です（不連続）。
+turbine.mekanismgenerators.invalid_rotors_not_contiguous,"Couldn't form, rotors are invalid (non-contiguous).",形成できません。ロータが無効です(不連続)。
 turbine.mekanismgenerators.invalid_too_narrow,"Couldn't form, structure is too narrow to support turbine size.",形成できません。構造が狭すぎてタービンサイズをサポートできません。
 turbine.mekanismgenerators.invalid_vent_below_complex,"Couldn't form, found a Turbine Vent below Pressure Disperser layer. Vents must be at or above vertical position of disperser layer.",形成できません。圧力ディスパーザレイヤーの下にタービンベントが見つかりました。ベントはディスパーザレイヤーの垂直位置以上に配置する必要があります。
 turbine.mekanismgenerators.production_amount,Production: %1$s,生成量: %1$s
@@ -185,7 +185,7 @@ turbine.mekanismgenerators.stats,Turbine Statistics,タービン統計
 turbine.mekanismgenerators.stats.blades,Blades: %1$s %2$s,ブレード: %1$s %2$s
 turbine.mekanismgenerators.stats.coils,Coils: %1$s %2$s,コイル: %1$s %2$s
 turbine.mekanismgenerators.stats.dispersers,Dispersers: %1$s %2$s,ディスパーザ: %1$s %2$s
-turbine.mekanismgenerators.stats.limiting,(Limiting),（制限中）
+turbine.mekanismgenerators.stats.limiting,(Limiting),(制限中)
 turbine.mekanismgenerators.stats.max_flow,Max flow: %1$s mB/t,最大流量: %1$s mB/t
 turbine.mekanismgenerators.stats.max_production,Max Production: %1$s,最大生成: %1$s
 turbine.mekanismgenerators.stats.max_water_output,Max Water Output: %1$s mB/t,最大水出力: %1$s mB/t

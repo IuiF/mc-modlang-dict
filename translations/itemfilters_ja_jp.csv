@@ -45,7 +45,7 @@ itemfilters.help_text.max_count,"Maximum Stack Size
 ▶ 「<64」や「>=16」などの関係演算子も含めることができます"
 itemfilters.help_text.nbt,"NBT String
 ▶ e.g. { text:""hello"", value: 1, active: true }","NBT文字列
-▶ 例えば { text:""hello"", value: 1, active: true }"
+▶ 例えば { text:""hello"", value: 1, active: 有効 }"
 itemfilters.help_text.regex,"Regular Expression
  Matched against the item ID
 ▶ e.g. ""^minecraft:"" matches all vanilla items","正規表現
@@ -53,10 +53,10 @@ itemfilters.help_text.regex,"Regular Expression
 ▶ 例えば ""^minecraft:"" はすべてのバニラアイテムにマッチします"
 itemfilters.help_text.variants,"Tab, Scroll Wheel, Cursor Up/Down: adjust highlight
 Enter: select highlighted","タブ、スクロールホイール、カーソル上下: ハイライトを調整
-Enter: ハイライトされた項目を選択"
+入力: ハイライトされた項目を選択"
 itemfilters.help_text.weak_nbt,"Weak NBT String
 ▶ e.g. { text:""hello"", value: 1, active: true }
 ▶ Only the NBT fields supplied will be checked (any other fields in the item are ignored)","弱いNBT文字列
-▶ 例えば { text:""hello"", value: 1, active: true }
+▶ 例えば { text:""hello"", value: 1, active: 有効 }
 ▶ 指定されたNBTフィールドのみがチェックされます(アイテム内の他のフィールドは無視されます)"
 itemfilters.variants,Variants [%d],バリアント [%d]

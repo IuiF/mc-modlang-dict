@@ -67,13 +67,13 @@ advancement.integrateddynamics.tool_for_obsidian.desc,"Check if a Stone Pickaxe 
 advancement.integrateddynamics.value_displaying,Value Displaying,バリューディスプレイング
 advancement.integrateddynamics.value_displaying.desc,Craft a Display Panel,表示パネルをクラフトする
 advancement.integrateddynamics.variable_input,Variable Input Transformation,可変入力変換
-advancement.integrateddynamics.variable_input.desc,Craft a Variable Input Transformer,Craft 変数 入力 Transfまたはmer
+advancement.integrateddynamics.variable_input.desc,Craft a Variable Input Transformer,Craft 変数 入力 Transformer
 advancement.integrateddynamics.variable_materialization,Variable Materialization,変数の具現化
-advancement.integrateddynamics.variable_materialization.desc,Materialize a variable in a §lMaterializer§r.,§lマテリアライザー§rで変数を具現化する。
+advancement.integrateddynamics.variable_materialization.desc,Materialize a variable in a §lMaterializer§r.,マテリアライザー§rで変数を具現化する。
 advancement.integrateddynamics.variable_output,Variable Output Transformation,可変出力変換
-advancement.integrateddynamics.variable_output.desc,Craft a Variable Output Transformer,Craft 変数 出力 Transfまたはmer
+advancement.integrateddynamics.variable_output.desc,Craft a Variable Output Transformer,Craft 変数 出力 Transformer
 advancement.integrateddynamics.variable_proxying,Variable Proxying,変数のプロキシ中
-advancement.integrateddynamics.variable_proxying.desc,Create a valid proxy variable in a §lProxy§r.,§lプロキシ§rに有効なプロキシ変数を作成する。
+advancement.integrateddynamics.variable_proxying.desc,Create a valid proxy variable in a §lProxy§r.,プロキシ§rに有効なプロキシ変数を作成する。
 advancement.integrateddynamics.variables,"Variables, For Values",値用変数
 advancement.integrateddynamics.variables.desc,Craft a Variable Card,変数カードをクラフトする
 advancement.integrateddynamics.what_would_i_be_looking_at,What Would I Be Looking At?,私は何を見ているのだろう？
@@ -99,7 +99,7 @@ aspect.aspecttypes.integrateddynamics.integer.pulse_emit_value.info,The pulse va
 aspect.aspecttypes.integrateddynamics.integer.range,Range,範囲
 aspect.aspecttypes.integrateddynamics.integer.slotid,Slot ID,スロットID
 aspect.aspecttypes.integrateddynamics.integer.tankid,Tank ID,タンクID
-aspect.integrateddynamics.error.invalid_type,"This aspect expects %s, but %s was given.",このアスペクトは%sを期待していますが、 %sが与えられています。
+aspect.integrateddynamics.error.invalid_type,"This aspect expects %s, but %s was given.",このアスペクトは%sを期待していますが、%sが与えられています。
 aspect.integrateddynamics.error.no_value_interface,No valid value interface was found.,有効な値のインターフェースが見つかりませんでした。
 aspect.integrateddynamics.error.no_value_interface_value,No valid value interface value was found.,有効な値のインターフェース値が見つかりませんでした。
 aspect.integrateddynamics.error.recursion,The aspect variable for %s is referring to itself.,%sのアスペクト変数はそれ自体を参照しています。
@@ -113,9 +113,9 @@ aspect.integrateddynamics.read.boolean.block.block.info,If the target space has 
 aspect.integrateddynamics.read.boolean.fe.applicable,Is FE Handler,FEハンドラーか
 aspect.integrateddynamics.read.boolean.fe.applicable.info,If the target in some way handles FE,対象が何らかの方法でFEを処理する場合
 aspect.integrateddynamics.read.boolean.fe.canextract,Can Extract FE,FEを抽出できるか
-aspect.integrateddynamics.read.boolean.fe.canextract.info,"If FE can really be extracted from the target, takes storage into account","If FE can reすべてy be extracted from target, takes ストレージ into acカウント"
+aspect.integrateddynamics.read.boolean.fe.canextract.info,"If FE can really be extracted from the target, takes storage into account","If FE can reすべてy be extracted from target,消費ストレージにacカウント"
 aspect.integrateddynamics.read.boolean.fe.caninsert,Can Insert FE,FEを挿入できるか
-aspect.integrateddynamics.read.boolean.fe.caninsert.info,"If FE can really be inserted into the target, takes storage and capacity into account","If FE can reすべてy be inserted into target, takes ストレージ と capacity into acカウント"
+aspect.integrateddynamics.read.boolean.fe.caninsert.info,"If FE can really be inserted into the target, takes storage and capacity into account","If FE can reすべてy be insertedにtarget,消費ストレージ と capacityにacカウント"
 aspect.integrateddynamics.read.boolean.fe.isempty,Is FE Buffer Empty,FEバッファが空か
 aspect.integrateddynamics.read.boolean.fe.isempty.info,If the target's FE buffer is completely empty,対象のFEバッファが完全に空の場合
 aspect.integrateddynamics.read.boolean.fe.isfull,Is FE Buffer Full,FEバッファが満杯か
@@ -345,7 +345,7 @@ aspect.integrateddynamics.read.long.world.totaltime.info,The world time independ
 aspect.integrateddynamics.read.nbt.block.tile,Tile Entity NBT,タイルエンティティNBT
 aspect.integrateddynamics.read.nbt.block.tile.info,The target Tile Entity as NBT,NBTとして対象のタイルエンティティ
 aspect.integrateddynamics.read.operator.network.variablebyid,Variable Value By ID,変数 Value By ID
-aspect.integrateddynamics.read.operator.network.variablebyid.info,An operator that returns the value of a variable by its integer identifier,An オペレーター that returns value of 変数 by its integer identifier
+aspect.integrateddynamics.read.operator.network.variablebyid.info,An operator that returns the value of a variable by its integer identifier,An オペレーター that returns値of 変数 by its integer identifier
 aspect.integrateddynamics.read.operator.recipehandler.recipebyinput,Recipe By Input,入力によるレシピ
 aspect.integrateddynamics.read.operator.recipehandler.recipebyinput.info,An operator that returns a recipe for a given input.,指定された入力に対するレシピを返す演算子です。
 aspect.integrateddynamics.read.operator.recipehandler.recipebyoutput,Recipe By Output,出力によるレシピ
@@ -396,7 +396,7 @@ aspect.integrateddynamics.write.double.effect.particle.minecraft_crit.info,Emit 
 aspect.integrateddynamics.write.double.effect.particle.minecraft_current_down,Particle: Downwards Current,パーティクル: 下降気泡
 aspect.integrateddynamics.write.double.effect.particle.minecraft_current_down.info,Emit a downwards current particle with a certain velocity.,下降気泡のパーティクルを一定の速度で放出します。
 aspect.integrateddynamics.write.double.effect.particle.minecraft_damage_indicator,Particle: Damage Indicator,パーティクル: ダメージ表示
-aspect.integrateddynamics.write.double.effect.particle.minecraft_damage_indicator.info,Emit a damage indicator particle with a certain velocity.,Emit damage indicatまたは particle with certain velocity.
+aspect.integrateddynamics.write.double.effect.particle.minecraft_damage_indicator.info,Emit a damage indicator particle with a certain velocity.,Emit damage indicatまたは particleでcertain velocity.
 aspect.integrateddynamics.write.double.effect.particle.minecraft_dolphin,Particle: Dolphin,パーティクル: イルカ
 aspect.integrateddynamics.write.double.effect.particle.minecraft_dolphin.info,Emit a dolphin particle with a certain velocity.,イルカのパーティクルを一定の速度で放出します。
 aspect.integrateddynamics.write.double.effect.particle.minecraft_dragon_breath,Particle: Dragon Breath,パーティクル: ドラゴンブレス
@@ -470,7 +470,7 @@ aspect.integrateddynamics.write.double.effect.particle.minecraft_item_snowball.i
 aspect.integrateddynamics.write.double.effect.particle.minecraft_landing_honey,Particle: Landing Honey,パーティクル: ハチミツ(ブロックに落ちた後)
 aspect.integrateddynamics.write.double.effect.particle.minecraft_landing_honey.info,Emit a landing honey particle with a certain velocity.,ブロックに落ちたハチミツのパーティクルを一定の速度で放出します。
 aspect.integrateddynamics.write.double.effect.particle.minecraft_landing_lava,Particle: Landing Lava,パーティクル: 溶岩のしずく(ブロックに落ちた後)
-aspect.integrateddynamics.write.double.effect.particle.minecraft_landing_lava.info,Emit a landing lava particle with a certain velocity.,Emit lとing lavparticle with certain velocity.
+aspect.integrateddynamics.write.double.effect.particle.minecraft_landing_lava.info,Emit a landing lava particle with a certain velocity.,Emit lとing lavparticleでcertain velocity.
 aspect.integrateddynamics.write.double.effect.particle.minecraft_landing_obsidian_tear,Particle: Landing Obsidian Tear,パーティクル: 泣く黒曜石(ブロックに落ちた後)
 aspect.integrateddynamics.write.double.effect.particle.minecraft_landing_obsidian_tear.info,Emit a landing obsidian tear particle with a certain velocity.,ブロックに落ちた泣く黒曜石のパーティクルを一定の速度で放出します。
 aspect.integrateddynamics.write.double.effect.particle.minecraft_large_smoke,Particle: Large Smoke,パーティクル: 大きい煙
@@ -612,7 +612,7 @@ block.integrateddynamics.delay.info,Expose the history of a variable as an aspec
 block.integrateddynamics.drying_basin,Drying Basin,乾燥槽
 block.integrateddynamics.drying_basin.info,For drying items and fluids,アイテムや流体の乾燥用
 block.integrateddynamics.energy_battery,Energy Battery,エネルギーバッテリー
-block.integrateddynamics.energy_battery.info,Place in crafting grid with other Energy Batteries to increase capacity. Shift + Right click to auto-supply.,他のエネルギーバッテリーと一緒にクラフトグリッドに配置すると、容量が増加します。Shiftキーを押しながら右クリックすると、自動的に供給されます。
+block.integrateddynamics.energy_battery.info,Place in crafting grid with other Energy Batteries to increase capacity. Shift + Right click to auto-supply.,他のエネルギーバッテリーと一緒にクラフトグリッドに配置すると、容量が増加します。シフトキーを押しながら右クリックすると、自動的に供給されます。
 block.integrateddynamics.energy_battery.info.auto_supply,Auto-supply: %s,自動供給: %s
 block.integrateddynamics.energy_battery_creative,Creative Energy Battery,クリエイティブエネルギーバッテリー
 block.integrateddynamics.energy_battery_creative.info.auto_supply,Auto-supply: %s,自動供給: %s
@@ -681,11 +681,11 @@ gui.integrateddynamics.input,Input: %s,入力: %s
 gui.integrateddynamics.input_short,Input,入力
 gui.integrateddynamics.keybinding,Key Binding,キー割り当て
 gui.integrateddynamics.logicprogrammer.filter,Filter,フィルター
-gui.integrateddynamics.logicprogrammer.info.create,§lBind new§r Variable Card,§lBind new§r 変数 Card
-gui.integrateddynamics.logicprogrammer.info.modify,§lModify§r Variable Card,§lModify§r 変数 Card
+gui.integrateddynamics.logicprogrammer.info.create,§lBind new§r Variable Card,Bind new§r 変数 カード
+gui.integrateddynamics.logicprogrammer.info.modify,§lModify§r Variable Card,Modify§r 変数 カード
 gui.integrateddynamics.logicprogrammer.reset,Clear,クリア
-gui.integrateddynamics.logicprogrammer.tooltip.writeslot.create,Insert Variable Card to bind to a §lnew§r value,Insert 変数 Card to bind to §lnew§r value
-gui.integrateddynamics.logicprogrammer.tooltip.writeslot.modify,Insert Variable Card to §lload§r its value,Insert 変数 Card to §lload§r its value
+gui.integrateddynamics.logicprogrammer.tooltip.writeslot.create,Insert Variable Card to bind to a §lnew§r value,Insert 変数 カード to bind to new§r value
+gui.integrateddynamics.logicprogrammer.tooltip.writeslot.modify,Insert Variable Card to §lload§r its value,Insert 変数 カード to load§r its value
 gui.integrateddynamics.mechanical_squeezer.fluidautoeject,Auto-eject Fluid,流体を自動排出
 gui.integrateddynamics.mechanical_squeezer.togglefluidautoeject,Auto-eject Fluid: %s,流体を自動排出: %s
 gui.integrateddynamics.mechanical_squeezer.togglefluidautoeject.info,Push to adjacent tanks.,隣接するタンクに送信します。
@@ -719,19 +719,19 @@ gui.integrateddynamics.rewards.collected,Collected,受領済み
 info_book.integrateddynamics.introduction,Introduction,はじめに
 info_book.integrateddynamics.introduction.text1,"For too long, automation possibilities have been too limited. &1Integrated Dynamics&0 aims to be the go-to mod for automating your logic systems. It does this by providing an expressive immersive logic programming experience with hooks and support for most elements of &lMinecraft&r and its modifications.",長い間、自動化の可能性はあまりにも限られていました。&1Integrated Dynamics&0は、ロジックシステムを自動化するための頼りになるModになることを目指しています。このModは、フックと&lマインクラフト&rとその修正のほとんどの要素のサポートを備えた、表現力豊かな没入型ロジックプログラミング体験を提供することでこれを実現します。
 info_book.integrateddynamics.introduction.text2,"Redstone circuits have always been a very basic, but workable and easily understandable method for automation. The basicness of redstone is however also an inconvenience. For automation networks with higher complexities, redstone circuits can become very large and consequently also difficult to manage. Furthermore, one small water-leak can cause major headaches to every redstoner.",レッドストーン回路は、常に非常に基本的でありながら、実用的で理解しやすい自動化方法です。しかし、レッドストーンの基本は不便でもあります。より複雑な自動化ネットワークの場合、レッドストーン回路は非常に大きくなり、その結果、管理も困難になります。さらに、小さな水漏れが1つあるだけで、すべてのレッドストーン愛好家にとって大きな頭痛の種になります。
-info_book.integrateddynamics.introduction.text3,"The goal of this book is twofold. First, a &ltutorial&r is provided for learning the most important concepts behind this mod. Secondly, a detailed &lmanual&r explains all elements and mechanisms for players that are not not interested in the tutorial.","The goal of this book is twofold. First, &ltutまたはial&r is provided fまたは learning most impまたはtant concepts behind this mod. Secondly, detailed &lmanual&r explains すべて elements と mechanisms fまたは players that are not not interested in tutまたはial."
-info_book.integrateddynamics.introduction.text4,"You can navigate through this book by clicking on the arrows at the bottom, shift clicking will flip through whole sections instead of single pages. At the start of large sections you will see a content table which will contain hyperlinks to its subsections for faster browsing. When you come across recipes, the items that are explained in this book are clickable as a fast reference to the section they are explained in. You will also notice a button at the top left of this book, which will take you to the section above your current one. The button at the top right corner will go back to the previously visited page each time when clicked.",下部にある矢印をクリックすると、この本内を移動できます。Shift キーを押しながらクリックすると、ページ単位ではなくセクション全体をめくることができます。大きなセクションの先頭には、より速く参照できるようにサブセクションへのハイパーリンクを含むコンテンツ テーブルが表示されます。レシピに出会ったら、この本で説明されているアイテムをクリックして、説明されているセクションをすばやく参照できます。この本の左上には、現在のセクションの上のセクションに移動するためのボタンもあります。右上隅のボタンをクリックすると、以前にアクセスしたページに戻ります。
+info_book.integrateddynamics.introduction.text3,"The goal of this book is twofold. First, a &ltutorial&r is provided for learning the most important concepts behind this mod. Secondly, a detailed &lmanual&r explains all elements and mechanisms for players that are not not interested in the tutorial.",このMod の背後にある最も重要な概念を学ぶためのチュートリアルと、すべての要素とメカニズムについて詳しく説明したマニュアルが提供されています。
+info_book.integrateddynamics.introduction.text4,"You can navigate through this book by clicking on the arrows at the bottom, shift clicking will flip through whole sections instead of single pages. At the start of large sections you will see a content table which will contain hyperlinks to its subsections for faster browsing. When you come across recipes, the items that are explained in this book are clickable as a fast reference to the section they are explained in. You will also notice a button at the top left of this book, which will take you to the section above your current one. The button at the top right corner will go back to the previously visited page each time when clicked.",下部にある矢印をクリックすると、この本内を移動できます。シフトキーを押しながらクリックすると、ページ単位ではなくセクション全体をめくることができます。大きなセクションの先頭には、より速く参照できるようにサブセクションへのハイパーリンクを含むコンテンツ テーブルが表示されます。レシピに出会ったら、この本で説明されているアイテムをクリックして、説明されているセクションをすばやく参照できます。この本の左上には、現在のセクションの上のセクションに移動するためのボタンもあります。右上隅のボタンをクリックすると、以前にアクセスしたページに戻ります。
 info_book.integrateddynamics.manual,Manual,マニュアル
 info_book.integrateddynamics.manual.diagnostics,Network Diagnostics,ネットワーク診断
 info_book.integrateddynamics.manual.diagnostics.text1,"Players with operator status have access to the &lNetwork Diagnostics&r tool, which allows the tick time across all networks on the server to be inspected.",オペレーターのステータスを持つプレイヤーは、&lネットワーク診断&rツールにアクセスでき、サーバー上のすべてのネットワークのティック時間を検査できます。
 info_book.integrateddynamics.manual.diagnostics.text2,"To enable this tool, the command &o\integrateddynamics networkdiagnostics&r can be executed, which will start a temporary local web server.",このツールを有効にするには、コマンド&o\integrateddynamics networkdiagnostics&rを実行して、一時的なローカルWebサーバーを起動します。
 info_book.integrateddynamics.manual.diagnostics.text3,"When clicking on the link shown after executing the command, your Web browser will open, and will show a table containing all networks and their elements. You can click on any row to highlight them in the world, or click on the &lTeleport&r button to teleport your player to them.","When clicking on link shown after executing commと, your Web browser will open, と will show table containing すべて netwまたはks と their elements. You can click on 任意 row to highlight them in wまたはld, または click on &lTelepまたはt&r button to telepまたはt your player to them."
 info_book.integrateddynamics.manual.introduction,Introduction,はじめに
-info_book.integrateddynamics.manual.introduction.text1,This part of the book contains detailed descriptions of all parts of the mod.,This パーツ of book contains detailed descriptions of すべて parts of mod.
+info_book.integrateddynamics.manual.introduction.text1,This part of the book contains detailed descriptions of all parts of the mod.,This パーツ of book contains 詳細 descriptions of すべて parts of mod.
 info_book.integrateddynamics.manual.logic,Logic,ロジック
 info_book.integrateddynamics.manual.logic.advanced,Advanced,上級者向け
 info_book.integrateddynamics.manual.logic.advanced.nbt_path,NBT Path,NBTパス
-info_book.integrateddynamics.manual.logic.advanced.nbt_path.text1,"When working with complex &3NBT&0 tags, you can quickly require complex operator chains for reading deeply nested NBT values. In order to simplify this task, &4String&0-based &lNBT Path expressions&r can be used to determine the path within an &3NBT&0 tag.","When wまたはking with complex &3NBT&0 tags, you can quickly require complex オペレーター chains fまたは reading deeply nested NBT values. In またはder to simplify this task, &4String&0-based &lNBT Path expressions&r can be used to determine path within an &3NBT&0 タグ."
+info_book.integrateddynamics.manual.logic.advanced.nbt_path.text1,"When working with complex &3NBT&0 tags, you can quickly require complex operator chains for reading deeply nested NBT values. In order to simplify this task, &4String&0-based &lNBT Path expressions&r can be used to determine the path within an &3NBT&0 tag.",複雑なNBT タグを使用する場合、深くネストされたNBT 値を読み取るために複雑なオペレーター チェーンが必要になることがあります。このタスクを簡単にするために、NBT タグ内のパスを決定するために、文字列 ベースのNBT パス式を使用できます。
 info_book.integrateddynamics.manual.logic.advanced.nbt_path.text10,"More advanced filter expressions are also possible using the filter syntax, for example &4[?(@.childName < 10)]&0 (@ refers to the current tag, .. refers to the parent tag, $ refers to the root tag)",フィルター構文を使用すると、より高度なフィルター式も使用できます。たとえば、&4[?(@.childName < 10)]&0(@は現在のタグ、..は親タグ、$はルートタグを参照します)
 info_book.integrateddynamics.manual.logic.advanced.nbt_path.text11,"For example, applying the expression &4”$.a[?(@ == 3)]”&0 on the &3NBT&0 tag &3{ a: [0,1,2,3,4,5] }&0 will output &3[3]&0.","たとえば、式&4”$.a[?(@ == 3)]”&0を&3NBT&0タグ&3{ a: [0,1,2,3,4,5] }&0に適用すると、&3[3]&0が出力されます。"
 info_book.integrateddynamics.manual.logic.advanced.nbt_path.text2,"The simplest NBT Path expression is made up of a chain of &lfield selectors&r, such as &4.fieldName&0 or &4.[”fieldName”]&0.",最も単純なNBTパス式は、&4.fieldName&0や&4.[”fieldName”]&0などの&lフィールドセレクター&rのチェーンで構成されます。
@@ -749,7 +749,7 @@ info_book.integrateddynamics.manual.logic.value_types.boolean,Boolean,ブール
 info_book.integrateddynamics.manual.logic.value_types.boolean.text1,"The simplest value type, its values can be either &9True&0 or &9False&0.",最も単純な値型で、その値は&9True&0または&9False&0のいずれかになります。
 info_book.integrateddynamics.manual.logic.value_types.double,Double,ダブル
 info_book.integrateddynamics.manual.logic.value_types.double.text1,"Real numbers, which can also be positive or negative. For example &e3.1415&0, &e4815162342&0, &e3.33333333&0, ...",実数で、正または負になることもあります。たとえば、&e3.1415&0、&e4815162342&0、&e3.33333333&0など
-info_book.integrateddynamics.manual.logic.value_types.double.text2,This value type is part of the &lNumber&r category.,この値型は、 &l数値&rカテゴリの一部です。
+info_book.integrateddynamics.manual.logic.value_types.double.text2,This value type is part of the &lNumber&r category.,この値型は、&l数値&rカテゴリの一部です。
 info_book.integrateddynamics.manual.logic.value_types.entity,Entity,エンティティ
 info_book.integrateddynamics.manual.logic.value_types.entity.text1,"A reference to a certain &lMinecraft&r entity. For example &8Zombie&0, &8Cow&0, &8Player_abc&0 ....",特定の&lマインクラフト&rのエンティティへの参照で、たとえば、&8ゾンビ&0、&8ウシ&0、&8プレイヤー_abc&0など
 info_book.integrateddynamics.manual.logic.value_types.fluid,Fluid,流体
@@ -759,83 +759,82 @@ info_book.integrateddynamics.manual.logic.value_types.ingredients.text1,"A colle
 info_book.integrateddynamics.manual.logic.value_types.integer,Integer,整数
 info_book.integrateddynamics.manual.logic.value_types.integer.text1,"A value type for representing positive and negative numbers. For example &6-20&0, &60&0, &61000&0, &6333&0, ...",正の数と負の数を表す値型です。たとえば、&6-20&0、&60&0、&61000&0、&6333&0など
 info_book.integrateddynamics.manual.logic.value_types.integer.text2,The values can range between &6–2147483648&0 and &62147483647&0.,値の範囲は&6–2147483648&0から&62147483647&0までです。
-info_book.integrateddynamics.manual.logic.value_types.integer.text3,This value type is part of the &lNumber&r category.,この値型は、 &l数値&rカテゴリの一部です。
+info_book.integrateddynamics.manual.logic.value_types.integer.text3,This value type is part of the &lNumber&r category.,この値型は、&l数値&rカテゴリの一部です。
 info_book.integrateddynamics.manual.logic.value_types.item,Item,アイテム
 info_book.integrateddynamics.manual.logic.value_types.item.text1,"A reference to a &lMinecraft&r item. For example &8Apple&0, &8Cobblestone&0, &8Diamond Pickaxe&0, &8Enchanted Sword&0, ....",&lマインクラフト&rのアイテムへの参照で、たとえば、&8リンゴ&0、&8丸石&0、&8ダイヤモンドのツルハシ&0、&8エンチャントされた剣&0など
 info_book.integrateddynamics.manual.logic.value_types.list,List,リスト
-info_book.integrateddynamics.manual.logic.value_types.list.text1,"A list containing values of a certain &lValue Type&r. All elements in a certain list can only contain values of the same value types. For example &8(0, 1, 2, 3)&0, &8(“a”, “b”, “c”)&0, &8(3.33, 1.14, 5, 6)&0","A リスト containing values of certain &lValue タイプ&r. All elements in certain リスト can only contain values of same value types. Fまたは example &8(0, 1, 2, 3)&0, &8(“a”, “b”, “c”)&0, &8(3.33, 1.14, 5, 6)&0"
+info_book.integrateddynamics.manual.logic.value_types.list.text1,"A list containing values of a certain &lValue Type&r. All elements in a certain list can only contain values of the same value types. For example &8(0, 1, 2, 3)&0, &8(“a”, “b”, “c”)&0, &8(3.33, 1.14, 5, 6)&0","特定の値タイプを含むリスト。リスト内のすべての要素は、同じ値タイプの値のみを含めることができます。例えば、(0, 1, 2, 3)、(""a"", ""b"", ""c"")、(3.33, 1.14, 5, 6) など。"
 info_book.integrateddynamics.manual.logic.value_types.long,Long,ロング
 info_book.integrateddynamics.manual.logic.value_types.long.text1,"The same as &6Integers&0, but with a larger value range, which goes from &e-9223372036854775808&0 to &e9223372036854775807&0",&6整数&0 と同じですが、値の範囲が広く、&e-9223372036854775808&0から&e9223372036854775807&0までになります。
-info_book.integrateddynamics.manual.logic.value_types.long.text2,This value type is part of the &lNumber&r category.,この値型は、 &l数値&rカテゴリの一部です。
+info_book.integrateddynamics.manual.logic.value_types.long.text2,This value type is part of the &lNumber&r category.,この値型は、&l数値&rカテゴリの一部です。
 info_book.integrateddynamics.manual.logic.value_types.nbt,NBT,NBTタグ型
 info_book.integrateddynamics.manual.logic.value_types.nbt.text1,"Certain things in &lMinecraft&r internally use the &3NBT&0 datastructure. An &3NBT&0 tag is a special kind of object that can hold multiple values of different types. For example the NBT representation of a &8Chest&0 containing all its items, the enchantment information of an &8Pickaxe&0, ...",&lマインクラフト&r内の特定のものは、内部的に&3NBT&0データ構造を使用します。&3NBT&0タグは異なるタイプの複数の値を保持できる特殊な種類のオブジェクトです。たとえば、すべてのアイテムを含む&8チェスト&0のNBT表現、&8ツルハシ&0のエンチャント情報などです。
 info_book.integrateddynamics.manual.logic.value_types.nbt.text2,"Variables can hold references to such &3NBT&0 tags, and corresponding operators exist to read or extend these tags.",変数はこのような&3NBT&0タグへの参照を保持することができ、これらのタグを読み取ったり拡張したりするための対応する演算子が存在します。
 info_book.integrateddynamics.manual.logic.value_types.nbt.text3,"&3NBT&0 tags are typically used in this mod as a low-level fallback mechanism, in case you can not read certain information using dedicated operators.",&3NBT&0タグは通常、専用の演算子を使用して特定の情報を読み取ることができない場合に備えて、このModで低レベルのフォールバックメカニズムとして使用されます。
 info_book.integrateddynamics.manual.logic.value_types.operator,Operator,演算子
 info_book.integrateddynamics.manual.logic.value_types.operator.text1,"A value containing a reference to an &2Operator&0. Operators can be partially applied for more flexible evaluations based on the concept of &lCurrying&r. This is part of the concept of &lmetaprogramming&r (look it up, it's a thing!), where operators are treated as data by other operators. This basically allows you to create new operators yourself, which can then be used for more complex operations.",&2演算子&0への参照を含む値で、演算子は&lカリー化&rの概念に基づいて、より柔軟な評価のために部分的に適用できます。これは&lメタプログラミング&r(調べてみてください、これは実際にあるものです！)の概念の一部であり、演算子は他の演算子によってデータとして扱われます。これにより基本的に新しい演算子を自分で作成し、より複雑な操作に使用できるようになります。
-info_book.integrateddynamics.manual.logic.value_types.operator.text2,"You can for example store the addition &2Operator&0 in a variable card. Do this by starting to type the operator name and selecting it from the autocomplete dropdown-list and clicking it. You can then partially apply it with one &6Integer&0 &lVariable Card&r, which will result in a new virtual operator with one input type and one output type, which internally contains a reference to that applied &6Integer&0. Applying another &6Integer&0 will result in an &6Integer&0.",たとえば、加算&2演算子&0を変数カードに保存できます。これを行うには演算子名を入力し始め、自動補完ドロップダウンリストから演算子を選択してクリックします。次に、1つの&6整数&0の&l変数カード&rを使用してそれを部分的に適用できます。これにより、1つの入力タイプと1つの出力タイプを持つ新しい仮想演算子が作成され、内部には適用された&6整数&0への参照が含まれます。別の&6整数&0を適用すると、&6整数&0が作成されます。
+info_book.integrateddynamics.manual.logic.value_types.operator.text2,"You can for example store the addition &2Operator&0 in a variable card. Do this by starting to type the operator name and selecting it from the autocomplete dropdown-list and clicking it. You can then partially apply it with one &6Integer&0 &lVariable Card&r, which will result in a new virtual operator with one input type and one output type, which internally contains a reference to that applied &6Integer&0. Applying another &6Integer&0 will result in an &6Integer&0.",たとえば、加算&2演算子&0を変数カードに保存できます。これするには演算子名を入力し始め、自動補完ドロップダウンリストから演算子を選択してクリックします。次に、1つの&6整数&0の&l変数カード&rを使用してそれを部分的に適用できます。これにより、1つの入力タイプと1つの出力タイプを持つ新しい仮想演算子が作成され、内部には適用された&6整数&0への参照が含まれます。別の&6整数&0を適用すると、&6整数&0が作成されます。
 info_book.integrateddynamics.manual.logic.value_types.operator.text3,"Other operations of &2Operators&0 are present in the &lLogic Programmer&r for more advanced evaluations, such as reducing a list to a single value, or filtering a list based on a &lPredicate&r.",&2演算子&0の他の操作は、リストを単一の値に減らしたり、&l述語&rに基づいてリストをフィルター処理したりするなど、より高度な評価のために&lロジックプログラマー&rに存在します。
 info_book.integrateddynamics.manual.logic.value_types.recipe,Recipe,レシピ
 info_book.integrateddynamics.manual.logic.value_types.recipe.text1,"An abstract crafting recipe, that takes &8Ingredients&0 as input and outputs another &8Ingredients&0 value.",&8材料&0を入力として受け取り、別の&8材料&0の値を出力する抽象的なクラフトレシピです。
 info_book.integrateddynamics.manual.logic.value_types.recipe.text2,"Recipes can be created visually using the &lLogic Programmer&r, or they can be read from (supported) machines using the &lMachine Reader&r.",レシピは、&lロジックプログラマー&rを使用して視覚的に作成することも、&lマシンリーダー&rを使用して(サポートされている)マシンから読み取ることもできます。
 info_book.integrateddynamics.manual.logic.value_types.recipe.text3,These recipes can be used for autocrafting mods such as &lIntegrated Crafting&r.,これらのレシピは、&lIntegrated Crafting&rなどの自動クラフトModに使用できます。
-info_book.integrateddynamics.manual.logic.value_types.recipe.text4,"To quickly find specific recipes among existing &lVariable Cards&r inside a GUI, you can hold shift to temporarily display what the output item of the recipe is.",GUI内の既存の&l変数カード&rの中から特定のレシピをすばやく見つけるには、Shiftキーを押したままにして、レシピの出力アイテムを一時的に表示します。
-info_book.integrateddynamics.manual.logic.value_types.recipe.text5,"Shift-clicking on an input slot inside the &lLogic Programmer&r allows you to configure detailed properties of this input slot. For example, it allows you to indicate if NBT should be considered or not, if this item can be reused across multiple recipes (e.g. if it will not be fully consumed after the crafting job), and if tag-based alternatives should be considered for this item.",&lロジックプログラマー&r内の入力スロットをShiftキーを押しながらクリックすると、この入力スロットの詳細なプロパティを設定できます。たとえば、NBTを考慮するかどうか、このアイテムを複数のレシピで再利用できるかどうか(クラフトジョブ後に完全に消費されない場合など)、このアイテムに対してタグベースの代替品を考慮するかどうかを指定できます。
+info_book.integrateddynamics.manual.logic.value_types.recipe.text4,"To quickly find specific recipes among existing &lVariable Cards&r inside a GUI, you can hold shift to temporarily display what the output item of the recipe is.",GUI内の既存の&l変数カード&rの中から特定のレシピをすばやく見つけるには、シフトキーを押したままにして、レシピの出力アイテムを一時的に表示します。
+info_book.integrateddynamics.manual.logic.value_types.recipe.text5,"Shift-clicking on an input slot inside the &lLogic Programmer&r allows you to configure detailed properties of this input slot. For example, it allows you to indicate if NBT should be considered or not, if this item can be reused across multiple recipes (e.g. if it will not be fully consumed after the crafting job), and if tag-based alternatives should be considered for this item.",&lロジックプログラマー&r内の入力スロットをシフトキーを押しながらクリックすると、この入力スロットの詳細なプロパティを設定できます。たとえば、NBTを考慮するかどうか、このアイテムを複数のレシピで再利用できるかどうか(クラフトジョブ後に完全に消費されない場合など)、このアイテムに対してタグベースの代替品を考慮するかどうかを指定できます。
 info_book.integrateddynamics.manual.logic.value_types.string,String,文字列
 info_book.integrateddynamics.manual.logic.value_types.string.text1,"A sequence of characters, for example &4”aaa”&0, &4“Hi!”&0, &4“x!(àà)ç”&0, ...",文字のシーケンスで、たとえば、&4”aaa”&0、&4“こんにちは！”&0、&4“x!(àà)ç”&0など
 info_book.integrateddynamics.manual.logic.variables,Variables,変数
 info_book.integrateddynamics.manual.logic.variables.variable_card,Variable Card,変数カード
 info_book.integrateddynamics.manual.logic.variables.variable_card.text1,&lVariable Cards&r are the primary mode of logic transport in this mod. A variable contains a reference to a certain &lValue&r with a certain &lValue Type&r.,&l変数カード&rは、このModにおけるロジック転送の主なモードです。変数には、特定の&l値型&rを持つ特定の&l値&rへの参照が含まれます。
 info_book.integrateddynamics.manual.logic.variables.variable_card.text2,"Variables can either be static or dynamic. Static variables are defined once, and will never change afterwards. Dynamic variables are the result of some form of &lLogic Evaluation&r, which are done by &lOperators&r or &lReader Aspects&r. An example of a dynamic variable is the time in the &lMinecraft&r world, which changes continuously.",変数は静的または動的のいずれかになります。静的変数は一度定義されると、その後変更されることはありません。動的変数は、何らかの形式の&lロジック評価&rの結果であり、&l演算子&rまたは&lリーダーアスペクト&rによって実行されます。動的変数の例としては、継続的に変化する&lマインクラフト&rのワールドの時間があります。
-info_book.integrateddynamics.manual.logic.variables.variable_card.text3,"Dynamic variables will only be evaluated when their value is requested in some way, such as displaying the value in a &lDisplay Panel&r, or being requested as part of the evaluation of another dynamic variable.","Dynamic variables will only be evaluated when their value is requested in some way, such as displaying value in &lDisplay Panel&r, または being requested as パーツ of evaluation of another dynamic 変数."
+info_book.integrateddynamics.manual.logic.variables.variable_card.text3,"Dynamic variables will only be evaluated when their value is requested in some way, such as displaying the value in a &lDisplay Panel&r, or being requested as part of the evaluation of another dynamic variable.","Dynamic variables will only be evaluated when their値is requested in some way, such as displaying値in , または being requested as パーツ of evaluation of another dynamic 変数."
 info_book.integrateddynamics.manual.logic.variables.variable_card.text4,"Each &lVariable Card&r has a unique ID, which is used internally in networks for &lLogic Evaluation&r. When an error occurs in the network, these ID’s will be shown to the player to help with debugging. For better usability, a label can be given to &lVariable Cards&r using a &lLabeler&r, which will allow players to see the label instead of the ID’s.",各&l変数カード&rには一意のIDがあり、ネットワーク内で&lロジック評価&rのために内部的に使用されます。ネットワークでエラーが発生すると、デバッグに役立つようにこれらのIDがプレイヤーに表示されます。使いやすさを向上させるために、&lラベラー&rを使用して&l変数カード&rにラベルを付けることができます。これにより、プレイヤーはIDではなくラベルを見ることができます。
 info_book.integrateddynamics.manual.logic.variables.variable_store,Variable Store,変数ストア
 info_book.integrateddynamics.manual.logic.variables.variable_store.text1,"Some dynamic variables are evaluated based on other variables, where access to those referenced variables must be possible. A dynamic variable representing the addition of two other variables must be able to access those two other variables when it is evaluated. Access to those other variables must be possible within the same network as where the dynamic variable is being evaluated, which can be done by placing the other variable cards in a &lVariable Store&r. Multiple &lVariable Stores&r can be present in a network. Those other variables may also reference certain variables, which should also be present in that same network.",一部の動的変数は他の変数に基づいて評価されますが、その場合、参照先の変数へのアクセスが可能でなければなりません。他の2つの変数の追加を表す動的変数は、評価時に他の2つの変数にアクセスできる必要があります。他の変数へのアクセスは、動的変数が評価されているのと同じネットワーク内で可能でなければなりません。これは、他の変数カードを&l変数ストア&rに配置することで実現できます。ネットワークには複数の&l変数ストア&rが存在する場合があります。これらの他の変数は、同じネットワークに存在する必要がある特定の変数を参照することもできます。
 info_book.integrateddynamics.manual.logic_programming,Logic Programming,ロジックプログラミング
 info_book.integrateddynamics.manual.logic_programming.text1,"Another method for creating dynamic variable cards, is by applying an &lOperator&r on one or more &lVariable Cards&r to produce a new &lVariable Card&r. An example of an &lOperator&r is the addition of two &lNumbers&r, resulting in a new &lNumber&r.",動的変数カードを作成するもう1つの方法は、1つ以上の&l変数カード&rに&l演算子&rを適用して、新しい&l変数カード&rを作成することです。&l演算子&rの例としては、2つの&l数値&rを追加して新しい&l数値&rを作成することが挙げられます。
-info_book.integrateddynamics.manual.logic_programming.text2,"An &lOperator&r can have one or more input values, and has one output value. In most cases the inputs and output have a certain &lValue Type&r, otherwise, they will have the &lAny&r value type. An &lOperator&r with a single input and one output &lBoolean&r is called a &lPredicate&r.","An &lOperatまたは&r can have one または mまたはe 入力 values, と has one 出力 value. In most cases inputs と 出力 have certain &lValue タイプ&r, otherwise, they will have &lAny&r value タイプ. An &lOperatまたは&r with single 入力 と one 出力 &lBoolean&r is cすべてed &lPredicate&r."
+info_book.integrateddynamics.manual.logic_programming.text2,"An &lOperator&r can have one or more input values, and has one output value. In most cases the inputs and output have a certain &lValue Type&r, otherwise, they will have the &lAny&r value type. An &lOperator&r with a single input and one output &lBoolean&r is called a &lPredicate&r.","An can have one または mまたは入力 values, と has one 出力 value. In most cases inputs と 出力 have certain , otherwise, they will have値タイプ. Anでsingle 入力 と one 出力 is されている ."
 info_book.integrateddynamics.manual.logic_programming.text3,"The &lLogic Programmer&r contains a large collection of &lOperators&r. It also allows you to create static &lVariable Cards&r for all &lValue Types&r. After selecting an &lOperator&r, valid &lVariable Cards&r should be inserted in the expected input slots. Finally, another &lVariable Card&r should be inserted in the output slot. If the &lOperator&r is valid, a new dynamic variable will be written to the card. Remember that the referenced &lVariable Cards&r have to be present in a &lVariable Store&r in the same network where the &lOperator&r will be evaluated.",&lロジックプログラマー&rには、多数の&l演算子&rが含まれています。また、すべての&l値型&rに対して静的&l変数カード&rを作成することもできます。&l演算子&rを選択したら、有効な&l変数カード&rを想定される入力スロットに挿入する必要があります。最後に、別の&l変数カード&rを出力スロットに挿入する必要があります。&l演算子&rが有効な場合は、新しい動的変数がカードに書き込まれます。参照される&l変数カード&rは、&l演算子&rが評価される同じネットワーク内の&l変数ストア&rに存在する必要があることに注意してください。
-info_book.integrateddynamics.manual.logic_programming.text4,"Besides writing values to &lVariable Cards&r, the &lLogic Programmer&r can also be used to modify existing &lVariable Cards&r. The value of an existing &lVariable Card&r can be loaded into the &lLogic Programmer&r by inserting it into the slot on the right-hand side while making sure no &lOperators&r or &lValue Type&r on the left-hand side is selected (which is the case when first opening the &lLogic Programmer&r, or the current element can be cleared).","Besides writing values to &lVariable Cards&r, &lLogic Programmer&r can also be used to modify existing &lVariable Cards&r. The value of an existing &lVariable Card&r can be loaded into &lLogic Programmer&r by inserting it into スロット on right-hと side while making sure no &lOperatまたはs&r または &lValue タイプ&r on left-hと side is selected (which is case when first opening &lLogic Programmer&r, または current element can be cleared)."
-info_book.integrateddynamics.manual.logic_programming.text5,"The &lLogic Programmer&r allows you to search through the list of &lOperators&r by name using the textbox on the top. It also allows you to filter on input or output value types, by inserting a &lVariable Card&r of those types in the bottom-left slots.","The &lLogic Programmer&r すべてows you to search through リスト of &lOperatまたはs&r by 名前 using textbox on top. It also すべてows you to フィルター on 入力 または 出力 value types, by inserting &lVariable Card&r of those types in bottom-left slots."
-info_book.integrateddynamics.manual.logic_programming.text6,"If a &lLabeller&r is present in the player’s inventory, the resulting &lVariable Card&r can be labelled immediately by clicking on the ‘E’ button next to the output slot.","If &lLabeller&r is present in player’s インベントリ, resulting &lVariable Card&r can be labelled immediately by clicking on ‘E’ button next to 出力 スロット."
-info_book.integrateddynamics.manual.logic_programming.text7,The &lLogic Programmer&r exists both in block-form and item-form. Both can be interchanged by placing them in a crafting grid.,The &lLogic Programmer&r exists both in ブロック-fまたはm と アイテム-fまたはm. Both can be interchanged by placing them in クラフティング grid.
+info_book.integrateddynamics.manual.logic_programming.text4,"Besides writing values to &lVariable Cards&r, the &lLogic Programmer&r can also be used to modify existing &lVariable Cards&r. The value of an existing &lVariable Card&r can be loaded into the &lLogic Programmer&r by inserting it into the slot on the right-hand side while making sure no &lOperators&r or &lValue Type&r on the left-hand side is selected (which is the case when first opening the &lLogic Programmer&r, or the current element can be cleared).","Besides writing values to , can also be used to modify existing . その値of an existing can be loadedにby inserting itにスロット on right-と side while making sure no または on left-と side is selected (which is case when first opening , または current element can be cleared)."
+info_book.integrateddynamics.manual.logic_programming.text5,"The &lLogic Programmer&r allows you to search through the list of &lOperators&r by name using the textbox on the top. It also allows you to filter on input or output value types, by inserting a &lVariable Card&r of those types in the bottom-left slots.","その すべてows you to search through リスト of by 名前 using textbox on top. It also すべてows you to フィルター on 入力 または 出力値types, by inserting of those types in bottom-left slots."
+info_book.integrateddynamics.manual.logic_programming.text6,"If a &lLabeller&r is present in the player’s inventory, the resulting &lVariable Card&r can be labelled immediately by clicking on the ‘E’ button next to the output slot.","If is present in player’s インベントリ, resulting can be labelled immediately by clicking on ‘E’ button next to 出力 スロット."
+info_book.integrateddynamics.manual.logic_programming.text7,The &lLogic Programmer&r exists both in block-form and item-form. Both can be interchanged by placing them in a crafting grid.,ロジックプログラマーはブロック形式とアイテム形式の両方で存在します。どちらもクラフティング グリッドに配置することで交換できます。
 info_book.integrateddynamics.manual.machines,Machines,マシン
 info_book.integrateddynamics.manual.machines.delay,Delayer,ディレイヤー
 info_book.integrateddynamics.manual.machines.delay.text1,"In some situations, you might need to maintain some kind of history of variable values. When you for instance want to take the average or difference over the last values.",状況によっては、何らかの変数値の履歴を保持する必要がある場合があります。たとえば、最後の値の平均または差を取得したい場合などです。
-info_book.integrateddynamics.manual.machines.delay.text2,"For this, you can use a &lDelayer&r, with which you can maintain the history of the values of a given variable. You can do this by inserting a &lVariable Card&r in the top slot for which you want to maintain the history. You can now create &lVariable Cards&r that will refer to a list of values, which corresponds to the history. The referenced (or any other) &lVariable Card&r must remain in the top slot for the delayer to work.","Fまたは this, you can use &lDelayer&r, with which you can maintain histまたはy of values of given 変数. You can do this by inserting &lVariable Card&r in top スロット fまたは which you want to maintain histまたはy. You can now create &lVariable Cards&r that will refer to リスト of values, which cまたはresponds to histまたはy. The referenced (または 任意 other) &lVariable Card&r must remain in top スロット fまたは delayer to wまたはk."
+info_book.integrateddynamics.manual.machines.delay.text2,"For this, you can use a &lDelayer&r, with which you can maintain the history of the values of a given variable. You can do this by inserting a &lVariable Card&r in the top slot for which you want to maintain the history. You can now create &lVariable Cards&r that will refer to a list of values, which corresponds to the history. The referenced (or any other) &lVariable Card&r must remain in the top slot for the delayer to work.",このため、変数の履歴を保持できるディレイヤーを使用できます。履歴を保持したい変数カードを上部スロットに挿入することで、これを実行できます。これにより、履歴に対応する値のリストを参照する変数カードを作成できます。参照する（その他の）変数カードは、ディレイヤーが機能するために上部スロットに残る必要があります。
 info_book.integrateddynamics.manual.machines.delay.text3,The oldest values correspond to the last elements in the list. You can choose the maximum length of the history from within the gui.,最も古い値はリストの最後の要素に対応します。履歴の最大長はGUI内から選択できます。
 info_book.integrateddynamics.manual.machines.energy_battery,Energy Battery,エネルギーバッテリー
 info_book.integrateddynamics.manual.machines.energy_battery.text1,"&lIntegrated Dynamics&r networks can be configured to consume energy. For this, you can attach &lEnergy Batteries&r to the network to add energy storage capacity for it.",&lIntegrated Dynamics&rのネットワークは、エネルギーを消費するように構成できます。そのためにはネットワークに&lエネルギーバッテリー&rを接続して、エネルギー貯蔵容量を追加できます。
-info_book.integrateddynamics.manual.machines.energy_battery.text2,These batteries accept both &lRF&r-based and &lTesla&r power.,These batteries accept both &lRF&r-based と &lTesla&r パワー.
+info_book.integrateddynamics.manual.machines.energy_battery.text2,These batteries accept both &lRF&r-based and &lTesla&r power.,These batteries accept both &lRF&r-based と &lテスラ&r パワー.
 info_book.integrateddynamics.manual.machines.energy_battery.text3,Applying a redstone signal will enable auto-export mode of energy to all sides.,レッドストーン信号を適用すると、すべての側面へのエネルギーの自動エクスポートモードが有効になります。
-info_book.integrateddynamics.manual.machines.energy_battery.text4,"When this battery is held in your inventory, &lauto-supply&r mode can be enabled by shift+right clicking. When enabled, this battery will automatically try to fill the items you are holding in your two hands with energy.",このバッテリーがインベントリに保持されている場合、Shiftキーを押しながら右クリックすると、&l自動供給&rモードが有効になります。有効にすると、このバッテリーは両手に持っているアイテムに自動的にエネルギーを補給しようとします。
+info_book.integrateddynamics.manual.machines.energy_battery.text4,"When this battery is held in your inventory, &lauto-supply&r mode can be enabled by shift+right clicking. When enabled, this battery will automatically try to fill the items you are holding in your two hands with energy.",このバッテリーがインベントリに保持されている場合、シフトキーを押しながら右クリックすると、&l自動供給&rモードが有効になります。有効にすると、このバッテリーは両手に持っているアイテムに自動的にエネルギーを補給しようとします。
 info_book.integrateddynamics.manual.machines.generator,Generator,発電機
-info_book.integrateddynamics.manual.machines.generator.text1,"When you need &lRF&r or &lTesla&r energy, you can use the &lGenerator&r to create energy from &oburnable&r items.",&lRF&rまたは&lTesla&rエネルギーが必要な場合は、&l発電機&rを使用して&o可燃&rアイテムからエネルギーを作成できます。
+info_book.integrateddynamics.manual.machines.generator.text1,"When you need &lRF&r or &lTesla&r energy, you can use the &lGenerator&r to create energy from &oburnable&r items.",&lRF&rまたは&lテスラ&rエネルギーが必要な場合は、&l発電機&rを使用して&o可燃&rアイテムからエネルギーを作成できます。
 info_book.integrateddynamics.manual.machines.materializer,Materializer,マテリアライザー
 info_book.integrateddynamics.manual.machines.materializer.text1,"In order to make a dynamic &lVariable Card&r static, a &lMaterializer&r can be used. The dynamic &lVariable Card&r must be inserted, and a new empty &lVariable Card&r must be inserted, which will cause it to contain the current value of the dynamic &lVariable Card&r as a static value.",動的&l変数カード&rを静的にするには、&lマテリアライザー&rを使用できます。動的&l変数カード&rを挿入し、新しい空の&l変数カード&rを挿入する必要があります。これにより、動的&l変数カード&rの現在の値が静的な値として含まれるようになります。
 info_book.integrateddynamics.manual.machines.materializer.text2,"This can be useful in situations where you want to log the values of a certain dynamic &lVariable Card&r, or when you don’t need the dynamic evaluation of a &lVariable Card&r anymore.",これは、特定の動的&l変数カード&rの値をログに記録したい場合や、&l変数カード&rの動的評価が不要になった場合に役立ちます。
 info_book.integrateddynamics.manual.machines.materializer.text3,&lVariable Cards&r can be piped in and out the &lMaterializer&r.,&l変数カード&rは&lマテリアライザー&rにパイプで入出力できます。
 info_book.integrateddynamics.manual.machines.mechanical_drying_basin,Mechanical Drying Basin,機械式乾燥槽
-info_book.integrateddynamics.manual.machines.mechanical_drying_basin.text1,"Drying with the &lDrying Basin&r can take a while. If you want things to go faster, or if you want to be able to dry more things, you can use the &lMechanical Drying Basin&r, which requires energy to run.",&l乾燥槽&rでの乾燥には時間がかかります。乾燥を早く終わらせたい場合や、より多くのものを乾燥させたい場合は、稼働に電力を必要とする&l機械式乾燥槽&rを使用することができます。
+info_book.integrateddynamics.manual.machines.mechanical_drying_basin.text1,"Drying with the &lDrying Basin&r can take a while. If you want things to go faster, or if you want to be able to dry more things, you can use the &lMechanical Drying Basin&r, which requires energy to run.",&l乾燥槽&rでの乾燥には時間がかかります。乾燥を早く終わらせたい場合や、より多くのものを乾燥させたい場合は、稼働に電力を必要とする&l機械式乾燥槽&rを使用できます。
 info_book.integrateddynamics.manual.machines.mechanical_squeezer,Mechanical Squeezer,機械式圧搾器
-info_book.integrateddynamics.manual.machines.mechanical_squeezer.text1,"There will come a time, when you will have had enough of all this jumping on &lSqueezers&r. If you haven't automated your &lSqueezers&r by then, perhaps it's time to look into making a &lMechanical Squeezer&r. It does not require any manual effort, but it requires energy to run. This also makes it significantly faster than the regular &lSqueezers&r and allows more things to be squeezed with a higher yield.","There will come time, when you will have had enough of すべて this jumping on &lSqueezers&r. If you haven't automated your &lSqueezers&r by then, perhaps it's time to look into making &lMechanical Squeezer&r. It does not require 任意 manual effまたはt, but it requires エネルギー to run. This also makes it significantly faster than regular &lSqueezers&r と すべてows mまたはe things to be squeezed with higher yield."
+info_book.integrateddynamics.manual.machines.mechanical_squeezer.text1,"There will come a time, when you will have had enough of all this jumping on &lSqueezers&r. If you haven't automated your &lSqueezers&r by then, perhaps it's time to look into making a &lMechanical Squeezer&r. It does not require any manual effort, but it requires energy to run. This also makes it significantly faster than the regular &lSqueezers&r and allows more things to be squeezed with a higher yield.",このジャンプがすべてに疲れる時期は必ず来ます。その後、スクイーザーを自動化していない場合は、メカニカルスクイーザーを作成することを検討する時期かもしれません。手動の作業は不要ですが、実行にはエネルギーが必要です。これにより、通常のスクイーザーよりも大幅に高速になり、より高い収率でより多くのものを搾ることができます。
 info_book.integrateddynamics.manual.machines.proxy,Proxy,プロキシ
 info_book.integrateddynamics.manual.machines.proxy.text1,"A &lProxy&r can be used to make a dynamic reference to a certain &lVariable Card&r. It allows you to insert a &lVariable Card&r in the top slot, and write a new &lVariable Card&r, which will dynamically take the value of the &lVariable Card&r that is present in the proxy. Note that the referenced (or any other) &lVariable Card&r must remain in the top slot for the proxy to work.",&lプロキシ&rを使用すると、特定の&l変数カード&rへの動的な参照を作成できます。これにより、最上位のスロットに&l変数カード&rを挿入し、新しい&l変数カード&rを書き込むことができます。この新しい&l変数カード&rは、プロキシに存在する&l変数カード&rの値を動的に取得します。プロキシが機能するには、参照される(またはその他の)&l変数カード&rが最上位のスロットに残っている必要があることに注意してください。
 info_book.integrateddynamics.manual.machines.proxy.text2,"This is useful in situations where you have a chain of &lVariable Cards&r, but you still would like to be able to change one value manually. You could then proxy that variable, which will allow it to be swapped with another variable at any time.",これは一連の&l変数カード&rがあり、1つの値を手動で変更したい場合に便利です。その変数をプロキシするといつでも別の変数と交換できるようになります。
 info_book.integrateddynamics.manual.machines.proxy.text3,"Just as with the &lMaterializer&r, &lVariable Cards&r can be piped in and out of it.",&lマテリアライザー&rと同様に、&l変数カード&rをパイプで入出力できます。
 info_book.integrateddynamics.manual.networks,Networks,ネットワーク
-info_book.integrateddynamics.manual.networks.text1,"&lIntegrated Dynamics&r &lnetworks&r are the basis of any good automation system. A network consists of a collection of connected &lLogic Cables&r and parts can be placed on them. These cables should be managed using a &lWrench&r. Shift+right-clicking a cable or part will remove it, while a regular right-click will disconnect it from other cables.",&lIntegrated Dynamics&rの&lネットワーク&rは、あらゆる優れた自動化システムの基礎です。ネットワークは、接続された&lロジックケーブル&rのコレクションで構成され、パーツをその上に配置できます。これらのケーブルは、&lレンチ&rを使用して管理する必要があります。ケーブルまたはパーツをShiftキーを押しながら右クリックすると削除され、通常の右クリックでは他のケーブルから切断されます。
-info_book.integrateddynamics.manual.networks.text2,"Even though &lLogic Cables&r may look nice, in some cases you’ll probably want to hide them. You can do this using &lFacades&r, which can resemble any material. Furthermore, these cables are also compatible with &lMC MultiPart&r, which means that you can hide your cables in more complex facade structures.","Even though &lLogic Cables&r may look nice, in some cases you’ll probably want to hide them. You can do this using &lFacades&r, which can resemble 任意 マテリアル. Furthermまたはe, these cables are also compatible with &lMC MultiPart&r, which means that you can hide your cables in mまたはe complex facade structures."
+info_book.integrateddynamics.manual.networks.text1,"&lIntegrated Dynamics&r &lnetworks&r are the basis of any good automation system. A network consists of a collection of connected &lLogic Cables&r and parts can be placed on them. These cables should be managed using a &lWrench&r. Shift+right-clicking a cable or part will remove it, while a regular right-click will disconnect it from other cables.",&lIntegrated Dynamics&rの&lネットワーク&rは、あらゆる優れた自動化システムの基礎です。ネットワークは、接続された&lロジックケーブル&rのコレクションで構成され、パーツをその上に配置できます。これらのケーブルは、&lレンチ&rを使用して管理する必要があります。ケーブルまたはパーツをシフトキーを押しながら右クリックすると削除され、通常の右クリックでは他のケーブルから切断されます。
+info_book.integrateddynamics.manual.networks.text2,"Even though &lLogic Cables&r may look nice, in some cases you’ll probably want to hide them. You can do this using &lFacades&r, which can resemble any material. Furthermore, these cables are also compatible with &lMC MultiPart&r, which means that you can hide your cables in more complex facade structures.","Even though may look n氷, in some cases you’ll probably want to hide them. You can do this using , which can resemble 任意 マテリアル. Furthermまたは, these cables are also compatibleで, which means that you can hide your cables in mまたは complex facade structures."
 info_book.integrateddynamics.manual.parts,Parts,パーツ
 info_book.integrateddynamics.manual.parts.introduction,Introduction,はじめに
-info_book.integrateddynamics.manual.parts.introduction.text1,"Parts can be placed on each side of a &lLogic Cable&r. This section describes parts that can read &lValues&r and make them available with a &lVariable Card&r, and parts that can perform actions based on the &lValues&r within &lVariable Cards&r.","Parts can be placed on each side of &lLogic ケーブル&r. This section describes parts that can read &lValues&r と make them available with &lVariable Card&r, と parts that can perfまたはm actions based on &lValues&r within &lVariable Cards&r."
-info_book.integrateddynamics.manual.parts.introduction.text2,"Most parts have configurable settings, which can be accessed using the top-left button in the GUI of a part. This allows you to change the part &lTicks/Operation&r, meaning per how many ticks this part should perform its actions. Secondly, the &lPriority&r of part can be changed, which indicates the order in which this part can act relative to the other parts in the same network in the same tick. If part A has a priority of -1, and part B has a priority of 1, then part B will always perform its actions before part A. If priorities of parts are the same, then the relative order is random.","Most parts have configurable settings, which can be accessed using top-left button in GUI of パーツ. This すべてows you to change パーツ &lTicks/Operation&r, meaning per how m任意 ticks this パーツ should perfまたはm its actions. Secondly, &lPriまたはity&r of パーツ can be changed, which indicates またはder in which this パーツ can act relative to other parts in same ネットワーク in same ティック. If パーツ A has 優先度 of -1, と パーツ B has 優先度 of 1, then パーツ B will always perfまたはm its actions befまたはe パーツ A. If priまたはities of parts are same, then relative またはder is rとom."
+info_book.integrateddynamics.manual.parts.introduction.text1,"Parts can be placed on each side of a &lLogic Cable&r. This section describes parts that can read &lValues&r and make them available with a &lVariable Card&r, and parts that can perform actions based on the &lValues&r within &lVariable Cards&r.",パーツはロジック ケーブルの両側に配置できます。このセクションでは、値を読み取ることができるパーツと、変数カードで利用可能にすることができるパーツ、および変数カード内の値に基づいてアクションを実行できるパーツについて説明します。
 info_book.integrateddynamics.manual.parts.introduction.text3,"A part's &lEnergy Channel&r determines where it can draw its energy from. -1 is the wildcard channel (it will match all channels), and 0 is the default channel (used by parts such as energy cells that don't have a channel setting). Finally, &lTarget Side&r determines which side of its target block will be interacted with. This defaults to the side that it's actually placed against.",パーツの&lエネルギーチャンネル&rは、パーツがエネルギーを引き出せる場所を決定します。-1はワイルドカードチャンネル(すべてのチャンネルに一致)、0はデフォルトチャンネル(チャンネル設定のないエネルギーセルなどのパーツで使用)です。最後に、&l対象サイド&rは対象ブロックのどの側面と相互作用するかを決定します。これは実際に配置されている側面がデフォルトになります。
 info_book.integrateddynamics.manual.parts.introduction.text4,"Some reader and writer parts only contain aspects when certain other mods are present. If no aspects are present for a certain part, a warning will be added to the item tooltip whenever you attempt to craft it.",一部のリーダーおよびライターのパーツには、特定の他のModが存在する場合にのみアスペクトが含まれます。特定のパーツにアスペクトが存在しない場合は、そのパーツを作成しようとするたびにアイテムのツールチップに警告が追加されます。
 info_book.integrateddynamics.manual.parts.offsets,Offsets,オフセット
-info_book.integrateddynamics.manual.parts.offsets.text1,"By default, parts will target the direct neighboring position. However, when &lPart Enhancements&r are applied, the target position can be changed through the part's &lOffset&r screen.","By default, parts will tar取得direct neighbまたはing position. However, when &lPart Enhancements&r are applied, tar取得position can be changed through パーツ's &lOffset&r screen."
+info_book.integrateddynamics.manual.parts.offsets.text1,"By default, parts will target the direct neighboring position. However, when &lPart Enhancements&r are applied, the target position can be changed through the part's &lOffset&r screen.","By default, parts will ターゲットdirect neighbまたはing position. However, when are applied, ターゲットposition can be changed through パーツのスクリーン."
 info_book.integrateddynamics.manual.parts.offsets.text2,"Offsets are always relative to the part's target position, and are limited by the number of Part Enhancements that have been applied.",オフセットは常にパーツの対象位置を基準とし、適用されているパーツ拡張機能の数によって制限されます。
-info_book.integrateddynamics.manual.parts.offsets.text3,"Offsets can either be set manually, or they can be set visually using the &lWrench&r. When setting the &lWrench&r to offset-mode, a position can be stored by shift + right-clicking. This position can be saved into parts by right-clicking them with that &lWrench&r.","Offsets can either be 設定manuすべてy, または they can be 設定visuすべてy using &lWrench&r. When setting &lWrench&r to offset-モード, position can be stまたはed by shift + right-clicking. This position can be saved into parts by right-clicking them with that &lWrench&r."
+info_book.integrateddynamics.manual.parts.offsets.text3,"Offsets can either be set manually, or they can be set visually using the &lWrench&r. When setting the &lWrench&r to offset-mode, a position can be stored by shift + right-clicking. This position can be saved into parts by right-clicking them with that &lWrench&r.",オフセットは手動で設定することも、レンチを使用して視覚的に設定することもできます。レンチをオフセット モードに設定する場合は、シフトキーを押しながら右クリックして位置を保存できます。この位置は、そのレンチで右クリックしてパーツに保存できます。
 info_book.integrateddynamics.manual.parts.offsets.text4,"Offsets can not only be statically defined, buy they can also be &odynamic&r using &lVariable Cards&r.",オフセットは静的に定義できるだけでなく、&l変数カード&rを使用して&o動的&rに定義することもできます。
 info_book.integrateddynamics.manual.parts.other,Others,その他
 info_book.integrateddynamics.manual.parts.other.connector_mono_directional,Mono-Directional Connector,単方向コネクター
@@ -876,7 +875,7 @@ info_book.integrateddynamics.manual.parts.reader.world,World,ワールド
 info_book.integrateddynamics.manual.parts.reader.world.text1,"Information about the world this part is in, like the current weather and time.",現在の天気や時間など、このパーツが存在するワールドに関する情報です。
 info_book.integrateddynamics.manual.parts.settings,Settings,設定
 info_book.integrateddynamics.manual.parts.settings.text1,Most parts have a &lSettings&r screen using which basic part settings can be modified.,ほとんどのパーツには&l設定&r画面があり、これを使用して基本的なパーツ設定を変更できます。
-info_book.integrateddynamics.manual.parts.settings.text2,The Target Side is the side that this part will interact with. It defaults to the opposite of the side of the cable this part was placed upon.,The Tar取得Side is side that this パーツ will interact with. It defaults to opposite of side of ケーブル this パーツ was placed upon.
+info_book.integrateddynamics.manual.parts.settings.text2,The Target Side is the side that this part will interact with. It defaults to the opposite of the side of the cable this part was placed upon.,その Tar取得Side is side that this パーツ will interact with. It defaults to opposite of side of ケーブル this パーツ was placed upon.
 info_book.integrateddynamics.manual.parts.settings.text3,"The Ticks/Operation allows you to configure the ticking frequency of this part. The higher, the slower it operates.",ティック/操作では、このパーツのティック周波数を設定できます。高いほど、動作が遅くなります。
 info_book.integrateddynamics.manual.parts.settings.text4,The Priority determines the order in which this part is executed within a single network tick.,優先度は、単一のネットワークティック内でこのパーツが実行される順序を決定します。
 info_book.integrateddynamics.manual.parts.settings.text5,The Energy Channel indicates the channel from which energy should be consumed when this part ticks. This is only applicable if energy consumption for networks is enabled.,エネルギーチャンネルは、この部分がティックするときにエネルギーを消費するチャンネルを示します。これは、ネットワークのエネルギー消費が有効になっている場合にのみ適用されます。
@@ -902,7 +901,7 @@ info_book.integrateddynamics.manual.prerequisites.meneglin_biome.text1,"&lMenril
 info_book.integrateddynamics.manual.prerequisites.menril_trees,Menril Trees,メンリルの木
 info_book.integrateddynamics.manual.prerequisites.menril_trees.text1,"You may occasionally encounter tall blue trees. Such trees are called &lMenril Trees&r, and have some very interesting properties. First, the leaves give off light. This is caused by the illuminating berries, which are also very tasty! Secondly, the nice-looking wood of the tree contains a lot of resin, which can be used for crafting most of the things in this mod.",時々、背の高い青い木に出会うことがあります。そのような木は&lメンリルの木&rと呼ばれ、非常に興味深い特性を持っています。まず、葉が光を放ちます。これは光るベリーによるもので、とてもおいしいです！次に、この木の美しい木材には樹脂がたくさん含まれており、このModのほとんどのものを作るのに使用できます。
 info_book.integrateddynamics.manual.prerequisites.squeezer,Squeezer,圧搾器
-info_book.integrateddynamics.manual.prerequisites.squeezer.text1,"The &lSqueezer&r is an early-game machine that allows you to jump on blocks and items to break or squeeze them. Not only players, but any kind of entity can jump or fall on it to perform the squeezing process. Resulting items will either fall into any adjacent inventory or on the ground. Resulting fluids will remain in the machine and will flow to one of the two sides when there is a target tank. The machine contains a small suspension that can be enabled with a redstone pulse to reset it. Most notably, this machine can be used to squeeze the resin out of &lMenril Logs&r.","The &lSqueezer&r is an early-game マシン that すべてows you to jump on blocks と items to break または squeeze them. Not only players, but 任意 kind of entity can jump または fすべて on it to perfまたはm squeezing process. Resulting items will either fすべて into 任意 adjacent インベントリ または on ground. Resulting fluids will remain in マシン と will flow to one of two sides when there is tar取得tank. The マシン contains smすべて suspension that can be 有効化d with redstone pulse to re設定it. Most notably, this マシン can be used to squeeze resin out of &lMenril Logs&r."
+info_book.integrateddynamics.manual.prerequisites.squeezer.text1,"The &lSqueezer&r is an early-game machine that allows you to jump on blocks and items to break or squeeze them. Not only players, but any kind of entity can jump or fall on it to perform the squeezing process. Resulting items will either fall into any adjacent inventory or on the ground. Resulting fluids will remain in the machine and will flow to one of the two sides when there is a target tank. The machine contains a small suspension that can be enabled with a redstone pulse to reset it. Most notably, this machine can be used to squeeze the resin out of &lMenril Logs&r.",スクイーザーは早期ゲーム マシンで、ブロックとアイテムをジャンプして破壊または搾ることができます。プレイヤーだけでなく、あらゆる種類のエンティティがジャンプするか、または落ちてきて搾る処理を実行できます。結果のアイテムは、隣接するインベントリのいずれかに落ちるか、地面に落ちます。結果の液体はマシンに残り、ターゲット タンクがある場合は2つの側面のいずれかに流れます。マシンには、レッドストーン パルスで有効にしてリセットできる小さなサスペンションが含まれています。特に、このマシンを使用してメンリル ログから樹脂を搾ることができます。
 info_book.integrateddynamics.section.main,On the Dynamics of Integration,Integrated Dynamicsについて
 info_book.integrateddynamics.tag_index,&oIndex&r,&o索引&r
 info_book.integrateddynamics.tutorials,Tutorials,チュートリアル
@@ -915,15 +914,14 @@ info_book.integrateddynamics.tutorials.advancedNetworkComponents.text5,"For this
 info_book.integrateddynamics.tutorials.advancedOperations,Advanced Operations,高度な演算子
 info_book.integrateddynamics.tutorials.advancedOperations.text1,"As you may have noticed during the last tutorial, the &lLogic Programmer&r allows you to do way more than just adding numbers. In this tutorial, we’ll look into the more advanced datastructures and chaining of operators.",前回のチュートリアルで気づいたかもしれませんが、&lロジックプログラマー&rを使用すると、数値を追加するだけでなく、さまざまな操作を実行できます。このチュートリアルでは、より高度なデータ構造と演算子の連鎖について説明します。
 info_book.integrateddynamics.tutorials.advancedOperations.text2,"Let’s start by creating a static &7List&0 of the &6Integers&0 &61&0, &610&0 and &6100&0, and visualize it in a &lDisplay Panel&r.",まず、&6整数&0 &61&0、&610&0、&6100&0 の静的な&7リスト&0を作成し、それを&l表示パネル&rで視覚化します。
-info_book.integrateddynamics.tutorials.advancedOperations.text3,"&7Items&0 are one of the possible value types in this mod. Let’s make a static &7Item&0 &lVariable Card&r, dynamically retrieve the mod name from that item, and visualize it in a &lDisplay Panel&r.","&7アイテム&0は、このModで利用できる値型のひとつです。静的な&7アイテム&0の&l変数カード&rを作成し、そのアイテムからMod名を動的に取得して、&l表示パネル&rに可視化してみましょう。
-"
+info_book.integrateddynamics.tutorials.advancedOperations.text3,"&7Items&0 are one of the possible value types in this mod. Let’s make a static &7Item&0 &lVariable Card&r, dynamically retrieve the mod name from that item, and visualize it in a &lDisplay Panel&r.",&7アイテム&0は、このModで利用できる値型のひとつです。静的な&7アイテム&0の&l変数カード&rを作成し、そのアイテムからMod名を動的に取得して、&l表示パネル&rに可視化してみましょう。
 info_book.integrateddynamics.tutorials.advancedOperations.text4,Remember that you’ll have to use a &lVariable Store&r to store your referenced variable.,参照済みの変数を格納するためには、&l変数ストア&rを使用する必要があることを忘れないでください。
-info_book.integrateddynamics.tutorials.advancedOperations.text5,"For the final part of this tutorial, we’ll combine dynamic variables with operators. Attach an &lEntity Reader&r to a network, read the target &7Entity&0, retrieve the &7Block&0 the target &7Entity&0 is looking at, and visualize that &7Block&0 in a &lDisplay Panel&r.","Fまたは final パーツ of this tutまたはial, we’ll combine dynamic variables with operatまたはs. Attach an &lEntity リーダー&r to ネットワーク, read tar取得&7Entity&0, retrieve &7Block&0 tar取得&7Entity&0 is looking at, と visualize that &7Block&0 in &lDisplay Panel&r."
+info_book.integrateddynamics.tutorials.advancedOperations.text5,"For the final part of this tutorial, we’ll combine dynamic variables with operators. Attach an &lEntity Reader&r to a network, read the target &7Entity&0, retrieve the &7Block&0 the target &7Entity&0 is looking at, and visualize that &7Block&0 in a &lDisplay Panel&r.",このチュートリアルの最終部分では、動的変数をオペレーターと組み合わせます。エンティティ リーダーをネットワークにアタッチし、対象のエンティティを読み取り、対象のエンティティが見ている ブロック を取得し、そのブロックをディスプレイ パネルで視覚化します。
 info_book.integrateddynamics.tutorials.aspects,Aspects,アスペクト
 info_book.integrateddynamics.tutorials.aspects.text1,"As a simple example, let’s try reading in a redstone value and displaying it.",簡単な例として、レッドストーンの値を読み込んで表示してみましょう。
-info_book.integrateddynamics.tutorials.aspects.text2,"Do this by attaching a &lRedstone Reader&r to a &lLogic Cable&r in the world. Make sure that the reader is targeting something with a redstone value, like a &lRedstone Torch&r.","Do this by attaching &lRedstone リーダー&r to &lLogic ケーブル&r in wまたはld. Make sure that リーダー is targeting something with redstone value, like &lRedstone Tまたはch&r."
+info_book.integrateddynamics.tutorials.aspects.text2,"Do this by attaching a &lRedstone Reader&r to a &lLogic Cable&r in the world. Make sure that the reader is targeting something with a redstone value, like a &lRedstone Torch&r.","Do this by attaching to in ワールド. Make sure that リーダー is targeting somethingでredstone value, like ."
 info_book.integrateddynamics.tutorials.aspects.text3,"After that, right-click on the &lRedstone Reader&r to open the gui, after which you have to insert a &lVariable Card&r into the &6Integer&0 &lRedstone Value&r aspect, to bind the target’s redstone value to that &lVariable Card&r.",その後、&lレッドストーンリーダー&rを右クリックしてGUIを開き、&l変数カード&rを&6整数&0の&lレッドストーン値&rアスペクトに挿入して、対象のレッドストーン値をその&l変数カード&rに割り当てる必要があります。
-info_book.integrateddynamics.tutorials.aspects.text4,"Next, place a &lDisplay Panel&r in the same network as the &lRedstone Reader&r, and insert your bound &lVariable Card&r to display its value.","Next, place &lDisplay Panel&r in same ネットワーク as &lRedstone リーダー&r, と insert your bound &lVariable Card&r to display its value."
+info_book.integrateddynamics.tutorials.aspects.text4,"Next, place a &lDisplay Panel&r in the same network as the &lRedstone Reader&r, and insert your bound &lVariable Card&r to display its value.","Next, place in same ネットワーク as , と insert your bound to 表示 its value."
 info_book.integrateddynamics.tutorials.aspects.text5,"As a next step, craft a &lRedstone Writer&r and let it write a maximal integer redstone value that was read by a Redstone Reader.",次のステップとして、&lレッドストーンライター&rを作成し、レッドストーンリーダーによって読み取られた最大整数のレッドストーン値を書き込むようにします。
 info_book.integrateddynamics.tutorials.basicNetworkComponents,Basic Network Components,基本的なネットワークコンポーネント
 info_book.integrateddynamics.tutorials.basicNetworkComponents.text1,"One of the methods for binding &lVariable Cards&r to certain values, is by reading in values from &lReaders&r. Let’s start by crafting some basic readers. After that, craft a &lDisplay Panel&r, which is useful for displaying the values of &lVariable Cards&r.",&l変数カード&rを特定の値に割り当てる方法の1つは、&lリーダー&rから値を読み込むことです。まずは基本的なリーダーを作成してみましょう。その後、&l変数カード&rの値を表示するのに役立つ&l表示パネル&rを作成します。
@@ -933,16 +931,16 @@ info_book.integrateddynamics.tutorials.introduction,Introduction,はじめに
 info_book.integrateddynamics.tutorials.introduction.text1,"This part of the book contains several tutorials that will help you understand the basics of the mod. Furthermore, it will allow you to earn some &lrewards&r while accomplishing the achievements of each tutorial.",このパートには、Modの基本を理解するのに役立つチュートリアルがいくつか含まれています。さらに、各チュートリアルの成果を達成すると、いくつかの&l報酬&rを獲得できます。
 info_book.integrateddynamics.tutorials.logicOperations,Logic Operations,ロジック演算
 info_book.integrateddynamics.tutorials.logicOperations.text1,"While displaying values that originate from readers can be useful, things get really interesting when you start combining certain values with other values using &2Operators&0. All &2Operators&0 can be found in the &lLogic Programmer&r.",リーダーから生成された値を表示することは便利ですが、&2演算子&0を使用して特定の値を他の値と組み合わせると、非常に興味深いものになります。すべての&2演算子&0は&lロジックプログラマー&rにあります。
-info_book.integrateddynamics.tutorials.logicOperations.text2,"Start by crafting a &lLogic Programmer&r, which exists in both item and block-form. Open its gui to see the list of all &loperators&r.",まず、アイテム形式とブロック形式の両方で存在する&lロジックプログラマー&rを作成します。 GUIを開いて、すべての&lプログラマー&rのリストを表示します。
-info_book.integrateddynamics.tutorials.logicOperations.text3,"Next, search for the &6Integer&0 operator, and click on it. This will open a window in which you should type a number. When you have done this, insert an empty &lVariable Card&r to bind that &6Integer&0 to the &lVariable Card&r. When you’re done, do that once more for another &6Integer&0.",次に、&6整数&0の演算子を検索してクリックします。すると、数値を入力するウィンドウが開きます。これが完了したら、空の &l変数カード&r を挿入して、その&6整数&0を&l変数カード&rに割り当てます。完了したら、別の&6整数&0に対して同じ操作をもう一度行います。
+info_book.integrateddynamics.tutorials.logicOperations.text2,"Start by crafting a &lLogic Programmer&r, which exists in both item and block-form. Open its gui to see the list of all &loperators&r.",まず、アイテム形式とブロック形式の両方で存在する&lロジックプログラマー&rを作成します。GUIを開いて、すべての&lプログラマー&rのリストを表示します。
+info_book.integrateddynamics.tutorials.logicOperations.text3,"Next, search for the &6Integer&0 operator, and click on it. This will open a window in which you should type a number. When you have done this, insert an empty &lVariable Card&r to bind that &6Integer&0 to the &lVariable Card&r. When you’re done, do that once more for another &6Integer&0.",次に、&6整数&0の演算子を検索してクリックします。すると、数値を入力するウィンドウが開きます。これが完了したら、空の&l変数カード&r を挿入して、その&6整数&0を&l変数カード&rに割り当てます。完了したら、別の&6整数&0に対して同じ操作をもう一度行います。
 info_book.integrateddynamics.tutorials.logicOperations.text4,"Finally, search for the &lAddition&r operator and open it. This allows you to add two &eNumbers&0. Insert your two &6Integer&0 &lVariable Cards&r into these slots, and bind it to a new &lVariable Card&r.",最後に、&l加算&rの演算子を検索して開きます。これにより、2つの&e数値&0を加算できます。2つの&6整数&0の&l変数カード&rをこれらのスロットに挿入し、新しい&l変数カード&rに割り当てます。
 info_book.integrateddynamics.tutorials.logicOperations.text5,"After writing a value to a &lVariable Card&r, you can always modify it again later by inserting it again in the &lLogic Programmer&r.",&lVariableカード&rに値を書き込んだ後、常に&lLogic Programmer&rに再度挿入することでそれを変更できます。
-info_book.integrateddynamics.tutorials.logicOperations.text6,"As &1Integrated Dynamics&0 evaluates variables in a &olazy&r manner, this &lAddition&r &lVariable Card&r does not contain the addition of these &6Integers&0 directly, but the addition will only be performed when the value is needed in the network, based on the variable references. For this, the network has to be able to find these referenced &lVariable Cards&r. For this, you will need to craft and place a &lVariable Store&r. Insert the two &6Integer&0 &lVariable Cards&r into this store to make them available to the network.","As &1Integrated Dynamics&0 evaluates variables in &olazy&r manner, this &lAddition&r &lVariable Card&r does not contain addition of these &6Integers&0 directly, but addition will only be perfまたはmed when value is needed in ネットワーク, based on 変数 references. Fまたは this, ネットワーク has to be able to find these referenced &lVariable Cards&r. Fまたは this, you will need to craft と place &lVariable Stまたはe&r. Insert two &6Integer&0 &lVariable Cards&r into this stまたはe to make them available to ネットワーク."
-info_book.integrateddynamics.tutorials.logicOperations.text7,"Finally, you can now connect a cable to the &lVariable Store&r, attach a &lDisplay Panel&r, and insert the &lAddition&r &lVariable Card&r to display the addition.","Finすべてy, you can now connect ケーブル to &lVariable Stまたはe&r, attach &lDisplay Panel&r, と insert &lAddition&r &lVariable Card&r to display addition."
-info_book.integrateddynamics.tutorials.logicOperations.text8,The &lLogic Programmer&r and &lVariable Stores&r are going to be your best friends when you want to do more complex automation.,The &lLogic Programmer&r と &lVariable Stまたはes&r are going to be your best friends when you want to do mまたはe complex automation.
+info_book.integrateddynamics.tutorials.logicOperations.text6,"As &1Integrated Dynamics&0 evaluates variables in a &olazy&r manner, this &lAddition&r &lVariable Card&r does not contain the addition of these &6Integers&0 directly, but the addition will only be performed when the value is needed in the network, based on the variable references. For this, the network has to be able to find these referenced &lVariable Cards&r. For this, you will need to craft and place a &lVariable Store&r. Insert the two &6Integer&0 &lVariable Cards&r into this store to make them available to the network.",統合ダイナミクスは変数を遅延的に評価するため、この加算変数カードにはこれらの整数の直接的な加算は含まれていませんが、変数参照に基づいて、値がネットワークで必要になったときにのみ加算が実行されます。このため、ネットワークは参照されたこれらの変数カードを見つけられる必要があります。このため、変数ストアを作成して配置する必要があります。この2つの整数変数カードをストアに挿入して、ネットワークで利用可能にします。
+info_book.integrateddynamics.tutorials.logicOperations.text7,"Finally, you can now connect a cable to the &lVariable Store&r, attach a &lDisplay Panel&r, and insert the &lAddition&r &lVariable Card&r to display the addition.",最後に、ロジックプログラマーにケーブルを接続し、ディスプレイ パネルをアタッチして、加算変数カードを挿入すると、加算を表示できます。
+info_book.integrateddynamics.tutorials.logicOperations.text8,The &lLogic Programmer&r and &lVariable Stores&r are going to be your best friends when you want to do more complex automation.,ロジックプログラマーと変数ストアは、より複雑なオートメーションを実行したいときの最高の友人になります。
 info_book.integrateddynamics.tutorials.menrilBasics,Menril Basics,メンリルの基礎
 info_book.integrateddynamics.tutorials.menrilBasics.text1,"To get started with this mod, you will need to find some &lMenril Trees&r which can most easily be found in &lMeneglin Biomes&r.",このModを使い始めるには、&lメネグリンバイオーム&rで最も簡単に見つかる&lメンリルの木&rをいくつか見つける必要があります。
-info_book.integrateddynamics.tutorials.menrilBasics.text2,"After that, you’ll need to craft a &lSqueezer&r and &lDrying Basin&r for processing &lMenril Logs&r. This can be done by placing a block of wood in the &lSqueezer&r and jumping on it until it's flat. Once that has been done, the &lMenril Resin&r will try to go to the two sides of the &lSqueezer&r. Next, place a &lDrying Basin&r next to the &lSqueezer&r to make it fill up with the &lMenril Resin&r you just squeezed.","After that, you’ll need to craft &lSqueezer&r と &lDrying Basin&r fまたは processing &lMenril Logs&r. This can be done by placing ブロック of wood in &lSqueezer&r と jumping on it until it's flat. Once that has been done, &lMenril Resin&r will try to go to two sides of &lSqueezer&r. Next, place &lDrying Basin&r next to &lSqueezer&r to make it fill up with &lMenril Resin&r you just squeezed."
+info_book.integrateddynamics.tutorials.menrilBasics.text2,"After that, you’ll need to craft a &lSqueezer&r and &lDrying Basin&r for processing &lMenril Logs&r. This can be done by placing a block of wood in the &lSqueezer&r and jumping on it until it's flat. Once that has been done, the &lMenril Resin&r will try to go to the two sides of the &lSqueezer&r. Next, place a &lDrying Basin&r next to the &lSqueezer&r to make it fill up with the &lMenril Resin&r you just squeezed.",その後、メンリル ログを処理するためにスクイーザーと乾燥盆地を製作する必要があります。これは、木のブロックをスクイーザーに入れてフラットになるまでジャンプすることで実行できます。完了したら、メンリル樹脂はスクイーザーの2つの側面に移動しようとします。次に、乾燥盆地をスクイーザーの横に置いて、搾ったばかりのメンリル樹脂を満たすようにします。
 info_book.integrateddynamics.tutorials.menrilBasics.text3,"If you want to repeat the process, you can reset the &lSqueezer&r by applying a redstone pulse.",この処理を繰り返す場合は、レッドストーン信号を適用して&l圧搾器&rをリセットできます。
 info_book.integrateddynamics.tutorials.menrilBasics.text4,"In the future, you will also be able to craft upgraded variants of these machines that are more easily automatable, but are more costly: the &lMechanical Squeezer&r and the &lMechanical Drying Basin&r.",将来的には、これらのマシンのアップグレード版(自動化が容易だがコストが高いもの)も作成できるようになります。&l機械式圧搾器&rと&l機械式乾燥槽&r です。
 info_book.integrateddynamics.tutorials.nbt,NBT,NBTタグ
@@ -962,8 +960,8 @@ info_book.integrateddynamics.tutorials.recipe_handling.text4,"In this last part 
 info_book.integrateddynamics.tutorials.recipe_handling.text5,"Let's start by creating an &8Ingredients&0 instance with a single &8Chest&0 in your &lLogic Programmer&r. Next, read the &lRecipe By Output&r aspect from a &lMachine Reader&r that targets a &lCrafting Table&r. After that, use the &oApply&r operator to apply your &lChest&r &8Ingredient&0 to the operator you got from the &lMachine Reader&r. Finally, insert the resulting variable into a &lDisplay Panel&r to see the &lChest&r's recipe. (Don't forget to insert all your used variables into a &lVariable Store&r).",まず、&lロジックプログラマー&rで&8チェスト&0を1つだけ含む&8材料&0のインスタンスを作成します。次に、&l作業台&rを対象とする&lマシンリーダー&rから&l出力によるレシピ&rのアスペクトを読み取ります。その後、&o適用&r演算子を使用して、&lマシンリーダー&rから取得した演算子に&lチェスト&rの&8材料&0を適用します。最後に、結果の変数を&l表示パネル&rに挿入して、&lチェスト&rのレシピを確認します。(使用したすべての変数を &l変数ストア&rに挿入することを忘れないでください)
 info_book.integrateddynamics.tutorials.recipe_handling.text6,"Obviously, there is much more you can do with &8Recipes&0 and &8Ingredients&0. Have a look in the &lMachine Reader&r and &lLogic Programmer&r to find out what other advanced functionality is available to you.",明らかに、&8レシピ&0と&8材料&0でできることは他にもたくさんあります。&lマシンリーダー&rと&lロジックプログラマー&rを見て、他にどのような高度な機能が利用できるかを確認してください。
 info_book.integrateddynamics.tutorials.theValueOfOperators,The Value of Operators,演算子の値
-info_book.integrateddynamics.tutorials.theValueOfOperators.text1,"In &1Integrated Dynamics&0, &2Operators&0 are first-class citizens. Up until now, we have only used them manually using the &lLogic Programmer&r, but in this tutorial, we’ll look into how they can be used in a more dynamic way, by storing &2Operators&0 in &lVariable Cards&r, and invoking them dynamically.","In &1Integrated Dynamics&0, &2Operatまたはs&0 are first-class citizens. Up until now, we have only used them manuすべてy using &lLogic Programmer&r, but in this tutまたはial, we’ll look into how they can be used in mまたはe dynamic way, by stまたはing &2Operatまたはs&0 in &lVariable Cards&r, と invoking them dynamicすべてy."
-info_book.integrateddynamics.tutorials.theValueOfOperators.text2,"As a first step, go to the &lLogic Programmer&r, and create a new static &2Operator&0, by starting to type &oArithmetic Addition&r &2Operator&0 in the autocomplete dropdown-list and clicking it, and write it to a &lVariable Card&r. After that, create two &6Integer&0 variables. Next, find the &oApply&r operator, and apply the first &6Integer&0 to the &2Operator&0, which will &obind&r the first input argument of the addition &2Operator&0 to that &6Integer&0, and will output a new &2Operator&0 with one remaining input argument. Next, use the &oApply&r operator again to &obind&r the final input argument of the newly created &2Operator&0. Finally, use a &lDisplay Panel&r to visualize your dynamically invoked addition.",最初のステップとして、&l論理プログラマー&r に移動し、オートコンプリート ドロップダウン リストに &oArithmetic Addition&r &2Operator&0 と入力してクリックし、新しい静的な &2Operator&0 を作成して、&lVariable Card&r に書き込みます。その後、2 つの &6Integer&0 変数を作成します。次に、&oApply&r 演算子を見つけて、最初の &6Integer&0 を &2Operator&0 に適用します。これにより、加算 &2Operator&0 の最初の入力引数がその &6Integer&0 に &obind&r され、残りの 1 つの入力引数を持つ新しい &2Operator&0 が出力されます。次に、&oApply&r 演算子を再度使用して、新しく作成した &2Operator&0 の最後の入力引数を &obind&r します。最後に、&lDisplay Panel&r を使用して、動的に呼び出された加算を視覚化します。
+info_book.integrateddynamics.tutorials.theValueOfOperators.text1,"In &1Integrated Dynamics&0, &2Operators&0 are first-class citizens. Up until now, we have only used them manually using the &lLogic Programmer&r, but in this tutorial, we’ll look into how they can be used in a more dynamic way, by storing &2Operators&0 in &lVariable Cards&r, and invoking them dynamically.",統合ダイナミクスでは、オペレーターは第一級市民です。これまではロジックプログラマーを使用してのみ手動で使用してきましたが、このチュートリアルでは、オペレーターを変数カードに格納して動的に呼び出すことで、より動的な方法で使用する方法について説明します。
+info_book.integrateddynamics.tutorials.theValueOfOperators.text2,"As a first step, go to the &lLogic Programmer&r, and create a new static &2Operator&0, by starting to type &oArithmetic Addition&r &2Operator&0 in the autocomplete dropdown-list and clicking it, and write it to a &lVariable Card&r. After that, create two &6Integer&0 variables. Next, find the &oApply&r operator, and apply the first &6Integer&0 to the &2Operator&0, which will &obind&r the first input argument of the addition &2Operator&0 to that &6Integer&0, and will output a new &2Operator&0 with one remaining input argument. Next, use the &oApply&r operator again to &obind&r the final input argument of the newly created &2Operator&0. Finally, use a &lDisplay Panel&r to visualize your dynamically invoked addition.",最初のステップとして、&l論理プログラマー&r に移動し、オートコンプリート ドロップダウン リストに &oArithmetic Addition&r &2Operator&0 と入力してクリックし、新しい静的な &2Operator&0 を作成して、&lVariable カード&r に書き込みます。その後、2 つの &6整数&0 変数を作成します。次に、&oApply&r 演算子を見つけて、最初の &6整数&0 を &2Operator&0 に適用します。これにより、加算 &2Operator&0 の最初の入力引数がその &6整数&0 に &obind&r され、残りの 1 つの入力引数を持つ新しい &2Operator&0 が出力されます。次に、&oApply&r 演算子を再度使用して、新しく作成した &2Operator&0 の最後の入力引数を &obind&r します。最後に、&lDisplay Panel&r を使用して、動的に呼び出された加算を視覚化します。
 info_book.integrateddynamics.tutorials.theValueOfOperators.text3,"Next to applying &2Operators&0, there are a lot of other advanced &2Operator&0 operations. We’ll now look into using &2Operators&0 on &7Lists&0, more specifically the &oFilter&r &2Operator&0 that takes a &7List&0 and a &oPredicate&r (an &2Operator&0 with one input argument and a &9Boolean&0 output value). Start by creating a &7List&0 of the &6Integers&0 &61&0, &610&0 and &6100&0. Next, store the &oRelational Equals&r &2Operator&0 in a variable. Next, apply this operator on the &6Integer&0 &610&0. Next, use the &oFilter&r &2Operator&0 with your &7List&0 and the applied &2Operator&0. This will filter away all the items from the &7List&0 that return &9False&0 by applying them on the given operator, which in this case means that all elements that are not equal to &610&0 will be removed from the list. Visualize the result in a &lDisplay Panel&r.",&2演算子&0を適用する以外にも、高度な&2演算子&0操作はたくさんあります。次に、&7リスト&0での&2演算子&0の使用、具体的には &7リスト&0と&o述語&r(1つの入力引数と&9ブール&0出力値を持つ&2演算子&0)を受け取る&oフィルター&r&2演算子&0について説明します。まず、&6整数&0&61&0、&610&0、および &6100&0の&7リスト&0を作成します。次に、&o関係イコール&r&2演算子&0を変数に格納します。次に、この演算子を&6整数&0&610&0に適用します。次に、&7リスト&0と適用した&2演算子&0で&oフィルター&r&2演算子&0を使用します。これにより、指定された演算子を適用して、&9False&0を返す&7リスト&0のすべてのアイテムがフィルター処理されます。この場合、&610&0と等しくないすべての要素がリストから削除されます。結果を&l表示パネル&rで視覚化します。
 info_book.integrateddynamics.tutorials.theValueOfOperators.text4,"There are plenty of other operations on &2Operators&0, such as combining &oPredicates&r, flipping &2Operator&0 arguments, and more operations on &7Lists&0.",&2演算子&0には、&o述語&rの結合、&2演算子&0引数の反転、&7リスト&0に対するその他の操作など、他にも多数の操作があります。
 item.integrateddynamics.bucket_liquid_chorus,Liquid Chorus Bucket,液体コーラス入りバケツ
@@ -991,24 +989,24 @@ item.integrateddynamics.proto_chorus,Proto Chorus,原始のコーラス
 item.integrateddynamics.variable,Variable Card,変数カード
 item.integrateddynamics.variable.id,§e§oVariable ID: §r§o%s,§e§o変数ID: §r§o%s
 item.integrateddynamics.variable.info,Clear or copy in a crafting grid,クラフティンググリッドを消去またはコピー
-item.integrateddynamics.variable.warning,§4§lWARNING: Do NOT copy this item by middle-clicking!,§4§l警告: このアイテムを中クリックしてコピーしないでください！
+item.integrateddynamics.variable.warning,§4§lWARNING: Do NOT copy this item by middle-clicking!,警告: このアイテムを中クリックしてコピーしないでください！
 item.integrateddynamics.variable_transformer,Input/Output Variable Transformers,入出力変数変換器
 item.integrateddynamics.variable_transformer_input,Input Variable Transformer,入力変数変換器
 item.integrateddynamics.variable_transformer_output,Output Variable Transformer,出力変数変換器
 item.integrateddynamics.wrench,Wrench,レンチ
-item.integrateddynamics.wrench.info,Shift + Right-click in air to change mode,空中でShift+右クリックするとモードが変わります
+item.integrateddynamics.wrench.info,Shift + Right-click in air to change mode,空中でシフト+右クリックするとモードが変わります
 item.integrateddynamics.wrench.mode,§eMode: §r%s,§eモード: §r%s
 item.integrateddynamics.wrench.mode.default,Default,デフォルト
 item.integrateddynamics.wrench.mode.default.info,Remove parts or rotate blocks,パーツを削除したりブロックを回転したりします
 item.integrateddynamics.wrench.mode.offset,Save Offset,オフセットを保存
 item.integrateddynamics.wrench.mode.offset.fail,Could not set offset. Increase max offset using Enhancements!,オフセットを設定できませんでした。拡張機能を使用してオフセットを増やしてください！
 item.integrateddynamics.wrench.mode.offset.incomplete,No position was saved into this Wrench yet,このレンチにはまだ位置が保存されていません
-item.integrateddynamics.wrench.mode.offset.info,Shift + Right-click on a position and Right-click on part to link offset,Shiftキーを押しながら位置を右クリックし、オフセットをリンクするパーツを右クリックします
+item.integrateddynamics.wrench.mode.offset.info,Shift + Right-click on a position and Right-click on part to link offset,シフトキーを押しながら位置を右クリックし、オフセットをリンクするパーツを右クリックします
 item.integrateddynamics.wrench.mode.offset.pos,Position: %s,位置: %s
 item.integrateddynamics.wrench.mode.offset.saved,Position was saved in Wrench: %s,位置はレンチに保存されました: %s
 item.integrateddynamics.wrench.mode.offset.success,New offset position has been set in part,新しいオフセット位置がパーツに設定されました
 item.integrateddynamics.wrench.mode.offset_side,Save Offset and Side,オフセットと側面を保存
-item.integrateddynamics.wrench.mode.offset_side.info,Shift + Right-click on a position and Right-click on part to link offset and side,Shiftキーを押しながら位置を右クリックし、オフセットと側面をリンクするパーツを右クリックします
+item.integrateddynamics.wrench.mode.offset_side.info,Shift + Right-click on a position and Right-click on part to link offset and side,シフトキーを押しながら位置を右クリックし、オフセットと側面をリンクするパーツを右クリックします
 item.integrateddynamics.wrench.mode.offset_side.saved,Position and Side were saved in Wrench: %s - %s,位置と側面はレンチに保存されました: %s - %s
 item.integrateddynamics.wrench.mode.offset_side.side,Side: %s,側面: %s
 item.integrateddynamics.wrench.mode.offset_side.success,New offset position and side have been set in part,新しいオフセット位置と側面がパーツに設定されました
@@ -1046,11 +1044,11 @@ operator.integrateddynamics.binary.xor,Xor,排他的論理和
 operator.integrateddynamics.block,Block,ブロック
 operator.integrateddynamics.block.basename,Block %s,ブロック %s
 operator.integrateddynamics.block.blockbyname,Block By Name,名前によるブロック
-operator.integrateddynamics.block.blockbyname.info,Get the block corresponding to the given unique name.,Get ブロック cまたはresponding to given unique 名前.
+operator.integrateddynamics.block.blockbyname.info,Get the block corresponding to the given unique name.,取得 ブロック cまたはresponding to与えられたunique 名前.
 operator.integrateddynamics.block.blockfromproperties,Block Properties,ブロックのプロパティ
 operator.integrateddynamics.block.blockfromproperties.info,Get the given block applied with the given properties.,指定されたプロパティを適用した指定されたブロックを取得します。
 operator.integrateddynamics.block.blockpossibleproperties,Block Properties,ブロックのプロパティ
-operator.integrateddynamics.block.blockpossibleproperties.info,Get all possible block properties as an NBT compound tag with list values.,Get すべて possible ブロック properties as an NBT compound タグ with リスト values.
+operator.integrateddynamics.block.blockpossibleproperties.info,Get all possible block properties as an NBT compound tag with list values.,取得 すべて possible ブロック properties as an NBTコンパウンドタグでリスト values.
 operator.integrateddynamics.block.blockproperties,Block Properties,ブロックのプロパティ
 operator.integrateddynamics.block.blockproperties.info,Get the block properties as NBT compound tag.,ブロックのプロパティをNBT複合タグとして取得します。
 operator.integrateddynamics.block.breaksound,Block Break Sound,ブロック破壊音
@@ -1091,7 +1089,7 @@ operator.integrateddynamics.entity.basename,Entity %s,エンティティ %s
 operator.integrateddynamics.entity.canbreed,Entity Can Breed,エンティティは繁殖可能か
 operator.integrateddynamics.entity.canbreed.info,If the given entity is ready to be bred.,指定されたエンティティが繁殖する準備ができている場合。
 operator.integrateddynamics.entity.canbreedwith,Entity Can Breed With,エンティティはアイテムで繁殖可能か
-operator.integrateddynamics.entity.canbreedwith.info,If the given entity can be bred using the given item.,If given entity can be bred using given アイテム.
+operator.integrateddynamics.entity.canbreedwith.info,If the given entity can be bred using the given item.,If与えられたentity can be bred using与えられたアイテム.
 operator.integrateddynamics.entity.deathsound,Entity Death Sound,エンティティの死亡音
 operator.integrateddynamics.entity.deathsound.info,The death sound of the given entity.,指定されたエンティティの死亡音。
 operator.integrateddynamics.entity.entityenergycapacity,Entity Energy Capacity,エンティティのエネルギー容量
@@ -1115,7 +1113,7 @@ operator.integrateddynamics.entity.height.info,The entity height,エンティテ
 operator.integrateddynamics.entity.helditem,Held Item Mainhand,メインハンドに持っているアイテム
 operator.integrateddynamics.entity.helditem.info,The item the given entity is currently holding in its main hand.,指定されたエンティティが現在メインハンドに持っているアイテム。
 operator.integrateddynamics.entity.helditemoffhand,Held Item Offhand,オフハンドに持っているアイテム
-operator.integrateddynamics.entity.helditemoffhand.info,The item the given entity is currently holding in its off-hand.,The アイテム given entity is currently holding in its off-hと.
+operator.integrateddynamics.entity.helditemoffhand.info,The item the given entity is currently holding in its off-hand.,その アイテム与えられたentity is currently holding in its off-hと.
 operator.integrateddynamics.entity.hurtsound,Entity Hurt Sound,エンティティの傷音
 operator.integrateddynamics.entity.hurtsound.info,The hurt sound of the given entity.,指定されたエンティティの傷音。
 operator.integrateddynamics.entity.inventory,Player Inventory,プレイヤーインベントリ
@@ -1213,7 +1211,7 @@ operator.integrateddynamics.fluidstack.datavalue.info,Get the value of the given
 operator.integrateddynamics.fluidstack.density,Density,密度
 operator.integrateddynamics.fluidstack.density.info,The fluid density,流体密度
 operator.integrateddynamics.fluidstack.fluidbyname,Fluid By Name,液体 By 名前
-operator.integrateddynamics.fluidstack.fluidbyname.info,Get the fluid corresponding to the given unique name.,Get 液体 cまたはresponding to given unique 名前.
+operator.integrateddynamics.fluidstack.fluidbyname.info,Get the fluid corresponding to the given unique name.,Get 液体 cまたはresponding to与えられたunique 名前.
 operator.integrateddynamics.fluidstack.israwfluidequal,Raw fluid equals,Raw 液体 equals
 operator.integrateddynamics.fluidstack.israwfluidequal.info,If the raw fluids are equal,生の流体が等しい場合
 operator.integrateddynamics.fluidstack.light_level,Light level,明るさレベル
@@ -1221,7 +1219,7 @@ operator.integrateddynamics.fluidstack.light_level.info,The light level emitted 
 operator.integrateddynamics.fluidstack.lighter_than_air,Is Lighter Than Air,空気より軽いか
 operator.integrateddynamics.fluidstack.lighter_than_air.info,If the fluid is lighter than air,流体が空気より軽い場合
 operator.integrateddynamics.fluidstack.mod,Mod,モッド
-operator.integrateddynamics.fluidstack.mod.info,The name of the mod owning the given fluid,The 名前 of mod owning given 液体
+operator.integrateddynamics.fluidstack.mod.info,The name of the mod owning the given fluid,The 名前 of mod owning与えられた液体
 operator.integrateddynamics.fluidstack.nbt,Fluid NBT,流体NBT
 operator.integrateddynamics.fluidstack.nbt.info,Get the data of the given fluid as NBT.,指定された流体のデータをNBTとして取得します。
 operator.integrateddynamics.fluidstack.rarity,Rarity,レア度
@@ -1233,19 +1231,19 @@ operator.integrateddynamics.fluidstack.sound_bucket_fill.info,The bucket fill so
 operator.integrateddynamics.fluidstack.sound_fluid_vaporize,Fluid vaporize sound,流体蒸発音
 operator.integrateddynamics.fluidstack.sound_fluid_vaporize.info,The fluid vaporize sound for the fluid,流体の蒸発音
 operator.integrateddynamics.fluidstack.tag,Fluid Tag Names,流体タグ名
-operator.integrateddynamics.fluidstack.tag.info,The Tag names (strings) of the given fluid,The タグ names (strings) of given 液体
+operator.integrateddynamics.fluidstack.tag.info,The Tag names (strings) of the given fluid,その タグ names (strings) of与えられた液体
 operator.integrateddynamics.fluidstack.temperature,Temperature,温度
 operator.integrateddynamics.fluidstack.temperature.info,The fluid temperature,流体温度
 operator.integrateddynamics.fluidstack.viscosity,Viscosity,粘度
 operator.integrateddynamics.fluidstack.viscosity.info,The fluid viscosity,流体粘度
-operator.integrateddynamics.fluidstack.with_amount,Fluid With Amount,液体 With Amount
-operator.integrateddynamics.fluidstack.with_amount.info,Copy the given fluid with the given amount,Copy given 液体 with given 量
+operator.integrateddynamics.fluidstack.with_amount,Fluid With Amount,液体 と量
+operator.integrateddynamics.fluidstack.with_amount.info,Copy the given fluid with the given amount,Copy与えられた液体 with与えられた量
 operator.integrateddynamics.fluidstack.withdata,With Data,データ付き
 operator.integrateddynamics.fluidstack.withdata.info,Add the given data component key and value to the given fluid stack.,指定されたデータコンポーネントのキーと値を指定された流体スタックに追加します。
 operator.integrateddynamics.general,General,一般
 operator.integrateddynamics.general.basename,General %s,一般 %s
 operator.integrateddynamics.general.choice,Choice,選択
-operator.integrateddynamics.general.choice.info,"If the first value is true, the second value is taken, otherwise the third value.\nType two and three must be equal.",最初の値がtrueの場合は2番目の値が使用され、そうでない場合は3番目の値が使用されます。\n型2と型3は等しくなければなりません。
+operator.integrateddynamics.general.choice.info,"If the first value is true, the second value is taken, otherwise the third value.\nType two and three must be equal.",最初の値が真の場合は2番目の値が使用され、そうでない場合は3番目の値が使用されます。\n型2と型3は等しくなければなりません。
 operator.integrateddynamics.general.constant,Constant,定数
 operator.integrateddynamics.general.constant.info,A copy of the first input value.,最初の入力値のコピーです。
 operator.integrateddynamics.general.identity,Identity,アイデンティティ
@@ -1302,7 +1300,7 @@ operator.integrateddynamics.itemstack.enchantable.info,If the item can be enchan
 operator.integrateddynamics.itemstack.enchanted,Enchanted,エンチャント済み
 operator.integrateddynamics.itemstack.enchanted.info,If the item is enchanted,アイテムがエンチャント済みの場合
 operator.integrateddynamics.itemstack.fecapacity,FE Capacity,FEキャパシティ
-operator.integrateddynamics.itemstack.fecapacity.info,The maximum amount of FE that can be stored in this item,The maximum 量 of FE that can be stまたはed in this アイテム
+operator.integrateddynamics.itemstack.fecapacity.info,The maximum amount of FE that can be stored in this item,このアイテムに保存できる FE の最大量
 operator.integrateddynamics.itemstack.fluidstack,Fluid,流体
 operator.integrateddynamics.itemstack.fluidstack.info,The fluid from the given item,指定したアイテムからの流体
 operator.integrateddynamics.itemstack.fluidstackcapacity,Fluid Capacity,流体容量
@@ -1316,17 +1314,17 @@ operator.integrateddynamics.itemstack.inventory.info,Retrieve the inventory of t
 operator.integrateddynamics.itemstack.inventorysize,Item Inventory Size,アイテムインベントリサイズ
 operator.integrateddynamics.itemstack.inventorysize.info,Retrieve the inventory size of the given item handler contents,指定されたアイテムハンドラのコンテンツのインベントリサイズを取得
 operator.integrateddynamics.itemstack.isfecontainer,Is FE Container,FEコンテナ判定
-operator.integrateddynamics.itemstack.isfecontainer.info,If the given item can hold FE,If given アイテム can hold FE
+operator.integrateddynamics.itemstack.isfecontainer.info,If the given item can hold FE,If与えられたアイテム can hold FE
 operator.integrateddynamics.itemstack.isfluidstack,Has Fluid,流体があるか
 operator.integrateddynamics.itemstack.isfluidstack.info,If the given item has a fluid,指定されたアイテムに流体が含まれている場合
-operator.integrateddynamics.itemstack.isitemequalnonbt,Raw item equals no NBT,Raw アイテム equals no NBT
-operator.integrateddynamics.itemstack.isitemequalnonbt.info,"If the raw items of the given stacks are equal, ignoring data components but including damage values.","If raw items of given stacks are equal, ignまたはing datcomponents but including damage values."
+operator.integrateddynamics.itemstack.isitemequalnonbt,Raw item equals no NBT,生 アイテム equals no NBT
+operator.integrateddynamics.itemstack.isitemequalnonbt.info,"If the raw items of the given stacks are equal, ignoring data components but including damage values.","If raw items of与えられたstacks are equal, ignまたはing datcomponents but including damage values."
 operator.integrateddynamics.itemstack.isnbtequal,NBT equals,NBTが等しい
 operator.integrateddynamics.itemstack.isnbtequal.info,If the data components of the given items are equal,指定されたアイテムのデータコンポーネント要素が等しい場合
-operator.integrateddynamics.itemstack.israwitemequal,Raw item equals,Raw アイテム equals
-operator.integrateddynamics.itemstack.israwitemequal.info,"If the raw items of the given items are equal, ignoring NBT and damage values.","If raw items of given items are equal, ignまたはing NBT と damage values."
+operator.integrateddynamics.itemstack.israwitemequal,Raw item equals,生 アイテム equals
+operator.integrateddynamics.itemstack.israwitemequal.info,"If the raw items of the given items are equal, ignoring NBT and damage values.","If raw items of与えられたitems are equal, ignまたはing NBT と damage values."
 operator.integrateddynamics.itemstack.itembyname,Item By Name,名前によるアイテム
-operator.integrateddynamics.itemstack.itembyname.info,Get the item corresponding to the given unique name.,Get アイテム cまたはresponding to given unique 名前.
+operator.integrateddynamics.itemstack.itembyname.info,Get the item corresponding to the given unique name.,取得 アイテム cまたはresponding to与えられたunique 名前.
 operator.integrateddynamics.itemstack.itemlistcount,Item List Count,アイテムリストカウント
 operator.integrateddynamics.itemstack.itemlistcount.info,Get the total item count of exactly the given item in a list.,リスト内の指定されたアイテムの合計アイテム数を取得します。
 operator.integrateddynamics.itemstack.maxdamage,Max Damage,最大ダメージ
@@ -1343,13 +1341,13 @@ operator.integrateddynamics.itemstack.repaircost,Repair Cost,修復コスト
 operator.integrateddynamics.itemstack.repaircost.info,The repair cost of the item,アイテムの修復コスト
 operator.integrateddynamics.itemstack.size,Size,サイズ
 operator.integrateddynamics.itemstack.size.info,The current stack size,現在のスタックサイズ
-operator.integrateddynamics.itemstack.stackable,Stackable,スタック可能
+operator.integrateddynamics.itemstack.stackable,Stackable,積み重ね可能
 operator.integrateddynamics.itemstack.stackable.info,If the item stack can hold at least two items.,アイテムスタックが少なくとも2つのアイテムを保持できる場合。
-operator.integrateddynamics.itemstack.storedfe,FE Stored,FE Stまたはed
-operator.integrateddynamics.itemstack.storedfe.info,The amount of FE stored in this item,The 量 of FE stまたはed in this アイテム
+operator.integrateddynamics.itemstack.storedfe,FE Stored,保存済み FE
+operator.integrateddynamics.itemstack.storedfe.info,The amount of FE stored in this item,このアイテムに保存されたFE の量
 operator.integrateddynamics.itemstack.strength,Strength vs Block,強度対ブロック
 operator.integrateddynamics.itemstack.strength.info,The strength this item has against the given block,このアイテムが指定されたブロックに対して持つ強度
-operator.integrateddynamics.itemstack.tag,Item Tag Names,アイテム タグ Names
+operator.integrateddynamics.itemstack.tag,Item Tag Names,アイテムタグ Names
 operator.integrateddynamics.itemstack.tag.info,The Tag names (strings) of the given item,指定されたアイテムのタグ名(文字列)
 operator.integrateddynamics.itemstack.tooltip,Tooltip,ツールチップ
 operator.integrateddynamics.itemstack.tooltip.info,Get the tooltip of the given item as a list of strings.,指定されたアイテムのツールチップを文字列のリストとして取得します。
@@ -1373,13 +1371,13 @@ operator.integrateddynamics.list.count_p,Count Predicate,述語回数
 operator.integrateddynamics.list.count_p.info,The number of times the given predicate returns true for the elements in the list.,リスト内の要素に対して、指定された述語がtrueを返す回数。
 operator.integrateddynamics.list.empty,Empty,空
 operator.integrateddynamics.list.empty.info,If the list is empty,リストが空の場合
-operator.integrateddynamics.list.equals_multiset,List Equals (Multiset),リスト等値（マルチセット）
-operator.integrateddynamics.list.equals_multiset.info,Check if two lists are equal according to multiset semantics.,Check 場合はtwo リストs are equal accまたはding to multi設定semantics.
-operator.integrateddynamics.list.equals_set,List Equals (Set),リスト等値（セット）
-operator.integrateddynamics.list.equals_set.info,Check if two lists are equal according to set semantics.,Check 場合はtwo リストs are equal accまたはding to 設定semantics.
+operator.integrateddynamics.list.equals_multiset,List Equals (Multiset),リスト等値(マルチセット)
+operator.integrateddynamics.list.equals_multiset.info,Check if two lists are equal according to multiset semantics.,チェック 場合はtwo リストs are equal accまたはding to multi設定semantics.
+operator.integrateddynamics.list.equals_set,List Equals (Set),リスト等値(セット)
+operator.integrateddynamics.list.equals_set.info,Check if two lists are equal according to set semantics.,チェック 場合はtwo リストs are equal accまたはding to 設定semantics.
 operator.integrateddynamics.list.get,Get,取得
 operator.integrateddynamics.list.get.info,"Get the list element at the given position, throws an error if the index is out of bounds.",指定された位置にあるリスト要素を取得します。インデックスが範囲外の場合はエラーがスローされます。
-operator.integrateddynamics.list.get_or_default,Get Or Default,取得（デフォルト値付き）
+operator.integrateddynamics.list.get_or_default,Get Or Default,取得(デフォルト値付き)
 operator.integrateddynamics.list.get_or_default.info,"Safely get the list element at the given position, if that element is not available, return the given default value.",指定された位置にあるリスト要素を安全に取得し、その要素が利用できない場合は、指定されたデフォルト値を返します。
 operator.integrateddynamics.list.head,Head,ヘッド
 operator.integrateddynamics.list.head.info,Get the first element of the given list.,指定されたリストの最初の要素を取得します。
@@ -1408,124 +1406,124 @@ operator.integrateddynamics.logical.not,Not,ではない
 operator.integrateddynamics.logical.or,Or,または
 operator.integrateddynamics.nbt,NBT,NBTタグ
 operator.integrateddynamics.nbt.as_boolean,NBT Boolean As Boolean,NBTブール → ブール
-operator.integrateddynamics.nbt.as_boolean.info,Get the Boolean value of the given NBT Byte tag,Get Boolean value of given NBT Byte タグ
+operator.integrateddynamics.nbt.as_boolean.info,Get the Boolean value of the given NBT Byte tag,取得 真偽値値of与えられたNBTバイトタグ
 operator.integrateddynamics.nbt.as_byte,NBT Byte As Integer,NBTバイト → 整数
-operator.integrateddynamics.nbt.as_byte.info,Get the Integer value of the given NBT Byte tag,Get Integer value of given NBT Byte タグ
-operator.integrateddynamics.nbt.as_byte_list,NBT Byte Array As Byte List,NBTバイト配列 → バイトリスト
-operator.integrateddynamics.nbt.as_byte_list.info,Get the Byte List value of the given NBT Byte Array tag,Get Byte List value of given NBT Byte Array タグ
+operator.integrateddynamics.nbt.as_byte.info,Get the Integer value of the given NBT Byte tag,取得 整数値of与えられたNBTバイトタグ
+operator.integrateddynamics.nbt.as_byte_list,NBT Byte Array As Byte List,NBTバイト配列→ バイトリスト
+operator.integrateddynamics.nbt.as_byte_list.info,Get the Byte List value of the given NBT Byte Array tag,取得 バイト List値of与えられたNBTバイト 配列タグ
 operator.integrateddynamics.nbt.as_double,NBT Double As Double,NBTダブル → ダブル
-operator.integrateddynamics.nbt.as_double.info,Get the Double value of the given NBT Double tag,Get Double value of given NBT Double タグ
+operator.integrateddynamics.nbt.as_double.info,Get the Double value of the given NBT Double tag,取得 二倍値of与えられたNBT 二倍 タグ
 operator.integrateddynamics.nbt.as_float,NBT Float As Double,NBTフロート → ダブル
-operator.integrateddynamics.nbt.as_float.info,Get the Double value of the given NBT Float tag,Get Double value of given NBT Float タグ
+operator.integrateddynamics.nbt.as_float.info,Get the Double value of the given NBT Float tag,取得 二倍値of与えられたNBT Float タグ
 operator.integrateddynamics.nbt.as_int,NBT Integer As Integer,NBT整数 → 整数
-operator.integrateddynamics.nbt.as_int.info,Get the Integer value of the given NBT Integer tag,Get Integer value of given NBT Integer タグ
-operator.integrateddynamics.nbt.as_int_list,NBT Integer Array As Integer List,NBT整数配列 → 整数リスト
-operator.integrateddynamics.nbt.as_int_list.info,Get the Integer List value of the given NBT Integer Array tag,Get Integer List value of given NBT Integer Array タグ
+operator.integrateddynamics.nbt.as_int.info,Get the Integer value of the given NBT Integer tag,取得 整数値of与えられたNBT 整数 タグ
+operator.integrateddynamics.nbt.as_int_list,NBT Integer Array As Integer List,NBT整数配列→ 整数リスト
+operator.integrateddynamics.nbt.as_int_list.info,Get the Integer List value of the given NBT Integer Array tag,取得 整数 List値of与えられたNBT 整数 配列タグ
 operator.integrateddynamics.nbt.as_long,NBT Long As Long,NBTロング → ロング
-operator.integrateddynamics.nbt.as_long.info,Get the Long value of the given NBT Long tag,Get Long value of given NBT Long タグ
-operator.integrateddynamics.nbt.as_long_list,NBT Long Array As Long List,NBTロング配列 → ロングリスト
-operator.integrateddynamics.nbt.as_long_list.info,Get the Long List value of the given NBT Long Array tag,Get Long List value of given NBT Long Array タグ
-operator.integrateddynamics.nbt.as_short,NBT Short as Integer,NBT Shまたはt as Integer
-operator.integrateddynamics.nbt.as_short.info,Get the Integer value of the given NBT Short tag,Get Integer value of given NBT Shまたはt タグ
+operator.integrateddynamics.nbt.as_long.info,Get the Long value of the given NBT Long tag,取得 長整数値of与えられたNBT 長整数 タグ
+operator.integrateddynamics.nbt.as_long_list,NBT Long Array As Long List,NBTロング配列→ ロングリスト
+operator.integrateddynamics.nbt.as_long_list.info,Get the Long List value of the given NBT Long Array tag,取得 長整数 List値of与えられたNBT 長整数 配列タグ
+operator.integrateddynamics.nbt.as_short,NBT Short as Integer,NBT Shまたはt as 整数
+operator.integrateddynamics.nbt.as_short.info,Get the Integer value of the given NBT Short tag,取得 整数値of与えられたNBT Shまたはt タグ
 operator.integrateddynamics.nbt.as_string,NBT String As String,NBT文字列 → 文字列
-operator.integrateddynamics.nbt.as_string.info,Get the String value of the given NBT String tag,Get String value of given NBT String タグ
+operator.integrateddynamics.nbt.as_string.info,Get the String value of the given NBT String tag,取得 文字列値of与えられたNBT 文字列 タグ
 operator.integrateddynamics.nbt.as_tag_list,NBT List As NBT List,NBTリスト → NBTリスト
-operator.integrateddynamics.nbt.as_tag_list.info,Get the NBT List value of the given NBT List tag,Get NBT List value of given NBT List タグ
+operator.integrateddynamics.nbt.as_tag_list.info,Get the NBT List value of the given NBT List tag,取得 NBTリスト値of与えられたNBTリストタグ
 operator.integrateddynamics.nbt.basename,NBT %s,
 operator.integrateddynamics.nbt.compound_haskey,NBT Compound Has Key,NBTコンパウンドがキーを持つ
-operator.integrateddynamics.nbt.compound_haskey.info,If the given NBT compound tag contains the given key,If given NBT compound タグ contains given key
+operator.integrateddynamics.nbt.compound_haskey.info,If the given NBT compound tag contains the given key,If与えられたNBTコンパウンドタグ contains与えられたkey
 operator.integrateddynamics.nbt.compound_intersection,NBT Compound Intersection,NBTコンパウンド交差
 operator.integrateddynamics.nbt.compound_intersection.info,The intersection of the given NBT compound tags. Nested tags will be intersected recursively.,指定されたNBT複合タグの交差部分。ネストされたタグは再帰的に交差します。
 operator.integrateddynamics.nbt.compound_keys,NBT Compound Keys,NBTコンパウンドキー
-operator.integrateddynamics.nbt.compound_keys.info,The list of keys inside the given NBT compound tag,The リスト of keys inside given NBT compound タグ
+operator.integrateddynamics.nbt.compound_keys.info,The list of keys inside the given NBT compound tag,そのリスト of keys inside与えられたNBTコンパウンドタグ
 operator.integrateddynamics.nbt.compound_minus,NBT Compound Minus,NBTコンパウンド差分
 operator.integrateddynamics.nbt.compound_minus.info,The difference of the given NBT compound tags. Nested tags will be subtracted recursively.,指定されたNBT複合タグの差。ネストされたタグは再帰的に減算されます。
 operator.integrateddynamics.nbt.compound_size,NBT Compound Size,NBT複合サイズ
 operator.integrateddynamics.nbt.compound_size.info,The number of entries inside the given NBT compound tag,指定されたNBT複合タグ内のエントリの数
 operator.integrateddynamics.nbt.compound_subset,NBT Compound Subset,NBTコンパウンド部分集合
-operator.integrateddynamics.nbt.compound_subset.info,"If the first NBT compound tag is a subset of, or equal to the second NBT compound tag. This will recursively check nested tags.","If first NBT compound タグ is sub設定of, または equal to second NBT compound タグ. This will recursively チェック nested tags."
+operator.integrateddynamics.nbt.compound_subset.info,"If the first NBT compound tag is a subset of, or equal to the second NBT compound tag. This will recursively check nested tags.","If first NBTコンパウンドタグ is sub設定of, または equal to second NBTコンパウンドタグ. This will recursively チェック nested tags."
 operator.integrateddynamics.nbt.compound_type,NBT Compound Entry Type,NBT Compound Entry タイプ
-operator.integrateddynamics.nbt.compound_type.info,The value type in the given NBT compound tag corresponding to the given key,The value タイプ in given NBT compound タグ cまたはresponding to given key
+operator.integrateddynamics.nbt.compound_type.info,The value type in the given NBT compound tag corresponding to the given key,その値タイプ in与えられたNBTコンパウンドタグ cまたはresponding to与えられたkey
 operator.integrateddynamics.nbt.compound_union,NBT Compound Union,NBTコンパウンド和集合
 operator.integrateddynamics.nbt.compound_union.info,The union of the given NBT compound tags. Nested tags will be joined recursively.,指定されたNBT複合タグの和集合。ネストされたタグは再帰的に結合されます。
-operator.integrateddynamics.nbt.compound_value_boolean,NBT Compound Value Boolean,NBTコンパウンド値（ブール）
-operator.integrateddynamics.nbt.compound_value_boolean.info,The Boolean value in the given NBT compound tag with the given key,The Boolean value in given NBT compound タグ with given key
-operator.integrateddynamics.nbt.compound_value_compound,NBT Compound Value Compound,NBTコンパウンド値（コンパウンド）
-operator.integrateddynamics.nbt.compound_value_compound.info,The Compound value in the given NBT compound tag with the given key,The Compound value in given NBT compound タグ with given key
-operator.integrateddynamics.nbt.compound_value_double,NBT Compound Value Double,NBTコンパウンド値（ダブル）
-operator.integrateddynamics.nbt.compound_value_double.info,The Double value in the given NBT compound tag with the given key,The Double value in given NBT compound タグ with given key
-operator.integrateddynamics.nbt.compound_value_integer,NBT Compound Value Integer,NBTコンパウンド値（整数）
-operator.integrateddynamics.nbt.compound_value_integer.info,The Integer value in the given NBT compound tag with the given key,The Integer value in given NBT compound タグ with given key
-operator.integrateddynamics.nbt.compound_value_list_byte,NBT Compound Value Byte Array,NBTコンパウンド値（バイト配列）
-operator.integrateddynamics.nbt.compound_value_list_byte.info,The Byte Array in the given NBT compound tag with the given key as Integer List,The Byte Array in given NBT compound タグ with given key as Integer List
-operator.integrateddynamics.nbt.compound_value_list_int,NBT Compound Value Integer Array,NBTコンパウンド値（整数配列）
-operator.integrateddynamics.nbt.compound_value_list_int.info,The Integer Array in the given NBT compound tag with the given key as Integer List,The Integer Array in given NBT compound タグ with given key as Integer List
-operator.integrateddynamics.nbt.compound_value_list_long,NBT Compound Value Long Array,NBTコンパウンド値（ロング配列）
-operator.integrateddynamics.nbt.compound_value_list_long.info,The Long Array in the given NBT compound tag with the given key as Long List,The Long Array in given NBT compound タグ with given key as Long List
-operator.integrateddynamics.nbt.compound_value_list_tag,NBT Compound Value List NBT,NBTコンパウンド値（NBTリスト）
-operator.integrateddynamics.nbt.compound_value_list_tag.info,The NBT List value in the given NBT compound tag with the given key,The NBT List value in given NBT compound タグ with given key
-operator.integrateddynamics.nbt.compound_value_long,NBT Compound Value Long,NBTコンパウンド値（ロング）
-operator.integrateddynamics.nbt.compound_value_long.info,The Long value in the given NBT compound tag with the given key,The Long value in given NBT compound タグ with given key
-operator.integrateddynamics.nbt.compound_value_string,NBT Compound Value String,NBTコンパウンド値（文字列）
-operator.integrateddynamics.nbt.compound_value_string.info,The String value in the given NBT compound tag with the given key,The String value in given NBT compound タグ with given key
+operator.integrateddynamics.nbt.compound_value_boolean,NBT Compound Value Boolean,NBTコンパウンド値(ブール)
+operator.integrateddynamics.nbt.compound_value_boolean.info,The Boolean value in the given NBT compound tag with the given key,その 真偽値値in与えられたNBTコンパウンドタグ with与えられたkey
+operator.integrateddynamics.nbt.compound_value_compound,NBT Compound Value Compound,NBTコンパウンド値(コンパウンド)
+operator.integrateddynamics.nbt.compound_value_compound.info,The Compound value in the given NBT compound tag with the given key,その Compound値in与えられたNBTコンパウンドタグ with与えられたkey
+operator.integrateddynamics.nbt.compound_value_double,NBT Compound Value Double,NBTコンパウンド値(ダブル)
+operator.integrateddynamics.nbt.compound_value_double.info,The Double value in the given NBT compound tag with the given key,その 二倍値in与えられたNBTコンパウンドタグ with与えられたkey
+operator.integrateddynamics.nbt.compound_value_integer,NBT Compound Value Integer,NBTコンパウンド値(整数)
+operator.integrateddynamics.nbt.compound_value_integer.info,The Integer value in the given NBT compound tag with the given key,その 整数値in与えられたNBTコンパウンドタグ with与えられたkey
+operator.integrateddynamics.nbt.compound_value_list_byte,NBT Compound Value Byte Array,NBTコンパウンド値(バイト配列)
+operator.integrateddynamics.nbt.compound_value_list_byte.info,The Byte Array in the given NBT compound tag with the given key as Integer List,その バイト 配列in与えられたNBTコンパウンドタグ with与えられたkey as 整数 List
+operator.integrateddynamics.nbt.compound_value_list_int,NBT Compound Value Integer Array,NBTコンパウンド値(整数配列)
+operator.integrateddynamics.nbt.compound_value_list_int.info,The Integer Array in the given NBT compound tag with the given key as Integer List,その 整数 配列in与えられたNBTコンパウンドタグ with与えられたkey as 整数 List
+operator.integrateddynamics.nbt.compound_value_list_long,NBT Compound Value Long Array,NBTコンパウンド値(ロング配列)
+operator.integrateddynamics.nbt.compound_value_list_long.info,The Long Array in the given NBT compound tag with the given key as Long List,その 長整数 配列in与えられたNBTコンパウンドタグ with与えられたkey as 長整数 List
+operator.integrateddynamics.nbt.compound_value_list_tag,NBT Compound Value List NBT,NBTコンパウンド値(NBTリスト)
+operator.integrateddynamics.nbt.compound_value_list_tag.info,The NBT List value in the given NBT compound tag with the given key,その NBTリスト値in与えられたNBTコンパウンドタグ with与えられたkey
+operator.integrateddynamics.nbt.compound_value_long,NBT Compound Value Long,NBTコンパウンド値(ロング)
+operator.integrateddynamics.nbt.compound_value_long.info,The Long value in the given NBT compound tag with the given key,その 長整数値in与えられたNBTコンパウンドタグ with与えられたkey
+operator.integrateddynamics.nbt.compound_value_string,NBT Compound Value String,NBTコンパウンド値(文字列)
+operator.integrateddynamics.nbt.compound_value_string.info,The String value in the given NBT compound tag with the given key,その 文字列値in与えられたNBTコンパウンドタグ with与えられたkey
 operator.integrateddynamics.nbt.compound_value_tag,NBT Compound Value,NBTコンパウンド値
-operator.integrateddynamics.nbt.compound_value_tag.info,The value of any type in the given NBT compound tag with the given key,The value of 任意 タイプ in given NBT compound タグ with given key
-operator.integrateddynamics.nbt.compound_with_boolean,NBT Compound With Boolean,NBTコンパウンド（ブール付き）
-operator.integrateddynamics.nbt.compound_with_boolean.info,Get a copy of the given NBT compound tag with the given Boolean entry,Get copy of given NBT compound タグ with given Boolean entry
-operator.integrateddynamics.nbt.compound_with_double,NBT Compound With Double,NBTコンパウンド（ダブル付き）
-operator.integrateddynamics.nbt.compound_with_double.info,Get a copy of the given NBT compound tag with the given Double entry,Get copy of given NBT compound タグ with given Double entry
-operator.integrateddynamics.nbt.compound_with_float,NBT Compound With Float,NBTコンパウンド（フロート付き）
-operator.integrateddynamics.nbt.compound_with_float.info,Get a copy of the given NBT compound tag with the given Double as a float entry,Get copy of given NBT compound タグ with given Double as float entry
-operator.integrateddynamics.nbt.compound_with_integer,NBT Compound With Integer,NBTコンパウンド（整数付き）
-operator.integrateddynamics.nbt.compound_with_integer.info,Get a copy of the given NBT compound tag with the given Integer entry,Get copy of given NBT compound タグ with given Integer entry
-operator.integrateddynamics.nbt.compound_with_list_byte,NBT Compound With Byte List,NBTコンパウンド（バイトリスト付き）
-operator.integrateddynamics.nbt.compound_with_list_byte.info,Get a copy of the given NBT compound tag with the given Integer List as an NBT Byte Array entry,Get copy of given NBT compound タグ with given Integer List as an NBT Byte Array entry
-operator.integrateddynamics.nbt.compound_with_list_int,NBT Compound With Int List,NBTコンパウンド（整数リスト付き）
-operator.integrateddynamics.nbt.compound_with_list_int.info,Get a copy of the given NBT compound tag with the given NBT Integer Array entry,Get copy of given NBT compound タグ with given NBT Integer Array entry
-operator.integrateddynamics.nbt.compound_with_list_long,NBT Compound With Long List,NBTコンパウンド（ロングリスト付き）
-operator.integrateddynamics.nbt.compound_with_list_long.info,Get a copy of the given NBT compound tag with the given NBT Long Array entry,Get copy of given NBT compound タグ with given NBT Long Array entry
-operator.integrateddynamics.nbt.compound_with_list_tag,NBT Compound With NBT List,NBTコンパウンド（NBTリスト付き）
-operator.integrateddynamics.nbt.compound_with_list_tag.info,Get a copy of the given NBT compound tag with the given NBT List entry,Get copy of given NBT compound タグ with given NBT List entry
-operator.integrateddynamics.nbt.compound_with_long,NBT Compound With Long,NBTコンパウンド（ロング付き）
-operator.integrateddynamics.nbt.compound_with_long.info,Get a copy of the given NBT compound tag with the given Long entry,Get copy of given NBT compound タグ with given Long entry
+operator.integrateddynamics.nbt.compound_value_tag.info,The value of any type in the given NBT compound tag with the given key,その値of 任意タイプ in与えられたNBTコンパウンドタグ with与えられたkey
+operator.integrateddynamics.nbt.compound_with_boolean,NBT Compound With Boolean,NBTコンパウンド(ブール付き)
+operator.integrateddynamics.nbt.compound_with_boolean.info,Get a copy of the given NBT compound tag with the given Boolean entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられたBoolean entry
+operator.integrateddynamics.nbt.compound_with_double,NBT Compound With Double,NBTコンパウンド(ダブル付き)
+operator.integrateddynamics.nbt.compound_with_double.info,Get a copy of the given NBT compound tag with the given Double entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられたDouble entry
+operator.integrateddynamics.nbt.compound_with_float,NBT Compound With Float,NBTコンパウンド(フロート付き)
+operator.integrateddynamics.nbt.compound_with_float.info,Get a copy of the given NBT compound tag with the given Double as a float entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられたDouble as float entry
+operator.integrateddynamics.nbt.compound_with_integer,NBT Compound With Integer,NBTコンパウンド(整数付き)
+operator.integrateddynamics.nbt.compound_with_integer.info,Get a copy of the given NBT compound tag with the given Integer entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられた整数 entry
+operator.integrateddynamics.nbt.compound_with_list_byte,NBT Compound With Byte List,NBTコンパウンド(バイトリスト付き)
+operator.integrateddynamics.nbt.compound_with_list_byte.info,Get a copy of the given NBT compound tag with the given Integer List as an NBT Byte Array entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられた整数リストas an NBT Byte 配列 entry
+operator.integrateddynamics.nbt.compound_with_list_int,NBT Compound With Int List,NBTコンパウンド(整数リスト付き)
+operator.integrateddynamics.nbt.compound_with_list_int.info,Get a copy of the given NBT compound tag with the given NBT Integer Array entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられたNBT 整数 配列 entry
+operator.integrateddynamics.nbt.compound_with_list_long,NBT Compound With Long List,NBTコンパウンド(ロングリスト付き)
+operator.integrateddynamics.nbt.compound_with_list_long.info,Get a copy of the given NBT compound tag with the given NBT Long Array entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられたNBT Long 配列 entry
+operator.integrateddynamics.nbt.compound_with_list_tag,NBT Compound With NBT List,NBTコンパウンド(NBTリスト付き)
+operator.integrateddynamics.nbt.compound_with_list_tag.info,Get a copy of the given NBT compound tag with the given NBT List entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられたNBTリスト entry
+operator.integrateddynamics.nbt.compound_with_long,NBT Compound With Long,NBTコンパウンド(ロング付き)
+operator.integrateddynamics.nbt.compound_with_long.info,Get a copy of the given NBT compound tag with the given Long entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられたLong entry
 operator.integrateddynamics.nbt.compound_with_short,NBT Compound With Short,NBT Compound With Shまたはt
-operator.integrateddynamics.nbt.compound_with_short.info,Get a copy of the given NBT compound tag with the given Integer as a short entry,Get copy of given NBT compound タグ with given Integer as shまたはt entry
-operator.integrateddynamics.nbt.compound_with_string,NBT Compound With String,NBTコンパウンド（文字列付き）
-operator.integrateddynamics.nbt.compound_with_string.info,Get a copy of the given NBT compound tag with the given String entry,Get copy of given NBT compound タグ with given String entry
-operator.integrateddynamics.nbt.compound_with_tag,NBT Compound With NBT,NBTコンパウンド（NBT付き）
-operator.integrateddynamics.nbt.compound_with_tag.info,Get a copy of the given NBT compound tag with the given NBT entry,Get copy of given NBT compound タグ with given NBT entry
+operator.integrateddynamics.nbt.compound_with_short.info,Get a copy of the given NBT compound tag with the given Integer as a short entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられた整数 as shまたはt entry
+operator.integrateddynamics.nbt.compound_with_string,NBT Compound With String,NBTコンパウンド(文字列付き)
+operator.integrateddynamics.nbt.compound_with_string.info,Get a copy of the given NBT compound tag with the given String entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられたString entry
+operator.integrateddynamics.nbt.compound_with_tag,NBT Compound With NBT,NBTコンパウンド(NBT付き)
+operator.integrateddynamics.nbt.compound_with_tag.info,Get a copy of the given NBT compound tag with the given NBT entry,与えられたのコピーを取得 NBTコンパウンドタグ with与えられたNBT entry
 operator.integrateddynamics.nbt.compound_without,NBT Compound Without,NBTコンパウンド削除
-operator.integrateddynamics.nbt.compound_without.info,Get a copy of the given NBT compound tag without the given key,Get copy of given NBT compound タグ without given key
+operator.integrateddynamics.nbt.compound_without.info,Get a copy of the given NBT compound tag without the given key,与えられたのコピーを取得 NBTコンパウンドタグ without与えられたkey
 operator.integrateddynamics.nbt.from_boolean,NBT Byte From Boolean,ブール → NBTバイト
-operator.integrateddynamics.nbt.from_boolean.info,Create an NBT Byte tag from the given Boolean value,Create an NBT Byte タグ from given Boolean value
+operator.integrateddynamics.nbt.from_boolean.info,Create an NBT Byte tag from the given Boolean value,クリエイト an NBTバイトタグ from与えられた真偽値 value
 operator.integrateddynamics.nbt.from_byte,NBT Byte From Integer,整数 → NBTバイト
-operator.integrateddynamics.nbt.from_byte.info,Create an NBT Byte tag from the given Integer value,Create an NBT Byte タグ from given Integer value
+operator.integrateddynamics.nbt.from_byte.info,Create an NBT Byte tag from the given Integer value,クリエイト an NBTバイトタグ from与えられた整数 value
 operator.integrateddynamics.nbt.from_byte_list,NBT Byte Array From Byte List,バイトリスト → NBTバイト配列
-operator.integrateddynamics.nbt.from_byte_list.info,Create an NBT Byte Array tag from the given Integer List value,Create an NBT Byte Array タグ from given Integer List value
+operator.integrateddynamics.nbt.from_byte_list.info,Create an NBT Byte Array tag from the given Integer List value,クリエイト an NBTバイト 配列タグ from与えられた整数リストvalue
 operator.integrateddynamics.nbt.from_double,NBT Double From Double,ダブル → NBTダブル
-operator.integrateddynamics.nbt.from_double.info,Create an NBT Double tag from the given Double value,Create an NBT Double タグ from given Double value
+operator.integrateddynamics.nbt.from_double.info,Create an NBT Double tag from the given Double value,クリエイト an NBT 二倍 タグ from与えられた二倍 value
 operator.integrateddynamics.nbt.from_float,NBT Float From Double,ダブル → NBTフロート
-operator.integrateddynamics.nbt.from_float.info,Create an NBT Float tag from the given Double value,Create an NBT Float タグ from given Double value
+operator.integrateddynamics.nbt.from_float.info,Create an NBT Float tag from the given Double value,クリエイト an NBT Float タグ from与えられた二倍 value
 operator.integrateddynamics.nbt.from_int,NBT Integer From Integer,整数 → NBT整数
-operator.integrateddynamics.nbt.from_int.info,Create an NBT Integer tag from the given Integer value,Create an NBT Integer タグ from given Integer value
+operator.integrateddynamics.nbt.from_int.info,Create an NBT Integer tag from the given Integer value,クリエイト an NBT 整数 タグ from与えられた整数 value
 operator.integrateddynamics.nbt.from_int_list,NBT Integer Array From Integer List,整数リスト → NBT整数配列
-operator.integrateddynamics.nbt.from_int_list.info,Create an NBT Integer Array tag from the given Integer List value,Create an NBT Integer Array タグ from given Integer List value
+operator.integrateddynamics.nbt.from_int_list.info,Create an NBT Integer Array tag from the given Integer List value,クリエイト an NBT 整数 配列タグ from与えられた整数リストvalue
 operator.integrateddynamics.nbt.from_long,NBT Long From Long,ロング → NBTロング
-operator.integrateddynamics.nbt.from_long.info,Create an NBT Long tag from the given Long value,Create an NBT Long タグ from given Long value
+operator.integrateddynamics.nbt.from_long.info,Create an NBT Long tag from the given Long value,クリエイト an NBT 長整数 タグ from与えられた長整数 value
 operator.integrateddynamics.nbt.from_long_list,NBT Long Array From Long List,ロングリスト → NBTロング配列
-operator.integrateddynamics.nbt.from_long_list.info,Create an NBT Long Array tag from the given Long List value,Create an NBT Long Array タグ from given Long List value
-operator.integrateddynamics.nbt.from_short,NBT Short From Integer,NBT Shまたはt From Integer
-operator.integrateddynamics.nbt.from_short.info,Create an NBT Short tag from the given Integer value,Create an NBT Shまたはt タグ from given Integer value
+operator.integrateddynamics.nbt.from_long_list.info,Create an NBT Long Array tag from the given Long List value,クリエイト an NBT 長整数 配列タグ from与えられた長整数リストvalue
+operator.integrateddynamics.nbt.from_short,NBT Short From Integer,NBT Shまたはt From 整数
+operator.integrateddynamics.nbt.from_short.info,Create an NBT Short tag from the given Integer value,クリエイト an NBT Shまたはt タグ from与えられた整数 value
 operator.integrateddynamics.nbt.from_string,NBT String From String,文字列 → NBT文字列
-operator.integrateddynamics.nbt.from_string.info,Create an NBT String tag from the given String value,Create an NBT String タグ from given String value
-operator.integrateddynamics.nbt.from_tag_list,NBT List From Tag List,NBT List From タグ List
-operator.integrateddynamics.nbt.from_tag_list.info,Create an NBT List tag from the given NBT List value,Create an NBT List タグ from given NBT List value
+operator.integrateddynamics.nbt.from_string.info,Create an NBT String tag from the given String value,クリエイト an NBT 文字列 タグ from与えられた文字列 value
+operator.integrateddynamics.nbt.from_tag_list,NBT List From Tag List,NBTリスト From タグ List
+operator.integrateddynamics.nbt.from_tag_list.info,Create an NBT List tag from the given NBT List value,クリエイト an NBTリストタグ from与えられたNBTリスト value
 operator.integrateddynamics.nbt.path_match_all,NBT Path Match All,NBTパスすべてマッチ
-operator.integrateddynamics.nbt.path_match_all.info,"Apply the given NBT Path expression on the given NBT value, and return all matches as a list","Apply given NBT Path expression on given NBT value, と return すべて matches as リスト"
+operator.integrateddynamics.nbt.path_match_all.info,"Apply the given NBT Path expression on the given NBT value, and return all matches as a list","適用与えられたNBT パス expression on与えられたNBT value, と return すべて matches as リスト"
 operator.integrateddynamics.nbt.path_match_first,NBT Path Match First,NBTパス最初マッチ
-operator.integrateddynamics.nbt.path_match_first.info,"Apply the given NBT Path expression on the given NBT value, and return the first match","Apply given NBT Path expression on given NBT value, と return first match"
+operator.integrateddynamics.nbt.path_match_first.info,"Apply the given NBT Path expression on the given NBT value, and return the first match","Apply与えられたNBT パス expression on与えられたNBT value, と return first match"
 operator.integrateddynamics.nbt.path_test,NBT Path Test,NBTパステスト
-operator.integrateddynamics.nbt.path_test.info,Test if the given NBT Path expression matches with the given NBT value,Test 場合はgiven NBT Path expression matches with given NBT value
+operator.integrateddynamics.nbt.path_test.info,Test if the given NBT Path expression matches with the given NBT value,Test 場合はgiven NBT パス expression matches with与えられたNBT value
 operator.integrateddynamics.number,Number,数値
 operator.integrateddynamics.number.basename,Number %s,数値 %s
 operator.integrateddynamics.number.ceil,Ceil,切り上げ
@@ -1544,12 +1542,12 @@ operator.integrateddynamics.operator.apply0.info,Apply for a given operator with
 operator.integrateddynamics.operator.apply2,Apply 2,2を適用
 operator.integrateddynamics.operator.apply2.info,Apply for a given operator the given two values.,指定された2つの値を演算子に適用します。
 operator.integrateddynamics.operator.apply3,Apply 3,3を適用
-operator.integrateddynamics.operator.apply3.info,Apply for a given operator the given three values.,Apply fまたは given オペレーター given three values.
+operator.integrateddynamics.operator.apply3.info,Apply for a given operator the given three values.,指定されたオペレーターに指定された3つの値を適用します。
 operator.integrateddynamics.operator.apply_n,Apply N,Nを適用
 operator.integrateddynamics.operator.apply_n.info,Apply for a given operator the given list of values.,指定された演算子に値のリストを適用します。
 operator.integrateddynamics.operator.basename,Operator %s,演算子 %s
 operator.integrateddynamics.operator.by_name,Operator By Name,オペレーター By 名前
-operator.integrateddynamics.operator.by_name.info,Get the operator that has the given unique name.,Get オペレーター that has given unique 名前.
+operator.integrateddynamics.operator.by_name.info,Get the operator that has the given unique name.,取得 オペレーター that has与えられたunique 名前.
 operator.integrateddynamics.operator.conjunction,Conjunction,結合
 operator.integrateddynamics.operator.conjunction.info,Takes the conjunction of two predicates.,2つの述語の結合をとります。
 operator.integrateddynamics.operator.disjunction,Disjunction,論理和
@@ -1563,28 +1561,28 @@ operator.integrateddynamics.operator.map.info,"Apply the given operator on all e
 operator.integrateddynamics.operator.negation,Negation,否定
 operator.integrateddynamics.operator.negation.info,Takes the negation of a predicate.,述語の否定をとります。
 operator.integrateddynamics.operator.pipe,Pipe,パイプ
-operator.integrateddynamics.operator.pipe.info,Create a new operator that pipes the output from the first operator to the second operator.,Create new オペレーター that pipes 出力 from first オペレーター to second オペレーター.
+operator.integrateddynamics.operator.pipe.info,Create a new operator that pipes the output from the first operator to the second operator.,クリエイト 新しい オペレーター that pipes 出力 from first オペレーター to second オペレーター.
 operator.integrateddynamics.operator.pipe2,Pipe 2,パイプ2
-operator.integrateddynamics.operator.pipe2.info,"Create a new operator that gives its input to the first and second operators, and pipes the outputs from both of them to the third operator.","Create new オペレーター that gives its 入力 to first と second operatまたはs, と pipes outputs from both of them to third オペレーター."
+operator.integrateddynamics.operator.pipe2.info,"Create a new operator that gives its input to the first and second operators, and pipes the outputs from both of them to the third operator.","クリエイト 新しい オペレーター that gives its 入力 to first と second operatまたはs, と pipes outputs from both of them to third オペレーター."
 operator.integrateddynamics.operator.reduce,Reduce,リダクション
-operator.integrateddynamics.operator.reduce.info,Apply the given operator on all elements of a list to reduce the list to one value.,Apply given オペレーター on すべて elements of リスト to reduce リスト to one value.
+operator.integrateddynamics.operator.reduce.info,Apply the given operator on all elements of a list to reduce the list to one value.,適用与えられたオペレーター on すべて elements of リスト to reduce リスト to one value.
 operator.integrateddynamics.operator.reduce1,Reduce 1,リダクション1
-operator.integrateddynamics.operator.reduce1.info,"Apply the given operator on all elements of a list to reduce the list to one value. reduce1(op, list) is equivalent to reduce(op, tail(list), head(list)).","Apply given オペレーター on すべて elements of リスト to reduce リスト to one value. reduce1(op, リスト) is equivalent to reduce(op, tail(リスト), head(リスト))."
+operator.integrateddynamics.operator.reduce1.info,"Apply the given operator on all elements of a list to reduce the list to one value. reduce1(op, list) is equivalent to reduce(op, tail(list), head(list)).","適用与えられたオペレーター on すべて elements of リスト to reduce リスト to one value. reduce1(op, リスト) is equivalent to reduce(op, tail(リスト), head(リスト))."
 operator.integrateddynamics.parse,Parse,解析
 operator.integrateddynamics.parse.basename,Parse,解析
 operator.integrateddynamics.parse.tooltip,Parse %s,解析 %s
 operator.integrateddynamics.recipe,Recipe,レシピ
 operator.integrateddynamics.recipe.basename,Recipe %s,レシピ %s
-operator.integrateddynamics.recipe.input,Recipe Input Ingredients,レシピ 入力 Ingredients
-operator.integrateddynamics.recipe.input.info,The input ingredients of the given recipe,The 入力 ingredients of given レシピ
-operator.integrateddynamics.recipe.output,Recipe Output Ingredients,レシピ 出力 Ingredients
-operator.integrateddynamics.recipe.output.info,The output ingredients of the given recipe,The 出力 ingredients of given レシピ
-operator.integrateddynamics.recipe.with_input,Recipe With Input Ingredients,レシピ With 入力 Ingredients
-operator.integrateddynamics.recipe.with_input.info,Get a copy of the given recipe with the given ingredients as input,Get copy of given レシピ with given ingredients as 入力
-operator.integrateddynamics.recipe.with_input_output,Recipe With Input and Output Ingredients,レシピ With 入力 と 出力 Ingredients
-operator.integrateddynamics.recipe.with_input_output.info,"Create a recipe with the first ingredients as input, and the second ingredients as output","Create レシピ with first ingredients as 入力, と second ingredients as 出力"
-operator.integrateddynamics.recipe.with_output,Recipe With Output Ingredients,レシピ With 出力 Ingredients
-operator.integrateddynamics.recipe.with_output.info,Get a copy of the given recipe with the given ingredients as output,Get copy of given レシピ with given ingredients as 出力
+operator.integrateddynamics.recipe.input,Recipe Input Ingredients,レシピ 入力 材料
+operator.integrateddynamics.recipe.input.info,The input ingredients of the given recipe,その 入力 ingredients of与えられたレシピ
+operator.integrateddynamics.recipe.output,Recipe Output Ingredients,レシピ 出力 材料
+operator.integrateddynamics.recipe.output.info,The output ingredients of the given recipe,その 出力 ingredients of与えられたレシピ
+operator.integrateddynamics.recipe.with_input,Recipe With Input Ingredients,レシピ With 入力 材料
+operator.integrateddynamics.recipe.with_input.info,Get a copy of the given recipe with the given ingredients as input,与えられたのコピーを取得 レシピ with与えられたingredients as 入力
+operator.integrateddynamics.recipe.with_input_output,Recipe With Input and Output Ingredients,レシピ With 入力 と 出力 材料
+operator.integrateddynamics.recipe.with_input_output.info,"Create a recipe with the first ingredients as input, and the second ingredients as output","クリエイト レシピでfirst ingredients as 入力, と second ingredients as 出力"
+operator.integrateddynamics.recipe.with_output,Recipe With Output Ingredients,レシピ With 出力 材料
+operator.integrateddynamics.recipe.with_output.info,Get a copy of the given recipe with the given ingredients as output,与えられたのコピーを取得 レシピ with与えられたingredients as 出力
 operator.integrateddynamics.relational,Relational,関係式
 operator.integrateddynamics.relational.basename,Relational %s,関係式 %s
 operator.integrateddynamics.relational.equals,Equals,=
@@ -1608,7 +1606,7 @@ operator.integrateddynamics.string.contains_regex.info,If the regular expression
 operator.integrateddynamics.string.ends_with,Ends With,以下で終わる
 operator.integrateddynamics.string.ends_with.info,If the string given matches the end of the given string.,指定された文字列が指定された文字列の末尾と一致する場合。
 operator.integrateddynamics.string.fluidtag,Fluid Tag Values,流体タグ値
-operator.integrateddynamics.string.fluidtag.info,The Tag values (fluids) of the given fluid tag name,The タグ values (fluids) of given 液体 タグ 名前
+operator.integrateddynamics.string.fluidtag.info,The Tag values (fluids) of the given fluid tag name,その タグ values (fluids) of与えられた液体 タグ 名前
 operator.integrateddynamics.string.index_of,Index Of,インデックス
 operator.integrateddynamics.string.index_of.info,Get the index of the first occurrence of a substring matching the search term in the given string.,指定された文字列内の検索語に一致する部分文字列の最初の出現のインデックスを取得します。
 operator.integrateddynamics.string.index_of_regex,Index Of Regex,正規表現のインデックス
@@ -1632,7 +1630,7 @@ operator.integrateddynamics.string.replace.info,"Find all instances of the searc
 operator.integrateddynamics.string.replace_regex,Replace Regex,正規表現の置換
 operator.integrateddynamics.string.replace_regex.info,"Find all matches of the search pattern and replace them with the given string, in the given string.",検索パターンに一致するすべての部分を検索し、指定された文字列で置き換えます。
 operator.integrateddynamics.string.split_on,Split On,分割
-operator.integrateddynamics.string.split_on.info,"Get a list containing pieces, split on the given (literal) delimiter, of the given string.",指定された文字列を指定された (リテラル) 区切り文字で分割した部分を含むリストを取得します。
+operator.integrateddynamics.string.split_on.info,"Get a list containing pieces, split on the given (literal) delimiter, of the given string.",指定された文字列を指定された(リテラル) 区切り文字で分割した部分を含むリストを取得します。
 operator.integrateddynamics.string.split_on_regex,Split On Regex,正規表現で分割
 operator.integrateddynamics.string.split_on_regex.info,"Get a list containing pieces, split on the given regular expression, of the given string.",指定された正規表現で分割された、指定された文字列の部分を含むリストを取得します。
 operator.integrateddynamics.string.starts_with,Starts With,以下で始まる
@@ -1641,8 +1639,8 @@ operator.integrateddynamics.string.string_error,Error,エラー
 operator.integrateddynamics.string.string_error.info,Throw a custom error,カスタムエラーをスローする
 operator.integrateddynamics.string.substring,Substring,部分文字列
 operator.integrateddynamics.string.substring.info,"Get a substring, from the given index (inclusive) to the given index (exclusive), of the given string.",指定された文字列の、指定されたインデックス(含む)から指定されたインデックス(含まない)までの部分文字列を取得します。
-operator.integrateddynamics.string.tag,Item Tag Values,アイテム タグ Values
-operator.integrateddynamics.string.tag.info,The Tag values (items) of the given item tag name,The タグ values (items) of given アイテム タグ 名前
+operator.integrateddynamics.string.tag,Item Tag Values,アイテムタグ Values
+operator.integrateddynamics.string.tag.info,The Tag values (items) of the given item tag name,その タグ values (items) of与えられたアイテムタグ 名前
 operator.integrateddynamics.string.unique_name,Unique Name,固有の名前
 operator.integrateddynamics.string.unique_name.info,Get the unique name of an object,オブジェクトの一意の名前を取得
 operator.integrateddynamics.tooltip.input_type_name,§eInput Type %s: §r,§e入力型 %s: §r
@@ -1658,8 +1656,8 @@ operator.integrateddynamics.virtual.p_conjunction.info,The conjunction of two pr
 operator.integrateddynamics.virtual.p_disjunction,Predicate Disjunction,プレディケート Disjunction
 operator.integrateddynamics.virtual.p_disjunction.info,The disjunction of two predicates,2つの述語の論理和
 operator.integrateddynamics.virtual.p_negation,Predicate Negation,プレディケート Negation
-operator.integrateddynamics.virtual.p_negation.info,The disjunction of a predicate,The disjunction of プレディケート
-operator.integrateddynamics.virtual.piped,Piped Operator,Piped オペレーター
+operator.integrateddynamics.virtual.p_negation.info,The disjunction of a predicate,その disjunction of プレディケート
+operator.integrateddynamics.virtual.piped,Piped Operator,パイプオペレーター
 operator.integrateddynamics.virtual.piped.info,A chain of operators,A chain of operatまたはs
 operator.integrateddynamics.virtual.piped2,Piped 2 Operator,Piped 2 オペレーター
 operator.integrateddynamics.virtual.piped2.info,A chain of piped 2 operators,A chain of piped 2 operatまたはs
@@ -1681,7 +1679,7 @@ parttype.integrateddynamics.data_driven_panel.error.invalid_type,This panel does
 parttype.integrateddynamics.display_panel,Display Panel,表示パネル
 parttype.integrateddynamics.display_panel.info,Visually display a variable value in the world as text,変数の値をテキストとして視覚的に表示します
 parttype.integrateddynamics.dynamic_light_panel,Dynamic Light Panel,動的ライトパネル
-parttype.integrateddynamics.dynamic_light_panel.info,Visually display a variable value in the world as a light value,Visuすべてy display 変数 value in wまたはld as light value
+parttype.integrateddynamics.dynamic_light_panel.info,Visually display a variable value in the world as a light value,Visuすべてy display 変数値in wまたはld as light value
 parttype.integrateddynamics.effect_writer,Effect Writer,エフェクトライター
 parttype.integrateddynamics.effect_writer.info,Outputs particles,パーティクルを出力します
 parttype.integrateddynamics.entity_reader,Entity Reader,エンティティリーダー
@@ -1744,7 +1742,7 @@ valuetype.integrateddynamics.error.no_light_calculator,The value type %s can not
 valuetype.integrateddynamics.error.value,Invalid value,無効な値
 valuetype.integrateddynamics.fluidstack,Fluid,流体
 valuetype.integrateddynamics.ingredients,Ingredients,材料
-valuetype.integrateddynamics.ingredients.slot.info,Shift click to configure,Shiftキーを押しながらクリックして設定
+valuetype.integrateddynamics.ingredients.slot.info,Shift click to configure,シフトキーを押しながらクリックして設定
 valuetype.integrateddynamics.integer,Integer,整数
 valuetype.integrateddynamics.itemstack,Item,アイテム
 valuetype.integrateddynamics.list,List,リスト
@@ -1776,9 +1774,9 @@ aspect.integrateddynamics.read.boolean.charsetpipe.hascontents.info,If an item i
 aspect.integrateddynamics.read.boolean.ic2.eu.applicable,Is EU Handler,Is EU Hとler
 aspect.integrateddynamics.read.boolean.ic2.eu.applicable.info,If the target in some way handles EU,If tar取得in some way hとles EU
 aspect.integrateddynamics.read.boolean.ic2.eu.canextract,Can Extract EU,EU抽出可能
-aspect.integrateddynamics.read.boolean.ic2.eu.canextract.info,"If EU can really be extracted from the target, takes into account storage","If EU can reすべてy be extracted from target, takes into acカウント ストレージ"
+aspect.integrateddynamics.read.boolean.ic2.eu.canextract.info,"If EU can really be extracted from the target, takes into account storage","If EU can reすべてy be extracted from target,消費into acカウントストレージ"
 aspect.integrateddynamics.read.boolean.ic2.eu.caninsert,Can Insert EU,EU挿入可能
-aspect.integrateddynamics.read.boolean.ic2.eu.caninsert.info,"If EU can really be inserted into the target, takes into account storage and capacity","If EU can reすべてy be inserted into target, takes into acカウント ストレージ と capacity"
+aspect.integrateddynamics.read.boolean.ic2.eu.caninsert.info,"If EU can really be inserted into the target, takes into account storage and capacity","If EU can reすべてy be insertedにtarget,消費into acカウントストレージ と capacity"
 aspect.integrateddynamics.read.boolean.ic2.eu.isempty,Is EU Buffer Empty,EUバッファが空
 aspect.integrateddynamics.read.boolean.ic2.eu.isempty.info,If the target's EU buffer is completely empty,ターゲットのEUバッファが完全に空の場合
 aspect.integrateddynamics.read.boolean.ic2.eu.isfull,Is EU Buffer Full,EUバッファが満杯
@@ -1786,13 +1784,13 @@ aspect.integrateddynamics.read.boolean.ic2.eu.isfull.info,If the target's EU buf
 aspect.integrateddynamics.read.boolean.ic2.eu.isnonempty,Is EU Buffer Not Empty,EUバッファが空でない
 aspect.integrateddynamics.read.boolean.ic2.eu.isnonempty.info,If the target's EU buffer is not empty,ターゲットのEUバッファが空ではない場合
 aspect.integrateddynamics.read.boolean.refinedstorage.network.applicable,Is RS Network,Is RS ネットワーク
-aspect.integrateddynamics.read.boolean.refinedstorage.network.applicable.info,If the target has a Refined Storage network.,If tar取得has Refined ストレージ ネットワーク.
+aspect.integrateddynamics.read.boolean.refinedstorage.network.applicable.info,If the target has a Refined Storage network.,If tar取得has Refined ストレージネットワーク.
 aspect.integrateddynamics.read.boolean.rf.applicable,Is RF Handler,Is RF Hとler
 aspect.integrateddynamics.read.boolean.rf.applicable.info,If the target in some way handles RF,If tar取得in some way hとles RF
 aspect.integrateddynamics.read.boolean.rf.canextract,Can Extract RF,RF抽出可能
-aspect.integrateddynamics.read.boolean.rf.canextract.info,"If RF can really be extracted from the target, takes into account storage","If RF can reすべてy be extracted from target, takes into acカウント ストレージ"
+aspect.integrateddynamics.read.boolean.rf.canextract.info,"If RF can really be extracted from the target, takes into account storage","If RF can reすべてy be extracted from target,消費into acカウントストレージ"
 aspect.integrateddynamics.read.boolean.rf.caninsert,Can Insert RF,RF挿入可能
-aspect.integrateddynamics.read.boolean.rf.caninsert.info,"If RF can really be inserted into the target, takes into account storage and capacity","If RF can reすべてy be inserted into target, takes into acカウント ストレージ と capacity"
+aspect.integrateddynamics.read.boolean.rf.caninsert.info,"If RF can really be inserted into the target, takes into account storage and capacity","If RF can reすべてy be insertedにtarget,消費into acカウントストレージ と capacity"
 aspect.integrateddynamics.read.boolean.rf.isempty,Is RF Buffer Empty,RFバッファが空
 aspect.integrateddynamics.read.boolean.rf.isempty.info,If the target's RF buffer is completely empty,ターゲットのRFバッファが完全に空の場合
 aspect.integrateddynamics.read.boolean.rf.isfull,Is RF Buffer Full,RFバッファが満杯
@@ -1804,55 +1802,55 @@ aspect.integrateddynamics.read.boolean.rf.isprovider.info,If the target can prov
 aspect.integrateddynamics.read.boolean.rf.isreceiver,Is RF Receiver,RFレシーバー
 aspect.integrateddynamics.read.boolean.rf.isreceiver.info,If the target can receive RF,If tar取得can receive RF
 aspect.integrateddynamics.read.boolean.tesla.applicable,Is Tesla Handler,Is TeslHとler
-aspect.integrateddynamics.read.boolean.tesla.applicable.info,If the target in some way handles Tesla,If tar取得in some way hとles Tesla
-aspect.integrateddynamics.read.boolean.tesla.canextract,Can Extract Tesla,Tesla抽出可能
-aspect.integrateddynamics.read.boolean.tesla.canextract.info,"If Tesla can really be extracted from the target, takes into account storage","If Teslcan reすべてy be extracted from target, takes into acカウント ストレージ"
-aspect.integrateddynamics.read.boolean.tesla.caninsert,Can Insert Tesla,Tesla挿入可能
-aspect.integrateddynamics.read.boolean.tesla.caninsert.info,"If Tesla can really be inserted into the target, takes into account storage and capacity","If Teslcan reすべてy be inserted into target, takes into acカウント ストレージ と capacity"
-aspect.integrateddynamics.read.boolean.tesla.isempty,Is Tesla Buffer Empty,Teslaバッファが空か
-aspect.integrateddynamics.read.boolean.tesla.isempty.info,If the target's Tesla buffer is completely empty,ターゲットのTeslaバッファが完全に空の場合
-aspect.integrateddynamics.read.boolean.tesla.isfull,Is Tesla Buffer Full,Teslaバッファが満杯か
-aspect.integrateddynamics.read.boolean.tesla.isfull.info,If the target's Tesla buffer is completely full,ターゲットのTeslaバッファが完全に満杯の場合
-aspect.integrateddynamics.read.boolean.tesla.isnonempty,Is Tesla Buffer Not Empty,Teslaバッファが空ではないか
-aspect.integrateddynamics.read.boolean.tesla.isnonempty.info,If the target's Tesla buffer is not empty,ターゲットのTeslaバッファが空ではない場合
-aspect.integrateddynamics.read.boolean.tesla.isprovider,Is Tesla Provider,Teslaプロバイダーか
-aspect.integrateddynamics.read.boolean.tesla.isprovider.info,If the target can provide Tesla,If tar取得can provide Tesla
-aspect.integrateddynamics.read.boolean.tesla.isreceiver,Is Tesla Receiver,Teslaレシーバーか
-aspect.integrateddynamics.read.boolean.tesla.isreceiver.info,If the target can receive Tesla,If tar取得can receive Tesla
-aspect.integrateddynamics.read.boolean.thaumcraft.isaspectcontainer,Is Aspect Container,Is アスペクト Container
-aspect.integrateddynamics.read.boolean.thaumcraft.isaspectcontainer.info,If the given block can hold aspects.,If given ブロック can hold aspects.
+aspect.integrateddynamics.read.boolean.tesla.applicable.info,If the target in some way handles Tesla,If tar取得in some way hとles テスラ
+aspect.integrateddynamics.read.boolean.tesla.canextract,Can Extract Tesla,テスラ抽出可能
+aspect.integrateddynamics.read.boolean.tesla.canextract.info,"If Tesla can really be extracted from the target, takes into account storage","If Teslcan reすべてy be extracted from target,消費into acカウントストレージ"
+aspect.integrateddynamics.read.boolean.tesla.caninsert,Can Insert Tesla,テスラ挿入可能
+aspect.integrateddynamics.read.boolean.tesla.caninsert.info,"If Tesla can really be inserted into the target, takes into account storage and capacity","If Teslcan reすべてy be insertedにtarget,消費into acカウントストレージ と capacity"
+aspect.integrateddynamics.read.boolean.tesla.isempty,Is Tesla Buffer Empty,テスラバッファが空か
+aspect.integrateddynamics.read.boolean.tesla.isempty.info,If the target's Tesla buffer is completely empty,ターゲットのテスラバッファが完全に空の場合
+aspect.integrateddynamics.read.boolean.tesla.isfull,Is Tesla Buffer Full,テスラバッファが満杯か
+aspect.integrateddynamics.read.boolean.tesla.isfull.info,If the target's Tesla buffer is completely full,ターゲットのテスラバッファが完全に満杯の場合
+aspect.integrateddynamics.read.boolean.tesla.isnonempty,Is Tesla Buffer Not Empty,テスラバッファが空ではないか
+aspect.integrateddynamics.read.boolean.tesla.isnonempty.info,If the target's Tesla buffer is not empty,ターゲットのテスラバッファが空ではない場合
+aspect.integrateddynamics.read.boolean.tesla.isprovider,Is Tesla Provider,テスラプロバイダーか
+aspect.integrateddynamics.read.boolean.tesla.isprovider.info,If the target can provide Tesla,If tar取得can provide テスラ
+aspect.integrateddynamics.read.boolean.tesla.isreceiver,Is Tesla Receiver,テスラレシーバーか
+aspect.integrateddynamics.read.boolean.tesla.isreceiver.info,If the target can receive Tesla,If tar取得can receive テスラ
+aspect.integrateddynamics.read.boolean.thaumcraft.isaspectcontainer,Is Aspect Container,Is アスペクトコンテナ
+aspect.integrateddynamics.read.boolean.thaumcraft.isaspectcontainer.info,If the given block can hold aspects.,If与えられたブロック can hold アスペクト.
 aspect.integrateddynamics.read.boolean.thaumcraft.isessentiaprovider,Is Essentia Provider,エッセンシアプロバイダーか
 aspect.integrateddynamics.read.boolean.thaumcraft.isessentiaprovider.info,If the target can provide essentia.,If tar取得can provide essentia.
 aspect.integrateddynamics.read.boolean.thaumcraft.isessentiareceiver,Is Essentia Receiver,エッセンシアレシーバーか
 aspect.integrateddynamics.read.boolean.thaumcraft.isessentiareceiver.info,If the target can receive essentia.,If tar取得can receive essentia.
-aspect.integrateddynamics.read.boolean.thaumcraft.isessentiatransport,Is Essentia Transport,Is EssentiTranspまたはt
+aspect.integrateddynamics.read.boolean.thaumcraft.isessentiatransport,Is Essentia Transport,Is エッセンティアトランスポート
 aspect.integrateddynamics.read.boolean.thaumcraft.isessentiatransport.info,If the target can transport essentia.,If tar取得can transpまたはt essentia.
 aspect.integrateddynamics.read.double.ic2.eu.fillratio,EU Fill Ratio,EU充填率
 aspect.integrateddynamics.read.double.ic2.eu.fillratio.info,The amount of EU in the target divided by its capacity,The 量 of EU in tar取得divided by its capacity
 aspect.integrateddynamics.read.double.rf.fillratio,RF Fill Ratio,RF充填率
 aspect.integrateddynamics.read.double.rf.fillratio.info,The amount of RF in the target divided by its capacity,The 量 of RF in tar取得divided by its capacity
-aspect.integrateddynamics.read.double.tesla.fillratio,Tesla Fill Ratio,Tesla充填率
+aspect.integrateddynamics.read.double.tesla.fillratio,Tesla Fill Ratio,テスラ充填率
 aspect.integrateddynamics.read.double.tesla.fillratio.info,The amount of Tesla in the target divided by its capacity,The 量 of Teslin tar取得divided by its capacity
 aspect.integrateddynamics.read.double.thaumcraft.auraflux,Aura Flux,オーラフラックス
 aspect.integrateddynamics.read.double.thaumcraft.auraflux.info,How much flux is in the aura at the target location.,How much flux is in aurat tar取得location.
 aspect.integrateddynamics.read.double.thaumcraft.auravis,Aura Vis,オーラVis
 aspect.integrateddynamics.read.double.thaumcraft.auravis.info,How much vis is in the aura at the target location.,How much vis is in aurat tar取得location.
-aspect.integrateddynamics.read.integer.ic2.eu.amount,Stored EU,Stまたはed EU
-aspect.integrateddynamics.read.integer.ic2.eu.amount.info,The amount of EU stored in the target,The 量 of EU stまたはed in target
+aspect.integrateddynamics.read.integer.ic2.eu.amount,Stored EU,保存済み EU
+aspect.integrateddynamics.read.integer.ic2.eu.amount.info,The amount of EU stored in the target,ターゲットに保存されている EU の量
 aspect.integrateddynamics.read.integer.ic2.eu.capacity,EU Capacity,EUキャパシティ
 aspect.integrateddynamics.read.integer.ic2.eu.capacity.info,The EU capacity of the target,ターゲットのEU容量
-aspect.integrateddynamics.read.integer.rf.amount,Stored RF,Stまたはed RF
-aspect.integrateddynamics.read.integer.rf.amount.info,The amount of RF stored in the target,The 量 of RF stまたはed in target
+aspect.integrateddynamics.read.integer.rf.amount,Stored RF,保存済み RF
+aspect.integrateddynamics.read.integer.rf.amount.info,The amount of RF stored in the target,ターゲットに保存されている RF の量
 aspect.integrateddynamics.read.integer.rf.capacity,RF Capacity,RFキャパシティ
 aspect.integrateddynamics.read.integer.rf.capacity.info,The RF capacity of the target,ターゲットのRF容量
 aspect.integrateddynamics.read.integer.thaumcraft.aurabase,Aura Base,オーラベース
 aspect.integrateddynamics.read.integer.thaumcraft.aurabase.info,The aura baseline at the target location.,The aurbaseline at tar取得location.
 aspect.integrateddynamics.read.integer.thaumcraft.essentiaminsuction,Essentia Minimum Suction,最小エッセンシア吸引力
-aspect.integrateddynamics.read.integer.thaumcraft.essentiaminsuction.info,The minimum required suction for the target essentia transport.,The minimum required suction fまたは tar取得essentitranspまたはt.
-aspect.integrateddynamics.read.integer.thaumcraft.suction,Essentia Transport Suction,EssentiTranspまたはt Suction
+aspect.integrateddynamics.read.integer.thaumcraft.essentiaminsuction.info,The minimum required suction for the target essentia transport.,ターゲットエッセンシア輸送に必要な最小吸引力。
+aspect.integrateddynamics.read.integer.thaumcraft.suction,Essentia Transport Suction,エッセンティアトランスポート 吸引
 aspect.integrateddynamics.read.integer.thaumcraft.suction.info,The current suction in the target essentia transport.,The current suction in tar取得essentitranspまたはt.
 aspect.integrateddynamics.read.itemstack.charsetpipe.content,Pipe Content,パイプ内容
-aspect.integrateddynamics.read.itemstack.charsetpipe.content.info,The item currently going through this pipe.,The アイテム currently going through this pipe.
+aspect.integrateddynamics.read.itemstack.charsetpipe.content.info,The item currently going through this pipe.,その アイテム currently going through this pipe.
 aspect.integrateddynamics.read.list.charsetpipe.contents,Pipe Contents,パイプ内容
 aspect.integrateddynamics.read.list.charsetpipe.contents.info,The items currently going through this pipe.,現在このパイプを通過しているアイテム
 aspect.integrateddynamics.read.list.refinedstorage.fluid.fluidstacks,RS network fluids,RS ネットワーク fluids
@@ -1864,60 +1862,60 @@ aspect.integrateddynamics.read.list.refinedstorage.inventory.craftingitems.info,
 aspect.integrateddynamics.read.list.refinedstorage.inventory.itemstacks,RS network items,RS ネットワーク items
 aspect.integrateddynamics.read.list.refinedstorage.inventory.itemstacks.info,A list of all the items in the RS network.,A リスト of すべて items in RS ネットワーク.
 aspect.integrateddynamics.read.list.thaumcraft.allaspects,All Aspects,全てのアスペクト
-aspect.integrateddynamics.read.list.thaumcraft.allaspects.info,Get a list of all available Thaumcraft Aspects in the game.,Get リスト of すべて available Thaumcraft Aspects in game.
-aspect.integrateddynamics.read.list.thaumcraft.aspectcontainer,Aspect Container Aspects,アスペクト Container Aspects
-aspect.integrateddynamics.read.list.thaumcraft.aspectcontainer.info,All aspects in the given aspect container.,All aspects in given アスペクト container.
-aspect.integrateddynamics.read.long.tesla.amount,Stored Tesla,Stまたはed Tesla
-aspect.integrateddynamics.read.long.tesla.amount.info,The amount of Tesla stored in the target,The 量 of Teslstまたはed in target
-aspect.integrateddynamics.read.long.tesla.capacity,Tesla Capacity,Tesla容量
-aspect.integrateddynamics.read.long.tesla.capacity.info,The Tesla capacity of the target,ターゲットのTesla容量
-aspect.integrateddynamics.read.string.tesla.amount,Stored Tesla,Stまたはed Tesla
-aspect.integrateddynamics.read.string.tesla.amount.info,The formatted amount of Tesla stored in the target,The fまたはmatted 量 of Teslstまたはed in target
-aspect.integrateddynamics.read.string.tesla.capacity,Tesla Capacity,Tesla容量
-aspect.integrateddynamics.read.string.tesla.capacity.info,The formatted Tesla capacity of the target,The fまたはmatted Teslcapacity of target
-aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.aspectcontainer,Aspect Container Aspect,アスペクト Container アスペクト
-aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.aspectcontainer.info,The selected aspect in the given aspect container.,The selected アスペクト in given アスペクト container.
-aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.essentia,Essentia Transport Contents,EssentiTranspまたはt Contents
-aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.essentia.info,The contained aspect in the target essentia transport.,The contained アスペクト in tar取得essentitranspまたはt.
-aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.suction,Essentia Transport Aspect Suction,EssentiTranspまたはt アスペクト Suction
-aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.suction.info,The current aspect suction in the target essentia transport.,The current アスペクト suction in tar取得essentitranspまたはt.
+aspect.integrateddynamics.read.list.thaumcraft.allaspects.info,Get a list of all available Thaumcraft Aspects in the game.,取得 リスト of すべて available Thaumcraft アスペクト in ゲーム.
+aspect.integrateddynamics.read.list.thaumcraft.aspectcontainer,Aspect Container Aspects,アスペクトコンテナ Aspects
+aspect.integrateddynamics.read.list.thaumcraft.aspectcontainer.info,All aspects in the given aspect container.,指定されたアスペクトコンテナ内のすべてのアスペクト。
+aspect.integrateddynamics.read.long.tesla.amount,Stored Tesla,保存済み テスラ
+aspect.integrateddynamics.read.long.tesla.amount.info,The amount of Tesla stored in the target,ターゲットに保存されている テスラ の量
+aspect.integrateddynamics.read.long.tesla.capacity,Tesla Capacity,テスラ容量
+aspect.integrateddynamics.read.long.tesla.capacity.info,The Tesla capacity of the target,ターゲットのテスラ容量
+aspect.integrateddynamics.read.string.tesla.amount,Stored Tesla,保存済み テスラ
+aspect.integrateddynamics.read.string.tesla.amount.info,The formatted amount of Tesla stored in the target,ターゲットに保存されているフォーマットされた テスラ 量
+aspect.integrateddynamics.read.string.tesla.capacity,Tesla Capacity,テスラ容量
+aspect.integrateddynamics.read.string.tesla.capacity.info,The formatted Tesla capacity of the target,ターゲットのフォーマットされた テスラキャパシティ
+aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.aspectcontainer,Aspect Container Aspect,アスペクトコンテナアスペクト
+aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.aspectcontainer.info,The selected aspect in the given aspect container.,指定されたアスペクトコンテナ内の選択されたアスペクト。
+aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.essentia,Essentia Transport Contents,エッセンティアトランスポート Contents
+aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.essentia.info,The contained aspect in the target essentia transport.,対象のエッセンティア輸送に含まれるアスペクト。
+aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.suction,Essentia Transport Aspect Suction,エッセンティアトランスポートアスペクト吸引
+aspect.integrateddynamics.read.thaumcraftaspect.thaumcraft.suction.info,The current aspect suction in the target essentia transport.,対象のエッセンティア輸送における現在のアスペクト吸引。
 aspect.integrateddynamics.write.boolean.charsetpipe.shifter,Pipe Shift,パイプシフト
-aspect.integrateddynamics.write.boolean.charsetpipe.shifter.info,Enable pipe item shifting,Enable pipe アイテム shifting
+aspect.integrateddynamics.write.boolean.charsetpipe.shifter.info,Enable pipe item shifting,有効にする pipe アイテム shifting
 aspect.integrateddynamics.write.boolean.refinedstorage.cancelcraft,RS cancel all crafting jobs,RS cancel すべて クラフティング jobs
 aspect.integrateddynamics.write.boolean.refinedstorage.cancelcraft.info,Cancel all running crafting jobs in the RS network.,Cancel すべて running クラフティング jobs in RS ネットワーク.
-aspect.integrateddynamics.write.fluidstack.charsetpipe.shifterfluid,Single Filtered Fluid Pipe Shift,Single Filtered 液体 Pipe Shift
-aspect.integrateddynamics.write.fluidstack.charsetpipe.shifterfluid.info,Enable pipe fluid shifting for the given fluid,Enable pipe 液体 shifting fまたは given 液体
+aspect.integrateddynamics.write.fluidstack.charsetpipe.shifterfluid,Single Filtered Fluid Pipe Shift,単体フィルタリング 液体 パイプシフト
+aspect.integrateddynamics.write.fluidstack.charsetpipe.shifterfluid.info,Enable pipe fluid shifting for the given fluid,指定された液体に対してパイプ液体シフティングを有効にします。
 aspect.integrateddynamics.write.integer.signals.destindex,Signals Minecart Destination Index,Signalsミニカート目的地インデックス
-aspect.integrateddynamics.write.integer.signals.destindex.info,Set the (zero-based) index of a minecart's next destination.,ベースカート次の目的地の（ゼロベース）インデックスを設定します。
-aspect.integrateddynamics.write.itemstack.charsetpipe.shifter,Single Filtered Item Pipe Shift,Single Filtered アイテム Pipe Shift
-aspect.integrateddynamics.write.itemstack.charsetpipe.shifter.info,Enable pipe item shifting for the given item,Enable pipe アイテム shifting fまたは given アイテム
+aspect.integrateddynamics.write.integer.signals.destindex.info,Set the (zero-based) index of a minecart's next destination.,ベースカート次の目的地の(ゼロベース)インデックスを設定します。
+aspect.integrateddynamics.write.itemstack.charsetpipe.shifter,Single Filtered Item Pipe Shift,単体フィルタリングアイテムパイプシフト
+aspect.integrateddynamics.write.itemstack.charsetpipe.shifter.info,Enable pipe item shifting for the given item,指定されたアイテムに対してパイプアイテムシフティングを有効にします。
 aspect.integrateddynamics.write.itemstack.refinedstorage.cancelcraft,RS cancel crafting jobs,RS cancel クラフティング jobs
-aspect.integrateddynamics.write.itemstack.refinedstorage.cancelcraft.info,Cancel all running crafting jobs for the given item in the RS network.,Cancel すべて running クラフティング jobs fまたは given アイテム in RS ネットワーク.
+aspect.integrateddynamics.write.itemstack.refinedstorage.cancelcraft.info,Cancel all running crafting jobs for the given item in the RS network.,指定されたアイテムに対して RS ネットワークのすべての実行中のクラフティングジョブをキャンセルします。
 aspect.integrateddynamics.write.itemstack.refinedstorage.craft,RS craft item,RS craft アイテム
-aspect.integrateddynamics.write.itemstack.refinedstorage.craft.info,Trigger a crafting job for the given item.,Trigger クラフティング job fまたは given アイテム.
-aspect.integrateddynamics.write.list.charsetpipe.shifter,Filtered Pipe Item Shift,Filtered Pipe アイテム Shift
-aspect.integrateddynamics.write.list.charsetpipe.shifter.info,Enable pipe item shifting for the given items,Enable pipe アイテム shifting fまたは given items
-aspect.integrateddynamics.write.list.charsetpipe.shifterfluid,Filtered Pipe Fluid Shift,Filtered Pipe 液体 Shift
-aspect.integrateddynamics.write.list.charsetpipe.shifterfluid.info,Enable pipe fluid shifting for the given items,Enable pipe 液体 shifting fまたは given items
+aspect.integrateddynamics.write.itemstack.refinedstorage.craft.info,Trigger a crafting job for the given item.,指定されたアイテムのクラフティングジョブをトリガーします。
+aspect.integrateddynamics.write.list.charsetpipe.shifter,Filtered Pipe Item Shift,フィルタリングパイプアイテムシフト
+aspect.integrateddynamics.write.list.charsetpipe.shifter.info,Enable pipe item shifting for the given items,指定されたアイテムに対してパイプアイテムシフティングを有効にします。
+aspect.integrateddynamics.write.list.charsetpipe.shifterfluid,Filtered Pipe Fluid Shift,フィルタリングパイプ液体シフト
+aspect.integrateddynamics.write.list.charsetpipe.shifterfluid.info,Enable pipe fluid shifting for the given items,指定されたアイテムに対してパイプ液体シフティングを有効にします。
 aspect.integrateddynamics.write.list.refinedstorage.cancelcraft,RS cancel crafting jobs,RS cancel クラフティング jobs
-aspect.integrateddynamics.write.list.refinedstorage.cancelcraft.info,Cancel all running crafting jobs for the given items in the RS network.,Cancel すべて running クラフティング jobs fまたは given items in RS ネットワーク.
+aspect.integrateddynamics.write.list.refinedstorage.cancelcraft.info,Cancel all running crafting jobs for the given items in the RS network.,RS ネットワークで指定されたアイテムのすべての実行中のクラフティングジョブをキャンセルします。
 aspect.integrateddynamics.write.list.refinedstorage.craft,RS craft items,RS製作アイテム
-aspect.integrateddynamics.write.list.refinedstorage.craft.info,Trigger a crafting job for all the items in the given list.,Trigger クラフティング job fまたは すべて items in given リスト.
+aspect.integrateddynamics.write.list.refinedstorage.craft.info,Trigger a crafting job for all the items in the given list.,指定されたリスト内のすべてのアイテムのクラフティングジョブをトリガーします。
 aspect.integrateddynamics.write.list.signals.destinations,Signals Minecart Destinations,Signalsミニカート目的地
-aspect.integrateddynamics.write.list.signals.destinations.info,Set a new destination list on a minecart.,Set new destination リスト on minecart.
-aspect.integrateddynamics.write.operator.charsetpipe.shifter,Predicate Item Pipe Shift,プレディケート アイテム Pipe Shift
-aspect.integrateddynamics.write.operator.charsetpipe.shifter.info,Enable pipe item shifting for all items that match the given predicate,Enable pipe アイテム shifting fまたは すべて items that match given プレディケート
-aspect.integrateddynamics.write.operator.charsetpipe.shifterfluid,Predicate Fluid Pipe Shift,プレディケート 液体 Pipe Shift
-aspect.integrateddynamics.write.operator.charsetpipe.shifterfluid.info,Enable pipe fluid shifting for all fluids that match the given predicate,Enable pipe 液体 shifting fまたは すべて fluids that match given プレディケート
+aspect.integrateddynamics.write.list.signals.destinations.info,Set a new destination list on a minecart.,Set 新しい 目的地 リスト on minecart.
+aspect.integrateddynamics.write.operator.charsetpipe.shifter,Predicate Item Pipe Shift,プレディケートアイテムパイプシフト
+aspect.integrateddynamics.write.operator.charsetpipe.shifter.info,Enable pipe item shifting for all items that match the given predicate,指定されたプレディケートと一致するすべてのアイテムに対してパイプアイテムシフティングを有効にします。
+aspect.integrateddynamics.write.operator.charsetpipe.shifterfluid,Predicate Fluid Pipe Shift,プレディケート 液体 パイプシフト
+aspect.integrateddynamics.write.operator.charsetpipe.shifterfluid.info,Enable pipe fluid shifting for all fluids that match the given predicate,指定されたプレディケートと一致するすべての液体に対してパイプ液体シフティングを有効にします。
 config.jade.plugin_integrateddynamicscompat.drying_basin,Drying Basin,乾燥ベイスン
 config.jade.plugin_integrateddynamicscompat.mechanical_drying_basin,Mechanical Drying Basin,Mechanical 乾燥ベイスン
 config.jade.plugin_integrateddynamicscompat.mechanical_squeezer,Mechanical Squeezer,機械搾油機
 config.jade.plugin_integrateddynamicscompat.part,Part,パーツ
 config.jade.plugin_integrateddynamicscompat.proxy,Proxy,プロキシ
 config.jade.plugin_integrateddynamicscompat.squeezer,Squeezer,搾油機
-error.jei.integrateddynamics.recipetransfer.recipe.toobig.desc,Too big for the Logic Programmer recipe pattern.,Too big fまたは ロジックプログラマー レシピ pattern.
+error.jei.integrateddynamics.recipetransfer.recipe.toobig.desc,Too big for the Logic Programmer recipe pattern.,ロジックプログラマー レシピパターンには大きすぎます。
 gui.integrateddynamics.jei.category.time.seconds,%ss,%s秒
-gui.integrateddynamics.waila.drying_basin_config,Drying Basin Information,乾燥ベイスン Infまたはmation
+gui.integrateddynamics.waila.drying_basin_config,Drying Basin Information,乾燥盆地 情報
 gui.integrateddynamics.waila.energy,Energy: %s / %s FE,エネルギー: %s / %s FE
 gui.integrateddynamics.waila.fluid,Fluid: %s (%s mB),液体: %s (%s mB)
 gui.integrateddynamics.waila.fluid.in,Input Fluid: %s (%s mB),入力 液体: %s (%s mB)
@@ -1925,57 +1923,57 @@ gui.integrateddynamics.waila.fluid.out,Input Fluid: %s (%s mB),入力 液体: %s
 gui.integrateddynamics.waila.item,Item: %s,アイテム: %s
 gui.integrateddynamics.waila.item.in,Input Item: %s,入力 アイテム: %s
 gui.integrateddynamics.waila.item.out,Output Item: %s,出力 アイテム: %s
-gui.integrateddynamics.waila.mechanical_drying_basin_config,Mechanical Drying Basin Information,Mechanical 乾燥ベイスン Infまたはmation
-gui.integrateddynamics.waila.mechanical_squeezer_config,Mechanical Squeezer Information,Mechanical Squeezer Infまたはmation
-gui.integrateddynamics.waila.part_config,Part Information,パーツ Infまたはmation
+gui.integrateddynamics.waila.mechanical_drying_basin_config,Mechanical Drying Basin Information,メカニカル 乾燥盆地 情報
+gui.integrateddynamics.waila.mechanical_squeezer_config,Mechanical Squeezer Information,メカニカルスクイーザー情報
+gui.integrateddynamics.waila.part_config,Part Information,パーツ 情報
 gui.integrateddynamics.waila.progress,Progress: %s / 100,進捗: %s / 100
-gui.integrateddynamics.waila.proxy_config,Proxy Information,プロキシ Infまたはmation
-gui.integrateddynamics.waila.squeezer_config,Squeezer Information,Squeezer Infまたはmation
+gui.integrateddynamics.waila.proxy_config,Proxy Information,プロキシ 情報
+gui.integrateddynamics.waila.squeezer_config,Squeezer Information,スクイーザー情報
 operator.operators.integrateddynamics.itemstack.getitemthaumcraftaspects,Thaumcraft Aspects,Thaumcraftアスペクト
-operator.operators.integrateddynamics.itemstack.getitemthaumcraftaspects.info,The list of Thaumcraft aspects this item has,The リスト of Thaumcraft aspects this アイテム has
+operator.operators.integrateddynamics.itemstack.getitemthaumcraftaspects.info,The list of Thaumcraft aspects this item has,そのリスト of Thaumcraft アスペクト this アイテム has
 operator.operators.integrateddynamics.itemstack.ic2eucapacity,EU Capacity,EUキャパシティ
-operator.operators.integrateddynamics.itemstack.ic2eucapacity.info,The maximum amount of EU that can be stored in this item,The maximum 量 of EU that can be stまたはed in this アイテム
+operator.operators.integrateddynamics.itemstack.ic2eucapacity.info,The maximum amount of EU that can be stored in this item,このアイテムに保存できる EU の最大量
 operator.operators.integrateddynamics.itemstack.isic2eucontainer,Is EU Container,EUコンテナ判定
-operator.operators.integrateddynamics.itemstack.isic2eucontainer.info,If the given item can hold EU,If given アイテム can hold EU
+operator.operators.integrateddynamics.itemstack.isic2eucontainer.info,If the given item can hold EU,If与えられたアイテム can hold EU
 operator.operators.integrateddynamics.itemstack.isrfcontainer,Is RF Container,RFコンテナ判定
-operator.operators.integrateddynamics.itemstack.isrfcontainer.info,If the given item can hold RF,If given アイテム can hold RF
-operator.operators.integrateddynamics.itemstack.isteslacontainer,Is Tesla Container,Teslaコンテナか
-operator.operators.integrateddynamics.itemstack.isteslacontainer.info,If the given item can hold Tesla,If given アイテム can hold Tesla
-operator.operators.integrateddynamics.itemstack.isteslaempty,Is Tesla Buffer Empty,Teslaバッファが空か
-operator.operators.integrateddynamics.itemstack.isteslaempty.info,If the given item has no Tesla energy,If given アイテム has no Teslエネルギー
-operator.operators.integrateddynamics.itemstack.isteslafull,Is Tesla Buffer Full,Teslaバッファが満杯か
-operator.operators.integrateddynamics.itemstack.isteslafull.info,If the given item is full of Tesla energy,If given アイテム is full of Teslエネルギー
-operator.operators.integrateddynamics.itemstack.isteslanonempty,Is Tesla Buffer Not Empty,Teslaバッファが空ではないか
-operator.operators.integrateddynamics.itemstack.isteslanonempty.info,If the given item has Tesla energy,If given アイテム has Teslエネルギー
-operator.operators.integrateddynamics.itemstack.isteslaprovider,Is Tesla Provider,Teslaプロバイダーか
-operator.operators.integrateddynamics.itemstack.isteslaprovider.info,If the given item can provide Tesla,If given アイテム can provide Tesla
-operator.operators.integrateddynamics.itemstack.isteslareceiver,Is Tesla Receiver,Teslaレシーバーか
-operator.operators.integrateddynamics.itemstack.isteslareceiver.info,If the given item can receiver Tesla,If given アイテム can receiver Tesla
+operator.operators.integrateddynamics.itemstack.isrfcontainer.info,If the given item can hold RF,If与えられたアイテム can hold RF
+operator.operators.integrateddynamics.itemstack.isteslacontainer,Is Tesla Container,テスラコンテナか
+operator.operators.integrateddynamics.itemstack.isteslacontainer.info,If the given item can hold Tesla,If与えられたアイテム can hold テスラ
+operator.operators.integrateddynamics.itemstack.isteslaempty,Is Tesla Buffer Empty,テスラバッファが空か
+operator.operators.integrateddynamics.itemstack.isteslaempty.info,If the given item has no Tesla energy,If与えられたアイテム has no Teslエネルギー
+operator.operators.integrateddynamics.itemstack.isteslafull,Is Tesla Buffer Full,テスラバッファが満杯か
+operator.operators.integrateddynamics.itemstack.isteslafull.info,If the given item is full of Tesla energy,If与えられたアイテム is full of Teslエネルギー
+operator.operators.integrateddynamics.itemstack.isteslanonempty,Is Tesla Buffer Not Empty,テスラバッファが空ではないか
+operator.operators.integrateddynamics.itemstack.isteslanonempty.info,If the given item has Tesla energy,If与えられたアイテム has Teslエネルギー
+operator.operators.integrateddynamics.itemstack.isteslaprovider,Is Tesla Provider,テスラプロバイダーか
+operator.operators.integrateddynamics.itemstack.isteslaprovider.info,If the given item can provide Tesla,If与えられたアイテム can provide テスラ
+operator.operators.integrateddynamics.itemstack.isteslareceiver,Is Tesla Receiver,テスラレシーバーか
+operator.operators.integrateddynamics.itemstack.isteslareceiver.info,If the given item can receiver Tesla,If与えられたアイテム can receiver テスラ
 operator.operators.integrateddynamics.itemstack.rfcapacity,RF Capacity,RFキャパシティ
-operator.operators.integrateddynamics.itemstack.rfcapacity.info,The maximum amount of RF that can be stored in this item,The maximum 量 of RF that can be stまたはed in this アイテム
-operator.operators.integrateddynamics.itemstack.storedic2eu,EU Stored,EU Stまたはed
-operator.operators.integrateddynamics.itemstack.storedic2eu.info,The amount of EU stored in this item,The 量 of EU stまたはed in this アイテム
-operator.operators.integrateddynamics.itemstack.storedrf,RF Stored,RF Stまたはed
-operator.operators.integrateddynamics.itemstack.storedrf.info,The amount of RF stored in this item,The 量 of RF stまたはed in this アイテム
-operator.operators.integrateddynamics.itemstack.teslacapacity,Tesla Capacity,Tesla容量
-operator.operators.integrateddynamics.itemstack.teslacapacity.info,The maximum amount of Tesla that can be stored in this item,The maximum 量 of Teslthat can be stまたはed in this アイテム
-operator.operators.integrateddynamics.itemstack.teslafillratio,Tesla Fill Ratio,Tesla充填率
-operator.operators.integrateddynamics.itemstack.teslafillratio.info,The amount of Tesla in the item divided by its capacity,The 量 of Teslin アイテム divided by its capacity
-operator.operators.integrateddynamics.itemstack.teslastored,Tesla Stored,TeslStまたはed
-operator.operators.integrateddynamics.itemstack.teslastored.info,The amount of Tesla stored in this item,The 量 of Teslstまたはed in this アイテム
-operator.operators.integrateddynamics.thaumcraft.aspect,Thaumcraft Aspect,Thaumcraft アスペクト
+operator.operators.integrateddynamics.itemstack.rfcapacity.info,The maximum amount of RF that can be stored in this item,このアイテムに保存できる RF の最大量
+operator.operators.integrateddynamics.itemstack.storedic2eu,EU Stored,保存済み EU
+operator.operators.integrateddynamics.itemstack.storedic2eu.info,The amount of EU stored in this item,このアイテムに保存されている EU の量
+operator.operators.integrateddynamics.itemstack.storedrf,RF Stored,保存済み RF
+operator.operators.integrateddynamics.itemstack.storedrf.info,The amount of RF stored in this item,このアイテムに保存されている RF の量
+operator.operators.integrateddynamics.itemstack.teslacapacity,Tesla Capacity,テスラ容量
+operator.operators.integrateddynamics.itemstack.teslacapacity.info,The maximum amount of Tesla that can be stored in this item,このアイテムに保存できる テスラ の最大量
+operator.operators.integrateddynamics.itemstack.teslafillratio,Tesla Fill Ratio,テスラ充填率
+operator.operators.integrateddynamics.itemstack.teslafillratio.info,The amount of Tesla in the item divided by its capacity,その 量 of Teslin アイテム divided by its capacity
+operator.operators.integrateddynamics.itemstack.teslastored,Tesla Stored,保存済み テスラ
+operator.operators.integrateddynamics.itemstack.teslastored.info,The amount of Tesla stored in this item,このアイテムに保存されている テスラ の量
+operator.operators.integrateddynamics.thaumcraft.aspect,Thaumcraft Aspect,Thaumcraftアスペクト
 operator.operators.integrateddynamics.thaumcraft.aspect.amount,Vis Amount,Vis量
-operator.operators.integrateddynamics.thaumcraft.aspect.amount.info,The amount of vis in the aspect.,The 量 of vis in アスペクト.
-operator.operators.integrateddynamics.thaumcraft.aspect.basename,Thaumcraft Aspect %s,Thaumcraft アスペクト %s
+operator.operators.integrateddynamics.thaumcraft.aspect.amount.info,The amount of vis in the aspect.,その 量 of vis in アスペクト.
+operator.operators.integrateddynamics.thaumcraft.aspect.basename,Thaumcraft Aspect %s,Thaumcraftアスペクト %s
 operator.operators.integrateddynamics.thaumcraft.aspect.entityaspects,Entity Aspects,エンティティアスペクト
-operator.operators.integrateddynamics.thaumcraft.aspect.entityaspects.info,Get the list of aspects in the given entity.,Get リスト of aspects in given entity.
+operator.operators.integrateddynamics.thaumcraft.aspect.entityaspects.info,Get the list of aspects in the given entity.,取得 リスト of アスペクト in与えられたエンティティ.
 operator.operators.integrateddynamics.thaumcraft.aspect.getcombinationaspect,Combination Aspect,Combination アスペクト
-operator.operators.integrateddynamics.thaumcraft.aspect.getcombinationaspect.info,Get the combination aspect of the two given aspects.,Get combination アスペクト of two given aspects.
+operator.operators.integrateddynamics.thaumcraft.aspect.getcombinationaspect.info,Get the combination aspect of the two given aspects.,取得 combination アスペクト of two与えられたアスペクト.
 operator.operators.integrateddynamics.thaumcraft.aspect.getcompoundaspects,Compound Aspects,複合アスペクト
-operator.operators.integrateddynamics.thaumcraft.aspect.getcompoundaspects.info,The list of aspects this aspect is made up of.,The リスト of aspects this アスペクト is made up of.
+operator.operators.integrateddynamics.thaumcraft.aspect.getcompoundaspects.info,The list of aspects this aspect is made up of.,そのリスト of アスペクト this アスペクト is made up of.
 operator.operators.integrateddynamics.thaumcraft.aspect.isprimal,Is Aspect Primal,Is アスペクト Primal
-operator.operators.integrateddynamics.thaumcraft.aspect.isprimal.info,If the given aspect is a primal aspect.,If given アスペクト is primal アスペクト.
-operator.operators.integrateddynamics.thaumcraft.aspect.israwaspectequal,Raw Aspect Equals,Raw アスペクト Equals
+operator.operators.integrateddynamics.thaumcraft.aspect.isprimal.info,If the given aspect is a primal aspect.,If与えられたアスペクト is primal アスペクト.
+operator.operators.integrateddynamics.thaumcraft.aspect.israwaspectequal,Raw Aspect Equals,生 アスペクト Equals
 operator.operators.integrateddynamics.thaumcraft.aspect.israwaspectequal.info,If the given raw aspects are equal.,指定されたローアスペクトが等しい場合。
-valuetype.integrateddynamics.error.thaumcraftaspect.no_aspect,The inserted item contains no aspects.,The inserted アイテム contains no aspects.
-valuetype.valuetypes.integrateddynamics.thaumcraftaspect,Thaumcraft Aspect,Thaumcraft アスペクト
+valuetype.integrateddynamics.error.thaumcraftaspect.no_aspect,The inserted item contains no aspects.,その inserted アイテム contains no アスペクト.
+valuetype.valuetypes.integrateddynamics.thaumcraftaspect,Thaumcraft Aspect,Thaumcraftアスペクト

@@ -54,8 +54,8 @@ block.rsgauges.glass_contact_mat.help,"A glass floor plate that changes
  ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.colortinting.help}","機械的な圧力（例えば誰かが
-その上に立つ）にさらされたとき、
+${rsgauges.switch.feature.colortinting.help}","機械的な圧力(例えば誰かが
+その上に立つ)にさらされたとき、
 および圧力が解放された短い時間後に
 色が変わりレッドストーン信号を
 発する透明フロアプレート。
@@ -87,8 +87,8 @@ ${rsgauges.switch.feature.linksource.help}","設定された開始時刻から�
 レッドストーン信号を発する
 小型のガラスデバイス。
 時間間隔はデバイス前面のボタンで
-設定されます（24時間形式、
-06:00は日の出）。これらのボタンは
+設定されます(24時間形式、
+06:00は日の出)。これらのボタンは
 アウトプットパワーと
 ランダム化値を設定することもできます。
 後者は設定時間をランダムに
@@ -112,8 +112,8 @@ block.rsgauges.glass_door_contact_mat.help,"A glass floor plate that changes
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.colortinting.help}","機械的な圧力（例えば誰かが
-その上に立つ）にさらされたとき、
+${rsgauges.switch.feature.colortinting.help}","機械的な圧力(例えば誰かが
+その上に立つ)にさらされたとき、
 および圧力が解放された短い時間後に
 色が変わりレッドストーン信号を
 発する透明フロアプレート。
@@ -146,12 +146,12 @@ ${rsgauges.switch.feature.linksource.help}","定義されたボリュームを�
 レッドストーン信号を発する
 小型のガラスデバイス。
 ボリュームは上下2ブロック分、
-前左右は「距離」分（180度をカバー）。
+前左右は「距離」分(180度をカバー)。
 距離は前面の小さなボタンで
 設定でき、アウトプット強度、
 見えたエンティティの数、
 および見えたエンティティのタイプ
-（モブ、プレイヤー、動物など）も
+(モブ、プレイヤー、動物など)も
 設定できます。
 アウトプットはセンサーが置かれている
 ブロックに対して行われます。
@@ -179,7 +179,7 @@ ${rsgauges.switch.feature.outputconfig.help}
  - §1青：オン時間§r
 - §6黄：オフ時間§r
 - §2緑：信号ランプアップ/ダウン§r
-- §4赤：アウトプットパワー§r
+- 赤：アウトプットパワー§r
  タイマーはセットアップ用に
 スタンバイモードに配置されます。
 前面をクリックして実行モードに設定します。
@@ -214,11 +214,11 @@ ${rsgauges.switch.feature.linksource.help}","1方向を観察し、
 距離は前面の小さなボタンで設定でき、
 アウトプット強度、見えたエンティティの数、
 および見えたエンティティのタイプ
-（モブ、プレイヤー、動物など）も
+(モブ、プレイヤー、動物など)も
 設定できます。
 アウトプットはセンサーが置かれている
 ブロックに対して行われます。
-切り替え音は発しません。 ${rsgauges.switch.feature.outputconfig.help}
+切り替え音は発しません。${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.glass_rotary_switch,Bistable Glass Switch,双安定ガラススイッチ
 block.rsgauges.glass_rotary_switch.help,"${rsgauges.switch.feature.typebistable.help}
@@ -325,11 +325,11 @@ ${rsgauges.switch.feature.linksource.help}","その前にある1つ以上のブ�
 設定されたカテゴリと一致する場合、
 レッドストーン信号を発します。
 背面のボタンで設定：
- - §1距離§r（どこまで観察するか）
- - §6しきい値§r（一致数）
- - §3デバウンス§r（ジッター遅延）
- - §4アウトプットパワー§r
- - §2フィルター§r（固体、流体、木のログ）
+ - §1距離§r(どこまで観察するか)
+ - §6しきい値§r(一致数)
+ - デバウンス§r(ジッター遅延)
+ - アウトプットパワー§r
+ - §2フィルター§r(固体、流体、木のログ)
  ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.industrial_button,Machine Button,機械ボタン
@@ -345,7 +345,7 @@ ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.projectilesense.help}"
+${rsgauges.switch.feature.発射体ense.help}"
 block.rsgauges.industrial_comparator_switch,Industrial Comparator Switch,産業コンパレーターオススイッチ
 block.rsgauges.industrial_comparator_switch.help,"A small device that that emits a
  redstone signal depending on the
@@ -372,8 +372,8 @@ ${rsgauges.switch.feature.linksource.help}","コンパレーター出力レベ�
 信号強度、スイッチオン
 コンパレーター値、スイッチオフ
 コンパレーター値、および動作
-モード（「コンパレーター、空きスロット、
-使用スロット...」）を設定できます。
+モード(「コンパレーター、空きスロット、
+使用スロット...」)を設定できます。
 レッドストーン信号モードでは、
 スイッチはパワーを出力しませんが、
 スイッチリンクソースとして使用できます。
@@ -389,8 +389,8 @@ block.rsgauges.industrial_contact_mat.help,"An industrial floor contact mat
  Outputs are to the front and bottom.
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}","機械的な圧力（例えば誰かが
-その上に立つ）にさらされたときに
+${rsgauges.switch.feature.linksource.help}","機械的な圧力(例えば誰かが
+その上に立つ)にさらされたときに
 レッドストーン信号を発する
 産業用フロアコンタクトマット、
 および圧力が解放された短い時間後。
@@ -418,8 +418,8 @@ ${rsgauges.switch.feature.linksource.help}","設定された開始時刻から�
 レッドストーン信号を発する
 小型デバイス。
 時間間隔はデバイス前面のボタンで
-設定されます（24時間形式、
-06:00は日の出）。これらのボタンは
+設定されます(24時間形式、
+06:00は日の出)。これらのボタンは
 アウトプットパワーと
 ランダム化値を設定することもできます。
 後者は設定時間をランダムに遅延させることを
@@ -454,8 +454,8 @@ block.rsgauges.industrial_door_contact_mat.help,"An industrial floor contact mat
 ${rsgauges.switch.feature.contactmat.touch.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}","機械的な圧力（例えば誰かが
-その上に立つ）にさらされたときに
+${rsgauges.switch.feature.linksource.help}","機械的な圧力(例えば誰かが
+その上に立つ)にさらされたときに
 レッドストーン信号を発する
 産業用フロアコンタクトマット、
 および圧力が解放された短い時間後。
@@ -497,11 +497,11 @@ ${rsgauges.switch.feature.linksource.help}","定義されたボリュームを�
 レッドストーン信号を発する
 小型デバイス。ボリュームは
 上下2ブロック分、前左右は「距離」分
-（180度をカバー）です。
+(180度をカバー)です。
 距離は前面の小さなボタンで設定でき、
 アウトプット強度、見えたエンティティの数、
 および見えたエンティティのタイプ
-（モブ、プレイヤー、動物など）も
+(モブ、プレイヤー、動物など)も
 設定できます。
 アウトプットはセンサーが置かれている
 ブロックに対して行われます。
@@ -516,7 +516,7 @@ ${rsgauges.switch.feature.linksource.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
- 発射物で発射することができます。"
+ 発射物で発射できます。"
 block.rsgauges.industrial_fallthrough_detector,Industrial Fall-Through Detection Frame,産業落下検知フレーム
 block.rsgauges.industrial_fallthrough_detector.help,"An industrial sensor frame that
  emits a redstone signal when
@@ -613,7 +613,7 @@ ${rsgauges.switch.feature.outputconfig.help}
  - §1青：オン時間§r
 - §6黄：オフ時間§r
 - §2緑：信号ランプアップ/ダウン§r
-- §4赤：アウトプットパワー§r
+- 赤：アウトプットパワー§r
  タイマーはセットアップ用に
 スタンバイモードに配置されます。
 前面をクリックして実行モードに設定します。
@@ -623,7 +623,7 @@ ${rsgauges.switch.feature.outputconfig.help}
  スイッチリンクターゲットとして
 タイマーは実行とスタンバイ
 モード間で切り替わります。"
-block.rsgauges.industrial_knock_button,Knock Detector Pulse Switch (industrial),ノック検知器パルススイッチ（産業用）
+block.rsgauges.industrial_knock_button,Knock Detector Pulse Switch (industrial),ノック検知器パルススイッチ(産業用)
 block.rsgauges.industrial_knock_button.help,"Emits a redstone pulse when the
  adjacent block of its facing is
  clicked.
@@ -639,7 +639,7 @@ ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}"
-block.rsgauges.industrial_knock_switch,Knock Detector Bistable Switch (industrial),ノック検知器双安定スイッチ（産業用）
+block.rsgauges.industrial_knock_switch,Knock Detector Bistable Switch (industrial),ノック検知器双安定スイッチ(産業用)
 block.rsgauges.industrial_knock_switch.help,"Switches on/off when the adjacent
  block of its facing is clicked.§r
 ${rsgauges.switch.feature.outputconfig.help}
@@ -682,7 +682,7 @@ ${rsgauges.switch.feature.linksource.help}","その場所のローカル照度�
 レッドストーン信号を発する
 小型デバイス。§r これらのボタンは
 アウトプットパワーとデバウンスも
-設定することができます。デバウンスは
+設定できます。デバウンスは
 照度レベルが安定するまで
 スイッチオフまたはオンを遅延させます。
 より高い値はより良いノイズ
@@ -738,7 +738,7 @@ ${rsgauges.switch.feature.linksource.help}","1方向を観察し、エンティ�
 距離は前面の小さなボタンで設定でき、
 アウトプット強度、見えたエンティティの数、
 および見えたエンティティのタイプ
-（モブ、プレイヤー、動物など）も
+(モブ、プレイヤー、動物など)も
 設定できます。
 アウトプットはセンサーが置かれている
 ブロックに対して行われます。
@@ -815,8 +815,8 @@ block.rsgauges.industrial_shock_sensitive_contact_mat.help,"An industrial contac
  bottom. Power is always 15.
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
-${rsgauges.switch.feature.linksource.help}","上からの機械的衝撃（例えば何かが
-その上に落ちてくる）を受けたときに
+${rsgauges.switch.feature.linksource.help}","上からの機械的衝撃(例えば何かが
+その上に落ちてくる)を受けたときに
 レッドストーンパルスを発する
 産業用コンタクトマット。
 アウトプットは前面と下面です。
@@ -943,11 +943,11 @@ ${rsgauges.switch.feature.linksource.help}","小型産業パルス切り替え
 信号を発することはできませんが、
 それが取り付けられているブロックの
 レッドストーンパワーが変わったときに
-リンクパールをトリガーすることができます。
+リンクパールをトリガーできます。
 入力が0から任意の高い値に変わったときに
 短時間アクティブになります。
 空の手で二重左クリックすることで
-入力極性と感度（デフォルトは弱）を
+入力極性と感度(デフォルトは弱)を
 変更できます。
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}"
@@ -1007,13 +1007,13 @@ ${rsgauges.switch.feature.linksource.help}","小型産業切り替え
 その代わり、それが取り付けられている
 ブロックのレッドストーンパワーが
 変わったときにリンクパールを
-トリガーすることができます。
+トリガーできます。
 空の手で二重左クリックして
-入力極性（反転は
-アクティブロー）と強度
-感度（デフォルトは弱、強力は
+入力極性(反転は
+アクティブロー)と強度
+感度(デフォルトは弱、強力は
 リンクをトリガーするために強力なパワーが
-必要であることを意味します）を
+必要であることを意味します)を
 変更できます。
 消音されているため非常に静かです。
 テスト用にレバーのように手動で
@@ -1093,7 +1093,7 @@ ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.projectilesense.help}"
+${rsgauges.switch.feature.発射体ense.help}"
 block.rsgauges.oldfancy_small_button,Small Old Fancy Button,小型古風なボタン
 block.rsgauges.oldfancy_small_button.help,"${rsgauges.switch.feature.typepulse.help}${rsgauges.switch.feature.outputconfig.help} ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
@@ -1103,7 +1103,7 @@ ${rsgauges.switch.feature.projectilesense.help}","${rsgauges.switch.feature.type
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.projectilesense.help}"
+${rsgauges.switch.feature.発射体ense.help}"
 block.rsgauges.oldfancy_spring_reset_chain,Old Fancy Chain Button,古風なチェーンボタン
 block.rsgauges.oldfancy_spring_reset_chain.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
@@ -1127,7 +1127,7 @@ ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linksource.help}","ポピーと非常に似ている
 人工の赤い花で、
 何かが接触したときに
-（接触プレートのように）
+(接触プレートのように)
 前面と下面にレッドストーン信号を
 発します。
 ${rsgauges.switch.feature.outputconfig.help}
@@ -1154,7 +1154,7 @@ ${rsgauges.switch.feature.pulseextend.help}
 ${rsgauges.switch.feature.pulsetime.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}
-${rsgauges.switch.feature.projectilesense.help}"
+${rsgauges.switch.feature.発射体ense.help}"
 block.rsgauges.rustic_contact_plate,Rustic Pressure Plate,素朴な圧力板
 block.rsgauges.rustic_contact_plate.help,"A metal plate that emits a redstone
  signal when exposed to mechanical
@@ -1166,8 +1166,8 @@ block.rsgauges.rustic_contact_plate.help,"A metal plate that emits a redstone
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linksource.help}","上からの機械的圧力
-（例えば誰かが
-その上に立つ）にさらされたときに
+(例えば誰かが
+その上に立つ)にさらされたときに
 レッドストーン信号を発する
 金属プレート、そして圧力が
 解放された短い時間後。
@@ -1188,8 +1188,8 @@ ${rsgauges.switch.feature.contactmat.touch.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linksource.help}","上からの機械的圧力
-（例えば誰かが
-その上に立つ）にさらされたときに
+(例えば誰かが
+その上に立つ)にさらされたときに
 レッドストーン信号を発する
 金属プレート、そして圧力が
 解放された短い時間後。
@@ -1295,8 +1295,8 @@ block.rsgauges.rustic_shock_sensitive_plate.help,"A metal plate emitting a redst
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linksource.help}","上からの機械的衝撃
-（例えば何かが
-その上に落ちてくる）にさらされたときに
+(例えば何かが
+その上に落ちてくる)にさらされたときに
 レッドストーンパルスを発する
 金属プレート。
 アウトプットは前面と
@@ -1356,7 +1356,7 @@ ${rsgauges.switch.feature.linksource.help}","${rsgauges.switch.feature.typebista
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.linktarget.help}
 ${rsgauges.switch.feature.linksource.help}"
-block.rsgauges.sensitive_glass_block,Redstone-Sensitive Glass Block (Light Emitting),レッドストーン感知ガラスブロック（発光）
+block.rsgauges.sensitive_glass_block,Redstone-Sensitive Glass Block (Light Emitting),レッドストーン感知ガラスブロック(発光)
 block.rsgauges.sensitive_glass_block.help,"Glass block that emits light when
  it is powered by a redstone signal,
  similar to a redstone lamp.","レッドストーン信号によって
@@ -1391,7 +1391,7 @@ ${rsgauges.switch.feature.contactmat.offdelay.help}
 ${rsgauges.switch.feature.linksource.help}","タンポポと非常に似ている
 人工の黄色い花で、
 何かが接触したときに
-（接触プレートのように）
+(接触プレートのように)
 前面と下面にレッドストーン信号を
 発します。
 ${rsgauges.switch.feature.outputconfig.help}
@@ -1418,14 +1418,14 @@ item.rsgauges.switchlink_pearl.help,"Created by left clicking a switch
  link triggers (simply experiment
  a bit).","エンダーパールでスイッチを
 左クリックして作成されます。
-リモートで使用された（スニークスニーク）ときに
-または別の（ソース）スイッチに
+リモートで使用された(スニークスニーク)ときに
+または別の(ソース)スイッチに
 接続されたときにそのターゲット
 スイッチを起動します。
 スイッチリンクパールで
 ターゲットをクリックして
 リンクオプションを変更します
-（オプションをサイクルします）。
+(オプションをサイクルします)。
 複数のパールを1つのスイッチに
 接続できます。パールは
 ストレスを受けたときまたは
@@ -1438,7 +1438,7 @@ item.rsgauges.switchlink_pearl.help,"Created by left clicking a switch
 異なるスイッチタイプは
 リンクトリガーへの反応が
 異なる場合があります
-（簡単に試してみてください）。"
+(簡単に試してみてください)。"
 itemGroup.tabrsgauges,Gauges and Switches,ゲージとスイッチ
 language,English,日本語
 language.code,en_us,ja_jp
@@ -1477,8 +1477,8 @@ rsgauges.switch.feature.outputconfig.help,"Click with a Redstone Torch to
  through the options that this
  switch supports).","レッドストーン松明でクリックして
 アウトプット設定をします
-（このスイッチがサポートするオプションを
-サイクルします）。"
+(このスイッチがサポートするオプションを
+サイクルします)。"
 rsgauges.switch.feature.projectilesense.help,Can be activated with projectiles.,発射物で起動できます。
 rsgauges.switch.feature.pulseextend.help,"Activate while already active to
  extend the pulse time.","既にアクティブな状態で起動して
@@ -1609,10 +1609,10 @@ rsgauges.switchlinking.source_assign.error_toofaraway,Target is too far away for
 rsgauges.switchlinking.source_assign.ok,Link pearl plugged,リンクパールを接続しました
 rsgauges.switchlinking.switchlink_pearl.tooltip.linkedblock,Linked to %1$s.,%1$sにリンク済み。
 rsgauges.switchlinking.switchlink_pearl.tooltip.linkeddistance,Target is %1$s blocks away.,ターゲットは%1$sブロック離れています。
-rsgauges.switchlinking.switchlink_pearl.tooltip.toofaraway,(too far away),（遠すぎます）
+rsgauges.switchlinking.switchlink_pearl.tooltip.toofaraway,(too far away),(遠すぎます)
 rsgauges.switchlinking.switchlink_pearl.use.targetgone,Target switch is broken or relocated,ターゲットスイッチが壊れているか移動しています
 rsgauges.switchlinking.switchlink_pearl.use.toofaraway,Target switch is too far away from you,ターゲットスイッチがあなたから遠すぎます
 rsgauges.switchlinking.target_assign.error_notarget,This switch cannot be a link target,このスイッチはリンクターゲットになることはできません
 rsgauges.switchlinking.target_assign.ok,Target switch memorized,ターゲットスイッチを記憶しました
-rsgauges.tooltip.hint.extended,§6[§9shift§r more§6]§r,§6[§9shift§r もっと見る§6]§r
-rsgauges.tooltip.hint.help,§6[§9ctrl-shift§r help§6]§r,§6[§9ctrl-shift§r ヘルプ§6]§r
+rsgauges.tooltip.hint.extended,§6[§9shift§r more§6]§r,§6[shift§r もっと見る§6]§r
+rsgauges.tooltip.hint.help,§6[§9ctrl-shift§r help§6]§r,§6[ctrl-shift§r ヘルプ§6]§r

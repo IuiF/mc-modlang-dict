@@ -6,9 +6,9 @@ fpsreducer.config.hudPosAdj.alignment.1,Right Aligned,右寄せ
 fpsreducer.config.hudPosAdj.alignment.2,Centered,中央寄せ
 fpsreducer.config.hudPosAdj.description,"Select one reference position from the eight check boxes located at the edges of the screen, and then drag the box indicating the position of the FPS counter. You can also use arrow keys or WASD keys to move the box.",画面の端にある8つのチェックボックスから1つの参照位置を選択してから、FPSカウンターの位置を示すボックスをドラッグしてください。矢印キーまたはWASDキーを使用してボックスを移動することもできます。
 fpsreducer.config.hudPosAdj.hudInfo.0,HUD Disabled,HUD無効
-fpsreducer.config.hudPosAdj.hudInfo.1,FPS+CPU (Long),FPS+CPU（長）
-fpsreducer.config.hudPosAdj.hudInfo.2,FPS+CPU (Short),FPS+CPU（短）
-fpsreducer.config.hudPosAdj.hudInfo.3,FPS+CPU (2lines),FPS+CPU（2行）
+fpsreducer.config.hudPosAdj.hudInfo.1,FPS+CPU (Long),FPS+CPU(長)
+fpsreducer.config.hudPosAdj.hudInfo.2,FPS+CPU (Short),FPS+CPU(短)
+fpsreducer.config.hudPosAdj.hudInfo.3,FPS+CPU (2lines),FPS+CPU(2行)
 fpsreducer.config.hudPosAdj.hudInfo.4,FPS Only,FPSのみ
 fpsreducer.config.hudPosAdj.hudInfo.5,CPU Only,CPUのみ
 fpsreducer.config.hudPosAdj.hudInfo.6,Simple,シンプル
@@ -35,24 +35,24 @@ fpsreducer.config.menu.reducingInBackground,Reduce FPS when inactive,非フォ�
 fpsreducer.config.menu.reducingInGameMenu,Reduce FPS in Game Menu,ゲームメニューでFPS削減
 fpsreducer.config.menu.returnToGame,Done,完了
 fpsreducer.config.menu.suppressSound,Suppress sound when inactive,非フォーカス時に音を抑制
-fpsreducer.config.menu.waitingTime,Waiting Time (min:sec),待機時間（分:秒）
+fpsreducer.config.menu.waitingTime,Waiting Time (min:sec),待機時間(分:秒)
 fpsreducer.config.playerConfig,Player Config,プレイヤー設定
 fpsreducer.config.screen.title,FPS Reducer Configuration,FPS削減設定
 fpsreducer.config.tooltip.guiScreenFps,Max FPS in GUI screens such as the inventory screen and the menu screens.,インベントリ画面やメニュー画面などのGUI画面での最大FPS。
 fpsreducer.config.tooltip.idleFps,"Max FPS at idle state. The FPS will be reduced to this value, when there is no operation for a specified period of time.",アイドル状態での最大FPS。指定期間操作がない場合、FPSはこの値に削減されます。
 fpsreducer.config.tooltip.noActFps,"Max FPS during no operation. After detecting no operation, the FPS is immediately limited to this value.",操作なし時の最大FPS。操作なしが検出された後、FPSは即座にこの値に制限されます。
 fpsreducer.config.tooltip.profile.cooling1,"§eProfile: §oSituational Cooling (Low)§r
-Proactively control the load depending on the situation. (For PC that runs at 60fps or higher.) In addition to the behavior of Eco profile, FPS will be limited to 60fps when the character is stationary, in inventory screen or in any GUI screen. Depending on VSync and Max Framerate settings in the Video Settings, the effect will be less effective.","§eプロフィール: §o状況別冷却（低）§r
-状況に応じて積極的に負荷を制御します。（60fps以上で動作するPCs向け。）エコプロフィールの動作に加えて、キャラクターが静止している場合、インベントリ画面またはGUI画面でFPSが60fpsに制限されます。ビデオ設定のVSyncと最大フレームレート設定によって、効果が低下します。"
+Proactively control the load depending on the situation. (For PC that runs at 60fps or higher.) In addition to the behavior of Eco profile, FPS will be limited to 60fps when the character is stationary, in inventory screen or in any GUI screen. Depending on VSync and Max Framerate settings in the Video Settings, the effect will be less effective.","§eプロフィール: §o状況別冷却(低)§r
+状況に応じて積極的に負荷を制御します。(60fps以上で動作するPCs向け。)エコプロフィールの動作に加えて、キャラクターが静止している場合、インベントリ画面またはGUI画面でFPSが60fpsに制限されます。ビデオ設定のVSyncと最大フレームレート設定によって、効果が低下します。"
 fpsreducer.config.tooltip.profile.cooling2,"§eProfile: §oSituational Cooling (High)§r
-More powerful load suppression depending on the situation. (For weak PC.) In addition to the behavior of Eco profile, FPS will be limited to 30fps when the character is stationary, in inventory screen or in any GUI screen.","§eプロフィール: §o状況別冷却（高）§r
-より強力な状況別負荷削減。（低スペックPC向け。）エコプロフィールの動作に加えて、キャラクターが静止している場合、インベントリ画面またはGUI画面でFPSが30fpsに制限されます。"
+More powerful load suppression depending on the situation. (For weak PC.) In addition to the behavior of Eco profile, FPS will be limited to 30fps when the character is stationary, in inventory screen or in any GUI screen.","§eプロフィール: §o状況別冷却(高)§r
+より強力な状況別負荷削減。(低スペックPC向け。)エコプロフィールの動作に加えて、キャラクターが静止している場合、インベントリ画面またはGUI画面でFPSが30fpsに制限されます。"
 fpsreducer.config.tooltip.profile.eco,"§eProfile: §oEco§r
 Almost same as the default setting of FPS Reducer 1. FPS will be reduced when the client is in background, in ESC menu or no operation for 10 minutes.","§eプロフィール: §oエコ§r
 FPS削減1のデフォルト設定とほぼ同じです。クライアントがバックグラウンドにある場合、ESCメニューまたは操作なしで10分経過した場合、FPSが削減されます。"
 fpsreducer.config.tooltip.profile.modest,"§eProfile: §oModest Eco§r
 FPS will be reduced when the client is in background or in ESC menu. (Default)","§eプロフィール: §oモデスト・エコ§r
-クライアントがバックグラウンドにある場合またはESCメニューでFPSが削減されます。（デフォルト）"
+クライアントがバックグラウンドにある場合またはESCメニューでFPSが削減されます。(デフォルト)"
 fpsreducer.config.tooltip.waitingTime,The waiting time until the client shifts to the idle state when there is no operation. Can be turned off by moving the slider to the right edge.,操作がない場合にクライアントがアイドル状態に移行するまでの待機時間。スライダーを右端に動かしてオフにできます。
 fpsreducer.key.forceIdle,Reduce FPS manually,手動でFPSを削減
 fpsreducer.key.openGui,Open Config GUI,設定GUIを開く

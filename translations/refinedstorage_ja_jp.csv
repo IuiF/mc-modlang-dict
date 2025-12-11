@@ -111,7 +111,7 @@ gui.refinedstorage.autocrafter.lock_mode.lock_until_low_redstone_signal,Lock unt
 gui.refinedstorage.autocrafter.lock_mode.lock_until_redstone_pulse_received,Lock until redstone pulse is received,レッドストーンパルスを受信するまでロック
 gui.refinedstorage.autocrafter.lock_mode.never,Never,ロックしない
 gui.refinedstorage.autocrafter.not_chained,Not chained,連結なし
-gui.refinedstorage.autocrafter.not_chained.help,"If another autocrafter is facing this one, they'll form a chain, allowing you to have more patterns going into a single machine.",他のオートクラフターがこれを向いて隣接している場合、これらはチェーンを形成し、1つの機械にさらに多くのパターンを入力することができます。
+gui.refinedstorage.autocrafter.not_chained.help,"If another autocrafter is facing this one, they'll form a chain, allowing you to have more patterns going into a single machine.",他のオートクラフターがこれを向いて隣接している場合、これらはチェーンを形成し、1つの機械にさらに多くのパターンを入力できます。
 gui.refinedstorage.autocrafter.visible_to_the_autocrafter_manager,Visible to the Autocrafter Manager,オートクラフター管理機に表示させる
 gui.refinedstorage.autocrafter.visible_to_the_autocrafter_manager.help,"If this is enabled, you will be able to manage this autocrafter in the Autocrafter Manager.",これを有効にすると、オートクラフター管理機でこのオートクラフターを管理できます。
 gui.refinedstorage.autocrafter_manager.search_mode,Search mode,検索モード
@@ -180,7 +180,7 @@ gui.refinedstorage.constructor.filter_help,The resources that should be placed f
 gui.refinedstorage.controller.redstone_mode_help,"When this device is inactive, the storage network will not be able to use this device as an energy source.",この機械がオフの時、ストレージネットワークはこの機械をエネルギー源として使用できなくなります。
 gui.refinedstorage.crafting_grid.move.inventory,Move items to inventory,アイテムをインベントリに移動
 gui.refinedstorage.crafting_grid.move.network,Move items to network,アイテムをネットワークに移動
-gui.refinedstorage.crafting_grid.press_shift_ctrl_to_only_show_items_used_in_crafting,Press SHIFT + CTRL to only show items used in the recipe.,Shift + Ctrl を押すと、レシピに使用されるアイテムだけを表示します。
+gui.refinedstorage.crafting_grid.press_shift_ctrl_to_only_show_items_used_in_crafting,Press SHIFT + CTRL to only show items used in the recipe.,シフト + Ctrl を押すと、レシピに使用されるアイテムだけを表示します。
 gui.refinedstorage.destructor.filter_help,"The blocks that may or may not be destroyed, depending if the device is in allowlist or blocklist mode.",機械が許可リストモードになっているかどうかに応じて、このリソースが破壊されるか決まります。
 gui.refinedstorage.destructor.filter_mode.allow.help,Only allow blocks into the storage network that are configured in the filters.,フィルターに設定されたブロックのみストレージネットワークに移動できます。
 gui.refinedstorage.destructor.filter_mode.block.help,Disallow blocks into the storage network that are configured in the filters.,フィルターに設定されたブロックはストレージネットワークへ移動できません。
@@ -216,7 +216,7 @@ gui.refinedstorage.filter_slot.click_to_configure_amount,Click to configure amou
 gui.refinedstorage.filter_slot.empty_filter,Empty filter,空のフィルタースロット
 gui.refinedstorage.filter_slot.left_click_for,Left click for,左クリック
 gui.refinedstorage.filter_slot.right_click_for,Right click for,右クリック
-gui.refinedstorage.filter_slot.shift_click_to_clear,SHIFT click to clear,Shift + クリックしてフィルターを除去
+gui.refinedstorage.filter_slot.shift_click_to_clear,SHIFT click to clear,シフト + クリックしてフィルターを除去
 gui.refinedstorage.fuzzy_mode,Fuzzy mode,あいまいモード
 gui.refinedstorage.fuzzy_mode.off,Off,オフ
 gui.refinedstorage.fuzzy_mode.off.extracting_source_help,Match the filters when extracting from the source exactly.,正確に、搬入元からストレージネットワークへ取り込む時にはフィルターと一致するものを探します。
@@ -272,7 +272,7 @@ gui.refinedstorage.network_transmitter.status.transmitting,%d block(s),%dブロ�
 gui.refinedstorage.pattern_grid.alternatives,Alternatives,代替
 gui.refinedstorage.pattern_grid.alternatives.expand,Expand,展開
 gui.refinedstorage.pattern_grid.alternatives.search_help,Search through tag names.,タグ名を検索します。
-gui.refinedstorage.pattern_grid.clear,Clear,スロット上のリソースを消去する
+gui.refinedstorage.pattern_grid.clear,Clear,クリア
 gui.refinedstorage.pattern_grid.create_pattern,Create pattern,パターンを作成
 gui.refinedstorage.pattern_grid.fuzzy_mode,Fuzzy mode,あいまいモード
 gui.refinedstorage.pattern_grid.fuzzy_mode.off.help,Match the pattern inputs exactly.,正確に、パターンの入力と一致するものを探します。
@@ -309,7 +309,7 @@ gui.refinedstorage.relay.pass_security.help,Whether this device should pass the 
 gui.refinedstorage.relay.pass_storage,Pass storage,ストレージを通過
 gui.refinedstorage.relay.pass_storage.help,Whether this device should pass the storage from the input network to the output network.,この機械が入力ネットワークから出力ネットワークにストレージ情報を渡すかどうか。
 gui.refinedstorage.relay.pass_through,Pass-through,通過
-gui.refinedstorage.relay.pass_through.help,Whether this device should pass-through the entire input network signal as-is. Turn this off to selectively expose components to the output network.,この機械がそのまま入力ネットワークの全てを通過させるかどうか。これをオフにすると、コンポーネント単位で選択したもののみ出力ネットワークに渡します。
+gui.refinedstorage.relay.pass_through.help,Whether this device should pass-through the entire input network signal as-is. Turn this off to selectively expose components to the output network.,この機械がそのまま入力ネットワークの全てを通過させるかどうか。これをオフにすると、コンポーネント単位で選択したものみ出力ネットワークに渡します。
 gui.refinedstorage.scheduling_mode,Scheduling mode,配分方法
 gui.refinedstorage.scheduling_mode.default,Default,デフォルト
 gui.refinedstorage.scheduling_mode.default.help,Use the first available filter.,先頭を優先し、適用できるフィルターを使用します。
@@ -360,11 +360,11 @@ item.refinedstorage.64k_storage_part,64k Storage Part,64kストレージパー�
 item.refinedstorage.advanced_processor,Advanced Processor,発展プロセッサ
 item.refinedstorage.autocrafter.help,Accepts patterns for autocrafting.,オートクラフト用のパターンを受け入れます。
 item.refinedstorage.autocrafter_manager.help,Allows managing all your autocrafters from a single interface.,1つの画面からすべてのオートクラフトを管理できます。
-item.refinedstorage.autocrafting_monitor.help,Displays the status of autocrafting tasks and allows you to cancel autocrafting tasks in your storage network.,オートクラフトタスクの状態を表示し、ストレージネットワークのオートクラフトをキャンセルすることができます。
+item.refinedstorage.autocrafting_monitor.help,Displays the status of autocrafting tasks and allows you to cancel autocrafting tasks in your storage network.,オートクラフトタスクの状態を表示し、ストレージネットワークのオートクラフトをキャンセルできます。
 item.refinedstorage.autocrafting_upgrade,Autocrafting Upgrade,オートクラフトアップグレード
 item.refinedstorage.autocrafting_upgrade.help,Will start an autocrafting task for missing resources.,不足しているリソースに対してオートクラフトタスクを発注します。
 item.refinedstorage.basic_processor,Basic Processor,基本プロセッサ
-item.refinedstorage.cable.help,"Connects storage network devices with each other. For full blocks, will connect to any color. For cable blocks, will only connect to the same color or to the default color (gray).",ストレージネットワークの機械同士を接続します。ブロックとは、あらゆる色と接続します。ケーブル同士では、同じ色またはデフォルトの色（グレー）とのみ接続します。
+item.refinedstorage.cable.help,"Connects storage network devices with each other. For full blocks, will connect to any color. For cable blocks, will only connect to the same color or to the default color (gray).",ストレージネットワークの機械同士を接続します。ブロックとは、あらゆる色と接続します。ケーブル同士では、同じ色またはデフォルトの色(グレー)とのみ接続します。
 item.refinedstorage.color_and_item_name,%s %s,%sの%s
 item.refinedstorage.configuration_card,Configuration Card,設定保存カード
 item.refinedstorage.configuration_card.applied_configuration,Applied configuration.,設定を機械に適用しました。
@@ -409,7 +409,7 @@ item.refinedstorage.fortune_upgrade.help,Yields more resources when breaking a b
 item.refinedstorage.grid.help,Allows for interacting with the storage network.,ストレージネットワークとの通信を可能にします。
 item.refinedstorage.importer.help,Imports resources from an external source to the storage network.,外部の搬入元からストレージネットワークにリソースを搬入します。
 item.refinedstorage.improved_processor,Improved Processor,改良プロセッサ
-item.refinedstorage.interface.help,Acts as the combination of an Importer and Exporter.,エクスポーターとインポーターを合体させたもののように使えます。
+item.refinedstorage.interface.help,Acts as the combination of an Importer and Exporter.,エクスポーターとインポーターを合体させたものように使えます。
 item.refinedstorage.network_card,Network Card,ネットワークカード
 item.refinedstorage.network_card.bound,"Bound to %d, %d, %d in %s.",%4$sの[%1$d %2$d %3$d]にバインドされています。
 item.refinedstorage.network_card.bound_help,Insert into a Network Transmitter. Use while crouching to clear binding.,ネットワーク送信機に差し込んで使用します。スニークしながら使用でバインドを消去します。
@@ -426,7 +426,7 @@ item.refinedstorage.pattern,Pattern,パターン
 item.refinedstorage.pattern.fuzzy_mode,Fuzzy mode,あいまいモード
 item.refinedstorage.pattern.help,Used in autocrafting to store the recipe to be crafted. Use while crouching to clear.,オートクラフトしたいレシピを登録するために使用します。スニークしながら使用で設定を消去します。
 item.refinedstorage.pattern_grid.help,Allows for the creation of Patterns for use in autocrafting.,オートクラフトで使用するパターンを作成できます。
-item.refinedstorage.portable_grid.help,"Allows to interact with a storage disk while not being connected to a storage network. Can be used from your inventory, or placed in the world when crouching.",ストレージネットワークに接続していない状態でもストレージディスクと相互作用することができます。インベントリから使用するか、スニーク時に世界に置くことができます。
+item.refinedstorage.portable_grid.help,"Allows to interact with a storage disk while not being connected to a storage network. Can be used from your inventory, or placed in the world when crouching.",ストレージネットワークに接続していない状態でもストレージディスクと相互作用できます。インベントリから使用するか、スニーク時に世界に置くことができます。
 item.refinedstorage.processor_binding,Processor Binding,プロセッサ接合材
 item.refinedstorage.quartz_enriched_copper,Quartz Enriched Copper,クォーツ濃縮銅
 item.refinedstorage.quartz_enriched_iron,Quartz Enriched Iron,クォーツ濃縮鉄
@@ -454,13 +454,13 @@ item.refinedstorage.stack_upgrade.help,Increases the amount of resources that th
 item.refinedstorage.storage_block.help,"Stores %s items. When empty, use while holding to return the Storage Part and Machine Casing. Upgradeable to a higher tier by combining with a Storage Part.",%sアイテムを保存します。空の場合、スニークしながら使用するとストレージパーツと機械筐体に分解します。上位のストレージパーツと組み合わせることでアップグレードできます。
 item.refinedstorage.storage_disk.help,"Stores %s items. When empty, use while holding to return the Storage Part. Upgradeable to a higher tier by combining with a Storage Part.",%sアイテムを保存します。空の場合、スニークしながら使用するとストレージパーツとストレージ筐体に分解します。上位のストレージパーツと組み合わせることでアップグレードできます。
 item.refinedstorage.storage_housing,Storage Housing,ストレージ筐体
-item.refinedstorage.storage_monitor.help,"A block that displays the current amount of a certain resource in your storage network. SHIFT + right click to configure. Left click to extract a stack, SHIFT + left click to extract a single resource, right click to insert a resource, right click multiple times to insert resources in bulk.",ストレージネットワーク内の指定したリソースの現在の在庫を表示するブロックです。Shift + 右クリックで設定を開きます。左クリックをすると1スタックストレージから搬出し、Shift + 左クリックだと1個ストレージから搬出します。右クリックをすると1個ストレージへ搬入し、右クリックを複数回押すことで大量にストレージへ搬入します。
+item.refinedstorage.storage_monitor.help,"A block that displays the current amount of a certain resource in your storage network. SHIFT + right click to configure. Left click to extract a stack, SHIFT + left click to extract a single resource, right click to insert a resource, right click multiple times to insert resources in bulk.",ストレージネットワーク内の指定したリソースの現在の在庫を表示するブロックです。シフト + 右クリックで設定を開きます。左クリックをすると1スタックストレージから搬出し、シフト + 左クリックだと1個ストレージから搬出します。右クリックをすると1個ストレージへ搬入し、右クリックを複数回押すことで大量にストレージへ搬入します。
 item.refinedstorage.upgrade,Upgrade,アップグレード
 item.refinedstorage.wireless_autocrafting_monitor,Wireless Autocrafting Monitor,無線オートクラフトモニター
 item.refinedstorage.wireless_grid,Wireless Grid,無線グリッド
-item.refinedstorage.wireless_transmitter.help,Provides wireless network access for items like the Wireless Grid. Multiple are allowed in an area for wider coverage.,無線グリッドなどのアイテムの無線ネットワークへの接続を可能にします。エリア内に複数設置することで広範囲をカバーすることができます。
+item.refinedstorage.wireless_transmitter.help,Provides wireless network access for items like the Wireless Grid. Multiple are allowed in an area for wider coverage.,無線グリッドなどのアイテムの無線ネットワークへの接続を可能にします。エリア内に複数設置することで広範囲をカバーできます。
 item.refinedstorage.wrench,Wrench,レンチ
-item.refinedstorage.wrench.help,Use to rotate blocks or press SHIFT and use to dismantle Refined Storage blocks.,使用するとブロックを回転させます。Shift キーを押しながら使用することでRSのブロックを解体します。
+item.refinedstorage.wrench.help,Use to rotate blocks or press SHIFT and use to dismantle Refined Storage blocks.,使用するとブロックを回転させます。シフトキーを押しながら使用することでRSのブロックを解体します。
 key.refinedstorage.clear_crafting_grid_matrix_to_inventory,Clear Crafting Grid matrix to inventory,クラフトグリッドのスロット上のものをインベントリへ移動
 key.refinedstorage.clear_crafting_grid_matrix_to_network,Clear Crafting Grid matrix to network,クラフトグリッドのスロット上のものをネットワークへ移動
 key.refinedstorage.focus_search_bar,Focus search bar,検索欄に移動
@@ -493,7 +493,7 @@ misc.refinedstorage.pattern.crafting,Crafting Pattern,クラフトパターン
 misc.refinedstorage.pattern.processing,Processing Pattern,処理パターン
 misc.refinedstorage.pattern.smithing_table,Smithing Table Pattern,鍛冶パターン
 misc.refinedstorage.pattern.stonecutter,Stonecutter Pattern,石切パターン
-misc.refinedstorage.press_shift_for_help,Press SHIFT for help,Shift キーを押してヘルプを表示
+misc.refinedstorage.press_shift_for_help,Press SHIFT for help,シフトキーを押してヘルプを表示
 misc.refinedstorage.resource_type.fluid,Fluid,流体
 misc.refinedstorage.resource_type.item,Item,アイテム
 misc.refinedstorage.stored,Stored: %s,貯蔵：%s
@@ -581,7 +581,7 @@ text.autoconfig.refinedstorage.option.craftingGrid.energyUsage,Energy usage,エ�
 text.autoconfig.refinedstorage.option.craftingGrid.energyUsage.tooltip,The energy used by the Crafting Grid.,クラフトグリッドが使用するエネルギー。
 text.autoconfig.refinedstorage.option.craftingGrid.tooltip,Configuration for the Crafting Grid.,クラフトグリッドの設定。
 text.autoconfig.refinedstorage.option.debug,Debug,デバッグ
-text.autoconfig.refinedstorage.option.debug.tooltip,Enables the network debug overlay and debug stick in the creative mode tabs (requires restart).,クリエイティブモードタブでネットワークデバッグオーバーレイとデバッグスティックを有効にします（再起動が必要）。
+text.autoconfig.refinedstorage.option.debug.tooltip,Enables the network debug overlay and debug stick in the creative mode tabs (requires restart).,クリエイティブモードタブでネットワークデバッグオーバーレイとデバッグスティックを有効にします(再起動が必要)。
 text.autoconfig.refinedstorage.option.destructor,Destructor,破壊器
 text.autoconfig.refinedstorage.option.destructor.energyUsage,Energy usage,エネルギー使用量
 text.autoconfig.refinedstorage.option.destructor.energyUsage.tooltip,The energy used by the Destructor.,破壊器が使用するエネルギー。
@@ -633,8 +633,8 @@ text.autoconfig.refinedstorage.option.grid.energyUsage,Energy usage,エネルギ
 text.autoconfig.refinedstorage.option.grid.energyUsage.tooltip,The energy used by the Grid.,グリッドが使用するエネルギー。
 text.autoconfig.refinedstorage.option.grid.largeFont,Large font,大きなフォント
 text.autoconfig.refinedstorage.option.grid.largeFont.tooltip,Whether the Grid should use a large font for quantities.,グリッドが数量の表示に大きなフォントを使用するかどうか。
-text.autoconfig.refinedstorage.option.grid.preventSortingWhileShiftIsDown,Prevent sorting while SHIFT is down,Shift キーを押している時にソートを停止
-text.autoconfig.refinedstorage.option.grid.preventSortingWhileShiftIsDown.tooltip,Whether the Grid should avoid sorting when SHIFT is held down.,Shift キーを押している時にグリッドの自動ソートを停止するかどうか。
+text.autoconfig.refinedstorage.option.grid.preventSortingWhileShiftIsDown,Prevent sorting while SHIFT is down,シフトキーを押している時にソートを停止
+text.autoconfig.refinedstorage.option.grid.preventSortingWhileShiftIsDown.tooltip,Whether the Grid should avoid sorting when SHIFT is held down.,シフトキーを押している時にグリッドの自動ソートを停止するかどうか。
 text.autoconfig.refinedstorage.option.grid.rememberSearchQuery,Remember search query,検索クエリを保存
 text.autoconfig.refinedstorage.option.grid.rememberSearchQuery.tooltip,Whether the search query should persist when closing and re-opening the Grid.,グリッドを閉じて再び開くときに検索欄の中身を保持するかどうか。
 text.autoconfig.refinedstorage.option.grid.resourceType,Resource type,リソースの種類
@@ -683,8 +683,8 @@ text.autoconfig.refinedstorage.option.portableGrid.tooltip,Configuration for the
 text.autoconfig.refinedstorage.option.relay,Relay,リレー
 text.autoconfig.refinedstorage.option.relay.inputNetworkEnergyUsage,Input network energy usage,入力ネットワークのエネルギー使用量
 text.autoconfig.refinedstorage.option.relay.inputNetworkEnergyUsage.tooltip,Input network energy usage.,入力ネットワークのエネルギー使用量。
-text.autoconfig.refinedstorage.option.relay.outputNetworkEnergyUsage,Output network energy usage (if not in pass through mode),出力ネットワークのエネルギー使用量（通過モードでない場合）
-text.autoconfig.refinedstorage.option.relay.outputNetworkEnergyUsage.tooltip,Output network energy usage (if not in pass through mode).,出力ネットワークのエネルギー使用量（通過モードでない場合）。
+text.autoconfig.refinedstorage.option.relay.outputNetworkEnergyUsage,Output network energy usage (if not in pass through mode),出力ネットワークのエネルギー使用量(通過モードでない場合)
+text.autoconfig.refinedstorage.option.relay.outputNetworkEnergyUsage.tooltip,Output network energy usage (if not in pass through mode).,出力ネットワークのエネルギー使用量(通過モードでない場合)。
 text.autoconfig.refinedstorage.option.relay.tooltip,Configuration for the Relay.,リレーの設定。
 text.autoconfig.refinedstorage.option.screenSize,Screen size,画面サイズ
 text.autoconfig.refinedstorage.option.screenSize.tooltip,The screen size.,画面の大きさ。
@@ -767,3 +767,238 @@ text.autoconfig.refinedstorage.option.wirelessTransmitter.energyUsage,Energy usa
 text.autoconfig.refinedstorage.option.wirelessTransmitter.energyUsage.tooltip,The energy used by the Wireless Transmitter.,無線発信器が使用するエネルギー。
 text.autoconfig.refinedstorage.option.wirelessTransmitter.tooltip,Configuration for the Wireless Transmitter.,無線発信器の設定。
 text.autoconfig.refinedstorage.title,Refined Storage Configuration,Refined Storageの設定
+advancements.refinedstorage.controlling.description,Craft a Controller,コントローラーを作る
+advancements.refinedstorage.crafting_on_demand,Crafting on demand,クラフティング・オンデマンド
+advancements.refinedstorage.crafting_on_demand.description,"Use a Crafting Upgrade in a Interface, Exporter or Constructor to craft items and blocks on demand",インターフェースやエクスポーター、コンストラクターにクラフティングアップグレードを搭載してアイテムやブロックをオンデマンドで作る
+advancements.refinedstorage.manipulating_disks,Manipulating disks,ディスク操作
+advancements.refinedstorage.manipulating_disks.description,Use a Disk Manipulator to easily modify contents of disks,ディスクマニピュレータを使用してディスクの中身を簡単に変更する
+advancements.refinedstorage.pattern_creation,Pattern creation,パターンを作成
+advancements.refinedstorage.pattern_creation.description,Create patterns with a Pattern Grid and a Pattern,パターングリッドとパターンを使用してパターンを作る
+advancements.refinedstorage.viewing_fluids,Viewing fluids,流体を確認
+advancements.refinedstorage.viewing_fluids.description,Craft a Fluid Grid to interact with your fluid storage,流体グリッドを作成して流体ストレージにアクセスする
+advancements.refinedstorage.viewing_items,Viewing items,アイテムを確認
+advancements.refinedstorage.viewing_items.description,Craft a Grid to interact with your item storage,グリッドを作成してアイテムのストレージにアクセスする
+advancements.refinedstorage.wireless_fluids,Wireless fluids,ワイヤレス流体
+advancements.refinedstorage.wireless_fluids.description,Interact with your fluid storage wirelessly with a Wireless Fluid Grid,ワイヤレス流体グリッドを使用してワイヤレスで流体ストレージにアクセスする
+advancements.refinedstorage.wireless_items,Wireless items,ワイヤレスアイテム
+advancements.refinedstorage.wireless_items.description,Interact with your item storage wirelessly with a Wireless Grid,ワイヤレスグリッドを使用してワイヤレスでアイテムのストレージにアクセスする
+block.refinedstorage.1024k_fluid_storage_block,1024k Fluid Storage Block,1024千流体ストレージブロック
+block.refinedstorage.256k_fluid_storage_block,256k Fluid Storage Block,256千流体ストレージブロック
+block.refinedstorage.4096k_fluid_storage_block,4096k Fluid Storage Block,4096千流体ストレージブロック
+block.refinedstorage.64k_fluid_storage_block,64k Fluid Storage Block,64千流体ストレージブロック
+block.refinedstorage.crafter,Crafter,クラフター
+block.refinedstorage.crafter_manager,Crafter Manager,クラフターマネージャー
+block.refinedstorage.crafting_monitor,Crafting Monitor,クラフトモニター
+block.refinedstorage.disk_manipulator,Disk Manipulator,ディスクマニピュレーター
+block.refinedstorage.fluid_grid,Fluid Grid,流体グリッド
+block.refinedstorage.fluid_interface,Fluid Interface,流体インターフェース
+block.refinedstorage.portable_grid.tooltip,Sneak to place in the world.,スニークで設置可能
+block.refinedstorage.quartz_enriched_iron_block,Block of Quartz Enriched Iron,クォーツ濃縮鉄ブロック
+commands.refinedstorage.disk.create.error.disk_not_found,Disk %s was not found.,ディスク%sが見つかりません
+commands.refinedstorage.disk.create.success,Successfully gave disk %s to %s.,ディスク%sを%sに割り当てました
+commands.refinedstorage.network.autocrafting.cancel.multiple,Cancelled %d tasks.,
+commands.refinedstorage.network.autocrafting.cancel.single,Cancelled %d task.,
+commands.refinedstorage.network.autocrafting.get.error.not_found,Task not found.,
+commands.refinedstorage.network.get.error.not_found,Network not found.,
+commands.refinedstorage.network.list.autocrafting_tasks,%s tasks,
+commands.refinedstorage.network.list.energy_usage,Energy usage: %s,
+commands.refinedstorage.network.list.nodes,%s nodes,
+commands.refinedstorage.network.list.pos,"Network at X: %d, Y: %d, Z: %d",
+commands.refinedstorage.network.list.tick_times,Mean tick time: %s ms. Mean TPS: %s,
+gui.refinedstorage.alternatives,Alternatives,代替案
+gui.refinedstorage.alternatives.apply,Apply,適用
+gui.refinedstorage.constructor,Constructor,コンストラクター
+gui.refinedstorage.controller,Controller,コントローラー
+gui.refinedstorage.crafter,Crafter,クラフター
+gui.refinedstorage.crafter_manager,Crafter Manager,クラフターマネージャー
+gui.refinedstorage.crafting_grid,Crafting Grid,製作グリッド
+gui.refinedstorage.crafting_monitor,Crafting Monitor,クラフトモニター
+gui.refinedstorage.crafting_monitor.crafter_is_locked,Crafter is locked,クラフターがロックされています
+gui.refinedstorage.crafting_monitor.crafting,Crafting: %d,クラフト中: %d
+gui.refinedstorage.crafting_monitor.machine_does_not_accept_fluid,Machine doesn't accept fluid,機械に流体を搬入できません
+gui.refinedstorage.crafting_monitor.machine_does_not_accept_item,Machine doesn't accept item,機械にアイテムを搬入できません
+gui.refinedstorage.crafting_monitor.machine_none,No machine found,機械が見つかりません
+gui.refinedstorage.crafting_monitor.missing,Missing: %d,不足: %d
+gui.refinedstorage.crafting_monitor.processing,Processing: %d,加工中: %d
+gui.refinedstorage.crafting_monitor.scheduled,Scheduled: %d,加工予定: %d
+gui.refinedstorage.crafting_monitor.stored,Stored: %d,在庫: %d
+gui.refinedstorage.crafting_monitor.tooltip.requested,%d requested,要求数 %d
+gui.refinedstorage.crafting_preview,Crafting Preview,クラフトのプレビュー
+gui.refinedstorage.crafting_preview.available,Available: %d,使用: %d
+gui.refinedstorage.crafting_preview.error,Request failed,リクエストに失敗しました
+gui.refinedstorage.crafting_preview.error.recursive.0,One of the crafting ingredients ended up needing,材料が自身を要求しています
+gui.refinedstorage.crafting_preview.error.recursive.1,itself.,該当パターンの削除
+gui.refinedstorage.crafting_preview.error.recursive.2,You need to remove the pattern or make sure,または
+gui.refinedstorage.crafting_preview.error.recursive.3,the pattern is not used during crafting.,クラフト中に使われていないことを確認する必要があります
+gui.refinedstorage.crafting_preview.error.recursive.4,Offending pattern:,該当パターン:
+gui.refinedstorage.crafting_preview.error.too_complex.0,The crafting task calculation was too complex,クラフト過程の計算が複雑すぎます
+gui.refinedstorage.crafting_preview.error.too_complex.1,and was stopped to avoid server strain.,サーバーの負担を避けるため計算が停止されました
+gui.refinedstorage.crafting_preview.missing,Missing: %d,不足: %d
+gui.refinedstorage.crafting_preview.to_craft,To craft: %d,作成数: %d
+gui.refinedstorage.creative_controller,Creative Controller,クリエイティブコントローラー
+gui.refinedstorage.destructor,Destructor,デストラクター
+gui.refinedstorage.detector,Detector,ディテクター
+gui.refinedstorage.disk_drive,Disk Drive,ディスクドライブ
+gui.refinedstorage.disk_manipulator,Disk Manipulator,ディスクマニピュレーター
+gui.refinedstorage.disk_manipulator.in,In,搬入
+gui.refinedstorage.disk_manipulator.out,Out,搬出
+gui.refinedstorage.exporter,Exporter,エクスポーター
+gui.refinedstorage.external_storage,External Storage,拡張ストレージ
+gui.refinedstorage.filter,Filter,フィルター
+gui.refinedstorage.filter.compare_nbt,NBT,
+gui.refinedstorage.filter.mod_filter,Mod filter,Modフィルター
+gui.refinedstorage.fluid_amount,Fluid amount in mB,流体の量 (mB)
+gui.refinedstorage.fluid_grid,Fluid Grid,流体グリッド
+gui.refinedstorage.fluid_interface,Fluid Interface,流体インターフェース
+gui.refinedstorage.fluid_interface.in,In,搬入
+gui.refinedstorage.fluid_interface.out,Out,搬出
+gui.refinedstorage.grid,Grid,グリッド
+gui.refinedstorage.grid.pattern_create,Create,作成
+gui.refinedstorage.importer,Importer,インポーター
+gui.refinedstorage.interface.export,Interface Export,インターフェース:搬出
+gui.refinedstorage.interface.import,Interface Import,インターフェース:搬入
+gui.refinedstorage.item_amount,Item amount,アイテムの量
+gui.refinedstorage.jei.transfer.autocrafting_available,Autocrafting available,自動クラフトが出来る
+gui.refinedstorage.jei.transfer.request_autocrafting,CTRL + CLICK to request autocrafting,CTRLキーを押しながらクリックするために自動クラフトする
+gui.refinedstorage.jei.transfer.request_autocrafting_mac,CMD + CLICK to request autocrafting,CMDキーを押しながらクリックするために自動クラフトする
+gui.refinedstorage.network_transmitter,Network Transmitter,ネットワーク送信機
+gui.refinedstorage.network_transmitter.distance,%d block(s),%dブロック
+gui.refinedstorage.network_transmitter.missing_card,Missing Network Card,ネットワークカードが見つかりません
+gui.refinedstorage.pattern_grid,Pattern Grid,パターングリッド
+gui.refinedstorage.portable_grid,Portable Grid,携帯グリッド
+gui.refinedstorage.relay,Relay,リレー
+gui.refinedstorage.security_manager,Security Manager,セキュリティマネージャー
+gui.refinedstorage.security_manager.configure,Configure,設定
+gui.refinedstorage.security_manager.permission.0,Insert,搬入
+gui.refinedstorage.security_manager.permission.0.tooltip,Inserting items or fluids to the network,アイテムをネットワークに搬入する
+gui.refinedstorage.security_manager.permission.1,Extract,搬出
+gui.refinedstorage.security_manager.permission.1.tooltip,Extracting items or fluids from the network,アイテムをネットワークから搬出する
+gui.refinedstorage.security_manager.permission.2,Autocrafting,自動クラフト
+gui.refinedstorage.security_manager.permission.2.tooltip,"Starting, cancelling and viewing crafting tasks",自動クラフトの開始・キャンセルやクラフト過程の確認
+gui.refinedstorage.security_manager.permission.3,Modify,変更
+gui.refinedstorage.security_manager.permission.3.tooltip,Opening blocks,ブロックのGUIを開く
+gui.refinedstorage.security_manager.permission.4,Build,構築
+gui.refinedstorage.security_manager.permission.4.tooltip,Adding or removing devices to or from the network,ネットワークのデバイスを追加または撤去する
+gui.refinedstorage.security_manager.permission.5,Security,セキュリティ
+gui.refinedstorage.security_manager.permission.5.tooltip,Ability to change security options,セキュリティ設定を変更する権限
+gui.refinedstorage.storage_monitor,Storage Monitor,ストレージモニター
+gui.refinedstorage.wireless_crafting_monitor,Wireless Crafting Monitor,ワイヤレスクラフトモニター
+gui.refinedstorage.wireless_transmitter,Wireless Transmitter,ワイヤレス送信機
+item.refinedstorage.1024k_fluid_storage_disk,1024k Fluid Storage Disk,1024千流体ストレージディスク
+item.refinedstorage.1024k_fluid_storage_part,1024k Fluid Storage Part,1024千流体ストレージパーツ
+item.refinedstorage.256k_fluid_storage_disk,256k Fluid Storage Disk,256千流体ストレージディスク
+item.refinedstorage.256k_fluid_storage_part,256k Fluid Storage Part,256千流体ストレージパーツ
+item.refinedstorage.4096k_fluid_storage_disk,4096k Fluid Storage Disk,4096千流体ストレージディスク
+item.refinedstorage.4096k_fluid_storage_part,4096k Fluid Storage Part,4096千流体ストレージパーツ
+item.refinedstorage.64k_fluid_storage_disk,64k Fluid Storage Disk,64千流体ストレージディスク
+item.refinedstorage.64k_fluid_storage_part,64k Fluid Storage Part,64千流体ストレージパーツ
+item.refinedstorage.cover,Cover,
+item.refinedstorage.crafting_upgrade,Crafting Upgrade,クラフティングアップグレード
+item.refinedstorage.creative_wireless_crafting_monitor,Creative Wireless Crafting Monitor,クリエイティブワイヤレスクラフトモニター
+item.refinedstorage.creative_wireless_fluid_grid,Creative Wireless Fluid Grid,クリエイティブワイヤレス流体グリッド
+item.refinedstorage.filter,Filter,フィルター
+item.refinedstorage.fortune_1_upgrade,Fortune Upgrade,幸運アップグレード
+item.refinedstorage.fortune_2_upgrade,Fortune Upgrade,幸運アップグレード
+item.refinedstorage.fortune_3_upgrade,Fortune Upgrade,幸運アップグレード
+item.refinedstorage.hollow_cover,Hollow Cover,
+item.refinedstorage.security_card.owner,Bound to: %s,所有者: %s
+item.refinedstorage.wireless_crafting_monitor,Wireless Crafting Monitor,ワイヤレスクラフトモニター
+item.refinedstorage.wireless_fluid_grid,Wireless Fluid Grid,ワイヤレス流体グリッド
+itemGroup.refinedstorage,Refined Storage,
+itemGroup.refinedstorage.covers,Refined Storage Covers,Refined Storage カバー
+key.refinedstorage.clearGridCraftingMatrix,Clear Grid Crafting Matrix,グリッドのクラフト欄をクリア
+key.refinedstorage.focusSearchBar,Focus Grid Search Bar,グリッドの検索欄を選択
+key.refinedstorage.openPortableGrid,Open Portable Grid,携帯グリッドを開く
+key.refinedstorage.openWirelessCraftingMonitor,Open Wireless Crafting Monitor,ワイヤレスクラフトモニターを開く
+key.refinedstorage.openWirelessFluidGrid,Open Wireless Fluid Grid,ワイヤレス流体グリッドを開く
+key.refinedstorage.openWirelessGrid,Open Wireless Grid,ワイヤレスグリッドを開く
+misc.refinedstorage.cancel_all,Cancel All,全てキャンセル
+misc.refinedstorage.clear,Clear,クリア
+misc.refinedstorage.energy_stored,%d / %d FE,
+misc.refinedstorage.energy_usage,Usage: %d FE/t,消費電力: %d FE/t
+misc.refinedstorage.energy_usage_minimal,%d FE/t,
+misc.refinedstorage.exact,Exact,精密モード
+misc.refinedstorage.fluidmode,Fluids,
+misc.refinedstorage.network_card.tooltip,"Linked to %d, %d, %d in %s.","%sの%d, %d, %dにリンク済"
+misc.refinedstorage.network_item.not_found,Network not found.,ネットワークが見つかりません
+misc.refinedstorage.network_item.out_of_energy,The %s is out of energy.,%sがエネルギー切れです
+misc.refinedstorage.network_item.out_of_range,There is no Wireless Transmitter in range.,有効範囲内のワイヤレス送信機がありません
+misc.refinedstorage.network_item.shortcut_duplicate,There is more than one %s in your inventory.,インベントリに%sが複数あります
+misc.refinedstorage.network_item.shortcut_not_found,There isn't any %s in your inventory.,インベントリに%sがありません
+misc.refinedstorage.network_item.tooltip,"Linked to %d, %d, %d.","%d, %d, %dにリンク済"
+misc.refinedstorage.pattern.allowed_fluid_tag,Uses fluids from %s for %s,%sに%sの流体を使用する
+misc.refinedstorage.pattern.allowed_item_tag,Uses items from %s for %s,%sに%sのアイテムを使用する
+misc.refinedstorage.pattern.error.no_output,Recipe has no output,指定されたレシピに完成品がありません
+misc.refinedstorage.pattern.error.processing_no_outputs,Processing pattern has no outputs,加工中のパターンに完成品がありません
+misc.refinedstorage.pattern.error.recipe_does_not_exist,Recipe doesn't exist,指定されたレシピは存在しません
+misc.refinedstorage.pattern.error.tag_no_longer_applicable,Tag %s is no longer applicable for %s,タグ %s は%sに適用できなくなりました
+misc.refinedstorage.pattern.exact,Uses exact mode,精密モードを使用
+misc.refinedstorage.pattern.inputs,Inputs,材料
+misc.refinedstorage.pattern.invalid,Invalid pattern,無効なパターン
+misc.refinedstorage.pattern.outputs,Outputs,完成品
+misc.refinedstorage.priority,Priority,優先度
+misc.refinedstorage.processing,Processing,加工
+misc.refinedstorage.security.no_permission,You have no permission to perform that action.,その行動をする権限がありません
+misc.refinedstorage.set,Set,完了
+misc.refinedstorage.start,Start,開始
+misc.refinedstorage.storage.full,%d%% full,%d%%を使用中
+misc.refinedstorage.storage.stored,Stored: %s,在庫: %s
+misc.refinedstorage.storage.stored_capacity,Stored: %s / %s,在庫: %s / %s
+misc.refinedstorage.storage.stored_capacity_minimal,%s / %s,
+misc.refinedstorage.storage.stored_minimal,%s,
+sidebutton.refinedstorage.access_type,Access type,アクセスの種類
+sidebutton.refinedstorage.access_type.0,Insert and extract,搬入・搬出
+sidebutton.refinedstorage.access_type.1,Insert only,搬入のみ
+sidebutton.refinedstorage.access_type.2,Extract only,搬出のみ
+sidebutton.refinedstorage.constructor.drop,Drop blocks instead of placing,ブロックを設置せずにアイテム化させる
+sidebutton.refinedstorage.crafter_mode,Crafter mode,動作モード
+sidebutton.refinedstorage.crafter_mode.0,Ignore redstone signal,レッドストーン信号を無視
+sidebutton.refinedstorage.crafter_mode.1,Redstone signal unlocks autocrafting,レッドストーン信号で自動クラフトのロック解除
+sidebutton.refinedstorage.crafter_mode.2,Redstone signal locks autocrafting,レッドストーン信号で自動クラフトをロック
+sidebutton.refinedstorage.crafter_mode.3,Redstone pulse inserts next set,レッドストーンパルスで次セットを搬入
+sidebutton.refinedstorage.destructor.pickup,Pickup items instead of breaking,ブロックを破壊せずにアイテムを拾う
+sidebutton.refinedstorage.detector.mode,Mode,モード
+sidebutton.refinedstorage.detector.mode.0,Emit signal when under the amount,指定数を下回ると信号出力
+sidebutton.refinedstorage.detector.mode.1,Emit signal when on the amount,指定数で信号出力
+sidebutton.refinedstorage.detector.mode.2,Emit signal when above the amount,指定数を上回ると信号出力
+sidebutton.refinedstorage.exact_mode,Exact mode,精密モード
+sidebutton.refinedstorage.exact_mode.off,Off,オフ
+sidebutton.refinedstorage.exact_mode.on,On,オン
+sidebutton.refinedstorage.grid.search_box_mode,Search box mode,検索ボックス
+sidebutton.refinedstorage.grid.search_box_mode.0,Normal,通常
+sidebutton.refinedstorage.grid.search_box_mode.1,Normal (autoselected),通常 (自動選択)
+sidebutton.refinedstorage.grid.search_box_mode.2,JEI synchronized,JEIと連動
+sidebutton.refinedstorage.grid.search_box_mode.3,JEI synchronized (autoselected),JEIと連動 (自動選択)
+sidebutton.refinedstorage.grid.search_box_mode.4,JEI synchronized (two-way),
+sidebutton.refinedstorage.grid.search_box_mode.5,JEI synchronized (two-way autoselected),
+sidebutton.refinedstorage.grid.size,Size,サイズ
+sidebutton.refinedstorage.grid.size.0,Stretch,画面サイズと連動
+sidebutton.refinedstorage.grid.size.1,Small,小
+sidebutton.refinedstorage.grid.size.2,Medium,中
+sidebutton.refinedstorage.grid.size.3,Large,大
+sidebutton.refinedstorage.grid.sorting.direction,Sorting direction,並び順
+sidebutton.refinedstorage.grid.sorting.direction.0,Ascending,昇順
+sidebutton.refinedstorage.grid.sorting.direction.1,Descending,降順
+sidebutton.refinedstorage.grid.sorting.type,Sorting type,並べ替え
+sidebutton.refinedstorage.grid.sorting.type.0,Quantity,量
+sidebutton.refinedstorage.grid.sorting.type.1,Name,名前
+sidebutton.refinedstorage.grid.sorting.type.2,ID,
+sidebutton.refinedstorage.grid.sorting.type.3,InventoryTweaks,
+sidebutton.refinedstorage.grid.sorting.type.4,Last modified,最終変更時間
+sidebutton.refinedstorage.grid.view_type,Display,表示
+sidebutton.refinedstorage.grid.view_type.0,Normal,通常
+sidebutton.refinedstorage.grid.view_type.1,No craftables,クラフト不可能な物のみ表示
+sidebutton.refinedstorage.grid.view_type.2,Only craftables,クラフト可能な物のみ表示
+sidebutton.refinedstorage.iomode,IO mode,搬入出
+sidebutton.refinedstorage.iomode.extract,Extract from network,ネットワークから搬入
+sidebutton.refinedstorage.iomode.insert,Insert into network,ネットワークへ搬出
+sidebutton.refinedstorage.mode,Mode,モード
+sidebutton.refinedstorage.mode.blacklist,Blacklist,ブラックリスト
+sidebutton.refinedstorage.mode.whitelist,Whitelist,ホワイトリスト
+sidebutton.refinedstorage.redstone_mode,Redstone mode,レッドストーン
+sidebutton.refinedstorage.redstone_mode.0,Ignore redstone signal,レッドストーン信号を無視
+sidebutton.refinedstorage.redstone_mode.1,Only work with redstone signal,レッドストーン入力時のみ動作
+sidebutton.refinedstorage.redstone_mode.2,Only work without redstone signal,レッドストーン入力がない時のみ動作
+sidebutton.refinedstorage.type,Type,種類
+sidebutton.refinedstorage.type.0,Items,アイテム
+sidebutton.refinedstorage.type.1,Fluids,流体
