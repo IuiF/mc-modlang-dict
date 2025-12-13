@@ -6,10 +6,12 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 
 	"github.com/iuif/minecraft-mod-dictionary/internal/database"
 	"github.com/iuif/minecraft-mod-dictionary/internal/jar"
 	"github.com/iuif/minecraft-mod-dictionary/internal/parser"
+	"github.com/iuif/minecraft-mod-dictionary/pkg/interfaces"
 	"github.com/iuif/minecraft-mod-dictionary/pkg/models"
 )
 
@@ -118,6 +120,7 @@ Examples:
 
 	// Parse and import lang files
 	jsonParser := parser.NewJSONLangParser()
+	legacyParser := parser.NewLegacyLangParser()
 	var totalKeys, reusedSources, newSources, reusedTranslations, newTranslations int
 
 	for _, langFile := range result.LangFiles {
@@ -132,7 +135,15 @@ Examples:
 			continue
 		}
 
-		entries, err := jsonParser.Parse(content)
+		// Select parser based on file extension
+		var langParser interfaces.Parser
+		if isLegacyLangFile(langFile) {
+			langParser = legacyParser
+		} else {
+			langParser = jsonParser
+		}
+
+		entries, err := langParser.Parse(content)
 		if err != nil {
 			fmt.Printf("Warning: failed to parse %s: %v\n", langFile, err)
 			continue
@@ -215,5 +226,13 @@ func joinAuthors(authors []string) string {
 
 func isSourceLangFile(path, langCode string) bool {
 	base := filepath.Base(path)
-	return base == langCode+".json"
+	// Support both .json (1.13+) and .lang (1.12.2 and earlier) formats
+	// Use case-insensitive comparison for language code
+	baseLower := strings.ToLower(base)
+	langCodeLower := strings.ToLower(langCode)
+	return baseLower == langCodeLower+".json" || baseLower == langCodeLower+".lang"
+}
+
+func isLegacyLangFile(path string) bool {
+	return strings.HasSuffix(path, ".lang")
 }
