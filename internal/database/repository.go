@@ -818,3 +818,30 @@ func (r *Repository) GetTranslationForSource(ctx context.Context, sourceID int64
 	}
 	return &trans, nil
 }
+
+// GetPendingSourcesBySameText retrieves pending sources with the same mod_id and source_text.
+// This is used for propagating translations to entries with identical source text.
+// Excludes the source with excludeSourceID from results.
+func (r *Repository) GetPendingSourcesBySameText(ctx context.Context, modID, sourceText string, excludeSourceID int64) ([]*models.TranslationSource, error) {
+	var sources []*models.TranslationSource
+
+	// Find sources with same mod_id + source_text that have pending translations
+	err := r.db.WithContext(ctx).
+		Table("translation_sources").
+		Select("translation_sources.*").
+		Joins("JOIN translations ON translations.source_id = translation_sources.id").
+		Joins("JOIN source_versions ON source_versions.source_id = translation_sources.id").
+		Joins("JOIN mod_versions ON mod_versions.id = source_versions.mod_version_id").
+		Where("translation_sources.mod_id = ?", modID).
+		Where("translation_sources.source_text = ?", sourceText).
+		Where("translation_sources.id != ?", excludeSourceID).
+		Where("translations.status = ?", models.StatusPending).
+		Where("mod_versions.is_default = ?", true).
+		Find(&sources).Error
+
+	if err != nil {
+		return nil, fmt.Errorf("failed to get pending sources by same text: %w", err)
+	}
+
+	return sources, nil
+}

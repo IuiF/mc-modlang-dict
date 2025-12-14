@@ -217,7 +217,7 @@ func importFromJSON(ctx context.Context, repo *database.Repository, modID, jsonP
 	}
 
 	// Update translations by looking up source by mod_id and key
-	var updated, notFound, skippedEmpty, skippedSameAsSource int
+	var updated, notFound, skippedEmpty, skippedSameAsSource, propagated int
 	for key, target := range translations {
 		// Skip empty translations to prevent data corruption
 		if target == "" {
@@ -255,9 +255,32 @@ func importFromJSON(ctx context.Context, repo *database.Repository, modID, jsonP
 			continue
 		}
 		updated++
+
+		// Auto-propagate: Apply the same translation to other pending entries with identical source_text
+		pendingSources, err := repo.GetPendingSourcesBySameText(ctx, modID, source.SourceText, source.ID)
+		if err != nil {
+			fmt.Printf("Warning: failed to get pending sources for propagation: %v\n", err)
+			continue
+		}
+
+		for _, pendingSource := range pendingSources {
+			pendingTrans, err := repo.GetTranslationBySourceID(ctx, pendingSource.ID)
+			if err != nil {
+				continue
+			}
+			pendingTrans.TargetText = &target
+			pendingTrans.Status = models.StatusTranslated
+			if err := repo.SaveTranslation(ctx, pendingTrans); err != nil {
+				continue
+			}
+			propagated++
+		}
 	}
 
 	fmt.Printf("Updated %d translations from %s\n", updated, jsonPath)
+	if propagated > 0 {
+		fmt.Printf("Auto-propagated to identical source_text: %d\n", propagated)
+	}
 	if skippedEmpty > 0 {
 		fmt.Printf("Skipped empty translations: %d\n", skippedEmpty)
 	}

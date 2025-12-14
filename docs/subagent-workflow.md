@@ -40,10 +40,26 @@
 ```
 [Mod名]の翻訳を行ってください。
 
+【用語辞書 - 必ず従うこと】
+色名: White→白, Orange→橙, Magenta→赤紫, Light Blue→空色,
+      Yellow→黄, Lime→黄緑, Pink→桃色, Gray→灰色,
+      Light Gray→薄灰色, Cyan→青緑, Purple→紫, Blue→青,
+      Brown→茶, Green→緑, Red→赤, Black→黒
+
+接尾辞: Block→ブロック, Stairs→階段, Slab→ハーフブロック,
+        Wall→塀, Fence→フェンス, Pillar→柱, Bricks→レンガ
+
+接頭辞: Chiseled→彫られた, Polished→磨かれた, Smooth→滑らかな,
+        Cracked→ひび割れた, Mossy→苔むした
+
+【Mod固有用語】（必要に応じて追加）
+例: Marble→大理石, Limestone→石灰岩, Basalt→玄武岩
+
 【厳守事項】
 - 翻訳JSONに空文字("")を含めない
 - 翻訳できないキーはJSONに含めない
 - 各ステップでステータスを確認する
+- 用語辞書に従って一貫性を保つ
 
 1. JARをインポート:
    ./moddict import -jar workspace/imports/mods/[mod.jar]
@@ -58,18 +74,20 @@
 
 4. pendingがあれば20件ずつ翻訳:
    ./moddict translate -mod [mod_id] -export pending.json -limit 20
-   （翻訳後 - 空文字を含めない）
+   （翻訳後 - 用語辞書に従い、空文字を含めない）
    ./moddict translate -mod [mod_id] -json translated.json
    ./moddict translate -mod [mod_id] -status  # 毎回確認
    （繰り返し）
 
 5. 100%になったら報告
 
-翻訳ルール: フォーマットコード保持、Minecraft公式用語準拠
+翻訳ルール: 用語辞書準拠、フォーマットコード保持、Minecraft公式用語準拠
 最終報告: Mod ID、総キー数、翻訳完了数、ステータス
 ```
 
 **Haikuを使う理由**: 翻訳タスクは定型的で、コスト効率が良い。
+
+**用語辞書の詳細**: `docs/translation-consistency.md` を参照。
 
 ## 翻訳JSON生成ルール（厳守）
 
@@ -120,3 +138,23 @@ global (低) → category (中) → mod (高)
 | `$(br2)` | 空行 |
 | `$(item)`, `$(thing)` | ハイライト |
 | `$(l:path)テキスト$(/)` | 内部リンク |
+
+## 一貫性の仕組み
+
+### 自動伝播（インポート時）
+
+同じ`source_text`を持つ複数のキーがある場合、1つに翻訳をインポートすると他のpendingキーにも自動適用される。
+
+```
+例: "Stained Glass" が17キーで使用されている場合
+  - key1に "色付きガラス" をインポート
+  - key2〜key17のpendingにも自動で "色付きガラス" が適用
+```
+
+### 用語辞書（翻訳時）
+
+部品レベル（色、素材、接辞）の一貫性は、用語辞書をサブエージェントに渡すことで担保。
+
+**重要**: 用語辞書はコンパクトに保つ（50〜100項目以内）。全翻訳を参照として渡すとコンテキストを圧迫する。
+
+詳細: `docs/translation-consistency.md`

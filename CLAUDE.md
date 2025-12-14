@@ -33,6 +33,7 @@ DBに問題がある場合は、削除せずにユーザーに報告すること
 1. **完全性優先**: 1つのModを100%翻訳してから次へ進む
 2. **公式翻訳尊重**: JARのja_jp.jsonがあれば必ず優先インポート
 3. **データ品質**: 翻訳JSONに空文字("")を含めない、翻訳できないキーは含めない
+4. **一貫性優先**: 用語辞書に従い、同じ要素は同じ翻訳にする
 
 ## 標準ワークフロー
 
@@ -50,13 +51,16 @@ unzip -l [mod.jar] | grep -i ja_jp
 unzip -p [mod.jar] 'assets/*/lang/ja_jp.json' > /tmp/official.json
 ./moddict translate -mod [mod_id] -official /tmp/official.json
 
-# 3. 翻訳ループ（Pending: 0 になるまで）
+# 3. 用語辞書の準備（大規模Modの場合）
+# → docs/translation-consistency.md を参照
+
+# 4. 翻訳ループ（Pending: 0 になるまで）
 ./moddict translate -mod [mod_id] -status
 ./moddict translate -mod [mod_id] -export /tmp/pending.json -limit 20
-# 翻訳生成後
+# 翻訳生成後（用語辞書に従って翻訳）
 ./moddict translate -mod [mod_id] -json /tmp/translated.json
 
-# 4. 完了確認 → Progress: 100.0%
+# 5. 完了確認 → Progress: 100.0%
 ./moddict translate -mod [mod_id] -status
 ```
 
@@ -99,3 +103,4 @@ docs/            # 詳細ドキュメント
 - `docs/cli-reference.md` - 全コマンドリファレンス
 - `docs/db-schema.md` - DBスキーマ詳細
 - `docs/subagent-workflow.md` - サブエージェント運用ガイド
+- `docs/translation-consistency.md` - 翻訳一貫性ガイド（用語辞書・自動伝播）
