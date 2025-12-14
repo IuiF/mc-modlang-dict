@@ -41,6 +41,11 @@ func NewRepository(dsn string) (*Repository, error) {
 		return nil, fmt.Errorf("failed to open database: %w", err)
 	}
 
+	// Configure SQLite for better performance and compatibility (especially WSL2)
+	db.Exec("PRAGMA journal_mode=MEMORY")
+	db.Exec("PRAGMA synchronous=NORMAL")
+	db.Exec("PRAGMA cache_size=10000")
+
 	return &Repository{db: db}, nil
 }
 
