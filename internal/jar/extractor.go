@@ -87,30 +87,34 @@ func (e *Extractor) Extract(jarPath, destDir string) (*ExtractResult, error) {
 		}
 	}
 
-	// Detect mod info
+	// Detect mod info (continue even if parsing fails)
 	if fabricModJSON != nil {
 		info, err := e.detectFabricMod(fabricModJSON)
 		if err != nil {
-			return nil, fmt.Errorf("failed to parse fabric.mod.json: %w", err)
+			// Log warning but continue - we'll try to detect mod ID from lang files
+			fmt.Printf("Warning: failed to parse fabric.mod.json: %v (will try to detect mod ID from lang files)\n", err)
+		} else {
+			result.ModID = info.ModID
+			result.DisplayName = info.DisplayName
+			result.Version = info.Version
+			result.Authors = info.Authors
+			result.Description = info.Description
 		}
-		result.ModID = info.ModID
-		result.DisplayName = info.DisplayName
-		result.Version = info.Version
-		result.Authors = info.Authors
-		result.Description = info.Description
 		if result.Loader == "" {
 			result.Loader = "fabric"
 		}
 	} else if modsToml != nil {
 		info, err := e.detectForgeMod(modsToml)
 		if err != nil {
-			return nil, fmt.Errorf("failed to parse mods.toml: %w", err)
+			// Log warning but continue - we'll try to detect mod ID from lang files
+			fmt.Printf("Warning: failed to parse mods.toml: %v (will try to detect mod ID from lang files)\n", err)
+		} else {
+			result.ModID = info.ModID
+			result.DisplayName = info.DisplayName
+			result.Version = info.Version
+			result.Authors = info.Authors
+			result.Description = info.Description
 		}
-		result.ModID = info.ModID
-		result.DisplayName = info.DisplayName
-		result.Version = info.Version
-		result.Authors = info.Authors
-		result.Description = info.Description
 		if isNeoForge {
 			result.Loader = "neoforge"
 		} else {
@@ -140,6 +144,26 @@ func (e *Extractor) Extract(jarPath, destDir string) (*ExtractResult, error) {
 		// Track lang files
 		if isLangFile(file.Name) {
 			result.LangFiles = append(result.LangFiles, destPath)
+		}
+	}
+
+	// If mod ID is still empty, try to detect from lang file paths
+	if result.ModID == "" && len(result.LangFiles) > 0 {
+		modID := detectModIDFromLangPath(result.LangFiles[0])
+		if modID != "" {
+			result.ModID = modID
+			result.DisplayName = modID // Use mod ID as display name fallback
+			fmt.Printf("Detected mod ID from lang file path: %s\n", modID)
+		}
+	}
+
+	// If still no mod ID, try to extract from JAR filename
+	if result.ModID == "" {
+		modID := extractModIDFromFilename(filepath.Base(destDir))
+		if modID != "" {
+			result.ModID = modID
+			result.DisplayName = modID
+			fmt.Printf("Detected mod ID from filename: %s\n", modID)
 		}
 	}
 
@@ -263,7 +287,8 @@ func extractFile(file *zip.File, destPath string) error {
 // isLangFile checks if a file path is a language file.
 func isLangFile(path string) bool {
 	// Standard Minecraft lang file pattern: assets/{mod_id}/lang/{lang}.json
-	if !strings.HasSuffix(path, ".json") {
+	// Also support .lang files for 1.12.2 and earlier
+	if !strings.HasSuffix(path, ".json") && !strings.HasSuffix(path, ".lang") {
 		return false
 	}
 
@@ -273,4 +298,38 @@ func isLangFile(path string) bool {
 	}
 
 	return parts[0] == "assets" && parts[2] == "lang"
+}
+
+// detectModIDFromLangPath extracts mod ID from a lang file path.
+// Path format: {extractDir}/assets/{mod_id}/lang/{lang}.json
+func detectModIDFromLangPath(langPath string) string {
+	parts := strings.Split(langPath, string(filepath.Separator))
+	for i, part := range parts {
+		if part == "assets" && i+2 < len(parts) && parts[i+2] == "lang" {
+			return parts[i+1]
+		}
+	}
+	return ""
+}
+
+// extractModIDFromFilename tries to extract mod ID from JAR filename.
+// Examples: "twilightforest-1.16.5-4.0.870.jar" -> "twilightforest"
+func extractModIDFromFilename(filename string) string {
+	// Remove .jar extension
+	name := strings.TrimSuffix(filename, ".jar")
+
+	// Split by common delimiters and take the first part
+	delimiters := []string{"-", "_", " "}
+	for _, d := range delimiters {
+		if idx := strings.Index(name, d); idx > 0 {
+			// Check if the part after delimiter looks like a version
+			rest := name[idx+1:]
+			if len(rest) > 0 && (rest[0] >= '0' && rest[0] <= '9') {
+				return strings.ToLower(name[:idx])
+			}
+		}
+	}
+
+	// No version-like pattern found, return the whole name
+	return strings.ToLower(name)
 }

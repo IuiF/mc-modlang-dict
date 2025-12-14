@@ -3,6 +3,7 @@ package parser
 import (
 	"encoding/json"
 	"fmt"
+	"regexp"
 	"sort"
 	"strings"
 
@@ -22,8 +23,11 @@ func NewJSONLangParser() *JSONLangParser {
 
 // Parse extracts translation entries from JSON language file content.
 func (p *JSONLangParser) Parse(content []byte) ([]interfaces.ParsedEntry, error) {
+	// Remove JSON comments (// and /* */) before parsing
+	cleanedContent := removeJSONComments(content)
+
 	var data map[string]interface{}
-	if err := json.Unmarshal(content, &data); err != nil {
+	if err := json.Unmarshal(cleanedContent, &data); err != nil {
 		return nil, fmt.Errorf("failed to parse JSON: %w", err)
 	}
 
@@ -135,4 +139,88 @@ func detectTags(key string) []string {
 	}
 
 	return nil
+}
+
+// removeJSONComments removes JavaScript-style comments from JSON content.
+// Handles both single-line (//) and multi-line (/* */) comments.
+// This is needed because some Minecraft mods use JSONC format.
+func removeJSONComments(content []byte) []byte {
+	lines := strings.Split(string(content), "\n")
+	result := make([]string, 0, len(lines))
+
+	inMultiLineComment := false
+
+	for _, line := range lines {
+		// Handle multi-line comments
+		if inMultiLineComment {
+			if idx := strings.Index(line, "*/"); idx >= 0 {
+				line = line[idx+2:]
+				inMultiLineComment = false
+			} else {
+				continue // Skip entire line inside multi-line comment
+			}
+		}
+
+		// Check for start of multi-line comment
+		if idx := strings.Index(line, "/*"); idx >= 0 {
+			if endIdx := strings.Index(line[idx:], "*/"); endIdx >= 0 {
+				// Single-line /* */ comment
+				line = line[:idx] + line[idx+endIdx+2:]
+			} else {
+				line = line[:idx]
+				inMultiLineComment = true
+			}
+		}
+
+		// Remove single-line comments (// ...)
+		// Only remove if not inside a string
+		if idx := findCommentStart(line); idx >= 0 {
+			line = line[:idx]
+		}
+
+		// Skip empty lines or lines with only whitespace
+		trimmed := strings.TrimSpace(line)
+		if trimmed != "" {
+			result = append(result, line)
+		}
+	}
+
+	str := strings.Join(result, "\n")
+
+	// Clean up trailing commas before closing braces/brackets
+	trailingCommaRegex := regexp.MustCompile(`,(\s*[}\]])`)
+	str = trailingCommaRegex.ReplaceAllString(str, "$1")
+
+	return []byte(str)
+}
+
+// findCommentStart finds the position of // comment that's not inside a string.
+func findCommentStart(line string) int {
+	inString := false
+	escaped := false
+
+	for i := 0; i < len(line)-1; i++ {
+		c := line[i]
+
+		if escaped {
+			escaped = false
+			continue
+		}
+
+		if c == '\\' {
+			escaped = true
+			continue
+		}
+
+		if c == '"' {
+			inString = !inString
+			continue
+		}
+
+		if !inString && c == '/' && line[i+1] == '/' {
+			return i
+		}
+	}
+
+	return -1
 }

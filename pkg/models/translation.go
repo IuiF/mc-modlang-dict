@@ -35,6 +35,7 @@ const (
 	StatusVerified    = "verified"
 	StatusInherited   = "inherited"    // Inherited from previous version (identical source)
 	StatusNeedsReview = "needs_review" // Source text changed, translation may be outdated
+	StatusOfficial    = "official"     // Official translation from mod JAR
 )
 
 // TranslationWithSource combines Translation with its source information.

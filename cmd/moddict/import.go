@@ -121,10 +121,11 @@ Examples:
 	// Parse and import lang files
 	jsonParser := parser.NewJSONLangParser()
 	legacyParser := parser.NewLegacyLangParser()
-	var totalKeys, reusedSources, newSources, reusedTranslations, newTranslations int
+	var totalKeys, reusedSources, newSources, reusedTranslations, newTranslations, officialTranslations int
 
+	// First pass: Import source language (en_us) and create sources
+	sourceEntries := make(map[string]interfaces.ParsedEntry) // key -> entry
 	for _, langFile := range result.LangFiles {
-		// Only process source language file
 		if !isSourceLangFile(langFile, *langCode) {
 			continue
 		}
@@ -135,7 +136,6 @@ Examples:
 			continue
 		}
 
-		// Select parser based on file extension
 		var langParser interfaces.Parser
 		if isLegacyLangFile(langFile) {
 			langParser = legacyParser
@@ -149,51 +149,108 @@ Examples:
 			continue
 		}
 
-		// Create sources and translations
 		for _, entry := range entries {
-			// Get or create source (reuses if mod_id + key + source_text matches)
-			source, created, err := repo.GetOrCreateSource(ctx, result.ModID, entry.Key, entry.Text, *langCode)
-			if err != nil {
-				return fmt.Errorf("failed to get/create source: %w", err)
-			}
-
-			if created {
-				newSources++
-			} else {
-				reusedSources++
-			}
-
-			// Link source to this version
-			if err := repo.LinkSourceToVersion(ctx, source.ID, modVersion.ID); err != nil {
-				return fmt.Errorf("failed to link source to version: %w", err)
-			}
-
-			// Check if translation already exists for this source
-			existingTrans, err := repo.GetTranslationForSource(ctx, source.ID)
-			if err != nil {
-				return fmt.Errorf("failed to check existing translation: %w", err)
-			}
-
-			if existingTrans != nil {
-				// Translation exists - reuse it (no need to create new)
-				reusedTranslations++
-			} else {
-				// Create new translation (pending)
-				trans := &models.Translation{
-					SourceID:   source.ID,
-					TargetLang: "ja_jp",
-					Status:     models.StatusPending,
-					Tags:       entry.Tags,
-				}
-				if err := repo.SaveTranslation(ctx, trans); err != nil {
-					return fmt.Errorf("failed to save translation: %w", err)
-				}
-				newTranslations++
-			}
+			sourceEntries[entry.Key] = entry
 		}
 
 		totalKeys += len(entries)
 		fmt.Printf("Processed %d keys from %s\n", len(entries), filepath.Base(langFile))
+	}
+
+	// Second pass: Load official Japanese translations if available
+	jaTranslations := make(map[string]string) // key -> japanese text
+	for _, langFile := range result.LangFiles {
+		if !isTargetLangFile(langFile, "ja_jp") {
+			continue
+		}
+
+		content, err := os.ReadFile(langFile)
+		if err != nil {
+			fmt.Printf("Warning: failed to read %s: %v\n", langFile, err)
+			continue
+		}
+
+		var langParser interfaces.Parser
+		if isLegacyLangFile(langFile) {
+			langParser = legacyParser
+		} else {
+			langParser = jsonParser
+		}
+
+		entries, err := langParser.Parse(content)
+		if err != nil {
+			fmt.Printf("Warning: failed to parse %s: %v\n", langFile, err)
+			continue
+		}
+
+		for _, entry := range entries {
+			jaTranslations[entry.Key] = entry.Text
+		}
+
+		fmt.Printf("Found %d official Japanese translations from %s\n", len(entries), filepath.Base(langFile))
+	}
+
+	// Third pass: Create sources and translations
+	for key, entry := range sourceEntries {
+		// Get or create source (reuses if mod_id + key + source_text matches)
+		source, created, err := repo.GetOrCreateSource(ctx, result.ModID, entry.Key, entry.Text, *langCode)
+		if err != nil {
+			return fmt.Errorf("failed to get/create source: %w", err)
+		}
+
+		if created {
+			newSources++
+		} else {
+			reusedSources++
+		}
+
+		// Link source to this version
+		if err := repo.LinkSourceToVersion(ctx, source.ID, modVersion.ID); err != nil {
+			return fmt.Errorf("failed to link source to version: %w", err)
+		}
+
+		// Check if translation already exists for this source
+		existingTrans, err := repo.GetTranslationForSource(ctx, source.ID)
+		if err != nil {
+			return fmt.Errorf("failed to check existing translation: %w", err)
+		}
+
+		if existingTrans != nil {
+			// Translation exists - check if we should update with official translation
+			if jaText, hasOfficial := jaTranslations[key]; hasOfficial {
+				// Update with official translation if current is pending or empty
+				if existingTrans.Status == models.StatusPending || existingTrans.TargetText == nil || *existingTrans.TargetText == "" {
+					existingTrans.TargetText = &jaText
+					existingTrans.Status = models.StatusOfficial
+					if err := repo.SaveTranslation(ctx, existingTrans); err != nil {
+						return fmt.Errorf("failed to update translation: %w", err)
+					}
+					officialTranslations++
+				}
+			}
+			reusedTranslations++
+		} else {
+			// Create new translation
+			trans := &models.Translation{
+				SourceID:   source.ID,
+				TargetLang: "ja_jp",
+				Tags:       entry.Tags,
+			}
+
+			// Check if official Japanese translation exists
+			if jaText, hasOfficial := jaTranslations[key]; hasOfficial {
+				trans.TargetText = &jaText
+				trans.Status = models.StatusOfficial
+				officialTranslations++
+			} else {
+				trans.Status = models.StatusPending
+			}
+
+			if err := repo.SaveTranslation(ctx, trans); err != nil {
+				return fmt.Errorf("failed to save translation: %w", err)
+			}
+			newTranslations++
+		}
 	}
 
 	// Update version stats
@@ -206,6 +263,9 @@ Examples:
 	fmt.Printf("  Total keys: %d\n", totalKeys)
 	fmt.Printf("  Sources: %d reused, %d new\n", reusedSources, newSources)
 	fmt.Printf("  Translations: %d reused, %d new\n", reusedTranslations, newTranslations)
+	if officialTranslations > 0 {
+		fmt.Printf("  Official Japanese: %d keys\n", officialTranslations)
+	}
 	return nil
 }
 
@@ -233,6 +293,15 @@ func isSourceLangFile(path, langCode string) bool {
 	return baseLower == langCodeLower+".json" || baseLower == langCodeLower+".lang"
 }
 
+func isTargetLangFile(path, langCode string) bool {
+	base := filepath.Base(path)
+	// Support both .json (1.13+) and .lang (1.12.2 and earlier) formats
+	// Use case-insensitive comparison for language code
+	baseLower := strings.ToLower(base)
+	langCodeLower := strings.ToLower(langCode)
+	return baseLower == langCodeLower+".json" || baseLower == langCodeLower+".lang"
+}
+
 func isLegacyLangFile(path string) bool {
-	return strings.HasSuffix(path, ".lang")
+	return strings.HasSuffix(strings.ToLower(path), ".lang")
 }
