@@ -1534,7 +1534,7 @@ ars_nouveau.spell_book_gui.augment,Augment,増強
 ars_nouveau.spell_book_gui.clear,Clear,クリア
 ars_nouveau.spell_book_gui.close,Close,閉じる
 ars_nouveau.spell_book_gui.create,Create,作成
-ars_nouveau.spell_book_gui.dispel,Dispel,返す
+ars_nouveau.spell_book_gui.dispel,Dispel,帰す
 ars_nouveau.spell_book_gui.effect,Effect,効果
 ars_nouveau.spell_book_gui.familiar,Familiars,ファミリア
 ars_nouveau.spell_book_gui.form,Form,フォーム
@@ -1662,7 +1662,7 @@ ars_nouveau.wixie.no_recipe,No recipes found.,レシピが見つからないか�
 ars_nouveau.wixie.recipe_set,Recipe set.,レシピがセットされました。
 ars_nouveau.wixie_cauldron.bound,Inventory bound.,保管ブロックを接続しました。
 ars_nouveau.wixie_cauldron.cleared,Bound inventories cleared.,保存ブロックの接続を解除しました。
-ars_nouveau.wixie_cauldron.removed,Inventory removed.,保存ブロックとの接続を解除しました。
+ars_nouveau.wixie_cauldron.removed,Inventory removed.,保管ブロックとの接続を解除しました。
 ars_nouveau.wixie_familiar.applied,Wixie applies %s,ウィクシーが %s を付与してくれた
 ars_nouveau.xzmaxspeed_slider,Horizontal Speed: %s,水平速度: %s
 ars_nouveau.xzspeed_slider,Min XZ Speed: %s,最小XZ速度: %s
@@ -2339,8 +2339,8 @@ ars_nouveau.color_gui.blue_slider,Blue: ,青:
 ars_nouveau.color_gui.green_slider,Green: ,緑: 
 ars_nouveau.color_gui.red_slider,Red: ,赤: 
 ars_nouveau.familiar.sickness,You must wait before summoning another familiar.,召喚酔いが覚めるまで他のファミリアを召喚できません。
-ars_nouveau.glyph_desc.burst,Resolves the spell in a spherical area around the target. Augment with Sensitive to target blocks instead of entities and Dampen to make an empty sphere. Augment with AOE to increase the radius. ,魔術が当たった地点を中心に球状の範囲内の者に残りのグリフの効果を及ぼす。”繊細”で変化させるとエンティティではなく範囲内のブロックを対象にする。”減衰”で範囲の球の中が空になり、球の縁付近のみが範囲内となる。”範囲”グリフで球の半径が増加する。 
-ars_nouveau.glyph_name.burst,Burst,散開
+ars_nouveau.glyph_desc.burst,Resolves the spell in a spherical area around the target. Augment with Sensitive to target blocks instead of entities and Dampen to make an empty sphere. Augment with AOE to increase the radius. ,ターゲットの周りの球形エリアでスペルを発動します。センシティブで拡張して、エンティティの代わりにブロックをターゲットし、ダンペンで空の球を作成します。範囲で拡張して、半径を増やします。
+ars_nouveau.glyph_name.burst,Burst,爆発
 ars_nouveau.page.apparatus_crafting,Apparatus Crafting,エンチャント装置での製作
 ars_nouveau.page.archwood_forest,Archwood Forest,アークウッドの森
 ars_nouveau.page.better_casting,Better Casting,より良い詠唱
@@ -2352,12 +2352,12 @@ ars_nouveau.page.world_generation,World Generation,ワールド生成物
 ars_nouveau.page1.apparatus_crafting,"The Enchanting Apparatus is used for crafting special machines, curios, and equipment used to progress in Ars Nouveau. Crafting with the Enchanting Apparatus requires up to eight Arcane Pedestals, an Arcane Core, and the Enchanting Apparatus block. Once you have setup your apparatus, you should craft your first Magebloom Seed.",アルス・ヌーボーで使用する特殊な機械、珍品、装備品を製作するための道具です。エンチャント装置でクラフトするには、最大8個の儀式の台座と儀式コア、そしてエンチャント装置ブロックが必要です。装置のセットアップが完了したら、最初のメイジブルームの種をクラフトしてください。
 ars_nouveau.page1.archwood_forest,"The Archwood Forest is a somewhat rare biome filled with magical lights and archwood trees. It contains an increased amount of gold. Additionally, magical creatures such as Starbuncles, Whirlisprigs, Archwood Treants, and Drygmys have a much higher chance of spawning. Terrablender is required to be installed to generate this biome.",アークウッドの森は、魔法の光とアークウッドの木々で満たされた、ちょっと珍しいバイオームです。金や宝石の原石が多く含まれています。また、スターバンクル、ワールスプリッグ、ドライグミーなどの魔法生物は、高い確率で出現します。
 ars_nouveau.page1.better_casting,"Your mana pool may be expanded with special mage armors, enchantments, learning new glyphs, or by drinking potions. Once you have acquired a Magebloom Seed, you may craft Novice Robes which will expand your casting abilities significantly. These robes will self-repair using your mana pool, have a high enchantability, and provide decent armor.",マナのプールは、特別な魔法の防具やエンチャント、新しいグリフの習得、ポーションの服用などで拡張することができます。メイジブルームの種を獲得すると、初心者のローブを製作することができ、これによりキャスティング能力が大幅に向上します。このローブはあなたのマナを使って自己修復し、高いエンチャント能力を持ち、防御力を提供します。
-ars_nouveau.page1.jump_ring,Allows the user to continue jumping in the air. Each jump will expend mana.,ユーザーが空中でジャンプし続けられるようにします。各ジャンプでマナを消費します。
+ars_nouveau.page1.jump_ring,Allows the user to continue jumping in the air. Each jump will expend mana.,ユーザーが空中で跳び続けることを可能にします。各ジャンプはマナを消費します。
 ars_nouveau.page1.lava_lily,"A decorative block that can be placed on any liquid or block. The texture of this block varies if it is placed on Lava, a Magma Block, or any other block.",あらゆる液体やブロックの上に置くことができる装飾ブロックです。溶岩、マグマブロック、その他のブロックの上に置くと、このブロックのテクスチャが変化します。
 ars_nouveau.page1.new_glyphs,"Accessing new spells will require a small amount of setup, resources, and base building. New spells can be learned by obtaining Glyphs. Glyphs are created using the Scribe's Table with Experience and items. Once you have obtained a glyph, simply use it to memorize the glyph. See the section on the Scribes Table for more information.",新しいスペルにアクセスするには、わずかなセットアップとリソース、そして拠点の構築が必要です。新しいスペルは、グリフを入手することで覚えることができます。グリフはスクライブテーブルにて経験値とアイテムを消費して作成します。手に入れたグリフは使用することで習得することができます。詳しい情報はスクライブテーブルの項目を参照。
 ars_nouveau.page1.redstone_relay,"Can be connected to other Redstone Relays to wirelessly send a redstone signal. Takes input from one side and outputs in all other directions. Can be connected within 30 blocks of another relay, and multiple relays can be connected.",他のレッドストーン Relaysに接続して、ワイヤレスでredstone信号を送信できます。1つの側から入力を取ります。その他の方向に出力します。他のリレーの30ブロック以内で接続でき、複数のリレーを接続できます。
-ars_nouveau.page1.source_berry,"A Sourceberry Bush can be found in Taiga and Archwood Forest biomes, and produces Sourceberries. A Sourceberry can be used to craft a Potion of Mana Regeneration or consumed as food. Starbuncles will automatically harvest fully grown Source Berry Bushes, making them useful for early automation of the Agronomic Sourcelink. Sourceberry foods will also grant Mana Regeneration.",ソースベリーの低木はタイガとアークウッドの森のバイオームに存在し、ソースベリーを生産します。ソースベリーはマナ再生のポーションを作るのに使用したり、食べ物として食べたりすることができます。スターバンクルは成長したソースベリーを自動的に収穫するため、植生のソースリンクによるソースの初期自動生産に役立ちます。ソースベリーで作った食べ物も「マナ再生」の効果を与えてくれます。
-ars_nouveau.page1.spell_sensor,"Outputs a redstone signal when a spell is cast nearby. Output strength is determined by the length of the spell cast. Using a Dominion Wand will cause it to trigger when a spell resolves nearby, instead of being cast. Using a Spell Parchment will set the sensor to only output when that exact spell is detected.",スパークが近くで発動したときにレッドストーン信号を出力します。出力強度は発動された呪文の長さによって決まります。ドミニオンワンドを使用すると、呪文が解決したときにトリガーされます。スパーチ・パーチメントを使用すると、その正確な呪文が検出されたときのみセンサーが出力します。
+ars_nouveau.page1.source_berry,"A Sourceberry Bush can be found in Taiga and Archwood Forest biomes, and produces Sourceberries. A Sourceberry can be used to craft a Potion of Mana Regeneration or consumed as food. Starbuncles will automatically harvest fully grown Source Berry Bushes, making them useful for early automation of the Agronomic Sourcelink. Sourceberry foods will also grant Mana Regeneration.",ソースベリーブッシュはタイガとアーチウッドフォレストバイオームで見つけることができ、ソースベリーを生産します。ソースベリーはマナ再生ポーション醸造またはあるいはキャストに使用できます。スターバンクルはフルグロウンソースベリーブッシュを自動的に収集し、農業的ソースリンクの早期自動化に有用になります。ソースベリー食品はマナ再生も付与します。
+ars_nouveau.page1.spell_sensor,"Outputs a redstone signal when a spell is cast nearby. Output strength is determined by the length of the spell cast. Using a Dominion Wand will cause it to trigger when a spell resolves nearby, instead of being cast. Using a Spell Parchment will set the sensor to only output when that exact spell is detected.",近くで呪文がキャストされるとレッドストーン信号を出力します。出力強度はキャストされた呪文の長さによって決まります。ドミニオン ワンドを使用すると、キャストされる代わりに近くで呪文が解決されるときにトリガーされます。呪文羊皮紙を使用すると、その正確な呪文が検出されたときのみ出力するようセンサーが設定されます。
 ars_nouveau.page1.starting_automation,"Spells may be used in Automation using Spell Turrets. Use these to create auto harvesters, tree farms, quarries, cake farms, glass factories, and more! For item transport, autocrafting, or resource generation, see the variety of magical entities that may be summoned using Charms.",スペルは、ブックワームやスペルタレットなどのキャスターを通して、自動化で使用することができます。これらを使って、自動収穫機、樹木農場、採石場、ケーキ農場、ガラス工場などを作ることができます。アイテムの運搬、自動工作、資源の生成には、チャームを使って召喚できる様々な魔法エンティティを参照してください。
 ars_nouveau.page1.trinkets,"Items and curios can expand your casting and can provide unique buffs. For more casting, you may want to craft a Ring of Discount or an Amulet of Mana Regen. For travel, see the Belt of Levitation, or improve your mining efficiency with the Jar of Voiding.",アイテムやキュリオスは、キャスティングの幅を広げたり、ユニークなバフを提供することができます。より多くの詠唱を得るには、軽減の指輪やマナ再生のアミュレットをクラフトするとよいでしょう。移動のためのアイテムは 浮遊のベルト、採掘のためのアイテムは 空虚の壺 がおすすめです。
 ars_nouveau.page1.upgrades,"Tier 2 and 3 glyphs will require an Apprentice and Archmage spell book respectively. Higher tier books will allow you to cast higher tier spells, use them in automation, and provide additional mana and mana regeneration as a bonus. Once you are able to upgrade your book, upgrading your armor to the next tier of robes will also grant you another boost in casting.",ティアー2とティアー3のグリフは、それぞれ魔導士と大魔導士のスペルブックが必要になります。より高いティアーの本では、より高いティアーのスペルを唱えることができ、自動化で使用でき、ボーナスとしてマナ最大値とマナ再生速度が増えます。本をアップグレードできるようになったら、魔法の防具を次のティアーに強化すればキャスティングにさらなる強化を施せます。
@@ -2377,17 +2377,17 @@ ars_nouveau.storage.lectern_too_far,Lectern must be within 30 blocks.,書見台�
 block.ars_nouveau.lava_lily,Lava Lily,ラヴァリリー
 effect.ars_nouveau.familiar_sickness,Familiar Sickness,召喚酔い
 effect.ars_nouveau.shield,Magic Shield,マジックシールド
-item.ars_nouveau.apprentice_boots,Arcanist's Treads,魔導士のブーツ
-item.ars_nouveau.apprentice_hood,Arcanist's Hat,魔導士のフード
-item.ars_nouveau.apprentice_leggings,Arcanist's Pants,魔導士のレギンス
-item.ars_nouveau.apprentice_robes,Arcanist's Robes,魔導士のローブ
-item.ars_nouveau.archmage_boots,Battlemage's Boots,大魔導士のブーツ
-item.ars_nouveau.archmage_hood,Battlemage's Hood,大魔導士のフード
-item.ars_nouveau.archmage_leggings,Battlemage's Legguards,大魔導士のレギンス
-item.ars_nouveau.archmage_robes,Battlemage's Gambeson,大魔導士のローブ
+item.ars_nouveau.apprentice_boots,Arcanist's Treads,秘術家のブーツ
+item.ars_nouveau.apprentice_hood,Arcanist's Hat,秘術家のフード
+item.ars_nouveau.apprentice_leggings,Arcanist's Pants,秘術家のレギンス
+item.ars_nouveau.apprentice_robes,Arcanist's Robes,秘術家のローブ
+item.ars_nouveau.archmage_boots,Battlemage's Boots,戦闘魔導士のブーツ
+item.ars_nouveau.archmage_hood,Battlemage's Hood,戦闘魔導士のフード
+item.ars_nouveau.archmage_leggings,Battlemage's Legguards,戦闘魔導士のレギンス
+item.ars_nouveau.archmage_robes,Battlemage's Gambeson,戦闘魔導士のローブ
 item.ars_nouveau.bucket_of_source,Source Bucket,ソースバケツ
-item.ars_nouveau.music_disc_thistle_the_sound_of_glass.desc,Thistle - The Sound of Glass,スズメソウ - ガラスの音
-item.ars_nouveau.novice_boots,Sorceror's Footpads,初心者のブーツ
-item.ars_nouveau.novice_hood,Sorceror's Collar,初心者のフード
-item.ars_nouveau.novice_leggings,Sorceror's Leggings,初心者のレギンス
-item.ars_nouveau.novice_robes,Sorceror's Wrap,初心者のローブ
+item.ars_nouveau.music_disc_thistle_the_sound_of_glass.desc,Thistle - The Sound of Glass,スティール - グラスの音
+item.ars_nouveau.novice_boots,Sorceror's Footpads,魔術師のブーツ
+item.ars_nouveau.novice_hood,Sorceror's Collar,魔術師のフード
+item.ars_nouveau.novice_leggings,Sorceror's Leggings,魔術師のレギンス
+item.ars_nouveau.novice_robes,Sorceror's Wrap,魔術師のローブ

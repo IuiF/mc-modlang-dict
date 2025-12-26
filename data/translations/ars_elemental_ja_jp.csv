@@ -273,13 +273,13 @@ ars_nouveau.augment_desc.glyph_poison_spores_glyph_randomize,Randomizes the dama
 ars_nouveau.augment_desc.glyph_propagator_arc_glyph_accelerate,Projectiles will move faster.,発射体はより速く移動する.
 ars_nouveau.augment_desc.glyph_propagator_arc_glyph_decelerate,Projectiles will move slower.,発射体はより遅く移動する.
 ars_nouveau.augment_desc.glyph_propagator_arc_glyph_extract,Projectile direction will be relative to caster position.,発射体方向は相対的に詠唱者の終点位置.
-ars_nouveau.augment_desc.glyph_propagator_arc_glyph_pierce,Projectiles will bounce on blocks or hit through enemies an additional time.,発射体willbounceonblocksorhitthroughenemiesanadditional時間.
-ars_nouveau.augment_desc.glyph_propagator_arc_glyph_sensitive,Projectiles will hit plants and other materials that do not block motion.,発射体willhitplantsandothermaterialsthatdonotブロックmotion.
-ars_nouveau.augment_desc.glyph_propagator_arc_glyph_split,Creates multiple projectiles.,生成複数発射体.
+ars_nouveau.augment_desc.glyph_propagator_arc_glyph_pierce,Projectiles will bounce on blocks or hit through enemies an additional time.,発射体はブロックまたは敵を通り抜けて跳ねます
+ars_nouveau.augment_desc.glyph_propagator_arc_glyph_sensitive,Projectiles will hit plants and other materials that do not block motion.,発射体は植物やその他の材料に衝突します
+ars_nouveau.augment_desc.glyph_propagator_arc_glyph_split,Creates multiple projectiles.,複数の発射体を生成します
 ars_nouveau.augment_desc.glyph_propagator_homing_glyph_accelerate,Projectiles will move faster.,発射体はより速く移動する.
-ars_nouveau.augment_desc.glyph_propagator_homing_glyph_dampen,Projectiles will be affected by gravity.,発射体は影響を受ける by重力.
+ars_nouveau.augment_desc.glyph_propagator_homing_glyph_dampen,Projectiles will be affected by gravity.,発射体は重力の影響を受けます
 ars_nouveau.augment_desc.glyph_propagator_homing_glyph_decelerate,Projectiles will move slower.,発射体はより遅く移動する.
-ars_nouveau.augment_desc.glyph_propagator_homing_glyph_extract,Projectile direction will be relative to caster position.,発射体の方向は詠唱者の向きに対して相対的です
+ars_nouveau.augment_desc.glyph_propagator_homing_glyph_extract,Projectile direction will be relative to caster position.,発射体方向は相対的に詠唱者の終点位置.
 ars_nouveau.augment_desc.glyph_propagator_homing_glyph_pierce,Projectiles will pierce through enemies and blocks an additional time.,発射体は敵とブロックを通り抜けます
 ars_nouveau.augment_desc.glyph_propagator_homing_glyph_sensitive,Projectiles will also target players.,発射体はプレイヤーも対象とします
 ars_nouveau.augment_desc.glyph_propagator_homing_glyph_split,Creates multiple projectiles.,複数の発射体を生成します
@@ -394,7 +394,7 @@ entity.ars_elemental.flashjack_entity,Flashjack,フラッシュジャック
 entity.ars_elemental.flashjack_familiar,Flashjack Familiar,フラッシュジャック・ファミリア
 entity.ars_elemental.ice_spike,Ice Spike,アイススパイク
 entity.ars_elemental.lerp,Interpolated Source Effect,補完された魔弾
-entity.ars_elemental.linger_magnet,Gravity Well,重力の井泉
+entity.ars_elemental.linger_magnet,Gravity Well,重力の井戸
 entity.ars_elemental.siren_entity,Siren,サイレン
 entity.ars_elemental.siren_familiar,Siren Familiar,シレーン・ファミリア
 entity.ars_elemental.summon_camel,Summoned Camel,召喚ラクダ
@@ -551,21 +551,21 @@ tooltip.ars_elemental.prism_lens,Using a %s,%sを使用しています。
 tooltip.ars_nouveau.blessed,Protection of the 4 elements,4つの要素の保護
 tooltip.flashjack_shards,Obtained by giving a flashpine to a flashjack.,フラッシュジャックにフラッシュパインを与えることで取得します。
 tooltip.siren_shards,Obtained by giving a sea pickle to a siren.,サイレンに海のピクルを与えることで取得できます。
-ars_elemental.page.base_bangle,This magic accessory has a chance to boost the damage of your spells. Its magic is unstable but perhaps attuning it to a school can stabilize its abilities.,この魔法のアクセサリーは確率でスペルのダメージを強化します。中に込められた魔法は不安定ですが、特定の属性と同調させることで安定化させられるかもしれません。
+ars_elemental.page.base_bangle,This magic accessory has a chance to boost the damage of your spells. Its magic is unstable but perhaps attuning it to a school can stabilize its abilities.,この魔法アクセサリはあなたのスペルのダメージをアップする確率があります。その魔力は不安定ですが、それを学派に調律することで、その能力を安定させることができるかもしれません。
 ars_elemental.page.caster_bag,"The trinket pouch can only hold rather small things, but with a stronger fiber it seems possible to hold different kind of magical items. The Spellcaster bag can hold any caster tool and the mod's magic armor, arrow and shield. You can also open it with $(k:ars_elemental.open_pouch) while in the hotbar or in a curio slot.",装身具のポーチにはあまり大きなものは入りませんが、より強い繊維で作ればもっとたくさんの魔法のアイテムを入れられそうです。スペルキャスターの鞄にはMODが提供するすべての魔法の道具や防具、盾や矢を入れることができます。鞄がホットバーやキュリオスロットにある間、 $(k:ars_elemental.open_pouch) でも中身を開くことができます。
-ars_elemental.page1.air_bangle,"This bangle will boost the damage of your Air spells. Your arms sparks with the element, giving a passive boost to speed and attack knockback.",この腕輪は風属性のスペルのダメージを強化します。さらに腕輪から迸る疾風が、装備者に「移動速度上昇」と攻撃時に敵に追加のノックバックを与えます。
+ars_elemental.page1.air_bangle,"This bangle will boost the damage of your Air spells. Your arms sparks with the element, giving a passive boost to speed and attack knockback.",この腕輪は風のスペルのダメージをアップします。腕に元素が輝き、速度と攻撃ノックバックに受動的なブーストを与えます。
 ars_elemental.page1.anima_bangle,"This bangle will boost the damage of your Anima spells. You can feel a cycle of life and death in your arms, randomly healing or withering the enemies hit and giving you a small health boost.",このバングルはアニマ呪文のダメージを強化する。腕に生と死の循環を感じ、敵に治癒または衰弱を与え、さらに小さなヘルスブーストを得る。
-ars_elemental.page1.earth_bangle,"This bangle will boost the damage of your Earth spells. Plants blossom on your arms, inflicting snare to enemies hit and granting the wearer immunity to cactus and berry bushes and knockback resistance.",この腕輪は地属性のスペルのダメージを強化します。さらに腕輪から生えてくる花が、装備者の攻撃に「魔法の罠」で敵の動きを止める効果を与え、サボテンとベリーの低木に対する完全な耐性を付与し、ノックバック耐性も与えます。
-ars_elemental.page1.fire_bangle,"This bangle will boost the damage of your Fire spells. Your arms are engulfed in the element, setting on fire enemies hit and granting a passive boost to speed while in hot biomes.",この腕輪は火属性のスペルのダメージを強化します。さらに腕を飲み込む勢いの炎の力が、装備者の攻撃に敵を燃やす効果を与え、さらに熱いバイオームに居る間移動速度も上昇します。
-ars_elemental.page1.spell_horn,"The Enchanter's Horn can be used to cast spells on you and nearby entities. Hold the Horn to increase the range, at max charge it will also give a Spell Damage effect to the player. It MUST be inscribed with a spell that does NOT have another method, using a Scribing Table.",エンチャンターの角は自身と周りのエンティティに魔法をかけることができます。長押しでスペルの範囲が広がり、最大までチャージすればプレイヤーにスペルダメージ上昇を追加で付与します。使用前にスクライブテーブルでフォームを持たないスペルを刻み込む必要があります。
+ars_elemental.page1.earth_bangle,"This bangle will boost the damage of your Earth spells. Plants blossom on your arms, inflicting snare to enemies hit and granting the wearer immunity to cactus and berry bushes and knockback resistance.",この腕輪は地のスペルのダメージをアップします。腕に植物が咲き乱れ、敵に絡みつきを付与し、装備者にサボテンとベリーの茂みへの無敵とノックバック耐性を与えます。
+ars_elemental.page1.fire_bangle,"This bangle will boost the damage of your Fire spells. Your arms are engulfed in the element, setting on fire enemies hit and granting a passive boost to speed while in hot biomes.",この腕輪は炎のスペルのダメージをアップします。腕は元素に包まれ、敵を炎上させ、熱いバイオーム内での速度にパッシブブーストを与えます。
+ars_elemental.page1.spell_horn,"The Enchanter's Horn can be used to cast spells on you and nearby entities. Hold the Horn to increase the range, at max charge it will also give a Spell Damage effect to the player. It MUST be inscribed with a spell that does NOT have another method, using a Scribing Table.",エンチャンターの角はあなたと周辺のエンティティにスペルをキャストするために使用できます。角を保持して範囲を増加させます。最大チャージでは、プレイヤーにスペルダメージ効果も与えます。スクライビングテーブルで、別の方法がないスペルで刻まれる必要があります。
 ars_elemental.page1.summon_bangle,"This bangle will boost the damage of your Summoning spells. Your summons follows your arms movement, targeting whatever your hit with increased damage.",このバングルは召喚呪文のダメージを強化する。召喚生物があなたの腕の動きに従い、あなたが与えたダメージで対象を指定する。
-ars_elemental.page1.water_bangle,"This bangle will boost the damage of your Water spells. Your arms chills the air around, freezing enemies on every hit. It will also grant the wearer a passive boost to speed in water and rain.",この腕輪は水属性のスペルのダメージを強化します。さらに腕輪から溢れ出る冷気が、装備者の攻撃に敵を凍えさせる効果を与え、雨や水の中に居る際に移動速度を上昇させます。
+ars_elemental.page1.water_bangle,"This bangle will boost the damage of your Water spells. Your arms chills the air around, freezing enemies on every hit. It will also grant the wearer a passive boost to speed in water and rain.",この腕輪は水のスペルのダメージをアップします。腕が周囲の空気を冷やし、すべてのヒットで敵を凍らせます。また、装備者に水と雨での速度への受動的ブーストを与えます。
 ars_elemental.perk.summon_power,Summon Power,召喚力
 ars_elemental.perk.summon_power.desc,Increases the damage of summoned creatures.,召喚されたクリーチャーのダメージを増加させる
-ars_nouveau.page.elemental_turrets,Elemental Infused Turrets,属性の力が注がれたタレット
+ars_nouveau.page.elemental_turrets,Elemental Infused Turrets,元素を帯びたタレット
 curios.identifier.bangle,Bangle,腕輪
 curios.identifier.bundle,Bundle,バンドル
 curios.modifiers.an_focus,While in spell focus slot:,スペルフォーカススロットに入っている間:
 curios.modifiers.bangle,While in bangle slot:,腕輪スロットに入っている間:
-entity.ars_elemental.homing_projectile,Homing Projectile,追尾魔弾
+entity.ars_elemental.homing_projectile,Homing Projectile,追尾発射体
 tooltip.ars_elemental.caster_tome,Mimics the abilities of a school focus.,属性フォーカスの機能を模写します。

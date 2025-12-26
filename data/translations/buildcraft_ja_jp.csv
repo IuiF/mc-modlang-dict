@@ -139,7 +139,7 @@ direction.center.5,East,東
 direction.center.6,South-West,南西
 direction.center.7,South,南
 direction.center.8,South-East,南東
-fillerpattern.clear,Clear,すべて除去
+fillerpattern.clear,Clear,クリア
 fillerpattern.fill,Fill,すべて埋める
 fillerpattern.flatten,Flatten,整地
 fillerpattern.horizon,Horizon,水平
@@ -208,7 +208,7 @@ gate.trigger.inventory.empty,Inventory Empty,アイテムが入っていない
 gate.trigger.inventory.contains,Items in Inventory,アイテムが入っている
 gate.trigger.inventory.space,Space in Inventory,アイテムの入るスペースがある
 gate.trigger.inventory.full,Inventory Full,アイテムで満杯
-gate.trigger.inventorylevel.below,Contains < %d%%,アイテム量 < %d%%
+gate.trigger.inventorylevel.below,Contains < %d%%,液体量 < %d%%
 gate.trigger.machine.done,Work Done,作業が完了した
 gate.trigger.machine.scheduled,Has Work,作業が完了していない
 gate.trigger.redstone.input.active,Redstone Signal On,レッドストーン信号を受けている
@@ -340,7 +340,7 @@ item.FacadePhased.state_default,Default: %s,デフォルト: %s
 item.FacadePhased.state_transparent,Transparent,透明
 item.PipePlug.name,Pipe Plug,パイプ栓
 item.Lens.name,Lens,カラーレンズ
-item.Filter.name,Filter,カラーフィルター
+item.Filter.name,Filter,フィルター
 item.PipePowerAdapter.name,Power Adapter,電力アダプター
 item.debugger.name,Debugger,デバッガー
 item.debugger.warning,Use only for testing! Leaks secrets.,テスト専用！ 秘密情報が漏れます。
@@ -356,7 +356,7 @@ tile.autoWorkbenchBlock.name,Auto Workbench,自動作業台
 tile.blockFuel.name,Fuel,燃料
 tile.blockHopper.name,Chute,漏斗
 tile.blockOil.name,Oil,原油
-tile.builderBlock.name,Builder,建築機
+tile.builderBlock.name,Builder,建築
 tile.chargingTableBlock.name,Charging Table,レーザー充電台
 tile.constructionMarkerBlock.name,Construction Mark,建築マーカー
 tile.engineCreative.name,Creative Engine,クリエイティブ専用エンジン
@@ -366,7 +366,7 @@ tile.engineWood.name,Redstone Engine,レッドストーンエンジン
 tile.fillerBlock.name,Filler,簡易建築機
 tile.filteredBufferBlock.name,Filtered Buffer,選別緩衝器
 tile.floodGateBlock.name,Flood Gate,水門
-tile.frameBlock.name,Frame,フレーム
+tile.frameBlock.name,Frame,外枠のみ
 tile.integrationTableBlock.name,Integration Table,レーザー合成台
 tile.laserBlock.name,Laser,レーザー
 tile.libraryBlock.name,Electronic Library,青写真ライブラリ
@@ -383,7 +383,7 @@ tile.requester.name,Requester,アイテム要求器
 tile.spring.oil.name,Oil Spring,原油の源
 tile.spring.water.name,Water Spring,湧き水の源
 tile.stampingTableBlock.name,Stamping Table,スタンピングテーブル
-tile.tankBlock.name,Tank,タンク
+tile.tankBlock.name,Tank,液体輸送
 tile.zonePlan.name,Zone Planner,範囲指定機
 tile.architect.rotate,Rotate: On,方向保持: Off
 tile.architect.norotate,Rotate: Off,方向保持: On
@@ -397,7 +397,7 @@ tip.gate.wires,§9§oCompatible Wires:,§9§o使用可能なワイヤー:
 tip.gate.wires.redstone,Red,赤
 tip.gate.wires.iron,"Red, Blue","赤, 青"
 tip.gate.wires.gold,"Red, Blue, Green","赤, 青, 緑"
-tip.gate.wires.quartz,"Red, Blue, Green",赤、青、緑
+tip.gate.wires.quartz,"Red, Blue, Green","赤, 青, 緑"
 tip.gate.wires.diamond,"Red, Blue, Green, Yellow","赤, 青, 緑, 黄"
 tip.gate.wires.emerald,"Red, Blue, Green, Yellow","赤, 青, 緑, 黄"
 tip.gate.expansions,§9§oInstalled Expansions:,§9§o追加機能:
@@ -424,14 +424,14 @@ tip.PipeItemsLapis,Paints items,アイテムを色分けする
 tip.PipeItemsObsidian,Sucks up items,アイテムを吸引する
 tip.PipeItemsQuartz,"Basic pipe, low drag\nWon't connect to Cobblestone or Stone","基本パイプ、減速率低
 石、丸石の輸送パイプと接続しない"
-tip.PipeItemsSandstone,Only connects to other pipes,輸送パイプのみと接続する
+tip.PipeItemsSandstone,Only connects to other pipes,防水パイプのみと接続する
 tip.PipeItemsStone,"Basic pipe, medium drag\nWon't connect to Cobblestone or Quartz","基本パイプ、減速率中
 丸石、水晶の輸送パイプと接続しない"
 tip.PipeItemsVoid,Destroys items,アイテムを消去する
 tip.PipeItemsWood,Extraction pipe,搬出パイプ
 tip.PipePowerEmerald,Power Input Pipe,エネルギー入力パイプ
 tip.PipePowerIron,Selectable Limiter Pipe,エネルギー流量調整パイプ
-tip.PipePowerSandstone,Only connects to other pipes,伝導パイプのみと接続する
+tip.PipePowerSandstone,Only connects to other pipes,防水パイプのみと接続する
 tip.PipePowerWood,Power Input Pipe,エネルギー入力パイプ
 tip.PipeStructureCobblestone,Support pipe,支持パイプ
 tip.deprecated,Deprecated,廃止
@@ -591,7 +591,7 @@ fluid.fuel_mixed,Mixed Fuels,混合燃料
 fluid.fuel_mixed_heavy,Mixed Heavy Fuels,重燃料混合
 fluid.fuel_mixed_light,Mixed Light Fuels,軽燃料混合
 fluid.fuel_dense,Dense Fuel,高密度燃料
-fluid.fuel_light,Light Fuel,軽量燃料
+fluid.fuel_light,Light Fuel,燃料
 fluid.fuel_gaseous,Gaseous Fuel,気体燃料
 buildcraft.fluid.heat_0,%s (§bCool§r),%s (§b冷却§r)
 buildcraft.fluid.heat_1,%s (§6Hot§r),%s (§6Hot§r)
@@ -649,9 +649,9 @@ item.pulsar.name,Pipe Pulsar,パイプパルサー
 item.fragile_fluid_shard.name,Fragile %s Shard,脆弱な%sの破片
 item.waterGel.name,Water Gelifier,水ゲル化剤
 item.gel.name,Gelled Water,凝固した水
-item.buildcraft_pipe_wood_item.name,Wooden Transport Pipe,木製輸送パイプ
-item.buildcraft_pipe_cobblestone_item.name,Cobblestone Transport Pipe,ブロック輸送パイプ
-item.buildcraft_pipe_stone_item.name,Stone Transport Pipe,石輸送パイプ
+item.buildcraft_pipe_wood_item.name,Wooden Transport Pipe,木の輸送パイプ
+item.buildcraft_pipe_cobblestone_item.name,Cobblestone Transport Pipe,丸石の輸送パイプ
+item.buildcraft_pipe_stone_item.name,Stone Transport Pipe,石の輸送パイプ
 item.buildcraft_pipe_andersite_item.name,Andersite Transport Pipe,アンダースァイト輸送パイプ
 item.buildcraft_pipe_andersite_polished_item.name,Polished Andersite Transport Pipe,研磨されたアンダーサイト輸送パイプ
 item.buildcraft_pipe_diorite_item.name,Diorite Transport Pipe,閃緑岩輸送パイプ
@@ -673,25 +673,25 @@ item.buildcraft.robot_goggles.name,Robot Goggles,ロボットゴーグル
 item.buildcraft.filler_planner.name,Filler Planner,埋め込み計画者
 itemGroup.buildcraft.plugs,BuildCraft Pluggables,BuildCraft プラグ可能アイテム
 tile.architectBlock.tip,Not usable in survival,サバイバルでは使用不可
-tile.chuteBlock.name,Chute,シュート
+tile.chuteBlock.name,Chute,漏斗
 tile.builderBlock.tip,Not usable in survival,サバイバルでは使用不可
 tile.chargingTableBlock.tip,Nothing can be charged with this!,これで何も充電できません！
 tile.fillerBlock.tip,Not usable in survival.,生存モードでは使用できません。
 tile.integrationTableBlock.tip,No recipes use this!,このアイテムはレシピで使用されません！
 tile.libraryBlock.tip,Not usable in survival,サバイバルでは使用不可
-tile.quarryBlock.name,Quarry,掘削機
+tile.quarryBlock.name,Quarry,露天採掘機
 tile.programmingTableBlock.tip,"Robots aren't coming to 1.12.2, so this table is useless :(",ロボットは1.12.2には来ませんので、このテーブルは役立ちません :(
-tile.zonePlannerBlock.name,Zone Planner,ゾーンプランナー
+tile.zonePlannerBlock.name,Zone Planner,範囲指定機
 tile.zonePlannerBlock.tip,"Robots aren't coming to 1.12.2, so this is useless :(",ロボットは1.12.2には来ないので、これは無駄です :(
 tile.distiller.name,Distiller,蒸留器
 tile.heat_exchange.name,Heat Exchanger,熱交換器
 tile.decorated.blueprint.name,Blueprint (Decoration),ブルーブック (装飾)
 tile.decorated.template.name,Template (Decoration),テンプレート（装飾）
 tile.decorated.laser_back.name,Laser (Decoration),レーザー（装飾）
-tip.PipePowerDiamond,Selectable Limiter Pipe,選択可能な制限パイプ
+tip.PipePowerDiamond,Selectable Limiter Pipe,エネルギー流量調整パイプ
 tip.filler.invert.on,Invert,反転
 tip.filler.invert.off,Do Not Invert,反転しない
-tip.shift.PipePowerDiamond,Change the limit with a wrench or gates,レンチまたはゲートで制限を変更してください
+tip.shift.PipePowerDiamond,Change the limit with a wrench or gates,レンチまたはゲートでリミットを変更する
 command.buildcraft.version.fail,Version check failed! Check the log file for details.,バージョンチェックに失敗しました！詳細はログファイルを確認してください。
 command.buildcraft.version.prerelease,You are using a pre-release build,プレリリースビルドを使用しています
 buildcraft.item.nonclean.usage,Shift-right click to clean,右クリックで清掃
@@ -803,7 +803,7 @@ advancements.buildcraftenergy.sticky_dipping.title,Sticky dipping,粘着性の�
 advancements.buildcraftenergy.sticky_dipping.description,Discover the sticky nature of oil,油の粘性を発見する
 advancements.buildcraftenergy.fine_riches.title,Fine riches,豊かな資源
 advancements.buildcraftenergy.fine_riches.description,Find an oil biome,油のバイオームを探す
-advancements.buildcraftenergy.refine_and_redefine.title,Refine and redefine,精錬し、再定義する
+advancements.buildcraftenergy.refine_and_redefine.title,Refine and redefine,精製と合成
 advancements.buildcraftenergy.refine_and_redefine.description,Produce a tank full of every single type of oil and fuel,すべての種類の油と燃料で満たされたタンクを生成します。
 advancements.buildcraftfactory.fluid_storage.title,Fluid storage,液体ストレージ
 advancements.buildcraftfactory.fluid_storage.description,Store fluid in a tank,タンクに液体を貯蔵する

@@ -108,7 +108,7 @@ enchantment.ad_astra_giselle_addon.gravity_normalizing,Gravity Normalizing,重�
 enchantment.ad_astra_giselle_addon.space_breathing,Space Breathing,空気呼吸
 enchantment.ad_astra_giselle_addon.space_breathing.desc,"Can breath in Ad Astra dimensions
 Require 'Oxygen Can' in inventory",Ad Astraディメンションで呼吸できる
-enchantment.ad_astra_giselle_addon.space_fire_proof,Space Fire Proof,スペース火防
+enchantment.ad_astra_giselle_addon.space_fire_proof,Space Fire Proof,スペース防火
 gui.ad_astra_giselle_addon.gravity_normalizer.energy_using,%1$s ⚡ / %2$stick,%1$s ⚡ / %2$stick
 gui.ad_astra_giselle_addon.gravity_normalizer.length.x,X Length: %s,X長さ: %s
 gui.ad_astra_giselle_addon.gravity_normalizer.length.y,Y Length: %s,Y長さ: %s
@@ -129,7 +129,7 @@ item.ad_astra_giselle_addon.netherite_oxygen_can,Netherite Oxygen Can,ネザー�
 item.ad_astra_giselle_addon.oxygen_can,Oxygen Can,酸素缶
 item.ad_astra_giselle_addon.pneumatic_acid_rain_proof_upgrade,Acid Rain Proof Upgrade,酸雨耐性アップグレード
 item.ad_astra_giselle_addon.pneumatic_gravity_normalizing_upgrade,Gravity Normalizing Upgrade,重力正規化アップグレード
-item.ad_astra_giselle_addon.pneumatic_space_breathing_upgrade,Space Breathing Upgrade,スペースブリージングアップグレード
+item.ad_astra_giselle_addon.pneumatic_space_breathing_upgrade,Space Breathing Upgrade,空気呼吸アップグレード
 item.ad_astra_giselle_addon.pneumatic_space_fire_proof_upgrade,Space Fire Proof Upgrade,宇宙用火炎耐性アップグレード
 item.ad_astra_giselle_addon.rocket_sensor.tooltip,Output near Rocket's state as redstone signal through Comparator,Rocket の状態を Comparator を介してレッドストーン信号で出力します
 jei.category.ad_astra_giselle_addon.fuel_loader,Fuel Loader,燃料ローダー
@@ -149,12 +149,12 @@ module.ad_astra_giselle_addon.space_fire_proof_unit,Space Fire Proof Unit,スペ
 pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.acid_rain_proof,Acid Rain Proof,酸雨耐性
 pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.gravity_normalizing,Gravity Normalizing,重力正規化
 pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_breathing,Space Breathing,空気呼吸
-pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_fire_proof,Space Fire Proof,スペース火防
-pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.acid_rain_proofUpgrade,Don't damage from acid rain in Ad Astra dimensions,アド・アストラディメンションで酸雨によるダメージを受けない
-pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.gravity_normalizingUpgrade,Normalize gravity like overworld in Ad Astra dimensions,Ad Astra 次元でオーバーワールドと同じ重力に正規化します
+pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_fire_proof,Space Fire Proof,スペース防火
+pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.acid_rain_proofUpgrade,Don't damage from acid rain in Ad Astra dimensions,Ad Astra ディメンションの酸雨からダメージを受けません。
+pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.gravity_normalizingUpgrade,Normalize gravity like overworld in Ad Astra dimensions,オーバーワールドと同様に重力を正規化
 pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.space_breathingUpgrade,"Can breath in Ad Astra dimensions
 Require 'Oxygen Can' in inventory",Ad Astraディメンションで呼吸できる
-pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.space_fire_proofUpgrade,Don't set fire to player in Ad Astra dimensions,アド・アストラディメンションでプレイヤーに火をつけないでください
+pneumaticcraft.gui.tab.info.item.armor.generic.ad_astra_giselle_addon.space_fire_proofUpgrade,Don't set fire to player in Ad Astra dimensions,Ad Astraディメンションでプレイヤーに火をつけないでください
 rocket_sensing_type.ad_astra_giselle_addon.disabled,Disabled,無効
 rocket_sensing_type.ad_astra_giselle_addon.disabled.desc,Always output %1$s,常に %1$s を出力
 rocket_sensing_type.ad_astra_giselle_addon.flying_up,Flying Up,上昇飛行
@@ -182,7 +182,7 @@ modifier.ad_astra_giselle_addon.acid_rain_proof,Acid Rain Proof,酸雨耐性
 modifier.ad_astra_giselle_addon.acid_rain_proof.description,Don't damage from acid rain in Ad Astra dimensions,Ad Astra ディメンションの酸雨からダメージを受けません。
 modifier.ad_astra_giselle_addon.acid_rain_proof.flavor,Acid Rain Proof,酸雨耐性
 modifier.ad_astra_giselle_addon.gravity_normalizing,Gravity Normalizing,重力正規化
-modifier.ad_astra_giselle_addon.gravity_normalizing.description,Normalize gravity like overworld in Ad Astra dimensions,Ad Astra 次元でオーバーワールドと同様に重力を正規化します
+modifier.ad_astra_giselle_addon.gravity_normalizing.description,Normalize gravity like overworld in Ad Astra dimensions,オーバーワールドと同様に重力を正規化
 modifier.ad_astra_giselle_addon.gravity_normalizing.flavor,Gravity Normalizing,重力正規化
 modifier.ad_astra_giselle_addon.space_breathing,Space Breathing,空気呼吸
 modifier.ad_astra_giselle_addon.space_breathing.description,"Can breath in Ad Astra dimensions

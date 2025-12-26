@@ -163,7 +163,7 @@ block.advgenerators.pressure_output_select,Pressurized Output Valve,圧力出力
 block.advgenerators.sensor,Sensor Module,センサーモジュール
 block.advgenerators.steam,Steam,蒸気
 block.advgenerators.steam_turbine_controller,Steam Turbine Controller,蒸気タービンコントローラー
-block.advgenerators.syngas,Syngas,シングス（Things）
+block.advgenerators.syngas,Syngas,シングス
 block.advgenerators.syngas_controller,Syngas Producer Controller,シング気体発生器制御器
 block.advgenerators.tesla_output,Tesla Generator,テスラ発電機
 block.advgenerators.turbine_tier1,Basic Turbine,基本タービン
@@ -198,14 +198,14 @@ item.advgenerators.upgrade_kit,Upgrade Kit,アップグレードキット
 itemGroup.bdew.generators,Advanced Generators,高度な発電機
 resource.fluid.format,%s / %s mB,%s / %s メガバイト
 resource.item.format,%s / %s,%s / %s
-tile.advgenerators.fluid_input.name,Fluid Intake Valve,液体吸入口弁
+tile.advgenerators.fluid_input.name,Fluid Intake Valve,液体吸入弁
 tile.advgenerators.fuel_tank.name,Fuel Tank,燃料タンク
 tile.advgenerators.turbine_controller.name,Gas Turbine controller,ガスタービン制御器
-tile.advgenerators.eu_output_lv.name,Low Voltage Emitter,低電圧エミッタ
-tile.advgenerators.eu_output_mv.name,Medium Voltage Emitter,中电压発生器
+tile.advgenerators.eu_output_lv.name,Low Voltage Emitter,低電圧放射器
+tile.advgenerators.eu_output_mv.name,Medium Voltage Emitter,中電圧放射器
 tile.advgenerators.eu_output_hv.name,High Voltage Emitter,高電圧放射器
 tile.advgenerators.eu_output_ev.name,Extreme Voltage Emitter,極端な電圧発生器
-tile.advgenerators.eu_output_iv.name,Insane Voltage Emitter,狂い电压発生器
+tile.advgenerators.eu_output_iv.name,Insane Voltage Emitter,異常電圧放射器
 tile.advgenerators.rf_output.name,Flux Generator,フラックス発電機
 tile.advgenerators.tesla_output.name,Tesla Generator,テスラ発電機
 tile.advgenerators.forge_output.name,Forge Energy Emitter,フォアジンエネルギー発生器
@@ -213,17 +213,17 @@ tile.advgenerators.steam.name,Steam,蒸気
 tile.advgenerators.syngas.name,Syngas,シングス
 tile.advgenerators.steam_turbine_controller.name,Steam Turbine Controller,蒸気タービンコントローラー
 tile.advgenerators.exchanger_controller.name,Heat Exchanger Controller,熱交換器コントローラ
-tile.advgenerators.fluid_output_select.name,Fluid Output Valve,液体排出口弁
+tile.advgenerators.fluid_output_select.name,Fluid Output Valve,液体排出弁
 tile.advgenerators.item_output.name,Item Output Port,アイテム出力ポート
 tile.advgenerators.item_input.name,Item Input Port,アイテム入力ポート
 tile.advgenerators.pressure_output_select.name,Pressurized Output Valve,圧力出力バルブ
 tile.advgenerators.pressure_input.name,Pressurized Input Valve,圧力入力バルブ
 tile.advgenerators.heat_exchanger.name,Heat Exchanger,熱交換器
-tile.advgenerators.syngas_controller.name,Syngas Producer Controller,シンガスプロデューサーコントローラー
+tile.advgenerators.syngas_controller.name,Syngas Producer Controller,シング気体発生器制御器
 tile.advgenerators.heating_chamber.name,Heating Chamber,加熱室
 tile.advgenerators.mixing_chamber.name,Mixing Chamber,混合室
 tile.advgenerators.sensor.name,Sensor Module,センサーモジュール
-tile.advgenerators.gas_input.name,Gas Intake Valve,ガス吸入弁
+tile.advgenerators.gas_input.name,Gas Intake Valve,ガス吸入口バルブ
 tile.advgenerators.control.name,Redstone Control Module,レッドストーン制御モジュール
 tile.advgenerators.efficiency_upgrade_tier1.name,Fuel/Air Mixer,燃料/空気ミキサー
 tile.advgenerators.efficiency_upgrade_tier2.name,Gas Mix Compressor,ガス混合圧縮機
@@ -231,7 +231,7 @@ tile.advgenerators.generators_data_port.name,Machine Data Port,マシンデー�
 item.advgenerators.iron_frame.name,Iron Frame,鉄のフレーム
 item.advgenerators.power_io.name,Power IO Module,電力入出力モジュール
 item.advgenerators.iron_tubing.name,Iron Tubing,鉄のパイプ
-item.advgenerators.iron_wiring.name,Redstone-Iron Wiring,レッドストーン鉄線
+item.advgenerators.iron_wiring.name,Redstone-Iron Wiring,レッドストーン-鉄配線
 item.advgenerators.controller.name,Control Circuit,制御回路
 item.advgenerators.pressure_valve.name,Pressure Valve,圧力バルブ
 item.advgenerators.advanced_pressure_valve.name,Advanced Pressure Valve,高度圧力バルブ
@@ -267,8 +267,8 @@ item.advgenerators.turbine_rotor_adv_alloy.name,Advanced Alloy Turbine Rotor,ア
 item.advgenerators.turbine_kit_adv_alloy.name,Advanced Alloy Turbine Upgrade Kit,高度合金タービンアップグレードキット
 tile.advgenerators.turbine_adv_alloy.name,Advanced Alloy Turbine,高度合金タービン
 tile.advgenerators.power_capacitor_redstone.name,Basic Power Capacitor,基本的な電力キャパシタ
-tile.advgenerators.power_capacitor_advanced.name,Advanced Power Capacitor,高度な電力コンデンサ
-tile.advgenerators.power_capacitor_dense.name,High Density Power Capacitor,高密度電力コンデンサ
+tile.advgenerators.power_capacitor_advanced.name,Advanced Power Capacitor,上級電力キャパシタ
+tile.advgenerators.power_capacitor_dense.name,High Density Power Capacitor,高密度エネルギーコンデンサー
 item.advgenerators.capacitor_kit_advanced.name,Advanced Capacitor Upgrade Kit,高度なキャパシタアップグレードキット
 item.advgenerators.capacitor_kit_dense.name,High Density Capacitor Upgrade Kit,高密度キャパシタアップグレードキット
 //,=====,=====

@@ -9,7 +9,7 @@ aetherworks.jei.recipe.aetherium_anvil.difficulty.5,§cHard,§c困難
 aetherworks.jei.recipe.aetherium_anvil.difficulty.6,§1Challenging,§1困難
 aetherworks.jei.recipe.aetherium_anvil.difficulty.7,§5Exhaustive,§5完全な
 aetherworks.jei.recipe.aetherium_anvil.difficulty.title,Rating: ,評価: 
-aetherworks.jei.recipe.aetherium_anvil.ember,"  /Hit: %s",/攻撃: %s
+aetherworks.jei.recipe.aetherium_anvil.ember,  /Hit: %s,/攻撃: %s
 aetherworks.jei.recipe.aetherium_anvil.hits,x%s,x%s
 aetherworks.jei.recipe.aetherium_anvil.temperature.value,%s° <---> %s°,%s° <---> %s°
 aetherworks.jei.recipe.metal_forming,Metal Forming,金属成形
@@ -45,7 +45,7 @@ aetherworks.tooltip.shovel_head_slime,§oSlime Infused,§oスライムインフ�
 block.aetherworks.aether_forge,Aetherium Forge,アーチェリウム・フォージ
 block.aetherworks.aether_gas_block,Aetherium Aerosol,アーテリウム化合物
 block.aetherworks.aether_gas_impure_block,Impure Aetherium Sludge,不純なエーテルスラグ
-block.aetherworks.aether_gas_painful_block,Seething Aetherium,沸騰するアーテリウム
+block.aetherworks.aether_gas_painful_block,Seething Aetherium,沸騰するアーチエリウム
 block.aetherworks.aether_prism_controller_matrix,Aetherium Focusing Matrix,エーテリアムフォーカシングマトリクス
 block.aetherworks.alchemic_precursor_block,Alchemic Precursor,錬金学的前駆体
 block.aetherworks.block_aether,Block of Aetherium,アーチエリウムブロック
@@ -126,7 +126,7 @@ embers.research.page.aw.crown_gem.desc,"In order to add an effect to a vessel ge
 embers.research.page.aw.focus_matrix,Focusing Matrix,フォーカスマトリクス
 embers.research.page.aw.focus_matrix.desc,"By re-applying Alchemical Precursor to an Aetherium Gem, it becomes highly susceptible to moonlight, and, when properly focused, can magnify the amount of aetherium produced by the Moonlight Harvester. Simply place an Aetherium Focusing Matrix on top of one of the vacant diagonal pillars to increase the Aetherium yield by 1, up to 4 matrices..",エーテリウム・ジェムにアルケミカル・プレカーサーを再度適用すると、月光に非常に敏感になり、適切に焦点が当てられると、ムーンライト・ハーベスターが生成するエーテリウムの量を増幅できます。エーテリウム・フォーカシング・マトリックスを空いている対角線の柱の上に置くと、エーテリウムの収量が1増加し、最大4つのマトリックスまで増加します。
 embers.research.page.aw.focus_matrix.title,Magnifying Crystal,拡大結晶
-embers.research.page.aw.forge,Aetherium Forge,アーテリウム鍛造炉
+embers.research.page.aw.forge,Aetherium Forge,アーチェリウム・フォージ
 embers.research.page.aw.forge.desc,"Working Aetherium demands extreme temperatures, and so you have constructed the Aetherium Forge: A solid slab of dawnstone with a wildfire core at its heart. The forge is heated with Ember, which is then used for a variety of different crafts. Don't let the heat get too high - if the forge reaches maximum temperature and stays there for too long, it will explode violently.",エーテリウムの加工には極端な温度が必要なため、エーテリウム・フォージを建設しました。中心に野火のコアを備えた固いドーンストーンのスラブです。フォージはエンバーで加熱され、さまざまな製造に使用されます。熱が高くなりすぎないようにしてください。フォージが最高温度に達し、そこに長くとどまると、激しく爆発します。
 embers.research.page.aw.forge.title,Forge Ahead,鋳造を進めよう
 embers.research.page.aw.forge_2.desc,"Ember and Forge dials may be attached to the core on the top and bottom. Some blocks, like Fluid Vessels and Forge Heaters, are placed along the sides. Other crafting blocks, like the Metal Former, are placed on top.",エンバーとフォージ・ダイアルを上下の中心に取り付けることができます。流体ヴェッセルやフォージ・ヒーターなどの一部のブロックは側面に配置されます。メタル・フォーマーなどの他の製造ブロックは上部に配置されます。
@@ -215,10 +215,10 @@ embers.tooltip.augment.aetherworks.agrarian_liners,Agrarian,農業
 embers.tooltip.augment.aetherworks.tuning_cylinder,Aetheric Tuning %s,エーテリウムチューニング %s
 embers.tooltip.augment.aetherworks.volant_calcifier,Wing Clipping %s,翼の切断 %s
 enchantment.aetherworks.aetheric,Aetheric,エーテル
-fluid_type.aetherworks.aether_gas,Aetherium Aerosol,アーチェリウムエーロゾル
-fluid_type.aetherworks.aether_gas_impure,Impure Aetherium Sludge,不純なエーテリウムスラッジ
+fluid_type.aetherworks.aether_gas,Aetherium Aerosol,アーテリウム化合物
+fluid_type.aetherworks.aether_gas_impure,Impure Aetherium Sludge,不純なエーテルスラグ
 fluid_type.aetherworks.aether_gas_painful,Seething Aetherium,沸騰するアーチエリウム
-fluid_type.aetherworks.alchemic_precursor,Alchemic Precursor,アルケミック・プリスクーア
+fluid_type.aetherworks.alchemic_precursor,Alchemic Precursor,錬金学的前駆体
 fluid_type.aetherworks.flowing_aether_gas,Flowing Aetherium Aerosol,流れるエーテリウムアロゾール
 fluid_type.aetherworks.flowing_aether_gas_impure,Flowing Impure Aetherium Sludge,流れ続ける不純なアーチェリウムの泥
 fluid_type.aetherworks.flowing_aether_gas_painful,Flowing Seething Aetherium,流れる沸騰するエーテルウム
@@ -227,7 +227,7 @@ item.aetherworks.aether_amalgam,Aetherium Amalgamation,エーテリウムの合�
 item.aetherworks.aether_crown,§cAetherium Crown,§cアーテリアム王冠
 item.aetherworks.aether_crown_crude,Crude Aetherium Crown,粗製エーテリウム冠
 item.aetherworks.aether_crown_mundane,Mundane Aetherium Crown,一般的なエーテリウムの冠
-item.aetherworks.aether_ember_bulb,Moonsnare Bulb,月光の罠玉
+item.aetherworks.aether_ember_bulb,Moonsnare Bulb,月罠玉
 item.aetherworks.aether_ember_cartridge,Moonsnare Cartridge,ムーンスネアカートリッジ
 item.aetherworks.aether_ember_jar,Moonsnare Jar,ムーンスネアジャー
 item.aetherworks.aether_gas_bucket,Aetherium Aerosol Bucket,エーテリウムエーロゾルバケツ
@@ -239,7 +239,7 @@ item.aetherworks.aetheriometer,Aetheriometer,エーテリアメーター
 item.aetherworks.aetherium_lens,Aetherium Lens,エーテリウムレンズ
 item.aetherworks.agrarian_liners,Agrarian Liners,農業用ライナー
 item.aetherworks.alchemic_precursor_bucket,Alchemic Precursor Bucket,錬金術前駆体バケツ
-item.aetherworks.aspectus_aetherium,Aetherium Aspectus,エーテリウム・アスペクトゥス
+item.aetherworks.aspectus_aetherium,Aetherium Aspectus,アーチエリウム・アスペクタス
 item.aetherworks.axe_ender,§cAxe of the Twisted Realm,§cねじれた領域の斧
 item.aetherworks.axe_head,Aetherium Axe Head,エーテリウム斧頭
 item.aetherworks.axe_head_crude,Crude Aetherium Axe Head,クルードエーテリウム斧頭

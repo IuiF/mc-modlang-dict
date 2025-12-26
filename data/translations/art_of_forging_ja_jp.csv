@@ -37,7 +37,7 @@ art_of_forging.effect.dragon_mist.name,Draconic Mist,竜のミスト
 art_of_forging.effect.dragon_mist.tooltip,A mist that lasts for §e%s seconds§r with a §e%s chance§r to be summoned.,§e%s秒間§r続くミストが§e%s確率§rで発動します
 art_of_forging.effect.esoteric_edge.name,Esoteric Edge,秘術の刃
 art_of_forging.effect.esoteric_edge.tooltip,§e%s percent of your damage§r is converted into magic damage.,ダメージの§e%sパーセント§rが魔法ダメージに変換されます
-art_of_forging.effect.evoking_maw.name,Evoking Maw,召喚する顎
+art_of_forging.effect.evoking_maw.name,Evoking Maw,喚起する顎
 art_of_forging.effect.evoking_maw.tooltip,Summons §e%s evoker fangs at the same time at hit.,ヒット時に§e%sの喚魔獣の牙§rが同時に出現します
 art_of_forging.effect.feasting.name,Feasting,宴
 art_of_forging.effect.feasting.tooltip,"Regain hunger by §e%s amount§r, with a §e%s percent§r to take effect.",§e%s量§rの空腹度を回復します。§e%sパーセント§rの確率で発動します
@@ -127,36 +127,52 @@ item.art_of_forging.vobrivium_ingot,Vobrivium Ingot,ボブリヴィウムイン�
 item.enigmatic_construct.tooltip,A strange machination constructed from the maimed soul of the Ender Dragon. It feels wrong.,エンダードラゴンの傷ついた魂から構成された奇妙な機械装置。違和感がある
 item.life_fiber.tooltip,A synthetic replica of the real deal.,本物のレプリカ
 item.sigil_of_eden.tooltip,What have you done.,お前は何をしたのか
-item.tetra.scroll.art_of_forging.details,"§l§nThe Art of Forging§r\n Forging, the practice of forming metal into anything you desire. While previously a coveted practice that only the Ancient Smiths and Forge God could partake in, I have discovered a new method of creating your own tools. I release my knowledge onto you, in hopes that you will eventually forge your own masterpieces. §l§nFlamberges§r\n The flamberge. Not only impressive in use of battle but also one of stunning design. It carries the iconic waved blade, perfect for landing a blow that leaves your opponent bleeding. Perhaps of intentional, or unintentional design, one may hone the blade to set enemies ablaze once harmed. §l§nHalberds§r\n A strong, and classic weapon. Used primarily for siege, and for good reason; this weapon combines the traits of a blade, axe, and polearm into one. Best for penetrating the armor of your foes, as well as dismounting and damaging enemies from their mounts. §l§nMaces§r\n Maces; a deadly weapon to any armored opponent. This bludgeoning will ignore armor, leaving devastating blows. At the cost of speed, of course. A nasty weapon to have in your arsenal, a conqueror on the battlefield. §l§nDreadnought§r\n The dreadnought stave is the perfect blend of speed and fury, allowing the ranger to send down a barrage of arrows upon their enemies. Perfect for knocking down those who stand in your way, and perfect for enacting vengeance. This can be used on both standard bows and crossbows. §l§nKatana§r\n A blade hailing from the eastern most corners of this world. The combination of a balanced blade and careful craftsmanship, this blade is suitable for anyone wanting an quality weapon. A katana can cut down anything into shreds and shards. §l§nCompound String§r\n Compound strings, made by twining two bowstrings rather than just one. Although it slows down draw speed, it makes up for it with raw power, giving arrows a harder impact than a typical bowstring. Combining with a dreadnought stave is the perfect combination for ranged warfare. §l§nQuarry Hammer§r\n The hammer has hidden potential within it. By utilizing a specific niche within it, you can unlock the Quarry Hammer. This hammer is ideal for boring tunnels and holes, able to tear up the earth with little effort. If you want a tool that can make quick work of stones and ores, then you have found the perfect item for you. 
-§l§nTonal Blade§r\n A blade, carefully formed with resemblance to an instrument, this weapon makes up for its low damage with it's unique ability. The blade is able to tune into an enemies' resonant frequencies, causing them to be disoriented for quite some time. §c§l§nThe Crucible§r\n §kThe page is incomprehensible and torn. Perhaps something is missing?§r","§l§n鍛造の芸術§r\n 金属を自分の望む形に成形する鍛造技術。かつては古き鍛冶師と鍛造の神だけが行うことができた尊い技術でしたが、私は新しい方法を発見しました。私の知識をあなたに授けます。いつか、あなたが傑作を鍛造することを望んでいます。 §l§nフランベルジュ§r\n フランベルジュ。戦闘での有用性だけでなく、素晴らしいデザインでも知られています。波打つ刃が特徴で、敵に出血を与える完璧な打撃を与えることができます。意図的か偶然か、刃を磨くと敵がダメージを受けたときに炎上します。 §l§nハルバード§r\n 強力で古典的な武器。主に包囲戦で使用され、その理由は明白です。この武器は刃、斧、槍の特性を1つに組み合わせています。敵の防具を貫通させたり、敵を落馬させたり、騎乗している敵にダメージを与えるのに最適です。 §l§nメイス§r\n メイス：装甲した敵に対する致命的な武器です。この鈍器は防具を無視し、破壊的な打撃を与えます。代わりに速度が低下します。あなたの武器庫に持つべき厄介な武器であり、戦場での征服者です。 §l§nドレッドノート§r\n ドレッドノート槍は速度と激怒の完璧なブレンドで、弓使いが敵に矢の暴風を降らせることができます。邪魔する者を排除するのに最適であり、復讐を実行するのに最適です。標準的な弓とクロスボウの両方で使用できます。 §l§n刀§r\n 世界の東端から来た刃。バランスの取れた刃と慎重な職人技の組み合わせで、質の高い武器を求める人に適しています。刀はすべてをズタズタに切り裂くことができます。 §l§n複合弦§r\n 複合弦は、1つの弓弦を2本紡ぐことで作られています。描画速度は低下しますが、生の力で補われ、通常の弓弦よりも矢により硬い影響を与えます。ドレッドノート槍と組み合わせるのは遠距離戦争に最適な組み合わせです。 §l§n採石場ハンマー§r\n ハンマーには隠された可能性があります。その特定のニッチを利用することで、採石場ハンマーをロック解除できます。このハンマーはトンネルと穴を掘るのに理想的で、ほとんど努力なく地球を引き裂くことができます。石と鉱石を素早く処理できるツールが欲しい場合は、完璧なアイテムが見つかりました。
-§l§n音響の刃§r\n 楽器に似た形で慎重に形成された刃です。この武器はそれの低いダメージで補うことができます。その独特な能力。刃は敵の共鳴周波数に同調して、かなりの間敵を方向感覚喪失させることができます。 §c§l§nるつぼ§r\n §kページが読めず、引き裂かれています。おそらく何か欠けています。§r"
+item.tetra.scroll.art_of_forging.details,"§l§nThe Art of Forging§r\n Forging, the practice of forming metal into anything you desire. While previously a coveted practice that only the Ancient Smiths and Forge God could partake in, I have discovered a new method of creating your own tools. I release my knowledge onto you, in hopes that you will eventually forge your own masterpieces. 
+§l§nFlamberges§r\n The flamberge. Not only impressive in use of battle but also one of stunning design. It carries the iconic waved blade, perfect for landing a blow that leaves your opponent bleeding. Perhaps of intentional, or unintentional design, one may hone the blade to set enemies ablaze once harmed. 
+§l§nHalberds§r\n A strong, and classic weapon. Used primarily for siege, and for good reason; this weapon combines the traits of a blade, axe, and polearm into one. Best for penetrating the armor of your foes, as well as dismounting and damaging enemies from their mounts. 
+§l§nMaces§r\n Maces; a deadly weapon to any armored opponent. This bludgeoning will ignore armor, leaving devastating blows. At the cost of speed, of course. A nasty weapon to have in your arsenal, a conqueror on the battlefield. 
+§l§nDreadnought§r\n The dreadnought stave is the perfect blend of speed and fury, allowing the ranger to send down a barrage of arrows upon their enemies. Perfect for knocking down those who stand in your way, and perfect for enacting vengeance. This can be used on both standard bows and crossbows. 
+§l§nKatana§r\n A blade hailing from the eastern most corners of this world. The combination of a balanced blade and careful craftsmanship, this blade is suitable for anyone wanting an quality weapon. A katana can cut down anything into shreds and shards. 
+§l§nCompound String§r\n Compound strings, made by twining two bowstrings rather than just one. Although it slows down draw speed, it makes up for it with raw power, giving arrows a harder impact than a typical bowstring. Combining with a dreadnought stave is the perfect combination for ranged warfare. 
+§l§nQuarry Hammer§r\n The hammer has hidden potential within it. By utilizing a specific niche within it, you can unlock the Quarry Hammer. This hammer is ideal for boring tunnels and holes, able to tear up the earth with little effort. If you want a tool that can make quick work of stones and ores, then you have found the perfect item for you. 
+§l§nTonal Blade§r\n A blade, carefully formed with resemblance to an instrument, this weapon makes up for its low damage with it's unique ability. The blade is able to tune into an enemies' resonant frequencies, causing them to be disoriented for quite some time. 
+§c§l§nThe Crucible§r\n §kThe page is incomprehensible and torn. Perhaps something is missing?§r","§l§n鍛造の芸術§r\n 金属を自分の望む形に成形する鍛造技術。かつては古き鍛冶師と鍛造の神だけが行うことができた尊い技術でしたが、私は新しい方法を発見しました。私の知識をあなたに授けます。いつか、あなたが傑作を鍛造することを望んでいます。 
+§l§nフランベルジュ§r\n フランベルジュ。戦闘での有用性だけでなく、素晴らしいデザインでも知られています。波打つ刃が特徴で、敵に出血を与える完璧な打撃を与えることができます。意図的か偶然か、刃を磨くと敵がダメージを受けたときに炎上します。 
+§l§nハルバード§r\n 強力で古典的な武器。主に包囲戦で使用され、その理由は明白です。この武器は刃、斧、槍の特性を1つに組み合わせています。敵の防具を貫通させたり、敵を落馬させたり、騎乗している敵にダメージを与えるのに最適です。 
+§l§nメイス§r\n メイス：装甲した敵に対する致命的な武器です。この鈍器は防具を無視し、破壊的な打撃を与えます。代わりに速度が低下します。あなたの武器庫に持つべき厄介な武器であり、戦場での征服者です。 
+§l§nドレッドノート§r\n ドレッドノート槍は速度と激怒の完璧なブレンドで、弓使いが敵に矢の暴風を降らせることができます。邪魔する者を排除するのに最適であり、復讐を実行するのに最適です。標準的な弓とクロスボウの両方で使用できます。 
+§l§n刀§r\n 世界の東端から来た刃。バランスの取れた刃と慎重な職人技の組み合わせで、質の高い武器を求める人に適しています。刀はすべてをズタズタに切り裂くことができます。 
+§l§n複合弦§r\n 複合弦は、1つの弓弦を2本紡ぐことで作られています。描画速度は低下しますが、生の力で補われ、通常の弓弦よりも矢により硬い影響を与えます。ドレッドノート槍と組み合わせるのは遠距離戦争に最適な組み合わせです。 
+§l§n採石場ハンマー§r\n ハンマーには隠された可能性があります。その特定のニッチを利用することで、採石場ハンマーをロック解除できます。このハンマーはトンネルと穴を掘るのに理想的で、ほとんど努力なく地球を引き裂くことができます。石と鉱石を素早く処理できるツールが欲しい場合は、完璧なアイテムが見つかりました。
+§l§n音響の刃§r\n 楽器に似た形で慎重に形成された刃です。この武器はそれの低いダメージで補うことができます。その独特な能力。刃は敵の共鳴周波数に同調して、かなりの間敵を方向感覚喪失させることができます。 
+§c§l§nるつぼ§r\n §kページが読めず、引き裂かれています。おそらく何か欠けています。§r"
 item.tetra.scroll.bow/stave/dreadnought_stave.description,Contains knowledge on how to craft the dreadnought bow stave,ドレッドノート弓槍の作成方法の知識を含む
-item.tetra.scroll.bow/stave/dreadnought_stave.description_extended,§7[§8shift + rmb§7]§8 read more,戦いの道具
+item.tetra.scroll.bow/stave/dreadnought_stave.description_extended,§7[§8shift + rmb§7]§8 read more,戦いのツール
 item.tetra.scroll.bow/stave/dreadnought_stave.name,Dreadnought Stave,ドレッドノート槍
 item.tetra.scroll.bow/stave/dreadnought_stave.prefix,"Art of Forging, Chapter 6",鍛造の芸術 第6章
 item.tetra.scroll.bow/string/compound_string.description,Contains knowledge on how to twine a compounded bow string,複合弓弦を作成する方法の知識を含む
-item.tetra.scroll.bow/string/compound_string.description_extended,§7[§8shift + rmb§7]§8 read more,§7[§8Shift+右クリック§7]§8 詳細を読む
+item.tetra.scroll.bow/string/compound_string.description_extended,§7[§8shift + rmb§7]§8 read more,戦いのツール
 item.tetra.scroll.bow/string/compound_string.name,Compound String,複合弦
 item.tetra.scroll.bow/string/compound_string.prefix,"Art of Forging, Chapter 8",鍛造の芸術 第8章
 item.tetra.scroll.otherworldly.details,"§l§nOTHERWORLDLY§r\n After toying with an abandoned ruined portal, I have managed to find a link between this world and other worlds across this foreign realm of reality.",超越的な
 item.tetra.scroll.single/head/halberd_head/halberd_head.description,Contains knowledge on how to forge halberd heads,ハルバード刃を鍛造する方法の知識を含む
-item.tetra.scroll.single/head/halberd_head/halberd_head.description_extended,§7[§8shift + rmb§7]§8 read more,戦いの道具
+item.tetra.scroll.single/head/halberd_head/halberd_head.description_extended,§7[§8shift + rmb§7]§8 read more,戦いのツール
 item.tetra.scroll.single/head/halberd_head/halberd_head.name,Halberds,ハルバード
 item.tetra.scroll.single/head/halberd_head/halberd_head.prefix,"Art of Forging, Chapter 2",鍛造の芸術 第2章
 item.tetra.scroll.single/head/mace_head/mace_head.description,Contains knowledge on how to forge mace heads,メイス刃を鍛造する方法の知識を含む
-item.tetra.scroll.single/head/mace_head/mace_head.description_extended,§7[§8shift + rmb§7]§8 read more,ToolsのWar
+item.tetra.scroll.single/head/mace_head/mace_head.description_extended,§7[§8shift + rmb§7]§8 read more,戦いのツール
 item.tetra.scroll.single/head/mace_head/mace_head.name,Maces,メイス
 item.tetra.scroll.single/head/mace_head/mace_head.prefix,"Art of Forging, Chapter 4",鍛造の芸術 第4章
 item.tetra.scroll.sword/crucible/architects_crucible_blade.description,Contains forbidden knowledge on how to forge the Architect's True Crucible,建築家の真の坩堝の禁止された知識を含む
 item.tetra.scroll.sword/crucible/architects_crucible_blade.description_extended,§7[§8shift + rmb§7]§8 read more,戦いのツール
-item.tetra.scroll.sword/crucible/architects_crucible_blade.name,Architect's Crucible,建築家の坩堝
+item.tetra.scroll.sword/crucible/architects_crucible_blade.name,Architect's Crucible,建築家のるつぼ
 item.tetra.scroll.sword/crucible/architects_crucible_blade.prefix,"Art of Forging, Chapter 0",鍛造の芸術 第0章
 item.tetra.scroll.sword/katana/katana_blade.description,Contains knowledge on how to forge a katana blade and a matching tsuba guard,刀の刃と対応する鐔を鍛造する方法の知識を含む
 item.tetra.scroll.sword/katana/katana_blade.description_extended,§7[§8shift + rmb§7]§8 read more,戦いのツール
 item.tetra.scroll.sword/katana/katana_blade.name,Katana Blade,刀の刃
 item.tetra.scroll.sword/katana/katana_blade.prefix,"Art of Forging, Chapter 7",鍛造の芸術 第7章
 item.tetra.scroll.sword/katana/murasama_blade.description,Contains knowledge from a different world on how create the Murasama,別の世界からのムラサマを作成する方法の知識を含む
-item.tetra.scroll.sword/katana/murasama_blade.description_extended,§7[§8shift + rmb§7]§8 read more,ToolsのWar
+item.tetra.scroll.sword/katana/murasama_blade.description_extended,§7[§8shift + rmb§7]§8 read more,戦いのツール
 item.tetra.scroll.sword/katana/murasama_blade.name,Murasama,ムラサマ
 item.tetra.scroll.sword/katana/murasama_blade.prefix,"Art of Forging, Chapter ?",鍛造の芸術 第?章
 item.tetra.scroll.sword/key_guard.description,Contains knowledge on how to forge key guards,キーガードを鍛造する方法の知識を含む
@@ -172,7 +188,7 @@ item.tetra.scroll.sword/tonal_blade.description_extended,§7[§8shift + rmb§7]�
 item.tetra.scroll.sword/tonal_blade.name,Tonal Blade,音響の刃
 item.tetra.scroll.sword/tonal_blade.prefix,"Art of Forging, Chapter 10",鍛造の芸術 第10章
 item.tetra.scroll.tetra/crucible_blade.description,Contains knowledge on how to forge the Crucible,るつぼを鍛造する方法の知識を含む
-item.tetra.scroll.tetra/crucible_blade.description_extended,§7[§8shift + rmb§7]§8 read more,ToolsのWar
+item.tetra.scroll.tetra/crucible_blade.description_extended,§7[§8shift + rmb§7]§8 read more,戦いのツール
 item.tetra.scroll.tetra/crucible_blade.name,The Crucible,るつぼ
 item.tetra.scroll.tetra/crucible_blade.prefix,"Art of Forging, Chapter 5",鍛造の芸術 第5章
 item.tetra.scroll.tetra/flamberge_blade.description,Contains knowledge on how to forge flamberge blades,フランベルジュの刃を鍛造する方法の知識を含む
@@ -271,7 +287,7 @@ tetra.improvement.annihilator_head_hone/damage.description,Increases damage deal
 tetra.improvement.annihilator_head_hone/damage.name,Hone: Damage,研ぐ：ダメージ
 tetra.improvement.blade/esoteric_tier.description,Increases esoteric edge damage,秘術の刃のダメージを増加させる
 tetra.improvement.blade/esoteric_tier.name,Esoteric,エキゾチック
-tetra.improvement.blade/esoteric_tier.prefix,Esoteric,エスオティック
+tetra.improvement.blade/esoteric_tier.prefix,Esoteric,エキゾチック
 tetra.improvement.blade/goliath_tier.description,Increases damage against bosses,ボスに対するダメージを増加させる
 tetra.improvement.blade/goliath_tier.name,Goliath,ゴリアテ
 tetra.improvement.blade/infernal.description,Chance to set enemies ablaze and knock them back when hit.,敵を炎上させ、ヒット時に後退させる確率。
@@ -589,7 +605,7 @@ tetra.stats.art_of_forging:infernal_rebuke,Infernal Rebuke,地獄の報復
 tetra.stats.art_of_forging:infernal_rebuke.tooltip_short,"Sets enemies on fire and knocks them back, with a chance to do so",敵に火を付け、ノックバックさせます。実行する可能性があります
 tetra.stats.art_of_forging:judgement,Judgement,裁き
 tetra.stats.art_of_forging:judgement.tooltip_short,"If you enemy is below a certain amount of health, you have a chance to instantly kill them",敵の体力が一定量以下の場合、即座に殺害する可能性があります
-tetra.stats.art_of_forging:karma_infused,Karma Infused,カルマに浸透した
+tetra.stats.art_of_forging:karma_infused,Karma Infused,karma に浸透した
 tetra.stats.art_of_forging:karma_infused.tooltip_short,"Based on what you've killed, you will receive either good luck or bad luck",殺害した相手に応じて、幸運または不運が付与されます
 tetra.stats.art_of_forging:knockback,Knockback,ノックバック
 tetra.stats.art_of_forging:knockback.tooltip_short,Knocks back target by an additional amount,ターゲットを追加量だけ後退させる
@@ -633,7 +649,7 @@ tetra.variant.compound_cross_string/hide,Hide dual cord,隠された双紐
 tetra.variant.compound_cross_string/leather,Leather dual cord,革製デュアルコード
 tetra.variant.compound_cross_string/phantom_membrane,Double-twined phantom membrane,ダブルツインファントムメンブレン
 tetra.variant.compound_cross_string/string,Basic compound string,基本化合物の弦
-tetra.variant.compound_string/dragon_sinew,Dragon sinew compound,ドラゴンの筋肉化合物
+tetra.variant.compound_string/dragon_sinew,Dragon sinew compound,ドラゴンの筋肉複合物
 tetra.variant.compound_string/hide,Hide dual cord,隠された双紐
 tetra.variant.compound_string/leather,Leather dual cord,革製デュアルコード
 tetra.variant.compound_string/phantom_membrane,Double-twined phantom membrane,ダブルツインファントムメンブレン
@@ -715,9 +731,9 @@ tetra/schematic/crossbow/stave/hone_speed_1.description,Hone the module to incre
 tetra/schematic/crossbow/stave/hone_speed_2.description,Further hone the draw speed improvement for this module.,このモジュールの引き抜き速度向上をさらに磨きます。
 tetra/schematic/crossbow/stave/hone_speed_3.description,Further hone the draw speed improvement for this module.,このモジュールの引き抜き速度向上をさらに磨きます。
 tetra/schematic/crossbow/stave/hone_speed_3.name,Hone: Speed III,名前
-tetra/schematic/crossbow/stave/hone_speed_4.description,Further hone the draw speed improvement for this module.,このモジュールの描画速度向上をさらに磨く
+tetra/schematic/crossbow/stave/hone_speed_4.description,Further hone the draw speed improvement for this module.,このモジュールの引き抜き速度向上をさらに磨きます。
 tetra/schematic/crossbow/stave/hone_speed_4.name,Hone: Speed IV,名前
-tetra/schematic/crossbow/stave/hone_speed_5.description,Further hone the draw speed improvement for this module.,このモジュールのドロー速度改善をさらに磨き上げる。
+tetra/schematic/crossbow/stave/hone_speed_5.description,Further hone the draw speed improvement for this module.,このモジュールの引き抜き速度向上をさらに磨きます。
 tetra/schematic/crossbow/stave/hone_speed_5.name,Hone: Speed V,名前
 tetra/schematic/crossbow/stave/light_stave.description,"Replaces the stave with a light crossbow stave crafted from the given materials. This stave is lighter than most crossbow staves, having a faster draw time at the cost of decreased damage.",与えられた素材から鍛造された軽いクロスボウの弦に交換します。この弦はほとんどのクロスボウの弦より軽く、描画時間が速い代わりにダメージが減少します。
 tetra/schematic/crossbow/stave/light_stave.name,Light stave,軽い槍
@@ -773,7 +789,7 @@ tetra/schematic/double/tomahawk/tomahawk.description,"A tomahawk axe head. Used 
 Material §fhardness§r increases §fdamage§r.",トマハックの斧頭。投げて他者に使用します。
 tetra/schematic/double/tomahawk/tomahawk.name,Tomahawk head,トマホーク刃
 tetra/schematic/double/tomahawk/tomahawk.slot1,Head material,頭部素材
-tetra/schematic/double/void_worm_pickaxe/void_worm_pickaxe.description,"A pickaxe head made from the Void Worm mandibles, nothing personal kid.",ヴォイドワームのマンドブラから作られたピッケルヘッド。個性的な製品です。
+tetra/schematic/double/void_worm_pickaxe/void_worm_pickaxe.description,"A pickaxe head made from the Void Worm mandibles, nothing personal kid.",ヴォイドワームのマンドブラから作られたピッケルヘッド。
 tetra/schematic/double/void_worm_pickaxe/void_worm_pickaxe.name,Void Worm Pickaxe,ボイドワームのつるはし
 tetra/schematic/double/void_worm_pickaxe/void_worm_pickaxe.slot1,Void Worm Pickaxe,ボイドワームのつるはし
 tetra/schematic/katana/murasama_blade.description,Improve your katana into the legendary Murasama blade.,あなたの刀を伝説の無骨刃へと改良してください。
@@ -782,7 +798,7 @@ tetra/schematic/katana/murasama_blade.slot1,Murasama Blade,ムラサマの刃
 tetra/schematic/katana/thousand_cold_nights.description,Corrupt your katana into the legendary Thousand Cold Nights blade.,刀を腐敗させて伝説の千年冬夜の刃に変えます。
 tetra/schematic/katana/thousand_cold_nights.name,Thousand Cold Nights,千の冷たい夜
 tetra/schematic/katana/thousand_cold_nights.slot1,Thousand Cold Nights,千の冷たい夜
-tetra/schematic/shared/hone_nano_fused_1.description,"Infuse the weapon with a nano-insectoid, altering loot drops for specific mobs.",武器にナノ昆虫性質を注入し、特定モブからのドロップを変更します。
+tetra/schematic/shared/hone_nano_fused_1.description,"Infuse the weapon with a nano-insectoid, altering loot drops for specific mobs.",ナノ昆虫類で武器を注入し、特定のモブのルートドロップを変更します
 tetra/schematic/shared/hone_nano_fused_1.name,Nano-Infused,ナノインフィューズド
 tetra/schematic/shared/hone_nano_fused_1.slot1,Infuse,浸透
 tetra/schematic/shield/plate/kite.description,"Craft a kite shield plate, kite shields can block for an indefinite with no cooldown, and has a lower ability cooldown that a tower shield.",カイトシールドプレートを作成します。カイトシールドはクールダウンなしで無制限にブロック可能で、タワーシールドよりも低い能力クールダウンを持っています。
@@ -829,7 +845,7 @@ tetra/schematic/single/head/mace_head/mace_head.name,Mace head,メイス刃
 tetra/schematic/single/head/mace_head/mace_head.slot1,Head material,頭部素材
 tetra/schematic/single/head/mourning_star/mourning_star.description,A flail forged from demonic essence solidified. It hungers for blood.,魔族の本質から鍛造されたフレイル。血を求めている
 tetra/schematic/single/head/mourning_star/mourning_star.name,§4Mourning Star§r,§4哀悼の星§r
-tetra/schematic/single/head/mourning_star/mourning_star.slot1,§4Mourning Star§r,§4モーリングスター§r
+tetra/schematic/single/head/mourning_star/mourning_star.slot1,§4Mourning Star§r,§4哀悼の星§r
 tetra/schematic/single/head/quarter_staff_head/quarter_staff_head.description,"Forge a quarter staff from the given material. Quarter Staffs are good for close combat, allowing for quick strikes and the ability to block.
  
 Material §fhardness§r increases §fdamage§r.
@@ -873,7 +889,7 @@ tetra/schematic/sword/crucible/hone_vengeance_2.description,Hone the vengeance i
 tetra/schematic/sword/crucible/hone_vengeance_2.name,Hone: Wrathful II,磨耗：憤怒 II
 tetra/schematic/sword/crucible/hone_vengeance_3.description,Further hone the vengeance improvement. Damage is up to 20 percent at low health.,復讐力をさらに磨く。低体力時にはダメージが最大20％増加します。
 tetra/schematic/sword/crucible/hone_vengeance_3.name,Hone: Wrathful III,研磨：憤怒の III
-tetra/schematic/sword/echo_fuller.description,A fuller crafted from an echo shard. It might spread sculk taint.,エコーの破片から作られた溝。スカルク汚染を広げるかもしれません
+tetra/schematic/sword/echo_fuller.description,A fuller crafted from an echo shard. It might spread sculk taint.,エコーの破片から作られたスロット。スカルク汚染を広げる可能性があります
 tetra/schematic/sword/echo_fuller.name,Echo Fuller,エコー・フルラー
 tetra/schematic/sword/echo_fuller.slot1,Echo Fuller,エコー・フルラー
 tetra/schematic/sword/eerie_fuller.description,A fuller crafted from an eerie shard dropped by the Warden. It allows the user to produce their own sonic boom.,ウォーデンがドロップした不気味な破片から作られた溝。ユーザーが独自のソニックブームを生成することができます
@@ -926,7 +942,7 @@ tetra/schematic/sword/rending_scissor_purple.description,A scissor blade made fr
 tetra/schematic/sword/rending_scissor_purple.name,§5Rending Scissor [Purple]§r,§5裂刻のハサミ【紫】§r
 tetra/schematic/sword/rending_scissor_purple.slot1,Rending Scissor,裂刻のハサミ
 tetra/schematic/sword/rending_scissor_red.description,A scissor blade made from hardened Life Fibers,硬化した生命繊維から作られたはさみ刃
-tetra/schematic/sword/rending_scissor_red.name,§4Rending Scissor [Red]§r,§4裂刻のハサミ【赤】§r
+tetra/schematic/sword/rending_scissor_red.name,§4Rending Scissor [Red]§r,§4裂けるはさみ [レッド]§r
 tetra/schematic/sword/rending_scissor_red.slot1,Rending Scissor,裂刻のハサミ
 tetra/schematic/sword/saber_blade.description,"Replace the current sword blade with a saber, a regal and militant blade.
  

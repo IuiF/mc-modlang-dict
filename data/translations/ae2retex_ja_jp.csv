@@ -113,7 +113,7 @@ block.ae2.4k_crafting_storage,4k Crafting Storage,4k クラフトストレージ
 block.ae2.64k_crafting_storage,64k Crafting Storage,64k クラフトストレージ
 block.ae2.cable_bus,AE2 Cable and/or Bus,AE2ケーブルまたはバス
 block.ae2.cell_workbench,Cell Workbench,セルワークベンチ
-block.ae2.charger,Charger,チャージャー
+block.ae2.charger,Charger,充電器
 block.ae2.chest,ME Chest,MEチェスト
 block.ae2.chipped_budding_quartz,Chipped Budding Certus Quartz,欠けた芽生えたケルタスクォーツ
 block.ae2.chiseled_quartz_block,Chiseled Certus Quartz Block,模様入りのケルタスクォーツブロック
@@ -385,7 +385,7 @@ gui.ae2.MENetworkStorage,ME Network Storage,MEネットワークストレージ
 gui.ae2.Magenta,Magenta,赤紫色
 gui.ae2.MaxPower,Max Power: %s,最大電力: %s
 gui.ae2.Missing,Missing: %s,不足: %s
-gui.ae2.MolecularAssembler,Molecular Assembler,分子集成室
+gui.ae2.MolecularAssembler,Molecular Assembler,分子組立機
 gui.ae2.MultipleOutputs,"%1$d%% second, %2$d%% third output.",2番目 %1$d%%、3番目の出力率 %2$d%%。
 gui.ae2.MysteriousQuote,"""Through others we become ourselves.""",「他者を通して自分自身になる。」
 gui.ae2.NetworkDetails,Network Details (%d Channels),ネットワークの詳細
@@ -528,7 +528,7 @@ gui.tooltips.ae2.ActiveOnPulse,Activate once per pulse,パルスで有効
 gui.tooltips.ae2.ActiveWithSignal,Active with signal,信号有りで有効
 gui.tooltips.ae2.ActiveWithoutSignal,Active without signal,信号無しで有効
 gui.tooltips.ae2.AlwaysActive,Always active,常に有効
-gui.tooltips.ae2.Amount,Amount: %d,個数: %d
+gui.tooltips.ae2.Amount,Amount: %d,金額: %d
 gui.tooltips.ae2.Ascending,Ascending,昇順
 gui.tooltips.ae2.AutoExport,Auto-Export,自動エクスポート
 gui.tooltips.ae2.AutoExportOff,Produced items will be not be auto-exported.,生成されたアイテムは自動エクスポートされません。
@@ -768,7 +768,7 @@ item.ae2.engineering_processor,Engineering Processor,情報処理プロセッサ
 item.ae2.engineering_processor_press,Inscriber Engineering Press,情報処理回路の金型
 item.ae2.entropy_manipulator,Entropy Manipulator,エントロピーマニピュレーター
 item.ae2.equal_distribution_card,Equal Distribution Card,等分配カード
-item.ae2.export_bus,ME Export Bus,ME出力バス
+item.ae2.export_bus,ME Export Bus,MEエクスポートバス
 item.ae2.facade,Cable Facade,外装ケーブル
 item.ae2.fe_p2p_tunnel,Energy P2P Tunnel,エネルギーP2Pトンネル
 item.ae2.fluid_cell_housing,ME Fluid Cell Housing,ME流体セル筐体
@@ -985,14 +985,14 @@ waila.ae2.Channels,%1$d Channels,%1$d / %2$dチャンネル
 waila.ae2.ChannelsOf,%1$d of %2$d Channels,%1$d / %2$dチャンネル
 waila.ae2.Charged,%d%% charged,%d%% チャージ済み
 waila.ae2.Contains,Contains: %s,含まれる
-waila.ae2.Crafting,Crafting: %s,クラフト中
+waila.ae2.Crafting,Crafting: %s,クラフト: %s
 waila.ae2.CraftingLockedByLackOfRedstoneSignal,Locked by lack of redstone signal,レッドストーン信号不足によりロックされています
 waila.ae2.CraftingLockedByRedstoneSignal,Locked by redstone signal,レッドストーン信号でロックされました
 waila.ae2.CraftingLockedUntilPulse,Waiting for redstone pulse to unlock,ロックを解除するためにレッドストーンパルスを待っています
 waila.ae2.CraftingLockedUntilResult,Waiting for %s (%d) to unlock,4M MEストレージコンポーネント
-waila.ae2.DeviceMissingChannel,Device Missing Channel,4M ME液体ストレージコンポーネント
-waila.ae2.DeviceOffline,Device Offline,4M ME液体ストレージセル
-waila.ae2.DeviceOnline,Device Online,4M MEストレージセル
+waila.ae2.DeviceMissingChannel,Device Missing Channel,デバイスのチャンネル未探知
+waila.ae2.DeviceOffline,Device Offline,デバイスオフライン
+waila.ae2.DeviceOnline,Device Online,デバイスオンライン
 waila.ae2.EnchantedWith,Enchanted with:,エンチャント対象:
 waila.ae2.ErrorControllerConflict,Error: Controller Conflict,エラー: コントローラの競合
 waila.ae2.ErrorNestedP2PTunnel,Error: Nested P2P Tunnel,エラー: ネストされたP2Pトンネル
@@ -1138,7 +1138,7 @@ gui.extendedae.assembler_matrix,Assembler Matrix,アセンブラーマトリク�
 gui.extendedae.assembler_matrix.cancel,Stop all crafting jobs and return ingredients,すべてのクラフトジョブを停止し、材料を返します
 gui.extendedae.assembler_matrix.threads,Running Jobs: %s,実行中のジョブ: %s
 gui.extendedae.assembler_matrix.tooltip,Search pattern,検索パターン
-gui.extendedae.caner,ME Caner,ME キャンナー
+gui.extendedae.caner,ME Caner,ME缶詰め機
 gui.extendedae.caner.empty,Empty Mode,空モード
 gui.extendedae.caner.fill,Fill Mode,充填モード
 gui.extendedae.crystal_assembler,Crystal Assembler,クリスタル組み立て機
@@ -1151,7 +1151,7 @@ gui.extendedae.ex_inscriber,Extended Inscriber,拡張インスクリーバー
 gui.extendedae.ex_inscriber.next,Next Inscription Job,次の刻印ジョブ
 gui.extendedae.ex_inscriber.number,Inscription Job %s,刻印ジョブ %s
 gui.extendedae.ex_inscriber.pre,Previous Inscription Job,前回の刻印ジョブ
-gui.extendedae.ex_inscriber.stackable,Stack to 64,64までスタック
+gui.extendedae.ex_inscriber.stackable,Stack to 64,スタックを64に
 gui.extendedae.ex_inscriber.unstackable,Stack to 1,1までスタック
 gui.extendedae.ex_interface,ME Extended Interface,ME拡張インターフェース
 gui.extendedae.ex_interface.config,Config Page %s,設定ページ %s
@@ -1172,7 +1172,7 @@ gui.extendedae.ex_pattern_access_terminal.tooltip.02,Search by input or pattern 
 gui.extendedae.ex_pattern_access_terminal.tooltip.03,Highlight the pattern provider in world.,ワールド内でパターンプロバイダーをハイライトする。
 gui.extendedae.ex_pattern_access_terminal.tooltip.04,"Search by input, output or pattern provider name.",入力、出力またはパターンプロバイダー名で検索します。
 gui.extendedae.ex_pattern_provider,ME Ext. Pattern Provider,ME拡張パターンプロバイダー
-gui.extendedae.ingredient_buffer,ME Ingredient Buffer,ME材料バッファー
+gui.extendedae.ingredient_buffer,ME Ingredient Buffer,ME 原料バッファ
 gui.extendedae.mod_export_bus,ME Mod Export Bus,MEモッドエクスポートバス
 gui.extendedae.mod_storage_bus,ME Mod Storage Bus,ME モッドストレージバス
 gui.extendedae.mod_storage_bus.tooltip,Input mod name/id here,モッド名/IDを入力してください
@@ -1180,7 +1180,7 @@ gui.extendedae.oversize_interface,ME Oversize Interface,ME大容量インター�
 gui.extendedae.pattern_modifier,Pattern Modifier (%s),パターン修飾子 (%s)
 gui.extendedae.pattern_modifier.blank,Blank Patterns,空白パターン
 gui.extendedae.pattern_modifier.change,Change Mode,モード変更
-gui.extendedae.pattern_modifier.clear,Clear,クリア
+gui.extendedae.pattern_modifier.clear,Clear,消去
 gui.extendedae.pattern_modifier.clear.desc,"Clear all patterns' contents, turn them into blank patterns",すべてのパターンの内容をクリアし、空白パターンに変換する
 gui.extendedae.pattern_modifier.clone,Clone Mode,クローンモード
 gui.extendedae.pattern_modifier.clone.desc,Clone target pattern,クローン対象パターン
@@ -1227,7 +1227,7 @@ gui.wireless_connect.status.unconnected.desc,This Wireless Connector hasn't been
 gui.wireless_connect.status.working,Working,動作
 gui.wireless_connect.status.working.desc,Everything is running fine.,全てが順調です！
 infinity.tooltip,It is an infinity source.,文字通り無限です。
-item.extendedae.active_formation_plane,ME Active Formation Plane,MEアクティブフォームーションプレーン
+item.extendedae.active_formation_plane,ME Active Formation Plane,MEアクティベートフォーメーションプレーン
 item.extendedae.concurrent_processor,Concurrent Processor,コンカレンツプロセッサ
 item.extendedae.concurrent_processor_press,Inscriber Concurrent Press,インスクライバープレッサー
 item.extendedae.concurrent_processor_print,Printed Concurrent Circuit,印刷された同時回路
@@ -1259,7 +1259,7 @@ item.extendedae.precise_storage_bus,ME Precise Storage Bus,ME精密ストレー�
 item.extendedae.tag_export_bus,ME Tag Export Bus,MEタグエクスポートバス
 item.extendedae.tag_storage_bus,ME Tag Storage Bus,ME タグストレージバス
 item.extendedae.threshold_export_bus,ME Threshold Export Bus,ME閾値エクスポートバス
-item.extendedae.threshold_level_emitter,ME Threshold Level Emitter,ME閾値レベルエミッター
+item.extendedae.threshold_level_emitter,ME Threshold Level Emitter,ME閾値レベルエミッタ
 item.extendedae.wireless_ex_pat,Wireless Extended Pattern Access Terminal,ワイヤレス拡張パターンアクセスターミナル
 item.extendedae.wireless_tool,ME Wireless Setup Kit,ME無線セットアップキット
 itemGroup.extendedae,Extended AE2,Applied Energistics 2 拡張
@@ -1291,7 +1291,7 @@ gui.megacells.ModName,MEGA Cells,MEGA セル
 gui.tooltips.megacells.ALot,A lot.,たくさん。
 gui.tooltips.megacells.AcceleratorThreads,Provides 4 co-processing threads per block.,ブロック1つごとに4個の並列処理を提供します
 gui.tooltips.megacells.Compression,Compression: %s,圧縮: %s
-gui.tooltips.megacells.Contains,Contains: %s,中身: %s
+gui.tooltips.megacells.Contains,Contains: %s,含まれる
 gui.tooltips.megacells.Disabled,Disabled,無効
 gui.tooltips.megacells.Empty,Empty,空
 gui.tooltips.megacells.Enabled,Enabled,有効
