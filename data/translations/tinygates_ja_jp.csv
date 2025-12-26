@@ -1,0 +1,35 @@
+﻿key,source_text,target_text
+item.tinygates.tiny_and_gate,Tiny AND Gate,小さなANDゲート
+item.tinygates.tiny_clock,Tiny Clock,ミニ時計
+item.tinygates.tiny_counter,Tiny Counter,小さなカウンター
+item.tinygates.tiny_edge_detector,Tiny Edge Detector,小型エッジ検知器
+item.tinygates.tiny_not_gate,Tiny NOT Gate,小さなNOTゲート
+item.tinygates.tiny_or_gate,Tiny OR Gate,小さなORゲート
+item.tinygates.tiny_rs_latch,Tiny RS Latch,小さなRSレジスタ
+item.tinygates.tiny_t_flip_flop,Tiny T Flip Flop,ティニーティー フリップフロップ
+item.tinygates.tiny_xor_gate,Tiny XOR Gate,小さなXORゲート
+itemGroup.tinygates,Tiny Gates,ミニゲート
+message.item.tinygates.tiny_and_gate,Outputs to front when a signal is received to both left AND right side.,信号を両側の左と右に受信した際、フロントへ出力します。
+message.item.tinygates.tiny_clock,"Outputs redstone pulses to front at a set interval.
+Right click for GUI to set interval.
+Disable with redstone signal to back.","指定した間隔でレッドストーン信号を前方に出力します。
+右クリックでGUIを開いて間隔を設定してください。
+背面のレッドストーン信号で無効にできます。"
+message.item.tinygates.tiny_counter,"Counts pulses received to back input (up to 15).
+Displays number and outputs that signal strength to front.
+Also can act as a potentiometer.
+Input to left locks number.
+Input to right resets counter.","背面入力に受け取ったパルスをカウント（最大15）します。
+数字を表示し、その信号強度を前方に出力します。
+ボリューム機能としても機能します。
+左入力で数字をロックできます。
+右入力でカウンターをリセットできます。"
+message.item.tinygates.tiny_edge_detector,"Outputs redstone pulse at start (rising edge) or stop (falling edge) of redstone signal to back input.
+Right click to toggle edge to detect (rising or falling).","背面入力のレッドストーン信号の開始時（立ち上がり）または停止時（立ち下がり）にレッドストーン信号を出力します。
+右クリックで検出するエッジを切り替えられます（立ち上がりまたは立ち下がり）。"
+message.item.tinygates.tiny_not_gate,Outputs to front when there is no signal to the back. Similar to redstone torch but to single direction with no delay.,背面に信号がないときに前方に出力します。レッドストーン松明に似ていますが、単一方向への出力で遅延がありません。
+message.item.tinygates.tiny_or_gate,Outputs to front when a signal is received to either left OR right side.,信号が左側または右側から受信されたときにフロントへ出力します。
+message.item.tinygates.tiny_rs_latch,Outputs to front when signal on left (Set signal) is pulsed. Remains on until signal on right (Reset signal) is pulsed.,"左側の信号（Set信号）がパルスされたときに前方に出力します。
+右側の信号（Reset信号）がパルスされるまで出力が続きます。"
+message.item.tinygates.tiny_t_flip_flop,Output to front toggles on pulse to back.,フロントへの出力はパルスでバックに切り替わります。
+message.item.tinygates.tiny_xor_gate,"Outputs to front when the input signals do not match, similar to a 3-way light switch.",入力信号が一致しない場合、前方へ出力します。これは3方向スイッチのようです。

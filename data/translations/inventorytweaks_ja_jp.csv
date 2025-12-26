@@ -1,0 +1,89 @@
+﻿key,source_text,target_text
+invtweaks.loadconfig.enabled,'%s' enabled,'%s' を有効にしました
+invtweaks.loadconfig.refresh.error,[1] Failed to refresh properties from file,[1] ファイルからのプロパティを更新できませんでした
+invtweaks.loadconfig.invalidkeywords,Invalid keywords found,無効なキーワードを発見しました
+invtweaks.loadconfig.filemissing,"missing, creating default one.",コンフィグがありません。デフォルトを作成します
+invtweaks.loadconfig.done,Configuration loaded.,コンフィグがロードされました
+invtweaks.propsfile.loaded,Mod properties loaded,Modプロパティがロードされました
+invtweaks.propsfile.error,[14] Failed to create the mod properties file,[14] Modのプロパティファイルの作成に失敗しました
+invtweaks.extract.find.error,"[15] The mod won't work, because %s could not be found!",[15] %sが見つからなかったため、このModは動作しません
+invtweaks.extract.create.error,"[16] The mod won't work, because %s creation failed!",[16] %sの作成に失敗したため、このModは動作しません
+invtweaks.sort.inventory.error,[2] Failed to sort inventory,[2] インベントリのソートに失敗しました
+invtweaks.sort.chest.error,[3] Failed to sort container,[3] コンテナのソートに失敗しました
+invtweaks.sort.autorefill.error,[4] Failed to trigger auto-refill,[4] 自動補充モードの切り替えに失敗しました
+invtweaks.sort.releaseitem.error,[5] Failed to release item,[5] アイテムの開放に失敗しました
+invtweaks.shortcut.error,[6] Failed to trigger shortcut,[6] ショートカットの実行に失敗しました
+invtweaks.pickup.error,[7] Failed to move picked up stack,[7] 選択したスタックの移動に失敗しました
+invtweaks.button.settings.tooltip,Inventory settings,インベントリの設定
+invtweaks.button.chest1.tooltip,Default sorting,デフォルト ソート
+invtweaks.button.chest2.tooltip,Sort in columns,列でソート
+invtweaks.button.chest3.tooltip,Sort in rows,行でソート
+invtweaks.settings.title,Inventory and chests settings,インベントリとチェストの設定
+invtweaks.settings.on,ON,オン
+invtweaks.settings.off,OFF,オフ
+invtweaks.settings.key,Sort key:,ソート キー：
+invtweaks.settings.disableci,Disable CI,CIを無効にする
+invtweaks.settings.disableci.tooltip,In conflict with Convenient Inventory,Convenient Inventory と衝突する
+invtweaks.settings.middleclick,Middle click,ホイールクリック
+invtweaks.settings.middleclick.tooltip,Allows to sort using,ホイールクリックでソートできるようにする
+invtweaks.settings.chestbuttons,Chest buttons,チェストボタン
+invtweaks.settings.chestbuttons.tooltip,Adds three buttons,チェスト等に中身をソートする
+invtweaks.settings.shortcuts,Shortcuts,ショートカット
+invtweaks.settings.shortcuts.tooltip,Enables various shortcuts,アイテムを移動するショートカットを有効にする
+invtweaks.settings.autorefill,Auto-refill,自動補充
+invtweaks.settings.autorefill.tooltip,Replaces broken tools & emptied stacks,壊れたツールや空になったスタック(64個有った土を置いた時とか)を
+invtweaks.settings.beforebreak,Repair-friendly refill,壊れる前に交換
+invtweaks.settings.beforebreak.tooltip,Replaces tools just before they break,ツールが壊れる直前に同種のツールと交換する
+invtweaks.settings.moreoptions,More options...,その他のオプション...
+invtweaks.settings.moreoptions.tooltip,Even more cool stuff,さらにもっとクールなもの
+invtweaks.settings.rulesfile,Open the sorting rules file...,ソートルールファイルを開く...
+invtweaks.settings.rulesfile.error,[8] Failed to open rules file,[8] ルールの記述されたファイルを開けませんでした
+invtweaks.settings.treefile,Open the item tree file...,アイテムツリーファイルを開く...
+invtweaks.settings.treefile.error,[9] Failed to open tree file,[9] ツリーの記述されたファイルを開けませんでした。
+invtweaks.settings.onlinehelp,Open help in browser...,ブラウザーでヘルプを開く...
+invtweaks.settings.onlinehelp.error,[10] Failed to open help,[10] ヘルプを開くのを失敗しました
+invtweaks.help.bugsorting,Not working?,うまく動作しませんか？
+invtweaks.help.bugsorting.pt1,"If your server seems to 'cancel' what this mod does,",もしサーバーがこのModの動作を「キャンセル」しているように思われる場合、
+invtweaks.help.bugsorting.pt2,it's probably caused by it using the NoCheatPlus plugin.,NoCheatPlusプラグインが原因かもしれません。
+invtweaks.help.bugsorting.pt3,Ask your admin to disable the following options:,次のオプションを無効にするよう管理人に問い合わせてください。
+invtweaks.help.bugsorting.pt4,"""inventory.fastclick"" and ""combined.improbable""",「inventory.fastclick」と「combined.improbable」
+invtweaks.settings.pvpwarning.pt1,"Note: On PvP servers, the auto-refill & auto-equip armor",注: PvPサーバーで、自動補充 ＆ 鎧の自動装備
+invtweaks.settings.pvpwarning.pt2,options are often considered cheating!,オプションはよく不正行為と見なされます！
+invtweaks.settings.exit,Done,完了
+invtweaks.settings.advanced.sortonpickup,Sort on pickup,アイテムを拾う時ソートする
+invtweaks.settings.advanced.sortonpickup.soloonly,SP only,SP のみ
+invtweaks.settings.advanced.sortonpickup.tooltip,Avoids to fill the hotbar with,アイテム取得時、アイテムスロットを
+invtweaks.settings.advanced.sortonpickup.tooltip.soloonly,Only in single player mode,シングルプレイヤーモードのみ
+invtweaks.settings.advanced.autoequip,Auto-equip armor,鎧を自動装備
+invtweaks.settings.advanced.autoequip.tooltip,Equips the best available,ソートした時に一番良い/n鎧を装備する
+invtweaks.settings.advanced.sounds,Enable sound,サウンドを鳴らす
+invtweaks.settings.advanced.sounds.tooltip,Play sounds when sorting,ソートや自動補充が有効の時、
+invtweaks.settings.advanced.mappingsfile,Open the shortcuts mappings file...,ショートカットマッピングファイルを開く...
+invtweaks.settings.advanced.mappingsfile.error,[11] Failed to open mappings file,[11] マッピングの記述されたファイルを開けませんでした
+invtweaks.settings.advanced.serverassist,Server Item Movement,サーバーアイテム移動
+invtweaks.settings.advanced.serverassist.tooltip,Enable using server assistance for item movement while sorting.,サーバー側のアイテム移動機能を使用する
+invtweaks.help.shortcuts.title,Shortcuts help,ショートカット ヘルプ
+invtweaks.help.shortcuts.click,Click,クリック
+invtweaks.help.shortcuts.or,or,または
+invtweaks.help.shortcuts.onestack,Move one stack,１つのスタックを移動します
+invtweaks.help.shortcuts.oneitem,Move one item,１つのアイテムを移動します
+invtweaks.help.shortcuts.allitems,Move all items of same type,同じ種類の全てアイテムを移動します
+invtweaks.help.shortcuts.everything,Move everything,全てのアイテムを移動します
+invtweaks.help.shortcuts.hotbar,Move to hotbar,ホットバーに移動します
+invtweaks.help.shortcuts.emptyslot,Move to empty slot,空のスロットに移動します
+invtweaks.help.shortcuts.rightclick,(Any shortcut) + Right instead of left click,(任意のショートカット) + 右クリック :左クリックの代わり
+invtweaks.help.shortcuts.drop,Drop,捨てる
+invtweaks.help.shortcuts.craftall,Craft all to inventory,全部インベントリにクラフトする
+invtweaks.help.shortcuts.craftone,Craft to inventory,インベントリにクラフトする
+invtweaks.help.shortcuts.selectconfig,Select sorting configuration,ソート設定を選択します
+invtweaks.help.shortcuts.forward,(Forward),(前)
+invtweaks.help.shortcuts.backward,(Backwards),(後ろ)
+invtweaks.keyboardfix.error,[12] I'm having troubles with the keyboard,[12] キーボードにトラブルがあります
+invtweaks.keyboardfix.recover,"Ok it's repaired, sorry about that.",Ok 修復されました ごめんなさい
+invtweaks.modcompat.ci.error,[13] Failed to manage 'Convenient Inventory' compatibility,[13] 「Convenient Inventory」 との互換性の確保に失敗しました
+invtweaks.key.category,Inventory Tweaks,インベントリ・トゥイックス
+invtweaks.key.sort,Inventory Sorting,インベントリのソート
+invtweaks.settings.moddedtreefile,Browse modded tree files,モジュール化された木のファイルを閲覧
+invtweaks.settings.moddedtreefile.error,[17] Failed to open Modded Tree Repository,[17] Modded Tree Repository を開けませんでした
+invtweaks.settings.displaytooltip,Display Path Tooltip,パスのツールチップを表示
+invtweaks.settings.displaytooltip.tooltip,Show the Item Tree XPaths,アイテムツリーのXPathsを表示

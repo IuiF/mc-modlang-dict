@@ -1,0 +1,98 @@
+﻿key,source_text,target_text
+ftbbackups3.general,General,一般
+ftbbackups3.general.add_backup_command_alias,Add backup command alias,バックアップコマンドの別名を追加
+ftbbackups3.general.add_backup_command_alias.tooltip,"If true, register a /backups command as an alias to /ftbbackups3",true の場合、/backups コマンドを /ftbbackups3 の別名として登録します
+ftbbackups3.general.advanced,Advanced,高度
+ftbbackups3.general.advanced.buffer_size,Buffer Size,バッファサイズ
+ftbbackups3.general.advanced.buffer_size.tooltip,"Buffer size used when reading files to be backed up.
+Don't adjust this unless you understand the implications!","バックアップするファイルの読み込み時に使用されるバッファサイズです。
+このパラメータの意味を理解している場合を除き、調整しないでください！"
+ftbbackups3.general.archival_plugin,Archival Plugin,アーカイブ プラグイン
+ftbbackups3.general.archival_plugin.tooltip,"The plugin used to actually create files on disk.
+Builtin options create ZIP files or flat file copies.","ディスク上に実際にファイルを作成するために使用されるプラグインです。
+ビルトインオプションはZIPファイルまたはフラットファイルコピーを作成します。"
+ftbbackups3.general.auto,Automatic Backups,自動バックアップ
+ftbbackups3.general.auto.tooltip,"Run backups automatically, based on the ""Backup Timer"" setting",バックアップを自動で実行します。設定は「Backup Timer」に基づきます
+ftbbackups3.general.backup_timer,Backup Timer,バックアップタイマー
+ftbbackups3.general.backup_timer.tooltip,"Frequency, in minutes, to run backups, when ""Automatic Backups"" is true",「自動バックアップ」が有効な場合にバックアップを実行する頻度（分単位）
+ftbbackups3.general.backups_to_keep,Backups to Keep,保持するバックアップ数
+ftbbackups3.general.backups_to_keep.tooltip,"Number of backups to keep.
+Oldest backup will be deleted when a backup runs",保持するバックアップの数。
+ftbbackups3.general.compression_level,Compression Level,圧縮レベル
+ftbbackups3.general.compression_level.tooltip,"File compression level for backups
+9 = maximum compression
+1 = minimum compression
+0 = no compression at all","バックアップのファイル圧縮レベル
+9 = 最大圧縮
+1 = 最小圧縮
+0 = 圧縮なし"
+ftbbackups3.general.display_file_size,Display File Size,ファイルサイズの表示
+ftbbackups3.general.display_file_size.tooltip,"When true (and ""Run Silently"" is false), also display backed-up file size to players",trueの場合（かつ「静かに実行」がfalseの場合）、バックアップファイルサイズもプレイヤーに表示します。
+ftbbackups3.general.excluded_files,Excluded files,除外ファイル
+ftbbackups3.general.excluded_files.tooltip,"Files which should not be added to the backup archive
+File globs and regexes are both supported
+Use `glob:<file-glob> or 'regex:<regular-expression>'","バックアップアーカイブに追加してはいけないファイル
+ファイルグロブと正規表現の両方がサポートされています
+`glob:<file-glob>` または `regex:<regular-expression>` を使用してください"
+ftbbackups3.general.extra_files,Extra Files,追加ファイル
+ftbbackups3.general.extra_files.tooltip,"By default, just the files in the world folder are backed up
+This can be used to add extra files from outside the world folder (but inside the game instance!) to the backup
+World folder is ""world"" on a dedicated server,
+ and ""saves/<worldname>"" on a single-player instance","デフォルトでは、ワールドフォルダ内のファイルのみがバックアップされます。
+これを使用して、ワールドフォルダの外側（ただしゲームインスタンス内）からバックアップに追加ファイルを追加できます。
+ワールドフォルダは専用サーバーでは「world」、シングルプレイヤーインスタンスでは「saves/<worldname>」です。"
+ftbbackups3.general.folder,Backup Folder,バックアップフォルダ
+ftbbackups3.general.folder.tooltip,"If not empty, an absolute path to the backup folder
+If empty, backups are placed in the ""ftbbackups3"" folder in your game instance","空でない場合、バックアップフォルダへの絶対パス
+空の場合、バックアップはゲームインスタンス内の「ftbbackups3」フォルダに配置されます。"
+ftbbackups3.general.force_on_shutdown,Force Backup on Shutdown,シャットダウン時に強制的にバックアップ
+ftbbackups3.general.force_on_shutdown.tooltip,"If true (and ""Automatic Backups"" is true), always run a backup when the server is being stopped",trueの場合（かつ「自動バックアップ」がtrueの場合）、サーバー停止時に常にバックアップを実行します
+ftbbackups3.general.max_total_size,Maximum Total Size,最大総サイズ
+ftbbackups3.general.max_total_size.tooltip,"The maximum size to allow for backups.
+Oldest backups will be deleted to keep the total backup size under this amount
+Valid suffixes: KB, MB, GB, TB","バックアップで許可する最大サイズです。
+総バックアップサイズをこの量以下に保つために、最も古いバックアップが削除されます。
+有効なサフィックス: KB, MB, GB, TB"
+ftbbackups3.general.notify_admins_only,Notify Admins Only,管理者のみ通知
+ftbbackups3.general.notify_admins_only.tooltip,"If true, only admin-level players (and SSP server owners) are notified on-screen about current backup progress
+If false, all players are notified","trueの場合、管理者レベルのプレイヤー（およびSSPサーバーのオーナー）のみ、バックアップの進行状況について画面上に通知されます。
+falseの場合、すべてのプレイヤーに通知されます。"
+ftbbackups3.general.only_if_players_online,Only if Players are Online,プレイヤーがオンラインの場合のみ
+ftbbackups3.general.only_if_players_online.tooltip,Automated backups are only run if at least one player is online,少なくとも1人のプレイヤーがオンラインの場合のみ自動バックアップが実行されます。
+ftbbackups3.general.overlay.overlay_inset_x,Progress Panel X Inset,進行パネル X インセット
+ftbbackups3.general.overlay.overlay_inset_y,Progress Panel Y Inset,進行パネル Y インセット
+ftbbackups3.general.overlay.overlay_pos,Progress Panel Position,進捗パネル位置
+ftbbackups3.general.overlay.show_overlay,Show Backup Progress Panel,バックアップ進捗パネルを表示
+ftbbackups3.general.silent,Run Silently,静かに実行
+ftbbackups3.general.silent.tooltip,"If true, online players are not notified when a backup runs",true の場合、バックアップ実行時にオンラインプレイヤーへ通知しません。
+ftbbackups3.gui.confirm_restore,Restore world '%s' from %s ?,世界 '%s' を %s から復元しますか？
+ftbbackups3.gui.confirm_restore.line_2,This cannot be undone!,これは取り消せません！
+ftbbackups3.gui.list.file,Filename: %s,ファイル名: %s
+ftbbackups3.gui.list.plugin,Archival Plugin: %s,アーカイブプラグイン: %s
+ftbbackups3.gui.restore,Restore World,ワールド復元
+ftbbackups3.gui.restore.failure,Restoration failed: %s,復元に失敗しました：%s
+ftbbackups3.gui.restore.in_progress,Restoring world...,ワールドを復元しています...
+ftbbackups3.gui.restore.success,Backup successfully restored!,バックアップが正常に復元されました！
+ftbbackups3.gui.restore.tooltip,Restore from a backup created by FTB Backups 3,FTB Backups 3で作成されたバックアップから復元します
+ftbbackups3.gui.restore_now,Restore,復元
+ftbbackups3.lang.already_running,Backup in progress!,バックアップ中！
+ftbbackups3.lang.autosave.disabled,Disabled!,無効！
+ftbbackups3.lang.autosave.enabled,Enabled,有効
+ftbbackups3.lang.autosave_status,Autosave for [%s]: %s,自動保存 [%s]: %s
+ftbbackups3.lang.end_1,Server backup done in %s!,サーバーバックアップが%sで完了しました！
+ftbbackups3.lang.end_2,Server backup done in %s! (%s),サーバーバックアップ完了: %s! (%s)
+ftbbackups3.lang.fail,Failed to save world! (%s),ワールドの保存に失敗しました！ (%s)
+ftbbackups3.lang.finished,Backup complete!,バックアップ完了！
+ftbbackups3.lang.manual_launch,%s launched a manual backup!,%s が手動バックアップを開始しました!
+ftbbackups3.lang.saving_failed,World saving failed!,世界の保存に失敗しました！
+ftbbackups3.lang.server,Server,サーバー
+ftbbackups3.lang.size.available,Available: %s,利用可能: %s
+ftbbackups3.lang.size.current,Current world size: %s,世界のサイズ: %s
+ftbbackups3.lang.size.total,Total backups folder size: %s,バックアップフォルダの総容量: %s
+ftbbackups3.lang.start,Server Backup started!,サーバーのバックアップを開始しました!
+ftbbackups3.lang.timer,Next backup in: %s,次のバックアップまで: %s
+ftbbackups3.lang.timer.in_past,Next backup was due: %s ago,次のバックアップは：%s前
+ftbbackups3.lang.timer.no_players,Backup will be run on next player login,バックアップは次回プレイヤーログイン時に実行されます
+ftbbackups3.lang.timer_progress,[%d%% | %d / %d],[%d%% | %d / %d]
+sidebar_button.ftbbackups3.config,FTB Backups 3 Configuration,FTBバックアップ3設定
+sidebar_button.ftbbackups3.config.tooltip,Settings for the FTB Backups 3 mod,FTB Backups 3 モッドの設定

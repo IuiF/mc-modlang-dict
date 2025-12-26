@@ -1,0 +1,15 @@
+﻿key,source_text,target_text
+logger.pdp.info.replacement,Replacing Minecraft#effectRenderer - Block destruction particles now only spawn in blocks' collision/bounding boxes.,Minecraft#effectRendererを置換しています - ブロック破壊粒子はブロックの衝突/バウンディングボックス内のみでスポーンするようになります。
+config.pdp.title,Proportional Destruction Particles GUI Config,比例破壊パーティクル GUI 設定
+config.pdp.client,Client,クライアント
+config.pdp.client.tooltip,Client-only configs.,クライアント専用設定。
+config.pdp.client.enabled,Enabled,有効
+config.pdp.client.enabled.tooltip,"If true, block destruction particles will spawn normally (throughout the block space), otherwise they will only spawn in blocks' collision/bounding boxes.",真の場合、ブロック破壊粒子は通常通りスポーン（ブロック空間全体）されます。それ以外の場合、ブロックの衝突/バウンディングボックス内のみでスポーンします。
+config.pdp.client.collision,Collision Boxes,衝突ボックス
+config.pdp.client.collision.tooltip,"If true, block destruction particles only spawn in the collision boxes of blocks that have them, otherwise they will only spawn in their bounding boxes.",真の場合、ブロック破壊粒子は衝突ボックスを持つブロックの衝突ボックス内でのみスポーンします。それ以外の場合、バウンディングボックス内でのみスポーンします。
+config.pdp.client.growth,Box Growth,ボックス成長
+config.pdp.client.growth.tooltip,The boxes that block destruction particles are allowed to spawn in is expanded by this many meters.,破壊パーティクルが生成できる箱の範囲は、この値だけメートル拡張されます。
+config.pdp.client.random,Random,ランダム
+config.pdp.client.random.tooltip,"If true, block destruction particles spawn randomly within blocks' collision/bounding boxes, otherwise they will spawn at evenly spaced, pre-determined positions that fall withing expanded versions of those boxes.",真の場合、ブロック破壊粒子はブロック衝突/バウンディングボックス内ランダムでスポーンします。それ以外の場合、均等間隔の事前決定位置にスポーンし、それらはこれらのボックスの拡張版内に含まれます。
+config.pdp.client.c&b.per_bit,Spawn Particles Per-Bit,ビットごとにスパイン粒子
+config.pdp.client.c&b.per_bit.tooltip,"If true, and if Chisels & Bits is installed, each particle spawned for a chiseled block will correspond to the bit type at that particle's location. Otherwise, every particle spawned will correspond to the most common but type in the block space.",真の場合、かつChisels & Bitsがインストールされている場合、彫刻されたブロックのためにスポーンされた各粒子は、その粒子の位置でのビットタイプに対応します。それ以外の場合、スポーンされたすべての粒子がブロック空間内で最も一般的なビットタイプに対応します。

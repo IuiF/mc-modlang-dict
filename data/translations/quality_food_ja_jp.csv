@@ -1,0 +1,38 @@
+﻿key,source_text,target_text
+commands.quality_food.quality.failed.already_has_quality,%s already has a quality applied,%s はすでに品質が適用されています
+commands.quality_food.quality.failed.invalid_quality,Tried to apply invalid quality,無効な品質を適用しようとしています
+commands.quality_food.quality.failed.missing_quality,%s does not have any quality to remove,%s は除去できる品質がありません
+commands.quality_food.quality.failed.no_quality,%s is not applicable to quality,%sは品質に適用できません
+config.jade.plugin_quality_food.quality,Quality,品質
+create.item_attributes.quality_food.quality,has '%1$s' quality,'%1$s' の品質を持つ
+create.item_attributes.quality_food.quality.inverted,does not have '%1$s' quality,' %1$s '品質を持っていません
+potion.withProbability,%s (%s),%s (%s)
+quality_food.configuration.Crafting,Crafting,クラフト
+quality_food.configuration.crop_target_chance,Crop Target Chance,作物ターゲット確率
+quality_food.configuration.crop_target_chance.tooltip,"The chance of quality crops dropping its own quality (also affects other qualities)
+In case of Gold (0.6 / 0.03 = 20) the chances for all qualities would be: 20 * 0.10 (iron) = 2 (100%) | 20 * 0.03 (gold) = 0.6 (60%) | 20 * 0.005 = 0.1 (10%)","品質低下クロップ自体がドロップする確率（他の品質にも影響する）
+金の場合（0.6 / 0.03 = 20）すべての品質の確率は次のようになります：20 * 0.10（鉄）= 2（100%）| 20 * 0.03（金）= 0.6（60%）| 20 * 0.005 = 0.1（10%）"
+quality_food.configuration.farmland_config,Farmland Configuration,農地設定
+quality_food.configuration.farmland_config.tooltip,"Define multipliers to be applied per farmland on crops - Syntax: <index>;<crop>;<farmland>;<multiplier>
+(Index determines check order - first matching one is applied) (Use # to specify tags)","農地ごとにクロップに適用する倍率を定義します - 構文：<index>;<crop>;<farmland>;<multiplier>
+（インデックスはチェック順序を決定します - 最初にマッチしたものが適用されます）（タグを指定するには#を使用してください）"
+quality_food.configuration.food_effects,Food Effects,食べ物効果
+quality_food.configuration.food_effects.tooltip,Enable / Disable effect tooltips for food items,食べ物アイテムの効果ツールチップを有効/無効にする
+quality_food.configuration.handle_compacting,Handle Compacting,コンパクト化処理
+quality_food.configuration.handle_compacting.tooltip,Defines whether (de)compacting should be handled automatically (in terms of retaining quality),（デ）コンパクト化を自動で処理するかどうか（品質保持に関して）を定義します。
+quality_food.configuration.luck_multiplier,Luck Multiplier,幸運倍率
+quality_food.configuration.luck_multiplier.tooltip,"Luck will affect how often each quality will be tried for
+(10 luck * 0.25 multiplier -> 2.5 rolls, meaning 2 rolls and 50% chance for another)","幸運により各品質の試行頻度がどのくらい増加するかに影響します
+（10幸運 * 0.25倍率 -> 2.5ロール、つまり2ロールと50%の確率でもう1ロール）"
+quality_food.configuration.no_quality_recipes,No Quality Recipes,品質のないレシピ
+quality_food.configuration.no_quality_recipes.tooltip,Define recipes (namespace:path) which should not result in quality being applied (e.g. when the items can be converted back and forth),品質が適用されるべきではないレシピ（namespace:path）を定義します（例えば、アイテムを前後に変換できる場合）
+quality_food.configuration.particles,Particles,粒子
+quality_food.configuration.particles.tooltip,Enable / Disable particles which indicate the stored quality level of certain blocks (e.g. furnace),特定のブロック（例：炉）の蓄積品質レベルを示すパーティクルを有効/無効にする
+quality_food.configuration.retain_quality_recipes,Retain Quality Recipes,品質保持レシピ
+quality_food.configuration.retain_quality_recipes.tooltip,Define recipes (namespace:path) which should result in the quality should be always be applied to the result (only if all ingredients have the same quality),品質が常に結果に適用されるべきレシピ（namespace:path）を定義します（全てのイングリディエントが同じ品質を持つ場合のみ）
+quality_food.configuration.seed_chance_multiplier,Seed Chance Multiplier,種の確率倍率
+quality_food.configuration.seed_chance_multiplier.tooltip,Multiplier on top of the crop target chance (e.g. in case quality seeds should be more rare),作物ターゲット確率に上乗せする倍率（例：品質種子をより希少にしたい場合）
+quality_food.quality,Quality: ,品質: 
+quality_type.quality_food.diamond,Diamond,ダイヤモンド
+quality_type.quality_food.gold,Gold,金
+quality_type.quality_food.iron,Iron,鉄

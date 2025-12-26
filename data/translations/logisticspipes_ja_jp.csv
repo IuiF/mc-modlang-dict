@@ -1,0 +1,374 @@
+﻿key,source_text,target_text
+item.PipeItemsBasicTransport,Unrouted Transport Pipe,未接続輸送パイプ
+item.PipeItemsBasicTransport.tip1,Type: Simple Transport Pipe,タイプ: 簡単な輸送パイプ
+item.PipeItemsBasicTransport.tip2,- Serves for the Transport of Items,- 物品の輸送に使用可能
+item.PipeItemsBasicTransport.tip3,- Doesn´t route Stuff,- 物をルートしません
+item.PipeItemsBasicTransport.tip4,- Can´t access Inventories,- インベントリにアクセスできません
+item.PipeItemsBasicLogistics,Basic Logistics Pipe,基本パイプ
+item.PipeItemsBasicLogistics.tip1,Type: Passive push destination,タイプ: パスティブな押し出し先
+item.PipeItemsBasicLogistics.tip2,- Routes items around the network.,- ネットワーク内のアイテムを配送します。
+item.PipeItemsBasicLogistics.tip3,- Puts specific types of items into chests.,- 特定タイプのアイテムをチェストに入れます。
+item.PipeItemsBasicLogistics.tip4,- Can be a default route.,- デフォルトルートとして使用可能です。
+item.PipeItemsRequestLogistics,Request Logistics Pipe,要求パイプ
+item.PipeItemsRequestLogistics.tip1,Type: Active requester,タイプ：アクティブリクエスター
+item.PipeItemsRequestLogistics.tip2,- Lets you manually request items,- アイテムを手動で要求できる
+item.PipeItemsRequestLogistics.tip3,- Items can come from any Item Source pipe,- アイテムは任意のアイテムソースパイプから来る可能性があります
+item.PipeItemsRequestLogistics.tip4,- Put a chest on the pipe to catch items coming out.,- パイプにチェストを置いて出てくるアイテムをキャッチします。
+item.PipeItemsRequestLogisticsMk2,Request Logistics Pipe Mk2,要求パイプMk2
+item.PipeItemsRequestLogisticsMk2.tip1,Type: Active requester,タイプ：アクティブリクエスター
+item.PipeItemsRequestLogisticsMk2.tip2,- Faster then a Mk1,- Mk1より速い
+item.PipeItemsRequestLogisticsMk2.tip3,- Lets you manually request items,- アイテムを手動で要求できる
+item.PipeItemsRequestLogisticsMk2.tip4,- Items can come from any Source pipe,- アイテムは任意のソースパイプから取得できます。
+item.PipeItemsRequestLogisticsMk2.tip5,- Put a chest on the pipe to catch items coming out.,- パイプにチェストを置いて出てくるアイテムをキャッチします。
+item.PipeItemsProviderLogistics,Provider Logistics Pipe,供給パイプ
+item.PipeItemsProviderLogistics.tip1,Type: Item Source,タイプ: アイテムソース
+item.PipeItemsProviderLogistics.tip2,- Attaches to an inventory,- インベントリに接続されます
+item.PipeItemsProviderLogistics.tip3,- Sends 16 items into the network on request,- 要求時に16アイテムをネットワークへ送信します
+item.PipeItemsProviderLogistics.tip4,- Ignores Suppliers on the same block.,- 同じブロックにあるサプライヤーを無視します。
+item.PipeItemsProviderLogisticsMk2,Provider Logistics Pipe Mk2,供給パイプMk2
+item.PipeItemsProviderLogisticsMk2.tip1,Type: Item Source,タイプ: アイテムソース
+item.PipeItemsProviderLogisticsMk2.tip2,- Attaches to an inventory,- インベントリに接続されます
+item.PipeItemsProviderLogisticsMk2.tip3,- Sends a stack of items into the network on request,- 要求時にアイテムスタックをネットワークへ送信します
+item.PipeItemsProviderLogisticsMk2.tip4,- Ignores Suppliers on the same block.,- 同じブロックにあるサプライヤーを無視します。
+item.PipeItemsCraftingLogistics,Crafting Logistics Pipe,加工パイプ
+item.PipeItemsCraftingLogistics.tip1,Type: Active Requester + Source,タイプ：アクティブリクエスター＋ソース
+item.PipeItemsCraftingLogistics.tip2,- Crafts one item at a time.,-一度に 1 つのアイテムをクラフトします。
+item.PipeItemsCraftingLogistics.tip3,- Attaches to an Automatic Crafting Table.,- 自動クラフトテーブルに接続します。
+item.PipeItemsCraftingLogistics.tip4,- Automatically crafts the item inside when requested.,自動的に要求されたとき自動的に内部アイテムをクラフトします。
+item.PipeItemsCraftingLogistics.tip5,- Can use a satelite pipe to send inputs elsewhere.,- サテライトパイプを使用して入力を別の場所へ送信できます。
+item.PipeItemsCraftingLogisticsMk2,Crafting Logistics Pipe Mk2,加工パイプMk2
+item.PipeItemsCraftingLogisticsMk2.tip1,Type: Active Requester + Source,タイプ：アクティブリクエスター＋ソース
+item.PipeItemsCraftingLogisticsMk2.tip2,- Crafts 16 items at a time.,- 16個のアイテムを同時に作成。
+item.PipeItemsCraftingLogisticsMk2.tip3,- Attaches to an Automatic Crafting Table.,- 自動クラフトテーブルに接続します。
+item.PipeItemsCraftingLogisticsMk2.tip4,- Automatically crafts the item inside when requested.,- 要求されたときに内部アイテムを自動でクラフトする。
+item.PipeItemsCraftingLogisticsMk2.tip5,- Can use a satelite pipe to send inputs elsewhere.,- サテライトパイプを使用して入力を別の場所へ送信できます。
+item.PipeItemsCraftingLogisticsMk3,Crafting Logistics Pipe Mk3,加工パイプMk3
+item.PipeItemsCraftingLogisticsMk3.tip1,Type: Active Requester + Source,タイプ：アクティブリクエスター＋ソース
+item.PipeItemsCraftingLogisticsMk3.tip2,- Crafts a stack at a time.,- 一度にスタックを作成します。
+item.PipeItemsCraftingLogisticsMk3.tip3,- Attaches to an Automatic Crafting Table.,- 自動クラフトテーブルに接続します。
+item.PipeItemsCraftingLogisticsMk3.tip4,- Automatically crafts the item inside when requested.,- 要求されたときに内部アイテムを自動でクラフトする。
+item.PipeItemsCraftingLogisticsMk3.tip5,- Can use a satelite pipe to send inputs elsewhere.,- サテライトパイプを使用して入力を別の場所へ送信できます。
+item.PipeItemsSatelliteLogistics,Satellite Logistics Pipe,サテライトパイプ
+item.PipeItemsSatelliteLogistics.tip1,Type: Active request destination,タイプ: 活動中のリクエスト先
+item.PipeItemsSatelliteLogistics.tip2,- A crafting pipe can send additional inputs here,-加工パイプは追加の搬入物をここへ送ることができる
+item.PipeItemsSupplierLogistics,Supplier Logistics Pipe,補給パイプ
+item.PipeItemsSupplierLogistics.tip1,Type: Active item requester,タイプ: アクティブアイテムリクエスター
+item.PipeItemsSupplierLogistics.tip2,- Automatically fills a chest or machine,- 自動的にチェストまたはマシンを埋め込む
+item.PipeItemsSupplierLogistics.tip3,- Can get items from any Item Source.,- 任意のアイテムソースからアイテムを取得できます。
+item.PipeItemsSupplierLogistics.tip4,- Ignores Providers on the same block.,- 同じブロックにあるプロバイダーを無視します。
+item.PipeItemsBuilderSupplierLogistics,Builder Supplier Logistics Pipe,ビルダー 補給パイプ
+item.PipeItemsBuilderSupplierLogistics.tip1,Type: Active item requester,タイプ: アクティブアイテムリクエスター
+item.PipeItemsBuilderSupplierLogistics.tip2,- Automatically fills a builder with required materials,- 必要な材料でビルダーを自動的に補充する
+item.PipeLogisticsChassiMk1,Logistics Chassis Mk1,物流制御パイプ Mk1
+item.PipeLogisticsChassiMk1.tip1,Type: Mixed,タイプ: 混合
+item.PipeLogisticsChassiMk1.tip2,- Can hold 1 module.,-モジュールを１つセットできる
+item.PipeLogisticsChassiMk2,Logistics Chassis Mk2,物流制御パイプ Mk2
+item.PipeLogisticsChassiMk2.tip1,Type: Mixed,タイプ: 混合
+item.PipeLogisticsChassiMk2.tip2,- Can hold 2 modules.,-モジュールを２つセットできる
+item.PipeLogisticsChassiMk3,Logistics Chassis Mk3,物流制御パイプ Mk3
+item.PipeLogisticsChassiMk3.tip1,Type: Mixed,タイプ: 混合
+item.PipeLogisticsChassiMk3.tip2,- Can hold 3 modules.,-モジュールを３つセットできる
+item.PipeLogisticsChassiMk4,Logistics Chassis Mk4,物流制御パイプ Mk4
+item.PipeLogisticsChassiMk4.tip1,Type: Mixed,タイプ: 混合
+item.PipeLogisticsChassiMk4.tip2,- Can hold 4 modules.,-モジュールを４つセットできる
+item.PipeLogisticsChassiMk5,Logistics Chassis Mk5,物流制御パイプ Mk5
+item.PipeLogisticsChassiMk5.tip1,Type: Mixed,タイプ: 混合
+item.PipeLogisticsChassiMk5.tip2,- Can hold 8 modules.,-モジュールを８つセットできる
+item.PipeItemsRemoteOrdererLogistics,Remote Orderer Logistics Pipe,遠隔要求パイプ
+item.PipeItemsRemoteOrdererLogistics.tip1,Type: Active requester,タイプ：アクティブリクエスター
+item.PipeItemsRemoteOrdererLogistics.tip2,- Lets you manually request items *remotely*,- 手動でリモート要求できるようにします
+item.PipeItemsRemoteOrdererLogistics.tip3,- Can pull from any Item Source,- 任意のアイテムソースから引き出せます
+item.PipeItemsRemoteOrdererLogistics.tip4,- You must right click a Remote Orderer on this pipe.,- このパイプ上でリモートオーダーを右クリックする必要があります。
+item.PipeItemsApiaristAnalyser,Bee Analyzer Logistics Pipe,蜂鑑定パイプ
+item.PipeItemsApiaristAnalyser.tip1,Type: Passive Destination,タイプ: パス的送信先
+item.PipeItemsApiaristAnalyser.tip2,- A passive destination for un-analyzed bees,- 未解析の蜜蜂用の受け口として機能します
+item.PipeItemsApiaristAnalyser.tip3,- Allows for automatic analyzing,- 自動分析を可能にします
+item.PipeItemsApiaristSink,BeeSink Logistics Pipe,蜂回収パイプ
+item.PipeItemsApiaristSink.tip1,Type: Passive Destination,タイプ: パス的送信先
+item.PipeItemsApiaristSink.tip2,- A passive destination for analyzed bees,- 分析された蜜蜂の受け皿になるパッシブな場所
+item.PipeItemsApiaristSink.tip3,- Can filter based on genetic properties and genome.,- 遺伝的特性とゲノムでフィルタリングできます。
+item.PipeItemsInvSysConnector,Logistics Inventory System Connector,ロジスティクス インベントリ システム コネクタ
+item.PipeItemsInvSysConnector.tip1,Type: Bridge,タイプ: ブリッジ
+item.PipeItemsInvSysConnector.tip2,- Connects two logistics networks together,- 2つの物流ネットワークを接続します
+item.PipeItemsInvSysConnector.tip3,over a shared inventory,共有インベントリ上
+item.PipeItemsInvSysConnector.tip4,- Usually used with an ender chest but you,- 通常、エンダーチェストと一緒に使用されますが、あなたは
+item.PipeItemsInvSysConnector.tip5,can get clever with trains too...,列車にも賢く扱える...
+item.PipeItemsSystemEntranceLogistics,Logistics System Entrance Pipe,ロジスティクスシステムの入口パイプ
+item.PipeItemsSystemEntranceLogistics.tip1,Type: Router,タイプ: ルーター
+item.PipeItemsSystemEntranceLogistics.tip2,- Sends un-routable items to a matched,- 未ルーティングされたアイテムをマッチした
+item.PipeItemsSystemEntranceLogistics.tip3,Destination Pipe.,目的地パイプ
+item.PipeItemsSystemEntranceLogistics.tip4,- Both Entrance and Destination pipe,- 入口と目的地のパイプを両方接続します。
+item.PipeItemsSystemEntranceLogistics.tip5,must share a coded frequency card.,コード付きの周波数カードを共有する必要があります。
+item.PipeItemsSystemDestinationLogistics,Logistics System Destination Pipe,物流システムの目的地パイプ
+item.PipeItemsSystemDestinationLogistics.tip1,Type: Special Destination,タイプ: 特殊送信先
+item.PipeItemsSystemDestinationLogistics.tip2,- Receives un-routeable items from a,- 未ルーティング可能なアイテムを受け取ります。
+item.PipeItemsSystemDestinationLogistics.tip3,matched Entrance Pipe,マッチした入口パイプ
+item.PipeItemsSystemDestinationLogistics.tip4,- Both Entrance and Destination pipe,- 入口と目的地のパイプを両方接続します。
+item.PipeItemsSystemDestinationLogistics.tip5,must share a coded frequency card.,コード付きの周波数カードを共有する必要があります。
+item.PipeItemsFirewall,Logistics Firewall Pipe,ファイアウォール パイプ
+item.PipeItemsFirewall.tip1,Type: Request Filter,タイプ: リクエストフィルター
+item.PipeItemsFirewall.tip2,- Allows connecting 'hostile' networks,- 「敵対」ネットワークの接続を許可します。
+item.PipeItemsFirewall.tip3,while allowing only certain items to pass,ただし、特定のアイテムのみ通過させます
+item.PipeItemsFluidSupplier,Logistics Fluid Container Supplier,物流液体容器供給者
+item.PipeItemsFluidSupplier.tip1,Uses buckets or other fluid containers to fill the connected tank,バケツやその他の液体容器を使用して接続されたタンクに充填します
+item.PipeFluidSupplierMk2,Logistics Fluid Supplier,物流フルイドサプライヤー
+item.PipeFluidSupplierMk2.tip1,Pulls Fluids from a Logistics Fluid Provider Pipe,ロジスティクス流体プロバイダーパイプから液体を引き出します。
+item.LogisticsFluidConnectorPipe,Logistics Fluid Connector Pipe,ロジスティクス液体接続パイプ
+item.PipeFluidBasic,Logistics Fluid Basic Pipe,液体基本パイプ\n
+item.PipeFluidInsertion,Logistics Fluid Insertion Pipe,ロジスティクス液体挿入パイプ
+item.PipeFluidProvider,Logistics Fluid Provider Pipe,ロジスティクス液体供給パイプ
+item.PipeFluidRequestLogistics,Logistics Fluid Request Pipe,液体要求パイプ
+item.PipeFluidExtractor,Logistics Fluid Extractor Pipe,ロジスティクス液体抽出パイプ
+item.PipeFluidSatellite,Logistics Fluid Satellite Pipe,液体補佐パイプ
+item.PipeBlockRequestTable,Logistics Request Table,ロジスティクスリクエストテーブル
+item.ModuleBlank,Blank Module,白紙のモジュール\n
+item.ModuleItemSink,ItemSink module,アイテムシンクモジュール
+item.ModulePassiveSupplier,Passive Supplier module,無為供給モジュール
+item.ModuleExtractor,Extractor module,エキストラクターモジュール
+item.ModulePolymorphicItemSink,Polymorphic ItemSink module,多相アイテムシンクモジュール
+item.ModuleQuickSort,QuickSort module,クイックソートモジュール
+item.ModuleTerminus,Terminus module,終点モジュール
+item.ModuleAdvancedExtractor,Advanced Extractor module,高度な抽出モジュール
+item.ModuleExtractorMk2,Extractor MK2 module,抽出機MK2モジュール
+item.ModuleExtractorMk3,Extractor MK3 module,エクストラクタ MK3 モジュール
+item.ModuleAdvancedExtractorMK3,Advanced Extractor MK3,高度抽出機 MK3
+item.ModuleProvider,Provider module,プロバイダモジュール
+item.ModuleProviderMk2,Provider module MK2,提供モジュール Mk2
+item.ModuleElectricManager,Electric Manager module,電気管理モジュール
+item.ModuleElectricBuffer,Electric Buffer module,電気緩衝モジュール
+item.ModuleApiaristAnalyser,Bee Analyzer module,ミツバチ分析モジュール
+item.ModuleApiaristSink,BeeSink module,BeeSinkモジュール
+item.ModuleApiaristRefiller,Apiary Refiller module,蜂の巣補充モジュール
+item.ModuleApiaristTerminus,Drone Terminus module,ドローン終点モジュール
+item.ModuleModBasedItemSink,Mod Based ItemSink module,モジュールベースのアイテム受信モジュール
+item.ModuleOreDictItemSink,OreDict ItemSink module,OreDict ItemSinkモジュール
+item.ModuleThaumicAspectSink,Thaumic AspectSink module,スキューマティックアスペクト受信モジュール
+item.ModuleEnchantmentSink,Enchantment Sink module,エンチャントシンクモジュール
+item.ModuleEnchantmentSinkMK2,Enchantment Sink module MK2,エンチャントシンクモジュール MK2
+item.ModuleCCBasedItemSink,CC Based ItemSink module,CCベースのアイテムシンクモジュール
+item.ModuleCCBasedQuickSort,CC Based QuickSort module,CCベースのクイックソートモジュール
+item.ModuleCrafter,Crafting module,クラフティングモジュール
+item.ModuleCrafterMK2,Crafting module MK2,クラフトモジュール Mk2
+item.ModuleCrafterMK3,Crafting module MK3,クラフトモジュール Mk3
+item.ModuleActiveSupplier,Active Supplier Module,アクティブサプライモジュール
+item.ModuleCreativeTabBasedItemSink,Creative Tab Based ItemSink module,クリエイティブタブベースのアイテム受信モジュール
+item.structframe,Structural Pipe Frame,構造パイプフレーム
+item.microservo,Micro Servo,マイクロサーボ
+item.routeprocess,Routing Logic Processor,ルーティングロジックプロセッサ
+item.micropackager,Micro Packager,マイクロパッケージ
+item.microcapsulator,Micro Capsulator,マイクロキャプスュラター
+item.logicexpander,Logic Expansion Circuit,ロジック拡張回路
+item.lense,Focus Lense,焦点レンズ
+item.acceptor,Laser Acceptor Interface,レーザー受信インターフェース
+item.pipeController,Logistics Pipe Controller,ロジスティクスパイプコントローラ
+item.brokenItem,Logistics Broken Item,ロジスティクス破損アイテム
+item.logisticsFluidContainer,Logistics Fluid Container,ロジスティクス液体コンテナ
+item.upgradeManagerItem,Upgrade Manager,アップグレードマネージャー
+item.HUDbow,Logistics HUD Bow,HUD眼鏡のツル
+item.HUDglass,Logistics HUD Glass,HUD眼鏡のレンズ
+item.HUDnosebridge,Logistics HUD Nose Bridge,HUD眼鏡のブリッジ
+item.NanoHopper,Nano Hopper,ナノホッパー
+item.logisticsItemCard,Logistics Item Card,物流アイテムカード
+item.itemDisk,Logistics Disk,ロジスティクスディスク
+item.networkMonitorItem,Network monitor,ネットワークモニター
+item.ItemPipeSignCreator.0,Crafting Sign Creator,クラフトサイン作成器
+item.ItemPipeSignCreator.1,Item Amount Sign Creator,アイテム数表示作成器
+item.logisticsHUDGlasses,Logistics HUD Glasses,HUD眼鏡
+item.remoteOrdererItem,Remote Orderer,リモートオーダー
+tooltip.brokenItem.1,This is an useless item,これは無駄なアイテムです
+tooltip.brokenItem.2,You get this by trying to,試して得られるもの
+tooltip.brokenItem.3,break a protected pipe,保護されたパイプを破壊する
+tooltip.logisticsItemCard,This is no valid Card,有効なカードではありません
+item.SneakyUpgradeUP,Sneaky Upgrade (UP),隠れアップグレード (UP)
+item.SneakyUpgradeDOWN,Sneaky Upgrade (DOWN),スニークアップグレード（下）
+item.SneakyUpgradeNORTH,Sneaky Upgrade (NORTH),隠れアップグレード (北)
+item.SneakyUpgradeSOUTH,Sneaky Upgrade (SOUTH),隠れアップグレード (南)
+item.SneakyUpgradeEAST,Sneaky Upgrade (EAST),隠密アップグレード (EAST)
+item.SneakyUpgradeWEST,Sneaky Upgrade (WEST),隠密アップグレード (WEST)
+item.CombinedSneakyUpgrade,Sneaky Combination Upgrade,スネaky組み合わせアップグレード
+item.SpeedUpgrade,Item Speed Upgrade,アイテム速度アップグレード
+item.ConnectionUpgradeUP,Disconnection Upgrade (UP),切断アップグレード (UP)
+item.ConnectionUpgradeDOWN,Disconnection Upgrade (DOWN),切断アップグレード (DOWN)
+item.ConnectionUpgradeNORTH,Disconnection Upgrade (NORTH),切断アップグレード（北）
+item.ConnectionUpgradeSOUTH,Disconnection Upgrade (SOUTH),切断アップグレード（南）
+item.ConnectionUpgradeEAST,Disconnection Upgrade (EAST),切断アップグレード (EAST)
+item.ConnectionUpgradeWEST,Disconnection Upgrade (WEST),切断アップグレード (WEST)
+item.AdvancedSatelliteUpgrade,Advanced Satellite Upgrade,高度な衛星アップグレード
+item.FluidCraftingUpgrade,Fluid Crafting Upgrade,液体製造アップグレード
+item.CraftingByproductUpgrade,Crafting Byproduct Extraction Upgrade,クラフト副産物抽出アップグレード
+item.PatternUpgrade,Placement Rules Upgrade,配置規則アップグレード
+item.FuzzyUpgrade,Fuzzy Upgrade,ぼかしアップグレード
+item.PowerTransportationUpgrade,Power Transportation Upgrade,電力輸送アップグレード
+item.BCPowerSupplierUpgrade,BC Power Supplier Upgrade,BC電力供給アップグレード
+item.RFPowerSupplierUpgrade,TE Power Supplier Upgrade,TE電力供給アップグレード
+item.IC2LVPowerSupplierUpgrade,IC2 LV Power Supplier Upgrade,IC2 LV電力供給アップグレード
+item.IC2MVPowerSupplierUpgrade,IC2 MV Power Supplier Upgrade,IC2 MV電力供給アップグレード
+item.IC2HVPowerSupplierUpgrade,IC2 HV Power Supplier Upgrade,IC2 HV電力供給アップグレード
+item.IC2EVPowerSupplierUpgrade,IC2 EV Power Supplier Upgrade,IC2 EV電力供給アップグレード
+item.CCRemoteControlUpgrade,CC Remote Control Upgrade,CCリモートコントロールアップグレード
+item.CraftingMonitoringUpgrade,Crafting Monitoring Upgrade,クラフティング監視アップグレード
+item.OpaqueUpgrade,Opaque Upgrade,不透明アップグレード
+item.CraftingCleanupUpgrade,Crafting Cleanup Upgrade,クラフトクリーンアップアップグレード
+item.LogicControllerUpgrade,Logic Controller Upgrade,論理制御アップグレード
+item.UpgradeModuleUpgrade,Upgrade Module Upgrade,アップグレードモジュールアップグレード
+item.upgrade.info.both1,Can be applied to %cYELLOW {0} %cRESET %cGRAY pipes,%cYELLOW {0} %cRESET %cGRAY パイプに適用可能です
+item.upgrade.info.both2,and %cYELLOW {0} %cRESET %cGRAY modules,および %cYELLOW {0} %cRESET %cGRAY モジュール
+item.upgrade.info.pipe,Can be applied to %cYELLOW {0} %cRESET %cGRAY pipes,%cYELLOW {0} %cRESET %cGRAY パイプに適用可能
+item.upgrade.info.module,Can be applied to %cYELLOW {0} %cRESET %cGRAY modules,%cYELLOW {0} %cRESET %cGRAY モジュールに適用可能です
+item.upgrade.info.all,All,全部
+item.upgrade.info.crafting,Crafting,クラフト
+item.upgrade.info.itemsink,Item Sink,アイテムシンク
+item.upgrade.info.supplier,Supplier,供給者
+item.upgrade.info.requestblock,Request Block,ブロックを要求します。
+item.upgrade.info.chassi,Chassi,車体
+item.upgrade.info.basic,Basic,ベーシック
+tile.solderingstation,Soldering Station,溶接ステーション
+tile.logisticspowerjunction,Logistics Power Junction,LP変換機
+tile.logisticssecuritystation,Logistics Security Station,物流セキュリティステーション
+tile.logisticscraftingtable,Logistics Crafting Table,ロジスティクス作業台
+tile.logisticsfuzzycraftingtable,Logistics Fuzzy Crafting Table,ロジスティクス ファジー クラフトテーブル
+tile.logisticsbcpowerprovider,Logistics MJ Power Provider,ロジスティクス MJ パワープロバイダー
+tile.logisticsic2powerprovider,Logistics EU Power Provider,ロジスティクス EU パワープロバイダー
+tile.logisticstepowerprovider,Logistics RF Power Provider,ロジスティクス RF パワープロバイダー
+tile.logisticsstatisticstable,Logistics Statistics Table,物流統計テーブル
+itemGroup.Logistics_Pipes,Logistics Pipes,ロジスティクスパイプ
+misc.holdshift,<Hold %cYELLOW %cITALIC Shift %cRESET %cGRAY for details>,<詳細を見るには %cYELLOW %cITALIC Shift %cRESET %cGRAY を保持>
+misc.extractionmode.Normal,Normal,通常
+misc.extractionmode.LeaveFirst,Leave 1st stack,1つ目のスタックを離す
+misc.extractionmode.LeaveLast,Leave last stack,最後のスタックを残す
+misc.extractionmode.LeaveFirstAndLast,Leave first & last stack,最初と最後のスタックを除く
+misc.extractionmode.Leave1PerStack,Leave 1 item per stack,1個ずつスタックを残す
+misc.extractionmode.Leave1PerType,Leave 1 item per type,各タイプ1アイテムを残す
+misc.selectType,Select Type,タイプを選択
+misc.selectOreDict,Select OreDict Type,OreDictタイプ選択
+lp.chat.slotnotfound,Couldn't find that slot internaly. Sorry. Please try again.,そのスロットが内部で見つかりませんでした。すみません。もう一度お試しください。
+lp.chat.permissiondenied,Permission denied,許可なし
+lp.chat.connectedtopipe,Connected to pipe,パイプに接続中
+lp.misc.noenergy,No Energy,エネルギーなし
+lp.hud.config.chassie.enabled,Enabled Chassis.,シャーシを有効にします。
+lp.hud.config.chassie.disabled,Disabled Chassis.,シャーシを無効にします。
+lp.hud.config.crafting.enabled,Enabled Crafting.,クラフトを有効にします。
+lp.hud.config.crafting.disabled,Disabled Crafting.,クラフトを無効にします。
+lp.hud.config.invsyscon.enabled,Enabled InvSysCon.,InvSysCon を有効にします。
+lp.hud.config.invsyscon.disabled,Disabled InvSysCon.,InvSysCon を無効にします。
+lp.hud.config.powerjunction.enabled,Enabled Power Junction.,LP変換器を有効にします。
+lp.hud.config.powerjunction.disabled,Disabled Power Junction.,LP変換器を無効にします。
+lp.hud.config.provider.enabled,Enabled Provider.,プロバイダーを有効にします。
+lp.hud.config.provider.disabled,Disabled Provider.,プロバイダーを無効にします。
+lp.hud.config.satellite.enabled,Enabled Satellite.,補佐を有効にします。
+lp.hud.config.satellite.disabled,Disabled Satellite.,補佐を無効にします。
+gui.itemsink.Yes,Yes,はい
+gui.itemsink.No,No,No
+gui.itemsink.Inventory,Inventory,インベントリ
+gui.itemsink.Defaultroute,Default route,デフォルトルート
+gui.itemsink.IgnoreData,Ignore Data,データを無視
+gui.itemsink.IgnoreNBT,Ignore NBT,NBTを無視
+gui.itemsink.import,Import,インポート
+gui.crafting.Inputs,Inputs,入力
+gui.crafting.Inventory,Inventory,インベントリ
+gui.crafting.Import,Import,インポート
+gui.crafting.Open,Open,開く
+gui.crafting.Output,Output,出力
+gui.crafting.Satellite,Satellite,補佐
+gui.crafting.Off,Off,オフ
+gui.crafting.Priority,Priority,優先度
+gui.crafting.Extra,Extra,追加
+gui.crafting.IgnDamage,IgnDamage,点火ダメージ
+gui.crafting.IgnNBT,IgnNBT,点火NBT
+gui.crafting.Include,Include,含む
+gui.crafting.Exclude,Exclude,除外
+gui.firewall.Blocked,Blocked,ブロック
+gui.firewall.Allowed,Allowed,許可
+gui.firewall.Firewall,Firewall,ファイアウォール
+gui.firewall.Filter,Filter,フィルター
+gui.firewall.Filtereditemsare,Filtered items are,フィルタリングされたアイテムは
+gui.firewall.Providing,Providing,提供
+gui.firewall.Crafting,Crafting,クラフト
+gui.firewall.Sorting,Sorting,分類
+gui.fluidbasic.Empty,Empty,空
+gui.fluidsuppliermk2.Inventory,Inventory,インベントリ
+gui.fluidsuppliermk2.Fluid,Fluid,液体
+gui.fluidsuppliermk2.Partial,Partial,部分
+gui.fluidsuppliermk2.minMode,Min. Mode,最小モード
+gui.fluidsuppliermk2.Yes,Yes,はい。
+gui.fluidsuppliermk2.No,No,No
+gui.fluidsuppliermk2.TargetInv,Fluid to keep stocked,液体を補充するためのアイテム
+gui.fluidsuppliermk2.NONE,None,なし
+gui.fluidsuppliermk2.ONEBUCKET,1 Bucket,1 バケツ
+gui.fluidsuppliermk2.TWOBUCKET,2 Buckets,2 バケツ
+gui.fluidsuppliermk2.FIVEBUCKET,5 Buckets,5 バケツ
+gui.fluidsupplier.TargetInv,Fluids to keep stocked,常に在庫を保つ液体
+gui.fluidsupplier.Inventory,Inventory,インベントリ
+gui.fluidsupplier.Partialrequests,Partial requests,部分リクエスト
+gui.fluidsupplier.Yes,Yes,はい
+gui.fluidsupplier.No,No,No
+gui.invsyscon.Refresh,Refresh,再読み込み
+gui.invsyscon.Save,Save,保存
+gui.invsyscon.InventorySystemConnector,Inventory System Connector,インベントリシステムコネクタ
+gui.invsyscon.ConnectionCard,Connection Card,接続カード
+gui.invsyscon.Waitingfor,Waiting for,待機中
+gui.invsyscon.Resistance,Resistance,耐性
+gui.powerjunction.LogisticsPowerJunction,Logistics Power Junction,物流電力ジョイント
+gui.powerjunction.StoredEnergy,Stored Energy,蓄えられたエネルギー
+gui.powerprovider.LogisticsMJPowerProvider,Logistics MJ Power Provider,ロジスティクス MJ パワープロバイダー
+gui.powerprovider.LogisticsEUPowerProvider,Logistics EU Power Provider,ロジスティクス EU パワープロバイダー
+gui.powerprovider.LogisticsRFPowerProvider,Logistics RF Power Provider,ロジスティクス RF パワープロバイダー
+gui.powerprovider.StoredEnergy,Stored Energy,蓄積エネルギー
+gui.providerpipe.TargetInv,Items to provide (or empty for all),提供するアイテム（またはすべてを空にする）
+gui.providerpipe.Inventory,Inventory,インベントリ
+gui.providerpipe.Mode,Mode,モード
+gui.providerpipe.Include,Include,含む
+gui.providerpipe.Switch,Switch,変更
+gui.routingstats.Session,Session,セッション
+gui.routingstats.Lifetime,Lifetime,ライフタイム
+gui.routingstats.Sent,Sent,送信
+gui.routingstats.Recieved,Recieved,受領
+gui.routingstats.Relayed,Relayed,中継
+gui.routingstats.RoutingTableSize,RoutingTableSize,ルーティングテーブルサイズ
+gui.routingstats.exit,Press <ESC> to exit,<ESC>で退出
+gui.satellite.SatelliteID,Satellite ID,補佐ID
+gui.securitystation.Open,Open,開く
+gui.securitystation.EditTable,Edit Table,テーブル編集
+gui.securitystation.Authorize,Authorize,認証
+gui.securitystation.Deauthorize,Deauthorize,認証を解除
+gui.securitystation.SecurityStation,Security Station,セキュリティステーション
+gui.securitystation.allowCCAccess,Allow ComputerCraft Access,ComputerCraftアクセスを許可
+gui.securitystation.excludeIDs,Excluded ComputerCraft IDs,除外されたComputerCraft ID
+gui.securitystation.pipeRemove,Allow automated Pipe remove,パイプの自動削除を許可
+gui.securitystation.Player,Player,プレイヤー
+gui.securitystation.SecurityCards,Security Cards,セキュリティカード
+gui.securitystation.Inventory,Inventory,インベントリ
+gui.securitystation.popup.ccAccess.Remove,Remove,削除
+gui.securitystation.popup.ccAccess.Add,Add,追加
+gui.securitystation.popup.player.Close,Close,閉じる
+gui.securitystation.popup.player.Player,Player,プレイヤー
+gui.securitystation.popup.player.ConfigureSettings,Configure Settings,設定を構成
+gui.securitystation.popup.player.ActiveRequesting,Active Requesting,アクティブなリクエスト中
+gui.securitystation.popup.player.UpgradePipes,Upgrade Pipes,パイプアップグレード
+gui.securitystation.popup.player.CheckNetwork,Check Network,ネットワークをチェックします。
+gui.securitystation.popup.player.RemovePipes,Remove Pipes,パイプを削除
+gui.supplierpipe.TargetInv,Items to keep stocked,補充するためのアイテム
+gui.supplierpipe.TargetInvPattern,Items to keep in the specified slots,指定されたスロットに保持するアイテム。
+gui.supplierpipe.Inventory,Inventory,インベントリ
+gui.supplierpipe.RequestMode,Request Mode,リクエストモード
+gui.upgrademanager.Upgrades,Upgrades,アップグレード
+gui.upgrademanager.Inventory,Inventory,インベントリ
+gui.upgrademanager.SneakyUpgrades,Sneaky Upgrades,スニーカーユープグレード
+gui.pipecontroller.upgrade,Upgrades,アップグレード
+gui.pipecontroller.inventory,Inventory,インベントリ
+gui.pipecontroller.sneakyUpgrades,Sneaky Upgrades,スニーカーユープグレード
+gui.pipecontroller.security,Security,セキュリティ
+gui.pipecontroller.Session,Session,セッション
+gui.pipecontroller.Lifetime,Lifetime,ライフタイム
+gui.pipecontroller.Sent,Sent,送信
+gui.pipecontroller.Recieved,Recieved,受領
+gui.pipecontroller.Relayed,Relayed,中継
+gui.pipecontroller.RoutingTableSize,RoutingTableSize,ルーティングテーブルサイズ
+gui.networkstatistics.amount,Track amount,数を追跡
+gui.networkstatistics.crafting,View active crafting tasks,アクティブなクラフトタスクを表示
+gui.networkstatistics.gettasks,Acquire tasks,タスク取得
+gui.networkstatistics.add.alreadytracked,This item type is already tracked,このアイテムタイプは既に追跡されています
+gui.settings.pipenewrenderer,Use New Renderer,新しいレンダラーを使用
+gui.settings.pipefallbackrenderer,Use Fallback Renderer,フォールバックレンダラーを使用
+gui.settings.piperenderdistance,Max. Distance for new Renderer,新規レンダラーの最大距離
+gui.settings.pipecontentrenderdistance,Max. Distance for Pipe Content,パイプコンテンツの最大距離

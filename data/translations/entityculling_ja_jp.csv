@@ -1,0 +1,24 @@
+﻿key,source_text,target_text
+key.category.minecraft.text.entityculling.title,EntityCulling,エンティティ削除
+key.entityculling.toggle,Debug toggle culling,デバッグ: カリング切り替え
+key.entityculling.toggleBoxes,Show culling boxes,殺しのボックスを表示
+text.entityculling.blockEntityFrustumCulling,Block entity frustum culling,ブロックエントリのフリュストゥムキューリング
+text.entityculling.blockEntityFrustumCulling.tooltip,"When turned on, block entity state extraction will be culled based on the camera's view frustum. This can improve performance in case your modloader/another mod doesn't do this already.",オンにすると、ブロックエンティティの状態抽出がカメラのビューフラスタムに基づいてカリングされます。モッドローダーまたは別のmodがこれを既に実行していない場合、パフォーマンスを向上させることができます。
+text.entityculling.disableF3,Disable F3 debug info,F3デバッグ情報の無効化
+text.entityculling.disableF3.tooltip,"When turned on, the F3 debug info will not show culling information.",オンにすると、F3デバッグ情報にカリング情報が表示されなくなります。
+text.entityculling.renderNametagsThroughWalls,Render nametags through walls,壁を通してネームタグを描画する
+text.entityculling.renderNametagsThroughWalls.tooltip,"When turned off, culled entities will not have their nametags rendered through walls.",オフにすると、除外されたエンティティは壁越しにネームタグが描画されません。
+text.entityculling.skipBlockEntityCulling,Skip block entity culling,ブロックエンティティのカリングをスキップ
+text.entityculling.skipBlockEntityCulling.tooltip,"When turned on, culling of block entities will be skipped entirely. This can be useful for debugging or when you want to disable culling temporarily.",オンにすると、ブロックエンティティのカリングが完全にスキップされます。デバッグ時や一時的にカリングを無効にしたい場合に便利です。
+text.entityculling.skipEntityCulling,Skip entity culling,エンティティの削除をスキップ
+text.entityculling.skipEntityCulling.tooltip,"When turned on, culling of entities will be skipped entirely. This can be useful for debugging or when you want to disable culling temporarily.",オンにすると、エンティティのカリングが完全にスキップされます。デバッグ時や一時的にカリングを無効にしたい場合に便利です。
+text.entityculling.tab.block_entity_culling,Skip Blockent.,スキップ ブロックエント.
+text.entityculling.tab.block_entity_culling.tooltip,Block entities selected in this tab will not be culled at all. This is mainly needed for block entities that need to be rendered regardless of their visibility.,このタブで選択されたブロックエンティティは一切カリングされません。主に表示状態に関わらずレンダリングが必要なブロックエンティティに必要です。
+text.entityculling.tab.entity_culling,Skip Entities,エンティティスキップ
+text.entityculling.tab.entity_culling.tooltip,Entities selected in this tab will not be culled at all. This is mainly needed for client-side entities or entities that need to be rendered regardless of their visibility.,このタブで選択されたエンティティは一切カリングされません。主にクライアント側のエンティティや表示状態に関わらずレンダリングが必要なエンティティに必要です。
+text.entityculling.tab.general_options,General,一般
+text.entityculling.tab.tick_culling,Skip Tick Culling,ターンカリングをスキップ
+text.entityculling.tab.tick_culling.tooltip,"Entities selected in this tab will not have their tick method optimized when culled. This can be useful for entities that need to tick for certain functionality, such as Boats.",このタブで選択されたエンティティがカリングされた時、tickメソッドが最適化されません。ボートなど特定の機能でtickが必要なエンティティに便利です。
+text.entityculling.tickCulling,Tick culling,タッキング
+text.entityculling.tickCulling.tooltip,"When turned on, entities that are culled will not tick. This can improve performance in some cases, but may cause issues with certain mods. Consider the finer control options in the other tab.",オンにすると、カリングされたエンティティはtickが実行されません。場合によってはパフォーマンスが向上しますが、特定のmodに問題が生じる可能性があります。他のタブの詳細制御オプションを検討してください。
+text.entityculling.title,EntityCulling,エンティティ削除

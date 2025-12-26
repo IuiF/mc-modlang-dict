@@ -1,0 +1,40 @@
+﻿key,source_text,target_text
+companion.config.combat,Combat,戦闘
+companion.config.combat.betterSweepingEdgeEffect,Better Sweeping Edge Effect,ベター・スイープング・エッジ効果
+companion.config.follow,Follow,付いてくる
+companion.config.follow.logIfTeleportingFailed,Log If Teleporting Failed,テレポート失敗時にログ出力
+companion.config.follow.logIfTeleportingFailed.desc,Log to console if a pet failed to teleport when the chunk was unloaded,チャンクがアンロードされたときにペットのテレポート失敗をコンソールへログします
+companion.config.follow.petForceTeleportingIfFollowFailed,Pet Force Teleporting If Follow Failed,追跡に失敗した場合にペットを力で移動させる
+companion.config.follow.petWontChangeDimensionUnlessOwnerIsNearbyRadius,Player Nearby Change Dimension Radius,プレイヤー近くの次元変更半径
+companion.config.follow.petWontChangeDimensionUnlessOwnerIsNearbyRadius.desc,Pet Won't Change Dimension Unless Owner Is Nearby,ペットはオーナーが近くにいない限りディメンションを変更しません
+companion.config.follow.portalMaxTeleportedPets,Portal Max Teleported Pets,ポータルで最大テレポート可能なペット
+companion.config.follow.portalMaxTeleportedPets.desc,"Max number of animals that will be teleported with you
+-1 = Use the value of maxEntityCramming gamerule","あなたと一緒にテレポートされる動物の最大数
+-1 = maxEntityCramming ゲームルールの値を使用する"
+companion.config.follow.portalTeleportingPets,Portal Teleporting Pets,ポータルでペットをテレポート
+companion.config.follow.portalTeleportingPets.desc,"When you travel through portals, teleport your pets and leashed animals as well",ポータルを通過するとき、ペットやリード付き動物もテレポートさせます。
+companion.config.injuredStatus,Injured Status,傷ついた状態
+companion.config.injuredStatus.healthRatio,Health Ratio,体力比率
+companion.config.injuredStatus.stopAttacking,Stop Attacking,攻撃を止める
+companion.config.injuredStatus.teleportToOwner,Teleport To Owner,所有者へテレポート
+companion.config.shoulderPets,Shoulder Pets,肩にペット
+companion.config.shoulderPets.dismountDamageThreshold,Dismount Damage Threshold,脱鞍ダメージ閾値
+companion.config.shoulderPets.dismountDamageThreshold.desc,Vanilla is 0,バイナリは0
+companion.config.shoulderPets.dismountFallDistance,Dismount Fall Distance,離乗落下距離
+companion.config.shoulderPets.dismountFallDistance.desc,Vanilla is 0.5,Vanillaは0.5
+companion.config.shoulderPets.dismountInWater,Dismount In Water,水中で降ろす
+companion.config.shoulderPets.dismountInWater.desc,Vanilla is true,バニラは真です
+companion.config.shoulderPets.dismountUnderWater,Dismount Under Water,水中から降りる
+companion.config.shoulderPets.dismountUnderWater.desc,Vanilla is true,バニラは真です
+companion.config.shoulderPets.dismountWhileFlying,Dismount While Flying,飛行中でも下りる
+companion.config.shoulderPets.dismountWhileFlying.desc,Vanilla is true,バニラは真です
+companion.config.shoulderPets.smartDismount,Smart Dismount,スマート・ディスモunt
+companion.config.shoulderPets.smartDismount.desc,Jump in place to dismount shoulder pets,肩のペットを下ろすために場所にジャンプしてください。
+gamerule.companion:alwaysTeleportHorses,Always teleport horse,馬を常にテレポート
+gamerule.companion:alwaysTeleportHorses.description,Always teleports your horses if they are too far from you. (by Companion mod),コンパニオンモッドによって、馬が遠く離れた場合は常にテレポートします
+gamerule.companion:immortalPets,Immortal pets,不死のペット
+gamerule.companion:immortalPets.description,Pets never die. But their speed will be very slow at extremely low health. (by Companion mod),ペットは決して死なない。しかし、極端に低い体力では速度が非常に遅くなる。(Companion modより)
+gamerule.companion:petFriendlyFire,Pet friendly fire,ペットに対するファイアの友好性
+gamerule.companion:petFriendlyFire.description,Pets can be hurt by players in your team. (by Companion mod),ペットはチームのプレイヤーに傷つけられることがあります。（Companion mod）
+modmenu.descriptionTranslation.companion,Protect your pets.,ペットを守る。
+modmenu.nameTranslation.companion,Companion,同伴者

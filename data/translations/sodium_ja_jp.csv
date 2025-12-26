@@ -1,0 +1,81 @@
+﻿key,source_text,target_text
+sodium.console.broken_nvidia_driver,"Your NVIDIA graphics drivers are out of date!
+  * This will cause severe performance issues and crashes when Sodium is installed.
+  * Please update your graphics drivers to the latest version (version 536.23 or newer.)","あなたのNVIDIAグラフィックスドライバは古くなっています！
+  * これにより、Sodiumがインストールされている場合、重大なパフォーマンスの問題とクラッシュが発生します。
+  * グラフィックスドライバを最新バージョン（バージョン536.23以上）に更新してください。"
+sodium.console.config_file_was_reset,The config file has been reset to known-good defaults.,設定ファイルは既知の良好なデフォルトにリセットされました
+sodium.console.config_not_loaded,"The configuration file for Sodium has been corrupted, or is currently unreadable. Some options have been temporarily reset to their defaults. Please open the Video Settings screen to resolve this problem.",Sodiumの設定ファイルが破損したか、現在読み込めません。いくつかのオプションが一時的にデフォルトにリセットされました。この問題を解決するために、ビデオ設定画面を開いてください。
+sodium.console.core_shaders_error,The following resource packs are incompatible with Sodium:,以下のリソースパックは Sodium と互換性がありません：
+sodium.console.core_shaders_info,Check the game log for detailed information.,詳細情報はゲームログを確認してください。
+sodium.console.core_shaders_warn,The following resource packs may be incompatible with Sodium:,以下のリソースパックはSodiumと互換性がない可能性があります：
+sodium.console.game_restart,The game must be restarted to apply one or more video settings!,1つ以上のビデオ設定を適用するにはゲームを再起動する必要があります！
+sodium.console.pojav_launcher,"PojavLauncher is not supported when using Sodium.
+  * You are very likely to run into extreme performance issues, graphical bugs, and crashes.
+  * You will be on your own if you decide to continue -- we will not help you with any bugs or crashes!","Sodiumを使用する場合、PojavLauncherはサポートされていません。
+  * 極度のパフォーマンスの問題、グラフィックスのバグ、クラッシュが発生する可能性が非常に高いです。
+  * 続行することを選択した場合、あなた自身の責任です。バグやクラッシュについてのサポートは提供されません！"
+sodium.option_impact.extreme,Extreme,極大
+sodium.option_impact.high,High,高
+sodium.option_impact.low,Low,低
+sodium.option_impact.medium,Medium,中
+sodium.option_impact.varies,Varies,変動
+sodium.options.always_defer_chunk_updates.name,Always Defer Chunk Updates,常にチャンク更新を遅延させる
+sodium.options.always_defer_chunk_updates.tooltip,"If enabled, rendering will never wait for chunk updates to finish, even if they are important. This can greatly improve frame rates in some scenarios, but it may create significant visual lag where blocks take a while to appear or disappear.",有効にした場合、重要なチャンク更新であっても、レンダリングはチャンク更新が完了するまで待機することはありません。この設定により、いくつかのシナリオではフレームレートを大幅に向上させることができますが、ブロックが表示または消滅するまでに時間がかかる大きなビジュアルラグが発生する可能性があります。
+sodium.options.animate_only_visible_textures.name,Animate Only Visible Textures,表示されているテクスチャのみをアニメーション化
+sodium.options.animate_only_visible_textures.tooltip,"If enabled, only the animated textures which are determined to be visible in the current image will be updated. This can provide a significant performance improvement on some hardware, especially with heavier resource packs. If you experience issues with some textures not being animated, try disabling this option.",有効にした場合、現在のイメージで表示されると判定されたアニメーション化されたテクスチャのみが更新されます。これにより、特にヘビーなリソースパックを使用しているハードウェアで大幅なパフォーマンスの向上が見られる場合があります。一部のテクスチャがアニメーション化されていない問題が発生した場合は、このオプションを無効にしてみてください。
+sodium.options.attack_indicator.tooltip,Controls where the Attack Indicator is displayed on screen.,攻撃インジケーターを画面上のどこに表示するかを制御します。
+sodium.options.autosave_indicator.tooltip,"If enabled, an indicator will be shown when the game is saving the world to disk.",有効にすると、ゲームがワールドをディスクに保存するときにインジケーターが表示されます。
+sodium.options.biome_blend.tooltip,"The distance (in blocks) which biome colors are smoothly blended across. Using higher values will greatly increase the amount of time it takes to load or update chunks, for diminishing improvements in quality.",バイオームの色がスムーズにブレンドされるブロック単位での距離。高い値を使用すると、チャンクのロードまたは更新にかかる時間が大幅に増加しますが、品質の向上は限定的です。
+sodium.options.biome_blend.value,%s block(s),%s ブロック
+sodium.options.brightness.tooltip,"Controls the minimum brightness in the world. When increased, darker areas of the world will appear brighter. This does not affect the brightness of already well-lit areas.",ゲームの明るさ(ガンマ)を制御します。
+sodium.options.buttons.apply,Apply,適用
+sodium.options.buttons.donate,Buy us a coffee!,コーヒーを買ってくれませんか！
+sodium.options.buttons.undo,Undo,元に戻す
+sodium.options.chunk_update_threads.name,Chunk Update Threads,チャンク更新スレッド
+sodium.options.clouds_quality.tooltip,"The quality level used for rendering clouds in the sky. Even though the options are labeled ""Fast"" and ""Fancy"", the effect on performance is negligible.",空に表示されるクラウドをレンダリングするために使用される品質レベル。オプションが「高速」と「高品質」というラベルが付いていても、パフォーマンスへの影響はほとんどありません。
+sodium.options.cpu_render_ahead_limit.name,CPU Render-Ahead Limit,CPU レンダリング先読み制限
+sodium.options.cpu_render_ahead_limit.tooltip,"For debugging only. Specifies the maximum number of frames which can be in-flight to the GPU. Changing this value is not recommended, as very low or high values may create frame rate instability.",デバッグ専用。GPUに転送できるフレームの最大数を指定します。この値を変更することはお勧めしません。非常に低い値または高い値を設定すると、フレームレートが不安定になる可能性があります。
+sodium.options.cpu_render_ahead_limit.value,%s frame(s),%s フレーム
+sodium.options.entity_distance.tooltip,"The render distance multiplier used by entity rendering. Smaller values decrease, and larger values increase, the maximum distance at which entities will be rendered.",エンティティレンダリングに使用されるレンダー距離乗数。小さい値では距離が減少し、大きい値では距離が増加し、エンティティがレンダリングされる最大距離が変わります。
+sodium.options.entity_shadows.tooltip,"If enabled, basic shadows will be rendered beneath mobs and other entities.",有効にすると、モブおよび他のエンティティの下に基本的な影がレンダリングされます。
+sodium.options.fps_limit.tooltip,"Limits the maximum number of frames per second. This can help reduce battery usage and system load when multi-tasking. If VSync is enabled, this option will be ignored unless it is lower than your display's refresh rate.",1秒あたりの最大フレーム数を制限します。これにより、マルチタスク時のバッテリー使用量とシステム負荷を軽減することができます。垂直同期が有効な場合、このオプションはディスプレイのリフレッシュレートより低い場合を除き無視されます。
+sodium.options.fullscreen.tooltip,"If enabled, the game will display in full-screen (if supported).",有効にすると、ゲームはフルスクリーンで表示されます(サポートされている場合)。
+sodium.options.graphics_quality.tooltip,"The default graphics quality controls some legacy options and is necessary for mod compatibility. If the options below are left to ""Default"", they will use this setting.",デフォルトのグラフィックス品質は、いくつかのレガシーオプションを制御し、Mod互換性に必要です。以下のオプションが「デフォルト」のままの場合、この設定を使用します。
+sodium.options.gui_scale.tooltip,"Sets the maximum scale factor to be used for the user interface. If ""auto"" is used, then the largest scale factor will always be used.",ユーザーインターフェースに使用されるスケール係数の最大値を設定します。「自動」を使用した場合、最大スケール係数が常に使用されます。
+sodium.options.leaves_quality.name,Leaves,葉
+sodium.options.leaves_quality.tooltip,Controls whether leaves will be rendered as transparent (fancy) or opaque (fast).,葉が透明（ファンシー）か不透明（ファスト）として描画されるかを制御します。
+sodium.options.mipmap_levels.tooltip,"Controls the number of mipmaps which will be used for block model textures. Higher values provide better rendering of blocks in the distance, but could adversely affect performance with resource packs that use many animated textures.",ブロックモデルテクスチャに使用されるミップマップの数を制御します。高い値は遠距離のブロックの優れたレンダリングを提供しますが、多くのアニメーション化されたテクスチャを使用するリソースパックではパフォーマンスに悪影響を与える可能性があります。
+sodium.options.pages.advanced,Advanced,高度
+sodium.options.pages.performance,Performance,パフォーマンス
+sodium.options.pages.quality,Quality,品質
+sodium.options.particle_quality.tooltip,Controls the maximum number of particles which can be present on screen at any one time.,いかなる時点でも画面上に存在できるパーティクルの最大数を制御します。
+sodium.options.performance_impact_string,Performance Impact: %s,パフォーマンスへの影響: %s
+sodium.options.simulation_distance.tooltip,The simulation distance controls how far away terrain and entities will be loaded and ticked. Shorter distances can reduce the internal server's load and may improve frame rates.,シミュレーション距離は、地形とエンティティがロードおよびティックされる距離を制御します。短い距離は内部サーバーの負荷を軽減でき、フレームレートを改善する可能性があります。
+sodium.options.smooth_lighting.tooltip,"Enables the smooth lighting and shading of blocks in the world. This can very slightly increase the amount of time it takes to load or update a chunk, but it doesn't affect frame rates.",ワールド内のブロックのスムーズなライティングとシェーディングを有効にします。これによってチャンクのロードまたは更新にかかる時間がわずかに増加する可能性がありますが、フレームレートには影響しません。
+sodium.options.use_block_face_culling.name,Use Block Face Culling,ブロックフェース カリングを使用
+sodium.options.use_block_face_culling.tooltip,"If enabled, only the faces of blocks which are facing the camera will be submitted for rendering. This can eliminate a large number of block faces very early in the rendering process, which greatly improves rendering performance. Some resource packs may have issues with this option, so try disabling it if you're seeing holes in blocks.",有効にした場合、カメラに面しているブロックの面のみがレンダリング用に送信されます。これにより、レンダリングプロセスの早い段階で多数のブロック面を除外でき、レンダリングパフォーマンスが大幅に向上します。一部のリソースパックはこのオプションで問題が発生する場合があります。ブロック内に穴が見える場合は、このオプションを無効にしてみてください。
+sodium.options.use_entity_culling.name,Use Entity Culling,エンティティ カリングを使用
+sodium.options.use_entity_culling.tooltip,"If enabled, entities which are within the camera viewport, but not inside of a visible chunk, will be skipped during rendering. This optimization uses the visibility data which already exists for chunk rendering and does not add overhead.",有効にした場合、カメラのビューポート内にあるが、表示可能なチャンク内にないエンティティはレンダリング中にスキップされます。この最適化はチャンクレンダリング用に既に存在する表示データを使用し、オーバーヘッドは追加されません。
+sodium.options.use_fog_occlusion.name,Use Fog Occlusion,フォグ オクルージョンを使用
+sodium.options.use_fog_occlusion.tooltip,"If enabled, chunks which are determined to be fully hidden by fog effects will not be rendered, helping to improve performance. The improvement can be more dramatic when fog effects are heavier (such as while underwater), but it may cause undesirable visual artifacts between the sky and fog in some scenarios.",有効にすると、フォグエフェクトによって完全に隠れていると判定されたチャンクはレンダリングされず、パフォーマンスの向上に役立ちます。改善はフォグエフェクトがより重い場合(例えば水中の場合)でより劇的ですが、いくつかのシナリオでは空とフォグの間に不要なビジュアルアーティファクトが生じる可能性があります。
+sodium.options.use_no_error_context.name,Use No Error Context,エラーコンテキストなし使用
+sodium.options.use_no_error_context.tooltip,"When enabled, the OpenGL context will be created with error checking disabled. This slightly improves rendering performance, but it can make debugging sudden unexplained crashes much harder.",有効にした場合、OpenGLコンテキストはエラーチェック無効で作成されます。これによりレンダリングパフォーマンスがわずかに向上しますが、予期しないクラッシュのデバッグが大幅に難しくなる可能性があります。
+sodium.options.use_persistent_mapping.name,Use Persistent Mapping,永続的マッピングを使用
+sodium.options.use_persistent_mapping.tooltip,"For debugging only. If enabled, persistent memory mappings will be used for the staging buffer so that unnecessary memory copies can be avoided. Disabling this can be useful for narrowing down the cause of graphical corruption.
+
+Requires OpenGL 4.4 or ARB_buffer_storage.","デバッグ専用。有効にした場合、不要なメモリコピーを回避するために、ステージングバッファに永続メモリマッピングが使用されます。これを無効にすると、グラフィックスの破損の原因を特定するのに役立つ場合があります。
+
+OpenGL 4.4またはARB_buffer_storageが必要です。"
+sodium.options.v_sync.tooltip,"If enabled, the game's frame rate will be synchronized to the monitor's refresh rate, making for a generally smoother experience at the expense of overall input latency. This setting might reduce performance if your system is too slow.",有効にすると、ゲームのフレームレートはモニターのリフレッシュレートに同期され、全体的な入力遅延を代償として一般的により滑らかな体験が得られます。この設定はシステムが遅い場合、パフォーマンスを低下させる可能性があります。
+sodium.options.view_bobbing.tooltip,"If enabled, the player's view will sway and bob when moving around. Players who experience motion sickness while playing may benefit from disabling this.",有効にした場合、周りを移動する際にプレイヤーのビューがゆらぎボビングします。ゲームプレイ中に動きの酔いを経験するプレイヤーは、このオプションを無効にすることで改善される場合があります。
+sodium.options.view_distance.tooltip,"The render distance controls how far away terrain will be rendered. Shorter distances mean that less terrain will be rendered, improving frame rates.",レンダリング距離は地形がレンダリングされる距離を制御します。短い距離はレンダリングされる地形が少なくなり、フレームレートが向上します。
+sodium.options.vignette.name,Vignette,ビネット
+sodium.options.vignette.tooltip,"If enabled, a vignette effect will be applied when the player is in darker areas, which makes the overall image darker and more dramatic.",有効にした場合、プレイヤーがより暗い区域にいるとき、ビネット効果が適用され、全体的なイメージがより暗くドラマティックになります。
+sodium.options.weather_quality.tooltip,"Controls the distance that weather effects, such as rain and snow, will be rendered.",天候効果（雨や雪など）がレンダリングされる距離を制御します。
+sodium.options.chunk_update_threads.tooltip,"Specifies the number of threads to use for chunk building and sorting. Using more threads can speed up chunk loading and update speed, but may negatively impact frame times. The default value is usually good enough for all situations.",チャンク構築およびソートに使用するスレッド数を指定します。より多くのスレッドを使用するとチャンクのロードおよび更新速度が向上しますが、フレーム時間に悪影響を与える可能性があります。デフォルト値は通常、すべての状況に十分です。
+sodium.options.fullscreen_resolution.tooltip,"The monitor resolution and refresh rate to be used when in fullscreen mode. Changing this option may interfere with other applications and cause a delay when switching between applications.
+
+This is only supported on the Windows operating system.","フルスクリーンモード時に使用される監視解像度とリフレッシュレート。このオプションを変更すると、他のアプリケーションに干渉し、アプリケーション間の切り替え時に遅延が発生する可能性があります。
+
+これはWindows オペレーティングシステムでのみサポートされています。"

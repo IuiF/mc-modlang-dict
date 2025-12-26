@@ -1,0 +1,681 @@
+﻿key,source_text,target_text
+entity_model_features.config.animate_once,Animate models once per entity,エンティティごとにモデルを1回アニメーションする。
+entity_model_features.config.animate_once.tooltip,"On by default
+this setting makes it so entity models will animate only once per each entity rendered
+this will be entirely normal in game however mobs visible in
+ inventory screens may flicker weirdly
+ especially if it represents a real mob in the world you can already see","デフォルト有効
+この設定によりエンティティモデルはレンダリングされたエンティティごとに1回だけアニメーション化されます
+これはゲーム内では全く正常ですが、インベントリ画面に表示されるモブは
+奇妙なちらつきをするかもしれません
+特に世界で既に見ることができる実際のモブを表しているばあい"
+entity_model_features.config.debug,Debugging,デバッグ
+entity_model_features.config.debug.tooltip,"Debug options, can be helpful to figure some things out",デバッグオプションで、いくつかのことを把握するのに役立ちます
+entity_model_features.config.debug_hover,Debug render only on hover,ホバー時にのみデバッグレンダリングを表示
+entity_model_features.config.debug_hover.tooltip,"Makes the above render setting only apply to entity being hovered over by the client.
+I.E. directly looked at by you.","ホバー中のエンティティにのみ上記のレンダリング設定を適用します。
+つまり、直接あなたが見ている対象にのみ適用されます。"
+entity_model_features.config.debug_right_click,Show EMF debug data on entity right click,エンティティ右クリック時にEMFデバッグデータを表示
+entity_model_features.config.debug_right_click.tooltip,"If enabled, this will print out EMf debug info into
+the log and chat when an entity is right clicked.","有効にした場合、エンティティを右クリックした際に
+EMFのデバッグ情報がログとチャットに出力されます。"
+entity_model_features.config.double_chest_fix,Fix double chest model log errors,ダブルチェストモデルログエラーを修正
+entity_model_features.config.double_chest_fix.tooltip,"Because the double chest model, 'chest_large.jem', has to be split into 2 half models in the code
+there can be excessive log spam about the missing left/right half.
+This option fixes that if enabled and also somewhat fixes animations referring to the opposite side of the chest.
+You are still highly recommended to keep the left and right half animations separate.
+This is an option because other mods affecting chest models may potentially have an issue with this.","ダブルチェストモデル「chest_大型.jem」はコード内で2つのハーフモデルに分割する必要があるため
+失われた左右のハーフについて過度なログスパムが発生する可能性があります。
+このオプションを有効にするとそれが修正され、また胸の反対側を参照するアニメーションもある程度修正されます。
+左右のハーフアニメーションは別々に保つことを強くお勧めします。
+これがオプションとして存在する理由は、チェストモデルに影響する他のモッドがこれで問題が発生する可能性があるからです。"
+entity_model_features.config.ebe_config_modify,Enhanced Block Entities (EBE) Mod patch,現在の日時（0-24000 タイク）
+entity_model_features.config.ebe_config_modify.tooltip,"If enabled, this will allow EMF to modify the EBE Mod's config
+to disable EBE for certain block entities if that
+Block Entity actually has a custom EMF model loaded.
+EMF cannot automatically re enable these settings afterwards,
+ you will have to do that manually if desired.","有効にされた場合、これはEMFがEBEモッドのコンフィグを変更し
+そのブロックエンティティが実際にカスタムEMFモデルをロードしている場合、特定のブロックエンティティのEBEを無効にできます。
+EMFは後でこれらの設定を自動的に再度有効にすることはできません
+希望される場合は、手動で行う必要があります。"
+entity_model_features.config.ebe_warn.1,Some EBE mod options have been forcibly disabled by EMF,EMFによって強制的に無効化されたSome EBEモッドオプション
+entity_model_features.config.ebe_warn.2,This happens because a resource-pack is loading a custom model for that block entity,これは、リソースパックがそのブロックエンティティ用にカスタムモデルを読み込んでいるために起こります。
+entity_model_features.config.ebe_warn.3,Currently disabling these options: ,現在、これらのオプションを無効化しています: 
+entity_model_features.config.ebe_warn.4,This can be changed in EMF's model settings,これは EMF のモデル設定で変更できます
+entity_model_features.config.force_models,Try to prevent EMF models being overridden,EMFモデルが上書きされるのを防ぐよう試みてください
+entity_model_features.config.force_models.tooltip,"Will try and force entity renderers to use the models set by EMF
+ this can override vanilla models changed by other mods
+ this wont work with all mods","エンティティレンダラーに対してEMFで設定されたモデルの使用を強制します。
+これはバニラモデルをオーバーライドできます。
+他のmodによる変更には対応しない場合があります。"
+entity_model_features.config.function_explanation.abs,"abs(x)
+Get the absolute value of a number. Will turn negative numbers positive",abs(x)
+entity_model_features.config.function_explanation.acos,"acos(x)
+Get the arc cosine of x",acos(x)
+entity_model_features.config.function_explanation.asin,"asin(x)
+Get the arc sine of x",asin(x)
+entity_model_features.config.function_explanation.atan,"atan(x)
+Get the arc tangent of x",atan(x)
+entity_model_features.config.function_explanation.atan2,"atan2(y, x)
+Get the angle between the positive x-axis and the point (x, y)","atan2(y, x)"
+entity_model_features.config.function_explanation.between,"between(x, min, max)
+Check if a value is between min and max values","between(x, min, max)"
+entity_model_features.config.function_explanation.catch,"catch(x,c,id)
+Will return x, however if x is NaN or causes some other animation error then c will get returned instead.
+id is optional, if it is added the catch function will print the reason c was used to the game log with this id
+Primarily intended for animation debugging, if there is a chance something will trigger this you should really be fixing that instead.","catch(x,c,id)
+xを返しますが、xがNaNの場合またはその他のアニメーションエラーが発生した場合はcが返されます。
+idはオプションで、追加された場合、catch関数はこのidでゲームログにcが使用された理由を出力します
+主にアニメーションデバッグを目的としています。これがトリガーされる可能性がある場合は、実際にそれを修正すべきです。"
+entity_model_features.config.function_explanation.catmullrom,"catmullrom(k, x, y, z, w)
+Interpolates between x and y using the catmull-rom spline function with control points z and w","catmullrom(k, x, y, z, w)
+カットマル-ロムスプライン関数を使用して制御点z、wでxとyの間を補間します。"
+entity_model_features.config.function_explanation.ceil,"ceil(x)
+Round x up to the nearest whole number",ceil(x)
+entity_model_features.config.function_explanation.clamp,"clamp(x, min, max)
+Limits a number to be between min and max values","clamp(x, min, max)"
+entity_model_features.config.function_explanation.cos,"cos(x)
+Get the cosine of x",cos(x)
+entity_model_features.config.function_explanation.cubicbezier,"cubicbezier(k, x, y, z, w)
+Interpolates between x and y using the cubic bezier spline function with control points z and w","cubicbezier(k, x, y, z, w)
+3次ベジェスプライン関数を使用して制御点z、wでxとyの間を補間します。"
+entity_model_features.config.function_explanation.degdiff,"degdiff(x, y)
+Returns the shortest angular degree difference between two degree values x and y","degdiff(x, y)"
+entity_model_features.config.function_explanation.easeoutback,"easeoutback(k, x, y)
+Interpolates between x and y using the ease out back function
+
+examples here: https://easings.net/","easeoutback(k, x, y)
+Ease out back関数を使用してxとyの間を補間します。
+
+例はこちら: https://easings.net/"
+entity_model_features.config.function_explanation.easeoutbounce,"easeoutbounce(k, x, y)
+Interpolates between x and y using the ease out bounce function
+
+examples here: https://easings.net/","easeoutbounce(k, x, y)
+Ease out bounce関数を使用してxとyの間を補間します。
+
+例はこちら: https://easings.net/"
+entity_model_features.config.function_explanation.easeoutcirc,"easeoutcirc(k, x, y)
+Interpolates between x and y using the ease out circ function
+
+examples here: https://easings.net/","easeoutcirc(k, x, y)
+Ease out circ関数を使用してxとyの間を補間します。
+
+例はこちら: https://easings.net/"
+entity_model_features.config.function_explanation.easeoutcubic,"easeoutcubic(k, x, y)
+Interpolates between x and y using the ease out cubic function
+
+examples here: https://easings.net/","easeoutcubic(k, x, y)
+Ease out cubic関数を使用してxとyの間を補間します。
+
+例はこちら: https://easings.net/"
+entity_model_features.config.function_explanation.easeoutelastic,"easeoutelastic(k, x, y)
+Interpolates between x and y using the ease out elastic function
+
+examples here: https://easings.net/","easeoutelastic(k, x, y)
+Ease out elastic関数を使用してxとyの間を補間します。
+
+例はこちら: https://easings.net/"
+entity_model_features.config.function_explanation.easeoutexpo,"easeoutexpo(k, x, y)
+Interpolates between x and y using the ease out expo function
+
+examples here: https://easings.net/","easeoutexpo(k, x, y)
+Ease out expo関数を使用してxとyの間を補間します。
+
+例はこちら: https://easings.net/"
+entity_model_features.config.function_explanation.easeoutquad,"easeoutquad(k, x, y)
+Interpolates between x and y using the ease out quad function
+
+examples here: https://easings.net/","easeoutquad(k, x, y)
+Ease out quad関数を使用してxとyの間を補間します。
+
+例はこちら: https://easings.net/"
+entity_model_features.config.function_explanation.easeoutquart,"easeoutquart(k, x, y)
+Interpolates between x and y using the ease out quart function
+
+examples here: https://easings.net/","easeoutquart(k, x, y)
+Ease out quart関数を使用してxとyの間を補間します。
+
+例はこちら: https://easings.net/"
+entity_model_features.config.function_explanation.easeoutquint,"easeoutquint(k, x, y)
+Interpolates between x and y using the ease out quint function
+
+examples here: https://easings.net/","easeoutquint(k, x, y)
+Ease out quint関数を使用してxとyの間を補間します。
+
+例はこちら: https://easings.net/"
+entity_model_features.config.function_explanation.easeoutsine,"easeoutsine(k, x, y)
+Interpolates between x and y using the ease out sine function
+
+examples here: https://easings.net/","easeoutsine(k, x, y)
+Ease out sine関数を使用してxとyの間を補間します。
+
+例はこちら: https://easings.net/"
+entity_model_features.config.function_explanation.equals,"equals(x, y, epsilon)
+Compare two float values with error margin","equals(x, y, epsilon)"
+entity_model_features.config.function_explanation.exp,"exp(x)
+Get e (Euler's constant) raised to the power of x",exp(x)
+entity_model_features.config.function_explanation.floor,"floor(x)
+Round x down to the nearest whole number",floor(x)
+entity_model_features.config.function_explanation.fmod,"fmod(x, y)
+Similar to the % operator, but the returned value always has the same sign as the divisor","fmod(x, y)"
+entity_model_features.config.function_explanation.frac,"frac(x)
+Get the fractional part of x (what's behind the decimal point)",frac(x)
+entity_model_features.config.function_explanation.hermite,"hermite(k, x, y, z, w)
+Interpolates between x and y using the hermite spline function with control points z and w","hermite(k, x, y, z, w)
+ハーマイト スプライン関数を使用して制御点z、wでxとyの間を補間します。"
+entity_model_features.config.function_explanation.if,"if(cond, val, [cond2, val2, ...], val_else)
+Select a value based one or more conditions","if(cond, val, [cond2, val2, ...], val_else)"
+entity_model_features.config.function_explanation.ifb,"if(cond, val, [cond2, val2, ...], val_else)
+Select a value based one or more conditions
+Only returns boolean values","if(cond, val, [cond2, val2, ...], val_else)
+1つ以上の条件に基づいて値を選択します。
+ブール値のみを返します。"
+entity_model_features.config.function_explanation.in,"in(x, val1, val2, ...)
+Check if a value equals one of several values","in(x, val1, val2, ...)"
+entity_model_features.config.function_explanation.keyframe,"keyframe(k, a, b, c,...)
+Interpolates smoothly between values based on the current frame 'k' and the keyframes. 'a' is 'k=0', 'b' is 'k=1', 'c' is 'k=2' etc.","keyframe(k, a, b, c,...)
+現在のフレーム'k'とキーフレームに基づいて滑らかに値の間を補間します。'a'は'k=0'、'b'は'k=1'、'c'は'k=2'などです。"
+entity_model_features.config.function_explanation.keyframeloop,"keyframeloop(k, a, b, c,...)
+Interpolates smoothly between values based on the current frame 'k' and the keyframes. 'a' is 'k=0', 'b' is 'k=1', 'c' is 'k=2' etc. but loops the animation back to frame 'a' when 'k' is greater than the number of keyframes","keyframeloop(k, a, b, c,...)
+現在のフレーム「k」とキーフレームに基づいて値の間を滑らかに補間します。「a」は「k=0」、「b」は「k=1」、「c」は「k=2」などですが、「k」がキーフレーム数より大きい場合、アニメーションをフレーム「a」にループバックします"
+entity_model_features.config.function_explanation.lerp,"lerp(k, x, y)
+Linear interpolation between X and Y","lerp(k, x, y)"
+entity_model_features.config.function_explanation.log,"log(x)
+Get the natural logarithm of x",log(x)
+entity_model_features.config.function_explanation.max,"max(x, y, ...)
+Get the largest number from a list of numbers","max(x, y, ...)"
+entity_model_features.config.function_explanation.min,"min(x, y ,...)
+Get the smallest number from a list of numbers","min(x, y ,...)"
+entity_model_features.config.function_explanation.nbt,"nbt(x,y)
+Boolean function that returns true if the entity has the NBT tag x matching the query y.
+x is equivalent to what comes after 'nbt.<n>.' in the NBT random property.
+y is equivalent to what comes after the '=' in the NBT random property.
+e.g. 'nbt.1.SleepingX=exists:true' in the NBT property will be 'nbt(SleepingX,exists:true) in the animation function'.","nbt(x,y)
+エンティティがクエリyと一致するNBTタグxを持っている場合、trueを返すブール関数です。
+xはNBTランダムプロパティで「nbt.<n>.」の後に続くものと等しいです。
+yはNBTランダムプロパティで「=」の後に続くものと等しいです。
+たとえば、NBTプロパティの「nbt.1.SleepingX=exists:true」は、アニメーション関数では「nbt(SleepingX,exists:true)」になります。"
+entity_model_features.config.function_explanation.pow,"pow(x, y)
+Get x raised to the power of y","pow(x, y)"
+entity_model_features.config.function_explanation.print,"print(id, n, x)
+Prints the value ""x"" every N-th frame","print(id, n, x)"
+entity_model_features.config.function_explanation.printb,"printb(id, n, x)
+Prints the boolean value ""x"" every N-th frame","printb(id, n, x)"
+entity_model_features.config.function_explanation.quadbezier,"quadbezier(k, x, y, z)
+Interpolates between x and y using the quadratic bezier spline function with control point z","quadbezier(k, x, y, z)
+2次ベジェスプライン関数を使用して制御点zでxとyの間を補間します。"
+entity_model_features.config.function_explanation.raddiff,"raddiff(x, y)
+Returns the shortest angular radian difference between two radian values x and y","raddiff(x, y)"
+entity_model_features.config.function_explanation.random,"random(seed)
+Random number from 0 to 1. Providing a seed will always return the same result. The seed is optional","random(seed)
+0～1の乱数。シードを指定すると常に同じ結果が返されます。シードはオプションです。"
+entity_model_features.config.function_explanation.randomb,"random(seed)
+Random boolean true|false. Providing a seed will always return the same result. The seed is optional","random(seed)
+乱数ブール値true|false。シードを指定すると常に同じ結果が返されます。シードはオプションです。"
+entity_model_features.config.function_explanation.round,"round(x)
+Round x to nearest whole number",round(x)
+entity_model_features.config.function_explanation.signum,"signum(x)
+Get the sign of x (positive or negative)",signum(x)
+entity_model_features.config.function_explanation.sin,"sin(x)
+Get the sine of x",sin(x)
+entity_model_features.config.function_explanation.sqrt,"sqrt(x)
+Get the square root of x",sqrt(x)
+entity_model_features.config.function_explanation.tan,"tan(x)
+Get the tangent of x",tan(x)
+entity_model_features.config.function_explanation.todeg,"todeg(rad)
+Convert radians to degrees",todeg(rad)
+entity_model_features.config.function_explanation.torad,"torad(deg)
+Convert degrees to radians",torad(deg)
+entity_model_features.config.function_explanation.wrapdeg,"wrapdeg(x)
+Wraps the degree value x to the range -180 to 180 that it matches",wrapdeg(x)
+entity_model_features.config.function_explanation.wraprad,"wraprad(x)
+Wraps the radian value x to the range -pi to pi that it matches",wraprad(x)
+entity_model_features.config.functions,Functions,関数
+entity_model_features.config.functions.explain,"A list of all the math functions currently registered for use in EMF custom entity model animations.
+Each function will provide more details when clicked on.","EMFのカスタムエンティティモデルアニメーションで使用するために現在登録されているすべての数学関数のリスト。
+各関数をクリックすると詳細情報が表示されます。"
+entity_model_features.config.general,General,一般
+entity_model_features.config.general.tooltip,General settings,一般設定
+entity_model_features.config.iris_shadow_skip,Skip animating Iris shadow pass,Irisシャドウパスのアニメーションをスキップします
+entity_model_features.config.iris_shadow_skip.tooltip,"This will make it so the entity model doesn't animate twice
+each frame for both the render and the iris shadow pass
+this should always be ON and is only here in case of
+future breaking iris api changes","これにより、エンティティモデルがレンダーとirisシャドウパス両方で毎フレーム2回アニメーション化されないようにします
+これは常にONであるべきであり、将来のiris api破壊的変更に備えてのみここにあります"
+entity_model_features.config.large_mob_lod,Retain LOD for larger mobs,大規模なモンスターにはLODを維持
+entity_model_features.config.large_mob_lod.tooltip,"If enabled this will reduce the Level of Detail (LOD)
+impact of the above setting according to the mobs size.
+Larger mobs will have less noticeable skipped frames
+than smaller mobs","有効にした場合、上記の設定のLOD（詳細度）の影響を
+モブのサイズに応じて軽減します。
+より大きなモブはスキップされたフレームがより目立たなくなります。
+より小さなモブと比較して"
+entity_model_features.config.load_warn.1,EMF encountered loading errors,EMFのロードエラーが発生しました。
+entity_model_features.config.load_warn.2,"EMF can log these errors again from, models > debug >","EMF can log these errors again from, models > debug >"
+entity_model_features.config.load_warn.3,Check your log or EMF settings for details,詳細はログまたはEMF設定をご確認ください
+entity_model_features.config.load_warn.title,Log all loading errors again,ロードエラーを再度ログに記録
+entity_model_features.config.load_warn.title2,Log all loading errors again (with stacktrace),ロードエラーを再度ログ（スタックトレース付き）します
+entity_model_features.config.load_warn.tooltip,"This option will re-print all the encountered EMF loading errors, from the last resource reload, back into the log in the order they were encountered
+Not all errors here will be very helpful as they may be missing surrounding log context","このオプションは、最後のリソースリロードから遭遇したすべてのEMFロードエラーを、遭遇した順序でゲームログに再出力します
+これらのエラーのすべてが非常に役に立つとは限りません。周囲のログコンテキストが不足している可能性があるため"
+entity_model_features.config.lod,Animation LOD distance,アニメーションのLOD距離
+entity_model_features.config.lod.tooltip,"Sets the distance at which animations will begin to skip frames,
+lower the Level of Detail (LOD), This can help with performance
+None = no frame skipping
+16 = will skip 1 frame for every 16 blocks distance from player
+Lower numbers mean more skipped frames and more performance gain
+but of course animations will become more noticeably lower
+framerate the closer the LOD distance is set","アニメーションがフレームスキップを開始する距離を設定します
+LevelのDetail(LOD)を低下させます。これはパフォーマンス向上に役立ちます
+なし = フレームスキップなし
+16 = プレイヤーから16ブロック離れるごとに1フレームスキップします
+低い数値はより多くのフレームをスキップしてより多くのパフォーマンスを得られます
+ただしアニメーションはLOD距離が近いほどフレームレートが明らかに低下します"
+entity_model_features.config.log_math,Log animation calculations,ログアニメーション計算
+entity_model_features.config.log_math.tooltip,"Prints animation math debug data to the log
+WARNING EXTREMELY LAG INDUCING!",アニメーション計算デバッグデータをログに出力します。
+entity_model_features.config.log_models,Log model construction info,モデル構築情報のログ
+entity_model_features.config.log_models.tooltip,Prints model creation debug data to the log,モデル生成デバッグデータをログに出力します。
+entity_model_features.config.low_fps_lod,Retain LOD at low fps,低FPS時にもLODを維持
+entity_model_features.config.low_fps_lod.tooltip,"If enabled this will reduce the Level of Detail (LOD)
+impact of the above setting according to your fps.
+Only applies when below 60 fps as skipped frames
+become increasingly noticeable at lower fps","有効にした場合、上記の設定のLOD（詳細度）の影響を
+あなたのFPSに応じて軽減します。
+60FPS未満の場合にのみ適用されます。
+スキップされたフレームはより低いFPSでより目立つようになるため。"
+entity_model_features.config.math,Animation math details,アニメーションの数学的詳細
+entity_model_features.config.math.explain,"This section provides details on the math functions and variables available for use in EMF custom entity model animations.
+Including anything added to EMF from another mod using it's API.
+Each function and variable will provide more details when clicked on.","このセクションでは、EMFカスタムエンティティモデルアニメーションで使用できる数学関数と変数の詳細を説明しています。
+APIを使用して別のモッドからEMFに追加されたものを含めて説明します。
+各関数と変数をクリックすると、さらに詳細が表示されます。"
+entity_model_features.config.models,All models,すべてのモデル
+entity_model_features.config.models.arrows,"arrow.jem & spectral_arrow.jem will not appear here, but are both supported",arrow.jem と spectral_arrow.jem はここには表示されませんが、両方ともサポートされています。
+entity_model_features.config.models.cape,"
+player_cape.jem will not appear here, but is also supported, it is an exact copy of player.jem but only the 'cloak' part",player_cape.jemはここに表示されませんが、サポートされています。これはplayer.jemの正確なコピーですが、'cloak'部分のみです。
+entity_model_features.config.models.enabled,Enable model,モデルを有効化
+entity_model_features.config.models.enabled.tooltip,Sets whether or not to load the given .jem model file,指定された .jem モデルファイルを読み込むかどうかを設定します
+entity_model_features.config.models.explain,"Not all parts visible here may export
+only declared parts will.
+You can find out the missing part's transform details by checking the game log after exporting.","ここに表示されるすべての部分がエクスポート可能とは限りません。
+宣言された部分のみがエクスポートされます。
+不足している部分のトランスフォーム詳細はエクスポート後にゲームログを確認して確認できます。"
+entity_model_features.config.models.export,Export model as .jem file,.jemファイルとしてモデルをエクスポート
+entity_model_features.config.models.export.fail,"Model cannot be exported, because:",モデルはエクスポートできません。理由：
+entity_model_features.config.models.export.success,Exported model successfully,モデルを正常にエクスポートしました
+entity_model_features.config.models.file_names,File names & Locations,ファイル名と場所
+entity_model_features.config.models.part_names,Part names for this model,このモデルのパーツ名
+entity_model_features.config.models_text,"These are all the models modifiable via EMF
+These screens will only show / export information about these models unmodified state
+If you want to see the current state of a model you will have to look at the model in game","これらはEMFで変更可能なすべてのモデルです
+これらの画面は、これらのモデルの未変更状態に関する情報のみを表示/エクスポートします
+モデルの現在の状態を確認する場合は、ゲーム内でモデルを確認する必要があります"
+entity_model_features.config.only_client,Only modify your player model,プレイヤーのモデルのみを変更してください
+entity_model_features.config.only_client.tooltip,"If enabled this will only apply custom player models to your own player
+ignoring all others in multiplayer","有効にした場合、カスタムプレイヤーモデルを自分のプレイヤーにのみ適用します。
+マルチプレイヤーモードの他のプレイヤーは無視されます。"
+entity_model_features.config.optifine_fallback_properties,Use fallback .properties,フォールバック .properties を使用
+entity_model_features.config.optifine_fallback_properties.tooltip,"If enabled this will make EMF try to load a fallback .properties file if the regular one cannot be found
+E.G. pig_baby.jem will fall back to using pig.properties if pig_baby.properties doesn't exist.
+OptiFine only works with these fallbacks and in fact does not allow the per model example like pig_baby.properties","有効にされた場合、通常の.propertiesファイルが見つからない場合、EMFはフォールバック.propertiesファイルをロードしようとします
+例：pig_baby.jemはpig_baby.propertiesが存在しない場合、pig.propertiesに置き換わります。
+OptiFineはこれらのフォールバックでのみ機能し、実は""pig_baby.properties""のようなモデルごとの例を許可しません"
+entity_model_features.config.optifine_floor,Floor box UVs,床のボックスUV
+entity_model_features.config.optifine_floor.tooltip,"OptiFine floors all UV values in custom box UV's
+i.e. it makes them all whole numbers.
+This setting will make EMF do the same
+EMF will also log if it finds a model that doesn't have floored UVs","OptiFineはカスタムボックスUVのすべてのUV値をフロアリングします。
+つまり、すべて整数にします。
+この設定により、EMFも同じことを行います。
+EMFはフロアリングされていないUVを持つモデルを見つけた場合もログに出力します。"
+entity_model_features.config.optifine_subfolders,Subfolder models MUST variate,サブフォルダのモデルは変化する必要があります
+entity_model_features.config.optifine_subfolders.tooltip,"In OptiFine the subfolder option for model files only works if that model variates.
+E.G. 'optifine/cem/skeleton/skeleton.jem' will only load if it has variants
+such as 'optifine/cem/skeleton/skeleton2.jem' or a .properties file
+This setting will make EMF also enforce this,
+EMF will log this if it finds a model that doesn't variate","OptiFineでは、モデルファイルのサブフォルダオプションはそのモデルがバリエーション化される場合にのみ機能します。
+例：「optifine/cem/skeleton/skeleton.jem」は「optifine/cem/skeleton/skeleton2.jem」などのバリエーション
+または.propertiesファイルがある場合にのみロードされます
+この設定によりEMFもこれを強制します
+バリエーション化されないモデルが見つかった場合、EMFはこれをログに記録します"
+entity_model_features.config.optifine_syntax,CEM animation syntax limits,CEMアニメーションの構文制限
+entity_model_features.config.optifine_syntax.tooltip,"If enabled this will enforce OptiFine's CEM syntax limitations, such as
+bone ids in animations cannot start with _ or numbers.
+numbers cannot start with '.' such as '.9'
+bones named 'render' cannot be referenced by animations
+This setting when enabled will log errors for any animations that violate these rules and invalidate them.","有効にされた場合、これはOptiFineのCEM構文制限を強制します
+アニメーション内のボーンIDは_または数字で始まることができません
+数字は「.」で始まることができません。例えば「.9」
+「render」という名前のボーンはアニメーションで参照できません
+この設定が有効な場合、これらのルールに違反するアニメーションのエラーがログに記録され、無効化されます。"
+entity_model_features.config.optimizations,Optimization,最適化
+entity_model_features.config.optimizations.tooltip,Settings related to animation optimization,アニメーション最適化に関連する設定
+entity_model_features.config.options,Options & fixes,オプション＆修正
+entity_model_features.config.options.tooltip,Various options for fundamental features or mod compatibility fixes,基本機能やモッド互換性の修正に関するさまざまなオプション
+entity_model_features.config.performance,Performance settings,パフォーマンス設定
+entity_model_features.config.physics,Physics mod patch,物理学モジュールのパッチ
+entity_model_features.config.physics.1,Use vanilla model,バイナリモデルを使用
+entity_model_features.config.physics.2,Use EMF (CEM) model,EMF（CEM）モデルを使用
+entity_model_features.config.physics.tooltip,"Will only render the original vanilla model parts on death if physics mod is enabled
+ this partially works but is not a perfect solution","物理modが有効な場合、死亡時にはバニラモデル部分のみをレンダリングします。
+これは部分的に機能しますが、完璧な解決策ではありません。"
+entity_model_features.config.player_settings,Player settings,プレイヤー設定
+entity_model_features.config.prevent_hand,Prevent first person hand animations,第一人称ハンドアニメーションを防ぎます。
+entity_model_features.config.prevent_hand.tooltip,If enabled this will forcibly prevent all custom EMF animations from playing on the first person hand model,有効にした場合、カスタムEMFアニメーションがすべて一人称の手モデルで再生されるのを強制的に防ぎます。
+entity_model_features.config.print_mode,Model exporting,モデルエクスポート
+entity_model_features.config.print_mode.all_log,All models - Log only,すべてのモデル - ログのみ
+entity_model_features.config.print_mode.all_log_jem,All models - Log & .jem,全モデル - 木の原木と .jem
+entity_model_features.config.print_mode.log,Unknown models - Log only,不明なモデル - ログのみ
+entity_model_features.config.print_mode.log_jem,Unknown models - Log & .jem,不明なモデル - ログと .jem
+entity_model_features.config.print_mode.tooltip,"this will print out the part information or a complete .jem file
+for any model that EMF can access EVERY RELOAD!!
+The .jem files can be found in ""MC_DIRECTORY/emf/export"" after a reload
+The .jem files are Blockbench ready with
+correct pivots boxes and uvs
+Unknown models refers to models not supported by OptiFine CEM","これにより、EMFがアクセスできるいかなるモデルについても、パート情報または完全な.jemファイルが出力されます（リロード毎に！！）
+.jemファイルはリロード後に""MC_DIRECTORY/emf/export""にあります
+.jemファイルはBlockbench対応で
+正しいピボット、ボックス、UVを含みます
+不明なモデルはOptiFine CEMでサポートされていないモデルを指します"
+entity_model_features.config.render,Debug render mode,デバッグレンダリングモード
+entity_model_features.config.render.green,Flash green,フラッシュグリーン
+entity_model_features.config.render.lines,Wireframe only,線画のみ
+entity_model_features.config.render.lines_texture,Wireframe over texture,テクスチャ上にワイヤーフレームを表示
+entity_model_features.config.render.lines_texture_flash,Wireframe flashing over texture,ワイヤーフレームがテクスチャ上で点滅する
+entity_model_features.config.render.none,Disabled,無効
+entity_model_features.config.render.normal,Normal,通常
+entity_model_features.config.render.tooltip,"Changes how custom model parts are rendered, this does not affect vanilla model parts.
+Normal = normal rendering
+Flash green = the custom parts will flash green
+Outlines = the outlines of the model parts will render
+Disabled = custom model parts will not render","カスタムモデルパーツのレンダリング方法を変更します。これはバニラモデルパーツには影響しません。
+ノーマル = 通常のレンダリング
+緑点滅 = カスタムパーツが緑に点滅します
+アウトライン = モデルパーツのアウトラインがレンダリングされます
+無効 = カスタムモデルパーツはレンダリングされません"
+entity_model_features.config.reset_player,Reset player model every render,毎描画時にプレイヤーモデルをリセットする
+entity_model_features.config.reset_player.tooltip,"This makes EMF reset all the vanilla part transforms of player models well before every render.
+Only applies if custom models are present for the player.
+This is not the typical behaviour however with how many mods alter player animations
+this setting vastly reduces the difficulty of player animation compatibility between mods and animation packs.
+E.G. player emote mods.
+This compatibility still requires work on the pack makers end.","これにより、EMFはプレイヤーモデルのバニラパートの変形をレンダリングの直前にリセットします。
+プレイヤーのカスタムモデルが存在する場合にのみ適用されます。
+これは典型的な動作ではありませんが、多くのモッドがプレイヤーアニメーションを変更しているため
+この設定により、モッド間およびアニメーションパック間のプレイヤーアニメーション互換性の困難さが大幅に軽減されます。
+たとえば、プレイヤーエモートモッドなどです。
+この互換性にはアニメーションパック作成者側での作業が必要です。"
+entity_model_features.config.show_reload_error_toast,Show reload error toast,再読み込みエラーのトーストを表示
+entity_model_features.config.show_reload_error_toast.tooltip,"If enabled, this will show a toast message when errors occurred during a resource reload
+This can be helpful to know if something went wrong during the reload","有効にした場合、リソースリロード中にエラーが発生したときにトーストメッセージが表示されます。
+リロード中に問題が発生したかどうかを知るのに役立ちます。"
+entity_model_features.config.substitute_vanilla,Substitute missing model parts,欠落したモデルパーツを置換します。
+entity_model_features.config.substitute_vanilla.tooltip,"EMF will try to replace missing part in the .jem
+ model file with the vanilla counterpart",EMFは.jem内で欠落しているパーツを置き換えようとします。
+entity_model_features.config.texture_override_mode,Sub-model texture handling,サブモデルテクスチャハンドリング
+entity_model_features.config.texture_override_mode.dont,Ignore texture overrides,テクスチャ上書きを無視
+entity_model_features.config.texture_override_mode.emf,Try with EMF code,EMFコードで試す
+entity_model_features.config.texture_override_mode.iris,Try with Iris first,まずIrisを試してみて
+entity_model_features.config.tools,Tools,ツール
+entity_model_features.config.tools.tooltip,Optional tools to help with model making or distinguishing custom models,モデル作成やカスタムモデルを区別するためのオプションツール
+entity_model_features.config.update,Model update rate,モデル更新率
+entity_model_features.config.update.tooltip,"Sets how often a mobs model will
+update for changes like health & age
+Never = never update
+Slow = 3-5 seconds
+Average = about 1 second
+Fast = less than a second
+Instant = instant (possible lag with hundred of mobs)","モブのモデルが更新される頻度を設定します
+健康度と年齢などの変更について
+なし = 更新しない
+遅い = 3～5秒
+普通 = 約1秒
+速い = 1秒未満
+インスタント = 即座（数百のモブで遅延の可能性あり）"
+entity_model_features.config.vanilla_render,Vanilla model display mode,バニラモデル表示モード
+entity_model_features.config.vanilla_render.normal,normal,通常
+entity_model_features.config.vanilla_render.offset,offset,オフセット
+entity_model_features.config.vanilla_render.tooltip,"This setting will render the vanilla model alongside the custom one for comparison
+It will not animate and thus might be positioned a bit weird","この設定は、比較用にカスタムモデルの横にバニラモデルをレンダリングします。
+アニメーションされないため、位置が少し奇妙に見えるかもしれません。"
+entity_model_features.config.variable_explanation.age,Age in ticks,秒単位での年齢
+entity_model_features.config.variable_explanation.anger_time,"The remaining entity angry time in ticks. Starts with 400-780 while agressive, and then counts down to 0 when the target is lost",エンティティが残りの怒り時間（ティック単位）。攻撃的な場合は400～780で始まり、ターゲットが失われるとカウントダウンして0になります。
+entity_model_features.config.variable_explanation.anger_time_start,The start value of anger_time ,怒り時間の開始値。
+entity_model_features.config.variable_explanation.day_count,The current day count,現在の日数カウンター
+entity_model_features.config.variable_explanation.day_time,The current day time in ticks (0-24000),エンティティが盾でブロックしている場合
+entity_model_features.config.variable_explanation.death_time,The time the entity is dead. Counts up from 0 to 20,エンティティが死亡した時間。0から20までカウントアップします。
+entity_model_features.config.variable_explanation.dimension,"The current dimension. Overworld: 0, Nether: -1, End: 1",現在のディメンション。オーバーワールド: 0、ネザー: -1、エンド: 1
+entity_model_features.config.variable_explanation.distance,"The entities distance from the client player in blocks
+
+while the distance variable was added for convenience, the same can be achieved on OptiFine with the following code:
+""var.distance"": ""sqrt(pow(pos_x  -player_pos_x, 2) + pow(pos_y - player_pos_y, 2) + pow(pos_z - player_pos_z, 2))""","クライアントプレイヤーからのエンティティの距離（ブロック単位）
+
+distance変数は便利用に追加されましたが、OptiFineで同じことを実現するには次のコードで実現できます：
+""var.distance"": ""sqrt(pow(pos_x  -player_pos_x, 2) + pow(pos_y - player_pos_y, 2) + pow(pos_z - player_pos_z, 2))"""
+entity_model_features.config.variable_explanation.e,"Euler's number
+2.718281.....",オイラーの数
+entity_model_features.config.variable_explanation.entity_variable,"Entity variables are specified in the format ""var.<name>"" (float) or ""varb.<name>"" (boolean) 
+
+The name can be any string, for example ""var.xyz"", ""var.last_rx"", etc.
+
+The variable is attached to the rendered entity and has a default value 0 or false.
+
+Entity variables are useful for storing animation data between frames.","エンティティ変数は以下の形式で指定されます：「var.<name>」(浮動小数点数) または「varb.<name>」(ブール値)
+
+名前は任意の文字列です。例えば「var.xyz」、「var.last_rx」など。
+
+この変数はレンダリングされるエンティティにアタッチされ、デフォルト値は0またはfalseです。
+
+エンティティ変数はフレーム間でアニメーションデータを保存するのに便利です。"
+entity_model_features.config.variable_explanation.entity_variable.title,Entity variables,エンティティ変数
+entity_model_features.config.variable_explanation.false,"Constant value
+false",定数値
+entity_model_features.config.variable_explanation.fluid_depth,"The depth of the fluid above and below a submerged entity, 0 if not submerged",潜水したエンティティの上下にある液体の深さ（潜水していない場合は 0）
+entity_model_features.config.variable_explanation.fluid_depth_down,"The depth of the fluid below a submerged entity, 0 if not submerged",潜水中のエンティティの下にある流体の深さ、潜水していない場合は0
+entity_model_features.config.variable_explanation.fluid_depth_up,"The depth of the fluid above a submerged entity, 0 if not submerged",潜水中のエンティティの上にある流体の深さ、潜水していない場合は0
+entity_model_features.config.variable_explanation.frame_counter,"The index of the current frame (0 to 720719, then resets to 0)",現在のフレームインデックス（0〜720719、次に0へリセット）
+entity_model_features.config.variable_explanation.frame_time,The time in seconds since the last frame,前フレームからの秒数
+entity_model_features.config.variable_explanation.global_variable,"Global variables are specified in the format ""global_var.<name>"" (float) or ""global_varb.<name>"" (boolean) 
+The name can be any string, for example ""global_var.xyz"", ""global_var.last_rx"", etc.
+The variable is globally saved and has a default value 0 or false.
+Global variables are useful for storing animation data used by multiple entities.","グローバル変数は以下の形式で指定されます：「global_var.<name>」(浮動小数点数) または「global_varb.<name>」(ブール値)
+名前は任意の文字列です。例えば「global_var.xyz」、「global_var.last_rx」など。
+この変数はグローバルに保存され、デフォルト値は0またはfalseです。
+グローバル変数は複数のエンティティで使用されるアニメーションデータを保存するのに便利です。"
+entity_model_features.config.variable_explanation.global_variable.title,Global variables,グローバル変数
+entity_model_features.config.variable_explanation.head_pitch,Head pitch (x Rotation),頭部のピッチ（x回転）
+entity_model_features.config.variable_explanation.head_yaw,Head yaw   (y rotation),頭部のヤウ（y回転）
+entity_model_features.config.variable_explanation.health,The entity's current health,エンティティの現在の体力
+entity_model_features.config.variable_explanation.height_above_ground,"The distance the entity is above the ground
+ground being the highest point below the entity with a collidable block","エンティティが地面からどのくらい上にあるか。
+地面は、エンティティの下にある衝突可能ブロックの最高点です。"
+entity_model_features.config.variable_explanation.hurt_time,The time the entity is hurt for. Counts down from 10 to 0,エンティティがダメージを受ける時間。10から0へカウントダウン
+entity_model_features.config.variable_explanation.id,"A unique numeric identifier for the entity
+always the same for the same entity",エンティティの一意な数値識別子
+entity_model_features.config.variable_explanation.is_aggressive,If the entity is aggressive towards a player or another entity,エンティティがプレイヤーまたは他のエンティティに対して攻撃的である場合
+entity_model_features.config.variable_explanation.is_alive,If the entity is alive,エンティティが生きている場合
+entity_model_features.config.variable_explanation.is_blocking,If the entity is blocking with a shield,エンティティがシールドで遮蔽している場合
+entity_model_features.config.variable_explanation.is_burning,If the entity is on fire,エンティティが火にかかる場合
+entity_model_features.config.variable_explanation.is_child,If the entity is in its baby state,エンティティがベビーモードの場合
+entity_model_features.config.variable_explanation.is_climbing,If the entity is climbing a climbable block or is a spider on a wall,エンティティが登り可能ブロックを登っているか、壁に付いているクモである場合
+entity_model_features.config.variable_explanation.is_crawling,If the entity is crawling,エンティティが這っている場合
+entity_model_features.config.variable_explanation.is_first_person_hand,If the game is currently rendering the first person hand,ゲームが現在第一人称の手をレンダリングしている場合
+entity_model_features.config.variable_explanation.is_gliding,If the entity is gliding,エンティティが滑空している場合
+entity_model_features.config.variable_explanation.is_glowing,If the entity has the Glowing effect,もしエンティティに「光る」効果がある場合
+entity_model_features.config.variable_explanation.is_holding_item_left,If an item is held in the entities left hand slot,エンティティの左手スロットにアイテムが保持されている場合
+entity_model_features.config.variable_explanation.is_holding_item_right,If an item is held in the entities right hand slot,エンティティの右手スロットにアイテムが保持されている場合
+entity_model_features.config.variable_explanation.is_hurt,If the entity is taking damage,エンティティがダメージを受けているとき。
+entity_model_features.config.variable_explanation.is_in_ground,If a trident is impaled in the ground,トライデントが地面に突き刺されている場合
+entity_model_features.config.variable_explanation.is_in_gui,If the entity is inside the GUI,エンティティがGUI内にある場合
+entity_model_features.config.variable_explanation.is_in_hand,If the entity is being held in your hand,エンティティが手に持たれている場合
+entity_model_features.config.variable_explanation.is_in_item_frame,If the entity is in an item frame,エンティティがアイテムフレーム内にある場合
+entity_model_features.config.variable_explanation.is_in_lava,If the entity is touching lava,エンティティがラヴァに触れているとき。
+entity_model_features.config.variable_explanation.is_in_water,If the entity is touching water,エンティティが水に触れている場合
+entity_model_features.config.variable_explanation.is_invisible,If the entity has the Invisibility effect/NBT tag,エンティティが不可視効果/ NBTタグを持っている場合
+entity_model_features.config.variable_explanation.is_jumping,If a living mob is jumping,生きているMobがジャンプしている場合
+entity_model_features.config.variable_explanation.is_on_ground,If the entity is touching the ground,もしエンティティが地面に触れている場合
+entity_model_features.config.variable_explanation.is_on_head,If the entity is worn on another entity's head,エンティティが別のエンティティの頭に装着されている場合
+entity_model_features.config.variable_explanation.is_on_shoulder,If a parrot is sitting on your shoulder,オウムが肩に座っている場合
+entity_model_features.config.variable_explanation.is_ridden,If the entity is being ridden by another entity,エンティティが別のエンティティに乗っている場合
+entity_model_features.config.variable_explanation.is_riding,If the entity is riding another entity,エンティティが別のエンティティに乗っている場合
+entity_model_features.config.variable_explanation.is_right_handed,If the player is right handed,プレイヤーが右手を用いている場合
+entity_model_features.config.variable_explanation.is_sitting,If a cat/wolf/parrot is sitting,猫/オオカミ/オウムが座っているとき
+entity_model_features.config.variable_explanation.is_sneaking,If a cat/ocelot is sneaking,ネコ／オセロットが隠れているかどうか
+entity_model_features.config.variable_explanation.is_sprinting,If a cat/ocelot is sprinting,猫/オセロットがスプリントしているとき
+entity_model_features.config.variable_explanation.is_swimming,If the entity is swimming,エンティティが泳いでいる場合
+entity_model_features.config.variable_explanation.is_swinging_left_arm,True if the entity is swinging its left arm. Note false does not mean the other arm is swinging,エンティティが左腕を振っている場合はTrueです。Falseは他の腕が振っていないことを意味しません。
+entity_model_features.config.variable_explanation.is_swinging_right_arm,True if the entity is swinging its right arm. Note false does not mean the other arm is swinging,右腕を振っているかどうか。false でも他の腕が振っていないとは限りません
+entity_model_features.config.variable_explanation.is_tamed,If a cat/wolf/parrot is tamed,ネコ／オオカミ／パラートが飼いならされている場合
+entity_model_features.config.variable_explanation.is_using_item,"If the entity is currently using an item, e.g. player right clicking with a bucket",エンティティが現在アイテムを使用している場合、例：プレイヤーがバケツで右クリックする時
+entity_model_features.config.variable_explanation.is_wet,If the entity is inside water/rain,エンティティが水中/雨の中にいる場合
+entity_model_features.config.variable_explanation.limb_speed,"Limb movement speed. Ranges from 0 to 1 (still = 0, sprinting = 1)",肢移動速度。0〜1（静止＝0、全速走行＝1）
+entity_model_features.config.variable_explanation.limb_swing,Limb animation counter. Counts up in ticks when the entity moves,リムバニメーションカウンタ。エンティティが動くときにティックで増加します
+entity_model_features.config.variable_explanation.max_health,The entity's maximum health,エンティティの最大体力
+entity_model_features.config.variable_explanation.model_part,"Model variables are specified in the format
+ ""<model>.<variable_name>""
+
+The model can be:
+ ""this"" - current custom model
+ ""part"" - the original part model to which the custom model is attached
+ ""<part>"" - original model by part name
+ ""<id>"" - custom model by ID
+ ""<part>:<sub_id>:<sub_sub_id>:..."" - (hierarchical) start with original model by part name, then find children by ID
+ ""<id>:<sub_id>:<sub_sub_id>:..."" - (hierarchical) start with model by ID, then find children by ID
+
+The first model found by part name or ID is used if there are duplicates.
+The model search by ID is deep, also when used in a hierarchical specification. 
+
+The hierarchical specification allows model groups (json part models) to be reused for different parts. 
+For example one hand model (""shoulder:upper_arm:elbow:forearm:palm:finger[1.5]"" can be used for both left and right hand.
+The animation can use ""left_hand:finger1"" for the left thumb and ""right_hand:finger1"" for the right thumb. 
+The intermediate parents in the hierarchical specification can be skipped. 
+
+Variable names
+ tx, ty, tz    - Translation x, y, z
+ rx, ry, rz    - Rotation x, y, z
+ sx, sy, sz    - Scale x, y, z
+ visible       - Show model and submodels (boolean)
+ visible_boxes - Show model only, does not affect submodels (boolean)","モデル変数は以下の形式で指定されます
+ ""<model>.<variable_name>""
+
+モデルは以下から選択できます:
+ ""this"" - 現在のカスタムモデル
+ ""part"" - カスタムモデルが適用されている元のパートモデル
+ ""<part>"" - パート名で指定した元のモデル
+ ""<id>"" - IDで指定したカスタムモデル
+ ""<part>:<sub_id>:<sub_sub_id>:..."" - (階層化) パート名で元のモデルから開始し、その後IDで子を検索
+ ""<id>:<sub_id>:<sub_sub_id>:..."" - (階層化) IDでモデルから開始し、その後IDで子を検索
+
+重複がある場合、最初に見つかったパート名またはIDのモデルが使用されます。
+IDによるモデル検索は階層化された指定でも深く検索されます。
+
+階層化された指定により、モデルグループ(JSONパートモデル)を異なるパートで再利用できます。
+たとえば、1つの手モデル(""shoulder:upper_arm:elbow:forearm:palm:finger[1.5]"")は左右両方の手で使用できます。
+アニメーションは左手の親指に""left_hand:finger1""、右手の親指に""right_hand:finger1""を使用できます。
+階層化された指定では、中間の親要素をスキップできます。"
+entity_model_features.config.variable_explanation.model_part.title,Model part variables,モデルパート変数
+entity_model_features.config.variable_explanation.move_forward,"The entity's current movement in the direction they are facing. Ranges from -1 to 1 denoting the Y axis intercept of a unit circle of the players current movement vector. 1 is forward, -1 is backward",エンティティが向いている方向への現在の移動。プレイヤーの現在の移動ベクトルの単位円のY軸切片を表す-1～1の範囲。1は前方、-1は後方。
+entity_model_features.config.variable_explanation.move_strafing,The entity's current movement in the direction 90 degrees to the right of their facing direction. Ranges from -1 to 1 denoting the X axis intercept of a unit circle of the players current movement vector.,エンティティが直面している方向の90度右方向への現在の移動。プレイヤーの現在の移動ベクトルの単位円のX軸インターセプトを示す-1～1の範囲です。
+entity_model_features.config.variable_explanation.nan,"Not a number
+throws an exception during runtime
+used for debugging",数値ではありません
+entity_model_features.config.variable_explanation.optifine_parts,OptiFine part names:,OptiFine部品名:
+entity_model_features.config.variable_explanation.pi,"Constant value
+3.1415926",定数値
+entity_model_features.config.variable_explanation.player_pos,The client players current world position,クライアントプレイヤーの現在位置をワールド座標で表示
+entity_model_features.config.variable_explanation.player_rot,The client players current world rotation. North is 0,クライアントプレイヤーの現在のワールド回転。北は0です
+entity_model_features.config.variable_explanation.pos,The entities current world position,エンティティの現在の世界位置
+entity_model_features.config.variable_explanation.render_variable,"Render variables
+ render.shadow_size
+ - The size of the shadow underneath an entity
+ render.shadow_opacity
+ - How transparent the shadow is
+ render.shadow_offset_x, render.shadow_offset_z
+ - The location of the shadow
+  render.leash_offset_x, render.leash_offset_y, render.leash_offset_z
+ - The position of the point the leash attaches to","レンダー変数
+ render.shadow_size
+ - エンティティの下の影のサイズ
+ render.shadow_opacity
+ - 影の透明度
+ render.shadow_offset_x, render.shadow_offset_z
+ - 影の位置
+ render.leash_offset_x, render.leash_offset_y, render.leash_offset_z
+ - リードが接続される点の位置"
+entity_model_features.config.variable_explanation.render_variable.title,Render variables,レンダリング変数
+entity_model_features.config.variable_explanation.rot,The entities current world rotation. North is 0,エンティティの現在のワールド回転。北は0
+entity_model_features.config.variable_explanation.rule_index,The index of the current matching random models rule. Defaults to 0,現在一致するランダムモデルルールのインデックス。デフォルトは0
+entity_model_features.config.variable_explanation.swing_progress,How far through an attack the entity is. Counts up from 0 to 1,攻撃の進行度。0から1までカウントアップします
+entity_model_features.config.variable_explanation.time,"The total game time in ticks, not related to the daylight cycle",ゲーム全体の時間（ティック単位）、昼夜サイクルとは無関係
+entity_model_features.config.variable_explanation.true,"Constant value
+true",定数値
+entity_model_features.config.variable_explanation.unknown_parts,Un mapped part names:,未マッピングの部分名:
+entity_model_features.config.variables,Variables,変数
+entity_model_features.config.variables.explain,"A list of all the math variables currently registered for use in EMF custom entity model animations.
+Each variable will provide more details when clicked on.","EMFのカスタムエンティティモデルアニメーションで使用するために現在登録されているすべての数学変数のリスト。
+各変数をクリックすると詳細情報が表示されます。"
+entity_model_features.config.variation_base,Require base models for variation,バリエーションにはベースモデルが必要です
+entity_model_features.global_var_property,"Global Variable Float (Optional)
+matches the CEM animation global variable value
+defaults to 0
+Example: (for animation variable 'global_var.xyz') global_var.1.xyz= 2 4 6
+§aglobal_var.<n>.<variable>=<list>","グローバル変数（浮動小数点数）（オプション）
+CEMアニメーショングローバル変数値と一致します
+デフォルト: 0
+例: (アニメーション変数「global_var.xyz」の場合) global_var.1.xyz= 2 4 6
+§aglobal_var.<n>.<variable>=<list>"
+entity_model_features.global_varb_property,"Global Variable Boolean (Optional)
+matches the CEM animation global variable value
+defaults to false
+Example: (for animation variable 'global_varb.xyz') global_varb.1.xyz=true
+§aglobal_varb.<n>.<variable>=<true|false>","グローバル変数（ブール値）（オプション）
+CEMアニメーショングローバル変数値と一致します
+デフォルト: false
+例: (アニメーション変数「global_varb.xyz」の場合) global_varb.1.xyz=true
+§aglobal_varb.<n>.<variable>=<true|false>"
+entity_model_features.rule_property,"Model Rule (Optional)
+matches the last random model rule number that the entities model matched against
+defaults to 0
+Example: modelRule.1= 2 4 6
+§amodelRule.<n>=<list>","モデルルール（オプション）
+エンティティのモデルがマッチした最後のランダムモデルルール番号に一致します。
+デフォルト: 0
+例: modelRule.1= 2 4 6
+§amodelRule.<n>=<list>"
+entity_model_features.suffix_property,"Model Suffix (Optional)
+matches the last random model suffix number that the entities model was set to
+defaults to 0
+Example: modelSuffix.1= 2 4 6
+§amodelSuffix.<n>=<list>","モデルサフィックス（オプション）
+エンティティのモデルが設定された最後のランダムモデルサフィックス番号に一致します。
+デフォルト: 0
+例: modelSuffix.1= 2 4 6
+§amodelSuffix.<n>=<list>"
+entity_model_features.title,Entity Model Features,エンティティモデルの機能
+entity_model_features.var_property,"Entity Variable Float (Optional)
+matches the CEM animation variable value of the entity
+defaults to 0
+Example: (for animation variable 'var.xyz') var.1.xyz= 2 4 6
+§avar.<n>.<variable>=<list>","エンティティ変数フロート（オプション）
+エンティティのCEMアニメーション変数値と一致します。
+デフォルト: 0
+例: (アニメーション変数 'var.xyz' の場合) var.1.xyz= 2 4 6
+§avar.<n>.<variable>=<list>"
+entity_model_features.varb_property,"Entity Variable Boolean (Optional)
+matches the CEM animation variable value of the entity
+defaults to false
+Example: (for animation variable 'varb.xyz') varb.1.xyz=true
+§avarb.<n>.<variable>=<true|false>","エンティティ変数（ブール値）（オプション）
+エンティティのCEMアニメーション変数値と一致します
+デフォルト: false
+例: (アニメーション変数「varb.xyz」の場合) varb.1.xyz=true
+§avarb.<n>.<variable>=<true|false>"
+entity_model_features.config.variation_base.tooltip,"OptiFine requires a 'base' model for variation. This means 'pig2.jem' will not variate without a 'pig.jem'.
+EMF does not require this, but will enforce it by default as it is best to preserve OptiFine compatibility where possible.
+You can easily get a default model by exporting it in the EMF settings via 'models > allmodels > *model* > export'.
+Or just disable this setting.","OptiFineではバリエーション用の「基本」モデルが必要です。これは「pig2.jem」が「pig.jem」なしではバリエーション化しないことを意味します。
+EMFはこれを必要としませんが、デフォルトではOptiFine互換性を可能な限り保持するために強制します。
+EMF設定の「models > allmodels > *model* > export」でデフォルトモデルを簡単に取得できます。
+またはこの設定を無効にするだけです。"

@@ -1,0 +1,343 @@
+﻿key,source_text,target_text
+itemGroup.indlog,Inductive Logistics,誘導物流
+tile.indlog.fluid_pipe.name,Fluid Pipe,液体パイプ
+tile.indlog.fluid_pipe\:0.name,Fluid Transport Pipe,液体輸送パイプ
+tile.indlog.fluid_pipe\:0.tip,Stores \\<fluid_pipe_cap> mB internally. Fluids will move along the displayed path where each pipe can receive from multiple §4inputs§7 but can only pass on its contents to one §2output§7. See also §6Fluid (Injection|Extraction) Pipe§7.\n§aSneak-click§7 to remove a pipe connection.\n§aClick§7 with §ablock in offhand§7 to cover.,"内部に<fluid_pipe_cap>mBを保存します。流体はパイプに沿って移動し、各パイプは複数の§4入力§7から受け取ることができますが、内容物は1つの§2出力§7にしか渡せません。§6流体(インジェクション|抽出)パイプ§7も参照してください。
+§aスニーク+クリック§7でパイプ接続を削除します。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.fluid_pipe\:1.name,Fluid Injection Pipe,液体注入パイプ
+tile.indlog.fluid_pipe\:1.tip,Acts as path destination. First tries to fill its fluid into connected tanks before passing it on.\nCan be upgraded with a §6Fluid Pipe Filter§7.\n§aClick§7 with §aempty hand§7 to disable.\n§aSneak-click§7 to remove a pipe connection.\n§aClick§7 with §ablock in offhand§7 to cover.,"パイプの終点として機能します。接続されたタンクに流体を満たそうと試み、その後次に渡します。
+§6流体パイプフィルター§7でアップグレード可能です。
+§aクリック§7空手で無効にします。
+§aスニーク+クリック§7でパイプ接続を削除します。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.fluid_pipe\:2.name,Fluid Extraction Pipe,液体抽出管
+tile.indlog.fluid_pipe\:2.tip,Acts as path source. Drains fluids out of connected tanks to pass them on to the next pipe.\nCan be upgraded with a §6Fluid Pipe Filter§7.\n§aClick§7 with §aempty hand§7 to disable.\n§aSneak-click§7 to remove a pipe connection.\n§aClick§7 with §ablock in offhand§7 to cover.,"パイプの供給源として機能します。接続されたタンクから流体を抽出し、次のパイプに渡します。
+§6流体パイプフィルター§7でアップグレード可能です。
+§aクリック§7空手で無効にします。
+§aスニーク+クリック§7でパイプ接続を削除します。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.fluid_pipe\:3.name,Fluid Destination Pipe,液体デスティネーションパイプ
+tile.indlog.fluid_pipe\:3.tip,Acts as path destination but doesn't actively interact with neighboring tanks.\nSneak-click to remove a pipe connection (then §6(Injection|Extraction) Pipe§7s will threat it as normal Tank).\n§aClick§7 with §ablock in offhand§7 to cover.,"パイプの終点ですが、隣接するタンクと主動的に相互作用しません。
+スニーク+クリックでパイプ接続を削除します(その後§6(インジェクション|抽出)パイプ§7はそれを通常のタンクとして扱います)。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.fluid_pipe\:4.name,Fluid Source Pipe,液体ソースパイプ
+tile.indlog.fluid_pipe\:4.tip,Acts as path source but doesn't actively interact with neighboring tanks.\nSneak-click to remove a pipe connection (then §6(Injection|Extraction) Pipe§7s will threat it as normal Tank).\n§aClick§7 with §ablock in offhand§7 to cover.,"パイプの供給源ですが、隣接するタンクと主動的に相互作用しません。
+スニーク+クリックでパイプ接続を削除します(その後§6(インジェクション|抽出)パイプ§7はそれを通常のタンクとして扱います)。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.item_pipe.name,Item Pipe,アイテムパイプ
+tile.indlog.item_pipe\:0.name,Item Transport Pipe,アイテム輸送パイプ
+tile.indlog.item_pipe\:0.tip,Contains a one-Slot-Inventory. Items will move along the displayed path where each pipe can receive from multiple §4inputs§7 but can only pass on its contents to one §2output§7. See also §6Item (Injection|Extraction) Pipe§7.\n§aSneak-click§7 to remove a pipe connection.\n§aClick§7 with §ablock in offhand§7 to cover.,"1スロットのインベントリを含みます。アイテムはパイプに沿って移動し、各パイプは複数の§4入力§7から受け取ることができますが、内容物は1つの§2出力§7にしか渡せません。§6アイテム(インジェクション|抽出)パイプ§7も参照してください。
+§aスニーク+クリック§7でパイプ接続を削除します。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.item_pipe\:1.name,Item Injection Pipe,アイテム注入パイプ
+tile.indlog.item_pipe\:1.tip,Acts as path destination. First tries to put its item into connected inventories before passing it on.\nCan be upgraded with an §6Item Pipe Filter§7.\n§aClick§7 with §aempty hand§7 to disable.\n§aSneak-click§7 to remove a pipe connection.\n§aClick§7 with §ablock in offhand§7 to cover.,"パイプの終点として機能します。接続されたインベントリにアイテムを入れようと試み、その後次に渡します。
+§6アイテムパイプフィルター§7でアップグレード可能です。
+§aクリック§7空手で無効にします。
+§aスニーク+クリック§7でパイプ接続を削除します。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.item_pipe\:2.name,Item Extraction Pipe,アイテム抽出パイプ
+tile.indlog.item_pipe\:2.tip,Acts as path source. Pulls items out of connected inventories to pass them on to the next pipe.\nCan be upgraded with an §6Item Pipe Filter§7.\n§aClick§7 with §aempty hand§7 to disable.\n§aSneak-click§7 to remove a pipe connection.\n§aClick§7 with §ablock in offhand§7 to cover.,"パイプの供給源として機能します。接続されたインベントリからアイテムを抽出し、次のパイプに渡します。
+§6アイテムパイプフィルター§7でアップグレード可能です。
+§aクリック§7空手で無効にします。
+§aスニーク+クリック§7でパイプ接続を削除します。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.item_pipe\:3.name,Item Destination Pipe,アイテム送信管
+tile.indlog.item_pipe\:3.tip,Acts as path destination but doesn't actively interact with neighboring inventories.\nSneak-click to remove a pipe connection (then §6(Injection|Extraction) Pipe§7s will threat it as normal Inventory).\n§aClick§7 with §ablock in offhand§7 to cover.,"パイプの終点ですが、隣接するインベントリと主動的に相互作用しません。
+スニーク+クリックでパイプ接続を削除します(その後§6(インジェクション|抽出)パイプ§7はそれを通常のインベントリとして扱います)。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.item_pipe\:4.name,Item Source Pipe,アイテムソースパイプ
+tile.indlog.item_pipe\:4.tip,Acts as path source but doesn't actively interact with neighboring inventories.\nSneak-click to remove a pipe connection (then §6(Injection|Extraction) Pipe§7s will threat it as normal Inventory).\n§aClick§7 with §ablock in offhand§7 to cover.,"パイプの供給源ですが、隣接するインベントリと主動的に相互作用しません。
+スニーク+クリックでパイプ接続を削除します(その後§6(インジェクション|抽出)パイプ§7はそれを通常のインベントリとして扱います)。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.warp_pipe.name,Advanced Universal Pipe,高度なユニバーサルパイプ
+tile.indlog.warp_pipe.tip,Transports items and fluids between connected blocks instantly without internal storage.\nTransport happens either from §6Extraction§7 to §6Destination§7 or from §6Source§7 to §6Injection§7 connections.\n§aClick§7 sides with §6Pipe§as in hand§7 to configure their interaction with neighboring Tanks or Inventories accordingly.\n§6(Item|Fluid) Pipe Filter§7s are applied per connected side.\n§aClick§7 with §aempty hand§7 on pipe connector to disable.\n§aSneak-click§7 to remove a pipe connection.\n§aClick§7 with §ablock in offhand§7 to cover.,"内部ストレージなしでアイテムと流体をブロック間で瞬時に転送します。
+転送は§6抽出§7から§6終点§7への接続、または§6供給源§7から§6インジェクション§7への接続で発生します。
+§a§6パイプ§を持ってクリック§7して側面をクリックし、隣接するタンクまたはインベントリとの相互作用を設定します。
+§6(アイテム|流体)パイプフィルター§7は接続された側面ごとに適用されます。
+§aパイプコネクターをクリック§7空手で無効にします。
+§aスニーク+クリック§7でパイプ接続を削除します。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.tank.name,Fluid Tank,液体タンク
+tile.indlog.tank\:0.name,Fluid Tank §8tiny,流体タンク §8tiny
+tile.indlog.tank\:1.name,Fluid Tank §4small,液体タンク §4small
+tile.indlog.tank\:2.name,Fluid Tank §6normal,液体タンク §6通常
+tile.indlog.tank\:3.name,Fluid Tank §elarge,液体タンク §e大型
+tile.indlog.tank\:4.name,Fluid Tank §2huge,液体タンク §2huge
+tile.indlog.tank\:5.name,Fluid Tank §3extreme,液体タンク §3extreme
+tile.indlog.tank\:6.name,Fluid Tank §1hyper,液体タンク §1hyper
+tile.indlog.tank\:7.name,Fluid Tank §5ultimate,流体タンク §5究極版
+tile.indlog.tank\:i.tip,Automatically outputs contained fluids to the bottom.\nCapable of automatic draining/filling fluid containers.\nKeeps its content when broken.,"内部の流体を下部に自動的に排出します。
+流体コンテナの自動排液/充液が可能です。
+壊れた時に内容物を保持します。"
+tile.indlog.tank.stor,Contains %s: %1$.5uB / %2$.5uB,%s が含まれています: %1$.5uB / %2$.5uB
+tile.indlog.tank.empty,Capacity: %.5uB,容量: %.5uB
+tile.indlog.buffer.name,Item Buffer,アイテムバッファ
+tile.indlog.buffer\:0.name,Item Buffer §6normal-S,アイテムバッファ §6ノーマル‑S
+tile.indlog.buffer\:1.name,Item Buffer §6normal-M,アイテムバッファ §6normal-M
+tile.indlog.buffer\:2.name,Item Buffer §6normal-L,アイテムバッファ §6normal-L
+tile.indlog.buffer\:3.name,Item Buffer §6normal-XL,アイテムバッファ §6通常-XL
+tile.indlog.buffer\:4.name,Item Buffer §eadvanced-S,アイテムバッファ §eadvanced-S
+tile.indlog.buffer\:5.name,Item Buffer §eadvanced-M,アイテムバッファ §eadvanced-M
+tile.indlog.buffer\:6.name,Item Buffer §eadvanced-L,アイテムバッファ §eadvanced-L
+tile.indlog.buffer\:7.name,Item Buffer §eadvanced-XL,アイテムバッファ §eadvanced-XL
+tile.indlog.buffer\:8.name,Item Buffer §bextreme-S,アイテムバッファ §b極端-S
+tile.indlog.buffer\:9.name,Item Buffer §bextreme-M,アイテムバッファ §b極端-M
+tile.indlog.buffer\:10.name,Item Buffer §bextreme-L,アイテムバッファ §b極端-L
+tile.indlog.buffer\:11.name,Item Buffer §bextreme-XL,アイテムバッファ §bextreme-XL
+tile.indlog.buffer\:12.name,Item Buffer §5ultimate-S,アイテムバッファ §5ultimate-S
+tile.indlog.buffer\:13.name,Item Buffer §5ultimate-M,アイテムバッファ §5ultimate-M
+tile.indlog.buffer\:14.name,Item Buffer §5ultimate-L,アイテムバッファ §5ultimate-L
+tile.indlog.buffer\:15.name,Item Buffer §5ultimate-XL,アイテムバッファ §5ultimate-XL
+tile.indlog.buffer\:i.tip,Item storage inventory with adjustable slot count & stack size limit.,スロット数とスタックサイズ制限が調整可能なアイテムストレージインベントリ。
+tile.indlog.buffer.stor,%d / %d Slots filled @ Stack limit: %d,%d / %d スロット埋まる @ スタック上限: %d
+tile.indlog.auto_craft.name,Automatic Crafter,自動クラフター
+tile.indlog.auto_craft.tip,Takes items from neighboring inventories to perform\nautomatic crafting based on a side reference pattern.,"隣接するインベントリからアイテムを取得し、
+側面参照パターンに基づいて自動的にクラフトを実行します。"
+tile.indlog.inv_connector.name,Access Extension Pipe,アクセス拡張管
+tile.indlog.inv_connector.tip,"All access to this pipe's capabilities (Item, Fluid, ...) is forwarded to the target block at the end of the line.\nThe connections point towards target and show green if linked and red if not.\n§aClick§7 with §aempty hand§7 to change orientation.\n§aClick§7 with §ablock in offhand§7 to cover.","このパイプの機能(アイテム、流体など)へのすべてのアクセスは、ラインの終端にあるターゲットブロックに転送されます。
+接続はターゲットを指し、リンクされていれば緑、リンクされていなければ赤で表示されます。
+§aクリック§7空手で向きを変更します。
+§aブロックをオフハンド§7に持ってクリック§7で覆います。"
+tile.indlog.trash.name,Overflow Trash,オーバーフローゴミ
+tile.indlog.trash.tip,Tries to pass inserted items & fluids on to its connected block and deletes the excess that this block didn't take.\n(Deletes everything if not connected to a block),"挿入されたアイテムと流体を接続されたブロックに渡そうとし、そのブロックが受け取らなかった余分な部分を削除します。
+(ブロックに接続されていない場合はすべてを削除します)"
+tile.indlog.fluid_outlet.name,Fluid Outlet,液体排出口
+tile.indlog.fluid_outlet.tip,Fills connected holow areas below the block with the supplied fluids.,ブロックの下にある接続されたホロウエリアを供給された液体で満たします。
+tile.indlog.fluid_intake.name,Fluid Intake,液体入力口
+tile.indlog.fluid_intake.tip,Drains connected fluid lakes above the block into its internal tank.,ブロック上の水源湖を内部タンクに排出します。
+tile.indlog.drop_interface.name,Dropped Item Interface,ドロップアイテムインターフェイス
+tile.indlog.drop_interface.tip,Has a virtual inventory containing the items that lay in front of it in the world.\nPumping items into the block will drop them on the ground and extracting items out of the block will pick them up.,"その前にある世界内のアイテムを含む仮想インベントリを持ちます。
+ブロックにアイテムをポンプで入れると地面に落ち、ブロックからアイテムを抽出するとそれらを拾い上げます。"
+tile.indlog.entity_interface.name,Entity Interface,エンティティインターフェース
+tile.indlog.entity_interface.tip,Provides access to the capabilities of the entity in front of it.\n(for example to access the inventory of Chest Carts),"その前にあるエンティティの機能へのアクセスを提供します。
+(例えば、チェストカートのインベントリにアクセスするため)"
+tile.indlog.block_placer.name,Item Placer,アイテム配置機
+tile.indlog.block_placer.tip,"Has a single slot inventory. Inserting items emulates a right-click at the block position in front. Any remainder must be extracted before the next operation.\nApplying a Redstone-strength on the block's sides offsets the operating position by that amount of blocks in the opposite direction.\nRight-click this block with empty hand to configure orientation, aim and sneaking for emulated placement.","シングルスロットインベントリを持ちます。アイテムを挿入するとその前にあるブロック位置で右クリックをエミュレートします。残りは次の操作の前に抽出する必要があります。
+ブロックの側面にレッドストーン強度を適用すると、操作位置を反対方向にそれだけのブロック数だけオフセットします。
+空の手でこのブロックを右クリックして、エミュレートされた配置の向き、照準、スニーク状態を設定します。"
+item.indlog.fluid_filter.name,Pipe Fluid-Filter,パイプ 流体フィルタ
+item.indlog.fluid_filter.tip,A filter for §6Fluid (Extraction|Injection) Pipe§7s.\n§aClick in air§7 to open GUI.\n§aClick on pipe§7 to insert (with §aempty hand§7 to extract).,"§6流体(抽出|インジェクション)パイプ§7のフィルター。
+§aエアをクリック§7してGUIを開きます。
+§aパイプをクリック§7して挿入します(§a空手§7で抽出します)。"
+item.indlog.item_filter.name,Pipe Item-Filter,アイテムフィルタパイプ
+item.indlog.item_filter.tip,A filter for §6Item (Extraction|Injection) Pipe§7s and §6Portable Inventory Remote Access§7.\n§aClick in air§7 to open GUI.\n§aClick on pipe§7 to insert (with §aempty hand§7 to extract).,"§6アイテム(抽出|インジェクション)パイプ§7と§6ポータブルインベントリリモートアクセス§7のフィルター。
+§aエアをクリック§7してGUIを開きます。
+§aパイプをクリック§7して挿入します(§a空手§7で抽出します)。"
+item.indlog.amount_filter.name,Pipe Quantity-Filter,パイプ数量・フィルター
+item.indlog.amount_filter.tip,A filter for both Fluid and Item §6Pipe§7s that controls transfered amounts.\n§aClick in air§7 to open GUI.\n§aClick on pipe§7 to insert (with §aempty hand§7 to extract).,"流体とアイテム両方の§6パイプ§7の転送量を制御するフィルター。
+§aエアをクリック§7してGUIを開きます。
+§aパイプをクリック§7して挿入します(§a空手§7で抽出します)。"
+item.indlog.property_filter.name,Pipe Item-Content-Filter,パイプ アイテムコンテンツフィルタ
+item.indlog.property_filter.tip,"A filter for §6Item (Extraction|Injection) Pipe§7s that\nchecks for durability, stored liquid amount or energy. \n§aClick in air§7 to open GUI.\n§aClick on pipe§7 to insert (with §aempty hand§7 to extract).","§6アイテム(抽出|インジェクション)パイプ§7のフィルター。
+ダメージ、保存されている液体の量、またはエネルギーをチェックします。
+§aエアをクリック§7してGUIを開きます。
+§aパイプをクリック§7して挿入します(§a空手§7で抽出します)。"
+item.indlog.name_filter.name,Pipe Name/ID-Filter,パイプ名/IDフィルター
+item.indlog.name_filter.tip,A filter for both Fluid and Item §6Pipe§7s that\nmatches the name of transfered resources against a regular expression.\n§aClick in air§7 to open GUI.\n§aClick on pipe§7 to insert (with §aempty hand§7 to extract).,"流体とアイテム両方の§6パイプ§7のフィルター。
+転送されるリソースの名前を正規表現と照合します。
+§aエアをクリック§7してGUIを開きます。
+§aパイプをクリック§7して挿入します(§a空手§7で抽出します)。"
+item.indlog.portable_craft.name,Portable Autocrafter,持ち運び自動クラフト機
+item.indlog.portable_craft.tip,Convenient portable crafting device with\nsingle batch processing and stock-keeping ability.\n§aClick§7 to open GUI.,"シングルバッチ処理と在庫管理機能を備えた
+便利なポータブルクラフティングデバイス。
+§aクリック§7してGUIを開きます。"
+item.indlog.remote_inv.name,Portable Inventory Remote Access,ポータブルインベントリ遠隔アクセス
+item.indlog.remote_inv.tip,Allows you to remotely access a block's inventory and automatically transfers items between it and your own inventory.\n§aSneak-click block face§7 to link.\n§aClick in air§7 to open GUI.,"ブロックのインベントリにリモートでアクセスでき、そのインベントリと自分のインベントリの間でアイテムを自動的に転送できます。
+§aスニーク+ブロック面をクリック§7してリンクします。
+§aエアをクリック§7してGUIを開きます。"
+cd4017be.inv_con.noLink,Not Linked!,リンクされていません!
+cd4017be.inv_con.link,Linked to %s @ %s,%s @ %s にリンク済み
+cd4017be.placer.cfg,"Placing items with relative position [%.1f, %.1f, %.1f], orientation [yaw=%.0f° pitch=%.0f°] and sneak=%s.","相対位置[%.1f, %.1f, %.1f]、向き[ヤー=%.0f° ピッチ=%.0f°]、スニーク=%sでアイテムを配置します。"
+sensor.indlog.item_filter,filtered\nItem Count,フィルタ\\nアイテム数
+sensor.indlog.fluid_filter,filtered\nFluid Amount [mB],フィルター\\n液体量 [mB]
+gui.indlog.tank.name,Tank,タンク
+gui.indlog.buffer.name,Item Buffer,アイテムバッファ
+gui.indlog.auto_craft.name,Automatic Crafter,自動クラフター
+gui.indlog.fluid_outlet.name,Outlet,出力口
+gui.indlog.fluid_intake.name,Intake,入力口
+gui.indlog.drop_interface.name,Range Settings,範囲設定
+gui.indlog.portable_craft.name,Crafting Pattern,クラフトパターン
+gui.indlog.remote_inv.name,Linked Remote Inventory,リンクされたリモートインベントリ
+gui.indlog.fluid_filter.name,Fluid-Filter Settings,流体フィルタ設定
+gui.indlog.item_filter.name,Item-Filter Settings,アイテムフィルタ設定
+gui.indlog.amount_filter.name,Settings,設定
+gui.indlog.property_filter.name,Settings,設定
+gui.indlog.name_filter.name,Pattern Configuration,パターン設定
+gui.cd4017be.filter.infoF,Behavior\nStock-keeping\nUniversal Pipes@advUniversal,行動\n在庫管理\nユニバーサルパイプ@advUniversal
+gui.cd4017be.filter.infoF0,"§7Extraction pipes only extract fluids out of connected tanks if they match the filter.\n§7With injection pipes, only fluids that match the filter are filled into connected tanks (if possible), anything else is directly passed on to the next pipe. If not all of the fluid could be inserted then according to the setting it is either passed on to the next pipe or any further transfer will be blocked until it is fully inserted into the connected Tanks.","§7抽出パイプはフィルターにマッチする場合のみ接続されたタンクから流体を抽出します。
+§7インジェクションパイプでは、フィルターにマッチする流体のみが接続されたタンクに充填され(可能な場合)、その他はすべて次のパイプに直接渡されます。すべての流体が挿入できない場合、設定に応じて次のパイプに渡されるか、接続されたタンクに完全に挿入されるまで転送がブロックされます。"
+gui.cd4017be.filter.infoF1,§7This function allows you to only fill tanks up to a certain maximum amount or ensures that a certain minimum fluid amount is left over in tanks when draining.,§7この機能により、タンクを一定の最大量まで満たすか、排液時にタンクに一定の最小流体量を残すことのみが可能になります。
+gui.cd4017be.filter.infoI,Behavior\nStock-keeping\nUniversal Pipes@advUniversal,行動\n在庫管理\nユニバーサルパイプ@advUniversal
+gui.cd4017be.filter.infoI0,"§7Extraction pipes only extract items out of connected inventories if they match the filter.\n§7With injection pipes, only items that match the filter are filled into connected inventories (if possible), anything else is directly passed on to the next pipe. If not all of the items could be inserted then according to the setting they are either passed on to the next pipe or any further transfer will be blocked until they are fully inserted into the connected inventories.","§7抽出パイプはフィルターにマッチする場合のみ接続されたインベントリからアイテムを抽出します。
+§7インジェクションパイプでは、フィルターにマッチするアイテムのみが接続されたインベントリに挿入され(可能な場合)、その他はすべて次のパイプに直接渡されます。すべてのアイテムが挿入できない場合、設定に応じて次のパイプに渡されるか、接続されたインベントリに完全に挿入されるまで転送がブロックされます。"
+gui.cd4017be.filter.infoI1,§7This function allows you to fill items into inventories only up to a certain maximum amount or ensures that a certain minimum amount of these items is left over in the inventory when extracting.\n§7If this setting is used in combination with the blacklist setting then the listed items are still stock kept whereas all non listed items have unlimited transfer.,"§7この機能により、アイテムをインベントリに一定の最大量までのみ満たすか、抽出時にインベントリにこれらのアイテムの最小量を残すことが可能になります。
+§7この設定がブラックリスト設定と組み合わせて使用される場合、リストされたアイテムは依然として在庫管理されますが、リストされていないすべてのアイテムは無制限転送があります。"
+gui.cd4017be.advUniversal,"§7The filter allows you to set the destination priority for injective connections (connections without filter have priority 0). It will first serve the destination with the highest priority and then goes on with the next lower priority until all left overs are used up. Where the effect of the ""send further"" or ""keep here"" setting is similar to that on normal injection pipes\n§7On extractive connections the specified priority only has an effect if the ""keep here"" setting is used. In this case it will skip all destinations that have a higher priority than the one specified which can be useful if you want multiple channels that are separated. Example:\n§2Dest priority§7:    5 > 4 | 3 | 2 > 1 > 0\n§4Start priority§7:5^      3^  2^","§7フィルターにより、注入接続の終点優先度を設定できます(フィルターなしの接続は優先度0です)。最初に最高優先度の終点にサービスを提供し、その後優先度が低い次のものへと進み、すべての余りが使い果たされるまで続きます。「さらに送信」または「ここに保持」設定の効果は通常の注入パイプと同様です
+§7抽出接続では、指定された優先度は「ここに保持」設定が使用される場合のみ効果があります。この場合、指定されたものより高い優先度を持つすべての終点をスキップします。これは複数のチャネルを分離したい場合に便利です。例:
+§2終点優先度§7:    5 > 4 | 3 | 2 > 1 > 0
+§4開始優先度§7:5^      3^  2^"
+gui.cd4017be.filter.infoA,Behavior\nUniversal Pipes@advUniversal,動作\\nユニバーサルパイプ@advUniversal
+gui.cd4017be.filter.infoA0,"§7Extraction pipes will only extract the given amount of resource at a time. In 'enforcement' mode only resources with enough amount available are taken whereas in 'limit' mode the most abundant is chosen if none has enough.\n§7With injection pipes in 'limit' mode the given amount is inserted into each connected tank/inventory (if possible) and the remainder passed on whereas in 'enforcement' mode injection only happens if the target has enough room for the given amount, otherwise the resource will stay there and also not be passed on.","§7抽出パイプは一度に指定された量のリソースのみ抽出します。「強制」モードでは十分な量が利用可能なリソースのみが取られますが、「制限」モードでは十分なリソースがない場合は最も豊富なものが選ばれます。
+§7インジェクションパイプの「制限」モードでは、指定された量が各接続されたタンク/インベントリに挿入され(可能な場合)、余りが渡されますが、「強制」モードでは指定された量に対してターゲットに十分なスペースがある場合のみ注入が発生し、そうでない場合リソースはそこに留まり、渡されません。"
+gui.cd4017be.filter.infoN,Regular Expressions\nCharacter classes\nQuantifiers\nConstructs,正規表現\\n文字クラス\\n量指定子\\n構文
+gui.cd4017be.filter.infoN0,"§7This filter works by checking the name (or resource ID) of the passed item/fluid against a regular expression pattern. Depending on setting the name must either match completely or just contain a sub sequence that does.\n§7Regular expressions are essentially just super advanced wildcards. The most usefull §3control characters§7 are listed in the following pages for convenience, more details can be easyly found in the internet since it's a world wide standart.\n§7By the way: the §9JEI§7 searchbar uses them, too.","§7このフィルターは、渡されたアイテム/流体の名前(またはリソースID)を正規表現パターンと照合することで機能します。設定に応じて、名前は完全に一致するか、含まれるサブシーケンスのいずれかが必要です。
+§7正規表現は基本的に非常に高度なワイルドカードです。最も便利な§3制御文字§7は以下のページに便宜上記載されており、より詳細な情報はインターネットで簡単に見つけることができます。それは世界中の標準だからです。
+§7ちなみに、§9JEI§7の検索バーもそれらを使用します。"
+gui.cd4017be.filter.infoN1,"§4x§7 -> §4x§7 (for non control characters)\n§3\\§4x§7 -> §4x§7 to quote control characters\n§3[§4abc§3]§7 -> §4a§7, §4b§7 or §4c\n§3[^§4abc§3]§7 -> any char except §4a§7, §4b§7 or §4c\n§3[A-Za-z]§7 -> any char in range A-Z or a-z\n§3[§4...§3&&§e...§3]§7 -> any char that matches both §4...§7 and §e...§7\n§3.§7 -> any char\n§3\\d§7 -> any digit char: §3[0-9]\n§3\\D§7 -> any non digit char: §3[^0-9]\n§3\\s§7 -> any whitespace\n§3\\S§7 -> any non whitespace\n§3\\w§7 -> any word char: §3[a-zA-Z0-9_]\n§3\\W§7 -> any non word char: §3[^\\w]","§4x§7 -> §4x§7 (制御以外の文字の場合)
+§3\§4x§7 -> §4x§7 制御文字を引用する場合
+§3[§4abc§3]§7 -> §4a§7、§4b§7、または§4c
+§3[^§4abc§3]§7 -> §4a§7、§4b§7、§4c§7以外の任意の文字
+§3[A-Za-z]§7 -> A-ZまたはA-zの範囲内の任意の文字
+§3[§4...§3&&§e...§3]§7 -> §4...§7と§e...§7の両方にマッチする任意の文字
+§3.§7 -> 任意の文字
+§3\d§7 -> 任意の数字: §3[0-9]
+§3\D§7 -> 任意の非数字: §3[^0-9]
+§3\s§7 -> 任意の空白
+§3\S§7 -> 任意の非空白
+§3\w§7 -> 任意の単語文字: §3[a-zA-Z0-9_]
+§3\W§7 -> 任意の非単語文字: §3[^\w]"
+gui.cd4017be.filter.infoN2,"§4X§3?§7 -> §4X§7, once or not at all\n§4X§3*§7 -> §4X§7, zero or more times\n§4X§3+§7 -> §4X§7, one or more times\n§4X§3{§en§3}§7 -> §4X§7, exactly §en§7 times\n§4X§3{§en§3,}§7 -> §4X§7, at least §en§7 times\n§4X§3{§en§3,§em§3}§7 -> §4X§7, at least §en§7 but not more than §em§7 times","§4X§3?§7 -> §4X§7、1回以下
+§4X§3*§7 -> §4X§7、0回以上
+§4X§3+§7 -> §4X§7、1回以上
+§4X§3{§en§3}§7 -> §4X§7、正確に§en§7回
+§4X§3{§en§3,}§7 -> §4X§7、少なくとも§en§7回
+§4X§3{§en§3,§em§3}§7 -> §4X§7、少なくとも§en§7回以上§em§7回未満"
+gui.cd4017be.filter.infoN3,"§4...§e...§7 -> §4...§7 followed by §e...\n§4...§3|§e...§7 -> either §4...§7 or §e...\n§3(§4...§3)§7 -> §4...§7, as capturing group\n§3\\§en§7 -> whatever the §en§7-th capturing group matched\n§3\\Q§4...§3\\E§7 -> quotes all chars in §4...","§4...§e...§7 -> §4...§7の後に§e...§7が続く
+§4...§3|§e...§7 -> §4...§7または§e...§7のいずれか
+§3(§4...§3)§7 -> §4...§7、キャプチャグループとして
+§3\§en§7 -> §en§7番目のキャプチャグループがマッチしたもの
+§3\Q§4...§3\E§7 -> §4...§7のすべての文字を引用します"
+gui.cd4017be.filter.rs0,Always active,常にアクティブ
+gui.cd4017be.filter.rs2,Active with signal,信号でアクティブ
+gui.cd4017be.filter.rs3,Active without signal,信号なしで有効
+gui.cd4017be.filter.state,"include ,exclude ,dmg ,nbt ,ore ,keep ,rs=ON,rs=OFF,full ,name ,ID ,> ,<= ,*cap ,%.3g ,durability ,energy ,fluid","含める,除外する,ダメージ,NBT,鉱石,保持,rs=ON,rs=OFF,満杯,名前,ID,>,<=,*機能,%.3g,耐久性,エネルギー,流体"
+gui.cd4017be.filter.stock,Stock: %s B,在庫: %s B
+gui.cd4017be.priority,Priority: %d,優先度: %d
+gui.cd4017be.filter.tryF0,Send further if can't insert,挿入できない場合はさらに送信
+gui.cd4017be.filter.tryF1,Keep matching fluids here,ここにマッチする液体を保持
+gui.cd4017be.filter.invertF0,Allow listed fluids,リストされた液体を許可
+gui.cd4017be.filter.invertF1,Restrict listed fluids,リストされた液体を制限
+gui.cd4017be.filter.try0,Send further if can't insert,挿入できない場合はさらに送信
+gui.cd4017be.filter.try1,Keep matching items here,ここで一致するアイテムを保持
+gui.cd4017be.filter.invert0,Allow listed items,リストされたアイテムを許可
+gui.cd4017be.filter.invert1,Restrict listed items,リストされたアイテムを制限
+gui.cd4017be.filter.targetF,Stocked fluid amount [B]\n0 for unlimited drain/fill,ストックされた液体量 [B]\\n無制限の排出/吸収には 0 を設定
+gui.cd4017be.filter.ore0,ignored OreDictionary identities,無視されたOreDictionaryの識別子
+gui.cd4017be.filter.ore1,use OreDictionary identities,OreDictionaryのアイデンティティを使用する
+gui.cd4017be.filter.nbt0,Ignore NBT-data,NBTデータを無視
+gui.cd4017be.filter.nbt1,Check NBT-data,NBTデータを確認
+gui.cd4017be.filter.meta0,Ignore metadata/damage,メタデータ/ダメージを無視
+gui.cd4017be.filter.meta1,Check metadata/damage,メタデータ/ダメージを確認
+gui.cd4017be.filter.targetI0,Unlimited extract/insert,無制限の抽出/挿入
+gui.cd4017be.filter.targetI1,Keep listed items stocked,リストされたアイテムを在庫に保つ
+gui.cd4017be.filter.priority,Destination priority (Universal Pipe),目的地優先度（ユニバーサルパイプ）
+gui.cd4017be.filter.tryA0,Limit transfer rate,転送速度を制限
+gui.cd4017be.filter.tryA1,Enforce stacksizes,スタックサイズを強制
+gui.cd4017be.filter.amount,Transfer stacksize [items|mB]\n0 for unlimited,スタックサイズを転送 [アイテム|mB]\n無制限は0
+gui.cd4017be.filter.am,Amount: %d,数量: %d
+gui.cd4017be.filter.regex,Pattern\nmax \\<name_filter_chars> chars.,パターン\\n最大 \\\\<name_filter_chars>文字。
+gui.cd4017be.filter.invertN0,Whitelist pattern,ホワイトリストパターン
+gui.cd4017be.filter.invertN1,Blacklist pattern,ブラックリストパターン
+gui.cd4017be.filter.tryN0,Send further if can't insert,挿入できない場合は続行する
+gui.cd4017be.filter.tryN1,Keep matching resources here,ここで一致するリソースを保持する
+gui.cd4017be.filter.textSrc0,Use displayed name,表示名を使用
+gui.cd4017be.filter.textSrc1,"Use resource id\n(§emodId§7:§eitemId§7#§edmg§f for items)\n(§7lava§f, §7water§f, etc. for fluids)",リソースIDを使用してください\n(§emodId§7:§eitemId§7#§edmg§f アイテム用)\n(§7lava§f、§7water§f など 流体用)
+gui.cd4017be.filter.fullTxt0,Find pattern in name anywhere,名前のどこにでもパターンを探す
+gui.cd4017be.filter.fullTxt1,Fully match name against pattern,名前を完全にパターンと一致させる
+gui.cd4017be.filter.type0,Tool durability,ツール耐久値
+gui.cd4017be.filter.type1,Forge energy,鍛冶のエネルギー
+gui.cd4017be.filter.type2,Liquid amount,液体量
+gui.cd4017be.filter.comp,Comparator,比較器
+gui.cd4017be.filter.abs0,"As absolute value\n(in units HP, FE, mB)",絶対値\\n（HP、FE、mB単位）
+gui.cd4017be.filter.abs1,Normed relative to max/cap\n(range 0.0 - 1.0),最大値／上限に対して正規化（範囲 0.0 - 1.0）
+gui.cd4017be.filter.ref,Reference value,基準値
+gui.cd4017be.pattern,Pattern: §e%s,パターン: §e%s
+gui.cd4017be.tank.lock0,Fluid type unlocked,液体の種類が解禁
+gui.cd4017be.tank.lock1,Fluid type locked,液体タイプロック
+gui.cd4017be.tank.dir0,Drain fluid containers,液体容器から液体を抽出
+gui.cd4017be.tank.dir1,Fill fluid containers,液体容器を満たす
+gui.cd4017be.tank.del0,Delete contained fluid,容器内の液体を削除
+gui.cd4017be.tank.del1,§4Sure? It's lost forever!,§4本当？永遠に失われる！
+gui.cd4017be.tank.auto0,Free access mode,自由アクセスモード
+gui.cd4017be.tank.auto1,Automation mode\n§7max stacksize = 1\n§7extract only when done,自動化モード\n§7最大スタックサイズ = 1\n§7完了時のみ抽出
+gui.cd4017be.buffer.slots,Slot Limit:\n%d / %d,スロット制限:\\n%d / %d
+gui.cd4017be.buffer.stack,Stack size Limit:\n%d / %d,スタックサイズ制限:\\n%d / %d
+gui.cd4017be.buffer.start,starting Slot:\n%d,開始スロット：\n%d
+gui.cd4017be.buffer.side-1,default access,デフォルトアクセス
+gui.cd4017be.buffer.side0,side specific access,側面特定アクセス
+gui.cd4017be.buffer.side1,side specific access,側面特定アクセス
+gui.cd4017be.buffer.side2,side specific access,側面特定アクセス
+gui.cd4017be.buffer.side3,side specific access,側面特定アクセス
+gui.cd4017be.buffer.side4,side specific access,サイド固有アクセス
+gui.cd4017be.buffer.side5,side specific access,側面特定アクセス
+gui.cd4017be.buffer.reset,reset to\ndefault,デフォルトにリセット
+gui.cd4017be.buffer.lock0,Item types unlocked,アイテムタイプが解除
+gui.cd4017be.buffer.lock1,Item types locked,アイテムタイプロック
+gui.cd4017be.buffer.info,Size scale\nSide configuration\nSlot interaction@specialSlot,サイズスケール\\nサイド設定\\nスロット相互作用@specialSlot
+gui.cd4017be.buffer.info0,§7Using the two sliders on bottom right you can change how many slots of this inventory should be available to external automation and up to what stack size they should be filled. The Item's default stack size limit will be ignored.,§7右下の2つのスライダーを使用して、このインベントリのスロット数を外部オートメーションで利用可能にし、満たされるスタックサイズを変更できます。アイテムのデフォルトスタックサイズ制限は無視されます。
+gui.cd4017be.buffer.info1,"§7You can specify some block sides to access special regions of the inventory. To do so, select the block side to configure instead of default access (button above the sliders) and then change the slider settings.",§7デフォルトアクセスの代わりにブロック側面を選択して設定し、インベントリの特定の領域にアクセスできます(上のボタン)。その後スライダー設定を変更します。
+gui.cd4017be.craftAm,Amount to craft,クラフトする量
+gui.cd4017be.startCraft,Perform Autocrafting,自動クラフトを実行
+gui.cd4017be.autoCraft0,craft specified amount once,指定された量を一度に作成
+gui.cd4017be.autoCraft1,stock-keep specified amount in inventory,インベントリに指定された量を保持します
+gui.cd4017be.craftDmg0,Ignore damage values.\n(Crafting attempts may fail),ダメージ値を無視してください。\n（クラフト試行が失敗する場合があります）
+gui.cd4017be.craftDmg1,Exactly match damage values.,ダメージ値を正確に一致させる。
+gui.cd4017be.craftNBT0,Ignore nbt data.\n(Crafting attempts may fail),NBTデータを無視します。\n（クラフトが失敗する場合があります）
+gui.cd4017be.craftNBT1,Exactly match nbt data.,NBTデータを完全に一致させる。
+gui.cd4017be.craft.info,Crafting grid\nManual crafting\nAuto crafting,クラフトグリッド\\n手動クラフト\\n自動クラフト
+gui.cd4017be.craft.info0,§7The crafting grid slots don't contain real items they only take images of items you put in. They support dragging.\n§7Instead of clicking items into the slots directly you can also click on the surrounding grid patterns to set multiple slots at once.\n§7Crafting recipes can also be directly imported from §9JEI§7 using it's recipe transfer buttons (you don't even need all the ingredients in your inventory to do that).,"§7クラフティンググリッドスロットは実際のアイテムを含まず、入力したアイテムのイメージのみを取ります。ドラッグをサポートしています。
+§7アイテムを直接スロットにクリックする代わりに、周囲のグリッドパターンをクリックして複数のスロットを一度に設定することもできます。
+§7クラフティングレシピは§9JEI§7のレシピ転送ボタンを使用して直接インポートすることもできます(インベントリにすべての材料がなくてもそうできます)。"
+gui.cd4017be.craft.info1,"§7Click on the recipe result to directly craft §6left-click: 1 item§7, §eright-click: 8 items§7, §ashift-L-C: 1 stack§7, §bshift-R-C: as much as possible§7.\n§7It will automatically take the required ingredients from your inventory and put the result (and any by-product left overs) back. If there isn't enough space in your inventory then some of the outputs may drop on the ground.","§7レシピ結果をクリックして直接クラフトします §6左クリック: 1アイテム§7、§e右クリック: 8アイテム§7、§aシフト+左クリック: 1スタック§7、§bシフト+右クリック: 可能な限り§7.
+§7自動的にインベントリから必要な材料を取得し、結果(および副産物の余り)を戻します。インベントリに十分なスペースがない場合、一部の出力は地面に落ちる可能性があります。"
+gui.cd4017be.craft.info2,"§7There are two operating modes: In §6single process mode§7 it will craft the specified amount and then stop whereas in §6stock keeping mode§7 it will continuously try to keep up the specified amount of the crafting result in your inventory.\n§7After you've specified the operating mode and amount to craft, simply click on the green arrows to start the auto crafting process. Clicking the button again will stop it.\n§7If you don't have all the required ingredients then the process will simply use what it can find and then wait until you get more. But it will automatically stop when items where thrown on the ground because of full inventory.","§72つの動作モード があります:§6シングルプロセスモード§7ではクラフトを指定された量行い、その後停止します。一方、§6在庫管理モード§7では、クラフト結果の指定された量をインベントリに保つように継続的に試みます。
+§7動作モードと量を指定したら、緑の矢をクリックしてオートクラフティングプロセスを開始するだけです。もう一度ボタンをクリックすると停止します。
+§7必要な材料がすべてある場合、プロセスはその後、見つけることができるものを使用し、より多くを取得するまで待機します。ただし、アイテムがインベントリがいっぱいになるため地面に投げられた場合は自動的に停止します。"
+gui.cd4017be.craft.in,ingredient input side,原料入力側
+gui.cd4017be.craft.out,by-product output side,副産物出力側
+gui.cd4017be.craft.rsIn0,always active,常にアクティブ
+gui.cd4017be.craft.rsIn1,active with signal,シグナルでアクティブ
+gui.cd4017be.craft.rsOut0,don't emit redstone signals,レッドストーン信号を発信しない
+gui.cd4017be.craft.rsOut1,output signal to sides\nwith missing ingredients,欠品した材料を持って側面へ出力信号\\n
+gui.cd4017be.craft.infoB,Usage\nOperation\nRedstone Control,使用方法\\n操作\\nレッドストーン制御
+gui.cd4017be.craft.infoB0,"§7Instead of setting the actual recipe here, you just specify from which of the neighboring inventories the crafting grid slots should take their ingredients.\n§7Slots without an associated side will be empty and slots that refer to the same side will also always get the same item.\n§7Some recipes have left overs (Empty Buckets, etc.), which will by default go back into the inventory they came from. But you can also specify an extra side where to put them instead.","§7実際のレシピを設定する代わりに、隣接するインベントリのどのインベントリからクラフティンググリッドスロットが材料を取得すべきかを指定します。
+§7関連する側面のないスロットは空になり、同じ側面を参照するスロットは常に同じアイテムも取得します。
+§7レシピの中には副産物(空のバケットなど)があり、デフォルトでは来たインベントリに戻ります。ただし、代わりに別の側面を指定することもできます。"
+gui.cd4017be.craft.infoB1,"§7In order to craft, all referenced inventories must have at least one item in enough quantity that it can supply the specified amount of crafting operations.\n§7If the formed recipe is valid, it will be crafted and the result will land in the output slot (which is accessible from outside). If some of the result or any left overs couldn't be ejected then the machine will halt until it's internal buffer is empty again.","§7クラフトするには、すべての参照インベントリが、指定された数のクラフト操作を供給できるのに十分な量の少なくとも1つのアイテムを持っている必要があります。
+§7形成されたレシピが有効な場合、クラフトされ、結果は出力スロット(外部からアクセス可能)にあります。結果または副産物のいくつかが取り出せない場合、マシンはその内部バッファが再び空になるまで停止します。"
+gui.cd4017be.craft.infoB2,§7The machine can be configured to only craft things when it gets a redstone signal. Also can it be configured to emit a redstone signal into input inventories that block the current crafting process with missing ingredients.\n§7This can be used to build on-demand crafting chains of multiple Automatic Crafters or more complex redstone controlled logistic systems.,"§7マシンは、レッドストーン信号を受け取ったときにのみクラフトするように設定できます。また、クラフティングプロセスをブロックする不足している材料を持つ入力インベントリにレッドストーン信号を出力するように設定することもできます。
+§7これは複数の自動クラフターまたはより複雑なレッドストーン制御ロジスティックシステムのオンデマンドクラフティングチェーンを構築するために使用できます。"
+gui.cd4017be.inputFilter,Auto import items?,アイテムを自動インポートしますか？
+gui.cd4017be.outputFilter,Auto export items?,アイテムを自動エクスポートしますか？
+gui.cd4017be.remote.invalid,Block has no inventory!,ブロックにはインベントリがありません！
+gui.cd4017be.remote.linked,Block inventory linked,インベントリリンクをブロック
+gui.cd4017be.remote.selfAcc,You don't need this fancy device just to open your own inventory!,自分のインベントリを開くだけなら、この派手なデバイスは必要ありません！
+gui.cd4017be.remote.notFound,§cInventory doesn't exist or was unloaded!,§cインベントリが存在しないか読み込まれていません！
+gui.cd4017be.remote.scroll,Slots: %d-%d / %d,スロット: %d-%d / %d
+gui.cd4017be.remote.info,Function\nSlot interaction@specialSlot,機能\\nスロット相互作用@specialSlot
+gui.cd4017be.remote.info0,"§7The slots here act as interface to interact with the linked block's inventory. So what type of interaction is supported actually depends on the block and which face was linked.\n§7Inserting §6Item Pipe Filters§7 will make this tool automatically transfer certain items from the block to your inventory or vice versa. Here the filters stock-keeping function will always refer to the contents of your inventory.\n§7In order for this device to work, the linked block only needs to be loaded but could be arbitrarily far away or even in a different dimension.","§7ここのスロットはリンクされたブロックのインベントリと相互作用するためのインターフェースとして機能します。サポートされる相互作用のタイプは、ブロックとリンクされた側面によって異なります。
+§7§6アイテムパイプフィルター§7を挿入すると、このツールが特定のアイテムをブロックからインベントリに、またはその逆に自動的に転送します。ここでフィルターの在庫管理機能は常にインベントリの内容を参照します。
+§7このデバイスが機能するには、リンクされたブロックがロードされているだけで、任意に遠い距離にあるか、別の次元にあっても問題ありません。"
+gui.cd4017be.specialSlot,§eClick with stack on cursor to insert:\n§aright-click§7 = 1 item\n§aleft-click§7 = full stack\n§ashift-R-C§7 = all equal items in inventory instead cursor\n§ashift-L-C§7 = all equal items in inventory plus cursor\n§eClick with empty cursor to extract:\n§aleft-click§7 = 1 item\n§aright-click§7 = 8 items\n§ashift-L-C§7 = 1 stack\n§ashift-R-C§7 = all or until inventory full,"§eカーソルにスタックを持ってクリックして挿入:
+§a右クリック§7 = 1アイテム
+§a左クリック§7 = フルスタック
+§aシフト+右クリック§7 = インベントリ内のすべての同じアイテム(カーソルの代わりに)
+§aシフト+左クリック§7 = インベントリ内のすべての同じアイテム + カーソル
+§eカーソルを空にしてクリックして抽出:
+§a左クリック§7 = 1アイテム
+§a右クリック§7 = 8アイテム
+§aシフト+左クリック§7 = 1スタック
+§aシフト+右クリック§7 = すべてまたはインベントリがいっぱいになるまで"
+gui.cd4017be.fluidIO.update0,no block updates,ブロック更新なし
+gui.cd4017be.fluidIO.update1,cause block updates,ブロック更新を引き起こす
+gui.cd4017be.fluidIO.range,maximum operation range,最大操作範囲
+gui.cd4017be.fluidIO.pos,"§7>§2%s§7>§2%s§7>§2%s §7[%+4d,%+4d,%+4d]","§7>§2%s§7>§2%s§7>§2%s §7[%+4d,%+4d,%+4d]"
+gui.cd4017be.dropInterf.drop,Distance at which to\ndrop inserted items.,挿入されたアイテムを落とす距離。
+gui.cd4017be.dropInterf.front,front extend,前面延長
+gui.cd4017be.dropInterf.left,left extend,左延長
+gui.cd4017be.dropInterf.right,right extend,右側延長
+gui.cd4017be.dropInterf.down,bottom extend,下部拡張
+gui.cd4017be.dropInterf.up,top extend,上部拡張
+gui.cd4017be.dropInterf.size,w*h*d:\n%d*%d*%d,w*h*d:\\n%d*%d*%d
+gui.cd4017be.dropInterf.sizeI,total size of the area.,領域の総サイズ。

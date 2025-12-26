@@ -1,0 +1,37 @@
+﻿key,source_text,target_text
+block.littlecontraptions.barge_assembler,Barge Assembler,船の組み立て機
+entity.littlecontraptions.contraption_barge,Contraption Barge,機械船
+item.littlecontraptions.contraption_barge,Contraption Barge,機械船
+littlecontraptions.ponder.basic_assembler.header,Moving Structures using Barge Assemblers,バージアッセンブラーで構造物を移動
+littlecontraptions.ponder.basic_assembler.text_1,Powered Barge Assemblers mount attached structures to passing Contraption Barges,パワードバージアセンブラは、接続された構造物を通過するコンプレッションバージへマウントします
+littlecontraptions.ponder.basic_assembler.text_2,"Without a redstone signal, it disassembles passing barge contraptions back into blocks",レッドストーン信号なしで、通過するバージョンコントラプションをブロックへ分解します。
+littlecontraptions.ponder.basic_tug.header,Just the basics about tugs,タッグについての基本のみ
+littlecontraptions.ponder.basic_tug.text_1,Tugboats can be placed anywhere on water,タグボートは水上のどこでも設置できます。
+littlecontraptions.ponder.basic_tug.text_2,Tugboats will naturally pathfind to Tug Route waypoints,タッグボートは自然にタッグルートのウェイポイントへパスファインドします
+littlecontraptions.ponder.basic_tug.text_3,Putting the Tug Route item in the Tug will start its journey!,トグルアイテムをタッグに入れると旅が始まります！
+littlecontraptions.ponder.basic_tug.text_4,Sometimes tugboats will get stuck on corners. This is fixable by using a corner guide rail,時々タッグボートが角で詰まることがあります。コーナーガイドレールを使用すると修正できます。
+littlecontraptions.ponder.basic_tug.text_5,"If the corner guide rail is facing the wrong way, use the conductor's wrench to flip it",コーナーガイドレールが向き違いの場合、運転手のレンチで反転させてください。
+littlecontraptions.ponder.loco_dock.header,Docking the locomotive,機関車をドックする
+littlecontraptions.ponder.loco_dock.text_1,Docks can be used to stop the locomotives automatically while loading/unloading,ドックは自動的に機関車を停止させ、積み下ろし時に使用できます
+littlecontraptions.ponder.loco_dock.text_2,Every docking station needs to have one locomotive dock rails and a direct line of car dock rails,すべてのドッキングステーションには、1 本の機関車用レールと直接線状の車両用レールが必要です
+littlecontraptions.ponder.loco_dock.text_3,Train car docks can be switched from blue (wait for unloading) to orange (wait for loading) using conductor's wrench,列車用ドックは指揮官レンチを使用して、青色（荷卸し待機）からオレンジ色（積み込み待機）に切り替えることができます
+littlecontraptions.ponder.loco_dock.text_4,"To load the trains, place a hopper beside the dock",列車をロードするには、ドックの横にホッパーを置いてください。
+littlecontraptions.ponder.loco_dock.text_5,"To unload the trains, place a hopper below the rail block",列車をアンロードするには、レールブロックの下にホッパーを置きます。
+littlecontraptions.ponder.loco_dock.text_6,The locomotive will automatically wait until the whole train is loaded/unloaded,機関車は全列車が積み下ろし完了するまで自動で待機します
+littlecontraptions.ponder.loco_route.header,Locomotive routing,蒸気機関車のルート設定
+littlecontraptions.ponder.loco_route.text_1,Automatic switch tracks let you create train routes that share stretches of rail,オートスイッチトラックでレールの一部を共有する列車ルートを作成できます
+littlecontraptions.ponder.loco_route.text_2,Routes are defined by waypoints by right-clicking with the locomotive route item,ルートは、機関車ルートアイテムで右クリックしてワープポイントで定義されます
+littlecontraptions.ponder.loco_route.text_3,"The locomotive will switch the rails automatically, selecting the branch that leads to the waypoint",機関車は自動的にレールを切り替え、ウェイポイントへ導く枝路を選択します
+littlecontraptions.ponder.loco_route.text_4,"Given two waypoints, the locomotive will select a branch with the closest waypoint that has not been visited yet",2つのウェイポイントがある場合、機関車は訪問していない最も近いウェイポイントを持つ分岐を選択します
+littlecontraptions.ponder.loco_route.text_5,"When the locomotive reaches a waypoint, it is marked as visited, this resets once all waypoints the route are reached",機関車がウェイポイントに到達すると、訪問済みとしてマークされます。ルート上のすべてのウェイポイントに到達すると、このマークはリセットされます
+littlecontraptions.ponder.tag.trains,Little Logistics Locomotives,リトル・ロジスティクス・ロコモーティブ
+littlecontraptions.ponder.tag.trains.description,Small but smart locomotives!,小さいけど賢いロコモーティブ！
+littlecontraptions.ponder.tag.tugs,Little Logistics Tugs,小さな物流タック
+littlecontraptions.ponder.tag.tugs.description,Water trains with pathfinding!,パスファインディング付き水列車！
+littlecontraptions.ponder.tug_dock.header,Docking the tug,タグの係留
+littlecontraptions.ponder.tug_dock.text_1,Docks can be used to stop the tugboats automatically while loading/unloading,ドックは、積み込み/降ろし時にタッグボートを自動的に停止させるために使用できます
+littlecontraptions.ponder.tug_dock.text_2,Every docking station needs to have one tug dock block and a direct line of barge docks blocks,すべてのドッキングステーションにはタッグドックブロックとバージドックブロックの直線が必要です
+littlecontraptions.ponder.tug_dock.text_3,Barge docks can be switched from blue (wait for unloading) to orange (wait for loading) using conductor's wrench,はしけドックは指揮官レンチを使用して、青色（荷卸し待機）からオレンジ色（積み込み待機）に切り替えることができます
+littlecontraptions.ponder.tug_dock.text_4,"To load the vessels, place a hopper on top of the dock",容器をロードするには、ドック上にホッパーを置いてください。
+littlecontraptions.ponder.tug_dock.text_5,"To unload the vessels, place a hopper below the water block",容器のアンロードには、水ブロックの下にホッパーを置いてください。
+littlecontraptions.ponder.tug_dock.text_6,The tug will automatically wait until all vessels are fully loaded/unloaded,トグルはすべての船舶が完全に積み込み/降ろし完了するまで自動的に待機します。

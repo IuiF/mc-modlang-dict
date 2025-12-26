@@ -1,0 +1,20 @@
+﻿key,source_text,target_text
+config.gravelminer.client,Client,クライアント
+config.gravelminer.client.activation,Activation,アクティベーション
+config.gravelminer.client.activation.tooltip,"Defines when GravelMiner should activate. Either ALWAYS, WHEN_SNEAKING or WHEN_NOT_SNEAKING",GravelMiner がアクティブになる条件を定義します。ALWAYS、WHEN_SNEAKING、または WHEN_NOT_SNEAKING のいずれかです。
+config.gravelminer.client.isEnabled,Is Enabled,有効
+config.gravelminer.client.isEnabled.tooltip,Whether GravelMiner is currently enabled for this client (toggled via keybind),GravelMiner が現在このクライアントで有効かどうか（キー入力で切り替え）。
+config.gravelminer.common,Common,コモン
+config.gravelminer.common.gravelBlocks,Gravel Blocks,砂利ブロック
+config.gravelminer.common.gravelBlocks.tooltip,Blocks that will fall and break into items when hitting a non-solid block. Format: modid:name,非固体ブロックに衝突したときに落下してアイテムに破壊されるブロック。形式：modid:name
+config.gravelminer.common.isOptIn,Is Opt In,オプション入力
+config.gravelminer.common.isOptIn.tooltip,"If set to true, GravelMiner will only be active for users who install the mod on their clients (for use in servers).",trueに設定すると、GravelMinerはサーバー上でクライアントにModをインストールしたユーザーのみに対して有効になります。
+config.gravelminer.common.rollFlintChance,Roll Flint Chance,Flintの確率を上げる
+config.gravelminer.common.rollFlintChance.tooltip,"If set to true, gravel mined via GravelMiner will have a chance of dropping as flint (server-side only).",trueに設定すると、GravelMinerで採掘した砂利がフリントとしてドロップする可能性があります（サーバー側のみ）。
+config.gravelminer.common.triggerOnGravel,Trigger on Gravel,砂利でトリガー
+config.gravelminer.common.triggerOnGravel.tooltip,"If set to true, the mod will trigger when mining gravel as well, instead of only when mining a non-gravel block below gravel.",trueに設定すると、砂利以外のブロックの下の砂利を採掘するときだけでなく、砂利を採掘するときもModが発動します。
+config.gravelminer.title,GravelMiner,砂利掘削機
+gravelminer.toggleOff,GravelMiner: OFF,砂利掘り: 無効
+gravelminer.toggleOn,GravelMiner: ON,グラベルマイナー：ON
+key.categories.gravelminer,GravelMiner,砂利掘削機
+key.gravelminer.toggle,Toggle GravelMiner,グレイブマイナー切替

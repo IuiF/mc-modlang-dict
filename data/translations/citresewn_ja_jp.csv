@@ -1,0 +1,29 @@
+﻿key,source_text,target_text
+config.citresewn.broken_paths.title,Allow broken paths in resourcepacks,リソースパックに破損したパスを許可
+config.citresewn.broken_paths.tooltip,"Allows packs with illegal resource paths to load.
+May cause issues!",不正なリソースパスを持つパックをロードできるようにします。
+config.citresewn.cache_ms.ticks.0,REALTIME,リアルタイム
+config.citresewn.cache_ms.ticks.1,EVERY TICK,毎フレーム
+config.citresewn.cache_ms.ticks.any,EVERY %s TICKS,毎 %s タイック
+config.citresewn.cache_ms.title,Cache,キャッシュ
+config.citresewn.cache_ms.tooltip,"How often should the cit cache be refreshed.
+Higher values will give more performance.
+Lower values will make cits update faster.
+REALTIME will remove the cache entirely,
+ making items check for cits every frame.","CITキャッシュをどのくらいの頻度で更新するか。
+値が高いほどパフォーマンスが向上します。
+値が低いほどCITがより速く更新されます。
+REALTIMEはキャッシュを完全に削除し、
+アイテムがフレームごとにCITをチェックするようになります。"
+config.citresewn.configure,Configure,設定
+config.citresewn.enabled.title,Enabled,有効
+config.citresewn.enabled.tooltip,Should CIT Resewn load and inject cits from resourcepacks,CIT Resewn はリソースパックから CIT をロードして注入するべきですか
+config.citresewn.mute_errors.title,Mute loading errors,ロードエラーをミュート
+config.citresewn.mute_errors.tooltip,Should CIT Resewn not log cit errors,CIT Resewn が CIT エラーをログに出さない場合
+config.citresewn.mute_warns.title,Mute loading warnings,ローディング警告をミュート
+config.citresewn.mute_warns.tooltip,Should CIT Resewn not log cit warnings,CIT Resewnがcit警告をログに残さない方が良いですか
+config.citresewn.title,CIT Resewn Configuration,CIT再編成設定
+pack.incompatible.broken_paths,(Contains broken paths),（壊れたパスが含まれています）
+pack.incompatible.confirm.broken_paths,This pack contains broken paths and support for it may be dropped in the future. Contact pack author to remove this warning. (~ CIT Resewn),このパックには破損したパスが含まれており、将来のサポートが打ち切られる可能性があります。この警告を削除するにはパック作成者に連絡してください。(~ CIT Resewn)
+config.citresewn.citenchantment_scroll_multiplier.title,CIT Enchantment: Scroll Multiplier,CITエンチャント：スクリール倍率
+config.citresewn.citenchantment_scroll_multiplier.tooltip,General multiplier for the scroll speed of the glint textures added by enchantment CITs.,エンチャントCITによって追加されたグリントテクスチャのスクロール速度の一般倍率。

@@ -1,0 +1,182 @@
+﻿key,source_text,target_text
+_comment,Gui,Gui
+advancement.integratedterminals.craft_storage_terminal,The creation of the Storage Terminal,ストレージターミナルの作成
+advancement.integratedterminals.craft_storage_terminal.desc,Craft a Storage Terminal,ストレージターミナルをクラフト
+advancement.integratedterminals.filter_enchantable,Dynamic Storage Terminal Filtering,ダイナミックストレージターミナルフィルタリング
+advancement.integratedterminals.filter_enchantable.desc,Dynamically filter enchantable items in the Storage Terminal using a Variable,変数を使用してストレージターミナルでエンチャント可能なアイテムを動的にフィルタリング
+advancement.integratedterminals.gui_storage_terminal,GUI Simulator 9000,GUIシミュレーター9000
+advancement.integratedterminals.gui_storage_terminal.desc,Open the gui of a Storage Terminal,ストレージターミナルのguiを開く
+advancement.integratedterminals.menril_glass,The Glass of Illumination,発光のガラス
+advancement.integratedterminals.menril_glass.desc,Dry Menril Resin onto Glass to obtain Menril Glass.,ガラスの上にメンリル樹脂を乾燥させてメンリルガラスを取得します。
+block.integratedterminals.chorus_glass,Chorus Glass,コーラスガラス
+block.integratedterminals.chorus_glass.info,Passable glass,通過可能なガラス
+block.integratedterminals.menril_glass,Menril Glass,メンリルガラス
+block.integratedterminals.menril_glass.info,Illuminating glass,発光ガラス
+general.integratedterminals.description,Terminals for managing and overviewing Integrated Dynamics networks.,統合ダイナミクスネットワークを管理・監視するためのターミナル。
+gui.integratedterminals.amount,Amount,数量
+gui.integratedterminals.channel,Channel,チャンネル
+gui.integratedterminals.craftingplan.status,Status: %s,ステータス: %s
+gui.integratedterminals.craftingplan.status.crafting,Crafting,クラフト
+gui.integratedterminals.craftingplan.status.crafting.desc,"Job started, waiting for outputs",ジョブが開始され、出力待機中
+gui.integratedterminals.craftingplan.status.error,Error,エラー
+gui.integratedterminals.craftingplan.status.error.desc,Unknown error,不明なエラー
+gui.integratedterminals.craftingplan.status.finished,Finished,完了
+gui.integratedterminals.craftingplan.status.finished.desc,"Job completed, outputs have been received",ジョブが完了し、出力が受信されました
+gui.integratedterminals.craftingplan.status.invalid,Invalid,無効
+gui.integratedterminals.craftingplan.status.invalid.desc,Missing storage ingredients,ストレージに材料がありません
+gui.integratedterminals.craftingplan.status.invalid_inputs,Recipe Not Allowed,レシピが許可されていません
+gui.integratedterminals.craftingplan.status.invalid_inputs.desc,Recipe inputs could not be inserted into the crafting target,レシピ入力をクラフティングターゲットに挿入できませんでした
+gui.integratedterminals.craftingplan.status.pending_dependencies,Pending Dependencies,保留中の依存関係
+gui.integratedterminals.craftingplan.status.pending_dependencies.desc,Waiting for dependencies to finish,依存関係が完了するのを待機中
+gui.integratedterminals.craftingplan.status.pending_inputs,Pending Inputs,保留中の入力
+gui.integratedterminals.craftingplan.status.pending_inputs.desc,Missing input ingredients,入力材料がありません
+gui.integratedterminals.craftingplan.status.queueing,Queueing,キューイング
+gui.integratedterminals.craftingplan.status.queueing.desc,Waiting for other jobs to finish,他のジョブが完了するのを待機中
+gui.integratedterminals.craftingplan.status.unstarted,Valid,有効
+gui.integratedterminals.craftingplan.status.unstarted.desc,Not started yet,まだ開始していません
+gui.integratedterminals.terminal_crafting_job.craftingplan.cancel,Cancel Job,ジョブをキャンセル
+gui.integratedterminals.terminal_crafting_job.craftingplan.cancel_all,Cancel All Jobs,すべてのジョブをキャンセル
+gui.integratedterminals.terminal_crafting_job.craftingplan.crafting_channel,Channel: %s,チャネル: %s
+gui.integratedterminals.terminal_crafting_job.craftingplan.dependencies,Size: %s,サイズ: %s
+gui.integratedterminals.terminal_crafting_job.craftingplan.duration,Duration: %s,期間: %s
+gui.integratedterminals.terminal_crafting_job.craftingplan.empty,Empty crafting job,空のクラフティングジョブ
+gui.integratedterminals.terminal_crafting_job.craftingplan.owner,Owner: %s,所有者: %s
+gui.integratedterminals.terminal_storage.channel,Chan:,チャネル:
+gui.integratedterminals.terminal_storage.craft,craft,クラフト
+gui.integratedterminals.terminal_storage.crafting,Crafting: %s,クラフト: %s
+gui.integratedterminals.terminal_storage.crafting.filter,Crafting filter,クラフティングフィルター
+gui.integratedterminals.terminal_storage.crafting.filter.type.all,§oBoth,§o両方
+gui.integratedterminals.terminal_storage.crafting.filter.type.craftable,§aCraftable,§aクラフト可能
+gui.integratedterminals.terminal_storage.crafting.filter.type.storage,§aStorage,§aストレージ
+gui.integratedterminals.terminal_storage.crafting_name,%s Crafting,%s クラフティング
+gui.integratedterminals.terminal_storage.craftinggrid.autorefill,Auto-refill Crafting Grid,クラフティンググリッドを自動リフィル
+gui.integratedterminals.terminal_storage.craftinggrid.autorefill.info,Automatically refill the Crafting Grid after crafting,クラフティング後にクラフティンググリッドを自動的にリフィル
+gui.integratedterminals.terminal_storage.craftinggrid.autorefill.type.disabled,§oDisabled,§o無効
+gui.integratedterminals.terminal_storage.craftinggrid.autorefill.type.player,§aSource: Player,§aソース: プレイヤー
+gui.integratedterminals.terminal_storage.craftinggrid.autorefill.type.player_storage,"§aSource: Player, Network",§aソース: プレイヤー、ネットワーク
+gui.integratedterminals.terminal_storage.craftinggrid.autorefill.type.storage,§aSource: Network,§aソース: ネットワーク
+gui.integratedterminals.terminal_storage.craftinggrid.autorefill.type.storage_player,"§aSource: Network, Player",§aソース: ネットワーク、プレイヤー
+gui.integratedterminals.terminal_storage.craftinggrid.balance,Balance Crafting Grid,クラフティンググリッドをバランス
+gui.integratedterminals.terminal_storage.craftinggrid.balance.info,Equally distribute equal items over slots,等しいアイテムをスロット上に均等に分散
+gui.integratedterminals.terminal_storage.craftinggrid.clear,Clear Crafting Grid into storage,クラフティンググリッドをストレージにクリア
+gui.integratedterminals.terminal_storage.craftinggrid.clear.info,Shift-click to clear into player inventory,シフト+クリックでプレイヤーインベントリにクリア
+gui.integratedterminals.terminal_storage.craftingplan.label.failed.incomplete,Crafting plan - Incomplete,クラフティングプラン - 不完全
+gui.integratedterminals.terminal_storage.craftingplan.label.failed.insufficient_crafting_interfaces,Crafting plan - Insufficient Crafting Interfaces,クラフティングプラン - クラフティングインターフェース不足
+gui.integratedterminals.terminal_storage.craftingplan.label.failed.recursion,Crafting plan - Recursive recipe detected!,クラフティングプラン - 再帰的レシピが検出されました!
+gui.integratedterminals.terminal_storage.craftingplan.label.running,Crafting plan - Running,クラフティングプラン - 実行中
+gui.integratedterminals.terminal_storage.craftingplan.label.valid,Crafting plan - Valid,クラフティングプラン - 有効
+gui.integratedterminals.terminal_storage.missing,Missing: %s,不足: %s
+gui.integratedterminals.terminal_storage.setdefaults,Mark as default settings,デフォルト設定としてマーク
+gui.integratedterminals.terminal_storage.setdefaults.info,Use current settings for new terminals.,新しいターミナルに現在の設定を使用してください。
+gui.integratedterminals.terminal_storage.sort,Sort,ソート
+gui.integratedterminals.terminal_storage.sort.fluidstack.id,Fluid ID,液体ID
+gui.integratedterminals.terminal_storage.sort.fluidstack.id.info,Sort by internal fluid registry ID.,内部液体レジストリIDでソート。
+gui.integratedterminals.terminal_storage.sort.fluidstack.name,Fluid Name,液体名
+gui.integratedterminals.terminal_storage.sort.fluidstack.name.info,Sort by fluid name.,液体名でソート。
+gui.integratedterminals.terminal_storage.sort.fluidstack.quantity,Fluid Amount,流体の量
+gui.integratedterminals.terminal_storage.sort.fluidstack.quantity.info,Sort by amount of mB.,mBの量でソート。
+gui.integratedterminals.terminal_storage.sort.itemstack.id,Item ID,アイテムID
+gui.integratedterminals.terminal_storage.sort.itemstack.id.info,Sort by internal item registry ID.,内部アイテムレジストリIDでソート。
+gui.integratedterminals.terminal_storage.sort.itemstack.name,Item Name,アイテム名
+gui.integratedterminals.terminal_storage.sort.itemstack.name.info,Sort by item name.,アイテム名でソート。
+gui.integratedterminals.terminal_storage.sort.itemstack.quantity,Item Amount,アイテム量
+gui.integratedterminals.terminal_storage.sort.itemstack.quantity.info,Sort by item stack size.,アイテムスタックサイズでソート。
+gui.integratedterminals.terminal_storage.sort.order.ascending,Ascending,上昇
+gui.integratedterminals.terminal_storage.sort.order.descending,Descending,降順
+gui.integratedterminals.terminal_storage.sort.order.label,Order: %s,順序: %s
+gui.integratedterminals.terminal_storage.start_crafting_job,Start crafting job,クラフティングジョブを開始
+gui.integratedterminals.terminal_storage.step.craft,Craft,クラフト
+gui.integratedterminals.terminal_storage.step.crafting_plan_calculating,Calculating crafting plan...,クラフティングプランを計算中...
+gui.integratedterminals.terminal_storage.step.next,Next,次へ
+gui.integratedterminals.terminal_storage.storage_name,%s Storage,%s ストレージ
+gui.integratedterminals.terminal_storage.stored,Stored: %s,保存: %s
+gui.integratedterminals.terminal_storage.tooltip.energy,Energy,エネルギー
+gui.integratedterminals.terminal_storage.tooltip.energy.amount,%s FE,%s FE
+gui.integratedterminals.terminal_storage.tooltip.fluid.amount,%s mB,%s mB
+gui.integratedterminals.terminal_storage.tooltip.quantity,Quantity: %s,数量: %s
+gui.integratedterminals.terminal_storage.tooltip.requirements,Crafting Requirements:,クラフティング要件:
+info_book.integratedterminals.crafting_job_terminal,Crafting Job Terminal,クラフティングジョブターミナル
+info_book.integratedterminals.crafting_job_terminal.text1,&oNote: this section only applies if you have an autocrafting mod such as Integrated Crafting installed.&r,&oこのセクションは、統合クラフティングなどのオートクラフティングModがインストールされている場合にのみ適用されます。&r
+info_book.integratedterminals.crafting_job_terminal.text2,The &lCrafting Job Terminal&r allows you to see and cancel all running crafting jobs in the network.,&lクラフティングジョブターミナル&rは、ネットワークで実行中のすべてのクラフティングジョブを確認およびキャンセルできます。
+info_book.integratedterminals.crafting_job_terminal.text3,"When first opening the terminal gui, you will see a list of all running jobs. You can click on each job to see a more detailed overview of its status.",ターミナルguiを最初に開くときは、実行中のすべてのジョブのリストが表示されます。各ジョブをクリックして、ステータスの詳細な概要を表示できます。
+info_book.integratedterminals.crafting_job_terminal.text4,"In this gui, you will be able to see the following information of each job: remaining sub-jobs, status, duration, owner, channel. You can hover over each sub-job to get more information on its status.",このguiでは、各ジョブの次の情報を確認できます: 残りのサブジョブ、ステータス、期間、所有者、チャネル。各サブジョブをホバーしてステータスに関する詳細情報を取得できます。
+info_book.integratedterminals.introduction,Introduction,はじめに
+info_book.integratedterminals.introduction.text1,&lIntegrated Terminals&r is an extension to &lIntegrated Dynamics&r to manage and overview &lIntegrated Dynamics&r networks.,&l統合ターミナル&rは、&l統合ダイナミクス&rネットワークを管理および概観するための&l統合ダイナミクス&rの拡張です。
+info_book.integratedterminals.section.main,Terminals,ターミナル
+info_book.integratedterminals.section.tutorials,Terminal Tutorials,ターミナルチュートリアル
+info_book.integratedterminals.storage_terminal,Storage Terminal,ストレージターミナル
+info_book.integratedterminals.storage_terminal.autocrafting,Autocrafting,オートクラフト
+info_book.integratedterminals.storage_terminal.autocrafting.text1,&oNote: this section only applies if you have an autocrafting mod such as Integrated Crafting installed.&r,&oこのセクションは、統合クラフティングなどのオートクラフティングModがインストールされている場合にのみ適用されます。&r
+info_book.integratedterminals.storage_terminal.autocrafting.text2,"If your network contains crafting recipes, then you will be able to start crafting jobs right from within your &lStorage Terminal&r.",ネットワークにクラフティングレシピが含まれている場合、&lストレージターミナル&r内から直接クラフティングジョブを開始できるようになります。
+info_book.integratedterminals.storage_terminal.autocrafting.text3,"All available recipes will show up in their respective tabs and channels. Clicking on a recipe will open a gui to select the amount of times the recipe should be executed. After that, a crafting plan will be shown that lists all required or missing ingredients. After that, the job will be started. All running crafting jobs will be visible in the &lCrafting Job Terminal&r.",利用可能なすべてのレシピはそれぞれのタブとチャネルに表示されます。レシピをクリックするとguiが開き、レシピを実行する回数を選択できます。その後、必要または不足している材料をリストしたクラフティングプランが表示されます。その後、ジョブが開始されます。実行中のすべてのクラフティングジョブは&lクラフティングジョブターミナル&rに表示されます。
+info_book.integratedterminals.storage_terminal.autocrafting.text4,"Power users can shift-click on recipes in the storage terminal to skip the crafting amount gui, and go immediately to the crafting plan overview.",パワーユーザーは、ストレージターミナルのレシピをシフト+クリックして、クラフティング量guiをスキップし、クラフティングプラン概要に直接移動できます。
+info_book.integratedterminals.storage_terminal.crafting,Crafting,クラフト
+info_book.integratedterminals.storage_terminal.crafting.text1,"In order to craft the &lStorage Terminal&r, you will first need a special type of self-illuminating &oglass&r, i.e., &lMenril Glass&r, which you can craft in a &lDrying Basin&r",ストレージターミナルをクラフトするには、最初に &l自己発光ガラス&r、すなわち &lメンリルガラス&r という特殊なタイプが必要です。これは &l乾燥台&r でクラフトできます
+info_book.integratedterminals.storage_terminal.crafting.text2,"In a similar way, you can craft &lChorus Glass&r, which enables entities to pass through it.",同様に、&lコーラスガラス&rをクラフトできます。これにより、エンティティがこれを通過できるようになります。
+info_book.integratedterminals.storage_terminal.introduction,Storage Terminal Introduction,ストレージターミナルの紹介
+info_book.integratedterminals.storage_terminal.introduction.text1,The &lStorage Terminal&r is a part that can be placed on a &lCable&r to enable gui-based storage management in the attached network.,&lストレージターミナル&rは、&lケーブル&rに配置できるパーツで、接続されたネットワークのgui ベースのストレージ管理を有効にします。
+info_book.integratedterminals.storage_terminal.introduction.text2,"The following sections will explain how it can be crafted, used, and power-used.",次のセクションでは、クラフト、使用、パワーユースの方法について説明します。
+info_book.integratedterminals.storage_terminal.portable,Portable Terminal,ポータブルターミナル
+info_book.integratedterminals.storage_terminal.portable.text1,"By attaching some &lCrystalized Menril Chunks&r to your &lStorage Terminal&r, you can create a portable variant of the terminal",いくつかの &l結晶化メンリルチャンク&r をあなたの &lストレージターミナル&r に取り付けることで、ターミナルのポータブル版を作成できます
+info_book.integratedterminals.storage_terminal.portable.text2,"In order to link your &lPortable Storage Terminal&r to a certain network, your network will need an &lOmni-Directional Connector&r. Linking to it can be done by just right-clicking with your &lPortable Storage Terminal&r on the &lOmni-Directional Connector&r.",&lポータブルストレージターミナル&rをある特定のネットワークにリンクするには、ネットワークに&lオムニ方向コネクタ&rが必要です。リンクは、&lポータブルストレージターミナル&rで&lオムニ方向コネクタ&rを右クリックするだけで実行できます。
+info_book.integratedterminals.storage_terminal.portable.text3,"For power users, it is possible to configure a hotkey to open the first &lPortable Storage Terminal&r that is available in your inventory.",パワーユーザーの場合、ホットキーを設定してインベントリで利用可能な最初の&lポータブルストレージターミナル&rを開くことが可能です。
+info_book.integratedterminals.storage_terminal.power_usage,Power Users,パワーユーザー
+info_book.integratedterminals.storage_terminal.power_usage.text1,"Power users tend to dislike clicking too much as it takes too much time. The &lStorage Terminal&r offers a couple of &ohotkeys&r to speed up the usage of common tasks such as selecting the search field, browsing through tabs, clearing the crafting grid, and balancing crafting grid slots. These hotkeys are listed at the end of this section.",パワーユーザーはクリックが多すぎて時間がかかるため嫌う傾向があります。&lストレージターミナル&rは、検索フィールドの選択、タブの参照、クラフティンググリッドのクリア、クラフティンググリッドスロットのバランスなど、一般的なタスクを高速化する複数の&oホットキー&rを提供します。これらのホットキーはこのセクションの最後に記載されています。
+info_book.integratedterminals.storage_terminal.usage,Usage,使用方法
+info_book.integratedterminals.storage_terminal.usage.text2,"Next to viewing ingredients, you can also interact with them. Like with any inventory, this is done by clicking to pick up something, and clicking again to place something. For certain ingredient types such as energy and fluids, you will need to click on a container item when clicking in your inventory, such as batteries or tanks. Next to clicking, you can also shift-click to move in bulk.",材料の表示に加えて、それらと相互作用することもできます。任意のインベントリと同様に、これはクリックして何かを取り、再度クリックして何かを配置することで行われます。エネルギーと液体などの特定の材料タイプの場合、バッテリーやタンクなどのコンテナアイテムをクリックするときにインベントリでクリックする必要があります。クリックに加えて、シフト+クリックして一括で移動することもできます。
+info_book.integratedterminals.storage_terminal.usage.text3,"When a storage network ingredient is selected, you can increase it by a small amount by clicking on the storage network slot again. Shift-clicking will increase it with a larger amount. In the same way, you can decrease the quantity by right-clicking. The same can be done by scrolling over a storage ingredient.",ストレージネットワーク材料が選択されている場合、ストレージネットワークスロットを再度クリックして、少量増やすことができます。シフト+クリックするとより多くの量が増加します。同じ方法で、右クリックして数量を減らすことができます。ストレージ材料をスクロールしても同じことができます。
+info_book.integratedterminals.storage_terminal.usage.text4,"When a storage network ingredient is selected, you can move a small quantity by right-clicking, everything that is held by left-clicking, and the half of what is held by middle-clicking.",ストレージネットワーク材料が選択されている場合、右クリックで少量を移動でき、左クリックで保持しているすべてを移動でき、中央クリックで保持している量の半分を移動できます
+info_book.integratedterminals.storage_terminal.usage.text5,"Via the left-hand buttons, you can toggle through different sorting options, such as ordering by name and quantity.",左側のボタン経由で、名前と数量による順序付けなど、さまざまなソートオプションを切り替えることができます。
+info_book.integratedterminals.storage_terminal.usage.text7,"Different prefixes are possible to define your search target. By default, you will search within the ingredient name. By prefixing the string with &o'@'&r, you can search by mod. With &o'#'&r, tooltips can be searched. Finally, &o'$'&r queries item tags. For instance, the search condition &o'$plank @minecraft'&r will show all planks added by Minecraft.",さまざまなプレフィックスを使用して、検索対象を定義できます。デフォルトでは、材料名内を検索します。&o'@'&rで文字列をプレフィックスすることで、Modで検索できます。&o'#'&rを使用すると、ツールチップを検索できます。最後に、&o'$'&rはアイテムタグをクエリします。たとえば、検索条件&o'$板 @minecraft'&rはMinecraftによって追加されたすべての板を表示します。
+info_book.integratedterminals.storage_terminal.usage.text8,"When an item storage network is available, you will also get an additional crafting tab. This is just like the item tab, but with an integrated crafting grid. It has several useful integrated functionalities, such as clearing the grid into your inventory or network, balancing the grid, and configuring the grid auto-refill behaviour after crafting.",アイテムストレージネットワークが利用可能な場合、追加のクラフティングタブも取得できます。これはアイテムタブのようなものですが、統合されたクラフティンググリッド付きです。グリッドをインベントリまたはネットワークにクリアする、グリッドのバランスを取る、クラフト後のグリッド自動補充動作を設定するなど、いくつかの便利な統合機能があります。
+info_book.integratedterminals.tutorials.introduction,Introduction,はじめに
+info_book.integratedterminals.tutorials.introduction.text1,"This section contains several tutorials that help you to learn &lIntegrated Terminals&r, the &lIntegrated Dynamics&r add-on for managing and overviewing &lIntegrated Dynamics&r networks.",このセクションには、&l統合ダイナミクス&rネットワークを管理および概観するための&l統合ダイナミクス&rアドオンである&l統合ターミナル&rの学習に役立つ複数のチュートリアルが含まれています。
+info_book.integratedterminals.tutorials.storage_terminal,Storage Terminal,ストレージターミナル
+info_book.integratedterminals.tutorials.storage_terminal.text1,"The &lStorage Terminal&r allows you to show the storage contents of the attached network and interact with its contents. Different ingredient types are available in separate tabs, and each tab can be filtered by channel, search queries and &lVariable Cards&r. They can also be sorted in various ways. Refer to the manual for further details.",&lストレージターミナル&rにより、接続されたネットワークのストレージコンテンツを表示し、コンテンツと相互作用できます。異なる材料タイプは別々のタブで利用可能であり、各タブはチャネル、検索クエリ、&l変数カード&rでフィルタリングできます。また、さまざまな方法でソートすることもできます。詳細についてはマニュアルを参照してください。
+info_book.integratedterminals.tutorials.storage_terminal.text2,"This tutorial is simple, craft &lMenril Glass&r, a &lStorage Terminal&r, and open its gui after attaching it to a network.",このチュートリアルは簡単です。&lメンリルグラス&r、&lストレージターミナル&rをクラフトし、ネットワークに接続した後、そのguiを開きます。
+info_book.integratedterminals.tutorials.storage_terminal_filtering,Storage Terminal Filtering,ストレージターミナルフィルタリング
+info_book.integratedterminals.tutorials.storage_terminal_filtering.text1,"One of the many useful features of the &lStorage Terminal&r is its ability to &ofilter&r through ingredients. In this tutorial, we will explore two different filtering methods: text-based filtering and variable-based filtering (only the second one will give you an advancement). This tutorial will use item-based storage as provided by Item Interfaces from Integrated Tunnels.",&lストレージターミナル&rの多くの有用な機能の1つは、材料を&oフィルター&rする機能です。このチュートリアルでは、2つの異なるフィルタリング方法を実装します: テキストベースのフィルタリングと変数ベースのフィルタリング(2番目のみが進捗をもたらします)。このチュートリアルは、統合トンネルのアイテムインターフェースによって提供されるアイテムベースのストレージを使用します。
+info_book.integratedterminals.tutorials.storage_terminal_filtering.text2,"For the first part of this tutorial, we will filter through items by typing in a certain string in the search field. Note that you can use a hotkey to select this search field more quickly. And if you have JEI installed, you can synchronize its contents with the JEI search field. By default, you will search within the ingredient name. By prefixing the string with &o'@'&r, you can search by mod. With &o'#'&r, tooltips can be searched. Finally, &o'$'&r queries item tags. In order to complete the first part of this tutorial, type &o'$plank @minecraft'&r into the search field to show all planks added by Minecraft.",このチュートリアルの最初の部分では、検索フィールドに特定の文字列を入力することで、アイテムをフィルタリングします。ホットキーを使用してこの検索フィールドをより迅速に選択できることに注意してください。JEIがインストールされている場合は、そのコンテンツをJEI検索フィールドと同期できます。デフォルトでは、材料名内を検索します。&o'@'&rで文字列をプレフィックスすることで、Modで検索できます。&o'#'&rを使用すると、ツールチップを検索できます。最後に、&o'$'&rはアイテムタグをクエリします。このチュートリアルの最初の部分を完成させるために、検索フィールドに&o'$板 @minecraft'&rと入力して、Minecraftによって追加されたすべての板を表示します。
+item.integratedterminals.terminal_storage_portable,Portable Storage Terminal,ポータブルストレージターミナル
+item.integratedterminals.terminal_storage_portable.info,Visually interact with the ingredients stored in the linked network. Right click on Omni-Directional Connector to link.,リンクされたネットワークに保存されている材料を視覚的に操作します。リンクするにはオムニ方向コネクタで右クリック。
+item.integratedterminals.terminal_storage_portable.status.invalid_network,The linked network could not be found,リンクされたネットワークが見つかりませんでした
+item.integratedterminals.terminal_storage_portable.status.linked,Linked to network,ネットワークにリンク
+item.integratedterminals.terminal_storage_portable.status.no_network,No network has been linked. Right click on Omni-Directional Connector to link.,ネットワークがリンクされていません。リンクするにはオムニ方向コネクタで右クリック。
+itemGroup.integratedterminals,Integrated Terminals,統合ターミナル
+key.categories.integratedterminals,Integrated Terminals,統合ターミナル
+key.integratedterminals.terminal.craftinggrid.balance,Balance Crafting Grid,クラフティンググリッドをバランス
+key.integratedterminals.terminal.craftinggrid.clearplayer,Clear Crafting Grid into Inventory,クラフティンググリッドをインベントリにクリア
+key.integratedterminals.terminal.craftinggrid.clearstorage,Clear Crafting Grid into Storage,クラフティンググリッドをストレージにクリア
+key.integratedterminals.terminal.portable.open,Open first Portable Storage Terminal,最初のポータブルストレージターミナルを開く
+key.integratedterminals.terminal.tab.next,Go to next terminal tab,次のターミナルタブに移動
+key.integratedterminals.terminal.tab.previous,Go to previous terminal tab,前のターミナルタブに移動
+parttype.integratedterminals.terminal_crafting_job,Crafting Job Terminal,クラフティングジョブターミナル
+parttype.integratedterminals.terminal_crafting_job.info,Manage and overview all crafting jobs in the network.,ネットワーク内のすべてのクラフティングジョブを管理および概観します。
+parttype.integratedterminals.terminal_crafting_job.tooltip.nohandlers,WARNING: No crafting handlers available. This will become usable when other mods such as Integrated Crafting are installed.,警告: 利用可能なクラフティングハンドラーがありません。統合クラフティングなどの他のModがインストールされた場合、これが使用可能になります。
+parttype.integratedterminals.terminal_storage,Storage Terminal,ストレージターミナル
+parttype.integratedterminals.terminal_storage.info,Visually interact with the ingredients stored in the network.,ネットワークに保存されている材料を視覚的に操作します。
+gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync,JEI Search Sync,JEI検索同期
+gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync.info,Synchronize search box with JEI.,検索ボックスをJEIと同期します。
+gui.integratedterminals.craftingplan.view.flat,Show compact,コンパクト表示
+gui.integratedterminals.craftingplan.view.tree,Show tree,ツリー表示
+gui.integratedterminals.terminal_storage.crafting.filter.info,Filter by stored or craftable ingredients,保存またはクラフト可能な材料でフィルタリング
+gui.integratedterminals.terminal_storage.scale,Grid size,グリッドサイズ
+gui.integratedterminals.terminal_storage.scale.info,Configure the size of the storage grid,ストレージグリッドのサイズを設定
+gui.integratedterminals.terminal_storage.scale.large,§aLarge,§a大
+gui.integratedterminals.terminal_storage.scale.medium,§aMedium,§a中
+gui.integratedterminals.terminal_storage.scale.scalex,§aScale width,§a幅を拡大縮小
+gui.integratedterminals.terminal_storage.scale.scalexy,§aScale height/width,§a高さ/幅を拡大縮小
+gui.integratedterminals.terminal_storage.scale.scaley,§aScale height,§a高さを拡大縮小
+gui.integratedterminals.terminal_storage.scale.small,§aSmall,§a小
+gui.integratedterminals.terminal_storage.to_craft,To Craft: %s,クラフトへ: %s
+info_book.integratedterminals.storage_terminal.usage.text10,"All terminal settings (buttons, searchboxes, tabs, ...) are persisted per player and per terminal. In order to configure what settings will be loaded for newly placed terminals, you can press the anvil button on the bottom right of your terminal gui.",すべてのターミナル設定(ボタン、検索ボックス、タブなど)はプレイヤーとターミナルごとに保持されます。新しく配置されたターミナルに読み込まれる設定を構成するには、ターミナルguiの右下にある金床ボタンを押します。
+info_book.integratedterminals.storage_terminal.usage.text6,"Using the search box, you can filter the displayed ingredients by name. Deeper searching through results can be done by define further parameters separated by space. &oor&r-conditions can be defined with '|'.",検索ボックスを使用して、表示される材料を名前でフィルタリングできます。結果をより詳しく検索するには、スペースで区切られたさらなるパラメータを定義することで実行できます。&oor&r-条件は「|」で定義できます。
+gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync,EMI Search Sync,EMI検索同期
+gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync.info,Synchronize search box with EMI.,検索ボックスをEMIと同期します。
+gui.integratedterminalscompat.terminal_storage.craftinggrid.reisync,REI Search Sync,REI検索同期
+gui.integratedterminalscompat.terminal_storage.craftinggrid.reisync.info,Synchronize search box with REI.,検索ボックスをREIと同期します。
+gui.integratedterminalscompat.terminal_storage.jei.transfer.craft.info,Ctrl+click to trigger auto-crafting,Ctrl+クリックでオートクラフティングをトリガー
+gui.integratedterminalscompat.terminal_storage.jei.transfer.craft.info_cmd,Cmd+click to trigger auto-crafting,Cmd+クリックでオートクラフティングをトリガー
+gui.integratedterminalscompat.terminal_storage.jei.transfer.craftable,Auto-craftable items,オートクラフト可能なアイテム
+gui.integratedterminalscompat.terminal_storage.jei.transfer.craftable_partial,Partially auto-craftable items,部分的にオートクラフト可能なアイテム
+gui.integratedterminalscompat.terminal_storage.jei.transfer.missing,Missing items,不足しているアイテム

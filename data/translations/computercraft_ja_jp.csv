@@ -1,0 +1,384 @@
+﻿key,source_text,target_text
+argument.computercraft.argument_expected,Argument expected,引数が期待される
+argument.computercraft.computer.distance,Distance to entity,エンティティまでの距離
+argument.computercraft.computer.family,Computer family,コンピューターの種類
+argument.computercraft.computer.id,Computer ID,コンピューター ID
+argument.computercraft.computer.instance,Unique instance ID,一意のインスタンス ID
+argument.computercraft.computer.label,Computer label,コンピューターラベル
+argument.computercraft.computer.many_matching,Multiple computers matching '%s' (instances %s),'%s'に一致する複数のコンピューター (インスタンス %s)
+argument.computercraft.computer.no_matching,No computers matching '%s','%s'に一致するコンピュータはありません
+argument.computercraft.tracking_field.no_field,Unknown field '%s','%s'は未知のフィールドです
+argument.computercraft.unknown_computer_family,Unknown computer family '%s',不明なコンピューターの種類 '%s'
+block.computercraft.cable,Networking Cable,ネットワークケーブル
+block.computercraft.computer_advanced,Advanced Computer,先進型コンピュータ
+block.computercraft.computer_command,Command Computer,コマンドコンピュータ
+block.computercraft.computer_normal,Computer,コンピューター
+block.computercraft.disk_drive,Disk Drive,ディスクドライブ
+block.computercraft.monitor_advanced,Advanced Monitor,高度なモニター
+block.computercraft.monitor_normal,Monitor,モニター
+block.computercraft.printer,Printer,プリンター
+block.computercraft.redstone_relay,Redstone Relay,レッドストーンリレー
+block.computercraft.speaker,Speaker,スピーカー
+block.computercraft.turtle_advanced.upgraded,Advanced %s Turtle,高度な%sタートル
+block.computercraft.turtle_advanced.upgraded_twice,Advanced %s %s Turtle,進化版 %s %s タートル
+block.computercraft.turtle_normal,Turtle,タートル
+block.computercraft.turtle_normal.upgraded,%s Turtle,%s タートル
+block.computercraft.turtle_normal.upgraded_twice,%s %s Turtle,%s %s タートル
+block.computercraft.wired_modem,Wired Modem,有線モデム
+block.computercraft.wired_modem_full,Wired Modem,有線モデム
+block.computercraft.wireless_modem_advanced,Ender Modem,エンダーモデム
+block.computercraft.wireless_modem_normal,Wireless Modem,ワイヤレスモデム
+chat.computercraft.wired_modem.peripheral_connected,"Peripheral ""%s"" connected to network","周辺の""%s""のネットワークに接続されました"
+chat.computercraft.wired_modem.peripheral_disconnected,"Peripheral ""%s"" disconnected from network","周辺の""%s""のネットワークから切断されました"
+commands.computercraft.desc,The /computercraft command provides various debugging and administrator tools for controlling and interacting with computers.,/computercraft コマンドは、コンピュータとの制御および対話するためのさまざまなデバッグツールと管理者ツールを提供します。
+commands.computercraft.dump.action,View more info about this computer,このコンピュータの詳細を表示します
+commands.computercraft.dump.open_path,View this computer's files,このコンピュータのファイルを表示します
+commands.computercraft.dump.synopsis,Display the status of computers.,コンピュータの状態を表示します。
+commands.computercraft.generic.additional_rows,%d additional rows…,%d行を追加…
+commands.computercraft.generic.exception,Unhandled exception (%s),未処理の例外 (%s)
+commands.computercraft.generic.no,N,いいえ
+commands.computercraft.generic.yes,Y,はい
+commands.computercraft.help.desc,Displays this help message,このヘルプメッセージを表示します
+commands.computercraft.help.no_children,%s has no sub-commands,%s にサブコマンドはありません
+commands.computercraft.help.no_command,No such command '%s',%s というコマンドはありません
+commands.computercraft.help.synopsis,Provide help for a specific command,特定のコマンドのヘルプを提供します
+commands.computercraft.queue.desc,"Send a computer_command event to a command computer, passing through the additional arguments. This is mostly designed for map makers, acting as a more computer-friendly version of /trigger. Any player can run the command, which would most likely be done through a text component's click event.",追加の引数を通す computer_command イベントをコマンドコンピューターに送信します。これは主にマップメーカーのために設計されており、よりコンピュータフレンドリーバージョンの/trigger として機能します。どのプレイヤーでもコマンドを実行できます。これはテキストコンポーネントのクリックイベントを介して行われる可能性があります。
+commands.computercraft.queue.synopsis,Send a computer_command event to a command computer,computer_command イベントをコマンドコンピューターに送信します
+commands.computercraft.shutdown.done,Shutdown %s/%s computers,%s/%s コンピューターをシャットダウンしました
+commands.computercraft.shutdown.synopsis,Shutdown computers remotely.,コンピュータをリモートでシャットダウンする。
+commands.computercraft.synopsis,Various commands for controlling computers.,コンピュータを制御するためのさまざまなコマンド。
+commands.computercraft.tp.action,Teleport to this computer,このコンピューターへテレポートします
+commands.computercraft.tp.desc,Teleport to the location of a computer. You can either specify the computer's instance id (e.g. 123) or computer id (e.g #123).,コンピュータの場所にテレポート。コンピュータのインスタンスID(例えば 123)またはコンピュータID(例えば #123)を指定できます。
+commands.computercraft.tp.synopsis,Teleport to a specific computer.,特定のコンピュータにテレポート。
+commands.computercraft.track.desc,"Track how long computers execute for, as well as how many events they handle. This presents information in a similar way to /forge track and can be useful for diagnosing lag.",コンピューターの実行時間と処理するイベント数を追跡します。この情報は /forge track と同様の方法で表示され、ラグを診断するのに役立ちます。
+commands.computercraft.track.dump.computer,Computer,コンピューター
+commands.computercraft.track.dump.desc,Dump the latest results of computer tracking.,コンピュータの最新の追跡結果をダンプしてください。
+commands.computercraft.track.dump.no_timings,No timings available,利用可能なタイミングはありません
+commands.computercraft.track.dump.synopsis,Dump the latest track results,最新の追跡結果をダンプしてください
+commands.computercraft.track.start.desc,Start tracking all computers' execution times and event counts. This will discard the results of previous runs.,すべてのコンピュータの実行時間とイベント数の追跡を開始します。これにより、以前の実行結果が破棄されます。
+commands.computercraft.track.start.stop,Run %s to stop tracking and view the results,トラッキングを停止して結果を表示するには %s を実行してください
+commands.computercraft.track.start.synopsis,Start tracking all computers,すべてのコンピュータの追跡を開始します
+commands.computercraft.track.stop.action,Click to stop tracking,追跡を中止するためにクリックしてください
+commands.computercraft.track.stop.desc,Stop tracking all computers' events and execution times,すべてのコンピュータのイベントと実行時間の追跡を停止します
+commands.computercraft.track.stop.not_enabled,Not currently tracking computers,現在コンピュータを追跡していません
+commands.computercraft.track.stop.synopsis,Stop tracking all computers,すべてのコンピュータの追跡を停止します
+commands.computercraft.track.synopsis,Track execution times for computers.,コンピュータの実行時間を追跡します。
+commands.computercraft.turn_on.done,Turned on %s/%s computers,%s/%s コンピューターを起動しました
+commands.computercraft.turn_on.synopsis,Turn computers on remotely.,コンピューターをリモートで起動します。
+commands.computercraft.view.action,View this computer,このコンピュータを見ます
+commands.computercraft.view.desc,"Open the terminal of a computer, allowing remote control of a computer. This does not provide access to turtle's inventories. You can either specify the computer's instance id (e.g. 123) or computer id (e.g #123).",コンピュータのターミナルを開き、コンピュータのリモートコントロールを可能にします。これはタートルのインベントリへのアクセスを提供しません。コンピュータのインスタンスID(例えば 123)またはコンピュータID(例えば #123)を指定できます。
+commands.computercraft.view.not_player,Cannot open terminal for non-player,非プレイヤー用のターミナルを開くことができません
+commands.computercraft.view.synopsis,View the terminal of a computer.,コンピュータのターミナルを表示します。
+gui.computercraft.config.command_require_creative,Command computers require creative,コマンドコンピューターはクリエイティブが必要
+gui.computercraft.config.command_require_creative.tooltip,"Require players to be in creative mode and be opped in order to interact with
+command computers. This is the default behaviour for vanilla's Command blocks.",プレイヤーがクリエイティブモードであり、コマンドコンピューターと相互作用するためにオペレーター権限を持つことを要求します。これはバニラのコマンドブロックのデフォルト動作です。
+gui.computercraft.config.computer_space_limit,Computer space limit (bytes),コンピューター容量制限 (バイト)
+gui.computercraft.config.computer_space_limit.tooltip,"The disk space limit for computers and turtles, in bytes.",コンピューターとタートルのディスク容量制限 (バイト単位)。
+gui.computercraft.config.default_computer_settings,Default Computer settings,デフォルトコンピューター設定
+gui.computercraft.config.default_computer_settings.tooltip,"A comma separated list of default system settings to set on new computers.
+Example: ""shell.autocomplete=false,lua.autocomplete=false,edit.autocomplete=false""
+will disable all autocompletion.","新しいコンピューターに設定するデフォルトシステム設定のカンマ区切りリスト。
+例: ""shell.autocomplete=false,lua.autocomplete=false,edit.autocomplete=false""
+はすべてのオートコンプリートを無効にします。"
+gui.computercraft.config.disabled_generic_methods,Disabled generic methods,無効なジェネリックメソッド
+gui.computercraft.config.execution,Execution,執行
+gui.computercraft.config.execution.computer_threads,Computer threads,コンピュータースレッド
+gui.computercraft.config.execution.computer_threads.tooltip,"Set the number of threads computers can run on. A higher number means more
+computers can run at once, but may induce lag. Please note that some mods may
+not work with a thread count higher than 1. Use with caution.
+Range: > 1","コンピューターが実行できるスレッド数を設定します。数が多いほど、より多くのコンピューターが
+同時に実行できますが、ラグを引き起こす可能性があります。一部のモッドはスレッド数が
+1より大きい場合は動作しない可能性があります。注意して使用してください。"
+gui.computercraft.config.execution.max_main_computer_time,Server tick computer time limit,サーバーティック コンピューター時間制限
+gui.computercraft.config.execution.max_main_computer_time.tooltip,"The ideal maximum time a computer can execute for in a tick, in milliseconds.
+Note, we will quite possibly go over this limit, as there's no way to tell how
+long a will take - this aims to be the upper bound of the average time.
+Range: > 1","コンピューターが1ティックで実行できる理想的な最大時間 (ミリ秒)。
+注意: 実行時間がどのくらいかかるかを知る方法がないため、この制限を超える可能性があります。
+これは平均時間の上限を目指しています。"
+gui.computercraft.config.execution.max_main_global_time,Server tick global time limit,サーバーティック グローバル時間制限
+gui.computercraft.config.execution.max_main_global_time.tooltip,"The maximum time that can be spent executing tasks in a single tick, in
+milliseconds.
+Note, we will quite possibly go over this limit, as there's no way to tell how
+long a will take - this aims to be the upper bound of the average time.
+Range: > 1","1ティックでタスク実行に費やすことができる最大時間 (ミリ秒単位)。
+注意: 実行時間がどのくらいかかるかを知る方法がないため、この制限を超える可能性があります。
+これは平均時間の上限を目指しています。"
+gui.computercraft.config.execution.tooltip,"Controls execution behaviour of computers. This is largely intended for
+fine-tuning servers, and generally shouldn't need to be touched.","コンピューターの実行動作を制御します。これは主にサーバーの微調整を目的としており、
+通常は変更する必要はありません。"
+gui.computercraft.config.floppy_space_limit,Floppy Disk space limit (bytes),フロッピーディスク容量制限 (バイト)
+gui.computercraft.config.floppy_space_limit.tooltip,"The disk space limit for floppy disks, in bytes.",フロッピーディスクのディスク容量制限 (バイト単位)。
+gui.computercraft.config.http,HTTP,HTTP
+gui.computercraft.config.http.bandwidth,Bandwidth,帯域幅
+gui.computercraft.config.http.bandwidth.global_download,Global download limit,グローバルダウンロード制限
+gui.computercraft.config.http.bandwidth.global_download.tooltip,"The number of bytes which can be downloaded in a second. This is shared across all computers. (bytes/s).
+Range: > 1",1秒間にダウンロードできるバイト数。これはすべてのコンピューターで共有されます。(bytes/s)。
+gui.computercraft.config.http.bandwidth.global_upload,Global upload limit,グローバル アップロード制限
+gui.computercraft.config.http.bandwidth.global_upload.tooltip,"The number of bytes which can be uploaded in a second. This is shared across all computers. (bytes/s).
+Range: > 1",1秒間にアップロードできるバイト数。これはすべてのコンピューターで共有されます。(bytes/s)。
+gui.computercraft.config.http.bandwidth.tooltip,Limits bandwidth used by computers.,コンピューターが使用する帯域幅を制限します。
+gui.computercraft.config.http.enabled,Enable the HTTP API,HTTP API を有効にする
+gui.computercraft.config.http.enabled.tooltip,"Enable the ""http"" API on Computers. Disabling this also disables the ""pastebin"" and
+""wget"" programs, that many users rely on. It's recommended to leave this on and use
+the ""rules"" config option to impose more fine-grained control.","コンピューター上の ""http"" API を有効にします。これを無効にすると ""pastebin"" および
+""wget"" プログラムも無効になります。多くのユーザーがこれに依存しているため、これをオンのままにしておき、
+""rules"" 設定オプションを使用してより細かい制御を課すことをお勧めします。"
+gui.computercraft.config.http.max_requests,Maximum concurrent requests,最大同時リクエスト数
+gui.computercraft.config.http.max_requests.tooltip,"The number of http requests a computer can make at one time. Additional requests
+will be queued, and sent when the running requests have finished. Set to 0 for
+unlimited.
+Range: > 0","コンピューターが一度に行うことができるHTTPリクエストの数。追加のリクエストは
+キューに入れられ、実行中のリクエストが完了したときに送信されます。無制限の場合は0に設定します。"
+gui.computercraft.config.http.max_websockets,Maximum concurrent websockets,最大同時ウェブソケット数
+gui.computercraft.config.http.max_websockets.tooltip,"The number of websockets a computer can have open at one time.
+Range: > 1",コンピューターが一度に開くことができるウェブソケットの数。
+gui.computercraft.config.http.proxy,Proxy,プロキシ
+gui.computercraft.config.http.proxy.host,Host name,ホスト名
+gui.computercraft.config.http.proxy.host.tooltip,The hostname or IP address of the proxy server.,プロキシサーバーのホスト名またはIPアドレス。
+gui.computercraft.config.http.proxy.port,Port,ポート
+gui.computercraft.config.http.proxy.port.tooltip,"The port of the proxy server.
+Range: 1 ~ 65536",プロキシサーバーのポート。
+gui.computercraft.config.http.proxy.tooltip,"Tunnels HTTP and websocket requests through a proxy server. Only affects HTTP
+rules with ""use_proxy"" set to true (off by default).
+If authentication is required for the proxy, create a ""computercraft-proxy.pw""
+file in the same directory as ""computercraft-server.toml"", containing the
+username and password separated by a colon, e.g. ""myuser:mypassword"". For
+SOCKS4 proxies only the username is required.","HTTPおよびウェブソケットリクエストをプロキシサーバー経由でトンネルします。""use_proxy"" が true に設定されたHTTPルール (デフォルトではオフ) のみに影響します。
+プロキシに認証が必要な場合は、""computercraft-server.toml"" と同じディレクトリに
+""computercraft-proxy.pw"" ファイルを作成し、ユーザー名とパスワードをコロンで区切って含めます。
+例: ""myuser:mypassword""。SOCKS4プロキシの場合、ユーザー名のみが必要です。"
+gui.computercraft.config.http.proxy.type,Proxy type,プロキシタイプ
+gui.computercraft.config.http.proxy.type.tooltip,"The type of proxy to use.
+Allowed Values: HTTP, HTTPS, SOCKS4, SOCKS5",使用するプロキシのタイプ。
+gui.computercraft.config.http.rules,Allow/deny rules,許可/拒否ルール
+gui.computercraft.config.http.rules.tooltip,"A list of rules which control behaviour of the ""http"" API for specific domains or
+IPs. Each rule matches against a hostname and an optional port, and then sets several
+properties for the request.  Rules are evaluated in order, meaning earlier rules override
+later ones.
+
+Valid properties:
+ - ""host"" (required): The domain or IP address this rule matches. This may be a domain name
+   (""pastebin.com""), wildcard (""*.pastebin.com"") or CIDR notation (""127.0.0.0/8"").
+ - ""port"" (optional): Only match requests for a specific port, such as 80 or 443.
+
+ - ""action"" (optional): Whether to allow or deny this request.
+ - ""max_download"" (optional): The maximum size (in bytes) that a computer can download in this
+   request.
+ - ""max_upload"" (optional): The maximum size (in bytes) that a computer can upload in a this request.
+ - ""max_websocket_message"" (optional): The maximum size (in bytes) that a computer can send or
+   receive in one websocket packet.
+ - ""use_proxy"" (optional): Enable use of the HTTP/SOCKS proxy if it is configured.","特定のドメインまたはIPの ""http"" API の動作を制御するルールのリスト。各ルールはホスト名とオプションのポートに対してマッチし、リクエストの複数のプロパティを設定します。ルールは順番に評価されるため、前のルールが後のルールをオーバーライドします。
+
+有効なプロパティ:
+ - ""host"" (必須): このルールがマッチするドメインまたはIPアドレス。これはドメイン名
+ (""pastebin.com"")、ワイルドカード (""*.pastebin.com"")、またはCIDR表記 (""127.0.0.0/8"") です。
+ - ""port"" (オプション): 80や443などの特定のポートのリクエストのみにマッチします。
+
+ - ""action"" (オプション): このリクエストを許可するか拒否するか。
+ - ""max_download"" (オプション): コンピューターがこのリクエストでダウンロードできる最大サイズ (バイト単位)。
+ - ""max_upload"" (オプション): コンピューターがこのリクエストでアップロードできる最大サイズ (バイト単位)。
+ - ""max_websocket_message"" (オプション): コンピューターが1つのウェブソケットパケットで送受信できる最大サイズ (バイト単位)。
+ - ""use_proxy"" (オプション): HTTPプロキシまたはSOCKSプロキシが構成されている場合、その使用を有効にします。"
+gui.computercraft.config.http.tooltip,Controls the HTTP API,HTTP API を制御します
+gui.computercraft.config.http.websocket_enabled,Enable websockets,ウェブソケットを有効にする
+gui.computercraft.config.log_computer_errors,Log computer errors,コンピューターエラーをログに記録
+gui.computercraft.config.log_computer_errors.tooltip,"Log exceptions thrown by peripherals and other Lua objects. This makes it easier
+for mod authors to debug problems, but may result in log spam should people use
+buggy methods.","ペリフェラルおよび他のLuaオブジェクトでスローされた例外をログに記録します。これにより、
+モッド作成者は問題をデバッグしやすくなりますが、バグのあるメソッドをユーザーが使用した場合、
+ログスパムが発生する可能性があります。"
+gui.computercraft.config.maximum_open_files,Maximum files open per computer,コンピューターあたりの最大オープンファイル数
+gui.computercraft.config.maximum_open_files.tooltip,"Set how many files a computer can have open at the same time. Set to 0 for unlimited.
+Range: > 0",コンピューターが同時に開くことができるファイル数を設定します。無制限の場合は0に設定します。
+gui.computercraft.config.monitor_distance,Monitor distance,モニター距離
+gui.computercraft.config.monitor_distance.tooltip,"The maximum distance monitors will render at. This defaults to the standard tile
+entity limit, but may be extended if you wish to build larger monitors.
+Range: 16 ~ 1024","モニターがレンダリングされる最大距離。これはデフォルトで標準のタイル
+エンティティ制限ですが、より大きなモニターを構築したい場合は拡張できます。"
+gui.computercraft.config.monitor_renderer,Monitor renderer,モニターレンダラー
+gui.computercraft.config.monitor_renderer.tooltip,"The renderer to use for monitors. Generally this should be kept at ""best"" - if
+monitors have performance issues, you may wish to experiment with alternative
+renderers.
+Allowed Values: BEST, TBO, VBO","モニターに使用するレンダラー。通常、これは ""best"" に保つべきです。
+モニターがパフォーマンスの問題を抱えている場合は、別のレンダラーを試すことをお勧めします。"
+gui.computercraft.config.peripheral,Peripherals,ペリフェラル
+gui.computercraft.config.peripheral.command_block_enabled,Enable command block peripheral,コマンドブロックペリフェラルを有効にする
+gui.computercraft.config.peripheral.command_block_enabled.tooltip,Enable Command Block peripheral support,コマンドブロックペリフェラルサポートを有効にします
+gui.computercraft.config.peripheral.max_notes_per_tick,Maximum notes that a computer can play at once,コンピューターが一度に再生できる最大音符数
+gui.computercraft.config.peripheral.max_notes_per_tick.tooltip,"Maximum amount of notes a speaker can play at once.
+Range: > 1",スピーカーが一度に再生できる最大音符数。
+gui.computercraft.config.peripheral.modem_high_altitude_range,Modem range (high-altitude),モデム範囲 (高高度)
+gui.computercraft.config.peripheral.modem_high_altitude_range.tooltip,"The range of Wireless Modems at maximum altitude in clear weather, in meters.
+Range: 0 ~ 100000",晴れた天気で最大高度にある無線モデムの範囲 (メートル単位)。
+gui.computercraft.config.peripheral.modem_high_altitude_range_during_storm,"Modem range (high-altitude, bad weather)",モデム範囲 (高高度、悪天候)
+gui.computercraft.config.peripheral.modem_high_altitude_range_during_storm.tooltip,"The range of Wireless Modems at maximum altitude in stormy weather, in meters.
+Range: 0 ~ 100000",嵐の天気で最大高度にある無線モデムの範囲 (メートル単位)。
+gui.computercraft.config.peripheral.modem_range,Modem range (default),モデム範囲 (デフォルト)
+gui.computercraft.config.peripheral.modem_range.tooltip,"The range of Wireless Modems at low altitude in clear weather, in meters.
+Range: 0 ~ 100000",晴れた天気で低高度にある無線モデムの範囲 (メートル単位)。
+gui.computercraft.config.peripheral.modem_range_during_storm,Modem range (bad weather),モデム範囲 (悪天候)
+gui.computercraft.config.peripheral.modem_range_during_storm.tooltip,"The range of Wireless Modems at low altitude in stormy weather, in meters.
+Range: 0 ~ 100000",嵐の天気で低高度にある無線モデムの範囲 (メートル単位)。
+gui.computercraft.config.peripheral.monitor_bandwidth,Monitor bandwidth,モニター帯域幅
+gui.computercraft.config.peripheral.monitor_bandwidth.tooltip,"The limit to how much monitor data can be sent *per tick*. Note:
+ - Bandwidth is measured before compression, so the data sent to the client is
+   smaller.
+ - This ignores the number of players a packet is sent to. Updating a monitor for
+   one player consumes the same bandwidth limit as sending to 20.
+ - A full sized monitor sends ~25kb of data. So the default (1MB) allows for ~40
+   monitors to be updated in a single tick.
+Set to 0 to disable.
+Range: > 0","1ティックあたり送信できるモニターデータの制限。注意:
+ - 帯域幅は圧縮前に測定されるため、クライアントに送信されるデータは
+ より小さいです。
+ - これはパケットが送信されるプレイヤー数を無視します。1人のプレイヤーに対してモニターを更新することは、20人に送信するのと同じ帯域幅制限を消費します。
+ - 完全なサイズのモニターは約25kbのデータを送信します。そのため、デフォルト (1MB) では、1ティックで約40個のモニターを更新できます。
+0に設定すると無効になります。"
+gui.computercraft.config.peripheral.tooltip,Various options relating to peripherals.,ペリフェラルに関するさまざまなオプション。
+gui.computercraft.config.term_sizes,Terminal sizes,ターミナルサイズ
+gui.computercraft.config.term_sizes.computer,Computer,コンピューター
+gui.computercraft.config.term_sizes.computer.height,Terminal height,ターミナル高さ
+gui.computercraft.config.term_sizes.computer.tooltip,Terminal size of computers.,コンピューターのターミナルサイズ。
+gui.computercraft.config.term_sizes.computer.width,Terminal width,ターミナル幅
+gui.computercraft.config.term_sizes.computer.width.tooltip,Range: 1 ~ 255,コンピューターターミナルの幅
+gui.computercraft.config.term_sizes.monitor,Monitor,モニター
+gui.computercraft.config.term_sizes.monitor.height,Max monitor height,最大モニター高さ
+gui.computercraft.config.term_sizes.monitor.tooltip,Maximum size of monitors (in blocks).,モニターの最大サイズ (ブロック単位)。
+gui.computercraft.config.term_sizes.monitor.width,Max monitor width,最大モニター幅
+gui.computercraft.config.term_sizes.monitor.width.tooltip,Range: 1 ~ 32,モニターの最大幅
+gui.computercraft.config.term_sizes.pocket_computer,Pocket Computer,ポケットコンピュータ
+gui.computercraft.config.term_sizes.pocket_computer.height,Terminal height,ターミナル高さ
+gui.computercraft.config.term_sizes.pocket_computer.tooltip,Terminal size of pocket computers.,ポケットコンピューターのターミナルサイズ。
+gui.computercraft.config.term_sizes.pocket_computer.width,Terminal width,ターミナル幅
+gui.computercraft.config.term_sizes.pocket_computer.width.tooltip,Range: 1 ~ 255,コンピューターターミナルの幅
+gui.computercraft.config.term_sizes.tooltip,"Configure the size of various computer's terminals.
+Larger terminals require more bandwidth, so use with care.","様々なコンピューターのターミナルサイズを構成します。
+より大きなターミナルはより多くの帯域幅を必要とするため、注意して使用してください。"
+gui.computercraft.config.turtle,Turtles,タートル
+gui.computercraft.config.turtle.advanced_fuel_limit,Advanced Turtle fuel limit,高度なタートルの燃料制限
+gui.computercraft.config.turtle.advanced_fuel_limit.tooltip,"The fuel limit for Advanced Turtles.
+Range: > 0",高度なタートルの燃料制限。
+gui.computercraft.config.turtle.can_push,Turtles can push entities,タートルはエンティティを押すことができます
+gui.computercraft.config.turtle.can_push.tooltip,"If set to true, Turtles will push entities out of the way instead of stopping if
+there is space to do so.",true に設定した場合、タートルは移動する空間がある場合、停止する代わりにエンティティを押し出します。
+gui.computercraft.config.turtle.need_fuel,Enable fuel,燃料を有効にする
+gui.computercraft.config.turtle.need_fuel.tooltip,Set whether Turtles require fuel to move.,タートルが移動するために燃料が必要かどうかを設定します。
+gui.computercraft.config.turtle.normal_fuel_limit,Turtle fuel limit,タートル燃料制限
+gui.computercraft.config.turtle.normal_fuel_limit.tooltip,"The fuel limit for Turtles.
+Range: > 0",タートルの燃料制限。
+gui.computercraft.config.turtle.tooltip,Various options relating to turtles.,タートルに関するさまざまなオプション。
+gui.computercraft.config.upload_max_size,File upload size limit (bytes),ファイルアップロードサイズ制限 (バイト)
+gui.computercraft.config.upload_max_size.tooltip,"The file upload size limit, in bytes. Must be in range of 1 KiB and 16 MiB.
+Keep in mind that uploads are processed in a single tick - large files or
+poor network performance can stall the networking thread. And mind the disk space!
+Range: 1024 ~ 16777216","ファイルアップロードサイズ制限 (バイト単位)。1 KiBから16 MiBの範囲にする必要があります。
+アップロードは単一ティックで処理されることに注意してください。大きなファイルまたは
+不十分なネットワークパフォーマンスはネットワーキングスレッドをスタールできます。またディスク容量に注意してください!"
+gui.computercraft.config.upload_nag_delay,Upload nag delay,アップロード通知遅延
+gui.computercraft.config.upload_nag_delay.tooltip,"The delay in seconds after which we'll notify about unhandled imports. Set to 0 to disable.
+Range: 0 ~ 60",未処理のインポートについて通知する遅延 (秒)。無効にするには0に設定します。
+gui.computercraft.pocket_computer_overlay,Pocket computer open. Press ESC to close.,ポケットコンピュータを開いています。ESCを押して閉じます。
+gui.computercraft.terminal,Computer terminal,コンピューターターミナル
+gui.computercraft.tooltip.computer_id,Computer ID: %s,コンピュータID: %s
+gui.computercraft.tooltip.copy,Copy to clipboard,クリップボードにコピー
+gui.computercraft.tooltip.disk_id,Disk ID: %s,ディスクID: %s
+gui.computercraft.tooltip.terminate,Stop the currently running code,現在実行中のコードを停止する
+gui.computercraft.tooltip.terminate.key,Hold Ctrl+T,Ctrl+T 長押し
+gui.computercraft.tooltip.turn_off,Turn this computer off,このコンピュータをオフにする
+gui.computercraft.tooltip.turn_off.key,Hold Ctrl+S,Ctrl+S 長押し
+gui.computercraft.tooltip.turn_on,Turn this computer on,このコンピュータをオンにする
+gui.computercraft.upload.failed,Upload Failed,アップロードに失敗しました
+gui.computercraft.upload.failed.computer_off,You must turn the computer on before uploading files.,ファイルをアップロードする前にコンピュータを起動する必要があります。
+gui.computercraft.upload.failed.corrupted,Files corrupted when uploading. Please try again.,アップロード時にファイルが破損しました。もう一度やり直してください。
+gui.computercraft.upload.failed.generic,Uploading files failed (%s),ファイルのアップロードに失敗しました(%s)
+gui.computercraft.upload.failed.name_too_long,File names are too long to be uploaded.,ファイル名が長すぎてアップロードできません。
+gui.computercraft.upload.failed.too_many_files,Cannot upload this many files.,多くのファイルをアップロードできません。
+gui.computercraft.upload.failed.too_much,Your files are too large to be uploaded.,アップロードするにはファイルが大きすぎます。
+gui.computercraft.upload.no_response,Transferring Files,ファイル転送中
+gui.computercraft.upload.no_response.msg,Your computer has not used your transferred files. You may need to run the %s program and try again.,コンピューターが転送されたファイルを使用していません。%s プログラムを実行してもう一度試す必要があるかもしれません。
+item.computercraft.disk,Floppy Disk,フロッピーディスク
+item.computercraft.pocket_computer_advanced,Advanced Pocket Computer,高度なポケットコンピュータ
+item.computercraft.pocket_computer_advanced.upgraded,Advanced %s Pocket Computer,高度な %s ポケットコンピュータ
+item.computercraft.pocket_computer_normal,Pocket Computer,ポケットコンピュータ
+item.computercraft.pocket_computer_normal.upgraded,%s Pocket Computer,%s ポケットコンピュータ
+item.computercraft.printed_book,Printed Book,印刷された本
+item.computercraft.printed_page,Printed Page,印刷されたページ
+item.computercraft.printed_pages,Printed Pages,印刷されたページ
+item.computercraft.treasure_disk,Floppy Disk,フロッピーディスク
+itemGroup.computercraft,ComputerCraft,コンピュータクラフト
+tag.item.computercraft.computer,Computers,コンピューター
+tag.item.computercraft.disks,Disks,ディスク
+tag.item.computercraft.dyeable,Dyable items,染色可能なアイテム
+tag.item.computercraft.monitor,Monitors,モニター
+tag.item.computercraft.pocket_computers,Pocket Computers,ポケットコンピューター
+tag.item.computercraft.turtle,Turtles,タートル
+tag.item.computercraft.turtle_can_place,Turtle-placeable items,タートルが配置可能なアイテム
+tag.item.computercraft.wired_modem,Wired modems,有線モデム
+tracking_field.computercraft.avg,%s (avg),%s (平均)
+tracking_field.computercraft.computer_tasks.name,Tasks,タスク
+tracking_field.computercraft.count,%s (count),%s (カウント)
+tracking_field.computercraft.fs.name,Filesystem operations,ファイルシステム演算
+tracking_field.computercraft.http_download.name,HTTP download,HTTPダウンロード
+tracking_field.computercraft.http_requests.name,HTTP requests,HTTP リクエスト
+tracking_field.computercraft.http_upload.name,HTTP upload,HTTPアップロード
+tracking_field.computercraft.max,%s (max),%s (最大)
+tracking_field.computercraft.peripheral.name,Peripheral calls,ペリフェラル呼び出し
+tracking_field.computercraft.server_tasks.name,Server tasks,サーバータスク
+tracking_field.computercraft.turtle_ops.name,Turtle operations,タートル操作
+tracking_field.computercraft.websocket_incoming.name,Websocket incoming,Websocket 受信
+tracking_field.computercraft.websocket_outgoing.name,Websocket outgoing,Websocket 送信
+upgrade.computercraft.speaker.adjective,Noisy,騒音
+upgrade.computercraft.wireless_modem_advanced.adjective,Ender,エンダー
+upgrade.computercraft.wireless_modem_normal.adjective,Wireless,ワイヤレス
+upgrade.minecraft.crafting_table.adjective,Crafty,クラフト
+upgrade.minecraft.diamond_axe.adjective,Felling,伐採
+upgrade.minecraft.diamond_hoe.adjective,Farming,農業
+upgrade.minecraft.diamond_pickaxe.adjective,Mining,採掘
+upgrade.minecraft.diamond_shovel.adjective,Digging,掘る
+upgrade.minecraft.diamond_sword.adjective,Melee,攻撃
+commands.computercraft.generic.no_position,<no pos>,<no pos>
+commands.computercraft.generic.position,"%s, %s, %s","%s, %s, %s"
+commands.computercraft.reload.desc,Reload the ComputerCraft config file,コンピュータークラフトのコンフィグファイルを再読み込みします
+commands.computercraft.reload.done,Reloaded config,コンフィグを再読み込みしました
+commands.computercraft.reload.synopsis,Reload the ComputerCraft config file,コンピュータークラフトのコンフィグファイルを再読み込みします
+commands.computercraft.tp.not_player,Cannot open terminal for non-player,非プレイヤー用のターミナルを開くことができません
+commands.computercraft.tp.not_there,Cannot locate computer in the world,世界でコンピュータを見つけることができませんでした
+tracking_field.computercraft.coroutines_created.name,Coroutines created,コルーチン作成
+tracking_field.computercraft.coroutines_dead.name,Coroutines disposed,コルーチン削除
+tracking_field.computercraft.http.name,HTTP requests,HTTPリクエスト
+tracking_field.computercraft.turtle.name,Turtle operations,タートル演算
+tracking_field.computercraft.java_allocation.name,Java Allocations,Java割当
+tile.computercraft:computer.name,Computer,コンピューター
+tile.computercraft:advanced_computer.name,Advanced Computer,先進型コンピュータ
+tile.computercraft:drive.name,Disk Drive,ディスクドライブ
+tile.computercraft:printer.name,Printer,プリンター
+tile.computercraft:monitor.name,Monitor,モニター
+tile.computercraft:advanced_monitor.name,Advanced Monitor,高度なモニター
+tile.computercraft:wireless_modem.name,Wireless Modem,ワイヤレスモデム
+tile.computercraft:wired_modem.name,Wired Modem,有線モデム
+tile.computercraft:cable.name,Networking Cable,ネットワークケーブル
+tile.computercraft:command_computer.name,Command Computer,コマンドコンピュータ
+tile.computercraft:turtle.name,Turtle,タートル
+tile.computercraft:turtle.upgraded.name,%s Turtle,%s タートル
+tile.computercraft:turtle.upgraded_twice.name,%s %s Turtle,%s %s タートル
+tile.computercraft:advanced_turtle.upgraded.name,Advanced %s Turtle,高度な %s タートル
+tile.computercraft:advanced_turtle.upgraded_twice.name,Advanced %s %s Turtle,進化版 %s %s タートル
+item.computercraft:disk.name,Floppy Disk,フロッピーディスク
+item.computercraft:treasure_disk.name,Floppy Disk,フロッピーディスク
+item.computercraft:page.name,Printed Page,印刷されたページ
+item.computercraft:pages.name,Printed Pages,印刷されたページ
+item.computercraft:book.name,Printed Book,印刷された本
+item.computercraft:pocket_computer.name,Pocket Computer,ポケットコンピュータ
+item.computercraft:pocket_computer.upgraded.name,%s Pocket Computer,%s ポケットコンピュータ
+item.computercraft:advanced_pocket_computer.name,Advanced Pocket Computer,高度なポケットコンピュータ
+item.computercraft:advanced_pocket_computer.upgraded.name,Advanced %s Pocket Computer,高度な %s ポケットコンピュータ
+upgrade.minecraft:diamond_sword.adjective,Melee,攻撃
+upgrade.minecraft:diamond_shovel.adjective,Digging,掘る
+upgrade.minecraft:diamond_pickaxe.adjective,Mining,採掘
+upgrade.minecraft:diamond_axe.adjective,Felling,伐採
+upgrade.minecraft:diamond_hoe.adjective,Farming,農業
+upgrade.computercraft:wireless_modem.adjective,Wireless,ワイヤレス
+upgrade.minecraft:crafting_table.adjective,Crafty,クラフト
+gui.computercraft:wired_modem.peripheral_connected,"Peripheral ""%s"" connected to network","ペリフェラル ""%s"" がネットワークに接続されました"
+gui.computercraft:wired_modem.peripheral_disconnected,"Peripheral ""%s"" disconnected from network","ペリフェラル ""%s"" がネットワークから切断されました"

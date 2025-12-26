@@ -1,0 +1,46 @@
+﻿key,source_text,target_text
+item.mekanisticrouters.chemical_module_mk1,Chemical Module Mk1,ケミカルモジュールMk1
+item.mekanisticrouters.chemical_module_mk2,Chemical Module Mk2,ケミカルモジュールMk2
+item.mekanisticrouters.chemical_refill_module,Chemical Refill Module,ケミカル補充モジュール
+item.mekanisticrouters.chemical_upgrade,Chemical Transfer Upgrade,ケミカル転送アップグレード
+mekanisticrouters.guiText.popup.chemical.direction,"§a§nTransfer Direction§r
+
+Here you can control whether the router pushes chemical out to the tank, or pulls chemical from the tank.","§n転送方向§r
+
+ここでルーターがケミカルをタンクに押し出すか、タンクからケミカルを引き出すかを制御できます。"
+mekanisticrouters.guiText.popup.chemical.maxTransfer,"§a§nMax Transfer§r
+
+This is the maximum amount of chemical that the router will attempt to transfer in one operation.
+
+Note that the transfer rate is still limited by the number of Chemical Transfer Upgrades in the router, as well as the transfer rate of the external tank (if there is one). So this number should be considered a limit rather than a target.","§n最大転送量§r
+
+これはルーターが1回の操作で転送しようとするケミカルの最大量です。
+
+転送速度はルーター内のケミカル転送アップグレードの数と、外部タンク(あれば)の転送速度によって制限されていることに注意してください。したがって、この数字は目標というより制限と考えるべきです。"
+mekanisticrouters.guiText.popup.chemical_refill.control,"§a§Chemical Refill Module§r
+
+Here you can define: 
+- Which section of the player inventory should be interacted with.
+
+The filter controls what items can receive chemicals from this module.","§nケミカル補充モジュール§r
+
+ここで以下を定義できます：
+- プレイヤーインベントリのどのセクションと相互作用するか。
+
+フィルターはこのモジュールからケミカルを受け取ることができるアイテムを制御します。"
+mekanisticrouters.guiText.tooltip.chemicalTransferTooltip,"§bMax Chemical Transfer
+Maximum (in mB) that will be attempted in one operation.
+This is still limited by the router's overall transfer rate (Chemical Transfer and Speed Upgrades)","§b最大ケミカル転送
+1回の操作で試行される最大値(mB)。
+これはルーターの総転送速度(ケミカル転送とスピードアップグレード)によってもまだ制限されています。"
+mekanisticrouters.itemText.chemical.maxTransfer,Chemical Rate: Up to %s mB / operation,ケミカル速度：1回の操作で最大%s mB
+mekanisticrouters.itemText.usage.item.chemical_module_mk1,"Transfers chemicals into or out of the router to/from an adjacent block in the module's direction.
+• Router's buffer must have a chemical container item in it.","ケミカルをルーターに転送したり、モジュール方向の隣接ブロックから転送したりします。
+• ルーターのバッファにケミカルコンテナアイテムが必要です。"
+mekanisticrouters.itemText.usage.item.chemical_module_mk2,"Transfers chemicals into or out of the router to/from any nearby block.
+• Router's buffer must have a chemical container item in it.
+• Can transfer to/from tanks.","ケミカルをルーターに転送したり、近くのブロックから転送したりします。
+• ルーターのバッファにケミカルコンテナアイテムが必要です。
+• タンクとの間で転送できます。"
+mekanisticrouters.itemText.usage.item.chemical_refill_module,Wireless refills chemical container items (such as Jetpacks) in a player's inventory.,プレイヤーのインベントリ内のケミカルコンテナアイテム(ジェットパックなど)をワイヤレスで補充します。
+mekanisticrouters.itemText.usage.item.chemical_upgrade,Increases the amount of fluid a router can transfer (in each direction) by %d mB/tick,ルーターが転送できるケミカルの量(各方向)を%d mB/ティック 増加させます。

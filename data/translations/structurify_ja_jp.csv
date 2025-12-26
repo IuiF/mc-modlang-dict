@@ -1,0 +1,75 @@
+﻿key,source_text,target_text
+command.structurify.locate.exception.all_structures_are_disabled,"Can't locate any structure, all structures are disabled based on the Structurify mod config.",構造物が見つからないため、Structurify モッド設定によりすべての構造物が無効化されています。
+command.structurify.locate.structure_is_disabled,"Can't locate %s structure, structure is currently disabled based on the Structurify mod config.",%s 構造体が見つかりません、構造体は現在 Structurify モッド設定により無効です。
+gui.structurify.label.disabled,Disabled,無効
+gui.structurify.label.enabled,Enabled,有効
+gui.structurify.label.no,No,No
+gui.structurify.label.yes,Yes,はい
+gui.structurify.structure_sets.enable_global_spacing_and_separation_modifier.description,Spacing and separation of each structure set will be multiplied by this value.,各構造セットの間隔はこの値で乗算されます。
+gui.structurify.structure_sets.enable_global_spacing_and_separation_modifier.title,Enable global spacing and separation modifier,グローバル間隔と分離修飾子を有効化します
+gui.structurify.structure_sets.frequency.description,Frequency represents the probability to try to generate if other conditions are met.,頻度は、他の条件が満たされた場合に生成を試みる確率を表します。
+gui.structurify.structure_sets.frequency.title,Frequency,周波数
+gui.structurify.structure_sets.global_spacing_and_separation.description,Global settings for structure sets.,構造セット全体の設定です。
+gui.structurify.structure_sets.global_spacing_and_separation.title,Global settings,全体設定
+gui.structurify.structure_sets.global_spacing_and_separation_modifier.description,"When different from default value of 1.0, each structure set will be either more concentrated or more spread out.
+
+ < 1.0 - more concentrated 
+ = 1.0 - unaffected 
+ > 1.0 - more spread out","デフォルト値の1.0と異なる場合、各構造セットはより密集するか、またはより広がります。
+
+ < 1.0 - より密集
+ = 1.0 - 変更なし
+ > 1.0 - より広がり"
+gui.structurify.structure_sets.global_spacing_and_separation_modifier.title,Global spacing and separation modifier,グローバルなスペースと分離修飾子
+gui.structurify.structure_sets.override_global_spacing_and_separation_modifier.description,Whenever to override global spacing and separation modifier from global settings with specific settings of the „%s“ structure set.,グローバル設定からグローバルな間隔と分離修飾子をオーバーライドして、「%s」構造セットの具体的な設定を使用するかどうかを決定します。
+gui.structurify.structure_sets.override_global_spacing_and_separation_modifier.title,Override global settings,グローバル設定を上書き
+gui.structurify.structure_sets.salt.description,"Salt is a number that assists in randomization, each structure set should have an unique salt.",Salt（塩）はランダム化に使用される数値で、各構造セットはユニークな Salt を持つべきです。
+gui.structurify.structure_sets.salt.title,Salt,塩
+gui.structurify.structure_sets.separation.description,Separation is the minimum distance in chunks between structures within the same structure set (group of structures). The separation value cannot be greater than the spacing value.,分離は、同じ構造セット（構造のグループ）内の構造間の最小距離（チャンク単位）です。分離値は間隔値より大きくすることはできません。
+gui.structurify.structure_sets.separation.title,Separation,分離
+gui.structurify.structure_sets.spacing.description,Spacing is the average distance in chunks between structures within the same structure set (group of structures).,間隔は、同じ構造セット（構造のグループ）内の構造間の平均距離（チャンク単位）です。
+gui.structurify.structure_sets.spacing.title,Spacing,間隔
+gui.structurify.structure_sets.structure_group.title,„%s“ structures,„%s“構造物
+gui.structurify.structure_sets.warning,"Bear in mind that each structure set may have unique placement rules and overrides defined by individual mods and datapacks, which means that changing this value might not always produce the intended structure spread.",各構造セットは個々のMODとデータパックで定義されたユニークな配置ルールとオーバーライドを持つ可能性があることに注意してください。つまり、この値を変更しても、意図した構造配置が常に得られるとは限りません。
+gui.structurify.structure_sets_category.description,Configure custom structure spread either via global spacing and separation modifier or per structure specific spacing and separation values.,グローバルな間隔と分離修飾子、または構造ごとの具体的な間隔と分離値を使用して、カスタム構造配置を設定します。
+gui.structurify.structure_sets_category.title,Structure Spread settings,構造散布設定
+gui.structurify.structures.biome_check_group.title,Biome check settings,バイオームチェック設定
+gui.structurify.structures.biomes_description,Structure can be found in the following biomes/biome tags:,構造は以下のバイオーム／バイオームタグで見つけることができます：
+gui.structurify.structures.disable_all_structures.description,All structures will be disabled regardless of the specific structure options.,すべての構造物は、特定の構造オプションに関係なく無効化されます
+gui.structurify.structures.disable_all_structures.title,Disable all structures,すべての構造物を無効化
+gui.structurify.structures.flatness_check_group.title,Flatness check settings,平らさチェック設定
+gui.structurify.structures.global.description,Global settings for structures.,構造物のグローバル設定。
+gui.structurify.structures.global.title,Global settings,全体設定
+gui.structurify.structures.min_structure_distance_from_world_center.description,All structures will only generate if they are farther than specified distance from the world center.,すべての構造物はワールド中心から指定距離以上の場合のみ生成されます。
+gui.structurify.structures.min_structure_distance_from_world_center.title,Min. distance from world center (in blocks),ワールド中心からの最小距離（ブロック単位）
+gui.structurify.structures.structure.allow_air_blocks_in_flatness_check.description,Air blocks will count as solid blocks and will not fail the check.,空気ブロックは固体ブロックとしてカウントされ、チェックに失敗しません。
+gui.structurify.structures.structure.allow_air_blocks_in_flatness_check.title,Allow air blocks in flatness check,フラットチェック時に空ブロックを許可
+gui.structurify.structures.structure.allow_liquid_blocks_in_flatness_check.description,Liquid blocks will count as solid blocks and will not fail the check.,液体ブロックは固体ブロックとしてカウントされ、チェックに失敗しません。
+gui.structurify.structures.structure.allow_liquid_blocks_in_flatness_check.title,Allow liquid blocks in flatness check,フラットネスチェックに液体ブロックを許可
+gui.structurify.structures.structure.biome_check_blacklisted_biomes.description,List of current blacklisted biomes/biome tags in which the „%s“ structure can not be generated when the biome check is enabled.,バイオームチェックが有効な場合に「%s」構造が生成できない、現在のブラックリストに登録されたバイオーム/バイオームタグのリストです。
+gui.structurify.structures.structure.biome_check_blacklisted_biomes.title,Blacklisted Biomes/Biome tags,ブラックリストされたバイオーム/バイオームタグ
+gui.structurify.structures.structure.biome_check_distance.description,The distance in blocks from the structure’s center within which biomes will be checked.,構造体の中心から何ブロック以内でバイオームがチェックされるか
+gui.structurify.structures.structure.biome_check_distance.title,Biome check distance (in blocks),バイオームチェック距離（ブロック単位）
+gui.structurify.structures.structure.biome_check_mode.blacklist,Blacklist,ブラックリスト
+gui.structurify.structures.structure.biome_check_mode.description,The mode based on what biome check checks the biomes.,バイオームチェックに基づくモードがバイオームを確認します。
+gui.structurify.structures.structure.biome_check_mode.strict,Strict,厳格
+gui.structurify.structures.structure.biome_check_mode.title,Biome check mode,バイオームチェックモード
+gui.structurify.structures.structure.biomes.description,List of current biomes/biome tags in which the „%s“ structure can be generated.,「%s」構造が生成できる現在のバイオーム/バイオームタグの一覧です。
+gui.structurify.structures.structure.biomes.title,Biomes / Biome tags,バイオーム / バイオームタグ
+gui.structurify.structures.structure.description,„%s“ settings,「%s」設定
+gui.structurify.structures.structure.enable_biome_check.description,The structure will only generate if all biomes within the specified distance are present in the list below.,指定された距離内のすべてのバイオームが以下のリストに存在する場合のみ、構造が生成されます。
+gui.structurify.structures.structure.enable_biome_check.title,Enable biome check,バイオームチェックを有効にする
+gui.structurify.structures.structure.enable_flatness_check.description,The structure will only generate if the terrain within the specified distance is flat enough based on the specified threshold.,指定された距離内の地形が指定されたしきい値に基づいて十分に平坦である場合のみ、構造が生成されます。
+gui.structurify.structures.structure.enable_flatness_check.title,Enable flatness check,フラットネスチェックを有効化
+gui.structurify.structures.structure.flatness_check_distance.description,The distance in blocks from the structure’s center within which terrain flatness will be checked.,構造物の中心から何ブロック以内で地形の平坦さがチェックされるか。
+gui.structurify.structures.structure.flatness_check_distance.title,Flatness check distance (in blocks),フラットネスチェック距離（ブロック単位）
+gui.structurify.structures.structure.flatness_check_threshold.description,The maximum height difference (in blocks) allowed for the terrain to be considered flat.,地形が平坦とみなされる最大高さ差（ブロック単位）です。
+gui.structurify.structures.structure.flatness_check_threshold.title,Flatness check threshold (in blocks),フラットチェック閾値（ブロック単位）
+gui.structurify.structures.structure.title,„%s“ settings,„%s“設定
+gui.structurify.structures.structures_group.description,List of all structures for the „%s“ namespace.,„%s“ ネームスペースのすべての構造物一覧です
+gui.structurify.structures.structures_group.title,„%s“ structures,„%s“構造物
+gui.structurify.structures.warning,Bear in mind that each structure may still be enabled or disabled by individual mods and datapacks.,各構造物が個別のモッドやデータパックで有効または無効にされる場合がありますのでご注意ください。
+gui.structurify.structures_category.description,"Disable or enable the generation of structures within the game. Additionally, manage a blacklist of biomes where specific structures should not generate.",ゲーム内での構造の生成を無効または有効にします。さらに、特定の構造が生成されるべきではないバイオームのブラックリストを管理します。
+gui.structurify.structures_category.title,Structure settings,構造設定
+gui.structurify.title,Structurify configuration,Structurify設定
+structurify,Structurify,構造化

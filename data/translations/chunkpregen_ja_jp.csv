@@ -1,0 +1,655 @@
+﻿key,source_text,target_text
+argument.chunk_pregen.error.incomplete,Center Coordinate Incomplete,中心座標が不完全です
+argument.chunk_pregen.position.block,"Block Position, (b)",ブロック位置、(b)
+argument.chunk_pregen.position.chunk,Chunk Position,チャンク位置
+argument.chunk_pregen.position.player,Player Position (~),プレイヤー位置 (~)
+argument.chunk_pregen.position.player.block,Player Position with Block Offset (~),プレイヤー位置(ブロックオフセット付き)(~)
+argument.chunk_pregen.position.player.chunk,Player Position with Chunk Offset (~),プレイヤー位置(チャンクオフセット付き)(~)
+argument.chunk_pregen.position.spawn,Spawn Point (^),スポーン地点 (^)
+argument.chunk_pregen.position.spawn.block,Spawn Point with Block Offset (^),スポーン地点(ブロックオフセット付き)(^)
+argument.chunk_pregen.position.spawn.chunk,Spawn Point with Chunk Offset (^),スポーン地点(チャンクオフセット付き)(^)
+command.chunk_pregen.benchmark.active,Benchmark already Running,ベンチマークが既に実行中です
+command.chunk_pregen.benchmark.active_queue,Benchmark Running. Can not Run anything else in the meantime,ベンチマークが実行中です。その間、他の操作は実行できません
+command.chunk_pregen.benchmark.info,"The Menchhmark Command will start a task for every dimension.
+With settings on the size.
+Once everything is generated a score will be calculated for each dimension and overall.
+The score is based on How many Milliseconds it took to generate 1 chunk on average. Lower => Better","ベンチマークコマンドは、各ディメンションのタスクを開始します。
+サイズ設定で実行されます。
+すべてが生成されたら、各ディメンションと全体のスコアが計算されます。
+スコアは、平均して1チャンクの生成にかかったミリ秒数に基づいています。低いほど良い結果です。"
+command.chunk_pregen.benchmark.pause,Benchmark Running. Pause is disabled,ベンチマークが実行中です。一時停止は無効です
+command.chunk_pregen.benchmark.player,"Requires a ""Player"" to start a Benchmark Test",ベンチマークテストを開始するには「プレイヤー」が必要です
+command.chunk_pregen.benchmark.result,Benchmark Scores,ベンチマークスコア
+command.chunk_pregen.benchmark.result.dimension,"%1$s Score: Chunks=%2$s, Terrain: [Time=%3$s, Score=%4$s], Light: [Time=%5$s, Score=%6$s]",%1$s スコア：チャンク数=%2$s、地形：[時間=%3$s、スコア=%4$s]、光：[時間=%5$s、スコア=%6$s]
+command.chunk_pregen.benchmark.result.info,Score Rating: Milliseconds per Chunk. Lower => Better,スコア評価：チャンク当たりのミリ秒数。低いほど良い結果です
+command.chunk_pregen.benchmark.result.saving,"Saving Results to Pregen_Benchmarks.json, which is in the server folder",結果をPregen_Benchmarks.jsonに保存しています。このファイルはサーバーフォルダにあります
+command.chunk_pregen.benchmark.result.total,"Total Score: Chunks=%1$s, Terrain: [Time=%2$s, Score=%3$s], Light: [Time=%4$s, Score=%5$s]",合計スコア：チャンク数=%1$s、地形：[時間=%2$s、スコア=%3$s]、光：[時間=%4$s、スコア=%5$s]
+command.chunk_pregen.benchmark.resume,Benchmark Running. Resume is disabled,ベンチマークが実行中です。再開は無効です
+command.chunk_pregen.benchmark.suggestion.big,250k Chunks roughly 1-3 hours,25万チャンク、約1～3時間
+command.chunk_pregen.benchmark.suggestion.small,40k Chunks roughly 10-30mins,4万チャンク、約10～30分
+command.chunk_pregen.dimension.already_loaded,Dimension [%s] is already loaded,ディメンション [%s] は既にロードされています
+command.chunk_pregen.dimension.already_unloaded,Dimension [%s] is already unloaded,ディメンション [%s] は既にアンロードされています
+command.chunk_pregen.dimension.error.not_exist,Dimension [%s] doesn't exist,ディメンション [%s] は存在しません
+command.chunk_pregen.dimension.error.overworld,You can not unload the Overworld,オーバーワールドはアンロードできません
+command.chunk_pregen.dimension.error.players,Dimension has players present,ディメンションにプレイヤーが存在しています
+command.chunk_pregen.dimension.info,"The Dimension Command allows you to ""Disable"" Dimensions.
+Disabling a Dimension will make it inaccessible for the game and it will be treated like as if the Dimension never existed in the first place
+On top of that Disabled Dimensions will load on Startup and will be automatically shutdown. This will increase restart time for a tiny bit.
+Once ChunkPregen is deinstalled all Dimensions will load like normal but the ""Disabling Information"" is stored in the world itself so removing/adding the mod will not change anything","ディメンションコマンドでディメンションを「無効化」できます。
+ディメンションを無効化すると、ゲームからアクセスできなくなり、ディメンションが存在しないかのように扱われます
+さらに、無効化されたディメンションはスタートアップ時にロードされ、自動的にシャットダウンされます。これにより再起動時間が少し増加します。
+ChunkPregenをアンインストールすると、すべてのディメンションは通常通りロードされますが、「無効化情報」はワールドに保存されるため、Modの削除/追加は何も変わりません"
+command.chunk_pregen.dimension.loaded,Loaded Dimension: [%s],ロードされたディメンション：[%s]
+command.chunk_pregen.dimension.loading,Loading Dimension: [%s],ディメンション[%s]をロード中
+command.chunk_pregen.dimension.unloaded,Unloaded Dimension: [%s],アンロードされたディメンション：[%s]
+command.chunk_pregen.dimension.unloading,Unloading Dimension: [%s],ディメンション[%s]をアンロード中
+command.chunk_pregen.error.creation_failed,Couldn't create Task!,タスクを作成できませんでした！
+command.chunk_pregen.error.deletion_to_big,Expansion bigger then 1 Billion Chunks are not allowed,10億チャンク以上の拡張は許可されていません
+command.chunk_pregen.error.expansion_to_big,"Expansions bigger then 1 Million Chunks are not allowed! 
+Try [%s] as max Radius","100万チャンク以上の拡張は許可されていません！ 
+最大半径として [%s] を試してください"
+command.chunk_pregen.error.min_bigger_max,Min Radius is not allowed to be bigger then Max Radius,最小半径は最大半径より大きくすることはできません
+command.chunk_pregen.error.missing_dimension,Dimension does not exist,ディメンションが存在しません
+command.chunk_pregen.error.missing_permission,You need OP Rights or Cheat enabled to use pregen commands.,事前生成コマンドを使用するにはOP権限またはチートが有効になっている必要があります。
+command.chunk_pregen.error.radius_to_big,Task Exceeds the max radius of 500 chunks,タスクが最大半径500チャンクを超えています
+command.chunk_pregen.error.task_info,"Task takes more then 30% [%s] of your available storage
+just a service message!","タスクは利用可能なストレージの30%以上を使用します [%s]
+注記です！"
+command.chunk_pregen.error.task_overflow,Canceld Task creation. Task would be [%sMB] big which is more then your storage can provide,タスク作成がキャンセルされました。タスクが [%sMB] になり、ストレージが対応できません
+command.chunk_pregen.error.task_warning,"Task was created but takes more then 80% [%1$sMB] of your storage.
+Click [%2$s] to start the task or Click [%3$s] to delete the task","タスクは作成されましたが、ストレージの80%以上を使用します [%1$sMB]。
+[%2$s] をクリックしてタスクを開始するか、[%3$s] をクリックしてタスクを削除してください"
+command.chunk_pregen.error.task_warning.delete,Delete,削除
+command.chunk_pregen.error.task_warning.start,Start,開始
+command.chunk_pregen.info.documentation.click_me,ClickMe!,クリック！
+command.chunk_pregen.info.ignoring.already,[%s] is already ignoring Tasks,[%s] は既にタスクを無視しています
+command.chunk_pregen.info.ignoring.started,[%s] started ignoring Tasks,[%s] がタスクを無視し始めました
+command.chunk_pregen.info.ignoring.state,[%s] is ignoring Tasks,[%s] はタスクを無視しています
+command.chunk_pregen.info.listening.already,[%s] is already listening to Tasks,[%s] は既にタスクをリッスンしています
+command.chunk_pregen.info.listening.started,[%s] started listening to Tasks,[%s] がタスクをリッスンし始めました
+command.chunk_pregen.info.listening.state,[%s] is listening to Tasks,[%s] はタスクをリッスンしています
+command.chunk_pregen.info.not_listening.state,[%s] is not listening to Tasks,[%s] はタスクをリッスンしていません
+command.chunk_pregen.info.reset,[%s] reset the listening state,[%s] はリスニング状態をリセットしました
+command.chunk_pregen.misc.cpu,"This Command checks how many CPU cores the JVM can actually see. This allows you to see if the docker Configuration is done properly
+CPU Threads: %1$s, Max Active Tasks: %2$s","このコマンドはJVMが実際に見ることができるCPUコアの数をチェックします。これによりDocker設定が正しく行われているかを確認できます
+CPUスレッド数：%1$s、最大アクティブタスク：%2$s"
+command.chunk_pregen.pois.cleaning.deleted,Unloaded [%s] Points of Interest from Minecraft,Minecraft の関心地点 [%s] 件をアンロードしました
+command.chunk_pregen.pois.cleaning.saved,"Saved the world, starting to clean the pois, this also might freeze the server. If a Lithium Port is installed this might crash the game",ワールドを保存中です。pois をクリーンアップし始めます。サーバーがフリーズする可能性があります。リチウム Port がインストールされている場合、ゲームがクラッシュする可能性があります
+command.chunk_pregen.pois.cleaning.start,"Saving the world, this might freeze the server.",ワールドを保存しています。サーバーがフリーズする可能性があります。
+command.chunk_pregen.process.continue.error,No Tasks to continue,続行するタスクがありません
+command.chunk_pregen.process.pause,Pausing [%s] Task,[%s] タスクを一時停止中
+command.chunk_pregen.process.pause.error,No Tasks to pause,一時停止するタスクがありません
+command.chunk_pregen.process.remove,Deleted [%s] Tasks,[%s] 個のタスクを削除しました
+command.chunk_pregen.process.remove.error,No Tasks to delete,削除するタスクがありません
+command.chunk_pregen.process.resume,Resuming [%s] Task,[%s] タスクを再開中
+command.chunk_pregen.process.resume.error,No Tasks to resume,再開するタスクがありません
+command.chunk_pregen.process.stop,Stopping [%s] Task,[%s] タスクを停止中
+command.chunk_pregen.process.stop.error,No Tasks to stop,停止するタスクがありません
+command.pregen_expansion.error.radius_is_insane,"Expansions larger then 1Billion Chunks are not allowed, WHY THE FUCK DO YOU WANT THIS!",10億チャンク以上の拡張は許可されていません。なぜこんなことをしたいのですか！
+command.pregen_expansion.error.radius_to_big.player,"Free version can only generate a chunk radius of 500 or less, make sure you didn't type in a Block radius",無料版はチャンク半径500以下のみで生成できます。ブロック半径で入力していないか確認してください
+command.pregen_expansion.error.radius_to_big.server,"Server Console can only generate a chunk radius of 500 or less, make sure you didn't type in a Block radius",サーバーコンソールはチャンク半径500以下のみで生成できます。ブロック半径で入力していないか確認してください
+command.pregen_expansion.gc.finish,Finished Memory Cleanup,メモリクリーンアップが完了しました
+command.pregen_expansion.gc.start,Starting Memory Cleanup. Might Freeze Server,メモリクリーンアップを開始しています。サーバーがフリーズする可能性があります
+command.pregen_expansion.tracker.disable,Disabled Performance Tracker,パフォーマンストラッカーを無効化しました
+command.pregen_expansion.tracker.disable.error,Performance Tracker is already Disabled,パフォーマンストラッカーは既に無効化されています
+command.pregen_expansion.tracker.enable,Enabled Performance Tracker,パフォーマンストラッカーを有効化しました
+command.pregen_expansion.tracker.enable.error,Performance Tracker is already Enabled,パフォーマンストラッカーは既に有効化されています
+commands.chunk_pregen.retrogen.add,Added [%s] to the retrogen list,[%s] をレトロジェン リストに追加しました
+commands.chunk_pregen.retrogen.category,Category: %s,カテゴリ: %s
+commands.chunk_pregen.retrogen.disable,Click to Disable,クリックして無効化
+commands.chunk_pregen.retrogen.disabled,[%s] disabled Retrogen Features,[%s] がレトロジェン機能を無効化しました
+commands.chunk_pregen.retrogen.enable,Click to Enable,クリックして有効化
+commands.chunk_pregen.retrogen.enabled,[%s] enabled Retrogen Features,[%s] がレトロジェン機能を有効化しました
+commands.chunk_pregen.retrogen.error.active,Retrogen settings are locked during active retrogeneration,レトロジェン設定はアクティブなレトロジェネレーション中はロックされています
+commands.chunk_pregen.retrogen.error.empty,No Retrogen Features active,アクティブなレトロジェン機能はありません
+commands.chunk_pregen.retrogen.error.full,No disabled Retrogen Features,無効化されたレトロジェン機能はありません
+commands.chunk_pregen.retrogen.feature,"Feature: %1$s, (%2$s)",機能：%1$s、(%2$s)
+commands.chunk_pregen.retrogen.list,Click to List,クリックしてリスト表示
+commands.chunk_pregen.retrogen.mod,Mod: %s,モッド: %s
+commands.chunk_pregen.retrogen.remove,Removed [%s] from the retrogen list,[%s] をレトロジェン リストから削除しました
+deleter.chunk_pregen.finish,"Deletion Finished: [Time=%1$s, Chunks=%2$s]",削除が完了しました：[時間=%1$s、チャンク数=%2$s]
+deleter.chunk_pregen.progress,Progress (Deleted | Failed) / Total: (%1$s | %2$s) / %3$s,進行状況(削除済み｜失敗)/合計：(%1$s | %2$s) / %3$s
+gui.chunk_pregen.biome_preview.apply,Apply,適用
+gui.chunk_pregen.biome_preview.apply_seed,Apply,適用
+gui.chunk_pregen.biome_preview.close,Close,閉じる
+gui.chunk_pregen.biome_preview.confirm.body,Do you want to go into the main Menu or do you want to transition into the Preview?,メインメニューに移動しますか、それともプレビューに切り替えますか？
+gui.chunk_pregen.biome_preview.confirm.header,Select your Action,操作を選択
+gui.chunk_pregen.biome_preview.confirm.menu,Go to Main Menu,メインメニューに移動
+gui.chunk_pregen.biome_preview.confirm.preview,Go to Preview,プレビューに移動
+gui.chunk_pregen.biome_preview.dimension,Dimension:,ディメンション：
+gui.chunk_pregen.biome_preview.go_spawn,Go To,移動
+gui.chunk_pregen.biome_preview.grid_lines,Region Grid,地域グリッド
+gui.chunk_pregen.biome_preview.no_spam,Less Spam,スパム削減
+gui.chunk_pregen.biome_preview.overlays,Overlays:,オーバーレイ：
+gui.chunk_pregen.biome_preview.positions,Location,場所
+gui.chunk_pregen.biome_preview.queue,Queue: %s,キュー：%s
+gui.chunk_pregen.biome_preview.randomize_seed,Randomize,ランダム化
+gui.chunk_pregen.biome_preview.seed,Seed:,シード：
+gui.chunk_pregen.biome_preview.set_spawn,Set,設定
+gui.chunk_pregen.biome_preview.slime_chunks,Slime Chunks,スライムチャンク
+gui.chunk_pregen.biome_preview.spawn,Spawn Point:,スポーン地点：
+gui.chunk_pregen.biome_preview.structures,Structures,構造物
+gui.chunk_pregen.biome_preview.tooltip.active,Active: %s,アクティブ: %s
+gui.chunk_pregen.biome_preview.tooltip.active.false,False,偽
+gui.chunk_pregen.biome_preview.tooltip.active.true,True,真
+gui.chunk_pregen.biome_preview.tooltip.biome,Biome: %s,バイオーム: %s
+gui.chunk_pregen.biome_preview.tooltip.computing,Computing Chunk,チャンク計算中
+gui.chunk_pregen.biome_preview.tooltip.dimension,Press Shift for a Picker,シフトキーを押すとピッカーが表示されます
+gui.chunk_pregen.biome_preview.tooltip.go_spawn,Moves the crosshair to the Spawn Point,クロスヘアをスポーン地点に移動します
+gui.chunk_pregen.biome_preview.tooltip.grid_lines,Toggles the Gridline overlay,グリッドラインオーバーレイの切り替え
+gui.chunk_pregen.biome_preview.tooltip.guessed,(Guessed Biome Color),(推測バイオームカラー)
+gui.chunk_pregen.biome_preview.tooltip.no_spam,Toggles if Structures that are Spammed get disabled from the Overlay,スパムされている構造物をオーバーレイから除外するかどうかを切り替えます
+gui.chunk_pregen.biome_preview.tooltip.position,"X=%1$s, Z=%2$s","X=%1$s, Z=%2$s"
+gui.chunk_pregen.biome_preview.tooltip.positions,Toggles the Position overlay,位置オーバーレイの切り替え
+gui.chunk_pregen.biome_preview.tooltip.set_spawn,Sets the Spawn Point the location of the crosshair,スポーン地点をクロスヘアの位置に設定します
+gui.chunk_pregen.biome_preview.tooltip.slime_chunks,Toggles the Slime Chunk overlay,スライムチャンクオーバーレイの切り替え
+gui.chunk_pregen.biome_preview.tooltip.structure,Structures:,構造:
+gui.chunk_pregen.biome_preview.tooltip.structure_mod,(%1$s),(%1$s)
+gui.chunk_pregen.biome_preview.tooltip.structure_name,%1$s %2$s,%1$s %2$s
+gui.chunk_pregen.biome_preview.tooltip.structures,Toggles the Display of Structure Icons,構造物アイコン表示の切り替え
+gui.chunk_pregen.biome_preview.tooltip.x,X=%s,X=%s
+gui.chunk_pregen.biome_preview.tooltip.z,Z=%s,Z=%s
+gui.chunk_pregen.button.patreon,Support Speiger on Patreon,Speiger のパトレオン をサポート
+gui.chunk_pregen.button.preview,Preview,プレビュー
+gui.chunk_pregen.check_screen.body,"Are you really sure you want to delete
+
+ %1$sx [%2$s]","本当に削除しますか？
+
+ %1$sx [%2$s]"
+gui.chunk_pregen.check_screen.header,Are you sure you want to do this?,本当に実行してもよろしいですか？
+gui.chunk_pregen.chunk_screen.category.type,§7Types:§r %s,§7タイプ：§r %s
+gui.chunk_pregen.chunk_screen.entry.chunk.base,"§6Chunk: §f[§rX=%1$s, Z=%2$s§f] ","§6チャンク: §f[§rX=%1$s, Z=%2$s§f] "
+gui.chunk_pregen.chunk_screen.entry.chunk.dist,§6Dist=%1$s Blocks,§6距離=%1$s ブロック
+gui.chunk_pregen.chunk_screen.entry.entities,§2Entities:§r %s,§2エンティティ：§r %s
+gui.chunk_pregen.chunk_screen.entry.tiles,"§4Tiles:§r %1$s, §4Ticking:§r %2$s",ブロック：§r %1$s、ティッキング：§r %2$s
+gui.chunk_pregen.chunk_screen.header,Chunk Data,チャンクデータ
+gui.chunk_pregen.chunk_screen.search_target,Search Target,検索対象
+gui.chunk_pregen.chunk_screen.tp,TP,TP
+gui.chunk_pregen.chunk_screen.tp.desc,Teleport To Chunk,チャンクにテレポート
+gui.chunk_pregen.chunk_screen.types.all,All,すべて
+gui.chunk_pregen.chunk_screen.types.biomes,Biomes,バイオーム
+gui.chunk_pregen.chunk_screen.types.blocks,Blocks,ブロック
+gui.chunk_pregen.chunk_screen.types.distance,Distance,距離
+gui.chunk_pregen.chunk_screen.types.entities,Entities,エンティティ
+gui.chunk_pregen.chunk_screen.types.tiles,Tiles,タイル
+gui.chunk_pregen.config.apply,Apply,適用
+gui.chunk_pregen.config.back,Back,戻る
+gui.chunk_pregen.config.boolean.false,False,偽
+gui.chunk_pregen.config.boolean.true,True,真
+gui.chunk_pregen.config.cancel,Cancel,キャンセル
+gui.chunk_pregen.config.changed_only,Show Only Changed Values,変更された値のみ表示
+gui.chunk_pregen.config.configs.local,Local Configs,ローカル設定
+gui.chunk_pregen.config.configs.multiplayer,Multiplayer Configs,マルチプレイ設定
+gui.chunk_pregen.config.configs.world,World Configs,ワールド設定
+gui.chunk_pregen.config.deepsearch,Deep Search,深い検索
+gui.chunk_pregen.config.default,Default,デフォルト
+gui.chunk_pregen.config.default_only,Show Non Default Values,デフォルト以外の値を表示
+gui.chunk_pregen.config.delete,Delete,削除
+gui.chunk_pregen.config.edit,Edit,編集
+gui.chunk_pregen.config.home,Home,ホーム
+gui.chunk_pregen.config.logo.link.curseforge,Curseforge,カースフォージ
+gui.chunk_pregen.config.logo.link.message,Which Modhosting page do you want to open?,どの Modhosting ページを開きますか？
+gui.chunk_pregen.config.logo.link.title,Open Mod Page,Modページを開く
+gui.chunk_pregen.config.logo.name,Carbon Config,Carbon設定
+gui.chunk_pregen.config.logo.page,Click to Open Modpage,クリックして Mod ページを開く
+gui.chunk_pregen.config.modify,Modify,変更
+gui.chunk_pregen.config.ok,Understood,わかりました
+gui.chunk_pregen.config.pick,Pick,選択
+gui.chunk_pregen.config.pick_file,Pick File,ファイルを選択
+gui.chunk_pregen.config.reload,Requires Reload,ワールド再読み込みが必要
+gui.chunk_pregen.config.reload.message,You changed a setting that requires a World Reload!,ワールドの再ロードが必要な設定を変更しました！
+gui.chunk_pregen.config.reload.sync,Config Synced Please Rejoin the World,設定が同期されました。ワールドに再度参加してください
+gui.chunk_pregen.config.reload.title,World Reload,ワールド再ロード
+gui.chunk_pregen.config.requesting_config,Requesting Config,設定をリクエスト中
+gui.chunk_pregen.config.reset,Reset All,すべてリセット
+gui.chunk_pregen.config.reset_all.cancel,Cancel,キャンセル
+gui.chunk_pregen.config.reset_all.default,Set all Default,すべてをデフォルトに設定
+gui.chunk_pregen.config.reset_all.message,"Do you want to do any Changes done?
+Or do you want to default everything?","変更を戻しますか?
+それとも、すべてをデフォルトにリセットしますか?"
+gui.chunk_pregen.config.reset_all.reset,Undo Changes,変更を元に戻す
+gui.chunk_pregen.config.reset_all.title,Reset Everything?,すべてをリセットしますか？
+gui.chunk_pregen.config.restart,Requires Restart,ゲーム再起動が必要
+gui.chunk_pregen.config.restart.message,You changed a setting that requires a Game Restart!,ゲームの再起動が必要な設定を変更しました！
+gui.chunk_pregen.config.restart.sync,Config Synced Please Restart the Game,設定が同期されました。ゲームを再起動してください
+gui.chunk_pregen.config.restart.title,Game Restart,ゲーム再起動
+gui.chunk_pregen.config.revert,Revert,元に戻す
+gui.chunk_pregen.config.save,Save,保存
+gui.chunk_pregen.config.search,Search...,検索...
+gui.chunk_pregen.config.select_config,Select Config,設定を選択
+gui.chunk_pregen.config.select_world,Select World,ワールドを選択
+gui.chunk_pregen.config.suggestions,Suggestions,提案
+gui.chunk_pregen.config.timeout,Timeout: %s seconds,タイムアウト: %s 秒
+gui.chunk_pregen.config.type.client,Client,クライアント
+gui.chunk_pregen.config.type.server,Server,サーバー
+gui.chunk_pregen.config.type.shared,Shared,共有
+gui.chunk_pregen.config.warn.changed,You have changed the value!,値が変更されました！
+gui.chunk_pregen.config.warn.changed.desc,"Proceeding this will cause changes to be lost!
+
+Do you want to Proceed?","このまま進むと変更が失われます！
+
+続行しますか？"
+gui.chunk_pregen.dimension_screen.deleted,Removed %1$s [%2$s],%1$s [%2$s] を削除しました
+gui.chunk_pregen.dimension_screen.header.blocks,World Blocks,ワールドブロック
+gui.chunk_pregen.dimension_screen.header.entities,World Entities,ワールドエンティティ
+gui.chunk_pregen.dimension_screen.header.tiles,World Tiles,ワールドタイル
+gui.chunk_pregen.dimension_screen.rng_tick,RNG Tick,RNG ティック
+gui.chunk_pregen.dimension_screen.sort,Sort By,並び替え
+gui.chunk_pregen.dimension_screen.sort.count,Count,カウント
+gui.chunk_pregen.dimension_screen.sort.mod,Mod,モジュール
+gui.chunk_pregen.dimension_screen.sort.name,Name,名前
+gui.chunk_pregen.dimension_screen.ticking,Ticking,ティッキング
+gui.chunk_pregen.dimension_screen.tooltip.delete,Shift Click to delete,シフトキーを押しながらクリックして削除
+gui.chunk_pregen.dimension_screen.tooltip.found,Found: %s,見つかった：%s
+gui.chunk_pregen.dimension_screen.tooltip.no_lag,Does not cause any Lag,ラグを引き起こしません
+gui.chunk_pregen.dimension_screen.tooltip.rng_tick,Does Randomly Tick,ランダムにティックします
+gui.chunk_pregen.dimension_screen.tooltip.type.block,Block: %s,ブロック: %s
+gui.chunk_pregen.dimension_screen.tooltip.type.entity,Entity: %s,エンティティ: %s
+gui.chunk_pregen.dimension_screen.tooltip.type.tile,Tile: %s,タイル：%s
+gui.chunk_pregen.disk_screen.files,%s Files,%s ファイル
+gui.chunk_pregen.disk_screen.folder.advancements,Advancements,アドバンスメント
+gui.chunk_pregen.disk_screen.folder.configs,Configs,設定
+gui.chunk_pregen.disk_screen.folder.data,Data,データ
+gui.chunk_pregen.disk_screen.folder.datapacks,Datapacks,データパック
+gui.chunk_pregen.disk_screen.folder.dimensions,Dimensions,ディメンション
+gui.chunk_pregen.disk_screen.folder.misc,Misc,その他
+gui.chunk_pregen.disk_screen.folder.player_data,Player Data,プレイヤーデータ
+gui.chunk_pregen.disk_screen.folder.root,Root,ルート
+gui.chunk_pregen.disk_screen.folder.stats,Stats,統計
+gui.chunk_pregen.disk_screen.folder.world.data,World Data,ワールドデータ
+gui.chunk_pregen.disk_screen.folder.world.entities,Entities,エンティティ
+gui.chunk_pregen.disk_screen.folder.world.poi,Points of Interest,関心地点
+gui.chunk_pregen.disk_screen.folder.world.region,Chunks,チャンク
+gui.chunk_pregen.disk_screen.header,Disk View,ディスクビュー
+gui.chunk_pregen.disk_screen.overall,Overall: %s%%,全体：%s%%
+gui.chunk_pregen.feature_picker.biome_preview,Biome Preview,バイオームプレビュー
+gui.chunk_pregen.feature_picker.body,Please Pick which Preview you want to open?,どのプレビューを開きますか？
+gui.chunk_pregen.feature_picker.header,Which Preview do you want to Open?,どのプレビューを開きますか？
+gui.chunk_pregen.feature_picker.preview,Generating Preview,プレビュー生成中
+gui.chunk_pregen.menu.actions,Actions,アクション
+gui.chunk_pregen.menu.active_tasks,Active Tasks: %s,アクティブなタスク：%s
+gui.chunk_pregen.menu.base_config,Base Config:,基本設定：
+gui.chunk_pregen.menu.biome_viewer,Biome Previewer:,バイオームビューアー：
+gui.chunk_pregen.menu.blocks,Blocks:,ブロック:
+gui.chunk_pregen.menu.chat_state,Chat Listen State:,チャットリッスン状態：
+gui.chunk_pregen.menu.chunks,Chunks:,チャンク：
+gui.chunk_pregen.menu.commands,Commands,コマンド
+gui.chunk_pregen.menu.continue,Continue Tasks,タスクを続行
+gui.chunk_pregen.menu.create,Create,作成
+gui.chunk_pregen.menu.deletion_tasks,Deletion Tasks:,削除タスク：
+gui.chunk_pregen.menu.detailed_dim,Detailed Dim:,詳細ディメンション：
+gui.chunk_pregen.menu.disk_viewer,Disk Viewer:,ディスクビューアー：
+gui.chunk_pregen.menu.enabled,Enabled:,有効：
+gui.chunk_pregen.menu.entities,Entities:,エンティティ：
+gui.chunk_pregen.menu.expansion_config,Expansion Config,拡張設定
+gui.chunk_pregen.menu.generation_tasks,Generation Tasks:,生成タスク：
+gui.chunk_pregen.menu.info,Info,情報
+gui.chunk_pregen.menu.listen_state.active,Active,アクティブ
+gui.chunk_pregen.menu.listen_state.ignoring,Ignoring,無視
+gui.chunk_pregen.menu.listen_state.passive,Passive,パッシブ
+gui.chunk_pregen.menu.listening,Listening To Task:,リッスン中のタスク：
+gui.chunk_pregen.menu.minimap_settings,MiniMap Settings:,ミニマップ設定：
+gui.chunk_pregen.menu.misc,Misc,その他
+gui.chunk_pregen.menu.misc_entry,Miscellaneous,その他
+gui.chunk_pregen.menu.more_settings,More Settings:,その他の設定：
+gui.chunk_pregen.menu.no,No,いいえ
+gui.chunk_pregen.menu.open,Open,開く
+gui.chunk_pregen.menu.pause,Pause Tasks,タスクを一時停止
+gui.chunk_pregen.menu.paused_tasks,Paused Tasks: %s,一時停止中のタスク：%s
+gui.chunk_pregen.menu.poll_delay,Poll Delay:,ポーリング遅延：
+gui.chunk_pregen.menu.pregen_overlay,Pregen Overlay,事前生成オーバーレイ
+gui.chunk_pregen.menu.queued tasks,Queued Tasks: %s,キュー内のタスク：%s
+gui.chunk_pregen.menu.remove,Remove Tasks,タスクを削除
+gui.chunk_pregen.menu.resume,Resume Tasks,タスクを再開
+gui.chunk_pregen.menu.retrogen_selector,Retrogen Selector:,レトロジェン選択：
+gui.chunk_pregen.menu.running_tasks,Running Tasks: %s,実行中のタスク：%s
+gui.chunk_pregen.menu.select,Select,選択
+gui.chunk_pregen.menu.selectors,Selectors,セレクター
+gui.chunk_pregen.menu.server_data,Server Data,サーバーデータ
+gui.chunk_pregen.menu.stop,Stop Tasks,タスクを停止
+gui.chunk_pregen.menu.stored_tasks,Stored Tasks: %s,保存されたタスク：%s
+gui.chunk_pregen.menu.task_generators,Task Generators,タスク生成器
+gui.chunk_pregen.menu.task_list,Task List,タスクリスト
+gui.chunk_pregen.menu.tick,%s tick,%s ティック
+gui.chunk_pregen.menu.ticks,%s ticks,%s チェック
+gui.chunk_pregen.menu.tiles,Tiles:,タイル：
+gui.chunk_pregen.menu.tooltip.permission,"You don't have the permissions to access this feature
+Please do either of these:
+- Enable Cheats
+- Enable Op Rights
+- Get added to the permission list","この機能にアクセスする権限がありません
+以下のいずれかを実行してください：
+- チートを有効化
+- Op 権限を有効化
+- 権限リストに追加してもらう"
+gui.chunk_pregen.menu.tooltip.previewer_singleplayer,"The Biome Previewer only works in Singleplayer.
+This is due to biome generation being bound to the server","バイオームプレビューはシングルプレイヤーでのみ機能します。
+これはバイオーム生成がサーバーにバインドされているためです"
+gui.chunk_pregen.menu.tracker_overlay,Tracker Overlay,トラッカーオーバーレイ
+gui.chunk_pregen.menu.view_tasks,View Tasks,タスク表示
+gui.chunk_pregen.menu.world_data,World Data,ワールドデータ
+gui.chunk_pregen.menu.yes,Yes,はい
+gui.chunk_pregen.missing_screen.back,Go Back,戻る
+gui.chunk_pregen.missing_screen.body,"The World Previewer is no longer part of this mod.
+
+It isn't the only way to pregen worlds in this mod.
+If you want to access the preview, please check out the wiki.","ワールドプレビューアーはこの Modに含まれなくなりました。
+
+これは Mod でワールドを事前生成する唯一の方法ではありません。
+プレビューにアクセスしたい場合は、wiki をご確認ください。"
+gui.chunk_pregen.missing_screen.header,Opening Preview,プレビューを開く
+gui.chunk_pregen.missing_screen.wiki,Open Wiki,Wiki を開く
+gui.chunk_pregen.preview.adv,Adv,アドバンス
+gui.chunk_pregen.preview.apply,Apply,適用
+gui.chunk_pregen.preview.apply_seed,Apply Seed,シード適用
+gui.chunk_pregen.preview.apply_size,Apply Size,サイズ適用
+gui.chunk_pregen.preview.back,Back,戻る
+gui.chunk_pregen.preview.chunk,"Chunk: [X=%1$s, Z=%2$s]",チャンク：[X=%1$s、Z=%2$s]
+gui.chunk_pregen.preview.confirm.body,"Finishing Unlit chunks is slow, it is highly suggested to complete
+Work Left to do:","照明されていないチャンクの完成は遅いため、完成を強くお勧めします
+処理予定："
+gui.chunk_pregen.preview.confirm.entry,%1$s: %2$s Chunks,%1$s：%2$s チャンク
+gui.chunk_pregen.preview.confirm.header,Are you sure you want to keep this unfinished world?,このアンロードされたワールドを保持しますか？
+gui.chunk_pregen.preview.dim_progress.gen,Dim: %1$s / %2$s Gen-Chunks,ディメンション：%1$s / %2$s 生成チャンク
+gui.chunk_pregen.preview.dim_progress.light,Dim: %1$s / %2$s Light-Chunks,ディメンション：%1$s / %2$s 照明チャンク
+gui.chunk_pregen.preview.gc,GC,GC
+gui.chunk_pregen.preview.generation,Generation Settings:,生成設定：
+gui.chunk_pregen.preview.keep_world,Keep World,ワールド保持
+gui.chunk_pregen.preview.lighting,Chunk needs Lighting,チャンクに照明が必要です
+gui.chunk_pregen.preview.loading_dims,Loading Dimensions,ディメンションロード中
+gui.chunk_pregen.preview.overlays,Overlays:,オーバーレイ：
+gui.chunk_pregen.preview.position,"Position: [X=%1$s, Y=%2$s, Z=%3$s]",位置：[X=%1$s、Y=%2$s、Z=%3$s]
+gui.chunk_pregen.preview.processing,Processing,処理中
+gui.chunk_pregen.preview.progress,Progress View,進行状況ビュー
+gui.chunk_pregen.preview.progress.gen,%1$s / %2$s Gen-Chunks,%1$s / %2$s 生成チャンク
+gui.chunk_pregen.preview.progress.light,%1$s / %2$s Light-Chunks,%1$s / %2$s 照明チャンク
+gui.chunk_pregen.preview.radius.prefix,Radius: ,半径: 
+gui.chunk_pregen.preview.radius.suffix," Chunks",チャンク
+gui.chunk_pregen.preview.randomize,Randomize,ランダム化
+gui.chunk_pregen.preview.screenshot,Screenshot,スクリーンショット
+gui.chunk_pregen.preview.screenshot.biomes,Biomes,バイオーム
+gui.chunk_pregen.preview.screenshot.blocks,Blocks,ブロック
+gui.chunk_pregen.preview.screenshot.create,Create Screenshots,スクリーンショット作成
+gui.chunk_pregen.preview.screenshot.entry.create,Create,作成
+gui.chunk_pregen.preview.screenshot.entry.slime,Slime Chunks,スライムチャンク
+gui.chunk_pregen.preview.screenshot.entry.spam,Show Spam,スパム表示
+gui.chunk_pregen.preview.screenshot.entry.structures,Structures,構造物
+gui.chunk_pregen.preview.screenshot.header,Screenshot Picker,スクリーンショットピッカー
+gui.chunk_pregen.preview.screenshot.heights,Heights,高さ
+gui.chunk_pregen.preview.seed,Seed:,シード：
+gui.chunk_pregen.preview.seed_header,Dimension Seed Editor,ディメンションシードエディター
+gui.chunk_pregen.preview.shape,Shape: %s,形状: %s
+gui.chunk_pregen.preview.slime_chunk,Slime Chunk,スライムチャンク
+gui.chunk_pregen.preview.slime_chunks,Slime Chunks,スライムチャンク
+gui.chunk_pregen.preview.start,Start,開始
+gui.chunk_pregen.preview.stop,Stop,停止
+gui.chunk_pregen.preview.stopping,Stopping,停止中
+gui.chunk_pregen.preview.structures,Structures,構造物
+gui.chunk_pregen.preview.tooltip.disk_usage,Disk Usage: (For this specific Dimension),ディスク使用量：(このディメンション固有)
+gui.chunk_pregen.preview.tooltip.expected_usage,Expected Memory Usage,予想メモリ使用量
+gui.chunk_pregen.preview.tooltip.gpu_usage,GPU Usage: %s,GPU 使用率：%s
+gui.chunk_pregen.preview.tooltip.preview_data,Preview Data: %s (Temporary),プレビューデータ：%s(一時的)
+gui.chunk_pregen.preview.tooltip.progress,Toggles the Progress Overlay,進行状況オーバーレイの切り替え
+gui.chunk_pregen.preview.tooltip.randomize,Randomize,ランダム化
+gui.chunk_pregen.preview.tooltip.reset,Reset,リセット
+gui.chunk_pregen.preview.tooltip.screenshot,"Creates a Screenshot of the currently viewed map with selected overlays.
+Press Shift for a more detailed Configuration","現在表示しているマップの選択されたオーバーレイを含むスクリーンショットを作成します。
+シフトキーを押すと、より詳細な設定になります"
+gui.chunk_pregen.preview.tooltip.screenshot.entry.create,If a Screenshot should be created,スクリーンショットを作成するかどうか
+gui.chunk_pregen.preview.tooltip.screenshot.entry.slime,If Slime Chunks should be visible on the Screenshot,スライムチャンクがスクリーンショットに表示されるかどうか
+gui.chunk_pregen.preview.tooltip.screenshot.entry.spam,If Spammy Structures should be visible,スパム構造物が表示されるかどうか
+gui.chunk_pregen.preview.tooltip.screenshot.entry.structures,If Structures should be visible on the Screenshot,構造物がスクリーンショットに表示されるかどうか
+gui.chunk_pregen.preview.tooltip.world_data,World Data: %s,ワールドデータ：%s
+gui.chunk_pregen.preview.tooltip.world_size,WorldSize: %1$s / %1$s Blocks,ワールドサイズ：%1$s / %1$s ブロック
+gui.chunk_pregen.preview.view.biomes,Map Views: Biomes,マップビュー：バイオーム
+gui.chunk_pregen.preview.view.blocks,Map Views: Blocks,マップビュー：ブロック
+gui.chunk_pregen.preview.view.heights,Map Views: Heights,マップビュー：高さ
+gui.chunk_pregen.retrogen_selector.back,Back,戻る
+gui.chunk_pregen.retrogen_selector.disable,Disable,無効
+gui.chunk_pregen.retrogen_selector.enable,Enable,有効
+gui.chunk_pregen.retrogen_selector.header,Retrogen Selector,レトロジェン選択
+gui.chunk_pregen.retrogen_selector.show_frame,Show Frame,フレームを表示
+gui.chunk_pregen.retrogen_selector.show_mods,Show Mods,Mod 表示
+gui.chunk_pregen.selector_screen.cancel,Cancel,キャンセル
+gui.chunk_pregen.selector_screen.pick,Pick,選択
+gui.chunk_pregen.supporter.acknowledge,Acknowledge,確認
+gui.chunk_pregen.supporter.body,"The feature you are trying to access is limited to supporters only.
+
+Please make sure you set the 'update-supporters' config (expansion.cfg) to true if you are already a supporter.
+
+Otherwise please obtain access first.","アクセスしようとしている機能はサポーター限定です。
+
+あなたが既にサポーターの場合は、「update-supporters」設定(expansion.cfg)が true に設定されていることを確認してください。
+
+それ以外の場合は、まずアクセスを取得してください。"
+gui.chunk_pregen.supporter.header,Accessing Supporter Only feature,サポーター限定機能へのアクセス
+gui.chunk_pregen.supporter.obtain,Obtain Access,アクセス取得
+gui.chunk_pregen.task_screen.deletion_tasks,Deletion Tasks,削除タスク
+gui.chunk_pregen.task_screen.gen_tasks,Generation Tasks,生成タスク
+gui.chunk_pregen.task_screen.header,Task List,タスクリスト
+gui.chunk_pregen.task_screen.memory,~%1$s / %2$s,~%1$s / %2$s
+gui.chunk_pregen.task_screen.nodes.active,Active Task,アクティブなタスク
+gui.chunk_pregen.task_screen.nodes.already_running,%s already has a running task,%s は既に実行中のタスクを持っています
+gui.chunk_pregen.task_screen.nodes.chunks,%s Chunks,%s チャンク
+gui.chunk_pregen.task_screen.nodes.delete,Delete,削除
+gui.chunk_pregen.task_screen.nodes.dim,Dim %s,ディメンション %s
+gui.chunk_pregen.task_screen.nodes.eta,"ETA: %1$s, (%2$s Chunks/tick)",予想時間：%1$s、(%2$s チャンク/ティック)
+gui.chunk_pregen.task_screen.nodes.from,"From: X=%1$s, Z=%2$s",開始：X=%1$s、Z=%2$s
+gui.chunk_pregen.task_screen.nodes.name,Name: %s,名前: %s
+gui.chunk_pregen.task_screen.nodes.pause,Pause,一時停止
+gui.chunk_pregen.task_screen.nodes.resume,Resume,再開
+gui.chunk_pregen.task_screen.nodes.start,Start,開始
+gui.chunk_pregen.task_screen.nodes.stop,Stop,停止
+gui.chunk_pregen.task_screen.nodes.to,"To: X=%1$s, Z=%2$s",終了：X=%1$s、Z=%2$s
+gui.chunk_pregen.task_screen.tasks,%s Tasks,%s タスク
+gui.chunk_pregen.taskgenerator.adv,Adv Settings,詳細設定
+gui.chunk_pregen.taskgenerator.cancel,Cancel,キャンセル
+gui.chunk_pregen.taskgenerator.center_x,Center X:,中心 X：
+gui.chunk_pregen.taskgenerator.center_z,Center Z:,中心 Z：
+gui.chunk_pregen.taskgenerator.dimension,Dimension:,ディメンション：
+gui.chunk_pregen.taskgenerator.disk_reduction,Disk Reduction: ~%1$s / %2$s,ディスク削減：~%1$s / %2$s
+gui.chunk_pregen.taskgenerator.disk_usage,Task Disk Usage: ~%1$s / %2$s,タスクディスク使用量：~%1$s / %2$s
+gui.chunk_pregen.taskgenerator.disk_usage.fetching,Task Disk Usage: Fetching,タスクディスク使用量：取得中
+gui.chunk_pregen.taskgenerator.error.million_limit,Task isn't allowed to be bigger then 1 Million Chunks,タスクは100万チャンク以下である必要があります
+gui.chunk_pregen.taskgenerator.error.min_bigger_max,Min Radius is bigger then the Max Radius,最小半径は最大半径より大きくすることはできません
+gui.chunk_pregen.taskgenerator.error.min_x_bigger_max,MinX is bigger then the MaxX,最小 X は最大 X より大きくすることはできません
+gui.chunk_pregen.taskgenerator.error.min_z_bigger_max,MinZ is bigger then the MaxZ,最小 Z は最大 Z より大きくすることはできません
+gui.chunk_pregen.taskgenerator.error.out_of_storage,Task is larger then your Disk Storage,タスクがディスクストレージより大きいです
+gui.chunk_pregen.taskgenerator.error.radius_to_small,Radius has to be bigger then 0,半径は0より大きくする必要があります
+gui.chunk_pregen.taskgenerator.error.task_name,[Task Name] is required.,「タスク名」は必須です。
+gui.chunk_pregen.taskgenerator.from_x,From X:,開始 X：
+gui.chunk_pregen.taskgenerator.from_z,From Z:,開始 Z：
+gui.chunk_pregen.taskgenerator.gen_type,Generation Type:,生成タイプ：
+gui.chunk_pregen.taskgenerator.max_radius,Max Radius:,最大半径：
+gui.chunk_pregen.taskgenerator.max_time,Max Time:,最大時間：
+gui.chunk_pregen.taskgenerator.min_radius,Min Radius:,最小半径：
+gui.chunk_pregen.taskgenerator.positioning,Positioning:,位置決め：
+gui.chunk_pregen.taskgenerator.radius,Radius:,半径:
+gui.chunk_pregen.taskgenerator.select,Select,選択
+gui.chunk_pregen.taskgenerator.shape,Shape:,形状：
+gui.chunk_pregen.taskgenerator.start,Start Gen,生成開始
+gui.chunk_pregen.taskgenerator.task_name,Task Name:,タスク名：
+gui.chunk_pregen.taskgenerator.task_type,Task Type:,タスクタイプ：
+gui.chunk_pregen.taskgenerator.title,Gen Task Creator,生成タスククリエーター
+gui.chunk_pregen.taskgenerator.to_x,To X:,終了 X：
+gui.chunk_pregen.taskgenerator.to_z,To Z:,終了 Z：
+gui.chunk_pregen.taskgenerator.tooltip.count_blocks,Counts as Blocks,ブロック単位でカウント
+gui.chunk_pregen.taskgenerator.tooltip.count_chunks,Counts as Chunks,チャンク単位でカウント
+gui.chunk_pregen.taskgenerator.tooltip.dimension,Dimension: ,ディメンション: 
+gui.chunk_pregen.taskgenerator.tooltip.mod,Mod: %s,モッド: %s
+gui.chunk_pregen.taskgenerator.tooltip.time.days,Ingame Days,ゲーム内日数
+gui.chunk_pregen.taskgenerator.tooltip.time.irl_days,Real Life Days,現実日数
+gui.chunk_pregen.taskgenerator.tooltip.time.seconds,Seconds,秒
+gui.chunk_pregen.taskgenerator.tooltip.time.ticks,Ticks,ティック
+gui.chunk_pregen.taskgenerator.tooltip.type.area,Area,エリア
+gui.chunk_pregen.taskgenerator.tooltip.type.expansion,Expansion,拡張
+gui.chunk_pregen.taskgenerator.tooltip.type.radius,Radius,半径
+gui.chunk_pregen.taskgenerator.tooltip.type.trim_excess,Trim Excess,超過削減
+gui.chunk_pregen.taskgenerator.tooltip.type.trim_timed,Trim Timed,時間削減
+gui.chunk_pregen.taskgenerator.tooltip.value_literal,Literal Value,リテラル値
+gui.chunk_pregen.taskgenerator.tooltip.value_player,Relative To Player,プレイヤーから相対位置
+gui.chunk_pregen.taskgenerator.tooltip.value_spawn,Relative to Spawn,スポーンから相対位置
+gui.chunk_pregen.unused_constructor,I AM ERROR,エラーです
+key.chunk_pregen.header,Chunk Pregenerator,チャンク事前生成 Mod
+key.chunk_pregen.key,Options Gui,オプション GUI
+mini_task.chunk_pregen.age_scan.completed,Chunk Age Scan complete.,チャンク年齢スキャンが完了しました。
+mini_task.chunk_pregen.age_scan.first,<5 seconds old,5秒以内
+mini_task.chunk_pregen.age_scan.fith,>30 minutes old,30分以上
+mini_task.chunk_pregen.age_scan.found,Found Chunks:,見つかったチャンク：
+mini_task.chunk_pregen.age_scan.fourth,<30 minutes old,30分以内
+mini_task.chunk_pregen.age_scan.progress,Scan Progress: %s%%,スキャン進行状況：%s%%
+mini_task.chunk_pregen.age_scan.second,<1 minute old,1分以内
+mini_task.chunk_pregen.age_scan.start,Started Chunk Age Scan. Found [%s] files to scan,チャンク年齢スキャンを開始しました。[%s] ファイルをスキャン予定
+mini_task.chunk_pregen.age_scan.suggestion,Click to Copy the Trim command,クリックしてTrimコマンドをコピー
+mini_task.chunk_pregen.age_scan.third,<10 minutes old,10分以内
+mini_task.chunk_pregen.age_scan.time,%1$s: %2$s Chunks,%1$s：%2$s チャンク
+mini_task.chunk_pregen.corrupt_scan.chunk,"   - Chunk At: X=%1$s, Z=%1$s (LocalX=%3$s, LocalZ=%4$s) is Corrupt","   - チャンク位置: X=%1$s, Z=%1$s (LocalX=%3$s, LocalZ=%4$s) は破損しています"
+mini_task.chunk_pregen.corrupt_scan.found,Found [%1$s] Chunks in Dimension: %2$s,ディメンション %2$s で [%1$s] 個の破損チャンクが見つかりました
+mini_task.chunk_pregen.corrupt_scan.none_found,No Corrupt chunks found,破損チャンクは見つかりません
+mini_task.chunk_pregen.corrupt_scan.region,Found %1$s Corrupt chunks at region: r.%2$s.%3$s.mca,リージョン r.%2$s.%3$s.mca で %1$s 個の破損チャンクが見つかりました
+mini_task.chunk_pregen.corrupt_scan.start,Started Corrupt Chunk Scan. Found [%s] files to scan,破損チャンクスキャンを開始しました。[%s] ファイルをスキャン予定
+mini_task.chunk_pregen.corrupt_scan.task,Created Deletion Task. Click on this message to start it,削除タスクを作成しました。このメッセージをクリックして開始してください
+mini_task.chunk_pregen.size_scan.actual_area,Fully Generated Area:,完全に生成されたエリア：
+mini_task.chunk_pregen.size_scan.from,"From: X=%1$s, Z=%2$s",開始：X=%1$s、Z=%2$s
+mini_task.chunk_pregen.size_scan.suggestion,Suggested Expansion Minimum Radius: %s,推奨される拡張最小半径：%s
+mini_task.chunk_pregen.size_scan.to,"To: X=%1$s, Z=%2$s",終了：X=%1$s、Z=%2$s
+mini_task.chunk_pregen.size_scan.total_area,Total Area: ,総面積: 
+network.chunk_pregen.failures.no_dimension,Dimension is Unloaded,ディメンションがアンロードされています
+network.chunk_pregen.failures.no_permissions,Not Enough Permission to do such Action,このアクションを実行するための権限がありません
+process.chunk_pregen.actions.continue,Continue,続行
+process.chunk_pregen.actions.listen,Listen,リッスン
+process.chunk_pregen.actions.mute,Mute,ミュート
+process.chunk_pregen.actions.pause,Pause,一時停止
+process.chunk_pregen.actions.remove,Remove,削除
+process.chunk_pregen.actions.resume,Resume,再開
+process.chunk_pregen.actions.stop,Stop,停止
+process.chunk_pregen.dimension,World: %s,ワールド：%s
+process.chunk_pregen.finish,"Pregenation Finished: [Time=%1$s, Chunks=%2$s]",事前生成が完了しました：[時間=%1$s、チャンク数=%2$s]
+process.chunk_pregen.finish.cleanup,Pregenerator Finished. Starting Cleanup! May freeze the game!,事前生成完了。クリーンアップ開始！ゲームがフリーズする可能性があります！
+process.chunk_pregen.logger_split,"
+","
+"
+process.chunk_pregen.name,TaskName: %s,タスク名：%s
+process.chunk_pregen.prepare,"Prepare Progress: %1$s / %2$s, [%3$s%%]",準備進行状況：%1$s / %2$s、[%3$s%%]
+process.chunk_pregen.ram,Ram Usage: %1$s MB / %2$s MB,RAM 使用量：%1$s MB / %2$s MB
+process.chunk_pregen.shape,Shape: %s,形状: %s
+process.chunk_pregen.speed_full,Speed (Main | Light): (%1$s Chunks/t | %2$s Chunks/t),速度(メイン｜光)：(%1$s チャンク/ティック｜%2$s チャンク/ティック)
+process.chunk_pregen.speed_part,Speed: %2$s Chunks/t,速度：%2$s チャンク/ティック
+process.chunk_pregen.split,", ",", "
+process.chunk_pregen.stuck.split,"
+","
+"
+process.chunk_pregen.stuck.start,"WorldGenerator didn't generate any Chunks for 2 Minutes It seems to be stuck. Dumping Thread Trace 
+",WorldGenerator が 2 分間チャンクを生成しませんでした。停止しているようです。スレッドトレースをダンプします 
+process.chunk_pregen.task_full,Task: (Main|Light)/Total: (%1$s|%2$s)/%3$s,タスク：(メイン｜光)/合計：(%1$s｜%2$s)/%3$s
+process.chunk_pregen.task_part,Task: Current/Total: %2$s/%3$s,タスク：現在/合計：%2$s/%3$s
+process.chunk_pregen.task_type,Task Type: %s,タスクタイプ：%s
+process.chunk_pregen.ticks,Ticks: %1$s | %2$s,ティック：%1$s｜%2$s
+process.chunk_pregen.time_full,"Time Left (Main | Light), Running: (%1$s | %2$s), %3$s",残り時間(メイン｜光)、実行中：(%1$s｜%2$s)、%3$s
+process.chunk_pregen.time_part,"Time Left Main, Running: %2$s, %3$s",残り時間(メイン)、実行中：%2$s、%3$s
+process.chunk_pregen.validation,Validation: %1$s / %2$s Chunks,検証：%1$s / %2$s チャンク
+process.chunk_pregen.working_area,"Working Area: From[X=%1$s, Z=%2$s], To[X=%3$s, Z=%4$s]",作業エリア：開始[X=%1$s、Z=%2$s]、終了[X=%3$s、Z=%4$s]
+process.chunk_pregen.working_area.fetching,Working Area: Fetching,作業エリア：取得中
+process.chunk_pregen.world_loaded_data,Loaded (Chunks | Region Files | POI): %1$s | %2$s | %3$s,ロード済み(チャンク｜リージョンファイル｜POI)：%1$s｜%2$s｜%3$s
+process.chunk_pregen.wrap,[%s],[%s]
+queue.chunk_pregen.errors.already_exists,A Task with Id [%s] already exists,ID [%s] のタスクは既に存在します
+queue.chunk_pregen.errors.continue.no_dimension,Dimension [%s] already has a Task,ディメンション [%s] は既にタスクを持っています
+queue.chunk_pregen.errors.continue.no_processors,No Processors available,利用可能なプロセッサーがありません
+queue.chunk_pregen.errors.continue.no_space,No Processors space available,利用可能なプロセッサースペースがありません
+queue.chunk_pregen.errors.continue.no_task,Task Queue is empty,タスクキューが空です
+queue.chunk_pregen.errors.dimension_busy,"Dimension already has a active Task, Queued Task for later",ディメンションに既にアクティブなタスクがあります。後でタスクをキューに追加しました
+queue.chunk_pregen.errors.impossible,Why the F..k is the task null?,なぜタスクが null なのですか？
+queue.chunk_pregen.errors.no_processors,"No Processors available, Queued Task for when processor is available",利用可能なプロセッサーがありません。プロセッサーが利用可能になったときにタスクをキューに追加しました
+queue.chunk_pregen.interrupted,Interrupted Task [%s],タスク [%s] が中断されました
+queue.chunk_pregen.preparing,Preparing Task [%s],タスク [%s] を準備中
+queue.chunk_pregen.starting,Starting Task [%s],タスク [%s] を開始中
+task.chunk_pregen.active_task,[Active],[アクティブ]
+task.chunk_pregen.amount,Deletes [%s] Chunks,[%s] チャンクを削除します
+task.chunk_pregen.dimension,Dim=%s,ディメンション=%s
+task.chunk_pregen.from,"From [X=%s, Z=%s]",開始 [X=%s、Z=%s]
+task.chunk_pregen.gen_type,GenType=%s,生成タイプ=%s
+task.chunk_pregen.gen_type.block_post,Blocked Post Gen,ブロック後生成
+task.chunk_pregen.gen_type.block_post.desc,Generates Only the Terrain and saves it as Fully finished Chunk (irreversible),地形のみを生成し、完全に完成したチャンクとして保存します(不可逆)
+task.chunk_pregen.gen_type.fast_check_gen,Fast Check Gen,高速チェック生成
+task.chunk_pregen.gen_type.fast_check_gen.desc,"Generates Chunks normally, but uses a Algorithm that is 10000x faster, but 95% accurate, in very specific cases",チャンクを通常通り生成しますが、非常に特殊な場合に10000倍高速ですが95%の精度のアルゴリズムを使用します
+task.chunk_pregen.gen_type.normal_gen,Normal Gen,通常生成
+task.chunk_pregen.gen_type.normal_gen.desc,"Generates Chunks normally, but uses a deeper scan to ensure Chunks are all generated",チャンクを通常通り生成しますが、すべてのチャンクが生成されていることを確認するためにより深いスキャンを使用します
+task.chunk_pregen.gen_type.post_gen,Post Gen Only,後生成のみ
+task.chunk_pregen.gen_type.post_gen.desc,Makes sure all existing Chunks are fully generated. Doesn't generate new Chunks,既存のすべてのチャンクが完全に生成されていることを確認します。新しいチャンクは生成しません
+task.chunk_pregen.gen_type.retrogen,Retrogen,リトロジェン
+task.chunk_pregen.gen_type.retrogen.desc,Regenerates selected features in already generated Chunks,既に生成されたチャンクで選択された機能を再生成します
+task.chunk_pregen.gen_type.terrain_only,Terrain Only,地形のみ
+task.chunk_pregen.gen_type.terrain_only.desc,Only Generates the Terrain (Fog of war style for mapping mods),地形のみを生成します(マッピング Mod 用の戦争霧風)
+task.chunk_pregen.max_radius,Max Radius=%s,最大半径=%s
+task.chunk_pregen.min_radius,Min Radius=%s,最小半径=%s
+task.chunk_pregen.name,Name=%s,名前=%s
+task.chunk_pregen.no_tasks,TaskList is empty,タスクリストが空です
+task.chunk_pregen.radius,Radius=%s,半径=%s
+task.chunk_pregen.shape_type.benchmark,Benchmark,ベンチマーク
+task.chunk_pregen.shape_type.circle,Circle,円
+task.chunk_pregen.shape_type.circle_area,Circle Area,円形エリア
+task.chunk_pregen.shape_type.circle_expansion,Circle Expansion,円形拡張
+task.chunk_pregen.shape_type.excess,Trim Excess,超過削減
+task.chunk_pregen.shape_type.specifc,Specific,特定
+task.chunk_pregen.shape_type.square,Square,正方形
+task.chunk_pregen.shape_type.square_area,Square Area,正方形エリア
+task.chunk_pregen.shape_type.square_expansion,Square Expansion,正方形拡張
+task.chunk_pregen.shape_type.timeout,Trim Timeout,タイムアウト削減
+task.chunk_pregen.split,", ",", "
+task.chunk_pregen.task_type,Type=%s,タイプ=%s
+task.chunk_pregen.timeout,Timeout=%s,タイムアウト=%s
+task.chunk_pregen.to,"To [X=%s, Z=%s]",終了 [X=%s、Z=%s]
+task.chunk_pregen.wrap,[%s],[%s]
+task.chunk_pregen.x_coord,X=%s,X=%s
+task.chunk_pregen.z_coord,Z=%s,Z=%s
+ui.chunk_pregen.age_scan.chunks,Chunks Scanned: %1$s / %2$s,スキャン済みチャンク：%1$s / %2$s
+ui.chunk_pregen.age_scan.dimension,Dimension: %s,ディメンション: %s
+ui.chunk_pregen.age_scan.files,Files Scanned: %1$s / %2$s,スキャン済みファイル：%1$s / %2$s
+ui.chunk_pregen.age_scan.header,World Age Scan,ワールド年齢スキャン
+ui.chunk_pregen.corruption.found,Corrupt Chunks Found: %s,破損チャンクが見つかりました：%s
+ui.chunk_pregen.corruption.header,World Corruption Scan,ワールド破損スキャン
+ui.chunk_pregen.deleter.dimension,Dimension: %s,ディメンション: %s
+ui.chunk_pregen.deleter.dimension.unknown,Unknown,不明
+ui.chunk_pregen.deleter.failed,Chunks Failed to be Deleted: %s,削除に失敗したチャンク：%s
+ui.chunk_pregen.deleter.header,Deletion Task,削除タスク
+ui.chunk_pregen.deleter.name,Task Name: %s,タスク名：%s
+ui.chunk_pregen.deleter.pause,Pause,一時停止
+ui.chunk_pregen.deleter.paused,Task Paused,タスク一時停止中
+ui.chunk_pregen.deleter.prep,Preparing Task,タスクを準備中
+ui.chunk_pregen.deleter.prep.progress,Progress: %1$s / %2$s,進行状況：%1$s / %2$s
+ui.chunk_pregen.deleter.progress,%1$s / %2$s,%1$s / %2$s
+ui.chunk_pregen.deleter.progress.header,Deletion Progress,削除進行状況
+ui.chunk_pregen.deleter.remove,Remove,削除
+ui.chunk_pregen.deleter.resume,Resume,再開
+ui.chunk_pregen.deleter.running_time,Running Time: %s,実行時間：%s
+ui.chunk_pregen.deleter.stop,Stop,停止
+ui.chunk_pregen.generator.eta_full,"ETA: Terrain: %2$s, Light: %1$s",予想時間：地形：%2$s、光：%1$s
+ui.chunk_pregen.generator.eta_small,ETA: %1$s,予想時間：%1$s
+ui.chunk_pregen.generator.header,Pregen Task,事前生成タスク
+ui.chunk_pregen.generator.light_progress,Lighting Progress (%s Chunks/t),照明進行状況(%s チャンク/ティック)
+ui.chunk_pregen.generator.progress,Progress (%s Chunks/t),進行状況(%s チャンク/ティック)
+ui.chunk_pregen.generator.queue_full,"Light Queue: %1$s, To Unload: %2$s",光キュー：%1$s、アンロード予定：%2$s
+ui.chunk_pregen.generator.queue_small,Chunks To Unload: %2$s,アンロード予定チャンク：%2$s
+ui.chunk_pregen.generator.terrain_progress,Terrain Progress (%s Chunks/t),地形進行状況(%s チャンク/ティック)
+ui.chunk_pregen.generator.validating,Validating Chunks,チャンク検証中
+ui.chunk_pregen.generator.vanilla_info,"Loaded Chunks: %1$s, POI: %2$s",ロード済みチャンク：%1$s、POI：%2$s
+ui.chunk_pregen.generator.working_area,Working Area:,作業エリア：
+ui.chunk_pregen.generator.working_area.fetching,Working Area: Fetching,作業エリア：取得中
+ui.chunk_pregen.generator.working_area.from,"From: X=%1$s, Z=%2$s",開始：X=%1$s、Z=%2$s
+ui.chunk_pregen.generator.working_area.to,"To: X=%1$s, Z=%2$s",終了：X=%1$s、Z=%2$s
+ui.chunk_pregen.tracker.avg_lag,Avg Lag:  %1$sms / 50ms (%2$sµs),平均ラグ：%1$sms / 50ms(%2$sµs)
+ui.chunk_pregen.tracker.block_queue,BlockTicks Queue: %1$s (avg: %2$s),ブロックティッククキュー：%1$s(平均：%2$s)
+ui.chunk_pregen.tracker.block_updates,Block Updates: %1$s (avg: %2$s),ブロック更新：%1$s(平均：%2$s)
+ui.chunk_pregen.tracker.chunks,Loaded Chunks: %s,ロード済みチャンク: %s
+ui.chunk_pregen.tracker.detail,Detailed Info,詳細情報
+ui.chunk_pregen.tracker.dimension_lag,%1$s lag: %2$sms / 50ms (%2$sµs),%1$s ラグ：%2$sms / 50ms(%2$sµs)
+ui.chunk_pregen.tracker.entities,Loaded Entities: %1$s,ロード済みエンティティ：%1$s
+ui.chunk_pregen.tracker.exact_lag,Exact Lag: %1$sms / 50ms (%2$sµs),正確なラグ：%1$sms / 50ms(%2$sµs)
+ui.chunk_pregen.tracker.fluid_queue,FluidTicks Queue: %1$s (avg: %2$s),流体ティッククキュー：%1$s(平均：%2$s)
+ui.chunk_pregen.tracker.header,Server Tracker,サーバートラッカー
+ui.chunk_pregen.tracker.lag,Server Lag: %1$sms / 50ms (%2$sµs),サーバーラグ：%1$sms / 50ms(%2$sµs)
+ui.chunk_pregen.tracker.packets,Server Packets: %1$s (Avg: %1$s),サーバーパケット：%1$s(平均：%1$s)
+ui.chunk_pregen.tracker.pois,Loaded Points of Interest: %s,ロード済み関心地点：%s
+ui.chunk_pregen.tracker.ram,Ram: (%1$sMB / %2$sMB),RAM: (%1$sMB / %2$sMB)
+ui.chunk_pregen.tracker.tiles,Loaded Tiles: %1$s (%2$s Ticking),ロード済みタイル：%1$s(%2$s ティッキング)
+ui.chunk_pregen.tracker.tps,TPS: %s / 20,TPS: %s / 20

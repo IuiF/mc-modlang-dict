@@ -1,0 +1,945 @@
+﻿key,source_text,target_text
+block.xreliquary.alkahestry_altar,Altar of Light,光の祭壇
+block.xreliquary.alkahestry_altar.tooltip,Feed it redstone and;it will grow glowstone.,レッドストーンを与えると、グロウストーンが育ちます。
+block.xreliquary.apothecary_cauldron,Apothecary Cauldron,調剤用大釜
+block.xreliquary.apothecary_cauldron.tooltip,Used to brew potions;from potion essence.,ポーションを醸造するために使用；ポーションエッセンスから
+block.xreliquary.apothecary_mortar,Apothecary Mortar,調剤用乳鉢
+block.xreliquary.apothecary_mortar.tooltip,Used to grind ingredients;into potion essence.,材料を粉砕してポーションエッセンスにするために使用
+block.xreliquary.fertile_lily_pad,Lilypad of Fertility,豊穣の睡蓮
+block.xreliquary.fertile_lily_pad.tooltip,Speeds up growth of crops,速度s up 成長thの農作物
+block.xreliquary.interdiction_torch,{{!colors.yellow}}Interdiction Torch,{{!colors.yellow}}遮断の松明
+block.xreliquary.interdiction_torch.tooltip,Repels creatures and projectiles.,生物と飛び道具を反発.
+block.xreliquary.passive_pedestal,Pedestal (Display only),台座（表示のみ）
+block.xreliquary.passive_pedestal.tooltip,Used as a fancy display of items,アイテムを装飾的に表示するために使用
+block.xreliquary.pedestal,Pedestal,台座
+block.xreliquary.wraith_node,Wraith Node,怨霊ノード
+chat.xreliquary.fortune_coin.off,OFF,オフ
+chat.xreliquary.fortune_coin.on,ON,オン
+chat.xreliquary.fortune_coin.toggle,Fortune Coin switched %s,フォーチュンコイン %s に切り替えました
+effect.xreliquary.cure,Cure,治癒
+effect.xreliquary.flight,Flight,飛行
+item.xreliquary.alkahestry_tome,Tome of Alkahestry,錬金術の古書
+item.xreliquary.alkahestry_tome.tooltip,Uses its charge to duplicate items.,そのチャージを使用してアイテムを複製します。
+item.xreliquary.alkahestry_tome.tooltip2,{{!colors.rose}}Charge: {{chargeAmount}}/{{chargeLimit}};Right-click to read.,{{!colors.rose}}チャージ: {{chargeAmount}}/{{chargeLimit}}; 右クリックで読む。
+item.xreliquary.angelheart_vial,Angelheart Vial,天使心の小瓶
+item.xreliquary.angelheart_vial.tooltip,Resurrects you;once and breaks.,一度だけ復活させ、破壊されます。
+item.xreliquary.angelic_feather,Angelic Feather,天使の羽
+item.xreliquary.attraction_potion,Aphrodite's Serum,アフロディーテの血清
+item.xreliquary.attraction_potion.tooltip,Makes animals mate.,動物が交配する.
+item.xreliquary.barrel_assembly,Barrel Assembly,銃身アセンブリ
+item.xreliquary.barrel_assembly.tooltip,Handgun part,拳銃部品
+item.xreliquary.bat_wing,Bat Wing,コウモリの翼
+item.xreliquary.bat_wing.tooltip,Bat drop,コウモリドロップ
+item.xreliquary.bullets.blaze_bullet,Blaze Shot,炎弾
+item.xreliquary.bullets.blaze_bullet.tooltip,Deals only fire damage.,火のダメージのみ.
+item.xreliquary.bullets.buster_bullet,Buster Shot,破裂弾
+item.xreliquary.bullets.buster_bullet.tooltip,Large area damage.,大範囲ダメージ.
+item.xreliquary.bullets.concussive_bullet,Concussive Shot,衝撃弾
+item.xreliquary.bullets.concussive_bullet.tooltip,Small area damage.,小範囲ダメージ.
+item.xreliquary.bullets.empty_bullet,Empty Casing,空の薬莢
+item.xreliquary.bullets.ender_bullet,Ender Shot,エンダー弾
+item.xreliquary.bullets.ender_bullet.tooltip,"Pierce enemies, seek targets.",敵を貫通、目標を追跡.
+item.xreliquary.bullets.exorcism_bullet,Exorcism Shot,退魔弾
+item.xreliquary.bullets.exorcism_bullet.tooltip,Effective vs. undead.,アンデッド対策に効果的.
+item.xreliquary.bullets.neutral_bullet,Neutral Shot,標準弾
+item.xreliquary.bullets.sand_bullet,Sand Shot,砂弾
+item.xreliquary.bullets.sand_bullet.tooltip,"Blinds target,;irritates creepers.",ターゲットを盲目にし、クリーパーを刺激します。
+item.xreliquary.bullets.seeker_bullet,Seeker Shot,追跡弾
+item.xreliquary.bullets.seeker_bullet.tooltip,Seeks its targets.,目標を追跡.
+item.xreliquary.bullets.storm_bullet,Storm Shot,嵐弾
+item.xreliquary.bullets.storm_bullet.tooltip,"Stronger during storms,;charges creepers.",嵐時に強化される；クリーパーをチャージ
+item.xreliquary.catalyzing_gland,Catalyzing Gland,触媒腺
+item.xreliquary.catalyzing_gland.tooltip,Creeper/Ghast drop,クリーパー/ガスト ドロップ
+item.xreliquary.chelicerae,Chelicerae,牙板
+item.xreliquary.chelicerae.tooltip,Spider drop,クモドロップ
+item.xreliquary.crimson_cloth,Crimson Cloth,真紅の布
+item.xreliquary.crimson_cloth.tooltip,Crafting ingredient,クラフト材料
+item.xreliquary.destruction_catalyst,Destruction Catalyst,破壊触媒
+item.xreliquary.destruction_catalyst.tooltip,Consumes gunpowder to destroy blocks,火薬を消費してブロックを破壊
+item.xreliquary.destruction_catalyst.tooltip2,{{!colors.yellow}}Charge: {{charge}},{{!colors.yellow}}チャージ: {{charge}}
+item.xreliquary.elsewhere_flask,Elsewhere Flask,他所への瓶
+item.xreliquary.elsewhere_flask.tooltip,Imbibe potions within it simultaneously.{{contents}},ポーション効果を同時に発揮.{{contents}}
+item.xreliquary.emperor_chalice,Emperor's Chalice,皇帝の聖杯
+item.xreliquary.emperor_chalice.tooltip,An infinite water bucket,無限水バケツ
+item.xreliquary.emperor_chalice.tooltip2,Enable to drain water.;Disable to place water.;Drinking restores hunger;in exchange for life.,有効にすると水を吸い上げます；無効にすると水を設置します；飲むと空腹が回復し、生命の代償として。
+item.xreliquary.empty_potion_vial,Condensed Potion Vial,濃縮ポーション ビン
+item.xreliquary.ender_staff,Ender Staff,エンダースタッフ
+item.xreliquary.eye_of_the_storm,Eye of the Storm,嵐の目
+item.xreliquary.eye_of_the_storm.tooltip,Charged Creeper drop,チャージされたクリーパー ドロップ
+item.xreliquary.fertile_essence,Fertile Essence,豊穣の液
+item.xreliquary.fertile_essence.tooltip,Crafting ingredient,クラフト材料
+item.xreliquary.fertile_potion,Fertile Potion,豊穣のポーション
+item.xreliquary.fertile_potion.tooltip,Causes plants to grow.,植物を成長させる.
+item.xreliquary.fortune_coin,Coin of Fortune,幸運の金貨
+item.xreliquary.fortune_coin.tooltip,Draws in items and XP,アイテムと経験値を引き寄せる
+item.xreliquary.fortune_coin.tooltip2,Shift+Right to activate.;Hold Right click to super-vacuum.,Shift+右クリックで有効化；右クリックを押し続けるとスーパー・バキュームになります。
+item.xreliquary.frozen_core,Frozen Core,凍結核
+item.xreliquary.frozen_core.tooltip,Snowman drop,雪ゴーレムドロップ
+item.xreliquary.glacial_staff,Glacial Staff,氷河の杖
+item.xreliquary.glacial_staff.tooltip,"Shoots snowballs, chills enemies on;strike and freezes the ground;you walk on.",雪玉を発射し、敵を凍結させ、地面を凍らせて歩く。
+item.xreliquary.glacial_staff.tooltip2,{{!colors.blue}}Charge: {{charge}},{{!colors.blue}}チャージ: {{charge}}
+item.xreliquary.glowing_bread,Glowing Bread,輝くパン
+item.xreliquary.glowing_bread.tooltip,Completely restores hunger.,ハンガーを完全回復.
+item.xreliquary.glowing_water,Glowing Water,輝く水
+item.xreliquary.glowing_water.tooltip,Harms undead enemies.,アンデッド敵にダメージ.
+item.xreliquary.grip_assembly,Grip Assembly,グリップアセンブリ
+item.xreliquary.grip_assembly.tooltip,Handgun part,拳銃部品
+item.xreliquary.guardian_spike,Guardian Spike,ガーディアンの棘
+item.xreliquary.guardian_spike.tooltip,Guardian drop,ガーディアンのドロップ
+item.xreliquary.hammer_assembly,Hammer Assembly,ハンマーアセンブリ
+item.xreliquary.hammer_assembly.tooltip,Handgun part,拳銃部品
+item.xreliquary.handgun,Hunter's Handgun,狩人の拳銃
+item.xreliquary.handgun.tooltip,"For great justice.;Right click fires, hold to reload.",正義のために；右クリックで発射、ホールドでリロード。
+item.xreliquary.handgun.tooltip2,{{count}} x {{type}},{{count}} x {{type}}
+item.xreliquary.harvest_rod,{{!colors.green}}Harvest Rod,{{!colors.green}}ハーベストロッド
+item.xreliquary.harvest_rod.tooltip,"Right-click to fertilize,;breaks crops in an area",右クリックで肥料を与え、;エリア内の作物を破壊します
+item.xreliquary.harvest_rod.tooltip2,{{!colors.green}}Bonemeal charge: {{charge}},{{!colors.green}}骨粉 チャージ: {{charge}}
+item.xreliquary.harvest_rod.tooltip3,{{!colors.green}}{{plantable}}: {{charge}},{{!colors.green}}{{plantable}}: {{charge}}
+item.xreliquary.hero_medallion,Hero's Medallion,英雄のメダリオン
+item.xreliquary.hero_medallion.tooltip,Stores experience for you.;Right click to reclaim levels.,経験値を貯蔵します。右クリックでレベルを回収できます。
+item.xreliquary.hero_medallion.tooltip2,{{!colors.green}}Levels: {{levels}} + Partial experience: {{experience}},{{!colors.green}}レベル: {{levels}} + 部分経験値: {{experience}}
+item.xreliquary.holy_hand_grenade,Holy Hand Grenade,聖なる手榴弾
+item.xreliquary.holy_hand_grenade.tooltip,A powerful explosive that doesn't;break blocks or hurt the wielder.,破壊ブロックも使用者を傷つけない強力な爆発物。
+item.xreliquary.ice_magus_rod,Ice Magus Rod,氷術師の杖
+item.xreliquary.ice_magus_rod.tooltip,Lobs harmful snowballs.,Lobs 害するful スノーボール.
+item.xreliquary.ice_magus_rod.tooltip2,{{!colors.blue}}Charge: {{charge}},{{!colors.blue}}チャージ: {{charge}}
+item.xreliquary.infernal_chalice,Infernal Chalice,獄炎の聖杯
+item.xreliquary.infernal_chalice.tooltip2,{{!colors.red}}Holds {{amount}} mB of Lava,{{!colors.red}}保有 {{amount}} mLの溶岩
+item.xreliquary.infernal_claw,Infernal Claw,獄炎の爪片
+item.xreliquary.infernal_claw.tooltip,Crafting ingredient,クラフト材料
+item.xreliquary.infernal_claws,{{!colors.red}}Infernal Claws,{{!colors.red}}獄炎の爪
+item.xreliquary.infernal_claws.tooltip,Absorbs fire damage at;the expense of hunger.,"Absorbs fire damage at
+the expenseのhunger."
+item.xreliquary.infernal_tear,{{!colors.red}}Infernal Tear,{{!colors.red}}獄炎の涙
+item.xreliquary.infernal_tear.tooltip,Burns items into experience.,アイテムを経験値に変換.
+item.xreliquary.kraken_shell,Kraken Shell,クラーケンの殻
+item.xreliquary.kraken_shell.tooltip,Absorbs drowning damage;at the expense of hunger.,"Absorbs drowning damage
+atexpenseのhunger."
+item.xreliquary.kraken_shell_fragment,Kraken Shell Fragment,クラーケンの殻 フラグメント
+item.xreliquary.kraken_shell_fragment.tooltip,Crafting ingredient,クラフト材料
+item.xreliquary.lantern_of_paranoia,{{!colors.yellow}}Lantern Of Paranoia,{{!colors.yellow}}偏執狂のランタン
+item.xreliquary.lantern_of_paranoia.tooltip,Places torches in unlit;areas automatically.;Shift + Right-Click to activate.,未点灯の場所にランタンを置きます。自動的に領域が設定されます。Shift + 右クリックで有効化します。
+item.xreliquary.lingering_potion,Lingering Condensed Potion,Lingering 濃縮ポーション
+item.xreliquary.magazines.blaze_magazine,Blaze Magazine,Blaze マガジン
+item.xreliquary.magazines.buster_magazine,Buster Magazine,Buster マガジン
+item.xreliquary.magazines.concussive_magazine,Concussive Magazine,Concussive マガジン
+item.xreliquary.magazines.empty_magazine,Empty Magazine,Empty マガジン
+item.xreliquary.magazines.ender_magazine,Ender Magazine,Ender マガジン
+item.xreliquary.magazines.exorcism_magazine,Exorcism Magazine,Exorcism マガジン
+item.xreliquary.magazines.neutral_magazine,Neutral Magazine,Neutral マガジン
+item.xreliquary.magazines.sand_magazine,Sand Magazine,Sand マガジン
+item.xreliquary.magazines.seeker_magazine,Seeker Magazine,Seeker マガジン
+item.xreliquary.magazines.storm_magazine,Storm Magazine,Storm マガジン
+item.xreliquary.magicbane,Magicbane,魔法殺し
+item.xreliquary.magicbane.tooltip,Increases its strength;with each enchantment.,その強さを増加させます；各エンチャントで。
+item.xreliquary.mercy_cross,Cross of Mercy,慈悲の十字架
+item.xreliquary.mercy_cross.tooltip,Deals extra damage;to undead creatures.,アンデッドクリーチャーに追加ダメージを与える。
+item.xreliquary.midas_touchstone,Touchstone of Midas,ミダスの礎石
+item.xreliquary.midas_touchstone.tooltip,Repairs gold items,金製品を修復
+item.xreliquary.midas_touchstone.tooltip2,{{!colors.yellow}}Charge: {{charge}},{{!colors.yellow}}チャージ: {{charge}}
+item.xreliquary.mob_charm,{{!colors.light_green}}%s Charm,{{!colors.light_green}}%s チャーム
+item.xreliquary.mob_charm.tooltip,%s can't see you with this.,%s があなたを見ることができません。
+item.xreliquary.mob_charm_belt,Charm Belt,魔除けベルト
+item.xreliquary.mob_charm_belt.tooltip,Holds all the mob charms,保有 allmob charms
+item.xreliquary.mob_charm_fragment,{{!colors.light_green}}%s Charm Fragment,{{!colors.light_green}}%s チャーム フラグメント
+item.xreliquary.molten_core,Molten Core,溶融核
+item.xreliquary.molten_core.tooltip,Blaze/Magma Cube drop,ブレイズ/マグマキューブドロップ
+item.xreliquary.nebulous_heart,Nebulous Heart,星霧の心臓
+item.xreliquary.nebulous_heart.tooltip,Enderman drop,エンダーマンドロップ
+item.xreliquary.phoenix_down,Phoenix Down,フェニックスダウン
+item.xreliquary.potion,Condensed Potion,濃縮ポーション
+item.xreliquary.potion.tooltip,Effects:;{{effects}},効果:;{{effects}}
+item.xreliquary.potion_essence,Potion Essence,ポーション液
+item.xreliquary.potion_essence.tooltip,Effects:;{{effects}},効果:;{{effects}}
+item.xreliquary.pyromancer_staff,{{!colors.red}}Pyromancer's Staff,{{!colors.red}}火術師の杖
+item.xreliquary.pyromancer_staff.tooltip,"Shoots blaze and ghast;fireballs, creates firebursts;and lights fires",ブレイズとガストの火球を発射し、ファイヤーバーストを作成して炎を灯します
+item.xreliquary.pyromancer_staff.tooltip2,{{!colors.red}}Charges: {{charges}};{{!colors.red}}Blaze: {{blaze}};Shift + Left-click to change modes,{{!colors.red}}チャージ数: {{charges}};{{!colors.red}}ブレイズ: {{blaze}};Shift + 左クリックでモード変更
+item.xreliquary.rending_gale,{{!colors.yellow}}Rending Gale,{{!colors.yellow}}引き裂く烈風
+item.xreliquary.rending_gale.tooltip,"Fly, push and pull mobs, or shoot;lightning while raining",飛行、モブの押し引き、または射撃；雨時に雷を発生させます
+item.xreliquary.rending_gale.tooltip2,{{!colors.yellow}}Charge: {{charge}},{{!colors.yellow}}チャージ: {{charge}}
+item.xreliquary.rib_bone,Rib Bone,肋骨
+item.xreliquary.rib_bone.tooltip,Skeleton drop,スケルトン ドロップ
+item.xreliquary.rod_of_lyssa,Rod of Lyssa,リッサの釣竿
+item.xreliquary.rod_of_lyssa.tooltip,A magic fishing rod that can be;used to reel in items and pick pockets.,アイテムを引き寄せたりポケットから拾ったりできる魔法の釣り竿です。
+item.xreliquary.salamander_eye,Salamander's Eye,サラマンダーの眼
+item.xreliquary.salamander_eye.tooltip,Dispels blaze fireballs and reflects;ghast fireballs while held.;Puts out fires on and around you.,ブレイズの火球を消散させ、ガストの火球を反射しながら保持する；周囲とあなた自身の炎を消す。
+item.xreliquary.serpent_staff,{{!colors.green}}Serpent Staff,{{!colors.green}}蛇の杖
+item.xreliquary.serpent_staff.tooltip,"All that nasty stuff;from a Kraken's spit,;thrown at your enemies.;Drains life on strike.",あの嫌なものすべて；クラーケンの吐息から発生し、敵に投げつけられます。攻撃時に生命を吸収します。
+item.xreliquary.shears_of_winter,Shears of Winter,冬の剪定鋏
+item.xreliquary.shears_of_winter.tooltip,Magic shears that tear the;leaves from trees with cold.,寒さで木の葉を裂くマジックシザーズ
+item.xreliquary.slime_pearl,Slime Pearl,スライムの真珠
+item.xreliquary.slime_pearl.tooltip,Slime drop,スライムドロップ
+item.xreliquary.sojourner_staff,Sojourner's Staff,放浪者の杖
+item.xreliquary.sojourner_staff.tooltip,"Consumes torches, can place them;long distances, but costs extra",松明を消費し、設置できます；長距離で使用可能ですが追加コストがかかります
+item.xreliquary.splash_potion,Splash Condensed Potion,Splash 濃縮ポーション
+item.xreliquary.squid_beak,Squid Beak,イカのくちばし
+item.xreliquary.squid_beak.tooltip,Squid drop,イカドロップ
+item.xreliquary.tipped_arrow,Tipped Arrow,ポーション矢
+item.xreliquary.twilight_cloak,Twilight Cloak,薄暮のマント
+item.xreliquary.twilight_cloak.tooltip,Makes you invisible in darkness.,暗い場所で不可視化.
+item.xreliquary.void_tear,Void Tear,虚無の涙
+item.xreliquary.void_tear.mode.full_inventory,FILL,充填
+item.xreliquary.void_tear.mode.no_refill,EMPTY,空の
+item.xreliquary.void_tear.mode.one_stack,STACK,スタック
+item.xreliquary.void_tear.tooltip,Keeps almost unlimited amount of one item type,保持 ほぼ無制限 量の1種類のアイテム
+item.xreliquary.void_tear.tooltip.mode,Mode: %s - %s (%s),モード: {{mode}} - {{description}} ({{key}})
+item.xreliquary.void_tear.tooltip.mode.full_inventory,Fills inventory with stacks,インベントリをスタックで満たします
+item.xreliquary.void_tear.tooltip.mode.no_refill,Takes all stacks from inventory,インベントリからすべてのスタックを取得します
+item.xreliquary.witch_hat,{{!colors.yellow}}Witch Hat,{{!colors.yellow}}魔女の帽子
+item.xreliquary.withered_rib,Withered Rib,萎れた肋骨
+item.xreliquary.withered_rib.tooltip,Wither Skeleton drop,ウィザースケルトン ドロップ
+item.xreliquary.witherless_rose,Witherless Rose,枯渇耐性の薔薇
+item.xreliquary.witherless_rose.tooltip,With the Nether Stars enchanting this rose;the holder is protected from Withering.,ネザー・スターでこのローズをエンチャントすると、持ち主はウィーリングから保護されます。
+item.xreliquary.zombie_heart,Zombie Heart,ゾンビの心臓
+item.xreliquary.zombie_heart.tooltip,Zombie/Zombified Piglin drop,ゾンビ/ゾンビ化したピグリン ドロップ
+itemGroup.xreliquary,Reliquary,聖遺物
+jei.xreliquary.description.alkahestry_tome,"Shift + Right-Click to activate. While active, it will absorb any redstone and glowstone in player's inventory. Place it in a crafting grid with certain items to duplicate them for a cost.",Shift + 右クリックで起動します。アクティブな場合、プレイヤーのインベントリ内のレッドストーンとグロウストーンを吸収します。特定のアイテムをクラフトグリッドに配置して複製できます。
+jei.xreliquary.description.angelheart_vial,"Shatters, restores a bit of health and buffs the player just before they would die.","破裂して, 回復 a bitのヘルス and 強化するプレイヤー just beのためにe they would die."
+jei.xreliquary.description.bat_wing,Bat Wing is one of the drops used for crafting. \n\nDrops from bats.,コウモリの翼 is oneのthe drops used for crafting. \n\nDrops from bats.
+jei.xreliquary.description.bullets.blaze_bullet,"Blaze shots are pretty powerful, spawn fire on hit, but are useless against fire-immune enemies.",ブレイズショットは非常に強力で、ヒット時に火を生成しますが、火に強い敵に対しては役に立たない。
+jei.xreliquary.description.bullets.buster_bullet,"Buster shots cause a TNT size explosion on impact, damage terrain as well.",バスターショットはインパクト時にTNTサイズの爆発を引き起こし、地形にもダメージを与えます。
+jei.xreliquary.description.bullets.concussive_bullet,Concussive shots are very strong and cause a small explosion on impact.,衝撃ショットは非常に強力で、インパクト時に小さな爆発を引き起こします。
+jei.xreliquary.description.bullets.ender_bullet,"Ender shots chase enemies, have piercing and thus can hurt multiple enemies in one shot.",エンダーショットは敵を追いかけ、ピアッシングを持っています。したがって、1発で複数の敵を傷つけることができます。
+jei.xreliquary.description.bullets.neutral_bullet,Basic shots deal solid damage and are relatively inexpensive.,基本弾 deal 確かな ダメージ and are relatively 安価.
+jei.xreliquary.description.bullets.seeker_bullet,"Seeker shots chase down enemies, you really can't miss even if you're a bad shot.",シーカーショットは敵を追い詰め、あなたが悪い射手であっても本当に逃がすことはできません。
+jei.xreliquary.description.bullets.storm_bullet,Storm shots super charge creepers and deal extra damage during rain and even more during thunderstorm.,嵐弾 超 チャージ クリーパー and deal 追加の ダメージ during 雨 and even more during 雷雨.
+jei.xreliquary.description.catalyzing_gland,Catalyzing Gland is one of the drops used for crafting. \n\nDrops from creepers and ghasts.,触媒腺はクラフトに使用されるドロップの1つです。\n\nクリーパーとガストからドロップされます。
+jei.xreliquary.description.chelicerae,Chelicerae is one of the drops used for crafting. \n\nDrops from spiders (both regular and cave).,牙板 is oneのthe drops used for crafting. \n\nDrops from spiders (both regular and cave).
+jei.xreliquary.description.eye_of_the_storm,Eye of the Storm is one of the drops used for crafting. \n\nDrops from charged creepers.,嵐の目 is oneのthe drops used for crafting. \n\nDrops from charged creepers.
+jei.xreliquary.description.fertile_potion,Fertile potion applies bonemeal effect where it lands.,豊穣のポーション applies 骨粉 効果 where it lands.
+jei.xreliquary.description.frozen_core,Frozen Core is one of the drops used for crafting. \n\nDrops from snow golems.,凍結核 is oneのthe drops used for crafting. \n\nDrops from snow golems.
+jei.xreliquary.description.holy_hand_grenade,An extremely powerful thrown explosive. It's unique because it only hurts enemies. It doesn't destroy blocks or harm the person who threw it.\nObvious Monty Python reference.,An 非常に 強力な 投げられた 爆発物. It's ユニーク なぜなら it のみ 傷つける 敵. It doesn't 破壊 ブロックor 害する人 who 投げた it.\n明らかな モンティ・パイソン 参照.
+jei.xreliquary.description.infernal_claws,Absorbs fire (not lava) damage for hunger.,吸収する 火 (not 溶岩) ダメージ のために ハンガー.
+jei.xreliquary.description.kraken_shell_fragment,Kraken Shell Fragment is a crafting component used in further recipes.,クラーケンの殻フラグメントはさらなるレシピで使用されるクラフトコンポーネントです。
+jei.xreliquary.description.lingering_potion,Lingering potion variant of the Reliquary potions. See potion essence for a bit more info on making potions.,Lingering potion variantのthe 聖遺物 potions. See potion essence for a bit more info on making potions.
+jei.xreliquary.description.magazines.empty_magazine,Empty magazine.,空の マガジン.
+jei.xreliquary.description.mercy_cross,"Deals bonus damage against the undead. Enchantable as gold, and obviously made of gold, for Touchstone of Midas purposes.","Deals bonus damage againstundead. Enchantable as gold, and obviously madeのgold, for ミダスの礎石 purposes."
+jei.xreliquary.description.midas_touchstone,It absorbs glowstone from your inventory and repairs gold items for a price - its charge.,It 吸収する グロウストーン from your inventory and repairs gold アイテム のために a 代償 - its チャージ.
+jei.xreliquary.description.mob_charm,Makes %s ignore the player even when hit by them.,%s がプレイヤーを無視させます。
+jei.xreliquary.description.mob_charm_belt,Stores mob charms which still work the same way inside it. Right clicking the belt opens its GUI where charms can be put inside it. Can be put in Bauble's belt slot.,モブチャームを保管します。ベルト内でも同じように機能します。右クリックしてベルトのGUIを開き、チャームを挿入できます。バウブルのベルトスロットに配置できます。
+jei.xreliquary.description.mob_charm_fragment,%s Charm Fragment is a crafting component of %s Charm,%s お守りの断片は %s のお守りのクラフトコンポーネント
+jei.xreliquary.description.molten_core,Molten Core is one of the drops used for crafting. \n\nDrops from magma cubes.,溶融核 is oneのthe drops used for crafting. \n\nDrops from magma cubes.
+jei.xreliquary.description.nebulous_heart,Nebulous Heart is one of the drops used for crafting. \n\nDrops from endermen.,星霧の心臓 is oneのthe drops used for crafting. \n\nDrops from endermen.
+jei.xreliquary.description.passive_pedestal,"Display only pedestal is exactly that - fancy way of displaying items, but doesn't have any of the regular pedestal's functionality for the items put into it",表示のみの台座はまさにそれです - アイテムを装飾的に表示する素敵な方法ですが、中に入れたアイテムに対する通常の台座の機能はありません
+jei.xreliquary.description.pedestal,"Pedestal is a fancy way of displaying your items, but at the same time it also allows some automation.\n\nCoin of fortune - When active picks up items and XP and puts these in containers beside the pedestal, when inactive prevents players and pedestals with fortune coin from picking up items in its range\nHero's medallion - Acts as a tank for XP also when activated searches nearby pedestals for mending items and repairs those with its XP\nSword - Attacks mobs in its range (ignores bosses, tamed and child animals)\nBucket - milks cows and picks up fluids in the world and puts these in containers beside the pedestal\nShears - shears all shearable blocks and entities in its range\nFishing Rod - fishes for the player, doesn't pick up items or xp, you need to use something else for that\nTo turn on pedestal functionality either empty hand right click the switch or provide redstone signal or provide power remotely using redstone block or dust in another pedestal",台座はアイテムを装飾的に表示する素敵な方法ですが、同時に自動化も可能です。\n\nフォーチュンコイン - アクティブな場合、アイテムとXPを拾い、それらを台座の隣のコンテナに置きます。非アクティブな場合、プレイヤーとフォーチュンコイン付き台座がその範囲内のアイテムを拾うのを防ぎます。\nヒーローのメダリオン - XPのタンクとしても機能します。また、アクティブにされると、近くの台座で修理アイテムを検索し、そのXPで修復します。\n剣 - その範囲内のモブを攻撃します（ボス、飼いならされたアニマル、子動物を除く）\nバケット - 牛の搾乳と世界の液体を拾い、それらを台座の隣のコンテナに置きます。\nはさみ - その範囲内のすべてのシャール可能なブロックとエンティティをシャール\n釣竿 - プレイヤーの釣り。アイテムやxpを拾いません。その他のものを使う必要があります。\n台座機能をオンにするには、空の手で右クリックスイッチするか、レッドストーン信号を提供するか、別の台座でレッドストーンブロックまたはダストを使用してリモートで電力を供給します。
+jei.xreliquary.description.potion,Drinkable potion that can be of many different kinds. See potion essences for a bit more info.,飲むことができるポーションで、多くの異なる種類があります。詳細はポーション液を参照してください。
+jei.xreliquary.description.potion_essence,"Potion essence of many varieties. It is produced in the apothecary mortar using combination of two or three ingredients (one of which could be another potion essence). \n\nThe potion essences you can see in JEI are just a fraction of all the different combinations. It also only lists 1 effect potion essences, but you can get many effects on a single potion essence. \n\nFor now you can take a look at the possible ingredients and their passive effects in the config settings. Getting a passive effect on two or more ingredients make it an active effect that will make it to the potion essence you get from the mortar.",多くの種類のポーション液。調剤用乳鉢で2〜3つの材料（別のポーション液の可能性がある）の組み合わせで生成されます。\n\nJEIで見られるポーション液は、すべての異なる組み合わせのほんの一部です。また1効果のポーション液のみがリストされていますが、単一のポーション液に多くの効果を与えることができます。\n\n今のところ、設定で可能な材料とそれらの受動効果を見ることができます。2つ以上の材料に受動効果を与えると、乳鉢から得るポーション液にそれを作成するアクティブな効果になります。
+jei.xreliquary.description.pyromancer_staff,Pyromancer staff shoots blaze and ghast fireballs. It charges with blaze powder and fire charges. \n\nIn addition to this it prevents the player from being hit by the fireballs (fired by ghast or blaze). Also it extinguishes fires around the player when turned off.\n\nAnd last but not least you can use it as a flint and steel.,火術師の杖はブレイズとガストの火球を発射します。ブレイズパウダーと火のチャージで充電されます。\n\nこれに加えて、プレイヤーが火球（ガストまたはブレイズによって発射）に当たるのを防ぎます。また、オフの場合、プレイヤーの周りの火を消します。\n\nそして最後になりましたが、フリントと鋼として使用することができます。
+jei.xreliquary.description.rib_bone,Rib Bone is one of the drops used for crafting. \n\nDrops from skeletons.,肋骨 is oneのthe drops used for crafting. \n\nDrops from skeletons.
+jei.xreliquary.description.salamander_eye,"While held, nearby flames (and you, if applicable) are extinguished and Ghast fireballs are automatically repelled in the direction you are looking. Blaze fireballs are also automatically doused, although Blazes can still harm you if nearby.",保持中、近くの炎（および該当する場合はあなた）が消え、ガストの火球が自動的にあなたが見ている方向に反発されます。ブレイズの火球も自動的に消されますが、ブレイズが近くにいると引き続きあなたに害を与える可能性があります。
+jei.xreliquary.description.slime_pearl,Slime Pearl is one of the drops used for crafting. \n\nDrops from slimes.,スライムの真珠 is oneのthe drops used for crafting. \n\nDrops from slimes.
+jei.xreliquary.description.splash_potion,Splash potion that can be of many different kinds. See potion essences for a bit more info.,飛散ポーションで、多くの異なる種類があります。詳細はポーション液を参照してください。
+jei.xreliquary.description.squid_beak,Squid Beak is one of the drops used for crafting. \n\nDrops from squid.,イカのくちばし is oneのthe drops used for crafting. \n\nDrops from squid.
+jei.xreliquary.description.void_tear,"Right clicking makes the crystal absorb whatever you're carrying the most of. Shift + Right-click makes it auto-absorb that item as long as it is activated, giving you a portable automatic inventory vacuum. You can also right-click chests (or any inventory) to give/take to/from inventories. They're pretty handy.",右クリックすると、クリスタルは持っているものの大部分を吸収します。Shift + 右クリックで、アクティブ化されている限り、その項目を自動吸収させ、ポータブルな自動インベントリバキュームを提供します。チェスト（またはその他のインベントリ）を右クリックして、インベントリとの間で受け渡しすることもできます。かなり便利です。
+jei.xreliquary.description.withered_rib,Withered Rib is one of the drops used for crafting. \n\nDrops from wither skeletons.,萎れた肋骨 is oneのthe drops used for crafting. \n\nDrops from wither skeletons.
+jei.xreliquary.description.zombie_heart,Zombie Heart is one of the drops used for crafting. \n\nDrops from zombies (both regular and pigmen).,ゾンビの心臓 is oneのthe drops used for crafting. \n\nDrops from zombies (both regular and pigmen).
+jei.xreliquary.recipe.alkahest_charging,Alkahestry Tome Charging,錬金術の古書 チャージング
+jei.xreliquary.recipe.alkahest_crafting,Alkahestry Tome Crafting,錬金術の古書 Crafting
+jei.xreliquary.recipe.cauldron,Apothecary Cauldron,調剤用大釜
+jei.xreliquary.recipe.infernal_tear,Infernal Tear,地獄の涙
+jei.xreliquary.recipe.infernal_tear.xp,xp,経験値
+jei.xreliquary.recipe.mortar,Apothecary Mortar,調剤用乳鉢
+keybind.xreliquary.category,Reliquary,聖遺物
+keybind.xreliquary.fortune_coin,Enable/Disable Fortune Coin,Enable/Disable 幸運の金貨
+potion.potency.6,VII,VII
+potion.potency.7,VIII,VIII
+potion.potency.8,IX,IX
+potion.potency.9,X,X
+tooltip.xreliquary.absorb,{{!colors.light_purple}}Shift + Right click to toggle auto-absorb.,{{!colors.light_purple}}Shift + 右クリックで自動吸収をトグル
+tooltip.xreliquary.absorb_active,{{!colors.purple}}Automagically absorbs {{!colors.gray}}{{item}}.,{{!colors.purple}}自動的に{{!colors.gray}}{{item}}を吸収します
+tooltip.xreliquary.drain,{{!colors.light_purple}}Shift + Right click to enable drain mode.,{{!colors.light_purple}}Shift + 右クリックでドレインモードを有効化
+tooltip.xreliquary.infernal_tear.tear_empty,Right-click to capture whatever item you have the most of;that infernal tear can burn.,"右クリックで最も多く持っているアイテムをキャプチャ
+that infernal tear can burn."
+tooltip.xreliquary.place,{{!colors.light_purple}}Shift + Right click to enable place mode.,{{!colors.light_purple}}Shift + 右クリックで配置モードを有効化
+tooltip.xreliquary.shift_for_more_info,Hold Shift for more info,保持 Shift のために more info
+tooltip.xreliquary.tear,Currently holds {{!colors.yellow}}{{item}}{{!colors.light_gray}}.,現在保有中 {{!colors.yellow}}{{item}}{{!colors.light_gray}}.
+tooltip.xreliquary.tear_empty,Right-click to capture whatever item you have the most of.,右クリックで最も多く持っているアイテムをキャプチャ.
+tooltip.xreliquary.tear_quantity,Currently holds {{!colors.yellow}}{{amount}}{{!colors.light_gray}} {{!colors.yellow}}{{item}}{{!colors.light_gray}}.,現在保有中 {{!colors.yellow}}{{amount}}{{!colors.light_gray}} {{!colors.yellow}}{{item}}{{!colors.light_gray}}.
+xreliquary.tooltip.absorb,{{!colors.light_purple}}Shift + Right click to toggle auto-absorb.,{{!colors.light_purple}}Shift + 右クリックで自動吸収をトグル
+xreliquary.tooltip.drain,{{!colors.light_purple}}Shift + Right click to enable drain mode.,{{!colors.light_purple}}Shift + 右クリックでドレインモードを有効化
+xreliquary.tooltip.place,{{!colors.light_purple}}Shift + Right click to enable place mode.,{{!colors.light_purple}}Shift + 右クリックで配置モードを有効化
+xreliquary.tooltip.absorb_active,{{!colors.purple}}Automagically absorbs {{item}}{{!colors.purple}}.,{{!colors.purple}}自動的に{{item}}を吸収します
+xreliquary.tooltip.absorb_tear,{{!colors.purple}}Always leaves a stack of the item in inventory.,{{!colors.purple}}常にインベントリに1スタック残す.
+xreliquary.tooltip.shift_for_more_info,Hold Shift for more info,保持 Shift のために more info
+xreliquary.item.alkahestry_tome.name,Tome of Alkahestry,錬金術の古書
+xreliquary.item.alkahestry_tome.tooltip,Uses its charge to duplicate items.,そのチャージを使用してアイテムを複製します。
+xreliquary.item.alkahestry_tome.tooltip2,{{!colors.rose}}Charge: {{chargeAmount}}/{{chargeLimit}};Right-click to read.,{{!colors.rose}}チャージ: {{chargeAmount}}/{{chargeLimit}}; 右クリックで読む。
+xreliquary.tile.altar_idle.name,Altar of Light,光の祭壇
+xreliquary.tile.altar_idle.tooltip,Feed it redstone and;it will grow glowstone.,レッドストーンを与えると、グロウストーンが育ちます。
+xreliquary.tile.altar.name,Altar of Light,光の祭壇
+xreliquary.tile.altar.tooltip,Feed it redstone and;it will grow glowstone.,レッドストーンを与えると、グロウストーンが育ちます。
+xreliquary.item.angelheart_vial.name,Angelheart Vial,天使心の小瓶
+xreliquary.item.angelheart_vial.tooltip,Resurrects you;once and breaks.,一度復活し、破壊される。
+xreliquary.item.angelic_feather.name,Angelic Feather,天使の羽
+xreliquary.tile.apothecary_cauldron.name,Apothecary Cauldron,調剤用大釜
+xreliquary.tile.apothecary_cauldron.tooltip,Used to brew potions;from potion essence.,ポーションを醸造するために使用；ポーションエッセンスから。
+xreliquary.tile.apothecary_mortar.name,Apothecary Mortar,調剤用乳鉢
+xreliquary.tile.apothecary_mortar.tooltip,Used to grind ingredients;into potion essence.,材料を粉砕してポーションエッセンスにするために使用します。
+xreliquary.tile.pedestal.name,Pedestal,台座
+xreliquary.tile.pedestal_passive.name,Pedestal (Display only),台座（表示のみ）
+xreliquary.tile.pedestal_passive.tooltip,Used as a fancy display of items,アイテムを装飾的に表示するために使用
+xreliquary.item.attraction_potion.name,Aphrodite's Serum,アフロディーテの血清
+xreliquary.item.attraction_potion.tooltip,Makes animals mate.,動物が交配する.
+xreliquary.item.fertile_potion.name,Fertile Potion,豊穣のポーション
+xreliquary.item.fertile_potion.tooltip,Causes plants to grow.,植物を成長させる.
+xreliquary.item.bullet_0.name,Empty Casing,空の薬莢
+xreliquary.item.bullet_1.name,Neutral Shot,標準弾
+xreliquary.item.bullet_2.name,Exorcism Shot,退魔弾
+xreliquary.item.bullet_2.tooltip,Effective vs. undead.,アンデッド対策に効果的.
+xreliquary.item.bullet_3.name,Blaze Shot,炎弾
+xreliquary.item.bullet_3.tooltip,Deals only fire damage.,火のダメージのみ.
+xreliquary.item.bullet_4.name,Ender Shot,エンダー弾
+xreliquary.item.bullet_4.tooltip,"Pierce enemies, seek targets.",敵を貫通、目標を追跡.
+xreliquary.item.bullet_5.name,Concussive Shot,衝撃弾
+xreliquary.item.bullet_5.tooltip,Small area damage.,小範囲ダメージ.
+xreliquary.item.bullet_6.name,Buster Shot,破裂弾
+xreliquary.item.bullet_6.tooltip,Large area damage.,大範囲ダメージ.
+xreliquary.item.bullet_7.name,Seeker Shot,追跡弾
+xreliquary.item.bullet_7.tooltip,Seeks its targets.,目標を追跡.
+xreliquary.item.bullet_8.name,Sand Shot,砂弾
+xreliquary.item.bullet_8.tooltip,"Blinds target,;irritates creepers.",ターゲットを盲目にし、;クリーパーを刺激します。
+xreliquary.item.bullet_9.name,Storm Shot,嵐弾
+xreliquary.item.bullet_9.tooltip,"Stronger during storms,;charges creepers.",嵐の間に強化され、クリーパーをチャージします。
+xreliquary.item.destruction_catalyst.name,Destruction Catalyst,破壊触媒
+xreliquary.item.destruction_catalyst.tooltip,Consumes gunpowder to destroy blocks,火薬を消費してブロックを破壊
+xreliquary.item.destruction_catalyst.tooltip2,{{!colors.yellow}}Charge: {{charge}},{{!colors.yellow}}チャージ: {{charge}}
+xreliquary.item.emperor_chalice.name,Emperor's Chalice,皇帝の聖杯
+xreliquary.item.emperor_chalice.tooltip,An infinite water bucket,無限水バケツ
+xreliquary.item.emperor_chalice.tooltip2,Enable to drain water.;Disable to place water.;Drinking restores hunger;in exchange for life.,水を吸い取るには有効化。水を置くには無効化。飲むと空腹が回復し、生命の代償として返されます
+xreliquary.item.elsewhere_flask.name,Elsewhere Flask,他所への瓶
+xreliquary.item.elsewhere_flask.tooltip,Imbibe potions within it simultaneously.{{contents}},ポーション効果を同時に発揮.{{contents}}
+xreliquary.item.ender_staff.name,Ender Staff,エンダースタッフ
+xreliquary.item.fortune_coin.name,Coin of Fortune,幸運の金貨
+xreliquary.item.fortune_coin.tooltip,Draws in items and XP,アイテムと経験値を引き寄せる
+xreliquary.item.fortune_coin.tooltip2,Shift+Right to activate.;Hold Right click to super-vacuum.,Shift+右クリックで有効化；右クリックを保持するとスーパー真空。
+xreliquary.item.glacial_staff.name,Glacial Staff,氷河の杖
+xreliquary.item.glacial_staff.tooltip,"Shoots snowballs, chills enemies on;strike and freezes the ground;you walk on.",スノーボールを発射し、敵に衝撃時に凍結させ、地面も凍らせます；歩行可能です。
+xreliquary.item.glacial_staff.tooltip2,{{!colors.blue}}Charge: {{charge}},{{!colors.blue}}チャージ: {{charge}}
+xreliquary.item.glowing_water.name,Glowing Water,輝く水
+xreliquary.item.glowing_water.tooltip,Harms undead enemies.,アンデッド敵にダメージ.
+xreliquary.item.glowing_bread.name,Glowing Bread,輝くパン
+xreliquary.item.glowing_bread.tooltip,Completely restores hunger.,ハンガーを完全回復.
+xreliquary.item.gun_part_0.name,Grip Assembly,グリップアセンブリ
+xreliquary.item.gun_part_0.tooltip,Handgun part,拳銃部品
+xreliquary.item.gun_part_1.name,Barrel Assembly,銃身アセンブリ
+xreliquary.item.gun_part_1.tooltip,Handgun part,拳銃部品
+xreliquary.item.gun_part_2.name,Hammer Assembly,ハンマーアセンブリ
+xreliquary.item.gun_part_2.tooltip,Handgun part,拳銃部品
+xreliquary.item.handgun.name,Hunter's Handgun,狩人の拳銃
+xreliquary.item.handgun.tooltip,"For great justice.;Right click fires, hold to reload.",正義のために。右クリックで発射、保持で再装填。
+xreliquary.item.handgun.tooltip2,{{count}} x {{type}},{{count}} x {{type}}
+xreliquary.item.harvest_rod.name,{{!colors.green}}Harvest Rod,{{!colors.green}}ハーベストロッド
+xreliquary.item.harvest_rod.tooltip,"Right-click to fertilize,;breaks crops in an area",右クリックで肥料を与え、;範囲内の作物を破壊します
+xreliquary.item.harvest_rod.tooltip2,{{!colors.green}}Bonemeal charge: {{charge}},{{!colors.green}}骨粉 チャージ: {{charge}}
+xreliquary.item.harvest_rod.tooltip3,{{!colors.green}}{{plantable}}: {{charge}},{{!colors.green}}{{plantable}}: {{charge}}
+xreliquary.item.mob_charm_fragment_0.name,{{!colors.light_green}}Zombie Charm Fragment,{{!colors.light_green}}ゾンビ チャーム フラグメント
+xreliquary.item.mob_charm_fragment_1.name,{{!colors.light_green}}Skeleton Charm Fragment,{{!colors.light_green}}スケルトン チャーム フラグメント
+xreliquary.item.mob_charm_fragment_2.name,{{!colors.light_green}}Wither Skeleton Charm Fragment,{{!colors.light_green}}ウィザースケルトン チャーム フラグメント
+xreliquary.item.mob_charm_fragment_3.name,{{!colors.light_green}}Creeper Charm Fragment,{{!colors.light_green}}クリーパー チャーム フラグメント
+xreliquary.item.mob_charm_fragment_4.name,{{!colors.light_green}}Witch Charm Fragment,{{!colors.light_green}}ウィッチ チャーム フラグメント
+xreliquary.item.mob_charm_fragment_5.name,{{!colors.light_green}}Zombie Pigman Charm Fragment,{{!colors.light_green}}ゾンビピグリン チャーム フラグメント
+xreliquary.item.mob_charm_fragment_6.name,{{!colors.light_green}}Cave Spider Charm Fragment,{{!colors.light_green}}ケイブスパイダー チャーム フラグメント
+xreliquary.item.mob_charm_fragment_7.name,{{!colors.light_green}}Spider Charm Fragment,{{!colors.light_green}}スパイダー チャーム フラグメント
+xreliquary.item.mob_charm_fragment_8.name,{{!colors.light_green}}Enderman Charm Fragment,{{!colors.light_green}}エンダーマン チャーム フラグメント
+xreliquary.item.mob_charm_fragment_9.name,{{!colors.light_green}}Ghast Charm Fragment,{{!colors.light_green}}ガスト チャーム フラグメント
+xreliquary.item.mob_charm_fragment_10.name,{{!colors.light_green}}Slime Charm Fragment,{{!colors.light_green}}スライム チャーム フラグメント
+xreliquary.item.mob_charm_fragment_11.name,{{!colors.light_green}}Magma Cube Charm Fragment,{{!colors.light_green}}マグマキューブ チャーム フラグメント
+xreliquary.item.mob_charm_fragment_12.name,{{!colors.light_green}}Blaze Charm Fragment,{{!colors.light_green}}ブレイズ チャーム フラグメント
+xreliquary.item.mob_charm_fragment_13.name,{{!colors.light_green}}Guardian Charm Fragment,{{!colors.light_green}}ガーディアン チャーム フラグメント
+xreliquary.item.hero_medallion.name,Hero's Medallion,英雄のメダリオン
+xreliquary.item.hero_medallion.tooltip,Stores experience for you.;Right click to reclaim levels.,経験値を貯蔵します。右クリックしてレベルを取り戻してください
+xreliquary.item.hero_medallion.tooltip2,{{!colors.green}}Levels: {{levels}} + Partial experience: {{experience}},{{!colors.green}}レベル: {{levels}} + 部分経験値: {{experience}}
+xreliquary.item.holy_hand_grenade.name,Holy Hand Grenade,聖なる手榴弾
+xreliquary.item.holy_hand_grenade.tooltip,A powerful explosive that doesn't;break blocks or hurt the wielder.,ブロックを破壊せず、使用者にダメージを与えない強力な爆発物です。
+xreliquary.item.ice_magus_rod.name,Ice Magus Rod,氷術師の杖
+xreliquary.item.ice_magus_rod.tooltip,Lobs harmful snowballs.,Lobs 害するful スノーボール.
+xreliquary.item.ice_magus_rod.tooltip2,{{!colors.blue}}Charge: {{charge}},{{!colors.blue}}チャージ: {{charge}}
+xreliquary.item.infernal_chalice.name,Infernal Chalice,獄炎の聖杯
+xreliquary.item.infernal_chalice.tooltip2,{{!colors.red}}Holds {{amount}} mB of Lava,{{!colors.red}}保有 {{amount}} mLの溶岩
+xreliquary.item.infernal_claws.name,{{!colors.red}}Infernal Claws,{{!colors.red}}獄炎の爪
+xreliquary.item.infernal_claws.tooltip,Absorbs fire damage at;the expense of hunger.,"Absorbs fire damage at
+the expenseのhunger."
+xreliquary.item.infernal_tear.name,{{!colors.red}}Infernal Tear,{{!colors.red}}獄炎の涙
+xreliquary.item.infernal_tear.tooltip,Burns items into experience.,アイテムを経験値に変換.
+xreliquary.tooltip.infernal_tear.tear_empty,Right-click to capture whatever item you have the most of;that infernal tear can burn.,"右クリックで最も多く持っているアイテムをキャプチャ
+that infernal tear can burn."
+xreliquary.tile.interdiction_torch.name,{{!colors.yellow}}Interdiction Torch,{{!colors.yellow}}遮断の松明
+xreliquary.tile.interdiction_torch.tooltip,Repels creatures and projectiles.,生物と飛び道具を反発.
+xreliquary.item.kraken_shell.name,Kraken Shell,クラーケンの殻
+xreliquary.item.kraken_shell.tooltip,Absorbs drowning damage;at the expense of hunger.,"Absorbs drowning damage
+atexpenseのhunger."
+xreliquary.item.lantern_of_paranoia.name,{{!colors.yellow}}Lantern Of Paranoia,{{!colors.yellow}}偏執狂のランタン
+xreliquary.item.lantern_of_paranoia.tooltip,Places torches in unlit;areas automatically.;Shift + Right-Click to activate.,未点灯の場所に自動的に松明を設置します。シフト+右クリックで有効化。
+xreliquary.tile.fertile_lilypad.name,Lilypad of Fertility,豊穣の睡蓮
+xreliquary.tile.fertile_lilypad.tooltip,Speeds up growth of crops,速度s up 成長thの農作物
+xreliquary.item.magicbane.name,Magicbane,魔法殺し
+xreliquary.item.magicbane.tooltip,Increases its strength;with each enchantment.,その強さを増加させます；各エンチャントごとに
+xreliquary.item.magazine_0.name,Empty Magazine,Empty マガジン
+xreliquary.item.magazine_1.name,Neutral Magazine,Neutral マガジン
+xreliquary.item.magazine_2.name,Exorcism Magazine,Exorcism マガジン
+xreliquary.item.magazine_3.name,Blaze Magazine,Blaze マガジン
+xreliquary.item.magazine_4.name,Ender Magazine,Ender マガジン
+xreliquary.item.magazine_5.name,Concussive Magazine,Concussive マガジン
+xreliquary.item.magazine_6.name,Buster Magazine,Buster マガジン
+xreliquary.item.magazine_7.name,Seeker Magazine,Seeker マガジン
+xreliquary.item.magazine_8.name,Sand Magazine,Sand マガジン
+xreliquary.item.magazine_9.name,Storm Magazine,Storm マガジン
+xreliquary.item.mercy_cross.name,Cross of Mercy,慈悲の十字架
+xreliquary.item.mercy_cross.tooltip,Deals extra damage;to undead creatures.,アンデッドクリーチャーに追加ダメージを与えます。
+xreliquary.item.midas_touchstone.name,Touchstone of Midas,ミダスの礎石
+xreliquary.item.midas_touchstone.tooltip,Repairs gold items,金製品を修復
+xreliquary.item.midas_touchstone.tooltip2,{{!colors.yellow}}Charge: {{charge}},{{!colors.yellow}}チャージ: {{charge}}
+xreliquary.item.mob_ingredient_0.name,Rib Bone,肋骨
+xreliquary.item.mob_ingredient_0.tooltip,Skeleton drop,スケルトン ドロップ
+xreliquary.item.mob_ingredient_1.name,Withered Rib,萎れた肋骨
+xreliquary.item.mob_ingredient_1.tooltip,Wither Skeleton drop,ウィザースケルトン ドロップ
+xreliquary.item.mob_ingredient_2.name,Chelicerae,牙板
+xreliquary.item.mob_ingredient_2.tooltip,Spider drop,クモドロップ
+xreliquary.item.mob_ingredient_3.name,Catalyzing Gland,触媒腺
+xreliquary.item.mob_ingredient_3.tooltip,Creeper/Ghast drop,クリーパー/ガスト ドロップ
+xreliquary.item.mob_ingredient_4.name,Slime Pearl,スライムの真珠
+xreliquary.item.mob_ingredient_4.tooltip,Slime drop,スライムドロップ
+xreliquary.item.mob_ingredient_5.name,Bat Wing,コウモリの翼
+xreliquary.item.mob_ingredient_5.tooltip,Bat drop,コウモリドロップ
+xreliquary.item.mob_ingredient_6.name,Zombie Heart,ゾンビの心臓
+xreliquary.item.mob_ingredient_6.tooltip,Zombie/Pigman drop,ゾンビ/ピグリン ドロップ
+xreliquary.item.mob_ingredient_7.name,Molten Core,溶融核
+xreliquary.item.mob_ingredient_7.tooltip,Blaze/Magma Cube drop,ブレイズ/マグマキューブドロップ
+xreliquary.item.mob_ingredient_8.name,Eye of the Storm,嵐の目
+xreliquary.item.mob_ingredient_8.tooltip,Charged Creeper drop,チャージされたクリーパー ドロップ
+xreliquary.item.mob_ingredient_9.name,Fertile Essence,豊穣の液
+xreliquary.item.mob_ingredient_9.tooltip,Crafting ingredient,クラフト材料
+xreliquary.item.mob_ingredient_10.name,Frozen Core,凍結核
+xreliquary.item.mob_ingredient_10.tooltip,Snowman drop,雪ゴーレムドロップ
+xreliquary.item.mob_ingredient_11.name,Nebulous Heart,星霧の心臓
+xreliquary.item.mob_ingredient_11.tooltip,Enderman drop,エンダーマンドロップ
+xreliquary.item.mob_ingredient_12.name,Squid Beak,イカのくちばし
+xreliquary.item.mob_ingredient_12.tooltip,Squid drop,イカドロップ
+xreliquary.item.mob_ingredient_13.name,Infernal Claw,獄炎の爪片
+xreliquary.item.mob_ingredient_13.tooltip,Crafting ingredient,クラフト材料
+xreliquary.item.mob_ingredient_14.name,Kraken Shell Fragment,クラーケンの殻 フラグメント
+xreliquary.item.mob_ingredient_14.tooltip,Crafting ingredient,クラフト材料
+xreliquary.item.mob_ingredient_15.name,Crimson Cloth,真紅の布
+xreliquary.item.mob_ingredient_15.tooltip,Crafting ingredient,クラフト材料
+xreliquary.item.mob_ingredient_16.name,Guardian Spike,ガーディアンの棘
+xreliquary.item.mob_ingredient_16.tooltip,Guardian drop,ガーディアンのドロップ
+xreliquary.item.mob_charm_0.name,{{!colors.light_green}}Zombie Charm,{{!colors.light_green}}ゾンビ チャーム
+xreliquary.item.mob_charm_0.tooltip,Zombies can't see you with this.,これを持つとゾンビに見えない.
+xreliquary.item.mob_charm_1.name,{{!colors.light_green}}Skeleton Charm,{{!colors.light_green}}スケルトン チャーム
+xreliquary.item.mob_charm_1.tooltip,Skeletons can't see you with this.,これを持つとスケルトンに見えない.
+xreliquary.item.mob_charm_2.name,{{!colors.light_green}}Wither Skeleton Charm,{{!colors.light_green}}ウィザースケルトン チャーム
+xreliquary.item.mob_charm_2.tooltip,Wither skeletons can't see you with this.,これを持つとウィザースケルトンに見えない.
+xreliquary.item.mob_charm_3.name,{{!colors.light_green}}Creeper Charm,{{!colors.light_green}}クリーパー チャーム
+xreliquary.item.mob_charm_3.tooltip,Creepers can't see you with this.,これを持つとクリーパーに見えない.
+xreliquary.item.mob_charm_4.name,{{!colors.light_green}}Witch Charm,{{!colors.light_green}}ウィッチ チャーム
+xreliquary.item.mob_charm_4.tooltip,Witches can't see you with this.,このアイテムでwitchはあなたを見ることができません。
+xreliquary.item.mob_charm_5.name,{{!colors.light_green}}Zombie Pigman Charm,{{!colors.light_green}}ゾンビピグリン チャーム
+xreliquary.item.mob_charm_6.name,{{!colors.light_green}}Cave Spider Charm,{{!colors.light_green}}ケイブスパイダー チャーム
+xreliquary.item.mob_charm_6.tooltip,Cave Spiders can't see you with this.,これを持つとケーブスパイダーに見えない.
+xreliquary.item.mob_charm_7.name,{{!colors.light_green}}Spider Charm,{{!colors.light_green}}スパイダー チャーム
+xreliquary.item.mob_charm_7.tooltip,Spiders can't see you with this.,これを持つとクモに見えない.
+xreliquary.item.mob_charm_8.name,{{!colors.light_green}}Enderman Charm,{{!colors.light_green}}エンダーマン チャーム
+xreliquary.item.mob_charm_8.tooltip,Endermen can't see you with this.,これを持つとエンダーマンに見えない.
+xreliquary.item.mob_charm_9.name,{{!colors.light_green}}Ghast Charm,{{!colors.light_green}}ガスト チャーム
+xreliquary.item.mob_charm_9.tooltip,Ghasts can't see you with this.,このアイテムでゴーストはあなたを見えません
+xreliquary.item.mob_charm_10.name,{{!colors.light_green}}Slime Charm,{{!colors.light_green}}スライム チャーム
+xreliquary.item.mob_charm_10.tooltip,Slimes can't see you with this.,これを持つとスライムに見えない.
+xreliquary.item.mob_charm_11.name,{{!colors.light_green}}Magma Cube Charm,{{!colors.light_green}}マグマキューブ チャーム
+xreliquary.item.mob_charm_11.tooltip,Magma Cubes can't see you with this.,これを持つとマグマキューブに見えない.
+xreliquary.item.mob_charm_12.name,{{!colors.light_green}}Blaze Charm,{{!colors.light_green}}ブレイズ チャーム
+xreliquary.item.mob_charm_12.tooltip,Blazes can't see you with this.,このアイテムでブレイズはあなたを見えません
+xreliquary.item.mob_charm_13.name,{{!colors.light_green}}Guardian Charm,{{!colors.light_green}}ガーディアン チャーム
+xreliquary.item.mob_charm_13.tooltip,Guardians can't see you with this.,ガーディアンはこれであなたを見ることができません。
+xreliquary.item.mob_charm_belt.name,Charm Belt,魔除けベルト
+xreliquary.item.mob_charm_belt.tooltip,Holds all the mob charms,保有 allmob charms
+xreliquary.item.phoenix_down.name,Phoenix Down,フェニックスダウン
+xreliquary.item.potion_empty.name,Condensed Potion Vial,濃縮ポーション ビン
+xreliquary.item.potion.name,Condensed Potion,濃縮ポーション
+xreliquary.item.potion_splash.name,Splash Condensed Potion,Splash 濃縮ポーション
+xreliquary.item.potion_lingering.name,Lingering Condensed Potion,Lingering 濃縮ポーション
+xreliquary.item.potion_essence.name,Potion Essence,ポーション液
+xreliquary.item.pyromancer_staff.name,{{!colors.red}}Pyromancer's Staff,{{!colors.red}}火術師の杖
+xreliquary.item.pyromancer_staff.tooltip,"Shoots blaze and ghast;fireballs, creates firebursts;and lights fires",ブレイズとガストの火球を発射し、ファイヤーバーストを作成し、炎を灯します。
+xreliquary.item.pyromancer_staff.tooltip2,{{!colors.red}}Charges: {{charges}};{{!colors.red}}Blaze: {{blaze}};Shift + Left-click to change modes,{{!colors.red}}チャージ数: {{charges}};{{!colors.red}}ブレイズ: {{blaze}};Shift + 左クリックでモード変更
+xreliquary.item.rending_gale.name,{{!colors.yellow}}Rending Gale,{{!colors.yellow}}引き裂く烈風
+xreliquary.item.rending_gale.tooltip,"Fly, push and pull mobs, or shoot;lightning while raining",飛行、モブの押し引き、または雷撃を雨中に発射
+xreliquary.item.rending_gale.tooltip2,{{!colors.yellow}}Charge: {{charge}},{{!colors.yellow}}チャージ: {{charge}}
+xreliquary.item.rod_of_lyssa.name,Rod of Lyssa,リッサの釣竿
+xreliquary.item.rod_of_lyssa.tooltip,A magic fishing rod that can be;used to reel in items and pick pockets.,アイテムを引き寄せ、ポケットから拾うことができるマジックフィッシングロッドです
+xreliquary.item.salamander_eye.name,Salamander's Eye,サラマンダーの眼
+xreliquary.item.salamander_eye.tooltip,Dispels blaze fireballs and reflects;ghast fireballs while held.;Puts out fires on and around you.,ブレイズの火球を消し、ホスト時にガストの火球を反射します；周囲の炎も消します。
+xreliquary.item.serpent_staff.name,{{!colors.green}}Serpent Staff,{{!colors.green}}蛇の杖
+xreliquary.item.serpent_staff.tooltip,"All that nasty stuff;from a Kraken's spit,;thrown at your enemies.;Drains life on strike.",あの嫌なもの；クラーケンの吐息から、敵に投げつけられる；攻撃時に生命を吸収します。
+xreliquary.item.shears_of_winter.name,Shears of Winter,冬の剪定鋏
+xreliquary.item.shears_of_winter.tooltip,Magic shears that tear the;leaves from trees with cold.,魔法の鋏で、冷たく木から葉を引き裂きます。
+xreliquary.item.sojourner_staff.name,Sojourner's Staff,放浪者の杖
+xreliquary.item.sojourner_staff.tooltip,"Consumes torches, can place them;long distances, but costs extra",松明を消費し、設置できます；長距離ですが追加コストがあります
+xreliquary.item.sojourner_staff.tooltip2,{{!colors.yellow}}Contents: {{phrase}};{{!colors.rose}}Placing: {{!colors.yellow}}{{placing}},{{!colors.yellow}}内容: {{phrase}};{{!colors.rose}}配置: {{!colors.yellow}}{{placing}}
+xreliquary.item.tipped_arrow.name,Tipped Arrow,ポーション矢
+xreliquary.item.twilight_cloak.name,Twilight Cloak,薄暮のマント
+xreliquary.item.twilight_cloak.tooltip,Makes you invisible in darkness.,暗い場所で不可視化.
+xreliquary.item.witch_hat.name,{{!colors.yellow}}Witch Hat,{{!colors.yellow}}魔女の帽子
+xreliquary.item.void_tear_empty.name,Empty Void Tear,空の虚無の涙
+xreliquary.item.void_tear.name,Void Tear,虚無の涙
+xreliquary.item.void_tear.mode.no_refill,EMPTY,空の
+xreliquary.item.void_tear.mode.one_stack,STACK,スタック
+xreliquary.item.void_tear.mode.full_inventory,FILL,充填
+xreliquary.item.void_tear.tooltip,Keeps almost unlimited amount of one item type,保持 ほぼ無制限 量の1種類のアイテム
+xreliquary.tooltip.tear,Currently holds {{!colors.yellow}}{{item}}{{!colors.light_gray}}.,現在保有中 {{!colors.yellow}}{{item}}{{!colors.light_gray}}.
+xreliquary.tooltip.tear_empty,Right-click to capture whatever item you have the most of.,右クリックで最も多く持っているアイテムをキャプチャ.
+xreliquary.tooltip.tear_quantity,Currently holds {{!colors.yellow}}{{amount}}{{!colors.light_gray}} {{!colors.yellow}}{{item}}{{!colors.light_gray}}.,現在保有中 {{!colors.yellow}}{{amount}}{{!colors.light_gray}} {{!colors.yellow}}{{item}}{{!colors.light_gray}}.
+xreliquary.item.witherless_rose.name,Witherless Rose,枯渇耐性の薔薇
+xreliquary.item.witherless_rose.tooltip,With the Nether Stars enchanting this rose;the holder is protected from Withering.,ネザー・スターでこのローズをエンチャントすると、保持者はウィディングから保護されます。
+xreliquary.tile.wraith_node.name,Wraith Node,怨霊ノード
+xreliquary.general.block_settings.altar.maximumtimevarianceinminutes,Maximum time variance in minutes,最大時間変動（分）
+xreliquary.general.block_settings.altar.outputlightlevelwhileactive,Output light level while active,Output light レベル ～中に 起動時
+xreliquary.general.block_settings.altar.redstonecost,Redstone cost,レッドストーン コスト
+xreliquary.general.block_settings.altar.timeinminutes,Time in minutes,時間（分）
+xreliquary.general.block_settings.altar,Altar of Light,光の祭壇
+xreliquary.general.block_settings.apothecary_cauldron.cooktime,Cook time,調理時間
+xreliquary.general.block_settings.apothecary_cauldron.glowstonelimit,Glowstone limit,グロウストーン limit
+xreliquary.general.block_settings.apothecary_cauldron.heatsources,Heat sources,熱源
+xreliquary.general.block_settings.apothecary_cauldron.redstonelimit,Redstone limit,レッドストーン limit
+xreliquary.general.block_settings.apothecarycauldron,Apothecary Cauldron,調剤用大釜
+xreliquary.general.block_settings.fertilelilypad,Lilypad of Fertility,豊穣の睡蓮
+xreliquary.general.block_settings.fertile_lilypad.fullpotencyrange,Full potency range,Full potency 範囲
+xreliquary.general.block_settings.fertile_lilypad.secondsbetweengrowthticks,Seconds between growth ticks,Secオンds between 成長th ticks
+xreliquary.general.block_settings.fertile_lilypad.tilerange,Tile range,Tile 範囲
+xreliquary.general.block_settings.interdiction_torch.canpushprojectiles,Can push projectiles,飛び道具を押せるか
+xreliquary.general.block_settings.interdiction_torch.pushableentitiesblacklist,Entities that are banned from being pushed,押し出すことが禁止されたエンティティ
+xreliquary.general.block_settings.interdiction_torch.pushableprojectilesblacklist,Projectiles that are banned from being pushed,押されることが禁止された飛び道具
+xreliquary.general.block_settings.interdiction_torch.pushradius,Push radius,Push 半径
+xreliquary.general.block_settings.interdictiontorch,Interdiction Torch,禁制の松明
+xreliquary.general.block_settings.pedestal.bucketwrappercooldown,Bucket wrapper cooldown,バケツのカウントダウン
+xreliquary.general.block_settings.pedestal.bucketwrapperrange,Bucket wrapper range,Bucket wrapper 範囲
+xreliquary.general.block_settings.pedestal.fishingwrapperretractdelay,Fishing Rod wrapper retract delay,釣竿ラッパー引っ込み遅延
+xreliquary.general.block_settings.pedestal.fishingwrappersuccessrate,Fishing Rod wrapper success rate,Fishing Rod wrapper success 速度
+xreliquary.general.block_settings.pedestal.meleewrappercooldown,Melee wrapper cooldown,近接ラッパークールダウン
+xreliquary.general.block_settings.pedestal.meleewrapperrange,Melee wrapper range,Melee wrapper 範囲
+xreliquary.general.block_settings.pedestal.redstonewrapperrange,Redstone wrapper range,レッドストーン wrapper 範囲
+xreliquary.general.block_settings.pedestal.shearswrappercooldown,Shears wrapper cooldown,剪定鋏ラッパークールダウン
+xreliquary.general.block_settings.pedestal.shearswrapperrange,Shears wrapper range,Shears wrapper 範囲
+xreliquary.general.block_settings.pedestal,Pedestal,台座
+xreliquary.general.blocks,Block settings,ブロック設定
+xreliquary.general.chestlootenabled,Chest loot enabled,チェストの Loot が有効
+xreliquary.general.hud_positions.alkahestrytome,Alkahestry Tome,錬金術の古書
+xreliquary.general.hud_positions.destructioncatalyst,Destruction Catalyst,破壊触媒
+xreliquary.general.hud_positions.enderstaff,Ender Staff,エンダースタッフ
+xreliquary.general.hud_positions.glacialstaff,Glacial Staff,氷河の杖
+xreliquary.general.hud_positions.handgun,Handgun,ハンドガン
+xreliquary.general.hud_positions.harvestrod,Harvest Rod,収穫棒
+xreliquary.general.hud_positions.heromedallion,Hero Medallion,英雄のメダリオン
+xreliquary.general.hud_positions.icemagusrod,Ice Magus Rod,氷術師の杖
+xreliquary.general.hud_positions.infernalchalice,Infernal Chalice,獄炎の聖杯
+xreliquary.general.hud_positions.midastouchstone,Midas Touchstone,ミダスの礎石
+xreliquary.general.hud_positions.mobcharm,Mob Charm,モブ チャーム
+xreliquary.general.hud_positions.pyromancerstaff,Pyromancer Staff,火術師の杖
+xreliquary.general.hud_positions.rendinggale,Rending Gale,引き裂く烈風
+xreliquary.general.hud_positions.sojournerstaff,Sojouner Staff,放浪者の杖
+xreliquary.general.hud_positions.voidtear,Void Tear,虚無の涙
+xreliquary.general.hudpositions,HUD positions,HUD位置
+xreliquary.general.item_settings.alkahestry_tome.chargelimit,Charge limit,チャージ上限
+xreliquary.general.item_settings.alkahestrytome,Alkahestry Tome,錬金術の古書
+xreliquary.general.item_settings.angelheart_vial.healpercentageofmaxlife,Heal percentage of max life,最大ライフの治癒割合
+xreliquary.general.item_settings.angelheart_vial.removenegativestatus,Remove negative status,負のステータスを除去
+xreliquary.general.item_settings.angelheartvial,Angelheart Vial,天使心の小瓶
+xreliquary.general.item_settings.angelic_feather.hungercostpercent,Hunger cost in percent,ハンガーコスト（パーセント）
+xreliquary.general.item_settings.angelic_feather.leapingpotency,Leaping potency,跳躍力
+xreliquary.general.item_settings.angelicfeather,Angelic Feather,天使の羽
+xreliquary.general.item_settings.destruction_catalyst.centeredexplosion,Centered explosion,Centered 爆発
+xreliquary.general.item_settings.destruction_catalyst.explosionradius,Explosion radius,爆発半径
+xreliquary.general.item_settings.destruction_catalyst.gunpowdercost,Gunpowder cost,火薬コスト
+xreliquary.general.item_settings.destruction_catalyst.gunpowderlimit,Gunpowder limit,火薬上限
+xreliquary.general.item_settings.destruction_catalyst.gunpowderworth,Gunpowder worth,火薬価値
+xreliquary.general.item_settings.destruction_catalyst.mundaneblocks,Mundane blocks,平凡なブロック
+xreliquary.general.item_settings.destruction_catalyst.perfectcube,Perfect cube,完全立方体
+xreliquary.general.item_settings.destructioncatalyst,Destruction Catalyst,破壊触媒
+xreliquary.general.item_settings.emperor_chalice.hungersatiationmultiplier,Hunger satiation multiplier,ハンガー満足度乗数
+xreliquary.general.item_settings.emperorchalice,Emperor Chalice,皇帝の聖杯
+xreliquary.general.item_settings.ender_staff.enderpearlcastcost,Ender pearl cast cost,エンダーパール発動コスト
+xreliquary.general.item_settings.ender_staff.enderpearllimit,Ender pearl limit,エンダーパール上限
+xreliquary.general.item_settings.ender_staff.enderpearlnodewarpcost,Ender pearl node warp cost,エンダーパール ノード転送コスト
+xreliquary.general.item_settings.ender_staff.enderpearlworth,Ender pearl worth,エンダーパール価値
+xreliquary.general.item_settings.ender_staff.nodewarpcasttime,Node warp cast time,ノード転送発動時間
+xreliquary.general.item_settings.enderstaff,Ender Staff,エンダースタッフ
+xreliquary.general.item_settings.fortune_coin.disableaudio,Disable audio,オーディオを無効化
+xreliquary.general.item_settings.fortune_coin.longrangepulldistance,Range pull distance,長距離引き寄せ距離
+xreliquary.general.item_settings.fortune_coin.standardpulldistance,Standard pull distance,標準引き寄せ距離
+xreliquary.general.item_settings.fortunecoin,Fortune Coin,幸運の金貨
+xreliquary.general.item_settings.glacial_staff.snowballcost,Snowball cost,スノーボールコスト
+xreliquary.general.item_settings.glacial_staff.snowballdamage,Snowball damage,スノーボール ダメージ
+xreliquary.general.item_settings.glacial_staff.snowballdamagebonusblaze,Damage bonus against fire immune mobs,ダメージ bオンus a獲得st 火 immune mobs
+xreliquary.general.item_settings.glacial_staff.snowballdamagebonusfireimmune,Snowball damage bonus against fire immune,炎耐性へのスノーボール ダメージボーナス
+xreliquary.general.item_settings.glacial_staff.snowballlimit,Snowball limit,スノーボール上限
+xreliquary.general.item_settings.glacial_staff.snowballworth,Snowball worth,スノーボール価値
+xreliquary.general.item_settings.glacialstaff,Glacial Staff,氷河の杖
+xreliquary.general.item_settings.harvest_rod.aoecooldown,AOE cooldown ticks,AOEクールダウン（Tick）
+xreliquary.general.item_settings.harvest_rod.aoeradius,AOE radius,AOE半径
+xreliquary.general.item_settings.harvest_rod.bonemealcost,Bonemeal cost,骨粉コスト
+xreliquary.general.item_settings.harvest_rod.bonemeallimit,Bonemeal limit,骨粉上限
+xreliquary.general.item_settings.harvest_rod.bonemealluckpercentchance,Bonemeal luck percent chance,骨粉 幸運パーセント確率
+xreliquary.general.item_settings.harvest_rod.bonemealluckrolls,Bonemeal luck rolls,骨粉 幸運ロール数
+xreliquary.general.item_settings.harvest_rod.bonemealworth,Bonemeal worth,骨粉価値
+xreliquary.general.item_settings.harvest_rod.maxcapacityperplantable,Max capacity per plantable,植え付け可能アイテムあたりの最大容量
+xreliquary.general.item_settings.harvest_rod.pedestalcooldown,Pedestal cooldown,台座クールダウン
+xreliquary.general.item_settings.harvest_rod.pedestalrange,Pedestal range,台座範囲
+xreliquary.general.item_settings.harvestrod,Harvest Rod,収穫棒
+xreliquary.general.item_settings.hero_medallion.experiencedrop,Experience dropped on ground,地面にドロップした経験値
+xreliquary.general.item_settings.hero_medallion.experiencelevelmaximum,Experience level maximum,経験値 レベル maximum
+xreliquary.general.item_settings.hero_medallion.experiencelevelminimum,Experience level minimum,経験値 レベル minimum
+xreliquary.general.item_settings.hero_medallion.experiencelimit,Experience limit,経験値 limit
+xreliquary.general.item_settings.hero_medallion.pedestalcooldown,Pedestal cooldown,台座クールダウン
+xreliquary.general.item_settings.hero_medallion.pedestalrange,Pedestal range,台座範囲
+xreliquary.general.item_settings.hero_medallion.pedestalrepairstepxp,Pedestal repair step xp,台座 repair step xp
+xreliquary.general.item_settings.heromedallion,Hero Medallion,英雄のメダリオン
+xreliquary.general.item_settings.ice_magus_rod.snowballcost,Snowball cost,スノーボールコスト
+xreliquary.general.item_settings.ice_magus_rod.snowballdamage,Snowball damage,スノーボール ダメージ
+xreliquary.general.item_settings.ice_magus_rod.snowballdamagebonusblaze,Snowball damage bonus against blaze,スノーボール ダメージ bonus against blaze
+xreliquary.general.item_settings.ice_magus_rod.snowballdamagebonusfireimmune,Snowball damage bonus against fire immune,炎耐性へのスノーボール ダメージボーナス
+xreliquary.general.item_settings.ice_magus_rod.snowballlimit,Snowball limit,スノーボール上限
+xreliquary.general.item_settings.ice_magus_rod.snowballworth,Snowball worth,スノーボール価値
+xreliquary.general.item_settings.icemagusrod,Ice Magus Rod,氷術師の杖
+xreliquary.general.item_settings.infernal_chalice.fluidlimit,Fluid limit,流体上限
+xreliquary.general.item_settings.infernal_chalice.hungercostpercent,Hunger cost in percent,ハンガーコスト（パーセント）
+xreliquary.general.item_settings.infernalchalice,Infernal Chalice,獄炎の聖杯
+xreliquary.general.item_settings.infernal_claws.hungercostpercent,Hunger cost in percent,ハンガーコスト（パーセント）
+xreliquary.general.item_settings.infernalclaws,Infernal Claws,地獄の爪
+xreliquary.general.item_settings.infernal_tear.absorbwhencreated,Absorb when created,作成時に吸収
+xreliquary.general.item_settings.infernaltear,Infernal Tear,地獄の涙
+xreliquary.general.item_settings.kraken_shell.hungercostpercent,Hunger cost in percent,ハンガーコスト（パーセント）
+xreliquary.general.item_settings.krakenshell,Kraken Shell,クラーケンの殻
+xreliquary.general.item_settings.lantern_of_paranoia.minlightlevel,Minimum light level,Minimum light レベル
+xreliquary.general.item_settings.lantern_of_paranoia.placementscanradius,Placement scan radius,配置するment scan 半径
+xreliquary.general.item_settings.lanternofparanoia,Lantern of Paranoia,偏執狂のランタン
+xreliquary.general.item_settings.midas_touchstone.glowstonecost,Glowstone cost,グロウストーン コスト
+xreliquary.general.item_settings.midas_touchstone.glowstonelimit,Glowstone limit,グロウストーン limit
+xreliquary.general.item_settings.midas_touchstone.glowstoneworth,Glowstone worth,グロウストーン worth
+xreliquary.general.item_settings.midas_touchstone.golditems,Gold items,Gold アイテム
+xreliquary.general.item_settings.midastouchstone,Midas Touchstone,ミダスの礎石
+xreliquary.general.item_settings.mob_charm.damageperkill,Damage per kill,ダメージ per 倒す
+xreliquary.general.item_settings.mob_charm.displayposition,Display position,表示位置
+xreliquary.general.item_settings.mob_charm.dropdurabilityrepair,Drop durability repair,ドロップ耐久性修復
+xreliquary.general.item_settings.mob_charm.durability,Total durability,総耐久性
+xreliquary.general.item_settings.mob_charm.keepalmostdestroyeddisplayed,Keep almost destroyed charms displayed,ほぼ破壊されたチャームを表示したままにする
+xreliquary.general.item_settings.mob_charm.maxcharmstodisplay,Max charms to display in HUD,HUDに表示するチャームの最大数
+xreliquary.general.item_settings.mobcharm,Mob Charm,モブ チャーム
+xreliquary.general.item_settings.phoenix_down.givetemporarydamageresistance,Give temporary damage resistance,Give temporary ダメージ resistance
+xreliquary.general.item_settings.phoenix_down.givetemporaryfireresistanceiffiredamagekilledyou,Give temporary fire resistance,Give temporary 火 resistance
+xreliquary.general.item_settings.phoenix_down.givetemporaryregeneration,Give temporary regeneration,Give temporary regeneratiオン
+xreliquary.general.item_settings.phoenix_down.givetemporarywaterbreathingifdrowningkilledyou,Give temporary water breathing,Give temporary 水 breathing
+xreliquary.general.item_settings.phoenix_down.healpercentageofmaxlife,Heal percentage of max life,最大ライフの治癒割合
+xreliquary.general.item_settings.phoenix_down.hungercostpercent,Hunger cost in percent,ハンガーコスト（パーセント）
+xreliquary.general.item_settings.phoenix_down.leapingpotency,Leaping potency,跳躍力
+xreliquary.general.item_settings.phoenix_down.removenegativestatus,Remove negative status,負のステータスを除去
+xreliquary.general.item_settings.phoenixdown,Phoenix Down,フェニックスダウン
+xreliquary.general.item_settings.pyromancer_staff.blazeabsorbworth,Blaze absorb worth,ブレイズ吸収価値
+xreliquary.general.item_settings.pyromancer_staff.blazepowdercost,Blaze powder cost,Blaze powder コスト
+xreliquary.general.item_settings.pyromancer_staff.blazepowderlimit,Blaze powder limite,ブレイズパウダー上限
+xreliquary.general.item_settings.pyromancer_staff.blazepowderworth,Blaze powder worth,ブレイズパウダーの価値
+xreliquary.general.item_settings.pyromancer_staff.firechargecost,Fire charge cost,火 チャージ コスト
+xreliquary.general.item_settings.pyromancer_staff.firechargelimit,Fire charge limit,火 チャージ limit
+xreliquary.general.item_settings.pyromancer_staff.firechargeworth,Fire charge worth,火 チャージ worth
+xreliquary.general.item_settings.pyromancer_staff.ghastabsorbworth,Ghast absorb worth,怨霊吸収価値
+xreliquary.general.item_settings.pyromancerstaff,Pyromancer Staff,火術師の杖
+xreliquary.general.item_settings.rending_gale.blocktargetrange,Block target range,ブロックtarget 範囲
+xreliquary.general.item_settings.rending_gale.boltchargecost,Bolt charge cost,Bolt チャージ コスト
+xreliquary.general.item_settings.rending_gale.canpushprojectiles,Can push projectiles,飛び道具を押せるか
+xreliquary.general.item_settings.rending_gale.castchargecost,Cast charge cost,Cast チャージ コスト
+xreliquary.general.item_settings.rending_gale.chargefeatherworth,Charge feather worth,チャージ feather worth
+xreliquary.general.item_settings.rending_gale.chargelimit,Charge limit,チャージ上限
+xreliquary.general.item_settings.rending_gale.pedestalcostpersecond,Pedestal cost per second,台座 cost per second
+xreliquary.general.item_settings.rending_gale.pedestalflightrange,Pedestal flight range,台座 flight range
+xreliquary.general.item_settings.rending_gale.pushableentitiesblacklist,Entities that are banned from being pushed,押し出すことが禁止されたエンティティ
+xreliquary.general.item_settings.rending_gale.pushableprojectilesblacklist,Projectiles that are banned from being pushed,押されることが禁止された飛び道具
+xreliquary.general.item_settings.rending_gale.pushpullradius,Push/Pull radius,Push/Pull 半径
+xreliquary.general.item_settings.rendinggale,Rending Gale,引き裂く烈風
+xreliquary.general.item_settings.rod_of_lyssa.angeronstealfailure,Anger on steal failure,Anger オン steal failure
+xreliquary.general.item_settings.rod_of_lyssa.failstealfromvacantslots,Fail steal from vacant slots,空きスロットからの盗み失敗
+xreliquary.general.item_settings.rod_of_lyssa.flatstealfailurepercentrate,Flat steal failure percent rate,Flat steal failure percent 速度
+xreliquary.general.item_settings.rod_of_lyssa.levelcapforleveledformula,Level cap for leveled formula,レベル cap のために レベルed のためにmula
+xreliquary.general.item_settings.rod_of_lyssa.stealfromvacantslots,Steal from vacant slots,空きスロットから盗む
+xreliquary.general.item_settings.rod_of_lyssa.useleveledfailurerate,Use leveled failure rate,Use レベルed failure 速度
+xreliquary.general.item_settings.rodoflyssa,Rod of Lyssa,リッサの釣竿
+xreliquary.general.item_settings.seeker_shot.huntableentitiesblacklist,Entities that are banned from being hunted,狩られることが禁止されたエンティティ
+xreliquary.general.item_settings.seekershot,Seeker Shot,追跡弾
+xreliquary.general.item_settings.sojourner_staff.maxcapacityperitemtype,Max capacity per type,タイプあたりの最大容量
+xreliquary.general.item_settings.sojourner_staff.maxrange,Max range,Max 範囲
+xreliquary.general.item_settings.sojourner_staff.tilepercostmultiplier,Tile per cost multiplier,Tile per コスト multiplier
+xreliquary.general.item_settings.sojourner_staff.torches,Torches,松明
+xreliquary.general.item_settings.sojournerstaff,Sojourner Staff,放浪者の杖
+xreliquary.general.item_settings.twilight_cloak.maxlightlevel,Max light level,Max light レベル
+xreliquary.general.item_settings.twilightcloak,Twilight Cloak,薄暮のマント
+xreliquary.general.item_settings.void_tear.absorbwhencreated,Absorb when created,作成時に吸収
+xreliquary.general.item_settings.void_tear.itemlimit,Item limit,アイテム上限
+xreliquary.general.item_settings.voidtear,Void Tear,虚無の涙
+xreliquary.general.items,Item settings,アイテム設定
+xreliquary.general.dropcraftingrecipesenabled,Drop crafting recipes enabled,ドロップクラフトレシピ有効
+xreliquary.general.mobdropsenabled,Mob drops enabled,Mob ドロップ enabled
+xreliquary.general.potions.differentdurations,Different durations,Different duratiオンs
+xreliquary.general.potions.maxeffectcount,Max effect count,Max 効果 count
+xreliquary.general.potions.potionmap,Potion ingredients,ポーション ingredients
+xreliquary.general.potions.redstoneandglowstone,Redstone and Glowstone,レッドストーン and グロウストーン
+xreliquary.general.potions.threeingredients,Three ingredients,3つの材料
+xreliquary.general.potions,Potions,ポーション
+xreliquary.general.wailashiftforinfo,Shift for more waila info,Shift のために more waila info
+xreliquary.general,General settings,一般設定
+xreliquary.title1,Reliquary settings,聖遺物 settings
+xreliquary.jei.recipe.alkahest_crafting,Alkahestry Tome Crafting,錬金術の古書 Crafting
+xreliquary.jei.recipe.alkahest_charging,Alkahestry Tome Charging,錬金術の古書 チャージング
+xreliquary.jei.recipe.mortar,Apothecary Mortar,調剤用乳鉢
+xreliquary.jei.recipe.cauldron,Apothecary Cauldron,調剤用大釜
+xreliquary.jei.recipe.cauldron_splash,Apothecary Cauldron,調剤用大釜
+xreliquary.jei.descriptions.alkahestry_tome,"Shift + Right-Click to activate. While active, it will absorb any redstone and glowstone in player's inventory. Place it in a crafting grid with certain items to duplicate them for a cost.",Shift + 右クリックで起動します。アクティブな場合、プレイヤーのインベントリ内のレッドストーンとグロウストーンを吸収します。特定のアイテムをクラフトグリッドに配置して複製できます。
+xreliquary.jei.descriptions.angelheart_vial,"Shatters, restores a bit of health and buffs the player just before they would die.","破裂して, 回復 a bitのヘルス and 強化するプレイヤー just beのためにe they would die."
+xreliquary.jei.descriptions.fertile_potion,Fertile potion applies bonemeal effect where it lands.,豊穣のポーション applies 骨粉 効果 where it lands.
+xreliquary.jei.descriptions.mob_charm_fragment0,Zombie Charm Fragment is a crafting component of Zombie Charm,ゾンビ チャーム フラグメントはゾンビ チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment1,Skeleton Charm Fragment is a crafting component of Skeleton Charm,スケルトン チャーム フラグメントはスケルトン チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment2,Wither Skeleton Charm Fragment is a crafting component of Wither Skeleton Charm,ウィザースケルトン チャーム フラグメントはウィザースケルトン チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment3,Creeper Charm Fragment is a crafting component of Creeper Charm,クリーパー チャーム フラグメントはクリーパー チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment4,Witch Charm Fragment is a crafting component of Witch Charm,ウィッチ チャーム フラグメントはウィッチ チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment5,Zombie Pigman Charm Fragment is a crafting component of Zombie Pigman Charm,ゾンビピグリン チャーム フラグメントはゾンビピグリン チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment6,Cave Spider Charm Fragment is a crafting component of Cave Spider Charm,ケイブスパイダー チャーム フラグメントはケイブスパイダー チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment7,Spider Charm Fragment is a crafting component of Spider Charm,スパイダー チャーム フラグメントはスパイダー チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment8,Enderman Charm Fragment is a crafting component of Enderman Charm,エンダーマン チャーム フラグメントはエンダーマン チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment9,Ghast Charm Fragment is a crafting component of Ghast Charm,ガスト チャーム フラグメントはガスト チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment10,Slime Charm Fragment is a crafting component of Slime Charm,スライム チャーム フラグメントはスライム チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment11,Magma Cube Charm Fragment is a crafting component of Magma Cube Charm,マグマキューブ チャーム フラグメントはマグマキューブ チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment12,Blaze Charm Fragment is a crafting component of Blaze Charm,ブレイズ チャーム フラグメントはブレイズ チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_fragment13,Guardian Charm Fragment is a crafting component of Guardian Charm,ガーディアン チャーム フラグメントはガーディアン チャームのクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_charm_belt,Stores mob charms which still work the same way inside it. Right clicking the belt opens its GUI where charms can be put inside it. Can be put in Bauble's belt slot.,モブチャームを保管します。ベルト内でも同じように機能します。右クリックしてベルトのGUIを開き、チャームを挿入できます。バウブルのベルトスロットに配置できます。
+xreliquary.jei.descriptions.mob_charm0,Makes zombies ignore the player even when hit by them.,ゾンビがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm1,Makes skeletons ignore the player even when hit by them.,スケルトンがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm2,Makes wither skeletons ignore the player even when hit by them.,ウィザースケルトンがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm3,Makes creepers ignore the player even when hit by them.,クリーパーがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm4,Makes witches ignore the player even when hit by them.,ウィッチがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm5,Makes zombie pigmen ignore the player even when hit by them.,ゾンビピグリンがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm6,Makes cave spiders ignore the player even when hit by them.,ケイブスパイダーがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm7,Makes spiders ignore the player even when hit by them.,スパイダーがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm8,Makes endermen ignore the player even when hit by them.,エンダーマンがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm9,Makes ghasts ignore the player even when hit by them.,ガストがプレイヤーを無視するようにします。ヒットされても。
+xreliquary.jei.descriptions.mob_charm10,Makes slimes ignore the player even when hit by them.,スライムがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm11,Makes magma cubes ignore the player even when hit by them.,マグマキューブがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm12,Makes blazes ignore the player even when hit by them.,ブレイズがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.mob_charm13,Makes guardians ignore the player even when hit by them.,ガーディアンがプレイヤーを無視します。ヒット時も。
+xreliquary.jei.descriptions.holy_hand_grenade,An extremely powerful thrown explosive. It's unique because it only hurts enemies. It doesn't destroy blocks or harm the person who threw it.\nObvious Monty Python reference.,An 非常に 強力な 投げられた 爆発物. It's ユニーク なぜなら it のみ 傷つける 敵. It doesn't 破壊 ブロックor 害する人 who 投げた it.\n明らかな モンティ・パイソン 参照.
+xreliquary.jei.descriptions.infernal_claws,Absorbs fire (not lava) damage for hunger.,吸収する 火 (not 溶岩) ダメージ のために ハンガー.
+xreliquary.jei.descriptions.magazine0,Empty magazine.,空の マガジン.
+xreliquary.jei.descriptions.mercy_cross,"Deals bonus damage against the undead. Enchantable as gold, and obviously made of gold, for Touchstone of Midas purposes.","Deals bonus damage againstundead. Enchantable as gold, and obviously madeのgold, for ミダスの礎石 purposes."
+xreliquary.jei.descriptions.midas_touchstone,It absorbs glowstone from your inventory and repairs gold items for a price - its charge.,It 吸収する グロウストーン from your inventory and repairs gold アイテム のために a 代償 - its チャージ.
+xreliquary.jei.descriptions.mob_ingredient0,Rib Bone is one of the drops used for crafting. \n\nDrops from skeletons.,肋骨 is oneのthe drops used for crafting. \n\nDrops from skeletons.
+xreliquary.jei.descriptions.mob_ingredient1,Withered Rib is one of the drops used for crafting. \n\nDrops from wither skeletons.,萎れた肋骨 is oneのthe drops used for crafting. \n\nDrops from wither skeletons.
+xreliquary.jei.descriptions.mob_ingredient10,Frozen Core is one of the drops used for crafting. \n\nDrops from snow golems.,凍結核 is oneのthe drops used for crafting. \n\nDrops from snow golems.
+xreliquary.jei.descriptions.mob_ingredient11,Nebulous Heart is one of the drops used for crafting. \n\nDrops from endermen.,星霧の心臓 is oneのthe drops used for crafting. \n\nDrops from endermen.
+xreliquary.jei.descriptions.mob_ingredient12,Squid Beak is one of the drops used for crafting. \n\nDrops from squid.,イカのくちばし is oneのthe drops used for crafting. \n\nDrops from squid.
+xreliquary.jei.descriptions.mob_ingredient14,Kraken Shell Fragment is a crafting component used in further recipes.,クラーケンの殻フラグメントはさらなるレシピで使用されるクラフトコンポーネントです。
+xreliquary.jei.descriptions.mob_ingredient2,Chelicerae is one of the drops used for crafting. \n\nDrops from spiders (both regular and cave).,牙板 is oneのthe drops used for crafting. \n\nDrops from spiders (both regular and cave).
+xreliquary.jei.descriptions.mob_ingredient3,Catalyzing Gland is one of the drops used for crafting. \n\nDrops from creepers and ghasts.,触媒腺はクラフトに使用されるドロップの1つです。\n\nクリーパーとガストからドロップされます。
+xreliquary.jei.descriptions.mob_ingredient4,Slime Pearl is one of the drops used for crafting. \n\nDrops from slimes.,スライムの真珠 is oneのthe drops used for crafting. \n\nDrops from slimes.
+xreliquary.jei.descriptions.mob_ingredient5,Bat Wing is one of the drops used for crafting. \n\nDrops from bats.,コウモリの翼 is oneのthe drops used for crafting. \n\nDrops from bats.
+xreliquary.jei.descriptions.mob_ingredient6,Zombie Heart is one of the drops used for crafting. \n\nDrops from zombies (both regular and pigmen).,ゾンビの心臓 is oneのthe drops used for crafting. \n\nDrops from zombies (both regular and pigmen).
+xreliquary.jei.descriptions.mob_ingredient7,Molten Core is one of the drops used for crafting. \n\nDrops from magma cubes.,溶融核 is oneのthe drops used for crafting. \n\nDrops from magma cubes.
+xreliquary.jei.descriptions.mob_ingredient8,Eye of the Storm is one of the drops used for crafting. \n\nDrops from charged creepers.,嵐の目 is oneのthe drops used for crafting. \n\nDrops from charged creepers.
+xreliquary.jei.descriptions.potion,Drinkable potion that can be of many different kinds. See potion essences for a bit more info.,飲むable ポーション that can beのmany different kinds. See ポーション液 のために a bit more info.
+xreliquary.jei.descriptions.potion_splash,Splash potion that can be of many different kinds. See potion essences for a bit more info.,飛散ポーション that can beのmany different kinds. See ポーション液 のために a bit more info.
+xreliquary.jei.descriptions.potion_lingering,Lingering potion variant of the Reliquary potions. See potion essence for a bit more info on making potions.,Lingering potion variantのthe 聖遺物 potions. See potion essence for a bit more info on making potions.
+xreliquary.jei.descriptions.pyromancer_staff,Pyromancer staff shoots blaze and ghast fireballs. It charges with blaze powder and fire charges. \n\nIn addition to this it prevents the player from being hit by the fireballs (fired by ghast or blaze). Also it extinguishes fires around the player when turned off.\n\nAnd last but not least you can use it as a flint and steel.,火術師の杖はブレイズとガストの火球を発射します。ブレイズパウダーと火チャージで充電されます。\n\nこれに加えて、プレイヤーが火球（ガストまたはブレイズによって発射）に当たるのを防ぎます。また、オフの場合、プレイヤーの周りの火を消します。\n\nそして最後になりましたが、フリントと鋼として使用することができます。
+xreliquary.jei.descriptions.salamander_eye,"While held, nearby flames (and you, if applicable) are extinguished and Ghast fireballs are automatically repelled in the direction you are looking. Blaze fireballs are also automatically doused, although Blazes can still harm you if nearby.",保持中、近くの炎（および該当する場合はあなた）が消え、ガストの火球が自動的にあなたが見ている方向に反発されます。ブレイズの火球も自動的に消されますが、ブレイズが近くにいると引き続きあなたに害を与える可能性があります。
+xreliquary.jei.descriptions.pedestal,"Pedestal is a fancy way of displaying your items, but at the same time it also allows some automation.\n\nCoin of fortune - When active picks up items and XP and puts these in containers beside the pedestal, when inactive prevents players and pedestals with fortune coin from picking up items in its range\nHero's medallion - Acts as a tank for XP also when activated searches nearby pedestals for mending items and repairs those with its XP\nSword - Attacks mobs in its range (ignores bosses, tamed and child animals)\nBucket - milks cows and picks up fluids in the world and puts these in containers beside the pedestal\nShears - shears all shearable blocks and entities in its range\nFishing Rod - fishes for the player, doesn't pick up items or xp, you need to use something else for that\nTo turn on pedestal functionality either empty hand right click the switch or provide redstone signal or provide power remotely using redstone block or dust in another pedestal",台座はアイテムを装飾的に表示する素敵な方法ですが、同時に自動化も可能です。\n\nフォーチュンコイン - アクティブな場合、アイテムとXPを拾い、それらを台座の隣のコンテナに置きます。非アクティブな場合、プレイヤーとフォーチュンコイン付き台座がその範囲内のアイテムを拾うのを防ぎます。\nヒーローのメダリオン - XPのタンクとしても機能します。また、アクティブにされると、近くの台座で修理アイテムを検索し、そのXPで修復します。\n剣 - その範囲内のモブを攻撃します（ボス、飼いならされたアニマル、子動物を除く）\nバケット - 牛の搾乳と世界の液体を拾い、それらを台座の隣のコンテナに置きます。\nはさみ - その範囲内のすべてのシャール可能なブロックとエンティティをシャール\n釣竿 - プレイヤーの釣り。アイテムやxpを拾いません。その他のものを使う必要があります。\n台座機能をオンにするには、空の手で右クリックスイッチするか、レッドストーン信号を提供するか、別の台座でレッドストーンブロックまたはダストを使用してリモートで電力を供給します。
+xreliquary.jei.descriptions.pedestal_passive,"Display only pedestal is exactly that - fancy way of displaying items, but doesn't have any of the regular pedestal's functionality for the items put into it",表示のみの台座はまさにそれです - アイテムを装飾的に表示する素敵な方法ですが、中に入れたアイテムに対する通常の台座の機能はありません。
+xreliquary.waila.xreliquary.mortar.ingredients,Ingredients:,材料：
+xreliquary.waila.xreliquary.mortar.result,Resulting potion effects:,Resulting ポーション 効果s:
+xreliquary.waila.xreliquary.cauldron.missing_netherwart,Missing Nether Wart,Missing ネザーウォート
+xreliquary.waila.xreliquary.cauldron.missing_gunpowder,Missing Gunpowder,Missing 火薬
+xreliquary.waila.xreliquary.cauldron.lingering,Lingering potion,残留ポーション
+xreliquary.waila.xreliquary.cauldron.splash,Splash potion,スプラッシュポーション
+xreliquary.waila.xreliquary.cauldron.potion,Potion,ポーション
+xreliquary.waila.xreliquary.altar.inactive,Inactive,無効
+xreliquary.waila.xreliquary.altar.active,Active,アクティブ
+xreliquary.waila.xreliquary.altar.time_remaining,Time remaining: %s,残り時間: %s
+xreliquary.waila.xreliquary.shift_for_more,Hold shift for more info,シフトキーを押したままでもっと情報を得る
+xreliquary.keybind.category,Reliquary,聖遺物
+xreliquary.keybind.fortune_coin,Enable/Disable Fortune Coin,Enable/Disable 幸運の金貨
+xreliquary.potion.cure,Cure,治癒
+potion.potency.3,IV,IV
+potion.potency.4,V,V
+potion.potency.5,VI,VI
+fluid.xreliquary.xpjuice,XP Juice,経験値ジュース
+fluid.milk,Milk,牛乳
+xreliquary.potion.flight,Flight,飛行
+gui.tome.text,Craft certain items and blocks;with the tome to duplicate them.;You can right-click Altars of;Alkahestry to fuel them with;redstone from the tome.,特定のアイテムとブロックを古書と一緒にクラフトして複製します。光の祭壇を右クリックして古書からレッドストーンで供給できます。
+tooltip.absorb,{{!colors.light_purple}}Shift + Right click to toggle auto-absorb.,{{!colors.light_purple}}Shift + 右クリックで自動吸収をトグル
+tooltip.absorb_active,{{!colors.purple}}Automagically absorbs {{item}}{{!colors.purple}}.,{{!colors.purple}}自動的に{{item}}を吸収します
+tooltip.absorb_tear,{{!colors.purple}}Always leaves a stack of the item in inventory.,{{!colors.purple}}常にインベントリに1スタック残す.
+item.alkahest_tome.name,Tome of Alkahestry,錬金術の古書
+item.alkahest_tome.tooltip,{{!colors.rose}}Charge: {{redstoneAmount}}/{{redstoneLimit}};Right-click to read.,{{!colors.rose}}チャージ: {{redstoneAmount}}/{{redstoneLimit}};右クリックで読む。
+tile.altar_idle.name,Altar of Light,光の祭壇
+tile.altar_idle.tooltip,Feed it redstone and;it will grow glowstone.,レッドストーンを与えると、グロウストーンが育ちます。
+tile.altar.name,Altar of Light,光の祭壇
+item.angelheart_vial.name,Angelheart Vial,天使心の小瓶
+item.angelheart_vial.tooltip,Resurrects you;once and breaks.,一度復活し、破壊される。
+item.angelic_feather.name,Angelic Feather,天使の羽
+tile.apothecary_cauldron.name,Apothecary Cauldron,調剤用大釜
+tile.apothecary_cauldron.tooltip,Used to brew potions;from potion essence.,ポーションを醸造するために使用；ポーションエッセンスから。
+tile.apothecary_mortar.name,Apothecary Mortar,調剤用乳鉢
+tile.apothecary_mortar.tooltip,Used to grind ingredients;into potion essence.,材料を粉砕してポーションエッセンスにするために使用します。
+item.attraction_potion.name,Aphrodite's Serum,アフロディーテの血清
+item.attraction_potion.tooltip,Makes animals mate.,動物が交配する.
+item.fertile_potion.name,Fertile Potion,豊穣のポーション
+item.fertile_potion.tooltip,Causes plants to grow.,植物を成長させる.
+item.bullet_0.name,Empty Casing,空の薬莢
+item.bullet_1.name,Neutral Shot,標準弾
+item.bullet_2.name,Exorcism Shot,退魔弾
+item.bullet_2.tooltip,Effective vs. undead.,アンデッド対策に効果的.
+item.bullet_3.name,Blaze Shot,炎弾
+item.bullet_3.tooltip,Deals only fire damage.,火のダメージのみ.
+item.bullet_4.name,Ender Shot,エンダー弾
+item.bullet_4.tooltip,"Pierce enemies, seek targets.",敵を貫通、目標を追跡.
+item.bullet_5.name,Concussive Shot,衝撃弾
+item.bullet_5.tooltip,Small area damage.,小範囲ダメージ.
+item.bullet_6.name,Buster Shot,破裂弾
+item.bullet_6.tooltip,Large area damage.,大範囲ダメージ.
+item.bullet_7.name,Seeker Shot,追跡弾
+item.bullet_7.tooltip,Seeks its targets.,目標を追跡.
+item.bullet_8.name,Sand Shot,砂弾
+item.bullet_8.tooltip,"Blinds target,;irritates creepers.",ターゲットを盲目にし、;クリーパーを刺激します。
+item.bullet_9.name,Storm Shot,嵐弾
+item.bullet_9.tooltip,"Stronger during storms,;charges creepers.",嵐の間に強化され、クリーパーをチャージします。
+item.destruction_catalyst.name,Destruction Catalyst,破壊触媒
+item.destruction_catalyst.tooltip,Consumes gunpowder to destroy blocks.;{{!colors.yellow}}Charge: {{charge}},"火薬を消費してブロックを破壊.
+{{!colors.yellow}}Charge: {{charge}}"
+item.emperor_chalice.name,Emperor's Chalice,皇帝の聖杯
+item.emperor_chalice.tooltip,An infinite water bucket.;Enable to drain water.;Disable to place water.;Drinking restores hunger;in exchange for life.,"無限水バケツ.
+有効化で水を排水.
+無効化で水を配置.
+飲用でハンガー回復
+ライフと引き換えに."
+item.elsewhere_flask.name,Elsewhere Flask,他所への瓶
+item.elsewhere_flask.tooltip,Imbibe potions within it simultaneously.{{contents}},ポーション効果を同時に発揮.{{contents}}
+item.ender_staff.name,Ender Staff,エンダースタッフ
+item.fortune_coin.name,Coin of Fortune,幸運の金貨
+item.fortune_coin.tooltip,Draws in items and XP.;Shift+Right to activate.;Hold Right click to super-vacuum.,"アイテムと経験値を引き寄せる.
+Shift+右クリックで起動.
+右クリック長押しでスーパー吸引."
+item.glacial_staff.name,Glacial Staff,氷河の杖
+item.glacial_staff.tooltip,"Shoots snowballs, chills enemies on;strike and freezes the ground; you walk on.;{{!colors.blue}}Charge: {{charge}}","スノーボール発射、敵を冷却
+攻撃時に地面を凍結
+ 歩く地面.
+{{!colors.blue}}Charge: {{charge}}"
+item.glowing_water.name,Glowing Water,輝く水
+item.glowing_water.tooltip,Harms undead enemies.,アンデッド敵にダメージ.
+item.glowing_bread.name,Glowing Bread,輝くパン
+item.glowing_bread.tooltip,Completely restores hunger.,ハンガーを完全回復.
+item.gun_part_0.name,Grip Assembly,グリップアセンブリ
+item.gun_part_1.name,Barrel Assembly,銃身アセンブリ
+item.gun_part_2.name,Hammer Assembly,ハンマーアセンブリ
+item.handgun.name,Hunter's Handgun,狩人の拳銃
+item.handgun.tooltip,"For great justice.;Right click fires, hold to reload.",正義のために。右クリックで発射、保持で再装填。
+item.harvest_rod.name,{{!colors.green}}Harvest Rod,{{!colors.green}}ハーベストロッド
+item.harvest_rod.tooltip,"Right-click to fertilize,;breaks crops in an area.;{{!colors.green}}Charge: {{charge}}","右クリックで肥料化,
+範囲内の農作物を破壊.
+{{!colors.green}}Charge: {{charge}}"
+item.heart_pearl_0.name,{{!colors.rose}}Zombie Pearl,{{!colors.rose}}ゾンビ パール
+item.heart_zhu_0.name,{{!colors.rose}}Zombie Nian Zhu,{{!colors.rose}}ゾンビ 年珠
+item.heart_zhu_0.tooltip,Zombies can't see you with this.,これを持つとゾンビに見えない.
+item.heart_pearl_1.name,{{!colors.white}}Skeleton Pearl,{{!colors.white}}スケルトン パール
+item.heart_zhu_1.name,{{!colors.white}}Skeleton Nian Zhu,{{!colors.white}}スケルトン 年珠
+item.heart_zhu_1.tooltip,Skeletons can't see you with this.,これを持つとスケルトンに見えない.
+item.heart_pearl_2.name,{{!colors.gray}}Wither Skeleton Pearl,{{!colors.gray}}ウィザースケルトン パール
+item.heart_zhu_2.name,{{!colors.gray}}Wither Skeleton Nian Zhu,{{!colors.gray}}ウィザースケルトン 年珠
+item.heart_zhu_2.tooltip,Wither skeletons can't see you with this.,これを持つとウィザースケルトンに見えない.
+item.heart_pearl_3.name,{{!colors.light_green}}Creeper Pearl,{{!colors.light_green}}クリーパー パール
+item.heart_zhu_3.name,{{!colors.light_green}}Creeper Nian Zhu,{{!colors.light_green}}クリーパー 年珠
+item.heart_zhu_3.tooltip,Creepers can't see you with this.,これを持つとクリーパーに見えない.
+item.hero_medallion.name,Hero's Medallion,英雄のメダリオン
+item.hero_medallion.tooltip,Stores experience for you.;Right click to reclaim levels.;{{!colors.green}}Experience: {{experience}},"経験値を保存.
+右クリックでレベルを取り戻す.
+{{!colors.green}}Experience: {{experience}}"
+item.holy_hand_grenade.name,Holy Hand Grenade,聖なる手榴弾
+item.holy_hand_grenade.tooltip,A powerful explosive that doesn't;break blocks or hurt the wielder.,ブロックを破壊せず、使用者にダメージを与えない強力な爆発物です。
+item.ice_magus_rod.name,Ice Magus Rod,氷術師の杖
+item.ice_magus_rod.tooltip,Lobs harmful snowballs.;{{!colors.blue}}Charge: {{charge}},有害な雪玉を投げる。;{{!colors.blue}}チャージ：{{charge}}
+item.infernal_chalice.name,Infernal Chalice,獄炎の聖杯
+item.infernal_claws.name,{{!colors.red}}Infernal Claws,{{!colors.red}}獄炎の爪
+item.infernal_claws.tooltip,Absorbs fire damage at;the expense of hunger.,"Absorbs fire damage at
+the expenseのhunger."
+item.infernal_tear.name,{{!colors.red}}Infernal Tear,{{!colors.red}}獄炎の涙
+tile.interdiction_torch.name,{{!colors.yellow}}Interdiction Torch,{{!colors.yellow}}遮断の松明
+tile.interdiction_torch.tooltip,Repels creatures and projectiles.,生物と飛び道具を反発.
+item.kraken_shell.name,Kraken Shell,クラーケンの殻
+item.kraken_shell.tooltip,Absorbs drowning damage;at the expense of hunger.,"Absorbs drowning damage
+atexpenseのhunger."
+item.lantern_of_paranoia.name,{{!colors.yellow}}Lantern Of Paranoia,{{!colors.yellow}}偏執狂のランタン
+item.lantern_of_paranoia.tooltip,Places torches in unlit;areas automatically.;Shift + Right-Click to activate.,未点灯の場所に自動的に松明を設置します。シフト+右クリックで有効化。
+tile.lilypad.name,Lilypad of Fertility,豊穣の睡蓮
+item.magicbane.name,Magicbane,魔法殺し
+item.magicbane.tooltip,Increases its strength;with each enchantment.,その強さを増加させます；各エンチャントごとに
+item.magazine_0.name,Empty Magazine,Empty マガジン
+item.magazine_1.name,Neutral Magazine,Neutral マガジン
+item.magazine_2.name,Exorcism Magazine,Exorcism マガジン
+item.magazine_3.name,Blaze Magazine,Blaze マガジン
+item.magazine_4.name,Ender Magazine,Ender マガジン
+item.magazine_5.name,Concussive Magazine,Concussive マガジン
+item.magazine_6.name,Buster Magazine,Buster マガジン
+item.magazine_7.name,Seeker Magazine,Seeker マガジン
+item.magazine_8.name,Sand Magazine,Sand マガジン
+item.magazine_9.name,Storm Magazine,Storm マガジン
+item.mercy_cross.name,Cross of Mercy,慈悲の十字架
+item.mercy_cross.tooltip,Deals extra damage;to undead creatures.,アンデッドクリーチャーに追加ダメージを与えます。
+item.midas_touchstone.name,Touchstone of Midas,ミダスの礎石
+item.midas_touchstone.tooltip,Repairs gold items.;{{!colors.yellow}}Charge: {{charge}},"金製品を修復.
+{{!colors.yellow}}Charge: {{charge}}"
+item.mob_ingredient_0.name,Rib Bone,肋骨
+item.mob_ingredient_1.name,Withered Rib,萎れた肋骨
+item.mob_ingredient_2.name,Chelicerae,牙板
+item.mob_ingredient_3.name,Catalyzing Gland,触媒腺
+item.mob_ingredient_4.name,Slime Pearl,スライムの真珠
+item.mob_ingredient_5.name,Bat Wing,コウモリの翼
+item.mob_ingredient_6.name,Zombie Heart,ゾンビの心臓
+item.mob_ingredient_7.name,Molten Core,溶融核
+item.mob_ingredient_8.name,Eye of the Storm,嵐の目
+item.mob_ingredient_9.name,Fertile Essence,豊穣の液
+item.mob_ingredient_10.name,Frozen Core,凍結核
+item.mob_ingredient_11.name,Nebulous Heart,星霧の心臓
+item.mob_ingredient_12.name,Squid Beak,イカのくちばし
+item.mob_ingredient_13.name,Infernal Claw,獄炎の爪片
+item.mob_ingredient_14.name,Kraken Shell Fragment,ガストの魔除けフラグメント
+item.mob_ingredient_15.name,Crimson Cloth,真紅の布
+item.phoenix_down.name,Phoenix Down,フェニックスダウン
+item.potion.name,Condensed Potion,濃縮ポーション
+item.potion_essence.name,Potion Essence,ポーション液
+item.pyromancer_staff.name,{{!colors.red}}Pyromancer's Staff,{{!colors.red}}火術師の杖
+item.pyromancer_staff.tooltip,"Shoots blaze and ghast;fireballs, creates firebursts;and lights fires.;{{!colors.red}}Charges: {{charges}};{{!colors.red}}Blaze: {{blaze}};Shift + Left-click to change modes.","ブレイズと怨霊
+ファイアボール、火球を発生
+火をつける.
+{{!colors.red}}Charges: {{charges}}
+{{!colors.red}}Blaze: {{blaze}}
+Shift+左クリックでモード変更."
+item.rending_gale.name,{{!colors.yellow}}Rending Gale,{{!colors.yellow}}引き裂く烈風
+item.rending_gale.tooltip,"Fly, push and pull mobs, or shoot;lightning while raining.;Shift + Left-click changes modes.;{{!colors.yellow}}Charge: {{charge}}","飛行、モブを押し出す・引き寄せる、または射撃
+雨の中で閃電を放出.
+Shift+左クリックでモード変更.
+{{!colors.yellow}}Charge: {{charge}}"
+item.rod_of_lyssa.name,Rod of Lyssa,リッサの釣竿
+item.rod_of_lyssa.tooltip,A magic fishing rod that can be;used to reel in items and pick pockets.,アイテムを引き寄せ、ポケットから拾うことができるマジックフィッシングロッドです
+item.salamander_eye.name,Salamander's Eye,サラマンダーの眼
+item.salamander_eye.tooltip,Dispels blaze fireballs and reflects;ghast fireballs while held.;Puts out fires on and around you.,ブレイズの火球を消し、ホスト時にガストの火球を反射します；周囲の炎も消します。
+item.serpent_staff.name,{{!colors.green}}Serpent Staff,{{!colors.green}}蛇の杖
+item.serpent_staff.tooltip,"All that nasty stuff;from a Kraken's spit,;thrown at your enemies.;Drains life on strike.",あの嫌なもの；クラーケンの吐息から、敵に投げつけられる；攻撃時に生命を吸収します。
+item.shears_of_winter.name,Shears of Winter,冬の剪定鋏
+item.shears_of_winter.tooltip,Magic shears that tear the;leaves from trees with cold.,魔法の鋏で、冷たく木から葉を引き裂きます。
+item.sojourner_staff.name,Sojourner's Staff,放浪者の杖
+item.sojourner_staff.tooltip,"Consumes torches, can place them;long distances, but costs extra.;{{!colors.yellow}}Contents: {{phrase}};{{!colors.rose}}Placing: {{!colors.yellow}}{{placing}}","松明を消費、配置可能
+長距離配置可能だがコスト増加.
+{{!colors.yellow}}Contents: {{phrase}}
+{{!colors.rose}}Placing: {{!colors.yellow}}{{placing}}"
+item.twilight_cloak.name,Twilight Cloak,薄暮のマント
+item.twilight_cloak.tooltip,Makes you invisible in darkness.,暗い場所で不可視化.
+item.witch_hat.name,{{!colors.yellow}}Witch Hat,{{!colors.yellow}}魔女の帽子
+item.void_tear_empty.name,Empty Void Tear,空の虚無の涙
+item.void_tear.name,Void Tear,虚無の涙
+tooltip.tear,Currently holds {{!colors.yellow}}{{item}}{{!colors.light_gray}}.,現在保有中 {{!colors.yellow}}{{item}}{{!colors.light_gray}}.
+tooltip.tear_empty,Right-click to capture whatever item you have the most of.,右クリックで最も多く持っているアイテムをキャプチャ.
+tooltip.tear_quantity,Currently holds {{!colors.yellow}}{{amount}}{{!colors.light_gray}} {{!colors.yellow}}{{item}}{{!colors.light_gray}}.,現在保有中 {{!colors.yellow}}{{amount}}{{!colors.light_gray}} {{!colors.yellow}}{{item}}{{!colors.light_gray}}.
+item.witherless_rose.name,Witherless Rose,枯渇耐性の薔薇
+item.witherless_rose.tooltip,With the Nether Stars enchanting this rose;the holder is protected from Withering.,ネザー・スターでこのローズをエンチャントすると、保持者はウィディングから保護されます。
+tile.wraith_node.name,Wraith Node,怨霊ノード

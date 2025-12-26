@@ -1,0 +1,71 @@
+﻿key,source_text,target_text
+cloth_config.sound_physics_remastered.air_absorption,Air absorption,空気吸収
+cloth_config.sound_physics_remastered.air_absorption.description,A value controlling the amount that air absorbs high frequencies with distance. A value of 1.0 is physically correct for air with normal humidity and temperature. Higher values mean air will absorb more high frequencies with distance. 0 disables this effect.,距離を伴う高周波吸収の量を制御する値。1.0は標準湿度および温度の空気に対して物理的に正確です。値が大きいほど、空気は距離を伴ってより多くの高周波を吸収します。0はこの効果を無効にします。
+cloth_config.sound_physics_remastered.attenuation_factor,Attenuation factor,減衰係数
+cloth_config.sound_physics_remastered.attenuation_factor.description,Affects how quiet a sound gets based on distance. Lower values mean distant sounds are louder. This setting requires you to be in singleplayer or having the mod installed on the server. 1.0 is the physically correct value.,距離に基づいて音がどれだけ静かくなるかに影響します。値が小さいほど、遠い音がより大きく聞こえます。この設定を使用するには、シングルプレイか、サーバーにModをインストールする必要があります。1.0が物理的に正確な値です。
+cloth_config.sound_physics_remastered.block_absorption,Block absorption,ブロック吸収
+cloth_config.sound_physics_remastered.block_absorption.description,The amount of sound that will be absorbed when traveling through blocks.,ブロックを通過するときに吸収される音量の量。
+cloth_config.sound_physics_remastered.category.debug,Debug,デバッグ
+cloth_config.sound_physics_remastered.category.general,General,一般
+cloth_config.sound_physics_remastered.category.occlusion,Block Occlusion Factors,ブロック遮蔽係数
+cloth_config.sound_physics_remastered.category.performance,Performance,パフォーマンス
+cloth_config.sound_physics_remastered.category.reflectivity,Block Reflectivities,ブロックの反射率
+cloth_config.sound_physics_remastered.debug_logging,Debug logging,デバッグログ
+cloth_config.sound_physics_remastered.debug_logging.description,Enables debug logging.,デバッグログを有効化します。
+cloth_config.sound_physics_remastered.default_block_occlusion_factor,Default block occlusion factor,デフォルトのブロック遮蔽係数
+cloth_config.sound_physics_remastered.default_block_occlusion_factor.description,The default amount of occlusion for all blocks. Lower values will result in sounds being less muffled through walls. Higher values mean sounds will be not audible though thicker walls.,すべてのブロックのデフォルト遮蔽量。値が小さいほど、音が壁を通してあまり消音されません。値が大きいほど、音がより厚い壁を通して聞こえなくなります。
+cloth_config.sound_physics_remastered.default_block_reflectivity,Default block reflectivity,デフォルトのブロックの反射率
+cloth_config.sound_physics_remastered.default_block_reflectivity.description,The default amount of sound reflectance energy for all blocks. Lower values result in more conservative reverb simulation with shorter reverb tails. Higher values result in more generous reverb simulation with higher reverb tails.,すべてのブロックのデフォルト音反射エネルギー量。値が小さいほど、リバーブシミュレーションはより控えめで、リバーブテールが短くなります。値が大きいほど、リバーブシミュレーションはより豊かで、リバーブテールが長くなります。
+cloth_config.sound_physics_remastered.enabled,Enable Sound Physics,音響物理を有効にする
+cloth_config.sound_physics_remastered.enabled.description,Enables/Disables all sound effects.,すべてのサウンドエフェクトを有効/無効にする
+cloth_config.sound_physics_remastered.environment_evaluation_ray_bounces,Environment evaluation ray bounces,環境評価のレーザー反射回数
+cloth_config.sound_physics_remastered.environment_evaluation_ray_bounces.description,The number of rays bounces to trace to determine reverberation for each sound source. More bounces provides more echo and sound ducting but takes more time to calculate. Decrease this value if you experience lag spikes when sounds play.,各音源のリバーベーションを決定するために追跡するレイ跳ねの数。跳ね数が多いほど、エコーと音のダクティングがより多くなりますが、計算に時間がかかります。音が再生されるときにラグスパイクが発生する場合は、この値を減らしてください。
+cloth_config.sound_physics_remastered.environment_evaluation_ray_count,Environment evaluation ray count,環境評価レイ数
+cloth_config.sound_physics_remastered.environment_evaluation_ray_count.description,The number of rays to trace to determine reverberation for each sound source. More rays provides more consistent tracing results but takes more time to calculate. Decrease this value if you experience lag spikes when sounds play.,各音源のリバーベーションを決定するために追跡するレイの数。レイ数が多いほど、より一貫性のある追跡結果が得られますが、計算に時間がかかります。音が再生されるときにラグスパイクが発生する場合は、この値を減らしてください。
+cloth_config.sound_physics_remastered.environment_logging,Environment logging,環境ログ
+cloth_config.sound_physics_remastered.environment_logging.description,Provides more information about the environment calculation in the logs.,ログで環境計算に関する詳細情報を提供します。
+cloth_config.sound_physics_remastered.evaluate_ambient_sounds,Evaluate ambient sounds,環境音を評価する
+cloth_config.sound_physics_remastered.evaluate_ambient_sounds.description,"Whether sounds like cave, nether or underwater ambient sounds should have sound physics",洞窟・ネザー・水中の環境音にサウンド物理を適用するかどうか
+cloth_config.sound_physics_remastered.max_occlusion,Maximum occlusion,最大遮蔽
+cloth_config.sound_physics_remastered.max_occlusion.description,The amount at which occlusion is capped.,遮蔽が制限される量
+cloth_config.sound_physics_remastered.max_occlusion_rays,Maximum occlusion rays,最大オクルージョンレイ数
+cloth_config.sound_physics_remastered.max_occlusion_rays.description,The maximum amount of rays to determine occlusion. Directly correlates to the amount of blocks between walls that are considered.,遮蔽を決定するレイの最大数。壁の間にあると見なされるブロック数に直結します。
+cloth_config.sound_physics_remastered.non_full_block_occlusion_factor,Non full block occlusion factor,非フルブロック遮蔽係数
+cloth_config.sound_physics_remastered.non_full_block_occlusion_factor.description,"If sound hits a non-full-square side, block occlusion is multiplied by this.",音が非フルスクエア側に当たると、ブロック遮蔽がこの値で掛け算されます
+cloth_config.sound_physics_remastered.occlusion_logging,Occlusion logging,遮蔽ログ
+cloth_config.sound_physics_remastered.occlusion_logging.description,Provides more information about occlusion in the logs.,ログで遮蔽に関する詳細情報を提供します。
+cloth_config.sound_physics_remastered.occlusion_variation,Occlusion variation,遮蔽変動
+cloth_config.sound_physics_remastered.occlusion_variation.description,Higher values mean smaller objects won't be considered as occluding.,値が高いほど、小さいオブジェクトは遮蔽対象とみなされません。
+cloth_config.sound_physics_remastered.performance_logging,Performance logging,パフォーマンスログ
+cloth_config.sound_physics_remastered.performance_logging.description,Provides more information about how long computations take.,計算時間の長さについての詳細情報を提供します。
+cloth_config.sound_physics_remastered.redirect_non_occluded_sounds,Redirect non occluded sounds,遮蔽されていない音をリダイレクト
+cloth_config.sound_physics_remastered.redirect_non_occluded_sounds.description,Skip redirecting non-occluded sounds (the ones you can see directly).,遮蔽されていない音（直接見えるもの）へのリダイレクトをスキップします
+cloth_config.sound_physics_remastered.render_occlusion,Render occlusion,レンダリング遮蔽
+cloth_config.sound_physics_remastered.render_occlusion.description,"If enabled, occlusion will be visualized in game.",有効にすると、オクルージョンがゲーム内で可視化されます。
+cloth_config.sound_physics_remastered.render_sound_bounces,Render sound bounces,音の反射をレンダリング
+cloth_config.sound_physics_remastered.render_sound_bounces.description,"If enabled, the path of the sound will be rendered in game.",有効にすると、音声の経路がゲーム内で描画されます。
+cloth_config.sound_physics_remastered.reverb_brightness,Reverb brightness,リバーブ明るさ
+cloth_config.sound_physics_remastered.reverb_brightness.description,The brightness of reverberation. Higher values result in more high frequencies in reverberation. Lower values give a more muffled sound to the reverb.,リバーベーションの明るさ。値が大きいほど、リバーベーションに含まれる高周波が多くなります。値が小さいほど、リバーブにこもった音がもたらされます。
+cloth_config.sound_physics_remastered.reverb_distance,Reverb Distance,リバーブ距離
+cloth_config.sound_physics_remastered.reverb_distance.description,The distance of reverb relative to the sound distance.,音源からの距離に対するリバーブの距離です。
+cloth_config.sound_physics_remastered.reverb_gain,Reverb gain,リバーブ増幅
+cloth_config.sound_physics_remastered.reverb_gain.description,The volume of simulated reverberations.,シミュレートされた残響の音量です。
+cloth_config.sound_physics_remastered.settings,Sound Physics Settings,サウンド物理設定
+cloth_config.sound_physics_remastered.simple_voice_chat_hear_self,Hear yourself,自分を聴く
+cloth_config.sound_physics_remastered.simple_voice_chat_hear_self.description,Enables/Disables hearing your own echo with Simple Voice Chat.,シンプルボイスチャットで自分のエコーを聞くかどうかを有効/無効にします。
+cloth_config.sound_physics_remastered.simple_voice_chat_integration,Simple Voice Chat integration,シンプルボイスチャット統合
+cloth_config.sound_physics_remastered.simple_voice_chat_integration.description,Enables/Disables sound effects for Simple Voice Chat audio.,Simple Voice Chat のオーディオ効果を有効/無効にします。
+cloth_config.sound_physics_remastered.sound_blacklist_regex,Sound blacklist regex,音ブラックリスト正規表現
+cloth_config.sound_physics_remastered.sound_blacklist_regex.description,"This regex is applied to all sounds that are getting played. If it matches, the sound doesn't get any effects applied to it.",このregexはすべて再生される音に適用されます。マッチした場合、音には効果が適用されません。
+cloth_config.sound_physics_remastered.sound_direction_evaluation,Sound direction evaluation,音の方向評価
+cloth_config.sound_physics_remastered.sound_direction_evaluation.description,Whether to try calculating where the sound should come from based on reflections.,反射に基づいて音源を計算しようとするかどうか
+cloth_config.sound_physics_remastered.sound_distance_allowance,Sound distance allowance,音の距離許容範囲
+cloth_config.sound_physics_remastered.sound_distance_allowance.description,Minecraft won't allow sounds to play past a certain distance. This parameter is a multiplier for how far away a sound source is allowed to be in order for it to actually play. This setting only takes affect in singleplayer worlds and when installed on the server.,Minecraftは一定の距離を超えて音が再生されることを許可しません。このパラメータは、実際に再生されるようにするための音源がどれだけ遠くにあることが許可されるかの乗数です。この設定はシングルプレイワールドでのみ有効で、サーバーにインストールされている場合のみです。
+cloth_config.sound_physics_remastered.sound_update_interval,Sound update interval,音更新間隔
+cloth_config.sound_physics_remastered.sound_update_interval.description,The interval in ticks that moving sounds are reevaluated. Lower values mean more frequent reevaluation but also more lag. This option only takes effect if 'Update moving sounds' is enabled.,移動する音が再評価されるティック間隔。値が小さいほど、より頻繁に再評価されますが、ラグも増加します。このオプションは「移動する音を更新」が有効な場合のみ効果があります。
+cloth_config.sound_physics_remastered.strict_occlusion,Strict occlusion,厳格な遮蔽
+cloth_config.sound_physics_remastered.strict_occlusion.description,"If enabled, the occlusion calculation only uses one path between the sound source and the listener instead of 9.",有効な場合、遮蔽の計算は音源とリスナー間の1つのパスのみを使用し、9つではありません。
+cloth_config.sound_physics_remastered.underwater_filter,Underwater filter,水中フィルタ
+cloth_config.sound_physics_remastered.underwater_filter.description,How much sound is filtered when the player is underwater. 0.0 means no filter. 1.0 means fully filtered,プレイヤーが水中にいるときに音がどの程度フィルタリングされるか。0.0はフィルターなし、1.0は完全にフィルタリングされます。
+cloth_config.sound_physics_remastered.update_moving_sounds,Update moving sounds,移動中の音を更新
+cloth_config.sound_physics_remastered.update_moving_sounds.description,If music discs or other longer sounds should be frequently reevaluated,音楽ディスクやその他長い音声を頻繁に再評価するかどうか。

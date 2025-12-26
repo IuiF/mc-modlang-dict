@@ -1,0 +1,95 @@
+﻿key,source_text,target_text
+item.simpletomb.grave_key,Grave Key,墓の鍵
+simpletomb.commands.latest.null,Latest grave not found,最新の墓地が見つかりません
+simpletomb.commands.null,"Invalid sub-command, example: /simpletomb latest",無効なサブコマンドです。例：/simpletomb latest
+simpletomb.config.allow_beyond_the_grave_damage.tooltip,Allows players to be hurt by special damages related to some items,一部アイテムに関連する特殊ダメージでプレイヤーが傷つくことを許可します。
+simpletomb.config.auto_equip_on_death_respawn.tooltip,Automatically equips any equipable items when respawning after a death,死亡後に再生成時、装備可能なアイテムを自動的に装備します
+simpletomb.config.chance_loss_on_death.tooltip,The chance that some items are lost on death,死亡時にアイテムが失われる確率
+simpletomb.config.chance_mob_on_grave_recovery.tooltip,The chance that creatures appear after the contents of a grave are retrieved,墓の内容物を回収した後、クリーチャーが出現する確率
+simpletomb.config.decay_time.tooltip,The time in minutes before a Grave's Key isn't required to open a grave (-1 = disabled),墓の鍵が不要になるまでの時間（分）です（-1 = 無効）
+simpletomb.config.ghostly_shape_duration.tooltip,The duration of the Ghostly Shape effect in seconds,ゴーストリーシェイプ効果の持続時間（秒）
+simpletomb.config.grave_key_on_death.tooltip,Whether to always give players a Grave's Key on death,死亡時に常にプレイヤーに墓の鍵を与えるかどうか
+simpletomb.config.graves_by_pass_griefing_rules.tooltip,Whether graves should be allowed to bypass anti-griefing rules,墓がアンチグリーフ規則を回避できるかどうか
+simpletomb.config.handle_player_death.tooltip,Whether to handle player death,プレイヤーの死亡処理を処理するか。
+simpletomb.config.log_player_grave.tooltip,Whether to log the positions of players' graves,プレイヤーの墓地位置をログに残すかどうか
+simpletomb.config.nerf_ghostly_shape.tooltip,Whether to cancel the Ghostly Shape effect on breaking a block or opening a chest,ブロック破壊時またはチェスト開封時にゴーストリーシェイプ効果をキャンセルするかどうか
+simpletomb.config.no_grave_location,Graveless Areas,墓なしエリア
+simpletomb.config.no_grave_location.tooltip,Coordinates where graves shouldn't spawn,墓が生成されない座標
+simpletomb.config.percent_loss_on_death.tooltip,The percentage of items that are lost on death,死亡時に失われるアイテムの割合
+simpletomb.config.persistant_halloween.tooltip,The Halloween features also happen outside the dates of the event,ハロウィン機能はイベント期間外でも発動します
+simpletomb.config.player_grave_access.tooltip,Whether to require a Grave's Key to access graves,墓地へのアクセスにはGrave's Keyが必要かどうか
+simpletomb.config.prevent_death_outside_world.tooltip,Prevents death outside of world borders,世界の境界外での死亡を防ぎます。
+simpletomb.config.pvp_mode.tooltip,"Enables PvP mode, which allows players to open graves of players they kill",PvP モードを有効化し、プレイヤーが殺した相手の墓を開くことができます
+simpletomb.config.sniffer_range.tooltip,The radius in which items should be collected when a grave is spawned,墓が生成されたときにアイテムを収集する半径
+simpletomb.config.teleport_dim.tooltip,Allows teleportation to other dimensions,他の次元へのテレポートを許可します。
+simpletomb.config.unhandled_beneficial_effects,Unhandled Beneficial Effects,未処理の有益な効果
+simpletomb.config.unhandled_harmful_effects,Unhandled Harmful Effects,処理不能な有害効果
+simpletomb.config.unhandled_harmful_effects.tooltip,Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer,タブレット・オブ・キューピディティや「プレイグブリンガー」エンチャントなど、特定の機能では使用できない有害効果です
+simpletomb.config.whitelist_blocks,Replaceable blocks,置換可能なブロック
+simpletomb.config.whitelist_blocks.tooltip,Blocks that can be replaced by graves,墓によって置換可能なブロック
+simpletomb.config_cat.general,General,一般
+simpletomb.config_cat.general.tooltip,Miscellaneous options,その他のオプション
+simpletomb.configuration.chat,Chat,チャット
+simpletomb.configuration.chat.tooltip,"If true, send a player chat message every time a tomb is placed",真の場合、墓が設置されるたびにプレイヤーのチャットメッセージを送信します
+simpletomb.configuration.creative,Creative,クリエイティブ
+simpletomb.configuration.creative.tooltip,"If creative mode players can teleport to the tomb with the key, ignoring distance",クリエイティブモードのプレイヤーがキーで墓地にテレポートできるか、距離を無視します
+simpletomb.configuration.enabled,Enabled,有効
+simpletomb.configuration.enabled.tooltip,Whether to handle player death at all (false will disable almost the entire mod),プレイヤー死亡を全て処理するかどうか（falseにするとモッドのほぼすべてが無効化されます）
+simpletomb.configuration.extra_items,Extra Items,追加アイテム
+simpletomb.configuration.extra_items.tooltip,The radius in which extra bonus items should be hunted for and collected when a grave is spawned; set to zero (0) to disable,墓が出現した時に、追加ボーナスアイテムを検索・収集する範囲（半径）です。0 に設定すると無効になります
+simpletomb.configuration.given,Given,与えられた
+simpletomb.configuration.given.tooltip,"Whether to give a Grave Key item to the player on death.  Tomb can be opened without they key, but the key will help the player locate the grave",プレイヤーが死亡した時に、墓キーアイテムを与えるかどうかです。墓はキーなしで開けられますが、キーはプレイヤーが墓を見つけるのに役立ちます
+simpletomb.configuration.keep_parts,Keep Parts,部品を保持
+simpletomb.configuration.keep_parts.tooltip,Keep parts of the inventory,インベントリの一部を保持し、
+simpletomb.configuration.key,Key,鍵
+simpletomb.configuration.key.tooltip,Key Settings,キー設定
+simpletomb.configuration.log,Log,ログ
+simpletomb.configuration.log.tooltip,"If true, write to the game log (server log) every time a tomb is placed",トンブが配置されるたびにゲームログ（サーバーログ）へ書き込むかどうか
+simpletomb.configuration.named,Named,名前
+simpletomb.configuration.named.tooltip,"If a key is being dropped, will the player's display name be added to the tomb key item name",キーがドロップされた際、プレイヤーの表示名をトンブキーアイテム名に追加するかどうか
+simpletomb.configuration.openOnUse,Open On Use,使用時に開く
+simpletomb.configuration.openOnUse.tooltip,"True means the key will open the grave on use, even if the player is not standing on top",True は、プレイヤーが上に立っていなくても使用時に墓を開くキーであることを意味します
+simpletomb.configuration.search_height,Search Height,検索高さ
+simpletomb.configuration.search_height.tooltip,"When searching for a grave location, this is the maximum height to check",墓地の位置を検索する際にチェックする最大高さです
+simpletomb.configuration.search_range,Search Range,検索範囲
+simpletomb.configuration.search_range.tooltip,"When searching for a grave location, this is the maximum range to check",墓地位置検索時の最大チェック範囲
+simpletomb.configuration.section.simpletomb.toml.title,Simple Tomb Config,シンプルな墓の設定
+simpletomb.configuration.simpletomb,Simple Tomb,シンプルな墓
+simpletomb.configuration.simpletomb.tooltip,Simple Tomb Config,シンプルな墓の設定
+simpletomb.configuration.survival,Survival,サバイバル
+simpletomb.configuration.survival.tooltip,"When survival player is within this (straight line calculated) distance from the tomb, they can teleport to the tomb.
+ Set as zero (0) to disable survival TP feature.
+ Set as negative one (-1) to allow survival teleportation always and ignore the distance (within dimension)","サバイバルモードのプレイヤーが墓からこの距離（直線計算）以内にいる時、墓にテレポートできます。
+0 に設定するとサバイバルTP機能が無効になります。
+-1 に設定すると、距離を無視してサバイバルテレポートが常に許可されます（同じディメンション内）"
+simpletomb.configuration.teleport,Teleport,テレポート
+simpletomb.configuration.teleport.tooltip,Teleport Settings,テレポート設定
+simpletomb.configuration.title,Simple Tomb Config,シンプルな墓の設定
+simpletomb.configuration.tomb,Tomb,墓
+simpletomb.configuration.tomb.tooltip,Tomb Settings,墓の設定
+simpletomb.grave.grave_cross,Cross Grave,十字の墓
+simpletomb.grave.grave_normal,Normal Grave,通常の墓
+simpletomb.grave.grave_simple,Simple Grave,シンプルな墓
+simpletomb.grave.tombstone,Tombstone,墓石
+simpletomb.message.day,Days: %d,日数: %d
+simpletomb.message.distance,"Distance: %d [%d, %d, %d] in dimension %d","距離: %d [%d, %d, %d] ディメンション %d で"
+simpletomb.message.fail_to_place_grave,The grave could not be placed!,墓地を置くことができませんでした！
+simpletomb.message.new_grave,Tomb created at: %s,墓地が作成された: %s
+simpletomb.message.no_grave_location,Your items lie on the ground; this place is not intended for graves,あなたのアイテムは地面に落ちています；この場所は墓所として意図されていません
+simpletomb.message.no_loot_for_grave,No grave appeared as there were no items to be stored,アイテムが保存されないため、墓が生成されなかった
+simpletomb.message.no_place_for_grave,There was nowhere to place the grave!,埋葬する場所がありません！
+simpletomb.message.no_save_to_restore,There's no save to restore,復元するセーブがありません
+simpletomb.message.open_grave.need_key,You need a key!,キーが必要です！
+simpletomb.message.open_grave.success,The tomb disappears!,墓が消える！
+simpletomb.message.open_grave.wrong_key,This is the wrong key!,これは間違ったキーです！
+simpletomb.message.recover_lost_items,You have recovered your lost items,失われたアイテムを回復しました
+simpletomb.message.rip,R.I.P.,R.I.P.
+_comment,General,一般
+simpletomb.grave.grave_simple.name,Simple Grave,シンプルな墓
+simpletomb.grave.grave_cross.name,Cross Grave,十字の墓
+simpletomb.grave.grave_normal.name,Normal Grave,通常の墓
+simpletomb.grave.simpletomb.name,Tombstone,墓石
+simpletomb.item.grave_key.name,Grave Key,墓の鍵
+simpletomb.message.died_on,died on,死亡した
+simpletomb.message.open_grave.need_owner,Only owner has access,所有者のみアクセス可
+simpletomb.config.unhandled_beneficial_effects.tooltip,"Beneficial effects that can't used by certain features such as ânkh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment",アンク・オブ・プレイ、ロリポップ、スクロール・オブ・プリザーベーション、アルケミーパーク、マジックサイフォンエンチャントなど、特定の機能では使用できない有益効果です

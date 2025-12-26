@@ -1,0 +1,97 @@
+﻿key,source_text,target_text
+text.footprintparticle.all,All,すべて
+text.footprintparticle.blocks,%s Block(s),%s ブロック
+text.footprintparticle.disabled,Disabled,無効
+text.footprintparticle.option.applyBlocks,Block Applied,ブロックが適用された
+text.footprintparticle.option.applyBlocks.@Tooltip,"Blocks that footprint will appear.
+Format: §9§omodid:blockid§r or §9§o#modid:blocktag§r
+Use only when built-in hardness-based filter
+cannot suit your requirements.","足跡が表示されるブロック。
+形式: §9§omodid:blockid§r または §9§o#modid:blocktag§r
+組み込みの硬度ベースフィルタが要件に適さない場合のみ使用してください。"
+text.footprintparticle.option.blockHeight,Offset of Block,ブロックのオフセット
+text.footprintparticle.option.boatTrail,Boattttrail,ボートトレール
+text.footprintparticle.option.canGenWhenInvisible,Allow gen for entity has Invisible?,エンティティが不可視かどうかを生成許可する？
+text.footprintparticle.option.customPrint,Custom Print Texture,カスタムプリントテクスチャ
+text.footprintparticle.option.customPrint.@Tooltip,"Set a specific texture for a specific mob.
+Format: §9§omodid:mobid,fileName1,fileName2,...§r
+§5file§r must be a PNG and located at
+§oassets/footprintparticle/textures/particle§r
+in your resourcepack.
+Meanwhile, you need to register it at
+§oassets/footprintparticle/particles/footprint.json§r or
+§oassets/footprintparticle/particles/watermark.json§r
+if you want to replace watermark at same time.
+More see in wiki.","特定のMobに対して特定のテクスチャを設定します。
+形式: §9§omodid:mobid,fileName1,fileName2,...§r
+§5file§rはPNGである必要があり、
+§oassets/footprintparticle/textures/particle§r
+にリソースパック内に配置される必要があります。
+さらに、ウォーターマークを同時に置き換えたい場合は、
+§oassets/footprintparticle/particles/footprint.json§r または
+§oassets/footprintparticle/particles/watermark.json§r
+に登録する必要があります。
+詳細についてはwikiを参照してください。"
+text.footprintparticle.option.enableMod,Enable for?,有効にする？
+text.footprintparticle.option.excludedBlocks,Block Excluded,ブロック除外
+text.footprintparticle.option.excludedBlocks.@Tooltip,"Blocks that footprint will NOT appear.
+Format: §9§omodid:blockid§r or §9§o#modid:blocktag§r
+Lower priority than applied.","足跡が表示されないブロック。
+形式: §9§omodid:blockid§r または §9§o#modid:blocktag§r
+適用よりも優先度が低くなります。"
+text.footprintparticle.option.excludedMobs,Mob Excluded,モンスター除外
+text.footprintparticle.option.excludedMobs.@Tooltip,"Mobs in this list will not generate footprint.
+Format: §9§omodid:mobid§r",このリスト内のモブは足跡を生成しません。
+text.footprintparticle.option.footprintAlpha,Footprint Alpha,足跡アルファ
+text.footprintparticle.option.footprintSize,General Footprint Size,一般の足跡サイズ
+text.footprintparticle.option.footprintSize.@Tooltip,"Measure in pixel. 
+Change it to actual texture width for better visual if you using custom texture.",ピクセル単位で測定します。
+text.footprintparticle.option.horseLikeMobs,Print Front-Back Offset,印刷 前後オフセット
+text.footprintparticle.option.horseLikeMobs.@Tooltip,"Mobs in this list will have a specific front-back offset to gen.
+They'll also changed frequency when is mounted or dismounted.
+Format: §9§omodid:mobid,value§r
+0.75 will be used if value is empty.","このリスト内のMobは、生成時に特定の前後オフセットが適用されます。
+マウント/アンマウント時には生成頻度も変更されます。
+形式: §9§omodid:mobid,value§r
+valueが空の場合は0.75が使用されます。"
+text.footprintparticle.option.misc,Extra,追加
+text.footprintparticle.option.mobInterval,Mob Interval,モンスター出現間隔
+text.footprintparticle.option.mobInterval.@Tooltip,"Mob in this list which SecondPerPrint
+will multiply by specific value.
+Format: §9§omodid:mobid,value§r","このリスト内のMobはSecondPerPrintに特定の値を掛けます。
+形式: §9§omodid:mobid,value§r"
+text.footprintparticle.option.printHeight,Print Height Offset,印刷高さオフセット
+text.footprintparticle.option.printHeight.@Tooltip,"Use to prevent print gen under terrain
+when enable normal map in shader mod.",地形下でプリント生成を防止するために使用します。
+text.footprintparticle.option.printLifetime,Print Lifetime,ライフタイムを表示
+text.footprintparticle.option.railSpark,Minecart gen spark on rail,レール上の貨車を発生させる
+text.footprintparticle.option.secPerPrint,Second Per Print,印刷の2回目
+text.footprintparticle.option.sizePerMob,Print Size,印刷サイズ
+text.footprintparticle.option.sizePerMob.@Tooltip,"Set a separate print size multiple for a mob.
+Format: §9§omodid:mobid,size§r
+Lower priority than excluded.","Mobごとに個別のプリントサイズ倍率を設定します。
+形式: §9§omodid:mobid,size§r
+除外されたものより優先度が低くなります。"
+text.footprintparticle.option.snowDust,Kick up snow (when print gen on it),雪を蹴り上げる（印刷生成時に）
+text.footprintparticle.option.spiderLikeMobs,Print Left-Right Offset,印刷 左右オフセット
+text.footprintparticle.option.spiderLikeMobs.@Tooltip,"Mobs in this list will have a specific left-right offset to gen.
+Format: §9§omodid:mobid,value§r
+0.9 will be used if value is empty.","このリスト内のMobは、生成時に特定の左右オフセットが適用されます。
+形式: §9§omodid:mobid,value§r
+valueが空の場合は0.9が使用されます。"
+text.footprintparticle.option.swimPop,Pop up when swimming,水泳中時に表示
+text.footprintparticle.option.title,Footprint Particle,足跡粒子
+text.footprintparticle.option.waterSplash,Kick up splash (when walking on rain),雨に踏み込むとスプラッシュが上がります
+text.footprintparticle.option.watermarkAlpha,Watermark Alpha,ウォーターマークアルファ
+text.footprintparticle.option.watermarkLifetime,Watermark Lifetime,水印の持続時間
+text.footprintparticle.option.wetDuration,Wet Duration for Watermark,水印の湿潤期間
+text.footprintparticle.option.wetDuration.@Tooltip,"Control how long the time of Watermark gen
+after you away from water/rain.
+Set 0 to disable watermark.
+The §lWatermark§l is gen when footprint cannot gen.
+It's ignored block list.","水/雨から離れた後のウォーターマーク生成時間を制御します。
+0に設定するとウォーターマークを無効にします。
+§lウォーターマーク§lは足跡が生成できない場合に生成されます。
+ブロックリストは無視されます。"
+text.footprintparticle.playerOnly,Player Only,プレイヤー専用
+text.footprintparticle.seconds,%s Second(s),%s 秒

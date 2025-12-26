@@ -1,0 +1,726 @@
+﻿key,source_text,target_text
+chat.subtle_effects.anniversary.message,"It's the mod's %s birthday! In celebration, players will have party hats! To disable party hats, set the 'Enable Easter Eggs' config option to false in the 'General' config category.'",このModの%s周年です！お祝いとしてプレイヤーはパーティーハットを装備します！パーティーハットを無効にするには、「General」カテゴリの「Enable イースター Eggs」オプションをfalseに設定してください。
+chat.subtle_effects.prefix,[Subtle Effects]:,[微妙な効果]:
+commands.subtle_effects.subtle_effects.particles.clear.success,Cleared Particles,パーティクルをクリアしました
+commands.subtle_effects.subtle_effects.particles.count.disable.success,No Longer Displaying Particle Count,粒子数の表示を停止しました。
+commands.subtle_effects.subtle_effects.particles.count.enable.success,Displaying Particle Count,粒子数を表示
+commands.subtle_effects.subtle_effects.tickers.clear.success,Cleared Tickers,タイマーをクリアしました
+config.subtle_effects.blocks,Blocks,ブロック
+config.subtle_effects.blocks.amethystGroup,Amethyst,アメジスト
+config.subtle_effects.blocks.amethystSparkleDisplayType,Amethyst Sparkle Display Type,アメジストの輝き表示タイプ
+config.subtle_effects.blocks.amethystSparkleDisplayType.CRYSTALS_ONLY,Crystals Only,クリスタルのみ
+config.subtle_effects.blocks.amethystSparkleDisplayType.OFF,Off,オフ
+config.subtle_effects.blocks.amethystSparkleDisplayType.ON,On,オン
+config.subtle_effects.blocks.amethystSparkleEmittingBlocks,Amethyst Sparkle Emitting Blocks,アメジスト スパークル発光ブロック
+config.subtle_effects.blocks.amethystSparkleSounds,Amethyst Sparkle Sounds,アメジストの輝き音
+config.subtle_effects.blocks.amethystSparkleSounds.desc,Should amethyst crystals randomly play the amethyst chime sounds,アメジストの結晶がランダムにアメジストの鐘の音を再生するかどうか
+config.subtle_effects.blocks.anvilBreakParticles,Anvil Break Particles,金床が壊れる時のパーティクル
+config.subtle_effects.blocks.anvilBreakParticles.desc,Display the destroy particle effect when an anvil breaks,金床が壊れた時に破壊パーティクルを表示
+config.subtle_effects.blocks.anvilUseParticles,Anvil Use Particles,金床使用時のパーティクル
+config.subtle_effects.blocks.anvilUseParticles.desc,Should spark particles fly off anvils when used,金床を使用したときに火花パーティクルを散らすか
+config.subtle_effects.blocks.beaconParticlesDensity,Beacon Particles Density,ビーコンのパーティクルの密度
+config.subtle_effects.blocks.beaconParticlesDisplayType,Beacon Particles Display Type,ビーコンのパーティクル表示タイプ
+config.subtle_effects.blocks.beaconParticlesDisplayType.NOT_COLORED,Not Colored,色なし
+config.subtle_effects.blocks.beaconParticlesDisplayType.OFF,Off,オフ
+config.subtle_effects.blocks.beaconParticlesDisplayType.ON,On,オン
+config.subtle_effects.blocks.beaconParticlesDisplayType.desc,"Should beacons emit particles that float up.
+
+§cWARNING!§r
+This can cause severe lag for slower computers when around a beacon, potentially adding up to a couple of thousand particles at one time per beacon","ビーコンが上方向に浮遊するパーティクルを表示するかどうか
+
+§c警告！§r
+ビーコンの近くにいると、低スペックのコンピューターでは重くなる可能性があります。ビーコン1つあたり最大数千個のパーティクルが同時に生成される可能性があります。"
+config.subtle_effects.blocks.beaconParticlesGroup,Beacon Particles,ビーコンのパーティクル
+config.subtle_effects.blocks.beaconParticlesSpeed,Beacon Particles Speed,ビーコンのパーティクルの速度
+config.subtle_effects.blocks.beehiveShearParticles,Beehive Shear Particles,ミツバチの巣を刈り取った時のパーティクル
+config.subtle_effects.blocks.beehiveShearParticles.desc,Display the destroy particle effect when shearing a beehive/nest,ミツバチの巣箱/巣を刈り取るときに破壊パーティクルを表示
+config.subtle_effects.blocks.beehivesHaveSleepingZs,Beehives Have Sleeping Zs,ミツバチの巣に睡眠Zを表示
+config.subtle_effects.blocks.beehivesHaveSleepingZs.desc,Display Z particles in front of bee hives/nests at night,夜間にミツバチの巣箱/巣の前でZパーティクルを表示
+config.subtle_effects.blocks.blockDustDensity.DEFAULT,Default,デフォルト
+config.subtle_effects.blocks.blockDustDensity.MINIMAL,Minimal,最小
+config.subtle_effects.blocks.cakeEatParticles,Cake Eat Particles,ケーキを食べる粒子
+config.subtle_effects.blocks.cakeEatSounds,Cake Eat Sounds,ケーキ食べ音
+config.subtle_effects.blocks.calibratedSculkSensorAmethystSparkle,Calibrated Sculk Sensor Amethyst Sparkle,調整されたスカルクセンサーのアメジストの輝き
+config.subtle_effects.blocks.campfireSizzlingSoundVolume,Campfire Sizzling Sound Volume,焚き火のパチパチ音量
+config.subtle_effects.blocks.cauldronCleanItemSounds,Cauldron Clean Item Sounds,鍋の清掃音を有効にする
+config.subtle_effects.blocks.cauldronCleanItemSounds.desc,Plays a sound when an item is cleaned e.g. Using a dyeable item/banner/shulker box on a water cauldron,水大釜で染料可能なアイテム/旗/シュルカーボックスなどのアイテムをクリーニングするときに音が再生されます
+config.subtle_effects.blocks.cauldronUseParticles,Cauldron Use Particles,大鍋使用パーティクル
+config.subtle_effects.blocks.chestsOpenRandomlyUnderwater,Chests Open Randomly Underwater,水中でチェストがランダムに開く
+config.subtle_effects.blocks.chestsOpenRandomlyUnderwater.desc,Should chests open randomly underwater,水底で落ちるブロックが塵の跡を残すか
+config.subtle_effects.blocks.cobwebMovementSounds,Cobweb Movement Sounds,蜘蛛の巣移動音
+config.subtle_effects.blocks.commandBlockParticles,Command Block Particles,コマンドブロックのパーティクル
+config.subtle_effects.blocks.commandBlockParticles.desc,Should command blocks have particles like in MC Story Mode,コマンドブロックにMCストーリーモードのようなパーティクルを表示するか
+config.subtle_effects.blocks.commandBlockParticlesDensity,Command Block Particles Density,コマンドブロック粒子密度
+config.subtle_effects.blocks.compostingCompostParticles,Composting Compost Particles,堆肥化されたコンポスト粒子
+config.subtle_effects.blocks.compostingCompostParticles.desc,Should compost looking particles be spawned when composting items,コンポスト時にコンポスト風粒子を生成するか
+config.subtle_effects.blocks.compostingItemParticles,Composting Item Particles,腐敗するアイテムの粒子
+config.subtle_effects.blocks.compostingItemParticles.desc,Should item particles be spawned when composting items,コンポスト時にアイテムパーティクルを生成しますか？
+config.subtle_effects.blocks.decoratedPotsSpawnBubbles,Decorated Pots Spawn Bubbles,装飾ポットがバブルを生成
+config.subtle_effects.blocks.decoratedPotsSpawnBubbles.desc,Should decorated pots spawn bubbles when underwater,装飾ポットは水中で泡を発生させるべきか
+config.subtle_effects.blocks.dispenseItemBubbles,Dispense Item Bubbles,アイテムを泡で散布
+config.subtle_effects.blocks.dispenseItemBubbles.desc,Should bubbles be spawned when items are dispensed underwater from dispensers/droppers/crafters,ディスペンサー/ドロッパー/クラフターから水中でアイテムが放出されたとき、泡を生成すべきかどうか
+config.subtle_effects.blocks.dragonEggParticles,Dragon Egg Particles,ドラゴンの卵のパーティクル
+config.subtle_effects.blocks.dragonEggParticles.desc,Should the dragon egg have particles like the ender chest,ドラゴンの卵にエンダーチェストのようなパーティクルを表示するかどうか
+config.subtle_effects.blocks.dustyBlocksGroup,Dusty Blocks,埃っぽいブロック
+config.subtle_effects.blocks.endPortalFrameGroup,End Portal Frame,エンドポータルの枠
+config.subtle_effects.blocks.endPortalFrameParticlesDensity,End Portal Frame Particles Density,エンドポータルフレーム粒子の密度。
+config.subtle_effects.blocks.endPortalFrameParticlesDisplayType,Ender Eye Placed Particles Display Type,エンダーアイ配置パーティクル表示タイプ
+config.subtle_effects.blocks.endPortalFrameParticlesDisplayType.DOTS,Dots,ドット
+config.subtle_effects.blocks.endPortalFrameParticlesDisplayType.OFF,Off,オフ
+config.subtle_effects.blocks.endPortalFrameParticlesDisplayType.SMOKE,Smoke,煙
+config.subtle_effects.blocks.endPortalParticles,End Portal Particles,エンドポータルのパーティクル
+config.subtle_effects.blocks.endPortalParticles.desc,Should end portals and end gateways have little colored particles floating around them,エンドポータルとエンドゲートウェイの周りに小さな色の付いたパーティクルを浮遊させるか
+config.subtle_effects.blocks.enderEyePlacedParticlesDisplayType,Ender Eye Placed Particles Display Type,エンダーアイ配置パーティクル表示タイプ
+config.subtle_effects.blocks.enderEyePlacedParticlesDisplayType.BOTH,Both,両方
+config.subtle_effects.blocks.enderEyePlacedParticlesDisplayType.DOTS,Dots,ドット
+config.subtle_effects.blocks.enderEyePlacedParticlesDisplayType.VANILLA,Vanilla,バニラ
+config.subtle_effects.blocks.enderEyePlacedRings,Ender Eye Placed Rings,エンダアイ設置リング
+config.subtle_effects.blocks.enderEyePlacedRingsDuration,Ender Eye Placed Rings Duration,エンダーアイ設置リングの持続時間
+config.subtle_effects.blocks.enderEyePlacedRingsDuration.desc,The lifetime of the effect in ticks,効果の寿命（ターン）
+config.subtle_effects.blocks.eyeColors,Eye Colors,目色
+config.subtle_effects.blocks.fallingBlocks,Falling Blocks,落下ブロック
+config.subtle_effects.blocks.fallingBlocks.dustyBlocks,Dusty Blocks,ほこりのあるブロック
+config.subtle_effects.blocks.fallingBlocks.onLandDust,On Land Dust,陸上のほこり
+config.subtle_effects.blocks.fallingBlocks.onLandDust.desc,Should a small puff of dust appear from around the edges of falling blocks when landing on the ground,落下ブロックが地面に着地したときに、ブロックの周辺からダストパーティクルが出現するかどうか
+config.subtle_effects.blocks.fallingBlocks.onLandSound,On Land Sound,陸上時の音
+config.subtle_effects.blocks.fallingBlocks.onLandSound.desc,Plays the block place sound when a falling block lands on the ground,落下ブロックが地面に着地すると、ブロック設置音を再生します。
+config.subtle_effects.blocks.fallingBlocks.weakSupportDust,Weak Support Dust,弱いサポート・ダスト
+config.subtle_effects.blocks.fallingBlocks.weakSupportDust.desc,"When a falling block is on a weak support block, e.g. non full/solid blocks, dust particles will fall from the bottom of the falling block",落下ブロックが弱いサポートブロック（完全でない/固いブロック以外）にある場合、ダストパーティクルは落下ブロックの下部から落下します
+config.subtle_effects.blocks.fallingBlocks.weakSupportDustDensity,Weak Support Dust Density,弱いサポートの粉の密度
+config.subtle_effects.blocks.fallingBlocks.whileFallingDust,While Falling Dust,落下中の埃
+config.subtle_effects.blocks.fallingBlocks.whileFallingDust.desc,Do falling blocks have a trail of dust,村人の作業台での粒子効果
+config.subtle_effects.blocks.fallingBlocks.whileFallingDustStartDistance,While Falling Dust Start Distance,落下ダスト開始距離
+config.subtle_effects.blocks.fallingBlocks.whileFallingDustStartDistance.desc,The distance in blocks a falling block must fall before spawning dust,落下ブロックがダストを生成する前に落ちる必要がある距離（ブロック単位）
+config.subtle_effects.blocks.farmlandDestroyEffects,Farmland Destroy Effects,耕地の破壊エフェクト
+config.subtle_effects.blocks.farmlandDestroyEffects.desc,Play the destroy block sound and particle effects when a mob/player destroys farmland,モブ/プレイヤーが耕地を破壊したときに、ブロック破壊音とパーティクルエフェクトを再生
+config.subtle_effects.blocks.floweringAzaleaPetals,Flowering Azalea Petals,ハナアズレアの花びら
+config.subtle_effects.blocks.glowstoneBlockDust,Glowstone Block Dust,Glowstone ブロックの粉
+config.subtle_effects.blocks.glowstoneBlockDustDensity,Glowstone Block Dust Density,グロウストーンブロックの粉密度
+config.subtle_effects.blocks.glowstoneDustEmittingBlocks,Glowstone Dust Emitting Blocks,グローライト粉末放出ブロック
+config.subtle_effects.blocks.glowstoneDustEmittingBlocks.desc,"Blocks that emit glowstone dust particles, good for applying the particles to blocks from mods that add glowstone block variants, e.g. Polished, Chiseled",グロウストーンダストパーティクルを放出するブロック。Mod追加のグロウストーンブロック変種（研磨、ノミ加工など）にパーティクルを適用するのに適しています
+config.subtle_effects.blocks.grindstoneUseParticles,Grindstone Use Particles,研ぎ台使用時のパーティクル
+config.subtle_effects.blocks.grindstoneUseParticles.desc,Should spark particles fly off grindstones when used,研ぎ台を使用したときに火花パーティクルを散らすか
+config.subtle_effects.blocks.lavaCauldronEffects,Lava Cauldron Effects,溶岩入りの大釜のパーティクルエフェクト
+config.subtle_effects.blocks.lavaCauldronEffects.desc,Apply lava sounds and particles to lava cauldrons,溶岩入りの大釜のパーティクルエフェクトを再生
+config.subtle_effects.blocks.leavesDecayEffects,Leaves Decay Effects,葉の崩壊エフェクト
+config.subtle_effects.blocks.leavesDecayEffects.desc,Play the destroy block sound and particle effects when leaves decay/despawn,葉が腐敗/消滅するときにブロック破壊音とパーティクルエフェクトを再生
+config.subtle_effects.blocks.netherOnlyGlowstoneBlockDust,Nether Only Glowstone Block Dust,ネザー限定グロウストーンブロックダスト
+config.subtle_effects.blocks.openingBarrelsSpawnsBubbles,Opening Barrels Spawns Bubbles,バレル開封で泡が発生
+config.subtle_effects.blocks.openingChestsSpawnsBubbles,Opening Chests Spawns Bubbles,チェストを開けると気泡が発生する
+config.subtle_effects.blocks.openingChestsSpawnsBubbles.desc,When a chest is opened underwater should it spawn bubbles,水中でチェストが開かれたとき、泡を生成するかどうか。
+config.subtle_effects.blocks.pumpkinCarvedParticles,Pumpkin Carved Particles,カボチャを彫った時のパーティクル
+config.subtle_effects.blocks.pumpkinCarvedParticles.desc,Display the destroy particle effect when carving a pumpkin,カボチャを彫った時に破壊パーティクルを表示
+config.subtle_effects.blocks.rainIncreasesLeavesSpawningParticles,Rain Increases Leaves Spawning Particles,雨が葉スポーン粒子を増加させる
+config.subtle_effects.blocks.rainIncreasesLeavesSpawningParticles.desc,Should rain increase the amount of leaves particles spawned from leaf blocks,雨が降ると葉ブロックから出るリーフパーティクルの量は増えますか？
+config.subtle_effects.blocks.rainWaterRipples,Rain Water Ripples,雨の水の波紋
+config.subtle_effects.blocks.rainWaterRipples.desc,Should ripple particles be spawned on water when its raining,雨が降っているときに水上でリップルパーティクルを生成するか？
+config.subtle_effects.blocks.rainWaterRipplesDensity,Rain Water Ripples Density,雨の水面の波紋密度
+config.subtle_effects.blocks.randomChestOpeningNeedsSoulSand,Random Chest Opening Needs Soul Sand,ランダムチェストオープンにはソウルサンドが必要です
+config.subtle_effects.blocks.redstoneBlockDust,Redstone Block Dust,レッドストーンブロックの粉
+config.subtle_effects.blocks.redstoneBlockDustDensity,Redstone Block Dust Density,レッドストーンブロックの粉密度
+config.subtle_effects.blocks.redstoneDustEmittingBlocks,Redstone Dust Emitting Blocks,レッドストーンの粉が発光するブロック
+config.subtle_effects.blocks.redstoneDustEmittingBlocks.desc,"Blocks that emit redstone dust particles, good for applying the particles to blocks from mods that add redstone block variants, e.g. Polished, Chiseled",レッドストーンダストパーティクルを放出するブロック。Mod追加のレッドストーンブロック変種（研磨、ノミ加工など）にパーティクルを適用するのに適しています
+config.subtle_effects.blocks.replaceEndPortalSmoke,Replace End Portal Smoke,エンドポータルの煙を置き換える
+config.subtle_effects.blocks.replaceEndPortalSmoke.desc,Replaces the normal end portal smoke particles with nether portal particles so that it is consistent with end gateways,通常のエンドポータルの煙パーティクルをネザーポータルのパーティクルに置き換えて、エンドゲートウェイと一貫性を持たせます
+config.subtle_effects.blocks.replaceOminousVaultConnection,Replace Ominous Vault Connection,不気味な金庫接続を置き換える
+config.subtle_effects.blocks.replaceOminousVaultConnection.desc,Replaces the vanilla orange connection particles when near a ominous vault with blue particles,不気味なボールト近くではベーシックオレンジ接続粒子を青い粒子に置き換えます
+config.subtle_effects.blocks.replacePowderSnowFlakes,Replace Powder Snow Flakes,粉雪を置き換えたときにパーティクルを出現させるか
+config.subtle_effects.blocks.respawnAnchorParticles,Respawn Anchor Particles,リスポーンアンカーのパーティクル
+config.subtle_effects.blocks.respawnAnchorParticles.desc,Crying obsidian particles for respawn anchors,リスポーンアンカーの黒曜石の涙パーティクル
+config.subtle_effects.blocks.sculkBlockSculkDust,Sculk Block Sculk Dust,スカルクブロックのスカルクダスト
+config.subtle_effects.blocks.sculkCatalystDestroySouls,Sculk Catalyst Destroy Souls,スカルクカタリスト破壊時の魂
+config.subtle_effects.blocks.sculkCatalystDestroySouls.desc,Should a sculk soul particle spawn when a sculk catalyst is broken,スカルクカタリストが破壊されたときにスカルクソウルのパーティクルを出現させるか
+config.subtle_effects.blocks.sculkGroup,Sculk,スカルク蜂
+config.subtle_effects.blocks.sculkShriekerDestroySouls,Sculk Shrieker Destroy Souls,スカルクシュリーカー破壊時の魂
+config.subtle_effects.blocks.sculkShriekerDestroySouls.desc,Should a sculk soul particle spawn when a sculk shrieker is broken,スカルクシュリーカーが破壊されたときにスカルクソウルのパーティクルを出現させるか
+config.subtle_effects.blocks.sculkVeinSculkDust,Sculk Vein Sculk Dust,スカルクヴェインのスカルクダスト
+config.subtle_effects.blocks.slimeBlockBounceSounds,Slime Block Bounce Sounds,スライムブロックの跳ね返り音
+config.subtle_effects.blocks.slimeBlockBounceSounds.desc,Slime bounce sounds when bouncing on a slime block,スライムブロックで跳ねた時のスライムの跳ね返り音
+config.subtle_effects.blocks.smithingTableUseParticles,Smithing Table Use Particles,鍛冶台使用パーティクル
+config.subtle_effects.blocks.smithingTableUseParticles.desc,Should spark particles fly off smithing tables when used,使用時に鍛冶台から火花粒子が飛び散るようにするか
+config.subtle_effects.blocks.sparks,Sparks,火花
+config.subtle_effects.blocks.sparks.brewingStandSparks,Brewing Stand Sparks,ブレーキングスタンドの火花
+config.subtle_effects.blocks.sparks.campfireSparks,Campfire Sparks,焚き火の火花
+config.subtle_effects.blocks.sparks.candleSparks,Candle Sparks,ろうそくの火花
+config.subtle_effects.blocks.sparks.fireSparks,Fire Sparks,炎の火花
+config.subtle_effects.blocks.sparks.furnaceSparks,Furnace Sparks,かまどの火花
+config.subtle_effects.blocks.sparks.lanternSparksDensity,Lantern Sparks Density,ランタンの火花密度
+config.subtle_effects.blocks.sparks.lanternSparksDensity.desc,0 to disable,0で無効
+config.subtle_effects.blocks.sparks.lavaSparksDensity,Lava Sparks Density,熔岩火花密度
+config.subtle_effects.blocks.sparks.lavaSparksDisplayType,Lava Sparks Display Type,溶岩の火花
+config.subtle_effects.blocks.sparks.lavaSparksDisplayType.NOT_NETHER,Not Nether,ネザー以外
+config.subtle_effects.blocks.sparks.lavaSparksDisplayType.OFF,Off,オフ
+config.subtle_effects.blocks.sparks.lavaSparksDisplayType.ON,On,オン
+config.subtle_effects.blocks.sparks.lavaSparksDisplayType.desc,"§cWARNING!§r
+This can cause severe lag for slower computers when around large pools of lava (like in the nether)","§c警告！§r
+ネザーなど、溶岩が多い場所では、低スペックPCで重くなる可能性があります。"
+config.subtle_effects.blocks.sparks.removeVanillaCampfireSparks,Remove Vanilla Campfire Sparks,バニラの焚き火の火花を削除
+config.subtle_effects.blocks.sparks.removeVanillaCampfireSparks.desc,Removes the vanilla lava spark particle from campfires,焚き火のバニラの溶岩火花パーティクルを削除
+config.subtle_effects.blocks.sparks.torchSparks,Torch Sparks,たいまつの火花
+config.subtle_effects.blocks.steam,Steam (Beta),蒸気 (ベータ版)
+config.subtle_effects.blocks.steam.boilingThreshold,Boiling Threshold,沸騰する閾値
+config.subtle_effects.blocks.steam.boilingThreshold.desc,The light level at which water will bubble (boil). The value cannot be lower than the value of Steaming Threshold,水が泡立つ(沸騰する)明るさレベル。値は蒸気が出る閾値の値よりも低くできません
+config.subtle_effects.blocks.steam.boilingWater,Boiling Water,沸騰する水
+config.subtle_effects.blocks.steam.boilingWater.desc,Should water bubble/boil when near blocks with a light level of 13 or more,明るさレベルが13以上のブロックの近くで水が泡立つ（沸騰する）ようにしますか？
+config.subtle_effects.blocks.steam.boilingWaterCauldron,Boiling Water Cauldron,沸騰する水入り大釜
+config.subtle_effects.blocks.steam.boilingWaterCauldron.desc,Should water bubble/boil when near blocks with a light level of 13 or more,明るさレベルが13以上のブロックの近くで水入り大釜が泡立つ（沸騰する）ようにしますか？
+config.subtle_effects.blocks.steam.lavaCauldronsEvaporateRain,Lava Cauldrons Evaporate Rain,ラバが雨を蒸発させる
+config.subtle_effects.blocks.steam.lavaCauldronsEvaporateRain.desc,Adds lava cauldrons to the list of blocks that can cause rain to create steam,ラバーカルドンを雨が蒸気を作る可能性のあるブロックリストに追加します
+config.subtle_effects.blocks.steam.lavaFizzSteam,Lava Fizz Steam,溶岩の蒸気
+config.subtle_effects.blocks.steam.lavaFizzSteam.desc,Replaces the smoke particles with steam when lava and water create a block (obsidian/cobblestone/stone),溶岩と水がブロック(黒曜石/丸石/石)を生成するときに、煙の代わりに蒸気パーティクルを表示
+config.subtle_effects.blocks.steam.replaceCampfireFoodSmoke,Replace Campfire Food Smoke,焚き火の食べ物の煙を置き換える
+config.subtle_effects.blocks.steam.replaceCampfireFoodSmoke.desc,Replaces the vanilla smoke particles emitted from food cooking on a campfire with steam particles,焚き火で調理中の食べ物から出るバニラの煙パーティクルを蒸気パーティクルで置き換えます
+config.subtle_effects.blocks.steam.replaceRainEvaporationSteam,Replace Rain Evaporation Steam,雨蒸発を置換する蒸気
+config.subtle_effects.blocks.steam.replaceRainEvaporationSteam.desc,Replaces the vanilla smoke particles spawned on lava/campfires/magma blocks with steam,溶岩/焚き火/マグマブロックで生成されるバニラスモーク粒子をスチームに置き換える
+config.subtle_effects.blocks.steam.spawnLogic,Spawn Logic,出現ロジック
+config.subtle_effects.blocks.steam.spawnLogic.BRIGHTNESS,Brightness,明るさ
+config.subtle_effects.blocks.steam.spawnLogic.NEAR_LAVA,Near Lava,溶岩の近く
+config.subtle_effects.blocks.steam.spongeDryingOutSteam,Sponge Drying Out Steam,スポンジが乾く時の蒸気
+config.subtle_effects.blocks.steam.spongeDryingOutSteam.desc,Replaces the cloud particles when a sponge is dried out in the nether with steam,ネザーでスポンジが乾燥したときの雲のパーティクルを蒸気に置き換えます
+config.subtle_effects.blocks.steam.steamingThreshold,Steaming Threshold,蒸気が出る閾値
+config.subtle_effects.blocks.steam.steamingThreshold.desc,The light level at which water will steam,水が蒸気を出す明るさレベル
+config.subtle_effects.blocks.steam.steamingWater,Steaming Water,蒸気が出る水
+config.subtle_effects.blocks.steam.steamingWater.desc,Should water steam when near blocks with a light level greater than 11,明るさレベルが11以上のブロックの近くで水から蒸気が出るようにしますか？
+config.subtle_effects.blocks.steam.steamingWaterCauldron,Steaming Water Cauldron,蒸気が出る水入り大釜
+config.subtle_effects.blocks.steam.steamingWaterCauldron.desc,Should water cauldrons steam when near blocks with a light level greater than 11,明るさレベルが11以上のブロックの近くで水入り大釜から蒸気が出るようにしますか？
+config.subtle_effects.blocks.stonecutterUseParticles,Stonecutter Use Particles,石切り用の粒子
+config.subtle_effects.blocks.stonecutterUseParticles.desc,Should block destroy particles fly off stonecutters when used,ブロック破壊時に石切り機からパーティクルが飛び散るかどうか
+config.subtle_effects.blocks.torchflowerFlames,Torchflower Flames,トーチフラワーの炎
+config.subtle_effects.blocks.torchflowerFlames.desc,Should torchflowers have flame particles,トーチフラワーに炎のパーティクルを表示しますか？
+config.subtle_effects.blocks.torchflowerSmoke,Torchflower Smoke,トーチフラワーの煙
+config.subtle_effects.blocks.torchflowerSmoke.desc,Should torchflowers have smoke particles,トーチフラワーに煙のパーティクルを表示しますか？
+config.subtle_effects.blocks.underwaterBlockBreakBubbles,Underwater Block Break Bubbles,水中ブロック破壊バブル
+config.subtle_effects.blocks.underwaterBlockBreakBubbles.desc,Should breaking blocks underwater spawn bubbles,水中でブロックを破壊すると泡が出るか
+config.subtle_effects.blocks.underwaterContainerBubblingGroup,Underwater Container Bubbling,水底のコンテナから気泡が発生する
+config.subtle_effects.blocks.updatedSmoke,Updated Smoke,煙の更新
+config.subtle_effects.blocks.updatedSmoke.campfireDowseSmoke,Campfire Dowse Smoke,焚き火が消える時の煙
+config.subtle_effects.blocks.updatedSmoke.candleSmoke,Candle Smoke,ろうそくの煙
+config.subtle_effects.blocks.updatedSmoke.desc,Replace the old black and gray smoke particles with new campfire style particles,古い黒と灰色の煙のパーティクルを、新しい焚き火スタイルのパーティクルに置き換えます
+config.subtle_effects.blocks.updatedSmoke.fireSmoke,Fire Smoke,炎の煙
+config.subtle_effects.blocks.updatedSmoke.furnaceSmoke,Furnace Smoke,かまどの煙
+config.subtle_effects.blocks.updatedSmoke.furnaceSmoke.desc,Includes vanilla furnace variants,バニラのかまどの亜種を含みます
+config.subtle_effects.blocks.updatedSmoke.torchSmoke,Torch Smoke,たいまつの煙
+config.subtle_effects.blocks.workstationsGroup,Workstations,作業台
+config.subtle_effects.coldSeasonsType.DEFAULT,Default,デフォルト
+config.subtle_effects.coldSeasonsType.OFF,Off,オフ
+config.subtle_effects.coldSeasonsType.WINTER_ONLY,Winter Only,冬のみ
+config.subtle_effects.commandBlockType.NOT_CREATIVE,Not Creative Mode,クリエイティブモード以外
+config.subtle_effects.commandBlockType.OFF,Off,オフ
+config.subtle_effects.commandBlockType.ON,On,オン
+config.subtle_effects.entities,Entities,エンティティ
+config.subtle_effects.entities.allayMagicDensity,Allay Magic Density,アレイの魔法密度
+config.subtle_effects.entities.allayMagicDensity.desc,"The density of particles spawning around an allay
+0 to disable","アレイの周囲に生成されるパーティクルの密度
+0で無効"
+config.subtle_effects.entities.animalFeedingParticles,Animal Feeding Particles,動物餌粒子
+config.subtle_effects.entities.animalFeedingParticles.desc,"When feeding an animal, e.g. breeding a cow, taming a wolf, item destroy particles will appear around the mouth area",動物への給餌時（例：牛の繁殖、オオカミの馴致）に、アイテムを破壊するパーティクルが口周辺に出現します
+config.subtle_effects.entities.animalFeedingSoundVolume,Animal Feeding Sound Volume,動物餌付け音量
+config.subtle_effects.entities.animalFeedingSoundVolume.desc,"Volume of the eat sounds played when feeding an animal, e.g. breeding a cow, taming a wolf. Note: This will not affect the volume of vanilla animal eating sounds",動物に給餌するときに再生される食べ音のボリューム（例：牛の繁殖、オオカミの馴致）。注意：バニラの動物食べ音のボリュームには影響しません
+config.subtle_effects.entities.attackedGroup,Attacked,攻撃された
+config.subtle_effects.entities.attackedGroup.desc,Particles emitted from a mob when it takes damage from a another mob or player,モブが別のモブまたはプレイヤーからダメージを受けたときに放出されるパーティクル
+config.subtle_effects.entities.burning,Burning,燃焼
+config.subtle_effects.entities.burning.desc,Particles emitted from entities on fire,燃えているエンティティから放出されるパーティクル
+config.subtle_effects.entities.burning.extinguishSteam,Extinguish Steam,蒸気の消火
+config.subtle_effects.entities.burning.extinguishSteam.desc,"When an burning entity is extinguished, from water or a splash water bottle, steam will appear",燃えている物体が消火されるとき、水やスプラッシュポーションから蒸気を出現させるか
+config.subtle_effects.entities.burning.flames,Flames,炎
+config.subtle_effects.entities.burning.smoke,Smoke,煙
+config.subtle_effects.entities.burning.sounds,Sounds,燃えている音
+config.subtle_effects.entities.burning.sparks,Sparks,火花
+config.subtle_effects.entities.chickenFeathers,Chicken Feathers,ニワトリの羽
+config.subtle_effects.entities.commandBlockMinecartParticles,Command Block Minecart Particles,コマンドブロック付きトロッコのパーティクル
+config.subtle_effects.entities.commandBlockMinecartParticles.desc,Adds command block particles to the command block minecart. Yes I actually did this,コマンドブロック付きトロッコにコマンドブロックのパーティクルを追加します
+config.subtle_effects.entities.dragonsBreathClouds,Dragons Breath Clouds,ドラゴンの息の雲
+config.subtle_effects.entities.dragonsBreathClouds.desc,Applies the lingering potion cloud effects to the ender dragons breath,エンダードラゴンの息に持続ポーション雲効果を適用します
+config.subtle_effects.entities.dustClouds,Dust Clouds,砂埃
+config.subtle_effects.entities.dustClouds.alpha,Alpha,アルファ
+config.subtle_effects.entities.dustClouds.alpha.desc,The starting alpha transparency,初期のアルファ(透明度)
+config.subtle_effects.entities.dustClouds.fallingGroup,Falling,砂埃の落下
+config.subtle_effects.entities.dustClouds.flyIntoWall,Fly Into Wall,壁の中へ砂埃を落下
+config.subtle_effects.entities.dustClouds.flyIntoWall.desc,"Should dust clouds be spawned when flying into a wall, like with an elytra",エリトラの様に壁にぶつかると砂埃を出現させるか
+config.subtle_effects.entities.dustClouds.landMaceAttack,Land Mace Attack,メイス攻撃の着地
+config.subtle_effects.entities.dustClouds.landMaceAttack.desc,Spawn dust clouds when successfully landing a mace attack,メイス攻撃の着地に成功した場合、砂埃を発生させます
+config.subtle_effects.entities.dustClouds.lessViewBlocking,Less View Blocking,視界を遮らない
+config.subtle_effects.entities.dustClouds.lessViewBlocking.desc,Will prevent dust clouds from rendering within about 2 blocks of the player in first person,一人称視点でプレイヤーの約2ブロック以内に砂埃が出現させるのを防ぐか
+config.subtle_effects.entities.dustClouds.mobFell,Mob Fell,モブが落下
+config.subtle_effects.entities.dustClouds.mobFell.desc,Should a cloud of dust appear when a mob takes fall damage,モブが落下ダメージを受けたときに砂埃を表示するかどうか
+config.subtle_effects.entities.dustClouds.mobRunning,Mob Running,モブが走っているとき
+config.subtle_effects.entities.dustClouds.mobRunning.desc,"Should a dust cloud form behind charging ravagers, hoglins, zoglins, galloping horses, and dashing camels",突撃中のラヴェジャー、ホグリン、ゾグリン、ギャロップ中の馬、ダッシュ中のラクダの後ろに砂埃を発生させるか
+config.subtle_effects.entities.dustClouds.playerFell,Player Fell,プレイヤーが落下したときの砂埃
+config.subtle_effects.entities.dustClouds.playerFell.desc,Should a cloud of dust appear when a player takes fall damage,プレイヤーが落下ダメージを受けたときに砂埃を表示するかどうか
+config.subtle_effects.entities.dustClouds.playerRunning,Player Running,プレイヤーが走っているときの砂埃
+config.subtle_effects.entities.dustClouds.playerRunning.desc,Should a dust cloud form behind a running player,走っているプレイヤーの後ろに砂埃を表示するかどうか
+config.subtle_effects.entities.dustClouds.playerRunningRequiresSpeed,Player Running Requires Speed,走っている時の砂埃に速度を要求
+config.subtle_effects.entities.dustClouds.playerRunningRequiresSpeed.desc,Forces player running dust clouds to only spawn if the player is using the speed potion effect,プレイヤーが移動速度上昇のポーションを使用して、走った時に砂埃を出現させるか
+config.subtle_effects.entities.dustClouds.preventWhenRaining,Prevent When Raining,雨天時に発生させない
+config.subtle_effects.entities.dustClouds.runningGroup,Running,走っているとき
+config.subtle_effects.entities.dustClouds.scale,Scale,スケール
+config.subtle_effects.entities.endCrystalParticles,End Crystal Particles,エンドクリスタルのパーティクル
+config.subtle_effects.entities.endCrystalParticles.desc,Should end crystals have little pink particles floating around them,エンドクリスタルの周りに小さなピンクのパーティクルを浮遊させるか
+config.subtle_effects.entities.explosives,Explosives,爆発物
+config.subtle_effects.entities.explosives.creeperSmoke,Creeper Smoke,クリーパーの煙
+config.subtle_effects.entities.explosives.creeperSparks,Creeper Sparks,クリーパーの火花
+config.subtle_effects.entities.explosives.tntFlamesDensity,TNT Flames Density,TNTの炎のパーティクルの密度
+config.subtle_effects.entities.explosives.tntFlamesDensity.desc,"The density of flame particles spawned around primed TNT.
+0 to disable","起爆したTNTの周囲に発生する炎のパーティクルの密度。
+0で無効"
+config.subtle_effects.entities.explosives.tntSparks,TNT Sparks,TNTの火花
+config.subtle_effects.entities.explosives.tntUpdateSmoke,TNT Update Smoke,TNTの煙を更新
+config.subtle_effects.entities.featherTicklingPandas,Feather Tickling Pandas,羽毛でくすぐるパンダ
+config.subtle_effects.entities.featherTicklingPandas.desc,Allows baby and weak pandas to be tickled with a feather to sneeze. No slimeballs will drop,赤ちゃんや弱いパンダを羽毛でチクチクするとくしゃみします。スライムボールはドロップしません
+config.subtle_effects.entities.freezingSnowFlakes,Freezing Snow Flakes,凍りつく雪の結晶
+config.subtle_effects.entities.humanoids,Humanoids,人型
+config.subtle_effects.entities.humanoids.NPCsHavePotionRings,NPCs Have Potion Rings,NPCにポーションのリングパーティクル
+config.subtle_effects.entities.humanoids.NPCsHavePotionRings.desc,"Should NPCs, like witches and wandering traders, have potion rings",魔女や行商人のようなNPCにポーションのリングパーティクルを出現させるか
+config.subtle_effects.entities.humanoids.drowningBubbleAlpha,Drowning Bubble Alpha,溺れている時の泡のアルファ値
+config.subtle_effects.entities.humanoids.drowningBubbles.desc,When a player is underwater bubbles will emit from there face,プレイヤーが水中にいると、顔から泡が出ます
+config.subtle_effects.entities.humanoids.drowningBubblesDensity,Drowning Bubbles Density,溺れている時の泡密度
+config.subtle_effects.entities.humanoids.drowningBubblesDisplayType,Drowning Bubbles Display Type,溺れている時の泡の表示タイプ
+config.subtle_effects.entities.humanoids.drowningBubblesGroup,Drowning Bubbles,溺れている時の泡
+config.subtle_effects.entities.humanoids.forceDrowningBubblesToColumn,Force Drowning Bubbles To Column,溺れ泡を列へ強制する
+config.subtle_effects.entities.humanoids.forceDrowningBubblesToColumn.desc,Forces drowning bubbles to spawn in a single column rather that being randomized,溺死泡がランダム化されず、単一列に生成されるよう強制します
+config.subtle_effects.entities.humanoids.frostyBreath,Frosty Breath,白い息
+config.subtle_effects.entities.humanoids.frostyBreath.additionalBiomes,Additional Biomes,追加バイオーム
+config.subtle_effects.entities.humanoids.frostyBreath.additionalBiomes.desc,A list of additional biomes that the effect does not already detect,効果がまだ検出していない追加のバイオームのリスト
+config.subtle_effects.entities.humanoids.frostyBreath.alpha,Alpha,アルファ
+config.subtle_effects.entities.humanoids.frostyBreath.alpha.desc,The starting alpha transparency,初期のアルファ(透明度)
+config.subtle_effects.entities.humanoids.frostyBreath.desc,When a player is in a cold biome steam will emit from the their face,プレイヤーが寒いバイオームにいるとき、顔から蒸気が出ます
+config.subtle_effects.entities.humanoids.frostyBreath.displayType,Display Type,表示タイプ
+config.subtle_effects.entities.humanoids.frostyBreath.seasons,Seasons,季節
+config.subtle_effects.entities.humanoids.frostyBreath.seasons.desc,"Seasons for frosty breath to spawn.
+'Default' will start frosty breath spawning in the late autumn and end it at the end of early spring
+
+§6Note:§r
+Serene Seasons needs to be installed","白い息が出現する季節。
+'デフォルト'は晩秋に白い息が出現し始め、早春の終わりに終わります
+
+§6注意:§r
+Serene Seasonsをインストールする必要があります"
+config.subtle_effects.entities.humanoids.frostyBreath.waitTime,Wait Time,待機時間
+config.subtle_effects.entities.humanoids.frostyBreath.waitTime.desc,The time between frosty breathing spawning in ticks,白い息が出現する間隔(ティック)
+config.subtle_effects.entities.humanoids.player,Player,プレイヤー
+config.subtle_effects.entities.humanoids.player.enableBreathingEffectsInCreative,Enable Breathing Effects In Creative,クリエイティブで呼吸効果を有効にする
+config.subtle_effects.entities.humanoids.player.heartBeatingGroup,Heart Beating,心臓の鼓動
+config.subtle_effects.entities.humanoids.player.heartBeatingThreshold,Heart Beating Threshold,心臓の鼓動の閾値
+config.subtle_effects.entities.humanoids.player.heartBeatingThreshold.desc,"When the player's health gets below this point a heart beat sound will play every 3 sec and every 1 sec when the player's health is below half this value.
+Value measured in half hearts.
+0 to disable","プレイヤーの体力がこの数値を下回ると、3秒ごとに心臓の鼓動が再生され、体力がこの数値の半分を下回ると1秒ごとに再生されます。
+ハートの半分で測定された値。
+0で無効"
+config.subtle_effects.entities.humanoids.player.heartBeatingWaitTime,Heart Beating Wait Time,心臓の鼓動の間隔
+config.subtle_effects.entities.humanoids.player.heartBeatingWaitTime.desc,The time between heart beat sounds playing,心臓の鼓動が鳴る間隔
+config.subtle_effects.entities.humanoids.player.heartbeatVolume,Heartbeat Volume,心臓の鼓動の音量
+config.subtle_effects.entities.humanoids.player.stomachGrowlingGroup,Stomach Growling,お腹の虫の音
+config.subtle_effects.entities.humanoids.player.stomachGrowlingThreshold,Stomach Growling Threshold,お腹の虫の音の閾値
+config.subtle_effects.entities.humanoids.player.stomachGrowlingThreshold.desc,"When the player's hunger gets below this point a stomach growl sound will play every 15 sec.
+Value measured in half hunger points.
+0 to disable","プレイヤーの満腹度がこの数値を下回ると、15秒ごとにお腹の虫の音が再生されます。
+満腹度ポイントの半分で測定された値。
+0で無効"
+config.subtle_effects.entities.humanoids.player.stomachGrowlingVolume,Stomach Growling volume,お腹の虫の音量
+config.subtle_effects.entities.humanoids.player.stomachGrowlingWaitTime,Stomach Growling Wait Time,お腹の虫の音の間隔
+config.subtle_effects.entities.humanoids.player.stomachGrowlingWaitTime.desc,The time between stomach growl sounds playing,お腹の虫の音が鳴る間隔
+config.subtle_effects.entities.humanoids.potionRingsAlpha,Potion Rings Alpha,ポーションリングα
+config.subtle_effects.entities.humanoids.potionRingsDisplayType,Potion Rings Display Type,ポーションのリングパーティクルの表示タイプ
+config.subtle_effects.entities.humanoids.potionRingsGroup,Potion Rings,ポーションのリングパーティクル
+config.subtle_effects.entities.humanoids.potionRingsParticleType,Potion Rings Particle Type,ポーションのリングパーティクルのタイプ
+config.subtle_effects.entities.humanoids.potionRingsParticleType.BOTH,Both,両方
+config.subtle_effects.entities.humanoids.potionRingsParticleType.DOTS_ONLY,Dots Only,ドットのみ
+config.subtle_effects.entities.humanoids.potionRingsParticleType.RINGS_ONLY,Rings Only,リングのみ
+config.subtle_effects.entities.humanoids.potionRingsScale,Potion Rings Scale,ポーションリングスケール
+config.subtle_effects.entities.improvedBrownMooshroomFeedingEffects,Improved Brown Mooshroom Feeding Effects,改善されたブラウンムーシュルーム給餌効果
+config.subtle_effects.entities.improvedBrownMooshroomFeedingEffects.desc,Changes the effects for feeding a brown mooshroom a flower,茶色のムーシュルームに花を与えるときの効果を変更します。
+config.subtle_effects.entities.improvedDragonFireballTrail,Improved Dragon Fireball Trail,強化されたドラゴンの火球の軌跡
+config.subtle_effects.entities.improvedDragonFireballTrail.desc,Adds more particles to the trail of the Ender Dragon's fireballs,エンダードラゴンの火球の軌跡にパーティクルを追加します
+config.subtle_effects.entities.improvedMooshroomShearingEffects,Improved Mooshroom Shearing Effects,ムシーブームの切り取る効果を改善しました。
+config.subtle_effects.entities.improvedPandaSneezes,Improved Panda Sneezes,改良されたパンダくしゃみ
+config.subtle_effects.entities.improvedVillagerSweatingEffects,Improved Villager Sweating Effects,村人の汗の効果を改善しました。
+config.subtle_effects.entities.improvedVillagerSweatingEffects.desc,Improves the sweating effects of villagers during raids,襲撃時に村人の発汗効果を向上させます
+config.subtle_effects.entities.improvedWetWolfShakeEffects,Improved Wet Wolf Shake Effects,改良された濡れたオオカミの揺らぎ効果
+config.subtle_effects.entities.improvedWetWolfShakeEffects.desc,Improves the water effects of a wolf shaking water off,狼が水を振り落とす際の水効果を改善します
+config.subtle_effects.entities.ironGolemCrackParticles,Iron Golem Crack Particles,アイアンゴーレムのひび割れパーティクル
+config.subtle_effects.entities.ironGolemCrackParticles.desc,Should iron particles spawn around iron golems when they crack,アイアンゴーレムがひび割れたときに、周囲に鉄のパーティクルを生成するかどうか
+config.subtle_effects.entities.magmaCubeTrails,Magma Cube Trails,マグマキューブの軌跡
+config.subtle_effects.entities.magmaCubeTrails.desc,Do Magma Cubes leave a trail of maga slime behind them when they move,マグマキューブが移動するときに、後ろにマグマの軌跡を表示するか
+config.subtle_effects.entities.minecartSparksDensity,Minecart Sparks Density,トロッコ着地時の火花の密度
+config.subtle_effects.entities.minecartSparksDisplayType,Minecart Sparks Display Type,トロッコの火花の表示タイプ
+config.subtle_effects.entities.minecartSparksDisplayType.DEFAULT,Default,デフォルト
+config.subtle_effects.entities.minecartSparksDisplayType.LAND_ON_RAIL,Land On Rails,レール着地時
+config.subtle_effects.entities.minecartSparksDisplayType.OFF,OFF,オフ
+config.subtle_effects.entities.minecartSparksDisplayType.desc,"Should sparks particles spawn for minecarts moving on rails.
+'Land On Rail' will spawn sparks only when a minecart lands on rails","レール上を移動するトロッコに火花を発生させるかどうか。
+「レール着地時」では、トロッコがレール上に着地した場合にのみ火花を発生させます。"
+config.subtle_effects.entities.parrotFeathers,Parrot Feathers,オウムの羽
+config.subtle_effects.entities.perspectiveDisplayType.DEFAULT,Default,デフォルト
+config.subtle_effects.entities.perspectiveDisplayType.OFF,Off,オフ
+config.subtle_effects.entities.perspectiveDisplayType.THIRD_PERSON_ONLY,Only in Third Person,三人称のみ
+config.subtle_effects.entities.replaceBlazeSmoke,Replace Blaze Smoke,ブレイズ煙を置き換える
+config.subtle_effects.entities.replaceOozingEffectParticles,Replace Oozing Effect Particles,滲出のパーティクルの置き換え
+config.subtle_effects.entities.replaceOozingEffectParticles.desc,Replaces the slime ball item particles with slime block particles for mobs and players with the oozing effect,スライムボールのパーティクルを、モブとプレイヤーのスライムブロックのパーティクルに置き換え、滲出の効果を持たせます
+config.subtle_effects.entities.replaceSlimeSquishParticles,Replace Slime Squish Particles,スライムが潰れた時のパーティクルを置き換える
+config.subtle_effects.entities.replaceSlimeSquishParticles.desc,Replaces the slime ball item particles with slime block particles when a slime squishes,スライムが潰れたときに、スライムボールアイテムのパーティクルをスライムブロックのパーティクルに置き換えます
+config.subtle_effects.entities.replaceSpellCasterParticles,Replace Spell Caster Particles,エヴォーカーのパーティクルを置き換える
+config.subtle_effects.entities.replaceSpellCasterParticles.desc,Replaces the potion effect particles when a spell caster illager is casting a spell e.g Evoker summoning vexes,エヴォーカーが呪文を唱えているとき（例：エヴォーカーがヴェックスを召喚するとき）に、ポーション効果のパーティクルを置き換えます
+config.subtle_effects.entities.sheepShearFluff,Sheep Shear Fluff,羊の毛刈り時の綿毛
+config.subtle_effects.entities.sheepShearFluff.desc,When a sheep is sheared fluff particles will fall off,羊が刈られたとき、綿毛のパーティクルが落ちます
+config.subtle_effects.entities.sleeping,Sleeping,睡眠
+config.subtle_effects.entities.sleeping.adjustNameTagWhenSleeping,Adjust Name Tag When Sleeping,睡眠中のネームタグを調整
+config.subtle_effects.entities.sleeping.adjustNameTagWhenSleeping.desc,Adjust name tag rendering to be at the top of the head rather than above it when a mob is sleeping in a bed,モブがベッドで寝ているときに、名前タグを頭の上に表示するのではなく、頭の上部に表示するようにレンダリングを調整
+config.subtle_effects.entities.sleeping.batsHaveSleepingZs,Bats Have Sleeping Zs,コウモリに睡眠Zを表示
+config.subtle_effects.entities.sleeping.batsHaveSleepingZs.desc,Display Z particles for resting/hanging bats,休息中/ぶら下がっているコウモリにZパーティクルを表示
+config.subtle_effects.entities.sleeping.catsHaveSleepingZs,Cats Have Sleeping Zs,ネコに睡眠Zを表示
+config.subtle_effects.entities.sleeping.catsHaveSleepingZs.desc,Display Z particles for resting/laying cats,休息/横たわっている猫にZパーティクルを表示
+config.subtle_effects.entities.sleeping.displaySleepingZsOnlyWhenSnoring,Display Sleeping Zs Only When Snoring,いびきをかいているときのみ睡眠Zを表示
+config.subtle_effects.entities.sleeping.displaySleepingZsOnlyWhenSnoring.desc,Forces Z particles to only display when a mob's UUID chance allows them to snore (Only applicable for players and villagers),モブのUUIDの確率によっていびきをかく場合にのみ、Zパーティクルを表示するようにします（プレイヤーと村人のみに適用）
+config.subtle_effects.entities.sleeping.foxesHaveSleepingZs,Foxes Have Sleeping Zs,キツネに睡眠Zを表示
+config.subtle_effects.entities.sleeping.foxesHaveSleepingZs.desc,Display Z particles for sleeping foxes,睡眠中のキツネにZパーティクルを表示
+config.subtle_effects.entities.sleeping.otherMobsHaveSleepingZs,Other Mobs Have Sleeping Zs,その他のモブに睡眠Zを表示
+config.subtle_effects.entities.sleeping.otherMobsHaveSleepingZs.desc,"Display Z particles for other sleeping mobs, mainly mobs other mods",主に他のMODのモブなど、他の睡眠中のモブにZパーティクルを表示
+config.subtle_effects.entities.sleeping.playerSnoreChance,Player Snore Chance,プレイヤーのいびき確率
+config.subtle_effects.entities.sleeping.playerSnoreChance.desc,"A percentage based chance for a player to snore. This is UUID based so it doesn't change every night.
+0 to disable","プレイヤーがいびきをかく確率(パーセント)。これはUUIDに基づいているため、毎晩変更されることはありません。
+0で無効"
+config.subtle_effects.entities.sleeping.playerSnoreSoundVolume,Player Snore Sound Volume,プレイヤーのいびき音量
+config.subtle_effects.entities.sleeping.playerSnoreSoundVolume.desc,0 to disable player snoring sounds,0でプレイヤーのいびき音を無効にします
+config.subtle_effects.entities.sleeping.playersHaveSleepingZs,Players Have Sleeping Zs,プレイヤーに睡眠Zを表示
+config.subtle_effects.entities.sleeping.playersHaveSleepingZs.desc,Display Z particles for sleeping players,睡眠中のプレイヤーにZパーティクルを表示
+config.subtle_effects.entities.sleeping.villagerSnoreChance,Villager Snore Chance,村人のいびき確率
+config.subtle_effects.entities.sleeping.villagerSnoreChance.desc,"A percentage based chance for a villager to snore. This is UUID based so it doesn't change every night.
+0 to disable","村人がいびきをかく確率(パーセント)。これはUUIDに基づいているため、毎晩変更されることはありません。
+0で無効"
+config.subtle_effects.entities.sleeping.villagerSnoreSoundVolume,Villager Snore Sound Volume,村人のいびき音量
+config.subtle_effects.entities.sleeping.villagerSnoreSoundVolume.desc,0 to disable to disable villager soring sounds,0で村人のいびき音を無効にします
+config.subtle_effects.entities.sleeping.villagersHaveSleepingZs,Villagers Have Sleeping Zs,村人に睡眠Zを表示
+config.subtle_effects.entities.sleeping.villagersHaveSleepingZs.desc,Display Z particles for sleeping villagers,睡眠中の村人にZパーティクルを表示
+config.subtle_effects.entities.slimeTrails,Slime Trails,スライムの軌跡
+config.subtle_effects.entities.slimeTrails.desc,Do Slimes leave a trail of slime behind them when they move,スライムが移動するときに後ろにスライムの軌跡を表示するか
+config.subtle_effects.entities.snowGolemSnowflakes,Snow Golem Snowflakes,スノーゴーレムの雪
+config.subtle_effects.entities.spectralArrowParticles,Spectral Arrow Particles,スペクトル矢のパーティクル
+config.subtle_effects.entities.spectralArrowParticles.desc,Should spectral arrows emit glowstone dust particles,スペクトル矢がグロウストーンダストのパーティクルを放出するかどうか
+config.subtle_effects.entities.splashes,Splashes,スプラッシュ
+config.subtle_effects.entities.splashes.entityBlocklist,Entity Blocklist,エンティティブロックリスト
+config.subtle_effects.entities.splashes.entityBlocklist.desc,List of entities that will not have splash effects,スプラッシュ効果がないエンティティのリスト
+config.subtle_effects.entities.splashes.explosionsCauseSplashes,Explosions Cause Splashes,爆発で飛び散る
+config.subtle_effects.entities.splashes.explosionsCauseSplashes.desc,Should explosions cause splash effects when in water/lava,爆発が水/溶岩内でスプラッシュ効果を引き起こすかどうか。
+config.subtle_effects.entities.splashes.lavaSplashRipples,Lava Splash Ripples,熔岩飛び散りの波紋
+config.subtle_effects.entities.splashes.lavaSplashRipples.desc,Should lava splashes play a ripple effect,溶岩のスプラッシュにリップル効果を再生するか
+config.subtle_effects.entities.splashes.lavaSplashes,Lava Splashes,溶岩の飛び散り音
+config.subtle_effects.entities.splashes.lavaSplashes.desc,Should entities cause lava splash effects,エンティティが溶岩のスプラッシュ効果を引き起こすべきか
+config.subtle_effects.entities.splashes.lavaSplashesGroup,Lava Splashes,溶岩の飛び散り音
+config.subtle_effects.entities.splashes.secondarySplash,Secondary Splash,副スプラッシュ
+config.subtle_effects.entities.splashes.secondarySplash.desc,Plays a second splash effect after the initial splash,初回スプラッシュ後、2 回目のスプラッシュエフェクトを再生します
+config.subtle_effects.entities.splashes.secondarySplashRipples,Secondary Splash Ripples,二次スプラッシュ波紋
+config.subtle_effects.entities.splashes.secondarySplashRipples.desc,Should a ripple effect be played after a secondary splash,二次スプラッシュ後にリップルエフェクトを再生するかどうか。
+config.subtle_effects.entities.splashes.secondarySplashVelocityThreshold,Secondary Splash Velocity Threshold,二次スプラッシュ速度閾値
+config.subtle_effects.entities.splashes.secondarySplashVelocityThreshold.desc,The velocity threshold needed to trigger a secondary splash. Cannot be lower than the normal splash velocity threshold,セカンダリスプラッシュをトリガーするために必要な速度の閾値。通常のスプラッシュ速度閾値より低くすることはできません
+config.subtle_effects.entities.splashes.secondarySplashesGroup,Secondary Splashes,副スプラッシュ
+config.subtle_effects.entities.splashes.splashBubbles,Splash Bubbles,スプラッシュバブル
+config.subtle_effects.entities.splashes.splashBubbles.desc,Should an eruption of bubbles be spawned underwater,水中で泡の噴出が生成されるべきか
+config.subtle_effects.entities.splashes.splashDroplets,Splash Droplets,スプラッシュドロップ
+config.subtle_effects.entities.splashes.splashEffects,Splash Effects,スプラッシュエフェクト
+config.subtle_effects.entities.splashes.splashEffects.desc,Should entities falling in vanilla fluids have splash effects,バニラ液体で落下するエンティティにスプラッシュ効果を付与するか
+config.subtle_effects.entities.splashes.splashOverlayAlpha,Splash Overlay Alpha,スプラッシュオーバーレイのアルファ値
+config.subtle_effects.entities.splashes.splashOverlayAlpha.desc,"The alpha transparency of the splash overlay. The overlay is the white edge of foam along the top of water splashes. This config also affects the water splash ripple effect 
+0 to disable overlay","スプラッシュオーバーレイのアルファ透明度。オーバーレイは水スプラッシュの上部に沿った泡の白い縁です。このコンフィグは水スプラッシュリップルエフェクトにも影響します。
+0で無効化"
+config.subtle_effects.entities.splashes.splashOverlayTint,Splash Overlay Tint,飛び散りオーバーレイの色調
+config.subtle_effects.entities.splashes.splashRipples,Splash Ripples,スプラッシュリップル
+config.subtle_effects.entities.splashes.splashRipples.desc,Should a ripple effect be played after a splash,スプラッシュ後にリップル効果を再生するか
+config.subtle_effects.entities.splashes.splashVelocityThreshold,Splash Velocity Threshold,飛び散る速度の閾値
+config.subtle_effects.entities.splashes.splashVelocityThreshold.desc,The velocity threshold needed to trigger a splash,スプラッシュを発生させるために必要な速度閾値
+config.subtle_effects.entities.underwaterEntityPoofBubbles,Underwater Entity Poof Bubbles,水中エンティティ消滅バブル
+config.subtle_effects.entities.underwaterEntityPoofBubbles.desc,"When an entity is spawned or dies underwater, should the poof effect have bubbles",水中でエンティティがスポーンまたは死亡したとき、ポフ効果に泡を付けるか？
+config.subtle_effects.entities.vexMagicDensity,Vex Magic Density,ヴェックスの魔法密度
+config.subtle_effects.entities.vexMagicDensity.desc,"The density of particles spawning around a vex
+0 to disable","ヴェックスの周囲に生成されるパーティクルの密度
+0で無効"
+config.subtle_effects.entities.villagerWorkAtWorkstationParticles,Villager Work At Workstation Particles,中規模の水の滝粒子を強制的に生成
+config.subtle_effects.entities.villagerWorkAtWorkstationParticles.desc,Should profession/workstation related particles spawn around a workstation when a villager uses it,ビレッジャーが作業ステーションを使用するときに、職業/作業ステーション関連の粒子がスポーンすべきか
+config.subtle_effects.entities.wardenDeathSoulParticles,Warden Death Soul Particles,ウォーデンの死亡時の魂パーティクル
+config.subtle_effects.entities.wardenDeathSoulParticles.desc,Should sculk soul particles emit from wardens upon death,ウォーデンが死亡時にスカルクソウルのパーティクルを放出するかどうか
+config.subtle_effects.environment,Environment,エンバイロメント
+config.subtle_effects.environment.biomeColorRain,Biome Color Rain,バイオームカラーの雨
+config.subtle_effects.environment.biomes,Biomes,バイオーム
+config.subtle_effects.environment.biomes.biomeParticlesRadius,Biome Particles Radius,バイオームパーティクル半径
+config.subtle_effects.environment.biomes.biomeParticlesRadius.desc,"The radius around the player that biome particles will spawn in
+0 to disable all biome particles (vanilla not included)","プレイヤーの周りでバイオムパーティクルが生成される範囲。
+0ですべてのバイオムパーティクルを無効化（バニラは含まれません）"
+config.subtle_effects.environment.biomes.mushroomSporeBiomes,Mushroom Spore Biomes,キノコの孢子バイオーム
+config.subtle_effects.environment.biomes.mushroomSporeBiomes.desc,A list of biome IDs that mushroom spore particles will spawn in,キノコ胞子粒子が出現するバイオームIDのリスト
+config.subtle_effects.environment.biomes.mushroomSporeDensity,Mushroom Spore Density,キノコ胞子密度
+config.subtle_effects.environment.biomes.mushroomSporeDensity.desc,"The density of spawned mushroom spores in a biome
+0 to disable",バイオーム内に生成されるキノコ胞子の密度
+config.subtle_effects.environment.biomes.pollenBiomes,Pollen Biomes,花粉バイオーム
+config.subtle_effects.environment.biomes.pollenBiomes.desc,A list of biome IDs that pollen particles will spawn in,花粉粒子が出現するバイオームIDのリスト
+config.subtle_effects.environment.biomes.pollenDensity,Pollen Density,花粉密度
+config.subtle_effects.environment.biomes.pollenDensity.desc,"The density of spawned pollen in a biome
+0 to disable",バイオーム内に生成される花粉の密度
+config.subtle_effects.environment.biomes.sculkDustBiomes,Sculk Dust Biomes,スクルックダスト バイオーム
+config.subtle_effects.environment.biomes.sculkDustBiomes.desc,A list of biomes IDs that sculk dust particles will spawn in,スカルドスト dust パーティクルが出現するバイオーム ID のリスト
+config.subtle_effects.environment.biomes.sculkDustDensity,Sculk Dust Density,スクルクダスト密度
+config.subtle_effects.environment.biomes.sculkDustDensity.desc,"The density of spawned sculk dust in a biome
+0 to disable",バイオーム内に生成されるスクルクダストの密度。
+config.subtle_effects.environment.fireflies,Fireflies,蛍
+config.subtle_effects.environment.fireflies.biomesAllowlist,Biomes Allowlist,バイオーム許可リスト
+config.subtle_effects.environment.fireflies.biomesBlocklist,Biomes Blocklist,バイオームブロックリスト
+config.subtle_effects.environment.fireflies.defaultDensity,Default Density,デフォルト密度
+config.subtle_effects.environment.fireflies.dimensionBlocklist,Dimension Blocklist,ディメンションブロックリスト
+config.subtle_effects.environment.fireflies.dimensionBlocklist.desc,List of dimensions fireflies will not spawn in,蛍が出現しないディメンションの一覧
+config.subtle_effects.environment.fireflies.firefliesEnabled,Fireflies Enabled,ホタル有効化
+config.subtle_effects.environment.fireflies.fireflySoundVolume,Firefly Sound Volume,光の虫の音量
+config.subtle_effects.environment.fireflies.fireflySoundVolume.desc,Volume of the buzzing sounds fireflies make,ホタルのブンブン音量です。
+config.subtle_effects.environment.fireflies.fireflyType,FireflyType,光の虫の種類
+config.subtle_effects.environment.fireflies.fireflyType.ORIGINAL,Original,オリジナル
+config.subtle_effects.environment.fireflies.fireflyType.VANILLA,Vanilla,バニラ
+config.subtle_effects.environment.fireflies.habitatBiomeDensity,Habitat Biome Density,生息地バイオーム密度
+config.subtle_effects.environment.fireflies.habitatBiomes,Habitat Biomes,生息地バイオーム
+config.subtle_effects.environment.fireflies.habitatBiomesGroup,Habitat Biomes Group,生息地のバイオームグループ
+config.subtle_effects.environment.fireflies.ignoredSeasons,Ignored Seasons,無視される季節
+config.subtle_effects.environment.fireflies.onlyAllowInHabitatBiomes,Only Allow In Habitat Biomes,生息バイオームのみ許可
+config.subtle_effects.environment.fireflies.onlyAllowInHabitatBiomes.desc,Forces fireflies to only spawn in habitat biomes,ホタルを特定の生息バイオームでのみ出現させる
+config.subtle_effects.environment.fireflies.spawnableBlocks,Spawnable Blocks,生成可能なブロック
+config.subtle_effects.environment.fireflies.spawnableBlocks.desc,List of non solid blocks that fireflies can spawn in/around. Fireflies spawned in habitat biomes will ignore this config,ホタルが生成される/周囲の非固体ブロックのリスト。生息地バイオムで生成されたホタルはこのコンフィグを無視します
+config.subtle_effects.environment.geysers,Geysers,地熱
+config.subtle_effects.environment.geysers.bubbleGeyserActiveTime,Bubble Geyser Active Time,泡の噴水のアクティブ時間
+config.subtle_effects.environment.geysers.bubbleGeyserActiveTime.desc,"Number of ticks a geyser will be active, value will be somewhat randomized",噴水が活動するティック数。値は多少ランダム化されます
+config.subtle_effects.environment.geysers.bubbleGeyserInactiveTime,Bubble Geyser Inactive Time,バブルゲイザー非活性時間
+config.subtle_effects.environment.geysers.bubbleGeyserInactiveTime.desc,"Number of ticks a geyser will be inactive, value will be somewhat randomized",噴水が非活性になるタスク数で、値は多少ランダム化されます
+config.subtle_effects.environment.geysers.bubbleGeyserSoundVolume,Bubble Geyser Sound Volume,泡の噴出音の音量
+config.subtle_effects.environment.geysers.bubbleGeyserSpawnChance,Bubble Geyser Spawn Chance,泡の噴出の出現確率
+config.subtle_effects.environment.geysers.bubbleGeyserSpawnChance.desc,"The chance for a geyser to spawn
+0 to disable",噴水が出現する確率
+config.subtle_effects.environment.geysers.bubbleGeyserSpawnableBlocks,Bubble Geyser Spawnable Blocks,バブル・ゲイザー生成可能ブロック
+config.subtle_effects.environment.geysers.bubbleGeyserSpawnableBlocks.desc,"A list of block IDs that bubble geysers can spawn on, including fluids",バブルジーザーが生成できるブロックIDのリスト（液体含む）
+config.subtle_effects.environment.geysers.bubbleGeysersGroup,Bubble Geysers,泡の噴出
+config.subtle_effects.environment.geysers.flameGeyserActiveTime,Flame Geyser Active Time,炎噴水稼働時間
+config.subtle_effects.environment.geysers.flameGeyserActiveTime.desc,"Number of ticks a geyser will be active, value will be somewhat randomized",噴水が活動するティック数。値は多少ランダム化されます
+config.subtle_effects.environment.geysers.flameGeyserInactiveTime,Flame Geyser Inactive Time,炎の噴出の無効時間
+config.subtle_effects.environment.geysers.flameGeyserInactiveTime.desc,"Number of ticks a geyser will be inactive, value will be somewhat randomized",噴水が非活性になるタスク数で、値は多少ランダム化されます
+config.subtle_effects.environment.geysers.flameGeyserSoundVolume,Flame Geyser Sound Volume,炎の噴水音量
+config.subtle_effects.environment.geysers.flameGeyserSpawnChance,Flame Geyser Spawn Chance,炎の噴水出現確率
+config.subtle_effects.environment.geysers.flameGeyserSpawnChance.desc,"The chance for a geyser to spawn
+0 to disable",噴水が出現する確率
+config.subtle_effects.environment.geysers.flameGeyserSpawnableBlocks,Flame Geyser Spawnable Blocks,炎のゲイザーが発生可能なブロック
+config.subtle_effects.environment.geysers.flameGeyserSpawnableBlocks.desc,"A list of block IDs that flame geysers can spawn on, including fluids",炎噴射器が出現できるブロックIDのリスト（液体も含む）
+config.subtle_effects.environment.geysers.flameGeysersGroup,Flame Geysers,炎の噴出
+config.subtle_effects.environment.geysers.smokeGeyserActiveTime,Smoke Geyser Active Time,煙噴水稼働時間
+config.subtle_effects.environment.geysers.smokeGeyserActiveTime.desc,"Number of ticks a geyser will be active, value will be somewhat randomized",噴水が活動するティック数。値は多少ランダム化されます
+config.subtle_effects.environment.geysers.smokeGeyserInactiveTime,Smoke Geyser Inactive Time,煙の噴出の無効時間
+config.subtle_effects.environment.geysers.smokeGeyserInactiveTime.desc,"Number of ticks a geyser will be inactive, value will be somewhat randomized",噴水が非活性になるタスク数で、値は多少ランダム化されます
+config.subtle_effects.environment.geysers.smokeGeyserSoundVolume,Smoke Geyser Sound Volume,煙の噴水音量
+config.subtle_effects.environment.geysers.smokeGeyserSpawnChance,Smoke Geyser Spawn Chance,煙の噴水出現確率
+config.subtle_effects.environment.geysers.smokeGeyserSpawnChance.desc,"The chance for a geyser to spawn
+0 to disable",噴水が出現する確率
+config.subtle_effects.environment.geysers.smokeGeyserSpawnableBlocks,Smoke Geyser Spawnable Blocks,煙のゲイザーが発生可能なブロック
+config.subtle_effects.environment.geysers.smokeGeyserSpawnableBlocks.desc,"A list of block IDs that smoke geysers can spawn on, including fluids",煙噴射器が出現できるブロックIDのリスト（液体も含む）
+config.subtle_effects.environment.geysers.smokeGeysersGroup,Smoke Geysers,煙の噴出
+config.subtle_effects.environment.geysers.useUpdatedSmoke,Use Updated Smoke,更新された煙を使用
+config.subtle_effects.environment.waterfalls,Waterfalls,滝
+config.subtle_effects.environment.waterfalls.forceSpawnLargeWaterfallParticles,Force Spawn Large Waterfall Particles,大きな滝の粒子を強制生成する
+config.subtle_effects.environment.waterfalls.forceSpawnLargeWaterfallParticles.desc,Should large waterfall particles be visible regardless of the distance from the player,プレイヤーから距離に関係なく、大きな滝の粒子が表示されるべきか
+config.subtle_effects.environment.waterfalls.forceSpawnMediumWaterfallParticles,Force Spawn Medium Waterfall Particles,あなたもチェーンユーザーになることができます
+config.subtle_effects.environment.waterfalls.forceSpawnMediumWaterfallParticles.desc,Should medium waterfall particles be visible regardless of the distance from the player,中程度の滝パーティクルはプレイヤーからの距離に関係なく表示されますか？
+config.subtle_effects.environment.waterfalls.largeWaterfallHeightThreshold,Large Waterfall Height Threshold,大規模滝の高さ閾値
+config.subtle_effects.environment.waterfalls.largeWaterfallHeightThreshold.desc,The height in blocks that waterfalls will be considered large,滝が大きいとみなされるブロック高さ
+config.subtle_effects.environment.waterfalls.largeWaterfallParticleDensity,Large Waterfall Particle Density,大規模滝の粒子密度
+config.subtle_effects.environment.waterfalls.largeWaterfallsEnabled,Large Waterfalls Enabled,大型滝有効化
+config.subtle_effects.environment.waterfalls.largeWaterfallsGroup,Large Waterfalls,大きな滝
+config.subtle_effects.environment.waterfalls.mediumWaterfallHeightThreshold,Medium Waterfall Height Threshold,中程度の滝高さ閾値
+config.subtle_effects.environment.waterfalls.mediumWaterfallHeightThreshold.desc,The height in blocks that waterfalls will be considered medium,滝が中程度とみなされる高さ（ブロック単位）
+config.subtle_effects.environment.waterfalls.mediumWaterfallParticleDensity,Medium Waterfall Particle Density,中程度の滝パーティクル密度
+config.subtle_effects.environment.waterfalls.mediumWaterfallsGroup,Medium Waterfalls,中程度の滝
+config.subtle_effects.environment.waterfalls.randomizeWaterfallParticleRotation,Randomize Waterfall Particle Rotation,水の滝粒子の回転をランダム化
+config.subtle_effects.environment.waterfalls.randomizeWaterfallParticleRotation.desc,Should waterfall particles be rotated randomly,滝のパーティクルはランダムに回転させるべきか
+config.subtle_effects.environment.waterfalls.smallWaterfallsEnabled,Small Waterfalls Enabled,小型滝有効化
+config.subtle_effects.environment.waterfalls.waterfallUpdateFrequency,Waterfall Update Frequency,滝の更新頻度
+config.subtle_effects.environment.waterfalls.waterfallUpdateFrequency.desc,The frequency in ticks that waterfalls will check their validity. This can be a somewhat intense process so higher values are recommended,ウォーターフォールが有効性をチェックする周波数（ティック）。これは非常に激しいプロセスであり、より高い値が推奨されます
+config.subtle_effects.environment.waterfalls.waterfallsEnabled,Waterfalls Enabled,滝有効化
+config.subtle_effects.general,General,一般
+config.subtle_effects.general.allowUsingBlendedRenderType,Allow Using Blended Render Type,ブレンドレンダタイプを使用可能にする
+config.subtle_effects.general.allowUsingBlendedRenderType.desc,Some particles use a custom render type to blend transparency. This can cause visual issues with other mods. This config allows you to disable the custom render type and use the default transparency render type instead.,一部のパーティクルは透明度をブレンドするカスタムレンダータイプを使用します。これは他のModで視覚的な問題を引き起こす可能性があります。このコンフィグにより、カスタムレンダータイプを無効にし、代わりにデフォルトの透明度レンダータイプを使用できます
+config.subtle_effects.general.cullParticlesInUnloadedChunks,Cull Particles In Unloaded Chunks,未読み込みチャンクのパーティクルをカリング
+config.subtle_effects.general.cullParticlesInUnloadedChunks.desc,"Prevents rendering particles in unloaded chunk. This usually doesn't affect anything, unless the server is running slowing",未読み込みチャンク内のパーティクルの描画を防ぎます。これは通常、サーバーの動作が遅い場合を除いて、何も影響しません
+config.subtle_effects.general.disableRandomizedShading,Disable Randomized Shading,ランダムな陰影を無効にする
+config.subtle_effects.general.disableRandomizedShading.desc,Disables the random shading applied to enchantment particles,エンチャントパーティクルに適用されるランダムなシェーディングを無効化します
+config.subtle_effects.general.dripParticlesGroup,Drip Particles,滴下粒子
+config.subtle_effects.general.dropLandInFluidRipples,Drop Land In Fluid Ripples,液体の波紋に陸地をドロップする
+config.subtle_effects.general.dropLandInFluidRipples.desc,When a drop particle lands in a fluid of the same type it will cause a ripple particle,ドロップパーティクルが同じタイプの液体に着地すると、リプルパーティクルが発生します
+config.subtle_effects.general.dropLandSoundVolume,Drop Land Sound Volume,落下地面音量
+config.subtle_effects.general.dropLandSoundVolume.desc,"Volume of the drip sound played when a drop particle lands on the ground or in a fluid. Note, vanilla has sounds for dripstone drop particles and this config will not affect that.
+0 to disable","ドロップパーティクルが地面または流体に着地したときに再生されるドリップ音のボリューム。バニラは鍾乳石ドロップパーティクル用の音を持っており、このコンフィグはそれに影響しません。
+0で無効化"
+config.subtle_effects.general.enableEasterEggs,Enable Easter Eggs,イースターエッグを有効化
+config.subtle_effects.general.enableParticleCulling,Enable Particle Culling,パーティクルの描画を抑制
+config.subtle_effects.general.enchantmentParticlesGroup,Enchantment Particles,エンチャントパーティクル
+config.subtle_effects.general.enchantmentParticlesGroup.desc,Configs for the particles go between bookshelves and enchantment tables,パーティクル設定は、本棚とエンチャントテーブルの間で行われます。
+config.subtle_effects.general.fallenLeavesLifeTime,Fallen Leaves Life Time,落ち葉の寿命
+config.subtle_effects.general.fallenLeavesLifeTime.desc,The amount of time in ticks that fallen leaves will stay on the ground/water before disappearing. Value will be somewhat randomized,落ちた葉が地面/水に留まってから消える時間（ティック）。値は若干ランダム化されます
+config.subtle_effects.general.fireOverlayAlpha,Fire Overlay Alpha,ファイヤーオーバーレイアルファ
+config.subtle_effects.general.fireOverlayAlpha.desc,"Alpha transparency of the fire overlay.
+0.9 is the vanilla value",炎オーバーレイのアルファ透明度。
+config.subtle_effects.general.fireOverlayAlphaWithFireResistance,Fire Overlay Alpha With Fire Resistance,炎オーバーレイアルファ（火耐性付き）
+config.subtle_effects.general.fireOverlayAlphaWithFireResistance.desc,"Alpha transparency of the fire overlay while the Fire Resistance effect is active.
+0.9 is the vanilla value","火炎耐性エフェクトがアクティブ中の火のオーバーレイのアルファ透明度。
+0.9はバニラの値です"
+config.subtle_effects.general.fireOverlayGroup,Fire Overlay,火のオーバーレイ
+config.subtle_effects.general.fireOverlayHeight,Fire Overlay Height,炎オーバーレイの高さ
+config.subtle_effects.general.fireOverlayHeight.desc,"The height on screen for the fire overlay.
+0 is the vanilla value",画面上の火炎オーバーレイの高さです。
+config.subtle_effects.general.fluidDropsEvaporate,Fluid Drops Evaporate,液対の雫の蒸発音
+config.subtle_effects.general.fluidDropsEvaporate.desc,"When a drop particle lands in a fluid of the opposite type, e.g. water into lava, a hiss sound will play and steam particles will appear",ドロップパーティクルが反対のタイプの流体（水から溶岩など）に着地すると、シューという音が再生され、蒸気パーティクルが表示されます
+config.subtle_effects.general.fluidDropsEvaporationVolume,Fluid Drops Evaporation Volume,液対の雫の蒸発音量
+config.subtle_effects.general.fluidDropsEvaporationVolume.desc,The volume of the hiss sound played when a drop particle evaporates,ドロップ粒子が蒸発するときに再生されるヒス音のボリューム
+config.subtle_effects.general.glowingEnchantmentParticles,Glowing Enchantment Particles,光るエンチャントパーティクル
+config.subtle_effects.general.glowingLavaDrops,Glowing Lava Drops,溶岩の雫の音
+config.subtle_effects.general.lavaSparkSmoke,Lava Spark Smoke,溶岩の火花の煙
+config.subtle_effects.general.leavesGroup,Leaves,葉
+config.subtle_effects.general.leavesLandOnGround,Leaves Land On Ground,葉が地面に落ちる
+config.subtle_effects.general.leavesLandOnWater,Leaves Land On Water,葉が水面上に置かれる
+config.subtle_effects.general.leavesLandingOnWaterKeepMomentum,Leaves Landing On Water Keep Momentum,水に着地した葉の運動量を保持
+config.subtle_effects.general.leavesLandingOnWaterKeepMomentum.desc,When leaves land on water they will keep their some of their momentum,葉が水に落ちたとき、ある程度のモーメンタムを保持します
+config.subtle_effects.general.leavesLandingOnWaterRipples,Leaves Landing On Water Ripples,水面に落ちる葉の波紋
+config.subtle_effects.general.leavesLandingOnWaterRipples.desc,When leaves land on water they will cause a ripple particle,葉が水面に落ちると、水しぶきパーティクルを発生させます
+config.subtle_effects.general.mobSkullShaders,Mob Skull Shaders,モブの頭蓋骨シェーダー
+config.subtle_effects.general.mobSkullShaders.desc,"Apply a mob's spectate shader when wearing its skull/head e.g Creeper head makes everything look green.
+No new shaders are added","モブの頭蓋骨/頭をかぶっているときに、モブの観戦シェーダーを適用します(例：クリーパーの頭はすべてを緑色に見せる)。
+新しいシェーダーは追加されません"
+config.subtle_effects.general.nightVisionFading,Night Vision Fading,夜間視覚のぼけ
+config.subtle_effects.general.nightVisionFading.desc,Night vision slowly fades out rather then flashing,ナイトビジョンはフラッシュではなく徐々に消えていきます
+config.subtle_effects.general.nightVisionFadingTime,Night Vision Fading Time,夜間視力の減衰時間
+config.subtle_effects.general.nightVisionFadingTime.desc,The length night vision fading in ticks,ナイトビジョンフェード時間（ティック単位）
+config.subtle_effects.general.particleCullingBlocklist,Particle Culling Blocklist,粒子の削除ブロックリスト
+config.subtle_effects.general.particleCullingBlocklist.desc,"List of particles that will not be culled by the particle culling system. 
+This list should be kept at a minimum and used mainly for particles that break when culled.
+Particles already spawned in a world will not be affected by changes to this config","パーティクルカリング機構によってカリングされないパーティクルのリスト。
+このリストは最小限に保たれるべきで、主にカリングによって壊れるパーティクル用です。
+このコンフィグの変更を受けたワールドに既に生成されたパーティクルは影響を受けません"
+config.subtle_effects.general.particleRenderDistance,Particle Render Distance,パーティクル描画距離
+config.subtle_effects.general.particleRenderDistance.desc,"The maximum number of chunks away from the player a particle will render.
+This does not affect particles spawning/existing in the world only rendering.
+This affects most particles in the game including particles from other mods, some particles however ignore this value e.g. campfire smoke.","プレイヤーからパーティクルが描画される最大チャンク数。
+これは、パーティクルの生成/存在には影響せず、描画のみに影響します。
+これは、他のMODのパーティクルを含むゲーム内のほとんどのパーティクルに影響しますが、焚き火の煙など、この値を無視するパーティクルもあります。"
+config.subtle_effects.general.particleRenderingGroup,Particle Rendering,パーティクルの描画
+config.subtle_effects.general.particlesGroup,Particles,パーティクル
+config.subtle_effects.general.poppingBubbles,Popping Bubbles,弾ける泡のパーティクル
+config.subtle_effects.general.poppingBubblesVolume,Popping Bubbles Volume,弾ける泡の音量
+config.subtle_effects.general.poppingHearts,Popping Hearts,ハートのパーティクル
+config.subtle_effects.general.poppingHearts.desc,Should heart particles play a popping animation before disappearing,ハートのパーティクルは消える前に弾けるアニメーションを再生するか
+config.subtle_effects.general.potionParticleAlpha,Potion Particle Alpha,ポーションパーティクルアルファ
+config.subtle_effects.general.potionParticleAlpha.desc,Alpha transparency value for vanilla potion related particles,バニラポーション関連パーティクルのアルファ透明度値
+config.subtle_effects.general.potionParticleAlphaNearPlayer,Potion Particle Alpha Near Player,プレイヤー近くのポーション粒子アルファ
+config.subtle_effects.general.potionParticleAlphaNearPlayer.desc,"Alpha transparency value for vanilla potion related particles when close to the player, helpful for making them less intrusive",プレイヤーに近いときのバニラのポーション関連パーティクルのアルファ透明度値。それらをより邪魔にならなくするのに役立ちます
+config.subtle_effects.general.rainIncreasesLeavesMovementSpeed,Rain Increases Leaves Movement Speed,雨が葉の移動速度を上げる
+config.subtle_effects.general.rainIncreasesLeavesMovementSpeed.desc,During rain and thunder storms leaves will have increased movement speed,雨や雷雨時、葉は移動速度が増加します。
+config.subtle_effects.general.sparksScale,Sparks Scale,火花のスケール
+config.subtle_effects.general.spellParticlesUseBlendedRenderType,Spell Particles Use Blended Render Type,呪文パーティクルはブレンドレンダタイプを使用
+config.subtle_effects.general.translucentEnchantmentParticles,Translucent Enchantment Particles,半透明エンチャント粒子
+config.subtle_effects.items,Items,アイテム
+config.subtle_effects.items.armadilloBrushParticles,Armadillo Brush Particles,アーマディロブラシパーティクル
+config.subtle_effects.items.armadilloBrushParticles.desc,Should brushing an armadillo spawn particles,アルマジロをブラッシングすると粒子が発生するべきですか？
+config.subtle_effects.items.axeGroup,Axe,斧
+config.subtle_effects.items.axeScrapeParticlesDisplayType,Axe Scrape Particles Display Type,斧スクリーペ粒子表示タイプ
+config.subtle_effects.items.axeStripParticles,Axe Strip Particles,斧で剥いだ時のパーティクル
+config.subtle_effects.items.axeStripParticles.desc,"Display the destroy particle effect when stripping a block with an axe.
+This doesn't affect removing oxidization/wax from copper","斧でブロックを剥いだときに破壊パーティクルを表示します。
+これは銅の酸化/蝋の除去には影響しません"
+config.subtle_effects.items.axeWaxOffParticlesDisplayType,Axe Wax Off Particles Display Type,斧のワックスオフ粒子の表示タイプ。
+config.subtle_effects.items.boneMealUsingParticles,Bone Meal Using Particles,骨粉使用時のパーティクル
+config.subtle_effects.items.boneMealUsingParticles.desc,Should bone meal item particles spawn when using bone meal,骨粉を使用するときに骨粉アイテムのパーティクルを生成するかどうか
+config.subtle_effects.items.bucketsGroup,Buckets,バケツ
+config.subtle_effects.items.flintAndSteelParticles,Flint And Steel Particles,火打石と打ち金使用時のパーティクル
+config.subtle_effects.items.flintAndSteelParticles.desc,"Using flint and steel spawns flame and spark particles when lighting a block on fire e.g campfires, candles. This does not affect placing fire",火打石と打ち金を使用すると、焚き火、ろうそくなど、ブロックに着火するときに炎と火花のパーティクルが発生します。これは火の設置には影響しません
+config.subtle_effects.items.increasedItemBreakParticles,Increased Item Break Particles,アイテム破壊パーティクル増加
+config.subtle_effects.items.increasedItemBreakParticles.desc,Increases the number of item break particles that appear when equipment (e.g. tools/weapons/armor) breaks so the effect is more noticeable,装備（工具/武器/防具など）が壊れたときに表示されるアイテム破壊パーティクルの数を増加させるため、エフェクトがより目立つようになります
+config.subtle_effects.items.itemRarity,Item Rarity,アイテムのレアリティ
+config.subtle_effects.items.itemRarity.colorOverrides,Color Overrides,色の上書き
+config.subtle_effects.items.itemRarity.colorOverrides.desc,Allows for adding additional colors to specified items. If 'Particle Color Type' is set to 'Only Color Overrides' than only the items in this list will have particles,指定したアイテムに色を追加できます。「パーティクルの色」が「色の上書きのみ」に設定されている場合、このリスト内のアイテムにのみパーティクルが適用されます
+config.subtle_effects.items.itemRarity.mixedColorName,Mixed Color Name,混合色の名前
+config.subtle_effects.items.itemRarity.mixedColorName.desc,If 'Particle Color' is set to 'Name Color' when an item with multiple colors in it's name spawns rarity particles they will pick a random color from the item's name,'パーティクルの色'が'名前の色'に設定されている場合、名前の中に複数の色があるアイテムがレアリティパーティクルを生成すると、アイテムの名前からランダムな色を選択します
+config.subtle_effects.items.itemRarity.particleColorType,Particle Color Type,パーティクルの色
+config.subtle_effects.items.itemRarity.particleColorType.NAME_COLOR,Name Color,名前の色
+config.subtle_effects.items.itemRarity.particleColorType.ONLY_COLOR_OVERRIDES,Only Color Overrides,色の上書きのみ
+config.subtle_effects.items.itemRarity.particleColorType.RARITY_COLOR,Rarity Color,レアリティの色
+config.subtle_effects.items.itemRarity.particleColorType.desc,"How the item rarity particles are colored.
+'Name Color' gets the color from the item's name, if the name color is white than it defaults to 'Rarity Color'.
+'Only Color Overrides' will disable particles for all items except for the items specified in 'Color Overrides'","アイテムのレアリティパーティクルをどのように着色するか。
+「名前の色」はアイテムの名前から色を取得します。名前の色が白い場合は「レアリティの色」がデフォルトになります"
+config.subtle_effects.items.itemRarity.particleDensity,Particle Density,パーティクル密度
+config.subtle_effects.items.itemRarity.particleDensity.desc,The density of particles spawning around an item,アイテムの周りに生成されるパーティクルの密度
+config.subtle_effects.items.itemRarity.particleMaxHeight,Particle Max Height,パーティクルの最大高さ
+config.subtle_effects.items.itemRarity.particleMaxHeight.desc,How high item rarity particles float,アイテムレアリティのパーティクルが浮遊する高さ
+config.subtle_effects.items.itemRarity.particleMaxSpeed,Particle Max Speed,パーティクルの最大速度
+config.subtle_effects.items.itemRarity.particleMaxSpeed.desc,How fast item rarity particles should move,アイテムレアリティのパーティクルが移動する速度
+config.subtle_effects.items.itemRarity.particlesDisplayType,Particles Display Type,パーティクル表示タイプ
+config.subtle_effects.items.itemRarity.particlesDisplayType.NOT_COMMON,Not Common Items,コモンアイテム以外
+config.subtle_effects.items.itemRarity.particlesDisplayType.OFF,Off,オフ
+config.subtle_effects.items.itemRarity.particlesDisplayType.ON,On,オン
+config.subtle_effects.items.itemRarity.particlesDisplayType.desc,Adds colored particles that float up from items on the ground.,地面にあるアイテムから浮遊する色付きのパーティクルを追加します。
+config.subtle_effects.items.itemRarity.useItemBorder,Use Item Border,アイテムの境界線
+config.subtle_effects.items.itemRarity.useItemBorder.desc,"Use the item's border color if the item doesn't have a name color
+
+§6Note:§r
+Item Borders needs to be installed","アイテムに名前の色がない場合、アイテムの境界線の色を使用します
+
+§6注:§r
+Item Borders Modをインストールする必要があります"
+config.subtle_effects.items.lavaBucketUseParticles,Lava Bucket Use Particles,溶岩バケツ使用時のパーティクル
+config.subtle_effects.items.lingeringPotionClouds,Lingering Potion Clouds,残留ポーション雲
+config.subtle_effects.items.lingeringPotionClouds.desc,Replaces the vanilla bubble swirl particles with wispy clouds,バニラの泡旋回パーティクルを薄い雲に置き換えます
+config.subtle_effects.items.powderSnowBucketUseParticles,Powder Snow Bucket Use Particles,粉雪バケツ使用時のパーティクル
+config.subtle_effects.items.projectiles,Projectiles,射出物
+config.subtle_effects.items.projectiles.eggSmashSoundVolume,Egg Smash Sound Volume,卵の割れる音の音量
+config.subtle_effects.items.projectiles.eggSmashSoundVolume.desc,The volume of the egg break sound when a thrown egg hits something,投げた卵が何かに当たったときの卵の割れる音の音量
+config.subtle_effects.items.projectiles.eggSplatParticles,Egg Splat Particles,卵のスプラッシュ粒子
+config.subtle_effects.items.projectiles.eggSplatParticles.desc,Should egg splat particles spawn when breaking an egg,卵を破壊したときに卵スプラット粒子が出現するか
+config.subtle_effects.items.projectiles.enderPearlTrail,Ender Pearl Trail,エンダーパール軌跡
+config.subtle_effects.items.projectiles.snowballGroup,Snowball,雪玉
+config.subtle_effects.items.projectiles.snowballPoofSoundVolume,Snowball Poof Sound Volume,雪玉の「プフ」音の音量
+config.subtle_effects.items.projectiles.snowballPoofsHaveSnowflakes,Snowball Poofs Have Snowflakes,スノーボールのポフに雪片が付く
+config.subtle_effects.items.projectiles.snowballTrailDensity,Snowball Trail Density,雪玉の軌跡密度
+config.subtle_effects.items.projectiles.snowballTrailDensity.desc,"The density of the snowball particle trail.
+0 to disable","雪玉のパーティクル軌跡の密度。
+0で無効"
+config.subtle_effects.items.projectiles.xpBottleParticlesDensity,XP Bottle Particles Density,経験値瓶のパーティクル密度
+config.subtle_effects.items.projectiles.xpBottleParticlesDensity.desc,Does not change the vanilla particle effect,バニラのパーティクル効果は変更しません
+config.subtle_effects.items.projectiles.xpBottleParticlesDisplayType,XP Bottle Particles Display Type,経験値瓶のパーティクル表示タイプ
+config.subtle_effects.items.splashPotionClouds,Splash Potion Clouds,スプラッシュポーションの雲
+config.subtle_effects.items.splashPotionClouds.desc,Replaces the vanilla bubble swirl particles with poofy clouds,ベリファンバブルスワールパーティクルをふわふわ雲に置き換えます
+config.subtle_effects.items.structureVoidItemMarker,Structure Void Item Marker,構造の虚空アイテムマーカー
+config.subtle_effects.items.structureVoidItemMarker.desc,"Makes placed structure voids display similar to placed barriers, where if the player is holding a structure void item other structure voids in the world will be visible",配置されたストラクチャーボイドが配置されたバリアと同様に表示されるようにします。プレイヤーがストラクチャーボイドアイテムを持っている場合、ワールドの他のストラクチャーボイドが表示されます
+config.subtle_effects.items.waterBucketUseParticles,Water Bucket Use Particles,水のバケツ使用時の粒子
+config.subtle_effects.items.waterEvaporateFromBucketSteam,Water Evaporate From Bucket Steam,バケツから蒸発する水の蒸気
+config.subtle_effects.items.waterEvaporateFromBucketSteam.desc,Replaces the smoke particles with steam when water evaporates from a bucket in the nether,ネザーでバケツから水が蒸発するときに煙パーティクルを蒸気に置き換えます
+config.subtle_effects.replacedParticlesDisplayType.BOTH,Both,両方
+config.subtle_effects.replacedParticlesDisplayType.DEFAULT,Default,デフォルト
+config.subtle_effects.replacedParticlesDisplayType.VANILLA,Vanilla,バニラ
+config.subtle_effects.smokeType.DEFAULT,Default,デフォルト
+config.subtle_effects.smokeType.OFF,Off,オフ
+config.subtle_effects.smokeType.UPDATED,Updated,更新
+resourcePack.subtle_effects.biome_water_color_particles.description,Water particles match biome water color,水パーティクルがバイオームの水の色に一致
+resourcePack.subtle_effects.biome_water_color_particles.name,Biome Water Color Particles,バイオーム水色パーティクル
+subtitles.subtle_effects.block.campfire.sizzle,Campfire Sizzles,焚き火のパチパチ音
+subtitles.subtle_effects.block.cauldron.clean_item,Item cleaned,アイテムが洗浄されました
+subtitles.subtle_effects.block.lava.drip,Lava drips,溶岩が滴る
+subtitles.subtle_effects.block.lava.drip_into_fluid,Lava drips into fluid,溶岩が液体に滴る
+subtitles.subtle_effects.block.water.drip,Water drips,水が滴る
+subtitles.subtle_effects.block.water.drip_into_fluid,Water drips into fluid,水が液体に滴る
+subtitles.subtle_effects.entity.axolotl.eat,Axolotl eats,アキラトールが食べます
+subtitles.subtle_effects.entity.bee.eat,Bee eats,ミツバチが食べます
+subtitles.subtle_effects.entity.chicken.eat,Chicken eats,鶏が食べます
+subtitles.subtle_effects.entity.cow.eat,Cow eats,ウシが食べます
+subtitles.subtle_effects.entity.egg.break,Egg Smashes,卵が割れる音
+subtitles.subtle_effects.entity.hoglin.eat,Hoglin eats,ホグリンが食べる
+subtitles.subtle_effects.entity.ocelot.eat,Ocelot eats,オセロットが食べる
+subtitles.subtle_effects.entity.player.heartbeat,Heart Beating,心臓の鼓動
+subtitles.subtle_effects.entity.player.snore,Player Snores,プレイヤーのいびき
+subtitles.subtle_effects.entity.player.stomach_growl,Stomach Growls,お腹の虫の音
+subtitles.subtle_effects.entity.rabbit.eat,Rabbit eats,ウサギが食べる
+subtitles.subtle_effects.entity.sheep.eat,Sheep eats,羊が食べる
+subtitles.subtle_effects.entity.snowball.poof,Snowball poofs,雪玉のぼう
+subtitles.subtle_effects.entity.tadpole.eat,Tadpole eats,トロールが食べます
+subtitles.subtle_effects.entity.turtle.eat,Turtle eats,ウミガメが食べる
+subtitles.subtle_effects.entity.villager.snore,Villager Snores,村人のいびき
+subtitles.subtle_effects.environment.firefly.buzz,Fireflies buzz,蛍のブズ
+subtitles.subtle_effects.environment.geyser.hiss,Geyser hisses,噴出音
+subtitles.subtle_effects.environment.geyser.whoosh,Geyser whooshing,ジオサーカーの音
+ui.subtle_effects.hud.particle_count,Particles: %s,粒子: %s

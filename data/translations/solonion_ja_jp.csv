@@ -1,0 +1,59 @@
+﻿key,source_text,target_text
+command.solonion.clear.success,Food list reset!,フードリストがリセットされました！
+command.solonion.diversity_feedback,Food Diversity: %.2f,食料の多様性: %.2f
+command.solonion.no_permissions,You do not have the permissions necessary to apply this command to other players!,他のプレイヤーにこのコマンドを適用する権限がありません！
+command.solonion.origin.cleared,All cached origins cleared!,すべてのキャッシュされた起点がクリアされました！
+command.solonion.origin.inapplicable,Origins mod not installed. Cleared origin data anyway.,Origins modがインストールされていません。オリジンデータは無視してクリアしました。
+command.solonion.origin.invalidated,Cached origin for player reset!,プレイヤーリセット用オリジンをキャッシュしました！
+command.solonion.sync.success,Food list synchronized!,食料リストを同期しました！
+config.solonion.addition,Add,追加
+config.solonion.att,Attribute,属性
+config.solonion.complexityBenefitEffectModifier.comment,"How much complexity is added per positive effect (including level) to the food.
+The chance of the effect will be considered.","ポジティブなエフェクト（レベル含む）1つあたり食べ物に追加される複雑度。
+エフェクトの発生確率も考慮されます。"
+config.solonion.complexityHarmEffectModifier.comment,"How much complexity is added per negative effect (including level) to the food.
+The chance of the effect will be considered.","ネガティブなエフェクト（レベル含む）1つあたり食べ物に追加される複雑度。
+エフェクトの発生確率も考慮されます。"
+config.solonion.complexityNeutralEffectModifier.comment,"How much complexity is added per neutral effect (including level) to the food.
+The chance of the effect will be considered.","ニュートラルなエフェクト（レベル含む）1つあたり食べ物に追加される複雑度。
+エフェクトの発生確率も考慮されます。"
+config.solonion.complexityStandardNutrition.comment,"By default this is the nutration value of bread.
+Every food is compared to it and calculated accordingly.","デフォルトではパンの栄養値です。
+すべての食べ物はこれと比較され、それに応じて計算されます。"
+config.solonion.complexityStandardSaturation.comment,"By default this is the saturation value of bread.
+Every food is compared to it and calculated accordingly.","デフォルトではパンの飽和度です。
+すべての食べ物はこれと比較され、それに応じて計算されます。"
+config.solonion.eff,Mob Effect,モブエフェクト
+config.solonion.minFoodsToActivate.comment,The minimum number of foods a player needs to eat before any benefits are applied.,プレイヤーが利益を得る前に食べなければならない最低限の食品量。
+config.solonion.multiply_base,Mulitply Base,乗算基底
+config.solonion.multiply_total,Mulitply Total,総数を倍増
+config.solonion.trackCount.comment,"How many foods should be tracked.
+ Note that the larger this is, the higher your potential diversity value can be, so keep this mind
+ if you are defining custom thresholds/benefits above.","追跡する食べ物の数。
+これが大きいほど、潜在的な多様性の値が高くなる可能性があるため、上記でカスタム閾値/利点を定義する場合はこの点に留意してください。"
+gui.solonion.food_book.active_benefits_header,Active Benefits,アクティブなメリット
+gui.solonion.food_book.benefits.active_tooltip,"Because your food diversity is greater than this threshold, this benefit is active.",あなたの食物多様性がこの閾値を超えているので、この恩恵は有効です
+gui.solonion.food_book.benefits.inactive_tooltip,"If your food diversity becomes greater than this threshold, this benefit will activate.",食べ物の多様性がこの閾値を超えると、 この恩恵が発動します。
+gui.solonion.food_book.benefits.threshold_label,Threshold,閾値
+gui.solonion.food_book.food_queue_label,Food Eaten,食べた食品
+gui.solonion.food_book.food_queue_tooltip,A list of all foods eaten in the past that contribute to your food diversity.,過去に食べたすべての食品のリストで、あなたの食物多様性に寄与したものです
+gui.solonion.food_book.fraction,%1$s/%2$s,%1$s/%2$s
+gui.solonion.food_book.inactive_benefits_header,Inactive Benefits,無効化された恩恵
+gui.solonion.food_book.stats,Overview,概要
+gui.solonion.food_book.stats.current_diversity,Current Food Diversity,現在の食料多様性
+gui.solonion.food_book.stats.min_warning1,Need to eat %d more times,%d回さらに食べる必要があります
+gui.solonion.food_book.stats.min_warning2,to activate benefits,利益を有効にするためには
+gui.solonion.tooltip.disabled,This food does not contribute to food diversity.,この食べ物は食糧多様性には寄与しない
+gui.solonion.tooltip.diversity,Diversity,多様性
+gui.solonion.tooltip.last_eaten,Last eaten: %d meals ago,最後に食べたのは%d回分前
+gui.solonion.tooltip.last_eaten_singular,Last eaten: %d meal ago,最後に食べた: %d 食事前
+item.solonion.container.golden_lunchbox,Golden Lunchbox,ゴールデンランチボックス
+item.solonion.container.lunchbag,Lunchbag,ランチバッグ
+item.solonion.container.lunchbox,Lunchbox,ランチボックス
+item.solonion.container.open,%s + %s to open,%s + %sで開く
+item.solonion.food_book,Food Book,フードブック
+item.solonion.golden_lunchbox,Golden Lunchbox,ゴールデンランチボックス
+item.solonion.lunchbag,Lunchbag,ランチバッグ
+item.solonion.lunchbox,Lunchbox,ランチボックス
+key.solonion.category,Spice of Life Onion,生活のスパイス オニオン
+key.solonion.open_food_book,Open Food Book,食べ物ブックを開く

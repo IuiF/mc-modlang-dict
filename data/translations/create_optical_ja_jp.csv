@@ -1,0 +1,104 @@
+﻿key,source_text,target_text
+block.create_optical.absorption_polarizing_filter,Absorption Polarizing Filter,吸収極化フィルター
+block.create_optical.beam_condenser,Beam Condenser,光線凝縮器
+block.create_optical.beam_focuser,Beam Focuser,ビーム・フォーカス器
+block.create_optical.encased_mirror,Encased Mirror,封印された鏡
+block.create_optical.heavy_optical_receptor,Heavy Optical Receptor,重い光学受容体
+block.create_optical.optical_receptor,Optical Receptor,光学受容体
+block.create_optical.optical_sensor,Optical Sensor,光学センサー
+block.create_optical.optical_source,Optical Source,光学ソース
+block.create_optical.polarizing_beam_splitter_block,Polarizing Beam Splitter Block,極化ビームスプリッターブロック
+create.create_optical.beam_type.type.gamma,Gamma Ray,ガンマ線
+create.create_optical.beam_type.type.microwave,Microwaves,マイクロ波
+create.create_optical.beam_type.type.radio,Radio Waves,ラジオ波
+create.create_optical.beam_type.type.range,Block Range:,ブロック範囲:
+create.create_optical.beam_type.type.visible,Visible Light,見える光
+create.create_optical.gui.goggles.beam_type,Beam Type:,ビームタイプ:
+create.create_optical.gui.goggles.optical_sensor.mode,Mode,モード
+create.create_optical.gui.goggles.optical_sensor.mode.color,Color,色
+create.create_optical.gui.goggles.optical_sensor.mode.digital,Digital,デジタル
+create.create_optical.gui.goggles.optical_sensor.mode.intensity,Intensity,強度
+create.create_optical.gui.goggles.polarization,Polarization:,分極化:
+create.create_optical.gui.goggles.propagation_range,Propagation Range:,拡散範囲:
+create.create_optical.polarization.diagonal_negative,Negative Diagonal,負の対角
+create.create_optical.polarization.diagonal_positive,Positive Diagonal,正の対角
+create.create_optical.polarization.horizontal,Horizontal,横
+create.create_optical.polarization.random,Random,ランダム
+create.create_optical.polarization.vertical,Vertical,縦
+create.create_optical.recipe.required_beam_type.gamma,Require gamma rays,ガンマ線が必要
+create.create_optical.recipe.required_beam_type.microwave,Require microwaves,マイクロ波を必要とする
+create.create_optical.recipe.required_beam_type.none,No beam type required,ビームタイプは不要
+create.create_optical.recipe.required_beam_type.radio,Require radio waves,ラジオ波が必要
+create.create_optical.recipe.required_beam_type.visible,Require visible light,可視光が必要
+create_optical.ponder.opticals.base.header,Transmitting Rotational Force with Light,光を使って回転力の伝送を行います
+create_optical.ponder.opticals.base.text_1,Optical sources transform rotational force into light,光学源は回転力を光に変換します
+create_optical.ponder.opticals.base.text_2,Optical receptors can transform the received light into rotational force,光を受信した際に光を回転力へ変換できる光学レセプター
+create_optical.ponder.opticals.base.text_3,"Tinted glass, non-transparent blocks and entities can block the light",着色ガラス、非透明ブロックおよびエンティティは光を遮断します
+create_optical.ponder.opticals.beam_focuser.header,Beam Focuser,ビーム・フォーカス器
+create_optical.ponder.opticals.beam_focuser.text_1,Optical focuser can process items with incident light and rotational power,光学フォーカサーは入射光と回転力でアイテムを処理できます。
+create_optical.ponder.opticals.beam_focuser.text_2,"This component needs a incident beam to work properly, you'll need to control the beam type of the source to process certain items",このコンポーネントは正常に機能するために入射ビームが必要です。特定のアイテムを処理するには、ソースのビームタイプを制御する必要があります
+create_optical.ponder.opticals.beam_focuser.text_3,Some recipes need specific items to operate with the required mode,一部のレシピでは、必要なモードで動作するために特定のアイテムが必要です
+create_optical.ponder.opticals.beam_types.header,Propagating Different Types of Light,異なるタイプの光を広げる
+create_optical.ponder.opticals.beam_types.text_1,Optical sources can propagate different types of light depending on the given rotational force,光学源は回転力によって異なる種類の光を伝播させることができます
+create_optical.ponder.opticals.beam_types.text_2,The beam types are:,ビームタイプは：
+create_optical.ponder.opticals.beam_types.text_3,"Radio Waves,",ラジオ波、
+create_optical.ponder.opticals.beam_types.text_4,"Microwaves,",マイクロ波、
+create_optical.ponder.opticals.beam_types.text_5,"Visible Light,",可視光
+create_optical.ponder.opticals.beam_types.text_6,and Gamma Ray,およびガンマ線
+create_optical.ponder.opticals.beam_types.text_7,"Higher the frequency, lower the range of the beam.",周波数が高いほどビームの射程が短くなる
+create_optical.ponder.opticals.beam_types.text_8,"Caution with higher frequencies, entities can be hurt by the beam.",高周波数では注意してください。ビームによってエンティティが傷つく可能性があります。
+create_optical.ponder.opticals.condenser.header,Condenser and Receptor's heaviness,コンデンサーと受信器の重さ
+create_optical.ponder.opticals.condenser.text_1,Optical Condensers can combine up to three beams simultaneously.,光学コンデンサーは同時に最大3つのビームを結合できます
+create_optical.ponder.opticals.condenser.text_10,This is a heavy optical receptor. It works more like the light receptor but this one supports more stress.,これは重いオプティカルレセプターです。光レセプターのように機能しますが、このモデルはより大きなストレスに対応しています。
+create_optical.ponder.opticals.condenser.text_11,The speed of this component goes as one third of the speed of the incident beam.,このコンポーネントの速度は、インシデントビーム速度の三分の一です
+create_optical.ponder.opticals.condenser.text_2,The resultant beam acts exactly like a normal beam. But its initial properties follow these criteria:,結果のビームは通常のビームと完全に同じように機能します。ただし、その初期特性は次の基準に従います：
+create_optical.ponder.opticals.condenser.text_3,"Speed is the sum of the beam intensity velocities,",速度はビーム強度ベロシティの合計であり、
+create_optical.ponder.opticals.condenser.text_4,"Beam Type and speed direction is the same of the higher beam,",ビームタイプと速度方向は、より高いビームと同じです。
+create_optical.ponder.opticals.condenser.text_5,"Visibility depends if there's at least one visible beam composing it,",可視性は、少なくとも1つの可視ビームが構成されているかどうかに依存します。
+create_optical.ponder.opticals.condenser.text_6,Polarization and color follow the composing system.,偏光と色は構成システムに従います。
+create_optical.ponder.opticals.condenser.text_7,"Composing system means that the components can compose a different result than itself. Different colors create a white resultant beam, same colors create a beam with the specific color. ",合成システムとは、コンポーネントが独自の結果と異なる結果を合成できることを意味します。異なる色は白い結果のビームを作成し、同じ色は特定の色のビームを作成します。
+create_optical.ponder.opticals.condenser.text_8,The same goes to the polarization property.,偏光プロパティも同様です
+create_optical.ponder.opticals.condenser.text_9,To transform really fast beams into rotational force you'll need a greater receptor,高速ビームを回転力に変換するには、より大きな受容体が必要です。
+create_optical.ponder.opticals.mirror.header,Propagating Beams through mirrors,ミラーを通じてビームを拡散
+create_optical.ponder.opticals.mirror.text_1,Encased mirrors can propagate the incident beam perpendicularly.,エンケイスドミラーは入射ビームを垂直方向に伝搬させます
+create_optical.ponder.opticals.mirror.text_2,You can rotate it to make the beam propagate wherever you want,ビームが任意の方向へ伝播するよう回転させることができます
+create_optical.ponder.opticals.polarizing_cube.header,Polarizing Cube,極化キューブ
+create_optical.ponder.opticals.polarizing_cube.text_1,Polarizing Beam Splitter blocks can split the beam in two polarized beams.,偏光ビームスプリッターブロックはビームを二つの偏光ビームに分割できます。
+create_optical.ponder.opticals.polarizing_cube.text_2,One of them will propagate straight and be vertically polarized.,そのうち1つがまっすぐ進み、垂直偏光になります
+create_optical.ponder.opticals.polarizing_cube.text_3,The other one of them will propagate perpendicularly and be horizontally polarized.,もう一方は垂直に伝播し、水平方向に偏光されます。
+create_optical.ponder.opticals.polarizing_filter.header,Polarizing Filter,極化フィルター
+create_optical.ponder.opticals.polarizing_filter.text_1,"Propagated beams have certain properties. One of them, is the polarization.",伝播ビームにはいくつかの特性があります。そのうちの一つが偏光です。
+create_optical.ponder.opticals.polarizing_filter.text_2,This receptor is receiving a randomly polarized beam. This means that the beam is not oscillating in a preferred direction.,このレセプターはランダムに偏光したビームを受信しています。これは、ビームが優先方向で振動していないことを意味します。
+create_optical.ponder.opticals.polarizing_filter.text_3,Polarizing filters can change the polarization of the beam and its intensity.,偏光フィルタはビームの偏光と強度を変えることができます。
+create_optical.ponder.opticals.polarizing_filter.text_4,"Regardless of the direction of polarization, if the ray is randomly polarized it will always reduce its intensity by half.",偏光の方向に関わらず、光線がランダムに偏光している場合、強度は常に半分に低下します。
+create_optical.ponder.opticals.polarizing_filter.text_5,You can combine polarizing filters to get your desired intensity. Keep in mind that polarizing a beam perpendicularly will nullify its intensity.,偏光フィルターを組み合わせて、目的の強度を得ることができます。ビームを垂直に偏光させると、その強度が無効になることに注意してください。
+create_optical.ponder.opticals.polarizing_filter.text_6,The initial polarization can be configured in the source panel.,初期偏光はソースパネルで設定できます。
+create_optical.ponder.opticals.sensor.header,Sensor,センサー
+create_optical.ponder.opticals.sensor.text_1,Optical sensors emits redstone signal if a beam hits it.,光学センサーはビームが当たるとレッドストーン信号を発生させます。
+create_optical.ponder.opticals.sensor.text_2,You can change the criteria of the redstone level mapping by shift + right click.,レッドストーンレベルマッピングの基準を変更するには、シフト + 右クリックしてください。
+create_optical.ponder.opticals.sensor.text_3,The intensity mode makes a reduction based on the intensity of the incident beam.,強度モードは、ビームの強度に応じて減少します。
+create_optical.ponder.opticals.sensor.text_4,The color mode maps a specific color to an specific color.,カラー モードは特定の色を別の色にマッピングします。
+create_optical.ponder.opticals.sensor.text_5,"The digital mode make the block full signal if there is a beam incident, if it don't have, then zero redstone signal.",デジタルモードでは、入射ビームがある場合、ブロックは完全な信号を送信し、ない場合はゼロレッドストーン信号を送信します。
+create_optical.ponder.opticals.sensor.text_6,The block also absorb the color of the beam and produces light.,ブロックはビームの色も吸収し、光を発します。
+create_optical.ponder.tag.opticals,Optical Components,光学部品
+create_optical.ponder.tag.opticals.description,Components which work with optical beams.,光線と連携するコンポーネント。
+death.attack.create_optical.gamma_ray,%1$s received a high dose of gamma rays,%1$s にガンマ線の高量が照射されました
+item.create_optical.copper_coil,Copper Coil,銅のコイル
+item.create_optical.golden_coil,Golden Coil,金色の線
+item.create_optical.incomplete_copper_coil,Incomplete Copper Coil,未完成の銅コイル
+item.create_optical.incomplete_golden_coil,Incomplete Golden Coil,未完成の金コイル
+item.create_optical.incomplete_mirror,Incomplete Mirror,不完全な鏡
+item.create_optical.incomplete_optical_device,Incomplete Optical Device,未完成の光学装置
+item.create_optical.incomplete_polarizing_filter,Incomplete Polarizing Filter,未完成の極化フィルター
+item.create_optical.incomplete_rose_quartz_catalyst_coil,Incomplete Rose Quartz Catalyst Coil,不完全なローズクォーツカタリシスコイル
+item.create_optical.mirror,Mirror,ミラー
+item.create_optical.optical_device,Optical Device,光学装置
+item.create_optical.polarizing_filter,Polarizing Filter,極化フィルター
+item.create_optical.rose_quartz_catalyst_coil,Rose Quartz Catalyst Coil,ローズクォーツキャタリストコイル
+itemGroup.create_optical.co_base,Optical Tab,光学タブ
+recipe.create_optical.focusing,Focusing,焦点
+recipe.create_optical.focusing.sequence,Sequenced Focusing,シーケンスフォーカシング
+tooltip.create_optical.gui.behaviour.optical_source,Propagated Beam Polarization,拡散されたビームの極化
+tooltip.create_optical.gui.goggles.absorption_polarizing_filter,Polarizing Filter Stats:,極化フィルターのステータス:
+tooltip.create_optical.gui.goggles.beam_properties,Beam Properties:,ビーム特性:
+tooltip.create_optical.gui.goggles.optical_sensor,Optical Sensor Properties:,光学センサーのプロパティ:

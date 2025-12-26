@@ -1,0 +1,19 @@
+﻿key,source_text,target_text
+tile.huntingdim.frame.name,Hunting Dimension Frame,狩猟ディメンションフレーム
+tile.huntingdim.portal.name,Hunting Dimension Portal,狩りの次元ポータル
+item.huntingdim.biome.changer.name,Creeping Moss,爬行苔
+itemGroup.huntingdim,Hunting Dimension,狩猟のディメンション
+tooltip.huntingdim.biome.invalid,Invalid biome! No biome found for id,無効なバイオームです！IDに対応するバイオームが見つかりません。
+chat.huntingdim.changer.invalid.dim,This item can only change biomes in the hunting dimension.,このアイテムは狩猟ディメンションでのみバイオームを変更できる。
+chat.huntingdim.changer.biome.exists,This biome is already the type you're trying to change it to.,このバイオームは既に変更しようとしているタイプです。
+chat.huntingdim.changer.set.self,The biome of the moss has been set to %s.,苔のバイオームは%sに設定されました。
+chat.huntingdim.changer.set.world,The biome of the chunk has been set to %s.,チャンクのバイオームが%sに設定されました。
+chat.huntingdim.changer.set.invalid,Invalid biome selected. Please change the biome of the moss by sneak clicking.,無効なバイオームが選択されています。スニーククリックで苔のバイオームを変更してください。
+chat.huntingdim.teleporter.canceled,Another mod is preventing access to the hunting dimension.,別のモッドが狩猟ディメンションへのアクセスを妨げている。
+chat.huntingdim.teleporter.mounted,Mounted entities can not travel to the hunting dimension.,装着されたエンティティは狩猟ディメンションへ移動できません
+chat.huntingdim.teleporter.invalid.player,"You are an invalid entity, and can not travel through the portal!",あなたは無効なエンティティであり、ポータルを通過できません！
+jei.tile.huntingdim.frame,"The frame block for creating a portal to the hunting dimension. The construction and shape requirements are the same as the nether portal. The portal is activated by right clicking on it with a sword, bow, or flint and steel. To go through this portal you need to sneak.",ハンティング次元へのポータルを作成するためのフレームブロック。ネザーポータルと同じ構造・形状が必要。剣、弓、または火打石と鋼で右クリックするとポータルが有効化される。このポータルを通過するにはスニークが必須。
+jei.tile.huntingdim.portal,The portal to the hunting dimension. To go through this portal you need to sneak.,狩猟ディメンションへのポータル。このポータルを通過するには、スニークが必要です。
+jei.item.huntingdim.biome.changer,"This moss allows for the biome of a chunk in the hunting dimension to be changed. Sneaking while right clicking with the moss will set the moss's biome type to the biome you are currently in. Right clicking normally with the moss, while in the hunting dimension will change the biome of the current chunk to the biome represented by the moss. This will ONLY work in the hunting dimension.",この苔ブロックはハンティング次元のチャンク内のバイオームを変更できる。苔ブロックをスニークしながら右クリックすると、その苔ブロックのバイオームタイプが現在いるバイオームに設定される。苔ブロックを通常の右クリック（ハンティング次元内）すると、現在のチャンクのバイオームがその苔ブロックで表現されるバイオームに変更される。このアイテムはハンティング次元内でのみ機能する。
+debug.huntingdim.pack,Packed %d items to %s,%dアイテムを%sに詰めました
+debug.huntingdim.unpack,Unpacked %d items from %s,%d 個のアイテムを %s からアンパックしました

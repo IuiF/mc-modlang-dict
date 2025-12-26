@@ -1,0 +1,62 @@
+﻿key,source_text,target_text
+_comment,------------------------------------------------ MOD INTEGRATION -------------------------------------------------!,================================================ MOD統合 =================================================
+block.platforms.flat,Platform,プラットフォーム
+block.platforms.floor,Floor,床
+block.platforms.frame,Frame,フレーム
+block.platforms.platformer,PlatFormer,プラットフォーマー
+block.platforms.rail,Handrail,手すり
+block.platforms.ramp,Ramp,斜面
+block.platforms.rise,Rise,上昇
+block.platforms.shingles,Shingled Roof,スレート屋根
+block.platforms.stairs,Stairs,階段
+block.platforms.steps,Steps,ステップ
+block.platforms.tiles,Tile Roof,屋根タイル
+config.waila.plugin_platforms,Platforms,プラットフォーム
+config.waila.plugin_platforms.hud,Enable Plugin,プラグインを有効化
+gui.platforms.platformer.basic,"Storage In, Buffer & Craft Out",イン、バッファ＆クラフトアウト
+gui.platforms.platformer.button.select.info,Platform Selector; cycles between the available platform type.,プラットフォームセレクタ；利用可能なプラットフォームタイプ間でサイクルします。
+gui.platforms.platformer.decon,Deconstruction In/Out,分解入出力
+gui.platforms.platformer.output,Buffer & Craft Out,バッファ＆クラフトアウト
+gui.platforms.platformer.preview.info,Platform Preview; rendering of the final product.,プラットフォームプレビュー；最終製品のレンダリング
+gui.platforms.platformer.slot.buffer.info,Output Buffer; used as temporary storage for automation. This must be empty before more can be crafted.,出力バッファ；自動化用の一時保存に使用されます。さらに作成する前に空である必要があります。
+gui.platforms.platformer.slot.craft.info,Craft Output; if materials needed are available click here to craft.,クラフト出力；必要な材料が揃っていればここをクリックしてクラフトしてください。
+gui.platforms.platformer.slot.decon.info,Deconstruction; platforms can be broken down here. Stack size must be equal or greater to the amount received when crafting.,分解；プラットフォームをここで分解できます。スタック数は作成時に得られた数量以上である必要があります。
+gui.platforms.platformer.slot.material.info,Material Choice; defines look and material used.,素材選択；見た目と使用する素材を定義します。
+gui.platforms.platformer.slot.storage.info,Storage; used to store materials needed for crafting.,ストレージ；クラフトに必要な素材を保管します。
+gui.platforms.platformer.storage,Storage In/Out,ストレージ入出力
+gui.platforms.wrench.edit.apply,Apply All,すべて適用
+gui.platforms.wrench.edit.apply.info,"Apply all changes, and close GUI",全変更を適用し、GUI を閉じる
+gui.platforms.wrench.edit.direction,Change Facing Direction,向きを変更
+gui.platforms.wrench.edit.place.info,"On Apply;
+  Places this platform from inventory into available spaces
+ If Remove is also toggled;
+  Platforms of this type but with different textures will be replaced instead","適用時；
+在庫からこのプラットフォームを利用可能なスペースに配置します
+削除も有効な場合；
+このタイプですが異なるテクスチャのプラットフォームを置換します"
+gui.platforms.wrench.edit.remove.info,"On Apply;
+  Remove this platform type from the selected area
+ If Place is also toggled;
+  Platforms of this type but with different textures will be replaced instead","適用時；
+選択された領域からこのプラットフォームタイプを削除します
+配置も有効な場合；
+このタイプですが異なるテクスチャのプラットフォームを置換します"
+gui.platforms.wrench.edit.revert,Revert Changes,変更を元に戻す
+gui.platforms.wrench.select.back,§7§lBack:§r Left Arrow / Scroll Up,§7§l戻る:§r 左矢印 / スクロールアップ
+gui.platforms.wrench.select.first,§7§lInitial Option:§r Space,§7§l初期オプション:§r スペース
+gui.platforms.wrench.select.next,§7§lNext:§r Right Arrow / Scroll Down,§7§l次:§r 右矢印 / ショートダウン
+gui.platforms.wrench.select.save,§7§lSelect:§r Enter / Right Click,§7§l選択:§r Enter / Right Click
+info.platforms.addon,§6Rail:§7§o,§6レール:§7§o
+info.platforms.base,§6Base:§7§o,§6ベース:§7§o
+info.platforms.particle.disabled,Particles: Disabled,パーティクル: 無効化
+info.platforms.particle.enabled,Particles: Enabled,パーティクル：有効化
+info.platforms.particle.with_redstone,Particles: Redstone Enabled,パーティクル: レッドストーン有効化
+info.platforms.particle.without_redstone,Particles: Redstone Disabled,粒子: レッドストーン無効
+info.platforms.wrench.tooltip,displays placement guide,配置ガイドを表示
+info.platforms.wrench.tooltip2,"Platform placement guide shown 
+when holding the wrench in offhand 
+and holding a platform in main hand","プラットフォーム配置ガイドが表示されます
+レンチを左手に
+メイン手にプラットフォームを持っているとき"
+item.platforms.wrench,Monkey Wrench,モンキーのレンチ
+itemGroup.platforms,Platforms,プラットフォーム

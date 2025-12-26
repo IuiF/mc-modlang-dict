@@ -1,0 +1,27 @@
+﻿key,source_text,target_text
+﻿handler.found.text,Results found: %d,結果が見つかりました: %d
+key.categories.gui,GUI,GUI
+commands.recipes.usage,/recipes <check <result|ingredients|space 'width' 'height'>|conflict|container <true/false>|dump|furnace|get <by_held/by_item 'item-name'/by_name 'recipe-name'>>,/recipes <check <result|ingredients|space '幅' '高さ'>|conflict|container <true/false>|dump|furnace|get <by_held/by_item 'アイテム名'/by_name 'レシピ名'>>
+commands.recipes.check.usage,/recipes check <result/ingredients/space 'width' 'height'>,/recipes check <result/ingredients/space '幅' '高さ'>
+commands.recipes.container.usage,/recipes container <true/false/1/0>,/recipes container <true/false/1/0>
+commands.recipes.get.usage,/recipes get <by_held/by_item 'item-name'/by_name 'recipe-name'>,/recipes get <by_held/by_item 'アイテム名'/by_name 'レシピ名'>
+commands.recipes.get.item.true,Found %1$d recipe(s) to craft %2$s,%2$sをクラフトするレシピが%1$d個見つかりました
+commands.recipes.get.item.false,%1$s has no crafting recipe,%1$s にはクラフトレシピがありません。
+commands.recipes.conflict,Conflict found between %1$s and %2$s,「%1$s」と「%2$s」間で競合が検出されました
+commands.recipes.suggest,"No recipe named %1$s, did you mean %2$s ?",レシピ「%1$s」が見つかりません。「%2$s」ですか？
+commands.recipes.notFound,No recipe with name %1$s,レシピ「%1$s」が見つかりません
+commands.recipes.found_shaped,Found shaped recipe %1$s,形状のレシピ %1$s を見つけました
+commands.recipes.found_shapeless,Found shapeless recipe %1$s,形のないレシピ %1$s を見つけました。
+commands.recipes.madeFrom,Craft with,クラフト用
+commands.recipes.orMadeFrom,OR with,または
+commands.recipes.empty_output,Recipe %1$s has no result,レシピ「%1$s」に結果がありません
+commands.recipes.empty_ingredients,Recipe %1$s has no ingredient,レシピ「%1$s」に材料がありません
+commands.recipes.check.space,Checking recipes given space of size %1$d by %2$d,%1$d × %2$d のクラフト空間でレシピをチェック中
+commands.recipes.bigger_space,Recipe %1$s takes more space,レシピ %1$s はスペースを多く必要とします
+commands.recipes.match_empty,Recipe %1$s match an empty space,レシピ「%1$s」が空のスペースと一致します
+commands.recipes.match_error,Recipe %1$s fatal error when matching,レシピ %1$s が一致時に致命的エラーを発生させました
+commands.recipes.container.true,%1$d container(s) have been detected with crafting space,%1$dの容器でクラフト空間が検出されました
+commands.recipes.container.false,%1$d container(s) are disabled for craft handling,%1$d個の容器でクラフト処理が無効です
+commands.recipes.furnace,Count %1$d recipe changes in furnace,かまどのレシピ変更数: %1$d
+commands.recipes.dump.page,Page %1$d of %2$d,ページ %1$d / %2$d
+commands.recipes.dump.next,Click to display page %1$d,ページ %1$d を表示するためクリック

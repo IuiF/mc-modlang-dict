@@ -1,0 +1,606 @@
+﻿key,source_text,target_text
+__comment,Only for testing:,テスト用にのみ：
+command.jade.dump.success,Dumped successfully,ダンプに成功しました
+config.jade.accessibility,Accessibility,アクセシビリティ
+config.jade.accessibility_plugin,Accessibility Plugin,アクセシビリティプラグイン
+config.jade.accessibility_plugin_desc,Enable accessibility features for displaying and narrating more details. You can then control more details in the Plugin Settings.,アクセシビリティ機能を有効にしてより詳細な情報を表示および解説します。その後、プラグイン設定で詳細を制御できます。
+config.jade.animation,Overlay Animation,アニメーションをかぶせる
+config.jade.animation_desc,Animate the overlay when it appears and disappears. Morph the box when size changes.,表示・非表示時のオーバーレイアニメーション。サイズ変更時にボックスを変形させます。
+config.jade.animation_extra_msg,fade,フェード
+config.jade.boss_bar_overlap,Boss Bar Overlap,ボスバーのオーバーラップ
+config.jade.boss_bar_overlap_extra_msg,"bossbars,hide,push,down","ボスバー,非表示、押す、下げる"
+config.jade.boss_bar_overlap_hide_boss_bar,Hide Boss Bar,ボスバーを非表示
+config.jade.boss_bar_overlap_hide_tooltip,Hide Tooltip,ツールチップを非表示
+config.jade.boss_bar_overlap_no_operation,No Operation,操作なし
+config.jade.boss_bar_overlap_push_down,Push Down Tooltip,ツールチップを押し下げる
+config.jade.danger_zone,Danger Zone,危険地帯
+config.jade.debug_mode,Debug Mode,デバッグモード
+config.jade.display_blocks,Display Blocks,ブロックを表示
+config.jade.display_bosses,Display Bosses,ボスを表示
+config.jade.display_entities,Display Entities,エンティティを表示
+config.jade.display_entities_extra_msg,entity,エンティティ
+config.jade.display_fluids,Display Fluids,流動体表示
+config.jade.display_fluids_any,Any,任意
+config.jade.display_fluids_extra_msg,"liquid,source,only",液体、ソース、のみ
+config.jade.display_fluids_fallback,Fallback,フォールバック
+config.jade.display_fluids_fallback_desc,Only show fluid when there is no other target.,他のターゲットがない場合にのみ流体を表示します。
+config.jade.display_fluids_none,None,なし
+config.jade.display_fluids_source_only,Source Only,ソースのみ
+config.jade.display_item,Display Icon,アイコンの表示
+config.jade.display_item_centered,Centered,中央
+config.jade.display_item_extra_msg,"hide,top,centered",非表示、上部、中央
+config.jade.display_item_hide,Hide,非表示
+config.jade.display_item_inline,In-line,インライン
+config.jade.display_item_top,Top,上
+config.jade.display_mode,Display Mode,表示モード
+config.jade.display_mode_extra_msg,"toggle,hold,lite",切替、保持、ライト
+config.jade.display_mode_hold_key,Hold,保持
+config.jade.display_mode_hold_key_desc,Display keybind must be held.,表示キーバインドは保持が必要
+config.jade.display_mode_lite,Lite,ライト
+config.jade.display_mode_lite_desc,Hold [Show Details] key to show further information.,【詳細を表示】キーを保持することでさらに詳細な情報が表示される
+config.jade.display_mode_toggle,Toggle,切り替え
+config.jade.display_mode_toggle_desc,Display keybind will toggle it on and off.,表示キーバインドでオン/オフを切り替える
+config.jade.display_tooltip,Display Tooltip,ツールチップを表示
+config.jade.display_tooltip_desc,Collect data and render the tooltip.,データ収集とツールチップのレンダリング
+config.jade.edit_ignore_list,Edit ignore list in Files...,ファイル内の無視リストを編集...
+config.jade.flip_main_hand,Flip Position with Main Hand,メインハンドでのフリップ位置
+config.jade.flip_main_hand_desc,Flip tooltip's position if main hand is left,メインハンドが左の場合、ツールチップの位置を反転
+config.jade.general,General,一般
+config.jade.hide_from_debug,Hide from Debug,デバッグから非表示
+config.jade.hide_from_debug_desc,Hide the tooltip while the debug screen is displayed.,デバッグメニューが開いている間ツールチップを非表示にする
+config.jade.hide_from_guis,Hide from GUIs,GUIから隠す
+config.jade.hide_from_guis_desc,Hide the tooltip on most GUI displays.,ほとんどのGUIディスプレイでツールチップを非表示にします。
+config.jade.hide_from_tab_list,Hide from Tab List,タブリストから非表示
+config.jade.hide_from_tab_list_extra_msg,"tab,playerlist","タブリスト,プレイヤーリスト"
+config.jade.item_mod_name,Item Mod Name,アイテムMOD名
+config.jade.item_mod_name_desc,Show which mod is an item from on its tooltip.,ツールチップにアイテムがどのModから来たかを表示します。
+config.jade.item_mod_name_extra_msg,modid,modid、ツールチップ
+config.jade.key_binds,Key Binds,キーバインディング
+config.jade.key_name_n_bind_0,[%s](currently unbound),[%s](現在未割り当て)
+config.jade.key_name_n_bind_1,[%s](currently %s),[%s](現在%s)
+config.jade.key_name_n_bind_2,"[%s](currently %s, %s)","[%s](現在%s, %s)"
+config.jade.overlay,Appearance,外観
+config.jade.overlay_alpha,Opacity,透過度
+config.jade.overlay_alpha_extra_msg,"transparent,alpha",透過、アルファ
+config.jade.overlay_pos,Overlay Position,オーバーレイの位置
+config.jade.overlay_pos.adjust,Adjust...,調整する...
+config.jade.overlay_pos.exit,Click on the blank to exit,退出するには空白をクリックしてください
+config.jade.overlay_pos_extra_msg,"top,bottom,left,right,center","上,下,左,右,中央"
+config.jade.overlay_scale,Display Scale,表示スケール
+config.jade.overlay_square,Square Border,正方形の枠
+config.jade.overlay_theme,Theme,テーマ
+config.jade.perspective_mode,Perspective Mode,遠近法モード
+config.jade.perspective_mode_camera,From Camera,カメラから
+config.jade.perspective_mode_camera_desc,Better compatibility with other mods that modify the behavior of the camera.,カメラの動作を変更する他のMODとの互換性が向上します。
+config.jade.perspective_mode_extra_msg,"view,origin,position","ビュー,原点,位置"
+config.jade.perspective_mode_eye,From Eye,目から
+config.jade.perspective_mode_eye_desc,Better accuracy when the player is moving.,プレイヤーが移動しているときの精度が向上します。
+config.jade.plugin_debug.furnace_fuel,Test Fuel,テスト燃料
+config.jade.plugin_debug.furnace_fuel.float_cfg,Test Float,テストFloat
+config.jade.plugin_debug.furnace_fuel.str_cfg,Test Str,テストStr
+config.jade.plugin_jade,Jade Core,Jadeコア
+config.jade.plugin_jade.block_face,Block Face,ブロック面
+config.jade.plugin_jade.block_face_desc,Show the face of the block the player touches.,プレイヤーが触れているブロックの面を表示します。
+config.jade.plugin_jade.block_face_extra_msg,"direction,side",方向、側面
+config.jade.plugin_jade.block_properties,Block Properties,ブロックプロパティ
+config.jade.plugin_jade.block_states,Block States,ブロック状態
+config.jade.plugin_jade.coordinates,Coordinates,座標
+config.jade.plugin_jade.coordinates.rel,Relative Coordinates,相対座標
+config.jade.plugin_jade.coordinates.rel_desc,Requires holding Ctrl,Ctrlを押したままにしておくことが必要
+config.jade.plugin_jade.coordinates_desc,Show the position of the target.,ターゲットの位置を表示します。
+config.jade.plugin_jade.coordinates_extra_msg,location,"位置,ロケーション"
+config.jade.plugin_jade.debug,Debug,デバッグ
+config.jade.plugin_jade.distance,Distance,距離
+config.jade.plugin_jade.distance_desc,Show the distance between the player and the target.,プレイヤーとターゲット間の距離を表示します。
+config.jade.plugin_jade.item_mod_name,Mod Name in Item Tooltip,アイテムツールチップに Mod 名を表示
+config.jade.plugin_jade.mod_name,Mod Name,Mod 名
+config.jade.plugin_jade.mod_name_extra_msg,"namespace,modid",名前空間、modid
+config.jade.plugin_jade.registry_name,Registry Name,レジストリ名
+config.jade.plugin_jade.registry_name.special,Special IDs,特殊ID
+config.jade.plugin_jade.registry_name.special.block_entity_type,BlockEntity: %s,ブロックエンティティ: %s
+config.jade.plugin_jade.registry_name.special.fluid,Fluid: %s,流体: %s
+config.jade.plugin_jade.registry_name.special.painting,Painting: %s,絵画: %s
+config.jade.plugin_jade.registry_name.special.poi,POI: %s,POI: %s
+config.jade.plugin_jade.registry_name.special_desc,Show special IDs like BlockEntity and Fluid.,ブロックエンティティや流体などの特殊なIDを表示します。
+config.jade.plugin_jade.registry_name_advanced_tooltips,Advanced Tooltips,高度なツールチップ
+config.jade.plugin_jade.registry_name_advanced_tooltips_desc,Follow the advanced tooltips option,高度なツールチップオプションに従う
+config.jade.plugin_jade.registry_name_extra_msg,"id,advanced,tooltips",id、拡張、ツールチップ
+config.jade.plugin_jade_access,Accessibility,アクセシビリティ
+config.jade.plugin_jade_access.block,Block Details,ブロック詳細
+config.jade.plugin_jade_access.entity,Entity Details,エンティティ詳細
+config.jade.plugin_jade_access.entity_variant,Entity Variant,エンティティの変異体
+config.jade.plugin_jade_access.held_item,Entity Held Item,エンティティの保持アイテム
+config.jade.plugin_jade_access.sign,Sign Content,看板の内容
+config.jade.plugin_minecraft.animal_owner,Animal Owner,動物の所有者
+config.jade.plugin_minecraft.animal_owner_extra_msg,"horse,pet",馬、ペット
+config.jade.plugin_minecraft.armor_stand,Armor Stand,防具スタンド
+config.jade.plugin_minecraft.beehive,Beehive,ミツバチの巣
+config.jade.plugin_minecraft.beehive_extra_msg,"bees,honey",蜂、ハチミツ
+config.jade.plugin_minecraft.block,Minecraft - Block,Minecraft - ブロック
+config.jade.plugin_minecraft.breaking_progress,Breaking Progress,ブロック破壊進捗
+config.jade.plugin_minecraft.brewing_stand,Brewing Stand,ブレーキングスタンド
+config.jade.plugin_minecraft.chiseled_bookshelf,Chiseled Bookshelf,模様入りの本棚
+config.jade.plugin_minecraft.command_block,Command Block,コマンドブロック
+config.jade.plugin_minecraft.container_entity,Container Entity,コンテナ―エンティティ
+config.jade.plugin_minecraft.crop_progress,Crop Progress,作物の成長進捗
+config.jade.plugin_minecraft.enchantment_power,Enchantment Power,エンチャント出力
+config.jade.plugin_minecraft.enchantment_power_desc,Show the enchantment power of the block.,ブロックのエンチャントパワーを表示します。
+config.jade.plugin_minecraft.energy_storage,Energy Storage,エネルギーストレージ
+config.jade.plugin_minecraft.energy_storage.detailed,Detailed-Only,詳細のみ
+config.jade.plugin_minecraft.energy_storage.style,Display Style,表示スタイル
+config.jade.plugin_minecraft.energy_storage.style_icon,Icon,アイコン
+config.jade.plugin_minecraft.energy_storage.style_plain_text,Plain Text,プレーンテキスト
+config.jade.plugin_minecraft.energy_storage.style_progress_bar,Progress Bar,進捗バー
+config.jade.plugin_minecraft.entity,Minecraft - Entity,Minecraft - エンティティ
+config.jade.plugin_minecraft.entity_armor,Entity Armor,エンティティのアーマー
+config.jade.plugin_minecraft.entity_armor.max_for_render,Max Armors for Render,描画する最大アーマー数
+config.jade.plugin_minecraft.entity_health,Entity Health,エンティティの体力
+config.jade.plugin_minecraft.entity_health.icons_per_line,Icons per Line,行ごとのアイコン数
+config.jade.plugin_minecraft.entity_health.max_for_render,Max Health for Render,描画する最大体力数
+config.jade.plugin_minecraft.entity_health.show_fractions,Show Fractions,分数の表示
+config.jade.plugin_minecraft.fluid_storage,Fluid Storage,液体ストレージ
+config.jade.plugin_minecraft.fluid_storage.detailed,Detailed-Only,詳細のみ
+config.jade.plugin_minecraft.fluid_storage.style,Display Style,表示スタイル
+config.jade.plugin_minecraft.fluid_storage.style_icon,Icon,アイコン
+config.jade.plugin_minecraft.fluid_storage.style_plain_text,Plain Text,プレーンテキスト
+config.jade.plugin_minecraft.fluid_storage.style_progress_bar,Progress Bar,進捗バー
+config.jade.plugin_minecraft.fluid_storage_extra_msg,"tank,liquid",タンク、液体
+config.jade.plugin_minecraft.furnace,Furnace Contents,かまどの中身
+config.jade.plugin_minecraft.harvest_tool,Harvest Tool,収穫ツール
+config.jade.plugin_minecraft.harvest_tool.creative,Show in Creative Mode,クリエイティブモードで表示
+config.jade.plugin_minecraft.harvest_tool.creative_desc,Show harvest information in creative or spectator mode as well,クリエイティブモードやスペクテイターモードでも採掘情報を表示します。
+config.jade.plugin_minecraft.harvest_tool.effective_tool,Effective Tool,効果的なツール
+config.jade.plugin_minecraft.harvest_tool.new_line,Start in New Line,改行で始める
+config.jade.plugin_minecraft.harvest_tool.show_unbreakable,Show Unbreakable,破壊不可を表示
+config.jade.plugin_minecraft.horse_stats,Horse Stats,馬のステータス
+config.jade.plugin_minecraft.item_frame,Item Frame,アイテムのフレーム
+config.jade.plugin_minecraft.item_storage,Item Storage,アイテムストレージ
+config.jade.plugin_minecraft.item_storage.detailed_amount,Detailed Amount,詳細な数
+config.jade.plugin_minecraft.item_storage.items_per_line,Items per Line,行ごとのアイテム
+config.jade.plugin_minecraft.item_storage.normal_amount,Normal Amount,通常の数
+config.jade.plugin_minecraft.item_storage.show_name_amount,Show Name Threshold,名前の閾値を表示
+config.jade.plugin_minecraft.item_storage.show_name_amount_desc,The maximum amount of items to show item names instead of just item icons.,アイテムアイコンの代わりにアイテム名を表示する最大数。
+config.jade.plugin_minecraft.item_storage_extra_msg,"inventory,chest",インベントリ、チェスト
+config.jade.plugin_minecraft.item_tooltip,Item Tooltip,アイテムのツールチップ
+config.jade.plugin_minecraft.jukebox,Jukebox Record,ジュークボックスのレコード
+config.jade.plugin_minecraft.lectern,Lectern,書見台
+config.jade.plugin_minecraft.mob_breeding,Mob Breeding,MOBの繁殖
+config.jade.plugin_minecraft.mob_breeding_extra_msg,"cooldown,cd,allay,duplication",クールダウン、複製
+config.jade.plugin_minecraft.mob_growth,Mob Growth,MOBの成長
+config.jade.plugin_minecraft.mob_spawner,Mob Spawner Type,MOBスポナーのタイプ
+config.jade.plugin_minecraft.next_entity_drop,Next Entity Drop,次のエンティティドロップ
+config.jade.plugin_minecraft.next_entity_drop_desc,"Show the time until the next entity drop, such as egg or armadillo scute.",卵やアルマジロのウロコなどの次のエンティティがドロップされるまでの時間を表示します。
+config.jade.plugin_minecraft.next_entity_drop_extra_msg,"egg,scute","卵,ウロコ"
+config.jade.plugin_minecraft.note_block,Note Block,音符ブロック
+config.jade.plugin_minecraft.note_block_desc,Show the note and instrument of the note block.,音ブロックの音と楽器を表示します。
+config.jade.plugin_minecraft.painting,Painting,絵画
+config.jade.plugin_minecraft.player_head,Player Head,プレイヤーの頭
+config.jade.plugin_minecraft.potion_effects,Entity Effects,エンティティの効果
+config.jade.plugin_minecraft.potion_effects_extra_msg,"potion,status",ポーション、ステータス
+config.jade.plugin_minecraft.profession,Villager Profession,村人の職業
+config.jade.plugin_minecraft.redstone,Redstone Info,レッドストーンの情報
+config.jade.plugin_minecraft.tnt_stability,TNT Stability,TNTの安定性
+config.jade.plugin_minecraft.tnt_stability_desc,Warn player of special TNT that ignites when hit.,打撃時に発火する特殊TNTがないか警告します。
+config.jade.plugin_minecraft.total_enchantment_power,Total Enchantment Power,合計エンチャント出力
+config.jade.plugin_minecraft.villager_profession,Villager Profession,村人の職業
+config.jade.plugin_minecraft.waxed,Waxed State,蝋の状態
+config.jade.plugin_minecraft.waxed_desc,"Show the waxed state of the block, such as waxed sign.",蝋が引かれた看板など、ブロックの蝋の状態を表示します。
+config.jade.plugin_minecraft.zombie_villager,Zombie Villager Conversion,ゾンビ村人の変換
+config.jade.reach_distance,Extended Reach,拡張リーチ
+config.jade.reach_distance_desc,Increase the distance limit to the target.,ターゲットへの距離制限を増加させます。
+config.jade.reset_settings,Reset Settings,設定をリセット
+config.jade.reset_settings.confirm,Are you sure you wish to reset settings?,設定をリセットしてもよろしいですか？
+config.jade.tts_mode,Text to Speech Mode,テキスト音声化モード
+config.jade.tts_mode_extra_msg,"tts,narration,narrate,press,toggle",tts、ナレーション、押す、切替
+config.jade.tts_mode_press,Press,押す
+config.jade.tts_mode_toggle,Toggle,切り替え
+entity.minecraft.villager.nitwit,Nitwit,間抜け
+entity.minecraft.villager.none,Unemployed,失業者
+gui.jade.by,Made with %s by Snownee,Snowneeによって%sで作成されました
+gui.jade.by.hovered,Check out all my works!,私の作品を全部見てください！
+gui.jade.configuration,%s Configuration,%s の設定
+gui.jade.configuration.desc1,a §fUI enhancement§r mod that,§f見ているもの§rに関する情報を表示するUI拡張MODです
+gui.jade.configuration.desc2,§fdisplays information§r about what §fyou are looking at§r.,§f見ている対象§rについての§f情報§rを表示します。
+gui.jade.disabled_by_mods,This option is disabled by the following mods:,このオプションは次のMODによって無効にされています:
+gui.jade.forced_plugin_config,This option is controlled by the server,このオプションはサーバーが制御します
+gui.jade.invalid_value_cant_save,Invalid value found. Please correct it before saving.,無効な値が見つかりました。保存する前に修正してください。
+gui.jade.jade_settings,%s Settings,%s 設定
+gui.jade.no_results,No results :(,結果なし :(
+gui.jade.plugin_settings,Plugin Settings,プラグイン設定
+gui.jade.preview,Preview,プレビュー
+gui.jade.save_and_quit,Save & Quit,保存して終了
+gui.jade.search,Search,検索
+gui.jade.search.hint,Search...,検索...
+gui.jade.server_feature,This feature requires the server to have Jade installed,この機能を使用するにはサーバーにJadeがインストールされている必要があります
+gui.jade.translated_by,English Localization by %s,プレースホルダー%s
+gui.jade.translators,"Bob, Alice, Charlie",ボブ、アリス、チャーリー
+jade.access.bee.nectar,Nectarean %s,花粉付きの%s
+jade.access.block.active,Active %s,アクティブな%s
+jade.access.block.amount,Amount: %s,量: %s
+jade.access.block.bites,Bites: %s,噛みつき: %s
+jade.access.block.door_closed,Closed %s,閉じた%s
+jade.access.block.door_open,%s,%s
+jade.access.block.extended,Extended %s,延長した%s
+jade.access.block.eye,%s with Eye,目の付いた%s
+jade.access.block.facing,Facing: %s,向き: %s
+jade.access.block.hatch.1,Slightly Cracked %s,わずかにひび割れた%s
+jade.access.block.hatch.2,Cracked %s,ひび割れた%s
+jade.access.block.hydrated,Hydrated %s,湿った%s
+jade.access.block.inverted,Inverted %s,反転した%s
+jade.access.block.layers,Layers: %s,レイヤー: %s
+jade.access.block.level,Level: %s,レベル: %s
+jade.access.block.lit,Lit %s,点灯(火)した%s
+jade.access.block.locked,Locked %s,ロックされた%s
+jade.access.block.ominous,Ominous %s,不吉な%s
+jade.access.block.powered,Powered %s,パワード%s
+jade.access.block.redstone_wire,Shape: %s,形状: %s
+jade.access.block.redstone_wire.dot,Shape: Dot,形状: ドット
+jade.access.block.summonable,Summonable %s,召喚可能な%s
+jade.access.block.waterlogged,Waterlogged %s,水没した%s
+jade.access.creeper.powered,Charged %s,帯電%s
+jade.access.entity.angry,Angry %s,怒った%s
+jade.access.entity.baby,Baby %s,子供の%s
+jade.access.entity.black,Black %s,黒色の%s
+jade.access.entity.blue,Blue %s,青色の%s
+jade.access.entity.brown,Brown %s,茶色の%s
+jade.access.entity.cyan,Cyan %s,青緑色の%s
+jade.access.entity.gray,Gray %s,灰色の%s
+jade.access.entity.green,Green %s,緑色の%s
+jade.access.entity.leashed_to,Leashed to: %s,繋げ先: %s
+jade.access.entity.light_blue,Light Blue %s,空色の%s
+jade.access.entity.light_gray,Light Gray %s,薄灰色の%s
+jade.access.entity.lime,Lime %s,黄緑色の%s
+jade.access.entity.magenta,Magenta %s,赤紫色の%s
+jade.access.entity.orange,Orange %s,橙色の%s
+jade.access.entity.pink,Pink %s,桃色の%s
+jade.access.entity.pose,Pose: %s,ポーズ: %s
+jade.access.entity.pose.10,Sitting,着席中
+jade.access.entity.pose.1000,Playing Dead,死んだふり
+jade.access.entity.pose.1001,Rolling Up,巻き上げる
+jade.access.entity.pose.2,Sleeping,就寝中
+jade.access.entity.pose.3,Swimming,水泳中
+jade.access.entity.pose.5,Crouching,しゃがみ中
+jade.access.entity.pose.7,Dying,横たわり中
+jade.access.entity.purple,Purple %s,紫色の%s
+jade.access.entity.red,Red %s,赤色の%s
+jade.access.entity.saddled,Saddled %s,鞍付きの%s
+jade.access.entity.sheared,Sheared %s,毛を刈られた%s
+jade.access.entity.variant,Variant: %s,変異体: %s
+jade.access.entity.white,White %s,白色の%s
+jade.access.entity.yellow,Yellow %s,黄色の%s
+jade.access.goat.hornless,Hornless %s,角無しの%s
+jade.access.held_item.main,Main Hand: %s,メインハンド: %s
+jade.access.held_item.off,Off Hand: %s,オフハンド: %s
+jade.access.sign.back,Back:,後方:
+jade.access.sign.front,Front:,前方:
+jade.access.sign.line1,First line: %s,1行目: %s
+jade.access.sign.line2,Second line: %s,2行目: %s
+jade.access.sign.line3,Third line: %s,3行目: %s
+jade.access.sign.line4,Fourth line: %s,4行目: %s
+jade.access.slime.size,"{1,choice,1#Small|2≤Medium|4≤Large|8≤Huge} {0}","{1,choice,1#小さな|2≤中くらいの|4≤大きな|8≤巨大な}{0}"
+jade.access.wither.powered,Powered %s,パワード%s
+jade.access.zombie_villager.curing,Curing %s,治療中の%s
+jade.beehive.bees,Bees: %s,ミツバチ: %s
+jade.beehive.honey,Honey: %s,ハチミツ: %s
+jade.blockFace," (%s)",(%s)
+jade.block_burn_odds,Burn odds: %s,燃焼確率: %s
+jade.block_destroy_time,Destroy time: %s,破壊時間: %s
+jade.block_explosion_resistance,Explosion resistance: %s,爆発耐性: %s
+jade.block_ignite_odds,Ignite odds: %s,発火確率: %s
+jade.block_jump_factor,Jump factor: %s,跳躍係数: %s
+jade.block_speed_factor,Speed factor: %s,速度係数: %s
+jade.blockpos,%s %s %s,%s %s %s
+jade.collectingItems,Collecting items...,アイテムを収集中...
+jade.customNameEntity,%s (%s),%s (%s)
+jade.distance1," [%s]",[%s]
+jade.distance2,Distance: %s,距離: %s
+jade.down,Down,下
+jade.east,East,東
+jade.ench_power,Ench Power: %s,エンチャ出力: %s
+jade.energy.text,Energy: %s,エネルギー: %s
+jade.error,"<Error from %s mod, plz report>",<%sMODからエラー、報告してください>
+jade.fe,%s / %s,%s / %s
+jade.fluid,%s %s,%s %s
+jade.fluid.empty,Empty,空
+jade.fluid.more_tanks,%s more tanks,%s さらにタンク
+jade.fluid.text,%s: %s,%s: %s
+jade.fluid.with_capacity,%s / %s,%s / %s
+jade.fraction,%d / %d,%d / %d
+jade.horseStat.jump,Jump height: %d,ジャンプ高さ: %d
+jade.horseStat.speed,Speed: %d,速度: %d
+jade.ignore_list.comment,"This is an ignore list for the target of Jade. You can add registry ids to the ""values"" list.",これはJadeのターゲットの無視リストです。レジストリIDを「value」リストに追加できます。
+jade.input_signal,Input: %d,入力: %d
+jade.instrument.banjo,Banjo,三味線
+jade.instrument.basedrum,Bass Drum (Kick),バスドラム(キック)
+jade.instrument.bass,Bass (Contrabass),ベース(コントラバス)
+jade.instrument.bell,Bells (Glockenspiel),ベル(グロッケンシュピール)
+jade.instrument.bit,Square Wave,電子音 (矩形波)
+jade.instrument.chime,Chimes,チャイム
+jade.instrument.cow_bell,Cow Bell,カウベル
+jade.instrument.creeper,Creeper,クリーパー
+jade.instrument.custom_head,Custom Head,カスタムの頭
+jade.instrument.didgeridoo,Didgeridoo,ディージャーディー
+jade.instrument.dragon,Dragon,ドラゴン
+jade.instrument.flute,Flute,フルート
+jade.instrument.guitar,Guitar,ギター
+jade.instrument.harp,Harp,ハープ
+jade.instrument.hat,Clicks and Sticks,スティック (ハイハット)
+jade.instrument.iron_xylophone,Vibraphone,ビブラフォン
+jade.instrument.piglin,Piglin,ピグリン
+jade.instrument.pling,Electric Piano,電子ピアノ
+jade.instrument.skeleton,Skeleton,スケルトン
+jade.instrument.snare,Snare Drum,スネアドラム
+jade.instrument.wither_skeleton,Wither Skeleton,ウィザースケルトン
+jade.instrument.xylophone,Xylophone,キロフォン
+jade.instrument.zombie,Zombie,ゾンビ
+jade.llamaStrength,Strength: %s,強度: %s
+jade.locked,Inventory is locked,インベントリはロックされています
+jade.loot_not_generated,Loot not generated yet,中身のアイテムがまだ生成されていません
+jade.minutes,{0}m,{0}分
+jade.minutes_seconds,{0}m {1}s,{0}分{1}秒
+jade.mobbreeding.time,Breeding CD: %ds,繁殖クールダウン: %ds
+jade.mobduplication.time,Duplication CD: %ds,複製残り時間: %s
+jade.mobgrowth.time,Growing time: %ds,成長時間: %ds
+jade.modName.cpp,Crafting++,クラフティング++
+jade.nextEgg,Next Egg: %s,次の卵: %ds
+jade.nextScute,Next scute: %s,次のウロコまで: %s
+jade.north,North,北
+jade.owner,Owner: %s,所有者: %s
+jade.south,South,南
+jade.spawner,%s (%s),%s (%s)
+jade.theme.jade.create,Create,作成
+jade.theme.jade.dark,Dark,暗い
+jade.theme.jade.waila,Classic,クラシック
+jade.tnt.unstable,Unstable,不安定
+jade.trial_spawner_cd,Cooldown: %s,クールダウン: %s
+jade.typeNameEntity,%s (%s),%s (%s)
+jade.up,Up,上
+jade.waxed,Waxed %s,蝋引きされた%s
+jade.west,West,西
+jade.zombieConversion.time,Conversion time: %s,変換時間: %s
+key.jade.config,Open Config,設定を開く
+key.jade.narrate,Narrate,ナレーション
+key.jade.show_details,Show Details,詳細を表示
+key.jade.show_details_alternative,Show Details (Alternative),詳細を表示(代替)
+key.jade.show_overlay,Show Overlay,オーバーレイを表示
+key.jade.show_recipes,Show Recipes,レシピを表示
+key.jade.show_uses,Show Uses,使用先を表示
+key.jade.toggle_liquid,Toggle Liquid,液体を切り替え
+modmenu.descriptionTranslation.jade,Shows information about what you are looking at.,見ているものに関する情報を表示します。
+mymod.fuel,Fuel: %d ticks,燃料: %dティック
+narration.jade.adjusting_position,Drag to adjust position. Press ESC to exit,ドラッグして位置を調整します。終了するにはESCを押します
+narration.jade.armor,Armor: %s,アーマー: %s
+narration.jade.blockpos,X%s Y%s Z%s ,X%s Y%s Z%s 
+narration.jade.bookName,Book Name: %s,ブック名: %s
+narration.jade.brewingStand.fuel,Fuel: %s,燃料: %s
+narration.jade.by,Made with Love by Snownee. Press button to check out all my works!,Snownee が愛情を込めて作りました。ボタンを押して私の作品をすべてチェックしてください。
+narration.jade.category,%s category,%sカテゴリー
+narration.jade.clear_content.usage,Left click to clear content,左クリックでコンテンツをクリア
+narration.jade.distance,D%s,距離%s
+narration.jade.health,Health: %s,体力: %s
+narration.jade.negative,negative %s,マイナス %s
+toast.jade.please_wait.1,Please wait...,お待ちください...
+toast.jade.please_wait.2,This may take a few seconds.,これには数秒かかる場合があります。
+toast.jade.toggle_hint.1,Jade is now closed,Jadeは終了しました
+toast.jade.toggle_hint.2,Press %s again to reopen,再び開くには再度%sを押します
+toast.jade.tts_hint.1,Jade's narrator is now open,Jadeのナレーター機能が開きました
+toast.jade.tts_hint.2,Press %s again to disable,%sをもう一度押して無効にします
+tooltip.jade.crop_growth,Growth: %s,成長: %s
+tooltip.jade.crop_mature,Mature,成熟
+tooltip.jade.delay,Delay: %d,遅延: %d
+tooltip.jade.empty,Empty,空
+tooltip.jade.mode,Mode: %s,モード: %s
+tooltip.jade.mode_comparator,Comparator,比較器
+tooltip.jade.mode_subtractor,Subtractor,サブトラクタ
+tooltip.jade.power,Power: %d,パワー: %d
+tooltip.jade.state,State: %s,状態: %s
+tooltip.jade.state_off,Off,オフ
+tooltip.jade.state_on,On,オン
+tooltip.jade.villager_profession,Profession: %s,職業: %s
+config.waila.plugin_jade,Jade,翡翠
+config.waila.plugin_jade.armor_stand,Armor Stand,防具スタンド
+config.waila.plugin_jade.beehive,Beehive,ミツバチの巣
+config.waila.plugin_jade.breaking_progress,Breaking Progress,破壊進捗
+config.waila.plugin_jade.brewing_stand,Brewing Stand,ブレーキングスタンド
+config.waila.plugin_jade.chicken_egg,Chicken Egg,ニワトリの卵
+config.waila.plugin_jade.command_block,Command Block,コマンドブロック
+config.waila.plugin_jade.effective_tool,Effective Tool,効果的なツール
+config.waila.plugin_jade.effects,Entity Effects,エンティティの効果
+config.waila.plugin_jade.ench_power,Ench Power,エンチャントパワー
+config.waila.plugin_jade.harvest_tool,Harvest Tool,収穫ツール
+config.waila.plugin_jade.harvest_tool_new_line,Tool in New Line,ツールを新しい行に表示
+config.waila.plugin_jade.hide_item_mod_name,Hide Item Mod Name,アイテムモッド名を非表示
+config.waila.plugin_jade.hide_mod_name,Hide Mod Name,モジュール名を隠す
+config.waila.plugin_jade.horse_inventory,Llama Strength,ウマの力
+config.waila.plugin_jade.horse_stat,Horse Stats,馬のステータス
+config.waila.plugin_jade.inventory,Inventory,インベントリ
+config.waila.plugin_jade.item_frame,Item Frame,アイテムのフレーム
+config.waila.plugin_jade.item_tooltip,Item Tooltip,アイテムのツールチップ
+config.waila.plugin_jade.misc_entity,Misc Entity Names,その他エンティティ名
+config.waila.plugin_jade.mob_breeding,Mob Breeding,MOBの繁殖
+config.waila.plugin_jade.mob_growth,Mob Growth,MOBの成長
+config.waila.plugin_jade.note_block,Note Block,音符ブロック
+config.waila.plugin_jade.painting,Painting,絵画
+config.waila.plugin_jade.player_head,Player Head,プレイヤーの頭
+config.waila.plugin_jade.profession,Villager Profession,村人の職業
+config.waila.plugin_jade.show_entity_armor,Entity Armor,エンティティのアーマー
+config.waila.plugin_jade.tnt_stability,TNT Stability,TNTの安定性
+config.waila.plugin_jade.total_ench_power,Total Ench Power,合計エンチャントパワー
+config.waila.plugin_jade.trapped_chest,Hide Trapped Chest,トラップチェストを非表示
+jade.brewingStand.fuel,Fuel: %d,燃料: %d
+jade.brewingStand.time,Time: %ds,時間: %ds
+jade.harvest_tool.unbreakable,Can't break,壊せない
+jade.not_generated,Inventory isn't generated,インベントリは生成されていません
+jade.potion,%s %s (%s),%s %s (%s)
+command.dump.success,Dump successful,ダンプ成功
+config.waila.display_fluids,Display Fluids,流動体表示
+config.waila.display_fluids_any,Any,任意
+config.waila.display_fluids_desc,Try to show fluids,流動体を表示する試みをする
+config.waila.display_fluids_none,None,なし
+config.waila.display_fluids_source_only,Source Only,ソースのみ
+config.waila.display_item_centered,Centered,中央
+config.waila.display_item_desc,Display the item gotten from the block,ブロックから得られるアイテムを表示
+config.waila.display_item_hide,Hide,非表示
+config.waila.display_item_top,Top,上
+config.waila.display_mode,Display Mode,表示モード
+config.waila.display_mode_desc,"Tooltip display behavior
+Toggle: Display keybind will toggle it on and off
+Maintained: Display keybind must be held","ツールチップの表示動作
+トグル: 表示キーバインドでオン/オフを切り替え
+保持: 表示キーバインドを押し続ける必要があります"
+config.waila.display_mode_toggle,Toggle,切り替え
+config.waila.display_tooltip,Display Tooltip,ツールチップを表示
+config.waila.display_tooltip_desc,Collect data and render the tooltip,ツールチップのデータを収集してレンダリングする
+config.waila.format_block_name,Block Name,ブロック名
+config.waila.format_entity_name,Entity Name,エンティティ名
+config.waila.format_fluid_name,Fluid Name,液体名
+config.waila.format_mod_name,Mod Name,Mod 名
+config.waila.formatting,Formatting,フォーマット
+config.waila.general,General,一般
+config.waila.hide_from_debug,Hide from Debug,デバッグから非表示
+config.waila.hide_from_debug_desc,Hide the tooltip while the debug menu is open,デバッグメニューが開いている間、ツールチップを非表示にする
+config.waila.overlay,Overlay,オーバーレイ
+config.waila.overlay_alpha,Alpha,アルファ
+config.waila.overlay_anchor_x,Horizontal Anchor,水平アンカー
+config.waila.overlay_anchor_y,Vertical Anchor,垂直アンカー
+config.waila.overlay_color,Color,色
+config.waila.overlay_pos_x,Horizontal Ratio,水平比率
+config.waila.overlay_pos_y,Vertical Ratio,垂直比率
+config.waila.overlay_scale,Display Scale,表示スケール
+config.waila.overlay_theme,Theme,テーマ
+config.waila.plugin_minecraft,Minecraft,マインクラフト
+config.waila.plugin_minecraft.comparator,Comparator Mode,コンパレータモード
+config.waila.plugin_minecraft.crop_progress,Crop Progress,作物の成長進捗
+config.waila.plugin_minecraft.display_furnace_contents,Furnace Contents,かまどの中身
+config.waila.plugin_minecraft.hide_infestations,Hide Infested Blocks,感染されたブロックを隠す
+config.waila.plugin_minecraft.jukebox,Active Record,再生中のレコード
+config.waila.plugin_minecraft.lever,Lever State,レバーの状態
+config.waila.plugin_minecraft.repeater,Repeater Delay,リピーターの遅延
+config.waila.plugin_minecraft.spawner_type,Spawner Type,スパワータイプ
+config.waila.plugin_minecraft.villager_profession,Villager Profession,村人の職業
+config.waila.plugin_waila.show_entities,Show Entities,エンティティ表示
+config.waila.plugin_waila.show_entity_hp,Show Entity Health,エンティティの体力表示
+config.waila.plugin_waila.show_registry,Show Registry Names,登録名を表示
+config.waila.plugin_waila.show_states,Show States,状態を表示
+config.waila.reach_distance,Extended Reach,拡張リーチ
+config.waila.sneaky_details,Sneaky Details,隠された詳細
+config.waila.sneaky_details_desc,Body text is hidden unless sneaking,身体テキストはスニーク時のみ表示される
+config.waila.tts,Enable TTS,TTSを有効化
+config.waila.tts_desc,Read out block and entity names with the system's text to speech processor,システムのテキスト読み上げプロセッサでブロックとエンティティ名を読み上げます
+gui.waila.configuration,%s Configuration,%s の設定
+gui.waila.plugin_settings,Plugin Settings,プラグイン設定
+gui.waila.waila_settings,%s Settings,%s 設定
+key.waila.config,Open Config,設定を開く
+key.waila.show_overlay,Show Overlay,オーバーレイを表示
+key.waila.show_recipes,Show Recipes,レシピを表示
+key.waila.show_uses,Show Uses,使用先を表示
+key.waila.toggle_liquid,Toggle Liquid,液体を切り替え
+tooltip.waila.crop_growth,Growth: %s,成長: %s
+tooltip.waila.crop_mature,Mature,成熟
+tooltip.waila.delay,Delay: %d,遅延: %d
+tooltip.waila.empty,Empty,空
+tooltip.waila.mode,Mode: %s,モード: %s
+tooltip.waila.mode_comparator,Comparator,比較器
+tooltip.waila.mode_subtractor,Subtractor,サブトラクタ
+tooltip.waila.power,Power: %d,パワー: %d
+tooltip.waila.sneak_for_details,Sneak for details,詳細を見るにはスニーク
+tooltip.waila.state,State: %s,状態: %s
+tooltip.waila.state_off,Off,オフ
+tooltip.waila.state_on,On,オン
+tooltip.waila.villager_profession,Profession: %s,職業: %s
+command.waila.dump.success,Dump successful,ダンプ成功
+config.waila.display_blocks,Display Blocks,ブロックを表示
+config.waila.display_entities,Display Entities,エンティティを表示
+config.waila.display_item,Display Icon,アイコンの表示
+config.waila.display_mode_hold_key,Hold,保持
+config.waila.display_mode_hold_key_desc,Display keybind must be held,表示キーを押し続ける必要があります
+config.waila.display_mode_lite,Lite,ライト
+config.waila.display_mode_lite_desc,Hold [Show Details] key to show further information,[詳細表示]キーを押して詳細情報を表示する
+config.waila.display_mode_toggle_desc,Display keybind will toggle it on and off,表示キーでオン/オフを切り替えます
+config.waila.flip_main_hand,Flip with Main Hand,メインハンドで反転
+config.waila.flip_main_hand_desc,Flip tooltip's location if main hand is left,利き手が左の場合、ツールチップの位置を反転する
+config.waila.format_registry_name,Registry ID,レジストリ ID
+config.waila.overlay_square,Square Border,正方形の枠
+config.waila.plugin_jade.block_states,Block States,ブロック状態
+config.waila.plugin_jade.entity_armor,Entity Armor,エンティティのアーマー
+config.waila.plugin_jade.entity_hp,Entity Health,エンティティの体力
+config.waila.plugin_jade.item_mod_name,Mod Name in Item Tooltip,アイテムツールチップに Mod 名を表示
+config.waila.plugin_jade.mod_name,Mod Name,Mod 名
+config.waila.plugin_jade.registry_name,Registry Name,レジストリ名
+config.waila.plugin_minecraft.animal_owner,Animal Owner,動物の所有者
+config.waila.plugin_minecraft.armor_stand,Armor Stand,防具スタンド
+config.waila.plugin_minecraft.beehive,Beehive,ミツバチの巣
+config.waila.plugin_minecraft.breaking_progress,Breaking Progress,ブロック破壊進捗
+config.waila.plugin_minecraft.brewing_stand,Brewing Stand,ブレーキングスタンド
+config.waila.plugin_minecraft.chicken_egg,Chicken Egg,ニワトリの卵
+config.waila.plugin_minecraft.command_block,Command Block,コマンドブロック
+config.waila.plugin_minecraft.effective_tool,Effective Tool,効果的なツール
+config.waila.plugin_minecraft.effects,Entity Effects,エンティティの効果
+config.waila.plugin_minecraft.ench_power,Ench Power,エンチャントパワー
+config.waila.plugin_minecraft.fe,Forge Energy,フォージエネルギー
+config.waila.plugin_minecraft.fluid,Fluid Tank,液体タンク
+config.waila.plugin_minecraft.harvest_tool,Harvest Tool,収穫ツール
+config.waila.plugin_minecraft.harvest_tool_new_line,Tool in New Line,ツールを新しい行に表示
+config.waila.plugin_minecraft.horse_inventory,Llama Strength,ウマの力
+config.waila.plugin_minecraft.horse_stat,Horse Stats,馬のステータス
+config.waila.plugin_minecraft.inventory,Inventory,インベントリ
+config.waila.plugin_minecraft.item_frame,Item Frame,アイテムのフレーム
+config.waila.plugin_minecraft.item_tooltip,Item Tooltip,アイテムのツールチップ
+config.waila.plugin_minecraft.lectern,Lectern,書見台
+config.waila.plugin_minecraft.mob_breeding,Mob Breeding,MOBの繁殖
+config.waila.plugin_minecraft.mob_growth,Mob Growth,MOBの成長
+config.waila.plugin_minecraft.note_block,Note Block,音符ブロック
+config.waila.plugin_minecraft.painting,Painting,絵画
+config.waila.plugin_minecraft.player_head,Player Head,プレイヤーの頭
+config.waila.plugin_minecraft.profession,Villager Profession,村人の職業
+config.waila.plugin_minecraft.redstone,Redstone Info,レッドストーンの情報
+config.waila.plugin_minecraft.tnt_stability,TNT Stability,TNTの安定性
+config.waila.plugin_minecraft.total_ench_power,Total Ench Power,合計エンチャントパワー
+config.waila.tts_mode,Text to Speech Mode,テキスト音声化モード
+config.waila.tts_mode_press,Press,押す
+config.waila.tts_mode_toggle,Toggle,切り替え
+gui.waila.forced_plugin_config,This option is controlled by the server,このオプションはサーバーが制御します
+jade.infinity,+∞,+∞
+jade.seconds,%ds,%d秒
+key.waila.narrate,Narrate,ナレーション
+key.waila.show_details,Show Details,詳細を表示
+narration.waila.armor,Armor: %s,アーマー: %s
+narration.waila.health,Health: %s,体力: %s
+config.jade.danger_zone_desc,"Calm down, it's not §oDangerZone",落ち着いて、これは§oDangerZoneではありません
+config.jade.display_fluids_desc,Try to show fluids,液体の表示を試みる
+config.jade.format_mod_name,Mod Name,MOD名
+config.jade.format_registry_name,Registry ID,レジストリID
+config.jade.format_title_name,Title Name,タイトル名
+config.jade.formatting,Formatting,書式設定
+config.jade.overlay_anchor_x,Horizontal Anchor,水平アンカー
+config.jade.overlay_anchor_y,Vertical Anchor,垂直アンカー
+config.jade.overlay_color,Color,色
+config.jade.plugin_jade.registry_name_off,OFF,オフ
+config.jade.plugin_jade.registry_name_on,ON,オン
+config.jade.plugin_minecraft.block_inventory,Item Storage,アイテムストレージ
+config.jade.plugin_minecraft.block_inventory.detailed_amount,Detailed Amount,詳細な数
+config.jade.plugin_minecraft.block_inventory.items_per_line,Items per Line,行ごとのアイテム
+config.jade.plugin_minecraft.block_inventory.normal_amount,Normal Amount,通常の数
+config.jade.plugin_minecraft.block_inventory.show_name_amount,Show Name Threshold,名前の閾値を表示
+config.jade.plugin_minecraft.block_states,Block States,ブロック状態
+config.jade.plugin_minecraft.chicken_egg,Chicken Egg,ニワトリの卵
+config.jade.plugin_minecraft.fluid,Fluid Storage,液体ストレージ
+config.jade.plugin_minecraft.fluid.detailed,Detailed-Only,詳細のみ
+gui.jade.server_features,"*{0} {0,choice,1#Server Feature|1<Server Features}","*{0} {0,choice,1#サーバー機能|1<サーバー機能}"
+gui.jade.server_features.tip,"This page contains {0} {0,choice,1#server feature|1<server features}.
+Install Jade on the server to fully enable them.","このページには {0} のサーバー機能が含まれています。
+Jadeをサーバーにインストールして、それらを完全に有効化してください。"
+jade.fluid2,%s %s / %s,%s %s / %s
+jade.hopper.locked,Hopper is locked,ホッパーはロックされています
+config.jade.display_mode_desc,The behavior of the tooltip in the usual situation and how the [Show Details] key works.,通常時のツールチップの動作と[詳細表示]キーの動作を設定します。
+config.jade.display_mode_lite_desc.fabric,Hold Shift to show further information.,Shiftキーを保持することでさらに詳細な情報が表示される
+config.jade.edit_blocklist,Edit Blocklist in Files...,ファイル内のブロック一覧を編集...
+config.jade.hide_from_tab_list_desc,Hide the tooltip while the player list is displayed.,プレイヤーリスト表示時にツールチップを非表示にします。
+config.jade.overlay_pos_x,Horizontal Position,水平比率
+config.jade.overlay_pos_x_extra_msg,"left,right,center,ratio",左、右、中央、位置
+config.jade.overlay_pos_y,Vertical Position,垂直比率
+config.jade.overlay_pos_y_extra_msg,"top,bottom,center,ratio",上、下、中央、位置
+config.jade.plugin_minecraft.energy_storage.detailed_desc,Only show energy info when [Show Details] key is pressed.,[詳細表示]キーが押されたときのみエネルギー情報を表示します。
+config.jade.plugin_minecraft.fluid_storage.detailed_desc,Only show fluid info when [Show Details] key is pressed.,[詳細表示]キーが押されたときのみ液体情報を表示します。
+config.jade.plugin_minecraft.item_storage.detailed_amount_desc,The amount of items to show when [Show Details] key is pressed.,[詳細表示]キー押下時に表示するアイテム数。
+config.jade.plugin_minecraft.item_storage.normal_amount_desc,The amount of items to show when [Show Details] key is not pressed.,[詳細表示]キー未押下時に表示するアイテム数。

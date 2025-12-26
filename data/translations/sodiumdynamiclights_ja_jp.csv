@@ -1,0 +1,48 @@
+﻿key,source_text,target_text
+sodium.dynamiclights.options.blockentities,Dynamic Block Entity Lighting,ダイナミックブロックエンティティ照明
+sodium.dynamiclights.options.blockentities.desc,"If enabled, block entities will have dynamic lighting.",有効にすると、ブロックエンティティが動的照明を持ちます
+sodium.dynamiclights.options.creeper,Creeper Lighting Quality,クリーパー照明品質
+sodium.dynamiclights.options.creeper.desc,Configures the update rate for Creeper lighting.,クリーパー照明の更新レートを設定します。
+sodium.dynamiclights.options.entities,Dynamic Entity Lighting,ダイナミックエンティティ照明
+sodium.dynamiclights.options.entities.desc,"If enabled, entities (such as mobs and dropped items) will have dynamic lighting.",有効にすると、エンティティ（モブやドロップアイテムなど）が動的照明を持ちます。
+sodium.dynamiclights.options.mode,Quality Mode,品質モード
+sodium.dynamiclights.options.mode.desc,Configures the update rate for dynamic light sources,動的ライトソースの更新レートを設定する
+sodium.dynamiclights.options.page,Dynamic Lights,動的ライト
+sodium.dynamiclights.options.self,Handheld Lighting,手持ち照明
+sodium.dynamiclights.options.self.desc,Enables first-person dynamic lighting. It's recommended to disable this if you're using shaders that has their own dynamic lighting.,1人称視点のダイナミックライティングを有効にします。自分自身のダイナミックライティングを持つシェーダーを使用している場合は、この設定を無効にすることをお勧めします。
+sodium.dynamiclights.options.tnt,TNT Lighting Quality,TNT照明品質
+sodium.dynamiclights.options.tnt.desc,Configures the update rate for TNT lighting.,TNTライティングの更新レートを設定します。
+sodium.dynamiclights.options.underwater,Extinguish When Underwater,水中にいると消火する
+sodium.dynamiclights.options.underwater.desc,Enables the water-sensitive light sources check. This means that some items will not emit light while being submerged in water.,水に反応する光源チェックを有効にします。つまり、一部のアイテムは水に浸かっているときは光を発しません。
+sodiumdynamiclights.menu.canvas.1,Disabling entities dynamic lighting is recommended with Canvas!,Canvasを使用している場合はエンティティの臨場感ある光源をオフにすることを推奨します！
+sodiumdynamiclights.menu.canvas.2,Dynamic lighting with Canvas is currently performance heavy!,現在はCanvasと臨場感ある光源の併用によってパフォーマンスが不安定になります！
+sodiumdynamiclights.menu.light_sources,Dynamic Light Sources,臨場感ある光源
+sodiumdynamiclights.menu.tabs.general,General,一般
+sodiumdynamiclights.menu.title,SodiumDynamicLights Settings,SodiumDynamicLights 設定
+sodiumdynamiclights.option.light_sources.block_entities,Block Entities,ブロックエンティティ
+sodiumdynamiclights.option.light_sources.entities,Entities,エンティティ
+sodiumdynamiclights.option.light_sources.self,First-person,一人称視点
+sodiumdynamiclights.option.light_sources.water_sensitive_check,Water Sensitivity Check,耐水性チェック
+sodiumdynamiclights.option.mode,Dynamic Lights,臨場感ある光源
+sodiumdynamiclights.tooltip.block_entities,Enables block entities dynamic lighting.,ブロックエンティティに臨場感ある光源を適用します．
+sodiumdynamiclights.tooltip.creeper_lighting,"Sets the Creeper dynamic lighting mode.
+- %s disables Creeper dynamic lighting.
+- %s sets a constant luminance.
+- %s sets a dynamic luminance.","クリーパーの発光モードを設定します．
+- %s 臨場感ある光源を適用しません．
+- %s 一定の明るさで発光します．
+- %s 点滅も再現します．"
+sodiumdynamiclights.tooltip.entities,Enables entities dynamic lighting. Note: players are always active.,"エンティティに臨場感ある光源を適用します．
+注意: プレイヤーには常に適用されます．"
+sodiumdynamiclights.tooltip.mode.1,Enables dynamic lights. If enabled a player holding a torch will light up the area for example.,臨場感ある光源を有効にします．有効にすると，例えば松明を手に持ったプレイヤーの周辺が明るくなります．
+sodiumdynamiclights.tooltip.mode.2,%s and %s will lag a bit behind but minimizes light updates.,"- %s, %s 見かけのラグを生じますが，更新を最小限に抑えます．"
+sodiumdynamiclights.tooltip.mode.3,%s is smooth dynamic lighting.,- %s 滑らかに描画します．
+sodiumdynamiclights.tooltip.self_light_source,Enables first-person dynamic lighting. It's recommended to disable this if you're using shaders that has their own dynamic lighting.,一人称視点で手持ちのアイテムに臨場感ある光源を適用します．独自にこの光源描写を行うシェーダーを使用している場合は，このオプションをオフにすることを推奨します．
+sodiumdynamiclights.tooltip.tnt_lighting,"Sets the TNT dynamic lighting mode.
+- %s disables TNT dynamic lighting.
+- %s sets a constant luminance.
+- %s sets a dynamic luminance.","TNTの発光モードを設定します．
+- %s 臨場感ある光源を適用しません．
+- %s 一定の明るさで発光します．
+- %s 点滅も再現します．"
+sodiumdynamiclights.tooltip.water_sensitive,Enables the water-sensitive light sources check. This means that some items will not emit light while being submerged in water.,光源の耐水性チェックを行います．有効にすると，一部のアイテムは水に浸かっている状態では発光しません．

@@ -1,0 +1,505 @@
+﻿key,source_text,target_text
+block.relics.phantom_block,Phantom Bridge Block,亡霊橋ブロック
+block.relics.researching_table,Researching Table [Removed from the mod],研究テーブル [削除済み]
+command.relics.base.not_relic,The item in hand must be a relic!,レリックを手に持ってください
+curios.identifier.feet,Feet,足
+effect.relics.anti_heal,Anti-Heal,回復阻害
+effect.relics.bleeding,Bleeding,出血
+effect.relics.confusion,Confusion,混乱
+effect.relics.immortality,Immortality,不死
+effect.relics.paralysis,Paralysis,麻痺
+effect.relics.stun,Stun,スタン
+effect.relics.vanishing,Vanishing,消失
+info.relics.researching.wrong_container,Working with the relic in this inventory is not possible. Move item to the player's main inventory and try again.,このインベントリーに置いたレリックは動作できません。プレイヤーのメインインベントリーに置いてやり直してください。
+item.relics.amphibian_boot,Amphibian Boot,両生類のブーツ
+item.relics.aqua_walker,Aqua Walker,アクアウォーカー
+item.relics.bastion_ring,Bastion Ring,砦の指輪
+item.relics.blazing_flask,Blazing Flask,燃えるフラスコ
+item.relics.chorus_inhibitor,Chorus Inhibitor,コーラス制御輪
+item.relics.drowned_belt,Drowned Belt,ドラウンドベルト
+item.relics.elytra_booster,Elytra Booster,エリトラブースター
+item.relics.enders_hand,Ender Hand,エンダーの手
+item.relics.holy_locket,Holy Locket,聖なるロケット
+item.relics.hunter_belt,Hunter Belt,ハンターのベルト
+item.relics.ice_breaker,Ice Breaker,アイスブレーカー
+item.relics.ice_skates,Ice Skates,スケート靴
+item.relics.infinity_ham,Infinity Ham,無限のハム
+item.relics.jellyfish_necklace,Jellyfish Necklace,クラゲの首飾り
+item.relics.leafy_ring,Leafy Ring [WIP],繁茂の指輪 [作成中]
+item.relics.leather_belt,Leather Belt,革のベルト
+item.relics.magic_mirror,Magic Mirror,魔法の鏡
+item.relics.magma_walker,Magma Walker,マグマウォーカー
+item.relics.midnight_robe,Midnight Robe,真夜中のローブ
+item.relics.phantom_boot,Phantom Boot,ファントムの靴
+item.relics.rage_glove,Rage Glove,憤怒の手袋
+item.relics.reflection_necklace,Reflecting Necklace,反射ネックレス
+item.relics.relic_experience_bottle,Relic Experience Bottle,レリック経験値ポーション
+item.relics.roller_skates,Roller Skates,ローラースケート
+item.relics.shadow_glaive,Shadow Glaive,影の凶刃
+item.relics.solid_snowball,Frozen snowball,氷雪玉
+item.relics.space_dissector,Space Dissector,亜空間カッター
+item.relics.spore_sack,Spore Sack,胞子袋
+item.relics.springy_boot,Springy Boot,バウンドブーツ
+item.relics.wool_mitten,Wool Mitten,毛糸のミトン
+itemGroup.relics,Relics,遺物
+key.relics.active_abilities_list,Show the active abilities HUD,アクティブアビリティHUDを表示
+key.relics.research_relic,Research relic under the cursor,カーソルの下のレリックを調査
+tooltip.relics.amphibian_boot.ability.gills,Gills,えら
+tooltip.relics.amphibian_boot.ability.gills.description,Grants player the ability to not consume air while underwater.,プレイヤーが水中で空気を消費しないようにします。
+tooltip.relics.amphibian_boot.ability.slipping,Slipping,滑り
+tooltip.relics.amphibian_boot.ability.slipping.description,Increases movement speed in the rain depending on its duration.,雨中の移動速度が増加します。時間とともに増加率が減少します。
+tooltip.relics.amphibian_boot.ability.swimming,Fins,ヒレ
+tooltip.relics.amphibian_boot.ability.swimming.description,Accelerates the swimming speed depending on its duration.,水中での移動速度が増加します。時間とともに増加率が減少します。
+tooltip.relics.amphibian_boot.description,"+1 experience point for each second of acceleration from the «Fins» ability.
++1 experience point for every second of acceleration from the «Slipping» ability.","アビリティ《水かき》で1秒間加速するごとに経験値+1ポイント 
+アビリティ《滑り》で1秒間加速するごとに経験値+1ポイント"
+tooltip.relics.aqua_walker.ability.walking,Moisture Resistance,水蜘蛛
+tooltip.relics.aqua_walker.ability.walking.description,"For a certain amount of time allows you to move on the surface of the water without falling. After the time limit expires, the boots begin to sink, dragging the wearer with them under the water.",一定時間は水の上を歩いても沈まなくなる。制限時間を過ぎると靴が沈み始め、着用者を水の中に引きずり込む
+tooltip.relics.aqua_walker.description,+1 experience point for every 5 units of getting wet from the ability «Moisture Resistance».,アビリティ《水蜘蛛》による浸水を5ポイント受けるごとに経験値+1ポイント
+tooltip.relics.bastion_ring.ability.compass,Recognition,同類
+tooltip.relics.bastion_ring.ability.compass.description,Makes piglins neutral in relation to the wearer. The nearest piglin will indicate the location of a bastion nearby.,ピグリンたちが着用者に対して中立になる。さらに最も近くにいるピグリンが砦の遺跡の方向を示すようになる
+tooltip.relics.bastion_ring.ability.trade,Respect,リスペクト
+tooltip.relics.bastion_ring.ability.trade.description,Each trade with piglins gets a multiple chance of 50% to issue an additional trading result.,ピグリンとの取引で、追加の取引結果が得られる確率が50%%になります。
+tooltip.relics.bastion_ring.description,"+1/5/10 experience point for each killed Zombified Piglin / Piglin / Piglin Brute.
++1 experience point for each additional trade from the ability «Respect».","ゾンビピグリン1匹で+1、ピグリン1匹で+5、ピグリンブルート1匹で+10の経験値を討伐時に得る 
+アビリティ《リスペクト》による追加交易が発生すると経験値+1ポイント"
+tooltip.relics.blazing_flask.ability.bonfire,Eternal fire,無限火
+tooltip.relics.blazing_flask.ability.bonfire.description,"Using a relic on a block will create a restricted flight zone, the size of which depends on the amount of fire in a certain radius around the center.",ブロックで能力を使用すると、周辺の炎の量に応じて飛行ゾーンが作成されます。
+tooltip.relics.blazing_flask.description,+1 experience point for every 5 seconds of flight within the scope of the ability «Eternal Fire».,アビリティ《無限火》による範囲内で5秒間飛行する毎にレリック経験値+1ポイント
+tooltip.relics.chorus_inhibitor.ability.blink,Teleportation Control,制御テレポート
+tooltip.relics.chorus_inhibitor.ability.blink.description,Using the chorus fruit teleports the wearer to the block along the line of sight within reach.,コーラスフルーツを使用すると、視線の先のブロックにテレポートします。
+tooltip.relics.chorus_inhibitor.description,+1 experience point for every 10 blocks to the teleportation point from the «Teleportation Control» ability.,アビリティ《制御テレポート》で移動した距離10ブロックごとに経験値+1ポイント
+tooltip.relics.drowned_belt.ability.anchor,Dead Weight,水死体
+tooltip.relics.drowned_belt.ability.anchor.description,Reduces the swimming speed and increases the sinking speed of the wearer.,水中での移動速度が低下し、沈下速度が増加します。
+tooltip.relics.drowned_belt.ability.pressure,Water Flows,流水
+tooltip.relics.drowned_belt.ability.pressure.description,Increases dealt underwater damage.,水中でのダメージが増加します。
+tooltip.relics.drowned_belt.ability.riptide,Water Attraction,水の誘い
+tooltip.relics.drowned_belt.ability.riptide.description,"Allows you to use the trident «Riptide» ability without rain or water, adding recharge time to it.",トライデントの「激流」エンチャント能力を雨や水がなくても使用できます。
+tooltip.relics.drowned_belt.ability.slots,Load Capacity,過積載
+tooltip.relics.drowned_belt.ability.slots.description,Increases the maximum number of slots for equipping relics.,装備スロットの最大数が増加します。
+tooltip.relics.drowned_belt.description,+1 experience point for each level of enchantment «Riptide» on the trident when using it.,レベルに関係なく「激流」エンチャント付きのトライデントを使用するたびに経験値+1ポイント
+tooltip.relics.elytra_booster.ability.boost,Acceleration,加速
+tooltip.relics.elytra_booster.ability.boost.description,"Using any combustible fuel on a relic in the inventory replenishes its internal buffer. Using the ability during the flight on an elytra rushes the wearer forward, consuming fuel from the internal buffer.",可燃性燃料をレリックに使用して、内部バッファを補充します。飛行中にバッファから燃料を消費してスピードアップできます。
+tooltip.relics.elytra_booster.ability.boost.predicate.elytra,Flying on elytra,エリトラで飛行中
+tooltip.relics.elytra_booster.ability.boost.predicate.fuel,Fuel in the Booster,ブースターに燃料がある
+tooltip.relics.elytra_booster.description,+1 experience point for every 10 seconds of burning fuel when placing it in the internal buffer of the relic from the ability «Acceleration».,アビリティ《加速》により、レリックの内部に溜まったチャージ分を燃焼させると10秒ごとに経験値+1ポイント
+tooltip.relics.enders_hand.ability.neutrality,Neutrality,中立
+tooltip.relics.enders_hand.ability.neutrality.description,Makes endermen neutral with respect to the wearer.,身につけているとエンダーマンが着用者に対して中立になる
+tooltip.relics.enders_hand.ability.swap,End Transposition,転移
+tooltip.relics.enders_hand.ability.swap.description,Swaps the wearer with the target along the line of sight.,視線沿いの対象とプレイヤーの位置が交換されます。
+tooltip.relics.enders_hand.ability.swap.predicate.target,Looking at the target,ターゲットを見つめる
+tooltip.relics.enders_hand.description,"+1 experience point for using the ability «End Transposition», +1 experience point for every 10 blocks from the distance to the target when using.",アビリティ《転移》を使うとレリック経験値+1ポイント、さらに転移先の距離が10ブロック離れるごとにレリック経験値+1ポイントを加算
+tooltip.relics.holy_locket.ability.ascension,Ascension,上昇
+tooltip.relics.holy_locket.ability.ascension.description,"Killing a target grants the relic's wearer a temporary stacking immortality effect for %2$s seconds, up to a maximum of %1$s seconds.",mobを倒すと不死の効果を%2$s秒間だけ得る。効果を得る時間の最大は%1$s秒
+tooltip.relics.holy_locket.ability.faith,Faith,信仰
+tooltip.relics.holy_locket.ability.faith.description,"Has 2 toggleable modes: Holiness and Unholiness. In the red Holiness mode, steals %1$s%% of the healing from visible entities within a radius of %3$s blocks and transfers it to the relic's wearer. In the blue Unholiness mode, deals damage to all visible entities within the same radius equal to %2$s%% of the healing received by the relic's wearer.",「高潔」と「不浄」の2つのモードを持つ切り替え可能な能力。赤の「高潔」モードでは、半径%3$sブロックの範囲内にいる敵の回復量のうち%1$s%%分を奪い、着用者に転送する。青の「不浄」モードでは、同様の範囲内にいる全て敵に対して、着用者自身が受ける回復量の%2$s%%をダメージとして与える
+tooltip.relics.holy_locket.ability.penitence,Penitence,悔い改めよ
+tooltip.relics.holy_locket.ability.penitence.description,Ignites undead enemies for 10 seconds and increases damage dealt to them by %1$s%%.,アンデッドの敵を10秒間炎上させ、与えるダメージも%1$s%%だけ増加する
+tooltip.relics.holy_locket.description,Grants the wearer the ability to turn enemy healing against them.,戦闘に有利になるように敵や自分の回復を活用する能力を得る
+tooltip.relics.holy_locket.leveling_source.ascension.description,+%1$s experience points for each activation of the %2$s ability.,%2$s能力の発動1回につき、+%1$s経験値ポイント。
+tooltip.relics.holy_locket.leveling_source.ascension.title,Ascension,上昇
+tooltip.relics.holy_locket.leveling_source.faith.description,+%1$s experience points for each activation of the %2$s ability.,%2$s能力の発動1回につき、+%1$s経験値ポイント。
+tooltip.relics.holy_locket.leveling_source.faith.title,Faith,信仰
+tooltip.relics.holy_locket.leveling_source.penitence.description,+%1$s experience points for each activation of the %2$s ability on an undead enemy that is not yet burning.,燃えていないアンデッドに対してアビリティ%2$sを発動するたびにレリック経験値+%1$s
+tooltip.relics.holy_locket.leveling_source.penitence.title,Penitence,悔い改めよ
+tooltip.relics.hunter_belt.ability.slots,Load Capacity,過積載
+tooltip.relics.hunter_belt.ability.slots.description,Increases the maximum number of slots for equipping relics.,アミュレット装備スロットの最大数が+%1$s増加します。
+tooltip.relics.hunter_belt.ability.training.description,Increases the damage inflicted by the wearer's pets.,装着者のペットのダメージが%1$s%%増加します。
+tooltip.relics.hunter_belt.description,+1 experience point for each attack made by the wearer's pet.,着用者のペットが攻撃するたびに経験値+1ポイント
+tooltip.relics.ice_breaker.ability.impact,Earthquake,地震
+tooltip.relics.ice_breaker.ability.impact.description,"Using the ability in a fall will create a shockwave at the landing site, causing damage and throwing away nearby targets. Power of the wave depends on the distance that the wearer has flown.",落下中に能力を長時間使用すると、着地時に半径%1$sブロックの衝撃波を作成し、最大%2$sダメージを与え、近くの対象をノックバックします。ただし、衝撃波の強度は落下距離に依存します。
+tooltip.relics.ice_breaker.ability.impact.predicate.falling,Free fall,自由落下している
+tooltip.relics.ice_breaker.ability.sustainability,Sustainability,盤石
+tooltip.relics.ice_breaker.ability.sustainability.description,"Increases the speed of falling, increases the knockback resistance and negates slippering.",落下速度が増加し、ノックバック耐性が%1$s%%増加し、ブロックの滑りが削除されます。
+tooltip.relics.ice_breaker.description,+1 experience point for every 3 blocks in the fall before triggering the ability «Earthquake».,アビリティ《大震撃》を発動するために落下した高さ3ブロックにつき経験値+1ポイント
+tooltip.relics.ice_skates.ability.ram,Ram,激突
+tooltip.relics.ice_skates.ability.ram.description,"When colliding with targets, deals damage proportional to the duration of «Skating» ability usage.",対象に衝突すると、「スケート」能力で滑った秒数あたり%1$sダメージを与えます。
+tooltip.relics.ice_skates.ability.skating,Skating,氷滑り
+tooltip.relics.ice_skates.ability.skating.description,Increases the movement speed while on ice depending on the duration of sliding.,氷上での移動速度が%1$s%%増加します。滑行時間が%2$s秒を超えると増加が停止します。
+tooltip.relics.ice_skates.description,+1 experience point for each second of acceleration from the ability «Skating».,アビリティ《氷滑り》で1秒間加速するごとに経験値+1ポイント
+tooltip.relics.infinity_ham.ability.marinade,Marinade,マリネ
+tooltip.relics.infinity_ham.ability.marinade.description,"Allows applying potion effects to the relic by left-clicking it with a potion in the inventory. Each time the relic is consumed, it applies these effects to the player for %1$s seconds per hunger point restored. Using a water bottle clears the last applied potion effects.",インベントリ内のレリックにポーションをマウス左クリックで使用すると、そのポーションの効果を記憶する。レリックを食べるたびに、回復した空腹ゲージ1つあたり%1$s秒だけ記憶したポーション効果をプレイヤーに与える。水入り瓶を使うとポーション効果を消すことができる。
+tooltip.relics.infinity_ham.ability.meat_bat,Meat Bat,肉棍棒
+tooltip.relics.infinity_ham.ability.meat_bat.description,"Allows the relic to be used as a melee weapon, dealing %1$s damage and stunning the target for %2$s seconds per chunk. Consumes all chunks when attacking, regardless of the target's remaining health.",レリックを近接武器として使えるようになる。1口当たり%1$sのダメージと%2$s秒のスタンを与える。ターゲットの残りライフ量に関わらず、使用時には全ての可食部分を消費してしまう。
+tooltip.relics.infinity_ham.ability.regeneration,Regeneration,再生
+tooltip.relics.infinity_ham.ability.regeneration.description,"Every %1$s seconds, regenerates up to 6 edible chunks, each restoring %2$s hunger points. When consumed, the relic automatically uses the required number of chunks to replenish the player's hunger.",6口分を上限として%1$s秒ごとに少しずつ再生する。1口食べると空腹度を%2$sだけ回復する。使用すると、プレイヤーの空腹ゲージを充填するのに必要な分を自動的に消費する
+tooltip.relics.infinity_ham.description,+1 experience point for each piece eaten from the ability «Regeneration».,どれだけかじられても、元の大きさに自動的に復元されていく不思議な肉の切れはし
+tooltip.relics.infinity_ham.leveling_source.marinade.description,+%1$s experience points for each effect applied to the relic using the %2$s ability.,アビリティ%2$sによってレリックにポーション効果を記憶させるたびにレリック経験値+%1$sポイント
+tooltip.relics.infinity_ham.leveling_source.marinade.title,Marinade,マリネ
+tooltip.relics.infinity_ham.leveling_source.meat_bat.description,+%1$s experience points for each chunk consumed during the activation of the %2$s ability.,アビリティ%2$sを発動して消費した可食部分1つあたりレリック経験値+%1$sポイント
+tooltip.relics.infinity_ham.leveling_source.meat_bat.title,Meat Bat,肉棍棒
+tooltip.relics.infinity_ham.leveling_source.regeneration.description,+%1$s experience points for each chunk consumed through the %2$s ability.,アビリティ%2$sによって1口消費するたびにレリック経験値+%1$sポイント
+tooltip.relics.infinity_ham.leveling_source.regeneration.title,Regeneration,再生
+tooltip.relics.jellyfish_necklace.ability.paralysis,Paralysis,麻痺
+tooltip.relics.jellyfish_necklace.ability.paralysis.description,"When the ability is triggered, «Electric Discharge» imposes a paralysis effect on the target.",「電気放電」能力が発動すると、対象に%1$s秒の麻痺を与えます。
+tooltip.relics.jellyfish_necklace.ability.shock,Electrical Discharge,ビリビリ
+tooltip.relics.jellyfish_necklace.ability.shock.description,Deals damage to targets when colliding with them.,対象に衝突すると、%1$sダメージを与えます。
+tooltip.relics.jellyfish_necklace.ability.unsinkable,Power over the sea,漂流者
+tooltip.relics.jellyfish_necklace.ability.unsinkable.description,The wearer does not sink in water.,着用者は水に沈まなくなる
+tooltip.relics.jellyfish_necklace.description,+1 experience point for each activation of the ability «Electric Discharge».,アビリティ《ビリビリ》が発生するごとに経験値+1ポイント
+tooltip.relics.leafy_ring.description,[WIP],[製作中]
+tooltip.relics.leather_belt.ability.slots,Load Capacity,過積載
+tooltip.relics.leather_belt.ability.slots.description,Increases the maximum number of slots for equipping relics.,アミュレット装備スロットの最大数が+%1$s増加します。
+tooltip.relics.leather_belt.description,+1 experience point for each experience gained by equipped charms.,身に付けたチャーム類から得た経験値に応じて経験値+1ポイント
+tooltip.relics.leveling_source.generic.spreading.description,"Each time any relic in the inventory gains experience, regardless of the method, %1$s%% of that experience is also gained by this relic.",インベントリ内にあるレリックであれば何でも、取得するレリック経験値が%1$s%%分だけ増える
+tooltip.relics.leveling_source.generic.spreading.title,Experience Spreading,知識の伝搬
+tooltip.relics.magic_mirror.ability.teleport,Wormhole,ワームホール
+tooltip.relics.magic_mirror.ability.teleport.description,"After use, teleports the wearer to their respawn point.","使用時に所有者のスポーンポイントが存在し、有効であればそこにテレポートします。(%1$s, %2$s)"
+tooltip.relics.magic_mirror.description,"+1 experience point for each use of the «Wormhole» ability, +1 experience point for every 50 blocks to the teleportation point.",アビリティ《ワームホール》を使うとレリック経験値+1ポイント、テレポート先の距離が50ブロック離れるごとにレリック経験値+1ポイントを加算
+tooltip.relics.magma_walker.ability.heat_resistance,Heat Resistance,熱耐性
+tooltip.relics.magma_walker.ability.heat_resistance.description,Suppresses damage from hot blocks.,熱いブロック上でのダメージを抑制する
+tooltip.relics.magma_walker.ability.pace,Fiery Tread,火渡り
+tooltip.relics.magma_walker.ability.pace.description,"For a certain amount of time allows you to walk on the lava surface without falling and taking damage. After the time limit expires, the boots begin to overheat and cause damage to the wearer proportional to the degree of overheating.",%1$s秒間、溶岩の表面を歩くことができます。
+tooltip.relics.magma_walker.description,+1 experience point for every 5 units of heating from the ability «Fiery Tread».,アビリティ《火渡り》による加熱を5ポイント受けるごとに経験値+1ポイント
+tooltip.relics.midnight_robe.ability.backstab,Betrayal,背信
+tooltip.relics.midnight_robe.ability.backstab.description,"An attack from the «Vanish» ability deals increased damage, outlining a circle around the target and dispelling the invisibility effect of the wearer. Reuse of the «Vanish» ability is possible only after the wearer leaves the circle.",「消失」能力を使用しながらの攻撃は%1$s%%の追加ダメージを与え、対象の周囲に半径%2$sブロックの円をマークして、装着者の透明性を解除します。「消失」能力は装着者がその円から出た後にのみ再び使用できます。
+tooltip.relics.midnight_robe.ability.vanish,Vanish,消失
+tooltip.relics.midnight_robe.ability.vanish.description,Gives the wearer complete invisibility and increases the speed of their movement at a sufficiently low light level.,"装着者に完全な非表示を付与し、移動速度を増加させます。(%2$s, %1$s)"
+tooltip.relics.midnight_robe.description,+1 experience point for every 2 units of damage when attacking while being invisible from the «Disappearing» ability.,アビリティ《消失》で姿を消した状態で2ダメージ与えるごとに経験値+1ポイント
+tooltip.relics.phantom_boot.ability.bridge,Phantom Bridge,幽霊橋
+tooltip.relics.phantom_boot.ability.bridge.description,"Creates a temporary phantom bridge beneath the player's feet that any relic owner can walk on. If the player stands still on the bridge for more than %1$s seconds, they will fall through and cannot get back up until they reach solid ground. While sneaking, the player is forced to fall through the phantom bridge blocks.",プレイヤーの足下に一時的な幻の橋を生成し、レリックを着用している者であれば誰でもその上を歩くことができる。その橋の上で%1$s秒以上立ち止まっていると落下してしまい、地面に落ちるまで橋を再び作ることはできない
+tooltip.relics.phantom_boot.description,"Condenses matter beneath the relic owner's feet, creating a path through any terrain, even where no solid ground exists.",たとえ地面がない場所であっても、着用者の足下に物質を凝縮させてどんな地形でも進んでいける道を作る
+tooltip.relics.phantom_boot.leveling_source.bridge.description,+%1$s experience points with a 10%% chance each time a bridge is created using the %2$s ability.,アビリティ%2$sによって橋を生成したときに10%%の確率でレリック経験値+%1$sポイント
+tooltip.relics.phantom_boot.leveling_source.bridge.title,Phantom Bridge,幽霊橋
+tooltip.relics.rage_glove.ability.phlebotomy,Phlebotomy,血祭り
+tooltip.relics.rage_glove.ability.phlebotomy.description,"Increases the wearer's attack and movement speed, as well as granting passive regeneration proportional to the percentage of the missing health.",プレイヤーの攻撃速度が%3$s%%増加し、移動速度が%2$s%%増加します。また、プレイヤーの欠落した体力の%1$s%%分だけ受動的な体力再生を付与します。
+tooltip.relics.rage_glove.ability.rage,Berserker Rage,狂戦士の怒り
+tooltip.relics.rage_glove.ability.rage.description,"Each wearer attack made within 3 seconds after the last one accumulates 1 charge into the internal buffer of the relic. The damage inflicted and received by the wearer, as well as its movement speed and dealt damage increases in proportion to the accumulated charges. After 3 seconds, the internal buffer of the relic is emptied, canceling all bonuses received.",装着者が前回の攻撃から%3$s秒以内に行った各攻撃は、レリックの内部バッファに1チャージを蓄積します。プレイヤーのダメージはチャージあたり%2$s%%増加しますが、同時に%1$s%%多くダメージを受けます。プレイヤーが別のチャージを得るために指定された時間内に攻撃しない場合、レリックの内部バッファは完全に空になり、蓄積されたすべてのボーナスが無効になります。
+tooltip.relics.rage_glove.ability.spurt,Spurt,猪突猛進
+tooltip.relics.rage_glove.ability.spurt.description,"Dashes towards the direction of sight, setting enemies on fire, applying bleeding and attacking each target in its path with the item in the hand. Deals additional damage proportional to the number of charges in the relic's internal buffer from the «Berserker's Rage» ability and devastates it.","有効化時、プレイヤーの移動方向にダッシュを実行します。(%2$s, %1$s, %3$s)"
+tooltip.relics.rage_glove.description,"+1 experience point for every 3 charges from the ability «Berserker Rage» when they are reset.
++1 experience point for each target hit by the «Spurt» ability.","アビリティ《狂戦士の怒り》でチャージが3つ溜まるたびに経験値+1ポイント 
+アビリティ《猪突猛進》でターゲット1体に攻撃するごとに経験値+1ポイント"
+tooltip.relics.reflection_necklace.ability.explode,Infernal Hatred,激発
+tooltip.relics.reflection_necklace.ability.explode.description,"Accumulates the damage received by the wearer into the internal buffer of the relic. 5 seconds after the last damage or in case of a buffer overflow, the relic explodes, throwing obsidian fragments in all directions, causing damage and stunning targets.","装着者が受けたダメージをレリックの内部に累積します。(%1$s, %2$s, %3$s)"
+tooltip.relics.reflection_necklace.description,+1 experience point for every 10 damage accumulated in the internal buffer of the relic from the ability «Infernal Hatred».,アビリティ《激発》で10ダメージを与えるごとに経験値+1ポイント
+tooltip.relics.relic.reroll.cost,Cost: %1$s experience points %2$s.,コスト: %1$sプレイヤー経験ポイント (%2$s相対レベル) %3$s
+tooltip.relics.relic.reroll.description,Reroll random stats,ランダム特性値をリロール
+tooltip.relics.relic.reroll.quick,Hold [Shift] to automatically reroll random stats to perfect values.,[シフト]長押しで、ランダム特性値が最大値になるまで自動リロール
+tooltip.relics.relic.reroll.warning,Hold [Shift] to confirm rerolling stats from perfect values to other random ones.,[シフト]長押しで、すでに上限値になっている特性値をリロールするときに確認する
+tooltip.relics.relic.reset.cost,Cost: %1$s experience points %2$s.,コスト: %1$sプレイヤー経験ポイント (%2$s相対レベル) %3$s
+tooltip.relics.relic.reset.description,Reset leveling points,レベルポイントをリセット
+tooltip.relics.relic.reset.locked,To use you need to level-up this ability at least 1 time.,使用するには少なくとも1回はこのアビリティのレベルを上げる必要がある
+tooltip.relics.relic.status.negative,§4§l[§4§l✘§4§l],§4§l[§4§l✘§4§l]
+tooltip.relics.relic.status.positive,§2§l[§2§l✔§2§l],§2§l[§2§l✔§2§l]
+tooltip.relics.relic.status.unknown,§6§l[§6§l?§6§l],§6§l[§6§l?§6§l]
+tooltip.relics.relic.tooltip.abilities,Abilities:,アビリティ:
+tooltip.relics.relic.upgrade.cost,"Cost: %1$s leveling points %2$s, %3$s experience points %4$s.",コスト: %1$sアップグレードポイント %2$s、%3$sプレイヤー経験ポイント (%4$s相対レベル) %5$s
+tooltip.relics.relic.upgrade.description,Level-up,レベルアップ
+tooltip.relics.relic.upgrade.locked,The ability has reached its max level.,このアビリティは既にレベル上限に達している
+tooltip.relics.relic.upgrade.quick,Hold [Shift] to automatically upgrade to the highest possible level.,[シフト]長押しで可能な範囲で最大のレベルまで自動でアップグレード
+tooltip.relics.researching.ability.info.extra_info,"Ability quality, similar to relic quality, is the arithmetic average of all the ability's current characteristics and is measured in points from 1 to 5 with a step of 0.5. It is purely a visual metric that shows how close the ability's initial random characteristics are to the best possible. To improve the ability's quality, you need to reset its random characteristics until you get a better value.",アビリティ品質はレリック品質と同じように、アビリティがもつ特性値の品質すべての単純平均であり、0.5刻みで1から5までのポイントで表される。アビリティのランダム要素で決まる能力が、どれだけベストに近いかを示す純粋な指標である。アビリティ品質を改善するためには、ランダムに決まるそれぞれのアビリティ特性値がより良い値になるまでリロールする必要がある。
+tooltip.relics.researching.ability.info.level,Ability Level:,アビリティレベル:
+tooltip.relics.researching.ability.info.quality,Ability Quality:,アビリティ品質:
+tooltip.relics.researching.badge.ability.cast_type.hint,Use the [%1$s] key outside any interface to call up the active abilities menu!,何もないところで[%1$s]キーを押すと、アクティブなアビリティのメニューを開くことができる
+tooltip.relics.researching.badge.ability.chargeable.description,The ability activates instantly after some time of cyclical use. The outcome may depend on the duration of use.,アビリティがしばらく周期的な使用すると発動する。効果は使用した時間に応じて変化する
+tooltip.relics.researching.badge.ability.chargeable.title,Chargeable Use,チャージ利用
+tooltip.relics.researching.badge.ability.cyclical.description,The ability works only with continuous use.,アビリティの効果は継続して使っているときだけ発揮される
+tooltip.relics.researching.badge.ability.cyclical.title,Cyclical Use,周期利用
+tooltip.relics.researching.badge.ability.flawless_ability.description,The ability has reached perfect parameters. Be proud of yourself!,アビリティの特性値が完璧な状態になった！すごい！
+tooltip.relics.researching.badge.ability.flawless_ability.title,Flawless Ability,完璧なアビリティ
+tooltip.relics.researching.badge.ability.instantaneous.description,The ability activates immediately upon use.,アビリティが使用した瞬間から効果を発揮する
+tooltip.relics.researching.badge.ability.instantaneous.title,Instantaneous Use,即時利用
+tooltip.relics.researching.badge.ability.interruptible.description,The ability lasts for a certain time after use and can be interrupted by repeated use.,アビリティの効果は使用後に一定時間持続し、何度でも使用できる
+tooltip.relics.researching.badge.ability.interruptible.title,Interruptible Use,無制限利用
+tooltip.relics.researching.badge.ability.oblivion.description,The ability will not work under the effect of Oblivion.,忘却効果が付与されている間はアビリティが効果を発揮しない
+tooltip.relics.researching.badge.ability.oblivion.title,Vulnerability to Oblivion,忘却の影響
+tooltip.relics.researching.badge.ability.silence.description,The ability will not work under the effect of Silence.,沈黙効果が付与されている間はアビリティが効果を発揮しない
+tooltip.relics.researching.badge.ability.silence.title,Vulnerability to Silence,沈黙の影響
+tooltip.relics.researching.badge.ability.stated.description,The ability has several modes that cycle with each use.,アビリティがいくつかのモードを持ち、使うたびに周期的に切り替わる
+tooltip.relics.researching.badge.ability.stated.title,Stated Use,モード利用
+tooltip.relics.researching.badge.ability.toggleable.description,The ability can be toggled on/off when used.,使用時にアビリティのオン/オフを切り替えられる
+tooltip.relics.researching.badge.ability.toggleable.title,Toggleable Use,切り替え利用
+tooltip.relics.researching.badge.relic.flawless_relic.description,The relic has reached perfect parameters. Be proud of yourself!,レリックの特性値が完璧な状態になった！本当にすごい！
+tooltip.relics.researching.badge.relic.flawless_relic.title,Flawless Relic,完璧なレリック
+tooltip.relics.researching.general.extra_info,Hold [Shift] for more info,[シフト]長押しで詳細情報
+tooltip.relics.researching.general.leveling_point.extra_info,Earned when leveling up the relic and used to upgrade abilities.,レリックのレベルを上げると獲得でき、アビリティのアップグレードに利用できる
+tooltip.relics.researching.general.leveling_point.title,Leveling Points:,レベルポイント:
+tooltip.relics.researching.general.luck.extra_info,Gained with each unsuccessful reroll of a relic's random attributes and increases the chance of getting better values on the next reroll. Increases the reroll cost by 5 player experience points for each percent of luck.,レリックの特性をリロールしたときに良くない結果を得たときに蓄積され、次のリロール時によい値を引き当てる確率が上がる。運の良さが25%上がる毎に、リロールに必要な経験値が1増える
+tooltip.relics.researching.general.luck.title,Luck:,運の良さ:
+tooltip.relics.researching.general.player_experience.extra_info,"Player experience from 'vanilla' Minecraft. Gained by killing mobs, mining ore, smelting items, etc.",バニラの基本的なプレーヤー経験値。モブを倒したり鉱石を掘ったりインゴットを焼いたり、その他色々な手段で手に入れることができる
+tooltip.relics.researching.general.player_experience.title,Experience Points:,経験値レベル:
+tooltip.relics.researching.info,Hold [Shift] to research...,[%1$s]キーを押したまま調査...
+tooltip.relics.researching.relic.card.low_level,You need to upgrade the relic to level %1$s to use this!,今は使用不可。レリックをレベル%1$sまで上げると解放される
+tooltip.relics.researching.relic.card.no_stats,This ability has no upgradeable stats and does not affect the relic's quality!,このアビリティはアップグレード不可。レリックの品質値にも影響しない
+tooltip.relics.researching.relic.card.ready_to_unlock,Ability is ready to be unlocked! Clicks remaining: %1$s,アビリティを解放できそうだ。クリック回数残り: %1$s
+tooltip.relics.researching.relic.card.ready_to_upgrade,This ability is ready to be upgraded!,アビリティをアップグレード可能
+tooltip.relics.researching.relic.card.unresearched,"To use, you need to conduct the research!",使用するためには調査する必要がある
+tooltip.relics.researching.relic.experience.extra_info,"Earned by using the relic's abilities for their intended purpose, as well as gaining experience from other relics. When the maximum experience value is reached, the relic level and leveling points increase by 1, allowing you to unlock previously unavailable abilities or upgrade existing ones.",アビリティを本来の目的に使用することで獲得できる(詳細については経験値ソースのページを参照)。経験値が上限に達すると、アップグレードのポイントが1だけ増え、これまで使用できなかったアビリティを解放したり、既存のアビリティを強化したりできるようになる。
+tooltip.relics.researching.relic.experience.title,Relic Experience:,レリック経験値:
+tooltip.relics.researching.relic.gem.locked_ability,"To unlock the experience source, you need to unlock and research the associated ability!",経験値ソースを解放するには、関連するアビリティを解放して調査する必要がある
+tooltip.relics.researching.relic.gem.low_level,"To unlock the experience source, you need to level up the relic to %1$s!",経験値ソースを解放するには、レリックをレベル%1$sまで上げる必要がある
+tooltip.relics.researching.relic.info.extra_info,"Relic quality is the arithmetic average of all currently unlocked abilities' quality and is measured in points from 1 to 5 with a step of 0.5. It is purely a visual metric that shows how close the item's initial random characteristics are to the best possible. To improve the overall quality of the relic, each ability needs to be considered separately.",レリック品質は現在解放されているアビリティ品質の単純平均値で、1から5まで0.5刻みで表される。レリックのランダム要素で決まる能力が、どれだけベストに近いかを示す純粋な指標である。レリック品質を改善するためには、それぞれのアビリティ品質を調整する必要がある。
+tooltip.relics.researching.relic.info.level,Relic Level:,レリックレベル:
+tooltip.relics.researching.relic.info.quality,Relic Quality:,レリック品質:
+tooltip.relics.researching.research.hint.cost,Cost: %1$s player experience points (%2$s relative levels) %3$s.,コスト: %1$sプレイヤー経験ポイント (%2$s相対レベル) %3$s
+tooltip.relics.researching.research.hint.description,Hint,ヒント
+tooltip.relics.researching.research.hint.locked,The ability has already been researched!,このアビリティは調査済み
+tooltip.relics.researching.research.hint.quick,Hold [Shift] for fully automatic ability research.,[シフト]長押しで自動でアビリティを調査
+tooltip.relics.researching.research.tip,"To unlock the ability, it is necessary to connect the stars hidden beneath the fog in such a way that the resulting constellation matches the image in the background. When the constellation is correctly aligned, the ability will be automatically researched.",アビリティを解除するには、霧の下に隠れている星を、できあがった星座が背景のイメージと一致するようにつなげる必要がある。星座が正しく揃うと、アビリティは自動的に明らかになる
+tooltip.relics.researching.tab.ability,Abilities,アビリティ
+tooltip.relics.researching.tab.experience,Experience Sources,経験値ソース
+tooltip.relics.researching.tab.relic,Relic,レリック
+tooltip.relics.roller_skates.ability.skating,Acceleration,加速
+tooltip.relics.roller_skates.ability.skating.description,Increases the movement speed depending on its duration. All blocks become slippery for the wearer.,移動速度が%1$s%%増加します。移動時間が%2$s秒を超えると増加が停止します。
+tooltip.relics.roller_skates.description,+1 experience point for each second of acceleration from the ability «Acceleration».,アビリティ《スラローム》で1秒間加速するごとに経験値+1ポイント
+tooltip.relics.shadow_glaive.ability.cloning,Cloning,分身
+tooltip.relics.shadow_glaive.ability.cloning.description,Each projectile bounce from the Mayhem ability has a %1$s%% chance to spawn an additional identical projectile.,アビリティ《恐慌》によって散らばった飛翔体が、%1$s%%の確率で分身を伴うようになる
+tooltip.relics.shadow_glaive.ability.mayhem,Mayhem,恐慌
+tooltip.relics.shadow_glaive.ability.mayhem.description,"Dealing damage has a %1$s%% chance to trigger a projectile that bounces chaotically between nearby targets within a 16-block radius, up to %2$s times, dealing %3$s%% of the triggering attack's damage.",ダメージを与えたときに%1$s%%の確率で、半径16ブロック内の近くのターゲット間で無秩序にバウンドする飛翔体を発動する。飛翔体は最大%2$s回までバウンドし、発動時に与えたダメージの%3$s%%を与える
+tooltip.relics.shadow_glaive.description,+1 experience point for every 2 glaive bounces from the «Blind Justice» ability.,熟練の技に鍛えられた気まぐれな武器。その気になれば、千本の刃が大兵団をも打ち滅ぼすだろう
+tooltip.relics.shadow_glaive.leveling_source.mayhem.description,+%1$s experience points for each activation of the %2$s ability.,%2$s能力の発動1回につき、+%1$s経験値ポイント。
+tooltip.relics.shadow_glaive.leveling_source.mayhem.title,Mayhem,恐慌
+tooltip.relics.space_dissector.ability.dissection,Dissection,空間切開
+tooltip.relics.space_dissector.ability.dissection.description,"Holding RMB creates a portal on a point along the line of sight, stopping holding RMB creates a second portal using the same principle, linking it to the first one. Bringing a living creature to one of the portals will move it to the linked portal. Portals don't work if there are any solid blocks in their path.","RMBを保持すると、視線沿いのポイントにポータルを作成します。(%1$s, %2$s)"
+tooltip.relics.space_dissector.description,+1 experience point for each created portal if there is no existing one,他にポータルが1つも存在しない状態でポータルを1つ開けるたびに経験値+1ポイント
+tooltip.relics.spore_sack.ability.spore_mist,Spore Mist,胞子の霧
+tooltip.relics.spore_sack.ability.spore_mist.description,"When the player's health drops below 50%, releases up to %1$s homing spores around them. These spores deal damage equal to %2$s%% of the player's missing health and block healing for affected targets for 5 seconds. The ability can trigger again once the player's health rises above 50%.",プレイヤーの体力が50%以下になると、最大%1$s個の追尾する胞子を周囲にばら撒く。この胞子はプレイヤーが失っている体力の%2$s%%に等しいダメージを与え、影響を受けた対象は5秒間回復できなくなる。再使用するには、プレイヤーの体力が一度50%以上まで回復する必要がある。
+tooltip.relics.spore_sack.description,"+1 experience point for each spore released by the «Poison Synthesis» ability.
++1 experience point for each additional spore split by the «Decomposition» ability.",質素な麻袋に、命を蝕む瘴気が充満している
+tooltip.relics.spore_sack.leveling_source.spore_mist.description,+%1$s experience points for each successful hit by a spore from the %2$s ability.,アビリティ%2$sによる胞子でダメージを1回与えるたびにレリック経験値+%1$sポイント
+tooltip.relics.spore_sack.leveling_source.spore_mist.title,Spore Mist,胞子の霧
+tooltip.relics.springy_boot.ability.bounce,Elasticity,弾性
+tooltip.relics.springy_boot.ability.bounce.description,"Increases the elasticity of all blocks by %1$s%% compared to slime blocks, enabling the player to bounce off them upon landing. When activated on the ground, it launches the player into the air.",すべてのブロックの弾性をスライムブロックより%1$s%%だけ増加させ、着地時にバウンドするようになる。地上で発動すると空中に飛び上がる。
+tooltip.relics.springy_boot.description,"Grants the relic owner special elasticity, allowing them to bounce off any solid surface.",着用者に特殊な弾力性を与え、どんな固い表面でもバウンドするようになる。
+tooltip.relics.springy_boot.leveling_source.bounce.description,+%1$s experience points for each bounce off a surface using the %2$s ability.,アビリティ%2$sによって地表でバウンドするたびにレリック経験値+%1$sポイント
+tooltip.relics.springy_boot.leveling_source.bounce.title,Elasticity,弾性
+tooltip.relics.wool_mitten.ability.mold,Mold,模様
+tooltip.relics.wool_mitten.ability.mold.description,"Collecting snow using RMB with an empty hand gradually forms special solid snowballs. Hitting such a snowball on the target will cause damage and stun it, as well as freeze targets nearby. Holding a snowball without an equipped relic also freezes the wearer.","空の手でRMBを使用して雪を集めると、徐々に形が形成されます... (%1$s, %2$s, %3$s, %3$s)"
+tooltip.relics.wool_mitten.description,+1 experience point for every 5 units of size when hit by a snowball from the ability «Mold».,アビリティ《雪玉メーカー》で5サイズ分の雪玉を当てるごとに経験値+1ポイント
+item.relics.arrow_quiver,Quiver,射手の矢筒
+item.relics.horse_flute,Horse Flute,馬呼びの笛
+item.relics.spatial_sign,Spatial Sign,時空のサイン
+key.relics.ability_list,Show the active abilities HUD,アクティブアビリティHUDを表示
+tooltip.relics.amphibian_boot.ability.gills.stat.chance.title,Chance of activation:,発動率:
+tooltip.relics.amphibian_boot.ability.gills.stat.chance.value,%1$s%%.,%1$s%%.
+tooltip.relics.amphibian_boot.ability.slipping.stat.duration.title,Maximum duration:,最大持続時間:
+tooltip.relics.amphibian_boot.ability.slipping.stat.duration.value,%1$s seconds.,%1$s秒
+tooltip.relics.amphibian_boot.ability.slipping.stat.speed.title,Speed multiplier per second:,加速倍率:
+tooltip.relics.amphibian_boot.ability.slipping.stat.speed.value,%1$s%%.,1秒で%1$s%%
+tooltip.relics.amphibian_boot.ability.swimming.stat.duration.title,Maximum duration:,最大持続時間:
+tooltip.relics.amphibian_boot.ability.swimming.stat.duration.value,%1$s seconds.,%1$s秒
+tooltip.relics.amphibian_boot.ability.swimming.stat.speed.title,Speed multiplier:,加速倍率:
+tooltip.relics.amphibian_boot.ability.swimming.stat.speed.value,%1$s%% for every second.,1秒で%1$s%%
+tooltip.relics.aqua_walker.ability.walking.stat.time.title,Duration:,持続時間:
+tooltip.relics.aqua_walker.ability.walking.stat.time.value,%1$s seconds.,%1$s秒
+tooltip.relics.arrow_quiver.ability.agility,Dexterity,熟練
+tooltip.relics.arrow_quiver.ability.agility.description,Increases the speed of bowstring tension.,弓を引く動作が速くなる
+tooltip.relics.arrow_quiver.ability.agility.stat.modifier.title,Speed multiplier:,速度倍率:
+tooltip.relics.arrow_quiver.ability.agility.stat.modifier.value,%1$s%%.,%1$s%%.
+tooltip.relics.arrow_quiver.ability.leap,Leap,回避
+tooltip.relics.arrow_quiver.ability.leap.description,"Knocks the player away from the looking direction, inflicting a vanishing effect until landing. Using a bow will suspend the player in mid-air, increasing damage and nullifying gravity for the next critical shot.",プレイヤーは視線方向と反対に退避し、着地するまで透明化の効果を得る。弓を使うとプレイヤーが宙に浮き、ダメージが増加して次のクリティカルショットのために重力が無効になる。
+tooltip.relics.arrow_quiver.ability.leap.predicate.target,Looking at the block underfoot,足元のブロックを見る
+tooltip.relics.arrow_quiver.ability.leap.stat.cooldown.title,Cooldown:,クールダウン:
+tooltip.relics.arrow_quiver.ability.leap.stat.cooldown.value,%1$s seconds.,%1$s秒
+tooltip.relics.arrow_quiver.ability.leap.stat.duration.title,Max duration:,最大持続時間:
+tooltip.relics.arrow_quiver.ability.leap.stat.duration.value,%1$s seconds.,%1$s秒
+tooltip.relics.arrow_quiver.ability.leap.stat.multiplier.title,Additional damage:,追加ダメージ:
+tooltip.relics.arrow_quiver.ability.leap.stat.multiplier.value,+%1$s%%.,+%1$s%%.
+tooltip.relics.arrow_quiver.ability.rain,Arrow Rain,アローレイン
+tooltip.relics.arrow_quiver.ability.rain.description,Calls on a point along the line of sight an area of falling homing arrows from the internal quiver storage from the «Arrow Storage» ability. The arrows themselves from the storage are not consumed. Only one area from this ability can exist at a time.,追尾矢が落下するエリアを射線上の一点に呼び出す。矢筒に入った矢は消費されないが、追尾矢エリアは同時に２つ以上存在できない。
+tooltip.relics.arrow_quiver.ability.rain.predicate.arrow,Arrows in the quiver,矢筒の中に矢がある
+tooltip.relics.arrow_quiver.ability.rain.stat.delay.title,Arrow summon frequency:,矢の召喚間隔:
+tooltip.relics.arrow_quiver.ability.rain.stat.delay.value,%1$s seconds.,%1$s秒
+tooltip.relics.arrow_quiver.ability.rain.stat.duration.title,Area lifetime:,エリア消失まで:
+tooltip.relics.arrow_quiver.ability.rain.stat.duration.value,%1$s seconds.,%1$s秒
+tooltip.relics.arrow_quiver.ability.rain.stat.radius.title,Area radius:,エリア範囲:
+tooltip.relics.arrow_quiver.ability.rain.stat.radius.value,%1$s blocks.,半径%1$sブロック
+tooltip.relics.arrow_quiver.ability.receptacle,Arrow Storage,矢倉
+tooltip.relics.arrow_quiver.ability.receptacle.description,Shooting primarily uses arrows from the quiver's internal storage. Pressing the LMB with arrow on the quiver in the inventory will place it in the internal storage of the relic. Pressing the RMB on the quiver will get the last stack of arrows placed in it.,矢による射撃を行う際に矢筒の中に入れたものから優先的に使用する。矢をマウス左クリック＆ドラッグして矢筒に入れることができる。矢筒をマウス右クリックすると最後に入れた矢を取り出せる
+tooltip.relics.arrow_quiver.ability.receptacle.stat.slots.title,Arrow slots:,矢のスロット数:
+tooltip.relics.arrow_quiver.ability.receptacle.stat.slots.value,%1$s units.,%1$s units.
+tooltip.relics.arrow_quiver.description,+1 experience point for every 10 blocks to the target hit by the shot.,1回の弓矢攻撃でターゲットからの距離が10ブロック離れるごとに経験値+1ポイント
+tooltip.relics.bastion_ring.ability.trade.stat.rolls.title,Maximum number of trades:,最大交易数:
+tooltip.relics.bastion_ring.ability.trade.stat.rolls.value,%1$s units.,%1$s units.
+tooltip.relics.blazing_flask.ability.bonfire.stat.height.title,Flight altitude:,飛行高度:
+tooltip.relics.blazing_flask.ability.bonfire.stat.height.value,%1$s blocks.,%1$sブロック
+tooltip.relics.blazing_flask.ability.bonfire.stat.speed.title,Flight speed:,飛行速度:
+tooltip.relics.blazing_flask.ability.bonfire.stat.speed.value,%1$s blocks per second.,毎秒%1$sブロック
+tooltip.relics.blazing_flask.ability.bonfire.stat.step.title,Fire detection radius:,炎検知範囲:
+tooltip.relics.blazing_flask.ability.bonfire.stat.step.value,%1$s blocks.,半径%1$sブロック
+tooltip.relics.chorus_inhibitor.ability.blink.stat.cooldown.title,Recharge time:,クールダウン時間:
+tooltip.relics.chorus_inhibitor.ability.blink.stat.cooldown.value,%1$s seconds.,%1$s秒
+tooltip.relics.chorus_inhibitor.ability.blink.stat.distance.title,Maximum distance:,最大移動距離:
+tooltip.relics.chorus_inhibitor.ability.blink.stat.distance.value,%1$s blocks.,%1$sブロック
+tooltip.relics.drowned_belt.ability.anchor.stat.sinking.title,Sinking rate:,沈下速度:
+tooltip.relics.drowned_belt.ability.anchor.stat.sinking.value,+%1$s%%.,+%1$s%%.
+tooltip.relics.drowned_belt.ability.anchor.stat.slowness.title,Slowing down swimming:,水泳速度低下:
+tooltip.relics.drowned_belt.ability.anchor.stat.slowness.value,+%1$s%%.,+%1$s%%.
+tooltip.relics.drowned_belt.ability.pressure.stat.damage.title,Damage multiplier:,ダメージ倍率:
+tooltip.relics.drowned_belt.ability.pressure.stat.damage.value,+%1$s%%.,+%1$s%%.
+tooltip.relics.drowned_belt.ability.riptide.stat.cooldown.title,Recharge time:,クールダウン時間:
+tooltip.relics.drowned_belt.ability.riptide.stat.cooldown.value,%1$s seconds per enchantment level.,激流レベル1あたり%1$s秒
+tooltip.relics.drowned_belt.ability.slots.stat.charm.title,Charms:,スロット数:
+tooltip.relics.drowned_belt.ability.slots.stat.charm.value,+%1$s slots.,+%1$s スロット.
+tooltip.relics.elytra_booster.ability.boost.stat.capacity.title,Capacity:,容量サイズ:
+tooltip.relics.elytra_booster.ability.boost.stat.capacity.value,%1$s units.,%1$s units.
+tooltip.relics.elytra_booster.ability.boost.stat.speed.title,Speed:,速度:
+tooltip.relics.elytra_booster.ability.boost.stat.speed.value,%1$s blocks per second.,毎秒%1$sブロック
+tooltip.relics.enders_hand.ability.swap.stat.distance.title,Distance:,距離:
+tooltip.relics.enders_hand.ability.swap.stat.distance.value,%1$s blocks.,%1$sブロック
+tooltip.relics.holy_locket.ability.belief,Belief,信仰
+tooltip.relics.holy_locket.ability.belief.description,"A toggleable ability with two modes: Sanctity and Unholiness. Activating the ability in any mode fills the internal buffer by 1 unit. In Sanctity mode, redirects a portion of the bearer's healing as damage to nearby targets and reduces incoming damage by 1% per charge. In Unholiness mode, absorbs a portion of the healing of nearby targets and increases damage dealt by 1% per charge.",「高潔」と「不浄」の2つのモードを持つ切り替え可能な能力。どちらのモードでも能力を発動させると、チャージが1ポイント溜まる。「高潔」モードでは、持ち主の回復の一部を変換して近くのターゲットにダメージとして与え、1チャージにつき受けるダメージを1%減少させる。 「不浄」モードでは、近くのターゲットの回復の一部を吸収し、1チャージにつき与えるダメージが1%増加する。
+tooltip.relics.holy_locket.ability.belief.stat.amount.title,Healing/Damage Modifier:,回復/ダメージ係数:
+tooltip.relics.holy_locket.ability.belief.stat.amount.value,%1$s%% of the original value.,元の値の%1$s%%分
+tooltip.relics.holy_locket.ability.belief.stat.capacity.title,Buffer capacity:,チャージ容量:
+tooltip.relics.holy_locket.ability.belief.stat.capacity.value,%1$s units.,%1$sポイント
+tooltip.relics.holy_locket.ability.belief.stat.count.title,Maximum number of projectiles:,飛翔体の最大数:
+tooltip.relics.holy_locket.ability.belief.stat.count.value,%1$s units.,%1$s units.
+tooltip.relics.holy_locket.ability.belief.stat.radius.title,Radius:,範囲:
+tooltip.relics.holy_locket.ability.belief.stat.radius.value,%1$s blocks.,半径%1$sブロック
+tooltip.relics.holy_locket.ability.blessing,Blessing,祝福
+tooltip.relics.holy_locket.ability.blessing.description,"Grants the bearer temporary invincibility upon activation, consuming charges from the relic's internal buffer each second.",発動時に所持者に一時的な無敵状態を与え、レリックの内部に溜まったチャージを１秒毎に消費する
+tooltip.relics.holy_locket.ability.blessing.predicate.blessing,Charges in the internal buffer,内部にチャージが溜まっている
+tooltip.relics.holy_locket.ability.blessing.stat.consumption.title,Charge consumption:,チャージ消費量:
+tooltip.relics.holy_locket.ability.blessing.stat.consumption.value,%1$s per second.,秒間%1$sポイント
+tooltip.relics.holy_locket.ability.repentance,Repentance,悔い改めよ
+tooltip.relics.holy_locket.ability.repentance.description,Burns the health of nearby undead.,近くのアンデッドを燃やしてダメージを与える
+tooltip.relics.holy_locket.ability.repentance.stat.damage.title,Damage dealt:,ダメージ:
+tooltip.relics.holy_locket.ability.repentance.stat.damage.value,%1$s per charge.,1チャージあたり%1$sダメージ
+tooltip.relics.holy_locket.ability.repentance.stat.radius.title,Radius:,範囲:
+tooltip.relics.holy_locket.ability.repentance.stat.radius.value,%1$s blocks.,半径%1$sブロック
+tooltip.relics.horse_flute.ability.heal,Plot to treatment,馬体調整
+tooltip.relics.horse_flute.ability.heal.description,A horse placed in the internal storage will slowly restore health.,レリックに格納している間、馬のハートがゆっくり回復する
+tooltip.relics.horse_flute.ability.heal.stat.amount.title,Treatment:,回復量:
+tooltip.relics.horse_flute.ability.heal.stat.amount.value,%1$s health units per second.,1秒あたりハート%1$s個分
+tooltip.relics.horse_flute.ability.paddock,Portable Stall,携帯鞍
+tooltip.relics.horse_flute.ability.paddock.description,"Using a relic on the horse will move the animal to the internal storage. Reuse will release the creature. If the distance between the wearer and the summoned horse exceeds 16 blocks, it will automatically fit back into the flute.",馬に対して使用すると、レリック内に馬を格納しておける。もう一度使うと格納した馬を召喚できる。召喚した馬とプレイヤーが16ブロック以上離れると、馬が自動的にレリックの中に格納される
+tooltip.relics.horse_flute.ability.paddock.stat.slots.title,Slots:,スロット数:
+tooltip.relics.horse_flute.ability.paddock.stat.slots.value,%1$s.,%1$s.
+tooltip.relics.horse_flute.description,+1 experience point for every 25 blocks overcome by a horse called by the ability «Portable Stall».,アビリティ《携帯鞍》で呼んだ馬で25ブロック進むたびに経験値+1ポイント
+tooltip.relics.hunter_belt.ability.slots.stat.charm.title,Charms:,スロット数:
+tooltip.relics.hunter_belt.ability.slots.stat.charm.value,+%1$s slots.,+%1$s スロット.
+tooltip.relics.hunter_belt.ability.training,Training,訓練
+tooltip.relics.hunter_belt.ability.training.stat.damage.title,Damage multiplier:,ダメージ倍率:
+tooltip.relics.hunter_belt.ability.training.stat.damage.value,+%1$s%%.,+%1$s%%.
+tooltip.relics.ice_breaker.ability.impact.stat.damage.title,Minimum damage:,最低ダメージ:
+tooltip.relics.ice_breaker.ability.impact.stat.damage.value,%1$s units.,%1$s units.
+tooltip.relics.ice_breaker.ability.impact.stat.size.title,Maximum radius:,最大範囲:
+tooltip.relics.ice_breaker.ability.impact.stat.size.value,%1$s blocks.,半径%1$sブロック
+tooltip.relics.ice_breaker.ability.sustainability.stat.modifier.title,Knockback resistance:,ノックバック耐性:
+tooltip.relics.ice_breaker.ability.sustainability.stat.modifier.value,%1$s%%.,%1$s%%.
+tooltip.relics.ice_skates.ability.ram.stat.damage.title,Damage per second:,ダメージ量:
+tooltip.relics.ice_skates.ability.ram.stat.damage.value,%1$s units.,1秒あたり%1$s
+tooltip.relics.ice_skates.ability.skating.stat.duration.title,Maximum duration:,最大持続時間:
+tooltip.relics.ice_skates.ability.skating.stat.duration.value,%1$s seconds.,%1$s秒
+tooltip.relics.ice_skates.ability.skating.stat.speed.title,Speed multiplier per second:,毎秒の速度倍率:
+tooltip.relics.ice_skates.ability.skating.stat.speed.value,%1$s%%.,1秒あたり%1$s%%
+tooltip.relics.infinity_ham.ability.autophagy,Regeneration,再生
+tooltip.relics.infinity_ham.ability.autophagy.description,"Using a relic consumes one of the regeneratable charges, replenishing the hunger of the wearer.",使用すると再生可能なチャージが1つ消費され、使用者の満腹度が回復する
+tooltip.relics.infinity_ham.ability.autophagy.stat.feed.title,Saturation:,満腹度回復:
+tooltip.relics.infinity_ham.ability.autophagy.stat.feed.value,%1$s units.,ゲージ%1$s個分
+tooltip.relics.infinity_ham.ability.infusion,Alchemy,錬金術
+tooltip.relics.infinity_ham.ability.infusion.description,"Using a potion on the relic in the inventory remembers its effect by spending the potion. Subsequent use of the «Regeneration» ability will impose a summable effect of the associated potion on the wearer. In the complete absence of charges, the relic loses the properties of the associated potion.",インベントリ内のレリックにポーションを使用すると、ポーションを消費してその効果が記憶される。それ以降、アビリティ《再生》で蓄積される可食部分はポーション効果を持つようになる。全て食べきってしまうと、レリックは記憶しているポーション効果を失う。
+tooltip.relics.infinity_ham.ability.infusion.stat.duration.title,Effect duration:,効果持続時間:
+tooltip.relics.infinity_ham.ability.infusion.stat.duration.value,%1$s seconds per charge.,1口あたり%1$s秒
+tooltip.relics.jellyfish_necklace.ability.paralysis.stat.duration.title,Effect duration:,効果持続時間:
+tooltip.relics.jellyfish_necklace.ability.paralysis.stat.duration.value,%1$s seconds.,%1$s秒
+tooltip.relics.jellyfish_necklace.ability.shock.stat.damage.title,Damage:,ダメージ:
+tooltip.relics.jellyfish_necklace.ability.shock.stat.damage.value,%1$s units.,%1$s units.
+tooltip.relics.leather_belt.ability.slots.stat.charm.title,Charms:,スロット数:
+tooltip.relics.leather_belt.ability.slots.stat.charm.value,+%1$s slots.,+%1$s スロット.
+tooltip.relics.magic_mirror.ability.teleport.stat.cooldown.title,Recharge:,チャージ時間:
+tooltip.relics.magic_mirror.ability.teleport.stat.cooldown.value,%1$s seconds.,%1$s秒
+tooltip.relics.magic_mirror.ability.teleport.stat.distance.title,Distance:,距離:
+tooltip.relics.magic_mirror.ability.teleport.stat.distance.value,%1$s blocks.,%1$sブロック
+tooltip.relics.magma_walker.ability.pace.stat.time.title,Duration:,持続時間:
+tooltip.relics.magma_walker.ability.pace.stat.time.value,%1$s seconds.,%1$s秒
+tooltip.relics.midnight_robe.ability.backstab.stat.damage.title,Damage multiplier:,ダメージ倍率:
+tooltip.relics.midnight_robe.ability.backstab.stat.damage.value,%1$s%%.,%1$s%%.
+tooltip.relics.midnight_robe.ability.backstab.stat.distance.title,Circle radius:,円形エリアサイズ:
+tooltip.relics.midnight_robe.ability.backstab.stat.distance.value,%1$s blocks.,半径%1$sブロック
+tooltip.relics.midnight_robe.ability.vanish.stat.light.title,Minimum light level:,最低明るさ:
+tooltip.relics.midnight_robe.ability.vanish.stat.light.value,%1$s.,%1$s.
+tooltip.relics.midnight_robe.ability.vanish.stat.speed.title,Speed multiplier:,速度倍率:
+tooltip.relics.midnight_robe.ability.vanish.stat.speed.value,%1$s%%.,%1$s%%.
+tooltip.relics.rage_glove.ability.phlebotomy.stat.attack_speed.title,Attack speed multiplier:,攻撃速度上昇率:
+tooltip.relics.rage_glove.ability.phlebotomy.stat.attack_speed.value,%1$s%% for 1%%.,1%%減で%1$s%%
+tooltip.relics.rage_glove.ability.phlebotomy.stat.heal.title,Health regen:,再生能力:
+tooltip.relics.rage_glove.ability.phlebotomy.stat.heal.value,%1$s for 1%% per second.,1%%減で秒間%1$s
+tooltip.relics.rage_glove.ability.phlebotomy.stat.movement_speed.title,Movement speed multiplier:,移動速度上昇率:
+tooltip.relics.rage_glove.ability.phlebotomy.stat.movement_speed.value,%1$s%% for 1%%.,1%%減で%1$s%%
+tooltip.relics.rage_glove.ability.rage.stat.dealt_damage.title,Dealt damage multiplier:,与ダメージ倍率:
+tooltip.relics.rage_glove.ability.rage.stat.dealt_damage.value,%1$s%% per charge.,チャージ1あたり%1$s%%
+tooltip.relics.rage_glove.ability.rage.stat.duration.title,Charge existence time:,チャージ存続時間:
+tooltip.relics.rage_glove.ability.rage.stat.duration.value,%1$s seconds.,%1$s秒
+tooltip.relics.rage_glove.ability.rage.stat.incoming_damage.title,Incoming damage multiplier:,被ダメージ倍率:
+tooltip.relics.rage_glove.ability.rage.stat.incoming_damage.value,%1$s%% per charge.,チャージ1あたり%1$s%%
+tooltip.relics.rage_glove.ability.spurt.stat.cooldown.title,Cooldown:,クールダウン:
+tooltip.relics.rage_glove.ability.spurt.stat.cooldown.value,%1$s seconds.,%1$s秒
+tooltip.relics.rage_glove.ability.spurt.stat.damage.title,Dealt damage:,与ダメージ:
+tooltip.relics.rage_glove.ability.spurt.stat.damage.value,%1$s per charge.,チャージ1あたり%1$s
+tooltip.relics.rage_glove.ability.spurt.stat.distance.title,Distance:,ダッシュ距離:
+tooltip.relics.rage_glove.ability.spurt.stat.distance.value,%1$s blocks.,%1$sブロック
+tooltip.relics.reflection_necklace.ability.explode.stat.capacity.title,Damage buffer:,蓄積容量:
+tooltip.relics.reflection_necklace.ability.explode.stat.capacity.value,%1$s units.,%1$s units.
+tooltip.relics.reflection_necklace.ability.explode.stat.damage.title,Damage per buffer unit:,蓄積1ポイントあたりのダメージ:
+tooltip.relics.reflection_necklace.ability.explode.stat.damage.value,%1$s units.,%1$s units.
+tooltip.relics.reflection_necklace.ability.explode.stat.stun.title,Stun per buffer unit:,蓄積1ポイントあたりのスタン長さ:
+tooltip.relics.reflection_necklace.ability.explode.stat.stun.value,%1$s seconds.,%1$s秒
+tooltip.relics.roller_skates.ability.skating.stat.duration.title,Maximum duration:,最大持続時間:
+tooltip.relics.roller_skates.ability.skating.stat.duration.value,%1$s seconds.,%1$s秒
+tooltip.relics.roller_skates.ability.skating.stat.speed.title,Speed multiplier per second:,毎秒の速度倍率:
+tooltip.relics.roller_skates.ability.skating.stat.speed.value,%1$s%%.,1秒あたり%1$s%%
+tooltip.relics.shadow_glaive.ability.glaive,Blind Justice,斬撃
+tooltip.relics.shadow_glaive.ability.glaive.description,"Usage releases one of 8 glaive charges, bouncing between nearby targets. The missing charges are restored themselves after a certain amount of time.",使用することで8つの攻撃チャージのうち1発を放ち、近くのターゲット間でバウンドさせる。消費したチャージは、一定の時間が経過すると回復する
+tooltip.relics.shadow_glaive.ability.glaive.stat.bounces.title,Bounces:,バウンド回数:
+tooltip.relics.shadow_glaive.ability.glaive.stat.bounces.value,%1$s.,%1$s.
+tooltip.relics.shadow_glaive.ability.glaive.stat.damage.title,Damage:,ダメージ:
+tooltip.relics.shadow_glaive.ability.glaive.stat.damage.value,%1$s.,%1$s.
+tooltip.relics.shadow_glaive.ability.glaive.stat.radius.title,Bounce radius:,バウンド範囲:
+tooltip.relics.shadow_glaive.ability.glaive.stat.radius.value,%1$s blocks.,半径%1$sブロック
+tooltip.relics.shadow_glaive.ability.glaive.stat.recharge.title,Recovery time:,回復時間:
+tooltip.relics.shadow_glaive.ability.glaive.stat.recharge.value,%1$s seconds.,%1$s秒
+tooltip.relics.shadow_glaive.ability.saw,Merciless punishment,刃の嵐
+tooltip.relics.shadow_glaive.ability.saw.description,"Usage consumes all 8 glaive charges, summoning a saw that deals damage to nearby targets. Reuse will return the saw to the wearer, restoring all charges. Automatic charge regeneration is blocked while the ability is active.",使用することで8つの攻撃チャージを全て消費し、近くのターゲットにダメージを与える刃を召喚する。再び使用すると刃は収納され、すべてのチャージが回復する。 アビリティが発動している間、チャージは自動回復しなくなる
+tooltip.relics.shadow_glaive.ability.saw.stat.damage.title,Damage:,ダメージ:
+tooltip.relics.shadow_glaive.ability.saw.stat.damage.value,%1$s units.,%1$s units.
+tooltip.relics.shadow_glaive.ability.saw.stat.speed.title,Hit interval:,攻撃間隔:
+tooltip.relics.shadow_glaive.ability.saw.stat.speed.value,%1$s seconds.,%1$s秒
+tooltip.relics.space_dissector.ability.dissection.stat.distance.title,Maximum distance:,最大距離:
+tooltip.relics.space_dissector.ability.dissection.stat.distance.value,%1$s blocks.,%1$sブロック
+tooltip.relics.space_dissector.ability.dissection.stat.time.title,Portal lifetime:,ポータル持続時間:
+tooltip.relics.space_dissector.ability.dissection.stat.time.value,%1$s seconds,%1$s秒
+tooltip.relics.spatial_sign.ability.seal,Time Rift,逆再生
+tooltip.relics.spatial_sign.ability.seal.description,"When used, returns the wearer along the route traveled after a certain amount of time. Repeated use will terminate the ability.",使用した瞬間までに移動してきたルートを一定時間分だけ戻る。もう一度使うとアビリティ効果を中断できる。
+tooltip.relics.spatial_sign.ability.seal.stat.time.title,Maximum duration:,最大持続時間:
+tooltip.relics.spatial_sign.ability.seal.stat.time.value,%1$s seconds.,%1$s秒
+tooltip.relics.spatial_sign.description,+1 experience point for each second of return from the ability «Time rift».,アビリティ《逆再生》で1秒戻るごとに経験値+1ポイント
+tooltip.relics.spore_sack.ability.buffer,Poison Accumulation,毒溜まり
+tooltip.relics.spore_sack.ability.buffer.description,"Each time the «Poison Synthesis» ability cooldown triggers, accumulates one charge into the relic's internal buffer that can be used by other abilities to release spores. Adds a chance not to consume spores from the internal buffer when requesting charges for other abilities.",アビリティ《胞子》のクールタイムが発生する度に、レリック内部にチャージが1ずつ溜まる。他のアビリティで胞子を出すとき、一定確率でこのチャージを代わりに使う。
+tooltip.relics.spore_sack.ability.buffer.stat.capacity.title,Capacity:,容量:
+tooltip.relics.spore_sack.ability.buffer.stat.capacity.value,%1$s spores.,胞子%1$s個分
+tooltip.relics.spore_sack.ability.buffer.stat.chance.title,Chance:,確率:
+tooltip.relics.spore_sack.ability.buffer.stat.chance.value,%1$s%%.,%1$s%%.
+tooltip.relics.spore_sack.ability.explosion,Poison Release,毒々
+tooltip.relics.spore_sack.ability.explosion.description,"Empties the relic's buffer, releasing all accumulated spore charges into the world. The size of the released spores depends on the wearer's missing health.",レリック内部のチャージを全て使って、周辺に胞子をまき散らす。着用者のライフが減っているほど、まき散らされる胞子のサイズは大きくなる
+tooltip.relics.spore_sack.ability.explosion.predicate.spore,Spores in the sack,チャージが溜まっている
+tooltip.relics.spore_sack.ability.explosion.stat.size.title,Spore size:,胞子サイズ:
+tooltip.relics.spore_sack.ability.explosion.stat.size.value,%1$s per missing health point.,減ったライフ1あたり%1$s
+tooltip.relics.spore_sack.ability.multiplying,Decomposition,分裂
+tooltip.relics.spore_sack.ability.multiplying.description,"Each spore can split into several smaller spores within a given range when it explodes. The maximum number of spores is determined by the degree of the main spore size, but the final number is limited by the first unsuccessful chance of spore division.",それぞれの胞子は、破裂するときに一定の範囲内でいくつかの小さな胞子に分裂する。胞子の最大分裂数は元の胞子のサイズによって決まるが、分裂確率によって最終的な数はそれよりも少なくなることが多い。
+tooltip.relics.spore_sack.ability.multiplying.stat.amount.title,Spore size degree:,胞子サイズ等級:
+tooltip.relics.spore_sack.ability.multiplying.stat.amount.value,%1$s.,%1$s.
+tooltip.relics.spore_sack.ability.multiplying.stat.chance.title,Split chance:,分裂確率:
+tooltip.relics.spore_sack.ability.multiplying.stat.chance.value,%1$s%%.,%1$s%%.
+tooltip.relics.spore_sack.ability.multiplying.stat.size.title,Spore size:,胞子サイズ:
+tooltip.relics.spore_sack.ability.multiplying.stat.size.value,%1$s%% of the main spore.,元の胞子の%1$s%%
+tooltip.relics.spore_sack.ability.spore,Poison Synthesis,胞子散布
+tooltip.relics.spore_sack.ability.spore.description,"When taking damage, throws a spore in a random direction that sticks to surfaces and explodes when a target approaches, dealing damage, poisoning, slowing, and blocking healing for 5 seconds.",ダメージを受けるとランダムな方向に胞子を放出する。胞子は壁や地面に付着してターゲットが近づくと破裂してダメージを与え、毒、移動速度低下および回復阻害の効果を付与する。これらの効果は5秒間持続する。
+tooltip.relics.spore_sack.ability.spore.stat.cooldown.title,Cooldown:,クールダウン:
+tooltip.relics.spore_sack.ability.spore.stat.cooldown.value,%1$s seconds.,%1$s秒
+tooltip.relics.spore_sack.ability.spore.stat.damage.title,Damage:,ダメージ:
+tooltip.relics.spore_sack.ability.spore.stat.damage.value,%1$s per unit of size.,サイズ1あたり%1$sのダメージ
+tooltip.relics.spore_sack.ability.spore.stat.duration.title,Duration:,持続時間:
+tooltip.relics.spore_sack.ability.spore.stat.duration.value,%1$s seconds.,%1$s秒
+tooltip.relics.spore_sack.ability.spore.stat.size.title,Size:,サイズ:
+tooltip.relics.spore_sack.ability.spore.stat.size.value,%1$s per unit of damage.,%1$s 毎ダメージ単位で。
+tooltip.relics.wool_mitten.ability.mold.stat.damage.title,Damage:,ダメージ:
+tooltip.relics.wool_mitten.ability.mold.stat.damage.value,%1$s per unit size.,サイズ1あたり%1$s
+tooltip.relics.wool_mitten.ability.mold.stat.freeze.title,Frostbite:,凍結効果:
+tooltip.relics.wool_mitten.ability.mold.stat.freeze.value,%1$s seconds per unit size.,サイズ1あたり%1$s秒
+tooltip.relics.wool_mitten.ability.mold.stat.size.title,Maximum size:,最大サイズ:
+tooltip.relics.wool_mitten.ability.mold.stat.size.value,%1$s units.,%1$s units.
+tooltip.relics.wool_mitten.ability.mold.stat.stun.title,Stun:,スタン効果:
+tooltip.relics.wool_mitten.ability.mold.stat.stun.value,%1$s seconds per unit size.,サイズ1あたり%1$s秒

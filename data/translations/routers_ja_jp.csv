@@ -1,0 +1,61 @@
+﻿key,source_text,target_text
+block.routers.exporter_block,Exporter,エクスポーター
+block.routers.importer_block,Importer,インポーター
+item.routers.advanced_pressure_upgrade,Advanced Pressure Upgrade,高度な圧力アップグレード
+item.routers.chemical_upgrade_1,Chemical Upgrade I,化学アップグレード I
+item.routers.chemical_upgrade_2,Chemical Upgrade II,化学アップグレード II
+item.routers.chemical_upgrade_3,Chemical Upgrade III,化学アップグレードIII
+item.routers.chemical_upgrade_4,Chemical Upgrade IV,化学アップグレード IV
+item.routers.dimensional_upgrade,Dimensional Upgrade,ディメンショナルアップグレード
+item.routers.fluid_upgrade_1,Fluid Upgrade I,液体アップグレードI
+item.routers.fluid_upgrade_2,Fluid Upgrade II,液体アップグレード II
+item.routers.fluid_upgrade_3,Fluid Upgrade III,フラットアップグレード III
+item.routers.fluid_upgrade_4,Fluid Upgrade IV,液体アップグレード IV
+item.routers.heat_upgrade_pc,Heat Upgrade (PneumaticCraft),熱アップグレード（PneumaticCraft）
+item.routers.item_upgrade_1,Item Upgrade I,アイテムアップグレードI
+item.routers.item_upgrade_2,Item Upgrade II,アイテムアップグレードII
+item.routers.item_upgrade_3,Item Upgrade III,アイテムアップグレード III
+item.routers.item_upgrade_4,Item Upgrade IV,アイテムアップグレードIV
+item.routers.mod_filter,Mod Filter,Modフィルター
+item.routers.pressure_upgrade,Basic Pressure Upgrade,基本圧力アップグレード
+item.routers.reinforced_pressure_upgrade,Reinforced Pressure Upgrade,強化圧力アップグレード
+item.routers.rf_upgrade_1,RF Upgrade I,RFアップグレードI
+item.routers.rf_upgrade_2,RF Upgrade II,RFアップグレードII
+item.routers.rf_upgrade_3,RF Upgrade III,RFアップグレードIII
+item.routers.rf_upgrade_4,RF Upgrade IV,RFアップグレードIV
+item.routers.round_robin_upgrade,Round Robin Upgrade,ラウンドロビンアップグレード
+item.routers.router_connector,Connector,コネクタ
+item.routers.soul_upgrade,Soul Upgrade,魂アップグレード
+item.routers.source_upgrade_1,Source Upgrade I,ソースアップグレードI
+item.routers.source_upgrade_2,Source Upgrade II,ソースアップグレードII
+item.routers.source_upgrade_3,Source Upgrade III,ソースアップグレード III
+item.routers.source_upgrade_4,Source Upgrade IV,ソースアップグレードIV
+item.routers.speed_upgrade_1,Speed Upgrade I,スピードアップグレードI
+item.routers.speed_upgrade_2,Speed Upgrade II,スピードアップグレードII
+item.routers.speed_upgrade_3,Speed Upgrade III,スピードアップグレードIII
+item.routers.speed_upgrade_4,Speed Upgrade IV,スピードアップグレードIV
+item.routers.tag_filter,Tag Filter,タグフィルター
+itemGroup.routers,Routers,ルーター
+message.routers.exporter.add_importer,Added Importer to Exporter,インポートをエクスポートに追加しました
+message.routers.exporter.remove_importer,Removed Importer from Exporter,インポートからエクスポートを削除しました。
+message.routers.importer.added_pos,Added Importer position,インポート位置を追加
+message.routers.importer.removed_pos,Removed Importer position,インポート位置を削除
+screen.routers.config_screen,Set Filter,フィルター付きコネクター
+tooltip.routers.chemical_upgrade,Allows Extraction of Mekanism Chemicals from the Exporter at %s mB/Per Operation,Mekanism 化学物質を %s mB/操作でエクスポーターから抽出可能にします
+tooltip.routers.dimensional_upgrade,Allows the Exporter to extract to Importers in other Dimensions,エクスポーターは他のディメンションのインポーターへ抽出できます。
+tooltip.routers.exporter,"Does nothing on its own, used to extract from the connected inventory to a connected Importer(s). Use Upgrades to allow different types of extraction.",それ自体は何もしません。接続されたインベントリから接続されたインポーター(複数)に取り出すために使用されます。アップグレードを使用して、異なるタイプの取り出しを許可します。
+tooltip.routers.exporter_filter_slots,Empty Item/Fluid Filter,アイテム/液体フィルター（空）
+tooltip.routers.exporter_upgrades_slots,Upgrade Slot,アップグレードスロット
+tooltip.routers.fluid_upgrade,Allows Extraction of Fluids from the Exporter at %s MB/Per Operation,Exporter から %s MB/操作ごとに液体を抽出できるようにします
+tooltip.routers.hold_shift,Press SHIFT for more info,SHIFTを押して詳細情報を見る
+tooltip.routers.importer,"Does nothing on its own, used to insert into the connected inventory from a connected Exporter.",単独では何もしません。接続済みエクスポーターから接続インベントリに挿入するために使用されます。
+tooltip.routers.item_upgrade,Allows Extraction of Items from the Exporter at %s Items/Per Operation,エクスポーターからアイテムを %s 個/操作で抽出できます
+tooltip.routers.mod_filter,Mod: %s,Mod: %s
+tooltip.routers.mod_filter_empty,"Right Click to open, allows filtering by Tag",右クリックで開く、タグでフィルタリング可能
+tooltip.routers.rf_upgrade,Allows Extraction of RF from the Exporter at %s RF/Per Operation,Exporter から %s RF/操作単位で RF を抽出することを許可します
+tooltip.routers.round_robin_upgrade,Extractor distributes in order evenly between multiple Importers,Extractor は複数のインポーターへ均等に分配します
+tooltip.routers.router_connector,Right Click on an Importer to set the position then Right Click on an Exporter to link them. Right Click to unlink.,インポーターを右クリックして位置を設定してから、エクスポーターを右クリックしてそれらをリンクします。右クリックしてリンク解除します。
+tooltip.routers.source_upgrade,Allows Extraction of Ars Nouveau Source from the Exporter at %s Per Operation,エクスポーターの %s から Ars Nouveau ソースを抽出します（1回あたり）
+tooltip.routers.speed_upgrade,Allows Extraction of from the Exporter every %s Ticks,Exporterから毎%sティックで抽出を許可する
+tooltip.routers.tag_filter,Tag: %s,タグ: %s
+tooltip.routers.tag_filter_empty,"Right Click to open, allows filtering by Mod",右クリックで開く、Modでフィルタリング可能

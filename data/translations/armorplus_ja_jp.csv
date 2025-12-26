@@ -1,0 +1,673 @@
+﻿key,source_text,target_text
+itemGroup.armorplus.armors,AP Armors,AP 防具
+itemGroup.armorplus.items,AP Items,AP アイテム
+itemGroup.armorplus.blocks,AP Blocks,AP ブロック
+itemGroup.armorplus.weapons,AP Weapons,AP 武器
+itemGroup.armorplus.tools,AP Tools,APツール
+itemGroup.armorplus.trophies,AP Trophies,AP賞
+itemGroup.armorplus.prototypes,AP Prototypes,APプロトタイプ
+itemGroup.armorplus.tesla,AP Tesla,AP テスラ
+itemGroup.armorplus.rf,AP RF,AP RF
+itemGroup.armorplus.tinkers,AP Tinkers,APティンカーズ
+armorplus.subtitle.trap_triggered,Trap Triggered,トラップがトリガーされた
+status.armorplus.tgotg.gained_item,You got: %s [%s],あなたが取得: %s [%s]
+gui.armorplus.info.text_line_heading,ArmorPlus Info,ArmorPlus情報
+gui.armorplus.info.text_line_one,ArmorPlus Crafting Recipes are,ArmorPlus クラフトレシピは
+gui.armorplus.info.text_line_two,Expert Mode `I:Recipe:1` by default.,デフォルトでExpert Mode `I:Recipe:1` を使用します。
+gui.armorplus.info.text_line_three,If you want to change to Easy Mode,イージーモードに変更したい場合は
+gui.armorplus.info.text_line_four,you will need to change the config,設定を変更する必要があります
+gui.armorplus.info.text_line_five,From `I:Recipe:1` to `I:Recipe:0`.,I:Recipe:1 から I:Recipe:0 へ。
+gui.armorplus.info.text_line_six,Current Game Mode `I:Recipe: %s`.,現在のゲームモード `I:Recipe: %s`。
+enchantment.armorplus.life_steal,Life Steal,吸命
+enchantment.armorplus.life_steal.desc,Steal's the attacked entity's health and heals you,攻撃されたエンティティの体力を盗み、あなたを治癒します
+enchantment.armorplus.furious,Furious,激烈
+enchantment.armorplus.furious.desc,"When hit you get furious, giving you strength and speed boost based on level.",攻撃されると怒りが湧き、レベルに応じて力と速度のブーストを得ます。
+enchantment.armorplus.enhanced,Enhanced,強化
+enchantment.armorplus.enhanced.desc,"Greatly improves your armor piece (only applicable to vanilla Chainmale, Iron, Gold, Diamond armors)",チェーンメイル、鉄、金、ダイヤモンドの防具にのみ適用される（ヴァニラ）
+armorplus.jei.guardian_scale.desc,"Used to craft the Guardian weapons, armor and the Ultimate Material. Dropped by the Elder Guardian and by Guardians.",ガーディアン武器、防具、最終マテリアルの製作に使用します。エルダーガーディアンとガーディアンがドロップします。
+armorplus.jei.wither_bone.desc,"Used to craft the Super Star weapons, armor and the Ultimate Material. Dropped by The Wither Boss and by Wither Skeletons.",ウィザー武器、防具、最終マテリアルの製作に使用します。ウィザーボスとウィザースケルトンがドロップします。
+armorplus.jei.ender_dragon_scale.desc,"Used to craft the Ender Dragon weapons, armor and the Ultimate Material. Dropped by the Ender Dragon and Ender Dragon Zombies.",エンダードラゴン武器、防具、最終マテリアルの製作に使用します。エンダードラゴンとエンダードラゴンゾンビがドロップします。
+armorplus.jei.lava_infuser.desc,Used for infusing Lava Crystals and Obsidian blocks into Lava Infused Obsidian. You need to provide it with lava buckets in order to work.,溶岩クリスタルと黒曜石を溶岩注入黒曜石に加工します。動作には溶岩バケットを供給する必要があります。
+item.armorplus.bauble_cosmetic_dragon.name,Cosmetic Dragon,コスメティック・ドラゴン
+container.armorplus.workbench,Workbench,ArmorPlus 作業台
+container.armorplus.high_tech_bench,High-Tech Bench,ArmorPlus 高性能作業台
+container.armorplus.ulti_tech_bench,Ulti-Tech Bench,ArmorPlus 超高性能作業台
+container.armorplus.champion_bench,Champion Bench,チャンピオンベンチ
+container.armorplus.inventory,Inventory,インベントリ
+container.armorplus.lava_infuser,Lava Infuser,溶岩注入器
+tooltip.shift.showinfo.text_one,Press,%s%s%s を押すと詳細が表示されます
+tooltip.shift.showinfo.text_two,for more info.,詳細についてはこちら。
+modifier.firestorm.name,Fire Storm,火属性乱流
+modifier.firestorm.desc,"§oThe real Super Nova!§r\nBonus fire damage, sets your enemies on fire.",§o本物のスーパー・ノヴァ！§r\\nボーナス火傷ダメージで敵を炎上させます
+modifier.firestorm.extra,Fire Damage: +%s,火属性ダメージ: +%s
+modifier.firestorm.extra2,Burn Duration: %ss,火属性持続時間: %ss
+modifier.ultimatemod.name,Expanded,拡張
+modifier.ultimatemod.desc,Add +1 Modifier,+1
+material.infused_lava_crystal.name,Infused Lava Crystal,溶岩水晶
+material.compressed_obsidian.name,Compressed Obsidian,高密度黒曜石
+material.lava_infused_obsidian.name,Lava Infused Obsidian,溶岩が浸透した黒曜石
+material.guardian.name,Guardian,ガーディアン
+material.super_star.name,Super Star,スーパースター
+material.ender_dragon.name,Ender Dragon,エンダードラゴン
+tile.armorplus.block_energy_creative.name,Creative Power Cell,クリエイティブパワーセル
+commands.armorplus.error.arg.invalid,Invalid arguments,不正な引数です
+commands.armorplus.error.arg.missing,Not enough arguments,引数が不足しています
+commands.armorplus.error.arg.player.missing,You must specify which player you wish to perform this action on.,このアクションを実行したいプレイヤーを指定する必要があります
+commands.armorplus.error.404,Command not found!,コマンドが存在しません!
+commands.armorplus.error.unknown,Unknown command! Please use /armorplus help,不明なコマンドです! helpコマンド: /armorplus help
+commands.armorplus.error.perm,You do not have permission to use this command.,コマンドの実行許可がありません
+commands.armorplus.success,Executed successfully,実行しました
+commands.armorplus.format.help,%s - %s,%s - %s
+commands.armorplus.help.usage,/armorplus help,/armorplus help
+commands.armorplus.help.help,"Displays the help information for the ""/armorplus"" command.",「/armorplus」コマンドのヘルプ情報を表示します。
+commands.armorplus.info_line_one.part_one.text,[%s [%s] (%s) %s,[%s [%s] (%s) %s
+commands.armorplus.info_line_one.part_two.text,by %s sokratis12GR,by %s sokratis12GR
+commands.armorplus.info_line_two.text,[Thank you %s for using %s],[%s さん、%s をご利用いただきありがとうございます。]
+commands.armorplus.info_line_three.text,[modid: %s],[modid: %s]
+commands.armorplus.info_line_four.text,[Minecraft Version: %s],[Minecraftバージョン: %s]
+commands.armorplus.info_line_five.text,[ArmorPlus recipe difficulty: %s],[ArmorPlusレシピ難易度: %s]
+commands.armorplus.info_line_six.text,[Recipes] use command /armorplus wiki,[レシピ] コマンド /armorplus wiki を使用してください
+commands.armorplus.info_line_seven.text,[Discord] use command /armorplus discord,[Discord] コマンド /armorplus discord を使用してください
+commands.armorplus.info.usage,/armorplus info,/armorplus info
+commands.armorplus.info.help,Shows Information about ArmorPlus,ArmorPlus の情報を表示します。
+commands.armorplus.wiki.usage,/armorplus wiki,/armorplus wiki
+commands.armorplus.wiki.help,Opens a Link in your browser to the ArmorPlus Wiki,ArmorPlus Wikiへのリンクをブラウザで開きます
+commands.armorplus.wiki.link_details,ArmorPlus' Official Wiki: %s,ArmorPlus公式ウィキ: %s
+commands.armorplus.wiki.link_open,Opens a link to ArmorPlus' wiki,ArmorPlusのウィキへのリンクを開く
+commands.armorplus.nodecraft.about.text,This project is sponsored by Nodecraft.,このプロジェクトはNodecraftによってスポンサーされています。
+commands.armorplus.nodecraft.promo.start.text,Use code %s,コード %s を使用
+commands.armorplus.nodecraft.promo.middle.text,ArmorPlus,アーマープラス
+commands.armorplus.nodecraft.promo.end.text,for %s off your first month of service!,%sのサービス開始1か月目をお祝い！
+commands.armorplus.nodecraft.usage,/armorplus nodecraft,/armorplus nodecraft
+commands.armorplus.nodecraft.help,Displays the promo code for Nodecraft.,Nodecraft のプロモーションコードを表示します。
+commands.armorplus.discord.usage,/armorplus discord,/armorplus discord
+commands.armorplus.discord.line_one,TheDragonTeam's (ArmorPlus') Community discord:,TheDragonTeam（ArmorPlus）のコミュニティDiscord:
+commands.armorplus.discord.line_one.hover,Opens a discord link to armorplus' discord,armorplus の Discord へのリンクを開きます
+commands.armorplus.discord.line_two,sokratis12GR's Personal discord server:,sokratis12GRのパーソナルDiscordサーバー：
+commands.armorplus.discord.line_two.hover,Opens a discord link to sokratis12GR's discord,sokratis12GR の Discord へのリンクを開きます
+commands.armorplus.tp.usage,/ap tp <id>,/ap tp <id>
+gui.jei.category.workbench,Workbench,ArmorPlus 作業台
+gui.jei.category.high_tech_bench,High-Tech Bench,ArmorPlus 高性能作業台
+gui.jei.category.ulti_tech_bench,Ulti-Tech Bench,ArmorPlus 超高性能作業台
+gui.jei.category.champion_bench,Champion Bench,チャンピオンベンチ
+gui.jei.category.lava_infuser,Lava Infuser,溶岩注入器
+gui.jei.category.lava_infuser_infusing,Lava Infuser Infusing,溶岩を供給する
+gui.jei.category.lava_infuser_fuel,Lava Infuser Fuel,溶岩注入装置燃料
+gui.jei.category.armorplus.infusing,Infusing,浸透中
+gui.jei.category.armorplus.infusing.experience,%s XP,%s 経験値
+gui.jei.category.armorplus.infusing.fuel,Fuel,燃料
+gui.jei.category.armorplus.infusing.fuel.smeltCount.single,Smelts 1 item,1アイテムを製錬
+gui.jei.category.armorplus.infusing.fuel.smeltCount,Infuses %s items,%sアイテムを浸透させます
+gui.jei.category.armorplus.infusing.fuel.burnTime,Burn Time: %s,燃焼時間: %s
+item.armorplus.book.name,ArmorPlus Info Book,ArmorPlus 解説書
+item.armorplus.book_lore.name,ArmorPlus Lore Book,ArmorPlus 伝承書
+gui.armorplus.config.title,ArmorPlus Configuration,ArmorPlus 設定
+armorplus/misc.tooltip,Miscellaneous configurations,その他設定
+armorplus/config.tooltip,Main configurations,主要設定
+armorplus/debug.tooltip,Debug configurations,デバッグ設定
+armorplus/entities.tooltip,Entities configurations,エンティティの設定
+armorplus/integrations.tooltip,Integrations configurations,統合設定
+armorplus/registry.tooltip,Registry configurations,レジストリの設定
+armorplus/worldgen.tooltip,World Gen configurations,世界生成設定
+armorplus.global.tooltip,Globally applied configurations,全体に適用される設定
+armorplus.tgotg.tooltip,Configurations for The Gift Of The Gods item,ギフト・オブ・ザ・ゴッズアイテムの設定
+armorplus.ender_dragon_zombie.tooltip,Configurations for the Ender Dragon Zombie entity,エンダードラゴンゾンビエンティティ用設定
+armorplus.mob_drops.tooltip,Configuration for the Mob Drops,モブドロップの設定
+armorplus.lava_crystal.tooltip,Configuration for the Ore Lava Crystal's world generation,オーレラバクリスタルのワールド生成設定
+armorplus.tower.tooltip,Configuration for the Nether Tower's world generation,ネザータワーの世界生成設定
+item.armorplus.coal_helmet.name,Coal Helmet,石炭のヘルメット
+item.armorplus.coal_chestplate.name,Coal Chestplate,石炭のチェストプレート
+item.armorplus.coal_leggings.name,Coal Leggings,石炭のレギンス
+item.armorplus.coal_boots.name,Coal Boots,石炭のブーツ
+item.armorplus.lapis_helmet.name,Lapis Helmet,ラピスラズリのヘルメット
+item.armorplus.lapis_chestplate.name,Lapis Chestplate,ラピスラズリのチェストプレート
+item.armorplus.lapis_leggings.name,Lapis Leggings,ラピスラズリのレギンス
+item.armorplus.lapis_boots.name,Lapis Boots,ラピスラズリのブーツ
+item.armorplus.redstone_helmet.name,Redstone Helmet,レッドストーンのヘルメット
+item.armorplus.redstone_chestplate.name,Redstone Chestplate,レッドストーンのチェストプレート
+item.armorplus.redstone_leggings.name,Redstone Leggings,レッドストーンのレギンス
+item.armorplus.redstone_boots.name,Redstone Boots,レッドストーンのブーツ
+item.armorplus.emerald_helmet.name,Emerald Helmet,エメラルドのヘルメット
+item.armorplus.emerald_chestplate.name,Emerald Chestplate,エメラルドのチェストプレート
+item.armorplus.emerald_leggings.name,Emerald Leggings,エメラルドのレギンス
+item.armorplus.emerald_boots.name,Emerald Boots,エメラルドのブーツ
+item.armorplus.obsidian_helmet.name,Obsidian Helmet,黒曜石のヘルメット
+item.armorplus.obsidian_chestplate.name,Obsidian Chestplate,黒曜石のチェストプレート
+item.armorplus.obsidian_leggings.name,Obsidian Leggings,黒曜石のレギンス
+item.armorplus.obsidian_boots.name,Obsidian Boots,黒曜石のブーツ
+item.armorplus.infused_lava_helmet.name,Infused Lava Helmet,溶岩ヘルメット
+item.armorplus.infused_lava_chestplate.name,Infused Lava Chestplate,溶岩チェストプレート
+item.armorplus.infused_lava_leggings.name,Infused Lava Leggings,溶岩レギンス
+item.armorplus.infused_lava_boots.name,Infused Lava Boots,溶岩ブーツ
+item.armorplus.super_star_helmet.name,Super Star Helmet,スーパースターヘルメット
+item.armorplus.super_star_chestplate.name,Super Star Chestplate,スーパースターチェストプレート
+item.armorplus.super_star_leggings.name,Super Star Leggings,スーパースターレギンス
+item.armorplus.super_star_boots.name,Super Star Boots,スーパースターブーツ
+item.armorplus.ender_dragon_helmet.name,Ender Dragon Helmet,エンダードラゴンヘルメット
+item.armorplus.ender_dragon_chestplate.name,Ender Dragon Chestplate,エンダードラゴンチェストプレート
+item.armorplus.ender_dragon_leggings.name,Ender Dragon Leggings,エンダードラゴンレギンス
+item.armorplus.ender_dragon_boots.name,Ender Dragon Boots,エンダードラゴンブーツ
+item.armorplus.guardian_helmet.name,Guardian Helmet,ガーディアンヘルメット
+item.armorplus.guardian_chestplate.name,Guardian Chestplate,ガーディアンチェストプレート
+item.armorplus.guardian_leggings.name,Guardian Leggings,ガーディアンレギンス
+item.armorplus.guardian_boots.name,Guardian Boots,ガーディアンブーツ
+item.armorplus.the_ultimate_helmet.name,The Ultimate Helmet,究極のヘルメット
+item.armorplus.the_ultimate_chestplate.name,The Ultimate Chestplate,究極のチェストプレート
+item.armorplus.the_ultimate_leggings.name,The Ultimate Leggings,究極のレギンス
+item.armorplus.the_ultimate_boots.name,The Ultimate Boots,究極のブーツ
+item.armorplus.cobalt_helmet.name,Cobalt Helmet,銅のヘルメット
+item.armorplus.cobalt_chestplate.name,Cobalt Chestplate,銅のチェストプレート
+item.armorplus.cobalt_leggings.name,Cobalt Leggings,銅のレギンス
+item.armorplus.cobalt_boots.name,Cobalt Boots,銅のブーツ
+item.armorplus.ardite_helmet.name,Ardite Helmet,アーダイトのヘルメット
+item.armorplus.ardite_chestplate.name,Ardite Chestplate,アーダイトのチェストプレート
+item.armorplus.ardite_leggings.name,Ardite Leggings,アーダイトのレギンス
+item.armorplus.ardite_boots.name,Ardite Boots,アーダイトのブーツ
+item.armorplus.pig_iron_helmet.name,Pig Iron Helmet,豚鉄のヘルメット
+item.armorplus.pig_iron_chestplate.name,Pig Iron Chestplate,豚鉄のチェストプレート
+item.armorplus.pig_iron_leggings.name,Pig Iron Leggings,豚鉄のレギンス
+item.armorplus.pig_iron_boots.name,Pig Iron Boots,豚鉄のブーツ
+item.armorplus.knight_slime_helmet.name,Knight Slime Helmet,スライムナイトのヘルメット
+item.armorplus.knight_slime_chestplate.name,Knight Slime Chestplate,スライムナイトのチェストプレート
+item.armorplus.knight_slime_leggings.name,Knight Slime Leggings,スライムナイトのレギンス
+item.armorplus.knight_slime_boots.name,Knight Slime Boots,スライムナイトのブーツ
+item.armorplus.manyullyn_helmet.name,Manyullyn Helmet,マニュリンのヘルメット
+item.armorplus.manyullyn_chestplate.name,Manyullyn Chestplate,マニュリンのチェストプレート
+item.armorplus.manyullyn_leggings.name,Manyullyn Leggings,マニュリンのレギンス
+item.armorplus.manyullyn_boots.name,Manyullyn Boots,マニュリンのブーツ
+item.armorplus.chicken_helmet.name,Chicken Helmet,鶏ヘルメット
+item.armorplus.chicken_chestplate.name,Chicken Chestplate,鶏チェストプレート
+item.armorplus.chicken_leggings.name,Chicken Leggings,鶏レギンス
+item.armorplus.chicken_boots.name,Chicken Boots,鶏ブーツ
+item.armorplus.slime_helmet.name,Slime Helmet,スライムのヘルメット
+item.armorplus.slime_chestplate.name,Slime Chestplate,スライムのチェストプレート
+item.armorplus.slime_leggings.name,Slime Leggings,スライムのレギンス
+item.armorplus.slime_boots.name,Slime Boots,スライムのブーツ
+item.armorplus.iron_helmet.name,Enhanced Iron Helmet,強化鉄ヘルメット
+item.armorplus.iron_chestplate.name,Enhanced Iron Chestplate,強化された鉄の胸甲
+item.armorplus.iron_leggings.name,Enhanced Iron Leggings,強化鉄のレギンス
+item.armorplus.iron_boots.name,Enhanced Iron Boots,強化鉄のブーツ
+item.armorplus.chainmail_helmet.name,Enhanced Chainmail Helmet,強化チェーンメールヘルメット
+item.armorplus.chainmail_chestplate.name,Enhanced Chainmail Chestplate,強化チェストプレート
+item.armorplus.chainmail_leggings.name,Enhanced Chainmail Leggings,強化チェストプレート
+item.armorplus.chainmail_boots.name,Enhanced Chainmail Boots,強化されたチェーンメイルの靴
+item.armorplus.gold_helmet.name,Enhanced Golden Helmet,強化金のヘルメット
+item.armorplus.gold_chestplate.name,Enhanced Golden Chestplate,強化された金色の胸甲
+item.armorplus.gold_leggings.name,Enhanced Golden Leggings,強化された金色のレッグス
+item.armorplus.gold_boots.name,Enhanced Golden Boots,強化された金色のブーツ
+item.armorplus.diamond_helmet.name,Enhanced Diamond Helmet,強化ダイヤモンドヘルメット
+item.armorplus.diamond_chestplate.name,Enhanced Diamond Chestplate,強化ダイヤモンド胸当て
+item.armorplus.diamond_leggings.name,Enhanced Diamond Leggings,強化ダイヤモンドレッグス
+item.armorplus.diamond_boots.name,Enhanced Diamond Boots,強化ダイヤモンドブーツ
+item.armorplus.dev_helmet.name,Dev Helmet,開発中のヘルメット
+item.armorplus.dev_chestplate.name,Dev Chestplate,開発中のチェストプレート
+item.armorplus.dev_leggings.name,Dev Leggings,開発中のレギンス
+item.armorplus.dev_boots.name,Dev Boots,開発中のブーツ
+item.armorplus.dev_tool.name,Dev Tool,開発中のツール
+item.armorplus.dev_item.name,NBT Item,NBTアイテム
+item.armorplus.the_dragon_team.name,The Dragon Team,ドラゴンチーム
+item.armorplus.modded_city.name,Modded City,モッディッドシティ
+item.armorplus.beam.name,Beam,ビーム
+item.armorplus.gui_tester.name,GUI Tester,GUIテスター
+item.armorplus.btm_moon,.nameBTM Moon,.nameBTM 月
+item.armorplus.material_chainmail.name,Chainmail,チェーンメール
+item.armorplus.reinforcing_material.name,Reinforcing Material,強化マテリアル
+item.armorplus.lava_crystal.name,Lava Crystal,溶岩水晶
+item.armorplus.lava_crystal_infused.name,Infused Lava Crystal,帯電溶岩水晶
+item.armorplus.steel_ingot.name,Steel Ingot,鋼鉄インゴット
+item.armorplus.electrical_ingot.name,Electrical Ingot,電鋼インゴット
+item.armorplus.redstone_apple.name,Redstone Apple,レッドストーンりんご
+item.armorplus.material_wither_bone.name,Wither Bone,ウィザーの骨
+item.armorplus.material_the_ultimate_material.name,The Ultimate Material,究極の素材
+item.armorplus.material_ender_dragon_scale.name,Ender Dragon Scale,エンダードラゴンの革
+item.armorplus.material_guardian_scale.name,Guardian Scale,ガーディアンの革
+item.armorplus.the_gift_of_the_gods.name,The Gift Of The Gods,神々の贈り物
+item.armorplus.the_ultimate_part_helmet_left.name,The Ultimate Helmet Left,究極のヘルメット部材(左)
+item.armorplus.the_ultimate_part_helmet_middle.name,The Ultimate Helmet Middle,究極のヘルメット部材(中央)
+item.armorplus.the_ultimate_part_helmet_right.name,The Ultimate Helmet Right,究極のヘルメット部材(右)
+item.armorplus.the_ultimate_part_chestplate_left.name,The Ultimate Chestplate Left,究極のチェストプレート部材(左)
+item.armorplus.the_ultimate_part_chestplate_middle.name,The Ultimate Chestplate Middle,究極のチェストプレート部材(中央)
+item.armorplus.the_ultimate_part_chestplate_right.name,The Ultimate Chestplate Right,究極のチェストプレート部材(右)
+item.armorplus.the_ultimate_part_leggings_left.name,The Ultimate Legging Left,究極のレギンス部材(左)
+item.armorplus.the_ultimate_part_leggings_middle.name,The Ultimate Legging Middle,究極のレギンス部材(中央)
+item.armorplus.the_ultimate_part_leggings_right.name,The Ultimate Legging Right,究極のレギンス部材(右)
+item.armorplus.the_ultimate_part_boots_left.name,The Ultimate Boots Left,究極のブーツ部材(左)
+item.armorplus.the_ultimate_part_boots_middle.name,The Ultimate Boots Middle,究極のブーツ部材(中央)
+item.armorplus.the_ultimate_part_boots_right.name,The Ultimate Boots Right,究極のブーツ部材(右)
+tile.armorplus.compressed_obsidian.name,Compressed Obsidian,高密度黒曜石
+tile.armorplus.ore_lava_crystal.name,Ore Lava Crystal,鉱石の溶岩結晶
+tile.armorplus.steel_block.name,Block of Steel,鉄鋼ブロック
+tile.armorplus.electrical_block.name,Electrical Block,電綱ブロック
+tile.armorplus.workbench.name,Workbench,ArmorPlus 作業台
+tile.armorplus.high_tech_bench.name,High-Tech Bench,ArmorPlus 高性能作業台
+tile.armorplus.ulti_tech_bench.name,Ulti-Tech Bench,ArmorPlus 超高性能作業台
+tile.armorplus.champion_bench.name,Champion Bench,チャンピオンベンチ
+tile.armorplus.lava_cactus.name,Lava Cactus,溶岩サボテン
+tile.armorplus.lava_nether_brick.name,Lava Nether Brick,ネザー溶岩レンガ
+tile.armorplus.white_stone_brick.name,White Stone Brick,白石レンガ
+tile.armorplus.white_stone_brick_tower.name,White Stone Brick Tower,白石レンガタワー
+tile.armorplus.white_stone_brick_corner.name,White Stone Brick Corner,白石レンガコーナー
+tile.armorplus.white_stone_brick_wall.name,White Stone Brick Wall,ホワイトストーンブリックウォール
+tile.armorplus.red_stone_brick.name,Red Stone Brick,レッドストーンレンガ
+tile.armorplus.red_stone_brick_tower.name,Red Stone Brick Tower,レッドストーンレンガタワー
+tile.armorplus.red_stone_brick_corner.name,Red Stone Brick Corner,レッドストーンレンガコーナー
+tile.armorplus.red_stone_brick_wall.name,Red Stone Brick Wall,レッドストーンレンガ壁
+tile.armorplus.black_stone_brick.name,Black Stone Brick,黒石レンガ
+tile.armorplus.black_stone_brick_tower.name,Black Stone Brick Tower,黒石レンガタワー
+tile.armorplus.black_stone_brick_corner.name,Black Stone Brick Corner,黒石レンガコーナー
+tile.armorplus.black_stone_brick_wall.name,Black Stone Brick Wall,黒いレンガ壁
+tile.armorplus.blue_stone_brick.name,Blue Stone Brick,青石レンガ
+tile.armorplus.blue_stone_brick_tower.name,Blue Stone Brick Tower,青石レンガタワー
+tile.armorplus.blue_stone_brick_corner.name,Blue Stone Brick Corner,青石レンガコーナー
+tile.armorplus.blue_stone_brick_wall.name,Blue Stone Brick Wall,青いレンガ壁
+tile.armorplus.green_stone_brick.name,Green Stone Brick,緑石レンガ
+tile.armorplus.green_stone_brick_tower.name,Green Stone Brick Tower,緑石レンガタワー
+tile.armorplus.green_stone_brick_corner.name,Green Stone Brick Corner,緑石レンガコーナー
+tile.armorplus.green_stone_brick_wall.name,Green Stone Brick Wall,緑の石レンガ壁
+tile.armorplus.yellow_stone_brick.name,Yellow Stone Brick,黄石レンガ
+tile.armorplus.yellow_stone_brick_tower.name,Yellow Stone Brick Tower,黄石レンガタワー
+tile.armorplus.yellow_stone_brick_corner.name,Yellow Stone Brick Corner,黄石レンガコーナー
+tile.armorplus.yellow_stone_brick_wall.name,Yellow Stone Brick Wall,黄色い石レンガ壁
+tile.armorplus.purple_stone_brick.name,Purple Stone Brick,紫石レンガ
+tile.armorplus.purple_stone_brick_tower.name,Purple Stone Brick Tower,紫石レンガタワー
+tile.armorplus.purple_stone_brick_corner.name,Purple Stone Brick Corner,紫石レンガコーナー
+tile.armorplus.purple_stone_brick_wall.name,Purple Stone Brick Wall,紫色石レンガ壁
+tile.armorplus.lava_infuser.name,Lava Infuser,溶岩注入器
+tile.armorplus.lava_infuser_infusing.name,Lava Infuser Infusing,溶岩を供給する
+tile.armorplus.lava_infused_obsidian.name,Lava Infused Obsidian,溶岩が浸透した黒曜石
+tile.armorplus.block_lava_crystal.name,Block of Lava Crystal,溶岩水晶ブロック
+tile.armorplus.block_infused_lava_crystal.name,Block of Infused Lava Crystal,インフューズドラヴァクリスタルブロック
+tile.armorplus.block_compressed_lava_crystal.name,Compressed Lava Crystal Block,圧縮ラヴァクリスタルブロック
+tile.armorplus.block_compressed_infused_lava_crystal.name,Compressed Infused Lava Crystal Block,圧縮された浸透した溶岩結晶ブロック
+tile.armorplus.empty_sword_display.name,Empty Sword Display,空の剣表示
+tile.armorplus.coal_sword_display.name,Display of Coal Sword,石炭の剣の展示
+tile.armorplus.redstone_sword_display.name,Display of Redstone Sword,レッドストーン剣の展示
+tile.armorplus.lapis_sword_display.name,Display of Lapis Sword,ラピスの剣の展示
+tile.armorplus.emerald_sword_display.name,Display of Emerald Sword,エメラルドの剣の表示
+tile.armorplus.obsidian_sword_display.name,Display of Obsidian Sword,黒曜石剣の展示
+tile.armorplus.infused_lava_sword_display.name,Display of Infused Lava Sword,インフューズドラヴァソードディスプレイ
+tile.armorplus.guardian_sword_display.name,Display of Guardian Sword,ガーディアン剣の展示
+tile.armorplus.super_star_sword_display.name,Display of Super Star Sword,スーパー・スターソードのディスプレイ
+tile.armorplus.ender_dragon_sword_display.name,Display of Ender Dragon Sword,エンダードラゴンソードディスプレイ
+tile.armorplus.excalibur_sword_display.name,Display of Excalibur,エクスカリバーの表示
+tile.armorplus.trophy.name,Mob Trophy,モンスター記念品
+tile.armorplus.sheep_trophy.name,Sheep Trophy,ヒツジのトロフィー
+tile.armorplus.chicken_trophy.name,Chicken Trophy,ニワトリトロフィー
+tile.armorplus.cow_trophy.name,Cow Trophy,牛記念品
+tile.armorplus.rabbit_trophy.name,Rabbit Trophy,ウサギトロフィ
+tile.armorplus.horse_trophy.name,Horse Trophy,ウマのトロフィー
+tile.armorplus.pig_trophy.name,Pig Trophy,豚記念品
+tile.armorplus.villager_trophy.name,Villager Trophy,村人のトロフィー
+tile.armorplus.wolf_trophy.name,Wolf Trophy,オオカミのトロフィー
+tile.armorplus.vex_trophy.name,Vex Trophy,ベク記念品
+tile.armorplus.vindicator_trophy.name,Vindicator Trophy,ヴィンデイターのトロフィー
+tile.armorplus.bat_trophy.name,Bat Trophy,バット記念品
+tile.armorplus.blaze_trophy.name,Blaze Trophy,ブレイズトロフィー
+tile.armorplus.magma_cube_trophy.name,Magma Cube Trophy,マグマキューブのトロフィー
+tile.armorplus.creeper_trophy.name,Creeper Trophy,クリーパートロフィー
+tile.armorplus.enderman_trophy.name,Enderman Trophy,エンダーマンのトロフィー
+tile.armorplus.cave_spider_trophy.name,Cave Spider Trophy,洞窟クモのトロフィー
+tile.armorplus.guardian_trophy.name,Guardian Trophy,ガーディアンのトロフィー
+tile.armorplus.endermite_trophy.name,Endermite Trophy,エンダーミートトロフィー
+tile.armorplus.evoker_trophy.name,Evoker Trophy,エボーカートロフィ
+tile.armorplus.ghast_trophy.name,Ghast Trophy,ガストトロフィー
+tile.armorplus.ocelot_trophy.name,Ocelot Trophy,オセロットトロフィー
+tile.armorplus.polar_bear_trophy.name,Polar Bear Trophy,ホッキョクグマのトロフィー
+tile.armorplus.parrot_trophy.name,Parrot Trophy,カモメトロフィー
+tile.armorplus.mooshroom_trophy.name,Mooshroom Trophy,ムッシュルートロフィー
+tile.armorplus.husk_trophy.name,Husk Trophy,ハスックのトロフィー
+tile.armorplus.shulker_trophy.name,Shulkeer Trophy,シュルケールのトロフィー
+tile.armorplus.silverfish_trophy.name,Silverfish Trophy,シルバーフィッシュのトロフィー
+tile.armorplus.spider_trophy.name,Spider Trophy,クモトロフィー
+tile.armorplus.skeleton_trophy.name,Skeleton Trophy,スケルトンのトロフィー
+tile.armorplus.slime_trophy.name,Slime Trophy,スライムトロフィー
+tile.armorplus.stray_trophy.name,Stray Trophy,ストレイトロフィー
+tile.armorplus.wither_skeleton_trophy.name,Wither Skeleton Trophy,ウィザー Skeleton テロット
+tile.armorplus.witch_trophy.name,Witch Trophy,ウィッチトロフィー
+tile.armorplus.zombie_trophy.name,Zombie Trophy,ゾンビトロフィー
+tile.armorplus.zombie_villager_trophy.name,Zombie Villager Trophy,ゾンビ村人テロット
+tile.armorplus.zombie_pigman_trophy.name,Zombie Pigman Trophy,ゾンビ・ピッグマン実績
+tile.armorplus.map_device.name,Map Device,地図装置
+tile.armorplus.wither_boss_trophy.name,Wither Boss Trophy,ウィザードボスのトロフィー
+tile.armorplus.ender_dragon_trophy.name,Ender Dragon Trophy,エンダーダンジョントロフィー
+tile.armorplus.elder_guardian_trophy.name,Elder Guardian Trophy,古びたガーディアンのトロフィー
+tile.armorplus.skeletal_king_trophy.name,Skeletal King Trophy,スケルトン・キング実績
+tile.armorplus.guardian_overlord_trophy.name,Guardian Overlord Trophy,ガーディアン・オーバーロード・トロフィー
+tile.armorplus.demonic_dragon_trophy.name,Demonic Dragon Trophy,悪魔のドラゴンのトロフィー
+tile.armorplus.the_lord_of_everything_trophy.name,The Lord Of Everything Trophy,すべての王冠トロフィー
+tile.armorplus.ender_stone.name,Ender Stone,エンダーストーン
+tile.armorplus.ender_stone_trap.name,Ender Floor I (Trap),エンドフロアI（罠）
+tile.armorplus.ender_stone_bricks.name,Ender Stone Bricks,エンダーストーンブロック
+tile.armorplus.ender_glowstone.name,Ender Glowstone,エンダーグローストーン
+tile.armorplus.ender_pillar.name,Ender Pillar,エンダーピラー
+tile.armorplus.ender_floor_1.name,Ender Floor I,エンダーフロアI
+tile.armorplus.ender_floor_2.name,Ender Floor II,エンダーフロアII
+tile.armorplus.block_melting_obsidian.name,Melting Obsidian,黒曜石の製錬
+item.armorplus.coal_sword.name,Coal Sword,石炭の剣
+item.armorplus.lapis_sword.name,Lapis Sword,ラピスラズリの剣
+item.armorplus.redstone_sword.name,Redstone Sword,レッドストーンの剣
+item.armorplus.emerald_sword.name,Emerald Sword,エメラルドの剣
+item.armorplus.obsidian_sword.name,Obsidian Sword,黒曜石の剣
+item.armorplus.infused_lava_sword.name,Infused Lava Sword,溶岩の剣
+item.armorplus.super_star_sword.name,Super Star Sword,スーパースターソード
+item.armorplus.guardian_sword.name,Guardian Sword,ガーディアンソード
+item.armorplus.ender_dragon_sword.name,Ender Dragon Sword,エンダードラゴンの剣
+item.armorplus.coal_battle_axe.name,Coal Battle Axe,石炭の戦闘斧
+item.armorplus.lapis_battle_axe.name,Lapis Battle Axe,ラピスラズリのの戦闘斧
+item.armorplus.redstone_battle_axe.name,Redstone Battle Axe,レッドストーンの戦闘斧
+item.armorplus.emerald_battle_axe.name,Emerald Battle Axe,エメラルドの戦闘斧
+item.armorplus.obsidian_battle_axe.name,Obsidian Battle Axe,黒曜石の戦闘斧
+item.armorplus.infused_lava_battle_axe.name,Infused Lava Battle Axe,溶岩の戦闘斧
+item.armorplus.super_star_battle_axe.name,Super Star Battle Axe,スーパースターバトルアックス
+item.armorplus.guardian_battle_axe.name,Guardian Battle Axe,ガーディアンバトルアックス
+item.armorplus.ender_dragon_battle_axe.name,Ender Dragon Battle Axe,エンダードラゴンの戦闘斧
+item.armorplus.coal_bow.name,Coal Bow,石炭の弓
+item.armorplus.lapis_bow.name,Lapis Bow,ラピスラズリの弓
+item.armorplus.redstone_bow.name,Redstone Bow,レッドストーンの弓
+item.armorplus.emerald_bow.name,Emerald Bow,エメラルドの弓
+item.armorplus.obsidian_bow.name,Obsidian Bow,黒曜石の弓
+item.armorplus.infused_lava_bow.name,Infused Lava Bow,溶岩の弓
+item.armorplus.super_star_bow.name,Super Star Bow,スーパースターの弓
+item.armorplus.guardian_bow.name,Guardian Bow,ガーディアンの弓
+item.armorplus.ender_dragon_bow.name,Ender Dragon Bow,エンダードラゴンの弓
+item.armorplus.coal_pickaxe.name,Coal Pickaxe,石炭のツルハシ
+item.armorplus.lapis_pickaxe.name,Lapis Pickaxe,ラピスのツルハシ
+item.armorplus.redstone_pickaxe.name,Redstone Pickaxe,レッドストーンのツルハシ
+item.armorplus.emerald_pickaxe.name,Emerald Pickaxe,エメラルドのツルハシ
+item.armorplus.obsidian_pickaxe.name,Obsidian Pickaxe,黒曜石のツルハシ
+item.armorplus.infused_lava_pickaxe.name,Infused Lava Pickaxe,液状岩浸透ツルハシ
+item.armorplus.super_star_pickaxe.name,Super Star Pickaxe,スーパースター採掘用斧
+item.armorplus.guardian_pickaxe.name,Guardian Pickaxe,ガーディアンのツルハシ
+item.armorplus.ender_dragon_pickaxe.name,Ender Dragon Pickaxe,エンドドラゴンツルハシ
+item.armorplus.coal_arrow.name,Coal Arrow,石炭の矢
+item.armorplus.lapis_arrow.name,Lapis Arrow,ラピスヤズリの矢
+item.armorplus.redstone_arrow.name,Redstone Arrow,レッドストーンの矢
+item.armorplus.emerald_arrow.name,Emerald Arrow,エメラルドの矢
+item.armorplus.obsidian_arrow.name,Obsidian Arrow,黒曜石の矢
+item.armorplus.infused_lava_arrow.name,Infused Lava Arrow,溶岩の矢
+item.armorplus.guardian_arrow.name,Guardian Arrow,ガーディアン矢
+item.armorplus.super_star_arrow.name,Super Star Arrow,スーパースターの矢
+item.armorplus.ender_dragon_arrow.name,Ender Dragon Arrow,エンダーダンジョンの矢
+item.armorplus.tesla_sword.name,Tesla Sword,テスラの剣
+item.armorplus.tesla_pickaxe.name,Tesla Pickaxe,テスラのピッケル
+item.armorplus.tesla_axe.name,Tesla Axe,テスラの斧
+item.armorplus.tesla_rod.name,Tesla Rod,テスラロッド
+item.armorplus.tesla_hoe.name,Tesla Hoe,テスラの鍬
+item.armorplus.tesla_shovel.name,Tesla Shovel,テスラのシャベル
+item.armorplus.redstone_flux_axe.name,Redstone Flux Axe,溶解レッドストーンの斧
+item.armorplus.redstone_flux_rod.name,Redstone Flux Rod,溶解レッドストーンロッド
+item.armorplus.redstone_flux_sword.name,Redstone Flux Sword,溶解レッドストーンの剣
+item.armorplus.redstone_flux_pickaxe.name,Redstone Flux Pickaxe,溶解レッドストーンのピッケル
+item.armorplus.redstone_flux_hoe.name,Redstone Flux Hoe,溶解レッドストーンの鍬
+item.armorplus.redstone_flux_shovel.name,Redstone Flux Shovel,溶解レッドストーンのシャベル
+item.armorplus.coal_horse_armor.name,Coal Horse Armor,石炭のウマの防具
+item.armorplus.redstone_horse_armor.name,Redstone Horse Armor,レッドストーンウマ防具
+item.armorplus.lapis_horse_armor.name,Lapis Horse Armor,ラピス馬装備
+item.armorplus.emerald_horse_armor.name,Emerald Horse Armor,エメラルドの馬の防具
+item.armorplus.infused_lava_horse_armor.name,Infused Lava Horse Armor,液状の馬の装甲
+item.armorplus.obsidian_horse_armor.name,Obsidian Horse Armor,黒曜石の馬の防具
+item.armorplus.guardian_horse_armor.name,Guardian Horse Armor,ガーディアンウマ防具
+item.armorplus.super_star_horse_armor.name,Super Star Horse Armor,スーパースター馬の防具
+item.armorplus.ender_dragon_horse_armor.name,Ender Dragon Horse Armor,エンダーダンジョンの馬の装甲
+item.armorplus.dawn.name,Fragment of Dawn,朝の断片
+item.armorplus.midnight.name,Fragment of Midnight,午夜の断片
+item.armorplus.noon.name,Fragment of Noon,昼の断片
+item.armorplus.dusk.name,Fragment of Dusk,夕暮れの断片
+item.armorplus.map.name,Map,マップ
+item.armorplus.map_of_overworld.name,Map of Overworld,オーバーワールドの地図
+item.armorplus.map_of_the_nether.name,Map of The Nether,ネザー地図
+item.armorplus.map_of_the_end.name,Map of The End,終末の地図
+item.armorplus.map_of_sacrifice.name,Map of Sacrifice,献身の地図
+item.armorplus.map_of_arena.name,Map [Arena],地図 [アリーナ]
+item.armorplus.map_of_the_realm.name,Map of The Realm,世界の地図
+item.armorplus.map_of_the_shaper.name,Map of The Shaper,造形者の地図
+item.armorplus.map_of_the_elder.name,Map of The Elder,古きなる地図
+entity.ender_dragon_zombie.name,Ender Dragon Zombie,エンダードラゴンゾンビ
+entity.ice_golem.name,Ice Golem (Experimental),氷のゴーレム（実験的）
+entity.overlord_of_the_guardians.name,Overlord of the Guardians,ガーディアンの覇権者
+entity.skeletal_king.name,Skeletal King,骨王
+entity.freeze_bomb.name,"Freeze Bomb (Projectile, Explosive)",フリーズボム（投射物、爆発）
+entity.wither_minion.name,"Wither Minion (Projectile, Spawner)",ウィザー・ミニオン（投射物、スポナー）
+entity.witherling.name,Witherling,ウィザーリング
+key.nightVision,Toggle NightVision from The Ultimate Armor,究極の防具セットにより、暗視モードに切り替わりました
+effect.armorplus.empty.name,Empty,空
+effect.armorplus.empty,Empty,空
+armorplus.empty.name,Empty,空
+armorplus.empty,Empty,空
+effect.none.name,No Effects,効果なし
+effect.moveSpeed.name,Speed,速度
+effect.moveSlowdown.name,Slowness,遅延
+effect.digSpeed.name,Haste,加速
+effect.digSlowDown.name,Mining Fatigue,採掘の疲労
+effect.damageBoost.name,Strength,強さ
+effect.heal.name,Instant Health,即時体力回復
+effect.harm.name,Instant Damage,即時ダメージ
+effect.jump.name,Jump Boost,ジャンプブースト
+effect.confusion.name,Nausea,めまい
+effect.regeneration.name,Regeneration,回復
+effect.resistance.name,Resistance,耐性
+effect.fireResistance.name,Fire Resistance,火 resist
+effect.waterBreathing.name,Water Breathing,水の呼吸
+effect.invisibility.name,Invisibility,透明化
+effect.blindness.name,Blindness,視力喪失
+effect.nightVision.name,Night Vision,夜間視覚
+effect.hunger.name,Hunger,飢餓
+effect.weakness.name,Weakness,弱さ
+effect.poison.name,Poison,毒
+effect.wither.name,Wither,ウィザー
+effect.healthBoost.name,Health Boost,体力回復
+effect.absorption.name,Absorption,吸収
+effect.saturation.name,Saturation,満腹度
+effect.glowing.name,Glowing,光る
+effect.luck.name,Luck,幸運
+effect.unluck.name,Bad Luck,運が悪い
+effect.levitation.name,Levitation,浮遊
+achievement.armorplus.craft_coal_armor,Vision Like A Bat!,暗視の効果!
+achievement.armorplus.craft_coal_armor.desc,craft a Coal Armor Piece,石炭防具を作成
+achievement.armorplus.craft_lapis_armor,Never Drown Again!,水中呼吸の効果!
+achievement.armorplus.craft_lapis_armor.desc,craft a Lapis Armor Piece,ラピスラズリ防具を作成
+achievement.armorplus.craft_redstone_armor,Speeedy!,俊敏の効果!
+achievement.armorplus.craft_redstone_armor.desc,craft a Redstone Armor Piece,レッドストーン防具を作成
+achievement.armorplus.craft_emerald_armor,Swing Swing Faster!,採掘速度上昇の効果!
+achievement.armorplus.craft_emerald_armor.desc,craft an Emerald Armor Piece,エメラルド防具を作成
+achievement.armorplus.craft_obsidian_armor,Indestructible!,耐性の効果!
+achievement.armorplus.craft_obsidian_armor.desc,craft an Obsidian Armor Piece,c黒曜石防具を作成
+achievement.armorplus.craft_infused_lava_armor,The Overpowered!,攻撃力上昇の効果!
+achievement.armorplus.craft_infused_lava_armor.desc,craft a Lava Armor Piece,溶岩防具を作成
+achievement.armorplus.craft_super_star_armor,Godlike!,神の如し!
+achievement.armorplus.craft_super_star_armor.desc,craft a Super Star Armor Piece,スーパースター防具を作成
+achievement.armorplus.craft_ender_dragon_armor,The Power of the Ender Dragon!,エンダードラゴンの如し!
+achievement.armorplus.craft_ender_dragon_armor.desc,Kill the Ender Dragon and craft an Ender Dragon Armor Piece,エンダードラゴンを倒し、エンダードラゴン防具を作成
+achievement.armorplus.craft_guardian_armor,Full of Thorns!,棘の鎧の効果!
+achievement.armorplus.craft_guardian_armor.desc,craft a Guardian Armor Piece,ガーディアン防具を作成
+achievement.armorplus.craft_the_ultimate_armor,The Ultimate Power!,究極の如し!
+achievement.armorplus.craft_the_ultimate_armor.desc,craft a The Ultimate Armor Piece,究極の防具を作成
+achievement.armorplus.craft_cobalt_armor,The Tinkers' Armors!,鍛冶師の防具！
+achievement.armorplus.craft_cobalt_armor.desc,craft a Cobalt Armor Piece,銅の防具を作成
+achievement.armorplus.craft_ardite_armor,The Stronger The Better!,強いほど良い！
+achievement.armorplus.craft_ardite_armor.desc,craft a Ardite Armor Piece,アーダイトの防具を作成
+achievement.armorplus.craft_manyullyn_armor,The Tinkers' Armors God!,鍛冶師のアーマー神！
+achievement.armorplus.craft_manyullyn_armor.desc,craft a Manyullyn Armor Piece,マニュリンの防具を作成
+achievement.armorplus.craft_pig_iron_armor,Oink!,豚の鳴き声を出せます!
+achievement.armorplus.craft_pig_iron_armor.desc,craft a Pig Iron Armor Piece,豚鉄の防具を作成
+achievement.armorplus.craft_knight_slime_armor,Fascinating!,魅力的になれます!
+achievement.armorplus.craft_knight_slime_armor.desc,craft a Knight Slime Armor Piece,スライムナイトの防具を作成
+achievement.armorplus.craft_slime_armor,Jump Jump Jump!,跳躍力上昇IIIの効果!
+achievement.armorplus.craft_slime_armor.desc,craft a Slime Armor Piece,スライムナイトの防具を作成
+achievement.armorplus.craft_chicken_armor,Its time to go Faster!,移動速度上昇IIIの効果!
+achievement.armorplus.craft_chicken_armor.desc,craft a Chicken Armor Piece,鶏の防具を作成
+achievement.armorplus.craft_workbench,Welcome to ArmorPlus!,アーマープラスへようこそ！
+achievement.armorplus.craft_workbench.desc,craft the a Workbench from ArmorPlus,ArmorPlus から作業台をクラフトする
+achievement.armorplus.craft_high_tech_bench,More Complexity,より複雑な機能
+achievement.armorplus.craft_high_tech_bench.desc,craft the a High-Tech Bench from ArmorPlus,ArmorPlus からハイテクベンチをクラフトする
+achievement.armorplus.craft_ulti_tech_bench,Ultimately Advanced,究極に進化
+achievement.armorplus.craft_ulti_tech_bench.desc,craft the an Ulti-Tech Bench from ArmorPlus,ArmorPlus から Ulti-Tech ベンチをクラフトします
+achievement.armorplus.craft_champion_bench,This is only for real Champions,これは本当のチャンピオン専用です
+achievement.armorplus.craft_champion_bench.desc,craft the a Champion Bench from ArmorPlus,ArmorPlus からチャンピオンベンチをクラフトする
+achievement.armorplus.armorplus,sokratis12GR,sokratis12GR
+achievement.armorplus.armorplus.desc,Creator & Developer of ArmorPlus,ArmorPlusのクリエイター＆デベロッパー
+commands.armorplus.abilities.clear.success,You have successfully removed all abilities from this item.,このアイテムからすべての能力を削除しました。
+commands.armorplus.abilities.clear.fail,This item doesn't contain any abilities.,このアイテムには能力が含まれていません
+commands.armorplus.abilities.add.fail,"Sorry, cannot add more abilities to this item. Your limit [%d/%d].",申し訳ありません。このアイテムにさらに能力を追加できません。上限 [%d/%d]
+commands.armorplus.abilities.add.fail.already_there,"Sorry, this ability is already provided to this item.",このアイテムにはすでに同じ能力が付与されています。
+commands.armorplus.abilities.add.success,You have successfully added the [%s] ability to this item.,[%s] 能力をこのアイテムに正常に追加しました。
+commands.armorplus.abilities.add.hide.usage,Use hide to not show the command's output.,コマンドの出力を表示しないように hide を使用します
+commands.armorplus.abilities.add.incorrect_ability,You cannot add [%s] to this item.,このアイテムに[%s]を追加できません。
+commands.armorplus.abilities.usage,Incomplete command arguments. Use /armorplus abilities <list/limit/add/clear/remove> <secondary_arguments>,コマンド引数が不完全です。/armorplus abilities <list/limit/add/clear/remove> <secondary_arguments> を使用してください。
+commands.armorplus.abilities.usage.second,Incomplete command arguments. Use /armorplus abilities add <string: abilityID>,コマンド引数が不完全です。/armorplus abilities add <string: abilityID> を使用してください。
+commands.armorplus.abilities.show,This item's abilities: %s.,%s の能力:
+commands.armorplus.abilities.limit,This item has a limit of [%d/%d] abilities.,このアイテムは [%d/%d] の能力制限があります。
+commands.armorplus.abilities.limit.set.usage,Incomplete command arguments. Use /armorplus abilities limit set <int: limit>,不完全なコマンド引数です。/armorplus abilities limit set <int: limit> を使用してください
+commands.armorplus.abilities.limit.set,Sucessfully set the limit of this item to %s/%s,アイテムの上限を %s/%s に設定しました
+commands.armorplus.abilities.remove.usage,Incomplete command arguments. Use /armorplus abilities remove <string: abilityID>,不完全なコマンド引数です。/armorplus abilities remove <string: abilityID> を使用してください。
+commands.armorplus.abilities.remove.fail,You cannot remove [%s] because it doesn't exist.,[%s]は存在しないため、削除できません。
+info.armorplus.abilities.cost,You have enough coal [%s] to unlock night vision,夜間視覚を解除するには十分な石炭[%s]があります。
+info.armorplus.abilities.cost.missing,You don't have enough stats/items to unlock any abilities,能力をアンロックするために必要なステータス/アイテムが不足しています
+info.armorplus.abilities.apply.text,Click to apply the ability,能力を適用するためクリック
+info.armorplus.abilities.apply.button,[Apply],[適用]
+item.armorplus.coal_prototype_helmet.name,Coal Helmet (Prototype),炭ヘルメット（プロトタイプ）
+item.armorplus.coal_prototype_chestplate.name,Coal Chestplate (Prototype),石炭チェストプレート（プロトタイプ）
+item.armorplus.coal_prototype_leggings.name,Coal Leggings (Prototype),石炭レッグス（プロトタイプ）
+item.armorplus.coal_prototype_boots.name,Coal Boots (Prototype),石炭のブーツ（プロトタイプ）
+item.armorplus.lapis_prototype_helmet.name,Lapis Helmet (Prototype),ラピスのヘルメット（プロトタイプ）
+item.armorplus.lapis_prototype_chestplate.name,Lapis Chestplate (Prototype),ラピスチェストプレート（プロトタイプ）
+item.armorplus.lapis_prototype_leggings.name,Lapis Leggings (Prototype),ラピスレッグス（プロトタイプ）
+item.armorplus.lapis_prototype_boots.name,Lapis Boots (Prototype),ラピスブーツ（プロトタイプ）
+item.armorplus.redstone_prototype_helmet.name,Redstone Helmet (Prototype),レッドストーンヘルメット（プロトタイプ）
+item.armorplus.redstone_prototype_chestplate.name,Redstone Chestplate (Prototype),レッドストーンチェストプレート（プロトタイプ）
+item.armorplus.redstone_prototype_leggings.name,Redstone Leggings (Prototype),レッドストーンレッグス（プロトタイプ）
+item.armorplus.redstone_prototype_boots.name,Redstone Boots (Prototype),レッドストーンブーツ（プロトタイプ）
+item.armorplus.emerald_prototype_helmet.name,Emerald Helmet (Prototype),エメラルドヘルメット（プロトタイプ）
+item.armorplus.emerald_prototype_chestplate.name,Emerald Chestplate (Prototype),エメラルドの胸甲（プロトタイプ）
+item.armorplus.emerald_prototype_leggings.name,Emerald Leggings (Prototype),エメラルドレッグス（プロトタイプ）
+item.armorplus.emerald_prototype_boots.name,Emerald Boots (Prototype),エメラルドブーツ（プロトタイプ）
+item.armorplus.obsidian_prototype_helmet.name,Obsidian Helmet (Prototype),黒曜石ヘルメット（プロトタイプ）
+item.armorplus.obsidian_prototype_chestplate.name,Obsidian Chestplate (Prototype),黒曜石チェストプレート（プロトタイプ）
+item.armorplus.obsidian_prototype_leggings.name,Obsidian Leggings (Prototype),黒曜石レッグス（プロトタイプ）
+item.armorplus.obsidian_prototype_boots.name,Obsidian Boots (Prototype),黒曜石ブーツ（プロトタイプ）
+item.armorplus.infused_lava_prototype_helmet.name,Infused Lava Helmet (Prototype),インフューズド ラバーヘルメット (プロトタイプ)
+item.armorplus.infused_lava_prototype_chestplate.name,Infused Lava Chestplate (Prototype),インフュージドラバーチェストプレート（プロトタイプ）
+item.armorplus.infused_lava_prototype_leggings.name,Infused Lava Leggings (Prototype),インフィューズドラヴァレッグス（プロトタイプ）
+item.armorplus.infused_lava_prototype_boots.name,Infused Lava Boots (Prototype),溶岩浸透ブーツ（プロトタイプ）
+item.armorplus.super_star_prototype_helmet.name,Super Star Helmet (Prototype),スーパースターヘルメット（プロトタイプ）
+item.armorplus.super_star_prototype_chestplate.name,Super Star Chestplate (Prototype),スーパースターチェストプレート（プロトタイプ）
+item.armorplus.super_star_prototype_leggings.name,Super Star Leggings (Prototype),スーパースター レッグギア (プロトタイプ)
+item.armorplus.super_star_prototype_boots.name,Super Star Boots (Prototype),スーパースターブーツ（プロトタイプ）
+item.armorplus.ender_dragon_prototype_helmet.name,Ender Dragon Helmet (Prototype),エンダードラゴン ヘルメット (プロトタイプ)
+item.armorplus.ender_dragon_prototype_chestplate.name,Ender Dragon Chestplate (Prototype),エンダードラゴンチェストプレート（プロトタイプ）
+item.armorplus.ender_dragon_prototype_leggings.name,Ender Dragon Leggings (Prototype),エンダードラゴンレッグス（プロトタイプ）
+item.armorplus.ender_dragon_prototype_boots.name,Ender Dragon Boots (Prototype),エンダーダンジョンブーツ（プロトタイプ）
+item.armorplus.guardian_prototype_helmet.name,Guardian Helmet (Prototype),ガーディアンヘルメット（プロトタイプ）
+item.armorplus.guardian_prototype_chestplate.name,Guardian Chestplate (Prototype),ガーディアン チェストプレート (プロトタイプ)
+item.armorplus.guardian_prototype_leggings.name,Guardian Leggings (Prototype),ガーディアンレッグス（プロトタイプ）
+item.armorplus.guardian_prototype_boots.name,Guardian Boots (Prototype),ガーディアンブーツ（プロトタイプ）
+item.armorplus.the_ultimate_prototype_helmet.name,The Ultimate Helmet (Prototype),最強のヘルメット (プロトタイプ)
+item.armorplus.the_ultimate_prototype_chestplate.name,The Ultimate Chestplate (Prototype),究極のチェストプレート（プロトタイプ）
+item.armorplus.the_ultimate_prototype_leggings.name,The Ultimate Leggings (Prototype),最強レッグス（プロトタイプ）
+item.armorplus.the_ultimate_prototype_boots.name,The Ultimate Boots (Prototype),究極のブーツ（プロトタイプ）
+item.armorplus.cobalt_prototype_helmet.name,Cobalt Helmet (Prototype),コバルトヘルメット（プロトタイプ）
+item.armorplus.cobalt_prototype_chestplate.name,Cobalt Chestplate (Prototype),コバルトチェストプレート（プロトタイプ）
+item.armorplus.cobalt_prototype_leggings.name,Cobalt Leggings (Prototype),コバルトレギン（プロトタイプ）
+item.armorplus.cobalt_prototype_boots.name,Cobalt Boots (Prototype),コバルトの靴（プロトタイプ）
+item.armorplus.ardite_prototype_helmet.name,Ardite Helmet (Prototype),アーデイトヘルメット（プロトタイプ）
+item.armorplus.ardite_prototype_chestplate.name,Ardite Chestplate (Prototype),アーデイトチェストプレート（プロトタイプ）
+item.armorplus.ardite_prototype_leggings.name,Ardite Leggings (Prototype),アーデイトレギン（プロトタイプ）
+item.armorplus.ardite_prototype_boots.name,Ardite Boots (Prototype),アーデイトの靴（プロトタイプ）
+item.armorplus.pig_iron_prototype_helmet.name,Pig Iron Helmet (Prototype),ピッグアイアンヘルメット（プロトタイプ）
+item.armorplus.pig_iron_prototype_chestplate.name,Pig Iron Chestplate (Prototype),ピッグアイアン チェストプレート (プロトタイプ)
+item.armorplus.pig_iron_prototype_leggings.name,Pig Iron Leggings (Prototype),ピッグアイアンレッグス（プロトタイプ）
+item.armorplus.pig_iron_prototype_boots.name,Pig Iron Boots (Prototype),ピッグアイロンブーツ（プロトタイプ）
+item.armorplus.knight_slime_prototype_helmet.name,Knight Slime Helmet (Prototype),ナイトスライム ヘルメット (プロトタイプ)
+item.armorplus.knight_slime_prototype_chestplate.name,Knight Slime Chestplate (Prototype),騎士スライムのチェストプレート（プロトタイプ）
+item.armorplus.knight_slime_prototype_leggings.name,Knight Slime Leggings (Prototype),ナイトスライムレッグス（プロトタイプ）
+item.armorplus.knight_slime_prototype_boots.name,Knight Slime Boots (Prototype),騎士スライムブーツ（プロトタイプ）
+item.armorplus.manyullyn_prototype_helmet.name,Manyullyn Helmet (Prototype),マニュリンヘルメット（プロトタイプ）
+item.armorplus.manyullyn_prototype_chestplate.name,Manyullyn Chestplate (Prototype),マニュリンチェストプレート（プロトタイプ）
+item.armorplus.manyullyn_prototype_leggings.name,Manyullyn Leggings (Prototype),マニュリン・レギンス（プロトタイプ）
+item.armorplus.manyullyn_prototype_boots.name,Manyullyn Boots (Prototype),マニュリーヌブーツ（プロトタイプ）
+item.armorplus.chicken_prototype_helmet.name,Chicken Helmet (Prototype),チキンヘルメット（プロトタイプ）
+item.armorplus.chicken_prototype_chestplate.name,Chicken Chestplate (Prototype),チキンチェストプレート（プロトタイプ）
+item.armorplus.chicken_prototype_leggings.name,Chicken Leggings (Prototype),チキンレッグス（プロトタイプ）
+item.armorplus.chicken_prototype_boots.name,Chicken Boots (Prototype),チキンブーツ（プロトタイプ）
+item.armorplus.slime_prototype_helmet.name,Slime Helmet (Prototype),スライムヘルメット（プロトタイプ）
+item.armorplus.slime_prototype_chestplate.name,Slime Chestplate (Prototype),スライムチェストプレート（プロトタイプ）
+item.armorplus.slime_prototype_leggings.name,Slime Leggings (Prototype),スライムのレギンス（プロトタイプ）
+item.armorplus.slime_prototype_boots.name,Slime Boots (Prototype),スライムブーツ（プロトタイプ）
+item.armorplus.ultimate_prototype_helmet.name,The Ultimate Helmet (Prototype),最強のヘルメット (プロトタイプ)
+item.armorplus.ultimate_prototype_chestplate.name,The Ultimate Chestplate (Prototype),最強のチェストプレート（プロトタイプ）
+item.armorplus.ultimate_prototype_leggings.name,The Ultimate Leggings (Prototype),最強レッグス（プロトタイプ）
+item.armorplus.ultimate_prototype_boots.name,The Ultimate Boots (Prototype),究極のブーツ（プロトタイプ）
+ability.armorplus.empty.name,Empty,空
+ability.armorplus.night_vision.name,Night Vision,夜間視覚
+ability.armorplus.water_breathing.name,Water Breathing,水の呼吸
+ability.armorplus.resistance.name,Resistance,耐性
+ability.armorplus.fire_resistance.name,Fire Resistance,火 resist
+ability.armorplus.haste.name,Haste,加速
+ability.armorplus.speed.name,Speed,速度
+ability.armorplus.jump_boost.name,Jump Boost,ジャンプブースト
+ability.armorplus.regeneration.name,Regeneration,回復
+ability.armorplus.strength.name,Strength,強さ
+ability.armorplus.invisibility.name,Invisibility,透明化
+ability.armorplus.absorption.name,Absorption,吸収
+ability.armorplus.wither_proof.name,Wither Proof,ウィザー-proof
+ability.armorplus.flight.name,Flight,飛行
+ability.armorplus.step_assist.name,Step Assist,段差補助
+ability.armorplus.bonus_xp_on_kill.name,Bonus XP on Kill,殺害による追加経験値
+ability.armorplus.walk_on_lava.name,Walk on Lava,溶岩上を歩く
+ability.armorplus.swimming_speed.name,Swimming Speed,水中移動速度
+ability.armorplus.underwater_vision.name,Underwater Vision,水中視界
+info.armorplus.items.ability.not_found,No available abilities,利用可能な能力がありません
+info.armorplus.items.ability.display_limit,Abilities %d/%d,能力 %d/%d
+item.armorplus.coal_arrow.ability_desc,Applies Blindness,盲眼効果を適用
+item.armorplus.lapis_arrow.ability_desc,Applies Nausea,嘔吐効果を適用
+item.armorplus.redstone_arrow.ability_desc,Applies Slowness,遅延効果を適用
+item.armorplus.emerald_arrow.ability_desc,Applies Mining Fatugue,採掘の疲労を適用
+item.armorplus.obsidian_arrow.ability_desc,Applies Weakness,弱化を適用
+item.armorplus.infused_lava_arrow.ability_desc,Sets on Fire,火にかかる
+item.armorplus.guardian_arrow.ability_desc,Applies Nausea,嘔吐効果を適用
+item.armorplus.super_star_arrow.ability_desc,Applies Wither II,腐敗IIを適用
+item.armorplus.ender_dragon_arrow.ability_desc,Applies Wither IV,腐敗IVを適用
+item.armorplus.lava_crystal.desc,Can be obtained by mining Ore Lava Crystal,オレラバクリスタルを採掘して入手できます
+item.armorplus.infused_lava_crystal.desc,Can be created by infusing the Lava Crystal inside the Lava Infuser,ラバークレスタイルをラバーフィューザー内で浸透させることで作成できます。
+item.armorplus.bow.desc,§9Bonus Arrow Damage: §r%s,§9ボーナス矢ダメージ： §r%s
+item.armorplus.dev_tool.desc_one,§cOnly works if debugMode is set to true in the configuration file [debugMode:%s],§cデバッグモードが設定ファイルで true に設定されている場合のみ機能します [debugMode:%s]
+item.armorplus.dev_tool.desc_two,§9Ability: §rGives Information about the Target,§9能力: §rターゲットに関する情報を提供します
+item.armorplus.dev_tool.desc_three,§3Use: §rRight Click a Target,§3使用方法: §rターゲットを右クリック
+item.armorplus.dev_tool.desc.advanced,Information is located at: <instance>/config/armorplus/entities/<entity_name>/<player_name>/<entity>-<id>-<date>,情報は <instance>/config/armorplus/entities/<entity_name>/<player_name>/<entity>-<id>-<date> に保存されています。
+item.armorplus.ability_holder.full_set,§9Full set abilities,§9完全装備能力
+item.armorplus.ability_holder.piece,§9Abilities,§9能力
+item.armorplus.arrow.ability_desc,§9Ability: §r%s,§9能力: §r%s
+item.armorplus.arrow.ability,§3Base Arrow Damage: §r%s,§3ベースアローダメージ: §r%s
+misc.armorplus.chaos.resistance,+%s Chaos Resistance,+%s チaos耐性
+misc.armorplus.chaos.resistance.max,Chaos Immunity,混沌耐性
+dialogs.armorplus.skeletal_king.name,%sSkeletal King:,%sスケルトン王:
+dialogs.armorplus.skeletal_king.line_one.a,Ha ha ha!,ハハハ！
+dialogs.armorplus.skeletal_king.line_one.b,You really think you even want to get me started with you?,本当にあなたと一緒に始めたいと思っているのですか？
+dialogs.armorplus.skeletal_king.line_one.c,This fight will be over way before it even starts.,この戦いは始まる前に終わります
+dialogs.armorplus.skeletal_king.line_two.a,That's just the beginning.,それは始まりにすぎない。
+dialogs.armorplus.skeletal_king.line_three.a,It seems that you are enjoying my minions...,あなたは私のミニオンを楽しんでいるようですね…
+dialogs.armorplus.skeletal_king.line_three.b,"Well, I got some news to you.",まあ、あなたにニュースがあります。
+dialogs.armorplus.skeletal_king.line_three.c,I own this world,この世界を所有しています
+dialogs.armorplus.skeletal_king.line_four.a,Why do you keep fighting,なぜ戦い続けるのか
+dialogs.armorplus.skeletal_king.line_four.b,There is no escape from me!,私から逃げることはできない！
+dialogs.armorplus.skeletal_king.line_five.a,WHY CAN'T YOU JUST DIE!?,どうしてただ死ねないんだ！？
+dialogs.armorplus.skeletal_king.line_five.b,"Paladins, Rise!",パラディン、立ち上がれ！
+dialogs.armorplus.skeletal_king.line_six.a,Nothing can stop me from destroying this world,この世界を破壊することを止めるものは何もありません
+dialogs.armorplus.skeletal_king.line_six.b,"If my minions, cannot kill you. then I'll kill you myself!",私のミニオンがあなたを倒せないなら、私は自分で倒します！
+dialogs.armorplus.skeletal_king.line_six.c,"Minions, CHARGE with your full power!!!",ミニオン、全力でCHARGE！！
+dialogs.armorplus.skeletal_king.death_line.a,"You cannot win this battle, %s",この戦いに勝つことはできません、%s
+dialogs.armorplus.skeletal_king.death_line.b,"The end is near, but remember I'll be BACK",終わりは近いですが、覚えておいてください私は戻ってきます
+dialogs.armorplus.skeletal_king.death_line.c,And there will be an END to this world.,そしてこの世界に終わりが来るだろう。
+error.world_gen.armorplus.generator_height,"Illegal Height Arguments for WorldGenerator. Min height must in the range (0, %d) [Value: %d]. Max height must not be greater than 256. [Value: %d]","ワールドジェネレーターの不正な高さ引数です。最小高さは (0, %d) の範囲内である必要があります。[値: %d]。最大高さは256を超えてはいけません。[値: %d]"
+item.armorplus.fragment.info,Can be obtained from:,このアイテムは以下の方法で入手できます:
+armorplus.jei.fragment.desc,"Use to craft the ""Map of Sacrifice"". Dropped by: %s",「犠牲の地図」をクラフトするために使用します。ドロップ元：%s
+item.armorplus.tgotg.warning,This item can summon items which can potentially cause crashes,このアイテムはアイテムを召喚でき、クラッシュの原因になる可能性があります。
+item.armorplus.tgotg.info_1,Ability:,能力:
+item.armorplus.tgotg.info_2,Grants Random Item,ランダムアイテムを付与
+item.armorplus.tgotg.max_usage,Max Uses:,最大使用回数:
+item.armorplus.tgotg.usage,How to Use: Right-Click,使用方法：右クリック
+item.armorplus.tgotg.allowed,Allowed:,許可:
+item.armorplus.map_of_sacrifice.usage,How to Use: Right-Click,使用方法：右クリック
+item.armorplus.map_of_sacrifice.health,Health:,体力:
+item.armorplus.map_of_sacrifice.armor,Armor:,防具:
+item.armorplus.map_of_sacrifice.allowed,Allowed:,許可:

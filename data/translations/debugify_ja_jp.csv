@@ -1,0 +1,72 @@
+﻿key,source_text,target_text
+debugify.basic,Basic Fixes,基本修正
+debugify.env.client,Client,クライアント
+debugify.env.client.desc,Fixes that only apply on the client.,クライアント側のみ適用される修正。
+debugify.env.server,Main,メイン
+debugify.env.server.desc,"Fixes that apply to both the client and the server, and common code between them.",クライアントとサーバーの両方に適用される修正、およびそれら間の共通コード。
+debugify.error.conflict,%s fix is incompatible with the mod '%s',%s 修正はモッド '%s' と互換性がありません
+debugify.error.mixin_error,"Failed to load %s, check the log for more information.",%s の読み込みに失敗しました。詳細はログをご確認ください。
+debugify.error.mixin_error.text,Errored,エラー
+debugify.error.os,%s only applies to %s,%s は %s にのみ適用されます
+debugify.fix.disabled,Not fixed,修正されていません
+debugify.fix.enabled,Fixed,固定
+debugify.fix.unavailable,Unavailable,利用不可
+debugify.fix_effect.mc-159163,"This will prevent the client from syncing pose data with the server, and purely uses the client to decide the pose.",クライアントがサーバーとのポーズデータ同期を防ぎ、クライアント側でのみポーズを決定します。
+debugify.fix_effect.mc-2025,This fix means loading Debugify for the first time will not fix the issue until the chunks are saved and loaded with Debugify.,この修正は、Debugifyを初めて読み込んでもチャンクをDebugifyで保存・ロードするまで問題が修正されないことを意味します。
+debugify.fix_explanation.mc-100991,"Notifies the damage tracker of a thrown fishing hook damaging the entity with 0 damage, like snowballs.",0ダメージで投げられた釣り針がスノーボールなどと同じようにエンティティにダメージを与えることをダメージトラッカーに通知します。
+debugify.fix_explanation.mc-108948,"The issue is that the client does not run the same calculations as the server. When no one is controlling the boat, the client does not run physics on the boat, causing a client de-sync. This fix simply tells the client to run some physics calculations on the boat.",問題はクライアントがサーバーと同じ計算を実行しないことです。誰もボートを操作していない場合、クライアントはボートの物理演算を実行しないため、クライアント側で同期がずれます。この修正はクライアントがボートで物理計算を実行するよう指示します。
+debugify.fix_explanation.mc-111516,Modifies a math acos calculation to make sure the result is not more than 1.0,acos計算を修正し、結果が1.0を超えないようにします
+debugify.fix_explanation.mc-112730,Prevents beacons and other block entities from being added to the local block entity renderer list if they are already added to the global list.,ビーコンおよび他のブロックエンティティがグローバルリストに既に追加されている場合、ローカルブロックエンティティレンダラーリストへの追加を防ぎます。
+debugify.fix_explanation.mc-119417,Stops player from sleeping when they change to spectator.,プレイヤーがスペクターモードに切り替えたときに睡眠を防止する。
+debugify.fix_explanation.mc-119754,Tells firework entities that players are not elytra flying if in spectator,ファイヤーワークエンティティに対し、観戦者の場合はプレイヤーがエリトラ飛行していないことを伝えます。
+debugify.fix_explanation.mc-121706,Entities with a ranged bow attack goal are forced to look at their target.,遠距離弓攻撃の目標を持つエンティティはターゲットを見るよう強制されます。
+debugify.fix_explanation.mc-121903,Adds NBT tag 'LastExecuted' to command blocks to save and load their last executed property.,コマンドブロックに NBT タグ 'LastExecuted' を追加し、最後に実行されたプロパティを保存・読み込みます。
+debugify.fix_explanation.mc-122477,"Prevents first two keyboard polls after an edit box is initialized, e.g. the chat box.",編集ボックスが初期化された後、最初の2回のキーボードポール（例：チャットボックス）を防止します。
+debugify.fix_explanation.mc-123739,Sorts recipe book entries by their identifier.,レシピブックのエントリを識別子順に並べ替えます
+debugify.fix_explanation.mc-124117,"Sends players packets to update all their effects, their experience and their abilities after cross dimensional teleport.",次元間テレポート後、プレイヤーのすべての効果、経験値、能力を更新するパケットを送信します。
+debugify.fix_explanation.mc-132878,Spawns breaking particles when armour stands are hurt.,アーマースタンドがダメージを受けると破壊パーティクルを生成します。
+debugify.fix_explanation.mc-135971,Overrides CTRL+Q behaviour in crafting slot to repeatedly CTRL+Q until there are no items left in the crafting slot.,クラフトスロット内のCTRL+Q動作をオーバーライドして、クラフトスロットに項目がなくなるまで繰り返しCTRL+Qします。
+debugify.fix_explanation.mc-143474,Copies over the selected item slot when generating the new local player after respawn.,再生成時に新しいローカルプレイヤーを作成する際、選択したアイテムスロットをコピーします。
+debugify.fix_explanation.mc-155509,Checks if the pufferfish is alive before attempting to sting the player.,フグが生存しているか確認し、プレイヤーに刺す前にチェックします
+debugify.fix_explanation.mc-159163,Removes pose data from entity data packet handling.,エンティティデータパケット処理からポーズデータを削除する。
+debugify.fix_explanation.mc-160095,"If cacti encounter a piston head, the block that is being moved by the piston is considered instead of the piston.",サボテンがピストンヘッドに遭遇した場合、ピストンではなくピストンで移動されているブロックが考慮されます。
+debugify.fix_explanation.mc-162253,Stops a client light update when entering a chunk.,チャンクに入ったときにクライアントのライト更新を停止します。
+debugify.fix_explanation.mc-165381,Cancels destroying block when the client drops an item,クライアントがアイテムをドロップした際、ブロックの破壊をキャンセルします。
+debugify.fix_explanation.mc-179072,Checks if the entity the creeper sees is an enemy before igniting.,クリーーパーが見ているエンティティが敵かどうかを確認してから点火します。
+debugify.fix_explanation.mc-183990,"When a mob is ticked, it checks to see if its target is dead, and removes it if so. This fix also applies to a long list of entities that have group attacks, not just silverfish.",モブがティック処理されるとき、対象が死んでいるかをチェックして死んでいれば削除します。この修正はシルバーフィッシュだけでなく、グループ攻撃を行うエンティティの長いリストにも適用されます。
+debugify.fix_explanation.mc-193343,Removes soul speed if player is a spectator.,プレイヤーが観戦者の場合、ソウルスピードを削除します。
+debugify.fix_explanation.mc-197260,"Overrides the light level passed to the armour stand renderer with a maximum of: the block below the armor stand, bottom of the armor stand, top of the armor stand and the block above of the armor stand.",アーマースタンドレンダラーに渡される光レベルをオーバーライドして、次のいずれかの最大値を使用します：アーマースタンド下のブロック、アーマースタンド底部、アーマースタンド上部、アーマースタンド上のブロック。
+debugify.fix_explanation.mc-199467,"Modifies the input to sin and cos functions, which wraps the input from 0 to 2pi. This prevents any integer overflows occurring. Whilst this issue is reportedly an issue of the client, the root cause is in both environments, hence it's located in main.",sin関数とcos関数への入力を変更して、入力を0から2πにラップします。これは整数オーバーフローが発生するのを防ぎます。この問題はクライアント側の問題として報告されていますが、根本原因は両環境にあるため、mainに配置されています。
+debugify.fix_explanation.mc-200418,Dismounts baby villagers from chickens upon conversion.,変換時に子村人を鶏から降ろします。
+debugify.fix_explanation.mc-2025,"Due to floating point inaccuracies, sometimes the hitbox of entities end up being slightly smaller than desired. Then, if this happens before the entities are pushed against eachother, they will intersect with the wall. Then, when the AABB is recalculated on chunk load, they will be determined as inside the wall, where they are then pushed. This fix simply writes an 'AABB' tag to entity NBT data with double-precision hitbox sizes which then get loaded back in.",浮動小数点の不正確さにより、エンティティのヒットボックスが希望より少し小さくなることがあります。これがエンティティが互いに押し付けられる前に発生すると、壁と交差します。その後、チャンクロード時にAABBが再計算されると、壁の内側にあると判定されて押し出されます。この修正はダブルプレシジョンのヒットボックスサイズを持つ「AABB」タグをエンティティNBTデータに書き込み、それらが再度ロードされるようにします。
+debugify.fix_explanation.mc-206922,Items with an age less than 9 ticks are not removed from lightning strikes.,9ティック未満の年齢のアイテムは雷撃から除外されません。
+debugify.fix_explanation.mc-215530,Resets frozen time when the player changes to spectator.,プレイヤーがスペクターモードに切り替えると凍結時間をリセットします
+debugify.fix_explanation.mc-224729,Always saves ProtoChunks even if the chunk save predicate returns false.,ProtoChunks は常に保存されます。チャンク保存判定が false でも同様です
+debugify.fix_explanation.mc-237493,"Adds an option in the telemetry menu to completely disable telemetry. Telemetry is disabled by overriding all outgoing telemetry events to be an empty telemetry event, which is not sent.",テレメトリメニューにテレメトリを完全に無効にするオプションを追加します。テレメトリは、すべての送信テレメトリイベントを送信されない空のテレメトリイベントでオーバーライドすることで無効化されます。
+debugify.fix_explanation.mc-30391,"Adds edge-case checks for chicken, blaze and the wither to fall damage spawn particles to not spawn them.",鶏、ブレイズ、ウィザーの落下ダメージスポーン粒子がスポーンされないようにするエッジケースチェックを追加します。
+debugify.fix_explanation.mc-55347,Clears titles on disconnect.,切断時にタイトルをクリアする。
+debugify.fix_explanation.mc-69216,Discards fishing hook entity on change to spectator.,観客モードへの変更時に釣りフックエンティティを破棄します
+debugify.fix_explanation.mc-72151,"Wolves have a custom function to modify the amount of damage they take, which transforms input damage 0 to 0.5, this fix checks if the damage is 0.5 and changes it back to 0.",オオカミは受けるダメージ量を変更するカスタム関数を持っており、入力ダメージ0を0.5に変換します。この修正はダメージが0.5かどうかをチェックして0に戻します。
+debugify.fix_explanation.mc-7569,Appends a new line to the end of every system message.,すべてのシステムメッセージの末尾に新しい行を追加します。
+debugify.fix_explanation.mc-79545,Clamps the experience level to the integer limit only when rendering.,経験値レベルを整数上限に固定するのはレンダリング時のみです。
+debugify.fix_explanation.mc-88371,Sets the dragon landing Y position to 65 if the center spawn has been destroyed.,ドラゴンの降下Y座標を65に設定します（中心スポーンが破壊された場合）
+debugify.fix_explanation.mc-89146,"Provides a strict save order of tile entities, to match the update order which then allows initial update of tile entities to be in the correct order.",タイルエンティティの厳密な保存順序を提供して更新順序と一致させ、タイルエンティティの初期更新が正しい順序で行われるようにします。
+debugify.fix_explanation.mc-93018,Only initiate breeding if the wolf is tamed.,オオカミが飼いならされている場合のみ繁殖を開始する。
+debugify.fix_explanation.mc-93384,Adds the eye height to the particle spawn location.,粒子生成位置に目高を追加する。
+debugify.fix_explanation.mc_176559,Does not consider item durability when comparing a change in item when checking if block breaking should reset.,ブロック破壊をリセットすべきかをチェックする際のアイテム変更を比較するとき、アイテムの耐久性を考慮しません。
+debugify.gameplay,Gameplay Fixes,ゲームプレイ修正
+debugify.gameplay.enable_in_multiplayer,Enable In Multiplayer,マルチプレイヤーで有効にする
+debugify.gameplay.warning,WARNING: This category contains fixes that may be an unfair advantage!,警告: このカテゴリには不公平な利点になる可能性のある修正が含まれています！
+debugify.mc_237493.header,Telemetry Disabled By Debugify,デバッグifyによりテレメトリが無効化されました
+debugify.mc_237493.line,"You chose '%s' on the telemetry option, so Debugify is preventing any connection with telemetry services from Mojang. This is provided by Debugify for fix MC-237493.",テレメトリオプションで「%s」を選択したため、Debugifyはmojangからのテレメトリサービスとのすべての接続を防止しています。これは修正MC-237493のDebugifyによって提供されます。
+debugify.mc_237493.tooltip.all,'%s' includes all of minimal and option telemetry.,' %s ' は最小およびオプションのテレメトリすべてを含みます。
+debugify.mc_237493.tooltip.minimal,'%s' includes only the information Mojang deems required.,' %s ' は、Mojang が必要とみなす情報のみを含む。
+debugify.mc_237493.tooltip.off,'%s' completely disables any connection to Mojang telemetry services. (Debugify MC-237493),' %s ' は Mojang のテレメトリーサービスへの接続を完全に無効化します。（Debugify MC-237493）
+debugify.misc,Misc,その他
+debugify.misc.default_disabled,Default to Disabled,デフォルトは無効化
+debugify.misc.default_disabled.description,Default new bug fixes to be disabled rather than enabled.,デフォルトでは新しいバグ修正が有効化されず、無効化されるように設定します。
+debugify.no_yacl.description,"To configure Debugify using a GUI, you must install %s, this is the library used to make this functionality available. Otherwise, you can configure using the JSON file stored at '%s'.",GUIを使用してDebugifyを設定するには、%sをインストールする必要があります。これはこの機能を利用可能にするために使用されるライブラリです。それ以外の場合は、「%s」に保存されているJSONファイルを使用して設定できます。
+debugify.no_yacl.title,YetAnotherConfigLib not installed!,YetAnotherConfigLib がインストールされていません！
+debugify.os.macos,macOS,macOS
+debugify.os.solaris,Solaris,ソーラリス
+debugify.os.windows,Windows,ウィンドウズ

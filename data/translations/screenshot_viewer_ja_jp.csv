@@ -1,0 +1,66 @@
+﻿key,source_text,target_text
+config.screenshot_viewer.default_list_order,Default Screenshot List Ordering,スクリーンショットリストのデフォルト並び順
+config.screenshot_viewer.default_list_order.desc,The ordering of the screenshots when the screen is opened.,画面が開いたときのスクリーンショットの順序
+config.screenshot_viewer.display_hint_tooltip,Display Hint Tooltip,ヒントツールチップを表示
+config.screenshot_viewer.display_hint_tooltip.desc,Controls whether a tooltip giving useful info should appear when hovering a screenshot for a prolonged period.,スクリーンショットを長時間ホバーした時に役立つ情報を表示するツールチップを表示するかどうかを制御します。
+config.screenshot_viewer.enable_screenshot_enlargement_animation,Enable Screenshot Enlargement Animation,スクリーンショット拡大アニメーションを有効にします。
+config.screenshot_viewer.enable_screenshot_enlargement_animation.desc,Whether a growing animation should play when a screenshot on the screen is clicked to be enlarged.,スクリーン上のスクリーンショットをクリックして拡大するときに成長アニメーションを再生するかどうか。
+config.screenshot_viewer.initial_screenshot_amount_per_row,Initial Screenshot Amount Per Row,初期スクリーンショット数（行ごと）。
+config.screenshot_viewer.initial_screenshot_amount_per_row.desc,Number of screenshots to be displayed per row when the screen is opened (from 2 to 8).,画面が開かれたときに行ごとに表示されるスクリーンショットの数（2〜8）です。
+config.screenshot_viewer.invert_zoom_direction,Invert Zoom Direction,ズーム方向を反転
+config.screenshot_viewer.invert_zoom_direction.desc,"If enabled, it inverts the scroll direction during zoom in the Screenshot Viewer menu",有効にすると、スクリーンショットビュアーメニューでズーム時のスクロール方向が反転します
+config.screenshot_viewer.pause_menu_button_offset,Pause Menu Button Offset,ポーズメニュー ボタンオフセット
+config.screenshot_viewer.pause_menu_button_offset.desc,The offset in pixels of the screenshot manager button if shown in the pause menu (from 0 to how much you want).,ポーズメニューに表示されたスクリーンショットマネージャーボタンのオフセット（ピクセル単位）（0から希望の値まで）。
+config.screenshot_viewer.prompt_when_deleting_screenshot,Prompt When Deleting Screenshot,スクリーンショット削除時の確認メッセージ
+config.screenshot_viewer.prompt_when_deleting_screenshot.desc,Warns you with a confirmation screen when trying to delete a screenshot.,スクリーンショットを削除しようとすると確認画面で警告されます。
+config.screenshot_viewer.redirect_screenshot_chat_links,Redirect Screenshot Chat Links,スクリーンショットチャットリンクをリダイレクト
+config.screenshot_viewer.redirect_screenshot_chat_links.desc,"If enabled, clicking on the link printed in the chat when taking a screenshot will open it directly in the screenshot manager.",有効にすると、スクリーンショットを撮影した時にチャットに出力されたリンクをクリックすると、スクリーンショットマネージャーで直接開きます。
+config.screenshot_viewer.render_screenshot_element_font_shadow,Render Screenshot Element Font Shadow,スクリーンショット要素のフォントシャドウを描画する
+config.screenshot_viewer.render_screenshot_element_font_shadow.desc,If a font shadow should be rendered under the screenshot elements text.,スクリーンショット要素のテキストの下にフォントシャドウが描画されるかどうかです。
+config.screenshot_viewer.render_wide_properties_button,Render Wide Properties Button,幅広いプロパティ表示ボタン
+config.screenshot_viewer.render_wide_properties_button.desc,Whether the properties buttons should be rendered wide or square.,プロパティボタンをワイド表示するかスクエア表示するか
+config.screenshot_viewer.screen_scroll_speed,Scroll speed,スクリール速度
+config.screenshot_viewer.screen_scroll_speed.desc,Scroll speed of the screen (from 1 to 50).,スクロール速度（1〜50）
+config.screenshot_viewer.screenshot_element_background_opacity,Background Opacity of the Screenshot Elements,スクリーンショット要素の背景不透明度
+config.screenshot_viewer.screenshot_element_background_opacity.desc,Opacity of the background that appears when the screenshot elements are hovered (from 0 to 100).,スクリーンショット要素がホバーされたときに表示される背景の不透明度（0〜100）
+config.screenshot_viewer.screenshot_element_text_color,Screenshot Elements Text Color,スクリーンショット要素テキスト色
+config.screenshot_viewer.screenshot_element_text_color.desc,Color of the texts describing the screenshots elements.,スクリーンショット要素を説明するテキストの色。
+config.screenshot_viewer.screenshot_element_text_visibility,Screenshot Names Visibility,スクリーンショット名の可視性
+config.screenshot_viewer.screenshot_element_text_visibility.desc,The visibility state of the screenshots names.,スクリーンショット名の表示状態
+config.screenshot_viewer.screenshots_folder,Screenshots Folder,スクリーンショットフォルダ
+config.screenshot_viewer.screenshots_folder.desc,The path to the folder containing the screenshots images that will be displayed in the screen.,画面に表示されるスクリーンショット画像を含むフォルダーへのパス。
+config.screenshot_viewer.show_button_in_game_pause_menu,Show Button In Pause Menu,ポーズメニューでボタンを表示
+config.screenshot_viewer.show_button_in_game_pause_menu.desc,Shows a button to access screenshots directly in the pause menu.,一時停止メニューでスクリーンショットへ直接アクセスできるボタンを表示します。
+config.screenshot_viewer.show_button_on_title_screen,Show Button On Title Screen,タイトル画面にボタンを表示する
+config.screenshot_viewer.show_button_on_title_screen.desc,Shows a button to access screenshots directly on the title screen.,タイトル画面でスクリーンショットに直接アクセスするボタンを表示します。
+config_category.screenshot_viewer.ingame,Screenshot Viewer Hooks,スクリーンショット閲覧用ハッカー
+config_category.screenshot_viewer.ingui,Screenshot Manager Customization,スクリーンショットマネージャーのカスタマイズ
+key.screenshot_viewer.open_screenshots_screen,Open Screenshot Manager,スクリーンショットマネージャーを開く
+screen.screenshot_viewer.button.close_properties_menu,Close,閉じる
+screen.screenshot_viewer.button.config,Configure...,設定...
+screen.screenshot_viewer.button.copy_screenshot,Copy Image,画像をコピー
+screen.screenshot_viewer.button.delete_screenshot,Delete,削除
+screen.screenshot_viewer.button.fast_delete,Toggle Fast Delete,高速削除を切り替え
+screen.screenshot_viewer.button.open_file,Open file,ファイルを開く
+screen.screenshot_viewer.button.order,Sorting Order,並び順
+screen.screenshot_viewer.button.order.ascending,Sorting by Ascending Order,昇順で並べ替え
+screen.screenshot_viewer.button.order.descending,Sorting by Descending Order,降順で並べ替える
+screen.screenshot_viewer.button.refresh,Refresh Screenshots (press F5),スクリーンショットを更新（F5キー）
+screen.screenshot_viewer.button.rename_file,Rename screenshot,スクリーンショットの名前変更
+screen.screenshot_viewer.button.screenshot_folder,Open Screenshot Folder,スクリーンショットフォルダを開く
+screen.screenshot_viewer.config,Screenshot Viewer Config,スクリーンショットビューア設定
+screen.screenshot_viewer.delete_n_screenshots.message,Are you sure you want to delete these screenshots ? (they will be lost forever!),これらのスクリーンショットを削除してもよろしいですか？（永久に失われます！）
+screen.screenshot_viewer.delete_prompt,Delete '%s','%s' を削除
+screen.screenshot_viewer.delete_prompt.message,Are you sure you want to delete this screenshot ? (it will be lost forever!),このスクリーンショットを削除してもよろしいですか？（永久に失われます！）
+screen.screenshot_viewer.field.screenshot_name,New screenshot name,新しいスクリーンショット名
+screen.screenshot_viewer.manage_screenshots,Manage Screenshots...,スクリーンショット管理…
+screen.screenshot_viewer.rename_screenshot,Enter a new name for your screenshot:,スクリーンショットの新しい名前を入力してください：
+screen.screenshot_viewer.screenshot_manager.delete_n_screenshots,Delete %d screenshot(s),%d枚のスクリーンショットを削除
+screen.screenshot_viewer.screenshot_manager.fast_delete,Fast Delete Mode,高速削除モード
+screen.screenshot_viewer.screenshot_manager.no_screenshots,Looks like you have not taken any screenshot yet!,まだスクリーンショットを撮っていないようです！
+screen.screenshot_viewer.screenshot_manager.zoom,Zoom Mode (Hold CTRL),ズームモード（CTRLを押し続ける）
+toast.screenshot_viewer.copy_fail,Failed to copy screenshot: %s,スクリーンショットのコピーに失敗しました: %s
+toast.screenshot_viewer.copy_success,Successfully copied screenshot!,スクリーンショットをコピーしました！
+tooltip.screenshot_viewer.menu_hint,"Right-click to manage 
+Hit CTRL-C to copy to clipboard",右クリックして管理します
+tooltip.screenshot_viewer.redirect_to_screenshot_manager,Open screenshot in the Screenshot Manager...,スクリーンショットマネージャーでスクリーンショットを開く…

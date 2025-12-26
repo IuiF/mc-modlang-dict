@@ -1,0 +1,27 @@
+﻿key,source_text,target_text
+probejs.already_running,"There's already a dumping thread running, please wait.",すでにダンプスレッドが実行中です。お待ちください。
+probejs.bye_bye,"ProbeJS is now disabled. require() still works, though. Don't forget to exclude the typing.",ProbeJSは無効化されています。require() はまだ機能します。ただし型情報を除外してください。
+probejs.complete,"ProbeJS will dump all the complex types now, at expense of VSCode performance.",ProbeJS はすべての複雑なタイプをダンプしますが、VSCode のパフォーマンスに影響します。
+probejs.decompile,"ProbeJS will decompile mod sources at next dump, decompilation will also trigger when mod list changed.",ProbeJSは次のダンプでモッドソースをデコンパイルします。デコンパイルはモッドリストが変更された場合にも動作します。
+probejs.dump.class_discovered,Discovered %s classes to generate typing for.,%s クラスが検出され、型定義が生成されました。
+probejs.dump.cleaning,Removing old dump files that might contain invalid classes... This can be slow.,古いダンプファイル（無効なクラスが含まれている可能性があります）を削除しています… これには時間がかかる場合があります。
+probejs.dump.decompiled_x_class,Decompiled %s classes.,%s クラスをデコンパイルしました。
+probejs.dump.decompiling,"Decompiling mods, this might take some time...",モッドの逆コンパイル中です。時間がかかる場合があります...
+probejs.dump.dump_error,"Dump generation of script type %s failed, this might be a bug in code.",スクリプトタイプ %s のダンプ生成に失敗しました。これはコードのバグかもしれません。
+probejs.dump.dump_finished,The typing generation of script type %s is finished.,スクリプトタイプ %s の生成が完了しました。
+probejs.dump.mod_changed,Mod environment changed.,モジュール環境が変更されました。
+probejs.dump.report_progress,Dump executing... Current progress: ,実行中... 現在の進行状況: 
+probejs.dump.snippets_generated,Snippets for VSCode generated.,VSCode用のスニペットが生成されました。
+probejs.dump.start,ProbeJS dump started.,ProbeJS ダンプ開始。
+probejs.enabled_warning,"ProbeJS is enabled! You should exclude .probe generated when you finished development, and disable the mod by: ",ProbeJSが有効です! 開発完了後は .probe 生成物を除外し、以下の方法でモッドを無効化する必要があります:
+probejs.hello,Welcome to ProbeJS! An automatic dump will be triggered everytime you enter the game with some new stuffs!,ProbeJSへようこそ! 新しいものが追加されるたびに自動ダンプがトリガーされます。ゲームに参加するたびに!
+probejs.hello_again,ProbeJS is enabled now. Happy coding!,ProbeJS が有効になりました。コーディングを楽しんでください！
+probejs.interactive,ProbeJS interactive server is listening on port %s.,ProbeJS インタラクティブサーバーはポート %s で待機しています。
+probejs.isolation,"ProbeJS will isolate each script files now, only `export`ed identifiers will be exposed.",ProbeJS は各スクリプトファイルを分離し、`export` された識別子のみが公開されます。
+probejs.lint_passed,Congratulations! Your code passed linting!,おめでとうございます！コードのリントチェックに合格しました！
+probejs.no_complete,"ProbeJS will disable some types in dump now, so your VSCode should run faster. Use snippets for those types missing.",ProbeJSはダンプ内の一部のタイプを無効化するようになります。これにより、VSCodeがより高速に動作するはずです。欠落しているタイプについてはスニペットを使用してください。
+probejs.no_decompile,ProbeJS will not decompile mod sources now.,ProbeJS は現在モッドソースを逆コンパイルしません。
+probejs.no_isolation,ProbeJS will not try to isolate different scopes now. Be aware of duplicated names.,ProbeJS はもはや異なるスコープを分離しようとしません。重複名に注意してください
+probejs.performance,"You installed %s mods! Some functions are disabled for the sake of performance, but probably not much.",%s個のモッドをインストールしました! パフォーマンスの都合上、一部の機能が無効になっていますが、おそらくそれほど多くないでしょう。
+probejs.removed_script,Removed typing for script type %s.,%s スクリプトタイプの入力が削除されました。
+probejs.wiki,"To learn about how to use ProbeJS (or report issue), please go to the ",ProbeJS の使い方を学ぶ（または問題を報告する）には、次へ進んでください 

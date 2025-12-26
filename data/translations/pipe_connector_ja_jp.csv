@@ -1,0 +1,57 @@
+﻿key,source_text,target_text
+item.pipe_connector.gui.button.PlacePipes,Place Pipes,パイプを配置
+item.pipe_connector.gui.button.ResetPipePos,Reset Positions,位置をリセット
+item.pipe_connector.gui.button.aStarPathfinding,A* Pathfinding,A* パスファインディング
+item.pipe_connector.gui.button.bridgeType,Bridge Type: %s,橋タイプ: %s
+item.pipe_connector.gui.button.defaultPathfinding,Manhattan Pathfinding,マンハッタンのパスファインディング
+item.pipe_connector.gui.button.infoSign,?,?
+item.pipe_connector.gui.button.off,❌,❌
+item.pipe_connector.gui.button.on,✔,✔
+item.pipe_connector.gui.button.preview_outline,Outline,アウトライン
+item.pipe_connector.gui.button.preview_solid,Solid,固体
+item.pipe_connector.gui.button.stepPath,Step Path,歩道
+item.pipe_connector.gui.button.toolTip.maxAllowedPipesReached,Unable to place more than %s pipes at once,一度に%s本以上のパイプを配置できません
+item.pipe_connector.gui.button.tooltip.InventoryGuard,This will prevent the destruction of blocks with inventories,インベントリを持つブロックの破壊を防止します
+item.pipe_connector.gui.button.tooltip.avoidInventoryBlocks,Will try to route around inventory blocks if possible,可能ならインベントリブロックを迂回しようと試みる
+item.pipe_connector.gui.button.tooltip.disabledButtonHoldValidItem,You must hold a valid pipe item in your off-hand,オフハンドに有効なパイプアイテムを持っている必要があります
+item.pipe_connector.gui.button.tooltip.disabledInventoryInPath,"Cannot break inventory blocks, %s is in path.",インベントリブロックを壊せません、%s が経路上にあります。
+item.pipe_connector.gui.button.tooltip.disabledNotEnoughPipes,"Not enough pipes in inventory, missing %s pipes",インベントリにパイプが足りず、%s本のパイプが不足しています
+item.pipe_connector.gui.button.tooltip.noPathFound,No valid path found (blocked or avoided),有効なパスが見つかりませんでした（ブロックされているか回避されています）。
+item.pipe_connector.gui.button.tooltip.utilizeExistingPipesInfoPartOne,This will try to use already placed,既に配置されたものを使用しようとします
+item.pipe_connector.gui.label.availablePipes,Available Pipes: %s,利用可能なパイプ: %s
+item.pipe_connector.gui.label.avoidInventoryBlocks,Avoid Inventories,インベントリを避ける
+item.pipe_connector.gui.label.depth,Depth: %s,深さ: %s
+item.pipe_connector.gui.label.preventBlockWithInventoryDestruction,Chest Guard,チェストガード
+item.pipe_connector.gui.label.preview_style,Preview Style,プレビュースタイル
+item.pipe_connector.gui.label.requiredPipes,Required Pipes: %s,必要なパイプ: %s
+item.pipe_connector.gui.label.utilizeExistingPipes,Utilize Laid Pipes,敷設されたパイプを使用
+item.pipe_connector.gui.tooltip.aStarPathfindingImportantInfo,A* will try to go around ores.,A*は鉱石の周りを迂回しようとします。
+item.pipe_connector.gui.tooltip.comingSoon,Coming SoonTM...,近日公開TM…
+item.pipe_connector.gui.tooltip.defaultPathfindingImportantInfo,Manhattan will go through ores and void them.,マンハッタンは鉱石を通過し、それらを消去します。
+item.pipe_connector.gui.tooltip.performanceImpact,Performance Impact:,パフォーマンス影響:
+item.pipe_connector.gui.tooltip.performanceImpactLow,Low,Low
+item.pipe_connector.gui.tooltip.performanceImpactMediumHigh,Medium-High,中～高
+item.pipe_connector.gui.tooltip.stepPath,"After choosing the first position, the path will follow your steps at selected depth",最初の位置を選択した後、パスは選択した深度であなたの足跡に沿って進みます。
+item.pipe_connector.jei.supportedPipesInfo,Supported Pipes,サポートされているパイプ
+item.pipe_connector.message.UpSideNotAllowed,You can't connect a pipe to the top of a block,ブロックの上部にパイプを接続することはできません
+item.pipe_connector.message.firstPositionSet,1st position chosen at: %s,1番目の位置を選択したのは: %s
+item.pipe_connector.message.holdValidItem,You must hold a valid pipe item in your off-hand,オフハンドに有効なパイプアイテムを持っている必要があります
+item.pipe_connector.message.inventoryBlocksNotAvoided,Path could not avoid all inventory blocks,パスはすべてのインベントリブロックを回避できませんでした
+item.pipe_connector.message.maxNodesReached,"Reached the maximum number of nodes, Shift+Right-Click on an existing node to remove it",ノード数が最大値に達しました。既存のノードをShift+右クリックで削除してください
+item.pipe_connector.message.newDepth,Depth was set to %s,深さを %s に設定しました
+item.pipe_connector.message.notEnoughPipes,"Not enough pipes in inventory, missing %s pipes",インベントリにパイプが足りません、%s パイプが不足しています
+item.pipe_connector.message.reachedPipeLimit,Unable to place more than %s pipes at once,一度に%s本以上のパイプを配置できません
+item.pipe_connector.message.resettingPositions,Resetting positions,位置をリセット中
+item.pipe_connector.message.secondPositionSet,2nd position chosen at: %s,2番目の位置を選択したのは: %s
+item.pipe_connector.message.unbreakableBlockReached,Pipes cannot replace %s blocks,パイプは%sブロックを置き換えることができません。
+item.pipe_connector.pipe_connector,Pipe Connector,パイプコネクタ
+item.pipe_connector.preview.position,Position,位置
+item.pipe_connector.tooltip.CancelSelectionExplanation,Shift + Right-Click on Air will cancel selection,空中で Shift+右クリックすると選択がキャンセルされます
+item.pipe_connector.tooltip.changeDepthExplanation,Shift + Scroll wheel to change Pipe depth,Shift + スクロールホイールでパイプ深度を変更します
+item.pipe_connector.tooltip.openGui,Shift + Right-Click on an air block to open the GUI to Place Pipes or Reset Positions,空気ブロックにShift + 右クリックして、パイプ配置または位置リセットのGUIを開きます。
+item.pipe_connector.tooltip.shiftForMoreInfo,Hold Shift for more info,詳細情報はShiftキーを押してください
+item.pipe_connector.tooltip.usageExplanation,Shift + Right-Click on Blocks will set positions,ブロック上で Shift+右クリックすると位置が設定されます
+item.pipe_connector.gui.button.tooltip.disabledPlacePipes,Please choose 2 positions first,まず2つの位置を選択してください。
+item.pipe_connector.gui.button.tooltip.disabledResetPipePos,You haven't chosen a any positions yet,まだポジションを選択していません。
+item.pipe_connector.gui.button.tooltip.utilizeExistingPipesInfoPartTwo,pipes to connect the two positions,両位置を接続するパイプ
+item.pipe_connector.gui.tooltip.Pathfinding,This will find the shortest path between the two positions,2 つの位置間で最短経路を検索します

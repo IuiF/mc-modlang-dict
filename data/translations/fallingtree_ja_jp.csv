@@ -1,0 +1,289 @@
+﻿key,source_text,target_text
+chat.fallingtree.break_tree_too_big,This tree is too big and can't be broken in one hit (max tree size: %d),この木は大きすぎて一撃で破壊できません（最大木サイズ：%d）
+chat.fallingtree.force_tool_usage,"Tool usage is forced, but you didn't use a valid tool.",ツール使用は強制されますが、有効なツールを使っていませんでした。
+chat.fallingtree.prevented_break_tool,"Your tool is about to break, go repair it or get a new one.",ツールが壊れそうです。修理するか新しいものを入手してください。
+chat.fallingtree.search_aborted,"Tree detection stopped, reason: ",木の検知が停止しました、理由: 
+chat.fallingtree.search_aborted.adjacent,Found block %s that isn't allowed in the adjacent blocks.,%s が隣接ブロックに許可されていないことを検出しました。
+chat.fallingtree.tree_too_big,This tree is too big won't be scanned further (max scan size: %d),この木は大きすぎてさらにスキャンされません（最大スキャンサイズ：%d）
+command.fallingtree.toggle.disabled,FallingTree disabled,落下木が無効化されました
+command.fallingtree.toggle.enabled,FallingTree enabled,落下木が有効化されました
+enchantment.fallingtree.chopper,Chopper,チェッパー
+enchantment.fallingtree.chopper.desc,Makes the enchanted tool able to chop down trees in one go with the default breaking mode,エンチャントされたツールがデフォルトの破壊モードで一度に木を切り倒せるようになります。
+enchantment.fallingtree.chopper_fall_all_block,Chopper (fall all block),チェッパー（すべてのブロックを落とす）
+enchantment.fallingtree.chopper_fall_all_block.desc,Makes the enchanted tool able to chop down trees in one go with the fall all block mode,エンチャントされたツールで、一度に木を切り倒し、落下すべてブロックモードで処理します
+enchantment.fallingtree.chopper_fall_block,Chopper (fall block),チェッパー（落下ブロック）
+enchantment.fallingtree.chopper_fall_block.desc,Makes the enchanted tool able to chop down trees in one go with the fall block mode,エンチャントされたツールで、落下ブロックモードを使用して一度に木を切り倒せるようにします
+enchantment.fallingtree.chopper_fall_item,Chopper (fall item),チェッパー（落ちるアイテム）
+enchantment.fallingtree.chopper_fall_item.desc,Makes the enchanted tool able to chop down trees in one go with the fall item mode,魔法付けされたツールで、落下アイテムモード時に一度に木を切り倒せるようにします
+enchantment.fallingtree.chopper_instantaneous,Chopper (instantaneous),シャッター（瞬時）
+enchantment.fallingtree.chopper_instantaneous.desc,Makes the enchanted tool able to chop down trees in one go with the instantaneous mode,エンチャントされたツールが瞬間モードで一度に木を切り倒せるようにします。
+enchantment.fallingtree.chopper_shift_down,Chopper (shift down),チェッパー（シフトダウン）
+enchantment.fallingtree.chopper_shift_down.desc,Makes the enchanted tool able to chop down trees in one go with the shift down mode,エンチャントされたツールで、シフトダウンモードを使用して一度に木を切り倒せるようにします
+text.autoconfig.fallingtree.category.default,General,一般
+text.autoconfig.fallingtree.category.enchantment,Enchantment,エンチャント
+text.autoconfig.fallingtree.category.player,Player,プレイヤー
+text.autoconfig.fallingtree.category.tools,Tools,ツール
+text.autoconfig.fallingtree.category.trees,Trees,木
+text.autoconfig.fallingtree.error.invalidBlockResourceLocation,"Invalid block provided, must have format 'mod_id:block_id'.",無効なブロックが指定されました。フォーマットは 'mod_id:block_id' である必要があります。
+text.autoconfig.fallingtree.error.invalidItemResourceLocation,"Invalid item provided, must have format 'mod_id:item_id'.",無効なアイテムが提供されました。形式は 'mod_id:item_id' である必要があります。
+text.autoconfig.fallingtree.option.breakInCreative,Break in creative,クリエイティブモードで破壊可
+text.autoconfig.fallingtree.option.breakInCreative.@Tooltip,"When set to true, the mod will cut down trees in creative too.",true に設定すると、モッドはクリエイティブでも木を切り倒す。
+text.autoconfig.fallingtree.option.enchantment.hideEnchant,Hide enchant,エンチャント隠蔽
+text.autoconfig.fallingtree.option.enchantment.hideEnchant.@Tooltip,If set to true the enchant will not be discoverable nor tradeable.,trueに設定すると、そのエンチャントは発見不可および取引不可になります。
+text.autoconfig.fallingtree.option.enchantment.registerEnchant,Register Chopper enchantment,コントロールキーを押しながら、冷却剤は蒸発によってエネルギーを抽出します。
+text.autoconfig.fallingtree.option.enchantment.registerEnchant.@Tooltip,"If set to true, the chopper enchant will be registered.
+
+INFO: If activated mod will be required on clients.
+INFO: Restart needed.","true に設定すると、斧のエンチャントが登録されます。
+
+INFO: 有効にするとクライアント側にもこのModが必要です。
+INFO: 再起動が必要です。"
+text.autoconfig.fallingtree.option.enchantment.registerSpecificEnchant,Register Specific Chopper enchantment,特定のチェッパーエンチャントを登録します。
+text.autoconfig.fallingtree.option.enchantment.registerSpecificEnchant.@Tooltip,"If set to true, several chopper enchants will be registered to activate the mod with a specific breaking mode.
+
+INFO: If activated mod will be required on clients.
+INFO: Restart needed.","true に設定すると、特定の破壊モードに対応した複数の斧のエンチャントが登録されます。
+
+INFO: 有効にするとクライアント側にもこのModが必要です。
+INFO: 再起動が必要です。"
+text.autoconfig.fallingtree.option.enchantment.requireEnchantment,Require enchant,エンチャントが必要
+text.autoconfig.fallingtree.option.enchantment.requireEnchantment.@Tooltip,If set to true an enchantment on the tool will be required for the mod to be activated.,true に設定すると、ツールのエンチャントが必要になり、モッドが有効になります。
+text.autoconfig.fallingtree.option.lootInCreative,Loot in creative,クリエイティブでのドロップ
+text.autoconfig.fallingtree.option.lootInCreative.@Tooltip,"When set to false, the mod will not drop loot when in creative.",falseに設定すると、クリエイティブモードでの落下時にアイテムがドロップしません。
+text.autoconfig.fallingtree.option.notificationMode,Notification mode,通知モード
+text.autoconfig.fallingtree.option.notificationMode.@Tooltip,"How to notify the player.
+
+CHAT: Messages are sent in the chat.
+ACTION_BAR: Messages are sent to the player's action bar.
+NONE: No notifications will appear.","プレイヤーへの通知方法を設定します。
+
+CHAT: メッセージはチャットで送信されます。
+ACTION_BAR: メッセージはアクションバーに送信されます。
+NONE: 通知は表示されません。"
+text.autoconfig.fallingtree.option.player.allowedTags,Required player tags,必要なプレイヤータグ
+text.autoconfig.fallingtree.option.player.allowedTags.@Tooltip,"Define a list of tags that the player should have in order to activate the mod. Only one on them is required.
+If the list is empty, no restriction is applied","このModを使用するために必要なタグをプレイヤーが持つ必要があるかを定義します。このリストのタグのうち、1つだけ必要です。
+リストが空の場合、制限は適用されません。"
+text.autoconfig.fallingtree.option.sneakMode,Sneak mode,スニーカーモード
+text.autoconfig.fallingtree.option.sneakMode.@Tooltip,"Defines what happens when sneaking.
+
+SNEAK_DISABLE: Sneaking will disable the mod
+SNEAK_ENABLE: Sneaking will enable the mod
+IGNORE: Mod will always be activated","スニーク時の動作を定義します。
+
+SNEAK_DISABLE: スニークでこのModが無効になります。
+SNEAK_ENABLE: スニークでこのModが有効になります。
+IGNORE: このModは常に有効です。"
+text.autoconfig.fallingtree.option.tools.allowed,Allowed tools,許可されたツール
+text.autoconfig.fallingtree.option.tools.allowed.@Tooltip,"Additional list of tools that can be used to chop down a tree.
+
+INFO: Items marked with the axe tag will already be allowed.","木を伐採する際に使用できる追加のツールのリストです。
+
+INFO: 斧のタグが付いたアイテムは既に使用可能です。"
+text.autoconfig.fallingtree.option.tools.damageMultiplicand,Damage multiplicand,ダメージ乗数
+text.autoconfig.fallingtree.option.tools.damageMultiplicand.@Tooltip,"Defines the number of times the damage is applied to the tool.
+
+ie: if set to 1 then breaking 5 logs will give 5 damage.
+ie: if set to 2 then breaking 5 logs will give 10 damage.
+If set to 0, it'll still apply 1 damage for every cut.
+
+INFO: This only applies when the tree is cut when using the mod.","ツールのダメージが何倍適用されるかを定義します。
+
+例: 1 に設定すると、5 個のログを破壊すると 5 ダメージが付きます。
+例: 2 に設定すると、5 個のログを破壊すると 10 ダメージが付きます。
+0 に設定すると、破壊されたブロック1 個につき 1 ダメージが付きます。
+
+INFO: これはこのModで木を伐採した場合にのみ適用されます。"
+text.autoconfig.fallingtree.option.tools.damageRounding,Damage rounding,ダメージの四捨五入
+text.autoconfig.fallingtree.option.tools.damageRounding.@Tooltip,"How damage taken should be rounded if it isn't a whole number.
+
+ROUNDING will round to the closest whole number.
+ROUND_DOWN will round down.
+ROUND_UP will round up.
+PROBABILISTIC will treat decimal fraction as a probability of rounding up.
+ie: 9.45 will have 45% chance of being rounded up to 10 and 55% chance of being rounded down to 9.","ダメージが整数でない場合の丸め方を設定します。
+
+ROUNDING: 最も近い整数に丸めます。
+ROUND_DOWN: 切り下げます。
+ROUND_UP: 切り上げます。
+PROBABILISTIC: 小数部分を確率として扱います。
+例: 9.45 の場合、45% の確率で 10 に切り上げられ、55% の確率で 9 に切り下げられます。"
+text.autoconfig.fallingtree.option.tools.denied,Denied tools,許可されていないツール
+text.autoconfig.fallingtree.option.tools.denied.@Tooltip,"List of tools that should not be considered as tools.
+
+INFO: This wins over the allow list.",ツールとして扱うべきでないアイテムのリスト。
+text.autoconfig.fallingtree.option.tools.forceToolUsage,Force tool usage,ツール使用を強制
+text.autoconfig.fallingtree.option.tools.forceToolUsage.@Tooltip,"If set to true, you'll be forced to use a valid tool in order to break logs.",true に設定すると、ログを破壊するには有効なツールが必要になります。
+text.autoconfig.fallingtree.option.tools.ignoreTools,Ignore tool,ツールを無視
+text.autoconfig.fallingtree.option.tools.ignoreTools.@Tooltip,"When set to true, the mod will be activated no matter what you have in your hand (or empty hand).
+
+INFO: Deny list still can be use to restrict some tools.","true に設定すると、手に何を持っていても（空でも）このModが有効になります。
+
+INFO: ブラックリストを使用して特定のツールを制限することができます。"
+text.autoconfig.fallingtree.option.tools.preserve,Preserve tools,ツールを保護する
+text.autoconfig.fallingtree.option.tools.preserve.@Tooltip,"When set to true, when a tree is broken and the tool is about to break we will just break enough blocks so that the tool is left at 1 of durability.",true に設定すると、木が破壊されてツールが壊れかけている場合、ツールの耐久性が 1 で残るように十分なブロックだけを破壊します。
+text.autoconfig.fallingtree.option.tools.speedMultiplicand,Speed multiplicand,速度倍率
+text.autoconfig.fallingtree.option.tools.speedMultiplicand.@Tooltip,"Applies a speed modifier when breaking the tree.
+
+0 will disable this, so the speed will be the default one of breaking a block.
+If set to 1 each log block will be counted once, so if the tree is 5 blocks tall it'll require the time of breaking 5 logs.
+If set to 2 each log block will be counted twice, so if the tree is 5 blocks tall, it'll require the time of breaking 10 logs.
+
+INFO: Only in INSTANTANEOUS mode.
+WARNING: If you are on a server, this either has to be set to 0 or every player should have the mod. Else they'll have a weird effect of breaking the block but the block is still there.","木を破壊する際の速度修正値を設定します。
+
+0 に設定するとこの機能は無効になり、ブロックを破壊する際の通常の速度が使用されます。
+1 に設定すると、各ログブロックが 1 回数えられます。例えば、高さ 5 ブロックの木は 5 ブロック破壊分の時間が必要です。
+2 に設定すると、各ログブロックが 2 回数えられます。例えば、高さ 5 ブロックの木は 10 ブロック破壊分の時間が必要です。
+
+INFO: INSTANTANEOUS モードでのみ機能します。
+WARNING: マルチプレイサーバーの場合、これは 0 に設定するか、すべてのプレイヤーがこのModを持っている必要があります。そうでないと、ブロックを破壊しているはずなのにブロックが残る奇妙な効果が発生します。"
+text.autoconfig.fallingtree.option.trees.adjacentStopMode,Adjacent stop mode,隣接停止モード
+text.autoconfig.fallingtree.option.trees.adjacentStopMode.@Tooltip,"Defines what happens when an adjacent block that isn't allowed is found.
+
+STOP_ALL will make it so that the tree isn't cut at all.
+STOP_BRANCH will stop the current branch but still cut the rest of the tree and up to the adjacent block.","許可されていない隣接ブロックが見つかった場合の動作を定義します。
+
+STOP_ALL: 木が破壊されません。
+STOP_BRANCH: 現在のブランチを停止しますが、木の残りはカットし続け、隣接するブロックまで進みます。"
+text.autoconfig.fallingtree.option.trees.allowMixedLogs,Allow trunks with mixed log blocks,混合されたログブロックを持つトランクを許可します
+text.autoconfig.fallingtree.option.trees.allowMixedLogs.@Tooltip,When set to true this allow to have any kind of log in a tree trunk. Otherwise (false) the trunk will be considered as being only one kind of log.,true に設定すると、木の幹に任意の種類のログを混在させることができます。false に設定すると、幹は 1 種類のログのみと見なされます。
+text.autoconfig.fallingtree.option.trees.allowedAdjacentBlocks,Adjacent blocks allowed,隣接ブロックが許可されます
+text.autoconfig.fallingtree.option.trees.allowedAdjacentBlocks.@Tooltip,"Define a list of blocks that are allowed to be next to the trunk of the tree. If a block that isn't in that list is found around the trunk then the tree won't be cut according to the adjacentStopMode property.
+
+INFO: If this is empty no restriction will be applied.","木の幹の隣に許可されているブロックのリストを定義します。このリストにないブロックが幹の周辺で見つかった場合、adjacentStopMode プロパティに従って木が破壊されません。
+
+INFO: このリストが空の場合、制限は適用されません。"
+text.autoconfig.fallingtree.option.trees.allowedLeaves,Allowed leaves,許可された葉
+text.autoconfig.fallingtree.option.trees.allowedLeaves.@Tooltip,"Additional list of blocks considered as leaves (blocks that decay naturally).
+
+INFO: Blocks marked with the leaves tag will already be allowed.","葉と見なすブロック（自然に腐って消えるブロック）の追加リストです。
+
+INFO: 葉タグが付いたブロックは既に許可されています。"
+text.autoconfig.fallingtree.option.trees.allowedLogs,Allowed logs,許可されたログ
+text.autoconfig.fallingtree.option.trees.allowedLogs.@Tooltip,"Additional list of blocks considered as logs and that will be destroyed by the mod.
+
+INFO: Blocks marked with the log tag will already be allowed.","ログと見なされ、このModで破壊されるブロックの追加リストです。
+
+INFO: ログタグが付いたブロックは既に許可されています。"
+text.autoconfig.fallingtree.option.trees.allowedNonDecayLeaves,Allowed leaves (needs breaking),許可された葉（壊す必要あり）
+text.autoconfig.fallingtree.option.trees.allowedNonDecayLeaves.@Tooltip,Additional list of blocks considered as leaves (blocks that needs to be broken).,葉として扱われる追加ブロックのリスト（切断が必要なブロック）
+text.autoconfig.fallingtree.option.trees.breakMangroveRoots,Break mangrove roots,マングローブの根を破壊する
+text.autoconfig.fallingtree.option.trees.breakMangroveRoots.@Tooltip,When set to true mangrove roots will be broken along with the trunk.,true に設定するとマングローブの根と幹が同時に破壊されます。
+text.autoconfig.fallingtree.option.trees.breakMode,Break mode,破壊モード
+text.autoconfig.fallingtree.option.trees.breakMode.@Tooltip,"How to break the tree.
+
+INSTANTANEOUS will break it in one go.
+FALL_ITEM will break tree in one go with animation.
+FALL_BLOCK will make the logs fall on the ground and leaves will be dropped as items.
+FALL_ALL_BLOCK will make the tree fall on the ground.
+SHIFT_DOWN will make the tree fall down as you cut it, so you still have to break x blocks but don't have to climb the tree for them.","木を破壊する方法を選択します。
+
+INSTANTANEOUS: 一度に破壊します。
+FALL_ITEM: 一度に破壊し、アニメーション付きで表示します。
+FALL_BLOCK: ログが地面に落ち、葉がアイテムとしてドロップされます。
+FALL_ALL_BLOCK: 木全体が地面に落ちます。
+SHIFT_DOWN: 木を切ると下に落ちるため、指定数のブロックを破壊する必要がありますが、木に登る必要がありません。"
+text.autoconfig.fallingtree.option.trees.breakNetherTreeWarts,Break nether tree warts (leaves),下界の木の突起（葉）を破壊します。
+text.autoconfig.fallingtree.option.trees.breakNetherTreeWarts.@Tooltip,When set to true nether tree warts (leaves) will be broken along with the trunk.,trueに設定すると、ネザー樹のワート（葉）が幹と一緒に破壊されます
+text.autoconfig.fallingtree.option.trees.breakOrder,Break order,破壊順序
+text.autoconfig.fallingtree.option.trees.breakOrder.@Tooltip,"In what order logs are broken. This only makes sense if maxSize < maxScanSize.
+
+FURTHEST_FIRST: The furthest log will be broken first.
+CLOSEST_FIRST: The closest log will be broken first.
+LOWEST_FIRST: The lower log will be broken first.
+
+INFO: Only in INSTANTANEOUS mode.","ログを破壊する順序を指定します。これは maxSize < maxScanSize の場合のみ意味があります。
+
+FURTHEST_FIRST: 最も遠いログが最初に破壊されます。
+CLOSEST_FIRST: 最も近いログが最初に破壊されます。
+LOWEST_FIRST: 最も下のログが最初に破壊されます。
+
+INFO: INSTANTANEOUS モードでのみ機能します。"
+text.autoconfig.fallingtree.option.trees.deniedLeaves,Denied leaves,葉を許可しません
+text.autoconfig.fallingtree.option.trees.deniedLeaves.@Tooltip,"List of blocks that should not be considered as leaves.
+
+INFO: This wins over the allow list.","葉として見なされるべきではないブロックのリスト。
+
+情報：これは許可リストを上書きします。"
+text.autoconfig.fallingtree.option.trees.deniedLogs,Denied logs,許可されないログ
+text.autoconfig.fallingtree.option.trees.deniedLogs.@Tooltip,"List of blocks that should not be considered as logs.
+
+INFO: This wins over the allow list.",ログとして扱うべきでないブロックのリスト。
+text.autoconfig.fallingtree.option.trees.detectionMode,Detection mode,検出モード
+text.autoconfig.fallingtree.option.trees.detectionMode.@Tooltip,"What part of the tree should be cut.
+
+WHOLE_TREE will break the whole tree.
+ABOVE_CUT will break only blocks that are connected from above the cut point.
+ABOVE_Y will break only blocks that are above the y value of the cut point.","木のどの部分が破壊されるかを定義します。
+
+WHOLE_TREE: 木全体が破壊されます。
+ABOVE_CUT: 破壊ポイントの上から接続しているブロックのみが破壊されます。
+ABOVE_Y: 破壊ポイントの Y 値より上のブロックのみが破壊されます。"
+text.autoconfig.fallingtree.option.trees.includePersistentLeavesInRequiredCount,Include persistent leaves in required count,必須数に永続的な葉を含める
+text.autoconfig.fallingtree.option.trees.includePersistentLeavesInRequiredCount.@Tooltip,If this is true leaves with the persistent flag (player placed or sheared) will be counted in the 'minimum leaves required' counter. Otherwise they won't.,true に設定すると、永続フラグ（プレイヤーが配置またははさみで切ったもの）が付いた葉が「必要最小限の葉の数」カウンターに含まれます。false に設定すると含まれません。
+text.autoconfig.fallingtree.option.trees.leavesBreaking,Leaves breaking,ブロックの破壊
+text.autoconfig.fallingtree.option.trees.leavesBreaking.@Tooltip,"When set to true, leaves that should naturally break will be broken instantly.",true に設定すると、自然に壊れるはずのレールが即座に破壊されます。
+text.autoconfig.fallingtree.option.trees.leavesBreakingForceRadius,Leaves breaking force radius,「Chopper」エンチャントを登録します。
+text.autoconfig.fallingtree.option.trees.leavesBreakingForceRadius.@Tooltip,"Radius to force break leaves. If another tree is still holding the leaves they'll still be broken. If the leaves are persistent (placed by player) they'll also be destroyed. The radius is applied from one of the top most log blocks.
+
+INFO: break_leaves must be activated for this to take effect.
+INFO: Only in INSTANTANEOUS mode.","葉を強制的に破壊する半径を指定します。他の木が葉を保持している場合でも破壊されます。葉が永続的な場合（プレイヤーが配置した場合）も破壊されます。半径は最上部のログブロックの 1 つから適用されます。
+
+INFO: break_leaves が有効である必要があります。
+INFO: INSTANTANEOUS モードでのみ機能します。"
+text.autoconfig.fallingtree.option.trees.maxLeafDistanceFromLog,Maximum leaf distance from log,ログからの最大葉距離
+text.autoconfig.fallingtree.option.trees.maxLeafDistanceFromLog.@Tooltip,The maximum distance a leaf can be from the tree. This only affects scanning a tree.,葉が木から離れている最大距離。この設定は木のスキャンにのみ影響します。
+text.autoconfig.fallingtree.option.trees.maxScanSize,Max scan size,最大スキャンサイズ
+text.autoconfig.fallingtree.option.trees.maxScanSize.@Tooltip,The maximum number of blocks that should be scanned of a tree. If there's more than this value the tree won't be cut.,スキャンする木のブロックの最大数を指定します。この値を超える場合、木は破壊されません。
+text.autoconfig.fallingtree.option.trees.maxSize,Max size,最大サイズ
+text.autoconfig.fallingtree.option.trees.maxSize.@Tooltip,The maximum size of a tree. If there's more logs than this value max size action will be applied.,木の最大サイズです。この値より多くの原木がある場合、最大サイズアクションが適用されます。
+text.autoconfig.fallingtree.option.trees.maxSizeAction,Max size action,最大サイズアクション
+text.autoconfig.fallingtree.option.trees.maxSizeAction.@Tooltip,"What to do when the max size of a tree is reached.
+
+ABORT: Tree won't be cut.
+CUT: Tree will still be cut leaving some of it untouched.","木の最大サイズに達した場合の処理方法を指定します。
+
+ABORT: 木が破壊されません。
+CUT: 木の一部は触らないままで破壊されます。"
+text.autoconfig.fallingtree.option.trees.minimumLeavesAroundRequired,Minimum leaves around required,必要な最小葉数
+text.autoconfig.fallingtree.option.trees.minimumLeavesAroundRequired.@Tooltip,"The minimum amount of leaves that needs to be around the top most log in order for the mod to consider it a tree.
+
+INFO: Only in INSTANTANEOUS mode.","このModが木と判定するために、最上部のログの周囲に必要な葉の最小数を指定します。
+
+INFO: INSTANTANEOUS モードでのみ機能します。"
+text.autoconfig.fallingtree.option.trees.searchAreaRadius,Search area radius,検索範囲半径
+text.autoconfig.fallingtree.option.trees.searchAreaRadius.@Tooltip,"The radius around the broken log in which the tree is searched for. Anything going out of it won't be cut.
+A negative value will have the same effect as an infinite radius.","破壊されたログを中心に木を検索する半径を指定します。この範囲外に出ているものは破壊されません。
+負の値は無限の半径と同じ効果があります。"
+text.autoconfig.fallingtree.option.trees.treeBreaking,Trunk breaking,木の幹を破壊
+text.autoconfig.fallingtree.option.trees.treeBreaking.@Tooltip,"When set to true, the mod will cut trees with one cut.",trueに設定すると、モッドは一度で木を切ります。
+text.autoconfig.fallingtree.title,FallingTree configuration,FallingTree設定
+chat.fallingtree.break_tree_too_small,This tree is too small and won't be broken by the mod,この木は小さすぎてモッドで壊せません。
+chat.fallingtree.veinminer_incompatibility,"FallingTree: VeinMiner is present, this may lead to incompatibilities. It is recommended to run the following command: /veinminer groups remove Wood",FallingTree: VeinMiner が検出されました。互換性の問題が生じる可能性があります。以下のコマンドを実行することをお勧めします: /veinminer groups remove Wood
+text.autoconfig.fallingtree.option.tools.durabilityMode,Durability mode,耐久値モード
+text.autoconfig.fallingtree.option.tools.durabilityMode.@Tooltip,"Defines how tool durability is handled when it is about to break.
+
+ABORT: Will abort tree breaking, tool will be saved and nothing is broken.
+SAVE: The most blocks will be broken, leaving 1 durability. If tool has 1 durability it'll break.
+NORMAL: Will break the most blocks possible, breaking the tool.
+BYPASS: Will break the whole tree regardless of durability left. Tool will break as a result.","ツールの耐久性が壊れかけている場合の処理方法を定義します。
+
+ABORT: 木を破壊するのを中止し、ツールが保存され、何も破壊されません。
+SAVE: できるだけ多くのブロックが破壊され、耐久性が 1 で残ります。ツールが 1 の耐久性の場合は破壊されます。
+NORMAL: 可能な限り多くのブロックを破壊し、ツールを破壊します。
+BYPASS: 木全体が破壊されます。その結果、ツールは破壊されます。"
+text.autoconfig.fallingtree.option.trees.minSize,Min size,最小サイズ
+text.autoconfig.fallingtree.option.trees.minSize.@Tooltip,"The minimum size of a tree. If there's less logs than this value, the tree will be skipped by the mod.",木の最小サイズを指定します。この値より少ないログ数の場合、このModはその木をスキップします。
+text.autoconfig.fallingtree.option.trees.spawnItemsAtBreakPoint,Spawn logs at break point,ブレークポイントでスポーンログ
+text.autoconfig.fallingtree.option.trees.spawnItemsAtBreakPoint.@Tooltip,"If enabled, all logs will spawn where the log was broken instead of at their own location.
+
+INFO: Only in INSTANTANEOUS mode.","有効にすると、破壊されたすべてのログは、ログが破壊された場所に出現します。代わりに元の場所に出現しません。
+
+INFO: INSTANTANEOUS モードでのみ機能します。"
+text.autoconfig.fallingtree.option.trees.trunkLootPercentage,Trunk loot percentage,トランク内ドロップ率
+text.autoconfig.fallingtree.option.trees.trunkLootPercentage.@Tooltip,"Percentage of the logs that make up the trunk to be dropped as items.
+
+INFO: Does not apply to SHIFT_DOWN mode.","幹を構成するログのうち、アイテムとしてドロップされる割合を指定します。
+
+INFO: SHIFT_DOWN モードには適用されません。"

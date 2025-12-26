@@ -1,0 +1,277 @@
+﻿key,source_text,target_text
+cloth_config.voicechat.category.audio,Audio,オーディオ
+cloth_config.voicechat.category.general,General,一般
+cloth_config.voicechat.category.ingame_menu,In-Game Menu,その他
+cloth_config.voicechat.config.audio_packet_threshold,Audio packet threshold,受信バッファサイズ
+cloth_config.voicechat.config.audio_packet_threshold.description,"The maximum number of audio packets that should be held back if a packet arrives out of order or is dropped.
+This prevents audio packets that are only slightly out of order from being discarded.
+Set this to 0 to disable.","音声受信バッファのパケット数。
+値が大きいほど遅延が増えますが、他の人の声がプツプツと途切れにくくなります。
+インターネット接続が不安定な場合はこの値を増やしてください。"
+cloth_config.voicechat.config.freecam_mode,Freecam mode,フリーカムモード
+cloth_config.voicechat.config.freecam_mode.camera,Camera,カメラ
+cloth_config.voicechat.config.freecam_mode.description,"How listening to other players should work when using freecam mods.
+CAMERA: You will hear the voice chat around your camera. Whether you will still be able to hear the voice chat when the camera is far away from your character depends on the voice chat broadcast range of the server.
+PLAYER: You will hear the voice chat around your character no matter where your camera is.","フリーカメラMod使用時に他のプレイヤーの声を聞く位置。
+カメラ：カメラ周辺の声が聞こえます。カメラがプレイヤーから遠く離れても声が聞こえるかどうかは、 サーバーのボイスチャット放送範囲設定によって異なります。
+プレイヤー：カメラの位置に関係なく、プレイヤー周辺の声が聞こえます。"
+cloth_config.voicechat.config.freecam_mode.player,Player,プレイヤー
+cloth_config.voicechat.config.group_hud_icon_scale,Group chat HUD icon scale,グループアイコンの大きさ
+cloth_config.voicechat.config.group_hud_icon_scale.description,The scale of the player icons in the group chat HUD.,グループアイコンの大きさ。
+cloth_config.voicechat.config.group_player_icon_orientation,Group chat HUD icon orientation,グループアイコンの向き
+cloth_config.voicechat.config.group_player_icon_orientation.description,The orientation of the player icons in the group chat HUD.,グループアイコンの並び方。
+cloth_config.voicechat.config.group_player_icon_orientation.horizontal,Horizontal,水平
+cloth_config.voicechat.config.group_player_icon_orientation.vertical,Vertical,垂直
+cloth_config.voicechat.config.group_player_icon_pos_x,Group chat HUD icon X position,グループアイコンのX位置
+cloth_config.voicechat.config.group_player_icon_pos_x.description,"The X position of the player icons in the group chat HUD.
+Negative values mean anchoring to the right instead.","グループアイコンの横方向の位置。
+マイナスの値は右からの位置を意味します。"
+cloth_config.voicechat.config.group_player_icon_pos_y,Group chat HUD icon Y position,グループアイコンのY位置
+cloth_config.voicechat.config.group_player_icon_pos_y.description,"The Y position of the player icons in the group chat HUD.
+Negative values mean anchoring to the bottom instead.","グループアイコンの高さ方向の位置。
+マイナスの値は下からの位置を意味します。"
+cloth_config.voicechat.config.hud_icon_pos_x,Voice chat HUD icon X position,マイクアイコンのX位置
+cloth_config.voicechat.config.hud_icon_pos_x.description,"The X position of the icons in the voice chat HUD.
+Negative values mean anchoring to the right instead.","マイクアイコンの横方向の位置。
+マイナスの値は右からの位置を意味します。"
+cloth_config.voicechat.config.hud_icon_pos_y,Voice chat HUD icon Y position,マイクアイコンのY位置
+cloth_config.voicechat.config.hud_icon_pos_y.description,"The Y position of the icons in the voice chat HUD.
+Negative values mean anchoring to the bottom instead.","マイクアイコンの高さ方向の位置。
+マイナスの値は下からの位置を意味します。"
+cloth_config.voicechat.config.hud_icon_scale,Voice chat HUD icon scale,マイクアイコンの大きさ
+cloth_config.voicechat.config.hud_icon_scale.description,"The scale of the icons in the voice chat HUD, such as microphone or connection status.",マイクアイコンの大きさ。
+cloth_config.voicechat.config.mute_on_join,Mute on join,ミュートで参加
+cloth_config.voicechat.config.mute_on_join.description,"If enabled, you will be automatically muted when joining a world.",ワールドに参加したとき自動でミュートします。
+cloth_config.voicechat.config.offline_player_volume_adjustment,Offline player volume adjustment,オフラインプレイヤーの音量調整
+cloth_config.voicechat.config.offline_player_volume_adjustment.description,If the volume adjustment interface should also display offline players.,音量調整メニューにオフラインのプレイヤーも表示します。
+cloth_config.voicechat.config.output_buffer_size,Output buffer size,送信バッファサイズ
+cloth_config.voicechat.config.output_buffer_size.description,"The size of the audio output buffer (in packets).
+Higher values mean a higher latency but less crackling.
+Increase this value if you have an unstable internet connection.","音声送信バッファのパケット数。
+値が大きいほど遅延が増えますが、自分の声がプツプツと途切れにくくなります。
+インターネット接続が不安定な場合はこの値を増やしてください。"
+cloth_config.voicechat.config.ptt_deactivation_delay,Push to talk deactivation delay,話すためのデアクティベーション遅延
+cloth_config.voicechat.config.ptt_deactivation_delay.description,"The time it takes for the microphone to deactivate when using push to talk.
+A value of 1 means 20 milliseconds, 2=40 ms, 3=60 ms, and so on.",プッシュトゥトークを使用する際にマイクが非アクティブになるまでの時間です。値1は20ミリ秒、2=40ms、3=60msというように進みます。
+cloth_config.voicechat.config.recording_destination,Recording destination,録音の保存先
+cloth_config.voicechat.config.recording_destination.description,"The location where recordings should be saved.
+Leave blank to use the default location.","録音ファイルを保存するフォルダ。
+空白にするとデフォルトのフォルダに保存します。"
+cloth_config.voicechat.config.run_local_server,Run in singleplayer or LAN worlds,シングルプレイ／LANワールドで実行
+cloth_config.voicechat.config.run_local_server.description,If the voice chat should work in singleplayer or in worlds shared over LAN.,シングルプレイやLANで公開したワールドでもボイスチャットを動作させます。
+cloth_config.voicechat.config.show_hud_icons,Show voice chat HUD icons,ボイスチャットのHUDアイコンを表示
+cloth_config.voicechat.config.show_hud_icons.description,If the voice chat icons on the HUD should be visible,HUD上でボイスチャットアイコンを表示するかどうか
+cloth_config.voicechat.config.show_nametag_icons,Show voice chat name tag icons,ボイスチャットの名前タグアイコンを表示
+cloth_config.voicechat.config.show_nametag_icons.description,If the voice chat icons next to player names should be visible,プレイヤー名の横に音声チャットアイコンを表示するかどうか
+cloth_config.voicechat.config.show_own_group_icon,Show yourself in the group chat HUD,自分のアイコンを表示
+cloth_config.voicechat.config.show_own_group_icon.description,If your own player icon should be displayed in the group chat HUD when you are in a group.,グループアイコンに自分のアイコンを表示します。
+cloth_config.voicechat.config.voice_deactivation_delay,Microphone deactivation delay,マイクオフ遅延
+cloth_config.voicechat.config.voice_deactivation_delay.description,"The time it takes for the microphone to deactivate when using voice activation.
+A value of 1 means 20 milliseconds, 2=40 ms, 3=60 ms, and so on.","音声入力モードが「音声検出」のとき、音量が入力感度を下回ってから音声入力が切れるまでの時間。
+設定した数値 ✕ 20ミリ秒遅延させます。"
+cloth_config.voicechat.settings,Voice Chat Settings,ボイスチャット設定
+gui.voicechat.adjust_volume.title,Adjust Volumes,音量の調整
+gui.voicechat.create_group.title,Create Group,グループの作成
+gui.voicechat.enter_password.title,Enter Group Password,グループのパスワードを入力
+gui.voicechat.group.title,Group Management,グループ管理
+gui.voicechat.join_create_group.title,Join or Create Group,グループの作成または参加
+gui.voicechat.select_microphone.title,Select Microphone,マイクの選択
+gui.voicechat.select_speaker.title,Select Speaker,スピーカーの選択
+gui.voicechat.voice_chat.title,Voice Chat,ボイスチャット
+gui.voicechat.voice_chat_settings.title,Voice Chat Settings,ボイスチャット設定
+key.categories.voicechat,Voice Chat,ボイスチャット
+key.disable_voice_chat,Disable Voice Chat,スピーカーミュートの切り替え
+key.hide_icons,Hide Voice Chat Icons,ボイスチャットアイコンを隠す
+key.mute_microphone,Mute Microphone,ミュートの切り替え
+key.push_to_talk,Push to Talk,プッシュトゥトーク
+key.voice_chat,Voice Chat Menu,ボイスチャットメニュー
+key.voice_chat_adjust_volumes,Adjust Volumes,音量調整メニュー
+key.voice_chat_group,Group Management,グループメニュー
+key.voice_chat_settings,Voice Chat Settings,ボイスチャット設定
+key.voice_chat_toggle_recording,Toggle Recording,録音の開始／停止
+key.whisper,Whisper,ささやき
+message.voicechat.accept_invite,ACCEPT,承認
+message.voicechat.accept_invite.hover,Click to accept the invitation,クリックして招待を承認
+message.voicechat.activation_type,Activation Method: %s,音声入力モード：%s
+message.voicechat.activation_type.ptt,Push to Talk,プッシュトゥトーク
+message.voicechat.activation_type.voice,Voice,音声検出
+message.voicechat.adjust_volumes,Adjust Volumes,音量を調整
+message.voicechat.audio_type,3D Audio: %s,3Dオーディオ：%s
+message.voicechat.audio_type.normal,Normal,普通
+message.voicechat.audio_type.off,OFF,オフ
+message.voicechat.audio_type.reduced,Reduced,少し
+message.voicechat.back,Back,戻る
+message.voicechat.client_not_connected,Client not connected,クライアントが接続されていません
+message.voicechat.create,Create,作成
+message.voicechat.create_group,Create Group,グループの作成
+message.voicechat.create_group_button,Create Group,グループを作る
+message.voicechat.default_microphone,System Default,システムデフォルト
+message.voicechat.default_speaker,System Default,システムデフォルト
+message.voicechat.denoiser,Noise Suppression: %s,ノイズ抑制：%s
+message.voicechat.denoiser.off,OFF,オフ
+message.voicechat.denoiser.on,ON,オン
+message.voicechat.disable.disabled,Press to disable all voice chat sounds.,スピーカーミュート
+message.voicechat.disable.enabled,Press to enable all voice chat sounds.,スピーカーミュートを解除
+message.voicechat.disable.no_speaker,No speakers available.,スピーカーが利用できません
+message.voicechat.enter_group_password,Enter Group Password,グループのパスワードを入力
+message.voicechat.failed_to_send_ping,Failed to send ping: %s,Pingの送信に失敗しました: %s
+message.voicechat.gain,Gain: %s,獲得: %s
+message.voicechat.gain.auto,Auto,自動
+message.voicechat.gain.manual,Manual,手動
+message.voicechat.group,Group,グループ
+message.voicechat.group_does_not_exist,Such a group does not exist,このグループは存在しません
+message.voicechat.group_members,Group members:,グループメンバー：
+message.voicechat.group_name,Group Name,グループ名
+message.voicechat.group_name_not_unique,Group name is ambiguous,グループ名が重複しています
+message.voicechat.group_title,%s,%s
+message.voicechat.group_type,Group Type,グループタイプ
+message.voicechat.group_type.isolated,Isolated,アイソレート
+message.voicechat.group_type.isolated.description,"Players who are not in your group can't hear you, and you can't hear them either.","あなたの声は周囲には聞こえず、
+周囲の声も聞き取れません。"
+message.voicechat.group_type.normal,Normal,ノーマル
+message.voicechat.group_type.normal.description,"Players who are not in your group can't hear you, but you can hear them.","あなたの声は周囲には聞こえませんが、
+周囲の声は聞き取れます。"
+message.voicechat.group_type.open,Open,オープン
+message.voicechat.group_type.open.description,"Players who are not in your group can hear you, and you can hear them too.","あなたの声は周囲にも聞こえ、
+周囲の声も聞き取れます。"
+message.voicechat.group_type_title,%s (%s),%s (%s)
+message.voicechat.groups_disabled,Groups are disabled on this server,グループがサーバーによって無効化されています
+message.voicechat.hide_icons.disabled,Press to hide all voice chat icons.,すべてのアイコンを隠す
+message.voicechat.hide_icons.enabled,Press to show all voice chat icons.,すべてのアイコンを表示
+message.voicechat.icons_hidden,Voice chat icons hidden,ボイスチャットアイコンを隠しました
+message.voicechat.icons_visible,Voice chat icons visible,ボイスチャットアイコンを表示します
+message.voicechat.incompatible,Your voice chat client version is not compatible with the server-side version.,クライアントのボイスチャットModのバージョンがサーバーのModのバージョンと互換性がありません
+message.voicechat.incompatible_version,"Your voice chat client version is not compatible with the server-side version.
+Please install version %s of %s.","クライアントのボイスチャットModのバージョンがサーバーのModのバージョンと互換性がありません
+バージョン %s の%s Modをインストールしてください"
+message.voicechat.invite,%s invited you to the group %s. %s,%sがグループ%sにあなたを招待しました %s
+message.voicechat.invite_player,Press to invite %s to your group.,%sをグループに招待しました
+message.voicechat.invite_successful,Successfully invited %s,%sの招待に成功しました
+message.voicechat.join_create_group,Join or Create Group,グループの作成または参加
+message.voicechat.join_group,Join Group,グループに参加
+message.voicechat.join_successful,Successfully joined the group %s,%sへの参加に成功しました
+message.voicechat.leave_group,Press to leave the group.,グループを退出する
+message.voicechat.leave_successful,Successfully left the group,グループの退出に成功しました
+message.voicechat.macos_no_mic_permission,No permission to access your microphone. Please open System Settings > Privacy & Security and check the access options there,マイクを使用する権限がありません。[システム設定] > [プライバシーとセキュリティー] を開き、マイクのアクセス許可を確認してください。
+message.voicechat.macos_unsupported_launcher,Your launcher does not support macOS microphone permissions,あなたのランチャーはmacOSのマイク使用の権限をサポートしていません
+message.voicechat.mic_test.disabled,Press to enable microphone testing.,マイクテストをオン
+message.voicechat.mic_test.enabled,Press to disable microphone testing.,マイクテストをオフ
+message.voicechat.mic_test_unavailable,Microphone testing unavailable!,マイクテストが利用できません
+message.voicechat.microphone_gain,Microphone Gain: %s dB,マイクの音量増幅：%s dB
+message.voicechat.microphone_unavailable,Microphone unavailable,マイクが利用できません
+message.voicechat.more_members,and %s more...,...他 %s人
+message.voicechat.mute.disabled,Press to mute your microphone.,マイクをオフ
+message.voicechat.mute.disabled_ptt,You can't mute your microphone when using push to talk.,プッシュトゥトーク使用中はミュートできません
+message.voicechat.mute.enabled,Press to unmute your microphone.,マイクをオン
+message.voicechat.muted,Muted,ミュート
+message.voicechat.native_error,Some modules failed to load - Your Operating System might not be supported.,いくつかのモジュールがロードできませんでした - お使いのオペレーティングシステムはサポートされていない可能性があります
+message.voicechat.no_group_members,Empty group,メンバーなし
+message.voicechat.no_group_permission,You do not have permission to join groups,グループに参加する権限がありません
+message.voicechat.no_groups,No existing groups,既存のグループはありません
+message.voicechat.no_listen_permission,You do not have permission to hear the voice chat,ボイスチャットを聞く権限がありません
+message.voicechat.no_microphone,No microphones available,利用可能なマイクがありません
+message.voicechat.no_speak_permission,You do not have permission to speak,発言する権限がありません
+message.voicechat.no_speaker,No speakers available,利用可能なスピーカーがありません
+message.voicechat.not_in_group,You are not in a group,あなたはグループに参加していません
+message.voicechat.onboarding.activation,Please choose the method to activate your microphone.,音声を入力する方法を選択してください。
+message.voicechat.onboarding.activation.ptt,"When selecting %s, you need to press and hold a button to speak.","%s
+ボタンを押している間、マイクが有効になります。"
+message.voicechat.onboarding.activation.ptt.name,Push to Talk,プッシュトゥトーク
+message.voicechat.onboarding.activation.title,Select Activation Method,音声入力モードの選択
+message.voicechat.onboarding.activation.voice.name,Voice Activation,音声検出
+message.voicechat.onboarding.back,Back,戻る
+message.voicechat.onboarding.cancel,Cancel,キャンセル
+message.voicechat.onboarding.confirm,Confirm,決定
+message.voicechat.onboarding.final,Finish Setup,セットアップ完了
+message.voicechat.onboarding.final.description.configuration,"You can always change all the settings in the voice chat menu.
+Keybinds, however, can be changed just like any other keybind in the game.","すべての設定はボイスチャットメニューからいつでも変更できます。
+キーバインドは通常のキーバインドと同様に、
+［設定］>［操作設定］>［キー割り当て］ から変更できます。"
+message.voicechat.onboarding.final.description.ptt,Hold %s while speaking to use the voice chat.,%s を押している間ボイスチャットができます。
+message.voicechat.onboarding.final.description.success,"You have successfully configured your voice chat!
+
+Open the voice chat menu with %s.","ボイスチャットの設定が完了しました！
+
+%s を押すとボイスチャットメニューを開けます。"
+message.voicechat.onboarding.final.description.voice,You will be muted after exiting this screen. Press %s to unmute.,"この画面を閉じるとマイクはミュートされます。
+ミュートを解除するには %s を押してください。"
+message.voicechat.onboarding.final.finish_setup,Finish Setup,完了
+message.voicechat.onboarding.introduction.description,"This setup guide will help you configure your voice chat.
+
+You can skip it if you know what you are doing.","このセットアップガイドでは、 ボイスチャットの初期設定を行います。
+
+何を設定すればいいか分かっている場合は、 スキップして構いません。"
+message.voicechat.onboarding.introduction.skip,I Know What I Am Doing - Skip,自分ですべて設定します - スキップ
+message.voicechat.onboarding.introduction.title,Set Up %s,%s セットアップ
+message.voicechat.onboarding.microphone,Select Microphone,マイクの選択
+message.voicechat.onboarding.next,Next,次へ
+message.voicechat.onboarding.ptt.button_description,Press to assign,ボタンを押して割り当て
+message.voicechat.onboarding.ptt.description,Please choose the key that should be used to activate your microphone.,プッシュトゥトークに使用するキーを選択してください。
+message.voicechat.onboarding.ptt.title,Choose Push to Talk Keybind,キーバインドの選択
+message.voicechat.onboarding.reset,Onboarding status has been reset,ボイスチャットセットアップをリセットしました
+message.voicechat.onboarding.skip.description,"Are you sure you want to skip this setup guide?
+
+If you skip it, you will have to adjust all the settings manually!","本当にセットアップガイドをスキップしますか？
+
+すべての設定を手動で調整する必要があります。"
+message.voicechat.onboarding.skip.title,Skip Setup,セットアップのスキップ
+message.voicechat.onboarding.speaker,Select Speaker,スピーカーの選択
+message.voicechat.open_folder,Open folder,フォルダーを開く
+message.voicechat.optional_password,Password (Optional),パスワード（任意）
+message.voicechat.other_volume,Other,その他
+message.voicechat.other_volume.description,The volume of any sound not listed below.,下記以外の音量
+message.voicechat.password,Password,パスワード
+message.voicechat.ping_received,Got a response in %s ms,%smsで応答を受信しました。
+message.voicechat.ping_received_attempt,Got a response in %s ms after %s attempts,%s 回試行後、%s ミリ秒で応答を取得しました
+message.voicechat.ping_retry,No response. Retrying...,応答なし。再試行中...
+message.voicechat.ping_sent_waiting,Ping sent. Waiting for response...,Pingの送信完了。応答の待機中...
+message.voicechat.ping_timed_out,Request timed out after %s attempts,%s回の試行後にリクエストがタイムアウトしました
+message.voicechat.playback_unavailable,Playback unavailable,再生が利用できません
+message.voicechat.player_no_voicechat,%s does not have %s installed,%sは%sをインストールしていません
+message.voicechat.press_to_reassign_key,Press to assign a key.,ボタンを押して割り当て
+message.voicechat.processing_progress,Processing %s%%,処理中... %s%%
+message.voicechat.processing_recording_session,Processing recording session...,録音の処理中...
+message.voicechat.recording.disabled,Press to start recording.,録音を開始
+message.voicechat.recording.enabled,Press to stop recording.,録音を停止
+message.voicechat.recording_disabled,Recording is disabled on this server,録音がサーバーによって無効化されています
+message.voicechat.recording_started,Started Recording,録音を開始しました
+message.voicechat.recording_stopped,Stopped Recording,録音を停止しました
+message.voicechat.save_session,Saved session to %s,録音を%sに保存しました
+message.voicechat.save_session_failed,Failed to save recording session: %s,録音に失敗しました: %s
+message.voicechat.search_empty,Couldn't find any players with that name,この名前のプレイヤーは見つかりませんでした。
+message.voicechat.search_hint,Search...,検索...
+message.voicechat.select_microphone,Select Microphone,マイクを選択
+message.voicechat.select_speaker,Select Speaker,スピーカーを選択
+message.voicechat.sending_ping,Sending ping...,Pingの送信中...
+message.voicechat.server_port,Voice chat server hosted on port %s,ボイスチャットサーバーはポート%sでホストされています
+message.voicechat.set_up,Press %s to set up,%s を押してセットアップ
+message.voicechat.settings,Settings,設定
+message.voicechat.show_group_hud.disabled,Press to show the group chat HUD.,グループアイコンを表示
+message.voicechat.show_group_hud.enabled,Press to hide the group chat HUD.,グループアイコンを隠す
+message.voicechat.speaker_unavailable,Speaker unavailable,スピーカーが利用できません
+message.voicechat.storage_size,Estimated disk space usage: %s.,予想ファイルサイズ：%s
+message.voicechat.test_speaker,Press to play a test sound.,テスト音を再生するためには押してください。
+message.voicechat.voice_activation,Voice Activation Threshold: %s dB,入力感度：%s dB
+message.voicechat.voice_activation.disabled,0 dB deactivates the microphone!,0dBではマイクは無効になります！
+message.voicechat.voice_activation_detection,Voice Activation: %s,音声起動: %s
+message.voicechat.voice_activation_detection.auto,Auto,自動
+message.voicechat.voice_activation_detection.manual,Manual,手動
+message.voicechat.voice_chat_not_connected,Voice chat not connected,ボイスチャットに接続されていません
+message.voicechat.voice_chat_unavailable,Voice chat unavailable,ボイスチャットが利用できません
+message.voicechat.voice_chat_volume,Voice Chat Volume: %s,ボイスチャット音量：%s
+message.voicechat.volume_amplification,Amplification: %s,音量増幅：%s
+message.voicechat.wrong_password,Incorrect Password,パスワードが違います
+resourcepack.voicechat.black_icons,Black Icons,ブラックアイコン
+resourcepack.voicechat.black_icons.description,Black voice chat icons,黒いボイスチャットアイコン
+resourcepack.voicechat.classic_icons,Classic Icons,クラシックアイコン
+resourcepack.voicechat.classic_icons.description,Classic voice chat icons,クラシックなボイスチャットアイコン
+resourcepack.voicechat.white_icons,White Icons,ホワイトアイコン
+resourcepack.voicechat.white_icons.description,White voice chat icons,白いボイスチャットアイコン
+cloth_config.voicechat.category.group_chat_icons,Group Chat HUD,グループアイコン
+cloth_config.voicechat.category.hud_icons,Voice Chat HUD,マイクアイコン
+message.voicechat.microphone_amplification,Microphone Amplification: %s,マイクの音量増幅：%s
+message.voicechat.onboarding.activation.voice,%s automatically activates your microphone when a certain volume threshold is reached.,"%s
+マイクの音量が入力感度を超えたとき、自動的にマイクが有効になります。"
+message.voicechat.onboarding.voice.description,Enable microphone testing and make sure the volume is below the slider when you are silent and above it when you are speaking.,"マイクボタンを押すとマイクテストが行えます。
+話しているときのみ音量ゲージがスライダーを超えるように調整してください。"
+message.voicechat.onboarding.voice.title,Adjust Microphone Activation Threshold,入力感度の調整

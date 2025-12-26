@@ -1,0 +1,10 @@
+﻿key,source_text,target_text
+particle_core.particle_core_config.ALL.desc,All potion particles will be disabled,すべてのポーション粒子を無効にする
+particle_core.particle_core_config.NONE.desc,No potion particles will be disabled,ポーションの粒子は無効化されません
+particle_core.particle_core_config.PLAYER.desc,Potion particles emitted by all players (including you) will be disabled,すべてのプレイヤー（あなたを含む）のポーション粒子は無効化されます。
+particle_core.particle_core_config.SELF.desc,Potion particles emitted by you will be disabled,あなたから放出されるポーション粒子は無効になります
+particle_core.particle_core_config.byTypeReductions.desc,Allows reduction/disabling of individual particle types. Ex. setting 'minecraft:smoke' to 0.3 will cause Smoke and Campfire particles to spawn at 30% of their normal rate.,個別のパーティクルタイプの削減/無効化を許可します。例えば、'minecraft:smoke'を0.3に設定すると、煙とキャンプファイアパーティクルは通常レートの30%でスポーンします。
+particle_core.particle_core_config.disableParticles.desc,[true or false] Completely turns off all particles on the client.,[true or false] クライアント上で全てのパーティクルを完全にオフにする
+particle_core.particle_core_config.reduceAllChance.desc,[Value between 0.0 and 1.0] Turns down particles when in ALL mode. Ex. 0.1 will make 10% of particles DECREASED. Basically a dial between ALL and DECREASED.,[0.0〜1.0の値] ALLモード時にパーティクルを低減します。例えば0.1の場合、パーティクルの10%が削減されます。基本的にはALLとDECREASED間のダイアルです。
+particle_core.particle_core_config.reduceDecreasedChance.desc,[Value between 0.0 and 1.0] Turns down particles when in DECREASED mode. Ex. 0.1 will make 10% of particles MINIMAL. Basically a dial between DECREASED and MINIMAL.,[0.0〜1.0の値] DECREASEDモード時にパーティクルを低減します。例えば0.1の場合、パーティクルの10%が最小になります。基本的にはDECREASEDとMINIMAL間のダイアルです。
+particle_core.particle_core_config.turnOffPotionParticles.desc,"Disables potion particles by various degrees, depending on the selection.",選択に応じてさまざまな程度でポーションパーティクルを無効化します。

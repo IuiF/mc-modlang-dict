@@ -1,0 +1,165 @@
+﻿key,source_text,target_text
+_comment,Immersive Engineering Exchangers,Immersive Engineering エクスチェンジャー
+death.attack.tuberous_exchanger,%1$s tried to operate a potato exchanger,%1$s がポテトエクスチェンジャーの操作を試みました
+death.attack.tuberous_exchanger.item,%1$s tried to operate a potato exchanger,%1$s がポテトエクスチェンジャーの操作を試みました
+death.attack.tuberous_exchanger.player,%1$s tried to operate a potato exchanger,%1$s がポテトエクスチェンジャーの操作を試みました
+exchangers.error.blacklisted,§cError: This block is blacklisted by the config!,§cエラー: このブロックは設定でブラックリストに登録されています！
+exchangers.error.event_cancelled,§cError: Exchange event cancelled by other mods!,§cエラー：交換イベントが他のモッドによってキャンセルされました！
+exchangers.error.invalid_block.te,§cError: Invalid block! (Tile Entities),§cエラー: 無効なブロック！ (Tile Entities)
+exchangers.error.invalid_block.unbreakable,§cError: Invalid block! (Unbreakable Blocks),§cエラー: 無効なブロック！ (壊せないブロック)
+exchangers.error.low_harvest_level,§cError: Your Exchanger's maximum harvest level is too low to exchange this block!,§cエラー: エクスチェンジャーの最大採取レベルが低すぎて、このブロックを交換できません！
+exchangers.error.out_of_block,§cError: Out of block!,§cエラー：ブロック不足！
+exchangers.error.out_of_power,§cError: Out of power!,§cエラー：電力不足！
+exchangers.harvest_level.0,Stone,石
+exchangers.harvest_level.1,Iron,鉄
+exchangers.harvest_level.2,Diamond,ダイヤモンド
+exchangers.harvest_level.2147483647,§d§kOver 9000,§d§k9000以上
+exchangers.harvest_level.3,Obsidian,黒曜石
+exchangers.mode.horizontal,Horizontal Column,水平列
+exchangers.mode.plane,Plane,平面
+exchangers.mode.vertical,Vertical Column,垂直列
+exchangers.msg.directional_placement.off,Directional Placement mode is now §4§ldisabled§r.,方向配置モードは §4§ldisabled§r になりました。
+exchangers.msg.directional_placement.on,Directional Placement mode is now §a§lenabled§r.,方向付き配置モードは現在 §a§lenabled§r です。
+exchangers.msg.force_drop_items.off,Force Drop Items mode is now §4§ldisabled§r.,強制ドロップアイテムモードは §4§ldisabled§r になりました。
+exchangers.msg.force_drop_items.on,Force Drop Items mode is now §a§lenabled§r.,強制ドロップアイテムモードが§a§l有効化§rになりました。
+exchangers.msg.fuzzy_placement.off,Fuzzy Placement mode is now §4§ldisabled§r.,ファジー配置モードが§4§l無効化§rになりました。
+exchangers.msg.fuzzy_placement.on,Fuzzy Placement mode is now §a§lenabled§r.,Fuzzy Placement mode は §a§lenabled§r になりました。
+exchangers.msg.mode,Exchanger Mode is now set to: %s,エクスチェンジャーモードは現在次のように設定されています: %s
+exchangers.msg.void_items.off,Void Items mode is now §4§ldisabled§r.,虚空アイテムモードは現在 §4§ldisabled§r です。
+exchangers.msg.void_items.on,Void Items mode is now §a§lenabled§r.,虚空アイテムモードは現在 §a§l有効§r です。
+exchangers.tooltip.bee_exchanger.flavor_text,§6§oBee happy! :),§6§oミツバチが幸せ！ :)
+exchangers.tooltip.current_mode,Current Mode: %s,現在のモード: %s
+exchangers.tooltip.current_range,Current Range: %s,現在の範囲: %s
+exchangers.tooltip.decrease_range_button,Decrease Range,範囲を減らす
+exchangers.tooltip.directional_placement,Directional Placement mode is %s.,方向性配置モードは %s。
+exchangers.tooltip.directional_placement_button_desc,This allows the Exchanger to exchange blocks based on the player's facing direction.,プレイヤーの向きに基づいてブロックを交換できるようにします。
+exchangers.tooltip.directional_placement_button_name,Directional Placement mode,方向指定配置モード
+exchangers.tooltip.durability,Durability,耐久値
+exchangers.tooltip.extra1,Sneak right click on block to select.,ブロックに右クリックして選択してください。
+exchangers.tooltip.extra2,Right click on a block to exchange.,ブロックを右クリックして交換します。
+exchangers.tooltip.extra3,Use %s to open the GUI.,%s を使用してGUIを開けます。
+exchangers.tooltip.force_drop_items,Force Drop Items mode is %s.,強制ドロップアイテムモードは %s です。
+exchangers.tooltip.force_drop_items_button_desc,"This allows the Exchanger to drop exchanged blocks/items on the floor, works great with tools that can void excess blocks/items.",これにより、Exchanger は交換されたブロック/アイテムを床に落とすことができます。過剰なブロック/アイテムを無効化できるツールとの組み合わせで最適に動作します。
+exchangers.tooltip.force_drop_items_button_name,Force Drop Items mode,アイテムを強制的にドロップするモード
+exchangers.tooltip.fuzzy_placement,Fuzzy Placement mode is %s.,ファジー配置モードは%sです。
+exchangers.tooltip.fuzzy_placement_button_desc,"This allows the Exchanger to place blocks on a percentage basis, set the chance with the text box on the right.",これにより、Exchanger は確率ベースでブロックを配置できます。右側のテキストボックスで確率を設定してください。
+exchangers.tooltip.fuzzy_placement_button_name,Fuzzy Placement mode,ぼやけた配置モード
+exchangers.tooltip.fuzzy_placement_chance_box_desc,"Set a value between 1 and 100 for the placement chance of each block, only takes effect when Fuzzy Placement mode is enabled.",各ブロックの配置確率に 1 ～ 100 の値を設定してください。ファジィ配置モードが有効な場合のみ有効です。
+exchangers.tooltip.fuzzy_placement_chance_box_name,Fuzzy Placement chance,ファジー配置確率
+exchangers.tooltip.hold_ctrl,Hold %s for Extras,%sを長押しで追加機能を有効化
+exchangers.tooltip.hold_shift,Hold %s for Details,詳細を見るには %s を押す
+exchangers.tooltip.increase_range_button,Increase Range,範囲を増やす
+exchangers.tooltip.max_harvest_level,Maximum Harvest Level: %s,最大収穫レベル: %s
+exchangers.tooltip.max_range,Maximum Range: %s,最大範囲: %s
+exchangers.tooltip.mode_switch_button,Switch Exchange mode,交換モードの切り替え
+exchangers.tooltip.selected_block,Selected Block: %s,選択されたブロック: %s
+exchangers.tooltip.selected_block.error,Unable to fetch block name,ブロック名を取得できませんでした
+exchangers.tooltip.selected_block.none,None,なし
+exchangers.tooltip.silk_touch,Silk Touch mode is %s in config.,シルクタッチモードは設定で%sです。
+exchangers.tooltip.state,State: %s,状態: %s
+exchangers.tooltip.state.disabled,disabled,無効
+exchangers.tooltip.state.enabled,enabled,有効
+exchangers.tooltip.tier,Tier %d,レベル %d
+exchangers.tooltip.tuberous_exchanger.warning,§c§oClever! But not exchangeable.,§c§o賢いが、交換不可。
+exchangers.tooltip.void_items_button_desc,"This voids ALL exchanged blocks/items, use with caution.",これは交換されたブロック/アイテムをすべて無効化します。注意して使用してください
+exchangers.tooltip.void_items_button_name,Void Items mode,虚空アイテムモード
+item.exchangers.advanced_exchanger,Advanced Exchanger,進化交換器
+item.exchangers.basic_exchanger,Basic Exchanger,基本交換器
+item.exchangers.bee_exchanger,Bee Exchanger,ミツバチ交換器
+item.exchangers.creative_exchanger,Creative Exchanger,クリエイティブ交換機
+item.exchangers.diamond_exchanger,Diamond Exchanger,ダイヤモンド交換器
+item.exchangers.elite_exchanger,Elite Exchanger,エリート交換器
+item.exchangers.emerald_exchanger,Emerald Exchanger,エメラルド交換器
+item.exchangers.end_exchanger,End Exchanger,エンダーエクスチェンジャー
+item.exchangers.exchanger_core_tier1,Exchanger Core (Tier 1),交換コア（レベル1）
+item.exchangers.exchanger_core_tier2,Exchanger Core (Tier 2),交換コア（レベル2）
+item.exchangers.exchanger_core_tier3,Exchanger Core (Tier 3),交換器コア（レベル3）
+item.exchangers.golden_exchanger,Golden Exchanger,金色の交換器
+item.exchangers.hardened_exchanger,Hardened Exchanger,硬化交換機
+item.exchangers.hv_exchanger,HV Exchanger,HV交換器
+item.exchangers.iron_exchanger,Iron Exchanger,鉄の交換器
+item.exchangers.leadstone_exchanger,Leadstone Exchanger,リードストーンエクスチェンジャー
+item.exchangers.lv_exchanger,LV Exchanger,LV交換器
+item.exchangers.mekanism_exchanger_core_tier1,Mekanism Exchanger Core (Tier 1),メカニズム エクスチェンジャー コア（ティア1）
+item.exchangers.mekanism_exchanger_core_tier2,Mekanism Exchanger Core (Tier 2),メカニズム エクスチェンジャー コア（ティア2）
+item.exchangers.mekanism_exchanger_core_tier3,Mekanism Exchanger Core (Tier 3),メカニズム交換器コア (3段階)
+item.exchangers.mv_exchanger,MV Exchanger,MV交換器
+item.exchangers.netherite_exchanger,Netherite Exchanger,ネザーライト交換機
+item.exchangers.obsidian_exchanger,Obsidian Exchanger,黒曜石交換機
+item.exchangers.reinforced_exchanger,Reinforced Exchanger,強化された交換機
+item.exchangers.resonant_exchanger,Resonant Exchanger,共鳴交換器
+item.exchangers.signalum_exchanger,Signalum Exchanger,シグナルム交換機
+item.exchangers.stone_exchanger,Stone Exchanger,石交換器
+item.exchangers.thermal_exchanger_core_tier1,Thermal Exchanger Core (Tier 1),熱交換器核心（レベル1）
+item.exchangers.thermal_exchanger_core_tier2,Thermal Exchanger Core (Tier 2),熱交換器核心（レベル2）
+item.exchangers.thermal_exchanger_core_tier3,Thermal Exchanger Core (Tier 3),熱交換器核心（レベル3）
+item.exchangers.tuberous_exchanger,Tuberous Exchanger,塊状交換機
+item.exchangers.ultimate_exchanger,Ultimate Exchanger,究極交換器
+item.exchangers.wooden_exchanger,Wooden Exchanger,木製の交換器
+itemGroup.exchangers,Exchangers,交換器
+key.categories.exchangers,Exchangers,交換器
+key.exchangers.directional_placement_mode_toggle,Directional Placement Mode Toggle,方向性配置モード切り替え
+key.exchangers.force_drop_items_mode_toggle,Force Drop Items Mode Toggle,強制ドロップアイテムモード切替
+key.exchangers.fuzzy_placement_mode_toggle,Fuzzy Placement Mode Toggle,ファジー配置モード切替
+key.exchangers.mode_switch,Exchanger Mode Switch,交換モードスイッチ
+key.exchangers.open_gui,Open Exchanger GUI,交換機のGUIを開く
+key.exchangers.range_switch,Exchanger Range Switch,エクスチェンジャー範囲スイッチ
+key.exchangers.void_items_mode_toggle,Void Items Mode Toggle,ヴォイドアイテムモードトグル
+screen.exchangers.exchanger_gui.title,Exchanger GUI,交換器のGUI
+exchangers.harvest_level.4,Cobalt,コバルト
+exchangers.harvest_level.5,Cobalt+,コバルト+
+exchangers.harvest_level.6,Cobalt++,コバルト++
+exchangers.harvest_level.7,Cobalt+++,コバルト+++
+item.exchangers.exchanger_core_tier1.name,Exchanger Core (Tier 1),交換コア（レベル1）
+item.exchangers.exchanger_core_tier2.name,Exchanger Core (Tier 2),交換コア（レベル2）
+item.exchangers.exchanger_core_tier3.name,Exchanger Core (Tier 3),エクスチェンジャーコア（Tier 3）
+item.exchangers.eio_exchanger_core_tier1.name,Ender IO Exchanger Core (Tier 1),Ender IO エクスチェンジャーコア（Tier 1）
+item.exchangers.eio_exchanger_core_tier2.name,Ender IO Exchanger Core (Tier 2),Ender IO エクスチェンジャーコア（Tier 2）
+item.exchangers.eio_exchanger_core_tier3.name,Ender IO Exchanger Core (Tier 3),Ender IO エクスチェンジャーコア（Tier 3）
+item.exchangers.eio_endergy_exchanger_core_tier1.name,Ender IO Endergy Exchanger Core (Tier 1),エンダIO エンダリーグエクチェンジャコア（ティア1）
+item.exchangers.eio_endergy_exchanger_core_tier2.name,Ender IO Endergy Exchanger Core (Tier 2),エンダIO エンダリーグエクチェンジャコア（ティア2）
+item.exchangers.eio_endergy_exchanger_core_tier3.name,Ender IO Endergy Exchanger Core (Tier 3),エンダIO エンダリーグエクチェンジャコア（ティア3）
+item.exchangers.te_exchanger_core_tier1.name,Thermal Expansion Exchanger Core (Tier 1),Thermal Expansion エクスチェンジャーコア（レベル1）
+item.exchangers.te_exchanger_core_tier2.name,Thermal Expansion Exchanger Core (Tier 2),Thermal Expansion エクスチェンジャーコア（レベル2）
+item.exchangers.te_exchanger_core_tier3.name,Thermal Expansion Exchanger Core (Tier 3),Thermal Expansion エクスチェンジャーコア（レベル3）
+item.exchangers.mekanism_exchanger_core_tier1.name,Mekanism Exchanger Core (Tier 1),Mekanism エクスチェンジャーコア（Tier 1）
+item.exchangers.mekanism_exchanger_core_tier2.name,Mekanism Exchanger Core (Tier 2),メカニズム エクスチェンジャー コア（ティア2）
+item.exchangers.mekanism_exchanger_core_tier3.name,Mekanism Exchanger Core (Tier 3),メカニズム交換器コア (3段階)
+item.exchangers.ie_exchanger_core_tier1.name,Immersive Engineering Exchanger Core (Tier 1),Immersive Engineering エクスチェンジャーコア（Tier 1）
+item.exchangers.ie_exchanger_core_tier2.name,Immersive Engineering Exchanger Core (Tier 2),Immersive Engineering エクスチェンジャーコア（Tier 2）
+item.exchangers.ie_exchanger_core_tier3.name,Immersive Engineering Exchanger Core (Tier 3),Immersive Engineering エクスチェンジャーコア（Tier 3）
+item.exchangers.tuberous_exchanger.name,Tuberous Exchanger,タブロス交換器
+item.exchangers.creative_exchanger.name,Creative Exchanger,クリエイティブ交換器
+item.exchangers.wooden_exchanger.name,Wooden Exchanger,木製の交換器
+item.exchangers.stone_exchanger.name,Stone Exchanger,石交換器
+item.exchangers.golden_exchanger.name,Golden Exchanger,金色の交換器
+item.exchangers.iron_exchanger.name,Iron Exchanger,鉄の交換器
+item.exchangers.diamond_exchanger.name,Diamond Exchanger,ダイヤモンド交換器
+item.exchangers.emerald_exchanger.name,Emerald Exchanger,エメラルド交換器
+item.exchangers.obsidian_exchanger.name,Obsidian Exchanger,黒曜石交換器
+item.exchangers.end_exchanger.name,End Exchanger,エンダーエクスチェンジャー
+item.exchangers.conductive_iron_exchanger.name,Conductive Iron Exchanger,導電性鉄合金交換器
+item.exchangers.pulsating_iron_exchanger.name,Pulsating Iron Exchanger,脈動する鉄の交換器
+item.exchangers.electrical_steel_exchanger.name,Electrical Steel Exchanger,電気鋼鉄交換器
+item.exchangers.energetic_exchanger.name,Energetic Exchanger,エネルギー交換器
+item.exchangers.dark_steel_exchanger.name,Dark Steel Exchanger,ダーク鋼鉄交換器
+item.exchangers.vibrant_exchanger.name,Vibrant Exchanger,鮮やかな交換器
+item.exchangers.end_steel_exchanger.name,End Steel Exchanger,エンディング鋼交換器
+item.exchangers.crude_steel_exchanger.name,Crude Steel Exchanger,原鋼エクスチェンジャー
+item.exchangers.energetic_silver_exchanger.name,Energetic Silver Exchanger,エネルギッシュシルバー交換機
+item.exchangers.vivid_exchanger.name,Vivid Exchanger,鮮やかな交換器
+item.exchangers.crystalline_exchanger.name,Crystalline Exchanger,クリスタルタインエクスチェンジャー
+item.exchangers.melodic_exchanger.name,Melodic Exchanger,旋律交換器
+item.exchangers.stellar_exchanger.name,Stellar Exchanger,星の交換器
+item.exchangers.leadstone_exchanger.name,Leadstone Exchanger,鉛石交換器
+item.exchangers.hardened_exchanger.name,Hardened Exchanger,硬化交換器
+item.exchangers.reinforced_exchanger.name,Reinforced Exchanger,強化された交換機
+item.exchangers.signalum_exchanger.name,Signalum Exchanger,シグナリウム交換器
+item.exchangers.resonant_exchanger.name,Resonant Exchanger,共鳴交換器
+item.exchangers.basic_exchanger.name,Basic Exchanger,基本交換器
+item.exchangers.advanced_exchanger.name,Advanced Exchanger,進化交換器
+item.exchangers.elite_exchanger.name,Elite Exchanger,エリート交換器
+item.exchangers.ultimate_exchanger.name,Ultimate Exchanger,究極交換器
+item.exchangers.lv_exchanger.name,LV Exchanger,LV交換器
+item.exchangers.mv_exchanger.name,MV Exchanger,MV交換器
+item.exchangers.hv_exchanger.name,HV Exchanger,HV交換器

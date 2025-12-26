@@ -1,0 +1,75 @@
+﻿key,source_text,target_text
+_comment,Display sources,ソースの表示
+block.er2create.basic_reactordisplaysource,Reactor Display Source (Basic),リアクターディスプレイソース（基本）
+block.er2create.basic_turbinedisplaysource,Turbine Display Source (Basic),タービン表示ソース（ベーシック）
+block.er2create.energizerdisplaysource,Energizer Display Source,エネルギー化装置表示ソース
+block.er2create.reinforced_reactordisplaysource,Reactor Display Source (Reinforced),反応堆芯表示ソース（強化）
+block.er2create.reinforced_turbinedisplaysource,Turbine Display Source (Reinforced),タービン表示ソース（強化）
+er2create.display_source.energizer.active,Active,アクティブ
+er2create.display_source.energizer.energizer_status,Energizer Status,エネルギー充電ステータス
+er2create.display_source.energizer.energizer_status.value1,Energy stored: %s,エネルギー蓄積: %s
+er2create.display_source.energizer.energizer_status.value2,Energy I/O: %s,エネルギー入出力: %s
+er2create.display_source.energizer.energizer_status.value3,Storage capacity: %s,ストレージ容量: %s
+er2create.display_source.energizer.energizer_status.value4,Energy buffer: %s%% full,エネルギーバッファ: %s%% 満
+er2create.display_source.energizer.energizer_status.value5,Energy inserted: %s,エネルギー投入: %s
+er2create.display_source.energizer.energizer_status.value6,Energy extracted: %s,抽出されたエネルギー: %s
+er2create.display_source.energizer.energy_capacity,Storage capacity,ストレージ容量
+er2create.display_source.energizer.energy_extracted,Energy extracted,抽出されたエネルギー
+er2create.display_source.energizer.energy_inserted,Energy inserted,投入されたエネルギー
+er2create.display_source.energizer.energy_io,Energy I/O,エネルギー入出力
+er2create.display_source.energizer.energy_percentage,Energy stored (%),蓄電量(%)
+er2create.display_source.energizer.energy_stored,Energy stored,蓄えられたエネルギー
+er2create.display_source.reactor.active,Active,アクティブ
+er2create.display_source.reactor.casing_temperature,Casing heat,ケースの温度
+er2create.display_source.reactor.coolant_stored,Coolant stored,冷却剤の貯蔵量
+er2create.display_source.reactor.core_fuel_status,Reactor Core Fuel Status,核燃料の状態
+er2create.display_source.reactor.core_fuel_status.value1,"  %s %% full",%s %% 満タン
+er2create.display_source.reactor.core_fuel_status.value2,"  %s %% depleted",%s %% 使用済み
+er2create.display_source.reactor.core_fuel_status.value3,Fuel Rods: %d,燃料棒: %d
+er2create.display_source.reactor.core_fuel_status.value4,Max Capacity: %s,最大容量: %s
+er2create.display_source.reactor.core_fuel_status.value5,Fuel: %s,燃料: %s
+er2create.display_source.reactor.core_fuel_status.value6,Waste: %s,廃棄物: %s
+er2create.display_source.reactor.core_fuel_status.value7,Total: %s,合計: %s
+er2create.display_source.reactor.core_temperature,Core heat,核の温度
+er2create.display_source.reactor.energy_generated,Energy generated,生成されたエネルギー
+er2create.display_source.reactor.energy_percentage,Energy stored (%),蓄電量(%)
+er2create.display_source.reactor.energy_stored,Energy stored,蓄えられたエネルギー
+er2create.display_source.reactor.fuel_amount,Fuel amount,燃料量
+er2create.display_source.reactor.fuel_burnup_rate,Fuel burnup rate,燃料消費率
+er2create.display_source.reactor.fuel_percentage,Fuel amount (%),燃料量 (%)
+er2create.display_source.reactor.reactor_status,Reactor Status,反応炉の状態
+er2create.display_source.reactor.reactor_status.value1.active,Vapor generated: %s,蒸気生成量: %s
+er2create.display_source.reactor.reactor_status.value1.passive,Energy generated: %s,生成されたエネルギー: %s
+er2create.display_source.reactor.reactor_status.value2.active,Vapor stored: %s,蒸気保管量: %s
+er2create.display_source.reactor.reactor_status.value2.passive,Energy stored: %s,蓄電量: %s
+er2create.display_source.reactor.reactor_status.value3.active,Coolant stored: %s,冷却液の量: %s
+er2create.display_source.reactor.reactor_status.value3.passive,Energy buffer: %s%% full,エネルギー緩衝：%s%% 満たされています
+er2create.display_source.reactor.reactor_status.value4,Fuel burnup rate: %s,燃料消費率: %s
+er2create.display_source.reactor.reactor_status.value5,Core heat: %s,核の温度: %s
+er2create.display_source.reactor.vapor_generated,Vapor generated,蒸気生成
+er2create.display_source.reactor.vapor_stored,Vapor stored,蒸気貯蔵量
+er2create.display_source.reactor.waste_amount,Waste amount,廃棄量
+er2create.display_source.reactor.waste_percentage,Waste amount (%),廃棄量(%)
+er2create.display_source.turbine.active,Active,アクティブ
+er2create.display_source.turbine.coolant_stored,Coolant stored,冷却剤の貯蔵量
+er2create.display_source.turbine.energy_generated,Energy generated,生成されたエネルギー
+er2create.display_source.turbine.energy_percentage,Energy stored (%),蓄電量(%)
+er2create.display_source.turbine.energy_stored,Energy stored,蓄えられたエネルギー
+er2create.display_source.turbine.inductor_mode,Inductor mode,インダクターモード
+er2create.display_source.turbine.rotor_blades_count,Rotor blades count,ローターのブレード数
+er2create.display_source.turbine.rotor_efficiency,Rotor efficiency,ロータ効率
+er2create.display_source.turbine.rotor_speed,Rotor speed,ローターの回転速度
+er2create.display_source.turbine.turbine_status,Turbine Status,タービン状態
+er2create.display_source.turbine.turbine_status.value1,Energy generated: %s,生成されたエネルギー: %s
+er2create.display_source.turbine.turbine_status.value2,Energy stored: %s,蓄電量: %s
+er2create.display_source.turbine.turbine_status.value3,Energy buffer: %s%% full,エネルギー緩衝：%s%% 満たされています
+er2create.display_source.turbine.turbine_status.value4,Vapor stored: %s,蒸気保管量: %s
+er2create.display_source.turbine.turbine_status.value5,Coolant stored: %s,冷却液の量: %s
+er2create.display_source.turbine.turbine_status.value6,Vent settings: ,排気設定:
+er2create.display_source.turbine.turbine_status.value7,Rotor speed: %s,ローター速度: %s
+er2create.display_source.turbine.turbine_status.value8,Vapor max intake rate: %s,蒸気最大吸入率: %s
+er2create.display_source.turbine.turbine_status.value9,Inductor coils: ,インダクターコイル数: 
+er2create.display_source.turbine.vapor_max_intake_rate,Vapor max intake rate,蒸気最大吸入率
+er2create.display_source.turbine.vapor_stored,Vapor stored,蒸気貯蔵量
+er2create.display_source.turbine.vent_settings,Vent settings,排気設定
+itemGroup.er2create.general,Extreme Reactors - Create compat,極端な反応炉 - 兼容性を提供

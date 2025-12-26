@@ -1,0 +1,84 @@
+﻿key,source_text,target_text
+extras.chunk_fade_in.name,Chunks Fade In Speed Modifier,チャンクのフェードイン速度を調整
+extras.chunk_fade_in.tooltip,"Controls how fast chunks fade in. No performance hit, higher value will make it quicker. 30 will disable this feature.",チャンクの読み込み速度を制御します。パフォーマンスへの影響はありません。値が高いほど高速になります。30に設定するとこの機能は無効になります。
+extras.clear_skies.name,Clear Skies,晴れ
+extras.clear_skies.tooltip,Removes the banding at the horizon of Vanilla Minecraft,Vanilla Minecraftの地平線の帯状表現を除去します。
+extras.cloud_height.name,Cloud Height,雲の高さ
+extras.cloud_height.tooltip,Raises cloud height.,雲の高さを上げる
+extras.display_fps.display.name,Display FPS,FPSを表示
+extras.display_fps.display.tooltip,"Displays the current FPS. Advanced mode also displays minimum FPS, as well as 15 second average FPS, which are more useful for judging performance.",現在のFPSを表示します。詳細モードではさらに最小FPSと過去15秒の平均FPSも表示され、パフォーマンス評価に便利です。
+extras.display_fps.position.name,FPS Display Position (Unit: Pixels),FPS表示位置（単位：ピクセル）
+extras.display_fps.position.tooltip,Offsets the FPS display from the top-left or top-right corner of the screen.,FPS表示を画面の左上または右上隅からオフセットします。
+extras.display_fps.right_align.name,Right-align FPS Display,FPS表示を右寄せ
+extras.display_fps.right_align.tooltip,Aligns the FPS display to the right side of the screen. Useful if you have other overlays that show on the left side of the screen. Does nothing if the Display FPS option is set to Off.,FPS表示を画面の右側に寄せます。画面の左側に他のオーバーレイがある場合に便利です。Display FPSオプションが「オフ」の場合は効果がありません。
+extras.enable_max_entity_distance.name,Enable Max Entity Distance (Unit: Blocks),最大エンティティ距離を有効化（単位：ブロック）
+extras.enable_max_entity_distance.tooltip,Toggles off entity culling.,エンティティの殺伐を無効にします。
+extras.enable_particle_distance_check.name,Particle Distance Check,パーティクル距離チェック
+extras.enable_particle_distance_check.tooltip,"If enabled, particles that is far from you will not be renderer, distance configurable below.",有効にすると、遠距離のパーティクルは描画されません。下記で距離を設定できます。
+extras.extras.options.name,Extras,追加機能
+extras.fastchest.name,Fast Chest,速いチェスト
+extras.fix_gpu_memory_leak.name,Fix GPU Memory Leak,GPUメモリの漏れを修正
+extras.fog.name,Enable fog,霧を有効にする
+extras.fog.tooltip,Toggles off all fog in the overworld.,オーバーワールドのすべての霧を無効にします。
+extras.fps.avg,Average FPS: ,平均FPS: 
+extras.fps.min,Minimal FPS: ,最小FPS: 
+extras.fps.now,Current FPS: ,現在のFPS: 
+extras.gameTime,Play Time: ,プレイ時間: 
+extras.gpu,GPU Usage: ,GPU使用率: 
+extras.jei.name,Hide JEI Items,JEIアイテム隠し
+extras.jei.tooltip,"Tweak JEI rendering so that the item list does not display unless search is active. This de-clutters the screen significantly unless you're actively using JEI. 
+ NOTE: If you are a modpacker, it's not recommended to default enable this option for your end users as they may get confused about that.","JEIのレンダリングを調整して、検索がアクティブな場合のみアイテムリストを表示するようにします。検索していないときは画面がかなりすっきりします。
+注:モッドパッカーの場合、エンドユーザーが混乱する可能性があるため、このオプションをデフォルトで有効にすることはお勧めしません。"
+extras.key.category,Embeddium Extras,Embeddium追加
+extras.key.zoom,Zoom,ズーム
+extras.max_entity_distance.name,Max Entity Distance,最大エンティティ距離
+extras.max_entity_distance.tooltip,"Hides entities beyond this many blocks. Huge performance increase, especially around modded farms.",このブロック数を超えるとエンティティを隠します。特にモッド化された農場周辺で大幅なパフォーマンス向上があります。
+extras.max_particle_distance.name,Max Particle Distance,最大粒子距離
+extras.max_particle_distance.tooltip,The straight line (Unit: Blocks) used for the rendering check from you to the particle,レンダリングチェックであなたからパーティクルまでの直線（単位：ブロック）
+extras.max_tile_distance.name,Max Tile Distance,最大タイル距離
+extras.memoryUsed,Memory: ,記憶: 
+extras.option.advanced,Advanced,高度
+extras.option.dark,Dark,暗い
+extras.option.dim,Dim,次元
+extras.option.fancy,Fancy,豪華
+extras.option.fast,Fast,速い
+extras.option.hold,Hold,保持
+extras.option.multiplied,Multiplied,倍率
+extras.option.off,Off,オフ
+extras.option.persistent,Persistent,持続
+extras.option.pitch_black,Pitch Black,ピッチブラック
+extras.option.really_dark,Really Dark,非常に暗い
+extras.option.simple,Simple,シンプル
+extras.option.smooth,Smooth,滑らか
+extras.option.toggle,Toggle,切り替え
+extras.option.vanilla,Vanilla,バニラ
+extras.showGpu.name,Show Used GPU Percentage,使用されたGPUパーセンテージを表示
+extras.showGpu.tooltip,"If enabled, the used GPU will be appended after the memory or fps",有効にすると、使用した GPU がメモリまたは FPS の後ろに追加されます
+extras.showMemory.name,Show Used Memory Percentage,使用メモリのパーセンテージを表示
+extras.showMemory.tooltip,"If enabled, the used memory will be appended after the fps",有効化すると、使用メモリはFPSの後に追加されます
+extras.showPlayTime.name,Show Gameplay Time,ゲームプレイ時間の表示
+extras.showPlayTime.tooltip,"If enabled, your gameplay time will be appended after the fps",有効にすると、ゲームプレイ時間がFPSの後ろに追加表示されます。
+extras.shut_up_gl_error.name,Disable Potenial GL Error On Pressing Keys,キーを押したときの潜在的なGLエラーを無効化
+extras.shut_up_gl_error.tooltip,There was never a real error going on here - not the kind you should have to worry about and definitely not the kind that should pollute logs constantly.,実際にはここにエラーは発生していません。心配する必要のある種類のエラーではなく、ログを常に汚すべき種類でもありません。
+extras.split," | ",|
+extras.vertical_entity_distance.name,Vertical Entity Distance,垂直方向のエンティティ距離
+extras.vertical_entity_distance.tooltip,"Hides entities underneath this many blocks, improving performance above caves. This should ideally be set lower than the horizontal distance.",この数ブロック下にあるエンティティを非表示にし、洞窟上部のパフォーマンスを向上させます。水平距離より低い値に設定するのが理想的です。
+extras.vertical_tile_distance.name,Vertical Tile Distance,垂直タイル距離
+extras.vertical_tile_distance.tooltip,"Hides block entities underneath this many blocks, improving performance above caves (if you have your machines in caves, for some reason). This should ideally be set lower than the horizontal distance.",この距離より下のブロックエンティティは非表示になり、洞窟上部のパフォーマンスが向上します（何らかの理由で洞窟にマシンがある場合）。これは水平距離より低い値に設定するのが理想的です。
+extras.zoom.cinematic_camera.name,Cinematic Camera Options,映画カメラ設定
+extras.zoom.cinematic_camera.tooltip,Cinematic Camera Mode,シネマティックカメラモード
+extras.zoom.keybind.name,Zoom Keybind Mode,ズームキー設定モード
+extras.zoom.keybind.tooltip,"Hold - Zoom only while the key is down.
+Toggle - Lock zoom until you press the key again
+Persistent - Always zoom, if you want that, for some reason.","キーを押し続ける - キーが押されている間のみズームします。
+トグル - キーを再度押すまでズームをロックします
+常時 - 常にズームします。何か理由があれば"
+extras.zoom.lower_sensitivity.name,Lower Zoom Sensitivity,ズーム感度を下げた
+extras.zoom.lower_sensitivity.tooltip,Lowers your sensitivity when zooming to make it feel more consistent.,ズーム時の感度を下げて、一貫した操作感を実現します
+extras.zoom.option.name,Zoom,ズーム
+extras.zoom.overlay.name,Zoom Overlay,ズームオーバーレイ
+extras.zoom.overlay.tooltip,Renders a vignette overlay when zooming.,ズーム時にヴィニッテオーバーレイを表示します
+extras.zoom.scrolling.name,Zoom Scrolling,ズームスクロール
+extras.zoom.scrolling.tooltip,Allows using scroll wheel to adjust zoom amount.,スクロールホイールでズーム量を調整できるようにする
+extras.zoom.transition.name,Zoom Transition Mode,ズーム遷移モード
+extras.zoom.transition.tooltip,Controls how the game changes from normal to zoomed. Off will be an instant transition.,ゲームが通常からズームに変わる方法を制御します。オフは即時遷移です。

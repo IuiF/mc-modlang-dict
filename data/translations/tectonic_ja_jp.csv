@@ -1,0 +1,107 @@
+﻿key,source_text,target_text
+config.tectonic.category.biomes,Biomes,バイオーム
+config.tectonic.category.caves,Caves,洞窟
+config.tectonic.category.continents,Continents,大陸
+config.tectonic.category.general,General,一般
+config.tectonic.category.global_terrain,Global Terrain,チーズが有効
+config.tectonic.category.islands,Islands,島
+config.tectonic.category.oceans,Oceans,海洋
+config.tectonic.default,Default: ,デフォルト: 
+config.tectonic.option.carvers_enabled,Carvers Enabled,カービング有効化
+config.tectonic.option.carvers_enabled.tooltip,"Whether old caves/ravines should generate.
+§cGame restart required!",古い洞窟/峡谷の生成を有効にするかどうか。
+config.tectonic.option.cheese_additive,Cheese Additive: %s,チーズ添加物: %s
+config.tectonic.option.cheese_additive.tooltip,Density added to cheese caves. Lower values = bigger cheese caves.,チーズ洞窟に密度が追加されました。値が低いほど大きなチーズ洞窟になります。
+config.tectonic.option.cheese_enabled,Cheese Enabled,ジャングル・ピラー
+config.tectonic.option.cheese_enabled.tooltip,"The standard expansive, large cheese-shaped caves.",標準的な広大で大きいチーズ型の洞窟です。
+config.tectonic.option.continents_scale,Continents Scale: %s,大陸スケール: %s
+config.tectonic.option.continents_scale.tooltip,Horizontally scales continents. Lower values = larger continents and oceans between them.,水平スケールで大陸を調整します。値が低いほど、大陸とその間の海が大きくなります。
+config.tectonic.option.deep_ocean_depth,Deep Ocean Depth: %s,深海の深さ: %s
+config.tectonic.option.deep_ocean_depth.tooltip,"0 is at sea level, -0.5 is 64 blocks below sea level.",0 は海面、-0.5 は海面から64ブロック下です。
+config.tectonic.option.depth_cutoff_size,Depth Cutoff Size: %s,深度カットオフサイズ: %s
+config.tectonic.option.depth_cutoff_size.tooltip,"The distance in depth between the start and end of the depth cutoff. 0.1 means caves close over ~12 blocks, 0.0 means caves cut off at the `depth_cutoff_start` value immediately.",深さカットオフの開始と終了の間の深度距離。0.1は約12ブロック下で洞窟が閉じます、0.0は`depth_cutoff_start`値で直ちに洞窟がカットオフされます。
+config.tectonic.option.depth_cutoff_start,Depth Cutoff Start: %s,深度カットオフ開始: %s
+config.tectonic.option.depth_cutoff_start.tooltip,"The depth noise value that caves stop generating. 0.1 cuts off caves ~12 blocks below the surface, 0.5 cuts off caves ~64 blocks below the surface.",洞窟の生成が停止する深度ノイズ値。0.1は表面下約12ブロックで洞窟をカットオフ、0.5は表面下約64ブロックで洞窟をカットオフします。
+config.tectonic.option.enabled,Enabled,有効
+config.tectonic.option.enabled.tooltip,"Islands with vanilla mountainous terrain dot the oceans.
+§6With Terralith installed, these spawn volcanoes!","バニラの山地地形を持つ島が海に点在します。
+§6Terralithがインストールされている場合、これらは火山を生成します！"
+config.tectonic.option.erosion_scale,Erosion Scale: %s,風化スケール: %s
+config.tectonic.option.erosion_scale.tooltip,"Horizontally scales erosion, primarily impacting mountains. Lower values = thicker mountain ranges and terrain between them.",侵食を水平方向にスケーリング、主に山に影響を与えます。より低い値=より厚い山脈とその間の地形。
+config.tectonic.option.flat_terrain_skew,Flat Terrain Skew: %s,平坦地形の歪み: %s
+config.tectonic.option.flat_terrain_skew.tooltip,The threshold where plateau terrain becomes flatter terrain. Positive numbers favor flat terrain and negative numbers favor plateau terrain.,台地地形がより平坦な地形になる閾値。正の数は平坦な地形を優先し、負の数は台地地形を優先します。
+config.tectonic.option.jungle_pillars,Jungle Pillars,ジャングルの柱
+config.tectonic.option.jungle_pillars.tooltip,Some jungles generate massive pillars that can extend upwards of a hundred blocks tall.,一部のジャングルでは、百ブロック以上に伸びる巨大な柱が生成されます。
+config.tectonic.option.lava_tunnels,Lava Tunnels,溶岩のトンネル
+config.tectonic.option.lava_tunnels.tooltip,"Rare, deep underground tunnels of lava sometimes generate at the bottom of the world.",レア。深層地下トンネルの溶岩が世界の底部に生成されることがあります。
+config.tectonic.option.max_y,Max Y: %s,最大Y: %s
+config.tectonic.option.max_y.tooltip,The maximum build and generation height. The old Increased Height setting set this to 640.,最大建築・生成高さ。旧 Increased Height 設定では 640 に設定されていました。
+config.tectonic.option.min_y,Min Y: %s,最小Y: %s
+config.tectonic.option.min_y.tooltip,The minimum build and generation height.,最小の構築および生成高さ
+config.tectonic.option.mod_enabled,Mod Enabled,モジュール有効
+config.tectonic.option.mod_enabled.tooltip,"When disabled, the mod lays dormant and does nothing.
+§cGame restart required!",無効化されると、モッドは休止状態になり何も行わない。
+config.tectonic.option.monument_offset,Ocean Monument Offset: %s,海底神殿オフセット: %s
+config.tectonic.option.monument_offset.tooltip,Offsets (vanilla) ocean monuments to adjust for deeper oceans.,オフセット（バニラ）海洋モニュメントを調整して深い海に合わせる。
+config.tectonic.option.noise_multiplier,Noise Multiplier: %s,ノイズ乗数: %s
+config.tectonic.option.noise_multiplier.tooltip,"Multipliers the island noise, making normal and mushroom islands more common.",島のノイズを乗算して、通常島やきのこ島がより頻繁に出現するようにします。
+config.tectonic.option.noise_offset,Noise Offset: %s,ノイズオフセット: %s
+config.tectonic.option.noise_offset.tooltip,"Offsets the island noise. Higher values favor normal islands, lower values favor mushroom islands.",島のノイズをオフセットする。値が高いほど通常の島が多く、低いほどマッシュルームアイランドが増える。
+config.tectonic.option.noise_scale,Noise Scale: %s,ノイズスケール: %s
+config.tectonic.option.noise_scale.tooltip,Horizontally scales islands. Lower values = larger islands and oceans between them.,水平に島を拡大します。値が小さいほど島とそれらの間の海が大きくなります。
+config.tectonic.option.noodle_additive,Noodle Additive: %s,麺類添加物: %s
+config.tectonic.option.noodle_additive.tooltip,Density added to noodle caves. Lower values = bigger noodle caves.,ヌードル洞窟に密度が追加されました。値が低いほど大きなヌードル洞窟になります。
+config.tectonic.option.noodle_enabled,Noodle Enabled,ヌードル有効化
+config.tectonic.option.noodle_enabled.tooltip,"The narrow, claustrophobic noodle-shaped caves.",狭く閉塞感のあるヌードル型洞窟。
+config.tectonic.option.ocean_depth,Ocean Depth: %s,海の深さ: %s
+config.tectonic.option.ocean_depth.tooltip,"0 is at sea level, -0.5 is 64 blocks below sea level.",0 は海面、-0.5 は海面から64ブロック下です。
+config.tectonic.option.ocean_offset,Ocean Offset: %s,海洋オフセット: %s
+config.tectonic.option.ocean_offset.tooltip,"Skews terrain towards or away from oceans. Lower values = more oceans.
+§cAbove -0.45, deep oceans will not spawn!
+§4Above -0.2, oceans will not spawn!","地形を海に向かって、または海から離れるようにスキュー。より低い値=より多くの海。
+§c-0.45より上では、深い海は生成されません！
+§4-0.2より上では、海は生成されません！"
+config.tectonic.option.remove_frozen_ocean_ice,Remove Frozen Ocean Ice,氷の凍結洋を削除
+config.tectonic.option.remove_frozen_ocean_ice.tooltip,"Removes the surface ice from Frozen Oceans, making them as navigable as Deep Frozen Oceans.",凍結海洋から表面の氷を除去し、深層凍結海洋と同様に航行可能にします。
+config.tectonic.option.ridge_scale,Ridge Scale: %s,リッジスケール: %s
+config.tectonic.option.ridge_scale.tooltip,"Horizontally scales the ridge noise, primarily impacting rivers and terrain around them like plateaus. Lower values = wider rivers and terrain between them.",尾根ノイズを水平方向にスケーリング、主に川およびそれらの周囲の地形（台地など）に影響します。より低い値=より広い川とその間の地形。
+config.tectonic.option.river_lanterns,River Lanterns,川灯り
+config.tectonic.option.river_lanterns.tooltip,Underground rivers will rarely generate with hanging lanterns.,地下河は、吊りランタンとともに生成されることはほとんどありません。
+config.tectonic.option.rolling_hills,Rolling Hills,ローリングヒルズ
+config.tectonic.option.rolling_hills.tooltip,"Some Plains biomes generate very smooth, hilly terrain.",いくつかの平原バイオームでは非常に滑らかで丘陵地形が生成されます。
+config.tectonic.option.snow_start_offset,Snow Start Offset: %s,雪開始オフセット: %s
+config.tectonic.option.snow_start_offset.tooltip,Offsets the y-level snow in cold biomes like Taigas starts at.,寒冷バイオームの雪がyレベルで生成される開始点をずらします。
+config.tectonic.option.spaghetti_enabled,Spaghetti Enabled,スパゲッティ機能有効
+config.tectonic.option.spaghetti_enabled.tooltip,"The tunneling, medium sized spaghetti-shaped caves.",中型スパゲッティ状の洞窟を掘削します。
+config.tectonic.option.temperature_multiplier,Temperature Multiplier: %s,温度倍率: %s
+config.tectonic.option.temperature_multiplier.tooltip,"Multiplies the temperature noise, causing extreme cold/warm biomes (snowy biomes, deserts) to be favored.",温度ノイズに乗算し、極端な寒冷/温暖バイオームを優先させます。
+config.tectonic.option.temperature_offset,Temperature Offset: %s,温度オフセット: %s
+config.tectonic.option.temperature_offset.tooltip,"Offsets the average value of the temperature noise. Higher values favor more deserts/warm biomes, lower values favor more snowy/cold biomes.",温度ノイズの平均値をオフセット。より高い値は砂漠/温暖バイオームを優先、より低い値は雪/寒冷バイオームを優先します。
+config.tectonic.option.temperature_scale,Temperature Scale: %s,温度スケール: %s
+config.tectonic.option.temperature_scale.tooltip,Horizontally scales the temperature noise. Lower values = larger distance between biomes of different temperatures.,温度ノイズを水平方向にスケーリング。より低い値=異なる温度のバイオーム間でより大きな距離。
+config.tectonic.option.ultrasmooth,Ultrasmooth,超滑らか
+config.tectonic.option.ultrasmooth.tooltip,"Greatly smoothens out the terrain like Tectonic v2, removing staircasing artifacts at the cost of strange/broken generation in deep oceans and windswept biomes.
+§cGame restart required on 1.20!","Tectonic v2のような地形を大きく滑らかにし、段差化のアーティファクトを除去しますが、深い海と風吹きさらされたバイオームでの奇妙/壊れた生成のコストがかかります。
+§cゲーム再起動が1.20で必要です！"
+config.tectonic.option.underground_rivers,Underground Rivers,地下の川
+config.tectonic.option.underground_rivers.tooltip,"Rivers that reach mountain ranges continue underground, allowing smoother boat exploration.",山脈に達する川は地下へ続き、ボート探索をよりスムーズにします。
+config.tectonic.option.vegetation_multiplier,Vegetation Multiplier: %s,植生倍率: %s
+config.tectonic.option.vegetation_multiplier.tooltip,"Multiplies the vegetation noise, causing extreme dry/humid biomes (sunflower plains, dark forests) to be favored.",植生ノイズに乗算し、極端な乾燥/湿潤バイオームを優先させます。
+config.tectonic.option.vegetation_offset,Vegetation Offset: %s,植生オフセット: %s
+config.tectonic.option.vegetation_offset.tooltip,"Offsets the average value of the vegetation noise. Higher values favor more densely vegetated biomes, lower values favor more sparsely vegetated biomes.",植生ノイズの平均値をオフセット。より高い値はより密生した植生バイオームを優先、より低い値はより希薄な植生バイオームを優先します。
+config.tectonic.option.vegetation_scale,Vegetation Scale: %s,植生スケール: %s
+config.tectonic.option.vegetation_scale.tooltip,Horizontally scales the vegetation noise. Lower values = larger distance between biomes of different humidities (e.g. savannas and jungles).,植生ノイズを水平方向にスケーリング。より低い値=異なる湿度のバイオーム間でより大きな距離（例えば、サバンナとジャングル）。
+config.tectonic.option.vertical_scale,Vertical Scale: %s,垂直スケール: %s
+config.tectonic.option.vertical_scale.tooltip,"Vertically stretches terrain above sea level. Doubling this value will double the surface's height at a given point from sea level.
+§cGame restart required on 1.20!","海面上の地形を垂直方向に引き伸ばします。この値を2倍にすると、与えられたポイントの表面の高さが海面から2倍になります。
+§cゲーム再起動が1.20で必要です！"
+config.tectonic.title,Tectonic Config,地殻設定
+config.tectonic.view_presets,View Presets...,プレセットを表示...
+pack_name.tectonic.tectonic/overlay.increased_height,Tectonic 640 build limit,テクトニック640ビルディング制限
+pack_name.tectonic.tectonic/overlay.increased_height_terratonic,Tectonic 640 build limit,テクトニック640ビルディング制限
+pack_name.tectonic.tectonic/overlay.mod,Tectonic mod-reliant data,テクトニックモッドに依存するデータ
+pack_name.tectonic.tectonic/overlay.terratonic,Terralith-Tectonic compat data,テラリス-テトニック互換データ
+preset.tectonic.default,Default,デフォルト
+preset.tectonic.deserted,Deserted,荒廃
+preset.tectonic.large_biomes,Large Biomes,大きなバイオーム
+preset.tectonic.title,Presets,プリセット

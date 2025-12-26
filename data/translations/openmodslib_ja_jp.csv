@@ -1,0 +1,70 @@
+﻿key,source_text,target_text
+openmodslib.command.no_enough_args,Not enough arguments,引数が不足しています
+openmodslib.command.unknown_modid,Unknown mod id,スタックサイズ: %s
+openmodslib.command.unknown_value,Unknown config value,不明な設定値
+openmodslib.command.saved,Saved configuration to %s,%sに設定を保存しました
+openmodslib.command.not_multiple,This property doesn't accept multiple values,このプロパティは複数値を受け付けません
+openmodslib.command.online_change,Config property changed. Using new value.,Config プロパティが変更されました。新しい値を使用しています。
+openmodslib.command.offline_change,Config property changed. New value will be applied after restart,設定プロパティが変更されました。新しい値は再起動後に適用されます
+openmodslib.command.cancelled,Config change cancelled!,設定変更がキャンセルされました!
+openmodslib.command.unknown_error,Unknown error during config property change: %s,構成プロパティ変更中に不明なエラーが発生しました: %s
+openmodslib.command.invalid_command,Invalid command '%s',無効なコマンド '%s'
+openmodslib.command.invalid_type,Can't convert value %s to %s,値 %s を %s に変換できません
+openmodslib.command.invalid_class_name,Invalid class name %s,無効なクラス名 %s
+openmodslib.command.unknown_error_details,Unknown error. Please check logs for more details.,不明なエラーが発生しました。詳細についてはログをご確認ください。
+openmodslib.command.class_source,Class '%s' loaded from '%s',クラス '%s' は '%s' からロードされました
+openmodslib.command.api_class,"API information: name='%s', ownerMod='%s', version='%s'","API情報: name='%s', ownerMod='%s', version='%s'"
+openmodslib.command.class_provider,Class provided by file %s (mods: %s),ファイル %s から提供されたクラス (モジュール: %s)
+openmodslib.command.calc_set,Value %s set to %s,値 %s を %s に設定しました
+openmodslib.command.calc_no_type,Please provide new calculator type,新しい計算機タイプを入力してください
+openmodslib.command.calc_no_name,Please provide calculator name,計算機の名前を入力してください
+openmodslib.command.calc_invalid_name,Invalid calculator name,無効な計算機名
+openmodslib.command.calc_invalid_type,Invalid calculator type. Allowed types: %s,無効な計算機タイプです。許可されたタイプ：%s
+openmodslib.command.calc_invalid_mode,Invalid calculator mode. Allowed modes: %s,無効な計算モードです。許可されたモード：%s
+openmodslib.command.calc_no_key,Please provide name of property,プロパティ名を入力してください。
+openmodslib.command.calc_no_value,Please provide new value of property,プロパティの新しい値を入力してください。
+openmodslib.command.calc_invalid_key,Invalid property name,無効なプロパティ名
+openmodslib.command.calc_cant_set,Failed to set property,プロパティの設定に失敗しました
+openmodslib.command.calc_function_defined,Defined function %s,関数 %s を定義しました
+openmodslib.command.calc_error,Failed to execute: '%s',実行に失敗: '%s'
+openmodslib.command.calc_syntax_error_path,Failed to parse command '%s':,コマンド '%s' の解析に失敗しました:
+openmodslib.command.calc_runtime_error_path,Failed to execute command '%s':,コマンド '%s' の実行に失敗しました。
+openmodslib.command.calc_stack_underflow,Calculator stack underflow,スタック下流エラー
+openmodslib.command.calc_after_push,"Pushed calculator, stack size: %s",スタックサイズ: %s の計算機を押し込みました
+openmodslib.command.calc_after_pop,"Popped calculator, stack size: %s",スタックサイズ: %s の計算機を引き出しました
+openmodslib.command.calc_stack_size,Stack size: %s,スタックサイズ: %s
+openmodslib.command.calc_extra_args,Unparsed arguments left in command: %s,解析されていない引数がコマンドに残っています：%s
+openmodslib.command.calc_invalid_number,'%s' is not valid number,'%s' は有効な数値ではありません
+openmodslib.command.no_subcommand,Can't find subcommand: %s,サブコマンドが見つかりません: %s
+openmodslib.command.no_subcommands,Command has no subcommands,コマンドにサブコマンドがありません
+openmodslib.command.not_enough_arguments,Not enough arguments,引数が不足しています
+openmodslib.command.calc_executed_count,Executed %d commands,実行された %d コマンド
+openmodslib.command.calc_not_child,Path %s is not child of %s,パス %s は %s の子ではありません
+openmodslib.command.calc_not_file,Path %s is not valid file,パス%sは有効なファイルではありません
+openmodslib.color.black,Black,黒
+openmodslib.color.red,Red,赤
+openmodslib.color.green,Green,緑
+openmodslib.color.brown,Brown,茶色
+openmodslib.color.blue,Blue,青
+openmodslib.color.purple,Purple,紫
+openmodslib.color.cyan,Cyan,シアン
+openmodslib.color.lightGray,Light Gray,薄灰色
+openmodslib.color.gray,Gray,グレー
+openmodslib.color.pink,Pink,ピンク
+openmodslib.color.lime,Lime,ライム
+openmodslib.color.yellow,Yellow,黄色
+openmodslib.color.lightBlue,Light Blue,空色
+openmodslib.color.magenta,Magenta,マゼンタ
+openmodslib.color.orange,Orange,オレンジ
+openmodslib.color.white,White,白
+openmodslib.gui.watch_video,Watch video,動画を観る
+openmodslib.locale.book.scale.pageNumber,0.5,0.5
+openmodslib.locale.book.scale.sectionTitle,2.0,2.0
+openmodslib.locale.book.scale.pageTitle,1.0,1.0
+openmodslib.locale.book.scale.pageContent,0.5,0.5
+openmodslib.locale.book.lineSpace.titledPage,2,2
+openmodslib.locale.book.lineSpace.recipePage,4,4
+openmodslib.config.features,Enable/disable features,機能の有効・無効
+openmodslib.config.features.blocks,Enable/disable blocks,ブロックの有効/無効化
+openmodslib.config.features.items,Enable/disable items,アイテムの有効/無効化
+openmodslib.config.config,Mod specific configuration,モッド固有の設定

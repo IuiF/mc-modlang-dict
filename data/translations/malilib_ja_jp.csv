@@ -1,0 +1,105 @@
+﻿key,source_text,target_text
+malilib.config.comment.keybind_settings.activate_on,Does the keybind activate on press or release of the key combination,キーコンビネーションの押下時か放開時にキーバインドが発動しますか？
+malilib.config.comment.keybind_settings.allow_empty_keybind,"Is an empty keybind valid
+(will always be considered to be active)",空のキー入力は有効ですか
+malilib.config.comment.keybind_settings.allow_extra_keys,Are extra keys allowed to be held to still activate the keybind,追加キーを保持してもキーバインドを有効にできるか？
+malilib.config.comment.keybind_settings.cancel_further,"Cancel further (vanilla) processing of the
+last pressed key, when the keybind activates",さらに（バニラ）処理をキャンセルします。
+malilib.config.comment.keybind_settings.context,Can the keybind be activated in-game or inside a GUI,キー入力はゲーム内かGUI内で有効化できるか。
+malilib.config.comment.keybind_settings.exclusive,"If true, then no other keybinds can have
+been activated before the keybind in question.
+This check resets when all keys are released.",有効な場合、該当するキーバインドよりも前に他のキーバインドが起動されることはありません。すべてのキーが解放されるとこのチェックはリセットされます。
+malilib.config.comment.keybind_settings.order_sensitive,"Should the keybind keys be pressed
+in the specific order they were defined in",キー バインド キーが押された場合
+malilib.error.failed_to_create_directory,Failed to create directory '%s',ディレクトリ '%s' を作成できませんでした
+malilib.error.file_or_directory_already_exists,File or directory '%s' already exists,ファイルまたはディレクトリ '%s' は既に存在します
+malilib.error.invalid_block_blacklist_entry,Invalid block in a black- or whitelist: '%s',ブラックリストまたはホワイトリストに無効なブロック: '%s'
+malilib.error.invalid_directory,Invalid directory name '%s',無効なディレクトリ名 '%s'
+malilib.error.invalid_item_blacklist_entry,Invalid item name in a black- or whitelist: '%s',ブラックリストまたはホワイトリストに無効なアイテム名: '%s'
+malilib.gui.button.cancel,Cancel,キャンセル
+malilib.gui.button.hover.directory_widget.create_directory,Create a new directory,新しいディレクトリを作成
+malilib.gui.button.hover.directory_widget.root,To root/base directory,ルート/ベースディレクトリへ
+malilib.gui.button.hover.directory_widget.up,Up to parent directory,親ディレクトリへ
+malilib.gui.button.hover.hold_shift_for_info,§oHold Shift for more information§r,§oシフトキーを押して詳細情報を取得§r
+malilib.gui.button.hover.plus_minus_tip,"Left click to increase
+Right click to decrease
+Shift and/or Alt to increase the step size",左クリックで増加させます
+malilib.gui.button.ok,OK,OK
+malilib.gui.button.render_layers_gui.axis,Axis: %s,軸: %s
+malilib.gui.button.render_layers_gui.layers,Layers: %s,レイヤー: %s
+malilib.gui.button.render_layers_gui.set_here,Set Here,ここに設定
+malilib.gui.button.reset,Reset,リセット
+malilib.gui.button.reset.caps,RESET,リセット
+malilib.gui.label.block_snap.center,Center,中央
+malilib.gui.label.block_snap.corner,Corner,角
+malilib.gui.label.block_snap.none,None,なし
+malilib.gui.label.color_editor.current_color,Current color:,現在の色:
+malilib.gui.label.keybind_settings.activate_on,Activate On,アクティブオン
+malilib.gui.label.keybind_settings.allow_empty_keybind,Allow empty keybind,空のキー入力を許可
+malilib.gui.label.keybind_settings.allow_extra_keys,Allow extra keys,追加キーを許可
+malilib.gui.label.keybind_settings.cancel_further,Cancel further processing,さらに処理を中止
+malilib.gui.label.keybind_settings.context,Context,コンテキスト
+malilib.gui.label.keybind_settings.exclusive,Exclusive,限定
+malilib.gui.label.keybind_settings.order_sensitive,Order Sensitive,順序敏感
+malilib.gui.label.keybind_settings.tips,"- Left click to configure
+- Right click to reset to defaults",- 左クリックで設定します
+malilib.gui.label.keybind_settings.title_advanced_keybind_settings,Advanced Keybind settings,高度なキー結合設定
+malilib.gui.label.layer_mode.all,All,すべて
+malilib.gui.label.layer_mode.all_above,All above,上記すべて
+malilib.gui.label.layer_mode.all_below,All below,以下すべて
+malilib.gui.label.layer_mode.layer_range,Layer Range,層範囲
+malilib.gui.label.layer_mode.single_layer,Single Layer,単層
+malilib.gui.label.no,no,no
+malilib.gui.label.render_layers.layer,Layer,レイヤー
+malilib.gui.label.render_layers.layer_max,Max layer,最大層
+malilib.gui.label.render_layers.layer_min,Min layer,最小層
+malilib.gui.label.yes,yes,はい
+malilib.gui.label_colored.off,§cOFF§r,§cOFF§r
+malilib.gui.label_colored.on,§aON§r,§aON§r
+malilib.gui.title.all_hotkeys,All registered hotkeys,登録されたすべてのショートカット
+malilib.gui.title.color_editor,Color Editor,色 Editor
+malilib.gui.title.color_list_edit,Edit color list for '%s','%s' の色リストを編集
+malilib.gui.title.configs,malilib Configs,malilib設定
+malilib.gui.title.create_directory,Create a new directory,新しいディレクトリを作成
+malilib.gui.title.debug,Debug,デバッグ
+malilib.gui.title.generic,Generic,一般
+malilib.gui.title.keybind_settings.advanced,Advanced Keybind Settings for %s,%sの高度なキー入力設定
+malilib.gui.title.string_list_edit,Edit string list for '%s','%s' の文字列リストを編集
+malilib.hover.color_indicator.open_color_editor,Open Color Editor,色エディターを開く
+malilib.label.active_mode.always,Always,常に
+malilib.label.active_mode.never,Never,決して
+malilib.label.active_mode.with_key,With Key,鍵付き
+malilib.label.alignment.bottom_left,Bottom Left,左下
+malilib.label.alignment.bottom_right,Bottom Right,右下
+malilib.label.alignment.center,Center,中央
+malilib.label.alignment.top_left,Top Left,左上
+malilib.label.alignment.top_right,Top Right,右上
+malilib.label.key_action.both,BOTH,両方
+malilib.label.key_action.press,PRESS,押す
+malilib.label.key_action.release,RELEASE,解除
+malilib.label.key_context.any,Any,任意
+malilib.label.key_context.gui,GUI,GUI
+malilib.label.key_context.ingame,In-Game,ゲーム中
+malilib.label.list_type.blacklist,Black List,黒リスト
+malilib.label.list_type.none,None,なし
+malilib.label.list_type.whitelist,White List,ホワイトリスト
+malilib.label.message_output_type.actionbar,Actionbar,アクションバー
+malilib.label.message_output_type.message,Message,メッセージ
+malilib.label.message_output_type.none,None,なし
+malilib.message.directory_created,Directory '%s' created,ディレクトリ '%s' が作成されました
+malilib.message.formatting_code.error,§c,§c
+malilib.message.formatting_code.info,§f,§f
+malilib.message.formatting_code.success,§a,§a
+malilib.message.formatting_code.warning,§6,§6
+malilib.message.layer_range.range_max,max,最大
+malilib.message.layer_range.range_min,min,最小
+malilib.message.moved_layer_range,Moved the entire layer range by §a%s§r on the §a%s§r axis,全レイヤー範囲を §a%s§r の §a%s§r 軸で移動しました。
+malilib.message.moved_layer_range_boundary,Moved layer range §a%s§r by §a%s§r on the §a%s§r axis,レイヤー範囲 §a%s§r を §a%s§r だけ §a%s§r 軸上で移動しました
+malilib.message.moved_max_layer_to,Moved max layer to %s,最大層を %s に移動
+malilib.message.moved_min_layer_to,Moved min layer to %s,最小層を %s に移動
+malilib.message.set_layer_axis_to,Set layer axis to %s,層軸を %s に設定
+malilib.message.set_layer_mode_to,Set layer mode to %s,層モードを %s に設定
+malilib.message.set_layer_to,Set layer to %s,レイヤーを %s に設定
+malilib.message.toggled,Toggled %s %s,%s %s を切り替えました
+malilib.message.value.off,OFF,オフ
+malilib.message.value.on,ON,ON

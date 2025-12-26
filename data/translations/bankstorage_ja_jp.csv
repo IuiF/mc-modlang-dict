@@ -1,0 +1,95 @@
+﻿key,source_text,target_text
+admin_restore_bank.bankstorage.added_item_filter,Added item filter.,アイテムフィルターを追加しました。
+admin_restore_bank.bankstorage.added_player_filter,Added player filter.,プレイヤーのフィルターを追加しました。
+admin_restore_bank.bankstorage.added_type_filter,Added type filter.,タイプフィルターを追加しました。
+admin_restore_bank.bankstorage.cleared_all_filters,Cleared all filters.,すべてのフィルターをクリアしました。
+admin_restore_bank.bankstorage.cleared_item_filters,Cleared item filters.,アイテムフィルターをクリアしました。
+admin_restore_bank.bankstorage.cleared_player_filters,Cleared player filters.,プレイヤーフィルターをクリアしました。
+admin_restore_bank.bankstorage.cleared_type_filters,Cleared type filters.,フィルタをクリアしました。
+admin_restore_bank.bankstorage.listed_banks_num,(listed %d banks),(%d口の銀行)
+admin_restore_bank.bankstorage.unknown_player,Cannot find the player to give the item to,アイテムを渡すプレイヤーが見つかりません
+block.bankstorage.bank_dock,Bank Dock,銀行係留場所
+category.bankstorage,Bank Storage,銀行ストレージ
+command.bankstorage.bankinfo,"%s %d items %s
+",%s %d 項目 %s
+command.bankstorage.hoverinfo,Click for give command,クリックしてコマンドを付与
+command.bankstorage.unknownid,No bank with that id,そのIDを持つ銀行が存在しません。
+emi.info.bankstorage.tips,"§nPickup modes§r
+Pickup all: All items picked up will automatically go into the Bank.
+Filtered pickup: Only filtered items will only go into Banks.
+Void overflow: Overflow will be voided.
+
+§nBuild modes§r
+Build directly from the Bank.
+Scroll while crouching to choose block.
+Randomized build mode: Blocks get chosen randomly.
+Right click which crouching to change build mode.
+
+§nSlot filtering§r
+Alt-click to set slot filter.
+
+§nBank Dock§r
+Right click with the Bank to dock it.
+Right click while crouching to pick up the Bank.
+
+§nBank Link§r
+Link to another Bank to access the contents in multiple places at the same time.","§nピックアップモード§r
+すべてを拾う: すべてのアイテムが自動的にバンクに入ります。
+フィルター選別: フィルターされたアイテムのみがバンクに入ります。
+消滅: オーバーフローは消滅します。
+
+§nビルドモード§r
+バンクから直接建設。
+しゃがみながらスクロールでブロック選択。
+ランダムビルドモード: ブロックがランダムに選ばれます。
+しゃがみながら右クリックでビルドモード変更。
+
+§nスロットフィルタリング§r
+Altキーを押しながらクリックしてスロットフィルタを設定。
+
+§nバンクドック§r
+バンクで右クリックしてドック。
+しゃがみながら右クリックでバンクを拾い上げ。
+
+§nバンクリンク§r
+別のバンクにリンクして、複数の場所から同時にコンテンツにアクセス。"
+item.bankstorage.bank_1,Bank 1,銀行1
+item.bankstorage.bank_2,Bank 2,銀行2
+item.bankstorage.bank_3,Bank 3,銀行3
+item.bankstorage.bank_4,Bank 4,銀行4
+item.bankstorage.bank_5,Bank 5,銀行5
+item.bankstorage.bank_6,Bank 6,銀行6
+item.bankstorage.bank_7,Bank 7,銀行7
+item.bankstorage.bank_link,Bank Link,銀行リンク
+key.bankstorage.cyclebuildmode,Cycle build mode,建設モードを切り替える
+key.bankstorage.enablescroll,Enable block selection scroll,ブロック選択スクロールを有効化
+key.bankstorage.lockslot,Filter Slot,スロットフィルター
+key.bankstorage.openbankfromkeybind,Open bank,銀行を開く
+key.bankstorage.togglebuildmode,Toggle build mode,ビルドモードを切替
+key.bankstorage.togglepickupmode,Toggle pickup mode,ピックアップモードを切り替えます
+popup.bankstorage.buildmode.none_normal,Bag mode,バッグモード
+popup.bankstorage.buildmode.none_random,Bag mode,バッグモード
+popup.bankstorage.buildmode.normal,Build mode,建設モード
+popup.bankstorage.buildmode.random,Randomized build mode,ランダムビルドモード
+popup.bankstorage.pickupmode.all,Pickup all,すべてを拾う
+popup.bankstorage.pickupmode.filtered,Filtered pickup,フィルター付き拾い取り
+popup.bankstorage.pickupmode.none,No item pickup,アイテムの拾い取りを禁止
+popup.bankstorage.pickupmode.void,Void excess,余剰を削除
+popup.bankstorage.unlinked,This Bank Link not linked to a Bank. Craft one to link it instead.,この銀行リンクは銀行に紐付いていません。代わりに作成してリンクしてください。
+tag.item.bankstorage.banks,Banks,銀行
+title.bankstorage.pickupmode.filtered,Filtered,フィルター
+title.bankstorage.pickupmode.no_pickup,No Pickup,拾い取り不可
+title.bankstorage.pickupmode.pickup_all,Pickup All,すべてを拾う
+title.bankstorage.pickupmode.void_overflow,Void Overflow,虚空の過剰
+title.bankstorage.sortmode.count,Sort,ソート
+title.bankstorage.sortmode.mod,Sort,ソート
+title.bankstorage.sortmode.name,Sort,ソート
+tooltip.bankstorage.numslots,§7Number of slots: %s,§7スロット数: %s
+tooltip.bankstorage.pickupmode.filtered,Only items already contained will get picked or inserted,既に含まれているアイテムのみが選択または挿入されます
+tooltip.bankstorage.pickupmode.no_pickup,Items will not get picked or inserted,アイテムはピックアップまたは挿入されません
+tooltip.bankstorage.pickupmode.pickup_all,All Items will get picked or inserted,すべてのアイテムがピックアップまたは挿入されます
+tooltip.bankstorage.pickupmode.void_overflow,Overflowing items will get voided,アイテムが溢れると、そのアイテムは消滅します
+tooltip.bankstorage.sortmode.count,Sort by item count,アイテム数でソート
+tooltip.bankstorage.sortmode.mod,Sort by mod,モジュールで並び替え
+tooltip.bankstorage.sortmode.name,Sort by item name,アイテム名で並べ替え
+tooltip.bankstorage.stacklimit,§7Stack limit: %s,スタック上限: %s

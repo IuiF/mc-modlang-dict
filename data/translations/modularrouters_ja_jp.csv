@@ -1,0 +1,1071 @@
+﻿key,source_text,target_text
+block.modularrouters.modular_router,Modular Router,モジュラールーター
+block.modularrouters.template_frame,Template Frame,テンプレートフレーム
+config.jade.plugin_modularrouters.router,Modular Router,モジュラールーター
+item.modularrouters.activator_module,Activator Module,アクティベータモジュール
+item.modularrouters.augment_core,Augment Core,オーグメントコア
+item.modularrouters.blank_module,Blank Module,空のモジュール
+item.modularrouters.blank_upgrade,Blank Upgrade,空のアップグレード
+item.modularrouters.blast_upgrade,Blast Upgrade,爆発アップグレード
+item.modularrouters.breaker_module,Breaker Module,ブレーカーモジュール
+item.modularrouters.bulk_item_filter,Bulk Item Filter,一括アイテムフィルター
+item.modularrouters.camouflage_upgrade,Camouflage Upgrade,偽装アップグレード
+item.modularrouters.creative_module,Creative Module,クリエイティブモジュール
+item.modularrouters.detector_module,Detector Module,検出モジュール
+item.modularrouters.distributor_module,Distributor Module,分配モジュール
+item.modularrouters.dropper_module,Dropper Module,ドロッパ―モジュール
+item.modularrouters.energy_distributor_module,Energy Distributor Module,エネルギー分配モジュール
+item.modularrouters.energy_output_module,Energy Output Module,エネルギー出力モジュール
+item.modularrouters.energy_upgrade,Energy Upgrade,エネルギーアップグレード
+item.modularrouters.extruder_module_1,Extruder Module Mk1,エクストルーダーモジュール Mk1
+item.modularrouters.extruder_module_2,Extruder Module Mk2,エクストルーダーモジュール Mk2
+item.modularrouters.fast_pickup_augment,Fast Pickup Augment,高速ピックアップオーグメント
+item.modularrouters.filter_round_robin_augment,Filter Round Robin Augment,フィルターラウンドロビンオーグメント
+item.modularrouters.flinger_module,Flinger Module,フリンガーモジュール
+item.modularrouters.fluid_module,Fluid Module Mk1,流体モジュールMk1
+item.modularrouters.fluid_module_2,Fluid Module Mk2,流体モジュールMk2
+item.modularrouters.fluid_upgrade,Fluid Transfer Upgrade,流体転送アップグレード
+item.modularrouters.inspection_filter,Inspection Filter,検査フィルター
+item.modularrouters.mimic_augment,Mimic Augment,ミミックオーグメント
+item.modularrouters.mod_filter,Mod Filter,Modフィルター
+item.modularrouters.muffler_upgrade,Muffler Upgrade,マフラーアップグレード
+item.modularrouters.override_card,Security Override Card,セキュリティオーバーライドカード
+item.modularrouters.pickup_delay_augment,Pickup Delay Augment,ピックアップ遅延オーグメント
+item.modularrouters.placer_module,Placer Module,配置モジュール
+item.modularrouters.player_module,Player Module,プレイヤーモジュール
+item.modularrouters.puller_module_1,Puller Module Mk1,プルモジュールMk1
+item.modularrouters.puller_module_2,Puller Module Mk2,プルモジュールMk2
+item.modularrouters.pushing_augment,Pushing Augment,押し出しオーグメント
+item.modularrouters.range_down_augment,Range Down Augment,範囲縮小オーグメント
+item.modularrouters.range_up_augment,Range Up Augment,範囲拡大オーグメント
+item.modularrouters.range_upgrade,Range Upgrade,レンジアップグレード
+item.modularrouters.rangedown_upgrade,Range Downgrade,範囲ダウングレード
+item.modularrouters.redstone_augment,Redstone Augment,レッドストーンオーグメント
+item.modularrouters.regex_filter,Regex Filter,正規表現フィルター
+item.modularrouters.regulator_augment,Regulator Augment,レギュレーターオーグメント
+item.modularrouters.security_upgrade,Security Upgrade,セキュリティアップグレード
+item.modularrouters.sender_module_1,Sender Module Mk1,送信モジュールMk1
+item.modularrouters.sender_module_2,Sender Module Mk2,送信モジュールMk2
+item.modularrouters.sender_module_3,Sender Module Mk3,送信モジュールMk3
+item.modularrouters.speed_upgrade,Speed Upgrade,スピードアップグレード
+item.modularrouters.stack_augment,Stack Augment,スタックオーグメント
+item.modularrouters.stack_upgrade,Stack Upgrade,スタックアップグレード
+item.modularrouters.sync_upgrade,Sync Upgrade,同期アップグレード
+item.modularrouters.tag_filter,Tag Filter,タグフィルター
+item.modularrouters.vacuum_module,Vacuum Module,吸引モジュール
+item.modularrouters.void_module,Void Module,虚空モジュール
+item.modularrouters.xp_vacuum_augment,XP Vacuum Augment,経験値吸引オーグメント
+itemGroup.modularrouters,Modular Routers,モジュラールーター
+key.modularrouters.category,Modular Routers,モジュラールーター
+key.modularrouters.configure,Configure Installed Module (GUI),インストール済みのモジュールを構成(GUI)
+key.modularrouters.moduleInfo,Extra Tooltip Info (GUI),追加のツールチップ情報(GUI)
+modularrouters._comment,JEI text,JEI テキスト
+modularrouters.chatText.misc.badCamoBlock,Invalid camouflage block!,不正な偽装ブロックです！
+modularrouters.chatText.misc.inventoryMerged,Merged %d item(s) into the %s,%d 項目を %s に合体しました
+modularrouters.chatText.misc.targetAdded,Target added (%d/%d): ,ターゲットが追加されました(%d/%d):
+modularrouters.chatText.misc.targetCleared,Target cleared,ターゲットがクリアされました
+modularrouters.chatText.misc.targetRemoved,Target removed (%d/%d): ,ターゲットが削除されました(%d/%d):
+modularrouters.chatText.misc.targetSet,Target set: ,ターゲットセット:
+modularrouters.chatText.misc.tooManyTargets,Too many targets! (max: %d),ターゲットが多すぎます！(最大: %d)
+modularrouters.chatText.security.accessDenied,§c--[Access Denied]--,§c--[アクセス拒否]--
+modularrouters.chatText.security.added,Added player [%s],プレイヤー [%s] を追加しました
+modularrouters.chatText.security.already_added,Player [%s] is already on this upgrade!,プレイヤー[%s]はすでにこのアップグレードを実行しています！
+modularrouters.chatText.security.error,Couldn't add player [%s] (internal error),プレイヤー [%s] を追加できませんでした(内部エラー)
+modularrouters.chatText.security.full,Security upgrade items full!,セキュリティアップグレードがいっぱいです！
+modularrouters.chatText.security.not_present,Player [%s] is not on this uprade!,プレイヤー[%s]はこのアップグレードを実行していません！
+modularrouters.chatText.security.removed,Removed player [%s],プレイヤー [%s] を削除しました
+modularrouters.chatText.subtitle.error,Error,エラー
+modularrouters.chatText.subtitle.success,Success,成功
+modularrouters.chatText.subtitle.thud,*THUD*,*ドスン*
+modularrouters.chatText.targetValidation.bad_dimension,✘ Dimension Blacklisted,✘ ブラックリスト済ディメンション
+modularrouters.chatText.targetValidation.not_inventory,✘ No Inventory,✘ インベントリなし
+modularrouters.chatText.targetValidation.not_loaded,✘ Not Loaded,✘ 未読込
+modularrouters.chatText.targetValidation.ok,✔ Target OK,✔ ターゲットOK
+modularrouters.chatText.targetValidation.out_of_range,✘ Out of Range,✘ 範囲外
+modularrouters.configuration.Energy Costs,Module Energy Costs,モジュールのエネルギーコスト
+modularrouters.configuration.Energy Costs.tooltip,FE costs for Router Modules,ルータ―モジュール用のFEコスト
+modularrouters.configuration.Misc,General,一般
+modularrouters.configuration.Misc.tooltip,General client settings,クライアント設定全般
+modularrouters.configuration.Module,Modules,モジュール
+modularrouters.configuration.Module.tooltip,Config settings for Router Modules,ルータ―モジュール用のコンフィグ設定
+modularrouters.configuration.Router,Routers,ルーター
+modularrouters.configuration.Router.tooltip,Config settings for Routers,ルーター用のコンフィグ設定
+modularrouters.configuration.Sound,Sound,サウンド
+modularrouters.configuration.Sound.tooltip,Sound settings,サウンド設定
+modularrouters.gui.config.alwaysShowSettings,Always show settings in module tooltip?,常にモジュールツールチップに設定を表示する？
+modularrouters.gui.config.baseTickRate,Base router tick rate (with no Speed Upgrades),基本ルーターティックレート(スピードアップグレード無し)
+modularrouters.gui.config.blockBreakXPDrops,Breaker XP drops?,破壊モジュールは経験値を落とす？
+modularrouters.gui.config.breakerParticles,Show particle effects when a Breaker Module breaks a block,ブレーカーモジュールがブロックを破壊する際にパーティクル効果を表示
+modularrouters.gui.config.ecoTimeout,"If a router in eco-mode is idle for this many server ticks, it will go into low-power mode",エコモードのルーターがこの数のサーバーティックでアイドル状態になると、低電力モードに移行します
+modularrouters.gui.config.extruder1BaseRange,Base Range for Extruder Mk1 (no Range Upgrades),押し出しモジュールMk1の基本範囲(範囲アップグレードなし)
+modularrouters.gui.config.extruder1MaxRange,Hard Max Range for Extruder Mk1 (with Range Upgrades),押し出しモジュールMk1の最大有効範囲(範囲アップグレードあり)
+modularrouters.gui.config.extruder2BaseRange,Base Range for Extruder Module Mk2 (no Range Upgrades),エクストルーダーモジュールMk2の基本範囲(範囲アップグレード無し)
+modularrouters.gui.config.extruder2MaxRange,Hard Maximum Range for Extruder Module Mk2 (with Range Upgrades),エクストルーダーモジュール Mk2 のハード最大レンジ（範囲アップグレード付き）
+modularrouters.gui.config.extruderPushEntities,The Extruder Mk1/2 modules can push entities along when extending,Extruder Mk1/2モジュールは伸長時にエンティティを押し出すことができます
+modularrouters.gui.config.extruderSound,Play sounds when an Extruder Module extends or withdraws,押し出しモジュールが伸びたり縮んだりするときに音を鳴らす
+modularrouters.gui.config.fePerEnergyUpgrade,Energy Upgrade storage increase,エネルギーアップグレードのストレージ増加
+modularrouters.gui.config.feXferPerEnergyUpgrade,Energy Upgrade transfer rate increase,エネルギーアップグレードの転送率増加
+modularrouters.gui.config.flingerEffects,Play sound and smoke effect when a Flinger Module flings an item,Flinger Module がアイテムを投げるときに音と煙のエフェクトを再生します
+modularrouters.gui.config.fluid2BaseRange,Base Range for Fluid Mk2 (no upgrades),流体モジュールMk2の基本範囲(アップグレードなし)
+modularrouters.gui.config.fluid2MaxRange,Hard Max Range for Fluid Mk2 (with upgrades),流体モジュールMk2の最大有効範囲(範囲アップグレードあり)
+modularrouters.gui.config.fluidBaseTransferRate,Fluid Module transfer rate mB/tick (no upgrades),流体モジュール転送速度 mB/ティック(アップグレードなし)
+modularrouters.gui.config.hardMinTicks,Hard minimum (fastest) router tick rate,ハード最小値（最速）ルーターのティック速度
+modularrouters.gui.config.heldRouterShowsCamoRouters,Highlight Camouflaged Routers?,偽装されたルーターをハイライトする？
+modularrouters.gui.config.lowPowerTickRate,An eco-mode router in low-power mode will only tick every this many server ticks,エコモードルーターが低電力モードの場合、サーバートックのこの数だけで1回しかティックしません
+modularrouters.gui.config.mBperFluidUpgrade,Fluid Upgrade increase in mB/tick,流体アップグレードによる増加量(mB/ティック)
+modularrouters.gui.config.mainTitle,Modular Routers Configuration,モジュラールーター設定
+modularrouters.gui.config.moduleBindVolume,Module bind sound volume,モジュールの音量割り当て
+modularrouters.gui.config.moduleGuiBackgroundTint,Tint module GUI backgrounds with the same color as the module item,モジュールGUIの背景をモジュールアイテムと同じ色で着色
+modularrouters.gui.config.placerParticles,Show particle effects when a Placer Module places a block,配置モジュールがブロックを置くときにパーティクル効果を表示する
+modularrouters.gui.config.puller2BaseRange,Base Range for Puller Module Mk2 (no Range Upgrades),プルモジュール Mk2 の基本範囲 (範囲アップグレードなし)
+modularrouters.gui.config.puller2MaxRange,Hard Maximum Range for Puller Module Mk2 (with Range Upgrades),プルモジュールMk2の最大範囲(範囲アップグレード有り)
+modularrouters.gui.config.pullerParticles,Show particle effects when a Puller Module pulls an item,プルモジュールがアイテムをプルする際にパーティクル効果を表示
+modularrouters.gui.config.renderFlyingItems,Render items in transit?,転送中のアイテムを描画する？
+modularrouters.gui.config.sender1BaseRange,Base Range for Sender Module Mk1 (no Range Upgrades),センダーモジュールMk1の基本範囲(範囲アップグレード無し)
+modularrouters.gui.config.sender1MaxRange,Hard Maximum Range for Sender Module Mk1 (with Range Upgrades),センダーモジュールMk1の最大範囲(範囲アップグレード有り)
+modularrouters.gui.config.sender2BaseRange,Base Range for Sender Module Mk2 (no Range Upgrades),センダーモジュールMk2の基本範囲(範囲アップグレード無し)
+modularrouters.gui.config.sender2MaxRange,Hard Maximum Range for Sender Module Mk2 (with Range Upgrades),センダーモジュールMk2の最大範囲(範囲アップグレード有り)
+modularrouters.gui.config.senderParticles,Show particle effects when a Sender Module sends an item,センダーモジュールがアイテムを送信する際にパーティクル効果を表示
+modularrouters.gui.config.startWithGuide,New players start with a copy of the guide book,新規プレイヤーはガイドブックのコピーを持った状態で開始
+modularrouters.gui.config.ticksPerUpgrade,Tick rate reduction (speedup) per Speed Upgrade,Speed Upgradeごとのティックレート減少（高速化）
+modularrouters.gui.config.vacuumBaseRange,Base Range for Vacuum Module (no Range Upgrades),吸引モジュールの基本範囲(範囲アップグレードなし)
+modularrouters.gui.config.vacuumMaxRange,Hard Maximum Range for Vacuum Module (with Range Upgrades),バキュームモジュールの最大範囲(範囲アップグレード有り)
+modularrouters.gui.config.vacuumParticles,Show particle effects when a Vacuum Module absorbs an item,バキュームモジュールがアイテムを吸収する際にパーティクル効果を表示
+modularrouters.guiText.label.breakMatchType.block,Match by Block,ブロックによる一致
+modularrouters.guiText.label.breakMatchType.item,Match by Dropped Item(s),ドロップしたアイテムによる一致
+modularrouters.guiText.label.buffer,Buffer,バッファ
+modularrouters.guiText.label.direction,§eDirection,方向
+modularrouters.guiText.label.filters,Filters,フィルター
+modularrouters.guiText.label.fluidForceEmpty,Force,強制
+modularrouters.guiText.label.inspectionOp.EQ,=,=
+modularrouters.guiText.label.inspectionOp.GE,>=,>=
+modularrouters.guiText.label.inspectionOp.GT,>,>
+modularrouters.guiText.label.inspectionOp.LE,<=,<=
+modularrouters.guiText.label.inspectionOp.LT,<,<
+modularrouters.guiText.label.inspectionOp.NE,!=,!=
+modularrouters.guiText.label.inspectionSubject.durability,Durability,耐久値
+modularrouters.guiText.label.inspectionSubject.enchant,Enchantment,エンチャント
+modularrouters.guiText.label.inspectionSubject.energy,Energy Level,エネルギーレベル
+modularrouters.guiText.label.inspectionSubject.fluid,Fluid Level,流体レベル
+modularrouters.guiText.label.inspectionSubject.food,Food Value,食品価値
+modularrouters.guiText.label.installed,(installed),(インストール済)
+modularrouters.guiText.label.matchAll.false,Match Any,どれかに一致
+modularrouters.guiText.label.matchAll.true,Match All,すべてマッチ
+modularrouters.guiText.label.modules,Modules,モジュール
+modularrouters.guiText.label.noTags,No Item Tags,アイテムタグなし
+modularrouters.guiText.label.playerSect.armor,Armor Slots,防具スロット
+modularrouters.guiText.label.playerSect.ender,Ender Inventory,エンダーインベントリ
+modularrouters.guiText.label.playerSect.main,Main Inventory,メインインベントリ
+modularrouters.guiText.label.playerSect.main_no_hotbar,Main Inventory (no Hotbar),メインインベントリ(ホットバーなし)
+modularrouters.guiText.label.playerSect.offhand,Offhand Slot,オフハンドスロット
+modularrouters.guiText.label.regexError,Invalid regular expression,無効な正規表現
+modularrouters.guiText.label.selectTag,Select an Item Tag,アイテムタグを選択
+modularrouters.guiText.label.upgrades,Upgrades,アップグレード
+modularrouters.guiText.label.xpVacuum,XP Type,経験値タイプ
+modularrouters.guiText.label.xpVacuum.eject,Eject,排出
+modularrouters.guiText.popup.activator.action,"§a§nAction ${br} ${br}§rThe activator module can simulate: ${br}- Right-clicking a block with the item in the router's buffer (e.g. using a hoe, flipping a lever); ${br}- Right-clicking a nearby entity (e.g. milking a cow with a bucket in the router's buffer).","§nアクション
+
+§rアクティベーターモジュールは以下をシミュレートできます：
+- ルーターのバッファにあるアイテムでブロックを右クリック(例：くわで耕す、レバーを切り替える)；
+- 近くのエンティティを右クリック(例：バッファのバケツでウシを搾乳)"
+modularrouters.guiText.popup.activator.entity,§a§nEntity Mode ${br} ${br}§rDefine which nearby (within 3 blocks) entity to target each time the module runs: ${br}- The closest entity; ${br}- An entity picked at random; ${br}- Round-robin through all in-range entities.,"§nエンティティモード
+
+§r毎回モジュールが実行される時に対象とする、近くの(3ブロック以内)エンティティを定義します：
+- 最も近いエンティティ；
+- ランダムに選ばれたエンティティ；
+- 範囲内の全エンティティを順番に対象にする。"
+modularrouters.guiText.popup.activator.look,"§a§nLook Direction ${br} ${br}§rWhen right-clicking, the router can: ${br}- Face level, targeting a block directly in the module's direction, up to 4 blocks away; ${br}- Look upward, targeting the block directly above the block in the module's direction; ${br}- Look downward, targeting the block directly below the block in the module's direction.","§n見つめる方向
+
+§r右クリック時、ルーターは以下のことが可能です：
+- レベルの方向を向く。モジュールの方向から直線上に、最大4ブロック離れたブロックを対象にする；
+- 上向き。モジュールの方向から離れたブロックの直上のブロックを対象にする；
+- 下向き。モジュールの方向から離れたブロックの直下のブロックを対象にする。"
+modularrouters.guiText.popup.activator.sneak,§a§nSneak ${br} ${br}§rToggle whether the router should simulate sneaking while doing its right-click operation.,"§nスニーク
+
+§rルーターが右クリック操作を実行する際に、スニークをシミュレートするかどうかを切り替えます。"
+modularrouters.guiText.popup.augments,"§a§nAugments ${br} ${br}§rThese four slots can take Module Augments, craftable items which can be inserted into a module to modify or enhance its functionality in some way. ${br} ${br}See the item tooltips on augment items for more information on what each augment does. ${br} ${br}Note that augments can only be inserted/removed when you are holding a single module item, to avoid augments being duplicated.","§nオーグメント
+
+§rこれら4つのスロットはモジュールオーグメント(モジュールに挿入してその機能を何らかの方法で変更または強化できるクラフト可能なアイテム)を取ることができます。
+
+各オーグメントの機能の詳細についてはオーグメントアイテムのツールチップを参照してください。
+
+オーグメントの重複を避けるため、オーグメントの挿入/削除は単一のモジュールアイテムを保持しているときのみ可能です。"
+modularrouters.guiText.popup.breaker.matchType,"§a§nMatch Type ${br} ${br}§r- Match by Dropped Item(s): when breaking a block, the filter matches on the item(s) that would be dropped (note that Silk Touch will affect drops)${br}- Match by Block: the filter matches on the block itself, e.g. Stone in the filter would match Stone blocks, even without Silk Touch (although the drop is still Cobblestone)","§nマッチタイプ
+
+§r- ドロップアイテム照合：ブロックを破壊する際、フィルターはドロップされるアイテムと照合されます(シルクタッチはドロップに影響します)；
+- ブロック照合：フィルターがブロック自体と照合されます。例えば、フィルターの石は石ブロックと一致します(シルクタッチがなくてもドロップは丸石です)。"
+modularrouters.guiText.popup.detector.signalLevel,"§a§nRedstone Signal Level ${br} ${br}§rHere can you define the redstone signal level, an integer quantity between 0 and 15 inclusive.  A signal of this strength will be emitted in the module's direction when the filter matches the buffer item.","§nレッドストーン信号レベル
+
+§rここではレッドストーン信号レベル(0～15を含む整数)を定義できます。フィルターがバッファアイテムと一致する場合、この強度の信号がモジュールの方向に出力されます。"
+modularrouters.guiText.popup.detector.weakStrong,§a§nRedstone Signal Strength ${br} ${br}§r- A §oweak§r redstone signal will power the adjacent block only; ${br}- A §ostrong§r redstone signal will power the adjacent block and blocks adjacent to that block (like a vanilla Repeater).,"§nレッドストーン信号強度
+
+§r- §o弱い§rレッドストーン信号は隣接するブロックのみに電力を供給します；
+- §o強い§rレッドストーン信号は隣接するブロックとそのブロックに隣接するブロックに電力を供給します(バニラのリピーター)。"
+modularrouters.guiText.popup.direction,"§a§nDirection Control ${br} ${br}§rThis area of the GUI allows you to define the direction the module operates in. This direction is relative to the front of the router. The default direction is NONE, which for most modules means the module will not run; you will need to define a direction.","§n方向制御
+
+§rこのGUI領域では、モジュールが動作する方向を定義できます。この方向はルーターの前面に対して相対的です。デフォルトの方向はNONEです。ほとんどのモジュールではモジュールが実行されないことを意味します。方向を定義する必要があります。"
+modularrouters.guiText.popup.distributor.direction,"§a§nTransfer Direction ${br} ${br}§rHere you can control whether the router sends items out, or pulls items in to itself.","§n転送方向
+
+§rここで、ルーターがアイテムを出すか、自分自身にアイテムを引き込むかを制御できます。"
+modularrouters.guiText.popup.distributor.strategy,§a§nDistribution Strategy ${br} ${br}§rThis defines the order in which inventories will be attempted. Four possible strategies exist: ${br} ${br}§eRound Robin§r - Each targeted inventory will be attempted in turn. ${br} ${br}§eRandom§r - A random inventory is attempted on each tick. ${br} ${br}§eNearest First§r - The closest inventory with space to insert will be used. ${br} ${br}§eFurthest First§r - The most distant inventory with space to insert will be used.,"§n分配戦略
+
+§rこれはインベントリを試行する順序を定義します。4つの可能な戦略があります：
+
+§eラウンドロビン§r - 各ターゲットインベントリが順番に試行されます。
+
+§eランダム§r - ランダムなインベントリが各ティックで試行されます。
+
+§e最も近い優先§r - スペースがある最も近いインベントリが使用されます。
+
+§e最も遠い優先§r - スペースがある最も遠いインベントリが使用されます。"
+modularrouters.guiText.popup.extruder2.template,"§a§nTemplate ${br} ${br}§rHere you can define a template of blocks to extrude; note that real blocks are not placed, but rather special uncraftable & unlootable template blocks. ${br} ${br}Put ghost copies of blocks in the template to define what is extruded; blocks will be extruded from left to right and top to bottom in order. You can extrude more than one of each block if you want (left- or right-click blocks in the template to adjust). ${br} ${br}Note you can also place non-block items (e.g. a stick) in the template; while they obviously can't be placed, they are used as spacers to ""place"" one or more air blocks in the pattern.","§nテンプレート
+
+§rここで押し出すブロックのテンプレートを定義できます。実際のブロックではなく、特別なクラフト不可・ルートドロップ不可のテンプレートブロックが配置されることに注意してください。
+
+テンプレートに押し出されるブロックのゴーストコピーを配置します。ブロックは左から右へ、上から下へ順に押し出されます。必要に応じて各ブロックの複数を押し出すことができます(テンプレート内のブロックを左または右クリックして調整)。
+
+非ブロックアイテム(例：棒)もテンプレートに配置できることに注意してください。明らかに配置することはできませんが、パターンに1つ以上のエアブロックを「配置」するためのスペーサーとして使用されます。"
+modularrouters.guiText.popup.filter,"§a§nFilter ${br} ${br}§rPlace ghost copies of items here to filter what this module works on.  If the item in the router's buffer doesn't match the filter item(s) here, then the module will not run.  See also the filter control buttons below.","§nフィルター
+
+§rこのモジュールが動作するものをフィルターするために、ここにアイテムのゴーストコピーを配置します。ルーターのバッファ内のアイテムがここのフィルターアイテムと一致しない場合、モジュールは実行されません。以下のフィルター制御ボタンも参照してください。"
+modularrouters.guiText.popup.filterControl,§a§nFilter Control ${br} ${br}§rThese buttons control how the filter is applied to the item in the router's buffer. See individual tooltips on each button for more information.,"§nフィルター制御
+
+§rこれらのボタンはフィルターがルーターのバッファ内のアイテムにどのように適用されるかを制御します。詳細については各ボタンのツールチップを個別に参照してください。"
+modularrouters.guiText.popup.flinger.pitch,"§a§nFlinger Pitch ${br} ${br}§rThis is the vertical offset in degrees: ${br} ${br}- When the module faces horizontally, it's the offset up or down from that horizontal (X or Z) axis ${br}- When the module faces up or down, it's the offset from the vertical (Y) axis.","§nフリンガーピッチ
+
+§rこれは度数での垂直オフセットです：
+
+- モジュールが水平に向いている場合、それはその水平(XまたはZ)軸からのオフセットです
+- モジュールが上下を向いている場合、それは垂直(Y)軸からのオフセットです。"
+modularrouters.guiText.popup.flinger.speed,"§a§nFlinger Speed ${br} ${br}§rThis is the speed which is imparted to the item when thrown from the router. ${br} ${br}As a rough guide, a speed of 1.0 and a pitch of 30 (and a horizontal module facing) will fling an item about 20 blocks in that direction.","§nフリンガー速度
+
+§rこれはルーターから投げられるときにアイテムに与えられる速度です。
+
+大まかなガイドとして、速度1.0、ピッチ30(および水平モジュール向き)は、その方向に約20ブロック離れたアイテムを投げます。"
+modularrouters.guiText.popup.flinger.yaw,"§a§nFlinger Yaw ${br} ${br}§rThis is the horizontal offset in degrees: ${br} ${br}- When the module faces horizontally, it's the offset left or right from that horizontal (X or Z) axis ${br}- When the module faces up or down, it's the offset from the vertical (Y) axis.  This is only useful if you also have a non-zero pitch.","§nフリンガーヨー
+
+§rこれは度数での水平オフセットです：
+
+- モジュールが水平に向いている場合、それはその水平(XまたはZ)軸から左または右のオフセットです
+- モジュールが上下を向いている場合、それは垂直(Y)軸からのオフセットです。これはゼロ以外のピッチがある場合にのみ役立ちます。"
+modularrouters.guiText.popup.fluid.direction,"§a§nTransfer Direction ${br} ${br}§rHere you can control whether the router pushes fluid out to the world or tank, or pulls fluid from the world or tank.","§n転送方向
+
+§rここで、ルーターが流体を世界またはタンクに押し出すか、世界またはタンクから流体を引き込むかを制御できます。"
+modularrouters.guiText.popup.fluid.forceEmpty,"§a§nXP Force Empty ${br} ${br}§rWhen you empty a bucket of any fluid into a pool of that fluid in Minecraft, the fluid in the bucket is lost & gone forever. This is not necessarily desirable. ${br} ${br}The Fluid Module, by default, will not attempt to pour out any fluid into the world, unless the target block is completely empty, i.e. air.  You can override this behaviour by toggling the ""Force"" button; when enabled, the Fluid Module will not hesitate to pour fluid into an existing pool - just be aware that you may lose fluids by doing this...","§n経験値強制排出
+
+§rMinecraftで流体のバケツを同じ流体のプールに流すと、バケット内の流体は失われ永遠に消えます。これは必ずしも望ましいものではありません。
+
+流体モジュールは、デフォルトでは、ターゲットブロックが完全に空(つまり空気)でない限り、世界に流体を流し出そうとしません。「強制」ボタンをトグルすることでこの動作をオーバーライドできます。有効にすると、流体モジュールは既存のプールに流体を注ぐことをためらいません。ただし、このようにしている場合は流体を失う可能性があることに注意してください...。"
+modularrouters.guiText.popup.fluid.maxTransfer,"§a§nMax Transfer ${br} ${br}§rThis is the maximum amount of fluid that the router will attempt to transfer in one operation. ${br} ${br}Note that the transfer rate is still limited by the number of Fluid Transfer Upgrades in the router, as well as the transfer rate of the external tank (if there is one). So this number should be considered a limit rather than a target.","§n最大転送量
+
+§rこれはルーターが1回の操作で転送しようとする最大流体量です。
+
+転送レートはまだルーター内の流体転送アップグレード数および外部タンク(存在する場合)の転送レートによって制限されていることに注意してください。したがって、この数字は目標というより制限と見なされるべきです。"
+modularrouters.guiText.popup.noDirection,"§a§nDirection Control ${br} ${br}§rThis area of the GUI allows you to define the direction the module operates in. This direction is relative to the router's facing. ${br} ${br}This module does not have the concept of a direction, so this area is empty.","§n方向制御
+
+§rこのGUI領域では、モジュールが動作する方向を定義できます。この方向はルーターの向きに対して相対的です。
+
+このモジュールは方向の概念を持たないため、このエリアは空白です。"
+modularrouters.guiText.popup.player.control,"§a§nPlayer Module ${br} ${br}§rHere you can define: ${br}- Whether the router transfers items from the player to the router, or from the router to the player; ${br}- Which section of the player inventory should be interacted with.","§nプレイヤーモジュール
+
+§rここで以下を定義できます：
+- ルーターがプレイヤーからルーターへアイテムを転送するか、ルーターからプレイヤーへ転送するか；
+- プレイヤーインベントリのどのセクションと相互作用すべきか。"
+modularrouters.guiText.popup.xpVacuum,"§a§nXP Collection Type ${br} ${br}§rHere you can define how XP orbs are collected. The options available depend on what other mods are installed and what experience fluids are available; however vanilla Bottles o' Enchanting are always available. ${br} ${br}If collecting experience in fluid form, you must either insert a tank into the router's buffer capable of storing fluid by the mB (i.e. not a vanilla bucket), or place a tank adjacent to the router and check the Eject button below.","§n経験値収集タイプ
+
+§rここで経験値オーブがどのように収集されるかを定義できます。利用可能なオプションは、インストールされている他のModと利用可能な経験値流体によって異なります。ただし、バニラの醸造台はいつも利用可能です。
+
+流体形式で経験値を収集する場合は、mBで流体を保存できるルーターのバッファに挿入可能なタンク(バニラバケットではない)を持つか、ルーターに隣接するタンクを配置して以下の取り出しボタンをチェックする必要があります。"
+modularrouters.guiText.popup.xpVacuum.eject,"§a§nXP Fluid Ejection ${br} ${br}§rIf checked, the router will attempt to eject any XP fluid into a suitable adjacent tank (sides checked in order: D, U, N, S, W, E). Note that only XP fluids are considered for ejection, not solid XP items. ${br} ${br}This may be useful if you don't have a mod that provides a tank which can be filled as an item in the router's buffer.","§n経験値流体排出
+
+§rチェックされている場合、ルーターは隣接する適切なタンク(チェックされた順序：D、U、N、S、W、E)に任意の経験値流体を排出しようとします。経験値流体のみが排出の対象と見なされ、固体経験値アイテムではないことに注意してください。
+
+これはルーターのバッファのアイテムとして埋められる可能性があるタンクを提供するModがない場合に役立つ可能性があります。"
+modularrouters.guiText.tooltip.activator.action,Action,アクション
+modularrouters.guiText.tooltip.activator.entityMode,Entity,エンティティ
+modularrouters.guiText.tooltip.activator.lookDirection,Look,確認
+modularrouters.guiText.tooltip.activator.sneak,Sneak,スニーク
+modularrouters.guiText.tooltip.allDirections,All,すべて
+modularrouters.guiText.tooltip.clearFilter,Clear Filter,フィルターをクリア
+modularrouters.guiText.tooltip.detectorTooltip,§bRedstone Signal Level,§bレッドストーン信号レベル
+modularrouters.guiText.tooltip.distributor.strategy,§eDistribution Strategy,分配戦略
+modularrouters.guiText.tooltip.eco.false,Eco Mode §edisabled ${br}§7Router will always run at normal speed.,"エコモード §e無効
+§7ルーターは常に通常の速度で実行されます。"
+modularrouters.guiText.tooltip.eco.true,"Eco Mode §aenabled ${br}§7If router is idle for >%f seconds, it will enter low-power mode and only run every %f seconds.  It will leave low-power mode upon processing any item and return to running at normal speed.","エコモード 有効
+§7ルーターが%f秒以上アイドル状態の場合、低電力モードに入り、%f秒ごとにのみ実行されます。任意のアイテムを処理すると低電力モードを抜け、通常の速度で実行に戻ります。"
+modularrouters.guiText.tooltip.energy.from_router,Transfer energy from router's buffer to item,ルーターのバッファからアイテムへエネルギーを転送
+modularrouters.guiText.tooltip.energy.none,No energy transfer,転送するエネルギーなし
+modularrouters.guiText.tooltip.energy.rate,Max Transfer Rate: %s FE/t,最大転送レート: %s FE/t
+modularrouters.guiText.tooltip.energy.to_router,Transfer energy from item to router's buffer,アイテムからルーターのバッファにエネルギーを転送
+modularrouters.guiText.tooltip.extruder2.template,§bTemplate${br}Place copies of block items here to be used as the extruder template. You can also use non-block items to represent an Air block${br}• §eLeft-Click:§7 reduce stack size${br}• §eRight-Click:§7 increase stack size${br}• §eShift + Left-Click:§7 clear stack,"§bテンプレート
+押し出し機テンプレートとして使用するブロックアイテムのコピーをここに配置します。また、非ブロックアイテムを使用してエアブロックを表すことができます
+• §e左クリック：§7スタックサイズを減らす
+• §e右クリック：§7スタックサイズを増やす
+• §eシフト + 左クリック：§7スタックをクリア"
+modularrouters.guiText.tooltip.flinger.pitch,§bPitch (%f → %f),ピッチ(%f → %f)
+modularrouters.guiText.tooltip.flinger.speed,§bSpeed (%f → %f),速度(%f → %f)
+modularrouters.guiText.tooltip.flinger.yaw,§bYaw (%f → %f),§bヨー角 (%f → %f)
+modularrouters.guiText.tooltip.fluidForceEmpty.false,"§bForce Emptying Disabled ${br}When pouring into the world: if the target block is not completely empty, no fluid will be poured out.","§b強制排出無効
+世界に注ぎ込む時：ターゲットブロックが完全に空でない場合、流体は注ぎ出されません。"
+modularrouters.guiText.tooltip.fluidForceEmpty.true,"§bForce Emptying Enabled ${br}When pouring into the world: fluid will always be poured out of the router if possible. Warning: this can cause fluid to be lost, e.g. emptying lava into an existing lava block. Use with care.","§b強制排出有効
+世界に注ぎ込む時：可能であればルーターから常に流体が注ぎ出されます。警告：これにより流体が失われる可能性があります。例えば、溶岩を既存の溶岩ブロックに注ぎ込む場合などです。注意して使用してください。"
+modularrouters.guiText.tooltip.fluidRegulatorTooltip,§bFluid Regulation Enabled${br}When transferring from router: only insert when destination tank(s) are less than this full.${br}When transferring to router: only extract if source tank(s) are more than this full.,"§b流体規制有効化
+ルーターから転送時：目的地タンクがこの満杯量未満の場合のみ挿入します。
+ルーターへ転送時：ソースタンクがこの満杯量を超える場合のみ抽出します。"
+modularrouters.guiText.tooltip.fluidTransferTooltip,§bMax Fluid Transfer${br}Maximum (in mB) that will be attempted in one operation.${br}This is still limited by the router's overall transfer rate (Fluid and Speed Upgrades),"§b最大流体転送量
+1回の操作で試行される最大値(mB)です。
+これはまだルーターの全体的な転送レート(流体とスピードアップグレード)によって制限されています"
+modularrouters.guiText.tooltip.loadFilter,Load Filter${br} from §e%s§r @ %s${br}§oExisting filter contents will be overwritten!,"フィルターを読み込み
+§o既存のフィルター内容は上書きされます！"
+modularrouters.guiText.tooltip.match_all.false,"Match Any
+Any item in the filter may match for the filter to match.
+Use this under most circumstances.","どれかに一致
+フィルターが一致するにはフィルター内の任意のアイテムが一致する必要があります。
+ほとんどの状況でこれを使用します。"
+modularrouters.guiText.tooltip.match_all.true,"Match All
+ALL items in the filter must match for the filter to match.
+Used in specific circumstances, e.g. if you want to test for enchanted leather armor.","全てに一致
+フィルターが一致するにはフィルター内の全てのアイテムが一致する必要があります。
+特定の状況で使用されます。たとえばエンチャントされた革の鎧をテストする場合などです。"
+modularrouters.guiText.tooltip.match_components.false,"Ignore Item Components
+Ignore item component data on an item when matching","アイテムコンポーネントを無視
+一致する時にアイテムのアイテムコンポーネントデータを無視する"
+modularrouters.guiText.tooltip.match_components.true,"Match Item Components
+Take item component data, e.g. enchantments, into account when matching","アイテムコンポーネントの一致
+一致する時にアイテムのコンポーネントデータ(エンチャントなど)を考慮する"
+modularrouters.guiText.tooltip.match_damage.false,"Ignore Item Damage
+Treat damageable items of the same type but different damage levels as the same","アイテムのダメージを無視
+同じ種類だがダメージレベルが異なるダメージ可能なアイテムを同じものとして扱う"
+modularrouters.guiText.tooltip.match_damage.true,"Match Item Damage
+Distinguish between damageable items of the same type with different damage levels","アイテムダメージの一致
+同じ種類の異なるダメージレベルのダメージを受けるアイテムを区別する"
+modularrouters.guiText.tooltip.match_item_tag.false,Tag Matching Disabled,タグマッチングが無効
+modularrouters.guiText.tooltip.match_item_tag.true,"Tag Matching Enabled
+Items which share a common item tag with any item in the filter will match
+Use a Tag Filter for more precise item tag matching","タグマッチングが有効
+フィルター内のアイテムと共通のアイテムタグを共有するアイテムは一致します
+より正確なアイテムタグの一致にはタグフィルターを使用します"
+modularrouters.guiText.tooltip.maxFluidPerOp,§fTransfer Rate: %d mB every %d ticks (%d mB / tick),転送レート：%d mBを%dティックごと(%d mB / ティック)
+modularrouters.guiText.tooltip.mergeFilter,Merge Filter${br} from §e%s§r @ %s,"フィルターをマージ
+%s @ %sから"
+modularrouters.guiText.tooltip.mouseOverHelp.false,Click to activate mouse-over help,クリックしてマウスオーバーヘルプを有効化
+modularrouters.guiText.tooltip.mouseOverHelp.true,Mouse-over help active ${br}§7Click to deactivate,"マウスオーバーヘルプ有効
+§7クリックして無効化"
+modularrouters.guiText.tooltip.redstone.always,Always,常に
+modularrouters.guiText.tooltip.redstone.high,High,高
+modularrouters.guiText.tooltip.redstone.label,Redstone Mode,レッドストーンモード
+modularrouters.guiText.tooltip.redstone.low,Low,低
+modularrouters.guiText.tooltip.redstone.never,Never,決して
+modularrouters.guiText.tooltip.redstone.pulse,Pulsed,パルス
+modularrouters.guiText.tooltip.regulator.label,%d Item(s),%d アイテム
+modularrouters.guiText.tooltip.regulator.labelFluidPct,%d%%,%d%%
+modularrouters.guiText.tooltip.regulator.labelFluidmB,%d mB,%d mB
+modularrouters.guiText.tooltip.regulatorTooltip,§bItem Regulation Enabled${br}When inserting: only insert when inventory has fewer than this many of the item.${br}When extracting: only extract if inventory has more than this many of the item.,"§rアイテム規制有効化
+挿入時：インベントリがこの数より少ないアイテムを持つ場合のみ挿入します。
+抽出時：インベントリがこの数より多くのアイテムを持つ場合のみ抽出します。"
+modularrouters.guiText.tooltip.relative_dir.back,Back,戻る
+modularrouters.guiText.tooltip.relative_dir.down,Down,下
+modularrouters.guiText.tooltip.relative_dir.front,Front,前
+modularrouters.guiText.tooltip.relative_dir.left,Left,左
+modularrouters.guiText.tooltip.relative_dir.none,None,なし
+modularrouters.guiText.tooltip.relative_dir.right,Right,右
+modularrouters.guiText.tooltip.relative_dir.up,Up,上
+modularrouters.guiText.tooltip.terminate.none,"Always continue executing subsequent modules on this tick, regardless of whether this module did anything.",このティックで、このモジュールが何をしたかに関わらず常に後続モジュールを実行し続けます。
+modularrouters.guiText.tooltip.terminate.none.header,Always Continue,常に継続
+modularrouters.guiText.tooltip.terminate.not_ran,Don't execute any subsequent modules on this tick if this module did NOT do anything.,このモジュールがマッチしなかった場合、このティックで後続モジュールを実行しません。
+modularrouters.guiText.tooltip.terminate.not_ran.header,Terminate on no Match,マッチなしで終了
+modularrouters.guiText.tooltip.terminate.ran,Don't execute any subsequent modules on this tick if this module did something.,このモジュールがマッチした場合、このティックで後続モジュールを実行しません。
+modularrouters.guiText.tooltip.terminate.ran.header,Terminate on Match,マッチで終了
+modularrouters.guiText.tooltip.tunedValue,§bTuned Value (%d → %d),§b調整値 (%d → %d)
+modularrouters.guiText.tooltip.whitelist.false,"Blacklist
+The module will not run if the filter matches.
+An empty blacklist will always allow the module to run.","ブラックリスト
+フィルターが一致する場合、モジュールは実行されません。
+ブラックリストが空の場合、モジュールの実行は常に許可されます。"
+modularrouters.guiText.tooltip.whitelist.true,"Whitelist
+The module will run only if the filter matches.
+An empty whitelist will never allow the module to run.","ホワイトリスト
+モジュールはフィルターが一致する場合にのみ実行されます。
+ホワイトリストが空の場合、モジュールは実行されません。"
+modularrouters.guiText.tooltip.xpVacuum.ejectFluid,XP Fluids Ejected,経験値流体排出
+modularrouters.itemText.activator.action.attack_entity,Attack nearby entity,近くのエンティティを攻撃
+modularrouters.itemText.activator.action.item_or_block,Right-click,右クリック
+modularrouters.itemText.activator.action.use_item_on_entity,Right-click entity,エンティティに右クリック
+modularrouters.itemText.activator.direction.above,Look Above,上を見る
+modularrouters.itemText.activator.direction.below,Look Below,下を見る
+modularrouters.itemText.activator.direction.level,Look Level,平面を見る
+modularrouters.itemText.activator.entityMode.nearest,Nearest in-range entity,範囲内のエンティティ(最も近い)
+modularrouters.itemText.activator.entityMode.random,Random in-range entity,範囲内のエンティティ(ランダム)
+modularrouters.itemText.activator.entityMode.round_robin,Round Robin in-range entities,ラウンドロビンエンティティ
+modularrouters.itemText.augments,§eAugments:,オーグメント：
+modularrouters.itemText.augments.pickupDelay,%d ticks (%f sec),%dティック(%f秒)
+modularrouters.itemText.augments.stackInfo,%d items/router tick,%dアイテム/ルーターティック
+modularrouters.itemText.camouflage.held,Camouflage as: ,偽装:
+modularrouters.itemText.distributor.strategy.furthest_first,Furthest First,最も遠い
+modularrouters.itemText.distributor.strategy.nearest_first,Nearest First,最も近い
+modularrouters.itemText.distributor.strategy.random,Random,ランダム
+modularrouters.itemText.distributor.strategy.round_robin,Round Robin,ラウンドロビン
+modularrouters.itemText.extruder.mode.always,Extend: §bWith redstone signal > 0,拡張: §bレッドストーン信号 > 0
+modularrouters.itemText.extruder.mode.high,Extend: §bWith redstone signal = 15,拡張: §bレッドストーン信号 = 15
+modularrouters.itemText.extruder.mode.low,Extend: §bWith redstone signal = 0,拡張: §bレッドストーン信号 = 0
+modularrouters.itemText.extruder.mode.never,Extend: §bNever,拡張: §b無し
+modularrouters.itemText.extruder.mode.pulse,Extend: §bNever,拡張: §b無し
+modularrouters.itemText.extruder2.template,§eTemplate Blocks:,テンプレートブロック：
+modularrouters.itemText.fluid.maxTransfer,§eFluid Rate:§b Up to %d mB / operation,§e液体流量:§b 最大 %d mB / 操作
+modularrouters.itemText.misc.TERMINATE,Termination,終了
+modularrouters.itemText.misc.blacklist,§eBlacklist,ブラックリスト
+modularrouters.itemText.misc.breakerPick,§ePickaxe: ,ツルハシ：
+modularrouters.itemText.misc.bulkItemFilter.count,• %d item(s) in filter,• フィルター内に%dアイテム
+modularrouters.itemText.misc.configureHint,§7§o▶ Press §3§o[%s]§7§o or §3§o[Middle-Click]§7§o to configure,▶ [%s]または[%s]を押して設定
+modularrouters.itemText.misc.ecoMode,§2Eco Mode,エコモード
+modularrouters.itemText.misc.energyUsage,§eEnergy Usage: §b%d FE / operation,エネルギー使用量：%d FE / 操作
+modularrouters.itemText.misc.energyWarning,§6At least one installed module requires FE energy to run.${br}Router needs more FE energy!,"インストールされている少なくとも1つのモジュールは実行するためにFEエネルギーが必要です。
+ルーターはより多くのFEエネルギーが必要です！"
+modularrouters.itemText.misc.energyWarning.noBuffer,§6At least one installed module requires FE energy to run.${br}Add one or more Energy Upgrades!,"インストールされている少なくとも1つのモジュールは実行するためにFEエネルギーが必要です。
+1つ以上のエネルギーアップグレードを追加してください！"
+modularrouters.itemText.misc.filter.count,• %d member(s) in filter,• フィルター内のメンバー数%d
+modularrouters.itemText.misc.flags,§eFlags,フラグ
+modularrouters.itemText.misc.flingerDetails,§eSpeed: §b%f§f | §ePitch: §b%f§f | §eYaw: §b%f,速度: %s | 上下角: %s | 左右角: %s
+modularrouters.itemText.misc.holdKey,§7§o▶ Hold §3§o[%s]§7§o for more info,▶ [%s]を保持すると詳細情報が表示されます
+modularrouters.itemText.misc.holdShiftKey,"§7§o▶ Hold §3§o[Shift]§7§o for settings, §3§o[%s]§7§o for more info",▶ [%s]を押して設定表示、[%s]で詳細情報表示
+modularrouters.itemText.misc.itemList,§eItem List,アイテムリスト
+modularrouters.itemText.misc.match,§eMatch,マッチ
+modularrouters.itemText.misc.matchAll,All,すべて
+modularrouters.itemText.misc.matchAny,Any,任意
+modularrouters.itemText.misc.match_components,Components,コンポーネント
+modularrouters.itemText.misc.match_damage,Damage,ダメージ
+modularrouters.itemText.misc.match_item_tags,Tags,タグ
+modularrouters.itemText.misc.middle_click,Middle-Click,中クリック
+modularrouters.itemText.misc.moduleCount,Modules: %d,モジュール数: %d
+modularrouters.itemText.misc.noItems,Empty,空
+modularrouters.itemText.misc.operation,Operation,操作
+modularrouters.itemText.misc.rangeInfo,"§eRange: %s%d §3[base %d, max %d]",範囲：%s [基本 %s、最大 %s]
+modularrouters.itemText.misc.redstoneLevel,§eSignal Level: §b%d (%s),§eシグナルレベル: §b%d (%s)
+modularrouters.itemText.misc.routerConfigured,This router has been configured,このルーターは設定されています
+modularrouters.itemText.misc.strongSignal.false,Weak,弱
+modularrouters.itemText.misc.strongSignal.true,Strong,強
+modularrouters.itemText.misc.upgradeCount,▶ %d x %s,▶ %d個 x %s
+modularrouters.itemText.misc.upgrades,Upgrades:,アップグレード:
+modularrouters.itemText.misc.whitelist,§eWhitelist,ホワイトリスト
+modularrouters.itemText.security.count,%d / %d other player(s):,その他プレイヤー数 %d / %d:
+modularrouters.itemText.security.owner,§eOwner: §b%s,§e所有者: §b%s
+modularrouters.itemText.sync.tuning,§eTuned Value: §b%d,チューニング値：%d
+modularrouters.itemText.targetingHint,"• Sneak + Right-Click an inventory to set target,${br}• Sneak + Right-Click any non-inventory block to clear target","• シフト + 右クリックでインベントリをターゲット設定、
+• シフト + 右クリックで非インベントリブロックをクリアしてターゲットをクリア"
+modularrouters.itemText.targetingHintMulti,"• Sneak + Right-Click an unselected inventory to select it,${br}• Sneak + Right-Click a selected inventory to unselect it","• シフト + 右クリックで未選択インベントリを選択、
+• シフト + 右クリックで選択インベントリを選択解除"
+modularrouters.itemText.transfer_direction,Transfer Direction: %s,転送方向: %s
+modularrouters.itemText.transfer_direction.from_router,Transfer out of Router,ルーターから転送
+modularrouters.itemText.transfer_direction.to_router,Transfer into Router,ルーターへ転送
+modularrouters.itemText.usage.item.activator_module,Simulates right-clicking blocks and entities using the item(s) in the router's buffer.${br}Acts as if the router is a fake player.,"ルーターのバッファ内のアイテムを使用して、ブロックとエンティティの右クリックをシミュレートします。
+ルーターが偽プレイヤーとして機能します。"
+modularrouters.itemText.usage.item.blast_upgrade,Makes the router immune to explosion damage and boss destruction.,ルーターが爆発ダメージやボスの破壊を受けなくなります。
+modularrouters.itemText.usage.item.breaker_module,"Breaks a block adjacent to the router in the module's configured direction, pulling it as an item into the router's buffer.",モジュールの設定された方向にあるルーターに隣接するブロックを破壊し、それをアイテムとしてルーターのバッファに取り込みます。
+modularrouters.itemText.usage.item.bulk_item_filter,"High-capacity, high-performance filter for large numbers of items. Place in a router module's filter like any other item.${br}• Sneak + Right-click any inventory: merge contents into filter.${br}• Right-click: view/configure.","多数のアイテムのための高容量、高性能フィルター。他のアイテムと同じようにルーターモジュールのフィルターに配置します。
+• シフト + 右クリックでインベントリをクリック：フィルターにマージします。
+• 右クリック：表示/設定。"
+modularrouters.itemText.usage.item.camouflage_upgrade,Makes the router look like another block.${br}• Sneak + Right-click a solid block to copy its appearance onto the upgrade.,"ルーターを別のブロックのように見せます。
+• シフト + 右クリックして固いブロックをクリック：そのブロックの外観をアップグレードにコピーします。"
+modularrouters.itemText.usage.item.creative_module,Creates items out of thin air and inserts them into the router's buffer.,何もないところからアイテムを作成し、ルーターのバッファに挿入します。
+modularrouters.itemText.usage.item.detector_module,Emits a redstone signal from the router in the module's configured direction IF the item in the router's buffer passes the module's filter.,ルーターのバッファー内のアイテムがモジュールのフィルターに合格した場合、モジュールの設定された方向からレッドストーン信号を放出します。
+modularrouters.itemText.usage.item.distributor_module,"Distributes items from the router's buffer to multiple inventories, with a choice of round-robin, random, nearest-first or furthest-first.",ラウンドロビン、ランダム、最も近い、最も遠い、のどれかを選択して、ルーターのバッファから複数のインベントリにアイテムを分配します。
+modularrouters.itemText.usage.item.dropper_module,Drops items from the router's buffer in the module's configured direction.,モジュールの設定された方向にあるルーターのバッファからアイテムをドロップします。
+modularrouters.itemText.usage.item.energyUpgradeRouter,• This router's energy capacity: %d FE${br}• This router's transfer rate: %d FE/router tick,"• このルーターのエネルギー容量：%d FE
+• このルーターの転送レート：%d FE/ルーターティック"
+modularrouters.itemText.usage.item.energy_distributor_module,Wirelessly distributes FE energy from the router's energy buffer or any energy-containing item in the item buffer to nearby energy-containing blocks,ルーターのエネルギーバッファまたはアイテムバッファ内のエネルギーを含むアイテムから、近くのエネルギーを含むブロックにFEエネルギーをワイヤレスで分配します。
+modularrouters.itemText.usage.item.energy_output_module,Pushes FE energy from the router's energy buffer or any energy-containing item in the item buffer,ルーターのエネルギーバッファまたはアイテムバッファ内のエネルギーを含むアイテムからFEエネルギーをプッシュします。
+modularrouters.itemText.usage.item.energy_upgrade,Increases a router's energy buffer capacity by %d FE and transfer rate by %d FE/router tick,ルーターのエネルギーバッファ容量を%dFE増加し、転送速度を%dFE/ルーターティック増加します。
+modularrouters.itemText.usage.item.extruder_module_1,"Places or removes blocks in a line along the module's direction, depending on the router's redstone signal level.${br}Default is to place with a signal and remove with no signal; add Redstone Augment to the module for custom behaviour.","モジュールの方向に沿ってブロックを配置または削除します。ルーターのレッドストーン信号レベルによって異なります。
+デフォルトは信号で配置し、信号がない場合は削除です。カスタム動作についてはモジュールにレッドストーンオーグメントを追加します。"
+modularrouters.itemText.usage.item.fast_pickup_augment,Allow the Vacuum Module to ignore the normal pickup delays on dropped items.,吸引モジュールがドロップしたアイテムの通常のピックアップ遅延を無視できるようにします。
+modularrouters.itemText.usage.item.filter_round_robin_augment,"Instead of the default any/all behaviour, the module will match against a single item from its filter on each execution tick. The item to be matched is picked in ascending round robin order.${br}Useful to work on a series of items in a specific order.","デフォルトのany/allビヘイビアの代わりに、モジュールは各実行ティックでフィルターから単一のアイテムと照合します。照合されるアイテムは昇順ラウンドロビン順序で選ばれます。
+特定の順序でアイテムシリーズを操作する場合に便利です。"
+modularrouters.itemText.usage.item.flinger_module,"Throws items from the router's buffer over potentially long distances.  Adjust speed, pitch & yaw from the module's GUI.",ルーターのバッファからアイテムを長距離にわたって投げます。モジュールのGUIから速度、上下角、左右角を調整します。
+modularrouters.itemText.usage.item.fluidUpgradeRouter,• This router's transfer rate: %d mB/tick,• このルーターの転送速度: %dmB/ティック
+modularrouters.itemText.usage.item.fluid_module,Transfers fluids into or out of the router to/from an adjacent block in the module's direction.${br}• Router's buffer must have a fluid container item in it.${br}• Can transfer to/from tanks or the world.,"ルーターとモジュールの方向にある隣接ブロックとの間で流体を転送します。
+• ルーターのバッファに流体コンテナアイテムが必要です。
+• タンクまたは世界への転送が可能です。"
+modularrouters.itemText.usage.item.fluid_module_2,Transfers fluids into or out of the router to/from any nearby block.${br}• Router's buffer must have a fluid container item in it.${br}• Can transfer to/from tanks or the world.,"ルーターと近くの任意のブロックとの間で流体を転送します。
+• ルーターのバッファに流体コンテナアイテムが必要です。
+• タンクまたは世界への転送が可能です。"
+modularrouters.itemText.usage.item.fluid_upgrade,Increases the amount of fluid a router can transfer (in each direction) by %d mB/tick.,ルータが転送できる流体量（各方向）を %d mB/tick だけ増加させます。
+modularrouters.itemText.usage.item.inspection_filter,Filter items by inspecting various properties of the item. Place in a router module's filter like any other item.${br}• Right-click: view/configure.,"アイテムの様々なプロパティを検査することでアイテムをフィルターします。他のアイテムと同じようにルーターモジュールのフィルターに配置します。
+• 右クリック：表示/設定。"
+modularrouters.itemText.usage.item.mod_filter,Filter items by the mods they come from. Place in a router module's filter like any other item.${br}• Right-click: view/configure.,"アイテムがから来るModでアイテムをフィルターします。他のアイテムと同じようにルーターモジュールのフィルターに配置します。
+• 右クリック：表示/設定。"
+modularrouters.itemText.usage.item.muffler_upgrade,Suppresses sound & particle effects from routers/modules:${br}• 1 upgrade will suppress sound effects${br}• 2 or more will also suppress particle effects${br}• 3 or more will also suppress the router-active animation.,"ルーター/モジュールからの音とパーティクル効果を抑制します：
+• 1つのアップグレードは音効果を抑制します
+• 2つ以上でパーティクル効果も抑制します
+• 3つ以上でルーターアクティブアニメーションも抑制します。"
+modularrouters.itemText.usage.item.pickup_delay_augment,Increases the pickup delay time for dropped or flung items by 10 ticks per augment.,ドロップまたは投げられたアイテムのピックアップ遅延時間を、オーグメントごとに10ティック増加します。
+modularrouters.itemText.usage.item.placer_module,"Places an item from the router's buffer as a block in the module's configured direction, if possible.",ルーターのバッファーからのアイテムをモジュールの設定された方向にブロックとして配置します（可能な場合）。
+modularrouters.itemText.usage.item.player_module,Remotely transfers items between a player's main or armor inventory and the router's buffer.,プレイヤーのメインまたは防具インベントリとルーターのバッファ間でアイテムをリモート転送します。
+modularrouters.itemText.usage.item.puller_module_1,Extracts items from an adjacent inventory in the module's configured direction into the router's buffer.,モジュールの設定された方向にある隣接するインベントリからアイテムをルーターのバッファに抽出します。
+modularrouters.itemText.usage.item.puller_module_2,Extracts items from any nearby inventory into the router's buffer.,近くのインベントリからアイテムをルーターのバッファに抽出します。
+modularrouters.itemText.usage.item.range_down_augment,Reduces range of modules by 1 block per augment.,モジュールの範囲をオーグメントごとに1ブロックずつ縮小します。
+modularrouters.itemText.usage.item.range_up_augment,Increases range of modules by 1 block per augment (up to hard maximum - see module tooltip),モジュールの射程を1ブロックずつ増加させます（拡張ごとに、最大値はハードマックスまで - モジュールツールチップ参照）
+modularrouters.itemText.usage.item.redstone_augment,"Allows a module to define its own specific redstone behaviour, overriding the router's redstone behaviour.",モジュールが独自のレッドストーン動作を定義できます。ルーターのレッドストーン動作をオーバーライドします。
+modularrouters.itemText.usage.item.regex_filter,Filter items by matching their registry names (viewable with F3+H) against one or more regular expressions. Place in a router module's filter like any other item.${br}• Right-click: view/configure.,"レジストリ名(F3+Hで表示可能)を1つ以上の正規表現と照合することでアイテムをフィルターします。他のアイテムと同じようにルーターモジュールのフィルターに配置します。
+• 右クリック：表示/設定。"
+modularrouters.itemText.usage.item.regulator_augment,Allow precise control over how many items are kept in an inventory.,インベントリに保持されるアイテム数を正確に制御できます。
+modularrouters.itemText.usage.item.security_upgrade,"Protects router; only listed players can access the router. Also protects owner from attack by Activator Module, and makes several modules work as the owning player; very useful when chunks are claim-protected.${br}• Right-click a player to add them to this upgrade${br}• Sneak + Right-click player to remove them","ルーターを保護します。リストされたプレイヤーのみがルーターにアクセスできます。また、所有者をアクティベーターモジュールからの攻撃から保護し、いくつかのモジュールが所有プレイヤーとして機能します。チャンク保護がされている場合に非常に便利です。
+• プレイヤーを右クリック：このアップグレードに追加
+• プレイヤーをシフト + 右クリック：削除。"
+modularrouters.itemText.usage.item.sender_module_1,Sends items from the router's buffer to any inventory directly along an X/Y/Z axis.${br}Clear line of sight required; opaque blocks will prevent sending.,"ルーターのバッファからX/Y/Z軸に沿った任意のインベントリにアイテムを送信します。
+明確な視線が必要。不透明なブロックは送信を防止します。"
+modularrouters.itemText.usage.item.sender_module_2,Sends items from the router's buffer to any nearby inventory.${br}Clear line of sight NOT required.,"ルーターのバッファから近くの任意のインベントリにアイテムを送信します。
+明確な視線は不要です。"
+modularrouters.itemText.usage.item.sender_module_3,Sends items from the router's buffer to any inventory in any dimension.,ルータのバッファから任意のディメンション内のインベントリへアイテムを送信します。
+modularrouters.itemText.usage.item.speed_upgrade,Increases the router tick rate.${br}• This router ticks every %.02f sec (%d ticks)${br}• Max. useful upgrades: %d,"ルーターのティックレートを増加させます。
+• このルーターは%.02f秒(%dティック)ごとにティックします
+• 最大有効アップグレード：%d"
+modularrouters.itemText.usage.item.stack_augment,Allows the module to process multiple items per tick.${br}This overrides Stack Upgrades inserted in the router.,"モジュールが1ティックごとに複数のアイテムを処理できるようにします。
+これはルーターに挿入されたスタックアップグレードをオーバーライドします。"
+modularrouters.itemText.usage.item.stack_upgrade,Increases the number of items processed per router tick.${br}• Max. items processed per operation: %d${br}• Max. useful upgrades: %d,"ルーターティックごとに処理されるアイテムの数を増加させます。
+• 操作ごとの最大処理アイテム数：%d
+• 最大有効アップグレード：%d"
+modularrouters.itemText.usage.item.sync_upgrade,Makes routers activate together.${br}• Right-click: open tuning GUI${br}• Sneak + Right-click: tune to a random value.${br}• All routers with the same-tuned Sync Upgrade (and same number of Speed Upgrades) will run at the same time.,"ルーターを一緒にアクティベートします。
+• 右クリック：チューニングGUIを開く
+• シフト + 右クリック：ランダムな値にチューニング。
+• 同じチューニングされたシンクアップグレード(とスピードアップグレード数が同じ)を持つすべてのルーターが同時に実行されます。"
+modularrouters.itemText.usage.item.tag_filter,Filter items by the item tags to which they belong.,アイテムが属するアイテムタグでアイテムをフィルターします。
+modularrouters.itemText.usage.item.vacuum_module,"Absorbs nearby items in the world into the router's buffer. Operates in all directions by default, but can be configured to operate in one direction only.",ワールド内の近くのアイテムをルーターのバッファーに吸収します。デフォルトではすべての方向で動作しますが、1つの方向のみに制限できます。
+modularrouters.itemText.usage.item.void_module,§c*** CAUTION ***${br}Permanently destroys items in the buffer!,"§c*** 注意 ***
+バッファ内のアイテムを永久に破壊します！§r"
+modularrouters.itemText.usage.item.xp_vacuum_augment,"Allows the Vacuum Module to collect XP orbs instead of items.${br}XP can be converted into a variety of solid & liquid forms, depending on what other mods are installed, but vanilla Bottles o' Enchanting are always available. Liquid XP conversion requires a tank capable of storing liquids by the mB either in the router's buffer as an item, or placed adjacent to the router as a block (with Eject mode enabled in the module GUI).","バキュームモジュールがアイテムの代わりにXPオーブを収集できるようにします。
+XPはインストールされている他のModに応じてさまざまな固体と液体の形式に変換できますが、バニラの魔法の瓶は常に利用可能です。液体XP変換には、mBで液体を保存できるタンク(ルーターのバッファのアイテムとして、またはブロックとしてルーターに隣接して配置)(モジュールGUIで取り出しモード有効)が必要です。"
+modularrouters.jei.recipe.module_reset,Module Reset,モジュールリセット
+modularrouters.jei.recipe.module_reset.description,"Completely resets the module to its newly-crafted state.  Beware: ALL data, including filter settings and enchantments, will be lost (but any installed augments will be returned)",モジュールを新しく作成された状態に完全にリセットします。注意: フィルター設定やエンチャントを含む全てのデータが失われます(ただし、インストールされた拡張機能は復元されます)
+modularrouters.patchouli.book.landing,This manual is a complete reference guide to $(#228)Modular Routers/$.,このマニュアル$(#228)Modular Routers/$の完全なリファレンスガイドです。
+modularrouters.patchouli.book.name,Modular Routers Manual,Modular Routersマニュアル
+block.modularrouters.item_router,Modular Router,モジュラールーター
+item.modularrouters.GuideBook,§l§nModular Routers,§nモジュラールーター
+modularrouters.chatText.misc.target,Target: §b%s,ターゲット: §b%s
+modularrouters.chatText.security.ADDED,Added player [%s],プレイヤー [%s] を追加しました
+modularrouters.chatText.security.ALREADY_ADDED,Player [%s] is already on this upgrade,プレイヤー [%s] はすでにこのアップグレードに接続されています
+modularrouters.chatText.security.ERROR,Couldn't add player [%s] (internal error),プレイヤー [%s] を追加できませんでした(内部エラー)
+modularrouters.chatText.security.FULL,Security upgrade items full!,セキュリティアップグレードがいっぱいです！
+modularrouters.chatText.security.NOT_PRESENT,Player [%s] is not on this uprade,プレイヤー [%s] はこのアップグレードに登録されていません
+modularrouters.chatText.security.REMOVED,Removed player [%s],プレイヤー [%s] を削除しました
+modularrouters.chatText.targetValidation.NOT_INVENTORY,§c✘ No Inventory,§c✘ インベントリが空です
+modularrouters.chatText.targetValidation.NOT_LOADED,§c✘ Not Loaded,§c✘ ロード未了
+modularrouters.chatText.targetValidation.OK,§a✔ Target OK,§a✔ ターゲットOK
+modularrouters.chatText.targetValidation.OUT_OF_RANGE,§c✘ Out of Range,§c✘ 範囲外
+modularrouters.gui.config.alwaysShowModuleSettings,Show module settings tooltips without needing to hold down Shift,シフトキーを押さずにモジュール設定のツールチップを表示する
+modularrouters.gui.config.ctgy.misc,Misc,その他
+modularrouters.gui.config.ctgy.misc.tooltip,Miscellaneous settings,その他の設定
+modularrouters.gui.config.ctgy.module,Modules,モジュール
+modularrouters.gui.config.ctgy.module.tooltip,Config settings for Router Modules,ルータ―モジュール用のコンフィグ設定
+modularrouters.gui.config.ctgy.router,Routers,ルーター
+modularrouters.gui.config.ctgy.router.tooltip,Config settings for Modular Routers,モジュラールーターの設定
+modularrouters.gui.config.extruderBaseRange,Base Range for Extruder Module Mk1 (no Range Upgrades),エクストルーダー
+modularrouters.gui.config.extruderMaxRange,Hard Maximum Range for Extruder Module Mk1 (with Range Upgrades),Extruder Module Mk1 のハード最大レンジ（レンジアップグレード付き）
+modularrouters.guiText.label.breakMatchType.BLOCK,Match by Block,ブロックによる一致
+modularrouters.guiText.label.breakMatchType.ITEM,Match by Dropped Item(s),ドロップしたアイテムによる一致
+modularrouters.guiText.label.inspectionSubject.DURABILITY,Durability,耐久値
+modularrouters.guiText.label.inspectionSubject.ENCHANT,Enchantment,エンチャント
+modularrouters.guiText.label.inspectionSubject.ENERGY,Energy Level,エネルギーレベル
+modularrouters.guiText.label.inspectionSubject.FLUID,Fluid Level,流体レベル
+modularrouters.guiText.label.inspectionSubject.FOOD,Food Value,食品価値
+modularrouters.guiText.label.playerOp.EXTRACT,From Player to Router,プレイヤーからルーターへ
+modularrouters.guiText.label.playerOp.INSERT,From Router to Player,ルーターからプレイヤーへ
+modularrouters.guiText.label.playerSect.ARMOR,Armor Slots,防具スロット
+modularrouters.guiText.label.playerSect.ENDER,Ender Inventory,エンダーインベントリ
+modularrouters.guiText.label.playerSect.MAIN,Main Inventory,メインインベントリ
+modularrouters.guiText.label.playerSect.MAIN_NO_HOTBAR,Main Inventory (no Hotbar),メインインベントリ(ホットバーなし)
+modularrouters.guiText.label.playerSect.OFFHAND,Offhand Slot,オフハンドスロット
+modularrouters.guiText.tooltip.BACK,Back,戻る
+modularrouters.guiText.tooltip.BLACKLIST.1,Whitelist${br}The module will run only if the filter matches.${br}An empty whitelist will never allow the module to run.,ホワイトリスト${br}フィルターにマッチした場合のみモジュールが実行されます。${br}空のホワイトリストはモジュールを実行させません。
+modularrouters.guiText.tooltip.BLACKLIST.2,Blacklist${br}The module will not run if the filter matches.${br}An empty blacklist will always allow the module to run.,ブラックリスト${br}フィルターにマッチした場合、モジュールは実行されません。${br}空のブラックリストは常にモジュールを実行させます。
+modularrouters.guiText.tooltip.DOWN,Down,下
+modularrouters.guiText.tooltip.FRONT,Front,前
+modularrouters.guiText.tooltip.IGNORE_DAMAGE.1,Match Item Damage${br}Distinguish between damageable items of the same type with different damage levels,アイテム耐久度を区別${br}異なる耐久度レベルの同じタイプの耐久度アイテムを区別します
+modularrouters.guiText.tooltip.IGNORE_DAMAGE.2,Ignore Item Damage${br}Treat damageable items of the same type but different damage levels as the same,アイテム耐久度を無視${br}同じタイプだが異なる耐久度レベルの耐久度アイテムを同じものとして扱います
+modularrouters.guiText.tooltip.IGNORE_NBT.1,Match NBT${br}e.g. take the enchantments on an item into account when matching,NBTマッチ有効${br}例：マッチング時にアイテムのエンチャントを考慮します
+modularrouters.guiText.tooltip.IGNORE_NBT.2,Ignore NBT${br}e.g. ignore the enchantments on an item when matching,NBTマッチ無効${br}例：マッチング時にアイテムのエンチャントを無視します
+modularrouters.guiText.tooltip.IGNORE_TAGS.1,"Tag Matching Enabled${br}Items in the same tag group as any item in the filter will match, e.g. oak and birch logs",タグマッチング有効${br}フィルター内の任意のアイテムと同じタググループ内のアイテムがマッチします。例：オークと樺の丸太
+modularrouters.guiText.tooltip.IGNORE_TAGS.2,Tag Matching Disabled,タグマッチングが無効
+modularrouters.guiText.tooltip.LEFT,Left,左
+modularrouters.guiText.tooltip.NONE,None,なし
+modularrouters.guiText.tooltip.RIGHT,Right,右
+modularrouters.guiText.tooltip.UP,Up,上
+modularrouters.guiText.tooltip.matchAll.false,Match Any${br}Any item in the filter may match for the filter to match.${br}Use this under most circumstances.,任意にマッチ${br}フィルター内の任意のアイテムはフィルターがマッチするためマッチする可能性があります。${br}ほとんどの状況下で使用します。
+modularrouters.guiText.tooltip.matchAll.true,"Match All${br}ALL items in the filter must match for the filter to match.${br}Used in specific circumstances, e.g. if you want to test for enchanted leather armor.",すべてにマッチ${br}すべてのアイテムがフィルターにマッチするとフィルターがマッチします。${br}特定の状況下で使用、例えば、エンチャントされた革の鎧をテストしたい場合。
+modularrouters.guiText.tooltip.redstone.ALWAYS,Always,常に
+modularrouters.guiText.tooltip.redstone.HIGH,High,高
+modularrouters.guiText.tooltip.redstone.LOW,Low,低
+modularrouters.guiText.tooltip.redstone.NEVER,Never,決して
+modularrouters.guiText.tooltip.redstone.PULSE,Pulsed,パルス
+modularrouters.guiText.tooltip.removeFilterHint,§7§oSneak + Left-Click: remove item from filter,§7§oスニーク + 左クリック：フィルターからアイテムを削除
+modularrouters.guiText.tooltip.terminate.NONE,"Always continue executing subsequent modules on this tick, regardless of whether this module did anything.",このティックで、このモジュールが何をしたかに関わらず常に後続モジュールを実行し続けます。
+modularrouters.guiText.tooltip.terminate.NONE.header,Always Continue,常に継続
+modularrouters.guiText.tooltip.terminate.NOT_RAN,Don't execute any subsequent modules on this tick if this module did NOT do anything.,このモジュールがマッチしなかった場合、このティックで後続モジュールを実行しません。
+modularrouters.guiText.tooltip.terminate.NOT_RAN.header,Terminate on no Match,マッチなしで終了
+modularrouters.guiText.tooltip.terminate.RAN,Don't execute any subsequent modules on this tick if this module did something.,このモジュールがマッチした場合、このティックで後続モジュールを実行しません。
+modularrouters.guiText.tooltip.terminate.RAN.header,Terminate on Match,マッチで終了
+modularrouters.itemGroup.modularrouters,Modular Routers,モジュラー・ルーターズ
+modularrouters.itemText.activator.action.ATTACK_ENTITY,Attack nearby entity,近くのエンティティを攻撃
+modularrouters.itemText.activator.action.ITEM_OR_BLOCK,Right-click,右クリック
+modularrouters.itemText.activator.action.USE_ITEM_ON_ENTITY,Right-click entity,エンティティに右クリック
+modularrouters.itemText.activator.direction.ABOVE,Look Above,上を見る
+modularrouters.itemText.activator.direction.BELOW,Look Below,下を見る
+modularrouters.itemText.activator.direction.LEVEL,Look Level,平面を見る
+modularrouters.itemText.activator.entityMode.NEAREST,Nearest in-range entity,範囲内のエンティティ(最も近い)
+modularrouters.itemText.activator.entityMode.RANDOM,Random in-range entity,範囲内のエンティティ(ランダム)
+modularrouters.itemText.activator.entityMode.ROUND_ROBIN,Round Robin in-range entities,ラウンドロビンエンティティ
+modularrouters.itemText.distributor.strategy.FURTHEST_FIRST,Furthest First,最も遠い
+modularrouters.itemText.distributor.strategy.NEAREST_FIRST,Nearest First,最も近い
+modularrouters.itemText.distributor.strategy.RANDOM,Random,ランダム
+modularrouters.itemText.distributor.strategy.ROUND_ROBIN,Round Robin,ラウンドロビン
+modularrouters.itemText.extruder.mode.ALWAYS,§eExtend: §bWith redstone signal > 0,§e拡張: §bレッドストーン信号 > 0 のとき
+modularrouters.itemText.extruder.mode.HIGH,§eExtend: §bWith redstone signal = 15,§e拡張: §bレッドストーン信号 = 15
+modularrouters.itemText.extruder.mode.LOW,§eExtend: §bWith redstone signal = 0,§e拡張: §bレッドストーン信号 = 0 のとき
+modularrouters.itemText.extruder.mode.NEVER,§eExtend: §bNever,§e拡張：§b決して無し
+modularrouters.itemText.extruder.mode.PULSE,§eExtend: §bNever,§e拡張：§b決して無し
+modularrouters.itemText.fluid.direction,§eFluid Direction: §b%s,§e流体方向：§b%s
+modularrouters.itemText.fluid.direction.IN,Transfer into Router,ルーターへ転送
+modularrouters.itemText.fluid.direction.OUT,Transfer out of Router,ルーターから転送
+modularrouters.itemText.misc.IGNORE_DAMAGE,Damage,ダメージ
+modularrouters.itemText.misc.IGNORE_NBT,NBT,NBT
+modularrouters.itemText.misc.IGNORE_TAGS,Tags,タグ
+modularrouters.itemText.misc.modFilter.count,• %d mod(s) in filter,• %d個のModがフィルターに含まれます
+modularrouters.chatText.targetValidation.BAD_DIMENSION,§c✘ Dimension Blacklisted,§c✘ ディメンションがブラックリストされています
+item.blank_module.name,Blank Module,空のモジュール
+item.receiver_module.name,Receiver Module,受信モジュール
+item.puller_module.name,Puller Module Mk1,プルモジュールMk1
+item.puller2_module.name,Puller Module Mk2,プルモジュールMk2
+item.sender1_module.name,Sender Module Mk1,送信モジュールMk1
+item.sender2_module.name,Sender Module Mk2,送信モジュールMk2
+item.sender3_module.name,Sender Module Mk3,送信モジュールMk3
+item.sorter_module.name,Sorter Module,ソートモジュール
+item.vacuum_module.name,Vacuum Module,吸引モジュール
+item.dropper_module.name,Dropper Module,ドロッパ―モジュール
+item.placer_module.name,Placer Module,配置モジュール
+item.breaker_module.name,Breaker Module,ブレーカーモジュール
+item.void_module.name,Void Module,虚空モジュール
+item.detector_module.name,Detector Module,検出モジュール
+item.modsorter_module.name,Mod Sorter Module,モジュールソートモジュール
+item.flinger_module.name,Flinger Module,フリンガーモジュール
+item.player_module.name,Player Module,プレイヤーモジュール
+item.extruder_module.name,Extruder Module Mk1,エクストルーダーモジュール Mk1
+item.extruder2_module.name,Extruder Module Mk2,エクストルーダーモジュール Mk2
+item.fluid_module.name,Fluid Module,液体モジュール
+item.activator_module.name,Activator Module,アクティベータモジュール
+item.distributor_module.name,Distributor Module,配布モジュール
+item.blank_upgrade.name,Blank Upgrade,空のアップグレード
+item.speed_upgrade.name,Speed Upgrade,スピードアップグレード
+item.stack_upgrade.name,Stack Upgrade,スタックアップグレード
+item.range_upgrade.name,Range Upgrade,レンジアップグレード
+item.rangedown_upgrade.name,Range Downgrade,範囲ダウングレード
+item.security_upgrade.name,Security Upgrade,セキュリティアップグレード
+item.camouflage_upgrade.name,Camouflage Upgrade,カモフラージュアップグレード
+item.sync_upgrade.name,Sync Upgrade,同期アップグレード
+item.fluid_upgrade.name,Fluid Transfer Upgrade,液体転送アップグレード
+item.muffler_upgrade.name,Muffler Upgrade,マフラーアップグレード
+item.blast_upgrade.name,Blast Upgrade,爆発アップグレード
+item.override_card.name,Security Override Card,セキュリティオーバーライドカード
+item.bulkitem_filter.name,Bulk Item Filter,一括アイテムフィルター
+item.mod_filter.name,Mod Filter,Modフィルター
+item.regex_filter.name,Regex Filter,正規表現フィルター
+item.inspection_filter.name,Inspection Filter,検査フィルター
+item.augment_core.name,Augment Core,オーグメントコア
+item.pickup_delay_augment.name,Pickup Delay Augment,ピックアップ遅延オーグメント
+item.fast_pickup_augment.name,Fast Pickup Augment,高速ピックアップオーグメント
+item.range_up_augment.name,Range Up Augment,範囲拡大オーグメント
+item.range_down_augment.name,Range Down Augment,射程減少増幅
+item.redstone_augment.name,Redstone Augment,レッドストーンアップグレード
+item.regulator_augment.name,Regulator Augment,レギュレーターオーグメント
+item.stack_augment.name,Stack Augment,スタックアグメンタ
+item.xp_vacuum_augment.name,XP Vacuum Augment,XP真空拡張
+item.mimic_augment.name,Mimic Augment,ミミックアグメンタ
+item.pushing_augment.name,Pushing Augment,押し出し増強
+item.GuideBook.name,§l§nModular Routers,§nモジュラールーター
+tile.item_router.name,Item Router,アイテムルーター
+tile.template_frame.name,Template Frame,テンプレートフレーム
+guiText.tooltip.BLACKLIST.1,Whitelist\nAn empty whitelist will match nothing.,ホワイトリスト\\n空のホワイトリストは何も一致しません。
+guiText.tooltip.IGNORE_META.1,Match Metadata\ne.g. distinguish between different colors of wool,メタデータを一致させる\n例：ウールの色を区別する
+guiText.tooltip.IGNORE_NBT.1,Match NBT\ne.g. take the enchantments on an item into account when matching,NBTを照合\n例：アイテムに付与されたエンチャントを考慮してマッチさせる
+guiText.tooltip.IGNORE_OREDICT.1,"Use Oredict\nItems with the same ore dictionary tag (e.g. ""oreIron"") as any item in the filter will match","Oredictを使用
+フィルターのアイテムと同じ鉱物辞書タグ（例：""oreIron""）を持つアイテムが一致します"
+guiText.tooltip.TERMINATE.1,"Continue Execution on Match\nThe item router will continue executing subsequent modules, even if this module processes an item.","マッチ時に実行を継続
+このモジュールがアイテムを処理しても、アイテムルーターは後続のモジュールを実行し続けます。"
+guiText.tooltip.BLACKLIST.2,Blacklist\nAn empty blacklist will match everything.,ブラックリスト\\n空のブラックリストはすべてにマッチします。
+guiText.tooltip.IGNORE_META.2,Ignore Metadata\ne.g. adding a wool to the filter will match any color of wool,メタデータを無視する\\ne.g. フィルターにウールを追加すると、任意の色のウールが一致します
+guiText.tooltip.IGNORE_NBT.2,Ignore NBT\ne.g. ignore the enchantments on an item when matching,NBTを無視する\n例：アイテムのエンチャントをマッチ時に無視する
+guiText.tooltip.IGNORE_OREDICT.2,Don't use Oredict,Oredictを使用しないでください
+guiText.tooltip.TERMINATE.2,"Terminate Execution on Match\nIf this module processes an item, the item router won't execute any subsequent modules on this tick.","マッチ時に実行を終了
+このモジュールがアイテムを処理した場合、アイテムルーターはこのティック内で後続のモジュールを実行しません。"
+guiText.tooltip.NONE,None,なし
+guiText.tooltip.DOWN,Down,下
+guiText.tooltip.UP,Up,Up
+guiText.tooltip.LEFT,Left,左
+guiText.tooltip.RIGHT,Right,右
+guiText.tooltip.FRONT,Front,前
+guiText.tooltip.BACK,Back,戻る
+guiText.tooltip.allDirections,All,すべて
+guiText.tooltip.redstone.label,Redstone Mode,レッドストーンモード
+guiText.tooltip.redstone.ALWAYS,Always,常に
+guiText.tooltip.redstone.LOW,Low,低
+guiText.tooltip.redstone.HIGH,High,高
+guiText.tooltip.redstone.NEVER,Never,決して
+guiText.tooltip.redstone.PULSE,Pulsed,パルス
+guiText.tooltip.regulator.label,%d Item(s),%d アイテム
+guiText.tooltip.regulator.labelFluid,%d%%,%d%%
+guiText.tooltip.eco.false,Eco Mode §edisabled \n§7Router will always run at normal speed.,エコモード §edisabled \n§7ルーターは常に通常速度で動作します。
+guiText.tooltip.eco.true,"Eco Mode §aenabled \n§7If router is idle for >%f seconds, it will enter low-power mode and only run every %f seconds.  It will leave low-power mode upon processing any item and return to running at normal speed.","エコモード §aが有効です
+§7ルーターが>%f秒アイドル状態の場合、低電力モードに入り、%f秒ごとにのみ実行されます。任意のアイテムを処理すると低電力モードを抜け、通常の速度で実行に戻ります。"
+guiText.tooltip.numberFieldTooltip,• §e§oCursor Up/Down§7 or mouse wheel: adjust\n• Hold §e§oShift§7: coarse adjust\n• Hold §e§oCtrl§7: fine adjust\n• §e§oPage Up/Down§7: set to max/min,"• §e§o上下キー§7 またはマウスホイール: 調整
+• §e§oShift§7 を押す: 粗調整
+• §e§oCtrl§7 を押す: 微調整
+• §e§oPageUp/Down§7: 最大値/最小値を設定"
+guiText.tooltip.flinger.speed,§bSpeed (%f → %f),§b速度 (%f → %f)
+guiText.tooltip.flinger.pitch,§bPitch (%f → %f),§bピッチ (%f → %f)
+guiText.tooltip.flinger.yaw,§bYaw (%f → %f),§bヨー角 (%f → %f)
+guiText.tooltip.detectorTooltip,§bRedstone Signal Level,§bレッドストーン信号レベル
+guiText.tooltip.clearFilter,Clear Filter,フィルターをクリア
+guiText.tooltip.loadFilter,Load Filter\n from §e%s§r @ %s\n§oExisting filter contents will be overwritten!,フィルタを読み込む\n§e%s§r @ %s\n§o既存のフィルタ内容は上書きされます！
+guiText.tooltip.mergeFilter,Merge Filter\n from §e%s§r @ %s,フィルターをマージ\\n §e%s§r @ %s
+guiText.tooltip.removeFilterHint,§7§oSneak + Left-Click: remove item from filter,§7§oスニーク + 左クリック：フィルターからアイテムを削除
+guiText.tooltip.regulatorTooltip,§bItem Regulation Enabled\nWhen inserting: only insert when inventory has fewer than this many of the item.\nWhen extracting: only extract if inventory has more than this many of the item.,"§bアイテム調整が有効
+挿入時: インベントリにこのアイテムがこの数より少ない場合のみ挿入
+抽出時: インベントリがこのアイテムをこの数より多く持っている場合のみ抽出"
+guiText.tooltip.tunedValue,§bTuned Value (%d → %d),§b調整値 (%d → %d)
+guiText.tooltip.fluidTransferTooltip,§bMax Fluid Transfer\nMaximum (in mB) that will be attempted in one operation.\nThis is still limited by the router's overall transfer rate (Fluid and Speed Upgrades),"§b最大流体転送量
+1回の操作で試みられる最大量（mB単位）
+ルーターの総転送速度（流体とスピードアップグレード）によって制限されます"
+guiText.tooltip.maxFluidPerOp,• Transfer Rate: %d mB every %d ticks (%d mB / tick),• 転送速度: %d mB 毎 %d タック (%d mB / タック)
+guiText.tooltip.extruder2.template,§bTemplate\nPlace copies of block items here to be used as the extruder template.\n• §eLeft-Click:§7 reduce stack size\n• §eRight-Click:§7 increase stack size\n• §eShift + Left-Click:§7 clear stack,"§bテンプレート
+エクストルーダーテンプレートとして使用するブロックアイテムのコピーをここに配置します。
+• §e左クリック:§7 スタックサイズを減らす
+• §e右クリック:§7 スタックサイズを増やす
+• §eShift+左クリック:§7 クリア"
+guiText.tooltip.activator.action,Action,アクション
+guiText.tooltip.activator.lookDirection,Look,確認
+guiText.tooltip.activator.sneak,Sneak,スニーク
+guiText.tooltip.distributor.strategy,Distribution Strategy,配布戦略
+guiText.tooltip.mouseOverHelp.false,Click to activate mouse-over help,クリックしてマウスオーバーヘルプを有効化
+guiText.tooltip.mouseOverHelp.true,Mouse-over help active \n§7Click to deactivate,マウスオーバーヘルプが有効です\\n§7クリックして無効化
+guiText.tooltip.xpVacuum.ejectFluid,XP Fluids Ejected,XP液体が排出されました
+guiText.tooltip.fluidForceEmpty.false,"§bForce Emptying Disabled \nIf the block next to the router is not completely empty, no fluid will be transferred out of the router.","§b強制排出が無効
+ルーターの隣のブロックが完全に空でない場合、流体はルーターから転送されません。"
+guiText.tooltip.fluidForceEmpty.true,"§bForce Emptying Enabled \nFluid will always be transferred out of the router if possible, even if that would cause fluid to be lost (e.g. emptying water into an existing water block)","§b強制排出が有効
+可能な限り流体がルーターから転送されます。これにより流体が失われる可能性があります（例：既存の水ブロックに水を排出）"
+guiText.label.direction,Direction,方向
+guiText.label.modules,Modules,モジュール
+guiText.label.upgrades,Upgrades,アップグレード
+guiText.label.filters,Filters,フィルター
+guiText.label.buffer,Buffer,バッファ
+guiText.label.installed,(installed),(インストール済)
+guiText.label.playerOp.EXTRACT,From Player to Item Router,プレイヤーからアイテムルーターへ
+guiText.label.playerOp.INSERT,From Item Router to Player,アイテムルーターからプレイヤーへ
+guiText.label.playerSect.MAIN,Main Inventory,メインインベントリ
+guiText.label.playerSect.ARMOR,Armor Slots,防具スロット
+guiText.label.playerSect.OFFHAND,Offhand Slot,オフハンドスロット
+guiText.label.playerSect.ENDER,Ender Inventory,エンダーインベントリ
+guiText.label.regexError,Invalid regular expression,無効な正規表現
+guiText.label.inspectionSubject.DURABILITY,Durability,耐久値
+guiText.label.inspectionSubject.FLUID,Fluid Level,流体レベル
+guiText.label.inspectionSubject.ENERGY,Energy Level,エネルギーレベル
+guiText.label.inspectionSubject.ENCHANT,Enchantment,エンチャント
+guiText.label.inspectionSubject.FOOD,Food Value,食品価値
+guiText.label.inspectionOp.GT,>,>
+guiText.label.inspectionOp.LT,<,<
+guiText.label.inspectionOp.GE,>=,>=
+guiText.label.inspectionOp.LE,<=,<=
+guiText.label.inspectionOp.EQ,=,=
+guiText.label.inspectionOp.NE,!=,!=
+guiText.label.matchAll.false,Match Any,どれかに一致
+guiText.label.matchAll.true,Match All,すべてマッチ
+guiText.label.xpVacuum,XP Type,経験値タイプ
+guiText.label.xpVacuum.eject,Eject,排出
+guiText.label.fluidForceEmpty,Force,強制
+guiText.popup.filter,"§a§nFilter \n \n§rPlace ghost copies of items here to filter what this module works on.  If the item in the router's buffer doesn't match the filter item(s) here, then the module will not run.  See also the filter control buttons below.","§a§nフィルター
+
+§rここにゴーストコピーのアイテムを配置して、このモジュールが操作するアイテムをフィルターします。ルーターのバッファ内のアイテムがここのフィルターアイテムと一致しない場合、モジュールは実行されません。また下のフィルター制御ボタンも参照してください。"
+guiText.popup.filterControl,§a§nFilter Control \n \n§rThese buttons control how the filter is applied to the item in the router's buffer. See individual tooltips on each button for more information.,"§a§nフィルター制御 
+ 
+§r各ボタンがルーターバッファー内のアイテムにフィルターを適用する方法を制御します。詳細は各ボタンのツールチップを参照してください。"
+guiText.popup.direction,"§a§nDirection Control \n \n§rThis area of the GUI allows you to define the direction the module operates in. This direction is relative to the front of the router. The default direction is NONE, which for most modules means the module will not run; you will need to define a direction.","§a§n方向制御
+
+§rこのGUIエリアでは、モジュールが操作する方向を定義できます。この方向はルーターの正面を基準としています。デフォルトの方向は「なし」です。ほとんどのモジュールでは、これはモジュールが実行されないことを意味します。方向を定義する必要があります。"
+guiText.popup.noDirection,"§a§nDirection Control \n \n§rThis area of the GUI allows you to define the direction the module operates in. This direction is relative to the router's facing. \n \nThis module does not have the concept of a direction, so this area is empty.","§a§n方向制御
+
+§rこのGUIエリアでは、モジュールが操作する方向を定義できます。この方向はルーターの向きを基準としています。
+
+このモジュールは方向という概念を持たないため、このエリアは空です。"
+guiText.popup.augments,"§a§nAugments \n \n§rThese four slots can take Module Augments, craftable items which can be inserted into a module to modify or enhance its functionality in some way. \n \nSee the item tooltips on augment items for more information on what each augment does. \n \nNote that augments can only be inserted/removed when you are holding a single module item, to avoid augments being duplicated.","§a§nオーグメント(拡張)
+
+§rこれら4つのスロットは、モジュール拡張を使用できます。これはモジュールに挿入して、その機能を何らかの方法で変更または強化できる作成可能なアイテムです。
+
+各拡張が何をするかについて詳しくは、拡張アイテムのアイテムツールチップを参照してください。
+
+拡張は、重複を避けるために、単一のモジュールアイテムを保持している場合にのみ挿入/削除できることに注意してください。"
+guiText.popup.activator.action,"§a§nAction \n \n§rThe activator module can simulate: \n- Activating a block (e.g. flipping a lever); \n- Right-clicking an item (e.g. using a flint & steel, which must be in the router's buffer); \n- or right-clicking the nearest entity (e.g. milking a cow with a bucket in the router's buffer).","§a§nアクション
+
+§rアクティベーターモジュールは以下をシミュレートできます：
+- ブロックのアクティベーション（例：レバーの切り替え）;
+- アイテムの右クリック（例：火打石と鋼を使用。ルーターのバッファに含まれている必要があります）;
+- または最も近いエンティティを右クリック（例：バケツを使用して牛を搾乳）。"
+guiText.popup.activator.sneak,§a§nSneak \n \n§rToggle whether the router should simulate sneaking while doing its right-click operation.,"§a§nスニーク 
+ 
+§rルーターが右クリック操作を行う際にスニーキングをシミュレートするかどうかを切り替えます。"
+guiText.popup.activator.look,"§a§nLook Direction \n \n§rWhen right-clicking, the router can: \n- Face level, targeting a block directly in the module's direction, up to 4 blocks away; \n- Look upward, targeting the block directly above the block in the module's direction; \n- Look downward, targeting the block directly below the block in the module's direction.","§a§nルック方向
+
+§r右クリック時に、ルーターは次のことができます：
+- 水平面を見る。モジュールの方向の最大4ブロック先の直接ブロックをターゲット；
+- 上方を見る。モジュールの方向のブロックの真上のブロックをターゲット；
+- 下方を見る。モジュールの方向のブロックの真下のブロックをターゲット。"
+guiText.popup.player.control,"§a§nPlayer Module \n \n§rHere you can define: \n- Whether the router transfers items from the player to the router, or from the router to the player; \n- Which section of the player inventory should be interacted with.","§a§nプレイヤーモジュール
+
+§rここで以下を定義できます：
+- ルーターがプレイヤーからルーターにアイテムを転送するか、ルーターからプレイヤーに転送するか；
+- プレイヤーインベントリのどのセクションと相互作用すべきか。"
+guiText.popup.detector.signalLevel,"§a§nRedstone Signal Level \n \n§rHere can you define the redstone signal level, an integer quantity between 0 and 15 inclusive.  A signal of this strength will be emitted in the module's direction when the filter matches the buffer item.","§a§nレッドストーン信号レベル
+
+§rここでレッドストーン信号レベルを定義できます。これは0～15の整数です。フィルターがバッファアイテムと一致したときに、この強度の信号がモジュールの方向に放出されます。"
+guiText.popup.detector.weakStrong,§a§nRedstone Signal Strength \n \n§r- A §oweak§r redstone signal will power the adjacent block only; \n- A §ostrong§r redstone signal will power the adjacent block and blocks adjacent to that block (like a vanilla Repeater).,"§a§nレッドストーン信号強度
+
+§r- §o弱い§rレッドストーン信号は隣接するブロックのみに電力を供給します;
+- §o強い§rレッドストーン信号は隣接するブロックと、そのブロックに隣接するブロックに電力を供給します（バニラのリピーターのように）。"
+guiText.popup.flinger.speed,"§a§nFlinger Speed \n \n§rThis is the speed which is imparted to the item when thrown from the router. \n \nAs a rough guide, a speed of 1.0 and a pitch of 30 (and a horizontal module facing) will fling an item about 20 blocks in that direction.","§a§nフリンガースピード
+
+§rこれは、ルーターからスローされたときにアイテムに与えられるスピードです。
+
+おおよその目安として、スピード1.0、ピッチ30（および水平モジュールの向き）で、アイテムはその方向に約20ブロック飛びます。"
+guiText.popup.flinger.pitch,"§a§nFlinger Pitch \n \n§rThis is the vertical offset in degrees: \n \n- When the module faces horizontally, it's the offset up or down from that horizontal (X or Z) axis \n- When the module faces up or down, it's the offset from the vertical (Y) axis.","§a§nフリンガーピッチ
+
+§rこれは垂直オフセット（度単位）です：
+
+- モジュールが水平を向いている場合、その水平(X または Z)軸からの上下オフセット
+- モジュールが上下を向いている場合、垂直(Y)軸からのオフセット。"
+guiText.popup.flinger.yaw,"§a§nFlinger Yaw \n \n§rThis is the horizontal offset in degrees: \n \n- When the module faces horizontally, it's the offset left or right from that horizontal (X or Z) axis \n- When the module faces up or down, it's the offset from the vertical (Y) axis.  This is only useful if you also have a non-zero pitch.","§a§nフリンガーヨー
+
+§rこれは水平オフセット（度単位）です：
+
+- モジュールが水平を向いている場合、その水平(X または Z)軸からの左右オフセット
+- モジュールが上下を向いている場合、垂直(Y)軸からのオフセット。これは0以外のピッチもある場合にのみ有用です。"
+guiText.popup.fluid.direction,"§a§nTransfer Direction \n \n§rHere you can control whether the router pushes fluid out to the world or tank, or pulls fluid from the world or tank.","§a§n転送方向 
+ 
+§rルーターが流体をワールドまたはタンクに押し出すか、ワールドまたはタンクから引き込むかを制御できます。"
+guiText.popup.extruder2.template,"§a§nTemplate \n \n§rHere you can define a template of blocks to extrude; note that real blocks are not placed, but rather special uncraftable & unlootable template blocks. \n \nPut ghost copies of blocks in the template to define what is extruded; blocks will be extruded from left to right and top to bottom in order. You can extrude more than one of each block if you want (left- or right-click blocks in the template to adjust). \n \nNote you can also place non-block items (e.g. a stick) in the template; while they obviously can't be placed, they are used as spacers to ""place"" one or more air blocks in the pattern.","§a§nテンプレート
+
+§rここで押し出すブロックのテンプレートを定義できます。実際のブロックは配置されず、むしろ特別なクラフト不可能で戦利品不可能なテンプレートブロックが使用されます。
+
+テンプレートにブロックのゴーストコピーを配置して、何が押し出されるかを定義します。ブロックは左から右へ、上から下への順で押し出されます。各ブロックの複数を押し出したい場合は、テンプレート内のブロックを左クリックまたは右クリックして調整できます。
+
+テンプレートに非ブロックアイテム（例：スティック）を配置することもできます。明らかに配置することはできませんが、パターンに1つ以上の空気ブロックを「配置」するためのスペーサーとして使用されます。"
+guiText.popup.xpVacuum,"§a§nXP Collection Type \n \n§rHere you can define how XP orbs are collected. The options available depend on what other mods are installed and what experience fluids are available; however vanilla Bottles o' Enchanting are always available. \n \nIf collecting experience in fluid form, you must either insert a tank into the router's buffer capable of storing fluid by the mB (i.e. not a vanilla bucket), or place a tank adjacent to the router and check the Eject button below.","§a§nXP収集タイプ
+
+§rここでXP orbesがどのように収集されるかを定義できます。利用可能なオプションは、インストールされている他のModと利用可能な経験流体によって異なります。ただし、バニラのBottles o' Enchantingは常に利用可能です。
+
+流体形式で経験値を収集する場合、ルーターのバッファにmB単位で流体を保存できるタンク（バニラバケットではない）を挿入するか、ルーターに隣接してタンクを配置して下のEjectボタンをチェックする必要があります。"
+guiText.popup.xpVacuum.eject,"§a§nXP Fluid Ejection \n \n§rIf checked, the router will attempt to eject any XP fluid into a suitable adjacent tank (sides checked in order: D, U, N, S, W, E). Note that only XP fluids are considered for ejection, not solid XP items. \n \nThis may be useful if you don't have a mod that provides a tank which can be filled as an item in the router's buffer.","§a§nXP流体排出
+
+§rチェックされている場合、ルーターは適切な隣接タンクにXP流体を排出しようとします（確認順序：下、上、北、南、西、東）。排出の対象となるのはXP流体のみであることに注意してください。固体のXPアイテムではありません。
+
+これは、ルーターのバッファにアイテムとして填充できるタンクを提供するModがない場合に役立つかもしれません。"
+guiText.popup.distributor.strategy,§a§nDistribution Strategy \n \n§rFour possible strategies exist: \n \n§eRound Robin§r - Each targeted inventory will be attempted in turn. \n \n§eRandom§r - A random inventory is attempted on each tick. \n \n§eNearest First§r - The closest inventory with space to insert will be used. \n \n§eFurthest First§r - The most distant inventory with space to insert will be used.,"§a§n配布戦略
+
+§r4つの可能な戦略が存在します：
+
+§eラウンドロビン§r - 対象の各インベントリが順番に試行されます。
+
+§eランダム§r - 各ティックでランダムなインベントリが試行されます。
+
+§e最も近い順§r - 挿入スペースがある最も近いインベントリが使用されます。
+
+§e最も遠い順§r - 挿入スペースがある最も遠いインベントリが使用されます。"
+gui.config.mainTitle,Modular Routers Configuration,モジュラールーター設定
+gui.config.ctgy.router,Routers,ルーター
+gui.config.ctgy.router.tooltip,Config settings for Item Routers,アイテムルーター用設定
+gui.config.ctgy.module,Modules,モジュール
+gui.config.ctgy.module.tooltip,Config settings for Item Router Modules,アイテムルーター用モジュールの設定
+gui.config.ctgy.misc,Misc,その他
+gui.config.ctgy.misc.tooltip,Miscellaneous settings,その他設定
+gui.config.baseTickRate,Base router tick rate (with no Speed Upgrades),ベースルータートックレート（速度アップグレード無し）
+gui.config.ticksPerUpgrade,Tick rate reduction (speedup) per Speed Upgrade,Speed Upgradeごとのティックレート減少（高速化）
+gui.config.hardMinTicks,Hard minimum (fastest) router tick rate,ハード最小値（最速）ルーターのティック速度
+gui.config.senderParticles,Show particle effects when a Sender Module sends an item,Sender Moduleがアイテムを送信したときにパーティクル効果を表示します
+gui.config.pullerParticles,Show particle effects when a Puller Module pulls an item,Puller Moduleがアイテムを引き抜いたときにパーティクル効果を表示します
+gui.config.placerParticles,Show particle effects when a Placer Module places a block,プラッサーモジュールがブロックを置くときにパーティクル効果を表示する
+gui.config.breakerParticles,Show particle effects when a Breaker Module breaks a block,ブレーカー・モジュールがブロックを破壊した際にパーティクル効果を表示
+gui.config.vacuumParticles,Show particle effects when a Vacuum Module absorbs an item,バキューム・モジュールがアイテムを吸収した際にパーティクル効果を表示
+gui.config.sender1BaseRange,Base Range for Sender Module Mk1 (no Range Upgrades),センダーモジュールMk1の基本範囲(範囲アップグレード無し)
+gui.config.sender1MaxRange,Hard Maximum Range for Sender Module Mk1 (with Range Upgrades),センダーモジュールMk1の最大範囲(範囲アップグレード有り)
+gui.config.sender2BaseRange,Base Range for Sender Module Mk2 (no Range Upgrades),センダーモジュールMk2の基本範囲(範囲アップグレード無し)
+gui.config.sender2MaxRange,Hard Maximum Range for Sender Module Mk2 (with Range Upgrades),送信モジュールMk2のハード最大レンジ（レンジアップグレード付き）
+gui.config.puller2BaseRange,Base Range for Puller Module Mk2 (no Range Upgrades),プルモジュール Mk2 の基本範囲 (範囲アップグレードなし)
+gui.config.puller2MaxRange,Hard Maximum Range for Puller Module Mk2 (with Range Upgrades),プルーモジュールMk2のハード最大レンジ（レンジアップグレード付き）
+gui.config.vacuumBaseRange,Base Range for Vacuum Module (no Range Upgrades),バキュームモジュールの基本範囲（レンジアップグレードなし）
+gui.config.vacuumMaxRange,Hard Maximum Range for Vacuum Module (with Range Upgrades),バキューム・モジュールのハード最大射程（射程アップグレード付き）
+gui.config.extruderBaseRange,Base Range for Extruder Module Mk1 (no Range Upgrades),エクストルーダーモジュールMk1の基本レンジ（レンジアップグレードなし）
+gui.config.extruderMaxRange,Hard Maximum Range for Extruder Module Mk1 (with Range Upgrades),Extruder Module Mk1 のハード最大レンジ（レンジアップグレード付き）
+gui.config.extruder2BaseRange,Base Range for Extruder Module Mk2 (no Range Upgrades),エクストルーダーモジュールMk2の基本レンジ（レンジアップグレードなし）
+gui.config.extruder2MaxRange,Hard Maximum Range for Extruder Module Mk2 (with Range Upgrades),Extruder Module Mk2 のハード最大レンジ（レンジアップグレード付き）
+gui.config.extruderSound,Play sounds when an Extruder Module extends or withdraws,Extruder Moduleが伸縮または収縮すると音を再生します
+gui.config.extruderPushEntities,The Extruder Mk1/2 modules can push entities along when extending,Extruder Mk1/2モジュールは伸長時にエンティティを押し出すことができます
+gui.config.flingerEffects,Play sound and smoke effect when a Flinger Module flings an item,Flinger Module がアイテムを投げるときに音と煙のエフェクトを再生します
+gui.config.configKey,Key to press (in the Item Router GUI) to configure installed Modules,インストール済みモジュールを設定するためにアイテムルーターGUIで押すキー
+gui.config.ecoTimeout,"If a router in eco-mode is idle for this many server ticks, it will go into low-power mode",エコモードのルーターがこの数のサーバーティックでアイドル状態になると、低電力モードに移行します
+gui.config.lowPowerTickRate,An eco-mode router in low-power mode will only tick every this many server ticks,エコモードルーターが低電力モードの場合、サーバートックのこの数だけで1回しかティックしません
+gui.config.backgroundTint,Tint module GUI backgrounds with the same color as the module item,モジュール GUIの背景をモジュール アイテムと同じ色で着色します
+gui.config.startWithGuide,New players start with a copy of the guide book,新規プレイヤーはガイドブックのコピーを持った状態で開始
+itemText.misc.holdShiftCtrl,"Hold §e§oShift§7 for settings, §e§oCtrl§7 for info",設定には §e§oShift§7、情報には §e§oCtrl§7 を押してください
+itemText.misc.holdCtrl,Hold §e§oCtrl§r§7 for info,情報を表示するには §e§oCtrl§r§7 を押す
+itemText.misc.moduleCount,§fModules: §b%d,§fモジュール: §b%d
+itemText.misc.upgradeCount,§f%s: §b%d,§f%s: §b%d
+itemText.misc.routerConfigured,§oThis router has been configured,§oこのルータは設定されています
+itemText.misc.whitelist,Whitelist,ホワイトリスト
+itemText.misc.blacklist,Blacklist,ブラックリスト
+itemText.misc.noItems,Empty,空
+itemText.misc.IGNORE_META,Meta,メタ
+itemText.misc.IGNORE_NBT,NBT,NBT
+itemText.misc.TERMINATE,Termination,終了
+itemText.misc.flags,Flags,旗
+itemText.misc.breakerModulePick,§ePickaxe: §b%s,§eツルハシ: §b%s
+itemText.misc.enchantBreakerHint,This module can also be crafted with a §bSilk Touch§7 or §bFortune§7 Enchanted Book.,このモジュールは§bシルクタッチ§7または§bフォーチュン§7の付いたエンチャントブックでクラフトすることもできます。
+itemText.misc.enchantExtruderHint,This module can also be crafted with a §bSilk Touch§7 Enchanted Book.,このモジュールは §bSilk Touch§7 エンチャントブックでもクラフトできます。
+itemText.misc.redstoneLevel,§eSignal Level: §b%d (%s),§eシグナルレベル: §b%d (%s)
+itemText.misc.strongSignal.false,Weak,弱
+itemText.misc.strongSignal.true,Strong,強
+itemText.misc.operation,Operation,操作
+itemText.misc.bulkItemFilter.count,• %d item(s) in filter,• %d item(s) in filter
+itemText.misc.regexFilter.count,• %d regex(es) in filter,• %d regex(es) in filter
+itemText.misc.modFilter.count,• %d mod(s) in filter,• %d モッド(ズ) フィルタに
+itemText.misc.rangeInfo,"Range: %s%d §7[base %d, max %d]","範囲: %s%d §7[ベース %d, 最大 %d]"
+itemText.security.count,%d / %d other player(s):,%d / %d other player(s):
+itemText.security.owner,§eOwner: §b%s,§e所有者: §b%s
+itemText.sync.tuning,§eTuned Value: §b%d,チューニング値：%d
+itemText.camouflage.held,§eCamouflage as: §b%s,§eカモフラージュとして: §b%s
+itemText.extruder.mode.ALWAYS,§eExtend: §bWith redstone signal > 0,§e拡張: §bレッドストーン信号 > 0 のとき
+itemText.extruder.mode.LOW,§eExtend: §bWith redstone signal = 0,§e拡張: §bレッドストーン信号 = 0 のとき
+itemText.extruder.mode.HIGH,§eExtend: §bWith redstone signal = 15,§e拡張: §bレッドストーン信号 = 15
+itemText.extruder.mode.NEVER,§eExtend: §bNever,§e延長: §bなし
+itemText.extruder.mode.PULSE,§eExtend: §bNever,§e延長: §bなし
+itemText.fluid.maxTransfer,§eFluid Rate:§b Up to %d mB / operation,§e液体流量:§b 最大 %d mB / 操作
+itemText.fluid.direction,§eFluid Direction: §b%s,§e流体方向：§b%s
+itemText.fluid.direction.IN,Transfer into Router,ルーターへ転送
+itemText.fluid.direction.OUT,Transfer out of Router,ルーターから転送
+itemText.extruder2.template,Template Blocks:,テンプレートブロック:
+itemText.targetingHint,"• Sneak + Right-Click an inventory to set target,\n• Sneak + Right-Click any non-inventory block to clear target","• Sneak + 右クリックでインベントリをターゲット設定
+• Sneak + 右クリックでインベントリ以外のブロックをターゲットクリア"
+itemText.targetingHintMulti,"• Sneak + Right-Click an unselected inventory to select it,\n• Sneak + Right-Click a selected inventory to unselect it","• Sneak + 右クリックで未選択のインベントリを選択
+• Sneak + 右クリックで選択済みのインベントリを選択解除"
+itemText.augments,Augments:,アップグレード:
+itemText.augments.stackInfo,%d items/tick,%d 項目/ティック
+itemText.augments.pickupDelay,%d ticks (%f sec),%dティック (%f秒)
+itemText.activator.action.ACTIVATE_BLOCK,Activate Block,ブロックをアクティブ化
+itemText.activator.action.USE_ITEM,Right-click item in buffer,バッファ内のアイテムを右クリック
+itemText.activator.action.USE_ITEM_ON_ENTITY,Right-click item in buffer on nearest entity,バッファ内のアイテムを最も近いエンティティに右クリックで投げる
+itemText.activator.direction.LEVEL,Look Level,平面を見る
+itemText.activator.direction.ABOVE,Look Above,上を見る
+itemText.activator.direction.BELOW,Look Below,下を見る
+itemText.distributor.strategy.ROUND_ROBIN,Round Robin,ラウンドロビン
+itemText.distributor.strategy.NEAREST_FIRST,Nearest First,最も近い
+itemText.distributor.strategy.FURTHEST_FIRST,Furthest First,最も遠い
+itemText.distributor.strategy.RANDOM,Random,ランダム
+itemText.usage.item.breaker_module,"Breaks a block adjacent to the router in the module's configured direction, pulling it as an item into the router's buffer.",モジュールの設定された方向にあるルーターに隣接するブロックを破壊し、それをアイテムとしてルーターのバッファに取り込みます。
+itemText.usage.item.dropper_module,Drops items from the router's buffer in the module's configured direction.,ルータのバッファからモジュール設定方向へアイテムをドロップします。
+itemText.usage.item.placer_module,"Places an item from the router's buffer as a block in the module's configured direction, if possible.",ルーターのバッファーからのアイテムをモジュールの設定された方向にブロックとして配置します（可能な場合）。
+itemText.usage.item.puller_module,Extracts items from an adjacent inventory in the module's configured direction into the router's buffer.,モジュールの設定された方向にある隣接するインベントリからアイテムをルーターのバッファに抽出します。
+itemText.usage.item.puller2_module,Extracts items from any nearby inventory into the router's buffer.,近くのインベントリからアイテムをルーターのバッファに抽出します。
+itemText.usage.item.sender1_module,Sends items from the router's buffer to any inventory directly along an X/Y/Z axis.\nClear line of sight required; opaque blocks will prevent sending.,"ルーターのバッファーからのアイテムをX/Y/Z軸に沿ったインベントリに送信します。
+視線が必要です。不透明ブロックは送信を妨げます。"
+itemText.usage.item.sender2_module,Sends items from the router's buffer to any nearby inventory.\nClear line of sight NOT required.,ルーターのバッファから近くのインベントリへアイテムを送ります。\n視界が必要ありません。
+itemText.usage.item.sender3_module,Sends items from the router's buffer to any inventory in any dimension.,ルータのバッファから任意のディメンション内のインベントリへアイテムを送信します。
+itemText.usage.item.sorter_module,"Places items from the router's buffer into an adjacent inventory, IF there are already matching items in that inventory",ルーターのバッファーからのアイテムを隣接するインベントリに配置します。そのインベントリに既に一致するアイテムがある場合のみ。
+itemText.usage.item.vacuum_module,"Absorbs nearby items in the world into the router's buffer. Operates in all directions by default, but can be configured to operate in one direction only.",ワールド内の近くのアイテムをルーターのバッファーに吸収します。デフォルトではすべての方向で動作しますが、1つの方向のみに制限できます。
+itemText.usage.item.detector_module,Emits a redstone signal from the router in the module's configured direction IF the item in the router's buffer passes the module's filter.,ルーターのバッファー内のアイテムがモジュールのフィルターに合格した場合、モジュールの設定された方向からレッドストーン信号を放出します。
+itemText.usage.item.modsorter_module,"Places items from the router's buffer into an adjacent inventory, IF there are already items from the same mod in that inventory.",ルーターのバッファーからのアイテムを隣接するインベントリに配置します。そのインベントリに既に同じModからのアイテムがある場合のみ。
+itemText.usage.item.flinger_module,"Throws items from the router's buffer potentially over a long distance.  Adjust speed, pitch & yaw from the module's GUI.",ルーターのバッファーからのアイテムを潜在的に長距離で投げます。モジュールGUIから速度、ピッチ、ヨーを調整してください。
+itemText.usage.item.player_module,Remotely transfers items between a player's main or armor inventory and the router's buffer.,プレイヤーのメインまたは防具インベントリとルーターのバッファ間でアイテムをリモート転送します。
+itemText.usage.item.fluid_module,Transfers fluids to or from the router in the module's direction.\n• Router's buffer must have a fluid container item in it.\n• Can transfer to/from tanks or the world.,"ルーターとモジュールの方向との間で流体を転送します。
+• ルーターのバッファーに流体コンテナーアイテムが必要です。
+• タンクまたはワールドとの転送が可能です。"
+itemText.usage.item.activator_module,Simulates right-clicking blocks and entities using the item(s) in the router's buffer.\nActs as if the router is a fake player.,"ルーターのバッファー内のアイテムを使用してブロックとエンティティを右クリックしてシミュレートします。
+フェイクプレイヤーとして機能します。"
+itemText.usage.item.distributor_module,"Distributes items from the router's buffer to multiple inventories, with a choice of round-robin, random, nearest-first or furthest-first.",ラウンドロビン、ランダム、最も近い、最も遠い、のどれかを選択して、ルーターのバッファから複数のインベントリにアイテムを分配します。
+itemText.usage.item.security_upgrade,Protects router; only listed players can access the router.\n• Right-click a player to add them to this upgrade\n• Sneak + Right-click player to remove them,"ルーターを保護します。リストされたプレイヤーのみがルーターにアクセスできます。
+• 右クリックでプレイヤーをこのアップグレードに追加
+• Sneak+右クリックでプレイヤーを削除"
+itemText.usage.item.stack_upgrade,Increases the number of items processed per router tick.\n• Max. items processed per operation: %d\n• Max. useful upgrades: %d,"ルーターティックごとに処理されるアイテム数を増やします。
+• 1回の操作で処理されるアイテム数: %d
+• 最大有用アップグレード数: %d"
+itemText.usage.item.speed_upgrade,Increases the router tick rate.\n• Router will tick every %.02f sec (%d ticks)\n• Max. useful upgrades: %d,"ルーターのティックレートを上げます。
+• ルーターは%.02f秒（%dティック）ごとにティックします
+• 最大有用アップグレード数: %d"
+itemText.usage.item.camouflage_upgrade,Makes the router look like another block.\n• Sneak + Right-click a solid block to copy its appearance onto the upgrade.,"ルーターを別のブロックのように見せます。
+• Sneak + 右クリックで固いブロックをクリックしてアップグレードに外観をコピーします。"
+itemText.usage.item.sync_upgrade,Makes routers activate together.\n• Right-click: open tuning GUI\n• Sneak + Right-click: tune to a random value.\n• All routers with the same-tuned Sync Upgrade (and same number of Speed Upgrades) will run at the same time.,"ルーターが一緒にアクティベートするようにします。
+• 右クリック：チューニングGUIを開く
+• Sneak + 右クリック：ランダムな値にチューニング。
+• 同じチューニングSyncアップグレード（およびスピードアップグレードの同じ数）を持つすべてのルーターが同時に実行されます。"
+itemText.usage.item.fluid_upgrade,Increases the amount of fluid a router can transfer (in each direction) by %d mB/tick.,ルータが転送できる流体量（各方向）を %d mB/tick だけ増加させます。
+itemText.usage.item.fluidUpgradeRouter,• This router's transfer rate: %d mB/tick,• このルーターの転送速度：%d mB/ティック
+itemText.usage.item.muffler_upgrade,Suppresses sound & particle effects from routers/modules:\n• 1 upgrade will suppress sound effects\n• 2 or more will also suppress particle effects\n• 3 or more will also suppress the router-active animation.,"ルーター/モジュールからの音と粒子効果を抑制します：
+• 1つのアップグレードは音効果を抑制します
+• 2つ以上は粒子効果も抑制します
+• 3つ以上はルーターアクティブアニメーションも抑制します。"
+itemText.usage.item.blast_upgrade,Makes the router immune to explosion damage and boss destruction.,ルーターが爆発ダメージやボスの破壊を受けなくなります。
+itemText.usage.item.bulkitem_filter,"High-capacity, high-performance filter for large numbers of items. Place in a router module's filter like any other item.\n• Sneak + Right-click any inventory: merge contents into filter.\n• Right-click: view/configure.","大量のアイテム用の高容量、高性能フィルター。通常のアイテムのようにルーターモジュールのフィルターに配置します。
+• Sneak + 右クリック任意のインベントリ：内容をフィルターにマージ。
+• 右クリック：表示/設定。"
+itemText.usage.item.regex_filter,Filter items by matching their display names against one or more regular expressions. Place in a router module's filter like any other item.\n• Right-click: view/configure.,"1つ以上の正規表現を照合してアイテムの表示名をフィルターします。他のアイテムのようにルーターモジュールのフィルターに配置してください。
+• 右クリック: 表示/編集。"
+itemText.usage.item.mod_filter,Filter items by the mods they come from. Place in a router module's filter like any other item.\n• Right-click: view/configure.,"アイテムが由来するModでアイテムをフィルターします。他のアイテムのようにルーターモジュールのフィルターに配置してください。
+• 右クリック: 表示/編集。"
+itemText.usage.item.inspection_filter,Filter items by inspecting various properties of the item. Place in a router module's filter like any other item.\n• Right-click: view/configure.,"アイテムのさまざまなプロパティを検査してアイテムをフィルターします。他のアイテムのようにルーターモジュールのフィルターに配置してください。
+• 右クリック: 表示/編集。"
+itemText.usage.item.fast_pickup_augment,Allow the Vacuum Module to ignore the normal pickup delays on dropped items.,バキュームモジュールに、落下アイテムの通常の拾い取り遅延を無視させる
+itemText.usage.item.pickup_delay_augment,Increases the pickup delay time for dropped or flung items by 10 ticks per augment.,ドロップまたは投げられたアイテムのピックアップ遅延時間を、オーグメントごとに10ティック増加します。
+itemText.usage.item.redstone_augment,"Allows a module to define its own specific redstone behaviour, overriding the router's redstone behaviour.",モジュールが独自のレッドストーン動作を定義できます。ルーターのレッドストーン動作をオーバーライドします。
+itemText.usage.item.regulator_augment,Allow precise control over how many items are kept in an inventory.,インベントリに保持されるアイテム数を正確に制御できます。
+itemText.usage.item.range_up_augment,Increases range of modules by 1 block per augment (up to hard maximum - see module tooltip),モジュールの射程を1ブロックずつ増加させます（拡張ごとに、最大値はハードマックスまで - モジュールツールチップ参照）
+itemText.usage.item.range_down_augment,Reduces range of modules by 1 block per augment.,モジュールの範囲をアグメントごとに1ブロック減少させます。
+chatText.misc.inventoryMerged,Merged %d item(s) into the %s,%d 項目を %s に合体しました
+chatText.security.accessDenied,§c--[Access Denied]--,§c--[アクセス拒否]--
+chatText.security.ADDED,Added player [%s],プレイヤーを追加しました [%s]
+chatText.security.REMOVED,Removed player [%s],プレイヤー [%s] を削除しました
+chatText.security.ERROR,Couldn't add player [%s] (internal error),プレイヤー[%s]を追加できませんでした（内部エラー）
+chatText.security.FULL,Security upgrade items full!,セキュリティアップグレードがいっぱいです！
+chatText.security.ALREADY_ADDED,Player [%s] is already on this upgrade,プレイヤー [%s] はすでにこのアップグレードに接続されています
+chatText.security.NOT_PRESENT,Player [%s] is not on this uprade,プレイヤー [%s] はこのアップグレードに存在しません
+chatText.subtitle.error,Error,エラー
+chatText.subtitle.success,Success,成功
+chatText.subtitle.thud,*THUD*,*THUD*
+chatText.misc.target,§eTarget: §b%s,§eターゲット: §b%s
+chatText.misc.targetSet,§eTarget set: §b%s,§eターゲット設定: §b%s
+chatText.misc.targetCleared,§eTarget cleared,§eターゲットをクリアしました
+chatText.misc.targetRemoved,§eTarget removed: §b%s (%d/%d),ターゲットの削除: §b%s (%d/%d)
+chatText.misc.targetAdded,§eTarget added: §b%s (%d/%d),ターゲット追加: §b%s (%d/%d)
+chatText.misc.tooManyTargets,§cToo many targets! (max: %d),ターゲットが多すぎます！(最大: %d)
+chatText.targetValidation.OK,§a✔ Target OK,§a✔ ターゲットOK
+chatText.targetValidation.OUT_OF_RANGE,§c✘ Out of Range,§c✘ 範囲外
+chatText.targetValidation.NOT_LOADED,§c✘ Not Loaded,§c✘ ロード未了
+chatText.targetValidation.NOT_INVENTORY,§c✘ No Inventory,§c✘ インベントリが空です
+guidebook.para.routerText,"The §lItem Router§r is the central block of the routing system.  By itself, it does nothing other than serve as a one-slot inventory (which can be piped into and out of by hoppers and other mod piping systems).\n\nTo do anything useful with a router, however, you need to install one or more (up to nine) §lModules§r.  Every time a router ticks - once per second by default - it will execute every installed module, in order.  Each of these modules will operate on the item(s) in the buffer or on the world around the router in a specific way - see the §lModules§r section for info on each individual module type.\n\nThe router's operation can also be modified with §lUpgrades§r - speed it up, let it handle more items per tick, increase the range of certain modules...","§lアイテムルーター§rはルーティングシステムの中心的なブロックです。それ自体は、ホッパーと他のMod配管システムで配管できる1スロットのインベントリとして機能する以外に何もしません。
+
+ただし、ルーターを有用にするためには、1つ以上（最大9個まで）の§lモジュール§rをインストールする必要があります。ルーターがティックするたびに - デフォルトでは1秒に1回 - インストールされているすべてのモジュールが順番に実行されます。これらのモジュールのそれぞれは、バッファ内のアイテムまたはルーターの周囲の世界に特定の方法で操作します - 各モジュールタイプの詳細については、§lモジュール§rセクションを参照してください。
+
+ルーターの動作は、§lアップグレード§rで変更することもできます - 高速化、1ティックあたりのアイテム処理数を増やす、特定のモジュールの範囲を拡張するなど..."
+guidebook.para.blankModule,This item forms the base of all router modules.  It has no use other than as a crafting component.,このアイテムはすべてのルーターモジュールのベースです。クラフトコンポーネントとして以外には使用できません。
+guidebook.para.blankUpgrade,This item forms the base of all router upgrades.  It has no use other than as a crafting component.,このアイテムはすべてのルーターアップグレードの基礎となります。クラフト素材として以外に用途はありません。
+guidebook.para.augmentCore,This item forms the base of all augments.  It has no use other than as a crafting component.,このアイテムはすべてのオーグメントの基礎となります。他にクラフトコンポーネントとして以外には使用できません。
+guidebook.para.moduleOverview,"There are %d different module types, each of which has a specific function.  All modules have some characteristics in common, however; in particular, all modules include a filter which can be used to control exactly which item(s) a module will process.\n\nIn addition most (but not all) modules have a defined direction, which is relative to the router's facing; e.g. a §lPlacer Module§r facing to the §oRight§r will place blocks to the right of the router (as you face it).\n\nFinally, some modules have extra settings; e.g. the §lDetector Module§r allows you to set the strength of the redstone signal it produces.\n\nAll of these settings can be configured in the module's GUI, which you can access by Right-Clicking the module in hand.  For your convenience, you can also configure an installed module in a router by pressing §1%s§r while hovering, or middle-clicking the module, without needing to remove it.","%d種類の異なるモジュールタイプが存在し、それぞれが特定の機能を持っています。ただし、すべてのモジュールにはいくつかの共通の特性があります。特に、すべてのモジュールにはフィルターが含まれており、これを使用してモジュールが処理する正確なアイテムを制御できます。
+
+さらに、ほとんど（すべてではない）のモジュールには定義された方向があり、これはルーターの向きに相対的です。例えば、§l配置モジュール§rが§o右§rに向かっている場合、ルーターの右側にブロックを配置します（あなたが見ている方向で）。
+
+さらに、一部のモジュールには追加の設定があります。例えば、§l検知モジュール§rでは、生成するレッドストーン信号の強度を設定できます。
+
+これらの設定はすべてモジュールのGUIで設定でき、モジュールを手に持って右クリックしてアクセスできます。利便性のため、ホバー中に§1%s§rを押すか、中クリックすることで、ルーターにインストールされたモジュールを設定することもできます。取り外す必要はありません。"
+guidebook.para.upgradeOverview,"Upgrades improve an Item Router's functionality in various ways.  There are %d different upgrade types, and %d upgrade slots in an Item Router.\n\nYou can put multiple upgrades in an upgrade slot, although there is a soft limit on how many upgrades of a particular type are actually useful; see the individual upgrade pages or upgrade item tooltips for more information on this.","アップグレードはアイテムルーターの機能を様々な方法で向上させます。%d種類の異なるアップグレードタイプが存在し、アイテムルーターには%dアップグレードスロットがあります。
+
+アップグレードスロットに複数のアップグレードを配置できますが、特定のタイプのアップグレードが実際に有用である数には柔らかい制限があります。個別のアップグレードページまたはアップグレードアイテムのツールチップで、各タイプのアップグレードの詳細を参照してください。"
+guidebook.para.filterOverview,"Filters can be inserted into a module's filter slots in place of regular items.  Instead of just trying to match against the item directly, filters have special matching functionality.  There are %d different filter types.",フィルターは、通常のアイテムの代わりに、モジュールのフィルタースロットに挿入できます。単にアイテムと直接マッチングしようとするのではなく、フィルターは特別なマッチング機能を持っています。%d種類の異なるフィルタータイプが存在します。
+guidebook.categories.introduction,Introduction,はじめに
+guidebook.categories.routers,Item Routers,アイテムルーター
+guidebook.words.overview,Overview,概要
+guidebook.words.ecoMode,Eco Mode,エコモード
+guidebook.words.augments,Module Augments,モジュール増強
+jei.recipe.reset.name,Module Reset,モジュールリセット
+jei.recipe.reset.description,"Completely resets the module to its newly-crafted state.  Beware: ALL data, including filter settings and enchantments, will be lost (but any installed augments will be returned)",モジュールを新しく作成された状態に完全にリセットします。注意: フィルター設定やエンチャントを含む全てのデータが失われます(ただし、インストールされた拡張機能は復元されます)

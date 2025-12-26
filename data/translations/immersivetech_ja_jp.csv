@@ -1,0 +1,56 @@
+﻿key,source_text,target_text
+tile.immersivetech.stone_decoration.cokebrick_reinforced.name,Reinforced Coke Brick,強化されたコークブロック
+item.immersivetech.material.salt.name,Salt,塩
+tile.immersivetech.fluidDistWater.name,Distilled Water,蒸留水
+tile.immersivetech.fluidSteam.name,Steam,蒸気
+tile.immersivetech.fluidSlime.name,Liquid Slime,液体スライム
+fluid.dist_water,Distilled Water,蒸留水
+fluid.steam,Steam,蒸気
+fluid.slime,Liquid Slime,液体スライム
+tile.immersivetech.metal_device.coke_oven_preheater.name,Coke Oven Preheater,コークオーブンプレヒーター
+tile.immersivetech.metal_multiblock.distiller.name,Distiller,蒸留器
+tile.immersivetech.metal_multiblock.solar_tower.name,Solar Tower,太陽塔
+tile.immersivetech.metal_multiblock.solar_reflector.name,Solar Reflector,太陽反射器
+tile.immersivetech.metal_multiblock.steam_turbine.name,Steam Turbine,蒸気タービン
+tile.immersivetech.metal_multiblock.boiler.name,Boiler,ボイラー
+tile.immersivetech.metal_multiblock.alternator.name,Alternator,アルテナティブ
+tile.immersivetech.stone_multiblock.coke_oven_advanced.name,Coke Oven Advanced,コークオーブン（上級）
+desc.immersiveengineering.info.multiblock.IT:Distiller,Distiller,蒸留器
+desc.immersiveengineering.info.multiblock.IT:SolarTower,Solar Tower,太陽塔
+desc.immersiveengineering.info.multiblock.IT:SolarReflector,Solar Reflector,太陽反射器
+desc.immersiveengineering.info.multiblock.IT:SteamTurbine,Steam Turbine,蒸気タービン
+desc.immersiveengineering.info.multiblock.IT:Boiler,Boiler,ボイラー
+desc.immersiveengineering.info.multiblock.IT:Alternator,Alternator,アルテナティブ
+desc.immersiveengineering.info.multiblock.IT:CokeOvenAdvanced,Coke Oven Advanced,コークオーブン（上級）
+tile.immersivetech.connectors.connectors_timer.name,Redstone Timer,レッドストーンタイマー
+ie.manual.entry.cokeOvenAdvanced.name,Coke Oven Advanced,コークオーブン（上級）
+ie.manual.entry.cokeOvenAdvanced.subtext,It's fast now,今、速いです
+ie.manual.entry.cokeOvenAdvanced0,The Coke Oven Advanced is a multiblock structure that allows the player to produce Coal Coke and Creosote Oil faster .<br>The structure is built as shown above and formed by using the Engineer's Hammer on the central Reinforced Coke Brick Block.,コークス炉応用版は、プレイヤーが石炭コークスと木タール油をより速く生産できる複数ブロック構造です。<br>構造は上図のように構築され、中央の強化コークス煉瓦ブロックに対してエンジニアハンマーを使用することで形成されます。
+ie.manual.entry.cokeOvenAdvanced1,"It allow the automation of in- and outputs, it can also be outfitted with preheaters to speed up the process by addition of hot air.<br>The furnace is made from reinforced bricks, so you'd be advised to spend your first batches of steel on this upgrade.<br>Similar to the Improved Blast Furnace, the Coal Coke is output at the front and the Creosote Oil at the back. Coal is fed in through the top.",入出力の自動化が可能で、加熱空気を追加することで処理を高速化するプリヒーターを装備することもできます。<br>炉は強化煉瓦でできているため、最初のスチール製造をこのアップグレードに費やすことをお勧めします。<br>改良ブラスト炉と同様に、石炭コークスは前面から、木タール油は背面から出力されます。石炭は上部から投入されます。
+ie.manual.entry.cokeOvenAdvanced2,"Coke Oven Preheaters are used to speed up the refinement process of coal. Each oven can have up to two preheaters connected to the ports on the each side, and each preheater requires <config;i;cokeOvenPreheater_consumption> Flux/t to operate.",コークス炉プリヒーターは、石炭の精製プロセスを高速化するために使用されます。各オーブンには各辺のポート上に最大2つのプリヒーターを接続でき、各プリヒーターは動作に<config;i;cokeOvenPreheater_consumption>フラックス/tを必要とします。
+ie.manual.entry.distiller.name,Distiller,蒸留器
+ie.manual.entry.distiller.subtext,Clearest than water,水よりも澄んでいる
+ie.manual.entry.distiller0,The Distiller is a multiblock machine that turns Water in Distilled Water and Salt.<br>The structure is built as shown above and formed by using the Engineer's Hammer on the central Sheetmetal Iron.,蒸留器は、水を蒸留水と塩に変える複数ブロック機械です。<br>構造は上図のように構築され、中央のシートメタル鉄に対してエンジニアハンマーを使用することで形成されます。
+ie.manual.entry.distiller1,"Applying a redstone signal to the control panel at the front will halt the machine's process, this behavior can be inverted by use of the Engineer's Hammer.<br>Water can be input into the Distiller via hatches at the left that are marked with blue dots. The hatch with the orange dot at the right serves as a fluid output and the other hatch at the back serves as a item output.<br>It needs energy to produce Distilled Water and Salt.<br>One bucket of Water produces 500 mB of Distilled Water.",前面のコントロールパネルにレッドストーン信号を適用すると、機械のプロセスが停止します。この動作はエンジニアハンマーを使用して反転させることができます。<br>水は青い点でマークされた左側のハッチを介して蒸留器に入力できます。右側のオレンジ色の点でマークされたハッチは流体出力として機能し、背面のハッチはアイテム出力として機能します。<br>蒸留水と塩を生産するにはエネルギーが必要です。<br>1バケットの水は500mLの蒸留水を生産します。
+ie.manual.entry.solarTower.name,Solar Tower,太陽塔
+ie.manual.entry.solarTower.subtext,The power of the sun,太陽の力
+ie.manual.entry.solarTower0,The Solar Tower is a multiblock structure that uses the light of the sun transforming the water in steam.<br>The structure is built as shown above and formed by using the Engineer's Hammer on the central Redstone Engineering,太陽塔は、太陽の光を使用して水を蒸気に変える複数ブロック構造です。<br>構造は上図のように構築され、中央のレッドストーン工学
+ie.manual.entry.solarTower1,Block.<br>The Solar Tower can produce Steam from Water and <link;distiller;§n§oDistilled Water§r>.<br>One Bucket of Distilled Water produces 750 mB of Steam.<br>One Bucket of Water produces 500 mB of Steam.<br>Water can be input into the Solar Tower via the two hatches at the left and the right that are marked with blue dots. The hatch with the orange dot at the back serves as a fluid output.<br>The Solar Tower needs at least one Solar Reflector to work.,ブロックに対してエンジニアハンマーを使用することで形成されます。<br>太陽塔は水と<link;distiller;§n§o蒸留水§r>から蒸気を生産できます。<br>1バケットの蒸留水は750mLの蒸気を生産します。<br>1バケットの水は500mLの蒸気を生産します。<br>水は左右にある青い点でマークされた2つのハッチを介して太陽塔に入力できます。背面のオレンジ色の点でマークされたハッチは流体出力として機能します。<br>太陽塔が機能するには少なくとも1つの太陽反射鏡が必要です。
+ie.manual.entry.solarTower2,The Solar Reflector is a multiblock structure that reflects the light of the sun to the center of the Solar Tower.<br>The structure is built as shown above and formed by using the Engineer's Hammer on the central Silver Block.,太陽反射鏡は、太陽の光を太陽塔の中央に反射する複数ブロック構造です。<br>構造は上図のように構築され、中央の銀ブロックに対してエンジニアハンマーを使用することで形成されます。
+ie.manual.entry.solarTower3,"To work, there must not be block between it and the Solar Tower and at the top of the reflector (only in the center), the reflector's figure must fit with the center of the Solar Tower and the distance between the reflector and the Solar Tower must be between <config;i;solarTower_minRange>-<config;i;solarTower_maxRange>. Obviously, it works only during the day.",機能するには、反射鏡と太陽塔の間、および反射鏡の上部（中央のみ）にブロックがあってはなりません。反射鏡の形状は太陽塔の中央と一致し、反射鏡と太陽塔の距離は<config;i;solarTower_minRange>～<config;i;solarTower_maxRange>の間である必要があります。当然のことながら、昼間のみ機能します。
+ie.manual.entry.steamTurbine.name,Steam Turbine,蒸気タービン
+ie.manual.entry.steamTurbine.subtext,Boiling breath,沸騰の息
+ie.manual.entry.steamTurbine0,The Steam Turbine is a multiblock structure that uses Steam to produce kinetic energy.<br>The structure is built as shown above and formed by using the Engineer's Hammer on the central Steel Block (short side).,蒸気タービンは、蒸気を使用して運動エネルギーを生成する複数ブロック構造です。<br>構造は上図のように構築され、中央の鋼ブロック（短辺）に対してエンジニアハンマーを使用することで形成されます。
+ie.manual.entry.steamTurbine1,"Applying a redstone signal to the control panel at the front will halt the machine's process, this behavior can be inverted by use of the Engineer's Hammer.<br>The fluid pipe in front of the machine rapresents the input of Steam. The kinetic energy output is in the rear of the machine (Steel Block). It produces <config;i;steamTurbine_maxTorque> N*m of torque at the max speed of <config;i;steamTurbine_maxSpeed> Rad/s.<br>To work, it needs an <link;alternator;§o§nAlternator§r>.",前面のコントロールパネルにレッドストーン信号を適用すると、機械のプロセスが停止します。この動作はエンジニアハンマーを使用して反転させることができます。<br>機械の前面の流体パイプは蒸気の入力を表します。運動エネルギー出力は機械の背面（鋼ブロック）にあります。最高速度<config;i;steamTurbine_maxSpeed>ラジアン/sで<config;i;steamTurbine_maxTorque>N・mのトルクを生成します。<br>機能するには<link;alternator;§o§n発電機§r>が必要です。
+ie.manual.entry.boiler.name,Boiler,ボイラー
+ie.manual.entry.boiler.subtext,A diesel method,ディーゼル方式
+ie.manual.entry.boiler0,The Boiler is a multiblock structure that uses <link;biodiesel;§o§nDiesel§r> and Water to produce Steam.<br>The structure is built as shown above and formed by using the Engineer's Hammer on the central Sheetmetal Iron Block (long side).,ボイラーは、<link;biodiesel;§o§nディーゼル§r>と水を使用して蒸気を生成する複数ブロック構造です。<br>構造は上図のように構築され、中央のシートメタル鉄ブロック（長辺）に対してエンジニアハンマーを使用することで形成されます。
+ie.manual.entry.boiler1,"Applying a redstone signal to the control panel at the front will halt the machine's process, this behavior can be inverted by use of the Engineer's Hammer.<br>Water can be input into the Boiler via hatches at the left that are marked with blue dots. Diesel can be input at the right of the machine. The hatch with the orange dot at the top serves as a fluid output.<br>One bucket of Water produces 500 mB and one of <link;distiller;§n§oDistilled Water§r> produces 750 mB of Steam consuming (1000/burnTime)x<config;i;boiler_burnTimeModifier> mB of Diesel.",前面のコントロールパネルにレッドストーン信号を適用すると、機械のプロセスが停止します。この動作はエンジニアハンマーを使用して反転させることができます。<br>水は左側の青い点でマークされたハッチを介してボイラーに入力でき、ディーゼルは機械の右側から入力できます。上部のオレンジ色の点でマークされたハッチは流体出力として機能します。<br>1バケットの水は500mLを生成し、<link;distiller;§n§o蒸留水§r>1バケットは750mLの蒸気を生成します。ディーゼルは(1000/burnTime)x<config;i;boiler_burnTimeModifier>mBを消費します。
+ie.manual.entry.alternator.name,Alternator,アルテナティブ
+ie.manual.entry.alternator.subtext,Let's transform,変換しましょう
+ie.manual.entry.alternator0,The Alternatori is a multiblock structure that transforms kinetic energy in electricity. .<br>The structure is built as shown above and formed by using the Engineer's Hammer on the central Heavy Engineering Block (short side).,発電機は、運動エネルギーを電気に変える複数ブロック構造です。<br>構造は上図のように構築され、中央の重エンジニアリングブロック（短辺）に対してエンジニアハンマーを使用することで形成されます。
+ie.manual.entry.alternator1,"To work, it needs a kinetic energy generator right by the side (<link;steamTurbine;§n§oSteam Turbine§r>). The kinetic energy input is at the back of the machine (where there are the Sheetmetal Blocks) and the Flux output are in front-left and front-right. The machine produces (Speed*Torque)/<config;i;alternator_RfModifier> Flux/t.<br>The Alternator can store <config;i;alternator_energyStorage> Flux and it can output <config;i;alternator_energyPerTick> Flux/t per each energy device connected.",機能するには、隣接する運動エネルギー生成装置(<link;steamTurbine;§n§o蒸気タービン§r>)が必要です。運動エネルギー入力は機械の背面（シートメタルブロックがある場所）にあり、フラックス出力は左前と右前にあります。機械は(速度×トルク)/<config;i;alternator_RfModifier>フラックス/tを生成します。<br>発電機は<config;i;alternator_energyStorage>フラックスを蓄積でき、接続された各エネルギーデバイスごとに<config;i;alternator_energyPerTick>フラックス/tを出力できます。
+ie.manual.entry.alternator2,Steam Turbine and Alternator,蒸気タービンと発電機
+ie.manual.entry.redstone.name,Redstone,レッドストーン
+ie.manual.entry.redstone.subtext,tick-tock,tick-tock
+ie.manual.entry.redstone0,"§6Redstone Timer§r has the function of output a redstone signal depending on the delay inposed on him. The delay time can be set in the Timer’s gui and it has 0.5 Sec of precision before 10 Sec, and 1 Sec after. The Timer can be stopped with a redstone signal.",§6レッドストーンタイマー§rは、彼に課せられた遅延に応じてレッドストーン信号を出力する機能を持っています。遅延時間はタイマーのGUIで設定でき、10秒前は0.5秒の精度があり、その後は1秒です。タイマーはレッドストーン信号で停止できます。

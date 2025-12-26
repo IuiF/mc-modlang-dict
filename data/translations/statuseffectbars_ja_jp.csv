@@ -1,0 +1,73 @@
+﻿key,source_text,target_text
+statuseffectbars.configuration.backgroundColor,Background Color,背景色
+statuseffectbars.configuration.backgroundColor.tooltip,Background color of the bars (ARGB format),バーの背景色（ARGB形式）
+statuseffectbars.configuration.behavior,Behavior,動作
+statuseffectbars.configuration.beneficialForegroundColor,Beneficial Foreground Color,有益な前景色
+statuseffectbars.configuration.beneficialForegroundColor.tooltip,Foreground color for beneficial effects (ARGB format),有効効果の前景色（ARGB形式）
+statuseffectbars.configuration.color,Color,色
+statuseffectbars.configuration.colorMode,Color Mode,色モード
+statuseffectbars.configuration.colorMode.tooltip,"Color mode for status effect bars
+EFFECT_COLOR: Use the color of the status effect
+CUSTOM: Use custom colors defined below
+CATEGORY: Use colors based on effect category (beneficial/harmful/neutral)","ステータス効果バーの色モード
+EFFECT_COLOR: ステータス効果の色を使用
+CUSTOM: 下記で定義したカスタム色を使用
+CATEGORY: 効果カテゴリ（有益/有害/中立）に基づいた色を使用"
+statuseffectbars.configuration.fineTuning,Fine Tuning,詳細調整
+statuseffectbars.configuration.harmfulForegroundColor,Harmful Foreground Color,有害な前景色
+statuseffectbars.configuration.harmfulForegroundColor.tooltip,Foreground color for harmful effects (ARGB format),有害効果の前景色（ARGB形式）
+statuseffectbars.configuration.hud,HUD,HUD
+statuseffectbars.configuration.hud.collinearOffset,HUD Collinear Offset,HUDの共線オフセット
+statuseffectbars.configuration.hud.collinearOffset.tooltip,Offset along the bar's main axis,バーの主軸に沿ったオフセット
+statuseffectbars.configuration.hud.collinearPadding,HUD Collinear Padding,HUD コリニアルパディング
+statuseffectbars.configuration.hud.collinearPadding.tooltip,Padding along the bar's main axis,バーの主軸方向のパディング
+statuseffectbars.configuration.hud.direction,HUD Direction,HUD方向
+statuseffectbars.configuration.hud.direction.tooltip,Direction of the bar,バーの方向
+statuseffectbars.configuration.hud.enabled,HUD Enabled,HUD有効
+statuseffectbars.configuration.hud.enabled.tooltip,Enable status effect bars in hud,HUDでステータス効果バーを有効化
+statuseffectbars.configuration.hud.orthogonalOffset,HUD Orthogonal Offset,HUD オーソゴナルオフセット
+statuseffectbars.configuration.hud.orthogonalOffset.tooltip,Offset perpendicular to the bar,バーに垂直なオフセット
+statuseffectbars.configuration.hud.relativeToEnd,HUD Relative to End,HUD: エンドに依存
+statuseffectbars.configuration.hud.relativeToEnd.tooltip,"Whether the bar is placed relative to the end (bottom/right),
+or the start (top/left) of the effect rectangle","バーがインベントリ内の効果矩形の終端（下/右）に相対的に配置されるか、
+または開始位置（上/左）に配置されるかを指定します"
+statuseffectbars.configuration.hud.thickness,HUD Thickness,HUD厚さ
+statuseffectbars.configuration.hud.thickness.tooltip,Thickness of the bar in pixels,バーのピクセル幅
+statuseffectbars.configuration.inventory,Inventory,インベントリ
+statuseffectbars.configuration.inventory.collinearOffset,Inventory Collinear Offset,インベントリの直線オフセット
+statuseffectbars.configuration.inventory.collinearOffset.tooltip,Offset along the bar's main axis,バーの主軸に沿ったオフセット
+statuseffectbars.configuration.inventory.collinearPadding,Inventory Collinear Padding,インベントリの共線パディング
+statuseffectbars.configuration.inventory.collinearPadding.tooltip,Padding along the bar's main axis,バーの主軸方向のパディング
+statuseffectbars.configuration.inventory.direction,Inventory Direction,インベントリ方向
+statuseffectbars.configuration.inventory.direction.tooltip,Direction of the bar,バーの方向
+statuseffectbars.configuration.inventory.enabled,Inventory Enabled,インベントリ有効
+statuseffectbars.configuration.inventory.enabled.tooltip,Enable status effect bars in inventory,インベントリ内でのステータス効果バーを有効にする
+statuseffectbars.configuration.inventory.orthogonalOffset,Inventory Orthogonal Offset,インベントリの直交オフセット
+statuseffectbars.configuration.inventory.orthogonalOffset.tooltip,Offset perpendicular to the bar,バーに垂直なオフセット
+statuseffectbars.configuration.inventory.relativeToEnd,Inventory Relative to End,エンドにおけるインベントリの相対位置
+statuseffectbars.configuration.inventory.relativeToEnd.tooltip,"Whether the bar is placed relative to the end (bottom/right),
+or the start (top/left) of the effect rectangle","バーがインベントリ内の効果矩形の終端（下/右）に相対的に配置されるか、
+または開始位置（上/左）に配置されるかを指定します"
+statuseffectbars.configuration.inventory.thickness,Inventory Thickness,インベントリ厚さ
+statuseffectbars.configuration.inventory.thickness.tooltip,Thickness of the bar in pixels,バーのピクセル幅
+statuseffectbars.configuration.layout,Layout,レイアウト
+statuseffectbars.configuration.layout.hud,HUD,HUD
+statuseffectbars.configuration.layout.hud.fineTuning,Fine Tuning,詳細調整
+statuseffectbars.configuration.layout.hud.position,Position,位置
+statuseffectbars.configuration.layout.hud.shape,Shape,形状
+statuseffectbars.configuration.layout.inventory,Inventory,インベントリ
+statuseffectbars.configuration.layout.inventory.fineTuning,Fine Tuning,詳細調整
+statuseffectbars.configuration.layout.inventory.position,Position,位置
+statuseffectbars.configuration.layout.inventory.shape,Shape,形状
+statuseffectbars.configuration.maxRemainingDuration,Max Remaining Duration,最大残存時間
+statuseffectbars.configuration.maxRemainingDuration.tooltip,"Remaining duration in ticks above which the bar is hidden
+Set to 2147483647 (max int) to never hide bars based on duration","この値以上の残り時間（ティック単位）でバーが非表示になります
+2147483647（最大整数）に設定すると、期間に基づいてバーが非表示になることはありません"
+statuseffectbars.configuration.minAmbientAge,Min Ambient Age,最小環境年齢
+statuseffectbars.configuration.minAmbientAge.tooltip,"Age in ticks under which the bar of ambient (i.e. beacon) effects is hidden
+Default is 90 ticks (80 + 10)","この値未満のティック数のアンビエント（ビーコンなど）効果のバーが非表示になります
+デフォルトは90ティック（80 + 10）です"
+statuseffectbars.configuration.neutralForegroundColor,Neutral Foreground Color,中立的な前景色
+statuseffectbars.configuration.neutralForegroundColor.tooltip,Foreground color for neutral effects (ARGB format),中立効果の前景色（ARGB形式）
+statuseffectbars.configuration.position,Position,位置
+statuseffectbars.configuration.shape,Shape,形状

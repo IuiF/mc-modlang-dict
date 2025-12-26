@@ -1,0 +1,113 @@
+﻿key,source_text,target_text
+jecalculation.chat.export,"Selected recipes has been exported to ""%s"".",選択したレシピが「%s」にエクスポートされました。
+jecalculation.chat.help,"/jeca craft - open crafting calculator
+/jeca math - open math calculator",/jeca craft - クラフティング計算機を開く
+jecalculation.chat.max_loop,"Sorry, it seems the calculation does not converge in 1000 iterations. Please contact the developer if you think this process should have a result.",申し訳ございませんが、計算が 1000 回の反復内に収束しません。このプロセスが結果を得るべきと考える場合は、開発者にお問い合わせください。
+jecalculation.chat.server_mode,"The mod is not working in client mode, so you cannot open the interface without an calculator item",モッドはクライアントモードで動作しないため、計算機アイテムなしではインターフェースを開けません
+jecalculation.command.help.list,Here is the list of all commands available:,利用可能なすべてのコマンド一覧です：
+jecalculation.command.state.active,Server active.,サーバーがアクティブです。
+jecalculation.command.state.inactive,Server inactive.,サーバーが無効です。
+jecalculation.config.force_client,Force Client,クライアントを強制的に更新
+jecalculation.gui.common.cancel,Cancel,キャンセル
+jecalculation.gui.common.catalyst,Catalysts,触媒
+jecalculation.gui.common.close,Close,閉じる
+jecalculation.gui.common.confirm,Confirm,確認
+jecalculation.gui.common.default,Default,デフォルト
+jecalculation.gui.common.help,Help,ヘルプ
+jecalculation.gui.common.input,Inputs,入力
+jecalculation.gui.common.label.fluid,Fluid,流体
+jecalculation.gui.common.label.item,Item,アイテム
+jecalculation.gui.common.label.placeholder,Placeholder,プレースホルダー
+jecalculation.gui.common.label.tag,Tag,タグ
+jecalculation.gui.common.output,Outputs,出力
+jecalculation.gui.common.search,Search,検索
+jecalculation.gui.craft.history,History,履歴
+jecalculation.gui.craft.inventory_disabled,Inventory detection disabled,インベントリ検出無効化
+jecalculation.gui.craft.inventory_enabled,Inventory detection enabled,インベントリ検知が有効化されました
+jecalculation.gui.craft.label,Add label,ラベルを追加
+jecalculation.gui.craft.output,Extra outputs,追加出力
+jecalculation.gui.craft.recipe,New recipe,新しいレシピ
+jecalculation.gui.craft.search,Search recipe,レシピ検索
+jecalculation.gui.craft.step,Steps,ステップ
+jecalculation.gui.craft.suggest,Suggestions,提案
+jecalculation.gui.craft.title,Crafting Calculator,クラフト計算機
+jecalculation.gui.disamb.label,Inferred types,推測された型
+jecalculation.gui.disamb.list,Raw types,生のタイプ
+jecalculation.gui.import.confirm.disabled,Cannot import because no record is selected.,インポートできません。レコードが選択されていません。
+jecalculation.gui.import.confirm.enabled,Confirm,確認
+jecalculation.gui.import.tick.selected,Click to deselect group,グループの選択を解除するにはクリック
+jecalculation.gui.import.tick.unselected,Click to select group,クリックしてグループを選択
+jecalculation.gui.import.title,Recipe Import,レシピインポート
+jecalculation.gui.item_stack.capability_fuzzy.enabled,Capability ignored,能力が無視されました
+jecalculation.gui.item_stack.capability_normal.disabled,Please choose item first,アイテムを選択してください
+jecalculation.gui.item_stack.capability_normal.enabled,Capability sensitive,能力に敏感
+jecalculation.gui.item_stack.confirm.disabled,Cannot create because no item is chosen,選択されたアイテムがないため作成できません
+jecalculation.gui.item_stack.confirm.enabled,Confirm,確認
+jecalculation.gui.item_stack.meta_fuzzy.enabled,Metadata ignored,メタデータは無視されます
+jecalculation.gui.item_stack.meta_normal.disabled,Please choose item first,アイテムを選択してください
+jecalculation.gui.item_stack.meta_normal.enabled,Metadata sensitive,メタデータ感知
+jecalculation.gui.item_stack.nbt_fuzzy.enabled,NBT ignored,NBT無視
+jecalculation.gui.item_stack.nbt_normal.disabled,Please choose item first,アイテムを選択してください
+jecalculation.gui.item_stack.nbt_normal.enabled,NBT sensitive,NBTセンシティブ
+jecalculation.gui.label.help,"This interface allows you to create labels. This mod provides 4 types of labels: fluid, oreDict, placeholder and item. To create fluid and oreDict label, you can just search and pick. Item labels represent an item stack, but with fuzzy options for meta, nbt and capalibity.As is indicated by the name, Placeholder labels do not hold any content. It is just a string to connect recipes. You can use it for anything, like structure or event energy. To create one, simply type in the name, then hit the tick. You can also search and pick from existing ones.",このインターフェースでラベルを作成できます。このModは4つのタイプのラベルを提供します：液体、鉱辞書、プレースホルダー、アイテムです。液体ラベルと鉱辞書ラベルを作成するには、検索して選択するだけです。アイテムラベルはアイテムスタックを表現しますが、メタ、NBT、能力についてのファジーオプションがあります。名前が示すように、プレースホルダーラベルはコンテンツを保持しません。レシピを接続するための文字列です。構造やイベントエネルギーなど、任意の目的で使用できます。作成するには、名前を入力してチェックマークをクリックするだけです。既存のものから検索して選択することもできます。
+jecalculation.gui.label.title,Label Editing,ラベル編集
+jecalculation.gui.math.help,"You can use both buttons and keyboard (numpad or main keyboard) to use it. For main keyboard, the buttons are mapped to these keys:
+- plus: ","ボタンとキーボード（テンキーまたはメインキーボード）の両方を使用できます。メインキーボードの場合、ボタンは次のキーにマッピングされます：
+- プラス："
+jecalculation.gui.math.title,Math Calculator,数学計算機
+jecalculation.gui.placeholder.create,Create new placeholder,新しいプレースホルダーを作成
+jecalculation.gui.recipe.clear,Clear grid,グリッドをクリア
+jecalculation.gui.recipe.confirm,Apply changes,変更を適用
+jecalculation.gui.recipe.confirm.disabled,Cannot use empty string as group name,空文字列はグループ名として使用できません
+jecalculation.gui.recipe.confirm.enabled,Confirm,確認
+jecalculation.gui.recipe.copy.disabled,"Cannot save as new recipe
+because you are not editing
+a recipe or already have
+same recipe",新規レシピとして保存できません
+jecalculation.gui.recipe.copy.enabled,Save as new recipe,新しいレシピとして保存
+jecalculation.gui.recipe.delete,Delete label,ラベルを削除
+jecalculation.gui.recipe.disamb.disabled,"Disambiguation settings are only
+available when transferring recipes
+with multiple options from JEI",曖昧さ解消設定はのみ
+jecalculation.gui.recipe.disamb.enabled,Open disambiguate settings,曖昧さ解消設定を開く
+jecalculation.gui.recipe.help,"This interface allows you to create or edit recipes. To create one recipe, you can pick items from the JEI item list, then put it into the slots. When finished, simply click the save button. You can also fast transer recipes from JEI by clicking ""+"" when openning recipe view.To edit one label, you can simply click it, then a toolbar will pop up to help you, where you can switch between amount and percentage mode, type the amount, or remove the label. In addition, you can use mouse scroll to quickly change the amount. Clicking the ""Clear"" button will remove all of the labels.Using recipe fast transfer, some labels will automatically setup for you, like oreDict labels. If you do not want this behavoir, simply use ""Disambiguous"" button to select manually. You can also add labels by ckicking the ""Add label"" button. By the way, normally you shouldn't put fuzzy labels as output.You can easily manage recipes using groups. Click the ""New group"" button, type the group name and hit the tick, you are done. The new group name will show in the top bar. If you already have groups set up and you want to use an existing one, you can use the arrows to select between them.When you are editing an existing recipe, you will have two extra buttons, ""Save as"" and ""Delete"". ""Save as"" allows you to save the current recipe as a new recipe, without changing the existing one. ""Delete"" simply allows you to delete the recipe.",このインターフェースでは、レシピを作成または編集できます。レシピを作成するには、JEIのアイテムリストからアイテムを選び、スロットに配置します。完了したら、保存ボタンをクリックします。レシピビューを開いているときに「+」をクリックすると、JEIから高速でレシピを転送することもできます。ラベルを編集するには、ラベルをクリックするとツールバーが表示されます。ここで数量と百分率モードを切り替えたり、数量を入力したり、ラベルを削除したりできます。さらに、マウススクロールで数量をすばやく変更することもできます。「クリア」ボタンをクリックすると、すべてのラベルが削除されます。高速レシピ転送を使用すると、鉱辞書ラベルなど、一部のラベルが自動的に設定されます。この動作を望まない場合は、「曖昧さ排除」ボタンを使用して手動で選択できます。「ラベルを追加」ボタンをクリックしてラベルを追加することもできます。ちなみに、通常はファジーラベルを出力として使用しないでください。グループを使用してレシピを簡単に管理できます。「新規グループ」ボタンをクリックし、グループ名を入力してチェックマークをクリックすれば完了です。新規グループ名がトップバーに表示されます。既にグループが設定されていて、既存のグループを使用したい場合は、矢印を使用してグループ間を選択できます。既存のレシピを編集する場合、2つの追加ボタン「名前を付けて保存」と「削除」が表示されます。「名前を付けて保存」を使用すると、現在のレシピを新しいレシピとして保存でき、既存のレシピは変更されません。「削除」はレシピを削除できます。
+jecalculation.gui.recipe.label,Add label,ラベルを追加
+jecalculation.gui.recipe.new,New group,新しいグループ
+jecalculation.gui.recipe.pick,Pick label,ラベルを選択
+jecalculation.gui.recipe.save.disabled,"Cannot save recipe because
+recipe is invalid or you
+already have same recipe",レシピを保存できません。理由：
+jecalculation.gui.recipe.save.enabled,Save,保存
+jecalculation.gui.recipe.title,Recipe Editing,レシピ編集
+jecalculation.gui.recipe.to_amount,Change to amount,数量を変更
+jecalculation.gui.recipe.to_percent,Change to percentage,パーセンテージに変更
+jecalculation.gui.search.all,All,すべて
+jecalculation.gui.search.confirm.disabled,"New name cannot be empty
+or the same as existing ones",新しい名前は空欄にできません
+jecalculation.gui.search.confirm.enabled,Confirm,確認
+jecalculation.gui.search.delete,Delete recipe,レシピを削除
+jecalculation.gui.search.delete_all.disabled,No record to delete,削除する記録がありません
+jecalculation.gui.search.delete_all.enabled,§cDelete all§r recipes,§cすべてのレシピを削除§r
+jecalculation.gui.search.delete_group,§cDelete§r all recipes in group,§cグループ内のすべてのレシピを削除§r
+jecalculation.gui.search.edit,Edit recipe,レシピを編集
+jecalculation.gui.search.export_all.disabled,Cannot export because no recipe recorded,吸着タイプの海水中金属抽出機
+jecalculation.gui.search.export_all.enabled,Export all recipes,すべてのレシピをエクスポート
+jecalculation.gui.search.export_group,Export recipes in current group,現在のグループのレシピをエクスポート
+jecalculation.gui.search.help,"This interface allows you to search, import and export recipes. Simply click the item to edit or delete the recipe. The two buttons in upper left will be helpful if you want to import or export recipes.",このインターフェースではレシピの検索、インポート、エクスポートができます。アイテムをクリックするだけでレシピを編集または削除できます。左上の2つのボタンはレシピをインポートまたはエクスポートする場合に便利です。
+jecalculation.gui.search.import,Import recipes,レシピをインポート
+jecalculation.gui.search.rename.disabled,"Rename options only available
+when one group selected",リネームオプションは利用可能です
+jecalculation.gui.search.rename.enabled,Rename group,グループ名を変更
+jecalculation.gui.search.title,Recipe Management,レシピ管理
+jecalculation.item.calculator_craft,Crafting calculator,クラフト計算機
+jecalculation.item.calculator_math,Math calculator,数学計算機
+jecalculation.key.category,Just Enough Calculation,十分な計算
+jecalculation.key.gui_craft,Open crafting calculator,クラフト計算機を開く
+jecalculation.key.gui_math,Open math calculator,古代都市のアイスボックス
+jecalculation.label.common.amount,Amount: %s,数量: %s
+jecalculation.label.fluid_tag.name,Fluid tag: %s,液体タグ: %s
+jecalculation.label.item_stack.fuzzy_cap,Fuzzy capabilities,ファジー機能
+jecalculation.label.item_stack.fuzzy_meta,Fuzzy metadata,曖昧なメタデータ
+jecalculation.label.item_stack.fuzzy_nbt,Fuzzy NBT,ぼやけたNBT
+jecalculation.label.item_tag.name,Item tag: %s,Itemタグ: %s
+jecalculation.label.placeholder.name,Placeholder: %s,プレースホルダー: %s

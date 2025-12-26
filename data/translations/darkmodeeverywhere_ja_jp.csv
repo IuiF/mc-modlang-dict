@@ -1,0 +1,40 @@
+﻿key,source_text,target_text
+config.darkemodeeverywhere.button_position_x,Pixels away from the left of the GUI in the x axis,GUI の左側から x 軸方向にピクセル単位で離れた位置です。
+config.darkemodeeverywhere.button_position_y,Pixels away from the bottom of the GUI in the y axis,GUI の下端から y 軸方向にピクセル単位で離れた位置
+config.darkemodeeverywhere.method_shader_blacklist,"A list of class:method strings (render methods) that the dark shader will not be applied to.\nEach string consists of the class and the method (or any substring) to block the dark shader.\nFor example, 'renderHunger' is sufficient to block 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' (either will work)","ダークシェーダーが適用されないクラス:メソッド文字列（レンダリングメソッド）のリスト。
+各文字列はクラスとブロックするメソッド（またはその一部の部分文字列）で構成されます。
+例えば、'renderHunger' だけで 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' をブロックするのに十分です（どちらでも機能します）。"
+config.darkemodeeverywhere.method_shader_dump,"Enabling this config will (every 5 seconds) dump which methods were used to render GUIs that the dark shader was applied to\nThe dump will consist of a list of class:method strings, e.g. 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'\nUse this feature to help find the render method strings of GUIs you would like to blacklist.","この設定を有効にすると、5秒ごとにダークシェーダーが適用されたGUIレンダリングに使用されたメソッドをダンプします。
+ダンプは例えば 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' のようなクラス:メソッド文字列のリストで構成されます。
+この機能を使用して、ブラックリストに登録したいGUIのレンダリングメソッド文字列を見つけるのに役立ちます。"
+config.darkmodeeverywhere.enabled,Enabled,有効
+gui.darkmodeeverywhere.less_perfect_dark,Less Perfect Dark,より不完全な暗闇
+gui.darkmodeeverywhere.light_mode,Light Mode,ライトモード
+gui.darkmodeeverywhere.perfect_dark,Perfect Dark,完全な闇
+gui.darkmodeeverywhere.toasted_light,Toasted Light Mode,トーストライトモード
+gui.tooltip.darkmodeeverywhere.shader_switch_tooltip," * Use shift to skip to Light Mode",* Shiftキーを押してライトモードに移行
+Inventory Button.button,Inventory Button,インベントリボタン
+Main Menu Button.button,Main Menu Button,メインメニューボタン
+config.darkmodeeverywhere.button_position_x,Button X Position,ボタンX座標
+config.darkmodeeverywhere.button_position_x.tooltip,Pixels away from the left of the GUI in the x axis,GUI の左側から x 軸方向へピクセル単位で離れた位置にある
+config.darkmodeeverywhere.button_position_y,Button Y Position,ボタンY座標
+config.darkmodeeverywhere.button_position_y.tooltip,Pixels away from the bottom of the GUI in the y axis,GUIの下端からy軸方向にピクセル数。
+config.darkmodeeverywhere.method_shader_blacklist,Method Shader Blacklist,メソッドシャドウブラックリスト
+config.darkmodeeverywhere.method_shader_blacklist.tooltip,"A list of class:method strings (render methods) that the dark shader will not be applied to.
+Each string consists of the class and the method (or any substring) to block the dark shader.
+For example, 'renderHunger' is sufficient to block 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' (either will work)","ダークシェーダーが適用されないクラス:メソッド文字列（レンダリングメソッド）のリスト。
+各文字列はクラスとブロックするメソッド（またはその一部の部分文字列）で構成されます。
+例えば、'renderHunger' だけで 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' をブロックするのに十分です（どちらでも機能します）。"
+config.darkmodeeverywhere.method_shader_dump,Method Shader Dump,メソッドシェーダーのダンプ
+config.darkmodeeverywhere.method_shader_dump.tooltip,"Enabling this config will (every 5 seconds) dump which methods were used to render GUIs that the dark shader was applied to
+The dump will consist of a list of class:method strings, e.g. 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'
+Use this feature to help find the render method strings of GUIs you would like to blacklist.","この設定を有効にすると、5秒ごとにダークシェーダーが適用されたGUIレンダリングに使用されたメソッドをダンプします。
+ダンプは例えば 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' のようなクラス:メソッド文字列のリストで構成されます。
+この機能を使用して、ブラックリストに登録したいGUIのレンダリングメソッド文字列を見つけるのに役立ちます。"
+darkmodeeverywhere.configuration.Inventory Button,Inventory Button,インベントリボタン
+darkmodeeverywhere.configuration.Inventory Button.tooltip,Edit Inventory Position,インベントリ位置の編集
+darkmodeeverywhere.configuration.Main Menu Button,Main Menu Button,メインメニューボタン
+darkmodeeverywhere.configuration.Main Menu Button.tooltip,Edit Main Menu Position,メインメニュー位置の編集
+darkmodeeverywhere.configuration.section.darkmodeeverywhere.startup.toml,Startup,起動
+darkmodeeverywhere.configuration.section.darkmodeeverywhere.startup.toml.title,Startup,起動
+darkmodeeverywhere.configuration.title,Dark Mode Everywhere Client Config,全画面ダークモード クライアント設定

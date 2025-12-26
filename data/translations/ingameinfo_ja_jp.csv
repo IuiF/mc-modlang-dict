@@ -1,0 +1,295 @@
+﻿key,source_text,target_text
+ingameinfoxml.config.category.general,General,一般
+ingameinfoxml.config.category.general.tooltip,General options.,一般設定。
+ingameinfoxml.config.category.alignment,Alignment,整列
+ingameinfoxml.config.category.alignment.tooltip,Alignment offset options.,整列オフセット設定。
+ingameinfoxml.config.filename,Filename,ファイル名
+ingameinfoxml.config.filename.tooltip,The configuration that should be loaded on startup.,起動時にロードが必要な設定。
+ingameinfoxml.config.replaceDebug,Replace Debug Overlay,デバッグオーバーレイを置き換え
+ingameinfoxml.config.replaceDebug.tooltip,Replace the debug overlay (F3) with the InGameInfoXML overlay.,デバッグオーバーレイ(F3)をInGameInfoXMLオーバーレイに置き換えます。
+ingameinfoxml.config.showInChat,Show in Chat,チャットで表示
+ingameinfoxml.config.showInChat.tooltip,Display the overlay in chat.,チャットでオーバーレイを表示します。
+ingameinfoxml.config.showOnPlayerList,Show on Player List,プレイヤーリストに表示
+ingameinfoxml.config.showOnPlayerList.tooltip,Display the overlay on the player list.,プレイヤーリストにオーバーレイを表示します。
+ingameinfoxml.config.scale,Scale,大きさ
+ingameinfoxml.config.scale.tooltip,The overlay will be scaled by this amount.,オーバーレイはこの値でスケーリングされます。
+ingameinfoxml.config.fileInterval,File Tag Interval,ファイルタグ間隔
+ingameinfoxml.config.fileInterval.tooltip,The interval between file reads for the 'file' tag (in seconds).,'file'タグの読み取り間隔(秒)。
+ingameinfoxml.config.showOverlayPotions,Show Potion Effects,ポーションエフェクトを表示する
+ingameinfoxml.config.showOverlayPotions.tooltip,Display the vanilla potion effects overlay.,バニラポーションの効果のオーバーレイを表示します。
+ingameinfoxml.config.showOverlayItemIcons,Show Item Overlay,アイテムオーバーレイを表示する
+ingameinfoxml.config.showOverlayItemIcons.tooltip,"Display the item overlay on icon (durability, stack size).",アイテムオーバーレイをアイコンに表示します(耐久、スタックサイズ)。
+ingameinfoxml.config.topleft,Top Left,左上
+ingameinfoxml.config.topleft.tooltip,Offsets for the top left side of the screen (X<space>Y).,画面の左上のオフセット (X<スペース>Y)。
+ingameinfoxml.config.topcenter,Top Center,中央上
+ingameinfoxml.config.topcenter.tooltip,Offsets for the top center side of the screen (X<space>Y).,画面の中央上部のオフセット (X<スペース>Y)。
+ingameinfoxml.config.topright,Top Right,右上
+ingameinfoxml.config.topright.tooltip,Offsets for the top right side of the screen (X<space>Y).,画面右上のオフセット (X<スペース>Y)。
+ingameinfoxml.config.middleleft,Middle Left,中央左
+ingameinfoxml.config.middleleft.tooltip,Offsets for the middle left side of the screen (X<space>Y).,画面の中央左のオフセット (X<スペース>Y)。
+ingameinfoxml.config.middlecenter,Middle Center,中央
+ingameinfoxml.config.middlecenter.tooltip,Offsets for the middle center side of the screen (X<space>Y).,画面の中央のオフセット (X<スペース>Y)。
+ingameinfoxml.config.middleright,Middle Right,中央右
+ingameinfoxml.config.middleright.tooltip,Offsets for the middle right side of the screen (X<space>Y).,画面の中央右のオフセット (X<スペース>Y)。
+ingameinfoxml.config.bottomleft,Bottom Left,左下
+ingameinfoxml.config.bottomleft.tooltip,Offsets for the bottom left side of the screen (X<space>Y).,画面の左下のオフセット (X<スペース>Y)。
+ingameinfoxml.config.bottomcenter,Bottom Center,中央下
+ingameinfoxml.config.bottomcenter.tooltip,Offsets for the bottom center side of the screen (X<space>Y).,画面の中央下のオフセット (X<スペース>Y)。
+ingameinfoxml.config.bottomright,Bottom Right,右下
+ingameinfoxml.config.bottomright.tooltip,Offsets for the bottom right side of the screen (X<space>Y).,画面の右下のオフセット (X<スペース>Y)。
+gui.ingameinfoxml.taglist,Tag List,タグリスト
+ingameinfoxml.tag.category.formatting.name,Formatting,書式設定
+ingameinfoxml.tag.category.misc.name,Miscellaneous,その他
+ingameinfoxml.tag.category.mouseover.name,Mouse Over,マウスオーバー
+ingameinfoxml.tag.category.nearbyplayer.name,Nearby Players,近くのプレイヤー
+ingameinfoxml.tag.category.playerequipment.name,Player - Equipment,プレイヤー - 装備
+ingameinfoxml.tag.category.playergeneral.name,Player - General,プレイヤー - 一般
+ingameinfoxml.tag.category.playerposition.name,Player - Position,プレイヤー - ポーション
+ingameinfoxml.tag.category.playerpotion.name,Player - Potion Effects,プレイヤー - ポーションエフェクト
+ingameinfoxml.tag.category.riding.name,Riding,騎乗
+ingameinfoxml.tag.category.time.name,Time,時間
+ingameinfoxml.tag.category.world.name,World,ワールド
+ingameinfoxml.tag.category.bloodmagic.name,Blood Magic,血の魔法
+ingameinfoxml.tag.category.simplyjetpacks.name,Simply Jetpacks,シンプリー・ジェットパック
+ingameinfoxml.tag.category.terrafirmacraft.name,TerraFirmaCraft,テラファーマクラフト
+ingameinfoxml.tag.black.desc,Black color (§0EXAMPLE§r).,黒色 (§0サンプル§r)。
+ingameinfoxml.tag.darkblue.desc,Dark blue color (§1EXAMPLE§r).,濃い青色 (§1サンプル§r)。
+ingameinfoxml.tag.darkgreen.desc,Dark green color (§2EXAMPLE§r).,濃い緑色 (§2サンプル§r)。
+ingameinfoxml.tag.darkaqua.desc,Dark aqua color (§3EXAMPLE§r).,濃い水色 (§3サンプル§r)。
+ingameinfoxml.tag.darkred.desc,Dark red color (§4EXAMPLE§r).,濃い赤色 (§4サンプル§r)。
+ingameinfoxml.tag.darkpurple.desc,Dark purple color (§5EXAMPLE§r).,濃い紫色 (§5サンプル§r)。
+ingameinfoxml.tag.gold.desc,Gold color (§6EXAMPLE§r).,金色 (§6サンプル§r)。
+ingameinfoxml.tag.gray.desc,Gray color (§7EXAMPLE§r).,灰色 (§7サンプル§r)。
+ingameinfoxml.tag.darkgrey.desc,Dark grey color (§8EXAMPLE§r).,濃い灰色 (§8サンプル§r)。
+ingameinfoxml.tag.blue.desc,Blue color (§9EXAMPLE§r).,青色 (§9サンプル§r)。
+ingameinfoxml.tag.green.desc,Green color (§aEXAMPLE§r).,緑色 (§aサンプル§r)。
+ingameinfoxml.tag.aqua.desc,Aqua color (§bEXAMPLE§r).,水色 (§bサンプル§r)。
+ingameinfoxml.tag.red.desc,Red color (§cEXAMPLE§r).,赤色 (§cサンプル§r)。
+ingameinfoxml.tag.lightpurple.desc,Light purple color (§dEXAMPLE§r).,明るい紫色 (§dサンプル§r)。
+ingameinfoxml.tag.yellow.desc,Yellow color (§eEXAMPLE§r).,黄色 (§eサンプル§r)。
+ingameinfoxml.tag.white.desc,White color (§fEXAMPLE§r).,白色 (§fサンプル§r)。
+ingameinfoxml.tag.obfuscated.desc,Obfuscated text (§kEXAMPLE§r).,難読化文字 (§kサンプル§r)。
+ingameinfoxml.tag.bold.desc,Bold text (§lEXAMPLE§r).,太字 (§lサンプル§r)。
+ingameinfoxml.tag.strikethrough.desc,Strike through text (§mEXAMPLE§r).,取り消し線文字 (§mサンプル§r)。
+ingameinfoxml.tag.underline.desc,Underlined text (§nEXAMPLE§r).,下線文字 (§nサンプル§r)。
+ingameinfoxml.tag.italic.desc,Italic text (§oEXAMPLE§r).,イタリック体文字 (§oサンプル§r)。
+ingameinfoxml.tag.reset.desc,Reset formatting.,書式設定をリセット。
+ingameinfoxml.tag.memmax.desc,Amount of maximum memory.,最大メモリ量。
+ingameinfoxml.tag.memtotal.desc,Amount of total memory.,総メモリ量。
+ingameinfoxml.tag.memfree.desc,Amount of free memory.,空きメモリ量。
+ingameinfoxml.tag.memused.desc,Amount of memory in use.,使用中メモリ量。
+ingameinfoxml.tag.fps.desc,Current FPS.,現在のFPS。
+ingameinfoxml.tag.resourcepack.desc,Current resource pack.,現在のリソースパック。
+ingameinfoxml.tag.entitiesrendered.desc,Amount of rendered entities.,レンダリングされるエンティティーの量。
+ingameinfoxml.tag.entitiestotal.desc,Amount of loaded entities.,読み込まれているエンティティーの量。
+ingameinfoxml.tag.loadedchunks.desc,Amount of loaded chunks.,ロードされたチャンクの量。
+ingameinfoxml.tag.server.desc,"Server domain or IP and the port if it's not 25565, localhost if it's a local game.",サーバーのドメインまたはIPがポート25565でないとき、 localhostの場合はローカルゲーム。
+ingameinfoxml.tag.servername.desc,"Server domain, localhost if it's a local game.",サーバーのドメイン。 ローカルゲームの場合はlocalhost。
+ingameinfoxml.tag.serverip.desc,"Server IP, 127.0.0.1 if it's a local game.",サーバーのIP。 のローカルゲーム場合は 127.0.0.1。
+ingameinfoxml.tag.serverport.desc,"Server port, -1 if it's a local game.",サーバーポート。 ローカルゲームの場合は-1。
+ingameinfoxml.tag.ping.desc,"Current ping, -1 if no data.",現在のping。 データが無い場合は-1。
+ingameinfoxml.tag.pingicon.desc,"Current ping icon, empty string if no data.",現在のpingアイコン。データが無い場合はからの文字列。
+ingameinfoxml.tag.mouseovername.desc,"Name of the entity or block under the cursor, an empty string if there is nothing.",カーソルの下のエンティティまたはブロックの名前。何もない場合は空の文字列。
+ingameinfoxml.tag.mouseoveruniquename.desc,"Unique name of the entity or block under the cursor, an empty string if there is nothing.",カーソルの下のエンティティまたはブロックのユニークな名称。何もない場合は空の文字列。
+ingameinfoxml.tag.mouseoverid.desc,"Entity id or block id under the cursor, zero if there is nothing.",カーソルの下にあるエンティティIdまたはブロックId。何もない場合はゼロ。
+ingameinfoxml.tag.mouseovermetadata.desc,"Block metadata under the cursor, zero if there is nothing.",カーソルの下にあるブロックのメタデータ。何もない場合はゼロ。
+ingameinfoxml.tag.mouseoverpowerweak.desc,"Weak redstone power of the block, -1 if there is nothing.",ブロックの弱いレッドストーンパワー。ない場合は-1。
+ingameinfoxml.tag.mouseoverpowerstrong.desc,"Strong redstone power of the block, -1 if there is nothing.",ブロックの強いレッドストーンパワー。ない場合は-1。
+ingameinfoxml.tag.mouseoverpowerinput.desc,"Input redstone power of the block, -1 if there is nothing.",ブロックの入力レッドストーンパワー。ない場合は-1。
+ingameinfoxml.tag.nearbyplayerdistance.desc,Distance to x-th nearby player.,x番目に近いプレイヤーの距離。
+ingameinfoxml.tag.nearbyplayername.desc,Name of the x-th nearby player.,x番目に近いプレイヤーの名前。
+ingameinfoxml.tag.nearbyplayericon.desc,Head icon of the x-th nearby player.,x番目に近いプレイヤーのヘッドアイコン。
+ingameinfoxml.tag.equippedname.desc,Equipped item's name.,装備品の名前。
+ingameinfoxml.tag.equippeduniquename.desc,Equipped item's unique name.,装備アイテムのユニークな名称。
+ingameinfoxml.tag.equippeddamage.desc,Equipped item's damage.,装備品の耐久。
+ingameinfoxml.tag.equippedmaxdamage.desc,Equipped item's max damage.,装備品アイテムの最大耐久。
+ingameinfoxml.tag.equippeddamageleft.desc,Equipped item's damage left.,装備品の耐久が残っています。
+ingameinfoxml.tag.equippedquantity.desc,Quantity of the equipped item in the inventory.,インベントリ内に装備されているアイテムの数。
+ingameinfoxml.tag.equippedicon.desc,Equipped item's icon.,装備したアイテムのアイコン。
+ingameinfoxml.tag.equippedlargeicon.desc,Equipped item's large icon.,装備したアイテムの大きなアイコン。
+ingameinfoxml.tag.mainhandname.desc,Main hand item's name.,メインハンドのアイテムの名前。
+ingameinfoxml.tag.mainhanduniquename.desc,Main hand item's unique name.,メインハンドのアイテムのユニークな名称。
+ingameinfoxml.tag.mainhanddamage.desc,Main hand item's damage.,メインハンドアイテムの耐久。
+ingameinfoxml.tag.mainhandmaxdamage.desc,Main hand item's max damage.,メインハンドアイテムの最大耐久。
+ingameinfoxml.tag.mainhanddamageleft.desc,Main hand item's damage left.,メインハンドアイテムの耐久が残っています。
+ingameinfoxml.tag.mainhandquantity.desc,Quantity of the main hand item in the inventory.,インベントリ内のメインハンドアイテムの数。
+ingameinfoxml.tag.mainhandicon.desc,Main hand item's icon.,メインハンドアイテムのアイコン。
+ingameinfoxml.tag.mainhandlargeicon.desc,Main hand item's large icon.,メインハンドアイテムの大きなアイコン。
+ingameinfoxml.tag.offhandname.desc,Off hand item's name.,オフハンドアイテムの名前。
+ingameinfoxml.tag.offhanduniquename.desc,Off hand item's unique name.,オフハンドアイテムのユニークな名称。
+ingameinfoxml.tag.offhanddamage.desc,Off hand item's damage.,オフハンドアイテムの耐久。
+ingameinfoxml.tag.offhandmaxdamage.desc,Off hand item's max damage.,オフハンドアイテムの最大耐久。
+ingameinfoxml.tag.offhanddamageleft.desc,Off hand item's damage left.,オフハンドアイテムの耐久が残っています。
+ingameinfoxml.tag.offhandquantity.desc,Quantity of the off hand item in the inventory.,インベントリ内のオフハンドアイテムの数。
+ingameinfoxml.tag.offhandicon.desc,Off hand item's icon.,オフハンドアイテムのアイコン。
+ingameinfoxml.tag.offhandlargeicon.desc,Off hand item's large icon.,オフハンドアイテムの大きなアイコン。
+ingameinfoxml.tag.helmetname.desc,Helmet's name.,ヘルメットの名前。
+ingameinfoxml.tag.helmetuniquename.desc,Helmet's unique name.,ヘルメットのユニークな名称。
+ingameinfoxml.tag.helmetdamage.desc,Helmet's damage.,ヘルメットの耐久。
+ingameinfoxml.tag.helmetmaxdamage.desc,Helmet's max damage.,ヘルメットの最大耐久。
+ingameinfoxml.tag.helmetdamageleft.desc,Helmet's damage left.,ヘルメットの耐久が残っています。
+ingameinfoxml.tag.helmetquantity.desc,Quantity of the helmet in the inventory.,インベントリ内のヘルメットの数。
+ingameinfoxml.tag.helmeticon.desc,Helmet's icon.,ヘルメットのアイコン。
+ingameinfoxml.tag.helmetlargeicon.desc,Helmet's large icon.,ヘルメットの大きなアイコン。
+ingameinfoxml.tag.chestplatename.desc,Chestplate's name.,チェストプレートの名前。
+ingameinfoxml.tag.chestplateuniquename.desc,Chestplate's unique name.,チェストプレートのユニークな名称。
+ingameinfoxml.tag.chestplatedamage.desc,Chestplate's damage.,チェストプレートの耐久。
+ingameinfoxml.tag.chestplatemaxdamage.desc,Chestplate's max damage.,チェストプレートの最大耐久。
+ingameinfoxml.tag.chestplatedamageleft.desc,Chestplate's damage left.,チェストプレートの耐久が残っています。
+ingameinfoxml.tag.chestplatequantity.desc,Quantity of the chestplate in the inventory.,インベントリ内のチェストプレートの数。
+ingameinfoxml.tag.chestplateicon.desc,Chestplate's icon.,チェストプレートのアイコン。
+ingameinfoxml.tag.chestplatelargeicon.desc,Chestplate's large icon.,チェストプレートの大きなアイコン。
+ingameinfoxml.tag.leggingsname.desc,Leggings' name.,レギンスの名前。
+ingameinfoxml.tag.leggingsuniquename.desc,Leggings' unique name.,レギンスのユニークな名称。
+ingameinfoxml.tag.leggingsdamage.desc,Leggings' damage.,レギンスの耐久。
+ingameinfoxml.tag.leggingsmaxdamage.desc,Leggings' max damage.,レギンスの最大耐久。
+ingameinfoxml.tag.leggingsdamageleft.desc,Leggings' damage left.,レギンスの耐久が残っています。
+ingameinfoxml.tag.leggingsquantity.desc,Quantity of the leggings in the inventory.,インベントリ内のレギンスの数。
+ingameinfoxml.tag.leggingsicon.desc,Leggings' icon.,レギンスのアイコン。
+ingameinfoxml.tag.leggingslargeicon.desc,Leggings' large icon.,レギンスの大きなアイコン。
+ingameinfoxml.tag.bootsname.desc,Boots' name.,ブーツの名前。
+ingameinfoxml.tag.bootsuniquename.desc,Boots' unique name.,ブーツのユニークな名称。
+ingameinfoxml.tag.bootsdamage.desc,Boots' damage.,ブーツの耐久。
+ingameinfoxml.tag.bootsmaxdamage.desc,Boots' max damage.,ブーツの最大耐久。
+ingameinfoxml.tag.bootsdamageleft.desc,Boots' damage left.,ブーツの耐久が残っています。
+ingameinfoxml.tag.bootsquantity.desc,Quantity of the boots in the inventory.,インベントリ内のブーツの数。
+ingameinfoxml.tag.bootsicon.desc,Boots' icon.,ブーツのアイコン。
+ingameinfoxml.tag.bootslargeicon.desc,Boots' large icon.,ブーツの大きなアイコン。
+ingameinfoxml.tag.light.desc,Light level at your current position.,現在位置の明るさレベル。
+ingameinfoxml.tag.lighteye.desc,Light level at your current position (eye level).,現在位置(目の高さ)の明るさレベル。
+ingameinfoxml.tag.lightnosun.desc,Light level at your current position without sunlight.,太陽光が無い時の現在位置での明るさレベル。
+ingameinfoxml.tag.lightnosuneye.desc,Light level at your current position without sunlight (eye level).,太陽光が無い時の現在位置(目の高さ)での明るさレベル。
+ingameinfoxml.tag.lightsun.desc,Sunlight level at your current position.,現在位置の太陽光レベル。
+ingameinfoxml.tag.lightsuneye.desc,Sunlight level at your current position (eye level).,現在位置(目の高さ)の太陽光レベル。
+ingameinfoxml.tag.score.desc,Player's score.,プレイヤーのスコア。
+ingameinfoxml.tag.gamemode.desc,Player's gamemode name.,プレイヤーのゲームモード名。
+ingameinfoxml.tag.gamemodeid.desc,Player's gamemode id.,プレイヤーのゲームモードId。
+ingameinfoxml.tag.health.desc,Player's current health points.,プレイヤーの現在のヘルスポイント。
+ingameinfoxml.tag.maxhealth.desc,Player's maximum health points.,プレイヤーの最大ヘルスポイント。
+ingameinfoxml.tag.armor.desc,Player's armor points.,プレイヤーの防御ポイント。
+ingameinfoxml.tag.foodlevel.desc,Player's food points.,プレイヤーの食料ポイント。
+ingameinfoxml.tag.maxfoodlevel.desc,Player's maximum food points.,プレイヤーの最大食料ポイント。
+ingameinfoxml.tag.saturation.desc,Player's food saturation.,プレイヤーの満腹状態。
+ingameinfoxml.tag.exhaustion.desc,Player's food exhaustion.,プレイヤーの空腹状態。
+ingameinfoxml.tag.airticks.desc,Player's air ticks.,プレイヤーの空気の持続Tick。
+ingameinfoxml.tag.maxairticks.desc,Player's maximum air ticks.,プレイヤーの最大の空気の持続Tick。
+ingameinfoxml.tag.playerlevel.desc,Player's level.,プレイヤーのレベル。
+ingameinfoxml.tag.xpthislevel.desc,Player's current experience.,プレイヤーの現在の経験値。
+ingameinfoxml.tag.xpuntilnext.desc,Player's experience until level up.,レベルアップまでのプレイヤーの経験値。
+ingameinfoxml.tag.xpcap.desc,Player's total required experience for the current level.,次のレベルでプレイヤーが必要とする経験値の合計。
+ingameinfoxml.tag.username.desc,Player's username.,プレイヤーのユーザー名。
+ingameinfoxml.tag.inwater.desc,"§etrue§r if the player is underwater, §efalse§r otherwise.",プレイヤーが水中にいる時は§etrue§rを、それ以外の時は§efalse§rを返します。
+ingameinfoxml.tag.wet.desc,"§etrue§r if the player is wet, §efalse§r otherwise.",プレイヤーが水に触れている時は§etrue§rを、それ以外の時は§efalse§rを返します。
+ingameinfoxml.tag.alive.desc,"§etrue§r if the player is alive, §efalse§r otherwise.",プレイヤーが生きている時は§etrue§rを、それ以外の時は§efalse§rを返します。
+ingameinfoxml.tag.burning.desc,"§etrue§r if the player is on fire, §efalse§r otherwise.",プレイヤーが燃えている時は§etrue§rを、それ以外の時は§efalse§rを返します。
+ingameinfoxml.tag.riding.desc,"§etrue§r if the player is riding, §efalse§r otherwise.",プレイヤーが騎乗している時は§etrue§rを、それ以外の時は§efalse§rを返します。
+ingameinfoxml.tag.sneaking.desc,"§etrue§r if the player is sneaking, §efalse§r otherwise.",プレイヤーがスニークしている時は§etrue§rを、それ以外の時は§efalse§rを返します。
+ingameinfoxml.tag.sprinting.desc,"§etrue§r if the player is sprinting, §efalse§r otherwise.",プレイヤーがダッシュしている時は§etrue§rを、それ以外の時は§efalse§rを返します。
+ingameinfoxml.tag.invisible.desc,"§etrue§r if the player is invisible, §efalse§r otherwise.",プレイヤーが透明化している時は§etrue§rを、それ以外の時は§efalse§rを返します。
+ingameinfoxml.tag.eating.desc,"§etrue§r if the player is eating, §efalse§r otherwise.",プレイヤーが食べている時は§etrue§rを、それ以外の時は§efalse§rを返します。
+ingameinfoxml.tag.chunkx.desc,Player's X chunk coordinate.,プレイヤーのXチャンク座標。
+ingameinfoxml.tag.chunkz.desc,Player's Z chunk coordinate.,プレイヤーのZチャンク座標。
+ingameinfoxml.tag.chunkoffsetx.desc,Player's X chunk offset coordinate (0-15).,プレイヤーのXチャンクオフセット座標(0-15)。
+ingameinfoxml.tag.chunkoffsetz.desc,Player's Z chunk offset coordinate (0-15).,プレイヤーのZチャンクオフセット座標(0-15)。
+ingameinfoxml.tag.x.desc,Player's X coordinate.,プレイヤーのX座標。
+ingameinfoxml.tag.y.desc,Player's Y coordinate.,プレイヤーのY座標。
+ingameinfoxml.tag.yeye.desc,Player's Y coordinate (eye level).,プレイヤーのY座標(目の高さ)。
+ingameinfoxml.tag.z.desc,Player's Z coordinate.,プレイヤーのZ座標。
+ingameinfoxml.tag.xi.desc,Player's X coordinate rounded to the closest whole number.,最も近い整数に丸められたプレイヤーのX座標。
+ingameinfoxml.tag.yi.desc,Player's Y coordinate rounded to the closest whole number.,最も近い整数に丸められたプレイヤーのY座標。
+ingameinfoxml.tag.yeyei.desc,Player's Y coordinate rounded to the closest whole number (eye level).,最も近い整数に丸められたプレイヤーのY座標(目の高さ)。
+ingameinfoxml.tag.zi.desc,Player's Z coordinate rounded to the closest whole number.,最も近い整数に丸められたプレイヤーのZ座標。
+ingameinfoxml.tag.speed.desc,Player's speed.,プレイヤーの速度。
+ingameinfoxml.tag.speedx.desc,Player's speed along the x axis.,X軸に沿ったプレイヤーの速度。
+ingameinfoxml.tag.speedy.desc,Player's speed along the y axis.,Y軸に沿ったプレイヤーの速度。
+ingameinfoxml.tag.speedz.desc,Player's speed along the z axis.,Z軸に沿ったプレイヤーの速度。
+ingameinfoxml.tag.speedxz.desc,Player's speed horizontally.,水平なプレイヤーの速度。
+ingameinfoxml.tag.pitch.desc,Player's pitch in degrees from -90 to +90.,-90から+90までのプレイヤーが投げる角度。
+ingameinfoxml.tag.direction.desc,Player's direction in degrees from -180 to 180.,-180から+180までのプレイヤーの向きの角度。
+ingameinfoxml.tag.roughdirection.desc,"Rough direction the player is currently facing (South, West, North, East).",プレイヤーが向いている大まかな方角(東、西、南、北)。
+ingameinfoxml.tag.finedirection.desc,"Fine direction the player is currently facing (South, South West, West, North West, ...).",プレイヤーが向いている細かな方角(南、南西、西、北西、...)。
+ingameinfoxml.tag.abrroughdirection.desc,"Abbreviated rough direction the player is currently facing (S, W, N, E).","プレイヤーが向いている大まかな略した方角(E, W, S, N)。"
+ingameinfoxml.tag.abrfinedirection.desc,"Abbreviated fine direction the player is currently facing (S, SW, W, NW, ...).",プレイヤーが向いている細かな略した方角(S、SW、W、NW、...)。
+ingameinfoxml.tag.axisdirection.desc,"Axis direction the player is currently facing (+Z, -X, -Z, +X).","プレイヤーが向いている軸方向(+Z, -X, -Z, +X)。"
+ingameinfoxml.tag.directionhud.desc,A small textual direction HUD.,小さなテキストの方角HUD。
+ingameinfoxml.tag.potioneffect.desc,Name of the x-th potion effect.,x番目のポーションエフェクトの名前。
+ingameinfoxml.tag.potionduration.desc,Duration of the x-th potion effect in seconds.,x番目のポーションエフェクトの持続時間。
+ingameinfoxml.tag.potiondurationticks.desc,Duration of the x-th potion effect in ticks.,x番目のポーションエフェクトの持続Tick。
+ingameinfoxml.tag.potionnegative.desc,"§etrue§r if the potion effect is negative, §efalse§r otherwise.",ポーション効果がマイナスの場合は§etrue§r、そうでない場合は§efalse§r。
+ingameinfoxml.tag.potionicon.desc,Icon of the x-th potion effect.,x番目のポーション効果のアイコン。
+ingameinfoxml.tag.potionlargeicon.desc,Large icon of the x-th potion effect.,x番目のポーション効果の大きいアイコン。
+ingameinfoxml.tag.ridinghorse.desc,"§etrue§r if the player is riding a horse, §efalse§r otherwise.",プレイヤーが馬に乗っている場合は§etrue§r、そうでない場合は§efalse§r。
+ingameinfoxml.tag.horsehealth.desc,Horse's health.,馬のヘルス。
+ingameinfoxml.tag.horsemaxhealth.desc,Horse's maximum health.,馬の最大ヘルス。
+ingameinfoxml.tag.horsespeed.desc,Horse's speed.,馬の速度。
+ingameinfoxml.tag.horsejumpstrength.desc,Horse's jump strength.,馬のジャンプ力。
+ingameinfoxml.tag.day.desc,"Minecraft day, starting from 0.",Minecraftの日付。 0から始まります。
+ingameinfoxml.tag.mctimeh.desc,Minecraft hour.,Minecraftの時間。
+ingameinfoxml.tag.mctimem.desc,Minecraft minute.,Minecraftの分。
+ingameinfoxml.tag.mctime24.desc,Minecraft time (24 hour format).,Minecraftの時間 (24時間形式)。
+ingameinfoxml.tag.mctime12.desc,Minecraft time (12 hour format).,Minecraftの時間 (12時間形式)。
+ingameinfoxml.tag.rltime24.desc,Real time (24 hour format).,現実の時間 (24時間形式)。
+ingameinfoxml.tag.rltime12.desc,Real time (12 hour format).,現実の時間 (12時間形式)。
+ingameinfoxml.tag.worldname.desc,World name.,ワールドの名前。
+ingameinfoxml.tag.worldsize.desc,World size.,ワールドのサイズ。
+ingameinfoxml.tag.worldsizemb.desc,World size in MiB.,MiBのワールドサイズ。
+ingameinfoxml.tag.seed.desc,World seed.,ワールドのシード値。
+ingameinfoxml.tag.difficulty.desc,World difficulty name.,ワールドの難易度の名前。
+ingameinfoxml.tag.difficultyid.desc,World difficulty id.,ワールドの難易度のId。
+ingameinfoxml.tag.localdifficulty.desc,Local difficulty.,ローカルの難易度。
+ingameinfoxml.tag.dimension.desc,Dimension name.,ディメンジョンの名前。
+ingameinfoxml.tag.dimensionid.desc,Dimension id.,ディメンジョンのId。
+ingameinfoxml.tag.biome.desc,Biome name.,バイオームの名前。
+ingameinfoxml.tag.biomeid.desc,Biome id.,バイオームのId。
+ingameinfoxml.tag.moonphase.desc,Moon phase.,月の位相。
+ingameinfoxml.tag.daytime.desc,"§etrue§r if it's daytime, §efalse§r otherwise.",昼間なら§etrue§r、そうでない場合は§efalse§r。
+ingameinfoxml.tag.raining.desc,"§etrue§r if it's raining, §efalse§r otherwise.",雨が降っていたら§etrue§r、そうでない場合は§efalse§r。
+ingameinfoxml.tag.thundering.desc,"§etrue§r if it's thundering, §efalse§r otherwise.",雷が鳴っていたら§etrue§r、そうでない場合は§efalse§r。
+ingameinfoxml.tag.snowing.desc,"§etrue§r if it's snowing, §efalse§r otherwise.",雪が降っていたら§etrue§r、そうでない場合は§efalse§r。
+ingameinfoxml.tag.nextweatherchange.desc,Time until the next weather change.,次の天気が変わるまでの時間。
+ingameinfoxml.tag.slimes.desc,"§etrue§r if the current chunk is a slime chunk, §efalse§r otherwise.",スライムがスポーン出来る場合は§etrue§r、そうでない場合は§efalse§r。
+ingameinfoxml.tag.slimechunk.desc,"§etrue§r if the current chunk is a slime chunk, §efalse§r otherwise.",現在のチャンクがスライムチャンクであれば§etrue§r、そうでない場合は§efalse§r。
+ingameinfoxml.tag.hardcore.desc,"§etrue§r if the world is in hardcore mode, §efalse§r otherwise.",ワールドがハードコアなら§etrue§r、そうでない場合は§efalse§r。
+ingameinfoxml.tag.temperature.desc,Biome temperature.,バイオームの温度。
+ingameinfoxml.tag.localtemperature.desc,Biome temperature at your current position.,現在位置でのバイオームの温度。
+ingameinfoxml.tag.humidity.desc,Biome humidity.,バイオームの湿度。
+ingameinfoxml.key.category,InGame Info XML,インゲーム情報XML
+ingameinfoxml.key.toggle,Toggle Overlay,オーバーレイ切り替え
+commands.ingameinfoxml.usage,/igi <reload|load|save|enable|disable|taglist|config> [filename],/igi <reload|load|save|enable|disable|taglist|config> [ファイル名]
+commands.ingameinfoxml.reload,Reloading...,リロード中...
+commands.ingameinfoxml.load,Loading %s...,ロード中 %s...
+commands.ingameinfoxml.save,Saving %s...,セーブ中 %s...
+commands.ingameinfoxml.success,Done!,完了!
+commands.ingameinfoxml.failure,Something went wrong!,何かがうまくいかなかった!
+commands.ingameinfoxml.enable,InGame Info XML overlay is now enabled.,InGame Info XML オーバーレイが有効になりました。
+commands.ingameinfoxml.disable,InGame Info XML overlay is now disabled.,InGame Info XML オーバーレイが無効になりました。
+ingameinfoxml.tag.lightfeet.desc,Light level at your current position (feet level).,現在位置（足レベル）の光量です。
+ingameinfoxml.tag.lightnosunfeet.desc,Light level at your current position without sunlight (feel level).,現在位置の光レベル（太陽光なし、感覚レベル）。
+ingameinfoxml.tag.lightsunfeet.desc,Sunlight level at your current position (feel level).,現在位置の日光レベル（感覚レベル）。
+ingameinfoxml.tag.invulnerable.desc,"§etrue§r if the player is invulnerable, §efalse§r otherwise.",§etrue§r はプレイヤーが無敵の場合、§efalse§r はそれ以外です。
+ingameinfoxml.tag.yfeet.desc,Player's Y coordinate (feel level).,プレイヤーのY座標（感覚レベル）。
+ingameinfoxml.tag.yfeeti.desc,Player's Y coordinate rounded to the closest whole number (feel level).,プレイヤーのY座標を最も近い整数に丸めた値（感覚レベル）
+ingameinfoxml.tag.nextrain.desc,Time until the next rain.,次回の雨までの時間。
+ingameinfoxml.tag.bmlp.desc,Current §4Essence§r.,現在の §4エッセンス§r。
+ingameinfoxml.tag.bmmaxlp.desc,Maximum §4Essence§r.,最大の §4エッセンス§r。
+ingameinfoxml.tag.sjenergy.desc,Jetpack energy.,ジェットパックのエネルギー
+ingameinfoxml.tag.sjmaxenergy.desc,Jetpack maximum energy.,最大エネルギー量
+ingameinfoxml.tag.sjpercent.desc,Jetpack energy left in percents.,ジェットパック残量（％）
+ingameinfoxml.tag.sjenabled.desc,"§etrue§r if the jetpack is enabled, §efalse§r otherwise.",§etrue§r ジェットパックが有効の場合、§efalse§r それ以外。
+ingameinfoxml.tag.sjhover.desc,"§etrue§r if the jetpack is in hover mode, §efalse§r otherwise.",§etrue§r ジェットパックがホバーモードの場合、§efalse§r それ以外の場合。
+ingameinfoxml.tag.tfcrainfall.desc,Rainfall at your current position.,現在の位置で雨が降っています。
+ingameinfoxml.tag.tfctemperature.desc,Temperature at your current position.,現在位置の温度です。
+ingameinfoxml.tag.tfcaveragetemperature.desc,Average yearly temperature at your current position.,現在位置の平均年間気温。
+ingameinfoxml.tag.tfctemperatureheatsources.desc,Temperature with external heat sources at your current position.,現在位置で外部熱源がある場合の温度。
+ingameinfoxml.tag.tfcseason.desc,Season.,シーズン
+ingameinfoxml.tag.tfcdate.desc,Date.,日付。
+ingameinfoxml.tag.tfcday.desc,Day.,日
+ingameinfoxml.tag.tfcmonth.desc,Month.,月。
+ingameinfoxml.tag.tfcyear.desc,Year.,年。
+ingameinfoxml.tag.fmtskill.desc,%s information.,%sの情報
+ingameinfoxml.tag.fmtskillrank.desc,Current rank for %s.,現在のランク：%s。
+ingameinfoxml.tag.fmtskillprogress.desc,Current progress in %s.,%s の現在の進捗
+ingameinfoxml.tag.tcwarpperm.desc,Player's permanent warp.,プレイヤーの永久的なワープ。
+ingameinfoxml.tag.tcwarpsticky.desc,Player's normal (sticky) warp.,プレイヤーの通常（粘着性）ワープ。
+ingameinfoxml.tag.tcwarptemp.desc,Player's temporary warp.,プレイヤーの一時的なワープ。
+ingameinfoxml.tag.tcwarptotal.desc,Player's total warp.,プレイヤーの総ワープ。

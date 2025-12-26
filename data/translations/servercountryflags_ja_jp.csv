@@ -1,0 +1,51 @@
+﻿key,source_text,target_text
+servercountryflags.config.category.border,Border,境界
+servercountryflags.config.category.locale,Locale,地域
+servercountryflags.config.category.preferences,Preferences,設定
+servercountryflags.config.field.borderColor.description,Border color around flags,フラッグ周辺の境界色
+servercountryflags.config.field.borderColor.name,Border Color,境界色
+servercountryflags.config.field.displayCooldownFlag.description,Displays a timeout flag when we have an API cooldown,APIクールダウン時にタイムアウトフラグを表示する
+servercountryflags.config.field.displayCooldownFlag.name,Display Cooldown Flag,クールダウンフラグを表示
+servercountryflags.config.field.displayUnknownFlag.description,Displays the unknown flag when we don't have data about the server yet,サーバーの情報がまだない場合に未知フラグを表示します。
+servercountryflags.config.field.displayUnknownFlag.name,Display Unknown Flag,不明フラグを表示
+servercountryflags.config.field.flagBorder.description,Displays a border around flags,フラグの周りに境界線を表示する
+servercountryflags.config.field.flagBorder.name,Flag Border,国旗の縁
+servercountryflags.config.field.flagPosition.description,"Changes the flags' positions. Available options: left, right, behindName, bottomRight, tooltipServerName, tooltipPing",旗の表示位置を変更します。利用可能なオプション: left（左）、right（右）、behindName（名前の後ろ）、bottomRight（右下）、tooltipServerName（ツールチップのサーバー名）、tooltipPing（ツールチップのPing値）
+servercountryflags.config.field.flagPosition.name,Flag Position,フラグの位置
+servercountryflags.config.field.flagPosition.value.behindName,Behind Name,名前の背後
+servercountryflags.config.field.flagPosition.value.bottomRight,Bottom Right,右下
+servercountryflags.config.field.flagPosition.value.left,Left,左
+servercountryflags.config.field.flagPosition.value.right,Right,右
+servercountryflags.config.field.flagPosition.value.tooltipPing,Tooltip (Ping),ツールチップ（Ping）
+servercountryflags.config.field.flagPosition.value.tooltipServerName,Tooltip (Server Name),ツールチップ（サーバー名）
+servercountryflags.config.field.forceEnglish.description,Forces the API results to be in English instead of your in-game language,API の結果をゲーム内言語ではなく英語に強制する
+servercountryflags.config.field.forceEnglish.name,Force English,英語に強制する
+servercountryflags.config.field.mapButton.description,Shows a map button in the server list which opens the server map,サーバーリストにマップボタンを表示し、クリックでサーバーマップを開きます
+servercountryflags.config.field.mapButton.name,Map Button,地図ボタン
+servercountryflags.config.field.mapButtonRight.description,Decides whether the map button should be on the right side or the left side,マップボタンを右側にするか左側にするか決定します
+servercountryflags.config.field.mapButtonRight.name,Map Button on the Right Side,右側にマップボタン
+servercountryflags.config.field.reloadOnRefresh.description,Forces flags to be reloaded when the server list is refreshed,サーバーリストが更新されたときにフラグを再読み込みするよう強制します。
+servercountryflags.config.field.reloadOnRefresh.name,Reload on Refresh,リフレッシュ時に再読み込み
+servercountryflags.config.field.resolveRedirects.description,Uses the redirected IP (if present) instead of just the resolved IP,解決済みIPではなく、リダイレクトされたIP（存在する場合）を使用します。
+servercountryflags.config.field.resolveRedirects.name,Resolve SRV Redirects,SRVリダイレクトを解決
+servercountryflags.config.field.serverBrowserIntegration.description,"Displays flags in the Server Browser, if that mod is installed",サーバーブラウザでフラッグを表示します（そのモッドがインストールされている場合）。
+servercountryflags.config.field.serverBrowserIntegration.name,Server Browser Integration,サーバーブラウザ統合
+servercountryflags.config.field.showDistance.description,Shows the approximate distance between the server and you when you hover over a flag,フラグ上にカーソルを合わせたときにサーバーとの距離を概算で表示します
+servercountryflags.config.field.showDistance.name,Show Distance,距離表示
+servercountryflags.config.field.showDistrict.description,"Shows the district of the location too, if available",利用可能なら場所の地区も表示する
+servercountryflags.config.field.showDistrict.name,Show District,地区表示
+servercountryflags.config.field.showHomeOnMap.description,Shows your location on the server map too,サーバーマップ上でも位置が表示されます
+servercountryflags.config.field.showHomeOnMap.name,Show Home on Map,地図上にホームを表示
+servercountryflags.config.field.showISP.description,"Shows the ISP of the host, if available",ホストのISPを表示します（利用可能な場合）
+servercountryflags.config.field.showISP.name,Show ISP,ISP表示
+servercountryflags.config.field.useKm.description,Uses kilometers instead of miles,マイルではなくキロメートルを使用します
+servercountryflags.config.field.useKm.name,Use Kilometers,キロメートルを使用
+servercountryflags.config.header,Server Country Flags Config,サーバー国旗設定
+servercountryflags.locationInfo.cooldown,(API on cooldown),(API が冷却中)
+servercountryflags.locationInfo.distance,≈ %d %s away,≈ %d %s 離れて
+servercountryflags.locationInfo.isp,ISP: %s,ISP: %s
+servercountryflags.locationInfo.km,km,km
+servercountryflags.locationInfo.mi,mi,mi
+servercountryflags.locationInfo.unknown,(unknown),(不明)
+servercountryflags.servermap.home,Home,ホーム
+servercountryflags.servermap.title,Server Map,サーバー地図

@@ -1,0 +1,71 @@
+﻿key,source_text,target_text
+account.load_failed,Failed to load your account,アカウントの読み込みに失敗しました
+account.not_in_database,Account not found in server database,サーバーデータベースにアカウントが見つかりません
+account.notfound,We couldn't find your Minecraft account. Please ask the staff for assistance,あなたのMinecraftアカウントが見つかりませんでした。スタッフにお問い合わせください
+account.unlinked,Unlinked,リンクされてない
+account.unverify_success,Your account has been un-verified,アカウントの認証が解除されました
+account.verify_success,Your account has been verified,アカウントの認証が完了しました
+command.help.help,Bot commands and Help,ボットコマンドとヘルプ
+command.help.title,Bot Commands,ボットコマンド
+command.hiddenplayers.help,List all hidden players on your server,サーバー上の隠れたプレイヤーを一覧表示
+command.hiddenplayers.no_players,There are currently no hidden players,現在隠されたプレイヤーはいません
+command.hiddenplayers.title,Hidden Players,隠れプレイヤー
+command.hiddenplayers.title_page,Hidden Players - Page %s/%s,隠されたプレイヤー - ページ %s/%s
+command.hideplayer.access_control,The minecraft option cannot be used when both access control and optionalVerification is disabled,Minecraft のオプションは、アクセス制御と optionalVerification が両方無効の場合に使用できません
+command.hideplayer.account_not_found,Cannot find linked minecraft account for user %s,ユーザー %s のリンクされたマインクラフトアカウントが見つかりません
+command.hideplayer.help,Make a discord user invisible,Discordユーザーを非表示にする
+command.playerlist.footer,%s/%s players online,%s/%s プレイヤーオンライン
+command.playerlist.help,List currently online players on the server,サーバー上にオンライン状態のプレイヤーを一覧表示します
+command.playerlist.no_online,There are currently no players online,現在オンラインのプレイヤーはいません
+command.playerlist.title,Online Players,オンラインプレイヤー
+command.playerlist.title_page,Online Players - Page %s/%s,オンラインプレイヤー - ページ %s/%s
+command.reloadcache.help,Force reload the bot cache,ボットキャッシュを強制的に再読み込みする
+command.reloadcache.not_reloaded,Failed to reload cache. Please check your server log,キャッシュの再読み込みに失敗しました。サーバーログを確認してください
+command.reloadcache.reloaded,Cache has been reloaded,キャッシュが再読み込みされました
+command.setchannel.failed,Failed to save config: %s,設定の保存に失敗しました：%s
+command.setchannel.help,Configure a channel for the mod to use,モジュールが使用するチャンネルを設定
+command.setchannel.saved,Saved Channel to Config. Restart your server for the channel to become active,チャンネルが設定ファイルに保存されました。チャネルを有効にするにはサーバーを再起動してください
+command.setchannel.webhook_saved,Saved Webhook to Config. Restart your server for the webhook to become active,Webhook が設定ファイルに保存されました。Webhook を有効にするにはサーバーを再起動してください
+command.staffunverify.help,Unverify another player's Minecraft account,別のプレイヤーのMinecraftアカウントの検証を解除する
+command.staffverify.help,"Allow staff members verify minecraft players, without verification",スタッフメンバーがマインクラフトプレイヤーを検証できるようにする、検証なしで
+command.unhideplayer.help,Make a discord user visible,Discordユーザーを表示する
+command.unverify.failed,"Sorry, we could not un-verify your Minecraft account. Please try again",申し訳ありませんが、Minecraft アカウントの検証解除に失敗しました。もう一度お試しください
+command.unverify.help,Unverify your previously verified Minecraft account,以前に検証済みだったMinecraftアカウントの検証を解除してください
+command.verifiedaccounts.no_accounts,There are no verified accounts for this discord,このディスコードには検証済みアカウントがありません
+command.verifiedaccounts.title,Verified Accounts,検証済みアカウント
+command.verifiedaccounts.title_page,Verified Accounts - Page %s/%s,認証済みアカウント - ページ %s/%s
+command.verify.already_verified,"Sorry, you already have a verified account and this server does not allow multiple accounts",すでに検証されたアカウントをお持ちです。このサーバーでは複数アカウントは許可されていません
+command.verify.failed,"Sorry, we could not verify your Minecraft account. Please try again",申し訳ありません、Minecraftアカウントを確認できませんでした。もう一度お試しください。
+command.verify.help,Verify your Minecraft account to access the server,サーバーにアクセスするにはMinecraftアカウントを確認してください
+command.verify.missing_code,You need to provide a verification code,認証コードを提供する必要があります
+commands.command_not_allowed,"Sorry, but you are not allowed to execute that command",申し訳ありませんが、そのコマンドの実行は許可されていません。
+commands.not_allowed,"Sorry, minecraft commands are not allowed in this channel",申し訳ありませんが、このチャンネルではマインクラフトコマンドは禁止されています。
+commands.permission_denied,"Sorry, you do not have permission to execute that command",申し訳ありませんが、そのコマンドを実行する権限がありません。
+error.code_length,"Sorry, I can only handle 4 digit verification code messages. Please try again",申し訳ありません、4 桁の検証コードメッセージのみ処理できます。もう一度お試しください
+error.command_failed,Failed to execute command. Please see your server log,コマンドの実行に失敗しました。サーバーログをご覧ください
+error.empty_cache,The discord member cache of this server is empty. Please ask the server owner to run the reloadcache discord command,このサーバーの Discord メンバーキャッシュが空です。サーバーオーナーに reloadcache Discord コマンドの実行を依頼してください
+error.hiding.no_account_provided,You need to supply a player to hide,隠すにはプレイヤーを指定してください。
+error.hiding.unhide_no_account_provided,You need to supply a player to unhide,非表示解除するにはプレイヤーを指定してください
+error.mc_command_failed,Failed to execute command: %s,コマンドの実行に失敗しました: %s
+error.no_db_accounts,"Sorry, but this server does not contain any stored players in its database",申し訳ありませんが、このサーバーにはデータベースに保存されたプレイヤーは存在しません
+error.no_discord_server,"Sorry, I cannot find a discord server attached to this bot. Please report this to the server operator",申し訳ありません。このボットに接続された Discord サーバーが見つかりません。サーバーオペレーターに報告してください
+error.no_match_found,No account found that matches %s,%sに一致するアカウントが見つかりませんでした
+error.no_message_perms,I do not have permission to send messages in %s,%s へのメッセージ送信権限がありません
+error.no_roles,"Server has required roles configured, but no discord roles were loaded. Please notify the server owner",サーバーに必須ロールが設定されていますが、Discord ロールが読み込まれていません。サーバーオーナーにご通知ください
+error.not_a_member,%s is not a member of this discord server,%s はこの Discord サーバーのメンバーではありません
+error.not_a_member_of,"Sorry, you do not seem to be a member of %s. Please try again",申し訳ありませんが、%s のメンバーではないようです。もう一度お試しください
+error.unknown,Unknown,不明
+error.verify.not_enabled,Verification is not enabled for this server,このサーバーでは検証が有効になっていません
+error.verify.only_by_players,This command can only be used by players,このコマンドはプレイヤーのみが使用できます
+feedback.bot_reloaded,Bot has been reloaded,ボットが再ロードされました
+hiding.failed,Failed to hide player. Error: %s,プレイヤーを隠すことができませんでした。エラー：%s
+hiding.not_hidden,Player is not hidden,プレイヤーは隠れていません
+hiding.now_hidden,%s is now hidden,%s は現在非表示です
+hiding.unhidden,Player %s is no longer hidden,プレイヤー %s は隠れていない状態になりました
+hiding.unhide_failed,Failed to unhide player. Error: %s,プレイヤーを非表示に解除できませんでした。エラー：%s
+mc.sdconfigeditor.opening,Config Editor Connection initializing. Check your log for the link,設定エディタ接続を初期化しています。リンクについてはログをご確認ください
+message.attachments,(%s attachments),(%s アタッチメント)
+message.replied_to,Replied to %s: %s,%sに返信: %s
+tooltip.display_name,Display Name,表示名
+tooltip.roles,Roles,ロール
+tooltip.username,Username,ユーザー名

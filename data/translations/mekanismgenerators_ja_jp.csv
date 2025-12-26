@@ -1,0 +1,384 @@
+﻿key,source_text,target_text
+advancements.mekanismgenerators.burn_the_gas.title,Burn the Gas,ガスを燃やす
+advancements.mekanismgenerators.heat_generator.description,Craft a Heat Generator to start making power,熱発電機をクラフトして発電を始めよう
+advancements.mekanismgenerators.heat_generator.title,Your First Generator,はじめての発電機
+advancements.mekanismgenerators.solar_generator.description,Renewable daytime energy,昼間の再生可能エネルギー
+advancements.mekanismgenerators.solar_generator.title,Power of the Sun,太陽の力
+advancements.mekanismgenerators.wind_generator.description,Hopefully there is some wind nearby,風が吹くといいな
+advancements.mekanismgenerators.wind_generator.title,Spin Baby Spin,回る赤ちゃん回る
+alias.mekanismgenerators.fusion_fuel,Fusion Fuel,核融合燃料
+alias.mekanismgenerators.gbg.ethene,Ethene Generator,エテン発電機
+alias.mekanismgenerators.gbg.ethylene,Ethylene Generator,エチレン発電機
+alias.mekanismgenerators.multiblock.fission,Fission Reactor Multiblock Component,核分裂炉マルチブロックコンポーネント
+alias.mekanismgenerators.multiblock.fusion,Fusion Reactor Multiblock Component,核融合炉マルチブロックコンポーネント
+alias.mekanismgenerators.multiblock.turbine,Turbine Multiblock Component,タービンマルチブロックコンポーネント
+block.mekanismgenerators.advanced_solar_generator,Advanced Solar Generator,高度なソーラー発電機
+block.mekanismgenerators.bio_generator,Bio-Generator,バイオ発電機
+block.mekanismgenerators.bioethanol,Bioethanol,バイオエタノール
+block.mekanismgenerators.control_rod_assembly,Control Rod Assembly,制御棒アセンブリ
+block.mekanismgenerators.deuterium,Liquid Deuterium,液体重水素
+block.mekanismgenerators.electromagnetic_coil,Electromagnetic Coil,電磁コイル
+block.mekanismgenerators.fission_fuel_assembly,Fission Fuel Assembly,分裂燃料アセンブリ
+block.mekanismgenerators.fission_reactor_casing,Fission Reactor Casing,核分裂炉ケーシング
+block.mekanismgenerators.fission_reactor_logic_adapter,Fission Reactor Logic Adapter,核分裂炉ロジックアダプタ
+block.mekanismgenerators.fission_reactor_port,Fission Reactor Port,核分裂炉ポート
+block.mekanismgenerators.fusion_fuel,Liquid D-T Fuel,液体D-T燃料
+block.mekanismgenerators.fusion_reactor_controller,Fusion Reactor Controller,核融合炉コントローラ
+block.mekanismgenerators.fusion_reactor_frame,Fusion Reactor Frame,核融合炉フレーム
+block.mekanismgenerators.fusion_reactor_logic_adapter,Fusion Reactor Logic Adapter,核融合炉ロジックアダプタ
+block.mekanismgenerators.fusion_reactor_port,Fusion Reactor Port,核融合炉ポート
+block.mekanismgenerators.gas_burning_generator,Gas-Burning Generator,ガス燃焼発電機
+block.mekanismgenerators.heat_generator,Heat Generator,熱発生器
+block.mekanismgenerators.laser_focus_matrix,Laser Focus Matrix,レーザーフォーカスマトリックス
+block.mekanismgenerators.reactor_glass,Reactor Glass,リアクターガラス
+block.mekanismgenerators.rotational_complex,Rotational Complex,回転複合体
+block.mekanismgenerators.saturating_condenser,Saturating Condenser,飽和コンデンサー
+block.mekanismgenerators.solar_generator,Solar Generator,ソーラー発電機
+block.mekanismgenerators.tritium,Liquid Tritium,液体三重水素
+block.mekanismgenerators.turbine_casing,Turbine Casing,タービンケーシング
+block.mekanismgenerators.turbine_rotor,Turbine Rotor,タービンロータ
+block.mekanismgenerators.turbine_valve,Turbine Valve,タービンバルブ
+block.mekanismgenerators.turbine_vent,Turbine Vent,タービンベント
+block.mekanismgenerators.wind_generator,Wind Generator,風力発電機
+chemical.mekanismgenerators.deuterium,Deuterium,重水素
+chemical.mekanismgenerators.fusion_fuel,D-T Fuel,D-T燃料
+chemical.mekanismgenerators.tritium,Tritium,三重水素
+configuration.mekanismgenerators.gear.meka_suit.charge_rate.geothermal,Geothermal Charging Rate,地熱充電速度
+configuration.mekanismgenerators.gear.meka_suit.charge_rate.geothermal.tooltip,"Geothermal charging rate in Joules per tick, per degree above ambient, per upgrade installed. This value scales down based on how much of the MekaSuit Pants is submerged. Fire is treated as having a temperature of ~200K above ambient, lava has a temperature of 1,000K above ambient.","メカスーツズボンの地熱充電レート（ジュール/ティック、周囲温度との温度差ごと、インストール済みアップグレード当たり）。この値はメカスーツズボンが水に浸かっている割合に応じて低下します。火は周囲温度より約200K高いとして扱われ、溶岩は周囲温度より1,000K高いとして扱われます。"
+configuration.mekanismgenerators.gear.meka_suit.damage_absorption.heat,Heat Damage Reduction,熱ダメージ軽減
+configuration.mekanismgenerators.gear.meka_suit.damage_absorption.heat.tooltip,Percent of heat damage negated by MekaSuit Pants with maximum geothermal generator units installed. This number scales down linearly based on how many units are actually installed.,最大数の地熱発電機ユニットをインストールしたメカスーツズボンで軽減される熱ダメージのパーセンテージ。この数値は、実際にインストールされているユニット数に基づいて直線的に低下します。
+configuration.mekanismgenerators.server.fission,Fission Reactor,核分裂炉
+configuration.mekanismgenerators.server.fission.assembly_fuel_capacity,Assembly Fuel Capacity,組立燃料容量
+configuration.mekanismgenerators.server.fission.assembly_fuel_capacity.tooltip,Amount of fuel (mB) that each assembly contributes to the fuel and waste capacity. Max = fuelAssemblies * maxFuelPerAssembly,各アセンブリが燃料・廃棄物容量に寄与する燃料量（mB）。最大値 = fuelAssemblies × maxFuelPerAssembly
+configuration.mekanismgenerators.server.fission.burn_rate.assembly,Burn Rate Per Fuel Assembly,燃焼率（燃料アセンブリ）
+configuration.mekanismgenerators.server.fission.burn_rate.assembly.tooltip,The burn rate increase each fuel assembly provides. Max Burn Rate = fuelAssemblies * burnPerAssembly,各燃料アセンブリが提供する燃焼速度の増加。最大燃焼速度 = fuelAssemblies * burnPerAssembly
+configuration.mekanismgenerators.server.fission.burn_rate.default,Default Burn Rate,デフォルトの燃焼速度
+configuration.mekanismgenerators.server.fission.burn_rate.default.tooltip,The default burn rate of the fission reactor.,核分裂炉のデフォルト燃焼速度。
+configuration.mekanismgenerators.server.fission.button,Edit Reactor Settings,炉設定を編集
+configuration.mekanismgenerators.server.fission.casing_heat_capacity,Casing Heat Capacity,ケースの熱容量
+configuration.mekanismgenerators.server.fission.casing_heat_capacity.tooltip,The heat capacity added to a Fission Reactor by a single casing block. Increase to require more energy to raise the reactor temperature.,単一ケーシングブロックが核分裂炉に追加する熱容量。値を増加させると、炉の温度を上昇させるのに必要なエネルギーが増加します。
+configuration.mekanismgenerators.server.fission.coolant_capacity.cooled,Cooled Coolant Capacity,冷却された冷却剤の容量
+configuration.mekanismgenerators.server.fission.coolant_capacity.cooled.tooltip,Amount of cooled coolant (mB) that each block of the fission reactor contributes to the volume. Max = volume * cooledCoolantPerTank,核分裂炉の各ブロックが冷却冷媒の体積に寄与する冷却冷媒量（mB）。最大値 = 体積 × cooledCoolantPerTank
+configuration.mekanismgenerators.server.fission.coolant_capacity.heated,Heated Coolant Capacity,加熱された冷却剤の容量
+configuration.mekanismgenerators.server.fission.coolant_capacity.heated.tooltip,Amount of heated coolant (mB) that each block of the fission reactor contributes to the volume. Max = volume * heatedCoolantPerTank,核分裂炉の各ブロックが加熱冷媒の体積に寄与する加熱冷媒量（mB）。最大値 = 体積 × heatedCoolantPerTank
+configuration.mekanismgenerators.server.fission.excess_waste,Excess Waste Percentage,過剰な廃棄物のパーセンテージ
+configuration.mekanismgenerators.server.fission.excess_waste.tooltip,The percentage of waste in a fission reactor's output waste tank that is necessary to trigger the excess waste.,核分裂炉の出力廃棄物タンク内の廃棄物パーセンテージで、超過廃棄物を引き起こすために必要な値。
+configuration.mekanismgenerators.server.fission.fuel_energy,Energy Per Fissile Fuel,分裂燃料1mBあたりのエネルギー量
+configuration.mekanismgenerators.server.fission.fuel_energy.tooltip,Amount of energy created (in heat) from each whole mB of fission fuel.,核分裂燃料の各 mB から生成される熱エネルギー量
+configuration.mekanismgenerators.server.fission.meltdowns,Meltdowns,メルトダウン
+configuration.mekanismgenerators.server.fission.meltdowns.button,Edit Meltdown Settings,メルトダウン設定を編集
+configuration.mekanismgenerators.server.fission.meltdowns.chance,Meltdown Chance,過熱確率
+configuration.mekanismgenerators.server.fission.meltdowns.chance.tooltip,The chance of a catastrophic meltdown occurring once the reactor's damage passes 100%. This will linearly scale as damage continues increasing passed 100%.,炉の損傷が100%を超えた時点で、壊滅的なメルトダウンが発生する可能性。これは、損傷が100%を超えて継続するにつれて直線的に拡大します。
+configuration.mekanismgenerators.server.fission.meltdowns.damage,Post Meltdown Damage,メルトダウン後のダメージ
+configuration.mekanismgenerators.server.fission.meltdowns.damage.tooltip,Percent damage that a reactor will start at after being reconstructed after a meltdown.,メルトダウン後に炉が再構築された際の初期ダメージパーセンテージ
+configuration.mekanismgenerators.server.fission.meltdowns.enabled,Enabled,有効
+configuration.mekanismgenerators.server.fission.meltdowns.enabled.tooltip,"Whether catastrophic meltdowns can occur from Fission Reactors. If this is disabled, instead of melting down the reactor will force turn itself off and not be able to be turned back on until the damage level has returned to safe levels.",核分裂炉から壊滅的なメルトダウンが発生可能かどうか。これを無効にすると、メルトダウンの代わりに炉は強制的にオフになり、損傷レベルが安全なレベルに戻るまでオンに戻せなくなります。
+configuration.mekanismgenerators.server.fission.meltdowns.radiation_multiplier,Radiation Multiplier,放射線倍率
+configuration.mekanismgenerators.server.fission.meltdowns.radiation_multiplier.tooltip,How much radioactivity of fuel/waste contents are multiplied during a meltdown.,燃料/廃棄物内容物の放射能がメルトダウン時にどれだけ増幅されるか。
+configuration.mekanismgenerators.server.fission.meltdowns.radius,Explosion Radius,爆発半径
+configuration.mekanismgenerators.server.fission.meltdowns.radius.tooltip,The radius of the explosion that occurs from a meltdown.,メルトダウンから発生する爆発の半径です
+configuration.mekanismgenerators.server.fission.meltdowns.tooltip,Settings for configuring Fission Reactor Meltdowns.,核分裂炉メルトダウン設定
+configuration.mekanismgenerators.server.fission.surface_area,Surface Area Target,表面面積ターゲット
+configuration.mekanismgenerators.server.fission.surface_area.tooltip,The average surface area of a Fission Reactor's fuel assemblies to reach 100% boil efficiency. Higher values make it harder to cool the reactor.,100%の沸騰効率に達するための核分裂炉の燃料アセンブリの平均表面積。値が高いほど、炉の冷却が難しくなります。
+configuration.mekanismgenerators.server.fission.tooltip,Settings for configuring Fission Reactors,核分裂炉の設定
+configuration.mekanismgenerators.server.fusion,Fusion Reactor,核融合反応炉
+configuration.mekanismgenerators.server.fusion.button,Edit Reactor Settings,炉設定を編集
+configuration.mekanismgenerators.server.fusion.capacity.energy,Energy Capacity,エネルギー容量
+configuration.mekanismgenerators.server.fusion.capacity.energy.tooltip,Amount of energy (Joules) the fusion reactor can store.,融合リアクターが蓄えることのできるエネルギー量（ジュール）。
+configuration.mekanismgenerators.server.fusion.capacity.fuel,Fuel Capacity,燃料容量
+configuration.mekanismgenerators.server.fusion.capacity.fuel.tooltip,Amount of fuel (mB) that the fusion reactor can store.,融合炉が貯蔵できる燃料量（mB）
+configuration.mekanismgenerators.server.fusion.casing_thermal_conductivity,Casing Thermal Conductivity,ケースの熱伝導率
+configuration.mekanismgenerators.server.fusion.casing_thermal_conductivity.tooltip,"The fraction of heat from the casing that can be transferred to all sources that are not water. Will impact max heat, heat transfer to thermodynamic conductors, and power generation.",ケーシングからの熱の分率で、水以外のすべてのソースに転送可能。最大熱、熱伝導体への熱転送、および発電に影響します。
+configuration.mekanismgenerators.server.fusion.fuel_energy,Energy Per D-T Fuel,D-T燃料あたりのエネルギー
+configuration.mekanismgenerators.server.fusion.fuel_energy.tooltip,"Affects the Injection Rate, Max Temp, and Ignition Temp.",注入率、最大温度、および点火温度に影響します
+configuration.mekanismgenerators.server.fusion.injection.steam,Steam Per Injection,蒸気注入量
+configuration.mekanismgenerators.server.fusion.injection.steam.tooltip,Amount of steam (mB) per injection rate that the fusion reactor can store. Max = injectionRate * steamPerInjection,核融合炉が保存できるインジェクション率当たりのスチーム量（mB）。最大値 = injectionRate × steamPerInjection
+configuration.mekanismgenerators.server.fusion.injection.water,Water Per Injection,注入時の水の量
+configuration.mekanismgenerators.server.fusion.injection.water.tooltip,Amount of water (mB) per injection rate that the fusion reactor can store. Max = injectionRate * waterPerInjection,核融合炉が保存できるインジェクション率当たりの水量（mB）。最大値 = injectionRate × waterPerInjection
+configuration.mekanismgenerators.server.fusion.thermocouple_efficiency,Thermocouple Efficiency,熱電対の効率
+configuration.mekanismgenerators.server.fusion.thermocouple_efficiency.tooltip,The fraction of the heat dissipated from the case that is converted to Joules.,ケースから放散される熱のうち、ジュールに変換される割合。
+configuration.mekanismgenerators.server.fusion.tooltip,Settings for configuring Fusion Reactors,核融合反応炉の設定
+configuration.mekanismgenerators.server.fusion.water_heating_ratio,Water Heating Ratio,水の加熱比率
+configuration.mekanismgenerators.server.fusion.water_heating_ratio.tooltip,"The fraction of the heat from the casing that is dissipated to water when water cooling is in use. Will impact max heat, and steam generation.",ケーシングからの熱の分率で、水冷却を使用している場合に水に放散される割合。最大熱とスチーム生成に影響。
+configuration.mekanismgenerators.server.generator.bio,Bio Generator,バイオジェネレーター
+configuration.mekanismgenerators.server.generator.bio.button,Edit Bio Generator,バイオジェネレーター編集
+configuration.mekanismgenerators.server.generator.bio.gen,Energy Generation,エネルギー生成
+configuration.mekanismgenerators.server.generator.bio.gen.tooltip,Energy produced by the Bio Generator in Joules/t.,バイオジェネレーターによって生成されるエネルギー（ジュール/タ）
+configuration.mekanismgenerators.server.generator.bio.tank_capacity,Tank Capacity,タンク容量
+configuration.mekanismgenerators.server.generator.bio.tank_capacity.tooltip,The capacity in mB of the fluid tank in the Bio Generator.,バイオジェネレーターの流体タンク容量（mB）
+configuration.mekanismgenerators.server.generator.bio.tooltip,Settings for configuring Bio Generators,バイオジェネレーターの設定
+configuration.mekanismgenerators.server.generator.gas,Gas-Burning Generator,ガス燃焼発電機
+configuration.mekanismgenerators.server.generator.gas.button,Edit Gas-Burning Generator,ガス焼却発電機を編集
+configuration.mekanismgenerators.server.generator.gas.tank_capacity,Tank Capacity,タンク容量
+configuration.mekanismgenerators.server.generator.gas.tank_capacity.tooltip,The capacity in mB of the chemical tank in the Gas-Burning Generator.,ガス燃焼発電機の化学タンク容量（mB）
+configuration.mekanismgenerators.server.generator.gas.tooltip,Settings for configuring Gas-Burning Generators,ガス燃焼発電機の設定
+configuration.mekanismgenerators.server.generator.heat,Heat Generator,熱発生器
+configuration.mekanismgenerators.server.generator.heat.button,Edit Heat Generator,熱発生器編集
+configuration.mekanismgenerators.server.generator.heat.fluid_rate,Fluid Rate,液体の流れ
+configuration.mekanismgenerators.server.generator.heat.fluid_rate.tooltip,The amount of lava in mB that gets consumed to transfer heatGeneration Joules to the Heat Generator.,ヒートジェネレーターに転送するためにheatGeneration ジュールを消費するラバの量（mB）。
+configuration.mekanismgenerators.server.generator.heat.gen,Energy Generation,エネルギー生成
+configuration.mekanismgenerators.server.generator.heat.gen.lava,Submerged Energy Generation,水中でのエネルギー生成
+configuration.mekanismgenerators.server.generator.heat.gen.lava.tooltip,Multiplier of effectiveness of Lava that is adjacent to the Heat Generator.,ヒートジェネレーターに隣接するラヴァの効果倍率。
+configuration.mekanismgenerators.server.generator.heat.gen.nether,Nether Energy Generation,ネザーエネルギー生成
+configuration.mekanismgenerators.server.generator.heat.gen.nether.tooltip,"Add this amount of Joules to the energy produced by a heat generator if it is in an 'ultrawarm' dimension, in vanilla this is just the Nether.",熱発電機が「超高温」ディメンションにある場合、熱発電機が生成するエネルギーに追加するジュール量。バニラではネザーのみです。
+configuration.mekanismgenerators.server.generator.heat.gen.tooltip,"Amount of energy in Joules the Heat Generator produces per tick. heatGeneration + heatGenerationLava * lavaSides + heatGenerationNether. Note: lavaSides is how many sides are adjacent to lava, this includes the block itself if it is lava logged allowing for a max of 7 ""sides"".",熱発電機がティック当たりに生成するエネルギー量（ジュール）。heatGeneration + heatGenerationLava × lavaSides + heatGenerationNether。注：lavaSidesはブロックに隣接する溶岩ブロック数です。ブロック自体がlava loggedされている場合も含まれ、最大7つの「サイド」になります。
+configuration.mekanismgenerators.server.generator.heat.tank_capacity,Tank Capacity,タンク容量
+configuration.mekanismgenerators.server.generator.heat.tank_capacity.tooltip,The capacity in mB of the fluid tank in the Heat Generator.,熱発電機の流体タンク容量（mB）
+configuration.mekanismgenerators.server.generator.heat.tooltip,Settings for configuring Heat Generators,熱発生機の設定
+configuration.mekanismgenerators.server.generator.solar,Solar Generator,ソーラー発電機
+configuration.mekanismgenerators.server.generator.solar.button,Edit Solar Generator,太陽発電機の編集
+configuration.mekanismgenerators.server.generator.solar.gen,Energy Generation,エネルギー生成
+configuration.mekanismgenerators.server.generator.solar.gen.advanced,Advanced Solar Energy Generation,高度な太陽エネルギー生成
+configuration.mekanismgenerators.server.generator.solar.gen.advanced.tooltip,Peak energy generation in Joules/t for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.,高度なソーラージェネレーターのピークエネルギー生成量（ジュール/ティック）。注：一部の極端な環境ではこの値より高くなる可能性があります。
+configuration.mekanismgenerators.server.generator.solar.gen.tooltip,Peak energy generation in Joules/t for the Solar Generator. Note: It can go higher than this value in some extreme environments.,ソーラージェネレーターのピークエネルギー生成量（ジュール/ティック）。注：一部の極端な環境ではこの値より高くなる可能性があります。
+configuration.mekanismgenerators.server.generator.solar.tooltip,Settings for configuring Solar Generators,太陽発電機の設定
+configuration.mekanismgenerators.server.generator.wind,Wind Generator,風力発電機
+configuration.mekanismgenerators.server.generator.wind.button,Edit Wind Generator,風発電機編集
+configuration.mekanismgenerators.server.generator.wind.gen.max,Max Energy Generation,最大エネルギー生成
+configuration.mekanismgenerators.server.generator.wind.gen.max.height,Max Y Value,最大Y値
+configuration.mekanismgenerators.server.generator.wind.gen.max.height.tooltip,"The maximum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's logical height. For example for worlds like the nether that are 256 blocks tall, but have a ceiling at 128 blocks, this would be clamped at 128.",風力発電機の電力生成に影響する最大Y値。この値はワールドの論理的な高さでクランプされます。例えば、ネザーのような256ブロック背が高いが天井が128ブロックのワールドでは、128でクランプされます。
+configuration.mekanismgenerators.server.generator.wind.gen.max.tooltip,Maximum energy generation in Joules/t that the Wind Generator can produce.,風力発電機が生成できる最大エネルギー（ジュール/秒）です。
+configuration.mekanismgenerators.server.generator.wind.gen.min,Min Energy Generation,最小エネルギー生成
+configuration.mekanismgenerators.server.generator.wind.gen.min.height,Min Y Value,最小Y値
+configuration.mekanismgenerators.server.generator.wind.gen.min.height.tooltip,The minimum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's minimum height.,風力発電機の電力生成に影響する最小Y値。この値はワールドの最小高さでクランプされます。
+configuration.mekanismgenerators.server.generator.wind.gen.min.tooltip,Minimum energy generation in Joules/t that the Wind Generator can produce.,風力発電機が生成できる最小エネルギー（ジュール/秒）です。
+configuration.mekanismgenerators.server.generator.wind.tooltip,Settings for configuring Wind Generators,風発生機の設定
+configuration.mekanismgenerators.server.hohlraum,Hohlraum,ホルラム
+configuration.mekanismgenerators.server.hohlraum.button,Edit Hohlraum,ホルラム編集
+configuration.mekanismgenerators.server.hohlraum.capacity,Capacity,容量
+configuration.mekanismgenerators.server.hohlraum.capacity.tooltip,Hohlraum capacity in mB.,ホールラウム容量（mB）
+configuration.mekanismgenerators.server.hohlraum.fill_rate,Fill Rate,充填速度
+configuration.mekanismgenerators.server.hohlraum.fill_rate.tooltip,Rate in mB/t at which Hohlraum can accept D-T Fuel.,ホールラウムがD-T燃料を受け入れる速度（mB/ティック）
+configuration.mekanismgenerators.server.hohlraum.tooltip,Settings for configuring Hohlraum,Hohlraumの設定
+configuration.mekanismgenerators.server.turbine,Industrial Turbine,工業用タービン
+configuration.mekanismgenerators.server.turbine.blades,Blades Per Coil,コイルあたりの刃の数
+configuration.mekanismgenerators.server.turbine.blades.tooltip,The number of Turbine Blades supported by each Electromagnetic Coil.,各電磁コイルがサポートするタービンブレード数。
+configuration.mekanismgenerators.server.turbine.button,Edit Turbine Settings,タービン設定を編集
+configuration.mekanismgenerators.server.turbine.capacity.chemical,Chemical Per Tank,タンクあたりの化学量
+configuration.mekanismgenerators.server.turbine.capacity.chemical.tooltip,Amount of chemical (mB) that each block of the turbine's steam cavity contributes to the volume. Max = volume * chemicalPerTank,タービンのスチーム空洞の各ブロックが体積に寄与するケミカル量（mB）。最大値 = 体積 × chemicalPerTank
+configuration.mekanismgenerators.server.turbine.capacity.energy,Energy Capacity Per Volume,体積あたりのエネルギー容量
+configuration.mekanismgenerators.server.turbine.capacity.energy.tooltip,Amount of energy in Joules that each block of the turbine contributes to the total energy capacity. Max = volume * energyCapacityPerVolume,タービンの各ブロックが総エネルギー容量に寄与するエネルギー量（ジュール）。最大値 = 体積 × energyCapacityPerVolume
+configuration.mekanismgenerators.server.turbine.rate.condenser,Condensation Rate,凝縮速度
+configuration.mekanismgenerators.server.turbine.rate.condenser.tooltip,The rate in mB/t at which steam is condensed into water in the turbine.,タービンで蒸気が水に凝縮される速度（mB/t）。
+configuration.mekanismgenerators.server.turbine.rate.disperser,Dispersion Rate,分散率
+configuration.mekanismgenerators.server.turbine.rate.disperser.tooltip,The rate in mB/t at which steam is dispersed into the turbine.,蒸気がタービンに放散される速度（mB/t）
+configuration.mekanismgenerators.server.turbine.rate.vent,Vent Rate,排気率
+configuration.mekanismgenerators.server.turbine.rate.vent.tooltip,The rate in mB/t at which steam is vented into the turbine.,蒸気がタービンに放出される速度（mB/t）
+configuration.mekanismgenerators.server.turbine.tooltip,Settings for configuring Industrial Turbines,産業用タービン設定
+configuration.mekanismgenerators.storage.advanced_solar_generator.energy,Advanced Solar Generator Energy Storage,高度な太陽発電機エネルギー貯蔵
+configuration.mekanismgenerators.storage.advanced_solar_generator.energy.tooltip,Base energy storage in Joules of: Advanced Solar Generator,アドバンストソーラー・ジェネレーターの基礎エネルギー貯蔵量（ジュール）
+configuration.mekanismgenerators.storage.bio_generator.energy,Bio-Generator Energy Storage,バイオジェネレーターのエネルギー貯蔵
+configuration.mekanismgenerators.storage.bio_generator.energy.tooltip,Base energy storage in Joules of: Bio-Generator,Bio-Generator の基礎エネルギー貯蔵量（ジュール）
+configuration.mekanismgenerators.storage.heat_generator.energy,Heat Generator Energy Storage,熱発電機 エネルギー貯蔵
+configuration.mekanismgenerators.storage.heat_generator.energy.tooltip,Base energy storage in Joules of: Heat Generator,ヒートジェネレーターの基礎エネルギー貯蔵量（ジュール）
+configuration.mekanismgenerators.storage.solar_generator.energy,Solar Generator Energy Storage,太陽発電機のエネルギー貯蔵
+configuration.mekanismgenerators.storage.solar_generator.energy.tooltip,Base energy storage in Joules of: Solar Generator,太陽発電機の基礎エネルギー貯蔵量（ジュール）
+configuration.mekanismgenerators.storage.wind_generator.energy,Wind Generator Energy Storage,風発電機 エネルギー貯蔵
+configuration.mekanismgenerators.storage.wind_generator.energy.tooltip,Base energy storage in Joules of: Wind Generator,ウィンドジェネレーターの基礎エネルギー貯蔵量（ジュール）
+constants.mekanismgenerators.mod_name,Mekanism: Generators,Mekanism: 発電機
+constants.mekanismgenerators.pack_description,Resources used for Mekanism: Generators,Mekanism: Generatorsに使用されるリソース
+container.mekanismgenerators.advanced_solar_generator,Advanced Solar Generator,高度なソーラー発電機
+container.mekanismgenerators.bio_generator,Bio-Generator,バイオ発電機
+container.mekanismgenerators.fission_reactor_logic_adapter,Fission Reactor Logic Adapter,分裂炉ロジックアダプタ
+container.mekanismgenerators.fusion_reactor_logic_adapter,Fusion Reactor Logic Adapter,核融合炉ロジックアダプタ
+container.mekanismgenerators.gas_burning_generator,Gas-Burning Generator,ガス燃焼発電機
+container.mekanismgenerators.heat_generator,Heat Generator,熱発生器
+container.mekanismgenerators.solar_generator,Solar Generator,ソーラー発電機
+container.mekanismgenerators.wind_generator,Wind Generator,風力発電機
+death.attack.mekanismgenerators.fusion,%1$s was fused into oblivion.,%1$s は忘却へと溶け込まれました。
+death.attack.mekanismgenerators.fusion.player,%1$s was fused into oblivion whilst trying to escape %2$s.,%1$s は %2$s から逃げようとした際に忘却へ溶け込んだ。
+description.mekanismgenerators.advanced_solar_generator,An advanced generator that directly absorbs the sun's rays with little loss to produce energy.,太陽の光を直接吸収して少しのロスで電力に変換する高度な発電機。
+description.mekanismgenerators.bio_generator,A generator that burns organic materials of the world to produce energy.,世界の有機物を燃焼させて電力を生成する発電機。
+description.mekanismgenerators.control_rod_assembly,A collection of control rods used to halt a fission chain reaction. Placed on top of a tower of Fission Fuel Assemblies.,分裂連鎖反応を停止させるための制御棒の集合体。分裂燃料アセンブリの塔の上に配置します。
+description.mekanismgenerators.electromagnetic_coil,"A block that converts kinetic energy from a Rotational Complex into usable electricity. These can be placed in any arrangement above your Rotational Complex, as long as they are all touching each other and the complex itself.",回転複合体からの回転エネルギーを利用可能な電力に変換するブロック。これらは回転複合体の上に任意の配置で配置でき、すべてが互いに接触し、複合体自体に接触している限り。
+description.mekanismgenerators.fission_fuel_assembly,A cluster of fuel rods used to house fission fuel within a Fission Reactor. These can be stacked on top of each other.,分裂炉内に分裂燃料を格納するために使用される燃料棒のクラスター。これらは互いに積み重ねることができます。
+description.mekanismgenerators.fission_reactor_casing,"Lead-infused steel casing used to create a Fission Reactor. Mostly heat-resistant, mostly radiation-resistant, and mostly safe!",分裂炉を作成するために使用される鉛入りスチールケーシング。ほぼ耐熱性、ほぼ放射線耐性、そしてほぼ安全！
+description.mekanismgenerators.fission_reactor_logic_adapter,A block that can be used to monitor or control the Fission Reactor with redstone.,分裂炉をレッドストーンで監視または制御するために使用できるブロック。
+description.mekanismgenerators.fission_reactor_port,"A port which can be placed on a Fission Reactor multiblock to transfer coolant, fuel, and waste.",分裂炉マルチブロック上に配置可能で、冷却液、燃料、廃棄物を転送できるポート。
+description.mekanismgenerators.fusion_reactor_controller,The controlling block for the entire Fusion Reactor structure.,融合炉構造全体を制御するためのブロック。
+description.mekanismgenerators.fusion_reactor_frame,Reinforced framing that can be used in the Fusion Reactor multiblock.,融合炉マルチブロックで使用可能な強化フレーミング。
+description.mekanismgenerators.fusion_reactor_logic_adapter,A block that can be used to allow basic monitoring of a reactor using redstone.,レッドストーンを使用してリアクターの基本的な監視を可能にするブロック。
+description.mekanismgenerators.fusion_reactor_port,A block of reinforced framing that is capable of managing both the gas and energy transfer of the Fusion Reactor.,融合炉のガスおよびエネルギー転送を管理できる強化フレーミングのブロック。
+description.mekanismgenerators.gas_burning_generator,A generator that harnesses the varying molecular gases to produce energy.,様々な分子ガスを利用して電力を生成する発電機。
+description.mekanismgenerators.geothermal_generator_unit,"Harnesses geothermal energy from the surrounding environment, and improves protection against damage from heat sources. Install multiple for faster charging and greater protection.",周囲の環境から地熱エネルギーを利用し、熱源からのダメージ保護を向上させます。高速充電と高い保護を実現するために複数個インストール。
+description.mekanismgenerators.heat_generator,A generator that uses the heat of lava or other burnable resources to produce energy.,ラバやその他の燃焼可能なリソースの熱を利用して電力を生成する発電機。
+description.mekanismgenerators.laser_focus_matrix,A panel of Fusion Reactor Glass that is capable of absorbing optical energy and thereby heating up the Fusion Reactor.,光学エネルギーを吸収することで融合炉を加熱できる融合炉ガラスのパネル。
+description.mekanismgenerators.reactor.logic.activation,"Activate the reactor when powered, and deactivate when unpowered",リアクターが電力を受けるとアクティブ化し、電力がない場合は非アクティブ化
+description.mekanismgenerators.reactor.logic.capacity,Output when the reactor's core heat capacity has been met,リアクターのコア熱容量が満たされた場合に出力
+description.mekanismgenerators.reactor.logic.critical_waste_level,Output when the reactor has reached a critical level of waste (%1$s),炉の廃棄物レベルが臨界に達したときの出力(%1$s)
+description.mekanismgenerators.reactor.logic.damaged,Output when the reactor reaches critical damage levels (100%+).,リアクターが重大なダメージレベル(100%以上)に達したときに出力
+description.mekanismgenerators.reactor.logic.depleted,Output when the reactor has insufficient fuel to sustain a reaction,リアクターが反応を維持するのに不十分な燃料を持つ場合に出力
+description.mekanismgenerators.reactor.logic.disabled,Will not handle redstone,レッドストーンを処理しません
+description.mekanismgenerators.reactor.logic.ready,Output when the reactor has reached the required heat level to ignite,リアクターが点火に必要な熱レベルに達したときに出力
+description.mekanismgenerators.reactor.logic.temperature,Output when the reactor reaches dangerous temperatures,リアクターが危険な温度に達したときに出力
+description.mekanismgenerators.reactor_glass,Reinforced glass that can be used in the Fission Reactor and Fusion Reactor multiblocks (as well as any others!).,分裂炉および融合炉マルチブロック(および他の用途)で使用できる強化ガラス。
+description.mekanismgenerators.rotational_complex,A connector that is placed on the highest Turbine Rotor of an Industrial Turbine to carry kinetic energy into its Electromagnetic Coils.,産業用タービンの最高のタービンロータに配置され、回転エネルギーをその電磁コイルに運ぶコネクタ。
+description.mekanismgenerators.saturating_condenser,A block that condenses steam processed by an Industrial Turbine into reusable water. These can be placed in any arrangement above your rotational complex.,産業用タービンで処理された蒸気を再利用可能な水に凝縮するブロック。
+description.mekanismgenerators.solar_generator,A generator that uses the power of the sun to produce energy.,太陽の力を利用して電力を生成する発電機。
+description.mekanismgenerators.solar_recharging_unit,Harnesses the power of the sun to charge your MekaSuit. Install multiple for faster charging.,太陽の力を利用してMekaSuitを充電します。高速充電のために複数個インストール。
+description.mekanismgenerators.turbine_casing,Pressure-resistant casing used in the creation of an Industrial Turbine.,産業用タービン作成時に使用される圧力耐性ケーシング。
+description.mekanismgenerators.turbine_rotor,The steel rod that is used to house Turbine Blades within an Industrial Turbine.,タービンブレードを収納するのに使用される鋼製のロッド。
+description.mekanismgenerators.turbine_valve,A type of Turbine Casing that includes a port for the transfer of energy and steam.,エネルギーと蒸気の転送用ポートを含むタービンケーシングのタイプ。
+description.mekanismgenerators.turbine_vent,A type of Turbine Casing with an integrated vent for the release of steam. These should be placed on the level of or above the turbine's Rotational Complex.,蒸気の放出用の統合ベントを備えたタービンケーシングのタイプ。これらはタービンの回転複合体のレベルまたはそれ以上に配置する必要があります。
+description.mekanismgenerators.wind_generator,"A generator that uses the strength of the wind to produce energy, with greater efficiency at higher levels.",風の強さを利用して電力を生成する発電機。より高い高度でより効率的です。
+fission.mekanismgenerators.activate,Activate,起動
+fission.mekanismgenerators.boil_efficiency,Boil Efficiency: %s,沸騰効率: %1$s
+fission.mekanismgenerators.burn_rate,Current Burn Rate:,現在の燃焼速度:
+fission.mekanismgenerators.coolant_tank,Coolant Tank,冷却タンク
+fission.mekanismgenerators.damage,Damage: %s,ダメージ: %s
+fission.mekanismgenerators.fission_reactor,Fission Reactor,核分裂炉
+fission.mekanismgenerators.force_disabled,Reactor must reach safe damage and temperature levels before it can be reactivated.,炉がダメージと温度が安全なレベルに達してから再アクティベート可能です。
+fission.mekanismgenerators.fuel_statistics,Fuel Statistics,燃料統計
+fission.mekanismgenerators.fuel_tank,Fuel Tank,燃料タンク
+fission.mekanismgenerators.heat_capacity,Heat Capacity: %s J/K,熱容量: %1$s J/K
+fission.mekanismgenerators.heat_graph,Heat Graph:,熱グラフ:
+fission.mekanismgenerators.heat_statistics,Heat Statistics,熱統計
+fission.mekanismgenerators.heated_coolant_tank,Heated Coolant Tank,加熱冷媒タンク
+fission.mekanismgenerators.heating_rate,Heating Rate: %s mB/t,加熱速度: %1$s mB/t
+fission.mekanismgenerators.invalid_bad_control_rod,"Couldn't form, improper placement for Control Rod Assembly at %s.",形成できません。位置%1$sの制御棒アセンブリの配置が不適切です。
+fission.mekanismgenerators.invalid_bad_fuel_assembly,"Couldn't form, missing fuel assembly for control rod at %s.",形成できません。位置%1$sの制御棒の燃料アセンブリが不足しています。
+fission.mekanismgenerators.invalid_extra_control_rod,"Couldn't form, found extra Control Rod Assembly at %s.",形成できません。位置%1$sで追加の制御棒アセンブリが見つかりました。
+fission.mekanismgenerators.invalid_malformed_fuel_assembly,"Couldn't form, invalid Fission Fuel Assembly placement at %s.",形成できません。位置%1$sで分裂燃料アセンブリの配置が無効です。
+fission.mekanismgenerators.invalid_missing_fuel_assembly,"Couldn't form, no fuel assembly structures present.",形成できません。燃料アセンブリ構造がありません。
+fission.mekanismgenerators.max_burn_rate,Max Burn Rate: %s mB/t,最大燃焼速度: %1$s mB/t
+fission.mekanismgenerators.missing_control_rod,"Couldn't form, missing control rod for fuel assembly at %s.",形成できません。位置%1$sの燃料アセンブリの制御棒が不足しています。
+fission.mekanismgenerators.port_mode_change,Port mode changed to: %s,ポートモード変更: %1$s
+fission.mekanismgenerators.port_mode_input,input only,入力専用
+fission.mekanismgenerators.port_mode_output_coolant,output coolant,冷媒出力
+fission.mekanismgenerators.port_mode_output_waste,output waste,廃棄物出力
+fission.mekanismgenerators.rate_limit,Rate Limit: %s mB/t,レート制限: %1$s mB/t
+fission.mekanismgenerators.scram,SCRAM,緊急停止
+fission.mekanismgenerators.set_rate_limit,Set Rate Limit:,レート制限を設定:
+fission.mekanismgenerators.stats,Fission Reactor Statistics,分裂炉統計
+fission.mekanismgenerators.surface_area,Fuel Surface Area: %s m2,燃料表面積: %1$s m2
+fission.mekanismgenerators.waste_tank,Waste Tank,廃棄タンク
+fml.menu.mods.info.description.mekanismgenerators,Generators module for Mekanism,Mekanismの発電機モジュール
+gui.mekanismgenerators.bio_generator.bio_fuel,BioFuel: %s,バイオ燃料: %1$s
+gui.mekanismgenerators.gas_burning_generator.burn_rate,Burn Rate: %s mB/t,燃焼速度: %1$s mB/t
+gui.mekanismgenerators.output_rate.short,Out: %s/t,出力: %1$s/t
+gui.mekanismgenerators.power,Power: %s,パワー: %s
+gui.mekanismgenerators.producing.amount,Producing: %s/t,生成中: %1$s/t
+item.mekanismgenerators.bioethanol_bucket,Bioethanol Bucket,バイオエタノールバケツ
+item.mekanismgenerators.deuterium_bucket,Liquid Deuterium Bucket,液体重水素バケツ
+item.mekanismgenerators.fusion_fuel_bucket,Liquid D-T Fuel Bucket,液体D-T燃料バケツ
+item.mekanismgenerators.hohlraum,Hohlraum,ホルラム
+item.mekanismgenerators.solar_panel,Solar Panel,ソーラーパネル
+item.mekanismgenerators.tritium_bucket,Liquid Tritium Bucket,液体三重水素バケツ
+item.mekanismgenerators.turbine_blade,Turbine Blade,タービンブレード
+mekanismgenerators.configuration.section.mekanism.generator.storage.toml,Storage Config,ストレージ設定
+mekanismgenerators.configuration.section.mekanism.generator.storage.toml.title,Mekanism: Generators - Storage Config,Mekanism: 発電機 - ストレージ設定
+mekanismgenerators.configuration.section.mekanism.generators.gear.toml,Gear Config,ギア設定
+mekanismgenerators.configuration.section.mekanism.generators.gear.toml.title,Mekanism: Generators - Gear Config,Mekanism: 発電機 - ギア設定
+mekanismgenerators.configuration.section.mekanism.generators.toml,General Config,一般設定
+mekanismgenerators.configuration.section.mekanism.generators.toml.title,Mekanism: Generators - General Config,Mekanism: 発電機 - 一般設定
+mekanismgenerators.configuration.title,Mekanism: Generators Config,Mekanism: 発電機設定
+module.mekanismgenerators.geothermal_generator_unit,Geothermal Generator Unit,地熱発電機ユニット
+module.mekanismgenerators.solar_recharging_unit,Solar Recharging Unit,ソーラー充電ユニット
+reactor.mekanismgenerators.configurator.port_eject,Toggled Reactor Port eject mode to: %s.,リアクターポート排出モード: %1$s
+reactor.mekanismgenerators.fuel,Fuel,燃料
+reactor.mekanismgenerators.fuel.edit_rate,Edit Rate:,レート編集:
+reactor.mekanismgenerators.fuel.injection_rate,Injection Rate: %s,注入速度: %1$s
+reactor.mekanismgenerators.fusion_reactor,Fusion Reactor,核融合反応炉
+reactor.mekanismgenerators.heat,Heat,熱
+reactor.mekanismgenerators.heat.case,Case: %s,ケーシング: %1$s
+reactor.mekanismgenerators.heat.plasma,Plasma: %s,プラズマ: %1$s
+reactor.mekanismgenerators.logic.activation,Activation,アクティベーション
+reactor.mekanismgenerators.logic.active_cooling,Active cooling: %s,アクティブ冷却: %1$s
+reactor.mekanismgenerators.logic.capacity,Heat Capacity Met,熱容量達成
+reactor.mekanismgenerators.logic.critical_waste_level,Critical Waste Level,臨界廃棄物レベル
+reactor.mekanismgenerators.logic.damaged,Damage Critical,ダメージ重大
+reactor.mekanismgenerators.logic.depleted,Insufficient Fuel,燃料不足
+reactor.mekanismgenerators.logic.disabled,Disabled,無効
+reactor.mekanismgenerators.logic.outputting,Outputting,出力中
+reactor.mekanismgenerators.logic.powered,Powered,動力化
+reactor.mekanismgenerators.logic.ready,Ready for Ignition,点火可能
+reactor.mekanismgenerators.logic.redstone_output_mode,Redstone mode: %s,レッドストーンモード: %s
+reactor.mekanismgenerators.logic.temperature,High Temperature,温度
+reactor.mekanismgenerators.logic.toggle_cooling,Toggle Cooling Measurements,冷却測定の切り替え
+reactor.mekanismgenerators.stats,Stats,統計
+reactor.mekanismgenerators.stats.active,Water-Cooled,水冷却
+reactor.mekanismgenerators.stats.ignition,Ignition Temp: %s,点火温度: %1$s
+reactor.mekanismgenerators.stats.max_casing,Max. Casing Temp: %s,最大ケーシング温度: %1$s
+reactor.mekanismgenerators.stats.max_plasma,Max. Plasma Temp: %s,最大プラズマ温度: %1$s
+reactor.mekanismgenerators.stats.min_inject,Min. Inject Rate: %s,最小注入速度: %1$s
+reactor.mekanismgenerators.stats.passive,Air-Cooled,空冷却
+reactor.mekanismgenerators.stats.passive_generation,Passive Generation: %s/t,受動発電: %1$s/t
+reactor.mekanismgenerators.stats.steam_production,Steam Production: %s mB/t,蒸気生産: %1$s mB/t
+sound_event.mekanismgenerators.tile.generator.bio,Bio generator hums,バイオ発電機が唸る
+sound_event.mekanismgenerators.tile.generator.gas,Gas generator hums,ガス発電機が唸る
+sound_event.mekanismgenerators.tile.generator.heat,Heat generator hums,熱
+sound_event.mekanismgenerators.tile.generator.solar,Solar generator hums,ソーラー発電機が唸る
+sound_event.mekanismgenerators.tile.generator.wind,Wind generator wooshes,風力発電機がシューシュー鳴る
+sound_event.mekanismgenerators.tile.machine.fission_reactor,Fission reactor hums,分裂炉が唸る
+sound_event.mekanismgenerators.tile.machine.fusion_reactor,Fusion reactor hums,融合炉
+tag.fluid.c.bioethanol,Bioethanol,バイオエタノール
+tag.fluid.c.deuterium,Deuterium,重水素
+tag.fluid.c.fusion_fuel,D-T Fuels,D-T燃料
+tag.fluid.c.tritium,Tritium,三重水素
+tag.item.c.buckets.bioethanol,Bioethanol Buckets,バイオエタノール入りバケツ
+tag.item.c.buckets.deuterium,Liquid Deuterium Buckets,液体重水素入りバケツ
+tag.item.c.buckets.fusion_fuel,Liquid D-T Fuel Buckets,液体D-T燃料入りバケツ
+tag.item.c.buckets.tritium,Liquid Tritium Buckets,液体三重水素入りバケツ
+tag.mekanism.chemical.mekanism.deuterium,Deuterium,重水素
+tag.mekanism.chemical.mekanism.fusion_fuel,D-T Fuels,D-T燃料
+tag.mekanism.chemical.mekanism.tritium,Tritium,三重水素
+tooltip.mekanismgenerators.hohlraum.insufficient_fuel,Insufficient Fuel,燃料不足
+tooltip.mekanismgenerators.hohlraum.ready_for_reaction,Ready for Reaction!,反応準備完了！
+turbine.mekanismgenerators.capacity,Capacity: %s mB,容量: %1$s mB
+turbine.mekanismgenerators.flow_rate,Flow rate: %s mB/t,流量: %1$s mB/t
+turbine.mekanismgenerators.industrial_turbine,Industrial Turbine,工業用タービン
+turbine.mekanismgenerators.invalid_bad_complex,"Couldn't form, found improperly placed Rotational Complex at %s. Complex must be centered above Turbine Rotors.",形成できません。位置%1$sで配置が不適切な回転複合体が見つかりました。複合体はタービンロータの中央上に配置する必要があります。
+turbine.mekanismgenerators.invalid_bad_rotor,"Couldn't form, found invalid Turbine Rotor at %s. Turbine Rotors must be centered below Rotational Complex.",形成できません。位置%1$sで無効なタービンロータが見つかりました。タービンロータは回転複合体の中央下に配置する必要があります。
+turbine.mekanismgenerators.invalid_bad_rotors,"Couldn't form, invalid Turbine Rotor arrangement.",形成できません。無効なタービンロータ配置。
+turbine.mekanismgenerators.invalid_condenser_below_complex,"Couldn't form, found improperly placed Saturating Condenser at %s. Saturating Condensers must be above Pressure Disperser layer.",形成できません。位置%1$sで配置が不適切な飽和コンデンサーが見つかりました。飽和コンデンサーは圧力ディスパーザレイヤーの上に配置する必要があります。
+turbine.mekanismgenerators.invalid_even_length,"Couldn't form, width and length of structure must be odd.",形成できません。構造の幅と長さは奇数である必要があります。
+turbine.mekanismgenerators.invalid_malformed_coils,"Couldn't form, Electromagnetic Coil arrangement is malformed. Coils must be connected to Rotational Complex and adjacently connected.",形成できません。電磁コイル配置が不正です。コイルは回転複合体に接続され、隣接して接続される必要があります。
+turbine.mekanismgenerators.invalid_malformed_dispersers,"Couldn't form, Pressure Disperser arrangement is malformed. Dispersers must create complete horizontal layer surrounding Rotational Complex.",形成できません。圧力ディスパーザ配置が不正です。ディスパーザは回転複合体を取り囲む完全な水平層を作成する必要があります。
+turbine.mekanismgenerators.invalid_missing_blades,"Couldn't form, no blades are present on the Turbine Rotor.",構成できませんでした。タービンローターにタービンの羽がありません。
+turbine.mekanismgenerators.invalid_missing_coils,"Couldn't form, no Electromagnetic Coils present.",形成できません。電磁コイルがありません。
+turbine.mekanismgenerators.invalid_missing_complex,"Couldn't form, no Rotational Complex present.",形成できません。回転複合体がありません。
+turbine.mekanismgenerators.invalid_missing_disperser,"Couldn't form, expected but didn't find Pressure Disperser at %s.",形成できません。位置%1$sで圧力ディスパーザが必要ですが見つかりません。
+turbine.mekanismgenerators.invalid_missing_dispersers,"Couldn't form, no Pressure Dispersers present.",形成できません。圧力ディスパーザがありません。
+turbine.mekanismgenerators.invalid_missing_vents,"Couldn't form, no Turbine Vents present.",構成できませんでした。タービンベントがありません。
+turbine.mekanismgenerators.invalid_rotors_not_contiguous,"Couldn't form, rotors are invalid (non-contiguous).",形成できません。ロータが無効です(不連続)。
+turbine.mekanismgenerators.invalid_too_narrow,"Couldn't form, structure is too narrow to support turbine size.",形成できません。構造が狭すぎてタービンサイズをサポートできません。
+turbine.mekanismgenerators.invalid_vent_below_complex,"Couldn't form, found a Turbine Vent below Pressure Disperser layer. Vents must be at or above vertical position of disperser layer.",形成できません。圧力ディスパーザレイヤーの下にタービンベントが見つかりました。ベントはディスパーザレイヤーの垂直位置以上に配置する必要があります。
+turbine.mekanismgenerators.production_amount,Production: %s,生成量: %1$s
+turbine.mekanismgenerators.stats,Turbine Statistics,タービン統計
+turbine.mekanismgenerators.stats.blades,Blades: %s %s,ブレード: %1$s %2$s
+turbine.mekanismgenerators.stats.coils,Coils: %s %s,コイル: %1$s %2$s
+turbine.mekanismgenerators.stats.dispersers,Dispersers: %s %s,ディスパーザ: %1$s %2$s
+turbine.mekanismgenerators.stats.limiting,(Limiting),(制限中)
+turbine.mekanismgenerators.stats.max_flow,Max flow: %s mB/t,最大流量: %1$s mB/t
+turbine.mekanismgenerators.stats.max_production,Max Production: %s,最大生成: %1$s
+turbine.mekanismgenerators.stats.max_water_output,Max Water Output: %s mB/t,最大水出力: %1$s mB/t
+turbine.mekanismgenerators.stats.production,Production,生産
+turbine.mekanismgenerators.stats.steam_flow,Steam Flow,蒸気流
+turbine.mekanismgenerators.stats.tank_volume,Tank Volume: %s,タンク容量: %1$s
+turbine.mekanismgenerators.stats.vents,Vents: %s %s,ベント: %1$s %2$s
+turbine.mekanismgenerators.steam_input,Steam Input: %s mB/t,蒸気入力: %1$s mB/t
+turbine.mekanismgenerators.tooltip.steamdump,Dumping Steam,蒸気を破棄する
+turbine.mekanismgenerators.tooltip.steamdump.warning,Water will NOT be recycled,水は再利用されません
+turbine.mekanismgenerators.tooltip.steamdump_excess,Dumping excess Steam,余分な蒸気を破棄する
+wind_generator.mekanismgenerators.no_wind,No wind,風がない
+wind_generator.mekanismgenerators.sky_blocked,Sky blocked,空がブロックされている
+container.mekanismgenerators.fission_reactor_casing,Fission Reactor Casing,核分裂炉筐体
+container.mekanismgenerators.fission_reactor_port,Fission Reactor Port,核分裂炉ポート
+container.mekanismgenerators.fusion_reactor_controller,Fusion Reactor Controller,核融合炉制御装置
+container.mekanismgenerators.turbine_casing,Turbine Casing,タービンケーシング
+container.mekanismgenerators.turbine_valve,Turbine Valve,タービンバルブ
+container.mekanismgenerators.turbine_vent,Turbine Vent,タービンベント
+description.mekanismgenerators.reactor.logic.excess_waste,Output when the reactor has excess waste,廃棄物が過剰な場合の出力
+fluid.mekanismgenerators.bioethanol,Bioethanol,バイオエタノール
+fluid.mekanismgenerators.deuterium,Liquid Deuterium,液体重水素
+fluid.mekanismgenerators.flowing_bioethanol,Flowing Bioethanol,流れるバイオエタノール
+fluid.mekanismgenerators.flowing_deuterium,Flowing Liquid Deuterium,流れる液体重水素
+fluid.mekanismgenerators.flowing_fusion_fuel,Flowing Liquid D-T Fuel,流れる液体D-T燃料
+fluid.mekanismgenerators.flowing_tritium,Flowing Liquid Tritium,流れる液体三重水素
+fluid.mekanismgenerators.fusion_fuel,Liquid D-T Fuel,液体D-T燃料
+fluid.mekanismgenerators.tritium,Liquid Tritium,液体三重水素
+gas.mekanismgenerators.deuterium,Deuterium,重水素
+gas.mekanismgenerators.fusion_fuel,D-T Fuel,D-T燃料
+gas.mekanismgenerators.tritium,Tritium,三重水素
+reactor.mekanismgenerators.logic.excess_waste,Excess Waste,廃棄物過剰時
+advancements.mekanismgenerators.burn_the_gas.description,Craft a Gas-Burning Generator to burn Ethylene,エチレンを燃焼させるためにガス燃焼発電機をクラフトする

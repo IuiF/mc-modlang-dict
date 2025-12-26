@@ -1,0 +1,167 @@
+﻿key,source_text,target_text
+nbt_ac.options,NBT Autocomplete Settings,NBT自動補完設定
+nbt_ac.options.advanced_settings,Advanced Settings,詳細設定
+nbt_ac.options.common.gui_debug_warning,Config screen debug mode is enabled!,設定画面のデバッグモードが有効です！
+nbt_ac.options.common.reset_settings,Reset Settings,設定をリセット
+nbt_ac.options.common.tooltip,"%s
+§8Default value: %s","%s
+§8デフォルト値: %s"
+nbt_ac.options.common.undefined,[undefined],[未定義]
+nbt_ac.options.debugging_options,Debugging Options,デバッグオプション
+nbt_ac.options.field.allow_block_entity_extraction,Allow Block Entity Extraction,ブロックエンティティの抽出を許可
+nbt_ac.options.field.allow_block_entity_extraction.desc,Allows for usage of block entity extraction method (similar to one used by disassembler) after suggestions are loaded.,提案が積み込まれた後、ブロックエンティティ抽出メソッド(分解機が使用するものと類似)の使用を許可します。
+nbt_ac.options.field.custom_sorting,Custom Sorting,カスタムソート
+nbt_ac.options.field.custom_sorting.desc,Allows the mod to use non-alphabetical suggestion sorting.,Modが非アルファベット順の提案ソートを使用できるようにします。
+nbt_ac.options.field.debug_config_screen,Debug Config Screen,デバッグ設定画面
+nbt_ac.options.field.debug_config_screen.desc,Shows settings GUI after exiting realms screen. It isn't reset to default value by GUI reset button!,Realms画面を終了した後、設定GUIを表示します。GUI リセットボタンではデフォルト値にリセットされません！
+nbt_ac.options.field.debug_mode,Debug Mode,デバッグモード
+nbt_ac.options.field.debug_mode.desc,Enables additional messages and checks useful for debugging.,デバッグに役立つ追加メッセージとチェックを有効にします。
+nbt_ac.options.field.debug_sleep,Debug Loading Sleep,デバッグ読込遅延
+nbt_ac.options.field.debug_sleep.0,[disabled],[無効]
+nbt_ac.options.field.debug_sleep.desc,"Delays suggestion loading to better measure time it takes (value in milliseconds, recommended to set to a few thousand).",提案読込にかかる時間をより正確に測定するために読込を遅延させます(ミリ秒単位、数千に設定することをお勧めします)。
+nbt_ac.options.field.default_quotation_mark_type,Default Quotation Mark Type,デフォルト引用符タイプ
+nbt_ac.options.field.default_quotation_mark_type.1,Single ('),シングル (')
+nbt_ac.options.field.default_quotation_mark_type.2,"Double ("")","ダブル ("")"
+nbt_ac.options.field.default_quotation_mark_type.desc,"Defines what kind of quotation mark will be used by default.
+1 - Single (')
+2 - Double ("")
+Other values will be treated as 2.
+If you're using version 1.19.4 or older, note that setting it to single (especially with ""Put Tags In Quotation Marks"" set to ""Always"") may cause some issues with NBT paths due to MC-175504 bug. It also doesn't apply to JSON text components.","デフォルトで使用される引用符の種類を定義します。
+1 - シングル (')
+2 - ダブル ("")
+その他の値は2として扱われます。
+バージョン1.19.4以前を使用している場合、特に「タグを引用符で囲む」が「常に」に設定されている場合、シングルに設定するとMC-175504バグによるNBTパスの問題が発生する可能性があります。JSONテキストコンポーネントには適用されません。"
+nbt_ac.options.field.gray_out_irrelevant,Gray Out Irrelevant,無関係な提案を灰色化
+nbt_ac.options.field.gray_out_irrelevant.desc,Grays out irrelevant suggestions.,無関係な提案を灰色化します。
+nbt_ac.options.field.hide_forge_tags,Hide Forge Tags,Forgeタグを非表示
+nbt_ac.options.field.hide_forge_tags.desc,"Hides Forge specific tags. Requires removing ""./minecraft/cache/nbt_ac"" and game restart to take effect.",Forge固有のタグを非表示にします。効果を適用するには「./minecraft/cache/nbt_ac」を削除してゲームを再起動する必要があります。
+nbt_ac.options.field.hide_mc_namespace_in_components,Hide Minecraft Namespace In Components,コンポーネント内のMinecraftネームスペースを非表示
+nbt_ac.options.field.hide_mc_namespace_in_components.desc,"Hides ""minecraft:"" namespace from item component suggestions.",アイテムコンポーネント提案から「minecraft:」ネームスペースを非表示にします。
+nbt_ac.options.field.hide_mc_namespace_in_strings,Hide Minecraft Namespace In Strings,文字列内のMinecraftネームスペースを非表示
+nbt_ac.options.field.hide_mc_namespace_in_strings.desc,"Hides ""minecraft:"" namespace from string suggestions.",文字列提案から「minecraft:」ネームスペースを非表示にします。
+nbt_ac.options.field.hide_mc_namespace_in_tags,Hide Minecraft Namespace In Tags,タグ内のMinecraftネームスペースを非表示
+nbt_ac.options.field.hide_mc_namespace_in_tags.desc,"Hides ""minecraft:"" namespace from tag suggestions.",タグ提案から「minecraft:」ネームスペースを非表示にします。
+nbt_ac.options.field.ignore_letter_case,Ignore Letter Case,大文字小文字を区別しない
+nbt_ac.options.field.ignore_letter_case.desc,Ignores letter case when providing tag name suggestions.,タグ名の提案を提供するときに大文字小文字を区別しません。
+nbt_ac.options.field.json_string_suggestion,JSON String Suggestion,JSON文字列提案
+nbt_ac.options.field.json_string_suggestion.0,None,なし
+nbt_ac.options.field.json_string_suggestion.1,Recommended,推奨
+nbt_ac.options.field.json_string_suggestion.2,Default For Strings,文字列のデフォルト
+nbt_ac.options.field.json_string_suggestion.3,"Legacy, Separated (' "")","レガシー、分離 (' "")"
+nbt_ac.options.field.json_string_suggestion.4,"Legacy, Merged ('"")","レガシー、統合 ('"")"
+nbt_ac.options.field.json_string_suggestion.5,"Legacy, Backslash (""\"")","レガシー、バックスラッシュ (""\"")"
+nbt_ac.options.field.json_string_suggestion.desc,"Defines simple string opening suggestion for JSON text components.
+0 - None
+1 - Recommended - same as 2 on 1.20.4 and newer, same as 3 on older.
+2 - Default For Strings - uses quote type from ""Default Quotation Mark Type"" setting.
+3 - Legacy, Separated (' "")
+4 - Legacy, Merged ('"") - similar to 3, but without space.
+5 - Legacy, Backslash (""\"")
+Other values will be treated as 1.","JSONテキストコンポーネントの簡単な文字列開始提案を定義します。
+0 - なし
+1 - 推奨 - 1.20.4以降では2と同じ、古いバージョンでは3と同じ。
+2 - 文字列のデフォルト - 「デフォルト引用符タイプ」設定の引用符タイプを使用します。
+3 - レガシー、分離 (' "")
+4 - レガシー、統合 ('"") - 3に似ていますが、スペースなし。
+5 - レガシー、バックスラッシュ (""\"")
+その他の値は1として扱われます。"
+nbt_ac.options.field.load_from_resources,Load From Resources,リソースから読み込む
+nbt_ac.options.field.load_from_resources.desc,Loads suggestions from resource files (required to load item tags and tag predictions).,リソースファイルから提案を読み込みます(アイテムタグとタグ予測の読み込みに必要)。
+nbt_ac.options.field.mark_irrelevant,Mark Irrelevant,無関係な提案をマーク
+nbt_ac.options.field.mark_irrelevant.desc,"Marks irrelevant suggestions with ""<I>"" in a hint.",無関係な提案をヒント内で「<I>」でマークします。
+nbt_ac.options.field.mark_recommended,Mark Recommended,推奨提案をマーク
+nbt_ac.options.field.mark_recommended.desc,"Marks recommended suggestions with ""<*>"" in a hint.",推奨提案をヒント内で「<*>」でマークします。
+nbt_ac.options.field.max_cached_instances,Max Cached Instances,キャッシュされた最大インスタンス数
+nbt_ac.options.field.max_cached_instances.-1,[unlimited],[無制限]
+nbt_ac.options.field.max_cached_instances.desc,Maximum number of cached Minecraft instances. Use -1 to disable the limit.,キャッシュされたMinecraftインスタンスの最大数。-1を使用して制限を無効にします。
+nbt_ac.options.field.max_stack_traces,Max Logged Stack Traces,ログされた最大スタックトレース
+nbt_ac.options.field.max_stack_traces.-1,[unlimited],[無制限]
+nbt_ac.options.field.max_stack_traces.0,0 (disabled),0(無効)
+nbt_ac.options.field.max_stack_traces.desc,"Limit of printed stack traces for exceptions.
+-1 - Unlimited
+ 0 - Stack traces disabled","例外に対して出力されるスタックトレースの制限。
+-1 - 無制限
+ 0 - スタックトレース無効"
+nbt_ac.options.field.placing_of_irrelevant,Placing Of Irrelevant,無関係な提案の配置
+nbt_ac.options.field.placing_of_irrelevant.0,Normal,通常
+nbt_ac.options.field.placing_of_irrelevant.1,At The Bottom,一番下
+nbt_ac.options.field.placing_of_irrelevant.2,Hidden,隠し
+nbt_ac.options.field.placing_of_irrelevant.desc,"Specifies the placing of irrelevant suggestions.
+0 - Normal
+1 - At The Bottom
+2 - Hidden
+Other values will be treated as 1.
+Values other than ""Normal"" require custom sorting.","無関係な提案の配置を指定します。
+0 - 通常
+1 - 一番下
+2 - 非表示
+その他の値は1として扱われます。
+「通常」以外の値はカスタムソートが必要です。"
+nbt_ac.options.field.recommended_at_the_top,Recommended At The Top,推奨提案を一番上に
+nbt_ac.options.field.recommended_at_the_top.desc,Places recommended suggestions at the top of the list. Requires custom sorting.,推奨提案をリストの一番上に配置します。カスタムソートが必要です。
+nbt_ac.options.field.save_suggestions,Save Suggestions,提案を保存
+nbt_ac.options.field.save_suggestions.0,Disabled,無効
+nbt_ac.options.field.save_suggestions.1,Enabled,有効
+nbt_ac.options.field.save_suggestions.2,Enabled and Sorted,有効(ソート済み)
+nbt_ac.options.field.save_suggestions.desc,"Saves suggestions to file - "".minecraft/nbt_ac_output.txt"".
+0 - Disabled
+1 - Enabled
+2 - Enabled and sorted (easier for comparing)
+Other values will be treated as 0.","提案をファイルに保存します - "".minecraft/nbt_ac_output.txt""。
+0 - 無効
+1 - 有効
+2 - 有効(ソート済み、比較が容易)
+その他の値は0として扱われます。"
+nbt_ac.options.field.short_boolean,Short Boolean,短いブール値
+nbt_ac.options.field.short_boolean.desc,"Suggests 1b/0b instead of true/false for boolean value. Note that it doesn't apply to raw JSON format, as it requires true/false form.",ブール値にtrue/falseの代わりに1b/0bを提案します。raw JSON形式にはtrue/false形式が必要なため適用されないことに注意してください。
+nbt_ac.options.field.show_custom_data_as_relevant,"Show ""custom_data"" As Relevant",「custom_data」を関連として表示
+nbt_ac.options.field.show_custom_data_as_relevant.desc,"When enabled it will always show ""minecraft:custom_data"" item component as relevant suggestion. When disabled it will always be shown as irrelevant.",有効にすると「minecraft:custom_data」アイテムコンポーネントが常に関連提案として表示されます。無効にすると常に無関係として表示されます。
+nbt_ac.options.field.show_custom_model_data_as_relevant,"Show ""custom_model_data"" As Relevant",「custom_model_data」を関連として表示
+nbt_ac.options.field.show_custom_model_data_as_relevant.desc,"When enabled it will always show ""minecraft:custom_model_data"" item component as relevant suggestion. When disabled it will always be shown as irrelevant.",有効にすると「minecraft:custom_model_data」アイテムコンポーネントが常に関連提案として表示されます。無効にすると常に無関係として表示されます。
+nbt_ac.options.field.show_tag_hints,Show Tag Hints,タグヒントを表示
+nbt_ac.options.field.show_tag_hints.desc,Shows tag hints (like its type or source) next to its name in a suggestion list.,提案リスト内のタグ名の横にタグヒント(タイプやソースなど)を表示します。
+nbt_ac.options.field.string_quotation_marks,Put Strings In Quotation Marks,文字列を引用符で囲む
+nbt_ac.options.field.string_quotation_marks.desc,"Puts values of string type in quotation marks.
+true - Always
+false - When necessary","文字列型の値を引用符で囲みます。
+true - 常に
+false - 必要な場合のみ"
+nbt_ac.options.field.string_quotation_marks.false,When necessary,必要な場合のみ
+nbt_ac.options.field.string_quotation_marks.true,Always,常に
+nbt_ac.options.field.support_command_namespace,Support For Command Namespace,コマンドネームスペース対応
+nbt_ac.options.field.support_command_namespace.desc,"Ignores the ""minecraft:"" as command prefix. Useful when using with plugins which put Minecraft commands under this namespace.",コマンドプリフィックスとして「minecraft:」を無視します。Minecraftコマンドをこのネームスペースの下に置くプラグインを使用する場合に便利です。
+nbt_ac.options.field.tag_quotation_marks,Put Tags In Quotation Marks,タグを引用符で囲む
+nbt_ac.options.field.tag_quotation_marks.desc,"Puts tag names in quotation marks.
+true - Always
+false - When necessary","タグ名を引用符で囲みます。
+true - 常に
+false - 必要な場合のみ"
+nbt_ac.options.field.tag_quotation_marks.false,When necessary,必要な場合のみ
+nbt_ac.options.field.tag_quotation_marks.true,Always,常に
+nbt_ac.options.field.use_cache,Use Cache,キャッシュを使用
+nbt_ac.options.field.use_cache.desc,Enables suggestion caching.,提案キャッシュを有効にします。
+nbt_ac.options.field.use_disassembler,Use Disassembler,分解機を使用
+nbt_ac.options.field.use_disassembler.desc,"Loads suggestions by using disassembler on ""load"" methods of entities and block entities.",エンティティおよびブロックエンティティの「load」メソッドで分解機を使用して提案を読み込みます。
+nbt_ac.options.field.use_new_thread,Use New Thread,新しいスレッドを使用
+nbt_ac.options.field.use_new_thread.desc,Uses new thread to load suggestions during Minecraft loading.,Minecraftの読み込み中に提案を読み込むために新しいスレッドを使用します。
+nbt_ac.options.field.vanilla_ids_sorting,Vanilla IDs Sorting,バニラIDソート
+nbt_ac.options.field.vanilla_ids_sorting.0,Without Custom Sorting,カスタムソートなし
+nbt_ac.options.field.vanilla_ids_sorting.1,Depends,依存
+nbt_ac.options.field.vanilla_ids_sorting.2,Always At The Top,常に一番上
+nbt_ac.options.field.vanilla_ids_sorting.3,Always In The Middle,常に真ん中
+nbt_ac.options.field.vanilla_ids_sorting.desc,"Specifies the method vanilla IDs (in ""minecraft:"" namespace) are sorted in relation to non-vanilla IDs (from mods). It applies only to suggestions provided by NBT Autocomplete. This setting is also strongly related to ""Hide Minecraft Namespace In Strings"" setting.
+0 - Without Custom Sorting - with hidden vanilla namespace it will cause IDs to be scattered around IDs from mods, therefore it isn't recommended.
+1 - Depends - placed at the top only with namespace hidden, otherwise in the middle.
+2 - Always At The Top
+3 - Always In The Middle
+Other values will be treated as 1.","バニラID(「minecraft:」ネームスペース内)が非バニラID(Modから)に関連してソートされる方法を指定します。NBT自動補完で提供される提案にのみ適用されます。この設定は「文字列内のMinecraftネームスペースを非表示」設定とも密接に関連しています。
+0 - カスタムソートなし - バニラネームスペースが非表示の場合、IDがModのIDの周りに散在することになり、したがって推奨されません。
+1 - 依存 - ネームスペースが非表示の場合のみ一番上に配置され、それ以外の場合は真ん中。
+2 - 常に一番上
+3 - 常に真ん中
+その他の値は1として扱われます。"
+nbt_ac.options.item_components,Item Components,アイテムコンポーネント
+nbt_ac.options.mods_and_plugins_support,Mods and Plugins Support,Modおよびプラグイン対応
+nbt_ac.options.style,Style,スタイル
+nbt_ac.options.suggestion_priority,Suggestion Priority,提案優先度
+nbt_ac.options.suggestions,Suggestions,提案

@@ -1,0 +1,61 @@
+﻿key,source_text,target_text
+command.pingwheel.channel.get.description,get your current channel,現在のチャンネルを取得
+command.pingwheel.channel.get.response.default,Currently using default channel,現在デフォルトチャンネルを使用しています
+command.pingwheel.channel.set.description,"set your channel, use """" for default channel",チャンネルを設定してください。デフォルトは「」です。
+command.pingwheel.channel.set.reject,Channel names are limited to a length of %s characters,チャネル名は最大 %s 文字に制限されています
+command.pingwheel.channel.set.response,"Set channel to ""%s""","Set channel to ""%s"""
+command.pingwheel.channel.set.response.default,Set channel to default,チャンネルをデフォルトに設定
+command.pingwheel.config.description,open configuration interface,構成インターフェースを開く
+command.pingwheel.default_channel.get.description,get the current default channel mode,現在のデフォルトチャンネルモードを取得する
+command.pingwheel.default_channel.get.response,Current default channel mode: %s,現在のデフォルトチャンネルモード: %s
+command.pingwheel.default_channel.set.description,set the default channel mode,デフォルトチャンネルモードを設定する
+command.pingwheel.default_channel.set.reject,"Unknown mode, valid options are: %s",不明なモード。有効なオプションは: %s
+command.pingwheel.default_channel.set.response,Set default channel mode to %s,デフォルトのチャンネルモードを %s に設定
+command.pingwheel.player_tracking.get.description,check if player tracking is currently enabled,プレイヤー追跡が現在有効か確認する
+command.pingwheel.player_tracking.get.response,Player tracking is currently: %s,プレイヤートラッキングは現在: %s
+command.pingwheel.player_tracking.set.description,enable or disable the tracking of players,プレイヤー追跡を有効または無効にする
+command.pingwheel.player_tracking.set.response,Player tracking is now: %s,プレイヤートラッキングは現在: %s
+command.pingwheel.rate_limit.get.description,get the current rate limit for ping usages,現在のピン使用率制限を取得する
+command.pingwheel.rate_limit.get.response,Current rate limit: %s,現在のレート制限: %s
+command.pingwheel.rate_limit.set.description,set the rate limit for ping usages,ピン使用率制限を設定します
+command.pingwheel.rate_limit.set.response,Set rate limit to %s,%s にレートリミットを設定
+command.pingwheel.regen_time.get.description,get the current time to regenerate ping usages,現在時刻を取得してピン使用回数をリセットします
+command.pingwheel.regen_time.get.response,Current time to regenerate: %s,再生までの現在時刻: %s
+command.pingwheel.regen_time.set.description,set the time to regenerate ping usages,ping使用量の再生成時間を設定する
+command.pingwheel.regen_time.set.response,Set time to regenerate to %s,再生時間を %s に設定
+key.category.pingwheel.name,Ping Wheel,Pingホイール
+key.pingwheel.open_settings,Open Settings,設定を開く
+key.pingwheel.ping_location,Ping Location,位置をPingする
+settings.pingwheel.channel,Ping Channel,Pingチャンネル
+settings.pingwheel.channel.placeholder,Synced to %s,同期中：%s
+settings.pingwheel.channel.tooltip,You only send and receive Pings to and from players on the same channel,同じチャネルにいるプレイヤー間のみPingを送受信します
+settings.pingwheel.correction_period,Correction Period: %s,修正期間: %s
+settings.pingwheel.direction_indicator_visible,Direction Indicator,方向インジケーター
+settings.pingwheel.item_icon_visible,Item Icons,アイテムアイコン
+settings.pingwheel.ping_distance,Ping Distance: %s,ピン距離: %s
+settings.pingwheel.ping_duration,Ping Duration: %s,ピン持続時間: %s
+settings.pingwheel.ping_size,Ping Size: %s,Pingサイズ: %s
+settings.pingwheel.ping_volume,Ping Volume: %s,Ping音量: %s
+settings.pingwheel.player_info_mode,Player Info,プレイヤー情報
+settings.pingwheel.player_info_mode.hold.tooltip,"Player Info is shown when the ""%s"" (%s) Key Bind is held",プレイヤー情報は「%s」(%s) キーバインドを押し続けると表示されます
+settings.pingwheel.team_color_mode,Team Color,チームカラー
+settings.pingwheel.title,Ping Wheel Settings,ピングホイール設定
+subtitles.pingwheel.ping,Location Ping Alert,位置ピングアラート
+unit.pingwheel.meters,%sm,%sm
+unit.pingwheel.percent,%s%%,%s%%
+unit.pingwheel.seconds,%ss,%ss
+value.pingwheel.always,Always,常に
+value.pingwheel.auto,Auto,自動
+value.pingwheel.compact,Compact,コンパクト
+value.pingwheel.disabled,Disabled,無効
+value.pingwheel.ftb_teams,FTB Teams,FTB チーム
+value.pingwheel.full,Full,フル
+value.pingwheel.global,Global,グローバル
+value.pingwheel.hidden,Hidden,隠し
+value.pingwheel.hold,Hold,保持
+value.pingwheel.infinite,∞,∞
+value.pingwheel.labels_only,Labels Only,ラベルのみ
+value.pingwheel.ping_only,Ping Only,Pingのみ
+value.pingwheel.team_only,Team Only,チーム専用
+value.pingwheel.vanilla_team,Vanilla Team,ベーシックチーム
+value.pingwheel.voice_chat,Voice Chat,ボイスチャット

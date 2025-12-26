@@ -1,0 +1,23 @@
+﻿key,source_text,target_text
+stackie.general.stacklimit,Stack Limit,スタック制限
+stackie.general.stacklimit.tooltip,If the amount of entities surpasses this number stacking will be disabled (per dimension).,エンティティ数がこの数値を超えると、スタッキングが無効化されます（ディメンションごと）。
+stackie.general.interval,Interval,間隔
+stackie.general.interval.tooltip,Amount of ticks (20 ticks => 1 second) that will pass between each stacking attempt.,各スタッキング試行の間に経過するティック数（20ティック＝1秒）です。
+stackie.general.distance,Distance,距離
+stackie.general.distance.tooltip,Maximum distance between items/experience orbs that can be still stacked (relative to block size).,アイテム/経験値オーブがまだスタックできる最大距離（ブロックサイズに対して）
+stackie.general.stackitems,Stack Items,スタックアイテム
+stackie.general.stackitems.tooltip,Should it stack items?,アイテムをスタックすべきですか？
+stackie.general.stackexperience,Stack Experience,スタック経験値
+stackie.general.stackexperience.tooltip,Should it stack experience orbs?,経験オーブをスタックしますか？
+stackie.general.stacksizes,Stack Sizes,スタックサイズ
+stackie.general.stacksizes.tooltip,A list of uniqueName-stackSize mappings. These values will override the default stack sizes.,uniqueName-スタックサイズマッピングのリストです。これらの値はデフォルトのスタックサイズを上書きします。
+stackie.general.maximumstacksize,Maximum Stack Size,最大スタック数
+stackie.general.maximumstacksize.tooltip,Items will be stacked up to this amount.,アイテムはこの量までスタックされます。
+stackie.general.maximumexperience,Maximum Experience,最大経験値
+stackie.general.maximumexperience.tooltip,Experience will be stacked up to this amount.,経験値はこの量までスタックします
+commands.stackie.usage,/stackie <setinterval|setdistance|stackitems|stackexperience> <number|true|false>,/stackie <setinterval|setdistance|stackitems|stackexperience> <number|true|false>
+commands.stackie.stacklimit,Stacking limit was set to: %d,スタッキング上限は%dに設定されました
+commands.stackie.interval,Stacking interval was set to: %d (%.1f seconds),スタッキング間隔は%dに設定されました（%.1f秒）。
+commands.stackie.distance,Stacking distance was set to: %.2f,スタック距離を設定しました: %.2f
+commands.stackie.stackitems,Stacking of items was set to: %s,アイテムのスタッキングは次に設定されました：%s
+commands.stackie.stackexperience,Stacking of experience was set to: %s,経験値のスタック設定: %s

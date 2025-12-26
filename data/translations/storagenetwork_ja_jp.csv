@@ -1,0 +1,217 @@
+﻿key,source_text,target_text
+block.storagenetwork.collector,Network Collection Interface,収集インターフェイス
+block.storagenetwork.collector.tooltip,Items inserted enter the network,アイテムをネットワークに追加できます。
+block.storagenetwork.controller,Controller,コントローラー
+block.storagenetwork.controller.tooltip,Manage all Processing Cables in the network,ネットワーク内の全てのケーブルを管理します。
+block.storagenetwork.exchange,Network Exchange Interface,交換インターフェイス
+block.storagenetwork.exchange.tooltip,Endpoint of the network for inventory connections,ネットワーク上のコンテナに接続するためのエンドポイントです。
+block.storagenetwork.export_kabel,Export Cable,出力ケーブル
+block.storagenetwork.export_kabel.guide,"While connected to an inventory, these export items from the network to the target inventory.  Has priority settings for sort order among other export cables, and optional redstone control.  Accepts upgrades.  ",コンテナに接続している間、ネットワークからそのコンテナにアイテムを出力します。出力ケーブル同士で優先度を設定でき、オプションでレッドストーン信号の出力も可能です。各種強化ができます。
+block.storagenetwork.filter_kabel,Filtered Link Cable,フィルタリングされたリンクケーブル
+block.storagenetwork.filter_kabel.guide,"Each Link Cable connects one inventory to the network.  Has priority settings for sort order among other export cables, and accepts upgrades.  ",コンテナ1つをネットワークに接続します。出力ケーブルとの間で優先度を設定できます。各種強化ができます。
+block.storagenetwork.import_filter_kabel,Filtered Import Cable,フィルタリングされた入力ケーブル
+block.storagenetwork.import_filter_kabel.guide,"These constantly import from the connected inventory into the network.  They can be customized with upgrades, an item filter, and redstone controls in the GUI control screen.  Item Filter Allow means only items matching the filter will pass, Ignore mode means pull anything but ignore what is in the list.  Importing the filter wipes and replaces it with inventory contents",接続されたコンテナからネットワークにアイテムを入力し続けます。GUI制御画面から、強化、アイテムフィルタ、レッドストーン制御などのカスタマイズが可能です。アイテムフィルタの「許可」モードはフィルタリングに合う適合するアイテムが通過することを意味し、「無視」モードはリスト内にあるアイテム以外が通過することを意味します。フィルターワイプをインポートすると、そのインベントリ内容と置き換えられます。
+block.storagenetwork.import_kabel,Import Cable,入力ケーブル
+block.storagenetwork.import_kabel.guide,These constantly import from the connected inventory into the network.  Upgrade to  $(l:import_filter_kabel)filtered version$(/l) for more automation,接続されたコンテナからネットワークにアイテムを入力し続けます。自動化のため、$(l:import_filter_kabel)フィルタリング版$(/l)に強化できます。
+block.storagenetwork.inventory,Storage Inventory,ネットワークインベントリ
+block.storagenetwork.inventory.guide,"Views the network inventory with full access to scroll, withdraw, and deposit items.  See the $(l:inventory_remote)Remote version here$(/l)  ",ネットワーク内のコンテナからアイテムを出し入れできます。クラフトはできませんが、画面を広く使えます。$(l:inventory_remote)遠隔操作版$(/l)もあります。
+block.storagenetwork.inventory.tooltip,Inventory access without a crafting grid,ネットワーク内のアイテムを出し入れできます。クラフトはできません。
+block.storagenetwork.kabel,Network Cable,ネットワークケーブル
+block.storagenetwork.kabel.guide,Network cable basic only connects to network blocks,基本のネットワークケーブルで、ネットワーク系ブロックにのみ接続します。
+block.storagenetwork.kabel.tooltip,Basic network cable ,基本となるネットワークケーブル 
+block.storagenetwork.master,Storage Network Root,ネットワークマネージャ
+block.storagenetwork.master.tooltip,Use only one per network,ネットワークごとに1つだけ必要
+block.storagenetwork.recipe.invalid,Transaction invalid:,トランザクション無効:
+block.storagenetwork.recipe.invalidleft,Set Input on left,入力は左にセットしてください。
+block.storagenetwork.recipe.invalidright,Set Output on right,出力は右にセットしてください。
+block.storagenetwork.recipe.valid,Transaction valid,トランザクション有効
+block.storagenetwork.request,Storage Request Table,ネットワークテーブル
+block.storagenetwork.request.guide,"Views the network inventory with full access to scroll, withdraw, and deposit items.  Custom crafting grid that pulls ingredients from the network.   See the $(l:crafting_remote)Remote version here$(/l)  ",ネットワーク内のコンテナからアイテムを出し入れし、それらを素材にクラフトすることができます。$(l:crafting_remote)遠隔操作版$(/l)もあります。
+block.storagenetwork.storage_kabel,Link Cable,リンクケーブル
+block.storagenetwork.storage_kabel.guide,"Each Link Cable connects one inventory to the network.  These are the main connection point for inventories in your network, with no controls for priority or automation.  Upgrade to  $(l:filter_kabel)Filtered version$(/l) ",コンテナ1つをネットワークに接続します。これはコンテナがネットワークに接続する主要なポイントで、優先度付け、自動化のための何の制御も行われません。$(l:filter_kabel)フィルタリング版$(/l)に強化できます。
+chat.main.connectables,Connectables: ,接続ケーブル数: 
+chat.main.emptyslots,Potential Empty Slots: ,空きスロット数: 
+gui.storagenetwork.,Tooltip new thing goes here,新しいアイテムのツールチップをここに記入
+gui.storagenetwork.allowlist,Allow List,許可リスト
+gui.storagenetwork.checkbox.meta,Meta,メタ情報
+gui.storagenetwork.checkbox.nbt,NBT,NBTデータ
+gui.storagenetwork.checkbox.ore,OreDict,鉱石辞書
+gui.storagenetwork.fil.tooltip_both,Input and output,入出力
+gui.storagenetwork.fil.tooltip_clear,Clear text with right-click,右クリックで入力テキストを消去
+gui.storagenetwork.fil.tooltip_in,Only input,入力のみ
+gui.storagenetwork.fil.tooltip_jei_off,JEI search disabled,JEIでの検索を無効にする
+gui.storagenetwork.fil.tooltip_jei_on,JEI search enabled,JEIでの検索を有効にする
+gui.storagenetwork.fil.tooltip_out,Only output,出力のみ
+gui.storagenetwork.ignorelist,Ignore List,無視リスト
+gui.storagenetwork.import,Import contents as Filter,フィルタとして設定
+gui.storagenetwork.priority.down,Promote Priority (smaller goes first),優先度を下げる(値が小さい方が優先です)
+gui.storagenetwork.priority.up,Demote Priority (smaller goes first),優先度を上げる(値が小さい方が優先です)
+gui.storagenetwork.processing.extract,When pulling processing results it will be taken as if from this block-side,アイテムの取り出し結果は、このブロックから取得できます。
+gui.storagenetwork.processing.recipe,Ingredients for each cycle will be sent as if coming from this block-side,素材は各サイクルでこのブロックから送られます。
+gui.storagenetwork.redstone.false,Always On,常に有効
+gui.storagenetwork.redstone.true,Requires Redstone,レッドストーン信号入力時のみ稼働
+gui.storagenetwork.req.tooltip_amount,Sort by amount,数量でソート
+gui.storagenetwork.req.tooltip_mod,Sort by mod,Mod名でソート
+gui.storagenetwork.req.tooltip_name,Sort by name,名前順でソート
+gui.storagenetwork.sort,Sort Direction,ソート順序
+gui.storagenetwork.tooltip_clear,Clear Search,検索結果をクリア
+item.remote.connected,Remote has connected to network,ネットワークに接続しました。
+item.remote.notconnected,"Remote is not connected, bind it to the Main network node first",ネットワークマネージャが登録されていません。まずネットワークマネージャに登録してください。
+item.remote.notfound,"Network not found, make sure chunk is loaded",ネットワークが見つかりません。チャンクが読み込まれているか確認してください。
+item.remote.notfound.item,Item not found in network,ネットワーク内にアイテムが見つかりませんでした。
+item.remote.notloaded,Chunk not loaded,チャンクが読み込まれていません。
+item.remote.outofrange,Out of range,範囲外です。
+item.storagenetwork.builder_remote,Network Builder Remote,自動建設
+item.storagenetwork.builder_remote.blockstate,No blockstate selected; attack to select,ブロックが登録されていません。破壊ボタンで登録します。
+item.storagenetwork.builder_remote.guide,"This remote binds as normal but does not have a screen.  Instead, it searches for the block you clicked on, and tries to build a copy of it using a matching item in the network",このブロックはマネージャにバインドできますが、専用の画面を持っていません。代わりに、アイテム使用で登録したブロックと同種のブロックを使用時にネットワークから取り出し、その場に設置しようと試みます。
+item.storagenetwork.builder_remote.tooltip,Bind to a network and a block to build,ネットワークの資材から自動で建築を行います。
+item.storagenetwork.collector_remote,Network Collector Remote,自動転送機
+item.storagenetwork.crafting_remote,Crafting Remote,リモートテーブル
+item.storagenetwork.crafting_remote.guide,"Full network access, not limited by range or dimension.  Has an integrated crafting grid.  Similar to the $(l:request)Request Table$(/l)",マネージャに使用することでネットワークを登録します。距離とディメンジョンに関係なく、遠隔で$(l:request)ネットワークテーブル$(/l)と同様のアクセスとクラフトを提供します。
+item.storagenetwork.inventory_remote,Storage Remote,リモートインベントリ
+item.storagenetwork.network_book,Network Guide Book,ネットワーク手引書
+item.storagenetwork.operation_upgrade,Operation Upgrade,演算強化
+item.storagenetwork.picker_remote,Network Picker Remote,ブロック抽出機
+item.storagenetwork.picker_remote.guide,"This remote binds as normal but does not have a screen.  Instead, tap this item in the world on a block.  This will request either 1 or a full stack of that block, depending on if you are crouching.  ",このブロックはマネージャにバインドできますが、専用の画面を持っていません。代わりに、ブロックに対して使用するとネットワークから同種のブロックを取得します。通常1スタック、しゃがみ状態で1つです。
+item.storagenetwork.picker_remote.tooltip,Tapping on a block will pull matching blocks from the network,ブロックに対して使用すると、ネットワークから同種のブロックを取得します。
+item.storagenetwork.speed_upgrade,Speed Upgrade,速度強化
+item.storagenetwork.stack_upgrade,Stack Upgrade,転送量強化
+item.storagenetwork.stock_upgrade,Stock Upgrade,在庫維持
+itemGroup.storagenetwork,Simple Storage Network,単純ストレージネットワーク
+key.storagenetwork.remote,Network Remote Curio,遠隔Curio
+page.storagenetwork.gs_chunks,Chunks,チャンク
+page.storagenetwork.gs_chunks.left,"Any network is only running in the world if its $(l:master)Root Node$(/l) is in a loaded chunk of the world.  Endpoint cables in the network such as $(l:storage_kabel)Link cables$(/l) may be in a different chunk than the network root, and may be individually disconnected depending on their own chunk.  You can have multiple networks per chunk, world, or dimension.   ",どんなネットワークも、$(l:master)ネットワークマネージャ$(/l)がワールドで読み込まれているチャンクにある場合のみ稼働します。$(l:storage_kabel)リンクケーブル$(/l)のようなケーブルの終点は、ネットワークマネージャと異なるチャンクに配置する場合、それぞれの設置されたチャンクによって切断される可能性があります。チャンク、ワールド、ディメンジョンに応じて複数のネットワークを作ることも可能です。
+page.storagenetwork.gs_chunks.right,"$(li)Spread Example: so its possible for a network to have 20 link cables but 5 are in an unloaded chunk.  Network screens/remotes will still open since the root is loaded, any contents from those unloaded cables are not seen. $(li)Remote example: I build my storage network far away from $(t:which are always loaded)spawn chunks$(/t), in a distant ocean base.  When I go to the nether, the overworld chunks with the Root block are unloaded, so my $(l:inventory_remote)Remotes$(/l) cannot connect",$(li)応用例: したがって、20本のリンクケーブルがあるネットワークであっても、5本はチャンクの読み込み範囲外にある可能性があります。接触・遠隔問わず、ネットワークマネージャが読み込まれていれば画面を開けますが、読み込まれていないケーブルの接続先にあるコンテナ内のアイテムは見えません。$(li)遠隔操作の例:$(t:スポーンチャンクは常に読み込まれます)スポーンチャンク$(/t)から遠く離れた、海上拠点上にネットワークを構築したとします。ネザーに行くとマネージャのあるチャンクが読み込まれなくなるため、$(l:inventory_remote)遠隔操作$(/l)で接続できなくなります。
+page.storagenetwork.gs_priority,Priority,優先度
+page.storagenetwork.gs_priority.left,"Cables are sorted by priority.  If no GUI is provided, for example with $(l:storge_kabel)Link Cables$(/l), the value for that cable is zero.  When user is doing an insert/extract request to the network, it will keep attempting to use smallest-prioritynodes until the request is complete.  For import/export automation, all cables are processed and priority determines the order each time, one stack-action per-tick per-cable. ",ケーブルは優先度順にソートされます。$(l:storge_kabel)リンクケーブル$(/l)のように何のGUIも提供されない場合、優先度はゼロとなります。ユーザーがネットワークに対し出し入れを行っている間、処理が完了するまで最も優先度の低いノードを使用しようと試みます。入出力を自動すると、全てのケーブルは毎回優先度順に、1tick、1ケーブルごとに1スタックのアクションが処理されます。
+page.storagenetwork.gs_priority.right,"$(li)Sort cables by priority so lowest numbers are first$(li)equal numbers are together$(li)ex: [-2, -2, 0, 0, 1, 2, 4]$(li)One by one use the nodes in this order ","$(li)ケーブル優先度は昇順で処理され、$(li)同一優先度は一括で処理されます。$(li)例：[-2, -2, 0, 0, 1, 2, 4]$(li)この順序で順番に処理されます。"
+page.storagenetwork.gs_setup,Network Setup,ネットワーク設定
+page.storagenetwork.gs_setup.left,"A short guide to getting started with Simple Storage Network. Once you gather some ingredients, some $(l:kabel)Link Cables$(/l) and a $(l:master)Network Root$(/l).  Your Network is running once these are placed in your world.  The $(l:storage_kabel)Link Cables$(/l) will connect a chest or other inventory to your network.  For access, look into $(l:inventory_remote)Remotes$(/l) or $(l:request)Tables$(/l). ",Simple Storage Networkを使い始めるための短い手引書。まず素材と$(l:kabel)リンクケーブル$(/l)、$(l:master)ネットワークマネージャ$(/l)を準備してください。ワールドにそれらを設置すればネットワークは機能します。$(l:storage_kabel)リンクケーブル$(/l)はチェストや他のコンテナをネットワークに接続します。アクセスするためには、$(l:inventory_remote)リモコン$(/l)や$(l:request)ブロック$(/l)が必要です。
+page.storagenetwork.gs_setup.right,Try using bookmarks feature,ブックマーク機能を使用する
+processing.buttons.minus,Reduce requested,要求数を減らす
+processing.buttons.plus,Increase requested,要求数を増やす
+processing.buttons.toggle.false,Only process the requested number,要求された数だけ処理
+processing.buttons.toggle.true,Always Active,常に有効
+processing.empty.ingredients,Empty Ingredients,素材不足
+storagenetwork.guide.blocks,Blocks,ブロック
+storagenetwork.guide.blocks.desc,"All the network blocks connect normally to any network cable or block, and provide different access or functions of the network.  ",全てのネットワーク系ブロックは、どんなネットワーク系ブロックやケーブルに接続可能であり、異なるアクセス方法やネットワークの機能を提供します。
+storagenetwork.guide.cables,Cables,ケーブル
+storagenetwork.guide.cables.desc,Cables join blocks and nodes to the network.  A valid network needs at exactly one $(l:master)Root$(/l) node.  Then you will need at least one inventory with a $(l:storage_kabel)Link$(/l) cable,ケーブルで接続することで、ブロックやノードをネットワークに参加させます。有効なネットワークには、$(l:master)マネージャ$(/l)を1つだけ設置し、最低でもひとつのコンテナを$(l:storage_kabel)リンク$(/l)ケーブルで接続する必要があります。
+storagenetwork.guide.getstarted,Getting Started,はじめに
+storagenetwork.guide.getstarted.desc,Various guide pages,その他の解説ページ
+storagenetwork.guide.remotes,Remotes,遠隔操作
+storagenetwork.guide.remotes.desc,"Use your new remote on the $(l:master)Root$(/l) to set up its network binding.  Each Remote is bound to a root nodes exact (x,y,z,d) position, and can access the network inventory as long as the root not is unbroken and in a loaded chunk.  They are wireless with an unbound range.  ",リモコンをネットワークに接続するため、リモコンを$(l:master)マネージャ$(/l)に対して使用してください。各リモコンはマネージャと座標・ディメンジョンによって関連付けられており、マネージャが壊されなければチャンクに読み込まれている間アクセス可能です。距離による制限はありません。
+storagenetwork.guide.upgrades,Upgrades,強化ユニット
+storagenetwork.guide.upgrades.desc,Upgrades are used in slots of the $(l:export_kabel)Export Cable$(/l) and $(l:import_filter_kabel)Filtered Import cable$(/l),強化ユニットは$(l:export_kabel)出力ケーブル$(/l)や$(l:import_filter_kabel)フィルタリングされた入力ケーブル$(/l)のスロットにセットして使用します。
+storagenetwork.network_book.landing_text,Simple storage network will manage all your inventories.  See $(l:gs_setup)Getting started$(/l) or look up an item ,シンプル収納ネットワークはあなたの全ての収納物を管理します。$(l:gs_setup)はじめに$(/l)を参照するか、アイテムを見つけてください。
+block.storagenetwork.export_kabel.tooltip,Exports items from the network into attached inventory,接続されたコンテナにネットワークからアイテムを送り込みます。
+block.storagenetwork.filter_kabel.tooltip,Inventory link with filtering options,コンテナ1つをネットワークに接続します。アイテムのフィルタリングも可能です。
+block.storagenetwork.import_filter_kabel.tooltip,Imports items with filtering options,コンテナ内のアイテムをフィルタリングしてネットワークに送り込みます。
+block.storagenetwork.import_kabel.tooltip,Imports all items from attached inventory into the network,コンテナ内の全てのアイテムをネットワークに送り込みます。
+block.storagenetwork.master.guide,"The main heart of the network. Only ONE per network, Placing more will cause one of them to break, and may cause network connection issues for remotes and cables.  Moving the root node to a new place will break the network, interrupting imports, exports, and remotes.  Multiple networks per world and dimension are fine as long as they are not connected to each other",ネットワークの中心部です。ネットワーク1つに1つだけ必要で、2つ以上設置すると接続に問題が起きます。マネージャを別の場所に移すとネットワークが無効になり、入出力や遠隔での操作ができなくなります。相互に独立している限り、1つのワールドに複数のネットワークを作ることは可能です。
+block.storagenetwork.request.tooltip,Used to overview and request items from the network with a crafting grid,ネットワークからアイテムを概要してリクエストするために使用されます
+block.storagenetwork.storage_kabel.tooltip,Used to connect inventory to the network,コンテナをネットワークに接続します。
+gui.storagenetwork.autofocus.tooltip.false,No auto-focus,検索バーを自動で選択しない
+gui.storagenetwork.autofocus.tooltip.true,Auto-Focus search bar,検索バーを自動で選択
+gui.storagenetwork.fil.tooltip_mod,Prefix @: Search for mod,接頭辞 @: Mod名で検索
+gui.storagenetwork.fil.tooltip_tags,Prefix $: Search for block tags,接頭辞 $: タグ名で検索
+gui.storagenetwork.fil.tooltip_tooltip,Prefix #: Search for tooltip,接頭辞 #: ツールチップで検索
+gui.storagenetwork.operate.tooltip,"If the logic check passes, the cable operates",ロジックチェックが失敗した場合、操作は無効です
+gui.storagenetwork.operate.tooltip.less,Total in network must be less than value,アイテム数は値より少なくする必要があります
+gui.storagenetwork.operate.tooltip.more,Total in network must be more than value,アイテム数は値より多くする必要があります
+gui.storagenetwork.refresh,"Refresh processing transactions, so if it is stuck waiting for a result, this will swap it back to recipe mode to gather ingredients",処理トランザクションを更新しました。完了していない処理がある場合は、素材を回収するためにレシピモードに戻ってください。
+gui.storagenetwork.shift,Hold shift for more information,Shiftを押すと追加情報が表示されます。
+item.remote.found,"Item found, extracting..",アイテムが見つかりました。抽出中････
+item.storagenetwork.collector_remote.guide,"Bind this to the network as normal.  This remote works anywhere in your inventory (including curios but not ender chest), no need to hold it in hand or hotbar.  When you pickup any item, this will insert that item into the network if possible",マネージャに使用することでネットワークを登録します。どんなアイテムを回収した時でも、ネットワークにそのアイテムを収納しようと試みます。これは(curiosを含みますがエンダーチェストを除き)どこでも機能し、手やホットバーに保持する必要もありません。
+item.storagenetwork.collector_remote.tooltip,Items picked up are moved into the network,回収したアイテムをネットワークに自動転送します。
+item.storagenetwork.crafting_remote.tooltip,Use on the Network Root for remote inventory access,登録したネットワークに遠隔でアクセスできます。クラフトも可能です。
+item.storagenetwork.inventory_remote.guide,"Full remote network access, not limited by range or dimension.  Similar to the $(l:inventory)Storage Inventory$(/l).  Open this also using the Key Binding",マネージャに使用することでネットワークを登録します。距離とディメンジョンに関係なく、遠隔で$(l:inventory)ネットワークインベントリ$(/l)と同様のネットワークへの完全なアクセスを提供します。ホットキーから開くことも可能です。
+item.storagenetwork.inventory_remote.tooltip,Use on the Network Root for remote inventory access,登録したネットワークに遠隔でアクセスできます。
+item.storagenetwork.operation_upgrade.guide,"If this is in a filtering cable with AllowMode on, it will try to import or export the exact number of items set in the filter and ignore Stack and Stock upgrades.  For example, a filter with 7 stone and 3 dirt allowed will export that many per cycle instead of the default 4. ",フィルタリングされたケーブルの許可モードをONにして配置すると、スタック数・フィルタ数の強化にかかわらず、配置した数だけのアイテムを転送しようとします。例えば、石を7個と砂3つをフィルターに配置した場合、デフォルトの4個ではなく、石7個、砂3個単位で転送します。
+item.storagenetwork.operation_upgrade.tooltip,Process the amount of items in the filter; can override other upgrades,フィルタに設置した数単位でアイテムを転送します。他の強化の効果を上書きします。
+item.storagenetwork.single_upgrade,Singleton Upgrade,転送量低下
+item.storagenetwork.single_upgrade.guide,This upgrade can be placed in the import or exporting cables.  Decreases it to pulling 1 every time the cable fires instead of 4. Will override the Stack upgrade if both are present,入力ケーブル・出力ケーブルに設置可能です。ケーブルが機能した時に転送するアイテムの数を、デフォルトの4ではなく1にします。転送量強化と同時に配置すると、こちらが優先されます。
+item.storagenetwork.single_upgrade.tooltip,Sets stack size of the task to 1,1回あたりの転送アイテム数を1にします。
+item.storagenetwork.slow_upgrade,Slowness Upgrade,速度低下
+item.storagenetwork.slow_upgrade.guide,This upgrade can be placed in the import or exporting cables.  Increases ticks between each operation which slows down the overall process. ,入力ケーブル・出力ケーブルに設置可能です。ケーブルの処理間tick遅延を増加させます。
+item.storagenetwork.slow_upgrade.tooltip,Slows down the speed of importing/exporting ,入出力の速度を下げます。
+item.storagenetwork.speed_upgrade.guide,"This upgrade can be placed in cables.  Increases the speed of imports, which normally do not happen every tick. by decreasing the tick delay between operations.  Will cause any Slowness upgrades to be ignored if both are present.  ",ケーブル上に配置し、アイテムの搬入速度を上げます。通常搬入処理は毎tick行われるわけではありませんが、処理間のtick遅延を減少させる効果があります。速度低下と同時に配置されている場合、速度低下が無効化されます。
+item.storagenetwork.speed_upgrade.tooltip,Increases the speed of importing/exporting,入出力の速度を上げます。
+item.storagenetwork.stack_upgrade.guide,"This upgrade can be placed in the import or exporting cables.  Increases it to pulling a full stack up to 64 every time the cable fires, instead of 4",入力ケーブル・出力ケーブルに設置可能です。ケーブルが機能した時に転送するアイテムの数を、デフォルトの4ではなくフルスタックの64にします。
+item.storagenetwork.stack_upgrade.tooltip,Increases the stack size of task,1回あたりの転送アイテム数を増やします。
+item.storagenetwork.stock_upgrade.guide,"If this is in an export cable, then for each unique item in the filter, it will only export until the target inventory has less then the stack size of the filter to fill it up to the target size from the filter.  In the opposite way, Import cables with a stock upgrade will keep a consistent stock in the linked chest based, reducing it down and stopping at the filter stack sizes. ",出力ケーブルに配置すると、出力先のコンテナ内の各アイテムがフィルター内の各アイテムと同じ数になるように出力されます。反対に入力ケーブルに配置すると、フィルタ内に配置されている数を接続されたコンテナ内に残すように出力されます。
+item.storagenetwork.stock_upgrade.tooltip,Keeps a a consistent stock of items in the attached inventory,接続されたコンテナに常に一定量を残すように転送します。
+tooltip.storagenetwork.kabel_P,Can automate simple processing transactions,単純な処理トランザクションを自動化します。
+gui.storagenetwork.operate.tooltip.eq,Total in network must be equal,ネットワーク内での総数は一致する必要があります
+block.storagenetwork.collector.guide,"This exposes the network and acts as an insert-only controller for other automation systems or storage solutions.  For example, a normal Hopper will insert items similar to the  $(l:import_kabel)Import Cable$(/l).  Does not allow any item extraction.  Try this with other storage mods!  ",このブロックを経由して、ネットワークを他の自動化システムや倉庫システムに公開することができ、それらからアイテムを送り込むことができます。例えば、バニラのホッパーをネットワーク上の交換インターフェイスに向けて設置すると、$(l:import_kabel)入力ケーブル$(/l)と同じようにアイテムを追加できます。アイテムを取り出すことはできません。他の倉庫Modと組み合わせてみてください！
+block.storagenetwork.exchange.guide,"This exposes the network as an inventory interface.  For example, the AE2 mod has a ME Storage Bus that will connect to this, so the entire simple storage network can be accessed through your AE2 system.  A Hopper below will export arbitrary items.  Try this with other storage mods!  ",このブロックを経由して、ネットワークを他の自動化システムや倉庫システムに公開することができ、その場合このブロックはそれらに対するコントローラとして振舞います。例えば、バニラのホッパーをネットワーク上の交換インターフェイスに向けて設置すると、$(l:import_kabel)入力ケーブル$(/l)と同じようにアイテムを追加できます。下に設置したホッパーは任意のアイテムを出力します。他の倉庫Modと組み合わせてみてください！
+block.storagenetwork.request_expanded,Expanded Request Table,拡張リクエストテーブル
+block.storagenetwork.request_expanded.guide,"If this is unuseable for you set your GUI SCALE to a lower number.  May only work with large scale monitor resolutions.  Views the network inventory with full access to scroll, withdraw, and deposit items.  Custom crafting grid that pulls ingredients from the network.   See the $(l:crafting_remote)Remote version here$(/l)  ",使用できない場合は、GUI SCALEを小さい数字に設定してください。大規模なモニター解像度でのみ機能する可能性があります。スクロール、引き出し、アイテムの預け入れへの完全なアクセスでネットワークインベントリを表示します。ネットワークから材料を取得するカスタムクラフティンググリッド。$(l:crafting_remote)ここでリモートバージョン$(/l)を参照してください。
+block.storagenetwork.request_expanded.tooltip,Only for use with extremely large gui scale resolutions,極端に大きなGUIスケール解像度専用です
+gui.storagenetwork.req.tooltip_cleargrid,Clear Grid,グリッドをクリア
+item.storagenetwork.expanded_remote,Expanded Remote,拡張されたリモート
+item.storagenetwork.expanded_remote.guide,"If this is unuseable for you set your GUI SCALE to a lower number.  May only work with large scale monitor resolutions.  Full remote network access, not limited by range or dimension.  Similar to the $(l:inventory)Storage Inventory$(/l).  Open this also using the Key Binding",使用できない場合は、GUI SCALEを小さい数字に設定してください。大規模なモニター解像度でのみ機能する可能性があります。遠隔および次元の制限がない完全なリモートネットワークアクセス。$(l:inventory)ネットワークインベントリ$(/l)と同様です。キーバインドを使用してこれを開くこともできます
+item.storagenetwork.expanded_remote.tooltip,Only for use with extremely large gui scale resolutions,極端に大きなGUIスケール解像度専用です
+tile.storagenetwork:kabel.name,Storage Cable,ストレージケーブル
+tile.storagenetwork:storage_kabel.name,Storage Link Cable,ストレージリンクケーブル
+tile.storagenetwork:ex_kabel.name,Storage Export Cable,ストレージエクスポートケーブル
+tile.storagenetwork:im_kabel.name,Storage Import Cable,ストレージインポートケーブル
+tile.storagenetwork:process_kabel.name,Processing Cable,処理ケーブル
+tile.storagenetwork:master.name,Storage Network Master,ストレージネットワークマスター
+tile.storagenetwork:request.name,Storage Request Table,ネットワークテーブル
+item.storagenetwork:upgrade_0.name,Speed Upgrade,スピードアップグレード
+item.storagenetwork:upgrade_1.name,Operation Upgrade,操作アップグレード
+item.storagenetwork:upgrade_2.name,Stack Upgrade,スタックアップグレード
+item.storagenetwork:upgrade_3.name,Stock Upgrade,ストックアップグレード
+item.storagenetwork:remote_0.name,Storage Remote,リモートインベントリ
+item.storagenetwork:remote_1.name,Advanced Storage Remote,高度なストレージリモート
+item.storagenetwork:remote_2.name,Upgraded Storage Remote,アップグレードされたストレージリモート
+item.storagenetwork:remote_3.name,Simple Storage Remote,シンプルストレージリモート
+tile.storagenetwork:recipe.invalid,Transaction invalid:,トランザクション無効:
+tile.storagenetwork:recipe.invalidleft,Set Input on left,左側に入力を設定
+tile.storagenetwork:recipe.invalidright,Set Output on right,右側に出力を設定
+tile.storagenetwork:recipe.valid,Transaction valid,トランザクション有効
+gui.storagenetwork.gui.import,Import Filter,インポートフィルター
+gui.storagenetwork.gui.whitelist,Allow-list,許可リスト
+gui.storagenetwork.gui.blacklist,Ignore-list,無視リスト
+gui.storagenetwork.req.tooltip_NAME,Sort by name,名前で並び替え
+gui.storagenetwork.req.tooltip_MOD,Sort by mod,モジュールで並び替え
+gui.storagenetwork.req.tooltip_AMOUNT,Sort by amount,数量で並び替え
+gui.storagenetwork.fil.tooltip_IN,Only input,入力のみ
+gui.storagenetwork.fil.tooltip_OUT,Only output,出力のみ
+gui.storagenetwork.fil.tooltip_BOTH,Input and output,入力と出力
+gui.storagenetwork.fil.tooltip_3,Clear text with right-click or X button,右クリックまたはXボタンでテキストをクリア
+tile.storagenetwork:controller.name,Controller,コントローラー
+tooltip.storagenetwork.controller,Manage all Processing Cables in the network,ネットワーク内のすべての処理ケーブルを管理する
+chat.master.emptyslots,Potential Empty Slots:,潜在的空スロット数：
+chat.master.connectables,Connectables:,接続可能なアイテム:
+processing.alwayson.true,Active,アクティブ
+processing.alwayson.false,Remaining:,残り:
+storagenetwork.process.status0,Halted or Disabled,停止または無効
+storagenetwork.process.status1,Waiting to import (cached),インポート待ち（キャッシュ済み）
+storagenetwork.process.status2,Exporting recipe (cached),レシピをエクスポート中（キャッシュ済み）
+tooltip.storagenetwork.kabel_E,Exports items from the network into attached inventory,ネットワークから接続されたインベントリへアイテムを輸出します
+tooltip.storagenetwork.kabel_I,Imports items from attached inventory into the network,接続されたインベントリからネットワークへアイテムを取り込みます
+tooltip.storagenetwork.kabel_L,Default cable to connect parts of your network,ネットワークの部品を接続するデフォルトケーブル
+tile.storagenetwork:simple_kabel.name,Simple Cable,シンプルなケーブル
+tooltip.storagenetwork.master,One required per network,ネットワークごとに1つ必要です
+tooltip.storagenetwork.request,Network inventory with crafting,ネットワークインベントリとクラフト
+tooltip.storagenetwork.upgrade_0,Increases the speed of importing/exporting,インポート/エクスポート速度を上げます
+tooltip.storagenetwork.upgrade_1,Activity of the cable depends on the amount of items,ケーブルの活動はアイテム量によって変わります
+tooltip.storagenetwork.upgrade_2,Increases the stack size of task,タスクのスタックサイズを増加させる
+tooltip.storagenetwork.upgrade_3,Keeps a specific amount of items in the attached inventory (only in export cable),接続されたインベントリ（エクスポートケーブルのみ）で特定数のアイテムを保持します。
+tooltip.storagenetwork.remote_0,Used to access the network 64 blocks distance,ネットワークへアクセスするために64ブロック離れた場所で使用されます
+tooltip.storagenetwork.remote_1,Used to access the network from unlimited distance and across dimensions,無限距離とディメンションを跨いでネットワークにアクセスするために使用されます。
+tooltip.storagenetwork.remote_2,Used to access the network from unlimited distance,無限距離からネットワークへアクセスするために使用されます
+tooltip.storagenetwork.remote_3,Network without crafting from unlimited distance,無限距離からクラフト不要のネットワーク。
+item.storagenetwork:picker_remote.name,Network Picker Remote,ネットワークピッカーリモート
+item.storagenetwork:picker_remote.tooltip,Tapping on a block will pull matching blocks from the network,ブロックをタップするとネットワークから一致するブロックが引き出されます
+item.storagenetwork:collector_remote.name,Network Collector Remote,ネットワークコレクターリモート
+item.storagenetwork:collector_remote.tooltip,Items picked up are moved into the network,アイテムが拾われるとネットワークに移動します
+item.storagenetwork:picker_remote.notfound,Not found in network,ネットワーク内に存在しません
+item.storagenetwork:picker_remote.found,"Item found, extracting...",アイテムが見つかりました、抽出中…
+gui.storagenetwork.fil.tooltip_0,Prefix @: Search for mod,プレフィックス @: モッド検索
+gui.storagenetwork.fil.tooltip_1,Prefix #: Search for tooltip,プレフィックス #: ツールチップを検索
+gui.storagenetwork.fil.tooltip_2,Prefix $: Search for OreDic,前接文字 $: 鉱石辞書検索
+tile.storagenetwork:inventory.name,Storage Inventory,ネットワークインベントリ
+tile.storagenetwork:inventory.tooltip,Network Inventory access,ネットワークインベントリアクセス
