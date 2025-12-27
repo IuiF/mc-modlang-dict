@@ -1,0 +1,73 @@
+﻿key,source_text,target_text
+block.moderndynamics.ev_cable,EV EU Cable,EV EUケーブル
+block.moderndynamics.fluid_pipe,Fluid Pipe,液体パイプ
+block.moderndynamics.hv_cable,HV EU Cable,HV EUケーブル
+block.moderndynamics.item_pipe,Item Pipe,アイテムパイプ
+block.moderndynamics.lv_cable,LV EU Cable,LV EUケーブル
+block.moderndynamics.machine_extender,Machine Extender,マシン拡張器
+block.moderndynamics.mv_cable,MV EU Cable,MV EUケーブル
+block.moderndynamics.superconductor_cable,Superconductor EU Cable,超導EUケーブル
+config.jade.moderndynamics.item_pipe,Item Pipes,アイテムパイプ
+gui.moderndynamics.rei.upgrade_category,Modern Dynamics Upgrades,モダンダイナミクスアップグレード
+gui.moderndynamics.setting.filter_damage.ignore_damage,Ignore Damage,ダメージを無視
+gui.moderndynamics.setting.filter_damage.respect_damage,Match Damage,ダメージマッチ
+gui.moderndynamics.setting.filter_mod.ignore_mod,Ignore Mod,モジュール無視
+gui.moderndynamics.setting.filter_mod.include_all_of_mod,Include Listed Mods,リストされたモッドを含む
+gui.moderndynamics.setting.filter_mode.blacklist,Blacklist,ブラックリスト
+gui.moderndynamics.setting.filter_mode.whitelist,Whitelist,ホワイトリスト
+gui.moderndynamics.setting.filter_nbt.ignore_nbt,Ignore Tag Data,タグデータを無視
+gui.moderndynamics.setting.filter_nbt.respect_nbt,Match Tag Data,タグデータをマッチ
+gui.moderndynamics.setting.filter_similar.ignore_similar,Don't Include Similar Items,類似アイテムを含めない
+gui.moderndynamics.setting.filter_similar.include_similar,Include Similar Items,類似アイテムを含む
+gui.moderndynamics.setting.max_items_extracted.tooltip,Maximum Amount Extracted per Operation,操作ごとの最大抽出量
+gui.moderndynamics.setting.max_items_in_inventory.infinite,Infinite,無限
+gui.moderndynamics.setting.max_items_in_inventory.tooltip,Maximum Total Number of Items in Inventory,インベントリ内のアイテム総数上限
+gui.moderndynamics.setting.oversending_mode.allow_oversending,Allow Over-sending,容量超えての搬入を許可
+gui.moderndynamics.setting.oversending_mode.prevent_oversending,Prevent Over-sending,容量超えての搬入を不可
+gui.moderndynamics.setting.redstone_control.disabled,Disabled,無効
+gui.moderndynamics.setting.redstone_control.enabled,Enabled,有効
+gui.moderndynamics.setting.redstone_control.header,Redstone Control,レッドストーン制御
+gui.moderndynamics.setting.redstone_control.high,High,高
+gui.moderndynamics.setting.redstone_control.ignored,Ignored,無視
+gui.moderndynamics.setting.redstone_control.low,Low,低
+gui.moderndynamics.setting.redstone_control.signal_required_header,Signal Required:,信号が必要:
+gui.moderndynamics.setting.redstone_control.status_header,Control Status:,制御状態:
+gui.moderndynamics.setting.routing_mode.closest,Closest First,近い順
+gui.moderndynamics.setting.routing_mode.furthest,Furthest First,最も遠い
+gui.moderndynamics.setting.routing_mode.random,Random,ランダム
+gui.moderndynamics.setting.routing_mode.round_robin,Round-Robin,ラウンドロビン
+gui.moderndynamics.tooltip.advanced_behavior_available,Available,利用可能
+gui.moderndynamics.tooltip.attachment_upgrades,Press U in EMI/JEI/REI to view upgrades.,EMI/JEI/REIでUキーを押してアップグレードを見る。
+gui.moderndynamics.tooltip.filter_damage,Damage,ダメージ
+gui.moderndynamics.tooltip.filter_inversion,Invert,反転
+gui.moderndynamics.tooltip.filter_mod,Mod,モジュール
+gui.moderndynamics.tooltip.filter_nbt,NBT,NBT
+gui.moderndynamics.tooltip.filter_similar,Similar,類似
+gui.moderndynamics.tooltip.filters,"  Filters: %s",フィルター: %s
+gui.moderndynamics.tooltip.max_items_extracted,Max Items Extracted,抽出できる最大アイテム数
+gui.moderndynamics.tooltip.max_items_in_inventory,Max Items in Inventory,インベントリに入る最大アイテム数
+gui.moderndynamics.tooltip.more_info,Hold %s for Details,%s を押し続けて詳細
+gui.moderndynamics.tooltip.more_info_key,Shift,シフト
+gui.moderndynamics.tooltip.oversending_mode,Oversending Mode,過送信モード
+gui.moderndynamics.tooltip.requires_advanced_behavior,Requires Advanced Behavior Upgrade,高度な動作アップグレードが必要です
+gui.moderndynamics.tooltip.routing_mode,Routing Mode,ルーティングモード
+gui.moderndynamics.tooltip.slot.upgrade,Upgrade Slot,アップグレードスロット
+gui.moderndynamics.tooltip.slot.upgrade_desc1,Press U on an Attractor/Extractor/Filter,アトラクター/エクストラクタ/フィルタでUキーを押す
+gui.moderndynamics.tooltip.slot.upgrade_desc2,in EMI/JEI/REI to view available upgrades.,EMI/JEI/REIで利用可能なアップグレードを表示
+gui.moderndynamics.tooltip.stuffed,Stuffed %s,詰められた %s
+gui.moderndynamics.tooltip.upgrade_addFilterSlots,Filter Slots: %s,フィルタースロット: %s
+gui.moderndynamics.tooltip.upgrade_addFluidTransfer,Base Fluid Transfer: %s,基本液体転送: %s
+gui.moderndynamics.tooltip.upgrade_addItemCount,Max Moved Items: %s,移動可能な最大アイテム数: %s
+gui.moderndynamics.tooltip.upgrade_addItemSpeed,Item Speed: %s,アイテムの速度: %s
+gui.moderndynamics.tooltip.upgrade_addItemTransferFrequency,Item Transfer Frequency: %s,アイテム転送頻度: %s
+gui.moderndynamics.tooltip.upgrade_enableAdvancedBehavior,Advanced Behavior: %s,高度な挙動: %s
+gui.moderndynamics.tooltip.upgrade_multiplyFluidTransfer,Total Fluid Transfer: %s,総流体転送量: %s
+gui.moderndynamics.tooltip.upgrades_effects,Upgrade Effects,アップグレード効果
+gui.moderndynamics.tooltip.upgrades_max,Up to %s supported,最大%sサポート
+item.moderndynamics.attractor,Attractor,吸引機
+item.moderndynamics.debug_tool,Debug Tool,デバッグツール
+item.moderndynamics.extractor,Extractor,名前
+item.moderndynamics.filter,Filter,フィルター
+item.moderndynamics.inhibitor,Inhibitor,抑制装置
+item.moderndynamics.wrench,Wrench,レンチ
+itemGroup.moderndynamics.moderndynamics,Modern Dynamics,モダンダイナミクス

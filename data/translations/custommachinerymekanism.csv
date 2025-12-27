@@ -1,0 +1,41 @@
+﻿key,source_text,target_text
+custommachinery.machine.component.chemical,Chemical,化学物質
+custommachinery.machine.component.heat,Heat,熱
+custommachinery.machine.component.radiation,Radiation,放射線
+custommachinery.machine.guielement.chemical,Chemical,化学物質
+custommachinery.machine.guielement.heat,Heat,熱
+custommachinery.machine.guielement.radiation,Radiation,放射線
+custommachinerymekanism.gui.creation.components.chemical.radiations,Radiations,放射線
+custommachinerymekanism.gui.creation.components.chemical.radiations.tooltip,Emit radiations when the machine is broken and contains radioactive chemical,機械が壊れて放射性化学物質を含んでいる場合、放射線を放出します
+custommachinerymekanism.gui.creation.components.chemical.title,Chemical component,化学部品
+custommachinerymekanism.gui.creation.components.heat.base,Base temperature,ベース温度
+custommachinerymekanism.gui.creation.components.heat.base.tooltip,The temperature (in Kelvin) the machine will have when no heat is provided,熱が供給されないときに機械が持つ温度(ケルビン)
+custommachinerymekanism.gui.creation.components.heat.capacity,Capacity,容量
+custommachinerymekanism.gui.creation.components.heat.conduction,Conduction,伝導
+custommachinerymekanism.gui.creation.components.heat.conduction.tooltip,"A coefficient that determines how much heat can be inserted or extracted
+Higher values mean more heat can be extracted but fewer heat inserted","熱の挿入・抽出可能量を決定する係数です。
+値が大きいほど、より多くの熱を抽出できますが、熱の挿入が少なくなります"
+custommachinerymekanism.gui.creation.components.heat.insulation,Insulation,絶縁
+custommachinerymekanism.gui.creation.components.heat.insulation.tooltip,"A coefficient that determines how much heat will be dissipated into the environment (lost)
+Higher values mean less heat loss","環境中に放散(消失)する熱の量を決定する係数です。
+値が大きいほど、熱損失が少なくなります"
+custommachinerymekanism.gui.creation.components.heat.title,Heat component,加熱部品
+custommachinerymekanism.gui.creation.gui.heat.max,Max,最大
+custommachinerymekanism.gui.creation.gui.heat.max.tooltip,Maximal temperature displayed by the bar,バーで表示される最大温度
+custommachinerymekanism.gui.creation.gui.heat.min,Min,最小
+custommachinerymekanism.gui.creation.gui.heat.min.tooltip,Minimal temperature displayed by the bar,バーで表示される最小温度
+custommachinerymekanism.jei.ingredient.heat,Heat:  %s,熱量: %s
+custommachinerymekanism.jei.ingredient.heat.input,Consume %sHeat,%s熱量を消費
+custommachinerymekanism.jei.ingredient.heat.output,Produce %sHeat,%s熱量を生成
+custommachinerymekanism.jei.ingredient.heat.pertick.input,Consume %sHeat/t,%s熱量/tを消費
+custommachinerymekanism.jei.ingredient.heat.pertick.output,Produce %sHeat/t,%s熱量/tを生成
+custommachinerymekanism.requirements.chemical.error.input,"Not enough %s, %smB needed !",%sが不足しています。%smB必要です!
+custommachinerymekanism.requirements.heat.error.input,"Not enough stored heat, %s needed but %s found !",蓄熱量が不足しています。%s必要ですが%sしかありません!
+custommachinerymekanism.requirements.radiation.error,"Not enough radiations: %s, %s needed !",放射線が不足: %s、%s必要!
+custommachinerymekanism.requirements.radiation.info.input,Remove %s in a %s blocks radius,半径%sブロック内の%sを除去
+custommachinerymekanism.requirements.radiation.info.output,Emit %s,%sを放出
+custommachinerymekanism.requirements.radiation.info.tick.input,Remove %s/t in a %s blocks radius,半径%sブロック内の%s/tを除去
+custommachinerymekanism.requirements.radiation.info.tick.output,Emit %s/t,%s/tを放出
+custommachinerymekanism.requirements.temp.error,Temperature required: %s,必要温度: %s
+custommachinerymekanism.requirements.chemical.error.output,Not enough space to store %mb of %s !,%mbの%sを保存するスペースがありません!
+custommachinerymekanism.gui.creation.components.heat.capacity.tooltip,The max temperature (in Kelvin) the machine can handle,機械が対応できる最大温度(ケルビン)

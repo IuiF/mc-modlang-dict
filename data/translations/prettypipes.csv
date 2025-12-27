@@ -1,0 +1,136 @@
+﻿key,source_text,target_text
+block.prettypipes.crafting_terminal,Crafting Terminal,クラフトターミナル
+block.prettypipes.item_terminal,Item Terminal,アイテムターミナル
+block.prettypipes.pipe,Pipe,パイプ
+block.prettypipes.pressurizer,Pipe Pressurizer,パイプ圧力器
+container.prettypipes.crafting_terminal,Crafting Terminal,クラフトターミナル
+container.prettypipes.item_terminal,Item Terminal,アイテムターミナル
+container.prettypipes.pipe,Pipe,パイプ
+container.prettypipes.pressurizer,Pipe Pressurizer,パイプ圧力器
+dir.prettypipes.all,All Sides,すべての側
+dir.prettypipes.down,Down,下
+dir.prettypipes.east,East,東
+dir.prettypipes.north,North,北
+dir.prettypipes.south,South,南
+dir.prettypipes.up,Up,上
+dir.prettypipes.west,West,西
+info.prettypipes.ascending,Ascending,昇順
+info.prettypipes.blacklist,§4D,§4D
+info.prettypipes.blacklist.description,Items in filter slots are disallowed,フィルタースロット内のアイテムは許可されていません
+info.prettypipes.cancel_all,Cancel,キャンセル
+info.prettypipes.cancel_all.desc,"Stops waiting for current crafting outputs
+Doesn't remove inputs from blocks",現在のクラフト出力待ちを停止します
+info.prettypipes.crafting,Awaiting,待機中
+info.prettypipes.crafting_module,"Allows automatically crafting items into other items using the connected block
+Doesn't automatically extract from the block
+Input and output slots vary by tier
+Supports auto-filling from JEI if installed","接続されたブロックにアイテムを自動クラフトできます
+自動抽出は行いません
+入力と出力スロットはティアによって異なります
+JEIがインストールされている場合は自動入力に対応しています"
+info.prettypipes.crafting_terminal,"Allows requesting ingredients for crafting recipes
+Supports auto-filling from JEI if installed",クラフトレシピに必要な材料を要求できるようにします
+info.prettypipes.damage_filter_modifier,Causes any filter slots to filter by item damage,フィルタースロットがアイテムダメージでフィルタリングされるようにします
+info.prettypipes.descending,Descending,降順
+info.prettypipes.energy,%s / %s FE,%s / %s FE
+info.prettypipes.extraction_module,"Pulls items from adjacent inventories
+Filters and pull rates vary by tier
+Medium and high tiers prevent over-sending","隣接するインベントリからアイテムを引き出します
+フィルターと引き出し速度はティアによって異なります
+中程度以上のティアは過剰送信を防ぎます"
+info.prettypipes.filter_increase_modifier,"Adds additional filter slots to the pipe
+Slots will be used by any module that filters items",パイプに追加フィルタスロットを付与する
+info.prettypipes.filter_module,"Restricts flow from pipes into adjacent inventories
+Filter amount varies by tier",パイプから隣接インベントリへのフローを制限します
+info.prettypipes.high_priority_module,"Increases the reception priority of adjacent inventories
+Higher priority means items will prefer this inventory, regardless of distance","隣接するインベントリの受信優先度を上げます
+優先度が高いほど、距離に関わらずこのインベントリが優先されます"
+info.prettypipes.hold_alt,Hold Alt or Backspace to request anyway,Alt や Backspace を押して無視してリクエスト
+info.prettypipes.item_terminal,"Allows viewing and requesting all items in a pipe network
+Also has slots for putting items into the network","パイプネットワーク内のすべてのアイテムを表示・リクエストできます
+アイテムをネットワークに投入するスロットもあります"
+info.prettypipes.limit_to_max_off,Don't limit to one stack,1スタックに制限しない
+info.prettypipes.limit_to_max_on,Limit to one stack,1スタックのみ
+info.prettypipes.low_priority_module,"Decreases the reception priority of adjacent inventories
+Lower priority means items will prefer other inventories, regardless of distance","隣接するインベントリの受信優先度を下げます
+優先度が低いほど、距離に関わらず他のインベントリが優先されます"
+info.prettypipes.max_stack_size,Maximum item amount,最大アイテム数
+info.prettypipes.mod_filter_modifier,Causes any filter slots to filter by mod,フィルタースロットをモジュールでフィルタリングします
+info.prettypipes.nbt_filter_modifier,Causes any filter slots to filter by item data (NBT),フィルタースロットがアイテムデータ（NBT）でフィルタリングされます
+info.prettypipes.no_pipe_connected,The terminal needs to be connected to a pipe network,端末はパイプネットワークに接続する必要があります
+info.prettypipes.not_found,%s not found,%s が見つかりません
+info.prettypipes.order,Order by %s,順序で %s
+info.prettypipes.order.amount,Amount,数量
+info.prettypipes.order.mod,Mod,モジュール
+info.prettypipes.order.name,Name,名前
+info.prettypipes.pipe_frame,"Attach to a pipe or pipe-adjacent block
+Shows amount of an item in the pipe's network",パイプまたはパイプ隣接ブロックに接続します
+info.prettypipes.populate,P,P
+info.prettypipes.populate.description,Populate filter slots with items from adjacent inventories,隣接インベントリからアイテムでフィルタースロットを埋めます
+info.prettypipes.pressurizer,"Drastically increases item speed in the entire pipe network
+Requires FE (or RF) for each item transferred","パイプネットワーク全体のアイテム速度を大幅に増加させます
+転送されたアイテムごとにFE（またはRF）を消費します"
+info.prettypipes.random_sorting_modifier,"Causes extracted items to choose destinations randomly
+Priority modules will be ignored",抽出されたアイテムがランダムに目的地を選択します
+info.prettypipes.redstone_module,"Allows disabling the pipe with a redstone signal
+Works for both extraction and retrieval",レッドストーン信号でパイプを無効化できるようにする
+info.prettypipes.request,Request,リクエスト
+info.prettypipes.retrieval_module,"Pulls items from other inventories in the network
+Filters and pull rates vary by tier
+Medium and high tiers prevent over-sending","ネットワーク内の他のインベントリからアイテムを引き出します
+フィルターと引き出し速度はティアによって異なります
+中程度以上のティアは過剰送信を防ぎます"
+info.prettypipes.round_robin_sorting_modifier,"Causes extracted items to choose destinations in a round robin fashion
+Ordering is based on distance and priority","抽出されたアイテムがラウンドロビン方式で目的地を選択します
+順序は距離と優先度に基づきます"
+info.prettypipes.sending,Sending %s %s,送信中: %s %s
+info.prettypipes.sending_ingredients,Sending %s sets of ingredients,%s セットの材料を送信
+info.prettypipes.shift,Hold Shift for info,情報を表示するにはシフトを押してください
+info.prettypipes.speed_module,"Increases speed of items exiting adjacent inventories
+Speed varies by tier",隣接するインベントリから出ていくアイテムの速度を上げます
+info.prettypipes.stack_size_module,"Limits the amount of items that can enter adjacent inventories
+Automatically prevents over-sending",隣接するインベントリに入るアイテム数を制限します
+info.prettypipes.sync_jei.off,Don't Sync JEI Search,JEI検索を同期しない
+info.prettypipes.sync_jei.on,Sync JEI Search,JEI検索を同期
+info.prettypipes.tag_filter_modifier,"Causes any filter slots to filter by tags
+Tag can be chosen from items in filter slots",フィルタースロットがタグでフィルタリングされるようになります
+info.prettypipes.too_many_pipes_connected,The terminal can only be connected to a single pipe at a time,ターミナルは同時に1本のパイプしか接続できません
+info.prettypipes.whitelist,§2A,§2A
+info.prettypipes.whitelist.description,Items in filter slots are allowed,フィルタースロットのアイテムは許可されます
+info.prettypipes.wrench,"Allows modifying pipe connections
+Places blocks in offhand as covers
+Sneak to remove cover or pipe",パイプ接続の変更を許可します
+item.prettypipes.blank_module,Blank Module,空のモジュール
+item.prettypipes.damage_filter_modifier,Damage Filter Modifier,ダメージフィルター修飾子
+item.prettypipes.filter_increase_modifier,Filter Increase Modifier,フィルター増加修飾子
+item.prettypipes.high_crafting_module,High Crafting Module,高レベルクラフトモジュール
+item.prettypipes.high_extraction_module,High Extraction Module,高効率抽出モジュール
+item.prettypipes.high_filter_module,High Filter Module,高フィルターモジュール
+item.prettypipes.high_high_priority_module,Highest Priority Module,最優先モジュール
+item.prettypipes.high_low_priority_module,Lowest Priority Module,優先度最低モジュール
+item.prettypipes.high_retrieval_module,High Retrieval Module,高収率モジュール
+item.prettypipes.high_speed_module,High Speed Increase Module,高速増加モジュール
+item.prettypipes.low_crafting_module,Low Crafting Module,低優先度クラフトモジュール
+item.prettypipes.low_extraction_module,Low Extraction Module,低抽出モジュール
+item.prettypipes.low_filter_module,Low Filter Module,低フィルタモジュール
+item.prettypipes.low_high_priority_module,High Priority Module,高優先度モジュール
+item.prettypipes.low_low_priority_module,Low Priority Module,低優先度モジュール
+item.prettypipes.low_retrieval_module,Low Retrieval Module,低回収モジュール
+item.prettypipes.low_speed_module,Low Speed Increase Module,低速増加モジュール
+item.prettypipes.medium_crafting_module,Medium Crafting Module,中程度クラフトモジュール
+item.prettypipes.medium_extraction_module,Medium Extraction Module,中程度の抽出モジュール
+item.prettypipes.medium_filter_module,Medium Filter Module,中程度フィルター・モジュール
+item.prettypipes.medium_high_priority_module,Higher Priority Module,優先度高いモジュール
+item.prettypipes.medium_low_priority_module,Lower Priority Module,優先度低いモジュール
+item.prettypipes.medium_retrieval_module,Medium Retrieval Module,中程度の回収モジュール
+item.prettypipes.medium_speed_module,Medium Speed Increase Module,中速増加モジュール
+item.prettypipes.mod_filter_modifier,Mod Filter Modifier,モジュールフィルターモディファイア
+item.prettypipes.nbt_filter_modifier,Data Filter Modifier,データフィルター・修飾子
+item.prettypipes.pipe_frame,Pipe Frame,パイプフレーム
+item.prettypipes.random_sorting_modifier,Random Sorting Modifier,ランダムソート修飾子
+item.prettypipes.redstone_module,Redstone Module,レッドストーンモジュール
+item.prettypipes.round_robin_sorting_modifier,Round Robin Sorting Modifier,ローテーションソート修飾子
+item.prettypipes.stack_size_module,Stack Limiter Module,スタック制限モジュール
+item.prettypipes.tag_filter_modifier,Tag Filter Modifier,タグフィルターモディファイア
+item.prettypipes.wrench,Pipe Wrench,パイプレンチ
+item_group.prettypipes.tab,Pretty Pipes,美しいパイプ

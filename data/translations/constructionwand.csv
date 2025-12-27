@@ -1,0 +1,101 @@
+﻿key,source_text,target_text
+constructionwand.description.core,"§5§nINSTALLATION§0§r
+Put your new core together with your wand in a crafting grid to install it. To switch between cores, hold down %s and left click empty space with your wand or use the option screen.","§5§nセッティング§0§r
+新しいコアと杖を一緒にクラフトが麺に設置することでセッティングできます。コアを交換するためには、杖を持って何もない空間を%sを押しながら攻撃するか、オプション画面を使用してください。"
+constructionwand.description.core_angel,"The angel core places a block on the opposite side of the block (or row of blocks) you are facing. Maximum distance depends on wand tier. Right click empty space to place a block in midair. To do that, you'll need to have the block you want to place in your offhand.",天使のコアはブロックの反対側にブロックを設置します。最大距離は杖の段階に依存します。オフハンドにブロックを持った状態で、何もない空間に使用すると空中にそのブロックを設置できます。
+constructionwand.description.core_destruction,"The destruction core destroys blocks (no tile entities) on the side facing you. Maximum number of blocks depends on wand tier. Destroyed blocks disappear into the void, you can use the undo feature if you've made a mistake.",破壊のコアは正面のブロック(タイルエンティティは不可)を破壊できます。破壊できる最大ブロック数は杖の段階に依存します。破壊されたブロックは消滅しますが、間違えたときは取り消すことができます。
+constructionwand.description.durability.limited,for %d blocks,%dブロック
+constructionwand.description.durability.unlimited,forever,無制限に
+constructionwand.description.key.sneak,Sneak,スニーク
+constructionwand.description.key.sneak_opt,Sneak+%s,スニーク+%s
+constructionwand.description.wand,"The %1$s can place up to %2$d blocks at the side of a building facing you and lasts %3$s.
+
+Hold down %5$s and scroll to change placement restriction (Horizontal, Vertical, North/South, East/West, No lock).
+
+Open the option screen with %6$s§9+Right click§0.
+
+§5§nUNDO§0§r
+Holding down §9Sneak+§0%4$s while looking at a blocks will show you the last blocks you placed with a green border around them. §9Sneak+§0%4$s§9+Right clicking§0 any of them will undo the operation, giving you all the items back. If you used the Destruction core, it will restore the blocks.
+
+§5§nCONTAINERS§0§r
+Shulker boxes, bundles and many containers from other mods can provide building blocks for the wand.
+
+§5§nOFFHAND PRIORITY§0§r
+Having blocks in your offhand will place them instead of the block you're looking at.","%1$sは、向かっている面に%2$dブロック設置でき、%3$s使用できます。
+
+%5$を押しながらホイールスクロールすると設置方向(水平、垂直、南北、東西、無制限)を変更できます。
+
+%6$s§9を押しながら使用§0でオプション画面を開きます。
+
+§5§n取消§0§r
+ブロックの方を向きながら§9スニークしながら§0%4$sを押し続けると、最後に設置したブロックが緑の境界線ととともに表示されます。§9スニークしながら§0%4$s§9を押して使用ボタンを押す§0と、処理を取り消すことができ、すべてのブロックはインベントリに戻ります。破壊の杖を使用していた場合もブロックはもとに戻ります。
+
+§5§コンテナ§0§r
+シュルカーボックス、バンドル、その他のModで追加されたコンテナは杖で建築を行った際に資材を供給できます。
+
+§5§nオフハンド優先§0§r
+オフハンドにブロックを持っている場合、設置されているブロックよりそちらが優先されます。"
+constructionwand.option.cores.constructionwand:core_angel,§6Angel Core,§6天使のコア
+constructionwand.option.cores.constructionwand:core_angel.desc,Place behind blocks and in mid air,ブロックの後ろや空中に設置する
+constructionwand.option.cores.constructionwand:core_destruction,§cDestruction Core,§c破壊のコア
+constructionwand.option.cores.constructionwand:core_destruction.desc,Destroys blocks on the side facing you,向いてる面のブロックを破壊する
+constructionwand.option.cores.constructionwand:default,Construction Core,創造コア
+constructionwand.option.cores.constructionwand:default.desc,Extend your building on the side facing you,向いてる面にブロックを拡張するように設置する
+constructionwand.option.direction,Direction: ,方向:
+constructionwand.option.direction.player,§aPlayerEntity,プレイヤー
+constructionwand.option.direction.player.desc,Place blocks facing the player,プレイヤーに向かってブロックを設置する
+constructionwand.option.direction.target,§6Target,§6ターゲット
+constructionwand.option.direction.target.desc,Place blocks with same direction as target block,ターゲットブロックと同じ方向にブロックを設置する
+constructionwand.option.lock,Restriction: ,制限: 
+constructionwand.option.lock.eastwest,§6East/West,§6東西方向
+constructionwand.option.lock.eastwest.desc,Build a row in E/W direction on top of the original block,元のブロックの上に東西方向に列状に設置する
+constructionwand.option.lock.horizontal,§aLeft/Right,§a左右方向
+constructionwand.option.lock.horizontal.desc,Build a horizontal column in front of the original block,元のブロックの前に水平に列状に設置する
+constructionwand.option.lock.nolock,§cNone,§cなし
+constructionwand.option.lock.nolock.desc,Extend from any side of the original block,元のブロックの任意の側を延長するように設置する
+constructionwand.option.lock.northsouth,§6North/South,§6南北方向
+constructionwand.option.lock.northsouth.desc,Build a row in N/S direction on top of the original block,元のブロックの上に南北方向に列状に設置する
+constructionwand.option.lock.vertical,§aUp/Down,§a上下方向
+constructionwand.option.lock.vertical.desc,Build a vertical column in front of the original block,元のブロックの前に垂直に列状に設置する
+constructionwand.option.match,Matching: ,一致: 
+constructionwand.option.match.any,§cAny,§c何でも
+constructionwand.option.match.any.desc,Extend any block,どんな種類のブロックを延長するように設置する
+constructionwand.option.match.exact,§aExact,§a一致
+constructionwand.option.match.exact.desc,Only extend blocks that are exactly the same,全く同じブロックを延長するように設置する
+constructionwand.option.match.similar,§6Similar,§6近似
+constructionwand.option.match.similar.desc,Treat similar blocks (dirt/grass types) equally,土と草のような似ているブロックを延長するように設置する
+constructionwand.option.random,Random: ,ランダム: 
+constructionwand.option.random.no,§cNo,§cオフ
+constructionwand.option.random.no.desc,Don't randomize placed blocks,ランダムに設置しない
+constructionwand.option.random.yes,§aYes,§aオン
+constructionwand.option.random.yes.desc,Place random blocks present in your hotbar,ホットバーにあるブロックをランダムに設置する
+constructionwand.option.replace,Replacement: ,置換: 
+constructionwand.option.replace.no,§cNo,§cオフ
+constructionwand.option.replace.no.desc,Don't replace blocks,ブロックを置き換えない
+constructionwand.option.replace.yes,§aYes,§aオン
+constructionwand.option.replace.yes.desc,"Replace certain blocks like fluids, snow and tallgrass",液体、雪、背の高い草などの特定のブロックを置き換える
+constructionwand.tooltip.blocks,Max. %d blocks,最大%dブロック
+constructionwand.tooltip.core_tip,Combine the core with your wand in a crafting grid,クラフト画面上で杖とコアを組み合わせてください。
+constructionwand.tooltip.cores,Wand cores:,杖のコア:
+constructionwand.tooltip.shift,Press [SHIFT],スニークを押して
+item.constructionwand.core_angel,Angel Wand Core,天使の杖のコア
+item.constructionwand.core_destruction,Destruction Wand Core,破壊の杖のコア
+item.constructionwand.diamond_wand,Diamond Wand,ダイヤモンドの杖
+item.constructionwand.infinity_wand,Infinity Wand,無限の杖
+item.constructionwand.iron_wand,Iron Wand,鉄の杖
+item.constructionwand.stone_wand,Stone Wand,石の杖
+stat.constructionwand.use_wand,Blocks placed using Wand,杖を用いてブロックを設置
+gui.constructionwand.discard,Discard Changes,変更を破棄
+gui.constructionwand.require_opt_key_actions,Require holding opt-key for wand actions,ウィンドウ操作にはオプションキーを押しながら使用してください
+gui.constructionwand.require_opt_key_actions.tooltip,The wand actions in question are quick-switching cores and rotation lock.,該当する杖の動作はコアのクイックスイッチと回転ロックです。
+gui.constructionwand.require_opt_key_menu,Require holding opt-key for wand menu,ウィンドウメニューを操作するには、オプションキーを保持する必要があります。
+gui.constructionwand.require_opt_key_menu.tooltip,The menu keybind will work regardless of this option!,メニューキー入力はこのオプションに関係なく機能します！
+gui.constructionwand.save,Save Changes,変更を保存
+gui.constructionwand.settings,Construction Wand Client Settings,建設杖クライアント設定
+gui.constructionwand.settings_button,Mod Settings,Mod設定
+gui.constructionwand.settings_text,Don't forget to check your keybinds!,キーのバインディングを確認してください！
+key.category.constructionwand,Construction Wand,建築杖
+key.constructionwand.menu_key,Open wand menu,ウィンドウを開く
+key.constructionwand.opt_key,Wand option key,ワンドオプションキー
+tag.item.constructionwand.cores,ConstructionWand Cores,建設ワンドコア
+tag.item.constructionwand.wands,ConstructionWand Wands,ConstructionWand ワンド

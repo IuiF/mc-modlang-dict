@@ -1,0 +1,55 @@
+﻿key,source_text,target_text
+command.mantle.dump_all_tags.success,Dumped all tags to '%s',すべてのタグを '%s' にダンプしました
+command.mantle.dump_all_tags.type_success,Dumped all %s tags to '%s',すべての %s タグを '%s' にダンプしました
+command.mantle.dump_loot_modifiers.read_error,Error reading global loot modifiers,グローバルルートモディファイアーの読み込みエラー
+command.mantle.dump_loot_modifiers.success_log,Printed combined global loot modifiers to console log,結合されたグローバルルートモディファイアーをコンソールに出力しました
+command.mantle.dump_loot_modifiers.success_save,Dumped combined global loot modifiers to '%s',結合されたグローバルルートモディファイアーを '%s' にダンプしました
+command.mantle.dump_tag.read_error,Error reading %s tag '%s':,%s タグ '%s' の読み込みエラー:
+command.mantle.dump_tag.success,Printed combined %s tag '%s' to console log,結合された %s タグ '%s' をコンソールに出力しました
+command.mantle.tag.empty,Empty,空
+command.mantle.tag.not_found,Unknown %s tag '%s',%s タグ '%s' が見つかりません
+command.mantle.tag_collection.not_found,Unknown tag collection '%s',不明なタグコレクション '%s'
+command.mantle.tags_for.no_held_block,Held item is not a block,持っているアイテムはブロックではありません
+command.mantle.tags_for.no_held_enchantment,Held item is not enchanted,持っているアイテムはエンチャントされていません
+command.mantle.tags_for.no_held_entity,Held item is not a spawn egg,持っているアイテムはスポーンエッグではありません
+command.mantle.tags_for.no_held_fluid,Unable to get fluid from the held item,持っているアイテムから液体を取得できません
+command.mantle.tags_for.no_held_potion,Held item is not a potion,持っているアイテムはポーションではありません
+command.mantle.tags_for.no_tags,No tags,タグなし
+command.mantle.tags_for.no_targeted_entity,No entity within range,範囲内にエンティティがありません
+command.mantle.tags_for.no_targeted_tile_entity,No fluid within range,範囲内に液体がありません
+command.mantle.tags_for.not_found,Unknown %s registry value '%s',未知の %s レジストリ値 '%s'
+command.mantle.tags_for.success,%s tags for '%s':,'%s' のタグ %s:
+command.mantle.view_tag.success,Values for %s tag '%s':,%s タグ '%s' の値:
+config.mantle.extraHeartRenderer,Enable Extra Heart Renderer,追加ハート表示を有効化
+mantle:tooltip.cooktime,Cook Time: %ds,調理時間: %ds
+block.mantle.tank.drained,Drained %s mb %s,注入量 %s mb %s
+block.mantle.tank.filled,Filled %s mb %s,排出量 %s mb %s
+command.mantle.book.export.error_generic,"Failed to export book images, see log for details",書籍の画像エクスポートに失敗しました。詳細はログを確認してください
+command.mantle.book.export.error_io,Failed to create directory for book images '%s',書籍の画像ディレクトリ '%s' の作成に失敗しました
+command.mantle.book.export.success,Exported book images to '%s',書籍の画像を '%s' にエクスポートしました
+command.mantle.book_test.not_found,Unknown book with ID %s,ID %s の書籍が見つかりません
+command.mantle.dump_tag.success_log,Dumped combined %s tag '%s' to '%s',結合された %s タグ '%s' を '%s' にダンプしました
+command.mantle.harvest_tiers.no_tag,%s: No tag,%s: タグなし
+command.mantle.harvest_tiers.success_list,Harvest tiers:,採掘レベル:
+command.mantle.harvest_tiers.success_log,Printed sorted tiers to console log,ソート済みレベルをコンソールに出力しました
+command.mantle.harvest_tiers.success_save,Dumped sorted tiers to '%s',ソート済みレベルを '%s' にダンプしました
+command.mantle.harvest_tiers.tag,%s: Block tag %s,%s: ブロックタグ %s
+command.mantle.registry.not_found,Unknown registry '%s',「%s」は不明なレジストリです
+command.mantle.tag_preference.empty_tag,No preference for %s tag %s,%s タグ %s の優先設定がありません
+command.mantle.tag_preference.preference,Preferred value for %s tag %s is %s,%s タグ %s の優先値は %s です
+command.mantle.tags_for.no_targeted_block_entity,No targeted block entity,ターゲットのブロックエンティティがありません
+gui.mantle.fluid.bucket,%s buckets,%1$s バケツ
+gui.mantle.fluid.hold_shift,Hold §e§oShift§r§7 for buckets,バケツなら　§e§oShift§r§7 を押してください
+gui.mantle.fluid.kilobucket,%s kb,%s キロバケット
+gui.mantle.fluid.millibucket,%s mb,%s mb
+command.mantle.item.not_found,Unknown item '%s',不明なアイテム '%s'
+command.mantle.remove_recipes,Successfully removed %s recipes in %s seconds. Run /reload to activate pack at %s,%s レシピを %s 秒で正常に削除しました。%s でパックを有効化するには /reload を実行してください
+command.mantle.remove_recipes.preset_not_found,Recipe removal preset '%s' was missing or invalid. Check the log for more information.,レシピ除去プリセット '%s' が見つからないか無効です。詳細はログをご確認ください。
+gui.mantle.fluid.bottle,%s bottles,%s ボトル
+gui.mantle.fluid.bowl,%s bowls,%s 個の碗
+gui.mantle.fluid.capacity,Capacity: %s mb,容量: %s mb
+gui.mantle.fluid.contents,Contains: %s,中身: %s
+gui.mantle.fluid.drop,%s drops,%s滴
+gui.mantle.fluid.format,%s / %s mb %s,%s / %s mb %s
+gui.mantle.fluid.sip,%s sips,%s口
+item.mantle.book.click_to_open,Right click to open,右クリックで開く

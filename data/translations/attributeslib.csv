@@ -1,0 +1,131 @@
+﻿key,source_text,target_text
+attribute.name.generic.armor.desc,Increases physical damage reduction.,物理的なダメージ軽減を増加させます。
+attribute.name.generic.armor_toughness.desc,Reduces the effectiveness of enemy armor reduction.,敵のアーマー軽減の効果を低減します。
+attribute.name.generic.attack_damage.desc,Physical damage dealt with a fully charged attack.,完全にチャージされた攻撃による物理ダメージ。
+attribute.name.generic.attack_knockback.desc,"How far your melee attacks knock back foes, in half-blocks.",近接攻撃が敵をノックバックさせる距離(ハーフブロック単位)。
+attribute.name.generic.attack_speed.desc,How many fully charged attacks you can execute per second.,1秒間に実行できる完全にチャージされた攻撃の回数。
+attribute.name.generic.knockback_resistance.desc,How much knockback you ignore.,無視できるノックバックの量。
+attribute.name.generic.luck.desc,Increases the likelihood of good things happening.,良いことが起こる確率を増加させます。
+attribute.name.generic.max_health.desc,How many hit points you can have.,最大体力を増加させます。
+attribute.name.generic.movement_speed.desc,Movement speed while walking.,歩行時の移動速度。
+attributeslib.adv.base,[Entity: %s | Item: %s],[エンティティ: %s | アイテム: %s]
+attributeslib.adv.sharpness_bonus,[Sharp: +%s],[鋭さ: +%s]
+attributeslib.gui.addition,Addition: %s,追加: %s
+attributeslib.gui.attributes,Attributes,属性
+attributeslib.gui.base,Base: %s,基本: %s
+attributeslib.gui.current,Current: %s,現在: %s
+attributeslib.gui.formula.base,Base,基本
+attributeslib.gui.formula.value,Value,値
+attributeslib.gui.max,Max: %s,最大: %s
+attributeslib.gui.min,Min: %s,最小: %s
+attributeslib.gui.modifiers,Modifiers,修飾子
+attributeslib.gui.multiply_base,Multiply Base: %s,基本倍率: %s
+attributeslib.gui.multiply_total,Multiply Total: %s,合計倍率: %s
+attributeslib.gui.no_modifiers,No Modifiers,変異なし
+attributeslib.gui.press_shift,Hold Shift for more info.,シフトキーを押して詳細情報を表示。
+attributeslib.gui.show_attributes,Show Attributes,属性を表示
+attributeslib.modifier.bool,%s %s,%s %s
+attributeslib.modifier.plus,+%s %s,+%s %s
+attributeslib.modifier.take,-%s %s,-%s %s
+attributeslib.value.boolean.disabled,Disabled,無効
+attributeslib.value.boolean.enable,Enables,有効化
+attributeslib.value.boolean.enabled,Enabled,有効
+attributeslib.value.boolean.force_disable,Forcibly Disables,強制無効化
+attributeslib.value.boolean.invalid,Invalid,無効
+attributeslib.value.flat,%s,%s
+attributeslib.value.percent,%s%%,%s%%
+attributeslib:armor_pierce,Armor Pierce,アーマー貫通
+attributeslib:armor_pierce.desc,Flat reduction to the target's armor value.,対象の防御力を一律で減少させる
+attributeslib:armor_shred,Armor Shred,アーマー剥離
+attributeslib:armor_shred.desc,Percentage reduction to the target's armor value.,対象の防御力を割合で減少させる
+attributeslib:arrow_damage,Arrow Damage,矢のダメージ
+attributeslib:arrow_damage.desc,Damage multiplier for arrows. Tridents are arrows.,矢のダメージ倍率。トライデントは矢として扱われます。
+attributeslib:arrow_velocity,Arrow Velocity,矢の速度
+attributeslib:arrow_velocity.desc,Speed multiplier for arrows. Arrow damage scales with velocity.,矢が飛ぶ速さの増加率。矢によるダメージは速さにも依存する
+attributeslib:cold_damage,Cold Damage,冷害
+attributeslib:cold_damage.desc,"Bonus magic damage applied on melee attacks, and slows enemies hit.",近接攻撃に加算される魔法ダメージ。相手の移動速度を遅くする
+attributeslib:creative_flight,Creative Flight,クリエイティブフライト
+attributeslib:creative_flight.desc,If you can fly as if in Creative Mode.,クリエイティブモードと同じように飛び回れるかどうか
+attributeslib:crit_chance,Crit Chance,クリティカル確率
+attributeslib:crit_chance.desc,"The chance any damage you deal critically strikes, dealing extra damage based on your Crit Damage.",攻撃がクリティカルヒットになる確率。追加ダメージはクリティカルダメージの数値による
+attributeslib:crit_damage,Crit Damage,クリティカルダメージ
+attributeslib:crit_damage.desc,"Damage multiplier for critical hits, including vanilla jump crits.",クリティカルヒット発生時のダメージ倍率。バニラのジャンプによるクリティカルもこの値の影響を受ける
+attributeslib:current_hp_damage,Current HP Damage,現在のHPダメージ
+attributeslib:current_hp_damage.desc,"Bonus physical damage applied on melee attacks, based on the target's health.",近接攻撃に付与される追加物理ダメージで、対象の体力に基づいています。
+attributeslib:dodge_chance,Dodge Chance,回避確率
+attributeslib:dodge_chance.desc,Chance to dodge a melee attack or a projectile.,近接攻撃または投射物を回避する確率
+attributeslib:draw_speed,Draw Speed,引く速度
+attributeslib:draw_speed.desc,"How fast you draw ranged weapons, such as bows, crossbows, or tridents.",弓やクロスボウ、トライデントなどの遠距離武器を撃ったり投げたりするときの動作の速度
+attributeslib:elytra_flight,Elytra Flight,エリトラ飛行
+attributeslib:elytra_flight.desc,If you can fly as if wearing an Elytra.,エリトラを装着しているかのように飛べるかどうか
+attributeslib:experience_gained,Experience Gained,経験値取得倍率
+attributeslib:experience_gained.desc,Multiplier on how much experience you gain from breaking blocks and killing mobs.,ブロック破壊時や敵を倒した時に得られる経験値の増加率
+attributeslib:fire_damage,Fire Damage,火のダメージ
+attributeslib:fire_damage.desc,"Bonus magic damage applied on melee attacks, and burns enemies hit.",近接攻撃に加算される魔法ダメージ。相手を炎上させる
+attributeslib:ghost_health,Ghost Health,ゴースト体力
+attributeslib:ghost_health.desc,Not Yet Implemented,未実装
+attributeslib:healing_received,Healing Received,受ける回復
+attributeslib:healing_received.desc,Multiplier on all incoming healing.,すべての入力回復量に対する倍率。
+attributeslib:life_steal,Life Steal,生命奪取
+attributeslib:life_steal.desc,Percentage of post-mitigation damage which will heal you.,自分を回復させる耐性無視のダメージ比率
+attributeslib:mining_speed,Mining Speed,採掘速度
+attributeslib:mining_speed.desc,"How fast you mine blocks, compared to normal.",ブロックを破壊する速度。通常状態に対する倍率で表される
+attributeslib:overheal,Overheal,過剰回復
+attributeslib:overheal.desc,Percentage of post-mitigation damage which will grant you an absorption shield.,ポストミティゲーションダメージの割合で吸収シールドを付与される。
+attributeslib:prot_pierce,Protection Pierce,ダメージ軽減貫通
+attributeslib:prot_pierce.desc,Flat reduction to the target's protection point total.,ターゲットの防御ポイント合計に対するフラット減少。
+attributeslib:prot_shred,Protection Shred,保護剥離
+attributeslib:prot_shred.desc,Percentage reduction to the target's protection point total.,対象の保護ポイント合計への百分率軽減。
+comment_id,Damage Sources,ダメージソース
+death.attack.attributeslib:bleeding,%1$s bled out,%1$sは失血死した。
+death.attack.attributeslib:bleeding.item,%1$s bled out due to %2$s's %3$s,%1$sは%2$sの%3$sにより失血死した。
+death.attack.attributeslib:bleeding.player,%1$s bled out whilst trying to escape %2$s,%1$sは%2$sから逃れようとして失血死した。
+death.attack.attributeslib:cold_damage,%1$s was frozen to death,%1$sは凍死した。
+death.attack.attributeslib:cold_damage.item,%1$s was frozen to death by %2$s using %3$s,%1$sは、%2$sが使う%3$sによって凍死した。
+death.attack.attributeslib:cold_damage.player,%1$s was frozen to death whilst fighting %2$s,%1$sは%2$sと戦って凍死した。
+death.attack.attributeslib:current_hp_damage,%1$s was struck down,%1$sはぶっ飛ばされた。
+death.attack.attributeslib:current_hp_damage.item,%1$s was struck down by %2$s using %3$s,%1$sは、%2$sが%3$sを使ってぶっ飛ばされた。
+death.attack.attributeslib:current_hp_damage.player,%1$s was struck down whilst fighting %2$s,%1$sは%2$sと戦ってぶっ飛ばされた。
+death.attack.attributeslib:detonation,%1$s was detonated by flame,%1$sは炎により爆発四散した。
+death.attack.attributeslib:detonation.item,%1$s was detonated by flame,%1$sは炎により爆発四散した。
+death.attack.attributeslib:detonation.player,%1$s was detonated by flame,%1$sは炎により爆発四散した。
+death.attack.attributeslib:fire_damage,%1$s was scorched to death,%1$sはカリカリに焼けて死んだ。
+death.attack.attributeslib:fire_damage.item,%1$s was scorched to death by %2$s using %3$s,%1$sは、%2$sが使う%3$sによってカリカリになるまで焼かれた。
+death.attack.attributeslib:fire_damage.player,%1$s was scorched to death whilst fighting %2$s,%1$sは%2$sと戦って焼け死んだ。
+effect.attributeslib.bleeding,Bleeding,出血
+effect.attributeslib.bleeding.desc,Inflicts damage every two seconds.,2秒ごとにダメージを与えます。
+effect.attributeslib.bleeding.description,Inflicts damage every two seconds.,2秒ごとにダメージを与えます。
+effect.attributeslib.detonation,Flaming Detonation,炎の爆発
+effect.attributeslib.detonation.desc,"On expiry, inflicts damage based on remaining fire ticks.",効果が切れたとき、燃えている炎の残り時間に応じてダメージを受ける。
+effect.attributeslib.detonation.description,"On expiry, inflicts damage based on remaining fire ticks.",効果が切れたとき、燃えている炎の残り時間に応じてダメージを受ける。
+effect.attributeslib.flying,Flying,飛行
+effect.attributeslib.flying.desc,Grants Creative Flight.,クリエイティブ飛行を付与します。
+effect.attributeslib.flying.description,Grant Creative Flight.,クリエイティブフライトを付与
+effect.attributeslib.grievous,Grievous Wounds,痛恨の傷
+effect.attributeslib.grievous.desc,Decreases healing received.,受ける治癒量を減少させる。
+effect.attributeslib.grievous.description,Decreases healing received.,受ける治癒量を減少させる。
+effect.attributeslib.knowledge,Ancient Knowledge,古代の知識
+effect.attributeslib.knowledge.desc,Increases experience gained from kills and blocks.,キルとブロック破壊から獲得する経験値を増加させます。
+effect.attributeslib.knowledge.description,Increases experience gained from kills and blocks.,キルとブロック破壊から獲得する経験値を増加させます。
+effect.attributeslib.sundering,Sundering,破砕
+effect.attributeslib.sundering.desc,Increases damage received.,受けるダメージを増加させます。
+effect.attributeslib.sundering.description,Increases damage received.,受けるダメージを増加させます。
+effect.attributeslib.vitality,Bursting Vitality,爆発する生命力
+effect.attributeslib.vitality.desc,Increases healing received.,受ける回復を増加させます。
+effect.attributeslib.vitality.description,Increases healing received.,受ける回復を増加させます。
+effect.minecraft.fire_resistance.desc,Makes you immune to fire damage.,炎ダメージに対する免疫。
+effect.minecraft.instant_damage.desc,Instantly causes a bit of magic damage.,即座に魔法ダメージを与えます。
+effect.minecraft.instant_health.desc,Instantly restores a bit of your health.,即座に体力を回復します。
+effect.minecraft.invisibility.desc,"Makes you invisible, excluding equipment.",装備を除いて透明化します。
+effect.minecraft.jump_boost.desc,Increases jump height.,ジャンプの高さを増加させます。
+effect.minecraft.night_vision.desc,Allows you to see in the dark.,暗い場所での視認性を向上させます。
+effect.minecraft.poison.desc,Periodically inflicts non-lethal damage.,定期的に非致命的なダメージを与えます。
+effect.minecraft.regeneration.desc,Causes you to regenerate health over time.,時間とともに体力を再生させます。
+effect.minecraft.water_breathing.desc,Causes you to be unable to drown.,水中で溺れることができなくなります。
+forge.block_reach.desc,"How far you can interact with blocks, in blocks.",ブロックに手が届く範囲。単位はブロック
+forge.entity_gravity.desc,"Acceleration towrds the ground, in blocks/s²",地面への加速度(ブロック/秒²)。
+forge.entity_reach.desc,"How far you can interact with entities, in blocks.",どの程度離れたエンティティに働きかけられるか。単位はブロック。
+forge.name_tag_distance.desc,How far away another player must be to see your name.,別のプレイヤーがあなたの名前を見える距離。
+forge.step_height.desc,How many blocks you may step up without jumping.,ジャンプせずに自動的に上れる段差の高さ
+forge.swim_speed.desc,"How fast you swim, relative to normal.",通常と比較した水中での移動速度。
+item.modifiers.both_hands,When Held:,装備時:

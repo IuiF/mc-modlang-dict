@@ -1,0 +1,503 @@
+﻿key,source_text,target_text
+_comment,Thermal,サーマル
+block.hostilenetworks.loot_fabricator,Loot Fabricator,ルート製造機
+block.hostilenetworks.sim_chamber,Simulation Chamber,シミュレーションチャンバー
+curios.identifier.deep_learner,Deep Learner,ディープラーナー
+enchantment.level.0,0,0
+hostilenetworks.color_text.build,Build a Data Model,データモデルを構築
+hostilenetworks.color_text.failed,failed,失敗
+hostilenetworks.color_text.false,false,偽
+hostilenetworks.color_text.hud,HUD,HUD
+hostilenetworks.color_text.rclick,Right-Click,右クリック
+hostilenetworks.color_text.shift,SHIFT,SHIFT
+hostilenetworks.color_text.success,succeeded,成功
+hostilenetworks.color_text.true,true,真
+hostilenetworks.fail.energy,"Cannot begin simulation
+System energy levels critical","シミュレーション開始不可
+システムエネルギーが低下しています"
+hostilenetworks.fail.energy_mid_cycle,"Simulation progress paused
+System energy levels critical","解析の進行が一時停止しました
+システムの電力が不足しています"
+hostilenetworks.fail.input,"Cannot begin simulation
+Missing input: %s","シミュレーション開始不可
+入力がありません: %s"
+hostilenetworks.fail.output,"Cannot begin simulation
+Output buffers are occupied","シミュレーション開始不可
+出力バッファが満杯です"
+hostilenetworks.fail.redstone,"Simulation progress paused
+Incorrect redstone signal applied",シミュレーション進行が一時停止しました
+hostilenetworks.gui.accuracy,Model Accuracy: ,モデル精度:
+hostilenetworks.gui.clear,Click to clear selection,選択をクリア
+hostilenetworks.gui.cost,Model energy cost: %s FE/t,モデルエネルギーコスト: %s FE/t
+hostilenetworks.gui.data,%s/%s Data collected,%s/%s データ収集済み
+hostilenetworks.gui.energy,%s/%s FE,%s/%s FE
+hostilenetworks.gui.fab_cost,Energy cost: %s FE/t,エネルギーコスト: %s FE/t
+hostilenetworks.gui.info,Information,情報
+hostilenetworks.gui.kill,kill,討伐
+hostilenetworks.gui.kills,kills,討伐数
+hostilenetworks.gui.learner_empty.0,No Data Model Found,データモデルが見つかりません
+hostilenetworks.gui.learner_empty.1,Please insert a Data Model!,データモデルを挿入してください！
+hostilenetworks.gui.learner_empty.2,Your models will be trained,モデルはディープラーナーに配置された時に
+hostilenetworks.gui.learner_empty.3,when placed in the Deep Learner.,トレーニングされます。
+hostilenetworks.gui.learner_empty.5,In order to train the model,モデルをトレーニングするには
+hostilenetworks.gui.learner_empty.6,you must deliver the killing blow.,敵にトドメを刺す必要があります。
+hostilenetworks.gui.max_data,I am at maximum potential,最大ポテンシャルに達しました
+hostilenetworks.gui.max_tier,You cannot improve me further,これ以上改善できません
+hostilenetworks.gui.name,Name,名前
+hostilenetworks.gui.next_tier,Upgrades to ,アップグレード先:
+hostilenetworks.gui.redstone.ignored,Redstone: Ignored,レッドストーン: 無視
+hostilenetworks.gui.redstone.off_when_powered,Redstone: Off When Powered,レッドストーン: 電源時オフ
+hostilenetworks.gui.redstone.on_when_powered,Redstone: On When Powered,レッドストーン: 電源時にオン
+hostilenetworks.gui.stats,Statistics,統計
+hostilenetworks.gui.target,Sim Target: ,シミュレーション対象:
+hostilenetworks.gui.tier,Model Tier: ,モデルティア:
+hostilenetworks.gui.upgrade_disabled,Models cannot be upgraded via kills.,倒すことでモデルをアップグレードすることはできません
+hostilenetworks.gui.variant,%s (Variant),%s (バリアント)
+hostilenetworks.hud.kills,%s Remaining,%s 残り
+hostilenetworks.hud.model," Model",モデル
+hostilenetworks.info.attunment_disabled,Model attunement is disabled,モデルのアチューンメントは無効です
+hostilenetworks.info.data,Data Collected: %s,収集データ: %s
+hostilenetworks.info.disabled,(Disabled),(無効)
+hostilenetworks.info.dpk,Data Per Kill: %s,1討伐あたりのデータ: %s
+hostilenetworks.info.dprog,%s/%s,%s/%s
+hostilenetworks.info.exp,Generates Experience: %s,経験値生成: %s
+hostilenetworks.info.hold_shift,- Hold %s for more info,- %s を長押しで詳細表示
+hostilenetworks.info.looting,Looting Level: %s,略奪レベル: %s
+hostilenetworks.info.no_base_drop,No Base Drop Produced,基本ドロップなし
+hostilenetworks.info.player,Player Drops: %s,プレイヤードロップ: %s
+hostilenetworks.info.rft,%s FE/t,%s FE/t
+hostilenetworks.info.rolls,Loot Table Copies: %s,ルートテーブルコピー数: %s
+hostilenetworks.info.sim_cost,Simulation Cost: %s,シミュレーションコスト: %s
+hostilenetworks.info.sub_list,"  - %s","  - %s"
+hostilenetworks.info.subtypes,Variants:,バリアント:
+hostilenetworks.info.tier,Tier: %s,ティア: %s
+hostilenetworks.msg.built,Successfully constructed a %s Data Model,%s データモデルを正常に構築しました
+hostilenetworks.msg.multiple_models,Multiple models (%s and %s) matched the target entity. This is a modpack configuration issue.,複数のモデル (%s と %s) が対象エンティティと一致しました。これはモッドパック設定の問題です。
+hostilenetworks.msg.no_model,No known models exist for this specimen.,このサンプルに対する既知のモデルは存在しません。
+hostilenetworks.run.0,> Launching runtime ,> ランタイム起動
+hostilenetworks.run.1,> Iteration #%s started,> イテレーション #%s を開始
+hostilenetworks.run.2,> Loading model from chip memory,> チップメモリからモデルをロード
+hostilenetworks.run.3,> Assessing threat level,> 脅威レベルを評価中
+hostilenetworks.run.4,> Engaging enemy,> 敵を攻撃中
+hostilenetworks.run.5,> Sequence prediction ,> シーケンス予測
+hostilenetworks.run.6,> Processing results...,> 結果を処理中...
+hostilenetworks.tier.advanced,Advanced,高度
+hostilenetworks.tier.basic,Basic,ベーシック
+hostilenetworks.tier.faulty,Faulty,欠陥
+hostilenetworks.tier.self_aware,Self Aware,自己認識
+hostilenetworks.tier.superior,Superior,優位
+hostilenetworks.trivia.alpha_yeti,"Leader of the Yeti Tribe.
+The cave is his design.
+I wonder if he'd take a bribe,
+to let you skip the fight.","イエティ族の指導者。
+洞窟は彼の設計。
+彼が賄賂で戦いを
+スキップさせてくれるか気になる。"
+hostilenetworks.trivia.basalz,"The much bulkier cousin
+of our flammable friend.
+Bestowed with earthen strength.","私たちの可燃性の友人の
+はるかに大きいいとこ。
+大地の力を授けられている。"
+hostilenetworks.trivia.bat,"A well known fact is that
+some bats are vampiric.
+Unfortunately, it's up to you to find out which.
+Try not to die.","よく知られている事実は
+一部のコウモリが吸血鬼だということ。
+残念ながら、どちらかは
+あなたが調べる必要がある。"
+hostilenetworks.trivia.blaze,"Bring buckets and watch in despair
+as it evaporates, and everything is
+on fire. You are on fire.","バケツを持ってきて絶望しながら見守ってください
+蒸発していく様子を、そして全てが
+炎に包まれています。あなたも炎に包まれています。"
+hostilenetworks.trivia.blitz,"A wind elemental
+by another name.
+Fortunately, they lack control
+of thunder.","別の名前で呼ばれる
+風の精霊。
+幸いなことに、彼らは雷を
+コントロールできない。"
+hostilenetworks.trivia.blizz,"Take a Blaze
+and remove the heat.
+The resulting husk is
+the icy Blizz.","ブレイズから
+熱を取り除いてください。
+その結果できた殻が
+氷のブリッズです。"
+hostilenetworks.trivia.breeze,"An airy relative of the Blaze,
+Breezes can only be found
+within the confines of a Trial Chamber.","ブレイズの風通しの良い親戚であるブリーズは
+トライアルチャンバー内でのみ見ることが可能である"
+hostilenetworks.trivia.carminite_golem,"A golem without a pumpkin
+is like a castle without a king.
+This one is fueled by dark magic.
+It's quite a scary thing.","カボチャなしのゴーレムは
+王のない城のようなもの。
+これは黒魔法で動力を与えられている。
+それはかなり怖いことです。"
+hostilenetworks.trivia.chicken,"""Quack.""
+No, that's not right, try again.
+""Cluck.""
+There we go.","「クワッ。」
+いや、それは違う。もう一度試してください。
+「コッコッ。」
+それです。"
+hostilenetworks.trivia.cod,"Fish.
+
+
+Fiiiiiiish.","魚。
+
+
+フィッシュ。"
+hostilenetworks.trivia.cow,"Provides milk while alive.
+Provides meat while dead.
+The duality of cows.","生きている時は牛乳を生産。
+死んでいる時は肉を生産。
+牛の二面性。"
+hostilenetworks.trivia.creeper,"An inverse architect by trade.
+Generally misunderstood.","職業としては逆建築家。
+一般的に誤解されている。"
+hostilenetworks.trivia.death_tome,"All of those enchanted books
+that you discarded?
+This is what happens to them.
+It's your fault, really.","あなたが捨てた
+すべての魔法の本？
+これがそれらの末路です。
+あなたの責任ですよ、本当に。"
+hostilenetworks.trivia.deer,"They gaze with judgement.
+I'm not sure what you did,
+but clearly they're annoyed.","判断で見つめています。
+あなたが何をしたのか
+不明ですが、明らかに彼らは不快です。"
+hostilenetworks.trivia.drowned,"An undead man who has
+defied death again.
+Somehow he learned to use a Trident.","死をもう一度
+乗り越えた不死者。
+どういうわけか彼はトライデントを使うことを学びました。"
+hostilenetworks.trivia.elder_guardian,"The largest of the ocean
+creatures, it lives in great
+underwater monuments.","海の最大の
+生き物。偉大な
+水中の記念碑に住んでいます。"
+hostilenetworks.trivia.ender_dragon,"Lord of The End, yet keeps no hoard.
+Destroy the crystals, break the cycle.","エンドの主だが、財宝は持たない。
+結晶を破壊し、サイクルを終わらせよ。"
+hostilenetworks.trivia.enderman,"Friendly unless provoked.
+Fooled by pumpkins.
+Teleports short distances.","挑発されない限りフレンドリー。
+カボチャに騙されやすい。
+短い距離でテレポート。"
+hostilenetworks.trivia.evoker,"A powerful spellcaster.
+Knows the secrets of undeath.","強力な魔法使い。
+不死の秘密を知っている。"
+hostilenetworks.trivia.fire_beetle,"Why does the fire beetle
+get its own data model?
+It drops the same things
+as a creeper...","なぜ火甲虫は
+独自のデータモデルを
+持つのか？
+クリーパーと同じものを
+ドロップするのに..."
+hostilenetworks.trivia.ghast,"If you hear something that sounds
+like a crying llama, you're probably
+hearing a ghast.","泣いているラマのような
+音が聞こえたら、あなたは
+おそらくガストの声を
+聞いています。"
+hostilenetworks.trivia.glow_squid,"Deep in the ocean they stow.
+Blessed by a luminescent glow.
+Dare you take it as your own?","深い海の底で彼らは潜む。
+発光する光で祝福されている。
+あなたが自分のものにする
+勇気はありますか？"
+hostilenetworks.trivia.guardian,"Some sort of mutated pufferfish.
+Beware the beam attack!","何らかの変異したフグ。
+ビーム攻撃に注意！"
+hostilenetworks.trivia.helmet_crab,"When you leave helmets
+lying around on beaches,
+this is what happens.
+You get crabs.","ヘルメットをビーチに
+放置すると
+これが起こります。
+カニが発生するのです。"
+hostilenetworks.trivia.hoglin,"A Hog of incredible size.
+Lives in Hell, and can be zombified.","信じられないほどのサイズのホグ。
+地獄に住んでいてゾンビ化可能。"
+hostilenetworks.trivia.hydra,"Each head slain causes
+two to rise.
+If only you had a weapon
+of a larger size...","1つの頭を倒すと
+2つが立ち上がる。
+もしあなたがより大きなサイズの
+武器を持っていたら..."
+hostilenetworks.trivia.iron_golem,"The mind of a pumpkin,
+piloting a metal frame.
+Defends the village,
+but not quite tame.","カボチャの心が
+メタルフレームを操縦している。
+村を守るが
+かなり野性的。"
+hostilenetworks.trivia.kobold,"""You no take candle!""
+is the only phrase I've
+heard a kobold say.
+He doesn't even have one!","「ろうそくを取るな！」
+それがコボルドから聞いた
+唯一のセリフだ。
+そもそもろうそくすら持ってない！"
+hostilenetworks.trivia.lich,"A death-defying wizard.
+His protective shield is weak
+to magical damage.
+Panics once it breaks.","死を逃れた魔法使い。
+彼の防御盾は
+魔法ダメージに弱い。
+壊れると慌てふためく。"
+hostilenetworks.trivia.magma_cube,"What happens if we give lava life?
+This, this is what happens.
+That's why we don't do that.","もし溶岩に生命を与えたら？
+これです。これが起こるのです。
+だから私たちはそんなことをしないのです。"
+hostilenetworks.trivia.mimic,"A chest with a hunger.
+One you wish to plunder.
+Be careful,
+lest you be torn asunder.","飢えた宝箱。
+略奪したいと思う。
+注意してください
+さもないと四散させられます。"
+hostilenetworks.trivia.minoshroom,"Deep within the maze;
+lies a minotaur of colossal strength.
+The fungus has empowered him;
+entire cities he will raze.","迷宮の奥底に
+あり、巨大な怪力のミノタウロス。
+キノコが彼に力を与えた。
+都市全体を破壊される。"
+hostilenetworks.trivia.minotaur,"Half man, Half cow.
+Far less imposing than a centaur.
+Moooves incredibly fast.","半人半牛。
+ケンタウロスほどは
+印象的ではない。
+ムーっと信じられないほど速い。"
+hostilenetworks.trivia.mooshroom,"Is it a cow or a fungus?
+Not scary, unless you think
+about The Last of Us.","牛？それともキノコ？
+怖くはない、ただし
+ラスアスを考えると話は別。"
+hostilenetworks.trivia.naga,"This deadly serpent lives
+in his own courtyard.
+He will demolish his home
+to end your life.","この致命的な蛇は
+自分の庭に住んでいる。
+彼はあなたの命を奪うために
+自分の家を破壊するだろう。"
+hostilenetworks.trivia.phantom,"Annoying little beasts who
+insist you go to sleep.
+The Insomnia Police.","あなたに寝ることを
+強要する厄介な小さな野獣。
+不眠症の警察。"
+hostilenetworks.trivia.pig,"The pig is an interesting case.
+Worse than a cow for drops,
+and worse than a horse for riding.
+Maybe the killing is kindness...","豚は興味深いケースです。
+牛よりドロップが悪く、
+馬よりも乗れません。
+もしかして殺すのは優しさ？"
+hostilenetworks.trivia.piglich,"He resides in The Other.
+His health bar makes weak men shudder.
+Pray he doesn't utter the words:
+""Your Mother.""","彼は別世界に住んでいます。
+彼のHPバーは弱い者を震わせる。
+彼が言わないことを祈ってください：
+「お前の母さん」"
+hostilenetworks.trivia.polar_bear,"A Bear from the Pole,
+quite strange indeed.
+He is a sight to behold,
+yet he cannot read.","北極圏のクマ、
+なかなか変わった奴。
+それは見応えがありますが
+読むことはできません。"
+hostilenetworks.trivia.rabbit,"The rabbit hops and hops and hops.
+He does this even through the night.
+Never fights, unless his type is Ninety-Nine.","ウサギはぴょんぴょん跳ねます。
+彼は夜通しこれをやります。
+戦わないが、彼のタイプが99でない限り。"
+hostilenetworks.trivia.raven,"An ebony bird, full of lore.
+Quoth the Raven ""Nevermore.""","黒い鳥、知識に満ちた。
+カラスが言った「二度と来ない」"
+hostilenetworks.trivia.redcap,"Simple goblin miners.
+They just don't want to share.
+The Twilight isn't that deep,
+to be fair.","単純なゴブリン鉱夫。
+ただシェアしたくない。
+トワイライトはそこまで深くない
+まあ、正当な理由だが。"
+hostilenetworks.trivia.sheep,"Masters of color, and all things warm.
+Usually held back, unless blessed by _jeb.","色と温かいもの達人。
+通常は抑制されるが、_jebの祝福を受けると別。"
+hostilenetworks.trivia.shulker,"A reinforced, teleporting cannon.
+Makes a nice chest when slain.","強化された、テレポート砲。
+倒された時は素敵なチェストになる。"
+hostilenetworks.trivia.skeleton,"A formidable archer, but may be
+running some sort of cheat engine.
+A shield would be useful.","恐るべき弓手だが、何らかの
+チートエンジンを実行しているかもしれない。
+盾が役立つだろう。"
+hostilenetworks.trivia.skeleton_druid,"Apparently some skeletons
+figured out that golden hoes
+can channel nature magic.
+I'm disappointed that they did it first.","どうやら何人かのスケルトンが
+金のクワが自然魔法を
+チャネルできることを発見したらしい。
+先にやられたことが残念だ。"
+hostilenetworks.trivia.slime,"""A Slime Haiku""
+The bounce
+bounce his bounce
+squish","""スライムの俳句""
+バウンド
+バウンス彼のバウンス
+スクイッシュ"
+hostilenetworks.trivia.snow_golem,"The mind of a pumpkin, yet again.
+He probably couldn't count to ten.","またもやカボチャの心。
+おそらく10まで数えられない。"
+hostilenetworks.trivia.snow_queen,"Atop a frozen castle
+is a frozen queen.
+She wishes never to be seen.","凍った城の頂上に
+いる凍った女王。
+二度と見られたくないと願っている。"
+hostilenetworks.trivia.spider,"Nocturnal douchebags.
+Drops strands of string for some reason.","夜行性のろくでなし。
+なぜか糸をドロップする。"
+hostilenetworks.trivia.squid,"Found in water, aimlessly so.
+Drifts around without a goal.
+Some wish they would just go.","水中で目的なくいる。
+目標なくあてもなく漂う。
+ただ去ってくれたらいいと思う者も多い。"
+hostilenetworks.trivia.towerwood_borer,"What happens when you cross
+termintes with carminite?
+You get these little bastards.
+They can eat towerwood!","シロアリとカルマナイトを
+ミックスするとどうなるか？
+こいつらができる。
+タワーウッドを食べることができる！"
+hostilenetworks.trivia.troll,Trolololololololo...,トロロロロロロロロ...
+hostilenetworks.trivia.twilight_giant,"Sky-dwellers.
+They reflect our universe,
+four times larger.
+Perhaps you could ask for a pickaxe.","空の住人。
+私たちの宇宙を反映している
+4倍大きい。
+ツルハシをくれと言えるかもね。"
+hostilenetworks.trivia.twilight_goblin,"Small folk, adorned with
+the metal of knights.
+How they got it
+is beyond my knowledge.","騎士の金属で装飾された
+小さな民族。
+それを手に入れた方法は
+私の知識を超えている。"
+hostilenetworks.trivia.twilight_ice,"The Snow Queen went through
+a great deal of effort to
+bring ice to life.
+The failed experiments still wander around.","雪の女王は大変な
+努力をして
+氷に生命を与えた。
+失敗した実験はまださまよっている。"
+hostilenetworks.trivia.twilight_wraith,"The specter of a long-dead king.
+Seeks to prevent you from taking
+his things.","長く死んだ王の幽霊。
+あなたが彼の物を持つのを
+防ぎたいと思っている。"
+hostilenetworks.trivia.ur_ghast,"Quite possibly the largest
+specimen I have ever seen.
+Could you hope to slay it?","おそらく私が見た中で
+最大のサンプル。
+あなたはそれを倒すことを
+望むことができるでしょうか？"
+hostilenetworks.trivia.vindicator,"An axe-wielding maniac.
+Probably advisable to keep a
+safe distance.","斧を振るう狂人。
+おそらく安全な距離を
+保つことが賢明。"
+hostilenetworks.trivia.warden,"The slumbering lord of
+an Ancient City.
+He cannot see,
+but he does not need to.","古い都市の
+眠るしもべ。
+彼は見ることはできませんが
+見る必要はありません。"
+hostilenetworks.trivia.winter_wolf,"Pack hunters who thrive
+in the snow.
+Surprisingly, they have the same fur
+as a Yeti.","雪の中で繁栄する
+パック狩人。
+驚くべきことに、彼らはイエティと
+同じ毛皮を持っている。"
+hostilenetworks.trivia.witch,"Affinity with potions and concoctions.
+Maybe you should develop an antidote.","ポーション作成と調合に親和性あり。
+解毒剤を開発した方がいいかも。"
+hostilenetworks.trivia.wither,"Do not approach this enemy, run!
+I mean it has 3 heads, what could
+possibly go wrong?","この敵に近づくな、逃げろ！
+つまり、3つの頭があるんだが、何が問題なの？"
+hostilenetworks.trivia.wither_skeleton,"A charred skeleton.
+Its bow did not survive the process.
+Hunted for their skulls.","焦げたスケルトン。
+弓はプロセスで壊れた。
+頭蓋骨を求めて狩られている。"
+hostilenetworks.trivia.yeti,"A lame, normal Yeti.
+Wishes he was cool, like
+the Alpha Yeti.","つまらない普通のイエティ。
+アルファイエティのように
+クールになりたいと願っている。"
+hostilenetworks.trivia.zombie,"They moan in the moonlight.
+Does not understand the need
+for personal space.","月明かりの中で呻く。
+個人的なスペースの
+必要性を理解しない。"
+hostilenetworks.trivia.zombified_piglin,"A poor nether-dweller turned
+into a zombie. Has a lot of gold, though.","ネザーの貧しい住人が
+ゾンビに変わった。
+でも、たくさんの金を持っている。"
+item.hostilenetworks.blank_data_model,Model Framework,モデルフレームワーク
+item.hostilenetworks.data_model,%s Data Model,%s データモデル
+item.hostilenetworks.deep_learner,Deep Learner,ディープラーナー
+item.hostilenetworks.end_prediction,Generalized Ender Prediction,一般化エンダー予測
+item.hostilenetworks.fab_directive,Fabrication Directive,製造指令
+item.hostilenetworks.fab_directive.desc,Stores selections from a Loot Fabricator,Loot Fabricator の選択内容を保存
+item.hostilenetworks.fab_directive.desc2,"Right-Click to copy, Shift-Right-Click to apply",コピーするには右クリック、適用するにはシフト＋右クリック
+item.hostilenetworks.nether_prediction,Generalized Nether Prediction,一般化ネザー予測
+item.hostilenetworks.overworld_prediction,Generalized Overworld Prediction,一般化オーバーワールド予測
+item.hostilenetworks.prediction,%s Prediction,%s 予測
+item.hostilenetworks.prediction_matrix,Prediction Matrix,予測マトリックス
+item.hostilenetworks.twilight_prediction,Generalized Twilight Prediction,一般化トワイライト予測
+itemGroup.hostilenetworks,Hostile Neural Networks,敵性ニューラルネットワーク
+key.categories.hostilenetworks,Hostile Neural Networks,敵性ニューラルネットワーク
+key.hostilenetworks.open_deep_learner,Open Deep Learner Curio,キュリオスロットの深層学習機を開く
+name.hostilenetworks.ars_wilden,Wilden,ウィルデン
+name.hostilenetworks.twilight_giant,Twilight Giant,トワイライト ジャイアント
+name.hostilenetworks.twilight_goblin,Twilight Goblin,トワイライト ゴブリン
+name.hostilenetworks.twilight_ice,Twilight Ice Elemental,トワイライト アイス エレメンタル
+text.hostilenetworks.invalid_selection.index,Errored Selection: Invalid Index (%s),エラーが発生しました: 無効なインデックス (%s)
+text.hostilenetworks.invalid_selection.model,Errored Selection: Unrecognized Model (%s),選択エラー：認識できないモデル（%s）
+text.hostilenetworks.scroll,[scroll],[スクリール]
+text.hostilenetworks.selection,%s -> %s %s,%s -> %s %s
+text.hostilenetworks.selections_applied,Applied %s selections from %s,%s から %s の選択を適用する
+text.hostilenetworks.selections_copied,Copied %s selections from %s,%s から %s の選択範囲をコピーしました
+text.hostilenetworks.shift,[shift],[シフト]
+text.hostilenetworks.stored_selection,Stored Selection %s/%s,選択済み %s/%s
+hostilenetworks.fail.faulty,"Insufficient data in model
+please insert a basic model
+or better","モデルのデータが不足しています
+基本モデル以上を挿入してください"
+hostilenetworks.fail.model,"Please insert a Data Model
+to begin the simulation","シミュレーションを開始するには
+データモデルを挿入してください"
+hostilenetworks.gui.next_tier2," in %s ",%s 内
+hostilenetworks.info.click_to_attune,%s on an entity to %s.,%s を敵に対して %s。
+hostilenetworks.info.deep_learner,Displays a %s when held and models are within,所持時にモデルが範囲内にあると %s を表示
+hostilenetworks.info.dl_contains,Contains the following models,以下のモデルを含む
+item.hostilenetworks.empty_prediction,Prediction Matrix,予測マトリックス
+hostilenetworks.trivia.ars_wilden,"Protectors of The Wilds.
+Their form depends on their home.
+Oh, and one of them
+can summon wolves.","ワイルドの保護者。
+その姿は居場所に依存する。
+そういえば、彼らの一人は
+オオカミを召喚できる。"

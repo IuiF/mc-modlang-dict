@@ -1,0 +1,74 @@
+﻿key,source_text,target_text
+iris.keybind.reload,Reload Shaders,シェーダーを再読み込み
+iris.keybind.shaderPackSelection,Shaderpack Selection Screen,シェーダーパック選択画面
+iris.keybind.toggleShaders,Toggle Shaders,シェーダーを切り替え
+iris.keybind.wireframe,Wireframe (SP only),ワイヤーフレーム(シングルプレイのみ)
+iris.keybinds,Oculus,オキュラス
+iris.load.failure.generic,Oculus encountered an issue trying to load the shader; please report this to Oculus developers. ,Oculus はシェーダーの読み込み中に問題に遭遇しました。Oculus 開発者へ報告してください。
+iris.load.failure.shader,The shaderpack failed to load! Please report the error to the shader developer. ,シェーダーパックの読み込みに失敗しました！エラーをシェーダー開発者へ報告してください。
+iris.nec.failure.title,[%s] Not Enough Crashes detected!,[%s] Not Enough Crashesが検出されました！
+iris.shaders.debug.disabled,Debugging has been disabled.,デバッグが無効になりました。
+iris.shaders.debug.enabled,"Debugging has been enabled, debug logging will be more verbose!",デバッグが有効になりました。デバッグログに詳細情報が表示されます。
+iris.shaders.debug.failure,"Cannot enable debugging, your computer does not support debug features.",お使いのコンピューターはデバッグ機能に対応していないため、デバッグを有効にできません。
+iris.shaders.disabled,Shaders disabled!,シェーダーを無効化しました！
+iris.shaders.reloaded,Shaders Reloaded!,シェーダーを再読み込みしました！
+iris.shaders.reloaded.failure,Failed to reload shaders! Reason: %s,シェーダーの再読み込みに失敗しました！ 理由: %s
+iris.shaders.ssbofailure,"The shader requested a specific feature (SSBO) that is not supported by your GPU, it may not work correctly.",シェーダーは特定の機能(SSBO)を要求していますが、お使いのGPUはこれをサポートしていません。正しく機能しない可能性があります。
+iris.shaders.toggled,Toggled shaders to %s!,シェーダーを %s に切り替えました！
+iris.shaders.toggled.failure,Failed to toggle shaders! Reason: %s,シェーダーの切り替えに失敗しました！ 理由: %s
+iris.sodium.failure.download,Download Rubidium,Rubidiumをダウンロード
+iris.sodium.failure.reason.incompatible,"Oculus requires Rubidium for good performance, but an incompatible version was found. Please download the correct version of Rubidium, place it in your mods folder, remove the incorrect version, and re-launch the game.",互換性のないバージョンのRubidiumが検出されました。 対応しているバージョンのRubidiumをダウンロードし、modsフォルダーに導入してから、ゲームを再起動してください。
+iris.sodium.failure.reason.notFound,"Oculus requires Rubidium for good performance, but Rubidium is not installed. Please download Rubidium, place it in your mods folder, and re-launch the game.",パフォーマンス向上のため、Oculusを使用するにはRubidiumが必要です。 Rubidiumをダウンロードし、modsフォルダーに導入してから、ゲームを再起動してください。
+iris.sodium.failure.title,Oculus failed to load!,Oculusの読み込みに失敗しました！
+iris.unsupported.iris,Oculus,オキュラス
+iris.unsupported.irisorpc,Oculus or your PC,Oculusまたはお使いのコンピューター
+iris.unsupported.pack,Shaderpack incompatible!,シェーダーパックが非対応です！
+iris.unsupported.pack.description,The shaderpack you are trying to load contains features unsupported by %s. Please try another pack. List %s,読み込もうとしているシェーダーパックには、%sで非対応の機能が含まれています。 他のシェーダーパックをご使用ください。 非対応の機能: %s
+iris.unsupported.pack.macos,"
+macOS is known to have issues with many shader packs.","
+macOS is known to have issues with many shader packs."
+iris.unsupported.pc,your PC,お使いのコンピューター
+label.iris.false,Off,オフ
+label.iris.true,On,オン
+options.iris.apply,Apply,適用
+options.iris.back,Back,戻る
+options.iris.colorSpace,Color Space,色空間
+options.iris.colorSpace.sodium_tooltip,The color space to transform the screen to. Works on top of shader packs.,画面を変換する色空間。シェーダーパックの上で機能します。不明な場合はSRGBを使用してください。
+options.iris.exportSettings.tooltip,Export applied settings to file,設定をファイルへエクスポート
+options.iris.gui.hide,Hide GUI,GUIを非表示
+options.iris.gui.show,Show GUI,GUIを表示
+options.iris.importSettings.tooltip,Import settings from file,ファイルから設定をインポート
+options.iris.mustDisableFullscreen,Please disable fullscreen first!,フルスクリーンを解除してください！
+options.iris.openShaderPackFolder,Open Shader Pack Folder...,パックフォルダーを開く...
+options.iris.profile,Profile,プロファイル
+options.iris.profile.custom,Custom,カスタム
+options.iris.refresh,Refresh,再読み込み
+options.iris.refreshShaderPacks,Refresh Shader Packs,シェーダーの更新
+options.iris.reset,Reset,リセット
+options.iris.reset.tooltip,Reset ALL options and apply?,全ての設定をリセットしますか？
+options.iris.reset.tooltip.holdShift,Hold SHIFT and click to reset,Shiftキーを押しながらクリックでリセット
+options.iris.setToDefault,Set option to default value?,この設定をリセットしますか？
+options.iris.shaderPackList,Shader Pack List...,シェーダー一覧...
+options.iris.shaderPackOptions.failedImport,"Failed to import Shader Settings file ""%s""",シェーダー設定ファイル「%s」のインポートに失敗しました！
+options.iris.shaderPackOptions.importedSettings,"Imported Shader Settings from ""%s""",シェーダー設定を「%s」からインポートしました。
+options.iris.shaderPackOptions.tooManyFiles,Cannot import multiple Shader Settings files!,シェーダー設定ファイルは複数個インポートできません！
+options.iris.shaderPackSelection,Shader Packs...,シェーダーパック...
+options.iris.shaderPackSelection.addedPack,"Added Shader Pack ""%s""",シェーダー「%s」を追加しました
+options.iris.shaderPackSelection.addedPacks,Added %s Shader Packs,%s個のシェーダーを追加しました。
+options.iris.shaderPackSelection.copyError,"Could not add Shader Pack ""%s""",シェーダー「%s」を追加できませんでした
+options.iris.shaderPackSelection.copyErrorAlreadyExists,"""%s"" is already in your Shader Packs folder!",「%s」は既にパックフォルダーに存在します！
+options.iris.shaderPackSelection.failedAdd,Files were not valid Shader Packs,無効なファイルです
+options.iris.shaderPackSelection.failedAddSingle,"""%s"" is not a valid Shader Pack",「%s」は無効なシェーダーです。
+options.iris.shaderPackSelection.title,Shader Packs,シェーダーパック
+options.iris.shaderPackSettings,Shader Pack Settings...,シェーダーの設定...
+options.iris.shaders.disabled,Shaders: Disabled,シェーダー: OFF
+options.iris.shaders.enabled,Shaders: Enabled,シェーダー: ON
+options.iris.shaders.nonePresent,Shaders: No Packs Present,シェーダー: 未選択
+options.iris.shadowDistance,Max Shadow Distance,影の最大描画距離
+options.iris.shadowDistance.disabled,Your current shader pack has already set a render distance for shadows; you cannot change it.,お使いのシェーダーパックでは既に最大描画距離が設定されているため、ここでは変更できません。
+options.iris.shadowDistance.enabled,Allows you to change the maximum distance for shadows. Terrain and entities beyond this distance will not cast shadows. Lowering the shadow distance can significantly increase performance.,影が描画される最大の距離を設定できます。 指定された値より遠くの地形やエンティティには影が描画されません。 最大描画距離を下げることで、パフォーマンスが向上することがあります。
+options.iris.shadowDistance.sodium_tooltip,"The shadow render distance controls how far away terrain can potentially be rendered in the shadow pass. Lower distances mean that less terrain will be rendered, improving frame rates. This option cannot be changed on packs which explicitly specify a shadow render distance. The actual shadow render distance is capped by the View Distance setting.",影のレンダー距離は、影パスでテレインがどこまでレンダリングされるかを制御します。距離が短いほど、レンダリングされるテレインが少なくなり、フレームレートが向上します。影のレンダー距離を明示的に指定するパックではこのオプションを変更できません。実際の影のレンダー距離は視距離の設定によって制限されます。
+pack.iris.configure.title,Configure,設定
+pack.iris.list.label,+ Drag and Drop Shader Packs to add,+ ドラッグアンドドロップでシェーダーを追加
+pack.iris.select.title,Select,選択
+iris.shaders.debug.restart,"You do not have a debug context, please restart to enable debugging.",デバッグコンテキストがありません。 デバッグを有効にするには、ゲームを再起動してください。

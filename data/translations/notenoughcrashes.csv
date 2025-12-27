@@ -1,0 +1,42 @@
+﻿key,source_text,target_text
+notenoughcrashes.crashscreen.identificationErrored,"[Error identifying, report to Not Enough Crashes]",[識別エラー、Not Enough Crashes に報告してください]
+notenoughcrashes.crashscreen.noModsErrored,No Mods. (A mod could still be indirectly causing the crash.),特定されているModはありません。(Modが間接的にクラッシュを引き起こしている可能性があります。)
+notenoughcrashes.crashscreen.paragraph1.line1,The following mod(s) have been identified as potential causes:,以下のMODが潜在的な原因として特定されています:
+notenoughcrashes.crashscreen.paragraph2.line1,Click any mod in the list to go to their website for support. A,リスト内のいずれかのMODをクリックすると、サポートのウェブサイトに移動します。
+notenoughcrashes.crashscreen.paragraph2.line2,"report has been generated, and can be found here (click):",レポートが作成されました。こちらからご覧いただけます(クリック):
+notenoughcrashes.crashscreen.paragraph3.line1,"Click the ""Get link"" button to open it in your browser. You're",「リンクを取得」ボタンをクリックしてブラウザで開きます。
+notenoughcrashes.crashscreen.paragraph3.line2,encouraged to send this report to the mod's author to help,このレポートをModの作者に送って助けてもらうことをお勧めします
+notenoughcrashes.crashscreen.paragraph3.line3,"them fix the issue. Since Not Enough Crashes is installed, you can",問題を解決してください。Not Enough Crashesがインストールされているので、
+notenoughcrashes.crashscreen.paragraph3.line4,keep playing despite the crash.,クラッシュにもかかわらずプレイを続けることができます。
+notenoughcrashes.crashscreen.reportSaveFailed,"[Error saving report, see log]",[レポートの保存中にエラーが発生しました。ログを参照してください。]
+notenoughcrashes.crashscreen.summary,Minecraft ran into a problem and crashed.,Minecraftに問題が発生してクラッシュしました。
+notenoughcrashes.crashscreen.title,Minecraft crashed!,Minecraftがクラッシュしました！
+notenoughcrashes.crashscreen.unknownCause,Unknown,不明
+notenoughcrashes.gui.disabledByConfig,Disabled by config,設定により無効
+notenoughcrashes.gui.failed,"[Failed, Report to NEC]",[失敗しました。NECに報告してください。]
+notenoughcrashes.gui.keepPlaying,Keep playing,プレイを続ける
+notenoughcrashes.gui.loadingCrashyUpload,Uploading...,アップロードしています...
+notenoughcrashes.gui.restart,Restart Minecraft,Minecraftを再起動
+notenoughcrashes.initerrorscreen.paragraph3.line1,"Click the ""Get link"" button to open it in your browser. You're",「リンクを取得」ボタンをクリックしてブラウザで開きます。
+notenoughcrashes.initerrorscreen.paragraph3.line2,encouraged to send this report to the mod's author to help,このレポートをModの作者に送って助けてもらうことをお勧めします
+notenoughcrashes.initerrorscreen.paragraph3.line3,"them fix the issue. Unfortunately, it is not possible to keep",問題を解決してください。残念ながら、
+notenoughcrashes.initerrorscreen.paragraph3.line4,loading Minecraft due to this error.,このエラーのためMinecraftをロードできません。
+notenoughcrashes.initerrorscreen.summary,An error during startup prevented Minecraft from starting,起動中にエラーが発生したため、Minecraftが起動できませんでした
+notenoughcrashes.initerrorscreen.title,Minecraft failed to start!,Minecraftの起動に失敗しました!
+notenoughcrashes.gui.getLink,Show crash log (old),クラッシュログを表示
+notenoughcrashes.gui.uploadToCrashy,Show crash log,Crashyにアップロード
+notenoughcrashes.midnightconfig.catchGameloop,Catch Gameplay Crashes,ゲームプレイのクラッシュをキャッチ
+notenoughcrashes.midnightconfig.catchGameloopComment1,"If false, NEC won't attempt to prevent the game from closing when it crashes.",falseの場合、NECはクラッシュ時にゲームが終了するのを防止しようとしません。
+notenoughcrashes.midnightconfig.catchGameloopComment2,This will be always disabled (even if the config is set to true) when Iris is installed.,Irisがインストールされている場合、これは常に無効になります(構成がtrueに設定されている場合でも)。
+notenoughcrashes.midnightconfig.catchInitializationCrashes,Catch Initialization Crashes,初期化クラッシュをキャッチする
+notenoughcrashes.midnightconfig.catchInitializationCrashesComment1,"(Fabric Only) If false, the game will close normally when it fails to initialize,",(Fabricのみ) falseの場合、初期化に失敗するとゲームは通常通り終了します。
+notenoughcrashes.midnightconfig.catchInitializationCrashesComment2,and will not display a special crash screen.,特別なクラッシュ画面は表示されません。
+notenoughcrashes.midnightconfig.catchInitializationCrashesComment3,This will be always disabled (even if true) when certain mods are installed.,特定のModがインストールされている場合、これは常に無効になります(trueであっても)。
+notenoughcrashes.midnightconfig.crashLimit,Crash Limit,クラッシュ限界
+notenoughcrashes.midnightconfig.crashLimitComment,How many times NEC will try to prevent the game from closing in one session.,NECが1回のセッションでゲームが終了するのを何回阻止しようとするか。
+notenoughcrashes.midnightconfig.debugModIdentification,Debug Mod Identification,デバッグModの識別
+notenoughcrashes.midnightconfig.debugModIdentificationComment,"If true, additional info will be logged for the mod developer.",trueの場合、Mod開発者用の追加情報が記録されます。
+notenoughcrashes.midnightconfig.disableReturnToMainMenu,Disable Return To Main Menu,メインメニューに戻る機能を無効にする
+notenoughcrashes.midnightconfig.disableReturnToMainMenuComment1,"If true, the ""Return To Main Menu"" button will be disabled when crashing,",trueの場合、クラッシュ時に「メインメニューに戻る」ボタンが無効になります。
+notenoughcrashes.midnightconfig.disableReturnToMainMenuComment2,meaning you cannot recover from a crash.,つまり、クラッシュから回復することはできません。
+notenoughcrashes.midnightconfig.title,Not Enough Crashes Configuration,Not Enough Crashes設定

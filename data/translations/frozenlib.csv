@@ -1,0 +1,118 @@
+﻿key,source_text,target_text
+cape.frozenlib.dummy,§cNone,§cなし
+cape.frozenlib.invalid,§cINVALID,§c無効
+commands.frozenlib.taglist.footer,Listed %s tags in %s.,%sタグを%sにリスト表示。
+commands.frozenlib.taglist.tag.invalid,Invalid tag: %s,無効なタグ: %s
+commands.frozenlib_config.reload.multiple,Reloaded %s configs from %s.,%s の設定を %s から再読み込みしました。
+commands.frozenlib_config.reload.single,Reloaded 1 config from %s.,%sから1つの設定を再読み込みしました。
+commands.screenshake.entity.success,"Created screen shake appended to %swith intensity %s, duration %s, falloff start %s, and distance %s.",スクリーンシェイクが %s に追加されました。強度 %s、時間 %s、フォールオフ開始 %s、距離 %s。
+commands.screenshake.player.success,"Sent screen shake to %sat %s, %s, %s, with intensity %s, duration %s, falloff start %s, and distance %s.","%s にスクリーンシェイクを送信しました。位置 %s, %s, %s、強度 %s、時間 %s、フォールオフ開始 %s、距離 %s。"
+commands.screenshake.remove.entity.failure,Could not find entities with screen shakes.,画面揺れを伴うエンティティが見つかりませんでした。
+commands.screenshake.remove.entity.success,Removed screen shakes from entity %s.,エンティティ %s からの画面揺れを削除しました。
+commands.screenshake.remove.entity.success.multiple,Entities %shave had their screen shakes removed.,エンティティ %shave の画面揺れが削除されました。
+commands.screenshake.remove.player.success,Removed screen shakes for %s.,%s の画面揺れを削除しました。
+commands.screenshake.remove.player.success.multiple,Players %shave had their screen shakes removed.,プレイヤー%sの画面揺れが解除されました。
+commands.screenshake.success,"Created screen shake at %s, %s, %s, with intensity %s, duration %s, falloff start %s, and distance %s.","位置 %s, %s, %s にスクリーンシェイクを作成しました。強度 %s、時間 %s、フォールオフ開始 %s、距離 %s。"
+commands.structure_upgrade.failure,No structure pieces found for %s.,%s の構造パーツが見つかりませんでした。
+commands.structure_upgrade.success,Upgraded and saved %s structure pieces for %s.,%s構造ピースをアップグレードして保存しました (%s)。
+commands.warden_spawn_tracker.clear.success.multiple,Cleared warden spawn warnings from %s players,%s プレイヤーからワーディン生成警告をクリアしました
+commands.warden_spawn_tracker.clear.success.single,Cleared warden spawn warnings from %s,%s からのワーデンスパウン警告をクリアしました
+commands.warden_spawn_tracker.set.success.multiple,Set warden spawn warning %s to %s players,ウォーデンスポーン警告 %s を %s プレイヤーへ設定
+commands.warden_spawn_tracker.set.success.single,Set warden spawn warning %s to %s,ウォーデンのスポーン警告 %s を %s に設定
+commands.wind.display.global.success,"The global wind is currently: %.6f, %.6f, %.6f.","現在のグローバル風速: %.6f, %.6f, %.6f。"
+commands.wind.display.pos.success,"The wind at %.6f, %.6f, %.6f currently: %.6f, %.6f, %.6f.","風速 at %.6f, %.6f, %.6f 現在: %.6f, %.6f, %.6f。"
+commands.wind.success,"Set wind to %.6f, %.6f, %.6f.","風を %.6f, %.6f, %.6f に設定"
+commands.wind.toggle.failure,Wind override is already %s.,風の上書きはすでに %s です。
+commands.wind.toggle.success,%s wind override.,%s 風の上書き
+debug.bee,Bee,ミツバチ
+debug.brain,Brain,脳
+debug.breeze,Breeze,そよ風
+debug.chunk_status,Chunk Status,チャンクの状態
+debug.collision,Block Collision,ブロック衝突
+debug.game_event,Game Events,ゲームイベント
+debug.goal,Goal,目標
+debug.heightmap,Heightmaps,高さマップ
+debug.light,Light,光
+debug.neighbor_update,Neighbor Updates,隣接ブロック更新
+debug.pathfinding,Pathfinding,移動経路探索
+debug.raid,Raid,レイド
+debug.sky_light,Sky Light,空の光
+debug.solid_face,Solid Block Faces,固体ブロック面
+debug.structure,Structures,構造物
+debug.support_block,Supporting Blocks,支持ブロック
+debug.village_sections,Village Sections,村のセクション
+debug.water_level,Water Level,水のレベル
+debug.wind,Wind,ウィンドチャージ
+debug.wind_disturbance,Wind Disturbance,風の乱れ
+frozenlib.config.discard,Discard changes,変更を破棄
+frozenlib.config.save,Save changes,変更を保存
+frozenlib.core.registry_sync.and," and ",と
+frozenlib.core.registry_sync.main_mod_protocol,You are on %s with protocol version of %s.,%s 上におり、プロトコルバージョンは %s です。
+frozenlib.core.registry_sync.more,%s more...,%s 以上...
+frozenlib.core.registry_sync.require_main_mod_protocol,This server requires %s with protocol version of %s.,このサーバーは %s が必要です。プロトコルバージョンは %s です。
+frozenlib.core.registry_sync.unsupported_mod_protocol,"Unsupported mod protocol versions for:
+%s",サポートされていないモッドプロトコルバージョン:
+frozenlib.loot_table_whacker.fail.no_colon,Invalid ResourceLocation: No : present!,無効なResourceLocation：コロンがありません！
+frozenlib.loot_table_whacker.fail.no_loot_table,Loot table does not exist: %s,ロットテーブルが存在しません: %s
+frozenlib.loot_table_whacker.fail.no_name,Loot Table Whacker has not been named!,ルートテーブル・ワッカーに名前が付けられていません！
+frozenlib.loot_table_whacker.success,Set loot table to: %s,ドロップテーブルを: %sに設定
+menu.frozenlib.debug,Debug Options,デバッグオプション
+option.frozenlib.cape,Cape,マント
+option.frozenlib.component.title,FrozenLib Options,フローズンライブラリオプション
+option.frozenlib.config,FrozenLib Config,FrozenLib 設定
+option.frozenlib.datafixer,DataFixer,データファイジャー
+option.frozenlib.disabled_datafix_types,Disabled DataFix Types,無効化されたDataFixタイプ
+option.frozenlib.false,§cDisabled,§c無効
+option.frozenlib.file_transfer_client,Client File Transfer,クライアントファイル転送
+option.frozenlib.file_transfer_server,Server Receives Files,サーバーがファイルを受信
+option.frozenlib.is_debug,Debug Mode,デバッグモード
+option.frozenlib.remove_experimental_warning,Remove Experimental Warning,実験的警告を削除
+option.frozenlib.remove_experimental_warning.false,§cOFF,§cオフ
+option.frozenlib.remove_experimental_warning.true,§aON,§aON
+option.frozenlib.save_item_cooldowns,Save Item Cooldowns,アイテムの冷却時間の保存
+option.frozenlib.save_item_cooldowns.false,§cOFF,§cオフ
+option.frozenlib.save_item_cooldowns.true,§aON,§aON
+option.frozenlib.true,§aEnabled,§a有効
+option.frozenlib.use_wind_on_non_frozenlib_servers,Wind On Non-FrozenLib Servers,非凍結ライブラリサーバーでの風
+option.frozenlib.use_wind_on_non_frozenlib_servers.false,§cOFF,§cオフ
+option.frozenlib.use_wind_on_non_frozenlib_servers.true,§aON,§aON
+option.frozenlib.warden_spawn_tracker_command,Warden Spawn Tracker Command,ワーデンスパウントレーカー コマンド
+option.frozenlib.warden_spawn_tracker_command.false,§cOFF,§cオフ
+option.frozenlib.warden_spawn_tracker_command.true,§aON,§aON
+tooltip.frozenlib.cape,"A list of capes added through FrozenLib.
+Click to select the next cape.",FrozenLib を通じて追加されたケープのリストです。
+tooltip.frozenlib.datafixer,Contains options for DataFixers,DataFixers のオプションを含みます。
+tooltip.frozenlib.entry_sync_notice,Entry will sync with all clients.,エントリはすべてのクライアントと同期します。
+tooltip.frozenlib.file_transfer_client,"Whether the client can send/receive files to/from the server.
+This is intended to be used for features such as sharing screenshots.
+This config is implemented for the sake of security.","クライアントがサーバーとの間でファイルを送受信できるかどうか。
+スクリーンショット共有などの機能に使用されることを想定しています。
+セキュリティのために実装されています。"
+tooltip.frozenlib.file_transfer_server,Whether the server can receive files from clients.,サーバがクライアントからファイルを受信できるかどうか
+tooltip.frozenlib.is_debug,"Whether debug mode is enabled.
+This only shows up in development environments.",デバッグモードが有効かどうか。
+tooltip.frozenlib.locked_due_to_server,"Entry cannot be modified while connected to this server.
+Requires operator permissions to modify.
+You can leave the server to modify this entry, and rejoin afterwards.","このサーバーに接続中はエントリを変更できません。
+変更するにはオペレーター権限が必要です。
+サーバーを退出してこのエントリを変更してから、再参加できます。"
+tooltip.frozenlib.locked_due_to_server_lan,"Entry cannot be modified while connected to this world.
+Must be host or have operator permissions to modify.
+You can leave the world to modify this entry, and rejoin afterwards.","このワールドに接続中はエントリを変更できません。
+変更するにはホストまたはオペレーター権限が必要です。
+ワールドを退出してこのエントリを変更してから、再参加できます。"
+tooltip.frozenlib.locked_due_to_sync,"Entry is overriden by this server.
+Requires operator permissions to modify.",エントリはこのサーバーによって上書きされています
+tooltip.frozenlib.locked_due_to_sync_lan,"Entry is overriden by this world.
+Must be host or have operator permissions to modify.",エントリはこのワールドによって上書きされます。
+tooltip.frozenlib.locked_due_to_unknown_reason,"Entry cannot be modified for an unknown reason.
+Please submit an issue report for this mod.",理由不明でエントリは変更できません。
+tooltip.frozenlib.remove_experimental_warning,Whether or not the Experimental Features warning can show on world creation.,Experimental Features 警告がワールド作成時に表示できるかどうか
+tooltip.frozenlib.save_item_cooldowns,"Whether or not item cooldowns will save instead of being
+cleared upon switching dimensions or rejoining a world.",ディメンション切り替え時またはワールド再参加時に、アイテムのクールダウンがクリアされず保存されるかどうか。
+tooltip.frozenlib.use_wind_on_non_frozenlib_servers,"When disabled, the client won't use wind on servers that
+don't have FrozenLib installed.
+When enabled, the client will generate a random seed to use
+for wind on servers that don't have FrozenLib installed.","無効の場合、クライアントはFrozenLibがインストールされていないサーバーで風を使用しません。
+有効の場合、クライアントはFrozenLibがインストールされていないサーバーで風に使用するランダムシードを生成します。"
+tooltip.frozenlib.warden_spawn_tracker_command,Enables or disables the Warden Spawn Tracker command.,ウォーデンスポーントラッカーコマンドを有効/無効にします

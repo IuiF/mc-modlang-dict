@@ -1,0 +1,141 @@
+﻿key,source_text,target_text
+key.categories.mousewheelie,Mouse Wheelie,マウスホイール
+key.mousewheelie.all_of_kind_modifier,All of Kind Modifier,全種類修飾子
+key.mousewheelie.deposit_modifier,Deposit Modifier,入金修飾子
+key.mousewheelie.drop_modifier,Drop Modifier,ドロップ修飾子
+key.mousewheelie.open_config_screen,Open Config Screen,設定画面を開く
+key.mousewheelie.pick_tool,Pick the correct tool,正しいツールを選択
+key.mousewheelie.restock_modifier,Restock Modifier,再補充修飾子
+key.mousewheelie.scroll_down,Scroll Items Down,アイテムを下へスクロール
+key.mousewheelie.scroll_up,Scroll Items Up,アイテムを上へスクロール
+key.mousewheelie.sort_inventory,Sort Inventory,インベントリの整理
+key.mousewheelie.whole_stack_modifier,Whole Stack Modifier,スタック全体修飾子
+mousewheelie.gui.config-screen-unavailable,Opening the config screen with the keybinding is currently unavailable.,キー設定でコンフィグ画面を開くことは現在できません
+mousewheelie.gui.config-screen-unavailable.note,Please use Mod Menu to edit the config or use an external application to edit the config directly.,Mod Menu を使用して設定を編集するか、外部アプリケーションで直接設定を編集してください。
+mousewheelie.sortmode.alphabet,By Alphabet,アルファベットによる
+mousewheelie.sortmode.creative,Creative Search,クリエイティブ検索
+mousewheelie.sortmode.none,Don't Sort,並べ替えしない
+mousewheelie.sortmode.quantity,By Quantity,数量による
+mousewheelie.sortmode.raw_id,By Raw Id,生のIDで
+tweed4_tailor_screen.screen.mousewheelie,Mouse Wheelie Config,マウスホイール設定
+tweed4_tailor_screen.screen.mousewheelie.general,General,一般
+tweed4_tailor_screen.screen.mousewheelie.general.better-fast-dragging,Better fast dragging,高速ドラッグ改善
+tweed4_tailor_screen.screen.mousewheelie.general.better-fast-dragging.description,"This helps when you regularly move your mouse faster than the game can pick up.
+This will impact performance though.",マウスを定期的にゲームが追跡できるより早く動かすときに便利です。ただし、パフォーマンスに影響します。
+tweed4_tailor_screen.screen.mousewheelie.general.enable-bundle-dragging,Enable Bundle dragging,バインダーのドラッグを有効化
+tweed4_tailor_screen.screen.mousewheelie.general.enable-bundle-dragging.description,Enable clicking and dragging the bundle in the inventory to easily put in or out multiple stacks.,インベントリでバンドルをクリック＆ドラッグして、複数スタックを簡単に入れたり出したりできるようにする。
+tweed4_tailor_screen.screen.mousewheelie.general.enable-drop-modifier,Drop with Alt+Click,Alt+クリックでドロップ
+tweed4_tailor_screen.screen.mousewheelie.general.enable-drop-modifier.description,"Enables dropping items when holding the drop modifier (alt by default) and clicking on them.
+The modifier can be changed in the vanilla controls menu.",ドロップ修飾キー（デフォルトではalt）を押しながらクリックでアイテムをドロップできます。修飾キーはバニラの操作設定メニューで変更できます。
+tweed4_tailor_screen.screen.mousewheelie.general.enable-quick-armor-swapping,Quick Armor Swapping,クイック防具切替
+tweed4_tailor_screen.screen.mousewheelie.general.enable-quick-armor-swapping.description,Enables quick swapping of armor pieces and elytra pieces by clicking them while in hand.,装備中にクリックして、アーマーやエリトラを素早く入れ替えることができる。
+tweed4_tailor_screen.screen.mousewheelie.general.enable-quick-craft,Enable quick crafting,クイッククラフトを有効にする
+tweed4_tailor_screen.screen.mousewheelie.general.enable-quick-craft.description,Enables right-clicking in recipe books/villager trading to swiftly craft/trade.,レシピブックや村人取引で右クリックして素早くクラフト/トレードできるようにします。
+tweed4_tailor_screen.screen.mousewheelie.general.hotbar-scoping,Treat hotbar separately,ホットバーを別に扱う
+tweed4_tailor_screen.screen.mousewheelie.general.hotbar-scoping.description,"Lets you define how the hotbar will be treated when e.g. scrolling or sorting items in the inventory.
+  HARD: The hotbar will always be treated separately.
+  SOFT: The hotbar will be treated as part of the inventory. This does not apply when sending the whole inventory (ctrl+shift).
+  NONE: The hotbar will be treated as part of the inventory. This also applies when sending the whole inventory (ctrl+shift).","スクロールやアイテム並び替え時のホットバー扱いを定義します。
+  HARD: ホットバーは常に別扱いされます。
+  SOFT: ホットバーをインベントリの一部として扱います。全インベントリ送信時(ctrl+shift)には適用されません。
+  NONE: ホットバーをインベントリの一部として扱います。全インベントリ送信時(ctrl+shift)にも適用されます。"
+tweed4_tailor_screen.screen.mousewheelie.general.integrated-interaction-rate,Singleplayer Interaction rate,シングルプレイヤー用の相互作用率
+tweed4_tailor_screen.screen.mousewheelie.general.integrated-interaction-rate.description,Sets the interval in milliseconds for singleplayer and local multiplayer.,シングルプレイヤーおよびローカルマルチプレイアの間隔（ミリ秒）を設定します。
+tweed4_tailor_screen.screen.mousewheelie.general.interaction-rate,Interaction rate,相互作用率
+tweed4_tailor_screen.screen.mousewheelie.general.interaction-rate.description,"Sets the interval in milliseconds in which interactions are sent to the server.
+Lower numbers increase the speed but might be rejected by servers.",サーバーへの相互作用送信間隔をミリ秒単位で設定します。数値を低くするとスピードが上がりますが、サーバーに拒否される可能性があります。
+tweed4_tailor_screen.screen.mousewheelie.general.item-kinds-nbt-match-mode,Match item kinds by NBT,NBTでアイテム種類を一致させる
+tweed4_tailor_screen.screen.mousewheelie.general.item-kinds-nbt-match-mode.description,"Whether item types should check nbt data.
+This is for example used by scrolling and drop-clicking.
+NONE disables this, ALL checks for exactly the same nbt and SOME allows for differences in damage and enchantments.",アイテムタイプがNBTデータをチェックするかどうか。スクロールやドロップクリックなど様々な場面で使用されます。NONEで無効化、ALLは完全に同じNBTをチェック、SOMEはダメージやエンチャント差を許容します。
+tweed4_tailor_screen.screen.mousewheelie.refill,Refill,補充
+tweed4_tailor_screen.screen.mousewheelie.refill.description,"Item refilling is a feature that automatically loads more items from your inventory when your current stack runs out.
+This is for example useful when building with a lot of the same block, so you don't have to constantly open your inventory.
+
+The first section of this config concerns which or under which circumstances items will get refilled.
+The ""Refill rules"" section, allows you to configure how the replacement stack will be determined by searching your inventory.","アイテム自動補充は、現在のスタックが終わったときにインベントリから自動的に新しいアイテムを読み込む機能です。同じブロックをたくさん使って建築するときなど、頻繁にインベントリを開く必要がなくなります。
+
+このコンフィグの最初のセクションはアイテムがどのような場合に補充されるかに関するものです。「補充ルール」セクションでは、インベントリを検索することで補充スタックをどう決定するかを設定できます。"
+tweed4_tailor_screen.screen.mousewheelie.refill.drop,Refill when dropping items,アイテムを落とすときに補充
+tweed4_tailor_screen.screen.mousewheelie.refill.drop.description,Refill when dropping stacks from the hotbar.,ホットバーからスタックをドロップするときにリフィルする。
+tweed4_tailor_screen.screen.mousewheelie.refill.eat,Refill when eating food,食べ物を摂取時に補充
+tweed4_tailor_screen.screen.mousewheelie.refill.eat.description,Refill when the last food item in the hand has been consumed.,手に持っている最後の食料アイテムが消費されたらリフィルする。
+tweed4_tailor_screen.screen.mousewheelie.refill.enable,Enable item refilling,アイテムリフィルを有効にする
+tweed4_tailor_screen.screen.mousewheelie.refill.enable.description,"Enables item refilling.
+Turn this off to disable refilling entirely.",アイテム再補充を有効化します。
+tweed4_tailor_screen.screen.mousewheelie.refill.item-changes,Refill when current item changes,現在のアイテムが変わったらリフィル
+tweed4_tailor_screen.screen.mousewheelie.refill.item-changes.description,"Refill when the item just used changes to a different item.
+This is e.g. triggered when filling or emptying water buckets.",使用したアイテムが別のアイテムに変わったときに補充します。例えば水バケツを満たしたり空にしたりするときに発動します。
+tweed4_tailor_screen.screen.mousewheelie.refill.off-hand,Refill the off hand,オフハンドをリフィル
+tweed4_tailor_screen.screen.mousewheelie.refill.off-hand.description,Refills stacks in the off hand.,オフハンドでスタックをリフィルします。
+tweed4_tailor_screen.screen.mousewheelie.refill.other,Refill on other occasions,他の機会で補充
+tweed4_tailor_screen.screen.mousewheelie.refill.other.description,Refill on other occasions.,他の機会に再充填してください。
+tweed4_tailor_screen.screen.mousewheelie.refill.play-sound,Play refill sound,リフィル音を再生
+tweed4_tailor_screen.screen.mousewheelie.refill.play-sound.description,Plays a sound after refilling a stack.,スタックを補充後に音を再生します。
+tweed4_tailor_screen.screen.mousewheelie.refill.restore-selected-slot,Restore selected slot,選択したスロットを復元
+tweed4_tailor_screen.screen.mousewheelie.refill.restore-selected-slot.description,"Restore the refilled item to the originally selected slot.
+This will take a tad more time. You might want to turn this off on slow connections.",補充されたアイテムを元のスロットに戻します。これには少し時間がかかります。低速接続では無効化することをお勧めします。
+tweed4_tailor_screen.screen.mousewheelie.refill.rules,Refill rules,補充ルール
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.any-block,Refill with any blocks,任意のブロックで補充
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.block-hierarchy,Refill blocks with similar blocks,似たブロックでブロックを再補充する
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.block-hierarchy.description,"Try to find similar block items through the block type hierarchy.
+This usually indicates a similar functionality.",ブロックタイプの階層構造を通じて類似のブロックアイテムを見つけようとします。これは通常、類似の機能を示します。
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.description,Configure with which new item the previous stack will be refilled.,前のスタックをリフィルする際に使用する新しいアイテムを設定します。
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.equal-items,Refill with the same item (no NBT),同じアイテムで補充（NBTなし）
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.equal-items.description,Try to find equal items (no NBT matching).,等価アイテム（NBT マッチングなし）を探す
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.equal-stacks,Refill with same stack (NBT),同じスタックで補充（NBT）
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.equal-stacks.description,Try to find equal stacks (NBT matching).,等しいスタック（NBT一致）を探してください。
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.food,Refill with any food,任意の食料でリフィル
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.food.description,Try to find any other food item.,他の食べ物アイテムを探してみてください
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.item-hierarchy,Refill with similar items,類似アイテムで補充
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.item-hierarchy.description,"Try to find similar items through the item type hierarchy.
+This usually indicates a similar functionality.",アイテムタイプの階層構造を通じて類似のアイテムを見つけようとします。これは通常、類似の機能を示します。
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.itemgroup,Refill by item groups,アイテムグループでリフィル
+tweed4_tailor_screen.screen.mousewheelie.refill.rules.itemgroup.description,Find items that are in the same creative inventory tab.,同じクリエイティブインベントリタブにあるアイテムを探す。
+tweed4_tailor_screen.screen.mousewheelie.refill.use,Refill when using items,アイテムを使用時に補充
+tweed4_tailor_screen.screen.mousewheelie.refill.use.description,"Refill when using up items, like tools or weapons.",ツールや武器などのアイテムが使い切れたらリフィルする。
+tweed4_tailor_screen.screen.mousewheelie.scrolling,Scrolling,スクロール
+tweed4_tailor_screen.screen.mousewheelie.scrolling.description,"With this feature, scrolling while hovering over a stack lets you easily move single items in or out of your inventory.
+In combination with modifiers such as Shift and Control (changeable in the Controls settings) you can scroll whole stacks, all of a kind of item or even all items in an inventory.",この機能を使うと、スタックの上にマウスを置いた状態でスクロールすることで、個別のアイテムを簡単にインベントリに出し入れできます。Shiftやcontrol等の修飾キー（操作設定から変更可能）と組み合わせると、スタック全体、同じ種類のアイテム全て、さらにはインベントリ内の全アイテムをスクロール操作できます。
+tweed4_tailor_screen.screen.mousewheelie.scrolling.directional-scrolling,Directional Scrolling,方向スクロール
+tweed4_tailor_screen.screen.mousewheelie.scrolling.directional-scrolling.description,"If enabled, items will be moved based on the visual position on the screen:
+When scrolling up, items will be sent to the upper inventory, when scrolling down to the lower inventory.
+If disabled, scrolling will instead affect the amount of items:
+When scrolling up, items will be moved towards the stack, when scrolling down items will be sent to the opposite inventory.
+
+Using ""Invert scroll direction"", you can swap the up and down behavior for these actions.","有効にすると、アイテムは画面上の視覚的位置に基づいて移動されます。
+上にスクロールするとアイテムは上部インベントリに、下にスクロールすると下部インベントリに送られます。
+無効にすると、スクロールはアイテム数に影響します。
+上にスクロールするとアイテムはスタックに移動し、下にスクロールすると反対のインベントリに送られます。
+
+「スクロール方向を反転」を使用することで、これらの操作の上下の動作を交換できます。"
+tweed4_tailor_screen.screen.mousewheelie.scrolling.enable,Enable item scrolling,アイテムスクロールを有効にする
+tweed4_tailor_screen.screen.mousewheelie.scrolling.invert,Invert scroll direction,スクロール方向を逆にする
+tweed4_tailor_screen.screen.mousewheelie.scrolling.invert.description,Invert the scroll direction when scrolling items.,アイテムをスクロールするときはスクロール方向を反転させます。
+tweed4_tailor_screen.screen.mousewheelie.scrolling.scroll-creative-menu-items,Scroll creative menu items,クリエイティブメニューのアイテムをスクロール
+tweed4_tailor_screen.screen.mousewheelie.scrolling.scroll-creative-menu-items.description,Sets whether to by default scroll items out of the creative menu.,デフォルトでクリエイティブメニューからアイテムをスクロールアウトするかどうか設定します。
+tweed4_tailor_screen.screen.mousewheelie.scrolling.scroll-creative-menu-tabs,Scroll creative menu tabs,クリエイティブメニュータブをスクロール
+tweed4_tailor_screen.screen.mousewheelie.scrolling.scroll-creative-menu-tabs.description,Sets whether creative mode tabs can be switched by scrolling over them.,クリエイティブモードタブがスクロールで切り替えられるかどうかを設定します。
+tweed4_tailor_screen.screen.mousewheelie.sort,Sorting,分類
+tweed4_tailor_screen.screen.mousewheelie.sort.control-sort,Control + middle mouse click,Ctrl + ミドルマウスクリック
+tweed4_tailor_screen.screen.mousewheelie.sort.control-sort.description,Sets the sort mode for sorting whilst pressing control.,ソートモードを設定します。Ctrlキーを押しながら並べ替えます。
+tweed4_tailor_screen.screen.mousewheelie.sort.description,"Change sort modes. Existing sort modes are ALPHABET, RAW_ID and QUANTITY.
+For Minecraft 1.19 and up there's also CREATIVE_SEARCH.",ソートモードを変更します。既存のソートモードはALPHABET、RAW_ID、QUANTITYです。Minecraft 1.19以上ではCREATIVE_SEARCHもあります。
+tweed4_tailor_screen.screen.mousewheelie.sort.optimize-creative-search-sort,Optimized creative sorting,クリエイティブソートを最適化
+tweed4_tailor_screen.screen.mousewheelie.sort.optimize-creative-search-sort.description,"Whether the creative search sorting should be optimized for performance.
+This will make use of more memory in exchange for processor time, only disable this if you run into memory issues.",クリエイティブサーチのソートをパフォーマンス用に最適化するかどうか。これはプロセッサ時間と引き換えにより多くのメモリを使用します。メモリ問題が発生した場合のみこれを無効化してください。
+tweed4_tailor_screen.screen.mousewheelie.sort.primary-sort,Middle mouse click,中クリック
+tweed4_tailor_screen.screen.mousewheelie.sort.primary-sort.description,Sets the sort mode for normal sorting.,通常のソートモードを設定します。
+tweed4_tailor_screen.screen.mousewheelie.sort.server-accelerated-sorting,Server accelerated sorting,サーバー加速ソート
+tweed4_tailor_screen.screen.mousewheelie.sort.shift-sort,Shift + middle mouse click,シフト + マウスの中央ボタンクリック
+tweed4_tailor_screen.screen.mousewheelie.sort.shift-sort.description,Sets the sort mode for sorting whilst pressing shift.,シフトキーを押しながら並べ替えモードを設定します。
+tweed4_tailor_screen.screen.mousewheelie.tool-picking,Tool Picking,ツール選択
+tweed4_tailor_screen.screen.mousewheelie.tool-picking.description,"Configure when and how picking the correct tool for the currently faced block will work.
+By default tool picking will be triggered when middle clicking, that may be changed through the Vanilla Controls menu.",現在向いているブロック用に正しいツールを選択するタイミングと方法を設定します。デフォルトではツール選択は中クリック時に発動しますが、バニラの操作設定メニューから変更できます。
+tweed4_tailor_screen.screen.mousewheelie.tool-picking.hold-block,Middle-click while holding the same block,同じブロックを保持しながら中クリック
+tweed4_tailor_screen.screen.mousewheelie.tool-picking.hold-block.description,Pick correct tool when middle clicking (rebindable) whilst holding the same block as faced.,同じブロックを持ったままミドルクリック（再割り当て可能）したときに正しいツールを選択する。
+tweed4_tailor_screen.screen.mousewheelie.tool-picking.hold-tool,Middle-click while holding a tool,ツールを持ったまま中クリックする
+tweed4_tailor_screen.screen.mousewheelie.tool-picking.hold-tool.description,Pick correct tool when middle clicking (rebindable) whilst holding a tool.,ツールを保持しながら中クリック（再バインド可能）すると正しいツールを選択します。
+tweed4_tailor_screen.screen.mousewheelie.tool-picking.pick-from-inventory,Pick from whole inventory,全インベントリから選択
+tweed4_tailor_screen.screen.mousewheelie.tool-picking.pick-from-inventory.description,"Allows picking tools from the whole inventory.
+If disabled picking will only happen from the hotbar.",全インベントリからツールを選択できるようにします。

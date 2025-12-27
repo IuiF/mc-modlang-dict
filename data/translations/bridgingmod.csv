@@ -1,0 +1,128 @@
+﻿key,source_text,target_text
+bridgingmod.config.failed_integration.title,Config UI Disabled!,設定 UIが無効です！
+enum.bridgingmod.placement_axis.fallback,Same As Usual,いつもと同じ
+enum.bridgingmod.placement_axis.horizontal,Horizontal Only,水平のみ
+enum.bridgingmod.placement_axis.vertical,Vertical Only,垂直のみ
+key.bridgingmod.toggle_bridging,Toggle Reacharound Placement,リーチアラウンド配置の切替
+key.categories.bridgingmod,Bridging Mod,ブリッジング Mod
+notif.bridgingmod.action.disabled,OFF,オフ
+notif.bridgingmod.action.enabled,ON,オン
+notif.bridgingmod.toggle_bridging,Toggled Reacharound Placement,切替可能なリーチアラウンド配置
+text.autoconfig.bridgingmod.category.debug,Debug,デバッグ
+text.autoconfig.bridgingmod.category.feature,Features,機能
+text.autoconfig.bridgingmod.category.vfx,Visuals,ビジュアル
+text.autoconfig.bridgingmod.option.delayPostBridging,Post-Bridging Delay,ブリッジング後の遅延
+text.autoconfig.bridgingmod.option.delayPostBridging.@Tooltip,How many ticks before you can place again? 4 is vanilla. 3 makes bridging easier.,再配置できるまでのティック数。4はバニラ、3は橋作りを容易にします
+text.autoconfig.bridgingmod.option.enableBridgingAssist,Enable Bridge-Assist,ブリッジアシストを有効化
+text.autoconfig.bridgingmod.option.enableNonSolidReplace,Replace Non-Solid Blocks,非ソリッドブロックを置き換える
+text.autoconfig.bridgingmod.option.enableSlabAssist,Align slabs placed with Bridge-Assist,Bridge-Assist で設置されたスラブを整列
+text.autoconfig.bridgingmod.option.nonBridgeRespectsCrouchRules,Show Non-Bridge-Assist when Bridging is enabled,ブリッジングが有効なときに非ブリッジアシストを表示します
+text.autoconfig.bridgingmod.option.nonBridgeRespectsCrouchRules.@Tooltip,Crouching rules & Bridging being enabled or disabled affects whether this outline is visible.,しゃがみ規則とブリッジングが有効か無効かで、このアウトラインの表示可否が変わる。
+text.autoconfig.bridgingmod.option.onlyBridgeWhenCrouched,Only use bridge-assist while crouching,しゃがみ中のみブリッジアシストを使用する
+text.autoconfig.bridgingmod.option.outlineColour,Colour for Bridge-Assist block outline,ブリッジ・アシストブロックの輪郭色
+text.autoconfig.bridgingmod.option.showCrosshair,Show Bridge-Assist crosshair,橋の補助十字線を表示
+text.autoconfig.bridgingmod.option.showDebugHighlight,Show Bridge-Assist block outline in F3,F3でブリッジ・アシストブロックの輪郭を表示
+text.autoconfig.bridgingmod.option.showDebugTrace,Show Bridge-Assist block trail in F3,F3でブリッジアシストブロックの跡を表示
+text.autoconfig.bridgingmod.option.showNonBridgingDebugHighlight,Show Non-Bridge-Assist block outline in F3,F3でブリッジアシスト以外のブロックアウトラインを表示
+text.autoconfig.bridgingmod.option.showOutline,Show Bridge-Assist block outline,ブリッジ・アシストブロックのアウトラインを表示する
+text.autoconfig.bridgingmod.option.showOutlineEvenWhenNotBridging,Show Non-Bridge-Assist block outline,非ブリッジアシストブロックのアウトラインを表示
+text.autoconfig.bridgingmod.option.supportedBridgeAxes,Bridging Axis,ブリッジング軸
+text.autoconfig.bridgingmod.option.supportedBridgeAxesWhenCrouched,Bridging Axis When Sneaking,潜りながら軸を橋渡しする
+text.autoconfig.bridgingmod.title,Bridging Mod,ブリッジング Mod
+bridgingmod.config.failed_integration.description,"Failed to open config UI. If you're in a snapshot, please do not report this as a bug.",設定 UIを開けませんでした。スナップショットを使用している場合、これをバグとして報告しないでください。
+config.bridgingmod.broken_yacl.description,Some versions of YACL crash the game. Please use YACL v3.4.2. This is tested with the mod.,YACLの一部バージョンでゲームがクラッシュします。YACL v3.4.2を使用してください。このModでテスト済みです。
+config.bridgingmod.broken_yacl.title,YetAnotherConfigLib would've crashed here.,YetAnother設定Libがここでクラッシュする可能性があります。
+config.bridgingmod.category.debug,Debug,デバッグ
+config.bridgingmod.category.debug.tooltip,"Features that are useful for development, but you may find useful too.",開発に役立つ機能ですが、あなたにも役立つかもしれません。
+config.bridgingmod.category.feature,Features,機能
+config.bridgingmod.category.feature.tooltip,Tweak the major mod components,Modの主要コンポーネントを調整します
+config.bridgingmod.category.fixes,Fixes,修正
+config.bridgingmod.category.fixes.tooltip,"Nitpicky things that don't need changing, but could make the mod feel better.",変更の必要がない細かいことですが、Modの感触を良くします。
+config.bridgingmod.category.other,Other,その他
+config.bridgingmod.category.other.tooltip,Miscellaneous settings,その他の設定
+config.bridgingmod.category.vfx,Visuals,ビジュアル
+config.bridgingmod.category.vfx.tooltip,Change how all the indicators look,すべてのインジケーターの見た目を変更します
+config.bridgingmod.option.delayPostBridging,Post-Bridging Delay,ブリッジング後の遅延
+config.bridgingmod.option.delayPostBridging.description.0,"How many ticks need to pass (20 ticks = 1 second) before you're allowed to bridge another block? This affects the building speed as you hold down your block place button.
+",ブリッジをもう一度作るまでに何ティック（20ティック＝1秒）が経過する必要がありますか？これはブロック配置ボタンを押し続けているときの建築速度に影響します。
+config.bridgingmod.option.delayPostBridging.description.1,3 = Easier to Bridge,3: ブリッジングが簡単
+config.bridgingmod.option.delayPostBridging.description.2,4 = Vanilla Behaviour,4: バニラの動作
+config.bridgingmod.option.enableBridgingAssist,Enable Bridging,ブリッジングを有効にする
+config.bridgingmod.option.enableBridgingAssist.description.0,"Should bedrock-like bridging be active? Basically enables/disables most of the mod.
+",ベッドロックのようなブリッジングを有効にしますか？基本的にモッド全体のほとんどを有効/無効にします。
+config.bridgingmod.option.enableBridgingAssist.description.1,"This is also bound to a keybind in Controls (defaults to ',')","これはコントロール内のキーバインド(デフォルトは「,」)にも割り当てられています"
+config.bridgingmod.option.enableNonSolidReplace,Replace Non-Solid Blocks,非ソリッドブロックを置き換える
+config.bridgingmod.option.enableNonSolidReplace.description.0,Allows Bridging to replace 'replaceable' blocks like tall-grass & water.,ブリッジングが背の高い草や水などの「置き換え可能な」ブロックを置き換えることを許可します。
+config.bridgingmod.option.enableSlabAssist,Align Bridged Slabs,ブリッジングされたスラブを揃える
+config.bridgingmod.option.enableSlabAssist.description.0,"Smarter slab placing! Makes slabs (and trapdoors) interact better with the mod by:
+",よりスマートなスラブ配置！モッドと相互作用する際に、スラブ（およびトラップドア）が以下のように改善されます:
+config.bridgingmod.option.enableSlabAssist.description.1,- Aligning them to your y-level when bridging horizontally,- 水平方向にブリッジングする場合、あなたのy座標に揃えます
+config.bridgingmod.option.enableSlabAssist.description.2,- Combining them in stacks when bridging vertically,- 垂直方向にブリッジングする場合、スタックで組み合わせます
+config.bridgingmod.option.enableSlabAssist.description.3,- ...and more?,- などなど？
+config.bridgingmod.option.nonBridgeRespectsCrouchRules,Show Non-Bridging Block Outline when Bridging is enabled,ブリッジングが有効な場合、非ブリッジングブロックのアウトラインを表示する
+config.bridgingmod.option.nonBridgeRespectsCrouchRules.description.1,"If this is on, the Non-Bridging highlight is affected by that setting and is only visible when Bridging is available.",この設定がオンの場合、ノンブリッジングハイライトはその設定に影響され、ブリッジングが利用可能なときのみ表示されます。
+config.bridgingmod.option.onlyBridgeWhenCrouched,Only Bridge While Crouching,スニーク中のみブリッジング
+config.bridgingmod.option.onlyBridgeWhenCrouched.description.0,"If this is enabled, Bridging only becomes active while the player is sneaking.
+",この設定を有効にすると、プレイヤーがしゃがんでいる間のみブリッジングがアクティブになります。
+config.bridgingmod.option.onlyBridgeWhenCrouched.description.1,This is similar to the 'Toggle Reacharound Placement' keybind changing Bridging's availability.,これは「ブリッジングを切り替え」キーバインドがブリッジングの可用性を変更するのと似ています。
+config.bridgingmod.option.outlineColour,Bridging Outline Colour,ブリッジングアウトラインの色
+config.bridgingmod.option.outlineColour.description.0,"Sets the outline colour for both Bridging & Non-Bridging block outlines.
+",ブリッジングと非ブリッジングの両方のブロックアウトラインの色を設定します。
+config.bridgingmod.option.outlineColour.description.1,"Opacity of 0.4 recommended, unless you want some intense colours.",透明度0.4を推奨します。激しい色が必要でない限り。
+config.bridgingmod.option.showCrosshair,Show Bridging Crosshair,ブリッジングクロスヘアを表示
+config.bridgingmod.option.showCrosshair.description.0,"Adds arrows around your crosshair when bridging is active, indicating roughly where your block will be bridged off of (Up, Horizontal, Down)",ブリッジングがアクティブな場合、クロスヘアの周りに矢印を追加します。ブロックがオフになる場所を大まかに示します(上、水平、下)
+config.bridgingmod.option.showDebugHighlight,Show Bridging Block Outline In F3,F3でブリッジングブロックアウトラインを表示
+config.bridgingmod.option.showDebugHighlight.description.0,"See Visual->Show Bridging Block Outline, but with F3",ビジュアル→Show BridgingブロックOutlineを参照。ただしF3付き
+config.bridgingmod.option.showDebugTrace,Show Bridging Block Trail In F3,F3でブリッジングブロックトレイルを表示
+config.bridgingmod.option.showDebugTrace.description.0,Lightly outlines all the block positions that have been checked & skipped when trying to find a bridging target. Quite distracting!,ブリッジングターゲットを見つけるために確認およびスキップされたすべてのブロック位置を薄くアウトラインします。かなり気が散ります！
+config.bridgingmod.option.showNonBridgingDebugHighlight,Show Non-Bridging Block Outline in F3,F3で非ブリッジングブロックアウトラインを表示
+config.bridgingmod.option.showNonBridgingDebugHighlight.description.0,"See Visual->Show Non-Bridging Block Outline, but with F3",ビジュアル→Show Non-BridgingブロックOutlineを参照。ただしF3付き
+config.bridgingmod.option.showOutline,Show Bridging Block Outline,ブリッジングブロックアウトラインを表示
+config.bridgingmod.option.showOutline.description.0,"Shows an outline (similar to the vanilla block break outline) whenever bridging is active, highlighting the spot where your block will be bridged.",ブリッジングがアクティブなときに、(バニラのブロック破壊アウトラインと同様の)アウトラインを表示し、ブロックが配置される場所をハイライトします。
+config.bridgingmod.option.showOutlineEvenWhenNotBridging,Show Non-Bridging Block Outline,非ブリッジングブロックアウトラインを表示
+config.bridgingmod.option.showOutlineEvenWhenNotBridging.description.0,"Shows an outline wherever you're about to place a block when Bridging is not being used (i.e, normal block placing)",ブリッジングを使用していないとき(つまり、通常のブロック配置)に、ブロックを配置しようとしている場所にアウトラインを表示します
+config.bridgingmod.option.skipTorchBridging,Skip Torch Bridging,松明ブリッジングをスキップ
+config.bridgingmod.option.skipTorchBridging.description.0,Prevents accidental torch placing by stopping them from being used at all by Bridging,それらをブリッジングでまったく使用できないようにして、誤った松明の配置を防ぎます
+config.bridgingmod.option.supportedBridgeAxes,Bridging Axis,ブリッジング軸
+config.bridgingmod.option.supportedBridgeAxes.description.0,Want to use bridging only horizontally like bedrock? This setting limits bridging to certain axes.,ベッドロックのように水平方向のみでブリッジングを使用したいですか？この設定によりブリッジングは特定の軸に限定されます。
+config.bridgingmod.option.supportedBridgeAxesWhenCrouched,Bridging Axis While Crouching,スニーク中のブリッジング軸
+config.bridgingmod.option.supportedBridgeAxesWhenCrouched.description.0,"See 'Bridging Axis', but this overrides it's behaviour when you are sneaking.
+",『ブリッジング軸』を参照してください。ただし、スニークしているときはその動作が上書きされます。
+config.bridgingmod.option.supportedBridgeAxesWhenCrouched.description.1,'Same as Usual' copies whatever 'Bridging Axis' is set to.,「いつもと同じ」は「ブリッジング軸」に設定されているものをコピーします。
+config.bridgingmod.title,Bridging Mod,ブリッジング Mod
+enum.bridgingmod.placement_axis.both,Any,任意
+config.bridgingmod.option.bridgingAdjacency.description.0,"⚠ Experimental!
+",⚠ 実験的です！
+config.bridgingmod.option.bridgingAdjacency.description.1,"Adjusts snapping behaviour. Finds blocks along the view path that get missed by the usual target finder.
+",スナッピング挙動を調整します。通常のターゲットファインダーでは見逃されがちな、視線経路に沿ったブロックを検出します。
+config.bridgingmod.option.bridgingAdjacency.description.2,Strict = Closest match to the view line only.,Strict = 視線に最も近い一致のみ
+config.bridgingmod.option.bridgingAdjacency.description.3,Faces = Include blocks sharing a face with the closest match,面 = 最も近い一致と面を共有するブロックを含む
+config.bridgingmod.option.bridgingAdjacency.description.4,... and so on.,… など
+config.bridgingmod.option.bridgingSnapStrength,Bridging Snap Strength,ブリッジング・スナップ強度
+config.bridgingmod.option.bridgingSnapStrength.description.0,"⚠ Experimental! This feature is very un-tested and works weird on close-up edges.
+",⚠ 実験的！この機能は非常に未テストで、近接エッジでは奇妙に動作します。
+config.bridgingmod.option.bridgingSnapStrength.description.1,"Resizes the hitbox used when bridging, smaller values being less sensitive.
+",ブリッジング時に使用されるヒットボックスのサイズを変更します。値が小さいほど感度が低くなります。
+config.bridgingmod.option.bridgingSnapStrength.description.2,1.0 = Standard. Strong snapping,1.0 = 標準。強力なスナップ
+config.bridgingmod.option.bridgingSnapStrength.description.3,"0.8 = Sweet Spot. Weaker snapping, but with a bit of support.",0.8 = スイートスポット。弱めのスナップですが、少しサポート付きです。
+config.bridgingmod.option.bridgingSnapStrength.description.4,0.0 = Old. Strict Snapping,0.0 = 古い。厳格なスナッピング
+config.bridgingmod.option.enableBridgingAssist.description.2,"^ a.k.a. Reacharound Placement, similar to Quark",^ つまり、リーチアラウンド配置、Quarkに似た機能
+config.bridgingmod.option.minBridgeDistance,Minimum Bridging Distance,最小橋接距離
+config.bridgingmod.option.minBridgeDistance.description.0,How far must a block be from you to be bridgable from.,ブリッジできるようにするため、ブロックはあなたからどれくらい離れている必要がありますか？
+config.bridgingmod.option.minBridgeDistanceHorizontal,Minimum Horizontal Distance,最小水平距離
+config.bridgingmod.option.minBridgeDistanceHorizontal.description.0,How far must a block be from you horizontally to be bridgable from.,ブリッジング可能なブロックまでの水平距離はどれくらいですか？
+config.bridgingmod.option.minBridgeDistanceVertical,Minimum Vertical Distance,最小垂直距離
+config.bridgingmod.option.minBridgeDistanceVertical.description.0,How far must a block be from you vertically to be bridgable from.,ブリッジ可能になるために、ブロックがあなたから垂直方向にどれだけ離れている必要がありますか。
+config.bridgingmod.option.perspectiveLock,Perspective Lock,視点ロック
+config.bridgingmod.option.perspectiveLock.description.0,"How should placement positions be calculated? Should it copy your current perspective (i.e, first & third person. F5), or should it always use the player head's view line?
+",配置位置はどのように計算すべきですか？現在の視点（つまり第一人称と第三人称、F5）をコピーするべきでしょうか、それとも常にプレイヤーの頭部の視線を使用すべきでしょうか?
+config.bridgingmod.value.distance,%1$.2f block(s),%1$.2f ブロック
+config.bridgingmod.value.percentage,%1$.2f ％,%1$.2f ％
+config.bridgingmod.value.ticks,%1$.2f tick(s),%1$.2f ティック(s)
+enum.bridgingmod.bridging_adjacency.corners,Faces + Edges + Corners,面 + 辺 + 角
+enum.bridgingmod.bridging_adjacency.disabled,Strict,厳格
+enum.bridgingmod.bridging_adjacency.edges,Faces + Edges,面と辺
+enum.bridgingmod.bridging_adjacency.faces,Faces Only,顔だけ
+enum.bridgingmod.source_perspective.always_eyeline,Follow Head Only,頭だけフォロー
+enum.bridgingmod.source_perspective.copy_toggle_perspective,Copy Perspective,視点コピー
+enum.bridgingmod.source_perspective.let_bridging_mod_decide,Let Mod Decide,モジュールが決定

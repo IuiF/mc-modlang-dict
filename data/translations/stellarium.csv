@@ -1,0 +1,196 @@
+﻿key,source_text,target_text
+key.stellarsky,Stellar Sky,星の空
+key.stellarsky.focusgui.description,Focus Stellar Sky Settings,フォーカス・ステラースカイ設定
+key.stellarsky.customizegui.description,Customize Settings GUI,カスタマイズ設定GUI
+progress.text.injection.main,StellarSky World&Server Injection,StellarSky ワールド＆サーバー注入
+progress.text.injection.manager,Injecting Stellar Manager...,星の管理者をインジェクト中...
+progress.text.injection.dimmanager,Injecting Dimension Manager for %s...,%s のディメンションマネージャーを注入しています...
+progress.text.injection.query,Waiting for Information on Dimension %s...,ディメンション %s の情報を待機中…
+hud.text.year,Year %1$s,年 %1$s
+hud.text.day,Day %1$s (/%2$s),日付 %1$s (/%2$s)
+hud.text.tick,Tick  #%1$s (/%2$s),ティック #%1$s (/%2$s)
+hud.text.time,Time %1$s:%2$s (/%3$s:%4$s),時間 %1$s:%2$s（/%3$s:%4$s）
+hud.text.timeam,Time %1$s:%2$s AM (/%3$s:%4$s),時間 %1$s:%2$s AM (/%3$s:%4$s)
+hud.text.timepm,Time %1$s:%2$s PM (/%3$s:%4$s),時間 %1$s:%2$s PM (/%3$s:%4$s)
+hud.text.dayequal,1D=,1D=
+hud.text.hourequal,1H=,1H=
+hud.text.unit.hour,h,h
+hud.text.unit.tick,t,t
+hud.text.double,%sD,%sD
+hud.text.int,%s,%s
+hud.overlay.stellarsky,Stellar Sky,星の空
+config.property.gui.clock.fix.tooltip,Fix button to fix this overlay,ボタンを押してこのオーバーレイを修正してください。
+config.property.gui.clock.modeview,Mode for HUD time view,HUD時間表示モード
+config.property.gui.clock.modeview.tooltip,"Mode for HUD time view. 3 modes available: hhmm, tick, ampm. Can also be changed in-game.",HUD 時間表示モード。3 つのモードが利用可能：hhmm、tick、ampm。ゲーム内でも変更できます。
+config.property.gui.clock.modeview.tooltip1,Mode for HUD time view.,HUD時刻表示モード
+config.property.gui.clock.modeview.tooltip2,"2 modes available: hhmm, tick.",2つのモードが利用可能です: hhmm、タッキ。
+config.property.gui.clock.modeview.tooltip3,Can also be changed in-game.,ゲーム内でも変更可能です。
+config.property.gui.clock.shadow.tooltip,Draw Text with Shadow,影付きテキストを描画
+config.property.gui.clock.hourformat.tooltip,Choose from 1day=?hour and 1hour=?tick,1日=?時間、1時間=?ターンから選択
+config.property.gui.clock.daytohour.tooltip,Day length in Hour,日長（時間）
+config.property.gui.clock.hourlength.tooltip,Hour length in Tick,時間あたりのTick数
+config.property.gui.clock.transparency.tooltip,Transparency of the overlay background,オーバーレイの背景透過度
+config.property.gui.clock.wordbrightness.tooltip,Brightness of Texts,テキストの明るさ
+config.property.gui.clock.wordhue.tooltip,Hue of Texts,テキストの色
+config.property.gui.clock.wordsaturation.tooltip,Saturation of Texts,テキストの飽和度
+config.property.gui.settings.fix.tooltip,Fix button to fix this settings overlay,この設定オーバーレイを修正するためのボタンを固定
+config.category.client,Client Configurations,クライアント設定
+config.category.client.tooltip,Configurations for client modifications. Most of them are for rendering/view.,クライアント変更設定。ほとんどはレンダリング/表示用です。
+config.property.client.maglimit,Limit Magnitude,最大明るさ制限
+config.property.client.maglimit.tooltip,"Limit of magnitude can be seen on naked eye. If you want to increase FPS, lower the Mag_Limit. (Realistic = 6.5, Default = 4.0) The lower you set it, the fewer stars you will see, but the better FPS you will get.",裸眼で見える等級の上限。FPS を上げたければ Mag_Limit を下げてください。（現実的 = 6.5、デフォルト = 4.0）数値が低いほど見える星が少なくなりますが、FPS は向上します。
+config.property.client.milkywaybrightness,Brightness of Milky way,天の川の明るさ
+config.property.client.milkywaybrightness.tooltip,"Brightness of milky way. For real world it should be 1.0 or lower, but default is set to 1.5 for visual effect.",天の川の明るさ。実世界では 1.0 以下が適切ですが、デフォルトは視覚効果のため 1.5 に設定されています。
+config.property.client.turbulance,Twinkling(Turbulance),きらめき（乱流）
+config.property.client.turbulance.tooltip,"Degree of the twinkling effect of star. It determines the turbulance of atmosphere, which actually cause the twinkling effect. The greater the value, the more the stars will twinkle.",星のまたたき効果の程度。大気の乱流度を決定し、これが実際のまたたき効果を引き起こします。数値が大きいほど星がより多くまたたきます。
+config.property.client.brcontrast,Brightness Contrast,明るさコントラスト
+config.property.client.brcontrast.tooltip,"Brightness Contrast determines the contrast between bright stars and faint stars. The bigger the value, the less difference between bright stars and faint stars. For real world, 1.0 is right. Though default value is 1.75 for visual effect.",明るい星と暗い星のコントラストを決定します。数値が大きいほど明るい星と暗い星の差が少なくなります。現実世界では 1.0 が正しいですが、視覚効果のためデフォルト値は 1.75 です。
+config.property.client.spritescale,Sprite Scale,スプライトスケール
+config.property.client.spritescale.tooltip,"Sprite Scale determines the size of stars and planets. The bigger the value, the fuzzier stars/planets gets. Real world = 1.0. Default = 0.8 for visual effect.",スプライトスケールは星と惑星のサイズを決定します。数値が大きいほど星と惑星がぼやけます。実世界 = 1.0、デフォルト = 0.8 で視覚効果。
+config.category.optics,Optics,光学
+config.category.optics.tooltip,Configuration for Optical settings.,光学設定の構成
+config.category.server,Server(Common) Configurations,サーバー（共通）構成
+config.category.server.tooltip,Configurations for server modifications.,サーバーの変更設定。
+config.property.server.serverenabled,Server Enabled,サーバーを有効化
+config.property.server.serverenabled.tooltip,Enables Server-Side Sky change.,サーバー側の空の変更を有効にします。
+config.property.server.daylength,Day Length,日中の長さ
+config.property.server.daylength.tooltip,"Length of a day, in a tick.",1タックあたりの1日長さ
+config.property.server.yearlength,Year Length,年長
+config.property.server.yearlength.tooltip,"Length of a year, in a day.",1年あたりの1日長さ
+config.property.server.yearoffset,Year Offset,年差
+config.property.server.yearoffset.tooltip,Year offset on world starting time. (Offsets are added together),ワールド開始時の年オフセット。（合計で加算されます）
+config.property.server.dayoffset,Day Offset,日中のオフセット
+config.property.server.dayoffset.tooltip,Day offset on world starting time. (Offsets are added together),ワールド開始時の昼間オフセット。（オフセットは合算されます）
+config.property.server.tickoffset,Tick Offset,ターン差
+config.property.server.tickoffset.tooltip,Tick offset on world starting time. (Offsets are added together),ワールド開始時のティックオフセット。（合計で加算されます）
+config.property.server.axialtilt,Axial Tilt,軸傾斜
+config.property.server.axialtilt.tooltip,Axial tilt in degrees. Always 0.0 when Server Enabled is false.,軸傾斜角度（°）。Server Enabledがfalseの場合は常に0.0です。
+config.property.server.precession,Precession,進化
+config.property.server.precession.tooltip,Precession in degrees per year.,歳差角（度/年）
+config.category.solarsystem,Solar System Configurations,太陽系設定
+config.category.solarsystem.tooltip,Configurations for Solar System.,太陽系の設定。
+config.property.server.moonsize,Size of Moon,月のサイズ
+config.property.server.moonsize.tooltip,Size of moon. (Default size is 1.0),月のサイズ。 (デフォルトサイズは1.0)
+config.property.server.moonbrightness,Brightness of Moon,月の明るさ
+config.property.server.moonbrightness.tooltip,Brightness of moon. (Default brightness is 1.0),月の明るさ。（デフォルトの明るさは1.0）
+config.category.milkyway,Milky Way Configurations,ミルキーウェイ設定
+config.category.milkyway.tooltip,Configurations for Milky Way.,銀河系の構成
+config.property.client.moonfrac,Number of Sun & Moon fragment,太陽と月の破片数
+config.property.client.moonfrac.tooltip,"Surfaces of Sun and Moon are drawn with fragments. Less fragments will increase FPS, but the moon become more defective.",太陽と月の表面はフラグメント（断片）で描画されます。フラグメント数が少ないと FPS が向上しますが、月が欠損しやすくなります。
+config.property.client.milkywayfrac,Number of Milky way fragment,銀河断片の数
+config.property.client.milkywayfrac.tooltip,"Milky way is drawn with fragments. Less fragments will increase FPS, but the milky way become more defective.",天の川はフラグメント（断片）で描画されます。フラグメント数が少ないと FPS が向上しますが、天の川が欠損しやすくなります。
+config.category.display,Display Option Configurations,表示オプション設定
+config.category.display.tooltip,Configurations for additional display.,追加表示用設定。
+config.property.display.enabled,Enable this display,この表示を有効にする
+config.property.display.enabled.tooltip,Enable rendering of this display.,このディスプレイのレンダリングを有効化します
+config.property.display.alpha,Alpha of this display,この表示のアルファ値
+config.property.display.alpha.tooltip,Alpha(Brightness) of this display.,この表示のアルファ（明るさ）。
+config.category.display.horcoord,Horizontal Coordinate Grid,水平座標グリッド
+config.category.display.horcoord.tooltip,Configurations for the display element: Horizontal Coordinate Grid.,表示要素の設定：水平座標グリッド。
+config.property.display.horcoord.fragments,Fragment number,断片番号
+config.property.display.horcoord.fragments.tooltip,Number of fragments of Horizontal Coordinate Grid in direction of height.,高さ方向における水平座標格子の断片数。
+config.property.display.horcoord.color.base,Base color of Hor. Coordinate,水平座標の基本色
+config.property.display.horcoord.color.base.tooltip,"Base color factor, the grid tends to have this color as base.",ベース色係数、グリッドはこの色を基底として傾きます。
+config.property.display.horcoord.color.height,Height color of Hor. Coordinate,水平座標の高さ色
+config.property.display.horcoord.color.height.tooltip,"Color factor for height, the grid tends to have this color when height gets bigger.",高さの色係数。グリッドは高さが大きくなるとこの色になる傾向があります。
+config.property.display.horcoord.color.azimuth,Azimuth color of Hor. Coordinate,水平座標の方位角色。
+config.property.display.horcoord.color.azimuth.tooltip,"Color factor for azimuth(horizontal position), the grid tends to have this color when azimuth gets bigger.",方位角（水平位置）の色係数。方位角が大きくなるほどグリッドがこの色になります。
+config.property.display.horcoord.horizon.displayed,Enable Horizon,ホライズンを有効化
+config.property.display.horcoord.horizon.displayed.tooltip,Enable display of the horizon.,地平線の表示を有効にします。
+config.property.display.horcoord.grid.displayed,Enable Horizontal Grid,水平グリッドを有効にする
+config.property.display.horcoord.grid.displayed.tooltip,Enable display of the horizontal grid.,水平グリッドの表示を有効化します。
+config.category.display.eqcoord,Equatorial Coordinate Grid,黄道座標グリッド
+config.category.display.eqcoord.tooltip,Configurations for the display element: Equatorial Coordinate Grid.,表示要素の設定：赤道座標グリッド。
+config.property.display.eqcoord.fragments,Fragment number,断片番号
+config.property.display.eqcoord.fragments.tooltip,Number of fragments of Equatorial Coordinate Grid in direction of declination.,赤道座標グリッドの断片数（傾斜方向）
+config.property.display.eqcoord.color.base,Base color of Eq. Coordinate,装備座標の基本色
+config.property.display.eqcoord.color.base.tooltip,"Base color factor, the grid tends to have this color as base.",ベース色係数、グリッドはこの色を基底として傾きます。
+config.property.display.eqcoord.color.dec,Declination color of Eq. Coordinate,等角座標の色
+config.property.display.eqcoord.color.dec.tooltip,"Color factor for declination, the grid tends to have this color when declination gets bigger.",降下時の色係数で、グリッドは降下が大きくなるとこの色になります。
+config.property.display.eqcoord.color.ra,Right Ascension color of Eq. Coordinate,等角座標の右昇降色
+config.property.display.eqcoord.color.ra.tooltip,"Color factor for right ascension, the grid tends to have this color when right ascension gets bigger.",赤経の色係数。赤経が大きくなるほどグリッドがこの色になります。
+config.property.display.eqcoord.equator.displayed,Enable Equator,エクватールを有効化
+config.property.display.eqcoord.equator.displayed.tooltip,Enable display of the equator.,赤道の表示を有効にします。
+config.property.display.eqcoord.grid.displayed,Enable Equatorial Grid,赤道グリッドを有効にする
+config.property.display.eqcoord.grid.displayed.tooltip,Enable display of the equatorial grid.,赤道グリッドの表示を有効化します。
+config.category.display.eccoord,Ecliptic Coordinate Grid,エクリプティック座標グリッド
+config.category.display.eccoord.tooltip,Configurations for the display element: Ecliptic Coordinate Grid.,表示要素の設定：黄道座標グリッド。
+config.property.display.eccoord.fragments,Fragment number,断片番号
+config.property.display.eccoord.fragments.tooltip,Number of fragments of Ecliptic Coordinate Grid in direction of latitude.,緯度方向における黄道座標格子の断片数。
+config.property.display.eccoord.color.base,Base color of Ec. Coordinate,エコ座標の基本色
+config.property.display.eccoord.color.base.tooltip,"Base color factor, the grid tends to have this color as base.",ベース色係数、グリッドはこの色を基底として傾きます。
+config.property.display.eccoord.color.latitude,Latitude color of Ec. Coordinate,黄道座標の緯度色。
+config.property.display.eccoord.color.latitude.tooltip,"Color factor for latitude, the grid tends to have this color when latitude gets bigger.",緯度用の色係数であり、緯度が大きくなるとグリッドはこの色になる傾向があります。
+config.property.display.eccoord.color.longitude,Longitude color of Ec. Coordinate,Ec. 座標の経度色
+config.property.display.eccoord.color.longitude.tooltip,"Color factor for longitude, the grid tends to have this color when longitude gets bigger.",経度に対する色係数で、グリッドは経度が大きくなるとこの色になります。
+config.property.display.eccoord.ecliptic.displayed,Enable ecliptic,黄道帯を有効にする
+config.property.display.eccoord.ecliptic.displayed.tooltip,Enable display of the ecliptic.,黄道線を表示するように有効化
+config.property.display.eccoord.grid.displayed,Enable Ecliptic Grid,天体格子を有効にする
+config.property.display.eccoord.grid.displayed.tooltip,Enable diplay of the ecliptic grid.,天球格子の表示を有効にする
+config.category.landscape,Landscape,風景
+config.category.landscape.tooltip,Landscape is an overlay on Horizontal Coordinates which overlaps the celestial sphere.,ランドスケープは水平座標上に重なる天球をオーバーレイするものです。
+config.property.landscape.fragments,Number of Landscape fragment,風景断片の数
+config.property.landscape.fragments.tooltip,"Landscape is drawn with fragments. Less fragments will increase FPS, but the Landscape become more defective.",ランドスケープはフラグメント（断片）で描画されます。フラグメント数が少ないと FPS が向上しますが、ランドスケープが欠損しやすくなります。
+config.category.atmosphere,Atmosphere,大気
+config.category.atmosphere.tooltip,Configurations for the atmosphere accuracy.,大気精度の設定。
+config.property.atmosphere.cachelevel,Atmosphere Cache Size Level,大気キャッシュサイズレベル
+config.property.atmosphere.cachelevel.tooltip,"Level of atmosphere cache texture size. Less level will increase FPS, but the atmosphere will become EXPONENTIALLY defective.",大気キャッシュテクスチャサイズのレベル。レベルが低いと FPS が向上しますが、大気が指数関数的に欠損しやすくなります。
+config.property.atmosphere.fragnumber,Atmosphere Fragment Number,大気断片番号
+config.property.atmosphere.fragnumber.tooltip,"Atmosphere is drawn with fragments. Less fragments will increase FPS, but the atmosphere will become more defective.",大気はフラグメント（断片）で描画されます。フラグメント数が少ないと FPS が向上しますが、大気が欠損しやすくなります。
+config.property.atmosphere.interpolation,Enable Interpolation on Atmosphere,大気のインター プロレーションを有効にする
+config.property.atmosphere.interpolation.tooltip,"Enabling this will interpolate texture for better view, but there could be some trivial issues like 'black line' with this.",有効にするとテクスチャが補間されてより良い表示になりますが、『黒い線』などの軽微な問題が発生する可能性があります。
+config.category.dimension,Dimension Settings,ディメンション設定
+config.category.dimension.tooltip,Configurations for Dimension Settings.,ディメンション設定用構成。
+config.property.dimension.stellarskyenabled,Enabled (Stellar Sky Settings),有効化されています (スターライクスケット設定)
+config.property.dimension.stellarskyenabled.tooltip,Determine whether or not to enable Stellar Sky on this WorldSet,このWorldSetでStellar Skyを有効にするかどうかを決定します
+config.property.dimension.patchprovider,Patch Provider,パッチ提供者
+config.property.dimension.patchprovider.tooltip,Determine whether or not patch provider. Cannot adjust longitude and latitude when this is false.,パッチプロバイダーかどうかを決定します。この値が false の場合、経度と緯度を調整できません。
+config.property.dimension.skyrenderertype,Sky Renderer Type,スカイレンダラータイプ
+config.property.dimension.skyrenderertype.tooltip,"Sky renderer type for this dimension. There are 'Overworld Sky', 'End Sky', and 'Skyblock Sky' type by default.",このディメンションのスカイレンダラータイプ。デフォルトでは『オーバーワールドスカイ』『エンドスカイ』『スカイブロックスカイ』タイプがあります。
+config.property.dimension.latitude,Latitude,経度
+config.property.dimension.latitude.tooltip,"Latitude on this world, in Degrees.",この世界の緯度（度）
+config.property.dimension.longitude,Longitude,経度
+config.property.dimension.longitude.tooltip,"Longitude on this world, in Degrees. (East is +)",この世界の経度（度）。東は+です。
+config.property.dimension.hidehorizonobj,Hide Objects under Horizon,地平線以下のオブジェクトを隠す
+config.property.dimension.hidehorizonobj.tooltip,Determine whether or not hide objects under horizon.,地平線下のオブジェクトを隠すかどうか決定します。
+config.property.dimension.renderprevsky,Render Other Modded Skybox,他のModのスカイボックスをレンダリングする
+config.property.dimension.renderprevsky.tooltip,Determine whether this renderer will render previous renderer as a background for stellar objects,このレンダラーが前のレンダラーを星体オブジェクトの背景として描画するかどうかを決定します。
+config.property.dimension.atmscaleheight,Atmosphere Scale Height,大気層高さ
+config.property.dimension.atmscaleheight.tooltip,Scale Height of the atmosphere relative to the radius. This determines the thickness of the atmosphere.,半径に対する大気のスケールハイト。大気の厚さを決定します。
+config.property.dimension.atmtotalheight,Atmosphere Total Height,大気圏全高
+config.property.dimension.atmtotalheight.tooltip,"Total Height of the atmosphere relative to the radius. This determines the accuracy of the atmosphere, relative to the scale height.",半径に対する大気の総高さ。スケールハイトに相対した大気精度を決定します。
+config.property.dimension.atmheightoffset,Height Offset on Horizon,地平線の高さオフセット
+config.property.dimension.atmheightoffset.tooltip,"Height on horizon in the Atmosphere, in Scale Height unit.",大気中の地平線上の高さ、スケールヘイト単位。
+config.property.dimension.atmheightincscale,Height Increase Scale,高さ増幅スケール
+config.property.dimension.atmheightincscale.tooltip,"Increase scale of height in the atmosphere, with Default 1.0.",大気中の高さスケールを増加させます。デフォルトは1.0です。
+config.property.dimension.atmextinctionfactor,Atmosphere Extinction Rates,大気消滅率
+config.property.dimension.atmextinctionfactor.tooltip,"Extinction Factor for RVB(or RGB) of the atmosphere, affects both sky rendering and extinction of stellar objects.",大気の RGB の消光係数。天空のレンダリングと星体の消光の両方に影響します。
+config.property.dimension.allowrefraction,Apply Atmospheric Refraction,大気屈折を適用
+config.property.dimension.allowrefraction.tooltip,Determine whether or not apply the atmospheric refraction.,大気屈折を適用するかどうか決定します。
+config.property.dimension.sunlightmultiplier,Sunlight Multiplier,日光倍率
+config.property.dimension.sunlightmultiplier.tooltip,Relative amount of sunlight on the dimension. Setting this to 0.0 will make the world very dark.,ディメンション上の相対日照量。この値を0.0に設定すると世界が非常に暗くなります。
+config.property.dimension.skydispersionrate,Sky Dispersion Rate,スカイ分散率
+config.property.dimension.skydispersionrate.tooltip,"Relative strength of sky dispersion on the dimension. The effect is similar with sunlight multiplier on client, but usually don't affect the server(light level), e.g. do not spawn mobs on day even if set to 0.0 which makes sky seems night.",ディメンションでの天空分散の相対強度。効果はクライアント上の日光乗数に似ていますが、通常はサーバーに影響を与えません（光レベル）。例えば 0.0 に設定するとスカイが夜に見えますが、昼間でもモブがスポーンしません。
+config.property.dimension.lightpollutionrate,Light Pollution Rate,光汚染率
+config.property.dimension.lightpollutionrate.tooltip,Relative strength of light pollution on the dimension. Only affects the sky color and visibility of stars/milky way.,ディメンションでの光害の相対強度。天空色と星・天の川の可視性にのみ影響します。
+config.category.dimension.perdimresource,Per Dimension Resources,ディメンションごとの資源
+config.category.dimension.perdimresource.tooltip,Configuration on resources which are unique to this dimension.,このディメンション固有のリソースに関する設定。
+config.property.dimension.perdimresource.tooltip,"If this is not set to 'default', the resource will be replaced by the resource on the described location. Note that resource location is form of '(modid):(actual location)'.",『default』に設定されていない場合、リソースは説明された場所のリソースに置き換わります。リソース位置の形式は『(modid):(actual location)』です。
+config.category.server.wake,Wake Settings,設定を覚醒
+config.category.server.wake.tooltip,Configuration for Waking System.,ウェイキングシステムの構成。
+config.property.server.wakemode,Wake Mode,目覚めモード
+config.property.server.wakemode.tooltip,You can choose earliest or latest available wake time among these wake properties.,これらのウェイクプロパティの中で最も早いまたは遅い利用可能な起床時間を選択できます。
+config.property.server.enablewake,Wake Property Enabled,目覚めプロパティを有効にする
+config.property.server.enablewake.tooltip,Enable this wake property.,この目覚めプロパティを有効にする
+config.property.server.wakeangle,Solar azimuth for wake,日の出の方位角
+config.property.server.wakeangle.tooltip,Solar azimuth(height) angle to wake up. (in degrees),太陽方位角（高さ）で起床する角度。（単位：度）
+config.property.server.waketime,Wake Time from midnight,午前0時からの目覚め時間
+config.property.server.waketime.tooltip,Wake-up time from midnight. (in tick),真夜中からの目覚まし時間。 (tick単位)
+config.property.dimension.minimumskybrightness,Minimum Sky Brightness,最低空の明るさ
+config.property.dimension.minimumskybrightness.tooltip,Minimum brightness of skylight which (only) affects the rendering.,天光の最小明るさ（レンダリングにのみ影響）
+config.property.dimension.enablelandscape,Enable Landscape,風景を有効にする
+config.property.dimension.enablelandscape.tooltip,Enable the landscape on this world.,この世界の風景を有効にする
+stellarsky.command.lock.usage,/locksky [lock=true],/locksky [lock=true]
+stellarsky.gui.lock,Lock Sky Settings,スカイ設定をロック
+stellarsky.gui.lock.tooltip,Locking this will have the Sky Settings of this save not be affected by configuration on world restart.,このロックを有効にすると、このセーブファイルのスカイ設定がワールドの再起動時の設定の影響を受けなくなります。
+stellarsky.gui.unlock,Unlock Sky Settings,スカイ設定を解除
+stellarsky.gui.unlock.description,You are unlocking the Sky Settings from configuration for this save.,このセーブ用に設定からスカイ設定をアンロックしています。

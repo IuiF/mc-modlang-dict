@@ -1,0 +1,154 @@
+﻿key,source_text,target_text
+itemGroup.modularmachinery,Modular Machinery,モジュラー機械
+command.modularmachinery.syntax,/mm-syntax,/mm-syntax
+command.modularmachinery.hand,/mm-hand,/mm-hand
+command.modularmachinery.hand.empty,Please hold an item to get the data from.,データを取得するにはアイテムを持ってください。
+gui.controller.blueprint,Blueprint Found: %s,設計図を発見: %s
+gui.controller.blueprint.none,None,なし
+gui.controller.structure,Structure Found: %s,構造物を発見: %s
+gui.controller.structure.none,None,なし
+gui.controller.status,Status:,ステータス:
+gui.controller.status.redstone_stopped,Machine stopped by incoming redstone signal,機械は受信したレッドストーン信号で停止しました
+gui.controller.status.missing_structure,Missing structure,構造が欠落
+gui.controller.status.no_recipe,No matching recipe found,マッチするレシピが見つかりません
+gui.controller.status.crafting,Processing...,処理中…
+gui.controller.status.crafting.progress,Progress: %s,進捗: %s
+craftcheck.failure.item.input,Missing input item!,入力アイテムが不足しています!
+craftcheck.failure.item.output.space,Not enough inventory space for item output(s)!,アイテム出力に十分なインベントリスペースがありません！
+craftcheck.failure.fluid.input,Missing fluid input!,液体入力がありません!
+craftcheck.failure.fluid.output.space,Not enough tank space for fluid output(s)!,流体出力用のタンクスペースが不足しています！
+craftcheck.failure.gas.input,Missing gas input!,ガス入力が不足しています!
+craftcheck.failure.gas.output.space,Not enough space for gas output(s)!,ガス出力にスペースが不足しています！
+craftcheck.failure.energy.input,Not enough energy!,エネルギーが足りません！
+component.missing.modularmachinery.energy.output,No Energy Output Hatch found!,エネルギー出力ハッチが見つかりません！
+component.missing.modularmachinery.energy.input,No Energy Input Hatch found!,エネルギー入力ハッチが見つかりません!
+component.missing.modularmachinery.fluid.output,No Fluid Output Hatch found!,液体出力ハッチが見つかりません!
+component.missing.modularmachinery.fluid.input,No Fluid Input Hatch found!,流体入力ハッチが見つかりません！
+component.missing.modularmachinery.gas.output,No Fluid Output Hatch found!,液体出力ハッチが見つかりません!
+component.missing.modularmachinery.gas.input,No Fluid Input Hatch found!,流体入力ハッチが見つかりません！
+component.missing.modularmachinery.item.output,No Item Output found!,出力アイテムが見つかりません！
+component.missing.modularmachinery.item.input,No Item Input found!,アイテム入力が見つかりません!
+gui.blueprint.popout.info,Sneak to freeze the current preview to be able to preview it in world.,スニークして現在のプレビューを凍結し、ワールド内で確認できるようにします。
+gui.blueprint.popout.place,Rightclick to place preview; move away from the placed one or open another structure preview (blueprint) to remove the one in-world.,右クリックでプレビューを配置します。配置したプレビューから離れるか、別の構造プレビュー（ブループリント）を開くと、ワールド内のプレビューが削除されます。
+jei.category.preview,Structure Preview,構造プレビュー
+message.structurebuild.confirmrotation,Controller is facing %s,コントローラは%sを向いています。
+message.structurebuild.confirmrotation.rotating,Rotating structure for saving by %s degrees...,構造体を%s度回転させて保存しています...
+message.structurebuild.empty,You have nothing selected to save.,保存する選択がありません。
+message.structurebuild.warndedicated,You're saving the machine on a dedicated server! Be sure to download it from the server!,専用サーバーでマシンを保存しているね！ サーバーからダウンロードするのを忘れないで！
+message.structurebuild.save,Machine saved as %s in the machinery directory!,マシンが機械ディレクトリに%sとして保存されました！
+message.structurebuild.fail,Failed to save the machine to a file! Check the log for more information!,マシンをファイルに保存できませんでした！詳細はログをご確認ください！
+tooltip.machinery.empty,Empty,空
+tooltip.machinery.fuel,Accepts any fuel.,任意の燃料を受け付けます。
+tooltip.machinery.fuel.item,BurnTime: %s,燃焼時間: %s
+tooltip.machinery.fuel.in,Required total Fuel Burntime:,必要な燃料の燃焼時間:
+tooltip.machinery.fuel.in.total,%s ticks.,%s タイク。
+tooltip.machinery.blueprint.required,Requires Blueprint,設計図が必要です
+tooltip.machinery.blueprint.upgrades,Upgrades,アップグレード
+tooltip.machinery.duration,Processing Time: %s ticks,処理時間: %s タック
+tooltip.machinery.chance.in,Consumption Chance: %s,消費確率: %s
+tooltip.machinery.chance.out,Production Chance: %s,生産確率: %s
+tooltip.machinery.chance.in.never,Doesn't get consumed.,消費されません。
+tooltip.machinery.chance.out.never,Is never produced.,決して生成されません。
+tooltip.machinery.energy.in,Required Energy:,必要なエネルギー:
+tooltip.machinery.energy.out,Produced Energy:,生成されたエネルギー:
+tooltip.energy.type.fe,FE,FE
+tooltip.energy.type.ic2_eu,EU,EU
+tooltip.energy.type.gt_eu,EU,EU
+tooltip.constructtool.creative,Creative Structure-To-JSON Tool,クリエイティブ構造からJSONツール
+tooltip.itembus.slot,1 Slot,1スロット
+tooltip.itembus.slots,%s Slots,%s スロット
+tooltip.fluidhatch.empty,Empty,空
+tooltip.fluidhatch.fluid,[Fluid],[液体]
+tooltip.fluidhatch.gas,[Gas],[ガス]
+tooltip.fluidhatch.tank,%smb / %smb,%smb / %smb
+tooltip.fluidhatch.tank.gas,%s / %s,%s / %s
+tooltip.fluidhatch.tank.info,Can hold %s mb,最大 %s mb を保持できます
+tooltip.fluidhatch.tank.mek,Accepts Mekanism Gas,メカニズムガスを受け付けます
+tooltip.energyhatch.storage,Stores %s FE,合計: %s %s
+tooltip.energyhatch.out.transfer,Transfers %s FE per tick,タックごとに%s FEを転送
+tooltip.energyhatch.in.accept,Accepts %s FE per tick,%s FEをティックごとに受け付けます
+tooltip.energyhatch.ic2.powerrate,EU/t,EU/タック
+tooltip.energyhatch.ic2.any,Any,任意
+tooltip.energyhatch.gregtech.voltage.in,Voltage IN: §a%s §7(§a%s§7),電圧入力: §a%s §7(§a%s§7)
+tooltip.energyhatch.gregtech.voltage.out,Voltage OUT: §a%s §7(§a%s§7),電圧出力: §a%s §7(§a%s§7)
+tooltip.energyhatch.gregtech.amperage,Amperage: §e%s,アンペア: §e%s
+tooltip.energyhatch.gregtech.storage,Internal Energy Capacity: §9%s,内部エネルギー容量: §9%s
+tooltip.ic2.powertier.0.name,ULV,ULV
+tooltip.ic2.powertier.1.name,LV,LV
+tooltip.ic2.powertier.2.name,MV,MV
+tooltip.ic2.powertier.3.name,HV,HV
+tooltip.ic2.powertier.4.name,EV,EV
+tooltip.ic2.powertier.5.name,IV,IV
+tooltip.ic2.powertier.6.name,LuV,LuV
+tooltip.ic2.powertier.7.name,ZPM,ZPM
+tooltip.ic2.powertier.8.name,UV,UV
+tooltip.ic2.powertier.9.name,UHV,UHV
+tooltip.ic2.powertier.10.name,UEV,UEV
+tooltip.ic2.powertier.11.name,UIV,UIV
+tooltip.ic2.powertier.12.name,UXV,UXV
+item.modularmachinery.itemblueprint.name,Machine Blueprint,マシン設計図
+item.modularmachinery.itemmodularium.name,Modularium,モジュラリウム
+item.modularmachinery.itemconstructtool.name,Construct Selection Tool,構築選択ツール
+tile.modularmachinery.blockcontroller.name,Machine Controller,マシンコントローラ
+tile.modularmachinery.blockcasing.plain.name,Machine Casing,マシンケース
+tile.modularmachinery.blockcasing.vent.name,Machine Vent,マシンの排気口
+tile.modularmachinery.blockcasing.firebox.name,Firebox Casing,ファイアボックスケース
+tile.modularmachinery.blockcasing.gearbox.name,Machine Gearbox,マシンギアボックス
+tile.modularmachinery.blockcasing.reinforced.name,Reinforced Machine Casing,強化されたマシンケース
+tile.modularmachinery.blockcasing.circuitry.name,Machine Circuitry,マシン回路
+tile.modularmachinery.blockinputbus.tiny.name,Tiny Item Input,小さなアイテム入力
+tile.modularmachinery.blockinputbus.small.name,Small Item Input,小型アイテム入力
+tile.modularmachinery.blockinputbus.normal.name,Normal Item Input,通常アイテム入力
+tile.modularmachinery.blockinputbus.reinforced.name,Reinforced Item Input,強化されたアイテム入力
+tile.modularmachinery.blockinputbus.big.name,Big Item Input,大容量アイテム入力
+tile.modularmachinery.blockinputbus.huge.name,Huge Item Input,大きなアイテム入力
+tile.modularmachinery.blockinputbus.ludicrous.name,Ludicrous Item Input,驚異的なアイテム入力
+tile.modularmachinery.blockoutputbus.tiny.name,Tiny Item Output,微小アイテム出力
+tile.modularmachinery.blockoutputbus.small.name,Small Item Output,小アイテム出力
+tile.modularmachinery.blockoutputbus.normal.name,Normal Item Output,通常アイテム出力
+tile.modularmachinery.blockoutputbus.reinforced.name,Reinforced Item Output,強化アイテム出力
+tile.modularmachinery.blockoutputbus.big.name,Big Item Output,大きなアイテム出力
+tile.modularmachinery.blockoutputbus.huge.name,Huge Item Output,巨大アイテム出力
+tile.modularmachinery.blockoutputbus.ludicrous.name,Ludicrous Item Output,極端なアイテム出力
+tile.modularmachinery.blockfluidinputhatch.tiny.name,Tiny Fluid Input Hatch,微小液体入力ハッチ
+tile.modularmachinery.blockfluidinputhatch.small.name,Small Fluid Input Hatch,小型液体入力ハッチ
+tile.modularmachinery.blockfluidinputhatch.normal.name,Normal Fluid Input Hatch,通常液体入力ハッチ
+tile.modularmachinery.blockfluidinputhatch.reinforced.name,Reinforced Fluid Input Hatch,強化された液体入力ハッチ
+tile.modularmachinery.blockfluidinputhatch.big.name,Big Fluid Input Hatch,大容量液体入力ハッチ
+tile.modularmachinery.blockfluidinputhatch.huge.name,Huge Fluid Input Hatch,大型液体入力ハッチ
+tile.modularmachinery.blockfluidinputhatch.ludicrous.name,Ludicrous Fluid Input Hatch,ばかげた流体入力ハッチ
+tile.modularmachinery.blockfluidinputhatch.vacuum.name,Vacuum Fluid Input Hatch,真空液体入力ハッチ
+tile.modularmachinery.blockfluidoutputhatch.tiny.name,Tiny Fluid Output Hatch,小さな液体出力ハッチ
+tile.modularmachinery.blockfluidoutputhatch.small.name,Small Fluid Output Hatch,小型液体出力ハッチ
+tile.modularmachinery.blockfluidoutputhatch.normal.name,Normal Fluid Output Hatch,通常の液体出力ハッチ
+tile.modularmachinery.blockfluidoutputhatch.reinforced.name,Reinforced Fluid Output Hatch,強化された液体出力ハッチ
+tile.modularmachinery.blockfluidoutputhatch.big.name,Big Fluid Output Hatch,大型液体出力ハッチ
+tile.modularmachinery.blockfluidoutputhatch.huge.name,Huge Fluid Output Hatch,巨大液体出力ハッチ
+tile.modularmachinery.blockfluidoutputhatch.ludicrous.name,Ludicrous Fluid Output Hatch,極端な液体出力ハッチ
+tile.modularmachinery.blockfluidoutputhatch.vacuum.name,Vacuum Fluid Output Hatch,真空液体出力ハッチ
+tile.modularmachinery.blockenergyinputhatch.tiny.name,Tiny Energy Input Hatch,小型エネルギー入力ハッチ
+tile.modularmachinery.blockenergyinputhatch.small.name,Small Energy Input Hatch,小型エネルギー入力ハッチ
+tile.modularmachinery.blockenergyinputhatch.normal.name,Normal Energy Input Hatch,通常のエネルギー入力ハッチ
+tile.modularmachinery.blockenergyinputhatch.reinforced.name,Reinforced Energy Input Hatch,強化されたエネルギー入力ハッチ
+tile.modularmachinery.blockenergyinputhatch.big.name,Big Energy Input Hatch,大容量エネルギー入力ハッチ
+tile.modularmachinery.blockenergyinputhatch.huge.name,Huge Energy Input Hatch,巨大エネルギー入力ハッチ
+tile.modularmachinery.blockenergyinputhatch.ludicrous.name,Ludicrous Energy Input Hatch,極端なエネルギー入力ハッチ
+tile.modularmachinery.blockenergyinputhatch.ultimate.name,Ultimate Energy Input Hatch,究極エネルギー入力ハッチ
+tile.modularmachinery.blockenergyoutputhatch.tiny.name,Tiny Energy Output Hatch,小型エネルギー出力ハッチ
+tile.modularmachinery.blockenergyoutputhatch.small.name,Small Energy Output Hatch,小さなエネルギー出力ハッチ
+tile.modularmachinery.blockenergyoutputhatch.normal.name,Normal Energy Output Hatch,通常のエネルギー出力ハッチ
+tile.modularmachinery.blockenergyoutputhatch.reinforced.name,Reinforced Energy Output Hatch,強化されたエネルギー出力ハッチ
+tile.modularmachinery.blockenergyoutputhatch.big.name,Big Energy Output Hatch,大容量エネルギー出力ハッチ
+tile.modularmachinery.blockenergyoutputhatch.huge.name,Huge Energy Output Hatch,大容量エネルギー出力ハッチ
+tile.modularmachinery.blockenergyoutputhatch.ludicrous.name,Ludicrous Energy Output Hatch,極端に高いエネルギー出力ハッチ
+tile.modularmachinery.blockenergyoutputhatch.ultimate.name,Ultimate Energy Output Hatch,究極のエネルギー出力ハッチ
+gui.controller.status.no_energy,Missing energy to continue processing,エネルギーが不足しており、処理を継続できません。
+tooltip.machinery.energy.in.tick,Per Tick: %s FE/t,1ターンあたり: %s FE/t
+tooltip.machinery.energy.in.total,Total: %s FE,合計: %s FE
+tooltip.machinery.energy.out.tick,Per Tick: %s FE/t,1ターンあたり: %s FE/t
+tooltip.machinery.energy.out.total,Total: %s FE,合計: %s FE
+tooltip.energyhatch.charge,%s / %s Energy,%s / %s エネルギー
+tooltip.energyhatch.ic2.out.voltage,Output Voltage: %s,出力電圧: %s
+tooltip.energyhatch.ic2.out.transfer,Output Transfer: %s %s,出力転送: %s %s
+tooltip.energyhatch.ic2.in.voltage,Input Voltage: %s,入力電圧: %s
+tooltip.energyhatch.ic2.in.transfer,Input Transfer: %s %s,入力転送: %s %s

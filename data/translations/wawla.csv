@@ -1,0 +1,396 @@
+﻿key,source_text,target_text
+tooltip.wawla.heldItem,Held Item,保持アイテム
+tooltip.wawla.feet,Feet,足
+tooltip.wawla.leggings,Leggings,レギンス
+tooltip.wawla.chestplate,Chestplate,胸甲
+tooltip.wawla.helmet,Helmet,ヘルメット
+tooltip.wawla.item,Item,アイテム
+tooltip.wawla.owner,Owner,所有者
+tooltip.wawla.jumpStrength,Jump Strength,ジャンプ強度
+tooltip.wawla.speed,Speed,速度
+tooltip.wawla.canHarvest,Harvestable,収穫可能
+tooltip.wawla.toolType,Correct Tool,正しいツール
+tooltip.wawla.burnTime,Burn Time,燃焼時間
+tooltip.wawla.seconds,Seconds Remaining,残り時間（秒）
+tooltip.wawla.input,Input,入力
+tooltip.wawla.output,Output,出力
+tooltip.wawla.fuel,Fuel,燃料
+tooltip.wawla.levels,Levels,高度
+tooltip.wawla.primary,First Effect,最初の効果
+tooltip.wawla.secondary,Second Effect,2番目の効果
+tooltip.wawla.shiftEnch,Hold the Sneak key for Enchantment Description,エンチャント説明を見るにはスニークキーを押してください
+tooltip.wawla.blockLevel,Required Tier,必要な階層
+tooltip.wawla.amount,Amount,数量
+tooltip.wawla.lightLevel,Light Level,光レベル
+tooltip.wawla.sit,Sitting,座っている
+tooltip.wawla.birth,Cooldown,クールダウン
+tooltip.wawla.age,Adulthood,成人
+tooltip.wawla.tooltype.shovel,Shovel,シャベル
+tooltip.wawla.tooltype.pickaxe,Pickaxe,ツルハシ
+tooltip.wawla.tooltype.axe,Axe,斧
+tooltip.wawla.armorprot,Protection,保護
+tooltip.wawla.armor,Armor Points,防具ポイント
+tooltip.wawla.progress,Progress,進捗
+tooltip.wawla.missingEnch,No description was found for this enchantment.,このエンチャントの説明が見つかりませんでした。
+tooltip.wawla.tnt.fuse,Fuse Time,点火時間
+tooltip.wawla.profession,Profession,職業
+tooltip.wawla.unknownplayer,Unknown Player,不明なプレイヤー
+tooltip.wawla.sleepable,Sleepable,眠れる
+tooltip.wawla.hardness,Hardness,硬度
+tooltip.wawla.resistance,Blast Resistance,爆発耐性
+tile.null.name,"Unnamed Block, report to mod author.",未命名ブロック、モッド作者に報告してください。
+entity.ItemFrame.name,Item Frame,アイテムのフレーム
+option.wawla.showEquipment,Entity Equipment?,エンティティの装備？
+option.wawla.furnace.output,Furnace Output?,炉出力?
+option.wawla.showHead,Player Head Names?,プレイヤーヘッド名？
+option.wawla.horse.showJump,Horse Jump Power?,ウマのジャンプ力？
+option.wawla.furnace.fuel,Furnace Fuel?,炉の燃料？
+option.wawla.harvest.showHarvest,Harvestability?,収穫可能?
+option.wawla.harvest.showTool,Correct Tool?,正しいツール？
+option.wawla.harvest.showTier,Correct Tier?,正しい階層？
+option.wawla.furnace.input,Furnace Input?,炉入力？
+option.wawla.furnace.burntime,Furnace Burn Time?,炉の燃焼時間？
+option.wawla.horse.showSpeed,Horse Speed?,ウマの速度？
+option.wawla.showEnchDesc,Enchantment Descriptions?,エンチャントの説明？
+option.wawla.beacon.showLevels,Beacon Level?,beaconレベル？
+option.wawla.beacon.showPrimary,Prime Beacon Effect?,プライムビーコン効果？
+option.wawla.beacon.showSecondary,Second Beacon Effect?,2番目のビーコン効果？
+option.wawla.light.lightLevel,Light Level?,光レベル？
+option.wawla.light.showDay,Day Light Level?,日光レベル？
+option.wawla.light.monsterSpawn,Monster Light Level?,モンスター光レベル？
+option.wawla.pets.showOwner,Pet Owner?,ペット所有者？
+option.wawla.pets.cooldown,Birth Cooldown?,誕生冷却時間?
+option.wawla.pets.age,Baby Age?,子供の年齢？
+option.wawla.pets.sitting,Sitting?,座っている？
+option.wawla.showMobArmor,Show Mob Armor Value?,モンスターの防具値を表示？
+option.wawla.harvest.showProgress,Show Block Breaking Progression,ブロック破壊進行状況を表示
+option.wawla.tnt.fuse,Show Fuse Time,フューズ時間を表示
+option.wawla.showProfession,Show Villager Profession,村人職業を表示
+option.wawla.bed.sleepable,Bed Status?,ベッドの状態?
+option.wawla.info.showHardness,Show Block Hardness?,ブロック硬度を表示？
+option.wawla.info.showResistance,Show Blast Resistance?,爆発耐性を表示しますか？
+description.enchantment.protect.all,This enchantment reduces damage done to the wearer from many damage sources. It stacks with enchantments such as Fire Resistance and Feather Falling however it is possible to hit a limit on how much damage will be reduced. This enchantment can be applied to all armour types.,この呪文は装甲者に多くのダメージ源からのダメージを軽減する。火耐性やフェザーフォーリングなどの呪文と重複するが、ダメージ軽減の上限に到達する可能性があります。この呪文はすべての防具タイプに適用できます。
+description.enchantment.protect.fire,"This enchantment reduces damage taken from fire sources such as fire, blazes and lava. This enchantment also reduces the total amount of time the wearer will stay on fire. This enchantment can be applied to all armour types.",この呪文は火、ブレイズ、溶岩などの火源からのダメージを軽減します。この呪文はまた、装甲者が火の上にいる時間の合計量を減らします。この呪文はすべての防具タイプに適用できます。
+description.enchantment.protect.fall,"This enchantment reduces damage taken from falling, it also reduces damage taken when using ender pearls. This enchantment is only applicable to boots.",この呪文は落下からのダメージを軽減し、また、エンダーパールを使用する場合のダメージも軽減します。この呪文はブーツにのみ適用可能です。
+description.enchantment.protect.explosion,This enchantment reduces damage taken from explosions such as tnt or creepers. This enchantment also reduces the knockback from explosions. This enchantment can be applied to all armour types.,この呪文はTNTやクリーパーなどの爆発からのダメージを軽減します。この呪文はまた、爆発からのノックバックを軽減します。この呪文はすべての防具タイプに適用できます。
+description.enchantment.protect.projectile,This enchantment reduces damage taken from projectiles such as arrows and fire charges. This enchantment can be applied to all armour types.,この呪文は矢や火炎チャージなどの発射物からのダメージを軽減します。この呪文はすべての防具タイプに適用できます。
+description.enchantment.oxygen,This enchantment improves the vision of the wearer when under water. The enchantment will also increase the total air of the wearer by 15 seconds per level. Time between suffocation damage is also increased by a second per level. This enchantment can only be applied to helmets.,この呪文は水中にいるときの装甲者の視力を向上させます。この呪文はまた、装甲者の全空気を1レベルあたり15秒増加させます。窒息ダメージ間の時間もレベルあたり1秒増加します。この呪文はヘルメットにのみ適用できます。
+description.enchantment.waterWorker,This enchantment improves the block breaking speed of the wearer when under water. This enchantment can only be applied to helmets.,この呪文は水中にいるときの装甲者のブロック破壊速度を向上させます。この呪文はヘルメットにのみ適用できます。
+description.enchantment.thorns,This enchantment has a 15% chance per level to damage mobs that hurt the wearer by half a heart to two hearts. This enchantment can be applied to all armour types.,この呪文はレベルあたり15%の確率で、装甲者を傷つけたモブにハーフハート2つのダメージを与えます。この呪文はすべての防具タイプに適用できます。
+description.enchantment.damage.all,This enchantment increases the damage of the item by 1.25 damage per level. This enchantment can be applied to many tool types however a sword is the primary item.,この呪文はアイテムのダメージをレベルあたり1.25ダメージ増加させます。この呪文は多くのツールタイプに適用できますが、剣が主要なアイテムです。
+description.enchantment.damage.undead,"This enchantment increases damage done to undead mobs such as skeletons, zombies and the wither by 2.5 damage per level. This enchantment can be applied to many tools however a sword is the primary item.",この呪文は、スケルトン、ゾンビ、ウィザーなどのアンデッドモブへのダメージをレベルあたり2.5ダメージ増加させます。この呪文は多くのツールに適用できますが、剣が主要なアイテムです。
+description.enchantment.damage.arthropods,"This enchantment increases damage done to ""spider"" based mobs such as Spiders, Cave Spiders, Silverfish and Endermites by 2.5 damage per level. This enchantment can be applied to many tools however swords are the primary item.",この呪文は、クモ、洞窟クモ、シルバーフィッシュ、エンダーマイトなどの「クモ」ベースのモブへのダメージをレベルあたり2.5ダメージ増加させます。この呪文は多くのツールに適用できますが、剣が主要なアイテムです。
+description.enchantment.knockback,This enchantment causes mobs hit to knocked away from the player. This enchantment can be applied only to swords.,この呪文はプレイヤーに当たったモブを遠ざかるようにします。この呪文は剣にのみ適用できます。
+description.enchantment.fire,This enchantment causes mobs hit to be set on fire. The mob will receive 3 points of fire damage with an additional 4 points of fire damage for every level afterwards. This enchantment can only be applied to swords.,この呪文は当たったモブを火で燃やします。モブは3ポイントの火ダメージを受け、その後のレベルごとに4ポイントの火ダメージを受けます。この呪文は剣にのみ適用できます。
+description.enchantment.lootBonus,This enchantment causes mobs to drop more loot. The maximum amount of loot dropped is increased by 1 per level. The chance of rare drops is increased by 3% plus an addition .5% per level afterwards. This enchantment can only be applied to swords.,この呪文はモブがより多くのルートをドロップする原因となります。ドロップされるルートの最大量はレベルあたり1増加します。レアドロップの確率は3%プラス、その後のレベルごとに0.5%増加します。この呪文は剣にのみ適用できます。
+description.enchantment.digging,"This enchantment causes blocks to break faster by 30%/69%/120%/186%/271%. For the effect to apply the tool must be used on the correct block. This effect be applied to picks, shovels, axes and shears.",この呪文はブロックを30%/69%/120%/186%/271%高速で破壊する原因となります。効果を適用するには、ツールを正しいブロックで使用する必要があります。この効果はピッケル、シャベル、斧、ハサミに適用できます。
+description.enchantment.untouching,"This enchantment allows blocks that are normally not obtainable to be obtainable. Examples include ice, grass and ore blocks. This enchantment can be applied to picks, shovels, axes and shears.",この呪文は通常取得不可のブロックを取得可能にします。氷、草、鉱石ブロックなどの例があります。この呪文はピッケル、シャベル、斧、ハサミに適用できます。
+description.enchantment.durability,"This enchantment increases the average durability of a tool or piece of armour. This effect can be applied to almost any item in the game as long as it has durability. Examples include flint and steel, fishing rods, all armour types and tools.",この呪文はツールまたは防具の平均耐久性を向上させます。この効果は、耐久性を持つほぼすべてのアイテムに適用できます。火打ち石と鋼、釣り竿、すべての防具タイプおよびツールの例があります。
+description.enchantment.lootBonusDigger,"This enchantment gives certain blocks the chance to drop twice as many items. Each level increases to the amount of chances. The odds that a chance will succeed are decreased however the drop modifier is increased. 33%/25%/20% for 2/3/4 times the drops. For blocks that drop multiple items such as melons the maximum amount of items that could be dropped is increased by 1 per level. The chance to get flint from gravel is also increased offering a 14%/25/100% chance to drop flint. This enchantment can be applied to picks, shovels and axes.",この呪文は特定のブロックに2倍のアイテムをドロップする確率を与えます。各レベルで確率の量が増加します。確率が成功する確率は減少しますが、ドロップ修飾子は増加します。2/3/4倍のドロップの場合は33%/25%/20%です。スイカなど複数のアイテムをドロップするブロックの場合、ドロップできるアイテムの最大量はレベルあたり1増加します。砂利からフリントを取得する確率も増加し、14%/25%/100%の確率でフリントをドロップします。この呪文はピッケル、シャベル、斧に適用できます。
+description.enchantment.arrowDamage,This enchantment increases damage done by a bow by 25% multiplied by the level + 1. Damage is rounded to the nearest half heart. This enchantment is only for bows.,この呪文は弓によるダメージをレベル+1で25%増加させます。ダメージは最も近いハーフハートに丸められます。この呪文は弓のみです。
+description.enchantment.arrowKnockback,This enchantment will cause mobs to be knocked away from the player when hit. This enchantment is for bows.,この呪文は当たったモブをプレイヤーから遠ざかるようにします。この呪文は弓用です。
+description.enchantment.arrowFire,"This enchantment will set cause arrows launched to be set on fire. Mobs hit will also be set on fire. This fire only affects mobs, players and tnt blocks. This enchantment is only for bows.",この呪文は発射された矢を火で燃やす原因となります。当たったモブも火で燃やされます。この火はモブ、プレイヤー、TNTブロックにのみ影響します。この呪文は弓のみです。
+description.enchantment.arrowInfinite,This enchantment prevents arrows from being consumed when fired. This effect requires that the player has at least one arrow in their inventory. This enchantment is only for bows.,この呪文は発射時に矢の消費を防ぎます。この効果にはプレイヤーのインベントリに少なくとも1つの矢が必要です。この呪文は弓のみです。
+description.enchantment.lootBonusFishing,This enchantment increases the players odds of getting treasure when fishing by 1% per level. This enchantment is only for fishing rods.,この呪文は釣り時に宝を取得する確率をレベルあたり1%増加させます。この呪文は釣り竿のみです。
+description.enchantment.fishingSpeed,This enchantment decreases the time it takes for a fish to bite the hook by 5 seconds per level. This also increases the chance to get junk and treasure by 1% per level.,この呪文は魚が針を噛むまでの時間をレベルあたり5秒短縮します。これはまた、ゴミと宝を取得する確率をレベルあたり1%増加させます。
+description.villager.profession.farmer,Farmer,自動農業機
+description.villager.profession.librarian,Librarian,司書
+description.villager.profession.priest,Priest,司祭
+description.villager.profession.butcher,Butcher,肉屋
+description.villager.profession.zombie,Zombie,ゾンビ
+description.villager.profession.openblocks.king-ish,The King(ish),王（程度）
+description.villager.profession.extvil.Miller,Miller,ミラー
+description.villager.profession.extvil.Fisher,Fisher,魚釣り機
+description.villager.profession.extvil.Miner,Miner,採掘者
+description.villager.profession.extvil.Scientist,Scientist,科学者
+description.villager.profession.extvillom.Tanner,Tanner,タンナー
+description.villager.profession.mystcraft.archivist,Archivist,古文書商
+description.villager.profession.bcaddons.Engineer,Engineer,エンジニア
+description.villager.profession.thaumcraft.wizard,Wizard,ウィザード
+description.villager.profession.thaumcraft.moneychanger,Merchant,商人
+description.villager.profession.compactmachines.villager,Compact Machinist,コンパクトマシニスト
+description.villager.profession.railcraft.trackman,Rail Worker,レール作業員
+description.villager.profession.pneumaticcraft.VillagerMechanic,Mechanic,機械工
+description.villager.profession.minefactoryreloaded.zoologist,Zoologist,動物学者
+description.villager.profession.is_mtc.card_master,Card Master,カードマスター
+description.villager.profession.gcewing_sg.tokra,Tok'ra,トークラ
+description.villager.profession.steamcraft.villager,Steamcrafter,スチームクラフター
+description.villager.profession.fantastic.fantastic_fisherman,Fantastic Fisherman,素晴らしい漁師
+description.villager.profession.grccellar.brewer,Brewer,醸造師
+description.villager.profession.peripheralsplusplus.CCVillager,Computer Technician,コンピュータ技術者
+description.villager.profession.evilcraft.werewolfVillager,Werewolf,ウェアウルフ
+description.villager.profession.redgear_brewcraft.villagerwitch,Witch,魔女
+description.villager.profession.fossil.Archaeologist,Archaeologist,考古学者
+description.villager.profession.pennyarcade.CoinMerchant,Coin Vendor,コイン販売機
+description.villager.profession.psychedelicraft.villagerDealer,Drug Dealer,ドラッグディーラー
+description.villager.profession.jukeboxreloaded.villager,Record Dealer,レコード商人
+description.villager.profession.minecraft.etymologist,Etymologist,語源学者
+description.villager.profession.tofucraft.tofucook,Tofu Chef,豆腐シェフ
+description.villager.profession.jewelrycraft.jeweler,Jeweller,宝石商
+description.villager.profession.taverns.barwench,Bar Maid,バーのメイド
+description.villager.profession.taverns.village_shepherdess,Shepherdess,羊飼い
+description.villager.profession.taverns.village_baker,Baker,パン屋
+description.villager.profession.tynkyn.jx_villager_recycle,Recycling,リサイクル
+description.villager.profession.tynkyn.jx_villager_botanist,Botanist,植物学者
+description.villager.profession.lozmod.villager_beedle,Beedle,ビーデル
+description.villager.profession.lozmod.villager_beedle_special,Beedle,ビーデル
+description.villager.profession.minecraft.farmer,Farmer,自動農業機
+description.villager.profession.gvcguns.gvcVillager,Arms Dealer,アームズディーラー
+description.villager.profession.actuallyadditions.jamVillager,Jam Villager,ジャム村人
+description.villager.profession.pokecube_adventures.cubesalesman,Salesman,販売員
+description.villager.profession.terraarts.YE3TE2y,YE3TE2y,YE3TE2y
+description.villager.profession.xw.smithy3,Smithy,鍛冶屋
+description.villager.profession.xw.hunter_v1,Hunter,ハンター
+description.villager.profession.diversity.chief,Chief,リーダー
+description.villager.profession.diversity.farmer,Farmer,自動農業機
+description.villager.profession.jbrobot.jbvillagerblock,Blocks,ブロック
+description.villager.profession.jbrobot.jbvillageritem,Items,アイテム
+description.villager.profession.jbrobot.jbvillagermodel,Models,モデル
+description.villager.profession.jbrobot.jbvillagermotion,Motion,動き
+description.villager.profession.wa.villager,Villager,村人
+description.villager.profession.wa.swordsmith,Swordsmith,剣職人
+description.villager.profession.wa.teaMaster,Tea Master,茶道師
+description.villager.profession.wa.priest,Priest,司祭
+tooltip.wawla.jewelry.molten,Molten,溶融
+tooltip.wawla.jewelry.unmelted,Unmelted,未溶け
+tooltip.wawla.jewelry.melttime,Melt Time,溶け時間
+tooltip.wawla.jewelry.cooling,Cooling,冷却
+option.wawla.jewelrycraft.showMoltenAmount,Molten Amounts,溶融量
+option.wawla.jewelrycraft.showMetalAmount,Unmelted Amounts,未溶融量
+option.wawla.jewelrycraft.showMeltTime,Melting Time,溶かし時間
+option.wawla.jewelrycraft.showCooling,Cooling Time,冷却時間
+tooltip.wawla.tinkers.dryness,Dryness,乾燥
+option.wawla.tinkers.hideLandmine,Hide landmines?,地雷を隠す?
+option.wawla.tinkers.showDryerTime,Drying rack progress?,乾燥ラックの進行状況？
+option.wawla.tinkers.showDryerItem,Drying rack item?,乾燥ラックアイテム？
+option.wawla.tinkers.showFurnace,Slab furnace contents?,スロブ炉の中身？
+option.wawla.tinkers.showBurnTime,Burn Time?,焼け時間？
+description.enchantment.aquacultureAppealing,This enchantment gives the player a greater amount of time to catch fish.,このエンチャントはプレイヤーに魚を捕まえる時間を増やします。
+description.enchantment.aquacultureBarbedHook,This enchantment gives the player a better chance of catching the fish.,このエンチャントはプレイヤーが魚を捕まえる確率を上げます。
+description.enchantment.aquacultureDoubleHook,This enchantment allows the player to get more than one fish or loot.,このエンチャントはプレイヤーが1回で複数の魚やアイテムを取得できるようにします。
+description.enchantment.aquacultureHeavyLine,This enchantment allows the player to catch larger and heavier fish.,このエンチャントはプレイヤーがより大きく重い魚を捕まえることを可能にします。
+description.enchantment.aquacultureLongCast,"This enchantment allows the hook(bobber) of the fishing rod, to be casted longer.",このエンチャントは釣り竿のフック（ボーバー）をより遠くへ投げることができます。
+description.enchantment.aquacultureMagnetic,This enchantment gives the player a greater chance to catch fish.,このエンチャントはプレイヤーが魚を捕まえる確率を高めます
+description.enchantment.aquacultureShortCast,"This enchantment allows the hook(bobber) of the fishing rod, to be casted shorter.",このエンチャントは、釣り竿のフック（ボーバー）を短く投げることを可能にします。
+tooltip.wawla.pixelmon.male,male,男性
+tooltip.wawla.pixelmon.female,female,女性
+tooltip.wawla.pixelmon.ability,Ability,能力
+tooltip.wawla.pixelmon.happiness,Happiness,幸せ
+tooltip.wawla.pixelmon.helditem,Held Item,保持アイテム
+tooltip.wawla.pixelmon.none,None,なし
+tooltip.wawla.pixelmon.attack,Attack,攻撃
+tooltip.wawla.pixelmon.defence,Defence,防御
+tooltip.wawla.pixelmon.health,HP,HP
+tooltip.wawla.pixelmon.spattack,Special Attack,特殊攻撃
+tooltip.wawla.pixelmon.spdefence,Special Defence,特殊防御
+tooltip.wawla.pixelmon.speed,Speed,速度
+tooltip.wawla.pixelmon.iv,IV,IV
+tooltip.wawla.pixelmon.ev,EV,EV
+tooltip.wawla.pixelmon.growth,Growth,成長
+tooltip.wawla.pixelmon.product,Product,製品
+tooltip.wawla.pixelmon.nature,Nature,自然
+tooltip.wawla.pixelmon.size,Size,サイズ
+entity.pixelmon.Pixelmon.name,Pixelmon,ピクセルモン
+option.wawla.pixelmon.showFriendship,Happiness?,幸せ度？
+option.wawla.pixelmon.showApricornProduct,Apricorn Type?,アピリンタイプ？
+option.wawla.pixelmon.showApricornGrowth,Apricorn Growth?,アピルコーン成長？
+option.wawla.pixelmon.showAbility,Abilities?,能力？
+option.wawla.pixelmon.showHeldItem,Held Item?,保持アイテム？
+option.wawla.pixelmon.showNature,Natures?,ナチュアーズ?
+option.wawla.pixelmon.showSize,Size?,サイズ？
+option.wawla.pixelmon.showIV,Show IV's?,IVを表示？
+option.wawla.pixelmon.showEV,Show EV's?,EVを表示？
+tooltip.wawla.thaumcraft.aspect,Aspect,アスペクト
+tooltip.wawla.thaumcraft.linked,Linked,リンク
+tooltip.wawla.thaumcraft.dimension,Dimension,ディメンション
+tooltip.wawla.thaumcraft.experience,Experience,経験値
+option.wawla.thaumcraft.jarAspect,Jar Aspects?,瓶の特性？
+option.wawla.thaumcraft.jarAmount,Jar Amount?,瓶の量?
+option.wawla.thaumcraft.mirrorLink,Mirror Link?,鏡のリンク？
+option.wawla.thaumcraft.mirrorDim,Mirror Dimension?,鏡の次元？
+option.wawla.thaumcraft.jarEXP,Jar Experience?,経験値ジャー
+option.wawla.thaumcraft.wandItem,Recharge Item?,充電アイテム？
+option.wawla.thaumcraft.wandCharge,Wand Charge?,杖の充電？
+option.wawla.thaumcraft.pedestalItem,Pedestal Item?,台座アイテム？
+option.wawla.thaumcraft.deconAspect,Deconstruction Aspect?,分解アスペクト？
+description.enchantment.artifice.invisible,An armour enchantment which makes the equipped piece of armour look invisible.,装備した防具を見えなくさせるアーマーエンチャント。
+description.enchantment.artifice.soulstealing,A weapon enchantment that causes mobs to drop additional experience points. Higher levels causes the amount of exp to increase.,モブに追加の経験ポイントをドロップさせる武器呪文。レベルが高いほど、経験値の量が増加します。
+description.enchantment.artifice.resistance,An armour enchantment which provides protection from magical damage and wither damage. Higher levels offer better resistance.,魔法ダメージとウィザーダメージからの保護を提供する防具呪文。レベルが高いほど、耐性がより強くなります。
+description.enchantment.repair,"Causes items to repair durability over time. This enchantment has two tiers, the second tier restoring durability at a faster rate. This enchantment can be used on weapons, Wand Foci and other tools, excluding shears.",アイテムを時間をかけて耐久性を修復させます。この呪文には2段階あり、第2段階はより高速に耐久性を復元します。この呪文は武器、ワンドフォーカス、その他のツール（ハサミを除く）に使用できます。
+description.enchantment.haste,"Grants faster movement speed. This enchantment has three tiers, each increasing the speed boost given.",より高い移動速度を与えます。この呪文には3段階あり、それぞれ与える速度ブーストを増加させます。
+description.enchantment.potency,"Increases the strength of a spell. This is a three tier enchantment, each increasing the strength of the casted spell. This enchantment is only applicable for Wand Foci and can have a different effect depending on what Foci is being used.",呪文の強度を増加させます。これは3段階呪文であり、各段階は鋳造された呪文の強度を増加させます。この呪文はワンドフォーカスにのみ適用可能で、使用されているフォーカスに応じて異なる効果を持つことができます。
+description.enchantment.frugal,"Reduces the amount of vis consumed when a Wand Foci is used. This is a tier three enchantment, each tier granting a greater reduction. This enchantment is only applicable for Wand Foci.",ワンドフォーカスを使用する場合の消費量を削減します。これは段階3呪文であり、各段階はより大きな削減を与えます。この呪文はワンドフォーカスにのみ適用可能です。
+description.enchantment.wandfortune,"This enchantment is much like the fortune enchantment, allowing blocks which drop items to have a higher yield. This enchantment has three tiers, each increasing the chance for extra yield. This enchantment is only applicable for Wand Foci.",この呪文は幸運呪文に似ており、アイテムをドロップするブロックがより高い出力を得ることを可能にします。この呪文には3段階があり、各段階は追加出力の確率を増加させます。この呪文はワンドフォーカスにのみ適用可能です。
+description.enchantment.ttinkerer:slowFall,"This enchantment will allow the wearer to fall at a slower speed and will also reduce the fall damage, however it will not negate it. This enchantment can be applied to boots.",この呪文は装甲者がより遅い速度で落ちることを可能にし、また落下ダメージを軽減しますが、それを打ち消しません。この呪文はブーツに適用できます。
+description.enchantment.ttinkerer:ascentBoost,This enchantment allows the wearer to jump considerably higher then normal. This enchantment can be applied on leggings.,この呪文は装甲者が通常より大幅にジャンプしやすくなることを可能にします。この呪文はレギンスに適用できます。
+description.enchantment.ttinkerer:pounce,This enchantment will make the players attacks stronger while they are in the air. This enchantment can only be applied to leggings.,この呪文はプレイヤーが空中にいるときのプレイヤーの攻撃をより強力にします。この呪文はレギンスにのみ適用できます。
+description.enchantment.ttinkerer:shockwave,This enchantment will allow you to damage nearby entities when you fall. This effect is weakened by items which reduce your fall damage.,この呪文は落ちるときに近くのエンティティにダメージを与えることを可能にします。この効果は落下ダメージを軽減するアイテムによって弱められます。
+description.enchantment.ttinkerer:autoSmelt,"When applied to a tool, this enchantment will allow the tool to break through wooden blocks easier. This effect will make the tool take double durability against other blocks.",ツールに適用した場合、この呪文はツールが木のブロックをより簡単に破壊することを可能にします。この効果はツールを他のブロックに対して2倍の耐久性を取得させます。
+description.enchantment.ttinkerer:tunnel,"When applied to a tool, this enchantment will increase the digging speed when breaking blocks in a strait line.",ツールに適用した場合、この呪文は一直線でブロックを破壊する場合のブロック破壊速度を増加させます。
+description.enchantment.ttinkerer:shatter,"When applied to a tool, this tool will have a greater digging speed when breaking strong blocks.",ツールに適用すると、強いブロックを破壊する際に掘削速度が向上します。
+description.enchantment.ttinkerer:desintegrate,"When applied to tools, this tool will break basic blocks such as dirt or stone, which the tool is suited against. Blocks which the tool will not normally break will cause double durability damage.",ツールに適用した場合、このツールはツールに適したものと同じくらい、土やストーンなどの基本的なブロックを破壊します。ツールが通常破壊しないブロックは2倍の耐久性ダメージを引き起こします。
+description.enchantment.ttinkerer:vampirism,This enchantment can only be applied to swords. This effect will cause a portion of damage dealt to be put towards healing the user.,この呪文は剣にのみ適用できます。この効果はダメージの一部がユーザーの治癒に費やされる原因となります。
+description.enchantment.ttinkerer:dispersedStrike,This enchantment can only be applied to swords. This effect will cause a sword strike will have a successive strike. The successive strikes will deal less damage.,この呪文は剣にのみ適用できます。この効果は剣の打撃が連続した打撃を持つ原因となります。連続した打撃はより少ないダメージを与えます。
+description.enchantment.ttinkerer:focusedStrike,"This effect can only be applied to swords. This effect will cause the damage dealt by an initial strike to be decreased, however successive strikes on the same mob will be increased.",この効果は剣にのみ適用できます。この効果は初期の打撃によるダメージを減らす原因となりますが、同じモブへの連続した打撃は増加します。
+description.enchantment.ttinkerer:finalStrike,"This enchantment can only be applied to swords. When damage is dealt, this effect gives a chance to triple the damage.",この呪文は剣にのみ適用できます。ダメージが与えられた場合、この効果はダメージを3倍にする確率を与えます。
+description.enchantment.ttinkerer:valiance,This enchantment can only be applied to swords. This effect will increase the damage dealt when the holder has a lower health.,この呪文は剣にのみ適用できます。この効果は保有者の健康が低い場合に与えられたダメージを増加させます。
+description.enchantment.ttinkerer:quickDraw,"This enchantment is designed for bows, when applied, the time to fully draw the bow is faster.",このエンチャントは弓用に設計されており、適用すると弓を完全に引く時間が速くなります。
+description.enchantment.magicresist,Reduces amount of damage received from magical sources.,魔法源から受けるダメージ量を減少させます。
+description.enchantment.soulbound,"When the player dies, this item will be kept in the inventory on respawn, and will not drop on the ground.",プレイヤーが死ぬと、このアイテムはリスパイン時にインベントリに保持され、地面にドロップされません。
+description.enchantment.vorpal,Increases the chance that a mob will drop its head on death.,モブが死亡時に頭をドロップする確率を上げます。
+description.enchantment.disjunction,Increases damage dealt to Enderman and Wither Skeletons.,エンダーマンとウィザー・スケルトンへのダメージを増加させます。
+description.enchantment.SpecialMobs.painBow,A bow based enchantment which deals additional damage which will bypass protection. Each level deals an additional half heart of damage.,保護を迂回する追加ダメージを与える弓ベースの呪文。各レベルは追加のハーフハートのダメージを与えます。
+description.enchantment.SpecialMobs.painSword,A sword based enchantment which deals additional damage which will bypass protection. Each level deals an additional half heart of damage.,保護を迂回する追加ダメージを与える剣ベースの呪文。各レベルは追加のハーフハートのダメージを与えます。
+description.enchantment.SpecialMobs.plagueBow,"A bow based enchantment which gives the damaged mob a random negative effect. The possible effects are slowness, nausea, blindness, hunger, weakness and poison.",ダメージを受けたモブにランダムな負の効果を与える弓ベースの呪文。可能な効果は遅さ、吐き気、盲目、空腹、虚弱、毒です。
+description.enchantment.SpecialMobs.plagueSword,"A sword based enchantment which gives the damaged mob a random negative effect. The possible effects are slowness, nausea, blindness, hunger, weakness and poison.",ダメージを受けたモブにランダムな負の効果を与える剣ベースの呪文。可能な効果は遅さ、吐き気、盲目、空腹、虚弱、毒です。
+description.enchantment.SpecialMobs.poisonBow,A bow based enchantment which gives the damaged mob poison. Each level increases the power of the poison effect applied.,ダメージを受けたモブに毒を与える弓ベースの呪文。各レベルは適用された毒効果の力を増加させます。
+description.enchantment.SpecialMobs.poisonSword,A sword based enchantment which gives the damaged mob poison. Each level increases the power of the poison effect applied.,ダメージを受けたモブに毒を与える剣ベースの呪文。各レベルは適用された毒効果の力を増加させます。
+description.enchantment.NaturalAbsorption.absorb,An enchantment for armour. The equipped piece of armour will increase the players maximum absorption amount.,防具の呪文。装備した防具の部分がプレイヤーの最大吸収量を増加させます。
+description.enchantment.fly_longer,Increases the total amount of flaps on Simple Flight devices.,シンプルフライトデバイスの総羽根数を増加させます
+description.enchantment.fly_faster,Decreases the duration between flaps on Simple Flight devices. Useless on Jet Packs and Jet Gliders.,シンプルフライトデバイスでのフラップ間隔の時間を短縮します。ジェットパックとジェットグライダーでは効果がありません。
+description.msm.unused,Note: This item/block has been added to help achieve compatibility with other mods. As of now these do not do anything and are not an ordinary part of this mod. No new ores or tools will be added this is ONLY for for mod compatibility.,注：このアイテム/ブロックは他のModとの互換性を実現するために追加されました。現在、これらは何もせず、このModの通常の部分ではありません。新しい鉱石またはツールは追加されません。これはModの互換性のためだけです。
+description.enchantment.msm.ignite,This enchantment will set damaged mobs on fire doing damage equal to that of the enchantment level.,このエンチャントは、ダメージを受けたモブを炎上させ、エンチャントレベルと同等のダメージを与えます。
+description.enchantment.msm.spark,This enchantment will do 3 fire damage to mobs within 2.4 blocks of the damaged mob. Both the player and the target mob will not be set on fire.,この呪文はダメージを受けたモブから2.4ブロック以内のモブに3ポイントの火ダメージを与えます。プレイヤーとターゲットのモブの両方は火で燃やされません。
+description.enchantment.msm.feast,This enchantment will restore 0-3 durability when used. The amount restored is multiplied by the level of the effect.,この呪文は使用時に0〜3の耐久性を復元します。復元される量はエフェクトのレベルで乗算されます。
+description.enchantment.msm.vitality,"This enchantment will consume 256 durability when used and in turn give the user several buffs such as regen, insta health and extra hearts.",この呪文は使用時に256の耐久性を消費し、その代わりにユーザーに再生、インスタヘルス、追加ハートなどの複数のバフを与えます。
+description.enchantment.msm.venomAspect,"This enchantment will poison target mob. The effect will last for seconds equivalent to the level of the effect. It's worth noting that many vanilla mobs such as spiders, zombies and skeletons can not be poisoned rendering this effect useless.",この呪文はターゲットのモブを毒にします。エフェクトはエフェクトのレベルに相当する秒間継続します。クモ、ゾンビ、スケルトンなどの多くのバニラモブは毒を与えることができないため、このエフェクトは役に立たないことに注意してください。
+description.enchantment.msm.absorb,This enchantment has a 5% chance to restore 0-2 hunger points when used.,このエンチャントは使用時に5％の確率で0〜2 の空腹ポイントを回復します。
+description.enchantment.msm.keenEdge,This enchantment increases the damage of the sword by 1 for each level of the effect.,このエンチャントは、効果レベルごとに剣のダメージを1増加させます。
+description.enchantment.msm.scorn,This enchantment will double the damage of the sword by 2 when used in dimensions other than the surface world.,この呪文は表面世界以外の次元で使用する場合、剣のダメージを2で2倍にします。
+description.enchantment.msm.enderPulse,This enchantment will warp the player where they are looking when used. This effect has a range of 18 blocks per level. This enchantment will damage the item by 50 points every time it is used. The player will also take 1 damage in fall damage.,この呪文はプレイヤーが見ているときにプレイヤーをワープさせます。この効果はレベルあたり18ブロックの範囲を持っています。この呪文は使用されるたびにアイテムを50ポイント損傷させます。プレイヤーはまた落下ダメージで1ダメージを受けます。
+description.enchantment.msm.enderAura,This enchantment has a 15% chance of activating when the player is hit. When activated the player will warp to a random mob within 30 blocks. This mob may not always be friendly. If no mob is found then the effect will be canceled.,この呪文はプレイヤーが当たるときに15%の確率で起動します。起動すると、プレイヤーは30ブロック以内のランダムなモブにワープします。このモブは必ずしも親切ではないかもしれません。モブが見つからない場合、エフェクトはキャンセルされます。
+description.enchantment.msm.greed,This enchantment has a 7% chance to drop 1-3 extra points of exp.,このエンチャントは7％の確率で1〜3点の経験値を追加でドロップします
+description.enchantment.msm.wisdom,This enchantment is currently broken. My bad :/,現在、このエンチャントメントは壊れています。ごめんなさい :/
+description.enchantment.msm.frozenAspect,This enchantment will slow mobs for 3 seconds per level.,このエンチャントはレベルごとに3秒間モブを遅延させます。
+description.enchantment.msm.frostWave,This enchantment will slow mobs within 2.5 blocks of the target mob for 1.5 seconds.,このエンチャントは、対象モブから2.5ブロック以内のモブを1.5秒間遅延させます。
+description.enchantment.msm.ascension,This enchantment will propel targeted mobs upwards into the air. Hit the mob before it hits the ground to make increase the launch aspect of the effect exponential amount.,この呪文はターゲットのモブを空中に上向きに推進します。地面に当たる前にモブを打つと、エフェクトの起動アスペクトを指数関数的に増加させます。
+description.enchantment.msm.descension,This enchantment will cause the player to fall at a much slower rate than normal. To activate the effect press and hold shift.,この呪文はプレイヤーが通常より大幅に遅い速度で落ちる原因となります。エフェクトを起動するにはシフトキーを押し続けます。
+description.enchantment.msm.shadows,This enchantment will blind the target mob for 1.5 seconds. There is also a 12% chance that the wither effect will be applied for a second.,この呪文はターゲットのモブを1.5秒間盲目にします。ウィザーエフェクトが1秒間適用される12%の確率もあります。
+description.enchantment.msm.decay,This enchantment will apply the wither effect to the target mob for just under 4 seconds.,このエンチャントは対象のモブにウィザー効果を約4秒間付与します。
+description.enchantment.msm.stealth,This enchantment will cause the player to become invisible when activated. Unlike the potion of invisibility this effect will not give off particles and has no time limit or duration. To toggle this on or off simply right click with the sword. It's worth noting that swords and armor will still be visible while this effect is enabled.,この呪法はプレイヤーが起動すると姿を消します。無敵ポーションと異なり、このエフェクトはパーティクルを放出せず、時間制限または期間がありません。剣で右クリックするだけで、これをオン/オフ切り替えします。剣と防具はこのエフェクトが有効な場合でも見えることに注意してください。
+description.enchantment.msm.extinction,This enchantment will kill all mobs on the map that are an instance of the target mob. This can be used on boats to kill all boats in the world and can be used to manage entities in the world. This effect will not target players.,この呪文は、マップ上のターゲットモブのインスタンスであるすべてのモブを殺します。これはボートで使用してワールド内のすべてのボートを殺すことができ、ワールドのエンティティを管理するために使用できます。このエフェクトはプレイヤーをターゲットにしません。
+description.enchantment.imperviousness,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.bash.weightless,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.bash.power,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.bash.damage,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.shield.usage,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.shield.recover,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.bow.loot,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.bow.charge,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.poison,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.frost,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.explosive,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.quickdraw,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.venom,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.iceaspect,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.defusing,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.dowsing,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.spellbane,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.mending,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.cleave,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.leech,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.execute,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.poisonprotect,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.knowledge,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.berserk,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.steadfast,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.agility,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.mobility,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.fleetfoot,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.resurrection,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.harvest,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.Swiftness,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.Vitality,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.SkyBlow,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.Information,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.autoSmelt,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.oreFragments,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.smartHarvest,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+description.enchantment.freeze,This enchantment is unknown. Please contact Darkhax to help him provide a description.,このエンチャントは不明です。Darkhaxに連絡して説明を提供してください。
+tooltip.wawla.true,§aTrue,§a真
+tooltip.wawla.false,§4False,§4偽
+tooltip.wawla.yes,§a✔,§a✔
+tooltip.wawla.no,§4✖,§4✖
+tooltip.wawla.block,Block,ブロック
+tooltip.wawla.shovel,Shovel,シャベル
+tooltip.wawla.pickaxe,Pickaxe,ツルハシ
+tooltip.wawla.axe,Axe,斧
+tooltip.wawla.chisel,Chisel,ノミ
+tooltip.wawla.scoop,Scoop,かき集め
+tooltip.wawla.crowbar,Crowbar,バール
+tooltip.wawla.sword,Sword,剣
+tooltip.wawla.mainhand,Main Hand,主手
+tooltip.wawla.offhand,Off Hand,オフハンド
+tooltip.wawla.legs,Legs,脚
+tooltip.wawla.chest,Chest,チェスト
+tooltip.wawla.head,Head,頭
+tooltip.wawla.star,★,★
+tooltip.wawla.name,Name,名前
+tooltip.wawla.generic.progression,Progression,進捗
+tooltip.wawla.generic.enchpower,Enchant Power,エンチャントパワー
+tooltip.wawla.generic.blastresist,Blast Resist,爆発耐久
+tooltip.wawla.generic.hardness,Hardness,硬度
+tooltip.wawla.generic.harvestable,Harvestable,収穫可能
+tooltip.wawla.generic.showtier,Tier,段階
+tooltip.wawla.generic.tooltype,Tool,ツール
+tooltip.wawla.generic.armor,Armor,防具
+tooltip.wawla.generic.sitting,Sitting,座っている
+tooltip.wawla.generic.tamed,Tamed,飼いならされた
+tooltip.wawla.generic.breedingtime,Breeding Cooldown,繁殖クールダウン
+tooltip.wawla.generic.growingage,Growing Cooldown,成長冷却時間
+tooltip.wawla.generic.breedingitem,Breedable,繁殖可能
+tooltip.wawla.generic.temperature,Temperature: %dK,温度: %dK
+tooltip.wawla.vanilla.input,Input,入力
+tooltip.wawla.vanilla.fuel,Fuel,燃料
+tooltip.wawla.vanilla.output,Output,出力
+tooltip.wawla.vanilla.burntime,Burn Time,燃焼時間
+tooltip.wawla.vanilla.jump,Jump: %f (%dX),ジャンプ: %f (%dX)
+tooltip.wawla.vanilla.speed,Speed: %f (%dX),速度: %f (%dX)
+tooltip.wawla.vanilla.career,Career,キャリア
+tooltip.wawla.vanilla.fuse,Fuse,ヒューズ
+tooltip.wawla.vanilla.experience,Experience,経験値
+villager.wawla.zombie,Zombie,ゾンビ
+villager.wawla.witch,Witch,魔女
+tooltip.wawla.enchdesc.name,Enchantment,エンチャント
+tooltip.wawla.enchdesc.addedby,Added by,追加された
+tooltip.wawla.enchdesc.missing,No description found. Please ask the author of %s to add one. Localization key is %s,説明が見つかりませんでした。%s の作者に追加してもらうよう依頼してください。ローカリゼーションキーは %s です。
+tooltip.wawla.enchdesc.activate,Press %s%s%s for enchantment descriptions.,%s%s%s を押してエンチャント説明を見る。
+tooltip.wawla.enchPower,Enchanting Power,%s / %s エンチャントパワー
+enchantment.minecraft.protection.desc,Reduces damage from most sources.,ダメージを軽減します。
+enchantment.minecraft.fire_protection.desc,Reduces the effects of fire damage. Also reduces the burn time when set on fire.,火によるダメージを軽減します。炎上時間も短くなります。
+enchantment.minecraft.feather_falling.desc,Reduces fall damage and ender pearl teleportation damage.,落下とエンダーパールによるテレポートでのダメージを軽減します。
+enchantment.minecraft.blast_protection.desc,Reduces damage from explosions and explosion knockback.,爆発によるダメージとノックバックを軽減します。
+enchantment.minecraft.projectile_protection.desc,Reduces damage from projectiles such as arrows and fire balls.,矢などの遠距離攻撃によるダメージを軽減します。
+enchantment.minecraft.respiration.desc,Extends the amount of time the player can spend under water. Also improves vision while under water.,プレイヤーが水中で過ごせる時間を延ばします。水中での視界も改善します。
+enchantment.minecraft.aqua_affinity.desc,Increases mining speed while underwater.,水中での採掘速度が向上します。
+enchantment.minecraft.thorns.desc,Causes damage to enemies when they attack you.,攻撃してきた敵にダメージを与えます。
+enchantment.minecraft.sharpness.desc,Increases the damage of the item.,ダメージを増加させます。
+enchantment.minecraft.smite.desc,Increases damage against undead mobs such as zombies and skeletons.,ゾンビやスケルトンなどのアンデットに対してのダメージを増加させます。
+enchantment.minecraft.bane_of_arthropods.desc,Increases damage against arthropods such as Spiders and Silverfish.,クモやシルバーフィッシュ等の虫に対してのダメージを増加させます。
+enchantment.minecraft.knockback.desc,Increases the knockback strength of the weapon.,ノックバックを増加させます。
+enchantment.minecraft.fire_aspect.desc,Causes additional fire damage when used to attack a mob.,攻撃時に相手を炎上させます。
+enchantment.minecraft.looting.desc,Mobs will drop more loot when killed.,Mobからのアイテムドロップを増加させます。
+enchantment.minecraft.efficiency.desc,Increases mining speed of the tool.,採掘速度が向上します。
+enchantment.minecraft.silk_touch.desc,Allows fragile blocks such as glass to be collected.,ガラスなどの壊れやすいブロックが回収できるようになります。
+enchantment.minecraft.unbreaking.desc,Causes the tool to lose durability at a slower rate.,耐久値が減りにくくなります。
+enchantment.minecraft.fortune.desc,Some blocks like coal and diamond ore may drop additional items.,石炭やダイヤモンドなどの鉱石等の一部ブロックからのアイテムドロップが増加します。
+enchantment.minecraft.power.desc,Increases the damage of arrows fired from the bow.,発射した矢のダメージが増加します。
+enchantment.minecraft.punch.desc,Increases the knockback strength of arrows fired by the bow.,発射した矢のノックバックが増加します。
+enchantment.minecraft.flame.desc,Arrows fired from the bow will deal additional fire damage.,発射した矢が火属性のダメージを与えるようになります。
+enchantment.minecraft.infinity.desc,Allows the bow to fire normal arrows for free. You must have at least one arrow for this to work.,弓を使う際に矢を消費しなくなります。ただし最低でも矢を一本持っておく必要があります。
+enchantment.minecraft.luck_of_the_sea.desc,Increases the chance of getting good loot while fishing.,宝が釣れる確率が高くなります。
+enchantment.minecraft.lure.desc,Decreases the amount of time it takes for a fish to bite the hook.,釣れるまでの時間が短くなります。
+enchantment.minecraft.depth_strider.desc,Increases movement speed while under water.,水中での移動速度を上昇させます。
+enchantment.minecraft.frost_walker.desc,Freezes water under the player into cracked ice.,プレイヤーの下にある水を割れた氷に凍結させます。
+enchantment.minecraft.mending.desc,Repairs the durability of armor and tools with EXP.,アイテムが経験値オーブで修復できるようになります。
+enchantment.minecraft.binding_curse.desc,Prevents the enchanted item from being removed from an armor slot.,防具が外せなくなります。
+enchantment.minecraft.vanishing_curse.desc,Destroyes the enchanted item if you die with it in your inventory.,死亡時にこのエンチャントの付いているアイテムは完全に消滅します。
+enchantment.minecraft.sweeping.desc,Increases the damage of sweeping attacks.,範囲攻撃のダメージを増加させます。
+tooltip.wawla.dragonmounts.start,Click to start hatching!,クリックして孵化を開始！
+tooltip.wawla.dragonmounts.stage,Stage,ステージ
+tooltip.wawla.dragonmounts.stage.egg,Egg,卵
+tooltip.wawla.dragonmounts.stage.hatchling,Hatchling,雛
+tooltip.wawla.dragonmounts.stage.juvenile,Juvenile,こども
+tooltip.wawla.dragonmounts.stage.adult,Adult,成人
+tooltip.wawla.dragonmounts.adulttime,Adulthood,成人
+tooltip.wawla.dragonmounts.nexttime,Next stage,次のステージ

@@ -1,0 +1,62 @@
+﻿key,source_text,target_text
+_comment,GUI,GUI
+gui.zerocore.base.control.energybar.line1,Internal Energy Buffer,エネルギー・バッファ
+gui.zerocore.base.control.energybar.line2a,"  @0",@0
+gui.zerocore.base.control.energybar.line2b," / %1$s"," / %1$s"
+gui.zerocore.base.control.energybar.line3a,"  @1",@1
+gui.zerocore.base.control.energybar.line3b,% full,% 満たし
+gui.zerocore.base.control.fluidbar.line2,"  @0",@0
+gui.zerocore.base.control.fluidbar.line3a,"  @1",@1
+gui.zerocore.base.control.fluidbar.line3b," / %1$s"," / %1$s"
+gui.zerocore.base.control.fluidbar.line4a,"  @2","  @2"
+gui.zerocore.base.control.fluidbar.line4b,% full,% 満たし
+gui.zerocore.base.generic.empty,Empty,空
+gui.zerocore.base.screen.ioport.mode,Operational mode:,運用モード:
+item.zerocore.debugtool,Debug Tool,デバッグツール
+zerocore:api.multiblock.validation.block_not_connected,The block is not connected to a multiblock controller.,このブロックはマルチブロックコントローラーに接続されていません。
+zerocore:api.multiblock.validation.machine_too_large,"Machine is too large, it may be at most %1$d blocks in the %2$s dimension.",マシンは大きすぎます。最大 %1$d ブロックまでしか%2$s ディメンションに設置できません。
+zerocore:api.multiblock.validation.machine_too_small,"Machine is too small, it must be at least %1$d blocks in the %2$s dimension.",マシンが小さすぎます。%2$sディメンションでは少なくとも%1$dブロック必要です
+zerocore:api.multiblock.validation.success,Machine validation was successful.,マシンの検証が成功しました。
+zerocore:api.multiblock.validation.too_few_parts,Machine is too small.,マシンが小さすぎます。
+zerocore:debugTool.block.tooltip1,Right-click a block to show debug info,ブロックを右クリックするとデバッグ情報が表示されます
+zerocore:debugTool.block.tooltip3,%1$sSneak: %2$squery on the client side,%1$sスニーク: %2$sクライアント側でクエリ
+zerocore:gui.manual.open,Open the manual page,マニュアルページを開く
+zerocore:gui.patchouli.missing,The mod Patchouli need to be installed to use this feature,この機能を使用するにはPatchouliモッドがインストールされている必要があります
+gui.zerocore.base.generic.disable,Disable,無効
+gui.zerocore.base.generic.reset,Reset,リセット
+gui.zerocore.base.generic.save,Save,保存
+gui.zerocore.base.generic.unknown,Unknown,不明
+gui.zerocore.base.redstone.sensorbehavior.activewhileabove.text,Active while above,上方で有効
+gui.zerocore.base.redstone.sensorbehavior.activewhilebelow.text,Active while below,下方で有効
+gui.zerocore.base.redstone.sensorbehavior.activewhilebetween.text,Active while between,アクティブ時：間で
+gui.zerocore.base.redstone.sensorbehavior.augmentonpulse.text,Increase on pulse,パルスで増加
+gui.zerocore.base.redstone.sensorbehavior.performonpulse.text,Perform on pulse,パルスで実行
+gui.zerocore.base.redstone.sensorbehavior.reduceonpulse.text,Decrease on pulse,パルスで減少
+gui.zerocore.base.redstone.sensorbehavior.setfromsignal.text,Set from signal,信号から設定
+gui.zerocore.base.redstone.sensorbehavior.setfromsignallevel.text,Set from signal level,信号レベルから設定
+gui.zerocore.base.redstone.sensorbehavior.setonpulse.text,Set on pulse,脈拍に合わせて設定
+gui.zerocore.base.redstone.sensorbehavior.toggleonpulse.text,Toggle on pulse,パルスで切り替え
+gui.zerocore.base.redstone.sensortype.input,Signal direction: input,信号方向: 入力
+gui.zerocore.base.redstone.sensortype.output,Signal direction: output,信号方向：出力
+gui.zerocore.base.redstone.validation.invalidminmax.text,The maximum value should be greater then the minimum value,最大値は最小値より大きくなるべきです
+zerocore:gui.jei.missing,The mod JEI need to be installed to use this feature,この機能を使うには JEI モッドがインストールされている必要があります
+zerocore:debugTool.block.tooltip2,Queries are performed on the server side by default,クエリはデフォルトでサーバー側で実行されます
+zerocore:debugTool.block.tooltip3a,Sneak: ,スイープ: 
+zerocore:debugTool.block.tooltip3b,query on the client side,クライアント側でのクエリ
+zerocore:api.multiblock.validation.invalid_part,"Part at %1$d, %2$d, %3$d is incompatible with this machine","パーツ %1$d, %2$d, %3$d はこのマシンと互換性がありません"
+zerocore:api.multiblock.validation.invalid_part_for_frame,"Block at %1$d, %2$d, %3$d is not valid for use in the machine's frame","ブロック(%1$d, %2$d, %3$d) はマシンフレームで使用できません"
+zerocore:api.multiblock.validation.invalid_part_for_bottom,"Block at %1$d, %2$d, %3$d is not valid for use in the machine's bottom layer","%1$d, %2$d, %3$d のブロックはマシンの下層で使用できません"
+zerocore:api.multiblock.validation.invalid_part_for_top,"Block at %1$d, %2$d, %3$d is not valid for use in the machine's top layer","%1$d, %2$d, %3$d のブロックはマシンの上層で使用できません"
+zerocore:api.multiblock.validation.invalid_part_for_sides,"Block at %1$d, %2$d, %3$d is not valid for use in the machine's sides","ブロック(%1$d, %2$d, %3$d) はマシンスイドで使用できません"
+zerocore:api.multiblock.validation.invalid_part_for_interior,"Block at %1$d, %2$d, %3$d is not valid for use in the machine's interior","ブロック(%1$d, %2$d, %3$d) はマシン内部で使用できません。"
+zerocore:api.multiblock.validation.invalid_foreign_part,"Block at %1$d, %2$d, %3$d belong to another machine","%1$d, %2$d, %3$d のブロックは別のマシンに属しています。"
+item.zerocore:debugtool.name,Debug Tool,デバッグツール
+zerocore:debugTool.tile.header,"%1$s side debug analysis report of Tile Entity at %2$d, %3$d, %4$d","%1$s 側のデバッグ解析レポート（Tile Entity at %2$d, %3$d, %4$d）"
+zerocore:debugTool.block.header,"%1$s side debug analysis report of block at %2$d, %3$d, %4$d","%1$s 側のブロック%2$d, %3$d, %4$d のデバッグ分析レポート"
+zerocore:debugTool.block.notfound,The block is not registered in the Ore Dictionary,ブロックは鉱石辞書に登録されていません
+zerocore:debugTool.block.intro,Found %1$d name(s) in the Ore Dictionary for block %2$s,ブロック%2$s のオアディクショナリで %1$d 名の名前を見つけました
+zerocore:debugTool.block.nameentry,- %1$s,- %1$s
+debug.zerocore.true,True,真
+debug.zerocore.false,False,偽
+zerocore:vercheck.update1,§6A §lNEW§r§6 version of§f %2$s §6is available (§f%1$s§6):§f please update!!!,§6A §lNEW§r§6 version of§f %2$s §6is available (§f%1$s§6):§f please update!!!
+zerocore:vercheck.update2,§6A §lNEW§r§6 version of§f %2$s §6is available (§f%1$s§6):§f %3$s,§6新しい§lNEW§r§6バージョンの§f %2$s §6が利用可能です（§f%1$s§6）：§f %3$s

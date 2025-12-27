@@ -1,0 +1,185 @@
+﻿key,source_text,target_text
+config.ichunutil.cat.block.desc,These configs affect the blocks in the mod.,このModのブロックに影響する設定です。
+config.ichunutil.cat.block.name,Blocks,ブロック
+config.ichunutil.cat.bns.desc,These configs affect GUIs using B&S.,B&Sを使用するGUIに影響する設定です。
+config.ichunutil.cat.bns.name,Boxes & Stuff (B&S),箱とその他（B&S）
+config.ichunutil.cat.clientOnly.desc,These configs affect only the client that loads the mod.,このModを読み込むクライアント側のみに影響する設定です。
+config.ichunutil.cat.clientOnly.name,Client Only,クライアント専用
+config.ichunutil.cat.gameplay.desc,These configs affect the gameplay while using the mod.,このModを使用する際のゲームプレイに影響する設定です。
+config.ichunutil.cat.gameplay.name,Gameplay,ゲームプレイ
+config.ichunutil.cat.general.desc,These configs are general configs that don't fit any other category.,他のカテゴリに該当しない一般的な設定です。
+config.ichunutil.cat.general.name,General,一般
+config.ichunutil.cat.global.desc,These configs affect both servers and clients that load the mod.,このModを読み込むサーバーとクライアントの両方に影響する設定です。
+config.ichunutil.cat.global.name,Global,グローバル
+config.ichunutil.cat.serverOnly.desc,These configs affect only the server that loads the mod.,このModを読み込むサーバー側のみに影響する設定です。
+config.ichunutil.cat.serverOnly.name,Server Only,サーバー専用
+config.ichunutil.prop.bnsDockBorder.desc,Number of pixels before iChunUtil thinks you're trying to dock a window.,iChunUtilがウィンドウをドッキングしようとしていると判定するピクセル数です。
+config.ichunutil.prop.bnsDockBorder.name,Dock Border Size,ドック枠線サイズ
+config.ichunutil.prop.bnsDockPadding.desc,How much padding to add to the docked windows.,ドッキングされたウィンドウに追加するパディング量
+config.ichunutil.prop.bnsDockPadding.name,Dock Padding,ドックパディング
+config.ichunutil.prop.bnsDoubleClickSpeed.desc,Speed (in ticks) to register a double click.,ダブルクリックを登録するまでの速度(ティック単位)です。
+config.ichunutil.prop.bnsDoubleClickSpeed.name,Double Click Speed,ダブルクリック速度
+config.ichunutil.prop.bnsMinecraftStyle.desc,"Renders B&S's GUIs in a Minecraft Style instead.
+0 = Default Style
+1 = Vanilla Style
+2 = Texture Pack Style.","B&Sのグラフィックスを代わりにMinecraftスタイルでレンダリングします。
+0 = デフォルトスタイル
+1 = バニラスタイル
+2 = テクスチャパックスタイル"
+config.ichunutil.prop.bnsMinecraftStyle.name,B&S in Minecraft Style,B&Sをマインクラフトスタイルで
+config.ichunutil.prop.bnsTheme.desc,Theme to use for Boxes & Stuff,ボックス & Stuffに使用するテーマです。
+config.ichunutil.prop.bnsTheme.name,Theme,テーマ
+config.ichunutil.prop.bnsTooltipCooldown.desc,How long to mouse over an element (in ticks) before showing a tooltip.,ツールチップが表示されるまでマウスを要素の上に置いておく時間(ティック単位)です。
+config.ichunutil.prop.bnsTooltipCooldown.name,Tooltip Cooldown,ツールチップクールダウン
+element.button.clear,Clear,クリア
+gui.ichunutil.configs.configs,Configs,設定
+gui.ichunutil.configs.needsRestart,Some configs changed require a restart to take effect!,変更された設定によっては再起動が必要な場合があります！
+gui.ichunutil.configs.noEditingServerConfig,You can only edit a SERVER config in a single player world environment!,シングルプレイヤーワールド環境でのみサーバー設定を編集できます！
+gui.ichunutil.configs.title,Config Editor,設定エディター
+gui.ichunutil.element.textField,Text Field,テキストフィールド
+window.popup.title,Alert!,アラート！
+window.saveAs.confirmOverwrite,File already exists! Confirm overwrite?,ファイルが既に存在します。上書きしますか？
+window.saveAs.failed,Failed to save file.,ファイルの保存に失敗しました。
+window.saveAs.fileName,File Name,ファイル名
+window.saveAs.overwrite,Overwrite?,上書きしますか？
+window.saveAs.title,Save As,名前を付けて保存
+ichunutil.config.cat.general.name,General Options,一般設定
+ichunutil.config.cat.gameplay.name,Gameplay,ゲームプレイ
+ichunutil.config.cat.globalOptions.name,Global Options,グローバル設定
+ichunutil.config.cat.serverOptions.name,Server Options,サーバー設定
+ichunutil.config.cat.clientOnly.name,Client Only,クライアント専用
+ichunutil.config.cat.block.name,Block,ブロック
+ichunutil.config.cat.general.comment,These options are general options that don't fit any other category.,これらは他のカテゴリに該当しない一般的なオプションです。
+ichunutil.config.cat.gameplay.comment,These options affect the gameplay while using the mod.,これらのオプションはモッド使用時にゲームプレイに影響します。
+ichunutil.config.cat.globalOptions.comment,These options affect both servers and clients that load the mod.,これらの設定は、モッドを読み込むサーバーとクライアントの両方に影響します。
+ichunutil.config.cat.serverOptions.comment,These options affect only the server that loads the mod.,これらのオプションは、モッドをロードするサーバーのみ影響します。
+ichunutil.config.cat.clientOnly.comment,"These options affect only the client that loads the mod.\nIf you are looking for keybinds, look for them in ichunutil_keybinds.cfg.","これらのオプションはModをロードするクライアントのみに影響します。
+キーバインドを探しているなら、ichunutil_keybinds.cfgを参照してください。"
+ichunutil.config.cat.block.comment,These options affect the blocks in the mod.,これらのオプションはモッド内のブロックに影響します。
+ichunutil.config.cat.keybind.name,Key Binds,キーバインディング
+ichunutil.config.cat.keybind.comment,"If you're reading this in the config file, I would strongly recommend changing the keybinds in-game.\niChunUtil uses custom keybinds. Go to the controls/keybinds page and click on the bottom right corner.\n\nIf you really have to edit the config file, the format is <key code>, and append either "":SHIFT"", "":CTRL"", or "":ALT"" for keys you want to hold down at the same time.\nFor key codes go to: http://minecraft.gamepedia.com/Key_codes \nExample: 48:SHIFT:ALT will bind to the B key when you hold Shift and Alt (On a QWERTY keyboard).","設定ファイルでこれを読んでいるなら、ゲーム内でキーバインドを変更することを強くお勧めします。
+iChunUtilはカスタムキーバインドを使用しています。コントロール/キーバインドページに移動し、右下隅をクリックしてください。
+
+本当に設定ファイルを編集する必要がある場合、形式は<キーコード>で、同時に押したいキーに対して"":SHIFT""、"":CTRL""、または"":ALT""を追加してください。
+キーコードについては以下を参照：http://minecraft.gamepedia.com/Key_codes
+例：48:SHIFT:ALTは、Shift と Alt を押しながらBキー(QWERTYキーボード)にバインドされます。"
+ichunutil.config.cat.keybind.tip1,These key binds allow a combination of Shift/Ctrl/Alt,これらのキー入力はShift/Ctrl/Altの組み合わせを許可します
+ichunutil.config.cat.keybind.tip2,Try holding those down when setting a key bind,キー設定時にそれらを押し続けてみてください。
+ichunutil.config.cat.keybind.tip3,"If you want to bind Shift/Ctrl/Alt, hold them for 3 seconds. Last key held will be bound.",Shift/Ctrl/Alt をバインドしたい場合は、3 秒間押し続けてください。最後に保持されたキーがバインドされます。
+ichunutil.config.prop.enableStencils.name,Enable Stencils?,ステンシルを有効にする？
+ichunutil.config.prop.enableLatchedRendererSpawn.name,Enable Latched Renderer Spawn?,ラッチされたレンダラーのスパAWNを有効にする？
+ichunutil.config.prop.enableStencils.comment,Set this to 0 if you're crashing when the game launches because you do not have stencils enabled.,ゲーム起動時にクラッシュする場合は、ステンシルが有効になっていないため0に設定してください。
+ichunutil.config.prop.enableLatchedRendererSpawn.comment,"Set this to 0 if you find that iChunUtil is spawning a lot of these entities and is causing lag. Might affect some of my mods. I've not been able to pinpoint the issue, mind, but if you are not having any memory issues ignore this setting.",iChunUtilが大量のこれらのエンティティをスポーンさせてラグを引き起こしているのを発見した場合、これを0に設定してください。私の一部のModに影響を与える可能性があります。問題を正確に特定することができませんでしたが、メモリの問題がない場合はこの設定を無視してください。
+ichunutil.config.cat.module.compactPorkchop.name,Compact Porkchop Block,コンパクトな豚肉ブロック
+ichunutil.config.prop.enableCompactPorkchop.name,Allow Compact Raw Porkchop?,コンパクトな生豚肉を許可？
+ichunutil.config.prop.enableCompactPorkchop.comment,Enable the Compact Raw Porkchop block recipe?,コンパクト生肉ブロックレシピを有効にしますか？
+ichunutil.config.cat.module.eula.name,EULA,EULA
+ichunutil.config.cat.module.eula.comment,EULA settings.,EULA設定。
+ichunutil.config.prop.eulaAcknowledged.name,EULA acknowledged,EULAが承認されました
+ichunutil.config.prop.eulaAcknowledged.comment,"String to say that you've acknowledged the EULA\nIf this config is for a server, set it to true.",EULAを承認したことを示す文字列\\nサーバー設定の場合はtrueにしてください。
+ichunutil.config.cat.module.patreon.comment,Patreon related configs.,Patreon関連設定。
+ichunutil.config.prop.showPatronReward.name,Show Patron Reward,パトロン報酬の表示
+ichunutil.config.prop.patronRewardType.name,Patron Reward Type,パトロン報酬の種類
+ichunutil.config.prop.showPatronReward.comment,Do you want to show your patron reward to other players?,あなたのパトロン報酬を他のプレイヤーに表示しますか？
+ichunutil.config.cat.module.versionCheck.name,Update Checker,アップデートチェック
+ichunutil.config.cat.module.versionCheck.comment,These configs are for the mod version update checker for iChun's mods.,これらは iChun のモッド用の mod バージョンアップデートチェッカー設定です。
+ichunutil.config.prop.versionNotificationTypes.name,Update Notification Types,アップデート通知タイプ
+ichunutil.config.prop.versionNotificationFrequency.name,Update Notification Frequency,アップデート通知頻度
+ichunutil.config.prop.versionSave.name,Update Notification Save,更新通知保存
+ichunutil.config.prop.versionNotificationTypes.comment,How will the CLIENT be notified of updates? (Servers will always have the update printed to the console. Singleplayer is yourself joining a self hosted server)\n0 = Notify of updates regardless of player status.\n1 = Notify only command senders of updates (Clientside only mod updates will still show)\n2 = Do not notify,"クライアントはどのように更新について通知されますか？(サーバーは常に更新がコンソールに出力されます。シングルプレイは自分がセルフホストサーバーに参加する場合です)
+0 = プレイヤーのステータスに関わらず更新を通知する
+1 = 更新の送信者のみに通知する(クライアント側のみのMod更新は表示されます)
+2 = 通知しない"
+ichunutil.config.prop.versionNotificationFrequency.comment,How often will you be notified of the update?(Client config)\n0 = Never (This just hides notifications. The mod will still check for updates and print out to the console)\n1 = Once you connect to server\n2 = Once a day,"更新についてどのくらいの頻度で通知されますか？(クライアント設定)
+0 = 通知しない(これは通知を隠すだけです。Modは引き続き更新をチェックしてコンソールに出力します)
+1 = サーバーに接続したとき
+2 = 1日に1回"
+ichunutil.config.prop.versionSave.comment,Don't change this.,Don't change this.
+ichunutil.config.cat.module.headTracking.name,Head Model Tracking,ヘッドモデル追跡
+ichunutil.config.cat.module.headTracking.comment,Head Model Tracking related configs.\nUsed by Googly Eyes and eventually Hats.,ヘッドモデル追跡関連設定。\nGoogly Eyes と最終的には Hats が使用します。
+ichunutil.config.prop.aggressiveHeadTracking.name,Aggressive Head Tracking,攻撃的ヘッドトラッキング
+ichunutil.config.prop.aggressiveHeadTracking.comment,Track the head model aggressively to try and fix improper head tracking that may be caused by mod conflicts?\n1 = All Entities\n2 = Players Only,"Modの競合が原因で発生する可能性のある不適切なヘッドトラッキングを修正しようとして、ヘッドモデルを積極的に追跡しますか？
+1 = すべてのエンティティ
+2 = プレイヤーのみ"
+ichunutil.config.prop.horseEasterEgg.name,Enable Horse/Llama Easter Egg?,ウマ／ラマのエASTERエッグを有効にする？
+ichunutil.config.prop.horseEasterEgg.comment,"Enable the easter egg where the horse/llama's ""head"" is its behind. This is an easter egg on how Hats puts hats on Horses.","馬/ラマの""頭""がその後ろにあるイースターエッグを有効にします。これはHatsが馬に帽子を被せる方法に関するイースターエッグです。"
+ichunutil.config.cat.module.worldPortals.name,World Portals,世界のポート
+ichunutil.config.cat.module.worldPortals.comment,World Portals related configs.,ワールドポータル関連設定。
+ichunutil.config.prop.maxRecursion.name,Maximum Recursion,最大再帰
+ichunutil.config.prop.stencilValue.name,Stencil Value,ステンシル値
+ichunutil.config.prop.renderDistanceChunks.name,Render Distance (Chunks),レンダリング距離（チャンク）
+ichunutil.config.prop.maxRendersPerTick.name,Max Renders Per Frame,1フレームあたりの最大レンダリング数
+ichunutil.config.prop.maxRecursion.comment,"Maximum recursion for World Portals. Set to 0 to disable World Portal render.\n\nWarning! The higher this is, the more recursion, the more FPS loss!","ワールドポータルの最大再帰。0に設定するとワールドポータルレンダリングを無効にします。
+
+警告！この値が高いほど、再帰が増え、FPS損失が大きくなります！"
+ichunutil.config.prop.stencilValue.comment,"Stencils use a specific value to see if the render is ours or not. \n\nIf you're having rendering issues and changing this doesn't help, there might be a conflicting mod. Find out which mod that is and inform both that mod's author and me (iChun).","ステンシルは、レンダリングが当社のものかどうかを判断するために特定の値を使用します。
+
+レンダリングの問題がある場合、これを変更してもサポートが得られない場合は、競合するModがある可能性があります。どのModかを確認し、そのModの作者と私(iChun)の両方に知らせてください。"
+ichunutil.config.prop.renderDistanceChunks.comment,Sets the render distance of each world portal (by chunk) if it's not overridden by the world portal.\n\nSetting to 0 binds to MC's default game settings.,"ワールドポータルでオーバーライドされていない場合、各ワールドポータルのレンダー距離(チャンク単位)を設定します。
+
+0に設定するとMCのデフォルトゲーム設定にバインドされます。"
+ichunutil.config.prop.maxRendersPerTick.comment,Max World Portal Renders per frame.\nThis will limit the number of renders a tick despite your maxRecursion setting.\nThis is here in hopes that your FPS doesn't tank if you happen to be at the wrong place in the wrong place.,"フレームごとの最大ワールドポータルレンダー数。
+これにより、maxRecursion設定に関わらず、1ティックのレンダー数が制限されます。
+これは、間違った場所にいる場合、FPSが低下しないことを願って追加されています。"
+ichunutil.gui.newUpdate,New Mod Update Available!,新しいモジュールアップデートが利用可能です！
+ichunutil.config.gui.options,Options,設定
+ichunutil.config.gui.needsRestart,Some changes require a client restart or a server reconnect,変更にはクライアント再起動またはサーバー再接続が必要です
+ichunutil.config.gui.setKeyBind,Set Key Bind,キー結合設定
+ichunutil.config.gui.hitKeys,Setting key... Holding SHIFT/CTRL/ALT are optional,キー設定中... SHIFT/CTRL/ALT はオプションです
+ichunutil.config.gui.setStringArray,Set String Array,文字列配列を設定
+ichunutil.config.gui.setIntArray,Set Integer Array,整数配列を設定
+ichunutil.config.gui.setNestedIntArray,Set Nested Integer Array,ネストされた整数配列を設定
+ichunutil.config.controls.moreKeys,iChunUtil Key Binds - Click Here,iChunUtil キー割り当て - ここをクリック
+ichunutil.eula.toast1,By using iChunUtil,iChunUtilを使用して
+ichunutil.eula.toast2,you agree to its EULA,あなたがEULAに同意します。
+element.minimize,Minimize,最小化
+element.expand,Expand,展開
+element.button.ok,OK,OK
+element.button.cancel,Cancel,キャンセル
+tile.ichunutil.block.compactporkchop.name,Compact Raw Porkchop,コンパクトな生豚肉
+entity.EntityBlock.name,Block Entity,ブロックエンティティ
+ichun.config.cat.general.name,General Options,一般設定
+ichun.config.cat.gameplay.name,Gameplay,ゲームプレイ
+ichun.config.cat.globalOptions.name,Global Options,グローバル設定
+ichun.config.cat.serverOptions.name,Server Options,サーバー設定
+ichun.config.cat.clientOnly.name,Client Only,クライアント専用
+ichun.config.cat.general.comment,These options are general options that don't fit any other category.,これらは他のカテゴリに該当しない一般的なオプションです。
+ichun.config.cat.gameplay.comment,These options affect the gameplay while using the mod.,これらのオプションはモッド使用時にゲームプレイに影響します。
+ichun.config.cat.globalOptions.comment,These options affect both servers and clients that load the mod.,これらの設定は、モッドを読み込むサーバーとクライアントの両方に影響します。
+ichun.config.cat.serverOptions.comment,These options affect only the server that loads the mod.,これらのオプションは、モッドをロードするサーバーのみ影響します。
+ichun.config.cat.clientOnly.comment,These options affect only the client that loads the mod.,これらのオプションは、モッドを読み込むクライアントにのみ影響します。
+ichun.config.keybind.comment,"If you're reading this, I would strongly recommend changing the keybinds ingame.\niChunUtil uses custom keybinds. Go to the options page and hit O to show other options.\n\nIf you really have to edit the config file, the format is <key code>, and append either "":SHIFT"", "":CTRL"", or "":ALT"" for keys you want to hold down at the same time.\nFor key codes go to: http://minecraft.gamepedia.com/Key_codes \nExample: 48:SHIFT:ALT will bind to the B key when you hold Shift and Alt.","これを読んでいるなら、ゲーム内でキーバインドを変更することを強くお勧めします。
+iChunUtilはカスタムキーバインドを使用しています。オプションページに移動し、Oを押して他のオプションを表示してください。
+
+本当に設定ファイルを編集する必要がある場合、形式は<キーコード>で、同時に押したいキーに対して"":SHIFT""、"":CTRL""、または"":ALT""を追加してください。
+キーコードについては以下を参照：http://minecraft.gamepedia.com/Key_codes
+例：48:SHIFT:ALTは、Shift と Alt を押しながらBキーにバインドされます。"
+ichun.config.keybind.tip1,These key binds allow a combination of Shift/Ctrl/Alt,これらのキー入力はShift/Ctrl/Altの組み合わせを許可します
+ichun.config.keybind.tip2,Try holding those down when setting a key bind,キー設定時にそれらを押し続けてみてください。
+ichun.config.keybind.tip3,"If you want to bind Shift/Ctrl/Alt, hold them for 3 seconds. Last key held will be bound.",Shift/Ctrl/Alt をバインドしたい場合は、3 秒間押し続けてください。最後に保持されたキーがバインドされます。
+ichun.config.versionCheck.name,Update Checker,アップデートチェック
+ichun.config.versionSave.name,Update Checker Save,更新チェッカー保存
+ichun.config.versionCheck.comment,These configs are for the mod version update checker added by iChunUtil.,これらの設定は iChunUtil によって追加されたモッドバージョンアップデートチェッカー用です。
+ichun.config.patreon.comment,Patreon related configs.,Patreon関連設定。
+ichun.config.versionNotificationTypes.name,Update Notification Types,アップデート通知タイプ
+ichun.config.versionNotificationFrequency.name,Update Notification Frequency,アップデート通知頻度
+ichun.config.showPatronReward.name,Show Patron Reward,パトロン報酬の表示
+ichun.config.versionNotificationTypes.comment,How will the CLIENT be notified of updates? (Servers will always have the update printed to the console. Singleplayer is yourself joining a self hosted server)\n0 = Notify of updates regardless of player status (op or not).\n1 = Notify only server ops of updates (Clientside only mod updates will still show)\n2 = Allow client to notify themselves of updates.,"クライアントはどのように更新について通知されますか？(サーバーは常に更新がコンソールに出力されます。シングルプレイは自分がセルフホストサーバーに参加する場合です)
+0 = プレイヤーのステータスに関わらず更新を通知(opかどうかに関わらず)
+1 = サーバーのopのみに更新を通知(クライアント側のみのMod更新は表示されます)
+2 = クライアントが自分たちに更新を通知することを許可"
+ichun.config.versionNotificationFrequency.comment,How often will you be notified of the update?(Client config)\n0 = Once you connect to server\n1 = Once a day\n2 = Only once until newer updates.\n3 = Never (This just hides notifications. The mod will still check for updates and print out to the console).,"更新についてどのくらいの頻度で通知されますか？(クライアント設定)
+0 = サーバーに接続したとき
+1 = 1日に1回
+2 = 新しい更新があるまで1回だけ
+3 = 通知しない(これは通知を隠すだけです。Modは引き続き更新をチェックしてコンソールに出力します)。"
+ichun.config.showPatronReward.comment,Do you want to show your patron reward to other players?,あなたのパトロン報酬を他のプレイヤーに表示しますか？
+ichunutilstats.config.cat.stats.name,Statistics,統計
+ichunutilstats.config.cat.stats.comment,This category are markers for some statistics taken by iChunUtil. You can opt out from this in one of the config properties.,このカテゴリはiChunUtilによって取得されたいくつかの統計のマーカーです。設定プロパティの1つでこれをオプトアウトできます。
+ichunutilstats.config.prop.statsOptOut.name,Opt Out,オプトアウト
+ichunutilstats.config.prop.statsIdentifier.name,Identifier,識別子
+ichunutilstats.config.prop.statsIdentifier.comment,Don't change this.,Don't change this.
+ichunutilstats.config.prop.statsData.name,Data,データ
+ichunutilstats.config.prop.statsData.comment,Don't change this.,Don't change this.
+ichun.gui.newUpdate,New Mod Update Available!,新しいモジュールアップデートが利用可能です！
+ichun.gui.moreOptions,Hit O to view more options,Oを押して追加のオプションを表示

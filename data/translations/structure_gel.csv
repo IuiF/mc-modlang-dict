@@ -1,0 +1,324 @@
+﻿key,source_text,target_text
+block.structure_gel.blue_gel,Blue Gel,青ゲル
+block.structure_gel.cyan_gel,Cyan Gel,シアンゲル
+block.structure_gel.green_gel,Green Gel,緑色ゲル
+block.structure_gel.orange_gel,Orange Gel,オレンジジェル
+block.structure_gel.red_gel,Red Gel,赤いジェル
+block.structure_gel.yellow_gel,Yellow Gel,イエロージェル
+commands.structure_gel.clone.override,Overriding vanilla clone limit of %s blocks by cloning %s blocks. This may take some time,ベーシックなクローン制限%sブロックを%sブロックにクローンして上書きしています。時間がかかる場合があります
+commands.structure_gel.fill.override,Overriding vanilla fill limit of %s blocks by filling %s blocks. This may take some time,%s ブロックのバニラ上限を %s ブロックで上書きする。この処理には時間がかかる場合があります
+info.structure_gel.axis_spread,• Spreads the gel in a flat plane based on how it was placed.,• ジェルを配置した位置に応じて平面上に広げます。
+info.structure_gel.default,"• Spreads the gel along the cardinal directions, only replacing air.",• ジェルを正北・正東・正南・正西方向に広げ、空気のみ置き換えます。
+info.structure_gel.diagonal_spread,• Spreads itself along the cardinal and diagonal directions. Useful to get around vines and other weird corners.,• 四方八方に広がります。ツタや奇妙なコーナーを回り込むのに便利です。
+info.structure_gel.dynamic_spread_dist,• Spreads the gel with a set distance based on how many you're holding. Maxes out at 50.,• 持っている量に応じて設定距離でゲルを広げます。最大50まで
+info.structure_gel.gunpowder,• Use gunpowder to destroy all connected gels.,• 火薬を使用してすべての接続されたゲルを破壊します。
+info.structure_gel.photosensitive,• Only spreads the gel in positions not exposed to the sky. Great for rooms with open walls.,• 空が露出していない位置にのみジェルを広げます。壁が開いている部屋に最適です。
+info.structure_gel.place,• Place while sneaking to trigger the spread effect.,• スニークしながら置くと拡散効果が発動します。
+block.structure_gel.data_handler,Data Handler,データハンドラー
+block.structure_gel.dynamic_spawner,Dynamic Spawner,動的スパワーワー
+gui.structure_gel.connect_to_blocks,Connect to blocks: %s,ブロックに接続: %s
+gui.structure_gel.data_handler.apply_at_heightmap,Apply at heightmap: %s,高さマップに適用: %s
+gui.structure_gel.data_handler.compound,Compound,化合物
+gui.structure_gel.data_handler.default,Default,デフォルト
+gui.structure_gel.data_handler.description,Description,説明
+gui.structure_gel.data_handler.example,Example,例
+gui.structure_gel.data_handler.range,Range,範囲
+gui.structure_gel.data_handler.structure_gel:archaeology.block.description,The block to place.,配置するブロック。
+gui.structure_gel.data_handler.structure_gel:archaeology.block.label,Block,ブロック
+gui.structure_gel.data_handler.structure_gel:archaeology.generation_chance.description,The percent chance that this will place a block.,このブロックを置く確率（％）です。
+gui.structure_gel.data_handler.structure_gel:archaeology.generation_chance.label,Generation Chance,生成確率
+gui.structure_gel.data_handler.structure_gel:archaeology.loot_table.description,The loot table to give the block.,ブロックに与えるルートテーブル。
+gui.structure_gel.data_handler.structure_gel:archaeology.loot_table.label,Loot Table,ロットテーブル
+gui.structure_gel.data_handler.structure_gel:block_state.block_state.description,The block state to place.,配置するブロックの状態。
+gui.structure_gel.data_handler.structure_gel:block_state.block_state.label,Block State,ブロック状態
+gui.structure_gel.data_handler.structure_gel:block_state.generation_chance.description,The percent chance that this will place a block.,このブロックを置く確率（％）です。
+gui.structure_gel.data_handler.structure_gel:block_state.generation_chance.label,Generation Chance,生成確率
+gui.structure_gel.data_handler.structure_gel:block_state.tag.description,The NBT tag to load into this block if it's a block entity.,このブロックがブロックエンティティの場合にロードする NBT タグです。
+gui.structure_gel.data_handler.structure_gel:block_state.tag.label,NBT Tag,NBTタグ
+gui.structure_gel.data_handler.structure_gel:chest.chest.description,The block state that will be placed.,配置されるブロック状態。
+gui.structure_gel.data_handler.structure_gel:chest.chest.label,Chest Block,チェストブロック
+gui.structure_gel.data_handler.structure_gel:chest.generation_chance.description,The percent chance that this will place a block.,このブロックを置く確率（％）です。
+gui.structure_gel.data_handler.structure_gel:chest.generation_chance.label,Generation Chance,生成確率
+gui.structure_gel.data_handler.structure_gel:chest.loot.description,The loot table to give the block being placed.,配置されるブロックに与えるルートテーブル。
+gui.structure_gel.data_handler.structure_gel:chest.loot.label,Loot Table,ロットテーブル
+gui.structure_gel.data_handler.structure_gel:configured_feature.feature.description,The configured feature to attempt to generate.,生成を試みるコンフィグ済みフィーチャ。
+gui.structure_gel.data_handler.structure_gel:configured_feature.feature.label,Feature,機能
+gui.structure_gel.data_handler.structure_gel:configured_feature.generation_chance.description,The percent chance that this will generate a feature.,この機能が生成される確率（％）
+gui.structure_gel.data_handler.structure_gel:configured_feature.generation_chance.label,Generation Chance,生成確率
+gui.structure_gel.data_handler.structure_gel:dynamic_spawner.dynamic_spawner_type.description,The registry name of the DynamicSpawnerType to create a spawner from.,Spawner を作成するための DynamicSpawnerType のレジストリ名です
+gui.structure_gel.data_handler.structure_gel:dynamic_spawner.dynamic_spawner_type.label,Spawner Type,スパワータイプ
+gui.structure_gel.data_handler.structure_gel:dynamic_spawner.generation_chance.description,The percent chance that this will place a Dynamic Spawner.,ダイナミックスポーナーを配置する確率（パーセンテージ）。
+gui.structure_gel.data_handler.structure_gel:dynamic_spawner.generation_chance.label,Generation Chance,生成確率
+gui.structure_gel.data_handler.structure_gel:dynamic_spawner.max_exp.description,The maximum exp dropped when breaking the spawner. Can never be lower than Min Exp.,スポナーを破壊したときに落ちる最大経験値。最低でも最小経験値より低くはなりません。
+gui.structure_gel.data_handler.structure_gel:dynamic_spawner.max_exp.label,Max Exp,インベントリ: Max Exp
+gui.structure_gel.data_handler.structure_gel:dynamic_spawner.min_exp.description,The minimum exp dropped when breaking the spawner.,スポナー破壊時に落ちる最低経験値
+gui.structure_gel.data_handler.structure_gel:dynamic_spawner.min_exp.label,Min Exp,インベントリ: Min Exp
+gui.structure_gel.data_handler.structure_gel:entity.boots.description,The item in the boots slot.,ブーツスロットにあるアイテム。
+gui.structure_gel.data_handler.structure_gel:entity.boots.label,Boots,ブーツ
+gui.structure_gel.data_handler.structure_gel:entity.chestplate.description,The item in the chestplate slot.,チェストプレートスロットにあるアイテム。
+gui.structure_gel.data_handler.structure_gel:entity.chestplate.label,Chestplate,胸甲
+gui.structure_gel.data_handler.structure_gel:entity.entity.description,The entity type to spawn.,スポーンさせるエンティティタイプ。
+gui.structure_gel.data_handler.structure_gel:entity.entity.label,Entity ID,エンティティID
+gui.structure_gel.data_handler.structure_gel:entity.helmet.description,The item in the head slot.,頭スロットのアイテム。
+gui.structure_gel.data_handler.structure_gel:entity.helmet.label,Helmet,ヘルメット
+gui.structure_gel.data_handler.structure_gel:entity.leggings.description,The item in the leggings slot.,レッグスロットのアイテム。
+gui.structure_gel.data_handler.structure_gel:entity.leggings.label,Leggings,レギンス
+gui.structure_gel.data_handler.structure_gel:entity.loot.description,"The loot table for this entity, if applicable.",このエンティティのロットテーブル（該当する場合）
+gui.structure_gel.data_handler.structure_gel:entity.loot.label,Loot Table,ロットテーブル
+gui.structure_gel.data_handler.structure_gel:entity.main_hand.description,The item held in the main-hand slot.,メインハンドスロットに持つアイテム。
+gui.structure_gel.data_handler.structure_gel:entity.main_hand.label,Main-Hand,メインハンド
+gui.structure_gel.data_handler.structure_gel:entity.off_hand.description,The item held in the main-hand slot.,メインハンドスロットに持つアイテム。
+gui.structure_gel.data_handler.structure_gel:entity.off_hand.label,Off-Hand,片手
+gui.structure_gel.data_handler.structure_gel:entity.persistent.description,"When true, the entity won't despawn based on its own.",trueの場合、エンティティは自身の条件で消滅しません
+gui.structure_gel.data_handler.structure_gel:entity.persistent.label,Persistent,持続
+gui.structure_gel.data_handler.structure_gel:entity.spawn_chance.description,The percent chance of this mob spawning.,このモブがスポーンする確率（％）
+gui.structure_gel.data_handler.structure_gel:entity.spawn_chance.label,Spawn Chance,出現確率
+gui.structure_gel.data_handler.structure_gel:entity.tag.description,The NBT tag to load into this entity. All other fields take priority.,このエンティティにロードする NBT タグ。その他のフィールドは優先されます
+gui.structure_gel.data_handler.structure_gel:entity.tag.label,NBT Tag,NBTタグ
+gui.structure_gel.data_handler.structure_gel:spawner.entity.description,The entity used by the spawner.,スポーナーで使用するエンティティ。
+gui.structure_gel.data_handler.structure_gel:spawner.entity.label,Spawner Entity,スパワーレンティティ
+gui.structure_gel.data_handler.structure_gel:spawner.generation_chance.description,The percent chance that this will place a Spawner.,このスポナーが設置される確率（％）
+gui.structure_gel.data_handler.structure_gel:spawner.generation_chance.label,Generation Chance,生成確率
+gui.structure_gel.data_handler.structure_gel:spawner.max_nearby_entities.description,The maximum amount of entities that can be around the spawner at once.,スポナー周辺に同時に存在できるエンティティの最大数。
+gui.structure_gel.data_handler.structure_gel:spawner.max_nearby_entities.label,Max Nearby,最大近接
+gui.structure_gel.data_handler.structure_gel:spawner.max_spawn_delay.description,The maximum time between spawns. Can never be lower than Min Spawn Delay.,スポーン間の最大時間。最小スパンドレイアウトより低くはできません。
+gui.structure_gel.data_handler.structure_gel:spawner.max_spawn_delay.label,Max Spawn Delay,最大スポーン遅延
+gui.structure_gel.data_handler.structure_gel:spawner.min_spawn_delay.description,The minimum time between spawns.,スポーン間の最小時間。
+gui.structure_gel.data_handler.structure_gel:spawner.min_spawn_delay.label,Min Spawn Delay,最小スポーン遅延
+gui.structure_gel.data_handler.structure_gel:spawner.required_player_range.description,The range the player has to be for entities to spawn.,プレイヤーがエンティティをスポーンさせるために必要な距離範囲
+gui.structure_gel.data_handler.structure_gel:spawner.required_player_range.label,Player Range,プレイヤー範囲
+gui.structure_gel.data_handler.structure_gel:spawner.spawn_count.description,The maximum entities to spawn at a time.,一度にスポーンできる最大エンティティ数
+gui.structure_gel.data_handler.structure_gel:spawner.spawn_count.label,Spawn Count,スポーン数
+gui.structure_gel.data_handler.structure_gel:spawner.spawn_range.description,The radius to spawn mobs.,モブをスポーンさせる半径。
+gui.structure_gel.data_handler.structure_gel:spawner.spawn_range.label,Spawn Range,スパAWN範囲
+gui.structure_gel.data_handler.structure_gel:spawner.tag.description,The NBT tag to load into this spawner.,このスポーナーに読み込むNBTタグ。
+gui.structure_gel.data_handler.structure_gel:spawner.tag.label,NBT Tag,NBTタグ
+gui.structure_gel.data_handler.type,Type,タイプ
+gui.structure_gel.display_name_label,Display Name,表示名
+gui.structure_gel.dynamic_spawner.exp_range,Exp Range,経験値範囲
+gui.structure_gel.forward_label,Forward,前進
+gui.structure_gel.left_label,Left,左
+gui.structure_gel.mark_post_processing,Post Process: %s,後処理：%s
+gui.structure_gel.max_label,Max,最大
+gui.structure_gel.min_label,Min,最小
+gui.structure_gel.offset_label,Offset,オフセット
+gui.structure_gel.properties_label,Properties,プロパティ
+gui.structure_gel.type_label,Type,タイプ
+gui.structure_gel.up_label,Up,上
+gui.structure_gel.waterlogged,Waterlogged: %s,水没: %s
+info.structure_gel.building_tool.back,Back,戻る
+info.structure_gel.building_tool.block_pallete,Block Pallete,ブロックパレット
+info.structure_gel.building_tool.block_pallete.description,"• The blocks that will be placed using this mode.
+• %s to clear the pallete.
+• Current pallete: %s",• このモードで配置されるブロック。
+info.structure_gel.building_tool.bottom,Bottom,下
+info.structure_gel.building_tool.clear_selection,Clear Selection,選択解除
+info.structure_gel.building_tool.clear_selection.description,• Clears out the current selection.,• 現在の選択範囲をクリアする
+info.structure_gel.building_tool.edit_selection,Edit Selection,選択範囲を編集
+info.structure_gel.building_tool.edit_selection.description,"• Allows editing the current selection.
+• Shortcut: %s","• 現在の選択を編集できます。
+• ショートカット: %s"
+info.structure_gel.building_tool.expand,Expand %s,拡張 %s
+info.structure_gel.building_tool.expand.description,"• Expands the specified face of the current selection.
+• Hold %s to move the selection instead.",• 現在の選択範囲の指定された面を拡張します。
+info.structure_gel.building_tool.expand_facing.description,"• Expands the selected area in the direction you're facing.
+• Hold %s to move the selection forward.",• 選択した領域を向いている方向へ拡張します。
+info.structure_gel.building_tool.facing,Facing,向き
+info.structure_gel.building_tool.front,Front,前
+info.structure_gel.building_tool.go_back,Go Back,戻る
+info.structure_gel.building_tool.go_back.description,"• Takes you back to the previous screen.
+• Shortcut: %s",• 前の画面に戻します
+info.structure_gel.building_tool.left,Left,左
+info.structure_gel.building_tool.message.clear_poses,Cleared positions,クリアされた位置
+info.structure_gel.building_tool.message.clipboard_missing,Clipboard expired,クリップボードが有効期限切れ
+info.structure_gel.building_tool.message.clone_blocks,Cloned region,クローンされた領域
+info.structure_gel.building_tool.message.grabbed_bounds,Grabbed bounds,選択範囲を掴んだ
+info.structure_gel.building_tool.message.grabbed_corner,Grabbed corner,選択角を掴んだ
+info.structure_gel.building_tool.message.length,"Length: %s, Will Place: %s",長さ：%s、配置する：%s
+info.structure_gel.building_tool.message.missing_pos,Positions not selected: %s,選択されていない位置：%s
+info.structure_gel.building_tool.message.missing_state,Select a block to place,置くブロックを選択してください
+info.structure_gel.building_tool.message.move_blocks,Moved %d blocks %s,移動したブロック数: %d %s
+info.structure_gel.building_tool.message.no_permission,You do not have permission to use this item,このアイテムを使用する権限がありません
+info.structure_gel.building_tool.message.place_block,Placed %d block,%dブロックを配置しました
+info.structure_gel.building_tool.message.place_blocks,Placed %d blocks,%d ブロック配置済み
+info.structure_gel.building_tool.message.place_blocks_with,Placed %d %s,%d %s を配置しました
+info.structure_gel.building_tool.message.placed_bounds,Placed bounds,配置された境界
+info.structure_gel.building_tool.message.placed_corner,Placed corner,配置されたコーナー
+info.structure_gel.building_tool.message.pos_unloaded,One or more positions is in unloaded terrain,1 つ以上の位置がアンロードされた地形にあります
+info.structure_gel.building_tool.message.redo,Redoing changes: %d%%,変更を再適用: %d%%
+info.structure_gel.building_tool.message.replace_block,Replaced %d block,%d ブロックを置き換えた
+info.structure_gel.building_tool.message.replace_blocks,Replaced %d blocks,%d ブロック置き換えました
+info.structure_gel.building_tool.message.replace_blocks_with,Replaced %d blocks with %s,%dブロックを%sに置き換えた
+info.structure_gel.building_tool.message.select_pallete,Selected pallete from contents,コンテンツから選択されたパレット
+info.structure_gel.building_tool.message.select_state,Selected %s,選択された %s
+info.structure_gel.building_tool.message.set_pos,"Set position %d (%s, %s, %s)","位置を設定 %d (%s, %s, %s)"
+info.structure_gel.building_tool.message.set_reach,Set reach distance to %s,到達距離を%sに設定
+info.structure_gel.building_tool.message.size,"Size (%s, %s, %s)","サイズ (%s, %s, %s)"
+info.structure_gel.building_tool.message.undo,Undoing changes: %d%%,変更を元に戻す: %d%%
+info.structure_gel.building_tool.property.cut,Cut,カット
+info.structure_gel.building_tool.property.cut.description,"• When true, removes the original region from the world.",• trueの場合、元の領域をワールドから削除します。
+info.structure_gel.building_tool.property.cut.value.false,False,偽
+info.structure_gel.building_tool.property.cut.value.true,True,真
+info.structure_gel.building_tool.property.extend_down,Extend Down,下に延長
+info.structure_gel.building_tool.property.extend_down.description,"• When true, fills blocks below the plane that should be flooded.",• trueの場合、埋められるべきプレーンの下のブロックを埋めます...
+info.structure_gel.building_tool.property.extend_down.value.false,False,偽
+info.structure_gel.building_tool.property.extend_down.value.true,True,真
+info.structure_gel.building_tool.property.fuzzy,Fuzzy,ファジー
+info.structure_gel.building_tool.property.fuzzy.description,• True if operation should extend to diagonal blocks. False if it should only see direct neighbors.,• 隣接ブロックに斜め方向まで拡張する場合はTrue。直接隣接のみの場合はFalse。
+info.structure_gel.building_tool.property.fuzzy.value.false,False,偽
+info.structure_gel.building_tool.property.fuzzy.value.true,True,真
+info.structure_gel.building_tool.property.integrity,Integrity,耐性
+info.structure_gel.building_tool.property.integrity.description,• Determines how many of the blocks will actually be placed.,• ブロックが実際に配置される数を決定します。
+info.structure_gel.building_tool.property.mirror,Mirror,ミラー
+info.structure_gel.building_tool.property.mirror.description,• Mirrors what the currently selected tool mode will place along the axis selected.,• 現在選択されているツールモードが、選択された軸に沿って配置するものを鏡映しします
+info.structure_gel.building_tool.property.mirror.value.none,None,なし
+info.structure_gel.building_tool.property.mirror.value.random,Random,ランダム
+info.structure_gel.building_tool.property.mirror.value.x,X Axis,X軸
+info.structure_gel.building_tool.property.mirror.value.z,Z Axis,Z軸
+info.structure_gel.building_tool.property.move_distance,Distance,距離
+info.structure_gel.building_tool.property.move_distance.description,• How far the selected area should be moved.,• 選択した領域をどれだけ移動させるか。
+info.structure_gel.building_tool.property.radius,Radius,半径
+info.structure_gel.building_tool.property.radius.description,• The radius of the area affected.,• 影響範囲の半径
+info.structure_gel.building_tool.property.reach_distance,Reach,リーチ
+info.structure_gel.building_tool.property.reach_distance.description,• Changes how far you're able to reach when this item is held.,• このアイテムを持っていると到達距離が変わります。
+info.structure_gel.building_tool.property.replace,Replace,置換
+info.structure_gel.building_tool.property.replace.description,• Determines what blocks should be replaced.,• 置き換えるべきブロックを決定する。
+info.structure_gel.building_tool.property.replace.value.air,Air,空気
+info.structure_gel.building_tool.property.replace.value.air_and_liquid,Air/Liquid,空気/液体
+info.structure_gel.building_tool.property.replace.value.all,All,すべて
+info.structure_gel.building_tool.property.replace.value.clicked_block,Clicked,クリック
+info.structure_gel.building_tool.property.retain_state,Retain State,状態を保持
+info.structure_gel.building_tool.property.retain_state.description,"• When true, maintains the exact block state of the selected block. When false, the blocks placed will place according to how they would naturally place, if they can be palced.",• 有効にすると、選択したブロックの正確なブロック状態を保持します。無効にすると、配置されたブロックは自然に配置されます。
+info.structure_gel.building_tool.property.retain_state.value.false,False,偽
+info.structure_gel.building_tool.property.retain_state.value.true,True,真
+info.structure_gel.building_tool.property.rotation,Rotation,回転
+info.structure_gel.building_tool.property.rotation.description,• Rotates what the currently selected tool mode will place by the amount selected.,• 現在選択されたツールモードが置くものを選択量だけ回転させます。
+info.structure_gel.building_tool.property.rotation.value.r_0,None,なし
+info.structure_gel.building_tool.property.rotation.value.r_180,180°,180°
+info.structure_gel.building_tool.property.rotation.value.r_270,270°,270°
+info.structure_gel.building_tool.property.rotation.value.r_90,90°,90°
+info.structure_gel.building_tool.property.rotation.value.random,Random,ランダム
+info.structure_gel.building_tool.property.shape,Shape,形状
+info.structure_gel.building_tool.property.shape.description,• Determines the shape of the area to affect.,• 影響を与える領域の形状を決定します。
+info.structure_gel.building_tool.property.shape.value.cone,Cone,コネ
+info.structure_gel.building_tool.property.shape.value.cube,Cube,キューブ
+info.structure_gel.building_tool.property.shape.value.cube_frame,Cube Frame,キューブフレーム
+info.structure_gel.building_tool.property.shape.value.cylinder,Cylinder,円柱
+info.structure_gel.building_tool.property.shape.value.diamond,Diamond,ダイヤモンド
+info.structure_gel.building_tool.property.shape.value.hollow_cube,Hollow Cube,空洞キューブ
+info.structure_gel.building_tool.property.shape.value.pyramid,Pyramid,ピラミッド
+info.structure_gel.building_tool.property.shape.value.sphere,Sphere,球体
+info.structure_gel.building_tool.property.weight,Weight,重量
+info.structure_gel.building_tool.property.weight.description,• The chance of this entry being used.,このエントリが使用される確率。
+info.structure_gel.building_tool.property.x_size,X Size,Xサイズ
+info.structure_gel.building_tool.property.x_size.description,• The length of this selection on the X axis.,• X軸方向の選択範囲長さ。
+info.structure_gel.building_tool.property.y_size,Y Size,Yサイズ
+info.structure_gel.building_tool.property.y_size.description,• The height of this selection on the Y axis.,• Y軸方向の選択範囲高さ。
+info.structure_gel.building_tool.property.z_size,Z Size,Zサイズ
+info.structure_gel.building_tool.property.z_size.description,• The length of this selection on the Z axis.,• Z軸方向の選択範囲長さ。
+info.structure_gel.building_tool.property_range,• Range: %s - %s,• 距離: %s - %s
+info.structure_gel.building_tool.redo,Redo,やり直し
+info.structure_gel.building_tool.redo.description,"• Redoes a previously undone action performed with a %s.
+• Shortcut: %s",• 以前に %s で実行した操作をやり直す。
+info.structure_gel.building_tool.right,Right,右
+info.structure_gel.building_tool.select_pos_1,Select 1st Position,1番目の位置を選択
+info.structure_gel.building_tool.select_pos_2,Select 2nd Position,2番目の位置を選択
+info.structure_gel.building_tool.select_pos_2.description,• Uses your current position as the second corner.,• 現在位置を第二隅として使用する。
+info.structure_gel.building_tool.shrink,Shrink %s,%sを縮小
+info.structure_gel.building_tool.shrink.description,"• Shrinks the specified face of the current selection.
+• Hold %s to move the selection instead.",• 現在の選択範囲の指定された面を縮小します。
+info.structure_gel.building_tool.top,Top,上
+info.structure_gel.building_tool.undo,Undo,元に戻す
+info.structure_gel.building_tool.undo.description,"• Undoes the previous action performed with a %s.
+• Shortcut: %s",• %s で前回実行した操作を元に戻します。
+info.structure_gel.building_tool_description,"• Used to modify blocks with many different modes and settings.
+• Press %s while holding to open the GUI.","• さまざまなモードと設定でブロックを変更するために使用されます。
+• 保持中に%sを押してGUIを開きます。"
+info.structure_gel.data_handler_description,"• Generates objects in a structure based on the data within.
+• Place the block and open the GUI to set data. You can test your data with the Generate button.","• ブロック内のデータに基づいて構造内にオブジェクトを生成します。
+• ブロックを配置してGUIを開きデータを設定します。生成ボタンでデータをテストできます。"
+info.structure_gel.dynamic_spawner_description,"• Behaves similar to a vanilla spawner, but uses pre-determined registered behaviors instead of storing spawning logic in the block itself. These behaviors must be registered by mods in code.
+• Place the block and open the GUI to set data.","• バニラスポーナーと同様に動作しますが、ブロック自体にスポーン ロジックを保存する代わりに、事前に登録された動作を使用します。これらの動作はモッドのコード内で登録する必要があります。
+• ブロックを配置してGUIを開きデータを設定します。"
+info.structure_gel.hold_control,Hold [Control] for controls,[Control] を押し続けて操作を表示
+info.structure_gel.hold_shift,Hold [Shift] for info,[Shift]を押しながら情報を表示
+item.structure_gel.building_tool,Building Tool,建築ツール
+item.structure_gel.building_tool.info.open_gui,• Press %s while holding to open the GUI.,• %s を押しながら保持するとGUIが開きます。
+item.structure_gel.building_tool.info.select_block,"• For modes that require a block pallete you can press %s on a block to select it. You can also right click with an item held in your mouse onto this stack to select that block. If you use a block or item with an inventory, the inventory will be converted into a block pallete.",• ブロックパレットが必要なモードでは、ブロックに%sを押して選択できます。マウスに持ったアイテムでこのスタックを右クリックしてブロックを選択することもできます。インベントリを持つブロックまたはアイテムを使用すると、インベントリはブロックパレットに変換されます。
+item.structure_gel.building_tool.info.undo_and_redo,• You can undo previous actions with %s and redo them with %s.,• %s で以前の操作を元に戻し、%s でそれらをやり直すことができます。
+item.structure_gel.building_tool.info.zoom_reach,• You can change your reach distance by holding %s and using the mouse wheel.,• %s を保持しながらマウスホイールを使うと、到達距離を変更できます。
+item.structure_gel.building_tool.mode.description.structure_gel:clone,"• Clones the selected area to your location.
+
+%s
+• %s to clone the selected area to your location.",• 選択した領域を現在位置にクローンする。
+item.structure_gel.building_tool.mode.description.structure_gel:extend,"• Detects a shape based on the side of the block clicked and continues it in the direction that was clicked.
+
+• %s on the side of a block to extend a shape.","• クリックされたブロックの側面に基づいて形状を検出し、クリックされた方向に続行します。
+
+• ブロックの側面に%sして、形状を拡張します。"
+item.structure_gel.building_tool.mode.description.structure_gel:fill,"• Fills the selected area with the current pallete.
+
+• %s on a block to select what to fill with.
+%s
+• %s to fill the area with the current pallete.","• 選択したエリアを現在のパレットで埋めます。
+
+• ブロックに%sして、何で埋めるかを選択します。
+%s
+• %sして、現在のパレットでエリアを埋めます。"
+item.structure_gel.building_tool.mode.description.structure_gel:flood,"• Floods the y level against the side of the block clicked with the current pallete.
+
+• %s on a block to select what to flood with.
+• %s on the side of a block that faces where you intend to flood.","• クリックされたブロックの側面に対して、現在のパレットでyレベルをフラッディングします。
+
+• ブロックに%sして、何でフラッディングするかを選択します。
+• フラッディングしたい場所に面しているブロックの側面に%sしてください。"
+item.structure_gel.building_tool.mode.description.structure_gel:line,"• Places a line of blocks between the positions selected.
+
+• %s on a block to select what to fill with.
+%s
+• %s to place the line using the current pallete.","• 選択した位置の間にブロック行を配置します。
+
+• ブロックに%sして、何で埋めるかを選択します。
+%s
+• %sして、現在のパレットを使用して線を配置します。"
+item.structure_gel.building_tool.mode.description.structure_gel:move,"• Moves the region selected in the direction you're looking.
+
+%s
+• %s to move the selected region in the direction you're looking.","• 見ている方向で選択されたリージョンを移動します。
+
+%s
+• %sして、見ている方向で選択されたリージョンを移動します。"
+item.structure_gel.building_tool.mode.description.structure_gel:none,"• Wait... How'd you get here? Oh well, you're here now so I guess this isn't a secret anymore. While I have your attention, don't forget to stay hydrated!",• 待って...ここにはどうやってたどり着きましたか？まあ、あなたはここにいるので、これはもう秘密ではないと思います。ご注意いただきたいのですが、水分補給を忘れずに！
+item.structure_gel.building_tool.mode.description.structure_gel:replace,"• Replaces all matching blocks connected to the targeted block with the current pallete.
+
+• %s on a block to select what to place.
+• %s on a block to replace it.","• ターゲット ブロックに接続されているすべてのマッチングブロックを現在のパレットに置き換えます。
+
+• ブロックに%sして、何を配置するかを選択します。
+• ブロックに%sして、それを置き換えます。"
+item.structure_gel.building_tool.mode.description.structure_gel:shape,"• Fills the blocks around where you click with the current pallete.
+
+• %s on a block to select what to place.
+• %s to place the shape.","• クリックした周囲のブロックを現在のパレットで埋めます。
+
+• ブロックに%sして、何を配置するかを選択します。
+• %sして、形状を配置します。"
+item.structure_gel.building_tool.mode.select_corners,"• %s to select the first corner.
+• %s + %s to select the second corner.
+• %s on a corner to move it. Hold %s to move the entire bounds.","• %sして最初のコーナーを選択します。
+• %s + %sして2番目のコーナーを選択します。
+• コーナーに%sして移動します。%sを押したまま、バウンド全体を移動します。"
+item.structure_gel.building_tool.mode.select_positions,"• %s to select the first position.
+• %s + %s to select the second position.",• %s で最初の位置を選択します。
+item.structure_gel.building_tool.mode.structure_gel:clone,Clone,クローン
+item.structure_gel.building_tool.mode.structure_gel:extend,Extend,延長
+item.structure_gel.building_tool.mode.structure_gel:fill,Fill,埋める
+item.structure_gel.building_tool.mode.structure_gel:flood,Flood,洪水
+item.structure_gel.building_tool.mode.structure_gel:line,Line,ライン
+item.structure_gel.building_tool.mode.structure_gel:move,Move,移動
+item.structure_gel.building_tool.mode.structure_gel:none,None,なし
+item.structure_gel.building_tool.mode.structure_gel:replace,Replace,置換
+item.structure_gel.building_tool.mode.structure_gel:shape,Shape,形状
+itemGroup.structure_gel.structure_items,Structure Items,構造アイテム
+itemGroup.structure_gel.structure_items.no_access,You need access to commands to access items in this tab.,このタブ内のアイテムにアクセスするにはコマンドへのアクセス権が必要です。
+key.structure_gel.open_building_tool_gui,Open Building Tool GUI,建物ツールのGUIを開く

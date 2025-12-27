@@ -1,0 +1,340 @@
+﻿key,source_text,target_text
+_comment,gui - help:,gui - ヘルプ：
+block.buildinggadgets.charging_station,Charging Station,充電ステーション
+block.buildinggadgets.construction_block,Construction Block,建設ブロック
+block.buildinggadgets.construction_block_dense,Dense Construction Block,高密度建設ブロック
+block.buildinggadgets.construction_block_powder,Construction Block Powder,建設ブロックパウダー
+block.buildinggadgets.effect_block,(Unused)Effect Block,（未使用）効果ブロック
+block.buildinggadgets.template_manager,Template Manager,テンプレートマネージャー
+buildinggadgets.commands.force_unloaded.list,Player with UUID %s has ForceLoadedChunks set to %b.,UUID %s のプレイヤーのForceLoadedChunksが%bに設定されています。
+buildinggadgets.commands.force_unloaded.no_player,Cannot toggle player status without a player unload status to target!,プレイヤーのアンロードステータスがないため、プレイヤーのステータスを切り替えできません！
+buildinggadgets.commands.force_unloaded.toggled,Set ForceLoadedChunks for player %s to %b.,プレイヤー %s のForceLoadedChunksを%bに設定しました。
+buildinggadgets.commands.override_build_size.list,Player with UUID %s has OverrideBuildSize set to %b.,UUID %s のプレイヤーのOverrideBuildSizeが%bに設定されています。
+buildinggadgets.commands.override_build_size.no_player,Cannot toggle player status without a player build status to target!,プレイヤーのビルドステータスがないため、プレイヤーのステータスを切り替えできません！
+buildinggadgets.commands.override_build_size.toggled,Set OverrideBuildSize for player %s to %b.,プレイヤー %s のOverrideBuildSizeを%bに設定しました。
+buildinggadgets.commands.override_copy_size.list,Player with UUID %s has OverrideCopySize set to %b.,UUID %s のプレイヤーのOverrideCopySizeが%bに設定されています。
+buildinggadgets.commands.override_copy_size.no_player,Cannot toggle player status without a player copy status to target!,プレイヤーのコピーステータスがないため、プレイヤーのステータスを切り替えできません！
+buildinggadgets.commands.override_copy_size.toggled,Set OverrideCopySize for player %s to %b.,プレイヤー %s のOverrideCopySizeを%bに設定しました。
+buildinggadgets.easter_eggs.9x9.dire_would_be_proud,Dire would be proud.,Direなら誇りに思うでしょう。
+buildinggadgets.easter_eggs.9x9.just_like_dire,A 9 by 9 just like Dire's.,Direのような9×9です。
+buildinggadgets.easter_eggs.9x9.no_dire_wire,No Dire-Wire please.,Dire-Wireはお断りです。
+buildinggadgets.easter_eggs.dire_9x9.another_one,Another one... Really Dire?!?,もう1つ...本当にDire？！？
+buildinggadgets.easter_eggs.dire_9x9.correct_size,You sure that's the correct size?,それが正しいサイズだと確信していますか？
+buildinggadgets.easter_eggs.dire_9x9.dont_tell,Don't tell your viewers.,視聴者には言わないでください。
+buildinggadgets.easter_eggs.dire_9x9.no_dire_wire,No Dire-Wire this time. Please.,今回はDire-Wireなし。お願いします。
+buildinggadgets.message.anchor_removed,Anchor Removed,アンカーを削除しました
+buildinggadgets.message.anchor_set,Render Anchored,アンカーを表示しました
+buildinggadgets.message.area_reset,Copy Area Reset,コピー領域をリセットしました
+buildinggadgets.message.area_too_big,"Area too Large, max area is 65 536 X 256 X 65 536 (Right click empty air to reset)",範囲が大きすぎます。最大範囲は65 536×256×65 536です(空中を右クリックしてリセット)
+buildinggadgets.message.boundTE,Bound Gadget to Inventory,ガジェットをインベントリに紐付けました
+buildinggadgets.message.build_too_large,"Attempted to perform a build of size (%d, %d, %d) which is larger then your server's defined max size of (%d, %d, %d). If you want to build nonetheless, please use the OverrideBuildSize command.",サイズ(%d、%d、%d)のビルドを実行しようとしましたが、これはサーバーの定義された最大サイズ(%d、%d、%d)より大きいです。それでもビルドしたい場合は、OverrideBuildSizeコマンドを使用してください。
+buildinggadgets.message.build_unloaded,"Attempted to perform a build which would have enclosed %d unloaded chunks. If you want to build nonetheless, please use the ForceLoadChunks command.",サイズ(%d、%d、%d)のビルドを実行しようとしましたが、%dのアンロードされたチャンクが含まれます。それでもビルドしたい場合は、ForceLoadChunksコマンドを使用してください。
+buildinggadgets.message.building.placement,Block Placement: %s,ブロックの場所：%s
+buildinggadgets.message.connected_area,Connected Area: %s,接続された範囲：%s
+buildinggadgets.message.connected_surface,Connected Surface: %s,接続された表面：%s
+buildinggadgets.message.copied,Area Copied,領域をコピーしました
+buildinggadgets.message.copy_clipboard_success,Copy to Clipboard successful,クリップボードに正常にコピーしました
+buildinggadgets.message.copy_failed.error,Could not copy to clipboard.,クリップボードへのコピーができませんでした。
+buildinggadgets.message.copy_failed.template_write,Could not write Template binary.,テンプレートバイナリを書き込めませんでした。
+buildinggadgets.message.copy_too_large,"Attempted to perform a copy of size (%d, %d, %d) which is larger then your server's defined max size of (%d, %d, %d). If you want to copy nonetheless, please use the OverrideCopySize command.",サイズ(%d、%d、%d)のコピーを実行しようとしましたが、これはサーバーの定義された最大サイズ(%d、%d、%d)より大きいです。それでもコピーしたい場合は、OverrideCopySizeコマンドを使用してください。
+buildinggadgets.message.copy_unloaded,"Attempted to perform a copy which would have enclosed %d unloaded chunks. If you want to copy nonetheless, please use the ForceLoadChunks command.",%dのアンロードされたチャンクが含まれるコピーを実行しようとしました。それでもコピーしたい場合は、ForceLoadChunksコマンドを使用してください。
+buildinggadgets.message.destroy_size_too_large,Maximum Destruction size is %1$dx%1$dx%1$d,最大破壊サイズは%1$d×%1$d×%1$dです
+buildinggadgets.message.failed_to_bind,Failed to bind to inventory,インベントリへのバインドに失敗しました
+buildinggadgets.message.first_copy,First Position set,最初の位置を設定
+buildinggadgets.message.fuzzy_mode,Fuzzy Mode: %s,ファジーモード：%s
+buildinggadgets.message.gadget_busy,The Gadget is currently Busy. Please Wait.,ガジェットは現在処理中です。お待ちください。
+buildinggadgets.message.invalid_block,Invalid Block (%s),無効なブロック(%s)
+buildinggadgets.message.invalid_inventory,This block is not a valid inventory,このブロックは有効なインベントリではありません
+buildinggadgets.message.mirrored,Blocks Mirrored,ブロックを反転させました
+buildinggadgets.message.not_copied,Area Copy Failed,範囲のコピーに失敗しました
+buildinggadgets.message.nothing_to_undo,Nothing To Undo,元に戻すものがありません
+buildinggadgets.message.paste_failed,Failed to paste Template to clipboard.,テンプレートをクリップボードに貼り付けできませんでした。
+buildinggadgets.message.paste_failed.corrupt_body,"Paste Failed, Template body is corrupted!",貼り付けに失敗しました。テンプレート本体が破損しています！
+buildinggadgets.message.paste_failed.corrupt_json,"Paste Failed, Corrupt JSON",貼り付けに失敗しました。JSONが破損しています
+buildinggadgets.message.paste_failed.invalid_json,"Paste Failed, Invalid JSON",貼り付けに失敗しました、無効なJSONです
+buildinggadgets.message.paste_failed.link_copied,"Paste Failed. Please copy the raw json data, instead of a Link.",貼り付けに失敗しました。リンクではなく、生のJSONデータをコピーしてください。
+buildinggadgets.message.paste_failed.too_recent_version,"Paste Failed, Template version %s is unknown to this instance. Please use only Templates that were build up to format version %s.",貼り付けに失敗しました。テンプレートバージョン%sはこのインスタンスで不明です。フォーマットバージョン%sまでで構築されたテンプレートのみを使用してください。
+buildinggadgets.message.paste_failed.wrong_mc_version,"Paste Failed, MC Version %s is not supported. Please use only templates that were build for (%s) -> (%s)",貼り付けに失敗しました。MCバージョン%sはサポートされていません。(%s)→(%s)で構築されたテンプレートのみを使用してください
+buildinggadgets.message.paste_success,Paste from Clipboard successful,クリップボードから正常に貼り付けました
+buildinggadgets.message.place.atop,On Top,表面
+buildinggadgets.message.place.inside,Inside,内側
+buildinggadgets.message.range_set,Tool Range: %d,ツール範囲：%d
+buildinggadgets.message.raytrace_fluid,Raytracing Fluids: %s,流体レイトレース：%s
+buildinggadgets.message.rotated,Blocks Rotated,ブロックを回転させました
+buildinggadgets.message.server_busy,The Server is currently Busy. Please Wait.,サーバーは現在ビジーです。お待ちください。
+buildinggadgets.message.template_build,Template build,テンプレートビルド
+buildinggadgets.message.too_many_blocks,"Too Many Blocks, Limit is 2 147 483 647 (Right click empty air to reset)",ブロック数が多すぎます。上限は2147483647です(空中を右クリックしてリセット)
+buildinggadgets.message.too_many_dif_blocks,"Too Many different Blocks, Limit is 16 777 216 (Right click empty air to reset)",異なるブロックが多すぎます。上限は16777216です(空中を右クリックしてリセット)
+buildinggadgets.message.tool_mode,Tool Mode: %s,ツールモード: %s
+buildinggadgets.message.unboundTE,Unbound Gadget from Inventory,ガジェットのインベントリとの紐付けを解除しました
+buildinggadgets.message.undo_failed,Undo Failed (Too far away?),元に戻せません（離れすぎている？）
+buildinggadgets.message.undo_missing_items,Missing Items for Undo,元に戻すためのアイテムが不足しています
+buildinggadgets.message.undo_unloaded,"Attempted to perform an undo which would have enclosed %d unloaded chunks. If you want to undo nonetheless, please use the ForceLoadChunks command.",%dのアンロードされたチャンクが含まれる元に戻す操作を実行しようとしました。それでも元に戻したい場合は、ForceLoadChunksコマンドを使用してください。
+buildinggadgets.modes.build_to_me,Build To Me,自分に向けて配置
+buildinggadgets.modes.copy,Copy,コピー
+buildinggadgets.modes.grid,Grid,グリッド
+buildinggadgets.modes.horizontal_column,Horizontal Column,水平な棒状
+buildinggadgets.modes.horizontal_wall,Horizontal Wall,水平な壁
+buildinggadgets.modes.paste,Paste,貼り付け
+buildinggadgets.modes.stairs,Stairs,階段
+buildinggadgets.modes.surface,Surface,表面
+buildinggadgets.modes.vertical_column,Vertical Column,垂直な棒状
+buildinggadgets.modes.vertical_wall,Vertical Wall,垂直な壁
+buildinggadgets.radialmenu.anchor,Anchor,アンカー
+buildinggadgets.radialmenu.connected_area,Connected Area,接続された範囲
+buildinggadgets.radialmenu.connected_surface,Connected Surface,繋がっている表面に配置
+buildinggadgets.radialmenu.destruction_overlay,Show Overlay,オーバーレイを表示
+buildinggadgets.radialmenu.fluid_only,Fluid Only Mode,流体のみモード
+buildinggadgets.radialmenu.fuzzy,Fuzzy,ファジー
+buildinggadgets.radialmenu.mirror,Mirror,ミラー
+buildinggadgets.radialmenu.open_gui,Open Gui,GUIを開く
+buildinggadgets.radialmenu.open_material-list,Open Material List,マテリアルリストを開く
+buildinggadgets.radialmenu.place_on_top,Place on Top,上に配置
+buildinggadgets.radialmenu.raytrace_fluid,Raytrace Fluid,流体レイトレース
+buildinggadgets.radialmenu.rotate,Rotate,回転
+buildinggadgets.radialmenu.undo,Undo,元に戻す
+gui.buildinggadgets.copy.button.absolute,Use absolute coords,絶対座標を使用
+gui.buildinggadgets.copy.label.heading,Make adjustments,調整を加える
+gui.buildinggadgets.copy.label.subheading,Use absolute mode to use block locations.,絶対モードを使用してブロックの位置を使用します。
+gui.buildinggadgets.destruction.field.depth,Depth,深さ
+gui.buildinggadgets.destruction.field.down,Down,下
+gui.buildinggadgets.destruction.field.left,Left,左
+gui.buildinggadgets.destruction.field.right,Right,右
+gui.buildinggadgets.destruction.field.up,Up,上
+gui.buildinggadgets.field.end,End,終了
+gui.buildinggadgets.field.start,Start,開始
+gui.buildinggadgets.help.area.arrow.data_flow,"Represents the flow of data from one item to another; either from a template to a gadget/template, or from a gadget/template to a template or piece of paper",データの流れを示しています；←：テンプレートからガジェット／別のテンプレートへの移動；→：ガジェット／テンプレートから別のテンプレート／紙への移動
+gui.buildinggadgets.help.area.field.template_name,"When data is saved/pasted, the resulting template will have this name",データの保存または貼り付けを行った際に、作成されるテンプレートに付ける名前を設定します
+gui.buildinggadgets.help.area.preview,Preview of the data stored in the gadget/template,ガジェット／テンプレートに保存されているデータのプレビューです
+gui.buildinggadgets.help.area.slot.gadget,Accepts §ncopy-paste gadget§r or §ntemplate§r to be saved/copied from and loaded to \n\n§9Colored overlay§r indicates that the item will receive data,§nコピペのガジェット§rまたは§nテンプレート§rを入れられます\n\n§9カラーオーバーレイ§rは、そのアイテムがデータを受け取ることを示しています
+gui.buildinggadgets.help.area.slot.template,Accepts §npaper§r or §ntemplate§r to be loaded from and saved/pasted to\n\n§9Colored overlay§r indicates that the item will receive data,§n紙§rまたは§nテンプレート§rを入れられます\n\n§9カラーオーバーレイ§rは、そのアイテムがデータを受け取ることを示しています
+gui.buildinggadgets.help.button.copy,Copies data from a gadget/template to your computer's clipboard,ガジェット／テンプレート内のデータを、お使いのコンピューターのクリップボードにコピーします
+gui.buildinggadgets.help.button.help.enter,Show hovering help text,マウスオーバーでヘルプを表示します
+gui.buildinggadgets.help.button.help.exit,Exit help mode,ヘルプモードを終了します
+gui.buildinggadgets.help.button.load,Loads data onto a gadget/template from a template,テンプレート内のデータをガジェットまたは別のテンプレートへロードします
+gui.buildinggadgets.help.button.paste,"Pastes data on your computer's clipboard to a pre-existing template, or to a piece of paper, creating a template",お使いのコンピューターのクリップボードの内容を、テンプレートまたは紙へ貼り付け、テンプレートを作成／更新します
+gui.buildinggadgets.help.button.save,"Saves the data in the gadget/template to a pre-existing template, or to a piece of paper, creating a template",ガジェット／テンプレート内のデータを、テンプレートまたは紙へ貼り付け、テンプレートを作成／更新します
+gui.buildinggadgets.materialList.button.close,Close,閉じる
+gui.buildinggadgets.materialList.button.copyList,Copy,コピー
+gui.buildinggadgets.materialList.button.sorting.missingAcse,Missing ↓,不足 ↓
+gui.buildinggadgets.materialList.button.sorting.missingDesc,Missing ↑,不足 ↑
+gui.buildinggadgets.materialList.button.sorting.nameAZ,A-Z,アイテム(A-Z)
+gui.buildinggadgets.materialList.button.sorting.nameZA,Z-A,アイテム(Z-A)
+gui.buildinggadgets.materialList.button.sorting.requiredAcse,Required ↓,必要 ↓
+gui.buildinggadgets.materialList.button.sorting.requiredDesc,Required ↑,必要 ↑
+gui.buildinggadgets.materialList.help.copyList,"Copy a text version of the material list.
+Press Ctrl/Command to create a detailed version with code names",素材リストのテキスト版をコピーする
+gui.buildinggadgets.materialList.message.copyList.success,Successfully copied material list,マテリアルリストのコピーに成功しました
+gui.buildinggadgets.materialList.title,Material List,%sのマテリアルリスト(作者：%s)
+gui.buildinggadgets.materialList.titleAuthorOnly,Material List by %s,マテリアルリスト(作者：%s)
+gui.buildinggadgets.materialList.titleEmpty,Material List,%sのマテリアルリスト(作者：%s)
+gui.buildinggadgets.materialList.titleNameOnly,Material List for %s,%sのマテリアルリスト
+gui.buildinggadgets.single.cancel,Cancel,キャンセル
+gui.buildinggadgets.single.clear,Clear,クリア
+gui.buildinggadgets.single.close,Close,閉じる
+gui.buildinggadgets.single.confirm,Confirm,確認
+gui.buildinggadgets.single.range,Range,範囲
+gui.buildinggadgets.single.reset,Reset,リセット
+gui.buildinggadgets.tm.button.copy,Copy,コピー
+gui.buildinggadgets.tm.button.load,Load,読み込み
+gui.buildinggadgets.tm.button.paste,Paste,貼り付け
+gui.buildinggadgets.tm.button.save,Save,保存
+gui.buildinggadgets.tm.field.placeholder,Template name,テンプレート名
+gui.buildinggadgets.tm.name_field.text,name?,名前？
+item.buildinggadgets.construction_chunk_dense,Dense Construction Chunk,高密度建材チャンク
+item.buildinggadgets.construction_paste,Construction Paste,建材ペースト
+item.buildinggadgets.construction_paste_container_creative,Creative Paste Container,クリエイティブペースト容器
+item.buildinggadgets.construction_paste_container_t1,Paste Container,ペースト容器（小）
+item.buildinggadgets.construction_paste_container_t2,Paste Container T2,ペースト容器（中）
+item.buildinggadgets.construction_paste_container_t3,Paste Container T3,ペースト容器（大）
+item.buildinggadgets.gadget_building,Building Gadget,建築のガジェット
+item.buildinggadgets.gadget_copy_paste,Copy-Paste Gadget,コピペのガジェット
+item.buildinggadgets.gadget_destruction,Destruction Gadget,破壊のガジェット
+item.buildinggadgets.gadget_exchanging,Exchanging Gadget,交換のガジェット
+item.buildinggadgets.template,Template,テンプレート
+itemGroup.buildinggadgets,Building Gadgets,建築のガジェット
+key.buildinggadgets.anchor,Anchor,アンカー
+key.buildinggadgets.category,Building Gadgets,建築のガジェット
+key.buildinggadgets.connected_area,Connected Area,接続された範囲
+key.buildinggadgets.fuzzy,Fuzzy,ファジー
+key.buildinggadgets.material_list,Open Material List,マテリアルリストを開く
+key.buildinggadgets.range,Range / Overlay,範囲／オーバーレイの切り替え
+key.buildinggadgets.rotate_mirror,Rotate / Mirror,回転／反転の切り替え
+key.buildinggadgets.settings_menu,Settings Menu,設定メニュー
+key.buildinggadgets.undo,Undo,元に戻す
+tooltip.charger.burn_time,Burn time left: %ss,残り燃焼時間: %ss
+tooltip.charger.energy,Energy: %s FE,エネルギー: %s FE
+tooltip.charger.fuel_empty,No fuel,燃料なし
+tooltip.constructionblockpowder.helptext,Place next to water,水に触れさせる
+tooltip.donotuse,DO NOT USE (WIP),使用しないでください(作成中)
+tooltip.gadget.anchor,Anchor,アンカー
+tooltip.gadget.building.place_atop,Place On Top,上に配置
+tooltip.gadget.connected,Connected,接続中
+tooltip.gadget.connected_area,Connected Area,接続された範囲
+tooltip.gadget.connected_surface,Connected Surface,繋がっている表面に配置
+tooltip.gadget.destroyshowoverlay,Showing Overlay,オーバーレイを表示：%s
+tooltip.gadget.destroywarning,WARNING: This tool voids blocks.,警告：このツールはブロックを消滅させます。
+tooltip.gadget.energy,Energy,エネルギー
+tooltip.gadget.fuzzy,Fuzzy,ファジー
+tooltip.gadget.mirror,Mirror,ミラー
+tooltip.gadget.raytrace_fluid,Raytrace Fluid,流体レイトレース
+tooltip.gadget.rotate,Rotate,回転
+tooltip.gadget.undo,Undo,元に戻す
+tooltip.pasteContainer.amount,Amount,数量
+tooltip.pasteContainer.creative.amountMsg,Amount: Infinite!,量：無限！
+tooltip.template.author,Author: %s,作者: %s
+tooltip.template.name,Name,名前
+itemGroup.buildingGadgets,Building Gadgets,建築のガジェット
+singles.buildinggadgets.depth,Depth,深さ
+singles.buildinggadgets.down,Down,下
+singles.buildinggadgets.left,Left,左
+singles.buildinggadgets.right,Right,右
+singles.buildinggadgets.up,Up,上
+singles.buildinggadgets.confirm,Ok,OK
+singles.buildinggadgets.cancel,Cancel,キャンセル
+item.buildinggadgets.buildingtool.name,Building Gadget,建築のガジェット
+item.buildinggadgets.constructionpaste.name,Construction Paste,建材ペースト
+item.buildinggadgets.construction_chunk_dense.name,Dense Construction Chunk,高密度建材チャンク
+item.buildinggadgets.constructionpastecontainer.name,Paste Container,ペースト容器（小）
+item.buildinggadgets.constructionpastecontainert2.name,Paste Container T2,ペースト容器（中）
+item.buildinggadgets.constructionpastecontainert3.name,Paste Container T3,ペースト容器（大）
+item.buildinggadgets.constructionpastecontainercreative.name,Creative Paste Container,クリエイティブペースト容器
+item.buildinggadgets.copypastetool.name,Copy-Paste Gadget,コピペのガジェット
+item.buildinggadgets.destructiontool.name,Destruction Gadget,破壊のガジェット
+item.buildinggadgets.exchangertool.name,Exchanging Gadget,交換のガジェット
+item.buildinggadgets.template.name,Template,テンプレート
+tile.buildinggadgets.constructionblock_dense.name,Dense Construction Block,高密度建設ブロック
+tile.buildinggadgets.constructionblock.name,Construction Block,建設ブロック
+tile.buildinggadgets.constructionblockpowder.name,Construction Block Powder,建設ブロックパウダー
+tile.buildinggadgets.effectblock.name,(Unused)Effect Block,（未使用）効果ブロック
+tile.buildinggadgets.templatemanager.name,Template Manager,テンプレートマネージャー
+block.buildinggadgets.constructionblock.name,Construction Block,建設ブロック
+block.buildinggadgets.constructionblockpowder.name,Construction Block Powder,建設ブロックパウダー
+block.buildinggadgets.effectblock.name,(Unused)Effect Block,（未使用）効果ブロック
+block.buildinggadgets.templatemanager.name,Template Manager,テンプレートマネージャー
+modes.buildinggadgets.surface,Surface,表面
+modes.buildinggadgets.grid,Grid,グリッド
+modes.buildinggadgets.horizontal_column,Horizontal Column,水平な棒状
+modes.buildinggadgets.horizontal_wall,Horizontal Wall,水平な壁
+modes.buildinggadgets.vertical_column,Vertical Column,垂直な棒状
+modes.buildinggadgets.vertical_wall,Vertical Wall,垂直な壁
+modes.buildinggadgets.stair,Stair,階段状
+modes.buildinggadgets.axis_chasing,Build To Me,自分に向けて配置
+key.categories.buildingGadgets,Building Gadgets,建築のガジェット
+key.anchor,Anchor,アンカー
+key.settings_menu,Settings Menu,設定メニュー
+key.range,Range / Overlay,範囲／オーバーレイの切り替え
+key.rotate_mirror,Rotate / Mirror,回転／反転の切り替え
+key.undo,Undo,元に戻す
+key.fuzzy,Fuzzy,ファジー
+key.connected_area,Connected Area,接続された範囲
+key.material_list,Material List,%sのマテリアルリスト(作者：%s)
+tooltip.gadget.block,Block,ブロック
+tooltip.gadget.destroy.overlay,Overlay,オーバーレイ
+tooltip.gadget.mode,Mode,モード
+tooltip.gadget.range,Range,範囲
+tooltip.gadget.copypaste.opengui,Edit Placement,場所を編集
+message.gadget.anchorremove,Anchor Removed,アンカーを削除しました
+message.gadget.anchorrender,Render Anchored,アンカーを表示しました
+message.gadget.areareset,Copy Area Reset,コピー領域をリセットしました
+message.gadget.copied,Area Copied,領域をコピーしました
+message.gadget.copyfailed,"Copy Failed, no data for tool",コピーに失敗しました、データがありません
+message.gadget.copyguierror,Copy Area Failed,領域のコピーに失敗しました
+message.gadget.copysuccess,Copy to Clipboard successful,クリップボードに正常にコピーしました
+message.gadget.destroysizeerror,"Maximum Destruction size is 16x16x16, negative numbers are invalid",最大破壊範囲は16x16x16で、マイナスの値は無効です
+message.gadget.fuzzymode,Fuzzy Mode,あいまいモード
+message.gadget.raytrace_fluid,Raytracing Fluid,液体レイトレースモード
+message.gadget.building.placement,Block Placement: %s,ブロックの場所：%s
+message.gadget.building.placement.atop,On Top,表面
+message.gadget.building.placement.inside,Inside,内側
+message.gadget.connectedarea,Connected Area,接続された範囲
+message.gadget.connectedsurface,Connected Surface,繋がっている表面に配置
+message.gadget.invalidblock,Invalid Block,無効なブロック
+message.gadget.nothingtoundo,Nothing To Undo,元に戻すものがありません
+message.gadget.pastefailed,"Paste Failed, Invalid JSON",貼り付けに失敗しました、無効なJSONです
+message.gadget.pastefailed.linkcopied,"Paste Failed. Please copy the raw json data, instead of a Link",貼り付けに失敗しました。参照ではなく本体のJSONデータをコピーしてください。
+message.gadget.pastesuccess,Paste from Clipboard successful,クリップボードから正常に貼り付けました
+message.gadget.pastetoobig,Paste is too large,貼り付けが大きすぎます
+message.gadget.rotated,Blocks Rotated,ブロックを回転させました
+message.gadget.mirrored,Blocks Mirrored,ブロックを反転させました
+message.gadget.toobigarea,"Area too Large, max area is 125x125x125 (Right click empty air to reset)",領域が大きすぎます、最大は125x125x125です (空中を右クリックでリセットします)
+message.gadget.toolmode,Tool Mode: %s,ツールモード: %s
+message.gadget.toolrange,Tool Range,ツールの範囲
+message.gadget.toomanyblocks,"Too Many Blocks, Limit is 32,768 (Right click empty air to reset)","ブロックが多すぎます、上限は32,768です (空中を右クリックでリセットします)"
+message.gadget.undofailed,Undo Failed (Too far away?),元に戻せません（離れすぎている？）
+message.gadget.TEinCopy,"Area Copied, Number of tile entities not copied",領域をコピーしました、いくつかのタイルエンティティはコピーできませんでした
+message.gadget.boundTE,Bound Gadget to Inventory,ガジェットをインベントリに紐付けました
+message.gadget.unboundTE,Unbound Gadget from Inventory,ガジェットのインベントリとの紐付けを解除しました
+help.gui.buildinggadgets.area.arrow.data_flow,"Represents the flow of data from one item to another; either from a template to a gadget/template, or from a gadget/template to a template or piece of paper",データの流れを示しています；←：テンプレートからガジェット／別のテンプレートへの移動；→：ガジェット／テンプレートから別のテンプレート／紙への移動
+help.gui.buildinggadgets.area.field.template_name,"When data is saved/pasted, the resulting template will have this name",データの保存または貼り付けを行った際に、作成されるテンプレートに付ける名前を設定します
+help.gui.buildinggadgets.area.preview,Preview of the data stored in the gadget/template,ガジェット／テンプレートに保存されているデータのプレビューです
+help.gui.buildinggadgets.area.slot.gadget,Accepts §ncopy-paste gadget§r or §ntemplate§r to be saved/copied from and loaded to \n\n§9Colored overlay§r indicates that the item will receive data,§nコピペのガジェット§rまたは§nテンプレート§rを入れられます\n\n§9カラーオーバーレイ§rは、そのアイテムがデータを受け取ることを示しています
+help.gui.buildinggadgets.area.slot.template,Accepts §npaper§r or §ntemplate§r to be loaded from and saved/pasted to\n\n§9Colored overlay§r indicates that the item will receive data,§n紙§rまたは§nテンプレート§rを入れられます\n\n§9カラーオーバーレイ§rは、そのアイテムがデータを受け取ることを示しています
+help.gui.buildinggadgets.button.copy,Copies data from a gadget/template to your computer's clipboard,ガジェット／テンプレート内のデータを、お使いのコンピューターのクリップボードにコピーします
+help.gui.buildinggadgets.button.help.enter,Show hovering help text,マウスオーバーでヘルプを表示します
+help.gui.buildinggadgets.button.help.exit,Exit help mode,ヘルプモードを終了します
+help.gui.buildinggadgets.button.load,Loads data onto a gadget/template from a template,テンプレート内のデータをガジェットまたは別のテンプレートへロードします
+help.gui.buildinggadgets.button.paste,"Pastes data on your computer's clipboard to a pre-existing template, or to a piece of paper, creating a template",お使いのコンピューターのクリップボードの内容を、テンプレートまたは紙へ貼り付け、テンプレートを作成／更新します
+help.gui.buildinggadgets.button.save,"Saves the data in the gadget/template to a pre-existing template, or to a piece of paper, creating a template",ガジェット／テンプレート内のデータを、テンプレートまたは紙へ貼り付け、テンプレートを作成／更新します
+gui.buildinggadgets.materialList.button.sortingMode.countReversed,Count ↑,個数の降順↑
+gui.buildinggadgets.materialList.button.sortingMode.name,Name ↓,名前の昇順↓
+gui.buildinggadgets.materialList.button.sortingMode.nameReversed,Name ↑,名前の降順↑
+gui.buildinggadgets.materialList.button.sortingMode.count,Count ↓,個数の昇順↓
+gui.buildinggadgets.materialList.text.statusTemplate,%s/%s,%s/%s
+gui.buildinggadgets.materialList.message.copiedMaterialList,Successfully copied %s material list,%sの素材リストを正常にコピーしました
+gui.buildinggadgets.materialList.message.copiedMaterialList.simple,simple,単純
+gui.buildinggadgets.materialList.message.copiedMaterialList.detailed,detailed,詳細
+config.buildinggadgets.general.rayTraceRange,Max Build Distance,最大建築可能距離
+config.buildinggadgets.general.rayTraceRange.tooltip,Defines how far away you can build,どれだけ離れた位置に建築できるかを定義します
+config.buildinggadgets.general.poweredByFE,Powered by Forge Energy,Forge Energy(FE)による動作
+config.buildinggadgets.general.poweredByFE.tooltip,"Set to true for Forge Energy Support, set to False for vanilla Item Damage",trueにするとガジェットがForge Energy(FE)で動作し、falseにするとガジェットの耐久度が消費されます
+config.buildinggadgets.general.paste.enabled,Enable Construction Paste,建設ペーストを有効にする
+config.buildinggadgets.general.paste.enabled.tooltip,Set to false to disable the recipe for construction paste.,falseにすると、建設ペーストのレシピが無効になります
+config.buildinggadgets.general.paste.dropped.min,Construction Paste Drop Count - Min,建設ペーストのドロップ数 - 最小
+config.buildinggadgets.general.paste.dropped.min.tooltip,The minimum number of construction paste items dropped by a dense construction block.,高密度建設ブロックを破壊した時にドロップする建材ペーストの最小値。
+config.buildinggadgets.general.paste.dropped.max,Construction Paste Drop Count - Max,建設ペーストのドロップ数 - 最大
+config.buildinggadgets.general.paste.dropped.max.tooltip,The maximum number of construction paste items dropped by a dense construction block.,高密度建設ブロックを破壊した時にドロップする建材ペーストの最大値。
+config.buildinggadgets.general.enableDestructionGadget,Enable Destruction Gadget,破壊のガジェットを有効にする
+config.buildinggadgets.general.enableDestructionGadget.tooltip,Set to false to disable the Destruction Gadget.,falseにすると、破壊のガジェットを無効にします。
+config.buildinggadgets.general.absoluteCoordDefault,Default to absolute Coord-Mode,絶対値座標モードをデフォルトにする
+config.buildinggadgets.general.absoluteCoordDefault.tooltip,"Determines if the Copy/Paste GUI's coordinate mode starts in 'Absolute' mode by default.\n Set to true for Absolute, set to False for Relative.",コピペのガジェットのGUIで、絶対値モードをデフォルトにするかを設定します。\ntrueにすると絶対値がデフォルト、falseにすると相対値がデフォルトになります。
+config.buildinggadgets.general.canOverwriteBlocks,Allow non-Air-Block-Overwrite,空気以外のブロックの上書きを許容する
+config.buildinggadgets.general.canOverwriteBlocks.tooltip,"Whether the Building / CopyPaste Gadget can overwrite blocks like water, lava, grass, etc (like a player can).\n False will only allow it to overwrite air blocks.",建築／コピペのガジェットで空気ブロック以外（水、溶岩、草など）にも配置できるようにするか（プレイヤーが行うかのように）を設定します。\nfalseにすると、空気ブロックだけに配置します。
+config.buildinggadgets.general.subCategoryBlacklist,Blacklist Settings,ブラックリスト設定
+config.buildinggadgets.general.subCategoryBlacklist.tooltip,Configure your Blacklist-Settings here,ブラックリストの設定を行います
+config.buildinggadgets.general.subCategoryBlacklist.blockBlacklist,Blacklisted Blocks,ブラックリストされたブロック
+config.buildinggadgets.general.subCategoryBlacklist.blockBlacklist.tooltip,"All Blocks added to this will be treated similar to TileEntities. Not at all. \nNotice that you can use Regular Expressions as defined by Java Patterns to express more complex name combinations. \nUse for example ""awfulmod:.*"" to blacklist all awfulmod Blocks.","ここに追加されたブロックは、タイルエンティティと同様に扱われます。\nJavaの正規表現の表記を用いて複雑なパターンの表現も可能です。\n例えば、""awfulmod:.*""と書くと、awfulmodというModIDのアイテム全てがブラックリストになります。"
+config.buildinggadgets.general.subCategoryGadgets,Gadgets,ガジェット
+config.buildinggadgets.general.subCategoryGadgets.tooltip,Configure the Gadgets here,ガジェット毎の設定を行います
+config.buildinggadgets.general.subCategoryGadgets.maxRange,Maximum allowed Range,最大許容範囲
+config.buildinggadgets.general.subCategoryGadgets.maxRange.tooltip,The max range of the Gadgets,ガジェットで設定できる最大範囲
+config.buildinggadgets.general.subCategoryGadgets.maxEnergy,Maximum Energy,最大エネルギー
+config.buildinggadgets.general.subCategoryGadgets.maxEnergy.tooltip,"The max energy of Building, Exchanging & Copy-Paste Gadget",建築、交換、コピペのガジェットの最大エネルギー容量
+config.buildinggadgets.general.subCategoryGadgets.energyCost,Energy Cost,エネルギー消費
+config.buildinggadgets.general.subCategoryGadgets.energyCost.tooltip,The Gadget's Energy cost per Operation,ガジェットを1回使用する毎に消費するFEの量
+config.buildinggadgets.general.subCategoryGadgets.damageCost,Damage Cost,ダメージコスト
+config.buildinggadgets.general.subCategoryGadgets.damageCost.tooltip,The Gadget's Damage cost per Operation,ガジェットを1回使用する毎に消費する耐久値の量
+config.buildinggadgets.general.subCategoryGadgets.durability,Durability,耐久値
+config.buildinggadgets.general.subCategoryGadgets.durability.tooltip,The Gadget's Durability (0 means no durability is used) (Ignored if powered by FE),ガジェットの耐久度（0にすると無限に使用できます）（FE動作の場合は無視されます）
+config.buildinggadgets.general.subCategoryGadgets.gadgetBuilding,Building Gadget,建築のガジェット
+config.buildinggadgets.general.subCategoryGadgets.gadgetBuilding.tooltip,Energy Cost & Durability of the Building Gadget,建築のガジェットのエネルギーコスト、耐久度
+config.buildinggadgets.general.subCategoryGadgets.gadgetExchanger,Exchanging Gadget,交換のガジェット
+config.buildinggadgets.general.subCategoryGadgets.gadgetExchanger.tooltip,Energy Cost & Durability of the Exchanging Gadget,交換のガジェットのエネルギーコスト、耐久度
+config.buildinggadgets.general.subCategoryGadgets.gadgetDestruction,Destruction Gadget,破壊のガジェット
+config.buildinggadgets.general.subCategoryGadgets.gadgetDestruction.tooltip,"Energy Cost, Durability & Maximum Energy of the Destruction Gadget",破壊のガジェットのエネルギーコスト、耐久度、最大エネルギー量
+config.buildinggadgets.general.subCategoryGadgets.gadgetDestruction.maxEnergy,Maximum Energy,最大エネルギー
+config.buildinggadgets.general.subCategoryGadgets.gadgetDestruction.maxEnergy.tooltip,The max energy of the Destruction Gadget,破壊のガジェットの最大エネルギー容量
+config.buildinggadgets.general.subCategoryGadgets.gadgetDestruction.nonfuzzy.multiplier,Non-Fuzzy Mode Multiplier,非あいまいモードでの乗数
+config.buildinggadgets.general.subCategoryGadgets.gadgetDestruction.nonfuzzy.multiplier.tooltip,The cost in energy/durability will increase by this amount when not in fuzzy mode,非あいまいモードの場合に増えるエネルギー量／耐久値の乗数
+config.buildinggadgets.general.subCategoryGadgets.gadgetDestruction.nonfuzzy.enabled,Non-Fuzzy Mode Enabled,非あいまいモードを有効にする
+config.buildinggadgets.general.subCategoryGadgets.gadgetDestruction.nonfuzzy.enabled.tooltip,"If enabled, the Destruction Gadget can be taken out of fuzzy mode, allowing only instances of the block clicked to be removed (at a higher cost)",trueにすると、破壊のガジェットはあいまいモードとして動作せず、クリックしたブロックだけを破壊します（使用コストが増加します）
+config.buildinggadgets.general.subCategoryGadgets.gadgetCopyPaste,Copy-Paste Gadget,コピペのガジェット
+config.buildinggadgets.general.subCategoryGadgets.gadgetCopyPaste.tooltip,Energy Cost & Durability of the Copy-Paste Gadget,コピペのガジェットのエネルギーコスト、耐久度
+config.buildinggadgets.general.subCategoryPasteContainers,Construction Paste Containers,建材ペースト容器
+config.buildinggadgets.general.subCategoryPasteContainers.tooltip,Configure the Construction Paste Containers here,建材ペースト容器の設定
+config.buildinggadgets.general.subCategoryPasteContainers.capacity.t1,T1 Paste Container Capacity,ペースト容器（小）の容量
+config.buildinggadgets.general.subCategoryPasteContainers.capacity.t1.tooltip,The maximum capacity of a tier 1 (iron) Construction Paste Container,ペースト容器（小）の最大容量
+config.buildinggadgets.general.subCategoryPasteContainers.capacity.t2,T2 Paste Container Capacity,ペースト容器（中）の容量
+config.buildinggadgets.general.subCategoryPasteContainers.capacity.t2.tooltip,The maximum capacity of a tier 2 (gold) Construction Paste Container,ペースト容器（中）の最大容量
+config.buildinggadgets.general.subCategoryPasteContainers.capacity.t3,T3 Paste Container Capacity,ペースト容器（大）の容量
+config.buildinggadgets.general.subCategoryPasteContainers.capacity.t3.tooltip,The maximum capacity of a tier 3 (diamond) Construction Paste Container,ペースト容器（大）の最大容量

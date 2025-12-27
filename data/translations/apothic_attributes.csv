@@ -1,0 +1,160 @@
+﻿key,source_text,target_text
+apothic_attributes.gui.add_multiplied_base,Multiply Base: %s,基本倍率: %s
+apothic_attributes.gui.add_multiplied_total,Multiply Total: %s,合計倍率: %s
+apothic_attributes.gui.add_value,Addition: %s,追加: %s
+apothic_attributes.gui.attributes,Attributes,属性
+apothic_attributes.gui.base,Base: %s,基本: %s
+apothic_attributes.gui.current,Current: %s,現在: %s
+apothic_attributes.gui.dynamic,(dynamic),(動的)
+apothic_attributes.gui.formula,Modifier Formula,変異計算式
+apothic_attributes.gui.formula.base,Base,基本
+apothic_attributes.gui.formula.value,Value,値
+apothic_attributes.gui.max,Max: %s,最大: %s
+apothic_attributes.gui.min,Min: %s,最小: %s
+apothic_attributes.gui.modifiers,Modifiers,修飾子
+apothic_attributes.gui.no_modifiers,No Modifiers,変異なし
+apothic_attributes.gui.press_shift,Hold Shift for more info.,シフトキーを押して詳細情報を表示。
+apothic_attributes.gui.show_attributes,Show Attributes,属性を表示
+apothic_attributes:armor_pierce,Armor Pierce,アーマー貫通
+apothic_attributes:armor_pierce.desc,Flat reduction to the target's armor value.,対象の防御力を一律で減少させる
+apothic_attributes:armor_shred,Armor Shred,アーマー剥離
+apothic_attributes:armor_shred.desc,Percentage reduction to the target's armor value.,対象の防御力を割合で減少させる
+apothic_attributes:arrow_damage,Arrow Damage,矢のダメージ
+apothic_attributes:arrow_damage.desc,Damage multiplier for arrows. Tridents are arrows.,矢のダメージ倍率。トライデントは矢として扱われます。
+apothic_attributes:arrow_velocity,Arrow Velocity,矢の速度
+apothic_attributes:arrow_velocity.desc,Speed multiplier for arrows. Arrow damage scales with velocity.,矢が飛ぶ速さの増加率。矢によるダメージは速さにも依存する
+apothic_attributes:cold_damage,Cold Damage,冷害
+apothic_attributes:cold_damage.desc,"Bonus magic damage applied on melee attacks, and slows enemies hit.",近接攻撃に加算される魔法ダメージ。相手の移動速度を遅くする
+apothic_attributes:creative_flight,Creative Flight,クリエイティブフライト
+apothic_attributes:creative_flight.desc,If you can fly as if in Creative Mode.,クリエイティブモードと同じように飛び回れるかどうか
+apothic_attributes:crit_chance,Crit Chance,命中確率
+apothic_attributes:crit_chance.desc,"The chance any damage you deal critically strikes, dealing extra damage based on your Crit Damage.",攻撃がクリティカルヒットになる確率。追加ダメージはクリティカルダメージの数値による
+apothic_attributes:crit_damage,Crit Damage,クリティカルダメージ
+apothic_attributes:crit_damage.desc,"Damage multiplier for critical hits, including vanilla jump crits.",クリティカルヒット発生時のダメージ倍率。バニラのジャンプによるクリティカルもこの値の影響を受ける
+apothic_attributes:current_hp_damage,Current HP Damage,現在のHPダメージ
+apothic_attributes:current_hp_damage.desc,"Bonus physical damage applied on melee attacks, based on the target's health.",近接攻撃に付与される追加物理ダメージで、対象の体力に基づいています。
+apothic_attributes:dodge_chance,Dodge Chance,回避確率
+apothic_attributes:dodge_chance.desc,Chance to dodge a melee attack or a projectile.,近接攻撃または投射物を回避する確率
+apothic_attributes:draw_speed,Draw Speed,引く速度
+apothic_attributes:draw_speed.desc,"How fast you draw ranged weapons, such as bows, crossbows, or tridents.",弓やクロスボウ、トライデントなどの遠距離武器を撃ったり投げたりするときの動作の速度
+apothic_attributes:elytra_flight,Elytra Flight,エリトラ飛行
+apothic_attributes:elytra_flight.desc,If you can fly as if wearing an Elytra.,エリトラを装着しているかのように飛べるかどうか
+apothic_attributes:experience_gained,Experience Gained,経験値取得倍率
+apothic_attributes:experience_gained.desc,Multiplier on how much experience you gain from breaking blocks and killing mobs.,ブロック破壊時や敵を倒した時に得られる経験値の増加率
+apothic_attributes:fire_damage,Fire Damage,火のダメージ
+apothic_attributes:fire_damage.desc,"Bonus magic damage applied on melee attacks, and burns enemies hit.",近接攻撃に加算される魔法ダメージ。相手を炎上させる
+apothic_attributes:ghost_health,Ghost Health,ゴースト体力
+apothic_attributes:ghost_health.desc,Not Yet Implemented,未実装
+apothic_attributes:healing_received,Healing Received,受ける回復
+apothic_attributes:healing_received.desc,Multiplier on all incoming healing.,すべての入力回復量に対する倍率。
+apothic_attributes:life_steal,Life Steal,生命奪取
+apothic_attributes:life_steal.desc,Percentage of post-mitigation damage which will heal you.,自分を回復させる耐性無視のダメージ比率
+apothic_attributes:mining_speed,Mining Speed,採掘速度
+apothic_attributes:mining_speed.desc,"How fast you mine blocks, compared to normal.",ブロックを破壊する速度。通常状態に対する倍率で表される
+apothic_attributes:overheal,Overheal,過剰回復
+apothic_attributes:overheal.desc,Percentage of post-mitigation damage which will grant you an absorption shield.,ポストミティゲーションダメージの割合で吸収シールドを付与される。
+apothic_attributes:projectile_damage,Projectile Damage,発射物 Damage
+apothic_attributes:projectile_damage.desc,Damage multiplier for all outgoing projectiles.,自身から発せられる全ての飛び道具によるダメージの増加率
+apothic_attributes:prot_pierce,Protection Pierce,ダメージ軽減貫通
+apothic_attributes:prot_pierce.desc,Flat reduction to the target's protection point total.,ターゲットの防御ポイント合計に対するフラット減少。
+apothic_attributes:prot_shred,Protection Shred,保護剥離
+apothic_attributes:prot_shred.desc,Percentage reduction to the target's protection point total.,対象の保護ポイント合計への百分率軽減。
+attribute.name.generic.armor.desc,Increases physical damage reduction.,物理的なダメージ軽減を増加させます。
+attribute.name.generic.armor_toughness.desc,Reduces the effectiveness of enemy armor reduction.,敵のアーマー軽減の効果を低減します。
+attribute.name.generic.attack_damage.desc,Physical damage dealt with a fully charged attack.,完全にチャージされた攻撃による物理ダメージ。
+attribute.name.generic.attack_knockback.desc,"How far your melee attacks knock back foes, in half-blocks.",近接攻撃が敵をノックバックさせる距離(ハーフブロック単位)。
+attribute.name.generic.attack_speed.desc,How many fully charged attacks you can execute per second.,1秒間に実行できる完全にチャージされた攻撃の回数。
+attribute.name.generic.knockback_resistance.desc,How much knockback you ignore.,無視できるノックバックの量。
+attribute.name.generic.luck.desc,Increases the likelihood of good things happening.,良いことが起こる確率を増加させます。
+attribute.name.generic.max_health.desc,How many hit points you can have.,最大体力を増加させます。
+attribute.name.generic.movement_speed.desc,Movement speed while walking.,歩行時の移動速度。
+button.apothic_attributes.hide_unchanged,Hide Unchanged Attributes,変化なしの能力は表示しない
+comment_id,Damage Sources,ダメージソース
+death.attack.apothic_attributes:bleeding,%1$s bled out,%1$sは失血死した。
+death.attack.apothic_attributes:bleeding.item,%1$s bled out due to %2$s's %3$s,%1$sは%2$sの%3$sにより失血死した。
+death.attack.apothic_attributes:bleeding.player,%1$s bled out whilst trying to escape %2$s,%1$sは%2$sから逃れようとして失血死した。
+death.attack.apothic_attributes:cold_damage,%1$s was frozen to death,%1$sは凍死した。
+death.attack.apothic_attributes:cold_damage.item,%1$s was frozen to death by %2$s using %3$s,%1$sは、%2$sが使う%3$sによって凍死した。
+death.attack.apothic_attributes:cold_damage.player,%1$s was frozen to death whilst fighting %2$s,%1$sは%2$sと戦って凍死した。
+death.attack.apothic_attributes:current_hp_damage,%1$s was struck down,%1$sはぶっ飛ばされた。
+death.attack.apothic_attributes:current_hp_damage.item,%1$s was struck down by %2$s using %3$s,%1$sは、%2$sが%3$sを使ってぶっ飛ばされた。
+death.attack.apothic_attributes:current_hp_damage.player,%1$s was struck down whilst fighting %2$s,%1$sは%2$sと戦ってぶっ飛ばされた。
+death.attack.apothic_attributes:detonation,%1$s was detonated by flame,%1$sは炎により爆発四散した。
+death.attack.apothic_attributes:detonation.item,%1$s was detonated by flame,%1$sは炎により爆発四散した。
+death.attack.apothic_attributes:detonation.player,%1$s was detonated by flame,%1$sは炎により爆発四散した。
+death.attack.apothic_attributes:fire_damage,%1$s was scorched to death,%1$sはカリカリに焼けて死んだ。
+death.attack.apothic_attributes:fire_damage.item,%1$s was scorched to death by %2$s using %3$s,%1$sは、%2$sが使う%3$sによってカリカリになるまで焼かれた。
+death.attack.apothic_attributes:fire_damage.player,%1$s was scorched to death whilst fighting %2$s,%1$sは%2$sと戦って焼け死んだ。
+effect.apothic_attributes.bleeding,Bleeding,出血
+effect.apothic_attributes.bleeding.desc,Inflicts damage every two seconds.,2秒ごとにダメージを与えます。
+effect.apothic_attributes.bleeding.description,Inflicts damage every two seconds.,2秒ごとにダメージを与えます。
+effect.apothic_attributes.detonation,Flaming Detonation,炎の爆発
+effect.apothic_attributes.detonation.desc,"On expiry, inflicts damage based on remaining fire ticks.",効果が切れたとき、燃えている炎の残り時間に応じてダメージを受ける。
+effect.apothic_attributes.detonation.description,"On expiry, inflicts damage based on remaining fire ticks.",効果が切れたとき、燃えている炎の残り時間に応じてダメージを受ける。
+effect.apothic_attributes.flying,Flying,飛行
+effect.apothic_attributes.grievous,Grievous Wounds,痛恨の傷
+effect.apothic_attributes.knowledge,Ancient Knowledge,古代の知識
+effect.apothic_attributes.sundering,Sundering,破壊
+effect.apothic_attributes.sundering.desc,Increases damage received.,受けるダメージを増加させます。
+effect.apothic_attributes.sundering.description,Increases damage received.,受けるダメージを増加させます。
+effect.apothic_attributes.vitality,Bursting Vitality,爆発する生命力
+effect.minecraft.fire_resistance.desc,Makes you immune to fire damage.,炎ダメージに対する免疫。
+effect.minecraft.instant_damage.desc,Instantly causes a bit of magic damage.,即座に魔法ダメージを与えます。
+effect.minecraft.instant_health.desc,Instantly restores a bit of your health.,即座に体力を回復します。
+effect.minecraft.invisibility.desc,"Makes you invisible, excluding equipment.",装備を除いて透明化します。
+effect.minecraft.jump_boost.desc,Increases jump height.,ジャンプの高さを増加させます。
+effect.minecraft.night_vision.desc,Allows you to see in the dark.,暗い場所での視認性を向上させます。
+effect.minecraft.poison.desc,Periodically inflicts non-lethal damage.,定期的に非致命的なダメージを与えます。
+effect.minecraft.regeneration.desc,Causes you to regenerate health over time.,時間とともに体力を再生させます。
+effect.minecraft.water_breathing.desc,Causes you to be unable to drown.,水中で溺れることができなくなります。
+item.minecraft.lingering_potion.effect.apothic_attributes.flying,Lingering Potion of Flying,飛翔の残留ポーション
+item.minecraft.lingering_potion.effect.apothic_attributes.grievous,Lingering Potion of Healing Reduction,回復低下の残留ポーション
+item.minecraft.lingering_potion.effect.apothic_attributes.knowledge,Lingering Potion of Ancient Knowledge,古の知識の残留ポーション
+item.minecraft.lingering_potion.effect.apothic_attributes.sundering,Lingering Potion of Sundering,崩壊の残留ポーション
+item.minecraft.lingering_potion.effect.apothic_attributes.vitality,Lingering Potion of Healing Boost,回復増加の残留ポーション
+item.minecraft.lingering_potion.effect.minecraft.absorption,Lingering Potion of Absorption,衝撃吸収の残留ポーション
+item.minecraft.lingering_potion.effect.minecraft.haste,Lingering Potion of Haste,残留する採掘速度上昇のポーション
+item.minecraft.lingering_potion.effect.minecraft.levitation,Lingering Potion of Levitation,持続型浮遊ポーション
+item.minecraft.lingering_potion.effect.minecraft.mining_fatigue,Lingering Potion of Mining Fatigue,掘削疲労の持続性ポーション
+item.minecraft.lingering_potion.effect.minecraft.resistance,Lingering Potion of Resistance,持続型耐性ポーション
+item.minecraft.lingering_potion.effect.minecraft.wither,Lingering Potion of Wither,ウィザーの残留ポーション
+item.minecraft.potion.effect.apothic_attributes.flying,Potion of Flying,飛翔のポーション
+item.minecraft.potion.effect.apothic_attributes.grievous,Potion of Healing Reduction,回復低下のポーション
+item.minecraft.potion.effect.apothic_attributes.knowledge,Potion of Ancient Knowledge,古の知識のポーション
+item.minecraft.potion.effect.apothic_attributes.sundering,Potion of Sundering,崩壊のポーション
+item.minecraft.potion.effect.apothic_attributes.vitality,Potion of Healing Boost,回復増加のポーション
+item.minecraft.potion.effect.minecraft.absorption,Potion of Absorption,衝撃吸収のポーション
+item.minecraft.potion.effect.minecraft.haste,Potion of Haste,早さのポーション
+item.minecraft.potion.effect.minecraft.levitation,Potion of Levitation,浮遊のポーション
+item.minecraft.potion.effect.minecraft.mining_fatigue,Potion of Mining Fatigue,鉱山疲労のポーション
+item.minecraft.potion.effect.minecraft.resistance,Potion of Resistance,耐性のポーション
+item.minecraft.potion.effect.minecraft.wither,Potion of Wither,ウィザーのポーション
+item.minecraft.splash_potion.effect.apothic_attributes.flying,Splash Potion of Flying,飛翔のスプラッシュポーション
+item.minecraft.splash_potion.effect.apothic_attributes.grievous,Splash Potion of Healing Reduction,回復低下のスプラッシュポーション
+item.minecraft.splash_potion.effect.apothic_attributes.knowledge,Splash Potion of Ancient Knowledge,古の知識のスプラッシュポーション
+item.minecraft.splash_potion.effect.apothic_attributes.sundering,Splash Potion of Sundering,崩壊のスプラッシュポーション
+item.minecraft.splash_potion.effect.apothic_attributes.vitality,Splash Potion of Healing Boost,回復増加のスプラッシュポーション
+item.minecraft.splash_potion.effect.minecraft.absorption,Splash Potion of Absorption,衝撃吸収のスプラッシュポーション
+item.minecraft.splash_potion.effect.minecraft.haste,Splash Potion of Haste,スプラッシュ採掘速度上昇のポーション
+item.minecraft.splash_potion.effect.minecraft.levitation,Splash Potion of Levitation,浮遊のスプラッシュポーション
+item.minecraft.splash_potion.effect.minecraft.mining_fatigue,Splash Potion of Mining Fatigue,採掘疲労スプラッシュポーション
+item.minecraft.splash_potion.effect.minecraft.resistance,Splash Potion of Resistance,耐性のスプラッシュポーション
+item.minecraft.splash_potion.effect.minecraft.wither,Splash Potion of Wither,ウィザーのスプラッシュポーション
+item.minecraft.tipped_arrow.effect.apothic_attributes.flying,Arrow of Flying,飛翔の矢
+item.minecraft.tipped_arrow.effect.apothic_attributes.grievous,Arrow of Healing Reduction,回復低下の矢
+item.minecraft.tipped_arrow.effect.apothic_attributes.knowledge,Arrow of Ancient Knowledge,古の知識の矢
+item.minecraft.tipped_arrow.effect.apothic_attributes.sundering,Arrow of Sundering,崩壊の矢
+item.minecraft.tipped_arrow.effect.apothic_attributes.vitality,Arrow of Healing Boost,回復増加の矢
+item.minecraft.tipped_arrow.effect.minecraft.absorption,Arrow of Absorption,衝撃吸収の矢
+item.minecraft.tipped_arrow.effect.minecraft.haste,Arrow of Haste,早さの矢
+item.minecraft.tipped_arrow.effect.minecraft.levitation,Arrow of Levitation,浮遊の矢
+item.minecraft.tipped_arrow.effect.minecraft.mining_fatigue,Arrow of Mining Fatigue,採掘速度低下の矢
+item.minecraft.tipped_arrow.effect.minecraft.resistance,Arrow of Resistance,耐性の矢
+item.minecraft.tipped_arrow.effect.minecraft.wither,Arrow of Wither,ウィザーの矢
+neoforge.block_reach.desc,"How far you can interact with blocks, in blocks.",ブロックに手が届く範囲。単位はブロック
+neoforge.entity_gravity.desc,"Acceleration towrds the ground, in blocks/s²",地面への加速度(ブロック/秒²)。
+neoforge.entity_reach.desc,"How far you can interact with entities, in blocks.",どの程度離れたエンティティに働きかけられるか。単位はブロック。
+neoforge.name_tag_distance.desc,How far away another player must be to see your name.,別のプレイヤーがあなたの名前を見える距離。
+neoforge.step_height.desc,How many blocks you may step up without jumping.,ジャンプせずに自動的に上れる段差の高さ
+neoforge.swim_speed.desc,"How fast you swim, relative to normal.",通常と比較した水中での移動速度。
+text.apothic_attributes.hide_unchanged,Hide Unchanged,変化なしを非表示

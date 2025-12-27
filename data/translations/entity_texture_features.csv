@@ -1,0 +1,1028 @@
+﻿key,source_text,target_text
+config.entity_features,Entity Features mod settings,エンティティ・フェイチャーズモジュール設定
+config.entity_features.button_tooltip,Opens the Entity Features config screen.,エンティティ機能設定画面を開きます。
+config.entity_features.empty,No settings available,設定がありません
+config.entity_features.empty_esf,"No settings available
+The Entity Sound Features mod is needed if you want Varied Entity Sounds.",設定がありません
+config.entity_features.general_settings.title,Misc settings,その他設定
+config.entity_features.models_main,Models,モデル
+config.entity_features.optifine_settings,OptiFine Compat,OptiFine互換性
+config.entity_features.per_entity_settings,Per entity settings,エンティティごとの設定
+config.entity_features.per_entity_settings.blocks2," not actually use these features"," 実際にはこれらの機能を使用しないでください"
+config.entity_features.per_entity_settings.layer,RenderLayer override,レンダーレイヤー上書き
+config.entity_features.per_entity_settings.layer.tooltip,"Enables ETF to try and override the render layer of an entity.
+Allowing transparency for example.
+This will not always work properly...","ETFがエンティティのレンダリングレイヤーをオーバーライドしようとします。
+例えば、透明度を有効にできます。
+ただし、これが常に正しく機能するとは限りません..."
+config.entity_features.per_entity_settings.light,Light override,光の上書き
+config.entity_features.per_entity_settings.light.tooltip,Enables ETF to try and override the default light level of an entity. E.G. you can stop Blazes & Allays from being bright by setting this to 0.,ETFがエンティティのデフォルトライトレベルをオーバーライドしようとします。例えば、これを0に設定することで、ブレイズやアレイが明るくなるのを防ぐことができます。
+config.entity_features.per_entity_settings.restrict,Property restrictions,プロパティ制限
+config.entity_features.per_entity_settings.restrict.tooltip,"Whether or not to allow or deny property
+restrictions on a mob with a property that
+is restricted to its spawn conditions
+e.g. biomes","プロパティを持つモブに対して、プロパティ制限を許可するかどうか
+バイオーム生成条件に制限されている
+例えば、バイオーム"
+config.entity_features.sounds_main,Sounds,サウンド
+config.entity_features.textures_main,Textures,テクスチャ
+config.entity_features.undo,Undo changes,変更を取り消す
+config.entity_features.warnings_main,§4Warnings,§4注意
+config.entity_texture_features.Debug_log_mode.chat,Chat,チャット
+config.entity_texture_features.Debug_log_mode.log,Log,木
+config.entity_texture_features.Debug_log_mode.none,None,なし
+config.entity_texture_features.allow_illegal_texture_paths.title,Allow broken texture paths,壊れたテクスチャパスを許可する
+config.entity_texture_features.allow_illegal_texture_paths.tooltip,"This setting allows you to overwrite the
+Vanilla behaviour of prohibiting all
+non [a-z0-9/._-] characters in texture paths.
+This means textures with spaces or capitals
+are allowed to be used.
+Disabled by default as these problems should really
+be fixed by the resource pack creator","この設定は、テクスチャパスに[a-z0-9/._-]以外の文字を許可しないバニラの動作を上書きできます
+これはスペースまたは大文字を持つテクスチャが使用できることを意味します
+これらの問題はリソースパッククリエーターによって本当に修正されるべきであるため、デフォルトでは無効です"
+config.entity_texture_features.allow_unknown_restrict.title,Allow restricting unknown texture properties,未知のテクスチャプロパティを制限できるようにします
+config.entity_texture_features.allow_unknown_restrict.tooltip,"Sets whether or not to allow spawn condition restrictions
+For all additional ETF, EMF, or other mod added properties","すべての追加ETF、EMF、またはその他のモッドが追加したプロパティに対して
+スポーン条件の制限を許可するかどうかを設定します"
+config.entity_texture_features.always_check_vanilla_emissive_suffix.title,Always check for '_e' emissive,常に '_e' エミッシブをチェックする。
+config.entity_texture_features.always_check_vanilla_emissive_suffix.tooltip,"Most resource packs use the emissive suffix _e
+however this can be overridden by packs if they
+want to use a different suffix.
+If this is true the mod will always check for
+'_e' suffixes even when set differently by a resource pack","ほとんどのリソースパックはエミッシブサフィックス_eを使用
+しかし、これはパックによってオーバーライドできます
+したい場合
+別のサフィックスを使用して、
+trueの場合、modは常に
+「_e」サフィックスをチェックします
+リソースパックによって異なります"
+config.entity_texture_features.animation_compatibility,Automatic animation compat,自動アニメーション互換性
+config.entity_texture_features.animation_compatibility.tooltip,"when enabled ETF will not tamper with any
+texture that has an animation
+currently only if MoreMcmeta mod is present.
+
+Note: this may introduce z-fighting depending on your shader","有効にすると、ETFはアニメーションを持つテクスチャに干渉しません
+現在のところ、MoreMcmetaモッドが存在する場合のみ。
+
+注意：シェーダーによっては、Z-fightingが発生する可能性があります"
+config.entity_texture_features.armor_enable,Emissive armor & trims,発光防具と装飾
+config.entity_texture_features.armor_enable.tooltip,"ETF's armor code is know to cause some issues with modded armor and it uses the old ETF system
+ this setting exists to allow you to disable emissive armor and trims if you have an incompatibility
+ until I am able to reimplement ETF into armor a better way","ETFのアーマーコードは、モッド化されたアーマーのいくつかの問題を引き起こすことが知られており、古いETFシステムを使用しています
+この設定は、互換性の問題がある場合、エミッシブアーマーとトリムを無効にできます
+ETFをより良い方法でアーマーに再実装できるまで"
+config.entity_texture_features.blink_frequency.title,Blinking frequency,ブリンク頻度
+config.entity_texture_features.blink_frequency.tooltip,"Sets how often textures will randomly blink
+If set to 100 mobs will blink randomly after
+1 second delay and then at a random time from
+1 to 100 ticks (0-5 seconds).
+This can be set / overridden per mob
+by the resource pack.
+See the mod download page for details.","テクスチャがランダムにまばたきする頻度を設定
+100に設定されている場合、モブは1秒の遅延後にランダムにまばたきし
+1〜100ティック(0〜5秒)のランダムな時間でまばたきします
+これはリソースパックによってモブごとに設定/オーバーライドできます
+details の詳細はmodダウンロードページを参照"
+config.entity_texture_features.blink_length.title,Blinking Length,バリンク長さ
+config.entity_texture_features.blink_length.tooltip,"Sets how long textures will blink for
+0 = 1 tick, 19 = 20 ticks / 1 second
+This can be set / overridden per mob
+by the resource pack.
+See the mod download page for details.","テクスチャの点滅時間を設定します
+0 = 1ティック、19 = 20ティック（1秒）
+これはモブごとにリソースパックで設定・オーバーライドできます。
+詳細はモッドのダウンロードページを参照してください。"
+config.entity_texture_features.blinking_mob_settings.title,Blinking mob textures,点滅するモブテクスチャ
+config.entity_texture_features.blinking_mob_settings.tooltip,"Sets whether or not mobs will try to blink
+The Mob must have a texture with it's eyes
+closed named ""textureName_blink.png"".
+And an optional texture with it's eyes half
+closed named 'textureName_blink2.png'.","モブがまばたきするかどうかを設定
+モブはテクスチャを持つ必要があります
+目を閉じた「textureName_blink.png」という名前のテクスチャ
+および目半分閉じた「textureName_blink2.png」という名前の任意のテクスチャ"
+config.entity_texture_features.blinking_mob_settings_sub.title,Blinking mob settings,点滅するモブ設定
+config.entity_texture_features.custom_block_entity.title,Block entity random textures,ブロックエンティティのランダムテクスチャ
+config.entity_texture_features.debug_logging_mode.title,Debug logging mode,デバッグログモード
+config.entity_texture_features.debug_logging_mode.tooltip,"If enabled, this will write relevant ETF data
+about any entity that has been right clicked
+to either the log file or the in-game chat","有効にすると、右クリックされたエンティティに関する関連ETFデータを
+ログファイルまたはゲーム内チャットに出力します"
+config.entity_texture_features.debug_screen.mass_log,Send ALL! ETF data to the log,すべてのデータをログに送信します
+config.entity_texture_features.debug_screen.mass_log.done,Send ALL! ETF data to the log,すべてのデータをログに送信します
+config.entity_texture_features.debug_screen.title,Debug settings,デバッグ設定
+config.entity_texture_features.disable_default_directory.title,Disable using default directory,デフォルトディレクトリを使用しない
+config.entity_texture_features.disable_default_directory.tooltip,"By default you can use the vanilla directory for random textures
+This will allow you to disable that and enforce the optifine and etf folders usage
+This is intended to support mods that have entity textures named 'mob2.png' for some reason","デフォルトでは、ランダムテクスチャにバニラディレクトリを使用できます
+これにより、optifineおよびetfフォルダの使用を強制できます
+これは、何らかの理由で「mob2.png」という名前のエンティティテクスチャを持つmodをサポートするためのものです"
+config.entity_texture_features.elytra_thickness_fix.title,Elytra size fix,エリトラサイズ修正
+config.entity_texture_features.elytra_thickness_fix.tooltip,"The thickness of elytra is a bit larger than
+the 2 pixels it is meant to be.
+This option will 'fix' the scaling of the elytra to
+be more consistent.
+Requires a resource reload (F3 + T)","エリトラの厚さは、本来の2ピクセルより少し大きいです。
+このオプションはエリトラのスケーリングを「修正」して
+より一貫性を保つようにします。
+リソース再読み込みが必要です（F3 + T）"
+config.entity_texture_features.emissive_block_entity.title,Block entity textures,ブロックエンティティテクスチャ
+config.entity_texture_features.emissive_block_entity.tooltip,"Allows block entities to use emissive textures
+Incompatible with the Enhanced Block Entities mod",ブロックエンティティに発光テクスチャを使用させることを許可します
+config.entity_texture_features.emissive_fix.armour,Remove Armour pixels: ,アーマーのピクセルを削除: 
+config.entity_texture_features.emissive_fix.block_entity,Remove block entity pixels: ,ブロックエンティティのピクセルを削除:
+config.entity_texture_features.emissive_fix.button,Fixes for emissive problems,発光問題の修正
+config.entity_texture_features.emissive_fix.elytra,Remove elytra pixels: ,エリトラのピクセルを削除: 
+config.entity_texture_features.emissive_fix.players,Remove player pixels: ,プレイヤーのピクセルを削除: 
+config.entity_texture_features.emissive_fix.title,Fixes for emissive problems,発光問題の修正
+config.entity_texture_features.emissive_mode.bright,Brighter,明るく
+config.entity_texture_features.emissive_mode.dull,Default,デフォルト
+config.entity_texture_features.emissive_mode.title,Emissive rendering mode,発光レンダリングモード
+config.entity_texture_features.emissive_mode.tooltip,"This sets whether emissives use 'Brighter' or 'Default' rendering
+This is hard to describe, just try it out in-game :)
+Bright rendering makes the emissive appear at max brightness if need be
+and is only partially compatible with shaders, etc.
+Default rendering respects the default renderers effects on entities,
+the direction of each surface will have slight brightness variation
+and the emissives will be a bit less bright overall
+as well as usually smaller bloom with shaders.","エミッシブレンダリングが「明るい」または「デフォルト」を使用するかどうかを設定
+これは説明するのが難しいため、ゲーム内で試してみてください :)
+明るいレンダリングはエミッシブを最大明度で表示します(必要に応じて)
+シェーダーなどとの互換性は部分的です
+デフォルトレンダリングはデフォルトレンダラーの効果を尊重します
+各表面の方向にはわずかな明度の変動があり
+エミッシブはやや暗くなり
+シェーダーでのブルームが通常より小さくなります"
+config.entity_texture_features.emissive_select.title,Select your emissive pixels,発光ピクセルを選択
+config.entity_texture_features.emissive_settings.title,Emissive texture settings,発光テクスチャ設定
+config.entity_texture_features.emissive_shield.title,Emissive shields,発光シールド
+config.entity_texture_features.emissive_shield.tooltip,Enables emissive shield textures,発光シールドテクスチャを有効にします
+config.entity_texture_features.enable_all,Enable all,すべてを有効にする
+config.entity_texture_features.enable_custom_textures.title,Enable OptiFine random mobs,OptiFineのランダムモブを有効化
+config.entity_texture_features.enable_custom_textures.tooltip,"Enables randomized entity textures
+Works with resource packs.
+Allows for entity texture customization
+using the OptiFine format","ランダムなエンティティテクスチャを有効にします
+リソースパックで機能します。
+OptiFine形式を使用したエンティティテクスチャカスタマイズを許可します"
+config.entity_texture_features.enable_elytra.title,Emissive elytras,発光エリトラ
+config.entity_texture_features.enable_elytra.tooltip,"Allows elytras to use emissive textures
+Elytras only have emissive support as the CIT mod
+already handles customizing these and is fully
+compatible with ETF's emissive textures.","エリトラが発光テクスチャを使用できるようにします
+エリトラは発光サポートのみを持ちます。CITモッド
+はすでにこれらをカスタマイズしており、完全に互換性があります
+ETFの発光テクスチャと互換性があります。"
+config.entity_texture_features.enable_emissive_textures.title,Emissive entity textures,発光するエンティティテクスチャ
+config.entity_texture_features.enable_emissive_textures.tooltip,"Enables emissive entity textures
+Works with resource packs
+using the OptiFine format",発光エンティティテクスチャを有効化します。
+config.entity_texture_features.enable_enemy_team_players_skin_features.title,Enemy teams skin features,敵チームのスキン機能
+config.entity_texture_features.enable_enemy_team_players_skin_features.tooltip,"Allows player skin features to be enabled/disabled
+for players on opposing teams in PvP games,
+otherwise they may be harder to see
+and may affect balance
+///THIS SETTING REQUIRES A RESTART\\\","PvPゲームで敵チームのプレイヤーのスキンフィーチャーを有効/無効にできます。
+そうしないと、見えにくくなり、バランスに影響する可能性があります
+///この設定はリスタートが必要です\\\"
+config.entity_texture_features.enable_tridents.title,Custom tridents,カスタムトリンデン
+config.entity_texture_features.enable_tridents.tooltip,"Allows tridents to use custom & emissive textures
+This toggle is here to support possible future CIT mod updates
+The trident item name will choose the texture file to use
+The texture 'trident_bobbys_trident.png' will be chosen by the names:
+'Bobby's Trident', ' BoBb%Ys   Trid##en t' & 'bobbys_trident'.
+The texture 'trident_bobbys_trident_e.png' will be emissive.","トライデントがカスタム& エミッシブテクスチャを使用できるようにします
+このトグルは、CITモッドの将来のアップデートに対応するためにここにあります
+トライデントアイテムの名前はテクスチャファイルを選択します
+テクスチャ「trident_bobbys_trident.png」は「Bobby's Trident」、「BoBb%Ys   Trid##en t」、「bobbys_trident」の名前で選択されます
+テクスチャ「trident_bobbys_trident_e.png」はエミッシブです"
+config.entity_texture_features.enchanted_enable,Enchanted entity textures,エンチャントされたエンティティテクスチャ
+config.entity_texture_features.enchanted_enable.tooltip,"Enables enchanted entity texture overlays
+Just like emissive textures but uses the ""_enchant"" suffix","エンチャント付きエンティティテクスチャオーバーレイを有効にします
+エミッシブテクスチャと同じですが、""_enchant""サフィックスを使用します"
+config.entity_texture_features.enchanted_select.title,Select your enchanted pixels,エンチャントされたピクセルを選択
+config.entity_texture_features.error,Error!,エラー！
+config.entity_texture_features.ignore_all,Ignore all,すべてを無視する
+config.entity_texture_features.ignore_description,"If this warning / conflict
+is ignored it will no longer
+affect ETF settings",If this warning / conflict
+config.entity_texture_features.ignore_warnings.title,Ignore / hide config warnings,設定警告を無視/非表示にする
+config.entity_texture_features.ignore_warnings.tooltip2,"This option only appears if a warning is displayed or it is enabled
+If enabled, ETF will ignore and hide warnings and will no longer disable
+features automatically for compatibility reasons
+The amount of warnings currently being ignored is ","このオプションは警告が表示されるか有効にされた場合にのみ表示されます
+有効にされた場合、ETFは警告を無視して非表示にし、互換性上の理由から機能を自動的に無効にしなくなります
+現在無視されている警告の量は"
+config.entity_texture_features.illegal_path_mode.all,Everything,すべて
+config.entity_texture_features.illegal_path_mode.entity,Entities only,エンティティのみ
+config.entity_texture_features.illegal_path_recommendation,"ETF has detected a resource pack with a non [a-z0-9_.-] character in the file path.
+This texture will be ignored by ETF unless you enable the [Allow broken texture paths] option in ETFs settings.
+The Vanilla error message for the incorrect texture will now follow: ","ETFは、ファイルパスに[a-z0-9_.-]文字以外の非リソースパックを検出しました
+「違法なテクスチャパスを許可」オプションをETFの設定で有効にしない限り、このテクスチャは無視されます
+不正なテクスチャのバニラエラーメッセージが次に続きます:"
+config.entity_texture_features.illegal_path_warn,"ETF has allowed a resource with a non [a-z0-9_.-] character in the file path, it is recommended you fix this file name.",ETFが[a-z0-9_.-]文字ではない文字がファイルパスに含まれるリソースを許可しました。このファイル名を修正することをお勧めします。
+config.entity_texture_features.log_creation,Log texture initialization,ログテクスチャ初期化
+config.entity_texture_features.log_creation.tooltip,"Logs details about a texture when it is first initialized.
+E.G. what variants are found if any, what has emissives, etc","テクスチャが最初に初期化されたときにテクスチャについての詳細をログします。
+例：見つかった場合のバリアント数、どれが発光を持っているかなど"
+config.entity_texture_features.optifine.desc,"These options are for backwards compatibility with OptiFine.
+Some will put limitations on certain features because OptiFine does.
+Some will enable some odd behaviours because OptiFine does.","これらのオプションはOptiFineとの下位互換性のためのものです。
+いくつかはOptiFineが行うため、特定の機能に制限を加えます。
+いくつかはOptiFineが行うため、奇妙な振る舞いを有効にします。"
+config.entity_texture_features.optifine.prevent_base.title,Prevent base texture overrides,ベーステクスチャの上書きを防ぐ。
+config.entity_texture_features.optifine.prevent_base.tooltip,"This setting will prevent ETF from loading overrides for the 'base' texture if present in the optifine/etf directories
+E.G. optifine/random/entity/chicken.png will not act as an override to the vanilla texture.
+ON is the default OptiFine behaviour.","この設定は、optifine/etfディレクトリに存在する場合、「base」テクスチャのETFオーバーライドの読み込みを防ぎます
+例えば optifine/random/entity/chicken.png はバニラテクスチャへのオーバーライドとして機能しません
+ONはデフォルトのOptiFine動作です"
+config.entity_texture_features.optifine.random_skips.title,Allow random suffix number skipping,ランダムサフィックス番号スキップを許可します
+config.entity_texture_features.optifine.variant_gap.title,Limit rule number gaps,制限ルール番号ギャップ
+config.entity_texture_features.optifine.variant_gap.tooltip,"OptiFine limits random .properties file rule numbers such that in
+sequential order the rule numbers do not exceed a gap of 9.
+This setting enforces this limit in ETF if enabled, for OptiFine compatibility.","OptiFineはランダム.propertiesファイルの規則番号を制限し、
+順序で規則番号は9の間隔を超えない
+この設定を有効にするとこの制限をETFに強制します。OptiFine互換性のため"
+config.entity_texture_features.pbr_compatibility,Automatic PBR compat,自動PBR互換性
+config.entity_texture_features.pbr_compatibility.tooltip,"when enabled ETF will not tamper with any
+texture that has PBR textures with them
+if shader mods are present.
+
+Note: this may introduce z-fighting depending on your shader","有効にすると、ETFはPBRテクスチャを持つテクスチャに干渉しません
+シェーダーモッドが存在する場合。
+
+注意：シェーダーによっては、Z-fightingが発生する可能性があります"
+config.entity_texture_features.player_skin_editor.add_features,Add ETF features to skin,スキンに ETF フィーチャーを追加
+config.entity_texture_features.player_skin_editor.allow_examples,Prevent example overlays?,例オーバーレイを防止しますか？
+config.entity_texture_features.player_skin_editor.allow_examples.off,Overlays prevented,オーバーレイが阻止されました
+config.entity_texture_features.player_skin_editor.allow_examples.tooltip,"clicking this button will stop ETF from adding any example texture overlays into your skin
+such as adding example pixels where the eyes or nose textures should be placed","このボタンをクリックすると、ETFがスキンに追加の例として、
+目や鼻のテクスチャを配置する場所を示すピクセルを追加するのを停止します"
+config.entity_texture_features.player_skin_editor.blink_height.title,Eye position: ,目位置: 
+config.entity_texture_features.player_skin_editor.blink_height.tooltip,"What position on the head should blinking occur
+ 1 = top of head
+8 = bottom of head",目覚ましの点滅位置は頭部のどこにするか
+config.entity_texture_features.player_skin_editor.blink_message,Blinking has been enabled and slowed down,点滅が有効化され、速度が遅くなりました
+config.entity_texture_features.player_skin_editor.blink_type.1,Blink: 1 pixel tall eyes,目を1ピクセル高さでブリンク
+config.entity_texture_features.player_skin_editor.blink_type.2,Blink: 2 pixel tall eyes,目を2ピクセル高さでブリンク
+config.entity_texture_features.player_skin_editor.blink_type.4,Blink: 3-4 pixel tall eyes,瞬き：3〜4ピクセル高い目
+config.entity_texture_features.player_skin_editor.blink_type.none,Blink: none,ブリンク: なし
+config.entity_texture_features.player_skin_editor.blink_type.tooltip,"Select what kind of blinking your skin needs
+for eyes of varying sizes.
+
+Blinking must be enabled in settings!","スキンに必要な瞬きのタイプを選択します
+さまざまなサイズの目の場合。
+
+瞬きは設定で有効にする必要があります！"
+config.entity_texture_features.player_skin_editor.blink_type.whole.1,"Blink: entire face, 1 frame",目を瞬き：顔全体、1フレーム
+config.entity_texture_features.player_skin_editor.blink_type.whole.2,"Blink: entire face, 2 frames",ブリンク: 顔全体、2フレーム
+config.entity_texture_features.player_skin_editor.button.disabled,Skin feature tool unavailable...,スキン機能ツールが利用できません…
+config.entity_texture_features.player_skin_editor.button.enabled,Open skin feature tool,スキン機能ツールを開く
+config.entity_texture_features.player_skin_editor.button_desc.1,An interactive tool to select and add,選択して追加するためのインタラクティブツール
+config.entity_texture_features.player_skin_editor.button_desc.2,player skin features to your skin,プレイヤーのスキン機能をあなたのスキンに追加する
+config.entity_texture_features.player_skin_editor.button_desc.fail2,Hover mouse over button for help.,ヘルプを見るにはボタン上でマウスをホバーしてください。
+config.entity_texture_features.player_skin_editor.cape.button,Cape: ,カペ: 
+config.entity_texture_features.player_skin_editor.cape.custom,Custom in skin,スキンカスタム
+config.entity_texture_features.player_skin_editor.cape.etf,ETF,ETF
+config.entity_texture_features.player_skin_editor.cape.minecraftcapes,minecraftcapes.net,minecraftcapes.net
+config.entity_texture_features.player_skin_editor.cape.none,Vanilla,バニラ
+config.entity_texture_features.player_skin_editor.cape.tooltip,"Lets you select between using various capes:
+OptiFine cape
+minecraftcapes.net cape 
+The ETF cape
+or texture your own custom cape in your skin","さまざまなケープから選択できます：
+OptiFineケープ
+minecraftcapes.net ケープ
+ETFケープ
+またはスキンにカスタムケープをテクスチャ化します"
+config.entity_texture_features.player_skin_editor.coat_length.title,Extension length: ,拡張長: 
+config.entity_texture_features.player_skin_editor.coat_length.tooltip,"Choose how long the extension is
+from 1 - 8",拡張の長さを選択してください。
+config.entity_texture_features.player_skin_editor.coat_style.1,Jacket Extension: copy | thin | top,ジャケット拡張：コピー | 薄い | 上部
+config.entity_texture_features.player_skin_editor.coat_style.2,Jacket Extension: move | thin | top,ジャケット拡張：移動 | 薄い | 上部
+config.entity_texture_features.player_skin_editor.coat_style.3,Jacket Extension: copy | wide | top,ジャケット拡張：コピー | 幅広 | 上部
+config.entity_texture_features.player_skin_editor.coat_style.4,Jacket Extension: move | wide | top,ジャケット エクステンション：移動 | 幅広 | 上部
+config.entity_texture_features.player_skin_editor.coat_style.5,Jacket Extension: copy | thin | no top,ジャケット拡張：コピー | 薄い | 上部なし
+config.entity_texture_features.player_skin_editor.coat_style.6,Jacket Extension: move | thin | no top,ジャケット拡張：移動 | 薄い | 上部なし
+config.entity_texture_features.player_skin_editor.coat_style.7,Jacket Extension: copy | wide | no top,ジャケット拡張：コピー | ワイド | 上部なし
+config.entity_texture_features.player_skin_editor.coat_style.8,Jacket Extension: move | wide | no top,ジャケット拡張：移動 | ワイド | 上部なし
+config.entity_texture_features.player_skin_editor.coat_style.none,Jacket Extension: no extension,ジャケット拡張: 拡張なし。
+config.entity_texture_features.player_skin_editor.coat_style.tooltip,"This feature provides extension options
+on how Minecraft renders the
+'Jacket' layer of your skin
+(the second layer that floats above your body)
+and allows it to go up to 8 pixels further down.
+Typical uses could be for jackets,
+dresses, villager cloaks and robes.
+The texturing is extremely straight forward,
+if enabled this feature will
+ copy or move the contents of the top of
+the legs floating skin layers and
+ use them to build the extension.","この機能はMinecraftがスキンの「ジャケット」レイヤーをどのようにレンダリングするかについての拡張オプションを提供します
+(あなたの体の上に浮かぶ2番目のレイヤー)
+そしてそれを最大8ピクセルさらに下に伸ばすことを許可します
+典型的な用途はジャケット、ドレス、村人のマント、ローブです
+テクスチャリングは非常に簡単です
+有効にした場合、この機能は
+脚の浮かぶスキンレイヤーのトップをコピーまたは移動します
+拡張機能を構築するために使用します"
+config.entity_texture_features.player_skin_editor.crouch_message,You can crouch before opening the menu to see it here,メニューを開く前にしゃがむと、ここで確認できます
+config.entity_texture_features.player_skin_editor.emissive_enable.button,Emissive pixels: ,発光ピクセル:
+config.entity_texture_features.player_skin_editor.emissive_enable.tooltip,Allows selecting pixels in your skin to be emissive,自分のスキンでピクセルを選択し、発光させることができます
+config.entity_texture_features.player_skin_editor.emissive_select.button,Select pixels,ピクセルを選択
+config.entity_texture_features.player_skin_editor.enchant_enable.button,Enchanted pixels: ,エンチャントされたピクセル: 
+config.entity_texture_features.player_skin_editor.enchant_enable.tooltip,Allows selecting pixels in your skin to be enchanted,自分のスキンでエンチャントしたいピクセルを選択できます
+config.entity_texture_features.player_skin_editor.enchant_select.button,Select pixels,ピクセルを選択
+config.entity_texture_features.player_skin_editor.info,Settings will not update for the skin tool until this config has been saved,設定は、この構成ファイルが保存されるまでスキンツールに更新されません。
+config.entity_texture_features.player_skin_editor.nose.button,Nose: ,鼻: 
+config.entity_texture_features.player_skin_editor.nose.none,none,なし
+config.entity_texture_features.player_skin_editor.nose.textured.1,Textured #1,テクスチャ #1
+config.entity_texture_features.player_skin_editor.nose.textured.2,Textured #2,テクスチャ #2
+config.entity_texture_features.player_skin_editor.nose.textured.3,Textured #3,テクスチャ #3
+config.entity_texture_features.player_skin_editor.nose.textured.4,Textured #4,テクスチャ #4
+config.entity_texture_features.player_skin_editor.nose.textured.5,Textured #5,テクスチャ #5
+config.entity_texture_features.player_skin_editor.nose.tooltip,"Select a nose type for your skin
+Villager #1 uses the villager texture
+Villager #2 uses your skin for the texture
+ (positioned like in the villager texture)
+The textured options are flat noses using
+ various different locations in the skin","スキンの鼻のタイプを選択
+Villager #1は村人テクスチャを使用
+Villager #2はスキンを使用して
+ (村人テクスチャのように配置)
+テクスチャーなしオプションはスキンの様々な位置を使用した平らな鼻です"
+config.entity_texture_features.player_skin_editor.nose.villager,Villager normal,村人通常
+config.entity_texture_features.player_skin_editor.nose.villager2,Villager textured,村人テクスチャ
+config.entity_texture_features.player_skin_editor.nose.villager3,"Villager normal, remove face pixels",村人 通常、顔ピクセルを削除
+config.entity_texture_features.player_skin_editor.nose.villager4,"Villager textured, remove face pixels",村人テクスチャ、顔ピクセルを削除
+config.entity_texture_features.player_skin_editor.print_skin.open,Open skin folder,スキンフォルダを開く
+config.entity_texture_features.player_skin_editor.print_skin.result,Skin file saving,スキンファイルの保存
+config.entity_texture_features.player_skin_editor.print_skin.result.fail,"Skin file failed to save to file.
+Check you latest.log for errors.",スキンファイルを保存できませんでした。
+config.entity_texture_features.player_skin_editor.print_skin.result.success,Skin file has been saved successfully.,スキンファイルが正常に保存されました。
+config.entity_texture_features.player_skin_editor.reason_0,"The skin tool could not be enabled because: 
+",スキンツールが有効にならなかった理由: 
+config.entity_texture_features.player_skin_editor.reason_1,"-ETF skin features are not enabled.
+ You must enable them, then close and reopen the settings to apply it.
+","-ETFスキンフィーチャーが有効になっていません。
+ 有効にして、設定を閉じて再度開く必要があります。
+"
+config.entity_texture_features.player_skin_editor.reason_2,"-Fabric API was not found.
+ It is required for the skin tool to work on Fabric.
+",-Fabric API が見つかりませんでした
+config.entity_texture_features.player_skin_editor.reason_3,"-The client player data was null.
+ Make sure you have a world open and
+ your skin has loaded before you try to use the tool.
+","-クライアントプレイヤーデータがnullでした。
+ ワールドを開き、スキンが読み込まれてからツールを使用してください。
+"
+config.entity_texture_features.player_skin_editor.reason_4,"-ETF has not yet had the chance to parse the client players skin,
+ try open a world and open third person or your inventory
+ to see yourself for a few seconds first.","-ETFがまだクライアントプレイヤーのスキンを解析する機会がありません。
+ ワールドを開いて、一人称視点か在庫を開いて、数秒間自分を見てください。"
+config.entity_texture_features.player_skin_editor.remove_features,Remove ETF features from skin.,スキンからETF機能を削除する。
+config.entity_texture_features.player_skin_editor.title,Player skin feature tool,プレイヤーのスキン機能ツール
+config.entity_texture_features.player_skin_editor.transparency.button,Transparency: ,透過度: 
+config.entity_texture_features.player_skin_editor.transparency.tooltip,"Allows this skin to use ETF transparent skin features
+otherwise forces the inner-skin to be opaque like vanilla","このスキンがETF透明スキンフィーチャーを使用できるようにします
+そうしないと、内側スキンをバニラのように不透明に強制します"
+config.entity_texture_features.player_skin_editor.upload_skin,Upload skin changes to Minecraft profile,Minecraftプロフィールにスキン変更をアップロードします。
+config.entity_texture_features.player_skin_editor.upload_skin.fail,Skin upload failed!,スキンのアップロードに失敗しました！
+config.entity_texture_features.player_skin_editor.upload_skin_v2.success,Skin uploaded successfully,スキンのアップロードに成功しました
+config.entity_texture_features.player_skin_editor.upload_skin_v2.success_local_fail,"Skin uploaded successfully, but could not be updated in-game without restart",スキンは正常にアップロードされましたが、再起動なしではゲーム内で更新できませんでした。
+config.entity_texture_features.player_skin_features.title,Player skin features,プレイヤースキン機能
+config.entity_texture_features.player_skin_features.tooltip,"Allows player skins to use the features added by this mod.
+Features are set in the players skin file.
+ - Use the skin tool to select features
+ - Documentation can be found on the mod page
+ - This can be disabled for enemy team players for PvP
+Features include:
+ - Emissive pixels
+ - Enchanted pixels
+ - Blinking & closed eyes when sleeping
+ - maybe more...","プレイヤースキンがこのmodによって追加された機能を使用できるようにします
+機能はプレイヤースキンファイルに設定されます
+ - スキンツールを使用して機能を選択
+ - ドキュメントはmodページに記載されています
+ - これはPvPのために敵チームプレイヤーに対して無効にすることができます
+機能には以下が含まれます:
+ - エミッシブピクセル
+ - 魔法のピクセル
+ - 寝ているときまばたきと目を閉じた状態
+ - もっと..."
+config.entity_texture_features.player_skin_settings.title,Player skin settings,プレイヤースキン設定
+config.entity_texture_features.player_skin_transparent_sub.title,Transparent skin settings,透明スキン設定
+config.entity_texture_features.property_explanation.angry,"Angry 
+ETF Only!
+Select whether a Mob must be in their angered / attacking state or not
+works for Endermen, Blazes, Guardians, Vindicators and Evokers
+Triggers when these mobs display their client side 'angered or attacking state' (e.g. open mouth for endermen & blazes igniting)
+Example: angry.1=true
+§aangry.<n>=<true|false>","モブが怒っている/攻撃している状態にあるかどうかを選択
+エンダーマン、ブレイズ、ガーディアン、ヴィンディケーター、エヴォーカーに対応
+これらのモブが彼らのクライアント側の「怒っているまたは攻撃している状態」を表示するときにトリガー(例えば、エンダーマン & ブレイズの開いた口が点火)
+例: angry.1=true
+§aangry.<n>=<true|false>"
+config.entity_texture_features.property_explanation.baby,"Baby 
+Only valid for mobs
+§ababy.<n>=<true/false>",ベビー 
+config.entity_texture_features.property_explanation.biome,"List of biomes
+The vanilla biome names are listed here: https://minecraft.gamepedia.com/Biome#Biome_IDs
+Biomes added by mods can also be used but require ""modID:biomeName"", whereas vanilla biomes can be either ""minecraft:plains"" or just ""plains"".
+With ETF only, you can also use regex: iregex: pattern: and ipattern: like the Name property
+§abiomes.<n>=<biome_list>","バニラバイオーム名はhttps://minecraft.gamepedia.com/Biome#Biome_IDs にリストされています
+モッドによって追加されたバイオームも使用できますが、「modID:biomeName」が必要です。バニラバイオームは「minecraft:plains」または単に「plains」のいずれかです
+ETFのみの場合、NameプロパティのようにRegex、iregex、pattern、ipatternを使用することもできます
+§abiomes.<n>=<biome_list>"
+config.entity_texture_features.property_explanation.biome_tag,"Biome Tag 
+Select which Biome Tags the entities spawn biome can have
+Example: biomeTag.1=is_river magic_mod:magical_biomes
+§abiomeTag.<n>=<list>","バイオームタグ
+エンティティのスポーンバイオームが持つことができるバイオームタグを選択します
+例：biomeTag.1=is_river magic_mod:magical_biomes
+§abiomeTag.<n>=<list>"
+config.entity_texture_features.property_explanation.client,"Client Player 
+ETF Only!
+Select whether a mob must be the client player
+true = client player, false = not the client player
+§aisClientPlayer.<n>=<true|false>","クライアントプレイヤー
+ETFのみ！
+モブがクライアントプレイヤーである必要があるかどうかを選択します
+真=クライアントプレイヤー、偽=クライアントプレイヤーではない
+§aisClientPlayer.<n>=<true|false>"
+config.entity_texture_features.property_explanation.client_game_mode,"List of game modes of the client player
+In vanilla these are: 0=survival, 1=creative, 2=adventure, 3=spectator
+§aclientGameMode.<n>=<list>","クライアントプレイヤーのゲームモードのリスト
+バニラではこれらは：0=サバイバル、1=クリエイティブ、2=アドベンチャー、3=スペクテーター
+§aclientGameMode.<n>=<list>"
+config.entity_texture_features.property_explanation.color,"Colors 
+List of wolf/cat collar colors or sheep/llama colors
+ETF also supports shulker colors & tropical fish colours (but only for the base fish texture)
+Colors: white orange magenta light_blue yellow lime pink gray light_gray cyan purple blue brown green red black
+Example:
+  colors.2=pink magenta purple
+The legacy property ""collarColors"" is also recognized
+§acolors.<n>=<colors>","オオカミ/猫の首輪色またはヒツジ/ラマの色のリスト
+ETFはシュルカーの色とトロピカルフィッシュの色もサポートします(ただし、ベースフィッシュテクスチャのみ)
+色: white orange magenta light_blue yellow lime pink gray light_gray cyan purple blue brown green red black
+例:
+  colors.2=pink magenta purple
+レガシープロパティ「collarColors」も認識されます
+§acolors.<n>=<colors>"
+config.entity_texture_features.property_explanation.created,"Player Created Golem 
+ETF Only!
+Select whether an Iron Golem must be player created or naturally spawned
+true = player made, false = naturally spawned
+§aplayerCreated.<n>=<true|false>","プレイヤーが作成したゴーレム
+ETFのみ！
+アイアンゴーレムがプレイヤーが作成した、または自然に生成されたかどうかを選択します
+真=プレイヤーが作成、偽=自然に生成
+§aplayerCreated.<n>=<true|false>"
+config.entity_texture_features.property_explanation.creative,"Creative 
+ETF Only!
+Select whether a player must be in creative mode or not
+true = creative mode, false = survival mode
+§aisCreative.<n>=<true|false>","クリエイティブ
+ETFのみ！
+プレイヤーがクリエイティブモードである必要があるかどうかを選択します
+真=クリエイティブモード、偽=サバイバルモード
+§aisCreative.<n>=<true|false>"
+config.entity_texture_features.property_explanation.creeper,"Charged Creeper 
+ETF Only!
+Select whether a Creeper needs to be charged by lightning or not
+true = charged, false = normal
+§acreeperCharged.<n>=<true|false>","帯電クリーパー
+ETFのみ！
+クリーパーが稲妻に帯電する必要があるかどうかを選択します
+真=帯電、偽=通常
+§acreeperCharged.<n>=<true|false>"
+config.entity_texture_features.property_explanation.day_time,"Day time 
+List of day times in ticks (0-24000)
+Example
+  dayTime.1=2000-10000
+  dayTime.2=0-1000 18000-24000
+§adayTime.<n>=<list>","昼間
+ティック単位での日時のリスト（0-24000）
+例
+  dayTime.1=2000-10000
+  dayTime.2=0-1000 18000-24000
+§adayTime.<n>=<list>"
+config.entity_texture_features.property_explanation.difficulty,"List of difficulties
+Vanilla difficulties are: 0=peaceful, 1=easy, 2=normal, 3=hard
+§adifficulty.<n>=<list>","難易度のリスト
+バニラの難易度は：0=ピース、1=イージー、2=ノーマル、3=ハード
+§adifficulty.<n>=<list>"
+config.entity_texture_features.property_explanation.dimension,"Dimension 
+ETF Only!
+Select which dimension a mob must be in
+Can prefix with ""print:"" to always print the dimension the mob is in to the log
+helps to identify modded dimension names
+Example: dimension.1=minecraft:overworld
+§adimension.<n>=<overworld|the_nether|the_end|<modded_dimension_name>>","ETFのみ!
+モブが存在する必要があるディメンションを選択
+「print:」で始まる接頭辞を使用して、ログ内のディメンションを常に出力します
+モッド化されたディメンション名を特定するのに役立ちます
+例: dimension.1=minecraft:overworld
+§adimension.<n>=<overworld|the_nether|the_end|<modded_dimension_name>>"
+config.entity_texture_features.property_explanation.distance,"Distance from player 
+ETF Only!
+Select what distance from the Player a mob must match
+Values are in blocks, ranges can be used like: 1-5
+Example: distanceFromPlayer.1= 3 5 15-20 25 27-50
+§adistance.<n>=<list>","プレイヤーからのモブが一致する必要がある距離を選択
+値はブロック単位で、1-5のような範囲を使用できます
+例: distanceFromPlayer.1= 3 5 15-20 25 27-50
+§adistance.<n>=<list>"
+config.entity_texture_features.property_explanation.gene,"Panda Hidden Gene 
+ETF Only!
+Select what hidden gene a panda must have
+§ahiddenGene.<n>=<normal|lazy|worried|playful|brown|weak|aggressive>","パンダの隠された遺伝子
+ETFのみ！
+パンダが持つ必要がある隠された遺伝子を選択します"
+config.entity_texture_features.property_explanation.goat,"Screaming Goats 
+ETF Only!
+Select whether a Goat needs to be the screaming variant or not
+true = must be screaming goat, false = must be normal goat
+§ascreamingGoat.<n>=<true|false>","鳴くヤギ
+ETFのみ！
+ヤギが鳴く種である必要があるかどうかを選択します
+真=鳴くヤギ、偽=通常のヤギ
+§ascreamingGoat.<n>=<true|false>"
+config.entity_texture_features.property_explanation.hardcore,"Hardcore
+If the world is hardcore mode or not
+§ahardcore.<n>=<true/false>",ハードコア
+config.entity_texture_features.property_explanation.health,"Health 
+Range of health values, can also be given in percent.
+Only valid for mobs.
+Example:
+  health.1=10
+  health.2=5-8 10-12
+  health.3=0-50%
+§ahealth.<n>=<list>","健康
+値の範囲で、パーセンテージで指定することもできます。
+モブのみで有効です。
+例：
+  health.1=10
+  health.2=5-8 10-12
+  health.3=0-50%
+§ahealth.<n>=<list>"
+config.entity_texture_features.property_explanation.height,"Height ranges
+Replaces legacy minHeight and maxHeight properties.
+Since 1.18 negative values may be specified for height. When used in a range they can be put in brackets for Optifine but will function as written for ETF.
+ETF supports:             1 2-4   -65-2  -65--2   1-4   (-65)-2  (-65)-(-2)
+Optifine supports only:   1 2-4                   1-4   (-65)-2  (-65)-(-2)
+§aheights.<n>=<height_ranges>
+
+Height legacy
+ETF also supports the legacy minHeight and maxHeight properties.
+they can be a single number from -64 to 319
+§aminHeight.<n>=<height>
+§amaxHeight.<n>=<height>","高さ範囲
+レガシーminHeightおよびmaxHeightプロパティに置き換わります
+1.18以降、負の値を指定できます。範囲で使用する場合、Optimfineでは括弧内に入れることができますが、ETFでは記述されたとおりに機能します
+ETFがサポート:          1 2-4   -65-2  -65--2   1-4   (-65)-2  (-65)-(-2)
+Optifineがサポート:   1 2-4                   1-4   (-65)-2  (-65)-(-2)
+§aheights.<n>=<height_ranges>
+
+高さレガシー
+ETFはまたレガシーminHeightおよびmaxHeightプロパティをサポートします
+これらは-64から319の単一の数値です
+§aminHeight.<n>=<height>
+§amaxHeight.<n>=<height>"
+config.entity_texture_features.property_explanation.hour,"Hour 
+Select which hour of the day it must be in 24 hour format from 0 - 23
+Example: hour.1=0-6 18-23
+§ahour.<n>=<list>","時間
+24時間形式（0-23）で日中のどの時間であるかを選択します
+例：hour.1=0-6 18-23
+§ahour.<n>=<list>"
+config.entity_texture_features.property_explanation.jump,"Jump Strength 
+ETF Only!
+Select a range of Jump Strength a mob must match
+Functional for Horses, Donkeys & Mules
+Horse, Donkey & Mule jump strengths exist within a range of: 0.4 - 1.0
+The ""-"" and two numbers either side are necessary
+§ajumpStrength.<n>=minimum_strength - maximum_strength","ETFのみ!
+モブが一致する必要があるジャンプ強度の範囲を選択
+馬、ロバ & ラバでのみ機能
+馬、ロバ & ラバのジャンプ強度は範囲内: 0.4 - 1.0
+「-」と両側の2つの数字が必要です
+§ajumpStrength.<n>=minimum_strength - maximum_strength"
+config.entity_texture_features.property_explanation.lang,"Language 
+Select which language the game must be set to
+Example: language.1=en_us
+§alanguage.<n>=<language_code>","言語
+ゲームが設定する必要がある言語を選択します
+例：language.1=en_us
+§alanguage.<n>=<language_code>"
+config.entity_texture_features.property_explanation.light,"Light 
+ETF Only!
+Select which light level a mob must be in from 0-15
+Example: light.1=0-7 9 14
+§alight.<n>=<list>","光
+ETFのみ！
+モブが0-15のライトレベルで必要とする光を選択します
+例：light.1=0-7 9 14
+§alight.<n>=<list>"
+config.entity_texture_features.property_explanation.llama,"Llama Inventory Slots 
+ETF Only!
+Select Inventory size values a llama must match
+Functional for Llamas only
+Llama inventory sizes exist within a range of: 1 - 5
+Example: llamaInventory.1= 1 4-5
+§allamaInventory.<n>=<list>","ETFのみ!
+ラマが一致する必要があるインベントリサイズ値を選択
+ラマのみで機能
+ラマのインベントリサイズは範囲内: 1 - 5
+例: llamaInventory.1= 1 4-5
+§allamaInventory.<n>=<list>"
+config.entity_texture_features.property_explanation.mc_version,"Minecraft Version 
+Select which minecraft version it must be
+Example: minecraftVersion.1=1.18.2 1.17 1.20-1.99
+§aminecraftVersion.<n>=<list>","Minecraftバージョン
+それがである必要があるマインクラフトバージョンを選択します
+例：minecraftVersion.1=1.18.2 1.17 1.20-1.99
+§aminecraftVersion.<n>=<list>"
+config.entity_texture_features.property_explanation.min,"Minute 
+Select which minute of the hour it must be from 0 - 59
+Example: minute.1=0-30
+§aminute.<n>=<list>","分
+1時間のどの分であるかを0～59で選択します
+例：minute.1=0-30
+§aminute.<n>=<list>"
+config.entity_texture_features.property_explanation.mod_rule,"Mods Loaded 
+Select what mods must be loaded
+for instance if you need to disable or modify certain textures or animations for certain mod compatibilites
+Example: modLoaded.1=sodium iris
+§amodLoaded.<n>=<list>","読み込まれる必要があるmodを選択
+例えば、特定のモッドの互換性のため特定のテクスチャまたはアニメーションを無効または変更する必要がある場合
+例: modLoaded.1=sodium iris
+§amodLoaded.<n>=<list>"
+config.entity_texture_features.property_explanation.month,"Month 
+Select which month of the year it must be from 0 - 11
+Example: month.1=1-6
+§amonth.<n>=<list>","月
+年の何月であるかを0～11の中から選択します
+例：month.1=1-6
+§amonth.<n>=<list>"
+config.entity_texture_features.property_explanation.month_day,"Month Day 
+Select which day of the month it must be from 1 - 31
+Example: monthDay.1=1-15
+§amonthDay.<n>=<list>","月日
+月の何日であるかを1～31で選択します
+例：monthDay.1=1-15
+§amonthDay.<n>=<list>"
+config.entity_texture_features.property_explanation.moon,"Moon phase 
+List of moon phases (0-7)
+Example
+  moonPhase.1=3
+  moonPhase.2=0 1 2
+  moonPhase.1=0-2 4-7
+§amoonPhase.<n>=<list>","月相
+月相のリスト（0-7）
+例
+  moonPhase.1=3
+  moonPhase.2=0 1 2
+  moonPhase.1=0-2 4-7
+§amoonPhase.<n>=<list>"
+config.entity_texture_features.property_explanation.moving,"Moving 
+Select whether a mob must be moving or standing still
+Note: functionally this only detects horizontal movement as vertical velocity is quite unstable in the code
+Example: moving.1=false   (matches only a mob standing still)
+§amoving.<n>=<true|false>","モブが移動しているか静止しているか選択
+注: 機能的には、垂直速度がコード内でかなり不安定であるため、水平移動のみを検出します
+例: moving.1=false  (静止しているモブのみに一致)
+§amoving.<n>=<true|false>"
+config.entity_texture_features.property_explanation.name,"Name
+Matches to an entities name.
+A value starting with ""!"" performs a negative match (not).
+Examples:
+ - Match string: ""name=Pinky pinkyyy""
+ - Match special formatting: ""name=\u00a74\u00a7oPinky""
+   (for best compatibility, use the escape sequence '\u00a7' instead of ""§"")
+ - Wildcards using ""?"" and ""*"": ""name=pattern:Pinky*""
+ - Wildcards, case insensitive: ""name=ipattern:Pinky*""
+ - Java regular expressions: ""name=regex:Pin(k)+y""
+   (see http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html)
+ - Java regular expressions, case insensitive: ""name=iregex:Pin(k)+y""
+Any backslashes in the match string must be doubled.
+Literal backslashes within a regular expression or wildcard must be quadrupled.
+Correct:
+  name=regex:\\d+
+  name=regex:\\\\
+  name=/\\/\\
+Wrong:
+  name=regex:\d+
+  name=regex:\\
+  name=/\/\
+§anames.<n>=<name_list|regex|pattern>","名前
+エンティティの名前に一致
+「!」で始まる値は逆一致(ではない)を実行
+例:
+ - 文字列一致: ""name=Pinky pinkyyy""
+ - 特殊フォーマット一致: ""name=§4§oPinky""
+  (最高の互換性のため、「§」の代わりにエスケープシーケンス「\u00a7」を使用)
+ - 「?」と「*」を使用したワイルドカード: ""name=pattern:Pinky*""
+ - ワイルドカード、大文字小文字を区別しない: ""name=ipattern:Pinky*""
+ - Java正規表現: ""name=regex:Pin(k)+y""
+  (http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html を参照)
+ - Java正規表現、大文字小文字を区別しない: ""name=iregex:Pin(k)+y""
+一致文字列内のすべてのバックスラッシュは2倍にする必要があります
+正規表現またはワイルドカード内のリテラルバックスラッシュは4倍にする必要があります
+正確:
+  name=regex:\\d+
+  name=regex:\\\\
+  name=/\\\/\\\\
+誤:
+  name=regex:\d+
+  name=regex:\\
+  name=/\\/\\
+§anames.<n>=<name_list|regex|pattern>"
+config.entity_texture_features.property_explanation.nbt_client,"NBT Client 
+Select whether the client player must have matching NBT data values
+Works exactly like the NBT property but for the client players nbt
+§anbtClient.<n>.<nbtPath>=<exists:|raw:|print_raw:|print:|range:|regex:|iregex:|pattern:|ipattern:|string_list>","クライアントプレイヤーが一致するNBTデータ値を必要とするかどうかを選択
+NBTプロパティと同じですが、クライアントプレイヤーのnbtの場合
+§anbtClient.<n>.<nbtPath>=<exists:|raw:|print_raw:|print:|range:|regex:|iregex:|pattern:|ipattern:|string_list>"
+config.entity_texture_features.property_explanation.nbt_vehicle,"NBT Vehicle 
+Select whether a mob's ridden entity must have matching NBT data values
+Works exactly like the NBT property but for the ridden entity, false if it doesn't exist
+§anbtVehicle.<n>.<nbtPath>=<exists:|raw:|print_raw:|print:|range:|regex:|iregex:|pattern:|ipattern:|string_list>","モブの乗っているエンティティが一致するNBTデータ値を必要とするかどうかを選択
+NBTプロパティと同じですが、乗っているエンティティの場合は、存在しない場合はfalseです
+§anbtVehicle.<n>.<nbtPath>=<exists:|raw:|print_raw:|print:|range:|regex:|iregex:|pattern:|ipattern:|string_list>"
+config.entity_texture_features.property_explanation.regional_difficulty,"List of regional difficulties
+ ranges between 0.0 to 6.75 different per chunk
+ see https://minecraft.wiki/w/Difficulty#Regional_difficulty
+§aregionalDifficulty.<n>=<list>","地域難易度のリスト
+0.0～6.75の範囲でチャントごとに異なります
+参照：https://minecraft.wiki/w/Difficulty#Regional_difficulty
+§aregionalDifficulty.<n>=<list>"
+config.entity_texture_features.property_explanation.sec,"Second 
+Select which second of the minute it must be from 0 - 59
+Example: second.1=0-30
+§asecond.<n>=<list>","秒
+分のどの秒であるかを0～59で選択します
+例：second.1=0-30
+§asecond.<n>=<list>"
+config.entity_texture_features.property_explanation.size,"Sizes 
+Only valid for mobs with multiple sizes (0-255 for slimes and magma cubes and 0-64 for phantoms)
+Slimes and magma cubes naturally spawn in three sizes: 0=small, 1=medium, 3=big.
+Naturally spawning phantoms only spawn in one size: 0.
+Example
+  sizes.1=3
+  sizes.2=0 1 3
+  sizes.3=0-2 4-7
+§asizes.<n>=<list>","複数のサイズを持つモブのみに有効(スライムとマグマキューブの場合は0-255、ファントムの場合は0-64)
+スライムとマグマキューブは自然に3つのサイズでスポーン: 0=small、1=medium、3=big
+自然にスポーンするファントムは1つのサイズでのみスポーン: 0
+例
+  sizes.1=3
+  sizes.2=0 1 3
+  sizes.3=0-2 4-7
+§asizes.<n>=<list>"
+config.entity_texture_features.property_explanation.spawner,"Spawner 
+ETF Only!
+Select whether a mob must be a miniature mob inside a mob spawner block
+Example: isSpawner.1=true
+§aisSpawner.<n>=<true|false>","スポーナー
+ETFのみ！
+モブがモブスポーナーブロック内の小型モブである必要があるかどうかを選択します
+例：isSpawner.1=true
+§aisSpawner.<n>=<true|false>"
+config.entity_texture_features.property_explanation.speed,"Speed Ranges 
+ETF Only!
+Select a range of top speeds a mob must match
+Functional for all mobs but intended for Horses, Donkeys & Mules
+Horse, Donkey & Mule speeds exist within a range of: 0.1125 - 0.3375
+The ""-"" and two numbers either side are necessary
+§aspeed.<n>=minimum_speed - maximum_speed","ETFのみ!
+モブが一致する必要がある最高速度の範囲を選択
+すべてのモブで機能しますが、馬、ロバ & ラバを対象としています
+馬、ロバ & ラバの速度は範囲内: 0.1125 - 0.3375
+「-」と両側の2つの数字が必要です
+§aspeed.<n>=minimum_speed - maximum_speed"
+config.entity_texture_features.property_explanation.team,"Teams
+ETF only!
+This is identical to the Names property behaviour however allows definition by way of scoreboard teams
+supports grouping names between """" quotations.
+you can also use regex: iregex: pattern: and ipattern: like the Name property
+Example:
+ - teams.1=Red red red_team ""red team""
+§ateams.<n>=<teams>","ETFのみ!
+これはNamesプロパティの動作と同じですが、スコアボードチームによる定義を許可します
+ダブルクォートで囲まれた名前のグループをサポートします
+Nameプロパティのようにregex、iregex、pattern、ipatternを使用することもできます
+例:
+ - teams.1=Red red red_team ""red team""
+§ateams.<n>=<teams>"
+config.entity_texture_features.property_explanation.teammate,"Teammate 
+ETF Only!
+Select whether a mob must be a teammate of the player
+true = teammate, false = not a teammate
+§aisTeammate.<n>=<true|false>","チームメイト
+ETFのみ！
+モブがプレイヤーのチームメイトである必要があるかどうかを選択します
+真=チームメイト、偽=チームメイトではない
+§aisTeammate.<n>=<true|false>"
+config.entity_texture_features.property_explanation.temperature,"Temperature 
+Select what temperature it must be at the entities spawn location, this is internally driven by Biome settings as well as world height, for example if the biome has precipitation it will snow if the position is below 0.15 temperature
+Example: temperature.1=0.2-0.15
+§atemperature.<n>=<list>","エンティティのスポーン位置の温度を選択します。これはバイオーム設定およびワールドの高さによって内部的に駆動されます。例えば、バイオームが降水がある場合、位置が0.15の温度を下回ると降雪します
+例: temperature.1=0.2-0.15
+§atemperature.<n>=<list>"
+config.entity_texture_features.property_explanation.texture_rule,"Texture Rule (Optional)
+matches the last random texture rule number that the entities texture matched against
+defaults to 0
+Example: textureRule.1= 2 4 6
+§atextureRule.<n>=<list>","テクスチャルール（オプション）
+エンティティのテクスチャが最後にマッチしたランダムテクスチャルール番号と一致します
+デフォルトは0
+例：textureRule.1= 2 4 6
+§atextureRule.<n>=<list>"
+config.entity_texture_features.property_explanation.texture_suffix,"Texture Suffix (Optional)
+matches the last random texture suffix number that the entities texture was set to
+defaults to 0
+Example: textureSuffix.1= 2 4 6
+§atextureSuffix.<n>=<list>","テクスチャサフィックス（オプション）
+エンティティのテクスチャが最後に設定されたランダムテクスチャサフィックス番号と一致します
+デフォルトは0
+例：textureSuffix.1= 2 4 6
+§atextureSuffix.<n>=<list>"
+config.entity_texture_features.property_explanation.weather,"Weather 
+Several values can be specified, separated by space
+for example ""weather=clear rain thunder""
+§aweather.<n>=<clear|rain|thunder>","天気
+スペースで区切られた複数の値を指定できます
+例えば「weather=clear rain thunder」"
+config.entity_texture_features.property_explanation.week_day,"Week day 
+Select which day of the week it must be from 1 - 7 with 1 being Sunday and 7 being Saturday
+Example: weekDay.1=1-4
+§aweekDay.<n>=<list>","曜日
+1～7で曜日を選択します。1は日曜日、7は土曜日です
+例：weekDay.1=1-4
+§aweekDay.<n>=<list>"
+config.entity_texture_features.property_explanation.year,"Year 
+Select which year it must be from 0 - 9999
+Example: year.1=2020-2022
+§ayear.<n>=<list>",年 
+config.entity_texture_features.property_explanation.year_day,"Year Day 
+Select which day of the year it must be from 1 - 366
+Example: yearDay.1=1-100
+§ayearDay.<n>=<list>","年間通算日
+1～366で年間通算日を選択します
+例：yearDay.1=1-100
+§ayearDay.<n>=<list>"
+config.entity_texture_features.random_settings.title,Random / Custom mobs settings,ランダム/カスタムモブ設定
+config.entity_texture_features.remove_pixels.info,"ETF removes pixels underneath
+ emissive textures to prevent Z-fighting
+with shaders.
+ 
+Disabling these settings may:
+
+- Cause Z-fighting emissives with
+some shaders.
+
+- Fix Iris PBR textures not working
+for mobs with emissive textures.
+
+- Fix animated textures having missing
+pixels with animation mods.
+
+- Break armour legging emissives when
+ a chestplate is equipped.","ETFはエミッシブテクスチャの下にあるピクセルを削除して、シェーダーのZファイティングを防ぎます
+
+これらの設定を無効にすると以下のことが可能です:
+
+- シェーダーによってはエミッシブのZファイティングが発生します
+
+- Iris PBRテクスチャがエミッシブテクスチャを持つモブで機能しないようにします
+
+- アニメーションモッドでアニメーション化されたテクスチャが欠落するピクセルを修正します
+
+- チェストプレートが装備されている場合、アーマーレギンスのエミッシブが破損します"
+config.entity_texture_features.render_layer.end,The End,エンド
+config.entity_texture_features.render_layer.outline,Outline,アウトライン
+config.entity_texture_features.render_layer.translucent,Translucent,透明
+config.entity_texture_features.render_layer.translucent_cull,Translucent Cull,透過切断
+config.entity_texture_features.restrict_update_properties.allow,Enable random property,ランダムプロパティを有効化
+config.entity_texture_features.restrict_update_properties.allow.tooltip,"Enables the property to be used
+disabled ones will be ignored in resource packs",プロパティを有効にします。
+config.entity_texture_features.restrict_update_properties.lock,Locked to Spawn Conditions,スポーン条件にロック
+config.entity_texture_features.restrict_update_properties.lock.tooltip,"Sets whether this property is locked to the
+spawn conditions of the entity
+If locked, the property will only apply to the entities initial spawn conditions
+If not locked, the property will apply to the entities current conditions","このプロパティがエンティティのスポーン条件にロックされているかどうかを設定
+ロックされている場合、プロパティはエンティティの初期スポーン条件にのみ適用されます
+ロックされていない場合、プロパティはエンティティの現在の条件に適用されます"
+config.entity_texture_features.restrict_update_properties2,Property settings,プロパティ設定
+config.entity_texture_features.settings.button,Settings,設定
+config.entity_texture_features.settings_button_loc.title,Settings button location,設定ボタンの位置
+config.entity_texture_features.settings_button_loc.tooltip,"Sets where the ETF settings button will appear in the resource pack menu.
+or disable it entirely.",ETF 設定ボタンがリソースパックメニューに表示されるセットです
+config.entity_texture_features.skin_editor.overlays.1,ETF tried to apply an example texture overlay that would overwrite pixels in your skin.,ETF がスキンのピクセルを書き換える例テクスチャオーバーレイを適用しようとしました。
+config.entity_texture_features.skin_editor.overlays.2,This is purely an example overlay to show you where you need to draw things yourself.,これは純粋に例示用のオーバーレイで、描画が必要な場所を示しています。
+config.entity_texture_features.skin_editor.overlays.3,"Allow this?  press NO to not apply overwriting example overlays, but still apply skin settings.",このオプションを許可しますか？ 覆い込み例のオーバーレイを適用しない場合は NO を押してください。ただし、スキン設定はまだ適用されます。
+config.entity_texture_features.skin_feature_print.title,Save a copy of your skin with the skin feature template applied,スキン機能テンプレートを適用した状態でスキンのコピーを保存する
+config.entity_texture_features.skin_feature_print.tooltip,"To help you setup your skin for skin features
+This setting will save a copy of your skin with
+the skin feature template applied onto it
+to the minecraft directory.
+After enabling this setting open a game, enter third person & press F3+T.
+You will get a message in chat telling you when it is finished.","スキン機能のセットアップを支援するために
+この設定はスキンのコピーを保存します
+マインクラフトディレクトリへのスキン機能テンプレートが適用されます
+この設定を有効にした後、ゲームを開いて3人称ビューに入り、F3+Tを押します
+チャットメッセージが送信されます"
+config.entity_texture_features.skin_features_enable_full_transparency.title,Player skin 100% transparency,プレイヤースキン 100% 透明度
+config.entity_texture_features.skin_features_enable_full_transparency.tooltip,"Allows player skins to be 100% transparent
+WARNING: this overrides the 60% transparency check
+ for player skins so they can be completely invisible
+ this option only changes what you can see and will
+ not make you invisible to others, it is meant for fun.
+//REQUIRES RESTART\\","プレイヤースキンを100%透明にすることができます
+警告: これはプレイヤースキンの60%透明チェックをオーバーライドするため
+完全に不可視にすることができます
+このオプションは見えるものだけを変更し、他の人にあなたを不可視にしません。楽しむためのものです
+//再起動が必要//"
+config.entity_texture_features.skin_features_enable_transparency.title,Player skin transparency,プレイヤーのスキン透明度
+config.entity_texture_features.skin_features_enable_transparency.tooltip,"Allows player skins to be transparent on the base texture
+the texture can only be an average of
+ 60% transparent to prevent abuse
+- uses transparency in the skin texture itself","プレイヤースキンをベーステクスチャで透明にできるようにします
+テクスチャは平均で最大60%透明にすることができます
+アビューズを防ぐため
+- スキンテクスチャ自体の透明度を使用します"
+config.entity_texture_features.skin_features_try_transparency_for_all.title,Enable transparency in ALL skins,すべてのスキンで透過性を有効にする
+config.entity_texture_features.skin_features_try_transparency_for_all.tooltip,"this will attempt to enabled transparent skin rendering
+ for ALL skins not just ETF enabled skins
+ WARNING this bypasses the 100% transparency check","これはすべてのスキンに透明なスキンレンダリングを試みます
+ETFが有効なスキンだけではなく
+警告：これにより100%透明度チェックがバイパスされます"
+config.entity_texture_features.skin_layers_patch.title,3D skin layers mod patch,3DスキンレイヤーMODパッチ
+config.entity_texture_features.skin_layers_patch.tooltip,"You are seeing this as the 3D skin layers mod is detected.
+ETF contains a patch to allow skin features to
+render correctly with the excellent 3d Skin Layers mod
+future changes to that mod might break this so the patch is optional
+
+RESTART REQUIRED after changing this","3Dスキンレイヤーmodが検出されたため、これを見ています
+ETFには、優秀な3Dスキンレイヤーmodで正しくレンダリングするためのパッチが含まれています
+そのmodへの将来の変更がこれを破る可能性があるため、パッチはオプションです
+
+変更後に再起動が必要です"
+config.entity_texture_features.skin_select.hint,Click a pixel in your skin to select those colours,スキン上でピクセルをクリックして色を選択します
+config.entity_texture_features.skin_select.warn,"WARNING: you have selected too many different colours, some may not work",警告：選択した色が多すぎます。いくつかは機能しない場合があります
+config.entity_texture_features.special_emissive_settings.title,Special case emissive settings,エミッシブ設定の特別なケース。
+config.entity_texture_features.special_emissive_settings.tooltip,"This option is provided as these cases
+may not fit into the typical users expectation of entity.",このオプションは、これらの場合に提供されます
+config.entity_texture_features.texture_update_frequency.title,Texture update frequency,テクスチャ更新頻度
+config.entity_texture_features.texture_update_frequency.tooltip,"Sets how often a mobs textures will
+update for changes like health & age
+Never = never update
+Slow = 3-5 seconds
+Fast = less than a second
+Instant = instant (possible lag with hundred of mobs)","モブのテクスチャを更新する頻度を設定します
+ヘルスと年齢などの変更については
+なし=更新しない
+遅い=3～5秒
+速い=1秒未満
+インスタント=インスタント（数百のモブによる可能なラグ）"
+config.entity_texture_features.title,Entity Texture Features,エンティティテクスチャ機能
+config.entity_texture_features.transparent_skins.all,All skins,全スキン
+config.entity_texture_features.transparent_skins.etf,ETF skins only,ETFスキン専用
+config.entity_texture_features.transparent_skins.title,Allow skin transparency,スキンの透明度を許可
+config.entity_texture_features.transparent_skins.tooltip,"Sets how ETF should enable transparent skins
+By default this is only enabled for skins using ETF skin features","ETFが透明なスキンをどのように有効にするかを設定します
+デフォルトでは、これはETFスキンフィーチャーを使用するスキンのみで有効です"
+config.entity_texture_features.transparent_skins.vanilla,OFF,オフ
+config.entity_texture_features.transparent_skins_extra.title,Better vanilla skin transparency,ベーシックなスキントランスペアレンシーを改善
+config.entity_texture_features.transparent_skins_extra.tooltip,"Tweaks the vanilla skin transparency code to make it not affect all the extra pixels that aren't actually used in your skin
+This allows transparency in these extra pixels without affecting the vanilla skin behaviour
+Very useful for custom player models","バニラスキンの透明度コードをツイークして、実際にスキンで使用されていない追加のピクセルすべてに影響しないようにします
+これにより、バニラスキンの動作に影響を与えることなく、これらの追加のピクセルの透明度を許可します
+カスタムプレイヤーモデルに非常に有用です"
+config.entity_texture_features.update_frequency.average,Average,標準
+config.entity_texture_features.update_frequency.fast,Fast,速い
+config.entity_texture_features.update_frequency.instant,Instant,即時
+config.entity_texture_features.update_frequency.never,Never,決して
+config.entity_texture_features.update_frequency.slow,Slow,遅い
+config.entity_texture_features.warden.title,Allow warden glowing textures for full model,全モデル用のウォーデン輝きテクスチャを許可します
+config.entity_texture_features.warden.tooltip,"The vanilla game only allows the wardens glowing textures like
+ 'warden_heart.png'
+to render for the one body part it applies too
+ enabling this setting will let that texture apply to the entire model","バニラゲームは、ウォーデンの発光テクスチャなどのみを許可します
+'warden_heart.png'
+それが適用される1つの体の部分に対してのみレンダリング
+この設定を有効にすると、そのテクスチャは全モデルに適用されます"
+config.entity_texture_features.warn.ebe.text.1,Enhanced Block Entities,ブロックエンティティの拡張
+config.entity_texture_features.warn.ebe.text.2,ETF block entity features don't apply to EBE block entities.,ETF ブロックエンティティ機能は EBE ブロックエンティティには適用されない。
+config.entity_texture_features.warn.figura.text.1,Figura,フィグーラ
+config.entity_texture_features.warn.figura.text.2,ETF skin features are disabled for compatibility.,ETF スキン機能は互換性のため無効化されています。
+config.entity_texture_features.warn.ignore,Ignored: ,無視: 
+config.entity_texture_features.warn.iris_3d.text.1,Emissive trims,発光トリム
+config.entity_texture_features.warn.iris_3d.text.2,"For an unidentified reason, 3D Skin Layers and Iris together break emissive armor trims.",未確認の理由で、3Dスキンレイヤーとアイリスが一緒に使用されると、エミッシブな防具トリムが壊れます。
+config.entity_texture_features.warn.no_emf.text.1,Custom Entity Models won't work,カスタムエンティティモデルは機能しません
+config.entity_texture_features.warn.quark.text.3,Quark,クワーク
+config.entity_texture_features.warn_config_load,The ETF config file was either corrupt or could not be loaded! Default settings are being used...,ETF の設定ファイルが破損しているか読み込めませんでした！ デフォルト設定を使用しています…
+config.entity_texture_features.warn_instruction,"Some warnings disable the conflicting ETF settings, unless ignored",一部の警告は衝突するETF設定を無効にします。ただし、無視されなければ
+config.entity_texture_features.warnings.title,Mod conflicts / warnings,MODの競合・警告

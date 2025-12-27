@@ -17,11 +17,11 @@ func runView(args []string) error {
 		modID      = fs.String("mod", "", "Mod ID to filter (optional, shows all mods if not specified)")
 		status     = fs.String("status", "", "Filter by status (pending, translated, verified, inherited, needs_review)")
 		search     = fs.String("search", "", "Search in source_text or target_text")
-		translator = fs.String("translator", "", "Filter by translator (e.g., 'lm:*' for all LM translations)")
+		_          = fs.String("translator", "", "Filter by translator (e.g., 'lm:*' for all LM translations)")
 		limit      = fs.Int("limit", 50, "Number of entries to show")
 		offset     = fs.Int("offset", 0, "Offset for pagination")
 		compact    = fs.Bool("compact", false, "Compact view (key and target only)")
-		recent     = fs.Bool("recent", false, "Order by most recently updated")
+		_          = fs.Bool("recent", false, "Order by most recently updated")
 		id         = fs.Int64("id", 0, "Show specific translation by ID")
 	)
 

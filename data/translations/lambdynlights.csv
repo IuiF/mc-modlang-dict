@@ -1,0 +1,60 @@
+﻿key,source_text,target_text
+lambdynlights.key.toggle_fps_dynamic_lighting,Toggle First-Person Lighting,第一人称照明を切り替える
+lambdynlights.key.toggle_fps_dynamic_lighting.info,First-Person Dynamic Lighting: %s,第一人称ダイナミックライティング: %s
+lambdynlights.menu.canvas.1,Disabling entities dynamic lighting is recommended with Canvas!,Canvasを使用している場合はエンティティの臨場感ある光源をオフにすることを推奨します！
+lambdynlights.menu.canvas.2,Dynamic lighting with Canvas is currently performance heavy!,現在はCanvasと臨場感ある光源の併用によってパフォーマンスが不安定になります！
+lambdynlights.menu.light_sources,Dynamic Light Sources,臨場感ある光源
+lambdynlights.menu.light_sources.special,Special Dynamic Light Sources,特別な動的光源
+lambdynlights.menu.search,Search:,検索:
+lambdynlights.menu.sodium.tab,%s,%s
+lambdynlights.menu.tabs.advanced,Advanced,高度
+lambdynlights.menu.tabs.debug,Debugging,デバッグ
+lambdynlights.menu.tabs.debug.description,"For modders, in case of tricky bugs.",モッド作成者向け、トリッキーなバグの場合に備えて。
+lambdynlights.menu.tabs.general,General,一般
+lambdynlights.menu.title,%s Settings,%s 設定
+lambdynlights.option.debug.active_dynamic_lighting_cells,Show Active Dynamic Lighting Cells,アクティブなダイナミックライティングセルを表示
+lambdynlights.option.debug.active_dynamic_lighting_cells.tooltip,Show in the world every currently active cells in the dynamic lighting engine.,ダイナミックライティングエンジンで現在アクティブなセルを世界中に表示します。
+lambdynlights.option.debug.cell_display_radius,Display Radius of Dynamic Lighting Cells,動的照明セルの表示半径を表示。
+lambdynlights.option.debug.display_behavior_bounding_box,Display Dynamic Light Behavior Bounding Box,動的ライト挙動のバウンディングボックスを表示します
+lambdynlights.option.debug.display_behavior_bounding_box.tooltip,Show in the world the bounding box of dynamic light behaviors.,世界に動的ライトのバウンディングボックスを表示します
+lambdynlights.option.debug.display_dynamic_lighting_chunk_rebuild,Display Dynamic Lighting Chunk Rebuilds,ダイナミックライティングチャンク再構築を表示
+lambdynlights.option.debug.display_dynamic_lighting_chunk_rebuild.tooltip,Show in the world every chunk rebuilds caused by dynamic lighting updates.,動的照明更新によって再構築されたすべてのチャンクをワールドに表示します。
+lambdynlights.option.debug.light_level_radius,Display Radius of Dynamic Light Level,ダイナミックライトレベルの半径を表示
+lambdynlights.option.light_sources.beam,Beacon Beams,beaconの光
+lambdynlights.option.light_sources.beam.tooltip,Enables the dynamic lighting of Beacon or End Gateway beams. They should rarely update.,ビーコンまたはエンドゲートウェイビームの動的照明を有効化します。更新頻度はほぼありません。
+lambdynlights.option.light_sources.block_entities,Block Entities,ブロックエンティティ
+lambdynlights.option.light_sources.entities,Entities,エンティティ
+lambdynlights.option.light_sources.firefly,Fireflies,蛍
+lambdynlights.option.light_sources.firefly.tooltip,Enables the dynamic lighting of firefly particles emitted by Firefly Bushes.,フラワーバッシュから放出される蛍粒子の動的照明を有効化します。
+lambdynlights.option.light_sources.glowing_effect,Glowing Effect,輝光効果
+lambdynlights.option.light_sources.glowing_effect.tooltip,Enables the dynamic lighting of entities that have the Glowing effect.,光るエフェクトを持つエンティティの動的照明を有効化します。
+lambdynlights.option.light_sources.guardian_laser,Guardian Lasers,ガードのレーザー
+lambdynlights.option.light_sources.guardian_laser.tooltip,Enables the dynamic lighting of the lasers shot by Guardians.,ガーディアンが発射するレーザーの動的照明を有効化します。
+lambdynlights.option.light_sources.self,First-Person,一人称視点
+lambdynlights.option.light_sources.sonic_boom,Warden Sonic Boom,ウォーデンソニックブーム
+lambdynlights.option.light_sources.sonic_boom.tooltip,Enables the dynamic lighting of the Warden's sonic boom attack particles.,ウォーデンの音速ブーム攻撃パーティクルの動的照明を有効にします。
+lambdynlights.option.light_sources.water_sensitive_check,Water Sensitivity Check,耐水性チェック
+lambdynlights.option.mode,Dynamic Lights,動的ライト
+lambdynlights.tooltip.block_entities,Enables block entities dynamic lighting.,ブロックエンティティに臨場感ある光源を適用します．
+lambdynlights.tooltip.creeper_lighting,"Sets the dynamic lighting mode for Creepers.
+- %s disables Creeper dynamic lighting.
+- %s sets a constant luminance.
+- %s sets a dynamic luminance.","クリーパーの発光モードを設定します．
+- %s 臨場感ある光源を適用しません．
+- %s 一定の明るさで発光します．
+- %s 点滅も再現します．"
+lambdynlights.tooltip.entities,Enables entities dynamic lighting. Note: it's always active for players.,"エンティティに臨場感ある光源を適用します．
+注意: プレイヤーには常に適用されます．"
+lambdynlights.tooltip.mode.1,"Enables dynamic lights. For example, if enabled, a torch held by a player will light up the area.",臨場感ある光源を有効にします．有効にすると，例えば松明を手に持ったプレイヤーの周辺が明るくなります．
+lambdynlights.tooltip.mode.2,%s and %s will lag a bit behind but minimizes light updates.,"- %s, %s 見かけのラグを生じますが，更新を最小限に抑えます．"
+lambdynlights.tooltip.mode.3,%s is smooth dynamic lighting.,- %s 滑らかに描画します．
+lambdynlights.tooltip.self_light_source,Enables first-person dynamic lighting. It's recommended to disable this if you're using shaders that has their own dynamic lighting.,一人称視点で手持ちのアイテムに臨場感ある光源を適用します．独自にこの光源描写を行うシェーダーを使用している場合は，このオプションをオフにすることを推奨します．
+lambdynlights.tooltip.tnt_lighting,"Sets the dynamic lighting mode for TNT.
+- %s disables TNT dynamic lighting.
+- %s sets a constant luminance.
+- %s sets a dynamic luminance.","TNTの発光モードを設定します．
+- %s 臨場感ある光源を適用しません．
+- %s 一定の明るさで発光します．
+- %s 点滅も再現します．"
+lambdynlights.tooltip.water_sensitive,Enables the check for water-sensitive light sources. This means that some items will not emit light while being submerged in water.,光源の耐水性チェックを行います．有効にすると，一部のアイテムは水に浸かっている状態では発光しません．
+modmenu.bluesky,Bluesky,ブルスカイ

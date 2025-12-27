@@ -1,0 +1,372 @@
+﻿key,source_text,target_text
+description.jei.debug.formatting.1,Testing %s formatting replacements.,%s フォーマット置換をテストしています。
+description.jei.debug.formatting.2,Testing %s %s formatting replacements.,%s %s フォーマット置換をテストしています。
+description.jei.debug.formatting.3,%s nested,%s ネストされた
+description.jei.wooden.door.1,Wooden Doors allow you to block monsters from entering your building.,木製ドアでモンスターが建物に入るのを防ぐことができます。
+description.jei.wooden.door.2,Clicking on a door changes its state from open to closed and visa versa.,ドアをクリックすると、開閉状態が切り替わります。
+description.jei.wooden.door.3,Wooden Doors can be opened/closed via redstone circuits.,木製ドアはレッドストーン回路で開閉できます。
+gui.jei.category.blasting,Blasting,爆発
+gui.jei.category.brewing,Brewing,ブリューイング
+gui.jei.category.brewing.steps,Steps: %s,第%s段階
+gui.jei.category.campfire,Campfire Cooking,焚き火を使う
+gui.jei.category.compostable,Compostable,堆肥化
+gui.jei.category.compostable.chance,Chance: %s%%,確率: %s%%
+gui.jei.category.craftingTable,Crafting,クラフト
+gui.jei.category.fuel,Fuel,燃料
+gui.jei.category.fuel.smeltCount,Smelts %s items,%sアイテム製錬分
+gui.jei.category.fuel.smeltCount.single,Smelts 1 item,1アイテムを製錬
+gui.jei.category.grindstone.experience,%s to %s XP,%sから%s XP
+gui.jei.category.itemInformation,Information,情報
+gui.jei.category.recipe.crashed,This recipe crashed. Please see the client logs for details.,このレシピはクラッシュしました。詳細はクライアントのログを参照してください。
+gui.jei.category.smelting,Smelting,製錬
+gui.jei.category.smelting.experience,%s XP,%s 経験値
+gui.jei.category.smelting.time.seconds,%ss,%s秒
+gui.jei.category.smoking,Smoking,喫煙
+gui.jei.category.stoneCutter,Stonecutting,ストーンカッターを使う
+gui.jei.category.tagInformation,%s Tags,%sタグ
+gui.jei.category.tagInformation.block,Block Tags,ブロックのタグ
+gui.jei.category.tagInformation.fluid,Fluid Tags,流体タグ
+gui.jei.category.tagInformation.item,Item Tags,アイテムタグ
+gui.jei.editMode.description,JEI Hide Ingredients Mode:,JEIアイテム隠蔽モード：
+gui.jei.editMode.description.hide,%CTRL-Click to Hide,「%CTRL」を押して隠す
+gui.jei.editMode.description.hide.wild,%CTRL-right-click to Hide by Wildcard,「%CTRL」を押してワイルドカードで隠す
+jei.alias.panda.spawn.egg,endangered,絶滅危機種
+jei.alias.villager.spawn.egg,HMMM,ふむふむ
+jei.chat.error.no.cheat.permission.1,You do not have permission to use JEI's Cheat Mode.,JEIのチートモードを使用する権限がありません
+jei.chat.error.no.cheat.permission.creative,players who are in Creative Mode,クリエイティブモードのプレイヤー
+jei.chat.error.no.cheat.permission.disabled,"On this server, JEI's Cheat Mode is disabled for all players.",このサーバーでは、JEIのチートモードはすべてのプレイヤーに対して無効化されています
+jei.chat.error.no.cheat.permission.enabled,"On this server, the following types of players can use JEI's Cheat Mode:",このサーバーでは、以下のプレイヤーのみがJEIのチートモードを使用できます：
+jei.chat.error.no.cheat.permission.give,players who can use /give,「/give」コマンドを使用できるプレイヤー
+jei.chat.error.no.cheat.permission.op,players who are have Operator Status (/op),管理者権限(/op)を持つプレイヤー
+jei.config,JEI Config,JEIの設定
+jei.config.client.advanced,Advanced,高度
+jei.config.client.advanced.catchRenderErrorsEnabled,Catch Render Errors,レンダリングエラーのキャッチ
+jei.config.client.advanced.catchRenderErrorsEnabled.description,Catch render errors from modded ingredients and attempt to recover from them instead of crashing.,クラッシュさせる代わりに、Modのアイテムのレンダリングエラーをキャッチし、回復を試みるようになります。
+jei.config.client.advanced.description,Advanced config options to change the way JEI functions.,JEIの機能を変更する高度な設定。
+jei.config.client.advanced.itemBlacklist,Ingredient Blacklist,アイテムのブラックリスト
+jei.config.client.advanced.itemBlacklist.description,List of ingredients that should not be displayed in the ingredient list overlay. Format: modId[:name[:meta]]. The hide ingredients mode will automatically add or remove entries here.,アイテムリストに表示しないアイテムのリスト。形式：modId[:name[:meta]]。アイテム隠蔽モードでは、ここにアイテムが自動的に追加／削除されます。
+jei.config.client.advanced.maxColumns,Max Overlay Width,最大JEIオーバーレイ幅
+jei.config.client.advanced.maxColumns.description,The maximum width of the ingredient and bookmark list overlays.,アイテムリストの最大幅
+jei.config.client.appearance,Appearance,外観
+jei.config.client.appearance.centerSearch,Center Search Bar,検索バーの中央配置
+jei.config.client.appearance.centerSearch.description,Move the JEI search bar to the bottom center of the screen.,JEI検索バーを中央下に移動します。
+jei.config.client.appearance.description,Config options to change the appearance of JEI.,JEIの外観に関する設定。
+jei.config.client.appearance.recipeGuiHeight,Recipe GUI Height,レシピGUIの最大高さ
+jei.config.client.appearance.recipeGuiHeight.description,The maximum height for the Recipes Gui (in pixels).,レシピGUIの最大高さ(ピクセル)。
+jei.config.client.bookmarkList,Bookmark List,ブックマークリスト
+jei.config.client.bookmarkList.buttonNavigationVisibility,Navigation Visibility,ナビゲーションの表示
+jei.config.client.bookmarkList.buttonNavigationVisibility.description,Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.,上部のページボタンの表示設定。ページが複数ある場合のみ表示するにはAUTO_HIDEを使用してください。
+jei.config.client.bookmarkList.description,Config options related to the Bookmark List (the list of bookmarked ingredients on the left side of the screen),ブックマークリスト(画面左側のリスト)に関する設定。
+jei.config.client.bookmarkList.drawBackground,Draw GUI Background,GUIの背景を描画
+jei.config.client.bookmarkList.drawBackground.description,Enable this to draw a background texture behind the bookmark list.,trueにすると、ブックマークリストの背後に背景テクスチャを描画します。
+jei.config.client.bookmarkList.horizontalAlignment,Horizontal Alignment,水平方向の配置
+jei.config.client.bookmarkList.horizontalAlignment.description,Horizontal alignment of the bookmark list inside the available area.,利用可能なエリア内でのブックマークリストの水平方向の配置。
+jei.config.client.bookmarkList.maxColumns,Max Columns,最大列数
+jei.config.client.bookmarkList.maxColumns.description,Max number of columns shown.,表示される列の最大数。
+jei.config.client.bookmarkList.maxRows,Max Rows,最大行数
+jei.config.client.bookmarkList.maxRows.description,Max number of rows shown.,表示される行の最大数。
+jei.config.client.bookmarkList.verticalAlignment,Vertical Alignment,垂直方向の配置
+jei.config.client.bookmarkList.verticalAlignment.description,Vertical alignment of the bookmark list inside the available area.,利用可能なエリア内でのブックマークリストの垂直方向の配置。
+jei.config.client.bookmarks,Bookmarks,ブックマーク
+jei.config.client.bookmarks.addBookmarksToFrontEnabled,Add Bookmarks to Front,ブックマークを先頭に追加
+jei.config.client.bookmarks.addBookmarksToFrontEnabled.description,"When true, add new bookmarks to the front of the list. When false, add them to the end.",trueにすると、新しいブックマークをリストの先頭に追加します。falseにすると、末尾に追加します。
+jei.config.client.bookmarks.description,Config options related to Bookmarking ingredients and recipes.,アイテムやレシピのブックマークに関する設定。
+jei.config.client.bookmarks.dragToRearrangeBookmarksEnabled,Drag To Rearrange Bookmarks,ドラッグでブックマークを並び替える
+jei.config.client.bookmarks.dragToRearrangeBookmarksEnabled.description,Enable dragging bookmarks to rearrange them in the list.,ブックマークをドラッグして、リスト内で並び替えられるようになります。
+jei.config.client.cheating,Cheating,チート
+jei.config.client.cheating.cheatToHotbarUsingHotkeysEnabled,Cheat Items to Hotbar Using Hotkeys,ホットキーを使用してホットバーにチートアイテムを追加
+jei.config.client.cheating.cheatToHotbarUsingHotkeysEnabled.description,Enable cheating items into the hotbar by using Shift + numeric keys.,シフト + 数値キーを使用して、ホットバーにチートアイテムを与えられるようになります。
+jei.config.client.cheating.description,Config options related to Cheating.,チートに関する設定。
+jei.config.client.cheating.giveMode,Give Mode,付与モード
+jei.config.client.cheating.giveMode.description,Choose if JEI should give ingredients directly to the inventory or pick them up with the mouse.,JEIがアイテムをインベントリに直接与えるか、マウスで拾うかを選択します
+jei.config.client.cheating.showHiddenIngredients,Show Hidden Ingredients,隠されたアイテムを表示
+jei.config.client.cheating.showHiddenIngredients.description,Enable showing ingredients that are not in the creative menu.,クリエイティブメニューに無いアイテムを表示します。
+jei.config.client.cheating.showTagRecipesEnabled,Show Tag Recipes,タグレシピの表示
+jei.config.client.cheating.showTagRecipesEnabled.description,Show recipes for ingredient tags like item tags and block tags.,アイテムタグやブロックタグなどのタグレシピを表示します。
+jei.config.client.ingredientList,Ingredient List,アイテムリスト
+jei.config.client.ingredientList.buttonNavigationVisibility,Navigation Visibility,ナビゲーションの表示
+jei.config.client.ingredientList.buttonNavigationVisibility.description,Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.,上部のページボタンの表示設定。ページが複数ある場合のみ表示するにはAUTO_HIDEを使用してください。
+jei.config.client.ingredientList.description,Config options related to the Ingredient List (the list of ingredients on the right side of the screen),アイテムリスト(画面右側のリスト)に関する設定。
+jei.config.client.ingredientList.drawBackground,Draw GUI Background,GUIの背景を描画
+jei.config.client.ingredientList.drawBackground.description,Enable this to draw a background texture behind the ingredient list.,trueにすると、アイテムリストの背後に背景テクスチャを描画します。
+jei.config.client.ingredientList.horizontalAlignment,Horizontal Alignment,水平方向の配置
+jei.config.client.ingredientList.horizontalAlignment.description,Horizontal alignment of the ingredient list inside the available area.,利用可能なエリア内でのアイテムリストの水平方向の配置。
+jei.config.client.ingredientList.maxColumns,Max Columns,最大列数
+jei.config.client.ingredientList.maxColumns.description,Max number of columns shown.,表示される列の最大数。
+jei.config.client.ingredientList.maxRows,Max Rows,最大行数
+jei.config.client.ingredientList.maxRows.description,Max number of rows shown.,表示される行の最大数。
+jei.config.client.ingredientList.verticalAlignment,Vertical Alignment,垂直方向の配置
+jei.config.client.ingredientList.verticalAlignment.description,Vertical alignment of the ingredient list inside the available area.,利用可能なエリア内でのアイテムリストの垂直方向の配置。
+jei.config.client.input,Input,入力
+jei.config.client.input.description,Config options related to Inputs in JEI.,JEIの入力に関する設定。
+jei.config.client.input.dragDelayInMilliseconds,Drag Delay,ドラッグの遅延
+jei.config.client.input.dragDelayInMilliseconds.description,Number of milliseconds before a long mouse click is considered dragging the mouse.,マウスを長押しするとマウスのドラッグとみなされるまでのミリ秒数。
+jei.config.client.input.smoothScrollRate,Smooth Scroll Rate,滑らかなスクロール速度
+jei.config.client.input.smoothScrollRate.description,Scroll rate for scrolling the mouse wheel in smooth-scrolling scroll boxes. Measured in pixels.,滑らかなスクロールのスクロールボックスでマウスホイールを使用する場合のスクロール速度。ピクセル単位で測定されます。
+jei.config.client.lookupHistory,Lookup History,検索履歴
+jei.config.client.lookupHistory.description,Config options for showing a history of ingredient lookups in JEI,JEIの素材検索履歴を表示するための設定オプション。
+jei.config.client.lookupHistory.displaySide,Display Side,表示側
+jei.config.client.lookupHistory.displaySide.description,Side of the screen to display the lookup history overlay.,検索履歴オーバーレイを表示する画面の側。
+jei.config.client.lookupHistory.enabled,Enabled,有効
+jei.config.client.lookupHistory.enabled.description,Display or hide the lookup history overlay.,検索履歴オーバーレイを表示または非表示にします。
+jei.config.client.lookupHistory.maxIngredients,Max Ingredients,最大素材数
+jei.config.client.lookupHistory.maxIngredients.description,Max number of lookup history ingredients to save.,保存する検索履歴素材の最大数。
+jei.config.client.lookupHistory.maxRows,Max Rows,最大行数
+jei.config.client.lookupHistory.maxRows.description,Max number of rows to display in the lookup history overlay.,検索履歴オーバーレイに表示される最大行数。
+jei.config.client.lookups,Lookups,確認
+jei.config.client.lookups.description,Config options related to looking up uses and recipes for ingredients in JEI.,JEIのアイテムの用途やレシピの確認に関する設定。
+jei.config.client.lookups.lookupBlockTagsEnabled,Lookup ItemBlock Tags,アイテム／ブロックタグの確認
+jei.config.client.lookups.lookupBlockTagsEnabled.description,"When searching for item tags, also include tags for the default blocks contained in the items.",アイテムタグを検索する場合、そのアイテムに含まれるデフォルトのブロックタグも含めて表示します。
+jei.config.client.lookups.lookupFluidContentsEnabled,Lookup Fluid Contents,流体の確認
+jei.config.client.lookups.lookupFluidContentsEnabled.description,"When looking up recipes with items that contain fluids, also look up recipes for the fluids.",流体を含むアイテムのレシピを検索する場合、その流体のレシピも合わせて検索します。
+jei.config.client.performance,Performance,パフォーマンス
+jei.config.client.performance.description,Config options related to performance optimizations in JEI.,JEIのパフォーマンスの最適化に関する設定。
+jei.config.client.performance.lowMemorySlowSearchEnabled,Low Memory Search,省メモリ検索
+jei.config.client.performance.lowMemorySlowSearchEnabled.description,Set search to low-memory mode (makes search slow but uses less RAM).,検索を省メモリモードに設定します(検索は遅くなりますが、RAMの使用量が低下します)。
+jei.config.client.search,Search,検索
+jei.config.client.search.colorSearchMode,^Color Search Mode,検索モード(^色)
+jei.config.client.search.colorSearchMode.description,Search mode for colors (prefix: ^).,色検索 (プレフィックス：^)
+jei.config.client.search.creativeTabSearchMode,%Creative Tab Search Mode,検索モード(%クリエイティブタブ)
+jei.config.client.search.creativeTabSearchMode.description,Search mode for creative mode tab names (prefix: %).,クリエイティブタブ名での検索モード(接頭辞：%)。
+jei.config.client.search.description,Config options related to how JEI searches recipes.,JEIがレシピを検索する方法に関する設定。
+jei.config.client.search.modNameSearchMode,@Mod Name Search Mode,検索モード(@Mod名)
+jei.config.client.search.modNameSearchMode.description,Search mode for mod names (prefix: @).,Mod名検索 (プレフィックス：@)
+jei.config.client.search.resourceLocationSearchMode,&Resource Location Search Mode,検索モード(&リソースの場所)
+jei.config.client.search.resourceLocationSearchMode.description,Search mode for resource locations (prefix: &).,リソースの場所での検索モード(接頭辞：&)。
+jei.config.client.search.searchAdvancedTooltips,Search Advanced Tooltips,高度な情報での検索
+jei.config.client.search.searchAdvancedTooltips.description,Search in advanced tooltips (visible with F3 + H).,高度な情報での検索(F3 + Hで表示)。
+jei.config.client.search.searchIngredientAliases,Search Ingredient Aliases,アイテムエイリアスでの検索
+jei.config.client.search.searchIngredientAliases.description,"Search ingredient aliases (alternative names) that are added by plugins, in addition to ingredient names.",アイテム名に加え、プラグインにより追加されたアイテムエイリアス(代替名)での検索を行います。
+jei.config.client.search.searchModAliases,Search Mod Aliases,Modエイリアスでの検索
+jei.config.client.search.searchModAliases.description,"Search mod aliases (alternative names) that are added by plugins, in addition to mod names.",Mod名に加え、プラグインにより追加されたModエイリアス(代替名)での検索を行います。
+jei.config.client.search.searchModIds,Search Mod Ids,Mod IDでの検索
+jei.config.client.search.searchModIds.description,Search mod IDs in addition to mod names.,Mod名に加え、Mod IDでの検索を行います。
+jei.config.client.search.searchShortModNames,Search Short Mod Names,省略したMod名での検索
+jei.config.client.search.searchShortModNames.description,Search by the shorthand first letters of a mod's name.,Mod名の頭文字での検索を行います。
+jei.config.client.search.tagSearchMode,#Tag Search Mode,検索モード(#タグ)
+jei.config.client.search.tagSearchMode.description,Search mode for tags (prefix: #).,タグでの検索モード (接頭辞：#)。
+jei.config.client.search.tooltipSearchMode,$Tooltip Search Mode,検索モード($ツールチップ)
+jei.config.client.search.tooltipSearchMode.description,Search mode for tooltips (prefix: $).,ツールチップでの検索モード(接頭辞：$)
+jei.config.client.sorting,Sorting,分類
+jei.config.client.sorting.description,Config options related to how JEI sorts recipes and ingredients.,JEIがレシピやアイテムをソートする方法に関する設定。
+jei.config.client.sorting.ingredientSortStages,Ingredient Sorting Stages,アイテムのソート階層
+jei.config.client.sorting.ingredientSortStages.description,Sorting order for the ingredient list.,アイテムリストのソート順序。
+jei.config.client.sorting.recipeSorterStages,Recipe Sorting Stages,レシピのソート階層
+jei.config.client.sorting.recipeSorterStages.description,Sorting order for displayed recipes.,表示されるレシピのソート順序。
+jei.config.client.tooltips,Tooltips,ツールチップ
+jei.config.client.tooltips.bookmarkTooltipFeatures,Bookmarks Tooltips Features,ブックマークのツールチップ機能
+jei.config.client.tooltips.bookmarkTooltipFeatures.description,Extra features for bookmark tooltips.,ブックマークのツールチップの追加機能。
+jei.config.client.tooltips.description,Config options related to Tooltips in JEI.,JEIのツールチップに関する設定。
+jei.config.client.tooltips.enableRecipesGuiIngredientsSummary,Recipe Ingredient Summary,レシピ素材の概要
+jei.config.client.tooltips.enableRecipesGuiIngredientsSummary.description,"Show a summary of ingredients needed for a recipe, on its output ingredient's tooltip.",レシピに必要な素材の概要を、その出力素材のツールチップに表示します。
+jei.config.client.tooltips.hideSingleTagContentTooltipEnabled,Hide Single-Ingredient Tag Contents,単一アイテム用タグの内容を非表示
+jei.config.client.tooltips.hideSingleTagContentTooltipEnabled.description,Hide tag content in tooltips when there is only one ingredient in the tag.,タグにアイテムが1種類しかない場合、ツールチップにタグの内容を表示しないようにします。
+jei.config.client.tooltips.holdShiftToShowBookmarkTooltipFeatures,Shift for Bookmarks Tooltips,シフトでブックマークのツールチップを表示
+jei.config.client.tooltips.holdShiftToShowBookmarkTooltipFeatures.description,Hold Shift to show bookmark tooltip features.,シフトを押すとブックマークのツールチップ機能を表示します。
+jei.config.client.tooltips.showCreativeTabNamesEnabled,Show Creative Tab Names,クリエイティブタブ名の表示
+jei.config.client.tooltips.showCreativeTabNamesEnabled.description,Show creative tab names in ingredient tooltips.,アイテムのツールチップにクリエイティブタブ名を表示します。
+jei.config.client.tooltips.tagContentTooltipEnabled,Show Tag Contents,タグの表示
+jei.config.client.tooltips.tagContentTooltipEnabled.description,Show tag content in tooltips when browsing recipe ingredients.,レシピの材料を確認するときに、ツールチップにタグの内容を表示します。
+jei.config.colors.colors,Colors,色
+jei.config.colors.colors.description,Config options related to searching for colors of items in JEI,JEIのアイテムの色の検索に関する設定。
+jei.config.colors.colors.searchColors,Search Colors,色の検索
+jei.config.colors.colors.searchColors.description,Color values to search for.,検索する色の値。
+jei.config.debug.debug,Debug,デバッグ
+jei.config.debug.debug.crashingTestItemsEnabled,Enable Crashing Test Items,クラッシュテストアイテムの有効化
+jei.config.debug.debug.crashingTestItemsEnabled.description,"Adds ingredients to JEI that intentionally crash, to help debug JEI.",JEIのデバッグを補助するために、意図的にクラッシュを引き起こすアイテムを追加します。
+jei.config.debug.debug.debugGuis,Debug GUIs,デバッグGUI
+jei.config.debug.debug.debugGuis.description,Enable Debug GUIs mode,デバッグGUIモードを有効化します。
+jei.config.debug.debug.debugInfoTooltipsEnabled,Debug Info Tooltips,デバッグ説明ツールチップ
+jei.config.debug.debug.debugInfoTooltipsEnabled.description,Add debug information to ingredient tooltips when advanced tooltips are enabled.,高度な情報が有効化されている場合、アイテムのツールチップにデバッグ情報を追加します。
+jei.config.debug.debug.debugInputs,Debug Inputs,デバッグ入力
+jei.config.debug.debug.debugInputs.description,Enable Debug Inputs mode,デバッグ入力モードを有効化します。
+jei.config.debug.debug.debugMode,Debug Mode,デバッグモード
+jei.config.debug.debug.debugMode.description,Enable debug mode,デバッグモードを有効化します。
+jei.config.debug.debug.description,Config options to help developers debug issues in JEI,開発者がJEIの問題をデバッグするのに役立つ設定。
+jei.config.debug.debug.logSuffixTreeStats,Log Search Tree Statistics,統計ツリーの記録
+jei.config.debug.debug.logSuffixTreeStats.description,"Log information about the suffix trees used for searching, to help debug JEI.",JEIのデバッグを補助するために、検索に使用された接尾辞ツリーに関する情報をログに記録します。
+jei.config.default,Default,デフォルト
+jei.config.defaultValue,Default Value: %s,デフォルト値：%s
+jei.config.description,Description: %s,説明: %s
+jei.config.interface,Interface,インターフェース
+jei.config.interface.bookmarkOverlayEnabled,Show Bookmark List Overlay,ブックマーク欄の表示
+jei.config.interface.bookmarkOverlayEnabled.description,Show the bookmark list overlay next to open GUIs.,GUIの隣にブックマークリストを表示します。
+jei.config.interface.description,Options related to the user interface.,ユーザーインターフェースに関係する設定。
+jei.config.interface.overlayEnabled,Show Ingredient List Overlay,アイテムリストの有効化
+jei.config.interface.overlayEnabled.description,Show the ingredient list overlay next to open GUIs.,GUIの隣にアイテムリストを表示します。
+jei.config.modIdFormat.modName,Mod Name,Mod 名
+jei.config.modIdFormat.modName.description,Config options related to displaying Mod Names,Mod名の表示に関する設定。
+jei.config.modIdFormat.modName.modNameFormat,Mod Name Format,Mod名の書式
+jei.config.modIdFormat.modName.modNameFormat.description,Formatting for the mod names in tooltips for JEI GUIs. Leave blank to disable.,JEIのGUIのツールチップのMod名の表示形式。無効化するには空白のままにしてください。
+jei.config.mode,Mode,モード
+jei.config.mode.cheatItemsEnabled,Cheat Mode,チートモード
+jei.config.mode.cheatItemsEnabled.description,Give items instead of showing the recipe.,レシピを見せるのではなくアイテムを与えます。
+jei.config.mode.description,Change the mode that JEI is operating in.,JEIのモードを変更します。
+jei.config.mode.editEnabled,Hide Ingredients Mode,アイテム隠蔽モード
+jei.config.mode.editEnabled.description,Hide or unhide ingredients by clicking them in the ingredient list overlay.,クリックしてアイテムリストでのアイテムの非表示／表示を切り替えます。
+jei.config.name,Name: %s,名前: %s
+jei.config.title,%MODNAME Config,%MODNAMEの設定
+jei.config.valid,Valid,有効
+jei.config.valueValues,Valid Values: %s,有効値：%s
+jei.key.category.cheat.mode,JEI (Cheat Mode),JEI(チートモード)
+jei.key.category.dev.tools,JEI (Dev Tools),JEI(開発者ツール)
+jei.key.category.edit.mode,JEI (Edit Mode),JEI(アイテム隠蔽モード)
+jei.key.category.hover.config.button,JEI (Hovering with Mouse over Config Button),JEI(設定ボタンにマウスを重ねたとき)
+jei.key.category.mouse.hover,JEI (Hovering with Mouse),JEI(マウスを重ねたとき)
+jei.key.category.overlays,JEI (Overlays),JEI(オーバーレイ)
+jei.key.category.recipe.gui,JEI (Recipes),JEI(レシピ)
+jei.key.category.search,JEI (Search Filter),JEI(検索フィルター)
+jei.key.combo.alt,ALT + %s,ALT + %s
+jei.key.combo.command,CMD + %s,CMD + %s
+jei.key.combo.control,CTRL + %s,CTRL + %s
+jei.key.combo.shift,SHIFT + %s,SHIFT + %s
+jei.key.mouse.left,CLICK,クリック
+jei.key.mouse.right,RIGHT-CLICK,右クリック
+jei.key.shift,SHIFT,SHIFT
+jei.message.config.folder,Click here to open the JEI config folder,ここをクリックするとJEIの設定フォルダーを開きます
+jei.message.configured,"Install the ""Configured"" mod to access the in-game config","ゲーム内で設定にアクセスするには、
+""設定済み"" Modを導入してください"
+jei.message.copy.recipe.id.failure,"Failed to Copy Recipe ID to clipboard, the Recipe ID is unknown",IDが不明なため、レシピIDのクリップボードへのコピーに失敗しました
+jei.message.copy.recipe.id.success,Copied Recipe ID to clipboard: %s,以下のレシピIDをクリップボードにコピーしました：%s
+jei.tooltip.bookmarks.disable,Hide JEI Bookmarks,JEIブックマークを非表示
+jei.tooltip.bookmarks.enable,Show JEI Bookmarks,JEIブックマークを表示
+jei.tooltip.bookmarks.not.enough.space,There is not enough space to display the JEI bookmark list overlay here.,JEIブックマークを表示するためのスペースが狭すぎます
+jei.tooltip.bookmarks.recipe,%s Recipe Bookmark,ブックマークしたレシピ(%s)
+jei.tooltip.bookmarks.recipe.add,Bookmark this recipe.,レシピをブックマークに追加
+jei.tooltip.bookmarks.recipe.remove,Remove the bookmark for this recipe.,レシピをブックマークから削除
+jei.tooltip.bookmarks.tooltips.transfer.max.usage,[%s to craft many],［「%s」を押して作れるだけクラフト］
+jei.tooltip.bookmarks.tooltips.transfer.usage,[%s to craft one],［「%s」を押して一回分クラフト］
+jei.tooltip.bookmarks.tooltips.usage,[%s to show details],［「%s」を押して詳細を表示］
+jei.tooltip.bookmarks.usage.key,"Hover over an ingredient and press ""%s"" to bookmark it.",アイテムに重ねて「%s」キーを押してブックマークします
+jei.tooltip.bookmarks.usage.nokey,Add a key binding for JEI bookmarks in your Controls settings.,操作設定でJEIブックマークのキー割り当てを追加してください
+jei.tooltip.cheat.mode.button.enabled,Cheat Mode enabled,チートモードが有効
+jei.tooltip.cheat.mode.how.to.disable.hotkey,Press %s to toggle it.,「%s」を押して切り替え
+jei.tooltip.cheat.mode.how.to.disable.hover.config.button.hotkey,%s here to toggle it.,「%s」を押して切り替え
+jei.tooltip.config,JEI Config,JEIの設定
+jei.tooltip.delete.item,Click to Delete,クリックして削除
+jei.tooltip.error.crash,This ingredient crashed when getting its tooltip. Please see the client logs for detailed information.,このアイテムのツールチップの取得中にクラッシュが発生しました。詳細はクライアントのログを参照してください
+jei.tooltip.error.recipe.transfer.inventory.full,Inventory is too full,インベントリが満杯です
+jei.tooltip.error.recipe.transfer.missing,Missing Items,アイテムがインベントリ内に存在しません
+jei.tooltip.error.recipe.transfer.no.server,The server must have JEI installed,サーバーにJEIが導入されている必要があります
+jei.tooltip.error.recipe.transfer.too.large.player.inventory,Recipe is too large to craft in the 2x2 player crafting grid.,2x2のクラフトグリッドではクラフトできないサイズのレシピです
+jei.tooltip.error.render.crash,This ingredient crashed when being rendered. Please see the client logs for detailed information.,このアイテムのレンダリング中にクラッシュが発生しました。詳細はクライアントのログを参照してください
+jei.tooltip.ingredient.list.disabled,The JEI overlays are disabled.,JEIオーバーレイは無効です
+jei.tooltip.ingredient.list.disabled.how.to.fix,"Press ""%s"" to enable them.",「%s」を押して有効化
+jei.tooltip.item.colors,Colors: %s,色: %s
+jei.tooltip.item.search.aliases,Search Aliases:,検索エイリアス：
+jei.tooltip.liquid.amount.with.capacity,"%,d / %,d mB",",%d / %,d mB"
+jei.tooltip.liquid.flowing,%s (flowing),%s (フローリング)
+jei.tooltip.lookupHistory.disable,Hide JEI Lookup History,JEI検索履歴を非表示
+jei.tooltip.lookupHistory.enable,Show JEI Lookup History,JEI検索履歴を表示
+jei.tooltip.lookupHistory.usage,Shows a list of the ingredients recently used for looking up recipes.,最近レシピ検索に使用された素材のリストを表示します。
+jei.tooltip.not.enough.space,There is not enough space to display the JEI ingredient list overlay here.,JEIを表示するためのスペースが狭すぎます
+jei.tooltip.recipe.by,Recipe By: %s,%sによるレシピ
+jei.tooltip.recipe.id,Recipe ID: %s,レシピID: %s
+jei.tooltip.recipe.sort.bookmarks.first.disabled,Show bookmarked recipes first (disabled),ブックマークしたレシピを優先表示(無効)
+jei.tooltip.recipe.sort.bookmarks.first.enabled,Show bookmarked recipes first (enabled),ブックマークしたレシピを優先表示(有効)
+jei.tooltip.recipe.sort.craftable.first.disabled,Show craftable recipes first (disabled),クラフト可能なレシピを優先表示(無効)
+jei.tooltip.recipe.sort.craftable.first.enabled,Show craftable recipes first (enabled),クラフト可能なレシピを優先表示(有効)
+jei.tooltip.recipe.tag,Accepts tag: %s,以下のすべてで：%s
+jei.tooltip.recipe.tooltips.craft.ingredients,Ingredients summary:,素材の概要：
+jei.tooltip.shapeless.recipe,Shapeless Recipe,不定形レシピ
+jei.tooltip.show.all.recipes.hotkey,%s to Show All Recipes,「%s」を押してすべてのレシピを表示
+jei.tooltip.show.recipes,Show Recipes,レシピを表示
+jei.tooltip.transfer,Move Items,アイテムを配置
+key.jei.bookmark,Add/Remove a Bookmarked Ingredient,ブックマークの追加／削除
+key.jei.cheatItemStack,Cheat 1 stack,アイテムを1スタック取得
+key.jei.cheatItemStack2,Cheat 1 stack,アイテムを1スタック取得
+key.jei.cheatOneItem,Cheat 1 item,アイテムを1個取得
+key.jei.cheatOneItem2,Cheat 1 item,アイテムを1個取得
+key.jei.clearSearchBar,Clear Search Filter,検索フィルターをクリア
+key.jei.closeRecipeGui,Close Recipes GUI,レシピを閉じる
+key.jei.copy.recipe.id,Copy Recipe ID to Clipboard,レシピIDをクリップボードにコピー
+key.jei.focusSearch,Select Search Bar,検索バーの選択
+key.jei.maxTransferRecipeBookmark,Craft Bookmarked Recipe (max amount),ブックマークしたレシピでクラフト(作れるだけ)
+key.jei.nextCategory,Show Next Recipe Category,次のレシピカテゴリへ
+key.jei.nextPage,Show Next Page,次のページへ
+key.jei.nextRecipePage,Next Recipe Page,次のレシピページへ
+key.jei.nextSearch,Next Search,次の検索へ
+key.jei.previousCategory,Show Previous Recipe Category,前のレシピカテゴリへ
+key.jei.previousPage,Show Previous Page,前のページへ
+key.jei.previousRecipePage,Previous Recipe Page,前のレシピページへ
+key.jei.previousSearch,Previous Search,前の検索へ
+key.jei.recipeBack,Show Previously Viewed Recipe,前のレシピへ
+key.jei.showRecipe,Show Recipe,レシピの表示
+key.jei.showRecipe2,Show Recipe,レシピの表示
+key.jei.showUses,Show Uses,使用先を表示
+key.jei.showUses2,Show Uses,使用先を表示
+key.jei.toggleBookmarkOverlay,Show/Hide Bookmarked Ingredients,ブックマークの表示／非表示
+key.jei.toggleCheatMode,Toggle Cheat Mode,チートモードの切り替え
+key.jei.toggleCheatModeConfigButton,Toggle Cheat Mode,チートモードの切り替え
+key.jei.toggleEditMode,Toggle Hide/Edit Mode,アイテム隠蔽モードの切り替え
+key.jei.toggleHideIngredient,Hide ingredient,アイテムを隠す
+key.jei.toggleOverlay,Show/Hide JEI,JEIの表示／非表示
+key.jei.toggleWildcardHideIngredient,Hide ingredient (wildcard),アイテムを隠す(ワイルドカード)
+key.jei.transferRecipeBookmark,Craft Bookmarked Recipe (once),ブックマークしたレシピでクラフト(一回分)
+_comment,"DEBUG (for debug mode, do not need translation)","DEBUG (for debug mode, do not need translation)"
+config.jei,JEI Config,JEIの設定
+config.jei.advanced,Advanced,高度
+config.jei.advanced.centerSearchBarEnabled,Center Search Bar,検索バーの中央配置
+config.jei.advanced.centerSearchBarEnabled.comment,Move the JEI search bar to the bottom center of the screen.,JEI検索バーを中央下に移動します。
+config.jei.advanced.colorSearchEnabled,Enable Color Search,色による検索の有効化
+config.jei.advanced.comment,Advanced config options to change the way JEI functions.,JEIの機能を変更する高度な設定。
+config.jei.advanced.debugModeEnabled,Debug Mode,デバッグモード
+config.jei.advanced.debugModeEnabled.comment,"Only useful for JEI developers, adds test ingredients and some debug recipes.",JEIの開発者にとってのみ有用です。大量のテスト用アイテムといくつかのデバッグ用レシピを追加します。
+config.jei.advanced.giveMode,Give Mode,付与モード
+config.jei.advanced.giveMode.comment,Choose if JEI should give ingredients direct to the inventory (inventory) or pick them up with the mouse (mouse_pickup).,インベントリに直接アイテムに送るか (inventory)、マウスでアイテムを取得するか (mouse_pickup) を指定します。
+config.jei.advanced.itemBlacklist,Ingredient Blacklist,アイテムのブラックリスト
+config.jei.advanced.maxColumns,Max Overlay Width,最大JEIオーバーレイ幅
+config.jei.advanced.maxRecipeGuiHeight,Max Recipe GUI Height,最大レシピGUI高さ
+config.jei.advanced.maxRecipeGuiHeight.comment,The maximum height of the recipe GUI.,レシピGUIの最大の高さ
+config.jei.advanced.modNameFormat,Mod Name Format,Mod名の書式
+config.jei.advanced.modNameFormat.comment,How the mod name should be formatted in the tooltip for JEI GUIs. Leave blank to disable.,JEIのGUIやツールチップにおいてどのようにMod名を表示するか指定します。空欄で無効。
+config.jei.default,Default,デフォルト
+config.jei.interface,Interface,インターフェース
+config.jei.mode,Mode,モード
+config.jei.mode.cheatItemsEnabled,Cheat Mode,チートモード
+config.jei.mode.cheatItemsEnabled.comment,Give items instead of showing the recipe.,レシピを見せるのではなくアイテムを与えます。
+config.jei.mode.comment,Change the mode that JEI is operating in.,JEIのモードを変更します。
+config.jei.mode.editEnabled,Hide Ingredients Mode,アイテム隠蔽モード
+config.jei.search,Search Options,検索の設定
+config.jei.search.colorSearchMode,^Color,^色
+config.jei.search.creativeTabSearchMode,%%CreativeTab,%%クリエイティブタブ
+config.jei.search.modNameSearchMode,@ModName,@Mod名
+config.jei.search.resourceIdSearchMode,&ResourceId,&リソースID
+config.jei.search.searchAdvancedTooltips,Search advanced tooltips,高度なツールチップを検索する
+config.jei.search.tagSearchMode,$Tag,$Tag
+config.jei.search.tooltipSearchMode,#Tooltip,#ツールチップ
+config.jei.title,%MODNAME Config,%MODNAMEの設定
+config.jei.valid,Valid,有効
+jei.tooltip.bookmarks,JEI Bookmarks,JEIブックマーク
+jei.tooltip.cheat.mode.how.to.disable.no.hotkey,%s-click here to toggle it.,ここを%s+左クリックで切り替えます
+jei.tooltip.error.recipe.transfer.disabled,The server config has disabled JEI recipe transfer,サーバーの設定でJEIのレシピ転送が無効になっています
+jei.tooltip.show.all.recipes,Show All Recipes,全てのレシピを表示
+key.jei.ctrl,CTRL,CTRL
+key.jei.ctrl.mac,CMD,CMD
+config.jei.advanced.colorSearchEnabled.comment,Search ingredients by color and show the colors on tooltips in the ingredient list overlay.,色による検索とアイテムリスト内ツールチップでのアイテムの色情報表示を有効化します。
+config.jei.advanced.itemBlacklist.comment,List of ingredients that should not be displayed in the ingredient list overlay. Format: modId[:name[:meta]]. Hide Ingredients Mode will automatically add or remove entries here.,アイテムリストに表示されるべきではない要素のリスト。 書式: modId[:name[:meta]]. アイテム隠蔽モード時はここに自動的に追加・削除されます。
+config.jei.advanced.maxColumns.comment,The maximum width of the ingredient and bookmark list overlays.,アイテムリストの最大幅
+config.jei.interface.bookmarkOverlayEnabled,Show Bookmark List Overlay,ブックマーク欄の表示
+config.jei.interface.bookmarkOverlayEnabled.comment,Show the bookmark list overlay next to open GUIs.,GUIの隣にブックマークリストを表示します。
+config.jei.interface.comment,Options related to the user interface.,ユーザーインターフェースに関係する設定。
+config.jei.interface.overlayEnabled,Show Ingredient List Overlay,アイテムリストの有効化
+config.jei.interface.overlayEnabled.comment,Show the ingredient list overlay next to open GUIs.,GUIの隣にアイテムリストを表示します。
+config.jei.mode.editEnabled.comment,Hide and unhide ingredients by clicking them in the ingredient list overlay.,クリックでアイテムリストでの要素の表示/非表示を切り替えられます。
+config.jei.search.colorSearchMode.comment,Search mode for colors (prefix: ^).,色検索 (プレフィックス：^)
+config.jei.search.comment,Options related to the search bar.,検索バーに関する設定。
+config.jei.search.creativeTabSearchMode.comment,Search mode for creative tab names (prefix: %).,クリエイティブタブ名検索 (プレフィックス：%)
+config.jei.search.modNameSearchMode.comment,Search mode for mod names (prefix: @).,Mod名検索 (プレフィックス：@)
+config.jei.search.tagSearchMode.comment,Search mode for tags (prefix: $).,タグ名の検索モード (プレフィックス: $)
+config.jei.search.tooltipSearchMode.comment,Search mode for tooltips (prefix: #).,ツールチップ検索 (プレフィックス：#)
+jei.chat.error.command.too.long,"JEI must be installed on the server to handle this chat command, it is too long for Minecraft to send.",このコマンドを実行するにはJEIがサーバーに導入されている必要があります、バニラでは長すぎるため送ることができません。
+jei.tooltip.error.recipe.transfer.unknown,"Unknown error, see logs",不明なエラー、ログを参照してください
+config.jei.advanced.addBookmarksToFront,Prepend New Bookmarks,新しいブックマークを先頭に追加
+config.jei.advanced.addBookmarksToFront.comment,"When true, adds new bookmarks to the front of the bookmark list. When false, adds new bookmarks to the end of the bookmark list.",trueの場合、新しいブックマークをブックマークリストの先頭に追加します。falseの場合、新しいブックマークをブックマークリストの末尾に追加します
+jei.tooltip.liquid.amount,"%,d mB","%,d mB"
+jei.tooltip.recipe.ore.dict,Accepts any: %s,以下のいずれかで: %s
+jei.chat.error.no.cheat.permission.2,Permission is given to players who can /give items or are in Creative Mode.,権限はgiveコマンドが使用できるか、クリエイティブモードのプレイヤーに与えられます。
+config.jei.search.oreDictSearchMode,$OreDictionary,$鉱石辞書
+config.jei.search.oreDictSearchMode.comment,Search mode for Ore Dictionary Names (prefix: $),鉱石辞書名検索 (プレフィックス：$)
+config.jei.search.resourceIdSearchMode.comment,Search mode for resources ids (prefix: &),リソースID検索 (プレフィックス：&)
+config.jei.advanced.optimizeMemoryUsage,Optimize Memory Usage,メモリ使用量の最適化
+config.jei.advanced.optimizeMemoryUsage.comment,Enable JEI memory usage optimizations.,JEIのメモリ使用量最適化を有効にします。

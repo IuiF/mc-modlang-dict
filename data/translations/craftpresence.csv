@@ -1,0 +1,532 @@
+﻿key,source_text,target_text
+craftpresence.command.compile,"§6§lCompiler Output:§r\n ""%1$s""\n\n§6§lDecompiler (Size: %2$s):§r\n %3$s","§6コンパイラ出力:§r\n ""%1$s""\n\n§6逆コンパイラ (サイズ: %2$s):§r\n %3$s"
+craftpresence.command.current_data,§lCurrent RPC Data (Logged in as %1$s):§r\n §6§lActivity Type:§r %2$s\n §6§lDetails:§r %3$s\n §6§lGame State:§r %4$s\n §6§lStart Timestamp:§r %5$s\n §6§lClient ID:§r %6$s\n §6§lLarge Icon Key:§r %7$s\n §6§lLarge Icon Text:§r %8$s\n §6§lSmall Icon Key:§r %9$s\n §6§lSmall Icon Text:§r %10$s\n §6§lParty ID:§r %11$s\n §6§lParty Size:§r %12$s\n §6§lParty Max:§r %13$s\n §6§lParty Privacy:§r %14$s\n §6§lJoin Secret:§r %15$s\n §6§lEnd Timestamp:§r %16$s\n §6§lMatch Secret:§r %17$s\n §6§lSpectate Secret:§r %18$s\n §6§lButtons:§r %19$s\n §6§lIs Instance:§r %20$s,現在のリッチプレゼンスデータ (ログイン中: %1$s):§r\n §6アクティビティタイプ:§r %2$s\n §6詳細:§r %3$s\n §6ゲーム状態:§r %4$s\n §6開始タイムスタンプ:§r %5$s\n §6クライアントID:§r %6$s\n §6大アイコンキー:§r %7$s\n §6大アイコンテキスト:§r %8$s\n §6小アイコンキー:§r %9$s\n §6小アイコンテキスト:§r %10$s\n §6パーティID:§r %11$s\n §6パーティサイズ:§r %12$s\n §6パーティ最大値:§r %13$s\n §6パーティプライバシー:§r %14$s\n §6参加シークレット:§r %15$s\n §6終了タイムスタンプ:§r %16$s\n §6マッチシークレット:§r %17$s\n §6観戦シークレット:§r %18$s\n §6ボタン:§r %19$s\n §6インスタンス:§r %20$s
+craftpresence.command.export.exception,§c§lCommand Exception - Unable to export assets from Client Id %1$s,§cコマンド例外 - クライアントID %1$s からのアセットエクスポートが失敗しました
+craftpresence.command.export.post,§2§lCompleted export of %1$s Asset(s) from Client Id %2$s with Full Copy Status as %3$s,§2クライアントID %2$s から %1$s 個のアセットをフルコピーステータス %3$s でエクスポート完了しました
+craftpresence.command.export.pre,§6§lBeginning export of %1$s Asset(s) from Client Id %2$s with Full Copy Status as %3$s,§6クライアントID %2$s から %1$s 個のアセットのエクスポートを開始しています(フルコピーステータス: %3$s)
+craftpresence.command.export.progress,§6§lExporting Asset(s) from Client Id %1$s: %2$s of %3$s,§6クライアントID %1$s からアセットをエクスポート中: %2$s / %3$s
+craftpresence.command.offline,§c§lUnable to execute command - Client is currently Offline...,§cコマンド実行不可 - クライアントが現在オフラインです
+craftpresence.command.reboot.post,§2§lCraftPresence has been rebooted!,§2§lクラフトプレゼンスを再起動しました!
+craftpresence.command.reboot.pre,§6§lRebooting CraftPresence...,§6§lクラフトプレゼンスを再起動中...
+craftpresence.command.reload,"§6§lReloading CraftPresence data, depending on settings!",§6§l設定に基づいてクラフトプレゼンスデータを再読み込み中です!
+craftpresence.command.reload.complete,§2§lReloaded CraftPresence data!,§2§lクラフトプレゼンスデータの再読み込みが完了しました!
+craftpresence.command.request.accept,§6§lJoin request accepted! %1$s has been sent an invite!,§6参加リクエストが承認されました! %1$s さんに招待を送信しました!
+craftpresence.command.request.denied,§6§lJoin request denied from %1$s!,§6%1$s さんからの参加リクエストを拒否しました!
+craftpresence.command.request.info,§6§lRequest Info:§r\n §6§lRequester Username: %1$s\n\n §6§lUse /cp request <accept|deny> or wait %2$s seconds to ignore,§6§lリクエスト情報:§r\n §6§lリクエスト者ユーザー名: %1$s\n\n §6§l/cp request <accept|deny> を使用するか、%2$s 秒待ってから無視してください
+craftpresence.command.request.none,§6§lYou do not have any available join requests!,§6利用可能な参加リクエストはありません!
+craftpresence.command.shutdown.post,§2§lCraftPresence has been shutdown!\n §6§lUse /cp reboot to reboot,§2§lCraftPresence はシャットダウンされました！\\n §6§l/​cp reboot で再起動してください
+craftpresence.command.shutdown.pre,§6§lShutting down CraftPresence...,§6§lクラフトプレゼンスをシャットダウン中...
+craftpresence.command.unrecognized,§c§lUnknown Command - use §6§l/craftpresence help,§c§l不明なコマンド - §6§l/craftpresence help を使用してください
+craftpresence.command.usage.compile,"§lCraftPresence - Compile Usage:\n\n §6§lUse /cp compile ""<expr>"" to view the output of a specific placeholder or expression, via Starscript","クラフトプレゼンス - コンパイル使用方法:\n\n §6/cp compile ""<式>"" を使用してStarscriptを介した特定のプレースホルダーまたは式の出力を確認してください"
+craftpresence.command.usage.export,§lCraftPresence - Export Sub-Commands:\n\n §6§lassets [clientId::%1$s] [doFullCopy::%2$s] §r- Exports Assets from the specified Client ID in text or asset form,クラフトプレゼンス - エクスポートサブコマンド:\n\n §6assets [clientId::%1$s] [doFullCopy::%2$s] §r- 指定されたクライアントIDからテキストまたはアセット形式でアセットをエクスポートします
+craftpresence.command.usage.main,"§lCraftPresence - Sub-Commands:\n §rSyntax: §6/<cp|craftpresence> <command>\n\n §6§lreboot §r- Reboot RPC\n §6§lshutdown §r- Shut down RPC\n §6§lcompile §r- Test the output of a placeholder expression, via Starscript\n §6§lsearch §r- Search for valid placeholders available to use with Rich Presence\n §6§lreload §r- Reloads CraftPresence data based on settings\n §6§lrequest §r- View join request info\n §6§lexport §r- View export commands for mod data\n §6§lview §r- View a variety of display data\n §6§lhelp §r- Views this page",クラフトプレゼンス - サブコマンド:\n §rシンタックス: §6/<cp|craftpresence> <コマンド>\n\n §6reboot §r- RPCを再起動\n §6shutdown §r- RPCをシャットダウン\n §6compile §r- Starscriptを介してプレースホルダー式の出力をテスト\n §6search §r- リッチプレゼンスで使用可能な有効なプレースホルダーを検索\n §6リロード §r- 設定に基づいてクラフトプレゼンスデータを再読み込み\n §6request §r- 参加リクエスト情報を表示\n §6export §r- Modデータのエクスポートコマンドを表示\n §6view §r- さまざまな表示データを表示\n §6help §r- このページを表示
+craftpresence.command.usage.search,§lCraftPresence - Search Usage:\n\n §6§l/cp search <searchTerm|type:name> to search for applicable placeholders available,クラフトプレゼンス - 検索使用方法:\n\n §6/cp search <searchTerm|type:name> を使用して利用可能なプレースホルダーを検索してください
+craftpresence.command.usage.view.assets,§lCraftPresence - View Assets Sub-Commands:\n\n §6§lcustom §r- View Discord assets that were dynamically added\n §6§lall §r- View all Discord assets,クラフトプレゼンス - アセット表示サブコマンド:\n\n §6custom §r- 動的に追加されたディスコードアセットを表示\n §6all §r- すべてのディスコードアセットを表示
+craftpresence.defaults.advanced.entity_riding_messages,Riding {entity.riding.name},{entity.riding.name} に乗っている
+craftpresence.defaults.advanced.entity_target_messages,Targeting {entity.target.name},{entity.target.name} をターゲット中
+craftpresence.defaults.advanced.gui_messages,In {screen.name},{スクリーン.name} にいる
+craftpresence.defaults.advanced.item_messages,Holding {item.message.holding},{item.message.holding} を保持中
+craftpresence.defaults.biome_messages.biome_messages,Playing in {biome.name},{biome.name} でプレイ中
+craftpresence.defaults.dimension_messages.dimension_messages,In the {dimension.name},{dimension.name} にいます
+craftpresence.defaults.display.button.label,Example Text,例示テキスト
+craftpresence.defaults.display.button.url,https://google.com,https://google.com
+craftpresence.defaults.display.image.url,https://via.placeholder.com/256.png,https://via.placeholder.com/256.png
+craftpresence.defaults.integrations.replaymod.editor,{player.name} is editing a replay,{player.name} がリプレイを編集中
+craftpresence.defaults.integrations.replaymod.renderer,{player.name} is exporting a replay ({replaymod.frames.current}/{replaymod.frames.total} frames),{player.name} がリプレイをエクスポート中 ({replaymod.frames.current}/{replaymod.frames.total} フレーム)
+craftpresence.defaults.integrations.replaymod.viewer,{player.name} is browsing replays,{player.name} がリプレイを閲覧中
+craftpresence.defaults.placeholder.mods,{general.mods} Mod(s),{general.mods} 個のMod
+craftpresence.defaults.placeholder.pack,{pack.name},{pack.name}
+craftpresence.defaults.placeholder.player_info.coordinate,"At {player.position.x}, {player.position.z}","座標: {player.position.x}, {player.position.z}"
+craftpresence.defaults.placeholder.player_info.health,Health: {player.health.current}/{player.health.max},体力: {player.health.current}/{player.health.max}
+craftpresence.defaults.placeholder.player_info.in,({custom.player_info.health}),({custom.player_info.health})
+craftpresence.defaults.placeholder.player_info.items,Items: {item.main_hand.message},アイテム: {item.main_hand.message}
+craftpresence.defaults.placeholder.player_info.out,As {player.name},{player.name} として
+craftpresence.defaults.placeholder.players,{server.players.current} / {server.players.max} Players,{server.players.current} / {server.players.max} 人のプレイヤー
+craftpresence.defaults.placeholder.world_info,On {world.name},{world.name} にいます
+craftpresence.defaults.server_messages.server_messages,Playing on {server.motd.raw},{server.motd.raw} でプレイ中
+craftpresence.defaults.server_messages.server_motd,A Minecraft Server,Minecraftサーバー
+craftpresence.defaults.server_messages.server_name,Minecraft Server,Minecraftサーバー
+craftpresence.defaults.state.lan,Playing on a LAN Server,LANサーバーでプレイ中
+craftpresence.defaults.state.loading,Loading...,読み込み中...
+craftpresence.defaults.state.main_menu,In the Main Menu,メインメニュー画面
+craftpresence.defaults.state.mc.version,Minecraft %1$s,マインクラフト %1$s
+craftpresence.defaults.state.realm,Playing on {server.motd.raw},{server.motd.raw} でプレイ中
+craftpresence.defaults.state.single_player,Playing Singleplayer,シングルプレイでプレイ中
+craftpresence.defaults.weather.clear,Clear,クリア
+craftpresence.defaults.weather.rain,Raining,雨
+craftpresence.defaults.weather.thunder,Thundering,雷
+craftpresence.defaults.world_name,World,ワールド
+craftpresence.logger.error.command,An error has occurred executing this command,このコマンド実行中にエラーが発生しました
+craftpresence.logger.error.compiler,A compiler exception has occurred:,コンパイラ例外が発生しました::
+craftpresence.logger.error.config.backup,A backup of your config file has been made to prevent data loss...,データ損失を防ぐため、設定ファイルのバックアップが作成されました......
+craftpresence.logger.error.config.invalid.icon.empty,Unable to detect any usable icons! Please submit a mod issue if this is a mistake...,使用可能なアイコンが検出できません！これが間違いの場合はmod issueを送信してください...
+craftpresence.logger.error.config.missing.default,"Default value is missing for property ""%1$s"", adding to property...",プロパティ「%1$s」のデフォルト値が不足しています。プロパティに追加中...
+craftpresence.logger.error.config.prop.empty,"Empty or non-convertable property detected (""%1$s""), setting property as default...",空またはコンバートできないプロパティが検出されました(「%1$s」)。プロパティをデフォルトに設定中...
+craftpresence.logger.error.config.prop.invalid,"Invalid property detected (""%1$s""), removing property...",無効なプロパティが検出されました(「%1$s」)。プロパティを削除中...
+craftpresence.logger.error.config.save,Failed to load or save configuration,設定の読み込みまたは保存に失敗しました
+craftpresence.logger.error.connect,Unable to connect to Discord...,ディスコードに接続できません......
+craftpresence.logger.error.discord.assets.default,"Failed to assign an alternative icon for asset name ""%1$s"", using default/randomized icon ""%2$s""...","アセット名 ""%1$s"" の代替アイコン割り当てに失敗しました。デフォルト/ランダムアイコン ""%2$s"" を使用します..."
+craftpresence.logger.error.discord.assets.fallback,"Asset name ""%1$s"" does not exist, attempting to use an alternative icon ""%2$s""...","アセット名 ""%1$s"" が存在しないため、代替アイコン ""%2$s"" を使用しようとしています..."
+craftpresence.logger.error.discord.assets.load,"Unable to get Discord assets, things may not work well...",ディスコードアセットを取得できません。正常に動作しない可能性があります......
+craftpresence.logger.error.discord.join,"Join request rejected, due to an invalid join key: %1$s",無効な参加キーのため、参加リクエストが拒否されました: %1$s
+craftpresence.logger.error.keycode,"A keybind error has occurred, resetting ""%1$s"" to default to prevent a crash...","キーバインドエラーが発生しました。""%1$s"" をデフォルトにリセットしてクラッシュを防いでいます..."
+craftpresence.logger.error.module,A module exception has occurred:,モジュール例外が発生しました::
+craftpresence.logger.error.pack,"Unable to get ""%1$s"" pack data (ignore if not using a ""%1$s"" pack)","""%1$s"" パックデータを取得できません（""%1$s"" パックを使用していない場合は無視してください）"
+craftpresence.logger.error.parser,A parser exception has occurred:,パーサー例外が発生しました::
+craftpresence.logger.error.rpc,"CraftPresence has encountered the following RPC error, and has been shut down to prevent a crash: %1$s",クラフトプレゼンスは以下のリッチプレゼンスエラーが発生し、クラッシュを防ぐためにシャットダウンされています: %1$s
+craftpresence.logger.error.system,"CraftPresence was unable to retrieve system info, things may not work well...",クラフトプレゼンスはシステム情報を取得できません。正常に動作しない可能性があります......
+craftpresence.logger.error.verbose,Please enable verbose mode to view more details.,詳細を表示するには、詳細モードを有効にしてください.
+craftpresence.logger.info.config.new,New configuration data for CraftPresence has been created successfully!,クラフトプレゼンスの新しい設定データが正常に作成されました!!
+craftpresence.logger.info.config.outdated,Outdated Config Detected! Migrating from Schema v%1$s to v%2$s,古い設定が検出されました！スキーマ v%1$s から v%2$s に移行中
+craftpresence.logger.info.config.save,Configuration settings have been saved and reloaded successfully!,設定が正常に保存され、再読み込みされました!
+craftpresence.logger.info.connect,Attempting to connect to Discord (%1$s/%2$s)...,ディスコードに接続しようとしています (%1$s/%2$s)...
+craftpresence.logger.info.discord.assets.detected,%1$s total assets detected!,%1$s 個のアセットが検出されました!!
+craftpresence.logger.info.discord.assets.fallback,"Fallback icon for ""%1$s"" found! Using a fallback icon with the name ""%2$s""!","""%1$s"" のフォールバックアイコンが見つかりました！名前 ""%2$s"" のフォールバックアイコンを使用しています!"
+craftpresence.logger.info.discord.assets.load,Checking Discord for available assets with Client Id: %1$s,クライアントID: %1$s で利用可能なアセットをディスコードで確認中
+craftpresence.logger.info.discord.assets.load.credits,Originally coded by paulhobbel - https://github.com/paulhobbel,元々paulhobbel により編集 - https://github.com/paulhobbel
+craftpresence.logger.info.discord.assets.request,"To add support for this icon, please request for this icon to be added to the default Client ID or add the icon under the following name: ""%1$s"".","このアイコンのサポートを追加するには、このアイコンをデフォルトクライアントIDに追加するようリクエストするか、次の名前でアイコンを追加してください: ""%1$s""。"
+craftpresence.logger.info.load,Loaded display data with Client Id: %1$s (Logged in as %2$s),クライアントID: %1$s でディスプレイデータを読み込みました(ログイン中: %2$s)
+craftpresence.logger.info.migration.add,Adding migration data for data matching %1$s with action identifier %2$s (Reason: %3$s)!,%1$s にマッチするデータの移行データを追加中。アクション識別子：%2$s（理由: %3$s）!
+craftpresence.logger.info.migration.apply,Applying migration data for data matching %1$s with action identifier %2$s -> Converting %3$s from %4$s to %5$s,%1$s にマッチするデータの移行データを適用中。アクション識別子：%2$s -> %3$s を %4$s から %5$s に変換中
+craftpresence.logger.info.os,"Detected OS: %1$s (Architecture: %2$s, Is 64-Bit: %3$s)","検出されたOS: %1$s (Architecture: %2$s, Is 64-Bit: %3$s)"
+craftpresence.logger.info.pack.init,"Checking for ""%1$s"" pack data...","""%1$s"" パックデータを確認中..."
+craftpresence.logger.info.pack.loaded,"Found ""%1$s"" pack data! (Name: ""%2$s"", Icon: ""%3$s"")","""%1$s"" パックデータが見つかりました！（名前: ""%2$s"", アイコン: ""%3$s""）"
+craftpresence.logger.info.shutdown,Shutting down CraftPresence...,クラフトプレゼンスをシャットダウン中...
+craftpresence.logger.warning.debug_mode,"You are running CraftPresence in a debugging environment, some features may not function properly!",クラフトプレゼンスはデバッグ環境で実行されています。一部の機能が正常に動作しない可能性があります!
+craftpresence.message.unsupported,This feature is not supported in this version of Minecraft,この機能は、このバージョンのMinecraftではサポートされていません
+craftpresence.placeholders.asIcon.description,Converts a String into a Valid and Acceptable Icon Format,文字列を有効かつ受け入れ可能なアイコン形式に変換します
+craftpresence.placeholders.asIcon.usage,"asIcon(input, whitespaceIndex ?: '')","asIcon(入力, 空白インデックス ?: '')"
+craftpresence.placeholders.asIdentifier.description,Converts an Identifier into a properly formatted and interpretable Name,識別子を適切にフォーマットされた解釈可能な名前に変換します
+craftpresence.placeholders.asIdentifier.usage,"asIdentifier(target, formatToId ?: false, avoid ?: false)","asIdentifier(ターゲット, IDへ変換 ?: false, 回避 ?: false)"
+craftpresence.placeholders.asProperWord.description,Converts input into a Properly Readable String,入力を適切に読みやすい文字列に変換します
+craftpresence.placeholders.asProperWord.usage,"asProperWord(input, avoid ?: false, skipSymbolReplacement ?: false, caseCheckTimes ?: -1)","asProperWord(入力, 回避 ?: false, 記号置換スキップ ?: false, 大文字小文字チェック回数 ?: -1)"
+craftpresence.placeholders.biome.default.icon.description,The default biome icon,デフォルトバイオームアイコン
+craftpresence.placeholders.biome.icon.description,The current biome icon,現在のバイオームアイコン
+craftpresence.placeholders.biome.identifier.description,The current biome identifier,現在のバイオーム識別子
+craftpresence.placeholders.biome.message.description,"The current biome's display data, while in-game",現在のバイオームの表示データ(ゲーム内)
+craftpresence.placeholders.biome.name.description,The current biome name,現在のバイオーム名
+craftpresence.placeholders.capitalizeWords.description,Capitalizes the words within a specified string,指定された文字列内の単語を大文字化します
+craftpresence.placeholders.capitalizeWords.usage,"capitalizeWords(input, timesToCheck ?: -1)","capitalizeWords(入力, チェック回数 ?: -1)"
+craftpresence.placeholders.cast.description,Attempts to cast or convert an object to the specified target class,オブジェクトを指定したターゲットクラスにキャストまたは変換しようとします
+craftpresence.placeholders.cast.usage,"cast(castObject, classToAccess=Object|String|Class)","cast(キャストオブジェクト, アクセス対象クラス=Object|String|Class)"
+craftpresence.placeholders.clampDouble.description,Clamps the Specified Number between a minimum and maximum limit,指定された数値を最小値と最大値の間に制限します
+craftpresence.placeholders.clampDouble.usage,"clampDouble(num, min, max)","clampDouble(数値, 最小, 最大)"
+craftpresence.placeholders.clampFloat.description,Clamps the Specified Number between a minimum and maximum limit,指定された数値を最小値と最大値の間に制限します
+craftpresence.placeholders.clampFloat.usage,"clampFloat(num, min, max)","clampFloat(数値, 最小, 最大)"
+craftpresence.placeholders.clampInt.description,Clamps the Specified Number between a minimum and maximum limit,指定された数値を最小値と最大値の間に制限します
+craftpresence.placeholders.clampInt.usage,"clampInt(num, min, max)","clampInt(数値, 最小, 最大)"
+craftpresence.placeholders.clampLong.description,Clamps the Specified Number between a minimum and maximum limit,指定された数値を最小値と最大値の間に制限します
+craftpresence.placeholders.clampLong.usage,"clampLong(num, min, max)","clampLong(数値, 最小, 最大)"
+craftpresence.placeholders.convertTime.description,"Convert the specified string into the specified date format, if able",指定された文字列を指定された日付形式に変換します(可能な場合)
+craftpresence.placeholders.convertTime.usage,"convertTime(input, originalPattern, newPattern)","convertTime(入力, 元のパターン, 新しいパターン)"
+craftpresence.placeholders.convertTimeFormat.description,Convert a Date String from one format to another format,日付文字列をある形式から別の形式に変換します
+craftpresence.placeholders.convertTimeFormat.usage,"convertTimeFormat(dateString, fromFormat, toFormat)","convertTimeFormat(日時文字列, 変換元形式, 変換先形式)"
+craftpresence.placeholders.convertTimeZone.description,Convert a Date String from one timezone to another timezone,日付文字列をあるタイムゾーンから別のタイムゾーンに変換します
+craftpresence.placeholders.convertTimeZone.usage,"convertTimeZone(dateString, fromFormat, fromTimeZone, toTimeZone)","convertTimeZone(日時文字列, 変換元形式, 変換元タイムゾーン, 変換先タイムゾーン)"
+craftpresence.placeholders.dateToEpochMilli.description,Convert Date String to Epoch Timestamp in milliseconds,日付文字列をミリ秒単位のエポックタイムスタンプに変換します
+craftpresence.placeholders.dateToEpochMilli.usage,"dateToEpochMilli(dateString, format, timeZone ?: null)","dateToEpochMilli(日時文字列, 形式, タイムゾーン ?: null)"
+craftpresence.placeholders.dateToEpochSecond.description,Convert Date String to Epoch Timestamp in seconds,日付文字列を秒単位のエポックタイムスタンプに変換します
+craftpresence.placeholders.dateToEpochSecond.usage,"dateToEpochSecond(dateString, format, timeZone ?: null)","dateToEpochSecond(日時文字列, 形式, タイムゾーン ?: null)"
+craftpresence.placeholders.dimension.default.icon.description,The default dimension icon,デフォルトディメンションアイコン
+craftpresence.placeholders.dimension.icon.description,The current dimension icon,現在のディメンションアイコン
+craftpresence.placeholders.dimension.identifier.description,The current dimension identifier,現在のディメンション識別子
+craftpresence.placeholders.dimension.message.description,"The current dimension's display data, while in-game",現在のディメンションの表示データ(ゲーム内)
+craftpresence.placeholders.dimension.name.description,The current dimension name,現在のディメンション名
+craftpresence.placeholders.entity.default.icon.description,The default entity icon,デフォルトエンティティアイコン
+craftpresence.placeholders.entity.riding.icon.description,The currently riding entity's icon,現在乗っているエンティティのアイコン
+craftpresence.placeholders.entity.riding.message.description,"The currently riding entity's display data, while applicable",現在乗っているエンティティの表示データ(該当する場合)
+craftpresence.placeholders.entity.riding.name.description,The currently riding entity's name,現在乗っているエンティティの名前
+craftpresence.placeholders.entity.target.icon.description,The currently targeted entity's icon,現在ターゲットしているエンティティのアイコン
+craftpresence.placeholders.entity.target.message.description,"The currently targeted entity's display data, while applicable",現在ターゲットしているエンティティの表示データ(該当する場合)
+craftpresence.placeholders.entity.target.name.description,The currently targeted entity's name,現在ターゲットしているエンティティの名前
+craftpresence.placeholders.epochMilliToDate.description,Convert Epoch Timestamp to Date String in the given format and timezone,エポックタイムスタンプ(ミリ秒)を指定された形式とタイムゾーンの日付文字列に変換します
+craftpresence.placeholders.epochMilliToDate.usage,"epochMilliToDate(epochMilli, format, timeZone ?: null)","epochMilliToDate(エポック(ミリ秒), 形式, タイムゾーン ?: null)"
+craftpresence.placeholders.epochSecondToDate.description,Convert Epoch Timestamp to Date String in the given format and timezone,エポックタイムスタンプ(ミリ秒)を指定された形式とタイムゾーンの日付文字列に変換します
+craftpresence.placeholders.epochSecondToDate.usage,"epochSecondToDate(epochSecond, format, timeZone ?: null)","epochSecondToDate(エポック(秒), 形式, タイムゾーン ?: null)"
+craftpresence.placeholders.executeMethod.description,Invokes the specified Method in the Target Class via Reflection,リフレクションを使用してターゲットクラスの指定されたメソッドを呼び出します
+craftpresence.placeholders.executeMethod.usage,"executeMethod(classToAccess=Object|String|Class, instance=Object, methodName=String, <parameterType, parameter>...)","executeMethod(アクセス対象クラス=オブジェクト|文字列|Class, インスタンス=オブジェクト, メソッド名=文字列, <パラメータ型, パラメータ>...)"
+craftpresence.placeholders.format.description,Returns a formatted string using the specified format string and arguments,指定されたフォーマット文字列と引数を使用してフォーマットされた文字列を返します
+craftpresence.placeholders.format.usage,"format(input=String, args=Object...)","format(入力=String, 引数=Object...)"
+craftpresence.placeholders.formatAddress.description,Formats an IP Address based on Input,入力に基づいてIPアドレスをフォーマットします
+craftpresence.placeholders.formatAddress.usage,"formatAddress(input, returnPort ?: false)","formatAddress(入力, ポート返却 ?: false)"
+craftpresence.placeholders.general.brand.description,The Minecraft branding label,Minecraftブランディングラベル
+craftpresence.placeholders.general.icon.description,The default display icon,デフォルト表示アイコン
+craftpresence.placeholders.general.mods.description,The amount of mods currently in your mods folder,現在のmodsフォルダ内のmod数
+craftpresence.placeholders.general.protocol.description,The Minecraft version protocol label,Minecraftバージョンプロトコルラベル
+craftpresence.placeholders.general.title.description,The Minecraft title label,Minecraftタイトルラベル
+craftpresence.placeholders.general.version.description,The Minecraft version label,Minecraftバージョンラベル
+craftpresence.placeholders.getArrayElement.description,"Retrieves the array element from the specified content, or null if unable","指定されたコンテンツから配列要素を取得します, or null if unable"
+craftpresence.placeholders.getArrayElement.usage,"getArrayElement(content=Array, index)","get配列Element(コンテンツ=配列, インデックス)"
+craftpresence.placeholders.getAsset.description,"Retrieves the Specified DiscordAsset data from an Icon Key, if present","アイコンキーから指定されたディスコードAssetデータを取得します, if present"
+craftpresence.placeholders.getAsset.usage,getAsset(input),getAsset(入力)
+craftpresence.placeholders.getAssetId.description,"Retrieves the Parsed Icon ID from the specified key, if present","指定されたキーから解析されたアイコンIDを取得します, if present"
+craftpresence.placeholders.getAssetId.usage,getAssetId(input),getAssetId(入力)
+craftpresence.placeholders.getAssetKey.description,"Retrieves the Parsed Icon Key from the specified key, if present",指定されたキーからパースされたアイコンキーを取得します(存在する場合)
+craftpresence.placeholders.getAssetKey.usage,getAssetKey(input),getAssetKey(入力)
+craftpresence.placeholders.getAssetType.description,"Retrieves the Parsed Image Type from the specified key, if present",指定されたキーからパースされた画像タイプを取得します(存在する場合)
+craftpresence.placeholders.getAssetType.usage,getAssetType(input),getAssetType(入力)
+craftpresence.placeholders.getAssetUrl.description,"Retrieves the Parsed Image Url from the specified key, if present",指定されたキーからパースされた画像URLを取得します(存在する場合)
+craftpresence.placeholders.getAssetUrl.usage,getAssetUrl(input),getAssetUrl(入力)
+craftpresence.placeholders.getClass.description,"Attempt to retrieve a class object, via the string path or object reference",文字列パスまたはオブジェクト参照を通じてクラスオブジェクトを取得します
+craftpresence.placeholders.getClass.usage,getClass(reference=Object|String),getClass(参照=Object|String)
+craftpresence.placeholders.getComponent.description,(MC 1.20.5+) Attempt to retrieve the Component Data with the specified path,(MC 1.20.5+)指定されたパスでコンポーネントデータを取得します
+craftpresence.placeholders.getComponent.usage,"getComponent(data=DataComponentHolder, path=String)","getComponent(データ=DataComponentHolder, パス=文字列)"
+craftpresence.placeholders.getCurrentTime.description,"Retrieve the current time, as an Instant",現在の時刻をInstant形式で取得します
+craftpresence.placeholders.getElapsedMillis.description,"Retrieve the elapsed time, in milliseconds",経過時間をミリ秒単位で取得します
+craftpresence.placeholders.getElapsedNanos.description,"Retrieve the elapsed time, in nanoseconds",経過時間をナノ秒単位で取得します
+craftpresence.placeholders.getElapsedSeconds.description,"Retrieve the elapsed time, in seconds",経過時間を秒単位で取得します
+craftpresence.placeholders.getField.description,Retrieves the Specified Field(s) via Reflection,リフレクションを使用して指定されたフィールドを取得します
+craftpresence.placeholders.getField.usage,"getField(classToAccess=Object|String|Class, instance=Object, fieldName=String...)","getField(アクセス対象クラス=オブジェクト|文字列|Class, インスタンス=オブジェクト, フィールド名=文字列...)"
+craftpresence.placeholders.getFields.description,Retrieve the available field names for a class object,クラスオブジェクトの利用可能なフィールド名を取得します
+craftpresence.placeholders.getFields.usage,getFields(classObj=Object|String|Class),getFields(クラスオブジェクト=Object|String|Class)
+craftpresence.placeholders.getFirst.description,"Retrieve the first non-null string from the specified arguments, or return null",指定された引数から最初の非nullの文字列を取得するか、nullを返します
+craftpresence.placeholders.getFirst.usage,getFirst(args),getFirst(引数)
+craftpresence.placeholders.getJsonElement.description,"Retrieves the json element from the specified content, or null if unable",指定されたコンテンツからjsonエレメントを取得するか、取得できない場合はnullを返します
+craftpresence.placeholders.getJsonElement.usage,"getJsonElement(url|jsonString, path=Object...)","getJsonElement(URL|JSON文字列, パス=オブジェクト...)"
+craftpresence.placeholders.getMethods.description,Retrieve the available method names for a class object,クラスオブジェクトの利用可能なメソッド名を取得します
+craftpresence.placeholders.getMethods.usage,getMethods(classObj=Object|String|Class),getMethods(クラスオブジェクト=Object|String|Class)
+craftpresence.placeholders.getNamespace.description,Retrieve the namespace portion of an Identifier-Style Object,識別子スタイルオブジェクトの名前空間部分を取得します
+craftpresence.placeholders.getNamespace.usage,getNamespace(input),getNamespace(入力)
+craftpresence.placeholders.getNbt.description,Attempt to retrieve the NBT Tag with the specified path,指定されたパスでNBTタグを取得しようとします
+craftpresence.placeholders.getNbt.usage,"getNbt(data=Entity|ItemStack, path=String...)","getNbt(データ=エンティティ|ItemStack, パス=文字列...)"
+craftpresence.placeholders.getOrDefault.description,"Retrieve the primary value if non-empty; Otherwise, use the secondary value",プライマリ値が非空の場合、またはセカンダリ値を使用するかを取得します
+craftpresence.placeholders.getOrDefault.usage,"getOrDefault(target, alternative ?: '')","getOrDefault(ターゲット, 代替値 ?: '')"
+craftpresence.placeholders.getPath.description,Retrieve the path portion of an Identifier-Style Object,識別子スタイルオブジェクトのパス部分を取得します
+craftpresence.placeholders.getPath.usage,getPath(input),getパス(入力)
+craftpresence.placeholders.getResult.description,Perform recursive conversion on the specified input,指定された入力に対して再帰的な変換を実行します
+craftpresence.placeholders.getResult.usage,getResult(input),getResult(入力)
+craftpresence.placeholders.hasField.description,Retrieves whether the specified class contains the specified field name,指定されたクラスが指定されたフィールド名を含むかどうかを取得します
+craftpresence.placeholders.hasField.usage,"hasField(classObj=Object|String|Class, fieldName)","hasField(クラスオブジェクト=オブジェクト|文字列|Class, フィールド名)"
+craftpresence.placeholders.isColor.description,Determines whether an inputted String classifies as a valid Color Code,入力された文字列が有効な色コードとして分類されるかどうかを判定します
+craftpresence.placeholders.isColor.usage,isColor(input),isColor(入力)
+craftpresence.placeholders.isCustomAsset.description,Determines if the Specified Icon Key is present under the Custom Assets List,指定されたアイコンキーがカスタムアセットリストに存在するかどうかを判定します
+craftpresence.placeholders.isCustomAsset.usage,isCustomAsset(input),isCustomAsset(入力)
+craftpresence.placeholders.isUuid.description,Checks via Regex whether the specified String classifies as a valid Uuid,正規表現を使用して指定された文字列が有効なUuidとして分類されるかをチェックします
+craftpresence.placeholders.isUuid.usage,isUuid(input),isUuid(入力)
+craftpresence.placeholders.isValidAsset.description,Determines if the Specified Icon Key is present under the Current Client ID,指定されたアイコンキーが現在のクライアントIDに存在するかどうかを判定します
+craftpresence.placeholders.isValidAsset.usage,isValidAsset(input),isValidAsset(入力)
+craftpresence.placeholders.isValidId.description,Determines if the specified Client ID is valid,指定されたクライアントIDが有効かどうかを判定します
+craftpresence.placeholders.isValidId.usage,isValidId(input),isValidId(入力)
+craftpresence.placeholders.isWithinValue.description,Determines whether the specified value is within the specified range,指定された値が指定された範囲内にあるかどうかを判定します
+craftpresence.placeholders.isWithinValue.usage,"isWithinValue(value, min, max, contains_min ?: false, contains_max ?: false, check_sanity ?: true)","isWithin値(value, min, max, contains_min ?: false, contains_max ?: false, check_sanity ?: 有効)"
+craftpresence.placeholders.item.boots.message.description,Currently equipped boots message,現在装備されているブーツメッセージ
+craftpresence.placeholders.item.boots.name.description,Currently equipped boots name,現在装備されているブーツ名
+craftpresence.placeholders.item.chestplate.message.description,Currently equipped chestpiece message,現在装備されているチェストプレートメッセージ
+craftpresence.placeholders.item.chestplate.name.description,Currently equipped chestpiece name,現在装備されているチェストプレート名
+craftpresence.placeholders.item.helmet.message.description,Currently equipped helmet message,現在装備されているヘルメットメッセージ
+craftpresence.placeholders.item.helmet.name.description,Currently equipped helmet name,現在装備されているヘルメット名
+craftpresence.placeholders.item.leggings.message.description,Currently equipped leggings message,現在装備されているレッグスメッセージ
+craftpresence.placeholders.item.leggings.name.description,Currently equipped leggings name,現在装備されているレッグス名
+craftpresence.placeholders.item.main_hand.message.description,Current main hand item message,現在のメインハンドアイテムメッセージ
+craftpresence.placeholders.item.main_hand.name.description,Current main hand item name,現在のメインハンドアイテム名
+craftpresence.placeholders.item.message.default.description,"The default item display data, while applicable",デフォルトアイテム表示データ(該当する場合)
+craftpresence.placeholders.item.message.equipped.description,"The equipped item(s) display data, while applicable",装備アイテムの表示データ(該当する場合)
+craftpresence.placeholders.item.message.holding.description,"The held item(s) display data, while applicable",保持アイテムの表示データ(該当する場合)
+craftpresence.placeholders.item.off_hand.message.description,Current offhand item message,現在のオフハンドアイテムメッセージ
+craftpresence.placeholders.item.off_hand.name.description,Current offhand item name,現在のオフハンドアイテム名
+craftpresence.placeholders.length.description,Returns the length of the specified string,指定された文字列の長さを返します
+craftpresence.placeholders.length.usage,length(input),length(入力)
+craftpresence.placeholders.lerpDouble.description,Linearly Interpolate between the specified values,指定された値の間で線形補間します
+craftpresence.placeholders.lerpDouble.usage,"lerpDouble(num, min, max)","lerpDouble(数値, 最小, 最大)"
+craftpresence.placeholders.lerpFloat.description,Linearly Interpolate between the specified values,指定された値の間で線形補間します
+craftpresence.placeholders.lerpFloat.usage,"lerpFloat(num, min, max)","lerpFloat(数値, 最小, 最大)"
+craftpresence.placeholders.mcTranslate.description,"Translates an Unlocalized String, based on the game translations retrieved for the current language",現在の言語用に取得したゲーム翻訳に基づいて、ローカライズされていない文字列を翻訳します
+craftpresence.placeholders.mcTranslate.usage,"mcTranslate(input=String, args=Object...)","mcTranslate(入力=String, 引数=Object...)"
+craftpresence.placeholders.menu.icon.description,"The main menu's display icon, while applicable",メインメニューの表示アイコン(該当する場合)
+craftpresence.placeholders.menu.message.description,"The main menu's display data, while applicable",メインメニューの表示データ(該当する場合)
+craftpresence.placeholders.minify.description,Reduces the Length of a String to the Specified Length,文字列の長さを指定された長さに短縮します
+craftpresence.placeholders.minify.usage,"minify(input, length)","ミニfy(入力, 長さ)"
+craftpresence.placeholders.nullOrEmpty.description,Determines whether a String classifies as NULL or EMPTY,文字列がNULLまたはEMPTYに分類されるかどうかを判定します
+craftpresence.placeholders.nullOrEmpty.usage,"nullOrEmpty(input, allowWhitespace ?: false)","nullOrEmpty(入力, 空白許可 ?: false)"
+craftpresence.placeholders.pack.icon.description,The currently detected pack's icon,現在検出されたパックのアイコン
+craftpresence.placeholders.pack.name.description,The currently detected pack's name,現在検出されたパック名
+craftpresence.placeholders.pack.type.description,The currently detected pack's type,現在検出されたパックのタイプ
+craftpresence.placeholders.player.health.current.description,Your current in-game health,現在のゲーム内体力
+craftpresence.placeholders.player.health.max.description,Your current in-game maximum health,現在のゲーム内最大体力
+craftpresence.placeholders.player.icon.description,"Your player head icon, while applicable",プレイヤー頭アイコン(該当する場合)
+craftpresence.placeholders.player.name.description,Your username,あなたのユーザー名
+craftpresence.placeholders.player.position.x.description,Your current in-game X position,あなたの現在のゲーム内X座標
+craftpresence.placeholders.player.position.y.description,Your current in-game Y position,あなたの現在のゲーム内Y座標
+craftpresence.placeholders.player.position.z.description,Your current in-game Z position,あなたの現在のゲーム内Z座標
+craftpresence.placeholders.player.uuid.full.description,"Your UUID (Full Format, if valid UUID)",あなたのUUID(フル形式、有効なUUIDの場合)
+craftpresence.placeholders.player.uuid.short.description,Your UUID (Trimmed Format),あなたのUUID(トリミング形式)
+craftpresence.placeholders.randomAsset.description,Attempts to retrieve a Random Icon Key from the available assets,利用可能なアセットからランダムなアイコンキーを取得しようとします
+craftpresence.placeholders.randomString.description,"Retrieves a random element from the specified arguments, as a string",指定された引数からランダムな要素を文字列として取得します
+craftpresence.placeholders.randomString.usage,randomString(args),randomString(引数)
+craftpresence.placeholders.removeRepeatWords.description,Removes Duplicated Words within an inputted String,入力された文字列内の重複した単語を削除します
+craftpresence.placeholders.removeRepeatWords.usage,removeRepeatWords(input),removeRepeatWords(入力)
+craftpresence.placeholders.roundDouble.description,"Rounds a Double to the defined decimal place, if possible",Doubleを定義された小数点以下の位置に丸めます(可能な場合)
+craftpresence.placeholders.roundDouble.usage,"roundDouble(num, places ?: 0)","roundDouble(数値, 小数点以下 ?: 0)"
+craftpresence.placeholders.screen.default.icon.description,The default Gui Screen icon,デフォルトGUIスクリーンアイコン
+craftpresence.placeholders.screen.icon.description,The current Gui Screen icon,現在のGUIスクリーンアイコン
+craftpresence.placeholders.screen.message.description,"The current Gui Screen's display data, while applicable",現在のGUIスクリーンの表示データ(該当する場合)
+craftpresence.placeholders.screen.name.description,The current Gui Screen name,現在のGUIスクリーン名
+craftpresence.placeholders.server.address.full.description,(MP) The raw current server address,(MP) 生のサーバーアドレス
+craftpresence.placeholders.server.address.short.description,(MP) The formatted current server address,(MP) フォーマットされたサーバーアドレス
+craftpresence.placeholders.server.default.icon.description,The default server icon,デフォルトサーバーアイコン
+craftpresence.placeholders.server.icon.description,The current server icon,現在のサーバーアイコン
+craftpresence.placeholders.server.message.description,"The current server's display data, while in-game",現在のサーバーの表示データ(ゲーム内)
+craftpresence.placeholders.server.minigame.description,(Realm) The current realm minigame name,(Realm) 現在のレルムミニゲーム名
+craftpresence.placeholders.server.motd.raw.description,(MP) The current raw server motd,(MP) 現在の生のサーバーMotd
+craftpresence.placeholders.server.name.description,(MP) The current server name,(MP) 現在のサーバー名
+craftpresence.placeholders.server.players.current.description,The server's current player count,サーバーの現在のプレイヤー数
+craftpresence.placeholders.server.players.max.description,The server's maximum player count,サーバーの最大プレイヤー数
+craftpresence.placeholders.snapToStep.description,"Rounds the Specified Value to the nearest value, using the Step Rate Value",ステップレート値を使用して、指定された値を最も近い値に丸めます
+craftpresence.placeholders.snapToStep.usage,"snapToStep(num, valueStep)","snapToStep(数値, 値ステップ)"
+craftpresence.placeholders.split.description,Splits this string around matches of the given regular expression,指定された正規表現のマッチの周りでこの文字列を分割します
+craftpresence.placeholders.split.usage,"split(input, regex, limit ?: 0)","split(入力, 正規表現, 制限 ?: 0)"
+craftpresence.placeholders.stripAllFormatting.description,Strips Color and Formatting Codes from the inputted String,入力された文字列から色とフォーマットコードを削除します
+craftpresence.placeholders.stripAllFormatting.usage,stripAllFormatting(input),stripAllFormatting(入力)
+craftpresence.placeholders.stripColors.description,Strips Color Codes from the inputted String,入力された文字列から色コードを削除します
+craftpresence.placeholders.stripColors.usage,stripColors(input),stripColors(入力)
+craftpresence.placeholders.stripFormatting.description,Strips Formatting Codes from the inputted String,入力された文字列からフォーマットコードを削除します
+craftpresence.placeholders.stripFormatting.usage,stripFormatting(input),stripFormatting(入力)
+craftpresence.placeholders.timeFromEpochMilli.description,Retrieve a Time Instant from the specified epoch time,指定されたエポック時間から時刻インスタントを取得します
+craftpresence.placeholders.timeFromEpochMilli.usage,timeFromEpochMilli(epochMilli),timeFromEpochMilli(エポック(ミリ秒))
+craftpresence.placeholders.timeFromEpochSecond.description,Retrieve a Time Instant from the specified epoch time,指定されたエポック時間から時刻インスタントを取得します
+craftpresence.placeholders.timeFromEpochSecond.usage,timeFromEpochSecond(epochSecond),timeFromEpochSecond(エポック(秒))
+craftpresence.placeholders.timeFromString.description,Format a Date String from one timezone and format into a valid Instant instance,あるタイムゾーンと形式から日付文字列をフォーマットして、有効なInstantインスタンスに変換します
+craftpresence.placeholders.timeFromString.usage,"timeFromString(dateString, fromFormat, fromTimeZone ?: null)","timeFromString(日時文字列, 変換元形式, 変換元タイムゾーン ?: null)"
+craftpresence.placeholders.timeToEpochMilli.description,"Gets the number of milliseconds from the Java Epoch, derived from specified args",指定された引数から導出されたJavaエポックからのミリ秒数を取得します
+craftpresence.placeholders.timeToEpochMilli.usage,timeToEpochMilli(data),timeToEpochMilli(データ)
+craftpresence.placeholders.timeToEpochSecond.description,"Gets the number of seconds from the Java Epoch, derived from specified args",指定された引数から導出されたJavaエポックからの秒数を取得します
+craftpresence.placeholders.timeToEpochSecond.usage,timeToEpochSecond(data),timeToEpochSecond(データ)
+craftpresence.placeholders.timeToString.description,Format a Date String using the specified timezone and format.,指定されたタイムゾーンと形式を使用して日付文字列をフォーマットします
+craftpresence.placeholders.timeToString.usage,"timeToString(date, toFormat, toTimeZone ?: null)","timeToString(日時, 変換先形式, 変換先タイムゾーン ?: null)"
+craftpresence.placeholders.title,Available placeholders,利用可能なプレースホルダー
+craftpresence.placeholders.toCamelCase.description,Converts a String into a Valid and Acceptable Camel-Case Format,文字列を有効で受け入れ可能なキャメルケース形式に変換します
+craftpresence.placeholders.toCamelCase.usage,toCamelCase(input),toCamelCase(入力)
+craftpresence.placeholders.translate.description,"Translates an Unlocalized String, based on the mod translations retrieved for the current language",現在の言語用に取得したmod翻訳に基づいて、ローカライズされていない文字列を翻訳します
+craftpresence.placeholders.translate.usage,"translate(input=String, args=Object...)","translate(入力=String, 引数=Object...)"
+craftpresence.placeholders.world.difficulty.description,The current world's difficulty,現在のワールドの難易度
+craftpresence.placeholders.world.name.description,The name of the current world,現在のワールド名
+craftpresence.placeholders.world.time.day.description,The current world's in-game day count,現在のワールドのゲーム内日数カウント
+craftpresence.placeholders.world.time.format_12.description,The current world's in-game time (12-hour format),現在のワールドのゲーム内時刻(12時間形式)
+craftpresence.placeholders.world.time.format_24.description,The current world's in-game time (24-hour format),現在のワールドのゲーム内時刻(24時間形式)
+craftpresence.placeholders.world.weather.name.description,The current world's weather name,現在のワールドの天気名
+gui.config.comment.accessibility.language_id,The locale or language identifier to be used for translating this mod's strings,翻訳に使用するロケールまたは言語識別子 this modのstrings
+gui.config.comment.accessibility.strip_translation_colors,Allows CraftPresence to remove color codes from it's translations,クラフトプレゼンスが翻訳から色コードを削除できるようにします
+gui.config.comment.accessibility.strip_translation_formatting,Allows CraftPresence to remove formatting codes from it's translations,クラフトプレゼンスが翻訳からフォーマットコードを削除できるようにします
+gui.config.comment.advanced.debug_mode,"Toggles Developer Mode, showing debug features and enabling debug logging",開発者モードを切り替えます。デバッグ機能を表示し、有効化します デバッグ logging
+gui.config.comment.advanced.enable_class_graph,"Allows CraftPresence to utilize functions from ClassGraph, improving module auto-lookup results\n Note the following:\n - These functions can be memory-intensive, and not recommended unless needed\n - Triggers a full module re-scan once enabled if previously disabled","クラフトプレゼンスがClassGraphの機能を使用できるようにします,インプroving module auto-lookup results\n Notefollowing:\n - These functions can be memory-intensive, and not recommended unless needed\n - Triggers a full module re-scan once enabled if previously disabled"
+gui.config.comment.advanced.entity_riding_messages,Customize messages to display when riding an entity\n%1$s,エンティティに乗っているときに表示するメッセージをカスタマイズ\n%1$s
+gui.config.comment.advanced.entity_target_messages,Customize messages to display when pointing at an entity\n%1$s,エンティティを指しているときに表示するメッセージをカスタマイズ\n%1$s
+gui.config.comment.advanced.format_words,Toggles automatic capitalizing of words and general formatting with strings,単語の自動大文字化と文字列の一般的なフォーマットを切り替えます
+gui.config.comment.advanced.gui_messages,Customize messages to display with Guis\n%1$s,GUIで表示するメッセージをカスタマイズ\n%1$s
+gui.config.comment.advanced.item_messages,Customize messages to display with items\n%1$s,アイテムで表示するメッセージをカスタマイズ\n%1$s
+gui.config.comment.advanced.player_skin_endpoint,"The endpoint URL to use for retrieving player skins\n Notes:\n - This endpoint is used for Scroll List Previews and the ""player.icon"" placeholder, if not overriden","プレイヤースキンを取得するために使用するエンドポイントURL\n Notes:\n - This endpoint is used for ScrollリストPreviews and""player.icon"" placeholder, if not overriden"
+gui.config.comment.advanced.refresh_rate,"The time to take in between refreshing the Rich Presence display and modules, in seconds",リッチプレゼンス表示とモジュールの更新間隔(秒単位)
+gui.config.comment.advanced.verbose_mode,"Toggles Verbose Mode, showing more detailed logging as well as stack traces and deeper exception messages",詳細モードを切り替えます。より詳細なログ、スタックトレース、深い例外メッセージを表示します
+gui.config.comment.biome_messages.biome_icon,Biome icon to default to when in an unsupported or unknown biome,サポートされていない、または未知のバイオーム内でデフォルトするバイオームアイコン
+gui.config.comment.biome_messages.biome_messages,Customize messages to display with biomes\n%1$s,バイオームで表示するメッセージをカスタマイズ\n%1$s
+gui.config.comment.dimension_messages.dimension_icon,Dimension icon to default to when in an unsupported or unknown dimension,サポートされていない、または未知のディメンション内でデフォルトするディメンションアイコン
+gui.config.comment.dimension_messages.dimension_messages,Customize messages to display with dimensions\n%1$s,ディメンションで表示するメッセージをカスタマイズ\n%1$s
+gui.config.comment.display.dynamic_icons,"Customize dynamic images to display in the RPC\n Notes:\n - Any placeholder from other modules can be used (Globals, Biomes, Dimensions, etc)",リッチプレゼンスで表示する動的画像をカスタマイズ\n 注:\n - プレースホルダーなど、他のモジュールのプレースホルダーを使用できます
+gui.config.comment.display.dynamic_variables,"Customize dynamic placeholders to display in the RPC\n Notes:\n - Any placeholder from other modules can be used (Globals, Biomes, Dimensions, etc)\n - Can be defined via ""custom.<name>""","リッチプレゼンスで表示する動的プレースホルダーをカスタマイズ\n 注:\n - プレースホルダーなど、他のモジュールのプレースホルダーを使用できます\n - ""custom.<name>"" で定義できます"
+gui.config.comment.display_settings,"Customize the global Rich Presence Event, including dynamic data.",動的を含むグローバルリッチプレゼンスイベントをカスタマイズ data.
+gui.config.comment.general.client_id,"Client ID used for retrieving assets, icon keys, and titles",アセット、アイコンキー、タイトルの取得に使用されるクライアントID
+gui.config.comment.general.detect_atlauncher_instance,Enable detection for ATLauncher instance data?,ATLauncherインスタンスデータの検出を有効化?
+gui.config.comment.general.detect_biome_data,Enable detection of biome data?\n(Allows usage of Biome Messages and associated placeholders),Enable detectionのbiome data?\n(Allows usageのバイオームメッセージ and associated placeholders)
+gui.config.comment.general.detect_curse_manifest,Enable detection for Twitch/Curse manifest data?,Twitch/Curseマニフェストデータの検出を有効化?
+gui.config.comment.general.detect_dimension_data,Enable detection of dimension data?\n(Allows usage of Dimension Messages and associated placeholders),Enable detectionのdimension data?\n(Allows usageのディメンション メッセージ and associated placeholders)
+gui.config.comment.general.detect_mcupdater_instance,Enable detection for MCUpdater instance data?,MCUpdaterインスタンスデータの検出を有効にしますか?
+gui.config.comment.general.detect_modrinth_pack,Enable detection for Modrinth pack data?,Modrinthパックデータの検出を有効化?
+gui.config.comment.general.detect_multimc_manifest,Enable detection for MultiMC instance data?,MultiMCインスタンスデータの検出を有効化?
+gui.config.comment.general.detect_technic_pack,Enable detection for Technic pack data?,Technicパックデータの検出を有効化?
+gui.config.comment.general.detect_world_data,Enable detection of Server/SinglePlayer world data?\n(Allows usage of Server Messages and associated placeholders),Enable detectionのServer/SinglePlayer world data?\n(Allows usageのServer メッセージ and associated placeholders)
+gui.config.comment.general.enable_join_request,Allow sending/receiving join requests in Discord?,ディスコードでの参加リクエストの送受信を許可しますか?
+gui.config.comment.general.preferred_client,The preferred Discord Client Type to connect to\n(Will fallback to Any if a client of this type is not running),"接続するDiscordクライアントの優先タイプ
+(このタイプのクライアントが実行されていない場合は、任意にフォールバック)"
+gui.config.comment.server_messages.server_icon,Server icon to default to when in an unsupported server,サポートされていないサーバーの場合にデフォルトで使用するサーバーアイコン
+gui.config.comment.server_messages.server_messages,Customize messages to display with servers\n%1$s,サーバーで表示するメッセージをカスタマイズします\\n%1$s
+gui.config.comment.server_messages.server_name,"Server display name to default to, in the case of a null name\n(Also applies for direct connects)",サーバー表示名が null の場合にデフォルトで使用する名前\\n（直接接続時にも適用）
+gui.config.comment.status_messages.lan_message,Message to display while in a LAN game\n%1$s,LANゲーム中に表示されるメッセージ\\n%1$s
+gui.config.comment.status_messages.loading_message,Message to display while in a loading state\n(Between RPC initializing and the first refresh)\n%1$s,読み込み状態中に表示するメッセージ\\n(RPC初期化と最初のリフレッシュの間)\\n%1$s
+gui.config.comment.status_messages.main_menu_message,Message to display while on the main menu\n%1$s,メインメニュー上に表示するメッセージ\\n%1$s
+gui.config.comment.status_messages.realm_message,Message to display while in a realm\n%1$s,領域内で表示されるメッセージ\n%1$s
+gui.config.comment.status_messages.single_player_message,Message to display while in Singleplayer\n%1$s,シングルプレイヤー中に表示されるメッセージ\\n%1$s
+gui.config.comment.title,Current Version -> %1$s (Schema v%2$s),現在のバージョン -> %1$s (スキーマ v%2$s)
+gui.config.comment.title.accessibility,Customize accessibility settings of the mod\n Includes:\n - Language Id\n - Keybinds\n - Additional Gui customization options,Customize accessibility settingsのmod\n Includes:\n - 言語ID\n - Keybinds\n - AdditionalGUIcustomization options
+gui.config.comment.title.advanced,Customize additional settings of the mod,Modの追加設定をカスタマイズ
+gui.config.comment.title.general,General settings for display info,一般 settings for display info
+gui.config.comment.title.status_messages,Customize messages relating to different game states,異なるゲーム状態に関連するメッセージをカスタマイズ
+gui.config.message.button.about,About,概要
+gui.config.message.button.add.new,Add New,新規追加
+gui.config.message.button.back,Back,戻る
+gui.config.message.button.check_for_updates,Check for Updates,アップデートを確認
+gui.config.message.button.commands,Commands,コマンド
+gui.config.message.button.continue,Continue,続行
+gui.config.message.button.copy,Copy,コピー
+gui.config.message.button.download,Download,ダウンロード
+gui.config.message.button.refresh,Refresh,再読み込み
+gui.config.message.button.remove,Remove,削除
+gui.config.message.button.reset,Reset,リセット
+gui.config.message.button.reset_to_default,Reset To Default,デフォルトにリセット
+gui.config.message.button.save,Save,保存
+gui.config.message.button.sync.config,Sync Config,Sync 設定
+gui.config.message.button.version_info,Version Info,Version 情報
+gui.config.message.button.view_source,View Source,ソースを表示
+gui.config.message.button.wiki,Wiki,ウィキ
+gui.config.message.default.biome,Default Biome Message,デフォルト バイオームメッセージ
+gui.config.message.default.dimension,Default Dimension Message,デフォルト ディメンション メッセージ
+gui.config.message.default.server,Default Server Message,デフォルト サーバー メッセージ
+gui.config.message.editor.color.end,§lEnd Color,終了 色
+gui.config.message.editor.color.preview,§lPreview,プレビュー
+gui.config.message.editor.color.start,§lStart Color,開始 色
+gui.config.message.editor.color.sync_end_color,Sync End Color,終了色を同期
+gui.config.message.editor.color.tint_factor,Tint Factor,色合い係数
+gui.config.message.editor.color.value.alpha,Alpha Color Value,アルファ 色値
+gui.config.message.editor.color.value.blue,Blue Color Value,青 色値
+gui.config.message.editor.color.value.green,Green Color Value,緑 色値
+gui.config.message.editor.color.value.red,Red Color Value,赤 色値
+gui.config.message.editor.description,Description:,説明:
+gui.config.message.editor.enter_key,Enter Key...,キーを入力...
+gui.config.message.editor.hex_code,Hex Code:,16進コード:
+gui.config.message.editor.icon.change,Change Icon:,変更アイコン:
+gui.config.message.editor.label,Label:,ラベル:
+gui.config.message.editor.message,Message:,メッセージ:
+gui.config.message.editor.original,Original:,オリジナル:
+gui.config.message.editor.presence.activity_type,Activity Type,アクティビティタイプ
+gui.config.message.editor.presence.button_editor,Button Editor,ボタンエディター
+gui.config.message.editor.presence.details,Details:,詳細:
+gui.config.message.editor.presence.enabled,Enable Display,表示を有効化
+gui.config.message.editor.presence.end_timestamp,End Timestamp:,終了タイムスタンプ:
+gui.config.message.editor.presence.extra,§lExtras,追加機能
+gui.config.message.editor.presence.game_state,Game State:,ゲーム状態:
+gui.config.message.editor.presence.general,§lGeneral,一般
+gui.config.message.editor.presence.image.large,§lLarge Image,大 画像
+gui.config.message.editor.presence.image.small,§lSmall Image,小 画像
+gui.config.message.editor.presence.party_privacy,Party Privacy,パーティプライバシー
+gui.config.message.editor.presence.start_timestamp,Start Timestamp:,開始タイムスタンプ:
+gui.config.message.editor.presence.use_as_main,Use as Main Display,メインディスプレイとして使用
+gui.config.message.editor.preview,Preview:,プレビュー:
+gui.config.message.editor.search,Search:,検索:
+gui.config.message.editor.texture_path,Texture Path:,テクスチャパス:
+gui.config.message.editor.url,Url:,Url:
+gui.config.message.editor.usage,Usage:,使用:
+gui.config.message.editor.value.name,Value Name:,値 名前:
+gui.config.message.empty.list,This list is empty and cannot be displayed!\n\nPlease try again...,このリストは空で表示できません！\\n\\nもう一度お試しください…
+gui.config.message.endpoints,§lEndpoints,終了points
+gui.config.message.hover.access,"**Enable ""%1$s"" and save your config to use this menu**",**「%1$s」を有効にし、設定を保存してこのメニューを使用してください**
+gui.config.message.hover.empty.default,**Default info cannot be empty and must be valid**,**デフォルト情報は空にすることはできず、有効である必要があります**
+gui.config.message.hover.presence.activity_type,Activity Type\n(Changes the overall look and feel of the RPC),アクティビティタイプ\n(Changesoverall look and feelのリッチプレゼンス)
+gui.config.message.hover.presence.button.label,The label text to display for this button,このボタンに表示するラベルテキスト
+gui.config.message.hover.presence.button.url,The URL for the button to redirect to when clicked,クリック時にボタンがリダイレクトするURL
+gui.config.message.hover.presence.button_editor,Customize messages to display in the extra buttons in the RPC,リッチプレゼンスの追加ボタンに表示するメッセージをカスタマイズ
+gui.config.message.hover.presence.enabled,Whether this data should be interpreted,このデータを解釈するかどうか
+gui.config.message.hover.presence.use_as_main,"Whether to use this module as the main RPC data\n(If disabled, this data will only be used for replacing related message and icon placeholders)","このモジュールをメインRPCデータとして使用するかどうか
+(無効にすると、このデータは関連メッセージとアイコンプレースホルダーの置き換えにのみ使用されます)"
+gui.config.message.hover.presence_editor,Customize the format and location of messages in the Rich Presence.,Rich Presenceのメッセージ形式と位置をカスタマイズします。
+gui.config.message.null,This area is not implemented just yet!\n\nPlease check back later...,このエリアはまだ実装されていません！\\n\\n後ほどご確認ください…
+gui.config.message.presence.args.general,General message formatting arguments:\n%1$s,一般的なメッセージフォーマット引数:\\n%1$s
+gui.config.message.presence.args.icon,General icon formatting arguments:\n%1$s,一般的なアイコンフォーマット引数：\\n%1$s
+gui.config.message.tentative,"§4§lTentative Release (%1$s), functionality may change",仮リリース(%1$s)、機能は変更される可能性があります
+gui.config.message.version_difference,§6§lGame Version (%1$s) differs from compiled version (%2$s),§6ゲームバージョン(%1$s)がコンパイル済みバージョン(%2$s)と異なります
+gui.config.message.visualizer,§lVisualizer,ビジュアライザー
+gui.config.message.visualizer.toggle_party,Toggle Party,パーティを切り替え
+gui.config.name.accessibility.language_id,Language ID,言語ID
+gui.config.name.accessibility.strip_extra_gui_elements,Strip Extra Gui Elements,余分なGUI要素を削除
+gui.config.name.accessibility.strip_translation_colors,Strip Translation Colors,Strip Translation 色s
+gui.config.name.accessibility.strip_translation_formatting,Strip Translation Formatting,翻訳のフォーマットを削除
+gui.config.name.advanced.allow_duplicate_packets,Allow Duplicate Packets,重複パケットを許可
+gui.config.name.advanced.allow_endpoint_icons,Allow Endpoint Icons,を許可 エンドポイントアイコン
+gui.config.name.advanced.allow_placeholder_previews,Allow Placeholder Previews,を許可 プレースホルダープレビューs
+gui.config.name.advanced.debug_mode,Debug Mode,デバッグモード
+gui.config.name.advanced.enable_class_graph,Enable ClassGraph Functions,ClassGraph関数を有効化
+gui.config.name.advanced.enable_per_entity,Enable Per-Entity System,エンティティごとのシステムを有効化
+gui.config.name.advanced.enable_per_gui,Enable Per-Gui System,GUIごとのシステムを有効化
+gui.config.name.advanced.enable_per_item,Enable Per-Item System,アイテムごとのシステムを有効化
+gui.config.name.advanced.entity_riding_messages,Entity Riding Messages,エンティティ Riding メッセージ
+gui.config.name.advanced.entity_target_messages,Entity Target Messages,エンティティ Target メッセージ
+gui.config.name.advanced.format_words,Format Words,単語をフォーマット
+gui.config.name.advanced.gui_messages,Gui Messages,GUIメッセージ
+gui.config.name.advanced.item_messages,Item Messages,アイテム メッセージ
+gui.config.name.advanced.max_connection_attempts,Max Connection Attempts,最大接続試行回数
+gui.config.name.advanced.player_skin_endpoint,Player Skin Endpoint,Player Skin 終了point
+gui.config.name.advanced.refresh_rate,Refresh Rate,更新レート
+gui.config.name.advanced.server_icon_endpoint,Server Icon Endpoint,サーバー アイコン 終了point
+gui.config.name.advanced.verbose_mode,Verbose Mode,詳細モード
+gui.config.name.biome_messages.biome_icon,Default Biome Icon,Default Biome アイコン
+gui.config.name.biome_messages.biome_messages,Biome Messages,バイオームメッセージ
+gui.config.name.dimension_messages.dimension_icon,Default Dimension Icon,デフォルト ディメンション アイコン
+gui.config.name.dimension_messages.dimension_messages,Dimension Messages,ディメンション メッセージ
+gui.config.name.display.dynamic_icons,Dynamic Icons,ダイナミックアイコン
+gui.config.name.display.dynamic_variables,Dynamic Variables,動的変数
+gui.config.name.general.auto_register,Auto Register,自動登録
+gui.config.name.general.client_id,Client ID,クライアントID
+gui.config.name.general.default_icon,Default Icon,デフォルト アイコン
+gui.config.name.general.detect_atlauncher_instance,Detect ATLauncher Instance,ATLauncherインスタンスを検出
+gui.config.name.general.detect_biome_data,Detect Biome Data,バイオームデータを検出
+gui.config.name.general.detect_curse_manifest,Detect Curse Manifest,Curseマニフェストを検出
+gui.config.name.general.detect_dimension_data,Detect Dimension Data,ディメンションデータを検出
+gui.config.name.general.detect_mcupdater_instance,Detect MCUpdater Instance,MCUpdaterインスタンスを検出
+gui.config.name.general.detect_modrinth_pack,Detect Modrinth Pack,Modrinthパックを検出
+gui.config.name.general.detect_multimc_manifest,Detect MultiMC Instance,MultiMCインスタンスを検出
+gui.config.name.general.detect_technic_pack,Detect Technic Pack,Technicパックを検出
+gui.config.name.general.detect_world_data,Detect World Data,Detect ワールド Data
+gui.config.name.general.enable_join_request,Enable Join Requests,参加リクエストを有効にする
+gui.config.name.general.preferred_client,Preferred Client,優先クライアント
+gui.config.name.general.reset_time_on_init,Reset Time on Init,初期化時に時刻をリセット
+gui.config.name.server_messages.server_icon,Default Server Icon,デフォルト サーバー アイコン
+gui.config.name.server_messages.server_messages,Server Messages,サーバー メッセージ
+gui.config.name.server_messages.server_motd,Default Server Motd,デフォルトサーバーMotd
+gui.config.name.server_messages.server_name,Default Server Name,Default Server 名前
+gui.config.name.status_messages.lan_message,LAN Game Message,LAN ゲーム メッセージ
+gui.config.name.status_messages.loading_message,Loading Message,ローディングメッセージ
+gui.config.name.status_messages.main_menu_message,Main Menu Message,Main Menu メッセージ
+gui.config.name.status_messages.realm_message,Realm Message,レルムメッセージ
+gui.config.name.status_messages.single_player_message,Singleplayer Game Message,Singleplayer ゲーム メッセージ
+gui.config.title.about.config,About this Configuration Gui,About this 設定uration Gui
+gui.config.title.accessibility,Accessibility Settings,アクセシビリティ設定
+gui.config.title.advanced,Advanced Settings,詳細設定
+gui.config.title.biome.edit_specific_biome,CraftPresence - Edit Biome (%1$s),クラフトプレゼンス - バイオームを編集 (%1$s)
+gui.config.title.biome_messages,Customize Biome Messages,カスタマイズ バイオームメッセージ
+gui.config.title.commands,CraftPresence - Command Input,クラフトプレゼンス - コマンド入力
+gui.config.title.dimension.edit_specific_dimension,CraftPresence - Edit Dimension (%1$s),クラフトプレゼンス - ディメンションを編集 (%1$s)
+gui.config.title.dimension_messages,Customize Dimension Messages,カスタマイズ ディメンション メッセージ
+gui.config.title.display.edit_specific_button,CraftPresence - Edit Button (%1$s),クラフトプレゼンス - ボタンを編集 (%1$s)
+gui.config.title.display.edit_specific_icon,CraftPresence - Edit Icon (%1$s),クラフトプレゼンス - アイコンを編集 (%1$s)
+gui.config.title.display_settings,Display Settings,表示設定
+gui.config.title.editor.add.new,CraftPresence - Add New Value,クラフトプレゼンス - Add New 値
+gui.config.title.editor.add.new.prefilled,CraftPresence - Add New Value (%1$s),クラフトプレゼンス - 新しい値を追加 (%1$s)
+gui.config.title.editor.color,Color Editor,色 Editor
+gui.config.title.editor.presence,Presence Editor,Presence エディター
+gui.config.title.entity.edit_specific_entity,CraftPresence - Edit Entity (%1$s),クラフトプレゼンス - エンティティを編集 (%1$s)
+gui.config.title.general,General Settings,一般設定
+gui.config.title.gui.edit_specific_gui,CraftPresence - Edit Gui (%1$s),クラフトプレゼンス - Guiを編集 (%1$s)
+gui.config.title.item.edit_specific_item,CraftPresence - Edit Item (%1$s),クラフトプレゼンス - アイテムを編集 (%1$s)
+gui.config.title.selector.biome,CraftPresence - Select a Biome,クラフトプレゼンス - バイオームを選択
+gui.config.title.selector.button,CraftPresence - Select a Button,クラフトプレゼンス - ボタンを選択
+gui.config.title.selector.dimension,CraftPresence - Select a Dimension,クラフトプレゼンス - ディメンションを選択
+gui.config.title.selector.entity,CraftPresence - Select an Entity,クラフトプレゼンス - エンティティを選択
+gui.config.title.selector.extra,(%1$s Displayed; %2$s Total),(%1$s 表示; %2$s 合計)
+gui.config.title.selector.gui,CraftPresence - Select a Gui,クラフトプレゼンス - Guiを選択
+gui.config.title.selector.icon,CraftPresence - Select an Icon,クラフトプレゼンス - Select an アイコン
+gui.config.title.selector.item,CraftPresence - Select an Item,クラフトプレゼンス - アイテムを選択
+gui.config.title.selector.server,CraftPresence - Select Server Address,クラフトプレゼンス - サーバーアドレスを選択
+gui.config.title.selector.view.assets.all,CraftPresence - Discord Assets List,クラフトプレゼンス - ディスコードアセットリスト
+gui.config.title.selector.view.assets.custom,CraftPresence - Discord Custom Assets List,クラフトプレゼンス - ディスコードカスタムアセットリスト
+gui.config.title.selector.view.biomes,CraftPresence - Available Biomes,クラフトプレゼンス - 利用可能なバイオーム
+gui.config.title.selector.view.dimensions,CraftPresence - Available Dimensions,クラフトプレゼンス - 利用可能なディメンション
+gui.config.title.selector.view.entities,CraftPresence - Available Entities,クラフトプレゼンス - 利用可能なエンティティ
+gui.config.title.selector.view.guis,CraftPresence - Available Guis,クラフトプレゼンス - 利用可能なGui
+gui.config.title.selector.view.items,CraftPresence - Available Items,クラフトプレゼンス - 利用可能なアイテム
+gui.config.title.selector.view.servers,CraftPresence - Server Addresses,クラフトプレゼンス - サーバーアドレス
+gui.config.title.server.edit_specific_server,CraftPresence - Edit Server (%1$s),クラフトプレゼンス - サーバーを編集 (%1$s)
+gui.config.title.server_messages,Customize Server Messages,カスタマイズ Server メッセージ
+gui.config.title.status.edit_specific_status,CraftPresence - Edit Status (%1$s),クラフトプレゼンス - ステータスを編集 (%1$s)
+gui.config.title.status_messages,Customize Status Messages,カスタマイズ Status メッセージ
+key.craftpresence.category,CraftPresence - Controls,クラフトプレゼンス - コントロール
+key.craftpresence.config_keycode.description,The keybind to access the config screen,設定画面にアクセスするためのキーバインド
+key.craftpresence.config_keycode.name,Config Gui Keybind,設定Guiキーバインド
+gui.config.comment.advanced.use_class_loader,"Whether to use the local mod classloader for certain reflection functions, usable in creating RPC placeholders",特定のリフレクション機能でローカルModクラスローダーを使用するかどうか(リッチプレゼンス プレースホルダーの作成に使用可能)
+gui.config.comment.server_messages.ping_rate_interval,"The interval rate at which to ping the current server data, if any\n(Set to 0 or below to disable this feature)","現在のサーバーデータをpingする間隔レート（ある場合）
+(0以下に設定するとこの機能が無効になります)"
+gui.config.comment.server_messages.ping_rate_unit,"The Time Unit at which to ping the current server data, if any\n(Supported: seconds, minutes, hours, days)","現在のサーバーデータをpingする時間単位（ある場合）
+(サポート対象: 秒、分、時間、日)"
+gui.config.name.advanced.use_class_loader,Use Local ClassLoader,ローカルクラスローダーを使用
+gui.config.name.server_messages.ping_rate_interval,Ping Rate Interval,Ping間隔
+gui.config.name.server_messages.ping_rate_unit,Ping Rate Unit,Ping時間単位
+craftpresence.placeholders.player.mode.description,Your current game mode,現在のゲームモード
+craftpresence.placeholders.server.type.description,(Realm) The current realm world type,（レルム）現在のレルムワールドタイプ
+craftpresence.placeholders.world.type.description,The current world type,現在のワールドタイプ

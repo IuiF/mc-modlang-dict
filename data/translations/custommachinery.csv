@@ -1,0 +1,626 @@
+﻿key,source_text,target_text
+block.custommachinery.custom_machine_block,Some machine block,カスタム機械ブロック
+config.jade.plugin_custommachinery.machine_component_provider,Custom Machinery provider,カスタム Machinery プロバイダー
+custommachinery.box_creator.copy,Click to copy to clipboard,クリップボードにコピー
+custommachinery.box_creator.create_box,The selected box is : %s,選択されたボックス : %s
+custommachinery.box_creator.first_block,First Block : %s,最初のブロック: %s
+custommachinery.box_creator.reset,Click in the air while crouching to reset,スニークしながら空気をクリックしてリセット
+custommachinery.box_creator.second_block,Second Block : %s,2番目のブロック: %s
+custommachinery.box_creator.select_first_block,Select the first corner,ブロックを左クリックして最初のコーナーを選択
+custommachinery.box_creator.select_machine,Now select the machine block,機械ブロックをスニークして右クリックして完了
+custommachinery.box_creator.select_second_block,Now select the second corner,ブロックを右クリックして2番目のコーナーを選択
+custommachinery.command.edit.cant,Machine %s can't be edited as it's not loaded from a json file !,マシン %s はJSONファイルから読み込まれていないため編集できません！
+custommachinery.command.edit.missing,Can't edit machine %s as it doesn't exist !,%s のマシンは存在しないため編集できません！
+custommachinery.command.reload,Successfully reloaded custom machines !,カスタムマシンの再読み込みに成功！
+custommachinery.command.verify.error,Custom Machinery found %s errors !,カスタム機械が %s エラーを検出しました！
+custommachinery.command.verify.log,[log],[ログ]
+custommachinery.command.verify.log.tooltip,Open custommachinery.log,カスタムメカニズムのログを開く
+custommachinery.command.verify.success,Custom Machinery did not found any errors,Custom Machinery はエラーを検出しませんでした
+custommachinery.comparator.equals,equals to,等しい
+custommachinery.comparator.greater,greater than,より大きい
+custommachinery.comparator.greater_or_equals,greater or equals to,以上
+custommachinery.comparator.lesser,lesser than,より小さい
+custommachinery.comparator.lesser_or_equals,lesser or equals to,以下
+custommachinery.component.weather.clear,clear,晴れ
+custommachinery.component.weather.rain,rain,雨
+custommachinery.component.weather.snow,snow,雪
+custommachinery.component.weather.thunder,thunder,雷
+custommachinery.configuration.block_tag_cycle_time,Block tag cycle time,ブロックタグのサイクル時間
+custommachinery.configuration.box_render_time,Box render time,ボックスレンダリング時間
+custommachinery.configuration.debug_level,Debug log level,デバッグログレベル
+custommachinery.configuration.item_slot_cycle_time,Item slot cycle time,アイテムスロットのサイクル時間
+custommachinery.configuration.log_first_either_error,Log first either error,最初のエラーをログに出力
+custommachinery.configuration.log_legacy_folder_files,Log legacy folder files,レガシーフォルダファイルをログ
+custommachinery.configuration.log_missing_optional,Log missing optional properties,ログにオプションプロパティがありません
+custommachinery.configuration.logs,Logs,ログ
+custommachinery.configuration.misc,Misc,その他
+custommachinery.configuration.model_folders,Models folders,モデルフォルダ
+custommachinery.configuration.rendering,Rendering,レンダリング
+custommachinery.configuration.structure_render_time,Structure render time,構造描画時間
+custommachinery.configuration_card.cleared,Configuration cleared,設定がクリアされました
+custommachinery.configuration_card.configured,Configured to: %s,設定された: %s
+custommachinery.configuration_card.copied,Copied config from %s,設定を%sからコピーしました
+custommachinery.configuration_card.copy,Sneak and right click the machine block to copy configuration,マシンブロックをスニークしながら右クリックして設定をコピーしてください
+custommachinery.configuration_card.different_machine,This card is configured to a different machine,このカードは別のマシンに設定されています。
+custommachinery.configuration_card.paste,Right click the machine block to paste configuration,機械ブロックを右クリックして設定を貼り付けます。
+custommachinery.configuration_card.pasted,Pasted config to %s,配置された設定を %s にコピーしました
+custommachinery.configuration_card.reset,Right click in the air while crouching to reset,しゃがみながら空中で右クリックするとリセットします
+custommachinery.craftingstatus.default,Default,デフォルト
+custommachinery.craftingstatus.errored,Errored,エラー
+custommachinery.craftingstatus.idle,Idle,待機
+custommachinery.craftingstatus.running,Running,実行中
+custommachinery.damagesource.kill,%s was killed by a %s,%sは%sに殺された
+custommachinery.gui.config.all_none,Set all sides to none,すべての側面をなしに設定
+custommachinery.gui.config.auto_input,Auto Input,自動入力
+custommachinery.gui.config.auto_output,Auto Output,自動出力
+custommachinery.gui.config.close,Close,閉じる
+custommachinery.gui.config.component,I/O config,I/O設定
+custommachinery.gui.config.disabled,Disabled,無効
+custommachinery.gui.config.enabled,Enabled,有効
+custommachinery.gui.config.exit,Exit I/O config,I/O設定を終了
+custommachinery.gui.config.title,%s side config,%s側設定
+custommachinery.gui.config.tooltip,Click to config I/O,クリックしてI/Oを設定
+custommachinery.gui.creation.appearance.ambient_sound,Ambient sound,周囲の音
+custommachinery.gui.creation.appearance.ambient_sound.attenuation,Attenuation,減衰
+custommachinery.gui.creation.appearance.ambient_sound.delay,Delay,遅延
+custommachinery.gui.creation.appearance.ambient_sound.loop,Loop,ループ
+custommachinery.gui.creation.appearance.ambient_sound.play,Play/Stop,再生/停止
+custommachinery.gui.creation.appearance.ambient_sound.relative,Relative,相対
+custommachinery.gui.creation.appearance.ambient_sound.sound,Sound,サウンド
+custommachinery.gui.creation.appearance.ambient_sound.source,Source,ソース
+custommachinery.gui.creation.appearance.ambient_sound.tooltip,Open ambient sound configuration,周囲音の設定を開く
+custommachinery.gui.creation.appearance.block,Block,ブロック
+custommachinery.gui.creation.appearance.block.tooltip,Open block appearance configuration,ブロックの外観設定を開く
+custommachinery.gui.creation.appearance.color,Color,色
+custommachinery.gui.creation.appearance.color.tooltip,Set custom color as integer value,カスタムカラーを整数値として設定
+custommachinery.gui.creation.appearance.hardness,Hardness,硬度
+custommachinery.gui.creation.appearance.hardness.tooltip,"Higher values increase mining time
+-1 will make the block unbreakable",値が高いほど採掘時間が増加します
+custommachinery.gui.creation.appearance.interaction_sound,Interaction sound,相互作用音
+custommachinery.gui.creation.appearance.interaction_sound.break,Break sound,破壊音
+custommachinery.gui.creation.appearance.interaction_sound.fall,Fall sound,落下音
+custommachinery.gui.creation.appearance.interaction_sound.hit,Hit sound,ヒット音
+custommachinery.gui.creation.appearance.interaction_sound.pitch,Pitch,ピッチ
+custommachinery.gui.creation.appearance.interaction_sound.place,Place sound,置き換え音
+custommachinery.gui.creation.appearance.interaction_sound.step,Step sound,踏み音
+custommachinery.gui.creation.appearance.interaction_sound.tooltip,Open interaction sound configuration,インタラクション音設定を開く
+custommachinery.gui.creation.appearance.interaction_sound.volume,Volume,体積
+custommachinery.gui.creation.appearance.item,Item,アイテム
+custommachinery.gui.creation.appearance.item.tooltip,Open item appearance configuration,アイテム外観設定を開く
+custommachinery.gui.creation.appearance.keep_inventory,Keep inventory,インベントリを保持
+custommachinery.gui.creation.appearance.keep_inventory.tooltip,"If set, the machine will keep its inventory when broken",壊れたときにインベントリを保持する場合は有効にしてください
+custommachinery.gui.creation.appearance.light,Light,光
+custommachinery.gui.creation.appearance.light.tooltip,Light emitted by the machine,機械から放射される光
+custommachinery.gui.creation.appearance.mining_level,Mining level,採掘レベル
+custommachinery.gui.creation.appearance.requires_tool,Requires tool,ツールが必要
+custommachinery.gui.creation.appearance.requires_tool.tooltip,"If set, the machine will drop only when broken with the correct tool",設定されている場合、正しいツールで壊したときのみ機械がドロップします。
+custommachinery.gui.creation.appearance.reset.text,All properties for appearance %s will be reset to default values,%s の外観に関するすべてのプロパティがデフォルト値にリセットされます
+custommachinery.gui.creation.appearance.reset.title,Reset properties,プロパティをリセット
+custommachinery.gui.creation.appearance.reset.tooltip,Reset all properties for this appearance,この外観のすべてのプロパティをリセットします
+custommachinery.gui.creation.appearance.resistance,Resistance,耐性
+custommachinery.gui.creation.appearance.resistance.tooltip,Higher values increase explosion resistance,値が高いほど爆発耐性が上がります
+custommachinery.gui.creation.appearance.status.default,Properties applied for every machine status,すべてのマシン状態に適用されるプロパティ
+custommachinery.gui.creation.appearance.status.errored,Properties applied only when the machine is errored,機械がエラー状態のときのみ適用されるプロパティ
+custommachinery.gui.creation.appearance.status.idle,Properties applied only when the machine is idle,機械がアイドル状態の時のみプロパティが適用される
+custommachinery.gui.creation.appearance.status.paused,Properties applied only when the machine is paused,機械が停止時のみ適用されるプロパティ
+custommachinery.gui.creation.appearance.status.running,Properties applied only when the machine is running,機械が稼働中のときのみ適用されるプロパティ
+custommachinery.gui.creation.appearance.tool_type,Tool type,ツールタイプ
+custommachinery.gui.creation.base_info.cooldown,Cooldown : ,冷却時間: 
+custommachinery.gui.creation.base_info.cooldown.tooltip,The time (in ticks) between 2 recipe checks when the machine is idle,マシンがアイドル状態にある際、2つのレシピチェック間の時間（ティック単位）。
+custommachinery.gui.creation.base_info.cores,Cores : ,コア: 
+custommachinery.gui.creation.base_info.cores.tooltip,The amount of recipes than can be processed simultaneously by the machine,マシンが同時に処理できるレシピの数
+custommachinery.gui.creation.base_info.id,Machine id : ,マシンID:
+custommachinery.gui.creation.base_info.id.copied,Copied to clipboard,クリップボードにコピーしました
+custommachinery.gui.creation.base_info.id.tooltip,Click to copy id,IDをコピーするためクリック
+custommachinery.gui.creation.base_info.name,Machine name : ,マシン名：
+custommachinery.gui.creation.base_info.processor,Machine processor : ,マシンプロセッサ: 
+custommachinery.gui.creation.cant_delete,This machine is not loaded with datapacks and cannot be deleted,このマシンはデータパックでロードされていないため削除できません
+custommachinery.gui.creation.cant_edit,This machine is not loaded with datapacks and cannot be edited,このマシンはデータパックでロードされておらず、編集できません
+custommachinery.gui.creation.cant_open,This machine is not loaded with datapacks and cannot be opened,このマシンはデータパックでロードされておらず、開くことができません
+custommachinery.gui.creation.cant_open_server,Can't open machine file from server,サーバーからマシンファイルを開けません
+custommachinery.gui.creation.close,Close without saving,保存せずに閉じる
+custommachinery.gui.creation.components.capacity,Capacity,容量
+custommachinery.gui.creation.components.chunkload.radius,Radius,半径
+custommachinery.gui.creation.components.chunkload.title,Chunkload Component,チャンクロードコンポーネント
+custommachinery.gui.creation.components.config.color,Color,色
+custommachinery.gui.creation.components.config.color.tooltip,The color of the slot in I/O config mode,I/O設定モードにおけるスロットの色
+custommachinery.gui.creation.components.create.title,Choose a type,タイプを選択
+custommachinery.gui.creation.components.delete.info,Are you sure you want to delete this machine component ?,本当にこのマシンコンポーネントを削除しますか？
+custommachinery.gui.creation.components.delete.title,Delete component,コンポーネントを削除
+custommachinery.gui.creation.components.duplicate,Duplicate,複製
+custommachinery.gui.creation.components.duplicate.tooltip,Duplicate this component and increment id,このコンポーネントを複製して ID を増やしてください
+custommachinery.gui.creation.components.energy.title,Energy Component,エネルギーコンポーネント
+custommachinery.gui.creation.components.experience.capacity.tooltip,"The xp capacity of the component, in raw xp points
+Check MC wiki to convert xp levels and points",コンポーネントのXP容量（生XPポイント）
+custommachinery.gui.creation.components.experience.retrieve,Retrieve from slots,スロットから取得
+custommachinery.gui.creation.components.experience.retrieve.tooltip,"If set, the player will retrieve all the contained xp when taking an item from the machine's slots",設定されている場合、プレイヤーはマシンのスロットからアイテムを取得するときに含まれる XP をすべて回収します。
+custommachinery.gui.creation.components.experience.slots,Retrieve slots,スロットを復元
+custommachinery.gui.creation.components.experience.slots.tooltip,"Slots that will give the contained xp to the player when an item is taken out
+Each slot id must be separated by a comma ','","アイテムが取り出されると、含まれるXPをプレイヤーに与えるスロット
+スロットIDはコンマ ','で区切ってください"
+custommachinery.gui.creation.components.experience.title,Experience Component,経験値コンポーネント
+custommachinery.gui.creation.components.filter,Filter,フィルター
+custommachinery.gui.creation.components.filter.add,Add,追加
+custommachinery.gui.creation.components.filter.blacklist,Blacklist,ブラックリスト
+custommachinery.gui.creation.components.filter.remove,Click to remove,クリックして削除
+custommachinery.gui.creation.components.filter.single,Single,単一
+custommachinery.gui.creation.components.filter.tags,Tags,タグ
+custommachinery.gui.creation.components.filter.whitelist,Whitelist,ホワイトリスト
+custommachinery.gui.creation.components.fluid.title,Fluid Component,液体コンポーネント
+custommachinery.gui.creation.components.fluid.unique,Unique,ユニーク
+custommachinery.gui.creation.components.id,ID,ID
+custommachinery.gui.creation.components.id.tooltip,The id must be different for each components of the same type,同じタイプの各コンポーネントには異なる ID を割り当てる必要があります
+custommachinery.gui.creation.components.item.locked,Locked,ロック
+custommachinery.gui.creation.components.item.locked.tooltip,"If set the slot wont be interactable from the gui, only pipes/hoppers will be able to insert/extract items",設定されている場合、スロットはGUIから操作できず、パイプとホッパーのみがアイテムを挿入・取り出せます
+custommachinery.gui.creation.components.item.tanks,Tanks,タンク
+custommachinery.gui.creation.components.item.tanks.tooltip,"A list of fluid component ids, separated by comma (no whitespaces)
+Buckets placed in this item component will be drained/filled to/from these tanks
+If empty the fluid will be drained/filled to/from all machine tanks","液体コンポーネントIDのリスト（コンマ区切り、スペースなし）
+このアイテムコンポーネントに配置されたバケツは、これらのタンクからドレイン/充填されます
+空の場合、液体はすべてのマシンタンクからドレイン/充填されます"
+custommachinery.gui.creation.components.item.title,Item Component,アイテムコンポーネント
+custommachinery.gui.creation.components.maxInput,Max Input,最大入力
+custommachinery.gui.creation.components.maxOutput,Max Output,最大出力
+custommachinery.gui.creation.components.minInput,Min Input,最小入力
+custommachinery.gui.creation.components.minOutput,Min Output,最小出力
+custommachinery.gui.creation.components.mode,Mode,モード
+custommachinery.gui.creation.components.redstone.comparatorInputId,Comparator id,比較器ID
+custommachinery.gui.creation.components.redstone.comparatorInputType,Comparator type,コンパレータタイプ
+custommachinery.gui.creation.components.redstone.craftingPowerOutput,Running power output,走行時電力出力
+custommachinery.gui.creation.components.redstone.erroredPowerOutput,Errored power output,エラー発生時電力出力
+custommachinery.gui.creation.components.redstone.idlePowerOutput,Idle power output,待機時の出力
+custommachinery.gui.creation.components.redstone.pausedPowerOutput,Paused power output,一時停止した電力出力
+custommachinery.gui.creation.components.redstone.powerToPause,Power to pause,一時停止の能力
+custommachinery.gui.creation.components.redstone.title,Redstone Component,レッドストーンコンポーネント
+custommachinery.gui.creation.create,Create,作成
+custommachinery.gui.creation.delete,Delete,削除
+custommachinery.gui.creation.delete.popup,The following machine will be deleted forever,以下のマシンは永遠に削除されます
+custommachinery.gui.creation.edit,Edit,編集
+custommachinery.gui.creation.gui.add,Add new gui element,新しいGUI要素を追加
+custommachinery.gui.creation.gui.align.bottom,Align bottom,下端に整列
+custommachinery.gui.creation.gui.align.center,Align center,中央に整列
+custommachinery.gui.creation.gui.align.left,Align left,左揃え
+custommachinery.gui.creation.gui.align.middle,Align middle,中央に整列
+custommachinery.gui.creation.gui.align.right,Align right,右揃え
+custommachinery.gui.creation.gui.align.top,Align top,上に揃える
+custommachinery.gui.creation.gui.background,Edit background,背景編集
+custommachinery.gui.creation.gui.background.close,Close,閉じる
+custommachinery.gui.creation.gui.background.custom,Custom,カスタム
+custommachinery.gui.creation.gui.background.default,Default,デフォルト
+custommachinery.gui.creation.gui.background.disabled,No background,背景なし
+custommachinery.gui.creation.gui.background.height,Height,高さ
+custommachinery.gui.creation.gui.background.height.tooltip,"The height (in pixel) of the machine gui
+-1 means the gui will take the height of the background texture","マシンGUIの高さ（ピクセル単位）
+-1の場合、GUIは背景テクスチャーの高さになります"
+custommachinery.gui.creation.gui.background.mode,Mode,モード
+custommachinery.gui.creation.gui.background.show,Show background,背景表示
+custommachinery.gui.creation.gui.background.show.tooltip,"Show background in the editor, has no effect in the final machine gui",エディタで背景を表示します。最終的なマシンGUIには影響しません。
+custommachinery.gui.creation.gui.background.texture,Custom texture,カスタムテクスチャ
+custommachinery.gui.creation.gui.background.width,Width,幅
+custommachinery.gui.creation.gui.background.width.tooltip,"The width (in pixel) of the machine gui
+-1 means the gui will take the width of the background texture","マシンGUIの幅（ピクセル単位）
+-1の場合、GUIは背景テクスチャーの幅になります"
+custommachinery.gui.creation.gui.bar.max,Max,最大
+custommachinery.gui.creation.gui.bar.min,Min,最小
+custommachinery.gui.creation.gui.bar.orientation,Orientation,向き
+custommachinery.gui.creation.gui.button.hold_time,Hold time,保持時間
+custommachinery.gui.creation.gui.button.hold_time.tooltip,Time (in ticks) that the button will stay pressed when clicked,ボタンをクリックしたときに押し続ける時間（ティック単位）
+custommachinery.gui.creation.gui.button.item,Item,アイテム
+custommachinery.gui.creation.gui.button.text,Text,テキスト
+custommachinery.gui.creation.gui.button.texture_toggle,Texture toggled,テクスチャ切替
+custommachinery.gui.creation.gui.button.texture_toggle_hovered,Texture toggled hovered,テクスチャがホバー時に切り替わる
+custommachinery.gui.creation.gui.button.toggle,Toggle,切り替え
+custommachinery.gui.creation.gui.button.toggle.tooltip,"If set, the button will stay pressed until pressed again",設定すると、ボタンは再度押すまで押し続けられます
+custommachinery.gui.creation.gui.center.horizontally,Center horizontally,水平中央揃え
+custommachinery.gui.creation.gui.center.vertically,Center vertically,垂直方向に中央に配置
+custommachinery.gui.creation.gui.compact,Compact,コンパクト
+custommachinery.gui.creation.gui.config,Config,設定
+custommachinery.gui.creation.gui.copy,Copy,コピー
+custommachinery.gui.creation.gui.delete.popup,Are you sure you want to delete this gui element ?,このGUI要素を削除してもよろしいですか？
+custommachinery.gui.creation.gui.dump.components,Components,コンポーネント
+custommachinery.gui.creation.gui.dump.components.tooltip,"List of component types separated by a comma
+Example: custommachinery:energy,custommachinery:fluid",コンポーネントタイプをカンマで区切ったリスト
+custommachinery.gui.creation.gui.dump.tanks,Tanks,タンク
+custommachinery.gui.creation.gui.dump.tanks.tooltip,List of component ids separated by a comma,カンマで区切られたコンポーネントIDのリスト
+custommachinery.gui.creation.gui.edit,Edit element,要素編集
+custommachinery.gui.creation.gui.empty,Empty texture,テクスチャなし
+custommachinery.gui.creation.gui.experience.display_mode,Display mode,表示モード
+custommachinery.gui.creation.gui.experience.mode,Mode,モード
+custommachinery.gui.creation.gui.filled,Filled texture,埋め込まれたテクスチャ
+custommachinery.gui.creation.gui.grid,Edit grid,グリッド編集
+custommachinery.gui.creation.gui.grid.enable,Enable grid,グリッド有効化
+custommachinery.gui.creation.gui.grid.opacity,Opacity,透過度
+custommachinery.gui.creation.gui.grid.spacing.x,X spacing,X間隔
+custommachinery.gui.creation.gui.grid.spacing.y,Y spacing,Y間隔
+custommachinery.gui.creation.gui.height,height:,高さ:
+custommachinery.gui.creation.gui.highlight,Highlight,ハイライト
+custommachinery.gui.creation.gui.hints,Hint: %s,ヒント: %s
+custommachinery.gui.creation.gui.hints.1,Use keyboard arrows to move selected elements,選択された要素を移動するにはキーボードの矢印キーを使用してください
+custommachinery.gui.creation.gui.hints.2,Use Ctrl+Z to undo last change,Ctrl+Z を使って最後の変更を元に戻してください
+custommachinery.gui.creation.gui.hints.3,Press DEL to quickly delete selected elements,DELキーを押して選択された要素をすばやく削除します
+custommachinery.gui.creation.gui.hints.4,Don't forget to save your changes,変更を保存してください。
+custommachinery.gui.creation.gui.hints.5,Copy-pasting automatically increment id,コピー＆ペーストで自動的にIDを増加
+custommachinery.gui.creation.gui.id,ID,ID
+custommachinery.gui.creation.gui.id.description,Set an id for this element,この要素にIDを設定する
+custommachinery.gui.creation.gui.id.duplicate,Duplicate id: %s,IDの重複: %s
+custommachinery.gui.creation.gui.id.missing,Missing id,IDが欠落
+custommachinery.gui.creation.gui.mouse,"(%s,%s)","(%s,%s)"
+custommachinery.gui.creation.gui.paste,Paste,貼り付け
+custommachinery.gui.creation.gui.priority,Priority,優先度
+custommachinery.gui.creation.gui.priority.value,Priority: %s,優先度: %s
+custommachinery.gui.creation.gui.progress.core,Core,コア
+custommachinery.gui.creation.gui.progress.end,End,終了
+custommachinery.gui.creation.gui.progress.orientation,Orientation,向き
+custommachinery.gui.creation.gui.progress.start,Start,開始
+custommachinery.gui.creation.gui.revert,Revert last changes,最後の変更を元に戻す
+custommachinery.gui.creation.gui.revert.key,Ctrl+Z,幅:
+custommachinery.gui.creation.gui.slot.ghost,Ghost item,幽霊アイテム
+custommachinery.gui.creation.gui.slot.ghost.alwaysVisible,"true - The ghost item will always show
+false - The ghost item will show only if the slot is empty",true - ゴーストアイテムは常に表示されます
+custommachinery.gui.creation.gui.slot.ghost.transparency,Transparency: %s%,透過率: %s%
+custommachinery.gui.creation.gui.split.slots,Slots,スロット
+custommachinery.gui.creation.gui.split.slots.tooltip,"A list of slot ids, separated by a comma",スロットIDのリスト。カンマで区切る
+custommachinery.gui.creation.gui.status.core.tooltip,"0 to show status of the machine
+1 or more to show status of only a specific core",0 でマシンの状態を表示
+custommachinery.gui.creation.gui.status.errored,Errored texture,テクスチャエラー
+custommachinery.gui.creation.gui.status.idle,Idle texture,アイドルテクスチャ
+custommachinery.gui.creation.gui.status.running,Running texture,実行中のテクスチャ
+custommachinery.gui.creation.gui.text.alignment,Alignment,アライメント
+custommachinery.gui.creation.gui.text.default,Some text,一部のテキスト
+custommachinery.gui.creation.gui.text.jei,Show in JEI,JEIに表示
+custommachinery.gui.creation.gui.text.text,Text,テキスト
+custommachinery.gui.creation.gui.texture,Texture,テクスチャ
+custommachinery.gui.creation.gui.texture_hovered,Texture hovered,テクスチャをホバー中
+custommachinery.gui.creation.gui.toolbox,Toolbox,ツールボックス
+custommachinery.gui.creation.gui.width,width:,レシピ
+custommachinery.gui.creation.gui.x,x:,x:
+custommachinery.gui.creation.gui.y,y:,y:
+custommachinery.gui.creation.not_selected,Select a machine in the list above first,上記のリストから最初にマシンを選択してください
+custommachinery.gui.creation.open,Open,開く
+custommachinery.gui.creation.popup.close,Close,閉じる
+custommachinery.gui.creation.popup.create,Create new machine,新しい機械を作成
+custommachinery.gui.creation.popup.create.id.tooltip,"The id of the machine, will be the name of the json file
+Only [a-z0-9_.-] characters allowed",マシンのIDです。JSONファイル名になります。
+custommachinery.gui.creation.popup.create.loader.default,The machine json file will be created in the pack root folder,マシンの JSON ファイルはパックルートフォルダーに作成されます
+custommachinery.gui.creation.popup.create.loader.kubejs,The machine json file will be created in the KubeJS data folder,マシンのJSONファイルはKubeJSデータフォルダに作成されます
+custommachinery.gui.creation.popup.create.name.tooltip,The name of the machine,機械の名前
+custommachinery.gui.creation.popup.create.success,Machine created,マシンの作成
+custommachinery.gui.creation.popup.create.success.description,"Machine json file created in the pack root folder
+Move the file in a valid datapack location and use /reload","マシンのjsonファイルがパックのルートフォルダに作成されました
+ファイルを有効なデータパック位置に移動し、/reloadを使用してください"
+custommachinery.gui.creation.popup.error.duplicate,Another machine with this id exist,このIDの別のマシンが存在します。
+custommachinery.gui.creation.popup.error.id,Missing id,IDが欠落
+custommachinery.gui.creation.popup.error.invalid,Invalid id,無効なID
+custommachinery.gui.creation.popup.error.name,Missing name,名前がありません
+custommachinery.gui.creation.popup.quit,You're about to quit without saving your changes,変更を保存せずに終了します
+custommachinery.gui.creation.save.toast,Machine saved to file,マシンがファイルに保存されました
+custommachinery.gui.creation.tab.appearance,Appearance,外観
+custommachinery.gui.creation.tab.base_info,Base Info,基本情報
+custommachinery.gui.creation.tab.components,Components,コンポーネント
+custommachinery.gui.creation.tab.gui,Gui,Gui
+custommachinery.gui.creation.tab.tooltips,Tooltips,ツールチップ
+custommachinery.gui.creation.template.choose,Select template,テンプレートを選択
+custommachinery.gui.creation.template.empty,Empty,空
+custommachinery.gui.creation.template.tooltip,"A template for creation machine
+Empty will create a new machine without components or gui",作成機のテンプレート
+custommachinery.gui.creation.time.created,Created: %s,作成日時: %s
+custommachinery.gui.creation.time.modified,Modified: %s,修正済み: %s
+custommachinery.gui.creation.tooltips.result,See result:,結果を確認:
+custommachinery.gui.creation.tooltips.title,Enter tooltips here:,ツールチップをここに入力:
+custommachinery.gui.creation.upgrade.base_info.id,Upgrade id : ,アップグレードID:
+custommachinery.gui.creation.upgrade.base_info.item,Item : ,アイテム : 
+custommachinery.gui.creation.upgrade.base_info.max,Max upgrades : ,最大アップグレード数：
+custommachinery.gui.creation.upgrade.base_info.max.tooltip,Max amount of upgrades that can be put in a single machine,単一マシンに入れられる最大アップグレード数
+custommachinery.gui.creation.upgrade.cant_delete,This upgrade is not loaded with datapacks and cannot be deleted,このアップグレードはデータパックでロードされていないため削除できません
+custommachinery.gui.creation.upgrade.cant_edit,This upgrade is not loaded with datapacks and cannot be edited,このアップグレードはデータパックでロードされておらず、編集できません
+custommachinery.gui.creation.upgrade.cant_open,This upgrade is not loaded with datapacks and cannot be opened,このアップグレードはデータパックでロードされておらず、開くことができません
+custommachinery.gui.creation.upgrade.cant_open_server,Can't open machine file from server,サーバーからマシンファイルを開けません
+custommachinery.gui.creation.upgrade.machines.select,Click to select,クリックして選択
+custommachinery.gui.creation.upgrade.machines.title,Select machines,マシンを選択
+custommachinery.gui.creation.upgrade.machines.unselect,Click to unselect,クリックで選択解除
+custommachinery.gui.creation.upgrade.not_selected,Select an upgrade in the list above first,まず上のリストからアップグレードを選択してください
+custommachinery.gui.creation.upgrade.popup.create,Create new upgrade,新しいアップグレードを作成
+custommachinery.gui.creation.upgrade.popup.delete,The following upgrade will be deleted forever,以下のアップグレードは永久に削除されます
+custommachinery.gui.creation.upgrade.popup.duplicate,Another upgrade with this id exist,このIDの別のアップグレードが存在します。
+custommachinery.gui.creation.upgrade.popup.id.tooltip,"The id of the upgrade, will be the name of the json file
+Only [a-z0-9_.-] characters allowed",アップグレードのIDです。JSONファイル名になります。
+custommachinery.gui.creation.upgrade.popup.item,Choose an item,アイテムを選択
+custommachinery.gui.creation.upgrade.popup.success,Upgrade created,アップグレードの作成
+custommachinery.gui.creation.upgrade.popup.success.description,"Upgrade json file created in the pack root folder
+Move the file in a valid datapack location and use /reload","アップグレードのjsonファイルがパックのルートフォルダに作成されました
+ファイルを有効なデータパック位置に移動し、/reloadを使用してください"
+custommachinery.gui.creation.upgrade.save.toast,Upgrade saved to file,アップグレードがファイルに保存されました
+custommachinery.gui.creation.upgrade.tab.component_modifiers,Component,成分の
+custommachinery.gui.creation.upgrade.tab.core_modifier,Core,コア
+custommachinery.gui.creation.upgrade.tab.machines,Machines,機械
+custommachinery.gui.creation.upgrade.tab.recipe_modifiers,Recipe,レシピ
+custommachinery.gui.creation.wiki,Open wiki,wikiを開く
+custommachinery.gui.element.config.name,Config,設定
+custommachinery.gui.element.dump.name,Dump,ダンプ
+custommachinery.gui.element.dump.tooltip,All fluids will be lost,%sがすべて失われます
+custommachinery.gui.element.energy.tooltip,Energy: %sFE / %sFE,エネルギー: %s %s / %s %s
+custommachinery.gui.element.experience.input_all,Add all,すべて追加
+custommachinery.gui.element.experience.input_one,Add 1 Level,レベル+1
+custommachinery.gui.element.experience.input_ten,Add 10 Level,レベル+10
+custommachinery.gui.element.experience.name,Experience,経験値
+custommachinery.gui.element.experience.output_all,Extract all,すべて抽出
+custommachinery.gui.element.experience.output_one,Extract 1 Level,レベルを抽出
+custommachinery.gui.element.experience.output_ten,Extract 10 Level,10レベルを抽出
+custommachinery.gui.element.experience.tooltip,%s / %s,%s / %s
+custommachinery.gui.element.fluid.empty,Empty : %smB / %smB,空き : %smB / %smB
+custommachinery.gui.element.fluid.tooltip,: %smB / %smB,: %smB / %smB
+custommachinery.gui.element.fuel.tooltip,Burn Time: %s,燃焼時間: %s
+custommachinery.gui.element.reset.name,Reset,リセット
+custommachinery.gui.element.reset.tooltip,All already consumed inputs will be lost !,既に消費されたすべての入力は失われます！
+custommachinery.gui.popup.cancel,Cancel,キャンセル
+custommachinery.gui.popup.confirm,Confirm,確認
+custommachinery.gui.popup.style,Style,スタイル
+custommachinery.gui.popup.warning,Warning !,警告！
+custommachinery.jei.ingredient.chance,Chance: %s%%,確率: %s%%
+custommachinery.jei.ingredient.chance.0,Not consumed,消費されていません
+custommachinery.jei.ingredient.energy.input,Consume %s %s,%s %s を消費
+custommachinery.jei.ingredient.energy.output,Produce %s %s,%s %s を生成
+custommachinery.jei.ingredient.energy.pertick,Energy: %sFE per tick,エネルギー: %s %s/ティック
+custommachinery.jei.ingredient.energy.pertick.input,Consume %s %s @ %s %s/t,%s %sを消費 @ %s %s/t
+custommachinery.jei.ingredient.energy.pertick.output,Produce %s %s @ %s %s/t,%s %sを生成 @ %s %s/t
+custommachinery.jei.ingredient.fluid.pertick,Amount: %smB per tick,チックあたり
+custommachinery.jei.ingredient.fluid.specificTank,Must be inside this tank,このタンク内である必要があります
+custommachinery.jei.ingredient.fuel.amount,Burntime: %sticks,1チックあたり%s燃焼時間を消費
+custommachinery.jei.ingredient.fuel.burntime,Burntime: %s,燃焼時間: %s
+custommachinery.jei.ingredient.item.durability.consume,Consume %s durability,%s耐久値を消費します。
+custommachinery.jei.ingredient.item.durability.repair,Repair %s durability,%s耐久値を修復
+custommachinery.jei.ingredient.item.specificSlot,Must be in this slot,このスロット内である必要があります
+custommachinery.jei.ingredient.xp.input,Consume %s %s,%s %s を消費
+custommachinery.jei.ingredient.xp.level,Level(s): %s,レベル: %s
+custommachinery.jei.ingredient.xp.level.pertick,Level(s): %s per tick,%s レベル/タッピング
+custommachinery.jei.ingredient.xp.output,Produce %s %s,%s %s を生成
+custommachinery.jei.ingredient.xp.pertick.input,Consume %s %s @ %s %s/t,%s %sを消費 @ %s %s/t
+custommachinery.jei.ingredient.xp.pertick.output,Produce %s %s @ %s %s/t,%s %sを生成 @ %s %s/t
+custommachinery.jei.ingredient.xp.point,XP: %s,経験値: %s
+custommachinery.jei.ingredient.xp.point.pertick,XP: %s per tick,経験値: %s /タック
+custommachinery.jei.recipe.id,Recipe ID: %s,レシピID: %s
+custommachinery.jei.recipe.instant,Instant craft,即座クラフト
+custommachinery.jei.recipe.time,Duration: %sticks,期間: %sticks
+custommachinery.machine.component.chunkload,Chunkload,チャンク読み込み
+custommachinery.machine.component.energy,Energy,エネルギー
+custommachinery.machine.component.experience,Experience,経験値
+custommachinery.machine.component.fluid,Fluid,流体
+custommachinery.machine.component.item,Item,アイテム
+custommachinery.machine.component.item_energy,Item (energy handler),アイテム (エネルギー処理装置)
+custommachinery.machine.component.item_filter,Item (filter),アイテム（フィルター）
+custommachinery.machine.component.item_fluid,Item (fluid handler),アイテム（流体ハンドラー）
+custommachinery.machine.component.item_fuel,Item (fuel),アイテム（燃料）
+custommachinery.machine.component.item_result,Item (result),アイテム（結果）
+custommachinery.machine.component.item_upgrade,Item (upgrade),アイテム (アップグレード)
+custommachinery.machine.component.mode.both,Both,両方
+custommachinery.machine.component.mode.input,Input,入力
+custommachinery.machine.component.mode.none,None,なし
+custommachinery.machine.component.mode.output,Output,出力
+custommachinery.machine.component.redstone,Redstone,レッドストーン
+custommachinery.machine.guielement.bar,Bar,バール
+custommachinery.machine.guielement.button,Button,ボタン
+custommachinery.machine.guielement.config,Config,設定
+custommachinery.machine.guielement.dump,Dump,ダンプ
+custommachinery.machine.guielement.energy,Energy,エネルギー
+custommachinery.machine.guielement.experience,Experience,経験値
+custommachinery.machine.guielement.fluid,Fluid,流体
+custommachinery.machine.guielement.fuel,Fuel,燃料
+custommachinery.machine.guielement.player_inventory,Player inventory,プレイヤーのインベントリ
+custommachinery.machine.guielement.progress,Progress bar,進捗バー
+custommachinery.machine.guielement.reset,Reset,リセット
+custommachinery.machine.guielement.slot,Slot,スロット
+custommachinery.machine.guielement.split,Split button,分割ボタン
+custommachinery.machine.guielement.status,Status,状態
+custommachinery.machine.guielement.text,Text,テキスト
+custommachinery.machine.guielement.texture,Texture,テクスチャ
+custommachinery.machine.info.owner,Owned by %s,%s 所有
+custommachinery.machine.loader.datapack,Datapack,データパック
+custommachinery.machine.loader.datapack_zip,Datapack zip,データパック ZIP
+custommachinery.machine.loader.default,Default,デフォルト
+custommachinery.machine.loader.kubejs,KubeJS,非 %s
+custommachinery.machine.loader.kubejs_script,KubeJS script,KubeJSスクリプト
+custommachinery.machine_creator.tooltip,Right-click to open the machine editor,右クリックでマシン編集器を開きます
+custommachinery.requirement.mode.input,Input,入力
+custommachinery.requirement.mode.output,Output,出力
+custommachinery.requirements.block.all,ALL,すべて
+custommachinery.requirements.block.allowed,Can break:,破壊可能:
+custommachinery.requirements.block.break.error,Can't break %s block(s) in %s,%s内の%sブロックを破壊できません
+custommachinery.requirements.block.break.info.input,Break blocks on start,開始時にブロックを破壊
+custommachinery.requirements.block.break.info.output,Break blocks on end,終了時にブロックを破壊
+custommachinery.requirements.block.check.error,"This recipe need %s block(s) in %s, found %s",このレシピは%s内に%sブロックを必要とします、%s個見つかりました
+custommachinery.requirements.block.check.info,Require blocks during process,プロセス中にブロックを必要
+custommachinery.requirements.block.denied,Can't break:,破壊不可:
+custommachinery.requirements.block.destroy.info.input,Destroy blocks on start,開始時にブロックを破壊
+custommachinery.requirements.block.destroy.info.output,Destroy blocks on end,終了時にブロックを破壊
+custommachinery.requirements.block.info.box,Click to show nearby machines working area,クリックして近くの機械の作業エリアを表示
+custommachinery.requirements.block.none,NONE,なし
+custommachinery.requirements.block.place.error,Can't place %s %s in %s,%s内に%s %sを配置できません
+custommachinery.requirements.block.place.info.input,Place %s %s on start,開始時に%s %sを配置
+custommachinery.requirements.block.place.info.output,Place %s %s on end,終了時に%s %sを配置
+custommachinery.requirements.block.replace.info.input,Replace %s blocks by %s on start,開始時に%sブロックを%sで置き換え
+custommachinery.requirements.block.replace.info.output,Replace %s blocks by %s on end,終了時に%sブロックを%sで置き換え
+custommachinery.requirements.command.delay,Run %s at %s,%sで%sを実行
+custommachinery.requirements.command.info,Run %s on %s,%sで%sを実行
+custommachinery.requirements.drop.error.input,"Not enough drops around the machine, %s needed but %s found !",機械の周りにドロップが不足しています、%sが必要ですが%sが見つかりました！
+custommachinery.requirements.drop.error.output,Cannot drop %s,%sをドロップできません
+custommachinery.requirements.drop.info.blacklist,Denied items :,拒否されたアイテム：
+custommachinery.requirements.drop.info.check,Requires %s dropped item in a radius of %s blocks,%sブロックの半径内に%sのドロップされたアイテムを必要
+custommachinery.requirements.drop.info.consume,Consume %s dropped item in a radius of %s blocks,%sブロックの半径内に%sのドロップされたアイテムを消費
+custommachinery.requirements.drop.info.produce,Drop %s,%sをドロップ
+custommachinery.requirements.drop.info.whitelist,Accepted items :,受け入れられたアイテム：
+custommachinery.requirements.effect.info.end,Give %s %s for %s ticks in a radius of %s blocks on end,%s %s を %s タックで半径 %s ブロック内のエンドに与えます
+custommachinery.requirements.effect.info.tick,Give %s %s for %s ticks in a radius of %s blocks each tick,%s %s を %s タックで %s ブロック半径内の各タックに与える
+custommachinery.requirements.effect.info.whitelist,Entity Whitelist :,エンティティホワイトリスト：
+custommachinery.requirements.energy.error.input,"Not enough energy, %sFE needed but only %sFE found !",エネルギーが不足しています、%sFEが必要ですが、%sFEしかありません！
+custommachinery.requirements.energy.error.output,Not enough space for storing %sFE !,%sFEを保存するのに十分なスペースがありません！
+custommachinery.requirements.energypertick.error.input,"Not enough energy, %sFE needed but only %sFE found !",エネルギーが不足しています、%sFEが必要ですが、%sFEしかありません！
+custommachinery.requirements.energypertick.error.output,Not enough space for storing %sFE !,%sFEを保存するのに十分なスペースがありません！
+custommachinery.requirements.entity.amount.error,Not enough entities nearby !,近くにエンティティが不足しています！
+custommachinery.requirements.entity.blacklist,Entity blacklist:,エンティティブラックリスト:
+custommachinery.requirements.entity.check_amount.info,Requires %s entities in a %s blocks radius,%sブロックの半径内に%sのエンティティを必要
+custommachinery.requirements.entity.check_health.info,Requires %s entity HP in a %s blocks radius (not consumed),%sブロックの半径内に%sエンティティHPを必要(消費されません)
+custommachinery.requirements.entity.consume_health.info,Requires and consume %s entity HP in a %s blocks radius,%sブロックの半径内に%sエンティティHPを必要および消費
+custommachinery.requirements.entity.health.error,Can't collect %s health points with nearby entities !,近くのエンティティで%sヘルスポイントを集められません！
+custommachinery.requirements.entity.kill.info,Kill %s entities in %s blocks radius,%sブロックの半径内に%sのエンティティを倒す
+custommachinery.requirements.entity.whitelist,Entity whitelist:,エンティティホワイトリスト：
+custommachinery.requirements.fluid.error.input,"Not enough %s, %smB needed but %smB found !",%sが不足しています、%smB必要ですが%smB見つかりました！
+custommachinery.requirements.fluid.error.output,Not enough space for %smB of %s,%sの%smBのスペースが不足しています
+custommachinery.requirements.fluidpertick.error.input,"Not enough %s, %smB needed but %smB found !",%sが不足しています、%smB必要ですが%smB見つかりました！
+custommachinery.requirements.fluidpertick.error.output,Not enough space for %smB of %s,%sの%smBのスペースが不足しています
+custommachinery.requirements.fuel.error,This recipe require some fuel item,このレシピは燃料アイテムを必要とします
+custommachinery.requirements.fuel.info,Requires some burning fuel,燃焼する燃料を必要
+custommachinery.requirements.function.error,"Can't execute function requirement, check logs for errors !",関数実行要件を満たせません、ログでエラーを確認してください！
+custommachinery.requirements.function.interrupt,Stopped by KubeJS event,KubeJS イベントにより停止
+custommachinery.requirements.function.no_listener,Function requirement with id: %s has no associated KubeJS event,id: %s の関数要件に関連するKubeJSイベントがありません
+custommachinery.requirements.item.error.input,"Not enough %s, %s needed but %s found !",%sが不足しています、%s必要ですが%s見つかりました！
+custommachinery.requirements.item.error.output,Not enough space to store %s %s,%s %sを保存するのに十分なスペースがありません
+custommachinery.requirements.item_filter.error,Missing item in filter slot !,フィルタースロットにアイテムがありません！
+custommachinery.requirements.item_transform.error,"Not enough %s, %s needed !",%sが不足しています、%s必要です！
+custommachinery.requirements.light.block.error,This recipe need a block light value %s %s,ブロック光レベル必須: %s 見つかった: %s
+custommachinery.requirements.light.block.info,Need a block light level %s %s,ブロック光レベル必須: %s
+custommachinery.requirements.light.sky.error,This recipe need a sky light value %s %s,空光レベル必須: %s 見つかった: %s
+custommachinery.requirements.light.sky.info,Need a sky light level %s %s,空光レベル必須: %s
+custommachinery.requirements.position.error,This recipe cannot be processed at this location,このレシピはこの場所では処理できません
+custommachinery.requirements.position.info.biome.blacklist,Biome Blacklist :,バイオームブラックリスト：
+custommachinery.requirements.position.info.biome.whitelist,Biome Whitelist :,バイオームホワイトリスト：
+custommachinery.requirements.position.info.dimension.blacklist,Dimension Blacklist :,ディメンションブラックリスト：
+custommachinery.requirements.position.info.dimension.whitelist,Dimension Whitelist :,ディメンションホワイトリスト：
+custommachinery.requirements.position.info.pos,Pos :,座標：
+custommachinery.requirements.redstone.error,"Not enough redstone power, need at least: %s",無効なレッドストーン信号、必要: %s
+custommachinery.requirements.redstone.info,Need a redstone signal %s %s,レッドストーン信号必要: %s
+custommachinery.requirements.sky.error,Must see sky,空を見える必要があります
+custommachinery.requirements.structure.break,Will break structure,構造を破壊します
+custommachinery.requirements.structure.click,Click to view the required structure,クリックして必要な構造を表示
+custommachinery.requirements.structure.creative,(Creative) Shift-click to instabuild the structure on nearest machine,(クリエイティブ) 近くのマシンに構造をインスタビルドするには Shift-クリック
+custommachinery.requirements.structure.destroy,Will destroy structure,構造を破壊します
+custommachinery.requirements.structure.error,Invalid structure !,無効な構造！
+custommachinery.requirements.structure.info,Requires a structure,構造を必要
+custommachinery.requirements.structure.not,Not %s,非%s
+custommachinery.requirements.structure.or," or "," または "
+custommachinery.requirements.structure.place,Will place structure,構造物を配置します
+custommachinery.requirements.structure.shift,Press [Ctrl] to view blocks list,[Ctrl]を押してブロックリストを表示
+custommachinery.requirements.time.error,This recipe cannot be processed at this time of the day,このレシピは1日のこの時間では処理できません
+custommachinery.requirements.time.info,Time :,有効な時間範囲：
+custommachinery.requirements.weather.error,"This recipe cannot be processed with this weather, need: %s",このレシピはこの天気では処理できません、必要: %s
+custommachinery.requirements.weather.info,Require weather: %s,必要な天気: %s
+custommachinery.requirements.weather.info.sky,Require sky access,空へのアクセスが必要
+custommachinery.requirements.working_core.all_bad,No core process recipe %s !,コアプロセスレシピ %s がありません！
+custommachinery.requirements.working_core.all_idle,All cores are idle !,全てのコアがアイドル状態です！
+custommachinery.requirements.working_core.bad_core,Can't check working core: %s as the machine only has %s cores !,ワーキングコア %s をチェックできません。マシンには %s コアしかありません！
+custommachinery.requirements.working_core.bad_processor,Can't check working cores on machine with craft processor !,クラフトプロセッサー付きマシンではワーキングコアを確認できません！
+custommachinery.requirements.working_core.bad_recipe,Core %s process wrong recipe !,コア %s のプロセスでレシピが間違っています！
+custommachinery.requirements.working_core.idle,Core %s is idle !,コア %s は待機中です！
+custommachinery.requirements.xp.level.error.input,"Not enough level(s), %s needed but only %s found !",レベルが不足しています、%s 必要ですが %s しか見つかりません！
+custommachinery.requirements.xp.level.error.output,Not enough space for storing %s level(s) !,%sレベルを保存するスペースが足りません！
+custommachinery.requirements.xp.point.error.input,"Not enough xp, %s needed but only %s found !",経験値が足りません、%s 必要ですが %s しか見つかりませんでした！
+custommachinery.requirements.xp.point.error.output,Not enough space for storing %sXP !,%sXP を保存するためのスペースが不足しています！
+custommachinery.requirements.xppertick.level.error.input,"Not enough level(s), %s needed but only %s found !",レベルが不足しています、%s 必要ですが %s しか見つかりません！
+custommachinery.requirements.xppertick.level.error.output,Not enough space for storing %s level(s) !,%sレベルを保存するスペースが足りません！
+custommachinery.requirements.xppertick.point.error.input,"Not enough xp, %s needed but only %s found !",経験値が足りません、%s 必要ですが %s しか見つかりませんでした！
+custommachinery.requirements.xppertick.point.error.output,Not enough space for storing %sXP !,%sXP を保存するためのスペースが不足しています！
+custommachinery.side.back,Back,戻る
+custommachinery.side.both,Input/Output,入力/出力
+custommachinery.side.bottom,Bottom,下
+custommachinery.side.disabled,Disabled,無効
+custommachinery.side.enabled,Enabled,有効
+custommachinery.side.front,Front,前
+custommachinery.side.input,Input,入力
+custommachinery.side.left,Left,左
+custommachinery.side.none,None,なし
+custommachinery.side.output,Output,出力
+custommachinery.side.right,Right,右
+custommachinery.side.top,Top,上
+custommachinery.structure_creator.amount,%s blocks selected,%sブロックが選択されました
+custommachinery.structure_creator.message,"Structure generated, click to copy : %s %s %s %s",構造が生成されました、クリックしてコピー : %s %s %s %s
+custommachinery.structure_creator.no_blocks,No blocks are selected,ブロックが選択されていません
+custommachinery.structure_creator.reset,Sneak + right click to reset,スニークしながら空気をクリックしてリセット
+custommachinery.structure_creator.select,Right click a block to add or remove it,ブロックを右クリックして追加または削除
+custommachinery.upgrade.tooltip,(Shift) Custom Machine Upgrade,(シフト) カスタム機械アップグレード
+item.custommachinery.box_creator,Box Creator,ボックス作成者
+item.custommachinery.configuration_card,Configuration Card,設定カード
+item.custommachinery.machine_creator,Machine Creator,マシン作成者
+item.custommachinery.structure_creator,Structure Creator,構造クリエーター
+itemGroup.custommachinery.group,Custom Machinery,カスタム機械
+requirement.custommachinery.biome,Biome,バイオーム
+requirement.custommachinery.block,Block,ブロック
+requirement.custommachinery.command,Command,コマンド
+requirement.custommachinery.dimension,Dimension,ディメンション
+requirement.custommachinery.drop,Drop,ドロップ
+requirement.custommachinery.durability,Durability,耐久値
+requirement.custommachinery.effect,Effect,効果
+requirement.custommachinery.energy,Energy,エネルギー
+requirement.custommachinery.energy_per_tick,Energy per tick,チックあたりのエネルギー
+requirement.custommachinery.entity,Entity,エンティティ
+requirement.custommachinery.fluid,Fluid,流体
+requirement.custommachinery.fluid_per_tick,Fluid per tick,チックあたりの流体
+requirement.custommachinery.fuel,Fuel,燃料
+requirement.custommachinery.item,Item,アイテム
+requirement.custommachinery.light,Light,光
+requirement.custommachinery.loot_table,Loot table,ルートテーブル
+requirement.custommachinery.position,Position,位置
+requirement.custommachinery.redstone,Redstone,レッドストーン
+requirement.custommachinery.speed,Recipe duration,レシピ期間
+requirement.custommachinery.structure,Structure,構造
+requirement.custommachinery.time,Time,時間
+requirement.custommachinery.weather,Weather,天候
+unit.energy.fabric,E,E
+unit.energy.forge,FE,FE
+custommachinery.craftingstatus.paused,Paused via redstone,レッドストーンで一時停止中
+custommachinery.gui.baseinfo.id,ID:,ID:
+custommachinery.gui.baseinfo.name,Name:,名前:
+custommachinery.gui.baseinfo.namespace,NameSpace:,ネームスペース：
+custommachinery.gui.baseinfo.packname,Datapack:,データパック：
+custommachinery.gui.component.buildertypewidget,Click to circle available Components,利用可能なコンポーネントをサイクルするにはクリック
+custommachinery.gui.component.empty,Use these buttons to add some Components ->,これらのボタンを使用してコンポーネントを追加してください->
+custommachinery.gui.component.select,Select a Component to edit,編集するコンポーネントを選択
+custommachinery.gui.creation.cantdelete,This Custom Machine is not loaded with datapacks and cannot be deleted,このカスタム機械はデータパックでロードされていないため、削除できません
+custommachinery.gui.creation.cantsave,This Custom Machine is not loaded with datapacks and cannot be edited,このカスタムマシンはデータパックでロードされておらず、編集できません
+custommachinery.gui.creation.nomachine,No selected Machine,機械が選択されていません
+custommachinery.gui.creation.save,Save,保存
+custommachinery.gui.machineappearance.appearance,Appearance,外観
+custommachinery.gui.machineappearance.type.block,Block,ブロック
+custommachinery.gui.machineappearance.type.blockstate,BlockState,ブロック状態
+custommachinery.gui.machineappearance.type.default,Default,デフォルト
+custommachinery.gui.machineappearance.type.model,Model,モデル
+custommachinery.gui.machinecreation.appearance,Machine Appearance,機械の外観
+custommachinery.gui.machinecreation.baseinfos,Base Machine Infos,基本機械情報
+custommachinery.gui.machinecreation.components,Machine Components,機械コンポーネント
+custommachinery.gui.machinecreation.gui,Machine GUI,機械GUI
+custommachinery.jei.ingredient.energy,Energy: %sFE,エネルギー: %s %s
+custommachinery.machine_creator.warning,Warning : This is heavily WIP and can break your machines. Use it at your own risk and often backup your machine json,無効化、JSONファイルを使用して機械を作成してください
+custommachinery.requirements.durability.error.input,"Not enough durability in %s, %s needed but %s found !",%sの耐久性が不足しています、%sが必要ですが%sが見つかりました！
+custommachinery.requirements.durability.error.output,"Can't repair %s, trying to repair %s durability but only %s missing !",%sを修復できません、%s耐久性を修復しようとしていますが、%sが不足しています！
+custommachinery.requirements.structure.list,"   %sx %s",%sx %s
+item.custommachinery.box_creator_item,Box Creator,ボックス作成者
+item.custommachinery.machine_creator_item,Machine Creator,マシン作成者
+text.autoconfig.custommachinery.category.Logs,Logs,ログ
+text.autoconfig.custommachinery.category.Misc,Misc,その他
+text.autoconfig.custommachinery.category.Rendering,Rendering,レンダリング
+text.autoconfig.custommachinery.option.blockTagCycleTime,Block tag cycle time,ブロックタグのサイクル時間
+text.autoconfig.custommachinery.option.boxRenderTime,Box render time,ボックスレンダリング時間
+text.autoconfig.custommachinery.option.debugLevel,Debug log level,デバッグログレベル
+text.autoconfig.custommachinery.option.itemSlotCycleTime,Item slot cycle time,アイテムスロットのサイクル時間
+text.autoconfig.custommachinery.option.logFirstEitherError,Log first either error,最初のエラーをログに出力
+text.autoconfig.custommachinery.option.logMissingOptional,Log missing optional properties,ログにオプションプロパティがありません
+text.autoconfig.custommachinery.option.modelFolders,Models folders,モデルフォルダ
+text.autoconfig.custommachinery.option.needAdvancedInfoForRecipeID,Need advanced info for recipe ID,レシピIDに高度な情報が必要
+text.autoconfig.custommachinery.option.structureRenderTime,Structure render time,構造描画時間
+custommachinery.gui.creation.cantedit,This Custom Machine is not loaded with datapacks and cannot be edited,このカスタムマシンはデータパックでロードされておらず、編集できません
+custommachinery.gui.creation.cantopen,This Custom Machine is not loaded with datapacks and cannot be opened,このカスタムマシンはデータパックでロードされていないため開くことができません。
+custommachinery.gui.creation.cantopenserver,Can't open machine file from server,サーバーからマシンファイルを開けません
+custommachinery.gui.creation.gui.tips,Tip: %s,ヒント: %s
+custommachinery.gui.creation.gui.tips.1,Use keyboard arrows to move selected elements,選択された要素を移動するにはキーボードの矢印キーを使用してください
+custommachinery.gui.creation.gui.tips.2,Use Ctrl+Z to undo last change,Ctrl+Z を使って最後の変更を元に戻してください
+custommachinery.gui.creation.gui.tips.3,Press DEL to quickly delete selected elements,DELキーを押して選択された要素をすばやく削除します
+custommachinery.gui.creation.gui.tips.4,Don't forget to save your changes,変更を保存してください。
+custommachinery.gui.creation.gui.tips.5,Copy-pasting automatically increment id,コピー＆ペーストで自動的にIDを増加
+custommachinery.gui.creation.notselected,Select a machine in the list above first,上記のリストから最初にマシンを選択してください
+custommachinery.gui.machineloading.cantdelete,This Custom Machine is not loaded with datapacks and cannot be deleted,このカスタム機械はデータパックでロードされていないため、削除できません
+custommachinery.gui.machineloading.cantsave,This Custom Machine is not loaded with datapacks and cannot be edited,このカスタムマシンはデータパックでロードされておらず、編集できません
+custommachinery.gui.machineloading.create,Create,作成
+custommachinery.gui.machineloading.delete,Delete,削除
+custommachinery.gui.machineloading.nomachine,No selected Machine,機械が選択されていません
+custommachinery.gui.machineloading.save,Save,保存
+custommachinery.jei.ingredient.fluid,Amount: %smB,量: %smB
+custommachinery.jei.ingredient.fuel.tooltip,Any fuel item,任意の燃料アイテム
+itemGroup.custommachinery,Custom Machinery,カスタム機械

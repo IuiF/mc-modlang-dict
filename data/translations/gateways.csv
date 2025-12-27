@@ -1,0 +1,106 @@
+﻿key,source_text,target_text
+appmode.gateways.after_every_n_waves,Applies every %s waves. Max %s applications.,%sウェーブごとに適用。最大%s回適用。
+appmode.gateways.after_wave,Applied on wave %s.,ウェーブ%sで適用。
+appmode.gateways.only_on_every_n_waves,Applied only on every %s waves.,%sウェーブごとにのみ適用。
+appmode.gateways.only_on_wave,Applied only on wave %s.,ウェーブ%sでのみ適用。
+boss.gateways.done,Gate Completed!,ゲートクリア！
+boss.gateways.endless.bot,Enemies: %d/%d | Modifiers Active: %d,敵: %d/%d | 有効なモディファイア: %d
+boss.gateways.endless.incoming,Enemies Incoming: %d,敵が接近中: %d
+boss.gateways.endless.top,Wave: %d/%d | Time Remaining: %d,ウェーブ: %d/%d | 残り時間: %d
+boss.gateways.starting,Wave %d starting in %s,ウェーブ%dが%s後に開始
+boss.gateways.wave,Wave: %d/%d | Time: %s | Enemies: %d,ウェーブ: %d/%d | 時間: %s | 敵: %d
+entity.gateways.gateway,Gateway to Eternity,永遠への門
+error.gateways.entity_discarded,The Gateway imploded because an entity was removed without being killed,エンティティが殺されずに消去されたため、ゲートが崩壊しました
+error.gateways.no_nearby_player,The Gateway imploded because there was no player nearby,ゲートウェイが爆発しました。近くにプレイヤーがいませんでした
+error.gateways.no_space,There's not enough space to open this Gateway,このゲートを開くのに十分なスペースがありません
+error.gateways.out_of_lives,The Gateway imploded because you ran out of lives,ゲートウェイが崩壊しました。ライフが尽きたためです
+error.gateways.too_far,The Gateway imploded because a wave entity ran too far away,ウェーブのエンティティが遠くに離れすぎたため、ゲートが崩壊しました
+error.gateways.wave_elapsed,Wave Timer Expired,ウェーブタイマー終了
+error.gateways.wave_failed,The Gateway imploded because there was not enough space to spawn the next wave,次のウェーブをスポーンさせるスペースが不足したため、ゲートが崩壊しました
+failure.gateways.chance,%s Chance of %s,%sの確率で%s
+failure.gateways.explosion,Explosion of Radius %s,半径%sの爆発
+failure.gateways.mob_effect,%s,%s
+failure.gateways.summon,Summons %s,%sを召喚
+gateways.basic/blaze,Blaze Gateway,ブレイズゲート
+gateways.basic/enderman,Enderman Gateway,エンダーマンゲート
+gateways.basic/slime,Slime Gateway,スライムゲート
+gateways.emerald_grove,Gateway of the Emerald Grove,エメラルドの森のゲート
+gateways.endless/blaze,Endless Blaze Gateway,エンドレスブレイズゲート
+gateways.gate_pearl,Gate Pearl - %s,ゲートパール - %s
+gateways.hellish_fortress,Gateway of the Hellish Fortress,地獄の要塞のゲート
+gateways.overworldian_nights,Gateway of Overworldian Nights,オーバーワールドの夜のゲート
+info.gateways.gate_pearl,"A Gate Pearl allows you to summon a Gateway by using it on a block.
+
+It can only be used when the new Gateway would not be too close to another Gateway, based on the current spacing.
+","ゲートパールはブロックに使用することでゲートを召喚できます。
+
+現在の間隔設定に基づき、他のゲートに近すぎない場所でのみ使用できます。"
+info.gateways.gate_pearl.2,"An open Gateway will fail in a burst of lightning if it cannot spawn a mob, any active mob walks too far away, or the wave timer elapses.
+
+Rewards will spawn from the Gateway as they are obtained.","開いているゲートは、モブをスポーンできない場合、アクティブなモブが遠くに離れた場合、またはウェーブタイマーが終了した場合に雷と共に失敗します。
+
+報酬は獲得時にゲートからスポーンします。"
+item.gateways.gate_pearl,Gate Pearl,ゲートパール
+itemGroup.gateways,Gateways to Eternity,永遠へのゲートウェイ
+modifier.gateways.gear_set,Equipped With %s,%sを装備
+name.gateways.acidic_slime,Acidic Slime,アシッドスライム
+name.gateways.butcher,Butcher,肉屋
+name.gateways.flaming_enderman,Flaming Enderman,燃えるエンダーマン
+name.gateways.huge_slime,Huge Slime,巨大スライム
+name.gateways.magicbane_slime,Magicbane Slime,マジックベインスライム
+name.gateways.necrotic_farmer,Necrotic Farmer,ネクロ農夫
+name.gateways.undead_legionnaire,Undead Legionnaire,アンデッドレギオン
+name.gateways.withered_ranger,Withered Ranger,ウィザードレンジャー
+reward.gateways.chance,%s Chance of %s,%sの確率で%s
+reward.gateways.entity,%s %s Loot Rolls,%s %sのルートロール
+reward.gateways.experience,%s Experience,%s経験値
+reward.gateways.loot_table,%s %s Rolls,%s %sロール
+reward.gateways.stack,%s %s,%s %s
+reward.gateways.summon,Summons %s,%sを召喚
+rewards.gateways.loot_table.nether_bridge,Nether Fortress Loot,ネザー要塞の戦利品
+rewards.gateways.loot_table.simple_dungeon,Dungeon Loot,ダンジョンの戦利品
+rule.gateways.allow_dim_change,Allow Changing Dimensions: %s,ディメンション変更を許可: %s
+rule.gateways.allow_discarding,Allow Discarding: %s,破棄を許可: %s
+rule.gateways.default,[was %s],[元は%s]
+rule.gateways.fail_on_out_of_bounds,Fail on Out of Bounds: %s,範囲外で失敗: %s
+rule.gateways.leash_range,Leash Range: %s,リーシュ範囲: %s
+rule.gateways.lives,Lives: %s,ライフ: %s
+rule.gateways.player_damage_only,Player Damage Only: %s,プレイヤーダメージのみ: %s
+rule.gateways.remove_mobs_on_failure,Remove Mobs on Failure: %s,失敗時にモブを削除: %s
+rule.gateways.requires_nearby_player,Requires Nearby Player: %s,近くにプレイヤーが必要: %s
+rule.gateways.spacing,Spacing: %s,間隔: %s
+rule.gateways.spawn_range,Spawn Range: %s,スポーン範囲: %s
+stat.gateways.gates_defeated,Gateways Defeated,攻略したゲート数
+subtitle.gateways.gate_ambient,Gateway ambient sound,ゲートウェイの周囲音
+subtitle.gateways.gate_end,Gateway ends,ゲートウェイの終点
+subtitle.gateways.gate_start,Gateway opens,ゲートが開く
+subtitle.gateways.gate_warp,Gateway spawns an object,ゲートウェイがオブジェクトを生成します
+text.gateways.errored_gate_pearl,Unknown Gateway: %s,不明なゲートウェイ：%s
+tooltip.gateways.alt,[alt],[alt]
+tooltip.gateways.ctrl,[ctrl],[ctrl]
+tooltip.gateways.dot,• %s,• %s
+tooltip.gateways.dot_with_count,• %s %s,• %s %s
+tooltip.gateways.endless.base_wave,Base Wave,基本ウェーブ
+tooltip.gateways.endless.modifier,Endless Modifier %s/%s,エンドレスモディファイア %s/%s
+tooltip.gateways.endless.num_modif,%s Endless Modifier,%s エンドレスモディファイア
+tooltip.gateways.endless.num_modifs,%s Endless Modifiers,%s エンドレスモディファイア
+tooltip.gateways.endless.setup_time,%s Setup Time,%s 準備時間
+tooltip.gateways.endless.wave_time,%s Max Wave Time,%s 最大ウェーブ時間
+tooltip.gateways.entities,Entities: ,エンティティ:
+tooltip.gateways.failures,Failure Penalties,失敗ペナルティ
+tooltip.gateways.false,Disabled,無効
+tooltip.gateways.key_rewards,Key Rewards,主要報酬
+tooltip.gateways.modifiers,Modifiers: ,モディファイア:
+tooltip.gateways.num_failure,%s Penalty,%s ペナルティ
+tooltip.gateways.num_failures,%s Penalties,%s ペナルティ
+tooltip.gateways.num_rule,%s Rule Change,%s ルール変更
+tooltip.gateways.num_rules,%s Rule Changes,%s ルール変更
+tooltip.gateways.num_wave,%s Wave,%s ウェーブ
+tooltip.gateways.num_waves,%s Waves,%s ウェーブ
+tooltip.gateways.rewards,Rewards: ,報酬:
+tooltip.gateways.rules,Rule Changes,ルール変更
+tooltip.gateways.scroll,[scroll],[スクリール]
+tooltip.gateways.shift,[shift],[シフト]
+tooltip.gateways.true,Enabled,有効
+tooltip.gateways.wave,Wave %s/%s,ウェーブ %s/%s
+tooltip.gateways.with_count,%s %s,%s %s

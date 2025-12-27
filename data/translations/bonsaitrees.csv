@@ -1,0 +1,48 @@
+﻿key,source_text,target_text
+tile.bonsaitrees.bonsaipot.name,Bonsai Pot,盆栽鉢
+tile.bonsaitrees.bonsaipot.hopping.name,Hopping Bonsai Pot,ホッピング・ボンサイポット
+commands.bonsaitrees.usage,"/bonsaitrees [subcommand, leave empty for list of commands]",/bonsaitrees [サブコマンド、空白でコマンド一覧]
+commands.bonsaitrees.available,Available sub-commands:,利用可能なサブコマンド:
+commands.bonsaitrees.denied,You do not have the permission to use this command.,このコマンドを使用する権限がありません。
+commands.bonsaitrees.saveTreeShape.description,Save the treeshape you are currently looking at as .json file,現在見ているツリーフォームを .json ファイルとして保存します
+commands.bonsaitrees.saveTreeShape.exception.no_itemstack_in_mainhand,You'll need to hold an itemstack in your main hand!,メインハンドにアイテムスタックを持っている必要があります！
+commands.bonsaitrees.saveTreeShape.exception.not_looking_at_block,You are not looking at a block!,あなたはブロックを見ていません！
+commands.bonsaitrees.saveTreeShape.exception.can_not_determine_shape,"Can not determine shape, 0 blocks found. Maybe the block you are looking at is on the ignore list?",形状を判定できません。ブロックが見つかりませんでした。無視リストにあるブロックを見ている可能性があります
+commands.bonsaitrees.saveTreeShape.error_while_saving_shape,Could not save shape to file! Please check the server logs for details.,形状をファイルに保存できませんでした！詳細はサーバーログをご確認ください。
+commands.bonsaitrees.saveTreeShape.wrote_shape_to_file,Wrote shape to file: %s,形状をファイルに書き込みました: %s
+commands.bonsaitrees.generateMissingShapes.description,Generate all missing tree shapes in the area you are looking at. VERY DESTRUCTIVE ACTION!,見ている領域内の欠けた木形状をすべて生成します。非常に破壊的な操作です！
+commands.bonsaitrees.generateMissingShapes.exception.confirm_with_yes,"Confirm command with ""yes"" as first parameter! A 32x32x32 area around the block you are looking at will be erased!","コマンドの確認に""yes""をパラメータとして入力してください。あなたが見ている場所から32x32x32の領域が削除されます。"
+commands.bonsaitrees.generateMissingShapes.info,Generating shapes for tree: %s,木の形状を生成中: %s
+commands.bonsaitrees.generateMissingShapes.created_shape_file,Created shape file: %s,形状ファイルを作成しました: %s
+commands.bonsaitrees.generateMissingShapes.exception.no_shape,Can not determine shape,形状を判断できませんでした
+commands.bonsaitrees.upgradeJsonFiles.description,Upgrade shape files to the latest supported version. This is a development command and will probably not be useful for you.,シェイプファイルを最新の対応バージョンにアップグレードします。これは開発用コマンドであり、おそらくあなたには役立たないでしょう。
+commands.bonsaitrees.reloadTrees.description,Reloads all trees from json files and mod integrations. This is a development command and will probably not be useful for you. This will also reload all configured soils!,JSONファイルとモッド統合からすべての木を再読み込みします。これは開発用コマンドであり、あなたにとってはあまり役立たないでしょう。また、設定された土壌もすべて再読み込みされます！
+commands.bonsaitrees.reloadSoils.description,Reloads all soils from json files and mod integrations. This is a development command and will probably not be useful for you.,JSONファイルとモッド統合からすべての土壌を再読み込みします。これは開発用コマンドであり、あなたにとってはあまり役立たないでしょう。
+commands.bonsaitrees.listIntegrations.description,Lists all mod integrations and the number of trees they provide,すべてのモディング統合とそれらが提供する木の数を一覧表示します。
+commands.bonsaitrees.listIntegrations.result_title,Integrations:,統合:
+commands.bonsaitrees.listIntegrations.result_entry,- %s: Trees: %d Soils: %d,- %s: 樹木: %d 土壌: %d
+commands.bonsaitrees.listIntegrations.result_entry_total,"Total: Trees: %d, Soils: %d, Combined: %d","合計: 木: %d, 土壌: %d, 合計: %d"
+commands.bonsaitrees.listTrees.description,List all currently registered tree types,現在登録されている全木種のリスト
+commands.bonsaitrees.listTrees.result_title,Registered Trees:,登録木材:
+commands.bonsaitrees.listSoils.description,List all currently registered soils,現在登録されているすべての土壌をリストアップ
+commands.bonsaitrees.listSoils.result_title,Registered Soils:,登録土壌:
+commands.bonsaitrees.checkCompatibility.description,Displays compatible trees/soils for a given soil/tree,指定された土壌/木材に適合する樹種/土壌を表示します。
+commands.bonsaitrees.checkCompatibility.result_title_trees,Compatible trees: %d,対応木材: %d
+commands.bonsaitrees.checkCompatibility.result_title_soils,Compatible soils: %d,対応土壌: %d
+commands.bonsaitrees.checkCompatibility.exception.specify_tree_or_soil,"Specify a tree or soil, e.g. /bonsaitrees checkCompatibility minecraft:oak",木や土壌を指定してください、例：/bonsaitrees checkCompatibility minecraft:oak
+commands.bonsaitrees.checkCompatibility.exception.no_valid_soil_or_tree_found,No matching tree or soil with that name found. Use /bonsaitrees listTrees or /bonsaitrees listSoils,その名前の木や土壌が見つかりませんでした。/bonsaitrees listTrees または /bonsaitrees listSoils を使用してください。
+tooltip.bonsaitrees.autoexport,Automatically exports drops to inventories below.,下位のインベントリにドロップを自動でエクスポートします。
+tooltip.bonsaitrees.use_jei_for_compatible_sapling,"Use JEI to look up compatible soil, saplings and their drop rates.",JEI を使用して、互換性のある土壌・苗木とドロップ率を検索してください。
+tooltip.bonsaitrees.hold_shift_hint,Hold shift for details,Shiftキーで詳細表示
+tooltip.bonsaitrees.warn_hopping_pots_disabled,Functionality is disabled in the config!,機能は設定で無効になっています
+hint.bonsaitrees.incompatible_soil,This tree needs a different kind of soil.,この木は別の種類の土壌が必要です。
+hint.bonsaitrees.can_not_remove_soil_with_sapling,Soil can not be removed while a sapling is growing.,苗木が育つ間は土壌を除去できません。
+hint.bonsaitrees.pot_has_no_soil,Place some soil in the pot first. Try %s.,まず鉢に土壌を入れてください。%s を試してください。
+bonsaitrees.jei.category.growing,Bonsai Trees,盆栽の木
+bonsaitrees.jei.category.growing.chance,Chance: %d%%,確率: %d%%
+bonsaitrees.jei.category.sapling.growtime,It usually takes %s to grow this bonsai,この盆栽を育てるには通常%sかかります
+bonsaitrees.jei.category.soil.hint,Trees won't grow without soil!,土壌がなければ木は育ちません！
+bonsaitrees.jei.category.soil.growTimeModifier,Grow Time: %.1f%%,成長時間: %.1f%%
+bonsaitrees.jei.category.soil.dropChanceModifier,Drop Chance: %.1f%%,ドロップ確率: %.1f%%
+advancements.bonsaitrees.craft_pot.title,Bonsai Trees,盆栽の木
+advancements.bonsaitrees.grow_tree.description,Use it for decoration or as early tree farm,装飾や初期木農園として使用してください。

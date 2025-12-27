@@ -1,0 +1,862 @@
+﻿key,source_text,target_text
+buildcraft.boardRobotPicker,Picker,アイテム回収
+buildcraft.boardRobotLumberjack,Lumberjack,木こり
+buildcraft.boardRobotPlanter,Planter,プランター
+buildcraft.boardRobotLeaveCutter,Leaf Cutter,剪定
+buildcraft.boardRobotCarrier,Carrier,アイテム輸送
+buildcraft.boardRobotFluidCarrier,Tank,タンク
+buildcraft.boardRobotBomber,Bomber,爆破
+buildcraft.boardRobotKnight,Knight,騎士
+buildcraft.boardRobotMiner,Miner,採掘者
+buildcraft.boardRobotFarmer,Farmer,自動農業機
+buildcraft.boardRobotHarvester,Harvester,収穫機
+buildcraft.boardRobotShovelman,Shovelman,採土
+buildcraft.boardRobotButcher,Butcher,肉屋
+buildcraft.boardRobotBuilder,Builder,建築家
+buildcraft.boardRobotCrafter,Crafter,クラフター
+buildcraft.boardRobotDelivery,Delivery,配達
+buildcraft.boardRobotPump,Pump,ポンプ
+buildcraft.boardRobotBreaker,Breaker,ブロック破壊機
+buildcraft.boardRobotPicker.desc,Picks up items,アイテムを拾う
+buildcraft.boardRobotLumberjack.desc,Breaks logs,木の原木を破壊します
+buildcraft.boardRobotPlanter.desc,Plants crops,植物を栽培
+buildcraft.boardRobotLeaveCutter.desc,Cuts leaves,葉を切断します
+buildcraft.boardRobotCarrier.desc,Moves items between inventories,インベントリ間でアイテムを移動します。
+buildcraft.boardRobotFluidCarrier.desc,Moves fluids between tanks,タンク間で液体を移動させる
+buildcraft.boardRobotBomber.desc,Bombs locations,爆弾の位置
+buildcraft.boardRobotKnight.desc,Fights mobs,モンスターと戦います
+buildcraft.boardRobotMiner.desc,Mines ores,鉱石を採掘
+buildcraft.boardRobotFarmer.desc,Hoes dirt,土のクワ
+buildcraft.boardRobotHarvester.desc,Harvests mature crops,成熟した作物を収穫する
+buildcraft.boardRobotShovelman.desc,Shovels area,掘り起こす
+buildcraft.boardRobotButcher.desc,Fights animals,動物と戦う
+buildcraft.boardRobotBuilder.desc,Builds structures,構造物を構築
+buildcraft.boardRobotCrafter.desc,Crafts items,アイテムを製造
+buildcraft.boardRobotDelivery.desc,Delivers items upon request,要求に応じてアイテムを届けます
+buildcraft.boardRobotPump.desc,Pumps out liquids,液体を排出
+buildcraft.boardRobotStripes.desc,Uhh... Stripes!,えっと…ストライプ!
+buildcraft.boardRobotBreaker.desc,Mines stone,石を採掘します
+chat.gateCopier.clear,Gate information cleared.,ゲートコピー機の情報を消去しました
+chat.gateCopier.gateCopied,Copied gate information to copier.,ゲートの情報をコピーしました
+chat.gateCopier.gatePasted,Pasted copied data to gate.,ゲートに設定を適用しました
+chat.gateCopier.noGate,No gate found on this side!,ゲートが存在しません
+chat.gateCopier.noInformation,No gate information stored!,ゲートコピー機に情報がありません
+chat.gateCopier.warning.actionParameters,§6Warning: Target has less action parameters!,§6注意: 一部の出力設定を適用できませんでした
+chat.gateCopier.warning.logic,§6Warning: Target has different logic type!,§6注意: ゲートの種類が異なります
+chat.gateCopier.warning.load,§6Warning: Gate triggers/actions might be missing!,§6注意: 一部の入力設定を適用できませんでした
+chat.gateCopier.warning.slots,§6Warning: Target has less slots!,§6注意: 設定項目が足りません
+chat.gateCopier.warning.triggerParameters,§6Warning: Target has less trigger parameters!,§6注意: 追加機能が足りません
+chat.pipe.power.iron.mode.numberless,Switched to %s limit,エネルギーの流量を%s に制限しました
+chat.pipe.power.iron.level.20,Very Low,とても低い
+chat.pipe.power.iron.level.40,Low,低
+chat.pipe.power.iron.level.80,Medium-Low,少し低い
+chat.pipe.power.iron.level.160,Medium,中
+color.clear,Clear,クリア
+color.black,Black,黒
+color.blue,Blue,青
+color.brown,Brown,茶色
+color.cyan,Cyan,シアン
+color.gray,Gray,グレー
+color.green,Green,緑
+color.light.blue,Light Blue,空色
+color.light.gray,Light Gray,薄灰色
+color.lime,Lime,ライム
+color.magenta,Magenta,マゼンタ
+color.orange,Orange,オレンジ
+color.pink,Pink,ピンク
+color.purple,Purple,紫
+color.red,Red,赤
+color.white,White,白
+color.yellow,Yellow,黄色
+config.general,General,一般
+config.general.pipes,Pipes,パイプ
+config.blueprints,Blueprints,設計図
+config.builders,Builders,建築家
+config.power,Power Usage,エネルギー消費
+config.experimental,Experimental,実験的
+config.display,Display,表示
+config.worldgen,World Generation,ワールド生成
+config.network,Networking,ネットワーク
+config.buildcraft,BuildCraft Configuration,BuildCraft設定
+config.blueprints.clientDatabaseDirectory,Client directory,クライアントディレクトリ
+config.blueprints.excludedMods,Excluded mods,除外モジュール
+config.blueprints.excludedBlocks,Excluded blocks,除外ブロック
+config.builders.dropBrokenBlocks,Drop broken blocks,壊れたブロックを落とす
+config.display.colorBlindMode,Colorblind mode,色覚補正モード
+config.display.hideFluidValues,Hide fluid numbers,流体数値を非表示
+config.display.hidePowerValues,Hide power numbers,電力数値を非表示
+config.experimental.kinesisPowerLossOnTravel,Kinesis pipes power perdition,キネシスパイプ：破滅のエネルギー
+config.general.boards.blacklist,Robot blacklist,ロボットブラックリスト
+config.general.pumpsConsumeWater,Pumps consume water,ポンプは水を消費します
+config.general.updateCheck,Check for updates,アップデートの確認
+config.general.fuel.fuel.combustion,Combustion engine fuel multiplier,燃焼エンジン燃料乗数
+config.general.fuel.oil.combustion,Combustion engine oil multiplier,燃焼エンジンオイル倍率
+config.general.fuel.fuel.combustion.energyOutput,Combustion engine fuel output,燃焼エンジンの燃料出力
+config.general.fuel.oil.combustion.energyOutput,Combustion engine oil output,燃焼エンジンオイル出力
+config.general.itemLifespan,Item lifespan (seconds),アイテムの耐久時間(秒)
+config.general.canEnginesExplode,Engines explode,エンジンが爆発
+config.general.oilCanBurn,Burning oil,燃焼油
+config.general.oilIsDense,Dense oil,濃い油
+config.general.pipes.baseFluidRate,Base flow rate,基本流量
+config.general.pipes.facadeBlacklist,Facade blacklist,外観ブラックリスト
+config.general.pipes.facadeBlacklistAsWhitelist,Invert facade blacklist,フェイスブラックリストを反転
+config.general.pipes.facadeNoLaserRecipe,Add facade recipe without laser,レーザーを使わずにファサードレシピを追加します。
+config.general.pipes.hardness,Hardness,硬度
+config.general.pipes.slimeballWaterproofRecipe,Add slimeball sealant recipe,スライムボールシーラントのレシピを追加する
+config.general.pumpsNeedRealPower,Pumps need real power,ポンプには実際の電力が必要です
+config.general.quarry,Quarry Options,採掘オプション
+config.general.quarry.oneTimeUse,One-time use,一度きりの使用
+config.general.quarry.doChunkLoading,Automatic chunk loading,自動チャンクロード
+config.general.markerRange,Range of markers,マーカーの範囲
+config.general.miningDepth,Maximum relative mining depth,最大相対掘削深度
+config.general.pumpDimensionControl,Pump dimension control,ポンプディメンション制御
+config.network.longUpdateFactor,Client synchronization factor (ticks),クライアント同期係数（ターン）
+config.network.updateFactor,Packet sending factor (ticks),パケット送信係数（ティック）
+config.power.miningUsageMultiplier,Mining usage multiplier,採掘使用倍率
+config.power.chipsetCostMultiplier,Chipset cost multiplier,チップセットコスト倍率
+config.power.gateCostMultiplier,Gate cost multiplier,ゲートコスト倍率
+config.worldgen.enable,Enable,有効
+config.worldgen.generateWaterSprings,Spawn water springs,水の噴水を生成します
+config.worldgen.oilWellGenerationRate,Oil well generation rate,油井生成率
+config.worldgen.spawnOilSprings,Spawn oil springs,油の泉を生成
+config.worldgen.biomes.biomeOilDesert,Oil Desert biome id,オイルの砂漠バイオームID
+config.worldgen.biomes.biomeOilOcean,Oil Ocean biome id,オイル海洋バイオームID
+config.worldgen.biomes.excessiveOilIDs,Biomes with excessive oil,油が過剰なバイオーム
+config.worldgen.biomes.excludeOilIDs,Biomes without oil,オイルのないバイオーム
+config.worldgen.biomes.increasedOilIDs,Biomes with increased oil,油が増加するバイオーム
+direction.north,North,北
+direction.west,West,西
+direction.east,East,東
+direction.south,South,南
+direction.up,Top,上
+direction.down,Bottom,下
+direction.center.0,North-West,北西
+direction.center.1,North,北
+direction.center.2,North-East,北東
+direction.center.3,West,西
+direction.center.4,Center,中央
+direction.center.5,East,東
+direction.center.6,South-West,南西
+direction.center.7,South,南
+direction.center.8,South-East,南東
+fillerpattern.clear,Clear,クリア
+fillerpattern.fill,Fill,埋める
+fillerpattern.flatten,Flatten,整地
+fillerpattern.horizon,Horizon,水平
+fillerpattern.pyramid,Pyramid,ピラミッド
+fillerpattern.stairs,Stairs,階段
+fillerpattern.box,Box,箱
+fillerpattern.cylinder,Cylinder,円柱
+fillerpattern.frame,Frame,フレーム
+fillerpattern.parameter.hollow,Hollow,空洞
+fillerpattern.parameter.filled,Filled,満たす
+fluid.oil,Oil,油
+gate.action.extraction,%s Extraction Preset,%sの搬出設定を使う
+gate.action.pipe.item.color,Paint Items %s,アイテムを%s色に色分けする
+gate.action.machine.on,On,オン
+gate.action.machine.off,Off,オフ
+gate.action.machine.loop,Loop,ループ
+gate.action.pipe.wire,%s Pipe Signal,%sワイヤーに信号を出力する
+gate.action.redstone.signal,Redstone Signal,レッドストーン信号
+gate.action.robot.goto_station,Goto Station,ドックへ戻る
+gate.action.pipe.valve.open,Open,開く
+gate.action.pipe.valve.input_only,Input Only,入力のみ
+gate.action.pipe.valve.output_only,Output Only,出力のみ
+gate.action.pipe.valve.closed,Closed,閉じた
+gate.action.station.provide_items,Provide Items,アイテムを供給する
+gate.action.station.accept_items,Accept Items,アイテムを受け入れる
+gate.action.station.request_items,Request Items,アイテムを要求する
+gate.action.station.drop_items_in_pipe,Drop Items In Pipe,パイプ内にアイテムを流す
+gate.action.station.allow_craft,Allow Craft,クラフトを許可する
+gate.action.station.provide_machine_request,Request Needed Items,アイテムを指定個数要求する
+gate.action.station.accept_fluids,Accept Fluids,液体を受け入れる
+gate.action.station.povide_fluids,Provide Fluids,液体を供給する
+gate.action.robot.work_in_area,Work in Area,作業範囲
+gate.action.robot.load_unload_area,Load/Unload in Area,エリア内に搬入/搬出
+gate.action.robot.wakeup,Wake Up,ロボットを起動する
+gate.action.station.forbid_robot,Forbid Robot,右記のロボットを禁止する
+gate.action.station.force_robot,Force Robot,ロボットを強制移動させる
+gate.action.robot.filter,Filter,フィルター
+gate.action.robot.filter_tool,Filter Tool,フィルターツール
+gate.expansion.fader,Redstone Fader,レッドストーン信号の強度
+gate.expansion.pulsar,Autarchic Pulsar,エンジン動力
+gate.expansion.timer,Clock Timer,タイマー
+gate.expansion.light_sensor,Light Sensor,ライトセンサー
+gate.expansion.rtc,Real-Time Clock,リアルタイムクロック
+gate.expansion.biological_sensor,Biological Sensor,生物センサー
+gate.logic.and,AND,かつ
+gate.logic.or,OR,または
+gate.material.iron,Iron,鉄
+gate.material.gold,Gold,金
+gate.material.diamond,Diamond,ダイヤモンド
+gate.material.emerald,Emerald,エメラルド
+gate.material.quartz,Quartz,クォーツ
+gate.name,%s %s Gate,%sの%sゲート
+gate.name.basic,Basic Gate,基本ゲート
+gate.parameter.redstone.gateSideOnly,Gate Side Only,ゲート側のみ
+gate.trigger.engine.blue,Engine Blue,エンジンの色が青
+gate.trigger.engine.green,Engine Green,エンジンの色が緑
+gate.trigger.engine.yellow,Engine Yellow,エンジンの色が黄
+gate.trigger.engine.red,Engine Red,エンジンの色が赤
+gate.trigger.engine.overheat,Engine Overheat,エンジンがオーバーヒート
+gate.trigger.fluid.empty,Tank Empty,タンクが空
+gate.trigger.fluid.contains,Fluid in Tank,液体が入っている
+gate.trigger.fluid.space,Space for Fluid,液体の入るスペースがある
+gate.trigger.fluid.full,Tank Full,タンクが満杯
+gate.trigger.fluidlevel.below,Contains < %d%%,液体量 < %d%%
+gate.trigger.inventory.empty,Inventory Empty,インベントリが空
+gate.trigger.inventory.contains,Items in Inventory,アイテムが入っている
+gate.trigger.inventory.space,Space in Inventory,アイテムの入るスペースがある
+gate.trigger.inventory.full,Inventory Full,インベントリが満杯
+gate.trigger.inventorylevel.below,Contains < %d%%,液体量 < %d%%
+gate.trigger.machine.done,Work Done,作業が完了した
+gate.trigger.machine.scheduled,Has Work,作業があるか
+gate.trigger.redstone.input.active,Redstone Signal On,レッドストーン信号を受けている
+gate.trigger.redstone.input.inactive,Redstone Signal Off,レッドストーン信号を受けていない
+gate.trigger.redstone.input.level,Redstone Level %d,レッドストーン信号の強度が%d
+gate.trigger.pipe.empty,Pipe Empty,パイプが空
+gate.trigger.pipe.containsItems,Items Traversing,アイテムが通過中
+gate.trigger.pipe.containsFluids,Fluid Traversing,液体が通過中
+gate.trigger.pipe.containsEnergy,Power Traversing,エネルギーが通過中
+gate.trigger.pipe.requestsEnergy,Power Requested,エネルギー要求
+gate.trigger.pipe.tooMuchEnergy,Power Overloaded,エネルギー過剰
+gate.trigger.pipe.wire.active,%s Pipe Signal On,%sワイヤーが信号を受けている
+gate.trigger.pipe.wire.inactive,%s Pipe Signal Off,%sワイヤーが信号を受けていない
+gate.trigger.timer,%s Sec Timer,%s秒タイマー
+gate.trigger.robot.sleep,Sleep,ロボットが休止中
+gate.trigger.robot.in.station,Robot In Station,ロボットステーション
+gate.trigger.robot.linked,Station Linked,ステーションリンク
+gate.trigger.robot.reserved,Station Reserved,ステーション予約
+gate.trigger.light.bright,Bright,明るい
+gate.trigger.light.dark,Dark,暗い
+gate.trigger.time.0,Night,夜
+gate.trigger.time.6,Morning,朝
+gate.trigger.time.12,Afternoon,午後
+gate.trigger.time.18,Evening,夕方
+gate.trigger.fuelLevelBelow,Fuel level below %d%%,燃料レベルが%d%%未満です
+gate.trigger.coolantLevelBelow,Coolant level below %d%%,クーラントレベルが%d%%未満
+gui.fluidtank.empty,Empty,空
+gui.building.resources,Building Resources,建材
+gui.building.fluids,Fluid Tanks,液体タンク
+gui.del,Del,削除
+gui.filling.resources,Filling Resources,建材
+gui.inventory,Inventory,インベントリ
+gui.lock,Lock,ロック
+gui.needed,Needed,必要
+gui.unlock,Unlock,解除
+gui.energy,Energy,エネルギー
+gui.currentOutput,Current Output,出力
+gui.stored,Stored,保存済み
+gui.heat,Heat,熱
+gui.clickcraft,-Click to Craft-,-- クリックで作成 -
+gui.pipes.emerald.title,Filters,フィルター
+gui.pipes.emerald.blocking,Blocking,ブロック
+gui.pipes.emerald.blocking.tip,Extraction is blocked if one element in filter is missing,フィルターは左側から埋めてください
+gui.pipes.emerald.nonblocking,Non Blocking,ブラックリスト
+gui.pipes.emerald.nonblocking.tip,Extraction continues with the next element in filter if one element is missing,フィルターは左側から埋めてください
+gui.pipes.emzuli.title,Extraction Presets,搬出設定
+gui.pipes.emzuli.paint,Paint Items %s,アイテムを%s色に色分けする
+gui.pipes.emzuli.nopaint,Don't Paint Items,アイテムを色分けしない
+item.bucketFuel.name,Fuel Bucket,燃料入りバケツ
+item.bucketOil.name,Oil Bucket,原油バケット
+item.woodenGearItem.name,Wood Gear,木の歯車
+item.stoneGearItem.name,Stone Gear,石の歯車
+item.ironGearItem.name,Iron Gear,鉄のギア
+item.goldGearItem.name,Gold Gear,金のギア
+item.diamondGearItem.name,Diamond Gear,ダイヤモンドのギア
+item.templateItem.name,Template,テンプレート
+item.wrenchItem.name,Wrench,レンチ
+item.paintbrush.name,Paintbrush,ペイントブラシ
+item.pipeWaterproof.name,Pipe Sealant,パイプの防水材
+item.redPipeWire.name,Red Pipe Wire,赤ワイヤー
+item.bluePipeWire.name,Blue Pipe Wire,青ワイヤー
+item.greenPipeWire.name,Green Pipe Wire,緑ワイヤー
+item.yellowPipeWire.name,Yellow Pipe Wire,黄ワイヤー
+item.redstoneCrystal.name,Redstone Crystal,レッドストーンクリスタル
+item.redstone_red_chipset.name,Redstone Chipset,赤石チップ
+item.redstone_iron_chipset.name,Iron Chipset,鉄チップ
+item.redstone_gold_chipset.name,Golden Chipset,金チップ
+item.redstone_diamond_chipset.name,Diamond Chipset,ダイヤチップ
+item.redstone_emerald_chipset.name,Emerald Chipset,エメラルドチップ
+item.redstone_pulsating_chipset.name,Pulsating Chipset,パルサーチップ
+item.redstone_quartz_chipset.name,Quartz Chipset,水晶チップ
+item.redstone_comp_chipset.name,Redstone Comp Chipset,コンパレータチップ
+item.redstone_board.name,Redstone Board,レッドストーンボード
+item.robot.name,Robot,ロボット
+item.tablet.name,Tablet,タブレット
+item.blueprintItem.name,Blueprint,設計図
+item.list.name,List,リスト
+item.blueprint.unnamed,<unnamed>,<未設定>
+item.blueprint.author,by,著者：
+item.blueprint.blank,Blank,空
+item.blueprint.creative_only,Creative Only,クリエイティブモード専用
+item.blueprint.no_build,No Building,建築物の情報が存在しません
+item.blueprint.incomplete,Incomplete,未構成
+item.mapLocation.name,Map Location,範囲指定マップ
+item.gateCopier.name,Gate Copier,ゲートコピー機
+item.PipeItemsWood.name,Wooden Transport Pipe,木の輸送パイプ
+item.PipeItemsCobblestone.name,Cobblestone Transport Pipe,丸石の輸送パイプ
+item.PipeItemsStone.name,Stone Transport Pipe,石の輸送パイプ
+item.PipeItemsQuartz.name,Quartz Transport Pipe,水晶の輸送パイプ
+item.PipeItemsIron.name,Iron Transport Pipe,鉄の輸送パイプ
+item.PipeItemsGold.name,Golden Transport Pipe,金の輸送パイプ
+item.PipeItemsDiamond.name,Diamond Transport Pipe,ダイヤの輸送パイプ
+item.PipeItemsObsidian.name,Obsidian Transport Pipe,黒曜石の輸送パイプ
+item.PipeItemsEmerald.name,Emerald Transport Pipe,エメラルドの輸送パイプ
+item.PipeItemsLapis.name,Lazuli Transport Pipe,ラピスラズリの輸送パイプ
+item.PipeItemsDaizuli.name,Daizuli Transport Pipe,ダイズリの輸送パイプ
+item.PipeItemsEmzuli.name,Emzuli Transport Pipe,エメズリの輸送パイプ
+item.PipeItemsClay.name,Clay Transport Pipe,粘土の輸送パイプ
+item.PipeFluidsWood.name,Wooden Fluid Pipe,木の防水パイプ
+item.PipeFluidsCobblestone.name,Cobblestone Fluid Pipe,丸石の防水パイプ
+item.PipeFluidsStone.name,Stone Fluid Pipe,石の防水パイプ
+item.PipeFluidsIron.name,Iron Fluid Pipe,鉄製流体パイプ
+item.PipeFluidsQuartz.name,Quartz Fluid Pipe,水晶の防水パイプ
+item.PipeFluidsGold.name,Golden Fluid Pipe,金色の液体パイプ
+item.PipeFluidsEmerald.name,Emerald Fluid Pipe,エメラルドの防水パイプ
+item.PipeFluidsDiamond.name,Diamond Fluid Pipe,ダイヤモンドの液体パイプ
+item.PipeFluidsClay.name,Clay Fluid Pipe,粘土流体パイプ
+item.PipePowerWood.name,Wooden Kinesis Pipe,木の伝導パイプ
+item.PipePowerCobblestone.name,Cobblestone Kinesis Pipe,丸石の伝導パイプ
+item.PipePowerStone.name,Stone Kinesis Pipe,石の伝導パイプ
+item.PipePowerQuartz.name,Quartz Kinesis Pipe,水晶の伝導パイプ
+item.PipePowerIron.name,Iron Kinesis Pipe,鉄の伝導パイプ
+item.PipePowerGold.name,Golden Kinesis Pipe,金の伝導パイプ
+item.PipePowerDiamond.name,Diamond Kinesis Pipe,ダイヤの伝導パイプ
+item.PipePowerEmerald.name,Emerald Kinesis Pipe,エメラルドの伝導パイプ
+item.PipeItemsStripes.name,Stripes Transport Pipe,ストライプ輸送パイプ
+item.PipeStructureCobblestone.name,Cobblestone Structure Pipe,丸石の構造パイプ
+item.PipeItemsVoid.name,Void Transport Pipe,虚無の輸送パイプ
+item.PipeFluidsVoid.name,Void Fluid Pipe,虚無の防水パイプ
+item.PipeItemsSandstone.name,Sandstone Transport Pipe,砂岩の輸送パイプ
+item.PipeFluidsSandstone.name,Sandstone Fluid Pipe,砂岩の防水パイプ
+item.PipePowerSandstone.name,Sandstone Kinesis Pipe,砂岩の伝導パイプ
+item.PipeRobotStation.name,Docking Station,ドック
+item.Facade.name,Facade,ファサード
+item.Facade.state_hollow,Hollow,空洞
+item.FacadePhased.name,Phased Facade,フェーズドファサード
+item.FacadePhased.state,%s: %s,%s: %s
+item.FacadePhased.state_default,Default: %s,デフォルト: %s
+item.FacadePhased.state_transparent,Transparent,透明
+item.PipePlug.name,Pipe Plug,パイプ栓
+item.Lens.name,Lens,レンズ
+item.Filter.name,Filter,フィルター
+item.PipePowerAdapter.name,Power Adapter,電力アダプター
+item.debugger.name,Debugger,デバッガー
+item.debugger.warning,Use only for testing! Leaks secrets.,テスト専用！ 秘密情報が漏れます。
+item.package.name,Package,パッケージ
+itemGroup.buildcraft.boards,BuildCraft Robots,Buildcraft ロボット
+itemGroup.buildcraft.pipes,BuildCraft Pipes,Buildcraft パイプ
+itemGroup.buildcraft.facades,BuildCraft Facades,Buildcraft 外装板
+itemGroup.buildcraft.gates,BuildCraft Gates,BuildCraftゲート
+tile.architectBlock.name,Architect Table,設計台
+tile.assemblyTableBlock.name,Assembly Table,レーザー加工台
+tile.assemblyWorkbenchBlock.name,Advanced Crafting Table,発展型作業台
+tile.autoWorkbenchBlock.name,Auto Workbench,自動作業台
+tile.blockFuel.name,Fuel,燃料
+tile.blockHopper.name,Chute,シュート
+tile.blockOil.name,Oil,油
+tile.builderBlock.name,Builder,建築家
+tile.chargingTableBlock.name,Charging Table,レーザー充電台
+tile.constructionMarkerBlock.name,Construction Mark,建築マーカー
+tile.engineCreative.name,Creative Engine,クリエイティブエンジン
+tile.engineIron.name,Combustion Engine,内燃エンジン
+tile.engineStone.name,Stirling Engine,スターリングエンジン
+tile.engineWood.name,Redstone Engine,レッドストーンエンジン
+tile.fillerBlock.name,Filler,簡易建築機
+tile.filteredBufferBlock.name,Filtered Buffer,選別緩衝器
+tile.floodGateBlock.name,Flood Gate,水門
+tile.frameBlock.name,Frame,フレーム
+tile.integrationTableBlock.name,Integration Table,レーザー合成台
+tile.laserBlock.name,Laser,レーザー
+tile.libraryBlock.name,Electronic Library,青写真ライブラリ
+tile.machineBlock.name,Quarry,露天採掘機
+tile.markerBlock.name,Land Mark,範囲マーカー
+tile.miningWellBlock.name,Mining Well,採掘機
+tile.packagerBlock.name,Recipe Packager,レシピパッケージャー
+tile.pathMarkerBlock.name,Path Mark,経路マーカー
+tile.plainPipeBlock.name,Mining Pipe,採掘パイプ
+tile.programmingTableBlock.name,Programming Table,プログラミングテーブル
+tile.pumpBlock.name,Pump,ポンプ
+tile.refineryBlock.name,Refinery,精製機
+tile.requester.name,Requester,アイテム要求器
+tile.spring.oil.name,Oil Spring,原油の源
+tile.spring.water.name,Water Spring,湧き水の源
+tile.stampingTableBlock.name,Stamping Table,スタンピングテーブル
+tile.tankBlock.name,Tank,タンク
+tile.zonePlan.name,Zone Planner,範囲指定機
+tile.architect.rotate,Rotate: On,方向保持: Off
+tile.architect.norotate,Rotate: Off,方向保持: On
+tile.architect.allowCreative,Mode: Creative,クリエイティブ
+tile.architect.noallowCreative,Mode: Survival,サバイバル
+tile.architect.tooltip.allowCreative.1,Creative allows all blocks - Creative Mode only!,クリエイティブでは全てのブロックを記録できます
+tile.architect.tooltip.allowCreative.2,Survival ignores all unsupported blocks,サバイバルでは一部のブロックを記録できません
+tile.architect.excavate,Excavate: On,ブロック破壊: On
+tile.architect.noexcavate,Excavate: Off,ブロック破壊: Off
+tip.gate.wires,§9§oCompatible Wires:,§9§o使用可能なワイヤー:
+tip.gate.wires.redstone,Red,赤
+tip.gate.wires.iron,"Red, Blue","赤, 青"
+tip.gate.wires.gold,"Red, Blue, Green","赤, 青, 緑"
+tip.gate.wires.quartz,"Red, Blue, Green","赤, 青, 緑"
+tip.gate.wires.diamond,"Red, Blue, Green, Yellow","赤, 青, 緑, 黄"
+tip.gate.wires.emerald,"Red, Blue, Green, Yellow","赤, 青, 緑, 黄"
+tip.gate.expansions,§9§oInstalled Expansions:,§9§o追加機能:
+tip.PipeFluidsClay,Insertion pipe,挿入パイプ
+tip.PipeFluidsCobblestone,Won't connect to Stone or Quartz,基本パイプ\n石の防水パイプとは接続しない
+tip.PipeFluidsDiamond,Sorts fluids,液体を並べ替える
+tip.PipeFluidsEmerald,Extraction pipe,搬出パイプ
+tip.PipeFluidsIron,Valve pipe,バルブパイプ
+tip.PipeFluidsQuartz,Won't connect to Cobblestone or Stone,基本パイプ
+tip.PipeFluidsSandstone,Only connects to other pipes,防水パイプのみと接続する
+tip.PipeFluidsStone,Won't connect to Cobblestone or Quartz,基本パイプ\n丸石の防水パイプとは接続しない
+tip.PipeFluidsVoid,Destroys fluids,液体を消去する
+tip.PipeFluidsWood,Extraction pipe,搬出パイプ
+tip.PipeItemsClay,Insertion pipe,挿入パイプ
+tip.PipeItemsCobblestone,"Basic pipe, high drag\nWon't connect to Stone or Quartz","基本パイプ、減速率高
+石、水晶の輸送パイプと接続しない"
+tip.PipeItemsDaizuli,Routes painted items,色分けされたアイテムを分別する
+tip.PipeItemsDiamond,Sorts items,アイテムを分別する
+tip.PipeItemsEmerald,Round-robin extraction pipe,フィルター付き搬出パイプ
+tip.PipeItemsEmzuli,Gate controlled extraction pipe,ゲート制御搬出パイプ
+tip.PipeItemsGold,Speeds up items,アイテムの速度を加速させる
+tip.PipeItemsIron,Routes items,アイテムを一定方向に流す
+tip.PipeItemsLapis,Paints items,アイテムを色分けする
+tip.PipeItemsObsidian,Sucks up items,アイテムを吸引する
+tip.PipeItemsQuartz,"Basic pipe, low drag\nWon't connect to Cobblestone or Stone","基本パイプ、減速率低
+石、丸石の輸送パイプと接続しない"
+tip.PipeItemsSandstone,Only connects to other pipes,防水パイプのみと接続する
+tip.PipeItemsStone,"Basic pipe, medium drag\nWon't connect to Cobblestone or Quartz","基本パイプ、減速率中
+丸石、水晶の輸送パイプと接続しない"
+tip.PipeItemsVoid,Destroys items,アイテムを消去する
+tip.PipeItemsWood,Extraction pipe,搬出パイプ
+tip.PipePowerEmerald,Power Input Pipe,エネルギー入力パイプ
+tip.PipePowerIron,Selectable Limiter Pipe,エネルギー流量調整パイプ
+tip.PipePowerSandstone,Only connects to other pipes,防水パイプのみと接続する
+tip.PipePowerWood,Power Input Pipe,エネルギー入力パイプ
+tip.PipeStructureCobblestone,Support pipe,支持パイプ
+tip.deprecated,Deprecated,廃止
+tip.gate.charged,Charged,チャージ完了
+tip.gate.fullcharge,Full Charge,完全充電
+tip.gate.nocharge,No Charge,充電なし
+tip.filler.excavate.on,Excavate,掘削
+tip.filler.excavate.off,Do Not Excavate,掘削しない
+tip.list.matches,Matches,マッチ
+tip.shift.PipeFluidsDiamond,GUI accepts any fluid containers,GUIは任意の液体コンテナを受け付けます
+tip.shift.PipeFluidsEmerald,GUI accepts any fluid container,GUIは任意の液体コンテナを受け付ける
+tip.shift.PipeItemsClay,Prioritizes machines and chests\nover neighbouring pipes.,隣接するパイプよりも機械とチェストに優先順位を付けます
+tip.shift.PipeItemsDaizuli,Sneak-click to change color,スニーククリックで色を変更
+tip.shift.PipeItemsEmzuli,Set extraction preset filters in GUI\nA preset can paint extracted items\nSwitch extraction presets via gates,GUIで抽出プリセットフィルタを設定\nプリセットは抽出アイテムを塗装します\nゲートで抽出プリセットを切り替えます
+tip.shift.PipeItemsLapis,Sneak-click to change color,スニーククリックで色を変更
+tip.shift.PipeItemsObsidian,Power with an engine\nMore power - greater distance,エンジンでパワーを供給します\nより多くのパワーで距離が伸びます
+tip.shift.PipePowerIron,Change the limit with a wrench or gates,レンチまたはゲートでリミットを変更する
+tip.PipeItemsEmerald.whitelist,Whitelist,ホワイトリスト
+tip.PipeItemsEmerald.blacklist,Blacklist,ブラックリスト
+tip.PipeItemsEmerald.roundrobin,Round Robin (In Order),ラウンドロビン（順序）
+tip.tool.add,Add,追加
+tip.tool.fullscreen,Fullscreen,フルスクリーン
+tip.tool.remove,Remove,削除
+achievement.woodenGearAchievement,A bit rough around the edges,粗削りの歯車
+achievement.woodenGearAchievement.desc,Craft a wooden gear,木の歯車を作る
+achievement.stoneGearAchievement,Hard as a rock,岩のごとき硬さ
+achievement.stoneGearAchievement.desc,Upgrade a wooden gear to a stone gear,木の歯車を石の歯車にする
+achievement.ironGearAchievement,Is it stainless?,ステンレス製？
+achievement.ironGearAchievement.desc,Upgrade a stone gear to an iron gear,石の歯車を鉄の歯車にする
+achievement.goldGearAchievement,"No, it isn't made of honey",食べられないよ!
+achievement.goldGearAchievement.desc,Upgrade an iron gear to a gold gear,鉄の歯車を金の歯車にする
+achievement.diamondGearAchievement,Shiny!,ダイヤのきらめき!
+achievement.diamondGearAchievement.desc,Upgrade a gold gear to a diamond gear,金の歯車をダイヤの歯車にする
+achievement.wrenchAchievement,Just hit it!,方向転換!
+achievement.wrenchAchievement.desc,Make a wrench,レンチを作る
+achievement.engineAchievement1,The start of something big,最初の一歩
+achievement.engineAchievement1.desc,Craft a redstone engine,レッドストーンエンジンを作る
+achievement.engineAchievement2,High efficiency,さらなる効率化
+achievement.engineAchievement2.desc,Craft a stirling engine,スターリングエンジンを作る
+achievement.engineAchievement3,Powerhouse,動力源
+achievement.engineAchievement3.desc,Craft a combustion engine,内燃エンジンを作る
+achievement.aLotOfCraftingAchievement,A lot of crafting,大量のクラフト
+achievement.aLotOfCraftingAchievement.desc,Craft an auto workbench,自動作業台を作る
+achievement.straightDownAchievement,Straight down,直下掘り
+achievement.straightDownAchievement.desc,Make a mining well,採掘機を作る
+achievement.chunkDestroyerAchievement,Chunk destroyer,チャンクの破壊者
+achievement.chunkDestroyerAchievement.desc,Craft a quarry,露天採掘機を作る
+achievement.fasterFillingAchievement,Faster filling,より速い埋め立てを
+achievement.fasterFillingAchievement.desc,Make a filler,簡易建築機を作る
+achievement.timeForSomeLogicAchievement,Time for some logic,論理回路の時間
+achievement.timeForSomeLogicAchievement.desc,Craft an assembly table,レーザー加工台を作る
+achievement.refineAndRedefineAchievement,Refine and redefine,精製と合成
+achievement.refineAndRedefineAchievement.desc,Make a refinery,精製機を作る
+achievement.tinglyLaserAchievement,Tingly laser,レーザーのわくわく
+achievement.tinglyLaserAchievement.desc,Craft a laser,レーザーを作る
+achievement.architectAchievement,Architecture,建築術
+achievement.architectAchievement.desc,Craft an architect table,設計台を作る
+achievement.builderAchievement,I've got better things to do,忙しいあなたに代わって
+achievement.builderAchievement.desc,Craft a builder,ビルダーを作る
+achievement.blueprintAchievement,Building reference,建築物の参考に
+achievement.blueprintAchievement.desc,Craft a blueprint,ブループリントを作る
+achievement.templateAchievement,Basis,土台
+achievement.templateAchievement.desc,Craft a template,テンプレートを作る
+achievement.blueprintLibraryAchievement,Ideas live on,あなたのアイデアそのままに
+achievement.blueprintLibraryAchievement.desc,Craft an electronic library,青写真ライブラリを作る
+bc_update.new_version,§cNew version of BuildCraft available: %s for Minecraft %s,§cBuildCraftの新しいバージョンがリリースされています: %s for Minecraft %s
+bc_update.download,§cDownload from http://www.mod-buildcraft.com/download,§cダウンロードはこちら http://www.mod-buildcraft.com/download
+bc_update.once,This message only displays once,このメッセージは起動時、一度だけ表示されます
+bc_update.again,Type '/buildcraft version' if you want to see it again,このメッセージを次から表示したくない場合は'/buildcraft version'と打ち込んで下さい
+bc_update.changelog,Type '/buildcraft changelog' to see the changelog,/buildcraft changelog を入力して変更履歴を確認してください。
+chat.buildcraft.quarry.tooSmall,[BuildCraft] Quarry size is outside of chunkloading bounds or too small %d %d (%d),[BuildCraft] クエリーサイズがチャンクロード範囲外または小さすぎます %d %d (%d)
+chat.buildcraft.quarry.chunkloadInfo,[BuildCraft] The quarry at %d %d %d will keep %d chunks loaded,[BuildCraft] %d %d %d の採掘機は %d チャンクをロードしたままにします
+command.buildcraft.version,BuildCraft %s for Minecraft %s (Latest: %s).,BuildCraft %s for Minecraft %s (最新: %s).
+command.buildcraft.changelog_header,Changelog for BuildCraft %s:,BuildCraft %s の変更ログ：
+command.buildcraft.aliases,Aliases: %s,別名: %s
+command.buildcraft.help,Type '%s' for help.,'%s' と入力すればヘルプを表示します。
+command.buildcraft.list,Available Commands:,利用可能なコマンド:
+command.buildcraft.permlevel,Permission level: %s,許可レベル：%s
+command.buildcraft.noperms,You do not have permission to use this command.,このコマンドを使用する権限がありません。
+command.buildcraft.buildcraft.help,Various BuildCraft-related commands,BuildCraftに関連する各種コマンド
+command.buildcraft.buildcraft.format,Format: /%s <sub-command>,書式: /%s <サブコマンド>
+command.buildcraft.buildcraft.version.desc,- %s : Version Information,- %s : バージョン情報
+command.buildcraft.buildcraft.version.help,Displays the current and latest BC version.,現在と最新のBCバージョンを表示します。
+command.buildcraft.buildcraft.version.format,Format: /%s,フォーマット: /%s
+command.buildcraft.buildcraft.changelog.desc,- %s : Changelog,- %s : 変更履歴
+command.buildcraft.buildcraft.changelog.help,Displays the latest BC changelog.,最新のBC変更ログを表示します。
+command.buildcraft.buildcraft.changelog.format,Format: /%s,フォーマット: /%s
+command.buildcraft.buildcraft.op.desc,- %s : Op FakePlayer,- %s : Op フェイクプレイヤー
+command.buildcraft.buildcraft.op.help,"Gives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)",BC偽プレイヤーにOP権限を付与（採掘場、ロボットなどの名義で動作）
+command.buildcraft.buildcraft.op.format,Format: /%s,フォーマット: /%s
+command.buildcraft.buildcraft.deop.desc,- %s : Deop FakePlayer,- %s : フェイクプレイヤーをデオプ
+command.buildcraft.buildcraft.deop.help,"Ungives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)",BC偽プレイヤーからOP権限を剥奪します（採掘場、ロボットなどの名で行動する）。
+command.buildcraft.buildcraft.deop.format,Format: /%s,フォーマット: /%s
+buildcraft.boardRobotClean,Clean,消去
+chat.pipe.power.iron.mode,Switched to %d MJ/t limit,エネルギーの流量を%d RF/tに制限しました
+chat.pipe.power.iron.level.320,Medium-High,高い
+chat.pipe.power.iron.level.640,High,高
+chat.pipe.power.iron.level.1280,Very High,非常に高い
+chat.pipe.power.iron.level.2560,Full Capacity,フル容量
+config.performance,Performance,パフォーマンス
+direction.center,Center,中央
+buildcraft.fluid.empty,Empty,空
+buildcraft.fluid.static.milli.short,%s mB,%s mB
+buildcraft.fluid.static.bucket.short,%s B,%s B
+buildcraft.fluid.static.milli.long,%s milli buckets,%s ミリバケツ
+buildcraft.fluid.static.bucket.long,%s buckets,%1$s バケツ
+buildcraft.fluid.empty.milli.short,0 / %s mB,0 / %s mB
+buildcraft.fluid.empty.bucket.short,0 / %s B,0 / %s B
+buildcraft.fluid.empty.milli.long,Empty %s milli bucket tank,空の%sミリバケットタンク
+buildcraft.fluid.empty.bucket.long,Empty %s bucket tank,%s バケツタンクを空にする
+buildcraft.fluid.full.milli.short,%1$s / %1$s mB,%1$s / %1$s mB
+buildcraft.fluid.full.bucket.short,%1$s / %1$s B,%1$s / %1$s B
+buildcraft.fluid.full.milli.long,Full %s milli bucket tank,満タンの%sミリバケットタンク
+buildcraft.fluid.full.bucket.long,Full %s bucket tank,%s バケットタンクを満たします
+buildcraft.fluid.static.cap.milli.short,%s / %s mB,%s / %s mB
+buildcraft.fluid.static.cap.bucket.short,%s / %s B,%s / %s B
+buildcraft.fluid.static.cap.milli.long,%s milli buckets in a %s milli bucket tank,%s ミリバケツは %s ミリバケットタンクに入ります
+buildcraft.fluid.static.cap.bucket.long,%s buckets in a %s bucket tank,%s バケツは %s バケットタンクに入っています
+buildcraft.fluid.flow.milli.short,%s mB/t,%s mB/t
+buildcraft.fluid.flow.bucket.short,%s B/s,%s バイト/秒
+buildcraft.fluid.flow.milli.long,%s milli buckets per tick,%s ミリバケツ/ティック
+buildcraft.fluid.flow.bucket.long,%s buckets per second,%s バケツ/秒
+buildcraft.mj.static.long,%s Minecraft Joules,%s Minecraft ジョウル
+buildcraft.mj.static.short,%s MJ,%s MJ
+buildcraft.mj.flow.long,%s Minecraft Joules per tick,%s マインクラフト ジュール/ティック
+buildcraft.mj.flow.short,%s MJ/t,%s MJ/t
+buildcraft.mj.flow.seconds.long,%s Minecraft Joules per second,%s Minecraft ジュール/秒
+buildcraft.mj.flow.seconds.short,%s MJ/s,%s MJ/s
+fillerpattern.none,None,なし
+fillerpattern.sphere_eighth,Eighth-Sphere,第八の球体
+fillerpattern.sphere_quarter,Quarter-sphere,四分球
+fillerpattern.sphere_half,Hemisphere,半球
+fillerpattern.sphere,Sphere,球体
+fillerpattern.2d_arc,Arc,アーク
+fillerpattern.2d_semi_circle,Semi-Circle,半円
+fillerpattern.2d_circle,Circle,円
+fillerpattern.2d_triangle,Triangle,三角形
+fillerpattern.2d_square,Square,正方形
+fillerpattern.2d_pentagon,Pentagon,五角形
+fillerpattern.2d_hexagon,Hexagon,六角形
+fillerpattern.2d_octagon,Octagon,八角形
+fillerpattern.parameter.filled_outer,Surrounded,周囲
+buildcraft.param.rotation.0,No rotation,回転なし
+buildcraft.param.rotation.1,90 degree rotation,90度回転
+buildcraft.param.rotation.2,180 degree rotation,180度回転
+buildcraft.param.rotation.3,270 degree rotation,270度回転
+buildcraft.param.axis.x,X Axis,X軸
+buildcraft.param.axis.y,Y Axis,Y軸
+buildcraft.param.axis.z,Z Axis,Z軸
+fluid.fuel,Light Fuel,燃料
+fluid.oil_distilled,Distilled Oil,精製油
+fluid.oil_heavy,Heavy Oil,重油
+fluid.oil_dense,Dense Oil,濃縮油
+fluid.oil_residue,Residue,残渣
+fluid.tar,Tar,タール
+fluid.fuel_mixed,Mixed Fuels,混合燃料
+fluid.fuel_mixed_heavy,Mixed Heavy Fuels,重燃料混合
+fluid.fuel_mixed_light,Mixed Light Fuels,軽燃料混合
+fluid.fuel_dense,Dense Fuel,高密度燃料
+fluid.fuel_light,Light Fuel,燃料
+fluid.fuel_gaseous,Gaseous Fuel,ガス燃料
+buildcraft.fluid.heat_0,%s (§bCool§r),%s (§b冷却§r)
+buildcraft.fluid.heat_1,%s (§6Hot§r),%s (§6Hot§r)
+buildcraft.fluid.heat_2,%s (§cSearing§r),%s (§c焼け§r)
+buildcraft.christmas.fluid.oil,Raw Chocolate Mix,生チョコレートミックス
+buildcraft.christmas.fluid.fuel,Milk Chocolate,ミルクチョコレート
+buildcraft.christmas.fluid.oil_distilled,Mixed Chocolates,ミックスチョコレート
+buildcraft.christmas.fluid.oil_heavy,Raw Chocolate,生チョコレート
+buildcraft.christmas.fluid.oil_dense,Raw Heavy Chocolates,生のヘビー・チョコレート
+buildcraft.christmas.fluid.oil_residue,Caramel Excess,キャラメル過剰
+buildcraft.christmas.fluid.fuel_mixed_heavy,Darker Chocolate Mix,より暗いチョコレートミックス
+buildcraft.christmas.fluid.fuel_mixed_light,Lighter Chocolate Mix,軽いチョコレートミックス
+buildcraft.christmas.fluid.fuel_dense,Dark Chocolate,ダークチョコレート
+buildcraft.christmas.fluid.fuel_light,Milk Chocolate,ミルクチョコレート
+buildcraft.christmas.fluid.fuel_gaseous,White Chocolate,ホワイトチョコレート
+buildcraft.christmas.buildcraft.fluid.heat_0,§bMelted§r %s,§b溶解した§r %s
+buildcraft.christmas.buildcraft.fluid.heat_1,§6Bubbling§r %s,§6泡立つ§r %s
+buildcraft.christmas.buildcraft.fluid.heat_2,§cSearing§r %s,§c灼熱§r %s
+buildcraft.christmas.tile.engineIron.name,Chocolate Engine,チョコレートエンジン
+gate.action.pulsar.constant,Power Pulsar,エンジン動力を出力する
+gate.action.pulsar.single,Single Power Pulse,エンジン動力を一度だけ出力する
+gate.action.pipe.direction,Face the %s side,%s側を向いて
+gate.material.nether_brick,Nether Brick,ネザー・ブリック
+gate.slots,%s Slots,%s スロット
+gate.params,%s Slot Parameters,%s スロットパラメータ
+gate.params.trigger,%s Trigger Parameters,%s トリガーパラメータ
+gate.params.action,%s Action Parameters,%s アクションパラメータ
+gate.side,§7on the %s§7 side,§7%s側に§7
+gate.trigger.true,Always On,常にオン
+gate.trigger.redstone.input.equal,Redstone Signal Equal,レッドストーン信号等しい
+gate.trigger.redstone.input.greater,Redstone Signal Greater Than,レッドストーン信号がより大きい
+gate.trigger.redstone.input.less,Redstone Signal Less Than,レッドストーン信号が以下の場合
+gate.trigger.machine.energyStored.high,High Power Stored,高電力蓄積
+gate.trigger.machine.energyStored.low,Low Power Stored,低電力が蓄えられています
+gate.trigger.machine.energyStored.below25,Power < 25%,パワー < 25%
+gate.trigger.machine.energyStored.below50,Power < 50%,パワー < 50%
+gate.trigger.machine.energyStored.below75,Power < 75%,パワー < 75%
+gui.power,Power,力
+gui.assemblyRate,Rate,レート
+gui.assemblyCurrentRequired,Required,要求エネルギー
+gui.list.nbt,"Require Exact Match\n§7(Enchantments, names and stored data must precisely match)",完全一致が必要\\n§7（エンチャント、名前、および保存データは正確に一致する必要があります）」
+gui.list.metadata,Accept Variations\n§7(Same Type),メタデータ無視
+gui.list.oredict,Accept Equivalents\n§7(Same Material),鉱石辞書有効
+gui.ledger.ownership,Owner,所有者
+gui.ledger.help,Help,ヘルプ
+gui.progress,Progress,進捗
+gui.leftToBreak,To break,破壊する
+gui.leftToPlace,To place,配置する
+item.diamondShard.name,Diamond Shard,ダイヤモンドの欠片
+item.pipeWire.name,Pipe Wire,パイプワイヤー
+item.schematicSingle.name,Single Block Schematic,単一ブロック図面
+item.plasticSheet.name,Plastic Sheet,プラスチックシート
+item.markerConnector.name,Marker Connector,マーカー接続器
+item.pulsar.name,Pipe Pulsar,パイプパルサー
+item.fragile_fluid_shard.name,Fragile %s Shard,脆弱な%sの破片
+item.waterGel.name,Water Gelifier,水ゲル化剤
+item.gel.name,Gelled Water,凝固した水
+item.buildcraft_pipe_wood_item.name,Wooden Transport Pipe,木の輸送パイプ
+item.buildcraft_pipe_cobblestone_item.name,Cobblestone Transport Pipe,丸石の輸送パイプ
+item.buildcraft_pipe_stone_item.name,Stone Transport Pipe,石の輸送パイプ
+item.buildcraft_pipe_andersite_item.name,Andersite Transport Pipe,アンダースァイト輸送パイプ
+item.buildcraft_pipe_andersite_polished_item.name,Polished Andersite Transport Pipe,研磨されたアンダーサイト輸送パイプ
+item.buildcraft_pipe_diorite_item.name,Diorite Transport Pipe,閃緑岩輸送パイプ
+item.buildcraft_pipe_diorite_polished_item.name,Polished Diorite Transport Pipe,磨きドイライト輸送パイプ
+item.buildcraft_pipe_granite_item.name,Granite Transport Pipe,花崗岩輸送パイプ
+item.buildcraft_pipe_granite_polished_item.name,Polished Granite Transport Pipe,磨き上げられた花崗岩輸送パイプ
+item.PipeItemsAndesite.name,Andesite Transport Pipe,安山岩輸送パイプ
+item.PipeItemsDiorite.name,Diorite Transport Pipe,閃緑岩輸送パイプ
+item.PipeItemsGranite.name,Granite Transport Pipe,花崗岩輸送パイプ
+item.PipeItemsWoodenDiamond.name,Wooden Diamond Transport Pipe,木製ダイヤモンド輸送パイプ
+item.PipeFluidsAndesite.name,Andesite Fluid Pipe,安山岩流体パイプ
+item.PipeFluidsDiorite.name,Diorite Fluid Pipe,閃緑岩流体パイプ
+item.PipeFluidsGranite.name,Granite Fluid Pipe,グラナイト流体パイプ
+item.PipeFluidsWoodenDiamond.name,Wooden Diamond Fluid Pipe,木製ダイヤモンド流体パイプ
+item.light_sensor.name,Light Sensor,光センサー
+item.buildcraft.guide.name,BuildCraft Guide Book,BuildCraft ガイドブック
+item.buildcraft.guide_note.name,BuildCraft Guide Book Note,BuildCraft ガイドブックノート
+item.buildcraft.robot_goggles.name,Robot Goggles,ロボットゴーグル
+item.buildcraft.filler_planner.name,Filler Planner,埋め込み計画者
+itemGroup.buildcraft.plugs,BuildCraft Pluggables,BuildCraft プラグ可能アイテム
+tile.architectBlock.tip,Not usable in survival,サバイバルでは使用不可
+tile.chuteBlock.name,Chute,シュート
+tile.builderBlock.tip,Not usable in survival,サバイバルでは使用不可
+tile.chargingTableBlock.tip,Nothing can be charged with this!,これで何も充電できません！
+tile.fillerBlock.tip,Not usable in survival.,生存モードでは使用できません。
+tile.integrationTableBlock.tip,No recipes use this!,このアイテムはレシピで使用されません！
+tile.libraryBlock.tip,Not usable in survival,サバイバルでは使用不可
+tile.quarryBlock.name,Quarry,露天採掘機
+tile.programmingTableBlock.tip,"Robots aren't coming to 1.12.2, so this table is useless :(",ロボットは1.12.2には来ませんので、このテーブルは役立ちません :(
+tile.zonePlannerBlock.name,Zone Planner,範囲指定機
+tile.zonePlannerBlock.tip,"Robots aren't coming to 1.12.2, so this is useless :(",ロボットは1.12.2には来ないので、これは無駄です :(
+tile.distiller.name,Distiller,蒸留器
+tile.heat_exchange.name,Heat Exchanger,熱交換器
+tile.decorated.blueprint.name,Blueprint (Decoration),青図（装飾）」
+tile.decorated.template.name,Template (Decoration),テンプレート（装飾）
+tile.decorated.laser_back.name,Laser (Decoration),レーザー（装飾）
+tip.PipePowerDiamond,Selectable Limiter Pipe,エネルギー流量調整パイプ
+tip.filler.invert.on,Invert,反転
+tip.filler.invert.off,Do Not Invert,反転しない
+tip.shift.PipePowerDiamond,Change the limit with a wrench or gates,レンチまたはゲートでリミットを変更する
+command.buildcraft.version.fail,Version check failed! Check the log file for details.,バージョンチェックに失敗しました！詳細はログファイルを確認してください。
+command.buildcraft.version.prerelease,You are using a pre-release build,プレリリースビルドを使用しています
+buildcraft.item.nonclean.usage,Shift-right click to clean,右クリックで清掃
+buildcraft.guide.book.meta.name,BuildCraft Configuration Guide,BuildCraft 設定ガイド
+buildcraft.guide_book.reloaded,Guide Book Reloaded,ガイドブック リロード
+buildcraft.guide.too_many_results,Too many results to display: %s,表示できる結果が多すぎます：%s
+buildcraft.guide.contents.loaded_modules,Loaded modules:,ロードされたモジュール:
+buildcraft.guide.contents.missing_modules,Missing modules:,欠落しているモジュール:
+buildcraft.guide.order.type_subtype,Sort By Type,タイプで並べる
+buildcraft.guide.order.mod_type,Sort By Mod,モッドで並べる
+buildcraft.guide.order.alphabetical,Sort Alphabetically,アルファベット順に並べる
+buildcraft.guide.recipe.create,Recipe,レシピ
+buildcraft.guide.recipe.create.plural,Recipes,レシピ
+buildcraft.guide.recipe.use,Use,使用
+buildcraft.guide.recipe.use.plural,Uses,用途
+buildcraft.guide.chapter.contents,Contents,内容
+buildcraft.guide.contents.all_group,Others,その他
+buildcraft.guide.contents.item_stacks,Items and Blocks,アイテムとブロック
+buildcraft.guide.contents.triggers,Triggers,トリガー
+buildcraft.guide.contents.actions,Actions,アクション
+buildcraft.guide.chapter.type.unknown,Unknown Type!,不明なタイプ！
+buildcraft.guide.chapter.type.block,Blocks,ブロック
+buildcraft.guide.chapter.type.item,Items,アイテム
+buildcraft.guide.chapter.type.pipe,Pipes,パイプ
+buildcraft.guide.chapter.type.trigger,Triggers,トリガー
+buildcraft.guide.chapter.type.action,Actions,アクション
+buildcraft.guide.chapter.type.config,Configuration,設定
+buildcraft.guide.chapter.subtype.unknown,Unknown Subtype!,不明なサブタイプ!
+buildcraft.guide.chapter.subtype.gear,Gears,ギア
+buildcraft.guide.chapter.subtype.tool,Tools,ツール
+buildcraft.guide.chapter.subtype.fluid,Fluid,流体
+buildcraft.guide.chapter.subtype.mining,Mining,採掘
+buildcraft.guide.chapter.subtype.engine,Engines,エンジン
+buildcraft.guide.chapter.subtype.automation,Automation,自動化
+buildcraft.guide.chapter.subtype.pipe_item,Item Transport,アイテム輸送
+buildcraft.guide.chapter.subtype.pipe_fluid,Fluid Transport,流体輸送
+buildcraft.guide.chapter.subtype.pipe_plug,Pluggables,プラグイン
+buildcraft.guide.chapter.subtype.refining,Refining,精製
+buildcraft.guide.chapter.subtype.laser,Laser Power,レーザーのパワー
+buildcraft.guide.chapter.subtype.basic,Basic,ベーシック
+buildcraft.guide.chapter.subtype.resourcepack,Resource Pack,リソースパック
+buildcraft.guide.chapter.stage.unknown,Unknown Era!,不明な時代！
+buildcraft.guide.chapter.stage.base,Basic Resources,基本資源
+buildcraft.guide.chapter.stage.common,Common Materials,一般的な素材
+buildcraft.guide.chapter.stage.rare,Rare Elements,稀有な元素
+buildcraft.guide.chapter.stage.nether,Nether,ネザー
+buildcraft.guide.chapter.stage.end,Ender,エンダー
+buildcraft.guide.chapter.mod.unknown,Unknown Mod!,不明なモジュール！
+buildcraft.guide.chapter.submod.unknown,Unknown SubMod!,不明なサブモッド！
+buildcraft.guide.chapter.submod.lib,Lib,ライブラリ
+buildcraft.guide.chapter.submod.core,Core,コア
+buildcraft.guide.chapter.submod.factory,Factory,工場
+buildcraft.guide.chapter.submod.energy,Energy,エネルギー
+buildcraft.guide.chapter.submod.transport,Transport,輸送
+buildcraft.guide.chapter.title.gate_base,Gates,ゲート
+buildcraft.guide.page.guide_page_format,Guide Page File Format,ガイドページファイル形式
+buildcraft.guide.page.json_insn_format,Json Instruction File Format,JSON指示ファイル形式
+buildcraft.guide.page.registry_overview,Json Registry Overview,Json登録概要
+buildcraft.guide.meta.group.linking_to,Linked To,接続済み
+buildcraft.guide.meta.group.linked_from,Linked From,リンク先
+buildcraft.guide.group.to.buildcraft.pipe_power_providers,Pipe Power Providers,パイプ電力供給者
+buildcraft.guide.group.from.buildcraft.pipe_power_providers,Pipe Power Receivers,パイプ電力受信器
+buildcraft.guide.group.to.buildcraft.full_power_providers,Full Power Providers,全電力供給器
+buildcraft.guide.group.from.buildcraft.full_power_providers,Full Power Receivers,全電力受信器
+buildcraft.guide.group.to.buildcraft.laser_power_providers,Laser Power Providers,レーザーパワープロバイダー
+buildcraft.guide.group.from.buildcraft.laser_power_providers,Laser Power Receivers,レーザーパワー受信機
+buildcraft.guide.group.to.buildcraft.area_markers,Area Markers,エリアマーカー
+buildcraft.guide.group.from.buildcraft.area_markers,Area dependent blocks,領域依存ブロック
+buildcraft.help.tank.generic,"Clicking this with an empty bucket will\nempty this tank into the bucket, or\nusing a full bucket will fill this tank\nfrom the bucket.","空のバケツでクリックするとこのタンクを空にしてバケツに入れることができます。
+または満杯のバケツを使えばこのタンクをバケツから満たしことができます。"
+buildcraft.help.tank.title.tankFuel,Fuel Tank,燃料タンク
+buildcraft.help.tank.title.tankCoolant,Coolant Tank,冷却タンク
+buildcraft.help.tank.title.tankResidue,Residue Tank,残渣タンク
+buildcraft.help.tank.fuel,This tank can accept any kind of fuel.,このタンクは、どんな燃料でも受け入れられます。
+buildcraft.help.tank.coolant,"This tank can accept any kind of fluid\ncoolant, or ice blocks.",このタンクは任意の液体、冷却材、または氷ブロックを受け入れます。
+buildcraft.help.tank.residue,This tank will output residue if the\nfuel hasn't been processed\n(for example oil).,このタンクは、燃料（例：オイル）が処理されていない場合に残留物を出力します。
+buildcraft.help.stone_engine.flame.title,Fuel left,残り燃料
+buildcraft.help.stone_engine.fuel.title,Fuel input,燃料入力
+buildcraft.help.stone_engine.flame,THIS BURNS AND THIS HELP ISN'T DONE YET.,これが燃えており、この援助はまだ完了していません。
+buildcraft.help.stone_engine.fuel,Accepts any fuel that a furnace does.,炉が使用可能な任意の燃料を受け付けます
+advancements.buildcraftcore.root.description,For all your engineering needs,あなたのエンジニアリングニーズに対応
+advancements.buildcraftcore.guide.title,How does this work again?,どうやって動くのか？
+advancements.buildcraftcore.guide.description,Check out the guide,ガイドをチェック
+advancements.buildcraftcore.gears.title,Gearing up,ギアアップ
+advancements.buildcraftcore.gears.description,Get one of each gear,各ギアを1つ取得
+advancements.buildcraftcore.wrenched.title,Wrenched!,ねじられ
+advancements.buildcraftcore.wrenched.description,Use the wrench,レンチを使う
+advancements.buildcraftcore.freePowar.title,Free Power!,無料パワー！
+advancements.buildcraftcore.freePowar.description,Generate free power,無料で電力生成
+advancements.buildcraftcore.list.title,Sorting all the things,すべてのものを整理
+advancements.buildcraftcore.list.description,Discover the advanced capabilities of the list,リストの高度な機能を発見してください。
+advancements.buildcraftcore.engine.title,My first engine,私の最初のエンジン
+advancements.buildcraftcore.engine.description,Get your first engine,最初のエンジンを取得する
+advancements.buildcraftcore.markers.title,Marking your territory,あなたの領土をマーク
+advancements.buildcraftcore.markers.description,Use volume markers to mark out an area,音量マーカーを使ってエリアを指定してください
+advancements.buildcraftcore.path_markers.title,Defining the trail,トレイルを定義する
+advancements.buildcraftcore.path_markers.description,Define a path,パスを定義する
+advancements.buildcraftcore.paper.title,Paper collector,紙の収集者
+advancements.buildcraftcore.paper.description,Use every piece of paper,紙をすべて使う
+advancements.buildcraftenergy.poweringUp.title,Powering Up!,充電中！
+advancements.buildcraftenergy.poweringUp.description,Activate a Stirling/Combustion engine with a redstone signal,レッドストーン信号でスターリング/コンビュージョンエンジンを起動します
+advancements.buildcraftenergy.lava_power.title,Lava Power,熔岩電力
+advancements.buildcraftenergy.lava_power.description,Power a strling engine with a lava bucket,溶岩バケツでストリングエンジンに電力を供給する
+advancements.buildcraftenergy.to_much_power.title,To much power!,過剰な電力！
+advancements.buildcraftenergy.to_much_power.description,Make an engine overheat and wackit it with a wrench,エンジンを過熱させ、レンチで叩く
+advancements.buildcraftenergy.ice_cool.title,Ice cool,冷たい
+advancements.buildcraftenergy.ice_cool.description,Cool a combustion engine with something else then water (if available),燃焼エンジンを水以外で冷却する（利用可能なら）
+advancements.buildcraftenergy.sticky_dipping.title,Sticky dipping,粘着性の浸漬
+advancements.buildcraftenergy.sticky_dipping.description,Discover the sticky nature of oil,油の粘性を発見する
+advancements.buildcraftenergy.fine_riches.title,Fine riches,豊かな資源
+advancements.buildcraftenergy.fine_riches.description,Find an oil biome,油のバイオームを探す
+advancements.buildcraftenergy.refine_and_redefine.title,Refine and redefine,精製と合成
+advancements.buildcraftenergy.refine_and_redefine.description,Produce a tank full of every single type of oil and fuel,すべての種類の油と燃料で満たされたタンクを生成します。
+advancements.buildcraftfactory.fluid_storage.title,Fluid storage,液体ストレージ
+advancements.buildcraftfactory.fluid_storage.description,Store fluid in a tank,タンクに液体を貯蔵する
+advancements.buildcraftfactory.lazy_crafting.title,Lazy crafting,怠慢なクラフト
+advancements.buildcraftfactory.lazy_crafting.description,Make the autoworkbench work for you,オートワークベンチをあなたに合わせる
+advancements.buildcraftfactory.retired_hopper.title,Retired hopper,廃止されたホッパー
+advancements.buildcraftfactory.retired_hopper.description,Put the chute back to work,チュートを再び作業に戻す
+advancements.buildcraftfactory.flooding_the_world.title,Flooding the world,世界を洪水させる
+advancements.buildcraftfactory.flooding_the_world.description,Flood the area with a floodgate,エリアをフラッドゲートで浸水させる
+advancements.buildcraftfactory.draining_the_world.title,Draining the world,世界を排水する
+advancements.buildcraftfactory.draining_the_world.description,Use a pump to drain fluids from the world,ポンプを使って世界から液体を排出する
+advancements.buildcraftfactory.oil_platform.title,Oil platform,油プラットフォーム
+advancements.buildcraftfactory.oil_platform.description,Start Pumping up an oil spout,油の噴水を始める
+advancements.buildcraftfactory.heating_and_distilling.title,Heating and Distilling,加熱と蒸留
+advancements.buildcraftfactory.heating_and_distilling.description,Create a complete oil refining setup with a Distiller and a Heat Exchanger,ディスティラーとヒートエクスチェンジャーで完全なオイル精製セットアップを作成します。
+advancements.buildcraftfactory.black_gold.title,Black gold,黒い黄金
+advancements.buildcraftfactory.black_gold.description,Completely pump out a large oil spout,大きな油の噴水を完全に排出する
+advancements.buildcraftsilicon.laser_power.title,Laser power,レーザーの力
+advancements.buildcraftsilicon.laser_power.description,Make a laser,レーザーを作る
+advancements.buildcraftsilicon.precision_crafting.title,Precision crafting,精密なクラフト
+advancements.buildcraftsilicon.precision_crafting.description,Start crafting with an assembly table,組立テーブルでクラフトを開始する
+advancements.buildcrafttransport.pipe_dream.title,Pipe dream,パイプの夢
+advancements.buildcrafttransport.pipe_dream.description,Place a pipe,パイプを置く
+advancements.buildcrafttransport.pipe_diversification.title,Pipe diversification,パイプの多様化
+advancements.buildcrafttransport.pipe_diversification.description,"Place a item, fluid, kinesis and structure pipe",アイテム、液体、キネシス、および構造パイプを設置します
+advancements.buildcrafttransport.plugging_the_gap.title,Plugging the gap,隙間を埋める
+advancements.buildcrafttransport.plugging_the_gap.description,Plug a pipe,パイプを接続
+advancements.buildcrafttransport.logic_transportation.title,Logic transportation,論理輸送
+advancements.buildcrafttransport.extended_logic.title,Extended logic,拡張論理
+advancements.buildcrafttransport.extended_logic.description,Use a gate with extra slots,余分なスロット付きのゲートを使用
+advancements.buildcrafttransport.sealing_fluids.title,Sealing fluids,液体を封印
+advancements.buildcrafttransport.sealing_fluids.description,Smelt a cactus and craft is dye to produce pipe sealant,サボテンを焼成し、染料を作ってパイプシール剤を生成する
+advancements.buildcrafttransport.pipe_logic.title,Pipe logic,パイプ論理
+advancements.buildcrafttransport.pipe_logic.description,Place a gate on a pipe,パイプにゲートを設置する
+advancements.buildcrafttransport.all_plugged_up.title,All plugged up,すべての接続が完了
+advancements.buildcrafttransport.all_plugged_up.description,Attach one of each unique pluggable to a pipe,パイプにユニークな各プラグ可能アイテムを1つずつ取り付ける
+advancements.buildcrafttransport.pipe_fanatic.title,Pipe fanatic,パイプ熱狂者
+advancements.buildcrafttransport.pipe_fanatic.description,Place down one of each type of pipe,各タイプのパイプを1つずつ置く
+advancements.buildcrafttransport.categorizing_with_colors.title,Categorizing with colors,色で分類
+advancements.buildcrafttransport.categorizing_with_colors.description,Setup a sorting setup using the power of colouring,色付けの力を使って並べ替えセットアップを作成します
+advancements.buildcrafttransport.colorful_electrician.title,Colorful electrician,カラフルな電気技師
+advancements.buildcrafttransport.colorful_electrician.description,Use 16 of each color of pipe wire to make your piping system more robust,各色のパイプワイヤーを16本ずつ使用して、配管システムをより頑丈にしてください
+advancements.buildcraftbuilders.shaping_the_world.title,Shaping the world,世界を形作る
+advancements.buildcraftbuilders.shaping_the_world.description,Craft and place a Quarry,採石場をクラフトして設置する
+advancements.buildcraftbuilders.architect.title,Architect,アーキテクト
+advancements.buildcraftbuilders.architect.description,Scan an area with an architect table and record it in a blueprint/template,アーキテクトテーブルで領域をスキャンし、ブループリント/テンプレートに記録します。
+advancements.buildcraftbuilders.paving_the_way.title,Paving the way,道を整備する
+advancements.buildcraftbuilders.paving_the_way.description,Utilize the builder with a pathmarker to create a path,パスマーカー付きビルダーを使って道を作る
+advancements.buildcraftbuilders.diggy.title,Diggy diggy hole,"掘る,掘る,ホール(Diggy diggy hole)"
+advancements.buildcraftbuilders.diggy.description,Have a 64x64 quarry finish,64x64クエリーを完了させる
+advancements.buildcraftbuilders.start_of_something_big.title,Start of something big,大きな何かの始まり
+advancements.buildcraftbuilders.start_of_something_big.description,Build an extra-large structure with the builder,ビルダーで超大型構造物を作成します
+advancements.buildcraftbuilders.building_for_the_future.title,Building for the future,未来の建築のために
+advancements.buildcraftbuilders.building_for_the_future.description,Set a filler on a loop for long term automation,長期自動化のためにループ上にフィラーを設定
+advancements.buildcraftbuilders.destroying_the_world.title,Destorying the world,世界の破壊
+advancements.buildcraftbuilders.destroying_the_world.description,Have two or more 64 x 64 sized quarries running at once at full speed,64x64サイズの掘削機を2台以上同時にフルスピードで稼働させます。

@@ -1,0 +1,116 @@
+﻿key,source_text,target_text
+smoothfont.key.guiOpen,Open Config GUI,設定画面を開く
+smoothfont.key.categories,Smooth Font,滑らかなフォント
+smoothfont.config.menu.enableInterpolation,Interpolation,リニア補間
+smoothfont.config.menu.blurReduction,Blur Reduction,補間の鮮明化
+smoothfont.config.menu.brightness,Brightness,明るさ
+smoothfont.config.menu.shadowLength,Shadow Length,影の長さ
+smoothfont.config.menu.excludeIntMultiple,Exclude INT Multiples,整数倍サイズは対象外
+smoothfont.config.menu.limitMagnification,Effect Limit MAG,効果制限拡大率
+smoothfont.config.menu.font,Font...,フォント選択…
+smoothfont.config.menu.advancedOptions,Advanced Options...,詳細設定…
+smoothfont.config.menu.performanceMode,Quality Setting,画質設定
+smoothfont.config.menu.performanceMode.0,Quality,品質
+smoothfont.config.menu.performanceMode.1,Performance,パフォーマンス
+smoothfont.config.menu.default,Set to Default,デフォルトに戻す
+smoothfont.config.menu.default.yesno.global,The all settings of Global Config will be set to default values.,すべてのGlobal設定値をデフォルト値に戻します。
+smoothfont.config.menu.default.yesno.player,The all settings of Player Config will be set to Global Config values.,すべてのPlayer設定値をGlobal設定の値に戻します。
+smoothfont.config.menu.exit,Back to Game,ゲームに戻る
+smoothfont.config.menu.playerConfig,Player Config,Player設定
+smoothfont.config.menu.globalConfig,Global Config,Global設定
+smoothfont.config.menu.runMode.0,Mod Enabled,モジュール有効
+smoothfont.config.menu.runMode.1,Mod Disabled,Mod無効
+smoothfont.config.menu.runMode.2,Optimize Only,最適化のみ
+smoothfont.config.menu.title.advanced,Smooth Font [Advanced Options],Smooth Font [詳細設定]
+smoothfont.config.menu.enableAlphaBlend,Alpha Blend,アルファブレンド
+smoothfont.config.menu.allowNPOTTexture,Use NPOT Texture,NPOTテクスチャ
+smoothfont.config.menu.enableMipmap,Mipmap,ミップマップ
+smoothfont.config.menu.enableAnisotropicFilter,Anisotropic Filter,異方性フィルタ
+smoothfont.config.menu.mipmapLodBias,Mipmap LOD Bias,ミップマップLODバイアス
+smoothfont.config.menu.overlayLodBias,Overlay LOD Bias,オーバーレイLODバイアス
+smoothfont.config.menu.forceUnicode,Force Unicode,Unicode強制
+smoothfont.config.menu.removeScaleRestriction,Unlock L-GUI,GUI制限解除
+smoothfont.config.menu.alternativeInterpolation,Force LERP,強制リニア補間
+smoothfont.config.menu.done,Done,完了
+smoothfont.config.font.title,Font Selection,フォント選択
+smoothfont.config.font.fontFilter,Search,検索
+smoothfont.config.font.sizeAdjustField,Autosizing Samples,サイズ調整用追加文字
+smoothfont.config.font.antiAlias,AA,AA
+smoothfont.config.font.antiAlias.0,OFF,オフ
+smoothfont.config.font.antiAlias.1,Normal,通常
+smoothfont.config.font.antiAlias.2,High Precision,高精度
+smoothfont.config.font.style,Style,スタイル
+smoothfont.config.font.style.0,Regular,通常
+smoothfont.config.font.style.1,Bold,太字
+smoothfont.config.font.style.2,Italic,イタリック
+smoothfont.config.font.style.3,Bold Italic,太字&斜体
+smoothfont.config.font.doubleRendering,Emphasis,強調
+smoothfont.config.font.doubleRendering.0,OFF,オフ
+smoothfont.config.font.doubleRendering.1,ASCII Only,ASCIIのみ
+smoothfont.config.font.doubleRendering.2,Non-ASCII,ASCII以外
+smoothfont.config.font.doubleRendering.3,All,すべて
+smoothfont.config.font.fontRes,Resolution,解像度
+smoothfont.config.font.autoSizing.auto,Autosizing,自動サイズ
+smoothfont.config.font.autoSizing.fixed,Fixed Size,固定サイズ
+smoothfont.config.font.fontSize,Size,サイズ
+smoothfont.config.font.fontGap,Gap,間隔
+smoothfont.config.font.fontGap.normal,Normal,通常
+smoothfont.config.font.fontDetailList.on,Detail,詳細
+smoothfont.config.font.fontDetailList.off,Simple,シンプル
+smoothfont.config.font.size.normal,Normal,通常
+smoothfont.config.font.alignBaseline2.on,Align Baseline,ベースライン揃え
+smoothfont.config.font.alignBaseline2.off,Align Ascent-line,アセントライン揃え
+smoothfont.config.font.spaceWidth,SPC width,スペース幅
+smoothfont.config.font.spaceWidth.normal,DEF,標準
+smoothfont.config.font.targetToReplace,Target,ターゲット
+smoothfont.config.font.targetToReplace.0,Standard,標準
+smoothfont.config.font.targetToReplace.1,All,すべて
+smoothfont.config.font.apply,Apply,適用
+smoothfont.config.font.finish,Done,完了
+smoothfont.config.font.memUsage,Memory Usage,メモリ使用量
+smoothfont.config.font.fontWidthDefault,D-width,Default文字幅
+smoothfont.config.font.fontWidthUnicode,U-width,Unicode文字幅
+smoothfont.config.font.fontWidth.normal,Normal,通常
+smoothfont.config.ON,ON,オン
+smoothfont.config.OFF,OFF,オフ
+smoothfont.config.auto,Auto,自動
+smoothfont.config.unlimited,Unlimited,無制限
+smoothfont.config.default,Default,デフォルト
+smoothfont.msg.transformingFailed,Transforming was failed. It may be in conflict.,Coreでエラーを検出しました。競合している可能性があります。
+smoothfont.msg.notWorking,The MOD is not working properly. It may be in conflict.,MODが正常動作していません。競合している可能性があります。
+smoothfont.msg.detectFastCraft,FastCraft was detected. Please set enableFontRendererTweaks=false in fastcraft.ini.,FastCraftを検出しました。fastcraft.iniでenableFontRendererTweaks=falseに設定してください。
+smoothfont.tooltip.enableInterpolation,Linear Interpolation\nApply linear interpolation filter to characters.,リニア補間\n拡大縮小時のリニア補間フィルタを有効にします。
+smoothfont.tooltip.blurReduction,Blur Reduction\nApply a blur reduction to interpolated characters below specified resolution.,補間の鮮明化\n指定解像度以下の文字に対して、リニア補完時の滲みを改善します。
+smoothfont.tooltip.brightness,"Brightness\nAdjust a brightness of interpolated characters. ""Auto"" enables automatic brightness adjustment for the current font.",輝度\nリニア補完された文字の明るさを調整します。「自動」にしておくと現在のフォントから輝度を自動計算します。
+smoothfont.tooltip.excludeIntMultiple,Exclude INT Multiples\nThe integral multiple of default size characters are not effected.,整数倍サイズは対象外\n整数倍サイズの文字は効果の対象外とします。
+smoothfont.tooltip.limitMagnification,Effect Limit Magnification\nThe effect will not be applied to characters above the specified magnification.,効果制限拡大率\n指定した拡大率以上の文字には効果を適用しません。
+smoothfont.tooltip.performanceMode,Quality Setting\nA setting related to image quality and performance.\n§fQuality§7: Improve image quality by using all functions.\n§fPerformance§7: Give priority to performance by disabling some functions.,画質設定\n画質と性能に関する設定です。\n§f画質優先§7：すべての機能を使用して画質を向上させます。\n§f性能優先§7：いくつかの機能を無効にして性能を優先させます。
+smoothfont.tooltip.setToDefault,"Set to Default\nThe settings will be set to default values except the settings that cannot be set in the GUI. In Player Config mode, the settings will be set to Global Config values.",デフォルト設定\n設定をデフォルト値に戻します。但しGUIで設定できない項目は変更されません。Player設定の場合はGlobal設定の値に戻します。
+smoothfont.tooltip.configSelection,Config Selection\nSwitch between Global Config and Player Config. Global Config is same as a normal cfg file of forge mods. Player Config saves some user preferences to the configuration file specific to the player.,設定切替\nGlobal設定とPlayer設定を切り替えます。Global設定は通常のMODのcfgファイルと同じ扱いです。Player設定はプレイヤー固有のファイルに一部の設定を保存します。
+smoothfont.tooltip.runMode,"Enable/Disable mod\nEnable or Disable the font rendering features by this mod.\n§fEnabled§7: Enable the font rendering features of this mod.\n§fDisabled§7: Disable the font rendering features of this mod and use the original font renderer.\n§fOptimize Only§7: Disable the font rendering features of this mod, but enable only optimization by this mod. This improves text rendering performance than the original font renderer.",MODの有効化/無効化\n本MODのフォント描画機能を有効化/無効化します。\n§f有効§7：MODのフォント描画機能を有効にします。\n§f無効§7：MODのフォント描画機能を無効にし、元のフォントレンダラを使用します。\n§f最適化のみ§7：MODのフォント描画機能を無効にしますが、最適化のみ有効にします。通常よりもテキスト表示性能を向上させます。
+smoothfont.tooltip.enableAlphaBlend,Alpha Blending\nEnable alpha blending to smooth characters.,アルファブレンド\nフォントを滑らかに表示します。
+smoothfont.tooltip.allowNPOTTexture,Use NPOT Texture\nMake it possible to use non power of two texture. VRAM usage may be reduced and texture loading may become faster. Some GPUs may have rendering problems using NPOT texture.,NPOTテクスチャ\n2のべき乗以外の大きさのテクスチャを使用可能にします。VRAM使用量を節約し、テクスチャの読込が速くなる可能性があります。GPUによっては描画に問題が出る場合があります。
+smoothfont.tooltip.enableMipmap,Mipmap\nEnable mipmap. Readability of small character improves.,ミップマップ\nミップマップを有効にします。小さなフォントの可読性が向上します。
+smoothfont.tooltip.enableAnisotropicFilter,Anisotropic Filter\nEnable the anisotropic filter. Readability of characters at oblique viewing angles improves.,異方性フィルタ\n異方性フィルタを有効にします。斜めの視野角からみた文字の見やすさを向上させます。
+smoothfont.tooltip.mipmapLodBias,"Mipmap LOD Bias\nAdjust the effectiveness of the mipmap for the scaled down characters. Characters are displayed more clearly with a negative value, but they may be chipped or flickering. The closer to zero the higher the quality of scaling down, the less chipped and flickering, but it looks a bit blurry.",ミップマップLODバイアス\n縮小時のミップマップの効き具合を調整します。マイナス値ほどくっきり表示されますが文字が欠けたりチラついたりする場合があります。ゼロに近づくほど高品質な縮小となり欠けやチラつきが少なくなりますが、少しぼやけて見えます。
+smoothfont.tooltip.overlayLodBias,Overlay LOD Bias\nThis is the setting for overlay screen characters. Adjust the effectiveness of the mipmap for the scaled down characters. Characters are displayed more clearly with a negative value. The closer to zero the higher the quality of scaling down.,オーバーレイLODバイアス\nオーバーレイ画面に表示されている文字に対する設定です。縮小時のミップマップの効き具合を調整します。マイナス値ほどくっきり表示されます。ゼロに近づくほど高品質な縮小となります。
+smoothfont.tooltip.forceUnicode,"Force unicode font\nForces all characters to be displayed in unicode font. If you restore the original state completely, you must turn it off and restart Minecraft.",Unicodeフォントを強制\nすべての文字を強制的にUnicodeフォントで表示します。完全に元に戻す場合は、オフにした後でMinecraftを再起動する必要があります。
+smoothfont.tooltip.removeScaleRestriction,"Unlock Large GUI\nWhen using Unicode font, enable ""Large"" GUI scale. (This enables all GUI scales other than integral multiples.)",GUIスケール制限を解除\nUnicodeフォント使用時に「大きい」サイズのGUIを使用可能にします。(整数倍以外のGUIスケールも使えるようにします。)
+smoothfont.tooltip.alternativeInterpolation,"Force Linear Interpolation\nThis is experimental. Force linear interpolation to Unicode glyph texture. MOD's original font renderer may be affected as well, but the font is not changed.",強制リニア補間\n実験的機能です。Unicodeフォントテクスチャに強制的にリニア補間を適用します。MODの独自レンダラにも効果があるかもしれませんが、フォントは変更されません。
+smoothfont.tooltip.font.sizeAdjustField,"Autosizing Samples\nThis option is useful when certain characters are oversized and can not be drawn correctly. In autosizing, the font size is automatically adjusted so that the whole character entered here can be drawn. Multiple characters can be specified.",サイズ調整用追加文字\n自動サイズ検出において、特定の文字の上下左右が切れてしまう場合、ここに入力した文字が描画できる様にフォントの大きさを自動調整します。複数文字を指定可能です。
+smoothfont.tooltip.font.fontNameList,Font List\nYou can select fonts. §eYellow§7 indicates the secondary font. The secondary font is used instead of the character that can not be displayed in the main font. You can select the secondary font by double-clicking or shift-clicking. Pressing [F5] rescan external font folders.,フォント一覧\nフォントを選択します。§e黄色§7はセカンダリフォントです。セカンダリフォントはメインフォントで表示できない文字の代わりに使用されます。セカンダリフォントはダブルクリック、または、シフト+クリックで選択できます。[F5]で外部フォントフォルダを再スキャンします。
+smoothfont.tooltip.font.fontDetailList,Font List Mode\n§fSimple§7: List of font family name\n§fDetail§7: List of all font name,フォント一覧モード\n§f簡易§7：フォントファミリー名で選択\n§f詳細§7：すべてのフォントから選択
+smoothfont.tooltip.font.fontNameFilter,Font Name Filter,フォント名フィルター
+smoothfont.tooltip.font.fontRes,"Glyph Resolution\nSelect glyph texture resolution. The higher the resolution, the more memory and VRAM will be consumed. An asterisk ""*"" indicates the recommendation value for the current GUI scale.",解像度\n文字テクスチャの解像度を選択します。解像度が高くなるほどメモリとVRAMを消費します。「*」マークは現在のGUIの大きさにおける推奨解像度を示します。
+smoothfont.tooltip.font.fontSize,Display Size\nAdjust the character display size.,表示サイズ\n文字の表示サイズを調整します。
+smoothfont.tooltip.font.fontGap,Gap\nSpecify the character spacing.,間隔\n文字の間隔を指定します。
+smoothfont.tooltip.font.antiAlias,Anti-Alias\nDraw font smoothly.\n§fNormal§7: Draws with rounding to pixels.\n§fHigh precision§7: Draws without rounding to pixels.,アンチエイリアス\nフォントを滑らかに表示します。\n§f通常§7：ピクセルに丸めて描画します。\n§f高精度§7：ピクセルに丸めずに描画します。
+smoothfont.tooltip.font.style,Style\nSet the font style to bold and/or italic. The font style can be set independently for each selected fonts.,スタイル\n太字と斜体を設定します。\nフォント毎に別々の設定が可能です。
+smoothfont.tooltip.font.doubleRendering,Emphasis\nEmphasize the characters.\n§fASCII only§7: Emphasize ASCII characters only.\n§fNon-ASCII§7: Emphasize non-ASCII characters.\n§fAll§7: Emphasize all characters.,強調\n文字を強調表示します。\n§fASCIIのみ§7：ASCII文字のみ強調します。\n§fASCII以外§7：ASCII文字以外を強調します。\n§fすべて§7：すべての文字を強調します。
+smoothfont.tooltip.font.fontAutoSizing,"Autosizing / Fixed Size\nHow to determine appropriate font size for the specified resolution.\n§fAuto§7: Auto-detects the appropriate font size.\n§fFixed§7: Resolution = Font size.\nUsually ""§fAuto§7"" is recommended. ""§fFixed§7"" is convenient when using bitmap fonts such as 8 or 12 dots at low resolution.","自動サイズ / 固定サイズ\n指定解像度に対する適切なフォントサイズの検出方法です。\n§f自動§7：適切なフォントサイズを自動検出します。\n§f固定§7：解像度=フォントサイズとみなします。\n通常は「§f自動§7」を推奨します。低解像度で8,12ドット等のビットマップフォントを使用する場合は「§f固定§7」が便利です。"
+smoothfont.tooltip.font.fontAlignBaseline2,"Align Baseline / Align Ascent-line\nSelect the reference position in the vertical alignment.\n§fBaseline§7: Align fonts with baseline.\n§fAscent-line§7: Align fonts with ascent-line(top of font).\nUsually ""§fbaseline§7"" is recommended. If the vertical position between fonts is misaligned when using small bitmap fonts(8px or 10px, etc), try ""§fAscent-line§7"".",ベースライン揃え / アセントライン揃え\nフォントの縦方向配置をどこで揃えるかを指定します。\n§fベースライン§7：ベースラインで揃えます。\n§fアセントライン§7：アセントライン(フォント上部)で揃えます。\n通常は「§fベースライン§7」を推奨します。8pxや10pxのビットマップフォント使用時に、フォントの縦方向の配置がずれている場合は「§fアセントライン揃え§7」を試してみてください。
+smoothfont.tooltip.font.spaceWidth,"Space Width\nSelect the space width.\n§fAuto§7: Use a font-specific space width.\n""4"" is a default space width of Minecraft.",スペース幅\nスペースの幅を指定します。\n§f自動§7：フォント固有のスペース幅を使用します。\n「4」がデフォルトのスペース幅です。
+smoothfont.tooltip.font.targetToReplace,Target to Replace\nSpecify a replace manner of fonts.\n§fStandard§7: Only a MC standard font and an unicode font are replaced.\n§fAll§7: All fonts including special fonts specified by other mods are replaced.,フォント置換対象\nフォントの置換対象を設定します。\n§f標準§7：Minecraftの標準フォント/Unicodeフォントのみを置き換えます。\n§fすべて§7：MOD指定のフォントも含めてすべてのフォントを置き換えます。
+smoothfont.tooltip.font.memUsage,Memory Usage\nTotal memory usage to hold the all glyph images of the platform fonts currently in use.,メモリ使用量\n現在使用しているフォントの全グリフイメージを保持するのに使用している総メモリ量です。
+smoothfont.tooltip.font.widthFactorDefault,Default character width\nTransform fonts of MC default charset narrowly or widely.,Default文字幅\nデフォルトフォント用文字セットの文字幅を調整します。
+smoothfont.tooltip.font.widthFactorUnicode,Unicode character width\nTransform fonts of unicode charset narrowly or widely.,Unicode文字幅\nUnicodeフォント用文字セットの文字幅を調整します。デフォルトのUnicodeフォントがコンパクトに表示されることを前提としたゲーム内ガイドブックなどがある場合に、この幅を少し狭く設定することで文字がはみ出ないように調整することができます。

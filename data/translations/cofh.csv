@@ -1,0 +1,594 @@
+﻿key,source_text,target_text
+chat.cofh.command.clearblocks.failure,No blocks to clear.,除去するブロックはありませんでした
+chat.cofh.command.clearblocks.start,Clearing %s blocks from %s:%s:%s to %s:%s:%s.,%s 個のブロックを、 %s:%s:%s から %s:%s:%s の範囲から除去します
+chat.cofh.command.clearblocks.success,Successfully cleared %s blocks from %s:%s:%s to %s:%s:%s.,%s 個のブロックを、%s:%s:%s から %s:%s:%s の範囲から除去しました
+chat.cofh.command.clearblocks.syntax,/cofh clearblocks {<user> <x radius> <y radius> <z radius> | <x start> <y start> <z start> <x end> <y end> <z end>} [block#meta] [block#meta] ...,/cofh clearblocks {<ユーザー名> <x軸半径> <y軸半径> <z軸半径> | <x開始座標> <y開始座標> <z開始座標> <x終端座標> <y終端座標> <z終端座標>} [ブロック名#メタデータ] [ブロック名#メタデータ] ...
+chat.cofh.command.clearblocks,Clears specified blocks from a specified area in the world.,指定したブロックを、定められた範囲から除去します
+chat.cofh.command.countblocks.failure,No blocks exist in the area.,定められたエリア内にブロックはありませんでした
+chat.cofh.command.countblocks.start,Counting %s blocks from %s:%s:%s to %s:%s:%s.,%s 個のブロックを %s:%s:%s から %s:%s:%s の範囲からカウントします
+chat.cofh.command.countblocks.success,Found %s blocks from %s:%s:%s to %s:%s:%s.,%s 個のブロックが、 %s:%s:%s から %s:%s:%s の範囲内にありました
+chat.cofh.command.countblocks.syntax,/cofh countblocks {<user> <x radius> <y radius> <z radius> | <x start> <y start> <z start> <x end> <y end> <z end>} [block#meta] [block#meta] ...,/cofh countblocks {ユーザー名> <x軸半径> <y軸半径> <z軸半径> | <x開始座標> <y開始座標> <z開始座標> <x終端座標> <y終端座標> <z終端座標>} [ブロック名#メタデータ] [ブロック名#メタデータ] ...
+chat.cofh.command.countblocks,Counts specified blocks from a specified area in the world.,指定したブロックを、定められた範囲からカウントします
+chat.cofh.command.enchant.syntax,/cofh enchant [player] <enchantment ID> [level],/cofh enchant [プレイヤー名] <エンチャントID> [レベル]
+chat.cofh.command.enchant,Improved /enchant. Has no limits on level or applicability.,改良された「/enchant」コマンドですレベル上限や適用の制限がありません
+chat.cofh.command.friend.0,successfully added to your friends list.,フレンドリストに登録しました
+chat.cofh.command.friend.1,"Sorry, there was a problem adding",あなたのフレンドリストへの登録に
+chat.cofh.command.friend.2,to your list.,問題が発生しました
+chat.cofh.command.friend.3,"Sorry, that is not a valid username.",残念ですがこのユーザー名は不正です
+chat.cofh.command.friend.4,successfully removed from your friends list.,フレンドリストからの抹消しました
+chat.cofh.command.friend.5,was not your friend.,はフレンドではありませんでした
+chat.cofh.command.friend.syntax,/cofh friend {gui | add <username> | remove <username>},/cofh friend {gui | add <ユーザー名> | remove <ユーザー名>}
+chat.cofh.command.friend,The command to add and remove friends from your friend list.,このコマンドはあなたのフレンドリストにフレンドを登録・抹消します
+chat.cofh.command.help.0,Available commands are:,使用可能なコマンドは以下のとおりです:
+chat.cofh.command.help.syntax,/cofh help [command],/cofh help [コマンド]
+chat.cofh.command.help,The command to help you out with other commands!,他のコマンドのヘルプを表示します
+chat.cofh.command.killall.noHostile,No hostile mobs found!,敵性Mobは見つかりませんでした
+chat.cofh.command.killall.noMatch,No matching entities found!,条件に合うエンティティは見つかりませんでした
+chat.cofh.command.killall.success,Removed %d entities. (%s),%d 個のエンティティを削除しました (%s)
+chat.cofh.command.killall.successHostile,Removed %d hostile mobs. (%s),%d 体の敵性Mobを削除しました (%s)
+chat.cofh.command.killall.syntax,/cofh killall [partial name],/cofh killall [名前の一部]
+chat.cofh.command.killall,"Kills all of the entities of the given name, and kills all hostile mobs by default.",指定された名前のエンティティを削除します指定しない場合は全ての敵性Mobを削除します
+chat.cofh.command.notFound,Unknown command. Try /cofh help for a list of commands,不明なコマンドです「/cofh help」でコマンドの一覧を表示できます
+chat.cofh.command.pregen.start,Pre-generating %s chunks from %s:%s to %s:%s.,%s チャンクを、%s:%sから%s:%sの範囲で事前生成しました
+chat.cofh.command.pregen.syntax,/cofh pregen {<user> <x chunk radius> <z chunk radius> | <x chunk start> <z chunk start> <x chunk end> <z chunk end>},/cofh pregen {<ユーザー名> <チャンク単位のx軸半径> <チャンク単位のz軸半径> | <チャンク単位のx開始座標> <チャンク単位のz開始座標> <チャンク単位のx終端座標> <チャンク単位のz終端座標>}
+chat.cofh.command.pregen,Pre-generates chunks in a specified area in the world.,指定された範囲のチャンクを事前生成します
+chat.cofh.command.reloadworldgen.success,Successfully reloaded World Generators.,ワールドジェネレーターを再読込しました
+chat.cofh.command.reloadworldgen.syntax,/cofh reloadworldgen,/cofh reloadworldgen
+chat.cofh.command.reloadworldgen,Reloads world generation from disk.,ワールドジェネレーターをディスク上から再読込します
+chat.cofh.command.replaceblocks.failure,No blocks to replace.,置き換えるブロックがありません
+chat.cofh.command.replaceblocks.start,Replacing %s blocks from %s:%s:%s to %s:%s:%s with %s.,%s 個のブロックを %s:%s:%s から %s:%s:%s の範囲内で、 %s で置き換えます
+chat.cofh.command.replaceblocks.success,Successfully replaced %s blocks from %s:%s:%s to %s:%s:%s with %s.,%s 個のブロックを %s:%s:%s から %s:%s:%s の範囲内で、 %s で置き換えました
+chat.cofh.command.replaceblocks.syntax,/cofh replaceblocks {<user> <x radius> <y radius> <z radius> | <x start> <y start> <z start> <x end> <y end> <z end>} <replaceBlock#meta> [block#meta] [block#meta] ...,/cofh replaceblocks {<ユーザー名> <x軸半径> <y軸半径> <z軸半径> | <x開始座標> <y開始座標> <z開始座標> <x終端座標> <y終端座標> <z終端座標>} <置き換えるブロック名#メタデータ> [ブロック名#メタデータ] [ブロック名#メタデータ] ...
+chat.cofh.command.replaceblocks,Replaces specified blocks from a specified area in the world.,指定された範囲内のブロックを指定されたものに置き換えます
+chat.cofh.command.syntax.syntax,/cofh syntax [command],/cofh syntax [コマンド]
+chat.cofh.command.syntax,The command to help you out with the syntax other commands!,このコマンドは他のコマンドの構文を表示します
+chat.cofh.command.syntaxError,Invalid Syntax.,不正な構文です
+chat.cofh.command.tps.syntax,/cofh tps [{o | a | <dim ID>}],/cofh tps [{o | a | <ディメンションID>}]
+chat.cofh.command.tps,Gets the Ticks Per Second on the server. On a perfect server this should be 20.,"サーバー上のTPS(Tick Per Second, 1秒毎のtick数)を取得します正常なサーバーでは、これは20でなければいけません"
+chat.cofh.command.tpx.dimensionOther,Successfully teleported %s to The %2$s at %3$.2f %4$.2f %5$.2f,%1$s は %2$s の %3$.2f %4$.2f %5$.2f にテレポートしました
+chat.cofh.command.tpx.dimensionOtherTo,Successfully teleported %s to %s in %3$s at %4$.2f %5$.2f %6$.2f,%1$s は %3$s に居る %2$s の座標 %4$.2f %5$.2f %6$.2f にテレポートしました。
+chat.cofh.command.tpx.dimensionOtherToSelf,Successfully teleported %s to themself in %2$s at %3$.2f %4$.2f %5$.2f,%1$s は %2$s での自身の座標 %3$.2f %4$.2f %5$.2f にテレポートしました
+chat.cofh.command.tpx.dimensionSelf,Successfully teleported to The %1$s at %2$.2f %3$.2f %4$.2f,%1$s の %2$.2f %3$.2f %4$.2f にテレポートしました
+chat.cofh.command.tpx.other,Successfully teleported %s to %.2f %.2f %.2f,%1$s は %.2f %.2f %.2f にテレポートしました
+chat.cofh.command.tpx.otherTo,Successfully teleported %s to %s at %.2f %.2f %.2f,%1$s は %s の座標 %.2f %.2f %.2f にテレポートしました
+chat.cofh.command.tpx.otherToSelf,Successfully teleported %s to themself at %.2f %.2f %.2f,%1$s は自分自身の座標 %.2f %.2f %.2f にテレポートしました
+chat.cofh.command.tpx.self,Successfully teleported to %.2f %.2f %.2f,%.2f %.2f %.2f にテレポートしました
+chat.cofh.command.tpx.snark.0,Successfully teleported you to yourself!,あなたはあなた自身のところにテレポートしました
+chat.cofh.command.tpx.snark.1,Successfully teleported %s to themself!,%s は自分自身のところにテレポートしました
+chat.cofh.command.tpx.syntax,/cofh tpx [player] {(<player> | <dimension>) | <x> <y> <z> [dimension]},/cofh tpx [プレイヤー名] {(<プレイヤー名> | <ディメンション>) | <x座標> <y座標> <z座標> [ディメンション]}
+chat.cofh.command.tpx,A improved version of the /tp command that works in between dimensions.,「/tp」コマンドの改良版ですディメンションを跨いでテレポート出来ます
+chat.cofh.command.unloadchunk.success,Unloading Chunk at %s:%s,%s:%s のチャンクをアンロードします
+chat.cofh.command.unloadchunk.syntax,/cofh unloadchunk,/cofh unloadchunk
+chat.cofh.command.unloadchunk,Unloads the chunk the player is looking at.,見ているチャンクをアンロードします
+chat.cofh.command.version.0,This mod is on version,CoFH Coreのバージョンは次のとおりです:
+chat.cofh.command.version.syntax,/cofh version,/cofh version
+chat.cofh.command.version,Gives you the version of this mod.,本Mod、CoFH Coreのバージョンを表示します
+chat.cofh.command.world.notFound,World does not exist.,ワールドがありません
+chat.cofh.secure.block.success,This block now belongs to you.,あなたはこのブロックの所有者になりました。
+chat.cofh.secure.item.success,This item now belongs to you.,このアイテムはあなたの物となりました
+chat.cofh.secure.notice,Notice: Server Ops are able to freely access 'secure' blocks on this server.,注意: サーバー管理者はサーバー上のセキュリティの設定されたアイテムであっても、自由にアクセスできます
+chat.cofh.secure.warning,This is private and belongs to %s! You could have lost your hand!,これは %s のみにアクセスが限定されています
+enchantment.cofhcore.holding,Holding,容量拡張
+enchantment.cofhcore.insight,Insight,洞察力
+enchantment.cofhcore.leech,Leech,ヒル
+enchantment.cofhcore.multishot,Multishot,マルチショット
+enchantment.cofhcore.smashing,Smashing,粉砕
+enchantment.cofhcore.smelting,Smelting,製錬
+enchantment.cofhcore.soulbound,Soulbound,ソウルバウンド
+enchantment.cofhcore.vorpal,Vorpal,ヴォーパル
+enchantment.cofhcore.holding.desc,Increases the storage capacity of certain items.,特定のアイテムの容量を増やします。
+enchantment.cofhcore.insight.desc,Increases experience gain when using the item.,取得する経験値が増加します。
+enchantment.cofhcore.leech.desc,Restores health when a mob is killed.,モブを倒した時体力を回復します。
+enchantment.cofhcore.multishot.desc,The bow will fire additional arrows with each shot. Only one arrow is consumed.,弓で攻撃する際に、発射する矢が増えます。一回の行動で消費される矢は1本だけです。
+enchantment.cofhcore.smashing.desc,"Harvested ores will be smashed to pieces, improving yield.",採掘された鉱石は砕かれたものとなり、収量が増加します。
+enchantment.cofhcore.smelting.desc,"Harvested blocks will automatically be smelted, as if by a Furnace.",採掘されたブロックはかまどで焼かれたように精錬されます。
+enchantment.cofhcore.soulbound.desc,The item will remain with the owner after an untimely demise.,アイテムは死んだ後でも手元に持ち越されます。
+enchantment.cofhcore.vorpal.desc,Randomly performs powerful attacks and decapitations.,ランダムに強力な攻撃を行い、首を刎ねます。
+fluid.tconstruct.alubrass,Molten Aluminum Brass,溶融アルミ黄銅
+fluid.tconstruct.aluminum,Molten Aluminum,溶融アルミニウム
+fluid.tconstruct.ardite,Molten Ardite,溶融アーダイト
+fluid.tconstruct.blood,Blood,血
+fluid.tconstruct.blueslime,Liquid Blue Slime,液体青スライム
+fluid.tconstruct.brass,Molten Brass,溶融 真鍮
+fluid.tconstruct.bronze,Molten Bronze,溶融青銅
+fluid.tconstruct.clay,Molten Clay,溶けた粘土
+fluid.tconstruct.cobalt,Molten Cobalt,溶融コバルト
+fluid.tconstruct.copper,Molten Copper,溶融銅
+fluid.tconstruct.dirt,Liquid Dirt,液体土
+fluid.tconstruct.electrum,Molten Electrum,溶融 エレクトラム
+fluid.tconstruct.emerald,Molten Emerald,溶けたエメラルド
+fluid.tconstruct.glass,Molten Glass,溶融ガラス
+fluid.tconstruct.gold,Molten Gold,溶融金
+fluid.tconstruct.iron,Molten Iron,溶融 鉄
+fluid.tconstruct.knightslime,Molten Knightslime,溶騎士スライム
+fluid.tconstruct.lead,Molten Lead,溶融 鉛
+fluid.tconstruct.manyullyn,Molten Manyullyn,溶融マニュリン
+fluid.tconstruct.milk,Milk,牛乳
+fluid.tconstruct.nickel,Molten Nickel,溶融ニッケル
+fluid.tconstruct.obsidian,Molten Obsidian,溶融黒曜石
+fluid.tconstruct.pigiron,Molten Pigiron,溶融豚鉄
+fluid.tconstruct.purpleslime,Liquid Purple Slime,液体紫スライム
+fluid.tconstruct.silver,Molten Silver,溶融銀
+fluid.tconstruct.steel,Molten Steel,溶融鋼
+fluid.tconstruct.stone,Seared Stone,焼成石
+fluid.tconstruct.tin,Molten Tin,溶融スズ
+fluid.tconstruct.zinc,Molten Zinc,溶融亜鉛
+fluid.tile.lava,Lava,溶岩
+fluid.tile.water,Water,水
+gui.cofh.friendList,Friend List,友だちリスト
+gui.cofh.transferInDisabled,Auto-Input Disabled,自動搬入無効
+gui.cofh.transferInEnabled,Auto-Input Enabled,自動搬入有効
+gui.cofh.transferInUnavailable,Auto-Input Unavailable,自動搬入設定不能
+gui.cofh.transferOutDisabled,Auto-Output Disabled,自動搬出無効
+gui.cofh.transferOutEnabled,Auto-Output Enabled,自動搬出有効
+gui.cofh.transferOutUnavailable,Auto-Output Unavailable,自動搬出設定不能
+info.cofh.access,Access,アクセス
+info.cofh.accessPrivate,Owner Only,所有者のみ
+info.cofh.accessPublic,Public Access,公開
+info.cofh.accessRestricted,Restricted,制限あり
+info.cofh.accessTeam,Team Only,チームのみ
+info.cofh.amount,Amount,数量
+info.cofh.area,Area,エリア
+info.cofh.arrows,Arrows,矢
+info.cofh.augmentation,Augmentation,オーグメント
+info.cofh.blank,Blank,空
+info.cofh.capacity,Capacity,容量
+info.cofh.chance,Chance,確率
+info.cofh.charge,Charge,チャージ
+info.cofh.configuration,Configuration,設定
+info.cofh.contents,Contents,内容
+info.cofh.controlStatus,Control Status,設定状態
+info.cofh.damageAttack,Attack Damage,攻撃ダメージ
+info.cofh.damageFlux,Flux Damage,追加攻撃力
+info.cofh.disabled,Disabled,無効
+info.cofh.duration,Duration,持続時間
+info.cofh.empty,Empty,空
+info.cofh.enabled,Enabled,有効
+info.cofh.energy,Energy,エネルギー
+info.cofh.energyConsume,Power Usage,エネルギー消費
+info.cofh.energyMax,Maximum Power,最大エネルギー消費
+info.cofh.energyProduce,Power Output,エネルギー生産
+info.cofh.energyStored,Energy Stored,蓄えられたエネルギー
+info.cofh.experience,Experience,経験値
+info.cofh.filter.list.off,Blacklist,ブラックリスト
+info.cofh.filter.list.on,Whitelist,ホワイトリスト
+info.cofh.filter.metadata.off,Ignore Metadata,メタデータを無視
+info.cofh.filter.metadata.on,Use Metadata,メタデータ使用
+info.cofh.filter.nbt.off,Ignore NBT,NBTを無視
+info.cofh.filter.nbt.on,Use NBT,NBT使用
+info.cofh.filter.oreDict.off,Ignore Ore Dictionary,鉱石辞書無視
+info.cofh.filter.oreDict.on,Use Ore Dictionary,鉱石辞書使用
+info.cofh.filter,Filter,フィルター
+info.cofh.fluid,Fluid,流体
+info.cofh.fluids,Fluids,液体
+info.cofh.high,High,高
+info.cofh.holdShiftForDetails,Hold §e§oShift§r§7 for Details§r,§e§oシフトキー§r§7押下で詳細表示 §r
+info.cofh.ignored,Ignored,無視
+info.cofh.infinite,Infinite,無限
+info.cofh.infiniteEnergy,Infinite RF,無制限のRF
+info.cofh.infiniteFluid,Infinite Fluid,無制限の液体
+info.cofh.infiniteSource,Infinite Source,無限の源
+info.cofh.information,Information,情報
+info.cofh.item,Item,アイテム
+info.cofh.items,Items,アイテム
+info.cofh.input,Input,入力
+info.cofh.level,Level,レベル
+info.cofh.locked,Locked,ロック
+info.cofh.low,Low,低
+info.cofh.modeChange,to Change Mode,キーでモードチェンジします
+info.cofh.none,None,なし
+info.cofh.output,Output,出力
+info.cofh.owner,Owner,所有者
+info.cofh.perUse,Per Use,/1回の使用
+info.cofh.potency,Potency,規模
+info.cofh.radius,Radius,半径
+info.cofh.receive,Receive,受信
+info.cofh.redstoneControl,Redstone Control,レッドストーン制御
+info.cofh.security,Security,セキュリティ
+info.cofh.send,Send,送信
+info.cofh.signalDisabled,Signal: §4Disabled§r,信号：§4無効§r
+info.cofh.signalEnabledHigh,"Signal: §aEnabled§7, High§r",信号：§a有効§7、高§r
+info.cofh.signalEnabledLow,"Signal: §aEnabled§7, Low§r",信号：§a有効§7、低§r
+info.cofh.signalRequired,Signal Required,信号制御
+info.cofh.steam,Steam,蒸気
+info.cofh.steamConsume,Steam Usage,蒸気の使用
+info.cofh.steamMax,Maximum Steam,最大蒸気量
+info.cofh.steamProduce,Steam Output,蒸気の搬出
+info.cofh.steamStored,Steam Stored,蒸気貯蔵
+info.cofh.stored,Stored,保存済み
+info.cofh.tutorial.fluxRequired,Requires Redstone Flux to operate.,機械の稼働にはRFが必要です
+info.cofh.tutorial.tabConfiguration,The Configuration tab determines input and output parameters for this block.,設定タブはブロックにおける搬入出の設定を変更出来ます
+info.cofh.tutorial,Tutorial,使い方
+info.cofh.unlocked,Unlocked,解錠された
+info.cofh.upgradeRequired,Upgrade Required,アップグレードが必要です
+item.invalid.name,Invalid Item (Destroy),不正なアイテム (破壊)
+key.cofh.augments,Open Player Augment GUI,プレイヤーのオーグメントGUIを開く
+key.cofh.category,CoFH Keys,CoFHキー
+key.cofh.multimode,Cycle Item Mode,アイテムモードを変更
+lingering_potion.effect.absorption,Lingering Potion of Absorption,衝撃吸収の残留ポーション
+lingering_potion.effect.haste,Lingering Potion of Haste,残留する採掘速度上昇のポーション
+lingering_potion.effect.resistance,Lingering Potion of Resistance,持続型耐性ポーション
+lingering_potion.effect.unluck,Lingering Potion of Misfortune,不運の残留ポーション
+lingering_potion.effect.wither,Lingering Potion of Decay,Lingering ポーションのDecay
+potion.effect.absorption,Potion of Absorption,衝撃吸収のポーション
+potion.effect.haste,Potion of Haste,早さのポーション
+potion.effect.resistance,Potion of Resistance,耐性のポーション
+potion.effect.unluck,Potion of Misfortune,不運のポーション
+potion.effect.wither,Potion of Decay,ポーションのDecay
+potion.potency.3,IV,IV
+potion.potency.4,V,V
+splash_potion.effect.absorption,Splash Potion of Absorption,衝撃吸収のスプラッシュポーション
+splash_potion.effect.haste,Splash Potion of Haste,スプラッシュ採掘速度上昇のポーション
+splash_potion.effect.resistance,Splash Potion of Resistance,耐性のスプラッシュポーション
+splash_potion.effect.unluck,Splash Potion of Misfortune,不運のスプラッシュポーション
+splash_potion.effect.wither,Splash Potion of Decay,Splash ポーションのDecay
+tab.cofh.friendList.0,Use this list to add and remove Friends!,このリストで友達を追加したり除去したりしよう！
+tab.cofh.friendList.1,"Friends are able to access your secure blocks and items, if you allow them to.",あなたが許可すれば友達はあなたが所有するブロックやアイテムを使用することが出来ます。
+tab.cofh.friendList.2,Friends not provided.,友達は提供されません。
+tipped_arrow.effect.absorption,Arrow of Absorption,衝撃吸収の矢
+tipped_arrow.effect.haste,Arrow of Haste,早さの矢
+tipped_arrow.effect.resistance,Arrow of Resistance,耐性の矢
+tipped_arrow.effect.unluck,Arrow of Misfortune,不運の矢
+tipped_arrow.effect.wither,Arrow of Decay,腐敗の矢
+config.Client.tooltip,Configure client-side only options.,クライアント側のみのオプションを設定します。
+config.Common.tooltip,Configure general options.,一般設定を構成する
+config.Core.tooltip,Configure Core module options.,コアモジュールオプションを設定する.
+config.Loot.tooltip,Configure Loot module options.,Lootモジュールオプションを設定する
+chat.cofh.secure,This is private and belongs to %s! You could have lost your hand!,これは %s のみにアクセスが限定されています
+chat.cofh.secureItem,This item now belongs to you.,このアイテムはあなたの物となりました
+chat.cofh.secureNotice,Notice: Server Ops are able to freely access 'secure' blocks on this server.,注意: サーバー管理者はサーバー上のセキュリティの設定されたアイテムであっても、自由にアクセスできます
+enchant.cofh.holding,Holding,容量拡張
+enchant.cofh.multishot,Multishot,マルチショット
+info.cofh.accessMode,Access Mode,アクセス権限
+info.cofh.addDestination,Add Destination,宛先追加
+info.cofh.addFrequency,Add Frequency,周波数追加
+info.cofh.all,All,すべて
+info.cofh.angle,Angle,角度
+info.cofh.anotherplayer,Another player,別のプレイヤー
+info.cofh.buffer,Buffer,バッファ
+info.cofh.cheater,Cheater!,チートした！
+info.cofh.disable,Disable,無効
+info.cofh.distance,Distance,距離
+info.cofh.dry,Dry,乾燥
+info.cofh.efficiency,Efficiency,効率
+info.cofh.enable,Enable,有効
+info.cofh.folded,Folded,折りたたまれた
+info.cofh.force,Force,強制
+info.cofh.forDetails,for Details,キーを押すと詳細を表示します。
+info.cofh.frequency,Frequency,周波数
+info.cofh.friendsList,Friends List,友だちリスト
+info.cofh.hasInfo,Has Information,情報あり
+info.cofh.hold,Hold,保持
+info.cofh.idle,Idle,待機
+info.cofh.legacy,Legacy,レガシー
+info.cofh.loot,Loot,戦利品
+info.cofh.maxEnergyPerTick,Maximum Power,最大エネルギー消費
+info.cofh.preferences,Preferences,設定
+info.cofh.press,Press,押す
+info.cofh.receiving,Receiving,受信中
+info.cofh.removeDestination,Remove Destination,送信先の登録解除
+info.cofh.removeFrequency,Remove Frequency,周波数登録解除
+info.cofh.sending,Sending,送信中
+info.cofh.setDestination,Set Destination,送信先の登録
+info.cofh.setFrequency,Set Frequency,周波数登録
+info.cofh.shift,Shift,シフト
+info.cofh.signal,Signal,レッドストーン制御
+info.cofh.soaked,Soaked,水浸し
+info.cofh.source,Source,ソース
+info.cofh.strength,Strength,強さ
+info.cofh.success,Success!,完了しました。
+info.cofh.template,Template,テンプレート
+info.cofh.transfer,Transfer,移動
+info.cofh.work,Work,作業
+info.cofh.command.friend,The command to add and remove friends from your friend list.,このコマンドはあなたのフレンドリストにフレンドを登録・抹消します
+info.cofh.command.help,The command to help you out with other commands!,他のコマンドのヘルプを表示します
+info.cofh.command.syntax,The command to help you out with the syntax other commands!,このコマンドは他のコマンドの構文を表示します
+info.cofh.command.killall,"Kills all of the entities of the given name, and kills all hostile mobs by default.",指定された名前のエンティティを削除します指定しない場合は全ての敵性Mobを削除します
+info.cofh.command.tps,Gets the Ticks Per Second on the server. On a perfect server this should be 20.,"サーバー上のTPS(Tick Per Second, 1秒毎のtick数)を取得します正常なサーバーでは、これは20でなければいけません"
+info.cofh.command.tpx,A improved version of the /tp command that works in between dimensions.,「/tp」コマンドの改良版ですディメンションを跨いでテレポート出来ます
+info.cofh.command.version,Gives you the version of this mod.,本Mod、CoFH Coreのバージョンを表示します
+info.cofh.command.enchant,Improved /enchant. Has no limits on level or applicability.,改良された「/enchant」コマンドですレベル上限や適用の制限がありません
+info.cofh.command.clearblocks,Clears specified blocks from a specified area in the world.,指定したブロックを、定められた範囲から除去します
+info.cofh.command.countblocks,Counts specified blocks from a specified area in the world.,指定したブロックを、定められた範囲からカウントします
+info.cofh.command.pregen,Pre-generates chunks in a specified area in the world.,指定された範囲のチャンクを事前生成します
+info.cofh.command.replaceblocks,Replaces specified blocks from a specified area in the world.,指定された範囲内のブロックを指定されたものに置き換えます
+info.cofh.command.reloadworldgen,Reloads world generation from disk.,ワールドジェネレーターをディスク上から再読込します
+info.cofh.command.unloadchunk,Unloads the chunk the player is looking at.,見ているチャンクをアンロードします
+info.cofh.command.friend.syntax,/cofh friend {gui | add <username> | remove <username>},/cofh friend {gui | add <ユーザー名> | remove <ユーザー名>}
+info.cofh.command.help.syntax,/cofh help [command],/cofh help [コマンド]
+info.cofh.command.syntax.syntax,/cofh syntax [command],/cofh syntax [コマンド]
+info.cofh.command.killall.syntax,/cofh killall [partial name],/cofh killall [名前の一部]
+info.cofh.command.tps.syntax,/cofh tps [{o | a | <dim ID>}],/cofh tps [{o | a | <ディメンションID>}]
+info.cofh.command.tpx.syntax,/cofh tpx [player] {(<player> | <dimension>) | <x> <y> <z> [dimension]},/cofh tpx [プレイヤー名] {(<プレイヤー名> | <ディメンション>) | <x座標> <y座標> <z座標> [ディメンション]}
+info.cofh.command.version.syntax,/cofh version,/cofh version
+info.cofh.command.enchant.syntax,/cofh enchant [player] <enchantment ID> [level],/cofh enchant [プレイヤー名] <エンチャントID> [レベル]
+info.cofh.command.clearblocks.syntax,/cofh clearblocks {<user> <x radius> <y radius> <z radius> | <x start> <y start> <z start> <x end> <y end> <z end>} [block#meta] [block#meta] ...,/cofh clearblocks {<ユーザー名> <x軸半径> <y軸半径> <z軸半径> | <x開始座標> <y開始座標> <z開始座標> <x終端座標> <y終端座標> <z終端座標>} [ブロック名#メタデータ] [ブロック名#メタデータ] ...
+info.cofh.command.countblocks.syntax,/cofh countblocks {<user> <x radius> <y radius> <z radius> | <x start> <y start> <z start> <x end> <y end> <z end>} [block#meta] [block#meta] ...,/cofh countblocks {ユーザー名> <x軸半径> <y軸半径> <z軸半径> | <x開始座標> <y開始座標> <z開始座標> <x終端座標> <y終端座標> <z終端座標>} [ブロック名#メタデータ] [ブロック名#メタデータ] ...
+info.cofh.command.pregen.syntax,/cofh pregen {<user> <x chunk radius> <z chunk radius> | <x chunk start> <z chunk start> <x chunk end> <z chunk end>},/cofh pregen {<ユーザー名> <チャンク単位のx軸半径> <チャンク単位のz軸半径> | <チャンク単位のx開始座標> <チャンク単位のz開始座標> <チャンク単位のx終端座標> <チャンク単位のz終端座標>}
+info.cofh.command.reloadworldgen.syntax,/cofh reloadworldgen,/cofh reloadworldgen
+info.cofh.command.unloadchunk.syntax,/cofh unloadchunk,/cofh unloadchunk
+info.cofh.command.syntaxError,Invalid Syntax.,不正な構文です
+info.cofh.command.notFound,Unknown command. Try /cofh help for a list of commands,不明なコマンドです「/cofh help」でコマンドの一覧を表示できます
+info.cofh.command.world.notFound,World does not exist.,ワールドがありません
+info.cofh.command.friend.0,successfully added to your friends list.,フレンドリストに登録しました
+info.cofh.command.friend.1,"Sorry, there was a problem adding",あなたのフレンドリストへの登録に
+info.cofh.command.friend.2,to your list.,問題が発生しました
+info.cofh.command.friend.3,"Sorry, that is not a valid username.",残念ですがこのユーザー名は不正です
+info.cofh.command.friend.4,successfully removed from your friends list.,フレンドリストからの抹消しました
+info.cofh.command.friend.5,was not your friend.,はフレンドではありませんでした
+info.cofh.command.help.0,Available commands are:,使用可能なコマンドは以下のとおりです:
+info.cofh.command.version.0,This mod is on version,CoFH Coreのバージョンは次のとおりです:
+info.cofh.command.killall.success,Removed %d entities. (%s),%d 個のエンティティを削除しました (%s)
+info.cofh.command.killall.successHostile,Removed %d hostile mobs. (%s),%d 体の敵性Mobを削除しました (%s)
+info.cofh.command.killall.noMatch,No matching entities found!,条件に合うエンティティは見つかりませんでした
+info.cofh.command.killall.noHostile,No hostile mobs found!,敵性Mobは見つかりませんでした
+info.cofh.command.tpx.snark.0,Successfully teleported you to yourself!,あなたはあなた自身のところにテレポートしました
+info.cofh.command.tpx.snark.1,Successfully teleported %s to themself!,%s は自分自身のところにテレポートしました
+info.cofh.command.tpx.self,Successfully teleported to %.2f %.2f %.2f,%.2f %.2f %.2f にテレポートしました
+info.cofh.command.tpx.dimensionSelf,Successfully teleported to The %1$s at %2$.2f %3$.2f %4$.2f,%1$s の %2$.2f %3$.2f %4$.2f にテレポートしました
+info.cofh.command.tpx.other,Successfully teleported %s to %.2f %.2f %.2f,%1$s は %.2f %.2f %.2f にテレポートしました
+info.cofh.command.tpx.otherTo,Successfully teleported %s to %s at %.2f %.2f %.2f,%1$s は %s の座標 %.2f %.2f %.2f にテレポートしました
+info.cofh.command.tpx.dimensionOther,Successfully teleported %s to The %2$s at %3$.2f %4$.2f %5$.2f,%1$s は %2$s の %3$.2f %4$.2f %5$.2f にテレポートしました
+info.cofh.command.tpx.dimensionOtherTo,Successfully teleported %s to %s in %3$s at %4$.2f %5$.2f %6$.2f,%1$s は %3$s に居る %2$s の座標 %4$.2f %5$.2f %6$.2f にテレポートしました。
+info.cofh.command.tpx.otherToSelf,Successfully teleported %s to themself at %.2f %.2f %.2f,%1$s は自分自身の座標 %.2f %.2f %.2f にテレポートしました
+info.cofh.command.tpx.dimensionOtherToSelf,Successfully teleported %s to themself in %2$s at %3$.2f %4$.2f %5$.2f,%1$s は %2$s での自身の座標 %3$.2f %4$.2f %5$.2f にテレポートしました
+info.cofh.command.reloadworldgen.success,Successfully reloaded World Generators.,ワールドジェネレーターを再読込しました
+info.cofh.command.replaceblocks.failure,No blocks to replace.,置き換えるブロックがありません
+info.cofh.command.replaceblocks.start,Replacing %s blocks from %s:%s:%s to %s:%s:%s with %s.,%s 個のブロックを %s:%s:%s から %s:%s:%s の範囲内で、 %s で置き換えます
+info.cofh.command.replaceblocks.success,Successfully replaced %s blocks from %s:%s:%s to %s:%s:%s with %s.,%s 個のブロックを %s:%s:%s から %s:%s:%s の範囲内で、 %s で置き換えました
+info.cofh.command.clearblocks.failure,No blocks to clear.,除去するブロックはありませんでした
+info.cofh.command.clearblocks.start,Clearing %s blocks from %s:%s:%s to %s:%s:%s.,%s 個のブロックを、 %s:%s:%s から %s:%s:%s の範囲から除去します
+info.cofh.command.clearblocks.success,Successfully cleared %s blocks from %s:%s:%s to %s:%s:%s.,%s 個のブロックを、%s:%s:%s から %s:%s:%s の範囲から除去しました
+info.cofh.command.countblocks.failure,No blocks exist in the area.,定められたエリア内にブロックはありませんでした
+info.cofh.command.countblocks.start,Counting %s blocks from %s:%s:%s to %s:%s:%s.,%s 個のブロックを %s:%s:%s から %s:%s:%s の範囲からカウントします
+info.cofh.command.countblocks.success,Found %s blocks from %s:%s:%s to %s:%s:%s.,%s 個のブロックが、 %s:%s:%s から %s:%s:%s の範囲内にありました
+info.cofh.command.pregen.start,Pre-generating %s chunks from %s:%s to %s:%s.,%s チャンクを、%s:%sから%s:%sの範囲で事前生成しました
+info.cofh.updater.download,Download,ダウンロード
+info.cofh.updater.tooltip,Click to download the latest version,ここをクリックすると最新版のダウンロードページにアクセスできます。
+info.cofh.updater.version,A new version is available,新しいバージョンを入手できます。
+info.cofh.tutorial.tabAugment,The Augment tab allows for modular additions.,アップグレードタブにて、機械にいろいろな機能を追加や取り外しができます。
+info.cofh.tutorial.tabConfiguration.0,The Configuration tab determines how items enter and leave this device.,基本設定タブにて、アイテムの搬入出の設定ができます。
+info.cofh.tutorial.tabConfiguration.1,The Configuration tab determines how energy is transferred to and from this device.,基本設定タブにて、エネルギーの送受信の設定ができます。
+info.cofh.tutorial.tabConfiguration.2,The Configuration tab determines the operation modes for this device.,基本設定タブにて、この機械の主要な機能の設定ができます。
+info.cofh.tutorial.tabRedstone,The Redstone Control tab configures how this device reacts to redstone signals.,レッドストーン制御タブにて、レッドストーン信号による稼働制御を設定できます。
+info.cofh.tutorial.tabSecurity,The Security tab allows the owner to control who can access this device.,セキュリティタブにて、誰がこのマシンを扱えるかを設定できます。
+key.cofh.empower,Empower/Quell Item,エンパワー/クエルアイテム
+tab.cofh.friend.0,Add/Remove Friends!,友達を追加/削除！
+tab.cofh.friend.1,Friends not provided.,友達は提供されません。
+gui.cofh.accessMode,Access Mode,アクセス権限
+gui.cofh.accessPublic,Public Access,公開
+gui.cofh.accessRestricted,Restricted,制限あり
+gui.cofh.accessPrivate,Owner Only,所有者のみ
+gui.cofh.all,All,すべて
+gui.cofh.blank,Blank,空
+gui.cofh.configuration,Configuration,設定
+gui.cofh.controlStatus,Control Status,設定状態
+gui.cofh.empty,Empty,空
+gui.cofh.energy,Energy,エネルギー
+gui.cofh.energyConsume,Power Usage,エネルギー消費
+gui.cofh.energyProduce,Power Output,エネルギー生産
+gui.cofh.energyStored,Energy Stored,蓄えられたエネルギー
+gui.cofh.fluid,Fluid,流体
+gui.cofh.friendsList,Friends List,友だちリスト
+gui.cofh.information,Information,情報
+gui.cofh.items,Items,アイテム
+gui.cofh.maxEnergyPerTick,Maximum Power,最大エネルギー消費
+gui.cofh.none,None,なし
+gui.cofh.owner,Owner,所有者
+gui.cofh.receiving,Receiving,受信中
+gui.cofh.redstoneControl,Redstone Control,レッドストーン制御
+gui.cofh.redstoneControlOff,Disabled,無効
+gui.cofh.redstoneControlOn,Enabled,有効
+gui.cofh.redstoneStateHigh,High,高
+gui.cofh.redstoneStateIgnored,Ignored,無視
+gui.cofh.redstoneStateLow,Low,低
+gui.cofh.restoreConfig,Restoring Client Configuration...,クライアント設定を復元中...
+gui.cofh.security,Security,セキュリティ
+gui.cofh.sending,Sending,送信中
+gui.cofh.signalRequired,Signal Required,信号制御
+gui.cofh.tutorial,Tutorial,使い方
+gui.cofh.tutorial.fluxRequired,Requires Redstone Flux to operate.;,Redstone Flux が必要です。;
+gui.cofh.tutorial.tabConfiguration,The Configuration tab determines how items enter and leave this device.,基本設定タブにて、アイテムの搬入出の設定ができます。
+gui.cofh.tutorial.tabConfiguration2,The Configuration tab determines the operation modes for this device.,基本設定タブにて、この機械の主要な機能の設定ができます。
+gui.cofh.tutorial.tabRedstone,The Redstone Control tab configures how this device reacts to redstone signals.,レッドストーン制御タブにて、レッドストーン信号による稼働制御を設定できます。
+message.cofh.holdShift1,Hold,保持
+message.cofh.holdShift2,Shift,シフト
+message.cofh.holdShift3,for Details,キーを押すと詳細を表示します。
+message.cofh.secure1,This is private and belongs to,これはプライベートで属している
+message.cofh.secure2,You could have lost your hand!,手を失っていたかもしれません！
+item.bulletThrowable.name,Throwable Bullet,投擲弾
+item.grenadeThrowable.name,Throwable Grenade,投擲式グレネード
+item.bulletCraftable.name,Ammo - Bullet,弾薬 - 銃弾
+item.grenadeCraftable.name,Ammo - Grenade,弾薬 - グレネード
+item.rocketCraftable.name,Ammo - Rocket,弾薬 - 火薬
+item.ferroSlug.name,Ammo - Ferro-Magnetic Slug,弾薬 - 鉄磁性弾丸
+item.blazingClayCraftable.name,Ammo - Blazing Clay,弾薬 - ブレイジングクレー
+item.upgFire.name,Upgrade - Fire Rate,アップグレード - 射撃速度
+item.upgEff.name,Upgrade - Efficiency,アップグレード - 効率
+item.upgRan.name,Upgrade - Range,アップグレード - 設定範囲
+item.upgAcc.name,Upgrade - Accuracy,アップグレード - 精度
+item.upgScatter.name,Upgrade - Scattershot,アップグレード - スキャットショット
+item.addonReactor.name,Addon - Redstone Reactor,アドオン - レッドストーンリアクター
+item.addonDam.name,Addon - Damage Boost,アドオン - ダメージ増加
+item.addonSolar.name,Addon - Solar Generator,拡張機能 - 太陽発電機
+item.addonPotentia.name,Addon - Potentia Converter,アドオン - ポテンティアコンバータ
+item.addonSerialPort.name,Addon - Serial Port,アドオン - シリアルポート
+item.addonRecycler.name,Addon - Recycler,追加機能 - リサイクル
+item.addonConcealer.name,Addon - Turret Concealer,アドオン - タレットコンシーラー
+item.sensorOne.name,Sensor (Tier 1),センサー (Tier 1)
+item.sensorTwo.name,Sensor (Tier 2),センサー (Tier 2)
+item.sensorThree.name,Sensor (Tier 3),センサー (Tier 3)
+item.sensorFour.name,Sensor (Tier 4),センサー (Tier 4)
+item.sensorFive.name,Sensor (Tier 5),センサー (Tier 5)
+item.chamberTierOne.name,Chamber (Tier 1),チャンバー (レベル1)
+item.chamberTierTwo.name,Chamber (Tier 2),チャンバー (レベル2)
+item.chamberTierThree.name,Chamber (Tier 3),チャンバー (レベル3)
+item.chamberTierFour.name,Chamber (Tier 4),チャンバー (レベル4)
+item.chamberTierFive.name,Chamber (Tier 5),チャンバー (レベル5)
+item.barrelTierOne.name,Barrel (Tier 1),バレル (Tier 1)
+item.barrelTierTwo.name,Barrel (Tier 2),バレル (Tier 2)
+item.barrelTierThree.name,Barrel (Tier 3),バレル (Tier 3)
+item.barrelTierFour.name,Barrel (Tier 4),バレル (Tier 4)
+item.barrelTierFive.name,Barrel (Tier 5),バレル (Tier 5)
+item.ioBus.name,IO Bus,入出力バス
+tile.baseTierWood.name,Turret Base (Tier 1),タレットベース (ティア 1)
+tile.disposeItemTurret.name,Disposable Item Turret,一回使い捨てアイテムタレット
+tile.potatoCannonTurret.name,Potato Cannon Turret,ポテトキャノンタレット
+tile.rocketTurret.name,Rocket Launcher Turret,ロケットランチャータレット
+tile.teleporterTurret.name,Teleporter Turret,テレポート砲塔
+tile.machineGunTurret.name,Gun Turret,ガンタレット
+tile.incendiaryTurret.name,Incendiary Turret,炎弾砲塔
+tile.grenadeTurret.name,Grenade Launcher Turret,グレネードランチャー砲塔
+tile.relativisticTurret.name,Relativistic Turret,相対論的タレット
+tile.laserTurret.name,Laser Turret,レーザー塔
+tile.railGunTurret.name,Rail Gun Turret,レールガンタワー
+tile.leverBlock.name,Basic Turret Base Crank,基本タレットベースクランク
+tile.expanderPowerTierOne.name,Base Power Expander (Tier 1),ベースパワー拡張器（レベル1）
+tile.expanderPowerTierTwo.name,Base Power Expander (Tier 2),ベースパワー拡張器（レベル2）
+tile.expanderPowerTierThree.name,Base Power Expander (Tier 3),ベースパワー拡張器（レベル3）
+tile.expanderPowerTierFour.name,Base Power Expander (Tier 4),ベースパワー拡張器（レベル4）
+tile.expanderPowerTierFive.name,Base Power Expander (Tier 5),ベースパワー拡張器（レベル5）
+tile.expanderInvTierOne.name,Base Inventory Expander (Tier 1),インベントリ拡張ベース (レベル1)
+tile.expanderInvTierTwo.name,Base Inventory Expander (Tier 2),インベントリ拡張ベース (レベル2)
+tile.expanderInvTierThree.name,Base Inventory Expander (Tier 3),インベントリ拡張ベース (レベル3)
+tile.expanderInvTierFour.name,Base Inventory Expander (Tier 4),インベントリ拡張ベース (レベル4)
+tile.expanderInvTierFive.name,Base Inventory Expander (Tier 5),インベントリ拡張ベース (レベル5)
+tile.fenceTierOne.name,Fence (Tier 1),フェンス (1段階)
+tile.fenceTierTwo.name,Fence (Tier 2),フェンス (2段階)
+tile.fenceTierThree.name,Fence (Tier 3),フェンス (レベル3)
+tile.fenceTierFour.name,Fence (Tier 4),フェンス (レベル4)
+tile.fenceTierFive.name,Fence (Tier 5),フェンス (レベル5)
+tile.hardWallTierOne.name,Hard Wall (Tier 1),ハードウォール（階層1）
+tile.hardWallTierTwo.name,Hard Wall (Tier 2),ハードウォール（階層2)
+tile.hardWallTierThree.name,Hard Wall (Tier 3),ハードウォール (Tier 3)
+tile.hardWallTierFour.name,Hard Wall (Tier 4),ハードウォール (Tier 4)
+tile.hardWallTierFive.name,Hard Wall (Tier 5),硬壁（5段階）
+tile.turretBase.name,Turret Base,タワーのベース
+itemGroup.openmodularturrets,Open Modular Turrets,オープンモジュラータレット
+tooltip.tier,Tier,段階
+tooltip.range,Range (in blocks),範囲（ブロック単位）
+tooltip.accuracy,Accuracy,精度
+tooltip.ammo,Ammo Type,弾薬タイプ
+tooltip.tierRequired,Base Minimum Tier,ベース・ミニマム・ティア
+tooltip.damage.label,Damage Output,ダメージ出力
+tooltip.damage.stat,Projectile Damage,発射物 Damage
+tooltip.aoe,AOE Radius,範囲
+tooltip.firerate,Shots/s,ショット/秒
+tooltip.energy.stat,Energy usage per shot,一発あたりのエネルギー消費
+tooltip.info,Info,情報
+tooltip.health,Hearts,ハート
+tooptip.energy.label,Energy,エネルギー
+tooltip.rf.max,Max capacity,最大容量
+tooltip.rf.io,Max IO,最大入出力
+tooltip.extras.label,Extras,追加機能
+tooltip.extras.addons.0,None,なし
+tooltip.extras.addons.1,1x Addon slots,1x アドオンスロット
+tooltip.extras.addons.2,2x Addon slots,2x アドオンスロット
+tooltip.extras.upgrade.0,None,なし
+tooltip.extras.upgrade.1,1x Upgrade slots,1つのアップグレードスロット
+tooltip.extras.upgrade.2,2x Upgrade slots,2つのアップグレードスロット
+tooltip.expander.power1,Turret Base RF Expander,タレットベース RF エクスパンダ
+tooltip.expander.power2,Adds,追加
+tooltip.expander.power3,RF capacity to a turret base.,タワーのベースにRF容量を設定します。
+tooltip.expander.inv1,Turret Base Inventory Expander,タレットベースインベントリ拡張器
+tooltip.expander.inv2,Adds 9 slots of inventory space that the turret base can use.,タレットベースで使用できるインベントリスロットを9つ追加します。
+tooltip.expander.inv3,Each slot can only accept a max stack size of,各スロットは最大スタックサイズとして受け付けられる数は
+flavour.expander.power.1,Now with flavour!,味わい深くリニューアル！
+flavour.expander.power.2,Kinetic expansion.,キネティック拡張
+flavour.expander.power.4,Can be used as a sinking device.,sinking device として使用できます。
+flavour.expander.power.5,Asymmetrical warfare.,非対称戦争。
+flavour.expander.inv.1,A little goes a long way.,少しだけで長く効果があります。
+flavour.expander.inv.2,Supplies!,補給品！
+flavour.expander.inv.4,Can be used as a floatation device.,浮き沈む道具として使用できます。
+flavour.expander.inv.5,"Very space, much inventory.",非常にスペースがあり、多くのインベントリ。
+flavour.base.0,"There are trees, everywhere...",木がある、どこにでも…
+flavour.base.1,I'll draw your blood.,あなたの血を引き出す。
+flavour.base.2,I said good day sir!,私は良い一日をお祈りします、紳士！
+flavour.base.3,Press the attack!,攻撃を開始せよ！
+flavour.base.4a,I wonder if this thing,このものはどうだろうか
+flavour.base.4b,can do a barrel-roll...,バレルロールができる...
+flavour.turret.0,Poor man's sleeping aid.,貧乏人の睡眠補助具。
+flavour.turret.1,TRRRAA!! TRRAATRRAA!!,TRRRAA!! TRRAATRRAA!!
+flavour.turret.2a,Another example is the inductive,その他の例は、弾薬インベントリ内の誘導レッドストーン粉です。
+flavour.turret.2b,form of the horse paradox.,馬の逆説の形態。
+flavour.turret.3,Red mist.,赤い霧。
+flavour.turret.4,"Go ahead, Newton doesn't care.",進め、ニュートンは気にしない
+flavour.turret.5,BFG.,BFG.
+flavour.turret.6,A PVC masterpiece.,PVCの傑作
+flavour.turret.7,Flaming Disjuncture.,炎の断絶
+flavour.turret.8,Point of reference.,参照点
+flavour.turret.9a,"It's like long strands of spaghetti,",それは長いスパゲッティの糸のようです、
+flavour.turret.9b,but in 11 dimensions.,11ディメンションで。
+turret.accuracy.low,Low,低
+turret.accuracy.medium,Medium,中
+turret.accuracy.high,High,高
+turret.accuracy.exact,Pin Point,ピンポイント
+turret.ammo.0,Any Block/Item,任意のブロック/アイテム
+turret.ammo.1,Bullet,弾
+turret.ammo.2,Grenade,グレナード
+turret.ammo.3,Homing Rocket,追跡ロケット
+turret.ammo.4,None,なし
+turret.ammo.5,Ferro-Magnetic Slugs,鉄磁性の塊
+turret.ammo.6,Potato,ジャガイモ
+turret.ammo.7,Blazing Clay,炎の粘土
+base.tier.1,Tier 1 Turret Base,1段階タワー基盤
+base.tier.2,Tier 2 Turret Base,2段階タワー基盤
+base.tier.3,Tier 3 Turret Base,3段階タワー基盤
+base.tier.4,Tier 4 Turret Base,4段階タワー基盤
+base.tier.5,Tier 5 Turret Base,5段階タワー基盤
+turret.addon.label,Turret Addon,塔用拡張パーツ
+turret.addon.amp.a.label,Adds a health based percentage damage boost to each shot.,各発射に対して体力ベースのパーセンテージダメージ増加を付与します
+turret.addon.amp.flavour,Here we are juggernaught.,ここにジャグナウトがいます。
+turret.addon.redstone.a,Generates,生成
+turret.addon.redstone.b,RF per,RFあたり
+turret.addon.redstone.c,redstone dust in Ammo inventory.,領域内に拾うアイテムがありません。
+turret.addon.redstone.flavour,"Sublimation, refined.",昇華、精製済み。
+turret.addon.solar.a,Generates,生成
+turret.addon.solar.b,RF/t in sunlight.,太陽光下でのRF/t
+turret.addon.solar.flavour,Good Helios!,良いヘリオス！
+turret.addon.potentia.a,Converts piped Potentia into RF (,パイプされたポテンシアをRFに変換します。
+turret.addon.potentia.b,RF per unit).,RF/単位)
+turret.addon.potentia.c,Adds an internal Potentia capacity of,内部 Potentia 容量を追加します: 
+turret.addon.potentia.d,Adding Ordo vis through a network,ネットワークを通じてオルド・ヴィスを追加しています
+turret.addon.potentia.e,multiplies RF conversion rate x10.,RF変換率を10倍にします。
+turret.addon.potentia.flavour,Because Eskom can't get it right...,エスコムがうまくいかないから…
+turret.addon.serial.a,Enables OpenComputers and ComputerCraft,OpenComputers と ComputerCraft を有効にします
+turret.addon.serial.b,compatibility.,互換性。
+turret.addon.serial.flavour,Who needs OOP?,OOPが必要ですか？
+turret.addon.recycler.1,"Adds a chance for a turret to not use ammo,",タレットが弾薬を使用しない確率を追加します、
+turret.addon.recycler.2,"as well as a chance to generate ammo, per shot.",また、弾薬生成の確率もあります。
+turret.addon.recycler.3,Ammo use negation chance:,弾薬使用否定確率:
+turret.addon.recycler.4,Ammo generation chance:,弾薬生成確率:
+turret.addon.recycler.flavour,"Reduce, reuse, reassert.",削減・再利用・再主張
+turret.addon.concealer.1,Visually conceals turrets inside turret base if no target is present.,ターゲットがない場合、タレットベース内のタレットを視覚的に隠します。
+turret.addon.concealer.flavour,Almost like project rainbow.,ほぼプロジェクトレインボーのようだ。
+turret.upgrade.label,Turret Upgrade,砲塔アップグレード
+turret.upgrade.stacks,Stacks up to 4 times.,最大4倍にスタック。
+turret.upgrade.range,block range per upgrade.,アップグレードごとのブロック範囲。
+turret.upgrade.range.flavour,Will you pass me the fork?,フォークを渡してくれますか？
+turret.upgrade.rof,fire rate per upgrade.,アップグレードあたりの発射速度。
+turret.upgrade.rof.flavour,"Time consumer, time consuming.",時間消費者、時間を消費する。
+turret.upgrade.eff,"RF use per shot, per upgrade.",RF使用量：発射時、アップグレードごとに。
+turret.upgrade.eff.flavour,Eureka!,えureka!
+turret.upgrade.acc,accuracy per upgrade.,アップグレードごとの精度。
+turret.upgrade.acc.flavour.a,"Good eye sniper,",良い目でスナイパー
+turret.upgrade.acc.flavour.b,"I'll shoot, you run.",私が撃つ、あなたは逃げろ。
+turret.upgrade.scatter.a,"Adds 2 projectiles to each shot, at the cost of",各射撃に 2 発の投射物を追加し、その代わりに
+turret.upgrade.scatter.b,"+2 ammo usage, decreased accuracy, and increased RF usage.",+2弾薬使用量、精度低下、RF使用増加。
+turret.upgrade.scatter.flavour,You just need to shoot more bullets.,より多くの弾を撃つだけです。
+status.ownership,"You do not own this turret, or you don't have permission to do that.",このタレットは所有していないか、権限がありません。
+status.missingBase,There's no turret base there.,そこにはタレットベースがありません。
+status.warning,You are entering a turret-protected area. Continue at your own risk.,タレット保護領域に入ります。自己責任で進むください。
+gui.openmodularturrets:owner,Owner,所有者
+gui.openmodularturrets:invert,Inverted,反転
+gui.openmodularturrets:active,Active,アクティブ
+gui.openmodularturrets:mode,Mode,モード
+gui.openmodularturrets:true,true,真
+gui.openmodularturrets:false,false,偽
+death.attack.disposable,"Very %s, much dead, such wow...",とても%s、非常に死んで、とてもワオ……
+death.attack.bullet,%s ate some delicious lead.,%s が美味しい鉛を食べました。
+death.attack.blazingclay,%s got cooked to a juicy medium-rare.,%s がジューシーなミディアムレアに調理されました。
+death.attack.grenade,%s may need some assembly.,%s は組み立てが必要な場合があります。
+death.attack.rocket,%s found that rainbow connection in the form of a rocket.,%s がロケット形で虹色の接続を見つけました
+death.attack.laser,%s got disintegrated.,%s が解体されました。
+death.attack.ferroslug,%s found atomized minerva.,%s が原子化されたミネルヴァを発見しました。

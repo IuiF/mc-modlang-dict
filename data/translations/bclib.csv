@@ -1,0 +1,126 @@
+﻿key,source_text,target_text
+bclib.datafixer.backupWarning.backup,Create Backup before applying Fixes,修正を適用する前にバックアップを作成してください
+bclib.datafixer.backupWarning.fix,Apply Fixes,修正を適用
+bclib.datafixer.backupWarning.message,"The Guardian detected, that the internals some installed Mods did change since this world was last played.
+
+We can automatically change the world for you. If you continue without applying the changes the world may not load correct. Before you continue, you should create a Backup.",ガーディアンが検出しました。内部でいくつかのインストール済みModが、このワールドを最後にプレイした時から変更されています。
+bclib.datafixer.backupWarning.nofixes,Continue Without Fixes,修正なしで続行
+bclib.datafixer.backupWarning.title,Guardian detected an incompatible World,ガーディアンが互換性のない世界を検知しました
+bclib.updates.description,"Some of the installed mods are outdated. We continually improve and extend our content as well as provide important bug-fixes.
+Please consider updating your mods using the provided links below.",インストールされている一部のモッドは古くなっています。私たちはコンテンツを継続的に改善・拡張し、重要なバグ修正も提供しています。
+bclib.updates.disable_check,Disable Check,チェックを無効化
+bclib.updates.donate,Donate,寄付
+bclib.updates.donate_pre,"Like our Content?
+Please consider a small Donation :)",コンテンツをお楽しみいただけましたか？
+bclib.updates.download_link,Download,ダウンロード
+bclib.updates.title,Mod Updates,モッドアップデート
+bclib.welcome.description,"... and a huge hearty **thank you** for downloading and playing our mods. We hope you enjoy them as much as we do.
+
+Before we start, there are a few things we need to set up, so please continue reading the following boring part.",…そして、私たちのモッドをダウンロードしてプレイいただき、本当に**ありがとう**。皆さんも私たちと同じくらい楽しんでくれることを願っています。
+bclib.welcome.donation,"If you enjoy our Mods as much as we hope you do, please consider a small Donation :)",私たちのModsをお楽しみいただけることを願っていますので、小さな寄付をご検討ください :)
+bclib.welcome.title,Welcome to ,ようこそ
+description.config.bclib.client.ui.suppressExperimentalDialogOnLoad,"The warning screen appears whenever your world does not use the vanilla version settings. This can happen when you start a world in a preview version, but also when you use mods to change the world creation. If this option is enabled, the warning will be skipped when you load an existing world. It will still be displayed (as a reminder) when a new world is created.",警告画面は、ワールドがバニラ版の設定を使用していない場合に表示されます。これは、プレビュー版でワールドを開始した場合、またはModを使用してワールド作成を変更した場合に発生する可能性があります。このオプションを有効にすると、既存のワールドを読み込む際に警告はスキップされます。新しいワールド作成時にはリマインダーとして表示されます。
+description.config.bclib.client.version.check,"BCLib includes a simple version checker that can notify you when new updates of our mods are available. To do this, we need to read a resource from one of our web servers. To process the request, together with your IP address (we need to know where to send the response) we also send your Minecraft version (so we can choose the right mod version). The transmitted data will never be used or processed by us for other purposes, but must be stored in our log files for 4 weeks for legal reasons.",BClibには、当Modの新しい更新が利用可能になった場合に通知できる簡単なバージョンチェッカーが含まれています。このため、当Webサーバーからリソースを読み取る必要があります。リクエストを処理するために、応答の送信先を確認するためIPアドレスとともに、適切なMod版を選択するためMinecraftのバージョンも送信します。送信されたデータは他の目的に使用または処理されることはありませんが、法的な理由により4週間ログファイルに保存される必要があります。
+emi.category.bclib.alloying,Alloying,合金化
+emi.category.bclib.anvil_0,Anvil (Level 0),anvils (レベル0)
+emi.category.bclib.anvil_1,Anvil (Level I),鉄砧 (レベル I)
+emi.category.bclib.anvil_2,Anvil (Level II),anvils (レベルII)
+emi.category.bclib.anvil_3,Anvil (Level III),鍛冶場（レベルIII）
+emi.category.bclib.anvil_4,Anvil (Level IV),鉄砧 (Level IV)
+emi.category.bclib.anvil_5,Anvil (Level V),anvils (レベルV)
+generator.bclib.amplified,Ampl. & BetterX,増幅＆BetterX
+generator.bclib.large,Large & BetterX,大容量＆BetterX
+message.bclib.anvil_damage,§cDamage,§cダメージ
+message.bclib.bclibmissmatch,"The Version of BCLib on the server and this client do not match. This will cause problems when playing.
+
+Do you want to automatically download the BCLib-Version from the server? 
+
+BCLib will move the old version into a subdirectory of your Mods-Folder and before installing the new one.",サーバー上のBCLibとクライアントのバージョンが一致しません。これによりプレイ時に問題が発生します。
+message.bclib.confirmrestart,The requested content was synchronized. You need to restart Minecraft now.,要求されたコンテンツは同期されました。今すぐMinecraftを再起動する必要があります
+message.bclib.datafixer.error,There were errors while repairing the world. This means that this level is probably in an inconsistent state and you should not play it. Please restore your backup and fix the errors below before trying again.,ワールドの修復中にエラーが発生しました。これはこのレベルが矛盾した状態にあることを意味するため、プレイすべきではありません。バックアップを復元してエラーを修正してから、もう一度試してください。
+message.bclib.datafixer.progress,Applying all Patches to your World.,すべてのパッチをワールドに適用しています。
+message.bclib.datafixer.progress.level,Applying Patches to level.dat,level.dat にパッチを適用中
+message.bclib.datafixer.progress.players,Fixing Players,プレイヤーの修正中
+message.bclib.datafixer.progress.reading,Reading Data,データを読み取り中
+message.bclib.datafixer.progress.regions,Repairing all Regions,すべての領域を修復中
+message.bclib.datafixer.progress.saving,Saving Patch State,パッチ状態を保存中
+message.bclib.datafixer.progress.waitbackup,Waiting for Backup to finish. This may take a while!,バックアップが完了するまで待機中です。時間がかかる場合があります！
+message.bclib.datafixer.progress.worlddata,Patching Custom World-Data,カスタムワールドデータを修正中
+message.bclib.filesync.progress,Syncing File-Content with Server,サーバーとファイル内容を同期中
+message.bclib.modmissmatch,"Some Mods on this client do not match the version of Mods on the Server.
+
+Mismatching Mods can result in odd game behavior or crashes. Please make sue that you use the same mods as the server.",このクライアントの一部のModはサーバー上のModバージョンと一致しません。
+message.bclib.syncfiles,"Some Content on the Server does not match the versions on the client.
+Do you want to replace the selected content with the data from the server?",サーバー上のコンテンツがクライアント側のバージョンと一致しません。
+message.bclib.syncfiles.configs,Synchronize Configs,設定を同期
+message.bclib.syncfiles.delete,Delete unneeded,不要なものを削除
+message.bclib.syncfiles.folders,Synchronize Folders and Files,フォルダーとファイルを同期する
+message.bclib.syncfiles.modlist,"The following shows the state of your installed Mods.
+
+All Mods that do not exist locally, or have a different version on the Server will be synchronized.",以下はインストール済みのModの状態を示しています。
+message.bclib.syncfiles.mods,Synchronize Mods,モジュールを同期する
+tag.c.barrel,Barrels,樽
+tag.c.furnaces,Furnaces,炉
+tag.c.hammers,Hammers,ハンマー
+tag.c.leaves,Leaves,葉
+tag.c.saplings,Saplings,苗木
+tag.c.soul_ground,Soul Ground,魂の粉
+tag.c.wooden_barrels,Wooden Barrels,木製の樽
+tag.c.workbench,Crafting Tables,クラフトテーブル
+title.bclib.bclibmissmatch,Version Mismatch,バージョン不一致
+title.bclib.confirmrestart,Restart Required,再起動が必要
+title.bclib.datafixer.error,Errors while fixing World,ワールド修復中にエラーが発生しました
+title.bclib.datafixer.error.continue,Proceed and mark as fixed,続行し、修正済みとしてマークする
+title.bclib.datafixer.progress,Fixing World,世界を修正中
+title.bclib.filesync.progress,File Transfer,ファイル転送
+title.bclib.modmenu.main,BCLib Settings,BCLib設定
+title.bclib.modmissmatch,Mod Version Conflict,モジュールバージョンの衝突
+title.bclib.progress,Progress,進捗
+title.bclib.syncfiles,Mismatching Data,データの不一致
+title.bclib.syncfiles.modInfo,Mod Info,モジュール情報
+title.bclib.syncfiles.modlist,Mod Information,モッド情報
+title.bclib.the_end,The End,エンド
+title.bclib.the_nether,The Nether,ネザー
+title.config.bclib.client.auto_sync.acceptConfigs,Accept incoming Config Files,受信設定ファイルを許可
+title.config.bclib.client.auto_sync.acceptFiles,Accept incoming Files,受信ファイルを受け入れる
+title.config.bclib.client.auto_sync.acceptMods,Accept incoming Mods,受信するモジュールを許可
+title.config.bclib.client.auto_sync.debugHashes,Print Auto-Sync Debug-Hashes to Log,自動同期デバッグハッシュをログに出力します
+title.config.bclib.client.auto_sync.displayModInfo,Display warning when Serverside Mods differ from Client,サーバー側モッドとクライアント側モッドが異なる場合に警告を表示します。
+title.config.bclib.client.auto_sync.enabled,Enable Auto-Sync,自動同期を有効にする
+title.config.bclib.client.infos.survives_on_hint,Show 'Survives On' hint as Tooltip,『サバイヴスオン』ヒントをツールチップとして表示
+title.config.bclib.client.rendering.FogDensity,Fog Density,霧の濃度
+title.config.bclib.client.rendering.customFogRendering,Custom Fog Rendering,カスタムフォグレンダリング
+title.config.bclib.client.rendering.netherThickFog,Nether Thick Fog,下界の厚い霧
+title.config.bclib.client.ui.forceBetterXPreset,Use BetterX as Default World-Type,BetterX をデフォルトワールドタイプとして使用
+title.config.bclib.client.ui.preferModrinthForUpdates,Prefere Modrinth for Updates,Modrinthを更新に優先する
+title.config.bclib.client.ui.showUpdateInfo,Allow Update Reminder Screen,アップデートリマインダー画面を許可
+title.config.bclib.client.ui.suppressExperimentalDialogOnLoad,Disable Experimental Warning Screen on Load,ロード時に実験的警告画面を無効化
+title.config.bclib.client.version.check,Enable Version Check,バージョンチェックを有効にする
+title.config.bclib.generator.options.useOldBiomeGenerator,Use legacy 1.17 Biome Generator,レガシー 1.17 バイオームジェネレーターを使用
+title.config.bclib.main.infos.verbose,Verbose Logging,詳細ログ
+title.config.bclib.main.patches.applyPatches,Automatically apply patches when loading level,レベル読み込み時にパッチを自動適用
+title.config.bclib.main.patches.repairBiomesOnLoad,Fix Biomesource on level load,バイオームソースをレベル読み込み時に修正
+title.screen.bclib.worldgen.avg_biome_size,Average Biome Size (in Chunks),平均バイオームサイズ（チャンク単位）
+title.screen.bclib.worldgen.barrens_biome_size,Barrens,荒野
+title.screen.bclib.worldgen.center_biome_size,Central Biomes,中央のバイオーム
+title.screen.bclib.worldgen.central_radius,Central Void Radius (in Chunks),中央虚無半径（チャンク単位）
+title.screen.bclib.worldgen.custom_end_biome_source,Use Custom End Biome Source,カスタムエンドバイオームソースを使用
+title.screen.bclib.worldgen.custom_end_terrain,Custom End Terrain Generator,カスタムエンド地形ジェネレーター
+title.screen.bclib.worldgen.custom_nether_biome_source,Use Custom Nether Biome Source,カスタムネザービオームソースを使用
+title.screen.bclib.worldgen.end_void,Generate Small Islands,小島を生成
+title.screen.bclib.worldgen.land_biome_size,Land Biomes,陸地のバイオーム
+title.screen.bclib.worldgen.legacy_square,Use Legacy Map (1.17),レガシーマップ（1.17）を使用する
+title.screen.bclib.worldgen.main,World Generator Settings,ワールドジェネレーター設定
+title.screen.bclib.worldgen.nether_amplified,Double the Nether Height (Amplified),ネザー高さを2倍（増幅）
+title.screen.bclib.worldgen.nether_biome_size,Biome Size,バイオームサイズ
+title.screen.bclib.worldgen.nether_vertical,Generate vertical Biomes,垂直バイオームを生成
+title.screen.bclib.worldgen.nether_vertical_biome_size,Biome Height,バイオームの高さ
+title.screen.bclib.worldgen.other,Other Settings,その他の設定
+title.screen.bclib.worldgen.void_biome_size,Small Island Biomes,小島バイオーム
+tooltip.bclib.place_on,Survives on: %s,%s 上で動作
+tooltip.bclib.place_underwater,Survives under water,水底で生き残る
+tooltip.bclib.place_underwater_depth,min. depth: %d,最小深さ: %d
+tooltip.bclib.place_underwater_on,Survives under water on: %s,水中でも生存する場所: %s
+tooltip.bclib.pottable_on,Pottable on: %s,%s に設置可能
+warning.config.bclib.client.ui.forceBetterXPreset,"MOST LIKELY YOU WILL WANT TO KEEP THIS OPTION ENABLED.
+",おそらくこのオプションを有効にしたままにしておきたいでしょう。

@@ -1,0 +1,280 @@
+﻿key,source_text,target_text
+ftbutilities,FTB Utilities Common,FTBユーティリティ共通
+ftbutilities.auto_shutdown,Auto Shutdown,自動シャットダウン
+ftbutilities.auto_shutdown.enabled_singleplayer,Enabled in Singleplayer,シングルプレイで有効化
+ftbutilities.auto_shutdown.times,Shutdown Times,シャットダウン時間
+ftbutilities.afk,AFK,退席中
+ftbutilities.afk_kicked,You will be kicked after: %s,あなたはキックされます: %s
+ftbutilities.afk.enabled_singleplayer,Enabled in Singleplayer,シングルプレイで有効化
+ftbutilities.afk.notification_timer,Notification Timer,通知タイマー
+ftbutilities.afk.log_afk,Log AFK,退席ログ
+ftbutilities.server_info,Server Info,サーバー情報
+ftbutilities.server_info.difficulty,Difficulty,難易度
+ftbutilities.server_info.admin_quick_access,Admin Quick Access,管理者クイックアクセス
+ftbutilities.chat,Chat,チャット
+ftbutilities.chat.add_nickname_tilde,Add Nickname Tilde,ニックネームにチルダを追加
+ftbutilities.commands,Commands,コマンド
+ftbutilities.login,Login,ログイン
+ftbutilities.login.enable_motd,Enable MOTD,MOTDを有効化
+ftbutilities.login.enable_starting_items,Enable Starting Items,開始時アイテムの有効化
+ftbutilities.login.enable_global_badges,Enable Global Badges,グローバルバッジの有効化
+ftbutilities.login.enable_event_badges,Enable Event Badges,イベントバッジの有効化
+ftbutilities.login.motd,MOTD,MOTD
+ftbutilities.login.starting_items,Starting Items,開始時アイテム
+ftbutilities.world,World,ワールド
+ftbutilities.world.blocked_claiming_dimensions,Blocked Claiming Dimensions,領有禁止ディメンション
+ftbutilities.world.chunk_claiming,Chunk Claiming,チャンク占有
+ftbutilities.world.chunk_loading,Chunk Loading,チャンクを読み込み
+ftbutilities.world.safe_spawn,Safe Spawn,セーフスポーン
+ftbutilities.world.spawn_area_in_sp,Spawn Area In Singleplayer,シングルプレイのスポーンエリア
+ftbutilities.world.spawn_radius,Spawn Radius,スポーン範囲
+ftbutilities.world.spawn_dimension,Spawn Dimension,スポーンディメンション
+ftbutilities.world.unload_erroring_chunks,Unload Erroring Chunks,エラーのあるチャンクのアンロード
+ftbutilities.world.rtp_min_distance,Min /rtp Distance,最小 /rtp 距離
+ftbutilities.world.rtp_max_distance,Max /rtp Distance,最大 /rtp 距離
+ftbutilities.world.forced_spawn_dimension_time,Forced Spawn Dimension Time,強制スポーンディメンションの時間
+ftbutilities.world.forced_spawn_dimension_weather,Forced Spawn Dimension Weather,強制スポーンディメンションの気候
+ftbutilities.world.disable_player_suffocation_damage,Disable Player Suffocation Damage,プレイヤーの窒息によるダメージの無効化
+ftbutilities.world.show_playtime,Show Playtime in Top-Left Corner,左上にプレイタイムを表示
+ftbutilities.world.logging,Logging,ログ
+ftbutilities.world.logging.include_creative_players,Include Creative Players,クリエイティブプレイヤーを含める
+ftbutilities.world.logging.include_fake_players,Include Fake Players,フェイクプレイヤーを含める
+ftbutilities.world.logging.block_placed,Block Placed,ブロックの設置
+ftbutilities.world.logging.block_broken,Block Broken,ブロック破壊
+ftbutilities.world.logging.item_clicked_in_air,Item Clicked in Air,アイテムでのクリック
+ftbutilities.ranks,Ranks,ランク
+ftbutilities.ranks.enabled,Enabled,有効
+ftbutilities.ranks.override_chat,Override Chat,チャットをオーバーライド
+ftbutilities.ranks.override_commands,Override Commands,コマンドを上書き
+ftbutilities.ranks.crash_client_side_permissions,Crash Client-Side Permissions,Clientサイド権限のクラッシュ
+ftbutilities.ranks.load_from_config_folder,Load From Config Folder,Configフォルダからロード
+ftbutilities.ranks.print_command_errors,Print Command Errors,コマンドエラーの出力
+ftbutilities.ranks.tags.default_player_rank,Default Player Rank,デフォルトのプレイヤーランク
+ftbutilities.ranks.tags.default_op_rank,Default OP Rank,デフォルトのOPランク
+ftbutilities.debugging.log_chunkloading,Log Chunkloading,チャンクロードのログ
+ftbutilities_client,FTB Utilities Client,FTBユーティリティクライアント
+ftbutilities.general.render_badges,Show Badges,バッジを表示
+ftbutilities.general.journeymap_overlay,Enable Journeymap Integration,Journeymap統合を有効にする
+ftbutilities.general.scan_items_whitelist,/scan_items Whitelist,/scan_items ホワイトリスト
+ftbutilities.general.scan_items_blacklist,/scan_items Blacklist,/scan_items ブラックリスト
+ftbutilities.general.show_shutdown_timer,Show Shutdown Timer,シャットダウンタイマーを表示
+ftbutilities.general.shutdown_timer_start,Shutdown Timer Start,シャットダウンタイマー開始
+ftbutilities.general.button_daytime,Button Daytime,ボタン：日中
+ftbutilities.general.button_nighttime,Button Nighttime,夜間モード
+permission.ftbutilities.badge,Badge,バッジ
+permission.ftbutilities.badge.tooltip,Badge (icon on chest). Must be an URL,バッジ(胸のアイコン)。 URLでなければいけません。
+permission.ftbutilities.homes.max,Max Homes,ホームの最大数
+permission.ftbutilities.claims.max_chunks,Max Claimable Chunks,最大領有可能チャンク数
+permission.ftbutilities.claims.max_chunks.tooltip,Max amount of chunks that player can claim\n0 - Disabled,プレイヤーが領有可能なチャンクの最大数\n0 - 無効
+permission.ftbutilities.claims.blocked_dimensions,Blocked Claiming Dimensions,領有禁止ディメンション
+permission.ftbutilities.claims.blocked_dimensions.tooltip,Dimensions where chunk claiming is not allowed,チャンクの領有が許可されていないディメンション
+permission.ftbutilities.chunkloader.max_chunks,Max Loadable Chunks,最大ロード可能チャンク数
+permission.ftbutilities.chunkloader.max_chunks.tooltip,Max amount of chunks that player can load\n0 - Disabled,プレイヤーがロード可能なチャンクの最大数\n0 - 無効
+permission.ftbutilities.chunkloader.offline_timer,Chunkloader Offline Timer,チャンクローダーオフラインタイマー
+permission.ftbutilities.chunkloader.offline_timer.tooltip,"Max hours player can be offline until he's chunks unload\n0 - Disabled, will unload instantly when he disconnects\n-1 - Chunk will always be loaded",プレイヤーがロードしているチャンクがアンロードされるまでの時間\n0 - 無効、切断後すぐにアンロードされます\n-1 - チャンクは常にロードされます
+permission.ftbutilities.homes.cooldown,/home Cooldown Timer,/home クールダウンタイマー
+permission.ftbutilities.warps.cooldown,/warp Cooldown Timer,/warp クールダウンタイマー
+permission.ftbutilities.tpa.cooldown,/tpa Cooldown Timer,/tpa クールダウンタイマー
+permission.ftbutilities.spawn.cooldown,/spawn Cooldown Timer,/spawn クールダウンタイマー
+permission.ftbutilities.back.cooldown,/back Cooldown Timer,/back クールダウンタイマー
+permission.ftbutilities.homes.warmup,/home Warmup Timer,/home ウォームアップタイマー
+permission.ftbutilities.warps.warmup,/warp Warmup Timer,/warp ウォームアップタイマー
+permission.ftbutilities.tpa.warmup,/tpa Warmup Timer,/tpa ウォームアップタイマー
+permission.ftbutilities.spawn.warmup,/spawn Warmup Timer,/spawn ウォームアップタイマー
+permission.ftbutilities.back.warmup,/back Warmup Timer,/back ウォームアップタイマー
+permission.ftbutilities.afk.timer,AFK Timer,AFK タイマー
+permission.ftbutilities.afk.timer.is_afk,%s is now AFK,%sは現在離席中です
+permission.ftbutilities.afk.timer.isnt_afk,%s is no longer AFK,%sが復帰しました
+permission.ftbutilities.chat.prefix.left.color,Chat Prefix Color,チャットのプレフィックスの色
+permission.ftbutilities.chat.prefix.base.color,Chat Prefix Color,チャットのプレフィックスの色
+permission.ftbutilities.chat.prefix.right.color,Chat Prefix Color,チャットのプレフィックスの色
+permission.ftbutilities.chat.name.color,Chat Name Color,チャットの名前の色
+permission.ftbutilities.chat.suffix.left.color,Chat Suffix Color [Left],チャットのサフィックスの色 [左]
+permission.ftbutilities.chat.suffix.base.color,Chat Suffix Color [Base],チャットのサフィックスの色 [ベース]
+permission.ftbutilities.chat.suffix.right.color,Chat Suffix Color [Right],チャットのサフィックスの色 [右]
+permission.ftbutilities.chat.text.color,Chat Text Color,チャットテキストの色
+permission.ftbutilities.chat.prefix.left.text,Chat Prefix Text,チャットのプレフィックスのテキスト
+permission.ftbutilities.chat.prefix.base.text,Chat Prefix Text,チャットのプレフィックスのテキスト
+permission.ftbutilities.chat.prefix.right.text,Chat Prefix Text,チャットのプレフィックスのテキスト
+permission.ftbutilities.chat.suffix.left.text,Chat Suffix Text [Left],チャットのサフィックスのテキスト [左]
+permission.ftbutilities.chat.suffix.base.text,Chat Suffix Text [Base],チャットのサフィックスのテキスト [ベース]
+permission.ftbutilities.chat.suffix.right.text,Chat Suffix Text [Right],チャットのサフィックスのテキスト [右]
+player_config.ftbutilities.chat_links,Chat Links,チャットリンク
+player_config.ftbutilities.disable_global_badge,Disable Global Badge,グローバルバッジを無効化
+player_config.ftbutilities.render_badge,Render My Badge,バッジをレンダリング
+player_config.ftbutilities.enable_pvp,Enable PVP,PVPを有効化
+player_config.ftbutilities.nickname,Nickname,ニックネーム
+player_config.ftbutilities.afk,AFK Notification Position,退席の通知場所
+team_config.ftbutilities.blocks_edit,Required Level for Block Editing,ブロック編集に必要なレベル
+team_config.ftbutilities.blocks_interact,Required Level for Block Interactions,ブロックの使用に必要なレベル
+team_config.ftbutilities.attack_entities,Required Level for Attacking Entities,エンティティへの攻撃に必要なレベル
+team_config.ftbutilities.use_items,Required Level for Using Items,アイテムの使用に必要なレベル
+team_config.ftbutilities.explosions,Enable Explosions in Claimed Chunks,領有チャンクで爆発を有効化
+team_config.ftbutilities.fake_players,Allow Fake Players to Interact With Blocks,フェイクプレイヤーのブロック操作を許可
+sidebar_button.ftbutilities.chats,Chats,チャット
+sidebar_button.ftbutilities.chats.general,General Chat,一般チャット
+sidebar_button.ftbutilities.chats.admin,Admin Chat,管理者チャット
+sidebar_button.ftbutilities.chats.team,Team Chat,チームチャット
+sidebar_button.ftbutilities.leaderboards,Leaderboards,リーダーボード
+sidebar_button.ftbutilities.toggle.gamemode,Toggle Gamemode,ゲームモードの切り替え
+sidebar_button.ftbutilities.toggle.gamemode.tooltip,Toggles between survival and creative mode,サバイバルモードとクリエイティブモードを切り替えます
+sidebar_button.ftbutilities.toggle.rain,Toggle Rain,雨をトグル
+sidebar_button.ftbutilities.toggle.rain.tooltip,Toggles weather between clear and raining,雨と晴天を切り替えます
+sidebar_button.ftbutilities.toggle.day,Set time to Day,時刻を昼間に設定
+sidebar_button.ftbutilities.toggle.day.tooltip,Sets daytime,時間を昼間に設定します
+sidebar_button.ftbutilities.toggle.night,Set time to Night,時刻を夜間に設定
+sidebar_button.ftbutilities.toggle.night.tooltip,Sets nighttime,時間を夜に設定します
+sidebar_button.ftbutilities.heal,Heal,回復
+sidebar_button.ftbutilities.heal.tooltip,"Heals player to max health and saturation, and extinguishes if player is on fire",プレイヤーの体力と満腹度を最大まで回復させ、燃えている場合は消火します
+sidebar_button.ftbutilities.server_info,Server Info,サーバー情報
+sidebar_button.ftbutilities.claimed_chunks,Claimed Chunks,占有されたチャンク
+sidebar_button.ftbutilities.trash_can,Trash Can,ゴミ箱
+sidebar_button.ftbutilities.trash_can.tooltip,"Opens a trash can. Items from it disappear after you close the GUI, but will remain there as long as it's open",ゴミ箱を開きます。開いている間はアイテムはそこに残りますが、GUIを閉じるとアイテムを消滅します
+sidebar_button.ftbutilities.mail,Mail,郵便
+admin_panel.ftbutilities.file_browser,File Browser,ファイルブラウザ
+admin_panel.ftbutilities.crash_reports,View Crash Reports,クラッシュレポートを表示
+admin_panel.ftbutilities.config,Edit Config,設定を編集
+admin_panel.ftbutilities.ranks,Edit Ranks,ランクを編集
+admin_panel.ftbutilities.ranks.player_ranks,Player Ranks,プレイヤーランク
+admin_panel.ftbutilities.ranks.select_rank,Select Rank,ランクを選択
+admin_panel.ftbutilities.ranks.edit.id,ID,ID
+admin_panel.ftbutilities.ranks.edit.chat_formatting,Chat Formatting,チャットのフォーマット
+admin_panel.ftbutilities.ranks.edit.permissions,Permissions,コロニー権限
+admin_panel.ftbutilities.claimed_chunks,View All Claimed Chunks,全ての領有チャンクを表示
+admin_panel.ftbutilities.loaded_chunks,View All Loaded Chunks,全てのロード済みチャンクを表示
+admin_panel.ftbutilities.whitelist,Edit Whitelist,ホワイトリストを編集
+admin_panel.ftbutilities.ops,Edit OPs,OPを編集
+admin_panel.ftbutilities.edit_world,Edit World,ワールドを編集
+key.ftbutilities.nbt,Edit NBT,"NBTを編集
+§7左クリック: クイック文字列エディタ
+§7右クリック: インタラクティブNBTエディタ"
+key.ftbutilities.trash,Trash Can,ゴミ箱
+gamerules,Gamerules,ゲームルール
+ftbutilities.lang.timer.shutdown,Server shuts down in %s,サーバーは%sでシャットダウンします
+ftbutilities.lang.killed_entities,Killed %d entities with type '%s',「%s」タイプのエンティティを%d個削除しました
+ftbutilities.lang.kickme,You kicked yourself!,自分自身をキックした！
+ftbutilities.lang.upload_crash,Upload Crash Report,クラッシュレポートをアップロード
+ftbutilities.lang.uploaded_crash,Crash Report Uploaded! %s,クラッシュレポートをアップロードしました！ %s
+ftbutilities.lang.nickname_changed,Nickname changed to '%s',ニックネームを「%s」に変更しました
+ftbutilities.lang.nickname_reset,Nickname reset,ニックネームをリセット
+ftbutilities.stat.dph,Deaths Per Hour,一時間あたりの死亡数
+ftbutilities.stat.last_seen,Last Seen,最後に見つかった
+ftbutilities.lang.chunks.cant_modify_chunk,Can't modify this chunk!,このチャンクは変更できません！
+ftbutilities.lang.chunks.unclaimed_all,Unclaimed all chunks,全てのチャンクの領有を破棄しました
+ftbutilities.lang.chunks.chunk_claimed,Chunk claimed,チャンクを領有主張しました
+ftbutilities.lang.chunks.chunk_unclaimed,Chunk unclaimed,チャンクの領有を破棄しました
+ftbutilities.lang.chunks.chunk_loaded,Chunk loaded,チャンクをロード
+ftbutilities.lang.chunks.chunk_unloaded,Chunk unloaded,チャンクをアンロード
+ftbutilities.lang.chunks.unloaded_all,Unloaded all chunks,全てのチャンクをアンロードしました
+ftbutilities.lang.chunks.unclaim_all,Unclaim all chunks,全ての領有チャンクを破棄する
+ftbutilities.lang.chunks.unclaim_all_dim,Unclaim all chunks in %s,%s上の全ての領有チャンクを破棄する
+ftbutilities.lang.chunks.unclaim_all_q,Unclaim all chunks?,全てのチャンクの領有を破棄してよろしいですか？
+ftbutilities.lang.chunks.unclaim_all_dim_q,Unclaim all chunks in %s?,%s上の全てのチャンクの領有を破棄してよろしいですか？
+ftbutilities.lang.chunks.claims_invalid_dim,Can't claim chunks in this dimension,このディメンションではチャンクの領有を主張できません
+ftbutilities.lang.chunks.claimed_count,Claimed Chunks: %d / %s,領有中のチャンク: %d / %s
+ftbutilities.lang.chunks.loaded_count,Loaded Chunks: %d / %s,ロード済みのチャンク: %d / %s
+ftbutilities.lang.chunks.claimed_area,Claimed Area,領有済みのチャンク
+ftbutilities.lang.chunks.wilderness,Wilderness,荒野
+ftbutilities.lang.chunks.upgrade.loaded,Chunkloaded,チャンクロードが有効
+ftbutilities.lang.chunks.upgrade.no_explosions,Explosions Disabled,爆発が無効
+ftbutilities.lang.chunks.upgrade.no_pvp,Ally PVP Disabled,味方間でのPvPが無効
+ftbutilities.lang.warps.set,Warp '%s' set!,ワープ「%s」を設定しました！
+ftbutilities.lang.warps.del,Warp '%s' deleted!,ワープ「%s」を削除しました！
+ftbutilities.lang.warps.not_set,Unknown Warp: '%s'!,「%s」は不明なワープ先です！
+ftbutilities.lang.warps.cooldown,You can only use warp in %s!,%sでワープ可能になります！
+ftbutilities.lang.warps.tp,Teleported to '%s'!,「%s」にテレポートしました！
+ftbutilities.lang.warps.no_dp,You can only go back once!,戻ることができるのは一度だけです！
+ftbutilities.lang.homes.set,Home '%s' set!,ホーム「%s」を設定しました！
+ftbutilities.lang.homes.del,Home '%s' deleted!,ホーム「%s」を削除しました！
+ftbutilities.lang.homes.not_set,Unknown Home: '%s'!,「%s」は不明なホームです！
+ftbutilities.lang.homes.cooldown,You can only use home in %s!,%sでホームへ移動可能になります！
+ftbutilities.lang.homes.cross_dim,You can't teleport to another dimension!,別のディメンションへはテレポートできません！
+ftbutilities.lang.homes.limit,You can't set any more home locations!,これ以上ホームを設定することができません！
+ftbutilities.lang.homes.spectator,Exit spectator mode first!,最初にスペクテイターモードを終了してください！
+ftbutilities.lang.tpa.from_to,%s -> %s,%s -> %s
+ftbutilities.lang.tpa.request_received,%s requests TPA! %s to accept.,%sがTPAをリクエストしています。%sで承認。
+ftbutilities.lang.tpa.request_sent,Request sent!,リクエストを送信しました！
+ftbutilities.lang.tpa.no_request,%s is not requesting TPA!,%sはTPAを要求していません！
+ftbutilities.lang.tpa.cant_request,Can't request TPA!,TPAをリクエストできませんでした！
+ftbutilities.lang.tpa.request_expired,TPA request expired!,TPA リクエストの有効期限が切れました！
+ftbutilities.lang.tpa.request_accepted,TPA Request accepted!,TPAリクエストが承認されました！
+ftbutilities.lang.rtp.fail,Could not find a valid location to teleport to!,テレポート先の有効な場所が見つかりませんでした。
+commands.shutdown.usage,/shutdown,/shutdown
+commands.inv.usage,/inv,/inv
+commands.inv.view.usage,/inv view <player>,/inv view <プレイヤー>
+commands.inv.save.usage,/inv save <player> <id>,/inv save <プレイヤー> <id>
+commands.inv.load.usage,/inv load <player> <id>,/inv load <プレイヤー> <id>
+commands.inv.list.usage,/inv list,/inv list
+commands.warp.usage,/warp <warp>,/warp <ワープ>
+commands.setwarp.usage,/setwarp <warp> <player>|{<x> <y> <z> [dim]},/setwarp <ワープ> <プレイヤー>|{<x> <y> <z> [dim]}
+commands.delwarp.usage,/delwarp <warp>,/delwarp <ワープ>
+commands.home.usage,/home [list|list_all|home] [player],/home [list|list_all|ホーム] [プレイヤー]
+commands.sethome.usage,/sethome [home],/sethome [ホーム]
+commands.delhome.usage,/delhome [home],/delhome [ホーム]
+commands.server_info.usage,/server_info,/server_info
+commands.loaded_chunks_list.usage,/loaded_chunks_list,/loaded_chunks_list
+commands.tpl.usage,/tpl (<x> <y> <z>) | ([who] <player>),/tpl (<x> <y> <z>) | ([who] <プレイヤー>)
+commands.trash_can.usage,/trash_can,/trash_can
+commands.back.usage,/back,/back
+commands.spawn.usage,/spawn,/spawn
+commands.chunks.usage,/chunks,/chunks
+commands.chunks.claim.usage,/chunks claim,/chunks claim
+commands.chunks.unclaim.usage,/chunks unclaim,/chunks unclaim
+commands.chunks.load.usage,/chunks load,/chunks load
+commands.chunks.unload.usage,/chunks unload [player],/chunks unload [プレイヤー]
+commands.chunks.unclaim_all.usage,/chunks unclaim_all [dimension] [player],/chunks unclaim_all [ディメンション] [プレイヤー]
+commands.chunks.unload_all.usage,/chunks unload_all [dimension] [player],/chunks unload_all [ディメンション] [プレイヤー]
+commands.chunks.unclaim_everything.usage,/chunks unclaim_everything [dimension],/chunks unclaim_everything [ディメンション]
+commands.chunks.unload_everything.usage,/chunks unload_everything [dimension],/chunks unload_everything [ディメンション]
+commands.chunks.info.usage,/chunks info,/chunks info
+commands.chunks.info.text,Chunk %d:%d in %s: %s,チャンク %d:%d の %s: %s
+commands.chunks.info.not_claimed,Not claimed,領有されていません
+commands.chunks.claim_as.usage,/chunks claim_as <server team> [radius in chunks],/chunks claim_as <サーバーチーム> [チャンク単位の半径]
+commands.chunks.claim_as.not_server_team,Team %s is not a server team! Use /team create_server_team <name>,チーム「%s」はサーバーチームではありません！ 次のコマンドを使用してください: /team create_server_team <name>
+commands.kickme.usage,/kickme,/kickme
+commands.ranks.none,None,なし
+commands.ranks.usage,/ranks,/ranks
+commands.ranks.not_found,Rank '%s' not found!,ランク「%s」は見つかりませんでした。
+commands.ranks.create.usage,/ranks create <id> [parent],/ranks create <ID> [親]
+commands.ranks.create.id_invalid,Invalid rank ID: '%s'. It must be alphanumeric & lowercase!,無効なランクID: '%s'。アルファベット・数字で小文字のみである必要があります！
+commands.ranks.create.id_exists,Rank '%s' already exists!,ランク '%s' は既に存在します！
+commands.ranks.create.added,Rank %s added!,ランク %s を追加しました!
+commands.ranks.info.usage,/ranks info <rank|player>,/ranks info <rank|player>
+commands.ranks.add.usage,/ranks add <rank|player> <rank>,/ranks add <rank|player> <rank>
+commands.ranks.add.text,Added rank %s as parent for %s,ランク %s を %s の親として追加しました
+commands.ranks.remove.usage,/ranks remove <rank|player> [rank],/ranks remove <rank|player> [rank]
+commands.ranks.remove.text,Removed rank %s as parent from %s,親からランク%sを削除しました
+commands.ranks.get_permission.usage,/ranks get_permission <rank|player> <permission>,/ranks get_permission <プレイヤー> <パーミッション>
+commands.ranks.get_permission.text,%s for %s is %s,%2$sの%1$sは%3$sです
+commands.ranks.set_permission.usage,/ranks set_permission <rank> <permission> <true|false|value|none>,/ranks set_permission <ランク> <パーミッション> <true|false|value|none>
+commands.ranks.set_permission.set,%s for %s set to %s,%2$sの%1$sを%3$sに設定しました
+commands.ranks.delete.usage,/ranks delete <rank>,/ranks delete <ランク>
+commands.ranks.delete.deleted,Rank %s deleted,ランク「%s」を削除しました！
+commands.upload_crash_report.usage,/upload_crash_report <file>,/upload_crash_report <ファイル>
+commands.heal.usage,/heal [player],/heal [プレイヤー]
+commands.killall.usage,/killall [type] [dimension],/killall [タイプ] [ディメンション]
+commands.nbtedit.usage,/nbtedit,/nbtedit
+commands.nbtedit.too_large,NBT size too large!,NBTのサイズが大きすぎます！
+commands.nbtedit.block.usage,/nbtedit block <x> <y> <z>,/nbtedit block <x> <y> <z>
+commands.nbtedit.entity.usage,/nbtedit entity <id>,/nbtedit entity <id>
+commands.nbtedit.player.usage,/nbtedit player <player>,/nbtedit player <プレイヤー>
+commands.nbtedit.item.usage,/nbtedit item,/nbtedit item
+commands.tpa.usage,/tpa <player>,/tpa <プレイヤー>
+commands.tpaccept.usage,/tpaccept <player>,/tpaccept <プレイヤー>
+commands.tpdeny.usage,/tpdeny <player>,/tpdeny <プレイヤー>
+commands.nick.usage,/nick <name...>,/nick <名前...>
+commands.nickfor.usage,/nickfor <player> <name...>,/nickfor <プレイヤー> <名前...>
+commands.fly.usage,/fly,/fly
+commands.cycle_block_state.usage,/cycle_block_state,/cycle_block_state
+commands.leaderboards.usage,/leaderboards [id],/leaderboards [id]
+commands.mute.usage,/mute <player>,/mute <プレイヤー>
+commands.mute.muted,You are muted!,ミュートされました！
+commands.unmute.usage,/unmute <player>,/unmute <プレイヤー>
+commands.rec.usage,/rec,/rec
+commands.rec.recording,%s is now recording!,%sがレコーディング中です！
+commands.rec.not_recording,%s is no longer recording!,%sはレコーディングを終了しました！
+commands.ping.integrated_server,Integrated Server,統合サーバー
+commands.ping.unknown,Unknown,不明
+commands.shrug.usage,/shrug [text...],/shrug [テキスト...]
+commands.scan_items.usage,/scan_items,/scan_items
+commands.print_item.usage,/print_item,/print_item

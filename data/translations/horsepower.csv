@@ -1,0 +1,77 @@
+﻿key,source_text,target_text
+item.flour.name,Flour,小麦粉
+item.dough.name,Dough,生地
+item.horsepower:grindstone.description.size,For the grindstone to work an [%1]7x7[%2] and [%1]2 blocks[%2] high area is needed,グラインドストーンが機能するには、[%1]7x7[%2] と [%1]2 ブロック[%2] 高さの領域が必要です
+item.horsepower:grindstone.description.location,The grindstone needs to be placed [%1]one block[%2] up in the middle,グラインドストーンは[%1]中央の一ブロック[%2]上に配置する必要があります。
+item.horsepower:grindstone.description.use,To use the grindstone attach a horse with a lead,グラインドストーンを使用するには、リードで馬に取り付けてください。
+item.horsepower:chopping.description.size,For the chopping block to work an [%1]7x7[%2] and [%1]2 blocks[%2] high area is needed,切断ブロックを機能させるには[%1]7x7[%2]および[%1]2ブロック[%2]高のエリアが必要です
+item.horsepower:chopping.description.location,The chopping block needs to be placed in the middle,切断台は中央に配置する必要があります
+item.horsepower:chopping.description.use,To use the chopping block attach a horse with a lead,切断ブロックを使用するには、リードで馬をつなげてください
+item.horsepower:press.description.size,For the press to work an [%1]7x7[%2] and [%1]2 blocks[%2] high area is needed,プレスが機能するには、[%1]7x7[%2]と[%1]2ブロック[%2]高いエリアが必要です
+item.horsepower:press.description.location,The press needs to be placed in the middle,プレスは中央に配置する必要があります
+item.horsepower:press.description.use,To use the press attach a horse with a lead,プレスを使用するには、リードで馬をつなげてください
+item.horsepower:hand_grindstone.description.info,Right click the block with the item to grind[%1]Sneak right click to remove item[%1]Right click block with item in it to start grinding,アイテムを持ってブロックを右クリックして粉砕[%1]スニーク右クリックでアイテムを取り外す[%1]アイテムが入っているブロックを右クリックして粉砕を開始
+tile.hand_grindstone.name,Grindstone,丸砥石
+tile.grindstone.name,Horse Grindstone,馬の研磨石
+tile.chopping_block.name,Chopping Block,切り落としブロック
+tile.chopper.name,Horse Chopping Block,馬用切断ブロック
+tile.press.name,Horse Press,馬の押す力
+info.horsepower:chopping.invalid,INVALID 7x7x2 AREA,無効な7x7x2領域
+info.horsepower:grindstone.invalid,INVALID 7x7x2 AREA,無効な7x7x2領域
+info.horsepower:press.invalid,INVALID 7x7x2 AREA,無効な7x7x2領域
+info.horsepower:item.reveal,Hold a lead to reveal area needed,レッドストーンを保持して、必要な領域を明らかにします。
+info.horsepower:grindstone.info1,"The grindstone will grind down items to their base components. When setting up a grindstone make sure you have a 7x7 and 2 blocks high area cleared before starting, there needs to be solid ground under the 7x7 area.",グラインストーンはアイテムを基本成分に粉砕します。グラインストーンを設置する際は、開始前に7×7エリアと2ブロック分の高さをクリアしておく必要があります。7×7エリアの下に固い地面がなければなりません。
+info.horsepower:grindstone.info2,"In the middle of the 7x7 place a block of your choice and then place the grindstone above that. If the area isn't cleared to grindstone will say that when looking at it. Next, use a lead to get a Horse/Donkey/Mule/Llama of your choice to be working the grinder.",7×7の中央に任意のブロックを置き、その上にグラインストーンを設置します。エリアがクリアされていない場合、グラインストーンを見ると表示されます。次に、リード（紐）を使用して、選択したウマ/ロバ/ラバ/ラマを粉砕機で作業させるようにします。
+info.horsepower:grindstone.info3,With the animal attached with the lead right click the grindstone and the animal should now be connected to that. Now simply right click the grindstone with a item that can be grinded to start the process or attach any automatic input/output on the top or bottom.,リード（紐）でアニマルを接続した状態でグラインストーンを右クリックすると、アニマルがそれに接続されます。次に、粉砕可能なアイテムを持ってグラインストーンを右クリックしてプロセスを開始するか、上部または下部に自動入力/出力を接続します。
+commands.horsepower.usage,/horsepower entity,/horsepower entity
+commands.horsepower.entity.invalid,Can only do this command as a player,このコマンドはプレイヤーとしてのみ実行できます。
+commands.horsepower.entity.no,Not looking at an entity,エンティティを見ていない
+commands.horsepower.entity.has,Entity copied to clipboard: %s,エンティティがクリップボードへコピーされました：%s
+commands.horsepower.reload,Reloading in-game changed HorsePower configs,ゲーム内でリロードするとHorsePower設定が変更されます
+commands.horsepower.reload.error,Reload finished with errors,リロードがエラー付きで完了しました
+commands.horsepower.reload.noerror,Reload finished without errors,リロード完了（エラーなし）
+gui.horsepower.jei.category.hand.grinding,Hand Grindstone,手の研磨石
+gui.horsepower.jei.category.grinding,Grindstone,丸砥石
+gui.horsepower.jei.category.chopping,Chopping Block,切り落としブロック
+gui.horsepower.jei.category.manual.chopping,Manual Chopping Block,手動切断ブロック
+gui.horsepower.jei.category.press.item,Press (Item),押す (アイテム)
+gui.horsepower.jei.category.press.fluid,Press (Fluid),押す (液体)
+gui.horsepower.jei.tooltip.chopping,Time to chop: [%1] [%2->lap|laps],切り倒す時間: [%1] [%2->ラップ|ラップ]
+gui.horsepower.jei.tooltip.grinding,Time to grind: [%1] [%2->lap|laps],研ぎ澄ます時間: [%1] [%2->ラップ|ラップ]
+gui.horsepower.jei.tooltip.pressing,Time to press: [%1] [%2->lap|laps],押す時間: [%1] [%2->ラップ|ラップ]
+gui.horsepower.jei.tooltip.grinding.chance,Chance: [%1]%,確率: [%1]%
+gui.horsepower.jei.tooltip.manual.chopping,Amount of chops: [%1],切断数: [%1]
+gui.horsepower.jei.tooltip.manual.chopping.desc.1,Amount returned (rounded up): [%1]%,返還される金額（四捨五入）: [%1]
+gui.horsepower.jei.tooltip.manual.chopping.desc.2,Chance for +1: [%1]%,＋1の確率: [%1]%
+gui.horsepower.jei.tooltip.manual.chopping.desc.3,Amount returned with [%1]%[%2] is represented in the output slot,[%1]%[%2]で返却される量は出力スロットに表示されます
+config.gui.general,General,一般
+config.gui.client,Client,クライアント
+config.gui.recipes,Recipes,レシピ
+config.gui.misc,Misc,その他
+config.gui.recipes.grindstone,Grindstone Recipes,グラインドストーンレシピ
+config.gui.recipes.hand_grindstone,Hand Grindstone Recipes,手作業研削機レシピ
+config.gui.recipes.chopping,Chopping Recipes,切断レシピ
+config.gui.recipes.manual_chopping,Manual Chopping Recipes,手作業斬りレシピ
+config.gui.mobs,Horse Powered Mob List,馬動力モブリスト
+config.gui.chopping_axes,Chopping Block Axes,斧の切断ブロック
+config.gui.harvest,Harvestable Percentages,収穫可能率
+itemGroup.horsepower,Horse Power,馬の力
+gui.horsepower.waila.grindstone.progress,Grinding: [%1]%,研磨中: [%1]%
+gui.horsepower.waila.windup.progress,Windup: [%1]%,巻き上げ中: [%1]%
+gui.horsepower.waila.chopping.progress,Chopping: [%1]%,切断中: [%1]%
+gui.horsepower.waila.press.progress,Pressing: [%1]%,圧縮中: [%1]%
+gui.horsepower.waila.show.items,Show items,アイテムを表示
+gui.horsepower.top.grindstone.progress,Grinding:,研磨:
+gui.horsepower.top.windup.progress,Windup:,巻き上げ:
+gui.horsepower.top.chopping.progress,Chopping:,切断:
+gui.horsepower.top.press.progress,Pressing:,圧縮:
+advancements.horsepower.root.title,Horse Powered,馬の駆動
+advancements.horsepower.root.description,The start of automation,自動化の始まり
+advancements.horsepower.flour.title,Grindy,グリンディ
+advancements.horsepower.flour.description,Grind some wheat to flour,小麦を粉に挽く
+advancements.horsepower.grindstone.title,Horse Grindstone Labor,馬グラインドストーン労働
+advancements.horsepower.grindstone.description,Put a horse to work grinding things,馬を使って物を粉砕させる
+advancements.horsepower.chopping.title,Horse Chopping Labor,馬の切断作業
+advancements.horsepower.chopping.description,Make a horse work for you chopping blocks,馬にブロックを切らせて働かせる
+advancements.horsepower.press.title,Horse Press Labor,馬の労働力
+advancements.horsepower.press.description,Make a horse press things for you,馬に代わって物を押させる

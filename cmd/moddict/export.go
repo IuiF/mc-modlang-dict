@@ -26,7 +26,7 @@ func runExport(args []string) error {
 		original   = fs.String("original", "", "Original lang file for merged export")
 		status     = fs.String("status", "", "Filter by status (pending, translated, verified)")
 		all        = fs.Bool("all", false, "Export all mods to a single combined CSV file")
-		detailed   = fs.Bool("detailed", false, "Include mod_id and status columns in combined CSV (use with -all)")
+		perMod     = fs.Bool("per-mod", false, "Export each mod to separate CSV files (use with -all)")
 	)
 
 	fs.Usage = func() {
@@ -44,6 +44,7 @@ Examples:
   moddict export -mod botania -format merged -original en_us.json
   moddict export -mod create -status translated
   moddict export -all -out translations/       # Export all mods to combined CSV
+  moddict export -all -per-mod -out data/translations/  # Export each mod to separate CSV
 `)
 	}
 
@@ -51,9 +52,9 @@ Examples:
 		return err
 	}
 
-	// Handle -all flag for combined CSV export
+	// Handle -all flag for CSV export
 	if *all {
-		return runExportAllCSV(*dbPath, *outputDir, *targetLang, *status, *detailed)
+		return runExportAllCSV(*dbPath, *outputDir, *targetLang, *status, *perMod)
 	}
 
 	if *modID == "" {
@@ -152,9 +153,10 @@ Examples:
 	return nil
 }
 
-// runExportAllCSV exports all mods' translations to a single combined CSV file
-// If detailed is true, includes mod_id and status columns
-func runExportAllCSV(dbPath, outputDir, targetLang, status string, detailed bool) error {
+// runExportAllCSV exports all mods' translations to CSV files
+// If perMod is true, exports each mod to a separate CSV file
+// Otherwise, exports all mods to a single combined CSV file
+func runExportAllCSV(dbPath, outputDir, targetLang, status string, perMod bool) error {
 	// Open database
 	repo, err := database.NewRepository(dbPath)
 	if err != nil {
@@ -180,8 +182,66 @@ func runExportAllCSV(dbPath, outputDir, targetLang, status string, detailed bool
 		return fmt.Errorf("failed to create output directory: %w", err)
 	}
 
+	if perMod {
+		return runExportPerModCSV(repo, ctx, mods, outputDir, targetLang, status)
+	}
+
+	return runExportCombinedCSV(repo, ctx, mods, outputDir, targetLang, status)
+}
+
+// runExportPerModCSV exports each mod to a separate CSV file
+func runExportPerModCSV(repo *database.Repository, ctx context.Context, mods []*models.Mod, outputDir, targetLang, status string) error {
+	totalMods := 0
+	totalRows := 0
+	translatedCount := 0
+
+	for _, mod := range mods {
+		filter := interfaces.TranslationFilter{
+			TargetLang: targetLang,
+		}
+		if status != "" {
+			filter.Status = status
+		}
+
+		translations, err := repo.ListTranslationsWithSourceByMod(ctx, mod.ID, filter)
+		if err != nil {
+			fmt.Printf("Warning: failed to get translations for %s: %v\n", mod.ID, err)
+			continue
+		}
+
+		if len(translations) == 0 {
+			continue
+		}
+
+		// Create CSV file for this mod
+		csvPath := filepath.Join(outputDir, fmt.Sprintf("%s.csv", mod.ID))
+		if err := exportCSV(translations, csvPath); err != nil {
+			fmt.Printf("Warning: failed to export %s: %v\n", mod.ID, err)
+			continue
+		}
+
+		totalMods++
+		totalRows += len(translations)
+		for _, t := range translations {
+			if t.TargetText != nil {
+				translatedCount++
+			}
+		}
+	}
+
+	fmt.Printf("\nPer-Mod CSV Export Complete\n")
+	fmt.Printf("Mods exported: %d\n", totalMods)
+	fmt.Printf("Total entries: %d\n", totalRows)
+	fmt.Printf("Translated: %d\n", translatedCount)
+	fmt.Printf("Output directory: %s\n", outputDir)
+
+	return nil
+}
+
+// runExportCombinedCSV exports all mods to a single combined CSV file
+func runExportCombinedCSV(repo *database.Repository, ctx context.Context, mods []*models.Mod, outputDir, targetLang, status string) error {
 	// Create combined CSV file
-	csvPath := filepath.Join(outputDir, fmt.Sprintf("all_mods_%s.csv", targetLang))
+	csvPath := filepath.Join(outputDir, "all_translations.csv")
 	file, err := os.Create(csvPath)
 	if err != nil {
 		return fmt.Errorf("failed to create file: %w", err)
@@ -194,13 +254,8 @@ func runExportAllCSV(dbPath, outputDir, targetLang, status string, detailed bool
 	writer := csv.NewWriter(file)
 	defer writer.Flush()
 
-	// Write header
-	var header []string
-	if detailed {
-		header = []string{"mod_id", "key", "source_text", "target_text", "status"}
-	} else {
-		header = []string{"key", "source_text", "target_text"}
-	}
+	// Write header - only key, source_text, target_text
+	header := []string{"key", "source_text", "target_text"}
 	if err := writer.Write(header); err != nil {
 		return fmt.Errorf("failed to write header: %w", err)
 	}
@@ -230,12 +285,7 @@ func runExportAllCSV(dbPath, outputDir, targetLang, status string, detailed bool
 				targetText = *t.TargetText
 				translatedCount++
 			}
-			var row []string
-			if detailed {
-				row = []string{mod.ID, t.Key, t.SourceText, targetText, t.Status}
-			} else {
-				row = []string{t.Key, t.SourceText, targetText}
-			}
+			row := []string{t.Key, t.SourceText, targetText}
 			if err := writer.Write(row); err != nil {
 				return fmt.Errorf("failed to write row: %w", err)
 			}

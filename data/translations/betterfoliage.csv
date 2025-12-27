@@ -1,0 +1,216 @@
+﻿key,source_text,target_text
+key.betterfoliage.gui,Open Settings,設定を開く
+betterfoliage.global.enabled,Enable Mod,モジュールを有効にする
+betterfoliage.global.enabled.tooltip,"If set to false, BetterFoliage will not render anything",false に設定すると BetterFoliage は何も描画しません
+betterfoliage.global.nVidia,nVidia GPU,NVIDIA GPU
+betterfoliage.global.nVidia.tooltip,Specify whether you have an nVidia GPU,NVIDIA GPUを持っているかどうかを指定してください。
+betterfoliage.enabled,Enable,有効
+betterfoliage.enabled.tooltip,Is this feature enabled?,この機能は有効ですか？
+betterfoliage.hOffset,Horizontal offset,水平オフセット
+betterfoliage.hOffset.tooltip,"The distance this element is shifted horizontally, in blocks",この要素が水平に移動する距離、ブロック単位で
+betterfoliage.vOffset,Vertical offset,垂直オフセット
+betterfoliage.vOffset.tooltip,"The distance this element is shifted vertically, in blocks",要素が垂直方向にシフトされる距離（ブロック単位）
+betterfoliage.size,Size,サイズ
+betterfoliage.size.tooltip,Size of this element,この要素のサイズ
+betterfoliage.heightMin,Minimum height,最小高さ
+betterfoliage.heightMin.tooltip,Minimum height of element,要素の最小高さ
+betterfoliage.heightMax,Maximum height,最大高さ
+betterfoliage.heightMax.tooltip,Maximum height of element,要素の最大高さ
+betterfoliage.population,Population,人口
+betterfoliage.shaderWind,Shader wind effects,シェーダー風の効果
+betterfoliage.shaderWind.tooltip,Apply wind effects from ShaderMod shaders to this element?,ShaderMod のシェーダーから風効果をこの要素に適用しますか？
+betterfoliage.distance,Distance limit,距離制限
+betterfoliage.distance.tooltip,Maximum distance from player at which to render this feature,プレイヤーから最大レンダリング距離でこの機能を表示します
+betterfoliage.rendererror,§a[BetterFoliage]§f Error rendering block %s at position %s,§a[BetterFoliage]§f ブロック%sを位置%sでレンダリング中にエラーが発生しました
+betterfoliage.blocks,Block Types,ブロックタイプ
+betterfoliage.blocks.tooltip,Configure lists of block classes that will have specific features applied to them,特定機能を適用するブロッククラスのリストを設定します
+betterfoliage.blocks.dirtWhitelist,Dirt Whitelist,土の白リスト
+betterfoliage.blocks.dirtBlacklist,Dirt Blacklist,土の黒リスト
+betterfoliage.blocks.dirtWhitelist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.dirtBlacklist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.dirtWhitelist.tooltip,"Blocks recognized as Dirt. Has an impact on Reeds, Algae, Connected Grass",土として認識されるブロック。リード、藻類、接続グラスへの影響がある
+betterfoliage.blocks.grassClassesWhitelist,Grass Whitelist,草の白リスト
+betterfoliage.blocks.grassClassesBlacklist,Grass Blacklist,草の黒リスト
+betterfoliage.blocks.grassClassesWhitelist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.grassClassesBlacklist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.grassModels,Grass Models,草のモデル
+betterfoliage.blocks.grassModels.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.grassWhitelist.tooltip,"Blocks recognized as Grass. Has an impact on Short Grass, Connected Grass",草として認識されるブロック。短い草、接続グラスへの影響がある
+betterfoliage.blocks.grassBlacklist.tooltip,"Blocks never accepted as Grass. Has an impact on Short Grass, Connected Grass",草として受け入れられないブロック。背の低い草や接続された草に影響します。
+betterfoliage.blocks.grassModels.tooltip,Models and textures recognized for grass blocks,草ブロックとして認識されるモデルとテクスチャ
+betterfoliage.blocks.leavesClassesWhitelist,Leaves Whitelist,葉のホワイトリスト
+betterfoliage.blocks.leavesClassesBlacklist,Leaves Blacklist,葉のブラックリスト
+betterfoliage.blocks.leavesClassesWhitelist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.leavesClassesBlacklist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.leavesModels,Leaves Models,葉のモデル
+betterfoliage.blocks.leavesModels.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.leavesModels.tooltip,Models and textures recognized for leaves blocks,葉ブロックとして認識されるモデルとテクスチャ
+betterfoliage.blocks.cropsWhitelist,Crop Whitelist,作物の白リスト
+betterfoliage.blocks.cropsBlacklist,Crop Blacklist,作物の黒リスト
+betterfoliage.blocks.cropsWhitelist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.cropsBlacklist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.cropsWhitelist.tooltip,Blocks recognized as crops. Crops will render with tallgrass block ID in shader programs,ブロックが作物として認識されます。作物はシェーダー・プログラムで tallgrass ブロック ID でレンダリングされます
+betterfoliage.blocks.cropsBlacklist.tooltip,Blocks never accepted as crops. Crops will render with tallgrass block ID in shader programs,ブロックは作物として受け入れられません。作物はシェーダープログラムでタールグラスブロックIDでレンダリングされます
+betterfoliage.blocks.logClassesWhitelist,Wood Log Whitelist,木材ログホワイトリスト
+betterfoliage.blocks.logClassesBlacklist,Wood Log Blacklist,木材ブラックリスト
+betterfoliage.blocks.logClassesWhitelist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.logClassesBlacklist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.logModels,Wood Log Models,木の丸太モデル
+betterfoliage.blocks.logModels.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.logClassesWhitelist.tooltip,Blocks recognized as wooden logs. Has an impact on Rounded Logs,木材のログとして認識されるブロック。丸いログに影響します
+betterfoliage.blocks.logClassesBlacklist.tooltip,Blocks never accepted as wooden logs. Has an impact on Rounded Logs,木材のログとしてブロックは受け付けられません。丸いログに影響します
+betterfoliage.blocks.logModels.tooltip,Models and textures recognized for wood log blocks,木材のログブロックに認識されたモデルとテクスチャ
+betterfoliage.blocks.sandWhitelist,Sand Whitelist,砂の白リスト
+betterfoliage.blocks.sandBlacklist,Sand Blacklist,砂の黒リスト
+betterfoliage.blocks.sandWhitelist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.sandBlacklist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.sandWhitelist.tooltip,Blocks recognized as Sand. Has an impact on Coral,砂として認識されるブロック。珊瑚に影響があります。
+betterfoliage.blocks.sandBlacklist.tooltip,Blocks never accepted Sand. Has an impact on Coral,ブロックは砂を受け付けません。珊瑚に影響があります
+betterfoliage.blocks.lilypadWhitelist,Lilypad Whitelist,リリー・ホワイトリスト
+betterfoliage.blocks.lilypadBlacklist,Lilypad Blacklist,スプラッシュパッド ブラックリスト
+betterfoliage.blocks.lilypadWhitelist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.lilypadBlacklist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.lilypadWhitelist.tooltip,Blocks recognized as Lilypad. Has an impact on Better Lilypad,リリーのように認識されるブロック。Better Lilypad に影響を与えます
+betterfoliage.blocks.lilypadBlacklist.tooltip,Blocks never accepted Lilypad. Has an impact on Better Lilypad,ブロックはLilypadを受け付けません。Better Lilypadに影響があります
+betterfoliage.blocks.cactusWhitelist,Cactus Whitelist,サボテンホワイトリスト
+betterfoliage.blocks.cactusBlacklist,Cactus Blacklist,サボテン禁止リスト
+betterfoliage.blocks.cactusWhitelist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.cactusBlacklist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.cactusWhitelist.tooltip,Blocks recognized as Cactus. Has an impact on Better Cactus,Better Cactusとして認識されるブロック。Better Cactusに影響します。
+betterfoliage.blocks.cactusBlacklist.tooltip,Blocks never accepted Cactus. Has an impact on Better Cactus,ブロックはカクタスを受け付けません。Better Cactusに影響があります。
+betterfoliage.blocks.myceliumWhitelist,Mycelium Whitelist,マイセリウムの白リスト
+betterfoliage.blocks.myceliumBlacklist,Mycelium Blacklist,マイセリウムの黒リスト
+betterfoliage.blocks.myceliumWhitelist.arrayEntry,%d entries,%d エントリー
+betterfoliage.blocks.myceliumBlacklist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.myceliumWhitelist.tooltip,Blocks recognized as Mycelium. Has an impact on Better Grass,マイセリウムとして認識されるブロック。Better Grassに影響します
+betterfoliage.blocks.myceliumBlacklist.tooltip,Blocks never accepted Mycelium. Has an impact on Better Grass,ブロックはマイセリウムを受け付けません。Better Grassに影響します
+betterfoliage.blocks.netherrackWhitelist,Netherrack Whitelist,ネザーラックホワイトリスト
+betterfoliage.blocks.netherrackBlacklist,Netherrack Blacklist,ネザーの岩ブラックリスト
+betterfoliage.blocks.netherrackWhitelist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.netherrackBlacklist.arrayEntry,%d entries,%d項目
+betterfoliage.blocks.netherrackWhitelist.tooltip,Blocks recognized as Netherrack. Has an impact on Netherrack Vines,ネザーラックとして認識されるブロック。ネザーラックの蔓に影響を与えます。
+betterfoliage.blocks.netherrackBlacklist.tooltip,Blocks never accepted Netherrack. Has an impact on Netherrack Vines,ブロックはネザーラックを受け入れません。ネザーラックの蔓に影響があります
+betterfoliage.shaders,Shader configuration,シェーダー設定
+betterfoliage.shaders.tooltip,Configure integration with shaders,シェーダーとの統合を設定する
+betterfoliage.shaders.leavesId,Leaves ID,葉のID
+betterfoliage.shaders.grassId,Grass ID,草のID
+betterfoliage.leaves,Extra Leaves,追加の葉
+betterfoliage.leaves.tooltip,Extra round leaves on leaf blocks,葉ブロックに追加で丸い葉を付ける
+betterfoliage.leaves.dense,Dense mode,密集モード
+betterfoliage.leaves.dense.tooltip,Dense mode has more round leaves,デンシーモードでは丸い葉が多くなります
+betterfoliage.leaves.snowEnabled,Enable snow,雪を有効化
+betterfoliage.leaves.snowEnabled.tooltip,Enable snow on extra leaves?,追加の葉に雪を有効にする？
+betterfoliage.leaves.hideInternal,Hide internal leaves,内部の葉を非表示
+betterfoliage.leaves.hideInternal.tooltip,Skip rendering extra leaves if leaf block is completely surrounded by other leaves or solid blocks,葉ブロックが完全に他の葉や固体ブロックで囲まれている場合、余分な葉の描画をスキップします
+betterfoliage.shortGrass,Short Grass & Mycelium,短い草とマイセリウム
+betterfoliage.shortGrass.tooltip,Tufts of grass/mycelium on top of appropriate blocks,適切なブロックの上にある草/菌糸の束
+betterfoliage.shortGrass.useGenerated,Use generated texture for grass,草のテクスチャを生成済みで使用
+betterfoliage.shortGrass.useGenerated.tooltip,Generated texture is made by slicing the tallgrass texture from the active resource pack in half,生成されたテクスチャは、アクティブなリソースパックからタルグラスのテクスチャを半分に切り取って作成されます
+betterfoliage.shortGrass.myceliumEnabled,Enable Mycelium,マイセリウムを有効にする
+betterfoliage.shortGrass.myceliumEnabled.tooltip,Is this feature enabled for mycelium blocks?,この機能は菌糸ブロックで有効ですか？
+betterfoliage.shortGrass.grassEnabled,Enable Grass,草を有効にする
+betterfoliage.shortGrass.grassEnabled.tooltip,Is this feature enabled for grass blocks?,この機能は草ブロックに対して有効ですか？
+betterfoliage.shortGrass.snowEnabled,Enable under snow,雪下で有効化
+betterfoliage.shortGrass.snowEnabled.tooltip,Enable on snowed grass blocks?,雪の草ブロックに有効にする？
+betterfoliage.shortGrass.saturationThreshold,Saturation threshold,飽和閾値
+betterfoliage.shortGrass.saturationThreshold.tooltip,"Color saturation cutoff between ""colorless"" blocks (using biome color) and ""colorful"" blocks (using their own specific color)",「無色」ブロック（バイオーム色を使用）と「彩色」ブロック（独自の特定の色を使用）の間の色彩度のカットオフ
+betterfoliage.hangingGrass,Hanging Grass,吊るす草
+betterfoliage.hangingGrass.tooltip,Grass tufts hanging down from the top edges of grass blocks,草ブロックの上端から垂れ下がるグラスタフ
+betterfoliage.hangingGrass.separation,Separation,分離
+betterfoliage.hangingGrass.separation.tooltip,How much the hanging grass stands out from the block,吊り下げられた草がブロックからどれだけ突出しているか
+betterfoliage.cactus,Better Cactus,より良いサボテン
+betterfoliage.cactus.tooltip,Enhance cactus with extra bits and smooth shading,サボテンを追加のビットと滑らかなシェーディングで強化する
+betterfoliage.cactus.sizeVariation,Size variation,サイズ変動
+betterfoliage.cactus.sizeVariation.tooltip,Amount of random variation on cactus size,サボテンサイズのランダム変動量
+betterfoliage.lilypad,Better Lilypad,より良いスイレン
+betterfoliage.lilypad.tooltip,Enhance lilypad with roots and occasional flowers,根付きの蓮藻を増やし、時折花を咲かせる
+betterfoliage.lilypad.flowerChance,Flower chance,花の出現確率
+betterfoliage.lilypad.flowerChance.tooltip,Chance (N in 64) of a lilypad having a flower on it,水草に花がある確率（64分のN）
+betterfoliage.reed,Reeds,アシ
+betterfoliage.reed.tooltip,Reeds on dirt blocks in shallow water,浅い水の土ブロックにあるサトウキビ
+betterfoliage.reed.biomes,Biome List,バイオームリスト
+betterfoliage.reed.biomes.tooltip,Configure which biomes reeds are allowed to appear in,リードが出現できるバイオームを設定する
+betterfoliage.reed.biomes.tooltip.element,Should reeds appear in the %s biome?,%s バイオームにリードを出現させるべきですか？
+betterfoliage.algae,Algae,藻類
+betterfoliage.algae.tooltip,Algae on dirt blocks in deep water,深海の水中で土ブロックに付着した藻類
+betterfoliage.algae.biomes,Biome List,バイオームリスト
+betterfoliage.algae.biomes.tooltip,Configure which biomes algae is allowed to appear in,藻類が出現できるバイオームを設定する
+betterfoliage.algae.biomes.tooltip.element,Should algae appear in the %s biome?,%s バイオームに藻類が出現すべきですか？
+betterfoliage.coral,Coral,サンゴ
+betterfoliage.coral.tooltip,Coral on sand blocks in deep water,深水の砂ブロックにサンゴ
+betterfoliage.coral.size,Coral size,珊瑚サイズ
+betterfoliage.coral.size.tooltip,Size of coral bits sticking out,コーラルの突き出た部分のサイズ
+betterfoliage.coral.crustSize,Crust size,クレストサイズ
+betterfoliage.coral.crustSize.tooltip,Size of the flat coral part,平らなサンゴ部分のサイズ
+betterfoliage.coral.chance,Coral chance,珊瑚の確率
+betterfoliage.coral.biomes,Biome List,バイオームリスト
+betterfoliage.coral.biomes.tooltip,Configure which biomes coral is allowed to appear in,サンゴが出現できるバイオームを設定する
+betterfoliage.coral.biomes.tooltip.element,Should coral appear in the %s biome?,%s バイオームにサンゴが出現すべきですか？
+betterfoliage.coral.shallowWater,Shallow water coral,浅瀬のコーラル
+betterfoliage.coral.shallowWater.tooltip,Should coral appear in 1 block deep water?,コーラルは1ブロック深さの水に出現すべきか？
+betterfoliage.netherrack,Netherrack Vines,下界岩の蔓
+betterfoliage.netherrack.tooltip,Hanging Vines under netherrack,ネザーラックの下の垂れ下がる蔓
+betterfoliage.fallingLeaves,Falling leaves,落ち葉
+betterfoliage.fallingLeaves.tooltip,Falling leaf particle FX emitted from the bottom of leaf blocks,葉ブロックの下から落ちる葉粒子FXが放出されます。
+betterfoliage.fallingLeaves.speed,Particle speed,パーティクル速度
+betterfoliage.fallingLeaves.speed.tooltip,Overall particle speed,粒子の速度全体
+betterfoliage.fallingLeaves.windStrength,Wind strength,風の強さ
+betterfoliage.fallingLeaves.windStrength.tooltip,Magnitude of wind effects in good weather (spread of normal distribution centered on 0),良好な天候時の風効果の大きさ（平均0の正規分布の散布度）
+betterfoliage.fallingLeaves.stormStrength,Storm strength,嵐の強さ
+betterfoliage.fallingLeaves.stormStrength.tooltip,Additional magnitude of wind effects in rainy weather (spread of normal distribution centered on 0),雨天時の風効果の追加強度（平均0の正規分布に従う）
+betterfoliage.fallingLeaves.size,Particle size,粒子のサイズ
+betterfoliage.fallingLeaves.chance,Particle chance,粒子の確率
+betterfoliage.fallingLeaves.chance.tooltip,Chance of each random render tick hitting a leaf block to spawn a particle,ランダムレンダートックが葉ブロックに当たってパーティクルを生成する確率
+betterfoliage.fallingLeaves.perturb,Perturbation,揺らぎ
+betterfoliage.fallingLeaves.perturb.tooltip,Magnitude of perturbation effect. Adds a corkscrew-like motion to the particle synchronized to its rotation,摂動効果の大きさ。パーティクルの回転に同期したコークスクリューのような動きを追加します
+betterfoliage.fallingLeaves.lifetime,Maximum lifetime,最大寿命
+betterfoliage.fallingLeaves.lifetime.tooltip,Maximum lifetime of particle in seconds. Minimum lifetime is 60%% of this value,パーティクルの最大寿命（秒）。最小寿命はこの値の60％です。
+betterfoliage.fallingLeaves.opacityHack,Opaque particles,不透明粒子
+betterfoliage.fallingLeaves.opacityHack.tooltip,Stop transparent blocks obscuring particles even when particle is in front. WARNING: may cause glitches.,パーティクルが前面にあるときも透明なブロックがパーティクルを隠さないようにします。警告：不具合が発生する可能性があります。
+betterfoliage.risingSoul,Rising souls,昇る魂
+betterfoliage.risingSoul.tooltip,Rising soul particle FX emitted from the top of soulsand blocks,ソウルサンドブロックの上から昇る魂粒子FXが放出されます。
+betterfoliage.risingSoul.chance,Particle chance,粒子の確率
+betterfoliage.risingSoul.chance.tooltip,Chance of each random render tick hitting a soulsand block to spawn a particle,ランダムレンダートックごとのソウルサンドブロックに当たってパーティクルが生成される確率
+betterfoliage.risingSoul.speed,Particle speed,パーティクル速度
+betterfoliage.risingSoul.speed.tooltip,Vertical speed of soul particles,魂パーティクルの垂直速度
+betterfoliage.risingSoul.perturb,Perturbation,揺らぎ
+betterfoliage.risingSoul.perturb.tooltip,Magnitude of perturbation effect. Adds a corkscrew-like motion to the particle,擾乱効果の大きさ。パーティクルにコルクスクリュー状の動きを追加します。
+betterfoliage.risingSoul.headSize,Soul size,魂のサイズ
+betterfoliage.risingSoul.headSize.tooltip,Size of the soul particle,魂粒子のサイズ
+betterfoliage.risingSoul.trailSize,Trail size,トレイルサイズ
+betterfoliage.risingSoul.trailSize.tooltip,Initial size of the particle trail,粒子の尾の初期サイズ
+betterfoliage.risingSoul.opacity,Opacity,透過度
+betterfoliage.risingSoul.opacity.tooltip,Opacity of the particle effect,粒子効果の透明度
+betterfoliage.risingSoul.sizeDecay,Size decay,サイズ減衰
+betterfoliage.risingSoul.sizeDecay.tooltip,Trail particle size relative to its size in the previous tick,トレイル粒子のサイズは、前ティック時点でのサイズに対する相対値です。
+betterfoliage.risingSoul.opacityDecay,Opacity decay,透明度の減衰
+betterfoliage.risingSoul.opacityDecay.tooltip,Trail particle opacity relative to its opacity in the previous tick,トレイルパーティクルの不透明度を前ティック時点での不透明度に対して相対的に設定します。
+betterfoliage.risingSoul.lifetime,Maximum lifetime,最大寿命
+betterfoliage.risingSoul.lifetime.tooltip,Maximum lifetime of particle effect in seconds. Minimum lifetime is 60%% of this value,パーティクルエフェクトの最大寿命（秒）。最小寿命はこの値の60%%です。
+betterfoliage.risingSoul.trailLength,Trail length,跡の長さ
+betterfoliage.risingSoul.trailLength.tooltip,Number of previous positions the particle remembers in ticks,パーティクルが覚えている過去の位置数（tick単位）
+betterfoliage.risingSoul.trailDensity,Trail density,トレイル密度
+betterfoliage.risingSoul.trailDensity.tooltip,Render every Nth previous position in the particle trail,粒子トレイルで毎 N 回前の位置を描画する
+betterfoliage.connectedGrass,Connected grass textures,接続されたグラステクスチャ
+betterfoliage.connectedGrass.enabled,Enable,有効
+betterfoliage.connectedGrass.enabled.tooltip,"If there is a grass block on top of a dirt block: draw grass top texture on all grass block sides,",土ブロックの上に草ブロックがあるとき：すべての草ブロック側面に草トップテクスチャを描画します
+betterfoliage.roundLogs,Round Logs,丸木
+betterfoliage.roundLogs.tooltip,Connect round blocks to solid full blocks?,丸いブロックを完全な固体ブロックに接続しますか？
+betterfoliage.roundLogs.connectSolids,Connect to solid,固体に接続
+betterfoliage.roundLogs.connectSolids.tooltip,Connect round blocks to solid full blocks?,丸いブロックを完全な固体ブロックに接続しますか？
+betterfoliage.roundLogs.connectPerpendicular,Connect to perpendicular logs,垂直なログに接続する
+betterfoliage.roundLogs.connectPerpendicular.tooltip,Connect round logs to perpendicular logs along its axis?,円形原木を軸方向に垂直な原木に接続しますか？
+betterfoliage.roundLogs.lenientConnect,Lenient rounding,緩和された丸め方
+betterfoliage.roundLogs.lenientConnect.tooltip,"Connect parallel round logs in an L-shape too, not just 2x2",並列の丸いログをL字形で接続できるようにしてください。2x2だけではありません
+betterfoliage.roundLogs.connectGrass,Connect Grass,草に接続
+betterfoliage.roundLogs.connectGrass.tooltip,Render grass block under trees instead of dirt if there is grass nearby,木の下に土ではなくグラスブロックを描画するようにします（近くに草がある場合）。
+betterfoliage.roundLogs.radiusSmall,Chamfer radius,面取り半径
+betterfoliage.roundLogs.radiusSmall.tooltip,How much to chop off from the log corner,ログの角から切り取る量はいくらですか？
+betterfoliage.roundLogs.radiusLarge,Connected chamfer radius,接続された角丸半径
+betterfoliage.roundLogs.radiusLarge.tooltip,How much to chop off from the outer corner of connected logs,接続された原木の外角から切り取る量
+betterfoliage.roundLogs.dimming,Dimming,暗転
+betterfoliage.roundLogs.dimming.tooltip,Amount to darken obscured log faces,隠された木の面を暗くする量
+betterfoliage.roundLogs.zProtection,Z-Protection,Z-保護
+betterfoliage.roundLogs.zProtection.tooltip,Amount to scale parallel log connection bits to stop Z-fighting (flickering). Try to set it as high as possible without having glitches.,Z-fighting（ちらつき）を防ぐために平行なログ接続ビットをスケーリングする量。不具合がない限りできるだけ高く設定してください。
+betterfoliage.roundLogs.defaultY,Default to vertical,縦方向に設定
+betterfoliage.roundLogs.defaultY.tooltip,"If true, log blocks where the orientation cannot be determined will be rendered as vertical. Otherwise, they will be rendered as cube blocks.",真の場合、方向を判定できないログブロックは垂直方向としてレンダリングされます。そうでない場合は、キューブブロックとしてレンダリングされます。

@@ -1,0 +1,35 @@
+﻿key,source_text,target_text
+category.lighty,Lighty,ライト
+key.lighty.enable,Open Light Overlay Menu,明るいオーバーレイメニューを開く
+key.lighty.toggle,Toggle Light Overlay,ライトオーバーレイの切り替え
+lighty.options.auto_on,Auto-On,自動オン
+lighty.options.block_threshold,Block Threshold,ブロック閾値
+lighty.options.block_threshold.tooltip,"If the block light level is less than or equal to %d, the overlay is red or orange, depending on the sky light level. Otherwise, it is green.",ブロック光レベルが%d以下の場合、スカイライトレベルに応じてオーバーレイが赤またはオレンジになります。それ以外の場合は緑になります。
+lighty.options.farm_growth_threshold,Farmland Growth Threshold,農地の成長閾値
+lighty.options.farm_growth_threshold.tooltip,"With a light level above %d, crops will grow and the overlay is green. Below, crops won't grow and the overlay is orange. Defaults to 8.",光レベルが%dより高い場合、作物は成長し、オーバーレイは緑になります。それ以下では、作物は成長せず、オーバーレイはオレンジになります。デフォルトは8です。
+lighty.options.farm_uproot_threshold,Farmland Uproot Threshold,農地の掘り起こし閾値
+lighty.options.farm_uproot_threshold.tooltip,"With a light level below %d, crops can't be planted and the overlay is red. Defaults to 8.",光レベルが%d以下の場合、作物は植えられずオーバーレイが赤くなります。デフォルトは8です。
+lighty.options.overlay_brightness,Overlay Brightness,オーバーレイの明るさ
+lighty.options.overlay_brightness.tooltip,The brightness of the rendered overlay. Defaults to 10. Especially useful when using shaders.,レンダリングされたオーバーレイの明るさです。デフォルトは10です。シェーダー使用時に特に便利です。
+lighty.options.overlay_distance,Overlay Distance,オーバーレイ距離
+lighty.options.overlay_distance.tooltip,"The radius of the area covered by the light overlay, in chunks. Defaults to 2. High overlay distance may impact performance severally.",光のオーバーレイが覆う領域の半径（チャンク単位）。デフォルトは2です。高いオーバーレイ距離はパフォーマンスに大きな影響を与える可能性があります。
+lighty.options.show_safe,Show Safe Spots,安全な場所を表示
+lighty.options.show_safe.tooltip,"If on, the overlay gets rendered on safe (green) spots.",オンの場合、オーバーレイは安全（緑）スポットにレンダリングされます。
+lighty.options.show_skylight_level,Show Skylight Level,スカイライトレベルを表示
+lighty.options.sky_threshold,Sky Threshold,空の境界
+lighty.options.sky_threshold.tooltip,"If the block light level is below the value specified in 'Block Threshold' and the sky light level is less than or equal to %d, the overlay is red. Otherwise, it is orange.",ブロック光レベルが「ブロック閾値」の設定値より低く、スカイライトレベルが%d以下の場合、オーバーレイは赤になります。それ以外の場合はオレンジになります。
+lighty.overlay,Overlay: %s,オーバーレイ: %s
+lighty.overlay.title,Choose an Overlay,オーバーレイを選択
+lighty.overlay.tooltip,"Whether the overlay is on or not. Click to toggle. To quickly toggle, press %s.",オーバーレイがオンかオフか。クリックで切り替えます。素早く切り替えるには%sを押してください。
+lighty.selected,Selected: %s,選択: %s
+lighty.selected.tooltip,The currently selected overlay. Click to get to a menu to change it.,現在選択中のオーバーレイ。クリックすると変更メニューに移動します。
+modeSwitcher.lighty.renderer_carpet,Carpet Mode,カーペットモード
+modeSwitcher.lighty.renderer_carpet.tooltip,"Original, carpet like overlay",オリジナルのカーペット風オーバーレイ
+modeSwitcher.lighty.renderer_cross,Boring Cross Mode,無味乾燥クロスモード
+modeSwitcher.lighty.renderer_cross.tooltip,It feels like every Light Overlay Mod has them,すべてのライトオーバーレイモッドにそれらがあるように感じます
+modeSwitcher.lighty.renderer_number,Number Mode,数値モード
+modeSwitcher.lighty.renderer_number.tooltip,"The upper value is the BlockLightLevel, the lower value is the SkyLightLevel",上位値はBlockLightLevel、下位値はSkyLightLevelです
+modeSwitcher.lighty.settings,Overlay Settings,オーバーレイ設定
+modeSwitcher.lighty.settings.tooltip,Customize Lighty to fit your needs!,ライトをカスタマイズしてあなたのニーズに合わせてください！
+modeSwitcher.lighty.title,Lighty Mode Switcher,ライトモードスイッチ
+settings.lighty.title,Lighty Settings,ライト設定

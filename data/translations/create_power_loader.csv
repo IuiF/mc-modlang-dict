@@ -1,0 +1,40 @@
+﻿key,source_text,target_text
+block.create_power_loader.andesite_chunk_loader,Andesite Chunk Loader,安山岩チャンクローダー
+block.create_power_loader.brass_chunk_loader,Brass Chunk Loader,真鍮チャンクローダー
+block.create_power_loader.empty_andesite_chunk_loader,Empty Andesite Chunk Loader,空の安山岩チャンクローダー
+block.create_power_loader.empty_brass_chunk_loader,Empty Brass Chunk Loader,空の真鍮チャンクローダー
+create.create_power_loader.brass_chunk_loader.load_1x1,1x1 Square,1x1の四角形
+create.create_power_loader.brass_chunk_loader.load_3x3,3x3 Square,3x3の四角形
+create.create_power_loader.brass_chunk_loader.load_5x5,5x5 Square,5x5の四角形
+create_power_loader.brass_chunk_loader.loading_range,Chunk Loading Radius,チャンクの読み込み半径
+create_power_loader.ponder.andesite_chunk_loader_basic.header,Basic Usage of the Andesite Chunk Loader,安山岩チャンクローダーの基本的な使い方
+create_power_loader.ponder.andesite_chunk_loader_basic.text_1,The chunk loader keeps the current chunk loaded when given rotational power,回転力を与えると、チャンクローダーは現在のチャンクを読み込んだままに保ちます
+create_power_loader.ponder.andesite_chunk_loader_basic.text_2,It does not work when the rotation speed is too slow,回転速度が遅すぎる場合は動作しません
+create_power_loader.ponder.andesite_chunk_loader_redstone.header,Redstone and the Andesite Chunk Loader,レッドストーンと安山岩チャンクローダー
+create_power_loader.ponder.andesite_chunk_loader_redstone.text_1,The chunk loader gives comparator output when it is active,チャンクローダーは稼働しているとき、コンパレーター出力を発します
+create_power_loader.ponder.andesite_chunk_loader_redstone.text_2,"When rotational power is lost, there is a short delay (configurable) before the chunk is unloaded",回転力が失われた後、チャンクの読み込みが解除されるまでに短い遅延があります（設定可能）
+create_power_loader.ponder.andesite_chunk_loader_redstone.text_3,The chunk will stay loaded if power is restored during this delay,この遅延中に回転力が再び供給されると、チャンクは読み込まれたままになります
+create_power_loader.ponder.brass_chunk_loader_basic.header,Basic Usage of the Brass Chunk Loader,真鍮チャンクローダーの基本的な使い方
+create_power_loader.ponder.brass_chunk_loader_basic.text_1,The chunk loader keeps the current chunk loaded when given rotational power,回転力を与えると、チャンクローダーは現在のチャンクを読み込んだままに保ちます
+create_power_loader.ponder.brass_chunk_loader_basic.text_2,It does not work when the rotation speed is too slow,回転速度が遅すぎる場合は動作しません
+create_power_loader.ponder.brass_chunk_loader_basic.text_3,You can configure the loaded range through the value panel...,設定パネルで読み込む範囲を調整できます…
+create_power_loader.ponder.brass_chunk_loader_basic.text_4,...but a longer range requires a higher rotation speed,…ただし、広い範囲に設定するにはより大きな回転速度が必要です
+create_power_loader.ponder.brass_chunk_loader_contraptions.header,Loading Chunks Around Moving Contraptions,動くからくりの周囲でのチャンク読み込み
+create_power_loader.ponder.brass_chunk_loader_contraptions.text_1,Brass chunk loaders also work on contraptions,真鍮チャンクローダーはからくりでも動作します
+create_power_loader.ponder.brass_chunk_loader_contraptions.text_2,They always load a 3x3 chunk area around the contraption,常にからくりの周囲3x3チャンクを読み込みます
+create_power_loader.ponder.brass_chunk_loader_contraptions.text_3,"When assembled, they do not require rotational power to function",組み立てた状態では、機能するための回転力は必要ありません
+create_power_loader.ponder.brass_chunk_loader_contraptions.text_4,They also function on stationary contraptions,停止しているからくりでも機能します
+create_power_loader.ponder.brass_chunk_loader_redstone.header,Redstone and the Brass Chunk Loader,レッドストーンと真鍮チャンクローダー
+create_power_loader.ponder.brass_chunk_loader_redstone.text_1,The chunk loader gives comparator output when it is active,チャンクローダーは稼働しているとき、コンパレーター出力を発します
+create_power_loader.ponder.brass_chunk_loader_redstone.text_2,"When rotational power is lost, there is a short delay (configurable) before the chunks are unloaded",回転力が失われた後、チャンクの読み込みが解除されるまでに短い遅延があります（設定可能）
+create_power_loader.ponder.brass_chunk_loader_redstone.text_3,The chunks will stay loaded if power is restored during this delay,この遅延中に回転力が再び供給されると、チャンクは読み込まれたままになります
+create_power_loader.ponder.brass_chunk_loader_station.header,Loading Chunks For Train Stations,鉄道駅でのチャンク読み込み
+create_power_loader.ponder.brass_chunk_loader_station.text_1,Brass chunk loaders can attach to Train Stations,真鍮チャンクローダーは鉄道駅ブロックに取り付けられます
+create_power_loader.ponder.brass_chunk_loader_station.text_2,Place them next to Train Stations in the correct direction,適切な方向で鉄道駅ブロックの横に設置してください
+create_power_loader.ponder.brass_chunk_loader_station.text_3,"They do not require rotational power, but are normally inactive",回転力は必要ありませんが、通常は稼働していません
+create_power_loader.ponder.brass_chunk_loader_station.text_4,"When a train arrives at the station, a 3x3 area around the chunk loader is loaded",列車が駅に到着すると、チャンクローダーの周囲3x3チャンクを読み込みます
+create_power_loader.ponder.brass_chunk_loader_station.text_5,"When the train leaves, the area is unloaded again",列車が出発すると、チャンクの読み込みは再び解除されます
+create_power_loader.ponder.empty_chunk_loader_basic.header,Usage of Empty Chunk Loaders,空のチャンクローダーの使い方
+create_power_loader.ponder.empty_chunk_loader_basic.text_1,Right-click a Ghast with an empty chunk loader to capture it,空のチャンクローダーで右クリックするとガストを捕獲できます
+create_power_loader.ponder.empty_chunk_loader_basic.text_2,"With rotational power, the captured ghasts light up the portal cores...",回転力が供給されると、捕獲したガストがポータルコアを照らし…
+create_power_loader.ponder.empty_chunk_loader_basic.text_3,...bringing the chunk loaders to life,…チャンクローダーを活性化させます

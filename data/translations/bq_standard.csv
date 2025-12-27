@@ -1,0 +1,67 @@
+﻿key,source_text,target_text
+bq_standard.task.retrieval,Retrieval Task,収集タスク
+bq_standard.task.crafting,Crafting Task,クラフトタスク
+bq_standard.task.hunt,Mob Hunt Task,モンスター狩りタスク
+bq_standard.task.scoreboard,Scoreboard Task,スコアボードタスク
+bq_standard.task.location,Location Task,場所タスク
+bq_standard.task.fluid,Fluid Task,液体タスク
+bq_standard.task.meeting,Meeting Task,会合タスク
+bq_standard.task.xp,Experience Task,経験値タスク
+bq_standard.task.block_break,Break Block Task,ブロックを破壊するタスク
+bq_standard.task.checkbox,Checkbox Task,チェックボックスタスク
+bq_standard.reward.choice,Choice Reward,選択報酬
+bq_standard.reward.item,Item Reward,アイテム報酬
+bq_standard.reward.scoreboard,Scoreboard Reward,スコアボード報酬
+bq_standard.reward.command,Command Reward,コマンド報酬
+bq_standard.reward.xp,Experience Reward,経験値報酬
+bq_standard.title.edit_loot_groups,Edit Loot Groups,ドロップグループの編集
+bq_standard.title.edit_loot_entries,Edit Loot Entries,ドロップ項目を編集
+bq_standard.ttile.edit_crafting,Edit Crafting,クラフト編集
+bq_standard.btn.select_mob,Select Mob,モンスター選択
+bq_standard.btn.add_remove_drops,Add/Remove Drops,ドロップの追加/削除
+bq_standard.btn.edit_items,Add/Remove Items,アイテムを追加/削除
+bq_standard.btn.consume,Consume: %s,消費: %s
+bq_standard.gui.amount,Amount,数量
+bq_standard.gui.kill,Kill %s,殺す %s
+bq_standard.gui.location,Location: %s,位置: %s
+bq_standard.gui.distance,Distance: %s,距離: %s
+bq_standard.gui.dimension,Dimension: %s,ディメンション: %s
+bq_standard.gui.found,Found!,発見！
+bq_standard.gui.undiscovered,Undiscovered,未発見
+bq_standard.gui.condition,Condition: %s,条件: %s
+bq_standard.gui.meet,Meet %s,会う %s
+bq_standard.gui.weight,Weight,重量
+bq_standard.gui.experience,Experience,経験値
+bq_standard.importer.hqm_bag.name,HQM Bag Importer,HQMバッグインポーター
+bq_standard.importer.hqm_bag.desc,Imports HQM rewards bags exported in json format.,HQM報酬バッグをJSON形式でエクスポートします。
+bq_standard.importer.hqm_quest.name,HQM Quest Importer,HQM クエストインポーター
+bq_standard.importer.hqm_quest.desc,"Imports HQM quest lines exported in json format. Due to the strange nature in which HQM quests are indexed post export, errors may occur between quests with duplicate names or conditional unlocks.",HQM のクエストラインを JSON 形式でエクスポートしたものをインポートします。HQM クエストのエクスポート後のインデックス付けの特殊な性質により、同じ名前のクエスト間またはコンディショナルロック間でエラーが発生する可能性があります。
+bq_standard.importer.nat_file.name,Native File Importer,ネイティブファイルインポーター
+bq_standard.importer.nat_file.desc,Imports native quest database files and appends them onto the exisiting ones.,ネイティブクエストデータベースファイルをインポートし、既存のものに追加します。
+bq_standard.importer.nat_url.name,Native Url Importer,ネイティブURLインポート
+bq_standard.importer.nat_url.desc,Imports native quest databases from the internet and appends them onto the exisiting ones.,インターネットからネイティブクエストデータベースをインポートし、既存のものに追加します。
+item.bq_standard.loot_chest.name,Loot Chest,戦利品チェスト
+bq_standard.tooltip.loot_chest,Rarity: %s,稀少度: %s
+bq_standard.task.advancement,Advancement Task,進捗タスク
+bq_standard.task.tame,Tame Task,飼育作業
+bq_standard.task.interact_item,Item Interaction Task,アイテム相互作用タスク
+bq_standard.task.interact_entity,Entity Interaction Task,エンティティ相互作用タスク
+bq_standard.task.trigger,Criterion Trigger Task,基準トリガータスク
+bq_standard.reward.recipe,Unlock Recipes,レシピを解錠
+bq_standard.title.edit_hunt,Edit Hunt Task,ハンティングタスクを編集
+bq_standard.title.edit_meeting,Edit Meeting Task,ミーティングタスクを編集
+bq_standard.title.edit_retrieval,Edit Retrieval Task,取得タスク編集
+bq_standard.title.edit_crafting,Edit Crafting Task,クラフトタスクの編集
+bq_standard.title.edit_scoreboard,Edit Scoreboard Task,スコアボードタスクを編集
+bq_standard.title.edit_advancement,Edit Advancement Task,進捗タスクの編集
+bq_standard.title.edit_tame,Edit Tame Task,テイムタスクを編集
+bq_standard.gui.biome,Biome: %s,バイオーム: %s
+bq_standard.gui.structure,Structure: %s,構造: %s
+bq_standard.gui.tame,Tame %s,驯化する %s
+bq_standard.importer.ftbq_quest.name,FTB Quest Importer,FTBクエストインポーター
+bq_standard.importer.ftbq_quest.desc,Imports chapters and quests from the FTB Quests mod's native NBT files,FTB QuestsモッドのネイティブNBTファイルから章とクエストをインポートします
+bq_standard.importer.adv_json.name,Advancement Importer (JSON),進捗インポート（JSON）
+bq_standard.importer.adv_json.desc,Imports vanilla advancements written in JSON format.%n%nWARNING: Must be in original vanilla or triumph file locations to import correctly!,JSON 形式で記述されたバニラのアドバンスメントをインポートします。%n%n警告：正しくインポートするには、元のバニラまたはTriumph ファイルの場所に配置する必要があります！
+bq_standard.tooltip.fixed_loot,Loot Set: %s,ロットセット: %s
+bq_standard.tooltip.fixed_loot_size,Contains %s items,%s 個のアイテムが含まれます
+bq_standard.tooltip.loot_table,Loot Table: %s,戦利品表: %s

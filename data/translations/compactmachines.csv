@@ -1,0 +1,276 @@
+﻿key,source_text,target_text
+block.compactmachines.machine,Compact Machine,コンパクトマシン
+block.compactmachines.machine_giant,Compact Machine (Giant),コンパクトマシン（巨大）
+block.compactmachines.machine_large,Compact Machine (Large),コンパクトマシン（大型）
+block.compactmachines.machine_maximum,Compact Machine (Maximum),コンパクトマシン（最大）
+block.compactmachines.machine_normal,Compact Machine (Normal),コンパクトマシン（ノーマル）
+block.compactmachines.machine_small,Compact Machine (Small),コンパクトマシン（小）
+block.compactmachines.machine_tiny,Compact Machine (Tiny),コンパクトマシン（小型）
+block.compactmachines.solid_wall,Solid Compact Machine Wall,ソリッドコンパクトマシン壁
+block.compactmachines.tunnel_wall,Solid Compact Machine Wall (with Tunnel),ソリッドコンパクトマシン壁（トンネル付き）
+block.compactmachines.wall,Compact Machine Wall,コンパクトマシン壁
+compactmachines.cannot_enter,"You fumble with the shrinking device, to no avail. It refuses to work.",縮小装置を手探りで操作しても効果がありません。動作しません。
+compactmachines.connected_block,Connected: %s,接続: %s
+compactmachines.direction.down,Down,下
+compactmachines.direction.east,East,東
+compactmachines.direction.north,North,北
+compactmachines.direction.side,Side: %s,側面: %s
+compactmachines.direction.south,South,南
+compactmachines.direction.up,Up,上
+compactmachines.direction.west,West,西
+compactmachines.errors.unknown_tunnel_type,Unknown Tunnel Type (%s),不明なトンネルタイプ (%s)
+compactmachines.psd.pages.machines,"Compact Machines are the core mechanic of this mod. They allow you to build large rooms in a single block space connected to the outside world. They come in various sizes ranging from 3x3x3 to 13x13x13.
+
+You can use Tunnels to connect the outside block faces with any of the inside walls to transport items, fluids etc.
+
+You can enter a Compact Machine by right-clicking it with a Personal Shrinking Device. Please use JEI to look up crafting recipes.","コンパクトマシンはこのmodの中核的なメカニクスです。単一ブロックのスペースに大規模なルームを構築でき、外の世界に接続できます。サイズは3x3x3から13x13x13までの様々な大きさがあります。
+
+トンネルを使用して、外側のブロック面を内側の壁に接続し、アイテムや流体などを輸送できます。
+
+パーソナルシュリンキングデバイスを持ってコンパクトマシンを右クリックして入ることができます。JEIを使用してクラフティングレシピを確認してください。"
+compactmachines.psd.pages.machines.title,Compact Machines,コンパクトマシン
+item.compactmachines.machine_giant,Compact Machine (Giant),コンパクトマシン（巨大）
+item.compactmachines.machine_large,Compact Machine (Large),コンパクトマシン（大型）
+item.compactmachines.machine_maximum,Compact Machine (Maximum),コンパクトマシン（最大）
+item.compactmachines.machine_normal,Compact Machine (Normal),コンパクトマシン（ノーマル）
+item.compactmachines.machine_small,Compact Machine (Small),コンパクトマシン（小）
+item.compactmachines.machine_tiny,Compact Machine (Tiny),コンパクトマシン（小型）
+item.compactmachines.personal_shrinking_device,Personal Shrinking Device,個人用シュリンカー
+item.compactmachines.tunnels.item,Item Tunnel,アイテムトンネル
+item.compactmachines.tunnels.redstone_in,Redstone Tunnel (In),レッドストーントンネル（入力）
+item.compactmachines.tunnels.redstone_out,Redstone Tunnel (Out),レッドストーントンネル（出力）
+itemGroup.compactmachines,Compact Machines,コンパクトマシン
+messages.compactmachines.no_machine_data,No machine data loaded; report this.,マシンデータが読み込まれていません；報告してください
+messages.compactmachines.psd.spawnpoint_set,New spawn point set.,新しいスパウンドポイントセット。
+tooltip.compactmachines.hold_shift.hint,Hold shift for details.,詳細を見るにはShiftキーを押してください。
+tooltip.compactmachines.machine.hint,A %1$s provides a %2$s room.,%1$sは%2$sルームを提供します。
+tooltip.compactmachines.machine_id,Machine ID: %s,機械ID: %s
+tooltip.compactmachines.owner,Owner: %s,所有者: %s
+tooltip.compactmachines.psd.hint,Used as in-game documentation and to enter Compact Machines.,ゲーム内ドキュメントとして使用され、Compact Machinesに入力するために使われます。
+tooltip.compactmachines.solid_wall.hint,Warning! Unbreakable for non-creative players!,警告！非クリエイティブプレイヤーには壊せません！
+tooltip.compactmachines.tunnel_type,Type ID: %1$s,タイプID: %1$s
+tooltip.compactmachines.unknown_player,Unknown Player,不明なプレイヤー
+advancement.compactmachines.claimed_machine_giant,Got Enough Space?,十分なスペースがありますか？
+advancement.compactmachines.claimed_machine_giant.desc,Claim a giant compact machine.,巨大コンパクトマシンをクレームする。
+advancement.compactmachines.claimed_machine_large,Room to Grow,成長する部屋
+advancement.compactmachines.claimed_machine_large.desc,Claim a large compact machine.,大型コンパクトマシンをクレームする。
+advancement.compactmachines.claimed_machine_max,Room for Activities!,アクティビティの部屋！
+advancement.compactmachines.claimed_machine_max.desc,Claim a maximum compact machine.,最大コンパクトマシンをクレームしてください。
+advancement.compactmachines.claimed_machine_normal,Bigger on the Inside,内側が大きい
+advancement.compactmachines.claimed_machine_normal.desc,Claim a normal compact machine.,通常のコンパクトマシンを占領します。
+advancement.compactmachines.claimed_machine_small,I Can Breathe,息を吸える
+advancement.compactmachines.claimed_machine_small.desc,Claim a small compact machine.,小さなコンパクトマシンを取得します。
+advancement.compactmachines.claimed_machine_tiny,"Small Spaces, Big Ideas",小さな空間、大きなアイデア
+advancement.compactmachines.claimed_machine_tiny.desc,Claim a tiny compact machine.,小さなコンパクトマシンを取得する。
+advancement.compactmachines.foundations,Foundations,基礎
+advancement.compactmachines.foundations.desc,Obtain a breakable wall block.,破壊可能な壁ブロックを取得します。
+advancement.compactmachines.got_shrinking_device,Personal Shrinking Device,個人用シュリンカー
+advancement.compactmachines.got_shrinking_device.desc,Obtain a Personal Shrinking Device,個人用シュリンカーを取得します
+advancement.compactmachines.how_did_you_get_here,How Did You Get Here?!,何でここに？！
+advancement.compactmachines.how_did_you_get_here.desc,Which machine is the player in?!,プレイヤーはどのマシンの中にいますか？！
+advancement.compactmachines.recursion,Recursive Rooms,再帰的な部屋
+advancement.compactmachines.recursion.desc,"To understand recursion, you must first understand recursion.",再帰を理解するには、まず再帰を理解する必要があります。
+advancement.compactmachines.root,Compact Machines,コンパクトマシン
+biome.compactmachines.machine,Compact Machine,コンパクトマシン
+command.compactmachines.cannot_give_machine_item,Failed to give a new machine to player.,プレイヤーに新しいマシンを渡せませんでした。
+command.compactmachines.failed_command_file_error,Failed to execute command; there was a file error. Check logs.,コマンド実行に失敗しました；ファイルエラーがあります。ログを確認してください。
+command.compactmachines.level_not_found,Compact Machine dimension could not be found.,コンパクトマシン・ディメンションが見つかりませんでした。
+command.compactmachines.level_registered,Compact Machine dimension found.,コンパクトマシンディメンションが見つかりました。
+command.compactmachines.machine_given_successfully,Created a new machine item and gave it to %s.,新しいマシンアイテムを作成し、%sに渡しました。
+command.compactmachines.machine_not_bound,Machine at %s is not bound to a room.,%s のマシンは部屋に紐づいていません。
+command.compactmachines.not_in_compact_dim,Cannot use that command outside of a machine room.,そのコマンドはマシンルーム外では使用できません
+command.compactmachines.room_not_found,Room [%s] could not be found.,部屋[%s]が見つかりませんでした。
+command.compactmachines.room_reg_count,Number of registered rooms: %s,登録された部屋の数: %s
+command.compactmachines.spawn_changed_successfully,Spawnpoint for room [%s] was changed successfully.,[%s] のスポーンポイントが正常に変更されました
+command.compactmachines.summary.machines.dimension,[%s]: %s,[%s]: %s
+command.compactmachines.summary.machines.total,Total: %s,合計: %s
+config.jade.plugin_compactmachines.machine,Compact Machine Block Information,コンパクトマシンブロック情報
+config.jade.plugin_compactmachines.machine_tunnels,Compact Machine Tunnel Presence,コンパクトマシントンネルの存在
+config.jade.plugin_compactmachines.tunnel,Tunnel Information,トンネル情報
+config.jade.plugin_compactmachines.tunnel_connection,Tunnel Connection,トンネル接続
+item.compactmachines.tunnels.energy,Energy Tunnel,エネルギートンネル
+item.compactmachines.tunnels.fluid,Fluid Tunnel,液体トンネル
+item.compactmachines.upgrades.chunkloader,Chunkloader Upgrade,チャンクローダーのアップグレード
+item.compactmachines.upgrades.unnamed,Unnamed Room Upgrade,未命名の部屋アップグレード
+itemGroup.compactmachines.main,Compact Machines,コンパクトマシン
+jei.compactmachines.machines,"Machines are used to make pocket dimensions. Craft a machine and place it in world, then use a Personal Shrinking Device to go inside.",マシンはポケット次元を作るために使用されます。マシンをクラフトして世界に配置し、個人用シュリンカーを使用して内部に入ります。
+message.compactmachines.cannot_enter,"You fumble with the shrinking device, to no avail. It refuses to work.",縮小装置を手探りで操作しても効果がありません。動作しません。
+message.compactmachines.cannot_rename_not_owner,Only %s may rename this room.,この部屋の名称は、%sのみが変更できます。
+message.compactmachines.how_did_you_get_here,How did you get here?!,どこから来たんだ！？
+message.compactmachines.machine_room_info,Machine at %1$s is bound to a %2$s size room at %3$s,%1$sにあるマシンは%2$sサイズの部屋に%3$sでバインドされています
+message.compactmachines.new_machine,New Machine,新しいマシン
+message.compactmachines.no_available_sides,There are no available sides for this tunnel type.,このトンネルタイプには利用可能な側面がありません
+message.compactmachines.no_machine_data,No machine data loaded; report this.,マシンデータが読み込まれていません；報告してください
+message.compactmachines.not_the_room_owner,You are not the room owner; only %s may make changes.,あなたは部屋の所有者ではありません；変更できるのは%sだけです。
+message.compactmachines.player_room_info,Player '%1$s' is inside a %3$s room at %2$s.,プレイヤー'%1$s'は%3$sルームの%2$sにいます。
+message.compactmachines.spawnpoint_set,New spawn point set.,新しいスパウンドポイントセット。
+message.compactmachines.teleport_oob,An otherworldly force prevents your teleportation.,異世界の力がテレポートを妨げます
+message.compactmachines.unknown_room_chunk,Unknown room at %s; please verify it exists.,不明なルーム：%s。存在するか確認してください。
+message.compactmachines.upgrade_add_failed,Upgrade failed to apply to room.,アップグレードの適用に失敗しました。
+message.compactmachines.upgrade_already_present,Upgrade has already been applied to room.,アップグレードはすでに部屋に適用されています。
+message.compactmachines.upgrade_applied,Upgrade applied to room.,アップグレードが部屋に適用されました。
+message.compactmachines.upgrade_not_present,Upgrade is not applied to the room.,アップグレードは部屋に適用されません。
+message.compactmachines.upgrade_remove_failed,Upgrade removal failed to apply to room.,アップグレード除去が部屋に適用できませんでした。
+message.compactmachines.upgrade_removed,Upgrade removed from room.,部屋からアップグレードが削除されました。
+tooltip.compactmachines.details.psd,Used as in-game documentation and to enter Compact Machines.,ゲーム内ドキュメントとして使用され、Compact Machinesに入力するために使われます。
+tooltip.compactmachines.details.solid_wall,Warning! Unbreakable for non-creative players!,警告！非クリエイティブプレイヤーには壊せません！
+tooltip.compactmachines.hint.hold_shift,Hold shift for details.,詳細を見るにはShiftキーを押してください。
+tooltip.compactmachines.machine.bound_to,Bound to: %1$s,バインド済み: %1$s
+tooltip.compactmachines.machine.id,Machine #%s,機械 #%s
+tooltip.compactmachines.machine.owner,Owner: %s,所有者: %s
+tooltip.compactmachines.machine.size,Internal Size: %1$sx%1$sx%1$s,内部サイズ: %1$s×%1$s×%1$s
+tooltip.compactmachines.room_name,Bound to room: %s,部屋に束縛: %s
+tooltip.compactmachines.room_upgrade_type,Type: %s,タイプ: %s
+tooltip.compactmachines.tutorial_apply_room_upgrade,Use on a bound machine block to apply upgrade.,バウンドマシンブロックに適用してアップグレードを行います。
+tooltip.compactmachines.unknown_tunnel_type,Unknown Tunnel Type (%s),不明なトンネルタイプ (%s)
+block.compactmachines.bound_machine_fallback,Compact Machine,コンパクトマシン
+commands.machines.compactmachines.cannot_give_machine_item,Failed to give a new machine to player.,プレイヤーに新しいマシンを渡せませんでした。
+commands.machines.compactmachines.machine_given_successfully,Created a new machine item and gave it to %s.,新しいマシンアイテムを作成し、%sに渡しました。
+commands.rooms.compactmachines.room_reg_count,Number of registered rooms: %s,登録された部屋の数: %s
+commands.rooms.compactmachines.spawn_changed_successfully,Spawn point for room [%s] was changed successfully.,ルーム[%s]のスポーン位置が正常に変更されました。
+compactmachines.rooms.templates.room_dimensions,Internal Size: %s,内部サイズ: %s
+compactmachines.rooms.templates.structure_tooltip,Generates %s structures upon room creation.,ルーム作成時に%sの構造を生成します。
+config.jade.plugin_compactmachines.bound_machine,Bound Compact Machines,バウンドコンパクトマシン
+config.jade.plugin_compactmachines.show_owner,Show Machine Owners,マシンオーナーを表示
+curios.identifier.psd,Personal Shrinking Device,個人用シュリンカー
+entity.minecraft.villager.compactmachines.tinkerer,Spatial Tinkerer,空間職人
+gamerule.compactmachines.allow_creative_oob,Allow Creative OOB,クリエイティブ境界外を許可
+gamerule.compactmachines.allow_creative_oob.description,Allow out-of-bounds creative players,範囲外のクリエイティブプレイヤーを許可
+gamerule.compactmachines.allow_spectator_oob,Allow Spectators OOB,スペクテイター境界外を許可
+gamerule.compactmachines.allow_spectator_oob.description,Allow out-of-bounds spectators,範囲外のスペクテイターを許可
+gamerule.compactmachines.allow_survival_oob,Allow Survival OOB,サバイバル境界外を許可
+gamerule.compactmachines.allow_survival_oob.description,Allow out-of-bounds survival players,範囲外のサバイバルプレイヤーを許可
+gamerule.compactmachines.damage_oob,Damage OOB Players,範囲外プレイヤーへのダメージ
+gamerule.compactmachines.damage_oob.description,Damage players that are out of bounds,範囲外のプレイヤーにダメージを与える
+gamerule.compactmachines.damage_psd_on_exit,Damage PSDs on Exit,終了時にシュリンカーをダメージ
+gamerule.compactmachines.damage_psd_on_exit.description,Damage shrinking devices by leaving rooms,ルームを出るときにシュリンカーをダメージ
+item.compactmachines.enlarging_module,Atom Enlarging Module,原子拡張モジュール
+item.compactmachines.shrinking_module,Atom Shrinking Module,原子縮小モジュール
+jei.compactmachines.shrinking_device,Use the Personal Shrinking Device (PSD) on a machine in order to enter a compact space.,個人用シュリンカー(PSD)をマシンに使用して、コンパクトスペースに入ります。
+key.category.compactmachines.general,Compact Machines,コンパクトマシン
+key.mapping.compactmachines.exit_room,Quick-Exit Compact Machine,コンパクトマシンから素早く脱出
+key.mapping.compactmachines.open_upgrade_screen,Open Room Upgrade Screen,ルームアップグレード画面を開く
+machine.compactmachines.machine.bound_to,Bound to: %1$s,バインド済み: %1$s
+machine.compactmachines.machine.owner,Owner: %s,所有者: %s
+machine.compactmachines.machine.size,Internal Size: %1$s,内部サイズ: %1$s
+machine.compactmachines.machine_room_info,Machine at %1$s is bound to a %2$s size room at %3$s,%1$sにあるマシンは%2$sサイズの部屋に%3$sでバインドされています
+machine.compactmachines.new_machine,New Machine,新しいマシン
+messages.compactmachines.hint.hold_shift,Hold shift for details.,詳細を見るにはShiftキーを押してください。
+messages.compactmachines.how_did_you_get_here,How did you get here?!,どこから来たんだ！？
+messages.compactmachines.solid_wall,Warning! Unbreakable for non-creative players!,警告！非クリエイティブプレイヤーには壊せません！
+messages.compactmachines.teleport_oob,An otherworldly force prevents your teleportation.,異世界の力がテレポートを妨げます
+rooms.compactmachines.player_room_info,Player '%1$s' is inside room %2$s.,プレイヤー'%1$s'はルーム%2$sの内部にいます。
+rooms.compactmachines.spawnpoint_set,New spawn point set.,新しいスパウンドポイントセット。
+rooms.errors.compactmachines.cannot_enter,"You fumble with the shrinking device, to no avail. It refuses to work.",縮小装置を手探りで操作しても効果がありません。動作しません。
+rooms.errors.compactmachines.room_not_found,Room [%s] could not be found.,部屋[%s]が見つかりませんでした。
+generator.compactsky,Compact Sky,コンパクト・スカイ
+tile.compactmachines.tunnel.name,Tunnel,トンネル
+tile.compactmachines.redstonetunnel.name,Redstone Tunnel,レッドストーントンネル
+tile.compactmachines.fieldprojector.name,Miniaturization Field Projector,ミニチュア化フィールドプロジェクター
+item.compactmachines.psd.spawnpoint_set,Entry point set!,エントリーポイント設定！
+hint.compactmachines.missing_opposite_projector,Missing opposite field projector! It is required to determine the field size!,対向フィールドプロジェクターがありません！フィールドサイズを決定するために必要です！
+hint.compactmachines.missing_projector_at,"Missing field projector at %d,%d,%d","プロジェクターのフィールドが% d,% d,% dで欠落しています"
+hint.compactmachines.currently_crafting,Currently crafting: %s (progress: %s%%),現在クラフト中: %s (進行状況: %s%%)
+hint.compactmachines.no_recipe_found,No valid recipe found,有効なレシピが見つかりません
+hint.compactmachines.found_recipe_for,Recipe for: %s,レシピ: %s
+hint.compactmachines.invalid_block_in_field,"Invalid block in field area @ %d,%d,%d: %s","フィールド領域内に無効なブロック @ %d,%d,%d: %s"
+hint.compactmachines.cant_sleep_here,You can not sleep in the Compact Machines dimension,コンパクトマシンディメンションでは眠れません
+hint.compactmachines.bed_position_set,Respawn position set to this Machine,復帰位置をこのマシンに設定します。
+hint.compactmachines.not_permitted_to_enter,You do not have permission to enter this machine,このマシンに入る権限がありません。
+hint.compactmachines.skyworld.no_block_breaking,You can not break any blocks in the Compact Hub!,コンパクトハブ内ではブロックを破壊できません！
+hint.compactmachines.skyworld.no_block_placing,You can not place any blocks in the Compact Hub!,コンパクトハブ内ではブロックを設置できません！
+hint.compactmachines.skyworld.only_one_machine_claim,You can only claim a single Compact Machine in the hub!,コンパクトマシンはハブで1台しか取得できません！
+top.compactmachines.currently_crafting,Crafting:,クラフト:
+top.compactmachines.found_recipe_for,Recipe for:,レシピ: 
+tooltip.compactmachines.machine.coords,Machine:,機械:
+tooltip.compactmachines.machine.coords.unused,Unused,未使用
+tooltip.compactmachines.machine.schema,Schema:,スキーマ:
+tooltip.compactmachines.machine.stopitsoaryn,Feedbackloop detected,フィードバックループが検出されました
+tooltip.compactmachines.fieldprojector.hint,Place 4 opposite of each other to create a Miniaturization Crafting field. Right click to get hints where the next projector needs to be!,4つを互いに向かい合わせて配置し、小型化クラフトフィールドを生成します。右クリックで次のプロジェクターを配置する位置のヒントを表示します！
+tooltip.compactmachines.tunneltool.hint,Used to connect Wall blocks with outside Compact Machine faces.,壁ブロックを外部Compact Machineフェイスと接続するために使用します。
+tooltip.compactmachines.redstonetunneltool.hint,Used to transfer redstone signals between wall blocks and outside Compact Machine faces.,壁ブロックと外部コンパクトマシンフェイス間でレッドストーン信号を転送するために使用されます。
+tooltip.compactmachines.lockforotherplayers.checkbox,Lock for other players,他プレイヤー用ロック
+tooltip.compactmachines.jei.crafting_trigger,Throw this into the miniaturization field to start the crafting process.,このアイテムをミニチュア化フィールドに投げてクラフトプロセスを開始します。
+tooltip.compactmachines.jei.shape,Use these to build the multiblock,これらを使ってマルチブロックを構築してください
+compactmachines.jei.category.multiblock_miniaturization,Multiblock Miniaturization,マルチブロックミニaturization
+commands.compactmachines.usage,"/compactmachines [subcommand, leave empty for list of commands]",/compactmachines [サブコマンド、空白でコマンド一覧表示]
+commands.compactmachines.available,Available sub-commands:,利用可能なサブコマンド:
+commands.compactmachines.denied,You do not have the permission to use this command.,このコマンドを使用する権限がありません。
+commands.compactmachines.schema.description,Save/load the contents of machines,機械の内容を保存/読み込み
+commands.compactmachines.schema.save.usage,/compactmachines schema save <name>,/compactmachines schema save <name>
+commands.compactmachines.schema.save.description,Saves the machine you are in to disk,現在いるマシンをディスクに保存します
+commands.compactmachines.schema.save.exception.not_in_machine_dimension,You must be in the machine dimension for this command to work.,このコマンドを実行するには機械ディメンションにいる必要があります。
+commands.compactmachines.schema.save.exception.invalid_file,Could not open file for writing! Schema is not saved!,書き込み用にファイルを開けませんでした！スキーマが保存されていません！
+commands.compactmachines.schema.save.exception.not_serializable,Could not serialize machine! Schema is not saved!,マシンをシリアライズできませんでした！スキーマが保存されていません！
+commands.compactmachines.schema.save.success,Wrote schema to file: %s,スキーマをファイルに書き込みました: %s
+commands.compactmachines.schema.load.usage,/compactmachines schema load <name>,/compactmachines schema load <name>
+commands.compactmachines.schema.load.description,Generates the specified schema in the room you are standing in,現在立っている部屋で指定されたスキーマを生成します
+commands.compactmachines.schema.load.exception.not_in_machine_dimension,You must be in the machine dimension for this command to work.,このコマンドを実行するには機械ディメンションにいる必要があります。
+commands.compactmachines.schema.load.exception.unknown_schema,No schema with that name exists!,その名前のスキーマは存在しません！
+commands.compactmachines.schema.load.exception.machine_size_does_not_match,The size of the machine does not match the schema!,機械のサイズがスキーマと一致しません！
+commands.compactmachines.schema.load.machine_schema_set_to,Machine set to schema: %s,マシンがスキーマ: %s に設定されました。
+commands.compactmachines.schema.set.usage,/compactmachines schema set <name>,/compactmachines schema set <name>
+commands.compactmachines.schema.set.description,Sets the specified schema to the Compact Machine block you are looking at,指定されたスキーマを、見ているコンパクトマシンブロックに設定します
+commands.compactmachines.schema.set.exception.unknown_schema,No schema with that name exists!,その名前のスキーマは存在しません！
+commands.compactmachines.schema.set.exception.look_at_compact_machine,You need to look at a Compact Machine block!,コンパクトマシンブロックを見る必要があります！
+commands.compactmachines.schema.set.exception.machine_size_does_not_match,The size of the machine does not match the schema!,機械のサイズがスキーマと一致しません！
+commands.compactmachines.schema.set.exception.machine_is_already_in_use,Machine is already in use. Place a new machine!,マシンはすでに使用中です。新しいマシンを置いてください！
+commands.compactmachines.schema.set.machine_schema_set_to,Machine set to schema: %s,マシンがスキーマ: %s に設定されました。
+commands.compactmachines.schema.reload-files.usage,/compactmachines schema reload-files,/compactmachines schema reload-files
+commands.compactmachines.schema.reload-files.description,Reloads all the stored schema files from disk and from the jar,ディスクおよびjarからすべての保存済みスキーマファイルを再読み込みします
+commands.compactmachines.recipe.description,Stuff related to Multiblock Miniaturization recipes,マルチブロックミニチュア化レシピに関連する項目
+commands.compactmachines.recipe.unpack-defaults.usage,/compactmachines recipe unpack-defaults [force],/compactmachines recipe unpack-defaults [force]
+commands.compactmachines.recipe.unpack-defaults.description,"Extract the default recipes from the .jar to the config folder. Append ""force"" to overwrite existing files.",デフォルトレシピを.jarから設定フォルダに抽出します。既存ファイルを上書きするには「force」を追加してください。
+commands.compactmachines.recipe.copy-shape.usage,/compactmachines recipe copy-shape,/compactmachines recipe copy-shape
+commands.compactmachines.recipe.copy-shape.description,Copies the crafting shape of the projector you are looking at into your clipboard,見ているプロジェクターのクラフト形状をクリップボードにコピーします
+commands.compactmachines.recipe.copy-shape.exception.not_looking_at_projector,You are not looking at a Field Projector,あなたが見ているのはフィールドプロジェクターではありません
+commands.compactmachines.recipe.copy-shape.success,Copied shape to clipboard!,形状をクリップボードにコピーしました！
+commands.compactmachines.recipe.copy-item.usage,/compactmachines recipe copy-item [catalyst|target],/compactmachines recipe copy-item [catalyst|target]
+commands.compactmachines.recipe.copy-item.description,Copies the stack in your main hand to the clipboard,メインハンドのスタックをクリップボードへコピーします
+commands.compactmachines.recipe.copy-item.exception.missing_type,You need to specify whether you want to get the JSON for a catalyst or for the target stack,カタリスト用かターゲットスタック用か、JSON を取得したいか指定する必要があります。
+commands.compactmachines.recipe.copy-item.exception.missing_item,You need to hold something in your hand for this command to work!,このコマンドを実行するには、手に何かを持っている必要があります！
+commands.compactmachines.recipe.copy-item.success,Copied item to clipboard!,アイテムをクリップボードにコピーしました！
+commands.compactmachines.recipe.generate.usage,/compactmachines recipe generate <recipe-name>,/compactmachines recipe generate <recipe-name>
+commands.compactmachines.recipe.generate.description,Generates the given recipe in world. Warning: Replaces all blocks in area!,指定されたレシピをワールドに生成します。警告：領域内のすべてのブロックが置き換えられます！
+commands.compactmachines.recipe.generate.exception.not_looking_at_block,You are not looking at a block where the Recipe will be built.,レシピが作成されるブロックを見ていません。
+commands.compactmachines.recipe.generate.exception.unknown_recipe,The given recipe does not seem to exist.,指定されたレシピは存在しないようです
+commands.compactmachines.recipe.generate.exception.missing_machine_recipe,You need to specify a recipe name (use tab completion!),レシピ名を指定する必要があります（タブ補完を使用してください）
+commands.compactmachines.machines.description,Commands to recover lost/broken machines,失われた/壊れたマシンを回復するコマンド
+commands.compactmachines.machines.give.usage,/compactmachines machines give <id>,/compactmachines machines give <id>
+commands.compactmachines.machines.give.description,Gives the player a corresponding cube. WARNING: This breaks Machines if they already exist in the world!,プレイヤーに対応するキューブを付与します。警告：既に世界に存在するマシンの場合、破損する可能性があります！
+commands.compactmachines.machines.give.warning,WARNING: This breaks Machines if they already exist in the world!,⚠️ 既にワールド内に存在する機械を破壊します！
+commands.compactmachines.machines.view.usage,/compactmachines machines view [<id>],/compactmachines machines view [<id>]
+commands.compactmachines.machines.view.description,Opens a GUI allowing inspectation of all existing Compact Machines,既存のコンパクトマシンすべてを検査できるGUIを開きます。
+commands.compactmachines.machines.clear.usage,/compactmachines machines clear [<id>],/compactmachines machines clear [<id>]
+commands.compactmachines.machines.clear.description,Sets all blocks inside the given machine to air.,指定された機械内のすべてのブロックを空気に置き換える。
+gui.compactmachines.psd.welcome.welcome,Compact Machines 3 allows you to build complex machine contraptions within a single block!,Compact Machines 3では、1つのブロック内で複雑な機械構造物を作成できます！
+gui.compactmachines.psd.welcome.chapters,Available chapters:,利用可能な章:
+gui.compactmachines.psd.machines.label,Compact Machines,コンパクトマシン
+gui.compactmachines.psd.machines.text,"Compact Machines are the core mechanic of this mod. They allow you to build large rooms in a single block space connected to the outside world.\nThey come in various sizes ranging from 3x3x3 to 13x13x13.\nYou can use Tunnels to connect the outside block faces with any of the inside walls to transport items, fluids etc.\nYou can enter a Compact Machine by right-clicking it with a Personal Shrinking Device.\nPlease use JEI to look up crafting recipes.","コンパクトマシンはこのmodの中核的なメカニクスです。単一ブロックのスペースに大規模なルームを構築でき、外の世界に接続できます。
+サイズは3x3x3から13x13x13までの様々な大きさがあります。
+トンネルを使用して、外側のブロック面を内側の壁に接続し、アイテムや流体などを輸送できます。
+パーソナルシュリンキングデバイスを持ってコンパクトマシンを右クリックして入ることができます。
+JEIを使用してクラフティングレシピを確認してください。"
+gui.compactmachines.psd.tunnels.label,Tunnels,トンネル
+gui.compactmachines.psd.redstone_tunnels.label,Redstone Tunnels,レッドストーントンネル
+gui.compactmachines.psd.redstone_tunnels.text,"These can be used to transfer redstone signals between the machine and the world it is placed in. In comparison to normal Tunnels they are not bidirectional, but need to be configured to be either In- or Output. Press the button in the top right corner to toggle between modes (red=in, green=out).\nYou can use these to either enable/disable redstone based systems inside your machines or to build complicated redstone circuits inside a single block.","これらはマシンと配置された世界の間でレッドストーン信号を転送するために使用できます。通常のトンネルとは異なり、双方向ではなく、入力または出力に設定する必要があります。右上隅のボタンを押してモード間を切り替えます（赤=入力、緑=出力）。
+これらを使用して、マシン内のレッドストーンベースシステムを有効/無効にするか、単一ブロック内で複雑なレッドストーン回路を構築できます。"
+gui.compactmachines.psd.crafting.label,Miniaturization Crafting,ミニaturizationクラフト
+gui.compactmachines.psd.crafting.text,"To craft Compact Machines you will need to set up a miniaturization crafting structure.\nGrab 4 Miniaturization Field Projectors and place them opposite of each other, with 7, 11 or 15 spaces between them. All of them need to face the center.\nOnce placed correctly they will start emitting a miniaturization field. Build a recipe like specified in JEI and throw the catalyst item inside the field to start the crafting process.","コンパクトマシンをクラフトするには、ミニチュア化クラフティング構造をセットアップする必要があります。
+ミニチュア化フィールドプロジェクター4つを取り出し、互いに反対に配置します。プロジェクター間に7、11、または15スペースを確保します。すべてが中央を向いている必要があります。
+正しく配置されると、ミニチュア化フィールドの放射を開始します。JEIで指定されたとおりにレシピを構築し、カタリストアイテムをフィールド内に投げてクラフティングプロセスを開始します。"
+gui.compactmachines.compactsky.whitelist,Whitelist,ホワイトリスト
+gui.compactmachines.compactsky.preview,Preview,プレビュー
+gui.compactmachines.compactsky.enter,Enter machine,マシンに投入
+gui.compactmachines.compactsky.rename,Rename,名前変更
+gui.compactmachines.compactsky.configuration.startLocked,Start machines in locked state,マシンをロックされた状態で開始
+gui.compactmachines.compactsky.configuration.givePSD,Give players a Shrinking Device on first spawn,プレイヤーに最初のスポーン時に縮小デバイスを与えます。
+gui.compactmachines.compactsky.configuration.voidDimensions,Use void dimensions,虚空次元を使用
+gui.compactmachines.compactsky.configuration.schema,Schema,スキーマ
+gui.compactmachines.compactsky.configuration.close,Done,完了
+gui.compactmachines.compactsky.configuration.label.MachineSize,Machine Size,機械サイズ
+gui.compactmachines.compactsky.configuration.label.Description,Description,説明
+gui.compactmachines.compactsky.configuration.warning.PleaseSpecifyADescription,Please specify a description in the schemas .json file!,schemas .json ファイルに説明を書いてください！
+gui.compactmachines.compactsky.configuration.small,16 Players,16人
+gui.compactmachines.compactsky.configuration.medium,64 Players,64人
+gui.compactmachines.compactsky.configuration.large,256 Players,256人
