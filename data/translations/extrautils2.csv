@@ -167,7 +167,7 @@ extrautils2.text.entityvillageralchemist,entity.Villager.alchemist,村人・錬�
 extrautils2.text.entityvillagershadymerchant,entity.Villager.shady_merchant,entity.村人.シェーディーマーチャント
 extrautils2.text.error.divide.by.diamond,ERROR: Divide by diamond,エラー: ダイヤモンドで割る
 extrautils2.text.explosion.in.s,Explosion in %s,%s秒後に爆発
-extrautils2.text.f,%s,%s
+extrautils2.text.f,%s,
 extrautils2.text.feast.on.their.blood,Feast on their blood,彼らの血を食す
 extrautils2.text.flashlight,FlashLight,懐中電灯
 extrautils2.text.flight.of.the.majestic.beast,Flight of the majestic beast!,壮大な獣の飛行!
@@ -317,7 +317,7 @@ extrautils2.text.s.generators.are.missing,%s generators are missing:,%s ジェ�
 extrautils2.text.s.generators.are.not.running,%s generators are not running:,%s ジェネレーターが実行されていない:
 extrautils2.text.s.got.revenge.on.nemesis.s,%s got revenge on nemesis %s,%s は敵%s に復讐しました
 extrautils2.text.s.got.revenge.on.s,%s got revenge on %s,%s は%s に復讐しました
-extrautils2.text.s.gp,%s GP,%s GP
+extrautils2.text.s.gp,%s GP,%s グリッドパワー
 extrautils2.text.s.gp.to.s.gp.s,%s GP to %s GP: %s,%s GP から %s GP: %s
 extrautils2.text.s.has.too.much.health.s.hearts.reduce,%s has too much health (%s hearts). Reduce to %s hearts.,%s は健康が多すぎます(%s ハート)。%s ハートまで削減してください。
 extrautils2.text.s.infinite,%s (Infinite),%s (無限)
@@ -328,10 +328,10 @@ extrautils2.text.s.is.not.x.hostile.mob,%s is not x hostile mob.,%s はx敵対�
 extrautils2.text.s.is.too.busy.attacking.someone,%s is too busy attacking someone.,%s は誰かを攻撃するのに忙しすぎます。
 extrautils2.text.s.is.too.powerful,%s is too powerful.,%s は強力すぎます。
 extrautils2.text.s.is.x.hostile.mob,%s is x hostile mob.,%s はx敵対的なモブです。
-extrautils2.text.s.of.s.mb,%s of %s MB,%s of %s MB
+extrautils2.text.s.of.s.mb,%s of %s MB,%s / %s MB
 extrautils2.text.s.s.rf,%s / %s RF,エネルギー: %s / %s RF
-extrautils2.text.s.x.s,%s x %s,%s x %s
-extrautils2.text.s.x.s.s.gp,%s x %s: %s GP,%s x %s: %s GP
+extrautils2.text.s.x.s,%s x %s,
+extrautils2.text.s.x.s.s.gp,%s x %s: %s GP,%s x %s: %s グリッドパワー
 extrautils2.text.s.xp,%s XP,%s 経験値
 extrautils2.text.scanning.s.s.s,"Scanning: [%s, %s, %s]","スキャン: [%s, %s, %s]"
 extrautils2.text.searching,Searching...,検索中...
@@ -397,7 +397,7 @@ extrautils2.text.west,West,西
 extrautils2.text.west.only,West Only,西側のみ
 extrautils2.text.when.all.other.generators.are.creating,"When all other generators are creating power, taste the unlimited power of the rainbow",他の全ての発電機が電力を生成しているとき、虹色の無限電力を味わってください。
 extrautils2.text.will.also.explode.if.the.crafting,Will also explode if the crafting window is closed or the ingot is thrown on the ground.,クラフティングウィンドウが閉じられた場合やインゴットが地面に投げられた場合にも爆発します。
-extrautils2.text.x.s.y.s.z.s,"x = %s, y = %s, z = %s","x = %s, y = %s, z = %s"
+extrautils2.text.x.s.y.s.z.s,"x = %s, y = %s, z = %s",
 extrautils2.text.you.can.either.hold.the.globe.in,You can either hold the globe in your inventory or throw it on the ground.,グローブをインベントリに保持するか、地面に投げることができます。
 extrautils2.text.you.feel.your.luck.changing,You feel your luck changing,運が変わるのを感じます
 fluid.xu_demonic_metal,Molten Demon Metal,溶融した悪魔金属
@@ -410,7 +410,7 @@ item.extrautils2:biomemarker.name,Biome Marker,バイオームマーカー
 item.extrautils2:book.name,Extra Utilities 2 Manual,エクストラユーティリティズ2 マニュアル
 item.extrautils2:boomerang.name,Magical Boomerang,魔法のボーマング
 item.extrautils2:builderswand.name,Builders Wand,ビルダーの杖
-item.extrautils2:chickenring.name,Chicken Wing Ring,チキンウィングリング
+item.extrautils2:chickenring.name,Chicken Wing Ring,鶏ウィングリング
 item.extrautils2:chickenring.squid.name,Ring of the Flying Squid,フライングスクイッドのリング
 item.extrautils2:compound_bow.name,Compound Bow,複合弓
 item.extrautils2:compoundbow.name,Compound Bow,複合弓
@@ -443,7 +443,7 @@ item.extrautils2:grocket.6.name,Transfer Node (Energy),エネルギー転送ノ�
 item.extrautils2:grocket.7.name,grocket 7,グロック7
 item.extrautils2:indexerremote.name,Indexer Remote,インデックスリモート
 item.extrautils2:ingredients.demon_ingot.name,Demon Ingot,悪魔の鋳鉱
-item.extrautils2:ingredients.dye_powder_blue.name,Blue Dye,青色の染料
+item.extrautils2:ingredients.dye_powder_blue.name,Blue Dye,青い染料
 item.extrautils2:ingredients.dye_powder_lunar.name,Lunar Reactive Dust,月の反応性粉塵
 item.extrautils2:ingredients.enchanted_ingot.name,Enchanted Ingot,エンチャントされたインゴット
 item.extrautils2:ingredients.evil_drop.name,Drop of Evil,悪の滴
@@ -512,7 +512,7 @@ machine.extrautils2:generator_ice,Frosty Generator,フロスティジェネレ�
 machine.extrautils2:generator_lava,Magmatic Generator,マグマティック発電機
 machine.extrautils2:generator_netherstar,Netherstar Generator,ネザースター発電機
 machine.extrautils2:generator_overclock,Overclocked Generator,オーバークロック発電機
-machine.extrautils2:generator_pink,Pink Generator,ピンク発電機
+machine.extrautils2:generator_pink,Pink Generator,桃色発電機
 machine.extrautils2:generator_potion,Potion Generator,ポーション発生器
 machine.extrautils2:generator_redstone,Heated Redstone Generator,ヒーテッドレッドストーン発電機
 machine.extrautils2:generator_slime,Slimey Generator,スライミージェネレーター
@@ -562,12 +562,12 @@ tile.extrautils2:angelblock.name,Angel Block,天使ブロック
 tile.extrautils2:chunkloader.name,Chunk Loading Ward,チャンクローディングウォード
 tile.extrautils2:colored_obsidian.name,colored_obsidian,着色黒曜石
 tile.extrautils2:colored_planks_oak.name,colored_planks_oak,オークの色付き板材
-tile.extrautils2:colored_redstone_block.name,colored_redstone_block,colored_redstone_block
+tile.extrautils2:colored_redstone_block.name,colored_redstone_block,カラーレッドストーンブロック
 tile.extrautils2:colored_stone.name,colored_stone,着色石
 tile.extrautils2:colored_stone_brick.name,colored_stone_brick,色付き石レンガ
 tile.extrautils2:colored_stonebrick.name,colored_stonebrick,色付き石レンガ
-tile.extrautils2:colored_stonebrick_carved.name,colored_stonebrick_carved,colored_stonebrick_carved
-tile.extrautils2:colored_wool_colored_white.name,colored_wool_colored_white,白色の染めた羊毛
+tile.extrautils2:colored_stonebrick_carved.name,colored_stonebrick_carved,彫刻された色付き石レンガ
+tile.extrautils2:colored_wool_colored_white.name,colored_wool_colored_white,白い染めた羊毛
 tile.extrautils2:compressedcobblestone.1.name,Compressed Cobblestone,圧縮された丸石
 tile.extrautils2:compressedcobblestone.2.name,Double Compressed Cobblestone,二重圧縮丸石
 tile.extrautils2:compressedcobblestone.3.name,Triple Compressed Cobblestone,三倍圧縮された丸石
@@ -597,10 +597,10 @@ tile.extrautils2:creativeharvest.name,Creative Harvest,クリエイティブハ�
 tile.extrautils2:cursedearth.name,Cursed Earth,呪いの大地
 tile.extrautils2:decorativebedrock.bedrock_bricks.name,Bedrock Bricks,ベッドロックブロック
 tile.extrautils2:decorativebedrock.bedrock_cobblestone.name,Bedrock Cobblestone,ベッドロック丸石
-tile.extrautils2:decorativebedrock.bedrock_slabs.name,Bedrock Slabs,ベッドロックスラブ
+tile.extrautils2:decorativebedrock.bedrock_slabs.name,Bedrock Slabs,ベッドロックハーフブロック
 tile.extrautils2:decorativeglass.darkglass.name,Dark Glass,ダークガラス
 tile.extrautils2:decorativeglass.glass.name,Thickened Glass,厚化されたガラス
-tile.extrautils2:decorativeglass.glass_border.name,Thickened Glass (Bordered),厚みのあるガラス（縁付き）
+tile.extrautils2:decorativeglass.glass_border.name,Thickened Glass (Bordered),厚みのあるガラス（枠付き）
 tile.extrautils2:decorativeglass.glass_diamond.name,Diamond Glass,ダイヤモンドガラス
 tile.extrautils2:decorativeglass.glass_diamonds.name,Thickened Glass (Patterned),厚化ガラス（模様付き）
 tile.extrautils2:decorativeglass.glass_glowstone.name,Glowing Glass,光るガラス
@@ -681,7 +681,7 @@ tile.extrautils2:quarryproxy.name,Quantum Quarry Actuator,クアンタム採石�
 tile.extrautils2:rainbowgenerator.bottom_half.name,Rainbow Generator (bottom half),虹の発電機（下半分）
 tile.extrautils2:rainbowgenerator.full.name,Rainbow Generator!,レインボージェネレーター!
 tile.extrautils2:rainbowgenerator.top_half.name,Rainbow Generator (top half),虹色発電機（上半分）
-tile.extrautils2:redorchid.name,Red Orchid,赤色のラン
+tile.extrautils2:redorchid.name,Red Orchid,赤いラン
 tile.extrautils2:redstoneclock.name,Redstone Clock,レッドストーン時計
 tile.extrautils2:redstonelantern.name,Redstone Lantern,レッドストーンランタン
 tile.extrautils2:resonator.name,Resonator,リズム共振器
@@ -765,62 +765,91 @@ villager.contract,"I, ""Villager No. %s"",\nalso known as ""%s"",\n\nbeing of so
 4. 私が辺獄で立っている奇妙な音を出すことに飽きて、次の人生へ浮かぶ（私は奇妙な音を出すことが好きなので、これは起こりそうにない）。
 
 署名  ______________"
-villager.response.deal.0,"""Ok.""","""Ok."""
-villager.response.deal.1,"""Ok!""","""Ok!"""
+villager.response.deal.0,"""Ok.""",了解しました。
+villager.response.deal.1,"""Ok!""",了解！
 villager.response.deal.10,"""Well, it'll pay the bills.""",「まあ、請求書は払えるだろう。」
-villager.response.deal.11,"""I could never say no to x villager with such x small nose.""","""I could never say no to x villager with such x small nose."""
+villager.response.deal.11,"""I could never say no to x villager with such x small nose.""",そんな小さい鼻の村人に「ノー」とは言えませんよ。
 villager.response.deal.12,"""You seem trustworthy!""",「あなたは信頼できそうですね！」
-villager.response.deal.14,"""You have excellent penmanship! It's x deal!""","""You have excellent penmanship! It's x deal!"""
+villager.response.deal.14,"""You have excellent penmanship! It's x deal!""",文字がお上手ですね！いい取引ですね！
 villager.response.deal.16,"""I'd be x fool not to sign!""",「署名しないと馬鹿になる！」
 villager.response.deal.17,"""I will sign your petition!""",「あなたの請願に署名します！」
-villager.response.deal.18,"""You sir, have got x deal.""","""You sir, have got x deal."""
+villager.response.deal.18,"""You sir, have got x deal.""",あなたは素晴らしい取引を手にしています。
 villager.response.deal.19,"""Beats my old apartment.""",「私の古いアパートよりもいい」
 villager.response.deal.2,"""Sure.""",「はい。」
 villager.response.deal.20,"""I trust your face!""",「あなたの顔を信じている！」
 villager.response.deal.21,"""What are friends for?""",「友達って何のためにあるんだ？」
-villager.response.deal.22,"""My horoscope said this was x good idea!""","""My horoscope said this was x good idea!"""
-villager.response.deal.24,"""You seem nice!""","""You seem nice!"""
-villager.response.deal.25,"""I like signing things!""","""I like signing things!"""
-villager.response.deal.26,"""I really need x job.""","""I really need x job."""
+villager.response.deal.22,"""My horoscope said this was x good idea!""",星占いがいい考えだと言っていました！
+villager.response.deal.24,"""You seem nice!""",いい人そうですね！
+villager.response.deal.25,"""I like signing things!""",署名するのが好きです！
+villager.response.deal.26,"""I really need x job.""",本当に仕事が必要です。
 villager.response.deal.27,"""I can think of no downside to this.""",「これには欠点がないと考えられます。」
 villager.response.deal.28,"""I guess it's something to do.""",「何か関係があるんじゃないかな。」
-villager.response.deal.3,"""It's x deal!""","""It's x deal!"""
+villager.response.deal.3,"""It's x deal!""",いい取引ですね！
 villager.response.deal.6,"""This is the best deal I've ever heard!""",「これまでで最高の取引だ！」
 villager.response.deal.8,"<Villager noise>*\n\n*""Okay""",<村人ノイズ>*\n\n*「はい」
-villager.response.deal.9,"""Let's do this thing!""","""Let's do this thing!"""
-villager.response.no_deal.0,"""Go away bad man!""","""Go away bad man!"""
-villager.response.no_deal.1,"""NO NOTCH! NO NOTCH PLEASE NO! NOOOOOOO!""","""NO NOTCH! NO NOTCH PLEASE NO! NOOOOOOO!"""
+villager.response.deal.9,"""Let's do this thing!""",やりましょう！
+villager.response.no_deal.0,"""Go away bad man!""",行きなさい、悪い人！
+villager.response.no_deal.1,"""NO NOTCH! NO NOTCH PLEASE NO! NOOOOOOO!""",いいえ！ノッチさん！ノッチさんお願いです！いやあああああ！
 villager.response.no_deal.10,"""Shoo!""",「いっしょ！」
 villager.response.no_deal.13,"""Nope!""",「いいえ！」
 villager.response.no_deal.14,"""Nada!""",「なにもない！」
-villager.response.no_deal.15,"""N-ahahahahaha-o!""","""N-ahahahahaha-o!"""
+villager.response.no_deal.15,"""N-ahahahahaha-o!""",いーいえ、あはははは、いいえ！
 villager.response.no_deal.16,"""Yes! wait, I mean the other one... No!""",「はい！待って、別のものです…いや！」
 villager.response.no_deal.17,"""I refuse!""",「拒否します！」
 villager.response.no_deal.19,"""I don't trust your face!""",「あなたの顔を信じない！」
-villager.response.no_deal.21,"""You're x witch!""","""You're x witch!"""
-villager.response.no_deal.24,"""Grr....""","""Grr...."""
+villager.response.no_deal.21,"""You're x witch!""",あなたは魔女だ！
+villager.response.no_deal.24,"""Grr....""",むぅ....
 villager.response.no_deal.25,"""I have to go to the bathroom.""",「トイレに行かなくては。」
 villager.response.no_deal.26,"""That paper is evil!""",「その紙は邪悪だ！」
 villager.response.no_deal.27,"""I'm sorry, but that paper is too rectangular.""",「申し訳ありませんが、その紙は長方形すぎます。」
-villager.response.no_deal.28,"""I'm sorry, but no""","""I'm sorry, but no"""
+villager.response.no_deal.28,"""I'm sorry, but no""",申し訳ありませんが、いいえ。
 villager.response.no_deal.29,"""Thanks... but no thanks.""",「ありがとう… でも、いやだ。」
-villager.response.no_deal.3,"""No thank you.""","""No thank you."""
-villager.response.no_deal.30,"""You are shady!""","""You are shady!"""
-villager.response.no_deal.4,"""My villager parents warned me about paper.""","""My villager parents warned me about paper."""
+villager.response.no_deal.3,"""No thank you.""",結構です。
+villager.response.no_deal.30,"""You are shady!""",あなたは怪しい！
+villager.response.no_deal.4,"""My villager parents warned me about paper.""",村人の両親は紙に気をつけるように言いました。
 villager.response.no_deal.6,"""Nether No.""",「下界No.」
 villager.response.no_deal.7,"""Nope.""",「いや。」
-villager.response.no_deal.9,"""umm... I must go... I left my fridge.""","""umm... I must go... I left my fridge."""
-villager.response.trade_first.1,"""Buy something first.""","""Buy something first."""
-villager.response.trade_first.10,"""I want to trade some things first.""","""I want to trade some things first."""
-villager.response.trade_first.15,"""I need to get rid of some junk first""","""I need to get rid of some junk first"""
-villager.response.trade_first.16,"""BUY MY STUFF""","""BUY MY STUFF"""
+villager.response.no_deal.9,"""umm... I must go... I left my fridge.""",えっと...行かなきゃ...冷蔵庫を開けっ放しにしてきた。
+villager.response.trade_first.1,"""Buy something first.""",まず何か買ってください。
+villager.response.trade_first.10,"""I want to trade some things first.""",まず何か取引しましょう。
+villager.response.trade_first.15,"""I need to get rid of some junk first""",まずゴミを片付ける必要があります。
+villager.response.trade_first.16,"""BUY MY STUFF""",私の物を買ってください！
 villager.response.trade_first.17,"""Mind trading x bit first?""",「マインド取引を少し先に？」
 villager.response.trade_first.19,"""Let's talk trading first.""",「まず取引について話しましょう。」
 villager.response.trade_first.20,"""You trade with me, then I *might* trade with you""",「あなたが私と取引すれば、私はあなたと取引するかもしれません」
-villager.response.trade_first.3,"""Hmm... I've got to sell my stock first.""","""Hmm... I've got to sell my stock first."""
+villager.response.trade_first.3,"""Hmm... I've got to sell my stock first.""",ふむ...まず在庫を売却しなければなりません。
 villager.response.trade_first.4,"""Throw in some trading first and then you got x deal.""",まず取引を入れてから、xの取引が得られる。
-villager.response.trade_first.5,"""Let's trade some things first.""","""Let's trade some things first."""
-villager.response.trade_first.6,"""I need to clear my inventory...""","""I need to clear my inventory..."""
-villager.response.trade_first.7,"""I only sell my soul to loyal customers...""","""I only sell my soul to loyal customers..."""
-villager.response.trade_first.8,"""No selling souls to non-paying customers (store policy)""""","""No selling souls to non-paying customers (store policy)"""""
-villager.response.trade_first.9,"""Let's trade goods first!""","""Let's trade goods first!"""
+villager.response.trade_first.5,"""Let's trade some things first.""",まず何か取引しましょう。
+villager.response.trade_first.6,"""I need to clear my inventory...""",インベントリを空にする必要があります...。
+villager.response.trade_first.7,"""I only sell my soul to loyal customers...""",忠実な顧客にのみ魂を売ります...。
+villager.response.trade_first.8,"""No selling souls to non-paying customers (store policy)""""",無支払い顧客には魂を売却しません（ストアポリシー）
+villager.response.trade_first.9,"""Let's trade goods first!""",まず商品を取引しましょう！
+author,RWTema,
+extrautils2.text.entityvillagerredmechanic,entity.Villager.red_mechanic,entity.Villager.赤い整備工
+itemgroup.extrautils2,Extra Utilities 2,
+villager.response.deal.13,"""This is x good deal!""",これはいい取引だ！
+villager.response.deal.15,"""Signed!""",署名しました！
+villager.response.deal.23,"""Wow! This is the deal of x lifetime!""",わあ！人生最高の取引です！
+villager.response.deal.4,"""Free room and board? Sign me up!""",部屋代と食事？今すぐサインします！
+villager.response.deal.5,"""Sounds great! When do I start?""",素晴らしい！いつ始まりますか？
+villager.response.deal.7,"""Meh, it's not like I was doing anything with my soul. Okay!""",まあ、私の魂を何かに使っていたわけではないし。いいですよ！
+villager.response.no_deal.11,"""Sorry I already owe my soul to Villager Student Loans (ltd)""",申し訳ありませんが、私は既に村人学生ローン（有限会社）に魂を借りています。
+villager.response.no_deal.12,"""What is that mouse cursor doing? Also No!""",そのマウスカーソルは何をしているのですか？そして「いいえ」！
+villager.response.no_deal.18,"""Sure, why not? I mean apart from.. wait... NO!""",いいですよ？でも待ってください...いいえ！
+villager.response.no_deal.2,"""No Deal!""",取引なし！
+villager.response.no_deal.20,"""Your eyes are too shifty, and your nose is too small!""",あなたの目は不安定で、鼻が小さすぎます！
+villager.response.no_deal.22,"""Move along sir!""",どいてください、お客さん！
+villager.response.no_deal.23,"""Keep walking.""",歩き続けてください。
+villager.response.no_deal.5,"""Thanks but no thanks but no but really no but go away weirdo.""",ありがとう、でもいいえ、でも本当にいいえ、でも行ってください、変人さん。
+villager.response.no_deal.8,"<Villager noise>*\n\n*""No.""","<村人の音>*
+
+*いいえ。"
+villager.response.trade_first.0,"""Trade with me first.""",まず私と取引してください。
+villager.response.trade_first.11,"<Villager noise>*\n\n*""Let's trade first.""","<村人の音>*
+
+*まず取引しましょう。"
+villager.response.trade_first.12,"""First, let's do some trading.""",まず、何か取引しましょう。
+villager.response.trade_first.13,"""Trade with me.""",私と取引してください。
+villager.response.trade_first.14,"""Maybe if you traded x bit more...""",もう少し取引してくれたら...。
+villager.response.trade_first.18,"""Gotta sell some stuff first...""",まず何か売らなければ...。
+villager.response.trade_first.2,"""Maybe if you bought something.""",もし何か買ってくれたら。

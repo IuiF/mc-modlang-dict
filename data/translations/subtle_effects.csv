@@ -123,7 +123,7 @@ config.subtle_effects.blocks.redstoneDustEmittingBlocks.desc,"Blocks that emit r
 config.subtle_effects.blocks.replaceEndPortalSmoke,Replace End Portal Smoke,エンドポータルの煙を置き換える
 config.subtle_effects.blocks.replaceEndPortalSmoke.desc,Replaces the normal end portal smoke particles with nether portal particles so that it is consistent with end gateways,通常のエンドポータルの煙パーティクルをネザーポータルのパーティクルに置き換えて、エンドゲートウェイと一貫性を持たせます
 config.subtle_effects.blocks.replaceOminousVaultConnection,Replace Ominous Vault Connection,不気味な金庫接続を置き換える
-config.subtle_effects.blocks.replaceOminousVaultConnection.desc,Replaces the vanilla orange connection particles when near a ominous vault with blue particles,不気味なボールト近くではベーシックオレンジ接続粒子を青い粒子に置き換えます
+config.subtle_effects.blocks.replaceOminousVaultConnection.desc,Replaces the vanilla orange connection particles when near a ominous vault with blue particles,不気味なボールト近くではベーシック橙接続粒子を青い粒子に置き換えます
 config.subtle_effects.blocks.replacePowderSnowFlakes,Replace Powder Snow Flakes,粉雪を置き換えたときにパーティクルを出現させるか
 config.subtle_effects.blocks.respawnAnchorParticles,Respawn Anchor Particles,リスポーンアンカーのパーティクル
 config.subtle_effects.blocks.respawnAnchorParticles.desc,Crying obsidian particles for respawn anchors,リスポーンアンカーの黒曜石の涙パーティクル
@@ -255,7 +255,7 @@ config.subtle_effects.entities.dustClouds.preventWhenRaining,Prevent When Rainin
 config.subtle_effects.entities.dustClouds.runningGroup,Running,実行中
 config.subtle_effects.entities.dustClouds.scale,Scale,スケール
 config.subtle_effects.entities.endCrystalParticles,End Crystal Particles,エンドクリスタルのパーティクル
-config.subtle_effects.entities.endCrystalParticles.desc,Should end crystals have little pink particles floating around them,エンドクリスタルの周りに小さなピンクのパーティクルを浮遊させるか
+config.subtle_effects.entities.endCrystalParticles.desc,Should end crystals have little pink particles floating around them,エンドクリスタルの周りに小さな桃色のパーティクルを浮遊させるか
 config.subtle_effects.entities.explosives,Explosives,爆発物
 config.subtle_effects.entities.explosives.creeperSmoke,Creeper Smoke,クリーパーの煙
 config.subtle_effects.entities.explosives.creeperSparks,Creeper Sparks,クリーパーの火花
@@ -724,3 +724,19 @@ subtitles.subtle_effects.environment.firefly.buzz,Fireflies buzz,蛍のブズ
 subtitles.subtle_effects.environment.geyser.hiss,Geyser hisses,噴出音
 subtitles.subtle_effects.environment.geyser.whoosh,Geyser whooshing,ジオサーカーの音
 ui.subtle_effects.hud.particle_count,Particles: %s,粒子: %s
+config.subtle_effects.blocks.amethystSparkleEmittingBlocks.desc,"Blocks that emit amethyst sparkle particles, not including amethyst clusters/buds, good for applying the particles to blocks from mods that add amethyst variants, e.g. Polished, Chiseled.
+'Amethyst Sparkle Display Type' must be set to 'ON'",
+config.subtle_effects.blocks.fallingBlocks.dustyBlocks.desc,"A list of blocks that that can spawn dust particles. Used by, 'Falling Dust', 'Land Dust', and 'Weak Support Dust'",
+config.subtle_effects.entities.humanoids.player.enableBreathingEffectsInCreative.desc,"Should breath effects e.g. Frosty Breath and Drowning Bubbles, be visible in creative mode",
+config.subtle_effects.entities.splashes.splashOverlayTint.desc,The tint strength of the splash overlay. See 'Splash Overlay Alpha' for explanation of what this config affects,
+config.subtle_effects.environment.fireflies.fireflyType.desc,"The type of firefly spawned.
+'Original' will spawn fireflies based on the original fireflies shown at Minecraft Live 2021
+'Vanilla' will spawn the vanilla fireflies added in the Spring to Life drop",
+config.subtle_effects.environment.fireflies.habitatBiomes.desc,"Biomes where fireflies have a higher spawn rate and will be more evenly distributed around the biome.
+Biomes added to this list must either already be able to spawn fireflies or be in the 'Biomes Allowlist' config, additionally biomes in this list must also not be in the 'Biomes Blocklist' config",
+config.subtle_effects.environment.fireflies.ignoredSeasons.desc,"Seasons that fireflies will not spawn during.
+'Default' will stop firefly spawning in the late autumn and start them again at the end of early spring
+
+§6Note:§r
+Serene Seasons needs to be installed",
+config.subtle_effects.general.spellParticlesUseBlendedRenderType.desc,Changes spell particles to use the custom blended render type. This can cause visual issues with other mods. This config allows you to disable the custom render type and use the default transparency render type instead. This config is ignored if 'Allow Using Blended Render Type' is disabled.,

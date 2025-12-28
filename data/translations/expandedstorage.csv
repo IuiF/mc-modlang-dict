@@ -37,7 +37,7 @@ block.expandedstorage.old_obsidian_chest,Old Obsidian Chest,古びた黒曜石�
 block.expandedstorage.old_wood_chest,Old Chest,古いチェスト
 block.expandedstorage.oxidized_copper_barrel,Oxidized Copper Barrel,酸化銅の樽
 block.expandedstorage.oxidized_copper_mini_barrel,Oxidized Copper Mini Barrel,酸化された銅のミニバーレル
-block.expandedstorage.pink_amethyst_mini_present,Pink Amethyst Mini Present,ピンクの紫水晶のミニプレゼント
+block.expandedstorage.pink_amethyst_mini_present,Pink Amethyst Mini Present,桃色の紫水晶のミニプレゼント
 block.expandedstorage.present,Present,プレゼント
 block.expandedstorage.pumpkin_chest,Pumpkin Chest,かぼちゃのチェスト
 block.expandedstorage.pumpkin_mini_chest,Pumpkin Mini Chest,かぼちゃのミニチェスト
@@ -112,7 +112,7 @@ screen.ellemes_container_lib.next_page,Next Page,次ページ
 screen.ellemes_container_lib.off_screen_warning_1,Part of the screen may not be visible,画面の一部が表示されない場合があります。
 screen.ellemes_container_lib.off_screen_warning_2," if you pick this option.",このオプションを選択すると、
 screen.ellemes_container_lib.page_screen,Paginated Screen,ページネーションされた画面
-screen.ellemes_container_lib.page_x_y,%d/%d,%d/%d
+screen.ellemes_container_lib.page_x_y,%d/%d,
 screen.ellemes_container_lib.prev_page,Previous Page,前のページ
 screen.ellemes_container_lib.screen_picker_title,Select Screen Type,画面タイプを選択
 screen.ellemes_container_lib.scroll_screen,Scrollable Screen,スクロール可能な画面
@@ -151,10 +151,10 @@ stat.expandedstorage.open_old_iron_chest,[ES] Old Iron Chests Opened,[ES] 古い
 stat.expandedstorage.open_old_netherite_chest,[ES] Old Netherite Chests Opened,[ES] 旧ネザーiteチェストを開けました
 stat.expandedstorage.open_old_obsidian_chest,[ES] Old Obsidian Chests Opened,[ES] 古い黒曜石チェストが開かれました
 stat.expandedstorage.open_old_wood_chest,[ES] Old Chests Opened,[ES] 古いチェストを開けた
-stat.expandedstorage.open_pink_amethyst_mini_present,[ES] Pink Amethyst Mini Presents Opened,[ES] ピンクアメジスト ミニ プレゼント 開封済み
+stat.expandedstorage.open_pink_amethyst_mini_present,[ES] Pink Amethyst Mini Presents Opened,[ES] 桃色アメジスト ミニ プレゼント 開封済み
 stat.expandedstorage.open_present,[ES] Presents Opened,[ES] プレゼントが開かれた
 stat.expandedstorage.open_pumpkin_chest,[ES] Pumpkin Chests Opened,[ES] カボチャチェスト開放
-stat.expandedstorage.open_pumpkin_mini_chest,[ES] Pumpkin Mini Chests Opened,[ES] ピンクのミニチェストを開けました
+stat.expandedstorage.open_pumpkin_mini_chest,[ES] Pumpkin Mini Chests Opened,[ES] 桃色のミニチェストを開けました
 stat.expandedstorage.open_red_mini_present,[ES] Red Mini Presents Opened,[ES] 赤いミニプレゼントが開封されました
 stat.expandedstorage.open_vanilla_wood_mini_chest,[ES] Mini Chests (vanilla theme) Opened,[ES] ミニチェスト（ベーシックテーマ）開封済み
 stat.expandedstorage.open_white_mini_present,[ES] White Mini Presents Opened,[ES] 白いミニプレゼントを開けました
@@ -165,10 +165,10 @@ tag.c.wooden_barrels,Wooden Barrels,木製の樽
 tag.expandedstorage.wooden_chests,Wooden Chests and Expanded Storage's Tier Equivalents,木製チェストとExpanded Storageの階層等価物
 text.expandedstorage.disconnect.old_version,Please update Expanded Storage.,Expanded Storage をアップデートしてください。
 text.expandedstorage.prefix,[Expanded Storage] %s,[拡張ストレージ] %s
-text.expandedstorage.short_prefix,[ES] ,[ES] 
+text.expandedstorage.short_prefix,[ES] ,
 text.expandedstorage.wrong_loader_warning,"Please install the %2$s release of this mod, this hasn't been tested for %1$s so there may be issues which support will not be provided for otherwise.",このModの %2$s リリースをインストールしてください。%1$s ではテストされていないため、問題が発生する可能性があり、その場合はサポート対象外となります。
 tooltip.expandedstorage.added_by,Added by: %s,追加者: %s
-tooltip.expandedstorage.alt_use,%1$s + %2$s,%1$s + %2$s
+tooltip.expandedstorage.alt_use,%1$s + %2$s,
 tooltip.expandedstorage.conversion_kit.need_x_upgrades,"Upgrade failed, you need %s more upgrade(s).",アップグレード失敗、さらに %s 個のアップグレードが必要です
 tooltip.expandedstorage.conversion_kit_copper_diamond_1,%s on an Copper Storage Block,%s が銅のストレージブロックに置かれています
 tooltip.expandedstorage.conversion_kit_copper_diamond_2," to convert it to a Diamond Storage Block.",それをダイヤモンドストレージブロックに変換するには。
@@ -222,7 +222,12 @@ tooltip.expandedstorage.storage_mutator.merge_start,"Merging started, now %s the
 tooltip.expandedstorage.storage_mutator.merge_wrong_block,"Merging failed, chests are different types.",マージに失敗しました。チェストのタイプが異なります。
 tooltip.expandedstorage.storage_mutator.merge_wrong_facing,"Merging failed, chests are facing different directions.",マージ失敗、チェストが異なる方向を向いています。
 tooltip.expandedstorage.storage_mutator.rotate,Rotate,回転
-tooltip.expandedstorage.storage_mutator.split,Split,スタック分割
+tooltip.expandedstorage.storage_mutator.split,Split,分割
 tooltip.expandedstorage.storage_mutator.swap_theme,Swap theme,テーマを切り替え
 tooltip.expandedstorage.storage_mutator.tool_mode,Tool Mode: %s,ツールモード: %s
 tooltip.expandedstorage.stores_x_stacks,Stores %s stacks,%s スタックを格納
+tooltip.expandedstorage.conversion_kit_copper_netherite_2," to convert it to a Netherite Storage Block.",
+tooltip.expandedstorage.conversion_kit_diamond_netherite_2," to convert it to a Netherite Storage Block.",
+tooltip.expandedstorage.conversion_kit_gold_netherite_2," to convert it to a Netherite Storage Block.",
+tooltip.expandedstorage.conversion_kit_iron_netherite_2," to convert it to a Netherite Storage Block.",
+tooltip.expandedstorage.conversion_kit_obsidian_netherite_2," to convert it to a Netherite Storage Block.",

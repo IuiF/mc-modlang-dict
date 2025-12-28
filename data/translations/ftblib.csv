@@ -188,7 +188,7 @@ redstone_mode.active_high,Active High,アクティブな高さ
 redstone_mode.active_low,Active Low,アクティブ・ロー
 redstone_mode.pulse,Pulse,パルス
 io_mode,IO Mode,IOモード
-io_mode.io,IO,IO
+io_mode.io,IO,
 io_mode.in,Input Only,入力のみ
 io_mode.out,Output Only,出力のみ
 io_mode.none,Disabled,無効
@@ -197,28 +197,29 @@ click_action.show_cmd,Show Command,コマンドを表示
 click_action.url,Open URL,URLを開く
 click_action.file,Open File,ファイルを開く
 click_action.gui,Open Gui,GUIを開く
-commands.reload.usage,/reload [*|domain:*|domain:id],/reload [*|domain:*|domain:id]
+commands.reload.usage,/reload [*|domain:*|domain:id],
 commands.team.usage,/team,/チーム
-commands.team.settings.usage,/team settings <config id> [value],/team settings <config id> [value]
-commands.team.create.usage,/team create <id> [color],/team create <id> [color]
+commands.team.settings.usage,/team settings <config id> [value],
+commands.team.create.usage,/team create <id> [color],
 commands.team.leave.usage,/team leave,/チーム レイフ
-commands.team.transfer_ownership.usage,/team transfer_ownership <player>,/team transfer_ownership <player>
+commands.team.transfer_ownership.usage,/team transfer_ownership <player>,
 commands.team.kick.usage,/team kick <player>,/team kick <プレイヤー>
-commands.team.join.usage,/team join <team>,/team join <team>
-commands.team.status.usage,/team status <player> [set_status],/team status <player> [set_status]
+commands.team.join.usage,/team join <team>,
+commands.team.status.usage,/team status <player> [set_status],
 commands.team.status.set,Status for %s set to %s,%s のステータスが %s に設定されました
 commands.team.status.cant_set,Status can't be set!,ステータスを設定できません！
 commands.team.msg.usage,/team msg <message...>,/team msg <メッセージ...>
 commands.team.delete.usage,/team delete <team>,/team delete <チーム>
 commands.team.request_invite.usage,/team request_invite <team>,/team request_invite <チーム>
-commands.team.create_server_team.usage,/team create_server_team <id>,/team create_server_team <id>
-commands.team.info.usage,/team info <team>,/team info <team>
-commands.team.info.id,ID: %s,ID: %s
-commands.team.info.uid,UID: %s,UID: %s
+commands.team.create_server_team.usage,/team create_server_team <id>,
+commands.team.info.usage,/team info <team>,
+commands.team.info.id,ID: %s,
+commands.team.info.uid,UID: %s,
 commands.team.info.owner,Owner: %s,所有者: %s
 commands.team.info.members,Members: %s,メンバー: %s
-commands.team.get.usage,/team get <player>,/team get <player>
-commands.team.list.usage,/team list,/team list
+commands.team.get.usage,/team get <player>,
+commands.team.list.usage,/team list,
 commands.team.list.teams,List of all teams (%d):,すべてのチーム一覧 (%d)：
-commands.add_fake_player.usage,/add_fake_player <uuid> <name>,/add_fake_player <uuid> <name>
+commands.add_fake_player.usage,/add_fake_player <uuid> <name>,
 commands.client_config.usage,/client_config,/クライアント設定
+commands.my_settings.usage,/my_settings <config id> [value],

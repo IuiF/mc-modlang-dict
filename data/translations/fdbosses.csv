@@ -539,3 +539,16 @@ item.fdbosses.fire_and_ice_core,Fire and Ice Core,炎と氷の核
 item.fdbosses.lightning_core,Lightning Core,ライトニング・コア
 item.fdbosses.malkuth_fire_warrior_spawn_egg,Malkuth Warrior Spawn Egg (Fire),マルクス戦士の産卵（火）
 item.fdbosses.malkuth_ice_warrior_spawn_egg,Malkuth Warrior Spawn Egg (Ice),マルクス戦士の産卵（氷）
+fdbosses.boss_drop.fdbosses.chesed.fdbosses.lightning_core.stats,"Shock:
+{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=effectConfig, value=shockDamageReductionPercent}}% outgoing damage reduction.
+{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=lightningStrikeShockDuration}} ticks.
+
+Lightning: 
+{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=lightningStrikeDamagePercent}}% of weapon damage.
+
+Summon chance:  {{(fdbosses:config_float) config=itemConfig, value=chanceToSummonLightningStrike}}%",
+fdbosses.boss_drop.fdbosses.malkuth.fdbosses.fire_and_ice_core.stats,"Damage:
+{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=playerMalkuthFireballToolDamagePercent}}% of tool damage.
+
+Item ability cooldown:
+{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=playerMalkuthFireballAbilityCooldown}} ticks",

@@ -30,7 +30,6 @@ gui.veinmining.config.groupsList.description,The groups of blocks or block tags 
 gui.veinmining.config.groupsList.name,Vein mining groups,脈動採掘グループ
 gui.veinmining.config.incompatibleEnchantments.description,Enchantments that cannot be applied together with the enchantment.,一緒に適用できないエンチャントメントです。
 gui.veinmining.config.incompatibleEnchantments.name,Incompatible enchantments,互換性のないエンチャント
-gui.veinmining.config.isLootable.description,"If enabled, the enchantment can generate in loot.","If enabled, the enchantment can generate in loot."
 gui.veinmining.config.isLootable.name,Generate in loot,村人取引
 gui.veinmining.config.isTreasure.description,"If enabled, the enchantment is considered a treasure enchantment.",有効にすると、エンチャントはトレジャーエンチャントとして扱われます。
 gui.veinmining.config.isTreasure.name,Treasure,宝物
@@ -71,3 +70,9 @@ tutorial.veinmining.enchantment.no_key,"Vein mining key is unbound, set a key bi
 tutorial.veinmining.enchantment.standing,Crouch to stop vein mining.,ベインマイニングを停止するにはしゃべる
 tutorial.veinmining.key.no_configuration,Your vein mining configuration does not use key bindings.,ベインマイニング設定はキー入力を使用しません。
 tutorial.veinmining.key.no_enchantment,You need the §3Vein Mining §fenchantment on your tool to vein mine.,ツールに §3Vein Mining §enchantment が必要です。
+gui.veinmining.config.activationState.description,"If maxBlocksBase from veinmining-server.toml is 0, determines how to activate vein mining.
+IMPORTANT: When using the ""HOLD_KEY_DOWN"" setting, remember to set a key binding by going to Options > Controls > Key Binds.",
+gui.veinmining.config.activationStateWithoutEnchantment.description,"If maxBlocksBase from veinmining-server.toml is greater than 0, determines how to activate vein mining.
+IMPORTANT: When using the ""HOLD_KEY_DOWN"" setting, remember to set a key binding by going to Options > Controls > Key Binds.",
+gui.veinmining.config.blocksList.description,"The blocks or block tags for vein mining if blocks is set to ""CONFIG_LIST"".",
+gui.veinmining.config.isLootable.description,"If enabled, the enchantment can generate in loot.",

@@ -35,7 +35,6 @@ smoothfont.config.menu.done,Done,完了
 smoothfont.config.font.title,Font Selection,フォント選択
 smoothfont.config.font.fontFilter,Search,検索
 smoothfont.config.font.sizeAdjustField,Autosizing Samples,サイズ調整用追加文字
-smoothfont.config.font.antiAlias,AA,AA
 smoothfont.config.font.antiAlias.0,OFF,オフ
 smoothfont.config.font.antiAlias.1,Normal,通常
 smoothfont.config.font.antiAlias.2,High Precision,高精度
@@ -98,7 +97,7 @@ smoothfont.tooltip.forceUnicode,"Force unicode font\nForces all characters to be
 smoothfont.tooltip.removeScaleRestriction,"Unlock Large GUI\nWhen using Unicode font, enable ""Large"" GUI scale. (This enables all GUI scales other than integral multiples.)",GUIスケール制限を解除\nUnicodeフォント使用時に「大きい」サイズのGUIを使用可能にします。(整数倍以外のGUIスケールも使えるようにします。)
 smoothfont.tooltip.alternativeInterpolation,"Force Linear Interpolation\nThis is experimental. Force linear interpolation to Unicode glyph texture. MOD's original font renderer may be affected as well, but the font is not changed.",強制リニア補間\n実験的機能です。Unicodeフォントテクスチャに強制的にリニア補間を適用します。MODの独自レンダラにも効果があるかもしれませんが、フォントは変更されません。
 smoothfont.tooltip.font.sizeAdjustField,"Autosizing Samples\nThis option is useful when certain characters are oversized and can not be drawn correctly. In autosizing, the font size is automatically adjusted so that the whole character entered here can be drawn. Multiple characters can be specified.",サイズ調整用追加文字\n自動サイズ検出において、特定の文字の上下左右が切れてしまう場合、ここに入力した文字が描画できる様にフォントの大きさを自動調整します。複数文字を指定可能です。
-smoothfont.tooltip.font.fontNameList,Font List\nYou can select fonts. §eYellow§7 indicates the secondary font. The secondary font is used instead of the character that can not be displayed in the main font. You can select the secondary font by double-clicking or shift-clicking. Pressing [F5] rescan external font folders.,フォント一覧\nフォントを選択します。§e黄色§7はセカンダリフォントです。セカンダリフォントはメインフォントで表示できない文字の代わりに使用されます。セカンダリフォントはダブルクリック、または、シフト+クリックで選択できます。[F5]で外部フォントフォルダを再スキャンします。
+smoothfont.tooltip.font.fontNameList,Font List\nYou can select fonts. §eYellow§7 indicates the secondary font. The secondary font is used instead of the character that can not be displayed in the main font. You can select the secondary font by double-clicking or shift-clicking. Pressing [F5] rescan external font folders.,フォント一覧\nフォントを選択します。§e黄§7はセカンダリフォントです。セカンダリフォントはメインフォントで表示できない文字の代わりに使用されます。セカンダリフォントはダブルクリック、または、シフト+クリックで選択できます。[F5]で外部フォントフォルダを再スキャンします。
 smoothfont.tooltip.font.fontDetailList,Font List Mode\n§fSimple§7: List of font family name\n§fDetail§7: List of all font name,フォント一覧モード\n§f簡易§7：フォントファミリー名で選択\n§f詳細§7：すべてのフォントから選択
 smoothfont.tooltip.font.fontNameFilter,Font Name Filter,フォント名フィルター
 smoothfont.tooltip.font.fontRes,"Glyph Resolution\nSelect glyph texture resolution. The higher the resolution, the more memory and VRAM will be consumed. An asterisk ""*"" indicates the recommendation value for the current GUI scale.",解像度\n文字テクスチャの解像度を選択します。解像度が高くなるほどメモリとVRAMを消費します。「*」マークは現在のGUIの大きさにおける推奨解像度を示します。
@@ -114,3 +113,4 @@ smoothfont.tooltip.font.targetToReplace,Target to Replace\nSpecify a replace man
 smoothfont.tooltip.font.memUsage,Memory Usage\nTotal memory usage to hold the all glyph images of the platform fonts currently in use.,メモリ使用量\n現在使用しているフォントの全グリフイメージを保持するのに使用している総メモリ量です。
 smoothfont.tooltip.font.widthFactorDefault,Default character width\nTransform fonts of MC default charset narrowly or widely.,Default文字幅\nデフォルトフォント用文字セットの文字幅を調整します。
 smoothfont.tooltip.font.widthFactorUnicode,Unicode character width\nTransform fonts of unicode charset narrowly or widely.,Unicode文字幅\nUnicodeフォント用文字セットの文字幅を調整します。デフォルトのUnicodeフォントがコンパクトに表示されることを前提としたゲーム内ガイドブックなどがある場合に、この幅を少し狭く設定することで文字がはみ出ないように調整することができます。
+smoothfont.config.font.antiAlias,AA,

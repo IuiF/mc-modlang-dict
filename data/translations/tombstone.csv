@@ -1,17 +1,17 @@
 ﻿key,source_text,target_text
-block.tombstone.blue_marble_slab,Blue Marble Slab,青い大理石のスラブ
+block.tombstone.blue_marble_slab,Blue Marble Slab,青い大理石のハーフブロック
 block.tombstone.blue_marble_stairs,Blue Marble Stairs,青い大理石の階段
 block.tombstone.blue_marble_wall,Blue Marble Wall,青い大理石の壁
 block.tombstone.carmin_marble_slab,Carmin Marble Slab,カルミンの大理石の板
 block.tombstone.carmin_marble_stairs,Carmin Marble Stairs,カルミン大理石の階段
 block.tombstone.carmin_marble_wall,Carmin Marble Wall,カルミン大理石の壁
-block.tombstone.dark_marble_slab,Dark Marble Slab,ダークマーブルスラブ
+block.tombstone.dark_marble_slab,Dark Marble Slab,ダークマーブルハーフブロック
 block.tombstone.dark_marble_stairs,Dark Marble Stairs,暗い大理石の階段
 block.tombstone.dark_marble_wall,Dark Marble Wall,ダークマーブルウォール
-block.tombstone.green_marble_slab,Green Marble Slab,緑の大理石のスラブ
+block.tombstone.green_marble_slab,Green Marble Slab,緑の大理石のハーフブロック
 block.tombstone.green_marble_stairs,Green Marble Stairs,緑の大理石の階段
 block.tombstone.green_marble_wall,Green Marble Wall,緑の大理石の壁
-block.tombstone.white_marble_slab,White Marble Slab,ホワイトマーブルスラブ
+block.tombstone.white_marble_slab,White Marble Slab,ホワイトマーブルハーフブロック
 block.tombstone.white_marble_stairs,White Marble Stairs,白大理石の階段
 block.tombstone.white_marble_wall,White Marble Wall,白い大理石の壁
 bonus.tombstone.exorcism,Can convert zombie-villagers to villagers by using the Ankh,アンクを使ってゾンビ村人を村人に変えることができます
@@ -229,7 +229,7 @@ tombstone.advancement.create_strange_tablet.title,Not of Chocolate,チョコレ�
 tombstone.advancement.create_voodoo_poppet.desc,You created a Voodoo Poppet,ブードゥー・ポペットを作成しました
 tombstone.advancement.create_voodoo_poppet.title,Back to childhood,子供時代に戻る
 tombstone.advancement.crime_in_town.desc,You killed 10 villagers,村人を10人殺した
-tombstone.advancement.crime_in_town.title,Crime in Town,クライム・イン・タウン
+tombstone.advancement.crime_in_town.title,Crime in Town,ク黄緑・イン・タウン
 tombstone.advancement.death_master.desc,You have mastered the art of Voodoo Poppet,あなたはブードゥー・ポペットの芸術をマスターしました
 tombstone.advancement.death_master.title,Death Master,デスマスター
 tombstone.advancement.discreet_search.desc,You activate your grave by sneaking,スニークすることで墓を活性化する
@@ -1188,7 +1188,7 @@ tombstone.message.request_to_join_receiver,Click %s to allow %s to teleport to y
 tombstone.message.request_to_join_sender,Waiting for %s to accept,%s が受け入れるのを待っています
 tombstone.message.reset_ankh.failed,The Ankh is not in cooldown,アンクはクールダウン中ではありません
 tombstone.message.reset_ankh.success,The Ankh ability has been reset,アンクの能力がリセットされました
-tombstone.message.rip,R.I.P.,R.I.P.
+tombstone.message.rip,R.I.P.,
 tombstone.message.same_location,The entity is already at this place,実体はすでにこの場所にいます
 tombstone.message.scribe.failed,You need a magic scroll in your main hand,メインハンドに魔法の巻物が必要です
 tombstone.message.scribe.success,Magic writing has succeeded,マジックライティングは成功しました
@@ -1518,7 +1518,7 @@ tombstone.item.scroll_of_knowledge.loot,Lost Scroll of Erdos,失われたエル�
 tombstone.item.voodoo_poppet.desc,Prevents your next death,次の死亡を防ぎます
 tombstone.item.voodoo_poppet.use1,Add protections in the crafting table,墓の魂を右クリックして保護を有効化
 tombstone.item.voodoo_poppet.use2,Right click on a grave's soul to seal the protections,この人形は有効です
-tombstone.lang.last_update,1.20.1-9.0.8,1.20.1-9.0.8
+tombstone.lang.last_update,1.20.1-9.0.8,
 tombstone.message.alignment_level,Alignment: %s,アライメント: %s
 tombstone.message.animal,Animal,動物
 tombstone.message.available_points,Available Points: %s,利用可能なポイント: %s
@@ -1824,7 +1824,6 @@ tombstone.item.bone_needle.name,Bone Needle,骨針
 tombstone.item.christmas_gift.name,Mysterious Gift,ふしぎな贈り物
 tombstone.item.christmas_hat.name,Strange Christmas Hat,ストレンジ・クリスマス・ハット
 tombstone.item.gift.name,Reward,報酬
-tombstone.message.journeymap,"[x:%s, y:%s, z:%s, dim:%s]","[x:%s, y:%s, z:%s, dim:%s]"
 tombstone.message.death_canceled,The death event of the player %s was cancelled by another mod,プレイヤー %s の死亡イベントが別のモッドによってキャンセルされました
 tombstone.message.drop_canceled,The drop event of the player %s was cancelled by another mod,The drop event of the player %s was cancelled×another mod
 tombstone.message.wearable_backpack.failed_to_move,Failed to move the wearable backpack,ウェアラブルバックパックの移動に失敗しました
@@ -1933,10 +1932,16 @@ tombstone.potion.mercy.name,Mercy,慈悲
 description.tombstone.potion.mercy.name,Share beneficial effects among nearby allies,近くの味方の間で有益な効果を共有する
 tipped_arrow.effect.bait,Arrow of Bait,餌の矢
 tombstone.compendium.scroll_of_mercy_life.desc,This scroll allows you to share your beneficial effects among your nearby allies.,この巻物を使用すると、近くの味方の間で有益な効果を共有できます。
-potion.potency.3,IV,IV
-potion.potency.4,V,V
-potion.potency.5,VI,VI
-potion.potency.6,VII,VII
-potion.potency.7,VIII,VIII
-potion.potency.8,IX,IX
-potion.potency.9,X,X
+potion.potency.3,IV,
+potion.potency.4,V,
+potion.potency.5,VI,
+potion.potency.6,VII,
+potion.potency.7,VIII,
+potion.potency.8,IX,
+potion.potency.9,X,
+tombstone.compendium.soulbound.desc,"Items with this enchantment remain on you when you die.
+The Book of Soulbound can also place a Soulbound Rune on an item that functions in the same way.
+Slot: All",
+tombstone.config.chance_grave_dust.tooltip,Chance on 1000 for undead mobs to drop Grave's Dust,
+tombstone.compendium.shadow_step.desc,"You move discreetly in the shadows, reducing the distance to be detected by creatures.\nDistance is affected by light, level of enchantment and whether the player is discrete.\nIt cumulates with the perk Shadow Walker.",
+tombstone.message.journeymap,"[x:%s, y:%s, z:%s, dim:%s]",

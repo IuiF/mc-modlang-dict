@@ -29,16 +29,15 @@ craftpresence.defaults.advanced.item_messages,Holding {item.message.holding},{it
 craftpresence.defaults.biome_messages.biome_messages,Playing in {biome.name},{biome.name} でプレイ中
 craftpresence.defaults.dimension_messages.dimension_messages,In the {dimension.name},{dimension.name} にいます
 craftpresence.defaults.display.button.label,Example Text,例示テキスト
-craftpresence.defaults.display.button.url,https://google.com,https://google.com
-craftpresence.defaults.display.image.url,https://via.placeholder.com/256.png,https://via.placeholder.com/256.png
+craftpresence.defaults.display.button.url,https://google.com,
+craftpresence.defaults.display.image.url,https://via.placeholder.com/256.png,
 craftpresence.defaults.integrations.replaymod.editor,{player.name} is editing a replay,{player.name} がリプレイを編集中
 craftpresence.defaults.integrations.replaymod.renderer,{player.name} is exporting a replay ({replaymod.frames.current}/{replaymod.frames.total} frames),{player.name} がリプレイをエクスポート中 ({replaymod.frames.current}/{replaymod.frames.total} フレーム)
 craftpresence.defaults.integrations.replaymod.viewer,{player.name} is browsing replays,{player.name} がリプレイを閲覧中
 craftpresence.defaults.placeholder.mods,{general.mods} Mod(s),{general.mods} 個のMod
-craftpresence.defaults.placeholder.pack,{pack.name},{pack.name}
+craftpresence.defaults.placeholder.pack,{pack.name},
 craftpresence.defaults.placeholder.player_info.coordinate,"At {player.position.x}, {player.position.z}","座標: {player.position.x}, {player.position.z}"
 craftpresence.defaults.placeholder.player_info.health,Health: {player.health.current}/{player.health.max},体力: {player.health.current}/{player.health.max}
-craftpresence.defaults.placeholder.player_info.in,({custom.player_info.health}),({custom.player_info.health})
 craftpresence.defaults.placeholder.player_info.items,Items: {item.main_hand.message},アイテム: {item.main_hand.message}
 craftpresence.defaults.placeholder.player_info.out,As {player.name},{player.name} として
 craftpresence.defaults.placeholder.players,{server.players.current} / {server.players.max} Players,{server.players.current} / {server.players.max} 人のプレイヤー
@@ -402,8 +401,8 @@ gui.config.message.editor.presence.use_as_main,Use as Main Display,メインデ�
 gui.config.message.editor.preview,Preview:,プレビュー:
 gui.config.message.editor.search,Search:,検索:
 gui.config.message.editor.texture_path,Texture Path:,テクスチャパス:
-gui.config.message.editor.url,Url:,Url:
-gui.config.message.editor.usage,Usage:,使用:
+gui.config.message.editor.url,Url:,
+gui.config.message.editor.usage,Usage:,使い方：
 gui.config.message.editor.value.name,Value Name:,値 名前:
 gui.config.message.empty.list,This list is empty and cannot be displayed!\n\nPlease try again...,このリストは空で表示できません！\\n\\nもう一度お試しください…
 gui.config.message.endpoints,§lEndpoints,終了points
@@ -530,3 +529,32 @@ gui.config.name.server_messages.ping_rate_unit,Ping Rate Unit,Ping時間単位
 craftpresence.placeholders.player.mode.description,Your current game mode,現在のゲームモード
 craftpresence.placeholders.server.type.description,(Realm) The current realm world type,（レルム）現在のレルムワールドタイプ
 craftpresence.placeholders.world.type.description,The current world type,現在のワールドタイプ
+craftpresence.command.usage.view,"§lCraftPresence - View Sub-Commands:\n\n §6§lcurrentData §r- Shows your current RPC data, in text\n §6§lassets §r- Displays all asset icons available\n §6§ldimensions §r- Displays available dimension names\n §6§lbiomes §r- Displays available biome names\n §6§lservers §r- Displays available server addresses\n §6§lscreens §r- Displays available Gui names\n §6§litems §r- Displays available item names\n §6§lentities §r- Displays available entity names\n §6§lplaceholders §r- Displays available placeholders",
+craftpresence.placeholders.getCurrentTime.usage,getCurrentTime(),
+craftpresence.placeholders.getElapsedMillis.usage,getElapsedMillis(),
+craftpresence.placeholders.getElapsedNanos.usage,getElapsedNanos(),
+craftpresence.placeholders.getElapsedSeconds.usage,getElapsedSeconds(),
+craftpresence.placeholders.notes,"Notes:\n - Placeholders must be surrounded by curly brackets (""{foo.bar}"")",
+craftpresence.placeholders.randomAsset.usage,randomAsset(),
+gui.config.comment.accessibility.strip_extra_gui_elements,Allows CraftPresence to remove excess visual improvements from the Gui\n (Can improve gui performance in some areas),
+gui.config.comment.advanced.allow_duplicate_packets,Whether to allow duplicate Rich Presence Events to be sent when refreshing the display\n Notes:\n - This can cause better detection of unexpected disconnections at the cost of increased network traffic,
+gui.config.comment.advanced.allow_endpoint_icons,Whether to allow the endpoint icon system (Used primarily alongside Dynamic Icons),
+gui.config.comment.advanced.allow_placeholder_previews,Whether to allow Placeholder Previews to be displayed in applicable tooltips throughout the Config Gui,
+gui.config.comment.advanced.enable_per_entity,Allows CraftPresence to change its display based on entity data\n Note the following:\n - Requires an option in a valid entity message list,
+gui.config.comment.advanced.enable_per_gui,"Allows CraftPresence to change it's display based on the Gui you're in\n Note the following:\n - Requires an option in Gui messages\n - In some Minecraft versions, Guis must be opened once before configuring",
+gui.config.comment.advanced.enable_per_item,Allows CraftPresence to change it's display based on the item you're holding\n Note the following:\n - Requires an option in item messages,
+gui.config.comment.advanced.max_connection_attempts,"The amount of tries to attempt auto-reconnecting to Discord, in the event of an unexpected disconnection\n Notes:\n - The time between reconnections increases after each failed attempt, as a result of exponential backoff",
+gui.config.comment.advanced.server_icon_endpoint,"The endpoint URL to use for retrieving server icons\n Notes:\n - This endpoint is used for Scroll List Previews for non-base64 Server Icons and the ""server.icon"" placeholder, if not overriden",
+gui.config.comment.button.reset.config,Reset this config to its default settings\nWarning: This will overwrite all changes made once saved!,
+gui.config.comment.button.sync.config,Synchronize any live changes made from the local config file\nWarning: This will overwrite any changes made in here if unsaved!,
+gui.config.comment.general.auto_register,Whether to register this Client as an application with discord\n(Warning: Can have compatibility and JVM Issues),
+gui.config.comment.general.default_icon,"Default icon\n(Used in main menu, dimensions and servers)",
+gui.config.comment.general.reset_time_on_init,Whether to reset the Starting Timestamp when the RPC is rebooted,
+gui.config.comment.server_messages.server_motd,"Server Motd to default to, in the case of a null Motd\n(Also applies for direct connects)",
+gui.config.message.credits,"This Configuration Gui was made from scratch by\n Jonathing, and will continue to be maintained by\n CDAGaming. A lot of effort went into making this\n custom Gui, so show him some support! Thanks.\n\n Feel free to learn from this Gui's code on\n the CraftPresence GitLab repository.",
+gui.config.message.hover.presence.party_privacy,Party Privacy Level\n(Applies when Join Requests are enabled),
+gui.config.message.hover.value.message,Message data to attach with this value,
+gui.config.message.hover.value.name,Name to identify this value,
+gui.config.message.hover.visualizer.toggle_party,Toggles the display of Party Info\n(Applies when Game State is non-null),
+gui.config.title,CraftPresence - Configuration Settings,
+craftpresence.defaults.placeholder.player_info.in,({custom.player_info.health}),

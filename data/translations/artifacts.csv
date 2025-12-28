@@ -95,7 +95,7 @@ artifacts.config.items.chorus_totem.consumeOnUse.description,Whether the Chorus 
 artifacts.config.items.chorus_totem.consumeOnUse.title,Consume on Use,使用時に消費
 artifacts.config.items.chorus_totem.cooldown.description,The duration in seconds the Chorus Totem goes on cooldown for after activating,コーラストーテムが起動後にクールダウンする期間(秒単位)
 artifacts.config.items.chorus_totem.healthRestored.description,The amount of health points that are restored after the Chorus Totem activates,コーラストーテムが起動した後に回復するヘルスポイントの量
-artifacts.config.items.chorus_totem.healthRestored.title,Health Restored,回復した体力
+artifacts.config.items.chorus_totem.healthRestored.title,Health Restored,回復する体力
 artifacts.config.items.chorus_totem.teleportationChance.description,The probability that the Chorus Totem activates when a player dies,プレイヤーが死ぬときにコーラストーテムが起動する確率
 artifacts.config.items.chorus_totem.teleportationChance.title,Teleportation Chance,テレポート確率
 artifacts.config.items.cloud_in_a_bottle.enabled.description,Whether the Cloud in a Bottle allows the wearer to double jump,クラウドインアボトルが着用者にダブルジャンプを許可するかどうか
@@ -298,7 +298,7 @@ artifacts.tooltip.ability.damage_absorption.constant,Causes the wearer's melee a
 artifacts.tooltip.ability.damage_immunity.is_hot_floor,Grants protection against hot floor damage,ホットフロアダメージから保護を与えます
 artifacts.tooltip.ability.damage_immunity.is_lightning,Grants protection against lightning strikes,落雷に対する保護を付与
 artifacts.tooltip.ability.death_protection_teleport.chance,A fatal hit has a %s%% chance to teleport you somewhere else instead,致命的な一撃に%s%%の確率で代わりにどこかへテレポートします
-artifacts.tooltip.ability.death_protection_teleport.constant,A fatal hit teleports you somewhere else instead,致命的なヒットは別所へテレポートする
+artifacts.tooltip.ability.death_protection_teleport.constant,A fatal hit teleports you somewhere else instead,致命的なヒットで代わりに別の場所へテレポートします
 artifacts.tooltip.ability.death_protection_teleport.not_consumed,Not consumed on use,使用時に消費されない
 artifacts.tooltip.ability.double_jump,Allows the wearer to double jump,着用者は二段ジャンプが可能になる
 artifacts.tooltip.ability.enchantment_level_modifiers.fortune.multiple_levels,Applies %s extra levels of fortune to mined blocks,%s の追加レベルの幸運を採掘されたブロックに適用する
@@ -307,8 +307,8 @@ artifacts.tooltip.ability.enchantment_level_modifiers.looting.multiple_levels,Ap
 artifacts.tooltip.ability.enchantment_level_modifiers.looting.single_level,Applies an extra level of looting to killed entities,殺されたエンティティに追加レベルのドロップ増加を適用する
 artifacts.tooltip.ability.enchantment_level_modifiers.luck_of_the_sea.multiple_levels,Applies %s extra levels of Luck of the Sea when fishing,釣りをするときに%sレベルの余分な海の幸運を適用します
 artifacts.tooltip.ability.enchantment_level_modifiers.luck_of_the_sea.single_level,Applies an extra Luck of the Sea when fishing,釣りをするときに余分な海の幸運を適用します
-artifacts.tooltip.ability.enchantment_level_modifiers.lure.multiple_levels,Applies %s extra levels of Lure when fishing,釣り時に%sの追加レベルのルアーを付与します
-artifacts.tooltip.ability.enchantment_level_modifiers.lure.single_level,Applies an extra level of Lure when fishing,釣り時に追加のルアーレベルを付与します
+artifacts.tooltip.ability.enchantment_level_modifiers.lure.multiple_levels,Applies %s extra levels of Lure when fishing,釣りをするときに%sレベルの余分な釣りエンチャントを適用します
+artifacts.tooltip.ability.enchantment_level_modifiers.lure.single_level,Applies an extra level of Lure when fishing,釣りをするときに余分な釣りレベルを適用します
 artifacts.tooltip.ability.ender_pearl_damage_immunity,Ender Pearls deal no damage,エンダーパールはダメージを与えません
 artifacts.tooltip.ability.ender_pearl_hunger_cost.cost,"Ender Pearls are not consumed, but cost hunger instead",エンダーパールは消費されませんが、代わりに飢餓がかかります
 artifacts.tooltip.ability.ender_pearl_hunger_cost.free,Ender Pearls are not consumed when thrown,エンダーパールを投げるときに消費されません
@@ -325,7 +325,7 @@ artifacts.tooltip.ability.post_damage_effects.fire_resistance,Applies a temporar
 artifacts.tooltip.ability.post_damage_effects.speed,Increases the wearer's movement speed after taking damage,ダメージを受けた後の着用者の移動速度が増加する
 artifacts.tooltip.ability.post_eating_effects.haste,Grants a temporary boost to mining speed after eating food,食べ物を食べた後、採掘速度が一時的に上昇します
 artifacts.tooltip.ability.post_eating_plant_growth,Plants grow after eating when standing on grass,草の上に立っているときに食べた後に植物が成長します
-artifacts.tooltip.ability.replenish_hunger_on_grass,Slowly replenishes hunger while walking on grass,歩きながら草を踏むと、徐々に空腹が回復します
+artifacts.tooltip.ability.replenish_hunger_on_grass,Slowly replenishes hunger while walking on grass,歩いているときに草の上でゆっくりと空腹を回復します
 artifacts.tooltip.ability.retaliation_effects.fire.chance,Has a %s%% chance to light attackers on fire,攻撃者に火をつける %s%% のチャンスがある
 artifacts.tooltip.ability.retaliation_effects.fire.constant,Attacking entities are lit on fire,攻撃するエンティティが火に包まれます
 artifacts.tooltip.ability.retaliation_effects.fire.fire_resistance,Grants fire resistance after lighting an attacker on fire,攻撃者に火をつけた後、火炎耐性を与える
@@ -349,8 +349,8 @@ artifacts.tooltip.item.umbrella.glider,Slows your fall when held,持っている
 artifacts.tooltip.item.umbrella.shield,Can be used as a shield,盾としても使える
 artifacts.tooltip.missing_dependency,"Install Curios, Trinkets or Accessories to use this item",このアイテムを使用するには、CuriosまたはTrinketsまたはAccessoriesをインストールしてください
 artifacts.tooltip.per_food_point_restored,For every food point restored:,回復した食料ポイントごと：
-artifacts.tooltip.plus_mob_effect,+%s,+%s
-artifacts.tooltip.plus_mob_effect_chance,+%s (%s%%),+%s (%s%%)
+artifacts.tooltip.plus_mob_effect,+%s,
+artifacts.tooltip.plus_mob_effect_chance,+%s (%s%%),
 artifacts.tooltip.toggle_keymapping,Press %s to toggle,%s を押して切り替える
 artifacts.tooltip.tool_tier.diamond,diamond,ダイヤモンド
 artifacts.tooltip.tool_tier.iron,iron,鉄
@@ -643,7 +643,7 @@ tile.invisible_bedrock.name,Invisible Bedrock,見えないベッドロック
 tile.spike_block.name,Upright Spikes,直立の棘
 tile.arrow_trap.name,Arrow Trap,矢のトラップ
 tile.cover_plate.name,Tripwire Coverplate,トリップワイヤーカバープレート
-tile.quicksand.name,Quicksand,砂の流れ
+tile.quicksand.name,Quicksand,流砂
 tile.arrow_trap_item.name,Arrow Trap,矢のトラップ
 tile.cover_plate_item.name,Tripwire Coverplate,トリップワイヤーカバープレート
 tile.fake_block_item.name,Illusionary Block,幻象ブロック
@@ -767,21 +767,21 @@ pre.Bouncing,Bouncing,バウンシング
 pre.Stable,Stable,安定
 pre.Illuminating,Illuminating,照明
 pre.Bright,Bright,明るい
-pre.Shocking,Shocking,衝撃的
-pre.Electric,Electric,電気
+pre.Shocking,Shocking,衝撃
+pre.Electric,Electric,放電する
 pre.Webbing,Webbing,網
 pre.Mob Slowing,Mob Slowing,モブ減速
 pre.Staunching,Staunching,堅固な
-pre.Miner's,Miner's,鉱夫の
+pre.Miner's,Miner's,天界を掘り進む
 pre.Digger's,Digger's,掘り手の
-pre.Digging,Digging,掘削
+pre.Digging,Digging,掘る
 pre.Sensitive,Sensitive,敏感
 pre.Recharging,Recharging,再充電
 pre.Repairing,Repairing,修復
 pre.Refreshing,Refreshing,爽やか
 pre.Armored,Armored,装甲
 pre.Shielding,Shielding,シールド
-pre.Guarding,Guarding,守備
+pre.Guarding,Guarding,防衛中
 pre.Regenerative,Regenerative,再生
 pre.Swift,Swift,素早く
 pre.Quick,Quick,素早い
@@ -795,7 +795,7 @@ pre.Baker's,Baker's,ベーカーの
 pre.Confectioner's,Confectioner's,菓子職人の
 pre.Musical,Musical,音楽的
 pre.Harmonious,Harmonious,調和
-post.of Rage,of Rage,怒りの
+post.of Rage,of Rage,原始人の
 post.of Hermes,of Hermes,ヘルメスの
 post.of Flight,of Flight,飛行の
 post.of Breathing,of Breathing,呼吸の
@@ -806,15 +806,15 @@ post.of Wealth,of Wealth,豊かさの
 post.of Rending,of Rending,破壊の
 post.of Pain,of Pain,痛みの
 post.of Excavation,of Excavation,掘削の%s
-post.of Explosions,of Explosions,爆発の
-post.of Flames,of Flames,炎の
+post.of Explosions,of Explosions,爆発
+post.of Flames,of Flames,獄炎の
 post.of Incineration,of Incineration,燃焼の
 post.of Saturation,of Saturation,満腹度の%s
 post.of Noms,of Noms,飲む
 post.of Prospecting,of Prospecting,探査の
 post.of Healing,of Healing,回復の
 post.of Rejuvenation,of Rejuvenation,再生の
-post.of Toughness,of Toughness,耐久性の
+post.of Toughness,of Toughness,鉄壁の
 post.of Health,of Health,体力の
 post.of Lightness,of Lightness,軽さの
 post.of Stability,of Stability,安定の
@@ -826,7 +826,7 @@ post.of Trapping,of Trapping,捕らえの
 post.of Quicksand,of Quicksand,クイックサンドの
 post.of First Aid,of First Aid,救急の
 post.of Finding,of Finding,発見の
-post.of Protection,of Protection,防御
+post.of Protection,of Protection,特注品の
 post.of Armor,of Armor,防具の
 post.of Regeneration,of Regeneration,回復の
 post.of Lazarus,of Lazarus,ラザリウスの
@@ -836,7 +836,7 @@ post.of Seeing,of Seeing,見通しの
 post.of Darkvision,of Darkvision,暗視の
 post.of Fireworks,of Fireworks,花火の
 post.of Obscurity,of Obscurity,不明瞭の
-post.of Cloaking,of Cloaking,隠蔽の
+post.of Cloaking,of Cloaking,の隠蔽
 post.of Baking,of Baking,ベーキング
 post.of Icing,of Icing,アイシングの
 post.of Music,of Music,音楽の
@@ -890,10 +890,20 @@ effect.Digs big holes,Digs big holes,大きな穴を掘る
 effect.Repairs other items,Repairs other items,他のアイテムを修理する
 effect.Water Breathing,Water Breathing,水の呼吸
 effect.Invisibility,Invisibility,透明化
-effect.Hearts,{H},{H}
+effect.Hearts,{H},
 effect.Shoots exploding arrows,Shoots exploding arrows,爆発矢を撃つ
 effect.Reduced vision while invisible.,Reduced vision while invisible.,透明時に視界が狭くなる。
 effect.Places cakes on solid surfaces,Places cakes on solid surfaces,ケーキを固い表面に置きます
 effect.Plays the record,Plays the record,レコードを再生する
-container.pedestal,Display Pedestal,展示台を表示する
+container.pedestal,Display Pedestal,展示台
 misc.Owned by:,Owned by:,所有者:
+post.of Fire,of Fire,
+post.of Leaping,of Leaping,
+post.of Mining,of Mining,
+post.of Quarrying,of Quarrying,
+post.of Repair,of Repair,
+post.of Renew,of Renew,
+post.of Speed,of Speed,
+post.of Wrath,of Wrath,
+post.of Tunes,of Tunes,
+effect.Play,{Play},

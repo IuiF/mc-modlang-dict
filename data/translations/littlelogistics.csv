@@ -4,7 +4,7 @@ block.littlelogistics.automatic_tee_junction_rail,Automatic T-Junction Rail,自�
 block.littlelogistics.barge_dock,Barge Dock,艀ドック
 block.littlelogistics.car_dock_rail,Train Car Docking Rail,貨車用ドックレール
 block.littlelogistics.fluid_hopper,Fluid Hopper,流体ホッパー
-block.littlelogistics.fluid_hopper.capacity,%s %s/%s mB,%s %s/%s mB
+block.littlelogistics.fluid_hopper.capacity,%s %s/%s mB,
 block.littlelogistics.fluid_hopper.capacity_empty,Empty 0/%s mB,空 0/%s mB
 block.littlelogistics.guide_rail_corner,Vessel Corner Guide Rail,船舶用コーナーガイドレール
 block.littlelogistics.guide_rail_tug,Tug Guide Rail,曳船用ガイドレール
@@ -15,7 +15,7 @@ block.littlelogistics.switch_rail,Switch Rail,分岐レール
 block.littlelogistics.tee_junction_rail,T-Junction Rail,T字形切替レール
 block.littlelogistics.tug_dock,Tug Dock,曳船ドック
 block.littlelogistics.vessel_charger,Vehicle Charger,車両用充電器
-block.littlelogistics.vessel_charger.capacity,%s/%s FE,%s/%s FE
+block.littlelogistics.vessel_charger.capacity,%s/%s FE,
 block.littlelogistics.vessel_detector,Vehicle Detector,車両検知器
 entity.littlelogistics.barge,Chest Barge,チェスト付き艀
 entity.littlelogistics.chest_car,Chest Train Car,チェスト付き貨車
@@ -25,7 +25,7 @@ entity.littlelogistics.energy_locomotive,Energy Locomotive,電気機関車
 entity.littlelogistics.energy_tug,Energy Tug,電気曳船
 entity.littlelogistics.fishing_barge,Auto-Fishing Barge,自動釣り機付き艀
 entity.littlelogistics.fluid_barge,Fluid Tank Barge,液体タンク付き艀
-entity.littlelogistics.fluid_barge.capacity,%s %s/%s mB,%s %s/%s mB
+entity.littlelogistics.fluid_barge.capacity,%s %s/%s mB,
 entity.littlelogistics.fluid_barge.capacity_empty,Empty 0/%s mB,空 0/%s mB
 entity.littlelogistics.fluid_car,Fluid Tank Train Car,液体タンク付き貨両
 entity.littlelogistics.seater_barge,Seater Barge,座席付き艀
@@ -71,11 +71,11 @@ item.littlelogistics.tug_route.added,Added Route Node X:%s Z:%s,X:%s Z:%sにル�
 item.littlelogistics.tug_route.description,"Right click to add node at the end of the route, right click at the same location to remove. Shift right click to bring up menu.",右クリックで立っている地点にノードを追加でき、既にあるノードの地点で右クリックすることによりノードを削除できます。Shiftキーを押しながら右クリックでメニューを表示します。
 item.littlelogistics.tug_route.node,%s. Node,%s.ノード
 item.littlelogistics.tug_route.node_line,"Node %s: %s, %s","ノード %s: %s, %s"
-item.littlelogistics.tug_route.node_named,%s. %s,%s. %s
+item.littlelogistics.tug_route.node_named,%s. %s,
 item.littlelogistics.tug_route.num_nodes,Route Nodes: %s,ルートノード: %s
 item.littlelogistics.tug_route.removed,Removed Route Node X:%s Z:%s,X:%s Z:%sのルートノードを削除
 screen.littlelogistics.energy_tug,Energy Tug,電気曳船
-screen.littlelogistics.energy_tug.energy,%s/%s FE,%s/%s FE
+screen.littlelogistics.energy_tug.energy,%s/%s FE,
 screen.littlelogistics.fishing_barge,Auto-Fishing Barge,自動釣り機付き艀
 screen.littlelogistics.locomotive.frozen,"As per server config, this vehicle is frozen as the owner is offline",サーバー設定により、この車両はオーナーがオフラインのため凍結されています
 screen.littlelogistics.locomotive.off,Halt Engine,動力停止
@@ -104,3 +104,4 @@ global.littlelogistics.no_connected_inventory_barge,"This barge requires a conne
 global.littlelogistics.no_connected_inventory_car,"This train car requires a connected inventory behind it but none was provided. Link additional train car that provide inventory behind this one, such as a Chest Car.",この列車車両は背後に接続されたインベントリを必要としますが、提供されていません。チェスト・カーのように背後にインベントリを持つ追加の列車車両をリンクしてください。
 item.littlelogistics.barrel_car,Barrel Train Car,バレル列車車両
 item.littlelogistics.vacuum_barge,Item Collection Barge,アイテム収集船
+item.littlelogistics.barrel_barge,Barrel Barge,

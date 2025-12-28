@@ -88,7 +88,7 @@ title.config.bclib.client.auto_sync.debugHashes,Print Auto-Sync Debug-Hashes to 
 title.config.bclib.client.auto_sync.displayModInfo,Display warning when Serverside Mods differ from Client,サーバー側モッドとクライアント側モッドが異なる場合に警告を表示します。
 title.config.bclib.client.auto_sync.enabled,Enable Auto-Sync,自動同期を有効にする
 title.config.bclib.client.infos.survives_on_hint,Show 'Survives On' hint as Tooltip,『サバイヴスオン』ヒントをツールチップとして表示
-title.config.bclib.client.rendering.FogDensity,Fog Density,霧の濃度
+title.config.bclib.client.rendering.FogDensity,Fog Density,フォグ濃度
 title.config.bclib.client.rendering.customFogRendering,Custom Fog Rendering,カスタムフォグレンダリング
 title.config.bclib.client.rendering.netherThickFog,Nether Thick Fog,下界の厚い霧
 title.config.bclib.client.ui.forceBetterXPreset,Use BetterX as Default World-Type,BetterX をデフォルトワールドタイプとして使用
@@ -124,3 +124,8 @@ tooltip.bclib.place_underwater_on,Survives under water on: %s,水中でも生存
 tooltip.bclib.pottable_on,Pottable on: %s,%s に設置可能
 warning.config.bclib.client.ui.forceBetterXPreset,"MOST LIKELY YOU WILL WANT TO KEEP THIS OPTION ENABLED.
 ",おそらくこのオプションを有効にしたままにしておきたいでしょう。
+bclib.updates.curseforge_link,[CurseForge],
+bclib.updates.modrinth_link,[Modrinth],
+description.config.bclib.client.ui.forceBetterXPreset,"The world type determines how a world is generated. In most cases, BetterX should be kept as the default (you can change the type at any time in the world creation screen). This type is optimized for maximum compatibility between DataPacks, our mod, and other Fabric mods. It also provides some unique features for BetterNether and BetterEnd. You should only disable this option if you have a reason to do so!",
+generator.bclib.normal,BetterX,
+title.link.bclib.discord,Discord,

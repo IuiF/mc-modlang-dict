@@ -68,7 +68,7 @@ gem.tooltip,• Can be inserted into items with sockets,• ソケット付き�
 gem_bonus.random,Outcome unpredictable,結果は予測できない
 gem_bonus.removal,Destroys gems in the item,アイテム内の宝石を破壊する
 gem_class.jewelry,Jewelry,アクセサリー
-gem_class_format,• %s: %s,• %s: %s
+gem_class_format,• %s: %s,
 item.cant_use.info,You can not use this,このアイテムは使用できません
 item.minecraft.lingering_potion.effect.liquid_fire_1,Lingering Potion of Liquid Fire,液体火の残留ポーション
 item.minecraft.lingering_potion.effect.liquid_fire_2,Lingering Potion of Liquid Fire,液体火の残留ポーション
@@ -198,13 +198,13 @@ item_tag.skilltree:armors/leather,Leather Armor,皮革防具
 item_tag.skilltree:armors/leather.plural,Leather Armor,皮革防具
 key.categories.skilltree,Passive Skill Tree,パッシブスキルツリー
 key.display_skill_tree,Open Skill Tree,スキルツリーを開く
-living_condition.skilltree.all_armor,%s %s %s,%s %s %s
+living_condition.skilltree.all_armor,%s %s %s,
 living_condition.skilltree.all_armor.target.enemy,if all target's armor is,相手の防具が全て
 living_condition.skilltree.all_armor.target.player,if all your armor is,すべての防具が
 living_condition.skilltree.burning,%s if %s burning,%s が %s を燃やしているとき
 living_condition.skilltree.burning.target.enemy,enemy is,敵は
 living_condition.skilltree.burning.target.player,you are,あなたは
-living_condition.skilltree.crouching,%s %s,%s %s
+living_condition.skilltree.crouching,%s %s,
 living_condition.skilltree.crouching.target.enemy,if enemy is crouching,敵がしゃがんでいる場合
 living_condition.skilltree.crouching.target.player,while crouching,蹲踞中
 living_condition.skilltree.dual_wielding,%s if %s %s in both hands,%s なら両手で %s %s を保持していると
@@ -233,7 +233,7 @@ living_condition.skilltree.numeric_value.equal.food_level,exactly %s,正確に %
 living_condition.skilltree.numeric_value.equal.health_level,exactly %s,正確に %s
 living_condition.skilltree.numeric_value.less,less than %s,%s より少ない場合
 living_condition.skilltree.numeric_value.more,more than %s,%s より多い場合
-living_condition.skilltree.unarmed,%s %s,%s %s
+living_condition.skilltree.unarmed,%s %s,
 living_condition.skilltree.unarmed.target.enemy,if enemy is unarmed,敵が無武装の場合
 living_condition.skilltree.unarmed.target.player,while unarmed,無武装時
 living_condition.skilltree.underwater,%s if %s under water,%s で水中にいる場合
@@ -488,7 +488,7 @@ skill_bonus.skilltree.lethal_poison,Your poisons are lethal,あなたの毒は�
 skill_bonus.skilltree.loot_duplication,Chance to get %s %s,%s %s を入手する確率
 skill_bonus.skilltree.loot_duplication.double,double,二倍
 skill_bonus.skilltree.loot_duplication.guaranteed,You always get %s %s,常に%s %s が得られます
-skill_bonus.skilltree.loot_duplication.multiplier,+%s%%,+%s%%
+skill_bonus.skilltree.loot_duplication.multiplier,+%s%%,
 skill_bonus.skilltree.loot_duplication.triple,triple,三倍
 skill_bonus.skilltree.more_item_bonuses,You can upgrade %s %s additional times using workbench,ワークベンチで %s %s を追加でアップグレードできます
 skill_bonus.skilltree.more_item_bonuses.one,You can upgrade %s an additional time using workbench,%s をワークベンチで追加でアップグレードできます
@@ -609,3 +609,4 @@ widget.show_stats,Show Stats,ステータス表示
 widget.skill_button.multiple_bonuses,%s and %s,%s と %s
 widget.skill_button.not_learned,Skill not learned,スキルが習得されていません
 widget.skill_points_left,Points left: %s,残りポイント: %s
+affix.skilltree:jewelry/attribute/hasty.suffix,of Haste,

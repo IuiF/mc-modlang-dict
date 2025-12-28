@@ -24,9 +24,6 @@ iris.unsupported.iris,Oculus,オキュラス
 iris.unsupported.irisorpc,Oculus or your PC,Oculusまたはお使いのコンピューター
 iris.unsupported.pack,Shaderpack incompatible!,シェーダーパックが非対応です！
 iris.unsupported.pack.description,The shaderpack you are trying to load contains features unsupported by %s. Please try another pack. List %s,読み込もうとしているシェーダーパックには、%sで非対応の機能が含まれています。 他のシェーダーパックをご使用ください。 非対応の機能: %s
-iris.unsupported.pack.macos,"
-macOS is known to have issues with many shader packs.","
-macOS is known to have issues with many shader packs."
 iris.unsupported.pc,your PC,お使いのコンピューター
 label.iris.false,Off,オフ
 label.iris.true,On,オン
@@ -72,3 +69,7 @@ pack.iris.configure.title,Configure,設定
 pack.iris.list.label,+ Drag and Drop Shader Packs to add,+ ドラッグアンドドロップでシェーダーを追加
 pack.iris.select.title,Select,選択
 iris.shaders.debug.restart,"You do not have a debug context, please restart to enable debugging.",デバッグコンテキストがありません。 デバッグを有効にするには、ゲームを再起動してください。
+iris.nec.failure.description,"Not Enough Crashes can severely break the game while handling crashes, and does not provide accurate results.
+Good alternatives are MixinTrace and Crafty Crashes, which can identify the cause of a crash more reliably and does not put the game in an invalid state.",
+iris.unsupported.pack.macos,"
+macOS is known to have issues with many shader packs.",

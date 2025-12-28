@@ -1,5 +1,5 @@
 ﻿key,source_text,target_text
-_eof,eof,eof
+_eof,eof,
 block.ad_astra_giselle_addon.automation_nasa_workbench,Automation NASA Workbench,自動化NASAワークベンチ
 block.ad_astra_giselle_addon.fuel_loader,Fuel Loader,燃料ローダー
 block.ad_astra_giselle_addon.gravity_normalizer,Gravity Normalizer(Deprecated),重力正常化器(廃止)
@@ -10,7 +10,7 @@ chargemode.ad_astra_giselle_addon.all,Enabled: All Inventory,有効化: 全イ�
 chargemode.ad_astra_giselle_addon.armors,Enabled: All Armor,有効: 全アーマー
 chargemode.ad_astra_giselle_addon.none,Disabled,無効
 config.ad_astra_giselle_addon.compats,Mod Compatibilities,モッド互換性
-config.ad_astra_giselle_addon.compats.mekanism,Mekanism,メカニズム
+config.ad_astra_giselle_addon.compats.mekanism,Mekanism,
 config.ad_astra_giselle_addon.compats.mekanism.modules,MekaSuit Modules,メカスーツモジュール
 config.ad_astra_giselle_addon.compats.mekanism.modules_acid_rain_proof,Acid Rain Proof Unit,酸雨防止ユニット
 config.ad_astra_giselle_addon.compats.mekanism.modules_acid_rain_proof_energy_using,Energy usage,エネルギー使用量
@@ -23,12 +23,12 @@ config.ad_astra_giselle_addon.compats.mekanism.modules_space_breathing_energy_us
 config.ad_astra_giselle_addon.compats.mekanism.modules_space_breathing_energy_using_produce.comment,"Energy usage per mb when produce Mekanism oxygen to player in water, rain",水中・雨中で Mekanism 酸素をプレイヤーへ供給するときの mb あたりのエネルギー消費量です。
 config.ad_astra_giselle_addon.compats.mekanism.modules_space_fire_proof,Space Fire Proof Unit,スペース防火ユニット
 config.ad_astra_giselle_addon.compats.mekanism.modules_space_fire_proof_energy_using,Energy usage,エネルギー使用量
-config.ad_astra_giselle_addon.compats.mekanism.modules_space_fire_proof_energy_using.comment,Energy usage for proof in every ticks [in every 10 ticks],証明用のエネルギー使用量（毎ティック）[10ティックごと]
+config.ad_astra_giselle_addon.compats.mekanism.modules_space_fire_proof_energy_using.comment,Energy usage for proof in every ticks [in every 10 ticks],証明のためのエネルギー使用量（毎10ティック）
 config.ad_astra_giselle_addon.compats.pneumaticcraft,PneumaticCraft,ピーナックス・クラフト
 config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades,Pneumatic Armor Upgrades,気動力防具アップグレード
 config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_acid_rain_proof,Acid Rain Proof Upgrade,酸雨耐性アップグレード
 config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_acid_rain_proof_air_using,Air Usage,空気使用量
-config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_acid_rain_proof_air_using.comment,Air usage for proof [in every 10 ticks],検証用の空気消費量（10ティックごと）
+config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_acid_rain_proof_air_using.comment,Air usage for proof [in every 10 ticks],証明のための空気使用量（毎10ティック）」
 config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_gravity_normalizing,Gravity Normalizing Upgrade,重力正規化アップグレード
 config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_gravity_normalizing_air_using,Air Usage,空気使用量
 config.ad_astra_giselle_addon.compats.pneumaticcraft.upgades_gravity_normalizing_air_using.comment,Air usage for proof [in every 10 ticks],証明のための空気使用量（毎10ティック）」
@@ -54,7 +54,7 @@ config.ad_astra_giselle_addon.enchantments.gravity_normalizing_energy_using,Ener
 config.ad_astra_giselle_addon.enchantments.gravity_normalizing_energy_using.comment,Energy usage for proof [in every 10 ticks],証明のためのエネルギー使用量（10ティックごと）
 config.ad_astra_giselle_addon.enchantments.space_breathing,Space Breathing,空気呼吸
 config.ad_astra_giselle_addon.enchantments.space_fire_proof,Space Fire Proof,宇宙耐火
-config.ad_astra_giselle_addon.enchantments.space_fire_proof_durability_duration,Durability Proof Duration,耐久性証明期間
+config.ad_astra_giselle_addon.enchantments.space_fire_proof_durability_duration,Durability Proof Duration,耐久値保護期間
 config.ad_astra_giselle_addon.enchantments.space_fire_proof_durability_duration.comment,"Proof duration on using durability [ticks, be multiple of 10]",耐久度使用時の証明期間（ティック、10の倍数）。
 config.ad_astra_giselle_addon.enchantments.space_fire_proof_durability_using,Durability Usage,耐久度使用
 config.ad_astra_giselle_addon.enchantments.space_fire_proof_durability_using.comment,Durability usage for proof,耐久値使用量（証明用）
@@ -68,10 +68,10 @@ but, if this set 'true' show tooltip with ignore that mods.",ツールチップ�
 config.ad_astra_giselle_addon.items,Items,アイテム
 config.ad_astra_giselle_addon.items.netherite_oxygen_can,Netherite Oxygen Can,ネザー鉄酸素缶
 config.ad_astra_giselle_addon.items.netherite_oxygen_can_fluid_capacity,Fluid Capacity,流体容量
-config.ad_astra_giselle_addon.items.netherite_oxygen_can_fluid_transfer,Fluid Transfer,流体転送
+config.ad_astra_giselle_addon.items.netherite_oxygen_can_fluid_transfer,Fluid Transfer,流体 転送
 config.ad_astra_giselle_addon.items.oxygen_can,Oxygen Can,酸素缶
 config.ad_astra_giselle_addon.items.oxygen_can_fluid_capacity,Fluid Capacity,流体容量
-config.ad_astra_giselle_addon.items.oxygen_can_fluid_transfer,Fluid Transfer,流体転送
+config.ad_astra_giselle_addon.items.oxygen_can_fluid_transfer,Fluid Transfer,流体 転送
 config.ad_astra_giselle_addon.items.oxygen_chargers,Oxygen Cans(Common),酸素缶(普通)
 config.ad_astra_giselle_addon.items.oxygen_chargers_distribution_interval,Distribution Interval [ticks],分配間隔 [ティック]
 config.ad_astra_giselle_addon.machines,Machines,機械
@@ -108,7 +108,6 @@ enchantment.ad_astra_giselle_addon.space_breathing,Space Breathing,空気呼吸
 enchantment.ad_astra_giselle_addon.space_breathing.desc,"Can breath in Ad Astra dimensions
 Require 'Oxygen Can' in inventory",Ad Astraの次元で呼吸できる
 enchantment.ad_astra_giselle_addon.space_fire_proof,Space Fire Proof,宇宙耐火
-gui.ad_astra_giselle_addon.gravity_normalizer.energy_using,%1$s ⚡ / %2$stick,%1$s ⚡ / %2$stick
 gui.ad_astra_giselle_addon.gravity_normalizer.length.x,X Length: %s,X長さ: %s
 gui.ad_astra_giselle_addon.gravity_normalizer.length.y,Y Length: %s,Y長さ: %s
 gui.ad_astra_giselle_addon.gravity_normalizer.length.z,Z Length: %s,Z長さ: %s
@@ -183,8 +182,13 @@ modifier.ad_astra_giselle_addon.gravity_normalizing.description,Normalize gravit
 modifier.ad_astra_giselle_addon.gravity_normalizing.flavor,Gravity Normalizing,重力正規化
 modifier.ad_astra_giselle_addon.space_breathing,Space Breathing,空気呼吸
 modifier.ad_astra_giselle_addon.space_breathing.description,"Can breath in Ad Astra dimensions
-Require 'Oxygen Can' in inventory",Ad Astra次元で呼吸できる
+Require 'Oxygen Can' in inventory",Ad Astraの次元で呼吸できる
 modifier.ad_astra_giselle_addon.space_breathing.flavor,Space Breathing,空気呼吸
 modifier.ad_astra_giselle_addon.space_fire_proof,Space Fire Proof,宇宙耐火
 modifier.ad_astra_giselle_addon.space_fire_proof.description,Don't set fire to player in Ad Astra dimensions,Ad Astraディメンションでプレイヤーに火をつけないでください
 modifier.ad_astra_giselle_addon.space_fire_proof.flavor,Space Fire Proof,宇宙耐火
+config.ad_astra_giselle_addon.enchantments.acid_rain_proof_energy_using.comment,Energy usage for proof [in every 10 ticks],
+description.ad_astra_giselle_addon.space_breathing_unit,"Can breath in Ad Astra dimensions
+Will also fill held item with oxygen when in rain, water
+Require 'Oxygen Can' in inventory",
+gui.ad_astra_giselle_addon.gravity_normalizer.energy_using,%1$s ⚡ / %2$stick,

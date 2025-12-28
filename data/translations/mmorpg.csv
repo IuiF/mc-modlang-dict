@@ -583,7 +583,7 @@ mmorpg.chat.enemy_too_close,Can't do that. There are enemies nearby.,それは�
 mmorpg.chat.equip_aura_error,[Augment Equip Fail]: ,[拡張装備失敗]: 
 mmorpg.chat.equip_jewel_error,[Jewel Equip Fail]: ,[宝石装備失敗]: 
 mmorpg.chat.equip_supp_error,[Support Gem Equip Fail]: ,[宝石装備サポート失敗]: 
-mmorpg.chat.error_type_and_reason,%1$s %2$s,%1$s %2$s
+mmorpg.chat.error_type_and_reason,%1$s %2$s,
 mmorpg.chat.explored_x_map_rooms,%1$s out of %2$s Map Rooms Scouted.,%2$s 個中 %1$s 個のマップルームを偵察。
 mmorpg.chat.failed_to_award_points,"Failed to give more %1$s points, you have reached the cap. The maximum allowed bonus %1$s points is %2$s. This is controlled by the Game balance datapack",さらに %1$s ポイントを付与できませんでした。上限に達しました。許可される最大ボーナス %1$s ポイントは %2$s です。これはゲームバランスデータパックによって制御されます
 mmorpg.chat.favor_death_msg,Your Favor has fallen by %1$s Points.,あなたの好意は%1$sポイント減少しました。
@@ -745,7 +745,7 @@ mmorpg.chest_content.aura,Augment,増強
 mmorpg.chest_content.currency,Currency,通貨
 mmorpg.chest_content.gear,Gear,ギア
 mmorpg.chest_content.gem,Gem,宝石
-mmorpg.chest_content.harvest_blue_chest,Gear From Harvest,収穫からのギア
+mmorpg.chest_content.harvest_blue_chest,Gear From Harvest,収穫からの歯車
 mmorpg.chest_content.harvest_green_chest,Currency From Harvest,収穫による通貨
 mmorpg.chest_content.harvest_purple_chest,Jewel From Harvest,収穫の宝石
 mmorpg.chest_content.map,Map,マップ
@@ -854,26 +854,26 @@ mmorpg.effect.vamp_blood,Vamp Blood,ヴァンプ・ブラッド
 mmorpg.effect.vigor,Vigor,活力
 mmorpg.effect.weak,Elemental Weakness,属性の弱点
 mmorpg.effect.wounds,Wounds,傷
-mmorpg.formatter.buff_consumptions_name,%1$s %2$s %3$s,%1$s %2$s %3$s
+mmorpg.formatter.buff_consumptions_name,%1$s %2$s %3$s,
 mmorpg.formatter.buff_consumptions_name.locale_context_for_translator,control the order and space of buff consumption.,バフ消費の順序とスペースを制御します。
-mmorpg.formatter.gear_item_name_all,%1$s %2$s %3$s,%1$s %2$s %3$s
+mmorpg.formatter.gear_item_name_all,%1$s %2$s %3$s,
 mmorpg.formatter.gear_item_name_all.locale_context_for_translator,"Use to control the order and space of gear item name, like ""(Giant) (Rusted Sword) (of Penetration)""",「(巨人) (錆びた剣) (貫通)」のように、ギアアイテム名の順序とスペースを制御するために使用します。
-mmorpg.formatter.gear_item_name_another,%1$s %2$s %3$s,%1$s %2$s %3$s
-mmorpg.formatter.gear_item_name_only_gear,%1$s,%1$s
-mmorpg.formatter.gear_item_name_pre_gear,%1$s %2$s,%1$s %2$s
-mmorpg.formatter.gem_chest_name,%1$s %2$s %3$s %4$s,%1$s %2$s %3$s %4$s
-mmorpg.formatter.gem_item_name,%1$s %2$s,%1$s %2$s
+mmorpg.formatter.gear_item_name_another,%1$s %2$s %3$s,
+mmorpg.formatter.gear_item_name_only_gear,%1$s,
+mmorpg.formatter.gear_item_name_pre_gear,%1$s %2$s,
+mmorpg.formatter.gem_chest_name,%1$s %2$s %3$s %4$s,
+mmorpg.formatter.gem_item_name,%1$s %2$s,
 mmorpg.formatter.gem_item_name.locale_context_for_translator,"Use to control the order and space of gem item name, like ""(cracked) (ruby)""",「(ひび割れ) (ルビー)」など、宝石アイテム名の順序とスペースを制御するために使用します。
-mmorpg.formatter.icon_and_damage_in_spell_damage_proportion,%1$s %2$s,%1$s %2$s
+mmorpg.formatter.icon_and_damage_in_spell_damage_proportion,%1$s %2$s,
 mmorpg.formatter.icon_and_damage_in_spell_damage_proportion.locale_context_for_translator,"this is aim to control the order and space of spell damage calc detail, the whole calc format, like ""25% of (a icon) Weapon damage"", is controlled by spell_damage_proportion key, this only affect the part ""(a icon) Weapon damage""","これは、スペルダメージ計算の詳細の順序とスペースを制御することを目的としています。「(アイコン) 武器ダメージの 25%」などの計算形式全体は、spell_damage_proportion キーによって制御されます。これは「(アイコン) 武器」の部分にのみ影響します。ダメージ"""
-mmorpg.formatter.normal_calc_stat,%1$s,%1$s
+mmorpg.formatter.normal_calc_stat,%1$s,
 mmorpg.formatter.normal_calc_stat.locale_context_for_translator,currently no use,現在は役に立たない
-mmorpg.formatter.second_special_calc_stat,%1$s %2$s,%1$s %2$s
-mmorpg.formatter.special_calc_stat,%1$s %2$s,%1$s %2$s
+mmorpg.formatter.second_special_calc_stat,%1$s %2$s,
+mmorpg.formatter.special_calc_stat,%1$s %2$s,
 mmorpg.formatter.special_calc_stat.locale_context_for_translator,"it will only work when stat has a prefix(""increased"", ""Reduced"", ""More"", ""Less"")",ステータスにプレフィックス（「増加」、「減少」、「増加」、「減少」）が付いている場合にのみ機能します。
-mmorpg.formatter.special_unique_process,%1$s %2$s,%1$s %2$s
+mmorpg.formatter.special_unique_process,%1$s %2$s,
 mmorpg.formatter.special_unique_process.locale_context_for_translator,currently no use,現在は役に立たない
-mmorpg.formatter.unique_name_format,%1$s %2$s,%1$s %2$s
+mmorpg.formatter.unique_name_format,%1$s %2$s,
 mmorpg.gear_type.bow,Bow,弓
 mmorpg.gear_type.cloth_boots,Cloth Boots,布製の靴
 mmorpg.gear_type.cloth_chest,Cloth Chest,布製の胸甲
@@ -935,7 +935,6 @@ mmorpg.grouped_stat_section.other,Other Stats,その他のステータス
 mmorpg.grouped_stat_section.regen,Regen Stats,回復ステータス
 mmorpg.gui.area_level,Area Level: ,エリアレベル: 
 mmorpg.gui.available_support_slots,Support Slots: %1$s/5 Available,サポート スロット: %1$s/5 が利用可能
-mmorpg.gui.comma_separator,", ",", "
 mmorpg.gui.current_favor,Current: %1$s,現在: %1$s
 mmorpg.gui.exp_gain_percent,+%1$s %2$s Exp (%3$s%%),+%1$s %2$s 経験値 (%3$s%%)
 mmorpg.gui.favor_in_gui," Favor"," 好意"
@@ -947,7 +946,7 @@ mmorpg.gui.mainhub_level,Level: ,レア度:
 mmorpg.gui.passive_points,Passive Points: ,パッシブポイント: 
 mmorpg.gui.prof_exp_gain_chat,+%1$s %2$s Exp,+%1$s %2$s 経験値
 mmorpg.gui.prof_level_and_exp,Level: %1$s EXP: %2$s/%3$s,レベル: %1$s 経験値: %2$s/%3$s
-mmorpg.gui.prof_name,%1$s: %2$s,%1$s: %2$s
+mmorpg.gui.prof_name,%1$s: %2$s,
 mmorpg.gui.respec_points,Respec Points: %1$s,リスペックポイント: %1$s
 mmorpg.gui.rested_combat_exp,Rested Combat Exp: ,休息戦闘経験値: 
 mmorpg.gui.rested_prof_exp,Rested Prof. Exp: ,休んだ教授経験値: 
@@ -958,7 +957,7 @@ mmorpg.gui.spell_points,Spell Points: ,スペルポイント:
 mmorpg.gui.stat_total,Total: ,合計： 
 mmorpg.gui.stats_influence,For each point: ,各ポイントについて: 
 mmorpg.gui.stats_points,Points: ,ポイント: 
-mmorpg.gui.status_bar_huger,H: %1$s S: %2$s,H: %1$s S: %2$s
+mmorpg.gui.status_bar_huger,H: %1$s S: %2$s,
 mmorpg.gui.status_bar_level,Level %1$s %2$s%%,レベル %1$s %2$s%%
 mmorpg.gui.talent_points,Points: ,ポイント: 
 mmorpg.gui.talent_reset_points,Respecs: ,スペック: 
@@ -1097,7 +1096,7 @@ mmorpg.item_tips.map_tier_tip,Map tier indicate the difficulty and loot quality 
 mmorpg.item_tips.need_key,Needs %1$s ,%1$s が必要です 
 mmorpg.item_tips.not_a_random_mns_drop_check_modpack,"No normal Drop-rate, this item might be obtainable in other ways. Check your Modpack's guide.",通常のドロップ率はありません。このアイテムは他の方法で入手できる可能性があります。 Modpack のガイドを確認してください。
 mmorpg.item_tips.omen_set_pieces,%1$s Piece:,%1$s 個:
-mmorpg.item_tips.outcome_tip,%1$s - %2$s,%1$s - %2$s
+mmorpg.item_tips.outcome_tip,%1$s - %2$s,
 mmorpg.item_tips.outcome_tip.locale_context_for_translator,for currency tooltips,通貨ツールチップ用
 mmorpg.item_tips.potential,Potential: %1$s,ポテンシャル: %1$s
 mmorpg.item_tips.prefix_stats,Prefix Stats: ,プレフィックスステータス: 
@@ -1142,7 +1141,7 @@ making the souls generate only gear of that type.
 For example you can make an armor soul create only Cloth items.
 Only works on armors!","ソウルモディファイアはギアソウルに適用でき、その後生成されます 
 対応するギアタイプのみを使用してください。"
-mmorpg.item_tips.soul_stone_tip,Right click to produce a common gear soul.,右クリックでコモンのギアソウルを生成します。
+mmorpg.item_tips.soul_stone_tip,Right click to produce a common gear soul.,右クリックでコモンの歯車ソウルを生成します。
 mmorpg.item_tips.soul_tier_tip,Soul tier determine the level range of generated gear,ソウルティアは生成されるギアのレベル範囲を決定します
 mmorpg.item_tips.stat_req,%1$s Min: ,%1$s 分: 
 mmorpg.item_tips.stone_repaire_durability,Repairs %1$s durability.,%1$s の耐久性を修復します。
@@ -1201,7 +1200,7 @@ mmorpg.mmorpg.nether,The Nether,ネザー
 mmorpg.mmorpg.sandstone,Sandstone,砂岩
 mmorpg.mmorpg.sewer2,Slime Sewers,スライムの下水道
 mmorpg.mmorpg.sewers,Sewers,下水道
-mmorpg.mmorpg.spruce_mansion,Spruce Mansion,スプルース マンション
+mmorpg.mmorpg.spruce_mansion,Spruce Mansion,トウヒ マンション
 mmorpg.mmorpg.steampunk,Steampunk,スチームパンク
 mmorpg.mmorpg.stone_brick,Stone Brick,レンガ石
 mmorpg.mmorpg.tent,Giant Tents,巨大なテント
@@ -2488,8 +2487,8 @@ mmorpg.stat_layer.flat_damage_reduction,Flat Damage Reduction,フラットダメ
 mmorpg.stat_layer.physical_mitigation,Physical Mitigation,物理軽減
 mmorpg.stat_priority.after_damage_bonuses,AFTER_DAMAGE_BONUSES,ダメージ後ボーナス
 mmorpg.stat_priority.before_damage_layers,BEFORE_DAMAGE_LAYERS,ダメージ前レイヤー
-mmorpg.stat_priority.before_hit_prevention,BEFORE_HIT_PREVENTION,BEFORE_HIT_PREVENTION
-mmorpg.stat_priority.calc_damage_layers,CALC_DAMAGE_LAYERS,CALC_DAMAGE_LAYERS
+mmorpg.stat_priority.before_hit_prevention,BEFORE_HIT_PREVENTION,
+mmorpg.stat_priority.calc_damage_layers,CALC_DAMAGE_LAYERS,
 mmorpg.stat_priority.damage_layers,DAMAGE_LAYERS,ダメージレイヤー
 mmorpg.stat_priority.data_modification,DATA_MODIFICATION,データ変更
 mmorpg.stat_priority.final_damage,FINAL_DAMAGE,最終ダメージ
@@ -3484,3 +3483,4 @@ translator_guide_1,"1. Some lang lines have corresponding locale context, partic
 translator_guide_2,2. Certain lines contain line break format(\n). translator can add/remove that format at will based on the actual length of the translated text.,2. 特定の行には改行形式 (\n) が含まれています。翻訳者は、翻訳されたテキストの実際の長さに基づいて、その形式を自由に追加/削除できます。
 uncommon.item,Uncommon,アンコモン
 unique.item,Unique,ユニーク
+mmorpg.gui.comma_separator,", ",

@@ -3,14 +3,14 @@ itemGroup.hammercore,Hammer Core,ハンマーコア
 keybind.hammercorerenderstack,[HC] Render Item,[HC] アイテムをレンダリング
 item.hammercore:manual.name,Hammer Core Manual,ハンマー核心マニュアル
 item.hammercore:wrench.name,Wrench,レンチ
-tile.hammercore:iron_bordered_cobblestone.name,Iron-Bordered Cobblestone,鉄縁付き丸石
-tile.hammercore:gold_bordered_cobblestone.name,Gold-Bordered Cobblestone,金縁付き丸石
+tile.hammercore:iron_bordered_cobblestone.name,Iron-Bordered Cobblestone,鉄枠付き丸石
+tile.hammercore:gold_bordered_cobblestone.name,Gold-Bordered Cobblestone,金枠付き丸石
 tile.hammercore:diamond_bordered_cobblestone.name,Diamond-Bordered Cobblestone,ダイヤモンド縁の丸石
 tile.hammercore:emerald_bordered_cobblestone.name,Emerald-Bordered Cobblestone,エメラルド縁の丸石
 tile.hammercore:quartz_bordered_cobblestone.name,Quartz-Bordered Cobblestone,クォーツ縁取り丸石
-definition.hammercore:fe.short,FE,FE
+definition.hammercore:fe.short,FE,
 definition.hammercore:fe.long,Forge Energy,フォージエネルギー
-definition.hammercore:bt.short,BT,BT
+definition.hammercore:bt.short,BT,
 definition.hammercore:bt.long,Burn Ticks,焼却ターン
 gui.hammercore.notfuel,Not Fuel!,燃料ではありません！
 gui.hammercore.generation,Generation,生成
@@ -35,8 +35,8 @@ battery.hammercore:mode.hotbar,Hotbar,ホットバー
 battery.hammercore:mode.armor,Armor,防具
 battery.hammercore:mode.armor_hotbar,Armor & Hotbar,防具＆ホットバー
 battery.hammercore:mode.inventory,Inventory,インベントリ
-capability.fe.name,FE,FE
-capability.ej.name,EJ,EJ
+capability.fe.name,FE,
+capability.ej.name,EJ,
 capability.fluid.name,Fluid,流体
 capability.items.name,Items,アイテム
 chat.hammercore:newversion,New version for mod %s detected: %s.,モジュール %s に新しいバージョンが検出されました: %s。
@@ -96,3 +96,5 @@ gamerules.hc_unknown,This gamerule is not registered!,このゲームルール�
 gamerules.hc_rainfall,Set to false to disable rainfall.,雨を無効にするにはfalseに設定します。
 gamerules.hc_falldamagemult,Fall damage multiplier for all entities.,すべてのエンティティに対する落下ダメージ倍率。
 gamerules.hc_flightspeed,Flight speed multiplier for all players.,すべてのプレイヤーに対する飛行速度倍率。
+hc.manual_desc.hammercore,"HammerCore provides a very large set of APIs to use, some notable features are: ChunkLoad-API, Tooltip API (makes tiles show their progress / tooltip to both WAILA and The One Probe), Network API (for sending packets stored in NBTTagCompound), Multipart API, Cool Visual Effects and lots of others.",
+hc.manual_desc.wrench,HammerCore adds WrenchAPI to make Zeitheron's mods independent of Buildcraft Wrench API. This item is a simple wrench that applies on tiles that respond to this API.,

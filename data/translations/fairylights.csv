@@ -22,20 +22,20 @@ block.fairylights.star_light,Star Light,星形ライト
 block.fairylights.witch_light,Witch Light,魔女ライト
 color.fairylights.black,Black,黒
 color.fairylights.blue,Blue,青
-color.fairylights.brown,Brown,茶色
-color.fairylights.cyan,Cyan,シアン
-color.fairylights.gray,Gray,グレー
+color.fairylights.brown,Brown,茶
+color.fairylights.cyan,Cyan,青緑
+color.fairylights.gray,Gray,灰色
 color.fairylights.green,Green,緑
 color.fairylights.light_blue,Light Blue,空色
 color.fairylights.light_gray,Light Gray,薄灰色
-color.fairylights.lime,Lime,ライム
-color.fairylights.magenta,Magenta,マゼンタ
-color.fairylights.orange,Orange,オレンジ
-color.fairylights.pink,Pink,ピンク
+color.fairylights.lime,Lime,黄緑
+color.fairylights.magenta,Magenta,赤紫
+color.fairylights.orange,Orange,橙
+color.fairylights.pink,Pink,桃色
 color.fairylights.purple,Purple,紫
 color.fairylights.red,Red,赤
 color.fairylights.white,White,白
-color.fairylights.yellow,Yellow,黄色
+color.fairylights.yellow,Yellow,黄
 commands.jingler.close.failure,No devices to close,閉じるデバイスはありません
 commands.jingler.close.success.multiple,Successfully closed %1$s connections,%1$s 接続を正常に閉じました
 commands.jingler.close.success.single,Successfully closed %1$s connection,成功裏に%1$s接続を閉じた
@@ -49,7 +49,7 @@ fairylights.config,Fairy Lights Configuration,妖精ライト設定
 fairylights.editLetteredConnection,Set Bunting Text,吊り下げる文字を入力
 fairylights.editLetteredConnection.allowed_characters,Allowed characters: %1$s,使用可能な文字: %1$s
 format.fairylights.color_changing,Color Changing %1$s,色が変化する%1$s
-format.fairylights.colored,%1$s %2$s,%1$s %2$s
+format.fairylights.colored,%1$s %2$s,
 format.fairylights.dyed_colored,Dyed %1$s,染色済みの%1$s
 format.fairylights.text,Text: %1$s,文字: %1$s
 item.fairyLights.twinkle,Twinkles,きらめき
@@ -66,11 +66,11 @@ item.fairylights.triangle_pennant,Triangle Pennant,三角形のペナント
 item.fairylights.white_string,White String,白い紐
 itemGroup.fairylights,Fairy Lights,フェアリーライト
 recipe.fairylights.hangingLights.light,Add multiple lights to customize pattern,複数のライトを追加してパターンをカスタマイズ
-recipe.fairylights.hangingLights.string,Add white dye to create white string,白色の染料を加えて紐を白くする
+recipe.fairylights.hangingLights.string,Add white dye to create white string,白い染料を加えて紐を白くする
 recipe.fairylights.ingredient.auxiliary.optional,(Optional),(オプション)
 recipe.fairylights.pennantBunting.pennant,Add multiple pennants to customize pattern,複数のペナントを加えてパターンをカスタマイズ
 recipe.fairylights.twinkling_lights.glowstone,Causes lights to twinkle,照明がきらめくようになる
-recipe.ingredient.tooltip,§7%s,§7%s
+recipe.ingredient.tooltip,§7%s,
 subtitles.block.fairylights.cord.connect,Cord connects,コードを接続する
 subtitles.block.fairylights.cord.disconnect,Cord disconnects,コードを接続解除する
 subtitles.block.fairylights.cord.snap,Cord snaps,コードをスナップする
@@ -86,3 +86,4 @@ tag.item.fairylights.pennants,Pennants,旗
 tag.item.fairylights.twinkling_lights,Twinkling Lights,きらめくライト
 tutorial.fairylights.craft_hanging_lights.description,The recipe book can help,レシピブックが助けになります
 tutorial.fairylights.craft_hanging_lights.title,Craft hanging lights,吊り下げライトを作る
+commands.jingler.device.description,Description: %1$s,

@@ -13,8 +13,8 @@ block.botanicalextramachinery.base_industrial_agglomeration_factory,Basic Indust
 block.botanicalextramachinery.base_mana_pool,Base Mana Pool,基本マナプール
 block.botanicalextramachinery.base_orechid,Basic Orechid,メカキド・基本
 block.botanicalextramachinery.base_runic_altar,Base Runic Altar,基本の祭壇
-block.botanicalextramachinery.crimson_dragonstone_block,Crimson Dragonstone Block,クリムゾンドラゴンストーンブロック
-block.botanicalextramachinery.crimson_ingot_block,Crimson Block,クリムゾンブロック
+block.botanicalextramachinery.crimson_dragonstone_block,Crimson Dragonstone Block,真紅ドラゴンストーンブロック
+block.botanicalextramachinery.crimson_ingot_block,Crimson Block,真紅ブロック
 block.botanicalextramachinery.crystal_dragonstone_block,Crystal Dragonstone Block,クリスタルドラゴンストーンブロック
 block.botanicalextramachinery.crystal_ingot_block,Crystal Block,クリスタルブロック
 block.botanicalextramachinery.greenhouse,Greenhouse,グリーンハウス
@@ -71,14 +71,14 @@ botanicalextramachinery.tooltip.item.upgrade_speed_2,§6Only for §cindustrial a
 botanicalextramachinery.tooltip.item.water,§6Generates infinite water,§6水を無限に生成する
 botanicalextramachinery.tooltip.item.wood,§6Generates infinite wood,§6原木を無限に生成する
 botanicalextramachinery.tooltip.screen.catalyst_slot,Slot for catalysts,カタリスト
-botanicalextramachinery.tooltip.screen.energy,%1$s / %2$s RF,%1$s / %2$s RF
+botanicalextramachinery.tooltip.screen.energy,%1$s / %2$s RF,
 botanicalextramachinery.tooltip.screen.heat,%1$s / %2$s Heat,%1$s / %2$s 熱量
 botanicalextramachinery.tooltip.screen.livingrock_slot,Slot for livingrock,リビングロック
 botanicalextramachinery.tooltip.screen.mana,%1$s / %2$s Mana,%1$s / %2$s マナ
 botanicalextramachinery.tooltip.screen.ore_slot,Slot for ores (Filter),鉱石(フィルタ)
 botanicalextramachinery.tooltip.screen.seed_slot,Slot for seeds,種
 botanicalextramachinery.tooltip.screen.upgrade_slot,Slot for upgrades,アップグレード
-botanicalextramachinery.tooltip.screen.water,%1$s / %2$s,%1$s / %2$s
+botanicalextramachinery.tooltip.screen.water,%1$s / %2$s,
 item.botanicalextramachinery.base_spark,Base Spark,ベーススパーク
 item.botanicalextramachinery.catalyst_living_rock_infinity,Infinity LivingRock Catalyst,リビングロックの無限供給カタリスト
 item.botanicalextramachinery.catalyst_mana_infinity,Infinity Mana Catalyst,マナの無限供給カタリスト
@@ -95,9 +95,9 @@ item.botanicalextramachinery.cell_component_1m,1M ME Cell Component,1M MEマナ�
 item.botanicalextramachinery.cell_component_256m,256M ME Cell Component,256M MEマナセルコンポーネント
 item.botanicalextramachinery.cell_component_4m,4M ME Cell Component,4M MEマナセルコンポーネント
 item.botanicalextramachinery.cell_component_64m,64M ME Cell Component,64M MEマナセルコンポーネント
-item.botanicalextramachinery.crimson_dragonstone,Crimson Dragonstone,クリムゾンドラゴンストーン
-item.botanicalextramachinery.crimson_ingot,Crimson ingot,クリムゾンインゴット
-item.botanicalextramachinery.crimson_spark,Crimson Spark,クリムゾンスパーク
+item.botanicalextramachinery.crimson_dragonstone,Crimson Dragonstone,真紅ドラゴンストーン
+item.botanicalextramachinery.crimson_ingot,Crimson ingot,真紅インゴット
+item.botanicalextramachinery.crimson_spark,Crimson Spark,真紅スパーク
 item.botanicalextramachinery.crystal_dragonstone,Crystal Dragonstone,クリスタルドラゴンストーン
 item.botanicalextramachinery.crystal_ingot,Crystal ingot,クリスタルインゴット
 item.botanicalextramachinery.malachite_dragonstone,Malachite Dragonstone,マラカイトドラゴンストーン
@@ -143,7 +143,7 @@ lexicon.botanicalextramachinery.suitable_flowers.page_1,"The greenhouse does not
 lexicon.botanicalextramachinery.suitable_flowers.page_2,"Rosa Arcana - consumes experience bubbles. But mana is given randomly from how much experience was received from 1 bubble (Normal values of experience drop when breaking a bubble)$(p)Narslimmus - Instead of slimes (mobs), it consumes slime ball or slime block$(p)Wither Aconite - available if the MythicBotany mod is installed$(p)",ローズアルカナ - エンチャントの瓶を消費します。ただし、1瓶から得られる経験値量に応じてマナの生成量が変動します。$(p)ナースライムス - モブのスライムではなくスライムボールかスライムブロックを消費します$(p)ウィザートリカブト - MythicBotanyが導入時のみ有効です$(p)
 lexicon.botanicalextramachinery.tiers,Tiers,ティア
 lexicon.botanicalextramachinery.tiers.page_1,"This mod adds new tiers of mechanisms for Botanical Machinery. There are 4 tiers in total and each one differs from each other in the available upgrades, the number of slots, and the number of crafts at a time.$(p)",このMODではBotanical Machineryの装置に新たなティアを追加します。合計4つのティアがあり、それぞれ適用可能なアップグレード・スロット・ クラフトにかかる時間などが異なります。$(p)
-lexicon.botanicalextramachinery.tiers.page_2,"Tiers are divided into the following types: $(li)$(#32c962)Malachite$(0) $(li)$(#fbb954)Saffron$(0) $(li)$(#fbb954)Shadow$(0) $(li)$(#d4002e)Crimson$(0) $(p)And one more type, which does not belong as a division - Crystal tier",ティアは次の種類に分類されます：$(li)$(#32c962)マラカイト$(0)、$(li)$(#fbb954)サフラン$(0)、$(li)$(#fbb954)シャドウ$(0)、$(li)$(#d4002e)クリムゾン$(0)、$(p)もう1種類独立してクリスタルがあります。
+lexicon.botanicalextramachinery.tiers.page_2,"Tiers are divided into the following types: $(li)$(#32c962)Malachite$(0) $(li)$(#fbb954)Saffron$(0) $(li)$(#fbb954)Shadow$(0) $(li)$(#d4002e)Crimson$(0) $(p)And one more type, which does not belong as a division - Crystal tier",ティアは次の種類に分類されます：$(li)$(#32c962)マラカイト$(0)、$(li)$(#fbb954)サフラン$(0)、$(li)$(#fbb954)シャドウ$(0)、$(li)$(#d4002e)真紅$(0)、$(p)もう1種類独立してクリスタルがあります。
 lexicon.botanicalextramachinery.title,Extra Botanical Machinery,追加の植物機械
 lexicon.botanicalextramachinery.upgrades,Upgrades,アップグレード
 lexicon.botanicalextramachinery.upgrades.cost_energy,Upgraded cost energy,省電力

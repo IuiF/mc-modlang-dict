@@ -270,7 +270,7 @@ modonomicon.gui.search.entry_list_title,Entries,エントリー
 modonomicon.gui.search.info,"To search for entries, simply start typing what you are looking for.
 ",エントリーを検索するには、探しているものを入力し始めてください。
 modonomicon.gui.search.no_results,No Results,結果なし
-modonomicon.gui.search.sad,:(,:(
+modonomicon.gui.search.sad,:(,
 modonomicon.gui.search.screen.title,Search in Book,本を検索
 modonomicon.multiblock.complete,Complete!,完了！
 modonomicon.multiblock.not_anchored,Right-Click a Block to anchor the Structure.,ブロックを右クリックして構造をアンカーしてください。
@@ -286,8 +286,8 @@ Hint: Mark all entries as read with the ""eye"" button at the top right.","読�
 tooltip.modonomicon.condition.entry_unlocked,Requires unlocked Entry: %s,アンロック済みエントリが必要：%s
 tooltip.modonomicon.condition.has_visible_entries,Requires that category %s has visible entries,%s カテゴリに可視エントリーが必要です。
 tooltip.modonomicon.condition.mod_loaded,Requires loaded mod: %s,読み込まれたmodが必要：%s
-tooltip.modonomicon.fluid.amount,%s mb,%s mb
-tooltip.modonomicon.fluid.amount_and_capacity,%s / %s mb,%s / %s mb
+tooltip.modonomicon.fluid.amount,%s mb,
+tooltip.modonomicon.fluid.amount_and_capacity,%s / %s mb,
 tooltip.modonomicon.no_book_found_for_stack,No book found for this item in the modonomicon book database! Nbt: %s,modonomicon 本データベースでこのアイテムの本が見つかりません！Nbt：%s
 tooltip.modonomicon.recipe.crafting_shapeless,Shapeless,形状なし
 advancements.modonomicon.root.description,The book of all books!,すべての本の本！
@@ -357,11 +357,11 @@ book.modonomicon.demo.features.custom_icon.intro.text,This entry has a custom te
 book.modonomicon.demo.features.multiblock.preview2.text,A multiblock with tag!,タグ付きのマルチブロック！
 book.modonomicon.demo.formatting.link.invalidLink.text,[It has an invalid Link](entry://a_cat/an_entry),[無効なリンク](entry://a_cat/an_entry)
 book.modonomicon.demo.other.a.description,Used for testing some condition stuff.,条件テスト用に使用されます。
-book.modonomicon.demo.other.a.intro.text,A,A
+book.modonomicon.demo.other.a.intro.text,A,
 book.modonomicon.demo.other.a.intro.title,Entry A,入力A
 book.modonomicon.demo.other.a.name,A Entry,入力B
 book.modonomicon.demo.other.b.description,Used for testing some condition stuff.,条件テスト用に使用されます。
-book.modonomicon.demo.other.b.intro.text,B,B
+book.modonomicon.demo.other.b.intro.text,B,
 book.modonomicon.demo.other.b.intro.title,Entry B,入力C
 book.modonomicon.demo.other.b.name,B Entry,入力D
 book.modonomicon.demo.other.name,Other,その他
@@ -376,3 +376,11 @@ Hint: Mark all entries as read with the ""eye"" button at the top right.","読�
 ヒント：右上の「目」ボタンですべてのエントリをマークできます。"
 tooltip.modonomicon..condition.has_visible_entries,Requires that category %s has visible entries,%s カテゴリに可視エントリーが必要です。
 tooltip.modonomicon..condition.mod_loaded,Requires loaded mod: %s,読み込まれたmodが必要：%s
+book.modonomicon.demo.formatting.advanced.page4.text,"This page features a very long text that will be scaled down to fit the page size.
+[It has a Link](entry://features/multiblock) to check if click detection works on scaled texts. It has [another Link](entry://formatting/basic) for the same reason.
+Finally it has a [third link](entry://formatting/always_locked) because why not. From now on we just add some text with no particular function except to make the page longer.
+Not extremely useful for the reader, but necessary for the poor Kli-Kli testing this.
+",
+advancements.modonomicon.root.title,Modonomicon,
+book.modonomicon.demo.features.spotlight.spotlight1.text,A sample spotlight page with custom title.,
+modonomicon.test.sections.test_category.test_entry.page1.title,*[#](55FF55)Colorful Italics*[#](),

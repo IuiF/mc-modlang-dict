@@ -1,8 +1,8 @@
 ﻿key,source_text,target_text
 ali.description.chance,Chance: %s%s,確率: %s%s
-ali.description.chance_bonus,%s (%s %s),%s (%s %s)
+ali.description.chance_bonus,%s (%s %s),
 ali.description.count,Count: %s,数量: %s
-ali.description.count_bonus,%s (%s %s),%s (%s %s)
+ali.description.count_bonus,%s (%s %s),
 ali.description.quality,Quality: %s,品質: %s
 ali.description.rolls,Rolls: %s%s,ロール: %s%s
 ali.enum.group_type.all,Selects all entries,すべての項目を選択
@@ -157,10 +157,10 @@ ali.property.value.default_mining_speed,Default Mining Speed: %s,デフォルト
 ali.property.value.description,Description: %s,説明: %s
 ali.property.value.destination,Destination: %s,宛先: %s
 ali.property.value.detail_not_available,Detail Not Available,詳細情報なし
-ali.property.value.dimension,Dimension: %s,次元: %s
+ali.property.value.dimension,Dimension: %s,ディメンション: %s
 ali.property.value.done,Done: %s,完了: %s
 ali.property.value.durability,Durability: %s,耐久値: %s
-ali.property.value.duration,Duration: %s,期間: %s
+ali.property.value.duration,Duration: %s,継続時間：%s
 ali.property.value.eat_seconds,Eat Seconds: %s,食べタイム: %s
 ali.property.value.effect,Effect: %s,効果: %s
 ali.property.value.enchantment,Enchantment: %s,エンチャント: %s
@@ -183,9 +183,9 @@ ali.property.value.has_trail,Has Trail: %s,トレール有: %s
 ali.property.value.has_twinkle,Has Twinkle: %s,キラキラ効果: %s
 ali.property.value.hidden_effect,Hidden Effect: %s,隠された効果: %s
 ali.property.value.horizontal,Horizontal: %s,水平方向: %s
-ali.property.value.horizontal_speed,Horizontal Speed: %s,水平速度: %s
+ali.property.value.horizontal_speed,Horizontal Speed: %s,水平速度:%s
 ali.property.value.hotbar,Hotbar: %s,ホットバー: %s
-ali.property.value.id,Id: %s,Id: %s
+ali.property.value.id,Id: %s,
 ali.property.value.in_open_water,Is In Open Water: %s,オープンウォーターにいますか: %s
 ali.property.value.is_ambient,Is Ambient: %s,環境音: %s
 ali.property.value.is_baby,Is Baby: %s,赤ちゃんですか：%s
@@ -209,18 +209,18 @@ ali.property.value.levels,Levels: %s,レベル: %s
 ali.property.value.light,Light: %s,光: %s
 ali.property.value.limit,Limit: %s,上限: %s
 ali.property.value.list_operation,List Operation: %s,リスト操作: %s
-ali.property.value.loot_table,Loot Table: %s,ロットテーブル: %s
+ali.property.value.loot_table,Loot Table: %s,リソーステーブル: %s
 ali.property.value.map_decoration,Map Decoration: %s,地図装飾: %s
 ali.property.value.material,Material: %s,材料: %s
 ali.property.value.max,Max: %s,最大: %s
 ali.property.value.merge_strategy,Merge Strategy: %s,マージ戦略: %s
 ali.property.value.min,Min: %s,最小: %s
 ali.property.value.min_ticks_in_hive,Min Ticks In Hive: %s,蜂の巣内の最小ターン数: %s
-ali.property.value.mod,Mod: %s,Mod: %s
+ali.property.value.mod,Mod: %s,
 ali.property.value.multiplier,Multiplier: %s,倍率: %s
 ali.property.value.name,Name: %s,名前: %s
-ali.property.value.nbt,Nbt: %s,Nbt: %s
-ali.property.value.null,%s,%s
+ali.property.value.nbt,Nbt: %s,
+ali.property.value.null,%s,
 ali.property.value.nutrition,Nutrition: %s,栄養: %s
 ali.property.value.offset,Offset: %s,オフセット: %s
 ali.property.value.only_compatible,Only Compatible: %s,互換性のみ: %s
@@ -238,18 +238,18 @@ ali.property.value.property,Property: %s,プロパティ: %s
 ali.property.value.provider,Provider: %s,提供者: %s
 ali.property.value.range,Range: %s,範囲: %s
 ali.property.value.ranged_property_any,%s: any,%s: 任意
-ali.property.value.ranged_property_both,%s: %s-%s,%s: %s-%s
-ali.property.value.ranged_property_gte,%s: ≥%s,%s: ≥%s
-ali.property.value.ranged_property_lte,%s: ≤%s,%s: ≤%s
+ali.property.value.ranged_property_both,%s: %s-%s,
+ali.property.value.ranged_property_gte,%s: ≥%s,
+ali.property.value.ranged_property_lte,%s: ≤%s,
 ali.property.value.rarity,Rarity: %s,稀少度: %s
 ali.property.value.raw,Raw: %s,原始: %s
 ali.property.value.replace,Replace: %s,置換: %s
 ali.property.value.resolution_context,Resolution Context: %s,解像度コンテキスト: %s
 ali.property.value.resolved,Resolved: %s,解決: %s
-ali.property.value.rgb,RGB: %s,RGB: %s
+ali.property.value.rgb,RGB: %s,
 ali.property.value.right,Right: %s,右側: %s
 ali.property.value.rotation,Rotation: %s,回転: %s
-ali.property.value.saturation,Saturation: %s,飽和度: %s
+ali.property.value.saturation,Saturation: %s,満腹度：%s
 ali.property.value.search_radius,Search Radius: %s,検索半径: %s
 ali.property.value.seed,Seed: %s,種: %s
 ali.property.value.shape,Shape: %s,形状: %s
@@ -278,16 +278,16 @@ ali.property.value.twinkle,Twinkle: %s,きらめき: %s
 ali.property.value.type,Type: %s,タイプ: %s
 ali.property.value.unenchanted_chance,Unenchanted Chance: %s,未エンチャント確率: %s
 ali.property.value.uses,Uses: %s,使用回数: %s
-ali.property.value.uuid,UUID: %s,UUID: %s
+ali.property.value.uuid,UUID: %s,
 ali.property.value.value,Value: %s,価値: %s
 ali.property.value.values,Values: %s,値: %s
 ali.property.value.variant,Variant: %s,バリエーション: %s
 ali.property.value.vertical_speed,Vertical Speed: %s,垂直速度:%s
 ali.property.value.villager_type,Villager Type: %s,村人タイプ: %s
 ali.property.value.villager_xp,XP: %s,経験値: %s
-ali.property.value.x,X: %s,X: %s
-ali.property.value.y,Y: %s,Y: %s
-ali.property.value.z,Z: %s,Z: %s
+ali.property.value.x,X: %s,
+ali.property.value.y,Y: %s,
+ali.property.value.z,Z: %s,
 ali.property.value.zoom,Zoom: %s,ズーム: %s
 ali.type.condition.all_of,All Of:,すべての:
 ali.type.condition.any_of,Any of:,いずれか:
@@ -424,15 +424,15 @@ ali.util.advanced_loot_info.any,ANY,任意
 ali.util.advanced_loot_info.auto_detected,Auto-detected: %s,自動検出: %s
 ali.util.advanced_loot_info.delimiter.conditions,----- Predicates -----,----- 述語 -----
 ali.util.advanced_loot_info.delimiter.functions,----- Modifiers -----,----- 修飾子 -----
-ali.util.advanced_loot_info.key_value,%s: %s,%s: %s
+ali.util.advanced_loot_info.key_value,%s: %s,
 ali.util.advanced_loot_info.missing,Not implemented: %s,未実装: %s
 ali.util.advanced_loot_info.pad.1,"  ->",->
 ali.util.advanced_loot_info.pad.10,"                    ->",->
-ali.util.advanced_loot_info.pad.11,"                      ->","                      ->"
-ali.util.advanced_loot_info.pad.12,"                        ->","                        ->"
+ali.util.advanced_loot_info.pad.11,"                      ->",
+ali.util.advanced_loot_info.pad.12,"                        ->",
 ali.util.advanced_loot_info.pad.13,"                          ->",->
 ali.util.advanced_loot_info.pad.14,"                            ->",->
-ali.util.advanced_loot_info.pad.15,"                              ->","                              ->"
+ali.util.advanced_loot_info.pad.15,"                              ->",
 ali.util.advanced_loot_info.pad.16,"                                ->",->
 ali.util.advanced_loot_info.pad.17,"                                  ->",->
 ali.util.advanced_loot_info.pad.18,"                                    ->",->
@@ -444,14 +444,14 @@ ali.util.advanced_loot_info.pad.4,"        ->",->
 ali.util.advanced_loot_info.pad.5,"          ->",->
 ali.util.advanced_loot_info.pad.6,"            ->",->
 ali.util.advanced_loot_info.pad.7,"              ->",->
-ali.util.advanced_loot_info.pad.8,"                ->","                ->"
-ali.util.advanced_loot_info.pad.9,"                  ->","                  ->"
+ali.util.advanced_loot_info.pad.8,"                ->",
+ali.util.advanced_loot_info.pad.9,"                  ->",
 ali.util.advanced_loot_info.removed,REMOVED,削除された
-ali.util.advanced_loot_info.two_values,%s%s,%s%s
-ali.util.advanced_loot_info.two_values_with_space,%s %s,%s %s
+ali.util.advanced_loot_info.two_values,%s%s,
+ali.util.advanced_loot_info.two_values_with_space,%s %s,
 ali/loot_table/archaeology/desert_pyramid,Desert Pyramid,砂漠のピラミッド
 ali/loot_table/archaeology/desert_well,Desert Well,砂漠の井戸
-ali/loot_table/archaeology/ocean_ruin_cold,Ocean Ruin Cold,寒い海の廃墟
+ali/loot_table/archaeology/ocean_ruin_cold,Ocean Ruin Cold,オーシャン遺跡コールド
 ali/loot_table/archaeology/ocean_ruin_warm,Ocean Ruins Warm,暖かい海底の廃墟
 ali/loot_table/archaeology/trail_ruins_common,Trail Ruins Common,トレイル遺跡（普通)
 ali/loot_table/archaeology/trail_ruins_rare,Trail Ruins Rare,トレイル遺跡（レア)
@@ -459,26 +459,26 @@ ali/loot_table/chests/abandoned_mineshaft,Abandoned Mineshaft Chest,放棄され
 ali/loot_table/chests/ancient_city,Ancient City Chest,古代都市のチェスト
 ali/loot_table/chests/ancient_city_ice_box,Ancient City Ice Box Chest,古代都市氷箱チェスト
 ali/loot_table/chests/bastion_bridge,Bastion Bridge Chest,バスティオン橋のチェスト
-ali/loot_table/chests/bastion_hoglin_stable,Bastion Hoglin Stable Chest,バスティオン・ホグリン・ステーブルチェスト
+ali/loot_table/chests/bastion_hoglin_stable,Bastion Hoglin Stable Chest,バスティオン・ホグリン厩舎チェスト
 ali/loot_table/chests/bastion_other,Bastion Other Chest,バスティオン別のチェスト
 ali/loot_table/chests/bastion_treasure,Bastion Treasure Chest,バスティオンの宝箱
 ali/loot_table/chests/buried_treasure,Buried Treasure Chest,埋蔵された宝箱
 ali/loot_table/chests/desert_pyramid,Desert Pyramid Chest,砂漠ピラミッドのチェスト
 ali/loot_table/chests/end_city_treasure,End City Treasure Chest,エンドシティの宝箱
-ali/loot_table/chests/igloo_chest,Igloo Chest,イグルーのチェスト
+ali/loot_table/chests/igloo_chest,Igloo Chest,アイグリーチェスト
 ali/loot_table/chests/jungle_temple,Jungle Temple Chest,ジャングル寺院のチェスト
 ali/loot_table/chests/jungle_temple_dispenser,Jungle Temple Dispenser Chest,ジャングル寺院のディスペンサーチェスト
 ali/loot_table/chests/nether_bridge,Nether Bridge Chest,ネザー橋のチェスト
 ali/loot_table/chests/pillager_outpost,Pillager Outpost Chest,襲撃者の前哨基地のチェスト
-ali/loot_table/chests/ruined_portal,Ruined Portal Chest,崩壊したポータルチェスト
+ali/loot_table/chests/ruined_portal,Ruined Portal Chest,荒廃したポータルチェスト
 ali/loot_table/chests/shipwreck_map,Shipwreck Map Chest,沈没船マップチェスト
 ali/loot_table/chests/shipwreck_supply,Shipwreck Supply Chest,沈没船の補給用チェスト
 ali/loot_table/chests/shipwreck_treasure,Shipwreck Treasure Chest,沈没船の宝箱
 ali/loot_table/chests/simple_dungeon,Simple Dungeon Chest,簡易ダンジョンチェスト
-ali/loot_table/chests/spawn_bonus_chest,Spawn Bonus Chest,スポーンボーナスチェスト
+ali/loot_table/chests/spawn_bonus_chest,Spawn Bonus Chest,スパウンドボーナスチェスト
 ali/loot_table/chests/stronghold_corridor,Stronghold Corridor Chest,要塞廊下のチェスト
 ali/loot_table/chests/stronghold_crossing,Stronghold Crossing Chest,ストロングホールド横断チェスト
-ali/loot_table/chests/stronghold_library,Stronghold Library Chest,ストロングホールド図書室のチェスト
+ali/loot_table/chests/stronghold_library,Stronghold Library Chest,要塞図書館のチェスト
 ali/loot_table/chests/trial_chambers/corridor,Corridor Chest,廊下チェスト
 ali/loot_table/chests/trial_chambers/entrance,Entrance Chest,入口チェスト
 ali/loot_table/chests/trial_chambers/intersection,Intersection Chest,交差チェスト
@@ -547,11 +547,12 @@ ali/loot_table/spawners/trial_chamber/items_to_drop_when_ominous,Items To Drop W
 ali/loot_table/spawners/trial_chamber/key,Key Spawners,キー スポナーズ
 emi.category.ali.archaeology_loot,Archaeology Loot,考古学の宝箱
 emi.category.ali.block_loot,Block Drops,ブロックのドロップ
-emi.category.ali.chest_loot,Chest Loot,チェストの戦利品
+emi.category.ali.chest_loot,Chest Loot,チェストの Loot
 emi.category.ali.entity_loot,Entity Drops,エンティティドロップ
 emi.category.ali.fishing_loot,Fishing Loot,釣りの戦利品
-emi.category.ali.gameplay_loot,Gameplay Loot,ゲームプレイ戦利品
+emi.category.ali.gameplay_loot,Gameplay Loot,ゲームプレイ Loot
 emi.category.ali.hero_loot,Hero of the Village Loot,村人英雄の戦利品
 emi.category.ali.plant_loot,Plant Drops,植物のドロップ
 emi.category.ali.trade_loot,Trading Loot,交換戦利品
 emi.category.ali.trial_chambers,Trial Chambers,試験室
+ali.property.branch.lore,Lore:,

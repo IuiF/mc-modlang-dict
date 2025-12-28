@@ -163,3 +163,21 @@ modernfix.option.on,on,オン
 modernfix.perf_mod_warning,"It is recommended to install the mods, but the warning(s) can be disabled in the ModernFix config.",Modをインストールすることをお勧めしますが、警告はモダンなFixの設定で無効にできます。
 modernfix.redirector_installed,"ModernFix detected that Redirector is installed. Redirector is known to cause many strange and hard-to-debug issues, and removing it is strongly recommended.",モダンなFixはRedirectorがインストールされていることを検出しました。Redirectorは多くの奇妙でデバッグが困難な問題を引き起こすことが知られており、削除することを強くお勧めします。
 modernfix.option.mixin.feature.disable_unihex_font,"Remove the Unicode font, saves 10MB but causes special characters to no longer render","Unicodeフォントを削除すると,10MB節約できますが、特殊文字がレンダリングされなくなります."
+modernfix.option.mixin.bugfix.chunk_deadlock.valhesia,Patches Valhesia Structures to fix an issue in its code that causes frequent worldgen/chunkloading deadlocks.,
+modernfix.option.mixin.bugfix.mantle_model_cme,Fixes a bug in Mantle that can cause random ConcurrentModificationException crashes when rendering Tinkers Construct content.,
+modernfix.option.mixin.bugfix.model_data_manager_cme,Works around design flaws in the Forge ModelDataManager system that can cause unexpected concurrency issues.,
+modernfix.option.mixin.bugfix.refinedstorage.te_bug,"Fixes Refined Storage external storage blocks occasionally failing to show contents of drawers, etc. when loaded. Backport of Refined Storage PR #3435, which was only applied to 1.18 and later.",
+modernfix.option.mixin.bugfix.tf_cme_on_load,"Patches Twilight Forest to perform non-thread-safe client setup using the main thread as it should, rather than the FML worker thread.",
+modernfix.option.mixin.feature.integrated_server_watchdog,"Adds the vanilla watchdog to singleplayer worlds as well, but just prints out the stacktraces rather than forcefully terminating the world. This version includes the functionality of Fullstack Watchdog, but the latter is still needed for multiplayer.",
+modernfix.option.mixin.feature.remove_chat_signing,"Prevents the Minecraft client from obtaining the keypair for chat signing. This disables the client's ability to sign chat messages (like No Chat Reports, but in a simpler, albeit less user-friendly way).",
+modernfix.option.mixin.perf.async_locator,"1.16 only. Backports the Async Locator mod's patches to eliminate server freezes associated with `/locate`, loot table generation, etc.",
+modernfix.option.mixin.perf.kubejs,"1.16 only. Optimizations to KubeJS to avoid needless `ItemStack` copying, etc., which reduces the time taken to load datapacks.",
+modernfix.option.mixin.perf.skip_first_datapack_reload,"1.16 & 1.19 only. **A key optimization.**
+
+In the middle of the 1.16 development cycle, Forge patched the game to reload datapacks twice when loading an existing world, in order to fix an issue with biome ID shifting. Unfortunately, datapack reloads often take upwards of 30 seconds and so this very severely affects world loading times.
+
+ModernFix makes the necessary changes to avoid this reload, based on the unfinished Forge PR #8163.
+
+This change was removed by Forge in 1.18, but then a similar patch was added *again* in 1.19 to fix mod datapacks not being loaded when creating new singleplayer worlds. Fortunately, the issue is localized to the world creation screen in 1.19, and existing worlds only require a single reload. However, this still doubles the length of the lag spike when clicking ""Create New World"" in 1.19, and so ModernFix again makes changes to not perform a redundant reload.",
+modernfix.option.mixin.perf.state_definition_construct,"All versions. Enabled only if FerriteCore is installed. Takes advantage of FerriteCore's handling of blockstates to speed up their creation. This can help speed up launch with mods that add lots of blockstates, such as furniture mods.",
+modernfix.option.mixin.perf.twilightforest.structure_spawn_fix,Fixes lag caused by Twilight Forest worldgen checking structures very inefficiently,

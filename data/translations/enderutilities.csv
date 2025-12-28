@@ -1,6 +1,6 @@
 ﻿key,source_text,target_text
 language.region,US,JP
-language.code,en_US,en_US
+language.code,en_US,
 category.enderutilities,Ender Utilities,エンダーユーティリティ
 enderutilities.key.activate_unselected,Activate Unselected,未選択を有効化
 enderutilities.key.togglemode,Toggle Mode,モード切り替え
@@ -34,7 +34,7 @@ tile.enderutilities.draw_bridge.name,Drawbridge,吊り橋
 tile.enderutilities.draw_bridge_advanced.name,Advanced Drawbridge,高度なドロブリッジ
 tile.enderutilities.ender_elevator.name,Ender Elevator ({COLOR}),エンドエレベーター ({COLOR})
 tile.enderutilities.ender_elevator_layer.name,Ender Elevator Layer ({COLOR}),エンダーエレベーター層 ({COLOR})
-tile.enderutilities.ender_elevator_slab.name,Ender Elevator Slab ({COLOR}),エンドエレベーターのスラブ ({COLOR})
+tile.enderutilities.ender_elevator_slab.name,Ender Elevator Slab ({COLOR}),エンドエレベーターのハーフブロック ({COLOR})
 tile.enderutilities.ender_furnace.name,Ender Furnace,エンダーフューチャー
 tile.enderutilities.ender_infuser.name,Ender Infuser,エンダーアンス
 tile.enderutilities.energy_bridge_transmitter.name,Energy Bridge Transmitter,エネルギー橋送信機
@@ -43,7 +43,7 @@ tile.enderutilities.energy_bridge_resonator.name,Energy Bridge Resonator,エネ�
 tile.enderutilities.inserter_filtered.name,Inserter (Filtered),インサーター（フィルタ付き）
 tile.enderutilities.inserter_normal.name,Inserter,インサート
 tile.enderutilities.floor.name,Floor,床
-tile.enderutilities.floor_cracked.name,Cracked Floor,割れた床
+tile.enderutilities.floor_cracked.name,Cracked Floor,ひび割れた床
 tile.enderutilities.frame.name,Portal Frame,ポータルフレーム
 tile.enderutilities.jsu.name,Junk Storage Unit,ジャンクストレージユニット
 tile.enderutilities.msu_0.name,Massive Storage Unit,大容量ストレージユニット
@@ -350,10 +350,10 @@ enderutilities.gui.label.useoredictionary.disabled,Use Ore Dictionary: disabled,
 enderutilities.gui.label.useoredictionary.enabled,Use Ore Dictionary: enabled,鉱石辞書を使用：有効
 enderutilities.gui.label.whitelist,White list,白リスト
 enderutilities.tooltip.dimension,Dimension,ディメンション
-enderutilities.tooltip.dimension.compact,DIM,DIM
+enderutilities.tooltip.dimension.compact,DIM,
 enderutilities.tooltip.durability,Durability,耐久値
-enderutilities.tooltip.item.1x1,1x1,1x1
-enderutilities.tooltip.item.3x3,3x3,3x3
+enderutilities.tooltip.item.1x1,1x1,
+enderutilities.tooltip.item.3x3,3x3,
 enderutilities.tooltip.item.advanced,Advanced,高度
 enderutilities.tooltip.item.all,All,すべて
 enderutilities.tooltip.item.amount,Amount,数量
@@ -372,7 +372,7 @@ enderutilities.tooltip.item.bucket.mode.fill,Fill bucket,バケツを満たす
 enderutilities.tooltip.item.bucket.mode.drain,Drain bucket,バケツを drain
 enderutilities.tooltip.item.bucket.mode.normal,Normal,通常
 enderutilities.tooltip.item.build.bindmode,Bind mode,結合モード
-enderutilities.tooltip.item.build.chiselsandbits.crossworld,C&B c-w,C&B c-w
+enderutilities.tooltip.item.build.chiselsandbits.crossworld,C&B c-w,
 enderutilities.tooltip.item.build.circle,Circle (INCOMPLETE - doesn't do anything atm),円（未完成 - 現時点では何もしません）
 enderutilities.tooltip.item.build.column,Column,列
 enderutilities.tooltip.item.build.copy,Copy,コピー
@@ -437,7 +437,7 @@ enderutilities.tooltip.item.mirror,Mirror,ミラー
 enderutilities.tooltip.item.mode,Mode,モード
 enderutilities.tooltip.item.morestacksnotlisted,more stacks not listed,リストに記載されていない追加スタック
 enderutilities.tooltip.item.move,Move,移動
-enderutilities.tooltip.item.no,no,no
+enderutilities.tooltip.item.no,no,
 enderutilities.tooltip.item.nodata,No data,データなし
 enderutilities.tooltip.item.nolinkcrystals,No Link Crystals installed,リンククリスタルが装着されていません
 enderutilities.tooltip.item.nomemorycards,No Memory Cards installed,メモリーカードが装着されていません
@@ -447,7 +447,7 @@ enderutilities.tooltip.item.notargetset,No target set,ターゲットが設定�
 enderutilities.tooltip.item.notlinked,Not linked,リンクされていません
 enderutilities.tooltip.item.owner,Owner,所有者
 enderutilities.tooltip.item.pickupmode,Pickup mode,拾い方
-enderutilities.tooltip.item.pickupmode.short,PUM,PUM
+enderutilities.tooltip.item.pickupmode.short,PUM,
 enderutilities.tooltip.item.preset,Preset,プリセット
 enderutilities.tooltip.item.private,Private,プライベート
 enderutilities.tooltip.item.public,Public,公開
@@ -457,17 +457,17 @@ enderutilities.tooltip.item.rendercurrentwithall,Render current with all,現在�
 enderutilities.tooltip.item.renderwhenunselected,Render when unselected,選択されていないときの表示
 enderutilities.tooltip.item.replace,Replace,置換
 enderutilities.tooltip.item.restockmode,Restock mode,再補充モード
-enderutilities.tooltip.item.restockmode.short,RM,RM
+enderutilities.tooltip.item.restockmode.short,RM,
 enderutilities.tooltip.item.rotation,Rotation,回転
 enderutilities.tooltip.item.ruler.difference,Difference,差分
 enderutilities.tooltip.item.ruler.dimensions,Dimensions,ディメンション
 enderutilities.tooltip.item.selected,Selected,選択済み
 enderutilities.tooltip.item.selectedblock,Selected block,選択されたブロック
 enderutilities.tooltip.item.selectedlinkcrystal,Selected Link Crystal:,選択されたリンククリスタル:
-enderutilities.tooltip.item.selectedlinkcrystal.short,LC:,LC:
+enderutilities.tooltip.item.selectedlinkcrystal.short,LC:,
 enderutilities.tooltip.item.selectedmemorycard,Selected Memory Card:,選択されたメモリカード:
 enderutilities.tooltip.item.selectedmemorycard.notinstalled,no card selected,カードが選択されていません
-enderutilities.tooltip.item.selectedmemorycard.short,MC:,MC:
+enderutilities.tooltip.item.selectedmemorycard.short,MC:,
 enderutilities.tooltip.item.selectedtemplate,Selected template,選択されたテンプレート
 enderutilities.tooltip.item.single,Single,単一
 enderutilities.tooltip.item.slots,Slots,スロット
@@ -502,3 +502,4 @@ enderutilities.chat.message.positionoutsideworld,The position or area would be o
 enderutilities.chat.message.private.owned.by,"Set to Private, owned by %s",プライベートに設定し、%s所有
 enderutilities.subtitle.jailer,Jailer module screeks,ジャイルモジュールが鳴る
 enderutilities.subtitle.molecular_exciter,Molecular Exciter Zaps,分子励起ショック
+language.name,English,

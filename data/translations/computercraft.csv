@@ -36,7 +36,7 @@ commands.computercraft.dump.open_path,View this computer's files,このコンピ
 commands.computercraft.dump.synopsis,Display the status of computers.,コンピュータの状態を表示します。
 commands.computercraft.generic.additional_rows,%d additional rows…,%d行を追加…
 commands.computercraft.generic.exception,Unhandled exception (%s),未処理の例外 (%s)
-commands.computercraft.generic.no,N,いいえ
+commands.computercraft.generic.no,N,北
 commands.computercraft.generic.yes,Y,はい
 commands.computercraft.help.desc,Displays this help message,このヘルプメッセージを表示します
 commands.computercraft.help.no_children,%s has no sub-commands,%s にサブコマンドはありません
@@ -109,7 +109,7 @@ fine-tuning servers, and generally shouldn't need to be touched.","コンピュ�
 通常は変更する必要はありません。"
 gui.computercraft.config.floppy_space_limit,Floppy Disk space limit (bytes),フロッピーディスク容量制限 (バイト)
 gui.computercraft.config.floppy_space_limit.tooltip,"The disk space limit for floppy disks, in bytes.",フロッピーディスクのディスク容量制限 (バイト単位)。
-gui.computercraft.config.http,HTTP,HTTP
+gui.computercraft.config.http,HTTP,
 gui.computercraft.config.http.bandwidth,Bandwidth,帯域幅
 gui.computercraft.config.http.bandwidth.global_download,Global download limit,グローバルダウンロード制限
 gui.computercraft.config.http.bandwidth.global_download.tooltip,"The number of bytes which can be downloaded in a second. This is shared across all computers. (bytes/s).
@@ -337,8 +337,8 @@ upgrade.minecraft.diamond_hoe.adjective,Farming,農業
 upgrade.minecraft.diamond_pickaxe.adjective,Mining,採掘
 upgrade.minecraft.diamond_shovel.adjective,Digging,掘る
 upgrade.minecraft.diamond_sword.adjective,Melee,攻撃
-commands.computercraft.generic.no_position,<no pos>,<no pos>
-commands.computercraft.generic.position,"%s, %s, %s","%s, %s, %s"
+commands.computercraft.generic.no_position,<no pos>,
+commands.computercraft.generic.position,"%s, %s, %s",
 commands.computercraft.reload.desc,Reload the ComputerCraft config file,コンピュータークラフトのコンフィグファイルを再読み込みします
 commands.computercraft.reload.done,Reloaded config,コンフィグを再読み込みしました
 commands.computercraft.reload.synopsis,Reload the ComputerCraft config file,コンピュータークラフトのコンフィグファイルを再読み込みします
@@ -382,3 +382,20 @@ upgrade.computercraft:wireless_modem.adjective,Wireless,ワイヤレス
 upgrade.minecraft:crafting_table.adjective,Crafty,クラフト
 gui.computercraft:wired_modem.peripheral_connected,"Peripheral ""%s"" connected to network","周辺の""%s""のネットワークに接続されました"
 gui.computercraft:wired_modem.peripheral_disconnected,"Peripheral ""%s"" disconnected from network","周辺の""%s""のネットワークから切断されました"
+block.computercraft.turtle_advanced,Advanced Turtle,
+commands.computercraft.dump.desc,"Display the status of all computers or specific information about one computer. You can specify the computer's instance id (e.g. 123), computer id (e.g #123) or label (e.g. ""@My Computer"").",
+commands.computercraft.shutdown.desc,"Shutdown the listed computers or all if none are specified. You can specify the computer's instance id (e.g. 123), computer id (e.g #123) or label (e.g. ""@My Computer"").",
+commands.computercraft.turn_on.desc,"Turn on the listed computers. You can specify the computer's instance id (e.g. 123), computer id (e.g #123) or label (e.g. ""@My Computer"").",
+gui.computercraft.config.disabled_generic_methods.tooltip,"A list of generic methods or method sources to disable. Generic methods are
+methods added to a block/block entity when there is no explicit peripheral
+provider. This includes inventory methods (i.e. inventory.getItemDetail,
+inventory.pushItems), and (if on Forge), the fluid_storage and energy_storage
+methods.
+Methods in this list can either be a whole group of methods (computercraft:inventory)
+or a single method (computercraft:inventory#pushItems).
+",
+gui.computercraft.config.http.websocket_enabled.tooltip,"Enable use of http websockets. This requires the ""http_enable"" option to also be true.",
+gui.computercraft.config.term_sizes.computer.height.tooltip,Range: 1 ~ 255,
+gui.computercraft.config.term_sizes.monitor.height.tooltip,Range: 1 ~ 32,
+gui.computercraft.config.term_sizes.pocket_computer.height.tooltip,Range: 1 ~ 255,
+tile.computercraft:advanced_turtle.name,Advanced Turtle,

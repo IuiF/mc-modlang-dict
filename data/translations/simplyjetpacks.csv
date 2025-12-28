@@ -157,10 +157,10 @@ hud.simplyjetpacks.energyDisplayExtra,Energy: %s (%s),エネルギー: %s (%s)
 hud.simplyjetpacks.engine,Engine,エンジン
 hud.simplyjetpacks.hover,Hover,ホバー
 hud.simplyjetpacks.infiniteEnergy,Infinite,無限
-hud.simplyjetpacks.jetpackStates.1,%s,%s
-hud.simplyjetpacks.jetpackStates.2,%s - %s,%s - %s
-hud.simplyjetpacks.jetpackStates.3,%s - %s - %s,%s - %s - %s
-hud.simplyjetpacks.jetpackStates.4,%s - %s - %s - %s,%s - %s - %s - %s
+hud.simplyjetpacks.jetpackStates.1,%s,
+hud.simplyjetpacks.jetpackStates.2,%s - %s,
+hud.simplyjetpacks.jetpackStates.3,%s - %s - %s,
+hud.simplyjetpacks.jetpackStates.4,%s - %s - %s - %s,
 hud.simplyjetpacks.throttle,Throttle: %s%%,スロットル: %s%%
 item.simplyjetpacks.armorplating_ie1,Tough Fabric Padding,強固な布製パッド
 item.simplyjetpacks.armorplating_ie2,Iron Armor Plating,鉄装甲プレーティング
@@ -253,9 +253,9 @@ keybind.simplyjetpacks.jetpack_throttle_increase,Increase Jetpack Throttle,ジ�
 misc.simplyjetpacks.disabled,Disabled,無効
 misc.simplyjetpacks.empty,Empty,空
 misc.simplyjetpacks.enabled,Enabled,有効
-misc.simplyjetpacks.energy,%s FE,%s FE
-misc.simplyjetpacks.energyPerTick,%s FE/t,%s FE/t
-misc.simplyjetpacks.energyWithMax,%s / %s FE,%s / %s FE
+misc.simplyjetpacks.energy,%s FE,
+misc.simplyjetpacks.energyPerTick,%s FE/t,
+misc.simplyjetpacks.energyWithMax,%s / %s FE,
 misc.simplyjetpacks.error,ERROR,エラー
 misc.simplyjetpacks.notAvailable,Not Available,利用不可
 misc.simplyjetpacks.timeInSeconds,Time: %ss,時間: %ss
@@ -279,7 +279,7 @@ tooltip.simplyjetpacks.itemJetpack.particleType,Particles: %s,粒子: %s
 tooltip.simplyjetpacks.itemJetpack.throttle,Throttle: %s,スロットル:%s
 tooltip.simplyjetpacks.jetpack_gui.charger,Toggle Charger,充電器の切り替え
 tooltip.simplyjetpacks.jetpack_gui.emergencyHover,Toggle Emergency Hover,緊急浮遊を切り替え
-tooltip.simplyjetpacks.jetpack_gui.energyStorage,%s/%s FE,%s/%s FE
+tooltip.simplyjetpacks.jetpack_gui.energyStorage,%s/%s FE,
 tooltip.simplyjetpacks.jetpack_gui.engine,Toggle Jetpack Engine,ジェットパックエンジンを切替
 tooltip.simplyjetpacks.jetpack_gui.hover,Toggle Hover,hoverを切り替え
 tooltip.simplyjetpacks.jetpack_potato,A Jetpack made from potatoes.,ジャガイモで作られたジェットパック
@@ -399,7 +399,7 @@ simplyjetpacks.tooltip.no,No,いいえ
 simplyjetpacks.tooltip.energy.none,None,なし
 simplyjetpacks.tooltip.state,State,状態
 simplyjetpacks.tooltip.tier,Tier %d,レベル %d
-simplyjetpacks.tooltip.fuel.infinite.energy,1.21G / 1.21G RF,1.21G / 1.21G RF
+simplyjetpacks.tooltip.fuel.infinite.energy,1.21G / 1.21G RF,
 simplyjetpacks.tooltip.fuel.infinite.fluid,Infinite Fluid,無制限の液体
 simplyjetpacks.tooltip.fuelFluid,Fuel fluid,燃料液体
 simplyjetpacks.tooltip.fuelUsage,Fuel usage,燃料使用量
@@ -628,8 +628,8 @@ tooltip.simplyjetpacks.state,State,状態
 tooltip.simplyjetpacks.tier,Tier %d,レベル %d
 tooltip.simplyjetpacks.energy.none,None,なし
 tooltip.simplyjetpacks.energy.infinite,Infinite Energy,無限エネルギー
-tooltip.simplyjetpacks.energyPerTick,%s RF/t,%s RF/t
-tooltip.simplyjetpacks.energyWithMax,%s/%s RF,%s/%s RF
+tooltip.simplyjetpacks.energyPerTick,%s RF/t,
+tooltip.simplyjetpacks.energyWithMax,%s/%s RF,
 tooltip.simplyjetpacks.energyUsage,Energy Usage,エネルギー使用量
 tooltip.simplyjetpacks.chargerRate,Charger Rate,充電率
 tooltip.simplyjetpacks.energySend,Send,送信
@@ -658,7 +658,6 @@ tooltip.simplyjetpacks.enderium_upgrade.description.1,Makes a Flux-Infused JetPl
 tooltip.simplyjetpacks.enderium_upgrade.description.2,an Enderium Flux armor piece.,エンダリウムフラックス製の防具片
 tooltip.simplyjetpacks.pilot_goggles.description.1,Only the best goggles for the best pilot!,最高のパイロットには最高のゴーグルだけ！
 tooltip.simplyjetpacks.jetpack_potato.warning,Clever! But not survivable.,賢いが、生存不可能。
-tooltip.simplyjetpacks.mysterious_potato.description,Can do the thing...,Can do the thing...
 gui.simplyjetpacks.hud.jetpack.energy,Jetpack Energy,ジェットパックのエネルギー
 gui.simplyjetpacks.hud.fluxpack.energy,Fluxpack Energy,フラックスパックエネルギー
 gui.simplyjetpacks.hud.energy.depleted,Depleted,枯渇
@@ -783,3 +782,13 @@ advancement.simplyjetpacks.jetpack_mek1.desc,Obtain a Basic Jetpack,基本ジェ
 advancement.simplyjetpacks.jetpack_mek2.desc,Obtain an Advanced Jetpack,アドバンストジェットパックを入手
 advancement.simplyjetpacks.jetpack_mek3.desc,Obtain an Elite Jetpack,エリートジェットパックを入手する
 advancement.simplyjetpacks.jetpack_mek4.desc,Obtain an Ultimate Jetpack,アルティメットジェットパックを入手
+config.simplyjetpacks.showEHoverState.tooltip,Show the Emergency Hover State in the HUD.,
+config.simplyjetpacks.tuning.speedVerticalHoverSlow,Vertical Speed (Hover Mode / Slow Descent),
+config.simplyjetpacks.items.addRAItemsIfNotInstalled.tooltip,"When enabled, Simply Jetpacks will register some crafting components from Redstone Arsenal to make the Flux-Infused JetPlate craftable if Redstone Arsenal is not installed.",
+config.simplyjetpacks.integration.enableIntegrationEIO.tooltip,"When enabled, Simply Jetpacks will register its EnderIO Jetpacks and Fluxpacks.",
+config.simplyjetpacks.integration.enableIntegrationTE.tooltip,"When enabled, Simply Jetpacks will register its Thermal Expansion Jetpacks and Fluxpacks.",
+config.simplyjetpacks.integration.enableIntegrationTD.tooltip,"When enabled, Simply Jetpacks will register Thermal Dynamics items for thruster recipes.",
+config.simplyjetpacks.integration.enableIntegrationRA.tooltip,"When enabled, Simply Jetpacks will register its Redstone Arsenal Tier5 Jetpack recipes.",
+config.simplyjetpacks.integration.enableIntegrationIE.tooltip,"When enabled, Simply Jetpacks will register its Immersive Engineering Jetpacks.",
+config.simplyjetpacks.integration.enableIntegrationRR.tooltip,"When enabled, Simply Jetpacks will register its Redstone Repository Tier5 JetPlate recipes.",
+tooltip.simplyjetpacks.mysterious_potato.description,Can do the thing...,

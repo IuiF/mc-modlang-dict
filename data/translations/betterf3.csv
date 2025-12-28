@@ -86,14 +86,12 @@ debug.betterf3.cycle_simulationdistance.message,Simulation Distance: %s,演算�
 debug.betterf3.modmenu.help,F3 + M = BetterF3 Options,F3 + M = BetterF3の設定を開く
 format.betterf3.chunklight,Total: %s  Sky: %s  Block: %s,合計: %s  空: %s  ブロック: %s
 format.betterf3.chunklight_server,Sky: %s  Block: %s,空: %s  ブロック: %s
-format.betterf3.coords,%s: %s  %s  %s,%s: %s  %s  %s
-format.betterf3.default_format,%s: %s,%s: %s
-format.betterf3.default_no_colon,%s %s,%s %s
-format.betterf3.fps,%s fps / %s fps %s,%s fps / %s fps %s
-format.betterf3.no_format,%s,%s
+format.betterf3.coords,%s: %s  %s  %s,
+format.betterf3.default_format,%s: %s,
+format.betterf3.default_no_colon,%s %s,
 format.betterf3.rotation,Yaw: %s  Pitch: %s,横: %s  縦: %s
 format.betterf3.server_tick,%s at %.0f ms ticks,%s (%.0f msティック)
-format.betterf3.total,%s %s/%s: %s/%s,%s %s/%s: %s/%s
+format.betterf3.total,%s %s/%s: %s/%s,
 text.betterf3.line.allocated_memory,Allocated Memory,メモリ割り当て量
 text.betterf3.line.allocation_rate,Allocation Rate,割当率
 text.betterf3.line.ambient,Ambient,周囲
@@ -113,7 +111,7 @@ text.betterf3.line.chunk_sections,Chunk Sections,チャンクセクション
 text.betterf3.line.clamped,Clamped,クランプされた地域難易度
 text.betterf3.line.client_chunk_cache,Client Chunk Cache,キャッシュ済みのチャンク数
 text.betterf3.line.clouds,Clouds,雲
-text.betterf3.line.cpu,CPU,CPU
+text.betterf3.line.cpu,CPU,
 text.betterf3.line.creature,Creatures,生物
 text.betterf3.line.day_ticks,Current Day Ticks,現在時刻(ティック)
 text.betterf3.line.days_played,Days Played,経過日数
@@ -131,8 +129,8 @@ text.betterf3.line.fluid_tags,Fluid Tags,流体タグ
 text.betterf3.line.forceloaded_chunks,Forceloaded Chunks,強制読み込みのチャンク数
 text.betterf3.line.fps.unlimited,Unlimited,無制限
 text.betterf3.line.fps.vsync,with V-Sync,(垂直同期)
-text.betterf3.line.fps_tps,FPS / TPS (Alt+F3),FPS / TPS (Alt+F3)
-text.betterf3.line.gpu,GPU,GPU
+text.betterf3.line.fps_tps,FPS / TPS (Alt+F3),
+text.betterf3.line.gpu,GPU,
 text.betterf3.line.gpu_driver,GPU Driver,GPUドライバー
 text.betterf3.line.gpu_utilization,GPU Utilization,GPU使用率
 text.betterf3.line.graphics,Graphics,グラフィックス
@@ -200,7 +198,7 @@ text.betterf3.module.chunks,Chunks,チャンク
 text.betterf3.module.coords,Coordinates,座標
 text.betterf3.module.empty,Separator,区切り
 text.betterf3.module.entity,Entities,エンティティ
-text.betterf3.module.fps,FPS,FPS
+text.betterf3.module.fps,FPS,
 text.betterf3.module.graphics,Graphics,グラフィックス
 text.betterf3.module.help,Help,ヘルプ
 text.betterf3.module.location,Location,場所
@@ -210,3 +208,8 @@ text.betterf3.module.server,Server,サーバー
 text.betterf3.module.sound,Sounds,サウンド
 text.betterf3.module.system,System,システム
 text.betterf3.module.target,Targeted,ターゲット付き
+config.betterf3.title,BetterF3,
+text.betterf3.line.minecraft,Minecraft,
+text.betterf3.module.minecraft,Minecraft,
+format.betterf3.no_format,%s,
+format.betterf3.fps,%s fps / %s fps %s,

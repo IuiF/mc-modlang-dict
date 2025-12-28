@@ -162,11 +162,11 @@ $ : 説明を検索
 -"""" : 完全一致検索を否定
 // : 正規表現検索
 -// : 正規表現検索を否定"
-fc.keybind.alt,Alt %s,Alt %s
+fc.keybind.alt,Alt %s,
 fc.keybind.ctrl,Ctrl %s,制御 %s
 fc.keybind.narrate,%s key bind,%s キーバインド
 fc.keybind.or,%1$s §oor§r %2$s,%1$s §oまたは§r %2$s
-fc.keybind.resetting,§e>§r %s §e<§r,§e>§r %s §e<§r
+fc.keybind.resetting,§e>§r %s §e<§r,
 fc.keybind.resetting.narrate,Select new key bind. Currently: %s,新しいキーバインドを選択してください。現在: %s
 fc.keybind.shift,Shift %s,力の量
 fc.keybind.shift.alt,Shift Alt %s,シフト Alt %s
@@ -186,7 +186,7 @@ fc.search.behavior.HOLD_MODIFIER.desc,Hold %s to pass search query,%s を押し�
 fc.search.behavior.NEVER,Never,決して
 fc.search.behavior.NEVER.desc,No search query is passed,検索クエリは渡されません
 fc.search.behavior.desc,"How to pass the current search query to a child entry. When satisfied, the child will open with the current search pre-loaded in its search bar.",現在の検索クエリを子エントリに渡す方法。満足した場合、子は検索バーに現在の検索が事前読み込みされた状態で開きます。
-fc.search.child,(%1$s): %2$s,(%1$s): %2$s
+fc.search.child,(%1$s): %2$s,
 fc.search.clear,Clear Search,検索をクリア
 fc.search.clearSearch,Clear Search,検索をクリア
 fc.search.clearSearch.desc,"True = GUI clears its search query when opened
@@ -195,7 +195,7 @@ False = GUIが再度開かれるときにクエリを表示"
 fc.search.indirect,Result contains matching sub-entries:,結果に一致するサブエントリが含まれています：
 fc.search.indirect.group,Group contains matching sub-entries:,グループに一致するサブエントリが含まれています：
 fc.search.modifier,Modifier Key,モディファイアキー
-fc.search.modifier.ALT,Alt,Alt
+fc.search.modifier.ALT,Alt,
 fc.search.modifier.SHIFT,Shift,シフト
 fc.search.modifier.desc,Modifier key relevant to the search-passing behavior. Not relevant if the behavior is ALWAYS or NEVER,検索パス動作に関連するモディファイアキー。動作が ALWAYS または NEVER の場合は関連しません
 fc.search.modifier.disabled,Not Relevant,関連していません
@@ -218,19 +218,19 @@ fc.validated_field.choice_set.selected,%s: Selected,%s: 選択されました
 fc.validated_field.collapse,Collapsed,折りたたまれました
 fc.validated_field.collapse.usage.focused,Press enter to collapse,入力 キーを押して折りたたむ
 fc.validated_field.collapse.usage.hovered,Left click to collapse,左クリックして折りたたむ
-fc.validated_field.color.a,A,A
+fc.validated_field.color.a,A,
 fc.validated_field.color.a.desc,Enter an integer between 0 and 255,0 から 255 の間の整数を入力してください
 fc.validated_field.color.a.desc_locked,Alpha is locked to 255.,アルファが 255 にロックされています。
-fc.validated_field.color.b,B,B
+fc.validated_field.color.b,B,
 fc.validated_field.color.b.desc,Enter an integer between 0 and 255,0 から 255 の間の整数を入力してください
-fc.validated_field.color.g,G,G
+fc.validated_field.color.g,G,
 fc.validated_field.color.g.desc,Enter an integer between 0 and 255,0 から 255 の間の整数を入力してください
 fc.validated_field.color.hl,Hue Light Map,色相ライトマップ
 fc.validated_field.color.hl.desc,Only assigns hue and brightness. Use saturation slider to change saturation.,色相と明度のみを割り当てます。彩度スライダーを使用して彩度を変更してください。
 fc.validated_field.color.hl.usage.keyboard,Press left or right arrow to change color hue. Press up or down for color brightness,左右の矢印キーを押して色相を変更します。上下キーで色の明度を変更します
 fc.validated_field.color.hl.usage.mouse,Click the map to assign a hue and light value,マップをクリックして色相と光の値を割り当てます
 fc.validated_field.color.int.desc,Hexadecimal color representation.,16進数の色表現です。
-fc.validated_field.color.r,R,R
+fc.validated_field.color.r,R,
 fc.validated_field.color.r.desc,Enter an integer between 0 and 255,0 から 255 の間の整数を入力してください
 fc.validated_field.color.s,Saturation Slider,彩度スライダー
 fc.validated_field.color.s.desc,Use hue brightness map to change those values,色相明度マップを使用してこれらの値を変更してください
@@ -347,3 +347,7 @@ fc.validated_field.update,"[%1$s], [%2$s] to [%3$s]","[%1$s], [%2$s] を [%3$s] 
 fc.validated_field.update.error,"Update error for [%1$s], [%2$s] to [%3$s]: %4$s","[%1$s], [%2$s] を [%3$s] に更新するエラー: %4$s"
 test.walkable.testChildDave.testChildBool,Test Child Dave's Boolean,Test Child Dave のBoolean
 test.walkable.testChildDave.testChildBool.desc,Dave's favorite boolean. Please treat it well.,Dave のお気に入りのBoolean です。大切に扱ってください。
+fc.keybind.ctrl.alt,Ctrl Alt %s,
+fc.keybind.ctrl.shift,Ctrl Shift %s,
+fc.keybind.ctrl.shift.alt,Ctrl Shift Alt %s,
+fc.search.modifier.CTRL,Ctrl,

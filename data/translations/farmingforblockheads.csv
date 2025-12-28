@@ -18,10 +18,10 @@ config.farmingforblockheads.feedingTroughMaxAnimals,Feeding Trough Max Animals,�
 config.farmingforblockheads.feedingTroughMaxAnimals.tooltip,The maximum amount of animals (per type) until the feeding trough stops feeding.,餌箱が機能停止するまでの動物の最大数(種類ごと)。
 config.farmingforblockheads.feedingTroughRange,Feeding Trough Range,餌箱の効果範囲
 config.farmingforblockheads.feedingTroughRange.tooltip,The range within animals can be fed by the feeding trough.,餌箱で動物が求愛状態に入る範囲。
-config.farmingforblockheads.fertilizerBonusCropChance,Green Fertilizer Bonus Crop Chance,緑色の肥料で収穫量が増える確率
-config.farmingforblockheads.fertilizerBonusCropChance.tooltip,The chance to get a bonus crop when using Green Fertilizer.,緑色の肥料の影響を受けた作物の収穫量が増える確率。
-config.farmingforblockheads.fertilizerBonusGrowthChance,Red Fertilizer Bonus Growth Chance,赤色の肥料で成長段階が増える確率
-config.farmingforblockheads.fertilizerBonusGrowthChance.tooltip,The chance to get a bonus growth when using Red Fertilizer.,赤色の肥料の影響を受けた作物の成長段階が増える確率。
+config.farmingforblockheads.fertilizerBonusCropChance,Green Fertilizer Bonus Crop Chance,緑の肥料で収穫量が増える確率
+config.farmingforblockheads.fertilizerBonusCropChance.tooltip,The chance to get a bonus crop when using Green Fertilizer.,緑の肥料の影響を受けた作物の収穫量が増える確率。
+config.farmingforblockheads.fertilizerBonusGrowthChance,Red Fertilizer Bonus Growth Chance,赤い肥料で成長段階が増える確率
+config.farmingforblockheads.fertilizerBonusGrowthChance.tooltip,The chance to get a bonus growth when using Red Fertilizer.,赤い肥料の影響を受けた作物の成長段階が増える確率。
 config.farmingforblockheads.fertilizerRegressionChance,Fertilizer Regression Chance,肥沃な耕地が通常の耕地に戻る確率
 config.farmingforblockheads.fertilizerRegressionChance.tooltip,The chance for Fertilized Farmland to turn back into regular Farmland (per provided bonus).,肥沃な耕地が通常の耕地に戻る確率(効果発生ごと)。
 config.farmingforblockheads.merchantNames,Merchant Names,商人の名前
@@ -32,11 +32,10 @@ config.farmingforblockheads.treatMerchantsLikeBabies.tooltip,"If true, merchants
 container.farmingforblockheads.market,Market,市場
 entity.farmingforblockheads.merchant,Merchant,商人
 farmingforblockheads.subtitle.falling,Something falling from a great height,何かがものすごい高さから落ちてくる
-gui.farmingforblockheads.market.cost,%s,%s
 gui.farmingforblockheads.market.no_selection,No Selection,未選択
-item.farmingforblockheads.green_fertilizer,Green Fertilizer,緑色の肥料
+item.farmingforblockheads.green_fertilizer,Green Fertilizer,緑の肥料
 item.farmingforblockheads.red_fertilizer,Red Fertilizer,赤い肥料
-item.farmingforblockheads.yellow_fertilizer,Yellow Fertilizer,黄色の肥料
+item.farmingforblockheads.yellow_fertilizer,Yellow Fertilizer,黄の肥料
 itemGroup.farmingforblockheads.farmingforblockheads,Farming for Blockheads,農業のためのブロックヘッド
 jei.farmingforblockheads.market,Market,市場
 tooltip.farmingforblockheads.chicken_nest,Collects eggs laid by chicken,ニワトリの卵が集まります
@@ -72,6 +71,7 @@ tile.farmingforblockheads:fertilized_farmland_rich.name,Fertilized Farmland,肥�
 tile.farmingforblockheads:fertilized_farmland_healthy.name,Fertilized Farmland,肥沃な耕地
 tile.farmingforblockheads:fertilized_farmland_stable.name,Fertilized Farmland,肥沃な耕地
 item.farmingforblockheads:fertilizer_healthy.name,Red Fertilizer,赤い肥料
-item.farmingforblockheads:fertilizer_rich.name,Green Fertilizer,緑色の肥料
-item.farmingforblockheads:fertilizer_stable.name,Yellow Fertilizer,黄色の肥料
+item.farmingforblockheads:fertilizer_rich.name,Green Fertilizer,緑の肥料
+item.farmingforblockheads:fertilizer_stable.name,Yellow Fertilizer,黄の肥料
 container.farmingforblockheads:market,Market,市場
+gui.farmingforblockheads.market.cost,%s,

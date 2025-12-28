@@ -4,9 +4,9 @@ key.lighty.enable,Open Light Overlay Menu,明るいオーバーレイメニュ�
 key.lighty.toggle,Toggle Light Overlay,ライトオーバーレイの切り替え
 lighty.options.auto_on,Auto-On,自動オン
 lighty.options.block_threshold,Block Threshold,ブロック閾値
-lighty.options.block_threshold.tooltip,"If the block light level is less than or equal to %d, the overlay is red or orange, depending on the sky light level. Otherwise, it is green.",ブロック光レベルが%d以下の場合、スカイライトレベルに応じてオーバーレイが赤またはオレンジになります。それ以外の場合は緑になります。
+lighty.options.block_threshold.tooltip,"If the block light level is less than or equal to %d, the overlay is red or orange, depending on the sky light level. Otherwise, it is green.",ブロック光レベルが%d以下の場合、スカイライトレベルに応じてオーバーレイが赤または橙になります。それ以外の場合は緑になります。
 lighty.options.farm_growth_threshold,Farmland Growth Threshold,農地の成長閾値
-lighty.options.farm_growth_threshold.tooltip,"With a light level above %d, crops will grow and the overlay is green. Below, crops won't grow and the overlay is orange. Defaults to 8.",光レベルが%dより高い場合、作物は成長し、オーバーレイは緑になります。それ以下では、作物は成長せず、オーバーレイはオレンジになります。デフォルトは8です。
+lighty.options.farm_growth_threshold.tooltip,"With a light level above %d, crops will grow and the overlay is green. Below, crops won't grow and the overlay is orange. Defaults to 8.",光レベルが%dより高い場合、作物は成長し、オーバーレイは緑になります。それ以下では、作物は成長せず、オーバーレイは橙になります。デフォルトは8です。
 lighty.options.farm_uproot_threshold,Farmland Uproot Threshold,農地の掘り起こし閾値
 lighty.options.farm_uproot_threshold.tooltip,"With a light level below %d, crops can't be planted and the overlay is red. Defaults to 8.",光レベルが%d以下の場合、作物は植えられずオーバーレイが赤くなります。デフォルトは8です。
 lighty.options.overlay_brightness,Overlay Brightness,オーバーレイの明るさ
@@ -17,7 +17,7 @@ lighty.options.show_safe,Show Safe Spots,安全な場所を表示
 lighty.options.show_safe.tooltip,"If on, the overlay gets rendered on safe (green) spots.",オンの場合、オーバーレイは安全（緑）スポットにレンダリングされます。
 lighty.options.show_skylight_level,Show Skylight Level,スカイライトレベルを表示
 lighty.options.sky_threshold,Sky Threshold,空の境界
-lighty.options.sky_threshold.tooltip,"If the block light level is below the value specified in 'Block Threshold' and the sky light level is less than or equal to %d, the overlay is red. Otherwise, it is orange.",ブロック光レベルが「ブロック閾値」の設定値より低く、スカイライトレベルが%d以下の場合、オーバーレイは赤になります。それ以外の場合はオレンジになります。
+lighty.options.sky_threshold.tooltip,"If the block light level is below the value specified in 'Block Threshold' and the sky light level is less than or equal to %d, the overlay is red. Otherwise, it is orange.",ブロック光レベルが「ブロック閾値」の設定値より低く、スカイライトレベルが%d以下の場合、オーバーレイは赤になります。それ以外の場合は橙になります。
 lighty.overlay,Overlay: %s,オーバーレイ: %s
 lighty.overlay.title,Choose an Overlay,オーバーレイを選択
 lighty.overlay.tooltip,"Whether the overlay is on or not. Click to toggle. To quickly toggle, press %s.",オーバーレイがオンかオフか。クリックで切り替えます。素早く切り替えるには%sを押してください。
@@ -33,3 +33,5 @@ modeSwitcher.lighty.settings,Overlay Settings,オーバーレイ設定
 modeSwitcher.lighty.settings.tooltip,Customize Lighty to fit your needs!,ライトをカスタマイズしてあなたのニーズに合わせてください！
 modeSwitcher.lighty.title,Lighty Mode Switcher,ライトモードスイッチ
 settings.lighty.title,Lighty Settings,ライト設定
+lighty.options.auto_on.tooltip,"If on, the overlay gets enabled when holding an item of certain type. (Default: OFF, Default items: minecraft:torch, minecraft:soul_torch, minecraft:lantern, minecraft:soul_lantern)",
+lighty.options.show_skylight_level.tooltip,"If on, Number Mode shows both block-light and sky-light levels. (Default: ON)",

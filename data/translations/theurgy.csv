@@ -144,7 +144,7 @@ Alternatively a hopper can be used to insert items to process.
 "
 book.theurgy.the_hermetica.apparatus.calcination_oven.usage.title,Usage,使用方法
 book.theurgy.the_hermetica.apparatus.calcination_oven.working.text,"If the [](item://theurgy:calcination_oven) is working properly, it will show the orange rings moving slightly.
-","[](item://theurgy:calcination_oven)が正常に動作している場合、オレンジ色のリングがわずかに動いているのが見えます。
+","[](item://theurgy:calcination_oven)が正常に動作している場合、橙色のリングがわずかに動いているのが見えます。
 "
 book.theurgy.the_hermetica.apparatus.calcination_oven.working.title,Working Correctly,正常に動作中
 book.theurgy.the_hermetica.apparatus.caloric_flux_emitter.description,Efficiently powering alchemical Apparatus,錬金術装置に効率的に電力を供給する
@@ -1449,7 +1449,7 @@ item.theurgy.alchemical_sulfur_copper.tooltip.usage,"Sulfur is the central eleme
 
 §oヒント：同じ材料の異なる形態(鉱石やインゴットなど)から製造された硫黄は互換性があります。§r"
 item.theurgy.alchemical_sulfur_crimson_iron,Alchemical Sulfur %s,錬金術的硫黄 %s
-item.theurgy.alchemical_sulfur_crimson_iron.source,Crimson Iron,クリムゾン鉄
+item.theurgy.alchemical_sulfur_crimson_iron.source,Crimson Iron,真紅鉄
 item.theurgy.alchemical_sulfur_crimson_iron.tooltip,Alchemical Sulfur crafted from %s %s %s.,%s %s %s から作られた錬金術的硫黄。
 item.theurgy.alchemical_sulfur_crimson_iron.tooltip.extended,"Sulfur represents the ""idea"" or ""soul"" of an object",硫黄は物体の「本質」または「魂」を表します
 item.theurgy.alchemical_sulfur_crimson_iron.tooltip.usage,"Sulfur is the central element used in Spagyrics processes.
@@ -1976,7 +1976,7 @@ theurgy.behaviour.interaction.digestion_vat.closed,Cannot add or remove items or
 theurgy.behaviour.interaction.digestion_vat.no_recipe,"Cannot close vat, the items in it do not form a valid digestion recipe.",大桶を閉じられません。中のアイテムが有効な消化レシピを構成していません。
 theurgy.behaviour.interaction.fermentation_vat.closed,Cannot add or remove items or fluids from the vat while it is closed. Shift+Click to open.,閉じている間は大桶にアイテムや液体を出し入れできません。シフト+クリックで開きます。
 theurgy.behaviour.interaction.fermentation_vat.no_recipe,"Cannot close vat, the items in it do not form a valid fermentation recipe.",大桶を閉じられません。中のアイテムが有効な発酵レシピを構成していません。
-theurgy.behaviour.selection.mode,%1$s %2$s,%1$s %2$s
+theurgy.behaviour.selection.mode,%1$s %2$s,
 theurgy.behaviour.selection.mode.caloric_flux_emitter,Send caloric flux to,熱流を送信先:
 theurgy.behaviour.selection.mode.sulfuric_flux_emitter,Add to reformation array: ,再形成配列に追加: 
 theurgy.behaviour.selection.outside_range,%1$s selected blocks removed for being out of range.,%1$s個の選択ブロックが範囲外のため削除されました。
@@ -2000,7 +2000,7 @@ theurgy.jei.misc.source_pedestal_count,%sx,%s個
 theurgy.jei.misc.source_sulfur.tooltip,"The Target Sulfur will not be consumed!
 You can retrieve it after crafting is complete.","ターゲットの硫黄は消費されません！
 加工完了後に回収できます。"
-theurgy.misc.unit.millibuckets,%smB,%smB
+theurgy.misc.unit.millibuckets,%smB,
 theurgy.subtitle.tuning_fork,Using Divination Rod,占術ロッドを使用
 theurgytheurgy.sulfur_tier.abundant,Abundant,豊富
 theurgytheurgy.sulfur_tier.common,Common,コモン
@@ -2361,7 +2361,7 @@ book.theurgy.the_hermetica.logistics.fluid_extractor.usage.title,Usage,使用方
 book.theurgy.the_hermetica.logistics.fluid_inserter.description,Inserting fluids into Blocks from the Mercurial Logistics System.,マーキュリアルロジスティクスシステムからブロックへの流体挿入。
 book.theurgy.the_hermetica.logistics.fluid_inserter.direction.title,Changing Direction,方向の変更
 book.theurgy.the_hermetica.logistics.fluid_inserter.identification.text,"The inserter features a green band on the side attached to the target block.
-",インサーターは対象ブロックに付着した側に緑色の帯があります。
+",インサーターは対象ブロックに付着した側に緑の帯があります。
 book.theurgy.the_hermetica.logistics.fluid_inserter.identification.title,Identification,識別
 book.theurgy.the_hermetica.logistics.fluid_inserter.inserter.text,"When attached to a block, the inserter will insert fluids from the Mercurial Logistics System into the block. The fluids will be extracted from blocks that have extractors attached to them, if the extractors are part of the same network.
 ",ブロックに接続されると、インサーターは水銀ロジスティクスシステムからそのブロックに流体を挿入します。流体は、インサーターが同じネットワークの一部である場合、それに接続された抽出器を備えたブロックから抽出されます。
@@ -2462,7 +2462,7 @@ E.g. an inserter attached to the top of a furnace can be configured to insert fu
 例：かまどの上部に接続されたインサータは、上からの入力スロットの代わりに、側面からかまどに燃料を挿入するように構成できます。"
 book.theurgy.the_hermetica.logistics.item_inserter.direction.title,Changing Direction,方向の変更
 book.theurgy.the_hermetica.logistics.item_inserter.identification.text,"The inserter features a green band on the side attached to the target block.
-",インサーターは対象ブロックに付着した側に緑色の帯があります。
+",インサーターは対象ブロックに付着した側に緑の帯があります。
 book.theurgy.the_hermetica.logistics.item_inserter.identification.title,Identification,識別
 book.theurgy.the_hermetica.logistics.item_inserter.inserter.text,"When attached to a block, the inserter will insert items from the Mercurial Logistics System into the block. The items will be extracted from blocks that have extractors attached to them, if the extractors are part of the same network.
 ",ブロックに接続されると、インサーターは水銀ロジスティクスシステムからそのブロックにアイテムを挿入します。アイテムは、インサーターが同じネットワークの一部である場合、それに接続された抽出器を備えたブロックから抽出されます。
@@ -2565,8 +2565,8 @@ Yellow is the current direction, green is the direction that will be set if you 
 Make sure that the side you want to insert/extract from is yellow!
 ","このモードを選択したロジスティクスブロックを見ると、ブロックはターゲットブロック上の選択された方向をハイライトします。
 
-黄色は現在の方向、緑色は右クリックした場合に設定される方向です。
-挿入/抽出したい側面が黄色であることを確認してください。"
+黄は現在の方向、緑色は右クリックした場合に設定される方向です。
+挿入/抽出したい側面が黄であることを確認してください。"
 book.theurgy.the_hermetica.logistics.mercurial_wand.rotate_visuals.title,Cycle Selected Direction,選択方向をサイクル
 book.theurgy.the_hermetica.logistics.mercurial_wand.usage.text,"Crouch and Scroll to change the mode of the wand.
 \
@@ -2682,7 +2682,7 @@ item.theurgy.alchemical_niter_gems_rare.tooltip,Alchemical Niter crafted from Al
 item.theurgy.alchemical_niter_gems_rare.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction of the ""idea"" or ""soul"" represented by Sulfur.",硝石は物体の抽象的なカテゴリと価値を表現しており、硫黄で表現される「概念」または「本質」の更なる抽象化です。
 item.theurgy.alchemical_niter_gems_rare.tooltip.usage,Niter extraction is a required intermediate step to transform one type of Sulfur into another type.,硝石の抽出は、ある種類の硫黄を別の種類に変換するための必須の中間ステップです。
 item.theurgy.alchemical_niter_logs_abundant,Alchemical Niter %s,錬金術的硝石 %s
-item.theurgy.alchemical_niter_logs_abundant.source,Abundant Logs,豊富な丸太
+item.theurgy.alchemical_niter_logs_abundant.source,Abundant Logs,豊富な原木
 item.theurgy.alchemical_niter_logs_abundant.tooltip,Alchemical Niter crafted from Alchemical Sulfur of any %s.,錬金術的硫黄の%sから製作された錬金術的硝石。
 item.theurgy.alchemical_niter_logs_abundant.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction of the ""idea"" or ""soul"" represented by Sulfur.",硝石は物体の抽象的なカテゴリと価値を表現しており、硫黄で表現される「概念」または「本質」の更なる抽象化です。
 item.theurgy.alchemical_niter_logs_abundant.tooltip.usage,Niter extraction is a required intermediate step to transform one type of Sulfur into another type.,硝石の抽出は、ある種類の硫黄を別の種類に変換するための必須の中間ステップです。
@@ -3265,7 +3265,7 @@ item.theurgy.alchemical_sulfur_cranberry.tooltip.usage,"Sulfur is the central el
 
 §oヒント：同じ材料の異なる形態(鉱石やインゴットなど)から製造された硫黄は互換性があります。§r"
 item.theurgy.alchemical_sulfur_crimson_nylium,Alchemical Sulfur %s,錬金術的硫黄 %s
-item.theurgy.alchemical_sulfur_crimson_nylium.source,Crimson Nylium,クリムソンニリウム
+item.theurgy.alchemical_sulfur_crimson_nylium.source,Crimson Nylium,真紅ニリウム
 item.theurgy.alchemical_sulfur_crimson_nylium.tooltip,Alchemical Sulfur crafted from %s %s %s.,%s %s %s から作られた錬金術的硫黄。
 item.theurgy.alchemical_sulfur_crimson_nylium.tooltip.extended,"Sulfur represents the ""idea"" or ""soul"" of an object",硫黄は物体の「本質」または「魂」を表します
 item.theurgy.alchemical_sulfur_crimson_nylium.tooltip.usage,"Sulfur is the central element used in Spagyrics processes.
@@ -3292,7 +3292,7 @@ item.theurgy.alchemical_sulfur_crops_fig.tooltip.usage,"Sulfur is the central el
 
 §oヒント：同じ材料の異なる形態(鉱石やインゴットなど)から製造された硫黄は互換性があります。§r"
 item.theurgy.alchemical_sulfur_crying_obsidian,Alchemical Sulfur %s,錬金術的硫黄 %s
-item.theurgy.alchemical_sulfur_crying_obsidian.source,Crying Obsidian,泣いている黒曜石
+item.theurgy.alchemical_sulfur_crying_obsidian.source,Crying Obsidian,泣く黒曜石
 item.theurgy.alchemical_sulfur_crying_obsidian.tooltip,Alchemical Sulfur crafted from %s %s %s.,%s %s %s から作られた錬金術的硫黄。
 item.theurgy.alchemical_sulfur_crying_obsidian.tooltip.extended,"Sulfur represents the ""idea"" or ""soul"" of an object",硫黄は物体の「本質」または「魂」を表します
 item.theurgy.alchemical_sulfur_crying_obsidian.tooltip.usage,"Sulfur is the central element used in Spagyrics processes.
@@ -3575,7 +3575,7 @@ item.theurgy.alchemical_sulfur_ginger.tooltip.usage,"Sulfur is the central eleme
 
 §oヒント：同じ材料の異なる形態(鉱石やインゴットなど)から製造された硫黄は互換性があります。§r"
 item.theurgy.alchemical_sulfur_glacian,Alchemical Sulfur %s,錬金術的硫黄 %s
-item.theurgy.alchemical_sulfur_glacian.source,Glacian,グレーシアン
+item.theurgy.alchemical_sulfur_glacian.source,Glacian,グレー青緑
 item.theurgy.alchemical_sulfur_glacian.tooltip,Alchemical Sulfur crafted from %s %s %s.,%s %s %s から作られた錬金術的硫黄。
 item.theurgy.alchemical_sulfur_glacian.tooltip.extended,"Sulfur represents the ""idea"" or ""soul"" of an object",硫黄は物体の「本質」または「魂」を表します
 item.theurgy.alchemical_sulfur_glacian.tooltip.usage,"Sulfur is the central element used in Spagyrics processes.
@@ -3888,7 +3888,7 @@ item.theurgy.alchemical_sulfur_lignite_coal.tooltip.usage,"Sulfur is the central
 
 §oヒント：同じ材料の異なる形態(鉱石やインゴットなど)から製造された硫黄は互換性があります。§r"
 item.theurgy.alchemical_sulfur_lime,Alchemical Sulfur %s,錬金術的硫黄 %s
-item.theurgy.alchemical_sulfur_lime.source,Lime,ライム
+item.theurgy.alchemical_sulfur_lime.source,Lime,黄緑
 item.theurgy.alchemical_sulfur_lime.tooltip,Alchemical Sulfur crafted from %s %s %s.,%s %s %s から作られた錬金術的硫黄。
 item.theurgy.alchemical_sulfur_lime.tooltip.extended,"Sulfur represents the ""idea"" or ""soul"" of an object",硫黄は物体の「本質」または「魂」を表します
 item.theurgy.alchemical_sulfur_lime.tooltip.usage,"Sulfur is the central element used in Spagyrics processes.
@@ -4192,7 +4192,7 @@ item.theurgy.alchemical_sulfur_onion.tooltip.usage,"Sulfur is the central elemen
 
 §oヒント：同じ材料の異なる形態(鉱石やインゴットなど)から製造された硫黄は互換性があります。§r"
 item.theurgy.alchemical_sulfur_orange,Alchemical Sulfur %s,錬金術的硫黄 %s
-item.theurgy.alchemical_sulfur_orange.source,Orange,オレンジ
+item.theurgy.alchemical_sulfur_orange.source,Orange,橙
 item.theurgy.alchemical_sulfur_orange.tooltip,Alchemical Sulfur crafted from %s %s %s.,%s %s %s から作られた錬金術的硫黄。
 item.theurgy.alchemical_sulfur_orange.tooltip.extended,"Sulfur represents the ""idea"" or ""soul"" of an object",硫黄は物体の「本質」または「魂」を表します
 item.theurgy.alchemical_sulfur_orange.tooltip.usage,"Sulfur is the central element used in Spagyrics processes.
@@ -4850,7 +4850,7 @@ item.theurgy.alchemical_sulfur_walnut.tooltip.usage,"Sulfur is the central eleme
 
 §oヒント：同じ材料の異なる形態(鉱石やインゴットなど)から製造された硫黄は互換性があります。§r"
 item.theurgy.alchemical_sulfur_warped_nylium,Alchemical Sulfur %s,錬金術的硫黄 %s
-item.theurgy.alchemical_sulfur_warped_nylium.source,Warped Nylium,ウォープドナイリウム
+item.theurgy.alchemical_sulfur_warped_nylium.source,Warped Nylium,歪んだナイリウム
 item.theurgy.alchemical_sulfur_warped_nylium.tooltip,Alchemical Sulfur crafted from %s %s %s.,%s %s %s から作られた錬金術的硫黄。
 item.theurgy.alchemical_sulfur_warped_nylium.tooltip.extended,"Sulfur represents the ""idea"" or ""soul"" of an object",硫黄は物体の「本質」または「魂」を表します
 item.theurgy.alchemical_sulfur_warped_nylium.tooltip.usage,"Sulfur is the central element used in Spagyrics processes.
@@ -4859,7 +4859,7 @@ item.theurgy.alchemical_sulfur_warped_nylium.tooltip.usage,"Sulfur is the centra
 
 §oヒント：同じ材料の異なる形態(鉱石やインゴットなど)から製造された硫黄は互換性があります。§r"
 item.theurgy.alchemical_sulfur_warped_stem,Alchemical Sulfur %s,錬金術的硫黄 %s
-item.theurgy.alchemical_sulfur_warped_stem.source,Warped,ウォープド
+item.theurgy.alchemical_sulfur_warped_stem.source,Warped,歪んだ
 item.theurgy.alchemical_sulfur_warped_stem.tooltip,Alchemical Sulfur crafted from %s %s %s.,%s %s %s から作られた錬金術的硫黄。
 item.theurgy.alchemical_sulfur_warped_stem.tooltip.extended,"Sulfur represents the ""idea"" or ""soul"" of an object",硫黄は物体の「本質」または「魂」を表します
 item.theurgy.alchemical_sulfur_warped_stem.tooltip.usage,"Sulfur is the central element used in Spagyrics processes.
@@ -4944,7 +4944,7 @@ item.theurgy.copper_wire.tooltip.dynamic,"Linked to %1$s (Highlighted in yellow 
 §aRight-Click§r§7 another connector block to create wire connection.
 §aShift-Right-Click§r§7 the air or a non-connector block to unlink.
 §aRight-Click§r§7 another connector block already wired to %1$s to remove the wire.
-","%1$sにリンク済み（世界で黄色でハイライト表示）。
+","%1$sにリンク済み（世界で黄でハイライト表示）。
 
 緑aを右クリック§r§7別のコネクターブロックでワイヤー接続を作成します。
 §aShift-右クリック§r§7空気または非コネクターブロックでリンク解除します。
@@ -5134,3 +5134,357 @@ theurgytheurgy.sulfur_type.crops,Crops,作物
 theurgytheurgy.sulfur_type.earthen_matters,Earthen Matters,土質物
 theurgytheurgy.sulfur_type.logs,Logs,ログ
 theurgytheurgy.sulfur_type.mobs,Mob Drops,Mobドロップ
+book.theurgy.the_hermetica.apparatus.caloric_flux_emitter.intro.text,"This devices converts raw mercury flux into [#](ad03fc)Caloric Flux[#](), or simply: transferable heat. It can be used to power other alchemical apparatuses that would usually need a [](item://theurgy:pyromantic_brazier) below them.
+","このデバイスは生の水銀フラックスを[#](ad03fc)熱流[#]()、またはシンプルに転移可能な熱に変換します。これは通常、下に[](item://theurgy:pyromantic_brazier)が必要な他の錬金術装置に電力を供給するために使用できます。
+"
+book.theurgy.the_hermetica.apparatus.digestion_vat.usage.text,"Place the vat on the ground.\
+Then right-click it with the ingredients (usually an Alchemical Niter and [](item://theurgy:purified_gold))\
+Right-click the block with a Sal Ammoniac bucket (or supply via pipes)\
+Shift-right-click the vat with an empty hand to close it.
+","その甕を地面に配置してください。\
+となり、材料（通常は錬金術ニターと[](item://theurgy:purified_gold)）で右クリックしてください。\
+アンモニア食塩バケットでブロックを右クリックしてください（またはパイプ経由で供給してください）。\
+空の手でその甕をシフト右クリックして閉じてください。
+"
+book.theurgy.the_hermetica.apparatus.mercury_catalyst.intro.text,"This apparatus slowly converts [](item://theurgy:mercury_shard) into [#](ad03fc)Mercury Flux[#](), which can be used as a source of Energy. It is the first step towards using the Energy contained in matter.
+","この装置は[](item://theurgy:mercury_shard)を[#](ad03fc)水銀フラックス[#]()にゆっくり変換し、エネルギーの供給源として使用できます。これは物質に含まれるエネルギーを使用するための最初のステップです。
+"
+book.theurgy.the_hermetica.apparatus.mercury_flux.intro.text,"**Mercury** represents the Energy contained in all matter. The Spagyrics processes for Mercury extraction yield [](item://theurgy:mercury_shard). In this Form it is not immediately useful as an energy source, so it must first be transformed - catalyzed - into [#](ad03fc)Mercury Flux[#](), which is Mercury in its natural Form.
+","**水銀**は全物質に含まれるエネルギーを表現します。水銀抽出のSpagyrics処理は[](item://theurgy:mercury_shard)を生成します。この形式ではエネルギー源として即座に有用ではないため、まず[#](ad03fc)水銀フラックス[#]()に変成される必要があります。これは自然形態の水銀です。
+"
+book.theurgy.the_hermetica.apparatus.sal_ammoniac_accumulator.working.text,"If working properly, it will show blue or yellow (if using Sal Ammoniac Crystals) bubbles.
+","正しく動作している場合、青色または黄（アンモニア食塩クリスタルを使用している場合）の泡が表示されます。
+"
+book.theurgy.the_hermetica.apparatus.spagyrics.further_reading.text,"For more information on how to use these contraptions, see also [](entry://getting_started/spagyrics) in [Getting Started](category://getting_started).
+","これらの装置の使用方法の詳細については、[Getting Started](category://getting_started)の[](entry://getting_started/spagyrics)も参照してください。
+"
+book.theurgy.the_hermetica.apparatus.sulfuric_flux_emitter_reference.intro.text,"See the [Sulfuric Flux Emitter Entry](entry://apparatus/sulfuric_flux_emitter) in the ""Mercury Flux"" part of this category.
+","このカテゴリの「水銀フラックス」部分の[硫黄フラックス放出装置エントリ](entry://apparatus/sulfuric_flux_emitter)を参照してください。
+"
+book.theurgy.the_hermetica.apparatus.transmutation_and_exaltation.about.text,"[#](ad03fc)Transmutation[#]() is the process of converting sulfurs into other types (such as gems to metals),
+[#](ad03fc)Exaltation[#]() into different tiers (such as common to rare).
+","[#](ad03fc)変成[#]()は硫黄を他の種類に変換するプロセス（宝石から金属など）で、
+[#](ad03fc)昇華[#]()は異なる階層に変換するプロセス（一般的な物から希少な物など）です。
+"
+book.theurgy.the_hermetica.getting_started.about_divination_rods.intro.text,"Divination Rods, also known as Dowsing Rods, are a valuable instrument used to locate ores and other valuable blocks. In order to show the location of a block, it must first be ""attuned"" to it.
+","占い棒、別名ダウジング棒は、鉱石やその他の貴重なブロックを探すために使用される貴重な道具です。ブロックの場所を示すためには、まずそれに「調整」される必要があります。
+"
+book.theurgy.the_hermetica.getting_started.amethyst_divination_rod.intro.text,"Crystals are especially useful for attuning divination rods, and many more advanced rod designs require [amethyst shards](item://minecraft:amethyst_shard) specifically. This rod is pre-attuned to locate budding amethyst blocks to make it easier to obtain these helpful crystals.
+","クリスタルは占い棒を調整するのに特に有用で、多くのより高度な棒設計は[アメシスト破片](item://minecraft:amethyst_shard)を特に必要とします。この棒はこれらの有益なクリスタルを取得しやすくするためにアメシスト芽ブロックを見つけるために事前に調整されています。
+"
+book.theurgy.the_hermetica.getting_started.caloric_flux_emitter.intro2.text,"View [Caloric Flux Emitter](entry://apparatus/caloric_flux_emitter) in the [Apparatus](category://apparatus) Category on how to craft and use them.
+","[Apparatus](category://apparatus)カテゴリの[熱流放出装置](entry://apparatus/caloric_flux_emitter)を参照して、それらの製作方法と使用方法を確認してください。
+"
+book.theurgy.the_hermetica.getting_started.convert_to_other_tier.digestion.text,"The core of the Exaltation Process is the Digestion of Niter into other Niter, in a [](item://theurgy:digestion_vat).
+\
+\
+Digestion needs a Catalysator in the form of [](item://theurgy:purified_gold), which will be explained soon.
+","昇華プロセスの中核は、[](item://theurgy:digestion_vat)で他のニターへのニターの蒸留です。
+\
+\
+蒸留は、まもなく説明される[](item://theurgy:purified_gold)の形の触媒を必要とします。
+"
+book.theurgy.the_hermetica.getting_started.convert_to_other_type.instructions.text,"The following entries will guide you through the conversion of [Alchemical Sulfur: Quartz](item://theurgy:alchemical_sulfur_quartz) into [Alchemical Sulfur: Iron](item://theurgy:alchemical_sulfur_iron), *assuming you already obtained at least one Sulfur of each*.
+\
+\
+The instructions also apply to all other conversions within the same tier.
+","次のエントリは、[錬金術硫黄：石英](item://theurgy:alchemical_sulfur_quartz)を[錬金術硫黄：鉄](item://theurgy:alchemical_sulfur_iron)に変換するプロセスをガイドします。*既に各１つ以上の硫黄を取得していると仮定します*。
+\
+\
+説明は、同じ階層内のすべての他の変換にも適用されます。
+"
+book.theurgy.the_hermetica.getting_started.convert_within_type_and_tier.instructions.text,"The following entries will guide you through the conversion of [Alchemical Sulfur: Lapis](item://theurgy:alchemical_sulfur_lapis) into [Alchemical Sulfur: Quartz](item://theurgy:alchemical_sulfur_quartz), *assuming you already obtained at least one Sulfur of each*.
+","次のエントリは、[錬金術硫黄：ラピスラズリ](item://theurgy:alchemical_sulfur_lapis)を[錬金術硫黄：石英](item://theurgy:alchemical_sulfur_quartz)に変換するプロセスをガイドします。*既に各１つ以上の硫黄を取得していると仮定します*。
+"
+book.theurgy.the_hermetica.getting_started.convert_within_type_and_tier.instructions2.text,"The instructions apply equally to all other reformation recipes within the same type and tier, such as [Alchemical Sulfur: Diamond](item://theurgy:alchemical_sulfur_diamond) to [Alchemical Sulfur: Emerald](item://theurgy:alchemical_sulfur_emerald).
+","説明は、[錬金術硫黄：ダイヤモンド](item://theurgy:alchemical_sulfur_diamond)から[錬金術硫黄：エメラルド](item://theurgy:alchemical_sulfur_emerald)など、同じ種類と階層内のすべての他の改良レシピに等しく適用されます。
+"
+book.theurgy.the_hermetica.getting_started.create_mercury.step1.text,"Right-click the [](item://theurgy:distiller) with any mercury-yielding item, such as Crops, Food, Ores, Raw Metals, but also Stone, Sand, Glass, ...\
+For low-value items you may need to add multiple items at once to obtain even one [](item://theurgy:mercury_shard).
+","水銀を生成するアイテム（作物、食料、鉱石、生メタル、石、砂、ガラスなど）を使用して[](item://theurgy:distiller)を右クリックしてください。\
+低価値アイテムの場合、1つの[](item://theurgy:mercury_shard)を取得するために複数のアイテムを一度に追加する必要があるかもしれません。
+"
+book.theurgy.the_hermetica.getting_started.create_mercury.step2.text,"Now add fuel, such as Coal, to the [](item://theurgy:pyromantic_brazier) below the [](item://theurgy:distiller) to heat it up.
+","次に、石炭などの燃料を下の[](item://theurgy:pyromantic_brazier)に追加してそれを加熱してください。
+"
+book.theurgy.the_hermetica.getting_started.create_mercury.step3.text,"After a while some mercury shards will have been created, you can right-click the [](item://theurgy:distiller) with an empty hand to obtain [](item://theurgy:mercury_shard).
+","しばらくすると、いくつかの水銀破片が作成されており、空の手で[](item://theurgy:distiller)を右クリックして[](item://theurgy:mercury_shard)を取得できます。
+"
+book.theurgy.the_hermetica.getting_started.create_salt.step1.text,"[#](008080)Right-click[#]() the [](item://theurgy:calcination_oven) with any Mineral such as Ores, Raw Metals or Ingots to calcinate it.
+\
+\
+[](item://minecraft:charcoal) is a great source, as it is renewable.
+","[#](008080)右クリック[#]()で、鉱石、生メタル、インゴットなどの任意の鉱物を[](item://theurgy:calcination_oven)で焼成してください。
+\
+\
+[](item://minecraft:charcoal)は再生可能であるため、優れた供給源です。
+"
+book.theurgy.the_hermetica.getting_started.create_salt.step3.text,"After a while some salt will have been created, you can [#](008080)right-click[#]() the [](item://theurgy:calcination_oven) with an empty hand to obtain [Mineral Salt](item://theurgy:alchemical_salt_mineral).
+","しばらくすると、いくつかの塩が作成されており、空の手で[](item://theurgy:calcination_oven)を[#](008080)右クリック[#]()して[鉱物塩](item://theurgy:alchemical_salt_mineral)を取得できます。
+"
+book.theurgy.the_hermetica.getting_started.create_solvent.faster.text,"Instead of waiting for trace amounts to accumulate, you can dissolve a [](item://theurgy:sal_ammoniac_crystal) in the water to speed up the process significantly.
+","痕跡量が蓄積するまで待つ代わりに、水に[](item://theurgy:sal_ammoniac_crystal)を溶かすことでプロセスを大幅に高速化できます。
+"
+book.theurgy.the_hermetica.getting_started.create_solvent.step3.text,"Once the [](item://theurgy:sal_ammoniac_tank) has filled up sufficiently, you can [#](008080)right-click[#]() it with an empty bucket to obtain a [](item://theurgy:sal_ammoniac_bucket).",[](item://theurgy:sal_ammoniac_tank)が十分に満杯になったら、空のバケットで[#](008080)右クリック[#]()して[](item://theurgy:sal_ammoniac_bucket)を取得できます。
+book.theurgy.the_hermetica.getting_started.create_sulfur.intro.text,"Sulfur extraction is the part of ore purification that leads to [#](ad03fc)multiplication[#](). One Ore or Raw Metal yields multiple sulfurs, which then each can be refined into an ingot.
+","硫黄抽出は、[#](ad03fc)増殖[#]()につながる鉱石精製の部分です。1つの鉱石または生メタルは複数の硫黄を生成し、各々はインゴットに精製できます。
+"
+book.theurgy.the_hermetica.getting_started.create_sulfur.step4.text,"After a while some sulfur will have been extracted, you can [#](008080)right-click[#]() the [](item://theurgy:liquefaction_cauldron) with an empty hand to obtain [Alchemical Sulfur](item://theurgy:alchemical_sulfur_iron).
+","しばらくすると、いくつかの硫黄が抽出されており、空の手で[](item://theurgy:liquefaction_cauldron)を[#](008080)右クリック[#]()して[錬金術硫黄](item://theurgy:alchemical_sulfur_iron)を取得できます。
+"
+book.theurgy.the_hermetica.getting_started.digestion_vat.reformation_array.text,"Once again you need to set up a reformation array, the usage was already discussed in the [Reformation Array](entry://getting_started/reformation_array) and following entries.
+","再度、改良配列をセットアップする必要があります。用法については、既に[改良配列](entry://getting_started/reformation_array)および以下のエントリで説明されています。
+"
+book.theurgy.the_hermetica.getting_started.fermentation_exaltation.metals.text,"View [Fermentation](entry://getting_started/fermentation_transmutation) to refresh your memory on how to use the Fermentation Vat.
+","[蒸留](entry://getting_started/fermentation_transmutation)を参照して、蒸留甕の使用方法をリフレッシュしてください。
+"
+book.theurgy.the_hermetica.getting_started.fermentation_vat.reformation_array.text,"You need to set up a reformation array, the usage was already discussed in the [Reformation Array](entry://getting_started/reformation_array) and following entries.
+","改良配列をセットアップする必要があります。用法については、既に[改良配列](entry://getting_started/reformation_array)および以下のエントリで説明されています。
+"
+book.theurgy.the_hermetica.getting_started.incubation.step3.text,"After a while the input items will have been consumed and incubated into the result.
+\
+\
+You can [#](008080)right-click[#]() the [](item://theurgy:incubator) with an empty hand to obtain 3x [](item://minecraft:iron_ingot).
+\
+\
+*Congratulations, you created 3 Ingots from 1 Raw Metal!*
+","しばらくすると、入力アイテムが消費され、結果に孵化されます。
+\
+\
+[#](008080)右クリック[#]()して[](item://theurgy:incubator)で空の手で[](item://minecraft:iron_ingot)を取得できます。
+\
+\
+*おめでとうございます、1つの生メタルから3つのインゴットを作成しました！*
+"
+book.theurgy.the_hermetica.getting_started.incubation_after_exaltation.intro.text,"Finally, with the Gold Sulfur at hand, we can incubate it into Gold Ingots.
+\
+\
+Simply follow the steps you already know from [Incubation](entry://getting_started/incubation).
+","最後に、金硫黄を手にして、それを金インゴットに孵化させることができます。
+\
+\
+[孵化](entry://getting_started/incubation)から既に知っている手順に従ってください。
+"
+book.theurgy.the_hermetica.getting_started.incubation_after_reformation.intro.text,"Finally, with the Quartz Sulfur at hand, we can incubate it into Quartz.
+\
+\
+Simply follow the steps you already know from [Incubation](entry://getting_started/incubation).
+","最後に、石英硫黄を手にして、それを石英に孵化させることができます。
+\
+\
+[孵化](entry://getting_started/incubation)から既に知っている手順に従ってください。
+"
+book.theurgy.the_hermetica.getting_started.incubation_after_transmutation.intro.text,"Finally, with the Iron Sulfur at hand, we can incubate it into Iron Ingots.
+\
+\
+Simply follow the steps you already know from [Incubation](entry://getting_started/incubation).
+","最後に、鉄硫黄を手にして、それを鉄インゴットに孵化させることができます。
+\
+\
+[孵化](entry://getting_started/incubation)から既に知っている手順に従ってください。
+"
+book.theurgy.the_hermetica.getting_started.intro.help.text,"If the reader finds themselves in trouble of any kind, prompt assistance will be provided at the Council of Alchemists, known also as Kli Kli's Discord Server.
+\
+\
+[To get help, join us at https://discord.gg/trE4SHRXvb](https://discord.gg/trE4SHRXvb)
+","読者が何らかの問題に直面した場合、Kli Kliの錬金術評議会としても知られるDiscordサーバーで迅速なサポートが提供されます。
+\
+\
+[ヘルプを得るには、https://discord.gg/trE4SHRXvbに参加してください](https://discord.gg/trE4SHRXvb)
+"
+book.theurgy.the_hermetica.getting_started.needed_apparatus_spagyrics.distiller.text,"The Distiller creates [Mercury Shards](item://theurgy:mercury_shard).
+","蒸留器は[水銀破片](item://theurgy:mercury_shard)を作成します。
+"
+book.theurgy.the_hermetica.getting_started.needed_apparatus_spagyrics.next_steps.text,"Craft all the apparatus and place them.
+\
+\
+The [](item://theurgy:sal_ammoniac_accumulator) needs to be placed on top of a [](item://theurgy:sal_ammoniac_tank).
+","すべての装置を製作して配置してください。
+\
+\
+[](item://theurgy:sal_ammoniac_accumulator)は[](item://theurgy:sal_ammoniac_tank)の上に配置する必要があります。
+"
+book.theurgy.the_hermetica.getting_started.needed_apparatus_spagyrics.next_steps2.text,"Those that need heating need to be placed on the [Pyromantic Braziers](item://theurgy:pyromantic_brazier).
+\
+Put some fuel, such as [](item://minecraft:coal), into the braziers to heat them.
+","加熱が必要なものは[炎の魔法製火鉢](item://theurgy:pyromantic_brazier)の上に配置する必要があります。
+\
+火鉢に[](item://minecraft:coal)などの燃料を入れて加熱してください。
+"
+book.theurgy.the_hermetica.getting_started.precious_sulfur_attuned_divination_rod.intro.text,"This divination rod is the most powerful variant of pre-attuned rod, it is highly durable and allows to locate precious ores, such as [diamond](item://minecraft:diamond_ore).
+","この占い棒は事前調整棒の最も強力な変種で、非常に耐久性があり、[ダイヤモンド鉱石](item://minecraft:diamond_ore)などの貴重な鉱石を探すことができます。
+"
+book.theurgy.the_hermetica.getting_started.purified_gold.digestion.text,"[#](008080)Right-click[#]() the [](item://theurgy:digestion_vat) with the ingredients to place them inside:
+- [](item://minecraft:gold_ingot)
+- [Any Alchemical Salt](item://theurgy:alchemical_salt_mineral)
+- [](item://minecraft:water_bucket)
+","[#](008080)右クリック[#]()で材料を内部に配置するために[](item://theurgy:digestion_vat)を使用してください：
+- [](item://minecraft:gold_ingot)
+- [任意の錬金術塩](item://theurgy:alchemical_salt_mineral)
+- [](item://minecraft:water_bucket)
+"
+book.theurgy.the_hermetica.getting_started.purified_gold.purifying.text,"Purification is achieved - somewhat counterintuitively - by Digestion. However, luckily, it does not need [](item://theurgy:purified_gold) as catalyst.
+\
+\
+Instead, any [Alchemical Salt](item://theurgy:alchemical_salt_mineral) can be used. The Salt will connect with the impurities in the Gold and draw them out.
+","精製は - やや矛盾することに - 蒸留によって達成されます。しかし幸いなことに、[](item://theurgy:purified_gold)を触媒として必要としません。
+\
+\
+代わりに、任意の[錬金術塩](item://theurgy:alchemical_salt_mineral)が使用できます。塩は金の不純物と結合し、それらを引き出します。
+"
+book.theurgy.the_hermetica.getting_started.rare_sulfur_attuned_divination_rod.intro.text,"This divination rod is an improved variant of pre-attuned rod that is more durable allows to locate rare ores, such as [gold](item://minecraft:gold_ore).
+","この占い棒は事前調整棒の改良型で、より耐久性があり、[金鉱石](item://minecraft:gold_ore)などの希少な鉱石を探すことができます。
+"
+book.theurgy.the_hermetica.getting_started.renewable_gold.coal.text,"Charcoal is considered a mineral (""other minerals"") in Alchemy. It is obviously renewable.
+\
+\
+Coal Sulfur can be obtained from Charcoal.
+","木炭は錬金術では鉱物（「他の鉱物」）と見なされます。それは明らかに再生可能です。
+\
+\
+木炭硫黄は木炭から取得できます。
+"
+book.theurgy.the_hermetica.getting_started.required_items.source2.text,"View [Extracting Sulfur](entry://getting_started/create_sulfur) to refresh how to obtain sulfur from an item, or use the Quartz Sulfur you obtained in the Reformation experiment.
+","[硫黄抽出](entry://getting_started/create_sulfur)を参照してアイテムから硫黄を取得する方法をリフレッシュするか、改良実験で取得した石英硫黄を使用してください。
+"
+book.theurgy.the_hermetica.getting_started.required_items_exaltation.target.text,"Because we are converting within the same type (metals) you only need *one* sulfur of the target type.
+\
+\
+It will be used for the final reformation of all our Niter into the target sulfur.
+","同じ種類（金属）内で変換しているため、ターゲット種類の硫黄が*1つ*だけ必要です。
+\
+\
+それはすべてのニターを最終的に改良してターゲット硫黄に変換するために使用されます。
+"
+book.theurgy.the_hermetica.getting_started.required_items_transmutation.source2.text,"View [Extracting Sulfur](entry://getting_started/create_sulfur) to refresh how to obtain sulfur from an item, or use the Quartz Sulfur you obtained in the Reformation experiment.
+","[硫黄抽出](entry://getting_started/create_sulfur)を参照してアイテムから硫黄を取得する方法をリフレッシュするか、改良実験で取得した石英硫黄を使用してください。
+"
+book.theurgy.the_hermetica.getting_started.result_pedestal.result.text,"After the process is finished a glowing orb should appear above the result pedestal, indicating it contains Sulfur.
+\
+\
+[#](008080)Right-click[#]() on the pedestal to retrieve the [Alchemical Sulfur: Quartz](item://theurgy:alchemical_sulfur_quartz).
+","プロセスが終了した後、結果台の上に光る球が表示され、硫黄が含まれていることを示します。
+\
+\
+[#](008080)右クリック[#]()で台座をクリックして[錬金術硫黄：石英](item://theurgy:alchemical_sulfur_quartz)を取得してください。
+"
+book.theurgy.the_hermetica.getting_started.spagyrics.mercury.text,"[#](ad03fc)Alchemical Mercury[#]() is the **Energy** or Life Force of a thing. It is the most elusive of the three principles, and enables the other two principles to function.
+","[#](ad03fc)錬金術水銀[#]()は、物の**エネルギー**または生命力です。これは3つの原理の中で最も難しく、他の2つの原理が機能するのを可能にします。
+"
+book.theurgy.the_hermetica.getting_started.sulfuric_flux_emitter.problems.text,"If that is not the case, double check the recipe in JEI, and visit [Reformation Array](entry://apparatus/reformation_array) to review your knowledge of the reformation array setup.
+","そうでない場合は、JEIのレシピをダブルチェックして、[改良配列](entry://apparatus/reformation_array)を訪問して改良配列設定の知識を確認してください。
+"
+book.theurgy.the_hermetica.getting_started.t4_divination_rod.intro.text,"The very high durability attunable divination rod to locate ores of any tier, such as [diamond](item://minecraft:diamond_ore).
+","非常に高い耐久性で調整可能な占い棒で、[ダイヤモンド鉱石](item://minecraft:diamond_ore)などの任意の階層の鉱石を探すことができます。
+"
+book.theurgy.the_hermetica.getting_started.target_pedestal.target.text,"Place (= [#](008080)right-click[#]()) at least one [Alchemical Sulfur: Quartz](item://theurgy:alchemical_sulfur_quartz) into the target pedestal.\
+A glowing orb should appear above it.
+\
+\
+The target sulfur will *not* be consumed - you can take it out after the process is finished!
+","少なくとも1つの[錬金術硫黄：石英](item://theurgy:alchemical_sulfur_quartz)をターゲット台座に配置（ = [#](008080)右クリック[#]()）してください。\
+光る球がその上に表示されるはずです。
+\
+\
+ターゲット硫黄は*消費されません* - プロセスが終了した後にそれを取り出すことができます！
+"
+item.theurgy.alchemical_sulfur_gems_abundant.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_gems_common.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_gems_precious.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_gems_rare.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_metals_abundant.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_metals_common.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_metals_precious.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_metals_rare.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_other_minerals_abundant.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_other_minerals_common.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_other_minerals_precious.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.alchemical_sulfur_other_minerals_rare.tooltip.extended,"Niter represents the abstract category and value of an object, thus it is a further abstraction the ""idea"" or ""soul"" represented by Sulfur.",ニターはオブジェクトの抽象的なカテゴリと価値を表現し、したがって硫黄で表現される「考え」または「魂」のさらなる抽象化です。
+item.theurgy.sal_ammoniac_crystal.tooltip.extended,"Obtained by mining Sal Ammoniac Ore, or by crafting a Sal Ammoniac Bucket in a crafting grid.
+","塩化アンモニア鉱石を採掘するか、塩化アンモニアバケットをクラフティンググリッドで製作することで得られます。
+"
+book.theurgy.the_hermetica.apparatus.vat_redstone.analog_output.text,"Vats output a comparator signal based on the amount of items in the output slot.
+\
+\
+This can be used for advanced automation that only unlocks the vat when a certain amount of items is produced.
+","甕は出力スロットのアイテム数に基づいてコンパレータ信号を出力します。
+\
+\
+これは、一定の量のアイテムが生成されたときのみ甕のロックを解除する高度な自動化に使用できます。
+"
+book.theurgy.the_hermetica.apparatus.vat_redstone.redstone_output.text,"Vats output a redstone signal when they have at least one item in the output slot.
+\
+\
+This can be used unlock the vat when it produced a result to extract it.
+","甕は出力スロットに少なくとも1つのアイテムがあるとレッドストーン信号を出力します。
+\
+\
+これは甕が結果を生成したときのロックを解除して、それを抽出するために使用できます。
+"
+book.theurgy.the_hermetica.getting_started.digestion_exaltation.start.text,"[#](008080)Shift-right-click[#]() the [](item://theurgy:digestion_vat) with an [#](008080)empty hand[#]() to close the vat and start the digestion.
+\
+\
+Once it opens again the process is complete.
+\
+\
+[#](008080)Right-click[#]() with an empty hand to retrieve the [Alchemical Niter: Rare Metals](item://theurgy:alchemical_niter_metals_rare).
+","[#](008080)シフト右クリック[#]()で[](item://theurgy:digestion_vat)を[#](008080)空の手[#]()で蒸留を開始して甕を閉じてください。
+\
+\
+再度開いたら、プロセスが完了します。
+\
+\
+[#](008080)右クリック[#]()で空の手を使用して[錬金術ニター：希少金属](item://theurgy:alchemical_niter_metals_rare)を取得してください。
+"
+book.theurgy.the_hermetica.getting_started.fermentation_starter.usage.text,"[](item://theurgy:fermentation_starter) will be produced in large batches consisting of many pieces, but consuming only one sugar and one crop each.
+\
+\
+You can now use one piece of [](item://theurgy:fermentation_starter) per niter fermentation process, instead of one crop or one sugar.
+","[](item://theurgy:fermentation_starter)は多くのピースで構成された大量のバッチで生成されますが、各々砂糖と作物を1つだけ消費します。
+\
+\
+これで、各ニター発酵プロセスで1つの作物または1つの砂糖の代わりに、[](item://theurgy:fermentation_starter)の1ピースを使用できます。
+"
+book.theurgy.the_hermetica.getting_started.fermentation_transmutation.gems.text,"[#](008080)Right-click[#]() the [](item://theurgy:fermentation_vat) with the ingredients to place them inside:
+- [Alchemical Sulfur: Quartz](item://theurgy:alchemical_sulfur_quartz)
+- [](item://minecraft:water_bucket)
+- [](item://minecraft:sugar) or any Crops, or better: [](item://theurgy:fermentation_starter)
+
+(Check JEI/EMI for more recipes)
+","[#](008080)右クリック[#]()で材料を内部に配置するために[](item://theurgy:fermentation_vat)を使用してください：
+- [錬金術硫黄：石英](item://theurgy:alchemical_sulfur_quartz)
+- [](item://minecraft:water_bucket)
+- [](item://minecraft:sugar)または任意の作物、またはより良い：[](item://theurgy:fermentation_starter)
+
+(JEI/EMIでより多くのレシピを確認してください)
+"
+book.theurgy.the_hermetica.logistics.fluid_extractor.direction.text,"Extractors can also extract from faces they are not attached to. Use the [Mercurial Wand](entry://logistics/mercurial_wand) in the ""Select Direction"" mode to cycle through the extract directions.
+","抽出器は、取り付けられていない面からも抽出できます。[水銀杖](entry://logistics/mercurial_wand)を「方向選択」モードで使用して、抽出方向をサイクルさせてください。
+"
+book.theurgy.the_hermetica.logistics.fluid_inserter.direction.text,"Inserters can also insert into faces they are not attached to. Use the [Mercurial Wand](entry://logistics/mercurial_wand) in the ""Select Direction"" mode to cycle through the insert directions.
+","挿入器は、取り付けられていない面にも挿入できます。[水銀杖](entry://logistics/mercurial_wand)を「方向選択」モードで使用して、挿入方向をサイクルさせてください。
+"
+book.theurgy.the_hermetica.logistics.frequency.set.text,"Then you can apply the frequency to a leaf node.
+1. Equip your [](item://theurgy:mercurial_wand).
+2. Right-Click an inserter or extractor to set its frequency.
+3. Repeat for all blocks that should be in the same sub-network.
+4. Right-Click any of the blocks with an empty hand to show all the blocks in the same sub-network.
+","その後、周波数をリーフノードに適用できます。
+1. [](item://theurgy:mercurial_wand)を装備してください。
+2. 挿入器または抽出器を右クリックして、その周波数を設定してください。
+3. 同じサブネットワークに含めるべきすべてのブロックについて繰り返してください。
+4. 同じサブネットワーク内のすべてのブロックを表示するには、空の手でそれらのいずれかを右クリックしてください。
+"
+book.theurgy.the_hermetica.new.intro.help.text,"If the reader finds themselves in trouble of any kind, prompt assistance will be provided at the Council of Alchemists, known also as Kli Kli's Discord Server.
+\
+\
+[To get help, join us at https://discord.gg/trE4SHRXvb](https://discord.gg/trE4SHRXvb)
+","読者が何らかの問題に直面した場合、Kli Kliの錬金術評議会としても知られるDiscordサーバーで迅速なサポートが提供されます。
+\
+\
+[ヘルプを得るには、https://discord.gg/trE4SHRXvbに参加してください](https://discord.gg/trE4SHRXvb)
+"
+item.theurgy.alchemical_sulfur_crystallized.source,Crystallized,結晶化
+item.theurgy.fermentation_starter.tooltip.extended,"An extract of sugar and plant material that exhibits a high fermentation potential. Can be used as a more efficient alternative to raw sugar or crops in the Fermentation Vat.
+","砂糖と植物材料の抽出物で、高い発酵ポテンシャルを示します。蒸留甕での生の砂糖または作物への、より効率的な代替案として使用できます。
+"

@@ -165,7 +165,7 @@ mmr.gui.button.page.next,Next Page,次ページ
 mmr.gui.button.page.prev,Prev Page,前ページ
 mmr.gui.core.button,Click to show info about core number %s,クリックしてコア番号%sに関する情報を表示
 mmr.gui.element.experience.level,%s level(s),%sレベル
-mmr.gui.element.experience.tooltip,%s / %s,%s / %s
+mmr.gui.element.experience.tooltip,%s / %s,
 mmr.gui.element.experience.tooltip.input,Require: %s / %s,必要条件: %s / %s
 mmr.gui.element.experience.tooltip.output,Produce: %s / %s,生産: %s / %s
 mmr.gui.popup.cancel,Cancel,キャンセル
@@ -207,18 +207,18 @@ mmr.recipe.modifier.speed.ADDITION," (%s the speed of processing the recipe)",(%
 mmr.recipe.modifier.speed.MULTIPLICATION," (x%s the speed of processing the recipe)",(x%s でレシピ処理速度)
 modular_machinery_reborn.command.reload.machines,Successfully reloaded modular machinery machines !,モジュラー機械マシンを正常にリロードしました！
 modular_machinery_reborn.command.reload.recipes,Successfully reloaded modular machinery recipes !,モジュラー機械のレシピを正常にリロードしました！
-modular_machinery_reborn.controller.control,[CTRL],[CTRL]
+modular_machinery_reborn.controller.control,[CTRL],
 modular_machinery_reborn.controller.control.modifier,to show the modifier blocks,修飾子ブロックを表示するために
 modular_machinery_reborn.controller.modifier,Modifiers:,修飾子:
 modular_machinery_reborn.controller.no_machine,No machine provided,マシンが提供されていません
 modular_machinery_reborn.controller.required,Required:,必要条件:
-modular_machinery_reborn.controller.required.block,%s,%s
+modular_machinery_reborn.controller.required.block,%s,
 modular_machinery_reborn.controller.required.block.key,Press [%s] to show full info,［%s］を押して詳細情報を表示
-modular_machinery_reborn.controller.required.control,CTRL,CTRL
-modular_machinery_reborn.controller.required.item,%s %s,%s %s
-modular_machinery_reborn.controller.required.shift,SHIFT,SHIFT
-modular_machinery_reborn.controller.required.tag,%s,%s
-modular_machinery_reborn.controller.shift,[SHIFT],[SHIFT]
+modular_machinery_reborn.controller.required.control,CTRL,
+modular_machinery_reborn.controller.required.item,%s %s,
+modular_machinery_reborn.controller.required.shift,SHIFT,
+modular_machinery_reborn.controller.required.tag,%s,
+modular_machinery_reborn.controller.shift,[SHIFT],
 modular_machinery_reborn.controller.shift.blocks,to show the required blocks,必要なブロックを表示する
 modular_machinery_reborn.controller.tooltip.0,Click in placed controller with blueprint,設置されたコントローラをクリックして青写真を選択
 modular_machinery_reborn.controller.tooltip.1,to show the structure around the controller.,コントローラの周囲の構造を表示するために。
@@ -230,9 +230,9 @@ modular_machinery_reborn.gui.title.energy_hatch,Energy Hatch,エネルギーハ�
 modular_machinery_reborn.gui.title.fluid_hatch,Fluid Hatch,液体ハッチ
 modular_machinery_reborn.gui.title.item_bus,Item Bus,アイテムバス
 modular_machinery_reborn.gui.title.parallel_hatch,Parallel Hatch,並列ハッチ
-modular_machinery_reborn.ingredient.chance,%s%s,%s%s
+modular_machinery_reborn.ingredient.chance,%s%s,
 modular_machinery_reborn.ingredient.chance.input,Chance to be consumed: %s%s,消費される確率: %s%s
-modular_machinery_reborn.ingredient.chance.nc,NC,NC
+modular_machinery_reborn.ingredient.chance.nc,NC,
 modular_machinery_reborn.ingredient.chance.not_consumed,Not Consumed,FEを%s保管
 modular_machinery_reborn.ingredient.chance.output,Chance to be produced: %s%s,生成される確率: %s%s
 modular_machinery_reborn.ingredient.durability.consume,Consume %s durability,%s耐久値を消費します。
@@ -254,10 +254,10 @@ modular_machinery_reborn.jei.ingredient.experience.output,Produce %s XP,%s XPを
 modular_machinery_reborn.jei.ingredient.fluid.input,Require %s %s mB,必要: %s %s mB
 modular_machinery_reborn.jei.ingredient.fluid.output,Produce %s %s mB,生産: %s %s mB
 modular_machinery_reborn.jei.ingredient.height,Height: %s,高さ: %s
-modular_machinery_reborn.jei.ingredient.int,%s,%s
+modular_machinery_reborn.jei.ingredient.int,%s,
 modular_machinery_reborn.jei.ingredient.item.input,Require,必要
 modular_machinery_reborn.jei.ingredient.item.output,Produce,生産
-modular_machinery_reborn.jei.ingredient.long,%s,%s
+modular_machinery_reborn.jei.ingredient.long,%s,
 modular_machinery_reborn.jei.ingredient.time,Time: %s,時間: %s
 modular_machinery_reborn.jei.ingredient.weather,Weather time: %s,天候時間: %s
 modular_machinery_reborn.structure_creator.amount,%s blocks selected,%sブロックが選択されました
@@ -275,10 +275,10 @@ modular_machinery_reborn.structure_creator.reset,Right click in the air while cr
 modular_machinery_reborn.structure_creator.select,Right click a block to add or remove it. If block has GUI shift click to add or remove it.,ブロックを右クリックして追加または削除します。GUI付きのブロックの場合はShiftキーを押しながらクリックして追加または削除します。
 tooltip.blueprint,Click on any machine controller to show the structure,任意のマシンコントローラーをクリックすると構造が表示されます
 tooltip.constructtool.creative,Creative Structure-To-JSON Tool,クリエイティブ構造からJSONツール
-tooltip.energy.type.fe,FE,FE
-tooltip.energy.type.gt_eu,EU,EU
-tooltip.energy.type.ic2_eu,EU,EU
-tooltip.energyhatch.charge,%s / %s %s,%s / %s %s
+tooltip.energy.type.fe,FE,
+tooltip.energy.type.gt_eu,EU,
+tooltip.energy.type.ic2_eu,EU,
+tooltip.energyhatch.charge,%s / %s %s,
 tooltip.energyhatch.gregtech.amperage,Amperage: §e%s,アンペア: §e%s
 tooltip.energyhatch.gregtech.storage,Internal Energy Capacity: §9%s,内部エネルギー容量: §9%s
 tooltip.energyhatch.gregtech.voltage.in,Voltage IN: §a%s §7(§a%s§7),電圧入力: §a%s §7(§a%s§7)
@@ -299,22 +299,21 @@ tooltip.experiencehatch.tank.points,%s / %s XP,%s / %s 経験値
 tooltip.fluidhatch.empty,Empty,空
 tooltip.fluidhatch.fluid,[Fluid],[液体]
 tooltip.fluidhatch.gas,[Gas],[ガス]
-tooltip.fluidhatch.tank,%smb / %smb,%smb / %smb
-tooltip.fluidhatch.tank.gas,%s / %s,%s / %s
+tooltip.fluidhatch.tank.gas,%s / %s,
 tooltip.fluidhatch.tank.info,Can hold %s mb,最大 %s mb を保持できます
-tooltip.ic2.powertier.0.name,ULV,ULV
-tooltip.ic2.powertier.1.name,LV,LV
-tooltip.ic2.powertier.10.name,UEV,UEV
-tooltip.ic2.powertier.11.name,UIV,UIV
-tooltip.ic2.powertier.12.name,UXV,UXV
-tooltip.ic2.powertier.2.name,MV,MV
-tooltip.ic2.powertier.3.name,HV,HV
-tooltip.ic2.powertier.4.name,EV,EV
-tooltip.ic2.powertier.5.name,IV,IV
-tooltip.ic2.powertier.6.name,LuV,LuV
-tooltip.ic2.powertier.7.name,ZPM,ZPM
-tooltip.ic2.powertier.8.name,UV,UV
-tooltip.ic2.powertier.9.name,UHV,UHV
+tooltip.ic2.powertier.0.name,ULV,
+tooltip.ic2.powertier.1.name,LV,
+tooltip.ic2.powertier.10.name,UEV,
+tooltip.ic2.powertier.11.name,UIV,
+tooltip.ic2.powertier.12.name,UXV,
+tooltip.ic2.powertier.2.name,MV,
+tooltip.ic2.powertier.3.name,HV,
+tooltip.ic2.powertier.4.name,EV,
+tooltip.ic2.powertier.5.name,IV,
+tooltip.ic2.powertier.6.name,LuV,
+tooltip.ic2.powertier.7.name,ZPM,
+tooltip.ic2.powertier.8.name,UV,
+tooltip.ic2.powertier.9.name,UHV,
 tooltip.itembus.slot,1 Slot,1スロット
 tooltip.itembus.slots,%s Slots,%s スロット
 tooltip.machinery.blueprint.required,"Requires Blueprint"",",ブルーブートが必要
@@ -336,3 +335,6 @@ tooltip.machinery.fuel.in,Required total Fuel Burntime:,必要な燃料の燃焼
 tooltip.machinery.fuel.in.total,%s ticks.,%s タイク。
 tooltip.machinery.fuel.item,BurnTime: %s,燃焼時間: %s
 tooltip.parallelhatch.size,Can make the multiblock run up to %s recipes,最大%sレシピまでマルチブロックを実行できる
+craftcheck.failure.parallel.loot_table,"Can't process multiple Loot Tables at the same time, remove the Parallel Hatch to process this recipe.",
+item.modular_machinery_reborn.modularium,Modularium,
+tooltip.fluidhatch.tank,%smb / %smb,

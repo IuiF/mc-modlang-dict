@@ -85,7 +85,6 @@ in this palette with the current defaults?",欠落しているすべての色を
 jm.colorpalette.global,Global,グローバル
 jm.colorpalette.hostile_dot,Hostile Dot,敵性ドット
 jm.colorpalette.hostile_label,Hostile Label,敵対ラベル
-jm.colorpalette.id,ID,ID
 jm.colorpalette.manage_colors_title,Manage Colors,色を管理
 jm.colorpalette.manage_palettes,Manage Palettes...,パレット管理…
 jm.colorpalette.manage_palettes_title,Manage Palettes,パレットを管理
@@ -110,7 +109,7 @@ jm.colorpalette.save_to_world,Save to World,ワールドへ保存
 jm.colorpalette.select_all,Select all,すべて選択
 jm.colorpalette.select_same_color,Select same color,同じ色を選択
 jm.colorpalette.self_arrow,Self Arrow,自己矢
-jm.colorpalette.sort.property,sort,sort
+jm.colorpalette.sort.property,sort,
 jm.colorpalette.sort.property.ascending,ascending,昇順
 jm.colorpalette.states,States: %1$s,状態: %1$s
 jm.colorpalette.total_biomes,Total biomes: %1$s,総バイオーム数: %1$s
@@ -122,8 +121,7 @@ jm.colorpalette.villager_label,Villager Label,村人ラベル
 jm.colorpalette.world,World,ワールド
 jm.common.action_bar.waypoint_rendering.message,JourneyMap: Waypoint rendering %1$s§f press [%2$s] to %3$s.,JourneyMap: ワンポイント描画 %1$s§f [%2$s] を押して %3$s します。
 jm.common.action_bar.waypoint_rendering.toggle.enable,§2Enabled,§2有効
-jm.common.action_bar.waypoint_rendering.toggle.opposite.disabled,§edisable§f,§edisable§f
-jm.common.action_bar.waypoint_rendering.toggle.opposite.enable,§eenable§f,§eenable§f
+jm.common.action_bar.waypoint_rendering.toggle.opposite.enable,§eenable§f,
 jm.common.actions,Actions,アクション
 jm.common.addon_options,Addon Options,アドオンオプション
 jm.common.addon_options_invalid,No Addons with Options Found,オプション付きアドオンが見つかりませんでした
@@ -273,21 +271,21 @@ jm.common.location_format,Location,場所
 jm.common.location_format.tooltip,Format of how location coordinates are displayed. Note: 'v' stands for vertical chunk.,座標をどのような形式で表示するかを指定します。「V」は高さのスライスの数値です。
 jm.common.location_format_verbose,Verbose Location,座標の記述を細かくする
 jm.common.location_format_verbose.tooltip,"Location shows coordinate names (x,y,z) with the numbers",ミニマップ下などの座標を、「x/y/z」の記号付きで表示します
-jm.common.location_xyvz_label,"x, y (v), z","x, y (v), z"
-jm.common.location_xyvz_plain,"%1$s, %3$s (%4$s), %2$s","%1$s, %3$s (%4$s), %2$s"
-jm.common.location_xyvz_verbose,"x: %1$s, y: %3$s (%4$s), z: %2$s","x: %1$s, y: %3$s (%4$s), z: %2$s"
-jm.common.location_xyz_label,"x, y, z","x, y, z"
-jm.common.location_xyz_plain,"%1$s, %3$s, %2$s","%1$s, %3$s, %2$s"
-jm.common.location_xyz_verbose,"x: %1$s, y: %3$s, z: %2$s","x: %1$s, y: %3$s, z: %2$s"
-jm.common.location_xz_label,"x, z","x, z"
-jm.common.location_xz_plain,"%1$s, %2$s","%1$s, %2$s"
-jm.common.location_xz_verbose,"x: %1$s, z: %2$s","x: %1$s, z: %2$s"
-jm.common.location_xzy_label,"x, z, y","x, z, y"
-jm.common.location_xzy_plain,"%1$s, %2$s, %3$s","%1$s, %2$s, %3$s"
-jm.common.location_xzy_verbose,"x: %1$s, z: %2$s, y: %3$s","x: %1$s, z: %2$s, y: %3$s"
-jm.common.location_xzyv_label,"x, z, y (v)","x, z, y (v)"
-jm.common.location_xzyv_plain,"%1$s, %2$s, %3$s (%4$s)","%1$s, %2$s, %3$s (%4$s)"
-jm.common.location_xzyv_verbose,"x: %1$s, z: %2$s, y: %3$s (%4$s)","x: %1$s, z: %2$s, y: %3$s (%4$s)"
+jm.common.location_xyvz_label,"x, y (v), z",
+jm.common.location_xyvz_plain,"%1$s, %3$s (%4$s), %2$s",
+jm.common.location_xyvz_verbose,"x: %1$s, y: %3$s (%4$s), z: %2$s",
+jm.common.location_xyz_label,"x, y, z",
+jm.common.location_xyz_plain,"%1$s, %3$s, %2$s",
+jm.common.location_xyz_verbose,"x: %1$s, y: %3$s, z: %2$s",
+jm.common.location_xz_label,"x, z",
+jm.common.location_xz_plain,"%1$s, %2$s",
+jm.common.location_xz_verbose,"x: %1$s, z: %2$s",
+jm.common.location_xzy_label,"x, z, y",
+jm.common.location_xzy_plain,"%1$s, %2$s, %3$s",
+jm.common.location_xzy_verbose,"x: %1$s, z: %2$s, y: %3$s",
+jm.common.location_xzyv_label,"x, z, y (v)",
+jm.common.location_xzyv_plain,"%1$s, %2$s, %3$s (%4$s)",
+jm.common.location_xzyv_verbose,"x: %1$s, z: %2$s, y: %3$s (%4$s)",
 jm.common.log_warning,Log level %1$s will slow down the game. Do not use for normal gameplay!,ログレベル「%1$s」はゲームの動作を著しく重くします。通常のプレイでは使わないで下さい!
 jm.common.map.render_only_player_chunk,Map only Player Chunk,プレイヤーチャンクのみマップ
 jm.common.map.render_only_player_chunk.tooltip,"This setting only maps the chunk the player is currently standing it.
@@ -568,7 +566,7 @@ jm.config.file_header_4,"To restore the default settings, simply delete this fil
 jm.config.file_header_5,"For more information, go to: %1$s",詳しい情報はこちらをご確認下さい: %1$s
 jm.config.reset,Reset,リセット
 jm.config.reset.tooltip,Reset all options in this section back to their default values,このセクションの全ての設定を初期値にリセットします
-jm.config.tooltip_format,%1$s%2$s,%1$s%2$s
+jm.config.tooltip_format,%1$s%2$s,
 jm.error.compatability,Incompatability error running %1$s for Forge %2$s. Ensure your version of Forge is compatible.,Forge %2$s で、 %1$s の動作に問題が発生しました。JourneyMapに対応している正しいバージョンのForgeを使って下さい。
 jm.error.java6,JourneyMap requires Java 7 or Java 8. Update your launcher profile to use a newer version of Java.,JourneyMapの動作にはJava 7 もしくは Java 8が必要です。ランチャーでProfileを編集し、新バージョンのJavaを使って下さい。
 jm.feature.fairplay,FairPlay,フェアプレイ版
@@ -584,7 +582,7 @@ jm.fullscreen.hotkeys_west,Pan West (16 Blocks),西にスクロール (16 ブロ
 jm.fullscreen.map_biome,Biome,バイオーム
 jm.fullscreen.map_cave_layers,Cave Layers,洞窟層
 jm.fullscreen.map_cave_layers.button,Vertical Chunk :,垂直チャンク :
-jm.fullscreen.map_cave_layers.button.tooltip,y:%1$s - y:%2$s,y:%1$s - y:%2$s
+jm.fullscreen.map_cave_layers.button.tooltip,y:%1$s - y:%2$s,
 jm.fullscreen.map_caves,Caves,洞窟
 jm.fullscreen.map_day,Day,昼
 jm.fullscreen.map_night,Night,夜
@@ -816,7 +814,7 @@ jm.server.edit.option.all,All,すべて
 jm.server.edit.option.all.tooltip,Enabled for Everyone,全員に有効
 jm.server.edit.option.none,None,なし
 jm.server.edit.option.none.tooltip,Disabled for Everyone,全員に無効化
-jm.server.edit.option.op,Op,Op
+jm.server.edit.option.op,Op,
 jm.server.edit.option.op.tooltip,Enabled for only Opped Users,オペレータのみ有効化
 jm.server.edit.radar,Radar General,レーダー一般
 jm.server.edit.radar.chkbox.animal,Animal Radar,動物レーダー
@@ -868,7 +866,7 @@ jm.theme.labelsource.day,Minecraft Day,Minecraft日
 jm.theme.labelsource.day.tooltip,Show the current day in the world.,現在の日付を世界で表示する。
 jm.theme.labelsource.dimension,Dimension,ディメンション
 jm.theme.labelsource.dimension.tooltip,Shows current Dimension,現在のディメンションを表示する
-jm.theme.labelsource.fps,FPS,FPS
+jm.theme.labelsource.fps,FPS,
 jm.theme.labelsource.fps.tooltip,Show current Frames Per Second,現在のフレーム毎秒を表示
 jm.theme.labelsource.gametime,Game Time,ゲーム内時間
 jm.theme.labelsource.gametime.night,Night,夜
@@ -956,7 +954,7 @@ jm.waypoint.disable_waypoints,Disable All,すべて無効化
 jm.waypoint.disable_waypoints.tooltip,Disable only the current visible  Waypoints in the list.,リスト内の現在表示されているワープポイントのみを無効にする。
 jm.waypoint.display_management,Waypoint In-Game Display and Management,ウェイポイントのゲーム内での表示と管理
 jm.waypoint.distance,Distance,距離
-jm.waypoint.distance_meters,(%1$sm),(%1$sm)
+jm.waypoint.distance_meters,(%1$sm),
 jm.waypoint.double_click_create,Double Click to Create,ダブルクリックで作成
 jm.waypoint.double_click_create.tooltip,Double clicking on the fullscreen map will create a waypoint at location.,フルスクリーンマップをダブルクリックすると、その位置にウェイポイントが作成されます。
 jm.waypoint.edit,Edit,編集
@@ -981,9 +979,9 @@ jm.waypoint.editor.field,Single Field,単一フィールド
 jm.waypoint.editor.field.tooltip,"Use a single field for comma separated values, useful for copy and pasting from external sources.",カンマで区切られた値を1つのフィールドに入力してください。外部ソースからコピー＆ペーストする際に便利です。
 jm.waypoint.editor.options,Waypoint Editor Options,ワープポイントエディタオプション
 jm.waypoint.editor.options.tooltip,Edit the waypoint editor.,ウェイポイント編集器を開く
-jm.waypoint.editor.xzy,"X, Z, Y","X, Z, Y"
+jm.waypoint.editor.xzy,"X, Z, Y",
 jm.waypoint.editor.xzy.tooltip,"Use the original ""X, Z, Y"" layout for buttons","ボタンには元の「X, Z, Y」レイアウトを使用してください"
-jm.waypoint.editor.zyz,"X, Y, Z","X, Y, Z"
+jm.waypoint.editor.zyz,"X, Y, Z",
 jm.waypoint.editor.zyz.tooltip,"Use ""X, Y, Z"" layout for buttons","「X, Y, Z」レイアウトでボタンを配置してください"
 jm.waypoint.enable,Enabled: %1$s,有効: %1$s
 jm.waypoint.enable.toggle,Enable: %s,有効化: %s
@@ -1003,7 +1001,7 @@ jm.waypoint.find.tooltip,Goes to Waypoint on Fullscreen Map,フルスクリー�
 jm.waypoint.font_scale,Font Scale,文字の大きさ
 jm.waypoint.font_scale.tooltip,The font scale used to display waypoint labels in-game.,ゲーム内のウェイポイントに表示される文字の大きさを設定します。
 jm.waypoint.green_abbreviated,G,緑
-jm.waypoint.group.edit.id,Id: %s,Id: %s
+jm.waypoint.group.edit.id,Id: %s,
 jm.waypoint.group.edit.label,Edit Group,グループを編集
 jm.waypoint.group.edit.tag,Tag: %s,タグ: %s
 jm.waypoint.group.edit.waypoints,Waypoints: %s,ウェイポイント: %s
@@ -1099,13 +1097,13 @@ jm.waypoint.show_rotating_beam,Rotating Beam,ビームを回転させる
 jm.waypoint.show_rotating_beam.tooltip,Use a rotating outer beam for the waypoint beacons,ウェイポイントのビーコンの光を回転させます。
 jm.waypoint.show_static_beam,Stationary Beam,ビームを静止させる
 jm.waypoint.show_static_beam.tooltip,Use a stationary inner beam for the waypoint beacons,ウェイポイントのビーコンの光を静止させます。
-jm.waypoint.single_field,"X, Y, Z","X, Y, Z"
+jm.waypoint.single_field,"X, Y, Z",
 jm.waypoint.single_field.tooltip,"Must be formatted as ""x,y,z"" or ""x, y, z"" numeric values.","「x,y,z」または「x, y, z」の形式で数値を入力してください。"
 jm.waypoint.slot.enabled,Enabled: %s,有効化: %s
 jm.waypoint.slot.group,Group: %s,グループ: %s
-jm.waypoint.slot.mod_id,ModId: %s,ModId: %s
+jm.waypoint.slot.mod_id,ModId: %s,
 jm.waypoint.slot.pos,Position: %s,位置: %s
-jm.waypoint.sort.property,sort,sort
+jm.waypoint.sort.property,sort,
 jm.waypoint.sort.property.ascending,ascending,昇順
 jm.waypoint.teleport,Teleport,テレポート
 jm.waypoint.teleport.tooltip,Teleport to Waypoint,ウェイポイントへテレポート
@@ -1126,9 +1124,6 @@ jm.waypoint.waypoints,Waypoints,ウェイポイント
 jm.waypoint.waypoints_button,Waypoints...,ウェイポイント...
 jm.waypoint.world.render_enabled,Render World Waypoints,ワールドウェイポイントを描画
 jm.waypoint.world.render_enabled.tooltip,Disables/Enables rendering of all waypoints in world. This does not change whether waypoints are enabled or disabled,ワールド内のすべてのウェイポイントの描画を無効/有効にします。これはウェイポイントが有効か無効かには影響しません。
-jm.waypoint.x,X,X
-jm.waypoint.y,Y,Y
-jm.waypoint.z,Z,Z
 jm.webmap.actions_title,Actions,アクション
 jm.webmap.animals_menu_item_text,Animals,動物
 jm.webmap.animals_menu_item_title,Show nearby animals,近くの動物を表示
@@ -1160,7 +1155,6 @@ jm.webmap.error_world_not_opened,Minecraft World Not Opened,マイクラ内で�
 jm.webmap.follow_button_title,Auto-center the map on you. (Turns off if you manually pan.),プレイヤーに追従してスクロール (自分でスクロールしたい場合はチェックを外して下さい。)
 jm.webmap.follow_twitter_text,Follow JourneyMapMod on Twitter,TwitterでJourneyMapをフォロー
 jm.webmap.follow_twitter_title,Follow JourneyMapMod on Twitter,TwitterでJourneyMapをフォロー
-jm.webmap.forum_link_text,minecraftforum.net,minecraftforum.net
 jm.webmap.forum_link_title,JourneyMap forum on minecraftforum.net,JourneyMapのフォーラム
 jm.webmap.google_domain,Google Maps API Domain,Goole MapsのAPIのドメイン
 jm.webmap.google_domain.tooltip,"If your country blocks maps.google.com, select a different domain for the Google Maps API.",あなたの地域でmaps.google.comがブロックされている場合、地域に合わせたドメインを指定して下さい。
@@ -1190,7 +1184,6 @@ jm.webmap.villagers_menu_item_text,Villagers,村人
 jm.webmap.villagers_menu_item_title,Show nearby villagers,近くの村人を表示する
 jm.webmap.waypoints_menu_item_text,Waypoints,ウェイポイント
 jm.webmap.waypoints_menu_item_title,Show waypoints,ウェイポイントを表示
-jm.webmap.web_link_text,journeymap.info,journeymap.info
 jm.webmap.web_link_title,JourneyMap homepage,JourneyMapのホームページ
 jm.webmap.worldname_text,World Name:,ワールドの名前:
 jm.webmap.worldtime_text,World Time:,ワールドの時間:
@@ -1222,3 +1215,47 @@ key.journeymap.toggle_render_waypoints_world,Toggle Waypoint World Rendering,ワ
 key.journeymap.toggle_waypoints,Toggle All Waypoints,全ウェイポイントを切替
 key.journeymap.zoom_in,Zoom In,ズームイン
 key.journeymap.zoom_out,Zoom Out,ズームアウト
+jm.colorpalette.cancel,Cancel,
+jm.common.action_bar.waypoint_rendering.toggle.disabled,§4Disabled,
+jm.common.automap_dialog_summary_2,"'Blend Foliage', 'Blend Grass', and 'Blend Water'.",
+jm.common.block_flag.ignore,Ignore,
+jm.common.block_flag.water,Water,
+jm.common.chat_announcement,§eJourneyMap:§f %1$s,
+jm.common.curseforge,CurseForge,
+jm.common.discord,JourneyMap Discord,
+jm.common.entity_display.icons,Icons,
+jm.common.fullscreen.minimal_mode,Minimal UI,
+jm.common.fullscreen_drag_scale,Drag Scale,
+jm.common.info_slot.weather.clear,Clear,
+jm.common.map_filter.default,Default,
+jm.common.map_type.biome,Biome,
+jm.common.map_type.night,Night,
+jm.common.map_type.surface,Surface,
+jm.common.map_type.topo,Topo,
+jm.common.modrinth,Modrinth,
+jm.common.renderdistance_synced,%1$s §eSynced§r: %2$s,
+jm.common.renderstats_debug_topo,Topo: %1$s (%2$s) + %3$s (%4$s) = %5$s chunks in %6$sms (avg %7$sms),
+jm.common.renderstats_debug_topo_simple,Topo: %1$s = %2$s chunks in %3$sms (avg %4$sms),
+jm.common.reset,Reset,
+jm.common.system_time_format.tooltip,"""Time format for the InfoSlot:System Time""",
+jm.common.time_format.tooltip,Time format for the InfoSlots for game time.,
+jm.common.topo.height.max_synced,%1$s §eSynced§r: %2$s,
+jm.minimap.cave_slice.slider.tooltip,The 16 vertical slice to lock the minimap to when set to underground. This option is disabled when Map Type is not set to underground.,
+jm.mod.addon.pokemon.options.category,Pokemon Options,
+jm.server.edit.tracking.tooltip,"If [player radar] is [enabled] this feature allows the server to track players outside of the range of the client.
+Players can see each other on the map no matter the distance as long as they are in the same dimension.
+If this is [enabled] and player radar is [disabled] this feature will not work.
+If this is [disabled] and player radar is [enabled] this feature will not work, but proximity radar will still work.",
+jm.theme.labelsource.gametime.day,Daytime,
+jm.theme.labelsource.gametime.real.tooltip,"Minecraft Time has a new day starting at 6am, this setting offsets that by 6 hours so it shows a new day starting at midnight.",
+jm.theme.labelsource.gametime.sunrise,Sunrise,
+jm.waypoint.delete.confirm.title,Delete Waypoint %s,
+jm.waypoint.disable,Disable,
+jm.waypoint.disable_waypoint,Disable,
+jm.colorpalette.id,ID,
+jm.waypoint.x,X,
+jm.waypoint.y,Y,
+jm.waypoint.z,Z,
+jm.common.action_bar.waypoint_rendering.toggle.opposite.disabled,§edisable§f,
+jm.webmap.forum_link_text,minecraftforum.net,
+jm.webmap.web_link_text,journeymap.info,

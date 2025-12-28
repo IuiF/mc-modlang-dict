@@ -11,10 +11,10 @@ item.command_trigger_item.name,Command Trigger Item,コマンドトリガーア�
 item.nbt_checker.name,NBT Checker,NBTチェック
 death.attack.lppthrown,%1$s was dispatched by %2$s,%1$s は %2$s によって派遣されました
 death.attack.lppthrown.item,%1$s was dispatched by %2$s using %3$s,%1$s は %2$s によって %3$s を使用して送信されました。
-commands.lootpp.give.usage,/lppgive <player> <item> [amount] [data] [dataTag],/lppgive <player> <item> [amount] [data] [dataTag]
+commands.lootpp.give.usage,/lppgive <player> <item> [amount] [data] [dataTag],
 commands.lootpp.defaultgamemode.usage,/lppdefaultgamemode <mode>,エンティティデータを更新しました: %s
 commands.lootpp.defaultgamemode.success,The world's default game mode is now %s,世界のデフォルトゲームモードは現在 %s です。
-commands.lootpp.blockdata.usage,/lppblockdata <x> <y> <z> <dataTag>,/lppblockdata <x> <y> <z> <dataTag>
+commands.lootpp.blockdata.usage,/lppblockdata <x> <y> <z> <dataTag>,
 commands.lootpp.blockdata.success,Block data updated to: %s,ブロックデータを更新しました: %s
 commands.lootpp.blockdata.tagError,Data tag parsing failed: %s,データタグ解析に失敗しました：%s
 commands.lootpp.blockdata.outOfWorld,Cannot change block outside of the world,世界外のブロックを変更できません
@@ -30,7 +30,7 @@ commands.lootpp.clone.noOverlap,Source and destination can not overlap,ソース
 commands.lootpp.clone.success,%d blocks cloned,%d ブロックがクローンされました
 commands.lootpp.clone.failed,No blocks cloned,ブロックがクローンされていません
 commands.lootpp.clone.tooManyBlocks,Too many blocks in the specified area (%d > %d),指定領域にブロックが多すぎます (%d > %d)
-commands.lootpp.compare.usage,/lpptestforblocks <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [mode],/lpptestforblocks <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [mode]
+commands.lootpp.compare.usage,/lpptestforblocks <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [mode],
 commands.lootpp.compare.outOfWorld,Cannot access blocks outside of the world,ワールド外のブロックにはアクセスできません。
 commands.lootpp.compare.failed,Source and destination are not identical,ソースとデスティネーションが同一ではありません
 commands.lootpp.compare.success,%d blocks compared,%d ブロック比較
@@ -38,16 +38,16 @@ commands.lootpp.compare.tooManyBlocks,Too many blocks in the specified area (%d 
 commands.lootpp.execute.usage,/lppexecute <entity> <x> <y> <z> <command> OR /execute <entity> <x> <y> <z> detect <x> <y> <z> <block> <data> <command>,/lppexecute <entity> <x> <y> <z> <command> または /execute <entity> <x> <y> <z> detect <x> <y> <z> <block> <data> <command>
 commands.lootpp.execute.allInvocationsFailed,All invocations failed: '%s',すべての呼び出しに失敗: '%s'
 commands.lootpp.execute.failed,Failed to execute '%s' as %s,実行に失敗しました：'%s' を %s として
-commands.lootpp.particle.usage,/lppparticle <name> <x> <y> <z> <xd> <yd> <zd> <xm> <ym> <zm> <speed> [count],/lppparticle <name> <x> <y> <z> <xd> <yd> <zd> <xm> <ym> <zm> <speed> [count]
+commands.lootpp.particle.usage,/lppparticle <name> <x> <y> <z> <xd> <yd> <zd> <xm> <ym> <zm> <speed> [count],
 commands.lootpp.particle.success,Playing effect %s for %d times,%s の演出を %d 回再生中
 commands.lootpp.particle.notFound,Unknown effect name (%s),効果名が不明 (%s)
-commands.lppentitydata.usage,/lppentitydata <entity> <dataTag>,/lppentitydata <entity> <dataTag>
+commands.lppentitydata.usage,/lppentitydata <entity> <dataTag>,
 commands.lppentitydata.success,Entity data updated to: %s,エンティティデータを次に更新しました: %s
 commands.lppentitydata.tagError,Data tag parsing failed: %s,データタグ解析に失敗しました：%s
 commands.lppentitydata.failed,The data tag did not change: %s,データタグは変更されませんでした：%s
 commands.lppcondition.success.true,Command succeeded; running true conditional command.,コマンドが成功しました；true 条件付きコマンドを実行しています。
 commands.lppcondition.success.false,Command failed; running false conditional command.,コマンドが失敗しました；偽の条件付きコマンドを実行しています。
-commands.lppnbtdump.usage,/lppnbtdump,/lppnbtdump
+commands.lppnbtdump.usage,/lppnbtdump,
 commands.lppnbtdump.success,Wrote NBT info for the items in your inventory to config/Loot++/IDs/NBTOutput.txt,インベントリ内のアイテムのNBT情報を書き込み、config/Loot++/IDs/NBTOutput.txt に保存しました。
 commands.lppnbtdump.failure,Couldn't write NBT info to config/Loot++/IDs/NBTOutput.txt,NBT 情報を config/Loot++/IDs/NBTOutput.txt に書き込めませんでした
 info.lppnbtdump.block,Wrote NBT info for the block to config/Loot++/IDs/NBTOutput.txt,ブロックのNBT情報を config/Loot++/IDs/NBTOutput.txt に書き込みました
@@ -55,3 +55,10 @@ info.lppnbtdump.block.nonbt,That block doesn't have a tile entity.,そのブロ�
 info.lppnbtdump.entity,Wrote NBT info for entity %s to config/Loot++/IDs/NBTOutput.txt,エンティティ %s のNBT情報を config/Loot++/IDs/NBTOutput.txt に書き込みました
 commands.lpplightning.usage,/lpplightning <Entity> or /lpplightning <X> <Y> <Z>,/lpplightning <Entity> または /lpplightning <X> <Y> <Z>
 commands.lpplightning.success,Summoned lightning,召喚された稲妻
+itemGroup.tabLootPP,Loot++,
+commands.lootpp.setblock.usage,/lppsetblock <x> <y> <z> <TileName> [dataValue] [oldBlockHandling] [dataTag],
+commands.lootpp.summon.usage,/lppsummon <EntityName> [x] [y] [z] [dataTag],
+commands.lootpp.testforblock.usage,/lpptestforblock <x> <y> <z> <TileName> [dataValue] [dataTag],
+commands.lootpp.fill.usage,/lppfill <x1> <y1> <z1> <x2> <y2> <z2> <TileName> [dataValue] [oldBlockHandling] [dataTag],
+commands.lootpp.clone.usage,/lppclone <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [maskMode] [cloneMode],
+commands.lppcondition.usage,/lppcondition <Condition Command> _if_true_ [True Command] _if_false_ [False Command],

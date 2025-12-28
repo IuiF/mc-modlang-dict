@@ -66,11 +66,11 @@ block.witherstormmod.tainted_button,Tainted Button,汚染されたボタン
 block.witherstormmod.tainted_carved_pumpkin,Tainted Carved Pumpkin,汚染された彫刻されたかぼちゃ
 block.witherstormmod.tainted_chiseled_sandstone,Tainted Chiseled Sandstone,汚染された彫刻済み砂岩
 block.witherstormmod.tainted_cobblestone,Tainted Cobblestone,汚染された丸石
-block.witherstormmod.tainted_cobblestone_slab,Tainted Cobblestone Slab,汚染された丸石のスラブ
+block.witherstormmod.tainted_cobblestone_slab,Tainted Cobblestone Slab,汚染された丸石のハーフブロック
 block.witherstormmod.tainted_cobblestone_stairs,Tainted Cobblestone Stairs,汚染された丸石階段
 block.witherstormmod.tainted_cobblestone_wall,Tainted Cobblestone Wall,汚染された丸石の壁
 block.witherstormmod.tainted_cut_sandstone,Tainted Cut Sandstone,汚染切断砂岩
-block.witherstormmod.tainted_cut_sandstone_slab,Tainted Cut Sandstone Slab,汚染された切断砂岩スラブ
+block.witherstormmod.tainted_cut_sandstone_slab,Tainted Cut Sandstone Slab,汚染された切断砂岩ハーフブロック
 block.witherstormmod.tainted_dirt,Tainted Dirt,汚染された土
 block.witherstormmod.tainted_door,Tainted Door,汚染された扉
 block.witherstormmod.tainted_dust,Tainted Dust,汚染された灰
@@ -80,7 +80,7 @@ block.witherstormmod.tainted_fence_gate,Tainted Fence Gate,汚染されたフェ
 block.witherstormmod.tainted_flesh_block,Tainted Flesh Block,汚染された肉ブロック
 block.witherstormmod.tainted_flesh_veins,Tainted Flesh Veins,汚染された肉静脈
 block.witherstormmod.tainted_glass,Tainted Glass,汚染されたガラス
-block.witherstormmod.tainted_glass_pane,Tainted Glass Pane,汚染されたガラスパネル
+block.witherstormmod.tainted_glass_pane,Tainted Glass Pane,汚染された板ガラス
 block.witherstormmod.tainted_jack_o_lantern,Tainted Jack o'Lantern,汚染されたジャック・オ・ランタン
 block.witherstormmod.tainted_leaves,Tainted Leaves,汚染された葉
 block.witherstormmod.tainted_log,Tainted Log,汚染された木
@@ -90,22 +90,22 @@ block.witherstormmod.tainted_pressure_plate,Tainted Pressure Plate,汚染され�
 block.witherstormmod.tainted_pumpkin,Tainted Pumpkin,汚染されたかぼちゃ
 block.witherstormmod.tainted_sand,Tainted Sand,汚染された砂
 block.witherstormmod.tainted_sandstone,Tainted Sandstone,汚染砂岩
-block.witherstormmod.tainted_sandstone_slab,Tainted Sandstone Slab,汚染された砂岩スラブ
+block.witherstormmod.tainted_sandstone_slab,Tainted Sandstone Slab,汚染された砂岩ハーフブロック
 block.witherstormmod.tainted_sandstone_stairs,Tainted Sandstone Stairs,汚染された砂岩階段
 block.witherstormmod.tainted_sandstone_wall,Tainted Sandstone Wall,汚染された砂岩壁
 block.witherstormmod.tainted_sign,Tainted Sign,汚染された看板
 block.witherstormmod.tainted_skeleton_wall,Tainted Skeleton Wall,汚染スケルトン壁
 block.witherstormmod.tainted_skull_ceiling,Tainted Skull Ceiling,汚染頭蓋骨天井
-block.witherstormmod.tainted_slab,Tainted Slab,汚染されたスラブ
+block.witherstormmod.tainted_slab,Tainted Slab,汚染されたハーフブロック
 block.witherstormmod.tainted_smooth_sandstone,Tainted Smooth Sandstone,汚染された滑らかな砂岩
-block.witherstormmod.tainted_smooth_sandstone_slab,Tainted Smooth Sandstone Slab,汚染された滑らかな砂岩スラブ
+block.witherstormmod.tainted_smooth_sandstone_slab,Tainted Smooth Sandstone Slab,汚染された滑らかな砂岩ハーフブロック
 block.witherstormmod.tainted_smooth_sandstone_stairs,Tainted Smooth Sandstone Stairs,汚れたスムーズサンドストーン階段
 block.witherstormmod.tainted_smooth_sandstone_wall,Tainted Smooth Sandstone Wall,汚染された滑らかな砂岩壁
 block.witherstormmod.tainted_stairs,Tainted Stairs,汚染された階段
 block.witherstormmod.tainted_stone,Tainted Stone,汚染された石
 block.witherstormmod.tainted_stone_button,Tainted Stone Button,汚染された石ボタン
 block.witherstormmod.tainted_stone_pressure_plate,Tainted Stone Pressure Plate,汚染された石プレスプレート
-block.witherstormmod.tainted_stone_slab,Tainted Stone Slab,汚染された石スラブ
+block.witherstormmod.tainted_stone_slab,Tainted Stone Slab,汚染された石ハーフブロック
 block.witherstormmod.tainted_stone_stairs,Tainted Stone Stairs,汚染された石階段
 block.witherstormmod.tainted_torch,Tainted Torch,汚染されたランプ
 block.witherstormmod.tainted_trapdoor,Tainted Trapdoor,汚染されたトラップドア
@@ -220,7 +220,7 @@ description.amulet.bind,Right-Click an entity to bind them to the selected color
 description.amulet.locked,Locked,ロック
 description.amulet.mainUse,Forces the Wither Storm to track the nearest player with an amulet,ウィザー・ストームがアミュレットを持つ最寄りプレイヤーを追跡するよう強制します。
 description.amulet.swap,Shift+Right-Click to swap colors,Shift+右クリックで色を入れ替える
-description.amulet.tracking,%s: %s,%s: %s
+description.amulet.tracking,%s: %s,
 description.amulet.trackingDesc,Tracks bound entities. Blue by default tracks the nearest Wither Storm,トラックは結び付けられたエンティティを追跡する。デフォルトでは青で最も近いウィザー・ストームを追跡する
 description.amulet.tracksEntityTypes,Tracks nearest entity of bounded type,境界付きタイプの最も近いエンティティを追跡する
 description.formidibomb.fuse,%s seconds till detonation!,%s 秒で爆発！
@@ -604,7 +604,7 @@ gui.witherstormmod.config.renderEmissiveDecalForHeads.description,Specifies if t
 gui.witherstormmod.config.renderEmissiveDecalForHeads.title,Render Emissive Decal For Heads,ヘッド用エミッシブデカールを描画する
 gui.witherstormmod.config.renderPulse.description,"Specifies if a pulsating effect, mimicking endermen pulling the Wither Storm apart, should be rendered once its evolution is complete.",進化が完了したときにエンダーマンがウィザーストームを引き裂いているようにみなすパルス効果をレンダリングするかを指定します。
 gui.witherstormmod.config.renderPulse.title,Render Pulse,レンダリングの脈動
-gui.witherstormmod.config.renderShine.description,Specifies if a purple shine should render behind the Wither Storm at night.,夜間にウィザー・ストームの後ろに紫色の光沢を描画するかどうかを指定します。
+gui.witherstormmod.config.renderShine.description,Specifies if a purple shine should render behind the Wither Storm at night.,夜間にウィザー・ストームの後ろに紫の光沢を描画するかどうかを指定します。
 gui.witherstormmod.config.renderShine.title,Render Shine,レンダリングの輝き
 gui.witherstormmod.config.renderSkyAmbienceEffects.description,Specifies if sky ambience affects (sky darkening) should render when a Wither Storm is nearby.,ウィザー・ストームが近くにいる場合、空の雰囲気（空の暗さ）が描画されるかどうかを指定します。
 gui.witherstormmod.config.renderSkyAmbienceEffects.title,Sky Ambience Effects,空の雰囲気効果
@@ -893,3 +893,19 @@ witherstormmod.subtitle.withered_symbiont_step,Withered Symbiont steps,枯れた
 witherstormmod.subtitle.withered_symbiont_summon,Withered Symbiont summons,枯れた共生体召喚
 witherstormmod.subtitle.withered_symbiont_theme,Withered Symbiont theme plays,枯れた共生体テーマが再生される
 witherstormmod.watermark.withered_symbiont_theme,Bound by Darkness by Mar Mar,闇に縛られたマル・マル
+advancements.witherstormmod.main.insane_dedication.title,Insane Dedication,
+chat.witherstormmod.optifine.notice,"WARNING: Cracker's Wither Storm Mod does not support OptiFine, issues may arise and certain performance features may be disabled. Click this message to see a list of incompatibilities and their potential fixes. This message will not show again.",
+config.witherstormmod.preset.client.high.title,High,
+description.phasometer.formidibombable,Is Formidibombable!,
+gui.witherstormmod.button.exit.title,Exit,
+gui.witherstormmod.config.minimumSpawnCheckInterval.description,"Specifies the minimum interval (+random) in seconds that the Wither Storm should check for Withered Symbiont spawn conditions.
+Range: 1 ~ 240",
+gui.witherstormmod.config.playerInvulnerableTime.description,"Specifies the time in minutes (+random) that the players who killed a Withered Symbiont should be ignored by the Wither Storm for.
+Range: 1 ~ 10",
+gui.witherstormmod.config.playerSummoningDelay.description,"Specifies the delay in minutes (+random) that the Wither Storm should be able summon a Withered Symbiont for the player it summoned one for.
+Range: 1 ~ 60",
+gui.witherstormmod.config.playerSummoningDelayOnKill.description,"If a player kills a Withered Symbiont, their sumoning delay will be increased to this value in minutes (+random).
+Range: 1 ~ 60",
+gui.witherstormmod.config.witherStormSummoningDelay.description,"Specifies the delay in minutes (+random) that the Wither Storm will be able to summon a Withered Symbiont.
+Range: 1 ~ 20",
+item.witherstormmod.formidi_blade.author,By: MegaMathew200,

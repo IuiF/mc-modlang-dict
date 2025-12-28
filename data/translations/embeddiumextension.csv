@@ -29,10 +29,10 @@ embeddiumextension.option.fog,%s Fog,%s 霧
 embeddiumextension.option.fog.tooltip,"Adjusts the fog effect distance on the terrain per dimension. Disable Multi Dimension Fog to control fog using Single Fog 
 0 - use vanilla fog settings
 1-32 - set fog distance in chunks
-33 - max fog distance (essentially disables fog)","地形のフォグ効果の距離をディメンション毎に調整します。マルチディメンションフォグを無効にすると、シングルフォグで制御できます。
-0 - バニラのフォグ設定を使用
-1-32 - チャンク単位でのフォグ距離を設定
-33 - 最大フォグ距離（実質的にフォグを無効化）"
+33 - max fog distance (essentially disables fog)","ディメンションごとに地形上の霧の距離を調整します。全てのディメンションで単一の霧の設定を使用したい場合、ディメンションごとの霧の設定を無効にしてください。
+0 - バニラの霧の設定を使用します。
+1-32 - 霧の距離をチャンクで指定します。
+33 - 霧の距離の最大値です。(実質的に霧を無効化します。)"
 embeddiumextension.option.fog_start,Fog Start Multiplier,霧の開始地点の倍数
 embeddiumextension.option.fog_start.tooltip,Adjusts when the terrain fog begins to render for the player.,プレイヤーのために地形上の霧の描画の開始地点を調整します。
 embeddiumextension.option.instant_sneak,Instant Sneak,インスタントスニーク
@@ -76,10 +76,10 @@ embeddiumextension.option.single_fog,Single Fog,単一の霧
 embeddiumextension.option.single_fog.tooltip,"Adjusts the fog effect distance on the terrain for all dimensions. Enable Multi Dimension Fog to control fog per dimension. 
 0 - use vanilla fog settings
 1-32 - set fog distance in chunks
-33 - max fog distance (essentially disables fog)","全ディメンション対象に、地形のフォグ効果の距離を調整します。マルチディメンションフォグを有効にするとディメンション毎に制御できます。
-0 - バニラのフォグ設定を使用
-1-32 - チャンク単位でのフォグ距離を設定
-33 - 最大フォグ距離（実質的にフォグを無効化）"
+33 - max fog distance (essentially disables fog)","全てのディメンションの地形上の霧の距離を調整します。ディメンションごとに違う霧の設定を使用したい場合、ディメンションごとの霧の設定を有効にしてください。
+0 - バニラの霧の設定を使用します。
+1-32 - 霧の距離をチャンクで指定します。
+33 - 霧の距離の最大値です。(実質的に霧を無効化します。)"
 embeddiumextension.option.sky,Sky,空
 embeddiumextension.option.sky.tooltip,"If enabled, the sky will be rendered.",有効にした場合、空は描画されます。
 embeddiumextension.option.sky_colors,Sky Colors,空の色
@@ -109,7 +109,7 @@ embeddiumextension.option.use_adaptive_sync.name,Adaptive,アダプティブ
 embeddiumextension.option.use_adaptive_sync.tooltip,"If enabled, V-Sync will be able to swap mid-frame and disable itself at times, usually notably helping responsiveness. May cause issues with some GPU drivers.",有効にした場合、垂直同期が描画をフレームの途中でスワップし、時にはそれ自体を無効にすることが出来ます。通常は顕著に応答性を向上させます。一部のGPUドライバーで問題が発生する可能性があります。
 embeddiumextension.option.use_fast_random,Use Fast Random,高速な乱数を使う
 embeddiumextension.option.use_fast_random.tooltip,"If enabled, a fast random function will be used for block rendering. This can affect the rotation of randomly rotated textures when compared to vanilla.",有効にした場合、高速な乱数関数がブロックレンダリングに使用されます。バニラと比較したとき、ランダムに回転するテクスチャの向きに影響を与える可能性があります。
-embeddiumextension.overlay.coordinates,"X: %s, Y: %s, Z: %s","X: %s, Y: %s, Z: %s"
+embeddiumextension.overlay.coordinates,"X: %s, Y: %s, Z: %s",
 embeddiumextension.overlay.light_updates,Light updates disabled,光の状態更新が無効
 embeddiumextension.suggestRSO.header,Suggestion: Install TexTrue's Rubidium Options,提案: TexTrue's Rubidium Optionsをインストールしましょう！
 options.animations.all,All The Animations,すべてのアニメーション
@@ -270,7 +270,7 @@ options.particles.minecraft.shriek.tooltip,Shown when a Sculk Shrieker triggers.
 options.particles.minecraft.small_flame,Small Flame,小さい炎
 options.particles.minecraft.small_flame.tooltip,Small Flame.,小さい炎のパーティクル
 options.particles.minecraft.smoke,Smoke,煙
-options.particles.minecraft.smoke.tooltip,"Torches, primed TNT, droppers, dispensers, end portals, brewing stands, spawners, furnaces, ghast fireballs, wither skulls, taming, withers, lava (when raining), placing an eye of ender in an end portal frame, redstone torches burning out, food items on campfire.",松明、着火したTNT、ドロッパー、ディスペンサー、エンドポータル、醸造スタンド、スポナー、かまど、ガストの火の玉、ウィザーの頭、馬ならし、ウィザー、溶岩（雨降時）、エンドポータルフレームにエンダーアイを配置、レッドストーン松明が燃え尽きる、焚き火の上の食糧アイテム。
+options.particles.minecraft.smoke.tooltip,"Torches, primed TNT, droppers, dispensers, end portals, brewing stands, spawners, furnaces, ghast fireballs, wither skulls, taming, withers, lava (when raining), placing an eye of ender in an end portal frame, redstone torches burning out, food items on campfire.",松明、着火したTNT、ドロッパー、ディスペンサー、エンドポータル、醸造台、スポナー、かまど、ガストの火の玉、ウィザースカル、手懐け、 ウィザー、溶岩(雨が降るとき)、エンダーアイをエンドポータルフレームの中に置く、レッドストーントーチが燃え尽きる、焚き火の食料の煙のパーティクル
 options.particles.minecraft.sneeze,Sneeze,くしゃみ
 options.particles.minecraft.sneeze.tooltip,Baby pandas sneezing.,子供のパンダのくしゃみのパーティクル
 options.particles.minecraft.snowflake,Snowflake,雪の結晶
@@ -307,3 +307,9 @@ options.particles.minecraft.white_ash,White Ash,白い灰
 options.particles.minecraft.white_ash.tooltip,Naturally generated in basalt deltas biome environment.,玄武岩の三角州で自然に発生するパーティクル
 options.particles.minecraft.witch,Witch,魔女
 options.particles.minecraft.witch.tooltip,Witch.,ウィッチがたまにだすパーティクル
+embeddiumextension.suggestRSO.message,"It is highly recommended you install TexTrue's Rubidium Options alongside Rubidium Extra. Due to the growing amount of features, it no longer fits properly on Rubidium's video options.",
+options.main.no_new_pages.tooltip,"Are you fed up with having so many pages of video settings?
+ Having to search for a long time every time you look for an option? 
+ Well, this option exists for you. 
+ If you enable this, instead of adding new pages (except particles settings), Embeddium Extension will insert its options into known Embeddium pages 
+ Re-enter video setting after enabling this to make it work",

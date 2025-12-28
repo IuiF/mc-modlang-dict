@@ -10,7 +10,7 @@ advancement.beachparty.get_all_beach_items.desc,Collect all currently available 
 advancement.beachparty.get_all_cocktails,The Big Sip,大きな一口
 advancement.beachparty.get_all_cocktails.desc,Collect all currently available Cocktails,すべての現在利用可能なカクテルを収集
 advancement.beachparty.get_all_music_discs,Summer Mixtape,夏のミックステープ
-advancement.beachparty.get_all_music_discs.desc,Collect all currently available Beachparty Music Discs,現在利用可能なビーチパーティ音楽ディスクをすべて集める
+advancement.beachparty.get_all_music_discs.desc,Collect all currently available Beachparty Music Discs,現在利用可能なビーチパーティレコードをすべて集める
 advancement.beachparty.get_any_artifact,Finders Keeper,発見者の守護者
 advancement.beachparty.get_any_artifact.desc,Obtain any Artifact,任意のアーティファクトを入手
 advancement.beachparty.get_any_cocktail,"Shaken, Not Stirred",シェイクせずに振る
@@ -53,7 +53,7 @@ block.beachparty.palm_fence,Palm Fence,ヤシのフェンス
 block.beachparty.palm_fence_gate,Palm Fence Gate,ヤシのフェンスゲート
 block.beachparty.palm_floorboard,Palm Floorboard,ヤシの床材
 block.beachparty.palm_glass,Palm Glass,パームグラス
-block.beachparty.palm_glass_pane,Palm Glass Pane,パームガラスパネル
+block.beachparty.palm_glass_pane,Palm Glass Pane,パーム板ガラス
 block.beachparty.palm_hanging_sign,Palm Hanging Sign,ヤシの吊り看板
 block.beachparty.palm_hanging_wall_sign,Palm Hanging Sign,ヤシの吊り看板
 block.beachparty.palm_leaves,Palm Leaves,ヤシの葉
@@ -71,7 +71,7 @@ block.beachparty.palm_wall_sign,Palm Sign,ヤシの看板
 block.beachparty.palm_wood,Palm Wood,ヤシの木
 block.beachparty.pumpkin_cocktail,Pumpkin Cocktail,カボチャカクテル
 block.beachparty.radio,Radio,ラジオ
-block.beachparty.sand_bucket_block_empty,Empty Sand Bucket,空の砂バケツ
+block.beachparty.sand_bucket_block_empty,Empty Sand Bucket,空の砂遊びバケツ
 block.beachparty.sand_bucket_block_filled,Filled Sand Bucket,砂入りバケツ
 block.beachparty.sand_bucket_empty,Empty Sand Bucket,空の砂遊びバケツ
 block.beachparty.sand_bucket_filled,Filled Sand Bucket,砂入りバケツ
@@ -79,8 +79,8 @@ block.beachparty.sand_pile,Sand Pile,砂の山
 block.beachparty.sandcastle,Sandcastle,砂の城
 block.beachparty.sandwaves,Sandwaves,砂浜
 block.beachparty.seashell_block,Seashell,二枚貝
-block.beachparty.stripped_palm_log,Stripped Palm Log,樹皮を剥いだヤシの原木
-block.beachparty.stripped_palm_wood,Stripped Palm Wood,樹皮を剥いだヤシの木
+block.beachparty.stripped_palm_log,Stripped Palm Log,樹皮を剥いたヤシの原木
+block.beachparty.stripped_palm_wood,Stripped Palm Wood,樹皮を剥いたヤシの木
 block.beachparty.sweetberries_cocktail,Sweetberry Cocktail,スイートベリーカクテル
 block.beachparty.tall_palm_torch,Tall Palm Torch,高いヤシの松明
 block.beachparty.thatch,Thatch,茅葺
@@ -106,15 +106,15 @@ item.beachparty.cooked_mussel_meat,Cooked Mussel Meat,調理された貝肉
 item.beachparty.crocs,Crocs,クロックス
 item.beachparty.floaty_boat,Floaty Boat,浮き船
 item.beachparty.floaty_chest_boat,Floaty Chest Boat,チェスト付きのゴムボート
-item.beachparty.music_disc_beachparty,Music Disc,音楽ディスク
+item.beachparty.music_disc_beachparty,Music Disc,レコード
 item.beachparty.music_disc_beachparty.desc,Kevin MacLeod - Beachparty,キービン・マクレール - ビーチパーティー
-item.beachparty.music_disc_caribbean_beach,Music Disc,音楽ディスク
+item.beachparty.music_disc_caribbean_beach,Music Disc,レコード
 item.beachparty.music_disc_caribbean_beach.desc,Pecan Pie - Caribbean Beach,ピーナッツパイ - カリブ海ビーチ
-item.beachparty.music_disc_pridelands,Music Disc,音楽ディスク
+item.beachparty.music_disc_pridelands,Music Disc,レコード
 item.beachparty.music_disc_pridelands.desc,Andey Rossi - Pridelands,アンドリュー・ロッシ - プライダンツ
-item.beachparty.music_disc_vocalista,Music Disc,音楽ディスク
+item.beachparty.music_disc_vocalista,Music Disc,レコード
 item.beachparty.music_disc_vocalista.desc,Pecan Pie - Vocalista,ピーナッツパイ - ヴォカリスタ
-item.beachparty.music_disc_wild_veins,Music Disc,音楽ディスク
+item.beachparty.music_disc_wild_veins,Music Disc,レコード
 item.beachparty.music_disc_wild_veins.desc,Adams - Wild Veins,アダムス - ワイルド ヴィン
 item.beachparty.overgrown_disc,Overgrown Disc,繁茂しすぎたレコード
 item.beachparty.overgrown_disc.desc,MissLilitu - Over the Rainbow,ミスリリトゥ - 虹の彼方
@@ -123,7 +123,7 @@ item.beachparty.palm_chest_boat,Palm Chest Boat,チェスト付きのヤシの�
 item.beachparty.pool_noodle,Pool Noodle,プールスティック
 item.beachparty.raw_mussel_meat,Raw Mussel Meat,生の貝肉
 item.beachparty.rubber_ring_axolotl,Axolotl Rubber Ring,ウーパールーパーの浮き輪
-item.beachparty.rubber_ring_blue,Blue Rubber Ring,青色の浮き輪
+item.beachparty.rubber_ring_blue,Blue Rubber Ring,青い浮き輪
 item.beachparty.rubber_ring_pelican,Pelican Rubber Ring,ペリカンの浮き輪
 item.beachparty.rubber_ring_pink,Pink Rubber Ring,桃色の浮き輪
 item.beachparty.rubber_ring_stripped,Stripped Rubber Ring,縞模様の浮き輪
@@ -177,3 +177,8 @@ tooltip.beachparty.message,Right-Click to Open,右クリックで開く
 tooltip.beachparty.toggle.hide,§e[Right-Click]§r to hide 3D Model.,§e[右クリック]§rで3Dモデルを非表示にします。
 tooltip.beachparty.toggle.show,§e[Right-Click]§r to show 3D Model.,§e[右クリック]§rで3Dモデルを表示します。
 tooltip.beachparty.trinketsslot,When equipped in Trinket Slot:,トリンケットスロットに装備したとき：
+entity.beachparty.floaty_chest_boat,Floaty Chest Boat,
+subtitles.beachparty.sound.beachparty,Kevin MacLeod - Beachparty,
+subtitles.beachparty.sound.pridelands,Andey Rossi - Pridelands,
+subtitles.beachparty.sound.wild_veins,Adams - Wild Veins,
+text.autoconfig.beachparty.title,Beachparty Config,

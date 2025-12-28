@@ -1,7 +1,7 @@
 ﻿key,source_text,target_text
 advancements.apothic_spawners.capturing,Captured!,キャプチャされた!
 advancements.apothic_spawners.capturing.desc,Get a spawn egg from a mob using the Capturing enchantment,捕獲エンチャントを使ってMobからスポーンエッグを手に入れる。
-advancements.apothic_spawners.conditions,Unchecked Spawning,未確認スポーン
+advancements.apothic_spawners.conditions,Unchecked Spawning,スポーンが確認できません
 advancements.apothic_spawners.conditions.desc,Disable spawn conditions for a spawner,スポナーのスポーン条件を無効化する
 advancements.apothic_spawners.light,Who Needs Darkness?,暗闇って必要？
 advancements.apothic_spawners.light.desc,Make your spawner work in any light level.,どんな明るさでもスポナーが機能するようにする。
@@ -10,10 +10,10 @@ advancements.apothic_spawners.maxdelay.desc,Decrease the maximum spawn delay of 
 advancements.apothic_spawners.mindelay,I Am The Fast,俺は速いぜ
 advancements.apothic_spawners.mindelay.desc,Decrease the minimum spawn delay of a spawner to 20,スポナーの最小スポーン遅延を20に減らす
 advancements.apothic_spawners.modifier,Just a Few Tweaks...,ほんの微調整...
-advancements.apothic_spawners.modifier.desc,Use a spawner modifier to change the stats of a spawner.,スポナーの修飾子を使用してスポナーの統計値を変更してください。
+advancements.apothic_spawners.modifier.desc,Use a spawner modifier to change the stats of a spawner.,スポナーの能力を変更するには、スポナー編集機能を使います。
 advancements.apothic_spawners.nearbyents,Creating a Horde,大群の形成
 advancements.apothic_spawners.nearbyents.desc,Raise the max nearby entities of a spawner to 32,スポナー周辺のエンティティの最大値を32に引き上げる
-advancements.apothic_spawners.noai,Brain Drain,脳の流出
+advancements.apothic_spawners.noai,Brain Drain,頭脳流出
 advancements.apothic_spawners.noai.desc,Disable Mob AI for a spawner.,スポナーのMob AIを無効にする
 advancements.apothic_spawners.playerrange,Far from the Fight,戦いから遠く離れて
 advancements.apothic_spawners.playerrange.desc,Raise the player activation range of a spawner to 48,スポナーのプレーヤー探知範囲を48に引き上げる
@@ -23,7 +23,7 @@ advancements.apothic_spawners.redstone,Adding a Switch,スイッチを追加
 advancements.apothic_spawners.redstone.desc,Enable redstone control for a spawner,スポナーのレッドストーン制御を有効にする
 advancements.apothic_spawners.spawncount,Look at the Size of His Spawner!,このスポナーの規模を見ろよ！
 advancements.apothic_spawners.spawncount.desc,Raise the spawn count of a spawner to 16,スポナーのスポーン数を16に引き上げる
-advancements.apothic_spawners.spawner,Apothic Spawners,アポティックスポナーズ
+advancements.apothic_spawners.spawner,Apothic Spawners,アポセオシススポーナー
 advancements.apothic_spawners.spawner.desc,Collect a mob spawner using Silk Touch.,シルクタッチを使ってMobスポナーを回収する
 advancements.apothic_spawners.spawner.root,apothic_spawners Spawners,apothic_spawners スポナー
 advancements.apothic_spawners.spawner.root.desc,"Spawners can be collected and modified, see JEI for info.",スポナーは回収、改造することができます。詳しくはJEIをご覧ください。
@@ -31,18 +31,18 @@ advancements.apothic_spawners.spawnrange,Mobs for Miles,長距離用モブ
 advancements.apothic_spawners.spawnrange.desc,Raise the spawn range of a spawner to 32,スポナーのスポーン範囲を32に引き上げる
 advancements.apothic_spawners.ultimate_spawner,The Ultimate Spawner,究極のスポナー
 advancements.apothic_spawners.ultimate_spawner.desc,"Create a spawner with minimal delays that has redstone control, no AI, ignores spawn conditions, and ignores players.",レッドストーン制御、AIなし、スポーン条件無視、プレイヤー無視の最小遅延のスポナーを作成する。
-config.jade.plugin_apothic_spawners.spawner,Apothic Spawners,アポシック・スポナー
+config.jade.plugin_apothic_spawners.spawner,Apothic Spawners,アポセオシススポーナー
 emi.category.apothic_spawners.spawner,Spawner Modification,スポナーの改造
 enchantment.apothic_spawners.capturing,Capturing,捕獲
 enchantment.apothic_spawners.capturing.desc,Makes mobs have a chance to drop their spawn egg.,モブがスポーンエッグを落とす可能性があります
-enchantment.level.0,0,0
+enchantment.level.0,0,
 info.apothic_spawners.capturing,The capturing enchantment gives monsters a chance to drop their spawn egg.\n \nDrop Rate: %s%% per level,捕獲のエンチャントはモンスターにスポーンエッグを落とすチャンスを付与します。\\n\\nドロップ率：%s%%/レベル
 info.apothic_spawners.spawner,"Spawners may be modified with various items, and can be collected with %s.",スポナーはさまざまなアイテムで改変可能で、%s で収集できます。
 info.apothic_spawners.spawner.always_drop,"Spawners may be modified with various items, and will always drop when broken.",スポナーは様々なアイテムで改造することができ、壊すと必ずドロップします。
 info.apothic_spawners.spawner.no_silk,"Spawners may be modified with various items, but collection with Silk Touch is currently disabled.",スポナーは様々なアイテムで改造可能だが、シルクタッチでの収集は現在のところできなくなっています。
 item.apothic_spawners.spawner,%s Spawner,%sのスポナー
-misc.apothic_spawners.banned,Cannot be used on a Spawner,スポナーでは使用できません
-misc.apothic_spawners.concat,%s %s,%s %s
+misc.apothic_spawners.banned,Cannot be used on a Spawner,スポーナーには使用できません
+misc.apothic_spawners.concat,%s %s,
 misc.apothic_spawners.ctrl_stats,Hold Ctrl for Stats,コントロール長押しで統計情報を表示
 misc.apothic_spawners.entity,Entity,エンティティ
 misc.apothic_spawners.mainhand,Held in Main Hand,主手に保持
@@ -54,7 +54,7 @@ misc.apothic_spawners.offhand,Held in Off Hand,右手に保持
 misc.apothic_spawners.on,%s: On,%s: オン
 misc.apothic_spawners.rclick_spawner,Right-Click the Spawner,スポナーを右クリックする
 misc.apothic_spawners.shift_stats,Hold Shift for Stats,シフト長押しで統計情報を表示
-misc.apothic_spawners.value_concat,%s: %s,%s: %s
+misc.apothic_spawners.value_concat,%s: %s,
 stat.apothic_spawners.burning,Burning,燃焼中
 stat.apothic_spawners.burning.desc,Spawned mobs will be set on fire,生成されたモンスターは火に燃えます
 stat.apothic_spawners.echoing,Echoing,回響中
@@ -69,7 +69,7 @@ stat.apothic_spawners.initial_health,Initial Health,初期体力
 stat.apothic_spawners.initial_health.desc,The initial health percentage of spawned mobs,スポーンしたモブの初期ヘルスパーセンテージ
 stat.apothic_spawners.max_delay,Max Spawn Delay,最大スポーン遅延
 stat.apothic_spawners.max_delay.desc,The maximum number of ticks between spawns,スポーン間の最大ティック数
-stat.apothic_spawners.max_nearby_entities,Max Entities,最大エンティティ数
+stat.apothic_spawners.max_nearby_entities,Max Entities,最大エンティティ
 stat.apothic_spawners.max_nearby_entities.desc,The total number of entities allowed nearby,付近にいられるエンティティの総数
 stat.apothic_spawners.min_delay,Min Spawn Delay,最小スポーン遅延
 stat.apothic_spawners.min_delay.desc,The minimum number of ticks between spawns,スポーン間の最小ティック数
@@ -83,7 +83,7 @@ stat.apothic_spawners.silent,Silent,静音
 stat.apothic_spawners.silent.desc,Spawned entities will make no noise,スポーンしたエンティティは音を立てない
 stat.apothic_spawners.spawn_count,Spawn Count,スポーン数
 stat.apothic_spawners.spawn_count.desc,The number of entities spawned at once,一度にスポーンするエンティティ数
-stat.apothic_spawners.spawn_range,Spawn Range,スポーン範囲
+stat.apothic_spawners.spawn_range,Spawn Range,スパAWN範囲
 stat.apothic_spawners.spawn_range.desc,The radius (in blocks) that mobs can spawn in,モブがスポーンできる半径（ブロック単位）
 stat.apothic_spawners.youthful,Youthful,子供優先
 stat.apothic_spawners.youthful.desc,The spawner will always spawn a baby entity when possible,スポナーは可能な場合、常に子供エンティティをスポーンする

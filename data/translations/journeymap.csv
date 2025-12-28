@@ -110,21 +110,21 @@ jm.common.hotkeys_keybinding_fullscreen_category,JourneyMap Fullscreen Map,ジ�
 jm.common.location_format,Location,場所
 jm.common.location_format_verbose,Verbose Location,座標の記述を細かくする
 jm.common.location_format_verbose.tooltip,"Location shows coordinate names (x,y,z) with the numbers",ミニマップ下などの座標を、「x/y/z」の記号付きで表示します
-jm.common.location_xyvz_label,"x, y (v), z","x, y (v), z"
-jm.common.location_xyvz_plain,"%1$s, %3$s (%4$s), %2$s","%1$s, %3$s (%4$s), %2$s"
-jm.common.location_xyvz_verbose,"x: %1$s, y: %3$s (%4$s), z: %2$s","x: %1$s, y: %3$s (%4$s), z: %2$s"
-jm.common.location_xyz_label,"x, y, z","x, y, z"
-jm.common.location_xyz_plain,"%1$s, %3$s, %2$s","%1$s, %3$s, %2$s"
-jm.common.location_xyz_verbose,"x: %1$s, y: %3$s, z: %2$s","x: %1$s, y: %3$s, z: %2$s"
-jm.common.location_xz_label,"x, z","x, z"
-jm.common.location_xz_plain,"%1$s, %2$s","%1$s, %2$s"
-jm.common.location_xz_verbose,"x: %1$s, z: %2$s","x: %1$s, z: %2$s"
-jm.common.location_xzy_label,"x, z, y","x, z, y"
-jm.common.location_xzy_plain,"%1$s, %2$s, %3$s","%1$s, %2$s, %3$s"
-jm.common.location_xzy_verbose,"x: %1$s, z: %2$s, y: %3$s","x: %1$s, z: %2$s, y: %3$s"
-jm.common.location_xzyv_label,"x, z, y (v)","x, z, y (v)"
-jm.common.location_xzyv_plain,"%1$s, %2$s, %3$s (%4$s)","%1$s, %2$s, %3$s (%4$s)"
-jm.common.location_xzyv_verbose,"x: %1$s, z: %2$s, y: %3$s (%4$s)","x: %1$s, z: %2$s, y: %3$s (%4$s)"
+jm.common.location_xyvz_label,"x, y (v), z",
+jm.common.location_xyvz_plain,"%1$s, %3$s (%4$s), %2$s",
+jm.common.location_xyvz_verbose,"x: %1$s, y: %3$s (%4$s), z: %2$s",
+jm.common.location_xyz_label,"x, y, z",
+jm.common.location_xyz_plain,"%1$s, %3$s, %2$s",
+jm.common.location_xyz_verbose,"x: %1$s, y: %3$s, z: %2$s",
+jm.common.location_xz_label,"x, z",
+jm.common.location_xz_plain,"%1$s, %2$s",
+jm.common.location_xz_verbose,"x: %1$s, z: %2$s",
+jm.common.location_xzy_label,"x, z, y",
+jm.common.location_xzy_plain,"%1$s, %2$s, %3$s",
+jm.common.location_xzy_verbose,"x: %1$s, z: %2$s, y: %3$s",
+jm.common.location_xzyv_label,"x, z, y (v)",
+jm.common.location_xzyv_plain,"%1$s, %2$s, %3$s (%4$s)",
+jm.common.location_xzyv_verbose,"x: %1$s, z: %2$s, y: %3$s (%4$s)",
 jm.common.log_warning,Log level %1$s will slow down the game. Do not use for normal gameplay!,ログレベル「%1$s」はゲームの動作を著しく重くします。通常のプレイでは使わないで下さい!
 jm.common.map_saved,Map saved: %1$s,マップを画像として保存しました: %1$s
 jm.common.map_style_antialiasing,Use Antialiasing,アンチエイリアスを有効にする
@@ -291,7 +291,7 @@ jm.config.file_header_4,"To restore the default settings, simply delete this fil
 jm.config.file_header_5,"For more information, go to: %1$s",詳しい情報はこちらをご確認下さい: %1$s
 jm.config.reset,Reset,リセット
 jm.config.reset.tooltip,Reset all options in this section back to their default values,このセクションの全ての設定を初期値にリセットします
-jm.config.tooltip_format,%1$s%2$s,%1$s%2$s
+jm.config.tooltip_format,%1$s%2$s,
 jm.error.compatability,Incompatability error running %1$s for Forge %2$s. Ensure your version of Forge is compatible.,Forge %2$s で、 %1$s の動作に問題が発生しました。JourneyMapに対応している正しいバージョンのForgeを使って下さい。
 jm.error.java6,JourneyMap requires Java 7 or Java 8. Update your launcher profile to use a newer version of Java.,JourneyMapの動作にはJava 7 もしくは Java 8が必要です。ランチャーでProfileを編集し、新バージョンのJavaを使って下さい。
 jm.feature.fairplay,FairPlay,フェアプレイ版
@@ -307,7 +307,7 @@ jm.fullscreen.hotkeys_west,Pan West (16 Blocks),西にスクロール (16 ブロ
 jm.fullscreen.map_biome,Biome,バイオーム
 jm.fullscreen.map_cave_layers,Cave Layers,洞窟層
 jm.fullscreen.map_cave_layers.button,Vertical Chunk :,垂直チャンク :
-jm.fullscreen.map_cave_layers.button.tooltip,y:%1$s - y:%2$s,y:%1$s - y:%2$s
+jm.fullscreen.map_cave_layers.button.tooltip,y:%1$s - y:%2$s,
 jm.fullscreen.map_caves,Caves,洞窟
 jm.fullscreen.map_day,Day,昼
 jm.fullscreen.map_night,Night,夜
@@ -455,7 +455,7 @@ jm.server.edit.label.admin.edit,Server Admin,サーバー管理者
 jm.server.edit.label.admin.read_only,Server Admin: Read Only Mode,サーバー管理者：読み取り専用モード
 jm.server.edit.label.selection.default,Default Dimension Properties,デフォルトディメンションプロパティ
 jm.server.edit.label.selection.default.tooltip,The settings here will be the default for any new dimensions created.,ここで設定した値は、新しく作成されるすべてのディメンションのデフォルトになります
-jm.server.edit.label.selection.dimension,%1$s id: %2$s,%1$s id: %2$s
+jm.server.edit.label.selection.dimension,%1$s id: %2$s,
 jm.server.edit.label.selection.dimension.tooltip,If §a[enabled]§f these properties will override the global properties.,§a[有効]§f これらのプロパティはグローバルプロパティを上書きします。
 jm.server.edit.label.selection.global,Global Properties,グローバルプロパティ
 jm.server.edit.label.selection.global.tooltip,These are the default properties for the server. Enable individual dimension properties to override the global properties.,これらはサーバーのデフォルトプロパティです。個別のディメンションプロパティを有効にするとグローバルプロパティが上書きされます。
@@ -471,7 +471,6 @@ jm.server.edit.mapping.toggle.topo,Topography Mapping,地形マッピング
 jm.server.edit.mapping.toggle.topo.tooltip,§1[Enable/Disable]§f: Topography Mapping for users.,§1[有効/無効]§f：ユーザー向け地形測定。
 jm.server.edit.option.all,All,すべて
 jm.server.edit.option.none,None,なし
-jm.server.edit.option.op,Op,Op
 jm.server.edit.radar,Radar General,レーダー一般
 jm.server.edit.radar.chkbox.animal,Animal Radar,動物レーダー
 jm.server.edit.radar.chkbox.animal.tooltip,§1[Enable/Disable]§f: If players can see animals on the map.,§1[有効/無効]§f：プレイヤーが地図上で動物を見ることができるかどうか。
@@ -508,7 +507,7 @@ jm.theme.labelsource.biome.tooltip,Show the biome of your location,あなたが�
 jm.theme.labelsource.blank,Blank,空
 jm.theme.labelsource.blank.tooltip,Show nothing,何も表示しない
 jm.theme.labelsource.dimension,Dimension,ディメンション
-jm.theme.labelsource.fps,FPS,FPS
+jm.theme.labelsource.fps,FPS,
 jm.theme.labelsource.fps.tooltip,Show current Frames Per Second,現在のフレーム毎秒を表示
 jm.theme.labelsource.gametime,Game Time,ゲーム内時間
 jm.theme.labelsource.gametime.day,Daytime,日中
@@ -563,7 +562,7 @@ jm.waypoint.dimensions,Dimensions,ディメンション
 jm.waypoint.disable,Disable,無効
 jm.waypoint.display_management,Waypoint In-Game Display and Management,ウェイポイントのゲーム内での表示と管理
 jm.waypoint.distance,Distance,距離
-jm.waypoint.distance_meters,(%1$sm),(%1$sm)
+jm.waypoint.distance_meters,(%1$sm),
 jm.waypoint.double_click_create,Double Click to Create,ダブルクリックで作成
 jm.waypoint.double_click_create.tooltip,Double clicking on the fullscreen map will create a waypoint at location.,フルスクリーンマップをダブルクリックすると、その位置にウェイポイントが作成されます。
 jm.waypoint.edit,Edit,編集
@@ -641,9 +640,6 @@ jm.waypoint.texture_size,Small Icon,小さいアイコン
 jm.waypoint.texture_size.tooltip,Use a small icon for the waypoint beacons,ウェイポイントのビーコンで小さいアイコンを表示します
 jm.waypoint.waypoints,Waypoints,ウェイポイント
 jm.waypoint.waypoints_button,Waypoints...,ウェイポイント...
-jm.waypoint.x,X,X
-jm.waypoint.y,Y,Y
-jm.waypoint.z,Z,Z
 jm.webmap.animals_menu_item_text,Animals,動物
 jm.webmap.animals_menu_item_title,Show nearby animals,近くの動物を表示
 jm.webmap.automap_already_started,Auto-mapping already in progress.,マップの自動生成は既に開始されています。
@@ -672,7 +668,6 @@ jm.webmap.error_world_not_opened,Minecraft World Not Opened,マイクラ内で�
 jm.webmap.follow_button_title,Auto-center the map on you. (Turns off if you manually pan.),プレイヤーに追従してスクロール (自分でスクロールしたい場合はチェックを外して下さい。)
 jm.webmap.follow_twitter_text,Follow JourneyMapMod on Twitter,TwitterでJourneyMapをフォロー
 jm.webmap.follow_twitter_title,Follow JourneyMapMod on Twitter,TwitterでJourneyMapをフォロー
-jm.webmap.forum_link_text,minecraftforum.net,minecraftforum.net
 jm.webmap.forum_link_title,JourneyMap forum on minecraftforum.net,JourneyMapのフォーラム
 jm.webmap.google_domain,Google Maps API Domain,Goole MapsのAPIのドメイン
 jm.webmap.google_domain.tooltip,"If your country blocks maps.google.com, select a different domain for the Google Maps API.",あなたの地域でmaps.google.comがブロックされている場合、地域に合わせたドメインを指定して下さい。
@@ -701,7 +696,6 @@ jm.webmap.villagers_menu_item_text,Villagers,村人
 jm.webmap.villagers_menu_item_title,Show nearby villagers,近くの村人を表示する
 jm.webmap.waypoints_menu_item_text,Waypoints,ウェイポイント
 jm.webmap.waypoints_menu_item_title,Show waypoints,ウェイポイントを表示
-jm.webmap.web_link_text,journeymap.info,journeymap.info
 jm.webmap.web_link_title,JourneyMap homepage,JourneyMapのホームページ
 jm.webmap.worldname_text,World Name:,ワールドの名前:
 jm.webmap.worldtime_text,World Time:,ワールドの時間:
@@ -748,8 +742,8 @@ jm.server.edit.label.worldId,Current World ID: %s,現在のワールドID: %s
 jm.server.edit.label.worldId.singleplayer,Single Player,シングルプレイヤー
 jm.server.edit.label.worldId.singleplayer.tooltip,You are in single player mode. Some options may not function or exist. Any option set to §a[Ops]§f will effectively disable it in single player mode.,シングルプレイモード中です。一部のオプションは機能しない、または存在しない場合があります。§a[Ops]§fに設定されたオプションはシングルプレイモードでは実質的に無効になります。
 jm.server.edit.label.worldId.tooltip,This is the unique identifier so player's map data does not overwrite if you are using a multi-world setup or if the user does not give their servers a unique name.,マルチワールド設定を使用している場合、またはサーバーに一意の名前を付けていない場合、プレイヤーのマップデータが上書きされないようにするための一意の識別子です。
-jm.server.edit.label.button.next,>>,>>
-jm.server.edit.label.button.previous,<<,<<
+jm.server.edit.label.button.next,>>,
+jm.server.edit.label.button.previous,<<,
 jm.server.edit.label.button.next.tooltip,Next,次へ
 jm.server.edit.label.button.previous.tooltip,Previous,前へ
 jm.server.edit.chkbox.teleport.dimension.tooltip,"§1[Enable/Disable]§f: If §a[disabled]§f will prevent teleporting to, from, and within this dimension.",§1[有効/無効]§f: §a[無効]§fの場合、このディメンションへのテレポート、このディメンションからのテレポート、およびこのディメンション内でのテレポートが防止されます。
@@ -783,3 +777,35 @@ jm.webmap.automap_complete_underground,Auto-mapping of slice %1$s has stopped.,%
 jm.webmap.slice_text,Vertical Slice:,縦方向のスライス:
 key.journeymap.minimap_type,Switch between Day/Night/Caves,昼/夜/洞窟用の表示に切り替え
 key.journeymap.night,Show Night Map,夜のマップ
+jm.colorpalette.mods,Mods,
+jm.common.automap_dialog_summary_2,"'Blend Foliage', 'Blend Grass', and 'Blend Water'.",
+jm.common.discord,JourneyMap Discord,
+jm.common.entity_display.dots,Dots,
+jm.common.entity_display.icons,Icons,
+jm.common.fullscreen_drag_scale,Drag Scale,
+jm.common.hotkeys_keybinding_category,JourneyMap,
+jm.common.renderstats_debug_topo,Topo: %1$s (%2$s) + %3$s (%4$s) = %5$s chunks in %6$sms (avg %7$sms),
+jm.common.renderstats_debug_topo_simple,Topo: %1$s = %2$s chunks in %3$sms (avg %4$sms),
+jm.common.splash_artist,Artist,
+jm.common.splash_icons,Icons,
+jm.common.splash_patreon,Patron,
+jm.common.system_time_format.tooltip,"""Time format for the InfoSlot:System Time""",
+jm.common.time_format.tooltip,"""Time format for the InfoSlot:Real Game Time""",
+jm.minimap.position_custom,Custom,
+jm.server.edit.chkbox.enable,Enable,
+jm.server.edit.tracking.tooltip,"If [player radar] is [enabled] this feature allows the server to track players outside of the range of the client.
+Players can see each other on the map no matter the distance as long as they are in the same dimension.
+If this is [enabled] and player radar is [disabled] this feature will not work.
+If this is [disabled] and player radar is [enabled] this feature will not work, but proximity radar will still work.",
+jm.server.render_range.tooltip,"Force all players to a maximum chunk render distance for the map. 0 to use client settings.
+This setting only forces the max, it does not increase their render range.
+This value will not be reflected in the client's Cartography section of the Options screen.",
+jm.theme.labelsource.gametime.sunset,Sunset,
+jm.theme.labelsource.region,Region,
+jm.waypoint.temp,Temp: ,
+jm.server.edit.option.op,Op,
+jm.waypoint.x,X,
+jm.waypoint.y,Y,
+jm.waypoint.z,Z,
+jm.webmap.forum_link_text,minecraftforum.net,
+jm.webmap.web_link_text,journeymap.info,

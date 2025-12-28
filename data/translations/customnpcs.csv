@@ -103,11 +103,11 @@ clone.overwrite,You are about to overwrite a clone,クローンを上書きし�
 clone.server,Server Side,サーバー側
 color.blue,Blue,青
 color.green,Green,緑
-color.pink,Pink,ピンク
+color.pink,Pink,桃色
 color.purple,Purple,紫
 color.red,Red,赤
 color.white,White,白
-color.yellow,Yellow,黄色
+color.yellow,Yellow,黄
 companion.adult,Adult,成人
 companion.age,Age,年齢
 companion.baby,Baby,赤ちゃん
@@ -126,7 +126,7 @@ config.compatibility,Compatibility Mode,互換モード
 config.editbuttons,Edit Buttons,ボタン編集
 config.goblinmale,Goblin Male,ゴブリン(男)
 config.humanfemale,Human Female,人間女性
-config.humanmale,Human Male,ヒューマン(男)
+config.humanmale,Human Male,人間の男性
 config.names,Show names,名前を表示
 config.particles,Show Particles,パーティクルを表示
 config.pov,Point of View,視点
@@ -140,7 +140,7 @@ conversation.line,Line,ライン
 copy.blueprint,Blueprint,設計図
 copy.schematic,Schematic,図式
 copy.structure,Structure,構造
-customnpcs.defaultTextColor,404040,404040
+customnpcs.defaultTextColor,404040,
 death.attack.npc,%1$s was killed by %2$s,%1$s は %2$s に殺されました
 dialog.commandoption,Command Option,コマンドオプション
 dialog.commandoptionplayer,"""@dp"" to target the player using this","このプレイヤーを対象にするには""@dp""を使用"
@@ -175,7 +175,7 @@ display.skin,Skin,スキン
 display.statue,Statue,彫像
 display.texture,Texture,テクスチャ
 display.tint,Tint,色合い
-display.url,Url,Url
+display.url,Url,URL
 display.visible,Visible,表示
 ears.bunny,Bunny,ウサギ
 entity.customnpc,Custom Npc,カスタムNPC
@@ -192,7 +192,7 @@ entity.customnpcs.npcpony,CNpc Pony,Custom NPC ポニー
 entity.customnpcs.npcslime,CNpc Slime,Custom NPC スライム
 error.failedToSpawn,Failed to spawn the NPC,NPCの生成に失敗しました
 eye.blink,Blink,ブリンク
-eye.brow,Brow,茶色
+eye.brow,Brow,茶
 eye.glint,Glint,輝き
 eye.lash,Lash,睫毛
 eye.lid,Eyelid,まぶた
@@ -319,7 +319,7 @@ gui.range,Range,範囲
 gui.remove,Remove,削除
 gui.reset,Reset,リセット
 gui.retaliate,Retaliate,報復
-gui.retreat,Retreat,後退
+gui.retreat,Retreat,撤退
 gui.right,Right,右
 gui.save,Save,保存
 gui.scale,Scale,スケール
@@ -484,7 +484,7 @@ message.pather.farwarning,Warning: point is too far away from previous point. Ma
 model.arms,Arms,モデル: Arms
 model.body,Body,体
 model.head,Head,頭
-model.larm,L. Arm,L. Arm
+model.larm,L. Arm,左腕
 model.legs,Legs,脚
 model.lleg,L. Leg,モデル: L. Leg
 model.load,Model Load,モデル読込
@@ -526,7 +526,7 @@ part.ears,Ears,パーツ: Ears
 part.eyes,Eyes,パーツ: Eyes
 part.fin,Fin,パーツ: Fin
 part.hair,Hair,髪
-part.hats,Hats,パーツ: Hats
+part.hats,Hats,帽子
 part.head,Head,頭
 part.horns,Horns,角
 part.legleft,Leg Left,パーツ: Leg Left
@@ -732,3 +732,65 @@ transporter.interaction,Available after interaction,相互作用後に利用可�
 transporter.start,Available from the start,開始時から入手可能
 transporter.travel,Travel,移動
 transporter.unlock,Transport to %s is now unlocked,%s への輸送が解除されました
+guihint.movement.isignore,Does your character rotate to you when you interact with it?,キャラクターはあなたと相互作用するときに回転しますか？
+guihint.movement.movetype,Make the character either wander around or set your own route (you will need a <Npc Pather>),キャラクターを放浪させるか、独自のルートを設定してください（<Npc Pather>が必要です）
+guihint.movement.navigation,"If you're creating a character that should swim or fly, this option will allow you to experiment with their behavior",キャラクターが泳いだり飛行したりする場合、このオプションでそれらの動作を試験できます
+guihint.movement.pos,"You can shift the NPC left-right, forward-backward, and also raise them slightly upward",NPCを左右に移動させたり、前後に移動させたり、わずかに上向きに移動させることができます
+guihint.movement.speed,Set any speed for the NPC to make them slow or fast,NPCをゆっくりまたは速くするために任意の速度を設定してください
+guihint.npc2d3d,You can make the projectile volumetric or leave it flat,プロジェクタイルを体積的にすることも、平らに保つこともできます
+guihint.npcaccuracy,Here you can specify the shooting accuracy of your character (higher values result in more accurate ranged attacks),ここでキャラクターの射撃精度を指定できます（値が高いほど遠距離攻撃がより正確になります）
+guihint.npcarrowsresist,Your character will be immune to arrows (higher values make arrows less effective against your NPC),キャラクターは矢に免疫があります（値が高いほどNPCに対する矢の効果が低くなります）
+guihint.npcattackrange,"If your character attacks with a long weapon, specify a value greater than 1 here (attack distance is measured in blocks)",キャラクターが長い武器で攻撃する場合、ここに1より大きい値を指定してください（攻撃距離はブロック単位で測定されます）
+guihint.npcattackspeed,Adjust the attack speed of your character (higher values result in slower attacks),キャラクターの攻撃速度を調整してください（値が高いほど攻撃が遅くなります）
+guihint.npcbossbar,"If you are creating a boss, with this parameter you can display the health bar of your character",ボスを作成している場合、このパラメータでキャラクターのヘルスバーを表示できます
+guihint.npcburstcount,"With this parameter, you can make the character fire multiple projectiles separately",このパラメータでキャラクターが複数のプロジェクタイルを別々に発火させることができます
+guihint.npcburstrate,"If you want to simulate a machine gun, set the lowest possible value here (this also depends on delay parameters)",機関銃をシミュレートする場合は、ここで可能な限り低い値を設定してください（これは遅延パラメータにも依存します）
+guihint.npccape,"If your character should have a cape, you can choose any of the provided options",キャラクターがマントを持つべき場合、提供されているオプションのいずれかを選択できます
+guihint.npccobwebaffected,"If you are creating a spider, this parameter will help you make the NPC pass through cobwebs without slowing down",クモを作成している場合、このパラメータはNPCがクモの巣を減速させずに通過するのに役立ちます
+guihint.npccreaturetype,"Specify the creature type: if you are making a skeleton, for example, it's better to choose undead here so that the NPC has weaknesses to certain potions (a spider could have an arthropod type)",生物のタイプを指定してください。例えばスケルトンを作成している場合、ここで不死のタイプを選択する方が良いので、NPCは特定のポーション（クモは節足動物のタイプを持つことができます）に対して弱点があります
+guihint.npcdamage,Set any value for the damage your character deals (damage does not depend on the weapon you give the NPC),キャラクターが与えるダメージの値を任意に設定してください（ダメージはNPCに与える武器に依存しません）
+guihint.npcdoorinteract,"How should the character interact with a door (for example break it, like a zombies)",キャラクターはドアとどのように相互作用するべきですか（例えば、ゾンビのように破壊してください）
+guihint.npceffect,Choose any of the provided effects and set its duration in seconds,提供されているエフェクトのいずれかを選択し、その期間を秒単位で設定してください
+guihint.npceffectprojectile,"You can give your projectile any effect on hitting a target (for example, poison, slowness, etc.)",プロジェクタイルに目標に当たるときのエフェクト（例えば、毒、遅さなど）を与えることができます
+guihint.npcexplodes,Attention! It is strongly not recommended to enable this option if you have not set the mobGriefing rule to false!,注意！mobGriefingルールをfalseに設定していない場合、このオプションを有効にすることは強く推奨されません！
+guihint.npcexplosionresist,Your character will be immune to explosive objects (higher values make explosions less effective against your NPC),キャラクターは爆発オブジェクトに免疫があります（値が高いほど爆発がNPCに対して効果が低くなります）
+guihint.npchidebody,U se this option to remove the body of the character after death,このオプションを使用してキャラクターの死後のボディを削除してください
+guihint.npchitbox,You can remove the hitbox of the character or add physics to it so that your character collides with objects,キャラクターのヒットボックスを削除するか、物理を追加してキャラクターがオブジェクトと衝突するようにできます
+guihint.npcimmunetofire,"You can make your character resistant to fire (even if you pour a bucket of lava on it, it won't burn)",キャラクターを火に耐性のあるものにできます（溶岩のバケツを注いでも燃えません）
+guihint.npcknockback,The character can knock back the target if you specify a number no greater than 4,数値を4以下に指定すれば、キャラクターがターゲットをノックバックできます
+guihint.npcknockbackprojectile,"For projectile power, you can set the knockback power on hitting a target",プロジェクタイルパワーについては、ターゲットに当たるときのノックバックパワーを設定できます
+guihint.npcmeleeprops,"This category allows you to change melee parameters (you can adjust damage, attack speed, etc.)",このカテゴリでは近接パラメータを変更できます（ダメージ、攻撃速度などを調整できます）
+guihint.npcmeleeprops.peaceful,"
+You have difficulty set to ""Peaceful"". The NPCs will be neutral to players (will not attack first)","
+難易度が「平和」に設定されています。NPCはプレイヤーに対してニュートラルです（最初は攻撃しません）"
+guihint.npcmeleerange,At what distance in blocks will your character start attacking in melee?,キャラクターが近接で攻撃を開始するドロック単位での距離は何ですか？
+guihint.npcmeleeresist,Your character will be immune to melee attacks (higher values make melee attacks less effective against your NPC),キャラクターは近接攻撃に免疫があります（値が高いほど近接攻撃がNPCに対して効果が低くなります）
+guihint.npcmindelay,"If you want to set the cooldown between shots fired by the character, specify a number here that will not exceed the maximum delay",キャラクターによって発火されたショット間のクールダウンを設定する場合、最大遅延を超えない数値を指定してください
+guihint.npcmodel,You can choose one of the provided templates to quickly change your character appearance to any creature,提供されているテンプレートのいずれかを選択して、キャラクターの外観をあらゆる生物にすばやく変更できます
+guihint.npcmustseetarget,"Is it mandatory for your character to see the target, or can it detect the target through walls?",キャラクターがターゲットを見ることは必須ですか、それともターゲットを壁越しに検出できますか？
+guihint.npcname,Here you can write any name for your character,ここでキャラクターの任意の名前を書き込むことができます
+guihint.npcnofalldamage,You can also prevent the character from taking fall damage from great heights,キャラクターが大きな高さから落下ダメージを受けるのを防ぐこともできます
+guihint.npconfoundenemy,"What action will your character take upon seeing a target? (for example, they may flee in panic)",ターゲットを見つけたときにキャラクターはどのようなアクションを実行しますか？（例えば、パニックで逃げることがあります）
+guihint.npcoverlay,"Change the texture of a specific part of the body (for example, you can change the eyes)",ボディの特定の部分のテクスチャを変更してください（例えば、目を変更できます）
+guihint.npcprojectiletype,Adjust projectile properties to achieve the desired effect,目的の効果を達成するためにプロジェクタイルプロパティを調整してください
+guihint.npcrange,Specify the distance in blocks from which your character can shoot (this also depends on the aggro radius),キャラクターが射撃できるブロック単位での距離を指定してください（これはaggroラジアスにも依存します）
+guihint.npcrangedprops,This category enables your character to perform ranged attacks,このカテゴリでキャラクターが遠距離攻撃を実行できるようにします
+guihint.npcrangedprops.peaceful,"
+You have difficulty set to ""Peaceful"". The NPCs' projectiles will not damage players","
+難易度が「平和」に設定されています。NPCのプロジェクタイルはプレイヤーにダメージを与えません"
+guihint.npcresistance,This category is for setting resistance to one of the four sources of damage,このカテゴリは4つのダメージソースのいずれかへの抵抗を設定するためです
+guihint.npcrespawntime,Specify the time after which the character should respawn each time (time is measured in seconds),キャラクターが毎回リスポーンするまでの時間を指定してください（時間は秒単位で測定されます）
+guihint.npcshootindirect,"What shooting style does your character prefer? (for example, you can simulate a catapult)",キャラクターはどの射撃スタイルを好みますか？（例えば、カタパルトをシミュレートできます）
+guihint.npcshotcount,"With this parameter, you can make the character fire more than one projectile simultaneously (if the value is greater than 1, it will resemble a shotgun)",このパラメータでキャラクターが1度に複数のプロジェクタイルを発火させることができます（値が1より大きい場合、ショットガンに似ています）
+guihint.npcsizeprojectile,You can set any size for the projectile launched by the character (maximum value is 20),キャラクターによって発射されるプロジェクタイルのサイズを任意に設定できます（最大値は20です）
+guihint.npcstrength,Here you can adjust the damage that your projectile will deal,ここでプロジェクタイルが与えるダメージを調整できます
+guihint.npctint,Here you can change the tint of your character using the HEX color code (copy the HEX color without this symbol: #),ここでHEXカラーコードを使用してキャラクターの色合いを変更できます（このシンボルなしでHEXカラーをコピーしてください：＃）
+guihint.npctitle,"If you want to specify the clan, class, or origin of the character, you can give it a prefix using this parameter",キャラクターの一族、クラス、または起源を指定する場合、このパラメータを使用してプレフィックスを与えることができます
+guihint.npctrailprojectile,"If you are creating a magic projectile, this option can help you",マジックプロジェクタイルを作成している場合、このオプションが役に立つことがあります
+guihint.npcvisible,This parameter allows you to make your character invisible or set conditions under which the character becomes invisible,このパラメータでキャラクターを不可視にするか、キャラクターが不可視になる条件を設定できます
+guihint.pickuptype,"If the loot from the character is constantly scattering, it is recommended to set <Auto-Pickup>",キャラクターからのドロップアイテムが常に散らばっている場合、<自動ピックアップ>を設定することをお勧めします
+guihint.return,Should the NPC return to their spawn point?,NPCはスポーンポイントに戻る必要がありますか？
+message.delete,Are you sure you want to delete this?,これを削除してもよろしいですか？
+message.pather.added,"Added point x:%s, y:%s, z:%s to npc %s","ポイント x:%s, y:%s, z:%s をNPC %s に追加しました"
+message.pather.register,Registered %s to your NPC Pather,%s をあなたのNPC Patherに登録しました
+movement.wanderinteract,Interact with npcs,NPCと相互作用する

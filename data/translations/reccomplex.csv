@@ -85,14 +85,13 @@ commands.whatisthis.one,This is: %s,これは: %s
 commands.whatisthis.many,"This is any, or all of: %s",これは、%s のいずれか、またはすべてです
 commands.rcarea.get,%s to %s,%s から %s まで
 commands.rcarea.select,Select this area,この領域を選択
-commands.rcpos.get,"[%d,%d,%d]","[%d,%d,%d]"
-commands.rcchunkpos.get,"[%d,%d]","[%d,%d]"
-commands.rcpos.none,§onowhere§r,§onowhere§r
-commands.rcsize.get,"[%d,%d,%d]","[%d,%d,%d]"
+commands.rcpos.get,"[%d,%d,%d]",
+commands.rcchunkpos.get,"[%d,%d]",
+commands.rcsize.get,"[%d,%d,%d]",
 commands.rccopy.suggest,Copy,コピー
 commands.rcsightinfo.lookup,Sight Info,視覚情報
 commands.rcsightinfo.unknown,Unknown sight UUID!,未知の視覚UUID!
-commands.rcsightinfo.get,"%s %s, ID: %s","%s %s, ID: %s"
+commands.rcsightinfo.get,"%s %s, ID: %s",
 commands.rcsightinfo.structure,"%s %s, Seed: %s, ID: %s",%s %s、種子：%s、ID：%s
 commands.rcforget.forget,Forget %s,忘れ %s
 commands.rcforget.success,Forgot %s!,%sを忘れました!
@@ -126,7 +125,7 @@ inventoryGen.active,%sActive%s,%sアクティブ%s
 inventoryGen.inactive,%sInactive%s,%s無効%s
 reccomplex.save.permission,You do not have permission to save!,保存する権限がありません！
 reccomplex.save.failure,Failed to save %s to %s,ファイルを%sに保存できませんでした。
-reccomplex.save.full,%s: %s,%s: %s
+reccomplex.save.full,%s: %s,
 reccomplex.save.success,Saved %s to %s,%sを%sに保存しました
 reccomplex.save.submit,[Submit],[送信]
 reccomplex.save.submit.hover,Submit to Repository,リポジトリに送信
@@ -255,7 +254,7 @@ reccomplex.generationInfo.decoration.types.scattered_feature.tooltip,Various sca
 reccomplex.generationInfo.decoration.types.village,Village,村
 reccomplex.generationInfo.decoration.types.village.tooltip,Villages filled with villagers and farms.,村人と農場で満たされた村
 reccomplex.generationInfo.decoration.types.nether_bridge,Nether Bridge Fortress,下界橋要塞
-reccomplex.generationInfo.decoration.types.nether_bridge.tooltip,Fortresses in the Nether filled with blazes<br>made from nether brick.,ネザーにあるブレイズで満ちた要塞<br>ネザーブリックで作られた。
+reccomplex.generationInfo.decoration.types.nether_bridge.tooltip,Fortresses in the Nether filled with blazes<br>made from nether brick.,ネザーにあるブレイズで満ちた要塞<br>ネザーレンガで作られた。
 reccomplex.generationInfo.decoration.types.stronghold,Stronghold,強固の要塞
 reccomplex.generationInfo.decoration.types.stronghold.tooltip,A stronghold containing the end portal.,エンドポータルを含む強固な基地。
 reccomplex.generationInfo.decoration.types.mineshaft,Mineshaft,廃坑
@@ -423,8 +422,8 @@ reccomplex.worldscript.holder.self.tooltip,The block placed at the position<br>o
 reccomplex.gui.list.noelements,No Elements,要素なし
 reccomplex.gui.true,True,真
 reccomplex.gui.random.weight,Weight,重量
-reccomplex.gui.random.weight.default.short,D,D
-reccomplex.gui.random.weight.custom.short,C,C
+reccomplex.gui.random.weight.default.short,D,
+reccomplex.gui.random.weight.custom.short,C,
 reccomplex.gui.random.weight.tooltip,"Weight of this element for random selection.<br>§achance = weight / sum_of_all_weights§r<br>In other words, twice the weight means<br>twice as likely.<br>Set to D for the default value.",ランダム選択のためのこの要素の重みです。<br>§aチャンス = 重み / 全重みの合計§r<br>言い換えれば、重みが2倍であれば、2倍の確率です。<br>デフォルト値にはDを設定してください。
 reccomplex.gui.block,Block,ブロック
 reccomplex.gui.blocks,Blocks,ブロック
@@ -439,7 +438,7 @@ reccomplex.gui.earlier,Earlier,以前
 reccomplex.gui.hidegui,Hide GUI,GUIを非表示
 reccomplex.gui.visualizegui,Visualize,ビジュアライズ
 reccomplex.gui.randomize,Randomize,ランダム化
-reccomplex.gui.randomize.short,??,??
+reccomplex.gui.randomize.short,??,
 reccomplex.gui.biomes,Biomes,バイオーム
 reccomplex.gui.dimensions,Dimensions,ディメンション
 reccomplex.gui.environment,Environment,環境
@@ -460,7 +459,7 @@ reccomplex.rotation.clockwise.2,180° Clockwise,180°回転
 reccomplex.rotation.clockwise.3,270° Clockwise,270°回転
 reccomplex.preset,Preset,プリセット
 reccomplex.preset.save,§aSave§r as §bPreset,§a保存§r して §bプリセット
-reccomplex.preset.id,ID,ID
+reccomplex.preset.id,ID,
 reccomplex.preset.id.tooltip,Unique identifier for the preset,プリセットのユニーク識別子
 reccomplex.preset.title,Title,タイトル
 reccomplex.preset.title.tooltip,Title=Visible title of the preset,タイトル=プリセットの表示タイトル
@@ -487,13 +486,13 @@ gui.tweakStructures.generate,Gen,生成
 gui.tweakStructures.generate.tooltip,Generate this structure.,この構造を生成します。
 reccomplex.gui.blockpos,Position,位置
 reccomplex.gui.blockpos.tooltip,"The coordinates x, y and z.","座標 x, y, z です。"
-reccomplex.gui.blockpos.x,x,x
-reccomplex.gui.blockpos.y,y,y
-reccomplex.gui.blockpos.z,z,z
+reccomplex.gui.blockpos.x,x,
+reccomplex.gui.blockpos.y,y,
+reccomplex.gui.blockpos.z,z,
 reccomplex.gui.surfacepos,Position,位置
 reccomplex.gui.surfacepos.tooltip,The coordinates x and z.,x と z の座標
-reccomplex.gui.surfacepos.x,x,x
-reccomplex.gui.surfacepos.z,z,z
+reccomplex.gui.surfacepos.x,x,
+reccomplex.gui.surfacepos.z,z,
 reccomplex.gui.blockpos.shift,Shift,シフト
 reccomplex.gui.blockpos.shift.tooltip,"The positional movement x, y, z.","位置移動のx, y, z。"
 reccomplex.tileentity.nbt,Tile Entity NBT,タイルエンティティ NBT
@@ -547,9 +546,9 @@ reccomplex.blockpattern.ingredients,Ingredients,材料
 reccomplex.blockpattern.ingredients.tooltip,Information about the blocks used<br>in the pattern.,パターンで使用されているブロックに関する情報
 reccomplex.blockpattern.ingredient.identifier,Identifier,識別子
 reccomplex.blockpattern.ingredient.delete,Delete Blocks,ブロック削除
-reccomplex.parameters.pos.x,x,x
-reccomplex.parameters.pos.y,y,y
-reccomplex.parameters.pos.z,z,z
+reccomplex.parameters.pos.x,x,
+reccomplex.parameters.pos.y,y,
+reccomplex.parameters.pos.z,z,
 reccomplex.parameters.biome,dimension,ディメンション
 reccomplex.parameters.biome.type,dimension,ディメンション
 reccomplex.parameters.dimension,dimension,ディメンション
@@ -576,6 +575,17 @@ commands.parameters.command,command,コマンド
 commands.parameters.entity,entity,エンティティ
 commands.parameters.player,player,プレイヤー
 commands.parameters.rotation,rotation,回転
-commands.parameters.x,x,x
-commands.parameters.y,y,y
-commands.parameters.z,z,z
+commands.parameters.x,x,
+commands.parameters.y,y,
+commands.parameters.z,z,
+tile.negativeSpace.meta.4.name,Space (4),
+tile.negativeSpace.meta.5.name,Space (5),
+tile.negativeSpace.meta.6.name,Space (6),
+tile.negativeSpace.meta.7.name,Space (7),
+tile.negativeSpace.meta.8.name,Space (8),
+tile.negativeSpace.meta.9.name,Space (9),
+commands.rclookup.reply.silent,"%s: §bInactive§r, by: %s, is %s, %s",
+reccomplex.server.status,<Recurrent Complex> Loaded %s active structures: %s %s %s %s,
+reccomplex.worldscript.strucGen.mode.list.front,Front,
+reccomplex.gui.false,False,
+commands.rcpos.none,§onowhere§r,

@@ -26,3 +26,9 @@ config.forgivingvoid.triggerInEnd,Trigger in End,エンドでトリガー
 config.forgivingvoid.triggerInNether,Trigger in Nether,ネザーでトリガー
 config.forgivingvoid.triggerInOverworld,Trigger in Overworld,オーバーワールドでトリガー
 death.fell.forgivingvoid,%1$s fell from the top of the world,%1$s は世界の頂上から落下しました
+config.forgivingvoid.dimensionAllowList.tooltip,List of dimension ids to be allowed for Forgiving Void. Options triggerInOverworld etc. take priority.,
+config.forgivingvoid.dimensionDenyList.tooltip,List of additional dimension ids to be deny-listed from Forgiving Void. Options triggerInOverworld etc. take priority. Ignored if dimensionAllowList is set.,
+config.forgivingvoid.triggerAtDistanceBelow.tooltip,The distance to the minimum y level at which Forgiving Void should forgive the player and send them towards the sky.,
+config.forgivingvoid.triggerInEnd.tooltip,Set to false to make Forgiving Void not trigger in the end void (dimension 1).,
+config.forgivingvoid.triggerInNether.tooltip,Set to false to make Forgiving Void not trigger in the nether void (dimension -1).,
+config.forgivingvoid.triggerInOverworld.tooltip,Set to false to make Forgiving Void not trigger in the overworld void (dimension 0).,

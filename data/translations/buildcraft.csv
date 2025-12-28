@@ -54,23 +54,23 @@ chat.pipe.power.iron.level.160,Medium,中
 color.clear,Clear,クリア
 color.black,Black,黒
 color.blue,Blue,青
-color.brown,Brown,茶色
-color.cyan,Cyan,シアン
-color.gray,Gray,グレー
+color.brown,Brown,茶
+color.cyan,Cyan,青緑
+color.gray,Gray,灰色
 color.green,Green,緑
 color.light.blue,Light Blue,空色
 color.light.gray,Light Gray,薄灰色
-color.lime,Lime,ライム
-color.magenta,Magenta,マゼンタ
-color.orange,Orange,オレンジ
-color.pink,Pink,ピンク
+color.lime,Lime,黄緑
+color.magenta,Magenta,赤紫
+color.orange,Orange,橙
+color.pink,Pink,桃色
 color.purple,Purple,紫
 color.red,Red,赤
 color.white,White,白
-color.yellow,Yellow,黄色
+color.yellow,Yellow,黄
 config.general,General,一般
 config.general.pipes,Pipes,パイプ
-config.blueprints,Blueprints,設計図
+config.blueprints,Blueprints,ブルーブック
 config.builders,Builders,建築家
 config.power,Power Usage,エネルギー消費
 config.experimental,Experimental,実験的
@@ -261,9 +261,9 @@ item.bucketFuel.name,Fuel Bucket,燃料入りバケツ
 item.bucketOil.name,Oil Bucket,原油バケット
 item.woodenGearItem.name,Wood Gear,木の歯車
 item.stoneGearItem.name,Stone Gear,石の歯車
-item.ironGearItem.name,Iron Gear,鉄のギア
-item.goldGearItem.name,Gold Gear,金のギア
-item.diamondGearItem.name,Diamond Gear,ダイヤモンドのギア
+item.ironGearItem.name,Iron Gear,鉄の歯車
+item.goldGearItem.name,Gold Gear,金の歯車
+item.diamondGearItem.name,Diamond Gear,ダイヤモンドの歯車
 item.templateItem.name,Template,テンプレート
 item.wrenchItem.name,Wrench,レンチ
 item.paintbrush.name,Paintbrush,ペイントブラシ
@@ -335,7 +335,7 @@ item.PipeRobotStation.name,Docking Station,ドック
 item.Facade.name,Facade,ファサード
 item.Facade.state_hollow,Hollow,空洞
 item.FacadePhased.name,Phased Facade,フェーズドファサード
-item.FacadePhased.state,%s: %s,%s: %s
+item.FacadePhased.state,%s: %s,
 item.FacadePhased.state_default,Default: %s,デフォルト: %s
 item.FacadePhased.state_transparent,Transparent,透明
 item.PipePlug.name,Pipe Plug,パイプ栓
@@ -534,32 +534,32 @@ chat.pipe.power.iron.level.2560,Full Capacity,フル容量
 config.performance,Performance,パフォーマンス
 direction.center,Center,中央
 buildcraft.fluid.empty,Empty,空
-buildcraft.fluid.static.milli.short,%s mB,%s mB
-buildcraft.fluid.static.bucket.short,%s B,%s B
+buildcraft.fluid.static.milli.short,%s mB,
+buildcraft.fluid.static.bucket.short,%s B,
 buildcraft.fluid.static.milli.long,%s milli buckets,%s ミリバケツ
 buildcraft.fluid.static.bucket.long,%s buckets,%1$s バケツ
-buildcraft.fluid.empty.milli.short,0 / %s mB,0 / %s mB
-buildcraft.fluid.empty.bucket.short,0 / %s B,0 / %s B
+buildcraft.fluid.empty.milli.short,0 / %s mB,
+buildcraft.fluid.empty.bucket.short,0 / %s B,
 buildcraft.fluid.empty.milli.long,Empty %s milli bucket tank,空の%sミリバケットタンク
 buildcraft.fluid.empty.bucket.long,Empty %s bucket tank,%s バケツタンクを空にする
-buildcraft.fluid.full.milli.short,%1$s / %1$s mB,%1$s / %1$s mB
-buildcraft.fluid.full.bucket.short,%1$s / %1$s B,%1$s / %1$s B
+buildcraft.fluid.full.milli.short,%1$s / %1$s mB,
+buildcraft.fluid.full.bucket.short,%1$s / %1$s B,
 buildcraft.fluid.full.milli.long,Full %s milli bucket tank,満タンの%sミリバケットタンク
 buildcraft.fluid.full.bucket.long,Full %s bucket tank,%s バケットタンクを満たします
-buildcraft.fluid.static.cap.milli.short,%s / %s mB,%s / %s mB
-buildcraft.fluid.static.cap.bucket.short,%s / %s B,%s / %s B
+buildcraft.fluid.static.cap.milli.short,%s / %s mB,
+buildcraft.fluid.static.cap.bucket.short,%s / %s B,
 buildcraft.fluid.static.cap.milli.long,%s milli buckets in a %s milli bucket tank,%s ミリバケツは %s ミリバケットタンクに入ります
 buildcraft.fluid.static.cap.bucket.long,%s buckets in a %s bucket tank,%s バケツは %s バケットタンクに入っています
-buildcraft.fluid.flow.milli.short,%s mB/t,%s mB/t
+buildcraft.fluid.flow.milli.short,%s mB/t,
 buildcraft.fluid.flow.bucket.short,%s B/s,%s バイト/秒
 buildcraft.fluid.flow.milli.long,%s milli buckets per tick,%s ミリバケツ/ティック
 buildcraft.fluid.flow.bucket.long,%s buckets per second,%s バケツ/秒
 buildcraft.mj.static.long,%s Minecraft Joules,%s Minecraft ジョウル
-buildcraft.mj.static.short,%s MJ,%s MJ
+buildcraft.mj.static.short,%s MJ,
 buildcraft.mj.flow.long,%s Minecraft Joules per tick,%s マインクラフト ジュール/ティック
-buildcraft.mj.flow.short,%s MJ/t,%s MJ/t
+buildcraft.mj.flow.short,%s MJ/t,
 buildcraft.mj.flow.seconds.long,%s Minecraft Joules per second,%s Minecraft ジュール/秒
-buildcraft.mj.flow.seconds.short,%s MJ/s,%s MJ/s
+buildcraft.mj.flow.seconds.short,%s MJ/s,
 fillerpattern.none,None,なし
 fillerpattern.sphere_eighth,Eighth-Sphere,第八の球体
 fillerpattern.sphere_quarter,Quarter-sphere,四分球
@@ -594,10 +594,10 @@ fluid.fuel_dense,Dense Fuel,高密度燃料
 fluid.fuel_light,Light Fuel,燃料
 fluid.fuel_gaseous,Gaseous Fuel,ガス燃料
 buildcraft.fluid.heat_0,%s (§bCool§r),%s (§b冷却§r)
-buildcraft.fluid.heat_1,%s (§6Hot§r),%s (§6Hot§r)
+buildcraft.fluid.heat_1,%s (§6Hot§r),
 buildcraft.fluid.heat_2,%s (§cSearing§r),%s (§c焼け§r)
 buildcraft.christmas.fluid.oil,Raw Chocolate Mix,生チョコレートミックス
-buildcraft.christmas.fluid.fuel,Milk Chocolate,ミルクチョコレート
+buildcraft.christmas.fluid.fuel,Milk Chocolate,チョコレート
 buildcraft.christmas.fluid.oil_distilled,Mixed Chocolates,ミックスチョコレート
 buildcraft.christmas.fluid.oil_heavy,Raw Chocolate,生チョコレート
 buildcraft.christmas.fluid.oil_dense,Raw Heavy Chocolates,生のヘビー・チョコレート
@@ -605,7 +605,7 @@ buildcraft.christmas.fluid.oil_residue,Caramel Excess,キャラメル過剰
 buildcraft.christmas.fluid.fuel_mixed_heavy,Darker Chocolate Mix,より暗いチョコレートミックス
 buildcraft.christmas.fluid.fuel_mixed_light,Lighter Chocolate Mix,軽いチョコレートミックス
 buildcraft.christmas.fluid.fuel_dense,Dark Chocolate,ダークチョコレート
-buildcraft.christmas.fluid.fuel_light,Milk Chocolate,ミルクチョコレート
+buildcraft.christmas.fluid.fuel_light,Milk Chocolate,チョコレート
 buildcraft.christmas.fluid.fuel_gaseous,White Chocolate,ホワイトチョコレート
 buildcraft.christmas.buildcraft.fluid.heat_0,§bMelted§r %s,§b溶解した§r %s
 buildcraft.christmas.buildcraft.fluid.heat_1,§6Bubbling§r %s,§6泡立つ§r %s
@@ -614,7 +614,7 @@ buildcraft.christmas.tile.engineIron.name,Chocolate Engine,チョコレートエ
 gate.action.pulsar.constant,Power Pulsar,エンジン動力を出力する
 gate.action.pulsar.single,Single Power Pulse,エンジン動力を一度だけ出力する
 gate.action.pipe.direction,Face the %s side,%s側を向いて
-gate.material.nether_brick,Nether Brick,ネザー・ブリック
+gate.material.nether_brick,Nether Brick,下界ブロック
 gate.slots,%s Slots,%s スロット
 gate.params,%s Slot Parameters,%s スロットパラメータ
 gate.params.trigger,%s Trigger Parameters,%s トリガーパラメータ
@@ -640,7 +640,7 @@ gui.ledger.help,Help,ヘルプ
 gui.progress,Progress,進捗
 gui.leftToBreak,To break,破壊する
 gui.leftToPlace,To place,配置する
-item.diamondShard.name,Diamond Shard,ダイヤモンドの欠片
+item.diamondShard.name,Diamond Shard,Diamond シャード
 item.pipeWire.name,Pipe Wire,パイプワイヤー
 item.schematicSingle.name,Single Block Schematic,単一ブロック図面
 item.plasticSheet.name,Plastic Sheet,プラスチックシート
@@ -666,7 +666,7 @@ item.PipeFluidsAndesite.name,Andesite Fluid Pipe,安山岩流体パイプ
 item.PipeFluidsDiorite.name,Diorite Fluid Pipe,閃緑岩流体パイプ
 item.PipeFluidsGranite.name,Granite Fluid Pipe,グラナイト流体パイプ
 item.PipeFluidsWoodenDiamond.name,Wooden Diamond Fluid Pipe,木製ダイヤモンド流体パイプ
-item.light_sensor.name,Light Sensor,光センサー
+item.light_sensor.name,Light Sensor,ライトセンサー
 item.buildcraft.guide.name,BuildCraft Guide Book,BuildCraft ガイドブック
 item.buildcraft.guide_note.name,BuildCraft Guide Book Note,BuildCraft ガイドブックノート
 item.buildcraft.robot_goggles.name,Robot Goggles,ロボットゴーグル
@@ -738,7 +738,7 @@ buildcraft.guide.chapter.stage.base,Basic Resources,基本資源
 buildcraft.guide.chapter.stage.common,Common Materials,一般的な素材
 buildcraft.guide.chapter.stage.rare,Rare Elements,稀有な元素
 buildcraft.guide.chapter.stage.nether,Nether,ネザー
-buildcraft.guide.chapter.stage.end,Ender,エンダー
+buildcraft.guide.chapter.stage.end,Ender,エンダ
 buildcraft.guide.chapter.mod.unknown,Unknown Mod!,不明なモジュール！
 buildcraft.guide.chapter.submod.unknown,Unknown SubMod!,不明なサブモッド！
 buildcraft.guide.chapter.submod.lib,Lib,ライブラリ
@@ -860,3 +860,8 @@ advancements.buildcraftbuilders.building_for_the_future.title,Building for the f
 advancements.buildcraftbuilders.building_for_the_future.description,Set a filler on a loop for long term automation,長期自動化のためにループ上にフィラーを設定
 advancements.buildcraftbuilders.destroying_the_world.title,Destorying the world,世界の破壊
 advancements.buildcraftbuilders.destroying_the_world.description,Have two or more 64 x 64 sized quarries running at once at full speed,64x64サイズの掘削機を2台以上同時にフルスピードで稼働させます。
+buildcraft.boardRobotStripes,Stripes,
+itemGroup.buildcraft.main,BuildCraft,
+buildcraft.guide.chapter.mod.buildcraft,BuildCraft,
+advancements.buildcraftcore.root.title,BuildCraft,
+advancements.buildcrafttransport.logic_transportation.description,Connect pipe wires,

@@ -137,12 +137,6 @@ modularrouters.guiText.label.buffer,Buffer,バッファ
 modularrouters.guiText.label.direction,§eDirection,方向
 modularrouters.guiText.label.filters,Filters,フィルター
 modularrouters.guiText.label.fluidForceEmpty,Force,強制
-modularrouters.guiText.label.inspectionOp.EQ,=,=
-modularrouters.guiText.label.inspectionOp.GE,>=,>=
-modularrouters.guiText.label.inspectionOp.GT,>,>
-modularrouters.guiText.label.inspectionOp.LE,<=,<=
-modularrouters.guiText.label.inspectionOp.LT,<,<
-modularrouters.guiText.label.inspectionOp.NE,!=,!=
 modularrouters.guiText.label.inspectionSubject.durability,Durability,耐久値
 modularrouters.guiText.label.inspectionSubject.enchant,Enchantment,エンチャント
 modularrouters.guiText.label.inspectionSubject.energy,Energy Level,エネルギーレベル
@@ -358,8 +352,8 @@ modularrouters.guiText.tooltip.redstone.low,Low,低
 modularrouters.guiText.tooltip.redstone.never,Never,決して
 modularrouters.guiText.tooltip.redstone.pulse,Pulsed,パルス
 modularrouters.guiText.tooltip.regulator.label,%d Item(s),%d アイテム
-modularrouters.guiText.tooltip.regulator.labelFluidPct,%d%%,%d%%
-modularrouters.guiText.tooltip.regulator.labelFluidmB,%d mB,%d mB
+modularrouters.guiText.tooltip.regulator.labelFluidPct,%d%%,
+modularrouters.guiText.tooltip.regulator.labelFluidmB,%d mB,
 modularrouters.guiText.tooltip.regulatorTooltip,§bItem Regulation Enabled${br}When inserting: only insert when inventory has fewer than this many of the item.${br}When extracting: only extract if inventory has more than this many of the item.,"§rアイテム規制有効化
 挿入時：インベントリがこの数より少ないアイテムを持つ場合のみ挿入します。
 抽出時：インベントリがこの数より多くのアイテムを持つ場合のみ抽出します。"
@@ -583,7 +577,7 @@ modularrouters.guiText.tooltip.IGNORE_DAMAGE.1,Match Item Damage${br}Distinguish
 modularrouters.guiText.tooltip.IGNORE_DAMAGE.2,Ignore Item Damage${br}Treat damageable items of the same type but different damage levels as the same,アイテム耐久度を無視${br}同じタイプだが異なる耐久度レベルの耐久度アイテムを同じものとして扱います
 modularrouters.guiText.tooltip.IGNORE_NBT.1,Match NBT${br}e.g. take the enchantments on an item into account when matching,NBTマッチ有効${br}例：マッチング時にアイテムのエンチャントを考慮します
 modularrouters.guiText.tooltip.IGNORE_NBT.2,Ignore NBT${br}e.g. ignore the enchantments on an item when matching,NBTマッチ無効${br}例：マッチング時にアイテムのエンチャントを無視します
-modularrouters.guiText.tooltip.IGNORE_TAGS.1,"Tag Matching Enabled${br}Items in the same tag group as any item in the filter will match, e.g. oak and birch logs",タグマッチング有効${br}フィルター内の任意のアイテムと同じタググループ内のアイテムがマッチします。例：オークと樺の丸太
+modularrouters.guiText.tooltip.IGNORE_TAGS.1,"Tag Matching Enabled${br}Items in the same tag group as any item in the filter will match, e.g. oak and birch logs",タグマッチング有効${br}フィルター内の任意のアイテムと同じタググループ内のアイテムがマッチします。例：オークとシラカバの原木
 modularrouters.guiText.tooltip.IGNORE_TAGS.2,Tag Matching Disabled,タグマッチングが無効
 modularrouters.guiText.tooltip.LEFT,Left,左
 modularrouters.guiText.tooltip.NONE,None,なし
@@ -626,7 +620,7 @@ modularrouters.itemText.fluid.direction,§eFluid Direction: §b%s,§e流体方�
 modularrouters.itemText.fluid.direction.IN,Transfer into Router,ルーターへ転送
 modularrouters.itemText.fluid.direction.OUT,Transfer out of Router,ルーターから転送
 modularrouters.itemText.misc.IGNORE_DAMAGE,Damage,ダメージ
-modularrouters.itemText.misc.IGNORE_NBT,NBT,NBT
+modularrouters.itemText.misc.IGNORE_NBT,NBT,
 modularrouters.itemText.misc.IGNORE_TAGS,Tags,タグ
 modularrouters.itemText.misc.modFilter.count,• %d mod(s) in filter,• %d個のModがフィルターに含まれます
 modularrouters.chatText.targetValidation.BAD_DIMENSION,§c✘ Dimension Blacklisted,§c✘ ディメンションがブラックリストされています
@@ -710,7 +704,7 @@ guiText.tooltip.redstone.HIGH,High,高
 guiText.tooltip.redstone.NEVER,Never,決して
 guiText.tooltip.redstone.PULSE,Pulsed,パルス
 guiText.tooltip.regulator.label,%d Item(s),%d アイテム
-guiText.tooltip.regulator.labelFluid,%d%%,%d%%
+guiText.tooltip.regulator.labelFluid,%d%%,
 guiText.tooltip.eco.false,Eco Mode §edisabled \n§7Router will always run at normal speed.,エコモード §edisabled \n§7ルーターは常に通常速度で動作します。
 guiText.tooltip.eco.true,"Eco Mode §aenabled \n§7If router is idle for >%f seconds, it will enter low-power mode and only run every %f seconds.  It will leave low-power mode upon processing any item and return to running at normal speed.","エコモード §aが有効です
 §7ルーターが>%f秒アイドル状態の場合、低電力モードに入り、%f秒ごとにのみ実行されます。任意のアイテムを処理すると低電力モードを抜け、通常の速度で実行に戻ります。"
@@ -768,12 +762,12 @@ guiText.label.inspectionSubject.FLUID,Fluid Level,流体レベル
 guiText.label.inspectionSubject.ENERGY,Energy Level,エネルギーレベル
 guiText.label.inspectionSubject.ENCHANT,Enchantment,エンチャント
 guiText.label.inspectionSubject.FOOD,Food Value,食品価値
-guiText.label.inspectionOp.GT,>,>
-guiText.label.inspectionOp.LT,<,<
-guiText.label.inspectionOp.GE,>=,>=
-guiText.label.inspectionOp.LE,<=,<=
-guiText.label.inspectionOp.EQ,=,=
-guiText.label.inspectionOp.NE,!=,!=
+guiText.label.inspectionOp.GT,>,
+guiText.label.inspectionOp.LT,<,
+guiText.label.inspectionOp.GE,>=,
+guiText.label.inspectionOp.LE,<=,
+guiText.label.inspectionOp.EQ,=,
+guiText.label.inspectionOp.NE,!=,
 guiText.label.matchAll.false,Match Any,どれかに一致
 guiText.label.matchAll.true,Match All,すべてマッチ
 guiText.label.xpVacuum,XP Type,経験値タイプ
@@ -913,13 +907,13 @@ gui.config.startWithGuide,New players start with a copy of the guide book,新規
 itemText.misc.holdShiftCtrl,"Hold §e§oShift§7 for settings, §e§oCtrl§7 for info",設定には §e§oShift§7、情報には §e§oCtrl§7 を押してください
 itemText.misc.holdCtrl,Hold §e§oCtrl§r§7 for info,情報を表示するには §e§oCtrl§r§7 を押す
 itemText.misc.moduleCount,§fModules: §b%d,§fモジュール: §b%d
-itemText.misc.upgradeCount,§f%s: §b%d,§f%s: §b%d
+itemText.misc.upgradeCount,§f%s: §b%d,
 itemText.misc.routerConfigured,§oThis router has been configured,§oこのルータは設定されています
 itemText.misc.whitelist,Whitelist,ホワイトリスト
 itemText.misc.blacklist,Blacklist,ブラックリスト
 itemText.misc.noItems,Empty,空
 itemText.misc.IGNORE_META,Meta,メタ
-itemText.misc.IGNORE_NBT,NBT,NBT
+itemText.misc.IGNORE_NBT,NBT,
 itemText.misc.TERMINATE,Termination,終了
 itemText.misc.flags,Flags,旗
 itemText.misc.breakerModulePick,§ePickaxe: §b%s,§eツルハシ: §b%s
@@ -930,7 +924,6 @@ itemText.misc.strongSignal.false,Weak,弱
 itemText.misc.strongSignal.true,Strong,強
 itemText.misc.operation,Operation,操作
 itemText.misc.bulkItemFilter.count,• %d item(s) in filter,• フィルター内に%dアイテム
-itemText.misc.regexFilter.count,• %d regex(es) in filter,• %d regex(es) in filter
 itemText.misc.modFilter.count,• %d mod(s) in filter,• %d個のModがフィルターに含まれます
 itemText.misc.rangeInfo,"Range: %s%d §7[base %d, max %d]","範囲: %s%d §7[ベース %d, 最大 %d]"
 itemText.security.count,%d / %d other player(s):,その他プレイヤー数 %d / %d:
@@ -1069,3 +1062,31 @@ guidebook.words.ecoMode,Eco Mode,エコモード
 guidebook.words.augments,Module Augments,モジュール増強
 jei.recipe.reset.name,Module Reset,モジュールリセット
 jei.recipe.reset.description,"Completely resets the module to its newly-crafted state.  Beware: ALL data, including filter settings and enchantments, will be lost (but any installed augments will be returned)",モジュールを新しく作成された状態に完全にリセットします。注意: フィルター設定やエンチャントを含む全てのデータが失われます(ただし、インストールされた拡張機能は復元されます)
+modularrouters.itemText.usage.item.extruder_module_2,"Operates like the Extruder Mk1, but places template blocks from an internal pattern buffer instead of real blocks from the router's buffer.",
+modularrouters.itemText.usage.item.mimic_augment,"Allows the fake blocks placed by the Extruder Mk2 to also mimic lighting, redstone emission, hardness and blast resistance of the blocks whose appearance is being mimicked.",
+modularrouters.itemText.usage.item.pushing_augment,Increases the force by which Extruder Mk1/2 can push entities away when extruding blocks.  Can be stacked.,
+modularrouters.guiText.tooltip.numberFieldTooltip,• §e§oCursor Up/Down§7 or mouse wheel: adjust${br}• Hold §e§oShift§7: coarse adjust${br}• Hold §e§oCtrl§7: fine adjust${br}• §e§oPage Up/Down§7: set to max/min,
+modularrouters.itemText.misc.regexFilter.count,• %d regex(es) in filter,
+guiText.tooltip.fluidRegulatorTooltip,§bFluid Regulation Enabled\nWhen transferring from router: only insert when destination tank(s) are less than this full.\nWhen transferring to router: only extract if source tank(s) are more than this full.,
+guiText.popup.fluid.maxTransfer,"§a§nMax Transfer \n \n§rThis is the maximum amount of fluid that the router will attempt to transfer in one operation. \n \nNote that the transfer rate is still limited by the number of Fluid Transfer Upgrades in the router, as well as the transfer rate of the external tank (if there is one). So this number should be considered a limit rather than a target.",
+guiText.popup.fluid.forceEmpty,"§a§nXP Force Empty \n \n§rWhen you empty a bucket of any fluid into a pool of that fluid in Minecraft, the fluid in the bucket is lost & gone forever. This is not necessarily desirable. \n \nThe Fluid Module, by default, will not attempt to pour out any fluid into the world, unless the target block is completely empty, i.e. air.  You can override this behaviour by toggling the ""Force"" button; when enabled, the Fluid Module will not hesitate to pour fluid into an existing pool - just be aware that you may lose fluids by doing this...",
+itemText.misc.IGNORE_OREDICT,Oredict,
+itemText.misc.configureHint,§oPress §e§o[%s]§7§o or §e§oMiddle-Click§7§o to configure,
+itemText.misc.flingerDetails,§eSpeed: §b%f§f | §ePitch: §b%f§f | §eYaw: §b%f,
+itemText.usage.item.void_module,§c*** CAUTION ***\nPermanently destroys items in the buffer!,
+itemText.usage.item.extruder_module,"Places or removes blocks in a line along the module's direction, depending on the router's redstone signal level.\nDefault is to place with a signal and remove with no signal; add Redstone Augment to the module for custom behaviour.",
+itemText.usage.item.extruder2_module,"Operates like the Extruder Mk1, but places template blocks from an internal pattern buffer instead of real blocks from the router's buffer.",
+itemText.usage.item.stack_augment,Allows the module to process multiple items per tick.\nThis overrides Stack Upgrades inserted in the router.,
+itemText.usage.item.xp_vacuum_augment,"Allows the Vacuum Module to collect XP orbs instead of items.\nXP can be converted into a variety of solid & liquid forms, depending on what other mods are installed, but vanilla Bottles o' Enchanting are always available. Liquid XP conversion requires a tank capable of storing liquids by the mB either in the router's buffer as an item, or placed adjacent to the router as a block (with Eject mode enabled in the module GUI).",
+itemText.usage.item.mimic_augment,"Allows the fake blocks placed by the Extruder Mk2 to also mimic lighting, redstone emission, hardness and blast resistance of the blocks whose appearance is being mimicked.",
+itemText.usage.item.pushing_augment,Increases the force by which Extruder Mk1/2 can push entities away when extruding blocks.  Can be stacked.,
+guidebook.para.introText,"§lWelcome to Modular Routers!\n\This is a highly flexible mod for moving items around the world in various ways.  With a single block - the Item Router - and one or more plug-in modules, you can pull items from an inventory (including modded inventories like Storage Drawers), send them to other inventories near & far, place items as blocks, break blocks, drop items into the world, sort items, and much more.\n\nThink of the Item Router like a super-configurable Hopper on steroids...",
+guidebook.para.augmentOverview,Augments replace the older Module Enhancements system in previous versions of Modular Routers.  Module Augments are items which can be inserted into a module to modify or improve its functionality in various ways.  Augments can be inserted or removed at will via a module's GUI.,
+guidebook.para.routerEcoMode,"§lEco Mode§r is a CPU-saving mechanism designed to reduce the load on a server from constantly-running routers.  If a router is in Eco Mode and doesn't process an item for a certain duration (default: 15 seconds), it enters §llow-power mode§r, where it only ticks every 5 seconds (by default), regardless of how many speed upgrades are installed.  If any item is processed while in low-power mode, the router will leave low-power mode and return to full speed.\n\nWhen should Eco Mode be used?  You will see most benefit from routers which only occasionally process items and where instant response is not required, and especially for modules which need to scan large inventories (looking at you, Actually Additions crates...), such as the Puller Module, or the Sorter Module.  In this case, frequent scans may not be necessary, and just a waste of CPU time.",
+modularrouters.guiText.label.inspectionOp.EQ,=,
+modularrouters.guiText.label.inspectionOp.GE,>=,
+modularrouters.guiText.label.inspectionOp.GT,>,
+modularrouters.guiText.label.inspectionOp.LE,<=,
+modularrouters.guiText.label.inspectionOp.LT,<,
+modularrouters.guiText.label.inspectionOp.NE,!=,
+itemText.misc.regexFilter.count,• %d regex(es) in filter,

@@ -4,9 +4,9 @@ item.pipe_connector.gui.button.ResetPipePos,Reset Positions,位置をリセッ�
 item.pipe_connector.gui.button.aStarPathfinding,A* Pathfinding,A* パスファインディング
 item.pipe_connector.gui.button.bridgeType,Bridge Type: %s,橋タイプ: %s
 item.pipe_connector.gui.button.defaultPathfinding,Manhattan Pathfinding,マンハッタンのパスファインディング
-item.pipe_connector.gui.button.infoSign,?,?
-item.pipe_connector.gui.button.off,❌,❌
-item.pipe_connector.gui.button.on,✔,✔
+item.pipe_connector.gui.button.infoSign,?,
+item.pipe_connector.gui.button.off,❌,
+item.pipe_connector.gui.button.on,✔,
 item.pipe_connector.gui.button.preview_outline,Outline,アウトライン
 item.pipe_connector.gui.button.preview_solid,Solid,固体
 item.pipe_connector.gui.button.stepPath,Step Path,歩道
@@ -55,3 +55,9 @@ item.pipe_connector.gui.button.tooltip.disabledPlacePipes,Please choose 2 positi
 item.pipe_connector.gui.button.tooltip.disabledResetPipePos,You haven't chosen a any positions yet,まだポジションを選択していません。
 item.pipe_connector.gui.button.tooltip.utilizeExistingPipesInfoPartTwo,pipes to connect the two positions,両位置を接続するパイプ
 item.pipe_connector.gui.tooltip.Pathfinding,This will find the shortest path between the two positions,2 つの位置間で最短経路を検索します
+item.pipe_connector.gui.button.tooltip.inactiveUtilizeExistingPipes,A* Pathfinding must be selected to use this feature,
+item.pipe_connector.jei.description,"The Pipe Connector allows you to choose two positions by Shift+Right-Clicking, once both positions are chosen, a preview of the path will be shown.
+ You can change the depth of the pipe by Shift+Scrolling.
+ Once you are happy with the path, you can Shift+Right-Click to open the GUI and click on 'Place Pipes' to place the pipes.
+ 'Reset Positions' to reset the positions if you are unhappy with the first position.
+ A list of supported pipes that can be placed can be found in JEI.",

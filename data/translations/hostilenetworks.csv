@@ -3,13 +3,12 @@ _comment,Thermal,サーマル
 block.hostilenetworks.loot_fabricator,Loot Fabricator,ルート製造機
 block.hostilenetworks.sim_chamber,Simulation Chamber,シミュレーションチャンバー
 curios.identifier.deep_learner,Deep Learner,ディープラーナー
-enchantment.level.0,0,0
 hostilenetworks.color_text.build,Build a Data Model,データモデルを構築
 hostilenetworks.color_text.failed,failed,失敗
 hostilenetworks.color_text.false,false,偽
-hostilenetworks.color_text.hud,HUD,HUD
+hostilenetworks.color_text.hud,HUD,
 hostilenetworks.color_text.rclick,Right-Click,右クリック
-hostilenetworks.color_text.shift,SHIFT,SHIFT
+hostilenetworks.color_text.shift,SHIFT,
 hostilenetworks.color_text.success,succeeded,成功
 hostilenetworks.color_text.true,true,真
 hostilenetworks.fail.energy,"Cannot begin simulation
@@ -30,7 +29,7 @@ hostilenetworks.gui.accuracy,Model Accuracy: ,モデル精度:
 hostilenetworks.gui.clear,Click to clear selection,選択をクリア
 hostilenetworks.gui.cost,Model energy cost: %s FE/t,モデルエネルギーコスト: %s FE/t
 hostilenetworks.gui.data,%s/%s Data collected,%s/%s データ収集済み
-hostilenetworks.gui.energy,%s/%s FE,%s/%s FE
+hostilenetworks.gui.energy,%s/%s FE,
 hostilenetworks.gui.fab_cost,Energy cost: %s FE/t,エネルギーコスト: %s FE/t
 hostilenetworks.gui.info,Information,情報
 hostilenetworks.gui.kill,kill,討伐
@@ -59,16 +58,16 @@ hostilenetworks.info.attunment_disabled,Model attunement is disabled,モデル�
 hostilenetworks.info.data,Data Collected: %s,収集データ: %s
 hostilenetworks.info.disabled,(Disabled),(無効)
 hostilenetworks.info.dpk,Data Per Kill: %s,1討伐あたりのデータ: %s
-hostilenetworks.info.dprog,%s/%s,%s/%s
+hostilenetworks.info.dprog,%s/%s,
 hostilenetworks.info.exp,Generates Experience: %s,経験値生成: %s
 hostilenetworks.info.hold_shift,- Hold %s for more info,- %s を長押しで詳細表示
 hostilenetworks.info.looting,Looting Level: %s,略奪レベル: %s
 hostilenetworks.info.no_base_drop,No Base Drop Produced,基本ドロップなし
 hostilenetworks.info.player,Player Drops: %s,プレイヤードロップ: %s
-hostilenetworks.info.rft,%s FE/t,%s FE/t
+hostilenetworks.info.rft,%s FE/t,
 hostilenetworks.info.rolls,Loot Table Copies: %s,ルートテーブルコピー数: %s
 hostilenetworks.info.sim_cost,Simulation Cost: %s,シミュレーションコスト: %s
-hostilenetworks.info.sub_list,"  - %s","  - %s"
+hostilenetworks.info.sub_list,"  - %s",
 hostilenetworks.info.subtypes,Variants:,バリアント:
 hostilenetworks.info.tier,Tier: %s,ティア: %s
 hostilenetworks.msg.built,Successfully constructed a %s Data Model,%s データモデルを正常に構築しました
@@ -477,7 +476,7 @@ name.hostilenetworks.twilight_ice,Twilight Ice Elemental,トワイライト ア�
 text.hostilenetworks.invalid_selection.index,Errored Selection: Invalid Index (%s),エラーが発生しました: 無効なインデックス (%s)
 text.hostilenetworks.invalid_selection.model,Errored Selection: Unrecognized Model (%s),選択エラー：認識できないモデル（%s）
 text.hostilenetworks.scroll,[scroll],[スクリール]
-text.hostilenetworks.selection,%s -> %s %s,%s -> %s %s
+text.hostilenetworks.selection,%s -> %s %s,
 text.hostilenetworks.selections_applied,Applied %s selections from %s,%s から %s の選択を適用する
 text.hostilenetworks.selections_copied,Copied %s selections from %s,%s から %s の選択範囲をコピーしました
 text.hostilenetworks.shift,[shift],[シフト]
@@ -501,3 +500,4 @@ can summon wolves.","ワイルドの保護者。
 その姿は居場所に依存する。
 そういえば、彼らの一人は
 オオカミを召喚できる。"
+enchantment.level.0,0,

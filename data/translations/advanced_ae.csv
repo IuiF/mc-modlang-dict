@@ -56,7 +56,7 @@ gui.advanced_ae.ItemNotCraftable,No patterns available for Pick-Crafting the cur
 gui.advanced_ae.MagnetRangeSlider,Pickup Range,収集範囲
 gui.advanced_ae.NoAvailableTarget,No suitable target available for Pick-Craft.,ピッククラフトに適したターゲットがありません。
 gui.advanced_ae.OutputInventory,Output,出力
-gui.advanced_ae.OverdriveThroughputMonitorValue,%s%s/t,%s%s/t
+gui.advanced_ae.OverdriveThroughputMonitorValue,%s%s/t,
 gui.advanced_ae.PatternInventory,Pattern Input,パターン入力
 gui.advanced_ae.QuantumArmorConfig,Quantum Armor Config,量子アーマー設定
 gui.advanced_ae.QuantumArmorSetting,Setting Config,コンフィグ設定
@@ -64,10 +64,10 @@ gui.advanced_ae.QuantumCrafter,Quantum Crafter,量子クラフター
 gui.advanced_ae.QuantumCrafterPatternConfig,Pattern Configuration,パターン設定
 gui.advanced_ae.ReactionChamber,Reaction Chamber,Reaction 室
 gui.advanced_ae.SetAmountButtonHint,Middle click to set the amount to keep in stock,ミドルクリックして、在庫を保持する量を設定します
-gui.advanced_ae.SlowThroughputMonitorValue,%s%s/m,%s%s/m
-gui.advanced_ae.SlowerThroughputMonitorValue,%s%s/10m,%s%s/10m
+gui.advanced_ae.SlowThroughputMonitorValue,%s%s/m,
+gui.advanced_ae.SlowerThroughputMonitorValue,%s%s/10m,
 gui.advanced_ae.StyleConfig,Style Config,スタイル設定
-gui.advanced_ae.ThroughputMonitorValue,%s%s/s,%s%s/s
+gui.advanced_ae.ThroughputMonitorValue,%s%s/s,
 gui.advanced_ae.UpgradeNotEnabledMessage,%s is not enabled.,%s は有効ではありません。
 gui.advanced_ae.UpgradeNotInstalledMessage,%s is not installed.,%s はインストールされていません。
 gui.tooltips.advanced_ae.AcceleratorThreads,Provides %d co-processing threads per block.,ブロック1つごとに%d個の並列処理を提供します。
@@ -144,7 +144,7 @@ gui.tooltips.advanced_ae.SprintSpeedTooltip,Boosts the sprinting speed.,ダッ�
 gui.tooltips.advanced_ae.StepAssistTooltip,Enables step assist. Maximum step of %s.,ステップアシストを有効にします。最大ステップは%sです。
 gui.tooltips.advanced_ae.StrengthTooltip,Boosts the user's strength by %s.,使用者の攻撃力を%s増加します。
 gui.tooltips.advanced_ae.SwimSpeedTooltip,Boosts the user's swimming speed.,使用者の水泳速度を向上させます。
-gui.tooltips.advanced_ae.TankAmount,%s / %s B,%s / %s B
+gui.tooltips.advanced_ae.TankAmount,%s / %s B,
 gui.tooltips.advanced_ae.TankEmpty,Empty,空
 gui.tooltips.advanced_ae.UpButton,Target the UP face of the machine.,機械の上面を対象にします。
 gui.tooltips.advanced_ae.UpgradeBaseTooltip,Base upgrade card required to craft the others.,いろんなものを作るための基礎的なアップグレードカード
@@ -241,3 +241,10 @@ gui.advanced_ae.SetAmount,Set Stock Amount,在庫量設定
 gui.advanced_ae.StockExportBus,Stock Export Bus,ストック出力バス
 gui.tooltips.advanced_ae.DirectionOutputHint,Configure which directions are allowed for output auto-export,自動エクスポートを許可する方向を設定します。
 item.advanced_ae.stock_export_bus_part,Stock Export Bus,ストック出力バス
+advanced_ae.configuration.quantumComputerAcceleratorThreads,Quantum Computer Accelerator Threads,
+gui.advanced_ae.AdvancedIOBus,ME Advanced IO Bus,
+gui.advanced_ae.ImportExportBus,ME Import Export Bus,
+gui.advanced_ae.ModName,Advanced AE,
+gui.advanced_ae.QuantumCrafterTerminalShort,Quantum Crafter T.,
+item.advanced_ae.import_export_bus_part,ME Import Export Bus,
+key.advanced_ae.category,Advanced AE,

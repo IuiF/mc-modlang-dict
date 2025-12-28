@@ -40,15 +40,15 @@ tooltip.exmachinis.comparatorSetDirection1,Sneak + right-click on a block to,ス
 tooltip.exmachinis.comparatorSetDirection2,set the redstone output direction,レッドストーン出力方向を
 tooltip.exmachinis.comparatorSetDirection3,to the clicked face of the block.,クリックしたブロックの面に設定
 tooltip.exmachinis.costPerBlock,RF cost per item: %d,アイテムあたりのRFコスト: %d
-tooltip.exmachinis.diamondItemsProcessed,16/32/64,16/32/64
+tooltip.exmachinis.diamondItemsProcessed,16/32/64,
 tooltip.exmachinis.energyPerTick,RF per tick: %s RF/t,RF/ティック: %s RF/t
 tooltip.exmachinis.fluxBar,Redstone Flux:,レッドストーン フラックス：
 tooltip.exmachinis.fluxData,%d/%d RF stored,%d/%d RF 保存
-tooltip.exmachinis.goldItemsProcessed,2/4/8,2/4/8
+tooltip.exmachinis.goldItemsProcessed,2/4/8,
 tooltip.exmachinis.hammer1,RF-powered automatic hammer,RF駆動自動ハンマー
 tooltip.exmachinis.itemsProcessed,Items processed: %s,処理されたアイテム: %s
 tooltip.exmachinis.meshSlot,Mesh Slot,メッシュスロット
-tooltip.exmachinis.netheriteItemsProcessed,64,64
+tooltip.exmachinis.netheriteItemsProcessed,64,
 tooltip.exmachinis.player,Player: %s,プレイヤー: %s
 tooltip.exmachinis.processingTime,Processing time: %d ticks,処理時間: %d ticks
 tooltip.exmachinis.progress,Progress: %d/%d seconds,プログレス：%d/%d秒
@@ -58,3 +58,48 @@ tooltip.exmachinis.upgradeSlot,Upgrade Slot,アップグレードスロット
 tooltip.exmachinis.workBar,Work Progress:,作業進捗:
 tooltip.exmachinis.workData,%d/%d ticks,%d/%d チック
 tooltip.exmachinis.comparatorSlot,Comparator Slot,比較器スロット
+exmachinis.int.jei.category.flux_compactor,"The Flux Compactor will take items from the internal inventory,
+and place the outputs into an inventory below.
+
+Upgrades can be added to increase the number of items processed at once.
+
+The block can be disabled by a redstone signal.
+
+The output side can be configured by shift + right-clicking with an Ex Nihilo hammer.
+",
+exmachinis.int.jei.category.flux_hammer,"The Flux Hammer will take items from an inventory above,
+and place the outputs into an inventory in front.
+
+Upgrades can be added to increase the number of items processed at once.
+
+The block can be disabled by a redstone signal.
+
+The output side can be configured by shift + right-clicking with an Ex Nihilo hammer.
+",
+exmachinis.int.jei.category.flux_sieve,"The Flux Sieve will take items from the internal inventory,
+and place the outputs into an inventory below.
+
+Upgrades can be added to increase the number of items processed at once.
+
+Meshes can be enchanted in an anvil with Fortune to increase drop chances.
+
+The block can be disabled by a redstone signal.
+
+The output side can be configured by shift + right-clicking with an Ex Nihilo hammer.
+",
+exmachinis.int.jei.category.item_buffer,"The Item Buffer will take items from the internal inventory,
+and move them into an inventory below.
+
+It will attempt to move all items in the inventory each cycle.
+
+Upgrades can be added to increase the cycle speed.
+
+Does not require power.
+
+A comparator upgrade can be added to produce a redstone signal in a particular direction.
+You could use this to turn off other machines.
+
+The block can be disabled by a redstone signal.
+
+The output side can be configured by shift + right-clicking with an Ex Nihilo hammer.
+",

@@ -179,14 +179,33 @@ item.redstonepen.quill.help,"Used to draw or remove thin Redstone Tracks in all 
 Too many tracks at unconnected faces in one block cause cross-talk and will not work, simply re-route then.","すべての方向に薄いレッドストーントラックを描くまたは削除するために使用されます。これらのトラックは通常、配置されているブロックに電力を供給しません(トラックの中央をクリックして明示的にコネクタを配置/削除)。ブロックを見ながらスニークして、現在どのようなレッドストーン信号があるかを確認してください。
 1ブロック内の接続されていない面に多すぎるトラックがあるとクロストークが発生し、機能しなくなります。単にルート変更してください。§r"
 itemGroup.tabredstonepen,Redstone Pen,レッドストーンペン
-language.code,en_us,en_us
+language.code,en_us,
 redstonepen.overlay.comparator_compare," compare",比較
 redstonepen.overlay.comparator_subtract," subtract",減算
-redstonepen.overlay.direct_power,[%1$s],[%1$s]
-redstonepen.overlay.direct_power_at,[%1$s] @ %2$s,[%1$s] @ %2$s
-redstonepen.overlay.indirect_power,(%1$s) @ %2$s,(%1$s) @ %2$s
+redstonepen.overlay.direct_power,[%1$s],
+redstonepen.overlay.direct_power_at,[%1$s] @ %2$s,
+redstonepen.overlay.indirect_power,(%1$s) @ %2$s,
 redstonepen.overlay.repeater_delay," %1$st",%1$st
-redstonepen.overlay.track_power,<%1$s>,<%1$s>
-redstonepen.overlay.wire_power,<%1$s>,<%1$s>
+redstonepen.overlay.track_power,<%1$s>,
+redstonepen.overlay.wire_power,<%1$s>,
 redstonepen.tooltip.hint.extended,§6[§9shift§r More§6]§r,§6[shift§r 詳細§6]§r
 redstonepen.tooltip.hint.help,§6[§9ctrl-shift§r Help§6]§r,§6[ctrl-shift§r ヘルプ§6]§r
+block.redstonepen.control_box.help.1,"§nBasics:§r§7 The RLC provides digital (ON/OFF) and analog
+§7(signal strength, comparator output) redstone I/O
+§7in all directions. Ports are the first letters of: Red,
+§7Blue, Yellow, Green, Up, and Down.
+§7You program it with a set of math expressions. All code 
+§7lines are calculated in the same tick (read inputs ->
+§7calculate -> write outputs). The code is case insensitive
+§7(""R"" is the same as ""r""). You can also set own variables,
+§7their values will be retained until the RLC is stopped.
+§7Parse errors are marked (hover that) and prevent
+§7to start the program.
+
+§7Click the RUN/STOP button to start or stop a program.
+§7Hover the RLC symbol to see internal variable values
+§7(only when running). The port list shows the current
+§7signal values, and if a port is input, output, or unused.
+§7Copy/paste clipboard button, needless to say ;)",
+language,English,
+language.region,United States,

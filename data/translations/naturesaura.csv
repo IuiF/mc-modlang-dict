@@ -39,7 +39,7 @@ advancement.naturesaura.root.desc,Becoming a magical botanist,魔法植物学者
 advancement.naturesaura.sky_ingot,Sturdy and Light,堅牢で軽量
 advancement.naturesaura.sky_ingot.desc,Create an Ingot of the Skies using the Offering to the Gods,神への捧げ物で空のインゴットを作成する
 advancement.naturesaura.tainted_gold,Gold Factory,金工場
-advancement.naturesaura.tainted_gold.desc,Use the Crimson Altar to create Tainted Gold,クリムゾンの祭壇で汚染金を作ります。
+advancement.naturesaura.tainted_gold.desc,Use the Crimson Altar to create Tainted Gold,真紅の祭壇で汚染金を作ります。
 advancement.naturesaura.wood_stand,Powers of the Forest,森の力
 advancement.naturesaura.wood_stand.desc,Create a Wooden Stand for the Ritual of the Forest,森の儀式用木製スタンドを作成する
 block.naturesaura.ancient_bark,Ancient Bark,古代の木
@@ -47,7 +47,7 @@ block.naturesaura.ancient_leaves,Ancient Leaves,古代の葉
 block.naturesaura.ancient_log,Ancient Log,古代の原木
 block.naturesaura.ancient_planks,Ancient Planks,古代の板材
 block.naturesaura.ancient_sapling,Ancient Sapling,古代の苗木
-block.naturesaura.ancient_slab,Ancient Wood Slab,古代木製スラブ
+block.naturesaura.ancient_slab,Ancient Wood Slab,古代木製ハーフブロック
 block.naturesaura.ancient_slab_double,Ancient Wood Double Slab,古代木の二枚板
 block.naturesaura.ancient_stairs,Ancient Wood Stairs,古代木の階段
 block.naturesaura.animal_container,Corporeal Eye,体の目
@@ -83,12 +83,12 @@ block.naturesaura.gold_powder,Gold Powder,金粉
 block.naturesaura.golden_leaves,Golden Leaves,黄金の葉
 block.naturesaura.grated_chute,Adept Hopper,熟練ホッパー
 block.naturesaura.hopper_upgrade,Hopper Enhancement,ホッパー強化
-block.naturesaura.infused_brick,Infused Brick,インフューズド ブリック
-block.naturesaura.infused_brick_slab,Infused Brick Slab,インフィューズド・ブリック・スラブ
-block.naturesaura.infused_brick_slab_double,Infused Brick Double Slab,インフューズド・ブリック・ダブルスラブ
+block.naturesaura.infused_brick,Infused Brick,インフューズド レンガ
+block.naturesaura.infused_brick_slab,Infused Brick Slab,インフィューズド・レンガ・ハーフブロック
+block.naturesaura.infused_brick_slab_double,Infused Brick Double Slab,インフューズド・レンガ・ダブルハーフブロック
 block.naturesaura.infused_brick_stairs,Infused Brick Stairs,エンチャントされたブロックの階段
 block.naturesaura.infused_iron_block,Infused Iron Block,インフィューズド・アイアン・ブロック
-block.naturesaura.infused_slab,Infused Rock Slab,インフュージョン岩スラブ
+block.naturesaura.infused_slab,Infused Rock Slab,インフュージョン岩ハーフブロック
 block.naturesaura.infused_slab_double,Infused Rock Double Slab,エンチャントされた岩の二枚板
 block.naturesaura.infused_stairs,Infused Rock Stairs,浸透した岩の階段
 block.naturesaura.infused_stone,Infused Rock,浸透した岩
@@ -115,7 +115,7 @@ block.naturesaura.time_changer,Shifting Sundial,変わる日時計
 block.naturesaura.warped_aura_mushroom,Warped Aura Fungus,ねじれたオーラキノコ
 block.naturesaura.weather_changer,Cloudshifter,雲移動者
 block.naturesaura.wood_stand,Wooden Stand,木製の台
-command.naturesaura.aura.usage,/naaura store|drain <amount> [range] OR /naaura reset <range>,/naaura store|drain <amount> [range] OR /naaura reset <range>
+command.naturesaura.aura.usage,/naaura store|drain <amount> [range] OR /naaura reset <range>,
 container.naturesaura:altar.name,Natural Altar Infusion,自然祭壇浸透
 container.naturesaura:animal_spawner.name,Altar of Birthing,誕生祭壇
 container.naturesaura:offering.name,Offering to the Gods,神への献呈
@@ -141,7 +141,7 @@ info.naturesaura.range_visualizer.end,You lose focus of the magnification...,拡
 info.naturesaura.range_visualizer.end_all,You lose focus of all magnifications...,すべての拡大倍率のフォーカスが失われました…
 info.naturesaura.range_visualizer.start,You take note of the magnification...,拡大率に注意してください...
 info.naturesaura.remaining,%s remaining,%s が残っています
-info.naturesaura.required_aura_type.naturesaura:nether,Requires Crimson Altar,クリムゾン祭壇が必要
+info.naturesaura.required_aura_type.naturesaura:nether,Requires Crimson Altar,真紅祭壇が必要
 info.naturesaura.required_aura_type.naturesaura:overworld,Requires Natural Altar,自然祭壇が必要
 info.naturesaura.same_position,This seems to be the position from your notes...,これはあなたのノートからの位置のようです…
 info.naturesaura.stored_pos,You jot down the position,位置を書き留める
@@ -232,7 +232,7 @@ block.naturesaura.potted_aura_bloom,Potted Aura Bloom,オーラブロッサム�
 block.naturesaura.potted_aura_cactus,Potted Aura Cactus,アウラサボテン鉢
 block.naturesaura.potted_aura_mushroom,Potted Aura Mushroom,ポットされたオーラマッシュルーム
 block.naturesaura.potted_crimson_aura_mushroom,Potted Crimson Aura Fungus,猩紅のオーラキノコの鉢
-block.naturesaura.potted_warped_aura_mushroom,Potted Warped Aura Fungus,ポット付きワーピングオーラキノコ
+block.naturesaura.potted_warped_aura_mushroom,Potted Warped Aura Fungus,ポット付き歪んだオーラキノコ
 block.naturesaura.sky_ingot_block,Block of the Skies,天空ブロック
 item.naturesaura.depth_axe,Soulstrider's Handaxe,ソウルストライダーのハンドアックス
 item.naturesaura.depth_chest,Soulstrider's Chestplate,ソウルストライダーの胸甲

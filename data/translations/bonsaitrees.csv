@@ -1,5 +1,5 @@
 ﻿key,source_text,target_text
-tile.bonsaitrees.bonsaipot.name,Bonsai Pot,盆栽鉢
+tile.bonsaitrees.bonsaipot.name,Bonsai Pot,bonsai ポット
 tile.bonsaitrees.bonsaipot.hopping.name,Hopping Bonsai Pot,ホッピング・ボンサイポット
 commands.bonsaitrees.usage,"/bonsaitrees [subcommand, leave empty for list of commands]",/bonsaitrees [サブコマンド、空白でコマンド一覧]
 commands.bonsaitrees.available,Available sub-commands:,利用可能なサブコマンド:
@@ -46,3 +46,14 @@ bonsaitrees.jei.category.soil.growTimeModifier,Grow Time: %.1f%%,成長時間: %
 bonsaitrees.jei.category.soil.dropChanceModifier,Drop Chance: %.1f%%,ドロップ確率: %.1f%%
 advancements.bonsaitrees.craft_pot.title,Bonsai Trees,盆栽の木
 advancements.bonsaitrees.grow_tree.description,Use it for decoration or as early tree farm,装飾や初期木農園として使用してください。
+commands.bonsaitrees.saveTreeShape.usage,"/bonsaitrees saveTreeShape <tree-type-id>, e.g. ""forestry:hillCherry""",
+commands.bonsaitrees.generateMissingShapes.usage,/bonsaitrees generateMissingShapes yes,
+commands.bonsaitrees.upgradeJsonFiles.usage,/bonsaitrees upgradeJsonFiles,
+commands.bonsaitrees.reloadTrees.usage,/bonsaitrees reloadTrees,
+commands.bonsaitrees.reloadSoils.usage,/bonsaitrees reloadSoils,
+commands.bonsaitrees.listIntegrations.usage,/bonsaitrees listIntegrations,
+commands.bonsaitrees.listTrees.usage,/bonsaitrees listTrees,
+commands.bonsaitrees.listSoils.usage,/bonsaitrees listSoils,
+commands.bonsaitrees.checkCompatibility.usage,/bonsaitrees checkCompatibility <tree/soil>,
+advancements.bonsaitrees.craft_pot.description,Craft a Bonsai Pot,
+advancements.bonsaitrees.grow_tree.title,Grow a Bonsai Tree,

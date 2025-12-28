@@ -180,9 +180,9 @@ tooltip.relics.relic.reroll.warning,Hold [Shift] to confirm rerolling stats from
 tooltip.relics.relic.reset.cost,Cost: %1$s experience points %2$s.,コスト: %1$sプレイヤー経験ポイント (%2$s相対レベル) %3$s
 tooltip.relics.relic.reset.description,Reset leveling points,レベルポイントをリセット
 tooltip.relics.relic.reset.locked,To use you need to level-up this ability at least 1 time.,使用するには少なくとも1回はこのアビリティのレベルを上げる必要がある
-tooltip.relics.relic.status.negative,§4§l[§4§l✘§4§l],§4§l[§4§l✘§4§l]
-tooltip.relics.relic.status.positive,§2§l[§2§l✔§2§l],§2§l[§2§l✔§2§l]
-tooltip.relics.relic.status.unknown,§6§l[§6§l?§6§l],§6§l[§6§l?§6§l]
+tooltip.relics.relic.status.negative,§4§l[§4§l✘§4§l],
+tooltip.relics.relic.status.positive,§2§l[§2§l✔§2§l],
+tooltip.relics.relic.status.unknown,§6§l[§6§l?§6§l],
 tooltip.relics.relic.tooltip.abilities,Abilities:,アビリティ:
 tooltip.relics.relic.upgrade.cost,"Cost: %1$s leveling points %2$s, %3$s experience points %4$s.",コスト: %1$sアップグレードポイント %2$s、%3$sプレイヤー経験ポイント (%4$s相対レベル) %5$s
 tooltip.relics.relic.upgrade.description,Level-up,レベルアップ
@@ -272,11 +272,10 @@ item.relics.horse_flute,Horse Flute,馬呼びの笛
 item.relics.spatial_sign,Spatial Sign,時空のサイン
 key.relics.ability_list,Show the active abilities HUD,アクティブアビリティHUDを表示
 tooltip.relics.amphibian_boot.ability.gills.stat.chance.title,Chance of activation:,発動率:
-tooltip.relics.amphibian_boot.ability.gills.stat.chance.value,%1$s%%.,%1$s%%.
+tooltip.relics.amphibian_boot.ability.gills.stat.chance.value,%1$s%%.,
 tooltip.relics.amphibian_boot.ability.slipping.stat.duration.title,Maximum duration:,最大持続時間:
 tooltip.relics.amphibian_boot.ability.slipping.stat.duration.value,%1$s seconds.,%1$s秒
 tooltip.relics.amphibian_boot.ability.slipping.stat.speed.title,Speed multiplier per second:,毎秒の速度倍率:
-tooltip.relics.amphibian_boot.ability.slipping.stat.speed.value,%1$s%%.,%1$s%%.
 tooltip.relics.amphibian_boot.ability.swimming.stat.duration.title,Maximum duration:,最大持続時間:
 tooltip.relics.amphibian_boot.ability.swimming.stat.duration.value,%1$s seconds.,%1$s秒
 tooltip.relics.amphibian_boot.ability.swimming.stat.speed.title,Speed multiplier:,速度倍率:
@@ -286,7 +285,7 @@ tooltip.relics.aqua_walker.ability.walking.stat.time.value,%1$s seconds.,%1$s秒
 tooltip.relics.arrow_quiver.ability.agility,Dexterity,器用さ
 tooltip.relics.arrow_quiver.ability.agility.description,Increases the speed of bowstring tension.,弓を引く動作が速くなる
 tooltip.relics.arrow_quiver.ability.agility.stat.modifier.title,Speed multiplier:,速度倍率:
-tooltip.relics.arrow_quiver.ability.agility.stat.modifier.value,%1$s%%.,%1$s%%.
+tooltip.relics.arrow_quiver.ability.agility.stat.modifier.value,%1$s%%.,
 tooltip.relics.arrow_quiver.ability.leap,Leap,回避
 tooltip.relics.arrow_quiver.ability.leap.description,"Knocks the player away from the looking direction, inflicting a vanishing effect until landing. Using a bow will suspend the player in mid-air, increasing damage and nullifying gravity for the next critical shot.",プレイヤーは視線方向と反対に退避し、着地するまで透明化の効果を得る。弓を使うとプレイヤーが宙に浮き、ダメージが増加して次のクリティカルショットのために重力が無効になる。
 tooltip.relics.arrow_quiver.ability.leap.predicate.target,Looking at the block underfoot,足元のブロックを見る
@@ -295,7 +294,7 @@ tooltip.relics.arrow_quiver.ability.leap.stat.cooldown.value,%1$s seconds.,%1$s�
 tooltip.relics.arrow_quiver.ability.leap.stat.duration.title,Max duration:,最大持続時間:
 tooltip.relics.arrow_quiver.ability.leap.stat.duration.value,%1$s seconds.,%1$s秒
 tooltip.relics.arrow_quiver.ability.leap.stat.multiplier.title,Additional damage:,追加ダメージ:
-tooltip.relics.arrow_quiver.ability.leap.stat.multiplier.value,+%1$s%%.,+%1$s%%.
+tooltip.relics.arrow_quiver.ability.leap.stat.multiplier.value,+%1$s%%.,
 tooltip.relics.arrow_quiver.ability.rain,Arrow Rain,アローレイン
 tooltip.relics.arrow_quiver.ability.rain.description,Calls on a point along the line of sight an area of falling homing arrows from the internal quiver storage from the «Arrow Storage» ability. The arrows themselves from the storage are not consumed. Only one area from this ability can exist at a time.,追尾矢が落下するエリアを射線上の一点に呼び出す。矢筒に入った矢は消費されないが、追尾矢エリアは同時に２つ以上存在できない。
 tooltip.relics.arrow_quiver.ability.rain.predicate.arrow,Arrows in the quiver,矢筒の中に矢がある
@@ -308,10 +307,8 @@ tooltip.relics.arrow_quiver.ability.rain.stat.radius.value,%1$s blocks.,半径%1
 tooltip.relics.arrow_quiver.ability.receptacle,Arrow Storage,矢倉
 tooltip.relics.arrow_quiver.ability.receptacle.description,Shooting primarily uses arrows from the quiver's internal storage. Pressing the LMB with arrow on the quiver in the inventory will place it in the internal storage of the relic. Pressing the RMB on the quiver will get the last stack of arrows placed in it.,矢による射撃を行う際に矢筒の中に入れたものから優先的に使用する。矢をマウス左クリック＆ドラッグして矢筒に入れることができる。矢筒をマウス右クリックすると最後に入れた矢を取り出せる
 tooltip.relics.arrow_quiver.ability.receptacle.stat.slots.title,Arrow slots:,矢のスロット数:
-tooltip.relics.arrow_quiver.ability.receptacle.stat.slots.value,%1$s units.,%1$s units.
 tooltip.relics.arrow_quiver.description,+1 experience point for every 10 blocks to the target hit by the shot.,1回の弓矢攻撃でターゲットからの距離が10ブロック離れるごとに経験値+1ポイント
 tooltip.relics.bastion_ring.ability.trade.stat.rolls.title,Maximum number of trades:,最大交易数:
-tooltip.relics.bastion_ring.ability.trade.stat.rolls.value,%1$s units.,%1$s units.
 tooltip.relics.blazing_flask.ability.bonfire.stat.height.title,Flight altitude:,飛行高度:
 tooltip.relics.blazing_flask.ability.bonfire.stat.height.value,%1$s blocks.,半径%1$sブロック
 tooltip.relics.blazing_flask.ability.bonfire.stat.speed.title,Flight speed:,飛行速度:
@@ -323,17 +320,16 @@ tooltip.relics.chorus_inhibitor.ability.blink.stat.cooldown.value,%1$s seconds.,
 tooltip.relics.chorus_inhibitor.ability.blink.stat.distance.title,Maximum distance:,最大移動距離:
 tooltip.relics.chorus_inhibitor.ability.blink.stat.distance.value,%1$s blocks.,半径%1$sブロック
 tooltip.relics.drowned_belt.ability.anchor.stat.sinking.title,Sinking rate:,沈下速度:
-tooltip.relics.drowned_belt.ability.anchor.stat.sinking.value,+%1$s%%.,+%1$s%%.
+tooltip.relics.drowned_belt.ability.anchor.stat.sinking.value,+%1$s%%.,
 tooltip.relics.drowned_belt.ability.anchor.stat.slowness.title,Slowing down swimming:,水泳速度低下:
-tooltip.relics.drowned_belt.ability.anchor.stat.slowness.value,+%1$s%%.,+%1$s%%.
+tooltip.relics.drowned_belt.ability.anchor.stat.slowness.value,+%1$s%%.,
 tooltip.relics.drowned_belt.ability.pressure.stat.damage.title,Damage multiplier:,ダメージ倍率:
-tooltip.relics.drowned_belt.ability.pressure.stat.damage.value,+%1$s%%.,+%1$s%%.
+tooltip.relics.drowned_belt.ability.pressure.stat.damage.value,+%1$s%%.,
 tooltip.relics.drowned_belt.ability.riptide.stat.cooldown.title,Recharge time:,クールダウン時間:
 tooltip.relics.drowned_belt.ability.riptide.stat.cooldown.value,%1$s seconds per enchantment level.,激流レベル1あたり%1$s秒
 tooltip.relics.drowned_belt.ability.slots.stat.charm.title,Charms:,スロット数:
 tooltip.relics.drowned_belt.ability.slots.stat.charm.value,+%1$s slots.,+%1$s スロット.
 tooltip.relics.elytra_booster.ability.boost.stat.capacity.title,Capacity:,容量:
-tooltip.relics.elytra_booster.ability.boost.stat.capacity.value,%1$s units.,%1$s units.
 tooltip.relics.elytra_booster.ability.boost.stat.speed.title,Speed:,速度:
 tooltip.relics.elytra_booster.ability.boost.stat.speed.value,%1$s blocks per second.,毎秒%1$sブロック
 tooltip.relics.enders_hand.ability.swap.stat.distance.title,Distance:,距離:
@@ -343,9 +339,7 @@ tooltip.relics.holy_locket.ability.belief.description,"A toggleable ability with
 tooltip.relics.holy_locket.ability.belief.stat.amount.title,Healing/Damage Modifier:,回復/ダメージ係数:
 tooltip.relics.holy_locket.ability.belief.stat.amount.value,%1$s%% of the original value.,元の値の%1$s%%分
 tooltip.relics.holy_locket.ability.belief.stat.capacity.title,Buffer capacity:,チャージ容量:
-tooltip.relics.holy_locket.ability.belief.stat.capacity.value,%1$s units.,%1$s units.
 tooltip.relics.holy_locket.ability.belief.stat.count.title,Maximum number of projectiles:,飛翔体の最大数:
-tooltip.relics.holy_locket.ability.belief.stat.count.value,%1$s units.,%1$s units.
 tooltip.relics.holy_locket.ability.belief.stat.radius.title,Radius:,範囲:
 tooltip.relics.holy_locket.ability.belief.stat.radius.value,%1$s blocks.,半径%1$sブロック
 tooltip.relics.holy_locket.ability.blessing,Blessing,祝福
@@ -366,29 +360,25 @@ tooltip.relics.horse_flute.ability.heal.stat.amount.value,%1$s health units per 
 tooltip.relics.horse_flute.ability.paddock,Portable Stall,携帯鞍
 tooltip.relics.horse_flute.ability.paddock.description,"Using a relic on the horse will move the animal to the internal storage. Reuse will release the creature. If the distance between the wearer and the summoned horse exceeds 16 blocks, it will automatically fit back into the flute.",馬に対して使用すると、レリック内に馬を格納しておける。もう一度使うと格納した馬を召喚できる。召喚した馬とプレイヤーが16ブロック以上離れると、馬が自動的にレリックの中に格納される
 tooltip.relics.horse_flute.ability.paddock.stat.slots.title,Slots:,スロット数:
-tooltip.relics.horse_flute.ability.paddock.stat.slots.value,%1$s.,%1$s.
+tooltip.relics.horse_flute.ability.paddock.stat.slots.value,%1$s.,
 tooltip.relics.horse_flute.description,+1 experience point for every 25 blocks overcome by a horse called by the ability «Portable Stall».,アビリティ《携帯鞍》で呼んだ馬で25ブロック進むたびに経験値+1ポイント
 tooltip.relics.hunter_belt.ability.slots.stat.charm.title,Charms:,スロット数:
 tooltip.relics.hunter_belt.ability.slots.stat.charm.value,+%1$s slots.,+%1$s スロット.
 tooltip.relics.hunter_belt.ability.training,Training,訓練
 tooltip.relics.hunter_belt.ability.training.stat.damage.title,Damage multiplier:,ダメージ倍率:
-tooltip.relics.hunter_belt.ability.training.stat.damage.value,+%1$s%%.,+%1$s%%.
+tooltip.relics.hunter_belt.ability.training.stat.damage.value,+%1$s%%.,
 tooltip.relics.ice_breaker.ability.impact.stat.damage.title,Minimum damage:,最低ダメージ:
-tooltip.relics.ice_breaker.ability.impact.stat.damage.value,%1$s units.,%1$s units.
 tooltip.relics.ice_breaker.ability.impact.stat.size.title,Maximum radius:,最大範囲:
 tooltip.relics.ice_breaker.ability.impact.stat.size.value,%1$s blocks.,半径%1$sブロック
 tooltip.relics.ice_breaker.ability.sustainability.stat.modifier.title,Knockback resistance:,ノックバック耐性:
-tooltip.relics.ice_breaker.ability.sustainability.stat.modifier.value,%1$s%%.,%1$s%%.
+tooltip.relics.ice_breaker.ability.sustainability.stat.modifier.value,%1$s%%.,
 tooltip.relics.ice_skates.ability.ram.stat.damage.title,Damage per second:,ダメージ量:
-tooltip.relics.ice_skates.ability.ram.stat.damage.value,%1$s units.,%1$s units.
 tooltip.relics.ice_skates.ability.skating.stat.duration.title,Maximum duration:,最大持続時間:
 tooltip.relics.ice_skates.ability.skating.stat.duration.value,%1$s seconds.,%1$s秒
 tooltip.relics.ice_skates.ability.skating.stat.speed.title,Speed multiplier per second:,毎秒の速度倍率:
-tooltip.relics.ice_skates.ability.skating.stat.speed.value,%1$s%%.,%1$s%%.
 tooltip.relics.infinity_ham.ability.autophagy,Regeneration,回復
 tooltip.relics.infinity_ham.ability.autophagy.description,"Using a relic consumes one of the regeneratable charges, replenishing the hunger of the wearer.",使用すると再生可能なチャージが1つ消費され、使用者の満腹度が回復する
 tooltip.relics.infinity_ham.ability.autophagy.stat.feed.title,Saturation:,満腹度回復:
-tooltip.relics.infinity_ham.ability.autophagy.stat.feed.value,%1$s units.,%1$s units.
 tooltip.relics.infinity_ham.ability.infusion,Alchemy,錬金術
 tooltip.relics.infinity_ham.ability.infusion.description,"Using a potion on the relic in the inventory remembers its effect by spending the potion. Subsequent use of the «Regeneration» ability will impose a summable effect of the associated potion on the wearer. In the complete absence of charges, the relic loses the properties of the associated potion.",インベントリ内のレリックにポーションを使用すると、ポーションを消費してその効果が記憶される。それ以降、アビリティ《再生》で蓄積される可食部分はポーション効果を持つようになる。全て食べきってしまうと、レリックは記憶しているポーション効果を失う。
 tooltip.relics.infinity_ham.ability.infusion.stat.duration.title,Effect duration:,効果持続時間:
@@ -396,7 +386,6 @@ tooltip.relics.infinity_ham.ability.infusion.stat.duration.value,%1$s seconds pe
 tooltip.relics.jellyfish_necklace.ability.paralysis.stat.duration.title,Effect duration:,効果持続時間:
 tooltip.relics.jellyfish_necklace.ability.paralysis.stat.duration.value,%1$s seconds.,%1$s秒
 tooltip.relics.jellyfish_necklace.ability.shock.stat.damage.title,Damage:,ダメージ:
-tooltip.relics.jellyfish_necklace.ability.shock.stat.damage.value,%1$s units.,%1$s units.
 tooltip.relics.leather_belt.ability.slots.stat.charm.title,Charms:,スロット数:
 tooltip.relics.leather_belt.ability.slots.stat.charm.value,+%1$s slots.,+%1$s スロット.
 tooltip.relics.magic_mirror.ability.teleport.stat.cooldown.title,Recharge:,チャージ時間:
@@ -406,13 +395,13 @@ tooltip.relics.magic_mirror.ability.teleport.stat.distance.value,%1$s blocks.,�
 tooltip.relics.magma_walker.ability.pace.stat.time.title,Duration:,持続時間:
 tooltip.relics.magma_walker.ability.pace.stat.time.value,%1$s seconds.,%1$s秒
 tooltip.relics.midnight_robe.ability.backstab.stat.damage.title,Damage multiplier:,ダメージ倍率:
-tooltip.relics.midnight_robe.ability.backstab.stat.damage.value,%1$s%%.,%1$s%%.
+tooltip.relics.midnight_robe.ability.backstab.stat.damage.value,%1$s%%.,
 tooltip.relics.midnight_robe.ability.backstab.stat.distance.title,Circle radius:,円形エリアサイズ:
 tooltip.relics.midnight_robe.ability.backstab.stat.distance.value,%1$s blocks.,半径%1$sブロック
 tooltip.relics.midnight_robe.ability.vanish.stat.light.title,Minimum light level:,最低明るさ:
-tooltip.relics.midnight_robe.ability.vanish.stat.light.value,%1$s.,%1$s.
+tooltip.relics.midnight_robe.ability.vanish.stat.light.value,%1$s.,
 tooltip.relics.midnight_robe.ability.vanish.stat.speed.title,Speed multiplier:,速度倍率:
-tooltip.relics.midnight_robe.ability.vanish.stat.speed.value,%1$s%%.,%1$s%%.
+tooltip.relics.midnight_robe.ability.vanish.stat.speed.value,%1$s%%.,
 tooltip.relics.rage_glove.ability.phlebotomy.stat.attack_speed.title,Attack speed multiplier:,攻撃速度上昇率:
 tooltip.relics.rage_glove.ability.phlebotomy.stat.attack_speed.value,%1$s%% for 1%%.,1%%減で%1$s%%
 tooltip.relics.rage_glove.ability.phlebotomy.stat.heal.title,Health regen:,再生能力:
@@ -432,21 +421,18 @@ tooltip.relics.rage_glove.ability.spurt.stat.damage.value,%1$s per charge.,1チ�
 tooltip.relics.rage_glove.ability.spurt.stat.distance.title,Distance:,距離:
 tooltip.relics.rage_glove.ability.spurt.stat.distance.value,%1$s blocks.,半径%1$sブロック
 tooltip.relics.reflection_necklace.ability.explode.stat.capacity.title,Damage buffer:,蓄積容量:
-tooltip.relics.reflection_necklace.ability.explode.stat.capacity.value,%1$s units.,%1$s units.
 tooltip.relics.reflection_necklace.ability.explode.stat.damage.title,Damage per buffer unit:,蓄積1ポイントあたりのダメージ:
-tooltip.relics.reflection_necklace.ability.explode.stat.damage.value,%1$s units.,%1$s units.
 tooltip.relics.reflection_necklace.ability.explode.stat.stun.title,Stun per buffer unit:,蓄積1ポイントあたりのスタン長さ:
 tooltip.relics.reflection_necklace.ability.explode.stat.stun.value,%1$s seconds.,%1$s秒
 tooltip.relics.roller_skates.ability.skating.stat.duration.title,Maximum duration:,最大持続時間:
 tooltip.relics.roller_skates.ability.skating.stat.duration.value,%1$s seconds.,%1$s秒
 tooltip.relics.roller_skates.ability.skating.stat.speed.title,Speed multiplier per second:,毎秒の速度倍率:
-tooltip.relics.roller_skates.ability.skating.stat.speed.value,%1$s%%.,%1$s%%.
 tooltip.relics.shadow_glaive.ability.glaive,Blind Justice,斬撃
 tooltip.relics.shadow_glaive.ability.glaive.description,"Usage releases one of 8 glaive charges, bouncing between nearby targets. The missing charges are restored themselves after a certain amount of time.",使用することで8つの攻撃チャージのうち1発を放ち、近くのターゲット間でバウンドさせる。消費したチャージは、一定の時間が経過すると回復する
 tooltip.relics.shadow_glaive.ability.glaive.stat.bounces.title,Bounces:,バウンド回数:
-tooltip.relics.shadow_glaive.ability.glaive.stat.bounces.value,%1$s.,%1$s.
+tooltip.relics.shadow_glaive.ability.glaive.stat.bounces.value,%1$s.,
 tooltip.relics.shadow_glaive.ability.glaive.stat.damage.title,Damage:,ダメージ:
-tooltip.relics.shadow_glaive.ability.glaive.stat.damage.value,%1$s.,%1$s.
+tooltip.relics.shadow_glaive.ability.glaive.stat.damage.value,%1$s.,
 tooltip.relics.shadow_glaive.ability.glaive.stat.radius.title,Bounce radius:,バウンド範囲:
 tooltip.relics.shadow_glaive.ability.glaive.stat.radius.value,%1$s blocks.,半径%1$sブロック
 tooltip.relics.shadow_glaive.ability.glaive.stat.recharge.title,Recovery time:,回復時間:
@@ -454,7 +440,6 @@ tooltip.relics.shadow_glaive.ability.glaive.stat.recharge.value,%1$s seconds.,%1
 tooltip.relics.shadow_glaive.ability.saw,Merciless punishment,刃の嵐
 tooltip.relics.shadow_glaive.ability.saw.description,"Usage consumes all 8 glaive charges, summoning a saw that deals damage to nearby targets. Reuse will return the saw to the wearer, restoring all charges. Automatic charge regeneration is blocked while the ability is active.",使用することで8つの攻撃チャージを全て消費し、近くのターゲットにダメージを与える刃を召喚する。再び使用すると刃は収納され、すべてのチャージが回復する。 アビリティが発動している間、チャージは自動回復しなくなる
 tooltip.relics.shadow_glaive.ability.saw.stat.damage.title,Damage:,ダメージ:
-tooltip.relics.shadow_glaive.ability.saw.stat.damage.value,%1$s units.,%1$s units.
 tooltip.relics.shadow_glaive.ability.saw.stat.speed.title,Hit interval:,攻撃間隔:
 tooltip.relics.shadow_glaive.ability.saw.stat.speed.value,%1$s seconds.,%1$s秒
 tooltip.relics.space_dissector.ability.dissection.stat.distance.title,Maximum distance:,最大移動距離:
@@ -471,7 +456,7 @@ tooltip.relics.spore_sack.ability.buffer.description,"Each time the «Poison Syn
 tooltip.relics.spore_sack.ability.buffer.stat.capacity.title,Capacity:,容量:
 tooltip.relics.spore_sack.ability.buffer.stat.capacity.value,%1$s spores.,胞子%1$s個分
 tooltip.relics.spore_sack.ability.buffer.stat.chance.title,Chance:,確率:
-tooltip.relics.spore_sack.ability.buffer.stat.chance.value,%1$s%%.,%1$s%%.
+tooltip.relics.spore_sack.ability.buffer.stat.chance.value,%1$s%%.,
 tooltip.relics.spore_sack.ability.explosion,Poison Release,毒々
 tooltip.relics.spore_sack.ability.explosion.description,"Empties the relic's buffer, releasing all accumulated spore charges into the world. The size of the released spores depends on the wearer's missing health.",レリック内部のチャージを全て使って、周辺に胞子をまき散らす。着用者のライフが減っているほど、まき散らされる胞子のサイズは大きくなる
 tooltip.relics.spore_sack.ability.explosion.predicate.spore,Spores in the sack,チャージが溜まっている
@@ -480,9 +465,9 @@ tooltip.relics.spore_sack.ability.explosion.stat.size.value,%1$s per missing hea
 tooltip.relics.spore_sack.ability.multiplying,Decomposition,分解
 tooltip.relics.spore_sack.ability.multiplying.description,"Each spore can split into several smaller spores within a given range when it explodes. The maximum number of spores is determined by the degree of the main spore size, but the final number is limited by the first unsuccessful chance of spore division.",それぞれの胞子は、破裂するときに一定の範囲内でいくつかの小さな胞子に分裂する。胞子の最大分裂数は元の胞子のサイズによって決まるが、分裂確率によって最終的な数はそれよりも少なくなることが多い。
 tooltip.relics.spore_sack.ability.multiplying.stat.amount.title,Spore size degree:,胞子サイズ等級:
-tooltip.relics.spore_sack.ability.multiplying.stat.amount.value,%1$s.,%1$s.
+tooltip.relics.spore_sack.ability.multiplying.stat.amount.value,%1$s.,
 tooltip.relics.spore_sack.ability.multiplying.stat.chance.title,Split chance:,分裂確率:
-tooltip.relics.spore_sack.ability.multiplying.stat.chance.value,%1$s%%.,%1$s%%.
+tooltip.relics.spore_sack.ability.multiplying.stat.chance.value,%1$s%%.,
 tooltip.relics.spore_sack.ability.multiplying.stat.size.title,Spore size:,胞子サイズ:
 tooltip.relics.spore_sack.ability.multiplying.stat.size.value,%1$s%% of the main spore.,元の胞子の%1$s%%
 tooltip.relics.spore_sack.ability.spore,Poison Synthesis,胞子散布
@@ -493,13 +478,28 @@ tooltip.relics.spore_sack.ability.spore.stat.damage.title,Damage:,ダメージ:
 tooltip.relics.spore_sack.ability.spore.stat.damage.value,%1$s per unit of size.,サイズ1あたり%1$sのダメージ
 tooltip.relics.spore_sack.ability.spore.stat.duration.title,Duration:,持続時間:
 tooltip.relics.spore_sack.ability.spore.stat.duration.value,%1$s seconds.,%1$s秒
-tooltip.relics.spore_sack.ability.spore.stat.size.title,Size:,サイズ:
+tooltip.relics.spore_sack.ability.spore.stat.size.title,Size:,サイズ：
 tooltip.relics.spore_sack.ability.spore.stat.size.value,%1$s per unit of damage.,%1$s 毎ダメージ単位で。
 tooltip.relics.wool_mitten.ability.mold.stat.damage.title,Damage:,ダメージ:
 tooltip.relics.wool_mitten.ability.mold.stat.damage.value,%1$s per unit size.,サイズ1あたり%1$s
 tooltip.relics.wool_mitten.ability.mold.stat.freeze.title,Frostbite:,凍結効果:
 tooltip.relics.wool_mitten.ability.mold.stat.freeze.value,%1$s seconds per unit size.,サイズ1あたり%1$s秒
 tooltip.relics.wool_mitten.ability.mold.stat.size.title,Maximum size:,最大サイズ:
-tooltip.relics.wool_mitten.ability.mold.stat.size.value,%1$s units.,%1$s units.
 tooltip.relics.wool_mitten.ability.mold.stat.stun.title,Stun:,スタン効果:
 tooltip.relics.wool_mitten.ability.mold.stat.stun.value,%1$s seconds per unit size.,サイズ1あたり%1$s秒
+tooltip.relics.amphibian_boot.ability.slipping.stat.speed.value,%1$s%%.,
+tooltip.relics.holy_locket.ability.belief.stat.capacity.value,%1$s units.,
+tooltip.relics.ice_skates.ability.ram.stat.damage.value,%1$s units.,
+tooltip.relics.ice_skates.ability.skating.stat.speed.value,%1$s%%.,
+tooltip.relics.infinity_ham.ability.autophagy.stat.feed.value,%1$s units.,
+tooltip.relics.roller_skates.ability.skating.stat.speed.value,%1$s%%.,
+tooltip.relics.arrow_quiver.ability.receptacle.stat.slots.value,%1$s units.,
+tooltip.relics.bastion_ring.ability.trade.stat.rolls.value,%1$s units.,
+tooltip.relics.elytra_booster.ability.boost.stat.capacity.value,%1$s units.,
+tooltip.relics.holy_locket.ability.belief.stat.count.value,%1$s units.,
+tooltip.relics.ice_breaker.ability.impact.stat.damage.value,%1$s units.,
+tooltip.relics.jellyfish_necklace.ability.shock.stat.damage.value,%1$s units.,
+tooltip.relics.reflection_necklace.ability.explode.stat.capacity.value,%1$s units.,
+tooltip.relics.reflection_necklace.ability.explode.stat.damage.value,%1$s units.,
+tooltip.relics.shadow_glaive.ability.saw.stat.damage.value,%1$s units.,
+tooltip.relics.wool_mitten.ability.mold.stat.size.value,%1$s units.,

@@ -3,7 +3,7 @@ geolosys.ore.hematite.name,Hematite,ヘマタイト
 geolosys.ore.limonite.name,Limonite,リモニット
 geolosys.ore.malachite.name,Malachite,マラチット
 geolosys.ore.azurite.name,Azurite,アズリット
-geolosys.ore.cassiterite.name,Cassiterite,錫石
+geolosys.ore.cassiterite.name,Cassiterite,スズ石
 geolosys.ore.teallite.name,Teallite,テアライト
 geolosys.ore.galena.name,Galena,方鉛鉱
 geolosys.ore.bauxite.name,Bauxite,バクシット
@@ -65,13 +65,13 @@ geolosys.cluster.zinc.name,Zinc Cluster,亜鉛のクラスター
 geolosys.cluster.osmium.name,Osmium Cluster,オスミウムのクラスター
 geolosys.cluster.yellorium.name,Yellorium Cluster,イエロリウムクラスター
 geolosys.ingot.copper.name,Copper Ingot,銅インゴット
-geolosys.ingot.tin.name,Tin Ingot,スズの塊
+geolosys.ingot.tin.name,Tin Ingot,スズのインゴット
 geolosys.ingot.silver.name,Silver Ingot,銀インゴット
-geolosys.ingot.lead.name,Lead Ingot,鉛の塊
+geolosys.ingot.lead.name,Lead Ingot,鉛のインゴット
 geolosys.ingot.aluminum.name,Aluminum Ingot,アルミニウムインゴット
-geolosys.ingot.nickel.name,Nickel Ingot,ニッケルの塊
-geolosys.ingot.platinum.name,Platinum Ingot,プラチナの塊
-geolosys.ingot.zinc.name,Zinc Ingot,亜鉛の塊
+geolosys.ingot.nickel.name,Nickel Ingot,ニッケルのインゴット
+geolosys.ingot.platinum.name,Platinum Ingot,プラチナのインゴット
+geolosys.ingot.zinc.name,Zinc Ingot,亜鉛インゴット
 geolosys.coal.peat.name,Peat,泥炭
 geolosys.coal.lignite.name,Lignite Coal,石炭（低品質）
 geolosys.coal.bituminous.name,Bituminous Coal,瀝青炭
@@ -133,10 +133,10 @@ geolosys.guide.chapter.malachite.name,Malachite,マラチット
 geolosys.guide.chapter.malachite.text,"Malachite is (intended, at least) smaller, easier to access resource for Copper. It is found between §3<maxY> and <minY>§0. §4Requires a stone pickaxe.§0",マラカイトは（意図されている通り）、銅のより小さく、アクセスしやすいリソースです。§3<maxY>から<minY>§0の間で見つかります。§4石ピッケルが必要です。§0
 geolosys.guide.chapter.azurite.name,Azurite,アズリット
 geolosys.guide.chapter.azurite.text,"Azurite is a larger, harder to access resource for Copper. It is found between §3<maxY> and <minY>§0. §4Requires an iron pickaxe.§0",藍銅鉱は、銅のより大きく、アクセスしにくいリソースです。§3<maxY>から<minY>§0の間で見つかります。§4鉄ピッケルが必要です。§0
-geolosys.guide.chapter.cassiterite.name,Cassiterite,錫石
+geolosys.guide.chapter.cassiterite.name,Cassiterite,スズ石
 geolosys.guide.chapter.cassiterite.text,"Cassiterite is (intended, at least) smaller, easier to access resource for Tin. It is found between §3<maxY> and <minY>§0. §4Requires a stone pickaxe.§0",スズ石は（意図されている通り）、スズのより小さく、アクセスしやすいリソースです。§3<maxY>から<minY>§0の間で見つかります。§4石ピッケルが必要です。§0
 geolosys.guide.chapter.teallite.name,Teallite,テアライト
-geolosys.guide.chapter.teallite.text,"Teallite is a larger, harder to access resource for Tin. It is found between §3<maxY> and <minY>§0. §4Requires an iron pickaxe.§0",錫華は、スズのより大きく、アクセスしにくいリソースです。§3<maxY>から<minY>§0の間で見つかります。§4鉄ピッケルが必要です。§0
+geolosys.guide.chapter.teallite.text,"Teallite is a larger, harder to access resource for Tin. It is found between §3<maxY> and <minY>§0. §4Requires an iron pickaxe.§0",スズ華は、スズのより大きく、アクセスしにくいリソースです。§3<maxY>から<minY>§0の間で見つかります。§4鉄ピッケルが必要です。§0
 geolosys.guide.chapter.galena.name,Galena,方鉛鉱
 geolosys.guide.chapter.galena.text,Galena is a large resource for Silver and Lead. It is found between §3<maxY> and <minY>§0. §4Requires an iron pickaxe.§0,方鉛鉱は銀と鉛の大きなリソースです。§3<maxY>から<minY>§0の間で見つかります。§4鉄ピッケルが必要です。§0
 geolosys.guide.chapter.bauxite.name,Bauxite,バクシット
@@ -150,14 +150,26 @@ geolosys.guide.chapter.sphalerite.text,Sphalerite is the primary resource for Zi
 geolosys.guide.chapter.ore_converter.name,Ore Converter,鉱石変換器
 geolosys.guide.chapter.journeymap.name,JourneyMap,ジャーニーマップ
 geolosys.guide.chapter.journeymap.text,"When right-clicking a sample, a waypoint named for what the objet is is added to your JourneyMap minimap.",サンプルを右クリックすると、JourneyMapミニマップに、そのオブジェクトが何かに基づいて名前が付けられたウェイポイントが追加されます。
-geolosys.guide.chapter.immersive_engineering.name,Immersive Engineering,イマーシブエンジニアリング
 geolosys.guide.chapter.better_with_mods.name,Better with Mods,モジュールと組み合わせるとより良い
-geolosys.guide.chapter.twilight_forest.name,Twilight Forest,黄昏の森
-geolosys.guide.chapter.applied_energistics.name,Applied Energistics,応用エネルギスティクス
+geolosys.guide.chapter.applied_energistics.name,Applied Energistics,Applied Energistics
 geolosys.guide.chapter.actually_additions.name,Actually Additions,実際の追加
-geolosys.guide.chapter.cofh_mods.name,Thermal Foundation,熱基盤
-geolosys.guide.chapter.mekanism.name,Mekanism,メカニズム
+geolosys.guide.chapter.mekanism.name,Mekanism,
 geolosys.guide.chapter.mekanism.text,"If Osmium is enabled in the config, Platinum will split its drop chance 50% with Osmium. If Osmium is enabled §oexclusively§r, then Osmium will be the only drop from Platinum.",Osmiumがコンフィグで有効な場合、Platinumはドロップ確率を50%でOsmiumと分割します。Osmiumが§oexclusively§r有効な場合、Osmiumはプラチナからの唯一のドロップになります。
 geolosys.guide.chapter.extreme_reactors.name,Extreme Reactors,極限リアクター
 geolosys.guide.chapter.extreme_reactors.text,"If Yellorium is enabled in the config, Autunite will split its drop chance 50% with Yellorium.",Yellorium が設定で有効になっていると、オートニトは Yellorium と50％でドロップ確率を分割します。
 geolosys.guide.chapter.nuclearcraft.text,"If NuclearCraft is installed, Geolosys's Vanilla Ore variants will drop NuclearCraft's usual added drops, with the same chance as NuclearCraft.",NuclearCraftがインストールされている場合、Geolosysのバニラ鉱石バリアントはNuclearCraftの通常のドロップをドロップし、NuclearCraftと同じ確率です。
+geolosys.guide.chapter.cinnabar.text,"Cinnabar is found between §3<maxY> and <minY>§0, and can drop Redstone Crystals from Extra Utils 2 or Cinnabar from Thermal Expansion (random change based on Fortune). §4Requires an iron pickaxe.§0",
+geolosys.guide.chapter.quartz.text,Assorted Quartz drops a variety of different Quartzes if available. Such varieties include Actually Additions' Black Quartz and Applied Energistics' Charged and Uncharged Certus Quartz. Assorted Quartz is found between §3<maxY> and <minY>§0. §4Requires a stone pickaxe.§0,
+geolosys.guide.chapter.ore_converter.text,"The Ore Converter feature converts ALL non-Geolosys ores to Geolosys ores in a chunk. This happens §oonce§r, when the player §ofirst§r visits a chunk.",
+geolosys.guide.chapter.immersive_engineering.text,"Aside from Coal dropping Sulfur, the Core Sample Drill and Excavator will detect and mine Geolosys §oore§r blocks.",
+geolosys.guide.chapter.better_with_mods.text,"If Better With Mods is installed, all smelting recipes will output nuggets instead of ingots.",
+geolosys.guide.chapter.twilight_forest.text,"If in the Twilight Forest dimension, all ores will generate scaled to the Twilight Forest's shorter world height.",
+geolosys.guide.chapter.applied_energistics.text,"If AE is installed, Certus Quartz can drop from Assorted Quartz at an 8% chance. In addition, Charged Certus Quartz can drop at a 4% chance.",
+geolosys.guide.chapter.extra_utils.name,Extra Utilities 2,
+geolosys.guide.chapter.extra_utils.text,"If Extra Utilities 2 is installed, Redstone Crystals can drop from Cinnabar at a 3.33% chance.",
+geolosys.guide.chapter.actually_additions.text,"If Actually Additions is installed, Black Quartz can drop from Assorted Quartz at an 8% chance.",
+geolosys.guide.chapter.cofh_mods.text,"If Thermal Foundation is installed, then Cinnabar can drop from Cinnabar at a 3.33% chance.",
+geolosys.guide.chapter.nuclearcraft.name,NuclearCraft,
+geolosys.guide.chapter.immersive_engineering.name,Immersive Engineering,
+geolosys.guide.chapter.twilight_forest.name,Twilight Forest,
+geolosys.guide.chapter.cofh_mods.name,Thermal Foundation,

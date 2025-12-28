@@ -82,3 +82,7 @@ extras.zoom.scrolling.name,Zoom Scrolling,ズームスクロール
 extras.zoom.scrolling.tooltip,Allows using scroll wheel to adjust zoom amount.,スクロールホイールでズーム量を調整できるようにする
 extras.zoom.transition.name,Zoom Transition Mode,ズーム遷移モード
 extras.zoom.transition.tooltip,Controls how the game changes from normal to zoomed. Off will be an instant transition.,ゲームが通常からズームに変わる方法を制御します。オフは即時遷移です。
+extras.fastchest.tooltip,"Remove chests' dynamic models (aka BlockEntityRenderer) and making them render as static chunk geometry, like most normal blocks. 
+This means they will lose their lid opening animation.",
+extras.fix_gpu_memory_leak.tooltip,"If enabled, Embeddium Extras will try to remove out-dated resources every second through a range of means to prevent potential memory leak.",
+extras.max_tile_distance.tooltip,"Hides block entities beyond this many blocks. Huge performance increase, especially around lots of modded machines.",

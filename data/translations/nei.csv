@@ -113,7 +113,7 @@ nei.options.inventory.gamemodes.creative+,Creative+,クリエイティブ＋
 nei.options.inventory.gamemodes.adventure,Adventure,アドベンチャー
 nei.options.command,Commands,コマンド
 nei.options.command.creative,Gamemode,ゲームモード
-nei.options.command.creative.tip,"{0} = 1 for creative, 0 for survival, {1} = player","{0} = 1 for creative, 0 for survival, {1} = player"
+nei.options.command.creative.tip,"{0} = 1 for creative, 0 for survival, {1} = player",
 nei.options.command.item,Item,アイテム
 nei.options.command.item.tip,"{0} = player, {1} = id, {2} = amount, {3} = damage, {4} = nbt, {5} = name","{0} = プレイヤー, {1} = ID, {2} = 数量, {3} = ダメージ, {4} = NBT, {5} = 名前"
 nei.options.command.time,Time,時間
@@ -129,7 +129,6 @@ nei.options.world.highlight_tips.sample,Sample,サンプル
 nei.options.tools,Tools,ツール
 nei.options.tools.dump,Data Dumps,データダンプ
 nei.options.tools.dump.dump,Dump,ダンプ
-nei.options.tools.dump.dumped,%s IDs dumped to %s,%s IDs dumped to %s
 nei.options.tools.dump.mode.0,Used,使用済み
 nei.options.tools.dump.mode.1,Free,無料
 nei.options.tools.dump.mode.2,All,すべて
@@ -145,9 +144,9 @@ nei.options.tools.dump.biome,Biome,バイオーム
 nei.options.tools.dump.biomes,Biomes,バイオーム
 nei.options.tools.dump.itempanel,Item Panel,アイテムパネル
 nei.options.tools.dump.itempanel.dumped,Item Panel contents were dumped to %s,アイテムパネルの内容は %s にダンプされました
-nei.options.tools.dump.itempanel.mode.0,CSV,CSV
-nei.options.tools.dump.itempanel.mode.1,NBT,NBT
-nei.options.tools.dump.itempanel.mode.3,PNG,PNG
+nei.options.tools.dump.itempanel.mode.0,CSV,
+nei.options.tools.dump.itempanel.mode.1,NBT,
+nei.options.tools.dump.itempanel.mode.3,PNG,
 nei.options.tools.dump.itempanel.icon.dumped,Item Panel icons were dumped to %s,アイテムパネルのアイコンが%sにダンプされました
 nei.options.tools.dump.itempanel.icon.cancelled,Dump cancelled,ダンプがキャンセルされました
 nei.layoutstyle.minecraft,Minecraft,マインクラフト
@@ -203,3 +202,5 @@ nei.subsets.Items.Weapons,Weapons,武器
 nei.subsets.Items.Weapons.Ranged,Ranged,遠距離
 nei.subsets.Items.Weapons.Swords,Swords,剣
 nei.subsets.Mod,Mod,モジュール
+nei.options.tools.dump.itempanel.mode.2,Json,
+nei.options.tools.dump.dumped,%s IDs dumped to %s,

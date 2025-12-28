@@ -75,7 +75,7 @@ gui.xaero_pac_config_delete_sub_invalid_target,Invalid target player!,無効な�
 gui.xaero_pac_config_delete_sub_not_exist,A sub-config with that ID does not exist!,そのIDのサブ設定は存在しません！
 gui.xaero_pac_config_delete_sub_too_many_targets,Only one target player is allowed!,ターゲットプレイヤーは一人のみ許可されています！
 gui.xaero_pac_config_op_option,Only server OPs can configure this option for you!,このオプションはサーバーOPのみ設定可能です！
-gui.xaero_pac_config_option_get,(%1$s) %2$s = %3$s,(%1$s) %2$s = %3$s
+gui.xaero_pac_config_option_get,(%1$s) %2$s = %3$s,
 gui.xaero_pac_config_option_get_invalid_key,Invalid option key!,無効なオプションキーです！
 gui.xaero_pac_config_option_get_invalid_sub,Invalid sub-config ID!,無効なサブ設定ID!
 gui.xaero_pac_config_option_get_invalid_target,Invalid target player!,無効な対象プレイヤー！
@@ -90,13 +90,13 @@ gui.xaero_pac_config_option_set_invalid_value,Invalid option input value!,無効
 gui.xaero_pac_config_option_set_invalid_value_format,Invalid option input value format!,オプション入力値の形式が無効です！
 gui.xaero_pac_config_option_set_server_force,The server config forces it to %1$s.,サーバー設定はそれを %1$s に強制します。
 gui.xaero_pac_config_option_set_too_many_targets,Only one target player is allowed!,ターゲットプレイヤーは一人のみ許可されています！
-gui.xaero_pac_config_option_sub_inherited,-,-
+gui.xaero_pac_config_option_sub_inherited,-,
 gui.xaero_pac_config_sub_list,"Sub-configs starting at position %1$d/%2$d:
 ",位置 %1$d/%2$d からサブ設定を開始します。
 gui.xaero_pac_config_sub_list_bad_start,This config has only %1$s sub-configs!,この設定には%1$s個のサブ設定しかありません！
 gui.xaero_pac_config_sub_list_invalid_target,Invalid target player!,無効な対象プレイヤー！
-gui.xaero_pac_config_sub_list_separator,", ",", "
-gui.xaero_pac_config_sub_list_there_is_more,...,...
+gui.xaero_pac_config_sub_list_separator,", ",
+gui.xaero_pac_config_sub_list_there_is_more,...,
 gui.xaero_pac_config_sub_list_too_many_targets,Only one target player is allowed!,ターゲットプレイヤーは一人のみ許可されています！
 gui.xaero_pac_config_type_default_player,Default Player Config,デフォルトプレイヤー設定
 gui.xaero_pac_config_type_expired,Expired Claims Config,期限切れクレーム設定
@@ -591,3 +591,6 @@ gui.xaero_parties_unally_caster_party_message,%1$s has removed %2$s from the all
 gui.xaero_parties_unally_party_not_found,Your allies don't include a party owned by %1$s!,あなたの味方には%1$sが所有するパーティーは含まれていません！
 gui.xaero_parties_unally_target_party_message,%1$s no longer considers %2$s an ally!,%1$s はもう %2$s を同盟とみなさない！
 option.openpartiesandclaims.permissions/v1,Open Parties and Claims,パーティとクレームを開く
+gui.xaero_claims_sub_use,"Successfully switched to claiming with the sub-config ""%1$s"".",
+gui.xaero_pac_config_delete_sub_complete,"Successfully converted its sub-claim and deleted the sub-config ""%1$s""!",
+gui.xaero_pac_config_delete_sub_started,"Began converting all claims that use the sub-config ""%1$s""...",

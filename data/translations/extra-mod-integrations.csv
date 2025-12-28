@@ -43,17 +43,17 @@ gui.extra-mod-integrations.ae2.charger,10 turns or 1600 AE,10回回転または1
 gui.extra-mod-integrations.ae2.explosion,Explosion,爆発
 gui.extra-mod-integrations.ae2.submerge_in,Submerge In,浸没
 gui.extra-mod-integrations.cook_time,%f s,%f 秒
-gui.extra-mod-integrations.indrev.energy,%s LF,%s LF
-gui.extra-mod-integrations.metric.format.0,%.2f,%.2f
-gui.extra-mod-integrations.metric.format.1,%.1f,%.1f
-gui.extra-mod-integrations.metric.format.2,%.0f,%.0f
-gui.extra-mod-integrations.metric.format.3,%.2f k,%.2f k
-gui.extra-mod-integrations.metric.format.4,%.1f k,%.1f k
-gui.extra-mod-integrations.metric.format.5,%.0f k,%.0f k
-gui.extra-mod-integrations.metric.format.6,%.2f M,%.2f M
-gui.extra-mod-integrations.metric.format.7,%.1f M,%.1f M
-gui.extra-mod-integrations.metric.format.8,%.0f M,%.0f M
-gui.extra-mod-integrations.metric.format.9,%.2f G,%.2f G
+gui.extra-mod-integrations.indrev.energy,%s LF,
+gui.extra-mod-integrations.metric.format.0,%.2f,
+gui.extra-mod-integrations.metric.format.1,%.1f,
+gui.extra-mod-integrations.metric.format.2,%.0f,
+gui.extra-mod-integrations.metric.format.3,%.2f k,
+gui.extra-mod-integrations.metric.format.4,%.1f k,
+gui.extra-mod-integrations.metric.format.5,%.0f k,
+gui.extra-mod-integrations.metric.format.6,%.2f M,
+gui.extra-mod-integrations.metric.format.7,%.1f M,
+gui.extra-mod-integrations.metric.format.8,%.0f M,
+gui.extra-mod-integrations.metric.format.9,%.2f G,
 gui.extra-mod-integrations.techreborn.heat,%d Heat,%d ヘート
 gui.extra-mod-integrations.techreborn.min_size,Min Size: %d,最小サイズ: %d
 gui.extra-mod-integrations.techreborn.start_e,%d Start E,%d スタート
@@ -151,7 +151,7 @@ tag.item.ae2.quartz_wrench,Quartz Wrench,クォーツレンチ
 tag.item.ae2.smart_cable,Smart Cable,スマートケーブル
 tag.item.ae2.smart_dense_cable,Smart Dense Cable,スマートな高密度ケーブル
 tag.item.c.advanced_alloy_blocks,Advanced Alloy Blocks,高度合金ブロック
-tag.item.c.advanced_alloy_ingots,Advanced Alloy Ingots,高度合金の塊
+tag.item.c.advanced_alloy_ingots,Advanced Alloy Ingots,高度合金のインゴット
 tag.item.c.advanced_alloy_plates,Advanced Alloy Plates,高度合金の板
 tag.item.c.almandine_dusts,Almandine Dusts,アルマンディン粉
 tag.item.c.almandine_small_dusts,Almandine Small Dusts,アルマンディンの小粉
@@ -192,7 +192,7 @@ tag.item.c.bread,Bread,パン
 tag.item.c.bread.wheat,Wheat Bread,小麦のパン
 tag.item.c.bronze_blocks,Bronze Blocks,ブロンズのブロック
 tag.item.c.bronze_dusts,Bronze Dusts,青銅の粉
-tag.item.c.bronze_ingots,Bronze Ingots,青銅インゴット
+tag.item.c.bronze_ingots,Bronze Ingots,青銅のインゴット
 tag.item.c.bronze_nuggets,Bronze Nuggets,青銅塊
 tag.item.c.bronze_plates,Bronze Plates,ブロンズの板
 tag.item.c.calcite_dusts,Calcite Dusts,カルサイトの粉
@@ -304,10 +304,10 @@ tag.item.c.invar_ingots,Invar Ingots,インバールの鋳鉱
 tag.item.c.invar_nuggets,Invar Nuggets,インバールの塊
 tag.item.c.invar_plates,Invar Plates,不变钢板
 tag.item.c.invar_small_dusts,Invar Small Dusts,インバースモールダスト
-tag.item.c.iridium_alloy_ingots,Iridium Alloy Ingots,イリジウム合金の塊
+tag.item.c.iridium_alloy_ingots,Iridium Alloy Ingots,イリジウム合金のインゴット
 tag.item.c.iridium_alloy_plates,Iridium Alloy Plates,イリジウム合金の板
 tag.item.c.iridium_blocks,Iridium Blocks,イリジウムブロック
-tag.item.c.iridium_ingots,Iridium Ingots,イリジウムの塊
+tag.item.c.iridium_ingots,Iridium Ingots,イリジウムのインゴット
 tag.item.c.iridium_nuggets,Iridium Nuggets,イリジウムニッケル
 tag.item.c.iridium_ores,Iridium Ores,铱矿石
 tag.item.c.iridium_plates,Iridium Plates,イリジウムプレート
@@ -325,7 +325,7 @@ tag.item.c.lazurite_plates,Lazurite Plates,ラズリットプレート
 tag.item.c.lazurite_small_dusts,Lazurite Small Dusts,ラズリットの小粉
 tag.item.c.lead_blocks,Lead Blocks,鉛ブロック
 tag.item.c.lead_dusts,Lead Dusts,鉛の粉
-tag.item.c.lead_ingots,Lead Ingots,鉛インゴット
+tag.item.c.lead_ingots,Lead Ingots,鉛のインゴット
 tag.item.c.lead_nuggets,Lead Nuggets,鉛ナゲット
 tag.item.c.lead_ores,Lead Ores,鉛鉱石
 tag.item.c.lead_plates,Lead Plates,鉛プレート
@@ -353,7 +353,7 @@ tag.item.c.netherrack_dusts,Netherrack Dusts,ネザークラックの粉
 tag.item.c.netherrack_small_dusts,Netherrack Small Dusts,ネザリック小粉末
 tag.item.c.nickel_blocks,Nickel Blocks,ニッケルブロック
 tag.item.c.nickel_dusts,Nickel Dusts,镍粉
-tag.item.c.nickel_ingots,Nickel Ingots,ニッケルインゴット
+tag.item.c.nickel_ingots,Nickel Ingots,ニッケルのインゴット
 tag.item.c.nickel_nuggets,Nickel Nuggets,ニッケルナゲット
 tag.item.c.nickel_plates,Nickel Plates,ニッケルプレート
 tag.item.c.nickel_small_dusts,Nickel Small Dusts,ニッケル小粉末
@@ -395,7 +395,7 @@ tag.item.c.quartz_dusts,Quartz Dusts,ネザークォーツの粉
 tag.item.c.quartz_plates,Quartz Plates,クォーツの板
 tag.item.c.quartz_small_dusts,Quartz Small Dusts,クォーツ小粉末
 tag.item.c.queens_slime_blocks,Queen's Slime Blocks,女王のスライムブロック
-tag.item.c.queens_slime_ingots,Queen's Slime Ingots,女王のスライムの塊
+tag.item.c.queens_slime_ingots,Queen's Slime Ingots,女王のスライムのインゴット
 tag.item.c.queens_slime_nuggets,Queen's Slime Nuggets,クイーンズスライムナゲット
 tag.item.c.raw_bacon,Raw Bacon,生バター
 tag.item.c.raw_beef,Raw Beef,生の牛肉
@@ -456,7 +456,7 @@ tag.item.c.seeds.cabbage,Cabbage Seeds,キャベツの種
 tag.item.c.seeds.rice,Rice Seeds,米の種
 tag.item.c.seeds.tomato,Tomato Seeds,トマトの種
 tag.item.c.sheldonite_ores,Sheldonite Ores,シェルドン石鉱石
-tag.item.c.silica_glass_panes,Silica Glass Panes,シリカガラスパネル
+tag.item.c.silica_glass_panes,Silica Glass Panes,シリカ板ガラス
 tag.item.c.silicon,Silicon,シリコン
 tag.item.c.silicon_plates,Silicon Plates,シリコンプレート
 tag.item.c.silver_blocks,Silver Blocks,銀のブロック
@@ -475,10 +475,10 @@ tag.item.c.slimesteel_ingots,Slimesteel Ingots,スライムスチールインゴ
 tag.item.c.slimesteel_nuggets,Slimesteel Nuggets,スリム鋼鉄のナゲット
 tag.item.c.small_corals_blue,Small Corals Blue,小さな青いコーラル
 tag.item.c.small_corals_dead,Small Corals Dead,小さな死んだコーラル
-tag.item.c.small_corals_pink,Small Corals Pink,小さなピンクのコーラル
+tag.item.c.small_corals_pink,Small Corals Pink,小さな桃色のコーラル
 tag.item.c.small_corals_purple,Small Corals Purple,小型紫珊瑚
 tag.item.c.small_corals_red,Small Corals Red,小型赤珊瑚
-tag.item.c.small_corals_yellow,Small Corals Yellow,小型黄色サンゴ
+tag.item.c.small_corals_yellow,Small Corals Yellow,小型黄サンゴ
 tag.item.c.sodalite_dusts,Sodalite Dusts,ソダライトの粉
 tag.item.c.sodalite_ores,Sodalite Ores,サポルサイト鉱石
 tag.item.c.sodalite_small_dusts,Sodalite Small Dusts,ソダライト小粉末
@@ -496,7 +496,7 @@ tag.item.c.steel_boots,Steel Boots,鋼鉄のブーツ
 tag.item.c.steel_chestplates,Steel Chestplates,鋼のチェストプレート
 tag.item.c.steel_dusts,Steel Dusts,鋼鉄の粉
 tag.item.c.steel_helmets,Steel Helmets,鋼製ヘルメット
-tag.item.c.steel_ingots,Steel Ingots,鋼鉄インゴット
+tag.item.c.steel_ingots,Steel Ingots,鋼鉄のインゴット
 tag.item.c.steel_leggings,Steel Leggings,鋼鉄のレギンス
 tag.item.c.steel_nuggets,Steel Nuggets,鋼ナゲット
 tag.item.c.steel_plates,Steel Plates,鋼プレート
@@ -505,8 +505,8 @@ tag.item.c.sulfur_dusts,Sulfur Dusts,硫黄の粉
 tag.item.c.sulfur_small_dusts,Sulfur Small Dusts,硫黄小粉末
 tag.item.c.sulfurs,Sulfurs,硫黄
 tag.item.c.tin_blocks,Tin Blocks,スズのブロック
-tag.item.c.tin_dusts,Tin Dusts,錫の粉
-tag.item.c.tin_ingots,Tin Ingots,スズインゴット
+tag.item.c.tin_dusts,Tin Dusts,スズの粉
+tag.item.c.tin_ingots,Tin Ingots,スズのインゴット
 tag.item.c.tin_nuggets,Tin Nuggets,スズ塊
 tag.item.c.tin_ores,Tin Ores,スズの鉱石
 tag.item.c.tin_plates,Tin Plates,スズプレート
@@ -545,9 +545,9 @@ tag.item.c.workbench,Workbench,作業台
 tag.item.c.workbenches,Workbenches,作業台
 tag.item.c.yellow_garnet_blocks,Yellow Garnet Blocks,黄ガーネットブロック
 tag.item.c.yellow_garnet_dusts,Yellow Garnet Dusts,黄ガーネット粉
-tag.item.c.yellow_garnet_gems,Yellow Garnet Gems,黄色ガーネット宝石
+tag.item.c.yellow_garnet_gems,Yellow Garnet Gems,黄ガーネット宝石
 tag.item.c.yellow_garnet_plates,Yellow Garnet Plates,黄ガーネットプレート
-tag.item.c.yellow_garnet_small_dusts,Yellow Garnet Small Dusts,黄色のガーネットの小粉
+tag.item.c.yellow_garnet_small_dusts,Yellow Garnet Small Dusts,黄のガーネットの小粉
 tag.item.c.zinc_blocks,Zinc Blocks,亜鉛ブロック
 tag.item.c.zinc_dusts,Zinc Dusts,亜鉛の粉末
 tag.item.c.zinc_ingots,Zinc Ingots,亜鉛インゴット
@@ -714,7 +714,7 @@ tag.item.techreborn.rubber_logs,Tech Reborn Rubber Logs,テク・リボーン �
 tag.item.techreborn.small_dusts,Tech Reborn Small Dusts,小さなダスト
 tag.item.techreborn.storage_blocks,Tech Reborn Storage Blocks,Tech Reborn ストレージブロック
 tag.item.techreborn.storage_units,Tech Reborn Storage Units,テックリボーン ストレージユニット
-tooltip.extra-mod-integrations.techreborn.recipe_power,%d E/t,%d E/t
+tooltip.extra-mod-integrations.techreborn.recipe_power,%d E/t,
 tooltip.extra-mod-integrations.techreborn.recipe_power.consumed,%d E/t Consumed,%d E/t 消費
 tooltip.extra-mod-integrations.techreborn.recipe_power.produced,%d E/t Produced,%d E/t 生成
-tooltip.extra-mod-integrations.techreborn.recipe_power_per_bucket,%d E/b,%d E/b
+tooltip.extra-mod-integrations.techreborn.recipe_power_per_bucket,%d E/b,

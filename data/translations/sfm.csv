@@ -54,7 +54,7 @@ gui.sfm.facade_confirm_clear.title,Are you sure you want to clear these facades?
 gui.sfm.item_inspector.copied_to_clipboard,Copied {} characters to clipboard!,コピーされた{}文字がクリップボードへ転送されました！
 gui.sfm.label_gun.button.toggle_label_view,Cycle label view,サイクルラベルビュー
 gui.sfm.label_gun.clear_button,Clear,クリア
-gui.sfm.label_gun.label_button,%s (%d),%s (%d)
+gui.sfm.label_gun.label_button,%s (%d),
 gui.sfm.label_gun.label_edit_placeholder,Search or enter new label,検索または新しいラベルを入力
 gui.sfm.label_gun.placeholder,Label,ラベル
 gui.sfm.label_gun.prune_button,Prune,プルーン
@@ -107,7 +107,7 @@ gui.sfm.program_editor_config.intellisense.off,Off,オフ
 gui.sfm.program_editor_config.line_numbers,Line Numbers,行番号
 gui.sfm.program_editor_config.preferred_editor,Preferred Editor,推奨エディタ
 gui.sfm.program_editor_config.preferred_editor.v1,V1 (Default),V1 (デフォルト)
-gui.sfm.program_editor_config.preferred_editor.v2,V2,V2
+gui.sfm.program_editor_config.preferred_editor.v2,V2,
 gui.sfm.program_editor_config.title,Program Editor Config,プログラムエディタ設定
 gui.sfm.program_template_picker.warning1,"Hitting ""Done"" will on the next screen will overwrite your existing program!",「完了」をクリックすると、次の画面でエディタを上書きします...
 gui.sfm.program_template_picker.warning2,Hit <esc> to cancel instead.,代わりに <esc> を押してキャンセル
@@ -173,29 +173,29 @@ key.sfm.more_info,Hold For More Info,詳細情報は保持する
 key.sfm.title_screen.text_editor,Title Screen - Open Text Editor,タイトル画面 - テキストエディタを開く
 key.sfm.toggle_label_view_key,Cycle label gun view,ラベルガンビュー切替
 key.sfm.toggle_network_tool_overlay,Toggle network tool overlay,ネットワークツールオーバーレイを切替え
-log.sfm.cable_network.body,%s,%s
-log.sfm.cable_network.footer,=============================,=============================
+log.sfm.cable_network.body,%s,
+log.sfm.cable_network.footer,=============================,
 log.sfm.cable_network.header.1,======= Cable network =======,======= ケーブルネットワーク =======
 log.sfm.cable_network.header.2,Cable positions:,ケーブルの位置:
 log.sfm.cable_network.header.3,Capability positions:,キャパビリティ位置:
 log.sfm.capability_cache.hit,Capability cache HIT for %s %s direction=%s,%s %s のキャパビリティキャッシュヒット、方向=%s
 log.sfm.capability_cache.hit_invalid,Capability cache HIT but NOT PRESENT for %s %s direction=%s,Capability キャッシュ HIT ですが %s %s の direction=%s に対して PRESENT ではありません
-log.sfm.label_position_holder.body,%s,%s
-log.sfm.label_position_holder.footer,=============================,=============================
+log.sfm.label_position_holder.body,%s,
+log.sfm.label_position_holder.footer,=============================,
 log.sfm.label_position_holder.header,=== Label position holder ===,=== ラベル位置ホルダー ===
 log.sfm.level_updated,Log level updated to %s,ログレベルが%sに更新されました
 log.sfm.manager.cable_network_rebuild,User performed cable network rebuild,ユーザーがケーブルネットワークの再構築を実行しました
 log.sfm.program.context,Initial program context: %s,初期プログラムコンテキスト: %s
-log.sfm.program.tick,PROGRAM TICK BEGIN,PROGRAM TICK BEGIN
+log.sfm.program.tick,PROGRAM TICK BEGIN,
 log.sfm.program.tick.redstone_count,Program ticking with %d unprocessed redstone pulses.,プログラムは %d 個の未処理レッドストーンパルスでティックします
-log.sfm.program.voided_resources,%s,%s
+log.sfm.program.voided_resources,%s,
 log.sfm.resource_type.get_capabilities.begin,Gathering capabilities of type %s (%s) against labels %s,タイプ %s (%s) の収集能力がラベル %s に対して
 log.sfm.resource_type.get_capabilities.not_present,Capability %s %s direction=%s not present,Capability %s %s direction=%s が存在しません
 log.sfm.resource_type.get_capabilities.present,Capability %s %s direction=%s present,能力 %s %s 方向=%s が存在
 log.sfm.statement.tick.forget,FORGET %s,忘れ去る %s
 log.sfm.statement.tick.if.false,FALSE: %s,偽: %s
 log.sfm.statement.tick.if.true,TRUE: %s,真: %s
-log.sfm.statement.tick.input,%s,%s
+log.sfm.statement.tick.input,%s,
 log.sfm.statement.tick.io.gather_slots,"Gathering slots for IO statement 
 ```
 %s
@@ -219,7 +219,7 @@ log.sfm.statement.tick.io.move_to.retention_obligation_no_move,"Nothing to move 
 log.sfm.statement.tick.io.move_to.stack_limit_no_move,"Max transferable dest=%d, source=%d, stack limit=%d; new toMove=%d",最大転送先=%d、ソース=%d、スタック上限=%d；新しい toMove=%d
 log.sfm.statement.tick.io.move_to.type_mismatch,"Type mismatch, skipping",型不一致、スキップします
 log.sfm.statement.tick.io.move_to.zero_simulated_movement,"Got remainder %d after simulated insertion of potential %d (0 to move), skipping",潜在的な %d を挿入した後に残余 %d が得られました（0は移動しない）、スキップ中
-log.sfm.statement.tick.output,%s,%s
+log.sfm.statement.tick.output,%s,
 log.sfm.statement.tick.output.discovered_input_slot_count,Discovered %d input slots,%d 個の入力スロットが発見されました
 log.sfm.statement.tick.output.discovered_output_slot_count,Discovered %d output slots,発見された %d 出力スロット
 log.sfm.statement.tick.output.short_circuit_no_input_slots,"No input slots, skipping",入力スロットがありませんのでスキップします
@@ -231,7 +231,7 @@ program.sfm.error.compile_failed,Failed to compile.,コンパイルに失敗し�
 program.sfm.error.compile_failed_with_errors,Failed to compile with %d errors.,コンパイルに失敗しました。%d件のエラーがあります。
 program.sfm.error.compile_success_with_warnings,"Successfully compiled ""%s"" with %d warnings.",「%s」が%dの警告で正常にコンパイルされました。
 program.sfm.error.disallowed_resource_type,"Program references a disallowed resource type ""%s""",プログラムは許可されていないリソースタイプ「%s」を参照しています
-program.sfm.error.literal,%s,%s
+program.sfm.error.literal,%s,
 program.sfm.error.malformed_resource_type,"Program has a malformed resource type ""%s"".
 Reminder: Resource types must be literals, not wildcards.","プログラムが不正なリソースタイプ「%s」を指定しています。
 注意：リソースタイプはリテラルである必要があります。ワイルドカードは使用できません。"
@@ -278,3 +278,6 @@ Use the copy button to help view in a different editor.","よぉ、ワールド�
 ロギングはステートメント実行を遅くする可能性があります。
 コピーボタンを使用して、別のエディタで表示できます。"
 program.sfm.warnings.mekanism_used_without_direction,"Mekanism blocks are read-only from the null direction, check label ""%s"" used in ""%s""",Mekanismブロックはnullの方向から読み取り専用です。確認してください...
+gui.sfm.manager.button.discord,Discord,
+log.sfm.capability_cache.miss,Capability cache MISS for %s %s direction=%s,
+log.sfm.statement.tick.io.move_to.zero_to_move,"toMove=0, skipping",

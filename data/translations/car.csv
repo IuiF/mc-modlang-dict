@@ -1,10 +1,10 @@
 ﻿key,source_text,target_text
-category.car,Car,カー
+category.car,Car,車
 gui.car_fuel,%s %% Fuel,%s %% 燃料
 gui.car_damage,%s %% Damage,%s %% ダメージ
 gui.car_battery,%s %% Battery,%s %% バッテリー
-gui.car_temperature_celsius,%s °C,%s °C
-gui.car_temperature_farenheit,%s °F,%s °F
+gui.car_temperature_celsius,%s °C,
+gui.car_temperature_farenheit,%s °F,
 gui.painter,Painter,塗装機
 gui.fuelstation,Fuel Station,燃料ステーション
 gui.sign,Edit Sign Text (%s),看板テキスト編集 (%s)
@@ -16,9 +16,9 @@ tile.tar_slope.name,Asphalt Slope,アスファルトの勾配
 tile.tar_slope_flat_upper.name,Upper Asphalt Slope (Flat),上部アスファルト斜面（フラット）
 tile.tar_slope_flat_lower.name,Lower Asphalt Slope (Flat),下部アスファルト斜面（フラット）
 tile.tar_slab.name,Asphalt Slab,アスファルトのハーフブロック
-tile.canola.name,Canola Crop,カナラ作物
+tile.canola.name,Canola Crop,カノーラ作物
 tile.fuelstation.name,Fuel Station,燃料ステーション
-tile.oilmill.name,Oil Mill,油圧機
+tile.oilmill.name,Oil Mill,オイルミル
 tile.blastfurnace.name,Blast Furnace,爆破炉
 tile.methanol.name,Methanol,メタノール
 tile.canola_oil.name,Canola Oil,キャノーラ油
@@ -29,7 +29,7 @@ tile.tank.name,Tank,タンク
 tile.crash_barrier.name,Crash Barrier,クラッシュバリア
 tile.car_workshop.name,Car Workshop,自動車工場
 tile.car_workshop_outter.name,Car Workshop Part,自動車工場部品
-tile.canola_methanol_mix.name,Canola Methanol Mix,キャノラメタノールミックス
+tile.canola_methanol_mix.name,Canola Methanol Mix,カノーラメタノール混合物
 tile.glycerin.name,Glycerin,グリセリン
 tile.bio_diesel.name,Bio Diesel,バイオディーゼル
 tile.cable.name,Cable,ケーブル
@@ -53,7 +53,7 @@ tile.arrow_front_left_right_yellow.name,Arrow Left Right,左矢印・右矢印
 tile.arrow_yellow.name,Arrow,矢
 tile.arrow_front_left_yellow.name,Arrow Left,左矢印
 tile.arrow_front_right_yellow.name,Arrow Right,右矢印
-tile.arrow_zebras.name,Zebras,ジラフ
+tile.arrow_zebras.name,Zebras,シマウマ
 tile.arrow_right.name,Long Arrow Right,長く右の矢
 tile.arrow_right_dia.name,Arrow Right Diagonal,右下向き矢印
 tile.arrow_p.name,Parking,駐車場
@@ -61,7 +61,7 @@ tile.arrow_no_parking.name,No Parking,駐車禁止
 tile.arrow_left.name,Long Arrow Left,左の長矢
 tile.arrow_left_dia.name,Long Arrow Left Diagonal,左下斜め長矢印
 tile.arrow_cross.name,Cross,クロス
-tile.arrow_zebras_yellow.name,Zebras,ジラフ
+tile.arrow_zebras_yellow.name,Zebras,シマウマ
 tile.arrow_right_yellow.name,Long Arrow Right,長く右の矢
 tile.arrow_right_dia_yellow.name,Long Arrow Right Diagonal,斜め右長矢
 tile.arrow_p_yellow.name,Parking,駐車場
@@ -110,20 +110,20 @@ tile.line_double_middle.name,Middle Double Line,中央の二重ライン
 tile.line_double_middle_yellow.name,Middle Double Line,中央の二重ライン
 tile.line_double_end.name,End Double Line,終了二重線
 tile.line_double_end_yellow.name,End Double Line,終了二重線
-itemGroup.car,Car,カー
+itemGroup.car,Car,車
 item.painter.name,Painter,塗装機
-item.painter_yellow.name,Yellow Painter,黄色の塗装機
+item.painter_yellow.name,Yellow Painter,黄の塗装機
 item.canola_seeds.name,Canola Seeds,キャノーラの種
 item.canola.name,Canola,キャノーラ
-item.rapecake.name,Canola Cake,カナラケーキ
+item.rapecake.name,Canola Cake,キャノーラケーキ
 item.engine_piston.name,Engine Piston,エンジンピストン
-item.windshield.name,Windshield,ワイパー
+item.windshield.name,Windshield,ウインドシールド
 item.wheel.name,Wheel,車輪
 item.axle.name,Axle,軸
 item.container.name,Container,コンテナ
 item.car_seat.name,Car Seat,車のシート
 item.car_body_part_wood.oak.name,Oak Car Body part,オーク製車体部品
-item.car_body_part_wood.spruce.name,Spruce Car Body part,スプルース車体部品
+item.car_body_part_wood.spruce.name,Spruce Car Body part,トウヒ車体部品
 item.car_body_part_wood.birch.name,Birch Car Body part,シラカバ車体部品
 item.car_body_part_wood.jungle.name,Jungle Car Body part,ジャングル車体部品
 item.car_body_part_wood.acacia.name,Acacia Car Body part,アカシア車体部品
@@ -158,7 +158,7 @@ fuelstation.fuel_buffer_type,Type: %s,タイプ: %s
 fuelstation.fuel_buffer_amount,Fuel: %s/%s mb,燃料: %s/%s mb
 fuelstation.no_car,Free,無料
 fuelstation.ready,Ready,準備完了
-fuelstation.fuel_amount,%s mb,%s mb
+fuelstation.fuel_amount,%s mb,
 fuelstation.fuel_empty,No Fuel stored,燃料が貯蔵されていません
 fuelstation.nocar,No Car,車なし
 tooltip.energy,Stored energy: %s RF,蓄えられたエネルギー: %s RF
@@ -181,7 +181,7 @@ tooltip.trade,%s %s for %s mb,%s %s で %s mb
 tooltip.number_plate_text,Text: %s,テキスト: %s
 fluid.canola_oil,Canola Oil,キャノーラ油
 fluid.methanol,Methanol,メタノール
-fluid.canola_methanol_mix,Canola Methanol Mix,キャノラメタノールミックス
+fluid.canola_methanol_mix,Canola Methanol Mix,カノーラメタノール混合物
 fluid.glycerin,Glycerin,グリセリン
 fluid.bio_diesel,Bio Diesel,バイオディーゼル
 key.car_back,Backwards,バックワード
@@ -219,12 +219,12 @@ description.car_workshop,With the Car Workshop you can spawn and repair Cars. It
 description.crank,The Crank can be used to operate a Dynamo. It must be placed on top of the Dynamo. Right-click it to crank.,クランクはダイナモを操作するために使用できます。ダイナモの上に配置する必要があります。右クリックして回してください。
 description.dynamo,The Dynamo can be used to generate power per hand. A Crank must be placed on top of the Dynamo. Right-click it to crank.,ダイナモは手動で電力を生成するために使用できます。ダイナモの上にクランクを配置する必要があります。右クリックして回してください。
 description.fluid_extractor,A Fluid Extractor can be used to extract fluids from fluid containers. It has a filter slot. This slot accepts every fluid container. For example Buckets.,流体抽出機は流体容器から流体を抽出するために使用できます。フィルタースロットがあります。このスロットはすべての流体容器を受け入れます。例えば、バケツなど。
-description.fuel_station,"A Fuel Station can be used to fuel Cars and Canisters. It has an internal fluid storage of 16,000 mb. To fuel a Car drive it directly in front of the Fuel Station.To fill a Canister sneak and right click the Fuel Station.","ガソリンスタンドは車とキャニスターに燃料を供給するために使用できます。内部流体ストレージは16,000 mbです。車に燃料を供給するには、ガソリンスタンドの直前に車を運転します。キャニスターに充填するにはスニークして右クリックしてください。"
-description.painter_yellow,With the Yellow Painter you can draw lines or arrows on your road. Sneak and right-click opens a menu where you can choose between all types,黄色ペインターで道路に線または矢印を描くことができます。スニークして右クリックするとメニューが開き、すべてのタイプから選択できます。
-description.painter_white,With the White Painter you can draw lines or arrows on your road. Sneak and right-click opens a menu where you can choose between all types,白色ペインターで道路に線または矢印を描くことができます。スニークして右クリックするとメニューが開き、すべてのタイプから選択できます。
-description.repair_kit,With the Repair Kit you can repair your Car in the car GUI. NOTE: This only repairs the car when the damage is greater than 90%. It should only be used to be able to get to the next Car Workshop,修理キットで車GUIで車を修理できます。注意：これは車のダメージが90%より大きい場合にのみ車を修理します。次のカーワークショップに到達するために使用してください。
-description.tank,"A Tank can be used to store fluids. It stores 16,000 mb. It can hold every known fluid.","タンクは液体を貯蔵するために使用できます。容量は16,000mbです。既知のすべての液体を保持できます。"
+description.fuel_station,"A Fuel Station can be used to fuel Cars and Canisters. It has an internal fluid storage of 16,000 mb. To fuel a Car drive it directly in front of the Fuel Station.To fill a Canister sneak and right click the Fuel Station.","燃料ステーションは車とカニスターを燃料に使えます。内部の流体貯蔵容量は16,000mbです。車を燃料にするには、燃料ステーションの前で直接運転します。カニスターを満タンにするには、隠れながら右クリックして燃料ステーションを使用してください。"
+description.painter_yellow,With the Yellow Painter you can draw lines or arrows on your road. Sneak and right-click opens a menu where you can choose between all types,Yellow Painterを使うと、道路に線や矢印を描くことができます。スニークしながら右クリックするとメニューが開き、すべてのタイプから選択できます
+description.painter_white,With the White Painter you can draw lines or arrows on your road. Sneak and right-click opens a menu where you can choose between all types,ホワイトペインターを使うと、道路に線や矢印を描くことができます。スニークしながら右クリックするとメニューが開き、すべてのタイプから選択できます
+description.repair_kit,With the Repair Kit you can repair your Car in the car GUI. NOTE: This only repairs the car when the damage is greater than 90%. It should only be used to be able to get to the next Car Workshop,リペアキットを使うと、車のGUIで車を修理できます。注意：これはダメージが90％以上の場合にのみ車を修理します。次のカー・ワークショップへ進むために使用してください
+description.tank,"A Tank can be used to store fluids. It stores 16,000 mb. It can hold every known fluid.","タンクは液体を貯蔵するために使用できます。容量16,000 mbです。既知のすべての液体を保持できます。"
 description.battery,With the Battery you can refill your car's energy in the car GUI. A full Battery restores 500 energy. You can recharge it by sneak + right clicking a generator,バッテリーで車GUIで車のエネルギーを回復できます。満杯のバッテリーは500エネルギーを回復します。ジェネレータースニーク + 右クリックで再充電できます。
 description.container,Sneak + right-click to add a container to a transporter,スニーク + 右クリックでコンテナをトランスポーターに追加します
 description.number_plate,You can set the name by right-clicking this item. To apply it to the car sneak and right-click the car with it.,右クリックして名前を設定できます。車に適用するには、スニークして右クリックして車に取り付けてください。
-death.attack.hit_car,%s was run over by a car,%s が車で走行中に踏み倒された
+death.attack.hit_car,%s was run over by a car,%s は車に轢かれた

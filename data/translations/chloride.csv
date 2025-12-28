@@ -10,7 +10,7 @@ chloride.options.common.attach,Attach,接続
 chloride.options.common.experimental,[EXPERIMENTAL],[実験的]
 chloride.options.common.fast,Fast,速い
 chloride.options.common.fastest,Fastest,最速
-chloride.options.common.millis,ms,ms
+chloride.options.common.millis,ms,
 chloride.options.common.normal,Normal,通常
 chloride.options.common.off,Off,オフ
 chloride.options.common.on,On,オン
@@ -74,8 +74,8 @@ chloride.options.darkness.overworld.title,Enable on Overworld,オーバーワー
 chloride.options.darkness.page,True Darkness,真の暗闇
 chloride.options.displayfps.avg,AVG,平均
 chloride.options.displayfps.desc,"Displays the current FPS. Advanced mode also displays minimum FPS, as well as 15 second average FPS, useful for judging performance.",現在のFPSを表示します。高度なモードではさらに最小FPS、および15秒平均FPSが表示され、パフォーマンス判定に役立ちます。
-chloride.options.displayfps.fps,FPS,FPS
-chloride.options.displayfps.gpu,GPU,GPU
+chloride.options.displayfps.fps,FPS,
+chloride.options.displayfps.gpu,GPU,
 chloride.options.displayfps.gravity.center,Center,中央
 chloride.options.displayfps.gravity.desc,Corner position of the FPS display,FPS表示の角位置
 chloride.options.displayfps.gravity.left,Left,左
@@ -174,3 +174,5 @@ chloride.options.zoom.page,Zoom,ズーム
 chloride.options.zoom.title,Enable Zoom,ズームを有効化
 chloride.pages.details,Details,詳細
 chloride.zoom,Zoom,ズーム
+chloride.options.culling.entity.distance.horizontal.desc,"Hides and does not tick entities beyond this many blocks. Huge performance increase, especially around modded farms.",
+chloride.options.culling.tile.distance.horizontal.desc,"Hides block entities beyond this many blocks. Huge performance increase, especially around lots of modded machines.",

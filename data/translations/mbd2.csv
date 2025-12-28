@@ -70,7 +70,7 @@ config.block_pattern.predicate.minCount.tooltip.1,§c-1§r - no limit,§c-1§r -
 config.block_pattern.predicate.minLayerCount,min layer count,最小レイヤーカウント
 config.block_pattern.predicate.minLayerCount.tooltip.0,The minimum count of this block in each layer.,各レイヤーにおけるこのブロックの最小カウント。
 config.block_pattern.predicate.minLayerCount.tooltip.1,§c-1§r - no limit,§c-1§r - 制限なし
-config.block_pattern.predicate.nbt,NBT,NBT
+config.block_pattern.predicate.nbt,NBT,
 config.block_pattern.predicate.nbt.tooltip,match nbt.,NBTを一致させる。
 config.block_pattern.predicate.preview,preview,プレビュー
 config.block_pattern.predicate.previewCount,preview count,プレビューカウント
@@ -279,7 +279,7 @@ config.definition.trait.gtm_energy_container.output_amperage.tooltip,"If its cap
 config.definition.trait.gtm_energy_container.output_voltage,Output Voltage,出力電圧
 config.definition.trait.gtm_energy_container.output_voltage.tooltip,The output voltage of the energy container.,エネルギーコンテナの出力電圧。
 config.definition.trait.gtm_energy_container.ui_container_hover,Stored: %d / %d eu,保存量: %d / %d EU
-config.definition.trait.gui_io,GUI IO,GUI IO
+config.definition.trait.gui_io,GUI IO,
 config.definition.trait.gui_io.tooltip,Whether this trait io directions for GUI handling,GUI処理における特性のIO方向かどうか。
 config.definition.trait.item_slot.auto_io.tooltip,Auto extract from the nearby inventory or drop to the nearby inventory.,近隣インベントリから自動抽出または落下させて近隣インベントリへ転送します
 config.definition.trait.item_slot.fancy_renderer,Fancy Item Renderer,高級アイテムレンダラー
@@ -706,7 +706,7 @@ ldlib.gui.editor.register.widget.container.create_stress,Create Stress Slot,生�
 ldlib.gui.editor.register.widget.container.entity_preview,Entity Preview Slot,エンティティプレビュー用スロット
 ldlib.renderer.geckolib,Geckolib Model,Geckolibモデル
 mbd2.gui.content.chance_0,§cNot Consumed§r,§c消費しない§r
-mbd2.gui.content.chance_0_short,§cNC§r,§cNC§r
+mbd2.gui.content.chance_0_short,§cNC§r,
 mbd2.gui.content.chance_1,§eChance: %s§r,§e生成確率: %s§r
 mbd2.gui.content.per_tick,§aConsumed/Produced Per Tick§r,§a1Tickあたりの消費量／生産量 §r
 mbd2.gui.content.slot_name,§4Slot Name: %s§r,§4スロット名: %s§r
@@ -714,9 +714,7 @@ mbd2.gui.content.tier_boost,§eTier Chance:§r +%s/tier,§eティアチャンス
 mbd2.gui.content.tips.per_second_short,§a/second§r,§a/秒§r
 mbd2.gui.content.tips.per_tick_short,§a/tick§r,§a/ティック§r
 mbd2.gui.content.ui_name,§UI Name: %s§r,§UI名: %s§r
-mbd2.gui.content.units.per_second,/s,/s
-mbd2.gui.content.units.per_tick,/t,/t
-mbd2.gui.editor.group.predicate,predicate,predicate
+mbd2.gui.editor.group.predicate,predicate,
 mbd2.jei.multiblock_info,Multiblock Info,マルチブロック情報
 mbd2.multiblock.pattern.error,Expected components (%s) at (%s).,(%s)が(%s)に存在すべきです
 mbd2.multiblock.pattern.error.chunk,§cChunk is unload§r,§cチャンクがアンロードされています§r
@@ -734,7 +732,6 @@ mbd2.recipe_logic.condition_fails,Condition Fails,コンディション不良
 mbd2.recipe_logic.insufficient_fuel,Insufficient Fuel,燃料不足
 mbd2.recipe_logic.insufficient_in,Insufficient Inputs,入力不足
 mbd2.recipe_logic.insufficient_out,Insufficient Outputs,出力不足
-multiblock.catalyst,§arequire catalyst§r,§arequire catalyst§r
 multiblock.unformed,§6not formed§r,§6形成されていません§r
 pattern_preview.formed,switch structure formed,構造形成を切り替え
 pattern_preview.layer,switch layers,レイヤーを切り替え
@@ -744,11 +741,11 @@ project.reload.recipe,§cNOTE:§r You have to execute /reload or re-enter the wo
 recipe.capability.botania_mana.mana,Mana,マナ
 recipe.capability.botania_mana.name,Botania Mana Capability,ボタニアマナ能力
 recipe.capability.create_rpm.name,Create RPM,RPMを作成
-recipe.capability.create_rpm.rpm,RPM,RPM
-recipe.capability.create_rpm.rpm.unit,%d rpm,%d rpm
+recipe.capability.create_rpm.rpm,RPM,
+recipe.capability.create_rpm.rpm.unit,%d rpm,
 recipe.capability.create_stress.name,Create Stress,CreateのSU
 recipe.capability.create_stress.stress,Stress,ストレス
-recipe.capability.create_stress.stress.unit,%d su,%d su
+recipe.capability.create_stress.stress.unit,%d su,
 recipe.capability.embers_ember.ember,Ember,エムバー
 recipe.capability.embers_ember.name,Embers Ember Capability,炎のエンバー能力
 recipe.capability.entity.ingredient.candidates,Entity Candidates,エンティティ候補
@@ -843,7 +840,6 @@ recipe.xei_hidden.tooltip,Whether the recipe should be shown in the recipe viewe
 recipe_logic.status.idle,idle,待機中
 recipe_logic.status.suspend,§4suspending§r,§4停止中§r
 recipe_logic.status.waiting,§6waiting§r,§6待機§r
-recipe_logic.status.working,§aworking§r,§aworking§r
 recipe_type.fuel,%s fuel,%s燃料
 recipe_type.fuel_icon,fuel icon,燃料アイコン
 recipe_type.fuel_icon.tooltip,"The fuel icon of the recipe type, which will be displayed in the recipe viewer UI.",レシピタイプの燃料アイコンで、レシピビューアUIに表示されます。
@@ -859,3 +855,12 @@ recipe_type.registry_name,registry name,登録名
 recipe_type.registry_name.tooltip,Registry name has to be unique.,レジストリ名は一意でなければなりません。
 recipe_type.require_fuel,require fuel,燃料が必要
 recipe_type.require_fuel.tooltip,"Whether the recipe type requires fuel to work. if true, you should add fuel recipes as well.",このレシピタイプが動作するために燃料を必要とするかどうか。trueの場合、燃料レシピも追加する必要があります。
+config.machine_state.rendering_radius.tooltip,It's used to define a visible radius for BlockEntityRenderer in the world.,
+graph_processor.node.mbd2.machine.geckolib,Geckolib,
+graph_processor.node.mbd2.machine.photon,Photon,
+recipe.capability.item.ingredient.durability.content,§6Consumed/Produced durability:§r %d,
+recipe.condition.mekanism_heat.tooltip,"Mek Temperature range [%d, %d]",
+mbd2.gui.content.units.per_second,/s,
+mbd2.gui.content.units.per_tick,/t,
+multiblock.catalyst,§arequire catalyst§r,
+recipe_logic.status.working,§aworking§r,

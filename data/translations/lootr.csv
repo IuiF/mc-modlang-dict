@@ -12,7 +12,7 @@ lootr.advancements.25loot.title,Close Quarters,近接戦闘
 lootr.advancements.root.description,"Bring instanced, per-player Loot into your world.",インスタンス化された、プレイヤーごとの戦利品をあなたの世界へ持ち込みます。
 lootr.advancements.root.title,Belongs in a Museum,博物館に属する
 lootr.advancements.social.title,Socialised Loot,共有戦利品
-lootr.commands.blockpos,"%s,%s,%s","%s,%s,%s"
+lootr.commands.blockpos,"%s,%s,%s",
 lootr.commands.create,Created a Lootr %s at %s using the loot table %s.,Lootr %s を %s で作成し、戦利表 %s を使用しました。
 lootr.commands.summon,Summoned a Lootr Cart at %s using the loot table %s.,%sでLootrカートを召喚し、lootテーブル%sを使用した。
 lootr.message.cannot_break,Loot containers and carts cannot be broken.,戦利品のコンテナとカートは破壊できません
@@ -88,7 +88,7 @@ lootr.advancements.25loot.description,Open 25 Lootr containers!,Lootrのコン�
 lootr.advancements.50loot.description,Open 50 Lootr containers!,Lootrのコンテナを50個開く！
 lootr.advancements.50loot.title,Half-Century,半世紀
 lootr.advancements.social.description,Open one of every Lootr container type!,Lootrのコンテナを1個開く！
-lootr.commands.usage,/lootr barrel | barrel <loot-table> | chest | chest <loot-table> | cart | cart <loot-table> | shulker | shulker <loot-table> | trapped_chest | trapped_chest <loot-table> | custom | refresh | decay | open_as <player> | open_as_uuid <uuid> | id | openers,/lootr barrel | barrel <loot-table> | chest | chest <loot-table> | cart | cart <loot-table> | shulker | shulker <loot-table> | trapped_chest | trapped_chest <loot-table> | custom | refresh | decay | open_as <player> | open_as_uuid <uuid> | id | openers
+lootr.commands.usage,/lootr barrel | barrel <loot-table> | chest | chest <loot-table> | cart | cart <loot-table> | shulker | shulker <loot-table> | trapped_chest | trapped_chest <loot-table> | custom | refresh | decay | open_as <player> | open_as_uuid <uuid> | id | openers,
 lootr.configuration.blast_immune,Blast Immunity,爆発を無効化
 lootr.configuration.blast_resistant,Blast Resistance,爆発耐性
 lootr.configuration.breaking,Breaking,破壊
@@ -153,3 +153,10 @@ text.autoconfig.lootr.option.lists.modid_dimension_blacklist,Dimension Modid Bla
 text.autoconfig.lootr.option.lists.modid_dimension_whitelist,Dimension Modid Whitelist,ディメンションのModIDのホワイトリスト
 text.autoconfig.lootr.option.refresh.perform_tick_refresh,Perform Refresh While Ticking,ティック中にリフレッシュを実行
 text.autoconfig.lootr.option.refresh.start_tick_refresh,Start Refresh While Ticking,Ticking中にリフレッシュを開始
+block.lootr.lootr_shulker,Loot Shulker,
+itemGroup.lootr,Lootr,
+lootr.advancements.1barrel.title,Barrel Booty,
+itemGroup.lootr.lootr,Lootr,
+text.autoconfig.lootr.title,Lootr,
+tag.block.lootr.chests,Lootr Chests,
+tag.block.lootr.shulkers,Lootr Shulkers,

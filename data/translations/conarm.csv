@@ -72,11 +72,8 @@ key.conarm.toggle_helm.desc,Helmet,ヘルメット
 key.conarm.toggle_leg.desc,Leggings,レギンス
 modifier.absorbent_armor.name,Absorbent,吸収性
 modifier.absorbent_armor.desc,§oMore absorbent than other brands.§r\nYour armor gets stronger in water and rain.,§o他ブランドよりも吸収性が高いです。§r\n水中や雨の中で装備が強化されます。
-modifier.alien_armor.name,modifier.alien.name,modifier.alien.name
-modifier.alien_armor.desc,modifier.alien.desc,modifier.alien.desc
 modifier.ambitious_armor.name,Ambitious,野心的
 modifier.ambitious_armor.desc,§oOn your way to glory!§r\nYou gain additional XP.,§o栄光への道！§r\\n追加XPを獲得します。
-modifier.aridiculous_armor.name,modifier.aridiculous.name,modifier.aridiculous.name
 modifier.aridiculous_armor.desc,§oTurn up the heat!§r\nThe armor works better in hotter environments.,§o熱を上げろ！§r\\n鎧は高温環境でより効果的に機能します。
 modifier.aquaspeed_armor.name,Aquaspeed,水速
 modifier.aquaspeed_armor.desc,§oIt's getting wet in here!§r\nThe armor is unhindered by water and loves rainy evenings.,§oここは濡れてきている！§r\\n装甲は水によって妨げられず、雨の夜を愛します。
@@ -100,7 +97,6 @@ modifier.dense_armor.name,modifier.dense.name,密度修飾子
 modifier.dense_armor.desc,§oHard...er.§r\nYour armor lasts longer when it has less durability.,§oHard...er.§r\n耐久値が少ないほど装甲は長持ちします。
 modifier.dramatic_armor.name,Dramatic,ドラマチック
 modifier.dramatic_armor.desc,§oWhat a rush!§r\nMight save you in a pinch? Who knows!,§o何というスリル！§r\\n状況に応じて助けになるかもしれません。誰にも分かりません！
-modifier.duritos_ranch_armor.name,modifier.duritos.name,modifier.duritos.name
 modifier.duritos_ranch_armor.desc,§oDoesn't taste as good as it sounds.§r\nYour armor lasts longer...most of the time.,§o味が聞こえるほど良くありません.§r\nあなたの防具は長持ちします…ほとんどの場合。
 modifier.ecological_armor.name,modifier.ecological.name,環境に優しい
 modifier.ecological_armor.desc,modifier.ecological.desc,エコロジカルな修飾子です。
@@ -167,8 +163,6 @@ modifier.dexterous_armor.name,Dexterous,器用
 modifier.dexterous_armor.desc,§oSleightest of hands.§r\nAttack speed increased.,§o最も軽やかな手技です.§r\\n攻撃速度が上昇します。
 modifier.emerald_armor.name,modifier.emerald.name,エメラルド
 modifier.emerald_armor.desc,modifier.emerald.desc,エメラルド修飾子の説明
-modifier.extratrait_armor.name,modifier.extratrait.name,modifier.extratrait.name
-modifier.extratrait_armor.desc,modifier.extratrait.desc,modifier.extratrait.desc
 modifier.fire_resistant_armor.name,Fire Resistant,火に強い
 modifier.fire_resistant_armor.desc,§oImmolation is bad.§r\nAdditional protection against fire.,§o炎傷は悪いものです。§r\\n火から追加保護を提供します。
 modifier.frostwalker_armor.name,Frosty,フロスティ
@@ -190,14 +184,12 @@ modifier.powerful_armor.name,Powerful,強力
 modifier.powerful_armor.desc,§oThis hand of mine is burning red...ish white!§r\nAttack damage increased.,§oこの手は赤く燃えている…白っぽい！§r\\n攻撃ダメージ増加。
 modifier.projectile_resistant_armor.name,Projectile Resistant,弾丸耐性
 modifier.projectile_resistant_armor.desc,"§oCome closer, you cowards!§r\nAdditional protection against projectile attacks.",§oもっと近づいてくれ、臆病者たち！§r\\n投射物攻撃に対する追加保護
-modifier.reinforced_armor.name,modifier.reinforced.name,modifier.reinforced.name
 modifier.reinforced_armor.desc,modifier.reinforced.desc,強化修飾子の説明
 modifier.reinforced_armor.extra,Reinforced: %s,強化済み: %s
 modifier.resistant_armor.name,Resistant,耐性がある
 modifier.resistant_armor.desc,"§oHarder, stronger!§r\nAdditional protection against all attacks.",§oより強く、硬い！§r\nすべての攻撃に対する追加保護。
 modifier.shulkerweight_armor.name,Shulkerweight,シュルカーワイイト
 modifier.shulkerweight_armor.desc,"§oLook, up in the sky!§r\nIncreases your jumping power.",§o見て、空を！§r\\nジャンプ力が上昇します。
-modifier.soulbound_armor.name,modifier.soulbound.name,modifier.soulbound.name
 modifier.soulbound_armor.desc,§oA merry couple!§r\nYou love your armor. Not even death can part you.,§o陽気なカップル！§r\nあなたは装備を愛しています。死さえも離せません。
 modifier.speedy_armor.name,Speedy,スピード
 modifier.speedy_armor.name2,Speedier,高速化
@@ -252,3 +244,13 @@ conarm.general.leveling.xpgaincap,XP Gain Cap,経験値獲得上限
 conarm.general.leveling.xpgaincap.tooltip,Maximum amount of XP that a single hit can give,1回のヒットで与えられる最大経験値
 conarm.general.leveling.damagetoxp,Damage to XP Multiplier,経験値倍率へのダメージ
 conarm.general.leveling.damagetoxp.tooltip,Multiplier to calculate xp from damage (e.g 0.25 means 25% of damage will be given as XP),ダメージから経験値を計算する乗数（例：0.25 はダメージの 25％ が XP として与えられる）。
+conarm.general.compactview.tooltip,Set to true to disable the armor preview panel in the Armor Station/Forge GUI,
+item.conarm.book.name,Materials and You - Armory Addendum,
+modifier.alien_armor.name,modifier.alien.name,
+modifier.alien_armor.desc,modifier.alien.desc,
+modifier.aridiculous_armor.name,modifier.aridiculous.name,
+modifier.duritos_ranch_armor.name,modifier.duritos.name,
+modifier.extratrait_armor.name,modifier.extratrait.name,
+modifier.extratrait_armor.desc,modifier.extratrait.desc,
+modifier.reinforced_armor.name,modifier.reinforced.name,
+modifier.soulbound_armor.name,modifier.soulbound.name,

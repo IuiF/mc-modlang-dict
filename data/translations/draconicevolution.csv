@@ -125,8 +125,8 @@ gui.draconicevolution.dislocator.add,Add New,新規追加
 gui.draconicevolution.dislocator.add.info,"Add current position
 - insert below selected","現在位置を追加
 - 選択した位置に挿入"
-gui.draconicevolution.dislocator.add_1,+1,+1
-gui.draconicevolution.dislocator.add_16,+16,+16
+gui.draconicevolution.dislocator.add_1,+1,
+gui.draconicevolution.dislocator.add_16,+16,
 gui.draconicevolution.dislocator.add_all,All,すべて
 gui.draconicevolution.dislocator.add_bottom.info,"Add current position
 - add to bottom of list","現在位置を追加
@@ -407,7 +407,7 @@ gui.draconicevolution.reactor.rs_mode_temp.info,Will output a signal from 0 to 1
 gui.draconicevolution.reactor.rs_mode_temp_inv,-Temp,-温度
 gui.draconicevolution.reactor.rs_mode_temp_inv.info,This is the same as Temperature except the signal is inverted.,温度と同じですが、信号が反転します。
 gui.draconicevolution.reactor.sas,SAS,半自動シャットダウン
-gui.draconicevolution.reactor.shutdown,Shutdown,シャットダウン
+gui.draconicevolution.reactor.shutdown,Shutdown,停止
 gui.draconicevolution.reactor.status,Status,状態
 gui.draconicevolution.reactor.title,Draconic Reactor,ドラコニックリアクター
 gui.draconicevolution.transfuser.balanced_charge,"Balanced Input Priority
@@ -684,7 +684,7 @@ modular_item.draconicevolution.error.only_one_use_override_module,There is alrea
 modular_item.draconicevolution.requires_energy,This item requires energy modules to function.,このアイテムはエネルギーモジュールを要求しています。
 modular_item.draconicevolution.requires_energy_press,Press %s to open module config.,%s を押してモジュール構成を開きます。
 module.draconicevolution.aoe.name,AOE,範囲
-module.draconicevolution.aoe.value,%sx%s,%sx%s
+module.draconicevolution.aoe.value,%sx%s,
 module.draconicevolution.auto_feed.name,Food Storage,食料庫
 module.draconicevolution.auto_feed.stored,Food Stored:,食料貯蓄:
 module.draconicevolution.auto_feed.stored.value,%s Hunger Points,%s 満腹度
@@ -698,12 +698,12 @@ module.draconicevolution.ender_storage.frequency,Frequency,周波数
 module.draconicevolution.ender_storage.how_to_clear,Shift right click module to clear,シフトキーを押しながらモジュールを右クリックで消去
 module.draconicevolution.ender_storage.owner,Owner,所有者
 module.draconicevolution.energy.capacity,Energy Capacity,エネルギー容量
-module.draconicevolution.energy.capacity.value,+%s OP,+%s OP
+module.draconicevolution.energy.capacity.value,+%s OP,
 module.draconicevolution.energy.stored_energy,Stored Energy,蓄えられたエネルギー
 module.draconicevolution.energy.transfer,Energy Transfer,エネルギーの転送
-module.draconicevolution.energy.transfer.value,+%s OP/t,+%s OP/t
+module.draconicevolution.energy.transfer.value,+%s OP/t,
 module.draconicevolution.energy_link.activation,Activation Energy,活性化エネルギー
-module.draconicevolution.energy_link.activation.value,%s OP,%s OP
+module.draconicevolution.energy_link.activation.value,%s OP,
 module.draconicevolution.energy_link.charging,Activating,アクティブ化
 module.draconicevolution.energy_link.core_not_active,Core must be active.,コアがアクティブである必要があります。
 module.draconicevolution.energy_link.dimensional,Inter-Dimensional,次元間
@@ -733,21 +733,21 @@ module.draconicevolution.flight.true.false,Elytra,エリトラ
 module.draconicevolution.flight.true.true,Creative & Elytra,クリエイティブ&エリトラ
 module.draconicevolution.grid_size,Module Size,モジュールサイズ
 module.draconicevolution.jump.name,Jump Boost,ジャンプブースト
-module.draconicevolution.jump.value,+%s%%,+%s%%
+module.draconicevolution.jump.value,+%s%%,
 module.draconicevolution.max_installable,Max Installable,最大搭載量
 module.draconicevolution.module_type,Module Type,モジュールタイプ
 module.draconicevolution.proj_accuracy.name,Inaccuracy,不正確
-module.draconicevolution.proj_accuracy.value,%s%%,%s%%
+module.draconicevolution.proj_accuracy.value,%s%%,
 module.draconicevolution.proj_damage.name,Base Damage,基本ダメージ
-module.draconicevolution.proj_damage.value,%s%%,%s%%
+module.draconicevolution.proj_damage.value,%s%%,
 module.draconicevolution.proj_grav_comp.name,Gravity Cancellation,重力耐性
-module.draconicevolution.proj_grav_comp.value,%s%%,%s%%
+module.draconicevolution.proj_grav_comp.value,%s%%,
 module.draconicevolution.proj_penetration.info,Increases the chance a projectile will pass through a target and potentially hit additional targets.,発射物がターゲットを貫通し、追加のターゲットに命中する可能性が高くなります。
 module.draconicevolution.proj_penetration.info2,Decreases by 25%% for every subsequent target.,後続のターゲットごとに25%%減少します
 module.draconicevolution.proj_penetration.name,Penetration Chance,貫通率
-module.draconicevolution.proj_penetration.value,%s%%,%s%%
+module.draconicevolution.proj_penetration.value,%s%%,
 module.draconicevolution.proj_velocity.name,Velocity,速度
-module.draconicevolution.proj_velocity.value,%s%% (~%s m/s),%s%% (~%s m/s)
+module.draconicevolution.proj_velocity.value,%s%% (~%s m/s),
 module.draconicevolution.shield_capacity.name,Shield Capacity,シールド容量
 module.draconicevolution.shield_capacity.value,%s points,%s ポイント
 module.draconicevolution.shield_control.name,Shield Cooldown,シールドクールダウン
@@ -759,7 +759,7 @@ module.draconicevolution.shield_recharge.value,"%s pps (%s seconds)
 @ %s OP/t","%s pps (%s 秒)
 @ %s OP/t"
 module.draconicevolution.speed.name,Speed,速度
-module.draconicevolution.speed.value,+%s%%,+%s%%
+module.draconicevolution.speed.value,+%s%%,
 module.draconicevolution.tree_harvest.area,Area: Hold right click in centre of target area.,エリア:ターゲットエリアの中央で右クリックを押し続けます。
 module.draconicevolution.tree_harvest.single,Single: Hold right click on tree.,シングル:樹を右クリックし続けます。
 module.draconicevolution.tree_harvest_range.name,Tree Harvest Range,木こり範囲
@@ -769,7 +769,7 @@ module.draconicevolution.tree_harvest_speed.value,%s Blocks/s,%sブロック/s
 module.draconicevolution.undying.charge.name,Charge Time,チャージ時間
 module.draconicevolution.undying.charge.value,%s Seconds,%s 秒
 module.draconicevolution.undying.energy.name,Charge Energy,チャージエネルギー
-module.draconicevolution.undying.energy.value,%sOP @%s OP/t,%sOP @%s OP/t
+module.draconicevolution.undying.energy.value,%sOP @%s OP/t,
 module.draconicevolution.undying.health.name,Health Boost,体力回復
 module.draconicevolution.undying.health.value,%s Health points,%s 体力
 module.draconicevolution.undying.invuln.active,Invulnerable for %s Seconds,%s 秒間無敵
@@ -1204,7 +1204,7 @@ info.de.toolInventoryOblit.txt,Junk filter & Enchants,ジャンクフィルタ�
 info.de.toolInventoryEnch.txt,Enchants,エンチャント
 info.de.hudDisplayConfigTxt1.txt,#### HUD Display ####,#### HUD 表示 ####
 info.de.hudDisplayConfigTxt2.txt,Click and drag to move,クリックしてドラッグで移動
-info.de.hudDisplayConfigTxt3.txt,###################,###################
+info.de.hudDisplayConfigTxt3.txt,###################,
 info.de.hudDisplayConfigInfo1.txt,Click and drag HUD,HUDをクリック＆ドラッグ
 info.de.hudDisplayConfigInfo2.txt,to change location,場所を変更
 info.de.manual.introTxt.txt,Everything you need to know. All in one place.,必要な情報はすべてここにあります。
@@ -1369,8 +1369,8 @@ button.de.chestAutoFeed1.txt,FILL.Keep the current stacks full,満杯.現在の�
 button.de.chestAutoFeed2.txt,LOCK.Only pull the currently smelting items from the inventory,ロック.現在製錬中のアイテムのみをインベントリから取得
 button.de.chestAutoFeed3.txt,ALL.Pull any smeltable items from the inventory,すべて.インベントリから製錬可能なアイテムをすべて取得
 button.de.chestLockOutput.txt,Lock Output.Blocks items being inserted into the last 5 slots,出力ロック.最後の5スロットへのアイテム挿入をブロック
-button.de.previous.txt,<==,<==
-button.de.next.txt,==>,==>
+button.de.previous.txt,<==,
+button.de.next.txt,==>,
 button.de.backToIndex.txt,Back to Index,インデックスに戻る
 button.de.back.txt,Back,戻る
 button.de.goToIndex.txt,Index Page,インデックスページ
@@ -1429,7 +1429,7 @@ gui.de.itemInventory.txt,Item Inventory,アイテムインベントリ
 gui.de.configureGuiElements.txt,Configure HUD Elements,HUD要素を設定
 gui.de.hudDisplaySettings.txt,HUD Display Settings,HUD表示設定
 gui.de.shieldDisplaySettings.txt,Shield Display Settings,シールド表示設定
-gui.de.clickAndDragPurpleBoxes.txt,Click and drag the purple boxes to move the displays,紫色のボックスをクリックしてドラッグし、表示を移動してください
+gui.de.clickAndDragPurpleBoxes.txt,Click and drag the purple boxes to move the displays,紫のボックスをクリックしてドラッグし、表示を移動してください
 gui.de.profile.txt,Profile,プロファイル
 gui.de.maxDamage.txt,Max Damage,最大ダメージ
 gui.de.rfPerShot.txt,RF/Shot,RF/ショット
@@ -1490,7 +1490,7 @@ upgrade.de.shieldCap.name,Shield Capacity,シールド容量
 upgrade.de.shieldRec.name,Shield Recovery,シールド回復
 upgrade.de.moveSpeed.name,Movement Speed,移動速度
 upgrade.de.jumpBoost.name,Jump Boost,ジャンプブースト
-upgrade.level.0,-,-
+upgrade.level.0,-,
 upgrade.level.1,Basic,ベーシック
 upgrade.level.2,Wyvern,ワイバーン
 upgrade.level.3,Draconic,ドラコニック
@@ -1599,14 +1599,14 @@ info.bc.holdShiftForDetails.txt,Hold %sShift%s for Details,詳細を表示する
 info.bc.hold.txt,Hold,保持
 info.bc.shift.txt,Shift,シフト
 info.bc.forDetails.txt,for Details,キーを押すと詳細を表示します。
-info.bc.ctrl.txt,CTRL,CTRL
+info.bc.ctrl.txt,CTRL,
 chat.toolConfig.thatItemNotConfigurable.msg,That item is not configurable.,そのアイテムは設定できません。
 chat.dissEnchanter.notEnoughLevels.msg,You require %s levels to extract that enchantment!,そのエンチャントを抽出するには%sレベルが必要です!
 chat.item_dislocator_activate.msg,Item Dislocator Activated,アイテムディスロケーターがアクティブになりました
 chat.item_dislocator_deactivate.msg,Item Dislocator Deactivated,アイテムディスロケーターが非アクティブになりました
 chat.shields_activated.msg,Draconic Shields Activated,ドラコニックシールド起動
 chat.shields_deactivated.msg,Draconic Shields Deactivated,ドラコニックシールド停止
-gui.de.toolConfig.hud.txt,HUD,HUD
+gui.de.toolConfig.hud.txt,HUD,
 gui.de.toolConfig.hudDesc.txt,Open HUD Configuration GUI,HUD設定ウィンドウを開く
 button.de.open,Open,開く
 gui.de.celMod.weather,Weather,天候
@@ -1723,7 +1723,7 @@ gui.reactor.fuelConversionRate.info,Fuel Conversion Rate,燃料変換レート
 gui.reactor.status.info,Status,状態
 gui.reactor.charge.btn,Charge,チャージ
 gui.reactor.activate.btn,Activate,起動
-gui.reactor.shutdown.btn,Shutdown,シャットダウン
+gui.reactor.shutdown.btn,Shutdown,停止
 gui.reactor.rsMode.btn,Redstone\nMode,レッドストーン\nモード
 gui.reactor.failSafe.btn,Fail-Safe,安全装置
 gui.reactor.rsMode_temp.btn,Temp,一時
@@ -1928,7 +1928,7 @@ info.de.charge.txt,Charge,チャージ
 info.de.hold.txt,Hold,保持
 info.de.shift.txt,Shift,シフト
 info.de.forDetails.txt,for Details,キーを押すと詳細を表示します。
-info.de.ctrl.txt,CTRL,CTRL
+info.de.ctrl.txt,CTRL,
 info.de.forUpgrades.txt,for Stats,統計用
 info.de.useUpgradeModifier.txt,Use an Upgrade Modifier to boost these stats!,アップグレード修飾子を使用してこれらのステータスを強化してください
 item.draconicevolution:wyvernPickaxe.lore,"2Mundane picks are so weak\nthrough Draconium, you increase the area and speed to mine.",2普通のピックはとても弱いです。\nドラコニウムを通じて、採掘範囲と速度が向上します。
@@ -1971,3 +1971,6 @@ gui.de.noCoresInInventory0.txt,You have no Draconic Cores in your inventory,イ�
 gui.de.noCoresInInventory1.txt,You have no Wyvern Cores in your inventory,インベントリにワイバーンコアがありません
 gui.de.noCoresInInventory2.txt,You have no Awakened Cores in your inventory,インベントリに目覚めたコアがありません
 gui.de.noCoresInInventory3.txt,You have no Chaotic Cores in your inventory,インベントリにカオスコアがありません
+gui.draconicevolution.reactor.sas.info,Semi-Automated Shutdown. When enabled the reactor will automatically initiate shutdown when the Temperature drops bellow 2500C and Saturation reaches 99%% This can be used to automatically shutdown your reactor in the event of a malfunction or just when it needs to be refueled.,
+tile.draconicevolution:draconium_chest.name,Draconium Chest,
+modwiki.style.preset.intellij,Intellij,

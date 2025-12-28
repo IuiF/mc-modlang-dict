@@ -92,7 +92,7 @@ text.autoconfig.randompatches.option.misc.bugFixes.fixDuplicateEntityUUIDs,Fix d
 text.autoconfig.randompatches.option.misc.bugFixes.fixDuplicateEntityUUIDs.@Tooltip,Fixes duplicate entity UUIDs by assigning new UUIDs to the affected entities.,重複するエンティティ UUID を修正し、影響を受けたエンティティに新しい UUID を割り当てます
 text.autoconfig.randompatches.option.misc.bugFixes.fixEntitiesNotBeingConsideredWetInCauldrons,Fix entities not being considered wet in cauldrons,カタラクトでエンティティが濡れていない問題を修正しました
 text.autoconfig.randompatches.option.misc.bugFixes.fixEntitiesNotBeingConsideredWetInCauldrons.@Tooltip,Fixes entities not being considered wet in cauldrons filled with water.,水で満たされたカトラーニャ内のエンティティが濡れていないとみなされる問題を修正します。
-text.autoconfig.randompatches.option.misc.bugFixes.fixMC149777,Fix MC-149777,Fix MC-149777
+text.autoconfig.randompatches.option.misc.bugFixes.fixMC149777,Fix MC-149777,
 text.autoconfig.randompatches.option.misc.bugFixes.fixMC149777.@Tooltip,"Fixes MC-149777, which can cause crashes when loading worlds on Java 11 or newer.",MC-149777 を修正します。Java 11以降でワールド読み込み時にクラッシュする可能性があります。
 text.autoconfig.randompatches.option.misc.bugFixes.fixMC2025,Fix MC-2025,MC-2025の修正
 text.autoconfig.randompatches.option.misc.bugFixes.fixMC2025.@Tooltip,Fixes MC-2025.,MC-2025の修正
@@ -142,7 +142,7 @@ randompatches.config.client.patchPotionGlint,Patch potion glint,パッチポー�
 randompatches.config.client.removePotionGlint,Remove potion glint,ポーションの光彩を除去
 randompatches.config.client.patchSmoothEyeLevelChanges,Patch smooth eye level changes,平滑な目安レベルの変化を補正
 randompatches.config.client.smoothEyeLevelChanges,Smooth eye level changes,滑らかな視線レベル変更
-randompatches.config.client.rpreloadclient,/rpreloadclient,/rpreloadclient
+randompatches.config.client.rpreloadclient,/rpreloadclient,
 randompatches.config.client.window,Window,窓
 randompatches.config.client.window.icon16,Window icon (16x16),ウィンドウアイコン (16x16)
 randompatches.config.client.window.icon32,Window icon (32x32),ウィンドウアイコン (32x32)
@@ -163,7 +163,7 @@ randompatches.config.misc.pistonGhostBlocksFix,Piston ghost blocks fix,ピスト
 randompatches.config.misc.portalBucketReplacementFix,Portal bucket replacement fix,ポータルバケツ置換修正
 randompatches.config.misc.portalBucketReplacementFixForNetherPortals,Portal bucket replacement fix for Nether portals,ネザーポータル用バケット置換修正
 randompatches.config.misc.recipeBookNBTFix,Recipe book NBT fix,レシピブック NBT 修正
-randompatches.config.misc.rpreload,/rpreload,/rpreload
+randompatches.config.misc.rpreload,/rpreload,
 randompatches.config.misc.skullStackingFix,Skull stacking fix,スカルスタッキング修正
 randompatches.config.misc.skullStackingRequiresSameTextures,Skull stacking requires same textures,スカルのスタックは同じテクスチャが必要です。
 randompatches.config.speedLimits,Speed Limits,速度制限
@@ -176,5 +176,6 @@ randompatches.config.timeouts.loginTimeout,Login timeout,ログインタイム�
 randompatches.config.timeouts.patchLoginTimeout,Patch login timeout,ログインタイムアウトのパッチ
 randompatches.config.timeouts.readTimeout,Read timeout,読み込みタイムアウト
 randompatches.config.timeouts.patchNetworkManager,Patch NetworkManager,ネットワークマネージャーをパッチ
-commands.rpreloadclient.usage,/rpreloadclient,/rpreloadclient
+commands.rpreloadclient.usage,/rpreloadclient,
 commands.rpreloadclient.success,RandomPatches client-sided configuration reloaded!,RandomPatches クライアント側設定が再読み込みされました！
+randompatches.config.misc.fixTickNextTickListOutOfSynch,"Attempt to fix ""TickNextTick list out of synch"" IllegalStateException",

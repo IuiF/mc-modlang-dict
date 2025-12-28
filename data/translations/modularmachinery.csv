@@ -1,7 +1,7 @@
 ﻿key,source_text,target_text
 itemGroup.modularmachinery,Modular Machinery,モジュラー機械
-command.modularmachinery.syntax,/mm-syntax,/mm-syntax
-command.modularmachinery.hand,/mm-hand,/mm-hand
+command.modularmachinery.syntax,/mm-syntax,
+command.modularmachinery.hand,/mm-hand,
 command.modularmachinery.hand.empty,Please hold an item to get the data from.,データを取得するにはアイテムを持ってください。
 gui.controller.blueprint,Blueprint Found: %s,設計図を発見: %s
 gui.controller.blueprint.none,None,なし
@@ -51,17 +51,16 @@ tooltip.machinery.chance.in.never,Doesn't get consumed.,消費されません。
 tooltip.machinery.chance.out.never,Is never produced.,決して生成されません。
 tooltip.machinery.energy.in,Required Energy:,必要なエネルギー:
 tooltip.machinery.energy.out,Produced Energy:,生成されたエネルギー:
-tooltip.energy.type.fe,FE,FE
-tooltip.energy.type.ic2_eu,EU,EU
-tooltip.energy.type.gt_eu,EU,EU
+tooltip.energy.type.fe,FE,
+tooltip.energy.type.ic2_eu,EU,
+tooltip.energy.type.gt_eu,EU,
 tooltip.constructtool.creative,Creative Structure-To-JSON Tool,クリエイティブ構造からJSONツール
 tooltip.itembus.slot,1 Slot,1スロット
 tooltip.itembus.slots,%s Slots,%s スロット
 tooltip.fluidhatch.empty,Empty,空
 tooltip.fluidhatch.fluid,[Fluid],[液体]
 tooltip.fluidhatch.gas,[Gas],[ガス]
-tooltip.fluidhatch.tank,%smb / %smb,%smb / %smb
-tooltip.fluidhatch.tank.gas,%s / %s,%s / %s
+tooltip.fluidhatch.tank.gas,%s / %s,
 tooltip.fluidhatch.tank.info,Can hold %s mb,最大 %s mb を保持できます
 tooltip.fluidhatch.tank.mek,Accepts Mekanism Gas,メカニズムガスを受け付けます
 tooltip.energyhatch.storage,Stores %s FE,合計: %s %s
@@ -73,19 +72,19 @@ tooltip.energyhatch.gregtech.voltage.in,Voltage IN: §a%s §7(§a%s§7),電圧�
 tooltip.energyhatch.gregtech.voltage.out,Voltage OUT: §a%s §7(§a%s§7),電圧出力: §a%s §7(§a%s§7)
 tooltip.energyhatch.gregtech.amperage,Amperage: §e%s,アンペア: §e%s
 tooltip.energyhatch.gregtech.storage,Internal Energy Capacity: §9%s,内部エネルギー容量: §9%s
-tooltip.ic2.powertier.0.name,ULV,ULV
-tooltip.ic2.powertier.1.name,LV,LV
-tooltip.ic2.powertier.2.name,MV,MV
-tooltip.ic2.powertier.3.name,HV,HV
-tooltip.ic2.powertier.4.name,EV,EV
-tooltip.ic2.powertier.5.name,IV,IV
-tooltip.ic2.powertier.6.name,LuV,LuV
-tooltip.ic2.powertier.7.name,ZPM,ZPM
-tooltip.ic2.powertier.8.name,UV,UV
-tooltip.ic2.powertier.9.name,UHV,UHV
-tooltip.ic2.powertier.10.name,UEV,UEV
-tooltip.ic2.powertier.11.name,UIV,UIV
-tooltip.ic2.powertier.12.name,UXV,UXV
+tooltip.ic2.powertier.0.name,ULV,
+tooltip.ic2.powertier.1.name,LV,
+tooltip.ic2.powertier.2.name,MV,
+tooltip.ic2.powertier.3.name,HV,
+tooltip.ic2.powertier.4.name,EV,
+tooltip.ic2.powertier.5.name,IV,
+tooltip.ic2.powertier.6.name,LuV,
+tooltip.ic2.powertier.7.name,ZPM,
+tooltip.ic2.powertier.8.name,UV,
+tooltip.ic2.powertier.9.name,UHV,
+tooltip.ic2.powertier.10.name,UEV,
+tooltip.ic2.powertier.11.name,UIV,
+tooltip.ic2.powertier.12.name,UXV,
 item.modularmachinery.itemblueprint.name,Machine Blueprint,マシン設計図
 item.modularmachinery.itemmodularium.name,Modularium,モジュラリウム
 item.modularmachinery.itemconstructtool.name,Construct Selection Tool,構築選択ツール
@@ -152,3 +151,4 @@ tooltip.energyhatch.ic2.out.voltage,Output Voltage: %s,出力電圧: %s
 tooltip.energyhatch.ic2.out.transfer,Output Transfer: %s %s,出力転送: %s %s
 tooltip.energyhatch.ic2.in.voltage,Input Voltage: %s,入力電圧: %s
 tooltip.energyhatch.ic2.in.transfer,Input Transfer: %s %s,入力転送: %s %s
+tooltip.fluidhatch.tank,%smb / %smb,

@@ -55,7 +55,7 @@ betterfoliage.blocks.logClassesWhitelist,Wood Log Whitelist,木材ログホワ�
 betterfoliage.blocks.logClassesBlacklist,Wood Log Blacklist,木材ブラックリスト
 betterfoliage.blocks.logClassesWhitelist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.logClassesBlacklist.arrayEntry,%d entries,%d項目
-betterfoliage.blocks.logModels,Wood Log Models,木の丸太モデル
+betterfoliage.blocks.logModels,Wood Log Models,木の原木モデル
 betterfoliage.blocks.logModels.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.logClassesWhitelist.tooltip,Blocks recognized as wooden logs. Has an impact on Rounded Logs,木材のログとして認識されるブロック。丸いログに影響します
 betterfoliage.blocks.logClassesBlacklist.tooltip,Blocks never accepted as wooden logs. Has an impact on Rounded Logs,木材のログとしてブロックは受け付けられません。丸いログに影響します
@@ -80,7 +80,7 @@ betterfoliage.blocks.cactusWhitelist.tooltip,Blocks recognized as Cactus. Has an
 betterfoliage.blocks.cactusBlacklist.tooltip,Blocks never accepted Cactus. Has an impact on Better Cactus,ブロックはカクタスを受け付けません。Better Cactusに影響があります。
 betterfoliage.blocks.myceliumWhitelist,Mycelium Whitelist,マイセリウムの白リスト
 betterfoliage.blocks.myceliumBlacklist,Mycelium Blacklist,マイセリウムの黒リスト
-betterfoliage.blocks.myceliumWhitelist.arrayEntry,%d entries,%d エントリー
+betterfoliage.blocks.myceliumWhitelist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.myceliumBlacklist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.myceliumWhitelist.tooltip,Blocks recognized as Mycelium. Has an impact on Better Grass,マイセリウムとして認識されるブロック。Better Grassに影響します
 betterfoliage.blocks.myceliumBlacklist.tooltip,Blocks never accepted Mycelium. Has an impact on Better Grass,ブロックはマイセリウムを受け付けません。Better Grassに影響します
@@ -214,3 +214,10 @@ betterfoliage.roundLogs.zProtection,Z-Protection,Z-保護
 betterfoliage.roundLogs.zProtection.tooltip,Amount to scale parallel log connection bits to stop Z-fighting (flickering). Try to set it as high as possible without having glitches.,Z-fighting（ちらつき）を防ぐために平行なログ接続ビットをスケーリングする量。不具合がない限りできるだけ高く設定してください。
 betterfoliage.roundLogs.defaultY,Default to vertical,縦方向に設定
 betterfoliage.roundLogs.defaultY.tooltip,"If true, log blocks where the orientation cannot be determined will be rendered as vertical. Otherwise, they will be rendered as cube blocks.",真の場合、方向を判定できないログブロックは垂直方向としてレンダリングされます。そうでない場合は、キューブブロックとしてレンダリングされます。
+betterfoliage.population.tooltip,Chance (N in 64) that an eligible block will have this feature,
+betterfoliage.blocks.dirtBlacklist.tooltip,"Blocks never accepted as Dirt. Has an impact on Reeds, Algae, Connected Grass",
+betterfoliage.blocks.leavesClassesWhitelist.tooltip,"Blocks recognized as Leaves. Has an impact on Extra Leaves, Falling Leaves. Leaves will render with leaves block ID in shader programs",
+betterfoliage.blocks.leavesClassesBlacklist.tooltip,"Blocks never accepted as Leaves. Has an impact on Extra Leaves, Falling Leaves. Leaves will render with leaves block ID in shader programs",
+betterfoliage.shaders.leavesId.tooltip,"Block ID reported to shader programs for all kinds of leaves. If your shader uses a §6block.properties§e file, you'll probably need to change this to match the shader's mappings.",
+betterfoliage.shaders.grassId.tooltip,"Block ID reported to shader programs for all grasses and crops. If your shader uses a §6block.properties§e file, you'll probably need to change this to match the shader's mappings.",
+betterfoliage.coral.chance.tooltip,Chance (N in 64) of a specific face of the block to show coral,

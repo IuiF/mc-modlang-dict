@@ -33,7 +33,7 @@ chat.cofh.command.pregen.start,Pre-generating %s chunks from %s:%s to %s:%s.,%s 
 chat.cofh.command.pregen.syntax,/cofh pregen {<user> <x chunk radius> <z chunk radius> | <x chunk start> <z chunk start> <x chunk end> <z chunk end>},/cofh pregen {<ユーザー名> <チャンク単位のx軸半径> <チャンク単位のz軸半径> | <チャンク単位のx開始座標> <チャンク単位のz開始座標> <チャンク単位のx終端座標> <チャンク単位のz終端座標>}
 chat.cofh.command.pregen,Pre-generates chunks in a specified area in the world.,指定された範囲のチャンクを事前生成します
 chat.cofh.command.reloadworldgen.success,Successfully reloaded World Generators.,ワールドジェネレーターを再読込しました
-chat.cofh.command.reloadworldgen.syntax,/cofh reloadworldgen,/cofh reloadworldgen
+chat.cofh.command.reloadworldgen.syntax,/cofh reloadworldgen,
 chat.cofh.command.reloadworldgen,Reloads world generation from disk.,ワールドジェネレーターをディスク上から再読込します
 chat.cofh.command.replaceblocks.failure,No blocks to replace.,置き換えるブロックがありません
 chat.cofh.command.replaceblocks.start,Replacing %s blocks from %s:%s:%s to %s:%s:%s with %s.,%s 個のブロックを %s:%s:%s から %s:%s:%s の範囲内で、 %s で置き換えます
@@ -58,10 +58,10 @@ chat.cofh.command.tpx.snark.1,Successfully teleported %s to themself!,%s は自�
 chat.cofh.command.tpx.syntax,/cofh tpx [player] {(<player> | <dimension>) | <x> <y> <z> [dimension]},/cofh tpx [プレイヤー名] {(<プレイヤー名> | <ディメンション>) | <x座標> <y座標> <z座標> [ディメンション]}
 chat.cofh.command.tpx,A improved version of the /tp command that works in between dimensions.,「/tp」コマンドの改良版ですディメンションを跨いでテレポート出来ます
 chat.cofh.command.unloadchunk.success,Unloading Chunk at %s:%s,%s:%s のチャンクをアンロードします
-chat.cofh.command.unloadchunk.syntax,/cofh unloadchunk,/cofh unloadchunk
+chat.cofh.command.unloadchunk.syntax,/cofh unloadchunk,
 chat.cofh.command.unloadchunk,Unloads the chunk the player is looking at.,見ているチャンクをアンロードします
 chat.cofh.command.version.0,This mod is on version,CoFH Coreのバージョンは次のとおりです:
-chat.cofh.command.version.syntax,/cofh version,/cofh version
+chat.cofh.command.version.syntax,/cofh version,
 chat.cofh.command.version,Gives you the version of this mod.,本Mod、CoFH Coreのバージョンを表示します
 chat.cofh.command.world.notFound,World does not exist.,ワールドがありません
 chat.cofh.secure.block.success,This block now belongs to you.,あなたはこのブロックの所有者になりました。
@@ -215,8 +215,6 @@ potion.effect.haste,Potion of Haste,早さのポーション
 potion.effect.resistance,Potion of Resistance,耐性のポーション
 potion.effect.unluck,Potion of Misfortune,不運のポーション
 potion.effect.wither,Potion of Decay,ポーションのDecay
-potion.potency.3,IV,IV
-potion.potency.4,V,V
 splash_potion.effect.absorption,Splash Potion of Absorption,衝撃吸収のスプラッシュポーション
 splash_potion.effect.haste,Splash Potion of Haste,スプラッシュ採掘速度上昇のポーション
 splash_potion.effect.resistance,Splash Potion of Resistance,耐性のスプラッシュポーション
@@ -300,13 +298,13 @@ info.cofh.command.syntax.syntax,/cofh syntax [command],/cofh syntax [コマン�
 info.cofh.command.killall.syntax,/cofh killall [partial name],/cofh killall [名前の一部]
 info.cofh.command.tps.syntax,/cofh tps [{o | a | <dim ID>}],/cofh tps [{o | a | <ディメンションID>}]
 info.cofh.command.tpx.syntax,/cofh tpx [player] {(<player> | <dimension>) | <x> <y> <z> [dimension]},/cofh tpx [プレイヤー名] {(<プレイヤー名> | <ディメンション>) | <x座標> <y座標> <z座標> [ディメンション]}
-info.cofh.command.version.syntax,/cofh version,/cofh version
+info.cofh.command.version.syntax,/cofh version,
 info.cofh.command.enchant.syntax,/cofh enchant [player] <enchantment ID> [level],/cofh enchant [プレイヤー名] <エンチャントID> [レベル]
 info.cofh.command.clearblocks.syntax,/cofh clearblocks {<user> <x radius> <y radius> <z radius> | <x start> <y start> <z start> <x end> <y end> <z end>} [block#meta] [block#meta] ...,/cofh clearblocks {<ユーザー名> <x軸半径> <y軸半径> <z軸半径> | <x開始座標> <y開始座標> <z開始座標> <x終端座標> <y終端座標> <z終端座標>} [ブロック名#メタデータ] [ブロック名#メタデータ] ...
 info.cofh.command.countblocks.syntax,/cofh countblocks {<user> <x radius> <y radius> <z radius> | <x start> <y start> <z start> <x end> <y end> <z end>} [block#meta] [block#meta] ...,/cofh countblocks {ユーザー名> <x軸半径> <y軸半径> <z軸半径> | <x開始座標> <y開始座標> <z開始座標> <x終端座標> <y終端座標> <z終端座標>} [ブロック名#メタデータ] [ブロック名#メタデータ] ...
 info.cofh.command.pregen.syntax,/cofh pregen {<user> <x chunk radius> <z chunk radius> | <x chunk start> <z chunk start> <x chunk end> <z chunk end>},/cofh pregen {<ユーザー名> <チャンク単位のx軸半径> <チャンク単位のz軸半径> | <チャンク単位のx開始座標> <チャンク単位のz開始座標> <チャンク単位のx終端座標> <チャンク単位のz終端座標>}
-info.cofh.command.reloadworldgen.syntax,/cofh reloadworldgen,/cofh reloadworldgen
-info.cofh.command.unloadchunk.syntax,/cofh unloadchunk,/cofh unloadchunk
+info.cofh.command.reloadworldgen.syntax,/cofh reloadworldgen,
+info.cofh.command.unloadchunk.syntax,/cofh unloadchunk,
 info.cofh.command.syntaxError,Invalid Syntax.,不正な構文です
 info.cofh.command.notFound,Unknown command. Try /cofh help for a list of commands,不明なコマンドです「/cofh help」でコマンドの一覧を表示できます
 info.cofh.command.world.notFound,World does not exist.,ワールドがありません
@@ -508,12 +506,12 @@ flavour.base.3,Press the attack!,攻撃を開始せよ！
 flavour.base.4a,I wonder if this thing,このものはどうだろうか
 flavour.base.4b,can do a barrel-roll...,バレルロールができる...
 flavour.turret.0,Poor man's sleeping aid.,貧乏人の睡眠補助具。
-flavour.turret.1,TRRRAA!! TRRAATRRAA!!,TRRRAA!! TRRAATRRAA!!
+flavour.turret.1,TRRRAA!! TRRAATRRAA!!,
 flavour.turret.2a,Another example is the inductive,その他の例は、弾薬インベントリ内の誘導レッドストーン粉です。
 flavour.turret.2b,form of the horse paradox.,馬の逆説の形態。
 flavour.turret.3,Red mist.,赤い霧。
 flavour.turret.4,"Go ahead, Newton doesn't care.",進め、ニュートンは気にしない
-flavour.turret.5,BFG.,BFG.
+flavour.turret.5,BFG.,
 flavour.turret.6,A PVC masterpiece.,PVCの傑作
 flavour.turret.7,Flaming Disjuncture.,炎の断絶
 flavour.turret.8,Point of reference.,参照点
@@ -592,3 +590,13 @@ death.attack.grenade,%s may need some assembly.,%s は組み立てが必要な�
 death.attack.rocket,%s found that rainbow connection in the form of a rocket.,%s がロケット形で虹色の接続を見つけました
 death.attack.laser,%s got disintegrated.,%s が解体されました。
 death.attack.ferroslug,%s found atomized minerva.,%s が原子化されたミネルヴァを発見しました。
+info.cofh.command.replaceblocks.syntax,/cofh replaceblocks {<user> <x radius> <y radius> <z radius> | <x start> <y start> <z start> <x end> <y end> <z end>} <replaceBlock#meta> [block#meta] [block#meta] ...,
+info.cofh.command.unloadchunk.success,Unloading Chunk at %s:%s,
+tile.baseTierOneBlock.name,Turret Base (Tier 2),
+tile.baseTierTwoBlock.name,Turret Base (Tier 3),
+tile.baseTierThreeBlock.name,Turret Base (Tier 4),
+tile.baseTierFourBlock.name,Turret Base (Tier 5),
+flavour.expander.power.3,"There, their and they're.",
+flavour.expander.inv.3,"Hair, heir and hare.",
+potion.potency.3,IV,
+potion.potency.4,V,

@@ -8,7 +8,6 @@ config.namepain.applyToPlayers.comment1,§4false§r: Keep original coloring on p
 config.namepain.applyToScores,Apply to Scoreboards,スコアボードに適用
 config.namepain.applyToScores.comment1,§4false§r: Keep original coloring on scoreboards.,§4false§r：スコアボードで元のカラーリングを保持します。
 config.namepain.colorA,§7Alpha,§7アルファ
-config.namepain.colorA.comment0,"§70 = transparent, §r255 = opaque","§70 = transparent, §r255 = opaque"
 config.namepain.colorB,§9Blue,§9青
 config.namepain.colorG,§aGreen,§aグリーン
 config.namepain.colorR,§cRed,§c赤
@@ -16,7 +15,6 @@ config.namepain.default,§b[default: %s],§b[デフォルト: %s]
 config.namepain.doAprilFools,April Fools' Names,4月の愚人節名前
 config.namepain.doAprilFools.comment0," §2true§r: \|/ |-| /-\ '|' ' $ | |\| /-\ |\| /-\ /\/\ [- ?",§2true§r: \\|/ |-| /-\\ '|' ' $ | |\\| /-\\ |\\| /-\\ /\\/\\ [- ?
 config.namepain.doValentines,Valentine Names,バレンタインデー名前
-config.namepain.doValentines.comment0," §2true§r: <3 <3 <3"," §2true§r: <3 <3 <3"
 config.namepain.doValentines.comment1,§4false§r: Forever alone.,§4false§r: 永遠の孤独。
 config.namepain.golemsAlwaysNamed,Golems Always Named,ゴーレムは常に名前をつける
 config.namepain.golemsAlwaysNamed.comment0," §2true§r: Always see nameplates of named golems."," §2true§r: 名前付きゴーレムの名前プレートを常に表示します。"
@@ -65,8 +63,12 @@ config.namepain.visibleRange,Visible Range,表示範囲
 config.namepain.visibleRange.comment0,Nameplates beyond this distance are culled. Hold,この距離を超えるネームプレートは除外されます。保持
 config.namepain.visibleRange.comment1,the Show Culled Names key to temporarily restore,「除外された名前を一時的に復元」キーを押してください
 config.namepain.visibleRange.comment2,full 64m range (see Controls).,全64m範囲（コントロール参照）
-config.namepain.visibleRange.comment3," "," "
+config.namepain.visibleRange.comment3," ",
 config.namepain.visibleRange.comment4,"If the screen is overwhelmed with names, for example",画面が名前で混雑している場合、例えば
 config.namepain.visibleRange.comment5,"near a large pack of tamed wolves, decreasing this",飼い慣らしたオオカミが大群で近くにいると、これを減少させます
-config.namepain.visibleRange.comment6,value may help.,value may help.
 key.namepain.showCulled,Show Culled Names,削除された名前を表示
+config.namepain.applyToScores.comment0," §2true§r: Apply Name Pain coloring to scoreboards.",
+config.namepain.doAprilFools.comment1,§4false§r: Letters.,
+config.namepain.colorA.comment0,"§70 = transparent, §r255 = opaque",
+config.namepain.doValentines.comment0," §2true§r: <3 <3 <3",
+config.namepain.visibleRange.comment6,value may help.,

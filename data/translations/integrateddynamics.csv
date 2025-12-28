@@ -183,7 +183,7 @@ aspect.integrateddynamics.read.boolean.world.weather.raining,Weather: Rain,天�
 aspect.integrateddynamics.read.boolean.world.weather.raining.info,If there it is raining in the world,ワールドで雨が降っているかどうか
 aspect.integrateddynamics.read.boolean.world.weather.thunder,Weather: Thunder,天気: 雷雨
 aspect.integrateddynamics.read.boolean.world.weather.thunder.info,If there is a thunderstorm in the world,ワールドが雷雨である場合
-aspect.integrateddynamics.read.double.extradimensional.tps,TPS,TPS
+aspect.integrateddynamics.read.double.extradimensional.tps,TPS,TPS（秒あたりティック数）
 aspect.integrateddynamics.read.double.extradimensional.tps.info,The average number of ticks per second over all worlds,全ワールドにおける1秒あたりのティック数の平均
 aspect.integrateddynamics.read.double.fe.fillratio,FE Fill Ratio,FE充填比率
 aspect.integrateddynamics.read.double.fe.fillratio.info,The amount of FE in the target divided by its capacity,対象内のFE量をその容量で割った値
@@ -199,7 +199,7 @@ aspect.integrateddynamics.read.double.temperature.mintemperature,Minimum Tempera
 aspect.integrateddynamics.read.double.temperature.mintemperature.info,The minimum temperature of the target in degrees Kelvin,ターゲットの最低温度（ケルビン）
 aspect.integrateddynamics.read.double.temperature.temperature,Temperature,温度
 aspect.integrateddynamics.read.double.temperature.temperature.info,The current temperature of the target in degrees Kelvin,ターゲットの現在の温度（ケルビン）
-aspect.integrateddynamics.read.double.world.tps,TPS,TPS
+aspect.integrateddynamics.read.double.world.tps,TPS,TPS（秒あたりティック数）
 aspect.integrateddynamics.read.double.world.tps.info,The number of ticks per second in this world,このワールドのティック/秒
 aspect.integrateddynamics.read.entity.entity,Entity,エンティティ
 aspect.integrateddynamics.read.entity.entity.info,The selected entity in the target space,ターゲットスペースで選択されたエンティティ
@@ -537,7 +537,7 @@ block.integrateddynamics.menril_fence_gate,Menril Fence Gate,メンリルのフ�
 block.integrateddynamics.menril_leaves,Menril Leaves,メンリルの葉
 block.integrateddynamics.menril_log,Menril Log,メンリルの原木
 block.integrateddynamics.menril_log_filled,Enriched Menril Log,濃縮されたメンリルの原木
-block.integrateddynamics.menril_log_stripped,Stripped Menril Log,樹皮を剥いだメンリルの原木
+block.integrateddynamics.menril_log_stripped,Stripped Menril Log,樹皮を剥いたメンリルの原木
 block.integrateddynamics.menril_planks,Menril Planks,メンリルの板材
 block.integrateddynamics.menril_planks_stairs,Menril Stairs,メンリルの階段
 block.integrateddynamics.menril_sapling,Menril Sapling,メンリルの苗木
@@ -545,7 +545,7 @@ block.integrateddynamics.menril_slab,Menril Slab,メンリルのハーフブロ�
 block.integrateddynamics.menril_torch,Menril Torch,メンリルの松明
 block.integrateddynamics.menril_torch_stone,Menril Stone Torch,メンリルストーンの松明
 block.integrateddynamics.menril_wood,Menril Wood,メンリルの木
-block.integrateddynamics.menril_wood_stripped,Stripped Menril Wood,樹皮を剥いだメンリルの木
+block.integrateddynamics.menril_wood_stripped,Stripped Menril Wood,樹皮を剥いたメンリルの木
 block.integrateddynamics.proxy,Proxy,プロキシ
 block.integrateddynamics.proxy.info,Expose a variable reference as an aspect. Clear in a crafting grid.,変数参照をアスペクトとして公開します。クラフトグリッドでクリアします
 block.integrateddynamics.squeezer,Squeezer,圧搾器
@@ -559,7 +559,7 @@ fluid.fluids.integrateddynamics.liquidchorus,Liquid Chorus,液体コーラス
 fluid.fluids.integrateddynamics.menrilresin,Menril Resin,メンリル樹脂
 general.integrateddynamics.description,Take full and automated control of your appliances.,装置を完全かつ自動的に制御します。
 general.integrateddynamics.energy,Energy,エネルギー
-general.integrateddynamics.energy_unit,RF,RF
+general.integrateddynamics.energy_unit,RF,RF（レッドストーン流束）
 general.integrateddynamics.error.no_network,No valid network found,有効なネットワークが見つかりません
 general.integrateddynamics.false,False,偽
 general.integrateddynamics.info.none,None,なし
@@ -605,7 +605,7 @@ gui.integrateddynamics.rewards.collected,Collected,受領済み
 info_book.integrateddynamics.introduction,Introduction,はじめに
 info_book.integrateddynamics.introduction.text2,"Redstone circuits have always been a very basic, but workable and easily understandable method for automation. The basicness of redstone is however also an inconvenience. For automation networks with higher complexities, redstone circuits can become very large and consequently also difficult to manage. Furthermore, one small water-leak can cause major headaches to every redstoner.",レッドストーン回路は、常に非常に基本的でありながら、実用的で理解しやすい自動化方法です。しかし、レッドストーンの基本は不便でもあります。より複雑な自動化ネットワークの場合、レッドストーン回路は非常に大きくなり、その結果、管理も困難になります。さらに、小さな水漏れが1つあるだけで、すべてのレッドストーン愛好家にとって大きな頭痛の種になります。
 info_book.integrateddynamics.introduction.text3,"The goal of this book is twofold. First, a &ltutorial&r is provided for learning the most important concepts behind this mod. Secondly, a detailed &lmanual&r of all elements and mechanisms are explained for players that are not not interested in the tutorial.",このマニュアルの目的は二つあります。まず、このmodの背後にある最も重要な概念を学ぶための&lチュートリアル&rが提供されています。次に、すべての要素とメカニズムの詳細な&l説明書&rが、チュートリアルに興味がないプレイヤーのために用意されています。
-info_book.integrateddynamics.introduction.text4,"You can navigate through this book by clicking on the arrows at the bottom, shift clicking will flip through whole sections instead of single pages. At the start of large sections you will see a content table which will contain hyperlinks to its subsections for faster browsing. When you come across recipes, the items that are explained in this book are clickable as a fast reference to the section they are explained in. You will also notice a button at the top left of this book, which will take you to the section above your current one. The button at the top right corner will go back to the previously visited page each time when clicked.",下部にある矢印をクリックすると、この本内を移動できます。シフトキーを押しながらクリックすると、ページ単位ではなくセクション全体をめくることができます。大きなセクションの先頭には、より速く参照できるようにサブセクションへのハイパーリンクを含むコンテンツ テーブルが表示されます。レシピに出会ったら、この本で説明されているアイテムをクリックして、説明されているセクションをすばやく参照できます。この本の左上には、現在のセクションの上のセクションに移動するためのボタンもあります。右上隅のボタンをクリックすると、以前にアクセスしたページに戻ります。
+info_book.integrateddynamics.introduction.text4,"You can navigate through this book by clicking on the arrows at the bottom, shift clicking will flip through whole sections instead of single pages. At the start of large sections you will see a content table which will contain hyperlinks to its subsections for faster browsing. When you come across recipes, the items that are explained in this book are clickable as a fast reference to the section they are explained in. You will also notice a button at the top left of this book, which will take you to the section above your current one. The button at the top right corner will go back to the previously visited page each time when clicked.",本の一番下の矢印をクリックすることでページをめくることができ、Shiftクリックすることで章ごとにページをめくることができる。 大きな章の最初には、より高速な閲覧をするために各項目へのハイパーリンクが含まれるコンテンツ一覧が表示される。 レシピに遭遇した時、本の中で説明されているアイテムであればクリックすることで素早い参照が可能だ。 またこの本の左上にボタンがあるのに気づくだろう。 これは１つ前の項目へと戻ることができる。 クリックされるたびにひとつ前に訪れたページへ戻ることができる。
 info_book.integrateddynamics.manual,Manual,手動
 info_book.integrateddynamics.manual.introduction,Introduction,はじめに
 info_book.integrateddynamics.manual.introduction.text1,This part of the book contains detail descriptions of all parts of the mod.,このマニュアルの部分には、modのすべての部分の詳細な説明が含まれています。
@@ -623,7 +623,7 @@ info_book.integrateddynamics.manual.logic.advanced.nbt_path.text8,"Multiple list
 info_book.integrateddynamics.manual.logic.advanced.nbt_path.text9,"For example, applying the expression &4”.a[1:4:2]”&0 on the &3NBT&0 tag &3{ a: [0,1,2,3,4,5] }&0 will output &3[1,3]&0.","たとえば、式&4"".a[1:4:2]""&0を&3NBT&0タグ&3{ a: [0,1,2,3,4,5] }&0に適用すると、&3[1,3]&0が出力されます。"
 info_book.integrateddynamics.manual.logic.value_types,Value Types,値の種類
 info_book.integrateddynamics.manual.logic.value_types.block,Block,ブロック
-info_book.integrateddynamics.manual.logic.value_types.block.text1,"A reference to a &lMinecraft&r block. For example &8Dirt&0, &8Cobblestone&0, &8Red Stained Clay&0, &8Chest&0, ....",&lマインクラフト&rのブロックへの参照で、たとえば、&8土&0、&8丸石&0、&8赤色のテラコッタ&0、&8チェスト&0など
+info_book.integrateddynamics.manual.logic.value_types.block.text1,"A reference to a &lMinecraft&r block. For example &8Dirt&0, &8Cobblestone&0, &8Red Stained Clay&0, &8Chest&0, ....",&lマインクラフト&rのブロックへの参照で、たとえば、&8土&0、&8丸石&0、&8赤いテラコッタ&0、&8チェスト&0など
 info_book.integrateddynamics.manual.logic.value_types.boolean,Boolean,ブール
 info_book.integrateddynamics.manual.logic.value_types.boolean.text1,"The simplest value type, its values can be either &9True&0 or &9False&0.",最も単純な値型で、その値は&9True&0または&9False&0のいずれかになります。
 info_book.integrateddynamics.manual.logic.value_types.double,Double,ダブル
@@ -645,7 +645,7 @@ info_book.integrateddynamics.manual.logic.value_types.list,List,リスト
 info_book.integrateddynamics.manual.logic.value_types.long,Long,ロング
 info_book.integrateddynamics.manual.logic.value_types.long.text1,"The same as &6Integers&0, but with a larger value range, which goes from &e-9223372036854775808&0 to &e9223372036854775807&0",&6整数&0 と同じですが、値の範囲が広く、&e-9223372036854775808&0から&e9223372036854775807&0までになります。
 info_book.integrateddynamics.manual.logic.value_types.long.text2,This value type is part of the &lNumber&r category.,この値型は、&l数値&rカテゴリの一部です。
-info_book.integrateddynamics.manual.logic.value_types.nbt,NBT,NBT
+info_book.integrateddynamics.manual.logic.value_types.nbt,NBT,NBT（名前付きバイナリタグ）
 info_book.integrateddynamics.manual.logic.value_types.nbt.text1,"Certain things in &lMinecraft&r internally use the &3NBT&0 datastructure. An &3NBT&0 tag is a special kind of object that can hold multiple values of different types. For example the NBT representation of a &8Chest&0 containing all its items, the enchantment information of an &8Pickaxe&0, ...",&lマインクラフト&r内の特定のものは、内部的に&3NBT&0データ構造を使用します。&3NBT&0タグは異なるタイプの複数の値を保持できる特殊な種類のオブジェクトです。たとえば、すべてのアイテムを含む&8チェスト&0のNBT表現、&8ツルハシ&0のエンチャント情報などです。
 info_book.integrateddynamics.manual.logic.value_types.nbt.text2,"Variables can hold references to such &3NBT&0 tags, and corresponding operators exist to read or extend these tags.",変数はこのような&3NBT&0タグへの参照を保持することができ、これらのタグを読み取ったり拡張したりするための対応する演算子が存在します。
 info_book.integrateddynamics.manual.logic.value_types.nbt.text3,"&3NBT&0 tags are typically used in this mod as a low-level fallback mechanism, in case you can not read certain information using dedicated operators.",&3NBT&0タグは通常、専用の演算子を使用して特定の情報を読み取ることができない場合に備えて、このModで低レベルのフォールバックメカニズムとして使用されます。
@@ -789,7 +789,7 @@ info_book.integrateddynamics.tutorials.menrilBasics,Menril Basics,メンリル�
 info_book.integrateddynamics.tutorials.menrilBasics.text1,"To get started with this mod, you will need to find some &lMenril Trees&r which can most easily be found in &lMeneglin Biomes&r.",このModを使い始めるには、&lメネグリンバイオーム&rで最も簡単に見つかる&lメンリルの木&rをいくつか見つける必要があります。
 info_book.integrateddynamics.tutorials.menrilBasics.text3,"If you want to repeat the process, you can reset the &lSqueezer&r by applying a redstone pulse.",この処理を繰り返す場合は、レッドストーン信号を適用して&l圧搾器&rをリセットできます。
 info_book.integrateddynamics.tutorials.menrilBasics.text4,"In the future, you will also be able to craft upgraded variants of these machines that are more easily automatable, but are more costly: the &lMechanical Squeezer&r and the &lMechanical Drying Basin&r.",将来的には、これらのマシンのアップグレード版(自動化が容易だがコストが高いもの)も作成できるようになります。&l機械式圧搾器&rと&l機械式乾燥槽&r です。
-info_book.integrateddynamics.tutorials.nbt,NBT,NBT
+info_book.integrateddynamics.tutorials.nbt,NBT,NBT（名前付きバイナリタグ）
 info_book.integrateddynamics.tutorials.nbt.text1,"&4NBT&0 tags are used to represent complex datastructures. These are typically used internally in Minecraft to store machine and entity information. In this tutorial, we will go over simple NBT tag reading and manipulation",&4NBT&0タグは複雑なデータ構造を表すために使用されます。これらは通常、マインクラフトの内部でマシンやエンティティの情報を格納するために使用されます。このチュートリアルでは、簡単なNBTタグの読み取りと操作について説明します。
 info_book.integrateddynamics.tutorials.nbt.text2,"As a first step, use a &lBlock Reader&r on a lectern, read its &4NBT&0 data, and visualize it in a &lDisplay Panel&r.",最初のステップとして、書見台で&lブロックリーダー&rを使用して、その&4NBT&0データを読み取り、&l表示パネル&rで視覚化します。
 info_book.integrateddynamics.tutorials.nbt.text3,"Next, from the read &lLectern&r &4NBT&0 tag, read the &3Book&0 sub-tag as a compound tag, and visualize it.",次に、読み取った&l書見台&rの&4NBT&0タグから、&3本&0のサブタグを複合タグとして読み取り、可視化します。
@@ -811,7 +811,7 @@ item.integrateddynamics.bucket_liquid_chorus,Liquid Chorus Bucket,液体コー�
 item.integrateddynamics.bucket_menril_resin,Menril Resin Bucket,メンリル樹脂バケツ
 item.integrateddynamics.facade,Facade,ファサード
 item.integrateddynamics.facade.info,Combine with a block in crafting table,クラフトテーブルでブロックと組み合わせ
-item.integrateddynamics.general.id,§e§lID: §r%s,§e§lID: §r%s
+item.integrateddynamics.general.id,§e§lID: §r%s,
 item.integrateddynamics.labeller,Labeller,ラベラー
 item.integrateddynamics.labeller.button.write,Write,書き込み
 item.integrateddynamics.labeller.info,Labels your variables. Also works in the Logic Programmer.,変数にラベルを付けます。Logic Programmerでも動作します
@@ -1198,7 +1198,7 @@ operator.integrateddynamics.logical.nand,Nand,ナンド
 operator.integrateddynamics.logical.nor,Nor,もしくは
 operator.integrateddynamics.logical.not,Not,ではない
 operator.integrateddynamics.logical.or,Or,または
-operator.integrateddynamics.nbt,NBT,NBT
+operator.integrateddynamics.nbt,NBT,NBT（名前付きバイナリタグ）
 operator.integrateddynamics.nbt.as_boolean,NBT Boolean As Boolean,NBTブール → ブール
 operator.integrateddynamics.nbt.as_boolean.info,Get the Boolean value of the given NBT Byte tag,取得 真偽値値of与えられたNBTバイトタグ
 operator.integrateddynamics.nbt.as_byte,NBT Byte As Integer,NBTバイト → 整数
@@ -1223,7 +1223,7 @@ operator.integrateddynamics.nbt.as_string,NBT String As String,NBT文字列 → 
 operator.integrateddynamics.nbt.as_string.info,Get the String value of the given NBT String tag,取得 文字列値of与えられたNBT 文字列 タグ
 operator.integrateddynamics.nbt.as_tag_list,NBT List As NBT List,NBTリスト → NBTリスト
 operator.integrateddynamics.nbt.as_tag_list.info,Get the NBT List value of the given NBT List tag,取得 NBTリスト値of与えられたNBTリストタグ
-operator.integrateddynamics.nbt.basename,NBT %s,NBT %s
+operator.integrateddynamics.nbt.basename,NBT %s,
 operator.integrateddynamics.nbt.compound_haskey,NBT Compound Has Key,NBTコンパウンドがキーを持つ
 operator.integrateddynamics.nbt.compound_haskey.info,If the given NBT compound tag contains the given key,If与えられたNBTコンパウンドタグ contains与えられたkey
 operator.integrateddynamics.nbt.compound_intersection,NBT Compound Intersection,NBTコンパウンド交差
@@ -1516,7 +1516,7 @@ valuetype.integrateddynamics.list,List,リスト
 valuetype.integrateddynamics.long,Long,ロング
 valuetype.integrateddynamics.named,Named,名前
 valuetype.integrateddynamics.named.info,"Something that has a name, such as display names of items and blocks.",アイテムやブロックの表示名など、名前があるもの。
-valuetype.integrateddynamics.nbt,NBT,NBT
+valuetype.integrateddynamics.nbt,NBT,NBT（名前付きバイナリタグ）
 valuetype.integrateddynamics.number,Number,数値
 valuetype.integrateddynamics.number.info,Accepts all number types.,全ての数値型を受け入れます。
 valuetype.integrateddynamics.operator,Operator,演算子
@@ -1930,7 +1930,7 @@ config.jade.plugin_integrateddynamicscompat.part,Part,パーツ
 config.jade.plugin_integrateddynamicscompat.proxy,Proxy,プロキシ
 config.jade.plugin_integrateddynamicscompat.squeezer,Squeezer,圧搾器
 gui.integrateddynamics.jei.category.time.seconds,%ss,%s秒
-general.integrateddynamics.energy_unit.name,RF,RF
+general.integrateddynamics.energy_unit.name,RF,RF（レッドストーン流束）
 tile.blocks.integrateddynamics.cable.name,Logic Cable,ロジックケーブル
 tile.blocks.integrateddynamics.variablestore.name,Variable Store,変数ストア
 tile.blocks.integrateddynamics.energy_battery.name,Energy Battery,エネルギーバッテリー
@@ -1974,7 +1974,7 @@ tile.blocks.integrateddynamics.mechanical_squeezer.name,Mechanical Squeezer,機�
 tile.blocks.integrateddynamics.mechanical_squeezer.info,"Squeezes, flattens and crushes using energy.",エネルギーを使用して圧迫して平らにして押し潰します。
 tile.blocks.integrateddynamics.mechanical_drying_basin.name,Mechanical Drying Basin,機械式乾燥槽
 tile.blocks.integrateddynamics.mechanical_drying_basin.info,For drying items and fluids using energy.,エネルギーを使用してアイテムと液体を乾燥させる
-item.items.integrateddynamics.general.id,§e§lID: §r%s,§e§lID: §r%s
+item.items.integrateddynamics.general.id,§e§lID: §r%s,
 item.items.integrateddynamics.wrench.name,Wrench,レンチ
 item.items.integrateddynamics.variable.name,Variable Card,変数カード
 item.items.integrateddynamics.variable.info,Clear or copy in a crafting grid,クラフティンググリッドを消去またはコピー
@@ -2009,7 +2009,7 @@ valuetype.valuetypes.integrateddynamics.double.name,Double,ダブル
 valuetype.valuetypes.integrateddynamics.long.name,Long,ロング
 valuetype.valuetypes.integrateddynamics.string.name,String,文字列
 valuetype.valuetypes.integrateddynamics.operator.name,Operator,演算子
-valuetype.valuetypes.integrateddynamics.nbt.name,NBT,NBT
+valuetype.valuetypes.integrateddynamics.nbt.name,NBT,NBT（名前付きバイナリタグ）
 valuetype.valuetypes.integrateddynamics.list.name,List,リスト
 valuetype.valuetypes.integrateddynamics.block.name,Block,ブロック
 valuetype.valuetypes.integrateddynamics.itemstack.name,Item,アイテム
@@ -2200,7 +2200,7 @@ aspect.aspects.integrateddynamics.read.integer.extradimensional.playercount.name
 aspect.aspects.integrateddynamics.read.integer.extradimensional.playercount.info,The amount of players in the server,サーバー内のプレイヤーの数
 aspect.aspects.integrateddynamics.read.integer.extradimensional.ticktime.name,Tick time,ティック時間
 aspect.aspects.integrateddynamics.read.integer.extradimensional.ticktime.info,The average tick time in nanoseconds for the server,サーバーの平均ティック時間(ナノ秒)
-aspect.aspects.integrateddynamics.read.double.extradimensional.tps.name,TPS,TPS
+aspect.aspects.integrateddynamics.read.double.extradimensional.tps.name,TPS,TPS（秒あたりティック数）
 aspect.aspects.integrateddynamics.read.double.extradimensional.tps.info,The average number of ticks per second over all worlds,全ワールドにおける1秒あたりのティック数の平均
 aspect.aspects.integrateddynamics.read.list.extradimensional.players.name,Players,プレイヤー
 aspect.aspects.integrateddynamics.read.list.extradimensional.players.info,The players that are online on this server,このサーバーでオンラインになっているプレイヤー
@@ -2376,7 +2376,7 @@ aspect.aspects.integrateddynamics.read.integer.world.lightlevel.name,Light Level
 aspect.aspects.integrateddynamics.read.integer.world.lightlevel.info,The light level at the target,対象の明るさレベル
 aspect.aspects.integrateddynamics.read.integer.world.players.name,Player Count,プレイヤー数
 aspect.aspects.integrateddynamics.read.integer.world.players.info,The players that are online in this world,このワールドでオンラインになっているプレイヤー
-aspect.aspects.integrateddynamics.read.double.world.tps.name,TPS,TPS
+aspect.aspects.integrateddynamics.read.double.world.tps.name,TPS,TPS（秒あたりティック数）
 aspect.aspects.integrateddynamics.read.double.world.tps.info,The number of ticks per second in this world,このワールドのティック/秒
 aspect.aspects.integrateddynamics.read.long.world.time.name,Time,時間
 aspect.aspects.integrateddynamics.read.long.world.time.info,The world time dependent of the set time command,時刻設定コマンドに依存するワールドの時間
@@ -2742,8 +2742,8 @@ operator.operators.integrateddynamics.fluidstack.mod.name,Mod,モジュール
 operator.operators.integrateddynamics.fluidstack.mod.info,The name of the mod owning the given fluid,名前のmod owning与えられた液体
 operator.operators.integrateddynamics.fluidstack.nbt.name,Fluid NBT,流体NBT
 operator.operators.integrateddynamics.fluidstack.nbt.info,Get the NBT tag of the given fluid.,指定された液体のNBTタグを取得します
-operator.operators.integrateddynamics.nbt.name,NBT,NBT
-operator.operators.integrateddynamics.nbt.basename,NBT %s,NBT %s
+operator.operators.integrateddynamics.nbt.name,NBT,NBT（名前付きバイナリタグ）
+operator.operators.integrateddynamics.nbt.basename,NBT %s,
 operator.operators.integrateddynamics.nbt.size.name,NBT Size,NBT サイズ
 operator.operators.integrateddynamics.nbt.size.info,The number of entries inside the given NBT tag,指定されたNBTタグ内のエントリ数
 operator.operators.integrateddynamics.nbt.keys.name,NBT Keys,NBT キー
@@ -2823,7 +2823,7 @@ operator.operators.integrateddynamics.operator.disjunction.info,Takes the disjun
 operator.operators.integrateddynamics.operator.negation.name,Negation,否定
 operator.operators.integrateddynamics.operator.negation.info,Takes the negation of a predicate.,述語の否定をとります。
 operator.operators.integrateddynamics.operator.pipe.name,Pipe,パイプ
-operator.operators.integrateddynamics.operator.pipe.info,Create a new operator that pipes the output from the first operator to the second operator.,最初のオペレーターから出力を第二のオペレーターへパイプする新しいオペレーターを作成します。
+operator.operators.integrateddynamics.operator.pipe.info,Create a new operator that pipes the output from the first operator to the second operator.,最初の演算子の出力を2番目の演算子に渡す新しい演算子を作成
 operator.operators.integrateddynamics.operator.pipe2.name,Pipe 2,パイプ2
 operator.operators.integrateddynamics.virtual.piped2.name,Piped 2,2をパイプ化
 operator.operators.integrateddynamics.operator.flip.name,Flip,オペレーター入力の反転
@@ -2950,12 +2950,12 @@ config.integrateddynamics.energyBattery.capacity,Battery Capacity,バッテリ�
 config.integrateddynamics.energyBattery.energyPerTick,Energy per Tick,1ターンあたりのエネルギー
 config.integrateddynamics.general.defaultPartUpdateFreq,Part update frequency,部品更新頻度
 config.integrateddynamics.charsetpipes,Charset Pipes,文字列パイプ
-config.integrateddynamics.cofhapi,RF API,RF API
-config.integrateddynamics.jei,JEI,JEI
+config.integrateddynamics.cofhapi,RF API,COFH API（RF API）
+config.integrateddynamics.jei,JEI,Just Enough Items
 config.integrateddynamics.forestry,Forestry recipes,フォレストリーレシピ
 config.integrateddynamics.mcmultipart,MCMultiPart support,MCMultiPartサポート
 config.integrateddynamics.refinedstorage,Refined Storage,精製ストレージ
-config.integrateddynamics.tconstruct,Tinkers' Construct,ティンカーズ・コンストラクト
+config.integrateddynamics.tconstruct,Tinkers' Construct,
 config.integrateddynamics.tesla,Tesla,テスラ
 config.integrateddynamics.Waila,Waila,ワイラ
 config.integrateddynamics.general.wildMenrilTreeChance,Wild Menril tree spawn chance,野生のメンリル木の出現確率
@@ -3006,7 +3006,7 @@ aspect.aspects.integrateddynamics.read.thaumcraftaspect.thaumcraft.essentia.info
 aspect.aspects.integrateddynamics.read.integer.thaumcraft.essentiaminsuction.name,Essentia Minimum Suction,エッセンシア最小吸収
 aspect.aspects.integrateddynamics.read.integer.thaumcraft.essentiaminsuction.info,The minimum required suction for the target essentia transport.,ターゲットエッセンシア輸送に必要な最小吸引力。
 aspect.aspects.integrateddynamics.read.double.thaumcraft.auravis.name,Aura Vis,アーラ・ビジ
-aspect.aspects.integrateddynamics.read.double.thaumcraft.auravis.info,How much vis is in the aura at the target location.,ターゲット位置でオーラに含まれるビス量
+aspect.aspects.integrateddynamics.read.double.thaumcraft.auravis.info,How much vis is in the aura at the target location.,ターゲット位置のオーラに含まれるVisの量
 aspect.aspects.integrateddynamics.read.double.thaumcraft.auraflux.name,Aura Flux,Aura フルックス
 aspect.aspects.integrateddynamics.read.double.thaumcraft.auraflux.info,How much flux is in the aura at the target location.,対象位置にあるオーラ内のフラックス量
 aspect.aspects.integrateddynamics.read.integer.thaumcraft.aurabase.name,Aura Base,Aura 基準
@@ -3055,7 +3055,7 @@ aspect.aspects.integrateddynamics.read.boolean.tesla.isprovider.info,If the targ
 aspect.aspects.integrateddynamics.read.boolean.tesla.canextract.name,Can Extract Tesla,テスラを抽出できますか？
 aspect.aspects.integrateddynamics.read.boolean.tesla.canextract.info,"If Tesla can really be extracted from the target, takes into account storage",テスラがターゲットから実際に抽出できる場合、ストレージを考慮します
 aspect.aspects.integrateddynamics.read.boolean.tesla.caninsert.name,Can Insert Tesla,Teslaを挿入できますか
-aspect.aspects.integrateddynamics.read.boolean.tesla.caninsert.info,"If Tesla can really be inserted into the target, takes into account storage and capacity",Teslaがターゲットに挿入可能かどうか、ストレージと容量を考慮します。
+aspect.aspects.integrateddynamics.read.boolean.tesla.caninsert.info,"If Tesla can really be inserted into the target, takes into account storage and capacity",ターゲットにTeslaを挿入できるかどうか（ストレージと容量を考慮）
 aspect.aspects.integrateddynamics.read.boolean.tesla.isfull.name,Is Tesla Buffer Full,テスラバッファが満杯か
 aspect.aspects.integrateddynamics.read.boolean.tesla.isfull.info,If the target's Tesla buffer is completely full,ターゲットのテスラバッファが完全に満杯の場合
 aspect.aspects.integrateddynamics.read.boolean.tesla.isempty.name,Is Tesla Buffer Empty,テスラバッファが空か
@@ -3108,7 +3108,7 @@ aspect.aspects.integrateddynamics.read.boolean.refinedstorage.network.applicable
 aspect.aspects.integrateddynamics.read.boolean.refinedstorage.network.applicable.info,If the target has a Refined Storage network.,If tar取得has Refined ストレージネットワーク.
 aspect.aspects.integrateddynamics.read.list.refinedstorage.inventory.itemstacks.name,RS network items,RS ネットワーク items
 aspect.aspects.integrateddynamics.read.list.refinedstorage.inventory.craftableitems.name,RS craftable items,RSで作成可能なアイテム
-aspect.aspects.integrateddynamics.read.list.refinedstorage.inventory.craftableitems.info,A list of all the craftable items in the RS network.,RS ネットワークで作成可能なアイテムの一覧
+aspect.aspects.integrateddynamics.read.list.refinedstorage.inventory.craftableitems.info,A list of all the craftable items in the RS network.,RSネットワーク内のすべてのクラフト可能なアイテムのリスト
 aspect.aspects.integrateddynamics.read.list.refinedstorage.inventory.craftingitems.name,RS crafting items,RS クラフティング items
 aspect.aspects.integrateddynamics.read.list.refinedstorage.inventory.craftingitems.info,A list of all the items that are currently being crafted in the RS network.,RSネットワークで現在クラフト中のすべてのアイテムのリスト。
 aspect.aspects.integrateddynamics.read.list.refinedstorage.inventory.missingcraftingitems.name,RS missing crafting items,クラフト用アイテムが不足しています
@@ -3170,3 +3170,49 @@ config.integrateddynamics.general.redstoneReaderBaseConsumption,Redstone reader 
 config.integrateddynamics.general.redstoneWriterBaseConsumption,Redstone writer base consumption,レッドストーンライターの基本消費量
 config.integrateddynamics.general.variablestoreBaseConsumption,Variable store base consumption,変数ストア基本消費量
 config.integrateddynamics.general.worldReaderBaseConsumption,World reader base consumption,ワールドリーダーの基礎消費量
+info_book.integrateddynamics.introduction.text1,"For too long, automation possibilities have been too limited. &1Integrated Dynamics&0 aims to be the go-to mod for automating your logic systems. It does this by providing an expressive immersive logic programming experience with hooks and support for most elements of &lMinecraft&r and its modifications.",自動化の可能性が長すぎて制限されていました。§lIntegrated Dynamics§rはロジックシステムの自動化のための主要なModを目指しています。Minecraftとその改造のほとんどの要素をサポートし、フックを備えた表現力豊かで没入的なロジックプログラミング体験を提供することでこれを実現します。
+info_book.integrateddynamics.manual.logic.value_types.recipe.text3,These recipes can be used for autocrafting mods such as &lIntegrated Crafting&r.,これらのレシピは§lIntegrated Crafting§rなどの自動クラフトModで使用できます。
+info_book.integrateddynamics.manual.logic.variables.variable_card.text3,"Dynamic variables will only be evaluated when their value is requested in some way, such as displaying the value in a &lDisplay Panel&r, or using it being requested as part of the evaluation of another dynamic variable.",動的変数は、§lDisplay Panel§rに値を表示する、または別の動的変数の評価の一部として値が要求される場合など、なんらかの方法で値が要求される場合にのみ評価されます。
+info_book.integrateddynamics.manual.machines.energy_battery.text1,"&lIntegrated Dynamics&r networks can be configured to consume energy. For this, you can attach &lEnergy Batteries&r to the network to add energy storage capacity for it.",§lIntegrated Dynamics§rネットワークはエネルギーを消費するように設定できます。このため、ネットワークに§lEnergy Batteries§rを接続して、そのエネルギーストレージ容量を追加できます。
+info_book.integrateddynamics.manual.networks.text1,"&lIntegrated Dynamics&r &lnetworks&r are the basis of any good automation system. A network consists of a collection of connected &lLogic Cables&r and parts can be placed on them. These cables should be managed using a &lWrench&r. Shift+right-clicking a cable or part will remove it, while a regular right-click will disconnect it from other cables.",§lIntegrated Dynamics§rの§lNetworks§rは、すべての優れた自動化システムの基礎です。ネットワークは接続された§lLogic Cables§rのコレクションで構成されており、パーツをそれに配置できます。これらのケーブルは§lWrench§rを使用して管理する必要があります。ケーブルまたはパーツをShift+右クリックして削除でき、通常の右クリックで他のケーブルから切断します。
+info_book.integrateddynamics.manual.parts.reader.network.text1,Read information about the &lIntegrated Dynamics&r network this part is facing. This does not have to be the same network as the network this part is on.,このパーツが向いている§lIntegrated Dynamics§rネットワークに関する情報を読み取ります。これはこのパーツがあるネットワークと同じネットワークである必要はありません。
+info_book.integrateddynamics.tutorials.advancedOperations.text5,"For the final, part of this tutorial, we’ll combine dynamic variables with operators. Attach an &lEntity Reader&r to a network, read the target &7Entity&0, retrieve the &7Block&0 the target &7Entity&0 is looking at, and visualize that &7Block&0 in a &lDisplay Panel&r.",このチュートリアルの最後の部分として、動的変数と演算子を組み合わせます。§lEntity Reader§rをネットワークに接続し、ターゲット§cEntity§rを読み取り、ターゲット§cEntity§rが見ているブロックを取得し、そのブロックを§lDisplay Panel§rで視覚化します。
+info_book.integrateddynamics.tutorials.aspects.text4,"Next, place a &lDisplay Panel&r in the same network as the &lRedstone Reader&r, and insert your bound &lVariable Card&r to display it value.",次に、§lDisplay Panel§rを§lRedstone Reader§rと同じネットワークに配置し、バインドされた§lVariable Card§rを挿入して値を表示します。
+info_book.integrateddynamics.tutorials.challenges.text1,"This final tutorial section contains several non-trivial challenges to show that you understand the basics of &1Integrated Dynamics&0. No further information will be given for each challenge, so good luck!",このチュートリアルの最終セクションには、§lIntegrated Dynamics§rの基本を理解していることを示すいくつかの非自明な課題が含まれています。各課題について詳しい情報は提供されませんので、幸運を祈ります！
+info_book.integrateddynamics.tutorials.theValueOfOperators.text1,"In &1Integrated Dynamics&0, &2Operators&0 are first-class citizens. Up until now, we have only used manually using the &lLogic Programmer&r, but in this tutorial, we’ll look into how they can be used in a more dynamic way, by storing &2Operators&0 in &lVariable Cards&r, and invoking them dynamically.",§lIntegrated Dynamics§rでは、§aOperators§rは一級市民です。これまで§lLogic Programmer§rを使用してのみ手動で使用してきましたが、このチュートリアルでは、§lVariable Cards§rに§aOperators§rを保存し、それらを動的に呼び出す方法を見てみます。
+info_book.integrateddynamics.tutorials.theValueOfOperators.text2,"As a first step, go to the &lLogic Programmer&r, and create a new static &2Operator&0, by starting to type &oArithmetic Addition&r &2Operator&0 in the autocomplete dropdown-list and clicking it, and write it to a &lVariable Card&r. After that, create two &6Integer&0 variables. Next, find the &oApply&r operator, and apply the first &6Integer&0 to the &2Operator&0, which will &obind&r the first input argument of the addition &2Operator&0 to that &6Integer&0, and will output a new &2Operator&0 with one remaining input argument. Next, use the &oApply&r operator again to &obind&r the final input argument of the newly created &2Operator&0. Finally, use a &lDisplay Panel&r to visualize your dynamically invoked addition.",最初のステップとして、§lLogic Programmer§rに移動し、オートコンプリートドロップダウンリストで§oArithmetic Addition§r§aOperator§rの入力を開始し、それをクリックして、§lVariable Card§rに書き込んで、新しい静的§aOperator§rを作成します。その後、2つの§cInteger§r変数を作成します。次に、§oApply§r演算子を見つけ、最初の§cInteger§rに§aOperator§rを適用します。これにより、加算§aOperator§rの最初の入力引数がそのInteger§rに§obind§rされ、残りの入力引数が1つ残った新しい§aOperator§rが出力されます。次に、§oApply§r演算子をもう一度使用して、新しく作成された§aOperator§rの最終入力引数を§obind§rします。最後に、§lDisplay Panel§rを使用して動的に呼び出された加算を視覚化します。
+operator.integrateddynamics.nbt.compound_subset.info,"If the first NBT compound tag is a subset of, or equal to the second NBT compound tag. This will recursively check nested tags.",最初のNBT compound tagが2番目のNBT compound tagのサブセット、または等しいかどうか。これはネストされたタグを再帰的にチェックします。
+operator.integrateddynamics.nbt.compound_with_short,NBT Compound With Short,NBT複合型（短整数付き）
+operator.integrateddynamics.operator.pipe.info,Create a new operator that pipes the output from the first operator to the second operator.,最初の演算子の出力を2番目の演算子に渡す新しい演算子を作成
+operator.integrateddynamics.operator.pipe2.info,"Create a new operator that gives its input to the first and second operators, and pipes the outputs from both of them to the third operator.",入力を最初と2番目の演算子に与え、両方の出力を3番目の演算子に渡す新しい演算子を作成
+operator.integrateddynamics.operator.reduce.info,Apply the given operator on all elements of a list to reduce the list to one value.,リスト内のすべての要素に対して与えられた演算子を適用し、リストを1つの値に縮約します。
+aspect.integrateddynamics.read.boolean.tesla.canextract.info,"If Tesla can really be extracted from the target, takes into account storage",テスラがターゲットから実際に抽出できる場合、ストレージを考慮します
+aspect.integrateddynamics.read.boolean.tesla.caninsert.info,"If Tesla can really be inserted into the target, takes into account storage and capacity",ターゲットにTeslaを挿入できるかどうか（ストレージと容量を考慮）
+aspect.integrateddynamics.read.double.ic2.eu.fillratio.info,The amount of EU in the target divided by its capacity,ターゲット内のEU量をその容量で割った値
+aspect.integrateddynamics.read.double.rf.fillratio.info,The amount of RF in the target divided by its capacity,ターゲット内のRF量をその容量で割った値
+aspect.integrateddynamics.read.double.thaumcraft.auraflux.info,How much flux is in the aura at the target location.,対象位置にあるオーラ内のフラックス量
+aspect.integrateddynamics.read.double.thaumcraft.auravis.info,How much vis is in the aura at the target location.,ターゲット位置のオーラに含まれるVisの量
+aspect.integrateddynamics.read.integer.thaumcraft.suction.info,The current suction in the target essentia transport.,ターゲットエッセンシア輸送装置における現在の吸引量
+aspect.integrateddynamics.read.list.refinedstorage.fluid.fluidstacks.info,A list of all the fluids in the RS network.,RSネットワーク内のすべての液体のリスト。
+aspect.integrateddynamics.read.list.refinedstorage.inventory.craftableitems.info,A list of all the craftable items in the RS network.,RSネットワーク内のすべてのクラフト可能なアイテムのリスト
+aspect.integrateddynamics.read.list.refinedstorage.inventory.craftingitems.info,A list of all the items that are currently being crafted in the RS network.,RSネットワークで現在クラフト中のすべてのアイテムのリスト。
+aspect.integrateddynamics.read.list.refinedstorage.inventory.itemstacks.info,A list of all the items in the RS network.,RSネットワーク内のすべてのアイテムのリスト
+aspect.integrateddynamics.write.boolean.refinedstorage.cancelcraft.info,Cancel all running crafting jobs in the RS network.,RSネットワークで実行中のすべてのクラフトジョブをキャンセル
+operator.operators.integrateddynamics.thaumcraft.aspect.amount.info,The amount of vis in the aspect.,アスペクト内のVisの量
+aspect.integrateddynamics.read.operator.network.variablebyid,Variable Value By ID,IDで変数値を取得
+gui.integrateddynamics.logicprogrammer.tooltip.writeslot.create,Insert Variable Card to bind to a §lnew§r value,変数カードを挿入して新しい値にバインド
+info_book.integrateddynamics.manual.logic_programming.text4,"Besides writing values to &lVariable Cards&r, the &lLogic Programmer&r can also be used to modify existing &lVariable Cards&r. The value of an existing &lVariable Card&r can be loaded into the &lLogic Programmer&r by inserting it into the slot on the right-hand side while making sure no &lOperators&r or &lValue Type&r on the left-hand side is selected (which is the case when first opening the &lLogic Programmer&r, or the current element can be cleared).",§lVariable Cards§rに値を書き込むほかに、§lLogic Programmer§rは既存の§lVariable Cards§rを変更するためにも使用できます。既存の§lVariable Cards§rの値は、右側のスロットに挿入して§lLogic Programmer§rに読み込むことができます。左側に§lOperators§rまたは§lValue Type§rが選択されていないことを確認してください（§lLogic Programmer§rを初めて開いたとき、または現在の要素をクリアできたときの場合）。
+info_book.integrateddynamics.manual.logic_programming.text5,"The &lLogic Programmer&r allows you to search through the list of &lOperators&r by name using the textbox on the top. It also allows you to filter on input or output value types, by inserting a &lVariable Card&r of those types in the bottom-left slots.",§lLogic Programmer§rでは、上部のテキストボックスを使用して名前で§lOperators§rのリストを検索できます。下部左のスロットにそれらのタイプの§lVariable Card§rを挿入して、入出力値タイプでフィルター処理することもできます。
+info_book.integrateddynamics.tutorials.logicOperations.text5,"After writing a value to a &lVariable Card&r, you can always modify it again later by inserting it again in the &lLogic Programmer&r.",§lVariable Card§rに値を書き込んだ後、§lLogic Programmer§rに再び挿入することで、後でいつでも再び変更できます。
+info_book.integrateddynamics.tutorials.logicOperations.text6,"As &1Integrated Dynamics&0 evaluates variables in a &olazy&r manner, this &lAddition&r &lVariable Card&r does not contain the addition of these &6Integers&0 directly, but the addition will only be performed when the value is needed in the network, based on the variable references. For this, the network has to be able to find these referenced &lVariable Card&r. For this, you will need to craft and place a &lVariable Store&r. Insert the two &6Integer&0 &lVariable Cards&r into this store to make them available to the network.",§lIntegrated Dynamics§rは変数を§oLazy§r（遅延評価）で評価するため、このAddition§lVariable Card§rはこれらの§cIntegers§rの加算を直接含みませんが、変数参照に基づいてネットワークで値が必要な場合にのみ加算が実行されます。このため、ネットワークはこれらの参照される§lVariable Card§rを見つけることができる必要があります。このため、§lVariable Store§rをクラフトして配置する必要があります。この2つの§cInteger§r§lVariable Cards§rをこのストアに挿入して、ネットワークで利用可能にします。
+operator.integrateddynamics.list.equals_multiset.info,Check if two lists are equal according to multiset semantics.,2つのリストがマルチセット意味論に従って等しいかどうかを確認
+operator.integrateddynamics.list.equals_set.info,Check if two lists are equal according to set semantics.,2つのリストがセット意味論に従って等しいかどうかを確認
+operator.integrateddynamics.string.tag.info,The Tag values (items) of the given item tag name,指定されたアイテムタグ名のタグ値（アイテム）
+operator.operators.integrateddynamics.operator.pipe2.info,"Create a new operator that gives its input to the first and second operators, and pipes the outputs from both of them to the third operator.",入力を最初と2番目の演算子に与え、両方の出力を3番目の演算子に渡す新しい演算子を作成
+operator.operators.integrateddynamics.operator.byName.name,Operator By Name,名前別オペレーター
+operator.operators.integrateddynamics.recipe.withInput.name,Recipe With Input Ingredients,入力材料のあるレシピ
+operator.operators.integrateddynamics.recipe.withOutput.name,Recipe With Output Ingredients,出力材料のあるレシピ
+operator.operators.integrateddynamics.recipe.withInputOutput.name,Recipe With Input and Output Ingredients,入力と出力材料のあるレシピ
+config.integrateddynamics.theoneprobe,The One Probe,ワンプローブ
+aspect.aspects.integrateddynamics.read.list.refinedstorage.inventory.itemstacks.info,A list of all the items in the RS network.,RSネットワーク内のすべてのアイテムのリスト
+aspect.aspects.integrateddynamics.write.boolean.refinedstorage.cancelcraft.info,Cancel all running crafting jobs in the RS network.,RSネットワークで実行中のすべてのクラフトジョブをキャンセル

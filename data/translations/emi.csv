@@ -21,7 +21,6 @@ config.emi.group.binds.crafts,Crafts,クラフト
 config.emi.group.dev,Dev,開発者
 config.emi.group.general,General,一般
 config.emi.group.general.search,Search,検索
-config.emi.group.ui,UI,UI
 config.emi.group.ui.bottom_sidebar,Bottom Sidebar,下サイドバー
 config.emi.group.ui.left_sidebar,Left Sidebar,左サイドバー
 config.emi.group.ui.mod_id,Mod ID,モッドID
@@ -189,10 +188,10 @@ emi.error.recipe.initialize,Error Initializing,初期化エラー
 emi.error.recipe.render,Error Rendering,レンダリングエラー
 emi.favorite_recipe,Press %s to favorite recipe,%s を押してレシピをお気に入りにする
 emi.fluid.amount.droplets,%s d,%d日%s
-emi.fluid.amount.liters,%s L,%s L
-emi.fluid.amount.millibuckets,%smB,%smB
+emi.fluid.amount.liters,%s L,
+emi.fluid.amount.millibuckets,%smB,
 emi.fuel_time.items,Smelts %s item(s),%s アイテムを精錬する(s)
-emi.grinding.experience,%s - %s XP,%s - %s XP
+emi.grinding.experience,%s - %s XP,
 emi.header.invisible,Invisible,見えない
 emi.header.visible,Visible,表示
 emi.help_level.none,None,なし
@@ -206,7 +205,7 @@ emi.leftovers,Leftovers,残り物
 emi.no_tree,You haven't set a recipe tree to view yet...,まだレシピツリーを設定していません...
 emi.not_enough_ingredients,Not enough ingredients to craft,クラフトに必要な材料が不足しています
 emi.page,Page %s of %s,%s /%s ページ
-emi.page.short,%s/%s,%s/%s
+emi.page.short,%s/%s,
 emi.random_tree,Perhaps you'd like to see a random one?,ランダムなレシピを見てみますか？
 emi.random_tree_input,Press §6[ctrl + r],§6[ctrl + r] を押す
 emi.recipe_book_action.default,Default,デフォルト
@@ -275,7 +274,7 @@ key.emi.view_recipes,View Recipes,レシピを表示
 key.emi.view_stack_tree,View Stack Tree,スタックツリーの表示
 key.emi.view_tree,View Tree,レシピツリーの表示
 key.emi.view_uses,View Uses,用途を表示
-key.keyboard.alt,Alt,Alt
+key.keyboard.alt,Alt,
 screen.emi.config,Config,設定
 screen.emi.config.reset,Revert %s change(s),%s の変更を元に戻す(s)
 screen.emi.presets,Config Presets,設定のプリセット
@@ -327,7 +326,7 @@ tag.item.c.crops.carrot,Carrots,ニンジン
 tag.item.c.crops.nether_wart,Nether Warts,ネザーウォート
 tag.item.c.crops.potato,Potatoes,じゃがいも
 tag.item.c.crops.wheat,Wheat,小麦
-tag.item.c.cyan_dyes,Cyan Dyes,シアン染料
+tag.item.c.cyan_dyes,Cyan Dyes,青緑染料
 tag.item.c.diamond_dusts,Diamond Dusts,ダイヤモンドの粉
 tag.item.c.diamonds,Diamonds,ダイヤモンド
 tag.item.c.dusts,Dusts,ダスト
@@ -341,19 +340,19 @@ tag.item.c.dyes,Dyes,染料
 tag.item.c.dyes.black,Black Dyes,黒色染料
 tag.item.c.dyes.blue,Blue Dyes,青い染料
 tag.item.c.dyes.brown,Brown Dyes,茶色染料
-tag.item.c.dyes.cyan,Cyan Dyes,シアン染料
+tag.item.c.dyes.cyan,Cyan Dyes,青緑染料
 tag.item.c.dyes.gray,Gray Dyes,グレー染料
-tag.item.c.dyes.green,Green Dyes,緑色の染料
-tag.item.c.dyes.light_blue,Light Blue Dyes,明るい青色の染料
-tag.item.c.dyes.light_gray,Light Gray Dyes,明るい灰色の染料
-tag.item.c.dyes.lime,Lime Dyes,ライム染料
-tag.item.c.dyes.magenta,Magenta Dyes,マゼンタの染料
-tag.item.c.dyes.orange,Orange Dyes,オレンジの染料
-tag.item.c.dyes.pink,Pink Dyes,ピンク染料
+tag.item.c.dyes.green,Green Dyes,緑の染料
+tag.item.c.dyes.light_blue,Light Blue Dyes,空色色の染料
+tag.item.c.dyes.light_gray,Light Gray Dyes,薄灰色の染料
+tag.item.c.dyes.lime,Lime Dyes,黄緑染料
+tag.item.c.dyes.magenta,Magenta Dyes,赤紫の染料
+tag.item.c.dyes.orange,Orange Dyes,橙の染料
+tag.item.c.dyes.pink,Pink Dyes,桃色染料
 tag.item.c.dyes.purple,Purple Dyes,紫の染料
 tag.item.c.dyes.red,Red Dyes,赤い染料
-tag.item.c.dyes.white,White Dyes,白色の染料
-tag.item.c.dyes.yellow,Yellow Dyes,黄色い染料
+tag.item.c.dyes.white,White Dyes,白い染料
+tag.item.c.dyes.yellow,Yellow Dyes,黄の染料
 tag.item.c.eggs,Eggs,卵
 tag.item.c.emeralds,Emeralds,エメラルド
 tag.item.c.empty_buckets,Empty Buckets,空のバケツ
@@ -377,52 +376,52 @@ tag.item.c.gems.lapis,Lapis Lazuli,ラピスラズリ
 tag.item.c.gems.prismarine,Prismarine,プリズマリン
 tag.item.c.gems.quartz,Quartz,クォーツ
 tag.item.c.glass,Glass,ガラス
-tag.item.c.glass.black,Black Glass,黒色の色付きガラス
-tag.item.c.glass.blue,Blue Glass,青色の色付きガラス
+tag.item.c.glass.black,Black Glass,黒い色付きガラス
+tag.item.c.glass.blue,Blue Glass,青い色付きガラス
 tag.item.c.glass.brown,Brown Glass,茶色の色付きガラス
 tag.item.c.glass.colorless,Colorless Glass,無色のガラス
-tag.item.c.glass.cyan,Cyan Glass,青緑色の色付きガラス
+tag.item.c.glass.cyan,Cyan Glass,青緑の色付きガラス
 tag.item.c.glass.gray,Gray Glass,灰色の色付きガラス
-tag.item.c.glass.green,Green Glass,緑色の色付きガラス
+tag.item.c.glass.green,Green Glass,緑の色付きガラス
 tag.item.c.glass.light_blue,Light Blue Glass,空色の染料
 tag.item.c.glass.light_gray,Light Gray Glass,空色の染料
-tag.item.c.glass.lime,Lime Glass,黄緑色の色付きガラス
-tag.item.c.glass.magenta,Magenta Glass,赤紫色の色付きガラス
+tag.item.c.glass.lime,Lime Glass,黄緑の色付きガラス
+tag.item.c.glass.magenta,Magenta Glass,赤紫の色付きガラス
 tag.item.c.glass.orange,Orange Glass,橙色の色付きガラス
 tag.item.c.glass.pink,Pink Glass,桃色の色付きガラス
-tag.item.c.glass.purple,Purple Glass,紫色の色付きガラス
-tag.item.c.glass.red,Red Glass,赤色の色付きガラス
+tag.item.c.glass.purple,Purple Glass,紫の色付きガラス
+tag.item.c.glass.red,Red Glass,赤い色付きガラス
 tag.item.c.glass.silica,Silica Glass,シリカガラス
 tag.item.c.glass.tinted,Tinted Glass,遮光ガラス
-tag.item.c.glass.white,White Glass,白色の色付きガラス
-tag.item.c.glass.yellow,Yellow Glass,黄色の色付きガラス
+tag.item.c.glass.white,White Glass,白い色付きガラス
+tag.item.c.glass.yellow,Yellow Glass,黄の色付きガラス
 tag.item.c.glass_blocks,Glass Blocks,ガラスブロック
-tag.item.c.glass_pane,Glass Panes,ガラス板
-tag.item.c.glass_panes,Glass Panes,ガラス板
-tag.item.c.glass_panes.black,Black Glass Panes,黒色の色付きガラス板
-tag.item.c.glass_panes.blue,Blue Glass Panes,青色の色付きガラス板
-tag.item.c.glass_panes.brown,Brown Glass Panes,茶色の色付きガラス板
-tag.item.c.glass_panes.colorless,Colorless Glass Panes,透明のガラス板
-tag.item.c.glass_panes.cyan,Cyan Glass Panes,青緑色の色付きガラス板
-tag.item.c.glass_panes.gray,Gray Glass Panes,灰色の色付きガラス板
-tag.item.c.glass_panes.green,Green Glass Panes,緑色の色付きガラス板
-tag.item.c.glass_panes.light_blue,Light Blue Glass Panes,空色の色付きガラス板
-tag.item.c.glass_panes.light_gray,Light Gray Glass Panes,薄灰色の色付きガラス板
-tag.item.c.glass_panes.lime,Lime Glass Panes,黄緑色の色付きガラス板
-tag.item.c.glass_panes.magenta,Magenta Glass Panes,赤紫色の色付きガラス板
-tag.item.c.glass_panes.orange,Orange Glass Panes,橙色の色付きガラス板
-tag.item.c.glass_panes.pink,Pink Glass Panes,桃色の色付きガラス板
-tag.item.c.glass_panes.purple,Purple Glass Panes,紫色の色付きガラス板
-tag.item.c.glass_panes.red,Red Glass Panes,赤色の色付きガラス板
-tag.item.c.glass_panes.white,White Glass Panes,白色の色付きガラス板
-tag.item.c.glass_panes.yellow,Yellow Glass Panes,黄色の色付きガラス板
+tag.item.c.glass_pane,Glass Panes,板ガラス
+tag.item.c.glass_panes,Glass Panes,板ガラス
+tag.item.c.glass_panes.black,Black Glass Panes,黒い色付き板ガラス
+tag.item.c.glass_panes.blue,Blue Glass Panes,青い色付き板ガラス
+tag.item.c.glass_panes.brown,Brown Glass Panes,茶色の色付き板ガラス
+tag.item.c.glass_panes.colorless,Colorless Glass Panes,透明の板ガラス
+tag.item.c.glass_panes.cyan,Cyan Glass Panes,青緑の色付き板ガラス
+tag.item.c.glass_panes.gray,Gray Glass Panes,灰色の色付き板ガラス
+tag.item.c.glass_panes.green,Green Glass Panes,緑の色付き板ガラス
+tag.item.c.glass_panes.light_blue,Light Blue Glass Panes,空色の色付き板ガラス
+tag.item.c.glass_panes.light_gray,Light Gray Glass Panes,薄灰色の色付き板ガラス
+tag.item.c.glass_panes.lime,Lime Glass Panes,黄緑の色付き板ガラス
+tag.item.c.glass_panes.magenta,Magenta Glass Panes,赤紫の色付き板ガラス
+tag.item.c.glass_panes.orange,Orange Glass Panes,橙色の色付き板ガラス
+tag.item.c.glass_panes.pink,Pink Glass Panes,桃色の色付き板ガラス
+tag.item.c.glass_panes.purple,Purple Glass Panes,紫の色付き板ガラス
+tag.item.c.glass_panes.red,Red Glass Panes,赤い色付き板ガラス
+tag.item.c.glass_panes.white,White Glass Panes,白い色付き板ガラス
+tag.item.c.glass_panes.yellow,Yellow Glass Panes,黄の色付き板ガラス
 tag.item.c.gold_blocks,Gold Blocks,金ブロック
 tag.item.c.gold_dusts,Gold Dusts,金の粉末
 tag.item.c.gold_ingots,Gold Ingots,金のインゴット
 tag.item.c.gold_nuggets,Gold Nuggets,金塊
 tag.item.c.gravel,Gravel,砂利
 tag.item.c.gray_dyes,Gray Dyes,グレー染料
-tag.item.c.green_dyes,Green Dyes,緑色の染料
+tag.item.c.green_dyes,Green Dyes,緑の染料
 tag.item.c.gunpowder,Gunpowder,火薬
 tag.item.c.heads,Heads,頭
 tag.item.c.hoes,Hoes,クワ
@@ -440,10 +439,10 @@ tag.item.c.iron_nuggets,Iron Nuggets,鉄塊
 tag.item.c.lapis,Lapis Lazuli,ラピスラズリ
 tag.item.c.lava_buckets,Lava Buckets,溶岩入りバケツ
 tag.item.c.leather,Leather,革
-tag.item.c.light_blue_dyes,Light Blue Dyes,明るい青色の染料
-tag.item.c.light_gray_dyes,Light Gray Dyes,明るい灰色の染料
-tag.item.c.lime_dyes,Lime Dyes,ライム染料
-tag.item.c.magenta_dyes,Magenta Dyes,マゼンタの染料
+tag.item.c.light_blue_dyes,Light Blue Dyes,空色色の染料
+tag.item.c.light_gray_dyes,Light Gray Dyes,薄灰色の染料
+tag.item.c.lime_dyes,Lime Dyes,黄緑染料
+tag.item.c.magenta_dyes,Magenta Dyes,赤紫の染料
 tag.item.c.milk_bottles,Milk Bottles,ミルク入りの瓶
 tag.item.c.milk_buckets,Milk Buckets,牛乳のバケツ
 tag.item.c.mushrooms,Mushrooms,キノコ
@@ -457,7 +456,7 @@ tag.item.c.nuggets.copper,Copper Nuggets,銅ナゲット
 tag.item.c.nuggets.gold,Gold Nuggets,金塊
 tag.item.c.nuggets.iron,Iron Nuggets,鉄塊
 tag.item.c.obsidian,Obsidian,黒曜石
-tag.item.c.orange_dyes,Orange Dyes,オレンジの染料
+tag.item.c.orange_dyes,Orange Dyes,橙の染料
 tag.item.c.ores,Ores,鉱石
 tag.item.c.ores.coal,Coal Ores,石炭鉱石
 tag.item.c.ores.copper,Copper Ores,銅鉱石
@@ -473,7 +472,7 @@ tag.item.c.ores_in_ground.deepslate,Deepslate Ores,ディープスレート鉱�
 tag.item.c.ores_in_ground.netherrack,Netherrack Ores,ネザーラック鉱石
 tag.item.c.ores_in_ground.stone,Stone Ores,石鉱石
 tag.item.c.pickaxes,Pickaxes,ツルハシ
-tag.item.c.pink_dyes,Pink Dyes,ピンク染料
+tag.item.c.pink_dyes,Pink Dyes,桃色染料
 tag.item.c.plates,Plates,お皿
 tag.item.c.plates.copper,Copper Plates,銅プレート
 tag.item.c.plates.gold,Gold Plates,金プレート
@@ -525,7 +524,7 @@ tag.item.c.slime_balls,Slime Balls,スライムボール
 tag.item.c.slimeballs,Slime Balls,スライムボール
 tag.item.c.spears,Spears,スピア
 tag.item.c.stained_glass,Stained Glass,彩色ガラス
-tag.item.c.stained_glass_panes,Stained Glass Panes,色付きガラス板
+tag.item.c.stained_glass_panes,Stained Glass Panes,色付き板ガラス
 tag.item.c.stone,Stone,石
 tag.item.c.stone_dusts,Stone Dusts,石のダスト
 tag.item.c.stones,Stones,石
@@ -563,11 +562,11 @@ tag.item.c.uncolored_sandstone_slabs,Uncolored Sandstone Slabs,無色な砂岩�
 tag.item.c.uncolored_sandstone_stairs,Uncolored Sandstone Stairs,無色な砂岩の階段ブロック
 tag.item.c.villager_job_sites,Villager Job Sites,職業ブロック
 tag.item.c.water_buckets,Water Buckets,水入りバケツ
-tag.item.c.white_dyes,White Dyes,白色の染料
+tag.item.c.white_dyes,White Dyes,白い染料
 tag.item.c.wooden_barrels,Wooden Barrels,木製の樽
 tag.item.c.wooden_chests,Wooden Chests,木のチェスト
 tag.item.c.wrenches,Wrenches,レンチ
-tag.item.c.yellow_dyes,Yellow Dyes,黄色い染料
+tag.item.c.yellow_dyes,Yellow Dyes,黄の染料
 tag.item.fabric.axes,Axes,斧
 tag.item.fabric.hoes,Hoes,クワ
 tag.item.fabric.pickaxes,Pickaxes,ツルハシ
@@ -588,7 +587,7 @@ tag.item.minecraft.boats,Boats,ボート
 tag.item.minecraft.bookshelf_books,Bookshelf Books,本棚の本
 tag.item.minecraft.breaks_decorated_pots,Breaks Decorated Pots,壊れた飾り壺
 tag.item.minecraft.buttons,Buttons,ボタン
-tag.item.minecraft.candles,Candles,ロウソク
+tag.item.minecraft.candles,Candles,ろうそく
 tag.item.minecraft.carpets,Carpets,カーペット
 tag.item.minecraft.cherry_logs,Cherry Logs,サクラの原木
 tag.item.minecraft.chest_boats,Chest Boats,チェスト付きボート
@@ -623,7 +622,7 @@ tag.item.minecraft.leaves,Leaves,葉
 tag.item.minecraft.lectern_books,Lectern Books,書見台
 tag.item.minecraft.logs,Logs,ログ
 tag.item.minecraft.logs_that_burn,Burnable Logs,可燃性の原木
-tag.item.minecraft.mangrove_logs,Mangrove Logs,マングロ
+tag.item.minecraft.mangrove_logs,Mangrove Logs,マングローブ
 tag.item.minecraft.music_discs,Music Discs,レコード
 tag.item.minecraft.non_flammable_wood,Non-Flammable Wood,不燃性の木材
 tag.item.minecraft.noteblock_top_instruments,Noteblock Top Instruments,音符ブロックの楽器
@@ -648,7 +647,7 @@ tag.item.minecraft.sniffer_food,Sniffer Food,スニッファーの餌
 tag.item.minecraft.soul_fire_base_blocks,Soul Fire Bases,青い炎を生じるブロック
 tag.item.minecraft.spruce_logs,Spruce Logs,トウヒの原木
 tag.item.minecraft.stairs,Stairs,階段
-tag.item.minecraft.stone_bricks,Stone Bricks,レンガ 2 石
+tag.item.minecraft.stone_bricks,Stone Bricks,石レンガ
 tag.item.minecraft.stone_buttons,Stone Buttons,石のボタン
 tag.item.minecraft.stone_crafting_materials,Stone Crafting Materials,石製の素材
 tag.item.minecraft.stone_tool_materials,Stone Tool Materials,石の道具の素材
@@ -806,3 +805,6 @@ emi.sidebar.type.lookup_history.description,Displays previously looked up stacks
 tooltip.emi.synfav.batches_remaining,%s crafts remaining,%s 作成残り
 tooltip.emi.synfav.obtained,%s/%s obtained,%s/%s を取得
 tooltip.emi.synfav.remaining,%s remaining,%s が残っています
+key.keyboard.control,Ctrl,
+key.keyboard.shift,Shift,
+config.emi.group.ui,UI,

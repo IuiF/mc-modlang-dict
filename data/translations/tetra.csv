@@ -355,7 +355,7 @@ Abilities grant defensive bonuses when the item is used in the offhand","§l§n�
 §l能力：§r 処刑
 欠落ヘルスと有害エフェクトに基づくボーナスダメージを与える
 
-§l修飾子：§r オーバーチャージ
+§l修飾子：§r オーシラカバャージ
 能力をさらにチャージして、ダメージを増加させ、エフェクトを改善できる§l§n戦槌§r
 
 §lパッシブ：§r 粉砕
@@ -425,7 +425,6 @@ item.tetra.scroll.wood_expertise.name,Wood expertise,木の専門知識
 item.tetra.scroll.wood_expertise.prefix,Treatise,論文
 item.tetra.stonecutter,Stonecutter,石切機
 item.tetra.stonecutter.description,Combine with a stick in a crafting table or use as a sword blade in a workbench to craft a powerful mining tool,クラフトテーブルで棒と組み合わせるか、作業台で剣の刃として使用して、強力なマイニングツールをクラフトします
-item.tetra.tooltip_expanded,§8[§fshift§8] §f+,§8[§fshift§8] §f+
 item.tetra.tooltip_reveal,Reveals related upgrade schematics while in the inventory,インベントリ内の関連するアップグレード図式を表示します
 item.tetra.vent_plate,Insulated Plate,断熱板
 item.tetra.vent_plate.description,Can be attached to a forge hammer or a transfer unit to increase it's efficiency,鍛造ハンマーまたは転送ユニットに装着でき、その効率を向上させます
@@ -1403,8 +1402,8 @@ tetra.material.vent_plate,Repurposed plate,再利用されたプレート
 tetra.material.vent_plate.prefix,Repurposed plate,再利用されたプレート
 tetra.material.vine,Vine,ツタ
 tetra.material.vine.prefix,Vine,ツタ
-tetra.material.warped,Warped,ウォープド
-tetra.material.warped.prefix,Warped,ウォープド
+tetra.material.warped,Warped,歪んだ
+tetra.material.warped.prefix,Warped,歪んだ
 tetra.material.weeping_vine,Weeping vine,泣くツタ
 tetra.material.weeping_vine.prefix,Weeping vine,泣くツタ
 tetra.material.wither_bone,Wither bone,ウィザーの骨
@@ -1437,11 +1436,11 @@ tetra.module.bow/long_stave.description,A long bow stave. Longbows typically hav
 tetra.module.bow/long_stave.item_name,Longbow,ロングボウ
 tetra.module.bow/long_stave.material_name,Long %s stave,素材
 tetra.module.bow/long_stave.name,Long stave,長い杖
-tetra.module.bow/long_stave.prefix,%s,%s
+tetra.module.bow/long_stave.prefix,%s,
 tetra.module.bow/recurve_stave.item_name,Recurve bow,名前
 tetra.module.bow/recurve_stave.material_name,%s recurve stave,素材
 tetra.module.bow/recurve_stave.name,Recurve stave,曲線杖
-tetra.module.bow/recurve_stave.prefix,%s,%s
+tetra.module.bow/recurve_stave.prefix,%s,
 tetra.module.bow/sights.material_name,%s sights,素材
 tetra.module.bow/sights.name,Sights,照準器
 tetra.module.bow/stabilizer.description,The stabilizer increases the initial velocity of fired projectiles,このモジュールの説明
@@ -1451,7 +1450,7 @@ tetra.module.bow/straight_stave.description,A straight bow stave.,このモジ�
 tetra.module.bow/straight_stave.item_name,Bow,弓
 tetra.module.bow/straight_stave.material_name,Straight %s stave,素材
 tetra.module.bow/straight_stave.name,Straight stave,直線の杖
-tetra.module.bow/straight_stave.prefix,%s,%s
+tetra.module.bow/straight_stave.prefix,%s,
 tetra.module.crossbow/basic_stave.description,A basic stave. The stave primarily decide the draw strength of the crossbow.,このモジュールの説明
 tetra.module.crossbow/basic_stave.item_name,Crossbow,クロスボウ
 tetra.module.crossbow/basic_stave.material_name,%s stave,素材
@@ -1470,21 +1469,21 @@ tetra.module.double/adze.description,A hefty arched blade that can be used for d
 tetra.module.double/adze.item_name,Adze,名前
 tetra.module.double/adze.material_name,%s adze,素材
 tetra.module.double/adze.name,Adze head,斧頭
-tetra.module.double/adze.prefix,%s,%s
+tetra.module.double/adze.prefix,%s,
 tetra.module.double/basic_axe.description,"A basic axe head that can be used to break wooden blocks like planks and logs, to strip bark from logs,for crafting item modules from wood and to disable shields.
  
 Double axe heads provide synergy bonuses.",このモジュールの説明
 tetra.module.double/basic_axe.item_name,Axe,斧
 tetra.module.double/basic_axe.material_name,%s axe,素材
 tetra.module.double/basic_axe.name,Axe head,斧の先端
-tetra.module.double/basic_axe.prefix,%s,%s
+tetra.module.double/basic_axe.prefix,%s,
 tetra.module.double/basic_hammer.description,"The hammer head can be used when crafting modular items, and is sometimes used for salvaging.
  
 Double hammer heads provide synergy bonuses.",このモジュールの説明
 tetra.module.double/basic_hammer.item_name,Hammer,ハンマー
 tetra.module.double/basic_hammer.material_name,%s hammer,素材
 tetra.module.double/basic_hammer.name,Hammer head,ハンマーヘッド
-tetra.module.double/basic_hammer.prefix,%s,%s
+tetra.module.double/basic_hammer.prefix,%s,
 tetra.module.double/basic_handle.description,A basic tool handle. Handles are the primary source of integrity for tools.,このモジュールの説明
 tetra.module.double/basic_handle.material_name,%s handle,素材
 tetra.module.double/basic_handle.name,Basic handle,基本ハンドル
@@ -1494,7 +1493,7 @@ Using double pickaxe heads makes the pickaxe able to break tougher blocks.",こ�
 tetra.module.double/basic_pickaxe.item_name,Pickaxe,ツルハシ
 tetra.module.double/basic_pickaxe.material_name,%s pick,素材
 tetra.module.double/basic_pickaxe.name,Pickaxe head,ツルハシヘッド
-tetra.module.double/basic_pickaxe.prefix,%s,%s
+tetra.module.double/basic_pickaxe.prefix,%s,
 tetra.module.double/binding.description,Tightly bound fibre strengthen the tool heads' attachment to the handle.,このモジュールの説明
 tetra.module.double/binding.material_name,%s binding,素材
 tetra.module.double/binding.name,Binding,結合部
@@ -1505,19 +1504,19 @@ tetra.module.double/claw.description,"A slightly curved claw, can be used for pr
 tetra.module.double/claw.item_name,Claw,名前
 tetra.module.double/claw.material_name,%s claw,素材
 tetra.module.double/claw.name,Claw,名前
-tetra.module.double/claw.prefix,%s,%s
+tetra.module.double/claw.prefix,%s,
 tetra.module.double/hoe.description,"A basic hoe, useful for tilling soil.",このモジュールの説明
 tetra.module.double/hoe.item_name,Hoe,名前
 tetra.module.double/hoe.material_name,%s hoe,素材
 tetra.module.double/hoe.name,Hoe,名前
-tetra.module.double/hoe.prefix,%s,%s
+tetra.module.double/hoe.prefix,%s,
 tetra.module.double/sickle.description,"A slightly arched sickle which can be used to cut blocks in an area.
  
 Works different from other tools as it instantly harvests blocks but only if it's not on swing cooldown.",このモジュールの説明
 tetra.module.double/sickle.item_name,Sickle,鎌
 tetra.module.double/sickle.material_name,%s sickle,素材
 tetra.module.double/sickle.name,Sickle,鎌
-tetra.module.double/sickle.prefix,%s,%s
+tetra.module.double/sickle.prefix,%s,
 tetra.module.double/socket.description,"A gem, fitted onto the side of the tool head. The gem is enchanted and provides magical boons to the wielder.",このモジュールの説明
 tetra.module.double/socket.name,Socket,ソケット
 tetra.module.holo/core.description,"At the center of the sphere sits a small cylinder, it's warm to the touch. Everything within the sphere is in some way connected to the cylinder.",このモジュールの説明
@@ -1533,12 +1532,12 @@ tetra.module.shield/buckler.description,Bucklers are small shields that provide 
 tetra.module.shield/buckler.item_name,Buckler,名前
 tetra.module.shield/buckler.material_name,%s buckler plate,素材
 tetra.module.shield/buckler.name,Buckler plate,ブックラープレート
-tetra.module.shield/buckler.prefix,%s,%s
+tetra.module.shield/buckler.prefix,%s,
 tetra.module.shield/heater.description,The heater shield is a medium size shield that can only block for a limited amount of time before going on cooldown.,このモジュールの説明
 tetra.module.shield/heater.item_name,Heater shield,名前
 tetra.module.shield/heater.material_name,%s heater plate,素材
 tetra.module.shield/heater.name,Heater plate,ヒータープレート
-tetra.module.shield/heater.prefix,%s,%s
+tetra.module.shield/heater.prefix,%s,
 tetra.module.shield/spike.description,A shield spike that has a chance to damage the attacker when blocking melee attacks.,このモジュールの説明
 tetra.module.shield/spike.material_name,%s spike,素材
 tetra.module.shield/spike.name,Spike,スパイク
@@ -1552,7 +1551,7 @@ tetra.module.shield/tower.description,A large tower shield that can block indefi
 tetra.module.shield/tower.item_name,Tower shield,タワーシールド
 tetra.module.shield/tower.material_name,%s tower plate,素材
 tetra.module.shield/tower.name,Tower shield,タワーシールド
-tetra.module.shield/tower.prefix,%s,%s
+tetra.module.shield/tower.prefix,%s,
 tetra.module.single/basic_handle.description,A basic handle. Handles are the primary source of integrity.,このモジュールの説明
 tetra.module.single/basic_handle.material_name,%s handle,素材
 tetra.module.single/basic_handle.name,Basic handle,基本ハンドル
@@ -1560,7 +1559,7 @@ tetra.module.single/basic_shovel.description,"A basic shovel head that can prima
 tetra.module.single/basic_shovel.item_name,Shovel,シャベル
 tetra.module.single/basic_shovel.material_name,%s shovel,素材
 tetra.module.single/basic_shovel.name,Shovel head,シャベルヘッド
-tetra.module.single/basic_shovel.prefix,%s,%s
+tetra.module.single/basic_shovel.prefix,%s,
 tetra.module.single/binding.description,Tightly bound fibre strengthen the head's attachment to the handle.,このモジュールの説明
 tetra.module.single/binding.material_name,%s binding,素材
 tetra.module.single/binding.name,Binding,結合部
@@ -1578,7 +1577,7 @@ tetra.module.single/spearhead.description,A basic spearhead which can be used to
 tetra.module.single/spearhead.item_name,Spear,槍
 tetra.module.single/spearhead.material_name,%s spearhead,素材
 tetra.module.single/spearhead.name,Spearhead,槍先
-tetra.module.single/spearhead.prefix,%s,%s
+tetra.module.single/spearhead.prefix,%s,
 tetra.module.single/trident.description,A trident head. The knowledge of how one is made has been lost to time,このモジュールの説明
 tetra.module.single/trident.item_name,Trident,トライデント
 tetra.module.single/trident.name,Trident,トライデント
@@ -1586,7 +1585,7 @@ tetra.module.sword/basic_blade.description,"A basic blade with average damage, a
 tetra.module.sword/basic_blade.item_name,Sword,剣
 tetra.module.sword/basic_blade.material_name,%s blade,素材
 tetra.module.sword/basic_blade.name,Basic blade,基本ブレード
-tetra.module.sword/basic_blade.prefix,%s,%s
+tetra.module.sword/basic_blade.prefix,%s,
 tetra.module.sword/basic_hilt.description,A simple sword hilt. The sword hilt is the primary source of integrity for swords.,このモジュールの説明
 tetra.module.sword/basic_hilt.material_name,%s hilt,素材
 tetra.module.sword/basic_hilt.name,Simple hilt,シンプルヒルト
@@ -1609,7 +1608,7 @@ tetra.module.sword/heavy_blade.description,"A large and hefty blade that sacrifi
 tetra.module.sword/heavy_blade.item_name,Greatsword,名前
 tetra.module.sword/heavy_blade.material_name,Heavy %s blade,素材
 tetra.module.sword/heavy_blade.name,Heavy blade,ヘビーブレード
-tetra.module.sword/heavy_blade.prefix,%s,%s
+tetra.module.sword/heavy_blade.prefix,%s,
 tetra.module.sword/howling.description,"A fuller attachment that causes howling winds to envelop the wielder, the winds occasionally deflects incoming projectiles.",このモジュールの説明
 tetra.module.sword/howling.material_name,%s howler,素材
 tetra.module.sword/howling.name,Howlers,咆哮する刃
@@ -1619,7 +1618,7 @@ The machete works different from other tools as it instantly harvests blocks but
 tetra.module.sword/machete.item_name,Machete,名前
 tetra.module.sword/machete.material_name,%s machete,素材
 tetra.module.sword/machete.name,Machete,名前
-tetra.module.sword/machete.prefix,%s,%s
+tetra.module.sword/machete.prefix,%s,
 tetra.module.sword/makeshift_guard.description,"A sword guard, its weak construction provides little protection for the wielding hand.",このモジュールの説明
 tetra.module.sword/makeshift_guard.material_name,Makeshift %s guard,素材
 tetra.module.sword/makeshift_guard.name,Makeshift guard,仮設ガード
@@ -1630,7 +1629,7 @@ tetra.module.sword/short_blade.description,A light and short blade that can be u
 tetra.module.sword/short_blade.item_name,Shortblade,短剣
 tetra.module.sword/short_blade.material_name,%s shortblade,素材
 tetra.module.sword/short_blade.name,Shortblade,短剣
-tetra.module.sword/short_blade.prefix,%s,%s
+tetra.module.sword/short_blade.prefix,%s,
 tetra.module.sword/socket.description,"A gem, fitted onto the sword where the blade meets the hilt. The gem is enchanted and provides magical boons to the wielder of the sword.",このモジュールの説明
 tetra.module.sword/socket.name,Socket,ソケット
 tetra.module.sword/stonecutter.description,A heavy blade that cuts through stone with ease.,このモジュールの説明
@@ -1643,7 +1642,7 @@ tetra.module.sword/throwing_knife.description,A well-balanced blade that is suit
 tetra.module.sword/throwing_knife.item_name,Throwing knife,投げナイフ
 tetra.module.sword/throwing_knife.material_name,%s throwing knife,素材
 tetra.module.sword/throwing_knife.name,Throwing knife,投げナイフ
-tetra.module.sword/throwing_knife.prefix,%s,%s
+tetra.module.sword/throwing_knife.prefix,%s,
 tetra.module.sword/wide_guard.description,a wide guard which protects the wielding hand. Provides additional armor when the sword is held in the mainhand or offhand.,このモジュールの説明
 tetra.module.sword/wide_guard.material_name,Wide %s guard,素材
 tetra.module.sword/wide_guard.name,Wide guard,広いガード
@@ -2296,12 +2295,12 @@ tetra.tweak.bow/adjustable_strength.tooltip,"§eTighten§r the bolts to increase
 §eLoosen§r the bolts to make the bow easier to draw, increasing draw speed.","§eボルトを締める§r強さを増加させるために弓の強さを増加させます。
 §eボルトを緩める§r弓を引きやすくし、引く速度を増加させます。"
 tetra.tweak.bow/multishot_count.label,Count,カウント
-tetra.tweak.bow/multishot_count.left,1,1
-tetra.tweak.bow/multishot_count.right,7,7
+tetra.tweak.bow/multishot_count.left,1,
+tetra.tweak.bow/multishot_count.right,7,
 tetra.tweak.bow/multishot_count.tooltip,Adjust the number of fired projectiles,発射される弾丸の数を調整する
 tetra.tweak.bow/multishot_spread.label,Spread,広がる
-tetra.tweak.bow/multishot_spread.left,1,1
-tetra.tweak.bow/multishot_spread.right,19,19
+tetra.tweak.bow/multishot_spread.left,1,
+tetra.tweak.bow/multishot_spread.right,19,
 tetra.tweak.bow/multishot_spread.tooltip,Adjust the spread of fired projectiles,発射される弾丸の散布範囲を調整する
 tetra.tweak.double_tweak/binding_bolt.label,Bolt tightness,ボルトの締め付け
 tetra.tweak.double_tweak/binding_bolt.left,Loose,緩い
@@ -2543,7 +2542,7 @@ tetra/schematic/bow/riser/sights.slot1,Material,%s巻き付け
 tetra/schematic/bow/riser/stabilizer.description,"A stabilizer crafted from the provided material, increases the initial velocity of fired projectiles.",提供された材料から作られた安定装置。発射物の初速度を増加させます。
 tetra/schematic/bow/riser/stabilizer.name,Stabilizer,安定化装置
 tetra/schematic/bow/riser/stabilizer.slot1,Material,%s巻き付け
-tetra/schematic/bow/stave/hone_speed_1.description,Hone the module to increase the overall draw speed.,モジュールを砥いで全体的な装填速度を増加させる
+tetra/schematic/bow/stave/hone_speed_1.description,Hone the module to increase the overall draw speed.,モジュールを研磨して全体の引き出し速度を上げる。
 tetra/schematic/bow/stave/hone_speed_1.name,Hone: Speed I,名前
 tetra/schematic/bow/stave/hone_speed_2.description,Further hone the draw speed improvement for this module.,このモジュールの引き抜き速度向上をさらに磨きます。
 tetra/schematic/bow/stave/hone_speed_2.name,Hone: Speed II,名前
@@ -2934,7 +2933,7 @@ tetra/schematic/single/head/earthpiercer/hone_piercing_3.description,Hone the ea
 tetra/schematic/single/head/earthpiercer/hone_piercing_3.name,Hone: Piercing III,名前
 tetra/schematic/single/head/earthpiercer/hone_piercing_4.description,Hone the earthpiercer to further increase the piercing effect.,エアスピアを研磨して貫通効果をさらに高める。
 tetra/schematic/single/head/earthpiercer/hone_piercing_4.name,Hone: Piercing IV,ホネ：貫通 IV
-tetra/schematic/single/head/spearhead/serrated_1.description,Serrate the head. Attacks have a 30%% chance to cause the target to bleed for 4 damage over 2 seconds. Not effective against undead.,攻撃は出血を引き起こす可能性があります
+tetra/schematic/single/head/spearhead/serrated_1.description,Serrate the head. Attacks have a 30%% chance to cause the target to bleed for 4 damage over 2 seconds. Not effective against undead.,頭部を切り裂く。攻撃は30％の確率で対象に2秒間かけて合計4ダメージの出血効果を与える。アンデッドには効きません。
 tetra/schematic/single/head/spearhead/serrated_1.name,Serrate,ギザギザ刃
 tetra/schematic/single/head/spearhead/serrated_2.description,"Hone the serrated improvement, increases the damage dealt to 8.",鋸歯状の改善を研磨し、与えるダメージを8に増加させます。
 tetra/schematic/single/head/spearhead/serrated_2.name,Hone: Serrated II,ギザギザ刃
@@ -2943,7 +2942,7 @@ tetra/schematic/single/head/spearhead/serrated_3.name,Hone: Serrated III,ギザ�
 tetra/schematic/single/head/spearhead/spearhead.description,"Craft a spearhead from the given material, which can typically be used to cause damage to others.",与えられた素材で槍先を作ります。通常、他者にダメージを与えるために使用されます。
 tetra/schematic/single/head/spearhead/spearhead.name,Spearhead,槍先
 tetra/schematic/single/head/spearhead/spearhead.slot1,Head material,頭部素材
-tetra/schematic/single/head/spearhead/tempered_1.description,"Temper the the blade, greatly increasing its hardness. Causes some of the damage dealt to ignore armor.",攻撃は部分的に防具を無視します
+tetra/schematic/single/head/spearhead/tempered_1.description,"Temper the the blade, greatly increasing its hardness. Causes some of the damage dealt to ignore armor.",刃を鍛えて硬度を大幅に上げる。ダメージの一部が防具を無視するようになる。
 tetra/schematic/single/head/spearhead/tempered_1.name,Temper,焼入れ先端
 tetra/schematic/single/head/spearhead/tempered_2.name,Hone: Tempered II,焼入れ先端
 tetra/schematic/single/head/spearhead/tempered_3.name,Hone: Tempered III,焼入れ先端
@@ -3159,7 +3158,7 @@ item.tetra.geode.tooltip,"Presents glimmer from within in the presence of light
 §8ワークベンチで壊すと貴重な鉱物が得られる可能性があり、幸運エンチャントの影響を受ける"
 item.tetra.modular.repair_material.empty,no repair,修理なし
 item.tetra.modular.repair_material.empty_tooltip,This module does not need to be repaired,このモジュールは修理する必要がありません
-item.tetra.modular.repair_material.label,rep:,rep:
+item.tetra.modular.repair_material.label,rep:,
 item.tetra.modular.repair_material.tooltip,Displays the material(s) required to repair this module,このモジュールの修理に必要な素材を表示
 item.tetra.pristine_amethyst,Pristine Amethyst,完璧なアメジスト
 item.tetra.scroll.hone/gild_1.description,An enchanted scroll that makes it possible to hone the magic capacity of a module,魔法容量を研ぐことができるエンチャントスクロール
@@ -3293,7 +3292,7 @@ tetra.aspect.wearable.description,"A key part of something that can be worn, the
 tetra.binding.group,Tetra,テトラ
 tetra.enchantment.missing_description,The effects of this enchantment are unknown,このエンチャントの効果は不明です。
 tetra.holo.craft.materials.feature,feat,機能
-tetra.holo.craft.materials.stat.integrity.short,inte,inte
+tetra.holo.craft.materials.stat.integrity.short,inte,
 tetra.holo.craft.materials.stat.tool_level.short,ttir,ツールティア
 tetra.holo.place,§7[§8shift + rmb§7] §8Place,§7[§8Shift + 右クリック§7]§8 配置
 tetra.holo.quick_access.snooze_off,"reactivate
@@ -3377,18 +3376,18 @@ tetra.material.socket_pristine_lapis.prefix,§9Lapis+§r,§9ラピス+§r
 tetra.material.wool_black,Black wool,黒いウール
 tetra.material.wool_blue,Blue wool,青いウール
 tetra.material.wool_brown,Brown wool,茶色のウール
-tetra.material.wool_cyan,Cyan wool,シアンウール
+tetra.material.wool_cyan,Cyan wool,青緑ウール
 tetra.material.wool_gray,Gray wool,灰色羊毛
 tetra.material.wool_green,Green wool,緑のウール
-tetra.material.wool_light_blue,Light blue wool,明るい青のウール
-tetra.material.wool_light_gray,Light gray wool,明るいグレーのウール
-tetra.material.wool_lime,Lime wool,ライム羊毛
-tetra.material.wool_magenta,Magenta wool,マゼンタのウール
-tetra.material.wool_orange,Orange wool,オレンジ羊毛
-tetra.material.wool_pink,Pink wool,ピンクウール
-tetra.material.wool_purple,Purple wool,紫色のウール
+tetra.material.wool_light_blue,Light blue wool,空色のウール
+tetra.material.wool_light_gray,Light gray wool,明るい灰色のウール
+tetra.material.wool_lime,Lime wool,黄緑羊毛
+tetra.material.wool_magenta,Magenta wool,赤紫のウール
+tetra.material.wool_orange,Orange wool,橙羊毛
+tetra.material.wool_pink,Pink wool,桃色ウール
+tetra.material.wool_purple,Purple wool,紫のウール
 tetra.material.wool_red,Red wool,赤いウール
-tetra.material.wool_yellow,Yellow wool,黄色のウール
+tetra.material.wool_yellow,Yellow wool,黄のウール
 tetra.modular.aspects.detail_header,Details for aspect (%s/%s):,側面の詳細 (%s/%s):
 tetra.modular.aspects.empty,This module has no aspects,このモジュールは側面を持たない
 tetra.modular.aspects.header,This module has the following aspects:,このモジュールは以下の側面を持つ:
@@ -3437,7 +3436,7 @@ tetra.module.single/unbound_earthpiercer.description,A heavy tool head that rese
 tetra.module.single/unbound_earthpiercer.item_name,Earthpiercer,大地貫通者
 tetra.module.single/unbound_earthpiercer.material_name,%s earthpiercer,%s 地殻貫通者
 tetra.module.single/unbound_earthpiercer.name,Earthpiercer,大地貫通者
-tetra.module.single/unbound_earthpiercer.prefix,%s,%s
+tetra.module.single/unbound_earthpiercer.prefix,%s,
 tetra.module.sword/decorative_guard.description,"A decorative guard, it's purely cosmetic and only affects the appearance of the item",装飾用ガードで、見た目のみ影響し、機能はありません。
 tetra.module.sword/decorative_guard.material_name,Decorative %s guard,装飾的な%sガード
 tetra.module.sword/decorative_guard.name,Decorative guard,名前
@@ -3449,12 +3448,12 @@ tetra.module.sword/unbound_stonecutter.description,A heavy blade that can cut th
 tetra.module.sword/unbound_stonecutter.item_name,Stonecutter,石切機
 tetra.module.sword/unbound_stonecutter.material_name,%s stonecutter,%s 石切り
 tetra.module.sword/unbound_stonecutter.name,Stonecutter,石切機
-tetra.module.sword/unbound_stonecutter.prefix,%s,%s
+tetra.module.sword/unbound_stonecutter.prefix,%s,
 tetra.not_available,n/a,利用不可
 tetra.shatter_amethyst_action.label,Shatter,名前
 tetra.sources.multi_tooltip,"This schematic was added by §9%s§r, then modified or overwritten by §9%s",この模式図は§9%s§rで追加され、その後§9%s§rで変更または上書きされました
 tetra.sources.overflow_label,%s sources,%sの源
-tetra.sources.overflow_suffix_label,", +%s",", +%s"
+tetra.sources.overflow_suffix_label,", +%s",
 tetra.sources.single_tooltip,This schematic was added by §9%s,この模式図は§9%s§rで追加されました
 tetra.sources.unknown_label,Unknown,不明
 tetra.sources.unknown_tooltip,"It's unknown which mod or datapack added this schematic, likely due to some error",どのModまたはデータパックがこの設計図を追加したか不明です。おそらく何らかのエラーによるものです。
@@ -3486,7 +3485,7 @@ Chunks containing ruins are highlighted with an orange beam in the scanner inter
  §e+ ハンマーティアあたり 12 度コーンサイズ増加§7
  §e+ ハンマー効率あたり 1/4 チャンク増加§7 （速度修正を除く）
 
-遺跡を含むチャンクはスキャナーインターフェースにオレンジのビームでハイライトされます。"
+遺跡を含むチャンクはスキャナーインターフェースに橙のビームでハイライトされます。"
 tetra.stats.holo.sweeperHorizontalSpread,Sweep horz,水平スweep
 tetra.stats.holo.sweeperHorizontalSpread.tooltip,"The scanner has a horizontal resolution of §e%s units
 §7Angle between units: §e%s deg",スキャナーの水平解像度は§e%sユニットです
@@ -3585,16 +3584,16 @@ tetra.toolbelt.binding.open,Open toolbelt,ツールベルトを開く
 tetra.toolbelt.binding.restock,Restock toolbelt,ツールベルトを再補充
 tetra.toolbelt.binding.secondary_use,Use secondary,二次機能を使用
 tetra.tweak.unbound_extractor/axial_limiter.label,Axial limit,軸限界
-tetra.tweak.unbound_extractor/axial_limiter.left,0,0
-tetra.tweak.unbound_extractor/axial_limiter.right,16,16
+tetra.tweak.unbound_extractor/axial_limiter.left,0,
+tetra.tweak.unbound_extractor/axial_limiter.right,16,
 tetra.tweak.unbound_extractor/axial_limiter.tooltip,Adjust the extractor's range on the axial axis,抽出機の軸方向レンジを調整する
 tetra.tweak.unbound_extractor/lateral_limiter.label,Lateral limit,横限界
-tetra.tweak.unbound_extractor/lateral_limiter.left,0,0
-tetra.tweak.unbound_extractor/lateral_limiter.right,16,16
+tetra.tweak.unbound_extractor/lateral_limiter.left,0,
+tetra.tweak.unbound_extractor/lateral_limiter.right,16,
 tetra.tweak.unbound_extractor/lateral_limiter.tooltip,Adjust the extractor's range on the lateral axis,抽出機の横軸上で範囲を調整してください
 tetra.tweak.unbound_extractor/medial_limiter.label,Medial limit,中間限界
-tetra.tweak.unbound_extractor/medial_limiter.left,0,0
-tetra.tweak.unbound_extractor/medial_limiter.right,16,16
+tetra.tweak.unbound_extractor/medial_limiter.left,0,
+tetra.tweak.unbound_extractor/medial_limiter.right,16,
 tetra.tweak.unbound_extractor/medial_limiter.tooltip,Adjust the extractor's range on the medial axis,抽出器の範囲を中軸に合わせて調整する
 tetra.tweak.unbound_stonecutter/adjustable_focus.label,Focus,焦点
 tetra.tweak.unbound_stonecutter/adjustable_focus.left,Depth,深さ
@@ -3790,3 +3789,21 @@ tetra/schematic/sword/unbound_stonecutter/shatter.name,Shatter,名前
 tetra/schematic/sword/unbound_stonecutter/unbound_stonecutter.description,"Craft an inert stonecutter using the provided materials. The stonecutter functions similar to a regular pickaxe, but it can be empowered with an Echo Shard which allows it to break multiple blocks in wide sweeps.",提供された材料を使用して不活性な石切り機をクラフトします。石切り機は通常のツルハシと同様に機能しますが、エコーシャードでエンパワーでき、広い掃引で複数のブロックを破壊することができます。
 tetra/schematic/sword/unbound_stonecutter/unbound_stonecutter.name,Stonecutter,石切機
 tetra/schematic/sword/unbound_stonecutter/unbound_stonecutter.slot1,Material,%s巻き付け
+item.tetra.tooltip_expand,§7[§8shift§7] §8+,
+tetra.improvement.enchantment/bluepower_vorpal.name,Vorpal,
+tetra.improvement.enchantment/ensorcellation_air_affinity.name,Air Affinity,
+tetra.improvement.enchantment/ensorcellation_bulwark.name,Bulwark,
+tetra.stats.bow.overbowed,Overbowed,
+tetra.stats.earthbind,Earthbind,
+tetra.stats.lunge_echo.tooltip,Lunge can be used §e%s§r additional times while midair to extend the distance or change direction,
+tetra.stats.pry_revenge.tooltip,Pry deals §e%s%% (%s)§r more damage and applies twice the armor reduction when used on a revenge target,
+tetra/schematic/toolbelt/booster.description,"Attach a booster unit, which grants the ability to jump long distances or even fly for shorter periods of time. Activate by crouching before a jump, or by jumping mid-air or while flying with an elytra. §oUses gunpowder from toolbelt inventories as fuel.",
+block.tetra.multi_schematic.piece,"Piece §8[§7%s§8, §7%s§8]",
+tetra.stats.tool.breakdown,"§7Tier: §e%s
+ 
+§7Efficiency: §e%s
+§7    Base: §e%s
+§7    Swing speed: %s%s",
+tetra.stats.tool.enchantment_bonus,"
+§7    Enchantment bonus: §a+%s",
+item.tetra.tooltip_expanded,§8[§fshift§8] §f+,

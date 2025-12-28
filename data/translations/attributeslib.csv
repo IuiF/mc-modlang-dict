@@ -24,16 +24,16 @@ attributeslib.gui.multiply_total,Multiply Total: %s,合計倍率: %s
 attributeslib.gui.no_modifiers,No Modifiers,変異なし
 attributeslib.gui.press_shift,Hold Shift for more info.,シフトキーを押して詳細情報を表示。
 attributeslib.gui.show_attributes,Show Attributes,属性を表示
-attributeslib.modifier.bool,%s %s,%s %s
-attributeslib.modifier.plus,+%s %s,+%s %s
-attributeslib.modifier.take,-%s %s,-%s %s
+attributeslib.modifier.bool,%s %s,
+attributeslib.modifier.plus,+%s %s,
+attributeslib.modifier.take,-%s %s,
 attributeslib.value.boolean.disabled,Disabled,無効
 attributeslib.value.boolean.enable,Enables,有効化
 attributeslib.value.boolean.enabled,Enabled,有効
 attributeslib.value.boolean.force_disable,Forcibly Disables,強制無効化
 attributeslib.value.boolean.invalid,Invalid,無効
-attributeslib.value.flat,%s,%s
-attributeslib.value.percent,%s%%,%s%%
+attributeslib.value.flat,%s,
+attributeslib.value.percent,%s%%,
 attributeslib:armor_pierce,Armor Pierce,アーマー貫通
 attributeslib:armor_pierce.desc,Flat reduction to the target's armor value.,対象の防御力を一律で減少させる
 attributeslib:armor_shred,Armor Shred,アーマー剥離
@@ -46,7 +46,7 @@ attributeslib:cold_damage,Cold Damage,冷害
 attributeslib:cold_damage.desc,"Bonus magic damage applied on melee attacks, and slows enemies hit.",近接攻撃に加算される魔法ダメージ。相手の移動速度を遅くする
 attributeslib:creative_flight,Creative Flight,クリエイティブフライト
 attributeslib:creative_flight.desc,If you can fly as if in Creative Mode.,クリエイティブモードと同じように飛び回れるかどうか
-attributeslib:crit_chance,Crit Chance,クリティカル確率
+attributeslib:crit_chance,Crit Chance,命中確率
 attributeslib:crit_chance.desc,"The chance any damage you deal critically strikes, dealing extra damage based on your Crit Damage.",攻撃がクリティカルヒットになる確率。追加ダメージはクリティカルダメージの数値による
 attributeslib:crit_damage,Crit Damage,クリティカルダメージ
 attributeslib:crit_damage.desc,"Damage multiplier for critical hits, including vanilla jump crits.",クリティカルヒット発生時のダメージ倍率。バニラのジャンプによるクリティカルもこの値の影響を受ける
@@ -107,7 +107,7 @@ effect.attributeslib.grievous.description,Decreases healing received.,受ける�
 effect.attributeslib.knowledge,Ancient Knowledge,古代の知識
 effect.attributeslib.knowledge.desc,Increases experience gained from kills and blocks.,キルとブロック破壊から獲得する経験値を増加させます。
 effect.attributeslib.knowledge.description,Increases experience gained from kills and blocks.,キルとブロック破壊から獲得する経験値を増加させます。
-effect.attributeslib.sundering,Sundering,破砕
+effect.attributeslib.sundering,Sundering,破壊
 effect.attributeslib.sundering.desc,Increases damage received.,受けるダメージを増加させます。
 effect.attributeslib.sundering.description,Increases damage received.,受けるダメージを増加させます。
 effect.attributeslib.vitality,Bursting Vitality,爆発する生命力

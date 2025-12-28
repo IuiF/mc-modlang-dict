@@ -247,7 +247,6 @@ gui.refinedstorage.grid.sorting.direction,Sorting direction,並び順
 gui.refinedstorage.grid.sorting.direction.ascending,Ascending,昇順
 gui.refinedstorage.grid.sorting.direction.descending,Descending,降順
 gui.refinedstorage.grid.sorting.type,Sorting type,並べ替え
-gui.refinedstorage.grid.sorting.type.id,ID,ID
 gui.refinedstorage.grid.sorting.type.last_modified,Last modified,最終変更時間
 gui.refinedstorage.grid.sorting.type.name,Name,名前
 gui.refinedstorage.grid.sorting.type.quantity,Quantity,数量
@@ -364,7 +363,7 @@ item.refinedstorage.autocrafting_upgrade,Autocrafting Upgrade,オートクラフ
 item.refinedstorage.autocrafting_upgrade.help,Will start an autocrafting task for missing resources.,不足しているリソースに対してオートクラフトタスクを発注します。
 item.refinedstorage.basic_processor,Basic Processor,基本プロセッサ
 item.refinedstorage.cable.help,"Connects storage network devices with each other. For full blocks, will connect to any color. For cable blocks, will only connect to the same color or to the default color (gray).",ストレージネットワークの機械同士を接続します。ブロックとは、あらゆる色と接続します。ケーブル同士では、同じ色またはデフォルトの色(グレー)とのみ接続します。
-item.refinedstorage.color_and_item_name,%s %s,%s %s
+item.refinedstorage.color_and_item_name,%s %s,
 item.refinedstorage.configuration_card,Configuration Card,設定カード
 item.refinedstorage.configuration_card.applied_configuration,Applied configuration.,設定を機械に適用しました。
 item.refinedstorage.configuration_card.cannot_apply_configuration,Cannot apply configuration card to different type of device. It is configured for %s.,同時に違う種類の機械を設定保存カードに保存することはできません。現在は%s用に設定されています。
@@ -844,7 +843,7 @@ gui.refinedstorage.disk_manipulator.out,Out,搬出
 gui.refinedstorage.exporter,Exporter,エクスポーター
 gui.refinedstorage.external_storage,External Storage,外部ストレージ
 gui.refinedstorage.filter,Filter,フィルター
-gui.refinedstorage.filter.compare_nbt,NBT,NBT
+gui.refinedstorage.filter.compare_nbt,NBT,
 gui.refinedstorage.filter.mod_filter,Mod filter,Modフィルター
 gui.refinedstorage.fluid_amount,Fluid amount in mB,流体の量 (mB)
 gui.refinedstorage.fluid_grid,Fluid Grid,流体グリッド
@@ -912,7 +911,7 @@ key.refinedstorage.openWirelessFluidGrid,Open Wireless Fluid Grid,ワイヤレ�
 key.refinedstorage.openWirelessGrid,Open Wireless Grid,ワイヤレスグリッドを開く
 misc.refinedstorage.cancel_all,Cancel All,全てキャンセル
 misc.refinedstorage.clear,Clear,クリア
-misc.refinedstorage.energy_stored,%d / %d FE,%d / %d FE
+misc.refinedstorage.energy_stored,%d / %d FE,
 misc.refinedstorage.energy_usage,Usage: %d FE/t,消費電力: %d FE/t
 misc.refinedstorage.energy_usage_minimal,%d FE/t,%d FE/ティック
 misc.refinedstorage.exact,Exact,完全
@@ -942,8 +941,7 @@ misc.refinedstorage.start,Start,開始
 misc.refinedstorage.storage.full,%d%% full,%d%%を使用中
 misc.refinedstorage.storage.stored,Stored: %s,保存: %s
 misc.refinedstorage.storage.stored_capacity,Stored: %s / %s,在庫: %s / %s
-misc.refinedstorage.storage.stored_capacity_minimal,%s / %s,%s / %s
-misc.refinedstorage.storage.stored_minimal,%s,%s
+misc.refinedstorage.storage.stored_capacity_minimal,%s / %s,
 sidebutton.refinedstorage.access_type,Access type,アクセスタイプ
 sidebutton.refinedstorage.access_type.0,Insert and extract,搬入・搬出
 sidebutton.refinedstorage.access_type.1,Insert only,挿入のみ
@@ -980,7 +978,6 @@ sidebutton.refinedstorage.grid.sorting.direction.1,Descending,降順
 sidebutton.refinedstorage.grid.sorting.type,Sorting type,並べ替え
 sidebutton.refinedstorage.grid.sorting.type.0,Quantity,数量
 sidebutton.refinedstorage.grid.sorting.type.1,Name,名前
-sidebutton.refinedstorage.grid.sorting.type.2,ID,ID
 sidebutton.refinedstorage.grid.sorting.type.4,Last modified,最終変更時間
 sidebutton.refinedstorage.grid.view_type,Display,表示
 sidebutton.refinedstorage.grid.view_type.0,Normal,通常
@@ -1036,7 +1033,7 @@ gui.refinedstorage:wireless_transmitter.distance,%d block(s),%d ブロック
 gui.refinedstorage:crafter,Crafter,クラフター
 gui.refinedstorage:filter,Filter,フィルター
 gui.refinedstorage:filter.compare_damage,Damage,ダメージ
-gui.refinedstorage:filter.compare_nbt,NBT,NBT
+gui.refinedstorage:filter.compare_nbt,NBT,
 gui.refinedstorage:filter.mod_filter,Mod filter,Modフィルター
 gui.refinedstorage:network_transmitter,Network Transmitter,ネットワーク送信器
 gui.refinedstorage:network_transmitter.distance,%d block(s),%d ブロック
@@ -1074,13 +1071,13 @@ gui.refinedstorage:security_manager.permission.5.tooltip,Ability to change secur
 gui.refinedstorage:storage_monitor,Storage Monitor,ストレージモニタ
 gui.refinedstorage:portable_grid,Portable Grid,持ち運びグリッド
 gui.refinedstorage:crafter_manager,Crafter Manager,クラフターマネージャー
-misc.refinedstorage:energy_stored,%d / %d FE,%d / %d FE
+misc.refinedstorage:energy_stored,%d / %d FE,
 misc.refinedstorage:energy_usage,Usage: %d FE/t,消費電力: %d FE/t
 misc.refinedstorage:energy_usage_minimal,%d FE/t,%d FE/ティック
 misc.refinedstorage:storage.stored,Stored: %s,保存: %s
 misc.refinedstorage:storage.stored_capacity,Stored: %s / %s,在庫: %s / %s
-misc.refinedstorage:storage.stored_minimal,%s,%s
-misc.refinedstorage:storage.stored_capacity_minimal,%s / %s,%s / %s
+misc.refinedstorage:storage.stored_minimal,%s,
+misc.refinedstorage:storage.stored_capacity_minimal,%s / %s,
 misc.refinedstorage:storage.full,%d%% full,%d%%を使用中
 misc.refinedstorage:network_item.tooltip,"Linked to %d, %d, %d.","リンク先: %d, %d, %d."
 misc.refinedstorage:network_item.out_of_range,There is no Wireless Transmitter in range.,有効範囲内のワイヤレス送信機がありません
@@ -1132,7 +1129,7 @@ sidebutton.refinedstorage:grid.sorting.direction.1,Descending,降順
 sidebutton.refinedstorage:grid.sorting.type,Sorting type,並べ替え
 sidebutton.refinedstorage:grid.sorting.type.0,Quantity,数量
 sidebutton.refinedstorage:grid.sorting.type.1,Name,名前
-sidebutton.refinedstorage:grid.sorting.type.2,ID,ID
+sidebutton.refinedstorage:grid.sorting.type.2,ID,
 sidebutton.refinedstorage:grid.sorting.type.3,InventoryTweaks,インベントリチューニング
 sidebutton.refinedstorage:grid.sorting.type.4,Last modified,最終変更時間
 sidebutton.refinedstorage:grid.search_box_mode,Search box mode,検索ボックス
@@ -1259,7 +1256,7 @@ item.refinedstorage:cutting_tool.name,Cutting Tool,切断ツール
 item.refinedstorage:cover.name,Cover,カバー
 item.refinedstorage:hollow_cover.name,Hollow Cover,空洞のカバー
 item.refinedstorage:processor_binding.name,Processor Binding,プロセッサ接合材
-commands.refinedstorage.createdisk.usage,/createdisk <player> <item> <metadata> <id>,/createdisk <player> <item> <metadata> <id>
+commands.refinedstorage.createdisk.usage,/createdisk <player> <item> <metadata> <id>,
 commands.refinedstorage.createdisk.error.notADisk,The given disk item is not a disk.,指定されたディスクアイテムはディスクではありません。
 commands.refinedstorage.createdisk.error.diskNotFound,Disk %s was not found.,ディスク%sが見つかりません
 commands.refinedstorage.createdisk.success,Successfully gave disk %s to %s.,ディスク%sを%sに割り当てました
@@ -1331,3 +1328,20 @@ advancements.refinedstorage:hollow_covering,Hollow covering,ホローカバー
 advancements.refinedstorage:hollow_covering.description,"Craft a Hollow Cover to hide cables, but still let cable through",ケーブルを隠すホロウカバーを作成し、しかしケーブルは通過させる
 advancements.refinedstorage:binding,Binding,結合部
 advancements.refinedstorage:binding.description,Craft Processor Binding to craft the various processors,様々なプロセッサーをクラフトするためにプロセッサーバインディングを作成する
+advancements.refinedstorage.no_cables_required.description,"Add extra components to your network without using cables by using a Network Transmitter, Network Receiver and Network Card",
+itemGroup.refinedstorage,Refined Storage,
+sidebutton.refinedstorage.grid.sorting.type.3,InventoryTweaks,
+gui.refinedstorage:fluid_amount,Fluid amount in mB,
+gui.refinedstorage:crafting_preview.error.recursive.4,Offending pattern:,
+gui.refinedstorage:security_manager.permission.3.tooltip,Opening block GUIs,
+misc.refinedstorage:oredict,Oredict,
+sidebutton.refinedstorage:grid.view_type.2,Only craftables,
+sidebutton.refinedstorage:access_type.0,Insert and extract,
+sidebutton.refinedstorage:access_type.2,Extract only,
+block.refinedstorage:reader.name,Reader,
+block.refinedstorage:writer.name,Writer,
+item.refinedstorage:storage_disk.5.name,Debug Storage Disk,
+advancements.refinedstorage:no_cables_required.description,"Add extra components to your network without using cables by using a Network Transmitter, Network Receiver and Network Card",
+gui.refinedstorage.grid.sorting.type.id,ID,
+misc.refinedstorage.storage.stored_minimal,%s,
+sidebutton.refinedstorage.grid.sorting.type.2,ID,

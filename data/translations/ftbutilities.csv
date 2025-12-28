@@ -19,7 +19,7 @@ ftbutilities.login.enable_motd,Enable MOTD,MOTDを有効化
 ftbutilities.login.enable_starting_items,Enable Starting Items,開始時アイテムの有効化
 ftbutilities.login.enable_global_badges,Enable Global Badges,グローバルバッジの有効化
 ftbutilities.login.enable_event_badges,Enable Event Badges,イベントバッジの有効化
-ftbutilities.login.motd,MOTD,MOTD
+ftbutilities.login.motd,MOTD,
 ftbutilities.login.starting_items,Starting Items,開始時アイテム
 ftbutilities.world,World,ワールド
 ftbutilities.world.blocked_claiming_dimensions,Blocked Claiming Dimensions,領有禁止ディメンション
@@ -137,7 +137,6 @@ admin_panel.ftbutilities.config,Edit Config,設定を編集
 admin_panel.ftbutilities.ranks,Edit Ranks,ランクを編集
 admin_panel.ftbutilities.ranks.player_ranks,Player Ranks,プレイヤーランク
 admin_panel.ftbutilities.ranks.select_rank,Select Rank,ランクを選択
-admin_panel.ftbutilities.ranks.edit.id,ID,ID
 admin_panel.ftbutilities.ranks.edit.chat_formatting,Chat Formatting,チャットのフォーマット
 admin_panel.ftbutilities.ranks.edit.permissions,Permissions,コロニー権限
 admin_panel.ftbutilities.claimed_chunks,View All Claimed Chunks,全ての領有チャンクを表示
@@ -191,7 +190,7 @@ ftbutilities.lang.homes.cooldown,You can only use home in %s!,%sでホームへ�
 ftbutilities.lang.homes.cross_dim,You can't teleport to another dimension!,別のディメンションへはテレポートできません！
 ftbutilities.lang.homes.limit,You can't set any more home locations!,これ以上ホームを設定することができません！
 ftbutilities.lang.homes.spectator,Exit spectator mode first!,最初にスペクテイターモードを終了してください！
-ftbutilities.lang.tpa.from_to,%s -> %s,%s -> %s
+ftbutilities.lang.tpa.from_to,%s -> %s,
 ftbutilities.lang.tpa.request_received,%s requests TPA! %s to accept.,%sがTPAをリクエストしています。%sで承認。
 ftbutilities.lang.tpa.request_sent,Request sent!,リクエストを送信しました！
 ftbutilities.lang.tpa.no_request,%s is not requesting TPA!,%sはTPAを要求していません！
@@ -199,50 +198,50 @@ ftbutilities.lang.tpa.cant_request,Can't request TPA!,TPAをリクエストで�
 ftbutilities.lang.tpa.request_expired,TPA request expired!,TPA リクエストの有効期限が切れました！
 ftbutilities.lang.tpa.request_accepted,TPA Request accepted!,TPAリクエストが承認されました！
 ftbutilities.lang.rtp.fail,Could not find a valid location to teleport to!,テレポート先の有効な場所が見つかりませんでした。
-commands.shutdown.usage,/shutdown,/shutdown
-commands.inv.usage,/inv,/inv
+commands.shutdown.usage,/shutdown,
+commands.inv.usage,/inv,
 commands.inv.view.usage,/inv view <player>,/inv view <プレイヤー>
 commands.inv.save.usage,/inv save <player> <id>,/inv save <プレイヤー> <id>
 commands.inv.load.usage,/inv load <player> <id>,/inv load <プレイヤー> <id>
-commands.inv.list.usage,/inv list,/inv list
+commands.inv.list.usage,/inv list,
 commands.warp.usage,/warp <warp>,/warp <ワープ>
 commands.setwarp.usage,/setwarp <warp> <player>|{<x> <y> <z> [dim]},/setwarp <ワープ> <プレイヤー>|{<x> <y> <z> [dim]}
 commands.delwarp.usage,/delwarp <warp>,/delwarp <ワープ>
 commands.home.usage,/home [list|list_all|home] [player],/home [list|list_all|ホーム] [プレイヤー]
 commands.sethome.usage,/sethome [home],/sethome [ホーム]
 commands.delhome.usage,/delhome [home],/delhome [ホーム]
-commands.server_info.usage,/server_info,/server_info
-commands.loaded_chunks_list.usage,/loaded_chunks_list,/loaded_chunks_list
+commands.server_info.usage,/server_info,
+commands.loaded_chunks_list.usage,/loaded_chunks_list,
 commands.tpl.usage,/tpl (<x> <y> <z>) | ([who] <player>),/tpl (<x> <y> <z>) | ([who] <プレイヤー>)
-commands.trash_can.usage,/trash_can,/trash_can
-commands.back.usage,/back,/back
-commands.spawn.usage,/spawn,/spawn
-commands.chunks.usage,/chunks,/chunks
-commands.chunks.claim.usage,/chunks claim,/chunks claim
-commands.chunks.unclaim.usage,/chunks unclaim,/chunks unclaim
-commands.chunks.load.usage,/chunks load,/chunks load
+commands.trash_can.usage,/trash_can,
+commands.back.usage,/back,
+commands.spawn.usage,/spawn,
+commands.chunks.usage,/chunks,
+commands.chunks.claim.usage,/chunks claim,
+commands.chunks.unclaim.usage,/chunks unclaim,
+commands.chunks.load.usage,/chunks load,
 commands.chunks.unload.usage,/chunks unload [player],/chunks unload [プレイヤー]
 commands.chunks.unclaim_all.usage,/chunks unclaim_all [dimension] [player],/chunks unclaim_all [ディメンション] [プレイヤー]
 commands.chunks.unload_all.usage,/chunks unload_all [dimension] [player],/chunks unload_all [ディメンション] [プレイヤー]
 commands.chunks.unclaim_everything.usage,/chunks unclaim_everything [dimension],/chunks unclaim_everything [ディメンション]
 commands.chunks.unload_everything.usage,/chunks unload_everything [dimension],/chunks unload_everything [ディメンション]
-commands.chunks.info.usage,/chunks info,/chunks info
+commands.chunks.info.usage,/chunks info,
 commands.chunks.info.text,Chunk %d:%d in %s: %s,チャンク %d:%d の %s: %s
 commands.chunks.info.not_claimed,Not claimed,領有されていません
-commands.chunks.claim_as.usage,/chunks claim_as <server team> [radius in chunks],/chunks claim_as <サーバーチーム> [チャンク単位の半径]
-commands.chunks.claim_as.not_server_team,Team %s is not a server team! Use /team create_server_team <name>,チーム「%s」はサーバーチームではありません！ 次のコマンドを使用してください: /team create_server_team <name>
-commands.kickme.usage,/kickme,/kickme
+commands.chunks.claim_as.usage,/chunks claim_as <server team> [radius in chunks],/chunks claim_as <サーシラカバーム> [チャンク単位の半径]
+commands.chunks.claim_as.not_server_team,Team %s is not a server team! Use /team create_server_team <name>,チーム「%s」はサーシラカバームではありません！ 次のコマンドを使用してください: /team create_server_team <name>
+commands.kickme.usage,/kickme,
 commands.ranks.none,None,なし
-commands.ranks.usage,/ranks,/ranks
+commands.ranks.usage,/ranks,
 commands.ranks.not_found,Rank '%s' not found!,ランク「%s」は見つかりませんでした。
 commands.ranks.create.usage,/ranks create <id> [parent],/ranks create <ID> [親]
 commands.ranks.create.id_invalid,Invalid rank ID: '%s'. It must be alphanumeric & lowercase!,無効なランクID: '%s'。アルファベット・数字で小文字のみである必要があります！
 commands.ranks.create.id_exists,Rank '%s' already exists!,ランク '%s' は既に存在します！
 commands.ranks.create.added,Rank %s added!,ランク %s を追加しました!
-commands.ranks.info.usage,/ranks info <rank|player>,/ranks info <rank|player>
-commands.ranks.add.usage,/ranks add <rank|player> <rank>,/ranks add <rank|player> <rank>
+commands.ranks.info.usage,/ranks info <rank|player>,
+commands.ranks.add.usage,/ranks add <rank|player> <rank>,
 commands.ranks.add.text,Added rank %s as parent for %s,ランク %s を %s の親として追加しました
-commands.ranks.remove.usage,/ranks remove <rank|player> [rank],/ranks remove <rank|player> [rank]
+commands.ranks.remove.usage,/ranks remove <rank|player> [rank],
 commands.ranks.remove.text,Removed rank %s as parent from %s,親からランク%sを削除しました
 commands.ranks.get_permission.usage,/ranks get_permission <rank|player> <permission>,/ranks get_permission <プレイヤー> <パーミッション>
 commands.ranks.get_permission.text,%s for %s is %s,%2$sの%1$sは%3$sです
@@ -253,28 +252,31 @@ commands.ranks.delete.deleted,Rank %s deleted,ランク「%s」を削除しま�
 commands.upload_crash_report.usage,/upload_crash_report <file>,/upload_crash_report <ファイル>
 commands.heal.usage,/heal [player],/heal [プレイヤー]
 commands.killall.usage,/killall [type] [dimension],/killall [タイプ] [ディメンション]
-commands.nbtedit.usage,/nbtedit,/nbtedit
+commands.nbtedit.usage,/nbtedit,
 commands.nbtedit.too_large,NBT size too large!,NBTのサイズが大きすぎます！
-commands.nbtedit.block.usage,/nbtedit block <x> <y> <z>,/nbtedit block <x> <y> <z>
-commands.nbtedit.entity.usage,/nbtedit entity <id>,/nbtedit entity <id>
+commands.nbtedit.block.usage,/nbtedit block <x> <y> <z>,
+commands.nbtedit.entity.usage,/nbtedit entity <id>,
 commands.nbtedit.player.usage,/nbtedit player <player>,/nbtedit player <プレイヤー>
-commands.nbtedit.item.usage,/nbtedit item,/nbtedit item
+commands.nbtedit.item.usage,/nbtedit item,
 commands.tpa.usage,/tpa <player>,/tpa <プレイヤー>
 commands.tpaccept.usage,/tpaccept <player>,/tpaccept <プレイヤー>
 commands.tpdeny.usage,/tpdeny <player>,/tpdeny <プレイヤー>
 commands.nick.usage,/nick <name...>,/nick <名前...>
 commands.nickfor.usage,/nickfor <player> <name...>,/nickfor <プレイヤー> <名前...>
-commands.fly.usage,/fly,/fly
-commands.cycle_block_state.usage,/cycle_block_state,/cycle_block_state
-commands.leaderboards.usage,/leaderboards [id],/leaderboards [id]
+commands.fly.usage,/fly,
+commands.cycle_block_state.usage,/cycle_block_state,
+commands.leaderboards.usage,/leaderboards [id],
 commands.mute.usage,/mute <player>,/mute <プレイヤー>
 commands.mute.muted,You are muted!,ミュートされました！
 commands.unmute.usage,/unmute <player>,/unmute <プレイヤー>
-commands.rec.usage,/rec,/rec
+commands.rec.usage,/rec,
 commands.rec.recording,%s is now recording!,%sがレコーディング中です！
 commands.rec.not_recording,%s is no longer recording!,%sはレコーディングを終了しました！
 commands.ping.integrated_server,Integrated Server,統合サーバー
 commands.ping.unknown,Unknown,不明
 commands.shrug.usage,/shrug [text...],/shrug [テキスト...]
-commands.scan_items.usage,/scan_items,/scan_items
-commands.print_item.usage,/print_item,/print_item
+commands.scan_items.usage,/scan_items,
+commands.print_item.usage,/print_item,
+admin_panel.ftbutilities.ranks.edit.parent,Parent,
+commands.ping.ping,Ping %s,
+admin_panel.ftbutilities.ranks.edit.id,ID,

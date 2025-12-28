@@ -1,8 +1,8 @@
 ﻿key,source_text,target_text
 block.structure_gel.blue_gel,Blue Gel,青ゲル
-block.structure_gel.cyan_gel,Cyan Gel,シアンゲル
+block.structure_gel.cyan_gel,Cyan Gel,青緑ゲル
 block.structure_gel.green_gel,Green Gel,緑色ゲル
-block.structure_gel.orange_gel,Orange Gel,オレンジジェル
+block.structure_gel.orange_gel,Orange Gel,橙ジェル
 block.structure_gel.red_gel,Red Gel,赤いジェル
 block.structure_gel.yellow_gel,Yellow Gel,イエロージェル
 commands.structure_gel.clone.override,Overriding vanilla clone limit of %s blocks by cloning %s blocks. This may take some time,ベーシックなクローン制限%sブロックを%sブロックにクローンして上書きしています。時間がかかる場合があります
@@ -194,9 +194,9 @@ info.structure_gel.building_tool.property.retain_state.value.true,True,真
 info.structure_gel.building_tool.property.rotation,Rotation,回転
 info.structure_gel.building_tool.property.rotation.description,• Rotates what the currently selected tool mode will place by the amount selected.,• 現在選択されたツールモードが置くものを選択量だけ回転させます。
 info.structure_gel.building_tool.property.rotation.value.r_0,None,なし
-info.structure_gel.building_tool.property.rotation.value.r_180,180°,180°
-info.structure_gel.building_tool.property.rotation.value.r_270,270°,270°
-info.structure_gel.building_tool.property.rotation.value.r_90,90°,90°
+info.structure_gel.building_tool.property.rotation.value.r_180,180°,
+info.structure_gel.building_tool.property.rotation.value.r_270,270°,
+info.structure_gel.building_tool.property.rotation.value.r_90,90°,
 info.structure_gel.building_tool.property.rotation.value.random,Random,ランダム
 info.structure_gel.building_tool.property.shape,Shape,形状
 info.structure_gel.building_tool.property.shape.description,• Determines the shape of the area to affect.,• 影響を与える領域の形状を決定します。
@@ -322,3 +322,5 @@ item.structure_gel.building_tool.mode.structure_gel:shape,Shape,形状
 itemGroup.structure_gel.structure_items,Structure Items,構造アイテム
 itemGroup.structure_gel.structure_items.no_access,You need access to commands to access items in this tab.,このタブ内のアイテムにアクセスするにはコマンドへのアクセス権が必要です。
 key.structure_gel.open_building_tool_gui,Open Building Tool GUI,建物ツールのGUIを開く
+info.structure_gel.unknown_behavior,• The behavior for this block is undefined. Make sure you're using or extending off of StructureGelBlock in code.,
+info.structure_gel.building_tool.select_pos_1.description,• Uses your current position as the first corner.,

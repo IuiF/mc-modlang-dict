@@ -11,7 +11,7 @@ gui.thermalexpansion.device.mob_catcher.modeHostile,Capture Only Hostile,敵対m
 gui.thermalexpansion.jei.centrifuge.mobChance,Base Chance,基本確率
 gui.thermalexpansion.jei.centrifuge.mobNotice,Up to the listed amount may be produced.,表記している個数まで生成される可能性があります。
 gui.thermalexpansion.jei.factorizer.modeCombine,Combine,組み合わせ
-gui.thermalexpansion.jei.factorizer.modeSplit,Split,スタック分割
+gui.thermalexpansion.jei.factorizer.modeSplit,Split,分割
 gui.thermalexpansion.jei.transposer.modeEmpty,Empty,空
 gui.thermalexpansion.jei.transposer.modeFill,Fill,埋める
 gui.thermalexpansion.machine.crafter.clearRecipe,Clear Recipe,レシピを初期化
@@ -174,7 +174,7 @@ info.thermalexpansion.augment.machineSmelterPyrotheum.0,Induction Smelter: Speci
 info.thermalexpansion.augment.machineSmelterPyrotheum.a.0,Increases yield from ores.,生成物の歩留まりが良くなります。
 info.thermalexpansion.augment.machineSmelterPyrotheum.b.0,Additional energy is required per operation.,1回の作業毎に要求されるエネルギーが増加します。
 info.thermalexpansion.augment.machineSmelterPyrotheum.c.0,Blazing Pyrotheum must be supplied.,燃え盛るパイロジウムが必要になります。
-info.thermalexpansion.augment.noticeAdvanced,NYI,NYI
+info.thermalexpansion.augment.noticeAdvanced,NYI,
 info.thermalexpansion.augment.noticeCreative,Requires a Creative block.,クリエイティブランクが必要です。
 info.thermalexpansion.augment.noticeEnder,Requires a Resonant block.,レゾナントランクが必要です。
 info.thermalexpansion.augment.noticeMode,Only one Specialization may be installed.,適用可能な特化オーグメントは1種だけに限られます。
@@ -264,8 +264,8 @@ info.thermalexpansion.storage.cache,Stores a large amount of an item.,1つのア
 info.thermalexpansion.storage.cell,Stores a large amount of Redstone Flux.,大量のRFを貯蔵することが出来ます。
 info.thermalexpansion.storage.strongbox,Stores items. Can be secured.,アイテムを収納します。アクセス制限を設定できます。
 info.thermalexpansion.storage.tank,Stores a large amount of a fluid.,大量の液体を貯蔵できます。
-item.thermalexpansion.augment.apparatusDepth.name,WIP,WIP
-item.thermalexpansion.augment.apparatusRadius.name,WIP,WIP
+item.thermalexpansion.augment.apparatusDepth.name,WIP,
+item.thermalexpansion.augment.apparatusRadius.name,WIP,
 item.thermalexpansion.augment.dynamoBoiler.name,Boiler Conversion,ボイラー化
 item.thermalexpansion.augment.dynamoCoilDuct.name,Transmission Coil Ducting,コイル導管化転送
 item.thermalexpansion.augment.dynamoCompressionBiofuel.name,Agitative Manifold,扇動的マニホールド
@@ -343,7 +343,6 @@ item.thermalexpansion.satchel.standard2.name,Satchel (Reinforced),サッチェ�
 item.thermalexpansion.satchel.standard3.name,Satchel (Signalum),サッチェル (シグナルム)
 item.thermalexpansion.satchel.standard4.name,Satchel (Resonant),サッチェル (レゾナント)
 item.thermalexpansion.satchel.void.name,Satchel (Void),サッチェル (ヴォイド)
-itemGroup.thermalexpansion.creativeTab,Thermal Expansion,サーマル・エクスパンション
 itemGroup.thermalexpansion.creativeTabFlorbs,Thermal Expansion: Florbs,Thermal Expansion: フローブ
 itemGroup.thermalexpansion.creativeTabMorbs,Thermal Expansion: Morbs,Thermal Expansion: モーブ
 itemGroup.thermalexpansion.creativeTabItems,Thermal Expansion: Items,Thermal Expansion: アイテム
@@ -531,7 +530,7 @@ achievement.thermalexpansion.crucible.desc,"Yes, it can make lava. You monster."
 achievement.thermalexpansion.transposer,(Mostly) Free Refills,(ほとんど) 詰め替え無料
 achievement.thermalexpansion.transposer.desc,Filling buckets by hand is hard work.,バケツに手で液体を入れるのは重労働だ。
 achievement.thermalexpansion.precipitator,Snowball Fight!,雪合戦！
-achievement.thermalexpansion.precipitator.desc,Will not make yellow snow.,黄色い雪は作ってくれません。
+achievement.thermalexpansion.precipitator.desc,Will not make yellow snow.,黄の雪は作ってくれません。
 achievement.thermalexpansion.extruder,This Thing Rocks!,これは最高だ！
 achievement.thermalexpansion.extruder.desc,It also Obsidians!,黒曜石も！
 achievement.thermalexpansion.accumulator,"Water, Water Everywhere",水がどこにでも
@@ -544,7 +543,7 @@ achievement.thermalexpansion.insolator,Sun in a Box!,箱の中の太陽！
 achievement.thermalexpansion.insolator.desc,Definitely not organic.,絶対に有機物ではありません。
 achievement.thermalexpansion.wrench,Looks Like a Nail!,釘みたい！
 achievement.thermalexpansion.wrench.desc,Any tool is a hammer if you *really* need one.,すべての工具は必要とすればトンカチになる。
-achievement.thermalexpansion.multimeter,B.S.E.E.,B.S.E.E.
+achievement.thermalexpansion.multimeter,B.S.E.E.,
 achievement.thermalexpansion.multimeter.desc,"There are no accidents, only Flukes.",事故ではありません、幸運です。
 achievement.thermalexpansion.schematic,No Scheming Involved,計画なし
 achievement.thermalexpansion.schematic.desc,It's more of a plan.,というか案です。
@@ -856,7 +855,6 @@ tile.thermalexpansion.frame.tesseractFull.name,Tesseract Frame (Full),満たさ�
 tile.thermalexpansion.frame.illuminator.name,Illuminator Frame,照明フレーム
 tile.thermalexpansion.glass.name,Hardened Glass,強化ガラス
 tile.thermalexpansion.glassLumium.name,Hardened Lumium Glass,強化ルミウムガラス
-tile.thermalexpansion.light.name,6-Mode Lighting,6-Mode Lighting
 tile.thermalexpansion.light.lampLumiumRadiant.name,Radiant Lumium Lamp,放射ルミウム灯
 tile.thermalexpansion.light.lampLumium.name,Lumium Lamp,ルミウム灯
 tile.thermalexpansion.machine.accumulator.name,Aqueous Accumulator,水生成器
@@ -868,22 +866,22 @@ tile.thermalexpansion.plate.translocate.name,Translocation Plate,転移プレー
 tile.thermalexpansion.plate.charge.name,Charge Plate,チャージプレート
 tile.thermalexpansion.plate.teleport.name,Teleport Plate,テレポートプレート
 tile.thermalexpansion.plate.excursion.name,Excursion Plate,浮遊プレート
-tile.thermalexpansion.rockwool.black.name,Black Rockwool,黒色の岩綿
-tile.thermalexpansion.rockwool.red.name,Red Rockwool,赤色の岩綿
-tile.thermalexpansion.rockwool.green.name,Green Rockwool,緑色の岩綿
+tile.thermalexpansion.rockwool.black.name,Black Rockwool,黒い岩綿
+tile.thermalexpansion.rockwool.red.name,Red Rockwool,赤い岩綿
+tile.thermalexpansion.rockwool.green.name,Green Rockwool,緑の岩綿
 tile.thermalexpansion.rockwool.brown.name,Brown Rockwool,茶色の岩綿
-tile.thermalexpansion.rockwool.blue.name,Blue Rockwool,青色の岩綿
-tile.thermalexpansion.rockwool.purple.name,Purple Rockwool,紫色の岩綿
-tile.thermalexpansion.rockwool.cyan.name,Cyan Rockwool,青緑色の岩綿
+tile.thermalexpansion.rockwool.blue.name,Blue Rockwool,青い岩綿
+tile.thermalexpansion.rockwool.purple.name,Purple Rockwool,紫の岩綿
+tile.thermalexpansion.rockwool.cyan.name,Cyan Rockwool,青緑の岩綿
 tile.thermalexpansion.rockwool.silver.name,Light Gray Rockwool,薄灰色の岩綿
 tile.thermalexpansion.rockwool.gray.name,Gray Rockwool,灰色の岩綿
 tile.thermalexpansion.rockwool.pink.name,Pink Rockwool,桃色の岩綿
-tile.thermalexpansion.rockwool.lime.name,Lime Rockwool,黄緑色の岩綿
-tile.thermalexpansion.rockwool.yellow.name,Yellow Rockwool,黄色の岩綿
+tile.thermalexpansion.rockwool.lime.name,Lime Rockwool,黄緑の岩綿
+tile.thermalexpansion.rockwool.yellow.name,Yellow Rockwool,黄の岩綿
 tile.thermalexpansion.rockwool.lightBlue.name,Light Blue Rockwool,空色の岩綿
-tile.thermalexpansion.rockwool.magenta.name,Magenta Rockwool,赤紫色の岩綿
+tile.thermalexpansion.rockwool.magenta.name,Magenta Rockwool,赤紫の岩綿
 tile.thermalexpansion.rockwool.orange.name,Orange Rockwool,橙色の岩綿
-tile.thermalexpansion.rockwool.white.name,White Rockwool,白色の岩綿
+tile.thermalexpansion.rockwool.white.name,White Rockwool,白い岩綿
 tile.thermalexpansion.sponge.creative.name,Creative Sponge,クリエイティブスポンジ
 tile.thermalexpansion.sponge.basic.name,Plain Sponge,普通のスポンジ
 tile.thermalexpansion.sponge.magmatic.name,Magmatic Sponge,耐熱スポンジ
@@ -904,3 +902,6 @@ tile.thermalexpansion.workbench.reinforced.name,Reinforced Machinist's Workbench
 tile.thermalexpansion.workbench.resonant.name,Resonant Machinist's Workbench,共振ワークテーブル
 tile.thermalexpansion.device.workbench.name,Machinist's Workbench,ワークテーブル
 info.thermalexpansion.device.workbench,"Crafts things, can make use of Schematics.",ものづくりと設計図の作成
+item.thermalexpansion.tool.debugger.name,Debugger,
+tile.thermalexpansion.light.name,6-Mode Lighting,
+itemGroup.thermalexpansion.creativeTab,Thermal Expansion,

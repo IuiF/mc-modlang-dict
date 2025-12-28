@@ -68,17 +68,17 @@ option.frozenlib.file_transfer_server,Server Receives Files,サーバーがフ�
 option.frozenlib.is_debug,Debug Mode,デバッグモード
 option.frozenlib.remove_experimental_warning,Remove Experimental Warning,実験的警告を削除
 option.frozenlib.remove_experimental_warning.false,§cOFF,§cオフ
-option.frozenlib.remove_experimental_warning.true,§aON,§aON
+option.frozenlib.remove_experimental_warning.true,§aON,
 option.frozenlib.save_item_cooldowns,Save Item Cooldowns,アイテムの冷却時間の保存
 option.frozenlib.save_item_cooldowns.false,§cOFF,§cオフ
-option.frozenlib.save_item_cooldowns.true,§aON,§aON
+option.frozenlib.save_item_cooldowns.true,§aON,
 option.frozenlib.true,§aEnabled,§a有効
 option.frozenlib.use_wind_on_non_frozenlib_servers,Wind On Non-FrozenLib Servers,非凍結ライブラリサーバーでの風
 option.frozenlib.use_wind_on_non_frozenlib_servers.false,§cOFF,§cオフ
-option.frozenlib.use_wind_on_non_frozenlib_servers.true,§aON,§aON
+option.frozenlib.use_wind_on_non_frozenlib_servers.true,§aON,
 option.frozenlib.warden_spawn_tracker_command,Warden Spawn Tracker Command,ワーデンスパウントレーカー コマンド
 option.frozenlib.warden_spawn_tracker_command.false,§cOFF,§cオフ
-option.frozenlib.warden_spawn_tracker_command.true,§aON,§aON
+option.frozenlib.warden_spawn_tracker_command.true,§aON,
 tooltip.frozenlib.cape,"A list of capes added through FrozenLib.
 Click to select the next cape.",FrozenLib を通じて追加されたケープのリストです。
 tooltip.frozenlib.datafixer,Contains options for DataFixers,DataFixers のオプションを含みます。
@@ -116,3 +116,13 @@ When enabled, the client will generate a random seed to use
 for wind on servers that don't have FrozenLib installed.","無効の場合、クライアントはFrozenLibがインストールされていないサーバーで風を使用しません。
 有効の場合、クライアントはFrozenLibがインストールされていないサーバーで風に使用するランダムシードを生成します。"
 tooltip.frozenlib.warden_spawn_tracker_command,Enables or disables the Warden Spawn Tracker command.,ウォーデンスポーントラッカーコマンドを有効/無効にします
+tooltip.frozenlib.disabled_datafix_types,"A list of DataFix types that are excluded from running through
+the modified DataFixerUpper API by The Quilt Project
+
+Worldgen settings are disabled by default to
+prevent a compatibility issue with Lithium + BCLib
+
+The vanilla DataFix types are...
+'level', 'player', 'chunk', 'hotbar', 'options', 'structure', 'stats',
+'saved_data', 'advancements', 'poi_chunk', 'entity_chunk',
+and 'world_gen_settings'",

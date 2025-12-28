@@ -7,10 +7,7 @@ block.cccbridge.animatronic_block,Animatronic,アニメーション機械
 block.cccbridge.animatronic_block.description,"§6Its facial expression as well as the whole body can be changed and positioned using a §eComputer§6.
 
 §7When pushing
- §6Applies the buffered §orotations§r§6 to the §eAnimatronic§6.","§6顔の表情と身体全体は§eコンピュータ§6を使って変更・配置できます。
-
-§7押す時
- §6バッファされた§o回転§r§6を§eアニマトロニクス§6に適用します。"
+ §6Applies the buffered §orotations§r§6 to the §eAnimatronic§6.",§6顔の表情や全身を§eComputer§6で変更・位置合わせできます。
 block.cccbridge.redrouter_block,RedRouter Block,赤いルーターブロック
 block.cccbridge.redrouter_block.description,§6Can control §eRedstone§6 signals via the §oRedstone API§r§6.,§6Redstone §eシグナルを §oRedstone API§r§6 で制御できます。
 block.cccbridge.scroller_block,Scroller Pane,スクロールパネル
@@ -21,12 +18,7 @@ block.cccbridge.source_block.description,"§6Can mirror text to other §otargets
 §7When lamp flashes
  §6Transmits the currently buffered text to the §otarget§r§6.
 §7When resolution changes
- §6Queues an §oevent§r§6 to all connected §eComputers§6.","§6§eディスプレイリンク§6を通じてテキストを他の§oターゲット§r§6にミラーできます。
-
-§7ランプが点滅時
- §6現在バッファされたテキストを§oターゲット§r§6に送信します。
-§7解像度が変更時
- §6接続されたすべての§eコンピュータ§6に§oイベント§r§6をキューイングします。"
+ §6Queues an §oevent§r§6 to all connected §eComputers§6.",§6テキストを他のターゲットにミラーリングできます§r§6 ディスプレイリンク経由で§eDisplay Link§6.
 block.cccbridge.target_block,Target Block,ターゲットブロック
 block.cccbridge.target_block.description,§6Acts as an §otarget§r§6 to other §osources§r§6. §eComputer§6's can access all kinds of information from §eCreate§6 this way.,§6他の§oソース§r§6に対する§oターゲット§r§6として機能します。§eコンピュータ§6は§eCreate§6からあらゆる種類の情報にアクセスできます。
 cccbridge.display_source.source_block_display_source,Given data from computer,コンピュータから取得したデータ
@@ -46,3 +38,4 @@ painting.cccbridge.funny_redrouters.author,Sammy L. Koch,サミー・L・コッ�
 painting.cccbridge.funny_redrouters.title,Funny RedRounters,面白いRedRounters
 subtitles.cccbridge.cage_lock,Scroller locked,スクロールがロックされています
 subtitles.cccbridge.cage_unlock,Scroller unlocked,スクローラーが解除されました
+cccbridge.options.tooltip.flickering,Determines whether or not the faces of RedRouter blocks or animatronics flicker in dark places.,

@@ -119,7 +119,7 @@ info_book.integratedscripting.writing.variables.text3,"&olet&r defines variables
 info_book.integratedscripting.writing.variables.text4,"In order to use this value in a &lVariable Card&r, you need to select the variable member name inside the Scripting Terminal text editor, and then insert an empty &lVariable Card&r in the right-hand slot. You can now use this &lVariable Card&r as you're used to, such as visualizing its value in a &lDisplay Panel&r.",この値を&l変数カード&rで使用するには、スクリプティングターミナルテキストエディタ内で変数メンバー名を選択し、右側のスロットに空の&l変数カード&rを挿入する必要があります。この&l変数カード&rを、&l表示パネル&rでその値を可視化するなど、いつものように使用できるようになりました。
 item.integratedscripting.scripting_disk,Scripting Disk,スクリプティングディスク
 item.integratedscripting.scripting_disk.bytes,Bytes: %s,バイト: %s
-item.integratedscripting.scripting_disk.id,ID: %s,ID: %s
+item.integratedscripting.scripting_disk.id,ID: %s,
 item.integratedscripting.scripting_disk.info,Store scripts.,スクリプトを保存します。
 itemGroup.integratedscripting,Integrated Scripting,統合スクリプティング
 operator.integratedscripting.error.no_graal_serialization,Integrated Scripts can not be serialized,Integrated Scriptはシリアル化できません
@@ -146,3 +146,23 @@ valuetype.integratedscripting.error.translation.unknown_from_graal,Could not fin
 valuetype.integratedscripting.error.translation.unknown_to_graal,Could not find a translator from %s values to Graal.,%s値からグラールへのトランスレータが見つかりませんでした。
 valuetype.integratedscripting.error.translation.unknown_to_graal_nbt,Could not find a translator from %s values to Graal during NBT translation.,NBT変換中に%s値からグラールへのトランスレータが見つかりませんでした。
 valuetype.integratedscripting.error.translation.unsupported_translateToNbt,"Illegal conversion of %s ""%s"" to NBT.","%s""%s""のNBTへの違法な変換です。"
+advancement.integratedscripting.mendesite.desc,"Craft a Mendesite block, which is a basic resource for Integrated Scripting.",
+info_book.integratedscripting.advanced.transient_storage.text1,"Since Integrated Dynamics is based on functional programming principles, keeping track of states is mainly non-existent, except through external approaches such as the &lDelayer&r.",
+info_book.integratedscripting.advanced.typescript,TypeScript,
+info_book.integratedscripting.advanced.typescript.text2,"While Integrated Scripting only supports pure JavaScript, a TypeScript &otypings file&r is available for all available global functions, value types, and their methods.",
+info_book.integratedscripting.drive.text1,"Each &lScripting Drive&r is a block that is connected to your &lIntegrated Dynamics&r network that accepts a single &lScripting Disk&r, which allows the disk's script contents to be exposed to the network.",
+info_book.integratedscripting.introduction.text1,"&lIntegrated Scripting&r is an extension to &lIntegrated Dynamics&r for creating scripts to handle complex operations in &lIntegrated Dynamics&r networks. By default, this mod ships with support for the JavaScript scripting language.",
+info_book.integratedscripting.introduction.text2,"It allows you to define &lIntegrated Dynamics&r logic operations using a convenient scripting syntax instead of the standard visual variable card-based method, which can become cumbersome for advanced chains of operations.",
+info_book.integratedscripting.terminal.text1,The &lScripting Terminal&r is a part that must be connected to your &lIntegrated Dynamics&r network to manage the scripts stored in the &lScripting Disks&r of this network.,
+info_book.integratedscripting.terminal.text2,"When right-clicking on a placed terminal, a simplified &oIntegrated Development Environment&r (IDE) will be shown using which you can edit scripts.",
+info_book.integratedscripting.terminal.text8,"In order to use a script member as &lIntegrated Dynamics&r logic, you can bind it to a &lVariable Cards&r.",
+info_book.integratedscripting.tutorials.functions.text2,"Functions created through JavaScript can be bound to &lVariable Cards&r as &2Operator&0, which can then be used in Integrated Dynamics logic as usual. For example, you could use them for defining Integrated Tunnels exporter filters, or for calculating complex values such as the median stack size of items in a list.",
+info_book.integratedscripting.tutorials.introduction.text1,"This section contains several tutorials that help you to learn &lIntegrated Scripting&r, the &lIntegrated Dynamics&r add-on for creating scripts to handle complex operations.",
+info_book.integratedscripting.writing.functions.text1,"As &2Operator&0 are first-class citizens in Integrated Dynamics logic, they can also be created as JavaScript functions.",
+info_book.integratedscripting.writing.functions.text3,"Functions accept a number of arguments, which –when executed through Integrated Dynamics logic– will receive regular Integrated Dynamics values that are translated into JavaScript values.",
+info_book.integratedscripting.writing.globals.text1,"When writing JavaScript code, you can make use of the global &oidContext&r variable to access all Integrated Dynamics operators as functions through the &oops&r field. This allows you to make use of built-in operators when creating new ones.",
+info_book.integratedscripting.writing.globals.text3,"To know what the name is of the operator you want to execute, you can look at their global name via the operator tooltips inside the &lLogic Programmer&r or in the list of operators in the Logic Programming section of this book.",
+info_book.integratedscripting.writing.js,JavaScript,
+info_book.integratedscripting.writing.methods.text5,"Global functions that accept two or more arguments will be available as method on object values, with all arguments shifted by one. For example, the global function &oitemstackStrength&r accepts an &8Item&0 and a &8Block&0 argument, but is also available as method on &8Items&0 with a single &8Block&0 argument.",
+info_book.integratedscripting.writing.variables.text1,"All Integrated Dynamics value types that you're used to (such as &6Integers&0, &9Booleans&0, &8Items&0, ...) are available in JavaScript, and vice versa.",
+info_book.integratedscripting.writing.variables.text5,"Creating variables via JavaScript is mainly useful if you need to create complex values that are not easy to create using the &lLogic Programmer&r, such as long &4Strings&0 with a specific value. Below, you can find some examples of how to create such values.",

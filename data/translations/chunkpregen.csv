@@ -105,7 +105,7 @@ commands.chunk_pregen.retrogen.error.empty,No Retrogen Features active,アクテ
 commands.chunk_pregen.retrogen.error.full,No disabled Retrogen Features,無効化されたレトロジェン機能はありません
 commands.chunk_pregen.retrogen.feature,"Feature: %1$s, (%2$s)",機能：%1$s、(%2$s)
 commands.chunk_pregen.retrogen.list,Click to List,クリックしてリスト表示
-commands.chunk_pregen.retrogen.mod,Mod: %s,Mod: %s
+commands.chunk_pregen.retrogen.mod,Mod: %s,
 commands.chunk_pregen.retrogen.remove,Removed [%s] from the retrogen list,[%s] をレトロジェン リストから削除しました
 deleter.chunk_pregen.finish,"Deletion Finished: [Time=%1$s, Chunks=%2$s]",削除が完了しました：[時間=%1$s、チャンク数=%2$s]
 deleter.chunk_pregen.progress,Progress (Deleted | Failed) / Total: (%1$s | %2$s) / %3$s,進行状況(削除済み｜失敗)/合計：(%1$s | %2$s) / %3$s
@@ -139,16 +139,16 @@ gui.chunk_pregen.biome_preview.tooltip.go_spawn,Moves the crosshair to the Spawn
 gui.chunk_pregen.biome_preview.tooltip.grid_lines,Toggles the Gridline overlay,グリッドラインオーバーレイの切り替え
 gui.chunk_pregen.biome_preview.tooltip.guessed,(Guessed Biome Color),(推測バイオームカラー)
 gui.chunk_pregen.biome_preview.tooltip.no_spam,Toggles if Structures that are Spammed get disabled from the Overlay,スパムされている構造物をオーバーレイから除外するかどうかを切り替えます
-gui.chunk_pregen.biome_preview.tooltip.position,"X=%1$s, Z=%2$s","X=%1$s, Z=%2$s"
+gui.chunk_pregen.biome_preview.tooltip.position,"X=%1$s, Z=%2$s",
 gui.chunk_pregen.biome_preview.tooltip.positions,Toggles the Position overlay,位置オーバーレイの切り替え
 gui.chunk_pregen.biome_preview.tooltip.set_spawn,Sets the Spawn Point the location of the crosshair,スポーン地点をクロスヘアの位置に設定します
 gui.chunk_pregen.biome_preview.tooltip.slime_chunks,Toggles the Slime Chunk overlay,スライムチャンクオーバーレイの切り替え
 gui.chunk_pregen.biome_preview.tooltip.structure,Structures:,構造:
-gui.chunk_pregen.biome_preview.tooltip.structure_mod,(%1$s),(%1$s)
-gui.chunk_pregen.biome_preview.tooltip.structure_name,%1$s %2$s,%1$s %2$s
+gui.chunk_pregen.biome_preview.tooltip.structure_mod,(%1$s),
+gui.chunk_pregen.biome_preview.tooltip.structure_name,%1$s %2$s,
 gui.chunk_pregen.biome_preview.tooltip.structures,Toggles the Display of Structure Icons,構造物アイコン表示の切り替え
-gui.chunk_pregen.biome_preview.tooltip.x,X=%s,X=%s
-gui.chunk_pregen.biome_preview.tooltip.z,Z=%s,Z=%s
+gui.chunk_pregen.biome_preview.tooltip.x,X=%s,
+gui.chunk_pregen.biome_preview.tooltip.z,Z=%s,
 gui.chunk_pregen.button.patreon,Support Speiger on Patreon,Speiger のパトレオン をサポート
 gui.chunk_pregen.button.preview,Preview,プレビュー
 gui.chunk_pregen.check_screen.body,"Are you really sure you want to delete
@@ -164,7 +164,7 @@ gui.chunk_pregen.chunk_screen.entry.entities,§2Entities:§r %s,§2エンティ�
 gui.chunk_pregen.chunk_screen.entry.tiles,"§4Tiles:§r %1$s, §4Ticking:§r %2$s",ブロック：§r %1$s、ティッキング：§r %2$s
 gui.chunk_pregen.chunk_screen.header,Chunk Data,チャンクデータ
 gui.chunk_pregen.chunk_screen.search_target,Search Target,検索対象
-gui.chunk_pregen.chunk_screen.tp,TP,TP
+gui.chunk_pregen.chunk_screen.tp,TP,
 gui.chunk_pregen.chunk_screen.tp.desc,Teleport To Chunk,チャンクにテレポート
 gui.chunk_pregen.chunk_screen.types.all,All,すべて
 gui.chunk_pregen.chunk_screen.types.biomes,Biomes,バイオーム
@@ -352,7 +352,7 @@ gui.chunk_pregen.preview.confirm.entry,%1$s: %2$s Chunks,%1$s：%2$s チャン�
 gui.chunk_pregen.preview.confirm.header,Are you sure you want to keep this unfinished world?,このアンロードされたワールドを保持しますか？
 gui.chunk_pregen.preview.dim_progress.gen,Dim: %1$s / %2$s Gen-Chunks,ディメンション：%1$s / %2$s 生成チャンク
 gui.chunk_pregen.preview.dim_progress.light,Dim: %1$s / %2$s Light-Chunks,ディメンション：%1$s / %2$s 照明チャンク
-gui.chunk_pregen.preview.gc,GC,GC
+gui.chunk_pregen.preview.gc,GC,
 gui.chunk_pregen.preview.generation,Generation Settings:,生成設定：
 gui.chunk_pregen.preview.keep_world,Keep World,ワールド保持
 gui.chunk_pregen.preview.lighting,Chunk needs Lighting,チャンクに照明が必要です
@@ -427,7 +427,7 @@ gui.chunk_pregen.supporter.obtain,Obtain Access,アクセス取得
 gui.chunk_pregen.task_screen.deletion_tasks,Deletion Tasks,削除タスク
 gui.chunk_pregen.task_screen.gen_tasks,Generation Tasks,生成タスク
 gui.chunk_pregen.task_screen.header,Task List,タスクリスト
-gui.chunk_pregen.task_screen.memory,~%1$s / %2$s,~%1$s / %2$s
+gui.chunk_pregen.task_screen.memory,~%1$s / %2$s,
 gui.chunk_pregen.task_screen.nodes.active,Active Task,アクティブなタスク
 gui.chunk_pregen.task_screen.nodes.already_running,%s already has a running task,%s は既に実行中のタスクを持っています
 gui.chunk_pregen.task_screen.nodes.chunks,%s Chunks,%s チャンク
@@ -476,7 +476,7 @@ gui.chunk_pregen.taskgenerator.to_z,To Z:,終了 Z：
 gui.chunk_pregen.taskgenerator.tooltip.count_blocks,Counts as Blocks,ブロック単位でカウント
 gui.chunk_pregen.taskgenerator.tooltip.count_chunks,Counts as Chunks,チャンク単位でカウント
 gui.chunk_pregen.taskgenerator.tooltip.dimension,Dimension: ,ディメンション: 
-gui.chunk_pregen.taskgenerator.tooltip.mod,Mod: %s,Mod: %s
+gui.chunk_pregen.taskgenerator.tooltip.mod,Mod: %s,
 gui.chunk_pregen.taskgenerator.tooltip.time.days,Ingame Days,ゲーム内日数
 gui.chunk_pregen.taskgenerator.tooltip.time.irl_days,Real Life Days,現実日数
 gui.chunk_pregen.taskgenerator.tooltip.time.seconds,Seconds,秒
@@ -517,7 +517,7 @@ mini_task.chunk_pregen.size_scan.total_area,Total Area: ,総面積:
 network.chunk_pregen.failures.no_dimension,Dimension is Unloaded,ディメンションがアンロードされています
 network.chunk_pregen.failures.no_permissions,Not Enough Permission to do such Action,このアクションを実行するための権限がありません
 process.chunk_pregen.actions.continue,Continue,続行
-process.chunk_pregen.actions.listen,Listen,リッスン
+process.chunk_pregen.actions.listen,Listen,接收
 process.chunk_pregen.actions.mute,Mute,ミュート
 process.chunk_pregen.actions.pause,Pause,一時停止
 process.chunk_pregen.actions.remove,Remove,削除
@@ -527,18 +527,16 @@ process.chunk_pregen.dimension,World: %s,ワールド：%s
 process.chunk_pregen.finish,"Pregenation Finished: [Time=%1$s, Chunks=%2$s]",事前生成が完了しました：[時間=%1$s、チャンク数=%2$s]
 process.chunk_pregen.finish.cleanup,Pregenerator Finished. Starting Cleanup! May freeze the game!,事前生成完了。クリーンアップ開始！ゲームがフリーズする可能性があります！
 process.chunk_pregen.logger_split,"
-","
-"
+",
 process.chunk_pregen.name,TaskName: %s,タスク名：%s
 process.chunk_pregen.prepare,"Prepare Progress: %1$s / %2$s, [%3$s%%]",準備進行状況：%1$s / %2$s、[%3$s%%]
 process.chunk_pregen.ram,Ram Usage: %1$s MB / %2$s MB,RAM 使用量：%1$s MB / %2$s MB
 process.chunk_pregen.shape,Shape: %s,形状: %s
 process.chunk_pregen.speed_full,Speed (Main | Light): (%1$s Chunks/t | %2$s Chunks/t),速度(メイン｜光)：(%1$s チャンク/ティック｜%2$s チャンク/ティック)
 process.chunk_pregen.speed_part,Speed: %2$s Chunks/t,速度：%2$s チャンク/ティック
-process.chunk_pregen.split,", ",", "
+process.chunk_pregen.split,", ",
 process.chunk_pregen.stuck.split,"
-","
-"
+",
 process.chunk_pregen.stuck.start,"WorldGenerator didn't generate any Chunks for 2 Minutes It seems to be stuck. Dumping Thread Trace 
 ",WorldGenerator が 2 分間チャンクを生成しませんでした。停止しているようです。スレッドトレースをダンプします 
 process.chunk_pregen.task_full,Task: (Main|Light)/Total: (%1$s|%2$s)/%3$s,タスク：(メイン｜光)/合計：(%1$s｜%2$s)/%3$s
@@ -551,7 +549,7 @@ process.chunk_pregen.validation,Validation: %1$s / %2$s Chunks,検証：%1$s / %
 process.chunk_pregen.working_area,"Working Area: From[X=%1$s, Z=%2$s], To[X=%3$s, Z=%4$s]",作業エリア：開始[X=%1$s、Z=%2$s]、終了[X=%3$s、Z=%4$s]
 process.chunk_pregen.working_area.fetching,Working Area: Fetching,作業エリア：取得中
 process.chunk_pregen.world_loaded_data,Loaded (Chunks | Region Files | POI): %1$s | %2$s | %3$s,ロード済み(チャンク｜リージョンファイル｜POI)：%1$s｜%2$s｜%3$s
-process.chunk_pregen.wrap,[%s],[%s]
+process.chunk_pregen.wrap,[%s],
 queue.chunk_pregen.errors.already_exists,A Task with Id [%s] already exists,ID [%s] のタスクは既に存在します
 queue.chunk_pregen.errors.continue.no_dimension,Dimension [%s] already has a Task,ディメンション [%s] は既にタスクを持っています
 queue.chunk_pregen.errors.continue.no_processors,No Processors available,利用可能なプロセッサーがありません
@@ -595,13 +593,13 @@ task.chunk_pregen.shape_type.square,Square,正方形
 task.chunk_pregen.shape_type.square_area,Square Area,正方形エリア
 task.chunk_pregen.shape_type.square_expansion,Square Expansion,正方形拡張
 task.chunk_pregen.shape_type.timeout,Trim Timeout,タイムアウト削減
-task.chunk_pregen.split,", ",", "
+task.chunk_pregen.split,", ",
 task.chunk_pregen.task_type,Type=%s,タイプ=%s
 task.chunk_pregen.timeout,Timeout=%s,タイムアウト=%s
 task.chunk_pregen.to,"To [X=%s, Z=%s]",終了 [X=%s、Z=%s]
-task.chunk_pregen.wrap,[%s],[%s]
-task.chunk_pregen.x_coord,X=%s,X=%s
-task.chunk_pregen.z_coord,Z=%s,Z=%s
+task.chunk_pregen.wrap,[%s],
+task.chunk_pregen.x_coord,X=%s,
+task.chunk_pregen.z_coord,Z=%s,
 ui.chunk_pregen.age_scan.chunks,Chunks Scanned: %1$s / %2$s,スキャン済みチャンク：%1$s / %2$s
 ui.chunk_pregen.age_scan.dimension,Dimension: %s,ディメンション: %s
 ui.chunk_pregen.age_scan.files,Files Scanned: %1$s / %2$s,スキャン済みファイル：%1$s / %2$s
@@ -617,7 +615,7 @@ ui.chunk_pregen.deleter.pause,Pause,一時停止
 ui.chunk_pregen.deleter.paused,Task Paused,タスク一時停止中
 ui.chunk_pregen.deleter.prep,Preparing Task,タスクを準備中
 ui.chunk_pregen.deleter.prep.progress,Progress: %1$s / %2$s,進行状況：%1$s / %2$s
-ui.chunk_pregen.deleter.progress,%1$s / %2$s,%1$s / %2$s
+ui.chunk_pregen.deleter.progress,%1$s / %2$s,
 ui.chunk_pregen.deleter.progress.header,Deletion Progress,削除進行状況
 ui.chunk_pregen.deleter.remove,Remove,削除
 ui.chunk_pregen.deleter.resume,Resume,再開
@@ -652,4 +650,14 @@ ui.chunk_pregen.tracker.packets,Server Packets: %1$s (Avg: %1$s),サーバーパ
 ui.chunk_pregen.tracker.pois,Loaded Points of Interest: %s,ロード済み関心地点：%s
 ui.chunk_pregen.tracker.ram,Ram: (%1$sMB / %2$sMB),RAM: (%1$sMB / %2$sMB)
 ui.chunk_pregen.tracker.tiles,Loaded Tiles: %1$s (%2$s Ticking),ロード済みタイル：%1$s(%2$s ティッキング)
-ui.chunk_pregen.tracker.tps,TPS: %s / 20,TPS: %s / 20
+ui.chunk_pregen.tracker.tps,TPS: %s / 20,
+command.chunk_pregen.info.documentation,"You tried to call: 'Pregen DO THE THING'.
+ChunkPregen does a LOT of things. Please be more specific!
+Link: [%s]",
+command.chunk_pregen.misc.docker,"It was detected that the JVM can only see a single Core on this Server. This can have serious Performance implications.
+If you are running this server in a Docker Container please make sure you enable multithreading in it.
+Which you can by setting the ""--cpuset-cpus=0,1,2"" argument in your Docker Container. Each Number defines which core specific core should be used, though ""--cpuset-cpus=0-3"" can be used for ranges.
+More info can be found here: https://docs.docker.com/config/containers/resource_constraints/#configure-the-default-cfs-scheduler",
+gui.chunk_pregen.config.logo.link.modrinth,Modrinth,
+process.chunk_pregen.stuck.thread,"Thread=%s, StackTrace: 
+",

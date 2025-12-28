@@ -100,7 +100,7 @@ config.jade.plugin_jade.registry_name.special,Special IDs,特殊ID
 config.jade.plugin_jade.registry_name.special.block_entity_type,BlockEntity: %s,ブロックエンティティ: %s
 config.jade.plugin_jade.registry_name.special.fluid,Fluid: %s,液体: %s
 config.jade.plugin_jade.registry_name.special.painting,Painting: %s,絵画: %s
-config.jade.plugin_jade.registry_name.special.poi,POI: %s,POI: %s
+config.jade.plugin_jade.registry_name.special.poi,POI: %s,
 config.jade.plugin_jade.registry_name.special_desc,Show special IDs like BlockEntity and Fluid.,ブロックエンティティや流体などの特殊なIDを表示します。
 config.jade.plugin_jade.registry_name_advanced_tooltips,Advanced Tooltips,高度なツールチップ
 config.jade.plugin_jade.registry_name_advanced_tooltips_desc,Follow the advanced tooltips option,高度なツールチップオプションに従う
@@ -219,12 +219,11 @@ jade.access.block.active,Active %s,アクティブな%s
 jade.access.block.amount,Amount: %s,数量: %s
 jade.access.block.bites,Bites: %s,噛みつき: %s
 jade.access.block.door_closed,Closed %s,閉じた%s
-jade.access.block.door_open,%s,%s
 jade.access.block.extended,Extended %s,延長した%s
 jade.access.block.eye,%s with Eye,目の付いた%s
 jade.access.block.facing,Facing: %s,向き: %s
 jade.access.block.hatch.1,Slightly Cracked %s,わずかにひび割れた%s
-jade.access.block.hatch.2,Cracked %s,割れた%s
+jade.access.block.hatch.2,Cracked %s,ひび割れた%s
 jade.access.block.hydrated,Hydrated %s,湿った%s
 jade.access.block.inverted,Inverted %s,反転した%s
 jade.access.block.layers,Layers: %s,レイヤー: %s
@@ -240,17 +239,17 @@ jade.access.block.waterlogged,Waterlogged %s,水没した%s
 jade.access.creeper.powered,Charged %s,帯電%s
 jade.access.entity.angry,Angry %s,怒った%s
 jade.access.entity.baby,Baby %s,子供の%s
-jade.access.entity.black,Black %s,黒色の%s
-jade.access.entity.blue,Blue %s,青色の%s
+jade.access.entity.black,Black %s,黒い%s
+jade.access.entity.blue,Blue %s,青い%s
 jade.access.entity.brown,Brown %s,茶色の%s
-jade.access.entity.cyan,Cyan %s,青緑色の%s
+jade.access.entity.cyan,Cyan %s,青緑の%s
 jade.access.entity.gray,Gray %s,灰色の%s
-jade.access.entity.green,Green %s,緑色の%s
+jade.access.entity.green,Green %s,緑の%s
 jade.access.entity.leashed_to,Leashed to: %s,繋げ先: %s
 jade.access.entity.light_blue,Light Blue %s,空色の%s
 jade.access.entity.light_gray,Light Gray %s,薄灰色の%s
-jade.access.entity.lime,Lime %s,黄緑色の%s
-jade.access.entity.magenta,Magenta %s,赤紫色の%s
+jade.access.entity.lime,Lime %s,黄緑の%s
+jade.access.entity.magenta,Magenta %s,赤紫の%s
 jade.access.entity.orange,Orange %s,橙色の%s
 jade.access.entity.pink,Pink %s,桃色の%s
 jade.access.entity.pose,Pose: %s,ポーズ: %s
@@ -261,13 +260,13 @@ jade.access.entity.pose.2,Sleeping,就寝中
 jade.access.entity.pose.3,Swimming,游泳
 jade.access.entity.pose.5,Crouching,しゃがみ中
 jade.access.entity.pose.7,Dying,死に至る
-jade.access.entity.purple,Purple %s,紫色の%s
-jade.access.entity.red,Red %s,赤色の%s
+jade.access.entity.purple,Purple %s,紫の%s
+jade.access.entity.red,Red %s,赤い%s
 jade.access.entity.saddled,Saddled %s,鞍付きの%s
 jade.access.entity.sheared,Sheared %s,毛を刈られた%s
 jade.access.entity.variant,Variant: %s,バリエーション: %s
-jade.access.entity.white,White %s,白色の%s
-jade.access.entity.yellow,Yellow %s,黄色の%s
+jade.access.entity.white,White %s,白い%s
+jade.access.entity.yellow,Yellow %s,黄の%s
 jade.access.goat.hornless,Hornless %s,角無しの%s
 jade.access.held_item.main,Main Hand: %s,メインハンド: %s
 jade.access.held_item.off,Off Hand: %s,オフハンド: %s
@@ -289,9 +288,9 @@ jade.block_explosion_resistance,Explosion resistance: %s,爆発耐性: %s
 jade.block_ignite_odds,Ignite odds: %s,発火確率: %s
 jade.block_jump_factor,Jump factor: %s,跳躍係数: %s
 jade.block_speed_factor,Speed factor: %s,速度係数: %s
-jade.blockpos,%s %s %s,%s %s %s
+jade.blockpos,%s %s %s,
 jade.collectingItems,Collecting items...,アイテムを収集中...
-jade.customNameEntity,%s (%s),%s (%s)
+jade.customNameEntity,%s (%s),
 jade.distance1," [%s]",[%s]
 jade.distance2,Distance: %s,距離: %s
 jade.down,Down,下
@@ -299,13 +298,13 @@ jade.east,East,東
 jade.ench_power,Ench Power: %s,エンチャ出力: %s
 jade.energy.text,Energy: %s,エネルギー: %s
 jade.error,"<Error from %s mod, plz report>",<%sMODからエラー、報告してください>
-jade.fe,%s / %s,%s / %s
-jade.fluid,%s %s,%s %s
+jade.fe,%s / %s,
+jade.fluid,%s %s,
 jade.fluid.empty,Empty,空
 jade.fluid.more_tanks,%s more tanks,%s さらにタンク
-jade.fluid.text,%s: %s,%s: %s
-jade.fluid.with_capacity,%s / %s,%s / %s
-jade.fraction,%d / %d,%d / %d
+jade.fluid.text,%s: %s,
+jade.fluid.with_capacity,%s / %s,
+jade.fraction,%d / %d,
 jade.horseStat.jump,Jump height: %d,ジャンプ高さ: %d
 jade.horseStat.speed,Speed: %d,速度: %d
 jade.ignore_list.comment,"This is an ignore list for the target of Jade. You can add registry ids to the ""values"" list.",これはJadeのターゲットの無視リストです。レジストリIDを「value」リストに追加できます。
@@ -347,13 +346,13 @@ jade.nextScute,Next scute: %s,次のウロコまで: %s
 jade.north,North,北
 jade.owner,Owner: %s,所有者: %s
 jade.south,South,南
-jade.spawner,%s (%s),%s (%s)
+jade.spawner,%s (%s),
 jade.theme.jade.create,Create,作成
 jade.theme.jade.dark,Dark,暗い
 jade.theme.jade.waila,Classic,クラシック
 jade.tnt.unstable,Unstable,不安定
 jade.trial_spawner_cd,Cooldown: %s,クールダウン: %s
-jade.typeNameEntity,%s (%s),%s (%s)
+jade.typeNameEntity,%s (%s),
 jade.up,Up,上
 jade.waxed,Waxed %s,蝋引きされた%s
 jade.west,West,西
@@ -370,7 +369,7 @@ modmenu.descriptionTranslation.jade,Shows information about what you are looking
 mymod.fuel,Fuel: %d ticks,燃料: %dティック
 narration.jade.adjusting_position,Drag to adjust position. Press ESC to exit,ドラッグして位置を調整します。終了するにはESCを押します
 narration.jade.armor,Armor: %s,アーマー: %s
-narration.jade.blockpos,X%s Y%s Z%s ,X%s Y%s Z%s 
+narration.jade.blockpos,X%s Y%s Z%s ,
 narration.jade.bookName,Book Name: %s,ブック名: %s
 narration.jade.brewingStand.fuel,Fuel: %s,燃料: %s
 narration.jade.by,Made with Love by Snownee. Press button to check out all my works!,Snownee が愛情を込めて作りました。ボタンを押して私の作品をすべてチェックしてください。
@@ -431,7 +430,7 @@ jade.brewingStand.fuel,Fuel: %d,燃料: %d
 jade.brewingStand.time,Time: %ds,時間: %ds
 jade.harvest_tool.unbreakable,Can't break,壊せない
 jade.not_generated,Inventory isn't generated,インベントリは生成されていません
-jade.potion,%s %s (%s),%s %s (%s)
+jade.potion,%s %s (%s),
 command.dump.success,Dump successful,ダンプ成功
 config.waila.display_fluids,Display Fluids,流動体表示
 config.waila.display_fluids_any,Any,任意
@@ -560,7 +559,6 @@ config.waila.tts_mode,Text to Speech Mode,テキスト音声化モード
 config.waila.tts_mode_press,Press,押す
 config.waila.tts_mode_toggle,Toggle,切り替え
 gui.waila.forced_plugin_config,This option is controlled by the server,このオプションはサーバーが制御します
-jade.infinity,+∞,+∞
 jade.seconds,%ds,%d秒
 key.waila.narrate,Narrate,ナレーション
 key.waila.show_details,Show Details,詳細を表示
@@ -590,7 +588,7 @@ gui.jade.server_features,"*{0} {0,choice,1#Server Feature|1<Server Features}","*
 gui.jade.server_features.tip,"This page contains {0} {0,choice,1#server feature|1<server features}.
 Install Jade on the server to fully enable them.","このページには {0} のサーバー機能が含まれています。
 Jadeをサーバーにインストールして、それらを完全に有効化してください。"
-jade.fluid2,%s %s / %s,%s %s / %s
+jade.fluid2,%s %s / %s,
 jade.hopper.locked,Hopper is locked,ホッパーはロックされています
 config.jade.display_mode_desc,The behavior of the tooltip in the usual situation and how the [Show Details] key works.,通常時のツールチップの動作と[詳細表示]キーの動作を設定します。
 config.jade.display_mode_lite_desc.fabric,Hold Shift to show further information.,Shiftキーを保持することでさらに詳細な情報が表示される
@@ -604,3 +602,8 @@ config.jade.plugin_minecraft.energy_storage.detailed_desc,Only show energy info 
 config.jade.plugin_minecraft.fluid_storage.detailed_desc,Only show fluid info when [Show Details] key is pressed.,[詳細表示]キーが押されたときのみ液体情報を表示します。
 config.jade.plugin_minecraft.item_storage.detailed_amount_desc,The amount of items to show when [Show Details] key is pressed.,[詳細表示]キー押下時に表示するアイテム数。
 config.jade.plugin_minecraft.item_storage.normal_amount_desc,The amount of items to show when [Show Details] key is not pressed.,[詳細表示]キー未押下時に表示するアイテム数。
+jade.theme.jade.top,One Probe,
+modmenu.nameTranslation.jade,Jade,
+config.waila.plugin_waila,Waila,
+jade.access.block.door_open,%s,
+jade.infinity,+∞,

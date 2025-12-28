@@ -24,7 +24,7 @@ debugify.fix_explanation.mc-121903,Adds NBT tag 'LastExecuted' to command blocks
 debugify.fix_explanation.mc-122477,"Prevents first two keyboard polls after an edit box is initialized, e.g. the chat box.",編集ボックスが初期化された後、最初の2回のキーボードポール（例：チャットボックス）を防止します。
 debugify.fix_explanation.mc-123739,Sorts recipe book entries by their identifier.,レシピブックのエントリを識別子順に並べ替えます
 debugify.fix_explanation.mc-124117,"Sends players packets to update all their effects, their experience and their abilities after cross dimensional teleport.",次元間テレポート後、プレイヤーのすべての効果、経験値、能力を更新するパケットを送信します。
-debugify.fix_explanation.mc-132878,Spawns breaking particles when armour stands are hurt.,アーマースタンドがダメージを受けると破壊パーティクルを生成します。
+debugify.fix_explanation.mc-132878,Spawns breaking particles when armour stands are hurt.,防具スタンドがダメージを受けると破壊パーティクルを生成します。
 debugify.fix_explanation.mc-135971,Overrides CTRL+Q behaviour in crafting slot to repeatedly CTRL+Q until there are no items left in the crafting slot.,クラフトスロット内のCTRL+Q動作をオーバーライドして、クラフトスロットに項目がなくなるまで繰り返しCTRL+Qします。
 debugify.fix_explanation.mc-143474,Copies over the selected item slot when generating the new local player after respawn.,再生成時に新しいローカルプレイヤーを作成する際、選択したアイテムスロットをコピーします。
 debugify.fix_explanation.mc-155509,Checks if the pufferfish is alive before attempting to sting the player.,フグが生存しているか確認し、プレイヤーに刺す前にチェックします
@@ -35,7 +35,7 @@ debugify.fix_explanation.mc-165381,Cancels destroying block when the client drop
 debugify.fix_explanation.mc-179072,Checks if the entity the creeper sees is an enemy before igniting.,クリーーパーが見ているエンティティが敵かどうかを確認してから点火します。
 debugify.fix_explanation.mc-183990,"When a mob is ticked, it checks to see if its target is dead, and removes it if so. This fix also applies to a long list of entities that have group attacks, not just silverfish.",モブがティック処理されるとき、対象が死んでいるかをチェックして死んでいれば削除します。この修正はシルバーフィッシュだけでなく、グループ攻撃を行うエンティティの長いリストにも適用されます。
 debugify.fix_explanation.mc-193343,Removes soul speed if player is a spectator.,プレイヤーが観戦者の場合、ソウルスピードを削除します。
-debugify.fix_explanation.mc-197260,"Overrides the light level passed to the armour stand renderer with a maximum of: the block below the armor stand, bottom of the armor stand, top of the armor stand and the block above of the armor stand.",アーマースタンドレンダラーに渡される光レベルをオーバーライドして、次のいずれかの最大値を使用します：アーマースタンド下のブロック、アーマースタンド底部、アーマースタンド上部、アーマースタンド上のブロック。
+debugify.fix_explanation.mc-197260,"Overrides the light level passed to the armour stand renderer with a maximum of: the block below the armor stand, bottom of the armor stand, top of the armor stand and the block above of the armor stand.",防具スタンドレンダラーに渡される光レベルをオーバーライドして、次のいずれかの最大値を使用します：防具スタンド下のブロック、防具スタンド底部、防具スタンド上部、防具スタンド上のブロック。
 debugify.fix_explanation.mc-199467,"Modifies the input to sin and cos functions, which wraps the input from 0 to 2pi. This prevents any integer overflows occurring. Whilst this issue is reportedly an issue of the client, the root cause is in both environments, hence it's located in main.",sin関数とcos関数への入力を変更して、入力を0から2πにラップします。これは整数オーバーフローが発生するのを防ぎます。この問題はクライアント側の問題として報告されていますが、根本原因は両環境にあるため、mainに配置されています。
 debugify.fix_explanation.mc-200418,Dismounts baby villagers from chickens upon conversion.,変換時に子村人を鶏から降ろします。
 debugify.fix_explanation.mc-2025,"Due to floating point inaccuracies, sometimes the hitbox of entities end up being slightly smaller than desired. Then, if this happens before the entities are pushed against eachother, they will intersect with the wall. Then, when the AABB is recalculated on chunk load, they will be determined as inside the wall, where they are then pushed. This fix simply writes an 'AABB' tag to entity NBT data with double-precision hitbox sizes which then get loaded back in.",浮動小数点の不正確さにより、エンティティのヒットボックスが希望より少し小さくなることがあります。これがエンティティが互いに押し付けられる前に発生すると、壁と交差します。その後、チャンクロード時にAABBが再計算されると、壁の内側にあると判定されて押し出されます。この修正はダブルプレシジョンのヒットボックスサイズを持つ「AABB」タグをエンティティNBTデータに書き込み、それらが再度ロードされるようにします。
@@ -67,6 +67,8 @@ debugify.misc.default_disabled,Default to Disabled,デフォルトは無効化
 debugify.misc.default_disabled.description,Default new bug fixes to be disabled rather than enabled.,デフォルトでは新しいバグ修正が有効化されず、無効化されるように設定します。
 debugify.no_yacl.description,"To configure Debugify using a GUI, you must install %s, this is the library used to make this functionality available. Otherwise, you can configure using the JSON file stored at '%s'.",GUIを使用してDebugifyを設定するには、%sをインストールする必要があります。これはこの機能を利用可能にするために使用されるライブラリです。それ以外の場合は、「%s」に保存されているJSONファイルを使用して設定できます。
 debugify.no_yacl.title,YetAnotherConfigLib not installed!,YetAnotherConfigLib がインストールされていません！
-debugify.os.macos,macOS,macOS
+debugify.os.macos,macOS,
 debugify.os.solaris,Solaris,ソーラリス
 debugify.os.windows,Windows,ウィンドウズ
+debugify.name,Debugify,
+debugify.os.linux,Linux,

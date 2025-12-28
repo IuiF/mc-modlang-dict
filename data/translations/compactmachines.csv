@@ -82,7 +82,7 @@ command.compactmachines.not_in_compact_dim,Cannot use that command outside of a 
 command.compactmachines.room_not_found,Room [%s] could not be found.,部屋[%s]が見つかりませんでした。
 command.compactmachines.room_reg_count,Number of registered rooms: %s,登録された部屋の数: %s
 command.compactmachines.spawn_changed_successfully,Spawnpoint for room [%s] was changed successfully.,[%s] のスポーンポイントが正常に変更されました
-command.compactmachines.summary.machines.dimension,[%s]: %s,[%s]: %s
+command.compactmachines.summary.machines.dimension,[%s]: %s,
 command.compactmachines.summary.machines.total,Total: %s,合計: %s
 config.jade.plugin_compactmachines.machine,Compact Machine Block Information,コンパクトマシンブロック情報
 config.jade.plugin_compactmachines.machine_tunnels,Compact Machine Tunnel Presence,コンパクトマシントンネルの存在
@@ -197,51 +197,51 @@ commands.compactmachines.usage,"/compactmachines [subcommand, leave empty for li
 commands.compactmachines.available,Available sub-commands:,利用可能なサブコマンド:
 commands.compactmachines.denied,You do not have the permission to use this command.,このコマンドを使用する権限がありません。
 commands.compactmachines.schema.description,Save/load the contents of machines,機械の内容を保存/読み込み
-commands.compactmachines.schema.save.usage,/compactmachines schema save <name>,/compactmachines schema save <name>
+commands.compactmachines.schema.save.usage,/compactmachines schema save <name>,
 commands.compactmachines.schema.save.description,Saves the machine you are in to disk,現在いるマシンをディスクに保存します
 commands.compactmachines.schema.save.exception.not_in_machine_dimension,You must be in the machine dimension for this command to work.,このコマンドを実行するには機械ディメンションにいる必要があります。
 commands.compactmachines.schema.save.exception.invalid_file,Could not open file for writing! Schema is not saved!,書き込み用にファイルを開けませんでした！スキーマが保存されていません！
 commands.compactmachines.schema.save.exception.not_serializable,Could not serialize machine! Schema is not saved!,マシンをシリアライズできませんでした！スキーマが保存されていません！
 commands.compactmachines.schema.save.success,Wrote schema to file: %s,スキーマをファイルに書き込みました: %s
-commands.compactmachines.schema.load.usage,/compactmachines schema load <name>,/compactmachines schema load <name>
+commands.compactmachines.schema.load.usage,/compactmachines schema load <name>,
 commands.compactmachines.schema.load.description,Generates the specified schema in the room you are standing in,現在立っている部屋で指定されたスキーマを生成します
 commands.compactmachines.schema.load.exception.not_in_machine_dimension,You must be in the machine dimension for this command to work.,このコマンドを実行するには機械ディメンションにいる必要があります。
 commands.compactmachines.schema.load.exception.unknown_schema,No schema with that name exists!,その名前のスキーマは存在しません！
 commands.compactmachines.schema.load.exception.machine_size_does_not_match,The size of the machine does not match the schema!,機械のサイズがスキーマと一致しません！
 commands.compactmachines.schema.load.machine_schema_set_to,Machine set to schema: %s,マシンがスキーマ: %s に設定されました。
-commands.compactmachines.schema.set.usage,/compactmachines schema set <name>,/compactmachines schema set <name>
+commands.compactmachines.schema.set.usage,/compactmachines schema set <name>,
 commands.compactmachines.schema.set.description,Sets the specified schema to the Compact Machine block you are looking at,指定されたスキーマを、見ているコンパクトマシンブロックに設定します
 commands.compactmachines.schema.set.exception.unknown_schema,No schema with that name exists!,その名前のスキーマは存在しません！
 commands.compactmachines.schema.set.exception.look_at_compact_machine,You need to look at a Compact Machine block!,コンパクトマシンブロックを見る必要があります！
 commands.compactmachines.schema.set.exception.machine_size_does_not_match,The size of the machine does not match the schema!,機械のサイズがスキーマと一致しません！
 commands.compactmachines.schema.set.exception.machine_is_already_in_use,Machine is already in use. Place a new machine!,マシンはすでに使用中です。新しいマシンを置いてください！
 commands.compactmachines.schema.set.machine_schema_set_to,Machine set to schema: %s,マシンがスキーマ: %s に設定されました。
-commands.compactmachines.schema.reload-files.usage,/compactmachines schema reload-files,/compactmachines schema reload-files
+commands.compactmachines.schema.reload-files.usage,/compactmachines schema reload-files,
 commands.compactmachines.schema.reload-files.description,Reloads all the stored schema files from disk and from the jar,ディスクおよびjarからすべての保存済みスキーマファイルを再読み込みします
 commands.compactmachines.recipe.description,Stuff related to Multiblock Miniaturization recipes,マルチブロックミニチュア化レシピに関連する項目
-commands.compactmachines.recipe.unpack-defaults.usage,/compactmachines recipe unpack-defaults [force],/compactmachines recipe unpack-defaults [force]
+commands.compactmachines.recipe.unpack-defaults.usage,/compactmachines recipe unpack-defaults [force],
 commands.compactmachines.recipe.unpack-defaults.description,"Extract the default recipes from the .jar to the config folder. Append ""force"" to overwrite existing files.",デフォルトレシピを.jarから設定フォルダに抽出します。既存ファイルを上書きするには「force」を追加してください。
-commands.compactmachines.recipe.copy-shape.usage,/compactmachines recipe copy-shape,/compactmachines recipe copy-shape
+commands.compactmachines.recipe.copy-shape.usage,/compactmachines recipe copy-shape,
 commands.compactmachines.recipe.copy-shape.description,Copies the crafting shape of the projector you are looking at into your clipboard,見ているプロジェクターのクラフト形状をクリップボードにコピーします
 commands.compactmachines.recipe.copy-shape.exception.not_looking_at_projector,You are not looking at a Field Projector,あなたが見ているのはフィールドプロジェクターではありません
 commands.compactmachines.recipe.copy-shape.success,Copied shape to clipboard!,形状をクリップボードにコピーしました！
-commands.compactmachines.recipe.copy-item.usage,/compactmachines recipe copy-item [catalyst|target],/compactmachines recipe copy-item [catalyst|target]
+commands.compactmachines.recipe.copy-item.usage,/compactmachines recipe copy-item [catalyst|target],
 commands.compactmachines.recipe.copy-item.description,Copies the stack in your main hand to the clipboard,メインハンドのスタックをクリップボードへコピーします
 commands.compactmachines.recipe.copy-item.exception.missing_type,You need to specify whether you want to get the JSON for a catalyst or for the target stack,カタリスト用かターゲットスタック用か、JSON を取得したいか指定する必要があります。
 commands.compactmachines.recipe.copy-item.exception.missing_item,You need to hold something in your hand for this command to work!,このコマンドを実行するには、手に何かを持っている必要があります！
 commands.compactmachines.recipe.copy-item.success,Copied item to clipboard!,アイテムをクリップボードにコピーしました！
-commands.compactmachines.recipe.generate.usage,/compactmachines recipe generate <recipe-name>,/compactmachines recipe generate <recipe-name>
+commands.compactmachines.recipe.generate.usage,/compactmachines recipe generate <recipe-name>,
 commands.compactmachines.recipe.generate.description,Generates the given recipe in world. Warning: Replaces all blocks in area!,指定されたレシピをワールドに生成します。警告：領域内のすべてのブロックが置き換えられます！
 commands.compactmachines.recipe.generate.exception.not_looking_at_block,You are not looking at a block where the Recipe will be built.,レシピが作成されるブロックを見ていません。
 commands.compactmachines.recipe.generate.exception.unknown_recipe,The given recipe does not seem to exist.,指定されたレシピは存在しないようです
 commands.compactmachines.recipe.generate.exception.missing_machine_recipe,You need to specify a recipe name (use tab completion!),レシピ名を指定する必要があります（タブ補完を使用してください）
 commands.compactmachines.machines.description,Commands to recover lost/broken machines,失われた/壊れたマシンを回復するコマンド
-commands.compactmachines.machines.give.usage,/compactmachines machines give <id>,/compactmachines machines give <id>
+commands.compactmachines.machines.give.usage,/compactmachines machines give <id>,
 commands.compactmachines.machines.give.description,Gives the player a corresponding cube. WARNING: This breaks Machines if they already exist in the world!,プレイヤーに対応するキューブを付与します。警告：既に世界に存在するマシンの場合、破損する可能性があります！
 commands.compactmachines.machines.give.warning,WARNING: This breaks Machines if they already exist in the world!,⚠️ 既にワールド内に存在する機械を破壊します！
-commands.compactmachines.machines.view.usage,/compactmachines machines view [<id>],/compactmachines machines view [<id>]
+commands.compactmachines.machines.view.usage,/compactmachines machines view [<id>],
 commands.compactmachines.machines.view.description,Opens a GUI allowing inspectation of all existing Compact Machines,既存のコンパクトマシンすべてを検査できるGUIを開きます。
-commands.compactmachines.machines.clear.usage,/compactmachines machines clear [<id>],/compactmachines machines clear [<id>]
+commands.compactmachines.machines.clear.usage,/compactmachines machines clear [<id>],
 commands.compactmachines.machines.clear.description,Sets all blocks inside the given machine to air.,指定された機械内のすべてのブロックを空気に置き換える。
 gui.compactmachines.psd.welcome.welcome,Compact Machines 3 allows you to build complex machine contraptions within a single block!,Compact Machines 3では、1つのブロック内で複雑な機械構造物を作成できます！
 gui.compactmachines.psd.welcome.chapters,Available chapters:,利用可能な章:
@@ -274,3 +274,4 @@ gui.compactmachines.compactsky.configuration.warning.PleaseSpecifyADescription,P
 gui.compactmachines.compactsky.configuration.small,16 Players,16人
 gui.compactmachines.compactsky.configuration.medium,64 Players,64人
 gui.compactmachines.compactsky.configuration.large,256 Players,256人
+gui.compactmachines.psd.tunnels.text,"Tunnels are used to connect inside wall faces to outside block faces. Only one connection for each outside face, this means a total of 6 tunnels per machine.\nRight click a Compact Machine Wall with a Tunnel Tool to place a tunnel. Right click it again to cycle through the outside faces it is connected to.\nTunnels are using the Forge Capability system to ""connect"" the two blocks. Other mods need to use this system for tunnels to work properly. This is the case for most storage, but rarely for multiblock systems, so expect some pipes etc to not work as expected.",

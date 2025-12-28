@@ -165,8 +165,6 @@ commands.cold_sweat.temperature.debug_hover_note,Hover for more info,詳細を�
 commands.cold_sweat.temperature.get.result,%d's body temperature is %d,%dの体温は%d
 commands.cold_sweat.temperature.get.world.result,"The temperature at %d, %d, %d is %d %d","%d, %d, %d の温度は %d %d"
 commands.cold_sweat.temperature.invalid,The selector includes entities that do not have temperature,温度を持たないエンティティもセレクタに含まれます
-commands.cold_sweat.temperature.modify.set.many.result,"Set temperature property ""%d"" for %d entities to %d","Set temperature property ""%d"" for %d entities to %d"
-commands.cold_sweat.temperature.modify.set.single.result,"Set temperature property ""%d"" for %d to %d","Set temperature property ""%d"" for %d to %d"
 commands.cold_sweat.temperature.set.many.result,Set the temperature of %d players to %d,%d人のプレイヤーの温度を%dに設定する
 commands.cold_sweat.temperature.set.single.result,Set the temperature of %d to %d,%d の温度を %d に設定する
 container.cold_sweat.boiler,Boiler,ボイラー
@@ -231,5 +229,12 @@ tooltip.cold_sweat.config.must_be_in_game,Must be in-game to edit configs,コン
 tooltip.cold_sweat.consumed,When Consumed:,使用した時:
 tooltip.cold_sweat.hotbar,When in Hotbar:,ホットバーにある時:
 tooltip.cold_sweat.insulated,Insulated,断熱材
-tooltip.cold_sweat.per_second,/sec,/sec
+tooltip.cold_sweat.per_second,/sec,
 tooltip.cold_sweat.temperature_effect,%d Temperature,%d0 体温
+commands.cold_sweat.temperature.clear.many.result,"Cleared temperature property ""%d"" for %d entities",
+commands.cold_sweat.temperature.clear.single.result,"Cleared temperature property ""%d"" for %d",
+commands.cold_sweat.temperature.debug,"Modifiers & attributes affecting %d's ""%d"" trait:",
+commands.cold_sweat.temperature.modify.add_modifier.many.result,"Added modifier to temperature property ""%d"" for %d entities",
+commands.cold_sweat.temperature.modify.add_modifier.single.result,"Added modifier to temperature property ""%d"" for %d",
+commands.cold_sweat.temperature.modify.set.many.result,"Set temperature property ""%d"" for %d entities to %d",
+commands.cold_sweat.temperature.modify.set.single.result,"Set temperature property ""%d"" for %d to %d",

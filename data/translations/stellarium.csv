@@ -12,12 +12,12 @@ hud.text.tick,Tick  #%1$s (/%2$s),ティック #%1$s (/%2$s)
 hud.text.time,Time %1$s:%2$s (/%3$s:%4$s),時間 %1$s:%2$s（/%3$s:%4$s）
 hud.text.timeam,Time %1$s:%2$s AM (/%3$s:%4$s),時間 %1$s:%2$s AM (/%3$s:%4$s)
 hud.text.timepm,Time %1$s:%2$s PM (/%3$s:%4$s),時間 %1$s:%2$s PM (/%3$s:%4$s)
-hud.text.dayequal,1D=,1D=
-hud.text.hourequal,1H=,1H=
-hud.text.unit.hour,h,h
-hud.text.unit.tick,t,t
-hud.text.double,%sD,%sD
-hud.text.int,%s,%s
+hud.text.dayequal,1D=,
+hud.text.hourequal,1H=,
+hud.text.unit.hour,h,
+hud.text.unit.tick,t,
+hud.text.double,%sD,
+hud.text.int,%s,
 hud.overlay.stellarsky,Stellar Sky,星の空
 config.property.gui.clock.fix.tooltip,Fix button to fix this overlay,ボタンを押してこのオーバーレイを修正してください。
 config.property.gui.clock.modeview,Mode for HUD time view,HUD時間表示モード
@@ -189,8 +189,10 @@ config.property.dimension.minimumskybrightness,Minimum Sky Brightness,最低空�
 config.property.dimension.minimumskybrightness.tooltip,Minimum brightness of skylight which (only) affects the rendering.,天光の最小明るさ（レンダリングにのみ影響）
 config.property.dimension.enablelandscape,Enable Landscape,風景を有効にする
 config.property.dimension.enablelandscape.tooltip,Enable the landscape on this world.,この世界の風景を有効にする
-stellarsky.command.lock.usage,/locksky [lock=true],/locksky [lock=true]
+stellarsky.command.lock.usage,/locksky [lock=true],
 stellarsky.gui.lock,Lock Sky Settings,スカイ設定をロック
 stellarsky.gui.lock.tooltip,Locking this will have the Sky Settings of this save not be affected by configuration on world restart.,このロックを有効にすると、このセーブファイルのスカイ設定がワールドの再起動時の設定の影響を受けなくなります。
 stellarsky.gui.unlock,Unlock Sky Settings,スカイ設定を解除
 stellarsky.gui.unlock.description,You are unlocking the Sky Settings from configuration for this save.,このセーブ用に設定からスカイ設定をアンロックしています。
+stellarsky.gui.lock.description,You are locking the Sky Settings from configuration for this save.,
+stellarsky.gui.unlock.tooltip,Unlocking this will have the Sky Settings of this save be sync with configuration on world restart.,

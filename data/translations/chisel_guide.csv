@@ -35,8 +35,8 @@ chisel.mode.contiguous_2d.name,Contiguous 2D,連続2D
 chisel.mode.contiguous_2d.desc,"Chisel an area of alike blocks, extending 10 blocks along the plane of the current side.",同じブロックの領域をノミで加工し、現在の面に沿って10ブロック拡張します。
 tile.chisel.autochisel.name,Auto Chisel,オートチーゼル
 container.autochisel.title,Auto Chisel,オートチーゼル
-chisel.tooltip.power.stored,%s/%s FE,%s/%s FE
-chisel.tooltip.power.pertick,%s FE/t,%s FE/t
+chisel.tooltip.power.stored,%s/%s FE,
+chisel.tooltip.power.pertick,%s FE/t,
 itemGroup.chiselCreativeTab,Chisel,ノミ
 chisel.jei.title,Chiseling,ノミで加工
 jei.chisel.desc.chisel_generic,"A chisel can be used to create different variations of many different blocks. It can either be used with the GUI, by right clicking, or in the world, by left clicking. If a target is selected in the GUI, when the chisel is used in the world, it will only chisel to that type.",ノミは多くの異なるブロックの異なるバリエーションを作成するために使用できます。GUIを使って右クリックするか、世界でノミで加工して左クリックすることで使用できます。GUIでターゲットを選択した場合、世界でノミを使用すると、そのタイプにのみノミで加工します。
@@ -44,7 +44,7 @@ jei.chisel.desc.chisel_iron,"The iron chisel is the most basic chisel, it has a 
 jei.chisel.desc.chisel_diamond,"The diamond chisel is the mid-tier chisel, it has a high durability, and the ability to chisel up to 3x3 (9) blocks at once!",ダイヤモンドノミは中級ノミで、高い耐久性と最大3x3（9）ブロックを一度にノミで加工する能力を持ちます！
 jei.chisel.desc.chisel_hitech,"The iChisel is the newest revolution in chiseling technology! No more moving stacks around, just click on the source (in your inventory) and then the target (in the selection slots), then the button on the left to chisel away. Holding SHIFT allows you to chisel every stack of the same type at once. The handy preview window at the top left shows what the target block will look like in the world. Finally, the iChisel allows you to chisel OVER 9000 blocks in the world! Using the Contiguous and Contiguous 2D modes you can chisel an area of similar blocks at the same time.",iチゼルは彫刻技術の最新の革命です！スタックを移動させる必要はもうありません。インベントリのソース（ソース）をクリックしてからターゲット（選択スロット）をクリックし、左のボタンをクリックして彫刻するだけです。SHIFTを押すと、同じ種類のスタックをすべて一度に彫刻できます。左上の便利なプレビューウィンドウは、ターゲットブロックがゲーム内でどのように見えるかを表示します。最後に、iチゼルは世界で9000以上のブロックを彫刻できます！Contiguousおよびcontiguous 2Dモードを使用して、同時に同様のブロックの領域を彫刻できます。
 jei.chisel.desc.concrete_making,"Just add water and you can make your very own Concrete!\n\nSubmerge Concrete Powder into water by placing it next to water, or letting it fall into water as a falling block.",水を加えると、自分の具体物を作ることができます！\n\nコンクリートパウダーを水の隣に配置するか、落下するブロックとして水に落とすことで、水に浸すことができます。
-chisel.tooltip.blockname,%1$s (%2$s),%1$s (%2$s)
+chisel.tooltip.blockname,%1$s (%2$s),
 subtitle.chisel.chiseling.fallback,Object Chiseled,オブジェクト彫刻済み
 subtitle.chisel.chiseling.wood,Wood Chiseled,木材彫刻済み
 tile.chisel.blockAluminum.name,Block of Aluminum,アルミニウムブロック
@@ -101,18 +101,18 @@ tile.chisel.antiblock.name,Antiblock,アンチブロック
 tile.chisel.antiblock.black.desc.1,Black,黒
 tile.chisel.antiblock.red.desc.1,Red,赤
 tile.chisel.antiblock.green.desc.1,Green,緑
-tile.chisel.antiblock.brown.desc.1,Brown,茶色
+tile.chisel.antiblock.brown.desc.1,Brown,茶
 tile.chisel.antiblock.blue.desc.1,Blue,青
 tile.chisel.antiblock.purple.desc.1,Purple,紫
-tile.chisel.antiblock.cyan.desc.1,Cyan,シアン
+tile.chisel.antiblock.cyan.desc.1,Cyan,青緑
 tile.chisel.antiblock.silver.desc.1,Light Gray,薄灰色
-tile.chisel.antiblock.gray.desc.1,Gray,グレー
-tile.chisel.antiblock.pink.desc.1,Pink,ピンク
-tile.chisel.antiblock.lime.desc.1,Lime,ライム
-tile.chisel.antiblock.yellow.desc.1,Yellow,黄色
+tile.chisel.antiblock.gray.desc.1,Gray,灰色
+tile.chisel.antiblock.pink.desc.1,Pink,桃色
+tile.chisel.antiblock.lime.desc.1,Lime,黄緑
+tile.chisel.antiblock.yellow.desc.1,Yellow,黄
 tile.chisel.antiblock.light_blue.desc.1,Light Blue,空色
-tile.chisel.antiblock.magenta.desc.1,Magenta,マゼンタ
-tile.chisel.antiblock.orange.desc.1,Orange,オレンジ
+tile.chisel.antiblock.magenta.desc.1,Magenta,赤紫
+tile.chisel.antiblock.orange.desc.1,Orange,橙
 tile.chisel.antiblock.white.desc.1,White,白
 tile.chisel.basalt.name,Basalt,玄武岩
 tile.chisel.basalt.cracked.desc.1,Cracked,ひび割れ
@@ -522,37 +522,37 @@ tile.chisel.cobblestonemossy.cuts.desc.1,Cuts,カット
 tile.chisel.concrete_powder.name,Concrete Powder,コンクリートパウダー
 tile.chisel.concrete_powder.black.desc.1,Black,黒
 tile.chisel.concrete_powder.blue.desc.1,Blue,青
-tile.chisel.concrete_powder.brown.desc.1,Brown,茶色
-tile.chisel.concrete_powder.cyan.desc.1,Cyan,シアン
-tile.chisel.concrete_powder.gray.desc.1,Gray,グレー
+tile.chisel.concrete_powder.brown.desc.1,Brown,茶
+tile.chisel.concrete_powder.cyan.desc.1,Cyan,青緑
+tile.chisel.concrete_powder.gray.desc.1,Gray,灰色
 tile.chisel.concrete_powder.green.desc.1,Green,緑
 tile.chisel.concrete_powder.lightblue.desc.1,Light Blue,空色
 tile.chisel.concrete_powder.lightgray.desc.1,Light Gray,薄灰色
-tile.chisel.concrete_powder.lime.desc.1,Lime,ライム
-tile.chisel.concrete_powder.magenta.desc.1,Magenta,マゼンタ
-tile.chisel.concrete_powder.orange.desc.1,Orange,オレンジ
-tile.chisel.concrete_powder.pink.desc.1,Pink,ピンク
+tile.chisel.concrete_powder.lime.desc.1,Lime,黄緑
+tile.chisel.concrete_powder.magenta.desc.1,Magenta,赤紫
+tile.chisel.concrete_powder.orange.desc.1,Orange,橙
+tile.chisel.concrete_powder.pink.desc.1,Pink,桃色
 tile.chisel.concrete_powder.purple.desc.1,Purple,紫
 tile.chisel.concrete_powder.red.desc.1,Red,赤
 tile.chisel.concrete_powder.white.desc.1,White,白
-tile.chisel.concrete_powder.yellow.desc.1,Yellow,黄色
+tile.chisel.concrete_powder.yellow.desc.1,Yellow,黄
 tile.chisel.concrete.name,Concrete,コンクリート
 tile.chisel.concrete.black.desc.1,Black,黒
 tile.chisel.concrete.blue.desc.1,Blue,青
-tile.chisel.concrete.brown.desc.1,Brown,茶色
-tile.chisel.concrete.cyan.desc.1,Cyan,シアン
-tile.chisel.concrete.gray.desc.1,Gray,グレー
+tile.chisel.concrete.brown.desc.1,Brown,茶
+tile.chisel.concrete.cyan.desc.1,Cyan,青緑
+tile.chisel.concrete.gray.desc.1,Gray,灰色
 tile.chisel.concrete.green.desc.1,Green,緑
 tile.chisel.concrete.lightblue.desc.1,Light Blue,空色
 tile.chisel.concrete.lightgray.desc.1,Light Gray,薄灰色
-tile.chisel.concrete.lime.desc.1,Lime,ライム
-tile.chisel.concrete.magenta.desc.1,Magenta,マゼンタ
-tile.chisel.concrete.orange.desc.1,Orange,オレンジ
-tile.chisel.concrete.pink.desc.1,Pink,ピンク
+tile.chisel.concrete.lime.desc.1,Lime,黄緑
+tile.chisel.concrete.magenta.desc.1,Magenta,赤紫
+tile.chisel.concrete.orange.desc.1,Orange,橙
+tile.chisel.concrete.pink.desc.1,Pink,桃色
 tile.chisel.concrete.purple.desc.1,Purple,紫
 tile.chisel.concrete.red.desc.1,Red,赤
 tile.chisel.concrete.white.desc.1,White,白
-tile.chisel.concrete.yellow.desc.1,Yellow,黄色
+tile.chisel.concrete.yellow.desc.1,Yellow,黄
 tile.chisel.concrete_black.name,Black Concrete,黒いコンクリート
 tile.chisel.concrete_black.cracked.desc.1,Cracked,ひび割れ
 tile.chisel.concrete_black.bricks-soft.desc.1,Weathered Bricks,風化したレンガ
@@ -676,7 +676,7 @@ tile.chisel.concrete_brown.sunken.desc.1,Sunken,沈んだ
 tile.chisel.concrete_brown.poison.desc.1,Poison,毒
 tile.chisel.concrete_brown.bricks-chaotic.desc.1,Trodden Bricks,踏みにじられたレンガ
 tile.chisel.concrete_brown.cuts.desc.1,Cuts,カット
-tile.chisel.concrete_cyan.name,Cyan Concrete,シアンコンクリート
+tile.chisel.concrete_cyan.name,Cyan Concrete,青緑コンクリート
 tile.chisel.concrete_cyan.cracked.desc.1,Cracked,ひび割れ
 tile.chisel.concrete_cyan.bricks-soft.desc.1,Weathered Bricks,風化したレンガ
 tile.chisel.concrete_cyan.bricks-cracked.desc.1,Cracked Bricks,ひび割れたレンガ
@@ -799,7 +799,7 @@ tile.chisel.concrete_green.sunken.desc.1,Sunken,沈んだ
 tile.chisel.concrete_green.poison.desc.1,Poison,毒
 tile.chisel.concrete_green.bricks-chaotic.desc.1,Trodden Bricks,踏みにじられたレンガ
 tile.chisel.concrete_green.cuts.desc.1,Cuts,カット
-tile.chisel.concrete_lightblue.name,Light Blue Concrete,ライトブルーのコンクリート
+tile.chisel.concrete_lightblue.name,Light Blue Concrete,空色のコンクリート
 tile.chisel.concrete_lightblue.cracked.desc.1,Cracked,ひび割れ
 tile.chisel.concrete_lightblue.bricks-soft.desc.1,Weathered Bricks,風化したレンガ
 tile.chisel.concrete_lightblue.bricks-cracked.desc.1,Cracked Bricks,ひび割れたレンガ
@@ -881,7 +881,7 @@ tile.chisel.concrete_lightgray.sunken.desc.1,Sunken,沈んだ
 tile.chisel.concrete_lightgray.poison.desc.1,Poison,毒
 tile.chisel.concrete_lightgray.bricks-chaotic.desc.1,Trodden Bricks,踏みにじられたレンガ
 tile.chisel.concrete_lightgray.cuts.desc.1,Cuts,カット
-tile.chisel.concrete_lime.name,Lime Concrete,ライムコンクリート
+tile.chisel.concrete_lime.name,Lime Concrete,黄緑コンクリート
 tile.chisel.concrete_lime.cracked.desc.1,Cracked,ひび割れ
 tile.chisel.concrete_lime.bricks-soft.desc.1,Weathered Bricks,風化したレンガ
 tile.chisel.concrete_lime.bricks-cracked.desc.1,Cracked Bricks,ひび割れたレンガ
@@ -922,7 +922,7 @@ tile.chisel.concrete_lime.sunken.desc.1,Sunken,沈んだ
 tile.chisel.concrete_lime.poison.desc.1,Poison,毒
 tile.chisel.concrete_lime.bricks-chaotic.desc.1,Trodden Bricks,踏みにじられたレンガ
 tile.chisel.concrete_lime.cuts.desc.1,Cuts,カット
-tile.chisel.concrete_magenta.name,Magenta Concrete,マゼンタコンクリート
+tile.chisel.concrete_magenta.name,Magenta Concrete,赤紫コンクリート
 tile.chisel.concrete_magenta.cracked.desc.1,Cracked,ひび割れ
 tile.chisel.concrete_magenta.bricks-soft.desc.1,Weathered Bricks,風化したレンガ
 tile.chisel.concrete_magenta.bricks-cracked.desc.1,Cracked Bricks,ひび割れたレンガ
@@ -963,7 +963,7 @@ tile.chisel.concrete_magenta.sunken.desc.1,Sunken,沈んだ
 tile.chisel.concrete_magenta.poison.desc.1,Poison,毒
 tile.chisel.concrete_magenta.bricks-chaotic.desc.1,Trodden Bricks,踏みにじられたレンガ
 tile.chisel.concrete_magenta.cuts.desc.1,Cuts,カット
-tile.chisel.concrete_orange.name,Orange Concrete,オレンジコンクリート
+tile.chisel.concrete_orange.name,Orange Concrete,橙コンクリート
 tile.chisel.concrete_orange.cracked.desc.1,Cracked,ひび割れ
 tile.chisel.concrete_orange.bricks-soft.desc.1,Weathered Bricks,風化したレンガ
 tile.chisel.concrete_orange.bricks-cracked.desc.1,Cracked Bricks,ひび割れたレンガ
@@ -1004,7 +1004,7 @@ tile.chisel.concrete_orange.sunken.desc.1,Sunken,沈んだ
 tile.chisel.concrete_orange.poison.desc.1,Poison,毒
 tile.chisel.concrete_orange.bricks-chaotic.desc.1,Trodden Bricks,踏みにじられたレンガ
 tile.chisel.concrete_orange.cuts.desc.1,Cuts,カット
-tile.chisel.concrete_pink.name,Pink Concrete,ピンクコンクリート
+tile.chisel.concrete_pink.name,Pink Concrete,桃色コンクリート
 tile.chisel.concrete_pink.cracked.desc.1,Cracked,ひび割れ
 tile.chisel.concrete_pink.bricks-soft.desc.1,Weathered Bricks,風化したレンガ
 tile.chisel.concrete_pink.bricks-cracked.desc.1,Cracked Bricks,ひび割れたレンガ
@@ -1168,7 +1168,7 @@ tile.chisel.concrete_white.sunken.desc.1,Sunken,沈んだ
 tile.chisel.concrete_white.poison.desc.1,Poison,毒
 tile.chisel.concrete_white.bricks-chaotic.desc.1,Trodden Bricks,踏みにじられたレンガ
 tile.chisel.concrete_white.cuts.desc.1,Cuts,カット
-tile.chisel.concrete_yellow.name,Yellow Concrete,黄色コンクリート
+tile.chisel.concrete_yellow.name,Yellow Concrete,黄コンクリート
 tile.chisel.concrete_yellow.cracked.desc.1,Cracked,ひび割れ
 tile.chisel.concrete_yellow.bricks-soft.desc.1,Weathered Bricks,風化したレンガ
 tile.chisel.concrete_yellow.bricks-cracked.desc.1,Cracked Bricks,ひび割れたレンガ
@@ -1222,7 +1222,7 @@ tile.chisel.diamond.name,Block of Diamond,ダイヤモンドブロック
 tile.chisel.diamond.terrain-diamond-embossed.desc.1,Embossed,エンボス
 tile.chisel.diamond.terrain-diamond-gem.desc.1,Gem,宝石
 tile.chisel.diamond.terrain-diamond-cells.desc.1,Cells,セル
-tile.chisel.diamond.terrain-diamond-space.desc.1,Purple Space,紫色の空間
+tile.chisel.diamond.terrain-diamond-space.desc.1,Purple Space,紫の空間
 tile.chisel.diamond.terrain-diamond-spaceblack.desc.1,Black Space,黒い空間
 tile.chisel.diamond.terrain-diamond-simple.desc.1,Simple,シンプル
 tile.chisel.diamond.terrain-diamond-bismuth.desc.1,Bismuth,ビスマス
@@ -1361,11 +1361,11 @@ tile.chisel.factory.platex.desc.1,Slightly Rusty Plate,やや錆びたプレー�
 tile.chisel.factory.wireframewhite.desc.1,Wireframe,ワイヤーフレーム
 tile.chisel.factory.wireframe.desc.1,Purple Wireframe,紫ワイヤーフレーム
 tile.chisel.factory.hazard.desc.1,Yellow-Black Caution Stripes,黄黒注意ストライプ
-tile.chisel.factory.hazardorange.desc.1,Orange-White Caution Stripes,オレンジ白注意ストライプ
+tile.chisel.factory.hazardorange.desc.1,Orange-White Caution Stripes,橙白注意ストライプ
 tile.chisel.factory.circuit.desc.1,Circuit,回路
 tile.chisel.factory.metalbox.desc.1,Metal Box,メタルボックス
 tile.chisel.factory.goldplate.desc.1,Gold-Plated Circuit,金メッキの回路
-tile.chisel.factory.goldplating.desc.1,Gold-Framed Purple Plates,金色の枠の紫色のプレート
+tile.chisel.factory.goldplating.desc.1,Gold-Framed Purple Plates,金色の枠の紫のプレート
 tile.chisel.factory.grinder.desc.1,Grinder,研磨機
 tile.chisel.factory.plating.desc.1,Old Vents,古いベント
 tile.chisel.factory.rustplates.desc.1,Segmented Rusty Plates,セグメント化されたさび付きプレート
@@ -1376,11 +1376,11 @@ tile.chisel.factory.tilemosaic.desc.1,Blue Circuits,青い回路
 tile.chisel.factory.vent.desc.1,Vents,ベント
 tile.chisel.factory.wireframeblue.desc.1,Blue Wireframe,青いワイアフレーム
 tile.chisel.futura.name,Futura Block,フューチャーブロック
-tile.chisel.futura.screenMetallic.desc.1,Gray Screen,グレースクリーン
-tile.chisel.futura.screenCyan.desc.1,Cyan Screen,シアンスクリーン
+tile.chisel.futura.screenMetallic.desc.1,Gray Screen,灰色スクリーン
+tile.chisel.futura.screenCyan.desc.1,Cyan Screen,青緑スクリーン
 tile.chisel.futura.controller.desc.1,ME Controller,MEコントローラ
 tile.chisel.futura.wavy.desc.1,Rainbowliciously Wavy,虹色に波状
-tile.chisel.futura.controllerPurple.desc.1,Purple ME Controller,紫色の ME コントローラー
+tile.chisel.futura.controllerPurple.desc.1,Purple ME Controller,紫の ME コントローラー
 tile.chisel.futura.uberWavy.desc.1,Fabulously Wavy,素晴らしく波状
 tile.chisel.glass.name,Glass,ガラス
 tile.chisel.glass.terrain-glassbubble.desc.1,Bubble,泡
@@ -1405,15 +1405,15 @@ tile.chisel.glassdyedgreen.name,Green Stained Glass,緑ステンドグラス
 tile.chisel.glassdyedbrown.name,Brown Stained Glass,茶色ステンドグラス
 tile.chisel.glassdyedblue.name,Blue Stained Glass,青ステンドグラス
 tile.chisel.glassdyedpurple.name,Purple Stained Glass,紫ステンドグラス
-tile.chisel.glassdyedcyan.name,Cyan Stained Glass,シアンステンドグラス
-tile.chisel.glassdyedlightgray.name,Light Gray Stained Glass,薄いグレーステンドグラス
+tile.chisel.glassdyedcyan.name,Cyan Stained Glass,青緑ステンドグラス
+tile.chisel.glassdyedlightgray.name,Light Gray Stained Glass,薄灰色ステンドグラス
 tile.chisel.glassdyedgray.name,Gray Stained Glass,グレーステンドグラス
-tile.chisel.glassdyedpink.name,Pink Stained Glass,ピンクステンドグラス
-tile.chisel.glassdyedlime.name,Lime Stained Glass,ライムステンドグラス
-tile.chisel.glassdyedyellow.name,Yellow Stained Glass,黄色ステンドグラス
-tile.chisel.glassdyedlightblue.name,Light Blue Stained Glass,ライト青染められたガラス
-tile.chisel.glassdyedmagenta.name,Magenta Stained Glass,マゼンタステンドグラス
-tile.chisel.glassdyedorange.name,Orange Stained Glass,オレンジステンドグラス
+tile.chisel.glassdyedpink.name,Pink Stained Glass,桃色ステンドグラス
+tile.chisel.glassdyedlime.name,Lime Stained Glass,黄緑ステンドグラス
+tile.chisel.glassdyedyellow.name,Yellow Stained Glass,黄ステンドグラス
+tile.chisel.glassdyedlightblue.name,Light Blue Stained Glass,空色染められたガラス
+tile.chisel.glassdyedmagenta.name,Magenta Stained Glass,赤紫ステンドグラス
+tile.chisel.glassdyedorange.name,Orange Stained Glass,橙ステンドグラス
 tile.chisel.glassdyedwhite.name,White Stained Glass,白ステンドグラス
 tile.chisel.glassdyedblack.brick.desc.1,Brick,レンガ
 tile.chisel.glassdyedblack.framed.desc.1,Framed,フレーム
@@ -1577,7 +1577,7 @@ tile.chisel.gold.terrain-gold-crate-light.desc.1,Light Crate,明るいチェス�
 tile.chisel.gold.terrain-gold-plates.desc.1,Plates,お皿
 tile.chisel.gold.terrain-gold-rivets.desc.1,Riveted Plates,溶接されたプレート
 tile.chisel.gold.terrain-gold-star.desc.1,Stars,星
-tile.chisel.gold.terrain-gold-space.desc.1,Purple Space,紫色の空間
+tile.chisel.gold.terrain-gold-space.desc.1,Purple Space,紫の空間
 tile.chisel.gold.terrain-gold-spaceblack.desc.1,Black Space,黒い空間
 tile.chisel.gold.terrain-gold-simple.desc.1,Simple,シンプル
 tile.chisel.gold.goldEye.desc.1,Golden Eye,ゴールデンアイ
@@ -1742,7 +1742,7 @@ tile.chisel.iron.terrain-iron-coin-tails.desc.1,Coin (Tails),硬貨（裏）
 tile.chisel.iron.terrain-iron-crate-dark.desc.1,Dark Crate,ダーククレート
 tile.chisel.iron.terrain-iron-crate-light.desc.1,Light Crate,明るいチェスト
 tile.chisel.iron.terrain-iron-moon.desc.1,Moon,月
-tile.chisel.iron.terrain-iron-space.desc.1,Purple Space,紫色の空間
+tile.chisel.iron.terrain-iron-space.desc.1,Purple Space,紫の空間
 tile.chisel.iron.terrain-iron-spaceblack.desc.1,Black Space,黒い空間
 tile.chisel.iron.terrain-iron-vents.desc.1,Vents,ベント
 tile.chisel.iron.terrain-iron-simple.desc.1,Simple,シンプル
@@ -1939,7 +1939,7 @@ tile.chisel.marblepillar.ornamental.desc.1,Ornamental Pillar,装飾柱
 tile.chisel.netherbrick.a1-netherbrick-brinstar.desc.1,Blue,青
 tile.chisel.netherbrick.a1-netherbrick-classicspatter.desc.1,Blood-Spattered,血で散らされた
 tile.chisel.netherbrick.a1-netherbrick-guts.desc.1,Meat Bricks,肉のブロック
-tile.chisel.netherbrick.a1-netherbrick-gutsdark.desc.1,Dark Meat Bricks,ダークメートのブリック
+tile.chisel.netherbrick.a1-netherbrick-gutsdark.desc.1,Dark Meat Bricks,ダークメートのレンガ
 tile.chisel.netherbrick.a1-netherbrick-gutssmall.desc.1,Small Meat Bricks,小さな肉ブロック
 tile.chisel.netherbrick.a1-netherbrick-lavabrinstar.desc.1,Blue Lava Brick,青い溶岩レンガ
 tile.chisel.netherbrick.a1-netherbrick-lavabrown.desc.1,Brown Lava Brick,茶色の溶岩ブロック
@@ -1955,13 +1955,13 @@ tile.chisel.netherbrick.netherFancyBricks.desc.1,Disordered Nether Bricks,無秩
 tile.chisel.netherrack.name,Netherrack,ネザーラック
 tile.chisel.netherrack.a1-netherrack-bloodgravel.desc.1,Streaked,ストリーク
 tile.chisel.netherrack.a1-netherrack-bloodrock.desc.1,Red Rock,赤い岩
-tile.chisel.netherrack.a1-netherrack-bloodrockgrey.desc.1,Gray Rock,グレーの岩
+tile.chisel.netherrack.a1-netherrack-bloodrockgrey.desc.1,Gray Rock,灰色の岩
 tile.chisel.netherrack.a1-netherrack-brinstar.desc.1,Blue Streaked,青い縞模様
 tile.chisel.netherrack.a1-netherrack-brinstarshale.desc.1,Blue Shale,青いシェル
 tile.chisel.netherrack.a1-netherrack-classic.desc.1,Rocky,ロック
 tile.chisel.netherrack.a1-netherrack-classicspatter.desc.1,Blood-Splatted Rocky,血しみの岩
 tile.chisel.netherrack.a1-netherrack-guts.desc.1,Raw Guts,生の内臓
-tile.chisel.netherrack.a1-netherrack-gutsdark.desc.1,Guts,胃
+tile.chisel.netherrack.a1-netherrack-gutsdark.desc.1,Guts,ガッツ
 tile.chisel.netherrack.a1-netherrack-meat.desc.1,Meat,肉
 tile.chisel.netherrack.a1-netherrack-meatred.desc.1,Raw Meat,生肉
 tile.chisel.netherrack.a1-netherrack-meatrock.desc.1,Bloody Rock,血の岩
@@ -1979,7 +1979,7 @@ tile.chisel.blockNickel.scaffold.desc.1,Scaffold,足場
 tile.chisel.obsidian.name,Obsidian,黒曜石
 tile.chisel.obsidian.pillar.desc.1,Large Pillar,大きな柱
 tile.chisel.obsidian.pillar-quartz.desc.1,Pillar,柱
-tile.chisel.obsidian.chiseled.desc.1,Chiseled,削ったような
+tile.chisel.obsidian.chiseled.desc.1,Chiseled,彫刻された
 tile.chisel.obsidian.panel-shiny.desc.1,Shiny Panel,光沢パネル
 tile.chisel.obsidian.panel.desc.1,Panel,パネル
 tile.chisel.obsidian.chunks.desc.1,Chunks,チャンク
@@ -2468,7 +2468,7 @@ tile.chisel.temple.name,Temple Block,神殿ブロック
 tile.chisel.temple.cobble.desc.1,Cobble,丸石
 tile.chisel.temple.ornate.desc.1,Ornate,華やか
 tile.chisel.temple.plate.desc.1,Plate,プレート
-tile.chisel.temple.plate-cracked.desc.1,Cracked Plate,割れたプレート
+tile.chisel.temple.plate-cracked.desc.1,Cracked Plate,ひび割れたプレート
 tile.chisel.temple.bricks.desc.1,Small Bricks,小さなレンガ
 tile.chisel.temple.bricks-large.desc.1,Bricks,レンガ
 tile.chisel.temple.bricks-weared.desc.1,Damaged Bricks,破損したレンガ
@@ -2485,7 +2485,7 @@ tile.chisel.templemossy.name,Mossy Temple Block,モッシーテンプレーブ�
 tile.chisel.templemossy.cobble.desc.1,Cobble,丸石
 tile.chisel.templemossy.ornate.desc.1,Ornate,華やか
 tile.chisel.templemossy.plate.desc.1,Plate,プレート
-tile.chisel.templemossy.plate-cracked.desc.1,Cracked Plate,割れたプレート
+tile.chisel.templemossy.plate-cracked.desc.1,Cracked Plate,ひび割れたプレート
 tile.chisel.templemossy.bricks.desc.1,Small Bricks,小さなレンガ
 tile.chisel.templemossy.bricks-large.desc.1,Bricks,レンガ
 tile.chisel.templemossy.bricks-weared.desc.1,Damaged Bricks,破損したレンガ
@@ -2510,8 +2510,8 @@ tile.chisel.blockTin.scaffold.desc.1,Scaffold,足場
 tile.chisel.tyrian.name,Tyrian,タイリアン
 tile.chisel.tyrian.shining.desc.1,Disordered Metal Bits,無秩序な金属片
 tile.chisel.tyrian.tyrian.desc.1,Metal Plates,金属の板、プレート
-tile.chisel.tyrian.chaotic.desc.1,Disordered Purple Bits,無秩序な紫色のピース
-tile.chisel.tyrian.softplate.desc.1,Purple Plates,紫色のプレート
+tile.chisel.tyrian.chaotic.desc.1,Disordered Purple Bits,無秩序な紫のピース
+tile.chisel.tyrian.softplate.desc.1,Purple Plates,紫のプレート
 tile.chisel.tyrian.rust.desc.1,Rust,錆
 tile.chisel.tyrian.elaborate.desc.1,Shiny Plates,光沢プレート
 tile.chisel.tyrian.routes.desc.1,Routes,ルート
@@ -2534,15 +2534,15 @@ tile.chisel.blockUranium.badGreggy.desc.1,Egregious,ひどい
 tile.chisel.blockUranium.bolted.desc.1,Bolted,ボルト止め
 tile.chisel.blockUranium.scaffold.desc.1,Scaffold,足場
 tile.chisel.valentines.name,Valentines' Block,バレンタインのブロック
-tile.chisel.valentines.1.desc.1,Pink Marker,ピンクのマーカー
-tile.chisel.valentines.2.desc.1,Gray Rocky,グレーの岩
+tile.chisel.valentines.1.desc.1,Pink Marker,桃色のマーカー
+tile.chisel.valentines.2.desc.1,Gray Rocky,灰色の岩
 tile.chisel.valentines.3.desc.1,Pink Heart,桃色のハート模様
-tile.chisel.valentines.4.desc.1,Pink Rocky,ピンクの岩
-tile.chisel.valentines.5.desc.1,Pink Tile,ピンクのタイル
-tile.chisel.valentines.6.desc.1,Pink Cracks,ピンクのひび
-tile.chisel.valentines.7.desc.1,Pink Studded,ピンクのスタッド付き
+tile.chisel.valentines.4.desc.1,Pink Rocky,桃色の岩
+tile.chisel.valentines.5.desc.1,Pink Tile,桃色のタイル
+tile.chisel.valentines.6.desc.1,Pink Cracks,桃色のひび
+tile.chisel.valentines.7.desc.1,Pink Studded,桃色のスタッド付き
 tile.chisel.valentines.8.desc.1,Flame,炎
-tile.chisel.valentines.9.desc.1,Pink Steel,ピンクの鋼鉄
+tile.chisel.valentines.9.desc.1,Pink Steel,桃色の鋼鉄
 tile.chisel.valentines.companion.desc.1,Companion,同伴者
 tile.chisel.valentines.companion.desc.2,"It will never threaten to stab you and,",あなたを刺す脅威は決してありません、
 tile.chisel.valentines.companion.desc.3,"in fact, cannot speak.",実際には話せません。
@@ -2568,18 +2568,18 @@ tile.chisel.voidstoneRunic.name,Runed Voidstone,刻印された虚空石
 tile.chisel.voidstoneRunic.black.desc.1,Black,黒
 tile.chisel.voidstoneRunic.red.desc.1,Red,赤
 tile.chisel.voidstoneRunic.green.desc.1,Green,緑
-tile.chisel.voidstoneRunic.brown.desc.1,Brown,茶色
+tile.chisel.voidstoneRunic.brown.desc.1,Brown,茶
 tile.chisel.voidstoneRunic.blue.desc.1,Blue,青
 tile.chisel.voidstoneRunic.purple.desc.1,Purple,紫
-tile.chisel.voidstoneRunic.cyan.desc.1,Cyan,シアン
+tile.chisel.voidstoneRunic.cyan.desc.1,Cyan,青緑
 tile.chisel.voidstoneRunic.lightgray.desc.1,Light Gray,薄灰色
-tile.chisel.voidstoneRunic.gray.desc.1,Gray,グレー
-tile.chisel.voidstoneRunic.pink.desc.1,Pink,ピンク
-tile.chisel.voidstoneRunic.lime.desc.1,Lime,ライム
-tile.chisel.voidstoneRunic.yellow.desc.1,Yellow,黄色
+tile.chisel.voidstoneRunic.gray.desc.1,Gray,灰色
+tile.chisel.voidstoneRunic.pink.desc.1,Pink,桃色
+tile.chisel.voidstoneRunic.lime.desc.1,Lime,黄緑
+tile.chisel.voidstoneRunic.yellow.desc.1,Yellow,黄
 tile.chisel.voidstoneRunic.lightblue.desc.1,Light Blue,空色
 tile.chisel.voidstoneRunic.magenta.desc.1,Magentia,マジェンティア
-tile.chisel.voidstoneRunic.orange.desc.1,Orange,オレンジ
+tile.chisel.voidstoneRunic.orange.desc.1,Orange,橙
 tile.chisel.voidstoneRunic.white.desc.1,White,白
 tile.chisel.waterstone.name,Waterstone,水石
 tile.chisel.waterstone.cracked.desc.1,Cracked,ひび割れ
@@ -2624,31 +2624,31 @@ tile.chisel.waterstone.bricks-chaotic.desc.1,Trodden Bricks,踏みにじられ�
 tile.chisel.waterstone.cuts.desc.1,Cuts,カット
 tile.chisel.wool_white.name,Wool,羊毛
 tile.chisel.wool_white.legacy_white.desc.1,Legacy Carpet,レガシー・カーペット
-tile.chisel.wool_orange.name,Orange Wool,オレンジのウール
+tile.chisel.wool_orange.name,Orange Wool,橙のウール
 tile.chisel.wool_orange.legacy_orange.desc.1,Legacy Carpet,レガシー・カーペット
 tile.chisel.wool_orange.llama_orange.desc.1,Llama Carpet,ウマのカーペット
-tile.chisel.wool_magenta.name,Magenta Wool,マゼンタのウール
+tile.chisel.wool_magenta.name,Magenta Wool,赤紫のウール
 tile.chisel.wool_magenta.legacy_magenta.desc.1,Legacy Carpet,レガシー・カーペット
 tile.chisel.wool_magenta.llama_magenta.desc.1,Llama Carpet,ウマのカーペット
-tile.chisel.wool_lightblue.name,Light Blue Wool,ライトブルーのウール
+tile.chisel.wool_lightblue.name,Light Blue Wool,空色のウール
 tile.chisel.wool_lightblue.legacy_lightblue.desc.1,Legacy Carpet,レガシー・カーペット
 tile.chisel.wool_lightblue.llama_lightblue.desc.1,Llama Carpet,ウマのカーペット
-tile.chisel.wool_yellow.name,Yellow Wool,黄色のウール
+tile.chisel.wool_yellow.name,Yellow Wool,黄のウール
 tile.chisel.wool_yellow.legacy_yellow.desc.1,Legacy Carpet,レガシー・カーペット
 tile.chisel.wool_yellow.llama_yellow.desc.1,Llama Carpet,ウマのカーペット
-tile.chisel.wool_lime.name,Lime Wool,ライムのウール
+tile.chisel.wool_lime.name,Lime Wool,黄緑のウール
 tile.chisel.wool_lime.legacy_lime.desc.1,Legacy Carpet,レガシー・カーペット
 tile.chisel.wool_lime.llama_lime.desc.1,Llama Carpet,ウマのカーペット
-tile.chisel.wool_pink.name,Pink Wool,ピンクのウール
+tile.chisel.wool_pink.name,Pink Wool,桃色のウール
 tile.chisel.wool_pink.legacy_pink.desc.1,Legacy Carpet,レガシー・カーペット
 tile.chisel.wool_pink.llama_pink.desc.1,Llama Carpet,ウマのカーペット
 tile.chisel.wool_gray.name,Gray Wool,グレイウール
 tile.chisel.wool_gray.legacy_gray.desc.1,Legacy Carpet,レガシー・カーペット
 tile.chisel.wool_gray.llama_gray.desc.1,Llama Carpet,ウマのカーペット
-tile.chisel.wool_lightgray.name,Light Gray Wool,ライトグレーのウール
+tile.chisel.wool_lightgray.name,Light Gray Wool,薄灰色のウール
 tile.chisel.wool_lightgray.legacy_lightgray.desc.1,Legacy Carpet,レガシー・カーペット
 tile.chisel.wool_lightgray.llama_lightgray.desc.1,Llama Carpet,ウマのカーペット
-tile.chisel.wool_cyan.name,Cyan Wool,シアンのウール
+tile.chisel.wool_cyan.name,Cyan Wool,水色のウール
 tile.chisel.wool_cyan.legacy_cyan.desc.1,Legacy Carpet,レガシー・カーペット
 tile.chisel.wool_cyan.llama_cyan.desc.1,Llama Carpet,ウマのカーペット
 tile.chisel.wool_purple.name,Purple Wool,紫のウール
@@ -2754,22 +2754,22 @@ tile.chisel.arcane_stone.cuts.desc.1,Cuts,カット
 tile.chisel.carpet_white.name,White Carpet,白いカーペット
 tile.chisel.carpet_white.legacy_white.desc.1,Legacy,レガシー
 tile.chisel.carpet_white.llama_white.desc.1,Llama,ウマ
-tile.chisel.carpet_orange.name,Orange Carpet,オレンジカーペット
+tile.chisel.carpet_orange.name,Orange Carpet,橙カーペット
 tile.chisel.carpet_orange.legacy_orange.desc.1,Legacy,レガシー
 tile.chisel.carpet_orange.llama_orange.desc.1,Llama,ウマ
-tile.chisel.carpet_magenta.name,Magenta Carpet,マゼンタカーペット
+tile.chisel.carpet_magenta.name,Magenta Carpet,赤紫カーペット
 tile.chisel.carpet_magenta.legacy_magenta.desc.1,Legacy,レガシー
 tile.chisel.carpet_magenta.llama_magenta.desc.1,Llama,ウマ
-tile.chisel.carpet_lightblue.name,Light Blue Carpet,ライトブルーのカーペット
+tile.chisel.carpet_lightblue.name,Light Blue Carpet,空色のカーペット
 tile.chisel.carpet_lightblue.legacy_lightblue.desc.1,Legacy,レガシー
 tile.chisel.carpet_lightblue.llama_lightblue.desc.1,Llama,ウマ
-tile.chisel.carpet_yellow.name,Yellow Carpet,黄色いカーペット
+tile.chisel.carpet_yellow.name,Yellow Carpet,黄のカーペット
 tile.chisel.carpet_yellow.legacy_yellow.desc.1,Legacy,レガシー
 tile.chisel.carpet_yellow.llama_yellow.desc.1,Llama,ウマ
-tile.chisel.carpet_lime.name,Lime Carpet,ライムのカーペット
+tile.chisel.carpet_lime.name,Lime Carpet,黄緑のカーペット
 tile.chisel.carpet_lime.legacy_lime.desc.1,Legacy,レガシー
 tile.chisel.carpet_lime.llama_lime.desc.1,Llama,ウマ
-tile.chisel.carpet_pink.name,Pink Carpet,ピンクのカーペット
+tile.chisel.carpet_pink.name,Pink Carpet,桃色のカーペット
 tile.chisel.carpet_pink.legacy_pink.desc.1,Legacy,レガシー
 tile.chisel.carpet_pink.llama_pink.desc.1,Llama,ウマ
 tile.chisel.carpet_gray.name,Gray Carpet,グレイカーペット
@@ -2778,7 +2778,7 @@ tile.chisel.carpet_gray.llama_gray.desc.1,Llama,ウマ
 tile.chisel.carpet_lightgray.name,Light Gray Carpet,ライトグレイのカーペット
 tile.chisel.carpet_lightgray.legacy_lightgray.desc.1,Legacy,レガシー
 tile.chisel.carpet_lightgray.llama_lightgray.desc.1,Llama,ウマ
-tile.chisel.carpet_cyan.name,Cyan Carpet,シアンのカーペット
+tile.chisel.carpet_cyan.name,Cyan Carpet,水色のカーペット
 tile.chisel.carpet_cyan.legacy_cyan.desc.1,Legacy,レガシー
 tile.chisel.carpet_cyan.llama_cyan.desc.1,Llama,ウマ
 tile.chisel.carpet_purple.name,Purple Carpet,パープルカーペット
@@ -2865,22 +2865,22 @@ tile.chisel.glasspane.a1-glasswindow-ironfencemodern.desc.1,Iron Fence,鉄のフ
 tile.chisel.glasspane.chrono.desc.1,Asymmetrical Leaded Glass,非対称リード含有ガラス
 tile.chisel.glasspane.chinese2.desc.1,Chinese 2,中国2
 tile.chisel.glasspane.japanese2.desc.1,Japanese 2,日本語2
-tile.chisel.glasspanedyedblack.name,Black Stained Glass Pane,黒い染めガラスパネル
-tile.chisel.glasspanedyedred.name,Red Stained Glass Pane,赤い染色ガラスパネル
-tile.chisel.glasspanedyedgreen.name,Green Stained Glass Pane,緑の染めガラスパネル
-tile.chisel.glasspanedyedbrown.name,Brown Stained Glass Pane,茶色の染めガラスパネル
-tile.chisel.glasspanedyedblue.name,Blue Stained Glass Pane,青い染色ガラスパネル
+tile.chisel.glasspanedyedblack.name,Black Stained Glass Pane,黒い染め板ガラス
+tile.chisel.glasspanedyedred.name,Red Stained Glass Pane,赤い染色板ガラス
+tile.chisel.glasspanedyedgreen.name,Green Stained Glass Pane,緑の染め板ガラス
+tile.chisel.glasspanedyedbrown.name,Brown Stained Glass Pane,茶色の染め板ガラス
+tile.chisel.glasspanedyedblue.name,Blue Stained Glass Pane,青い染色板ガラス
 tile.chisel.glasspanedyedpurple.name,Purple Stained Glass Pane,紫のステンドグラスパネル
-tile.chisel.glasspanedyedcyan.name,Cyan Stained Glass Pane,シアンの染色ガラスパネル
-tile.chisel.glasspanedyedlightgray.name,Light Gray Stained Glass Pane,ライトグレーのステンドグラスパネル
-tile.chisel.glasspanedyedgray.name,Gray Stained Glass Pane,グレーの染色ガラスパネル
-tile.chisel.glasspanedyedpink.name,Pink Stained Glass Pane,ピンクの染色ガラスパネル
-tile.chisel.glasspanedyedlime.name,Lime Stained Glass Pane,ライムの染色ガラスパネル
+tile.chisel.glasspanedyedcyan.name,Cyan Stained Glass Pane,水色の染色板ガラス
+tile.chisel.glasspanedyedlightgray.name,Light Gray Stained Glass Pane,薄灰色のステンドグラスパネル
+tile.chisel.glasspanedyedgray.name,Gray Stained Glass Pane,灰色の染色板ガラス
+tile.chisel.glasspanedyedpink.name,Pink Stained Glass Pane,桃色の染色板ガラス
+tile.chisel.glasspanedyedlime.name,Lime Stained Glass Pane,黄緑の染色板ガラス
 tile.chisel.glasspanedyedyellow.name,Yellow Stained Glass Pane,黄のステンドグラスパネル
-tile.chisel.glasspanedyedlightblue.name,Light Blue Stained Glass Pane,ライトブルーのステンドグラスパネル
-tile.chisel.glasspanedyedmagenta.name,Magenta Stained Glass Pane,マゼンタ着色ガラスパネル
+tile.chisel.glasspanedyedlightblue.name,Light Blue Stained Glass Pane,空色のステンドグラスパネル
+tile.chisel.glasspanedyedmagenta.name,Magenta Stained Glass Pane,赤紫着色板ガラス
 tile.chisel.glasspanedyedorange.name,Orange Stained Glass Pane,橙のステンドグラスパネル
-tile.chisel.glasspanedyedwhite.name,White Stained Glass Pane,白い染めガラスパネル
+tile.chisel.glasspanedyedwhite.name,White Stained Glass Pane,白い染め板ガラス
 tile.chisel.glasspanedyedblack.brick.desc.1,Brick,レンガ
 tile.chisel.glasspanedyedblack.framed.desc.1,Framed,フレーム
 tile.chisel.glasspanedyedblack.framed_fancy.desc.1,Fancy-Framed,ファンシーフレーム
@@ -2979,13 +2979,13 @@ tile.chisel.glasspanedyedwhite.rough.desc.1,Rough,粗い
 tile.chisel.glasspanedyedwhite.streaks.desc.1,Streaked,ストリーク
 tile.chisel.netherbrick.name,Nether Brick,下界ブロック
 tile.chisel.planks-oak.name,Oak Wood Planks,オークの木板
-tile.chisel.planks-spruce.name,Spruce Wood Planks,スプルースの木板
-tile.chisel.planks-birch.name,Birch Wood Planks,白樺材の板
+tile.chisel.planks-spruce.name,Spruce Wood Planks,トウヒの木板
+tile.chisel.planks-birch.name,Birch Wood Planks,シラカバ材の板
 tile.chisel.planks-jungle.name,Jungle Wood Planks,ジャングル材の板
 tile.chisel.planks-acacia.name,Acacia Wood Planks,アカシア材の板
 tile.chisel.planks-dark-oak.name,Dark Oak Wood Planks,ダークオークの木板
-tile.chisel.sandstoneyellow.seamless.desc.1,Seamless Double Slab,シームレスな二重スラブ
-tile.chisel.sandstonered.seamless.desc.1,Seamless Double Slab,シームレスな二重スラブ
+tile.chisel.sandstoneyellow.seamless.desc.1,Seamless Double Slab,シームレスな二重ハーフブロック
+tile.chisel.sandstonered.seamless.desc.1,Seamless Double Slab,シームレスな二重ハーフブロック
 tile.chisel.sandstonered-scribbles.name,Red Sandstone Scribbles,赤砂岩の落書き
 tile.chisel.sandstonered-scribbles.scribbles-0.desc.1,Hieroglyphs 1,ヒエログリフ 1
 tile.chisel.sandstonered-scribbles.scribbles-1.desc.1,Hieroglyphs 2,象形文字 2
@@ -3003,5 +3003,6 @@ tile.chisel.sandstonered-scribbles.scribbles-12.desc.1,Pattern 1,パターン1
 tile.chisel.sandstonered-scribbles.scribbles-13.desc.1,Pattern 2,パターン2
 tile.chisel.sandstonered-scribbles.scribbles-14.desc.1,Hieroglyphs 5,象形文字 5
 tile.chisel.sandstonered-scribbles.scribbles-15.desc.1,Hieroglyphs 6,象形文字 6
-tile.chisel.stonebrick.doubleslab.desc.1,Double Slab,二重スラブ
-tile.chisel.stonebrick.doubleslab-seamless.desc.1,Seamless Double Slab,シームレスな二重スラブ
+tile.chisel.stonebrick.doubleslab.desc.1,Double Slab,二重ハーフブロック
+tile.chisel.stonebrick.doubleslab-seamless.desc.1,Seamless Double Slab,シームレスな二重ハーフブロック
+tile.chisel.wool_white.llama_white.desc.1,Llama Carpet,

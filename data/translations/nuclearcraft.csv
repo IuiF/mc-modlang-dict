@@ -105,7 +105,7 @@ block.nuclearcraft.melter,Melter,メルタ
 block.nuclearcraft.nether_brick_heat_sink,Nether Brick Heat Sink,ネザーレンガ ヒートシンク
 block.nuclearcraft.netherite_heat_sink,Netherite Heat Sink,ネザライト ヒートシンク
 block.nuclearcraft.niobium_tin_electromagnet,Niobium Tin Electromagnet,ニオブスズ 電磁石
-block.nuclearcraft.niobium_tin_electromagnet_slope,Niobium Tin Electromagnet Slope,ニオブ 錫 電磁石 スロープ
+block.nuclearcraft.niobium_tin_electromagnet_slope,Niobium Tin Electromagnet Slope,ニオブ スズ 電磁石 スロープ
 block.nuclearcraft.niobium_tin_rf_amplifier,Niobium Tin RF Amplifier,ニオブスズ RF 増幅器
 block.nuclearcraft.niobium_titanium_electromagnet,Niobium Titanium Electromagnet,ニオブチタン 電磁石
 block.nuclearcraft.niobium_titanium_electromagnet_slope,Niobium Titanium Electromagnet Slope,ニオブチタン 電磁石 スロープ
@@ -139,7 +139,7 @@ block.nuclearcraft.supercooler,Supercooler,スーパークーラー
 block.nuclearcraft.thorium_block,Thorium Block,トリウムブロック
 block.nuclearcraft.thorium_deepslate_ore,Thorium Deepslate Ore,トリウム デープスレート 鉱石
 block.nuclearcraft.thorium_ore,Thorium Ore,トリウム鉱石
-block.nuclearcraft.tin_block,Tin Block,錫ブロック
+block.nuclearcraft.tin_block,Tin Block,スズブロック
 block.nuclearcraft.tin_heat_sink,Tin Heat Sink,スズ ヒートシンク
 block.nuclearcraft.tin_ore,Tin Ore,スズ鉱石
 block.nuclearcraft.turbine_aluminium_coil,Turbine Aluminium Coil,タービン アルミニウム コイル
@@ -663,7 +663,7 @@ fluid_type.nuclearcraft.thorium_slurry,Thorium Slurry,トリウム スラリー
 fluid_type.nuclearcraft.tin,Molten Tin,溶融スズ
 fluid_type.nuclearcraft.tin_clean_slurry,Tin Clean Slurry,スズ クリーンスラリー
 fluid_type.nuclearcraft.tin_silver,Molten Tin Silver,溶融スズ銀合金
-fluid_type.nuclearcraft.tin_slurry,Tin Slurry,錫の懸濁液
+fluid_type.nuclearcraft.tin_slurry,Tin Slurry,スズの懸濁液
 fluid_type.nuclearcraft.tough_alloy,Molten Tough Alloy,溶融堅牢合金
 fluid_type.nuclearcraft.tritium,Tritium,三重水素
 fluid_type.nuclearcraft.unsweetened_chocolate,Unsweetened Chocolate,無糖チョコレート
@@ -708,8 +708,8 @@ fusion_core.recipe.radiation,Reaction Radiation: %s uRad,Reaction 放射線: %s 
 fusion_core.recipe.temperature,Optimal Temperature: %s MK,温度：%s MK
 fusion_core.rf_amplifiers.power,RF Amplifiers: %s%%,RF アンプs: %s%%
 fusion_core.stability,Plasma Stability: %s%%,プラズマ 安定性: %s%%
-gui.nc.fluid_tank_renderer.amount,%s mB,%s mB
-gui.nc.fluid_tank_renderer.amount_capacity,%s/%s mB,%s/%s mB
+gui.nc.fluid_tank_renderer.amount,%s mB,
+gui.nc.fluid_tank_renderer.amount_capacity,%s/%s mB,
 gui.nc.fluid_tank_renderer.can_void,SHIFT+Mouse 1 to void content,シフト+マウス 1 削除する content
 gui.nc.reactor_comparator_config.tooltip_1,Comparator: Energy Stored,エネルギー
 gui.nc.reactor_comparator_config.tooltip_2,Comparator: Heat Stored,コンパレーター：保存熱量
@@ -841,7 +841,7 @@ item.nuclearcraft.boron_plate,Boron Plate,ホウ素プレート
 item.nuclearcraft.boron_slurry_bucket,Bucket of Boron Slurry,ホウ素スラリーバケツ
 item.nuclearcraft.bronze_bucket,Bucket of Molten Bronze,バケツ溶融Bronzeバケツ
 item.nuclearcraft.bronze_dust,Bronze Dust,青銅粉
-item.nuclearcraft.bronze_ingot,Bronze Ingot,青銅の塊
+item.nuclearcraft.bronze_ingot,Bronze Ingot,青銅のインゴット
 item.nuclearcraft.bronze_nugget,Bronze Nugget,青銅の塊
 item.nuclearcraft.bronze_plate,Bronze Plate,青銅の板
 item.nuclearcraft.bscco_dust,Bscco Dust,粉
@@ -892,13 +892,13 @@ item.nuclearcraft.carbon_manganese_ingot,Carbon Manganese Ingot,マンガン
 item.nuclearcraft.carbon_monoxide_bucket,Bucket of Carbon Monoxide,一酸化炭素バケツ
 item.nuclearcraft.carobbiite_dust,Carobbiite Dust,カロッビイトの粉
 item.nuclearcraft.carobbiite_gem,Carobbiite Gem,カロビウム
-item.nuclearcraft.charcoal_dust,Charcoal Dust,木炭粉
+item.nuclearcraft.charcoal_dust,Charcoal Dust,木炭の粉
 item.nuclearcraft.chassis,Chassis,シャーシ
 item.nuclearcraft.chlorine_bucket,Bucket of Chlorine,塩素バケツ
 item.nuclearcraft.chocolate_liquor_bucket,Bucket of Chocolate Liquor,チョコレート
 item.nuclearcraft.chromium_dust,Chromium Dust,クロム粉
 item.nuclearcraft.chromium_ingot,Chromium Ingot,インゴット
-item.nuclearcraft.coal_dust,Coal Dust,石炭粉
+item.nuclearcraft.coal_dust,Coal Dust,石炭の粉
 item.nuclearcraft.cobalt_bucket,Bucket of Molten Cobalt,コバルト溶融Cobaltバケツ
 item.nuclearcraft.cobalt_chunk,Cobalt Chunk,コバルトの塊
 item.nuclearcraft.cobalt_clean_slurry_bucket,Bucket of Cobalt Clean Slurry,コバルト洗浄スラリーバケツ
@@ -920,7 +920,7 @@ item.nuclearcraft.condensate_water_bucket,Bucket of Condensate Water,凝結水�
 item.nuclearcraft.copper_bucket,Bucket of Copper,銅銅バケツ
 item.nuclearcraft.copper_clean_slurry_bucket,Bucket of Copper Clean Slurry,銅銅 洗浄スラリーバケツ
 item.nuclearcraft.copper_dust,Copper Dust,銅の粉
-item.nuclearcraft.copper_plate,Copper Plate,銅板
+item.nuclearcraft.copper_plate,Copper Plate,銅の板
 item.nuclearcraft.copper_slurry_bucket,Bucket of Copper Slurry,銅銅 スラリーバケツ
 item.nuclearcraft.corium_bucket,Bucket of Corium,コリウムバケツ
 item.nuclearcraft.cryotheum_bucket,Bucket of Cryotheum,クリオシウムバケツ
@@ -1212,7 +1212,7 @@ item.nuclearcraft.empty_frame,Empty Frame,空のフレーム
 item.nuclearcraft.empty_sink,Empty Sink,空のシンク
 item.nuclearcraft.end_of_the_world,End Of The World,世界の終わり
 item.nuclearcraft.end_of_the_world.desc,End of the World,世界の終わり
-item.nuclearcraft.end_stone_dust,End Stone Dust,エンドアズライト翡翠石ダスト
+item.nuclearcraft.end_stone_dust,End Stone Dust,エンドストーン粉
 item.nuclearcraft.enderium_bucket,Bucket of Enderium,エンデリウムのバケツ
 item.nuclearcraft.enderium_dust,Enderium Dust,エンダリウム粉
 item.nuclearcraft.energetic_blend_dust,Energetic Blend Dust,Energetic Blend ダスト
@@ -1463,7 +1463,7 @@ item.nuclearcraft.glowstone_bucket,Bucket of Glowstone,グロウストーン
 item.nuclearcraft.gold_bucket,Bucket of Gold,金のバケツ
 item.nuclearcraft.gold_dust,Gold Dust,金粉
 item.nuclearcraft.graham_cracker,Graham Cracker,グラハムクラッカー
-item.nuclearcraft.graphite_dust,Graphite Dust,グラファイトパウダー
+item.nuclearcraft.graphite_dust,Graphite Dust,グラファイトの粉
 item.nuclearcraft.graphite_ingot,Graphite Ingot,インゴット
 item.nuclearcraft.graphite_plate,Graphite Plate,グラファイトプレート
 item.nuclearcraft.ground_cocoa_nibs,Ground Cocoa Nibs,ココア
@@ -1497,7 +1497,7 @@ item.nuclearcraft.ice_bucket,Bucket of Ice,氷のバケツ
 item.nuclearcraft.iodine_dust,Iodine Dust,粉
 item.nuclearcraft.iron_bucket,Bucket of Iron,鉄
 item.nuclearcraft.iron_dust,Iron Dust,鉄の粉
-item.nuclearcraft.iron_plate,Iron Plate,鉄板
+item.nuclearcraft.iron_plate,Iron Plate,鉄の板
 item.nuclearcraft.irradiated_borax_dust,Irradiated Borax Dust,Irradiated ホウ砂 ダスト
 item.nuclearcraft.lapis_bucket,Bucket of Lapis,ラピスラズリのバケツ
 item.nuclearcraft.lapis_dust,Lapis Dust,ラピスラズリ粉
@@ -1505,9 +1505,9 @@ item.nuclearcraft.lava_collector,Lava Collector,溶岩コレクター
 item.nuclearcraft.lead_bucket,Bucket of Molten Lead,バケツの溶けた鉛
 item.nuclearcraft.lead_chunk,Lead Chunk,鉛の塊
 item.nuclearcraft.lead_dust,Lead Dust,鉛の粉
-item.nuclearcraft.lead_ingot,Lead Ingot,鉛の塊
+item.nuclearcraft.lead_ingot,Lead Ingot,鉛のインゴット
 item.nuclearcraft.lead_nugget,Lead Nugget,鉛の塊
-item.nuclearcraft.lead_plate,Lead Plate,鉛板
+item.nuclearcraft.lead_plate,Lead Plate,鉛の板
 item.nuclearcraft.lead_platinum_dust,Lead Platinum Dust,鉛
 item.nuclearcraft.lead_platinum_ingot,Lead Platinum Ingot,インゴット
 item.nuclearcraft.light,Light Shielding,シールド
@@ -1611,10 +1611,10 @@ item.nuclearcraft.nitrogen_collector,Nitrogen Collector,窒素コレクター
 item.nuclearcraft.nitrogen_dioxide_bucket,Bucket of Nitrogen Dioxide,窒素
 item.nuclearcraft.nuclear_waste_bucket,Bucket of Nuclear Waste,核廃棄物
 item.nuclearcraft.obsidian_bucket,Bucket of Obsidian,黒曜石
-item.nuclearcraft.obsidian_dust,Obsidian Dust,黒曜石粉
+item.nuclearcraft.obsidian_dust,Obsidian Dust,黒曜石の粉
 item.nuclearcraft.osmiridium_ingot,Osmiridium Ingot,インゴット
 item.nuclearcraft.osmium_dust,Osmium Dust,オスミウムの粉
-item.nuclearcraft.osmium_ingot,Osmium Ingot,オスミウムの塊
+item.nuclearcraft.osmium_ingot,Osmium Ingot,オスミウムのインゴット
 item.nuclearcraft.oxygen_bucket,Bucket of Oxygen,酸素
 item.nuclearcraft.oxygen_difluoride_bucket,Bucket of Oxygen Difluoride,酸素
 item.nuclearcraft.palladium_bucket,Bucket of Molten Palladium,パラジウム
@@ -1631,7 +1631,7 @@ item.nuclearcraft.platinum_bucket,Bucket of Molten Platinum,スズ
 item.nuclearcraft.platinum_chunk,Platinum Chunk,プラチナの塊
 item.nuclearcraft.platinum_clean_slurry_bucket,Bucket of Platinum Clean Slurry,スズ
 item.nuclearcraft.platinum_dust,Platinum Dust,プラチナ粉
-item.nuclearcraft.platinum_ingot,Platinum Ingot,プラチナの塊
+item.nuclearcraft.platinum_ingot,Platinum Ingot,プラチナのインゴット
 item.nuclearcraft.platinum_nugget,Platinum Nugget,プラチナの塊
 item.nuclearcraft.platinum_plate,Platinum Plate,プラチナの板
 item.nuclearcraft.platinum_slurry_bucket,Bucket of Platinum Slurry,スズ
@@ -1685,7 +1685,7 @@ item.nuclearcraft.purpur_bucket,Bucket of Purpur,プルプァ
 item.nuclearcraft.purpur_dust,Purpur Dust,プルプァ
 item.nuclearcraft.pyrolitic_carbon_dust,Pyrolitic Carbon Dust,炭素
 item.nuclearcraft.pyrolitic_carbon_ingot,Pyrolitic Carbon Ingot,炭素
-item.nuclearcraft.qnp,QNP,QNP
+item.nuclearcraft.qnp,QNP,
 item.nuclearcraft.quartz_dust,Quartz Dust,クォーツ粉
 item.nuclearcraft.rad_x,Rad X,ラドX
 item.nuclearcraft.radaway,Radaway,ラドアウェイ
@@ -1723,7 +1723,7 @@ item.nuclearcraft.silver_clean_slurry_bucket,Bucket of Silver Clean Slurry,銀
 item.nuclearcraft.silver_dust,Silver Dust,銀粉
 item.nuclearcraft.silver_ingot,Silver Ingot,銀インゴット
 item.nuclearcraft.silver_nugget,Silver Nugget,銀の塊
-item.nuclearcraft.silver_plate,Silver Plate,銀板
+item.nuclearcraft.silver_plate,Silver Plate,銀の板
 item.nuclearcraft.silver_slurry_bucket,Bucket of Silver Slurry,銀
 item.nuclearcraft.slurry_ice_bucket,Bucket of Slurry Ice,スラリー氷のバケツ
 item.nuclearcraft.smore,Smore,鉱石
@@ -1743,9 +1743,9 @@ item.nuclearcraft.steam_bucket,Bucket of Steam,蒸気のバケツ
 item.nuclearcraft.steel_bucket,Bucket of Molten Steel,溶融した鋼鉄入りバケツ
 item.nuclearcraft.steel_dust,Steel Dust,鋼鉄の粉
 item.nuclearcraft.steel_frame,Steel Frame,フレーム
-item.nuclearcraft.steel_ingot,Steel Ingot,鋼鉄インゴット
+item.nuclearcraft.steel_ingot,Steel Ingot,鋼鉄のインゴット
 item.nuclearcraft.steel_nugget,Steel Nugget,鋼鉄の塊
-item.nuclearcraft.steel_plate,Steel Plate,鋼鉄板
+item.nuclearcraft.steel_plate,Steel Plate,鋼鉄の板
 item.nuclearcraft.strontium_90_bucket,Bucket of Strontium 90,ストロンチウム
 item.nuclearcraft.strontium_90_dust,Strontium 90 Dust,ストロンチウム
 item.nuclearcraft.strontium_dust,Strontium Dust,ストロンチウム
@@ -1785,7 +1785,7 @@ item.nuclearcraft.thorium_bucket,Bucket of Molten Thorium,トリウム
 item.nuclearcraft.thorium_chunk,Thorium Chunk,スズのブロック
 item.nuclearcraft.thorium_clean_slurry_bucket,Bucket of Thorium Clean Slurry,トリウム
 item.nuclearcraft.thorium_dust,Thorium Dust,ソーダの粉
-item.nuclearcraft.thorium_ingot,Thorium Ingot,スズリスの塊
+item.nuclearcraft.thorium_ingot,Thorium Ingot,スズリスのインゴット
 item.nuclearcraft.thorium_nugget,Thorium Nugget,トリウム
 item.nuclearcraft.thorium_plate,Thorium Plate,トリウム
 item.nuclearcraft.thorium_slurry_bucket,Bucket of Thorium Slurry,トリウム
@@ -1793,12 +1793,12 @@ item.nuclearcraft.tin_bucket,Bucket of Molten Tin,スズ
 item.nuclearcraft.tin_chunk,Tin Chunk,スズの塊
 item.nuclearcraft.tin_clean_slurry_bucket,Bucket of Tin Clean Slurry,スズ
 item.nuclearcraft.tin_dust,Tin Dust,スズ粉
-item.nuclearcraft.tin_ingot,Tin Ingot,スズの塊
+item.nuclearcraft.tin_ingot,Tin Ingot,スズのインゴット
 item.nuclearcraft.tin_nugget,Tin Nugget,スズの塊
 item.nuclearcraft.tin_plate,Tin Plate,スズのプレート
 item.nuclearcraft.tin_silver_bucket,Bucket of Molten Tin Silver,銀
-item.nuclearcraft.tin_silver_dust,Tin Silver Dust,銀
-item.nuclearcraft.tin_silver_ingot,Tin Silver Ingot,銀
+item.nuclearcraft.tin_silver_dust,Tin Silver Dust,スズと銀の粉
+item.nuclearcraft.tin_silver_ingot,Tin Silver Ingot,スズと銀のインゴット
 item.nuclearcraft.tin_slurry_bucket,Bucket of Tin Slurry,スズ
 item.nuclearcraft.titanium_dust,Titanium Dust,チタンの粉
 item.nuclearcraft.titanium_ingot,Titanium Ingot,チタンの锭
@@ -1813,7 +1813,7 @@ item.nuclearcraft.tough_pants,Tough Pants,タフパンツ
 item.nuclearcraft.tritium_bucket,Bucket of Tritium,トリチウムのバケツ
 item.nuclearcraft.tungsten_carbide_ingot,Tungsten Carbide Ingot,インゴット
 item.nuclearcraft.tungsten_dust,Tungsten Dust,タングステンの粉
-item.nuclearcraft.tungsten_ingot,Tungsten Ingot,タングステンの塊
+item.nuclearcraft.tungsten_ingot,Tungsten Ingot,タングステンのインゴット
 item.nuclearcraft.unsweetened_chocolate,Unsweetened Chocolate,無糖チョコレート
 item.nuclearcraft.unsweetened_chocolate_bucket,Bucket of Unsweetened Chocolate,無糖チョコレート
 item.nuclearcraft.upgrade_energy,Upgrade Energy,エネルギー
@@ -1864,9 +1864,9 @@ item.nuclearcraft.zinc_bucket,Bucket of Molten Zinc,バケツの溶けた亜鉛
 item.nuclearcraft.zinc_chunk,Zinc Chunk,亜鉛の塊
 item.nuclearcraft.zinc_clean_slurry_bucket,Bucket of Zinc Clean Slurry,亜鉛クリーンスラリーのバケツ
 item.nuclearcraft.zinc_dust,Zinc Dust,亜鉛の粉
-item.nuclearcraft.zinc_ingot,Zinc Ingot,亜鉛の塊
+item.nuclearcraft.zinc_ingot,Zinc Ingot,亜鉛インゴット
 item.nuclearcraft.zinc_nugget,Zinc Nugget,亜鉛の塊
-item.nuclearcraft.zinc_plate,Zinc Plate,亜鉛板
+item.nuclearcraft.zinc_plate,Zinc Plate,亜鉛の板
 item.nuclearcraft.zinc_slurry_bucket,Bucket of Zinc Slurry,亜鉛スラリーのバケツ
 item.nuclearcraft.zircaloy_bucket,Bucket of Molten Zircaloy,溶融ジルカロイのバケツ
 item.nuclearcraft.zircaloy_dust,Zircaloy Dust,粉
@@ -2037,9 +2037,9 @@ sound_event.nuclearcraft.item.geiger_4,Geiger Counter Ticks Level 4 Intensity,�
 sound_event.nuclearcraft.item.geiger_5,Geiger Counter Ticks Level 5 Intensity,ガイガーカウンター
 speed.multiplier,Speed Multiplier: x%s,速度倍率: x%s
 tooltip.machine.progress,Progress: %s%%,進捗: %s%%
-tooltip.mode.3x3,3x3,3x3
-tooltip.mode.3x3x3,3x3x3,3x3x3
-tooltip.mode.5x5,5x5,5x5
+tooltip.mode.3x3,3x3,
+tooltip.mode.3x3x3,3x3x3,
+tooltip.mode.5x5,5x5,
 tooltip.mode.one_block,One Block,ブロック
 tooltip.mode.vein,Vein,鉱脈
 tooltip.nc.analyzed,Item analyze completed,アイテム
@@ -2117,7 +2117,7 @@ tile.nuclearcraft.ore.boron.name,Boron Ore,ホウ素 鉱石
 tile.nuclearcraft.ore.lithium.name,Lithium Ore,リチウム 鉱石
 tile.nuclearcraft.ore.magnesium.name,Magnesium Ore,マグネシウム 鉱石
 tile.nuclearcraft.ingot_block.copper.name,Copper Block,銅ブロック
-tile.nuclearcraft.ingot_block.tin.name,Tin Block,錫ブロック
+tile.nuclearcraft.ingot_block.tin.name,Tin Block,スズブロック
 tile.nuclearcraft.ingot_block.lead.name,Lead Block,鉛ブロック
 tile.nuclearcraft.ingot_block.thorium.name,Thorium Block,トリウムブロック
 tile.nuclearcraft.ingot_block.uranium.name,Uranium Block,ウランブロック
@@ -2156,7 +2156,7 @@ tile.nuclearcraft.cooler.cryotheum.name,Cryotheum Cooler,クリオシウム 冷�
 tile.nuclearcraft.cooler.iron.name,Iron Cooler,鉄冷却装置
 tile.nuclearcraft.cooler.emerald.name,Emerald Cooler,エメラルド冷却装置
 tile.nuclearcraft.cooler.copper.name,Copper Cooler,銅冷却装置
-tile.nuclearcraft.cooler.tin.name,Tin Cooler,錫 冷却装置
+tile.nuclearcraft.cooler.tin.name,Tin Cooler,スズ 冷却装置
 tile.nuclearcraft.cooler.magnesium.name,Magnesium Cooler,マグネシウム 冷却装置
 tile.nuclearcraft.cooler.cooling_rate,Cooling rate:,冷却 速度:
 tile.nuclearcraft.reactor_door.name,Reactor Door,炉ドア
@@ -2949,9 +2949,9 @@ item.nuclearcraft.rads,Radiation:,放射線:
 item.nuclearcraft.rad_resist,Rad Resistance:,放射抵抗:
 item.nuclearcraft.food_rads,Food Effects:,食べ物の効果:
 item.nuclearcraft.ingot.copper.name,Copper Ingot,銅インゴット
-item.nuclearcraft.ingot.tin.name,Tin Ingot,スズの塊
-item.nuclearcraft.ingot.lead.name,Lead Ingot,鉛の塊
-item.nuclearcraft.ingot.thorium.name,Thorium Ingot,スズリスの塊
+item.nuclearcraft.ingot.tin.name,Tin Ingot,スズのインゴット
+item.nuclearcraft.ingot.lead.name,Lead Ingot,鉛のインゴット
+item.nuclearcraft.ingot.thorium.name,Thorium Ingot,スズリスのインゴット
 item.nuclearcraft.ingot.uranium.name,Uranium Ingot,ウランインゴット
 item.nuclearcraft.ingot.boron.name,Boron Ingot,ホウ素インゴット
 item.nuclearcraft.ingot.lithium.name,Lithium Ingot,リチウム
@@ -2974,7 +2974,7 @@ item.nuclearcraft.dust.uranium.name,Uranium Dust,ウランの粉
 item.nuclearcraft.dust.boron.name,Boron Dust,ホウ素
 item.nuclearcraft.dust.lithium.name,Lithium Dust,リチウム
 item.nuclearcraft.dust.magnesium.name,Magnesium Dust,マグネシウムパウダー
-item.nuclearcraft.dust.graphite.name,Graphite Dust,グラファイトパウダー
+item.nuclearcraft.dust.graphite.name,Graphite Dust,グラファイトの粉
 item.nuclearcraft.dust.beryllium.name,Beryllium Dust,ベリリウムの粉
 item.nuclearcraft.dust.beryllium.desc,Obtained alongside Coal when breaking Coal Ore.,コール鉱石を破壊した際に、炭と同時に取得されます。
 item.nuclearcraft.dust.zirconium.name,Zirconium Dust,ジルコニウムパウダー
@@ -2999,7 +2999,7 @@ item.nuclearcraft.gem.silicon.name,Silicon,シリコン
 item.nuclearcraft.gem_dust.diamond.name,Crushed Diamond,砕かれたダイヤモンド
 item.nuclearcraft.gem_dust.rhodochrosite.name,Crushed Rhodochrosite,粉砕したロドクロシト
 item.nuclearcraft.gem_dust.quartz.name,Crushed Quartz,粉砕したクォーツ
-item.nuclearcraft.gem_dust.obsidian.name,Crushed Obsidian,粉砕した黒曜石
+item.nuclearcraft.gem_dust.obsidian.name,Crushed Obsidian,砕かれた黒曜石
 item.nuclearcraft.gem_dust.boron_nitride.name,Hexagonal Boron Nitride,六角形ボロン窒素
 item.nuclearcraft.gem_dust.fluorite.name,Crushed Fluorite,砕かれたフロリン
 item.nuclearcraft.gem_dust.sulfur.name,Sulfur,硫黄
@@ -3009,12 +3009,12 @@ item.nuclearcraft.gem_dust.villiaumite.name,Crushed Villiaumite,砕かれたヴ�
 item.nuclearcraft.gem_dust.carobbiite.name,Crushed Carobbiite,砕いたカロビライト
 item.nuclearcraft.gem_dust.arsenic.name,Crushed Arsenic,砕かれたアセンシック
 item.nuclearcraft.gem_dust.end_stone.name,Crushed End Stone,粉砕されたエンドストーン
-item.nuclearcraft.alloy.bronze.name,Bronze Ingot,青銅の塊
+item.nuclearcraft.alloy.bronze.name,Bronze Ingot,青銅のインゴット
 item.nuclearcraft.alloy.tough.name,Tough Alloy,耐久合金
 item.nuclearcraft.alloy.hard_carbon.name,Hard Carbon Alloy,硬い炭素合金
 item.nuclearcraft.alloy.magnesium_diboride.name,Magnesium Diboride Alloy,マグネシウム二酸化ボロン合金
 item.nuclearcraft.alloy.lithium_manganese_dioxide.name,Lithium Manganese Dioxide Alloy,リチウムマンガン二酸化合金
-item.nuclearcraft.alloy.steel.name,Steel Ingot,鋼鉄インゴット
+item.nuclearcraft.alloy.steel.name,Steel Ingot,鋼鉄のインゴット
 item.nuclearcraft.alloy.ferroboron.name,Ferroboron Alloy,フェロボロン合金
 item.nuclearcraft.alloy.shibuichi.name,Shibuichi Alloy,シブイチ合金
 item.nuclearcraft.alloy.tin_silver.name,Tin Silver Alloy,スズと銀の合金
@@ -3439,7 +3439,7 @@ gui.config.ores.ore_gen.comment,"Will ores generate in the world? Order: copper,
 gui.config.ores.ore_size,Chunk Sizes,チャンクサイズ
 gui.config.ores.ore_size.comment,"Numbers of ore blocks per ore chunk. Order: copper, tin, lead, thorium, uranium, boron, lithium, magnesium.",鉱石チャンクあたりの鉱石ブロック数。順序:銅、スズ、鉛、トリウム、ウラン、ホウ素、リチウム、マグネシウム。
 gui.config.ores.ore_rate,Spawn Rates,出現率
-gui.config.ores.ore_rate.comment,"Rates at which ores generate. Order: copper, tin, lead, thorium, uranium, boron, lithium, magnesium.",鉱石が生成される速度。順序：銅、錫、鉛、トリウム、ウラン、ホウ素、リチウム、マグネシウム。
+gui.config.ores.ore_rate.comment,"Rates at which ores generate. Order: copper, tin, lead, thorium, uranium, boron, lithium, magnesium.",鉱石が生成される速度。順序：銅、スズ、鉛、トリウム、ウラン、ホウ素、リチウム、マグネシウム。
 gui.config.ores.ore_min_height,Minimum Gen Heights,最小生成高さ
 gui.config.ores.ore_min_height.comment,"Minimum heights at which ores generate. Order: copper, tin, lead, thorium, uranium, boron, lithium, magnesium.",鉱石が生成される最小高度。順序:銅、スズ、鉛、トリウム、ウラン、ホウ素、リチウム、マグネシウム。
 gui.config.ores.ore_max_height,Maximum Gen Heights,最大生成高さ
@@ -3478,7 +3478,7 @@ gui.config.processors.cobble_gen_power,Cobble Gen Power Use,丸石生成パワ�
 gui.config.processors.ore_processing,Ore Processing,鉱石処理
 gui.config.processors.ore_processing.comment,Can NuclearCraft machines process ores?,NuclearCraftのマシンは鉱石を処理できますか？
 gui.config.processors.manufactory_wood,Manufactory Wood Processing,製造工場木材処理
-gui.config.processors.manufactory_wood.comment,"Specify the size of the output stack for Manufactory wood processing recipes. Order: Logs->Planks, Planks->Sticks.",製造工場の木処理レシピの出力スタックサイズを指定します。順序:丸太→板、板→棒。
+gui.config.processors.manufactory_wood.comment,"Specify the size of the output stack for Manufactory wood processing recipes. Order: Logs->Planks, Planks->Sticks.",製造工場の木処理レシピの出力スタックサイズを指定します。順序:原木→板、板→棒。
 gui.config.processors.rock_crusher_alternate,Rock Crusher Alternate Recipes,ロッククラッシャー代替レシピ
 gui.config.processors.rock_crusher_alternate.comment,Use an alternate set of recipes for the Rock Crusher that only produce NC dusts?,レイザークリッシャー用の別セットのレシピを使用し、NCダストのみを生成するようにしますか？
 gui.config.processors.gtce_recipe_integration,Register GTCE Recipes,GTCE レシピを登録
@@ -3827,7 +3827,7 @@ gui.config.radiation.radiation_shielding_custom_stacks,Radiation Shielding ItemS
 gui.config.radiation.radiation_shielding_default_levels,Radiation Default Armor Shielding,放射線デフォルトアーマーシールド
 gui.config.radiation.radiation_hud_size,Radiation HUD Size,放射線 HUD Size
 gui.config.radiation.radiation_hud_position,Radiation HUD Position,放射線 HUD Position
-gui.config.radiation.radiation_hud_position_cartesian,HUD Cartesian Position,HUDのカーテシアン位置
+gui.config.radiation.radiation_hud_position_cartesian,HUD Cartesian Position,HUDのカーテ青緑位置
 gui.config.radiation.radiation_hud_position_cartesian.comment,"Optional config to specify where the rads overlay should appear on the screen if not wanted on a side or at a corner - if used, this config will be used in place of the angle-based one. Two doubles are required [x, y] which specify how far right (x) and how far down (y) from the top-left corner of the screen the overlay is drawn at.",ラジオーバーレイを画面上のどこに表示するかを指定するオプション設定です (角度ベースのオプションではなく希望する場合)。左上隅からオーバーレイが描画される方向を示す2つの倍精度浮動小数点数 [x、y] が必要です。x は右への距離、y は下への距離です。
 gui.config.radiation.radiation_hud_text_outline,HUD Text Outline,HUDテキストのアウトライン
 gui.config.radiation.radiation_hud_text_outline.comment,"If enabled, a black outline will surround the radiation counter text underneath the rad bar.",有効にすると、レーダーバー下の放射線カウンターテキストを黒いアウトラインで囲む。
@@ -3919,7 +3919,7 @@ nc.block.fluid_toggle,Toggled side to,切り替え側:
 nc.block.fluid_toggle_opposite,Toggled opposite side to,反対側をトグルしました
 nc.block.salt_heater_fluid_side.default,DEFAULT,デフォルト
 nc.block.salt_heater_fluid_side.disabled,DISABLED,無効
-nc.block.salt_heater_fluid_side.hot_coolant_out,HOT COOLANT OUT,HOT COOLANT OUT
+nc.block.salt_heater_fluid_side.hot_coolant_out,HOT COOLANT OUT,高温冷却材排出
 nc.block.salt_heater_fluid_side.coolant_spread,COOLANT SPREAD,冷却液散布
 nc.block.salt_vessel_fluid_side.default,DEFAULT,デフォルト
 nc.block.salt_vessel_fluid_side.disabled,DISABLED,無効
@@ -3990,7 +3990,7 @@ gui.container.fission_controller.pos,Pos,位置
 gui.container.fission_controller.no_fuel,No Fuel,燃料なし
 gui.container.fission_controller.generic_fuel,Fuel,燃料
 gui.container.fission_controller.cells,Cells:,セル:
-gui.container.fission_controller.efficiency,Efficiency:,効率:
+gui.container.fission_controller.efficiency,Efficiency:,効率：
 gui.container.fission_controller.heat,Heat Level:,熱レベル:
 gui.container.fission_controller.heat_gen,Net Heat Gen:,総熱発生:
 gui.container.fission_controller.cooling,Cooling Rate:,冷却率:
@@ -4003,17 +4003,17 @@ gui.container.fission_controller.len,LEN,左下
 gui.container.fission_controller.hen,HEN,右下
 gui.container.fission_controller.lep,LEP,左下
 gui.container.fission_controller.hep,HEP,右下
-gui.container.fission_controller.mox_239,MOX-239,MOX-239
-gui.container.fission_controller.mox_241,MOX-241,MOX-241
+gui.container.fission_controller.mox_239,MOX-239,
+gui.container.fission_controller.mox_241,MOX-241,
 gui.container.fission_controller.lea,LEA,左上
-gui.container.fission_controller.hea,HEA,HEA
-gui.container.fission_controller.lecm,LECm,LECm
-gui.container.fission_controller.hecm,HECm,HECm
-gui.container.fission_controller.leb,LEB,LEB
-gui.container.fission_controller.heb,HEB,HEB
-gui.container.fission_controller.lecf,LECf,LECf
-gui.container.fission_controller.hecf,HECf,HECf
-gui.container.fission_controller.oxide,Ox,Ox
+gui.container.fission_controller.hea,HEA,
+gui.container.fission_controller.lecm,LECm,
+gui.container.fission_controller.hecm,HECm,
+gui.container.fission_controller.leb,LEB,
+gui.container.fission_controller.heb,HEB,
+gui.container.fission_controller.lecf,LECf,
+gui.container.fission_controller.hecf,HECf,
+gui.container.fission_controller.oxide,Ox,
 gui.container.fusion_core.reactor,Fusion Reactor,融合反応炉
 gui.container.fusion_core.ring_incomplete,Ring Incomplete,リング未完成
 gui.container.fusion_core.ring_incomplete_at,Ring Incomplete,リング未完成
@@ -4022,13 +4022,13 @@ gui.container.fusion_core.power_issue,E-magnets not Powered,電磁石が電力�
 gui.container.fusion_core.incorrect_structure,Invalid Structure,無効な構造
 gui.container.fusion_core.no_problem,No Problem,問題なし
 gui.container.fusion_core.size,Toroid Size:,トロイドサイズ:
-gui.container.fusion_core.energy,Energy:,エネルギー:
+gui.container.fusion_core.energy,Energy:,エネルギー：
 gui.container.fusion_core.power,Power:,パワー:
 gui.container.fusion_core.heat,Temp:,温度:
 gui.container.fusion_core.temperature,Temperature:,温度:
 gui.container.fusion_core.temperature_change,Temperature Change:,温度変化:
 gui.container.fusion_core.cooling_rate,Active Cooling Rate:,冷却効率: 
-gui.container.fusion_core.efficiency,Efficiency:,効率:
+gui.container.fusion_core.efficiency,Efficiency:,効率：
 gui.container.fusion_core.fuels,Current Fuels:,現在の燃料:
 gui.container.fusion_core.empty,Empty,空
 gui.container.fusion_core.reactor_not_found,Unable to access the fusion reactor - the structure is incomplete,融合炉にアクセスできません - 構造が不完全です
@@ -4143,7 +4143,7 @@ advancement.nuclearcraft.irradiator.name,Neutron Bombardment,中性子爆撃
 advancement.nuclearcraft.irradiator.desc,Craft a Neutron Irradiator,中性子放射器を製造
 advancement.nuclearcraft.solar_panel_basic.name,Eco-Friendly,エコフレンドリー
 advancement.nuclearcraft.solar_panel_basic.desc,Craft a Basic Solar Panel,ソーラー発電機を作る
-advancement.nuclearcraft.rtg_uranium.name,Warm Green Glow,温かく緑色の光
+advancement.nuclearcraft.rtg_uranium.name,Warm Green Glow,温かく緑の光
 advancement.nuclearcraft.rtg_uranium.desc,Craft a Uranium RTG,Craft a ウラン RTG
 advancement.nuclearcraft.infuser.name,Soaking it Up,吸収する
 advancement.nuclearcraft.infuser.desc,Craft a Fluid Infuser,流体インフューザーをクラフトする
@@ -4266,3 +4266,354 @@ death.attack.acid_burn,%1$s turned out to be far too alkaline,%1$s は想定よ�
 death.attack.fluid_burn,%1$s was effectively pan-fried,%1$s は効果的にパンで焼かれました
 death.attack.hypothermia,%1$s died as a result of extreme hypothermia,%1$s は極端な低体温症で死亡しました
 death.attack.fatal_rads,%1$s died due to fatal radiation poisoning,%1$s は致命的な放射線中毒で死亡しました
+item.nuclearcraft.depleted_fuel_mixed_mix_239_bucket,Bucket of Depleted Fuel Mixed Mix-239,使用済みウラン混合混合-239の入ったバケット
+item.nuclearcraft.depleted_fuel_mixed_mix_239_ni_bucket,Bucket of Depleted Fuel Mixed Mix-239 Ni,使用済みウラン混合混合-239 Ni の入ったバケット
+item.nuclearcraft.depleted_fuel_mixed_mix_239_ox_bucket,Bucket of Depleted Fuel Mixed Mix-239 Ox,使用済みウラン混合混合-239 Ox の入ったバケット
+item.nuclearcraft.depleted_fuel_mixed_mix_239_za_bucket,Bucket of Depleted Fuel Mixed Mix-239 Za,使用済みウラン混合混合-239 Za の入ったバケット
+item.nuclearcraft.depleted_fuel_mixed_mix_241_bucket,Bucket of Depleted Fuel Mixed Mix-241,使用済みプルトニウム混合混合-241の入ったバケット
+item.nuclearcraft.depleted_fuel_mixed_mix_241_ni_bucket,Bucket of Depleted Fuel Mixed Mix-241 Ni,使用済みプルトニウム混合混合-241 Ni の入ったバケット
+item.nuclearcraft.depleted_fuel_mixed_mix_241_ox_bucket,Bucket of Depleted Fuel Mixed Mix-241 Ox,使用済みプルトニウム混合混合-241 Ox の入ったバケット
+item.nuclearcraft.depleted_fuel_mixed_mix_241_za_bucket,Bucket of Depleted Fuel Mixed Mix-241 Za,使用済みプルトニウム混合混合-241 Za の入ったバケット
+item.nuclearcraft.depleted_fuel_thorium_tbu_bucket,Bucket of Depleted Fuel Thorium TBU,使用済みトリウム TBU の入ったバケット
+item.nuclearcraft.depleted_fuel_thorium_tbu_ni_bucket,Bucket of Depleted Fuel Thorium TBU Ni,使用済みトリウム TBU Ni の入ったバケット
+item.nuclearcraft.depleted_fuel_thorium_tbu_ox_bucket,Bucket of Depleted Fuel Thorium TBU Ox,使用済みトリウム TBU Ox の入ったバケット
+item.nuclearcraft.depleted_fuel_thorium_tbu_za_bucket,Bucket of Depleted Fuel Thorium TBU Za,使用済みトリウム TBU Za の入ったバケット
+item.nuclearcraft.fuel_mixed_mix_239_bucket,Bucket of Fuel Mixed Mix-239,ウラン混合混合-239燃料の入ったバケット
+item.nuclearcraft.fuel_mixed_mix_239_ni_bucket,Bucket of Fuel Mixed Mix-239 Ni,ウラン混合混合-239 Ni 燃料の入ったバケット
+item.nuclearcraft.fuel_mixed_mix_239_ox_bucket,Bucket of Fuel Mixed Mix-239 Ox,ウラン混合混合-239 Ox 燃料の入ったバケット
+item.nuclearcraft.fuel_mixed_mix_239_za_bucket,Bucket of Fuel Mixed Mix-239 Za,ウラン混合混合-239 Za 燃料の入ったバケット
+item.nuclearcraft.fuel_mixed_mix_241_bucket,Bucket of Fuel Mixed Mix-241,プルトニウム混合混合-241燃料の入ったバケット
+item.nuclearcraft.fuel_mixed_mix_241_ni_bucket,Bucket of Fuel Mixed Mix-241 Ni,プルトニウム混合混合-241 Ni 燃料の入ったバケット
+item.nuclearcraft.fuel_mixed_mix_241_ox_bucket,Bucket of Fuel Mixed Mix-241 Ox,プルトニウム混合混合-241 Ox 燃料の入ったバケット
+item.nuclearcraft.fuel_mixed_mix_241_za_bucket,Bucket of Fuel Mixed Mix-241 Za,プルトニウム混合混合-241 Za 燃料の入ったバケット
+item.nuclearcraft.fuel_thorium_tbu_bucket,Bucket of Fuel Thorium TBU,トリウム TBU 燃料の入ったバケット
+item.nuclearcraft.fuel_thorium_tbu_ni_bucket,Bucket of Fuel Thorium TBU Ni,トリウム TBU Ni 燃料の入ったバケット
+item.nuclearcraft.fuel_thorium_tbu_ox_bucket,Bucket of Fuel Thorium TBU Ox,トリウム TBU Ox 燃料の入ったバケット
+item.nuclearcraft.fuel_thorium_tbu_za_bucket,Bucket of Fuel Thorium TBU Za,トリウム TBU Za 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_heu_233_bucket,Bucket of Fuel Uranium Heu-233,ウラン HEU-233 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_heu_233_ni_bucket,Bucket of Fuel Uranium Heu-233 Ni,ウラン HEU-233 Ni 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_heu_233_ox_bucket,Bucket of Fuel Uranium Heu-233 Ox,ウラン HEU-233 Ox 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_heu_233_za_bucket,Bucket of Fuel Uranium Heu-233 Za,ウラン HEU-233 Za 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_heu_235_bucket,Bucket of Fuel Uranium Heu-235,ウラン HEU-235 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_heu_235_ni_bucket,Bucket of Fuel Uranium Heu-235 Ni,ウラン HEU-235 Ni 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_heu_235_ox_bucket,Bucket of Fuel Uranium Heu-235 Ox,ウラン HEU-235 Ox 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_heu_235_za_bucket,Bucket of Fuel Uranium Heu-235 Za,ウラン HEU-235 Za 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_leu_233_bucket,Bucket of Fuel Uranium Leu-233,ウラン LEU-233 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_leu_233_ni_bucket,Bucket of Fuel Uranium Leu-233 Ni,ウラン LEU-233 Ni 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_leu_233_ox_bucket,Bucket of Fuel Uranium Leu-233 Ox,ウラン LEU-233 Ox 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_leu_233_za_bucket,Bucket of Fuel Uranium Leu-233 Za,ウラン LEU-233 Za 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_leu_235_bucket,Bucket of Fuel Uranium Leu-235,ウラン LEU-235 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_leu_235_ni_bucket,Bucket of Fuel Uranium Leu-235 Ni,ウラン LEU-235 Ni 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_leu_235_ox_bucket,Bucket of Fuel Uranium Leu-235 Ox,ウラン LEU-235 Ox 燃料の入ったバケット
+item.nuclearcraft.fuel_uranium_leu_235_za_bucket,Bucket of Fuel Uranium Leu-235 Za,ウラン LEU-235 Za 燃料の入ったバケット
+item.nuclearcraft.gold_clean_slurry_bucket,Bucket of Gold Clean Slurry,金抽出液の入ったバケット
+item.nuclearcraft.gold_slurry_bucket,Bucket of Gold Slurry,金スラリーの入ったバケット
+item.nuclearcraft.hard_carbon_bucket,Bucket of Molten Hard Carbon,溶融硬質炭素の入ったバケット
+item.nuclearcraft.heavy_water_bucket,Bucket of Heavy Water,重水の入ったバケット
+item.nuclearcraft.hsla_steel_bucket,Bucket of Molten Hsla Steel,溶融高強度低合金鋼の入ったバケット
+item.nuclearcraft.hydrated_gelatin_bucket,Bucket of Hydrated Gelatin,水和ゼラチンの入ったバケット
+item.nuclearcraft.hydrogen_chloride_bucket,Bucket of Hydrogen Chloride,塩化水素の入ったバケット
+item.nuclearcraft.iron_clean_slurry_bucket,Bucket of Iron Clean Slurry,鉄抽出液の入ったバケット
+item.nuclearcraft.iron_slurry_bucket,Bucket of Iron Slurry,鉄スラリーの入ったバケット
+item.nuclearcraft.irradiated_borax_solution_bucket,Bucket of Irradiated Borax Solution,放射線照射ほう砂溶液の入ったバケット
+item.nuclearcraft.irradiated_boron_bucket,Bucket of Irradiated Boron,放射線照射硼素の入ったバケット
+item.nuclearcraft.irradiated_lithium_bucket,Bucket of Irradiated Lithium,放射線照射リチウムの入ったバケット
+item.nuclearcraft.lead_clean_slurry_bucket,Bucket of Lead Clean Slurry,鉛抽出液の入ったバケット
+item.nuclearcraft.lead_platinum_bucket,Bucket of Molten Lead Platinum,溶融鉛プラチナの入ったバケット
+item.nuclearcraft.lead_slurry_bucket,Bucket of Lead Slurry,鉛スラリーの入ったバケット
+item.nuclearcraft.liquid_hydrogen_bucket,Bucket of Liquid Hydrogen,液体水素の入ったバケット
+item.nuclearcraft.sic_sic_cmc_bucket,Bucket of Molten Sic Sic Cmc,溶融炭化珪素複合材料の入ったバケット
+tile.nuclearcraft.fission_block.casing.desc,"Used in the construction of fission reactors. To form a valid structure, build a cuboid shell of casing, making sure to *exclude* the edges. Then place a fission controller along an edge, at a corner or within one of the faces of the structure. If the GUI shows an error, make sure the structure is valid. Then fill the interior with reactor cells, coolers and moderator blocks to start generating energy from your fission fuels!",核分裂反応炉の建設に使用されます。有効な構造を形成するには、ケーシングの立方体シェルを構築し、*端を除外*していることを確認します。次に、核分裂コントローラーを構造の端、コーナー、または面のいずれかに沿って配置します。GUIにエラーが表示される場合は、構造が有効であることを確認してください。その後、内部を原子炉セル、冷却器、調整ブロックで満たして、核分裂燃料からエネルギーを生成し始めます！
+tile.nuclearcraft.reactor_casing_transparent.desc,"Used in the construction of fission reactors. To form a valid structure, build a cuboid shell of casing, making sure to *exclude* the edges. Then place a fission controller along an edge, at a corner or within one of the faces of the structure. If the GUI shows an error, make sure the structure is valid. Then fill the interior with reactor cells, coolers and moderator blocks to start generating energy from your fission fuels!",核分裂反応炉の建設に使用されます。有効な構造を形成するには、ケーシングの立方体シェルを構築し、*端を除外*していることを確認します。次に、核分裂コントローラーを構造の端、コーナー、または面のいずれかに沿って配置します。GUIにエラーが表示される場合は、構造が有効であることを確認してください。その後、内部を原子炉セル、冷却器、調整ブロックで満たして、核分裂燃料からエネルギーを生成し始めます！
+tile.nuclearcraft.fusion_connector.desc,Connects a fusion core to its ring of electromagnets. Four sets of them are required for each side of the core.,核融合コアをその電磁石のリングに接続します。コアの各側面に4セット必要です。
+tile.nuclearcraft.cell_block.desc,"Used in fission reactors to house the fission fuels. The more cells placed, the more rapidly fuel is used. %s",核分裂反応炉内で核分裂燃料を保有するために使用されます。配置されたセルが多いほど、燃料はより急速に消費されます。%s
+tile.nuclearcraft.cooler.water.desc,Must be adjacent to at least one Reactor Cell or active moderator block.,少なくとも1つの原子炉セルまたは活性な調整ブロックに隣接している必要があります。
+tile.nuclearcraft.cooler.redstone.desc,Must be adjacent to at least one Reactor Cell.,少なくとも1つの原子炉セルに隣接している必要があります。
+tile.nuclearcraft.cooler.quartz.desc,Must be adjacent to at least one active moderator block.,少なくとも1つの活性な調整ブロックに隣接している必要があります。
+tile.nuclearcraft.cooler.gold.desc,Must be adjacent to at least one valid Water Cooler and one valid Redstone Cooler.,少なくとも1つの有効な水冷却器と1つの有効なレッドストーン冷却器に隣接している必要があります。
+tile.nuclearcraft.cooler.glowstone.desc,Must be adjacent to at least two active moderator blocks.,少なくとも2つの活性な調整ブロックに隣接している必要があります。
+tile.nuclearcraft.cooler.lapis.desc,Must be adjacent to at least one Reactor Cell and one Reactor Casing.,少なくとも1つの原子炉セルと1つの原子炉ケーシングに隣接している必要があります。
+tile.nuclearcraft.cooler.diamond.desc,Must be adjacent to at least one valid Water Cooler and one valid Quartz Cooler.,少なくとも1つの有効な水冷却器と1つの有効な石英冷却器に隣接している必要があります。
+tile.nuclearcraft.cooler.helium.desc,Must be adjacent to exactly one valid Redstone Cooler and at least one Reactor Casing.,正確に1つの有効なレッドストーン冷却器と少なくとも1つの原子炉ケーシングに隣接している必要があります。
+tile.nuclearcraft.cooler.enderium.desc,Must be adjacent to exactly three Reactor Casings at exactly one vertex.,正確に1つの頂点で正確に3つの原子炉ケーシングに隣接している必要があります。
+tile.nuclearcraft.cooler.cryotheum.desc,Must be adjacent to at least two Reactor Cells.,少なくとも2つの原子炉セルに隣接している必要があります。
+tile.nuclearcraft.cooler.iron.desc,Must be adjacent to at least one valid Gold Cooler.,少なくとも1つの有効な金冷却器に隣接している必要があります。
+tile.nuclearcraft.cooler.emerald.desc,Must be adjacent to at least one active moderator block and one Reactor Cell.,少なくとも1つのアクティブな調整ブロックと1つの原子炉セルに隣接している必要があります。
+tile.nuclearcraft.cooler.copper.desc,Must be adjacent to at least one valid Glowstone Cooler.,少なくとも1つの有効なグロウストーン冷却器に隣接している必要があります。
+tile.nuclearcraft.cooler.tin.desc,Must be adjacent to at least two valid Lapis Coolers along a common axis.,共通の軸に沿って少なくとも2つの有効なラピス冷却器に隣接している必要があります。
+tile.nuclearcraft.cooler.magnesium.desc,Must be adjacent to at least one Reactor Casing and one active moderator block.,少なくとも1つの原子炉ケーシングと1つのアクティブな調整ブロックに隣接している必要があります。
+tile.nuclearcraft.decay_hastener_idle.desc,Forces radioactive materials to decay.,放射性物質の減衰を強制します。
+tile.nuclearcraft.supercooler_idle.desc,Lowers the temperature of fluids.,流体の温度を低下させます。
+tile.nuclearcraft.centrifuge_idle.desc,Separates the isotopes of fluid materials.,流体材料の同位体を分離します。
+tile.nuclearcraft.buffer.desc,"Can store up to a stack of items, 32000 RF of energy and 16000 mB of fluid. Will offload energy and materials into adjacent machines and active coolers. Can be placed in the shell of fission structures for transportation into and out of the reactor.",最大1スタックのアイテム、32000 RFのエネルギー、16000 mBの流体を保存できます。隣接するマシンおよびアクティブな冷却器へエネルギーと材料をオフロードします。核分裂構造のシェルに配置して、原子炉との間でアイテムを運搬できます。
+tile.nuclearcraft.active_cooler.desc,"Pump coolant into this block to cool down fission and fusion reactors. Must be placed in a fission structure or on the diagonal of a fusion ring. If used to cool a fission reactor, the requirements for each fluid type are the same as the passive counterpart, but active coolers can not be used to support other coolers' placement rules. If used to cool a fusion reactor, it is much more efficient for a cooler to have a partner on the exact opposite side of the entire fusion ring.",冷却剤をこのブロックにポンプして、核分裂および核融合反応炉を冷却します。核分裂構造内に配置するか、融合リングの対角線上に配置する必要があります。核分裂炉の冷却に使用される場合、各流体タイプの要件は受動的なものと同じですが、アクティブな冷却器は他の冷却器の配置ルールをサポートするために使用することはできません。核融合炉の冷却に使用される場合、冷却器が融合リング全体の正反対側にパートナーを持つことがはるかに効率的です。
+tile.nuclearcraft.fission_controller_idle.desc,"Build a multiblock reactor using reactor casing, reactor cells, coolers and moderator blocks! Place the controller along an edge, at a corner or within one of the faces of the structure.",原子炉ケーシング、原子炉セル、冷却器、調整ブロックを使用してマルチブロック原子炉を構築します！コントローラーを構造の端、コーナー、または面のいずれかに沿って配置します。
+tile.nuclearcraft.fission_controller_idle.fixd,This is an old Controller and will use the old reactor rules.,これは旧型のコントローラーであり、古い原子炉ルールを使用します。
+tile.nuclearcraft.fission_controller_new_idle.desc,"Build a multiblock reactor using reactor casing, reactor cells, coolers and moderator blocks! Place the controller along an edge, at a corner or within one of the faces of the structure.",原子炉ケーシング、原子炉セル、冷却器、調整ブロックを使用してマルチブロック原子炉を構築します！コントローラーを構造の端、コーナー、または面のいずれかに沿って配置します。
+tile.nuclearcraft.fission_controller_new_fixed.desc,"Build a multiblock reactor using reactor casing, reactor cells, coolers and moderator blocks! Place the controller along an edge, at a corner or within one of the faces of the structure.",原子炉ケーシング、原子炉セル、冷却器、調整ブロックを使用してマルチブロック原子炉を構築します！コントローラーを構造の端、コーナー、または面のいずれかに沿って配置します。
+tile.nuclearcraft.fission_port.desc,"Place this block in the shell of a fission reactor in place of some reactor casing, but *not* in the top or bottom sides. If a controller is attached to the reactor structure, then its inventory and stored energy can be accessed by automation through this block.",これをリアクター構造のシェル内に配置して、原子炉ケーシングの代わりに使用します。ただし、*上部または下部*のサイドには配置しないでください。コントローラーがリアクター構造に接続されている場合、そのインベントリと保存されたエネルギーは、このブロックを通じてオートメーションでアクセスできます。
+tile.nuclearcraft.decay_generator.desc,"Produces power from the heat generated by the decay of adjacent radioactive blocks. After some time, the blocks will decay and produce less power.",隣接する放射性ブロックの減衰によって生成される熱からエネルギーを生成します。時間が経つと、ブロックは減衰してより少ないエネルギーを生成します。
+tile.nuclearcraft.fusion_core.desc,"This is the central part of a multiblock fusion reactor that produces large amounts of energy from the heat generated by a nuclear fusion reaction. The core needs to have a ring of fusion electromagnets around it symmetrically, connected by four sets of fusion connectors on all four sides. The ring, which is actually a square, needs to be hollow and does not require electromagnets to be diagonal to the hollow section - active fluid coolers can be used here instead. Make sure that the far corners are fully squared off, too.",核融合反応によって生成される熱から大量のエネルギーを生成するマルチブロック融合反応炉の中央部です。コアの周りには融合電磁石のリングが対称的に必要で、すべての4つの側面で4セットの融合コネクタで接続されます。実は正方形であるリングは中空である必要があり、電磁石が中空部分に対角線上にある必要はありません。アクティブな液体冷却器をここで代わりに使用できます。遠いコーナーも完全に四角形になっていることを確認してください。
+tile.nuclearcraft.salt_fission_moderator.desc,Increases the efficiency of adjacent active vessels.,隣接するアクティブな容器の効率を上昇させます。
+tile.nuclearcraft.salt_fission_computer_port.desc,Used to access the reactor via OpenComputers.,OpenComputers 経由で原子炉にアクセスするために使用されます。
+tile.nuclearcraft.heat_exchanger_computer_port.desc,Used to access the exchanger via OpenComputers.,OpenComputers 経由でエクスチェンジャーにアクセスするために使用されます。
+tile.nuclearcraft.turbine_dynamo_coil.beryllium.desc,Must be adjacent to at least one valid Magnesium Dynamo Coil.,少なくとも1つの有効なマグネシウムダイナモコイルに隣接している必要があります。
+tile.nuclearcraft.turbine_dynamo_coil.copper.desc,Must be adjacent to at least one valid Gold Dynamo Coil.,少なくとも1つの有効な金ダイナモコイルに隣接している必要があります。
+tile.nuclearcraft.turbine_dynamo_coil.silver.desc,Must be adjacent to at least one valid Magnesium Dynamo Coil and one valid Gold Dynamo Coil.,少なくとも1つの有効なマグネシウムダイナモコイルと1つの有効な金ダイナモコイルに隣接している必要があります。
+tile.nuclearcraft.turbine_computer_port.desc,Used to access the turbine via OpenComputers.,OpenComputers 経由でタービンにアクセスするために使用されます。
+info.nuclearcraft.radiation_scrubber_req_borax,Requires %s RF/t and %s Borax/s to run.,%s RF/t と %s Borax/s を消費して動作します。
+tile.nuclearcraft.fluid_thorium_fluoride_flibe.name,Molten FLiBe Salt Solution of Thorium Fluoride,溶融トリウムフッ化物 FLiBe 塩溶液
+fluid.thorium_fluoride_flibe,Molten FLiBe Salt Solution of Thorium Fluoride,溶融トリウムフッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_uranium_fluoride_flibe.name,Molten FLiBe Salt Solution of Uranium Fluoride,溶融ウランフッ化物 FLiBe 塩溶液
+fluid.uranium_fluoride_flibe,Molten FLiBe Salt Solution of Uranium Fluoride,溶融ウランフッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_plutonium_fluoride_flibe.name,Molten FLiBe Salt Solution of Plutonium Fluoride,溶融プルトニウムフッ化物 FLiBe 塩溶液
+fluid.plutonium_fluoride_flibe,Molten FLiBe Salt Solution of Plutonium Fluoride,溶融プルトニウムフッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_thorium_230_fluoride_flibe.name,Molten FLiBe Salt Solution of Thorium-230 Fluoride,溶融トリウム-230フッ化物 FLiBe 塩溶液
+fluid.thorium_230_fluoride_flibe,Molten FLiBe Salt Solution of Thorium-230 Fluoride,溶融トリウム-230フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_thorium_232_fluoride_flibe.name,Molten FLiBe Salt Solution of Thorium-232 Fluoride,溶融トリウム-232フッ化物 FLiBe 塩溶液
+fluid.thorium_232_fluoride_flibe,Molten FLiBe Salt Solution of Thorium-232 Fluoride,溶融トリウム-232フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_uranium_233_fluoride_flibe.name,Molten FLiBe Salt Solution of Uranium-233 Fluoride,溶融ウラン-233フッ化物 FLiBe 塩溶液
+fluid.uranium_233_fluoride_flibe,Molten FLiBe Salt Solution of Uranium-233 Fluoride,溶融ウラン-233フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_uranium_235_fluoride_flibe.name,Molten FLiBe Salt Solution of Uranium-235 Fluoride,溶融ウラン-235フッ化物 FLiBe 塩溶液
+fluid.uranium_235_fluoride_flibe,Molten FLiBe Salt Solution of Uranium-235 Fluoride,溶融ウラン-235フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_uranium_238_fluoride_flibe.name,Molten FLiBe Salt Solution of Uranium-238 Fluoride,溶融ウラン-238フッ化物 FLiBe 塩溶液
+fluid.uranium_238_fluoride_flibe,Molten FLiBe Salt Solution of Uranium-238 Fluoride,溶融ウラン-238フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_neptunium_236_fluoride_flibe.name,Molten FLiBe Salt Solution of Neptunium-236 Fluoride,溶融ネプツニウム-236フッ化物 FLiBe 塩溶液
+fluid.neptunium_236_fluoride_flibe,Molten FLiBe Salt Solution of Neptunium-236 Fluoride,溶融ネプツニウム-236フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_neptunium_237_fluoride_flibe.name,Molten FLiBe Salt Solution of Neptunium-237 Fluoride,溶融ネプツニウム-237フッ化物 FLiBe 塩溶液
+fluid.neptunium_237_fluoride_flibe,Molten FLiBe Salt Solution of Neptunium-237,溶融ネプツニウム-237 FLiBe 塩溶液
+tile.nuclearcraft.fluid_plutonium_238_fluoride_flibe.name,Molten FLiBe Salt Solution of Plutonium-238 Fluoride,溶融プルトニウム-238フッ化物 FLiBe 塩溶液
+fluid.plutonium_238_fluoride_flibe,Molten FLiBe Salt Solution of Plutonium-238 Fluoride,溶融プルトニウム-238フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_plutonium_239_fluoride_flibe.name,Molten FLiBe Salt Solution of Plutonium-239 Fluoride,溶融プルトニウム-239フッ化物 FLiBe 塩溶液
+fluid.plutonium_239_fluoride_flibe,Molten FLiBe Salt Solution of Plutonium-239 Fluoride,溶融プルトニウム-239フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_plutonium_241_fluoride_flibe.name,Molten FLiBe Salt Solution of Plutonium-241 Fluoride,溶融プルトニウム-241フッ化物 FLiBe 塩溶液
+fluid.plutonium_241_fluoride_flibe,Molten FLiBe Salt Solution of Plutonium-241 Fluoride,溶融プルトニウム-241フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_plutonium_242_fluoride_flibe.name,Molten FLiBe Salt Solution of Plutonium-242 Fluoride,溶融プルトニウム-242フッ化物 FLiBe 塩溶液
+fluid.plutonium_242_fluoride_flibe,Molten FLiBe Salt Solution of Plutonium-242 Fluoride,溶融プルトニウム-242フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_americium_241_fluoride_flibe.name,Molten FLiBe Salt Solution of Americium-241 Fluoride,溶融アメリシウム-241フッ化物 FLiBe 塩溶液
+fluid.americium_241_fluoride_flibe,Molten FLiBe Salt Solution of Americium-241 Fluoride,溶融アメリシウム-241フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_americium_242_fluoride_flibe.name,Molten FLiBe Salt Solution of Americium-242 Fluoride,溶融アメリシウム-242フッ化物 FLiBe 塩溶液
+fluid.americium_242_fluoride_flibe,Molten FLiBe Salt Solution of Americium-242 Fluoride,溶融アメリシウム-242フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_americium_243_fluoride_flibe.name,Molten FLiBe Salt Solution of Americium-243 Fluoride,溶融アメリシウム-243フッ化物 FLiBe 塩溶液
+fluid.americium_243_fluoride_flibe,Molten FLiBe Salt Solution of Americium-243 Fluoride,溶融アメリシウム-243フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_curium_243_fluoride_flibe.name,Molten FLiBe Salt Solution of Curium-243 Fluoride,溶融キュリウム-243フッ化物 FLiBe 塩溶液
+fluid.curium_243_fluoride_flibe,Molten FLiBe Salt Solution of Curium-243 Fluoride,溶融キュリウム-243フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_curium_245_fluoride_flibe.name,Molten FLiBe Salt Solution of Curium-245 Fluoride,溶融キュリウム-245フッ化物 FLiBe 塩溶液
+fluid.curium_245_fluoride_flibe,Molten FLiBe Salt Solution of Curium-245 Fluoride,溶融キュリウム-245フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_curium_246_fluoride_flibe.name,Molten FLiBe Salt Solution of Curium-246 Fluoride,溶融キュリウム-246フッ化物 FLiBe 塩溶液
+fluid.curium_246_fluoride_flibe,Molten FLiBe Salt Solution of Curium-246 Fluoride,溶融キュリウム-246フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_curium_247_fluoride_flibe.name,Molten FLiBe Salt Solution of Curium-247 Fluoride,溶融キュリウム-247フッ化物 FLiBe 塩溶液
+fluid.curium_247_fluoride_flibe,Molten FLiBe Salt Solution of Curium-247 Fluoride,溶融キュリウム-247フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_berkelium_247_fluoride_flibe.name,Molten FLiBe Salt Solution of Berkelium-247 Fluoride,溶融バークリウム-247フッ化物 FLiBe 塩溶液
+fluid.berkelium_247_fluoride_flibe,Molten FLiBe Salt Solution of Berkelium-247 Fluoride,溶融バークリウム-247フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_berkelium_248_fluoride_flibe.name,Molten FLiBe Salt Solution of Berkelium-248 Fluoride,溶融バークリウム-248フッ化物 FLiBe 塩溶液
+fluid.berkelium_248_fluoride_flibe,Molten FLiBe Salt Solution of Berkelium-248 Fluoride,溶融バークリウム-248フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_californium_249_fluoride_flibe.name,Molten FLiBe Salt Solution of Californium-249 Fluoride,溶融カリホルニウム-249フッ化物 FLiBe 塩溶液
+fluid.californium_249_fluoride_flibe,Molten FLiBe Salt Solution of Californium-249 Fluoride,溶融カリホルニウム-249フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_californium_250_fluoride_flibe.name,Molten FLiBe Salt Solution of Californium-250 Fluoride,溶融カリホルニウム-250フッ化物 FLiBe 塩溶液
+fluid.californium_250_fluoride_flibe,Molten FLiBe Salt Solution of Californium-250 Fluoride,溶融カリホルニウム-250フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_californium_251_fluoride_flibe.name,Molten FLiBe Salt Solution of Californium-251 Fluoride,溶融カリホルニウム-251フッ化物 FLiBe 塩溶液
+fluid.californium_251_fluoride_flibe,Molten FLiBe Salt Solution of Californium-251 Fluoride,溶融カリホルニウム-251フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_californium_252_fluoride_flibe.name,Molten FLiBe Salt Solution of Californium-252 Fluoride,溶融カリホルニウム-252フッ化物 FLiBe 塩溶液
+fluid.californium_252_fluoride_flibe,Molten FLiBe Salt Solution of Californium-252 Fluoride,溶融カリホルニウム-252フッ化物 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_tbu_fluoride_flibe.name,Molten FLiBe Salt Solution of TBU Fluoride Fuel,溶融 TBU フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_tbu_fluoride_flibe,Molten FLiBe Salt Solution of TBU Fluoride Fuel,溶融 TBU フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_leu_233_fluoride_flibe.name,Molten FLiBe Salt Solution of LEU-233 Fluoride Fuel,溶融 LEU-233 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_leu_233_fluoride_flibe,Molten FLiBe Salt Solution of LEU-233 Fluoride Fuel,溶融 LEU-233 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_heu_233_fluoride_flibe.name,Molten FLiBe Salt Solution of HEU-233 Fluoride Fuel,溶融 HEU-233 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_heu_233_fluoride_flibe,Molten FLiBe Salt Solution of HEU-233 Fluoride Fuel,溶融 HEU-233 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_leu_235_fluoride_flibe.name,Molten FLiBe Salt Solution of LEU-235 Fluoride Fuel,溶融 LEU-235 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_leu_235_fluoride_flibe,Molten FLiBe Salt Solution of LEU-235 Fluoride Fuel,溶融 LEU-235 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_heu_235_fluoride_flibe.name,Molten FLiBe Salt Solution of HEU-235 Fluoride Fuel,溶融 HEU-235 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_heu_235_fluoride_flibe,Molten FLiBe Salt Solution of HEU-235 Fluoride Fuel,溶融 HEU-235 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_len_236_fluoride_flibe.name,Molten FLiBe Salt Solution of LEN-236 Fluoride Fuel,溶融 LEN-236 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_len_236_fluoride_flibe,Molten FLiBe Salt Solution of LEN-236 Fluoride Fuel,溶融 LEN-236 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_hen_236_fluoride_flibe.name,Molten FLiBe Salt Solution of HEN-236 Fluoride Fuel,溶融 HEN-236 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_hen_236_fluoride_flibe,Molten FLiBe Salt Solution of HEN-236 Fluoride Fuel,溶融 HEN-236 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_lep_239_fluoride_flibe.name,Molten FLiBe Salt Solution of LEP-239 Fluoride Fuel,溶融 LEP-239 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_lep_239_fluoride_flibe,Molten FLiBe Salt Solution of LEP-239 Fluoride Fuel,溶融 LEP-239 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_hep_239_fluoride_flibe.name,Molten FLiBe Salt Solution of HEP-239 Fluoride Fuel,溶融 HEP-239 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_hep_239_fluoride_flibe,Molten FLiBe Salt Solution of HEP-239 Fluoride Fuel,溶融 HEP-239 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_lep_241_fluoride_flibe.name,Molten FLiBe Salt Solution of LEP-241 Fluoride Fuel,溶融 LEP-241 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_lep_241_fluoride_flibe,Molten FLiBe Salt Solution of LEP-241 Fluoride Fuel,溶融 LEP-241 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_hep_241_fluoride_flibe.name,Molten FLiBe Salt Solution of HEP-241 Fluoride Fuel,溶融 HEP-241 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_hep_241_fluoride_flibe,Molten FLiBe Salt Solution of HEP-241 Fluoride Fuel,溶融 HEP-241 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_lea_242_fluoride_flibe.name,Molten FLiBe Salt Solution of LEA-242 Fluoride Fuel,溶融 LEA-242 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_lea_242_fluoride_flibe,Molten FLiBe Salt Solution of LEA-242 Fluoride Fuel,溶融 LEA-242 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_hea_242_fluoride_flibe.name,Molten FLiBe Salt Solution of HEA-242 Fluoride Fuel,溶融 HEA-242 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_hea_242_fluoride_flibe,Molten FLiBe Salt Solution of HEA-242 Fluoride Fuel,溶融 HEA-242 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_lecm_243_fluoride_flibe.name,Molten FLiBe Salt Solution of LECm-243 Fluoride Fuel,溶融 LECm-243 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_lecm_243_fluoride_flibe,Molten FLiBe Salt Solution of LECm-243 Fluoride Fuel,溶融 LECm-243 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_hecm_243_fluoride_flibe.name,Molten FLiBe Salt Solution of HECm-243 Fluoride Fuel,溶融 HECm-243 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_hecm_243_fluoride_flibe,Molten FLiBe Salt Solution of HECm-243 Fluoride Fuel,溶融 HECm-243 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_lecm_245_fluoride_flibe.name,Molten FLiBe Salt Solution of LECm-245 Fluoride Fuel,溶融 LECm-245 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_lecm_245_fluoride_flibe,Molten FLiBe Salt Solution of LECm-245 Fluoride Fuel,溶融 LECm-245 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_hecm_245_fluoride_flibe.name,Molten FLiBe Salt Solution of HECm-245 Fluoride Fuel,溶融 HECm-245 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_hecm_245_fluoride_flibe,Molten FLiBe Salt Solution of HECm-245 Fluoride Fuel,溶融 HECm-245 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_lecm_247_fluoride_flibe.name,Molten FLiBe Salt Solution of LECm-247 Fluoride Fuel,溶融 LECm-247 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_lecm_247_fluoride_flibe,Molten FLiBe Salt Solution of LECm-247 Fluoride Fuel,溶融 LECm-247 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_hecm_247_fluoride_flibe.name,Molten FLiBe Salt Solution of HECm-247 Fluoride Fuel,溶融 HECm-247 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_hecm_247_fluoride_flibe,Molten FLiBe Salt Solution of HECm-247 Fluoride Fuel,溶融 HECm-247 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_leb_248_fluoride_flibe.name,Molten FLiBe Salt Solution of LEB-248 Fluoride Fuel,溶融 LEB-248 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_leb_248_fluoride_flibe,Molten FLiBe Salt Solution of LEB-248 Fluoride Fuel,溶融 LEB-248 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_heb_248_fluoride_flibe.name,Molten FLiBe Salt Solution of HEB-248 Fluoride Fuel,溶融 HEB-248 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_heb_248_fluoride_flibe,Molten FLiBe Salt Solution of HEB-248 Fluoride Fuel,溶融 HEB-248 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_lecf_249_fluoride_flibe.name,Molten FLiBe Salt Solution of LECf-249 Fluoride Fuel,溶融 LECf-249 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_lecf_249_fluoride_flibe,Molten FLiBe Salt Solution of LECf-249 Fluoride Fuel,溶融 LECf-249 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_hecf_249_fluoride_flibe.name,Molten FLiBe Salt Solution of HECf-249 Fluoride Fuel,溶融 HECf-249 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_hecf_249_fluoride_flibe,Molten FLiBe Salt Solution of HECf-249 Fluoride Fuel,溶融 HECf-249 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_lecf_251_fluoride_flibe.name,Molten FLiBe Salt Solution of LECf-251 Fluoride Fuel,溶融 LECf-251 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_lecf_251_fluoride_flibe,Molten FLiBe Salt Solution of LECf-251 Fluoride Fuel,溶融 LECf-251 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_fuel_hecf_251_fluoride_flibe.name,Molten FLiBe Salt Solution of HECf-251 Fluoride Fuel,溶融 HECf-251 フッ化物燃料 FLiBe 塩溶液
+fluid.fuel_hecf_251_fluoride_flibe,Molten FLiBe Salt Solution of HECf-251 Fluoride Fuel,溶融 HECf-251 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_tbu_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted TBU Fluoride Fuel,溶融使用済み TBU フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_tbu_fluoride_flibe,Molten FLiBe Salt Solution of Depleted TBU Fluoride Fuel,溶融使用済み TBU フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_leu_233_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LEU-233 Fluoride Fuel,溶融使用済み LEU-233 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_leu_233_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LEU-233 Fluoride Fuel,溶融使用済み LEU-233 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_heu_233_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HEU-233 Fluoride Fuel,溶融使用済み HEU-233 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_heu_233_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HEU-233 Fluoride Fuel,溶融使用済み HEU-233 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_leu_235_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LEU-235 Fluoride Fuel,溶融使用済み LEU-235 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_leu_235_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LEU-235 Fluoride Fuel,溶融使用済み LEU-235 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_heu_235_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HEU-235 Fluoride Fuel,溶融使用済み HEU-235 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_heu_235_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HEU-235 Fluoride Fuel,溶融使用済み HEU-235 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_len_236_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LEN-236 Fluoride Fuel,溶融使用済み LEN-236 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_len_236_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LEN-236 Fluoride Fuel,溶融使用済み LEN-236 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_hen_236_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HEN-236 Fluoride Fuel,溶融使用済み HEN-236 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_hen_236_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HEN-236 Fluoride Fuel,溶融使用済み HEN-236 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_lep_239_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LEP-239 Fluoride Fuel,溶融使用済み LEP-239 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_lep_239_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LEP-239 Fluoride Fuel,溶融使用済み LEP-239 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_hep_239_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HEP-239 Fluoride Fuel,溶融使用済み HEP-239 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_hep_239_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HEP-239 Fluoride Fuel,溶融使用済み HEP-239 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_lep_241_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LEP-241 Fluoride Fuel,溶融使用済み LEP-241 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_lep_241_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LEP-241 Fluoride Fuel,溶融使用済み LEP-241 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_hep_241_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HEP-241 Fluoride Fuel,溶融使用済み HEP-241 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_hep_241_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HEP-241 Fluoride Fuel,溶融使用済み HEP-241 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_lea_242_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LEA-242 Fluoride Fuel,溶融使用済み LEA-242 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_lea_242_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LEA-242 Fluoride Fuel,溶融使用済み LEA-242 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_hea_242_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HEA-242 Fluoride Fuel,溶融使用済み HEA-242 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_hea_242_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HEA-242 Fluoride Fuel,溶融使用済み HEA-242 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_lecm_243_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LECm-243 Fluoride Fuel,溶融使用済み LECm-243 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_lecm_243_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LECm-243 Fluoride Fuel,溶融使用済み LECm-243 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_hecm_243_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HECm-243 Fluoride Fuel,溶融使用済み HECm-243 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_hecm_243_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HECm-243 Fluoride Fuel,溶融使用済み HECm-243 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_lecm_245_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LECm-245 Fluoride Fuel,溶融使用済み LECm-245 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_lecm_245_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LECm-245 Fluoride Fuel,溶融使用済み LECm-245 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_hecm_245_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HECm-245 Fluoride Fuel,溶融使用済み HECm-245 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_hecm_245_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HECm-245 Fluoride Fuel,溶融使用済み HECm-245 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_lecm_247_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LECm-247 Fluoride Fuel,溶融使用済み LECm-247 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_lecm_247_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LECm-247 Fluoride Fuel,溶融使用済み LECm-247 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_hecm_247_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HECm-247 Fluoride Fuel,溶融使用済み HECm-247 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_hecm_247_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HECm-247 Fluoride Fuel,溶融使用済み HECm-247 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_leb_248_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LEB-248 Fluoride Fuel,溶融使用済み LEB-248 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_leb_248_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LEB-248 Fluoride Fuel,溶融使用済み LEB-248 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_heb_248_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HEB-248 Fluoride Fuel,溶融使用済み HEB-248 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_heb_248_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HEB-248 Fluoride Fuel,溶融使用済み HEB-248 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_lecf_249_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LECf-249 Fluoride Fuel,溶融使用済み LECf-249 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_lecf_249_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LECf-249 Fluoride Fuel,溶融使用済み LECf-249 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_hecf_249_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HECf-249 Fluoride Fuel,溶融使用済み HECf-249 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_hecf_249_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HECf-249 Fluoride Fuel,溶融使用済み HECf-249 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_lecf_251_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted LECf-251 Fluoride Fuel,溶融使用済み LECf-251 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_lecf_251_fluoride_flibe,Molten FLiBe Salt Solution of Depleted LECf-251 Fluoride Fuel,溶融使用済み LECf-251 フッ化物燃料 FLiBe 塩溶液
+tile.nuclearcraft.fluid_depleted_fuel_hecf_251_fluoride_flibe.name,Molten FLiBe Salt Solution of Depleted HECf-251 Fluoride Fuel,溶融使用済み HECf-251 フッ化物燃料 FLiBe 塩溶液
+fluid.depleted_fuel_hecf_251_fluoride_flibe,Molten FLiBe Salt Solution of Depleted HECf-251 Fluoride Fuel,溶融使用済み HECf-251 フッ化物燃料 FLiBe 塩溶液
+item.nuclearcraft.gem.rhodochrosite.desc,Obtained alongside Redstone when breaking Redstone Ore.,赤鉱を破壊するときにレッドストーンと一緒に取得されます。
+item.nuclearcraft.record_wanderer.des1,8-Bit Cover by '8 Bit Universe','8 Bit Universe' による8ビットカバー
+item.nuclearcraft.record_end_of_the_world.des1,8-Bit Cover by 'GermanPikachuGaming','GermanPikachuGaming' による8ビットカバー
+item.nuclearcraft.record_money_for_nothing.des1,8-Bit Cover by 'Omnigrad','Omnigrad' による8ビットカバー
+jei.nuclearcraft.coolant_heater.redstone_nak,Must be adjacent to at least one active Fission Vessel.,少なくとも1つのアクティブな核分裂容器に隣接している必要があります。
+jei.nuclearcraft.coolant_heater.gold_nak,Must be adjacent to at least one valid NaK Coolant Heater and one valid NaK-Redstone Coolant Heater.,少なくとも1つの有効な NaK 冷却器加熱機と1つの有効な NaK-レッドストーン冷却器加熱機に隣接している必要があります。
+jei.nuclearcraft.coolant_heater.glowstone_nak,Must be adjacent to at least two active moderator blocks.,少なくとも2つの活性な調整ブロックに隣接している必要があります。
+jei.nuclearcraft.coolant_heater.diamond_nak,Must be adjacent to at least one valid NaK Coolant Heater and one valid NaK-Quartz Coolant Heater.,少なくとも1つの有効な NaK 冷却器加熱機と1つの有効な NaK-石英冷却器加熱機に隣接している必要があります。
+jei.nuclearcraft.coolant_heater.liquidhelium_nak,Must be adjacent to exactly one valid NaK-Redstone Coolant Heater and at least one Reactor Wall.,正確に1つの有効な NaK-レッドストーン冷却器加熱機と少なくとも1つの原子炉壁に隣接している必要があります。
+jei.nuclearcraft.coolant_heater.iron_nak,Must be adjacent to at least one valid NaK-Gold Coolant Heater.,少なくとも1つの有効な NaK-金冷却器に隣接している必要があります。
+jei.nuclearcraft.coolant_heater.copper_nak,Must be adjacent to at least one valid NaK-Glowstone Coolant Heater.,少なくとも1つの有効な NaK-グロウストーン冷却器に隣接している必要があります。
+jei.nuclearcraft.coolant_heater.tin_nak,Must be adjacent to at least two valid NaK-Lapis Coolant Heaters along a common axis.,共通の軸に沿って少なくとも2つの有効な NaK-ラピス冷却器に隣接している必要があります。
+itemGroup.nuclearcraft,NuclearCraft,
+gui.config.ores.ore_dims_list_type.comment,Is the dimension list a whitelist (false) or a blacklist (true)?,ディメンションリストはホワイトリスト (false) またはブラックリスト (true) ですか？
+gui.config.ores.hide_disabled_ores.comment,Remove disabled ores from the Ore Dictionary and JEI?,鉱石辞書と JEI から無効な鉱石を削除しますか？
+gui.config.processors.enable_gtce_eu.comment,"If true, energy from GTCE can be accepted and emitted by NC machines.",true の場合、GTCE からのエネルギーは NC マシンで受け入れ・発行できます。
+gui.config.processors.cobble_gen_power.comment,RF/s required for Cobblestone Generator to run.,丸石生成機を動作させるために必要な RF/s。
+gui.config.processors.gtce_recipe_integration.comment,"If enabled, recipes of the corresponding NC machine will also be added for GTCE machines. Order: Manufactory, Isotope Separator, Decay Hastener, Fuel Reprocessor, Alloy Furnace, Fluid Infuser, Melter, Supercooler, Electrolyzer, Neutron Irradiator, Ingot Former, Pressurizer, Chemical Reactor, Salt Mixer, Crystallizer, Fluid Enricher, Fluid Extractor, Centrifuge, Rock Crusher.","有効にすると、対応する NC マシンのレシピも GTCE マシンに追加されます。順序: 製造所, 同位体分離機, 減衰促進機, 燃料再処理機, 合金炉, 流体注入機, 融解機, スーパークーラー, 電解槽, 中性子照射機, インゴット成形機, 加圧機, 化学反応器, 塩混合機, 結晶化機, 流体濃縮機, 流体抽出機, 遠心分離機, 岩盤粉砕機."
+gui.config.fission.fission_thorium_fuel_time.comment,"Base ticks the fuels last. Order: TBU, TBU Oxide.","燃料が持続する基本 tick 数。順序: TBU, TBU Oxide."
+gui.config.fission.fission_thorium_power.comment,"Base RF/t the fuels produce. Order: TBU, TBU Oxide.","燃料が生成する基本 RF/t。順序: TBU, TBU Oxide."
+gui.config.fission.fission_thorium_heat_generation.comment,"Base heat the fuels produce. Order: TBU, TBU Oxide.","燃料が生成する基本熱量。順序: TBU, TBU Oxide."
+gui.config.fission.fission_thorium_radiation.comment,"Base radiation the fuels produce while processing. Order: TBU, TBU Oxide.","燃料が処理中に生成する基本放射線。順序: TBU, TBU Oxide."
+gui.config.fission.fission_uranium_fuel_time.comment,"Base ticks the fuels last. Order: LEU-233, LEU-233 Oxide, HEU-233, HEU-233 Oxide, LEU-235, LEU-235 Oxide, HEU-235, HEU-235 Oxide.","燃料が持続する基本 tick 数。順序: LEU-233, LEU-233 Oxide, HEU-233, HEU-233 Oxide, LEU-235, LEU-235 Oxide, HEU-235, HEU-235 Oxide."
+gui.config.fission.fission_uranium_power.comment,"Base RF/t the fuels produce. Order: LEU-233, LEU-233 Oxide, HEU-233, HEU-233 Oxide, LEU-235, LEU-235 Oxide, HEU-235, HEU-235 Oxide.","燃料が生成する基本 RF/t。順序: LEU-233, LEU-233 Oxide, HEU-233, HEU-233 Oxide, LEU-235, LEU-235 Oxide, HEU-235, HEU-235 Oxide."
+gui.config.fission.fission_uranium_heat_generation.comment,"Base heat the fuels produce. Order: LEU-233, LEU-233 Oxide, HEU-233, HEU-233 Oxide, LEU-235, LEU-235 Oxide, HEU-235, HEU-235 Oxide.","燃料が生成する基本熱量。順序: LEU-233, LEU-233 Oxide, HEU-233, HEU-233 Oxide, LEU-235, LEU-235 Oxide, HEU-235, HEU-235 Oxide."
+gui.config.fission.fission_uranium_radiation.comment,"Base radiation the fuels produce while processing. Order: LEU-233, LEU-233 Oxide, HEU-233, HEU-233 Oxide, LEU-235, LEU-235 Oxide, HEU-235, HEU-235 Oxide.","燃料が処理中に生成する基本放射線。順序: LEU-233, LEU-233 Oxide, HEU-233, HEU-233 Oxide, LEU-235, LEU-235 Oxide, HEU-235, HEU-235 Oxide."
+gui.config.fission.fission_neptunium_fuel_time.comment,"Base ticks the fuels last. Order: LEN-236, LEN-236 Oxide, HEN-236, HEN-236 Oxide.","燃料が持続する基本 tick 数。順序: LEN-236, LEN-236 Oxide, HEN-236, HEN-236 Oxide."
+gui.config.fission.fission_neptunium_power.comment,"Base RF/t the fuels produce. Order: LEN-236, LEN-236 Oxide, HEN-236, HEN-236 Oxide.","燃料が生成する基本 RF/t。順序: LEN-236, LEN-236 Oxide, HEN-236, HEN-236 Oxide."
+gui.config.fission.fission_neptunium_heat_generation.comment,"Base heat the fuels produce. Order: LEN-236, LEN-236 Oxide, HEN-236, HEN-236 Oxide.","燃料が生成する基本熱量。順序: LEN-236, LEN-236 Oxide, HEN-236, HEN-236 Oxide."
+gui.config.fission.fission_neptunium_radiation.comment,"Base radiation the fuels produce while processing. Order: LEN-236, LEN-236 Oxide, HEN-236, HEN-236 Oxide.","燃料が処理中に生成する基本放射線。順序: LEN-236, LEN-236 Oxide, HEN-236, HEN-236 Oxide."
+gui.config.fission.fission_plutonium_fuel_time.comment,"Base ticks the fuels last. Order: LEP-239, LEP-239 Oxide, HEP-239, HEP-239 Oxide, LEP-241, LEP-241 Oxide, HEP-241, HEP-241 Oxide.","燃料が持続する基本 tick 数。順序: LEP-239, LEP-239 Oxide, HEP-239, HEP-239 Oxide, LEP-241, LEP-241 Oxide, HEP-241, HEP-241 Oxide."
+gui.config.fission.fission_plutonium_power.comment,"Base RF/t the fuels produce. Order: LEP-239, LEP-239 Oxide, HEP-239, HEP-239 Oxide, LEP-241, LEP-241 Oxide, HEP-241, HEP-241 Oxide.","燃料が生成する基本 RF/t。順序: LEP-239, LEP-239 Oxide, HEP-239, HEP-239 Oxide, LEP-241, LEP-241 Oxide, HEP-241, HEP-241 Oxide."
+gui.config.fission.fission_plutonium_heat_generation.comment,"Base heat the fuels produce. Order: LEP-239, LEP-239 Oxide, HEP-239, HEP-239 Oxide, LEP-241, LEP-241 Oxide, HEP-241, HEP-241 Oxide.","燃料が生成する基本熱量。順序: LEP-239, LEP-239 Oxide, HEP-239, HEP-239 Oxide, LEP-241, LEP-241 Oxide, HEP-241, HEP-241 Oxide."
+gui.config.fission.fission_plutonium_radiation.comment,"Base radiation the fuels produce while processing. Order: LEP-239, LEP-239 Oxide, HEP-239, HEP-239 Oxide, LEP-241, LEP-241 Oxide, HEP-241, HEP-241 Oxide.","燃料が処理中に生成する基本放射線。順序: LEP-239, LEP-239 Oxide, HEP-239, HEP-239 Oxide, LEP-241, LEP-241 Oxide, HEP-241, HEP-241 Oxide."
+gui.config.fission.fission_mox_fuel_time.comment,"Base ticks the fuels last. Order: MOX-239, MOX-241.","燃料が持続する基本 tick 数。順序: MOX-239, MOX-241."
+gui.config.fission.fission_mox_power.comment,"Base RF/t the fuels produce. Order: MOX-239, MOX-241.","燃料が生成する基本 RF/t。順序: MOX-239, MOX-241."
+gui.config.fission.fission_mox_heat_generation.comment,"Base heat the fuels produce. Order: MOX-239, MOX-241.","燃料が生成する基本熱量。順序: MOX-239, MOX-241."
+gui.config.fission.fission_mox_radiation.comment,"Base radiation the fuels produce while processing. Order: MOX-239, MOX-241.","燃料が処理中に生成する基本放射線。順序: MOX-239, MOX-241."
+gui.config.fission.fission_americium_fuel_time.comment,"Base ticks the fuels last. Order: LEA-242, LEA-242 Oxide, HEA-242, HEA-242 Oxide.","燃料が持続する基本 tick 数。順序: LEA-242, LEA-242 Oxide, HEA-242, HEA-242 Oxide."
+gui.config.fission.fission_americium_power.comment,"Base RF/t the fuels produce. Order: LEA-242, LEA-242 Oxide, HEA-242, HEA-242 Oxide.","燃料が生成する基本 RF/t。順序: LEA-242, LEA-242 Oxide, HEA-242, HEA-242 Oxide."
+gui.config.fission.fission_americium_heat_generation.comment,"Base heat the fuels produce. Order: LEA-242, LEA-242 Oxide, HEA-242, HEA-242 Oxide.","燃料が生成する基本熱量。順序: LEA-242, LEA-242 Oxide, HEA-242, HEA-242 Oxide."
+gui.config.fission.fission_americium_radiation.comment,"Base radiation the fuels produce while processing. Order: LEA-242, LEA-242 Oxide, HEA-242, HEA-242 Oxide.","燃料が処理中に生成する基本放射線。順序: LEA-242, LEA-242 Oxide, HEA-242, HEA-242 Oxide."
+gui.config.fission.fission_curium_fuel_time.comment,"Base ticks the fuels last. Order: LECm-243, LECm-243 Oxide, HECm-243, HECm-243 Oxide, LECm-245, LECm-245 Oxide, HECm-245, HECm-245 Oxide, LECm-247, LECm-247 Oxide, HECm-247, HECm-247 Oxide.","燃料が持続する基本 tick 数。順序: LECm-243, LECm-243 Oxide, HECm-243, HECm-243 Oxide, LECm-245, LECm-245 Oxide, HECm-245, HECm-245 Oxide, LECm-247, LECm-247 Oxide, HECm-247, HECm-247 Oxide."
+gui.config.fission.fission_curium_power.comment,"Base RF/t the fuels produce. Order: LECm-243, LECm-243 Oxide, HECm-243, HECm-243 Oxide, LECm-245, LECm-245 Oxide, HECm-245, HECm-245 Oxide, LECm-247, LECm-247 Oxide, HECm-247, HECm-247 Oxide.","燃料が生成する基本 RF/t。順序: LECm-243, LECm-243 Oxide, HECm-243, HECm-243 Oxide, LECm-245, LECm-245 Oxide, HECm-245, HECm-245 Oxide, LECm-247, LECm-247 Oxide, HECm-247, HECm-247 Oxide."
+gui.config.fission.fission_curium_heat_generation.comment,"Base heat the fuels produce. Order: LECm-243, LECm-243 Oxide, HECm-243, HECm-243 Oxide, LECm-245, LECm-245 Oxide, HECm-245, HECm-245 Oxide, LECm-247, LECm-247 Oxide, HECm-247, HECm-247 Oxide.","燃料が生成する基本熱量。順序: LECm-243, LECm-243 Oxide, HECm-243, HECm-243 Oxide, LECm-245, LECm-245 Oxide, HECm-245, HECm-245 Oxide, LECm-247, LECm-247 Oxide, HECm-247, HECm-247 Oxide."
+gui.config.fission.fission_curium_radiation.comment,"Base radiation the fuels produce while processing. Order: LECm-243, LECm-243 Oxide, HECm-243, HECm-243 Oxide, LECm-245, LECm-245 Oxide, HECm-245, HECm-245 Oxide, LECm-247, LECm-247 Oxide, HECm-247, HECm-247 Oxide.","燃料が処理中に生成する基本放射線。順序: LECm-243, LECm-243 Oxide, HECm-243, HECm-243 Oxide, LECm-245, LECm-245 Oxide, HECm-245, HECm-245 Oxide, LECm-247, LECm-247 Oxide, HECm-247, HECm-247 Oxide."
+gui.config.fission.fission_berkelium_fuel_time.comment,"Base ticks the fuels last. Order: LEB-248, LEB-248 Oxide, HEB-248, HEB-248 Oxide.","燃料が持続する基本 tick 数。順序: LEB-248, LEB-248 Oxide, HEB-248, HEB-248 Oxide."
+gui.config.fission.fission_berkelium_power.comment,"Base RF/t the fuels produce. Order: LEB-248, LEB-248 Oxide, HEB-248, HEB-248 Oxide.","燃料が生成する基本 RF/t。順序: LEB-248, LEB-248 Oxide, HEB-248, HEB-248 Oxide."
+gui.config.fission.fission_berkelium_heat_generation.comment,"Base heat the fuels produce. Order: LEB-248, LEB-248 Oxide, HEB-248, HEB-248 Oxide.","燃料が生成する基本熱量。順序: LEB-248, LEB-248 Oxide, HEB-248, HEB-248 Oxide."
+gui.config.fission.fission_berkelium_radiation.comment,"Base radiation the fuels produce while processing. Order: LEB-248, LEB-248 Oxide, HEB-248, HEB-248 Oxide.","燃料が処理中に生成する基本放射線。順序: LEB-248, LEB-248 Oxide, HEB-248, HEB-248 Oxide."
+gui.config.fission.fission_californium_fuel_time.comment,"Base ticks the fuels last. Order: LECf-249, LECf-249 Oxide, HECf-249, HECf-249 Oxide, LECf-251, LECf-251 Oxide, HECf-251, HECf-251 Oxide.","燃料が持続する基本 tick 数。順序: LECf-249, LECf-249 Oxide, HECf-249, HECf-249 Oxide, LECf-251, LECf-251 Oxide, HECf-251, HECf-251 Oxide."
+gui.config.fission.fission_californium_power.comment,"Base RF/t the fuels produce. Order: LECf-249, LECf-249 Oxide, HECf-249, HECf-249 Oxide, LECf-251, LECf-251 Oxide, HECf-251, HECf-251 Oxide.","燃料が生成する基本 RF/t。順序: LECf-249, LECf-249 Oxide, HECf-249, HECf-249 Oxide, LECf-251, LECf-251 Oxide, HECf-251, HECf-251 Oxide."
+gui.config.fission.fission_californium_heat_generation.comment,"Base heat the fuels produce. Order: LECf-249, LECf-249 Oxide, HECf-249, HECf-249 Oxide, LECf-251, LECf-251 Oxide, HECf-251, HECf-251 Oxide.","燃料が生成する基本熱量。順序: LECf-249, LECf-249 Oxide, HECf-249, HECf-249 Oxide, LECf-251, LECf-251 Oxide, HECf-251, HECf-251 Oxide."
+gui.config.fission.fission_californium_radiation.comment,"Base radiation the fuels produce while processing. Order: LECf-249, LECf-249 Oxide, HECf-249, HECf-249 Oxide, LECf-251, LECf-251 Oxide, HECf-251, HECf-251 Oxide.","燃料が処理中に生成する基本放射線。順序: LECf-249, LECf-249 Oxide, HECf-249, HECf-249 Oxide, LECf-251, LECf-251 Oxide, HECf-251, HECf-251 Oxide."
+gui.config.turbine.turbine_blade_efficiency.comment,"Multiplier for the energy transferred from the fluid flow to this type of rotor blade. Order: steel, extreme alloy, SiC-SiC CMC.","流体の流れからこのタイプのローターブレードに転送されるエネルギーの乗数。順序: steel, extreme alloy, SiC-SiC CMC."
+gui.config.turbine.turbine_blade_expansion.comment,"Coefficient by which a set of this type of rotor blade multiplies the volume of the fluid in the oncoming flow. Order: steel, extreme alloy, SiC-SiC CMC.","このタイプのローターブレードのセットが流入の流体の体積を乗算する係数。順序: steel, extreme alloy, SiC-SiC CMC."
+gui.config.tools.tool_handle_modifier.comment,"Determines the Tinkers' Construct handle modifiers of the materials. Order: boron, tough alloy, hard carbon, boron nitride.","材料の Tinkers' Construct ハンドル修飾子を決定します。順序: boron, tough alloy, hard carbon, boron nitride."
+gui.config.entities.entity_register.comment,Will these entities be registered to spawn? Order: feral ghoul.,これらのエンティティはスポーン登録されますか？ 順序: feral ghoul.
+gui.config.radiation.radiation_enabled.comment,Will nuclear radiation exist in the world? Note that the game will require a restart for radiation-related items to be shown in JEI after enabling this feature.,世界に核放射線が存在しますか？ この機能を有効にした後、放射線関連のアイテムが JEI に表示されるようにするにはゲームの再起動が必要です。
+gui.config.radiation.radiation_immune_players.comment,List of UUIDs for players who will be given permanent radiation immunity.,永続的な放射線免疫を与えられるプレイヤーの UUID のリスト。
+gui.config.radiation.radiation_worlds.comment,List of dimensions and their background radiation levels. Format: 'dimID_radiationLevel'.,ディメンションとその背景放射線レベルのリスト。形式: 'dimID_radiationLevel'.
+gui.config.radiation.radiation_biomes.comment,List of biomes and their background radiation levels. These values stack with the underlying world's background radiation. Format: 'modid:biomeName_radiationLevel'.,バイオームとその背景放射線レベルのリスト。これらの値は世界の背景放射線と重ねられます。形式: 'modid:biomeName_radiationLevel'.
+gui.config.radiation.radiation_structures.comment,List of structures and their background radiation levels. These values stack with the underlying world or biome's background radiation. Format: 'structureName_radiationLevel'.,構造と背景放射線レベルのリスト。これらの値は基礎となる世界またはバイオームの背景放射線と重ねられます。形式: 'structureName_radiationLevel'.
+gui.config.radiation.radiation_world_limits.comment,List of dimensions and their radiation level limits. Format: 'dimID_radiationLimit'.,ディメンションとその放射線レベルの上限のリスト。形式: 'dimID_radiationLimit'.
+gui.config.radiation.radiation_biome_limits.comment,List of biomes and their radiation level limits. These values stack with the underlying world's background radiation. Format: 'modid:biomeName_radiationLimit'.,バイオームとその放射線レベルの上限のリスト。これらの値は世界の背景放射線と重ねられます。形式: 'modid:biomeName_radiationLimit'.
+gui.config.radiation.radiation_ores.comment,List of ore dict entries and their stack radiation levels. Can be used to overwrite default values. Format: 'oreName_radiationLevel'.,鉱石辞書エントリとそのスタック放射線レベルのリスト。デフォルト値を上書きするために使用できます。形式: 'oreName_radiationLevel'.
+gui.config.radiation.radiation_items.comment,List of items and their stack radiation levels. Can be used to overwrite default values. Format: 'modid:name:meta_radiationLevel'.,アイテムとそのスタック放射線レベルのリスト。デフォルト値を上書きするために使用できます。形式: 'modid:name:meta_radiationLevel'.
+gui.config.radiation.radiation_blocks.comment,List of blocks and their radiation levels. Can be used to overwrite default values. Format: 'modid:name:meta_radiationLevel'.,ブロックとその放射線レベルのリスト。デフォルト値を上書きするために使用できます。形式: 'modid:name:meta_radiationLevel'.
+gui.config.radiation.radiation_fluids.comment,"List of fluids and their radiation levels. Can be used to overwrite default values. If the fluid has a corresponding block, then it will also be given a radiation level. Format: 'fluidName_radiationLevel'.",流体とその放射線レベルのリスト。デフォルト値を上書きするために使用できます。流体に対応するブロックがある場合、それにも放射線レベルが与えられます。形式: 'fluidName_radiationLevel'.
+gui.config.radiation.radiation_foods.comment,List of foods and the rads and rad resistance gained on consumption. Negative values mean rads and rad resistance will be lost. Can be used to overwrite default values. Format: 'modid:name:meta_radiationLevel_radiationResistance'.,食物と消費時に得られる Rad と Rad 耐性のリスト。負の値は Rad と Rad 耐性が失われることを意味します。デフォルト値を上書きするために使用できます。形式: 'modid:name:meta_radiationLevel_radiationResistance'.
+gui.config.radiation.radiation_ores_blacklist.comment,List of ore dict entries that will be forced not have a radiation level. Format: 'oreName'.,放射線レベルを持たないように強制される鉱石辞書エントリのリスト。形式: 'oreName'.
+gui.config.radiation.radiation_items_blacklist.comment,List of items that will be forced not have a radiation level. Format: 'modid:name:meta'.,放射線レベルを持たないように強制されるアイテムのリスト。形式: 'modid:name:meta'.
+gui.config.radiation.radiation_blocks_blacklist.comment,List of blocks that will be forced not have a radiation level. Format: 'modid:name:meta'.,放射線レベルを持たないように強制されるブロックのリスト。形式: 'modid:name:meta'.
+gui.config.radiation.radiation_fluids_blacklist.comment,List of fluids that will be forced not have a radiation level. Format: 'fluidName'.,放射線レベルを持たないように強制される流体のリスト。形式: 'fluidName'.
+gui.config.radiation.radiation_lowest_rate.comment,The lowest rate of player and chunk irradiation possible in Rad/t - amounts below this are ignored.,プレイヤーとチャンク照射の可能な最低レート (Rad/t)。これ以下の量は無視されます。
+gui.config.radiation.radiation_chunk_limit.comment,The maximum chunk radiation level possible in Rad/t. A negative value means there is no limit.,可能な最大チャンク放射線レベル (Rad/t)。負の値は制限がないことを意味します。
+gui.config.radiation.radiation_block_effect_limit.comment,The chunk radiation level in Rad/t beyond which blocks will start to be affected by radiation.,ブロックが放射線の影響を受け始めるチャンク放射線レベル (Rad/t)。
+gui.config.radiation.radiation_radaway_amount.comment,The total number of rads removed when using RadAway.,RadAway を使用すると除去される Rad の総数。
+gui.config.radiation.radiation_radaway_rate.comment,The rate at which rads is removed when using RadAway in Rad/t.,RadAway を使用するときに Rad が除去される速度 (Rad/t)。
+gui.config.radiation.radiation_radaway_slow_rate.comment,The rate at which rads is removed when using Slow-Acting RadAway in Rad/t.,低速作用 RadAway を使用するときに Rad が除去される速度 (Rad/t)。
+gui.config.radiation.radiation_radaway_cooldown.comment,The time that must be waited between doses of RadAway in ticks.,RadAway の投与間隔で待つ必要がある時間 (tick)。
+gui.config.radiation.radiation_rad_x_amount.comment,Controls the amount of rad resistance gained when consuming Rad-X.,Rad-X を消費すると得られる Rad 耐性の量を制御します。
+gui.config.radiation.radiation_shielding_item_blacklist.comment,List of armor item stacks for which shielding recipes will not be added by default. Format: 'modid:armorName:meta'.,デフォルトではシールディングレシピが追加されない防具アイテムスタックのリスト。形式: 'modid:armorName:meta'.
+gui.config.radiation.radiation_shielding_custom_stacks.comment,List of armor item stacks for which shielding recipes will be added. Mostly used when the automated shielding recipes are disabled. Format: 'modid:armorName:meta'.,シールディングレシピが追加される防具アイテムスタックのリスト。主に自動シールディングレシピが無効な場合に使用されます。形式: 'modid:armorName:meta'.
+gui.config.radiation.radiation_shielding_default_levels.comment,"List of armor item stacks and their default radiation shielding levels. Format: 'modid:armorName:meta_resistance'. Note: this is not the only way to add these values if you have CraftTweaker installed. Rad resistance can also be given to armor by changing their recipe such that an NBT tag called ""ncRadiationResistance"" with the double value equal to the resistance level is attached to it.",防具アイテムスタックとそのデフォルト放射線シールディングレベルのリスト。形式: 'modid:armorName:meta_resistance'。注: CraftTweaker がインストールされている場合、これは値を追加する唯一の方法ではありません。防具のレシピを変更して、「ncRadiationResistance」という NBT タグが抵抗レベルに等しいダブル値で付加されるようにすることで、防具に Rad 耐性を与えることもできます。
+gui.config.radiation.radiation_hud_size.comment,Modifier for the size of radiation info on the HUD.,HUD 上の放射線情報のサイズの修飾子。
+gui.config.radiation.radiation_hud_position.comment,"Angle from the centre of the screen at which radiation info appears on the HUD. 0 degrees is the top of the screen, 45 is top-right, etc.",放射線情報が HUD に表示される画面の中心からの角度。0 度は画面の上部、45 度は右上など。
+gui.config.radiation.radiation_player_debuff_lists.comment,"Lists of potion effects experienced at various percentages of radiation level by players. Format: 'radPercent_potionNameA@strength,potionNameB@strength,...,potionNameZ@strength'.","プレイヤーが放射線レベルの様々なパーセンテージで経験するポーション効果のリスト。形式: 'radPercent_potionNameA@strength,potionNameB@strength,...,potionNameZ@strength'."
+gui.config.radiation.radiation_passive_debuff_lists.comment,"Lists of potion effects experienced at various percentages of radiation level by passive entities. Format: 'radPercent_potionNameA@strength,potionNameB@strength,...,potionNameZ@strength'.","受動的なエンティティが放射線レベルの様々なパーセンテージで経験するポーション効果のリスト。形式: 'radPercent_potionNameA@strength,potionNameB@strength,...,potionNameZ@strength'."
+gui.config.radiation.radiation_mob_buff_lists.comment,"Lists of potion effects experienced at various percentages of radiation level by mobs. Format: 'radPercent_potionNameA@strength,potionNameB@strength,...,potionNameZ@strength'.","MOB によって放射線レベルの様々なパーセンテージで経験されるポーション効果のリスト。形式: 'radPercent_potionNameA@strength,potionNameB@strength,...,potionNameZ@strength'."
+gui.config.other.jei_chance_items_include_null.comment,"Will the chance item output cycle in JEI include empty stacks if a possible output stack size is 0? If false, a minimum stack size of 1 shall be shown - although some info about the recipe is lost this way, it looks much neater. This will only effect the outputs in JEI and not the actual functioning of the machines.",JEI のチャンスアイテム出力サイクルに、可能な出力スタックサイズが 0 の場合、空のスタックが含まれますか？ false の場合、最小スタックサイズ 1 が表示されます。このようにレシピに関する情報が失われますが、見た目がはるかに洗練されます。これは JEI の出力にのみ影響し、マシンの実際の動作には影響しません。
+gui.config.other.dungeon_loot.comment,Will NuclearCraft loot generate in chests?,NuclearCraft のルートがチェストに生成されますか？
+gui.config.other.register_cofh_fluids.comment,Register alternative Thermal Foundation fluids? It is recommended that this is set to true if no CoFH mods are installed.,代替 Thermal Foundation 流体を登録しますか？ CoFH MOD がインストールされていない場合、これを true に設定することをお勧めします。
+gui.config.other.ore_dict_raw_material_recipes.comment,"Will Ore Dictionary inputs be used for 'ingot <-> block' crafting and 'dust -> ingot' furnace recipes? If false, the NC ingredient will be used.",鉱石辞書入力は「インゴット ↔ ブロック」クラフトと「ダスト → インゴット」かまどレシピに使用されますか？ false の場合、NC 成分が使用されます。
+gui.config.other.ore_dict_priority_bool.comment,"Will Ore Dictionary outputs be prioritised according to the mod list below? If false, the default Ore Dict entry will be used when deciding machine outputs.",鉱石辞書出力は下のリストに従って優先順位付けされますか？ false の場合、マシン出力を決定するときにデフォルトの鉱石辞書エントリが使用されます。
+gui.config.other.ore_dict_priority.comment,"Determines the priority of each mod's ore dictionary entries - earlier mods' IDs in this list have a higher priority. This is used to determine which mod's corresponding item is produced in machine recipes. If no matching mod is found, the default entry is used.",各 MOD の鉱石辞書エントリの優先度を決定します。このリストの前の MOD の ID の方が優先度が高いです。これはマシンレシピで生成される対応するアイテムを決定するために使用されます。一致する MOD が見つからない場合は、デフォルトエントリが使用されます。
+gui.computer.method_not_found,"This method doesn't show in the archive maps - lost a method, you have... how embarassing... how embarassing! Gather round the GitHub repository, clear your mind, and find your missing method we will.",このメソッドはアーカイブマップに表示されません。メソッドが失われました。恥ずかしいことです。GitHub リポジトリの周りに集まり、心をクリアし、失われたメソッドを見つけましょう。
+advancement.nuclearcraft.root.name,NuclearCraft,
+advancement.nuclearcraft.rtg_californium.name,End of the Line,線路の終端です
+advancement.nuclearcraft.berkelium.name,Made in Alameda,アラメダ製
+message.nuclearcraft.radiation_config_info_jei,"Radiation is enabled on this server! It is recommended that it is enabled on the client side too, along with a restart, in order to see all radiation-related items in JEI!",このサーバーでは放射線が有効です！すべての放射線関連アイテムを JEI に表示するには、クライアント側でも有効にし、再起動することをお勧めします！

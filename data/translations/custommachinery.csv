@@ -148,7 +148,7 @@ custommachinery.gui.creation.components.filter.tags,Tags,タグ
 custommachinery.gui.creation.components.filter.whitelist,Whitelist,ホワイトリスト
 custommachinery.gui.creation.components.fluid.title,Fluid Component,液体コンポーネント
 custommachinery.gui.creation.components.fluid.unique,Unique,ユニーク
-custommachinery.gui.creation.components.id,ID,ID
+custommachinery.gui.creation.components.id,ID,
 custommachinery.gui.creation.components.id.tooltip,The id must be different for each components of the same type,同じタイプの各コンポーネントには異なる ID を割り当てる必要があります
 custommachinery.gui.creation.components.item.locked,Locked,ロック
 custommachinery.gui.creation.components.item.locked.tooltip,"If set the slot wont be interactable from the gui, only pipes/hoppers will be able to insert/extract items",設定されている場合、スロットはGUIから操作できず、パイプとホッパーのみがアイテムを挿入・取り出せます
@@ -240,11 +240,11 @@ custommachinery.gui.creation.gui.hints.2,Use Ctrl+Z to undo last change,Ctrl+Z �
 custommachinery.gui.creation.gui.hints.3,Press DEL to quickly delete selected elements,DELキーを押して選択された要素をすばやく削除します
 custommachinery.gui.creation.gui.hints.4,Don't forget to save your changes,変更を保存してください。
 custommachinery.gui.creation.gui.hints.5,Copy-pasting automatically increment id,コピー＆ペーストで自動的にIDを増加
-custommachinery.gui.creation.gui.id,ID,ID
+custommachinery.gui.creation.gui.id,ID,
 custommachinery.gui.creation.gui.id.description,Set an id for this element,この要素にIDを設定する
 custommachinery.gui.creation.gui.id.duplicate,Duplicate id: %s,IDの重複: %s
 custommachinery.gui.creation.gui.id.missing,Missing id,IDが欠落
-custommachinery.gui.creation.gui.mouse,"(%s,%s)","(%s,%s)"
+custommachinery.gui.creation.gui.mouse,"(%s,%s)",
 custommachinery.gui.creation.gui.paste,Paste,貼り付け
 custommachinery.gui.creation.gui.priority,Priority,優先度
 custommachinery.gui.creation.gui.priority.value,Priority: %s,優先度: %s
@@ -273,8 +273,8 @@ custommachinery.gui.creation.gui.texture,Texture,テクスチャ
 custommachinery.gui.creation.gui.texture_hovered,Texture hovered,テクスチャをホバー中
 custommachinery.gui.creation.gui.toolbox,Toolbox,ツールボックス
 custommachinery.gui.creation.gui.width,width:,レシピ
-custommachinery.gui.creation.gui.x,x:,x:
-custommachinery.gui.creation.gui.y,y:,y:
+custommachinery.gui.creation.gui.x,x:,
+custommachinery.gui.creation.gui.y,y:,
 custommachinery.gui.creation.not_selected,Select a machine in the list above first,上記のリストから最初にマシンを選択してください
 custommachinery.gui.creation.open,Open,開く
 custommachinery.gui.creation.popup.close,Close,閉じる
@@ -297,7 +297,7 @@ custommachinery.gui.creation.save.toast,Machine saved to file,マシンがファ
 custommachinery.gui.creation.tab.appearance,Appearance,外観
 custommachinery.gui.creation.tab.base_info,Base Info,基本情報
 custommachinery.gui.creation.tab.components,Components,コンポーネント
-custommachinery.gui.creation.tab.gui,Gui,Gui
+custommachinery.gui.creation.tab.gui,Gui,
 custommachinery.gui.creation.tab.tooltips,Tooltips,ツールチップ
 custommachinery.gui.creation.template.choose,Select template,テンプレートを選択
 custommachinery.gui.creation.template.empty,Empty,空
@@ -346,9 +346,9 @@ custommachinery.gui.element.experience.name,Experience,経験値
 custommachinery.gui.element.experience.output_all,Extract all,すべて抽出
 custommachinery.gui.element.experience.output_one,Extract 1 Level,レベルを抽出
 custommachinery.gui.element.experience.output_ten,Extract 10 Level,10レベルを抽出
-custommachinery.gui.element.experience.tooltip,%s / %s,%s / %s
+custommachinery.gui.element.experience.tooltip,%s / %s,
 custommachinery.gui.element.fluid.empty,Empty : %smB / %smB,空き : %smB / %smB
-custommachinery.gui.element.fluid.tooltip,: %smB / %smB,: %smB / %smB
+custommachinery.gui.element.fluid.tooltip,: %smB / %smB,
 custommachinery.gui.element.fuel.tooltip,Burn Time: %s,燃焼時間: %s
 custommachinery.gui.element.reset.name,Reset,リセット
 custommachinery.gui.element.reset.tooltip,All already consumed inputs will be lost !,既に消費されたすべての入力は失われます！
@@ -563,10 +563,10 @@ requirement.custommachinery.speed,Recipe duration,レシピ期間
 requirement.custommachinery.structure,Structure,構造
 requirement.custommachinery.time,Time,時間
 requirement.custommachinery.weather,Weather,天候
-unit.energy.fabric,E,E
-unit.energy.forge,FE,FE
+unit.energy.fabric,E,
+unit.energy.forge,FE,
 custommachinery.craftingstatus.paused,Paused via redstone,レッドストーンで一時停止中
-custommachinery.gui.baseinfo.id,ID:,ID:
+custommachinery.gui.baseinfo.id,ID:,
 custommachinery.gui.baseinfo.name,Name:,名前:
 custommachinery.gui.baseinfo.namespace,NameSpace:,ネームスペース：
 custommachinery.gui.baseinfo.packname,Datapack:,データパック：
@@ -624,3 +624,6 @@ custommachinery.gui.machineloading.save,Save,保存
 custommachinery.jei.ingredient.fluid,Amount: %smB,量: %smB
 custommachinery.jei.ingredient.fuel.tooltip,Any fuel item,任意の燃料アイテム
 itemGroup.custommachinery,Custom Machinery,カスタム機械
+custommachinery.gui.creation.gui.copy.key,Ctrl+C,
+custommachinery.gui.creation.gui.paste.key,Ctrl+V,
+custommachinery.machine.loader.crafttweaker,CraftTweaker,

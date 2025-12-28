@@ -3,7 +3,6 @@ command.pingwheel.channel.get.description,get your current channel,現在のチ�
 command.pingwheel.channel.get.response.default,Currently using default channel,現在デフォルトチャンネルを使用しています
 command.pingwheel.channel.set.description,"set your channel, use """" for default channel",チャンネルを設定してください。デフォルトは「」です。
 command.pingwheel.channel.set.reject,Channel names are limited to a length of %s characters,チャネル名は最大 %s 文字に制限されています
-command.pingwheel.channel.set.response,"Set channel to ""%s""","Set channel to ""%s"""
 command.pingwheel.channel.set.response.default,Set channel to default,チャンネルをデフォルトに設定
 command.pingwheel.config.description,open configuration interface,構成インターフェースを開く
 command.pingwheel.default_channel.get.description,get the current default channel mode,現在のデフォルトチャンネルモードを取得する
@@ -42,7 +41,7 @@ settings.pingwheel.team_color_mode,Team Color,チームカラー
 settings.pingwheel.title,Ping Wheel Settings,ピングホイール設定
 subtitles.pingwheel.ping,Location Ping Alert,位置ピングアラート
 unit.pingwheel.meters,%sm,%s分
-unit.pingwheel.percent,%s%%,%s%%
+unit.pingwheel.percent,%s%%,
 unit.pingwheel.seconds,%ss,%s秒
 value.pingwheel.always,Always,常に
 value.pingwheel.auto,Auto,自動
@@ -53,9 +52,11 @@ value.pingwheel.full,Full,フル
 value.pingwheel.global,Global,グローバル
 value.pingwheel.hidden,Hidden,隠し
 value.pingwheel.hold,Hold,保持
-value.pingwheel.infinite,∞,∞
+value.pingwheel.infinite,∞,
 value.pingwheel.labels_only,Labels Only,ラベルのみ
 value.pingwheel.ping_only,Ping Only,Pingのみ
 value.pingwheel.team_only,Team Only,チームのみ
 value.pingwheel.vanilla_team,Vanilla Team,ベーシックチーム
 value.pingwheel.voice_chat,Voice Chat,ボイスチャット
+command.pingwheel.channel.get.response,"Current channel: ""%s""",
+command.pingwheel.channel.set.response,"Set channel to ""%s""",

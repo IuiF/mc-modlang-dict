@@ -11,18 +11,18 @@ advgenerators.control.mode.low,Disable on signal,信号で無効化
 advgenerators.exchanger.output.both,Both fluids,両方の液体
 advgenerators.exchanger.output.cold,Cold fluid,冷たい液体
 advgenerators.exchanger.output.hot,Hot fluid,高温液体
-advgenerators.flow.fluid,%s mB/t,%s mB/t
-advgenerators.flow.other,%s/t,%s/t
+advgenerators.flow.fluid,%s mB/t,
+advgenerators.flow.other,%s/t,
 advgenerators.gui.control.title,Control module configuration,コントロールモジュール設定
 advgenerators.gui.dump,Clear internal buffers,内部バッファをクリア
 advgenerators.gui.exchanger.title,Heat Exchanger Control,熱交換器制御
-advgenerators.gui.module.count,%s x %s,%s x %s
+advgenerators.gui.module.count,%s x %s,
 advgenerators.gui.output.title,Output Configuration,出力設定
 advgenerators.gui.sensor.title,Sensor module configuration,センサーモジュール設定
 advgenerators.gui.syngas.title,Syngas Producer Control,シンガス製造制御
 advgenerators.gui.turbine.steam.title,Steam Turbine Control,蒸気タービン制御
 advgenerators.gui.turbine.title,Gas Turbine Control,ガスタービン制御
-advgenerators.label.energy.output,%s %s/t,%s %s/t
+advgenerators.label.energy.output,%s %s/t,
 advgenerators.label.exchanger.heat,Current Heat,現在の熱
 advgenerators.label.exchanger.heatloss,Heat Loss,熱損失
 advgenerators.label.exchanger.inrate,%s consumed,%sが消費されました
@@ -64,8 +64,8 @@ advgenerators.module.Turbine.name,Turbine,タービン
 advgenerators.output.0,Red Output,赤色出力
 advgenerators.output.1,Green Output,緑色出力
 advgenerators.output.2,Blue Output,青色出力
-advgenerators.output.3,Yellow Output,黄色の出力
-advgenerators.output.4,Cyan Output,シアン出力
+advgenerators.output.3,Yellow Output,黄の出力
+advgenerators.output.4,Cyan Output,青緑出力
 advgenerators.output.5,Purple Output,紫色出力
 advgenerators.recipe.exchanger.cooling,Heat Exchanger - Cooling,熱交換器 - 冷却
 advgenerators.recipe.exchanger.heating,Heat Exchanger - Heating,熱交換器 - 加熱
@@ -89,7 +89,7 @@ advgenerators.sensor.param.fill.gt5,Over 5% full,5%以上充填
 advgenerators.sensor.param.fill.gt50,Over 50% full,50%以上充填
 advgenerators.sensor.param.fill.gt75,Over 75% full,75%以上充填
 advgenerators.sensor.param.fill.gt95,Over 95% full,95%以上充填
-advgenerators.sensor.param.fill.not.empty,Not empty,空ではない
+advgenerators.sensor.param.fill.not.empty,Not empty,空でない
 advgenerators.sensor.param.fill.not.full,Not full,未満
 advgenerators.sensor.param.heat.exchanger.cold,No heat,熱なし
 advgenerators.sensor.param.heat.exchanger.high,Maximum Heat (%s HU),最大熱量 (%s HU)
@@ -130,10 +130,10 @@ advgenerators.waila.turbine.nofuel,No fuel,燃料なし
 advgenerators.waila.turbine.nosteam,No steam,蒸気なし
 advgenerators.waila.turbine.producing,Producing %s %s/t,%s %s/t を生産
 bdlib.unit.carbon,Carbon,炭素
-bdlib.unit.carbon_short,C,C
-bdlib.unit.eu,EU,EU
-bdlib.unit.hu,HU,HU
-bdlib.unit.rpm,RPM,RPM
+bdlib.unit.carbon_short,C,
+bdlib.unit.eu,EU,
+bdlib.unit.hu,HU,
+bdlib.unit.rpm,RPM,
 block.advgenerators.control,Redstone Control Module,レッドストーン制御モジュール
 block.advgenerators.efficiency_upgrade_tier1,Fuel/Air Mixer,燃料/空気ミキサー
 block.advgenerators.efficiency_upgrade_tier2,Gas Mix Compressor,ガス混合圧縮機
@@ -144,7 +144,7 @@ block.advgenerators.eu_output_lv,Low Voltage Emitter,低電圧放射器
 block.advgenerators.eu_output_mv,Medium Voltage Emitter,中電圧放射器
 block.advgenerators.exchanger_controller,Heat Exchanger Controller,熱交換器コントローラ
 block.advgenerators.fe_output,Flux Generator,フラックス発電機
-block.advgenerators.fluid_input,Fluid Intake Valve,流体吸入弁
+block.advgenerators.fluid_input,Fluid Intake Valve,液体吸入弁
 block.advgenerators.fluid_output_select,Fluid Output Valve,液体排出弁
 block.advgenerators.fuel_tank,Fuel Tank,燃料タンク
 block.advgenerators.fuel_turbine_controller,Gas Turbine controller,ガスタービンコントローラ
@@ -155,8 +155,8 @@ block.advgenerators.heating_chamber,Heating Chamber,加熱室
 block.advgenerators.item_input,Item Input Port,アイテム入力ポート
 block.advgenerators.item_output,Item Output Port,アイテム出力ポート
 block.advgenerators.mixing_chamber,Mixing Chamber,混合室
-block.advgenerators.power_capacitor_tier1,Basic Power Capacitor,基本電力コンデンサ
-block.advgenerators.power_capacitor_tier2,Advanced Power Capacitor,先進型パワーコンデンサ
+block.advgenerators.power_capacitor_tier1,Basic Power Capacitor,基本的な電力キャパシタ
+block.advgenerators.power_capacitor_tier2,Advanced Power Capacitor,上級電力キャパシタ
 block.advgenerators.power_capacitor_tier3,High Density Power Capacitor,高密度エネルギーコンデンサー
 block.advgenerators.pressure_input,Pressurized Input Valve,圧力入力バルブ
 block.advgenerators.pressure_output_select,Pressurized Output Valve,圧力出力バルブ
@@ -196,8 +196,8 @@ item.advgenerators.turbine_rotor_tier4,Reinforced Turbine Rotor,強化タービ�
 item.advgenerators.turbine_rotor_tier5,Composite Turbine Rotor,複合タービンローター
 item.advgenerators.upgrade_kit,Upgrade Kit,アップグレードキット
 itemGroup.bdew.generators,Advanced Generators,高度な発電機
-resource.fluid.format,%s / %s mB,%s / %s mB
-resource.item.format,%s / %s,%s / %s
+resource.fluid.format,%s / %s mB,
+resource.item.format,%s / %s,
 tile.advgenerators.fluid_input.name,Fluid Intake Valve,液体吸入弁
 tile.advgenerators.fuel_tank.name,Fuel Tank,燃料タンク
 tile.advgenerators.turbine_controller.name,Gas Turbine controller,ガスタービンコントローラ
@@ -241,7 +241,7 @@ item.advgenerators.turbine_rotor_iron.name,Iron Turbine Rotor,鉄製タービン
 tile.advgenerators.turbine_iron.name,Iron Turbine,鉄製のタービン
 item.advgenerators.turbine_rotor_gold.name,Gold Plated Turbine Rotor,金メッキタービンローター
 item.advgenerators.turbine_kit_gold.name,Gold Plated Turbine Upgrade Kit,金メッキタービンアップグレードキット
-tile.advgenerators.turbine_gold.name,Gold Plated Turbine,錫メッキタービン
+tile.advgenerators.turbine_gold.name,Gold Plated Turbine,スズメッキタービン
 item.advgenerators.turbine_blade_steel.name,Steel Turbine Blade,鋼鉄トービンブレード
 item.advgenerators.turbine_rotor_steel.name,Steel Turbine Rotor,鋼鉄トービンローター
 item.advgenerators.turbine_kit_steel.name,Steel Turbine Upgrade Kit,鋼鉄タービンアップグレードキット
@@ -271,10 +271,10 @@ tile.advgenerators.power_capacitor_advanced.name,Advanced Power Capacitor,上級
 tile.advgenerators.power_capacitor_dense.name,High Density Power Capacitor,高密度エネルギーコンデンサー
 item.advgenerators.capacitor_kit_advanced.name,Advanced Capacitor Upgrade Kit,高度なキャパシタアップグレードキット
 item.advgenerators.capacitor_kit_dense.name,High Density Capacitor Upgrade Kit,高密度キャパシタアップグレードキット
-//,=====,=====
+//,=====,
 fluid.steam,Steam,蒸気
 fluid.syngas,Syngas,合成ガス
-advgenerators.sensor.param.turbine.speed.medium,>= %s RPM,>= %s RPM
+advgenerators.sensor.param.turbine.speed.medium,>= %s RPM,
 advgenerators.sensor.param.turbine.generation.low,Generating (> %s %s/t),発電中 (> %s %s/t)
 advgenerators.sensor.param.turbine.generation.medium,Above half power (> %s %s/t),半分以上のパワー (> %s %s/t)
 advgenerators.sensor.param.turbine.generation.high,At maximum power (%s %s/t),最大出力 (%s %s/t)

@@ -21,7 +21,7 @@ gui.modernui.menu.back,Back to Game,ゲームに戻る
 gui.modernui.menu.exit,Exit to Main Menu,メインメニューへ戻る
 gui.modernui.menu.mods,Forge Mods,フォージモジュール
 gui.modernui.menu.settings,Settings,設定
-gui.modernui.ok,OK,OK
+gui.modernui.ok,OK,
 gui.modernui.popup.exit,Are you sure you want to exit to main menu?,本当にメインメニューへ戻りますか？
 gui.modernui.popup.lockDifficulty,Are you sure you want to lock world difficulty?,本当に世界難易度をロックしますか？
 gui.modernui.preset_s,Preset %s,プリセット %s
@@ -46,7 +46,7 @@ gui.modernui.settings.tab.controls,Controls,操作
 gui.modernui.settings.tab.general,General,一般
 gui.modernui.settings.tab.resourcePacks,Resource Packs,リソースパック
 gui.modernui.settings.tab.video,Video,動画
-gui.modernui.text.oneOfAll,%1$d of %2$d,%1$d of %2$d
+gui.modernui.text.oneOfAll,%1$d of %2$d,
 gui.modernui.tooltip.thanksOptifine,This functionality is powered by OptiFine,この機能はOptiFineによって動作している
 key.modernui.openCenter,Open Action Center,アクションセンターを開く
 key.modernui.zoom,Zoom,ズーム
@@ -82,7 +82,7 @@ modernui.center.screen.blurEffect,Modern Blur Effect,モダンブラー効果
 modernui.center.screen.blurEffect_desc,Apply Gaussian blur to screen backdrop.,画面背景にガウスぼかしを適用
 modernui.center.screen.blurRadius,Blur Radius,ぼかし半径
 modernui.center.screen.blurWithBackground,Blur with Screen Background,画面背景とぼかしを適用
-modernui.center.screen.blurWithBackground_desc,"When enabled, Gaussian blur is applied only when the screen has a default background, similar to Minecraft 1.20.6, with better optimization and compatibility.",有効にすると、ガウシアンぼかしはスクリーンにデフォルト背景がある場合にのみ適用され、Minecraft 1.20.6と同様に、より良い最適化と互換性が得られます。
+modernui.center.screen.blurWithBackground_desc,"When enabled, Gaussian blur is applied only when the screen has a default background, similar to Minecraft 1.20.6, with better optimization and compatibility.",有効にすると、ガウ青緑ぼかしはスクリーンにデフォルト背景がある場合にのみ適用され、Minecraft 1.20.6と同様に、より良い最適化と互換性が得られます。
 modernui.center.screen.framerateInactive,Framerate Limit (Window Inactive),フレームレート制限（ウィンドウ無効時）
 modernui.center.screen.framerateMinimized,Framerate Limit (Window Minimized),フレームレート制限 (ウィンドウ最小化時)
 modernui.center.screen.inventoryPause,Inventory Pause,インベントリ一時停止
@@ -91,7 +91,7 @@ modernui.center.screen.masterVolumeInactive,Master Volume Multiplier (Window Ina
 modernui.center.screen.masterVolumeMinimized,Master Volume Multiplier (Window Minimized),マスターボリューム乗数（ウィンドウ最小化時）
 modernui.center.screen.overrideVanillaBlur,Override Vanilla Blur Effect,バイナリーブルーフェクトを上書きします。
 modernui.center.screen.overrideVanillaBlur_desc,"When enabled, Vanilla 3-pass box blur will be replaced with Modern UI Gaussian blur, which will give you better blur quality and rendering performance.
-Modern UI has lower CPU and GPU usage to achieve similar blur strength as Vanilla at the same frame rate, it's recommended that you enable this option.","有効にすると、バニラの3パスボックスぼかしがModern UIのガウシアンぼかしに置き換わり、より良いぼかし品質とレンダリング性能が得られます。
+Modern UI has lower CPU and GPU usage to achieve similar blur strength as Vanilla at the same frame rate, it's recommended that you enable this option.","有効にすると、バニラの3パスボックスぼかしがModern UIのガウ青緑ぼかしに置き換わり、より良いぼかし品質とレンダリング性能が得られます。
 Modern UIはバニラと同じフレームレートで同じぼかし強度を達成するのに、より低いCPU使用率とGPU使用率を持ちます。このオプションを有効にすることをお勧めします。"
 modernui.center.screen.windowMode,Window Mode,ウィンドウモード
 modernui.center.system.developerMode,Developer Mode,開発者モード
@@ -203,3 +203,26 @@ modernui.windowMode.windowed_borderless,Windowed Borderless,ウィンドウ付�
 options.chat.visibility,Visibility,可視性
 warning.modernui.old_java,"Modern UI: Java {2} or above is recommended, your version is Java {3}. Upgrade to newer Java and choose it to launch game, otherwise you cannot use external fonts or will not always get correct text layouts.",Modern UI: Java {2}以上が推奨されます。現在のバージョンはJava {3}です。新しいJavaにアップグレードして起動時に選択してください。そうしないと、外部フォントが使用できるか、常に正しいテキストレイアウトが得られません。
 warning.modernui.old_opengl,Modern UI: OpenGL version is too old. OpenGL {2} or higher is required (your version is OpenGL {3}). Please upgrade the driver of your video card. The newer version of macOS may be not supported.,Modern UI: OpenGLバージョンが古すぎます。OpenGL {2}以上が必要です（現在のバージョンはOpenGL {3}です）。ビデオカードのドライバーをアップグレードしてください。macOSの新しいバージョンはサポートされていない場合があります。
+gui.modernui.settings.tab.language,Language,
+modernui.center.font.colorEmoji,Color Emoji,
+modernui.center.font.colorEmoji_desc,"When enabled, Google Noto Color Emoji will be included in font itemization. Otherwise, Emoji will render in black and white.",
+modernui.center.font.fallbackFonts_desc,"A set of fallback font families for the default typeface list.
+Outline fonts (TrueType/OpenType) are supported, each line can be one of the following two cases:
+1) Font family name in English for registered fonts, for instance: Segoe UI
+2) Absolute path for font files on your PC, for instance: D:/Fonts/Andy Bold.ttf
+Note that for TTC/OTC font, it's recommended to register it and select one of font families. Otherwise, only the first font family in the TrueType/OpenType Collection will be used.",
+modernui.center.font.fontRegistrationList_desc,"By default, font files in the resource packs directory will be registered. This option specifies a set of additional font files (or directories) to register. Registered fonts can be referenced in Modern UI and Minecraft (Modern Text Engine). For TrueType/OpenType Collections, all contained font families will be registered.",
+modernui.center.text.defaultFontBehavior_desc,"This option determines how to use Vanilla default font.
+Ignore All: use Modern UI font (Force Unicode Font).
+Keep ASCII: keep ASCII fonts.
+Keep Other: keep fonts other than ASCII fonts.
+Keep All: keep all fonts except the Unicode font.
+Only Include: only include specified fonts.
+Only Exclude: only exclude specified fonts.",
+modernui.center.text.textEngine_desc,"Modern Text Engine provides high-quality text rendering, resolution-independent outline fonts, color emojis, and proper Unicode text and layout support for Minecraft.
+This is an extension to Minecraft, Modern UI itself is not affected by this option.",
+modernui.center.text.textShadersInWorld_desc,"When enabled, this option allows Modern UI to use distance field text in 3D world. It can also handle the order of transparency and improve rendering performance. This option is automatically disabled when OptiFine Shaders or Iris Shaders are enabled.
+This option only applies to outline fonts.",
+modernui.defaultFontBehavior.ignore_all,Ignore All,
+modernui.defaultFontBehavior.only_exclude,Only Exclude,
+modernui.defaultFontBehavior.only_include,Only Include,

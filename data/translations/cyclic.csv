@@ -152,8 +152,8 @@ block.cyclic.eye_teleport.guide,"Whenever a player is looking at this while crou
 block.cyclic.eye_teleport.tooltip,Look and crouch to teleport onto it,見てしゃがみながらその上にテレポート
 block.cyclic.fan,Fan,ファン
 block.cyclic.fan.tooltip,Pushes entities,エンティティを押す
-block.cyclic.fan_slab,Fan Slab,ファンスラブ
-block.cyclic.fan_slab.guide,"The Fan Slab is a simple block machine designed to push players, mobs, items and other entities.",ファンスラブは、プレイヤー、モブ、アイテムおよびその他のエンティティを押すように設計されたシンプルなブロックマシンです。
+block.cyclic.fan_slab,Fan Slab,ファンハーフブロック
+block.cyclic.fan_slab.guide,"The Fan Slab is a simple block machine designed to push players, mobs, items and other entities.",ファンハーフブロックは、プレイヤー、モブ、アイテムおよびその他のエンティティを押すように設計されたシンプルなブロックマシンです。
 block.cyclic.fan_slab.tooltip,Pushes entities away,エンティティを押し出す
 block.cyclic.fire_dark,Dark Fire,暗い炎
 block.cyclic.fire_dark.tooltip,Does not harm players or destroy blocks,プレイヤーにダメージを与えずブロックも破壊しません
@@ -399,8 +399,8 @@ block.cyclic.user,Item User,アイテムユーザー
 block.cyclic.user.delay,Tick Delay,ティック遅延
 block.cyclic.user.guide,The Item User is a powerful machine that uses the item given to it to right click the block in front of it with a configurable delay.,アイテムユーザーは、与えられたアイテムを使用して、設定可能な遅延で前のブロックを右クリックする強力な機械です。
 block.cyclic.user.tooltip,Autonomous right-click activation using any item,任意のアイテムで自動的に右クリックアクティベーションします
-block.cyclic.water_candle,Water Candle,水のロウソク
-block.cyclic.water_candle.guide0,"When lit, has a random chance to extinguish itself while spawning a mob. When this happens, you must relight the candle for it to continue spawning.",点灯時、モブをスポーンさせる時に消火する可能性があります。これが起きた時、ロウソクを再度点灯させてスポーン継続にする必要があります。
+block.cyclic.water_candle,Water Candle,水のろうそく
+block.cyclic.water_candle.guide0,"When lit, has a random chance to extinguish itself while spawning a mob. When this happens, you must relight the candle for it to continue spawning.",点灯時、モブをスポーンさせる時に消火する可能性があります。これが起きた時、ろうそくを再度点灯させてスポーン継続にする必要があります。
 block.cyclic.wireless_energy,Energy Transfer Node,エネルギー転送ノード
 block.cyclic.wireless_energy.guide,Wireless transmission of energy,エネルギーの無線伝送
 block.cyclic.wireless_energy.tooltip,Wireless transmission of energy,エネルギーの無線伝送
@@ -445,7 +445,7 @@ block.sound_player.tooltip,Can play almost any sound,ほぼすべてのサウン
 block.target,Bullseye Target,ターゲット・ボウル
 block.target.guide,"Emits redstone based on where the arrow lands.  Only works on the side, not top or bottom.",矢が着地する場所に基づいてレッドストーンを発出。側面でのみ機能し、上または下では機能しません。
 block.target.tooltip,Emits redstone based on where the arrow lands,矢が着地した場所に応じてレッドストーンを発生させます
-block.water_candle,Water Candle,水のロウソク
+block.water_candle,Water Candle,水のろうそく
 block.water_candle.guide,Light with flint and steel.  Greatly increases natural mobs spawns nearby.  Follows normal spawning rules of mobs and biome.  Has a chance of being extinguished on every spawn.  Many propertes in config file.,火打ち石と鋼を使って点灯させます。周辺の自然モブのスポーン率を大幅に増加させます。モブとバイオームの通常のスポーンルールに従います。スポーン毎に消火される可能性があります。多くのプロパティはコンフィグファイルで設定できます。
 block.water_candle.tooltip,Increase nearby spawns when lit,点灯すると周囲の産生を増加
 builder.toggle,Toggle,切り替え
@@ -536,20 +536,20 @@ chest_sack.error.place,Error detected when attempting to place - action cancelle
 chunk.unloaded,Action failed; chunk not loaded,アクション失敗; チャンクが読み込まれていません
 colour.black,Black,黒
 colour.blue,Blue,青
-colour.brown,Brown,茶色
-colour.cyan,Cyan,シアン
-colour.gray,Gray,グレー
+colour.brown,Brown,茶
+colour.cyan,Cyan,青緑
+colour.gray,Gray,灰色
 colour.green,Green,緑
 colour.lightBlue,Light Blue,空色
-colour.lime,Lime,ライム
-colour.magenta,Magenta,マゼンタ
-colour.orange,Orange,オレンジ
-colour.pink,Pink,ピンク
+colour.lime,Lime,黄緑
+colour.magenta,Magenta,赤紫
+colour.orange,Orange,橙
+colour.pink,Pink,桃色
 colour.purple,Purple,紫
 colour.red,Red,赤
 colour.silver,Light Gray,薄灰色
 colour.white,White,白
-colour.yellow,Yellow,黄色
+colour.yellow,Yellow,黄
 command.cyclic.arguments.null,Second argument must be a valid cyclic command: ,2番目の引数は有効な循環コマンドである必要があります： 
 command.cyclic.gethome.bed,Your home bed was missing or obstructed,あなたのホームベッドが見つからないか、ブロックされています
 command.cyclic.gethome.overworld,No home outside the overworld,オーバーワールド以外ではホームを使用できません
@@ -626,14 +626,14 @@ cyclic.screen.green,Green,緑
 cyclic.screen.offset,Block Offset,ブロックオフセット
 cyclic.screen.padding,Padding,パディング
 cyclic.screen.red,Red,赤
-cyclic.screen.size0,1x1,1x1
-cyclic.screen.size1,3x3,3x3
+cyclic.screen.size0,1x1,
+cyclic.screen.size1,3x3,
 cyclic.screen.size10,21x21,21×21
 cyclic.screen.size11,23x23,23×23
 cyclic.screen.size12,25x25,25×25
-cyclic.screen.size2,5x5,5x5
-cyclic.screen.size3,7x7,7x7
-cyclic.screen.size4,9x9,9x9
+cyclic.screen.size2,5x5,
+cyclic.screen.size3,7x7,
+cyclic.screen.size4,9x9,
 cyclic.screen.size5,11x11,11×11
 cyclic.screen.size6,13x13,13×13
 cyclic.screen.size7,15x15,15×15
@@ -641,7 +641,7 @@ cyclic.screen.size8,17x17,17×17
 cyclic.screen.size9,19x19,19×19
 cyclic.screen.style,Style,スタイル
 cyclic.screen.style0,Normal,通常
-cyclic.screen.style1,%,%
+cyclic.screen.style1,%,
 cyclic.screen.style2,Max,最大
 cyclic.screen.thick,Thickness,厚さ
 cyclic.screen.x,Horizontal Padding,水平パディング
@@ -1120,7 +1120,7 @@ item.cyclic.prospector,Ore Prospector,鉱石探検家
 item.cyclic.prospector.guide,Searches out for ores behind the block you click on.  Uses the forge:ores block tag,クリックしたブロックの後ろにある鉱石を探します。forge:oresブロックタグを使用します
 item.cyclic.prospector.tooltip,Detects ores nearby,近くの鉱石を検出
 item.cyclic.push,Piston Scepter,ピストンの scepter
-item.cyclic.push.guide,"This tool has three modes: Push, Pull, Rotate.  Change mode using attack (Left-Click).  Push and pull work similar to a piston, moving the block as long as there is an air block where it is moving; and it also moves tile entities with their data (full chests/furnaces/etc).  Rotate mode will try to spin the block around on its axis, such as log positioning, or halfslabs and stairs moving to alternate orientations.",このツールには3つのモードがあります：プッシュ、プル、ロテート。攻撃（左クリック）を使用してモードを変更します。プッシュとプルはピストンと同じように機能し、移動先に空ブロックがある限りブロックを移動させます。タイルエンティティもそのデータと共に移動させます（満杯のチェスト/かまど/など）。ロテートモードはブロックを軸上で回転させようとします。ログの配置方向や、ハーフスラブと階段が別の方向に移動するなどの場合です。
+item.cyclic.push.guide,"This tool has three modes: Push, Pull, Rotate.  Change mode using attack (Left-Click).  Push and pull work similar to a piston, moving the block as long as there is an air block where it is moving; and it also moves tile entities with their data (full chests/furnaces/etc).  Rotate mode will try to spin the block around on its axis, such as log positioning, or halfslabs and stairs moving to alternate orientations.",このツールには3つのモードがあります：プッシュ、プル、ロテート。攻撃（左クリック）を使用してモードを変更します。プッシュとプルはピストンと同じように機能し、移動先に空ブロックがある限りブロックを移動させます。タイルエンティティもそのデータと共に移動させます（満杯のチェスト/かまど/など）。ロテートモードはブロックを軸上で回転させようとします。ログの配置方向や、ハーフハーフブロックと階段が別の方向に移動するなどの場合です。
 item.cyclic.quiver_damage,Crusader's Quiver,十字軍のクイバー
 item.cyclic.quiver_damage.guide,Arrow damage increased while this is worn in inventory or curios.  Can be disabled with right click just like other baubles,インベントリまたは好奇心で装備中に矢のダメージが増加します。他のボール同様、右クリックで無効化できます
 item.cyclic.quiver_damage.tooltip,Arrow damage increased by 50%,矢のダメージが50%増加
@@ -1137,11 +1137,11 @@ item.cyclic.redstone_carrot_speed,Redstone Carrot,レッドストーンのニン
 item.cyclic.redstone_carrot_speed.tooltip,Increase horse speed,馬の速度を上昇させます
 item.cyclic.replace_scepter,Building Scepter (exchange),ビルディング・セプター(交換)
 item.cyclic.rotate,Wooden Wrench,木製のレンチ
-item.cyclic.rotate.guide,"Attempts to rotate the targeted block while respecting the same material type.  So it will turn a log to a different angle, but will not turn oak planks into spruce planks.  This can be used to get vanilla only blocks that are otherwise un-obainable blocks, like smooth stone double slabs with the flat side, extra smooth sandstone, and a log with bark on all six sides.",対象ブロックを回転させようとしますが、同じ材質を尊重します。ログを別の角度に回転させますが、オークの板をトウヒの板に変えることはありません。これを使用して、スムーズストーン二重スラブのフラット側、追加のスムーズサンドストーン、6面すべてに樹皮がついたログなど、通常は入手できないバニラオンリーブロックを取得できます。
+item.cyclic.rotate.guide,"Attempts to rotate the targeted block while respecting the same material type.  So it will turn a log to a different angle, but will not turn oak planks into spruce planks.  This can be used to get vanilla only blocks that are otherwise un-obainable blocks, like smooth stone double slabs with the flat side, extra smooth sandstone, and a log with bark on all six sides.",対象ブロックを回転させようとしますが、同じ材質を尊重します。ログを別の角度に回転させますが、オークの板をトウヒの板に変えることはありません。これを使用して、スムーズストーン二重ハーフブロックのフラット側、追加のスムーズサンドストーン、6面すべてに樹皮がついたログなど、通常は入手できないバニラオンリーブロックを取得できます。
 item.cyclic.rotate.tooltip,Rotates simple blocks/machines if they are able,対応していれば、シンプルなブロック/機械を回転させます
 item.cyclic.sandstone_axe,Sandstone Axe,砂岩の斧
 item.cyclic.sandstone_gear.guide,The sandstone tools are slightly below stone quality but better than wood.,砂岩ツールは石の品質よりわずかに低いですが、木製より優れています。
-item.cyclic.sandstone_gear.title,Sandstone Gear,砂岩のギア
+item.cyclic.sandstone_gear.title,Sandstone Gear,砂岩の歯車
 item.cyclic.sandstone_hoe,Sandstone Hoe,砂岩のクワ
 item.cyclic.sandstone_pickaxe,Sandstone Pickaxe,砂岩のツルハシ
 item.cyclic.sandstone_shovel,Sandstone Shovel,砂岩のシャベル
@@ -1227,7 +1227,7 @@ item.cyclic.storage_bag.deposit.dump.button,Du,ダ
 item.cyclic.storage_bag.deposit.merge,Merge,マージ
 item.cyclic.storage_bag.deposit.merge.button,Me,マ
 item.cyclic.storage_bag.disabled,Disabled,無効
-item.cyclic.storage_bag.disabled.button,--,--
+item.cyclic.storage_bag.disabled.button,--,
 item.cyclic.storage_bag.guide0,"To change the color of your bag, first open it, pickup some Dye with your mouse, and place it on top of the bag.  This will not consume the dye or move the bag, but it will set the bag item color.",バッグの色を変更するには、まずそれを開き、マウスで染料を拾い上げ、バッグの上に配置します。これによって染料が消費されたり、バッグが動いたりすることはありませんが、バッグアイテムの色が設定されます。
 item.cyclic.storage_bag.pickup.everything,Everything,すべて
 item.cyclic.storage_bag.pickup.everything.button,Ev,す
@@ -1267,7 +1267,7 @@ item.cyclic.trade,Merchant Almanac,商人の年鑑
 item.cyclic.trade.guide,"Use near a villager for an advanced trading menu.  Has convenience buttons that perform one trade with each click.  Fully respects all villager trading rules, mechanics, locks, and unlocks.",村人の近くで使用して高度な取引メニューを開きます。ワンクリックで1回の取引を実行する便利なボタンがあります。すべての村人の取引ルール、メカニクス、ロック、アンロックを完全に尊重します。
 item.cyclic.trade.tooltip,Opens an improved trading interface with the closest villager,最も近い村人との改良された取引インターフェースを開きます。
 item.cyclic.wrench,Block Rotatator,ブロック回転器
-item.cyclic.wrench.guide,"Its not really a wrench, see the data tags.  This sipmle tool can be used to rotate simple blocks such as stairs, slabs, and similar compatible blocks that face certain directions.  Try hitting blocks from different angles",本当のレンチではありません、データタグを参照してください。  このシンプルなツールは、階段、スラブ、および特定の方向に向いた同様の互換性のあるブロックを回転させるために使用できます。  異なる角度からブロックをヒットしてみてください
+item.cyclic.wrench.guide,"Its not really a wrench, see the data tags.  This sipmle tool can be used to rotate simple blocks such as stairs, slabs, and similar compatible blocks that face certain directions.  Try hitting blocks from different angles",本当のレンチではありません、データタグを参照してください。  このシンプルなツールは、階段、ハーフブロック、および特定の方向に向いた同様の互換性のあるブロックを回転させるために使用できます。  異なる角度からブロックをヒットしてみてください
 item.cyclic.wrench.tooltip,Rotates simple blocks,単純なブロックを回転させる
 item.cyclic.xpjuice_bucket,Experience Bucket,経験値バケツ
 item.cyclic_wand.shifting,Use the mouse wheel while sneaking to rotate,スニーク中にマウスホイールで回転
@@ -1379,16 +1379,16 @@ potion.effect.swim,Potion of Swim Speed,水中速度上昇のポーション
 potion.effect.swim2,Potion of Swim Speed II,スイムスピードIIのスプラッシュポーション
 potion.effect.waterwalk,Potion of Waterwalking,水上歩行のポーション
 potion.effect.wither,Potion of Wither,ウィザーのポーション
-potion.potency.0,I,I
-potion.potency.1,II,II
-potion.potency.2,III,III
-potion.potency.3,IV,IV
-potion.potency.4,V,V
-potion.potency.5,VI,VI
-potion.potency.6,VII,VII
-potion.potency.7,VIII,VIII
-potion.potency.8,IX,IX
-potion.potency.9,X,X
+potion.potency.0,I,
+potion.potency.1,II,
+potion.potency.2,III,
+potion.potency.3,IV,
+potion.potency.4,V,
+potion.potency.5,VI,
+potion.potency.6,VII,
+potion.potency.7,VIII,
+potion.potency.8,IX,
+potion.potency.9,X,
 scepter.cyclic.empty,Out of materials,材料が足りません
 scepter.cyclic.nothing,Sneak-left-click to pick block,スニーク左クリックでブロックを選択
 screen.justification,Text Alignment,テキスト配置
@@ -1434,12 +1434,12 @@ tool.action.push,Push,押す
 tool.action.reverse,Direction: Reverse,方向：逆進
 tool.action.rotate,Rotate,回転
 tool.action.single,Single,単一
-tool.action.x19,1x9,1x9
-tool.action.x3,3x3,3x3
-tool.action.x5,5x5,5x5
-tool.action.x7,7x7,7x7
-tool.action.x9,9x9,9x9
-tool.action.x91,9x1,9x1
+tool.action.x19,1x9,
+tool.action.x3,3x3,
+tool.action.x5,5x5,
+tool.action.x7,7x7,
+tool.action.x9,9x9,
+tool.action.x91,9x1,
 tool.cable_wrench.disable,Disable mode,無効化モード
 tool.cable_wrench.extract,Extract mode,抽出モード
 tool.spelunker.cave,Hollow at distance ,遠くの空洞
@@ -1516,10 +1516,10 @@ block.cyclic.flower_absalon_tulip,Absalon Tulip,アブサロンチューリッ�
 block.cyclic.flower_absalon_tulip.guide,"May spawn in the following biome Categories: river, plains, taiga, underground, mesa, jungle",以下のバイオームカテゴリに出現する可能性があります：河川、平原、タイガ、地下、メサ、ジャングル
 block.cyclic.flower_absalon_tulip.tooltip,A forgotten legacy,忘れられた遺産
 block.cyclic.flower_cyan.guide,"A lost legacy from a lost version of Minecraft.  Spawns alone in biome categories: forest, plains, taiga, extreme hills).  ",失われたMinecraftのバージョンからの失われた遺産。  バイオムカテゴリー内で単独で生成: 森、平原、タイガ、極端な丘)。
-block.cyclic.flower_lime_carnation,Lime Carnation,ライムカーネーション
+block.cyclic.flower_lime_carnation,Lime Carnation,黄緑カーネーション
 block.cyclic.flower_lime_carnation.guide,"May spawn in the following biome Categories: river, beach, ocean, icy, extreme hills, jungle",以下のバイオームカテゴリに出現する可能性があります：河川、ビーチ、海洋、氷、エクストリーム・ヒル、ジャングル
 block.cyclic.flower_lime_carnation.tooltip,A hidden legacy,隠された遺産
-block.cyclic.flower_purple_tulip,Purple Tulip,紫色のチューリップ
+block.cyclic.flower_purple_tulip,Purple Tulip,紫のチューリップ
 block.cyclic.flower_purple_tulip.guide,"May spawn in the following biome Categories: river, savanna, underground, mesa, forest, mushroom",以下のバイオームカテゴリに出現する可能性があります：河川、サバンナ、地下、メサ、森林、キノコ
 block.cyclic.flower_purple_tulip.tooltip,A rare legacy,稀な遺産
 block.cyclic.generator_solar,Solar Panel Generator,ソーラーパネルジェネレーター
@@ -1584,7 +1584,7 @@ block.cyclic.user.entities.true,Entity interactions only,エンティティ相�
 block.cyclic.user.hand,Checked means Attack interaction (left click),チェックされている場合は攻撃相互作用(左クリック)
 block.cyclic.user.type.false,Use item interaction (right click),アイテム使用相互作用(右クリック)
 block.cyclic.user.type.true,Hit attack target (left click),攻撃ターゲット(左クリック)
-block.cyclic.water_candle.guide,"The Water Candle can be lit by a player to increase the rate at which mobs naturally spawn nearby.For the candle to work, mobs must be able to spawn naturally in its vicinity.In most cases, this means it must be dark enough to spawn mobs!",水のロウソクはプレイヤーが点灯させて、近くでモブが自然にスポーンする速度を上げるために使用されます。ロウソクが機能するには、モブがその近くで自然にスポーンできる必要があります。ほとんどの場合、これはモブをスポーンさせるのに十分な暗さである必要があります！
+block.cyclic.water_candle.guide,"The Water Candle can be lit by a player to increase the rate at which mobs naturally spawn nearby.For the candle to work, mobs must be able to spawn naturally in its vicinity.In most cases, this means it must be dark enough to spawn mobs!",水のろうそくはプレイヤーが点灯させて、近くでモブが自然にスポーンする速度を上げるために使用されます。ろうそくが機能するには、モブがその近くで自然にスポーンできる必要があります。ほとんどの場合、これはモブをスポーンさせるのに十分な暗さである必要があります！
 block.cyclic.water_candle.tooltip,Increases mob spawns while lit,点灯時のモブスポーンを増加
 block.cyclic.waxed_redstone,Waxed Redstone,ワックスレッドストーン
 block.cyclic.waxed_redstone.guide,Uses max 15 redstone power similar to a Redstone block. Facing state based on where you face when item is used. Only one face of the block is powered,レッドストーンブロックのような最大15レッドストーン信号を使用。アイテム使用時に向く方向に基づくファイシング状態。ブロックのフェースは1面だけがパワー
@@ -1714,7 +1714,7 @@ item.cyclic.peat_fuel.guide,Peat Fuel is smelted from Saturated Peat Deposits an
 item.cyclic.peat_fuel_enriched.guide,Created by combining Peat with Fluid Biomass in a Solidification Chamber and used to provide even more power in a Generator.,固化室で泥炭と液体バイオマスを組み合わせて作成され、ジェネレーターでさらに多くの電力を提供するために使用されます。
 item.cyclic.peat_fuel_enriched.tooltip,Create energy in a Generator,ジェネレーターでエネルギーを生成
 item.cyclic.redstone_carrot_speed.guide,Use the Redstone Carrot on a horse to increase its top sped.Multiple can be used to increase the top speed even more.,馬に使用して最高速度を上げます。複数使用することでさらに速度を上げられます。
-item.cyclic.rotation_wand.guide,"Its not really a wrench, see the data tags.  This sipmle tool can be used to rotate simple blocks such as stairs, slabs, and similar compatible blocks that face certain directions.  Try hitting blocks from different angles",本当のレンチではありません、データタグを参照してください。  このシンプルなツールは、階段、スラブ、および特定の方向に向いた同様の互換性のあるブロックを回転させるために使用できます。  異なる角度からブロックをヒットしてみてください
+item.cyclic.rotation_wand.guide,"Its not really a wrench, see the data tags.  This sipmle tool can be used to rotate simple blocks such as stairs, slabs, and similar compatible blocks that face certain directions.  Try hitting blocks from different angles",本当のレンチではありません、データタグを参照してください。  このシンプルなツールは、階段、ハーフブロック、および特定の方向に向いた同様の互換性のあるブロックを回転させるために使用できます。  異なる角度からブロックをヒットしてみてください
 item.cyclic.rotation_wand.tooltip,Rotates simple blocks,単純なブロックを回転させる
 item.cyclic.scythe_harvest.guide,Harvest the area on use.  Sneak to harvest a smaller area.  Uses the same logic as the Harvester block. ,使用時に領域を収穫します。  しゃがんで小さい領域を収穫します。  Harvesterブロックと同じロジックを使用します。
 item.cyclic.shield_bone,Bone Shield,骨の盾
@@ -1793,10 +1793,10 @@ item.minecraft.tipped_arrow.effect.cyclic_snow,Arrow of Snow-Walker,雪歩行の
 item.minecraft.tipped_arrow.effect.cyclic_strong_hunger,Arrow of Hunger II,飢饉 II の矢
 item.minecraft.tipped_arrow.effect.cyclic_waterwalk,Arrow of Waterwalking,水上歩行の矢
 block.cyclic.biomass_block,Liquid Biomass,液体バイオマス
-block.cyclic.energy_pipe.guide,"Pipe energy between blocks.  Has extraction mode with a filter GUI, and a yellow blocked state to disable the flow.  Shift-left-click to set and remove blocks to cover the pipe as a Facade ",ブロック間でエネルギーをパイプします。  フィルタGUIを使用した抽出モード、およびフローを無効にする黄色のブロック状態があります。  Shift-left-clickでブロックをセットおよび削除して、パイプをファサードとしてカバーします
-block.cyclic.fluid_pipe.guide,"Pipe liquid between blocks.  Has extraction mode with a filter GUI, and a yellow blocked state to disable the flow.  Also collects fluid from the world.  Shift-left-click to set and remove blocks to cover the pipe as a Facade  ",ブロック間で液体をパイプします。  フィルタGUIを使用した抽出モード、およびフローを無効にする黄色のブロック状態があります。  また世界から液体を収集します。  Shift-left-clickでブロックをセットおよび削除して、パイプをファサードとしてカバーします
+block.cyclic.energy_pipe.guide,"Pipe energy between blocks.  Has extraction mode with a filter GUI, and a yellow blocked state to disable the flow.  Shift-left-click to set and remove blocks to cover the pipe as a Facade ",ブロック間でエネルギーをパイプします。  フィルタGUIを使用した抽出モード、およびフローを無効にする黄のブロック状態があります。  Shift-left-clickでブロックをセットおよび削除して、パイプをファサードとしてカバーします
+block.cyclic.fluid_pipe.guide,"Pipe liquid between blocks.  Has extraction mode with a filter GUI, and a yellow blocked state to disable the flow.  Also collects fluid from the world.  Shift-left-click to set and remove blocks to cover the pipe as a Facade  ",ブロック間で液体をパイプします。  フィルタGUIを使用した抽出モード、およびフローを無効にする黄のブロック状態があります。  また世界から液体を収集します。  Shift-left-clickでブロックをセットおよび削除して、パイプをファサードとしてカバーします
 block.cyclic.honey_block,Liquid Honey,液体ハチミツ
-block.cyclic.item_pipe.guide,"Pipe items between blocks.  Has extraction mode with a filter GUI, and a yellow blocked state to disable the flow.  Shift-left-click to set and remove blocks to cover the pipe as a Facade ",ブロック間でアイテムをパイプします。  フィルタGUIを使用した抽出モード、およびフローを無効にする黄色のブロック状態があります。  Shift-left-clickでブロックをセットおよび削除して、パイプをファサードとしてカバーします
+block.cyclic.item_pipe.guide,"Pipe items between blocks.  Has extraction mode with a filter GUI, and a yellow blocked state to disable the flow.  Shift-left-click to set and remove blocks to cover the pipe as a Facade ",ブロック間でアイテムをパイプします。  フィルタGUIを使用した抽出モード、およびフローを無効にする黄のブロック状態があります。  Shift-left-clickでブロックをセットおよび削除して、パイプをファサードとしてカバーします
 block.cyclic.light_camo,Glowstone Facade,発光石のファサード
 block.cyclic.light_camo.guide,"Produces light, and copies a block appearance.  ",光を生成し、ブロックの外観をコピーします。  
 block.cyclic.light_camo.tooltip,Sneak-left-click anything to make it render a facade block,スニーク+左クリックで何かをファサードブロックをレンダリングします
@@ -1814,3 +1814,14 @@ item.cyclic.rotation_wand,Block Rotator,ブロックロータ
 button.exp_pylon.collect.tooltip,Toggle collecting experience orb entities in the world nearby (does not affect players who can still insert and withdraw xp directly while crouching),近くの世界でエクスペリエンスオーブエンティティの収集をトグルします(しゃがんでxpを直接挿入および削除できるプレイヤーには影響しません)
 button.exp_pylon.collect0,Idle,待機
 button.exp_pylon.collect1,Searching,検索中
+_comments,Thanks to https://tterrag.com/lang2json/,
+block.cyclic.sound_recorder.guide,"Record any sounds up to 8 blocks away, and record in the block.  Comes with an ignore list that you can build up.  Save to Sound Data Card for use in Sound Player. ",
+block.cyclic.structure.guide,"This advanced building machine has a fixed set of shapes such as Pyramid, Sphere, Cylander, etc.  Using power and blocks you can build any shape with this.  Also can use Shape Data Cards for custom shapes.  ",
+block.cyclic.terra_preta.guide,"Place Terra Preta below farmland to increase the speed at which crops grow.  Works just like a sprinkler except there are no particles, and it only targets the block above. ",
+block.fire_dark.guide,Does not destroy blocks or harm players.  Spawned by Duskflame Hex,
+enchantment.cyclic.excavate.guide,Randomly reaches out in all direction and mines blocks matching the original target.  Higher levels have more [ maximum_blocks = 26 + 8 * ENCHANT_LEVEL],
+item.cyclic.location.guide,"Right click on a block with the GPS Marker in hand to save its position to the Marker; crouch to use on inventories/machines. Markers with saved locations can be used in multiple machines from this mod such as the Shape Builder, and items like Ender Book. Use while jumping to select the offset of the targeted block instead. ",
+item.cyclic.scythe_forage.guide,"Forage growing resources, using the following block data tags:  minecraft:flowers, minecraft:corals, forge:mushrooms, forge:vines, forge:cactus, forge:crop_blocks",
+block.cyclic.computer_shape.guide,"Place two  GPS Card cards and one  Shape Card, then you can read, copy, paste, and merge shapes together. ",
+item.cyclic.blockstate_data.guide,"Use on a block to read and remember its block state.  Crouch while using to filter on the block only.  Can store a list of 18 blockstates.  Craft to erase the list.  It can distinguish between identical blocks in different states such as rotated stairs, double slabs, etc if in exact [blockstate] mode. Used for machine filters, See Miner",
+item.cyclic.storage_bag.guide,"The Storage Bag can be used as a portable inventory. Right-click with the bag in hand to open it. The bag can be set to pickup items, refill your hotbar, or to deposit its items into any inventory on right-click. ",

@@ -252,7 +252,6 @@ than smaller mobs","有効にした場合、上記の設定のLOD（詳細度）
 より大きなモブはスキップされたフレームがより目立たなくなります。
 より小さなモブと比較して"
 entity_model_features.config.load_warn.1,EMF encountered loading errors,EMFのロードエラーが発生しました。
-entity_model_features.config.load_warn.2,"EMF can log these errors again from, models > debug >","EMF can log these errors again from, models > debug >"
 entity_model_features.config.load_warn.3,Check your log or EMF settings for details,詳細はログまたはEMF設定をご確認ください
 entity_model_features.config.load_warn.title,Log all loading errors again,ロードエラーを再度ログに記録
 entity_model_features.config.load_warn.title2,Log all loading errors again (with stacktrace),ロードエラーを再度ログ（スタックトレース付き）します
@@ -679,3 +678,95 @@ Or just disable this setting.","OptiFineではバリエーション用の「基�
 EMFはこれを必要としませんが、デフォルトではOptiFine互換性を可能な限り保持するために強制します。
 EMF設定の「models > allmodels > *model* > export」でデフォルトモデルを簡単に取得できます。
 またはこの設定を無効にするだけです。"
+entity_model_features.config.function_explanation.easeinback,"easeinback(k, x, y)
+Interpolates between x and y using the ease in back function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinbounce,"easeinbounce(k, x, y)
+Interpolates between x and y using the ease in bounce function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeincirc,"easeincirc(k, x, y)
+Interpolates between x and y using the ease in circ function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeincubic,"easeincubic(k, x, y)
+Interpolates between x and y using the ease in cubic function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinelastic,"easeinelastic(k, x, y)
+Interpolates between x and y using the ease in elastic function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinexpo,"easeinexpo(k, x, y)
+Interpolates between x and y using the ease in expo function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinoutback,"easeinoutback(k, x, y)
+Interpolates between x and y using the ease in and ease out back function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinoutbounce,"easeinoutbounce(k, x, y)
+Interpolates between x and y using the ease in and ease out bounce function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinoutcirc,"easeinoutcirc(k, x, y)
+Interpolates between x and y using the ease in and ease out circ function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinoutcubic,"easeinoutcubic(k, x, y)
+Interpolates between x and y using the ease in and ease out cubic function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinoutelastic,"easeinoutelastic(k, x, y)
+Interpolates between x and y using the ease in and ease out elastic function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinoutexpo,"easeinoutexpo(k, x, y)
+Interpolates between x and y using the ease in and ease out expo function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinoutquad,"easeinoutquad(k, x, y)
+Interpolates between x and y using the ease in and ease out quad function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinoutquart,"easeinoutquart(k, x, y)
+Interpolates between x and y using the ease in and ease out quart function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinoutquint,"easeinoutquint(k, x, y)
+Interpolates between x and y using the ease in and ease out quint function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinoutsine,"easeinoutsine(k, x, y)
+Interpolates between x and y using the ease in and ease out sine function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinquad,"easeinquad(k, x, y)
+Interpolates between x and y using the ease in quad function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinquart,"easeinquart(k, x, y)
+Interpolates between x and y using the ease in quart function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinquint,"easeinquint(k, x, y)
+Interpolates between x and y using the ease in quint function
+
+examples here: https://easings.net/",
+entity_model_features.config.function_explanation.easeinsine,"easeinsine(k, x, y)
+Interpolates between x and y using the ease in sine function
+
+examples here: https://easings.net/",
+entity_model_features.config.models.export.tooltip,"Exports this model as .jem file to the directory ""MC_DIRECTORY/emf/export""
+This file can be opened in Blockbench and contains all the necessary data for a custom model
+including pivot points, boxes, and UVs
+Additional data will also be printed in the log, such as where to put this .jem file for use in a resource pack.",
+entity_model_features.config.texture_override_mode.tooltip,"This controls how EMF handles rendering sub-models that have an override texture set
+for example if a creeper model has a separate texture for the head sub-model
+There are two ways to do this, rely on my code, or rely on a quirk of the Iris mod
+My code 'works' but I am not an expert with render buffers and it may cause issues
+The Iris quirk uses a pretty straightforward and seemingly safe/stable method but i'm told its not intended Iris behaviour
+The Iris option will default to the EMF code if Iris isn't installed
+this should almost always be left on default except when debugging texture overrides in sub-models",
+entity_model_features.config.load_warn.2,"EMF can log these errors again from, models > debug >",

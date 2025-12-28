@@ -120,3 +120,17 @@ ftbultimine.server_settings.merge_tags.tooltip,"For shapeless digging mode, any 
 ftbultimine.server_settings.merge_tags_shaped.tooltip,"For shaped digging modes, any blocks in these tags which match the original dug block are valid candidates for Ultimining.
 Default of '*' means any block is a valid candidate.",シェイプ付き掘削モードの場合、これらのタグ内で元の掘削ブロックと一致するブロックはUltiminingの有効な候補となります。デフォルトの「*」は任意のブロックが有効な候補であることを意味します
 ftbultimine.server_settings.ultimine_cooldown.tooltip,Time in ticks required between successive uses of the Ultimine function,Ultimine機能の連続使用間隔（ティック単位）
+ftbultimine.client_settings.general.require_ultimine_key_for_cycling.tooltip,"If true, the Ultimine key (` by default) must be held to cycle shapes via the keyboard (up/down cursor keys by default).
+If false, shapes can be cycled at any time.",
+ftbultimine.client_settings.general.shape_feedback_hotbar_message.tooltip,"If true, show a feedback message with the new shape on the hotbar when the Ultimining shape is changed",
+ftbultimine.server_settings.costs_limits.max_blocks.tooltip,"The maximum number of blocks which can be broken or modified in one operation
+If FTB Ranks is installed, the 'ftbultimine.max_blocks' node takes priority, if present",
+ftbultimine.server_settings.costs_limits.require_valid_tool_for_block.tooltip,"If true, the equipped tool must be valid for the block being ultimined,
+i.e. it must be able to harvest dropped items
+See also 'Require Tool to Ultimine'",
+ftbultimine.server_settings.features.right_click_crystals.tooltip,"Requires the FTB Ez Crystals mod to be installed (NeoForge only)
+Harvest vanilla Amethyst and other modded crystals",
+ftbultimine.server_settings.features.single_crop_harvesting.tooltip,"When true, right-clicking a crop block without the Ultimine key held harvests it",
+key.categories.ftbultimine,FTB Ultimine,
+key.ftbultimine,FTB Ultimine,
+ftbultimine.server_settings.costs_limits.require_tool.tooltip,Players must have equipped either a damageable tool or an item in the 'ftbultimine:tools' item tag,

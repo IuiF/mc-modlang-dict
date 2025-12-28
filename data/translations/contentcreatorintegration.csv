@@ -630,3 +630,33 @@ cci.toast.youtube.errorDuringChat,Error processing chat! Retrying.,チャット�
 cci.toast.youtube.errorDuringChatDC,Error processing chat! Disconnecting.,チャット処理中にエラー！ 切断しています。
 cci.toast.youtube.ready,Ready.,準備完了。
 window.popup.title,Alert!,アラート！
+cci.component.EventConfiguration.from,This is the online source for this EventConfiguration. Set by CCI.,
+cci.component.EventConfiguration.type,"This is to define what type of EventConfiguration this is if pulled from an online source. Set by CCI when you are creating the config, eg: streamlabs/streamelements/chat/etc. Bear in mind that retrieving an online file will override local configs.",
+cci.component.SoundOutcome.clientSide,"Is the sound to be played on the client? ""target"" is ignored if this is ""true""",
+cci.component.SpecificUserCondition.description,"Use this to check for a specific username. Checks the ""$user"" variable.",
+cci.gui.help.info,"Content Creator Integration - Editor GUI powered by Boxes & Stuff
+
+Best viewed in 1080p with a forced GUI scale of 2 (what is this, 2006?)
+
+
+This Help window is for how to use this User Interface, and not how to use the mod (unfortunately)
+
+Window on the left is purely for navigation.
+Window on the right is purely for manipulation.
+
+
+Manipulation (window on the RIGHT) Controls:-
+
+Double Click: Add To/Edit (Hold SHIFT to edit, in Maps)
+Right Click: Remove/Delete
+Click & Drag (when in arrays) to reorder
+Ctrl+X/C/V: Cut, Copy Paste
+When in Event Viewer: Ctrl+C/Ctrl+Shift+C copies the selected variable name/value
+
+Manipulation Tip: You always have to go one level up to add to something. Double click on the ""conditions"" field to add a condition, double click on the configuration type in a Map to add a new Event, etc. If you are looking at the list of Events, you need to go one level up to add them.
+
+Holding SHIFT when exiting will save before exit.
+
+
+
+""I hope this helpful help ui was helpful in helping you get some help."" -AuscD",

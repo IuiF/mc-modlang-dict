@@ -8,7 +8,7 @@ sodium.extras.options.common.attach,Attach,接続
 sodium.extras.options.common.experimental,[EXPERIMENTAL],[実験的]
 sodium.extras.options.common.fast,Fast,速い
 sodium.extras.options.common.fastest,Fastest,最速
-sodium.extras.options.common.millis,ms,ms
+sodium.extras.options.common.millis,ms,
 sodium.extras.options.common.normal,Normal,通常
 sodium.extras.options.common.off,Off,オフ
 sodium.extras.options.common.on,On,オン
@@ -65,8 +65,8 @@ sodium.extras.options.darkness.overworld.title,Enable on Overworld,オーバー�
 sodium.extras.options.darkness.page,True Darkness,真の暗闇
 sodium.extras.options.displayfps.avg,AVG,平均
 sodium.extras.options.displayfps.desc,"Displays the current FPS. Advanced mode also displays minimum FPS, as well as 15 second average FPS, useful for judging performance.",現在のFPSを表示します。高度なモードではさらに最小FPS、および15秒平均FPSが表示され、パフォーマンス判定に役立ちます。
-sodium.extras.options.displayfps.fps,FPS,FPS
-sodium.extras.options.displayfps.gpu,GPU,GPU
+sodium.extras.options.displayfps.fps,FPS,
+sodium.extras.options.displayfps.gpu,GPU,
 sodium.extras.options.displayfps.gravity.center,Center,中央
 sodium.extras.options.displayfps.gravity.desc,Corner position of the FPS display,FPS表示の角位置
 sodium.extras.options.displayfps.gravity.left,Left,左
@@ -178,3 +178,5 @@ sodium.extras.options.zoom.speed.desc,Speed for Zoom In/Out key binds & zoom scr
 sodium.extras.options.zoom.speed.title,Zoom Speed,ズーム速度
 sodium.extras.options.zoom.toggle.desc,"If `true`, the Zoom keybind will act as a toggle. If `false`, Zoom will only be active while the keybind is held.",`true`の場合、ズームキーバインドは切り替えとして機能します。`false`の場合、ズームはキーバインドが押された状態でのみアクティブになります。
 sodium.extras.options.zoom.toggle.title,Toggle Mode,モード切り替え
+sodium.extras.options.culling.entity.distance.horizontal.desc,"Hides and does not tick entities beyond this many blocks. Huge performance increase, especially around modded farms.",
+sodium.extras.options.culling.tile.distance.horizontal.desc,"Hides block entities beyond this many blocks. Huge performance increase, especially around lots of modded machines.",

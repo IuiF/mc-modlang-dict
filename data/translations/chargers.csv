@@ -10,11 +10,11 @@ chargers.chat.disabled,Disabled,無効
 chargers.chat.enabled,Enabled,有効
 chargers.chat.stored.infinite.info,Power: ∞ FE,電力: ∞ FE
 chargers.chat.stored.info,Power: %s/%s FE,エネルギー: %s/%s FE
-chargers.chat.wireless_charger.info,"Status: %s, %s",状態: %s、電力: %s/%s FE
+chargers.chat.wireless_charger.info,"Status: %s, %s","ステータス: %s, %s"
 chargers.gui.details.in,In: %s,入力: %s
 chargers.gui.details.out,Out: %s,出力: %s FE/t
-chargers.gui.energy,%s/%s FE,%s/%s FE
-chargers.gui.energy.infinite,∞ FE,∞ FE
+chargers.gui.energy,%s/%s FE,
+chargers.gui.energy.infinite,∞ FE,
 chargers.gui.io,I/O: %s,入出力: %s FE/t
 chargers.gui.io.more,Hold shift for more I/O details,シフトで詳細な入出力情報を表示
 chargers.gui.max_in,Max In: %s,最大入力: %s FE/t
@@ -29,7 +29,7 @@ chargers.configuration.range,Range,範囲
 chargers.configuration.storage,Storage,ストレージ
 chargers.configuration.tier_1,Charger Tier 1,充電器レベル1
 chargers.configuration.tier_2,Charger Tier 2,充電器レベル2
-chargers.configuration.tier_3,Charger Tier 3,充電器レベル3
+chargers.configuration.tier_3,Charger Tier 3,チャージャー レベル 3
 chargers.configuration.tier_4,Charger Tier 4,充電器レベル4
 chargers.configuration.wireless,Wireless Charger,無線充電装置
 chargers.misc.power.info,Power: %s,パワー: %s
@@ -44,7 +44,7 @@ chat.chargers.enabled,Enabled,有効
 chat.chargers.disabled,Disabled,無効
 tooltip.chargers.wireless_charger,Can be disabled with redstone power,レッドストーン信号で無効化可能
 chat.chargers.stored.info,Power: %s/%s FE,エネルギー: %s/%s FE
-gui.chargers.energy,%s/%s FE,%s/%s FE
+gui.chargers.energy,%s/%s FE,
 gui.chargers.max_in,Max In: %s FE/t,最大入力: %s FE/t
 gui.chargers.max_out,Max Out: %s FE/t,最大出力: %s FE/t
 gui.chargers.io,I/O: %s FE/t,入出力: %s FE/t

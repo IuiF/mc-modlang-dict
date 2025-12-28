@@ -49,7 +49,7 @@ block.embers.caminite_lever,Caminite Lever,カミナイトのレバー
 block.embers.caminite_ring,Caminite Ring,カミナイト 指輪
 block.embers.caminite_ring_edge,Caminite Ring,カミナイト 指輪
 block.embers.caminite_tiles,Caminite Tiles,カミナイトタイル
-block.embers.caminite_tiles_slab,Caminite Tiles Slab,カミナイト タイル スラブ
+block.embers.caminite_tiles_slab,Caminite Tiles Slab,カミナイト タイル ハーフブロック
 block.embers.caminite_tiles_stairs,Caminite Tiles Stairs,カミナイト タイル 階段
 block.embers.caminite_valve,Caminite Valve,カミナイト 弁
 block.embers.caminite_valve_edge,Caminite Valve,カミナイト 弁
@@ -156,7 +156,7 @@ block.embers.sealed_planks_stairs,Sealed Planks Stairs,密閉 板 階段
 block.embers.sealed_wood_keg,Sealed Wood Keg,密封された木製ケージ
 block.embers.sealed_wood_pillar,Sealed Wood Pillar,密閉 木柱
 block.embers.sealed_wood_tile,Sealed Wood Tile,密閉木タイル
-block.embers.sealed_wood_tile_slab,Sealed Wood Tile Slab,密封木製タイルスラブ
+block.embers.sealed_wood_tile_slab,Sealed Wood Tile Slab,密封木製タイルハーフブロック
 block.embers.sealed_wood_tile_stairs,Sealed Wood Tile Stairs,密封された木製タイル階段
 block.embers.silver_block,Block of Silver,銀ブロック
 block.embers.silver_crystal_seed,Silver Crystal Seed,銀 結晶 種
@@ -166,7 +166,7 @@ block.embers.soul_crude_block,Soul Crude,ソウル粗製
 block.embers.stamp_base,Stamp Base,打ち出し台
 block.embers.stamper,Stamper,打ち出し器
 block.embers.steam_block,Steam,蒸気
-block.embers.tin_crystal_seed,Tin Crystal Seed,錫 結晶 種
+block.embers.tin_crystal_seed,Tin Crystal Seed,スズ 結晶 種
 block.embers.uranium_crystal_seed,Uranium Crystal Seed,ウラン 結晶 種
 block.embers.wildfire_stirling,Wildfire Stirling,野火 スターリング
 block.embers.zinc_crystal_seed,Zinc Crystal Seed,亜鉛 結晶 種
@@ -183,10 +183,10 @@ embers.alchemy_hint.black.one,1 glowing spot,1つの光るスポット
 embers.alchemy_hint.none,no differently colored spots,異なる色の斑点はない
 embers.alchemy_hint.white,%s pale spots,%s の淡い斑点
 embers.alchemy_hint.white.one,1 pale spot,1つの淡いスポット
-embers.decimal_format.attenuator_multiplier,0.##x,0.##x
-embers.decimal_format.ember_multiplier,0.##x,0.##x
+embers.decimal_format.attenuator_multiplier,0.##x,
+embers.decimal_format.ember_multiplier,0.##x,
 embers.decimal_format.item_amount,0x,0.0
-embers.decimal_format.speed_multiplier,0.##x,0.##x
+embers.decimal_format.speed_multiplier,0.##x,
 embers.jei.recipe.boiling,Boiling,沸騰
 embers.jei.recipe.boring,Boring,無味乾燥
 embers.jei.recipe.boring.biomes,Biomes:,バイオーム:
@@ -220,7 +220,7 @@ embers.research.image.combustor_nether_brick,Coefficient: 3x,係数: 3倍
 embers.research.materia,Arcane Materia,アーケン・マテリア
 embers.research.mechanisms,Machinations of Fire,火の裏工作
 embers.research.metallurgy,Metallurgic Constructs,冶金的構造
-embers.research.multipage,%s (%s/%s),%s (%s/%s)
+embers.research.multipage,%s (%s/%s),
 embers.research.page.access,Mechanical Access,機械的アクセス
 embers.research.page.access.tags,Core;Mechanical;Proxy;Capability;Side;Port;Interface;Access;Upgrade;,コア;機械;プロキシ;キャパビリティ;サイド;ポート;インターフェース;アクセス;アップグレード;
 embers.research.page.access.title,Interface,インターフェース
@@ -444,13 +444,13 @@ embers.research.page.gauge.desc,"Evidenced by the existence of hot molten stone 
 embers.research.page.gauge.tags,Ember;Gauge;Tool;Info;,エンバー;計;Tool;Info
 embers.research.page.gauge.title,Prospecting,採掘
 embers.research.page.gear_dawnstone.desc,"Dawnstone Gears are more suitable for high speed rotations, they don't have the same limit Iron Gears have. At high rotational speeds, the gear will visually glow a fiery orange. This side effect is mostly harmless however.",暁石の歯車は高い回転速度のためにより適しており、鉄の歯車が持っていたような制限がない。高い回転速度では、この歯車は視覚的に炎のような橙色に輝く。ただしこの副作用はほとんど無害である。
-embers.research.page.gear_gold.desc,"This gear is mostly the same as an iron gear, but it has a higher power limit.",このギアはほぼ鉄のギアと同じですが、パワーリミットが高いです。
-embers.research.page.gear_iron,Iron Gear,鉄のギア
+embers.research.page.gear_gold.desc,"This gear is mostly the same as an iron gear, but it has a higher power limit.",この歯車はほぼ鉄の歯車と同じですが、パワーリミットが高いです。
+embers.research.page.gear_iron,Iron Gear,鉄の歯車
 embers.research.page.gear_iron.desc,"Gears are used as interfaces for connecting axles to gearboxes or machines. Iron Gears are cheap and robust, but they have a power limit. Power past the limit is mostly lost.",歯車は機軸をギアボックスや機械と接続するためのインターフェースとして使われる。鉄の歯車は安価で頑丈だが、出力制限がある。制限を超えた力はほとんど失われる。
 embers.research.page.gear_iron.title,Cogs of the Machine,機械の歯車
-embers.research.page.gear_redstone.desc,"These redstone-encrusted gears provide the ability to control gearboxes externally. When a redstone signal is applied to a gearbox, the Redstone Gear will start to turn, while the inverted Redstone Gear will turn off. These gears have a similar power limit to gold gears.",これらのレッドストーン製のギアは、ギアボックスを外部から制御する機能を提供します。ギアボックスにレッドストーン信号が適用されると、レッドストーン・ギアが回転を開始する一方、反転レッドストーン・ギアはオフになります。これらのギアはゴールドギアと同様の電力制限を持っています。
+embers.research.page.gear_redstone.desc,"These redstone-encrusted gears provide the ability to control gearboxes externally. When a redstone signal is applied to a gearbox, the Redstone Gear will start to turn, while the inverted Redstone Gear will turn off. These gears have a similar power limit to gold gears.",これらのレッドストーン製の歯車は、ギアボックスを外部から制御する機能を提供します。ギアボックスにレッドストーン信号が適用されると、レッドストーン・ギアが回転を開始する一方、反転レッドストーン・ギアはオフになります。これらの歯車はゴールドギアと同様の電力制限を持っています。
 embers.research.page.gearbox,Gearboxes,ギアボックス
-embers.research.page.gearbox.desc,"Gearbox Frames are the heart-piece of mechanical transfer. One gear can be attached on each side, but only sides with axles or other machines attached will need one. There is an input side marked by a strip, and all other sides are outputs. The input power will be divided between each used output, so if two axles were attached, each would receive half power.",ギアボックス・フレームは機械式輸送機構の心臓部である。それぞれの面に一つのギアを取り付けられるが、軸や他の機械と接続する面が一つだけ必要になる。入力面は縞模様で示されており、それ以外の全ての面が出力面である。入力された力は使用中の出力面の間で振り分けられ、例えば二つの軸が接続している場合、それぞれ半分の力を受け取る。
+embers.research.page.gearbox.desc,"Gearbox Frames are the heart-piece of mechanical transfer. One gear can be attached on each side, but only sides with axles or other machines attached will need one. There is an input side marked by a strip, and all other sides are outputs. The input power will be divided between each used output, so if two axles were attached, each would receive half power.",ギアボックス・フレームは機械式輸送機構の心臓部である。それぞれの面に一つの歯車を取り付けられるが、軸や他の機械と接続する面が一つだけ必要になる。入力面は縞模様で示されており、それ以外の全ての面が出力面である。入力された力は使用中の出力面の間で振り分けられ、例えば二つの軸が接続している場合、それぞれ半分の力を受け取る。
 embers.research.page.gearbox.tags,Gear;Box;Gearbox;Mechanical;Split;Divide;Junction;,Gear;Box;Gearbox;機械;Split;Divide;Junction
 embers.research.page.gearbox.title,Mechanical Junction,機械の交差点
 embers.research.page.geo_separator,Geologic Separator,地質 分離機
@@ -512,7 +512,7 @@ embers.research.page.melter.desc,"Using the power of activated Ember, you have d
 embers.research.page.melter.tags,Ore;Machine;Melt;Duplication;Processing;Liquid;Fluid;Item;Multiblock;Multi Block;,鉱石;Machine;Melt;Duplication;Processing;液体;流体;Item;Multiblock;Multi ブロック
 embers.research.page.melter.title,Melting Things Down,融かし尽くす
 embers.research.page.mergebox,Mergeboxes,マージボックス
-embers.research.page.mergebox.desc,"Mergebox Frames are another important part in mechanical systems. They function opposite to a regular gearbox, instead of splitting power, power will be merged together. Note that all inputs must be the same speed to be summed up. Additionally, anytime the power changes, the mergebox will disengage the output gear for a short time as the internal ratios adjust.",マージボックスフレームは機械システムのもう1つの重要な部分です。通常のギアボックスとは反対に機能します。動力を分割するのではなく、動力がマージされます。すべての入力が合計されるのと同じ速度である必要があります。さらに、動力が変化するたびに、内部比率が調整されるため、マージボックスは短時間、出力ギアを切り離します。
+embers.research.page.mergebox.desc,"Mergebox Frames are another important part in mechanical systems. They function opposite to a regular gearbox, instead of splitting power, power will be merged together. Note that all inputs must be the same speed to be summed up. Additionally, anytime the power changes, the mergebox will disengage the output gear for a short time as the internal ratios adjust.",マージボックスフレームは機械システムのもう1つの重要な部分です。通常の歯車ボックスとは反対に機能します。動力を分割するのではなく、動力がマージされます。すべての入力が合計されるのと同じ速度である必要があります。さらに、動力が変化するたびに、内部比率が調整されるため、マージボックスは短時間、出力ギアを切り離します。
 embers.research.page.mergebox.tags,Gear;Box;Gearbox;Mergebox;Mechanical;Merge;Fusion;,Gear;Box;Gearbox;Mergebox;機械;Merge;Fusion
 embers.research.page.mergebox.title,Mechanical Fusion,機械 Fusion
 embers.research.page.metallurgic_dust,Metallurgic Dust,冶金の塵
@@ -676,7 +676,7 @@ embers.tooltip.augment.embers.winding_gears,Windup %s,回転式 %s
 embers.tooltip.augment_slots,Augment slots: ,アップグレードスロット: 
 embers.tooltip.augments,Augments:,アップグレード:
 embers.tooltip.broken,Broken,破壊
-embers.tooltip.colon,%s: %s,%s: %s
+embers.tooltip.colon,%s: %s,
 embers.tooltip.crystal.level,Level %s,レベル %s
 embers.tooltip.crystal.xp,Refinement %s/%s,精錬 %s/%s
 embers.tooltip.dial.ember_multiplier,Production Multiplier: %s,生産倍率: %s
@@ -685,14 +685,14 @@ embers.tooltip.emberdial.ember,Ember: %s/%s,熾火:  %s/%s
 embers.tooltip.fluiddial.fluid,%s: %s/%s,熾火:  %s/%s
 embers.tooltip.fluiddial.ingot,1 Ingot,1インゴット
 embers.tooltip.fluiddial.ingots,%s Ingots,%s バンク
-embers.tooltip.fluiddial.millibucket,%s mB,%s mB
+embers.tooltip.fluiddial.millibucket,%s mB,
 embers.tooltip.fluiddial.nofluid,0/%s,熾火:  0/%s
 embers.tooltip.fluiddial.nugget,1 Nugget,1個の Nugget
 embers.tooltip.fluiddial.nuggets,%s Nuggets,%s ニッケル
-embers.tooltip.fluiddial.separator,"%s, %s","%s, %s"
+embers.tooltip.fluiddial.separator,"%s, %s",
 embers.tooltip.goggles.actuator_slot,• Actuator Slot,• アクチュエータスロット
 embers.tooltip.goggles.ember,Ember,エムバー
-embers.tooltip.goggles.filter,%s (%s),%s (%s)
+embers.tooltip.goggles.filter,%s (%s),
 embers.tooltip.goggles.fluid,Fluids,液体
 embers.tooltip.goggles.fluid.any,Any,任意
 embers.tooltip.goggles.fluid.metal,Molten Metals,溶融 Metals
@@ -700,7 +700,7 @@ embers.tooltip.goggles.fluid.redstone,Alchemical Slurry,錬金術の泥
 embers.tooltip.goggles.fluid.steam,Steam,蒸気
 embers.tooltip.goggles.fluid.water,Water,水
 embers.tooltip.goggles.fluid.water_or_steam,Water or Steam,水 or 蒸気
-embers.tooltip.goggles.input,§9⬊§r %s,§9⬊§r %s
+embers.tooltip.goggles.input,§9⬊§r %s,
 embers.tooltip.goggles.item,Items,アイテム
 embers.tooltip.goggles.item.alchemy_result,Alchemy Result,錬金術 Result
 embers.tooltip.goggles.item.any,Any,任意
@@ -713,25 +713,20 @@ embers.tooltip.goggles.item.ember_storage,Ember Storage,エンバー Storage
 embers.tooltip.goggles.item.fuel,Fuel,燃料
 embers.tooltip.goggles.item.paper,Paper,紙
 embers.tooltip.goggles.item.stamp,Stamp,スタンプ
-embers.tooltip.goggles.mechanical,Mechanical Power,機械 Power
-embers.tooltip.goggles.output,§6⬉§r %s,§6⬉§r %s
-embers.tooltip.goggles.storage,• %s,• %s
+embers.tooltip.goggles.mechanical,Mechanical Power,機械力
+embers.tooltip.goggles.output,§6⬉§r %s,
+embers.tooltip.goggles.storage,• %s,
 embers.tooltip.goggles.upgrade,• Machine Upgrade,• マシンアップグレード
 embers.tooltip.heat_amount,Heat:,熱量:
 embers.tooltip.heat_debug,Heat: %s/%s,熱: %s/%s
 embers.tooltip.inflictor.none,Attuned Damage: none,調和したダメージ：なし
 embers.tooltip.inflictor.slots,Inflictor Gem Slots: %s,インフリクトジェムスロット: %s
 embers.tooltip.item.ember,Ember: %s/%s,熾火:  %s/%s
-embers.tooltip.itemdial.item,%s %s,%s %s
+embers.tooltip.itemdial.item,%s %s,
 embers.tooltip.itemdial.noitem,NONE,なし
 embers.tooltip.itemdial.slot,Slot %s: %s,スロット %s: %s
-embers.tooltip.num1,I,I
-embers.tooltip.num2,II,II
-embers.tooltip.num3,III,III
-embers.tooltip.num4,IV,IV
-embers.tooltip.num5,V,V
-embers.tooltip.num6,VI,VI
-embers.tooltip.num7,VII,VII
+embers.tooltip.num3,III,
+embers.tooltip.num7,VII,
 embers.tooltip.numstop,Stop That,停止
 embers.tooltip.side.center,Center,中央
 embers.tooltip.side.down,Bottom,下
@@ -817,7 +812,7 @@ item.embers.clockwork_pickaxe,Clockwork Pickaxe,機械仕掛けのつるはし
 item.embers.codebreaking_slate,Codebreaking Slate,コード解読用の板
 item.embers.copper_aspectus,Copper Aspectus,銅のアスペクトゥス
 item.embers.copper_nugget,Copper Nugget,銅の塊
-item.embers.copper_plate,Copper Plate,銅板
+item.embers.copper_plate,Copper Plate,銅の板
 item.embers.dawnstone_aspectus,Dawnstone Aspectus,暁石のアスペクトゥス
 item.embers.dawnstone_axe,Dawnstone Axe,暁石の斧
 item.embers.dawnstone_hoe,Dawnstone Hoe,暁石のクワ
@@ -854,15 +849,15 @@ item.embers.inflictor_gem,Inflictor Gem,厄介者の宝石
 item.embers.ingot_stamp,Ingot Stamp,鋳造印
 item.embers.intelligent_apparatus,Intelligent Apparatus,知性機関
 item.embers.iron_aspectus,Iron Aspectus,鉄のアスペクトゥス
-item.embers.iron_plate,Iron Plate,鉄板
+item.embers.iron_plate,Iron Plate,鉄の板
 item.embers.isolated_materia,Isolated Materia,単離されたマテリア
 item.embers.lead_aspectus,Lead Aspectus,鉛のアスペクトゥス
 item.embers.lead_axe,Lead Axe,鉛の斧
 item.embers.lead_hoe,Lead Hoe,鉛のクワ
-item.embers.lead_ingot,Lead Ingot,鉛の塊
+item.embers.lead_ingot,Lead Ingot,鉛のインゴット
 item.embers.lead_nugget,Lead Nugget,鉛の塊
 item.embers.lead_pickaxe,Lead Pickaxe,鉛のつるはし
-item.embers.lead_plate,Lead Plate,鉛板
+item.embers.lead_plate,Lead Plate,鉛の板
 item.embers.lead_shovel,Lead Shovel,鉛のシャベル
 item.embers.lead_sword,Lead Sword,鉛の剣
 item.embers.molten_aluminum_bucket,Molten Aluminum Bucket,溶融 アルミニウム Bucket
@@ -879,7 +874,7 @@ item.embers.molten_lead_bucket,Molten Lead Bucket,溶融鉛のバケツ
 item.embers.molten_nickel_bucket,Molten Nickel Bucket,溶融 ニッケル Bucket
 item.embers.molten_platinum_bucket,Molten Platinum Bucket,溶融 プラチナ Bucket
 item.embers.molten_silver_bucket,Molten Silver Bucket,溶融 銀 Bucket
-item.embers.molten_tin_bucket,Molten Tin Bucket,溶融 錫 Bucket
+item.embers.molten_tin_bucket,Molten Tin Bucket,溶融 スズ Bucket
 item.embers.molten_uranium_bucket,Molten Uranium Bucket,溶融 ウラン Bucket
 item.embers.molten_zinc_bucket,Molten Zinc Bucket,溶融亜鉛のバケツ
 item.embers.music_disc_7f_patterns,Music Disc,レコード
@@ -903,7 +898,7 @@ item.embers.silver_hoe,Silver Hoe,銀のクワ
 item.embers.silver_ingot,Silver Ingot,銀インゴット
 item.embers.silver_nugget,Silver Nugget,銀の塊
 item.embers.silver_pickaxe,Silver Pickaxe,銀のツルハシ
-item.embers.silver_plate,Silver Plate,銀板
+item.embers.silver_plate,Silver Plate,銀の板
 item.embers.silver_shovel,Silver Shovel,銀のシャベル
 item.embers.silver_sword,Silver Sword,銀の剣
 item.embers.smoky_tinker_lens,Smoky Tinker's Lens,Smoky 鍛冶職人のレンズ
@@ -1015,15 +1010,15 @@ tile.ember_relay.name,Ember Relay,エンバー 中継機
 tile.crystal_cell.name,Crystal Cell,結晶 セル
 tile.charger.name,Copper Charger,銅製充填器
 tile.block_caminite_brick_slab.name,Caminite Brick Slab,カミナイトレンガのハーフブロック
-tile.block_caminite_brick_slab_double.name,Caminite Brick Double Slab,カミナイトブロックダブルスラブ
+tile.block_caminite_brick_slab_double.name,Caminite Brick Double Slab,カミナイトブロックダブルハーフブロック
 tile.ashen_stone.name,Ashen Stone,灰燼の石
 tile.ashen_stone_slab.name,Ashen Stone Slab,灰燼の石のハーフブロック
-tile.ashen_stone_slab_double.name,Ashen Stone Double Slab,灰石ダブルスラブ
+tile.ashen_stone_slab_double.name,Ashen Stone Double Slab,灰石ダブルハーフブロック
 tile.stairs_ashen_stone.name,Ashen Stone Stairs,灰燼の石階段
 tile.wall_ashen_stone.name,Ashen Stone Wall,灰燼の石壁
 tile.ashen_brick.name,Ashen Brick,灰燼のレンガ
 tile.ashen_brick_slab.name,Ashen Brick Slab,灰燼のレンガのハーフブロック
-tile.ashen_brick_slab_double.name,Ashen Brick Double Slab,灰石レンガダブルスラブ
+tile.ashen_brick_slab_double.name,Ashen Brick Double Slab,灰石レンガダブルハーフブロック
 tile.stairs_ashen_brick.name,Ashen Brick Stairs,灰燼のレンガの階段
 tile.wall_ashen_brick.name,Ashen Brick Wall,灰燼のレンガの壁
 tile.ashen_tile.name,Ashen Tile,灰燼のタイル
@@ -1056,7 +1051,7 @@ tile.seed_lead.name,Lead Crystal Seed,鉛 結晶 種
 tile.seed_silver.name,Silver Crystal Seed,銀 結晶 種
 tile.seed_aluminum.name,Aluminium Crystal Seed,Aluminium 結晶 種
 tile.seed_nickel.name,Nickel Crystal Seed,ニッケル 結晶 種
-tile.seed_tin.name,Tin Crystal Seed,錫 結晶 種
+tile.seed_tin.name,Tin Crystal Seed,スズ 結晶 種
 tile.seed_dawnstone.name,Dawnstone Crystal Seed,ドーンストーン 結晶 種
 tile.boiler.name,Pressure Refinery,加圧精製器
 tile.archaic_edge.name,Archaic Edge,古風な縁
@@ -1103,8 +1098,8 @@ fluid.oil_dwarf,Dwarven Oil,ドワーフ オイル
 fluid.gas_dwarf,Dwarven Fuel Gas,ドワーフ Fuel ガス
 item.ingot_copper.name,Copper Ingot,銅インゴット
 item.ingot_silver.name,Silver Ingot,銀インゴット
-item.ingot_lead.name,Lead Ingot,鉛の塊
-item.ingot_mithril.name,Mithril Ingot,ミスリルの塊
+item.ingot_lead.name,Lead Ingot,鉛のインゴット
+item.ingot_mithril.name,Mithril Ingot,ミスリルのインゴット
 item.nugget_copper.name,Copper Nugget,銅の塊
 item.nugget_silver.name,Silver Nugget,銀の塊
 item.nugget_lead.name,Lead Nugget,鉛の塊
@@ -1113,12 +1108,12 @@ item.brick_caminite.name,Caminite Brick,カミナイトレンガ
 item.blend_caminite.name,Caminite Blend,カミナイト混合物
 item.plate_caminite.name,Caminite Plate,カミナイト板
 item.plate_caminite_raw.name,Raw Caminite Plate,焼入れ前のカミナイト板
-item.plate_gold.name,Gold Plate,金板
-item.plate_iron.name,Iron Plate,鉄板
+item.plate_gold.name,Gold Plate,金の板
+item.plate_iron.name,Iron Plate,鉄の板
 item.plate_dawnstone.name,Dawnstone Plate,暁石板
-item.plate_copper.name,Copper Plate,銅板
-item.plate_lead.name,Lead Plate,鉛板
-item.plate_silver.name,Silver Plate,銀板
+item.plate_copper.name,Copper Plate,銅の板
+item.plate_lead.name,Lead Plate,鉛の板
+item.plate_silver.name,Silver Plate,銀の板
 item.plate_mithril.name,Mithril Plate,ミスリル板
 item.ember_detector.name,Atmospheric Gauge,大気ゲージ
 item.tinker_hammer.name,Tinker's Hammer,日曜鍛冶のハンマー
@@ -1201,7 +1196,7 @@ item.ember_ring.name,Ember Ring,熾火の指輪
 item.ember_belt.name,Ember Belt,熾火のベルト
 item.ember_amulet.name,Ember Amulet,熾火のアミュレット
 item.ember_bulb.name,Mantle Bulb,マントル球
-item.gear_iron.name,Iron Gear,鉄のギア
+item.gear_iron.name,Iron Gear,鉄の歯車
 item.gear_dawnstone.name,Dawnstone Gear,暁石の歯車
 item.dust_metallurgic.name,Metallurgic Dust,冶金の塵
 item.diffraction_barrel.name,Diffraction Barrel,回折の銃身
@@ -1230,7 +1225,7 @@ item.sword_aluminum.name,Aluminium Sword,アルミの剣
 fluid.aluminum,Molten Aluminium,溶融アルミニウム
 tile.block_bronze.name,Bronze Block,青銅ブロック
 tile.ore_bronze.name,Bronze Ore,青銅鉱石
-item.ingot_bronze.name,Bronze Ingot,青銅の塊
+item.ingot_bronze.name,Bronze Ingot,青銅のインゴット
 item.nugget_bronze.name,Bronze Nugget,青銅の塊
 item.plate_bronze.name,Bronze Plate,青銅の板
 item.pickaxe_bronze.name,Bronze Pickaxe,青銅のツルハシ
@@ -1252,25 +1247,25 @@ item.sword_electrum.name,Electrum Sword,琥珀金の剣
 fluid.electrum,Molten Electrum,溶融 エレクトラム
 tile.block_nickel.name,Nickel Block,ニッケルブロック
 tile.ore_nickel.name,Nickel Ore,ニッケル鉱石
-item.ingot_nickel.name,Nickel Ingot,ニッケルの塊
+item.ingot_nickel.name,Nickel Ingot,ニッケルのインゴット
 item.nugget_nickel.name,Nickel Nugget,ニッケルの塊
-item.plate_nickel.name,Nickel Plate,ニッケル板
+item.plate_nickel.name,Nickel Plate,ニッケルの板
 item.pickaxe_nickel.name,Nickel Pickaxe,ニッケルのつるはし
 item.axe_nickel.name,Nickel Axe,ニッケルの斧
 item.hoe_nickel.name,Nickel Hoe,ニッケルのクワ
 item.shovel_nickel.name,Nickel Shovel,ニッケルのシャベル
 item.sword_nickel.name,Nickel Sword,ニッケルの剣
 fluid.nickel,Molten Nickel,溶融ニッケル
-tile.block_tin.name,Tin Block,錫ブロック
+tile.block_tin.name,Tin Block,スズブロック
 tile.ore_tin.name,Tin Ore,スズ鉱石
-item.ingot_tin.name,Tin Ingot,スズの塊
+item.ingot_tin.name,Tin Ingot,スズのインゴット
 item.nugget_tin.name,Tin Nugget,スズの塊
 item.plate_tin.name,Tin Plate,スズのプレート
-item.pickaxe_tin.name,Tin Pickaxe,錫のつるはし
-item.axe_tin.name,Tin Axe,錫の斧
-item.hoe_tin.name,Tin Hoe,錫のクワ
-item.shovel_tin.name,Tin Shovel,錫のシャベル
-item.sword_tin.name,Tin Sword,錫の剣
+item.pickaxe_tin.name,Tin Pickaxe,スズのつるはし
+item.axe_tin.name,Tin Axe,スズの斧
+item.hoe_tin.name,Tin Hoe,スズのクワ
+item.shovel_tin.name,Tin Shovel,スズのシャベル
+item.sword_tin.name,Tin Sword,スズの剣
 fluid.tin,Molten Tin,溶融スズ
 embers.aspect.iron,Iron,鉄
 embers.aspect.copper,Copper,銅
@@ -1278,7 +1273,6 @@ embers.aspect.dawnstone,Dawnstone,暁石
 embers.aspect.lead,Lead,鉛
 embers.aspect.silver,Silver,銀
 embers.decimal_format.ember,0.0,0.##
-embers.decimal_format.inaccuracy,0,0
 embers.decimal_format.heat,0.00,0.##
 embers.tooltip.goggles.upgrade_slot,• Machine Upgrade Slot,• マシンアップグレードスロット
 embers.tooltip.goggles.accessor_slot,• Machine Accessor Slot,• マシンアクセサースロット
@@ -1293,13 +1287,13 @@ embers.tooltip.upgrade.actuator.other,Mechanical Ember Production Efficiency: %s
 embers.tooltip.item_request.linked,"Linked to %s (%s,%s,%s)","リンク先: %s (%s,%s,%s)"
 embers.tooltip.item_request.filter,Wants %2$sx %1$s,%2$sx %1$s を望む
 embers.tooltip.item_request.order,§aWaiting for %s items,§a%sアイテム待機中
-embers.filter.any,Anything,何でも
+embers.filter.any,Anything,すべて
 embers.filter.existing,Existing,既存の
 embers.filter.not_existing,Not Existing,存在しない
 embers.filter.and,%s and %s,%s と %s
 embers.filter.or,%s or %s,%s または %s
 embers.filter.invert,not %s,なし %s
-embers.filter.strict,%s,%s
+embers.filter.strict,%s,
 embers.filter.normal,%s (Ignores NBT),%s (NBTを無視)
 embers.filter.item,%s (Ignores Metadata),%s（メタデータを無視）
 embers.filter.metadata,Items with Metadata %s,メタデータ %s のアイテム
@@ -1419,9 +1413,9 @@ embers.research.page.baubles.tags,Bauble;Amulet;Ring;Belt;Charm;,Bauble;護符;�
 embers.research.page.baubles.desc,"Embers has Baubles compatibility, but it's an optional dependency, and it's currently either turned off in the config, or Baubles is not installed.",EmbersはBaublesと互換性がありますが、これは任意の依存性であり、現在はコンフィグでオフになっているか、Baublesがインストールされていないかのいずれかです。
 embers.research.page.winding_gears.desc,"When Winding Gears are applied to a tool, a spool will be shown on your HUD in place of the experience bar to show how much it is wound up. Winding the tool up by right-clicking will grant you auto-attack (hold left-click to attack over and over). The tool will however wind down slowly over time. Winding up also has some other effects, as detailed on the following pages.",ツールにワインディングギアが適用されると、スプールがHUDに表示されます。経験バーの代わりに、どのくらい巻き上がっているかを示します。右クリックでツールをワインディングしているとオートアタック（左クリックを押し続けて繰り返し攻撃）が付与されます。ただし、ツールは時間とともにゆっくりとワインディングを下げます。ワインディングアップには、次のページで詳述されたいくつかの他の効果もあります。
 embers.research.page.winding_gears_boots.desc,"Winding Gears can also be applied to your boots. You will jump much higher based on the charge left in the spring. You will also bounce without taking fall damage when impacting the ground. Additionally, if you sprint before jumping, you will also cross a much larger distance. You must also hold a wound up tool in hand to use these effect.",ワインディングギアはあなたのブーツにも適用できます。スプリングに残っているチャージに基づいて、あなたは非常に高くジャンプします。また、地面に衝突したときに落下ダメージを取らずにバウンスします。さらに、ジャンプする前にスプリントすると、はるかに大きな距離をクロスします。これらの効果を使用するには、手に巻き上げられたツールも保持する必要があります。
-embers.commands.fill.usage,/ember-fill <x> <z> <set|add|query> ...,/ember-fill <x> <z> <set|add|query> ...
-embers.commands.fill.usage.add,/ember-fill <x> <z> add <value>,/ember-fill <x> <z> add <value>
-embers.commands.fill.usage.set,/ember-fill <x> <z> set <value>,/ember-fill <x> <z> set <value>
+embers.commands.fill.usage,/ember-fill <x> <z> <set|add|query> ...,
+embers.commands.fill.usage.add,/ember-fill <x> <z> add <value>,
+embers.commands.fill.usage.set,/ember-fill <x> <z> set <value>,
 embers.commands.fill.failed,"Missing ember data at chunk [%s, %s] (at x %s, z %s)","チャンク [%s, %s] で ember データが見つかりません (x %s, z %s)"
 embers.commands.fill.added,"Added %s to the ember level (now %s) in the chunk [%s, %s] (at x %s, z %s)","%s を ember レベルに追加しました（現在 %s） チャンク [%s, %s] の x %s, z %s で"
 embers.commands.fill.set,"Added the ember level to %s in the chunk [%s, %s] (at x %s, z %s)","チャンク[%s, %s]の%sにemberレベルを追加しました（x %s, z %s）"
@@ -1480,3 +1474,20 @@ subtitles.ancient_golem.death,Ancient Golem is destroyed,いにしえのゴー�
 subtitles.ancient_golem.hurt,Ancient Golem is hit,いにしえのゴーレムが殴られた
 subtitles.ancient_golem.punch,Ancient Golem punches,いにしえのゴーレムのパンチ
 subtitles.ancient_golem.step,Ancient Golem walks,いにしえのゴーレムが足音を立てる
+embers.research.coming_soon,Coming Soon...,
+embers.research.page.bore.title,Diggy Diggy Hole,
+embers.research.page.gear_iron.tags,Gear;Mechanical;Iron Gear;Gold Gear;Dawnstone Gear;Attach;Interface;Cog;,
+embers.research.page.golem_eye.tags,Filter;Eye;Golem;,
+embers.tooltip.forge.cannot_start,There is not enough Ember to ignite the forge.,
+subtitles.embers.block.bore.start,Ember Bore rumbles to life,
+embers.filter.ember,Items with %s-%s Ember,
+embers.filter.ember.strict,Items with %s Ember,
+embers.filter.ember.fuzzy,Items with Ember,
+embers.research.page.baubles,Baubles,
+embers.research.page.baubles_category,Baubles,
+embers.tooltip.num1,I,
+embers.tooltip.num2,II,
+embers.tooltip.num4,IV,
+embers.tooltip.num5,V,
+embers.tooltip.num6,VI,
+embers.decimal_format.inaccuracy,0,

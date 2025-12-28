@@ -297,12 +297,12 @@ configuration.projecte.server.cooldown.pedestal.repair,Repair,修理
 configuration.projecte.server.cooldown.pedestal.repair.tooltip,Delay between Talisman of Repair trying to repair player items while in the pedestal.,ペダスタにいる間、修復タリスマンがプレイヤーアイテムを修理しようとする間隔です。
 configuration.projecte.server.cooldown.pedestal.soul_stone,Soul Stone,魂の石
 configuration.projecte.server.cooldown.pedestal.soul_stone.tooltip,Delay between Soul Stone healing 0.5 hearts while in the pedestal.,ペダスタル内でソウルストーンが0.5ハート回復する間隔。
-configuration.projecte.server.cooldown.pedestal.swrg,SWRG,SWRG
+configuration.projecte.server.cooldown.pedestal.swrg,SWRG,SWRG装備
 configuration.projecte.server.cooldown.pedestal.swrg.tooltip,Delay between SWRG trying to smite mobs while in the pedestal.,ペダスタル上でSWRGがモブを打撃しようとする間の遅延
 configuration.projecte.server.cooldown.pedestal.tooltip,Cooldown settings for various items within Dark Matter Pedestals.,ダークマターペデスタル内のさまざまなアイテムのクールダウン設定。
 configuration.projecte.server.cooldown.pedestal.volcanite,Volcanite Amulet,灼熱の祭器
 configuration.projecte.server.cooldown.pedestal.volcanite.tooltip,Delay between Volcanite Amulet trying to stop rain while in the pedestal.,ペダスタに置かれたとき、ボルカナイトアミュレットが雨を止めようとする間隔。
-configuration.projecte.server.cooldown.pedestal.zero,SWRG,SWRG
+configuration.projecte.server.cooldown.pedestal.zero,SWRG,SWRG装備
 configuration.projecte.server.cooldown.pedestal.zero.tooltip,Delay between Zero Ring trying to extinguish entities and freezing ground while in the pedestal.,ゼロリングがエンティティを消火し、ペデスタル上で地面を凍結するまでの遅延。
 configuration.projecte.server.cooldown.player,Player Cooldown Settings,プレイヤークールダウン設定
 configuration.projecte.server.cooldown.player.button,Edit Player Cooldowns,プレイヤーの冷却時間の編集
@@ -356,9 +356,9 @@ configuration.projecte.server.misc.tooltip,Settings for configuring misc options
 configuration.projecte.server.misc.unsafe_key_binds,Unsafe Key Binds,不安全なキー設定
 configuration.projecte.server.misc.unsafe_key_binds.tooltip,False requires your hand be empty for Gem Armor Offensive Abilities to be readied or triggered.,Falseの場合、ジェムアーマーの攻撃能力を準備または発動するには手が空である必要があります。
 curios.identifier.klein_star,Klein Star,クラインスター
-divining_rod.projecte.range.16,16x3x3,16x3x3
-divining_rod.projecte.range.3,3x3x3,3x3x3
-divining_rod.projecte.range.64,64x3x3,64x3x3
+divining_rod.projecte.range.16,16x3x3,16x3x3範囲
+divining_rod.projecte.range.3,3x3x3,3x3x3範囲
+divining_rod.projecte.range.64,64x3x3,64x3x3範囲
 emc.projecte.no_knowledge,Unlearned,学ばれていない
 emc.projecte.too_much,WAY TOO MUCH,あまりにも多い
 entity.projecte.fire_projectile,Fireball,ファイアボール
@@ -485,7 +485,7 @@ misc.projecte.whitelist,Whitelist,ホワイトリスト
 mode.projecte.arcana.1,Zero,ゼロ
 mode.projecte.arcana.2,Ignition,点火
 mode.projecte.arcana.3,Harvest,収穫
-mode.projecte.arcana.4,SWRG,SWRG
+mode.projecte.arcana.4,SWRG,SWRG装備
 mode.projecte.katar.1,Slay Hostile,敵を倒す
 mode.projecte.katar.2,Slay All,すべて倒す
 mode.projecte.mercurial_eye.1,Creation,創造
@@ -585,23 +585,23 @@ tooltip.projecte.tome,Unlocks all transmutation knowledge when learned,習得す
 tooltip.projecte.volcanite.2,Acts as infinitely full lava bucket,無限に満たされたラヴァーバケツとして動作します。
 tooltip.projecte.volcanite.4,All operations cost 32 EMC!,すべての操作は32EMCかかります!
 transmutation.projecte.learned.1,L,習
-transmutation.projecte.learned.2,e,e
-transmutation.projecte.learned.3,a,a
-transmutation.projecte.learned.4,r,r
-transmutation.projecte.learned.5,n,n
-transmutation.projecte.learned.6,e,e
-transmutation.projecte.learned.7,d,d
-transmutation.projecte.learned.8,!,!
+transmutation.projecte.learned.2,e,習
+transmutation.projecte.learned.3,a,得
+transmutation.projecte.learned.4,r,!
+transmutation.projecte.learned.5,n,な
+transmutation.projecte.learned.6,e,習
+transmutation.projecte.learned.7,d,得
+transmutation.projecte.learned.8,!,習得!
 transmutation.projecte.transmute,Transmutation,変換
 transmutation.projecte.unlearned.1,U,未
-transmutation.projecte.unlearned.2,n,n
+transmutation.projecte.unlearned.2,n,な
 transmutation.projecte.unlearned.3,l,得
-transmutation.projecte.unlearned.4,e,e
-transmutation.projecte.unlearned.5,a,a
-transmutation.projecte.unlearned.6,r,r
-transmutation.projecte.unlearned.7,n,n
-transmutation.projecte.unlearned.8,e,e
-transmutation.projecte.unlearned.9,d,d
+transmutation.projecte.unlearned.4,e,習
+transmutation.projecte.unlearned.5,a,得
+transmutation.projecte.unlearned.6,r,!
+transmutation.projecte.unlearned.7,n,な
+transmutation.projecte.unlearned.8,e,習
+transmutation.projecte.unlearned.9,d,得
 command.projecte.clear_knowledge.notify,Your transmutation knowledge was cleared by %s!,あなたの変換知識が %s にクリアされました！
 command.projecte.clear_knowledge.success,Cleared knowledge for: %s,知識をクリア: %s
 command.projecte.dump_missing_emc.multiple_missing,"%s Items are missing an EMC value, printing to client log.",%s 個のアイテムがEMC値を持っていません。サーバーログに出力します。
@@ -609,14 +609,14 @@ command.projecte.emc.invalid_item,"Error: The item or tag ""%s"" was not found!"
 command.projecte.remove.success,Removed EMC value for %s.,%s のEMC値を削除しました。
 command.projecte.reset.success,Reset EMC value for %s.,%s のEMC値をリセットしました。
 command.projecte.set.success,Set EMC value for %s to %s!,%s のEMC値を %s に設定しました！
-command.projecte.showbag.named,%s (%s),%s (%s)
+command.projecte.showbag.named,%s (%s),%s（%s）
 command.projecte.showbag.offline.notfound,UUID %s not found in playerdata/,UUID %s がplayerdata/ に見つかりません
 command.projecte.showbag.offline.uuid,Malformed UUID: %s,不正なUUID: %s
 divining_rod.projecte.avg_emc,Average EMC for %s blocks: %s,%s ブロックの平均 EMC: %s
 divining_rod.projecte.max_emc,Max EMC: %s,最大EMC: %s
 divining_rod.projecte.second_max,Second Max EMC: %s,2番目の最大 EMC: %s
 divining_rod.projecte.third_max,Third Max EMC: %s,最大 EMC 3: %s
-emc.projecte.emc,%s EMC,%s EMC
+emc.projecte.emc,%s EMC,%sエッセンシャル
 emc.projecte.has_knowledge,Transmutable,変換可能
 emc.projecte.max_gen_rate,Maximum Generation Rate: %s EMC/s,最大生成レート: %s EMC/秒
 emc.projecte.max_output_rate,Maximum Output Rate: %s EMC/s,最大出力レート: %s EMC/秒
@@ -640,10 +640,10 @@ emc.projecte.postfix.7,%s Decillion,%s 正
 emc.projecte.postfix.8,%s Undecillion,%s 清
 emc.projecte.postfix.9,%s Duodecillion,%s 静
 emc.projecte.stored,Stored EMC: %s,貯蔵EMC: %s
-emc.projecte.tooltip,EMC: %s,EMC: %s
+emc.projecte.tooltip,EMC: %s,エッセンシャル: %s
 emc.projecte.tooltip.stack,Stack EMC: %s,スタック EMC: %s
 emc.projecte.tooltip.stack.with_sell,Stack EMC: %s (%s),スタック EMC: %s (%s)
-emc.projecte.tooltip.with_sell,EMC: %s (%s),EMC: %s (%s)
+emc.projecte.tooltip.with_sell,EMC: %s (%s),エッセンシャル: %s（%s）
 gem.projecte.night_vision,Night Vision: %s,暗視: %s
 gem.projecte.night_vision.prompt,Press %s to toggle Night Vision,%s キーで暗視をトグル
 gem.projecte.step_assist,Step Assist: %s,ステップアシスト: %s
@@ -837,7 +837,7 @@ pe.arcana.mode,Mode:,モード:
 pe.arcana.mode.0,Zero,ゼロ
 pe.arcana.mode.1,Ignition,点火
 pe.arcana.mode.2,Harvest,収穫
-pe.arcana.mode.3,SWRG,SWRG
+pe.arcana.mode.3,SWRG,SWRG装備
 pe.arcana.inactive,Inactive!,無効！
 pe.archangel.pedestal1,Fires arrows at nearby mobs,近いモンスターに矢を放つ
 pe.archangel.pedestal2,Triggers every %s,%s ごとにトリガー
@@ -881,11 +881,11 @@ pe.divining.secondmax,Second Max EMC: %s,2番目の最大 EMC: %s
 pe.divining.thirdmax,Third Max EMC: %s,最大 EMC 3: %s
 pe.dmfurnace.shortname,DM Furnace,DM 炉
 pe.rmfurnace.shortname,RM Furnace,RM 炉
-pe.emc.emc_tooltip_prefix,EMC:,EMC:
+pe.emc.emc_tooltip_prefix,EMC:,エッセンシャル:
 pe.emc.maxgenrate_tooltip,Maximum Generation Rate:,最大生成率:
 pe.emc.maxoutrate_tooltip,Maximum Output Rate:,最大出力速度:
 pe.emc.maxstorage_tooltip,Maximum Storage:,最大ストレージ:
-pe.emc.name,EMC,EMC
+pe.emc.name,EMC,エッセンシャル
 pe.emc.rate,EMC/s,EMC/秒
 pe.emc.stackemc_tooltip_prefix,Stack EMC:,スタック EMC:
 pe.emc.storedemc_tooltip,Stored EMC:,保存されたEMC:
@@ -980,22 +980,22 @@ pe.tome.tooltip1,Unlocks all transmutation knowledge when learned,習得する�
 pe.transmutation.already_using,Someone is already using this transmutation table!,この転換テーブルはすでに使用中です！
 pe.transmutation.transmute,Transmutation,変換
 pe.transmutation.learned0,L,習
-pe.transmutation.learned1,e,e
-pe.transmutation.learned2,a,a
-pe.transmutation.learned3,r,r
-pe.transmutation.learned4,n,n
-pe.transmutation.learned5,e,e
-pe.transmutation.learned6,d,d
-pe.transmutation.learned7,!,!
+pe.transmutation.learned1,e,習
+pe.transmutation.learned2,a,得
+pe.transmutation.learned3,r,!
+pe.transmutation.learned4,n,な
+pe.transmutation.learned5,e,習
+pe.transmutation.learned6,d,得
+pe.transmutation.learned7,!,習得!
 pe.transmutation.unlearned0,U,未
-pe.transmutation.unlearned1,n,n
+pe.transmutation.unlearned1,n,な
 pe.transmutation.unlearned2,l,得
-pe.transmutation.unlearned3,e,e
-pe.transmutation.unlearned4,a,a
-pe.transmutation.unlearned5,r,r
-pe.transmutation.unlearned6,n,n
-pe.transmutation.unlearned7,e,e
-pe.transmutation.unlearned8,d,d
+pe.transmutation.unlearned3,e,習
+pe.transmutation.unlearned4,a,得
+pe.transmutation.unlearned5,r,!
+pe.transmutation.unlearned6,n,な
+pe.transmutation.unlearned7,e,習
+pe.transmutation.unlearned8,d,得
 pe.update.available,New ProjectE update available! Version: %s,新しい ProjectE アップデートが利用できます！バージョン: %s
 pe.update.getit,Get it here!,ここで取得！
 pe.volcanite.tooltip1,Press %s to fire a lava projectile,%s キーで溶岩弾を発射
@@ -1013,7 +1013,7 @@ pe.nei.worldtransmute.description,"Click in world, shift click for second output
 pe.nei.philo,Philosopher's Stone Smelting,哲学者の石の製錬
 pe.nei.collector,Collector Fuel Upgrades,コレクター燃料アップグレード
 pe.manual.index,Index,インデックス
-pe.manual.index_button,ToC,ToC
+pe.manual.index_button,ToC,目次
 pe.manual.pe_alchemical_bag,"A practicing alchemist like yourself has no time to constantly pick up and place down Alchemical Chests for storage. By sprinkling High power Covalence Dust on an alchemical chest and wrapping it in cloth, one can shrink the chest down to the size of a pouch. The bag has all the capacity of the chest. Curiously, the bags seem to be bound to some metaphysical network, as all bags of the same color seem to contain the same items, regardless of if the bag was yours or your neighbor's. The bag also seems to activate magical items the same way the chest does.",あなたのような実践的な錬金術師は、常に錬金術チェストを出し入れしながら保管する時間がありません。高い力のコヴァレンシー・ダストを錬金術チェストに振りかけ、布で包むことで、チェストをポーチのサイズまで縮小できます。バッグはチェストの全ての容量を持っています。興味深いことに、バッグは何らかのメタフィジカルネットワークに結合されているようで、同じ色のバッグはそのバッグがあなたのものであろうと隣人のものであろうと、関係なく同じアイテムを含んでいるようです。バッグはまたチェストと同じ方法で魔法のアイテムを起動することができます。
 pe.manual.pe_philosophers_stone,"For centuries legends have been spread about the Philosopher's Stone and its powers. Transmutation without circles, immortality, all of the riches one could desire, and more are said to be within the wielders power. While it may forever be lost to time, modern alchemists have discovered the secret to synthesizing a suitable replacement for some of the more basic powers. Be warned however as those who have succeeded in its creation often have a new look in their eyes, bringing with them tales of fire and demons.",何世紀にもわたり、賢者の石とその力についての伝説が広がってきました。円を使わない錬成、不死、望むだけの富など、使い手の力に属していると言われるものが多くあります。それは永遠に時間とともに失われてしまったかもしれませんが、現代の錬金術師たちはより基本的な力の適切な代替品を合成する秘密を発見しました。しかし、その作成に成功した者たちは、しばしば火と悪魔の物語をもたらし、新しい視線で見つめるようになることに注意してください。
 pe.manual.pe_repair_talisman,"Covalence Dust may be a cure-all for tool wear and tear, however manually rubbing it over knicks and dings can get tedious fast. Enter the Repair Talisman, by wrapping up the three colors of Covalence Dust in a tight bundle it can be distributed gradually over the tools in your bag, allowing you to tend to your sheep and perform other tasks of utmost importance.",コヴァレンシー・ダストは工具の摩耗の万能薬かもしれませんが、傷やへこみを手で塗り続けるのはすぐに退屈になります。修復タリスマンを試してみてください。3色のコヴァレンシー・ダストを束ねて包むことで、バッグ内の工具に徐々に分配でき、羊の世話やその他の最も重要なタスクを実行できます。
@@ -1032,7 +1032,7 @@ pe.manual.pe_nova_catalyst,"The Nova Catalyst is a powerful alchemical explosive
 pe.manual.pe_transmutation_stone,"The Transmutation Table allows the alchemist to study the makeup of materials, and break down others to create more of them. Dirt goes in, Diamonds come out!",錬成テーブルは、錬金術師が材料の構成を研究し、他のものを分解してより多くを作成することを可能にします。土が入ると、ダイヤモンドが出てきます！
 pe.manual.introduction,"By opening this book you have taken the first steps on your journey to become a High Alchemist. Perhaps you are weary of performing the same grindy tasks over and over, or you simply desire more power for... purposes, or you'd like the utility and art of magic at your disposal. Regardless, alchemy is sure to fit your needs. Before you can begin however it is important to understand the past...    The art of alchemy has been known since ancient times. It was discovered by a man known as x3n0ph0b3, and refined through multiple iterations. After x3n0ph0b3's retirement, a new apprentice, Pahimar, took up development of the art, but many alchemists were displeased by his new methods, a war broke out between the two sides with strange audible chants akin to ""lazy cheaters"" and ""EE2 OP!!!!!!"" filling the air. x3n0's followers thought all was lost until a wander by the name of MozeIntel led them underground, he had studied and reproduced x3n0's work, thus the old art lived on. Eventually, for reasons unknown (reasons he strangely described as ""IRL""), Moze retired, leaving his work to an eager apprentice, SinkillerJ. Sin went on to not only bring peace to the two sides allowing them to coexist, but to also form a council of alchemists dedicated to the preservation of the old art:    Williewillus - Lord of Refactors    Blubberbub - Alchemical Value Archivist    Lilylicious - Lady of Little Big Things    We, the council of alchemists, now impart upon you our most extensive knowledge of the alchemical arts, and welcome you, young alchemist, to the world of ProjectE.",この本を開いたあなたは、高位の錬金術師になるための最初の一歩を踏み出しました。同じ退屈なタスクを何度も繰り返すのに疲れているのかもしれませんし、単に...の目的でより強力な力が欲しいのかもしれません。あるいは、魔法の有用性と芸術を手に入れたいのかもしれません。いずれにせよ、錬金術はあなたのニーズを満たしてくれるでしょう。しかし、始める前に過去を理解することが重要です。    錬金術の芸術は古い時代から知られていました。それはx3n0ph0b3という人物によって発見され、複数の段階を経て洗練されました。x3n0ph0b3の引退後、新しい弟子のPahimarが錬金術の発展を引き継ぎましたが、多くの錬金術師は彼の新しい方法に不満を持ち、両陣営の間で戦争が勃発しました。「lazy cheaters（怠け者）」や「EE2 OP!!!!!!(過度に強い)」といった奇妙な呪文のような声が空に満ちていました。x3nの信奉者たちは全てが失われたと思っていましたが、MozeIntelという放浪者が彼らを地下へ導きました。彼はx3nの仕事を研究し再現し、古い芸術は生き続けました。最終的に、未知の理由で（彼が奇妙に「IRL」と表現した理由で）、Mozeは引退し、彼の仕事を熱心な弟子SinkillerJに託しました。Sinは両陣営に平和をもたらし、共存を実現させただけでなく、古い芸術の保存に専念する錬金術師評議会を設立しました。    Williewillus - リファクタリングの主    Blubberbub - 錬金術価値記録保管人    Lilylicious - 小さな大きなことの女主人    我ら、錬金術師評議会は、今、あなたに我らの最も広範な錬金術知識を授け、若き錬金術師よ、ProjectEの世界へようこそ。
 pe.manual.introduction.header,Introduction,はじめに
-pe.manual.img_alchchest.header,alchchest.png,alchchest.png
+pe.manual.img_alchchest.header,alchchest.png,alchchest画像
 item.pe_dm_armor_0.name,Dark Matter Helmet,ダークマターの兜
 item.pe_dm_armor_1.name,Dark Matter Chestplate,ダークマターの鎧
 item.pe_dm_armor_2.name,Dark Matter Leggings,ダークマターの脛当て
@@ -1085,3 +1085,22 @@ pe.command.clearknowledge.usage,/projecte clearKnowledge [username] (no params t
 pe.pedestal.tooltip1,Shift right-click to open GUI,シフト + マウス右クリックでGUIを開く
 pe.pedestal.tooltip2,Right click to activate!,右クリックでアクティベート！
 pe.update.changelog,Use /projecte changelog for change log!,/projecte changelog を使用して変更ログを確認してください！
+configuration.projecte.mapping.pregenerated.tooltip,"When the next EMC mapping occurs write the results to config/ProjectE/pregenerated_emc.json and only ever run the mapping again when that file does not exist, this setting is set to false, or an error occurred parsing that file.",次のEMCマッピングが発生するとき、結果をconfig/ProjectE/pregenerated_emc.jsonに書き込み、ファイルが存在しない場合、この設定がfalseの場合、またはファイルの解析でエラーが発生した場合のみ、マッピングを再度実行します。
+configuration.projecte.server.cooldown.pedestal.life_stone.tooltip,Delay between Life Stone healing both food and hunger by 0.5 shank/heart while in the pedestal.,ペデスタル内でライフストーンが食料と満腹度を0.5シャンク/ハート回復させる間隔。
+configuration.projecte.server.difficulty.covalence_loss.rounding.tooltip,How rounding occurs when Covalence Loss results in a burn value less than 1 EMC. If true the value will be rounded up to 1. If false the value will be rounded down to 0.,コバレンス喪失が1 EMC未満のバーン値になる場合、丸めがどのように発生するかを指定します。trueの場合、値は1に切り上げられます。falseの場合、値は0に切り下げられます。
+configuration.projecte.server.difficulty.offensive_abilities.tooltip,Set to false to disable Gem Armor offensive abilities (helmet zap and chestplate explosion).,falseに設定するとジェムアーマーの攻撃能力（ヘルメットの放電とチェストプレートの爆発）が無効になります。
+configuration.projecte.server.effects.interdiction_mode.tooltip,If true the Interdiction Torch only affects hostile mobs and projectiles. If false it affects all non blacklisted living entities.,trueの場合、インターディクショントーチはホスティル化したモブと飛来物のみに影響します。falseの場合、すべての非ブラックリストの生物エンティティに影響します。
+fml.menu.mods.info.displayname.projecte,ProjectE,プロジェクトE
+misc.projecte.mod_name,ProjectE,プロジェクトE
+itemGroup.projecte,ProjectE,プロジェクトE
+pe.command.main.usage,"/projecte <changelog, clearKnowledge, setEMC, reloadEMC, removeEMC, resetEMC>","/projecte <変更ログ, 知識をクリア, EMCを設定, EMCをリロード, EMCを削除, EMCをリセット>"
+pe.emc.postfix.1,Quadrillion,クアドリリオン
+pe.emc.postfix.2,Quintillion,クイントリリオン
+pe.morningstar.mode2,3x Tallshot,3x トールショット
+pe.morningstar.mode3,3x Wideshot,3x ワイドショット
+pe.morningstar.mode4,3x Longshot,3x 遠距離
+pe.redpick.mode2,3x Tallshot,3x トールショット
+pe.redpick.mode3,3x Wideshot,3x ワイドショット
+pe.redpick.mode4,3x Longshot,3x 遠距離
+pe.relay.mk3,Relay MKIII,リレー MKIII
+itemGroup.ProjectE,ProjectE,プロジェクトE

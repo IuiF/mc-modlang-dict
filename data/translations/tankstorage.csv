@@ -21,7 +21,7 @@ popup.tankstorage.interactionmode.open_screen,Tank Mode,タンクモード
 popup.tankstorage.unlinked,This Tank Link not linked to a Tank. Craft one to link it instead.,このタンクリンクはタンクに接続されていません。代わりに作成して接続してください。
 tag.item.tankstorage.tanks,Tanks,タンク
 title.tankstorage.insertmode.all,Insert All,すべて挿入
-title.tankstorage.insertmode.filtered,Filtered,フィルター
+title.tankstorage.insertmode.filtered,Filtered,フィルタ済み
 title.tankstorage.insertmode.void_overflow,Void Overflow,虚空の過剰
 tooltip.tankstorage.insert_or_extract_desc,"Right Click to Insert, Left Click to Extract",右クリックで挿入、左クリックで抽出
 tooltip.tankstorage.insertmode.all,All fluids can be inserted,すべての液体を挿入できます
@@ -29,3 +29,16 @@ tooltip.tankstorage.insertmode.filtered,Only Fluids already contained can be ins
 tooltip.tankstorage.insertmode.void_overflow,Overflowing fluids will get voided,過剰な液体は虚空に消失します
 tooltip.tankstorage.numslots,§7Number of slots: %s,§7スロット数: %s
 tooltip.tankstorage.slotsize,§7Slot capacity: %s buckets,§7スロット容量: %s バケツ
+emi.info.tankstorage.tanks,"§lOverview§r
+Tank Storage adds tanks to store fluids. There are 7 tiers of tanks, with increasing fluid capacity and slot count.
+
+Tank Links work similarly to ender chests. Craft it with another tank to link them together. Fluids can now be accessed in multiple places at the same time.
+
+The Tank Dock allows you to place your tank in the world, to allow for interaction with fluid pipes and such.
+
+§lFeatures§r
+- Slot filtering: Hold alt and click a slot to set the filter. You can Also drag a fluid from EMI/REI.
+
+- Bucket mode: Pick up and place fluids directly from the Tank. Right click while crouching to toggle bucket mode. Scroll while crouching to choose fluid. The selected fluid decides which fluid can be inserted or extracted. Disable bucket mode to allow all fluids.
+
+- Insert modes: Choose what happens when trying to insert fluids.",

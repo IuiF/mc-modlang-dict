@@ -1,5 +1,5 @@
 ﻿key,source_text,target_text
-block.casting.black_brick_glass,Black Brick Glass (BETA),ブラックブリックガラス (ベータ)
+block.casting.black_brick_glass,Black Brick Glass (BETA),ブラックレンガガラス (ベータ)
 block.casting.black_bricks,Black Bricks,黒いレンガ
 block.casting.chilled_water,Chilled Water,冷やされた水
 block.casting.controller,Simple Controller,シンプルコントローラ
@@ -116,44 +116,22 @@ Place the right items and or fluids in the Equipment Modifier then add a valid p
 
 Holding Shift whilst above the tank and left clicking will remove the fluid from the tank!
 
-Stores fluids when broken!","装備に修飾子を適用するために使用されます！最初の修飾子は装備にレベル 1 を追加します。追加の修飾子を使用するにはさらにレベルが必要です。ツールを使用してレベルアップし、より多くの修飾子スロットを取得してください。
-
-修理型を使用すると、装備の融解バリアントを使用して装備を修理できます！
-
-JEIで装備修飾子を検索して、修飾子を表示してください！
-
-正しいアイテムまたは液体を装備修飾子に配置してから、有効な装備を追加してその効果を追加してください！
-
-タンクの上でShiftキーを押しながら左クリックすると、タンクから液体が削除されます！
-
-壊れたときに液体を保存します！"
+Stores fluids when broken!",装備に修飾を適用するために使用します！最初の修飾は装備にレベル1を追加し、追加の修飾にはさらにレベルが必要です。ツールを使ってレベルアップし、より多くの修飾スロットを取得してください。
 gui.casting.jei.information.fluid_mover,"Used to move fluids between tanks, Holds up to 8000mb of a single fluid. 
 
 Click on a tank to collect fluid and click on another tank to add!
 
-Will try to fill the selected tank before collecting fluids!","タンク間で液体を移動するために使用されます。単一の液体の最大8000mbを保持します。
-
-タンクをクリックして液体を収集し、別のタンクをクリックして追加してください！
-
-液体を収集する前に選択したタンクを満たそうとします！"
+Will try to fill the selected tank before collecting fluids!",タンク間で液体を移動させるために使用され、単一の液体最大8000mbまで保持します。
 gui.casting.jei.information.mixer,"The Mixer can be used to mix molten fluids together! 
 
 Holding Shift whilst above a certain tank and left clicking will remove the fluid from the that tank!
 
-Stores fluids when broken!","ミキサーは融解液を一緒に混ぜるために使用できます！
-
-特定のタンクの上でShiftキーを押しながら左クリックすると、そのタンクから液体が削除されます！
-
-壊れたときに液体を保存します！"
+Stores fluids when broken!",ミキサーは溶融液を混ぜるために使用できます！
 gui.casting.jei.information.mixer_whisk,"Used to speed up the mixer when placed above it. 
 
 For each whisk above the mixer the tick rate is decreased by 40 ticks!
 
-Additional whisks placed after the tick rate is at its lowest (20) will have no effect!","ミキサーの上に配置されたときにミキサーを高速化するために使用されます。
-
-ミキサーの上の各ホイスクに対して、ティックレートは40ティック減少します！
-
-ティックレートが最低（20）に達した後に配置された追加のホイスクは効果がありません！"
+Additional whisks placed after the tick rate is at its lowest (20) will have no effect!",上に置くとミキサーの速度を速めるために使用します。
 gui.casting.jei.information.solidifier,"The Solidifier is used to turn your molten resource into useful item! 
 
 This can use an optional Fuel Tank adjacent to it, cooler fluids (below 1000) in the tank will make the Solidifier faster
@@ -162,24 +140,12 @@ Fluid can be locked to prevent another fluids from going in, click the lock butt
 
 Holding Shift whilst above the tank and left clicking will remove the fluid from the tank!
 
-Stores fluids when broken!","固化装置は融解資源を有用なアイテムに変えるために使用されます！
-
-これは隣接したオプションの燃料タンクを使用でき、タンク内のより冷たい液体（1000未満）は固化装置を高速化します
-
-別の液体が入るのを防ぐために液体をロックできます。液体タンクの横のロックボタンをクリックしてください。
-
-タンクの上でShiftキーを押しながら左クリックすると、タンクから液体が削除されます！
-
-壊れたときに液体を保存します！"
+Stores fluids when broken!",ソリディファイアは、溶けた資源を有用なアイテムに変えるために使用されます！
 gui.casting.jei.information.tank,"The Tank stores the fuel used in the Controller to melt items!
 
 Can also be used with the Solidifier colder fluids in the tank makes the Solidifier faster 
 
-Stores fluids when broken!","タンクはコントローラーで使用される燃料を保存します！
-
-固化装置でも使用できます。タンク内のより冷たい液体は固化装置を高速化します
-
-壊れたときに液体を保存します！"
+Stores fluids when broken!",タンクは、コントローラでアイテムを溶かすために使用される燃料を貯蔵します！
 gui.casting.jei.melting,Melting,溶融
 gui.casting.jei.melting_temp,%s Min Temp,%s 最低温度
 gui.casting.jei.mixing,Mixing,ミキシング
@@ -188,19 +154,19 @@ gui.casting.jei.solidifier,Solidifier,固体化装置
 gui.casting.multiblock_controller.no_controller,No Controller Found!,コントローラが見つかりません！
 gui.casting.multiblock_controller.no_fuel_tank,No Fuel Tank Found!,燃料タンクが見つかりません!
 item.casting.auto_smelt,Equipment Modifier: Auto Smelt,装備修飾子: 自動製錬
-item.casting.ball_mold,Ball Mold,ボール型の型
+item.casting.ball_mold,Ball Mold,ボール型
 item.casting.beheading,Equipment Modifier: Beheading,装備修飾子：頭破壊
 item.casting.black_brick,Black Brick,黒いレンガ
 item.casting.block_mold,Block Mold,ブロック型
 item.casting.chilled_water_bucket,Chilled Water Bucket,冷却水バケツ
-item.casting.dust_mold,Dust Mold,モールド
+item.casting.dust_mold,Dust Mold,粉の型
 item.casting.efficiency,Equipment Modifier: Efficiency,装備修飾子：効率
 item.casting.equipment_level,Equipment Modifier: Level Up,装備修飾子：レベルアップ
 item.casting.excavation,Equipment Modifier: Excavation,装備修飾子：掘削
 item.casting.feather_falling,Equipment Modifier: Feather Falling,装備修飾子：羽落ち
 item.casting.flight,Equipment Modifier: Flight,装備修飾子: 飛行
 item.casting.fluid_mover,Fluid Mover,液体移動器
-item.casting.fortune,Equipment Modifier: Fortune,装備修飾: フォートナス
+item.casting.fortune,Equipment Modifier: Fortune,装備修飾子：幸運
 item.casting.gear_mold,Gear Mold,ギアモールド
 item.casting.gem_mold,Gem Mold,宝石型
 item.casting.iced_water_bucket,Iced Water Bucket,凍った水のバケツ
@@ -208,17 +174,17 @@ item.casting.ignite,Equipment Modifier: Ignite,装備修飾子: 点火
 item.casting.ingot_mold,Ingot Mold,インゴット型
 item.casting.jets,Equipment Modifier: Jets,装備修飾子: ジェット
 item.casting.knockback,Equipment Modifier: Knockback,装備修飾子：ノックバック
-item.casting.lava_walker,Equipment Modifier: Lava Walker,装備修飾子：ラヴァウォーカー
+item.casting.lava_walker,Equipment Modifier: Lava Walker,装備修飾子：ラバウォーカー
 item.casting.lifesteal,Equipment Modifier: Lifesteal,装備修飾子：ライフステール
 item.casting.looting,Equipment Modifier: Looting,装備修飾: ローティング
 item.casting.magnet,Equipment Modifier: Magnet,装備修飾子: 電磁力
 item.casting.molten_aluminum_bucket,Molten Aluminum Bucket,溶融 アルミニウム Bucket
-item.casting.molten_black_brick_bucket,Molten Black Brick Bucket,溶融黒煉瓦のバケツ
-item.casting.molten_black_quartz_bucket,Molten Black Quartz Bucket,溶融黒クォーツのバケツ
+item.casting.molten_black_brick_bucket,Molten Black Brick Bucket,溶融黒レンガバケツ
+item.casting.molten_black_quartz_bucket,Molten Black Quartz Bucket,溶融黒水晶バケツ
 item.casting.molten_blaze_bucket,Molten Blaze Bucket,溶融ブレイズバケツ
 item.casting.molten_brass_bucket,Molten Brass Bucket,溶融 真鍮 Bucket
 item.casting.molten_bronze_bucket,Molten Bronze Bucket,溶融 青銅 Bucket
-item.casting.molten_coal_bucket,Molten Coal Bucket,溶岩コールバケツ
+item.casting.molten_coal_bucket,Molten Coal Bucket,溶融石炭のバケツ
 item.casting.molten_conductive_alloy_bucket,Molten Conductive Alloy Bucket,溶融導電合金バケツ
 item.casting.molten_constantan_bucket,Molten Constantan Bucket,溶岩常春鉄のバケツ
 item.casting.molten_copper_alloy_bucket,Molten Copper Alloy Bucket,溶融銅合金のバケツ
@@ -228,31 +194,31 @@ item.casting.molten_debris_bucket,Molten Debris Bucket,溶古代の残骸入り�
 item.casting.molten_diamond_bucket,Molten Diamond Bucket,溶けたダイアモンド入りバケツ
 item.casting.molten_electrum_bucket,Molten Electrum Bucket,溶融 エレクトラム Bucket
 item.casting.molten_emerald_bucket,Molten Emerald Bucket,溶けたエメラルド入りバケツ
-item.casting.molten_end_steel_bucket,Molten End Steel Bucket,溶融エンド鋼のバケツ
-item.casting.molten_end_stone_bucket,Molten End Stone Bucket,溶岩のエンドストーンバケツ
+item.casting.molten_end_steel_bucket,Molten End Steel Bucket,溶融エンド鋼バケット
+item.casting.molten_end_stone_bucket,Molten End Stone Bucket,熔融エンドストーンバケツ
 item.casting.molten_ender_bucket,Molten Ender Bucket,溶けたエンダー入りバケツ
 item.casting.molten_enderium_bucket,Molten Enderium Bucket,溶融エンダリウムバケツ
 item.casting.molten_energetic_alloy_bucket,Molten Energetic Alloy Bucket,溶融エネルギー合金のバケツ
-item.casting.molten_experience_bucket,Molten Experience Bucket,溶岩経験値のバケツ
+item.casting.molten_experience_bucket,Molten Experience Bucket,溶けた経験のバケツ
 item.casting.molten_glass_bucket,Molten Glass Bucket,溶けたグラス入りバケツ
-item.casting.molten_glowstone_bucket,Molten Glowstone Bucket,溶融グロウストーンバケツ
+item.casting.molten_glowstone_bucket,Molten Glowstone Bucket,熔融光石バケツ
 item.casting.molten_gold_bucket,Molten Gold Bucket,溶融 金 Bucket
 item.casting.molten_invar_bucket,Molten Invar Bucket,溶融 インバー Bucket
-item.casting.molten_iridium_bucket,Molten Iridium Bucket,溶融イリジウムバケツ
+item.casting.molten_iridium_bucket,Molten Iridium Bucket,溶融イリジウムのバケツ
 item.casting.molten_iron_bucket,Molten Iron Bucket,溶融 鉄 Bucket
-item.casting.molten_lapis_bucket,Molten Lapis Bucket,溶融ラピスバケツ
+item.casting.molten_lapis_bucket,Molten Lapis Bucket,溶けたラピスラズリバケツ
 item.casting.molten_lead_bucket,Molten Lead Bucket,溶融鉛のバケツ
 item.casting.molten_lumium_bucket,Molten Lumium Bucket,溶融したルミウムのバケツ
 item.casting.molten_netherite_bucket,Molten Netherite Bucket,溶融ネザ―ライト入りバケツ
 item.casting.molten_nickel_bucket,Molten Nickel Bucket,溶融 ニッケル Bucket
 item.casting.molten_obsidian_bucket,Molten Obsidian Bucket,溶けた黒曜石入りバケツ
 item.casting.molten_osmium_bucket,Molten Osmium Bucket,溶融したオスミウムのバケツ
-item.casting.molten_peridot_bucket,Molten Peridot Bucket,溶融ペリドットバケツ
+item.casting.molten_peridot_bucket,Molten Peridot Bucket,熔融ペリドットバケツ
 item.casting.molten_platinum_bucket,Molten Platinum Bucket,溶融 プラチナ Bucket
-item.casting.molten_pulsating_alloy_bucket,Molten Pulsating Alloy Bucket,溶融脈動合金バケツ
+item.casting.molten_pulsating_alloy_bucket,Molten Pulsating Alloy Bucket,熔融脈動合金バケツ
 item.casting.molten_quartz_bucket,Molten Quartz Bucket,溶けたクォーツ入りバケツ
 item.casting.molten_quartz_enriched_iron_bucket,Molten Quartz Enriched Iron Bucket,熔岩クォーツを豊富に含む鉄のバケツ
-item.casting.molten_redstone_alloy_bucket,Molten Redstone Alloy Bucket,溶岩レッドストーン合金バケツ
+item.casting.molten_redstone_alloy_bucket,Molten Redstone Alloy Bucket,溶融レッドストーン合金バケツ
 item.casting.molten_redstone_bucket,Molten Redstone Bucket,熔融のレッドストーンバケツ
 item.casting.molten_ruby_bucket,Molten Ruby Bucket,溶融ルビーのバケツ
 item.casting.molten_sapphire_bucket,Molten Sapphire Bucket,溶融サファイアバケツ
@@ -263,25 +229,25 @@ item.casting.molten_soul_bucket,Molten Soul Bucket,溶融魂のバケツ
 item.casting.molten_soularium_bucket,Molten Soularium Bucket,溶融ソウルアリウムバケツ
 item.casting.molten_steel_bucket,Molten Steel Bucket,溶融鋼バケツ
 item.casting.molten_stone_bucket,Molten Stone Bucket,溶けた石のバケツ
-item.casting.molten_tin_bucket,Molten Tin Bucket,溶融 錫 Bucket
+item.casting.molten_tin_bucket,Molten Tin Bucket,溶融 スズ Bucket
 item.casting.molten_uranium_bucket,Molten Uranium Bucket,溶融 ウラン Bucket
-item.casting.molten_vibrant_alloy_bucket,Molten Vibrant Alloy Bucket,溶岩の鮮やかな合金のバケツ
+item.casting.molten_vibrant_alloy_bucket,Molten Vibrant Alloy Bucket,溶融鮮やか合金バケツ
 item.casting.molten_zinc_bucket,Molten Zinc Bucket,溶融亜鉛のバケツ
 item.casting.night_vision,Equipment Modifier: Night Vision,装備修飾子：夜間視界
-item.casting.nugget_mold,Nugget Mold,金属塊型
+item.casting.nugget_mold,Nugget Mold,ニグレット型
 item.casting.plate_mold,Plate Mold,プレート型
 item.casting.protection,Equipment Modifier: Protection,装備修飾子：保護
-item.casting.repairing,Equipment Modifier: Repairing,装備修飾: 修理
-item.casting.repairing_mold,Repairing Mold,型を修復中
+item.casting.repairing,Equipment Modifier: Repairing,装備修正：修理
+item.casting.repairing_mold,Repairing Mold,修理用型
 item.casting.rod_mold,Rod Mold,棒型
-item.casting.sharpness,Equipment Modifier: Sharpness,装備修飾: 精鋭
+item.casting.sharpness,Equipment Modifier: Sharpness,装備修飾子：鋭さ
 item.casting.silk_touch,Equipment Modifier: Silk Touch,装備修飾子：シルクタッチ
-item.casting.soulbound,Equipment Modifier: Soulbound,装備修飾: 灵魂縛り
+item.casting.soulbound,Equipment Modifier: Soulbound,装備修飾子：魂結び
 item.casting.speed,Equipment Modifier: Speed,装備修飾子：速度
 item.casting.step_assist,Equipment Modifier: Step Assist,装備修飾子：ステップアシスト
 item.casting.super_coolant_bucket,Super Coolant Bucket,超冷却液バケツ
 item.casting.teleporting,Equipment Modifier: Teleporting,装備修飾子：テレポート
-item.casting.torch_placing,Equipment Modifier: Torch Placing,装備修飾子: 火の置き換え
+item.casting.torch_placing,Equipment Modifier: Torch Placing,装備修飾子：松明設置
 item.casting.unbreaking,Equipment Modifier: Unbreaking,装備修飾子: 耐久
 item.casting.water_breathing,Equipment Modifier: Water Breathing,装備修飾子：水中呼吸
 item.casting.water_walker,Equipment Modifier: Water Walker,装備修飾子：水上歩行者
@@ -312,7 +278,7 @@ tooltips.casting.information.keybind_to_toggle,- Press chosen keybind (see contr
 tooltips.casting.information.knockback,Gives a tool Knockback up to level %s,レベル%sまでノックバック効果を付与するツール
 tooltips.casting.information.lava_walker,"Gives armor Lava Walker, allows the player to walk on lava up to level %s",防具 Lava Walker を付与し、プレイヤーはレベル %s までラバを歩けます。
 tooltips.casting.information.lifesteal,"Gives a tool Lifesteal, restores health when damaging enemies up to level %s",ライフストールツールを付与し、敵を傷つけることでレベル %s まで体力を回復します。
-tooltips.casting.information.looting,Gives a tool Looting up to level %s,ツールに最大レベル%sまでの略奪を付与します
+tooltips.casting.information.looting,Gives a tool Looting up to level %s,ツールに最大レベル %s までのローティングを付与
 tooltips.casting.information.modifiers,Modifiers - %s/%s,修飾子 - %s/%s
 tooltips.casting.information.night_vision,"Gives armor Night Vision, allows the player to see in the dark",防具にナイトビジョンを付与し、暗闇で視界を確保します
 tooltips.casting.information.protection,Gives armor Protection up to level %s,レベル%sまで防御力を付与するアーマー
@@ -321,19 +287,19 @@ tooltips.casting.information.repairing_mold,"When used in the Equipment Modifier
 tooltips.casting.information.sharpness,Gives a tool Sharpness up to level %s,ツールの鋭さをレベル %s まで可能にします。
 tooltips.casting.information.shift_to_disable,- Hold SHIFT to disable this modifier,この修飾子を無効にするには SHIFT を押してください。
 tooltips.casting.information.shift_to_toggle,- Hold SHIFT and Right Click to disable or enable this modifier,- SHIFTを押しながら右クリックして、この修飾子を無効化または有効化します
-tooltips.casting.information.silk_touch,Gives a tool Silk Touch up to level %s,ツールにシルクタッチを %s まで与えます
+tooltips.casting.information.silk_touch,Gives a tool Silk Touch up to level %s,ツールに最大レベル%sまでシルクタッチを付与します
 tooltips.casting.information.soulbound,Returns the item to the player after death,死亡時にアイテムをプレイヤーへ返します
 tooltips.casting.information.speed,"Gives armor Speed, allows the player to move faster up to level %s",防具速度を与え、プレイヤーの移動速度をレベル %s まで上げます
 tooltips.casting.information.step_assist,"Gives armor Step Assist, allows the player to step up blocks up to level %s",アーマー『ステップアシスト』を付与し、プレイヤーがブロックのレベル%sまで登れるようにします。
 tooltips.casting.information.torch_placing,Allows the tool to place torches on right click up to level %s,ツールで右クリックするとレベル %s までランタンを設置できます
-tooltips.casting.information.unbreaking,Gives a tool Unbreaking up to level %s,ツールにアンブレッキングを %s まで与えます
+tooltips.casting.information.unbreaking,Gives a tool Unbreaking up to level %s,ツールに耐久性を%sまで付与します
 tooltips.casting.information.valid_tool_types,Valid Equipment;,有効な装備;
 tooltips.casting.information.water_breathing,"Gives armor Water Breathing, allows the player to breathe underwater",防具に水中呼吸を付与し、プレイヤーが水中で呼吸できるようにします
 tooltips.casting.information.water_walker,"Gives armor Water Walker, allows the player to walk on water up to level %s",アーマー『ウォーターワーカー』を付与し、プレイヤーが水面上でレベル%sまで歩けるようにします。
 tooltips.casting.leggings_modifiers,- Leggings,- レギンス
 tooltips.casting.paxel_modifiers,- Paxels,- パクセル
 tooltips.casting.pickaxe_modifiers,- Pickaxes,- ツルハシ
-tooltips.casting.shear_modifiers,- Shears,- シェアス
+tooltips.casting.shear_modifiers,- Shears,- はさみ
 tooltips.casting.shovel_modifiers,- Shovels,- シャベル
 tooltips.casting.stats.auto_smelt,- Auto Smelt,- 自動製錬
 tooltips.casting.stats.beheading,- Beheading,- 頭を斬る
@@ -348,7 +314,7 @@ tooltips.casting.stats.jets,- Jets - %s,- ジェット - %s
 tooltips.casting.stats.knockback,- Knockback - %s,- ノックバック - %s
 tooltips.casting.stats.lava_walker,- Lava Walker,- ラバーワーカー
 tooltips.casting.stats.lifesteal,- Lifesteal - %s%% Damage Restored,- 生命回復 - %s%%のダメージが回復
-tooltips.casting.stats.looting,- Looting - %s,- 偷盗 - %s
+tooltips.casting.stats.looting,- Looting - %s,- 略奪 - %s
 tooltips.casting.stats.magnet,- Magnet - %s,- 電磁石 - %s
 tooltips.casting.stats.modifiers,Modifiers - %s/%s,修飾子 - %s/%s
 tooltips.casting.stats.night_vision,- Night Vision,- 夜間視力
@@ -357,11 +323,11 @@ tooltips.casting.stats.repairing,- Repairing - %s,- 修復 - %s
 tooltips.casting.stats.repairing_mold,"When inside the Equipment Modifier, this will allow you to repair your equipment using its molten variant!",装備修飾子の内側にある場合、融解バリアントを使用して装備を修理できます！
 tooltips.casting.stats.sharpness,- Sharpness - %s (+%s Attack Damage),- 鋭さ - %s (+%s 攻撃ダメージ)
 tooltips.casting.stats.silk_touch,- Silk Touch,- シルクタッチ
-tooltips.casting.stats.soulbound,- Soulbound,- 灵魂縛り
+tooltips.casting.stats.soulbound,- Soulbound,- 魂結び
 tooltips.casting.stats.speed,- Speed - %s,- 速度 - %s
 tooltips.casting.stats.step_assist,- Step Assist - %s,- ステップ補助 - %s
 tooltips.casting.stats.teleporting,- Teleporting - %s (%s Blocks),- テレポート - %s (%s ブロック)
-tooltips.casting.stats.torch_placing,- Torch Placing,- 火の灯を置く
+tooltips.casting.stats.torch_placing,- Torch Placing,- トーチ設置
 tooltips.casting.stats.unbreaking,- Unbreaking - %s,- 不破 - %s
 tooltips.casting.stats.water_breathing,- Water Breathing,- 水中呼吸
 tooltips.casting.stats.water_walker,- Water Walker,- 水中歩行
@@ -374,14 +340,9 @@ This needs a Fuel Tank to work. The Fuel Tank must contain a Fuel that is hot en
 
 Holding Shift whilst above a certain tank and left clicking will remove the fluid from the that tank!
 
-Stores fluids when broken!","コントローラーはアイテムを融解バリアントに融解するために使用できます！
-
-これは動作するために燃料タンクが必要です。燃料タンクはアイテムを融解するのに十分な温度の燃料を含む必要があり、より熱い液体はより速く融解します
-
-特定のタンクの上でShiftキーを押しながら左クリックすると、そのタンクから液体が削除されます！
-
-壊れたときに液体を保存します！"
+Stores fluids when broken!",コントローラーを使ってアイテムを溶融形態に変えることができます！
 gui.casting.multiblock_controller.off,Turn on the Multiblock at the top left of the GUI! If you can't see the button decrease your GUI scale!,GUIの左上でマルチブロックをオンにしてください！ボタンが見えない場合は、GUIスケールを減らしてください！
 tooltips.casting.information.flight,Gives armor Creative Flight,防具にクリエイティブフライトを付与
-tooltips.casting.information.magnet,"Gives armor Magnet, attracts items to the player up to level %s, block drops also enter the player's inventory",装備に磁石を与え、プレイヤーまでレベル %s のアイテムを引き付けます。ブロックドロップもプレイヤーのインベントリに入ります
-tooltips.casting.information.teleporting,"Gives a tool Teleporting, allows the tool to teleport you to far away blocks up to level %s. Costs 5 durability per teleport",ツールにテレポーティングを与え、ツールでレベル %s までの遠く離れたブロックにテレポートできます。テレポートごとに5耐久性がかかります
+tooltips.casting.information.magnet,"Gives armor Magnet, attracts items to the player up to level %s, block drops also enter the player's inventory",アーマー磁石を付与し、レベル%sまでアイテムをプレイヤーに引き寄せます。ブロックのドロップもプレイヤーのインベントリに入ります
+tooltips.casting.information.teleporting,"Gives a tool Teleporting, allows the tool to teleport you to far away blocks up to level %s. Costs 5 durability per teleport",遠距離ブロックまでテレポートできるツールを与え、レベル %s までテレポート可能。1回のテレポートにつき耐久度5減少
+gui.casting.jei.multiblock_controller_output,%smB in Multiblock Controller,

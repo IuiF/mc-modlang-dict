@@ -1,5 +1,5 @@
 ﻿key,source_text,target_text
-fastquit.config.compat,Mod Compatibility,モジュール互換性
+fastquit.config.compat,Mod Compatibility,Mod互換性
 fastquit.config.compat.allowMultipleServers,Allow multiple running Worlds,複数の実行中ワールドを許可する
 fastquit.config.compat.allowMultipleServers.description,"When this option is enabled, you can join a new world while the old one is still saving.
 This is safe to do in vanilla Minecraft, but some mods may have issues when 2 servers run at the same time.",このオプションを有効にすると、古いワールドがまだ保存中でも新しいワールドに参加できます。バニラマインクラフトでは安全ですが、一部のModでは2つのサーバーが同時に実行されると問題が生じる可能性があります。
@@ -26,7 +26,7 @@ fastquit.modmenu.descriptionTranslation.fastquit,This mod lets you return to the
 fastquit.modmenu.summaryTranslation.fastquit,Return to the Title Screen while the world is still saving!,ワールドの保存中にタイトル画面へ戻ります！
 fastquit.toast.deleted,"""%s"" was deleted",%s が削除されました
 fastquit.toast.title,FastQuit done!,FastQuit完了！
-text.autoconfig.fastquit.category.compat,Mod Compatibility,モジュール互換性
+text.autoconfig.fastquit.category.compat,Mod Compatibility,Mod互換性
 text.autoconfig.fastquit.category.default,General,一般
 text.autoconfig.fastquit.category.performance,Performance,パフォーマンス
 text.autoconfig.fastquit.option.allowMultipleServers,Allow multiple running Worlds,複数の実行中ワールドを許可する
@@ -42,3 +42,5 @@ text.autoconfig.fastquit.option.showSavingTime,Show Saving Time,保存時間の�
 text.autoconfig.fastquit.option.showSavingTime.@Tooltip,Determines whether the time it took/takes to save the world gets displayed on toasts and the world list.,ワールドの保存にかかった時間/かかっている時間がトーストとワールドリストに表示されるかどうかを決定します。
 text.autoconfig.fastquit.option.showToasts,Show Toasts,トーストを表示
 text.autoconfig.fastquit.option.showToasts.@Tooltip,Determines whether a toast gets shown when a world finishes saving.,ワールドの保存完了時にトースト表示するかどうかを決定します。
+fastquit.screen.waiting,"Waiting for ""%s"" to finish saving...",
+fastquit.toast.description,"Finished saving ""%s""",

@@ -77,7 +77,7 @@ advancements.apotheosis.rare_gem,Far From Perfect,完璧とは程遠い
 advancements.apotheosis.rare_gem.desc,Acquire a Flawed Gem.,ひびの入ったジェムを入手する
 advancements.apotheosis.socket,The Jeweler,宝石商
 advancements.apotheosis.socket.desc,"Using a Smithing Table, socket a Gem into an item.",鍛冶台を使い、ジェムをアイテムにソケットする
-affix.apotheosis.cooldown,[⌛ %s],[⌛ %s]
+affix.apotheosis.cooldown,[⌛ %s],
 affix.apotheosis.stacking,[Stacking],[スタックする]
 affix.apotheosis.stoneforming.desc,"Breaking [%s] converts it to %s, shift-right click to select a target.",[%s]を壊したとき、%sに変換する。シフト右クリックで変換先のブロックを選択可能。
 affix.apotheosis.stoneforming.target_updated,Target updated to: %s,対象のブロックが更新されました: %s
@@ -235,7 +235,7 @@ affix.apotheosis:melee/mob_effect/omniscient,Omniscient,万知の
 affix.apotheosis:melee/mob_effect/omniscient.suffix,of the Grand Sage,大賢者
 affix.apotheosis:melee/mob_effect/sophisticated,Sophisticated,洗練された
 affix.apotheosis:melee/mob_effect/sophisticated.suffix,of the Ancient Library,古代図書館の
-affix.apotheosis:melee/mob_effect/weakening,Weakening,弱体化
+affix.apotheosis:melee/mob_effect/weakening,Weakening,削弱的
 affix.apotheosis:melee/mob_effect/weakening.suffix,of Weakness,弱さの
 affix.apotheosis:melee/thunderstruck,Thunderstruck,雷撃
 affix.apotheosis:melee/thunderstruck.desc,Your attacks deal %s damage to nearby enemies.,あなたの攻撃は近くの敵に%sダメージを与えます。
@@ -243,12 +243,12 @@ affix.apotheosis:melee/thunderstruck.suffix,of the Storm,嵐の者
 affix.apotheosis:melee_weapon/mob_effect/detonating,Detonating,爆発する
 affix.apotheosis:melee_weapon/mob_effect/detonating.suffix,of the Elemental Flame,元素の炎
 affix.apotheosis:ranged/attribute/agile,Agile,敏捷
-affix.apotheosis:ranged/attribute/elven,Elven,エルフ
-affix.apotheosis:ranged/attribute/elven.suffix,of the First Archer,最初の射手の
+affix.apotheosis:ranged/attribute/elven,Elven,エルフの
+affix.apotheosis:ranged/attribute/elven.suffix,of the First Archer,弓手
 affix.apotheosis:ranged/attribute/streamlined,Streamlined,簡略化された
 affix.apotheosis:ranged/attribute/streamlined.suffix,of the Sniper,スナイパーの
 affix.apotheosis:ranged/attribute/windswept,Windswept,吹きさらし
-affix.apotheosis:ranged/attribute/windswept.suffix,of the Current,現在の
+affix.apotheosis:ranged/attribute/windswept.suffix,of the Current,気流の
 affix.apotheosis:ranged/enchantment/prosperous,Prosperous,繁栄の
 affix.apotheosis:ranged/enchantment/prosperous.suffix,of the Treasure-Seeker,宝探し者の
 affix.apotheosis:ranged/magical,Magical,魔法的
@@ -260,12 +260,12 @@ affix.apotheosis:ranged/mob_effect/blighted.suffix,of the Blighted Lands,荒廃�
 affix.apotheosis:ranged/mob_effect/deathbound,Deathbound,黄泉から帰った
 affix.apotheosis:ranged/mob_effect/deathbound.suffix,of the Witherlord,髑髏君主の
 affix.apotheosis:ranged/mob_effect/ensnaring,Ensnaring,捕縛
-affix.apotheosis:ranged/mob_effect/ensnaring.suffix,of the Predator,プレデターの
+affix.apotheosis:ranged/mob_effect/ensnaring.suffix,of the Predator,捕食者の
 affix.apotheosis:ranged/mob_effect/fleeting,Fleeting,俊敏
 affix.apotheosis:ranged/mob_effect/fleeting.suffix,of the Ranger,レンジャーの
 affix.apotheosis:ranged/mob_effect/grievous,Grievous,致命的
 affix.apotheosis:ranged/mob_effect/grievous.suffix,of Wounding,創傷の
-affix.apotheosis:ranged/mob_effect/ivy_laced,Ivy Laced,アイビーリース
+affix.apotheosis:ranged/mob_effect/ivy_laced,Ivy Laced,アイビーレイス
 affix.apotheosis:ranged/mob_effect/ivy_laced.suffix,of Natural Toxins,自然毒の
 affix.apotheosis:ranged/mob_effect/satanic,Satanic,悪魔的な
 affix.apotheosis:ranged/mob_effect/satanic.suffix,of the Burning Hells,地獄炎の
@@ -284,7 +284,7 @@ affix.apotheosis:shield/attribute/ironforged,Ironforged,鉄鍛冶
 affix.apotheosis:shield/attribute/ironforged.suffix,of Iron,鉄の
 affix.apotheosis:shield/attribute/stalwart,Stalwart,屈強な
 affix.apotheosis:shield/attribute/stalwart.suffix,of Stubbornness,頑固さの
-affix.apotheosis:shield/attribute/steel_touched,Steel Touched,鋼に触れた
+affix.apotheosis:shield/attribute/steel_touched,Steel Touched,鍛えぬいた
 affix.apotheosis:shield/attribute/steel_touched.suffix,of the Defender,守護神の
 affix.apotheosis:shield/catalyzing,Catalyzing,反応する
 affix.apotheosis:shield/catalyzing.desc,Blocking an explosion will grant you great strength.,爆発をブロックすると、強力な力を得られます。
@@ -295,9 +295,9 @@ affix.apotheosis:shield/mob_effect/galvanizing,Galvanizing,金ぴかの
 affix.apotheosis:shield/mob_effect/galvanizing.suffix,of the Indestructible,絶対防御の
 affix.apotheosis:shield/mob_effect/reinforcing,Reinforcing,強化
 affix.apotheosis:shield/mob_effect/reinforcing.suffix,of Steel,鉄壁の
-affix.apotheosis:shield/mob_effect/venomous,Venomous,毒性のある
-affix.apotheosis:shield/mob_effect/venomous.suffix,of the Snake,蛇
-affix.apotheosis:shield/mob_effect/withering,Withering,枯れさせる
+affix.apotheosis:shield/mob_effect/venomous,Venomous,天界
+affix.apotheosis:shield/mob_effect/venomous.suffix,of the Snake,蛇の
+affix.apotheosis:shield/mob_effect/withering,Withering,衰える
 affix.apotheosis:shield/mob_effect/withering.suffix,of the Dark Skeleton,闇骸骨
 affix.apotheosis:shield/psychic,Psychic,超能力の
 affix.apotheosis:shield/psychic.desc,Blocking a projectile deals %s%% of the damage to the shooter.,飛翔物をブロック時に %s%% 分のダメージを攻撃者に与える。
@@ -368,7 +368,6 @@ button.apotheosis.no_salvage_all,No valid items in inventory,インベントリ�
 button.apotheosis.open_world_tier_tutorial,Open the World Tier tutorial,世界階層チュートリアルを開く
 button.apotheosis.pinnacle,Pinnacle,天界
 button.apotheosis.prev_tutorial,Previous,前へ
-button.apotheosis.return,X,X
 button.apotheosis.return.desc,Go back to the Tier Select screen,ワールドレベルの選択画面に戻る
 button.apotheosis.salvage,Salvage Items,解体アイテム
 button.apotheosis.show_detailed_info,Detailed Info,詳細な情報
@@ -380,7 +379,7 @@ button.apotheosis.tier_changes_disabled,Manual World Tier changes are disabled i
 button.apotheosis.tier_locked,%s (Locked),未解放。%sを完遂すると解放
 button.apotheosis.upgrade,Upgrade Gem,ジェムをアップグレードする
 button.apotheosis.upgrade.no,Missing Inputs,入力がありません
-chat.apotheosis.link_item_with_count,%s %s,%s %s
+chat.apotheosis.link_item_with_count,%s %s,
 comment_id,"/BackportUnsorted - May be copied, duplicated, or otherwise weird.",バックポート未分類 - コピー、複製、またはその他の異なる場合がある。
 config.jade.plugin_apotheosis.adventure,Apoth Adventure Module,アポス アドベンチャーモジュール
 config.jade.plugin_apotheosis.ench,Apoth Ench Module,アポスエンチャモジュール
@@ -396,7 +395,7 @@ disconnect.apotheosis.tier_changes_disabled,Manual world tier changes are disabl
 elite.apotheosis.craig,Craig the Eternal,永遠のクレイグ
 error.apotheosis.gate_tier_incorrect,This Gateway can only be opened in World Tier: %s,このゲートウェイはワールドティア：%s でのみ開けられます。
 gem.apotheosis:overworld/royalty.bonus.pickaxe,Breaking Iron Ore has a %s%% chance to drop Raw Gold instead.,鉄鉱石を破壊すると、代わりに生の金が落ちる確率は%s%%です。
-gem_class.anything,Anything,何でも
+gem_class.anything,Anything,すべて
 gem_class.armor,Armor,防具
 gem_class.boots,Boots,ブーツ
 gem_class.bow,Bows,弓
@@ -423,9 +422,9 @@ info.apotheosis.boss_item,Will Drop: %s,ドロップする: %s
 info.apotheosis.boss_modifiers,Boss Modifiers:,ボスモディファイア:
 info.apotheosis.boss_spawn,%s has awoken nearby!,%sが近くで目覚めた!
 info.apotheosis.containedentity,Held Entity: %s,保持しているエンティティ: %s
-info.apotheosis.criteria_done,☑ %s,☑ %s
-info.apotheosis.criteria_unfinished,☐ %s,☐ %s
-info.apotheosis.criteria_unknown,❓ %s,❓ %s
+info.apotheosis.criteria_done,☑ %s,
+info.apotheosis.criteria_unfinished,☐ %s,
+info.apotheosis.criteria_unknown,❓ %s,
 info.apotheosis.ender_lead,"The Ender Lead is an item that can be used to move animals around.  Punch an animal to capture, and right click to release it.  The leash will not work on other types of entities.",エンダーリードは動物を移動させるためのアイテムです。動物をパンチして捕獲し、右クリックでリリースします。この紐は、他のタイプのエンティティには使えません。
 info.apotheosis.gem_crushing,"Gem Dust is obtained by dropping any Apothic Gem the in world, and making an Anvil block fall onto it.",ジェムの粉はワールドにApothicジェムをドロップし、その上に金床を落下させることで手に入れられます。.
 info.apotheosis.gem_expulsion,"Used in a Smithing Table to unsocket Apothic Gems.
@@ -453,7 +452,7 @@ item.apotheosis.diamond_upgrade_smithing_template.additions_slot_description,Add
 item.apotheosis.diamond_upgrade_smithing_template.applies_to,Golden Equipment,ゴールデン装備
 item.apotheosis.diamond_upgrade_smithing_template.base_slot_description,"Add golden armor, weapon, or tools",金の防具、武器、またはツールを追加
 item.apotheosis.diamond_upgrade_smithing_template.ingredients,4 Diamonds,4個のダイヤモンド
-item.apotheosis.ender_lead,Ender Lead,Ender Nickel
+item.apotheosis.ender_lead,Ender Lead,エンダーリード
 item.apotheosis.epic_material,Arcane Sands,不可思議な砂
 item.apotheosis.gem.apotheosis:core/ballast,Ballast Gem,バラストジェム
 item.apotheosis.gem.apotheosis:core/brawlers,Brawler's Gem,乱闘者のジェム
@@ -479,16 +478,15 @@ item.apotheosis.gem.apotheosis:the_nether/molten_breach,Gem of the Molten Breach
 item.apotheosis.gem.apotheosis:twilight/forest,Gem of the Twilight Forest,トワイライトフォレストの宝石
 item.apotheosis.gem.apotheosis:twilight/queen,Gem of the Frozen Queen,凍結の女王の宝石
 item.apotheosis.gem.chipped,Chipped %s,欠けた%s
-item.apotheosis.gem.cracked,Cracked %s,割れた%s
+item.apotheosis.gem.cracked,Cracked %s,ひび割れた%s
 item.apotheosis.gem.flawed,Flawed %s,ひびの入った%s
 item.apotheosis.gem.flawless,Flawless %s,無傷の%s
-item.apotheosis.gem.normal,%s,%s
 item.apotheosis.gem.perfect,Perfect %s,完璧な%s
 item.apotheosis.gem_dust,Gem Dust,宝石粉
 item.apotheosis.gem_dust.desc,A Crushed Apothic Gemstone,砕けたアポシック宝石
 item.apotheosis.gem_fused_slate,Gem-Fused Slate,宝石結晶化したスレート
 item.apotheosis.gold_upgrade_smithing_template,Smithing Template,鍛冶テンプレート
-item.apotheosis.gold_upgrade_smithing_template.additions_slot_description,Add four gold ingots,4つの錫を追加
+item.apotheosis.gold_upgrade_smithing_template.additions_slot_description,Add four gold ingots,4つのスズを追加
 item.apotheosis.gold_upgrade_smithing_template.applies_to,Iron Equipment,鉄製装備
 item.apotheosis.gold_upgrade_smithing_template.base_slot_description,"Add iron armor, weapon, or tools",鉄製防具、武器、またはツールを追加する
 item.apotheosis.gold_upgrade_smithing_template.ingredients,4 Gold Ingots,4 Tin
@@ -538,7 +536,7 @@ key.apotheosis.compare_equipment,Compare Hovered Equipment,ホバリング装備
 key.apotheosis.link_item_to_chat,Link Hovered Item to Chat,ホバリングアイテムをチャットにリンク
 key.apotheosis.open_world_tier_select,Open World Tier Select,ワールドレベル選択を開く
 key.apotheosis.toggle_radial_mining,Change Radial Mining Mode,放射採掘モードの変更
-key.categories.apotheosis,Apotheosis,アポステオシス
+key.categories.apotheosis,Apotheosis,
 loot_category.apotheosis.armor,Armor,防具
 loot_category.apotheosis.armor.plural,Armor,防具
 loot_category.apotheosis.boots,Boots,ブーツ
@@ -569,10 +567,10 @@ loot_category.apotheosis.trident,Trident,トライデント
 loot_category.apotheosis.trident.plural,Tridents,トライデント
 menu.apotheosis.gem_cutting,Gem Cutting,ジェム加工
 message.apotheosis.item_linking_disabled,Item Linking has been disabled by the server.,アイテムリンクはサーバーで無効化されています。
-misc.apotheosis.affix_bounds,[%s - %s],[%s - %s]
-misc.apotheosis.affix_name.four,%s %s %s %s,%s %s %s %s
-misc.apotheosis.affix_name.three,%s %s %s,%s %s %s
-misc.apotheosis.affix_name.two,%s %s,%s %s
+misc.apotheosis.affix_bounds,[%s - %s],[%s - %s]
+misc.apotheosis.affix_name.four,%s %s %s %s,
+misc.apotheosis.affix_name.three,%s %s %s,
+misc.apotheosis.affix_name.two,%s %s,
 misc.apotheosis.blacklisted_potion,Cannot be converted into a Potion Charm.,ポーションチャームには変換できません。
 misc.apotheosis.diamond,diamond,ダイヤモンド
 misc.apotheosis.explosion,Explosive,爆発
@@ -611,7 +609,7 @@ painting.apotheosis.enchanting_table.title,Apothic Enchanting,Apothicエンチ�
 painting.apotheosis.gems.author,Faellynna,フェルリーナ
 painting.apotheosis.gems.title,Gems,宝石
 painting.apotheosis.tower.author,Faellynna,フェルリーナ
-painting.apotheosis.tower.title,The Tower,タワー
+painting.apotheosis.tower.title,The Tower,塔
 painting.apotheosis.window.author,Faellynna,フェルリーナ
 painting.apotheosis.window.title,A View Beyond,視界の先
 purity.apotheosis.chipped,Chipped,欠けた
@@ -620,12 +618,12 @@ purity.apotheosis.flawed,Flawed,ひびの入った
 purity.apotheosis.flawless,Flawless,無傷の
 purity.apotheosis.normal,Normal,通常
 purity.apotheosis.perfect,Perfect,完璧な
-rarity.apotheosis:ancient,Ancient,古代
-rarity.apotheosis:common,Common,一般
+rarity.apotheosis:ancient,Ancient,エンシェント
+rarity.apotheosis:common,Common,コモン
 rarity.apotheosis:epic,Epic,エピック
-rarity.apotheosis:mythic,Mythic,神話的
+rarity.apotheosis:mythic,Mythic,ミシック
 rarity.apotheosis:rare,Rare,レア
-rarity.apotheosis:uncommon,Uncommon,珍しい
+rarity.apotheosis:uncommon,Uncommon,アンコモン
 reward.apotheosis.affix_item,Affix Item (%s),付加アイテム (%s)
 reward.apotheosis.desert_pyramid_loot,Desert Pyramid Loot,砂漠ピラミッドの戦利品
 reward.apotheosis.gem,Apothic Gem (%s),アポスティック・ジェム (%s)
@@ -642,10 +640,10 @@ subtitle.apotheosis.music_disc.shimmer,Chamberlain Kaifry - Shimmer,チャバー
 text.apotheosis.alternative_page,Page %s/%s (scroll to change),ページ %s/%s (スクロールして変更します)
 text.apotheosis.any_affix_item,Any Affix Item,任意の付加語アイテム
 text.apotheosis.any_x_item,Any %s Affix Item,任意の%s称号付きアイテム
-text.apotheosis.anything,Anything,何でも
-text.apotheosis.cost,%sx %s,%sx %s
+text.apotheosis.anything,Anything,すべて
+text.apotheosis.cost,%sx %s,
 text.apotheosis.cut_cost,Gem Cutting Cost,宝石カットコスト
-text.apotheosis.dot_prefix,• %s,• %s
+text.apotheosis.dot_prefix,• %s,
 text.apotheosis.drop_chances,Drop Chances,ドロップ確率
 text.apotheosis.equipped,Equipped,装着中
 text.apotheosis.facets,Facets: %s,フェセット: %s
@@ -663,7 +661,7 @@ text.apotheosis.results,Results,結果
 text.apotheosis.salvage_results,Salvage Results,解体結果
 text.apotheosis.socket_limit,Max Sockets Applied: %s,最大適用ソケット数: %s
 text.apotheosis.socketable_into,Fits In:,適合:
-text.apotheosis.star_prefix,🌟 %s,🌟 %s
+text.apotheosis.star_prefix,🌟 %s,
 text.apotheosis.tier_info,World Tier Information,ワールドレベルの情報
 text.apotheosis.touched_by_malice,Touched by Malice,悪意に触れた
 text.apotheosis.unidentified,Unidentified %s,未識別 %s
@@ -837,7 +835,7 @@ affix.apotheosis:magic_arrow.name,Magic Arrow,魔法の矢
 affix.apotheosis:max_crit,%s of Violence,暴力の%s
 affix.apotheosis:max_crit.name,Max Crit Chance,最大クリティカル確率
 affix.apotheosis:max_health.name,Max Health - (%s),最大体力 - (%s)
-affix.apotheosis:movement_speed,Energetic %s,エネルギッシュな%s
+affix.apotheosis:movement_speed,Energetic %s,エネルギー性%s
 affix.apotheosis:movement_speed.name,Movement Speed - (%s%%),移動速度 - (%s%%)
 affix.apotheosis:omnitool,Omnetic %s,オムネティック %s
 affix.apotheosis:omnitool.desc,This tool has diamond effectiveness against all blocks.,このツールはすべてのブロックに対してダイヤモンド相当の効果があります
@@ -905,11 +903,11 @@ death.attack.apoth.execute,%s was executed.,%s が処刑されました。
 death.attack.apoth.execute.player,%s was executed by %s.,%s は %s によって倒された。
 death.attack.apoth.frozen_solid,%s was frozen solid.,%s は凍結した。
 death.attack.apoth.frozen_solid.player,%s was frozen solid by %s.,%s は %s によって固結されました。
-death.attack.apoth_corrupted,%s was drained by a corrupted enchantment.,%s は腐敗したエンチャントによって吸い取られました。
-death.attack.apoth_corrupted.player,%s was corrupted by %s.,%s は %s により破損しました。
+death.attack.apoth_corrupted,%s was drained by a corrupted enchantment.,%sは破損したエンチャントによって力尽きた
+death.attack.apoth_corrupted.player,%s was corrupted by %s.,%sは%s によって破損された
 death.attack.apotheosis.bleeding,%s bled out.,%s が失血しました。
 effect.apotheosis.bleeding,Bleeding,出血
-effect.apotheosis.sundering,Sundering,分裂
+effect.apotheosis.sundering,Sundering,破壊
 enchantment.apotheosis.bane_of_illagers,Bane of Illagers,イリジャー特攻
 enchantment.apotheosis.bane_of_illagers.desc,Illagers take increased damage.,イリジャーへのダメージが増加する
 enchantment.apotheosis.berserk,Berserker's Fury,狂戦士の怒り
@@ -952,123 +950,110 @@ enchantment.apotheosis.tempting,Temptation,フェロモン
 enchantment.apotheosis.tempting.desc,Entices nearby farm animals.,アイテムを持っている間、近くの家畜を引き寄せる
 enchantment.apotheosis.true_infinity,Endless Quiver,無限の矢筒
 enchantment.apotheosis.true_infinity.desc,Makes all arrows infinite.,全ての矢を無限にする。
-enchantment.level.100,C,C
-enchantment.level.101,CI,CI
-enchantment.level.102,CII,CII
-enchantment.level.103,CIII,CIII
-enchantment.level.104,CIV,CIV
-enchantment.level.105,CV,CV
-enchantment.level.106,CVI,CVI
-enchantment.level.107,CVII,CVII
-enchantment.level.108,CVIII,CVIII
-enchantment.level.109,CIX,CIX
-enchantment.level.11,XI,XI
-enchantment.level.110,CX,CX
-enchantment.level.111,CXI,CXI
-enchantment.level.112,CXII,CXII
-enchantment.level.113,CXIII,CXIII
-enchantment.level.114,CXIV,CXIV
-enchantment.level.115,CXV,CXV
-enchantment.level.116,CXVI,CXVI
-enchantment.level.117,CXVII,CXVII
-enchantment.level.118,CXVIII,CXVIII
-enchantment.level.119,CXIX,CXIX
-enchantment.level.12,XII,XII
-enchantment.level.120,CXX,CXX
-enchantment.level.121,CXXI,CXXI
-enchantment.level.122,CXXII,CXXII
-enchantment.level.123,CXXIII,CXXIII
-enchantment.level.124,CXXIV,CXXIV
-enchantment.level.125,CXXV,CXXV
-enchantment.level.126,CXXVI,CXXVI
-enchantment.level.127,CXXVII,CXXVII
-enchantment.level.13,XIII,XIII
-enchantment.level.14,XIV,XIV
-enchantment.level.15,XV,XV
-enchantment.level.16,XVI,XVI
-enchantment.level.17,XVII,XVII
-enchantment.level.18,XVIII,XVIII
-enchantment.level.19,XIX,XIX
-enchantment.level.20,XX,XX
-enchantment.level.21,XXI,XXI
-enchantment.level.22,XXII,XXII
-enchantment.level.23,XXIII,XXIII
-enchantment.level.24,XXIV,XXIV
-enchantment.level.25,XXV,XXV
-enchantment.level.26,XXVI,XXVI
-enchantment.level.27,XXVII,XXVII
-enchantment.level.28,XXVIII,XXVIII
-enchantment.level.29,XXIX,XXIX
-enchantment.level.30,XXX,XXX
-enchantment.level.31,XXXI,XXXI
-enchantment.level.32,XXXII,XXXII
-enchantment.level.33,XXXIII,XXXIII
-enchantment.level.34,XXXIV,XXXIV
-enchantment.level.35,XXXV,XXXV
-enchantment.level.36,XXXVI,XXXVI
-enchantment.level.37,XXXVII,XXXVII
-enchantment.level.38,XXXVIII,XXXVIII
-enchantment.level.39,XXXIX,XXXIX
-enchantment.level.40,XL,XL
-enchantment.level.41,XLI,XLI
-enchantment.level.42,XLII,XLII
-enchantment.level.43,XLIII,XLIII
-enchantment.level.44,XLIV,XLIV
-enchantment.level.45,XLV,XLV
-enchantment.level.46,XLVI,XLVI
-enchantment.level.47,XLVII,XLVII
-enchantment.level.48,XLVIII,XLVIII
-enchantment.level.49,XLIX,XLIX
-enchantment.level.50,L,L
-enchantment.level.51,LI,LI
-enchantment.level.52,LII,LII
-enchantment.level.53,LIII,LIII
-enchantment.level.54,LIV,LIV
-enchantment.level.55,LV,LV
-enchantment.level.56,LVI,LVI
-enchantment.level.57,LVII,LVII
-enchantment.level.58,LVIII,LVIII
-enchantment.level.59,LIX,LIX
-enchantment.level.60,LX,LX
-enchantment.level.61,LXI,LXI
-enchantment.level.62,LXII,LXII
-enchantment.level.63,LXIII,LXIII
-enchantment.level.64,LXIV,LXIV
-enchantment.level.65,LXV,LXV
-enchantment.level.66,LXVI,LXVI
-enchantment.level.67,LXVII,LXVII
-enchantment.level.68,LXVIII,LXVIII
-enchantment.level.69,LXIX,LXIX
-enchantment.level.70,LXX,LXX
-enchantment.level.71,LXXI,LXXI
-enchantment.level.72,LXXII,LXXII
-enchantment.level.73,LXXIII,LXXIII
-enchantment.level.74,LXXIV,LXXIV
-enchantment.level.75,LXXV,LXXV
-enchantment.level.76,LXXVI,LXXVI
-enchantment.level.77,LXXVII,LXXVII
-enchantment.level.78,LXXVIII,LXXVIII
-enchantment.level.79,LXXIX,LXXIX
-enchantment.level.80,LXXX,LXXX
-enchantment.level.81,LXXXI,LXXXI
-enchantment.level.82,LXXXII,LXXXII
-enchantment.level.83,LXXXIII,LXXXIII
-enchantment.level.84,LXXXIV,LXXXIV
-enchantment.level.85,LXXXV,LXXXV
-enchantment.level.86,LXXXVI,LXXXVI
-enchantment.level.87,LXXXVII,LXXXVII
-enchantment.level.88,LXXXVIII,LXXXVIII
-enchantment.level.89,LXXXIX,LXXXIX
-enchantment.level.90,XC,XC
-enchantment.level.91,XCI,XCI
-enchantment.level.92,XCII,XCII
-enchantment.level.93,XCIII,XCIII
-enchantment.level.94,XCIV,XCIV
-enchantment.level.95,XCV,XCV
-enchantment.level.96,XCVI,XCVI
-enchantment.level.97,XCVII,XCVII
-enchantment.level.98,XCVIII,XCVIII
-enchantment.level.99,XCIX,XCIX
+enchantment.level.102,CII,
+enchantment.level.103,CIII,
+enchantment.level.104,CIV,
+enchantment.level.106,CVI,
+enchantment.level.107,CVII,
+enchantment.level.108,CVIII,
+enchantment.level.109,CIX,
+enchantment.level.111,CXI,
+enchantment.level.112,CXII,
+enchantment.level.113,CXIII,
+enchantment.level.114,CXIV,
+enchantment.level.115,CXV,
+enchantment.level.116,CXVI,
+enchantment.level.117,CXVII,
+enchantment.level.118,CXVIII,
+enchantment.level.119,CXIX,
+enchantment.level.12,XII,
+enchantment.level.120,CXX,
+enchantment.level.121,CXXI,
+enchantment.level.122,CXXII,
+enchantment.level.123,CXXIII,
+enchantment.level.124,CXXIV,
+enchantment.level.125,CXXV,
+enchantment.level.126,CXXVI,
+enchantment.level.127,CXXVII,
+enchantment.level.13,XIII,
+enchantment.level.14,XIV,
+enchantment.level.16,XVI,
+enchantment.level.17,XVII,
+enchantment.level.18,XVIII,
+enchantment.level.19,XIX,
+enchantment.level.21,XXI,
+enchantment.level.22,XXII,
+enchantment.level.23,XXIII,
+enchantment.level.24,XXIV,
+enchantment.level.25,XXV,
+enchantment.level.26,XXVI,
+enchantment.level.27,XXVII,
+enchantment.level.28,XXVIII,
+enchantment.level.29,XXIX,
+enchantment.level.30,XXX,
+enchantment.level.31,XXXI,
+enchantment.level.32,XXXII,
+enchantment.level.33,XXXIII,
+enchantment.level.34,XXXIV,
+enchantment.level.35,XXXV,
+enchantment.level.36,XXXVI,
+enchantment.level.37,XXXVII,
+enchantment.level.38,XXXVIII,
+enchantment.level.39,XXXIX,
+enchantment.level.41,XLI,
+enchantment.level.42,XLII,
+enchantment.level.43,XLIII,
+enchantment.level.44,XLIV,
+enchantment.level.45,XLV,
+enchantment.level.46,XLVI,
+enchantment.level.47,XLVII,
+enchantment.level.48,XLVIII,
+enchantment.level.49,XLIX,
+enchantment.level.52,LII,
+enchantment.level.53,LIII,
+enchantment.level.54,LIV,
+enchantment.level.56,LVI,
+enchantment.level.57,LVII,
+enchantment.level.58,LVIII,
+enchantment.level.59,LIX,
+enchantment.level.61,LXI,
+enchantment.level.62,LXII,
+enchantment.level.63,LXIII,
+enchantment.level.64,LXIV,
+enchantment.level.65,LXV,
+enchantment.level.66,LXVI,
+enchantment.level.67,LXVII,
+enchantment.level.68,LXVIII,
+enchantment.level.69,LXIX,
+enchantment.level.70,LXX,
+enchantment.level.71,LXXI,
+enchantment.level.72,LXXII,
+enchantment.level.73,LXXIII,
+enchantment.level.74,LXXIV,
+enchantment.level.75,LXXV,
+enchantment.level.76,LXXVI,
+enchantment.level.77,LXXVII,
+enchantment.level.78,LXXVIII,
+enchantment.level.79,LXXIX,
+enchantment.level.80,LXXX,
+enchantment.level.81,LXXXI,
+enchantment.level.82,LXXXII,
+enchantment.level.83,LXXXIII,
+enchantment.level.84,LXXXIV,
+enchantment.level.85,LXXXV,
+enchantment.level.86,LXXXVI,
+enchantment.level.87,LXXXVII,
+enchantment.level.88,LXXXVIII,
+enchantment.level.89,LXXXIX,
+enchantment.level.91,XCI,
+enchantment.level.92,XCII,
+enchantment.level.93,XCIII,
+enchantment.level.94,XCIV,
+enchantment.level.95,XCV,
+enchantment.level.96,XCVI,
+enchantment.level.97,XCVII,
+enchantment.level.98,XCVIII,
+enchantment.level.99,XCIX,
 forge.entity_gravity,Gravity,重力
 forge.swimSpeed,Swim Speed,水泳速度
 generic.reachDistance,Reach Distance,リーチ距離
@@ -1176,7 +1161,7 @@ item.minecraft.tipped_arrow.effect.knowledge,Arrow of Ancient Knowledge,古の�
 item.minecraft.tipped_arrow.effect.resistance,Arrow of Resistance,耐性の矢
 item.minecraft.tipped_arrow.effect.sundering,Arrow of Sundering,崩壊の矢
 item.minecraft.tipped_arrow.effect.wither,Arrow of Wither,ウィザーの矢
-itemGroup.apotheosis,Apotheosis,アポステオシス
+itemGroup.apotheosis,Apotheosis,
 jei.spw.changeentity,Changes entity spawned,生成されたエンティティを変更
 jei.spw.editmaxdelay,Decreases maximum spawn delay,最大出現遅延を減少させます
 jei.spw.editmindelay,Decreases minimum spawn delay,最小出現遅延を減少させます
@@ -1202,13 +1187,12 @@ name.apotheosis.merch_pick,Stonebreaker,ストーンブレーカー
 name.apotheosis.merch_spider_sword,Arachnid's Fear,アラクニドの恐怖
 name.apotheosis.merch_sword,Captive Dreams,囚われし夢
 name.apotheosis.vigilance,Eternal Vigilance,永遠の警戒
-potion.potency.3,IV,IV
-rarity.apoth.ancient,Ancient,古代
-rarity.apoth.common,Common,一般
+rarity.apoth.ancient,Ancient,エンシェント
+rarity.apoth.common,Common,コモン
 rarity.apoth.epic,Epic,エピック
-rarity.apoth.mythic,Mythic,神話的
+rarity.apoth.mythic,Mythic,ミシック
 rarity.apoth.rare,Rare,レア
-rarity.apoth.uncommon,Uncommon,珍しい
+rarity.apoth.uncommon,Uncommon,アンコモン
 tooltip.enchlib.1,Max Level Available: %s,使用可能な最大レベル: %s
 tooltip.enchlib.2,Points Stored: %s/32767,保存ポイント: %s/32767
 tooltip.enchlib.4,Next Level Cost: %d,次のレベルコスト: %d
@@ -1334,14 +1318,14 @@ info.apotheosis.slider_power,Power: %s,パワー: %s
 info.apotheosis.spawner,Spawners can be collected with %s and may be modified with various items.,スポーナーは%sで回収でき、さまざまなアイテムで改造することができます。
 info.apotheosis.spawner.always_drop,"Spawners may be modified with various items, and will always drop when broken.",スポナーは様々なアイテムで改造することができ、壊すと必ずドロップします。
 info.apotheosis.spawner.no_silk,"Spawners may be modified with various items, but collection with Silk Touch is currently disabled.",スポナーは様々なアイテムで改造可能だが、シルクタッチでの収集は現在のところできなくなっています。
-info.apotheosis.weight,%s: %s,%s: %s
+info.apotheosis.weight,%s: %s,
 info.apotheosis.weights,Weights,重み
 info.apotheosis.weights_changed,Rarity Weights Changed,レアリティ比重が変更された
 info.apotheosis.xp_cost,Raw XP Cost: %s (%s Levels),純粋なXPコスト: %s (%sレベル)
 item.apotheosis.inert_trident,Inert Trident,不活性なトライデント
 item.apotheosis.spawner,%s Spawner,%sのスポナー
 misc.apotheosis.banned,Cannot be used on a Spawner,スポーナーには使用できません
-misc.apotheosis.concat,%s %s,%s %s
+misc.apotheosis.concat,%s %s,
 misc.apotheosis.ctrl_stats,Hold Ctrl for Stats,コントロール長押しで統計情報を表示
 misc.apotheosis.entity,Entity,エンティティ
 misc.apotheosis.mainhand,Held in Main Hand,主手に保持
@@ -1351,7 +1335,7 @@ misc.apotheosis.not_consumed,This item is not consumed,このアイテムは消�
 misc.apotheosis.offhand,Held in Off Hand,右手に保持
 misc.apotheosis.rclick_spawner,Right-Click the Spawner,スポナーを右クリックする
 misc.apotheosis.shift_stats,Hold Shift for Stats,シフト長押しで統計情報を表示
-misc.apotheosis.value_concat,%s: %s,%s: %s
+misc.apotheosis.value_concat,%s: %s,
 rarity.enchantment.common,Common,コモン
 rarity.enchantment.rare,Rare,レア
 rarity.enchantment.uncommon,Uncommon,アンコモン
@@ -1497,9 +1481,9 @@ apotheosis:arrow_damage,Arrow Damage,矢のダメージ
 apotheosis:arrow_damage.desc,Damage multiplier for arrows. Tridents are arrows.,矢のダメージ倍率。トライデントは矢として扱われます。
 apotheosis:arrow_velocity,Arrow Velocity,矢の速度
 apotheosis:arrow_velocity.desc,Speed multiplier for arrows. Arrow damage scales with velocity.,矢が飛ぶ速さの増加率。矢によるダメージは速さにも依存する
-apotheosis:cold_damage,Cold Damage,氷のダメージ
+apotheosis:cold_damage,Cold Damage,冷害
 apotheosis:cold_damage.desc,"Bonus magic damage applied on melee attacks, and slows enemies hit.",近接攻撃に加算される魔法ダメージ。相手の移動速度を遅くする
-apotheosis:crit_chance,Crit Chance,クリティカル確率
+apotheosis:crit_chance,Crit Chance,命中確率
 apotheosis:crit_chance.desc,"The chance any damage you deal critically strikes, dealing extra damage based on your Crit Damage.",攻撃がクリティカルヒットになる確率。追加ダメージはクリティカルダメージの数値による
 apotheosis:crit_damage,Crit Damage,クリティカルダメージ
 apotheosis:crit_damage.desc,"Damage multiplier for critical hits, including vanilla jump crits.",クリティカルヒット発生時のダメージ倍率。バニラのジャンプによるクリティカルもこの値の影響を受ける
@@ -1523,9 +1507,9 @@ apotheosis:mining_speed,Mining Speed,採掘速度
 apotheosis:mining_speed.desc,"How fast you mine blocks, compared to normal.",ブロックを破壊する速度。通常状態に対する倍率で表される
 apotheosis:overheal,Overheal,過剰回復
 apotheosis:overheal.desc,Percentage of post-mitigation damage which will grant you an absorption shield.,ポストミティゲーションダメージの割合で吸収シールドを付与される。
-apotheosis:prot_pierce,Protection Pierce,防御貫通
+apotheosis:prot_pierce,Protection Pierce,ダメージ軽減貫通
 apotheosis:prot_pierce.desc,Flat reduction to the target's protection point total.,ターゲットの防御ポイント合計に対するフラット減少。
-apotheosis:prot_shred,Protection Shred,防御の破片
+apotheosis:prot_shred,Protection Shred,保護剥離
 apotheosis:prot_shred.desc,Percentage reduction to the target's protection point total.,対象の保護ポイント合計への百分率軽減。
 attribute.name.generic.armor.desc,Increases physical damage reduction.,物理的なダメージ軽減を増加させます。
 attribute.name.generic.armor_toughness.desc,Reduces the effectiveness of enemy armor reduction.,敵のアーマー軽減の効果を低減します。
@@ -1548,10 +1532,10 @@ attributeslib.gui.multiply_base,Multiply Base: %s,基本倍率: %s
 attributeslib.gui.multiply_total,Multiply Total: %s,合計倍率: %s
 attributeslib.gui.press_shift,Hold Shift for more info.,シフトキーを押して詳細情報を表示。
 attributeslib.gui.show_attributes,Show Attributes,属性を表示
-attributeslib.modifier.plus,+%s %s,+%s %s
-attributeslib.modifier.take,-%s %s,-%s %s
-attributeslib.value.flat,%s,%s
-attributeslib.value.percent,%s%%,%s%%
+attributeslib.modifier.plus,+%s %s,
+attributeslib.modifier.take,-%s %s,
+attributeslib.value.flat,%s,
+attributeslib.value.percent,%s%%,
 block.apotheosis.deepshelf,Deepshelf,深淵の本棚
 block.apotheosis.dormant_deepshelf,Dormant Deepshelf,眠る深淵の本棚
 block.apotheosis.echoing_deepshelf,Echoing Deepshelf,反響する深淵の本棚
@@ -1641,8 +1625,8 @@ item.apotheosis.extraction_tome,Tome of Extraction,抽出の書物
 item.apotheosis.fishing_tome,Tome of the Fishers,漁師の書物
 item.apotheosis.gem.ancient,Perfect %s,完璧な%s
 item.apotheosis.gem.apotheosis:legacy,Legacy Gem,伝承されたジェム
-item.apotheosis.gem.common,Cracked %s,割れた%s
-item.apotheosis.gem.epic,%s,%s
+item.apotheosis.gem.common,Cracked %s,ひび割れた%s
+item.apotheosis.gem.epic,%s,
 item.apotheosis.gem.mythic,Flawless %s,無傷の%s
 item.apotheosis.gem.rare,Flawed %s,ひびの入った%s
 item.apotheosis.gem.uncommon,Chipped %s,欠けた%s
@@ -1709,7 +1693,6 @@ block.apotheosis.sightshelf_t2,Hellshelf of Masterful Sight,開眼した地獄�
 block.apotheosis.treasure_shelf,Deepshelf of Arcane Treasures,秘宝の深淵の本棚
 death.attack.apotheosis:corrupted,%s was drained by a corrupted enchantment.,%sは破損したエンチャントによって力尽きた
 death.attack.apotheosis:corrupted.player,%s was corrupted by %s.,%sは%s によって破損された
-enchantment.level.0,0,0
 entity.apotheosis.broadhead_arrow,Broadhead Arrow,ブロードヘッドアロー
 entity.apotheosis.explosive_arrow,Explosive Arrow,爆発の矢
 entity.apotheosis.mining_arrow,Mining Arrow,採掘の矢
@@ -1723,8 +1706,7 @@ info.apotheosis.filter,Enchantment Filter:,エンチャントフィルター:
 info.apotheosis.filtering_shelf,Insert enchanted books to prevent them from appearing in the table.,格納した本のエンチャントがテーブルに表れなくなる
 info.apotheosis.filtering_shelf2,Gains eterna and arcana based on the number of inserted books.,格納した本の数に応じてエテルナとアルカナを増加させる
 item.apotheosis.gem.apotheosis:ancient,Perfect %s,完璧な%s
-item.apotheosis.gem.apotheosis:common,Cracked %s,割れた%s
-item.apotheosis.gem.apotheosis:epic,%s,%s
+item.apotheosis.gem.apotheosis:common,Cracked %s,ひび割れた%s
 item.apotheosis.gem.apotheosis:mythic,Flawless %s,無傷の%s
 item.apotheosis.gem.apotheosis:rare,Flawed %s,ひびの入った%s
 item.apotheosis.gem.apotheosis:uncommon,Chipped %s,欠けた%s
@@ -1786,7 +1768,7 @@ affix.apotheosis:max_health,%s of Vitality,%sの活力
 affix.apotheosis:max_health.double,%s of Enhanced Vitality,%sの強化された活力
 affix.apotheosis:regeneration,Regenerative %s,再生する %s
 affix.apotheosis:regeneration.double,Regenerative %s,再生する %s
-attribute.name.apoth.firedmg,Fire Damage,火炎ダメージ
+attribute.name.apoth.firedmg,Fire Damage,火のダメージ
 attribute.name.apoth.colddmg,Cold Damage,冷害
 attribute.name.apoth.solardmg,Solar Damage,太陽ダメージ
 attribute.name.apoth.lunardmg,Lunar Damage,月ダメージ
@@ -1818,11 +1800,11 @@ potion.effect.resistance,Potion of Resistance,耐性のポーション
 splash_potion.effect.resistance,Splash Potion of Resistance,耐性のスプラッシュポーション
 lingering_potion.effect.resistance,Lingering Potion of Resistance,持続型耐性ポーション
 tipped_arrow.effect.resistance,Arrow of Resistance,耐性の矢
-potion.effect.absorption,Potion of Absorption,吸収ポーション
-splash_potion.effect.absorption,Splash Potion of Absorption,吸収スプラッシュポーション
+potion.effect.absorption,Potion of Absorption,衝撃吸収のポーション
+splash_potion.effect.absorption,Splash Potion of Absorption,衝撃吸収のスプラッシュポーション
 lingering_potion.effect.absorption,Lingering Potion of Absorption,衝撃吸収の残留ポーション
 tipped_arrow.effect.absorption,Arrow of Absorption,衝撃吸収の矢
-potion.effect.haste,Potion of Haste,急速のポーション
+potion.effect.haste,Potion of Haste,早さのポーション
 splash_potion.effect.haste,Splash Potion of Haste,スプラッシュ採掘速度上昇のポーション
 lingering_potion.effect.haste,Lingering Potion of Haste,残留する採掘速度上昇のポーション
 tipped_arrow.effect.haste,Arrow of Haste,早さの矢
@@ -1834,11 +1816,11 @@ potion.effect.wither,Potion of Wither,ウィザーのポーション
 splash_potion.effect.wither,Splash Potion of Wither,ウィザーのスプラッシュポーション
 lingering_potion.effect.wither,Lingering Potion of Wither,ウィザーの残留ポーション
 tipped_arrow.effect.wither,Arrow of Wither,ウィザーの矢
-potion.effect.sundering,Potion of Sundering,分裂のポーション
+potion.effect.sundering,Potion of Sundering,崩壊のポーション
 splash_potion.effect.sundering,Splash Potion of Sundering,崩壊のスプラッシュポーション
 lingering_potion.effect.sundering,Lingering Potion of Sundering,崩壊の残留ポーション
 tipped_arrow.effect.sundering,Arrow of Sundering,崩壊の矢
-potion.effect.knowledge,Potion of Ancient Knowledge,古代の知識のポーション
+potion.effect.knowledge,Potion of Ancient Knowledge,古の知識のポーション
 splash_potion.effect.knowledge,Splash Potion of Ancient Knowledge,古の知識のスプラッシュポーション
 lingering_potion.effect.knowledge,Lingering Potion of Ancient Knowledge,古の知識の残留ポーション
 tipped_arrow.effect.knowledge,Arrow of Ancient Knowledge,古の知識の矢
@@ -1846,3 +1828,29 @@ item.apotheosis.lucky_foot.name,Lucky Rabbit's Foot,幸運のウサギの足
 info.apotheosis.lucky,A rare find,稀少な発見
 item.apotheosis.farmers_leash.name,Ender-Farmer's Lead,エンダー農夫の鉛
 info.apotheosis.farmleash,"The Farmer's Leash is an item that can be used to move animals around.  Capture an animal with left click, and release it with right click.  The leash will not work on other types of entities.",農夫のリーシュは動物を移動させるために使用できるアイテムです。左クリックで動物をキャプチャし、右クリックで放します。リーシュは他のタイプのエンティティでは機能しません。
+affix.apotheosis:armor/attribute/gravitational.suffix,of Gravity,重力
+affix.apotheosis:armor/attribute/spiritual.suffix,of the Witch Doctor,魔女医の
+affix.apotheosis:armor/mob_effect/bursting.suffix,of Vitality,生命力の
+affix.apotheosis:breaker/attribute/destructive.suffix,of Quarrying,掘削
+affix.apotheosis:ranged/attribute/agile.suffix,of Dexterity,器用さの
+affix.apotheosis:ranged/mob_effect/acidic.suffix,of Corrosion,腐食
+painting.apotheosis.craig.author,Astrel,
+affix.apotheosis:magic_resist,%s of the Mages,%sの魔法耐性
+button.apotheosis.return,X,
+item.apotheosis.gem.normal,%s,
+enchantment.level.100,C,
+enchantment.level.101,CI,
+enchantment.level.105,CV,
+enchantment.level.11,XI,
+enchantment.level.110,CX,
+enchantment.level.15,XV,
+enchantment.level.20,XX,
+enchantment.level.40,XL,
+enchantment.level.50,L,
+enchantment.level.51,LI,
+enchantment.level.55,LV,
+enchantment.level.60,LX,
+enchantment.level.90,XC,
+potion.potency.3,IV,
+enchantment.level.0,0,
+item.apotheosis.gem.apotheosis:epic,%s,

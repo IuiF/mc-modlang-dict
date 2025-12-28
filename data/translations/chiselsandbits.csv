@@ -1,7 +1,7 @@
 ﻿key,source_text,target_text
 block.chiselsandbits.bit_storage,Chiseled Bit Storage,彫刻済みビットストレージ
 block.chiselsandbits.chiseled_printer,Chisel Station,ノミステーション
-block.chiselsandbits.chiseledclay,Chiseled Clay,ノミ彫り粘土
+block.chiselsandbits.chiseledclay,Chiseled Clay,彫刻された粘土
 block.chiselsandbits.chiseledcloth,Chiseled Cloth,彫刻された布
 block.chiselsandbits.chiseledfluid,Chiseled Fluid,彫刻された液体
 block.chiselsandbits.chiseledglass,Chiseled Glass,ノミ加工ガラス
@@ -19,12 +19,12 @@ block.chiselsandbits.chiseledwood,Chiseled Wood,ノミ加工木
 block.chiselsandbits.modification_table,Modification Table,改造テーブル
 block.chiselsandbits.pattern_scanner,Pattern Scanner and Printer,パターンスキャナとプリンター
 chiselsandbits.color.black,Black,黒
-chiselsandbits.color.brown,Brown,茶色
+chiselsandbits.color.brown,Brown,茶
 chiselsandbits.color.green,Green,緑
 chiselsandbits.color.light_blue,Light Blue,空色
 chiselsandbits.color.light_gray,Light Gray,薄灰色
-chiselsandbits.color.magenta,Magenta,マゼンタ
-chiselsandbits.color.pink,Pink,ピンク
+chiselsandbits.color.magenta,Magenta,赤紫
+chiselsandbits.color.pink,Pink,桃色
 chiselsandbits.color.red,Red,赤
 chiselsandbits.color.white,White,白
 chiselsandbits.measurements.owners.by,By: %s!,作成者: %s!
@@ -106,7 +106,7 @@ mod.chiselsandbits.chisel.support.not.supported.forced,Chiseling: Not supported 
 mod.chiselsandbits.chisel.support.not.supported.generic,Chiseling: Not supported - Unknown,ノミ作業：サポートされていません - 不明
 mod.chiselsandbits.chisel.support.not.supported.hardness,Chiseling: Not supported - Has no hardness,ノミ加工：サポートされていません - 耐久値がありません
 mod.chiselsandbits.chisel.support.not.supported.shape,Chiseling: Not supported - Is not a full block,ノミ作業: 非対応 - 完全ブロックではありません
-mod.chiselsandbits.chisel.support.not.supported.slab,Chiseling: Not supported - Is a slab,ノミ加工: 対応不可 - スラブです
+mod.chiselsandbits.chisel.support.not.supported.slab,Chiseling: Not supported - Is a slab,ノミ加工: 対応不可 - ハーフブロックです
 mod.chiselsandbits.chisel.support.not.supported.tag,Chiseling: Not supported - Forced via tags,ノミ加工：サポートされていません - タグ経由で強制
 mod.chiselsandbits.chisel.support.supported.code,Chiseling: Supported - Via code,ノミ加工：サポート済み - コード経由
 mod.chiselsandbits.chisel.support.supported.fluid,Chiseling: Supported - Fluid,ノミ加工: サポート - 液体
@@ -126,10 +126,6 @@ mod.chiselsandbits.chiselmode.drawn_wall_fat,Drawn wall (7 x 1),描かれた壁 
 mod.chiselsandbits.chiselmode.drawn_wall_medium,Drawn wall (5 x 1),描かれた壁 (5 x 1)
 mod.chiselsandbits.chiselmode.drawn_wall_thin,Drawn wall (3 x 1),描かれた壁 (3 x 1)
 mod.chiselsandbits.chiselmode.line,Line,ライン
-mod.chiselsandbits.chiselmode.line1,1 x 1,1 x 1
-mod.chiselsandbits.chiselmode.line2,2 x 2,2 x 2
-mod.chiselsandbits.chiselmode.line4,4 x 4,4 x 4
-mod.chiselsandbits.chiselmode.line8,8 x 8,8 x 8
 mod.chiselsandbits.chiselmode.mode,Chisel Mode: %s,ノミモード: %s
 mod.chiselsandbits.chiselmode.mode_grouped,Chisel Mode: %1$s (%2$s),ノミモード: %1$s (%2$s)
 mod.chiselsandbits.chiselmode.multiline.connected_material,Extrude,押し出す
@@ -152,14 +148,6 @@ Medium: 5 x 1",描画された壁
 mod.chiselsandbits.chiselmode.multiline.drawn_wall_thin,"Drawn Wall
 Thin: 3 x 1",描画された壁
 mod.chiselsandbits.chiselmode.multiline.line,Line,ライン
-mod.chiselsandbits.chiselmode.multiline.line1,1 x 1,1 x 1
-mod.chiselsandbits.chiselmode.multiline.line2,2 x 2,2 x 2
-mod.chiselsandbits.chiselmode.multiline.line4,4 x 4,4 x 4
-mod.chiselsandbits.chiselmode.multiline.line8,8 x 8,8 x 8
-mod.chiselsandbits.chiselmode.multiline.plane1,1 x 1,1 x 1
-mod.chiselsandbits.chiselmode.multiline.plane2,2 x 2,2 x 2
-mod.chiselsandbits.chiselmode.multiline.plane4,4 x 4,4 x 4
-mod.chiselsandbits.chiselmode.multiline.plane8,8 x 8,8 x 8
 mod.chiselsandbits.chiselmode.multiline.replace,Replace,置換
 mod.chiselsandbits.chiselmode.multiline.same_material,"Same
 Material",同じ
@@ -168,17 +156,8 @@ Bit",シングル
 mod.chiselsandbits.chiselmode.multiline.snap,"Grid
 Snapped
 Cube",グリッド
-mod.chiselsandbits.chiselmode.multiline.snap2,1/8,1/8
-mod.chiselsandbits.chiselmode.multiline.snap4,1/4,1/4
-mod.chiselsandbits.chiselmode.multiline.snap8,1/2,1/2
 mod.chiselsandbits.chiselmode.multiline.sphere,Sphere,球体
 mod.chiselsandbits.chiselmode.multiline.sphere_large,Full,フル
-mod.chiselsandbits.chiselmode.multiline.sphere_medium,1/2,1/2
-mod.chiselsandbits.chiselmode.multiline.sphere_small,1/4,1/4
-mod.chiselsandbits.chiselmode.plane1,1 x 1,1 x 1
-mod.chiselsandbits.chiselmode.plane2,2 x 2,2 x 2
-mod.chiselsandbits.chiselmode.plane4,4 x 4,4 x 4
-mod.chiselsandbits.chiselmode.plane8,8 x 8,8 x 8
 mod.chiselsandbits.chiselmode.replace,Replace,置換
 mod.chiselsandbits.chiselmode.same_material,Same Material,同一素材
 mod.chiselsandbits.chiselmode.single,Single Bit,単一ビット
@@ -188,8 +167,6 @@ mod.chiselsandbits.chiselmode.snap4,Grid Snapped 1/4 Size Cube,1/4
 mod.chiselsandbits.chiselmode.snap8,Grid Snapped 1/2 Size Cube,1/2
 mod.chiselsandbits.chiselmode.sphere,Sphere,球体
 mod.chiselsandbits.chiselmode.sphere_large,Full,フル
-mod.chiselsandbits.chiselmode.sphere_medium,1/2,1/2
-mod.chiselsandbits.chiselmode.sphere_small,1/4,1/4
 mod.chiselsandbits.command.fill.completed,Successfully completed the fill command.,フィルコマンドを正常に完了しました。
 mod.chiselsandbits.command.give.blockstate.not-chiselable,The blockstate is not chiselable.,ブロックステートはノミで削り取れません。
 mod.chiselsandbits.config.balancing.bit-bag-stack-size.comment,The max size of the stacks of bits in the bit bag.,ビットバッグ内のビットスタックの最大サイズです
@@ -318,9 +295,6 @@ mod.chiselsandbits.pattern.cutting.across.axis.y,Cutting across the Y axis.,Y軸
 mod.chiselsandbits.pattern.cutting.across.axis.z,Cutting across the Z axis.,Z軸方向に切断しています。
 mod.chiselsandbits.pattern.item.tooltip.mode.grouped,Placement Mode: %1$s (%2$s),配置モード: %1$s (%2$s)
 mod.chiselsandbits.pattern.item.tooltip.mode.simple,Placement Mode: %s,配置モード: %s
-mod.chiselsandbits.pattern.modification.across.axis.x,X,X
-mod.chiselsandbits.pattern.modification.across.axis.y,Y,Y
-mod.chiselsandbits.pattern.modification.across.axis.z,Z,Z
 mod.chiselsandbits.pattern.modification.group.mirror,Mirror,ミラー
 mod.chiselsandbits.pattern.modification.group.rotate,Rotate,回転
 mod.chiselsandbits.pattern.placement.failure.collision,Can not place pattern: It will collide with existing material!,パターンを配置できません: 既存の素材と衝突します！
@@ -363,7 +337,7 @@ mod.chiselsandbits.result.require_bag,You need empty slots in your inventory or 
 mod.chiselsandbits.result.void_excess,"Your inventory has filled up, any excess bits have been voided!",インベントリが満杯になりました。余分なビットは破棄されました！
 mod.chiselsandbits.tapemeasure.bit,Bit,ビット
 mod.chiselsandbits.tapemeasure.block,Block,ブロック
-mod.chiselsandbits.tapemeasure.chatmsg,"x: %s,  y: %s,  z: %s","x: %s,  y: %s,  z: %s"
+mod.chiselsandbits.tapemeasure.chatmsg,"x: %s,  y: %s,  z: %s",
 mod.chiselsandbits.tapemeasure.distance,Distance,距離
 mod.chiselsandbits.test,Placeholder text during development,開発中のプレースホルダー テキスト
 mod.chiselsandbits.ui-components.change-tracker.operations.clear.name,Clear the ChangeTracker,変更トラッカーをクリア
@@ -404,7 +378,7 @@ tile.mod.chiselsandbits.chiseled_cloth.name,Chiseled Cloth,彫刻された布
 tile.mod.chiselsandbits.chiseled_glass.name,Chiseled Glass,ノミ加工ガラス
 tile.mod.chiselsandbits.chiseled_ice.name,Chiseled Ice,彫刻された氷
 tile.mod.chiselsandbits.chiseled_packedIce.name,Chiseled Packed Ice,彫刻されたパックドアイス
-tile.mod.chiselsandbits.chiseled_clay.name,Chiseled Clay,ノミ彫り粘土
+tile.mod.chiselsandbits.chiseled_clay.name,Chiseled Clay,彫刻された粘土
 tile.mod.chiselsandbits.chiseled_sand.name,Chiseled Sand,ノミ加工砂
 tile.mod.chiselsandbits.chiseled_ground.name,Chiseled Ground,彫刻された地面
 tile.mod.chiselsandbits.chiseled_grass.name,Chiseled Grass,ノミ加工草
@@ -533,3 +507,53 @@ mod.chiselsandbits.config.requireBagSpace,Require Inventory/Bag Space,インベ�
 mod.chiselsandbits.config.requireBagSpace.tooltip,Requires there to be an empty slot in a bag or in the player's inventory before allowing them to use the chisel.,ノミを使用する前に、バッグまたはプレイヤーのインベントリに空のスロットが必要です。
 mod.chiselsandbits.config.voidExcessBits,Void Excess Bits,虚無過剰ビット
 mod.chiselsandbits.config.voidExcessBits.tooltip,Voids any bits that couldn't be fit into a bag or your inventory. Improves server performance. The undo action could have issues as some bits are voided.,バッグまたはインベントリに収納できないビットを消去します。サーバーパフォーマンスが向上します。アンドゥアクションは一部のビットが消去されるため、問題が生じる可能性があります。
+chiselsandbits.color.blue,Blue,
+chiselsandbits.color.cyan,Cyan,
+chiselsandbits.color.gray,Gray,
+chiselsandbits.color.lime,Lime,
+chiselsandbits.color.orange,Orange,
+chiselsandbits.color.purple,Purple,
+chiselsandbits.color.yellow,Yellow,
+chiselsandbits.measurements.lengths.bit,%s Bits.,
+chiselsandbits.measurements.lengths.block,%s Blks.,
+commands.setbit.usage,/setbit <x> <y> <z> <bitx> <bity> <bitz> <TileName> [dataValue],
+itemGroup.chiselsandbits,Chisels & Bits,
+mod.chiselsandbits.chisel.station.name,Chisel Station,
+mod.chiselsandbits.chiselmode.multiline.plane,Plane,
+mod.chiselsandbits.chiselmode.plane,Plane,
+mod.chiselsandbits.help.empty,Empty,
+mod.chiselsandbits.help.mirrorprint.long,"Right-click on a chiseled block face on wish to mirror from, clicking an east facing face will mirror it along the east->west axis. Craft written design with a positive or negative design to transfer the mirror image to the type of design you want.",
+mod.chiselsandbits.help.trashitem,Delete only %s,
+mod.chiselsandbits.keys.category,Chisels & Bits,
+mod.chiselsandbits.other.pickbit,Pick Bit,
+mod.chiselsandbits.pattern.placement.mode.imposement,Imposement,
+mod.chiselsandbits.pattern.placement.mode.merge,Merge,
+mod.chiselsandbits.positivepatternmode.additive,Additive,
+mod.chiselsandbits.pretty.facing-north,North,
+mod.chiselsandbits.pretty.facing-south,South,
+mod.chiselsandbits.chiselmode.line1,1 x 1,
+mod.chiselsandbits.chiselmode.line2,2 x 2,
+mod.chiselsandbits.chiselmode.line4,4 x 4,
+mod.chiselsandbits.chiselmode.line8,8 x 8,
+mod.chiselsandbits.chiselmode.multiline.line1,1 x 1,
+mod.chiselsandbits.chiselmode.multiline.line2,2 x 2,
+mod.chiselsandbits.chiselmode.multiline.line4,4 x 4,
+mod.chiselsandbits.chiselmode.multiline.line8,8 x 8,
+mod.chiselsandbits.chiselmode.multiline.plane1,1 x 1,
+mod.chiselsandbits.chiselmode.multiline.plane2,2 x 2,
+mod.chiselsandbits.chiselmode.multiline.plane4,4 x 4,
+mod.chiselsandbits.chiselmode.multiline.plane8,8 x 8,
+mod.chiselsandbits.chiselmode.multiline.snap2,1/8,
+mod.chiselsandbits.chiselmode.multiline.snap4,1/4,
+mod.chiselsandbits.chiselmode.multiline.snap8,1/2,
+mod.chiselsandbits.chiselmode.multiline.sphere_medium,1/2,
+mod.chiselsandbits.chiselmode.multiline.sphere_small,1/4,
+mod.chiselsandbits.chiselmode.plane1,1 x 1,
+mod.chiselsandbits.chiselmode.plane2,2 x 2,
+mod.chiselsandbits.chiselmode.plane4,4 x 4,
+mod.chiselsandbits.chiselmode.plane8,8 x 8,
+mod.chiselsandbits.chiselmode.sphere_medium,1/2,
+mod.chiselsandbits.chiselmode.sphere_small,1/4,
+mod.chiselsandbits.pattern.modification.across.axis.x,X,
+mod.chiselsandbits.pattern.modification.across.axis.y,Y,
+mod.chiselsandbits.pattern.modification.across.axis.z,Z,

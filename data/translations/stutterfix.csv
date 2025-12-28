@@ -4,7 +4,7 @@ stutterfix.options.Worker_threads_priority_cut,Priority cutoff point,優先カ�
 stutterfix.options.Worker_threads_priority_cut.tooltip,"Indicates the cutoff point for the priority of worker threads. The higher the value, the higher the first part of the threads will be with normal priority and the lower the last part will be with minimum priority. The value must be less than the number of worker threads to have the cutoff point, otherwise all threads will have normal priority. Threads with minimum priority help reduce stuttering.",ワーカースレッドの優先度のカットオフポイントを示します。値が高いほど、最初の部分のスレッドはより高い通常の優先度を持ち、最後の部分はより低い最小優先度を持ちます。値はワーカースレッド数より小さくする必要があります。そうしないと全てのスレッドが通常の優先度になります。最小優先度を持つスレッドはカクつきを減らすのに役立ちます。
 stutterfix.options.keep,Keep,保持
 stutterfix.options.name,StutterFix Options,スタッターフィックスオプション
-stutterfix.options.priority_cut,%s,%s
+stutterfix.options.priority_cut,%s,
 stutterfix.options.remove,Remove,削除
 stutterfix.options.remove_yield,Remove Yield(),収益を削除()
 stutterfix.options.remove_yield.tooltip,"The rendering thread has a call made in each loop, called yield(), with the function of informing the “scheduler” that the current thread is willing to abandon the current use of the processor to other threads. Removing yield() can make fps more stable. 
@@ -24,7 +24,7 @@ stutterfix.options.server_thread_priority.tooltip,"In singleplayer mode, the gam
  Default vanilla: %s","シングルプレイモードでは、ゲームは統合サーバーを起動し、ティック、エンティティ、チャンク生成の初期化など、世界全体を実行します(これはワーカースレッドで実行されます)。このオプションはシングルプレイモードでワールドをプレイ中にのみ表示されます。
 
 デフォルト(バニラ): %s"
-stutterfix.options.thread_priority,%s,%s
+stutterfix.options.thread_priority,%s,
 stutterfix.options.threads,%s threads,%s スレッド
 stutterfix.options.worker_threads,Worker threads count,ワーカースレッド数
 stutterfix.options.worker_threads.tooltip,"It is the number of threads running to perform tasks such as generating chunks. The smaller the value, the less CPU overhead, reducing stuttering, and the slower the chunk generation speed. 

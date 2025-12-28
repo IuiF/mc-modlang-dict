@@ -43,7 +43,7 @@ hull_type.transport.dark_oak,Dark Oak Hull,ダークオーク
 hull_type.transport.iron,Iron Hull,鉄
 hull_type.transport.jungle,Jungle Hull,ジャングル
 hull_type.transport.oak,Oak Hull,オーク
-hull_type.transport.spruce,Spruce Hull,マツ
+hull_type.transport.spruce,Spruce Hull,トウヒ
 hull_type.transport.treated_wood,Treated Wood Hull,防腐木材
 item.transport.booster_engine,Booster Engine,ブースターエンジン
 item.transport.cargo_minecart,Modular Minecart,モジュラートロッコ
@@ -64,7 +64,7 @@ module_slot.transport.none,Not a,なし
 module_type.transport.cargo,Cargo,積み荷
 module_type.transport.engine,Engine,エンジン
 screen.transport.blank,Blank,空
-screen.transport.fluid.capacity,%s / %s mB,%s / %s mB
+screen.transport.fluid.capacity,%s / %s mB,
 screen.transport.fluid.empty,Empty,空
 screen.transport.jei.category.module_configurator,Module Configurator,モジュールコンフィグレーター
 screen.transport.jei.category.rail_workers_bench,Rail Worker's Bench,鉄道技師の加工台
@@ -72,12 +72,12 @@ screen.transport.speed,Current Speed: %s,現在の速度: %s
 subtitle.transport.whistle,Train whistle,列車の汽笛
 text.transport.amount,Amount: %1$s/%2$s%3$s,量: %1$s/%2$s%3$s
 text.transport.fluid,Fluid: %s,液体: %s
-text.transport.forge_energy,FE,FE
 text.transport.hull_type,Hull Type: %s,車体: %s
-text.transport.installed_module," * %s - %s"," * %s - %s"
+text.transport.installed_module," * %s - %s",
 text.transport.installed_modules,Installed Modules,取り付けられたモジュール
-text.transport.milli_bucket,mB,mB
 text.transport.module_slot,%s Module Slot,%s モジュールスロット
 tooltip.transport.contents,Contents: ,コンテンツ:
-tooltip.transport.contents.fluid," * %s mB - %s"," * %s mB - %s"
+tooltip.transport.contents.fluid," * %s mB - %s",
 tooltip.transport.contents.item," * %sx - %s",* %sx - %s
+text.transport.forge_energy,FE,
+text.transport.milli_bucket,mB,

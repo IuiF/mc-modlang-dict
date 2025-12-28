@@ -14,7 +14,7 @@ The key should be an integer from 1 to 1024. The shift is done by character code
 数値パスワード。これがあれば、あなたは基本的に人々があなたのメッセージを解読しようとしないことを望んでいます。これは多くの場合正しい可能性があるので、使用の可能性は脅威モデルに依存します。Keyは1から1024までの整数でなければなりません。シフトはアルファベット順ではなく文字コードで行われ、どの言語とも互換性があることを確認します。"
 chat.nochatreports.disabled.signing_requested,The server refused to deliver an unsigned message. You can enable chat signing by changing your signing mode or through a prompt screen.,サーバーが未署名のメッセージの配信を拒否しました。チャット署名モードを変更するか、プロンプト画面から有効にできます。
 configuration.NoChatReports.category.client,Client,クライアント
-configuration.NoChatReports.category.lan,LAN,LAN
+configuration.NoChatReports.category.lan,LAN,
 disconnect.nochatreports.client,This server does not have No Chat Reports and you have configured it to require itself on server.,このサーバにはNo Chat Reportsがインストールされていませんが、サーバにインストールするように構成されています。
 gui.NoChatReports.showEncryptionButtonWarning,"§cBelow does not disable encryption, it only hides the button!",§c暗号化は無効にならず、ボタンだけを非表示にします！
 gui.nochatreports.encryption_config.algorithm,Algorithm: %1$s,アルゴリズム：%1$s
@@ -102,7 +102,7 @@ gui.nochatreports.signing_status.disabled_offline,Message signing is disabled si
 gui.nochatreports.verified_server,"§a§lSafe Server§r
 We could verify that this server has No Chat Reports installed, or prevents chat reports in some other known way. You can chat safely there.","§a§lセキュアなサーバ§r
 このサーバにNo Chat Reportsがインストールされているか、または他の既知の方法でチャットの通報を防ぐことができます。安全に話すことができます。"
-key.nochatreports.cmd,Cmd,Cmd
+key.nochatreports.cmd,Cmd,
 modmenu.descriptionTranslation.nochatreports,"Strips cryptographic signatures from player messages, making it impossible to track and associate them with your Mojang/Microsoft account, as well as to use the Player Chat Reporting feature.",プレイヤーメッセージから暗号化された署名をスプリットし、Microsoftアカウントに追跡して関連付けることができないようにしたり、チャット通報機能を使用したりします。
 nochatreports.connect.await,Awaiting reconnection: %1$s seconds...,再接続待ち:%1$s秒...
 nochatreports.connect.nokey_rejected,The server rejected the connection without a chat signing key.,サーバは、チャット署名鍵のない接続を拒否します。
@@ -111,7 +111,7 @@ option.NoChatReports.addQueryData.tooltip,"Allows the server to send additional 
 option.NoChatReports.alwaysHideReportButton,Always hide report button,常に通報ボタンを隠す
 option.NoChatReports.alwaysHideReportButton.tooltip,"Prevents the client from ever showing the report button in the Social Interactions screen. This is disabled by default and the mod simply makes the button inactive on servers that have No Chat Reports installed, adding an explanation to the tooltip of the button.",クライアントがソーシャル画面に通報ボタンを表示しないようにする。デフォルトではオフで、モジュールはNo Chat Reportsがインストールされているサーバー上でボタンを無効にし、ボタンのツールチップに説明を追加するだけです。
 option.NoChatReports.convertToGameMessage,Convert to game message,ゲームメッセージに変換
-option.NoChatReports.convertToGameMessage.tooltip,Makes the server convert all player messages into system messages. System messages don't have any signatures attached and cannot be reported; on unmodified clients they will display with a gray bar to the left.,サーバーにすべてのプレイヤーメッセージをシステムメッセージに変換させます。システムメッセージに署名が追加されていません、通報できない、変更されていないクライアントでは、左側にグレーのバーが表示されます。
+option.NoChatReports.convertToGameMessage.tooltip,Makes the server convert all player messages into system messages. System messages don't have any signatures attached and cannot be reported; on unmodified clients they will display with a gray bar to the left.,サーバーにすべてのプレイヤーメッセージをシステムメッセージに変換させます。システムメッセージに署名が追加されていません、通報できない、変更されていないクライアントでは、左側に灰色のバーが表示されます。
 option.NoChatReports.defaultSigningMode,Default signing mode,デフォルト署名モード
 option.NoChatReports.defaultSigningMode.tooltip,Sets the signing mode default for servers that force or allow chat signing.,サーバーが強制または許可するチャット署名のデフォルト署名モードを設定します。
 option.NoChatReports.demandOnClient,Demand on client,クライアントへのインストールが必要
@@ -126,7 +126,7 @@ option.NoChatReports.enableDebugLog.tooltip,Enables logging of certain debug inf
 option.NoChatReports.enableMod,Enable mod,モジュールを有効にする
 option.NoChatReports.enableMod.tooltip,Responsible for enabling most of the mod's client-sided functionality. Will require re-joining the server to take effect if toggled mid-session.,モジュールを有効にするクライアント機能の大部分を担当しています。セッションを途中で切り替えた場合、有効になるにはサーバに再参加する必要があります。
 option.NoChatReports.hideInsecureMessageIndicators,Hide unverified message indicators,未確認メッセージインジケータを隠す
-option.NoChatReports.hideInsecureMessageIndicators.tooltip,Prevents the client from displaying unverified message indicators in the form of a gray bar to the left of the chat message.,クライアントがチャットメッセージの左側に認証されていないメッセージインジケータをグレーのバーで表示しないようにします。
+option.NoChatReports.hideInsecureMessageIndicators.tooltip,Prevents the client from displaying unverified message indicators in the form of a gray bar to the left of the chat message.,クライアントがチャットメッセージの左側に認証されていないメッセージインジケータを灰色のバーで表示しないようにします。
 option.NoChatReports.hideModifiedMessageIndicators,Hide modified message indicators,変更されたメッセージ・インディケータの非表示
 option.NoChatReports.hideModifiedMessageIndicators.tooltip,Prevents the client from displaying modified message indicators in the form of a gray bar to the left and §7§l(§r§7?§7§l)§r on hover to the right of the chat message.,クライアントが変更されたメッセージインジケータをチャットメッセージの左側に灰色のバーとして表示し、チャットメッセージの右側にホバリングしているときに表示することを禁止します。
 option.NoChatReports.hideSigningRequestMessage,Hide signing request message,署名要求メッセージを非表示にする
@@ -138,7 +138,7 @@ option.NoChatReports.hideWarningToast.tooltip,Removes a warning toast that is di
 option.NoChatReports.showEncryptionButton,Show encryption button,暗号化ボタンを表示
 option.NoChatReports.showEncryptionButton.tooltip,Setting this to false will simply prevent the encryption button from being displayed in the chat screen. Be aware that encryption itself will not be automatically disabled along with the button.,これをfalseに設定すると、チャット画面に暗号化ボタンが表示されないようにするだけです。暗号化自体はボタンとともに自動的に無効にならないことに注意してください。
 option.NoChatReports.showEncryptionIndicators,Show encryption indicators,暗号化インジケータを表示
-option.NoChatReports.showEncryptionIndicators.tooltip,Toggles the display of the encrypted message indicators in the form of a purple bar to the left and §5§l(§r§5ȯ§5§l)§r on hover to the right of the chat message.,チャットメッセージの左側にある紫色のバーと右側のホバー時に §5§l(§r§5ȯ§5§l)§r の形式で表示される暗号化メッセージインジケーターの表示を切り替えます。
+option.NoChatReports.showEncryptionIndicators.tooltip,Toggles the display of the encrypted message indicators in the form of a purple bar to the left and §5§l(§r§5ȯ§5§l)§r on hover to the right of the chat message.,チャットメッセージの左側にある紫のバーと右側のホバー時に §5§l(§r§5ȯ§5§l)§r の形式で表示される暗号化メッセージインジケーターの表示を切り替えます。
 option.NoChatReports.showNCRButton,Show NCR button,モジュールボタンを表示
 option.NoChatReports.showNCRButton.tooltip,Adds a button that toggles most of the mod's client-sided functionality to the multiplayer menu.,マルチプレイメニューでモジュールのクライアント機能の大部分の有効状態を切り替えるボタンを追加します。
 option.NoChatReports.showReloadButton,Show reload button,再ロードボタンを表示
@@ -154,3 +154,10 @@ option.NoChatReports.verifiedIconOffsetY,Verified icon Y-offset,アイコンのY
 option.NoChatReports.verifiedIconOffsetY.tooltip,"Defines Y-axis offset for rendering of ""Safe Server"" icon.",レンダーされるセーフサーバーアイコンのY軸オフセットを定義します。
 tag.nochatreports.encrypted,Encrypted using: %1$s,暗号化の使用方法：%1$s
 tag.nochatreports.encrypted_original,Non-decrypted: %1$s,復号されていません:%1$s
+algorithm.nochatreports.aes_cfb8_base64.name,AES/CFB8+Base64R,
+algorithm.nochatreports.aes_ecb_base64.name,AES/ECB+Base64R,
+algorithm.nochatreports.aes_gcm_base64.name,AES/GCM+Base64R,
+algorithm.nochatreports.caesar.name,Caesar,
+configuration.NoChatReports.config,No Chat Reports,
+key.nochatreports.ctrl,Ctrl,
+option.NoChatReports.demandOnClientMessage.tooltip,The message that is displayed to a client if it tries to join the server without having No Chat Reports installed.,

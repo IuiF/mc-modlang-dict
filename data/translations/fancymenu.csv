@@ -33,12 +33,12 @@ fancymenu.actions.blocks.add.else_if,Append ELSE-IF Statement,ELSE-IF文を追�
 fancymenu.actions.blocks.add.folder,Add Folder,フォルダーを追加
 fancymenu.actions.blocks.add.if,Add IF Statement,IF文を追加
 fancymenu.actions.blocks.add.while,Add WHILE Loop,WHILEループを追加
-fancymenu.actions.blocks.else,ELSE,ELSE
-fancymenu.actions.blocks.else_if,ELSE-IF (%s),ELSE-IF (%s)
+fancymenu.actions.blocks.else,ELSE,
+fancymenu.actions.blocks.else_if,ELSE-IF (%s),
 fancymenu.actions.blocks.folder.collapsed,(collapsed),（折りたたみ中）
 fancymenu.actions.blocks.folder.display,Folder: %s,フォルダー: %s
-fancymenu.actions.blocks.if,IF (%s),IF (%s)
-fancymenu.actions.blocks.while,WHILE (%s),WHILE (%s)
+fancymenu.actions.blocks.if,IF (%s),
+fancymenu.actions.blocks.while,WHILE (%s),
 fancymenu.actions.build_action.screen.search_action,Search action..,アクションを検索…
 fancymenu.actions.close_screen,Close Screen,画面を閉じる
 fancymenu.actions.close_screen.desc,"Closes the active screen.
@@ -240,7 +240,7 @@ FancyMenuで作ったカスタムGUIに対応しているよ。"
 fancymenu.actions.opengui.desc.value,Screen Identifier,画面の識別子
 fancymenu.actions.openlink,Open URL in Browser,URLをブラウザで開く
 fancymenu.actions.openlink.desc,Open a link in your default browser.,デフォルトのブラウザでリンクを開くよ。
-fancymenu.actions.openlink.desc.value,URL,URL
+fancymenu.actions.openlink.desc.value,URL,
 fancymenu.actions.paste_to_chat,Paste to Chat,チャットに貼り付け
 fancymenu.actions.paste_to_chat.append,Append Text: %s,テキストを追記: %s
 fancymenu.actions.paste_to_chat.append.desc,"If the action should append the text to existing
@@ -320,7 +320,6 @@ Do you really want to cancel the script editing?
 
 §xここで行ったすべての変更が元に戻るよ！"
 fancymenu.actions.script_editor.empty_hint,Right-click here to add actions,ここを右クリックしてアクションを追加
-fancymenu.actions.script_editor.shortcuts.a,A,A
 fancymenu.actions.script_editor.shortcuts.shift_arrow_down,Shift + Down,シフト + ダウン
 fancymenu.actions.select_file,Select File from System,システムからファイルを選択
 fancymenu.actions.select_file.desc,"This action opens a native file selection dialog so you can pick a file from anywhere on your computer.
@@ -555,7 +554,6 @@ fancymenu.commmands.openguiscreen.unable_to_open_gui,[FANCYMENU] Unable to open 
 fancymenu.common.close,Close,閉じる
 fancymenu.common_components.cancel,Cancel,キャンセル
 fancymenu.common_components.done,Done,完了
-fancymenu.common_components.ok,OK,OK
 fancymenu.common_components.reset,Reset to Default,デフォルトにリセット
 fancymenu.common_components.set,Set,設定
 fancymenu.context_menu.entries.choose_or_set.current,Current: %s,現在: %s
@@ -3438,10 +3436,10 @@ alternative available.",この背景タイプは非推奨で、将来的に削�
 fancymenu.overlay.debug,Debug Overlay,デバッグオーバーレイ
 fancymenu.overlay.debug.advanced_screen_category,Advanced Screen Category: %s,高度な画面カテゴリー: %s
 fancymenu.overlay.debug.basic_screen_category,Basic Screen Category: %s,基本的な画面カテゴリー: %s
-fancymenu.overlay.debug.cpu,§lCPU:§r %s,§lCPU:§r %s
+fancymenu.overlay.debug.cpu,§lCPU:§r %s,
 fancymenu.overlay.debug.cpu_usage.jvm,§lCPU Usage (JVM):§r %s,§lCPU使用率 (JVM):§r %s
 fancymenu.overlay.debug.cpu_usage.os,§lCPU Usage (OS):§r %s,§lCPU使用率 (OS):§r %s
-fancymenu.overlay.debug.fps,§lFPS:§r %s,§lFPS:§r %s
+fancymenu.overlay.debug.fps,§lFPS:§r %s,
 fancymenu.overlay.debug.loaded_animations,§lTotal Loaded Animations:§r %1$s (%2$s frames total),§l読み込まれたアニメーションの総数:§r %1$s（全体で %2$s フレーム）
 fancymenu.overlay.debug.loaded_animations.resolution_too_high,The resolution of at least one animation is too high! Recommended max resolution is 1080p!,少なくとも1つのアニメーションの解像度が高すぎます！推奨される最大解像度は1080pです！
 fancymenu.overlay.debug.loaded_animations.too_many_frames,Too many animation frames! Recommended total frames (all animations combined) are 500!,アニメーションのフレーム数が多すぎます！全アニメーションの合計フレーム数は<b>(500)</b>が推奨されます！
@@ -3460,7 +3458,7 @@ fancymenu.overlay.debug.toggle,Debug Overlay: %s,デバッグオーバーレイ:
 fancymenu.overlay.debug.toggle.desc,"The debug overlay shows useful information
 about FancyMenu and the current screen.
 It can also help with performance optimization.",デバッグオーバーレイは FancyMenu と現在の画面に関する有用な情報を表示します。また、パフォーマンスの最適化にも役立ちます。
-fancymenu.overlay.debug.toggle.shortcut,CTRL + ALT + D,CTRL + ALT + D
+fancymenu.overlay.debug.toggle.shortcut,CTRL + ALT + D,
 fancymenu.overlay.menu_bar.customization,Customization,カスタマイズ
 fancymenu.overlay.menu_bar.customization.close_current_screen,Force-Close Current Screen,現在の Screen を強制終了
 fancymenu.overlay.menu_bar.customization.copy_current_screen_identifier,Copy Identifier of Current Screen,現在の Screen の identifier をコピー
@@ -3530,7 +3528,7 @@ Do you want to hide the bar now?","本当によろしいですか？
 バーを再度§x表示§rするには、§xCTRL + ALT + C§rを押してください！
 
 今、バーを非表示にしますか？"
-fancymenu.overlay.menu_bar.customization.hide_overlay.shortcut,CTRL + ALT + C,CTRL + ALT + C
+fancymenu.overlay.menu_bar.customization.hide_overlay.shortcut,CTRL + ALT + C,
 fancymenu.overlay.menu_bar.customization.layout,Layouts,レイアウト
 fancymenu.overlay.menu_bar.customization.layout.manage,Manage Layouts,レイアウトの管理
 fancymenu.overlay.menu_bar.customization.layout.manage.all,All Layouts..,全てのレイアウト。。
@@ -3545,7 +3543,7 @@ fancymenu.overlay.menu_bar.customization.layout.new.current.disabled.tooltip,"Yo
 the current screen first.",まず現在の Screen のカスタマイズを有効にする必要があります。
 fancymenu.overlay.menu_bar.customization.layout.new.universal,For All Screens [Universal],全ての Screen 用 [Universal]
 fancymenu.overlay.menu_bar.customization.reload_fancymenu,Reload FancyMenu,FancyMenuリロードする
-fancymenu.overlay.menu_bar.customization.reload_fancymenu.shortcut,CTRL + ALT + R,CTRL + ALT + R
+fancymenu.overlay.menu_bar.customization.reload_fancymenu.shortcut,CTRL + ALT + R,
 fancymenu.overlay.menu_bar.customization.settings,Settings,設定
 fancymenu.overlay.menu_bar.customization.settings.advanced_customization_mode,Advanced Customization Mode: %s,高度なカスタマイズモード: %s
 fancymenu.overlay.menu_bar.customization.settings.advanced_customization_mode.tooltip,"This is only for advanced users!
@@ -3637,7 +3635,6 @@ fancymenu.overlay.menu_bar.tools.dummy_screen_instances.receiving_level_screen,R
 fancymenu.overlay.menu_bar.tools.dummy_screen_instances.receiving_level_screen.desc,This one is shown right before a world finishes loading.,ワールドの読み込みが完了する直前に表示されます。
 fancymenu.overlay.menu_bar.tools.level_loading_screen,Level Loading Screen,レベル読み込み画面
 fancymenu.overlay.menu_bar.tools.progress_screen,Progress Screen,進捗画面
-fancymenu.overlay.menu_bar.user_interface,UI,UI
 fancymenu.overlay.menu_bar.user_interface.context_menu_hover_open_speed,Context Menu Hover Open Speed: %s,コンテキストメニューのホバーオープンスピード: %s
 fancymenu.overlay.menu_bar.user_interface.context_menu_hover_open_speed.desc,"How fast sub menus should open when
 hovering over its entry.",エントリにホバーした際のサブメニューの表示速度を設定します。
@@ -4916,7 +4913,7 @@ The requirement is probably part of a Ticker element that runs in Async mode.
 fancymenu.requirements.build_requirement.screen.search_requirement,Search requirement..,条件を検索…
 fancymenu.requirements.categories.advanced,Advanced,高度
 fancymenu.requirements.categories.client,Client,クライアント
-fancymenu.requirements.categories.gui,GUI,GUI
+fancymenu.requirements.categories.gui,GUI,
 fancymenu.requirements.categories.other,Other,その他
 fancymenu.requirements.categories.player,Player,プレイヤー
 fancymenu.requirements.categories.realtime,Realtime,リアルタイム
@@ -5073,7 +5070,7 @@ the 'Mod Menu' mod.","特定のModが読み込まれているかチェックし�
 ModのIDは「Mods」メニューで見つけられるよ。
 このメニューはForgeではデフォルトで利用可能。Fabricでは、
 「Mod Menu」Modをダウンロードしてね。"
-fancymenu.requirements.is_mod_loaded.mod_id,Mod ID:,Mod ID:
+fancymenu.requirements.is_mod_loaded.mod_id,Mod ID:,
 fancymenu.requirements.is_mod_loaded.value_name,Mod ID,モッドID
 fancymenu.requirements.is_number,Is Number,数値がXか
 fancymenu.requirements.is_number.compare_mode,Compare Mode: %s,比較モード: %s
@@ -5630,7 +5627,7 @@ To learn more about resource locations,
 please visit resources.fancymenu.net!","使用するリソースのリソースロケーションを入力してください。リソースロケーションは2つの部分で構成されます。最初の部分はnamespaceで、2番目の部分はpathです。これら2つの部分はコロン (:) で区切られます。
 
 リソースロケーションの詳細については、resources.fancymenu.net をご覧ください！"
-fancymenu.resources.source_type.web,Web,Web
+fancymenu.resources.source_type.web,Web,
 fancymenu.resources.source_type.web.desc,"This source type lets you use web resources via URL.
 Resource URLs should ALWAYS be DIRECT URLs,
 which means they should point directly to the
@@ -6180,10 +6177,10 @@ fancymenu.editor.actions.blocks.add.else,Append ELSE Statement,ELSE文を追加
 fancymenu.editor.actions.blocks.add.else_if,Append ELSE-IF Statement,ELSE-IF文を追加
 fancymenu.editor.actions.blocks.add.if,Add IF Statement,IF文を追加
 fancymenu.editor.actions.blocks.add.while,Add WHILE Loop,WHILEループを追加
-fancymenu.editor.actions.blocks.else,ELSE,ELSE
-fancymenu.editor.actions.blocks.else_if,ELSE-IF (%s),ELSE-IF (%s)
-fancymenu.editor.actions.blocks.if,IF (%s),IF (%s)
-fancymenu.editor.actions.blocks.while,WHILE (%s),WHILE (%s)
+fancymenu.editor.actions.blocks.else,ELSE,
+fancymenu.editor.actions.blocks.else_if,ELSE-IF (%s),
+fancymenu.editor.actions.blocks.if,IF (%s),
+fancymenu.editor.actions.blocks.while,WHILE (%s),
 fancymenu.editor.actions.deprecated,[Deprecated],[非推奨]
 fancymenu.editor.actions.execute_terminal_command.edit,Edit Terminal Command(s),ターミナルコマンド<b>(</b>s)を編集
 fancymenu.editor.actions.execute_terminal_command.edit.desc.line1,Commands are separated by OS.,コマンドは OS ごとに区切られています。
@@ -6274,7 +6271,7 @@ FancyMenuで作ったカスタムGUIに対応しているよ。"
 fancymenu.editor.custombutton.config.actiontype.opengui.desc.value,Screen Identifier,画面の識別子
 fancymenu.editor.custombutton.config.actiontype.openlink,Open URL in Browser,URLをブラウザで開く
 fancymenu.editor.custombutton.config.actiontype.openlink.desc,Open a link in your default browser.,デフォルトのブラウザでリンクを開くよ。
-fancymenu.editor.custombutton.config.actiontype.openlink.desc.value,URL,URL
+fancymenu.editor.custombutton.config.actiontype.openlink.desc.value,URL,
 fancymenu.editor.custombutton.config.actiontype.quitgame,Quit Minecraft,Minecraftを終了
 fancymenu.editor.custombutton.config.actiontype.quitgame.desc,Quit Minecraft. (duh),Minecraftを終了するよ。（まあ、そうだよね）
 fancymenu.editor.custombutton.config.actiontype.reloadmenu,Reload FancyMenu,FancyMenuリロードする
@@ -6470,7 +6467,7 @@ fancymenu.editor.items.splash.refresh.off,Refresh On Screen Load: §xDisabled,�
 fancymenu.editor.items.splash.refresh.on,Refresh On Screen Load: §yEnabled,画面読み込み時に更新: §y有効
 fancymenu.editor.items.splash.rotation,Set Rotation,回転を設定
 fancymenu.editor.layoutproperties.newelement,New Element,新しいエレメント
-fancymenu.editor.loading_requirement.category.gui,GUI,GUI
+fancymenu.editor.loading_requirement.category.gui,GUI,
 fancymenu.editor.loading_requirement.category.realtime,Realtime,リアルタイム
 fancymenu.editor.loading_requirement.category.system,System,システム
 fancymenu.editor.loading_requirement.category.window,Window,窓
@@ -6641,7 +6638,7 @@ fancymenu.elements.animation.restore_aspect_ratio,Restore Aspect Ratio,アスペ
 fancymenu.elements.animation.set_animation,Set Animation,アニメーションを設定
 fancymenu.fancymenu.editor.dynamicvariabletextfield.categories.advanced,Advanced,高度
 fancymenu.fancymenu.editor.dynamicvariabletextfield.categories.client,Client,クライアント
-fancymenu.fancymenu.editor.dynamicvariabletextfield.categories.gui,GUI,GUI
+fancymenu.fancymenu.editor.dynamicvariabletextfield.categories.gui,GUI,
 fancymenu.fancymenu.editor.dynamicvariabletextfield.categories.other,Other,その他
 fancymenu.fancymenu.editor.dynamicvariabletextfield.categories.player,Player,プレイヤー
 fancymenu.fancymenu.editor.dynamicvariabletextfield.categories.realtime,Real Life Time,実時間
@@ -6778,7 +6775,6 @@ when opening the screen.","このレイアウトのグループを設定する�
 レイアウトが選ばれるんだ。"
 fancymenu.guicomponents.cancel,Cancel,キャンセル
 fancymenu.guicomponents.done,Done,完了
-fancymenu.guicomponents.ok,OK,OK
 fancymenu.guicomponents.reset,Reset to Default,デフォルトにリセット
 fancymenu.guicomponents.set,Set,設定
 fancymenu.helper.buttonaction.disable_layout,Disable Layout,レイアウトを無効化
@@ -7495,7 +7491,7 @@ It does not support mod variables or Vanilla variables.","格納された変数�
 これはFancyMenu独自の変数システムのみをサポートしており、mod変数やVanilla変数はサポートしていません。"
 fancymenu.helper.visibilityrequirement.is_variable_value.value.desc,Variable Name & Value to Check For,変数名とチェックする値
 fancymenu.loading_requirements.is_language.lang_id,Language ID:,言語ID:
-fancymenu.loading_requirements.is_mod_loaded.mod_id,Mod ID:,Mod ID:
+fancymenu.loading_requirements.is_mod_loaded.mod_id,Mod ID:,
 fancymenu.loading_requirements.is_number.compare_mode,Compare Mode: %s,比較モード: %s
 fancymenu.loading_requirements.is_number.compare_mode.bigger_than,Bigger Than,より大きい
 fancymenu.loading_requirements.is_number.compare_mode.bigger_than_or_equals,Bigger Than Or Equals,以上
@@ -7518,3 +7514,19 @@ For example, round(3.14) = 3 and round(3.54) = 4.","指定された数に最も�
 例: round(3.14) = 3, round(3.54) = 4。"
 fancymenu.placeholders.screen_identifier,Screen Identifier,画面の識別子
 fancymenu.placeholders.screen_identifier.desc,Gets the identifier of the active screen.,アクティブな画面の識別子を取得します。
+fancymenu.actions.script_editor.shortcuts.shift_arrow_up,Shift + Up,
+fancymenu.editor.shortcuts.copy,Ctrl + C,
+fancymenu.editor.shortcuts.cut,Ctrl + U,
+fancymenu.editor.shortcuts.grid,Ctrl + G,
+fancymenu.editor.shortcuts.paste,Ctrl + V,
+fancymenu.editor.shortcuts.redo,Ctrl + Y,
+fancymenu.editor.shortcuts.save,Ctrl + S,
+fancymenu.editor.shortcuts.select_all,Ctrl + A,
+fancymenu.editor.shortcuts.undo,Ctrl + Z,
+fancymenu.elements.text.markdown,Markdown,
+fancymenu.overlay.debug.gpu,§lGPU:§r %1$s (OpenGL: %2$s),
+fancymenu.customization.items.text.markdown,Markdown,
+fancymenu.actions.script_editor.shortcuts.a,A,
+fancymenu.common_components.ok,OK,
+fancymenu.overlay.menu_bar.user_interface,UI,
+fancymenu.guicomponents.ok,OK,
