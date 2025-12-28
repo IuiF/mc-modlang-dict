@@ -122,20 +122,41 @@ Options:
 			continue
 		}
 
-		// Get all source IDs for this duplicate group
-		var sourceIDs []int64
+		// Get all source IDs for this duplicate group with their translation status
+		type SourceWithStatus struct {
+			ID        int64
+			Status    string
+			TargetText string
+		}
+		var sources []SourceWithStatus
 		db.Raw(`
-			SELECT id FROM translation_sources
-			WHERE mod_id = ? AND key = ? AND source_text = ?
-			ORDER BY id
-		`, dup.ModID, dup.Key, dup.SourceText).Scan(&sourceIDs)
+			SELECT ts.id,
+				COALESCE(t.status, 'pending') as status,
+				COALESCE(t.target_text, '') as target_text
+			FROM translation_sources ts
+			LEFT JOIN translations t ON ts.id = t.source_id
+			WHERE ts.mod_id = ? AND ts.key = ? AND ts.source_text = ?
+			ORDER BY
+				CASE
+					WHEN t.status = 'official' THEN 1
+					WHEN t.status = 'translated' THEN 2
+					WHEN t.status = 'needs_review' THEN 3
+					WHEN t.status = 'pending' THEN 4
+					ELSE 5
+				END ASC,
+				ts.id ASC
+		`, dup.ModID, dup.Key, dup.SourceText).Scan(&sources)
 
-		if len(sourceIDs) <= 1 {
+		if len(sources) <= 1 {
 			continue
 		}
 
-		keepID := sourceIDs[0]
-		deleteIDs := sourceIDs[1:]
+		// Keep the source with the best translation status
+		keepID := sources[0].ID
+		deleteIDs := make([]int64, 0, len(sources)-1)
+		for i := 1; i < len(sources); i++ {
+			deleteIDs = append(deleteIDs, sources[i].ID)
+		}
 
 		// Update source_versions to point to the kept source
 		for _, delID := range deleteIDs {
@@ -172,7 +193,7 @@ Options:
 	}
 	fmt.Printf("  Sources merged: %d\n\n", sourcesMerged)
 
-	// 3. Clean up duplicate translations (same source_id)
+	// 3. Clean up duplicate translations (same source_id) with priority-based consolidation
 	fmt.Println("Step 3: Finding duplicate translations (same source_id)...")
 	type DuplicateTranslation struct {
 		SourceID int64
@@ -195,9 +216,42 @@ Options:
 	translationsMerged := 0
 	if len(duplicateTranslations) > 0 && !*dryRun {
 		for _, dup := range duplicateTranslations {
-			// Keep the first one, delete the rest
-			db.Exec(`DELETE FROM translations WHERE source_id = ? AND id > ?`, dup.SourceID, dup.MinID)
-			translationsMerged += int(dup.Count - 1)
+			// Get all translations for this source_id with their status
+			type TranslationRecord struct {
+				ID        int64
+				Status    string
+				TargetText string
+			}
+			var records []TranslationRecord
+			db.Raw(`
+				SELECT id, status, target_text FROM translations
+				WHERE source_id = ?
+				ORDER BY
+					CASE
+						WHEN status = 'official' THEN 1
+						WHEN status = 'translated' THEN 2
+						WHEN status = 'needs_review' THEN 3
+						WHEN status = 'pending' THEN 4
+						ELSE 5
+					END ASC,
+					id ASC
+			`, dup.SourceID).Scan(&records)
+
+			if len(records) > 1 {
+				// Keep the first one (highest priority), delete the rest
+				keepID := records[0].ID
+				keepStatus := records[0].Status
+
+				if *dryRun {
+					fmt.Printf("  Would keep translation id=%d (status=%s) and delete %d others\n",
+						keepID, keepStatus, len(records)-1)
+				} else {
+					// Delete other translations
+					db.Exec(`DELETE FROM translations WHERE source_id = ? AND id != ?`,
+						dup.SourceID, keepID)
+					translationsMerged += len(records) - 1
+				}
+			}
 		}
 		fmt.Printf("  Removed %d duplicate translations\n", translationsMerged)
 	}
