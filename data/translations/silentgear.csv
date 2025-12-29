@@ -157,7 +157,7 @@ command.silentgear.parts.remove.success,Successfully removed part,成功裏に�
 command.silentgear.parts.sourceMustBePlayer,Command source must be a player,コマンドソースはプレイヤーである必要があります
 command.silentgear.recalculate,Recalculated stats for player %s,プレイヤー %s の統計が再計算されました
 command.silentgear.set_damage.notDamageable,%s is not damageable,%s はダメージを受けません
-command.silentgear.stats.info.format,%s: [%s] -> %s,
+command.silentgear.stats.info.format,%s: [%s] -> %s,%s: [%s] -> %s
 command.silentgear.stats.info.formatPart,"    - %s: [%s]",- %s: [%s]
 command.silentgear.stats.info.header,Stats for %s's %s,%s の %s の統計
 command.silentgear.traits.maxLevel,Max Level: %d,最大レベル: %d
@@ -309,7 +309,7 @@ item.silentgear.crossbow_limbs,Compound Crossbow Limbs,クロスボウのリム
 item.silentgear.crossbow_limbs.nameProper,%s Crossbow Limbs,%sのクロスボウ弦
 item.silentgear.crude_repair_kit,Crude Repair Kit,粗雑な修理キット
 item.silentgear.crushed_shulker_shell,Crushed Shulker Shell,砕いたシュルカーの殻
-item.silentgear.custom_gem,%s,
+item.silentgear.custom_gem,%s,%s
 item.silentgear.custom_ingot,%s Ingot,%sインゴット
 item.silentgear.dagger,Dagger,短剣
 item.silentgear.dagger_blade,Compound Dagger Blade,合成の短剣刃
@@ -429,7 +429,7 @@ item.silentgear.repair_kit.efficiency,Repair Efficiency: %d%%,修理効率: %d%%
 item.silentgear.repair_kit.hint1,Used to repair gear items,ギアアイテムの修理に使用
 item.silentgear.repair_kit.hint2,"Craft with materials to fill, or a stick to empty",材料を埋めたり、棒を空にしたりしてクラフトします
 item.silentgear.repair_kit.hint3,Craft with a gear item to repair it,ギアアイテムでクラフトして修理する
-item.silentgear.repair_kit.material,- %s: %d,
+item.silentgear.repair_kit.material,- %s: %d,- %s: %d
 item.silentgear.ring,Ring,リング
 item.silentgear.ring.nameProper,%s Ring,%sのリング
 item.silentgear.ring_shank,Ring Shank,リングシャンク
@@ -662,7 +662,7 @@ misc.silentgear.exampleOutput1,Example output (modular recipe),例出力（モ�
 misc.silentgear.exampleOutput2,"If you crafted this, something went wrong!",このアイテムをクラフトした場合、何か問題が発生しました！
 misc.silentgear.graderCatalyst,Grader Catalyst (Tier %d),グレーダー触媒 (ティア %d)
 misc.silentgear.invalidParts,Seems to contain invalid parts,無効なパーツが含まれているようです
-misc.silentgear.key,[%s],
+misc.silentgear.key,[%s],[%s]
 misc.silentgear.lockedStats,Stats are locked,ステータスはロックされています
 misc.silentgear.materialCategories,Categories: %s,カテゴリ: %s
 misc.silentgear.off,Off,オフ
@@ -677,7 +677,7 @@ misc.silentgear.tooltip.blacklist,Blacklist: %s,ブラックリスト: %s
 misc.silentgear.tooltip.construction,Construction,建築
 misc.silentgear.tooltip.ctrlForStats,Stats §8<Press Ctrl>,統計 §8<Ctrlを押す>
 misc.silentgear.tooltip.material,SGear Material,SGear素材
-misc.silentgear.tooltip.material.keyHint,%s/%s,
+misc.silentgear.tooltip.material.keyHint,%s/%s,%s/%s
 misc.silentgear.tooltip.stats,Stats,統計
 misc.silentgear.tooltip.traits,Traits,特質
 misc.silentgear.unknown,Unknown,不明
@@ -704,7 +704,7 @@ part.silentgear.type.none,None,なし
 part.silentgear.type.rod,Tool Rod,持ち手
 part.silentgear.type.tip,Tip Upgrade,先端アップグレード
 stat.silentgear.armor,Armor,防具
-stat.silentgear.armorFormat,%1$s (%2$s),
+stat.silentgear.armorFormat,%1$s (%2$s),%1$s（%2$s）
 stat.silentgear.armor_durability,Armor Durability,防具耐久性
 stat.silentgear.armor_toughness,Armor Toughness,防具の耐久性
 stat.silentgear.attack_reach,Attack Reach,攻撃リーチ
@@ -769,7 +769,7 @@ trait.silentgear.cure_wither,Cure Wither,キュアウィザー
 trait.silentgear.cure_wither.desc,Removes wither effect when equipped,装備時に衰弱効果を除去
 trait.silentgear.cursed,Cursed,呪いされた
 trait.silentgear.cursed.desc,"Reduces luck, how unfortunate",運が悪くなる、なんと不運なことか
-trait.silentgear.displayFormat,%1$s %2$s,
+trait.silentgear.displayFormat,%1$s %2$s,%1$s %2$s
 trait.silentgear.eroded,Eroded,侵食
 trait.silentgear.eroded.desc,Increases harvest speed and reduces attack damage as gear is damaged,収穫速度を上げ、装備が損傷すると攻撃ダメージを減少させます
 trait.silentgear.fiery,Fiery,炎
@@ -950,26 +950,26 @@ misc.silentgear.harvestLevel.2,Iron,鉄
 misc.silentgear.harvestLevel.3,Diamond,ダイヤモンド
 misc.silentgear.harvestLevel.4,Netherite,ネザライト
 misc.silentgear.harvestTier,Harvest Tier: %s,収穫段階: %s
-advancements.silentgear.big_job_tools.description,"Craft a Silent Gear hammer, excavator, and saw",
-advancements.silentgear.crossbow.description,Craft a Silent Gear crossbow,
-advancements.silentgear.sickle.description,Craft a sickle to harvest many plants at once,
-block.silentgear.flax_plant,Flax Plant,
-block.silentgear.salvager,Salvager,
-gearType.silentgear.machete,Machete,
-item.silentgear.dagger.nameProper,%s Dagger,
-item.silentgear.flax_fiber,Flax Fiber,
-item.silentgear.machete,Machete,
-part.silentgear.binding,Binding,
-part.silentgear.type.binding,Binding,
-trait.silentgear.adamant,Adamant,
-trait.silentgear.ancient,Ancient,
-trait.silentgear.aquatic,Aquatic,
-trait.silentgear.brittle,Brittle,
-trait.silentgear.chilled,Chilled,
-trait.silentgear.organic,Organic,
-trait.silentgear.soft,Soft,
-trait.silentgear.stellar,Stellar,
-misc.silentgear.jeiNotInstalled,JEI is not installed? Please consider installing the Just Enough Items (JEI) mod.,
+advancements.silentgear.big_job_tools.description,"Craft a Silent Gear hammer, excavator, and saw",Silent Gearのハンマー、エクスカベーター、のこぎりをクラフトする
+advancements.silentgear.crossbow.description,Craft a Silent Gear crossbow,Silent Gearのクロスボウをクラフトする
+advancements.silentgear.sickle.description,Craft a sickle to harvest many plants at once,同時にたくさんの植物を収穫するために鎌を作る
+block.silentgear.flax_plant,Flax Plant,亜麻
+block.silentgear.salvager,Salvager,回収機
+gearType.silentgear.machete,Machete,ナタ
+item.silentgear.dagger.nameProper,%s Dagger,%sのダガー
+item.silentgear.flax_fiber,Flax Fiber,亜麻繊維
+item.silentgear.machete,Machete,ナタ
+part.silentgear.binding,Binding,バインディング
+part.silentgear.type.binding,Binding,バインド
+trait.silentgear.adamant,Adamant,強固
+trait.silentgear.ancient,Ancient,古代
+trait.silentgear.aquatic,Aquatic,アクアティック
+trait.silentgear.brittle,Brittle,脆弱
+trait.silentgear.chilled,Chilled,チルド
+trait.silentgear.organic,Organic,有機
+trait.silentgear.soft,Soft,ソフト
+trait.silentgear.stellar,Stellar,ステラ
+misc.silentgear.jeiNotInstalled,JEI is not installed? Please consider installing the Just Enough Items (JEI) mod.,JEIがインストールされていませんか？Just Enough Items(JEI)modのインストールを検討してください。
 stat.silentgear.grade.A,A,
 stat.silentgear.grade.B,B,
 stat.silentgear.grade.C,C,
@@ -977,3 +977,193 @@ stat.silentgear.grade.D,D,
 stat.silentgear.grade.E,E,
 stat.silentgear.grade.S,S,
 stat.silentgear.grade.SS,SS,
+silentgear.configuration.can_grade_parts,Can Grade Parts,パーツのグレード付けを有効にする
+jei.silentgear.group.salvaging,Salvaging,回収
+gearType.silentgear.none,None,無し
+material.group.silentgear.advanced,Advanced,発展
+silentgear.configuration.requires_view_of_sky,Requires View of Sky,空が見える状態が必要
+property.silentgear.magic_armor,Magic Armor,魔法防御力
+block.silentgear.super_mixer.desc,Makes alloys of any material,任意の材料の合金を作成可能
+key.silentgear.displayItemProperties,Display Properties and Traits,プロパティと形質を表示
+grade.silentgear.SSS,SSS,SSS
+property.silentgear.armor_toughness,Armor Toughness,防具強度
+silentgear.configuration.work_time,Work Time,作業時間
+block.silentgear.alloy_forge,Alloy Forge,合金炉
+grade.silentgear.B,B,B
+silentgear.configuration.spawn_with_starter_blueprints,Spawn With Starter Blueprints,スターターの設計図を持ってスポーンする
+grade.silentgear.A,A,A
+silentgear.configuration.anvil_effectiveness,Anvil Effectiveness,金床効率
+property.silentgear.boolean_false,No,いいえ
+material.group.silentgear.fiber,Fiber,繊維
+silentgear.configuration.match_mode,Match Mode,一致モード
+silentgear.configuration.recursion_depth,Recursion Depth,再帰性
+jei.silentgear.group.alloy_making.fabric,Fabric Alloys,生地合成
+silentgear.configuration.damage_factor_levels,Damage Factor Levels,ダメージ率レベル
+trait.silentgear.yummy.desc,"Makes the item edible, but...",アイテムを食べられるようにするが...
+item.silentgear.shear_blades,Shear Blades,ハサミ刃
+property.silentgear.armor,Armor,防御力
+silentgear.configuration.capacity,Capacity,容量
+property.silentgear.knockback_resistance,Knockback Resistance,ノックバック耐性
+item.silentgear.necklace.nameProper,%s Necklace,%sのネックレス
+silentgear.configuration.min,Min,最小
+gearType.silentgear.mace,Mace,メイス
+property.silentgear.boolean_true,Yes,はい
+item.silentgear.mace.nameProper,%s Mace,%sのメイス
+silentgear.configuration.standard,Standard,標準
+advancements.silentgear.crude_knife.description,Craft a crude knife to use on your stone anvil,石の金床で使用する粗雑なナイフを作る
+silentgear.configuration.show_part_tooltips,Show Part Tooltips,部品ツールチップの表示
+jei.silentgear.group.grading,Grading,グレーディング
+silentgear.configuration.other,Other,その他
+property.silentgear.attack_reach,Attack Reach,エンティティまでの距離
+jei.silentgear.group.tool_action,Tool Action,ツール操作
+material.group.silentgear.dust,Dust,粉
+material.group.silentgear.intermediate,Intermediate,中級
+silentgear.configuration.azure,Azure,アズール
+property.silentgear.traits.displayWithDescription,%1$s§r§7: %2$s,
+silentgear.configuration.charge_rate,Charge Rate,チャージ率
+silentgear.configuration.show_material_tooltips,Show Material Tooltips,素材ツールチップの表示
+silentgear.configuration.show_wip_text,Show WIP Text,WIPテキストの表示
+property.silentgear.ranged_damage,Ranged Damage,距離ダメージ
+jei.silentgear.group.alloy_making.gem,Gem Alloys,宝石混合
+grade.silentgear.NONE,not graded,グレード無し
+property.silentgear.attack_speed,Attack Speed,攻撃速度
+trait.silentgear.heat_resistant.desc,Reduces fire damage,火のダメージを軽減します
+grade.silentgear.S,S,S
+part.silentgear.type.setting,Jewelry Setting,宝石設定
+item.silentgear.setting.nameProper,%s Jewelry Setting,%sの中石
+item.silentgear.compound_part.part_name,Gear Part: %s,ギア部品: %s
+silentgear.configuration.destroy_swapped_parts,Destroy Swapped Parts,交換された部品を破壊する
+itemGroup.silentgear.gear,Silent Gear: Gear,Silent Gear : ギア
+material.group.silentgear.sheet,Sheet,シート
+silentgear.configuration.range,Range,範囲
+material.group.silentgear.slime,Slime,スライム
+silentgear.configuration.part_loss_rate,Part Loss Rate,部品損失率
+block.silentgear.crude_mixer,Crude Mixer,粗製ミキサー
+item.silentgear.blueprint.necklace.desc,Can fit a tree trunk and maybe your neck,木の幹にもあなたの首にもフィット
+gearType.silentgear.weapon,Weapon,武器
+property.silentgear.draw_speed,Draw Speed,弓引き速度
+silentgear.configuration.item,Item,アイテム
+material.group.silentgear.intangible,Intangible,無形
+property.silentgear.traits,Traits,特性
+property.silentgear.enchantment_value,Enchantment Value,エンチャント値
+trait.silentgear.fortunate.desc,Blocks mined drop extra items like with Fortune (does not stack with enchantments),採掘されたブロックはFortune付与時のように追加アイテムをドロップします（エンチャントと重複しません）
+trait.silentgear.wind_blast.desc,Creates a blast of wind when attacking,攻撃時に風の爆発を生成します
+property.silentgear.displayFormat,%1$s §r§8:§r %2$s,%1$s §r§8:§r %2$s
+silentgear.configuration.allow_enchanting,Allow Enchanting,エンチャントの許可
+property.silentgear.durability,Durability,耐久力
+block.silentgear.super_mixer,Super Mixer,スーパーミキサー
+subtitles.item.silentgear.gear_damaged,Gear item damaged,ギアアイテムが破損
+silentgear.configuration.disable_on_crouch,Disable On Crouch,しゃがんで無効化
+material.silentgear.crushed_shulker_shell,Shulker Shell,砕いたシュルカーの殻
+silentgear.configuration.debug,Debug,デバッグ
+silentgear.configuration.repair_kit,Repair Kit,修理キット
+container.silentgear.material_charger.structure_level.hint,Please allow up to 30 seconds for this to update,最大30秒でアップデートするのをお待ちください
+property.silentgear.harvest_speed,Harvest Speed,採掘速度
+property.silentgear.durabilityFormat,%1$s / %2$s,%1$s / %2$s
+material.group.silentgear.any,Any,任意
+grade.silentgear.C,C,C
+misc.silentgear.tooltip.properties,Properties,属性
+advancements.silentgear.stone_anvil.description,Craft a stone anvil,石の金床を作る
+silentgear.configuration.efficiency,Efficiency,効率
+jei.silentgear.group.alloy_making.super,Super Alloys,スーパー合金
+container.silentgear.crude_mixer,Crude Mixer,粗製ミキサー
+item.silentgear.mace_core.nameProper,%s Mace Core,%sのメイスコア
+advancements.silentgear.stone_anvil.title,I Am Stone Age,石器時代の幕開けだ！
+property.silentgear.additive,Additive,加算
+property.silentgear.harvest_tier,Harvest Tier,採掘ティア
+silentgear.configuration.breaks_permanently,Breaks Permanently,完全に破壊
+property.silentgear.armorFormat,%1$s (%2$s),%1$s (%2$s)
+item.silentgear.necklace_chain,Necklace Chain,ネックレスチェーン
+silentgear.configuration.material_grader,Material Grader,素材グレーダー
+silentgear.configuration.repairs,Repairs,修理
+property.silentgear.attack_damage,Attack Damage,攻撃力
+container.silentgear.alloy_forge,Alloy Forge,合金炉
+item.silentgear.crude_knife,Crude Knife,粗雑なナイフ
+block.silentgear.alloy_maker.workEnabled,Work: %s,動作: %s
+trait.silentgear.wind_blast,Wind Blast,ウィンドブラスト
+silentgear.configuration.aoe_tool,AOE Tool,範囲採掘道具
+property.silentgear.harvest_tier.withLevelHint,%s (%s),%s (%s)
+item.silentgear.custom_gem.literal,Custom Gem,カスタム宝石
+misc.silentgear.tooltip.none,None,なし
+silentgear.configuration.force_remove_enchantments,Force Remove Enchantments,エンチャントを強制削除
+jei.silentgear.material_category.not_separator," except "," 除外 "
+material.group.silentgear.rock,Rock,岩
+item.silentgear.crude_hammer,Crude Hammer,粗雑なハンマー
+silentgear.configuration.vanilla_style_tooltips,Vanilla-Style Tooltips,バニラスタイルツールチップ
+silentgear.configuration.tooltip,Tooltip,ツールチップ
+silentgear.configuration.can_charge_parts,Can Charge Parts,パーツの充電を有効にする
+silentgear.configuration.types_allowed,Types Allowed,許可されたタイプ
+silentgear.configuration.max,Max,最大
+item.silentgear.shear_blades.nameProper,%s Shear Blades,%sのハサミ刃
+silentgear.configuration.max_charge,Max Charge,最大チャージ
+container.silentgear.super_mixer,Super Mixer,スーパーミキサー
+silentgear.configuration.median_grade,Median Grade,中央のグレード
+container.silentgear.material_grader,Material Grader,素材グレーダー
+jei.silentgear.group.gearCrafting,Gear Crafting,ギアクラフト
+item.silentgear.magnetic_upgrade,Magnetic Upgrade,磁気アップグレード
+item.silentgear.necklace_chain.nameProper,%s Necklace Chain,%sのネックレス チェーン
+item.silentgear.blueprint.mace.desc,Brings baddies bigger boo-boos,ワルいやつにはデカい「イタイ」を！
+silentgear.configuration.saw,Saw,ノコギリ
+silentgear.configuration.trait,Trait,特徴
+item.silentgear.setting,Jewelry Setting,中石
+material.group.silentgear.cloth,Cloth,布
+material.group.silentgear.endgame,Endgame,エンドゲーム
+grade.silentgear.SS,SS,SS
+misc.silentgear.space," "," "
+property.silentgear.block_reach,Block Reach,ブロックまでの距離
+material.group.silentgear.metal,Metal,金属
+property.silentgear.projectile_speed,Projectile Speed,発射物速度
+material.silentgear.breeze_rod,Breeze Rod,微風ロッド
+item.silentgear.mace,Mace,メイス
+property.silentgear.armor_durability,Armor Durability,防具耐久値
+container.silentgear.salvager,Salvager,回収機
+silentgear.configuration.send_broken_message,Send Broken Message,破損時にメッセージを送信
+key.silentgear.displayItemConstruction,Display Construction and Materials,建設と資材を表示
+silentgear.configuration.starlight_charger,Starlight Charger,スターライトチャージャー
+property.silentgear.charging_value,Charging Value,チャージ量
+item.silentgear.crude_alloy,Crude %s Alloy,粗製%s合金
+item.silentgear.mace_core,Mace Core,メイスコア
+silentgear.configuration.prospector_hammer,Prospector Hammer,プロスペクターハンマー
+silentgear.configuration.allow_enchanted_effect,Allow Enchanted Effect,エンチャント効果の許可
+item.silentgear.custom_ingot.literal,Custom Ingot,カスタムインゴット
+silentgear.configuration.crude,Crude,粗雑
+property.silentgear.repair_value,Repair Bonus,修理ボーナス
+material.group.silentgear.wood,Wood,木
+trait.silentgear.heat_resistant,Heat-Resistant,耐熱性
+grade.silentgear.E,E,E
+silentgear.configuration.standard_deviation,Standard Deviation,標準偏位
+trait.silentgear.yummy,Yummy,おいしい！
+container.silentgear.material_charger.structure_level,Structure Level: %d,構造レベル: %d
+property.silentgear.rarity,Rarity,レア度
+jei.silentgear.group.alloy_making.metal,Metal Alloys,金属合金
+silentgear.configuration.salvager,Salvager,回収機
+grade.silentgear.D,D,D
+material.group.silentgear.gem,Gem,宝石
+silentgear.configuration.enchanting,Enchanting,エンチャント
+silentgear.configuration.missing,Missing,不足
+silentgear.configuration.ores,Ores,鉱石
+silentgear.configuration.gear,Gear,ギア
+property.silentgear.projectile_accuracy,Projectile Accuracy,飛び道具精度
+silentgear.configuration.item_magnet,Item Magnet,アイテム磁石
+grade.silentgear.MAX,MAX,MAX
+material.group.silentgear.basic,Basic,基本
+property.silentgear.magic_damage,Magic Damage,魔法ダメージ
+silentgear.configuration.logging,Logging,ログ
+item.silentgear.necklace,Necklace,ネックレス
+silentgear.configuration.break_down_parts_with_gear,Break Down Parts With Gear,ギアで部品を分解する
+silentgear.configuration.crimson,Crimson,深紅
+material.group.silentgear.organic,Organic,有機
+property.silentgear.repair_efficiency,Repair Efficiency,修理効率
+item.silentgear.super_alloy,%s Super Alloy,%sスーパー合金
+silentgear.configuration.sturdy,Sturdy,頑丈さ
+silentgear.configuration.blueprint,Blueprint,設計図
+silentgear.configuration.properties,Properties,属性
+block.silentgear.alloy_maker.desc,Makes alloys of: %s,作成可能な種類の合金: %s
+key.silentgear.displayTraitDescriptions,Display Trait Descriptions,特性の説明を表示
+trait.silentgear.fortunate,Fortunate,幸運な
+gearType.silentgear.necklace,Necklace,ネックレス
+advancements.silentgear.crude_knife.title,"Crude, But Effective",粗雑、だが効果的
+block.silentgear.stone_anvil,Stone Anvil,石の金床
+silentgear.configuration.very_crude,Very Crude,非常に粗末な
+item.silentgear.crude_tool_parts,Crude Tool Parts,粗雑な道具部品
+silentgear.configuration.upgrades,Upgrades,アップグレード

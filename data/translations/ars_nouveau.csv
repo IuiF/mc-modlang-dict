@@ -1168,7 +1168,7 @@ ars_nouveau.perk_desc.thread_warding,Reduces the amount of magic damage taken by
 ars_nouveau.perk_desc.thread_whirlisprig,Increases the saturation of consumed food by 30%% each level.,食事による隠し満腹度増加がスレッドレベルごとに30%%増える。
 ars_nouveau.perk_desc.thread_wixie,Increases the duration of potions by 15%% each level.,ポーションの効果時間がスレッドレベルごとに15%%増える。
 ars_nouveau.perks.duplicated,You have equipped armor that contains a perk you already have. You will only receive the effect of the perk once.,既に持っているパークを含む装備を装着しています。パークの効果は一度だけ受け取ります。
-ars_nouveau.position,X: %1$d Y: %2$d Z: %3$d,
+ars_nouveau.position,X: %1$d Y: %2$d Z: %3$d,X: %1$d Y: %2$d Z: %3$d
 ars_nouveau.potion_crafting,Potion Crafting,ポーションクラフト
 ars_nouveau.potion_diffuser.bind_to_jar,You must bind the diffuser to a Potion Jar to use it.,使用にはポーション瓶を結びつける必要があります。
 ars_nouveau.potion_diffuser.no_pos,Bind a Potion Jar to the diffuser using the Dominion Wand.,主権の杖を使ってポーション瓶を結び付けてください。
@@ -2364,21 +2364,44 @@ item.ars_nouveau.novice_boots,Sorceror's Footpads,初心者のブーツ
 item.ars_nouveau.novice_hood,Sorceror's Collar,初心者のフード
 item.ars_nouveau.novice_leggings,Sorceror's Leggings,初心者のレギンス
 item.ars_nouveau.novice_robes,Sorceror's Wrap,初心者のローブ
-ars_nouveau.book.landing_text,"Ars Nouveau provides spell crafting, magical devices, powerful trinkets, and magical entity automation. To help  development or report issues, join the community: https://discord.gg/y7TMXZu Thank you for playing.",
-ars_nouveau.community,"Join the Ars Nouveau community! Get ideas for spells, help with the mod, report bugs and issues, or request new features!",
-ars_nouveau.light_message,Ars Nouveau adds built in dynamic lights. Enable with `/ars-light on`. This won't appear again!,
+ars_nouveau.book.landing_text,"Ars Nouveau provides spell crafting, magical devices, powerful trinkets, and magical entity automation. To help  development or report issues, join the community: https://discord.gg/y7TMXZu Thank you for playing.",Ars Nouveauは、スペルクラフト、魔法装置、強力な装身具、そして魔法エンティティによる自動化を提供します。開発への協力や問題の報告は、コミュニティに参加してください: https://discord.gg/y7TMXZu プレイしていただきありがとうございます。
+ars_nouveau.community,"Join the Ars Nouveau community! Get ideas for spells, help with the mod, report bugs and issues, or request new features!",Ars Nouveauのコミュニティに参加しよう! スペルのアイデアを得たり、MODを手伝ったり、バグや問題を報告したり、新機能をリクエストしたりできます。
+ars_nouveau.light_message,Ars Nouveau adds built in dynamic lights. Enable with `/ars-light on`. This won't appear again!,Ars Nouveauは動的光源を追加します。`/ars-light on`で有効化できます。このメッセージは再び表示されません!
 ars_nouveau.page1.magical_automation,"Ars Nouveau supports a wide variety of automation methods via Spell Turrets, magical helpers, and Rituals.
-Using one or a combination of these options can achieve almost anything you want such as farming crops and trees, quarrying the earth, crafting and transporting items, smelting, and brewing potions.",
-ars_nouveau.rewards.enabled,"Ars Nouveau supporter rewards enabled, thank you! Rewards can be accessed in the Settings page of the spell book.",
-ars_nouveau.store,"Support Ars Nouveau through our Redbubble store! Get the latest summon-themed merchandise including stickers, mugs, and more!",
-ars_nouveau.page.enchanters_mirror,Applies a self spell to the user. Spells cast with this mirror are discounted and gain additional bonus duration to all glyphs. Apply a spell at the Scribe's table that DOES NOT contain a form such as Heal -> Heal.,
-ars_nouveau.page1.spell_mana,"Spell Mana is used to cast spells with a $(thing)Spellbook$(). The maximum amount of mana, and the speed at which it regenerates, may be increased by wearing special $(item)Mage Armor$() or by applying the $(item)Mana Boost$() or $(item)Mana Regen$() enchantments on your gear. Additionally, you will gain bonus mana and regeneration for each glyph unlocked in your spellbook.",
-ars_nouveau.page1.volcanic_sourcelink,"The Volcanic Sourcelink generates Source by consuming burnable items. Archwood logs will generate bonus Source, with Blazing Archwood generating the most. As the Volcanic Sourcelink produces Source, it also produces $(item)heat$(), used for spawning Lava Lilies and converting stone into lava. The Volcanic Sourcelink automatically outputs to nearby jars, starting with the one closest to it.",
-ars_nouveau.page2.volcanic_sourcelink,Nearby Blazing Archwood items will be burned up in exchange for a chunk of Source and a moderate amount of $(item)heat$(). The Volcanic Sourcelink will also take items from surrounding pedestals.,
-ars_nouveau.patreon,"Join the Ars Nouveau patreon and get a special Discord role, contribute a custom Tome, receive merchandise, summon a Lily dog, and more!",
+Using one or a combination of these options can achieve almost anything you want such as farming crops and trees, quarrying the earth, crafting and transporting items, smelting, and brewing potions.",Ars Nouveauは、スペルタレット、魔法のヘルパー、儀式を通じた幅広いオートメーション方法をサポートしています。これらのオプションを1つまたは複数組み合わせることで、作物と木の栽培、採掘、アイテムの製作と輸送、精錬、ポーション醸造など、ほぼすべてを実現できます。
+ars_nouveau.rewards.enabled,"Ars Nouveau supporter rewards enabled, thank you! Rewards can be accessed in the Settings page of the spell book.",Ars Nouveauのサポーター報酬が有効になりました。ありがとうございます！報酬はスペルブックの設定ページからアクセスできます。
+ars_nouveau.store,"Support Ars Nouveau through our Redbubble store! Get the latest summon-themed merchandise including stickers, mugs, and more!",RedbubbleストアでArs Nouveauを応援しよう! ステッカーやマグカップなど、召喚をテーマにした最新のグッズを手に入れよう!
+ars_nouveau.page.enchanters_mirror,Applies a self spell to the user. Spells cast with this mirror are discounted and gain additional bonus duration to all glyphs. Apply a spell at the Scribe's table that DOES NOT contain a form such as Heal -> Heal.,使い手にセルフスペルを適用します。このミラーでキャストされたスペルは割引価格になり、全グリフに追加のボーナス継続時間が得られます。Heal → Healのようなフォーム以外の形式を含まないスペルを筆記官のテーブルで適用します。
+ars_nouveau.page1.spell_mana,"Spell Mana is used to cast spells with a $(thing)Spellbook$(). The maximum amount of mana, and the speed at which it regenerates, may be increased by wearing special $(item)Mage Armor$() or by applying the $(item)Mana Boost$() or $(item)Mana Regen$() enchantments on your gear. Additionally, you will gain bonus mana and regeneration for each glyph unlocked in your spellbook.",スペルマナはスペルブックでスペルをキャストするために使用されます。マナの最大量と再生速度は、特別なメイジアーマーを着用するか、マナブーストまたはマナ再生エンチャントをギアに適用することで増加させることができます。さらに、スペルブックで解除した各グリフごとにボーナスマナと再生が得られます。
+ars_nouveau.page1.volcanic_sourcelink,"The Volcanic Sourcelink generates Source by consuming burnable items. Archwood logs will generate bonus Source, with Blazing Archwood generating the most. As the Volcanic Sourcelink produces Source, it also produces $(item)heat$(), used for spawning Lava Lilies and converting stone into lava. The Volcanic Sourcelink automatically outputs to nearby jars, starting with the one closest to it.",ファイア・ソースリンクは、燃焼可能なアイテムを消費してソースを生成します。アーチウッドログはボーナスソースを生成し、ブレイジング・アーチウッドは最も多くソースを生成します。ファイア・ソースリンクがソースを生成するにつれて、ラバリリーの出生と石からマグマへの変換に使用される熱も生成します。ファイア・ソースリンクは、最も近い瓶から始めて、近くの瓶に自動的に出力されます。
+ars_nouveau.page2.volcanic_sourcelink,Nearby Blazing Archwood items will be burned up in exchange for a chunk of Source and a moderate amount of $(item)heat$(). The Volcanic Sourcelink will also take items from surrounding pedestals.,近くのブレイジング・アーチウッドアイテムはソースのチャンクと適度な量の熱と交換に消費されます。ファイア・ソースリンクは、周囲のペデスタルからもアイテムを取得します。
+ars_nouveau.patreon,"Join the Ars Nouveau patreon and get a special Discord role, contribute a custom Tome, receive merchandise, summon a Lily dog, and more!",Ars Nouveauのパトレオンに参加して、特別なDiscordロール、カスタムトーム、マーチャンダイズ、リリドッグの召喚などを獲得できます。
 item.ars_nouveau.music_disc_aria_biblio.desc,Firel - Aria Biblio,
 item.ars_nouveau.music_disc_firel_the_wild_hunt.desc,Firel - The Wild Hunt,
-ars_nouveau.advancement.title.root,Ars Nouveau,
-ars_nouveau.item_detector.item,%s,
-itemGroup.ars_nouveau,Ars Nouveau,
-key.category.ars_nouveau.general,Ars Nouveau,
+ars_nouveau.advancement.title.root,Ars Nouveau,Ars Nouveau
+ars_nouveau.item_detector.item,%s,%s
+itemGroup.ars_nouveau,Ars Nouveau,Ars Nouveau
+key.category.ars_nouveau.general,Ars Nouveau,Ars Nouveau
+emi.category.ars_nouveau.scry_ritual,Scry Ritual,スクライ儀式
+item.minecraft.lingering_potion.effect.mana_regen_potion_strong,Lingering Potion of Mana Regeneration,マナ再生の残留ポーション
+ars_nouveau.augment_desc.glyph_fell_glyph_randomize,Adds a chance to not target a block.,ブロックを対象にしない確率を追加します。
+item.ars_nouveau.sorcerer_robes,Sorceror's Wrap,魔術師のローブ
+item.minecraft.lingering_potion.effect.mana_regen_potion_long,Lingering Potion of Mana Regeneration,マナ再生の残留ポーション
+ars_nouveau.augment_desc.glyph_ignite_glyph_randomize,Adds a chance to not target a block.,ブロックを対象にしない確率を追加します。
+ars_nouveau.augment_desc.glyph_conjure_water_glyph_randomize,Adds a chance to not target a block.,ブロックを対象にしない確率を追加します。
+ars_nouveau.augment_desc.glyph_wall_glyph_accelerate,Casts spells faster.,スペルを更に速くキャストします。
+item.ars_nouveau.archwood_hanging_sign,Archwood Hanging Sign,アーチウッド吊り看板
+ars_nouveau.augment_desc.glyph_conjure_water_glyph_amplify,Increases the level of the effect.,効果のレベルを上げます。
+ars_nouveau.augment_desc.glyph_harvest_glyph_randomize,Adds a chance to not target a block.,ブロックを対象にしない確率を追加します。
+item.ars_nouveau.sorcerer_hood,Sorceror's Collar,魔術師のフード
+item.minecraft.lingering_potion.effect.recovery_potion_strong,Lingering Potion of Recovery,回復強化の残留ポーション
+item.ars_nouveau.ring_of_lesser_discount,Ring of Lesser Discount,軽減の指輪
+item.minecraft.lingering_potion.effect.recovery_potion_long,Lingering Potion of Recovery,回復強化の残留ポーション
+item.ars_nouveau.ring_of_greater_discount,Ring of Greater Discount,素晴らしい軽減の指輪
+ars_nouveau.augment_desc.glyph_freeze_glyph_randomize,Adds a chance to not target a block.,ブロックを対象にしない確率を追加します。
+item.ars_nouveau.sorcerer_leggings,Sorceror's Leggings,魔術師のレギンス
+ars_nouveau.page2.amethyst_golem_charm,,
+ars_nouveau.augment_desc.glyph_wall_glyph_decelerate,Casts spells slower.,スペルを更に遅くキャストします。
+item.ars_nouveau.sorcerer_boots,Sorceror's Footpads,魔術師のブーツ
+ars_nouveau.glyph_name.glyph_dispel,Dispel,解除
+block.ars_nouveau.storage_lectern,Storage Lectern,保管の書見台

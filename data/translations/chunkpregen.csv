@@ -653,11 +653,16 @@ ui.chunk_pregen.tracker.tiles,Loaded Tiles: %1$s (%2$s Ticking),ロード済み�
 ui.chunk_pregen.tracker.tps,TPS: %s / 20,
 command.chunk_pregen.info.documentation,"You tried to call: 'Pregen DO THE THING'.
 ChunkPregen does a LOT of things. Please be more specific!
-Link: [%s]",
+Link: [%s]","'Pregen DO THE THING'を呼び出そうとしました。
+ChunkPregénは多くのことをします。もっと具体的に指定してください！
+リンク: [%s]"
 command.chunk_pregen.misc.docker,"It was detected that the JVM can only see a single Core on this Server. This can have serious Performance implications.
 If you are running this server in a Docker Container please make sure you enable multithreading in it.
 Which you can by setting the ""--cpuset-cpus=0,1,2"" argument in your Docker Container. Each Number defines which core specific core should be used, though ""--cpuset-cpus=0-3"" can be used for ranges.
-More info can be found here: https://docs.docker.com/config/containers/resource_constraints/#configure-the-default-cfs-scheduler",
-gui.chunk_pregen.config.logo.link.modrinth,Modrinth,
+More info can be found here: https://docs.docker.com/config/containers/resource_constraints/#configure-the-default-cfs-scheduler","このサーバーのJVMが1つのコアのみを認識していることが検出されました。これはパフォーマンスに深刻な影響を与える可能性があります。
+このサーバーをDockerコンテナで実行している場合は、必ずそこでマルチスレッド化を有効にしてください。
+""--cpuset-cpus=0,1,2""引数をDockerコンテナで設定することで有効にできます。各数字は特定のコアを定義しますが、""--cpuset-cpus=0-3""は範囲に使用できます。
+こちらで詳細情報を確認できます: https://docs.docker.com/config/containers/resource_constraints/#configure-the-default-cfs-scheduler"
+gui.chunk_pregen.config.logo.link.modrinth,Modrinth,モドリンス
 process.chunk_pregen.stuck.thread,"Thread=%s, StackTrace: 
 ",

@@ -2643,7 +2643,7 @@ jei.chisel.desc.chisel.generic,"A chisel can be used to create different variati
 jei.chisel.desc.chisel.hitech,"The iChisel is the newest revolution in chiseling technology! No more moving stacks around, just click on the source (in your inventory) and then the target (in the selection slots), then the button on the left to chisel away. Holding SHIFT allows you to chisel every stack of the same type at once. The handy preview window at the top left shows what the target block will look like in the world. Finally, the iChisel allows you to chisel OVER 9000 blocks in the world! Using the Contiguous and Contiguous 2D modes you can chisel an area of similar blocks at the same time.",iチゼルは彫刻技術の最新の革命です！スタックを移動させる必要はもうありません。インベントリのソース（ソース）をクリックしてからターゲット（選択スロット）をクリックし、左のボタンをクリックして彫刻するだけです。SHIFTを押すと、同じ種類のスタックをすべて一度に彫刻できます。左上の便利なプレビューウィンドウは、ターゲットブロックがゲーム内でどのように見えるかを表示します。最後に、iチゼルは世界で9000以上のブロックを彫刻できます！Contiguousおよびcontiguous 2Dモードを使用して、同時に同様のブロックの領域を彫刻できます。
 jei.chisel.desc.chisel.iron,"The iron chisel is the most basic chisel, it has a low durability, and can only chisel one block in the world at a time.",鉄のノミは最も基本的なノミで、低い耐久性を持ち、世界で一度に1つのブロックをノミで加工することだけができます。
 jei.chisel.title,Chiseling,ノミで加工
-tooltip.chisel.blockname,%1$s (%2$s),
+tooltip.chisel.blockname,%1$s (%2$s),%1$s（%2$s）
 tooltip.chisel.gui,%sRight-click%s to open GUI,%s右クリック%sでGUIを開く
 tooltip.chisel.lc1,%sLeft-click%s to chisel blocks in the world,%s左クリック%sで世界のブロックをノミで加工
 tooltip.chisel.lc2,%sTarget a block%s by leaving it in the inventory,%sターゲットブロック%sをインベントリに保持することで設定
@@ -6778,3 +6778,277 @@ chisel_guide.guide,Chisel,ノミ
 chisel_guide.guide.test_page_1,Test Page #1,テストページ #1
 chisel_guide.guide.test_page_2,Test Page #2,テストページ #2
 chisel_guide.guide.test_page_2.page_1,Test Page #2.1,テストページ #2.1
+item.chisel.jellybean.blue_concrete,Jellybean Blue Concrete,ゼリービーン青いコンクリート
+item.chisel.large_tile.gray_concrete,Large Tiled Gray Concrete,大型タイル灰色のコンクリート
+item.chisel.crude_vertical.jungle_planks,Crude Vertical Jungle Planks,粗い縦ジャングルの板
+item.chisel.encased_large.stone,Large Encased Stone,大きく囲まれた石
+item.chisel.jellybean.light_blue_concrete,Jellybean Light Blue Concrete,ゼリービーン薄青いコンクリート
+item.chisel.braid.dark_oak_planks,Braid Dark Oak Planks,編込みダークオークの板
+item.chisel.encased_bricks.deepslate,Encased Brick Deepslate,囲まれた深層岩レンガ
+item.chisel.cut.lime_concrete,Cut Lime Concrete,切ったライム色のコンクリート
+item.chisel.encased.spruce_planks,Encased Spruce Planks,囲まれたトウヒの板
+block.chisel.bricks3.dirt,Dirt Bricks,土のレンガ3
+item.chisel.circular.andesite,Circular Andesite,円形安山岩
+item.chisel.brick.stone,Stone Brick,石のレンガ
+item.chisel.gem.diamond_block,Diamond Block Gem,宝石ダイヤモンドブロック
+item.chisel.french.red_sandstone,French Red Sandstone,フランス式赤い砂岩
+item.chisel.layer.end_stone,Layered End Stone,層状エンドストーン
+item.chisel.crude_vertical.birch_planks,Crude Vertical Birch Planks,粗い縦シラカバの板
+item.chisel.layer.andesite,Layered Andesite,層状安山岩
+item.chisel.encased_bricks.redstone_block,Encased Brick Redstone Block,囲まれたレッドストーンブロックレンガ
+item.chisel.large.jungle_planks,Large Jungle Planks,大きいジャングルの板
+item.chisel.jellybean.end_stone,Jellybean End Stone,ゼリービーンエンドストーン
+item.chisel.goldborder.emerald_block,Emerald Block Gold Border,金色の枠エメラルドブロック
+block.chisel.bricks2.dirt,Dirt Bricks,土のレンガ2
+item.chisel.cut.cyan_concrete,Cut Cyan Concrete,切った水色のコンクリート
+item.chisel.braid.diorite,Braid Diorite,編込み閃緑岩
+item.chisel.jellybean.granite,Jellybean Granite,ゼリービーン花崗岩
+item.chisel.cracked.purpur,Cracked Purpur Block,ひび割れたプルプァブロック
+item.chisel.chaotic_bricks.granite,Chaotic Granite Bricks,混沌花崗岩レンガ
+item.chisel.braid.acacia_planks,Braid Acacia Planks,編込みアカシアの板
+item.chisel.circular.blue_concrete,Circular Blue Concrete,円形青いコンクリート
+item.chisel.layer.cobblestone,Layered Cobblestone,層状丸石
+item.chisel.legacy.cyan_wool,Legacy Cyan Wool,レガシー水色の羊毛
+item.chisel.mosaic.blue_concrete,Mosaic Blue Concrete,モザイク青いコンクリート
+item.chisel.jellybean.glowstone,Jellybean Glowstone,ゼリービーングロウストーン
+item.chisel.dent.blue_concrete,Dent Blue Concrete,へこみ青いコンクリート
+item.chisel.layer.cyan_concrete,Layered Cyan Concrete,層状水色のコンクリート
+item.chisel.encased.birch_planks,Encased Birch Planks,囲まれたシラカバの板
+item.chisel.chaotic_bricks.blue_concrete,Chaotic Blue Concrete Bricks,混沌青いコンクリートレンガ
+item.chisel.jellybean.cobblestone,Jellybean Cobblestone,ゼリービーン丸石
+item.chisel.encased_bricks.end_stone,Encased Brick End Stone,囲まれたエンドストーンレンガ
+item.chisel.encased_bricks.ice,Encased Brick Ice,囲まれた氷レンガ
+item.chisel.neon.stone,Neon Stone,ネオン石
+item.chisel.chaotic_medium.blue_concrete,Medium Chaotic Blue Concrete,混沌青いコンクリート
+item.chisel.cracked_bricks.purpur,Cracked Purpur Bricks,ひび割れたプルプァレンガ
+item.chisel.layer.purple_concrete,Layered Purple Concrete,層状紫のコンクリート
+item.chisel.braid.bricks,Braid Bricks,編込みレンガ
+item.chisel.braid.cyan_concrete,Braid Cyan Concrete,編込み水色のコンクリート
+item.chisel.large.acacia_planks,Large Acacia Planks,大きいアカシアの板
+item.chisel.encased_smooth.birch_planks,Smooth Encased Birch Planks,滑らかに囲まれたシラカバの板
+item.chisel.llama.blue_wool,Llama Blue Wool,ラマ青い羊毛
+item.chisel.llama.black_wool,Llama Black Wool,ラマ黒い羊毛
+item.chisel.encased_smooth.spruce_planks,Smooth Encased Spruce Planks,滑らかに囲まれたトウヒの板
+item.chisel.large.oak_planks,Large Oak Planks,大きいオークの板
+item.chisel.moon.iron_block,Iron Block Moon,月鉄ブロック
+item.chisel.layer.sandstone,Layered Sandstone,層状砂岩
+item.chisel.encased_large.oak_planks,Large Encased Oak Planks,大きく囲まれたオークの板
+item.chisel.encased_bricks.light_gray_concrete,Encased Brick Light Gray Concrete,囲まれた薄灰色のコンクリートレンガ
+item.chisel.legacy.magenta_wool,Legacy Magenta Wool,レガシーマゼンタの羊毛
+item.chisel.encased_bricks.green_concrete,Encased Brick Green Concrete,囲まれた緑のコンクリートレンガ
+item.chisel.circular.cyan_concrete,Circular Cyan Concrete,円形水色のコンクリート
+item.chisel.cut.light_blue_concrete,Cut Light Blue Concrete,切った薄青いコンクリート
+item.chisel.braid.cobblestone,Braid Cobblestone,編込み丸石
+item.chisel.chaotic_bricks.andesite,Chaotic Andesite Bricks,混沌安山岩レンガ
+item.chisel.crude_vertical.crimson_planks,Crude Vertical Crimson Planks,粗い縦紅蓮の板
+item.chisel.chaotic_medium.black_concrete,Medium Chaotic Black Concrete,混沌黒いコンクリート
+item.chisel.layer.green_concrete,Layered Green Concrete,層状緑のコンクリート
+item.chisel.encased_bricks.cobblestone,Encased Brick Cobblestone,囲まれた丸石レンガ
+item.chisel.moon.stone,Stone Moon,月石
+item.chisel.braid.purpur,Braid Purpur,編込みプルプァ
+item.chisel.encased_bricks.stone,Encased Brick Stone,囲まれた石レンガ
+item.chisel.large_tile.brown_concrete,Large Tiled Brown Concrete,大型タイル茶色のコンクリート
+item.chisel.braid.andesite,Braid Andesite,編込み安山岩
+item.chisel.large_tile.purpur,Large Tiled Purpur Block,大型タイルプルプァブロック
+item.chisel.encased_bricks.light_blue_concrete,Encased Brick Light Blue Concrete,囲まれた薄青いコンクリートレンガ
+item.chisel.large_tile.blue_concrete,Large Tiled Blue Concrete,大型タイル青いコンクリート
+item.chisel.neon_panel.glowstone,Neon Glowstone Panel,ネオングロウストーンパネル
+item.chisel.large_tile.end_stone,Large Tiled End Stone,大型タイルエンドストーン
+item.chisel.crushed.diamond_block,Crushed Diamond Block,砕いたダイヤモンドブロック
+item.chisel.dent.cyan_concrete,Dent Cyan Concrete,へこみ水色のコンクリート
+item.chisel.cut.magenta_concrete,Cut Magenta Concrete,切ったマゼンタのコンクリート
+item.chisel.layer.quartz,Layered Quartz,層状クォーツ
+item.chisel.circular.diorite,Circular Diorite,円形閃緑岩
+item.chisel.french.purpur,French Purpur,フランス式プルプァ
+item.chisel.large.crimson_planks,Large Crimson Planks,大きい紅蓮の板
+item.chisel.large.birch_planks,Large Birch Planks,大きいシラカバの板
+item.chisel.mosaic.black_concrete,Mosaic Black Concrete,モザイク黒いコンクリート
+item.chisel.mosaic.purpur,Mosaic Purpur Block,モザイクプルプァブロック
+item.chisel.circular.emerald_block,Circular Emerald Block,円形エメラルドブロック
+item.chisel.chaotic_medium.purpur,Medium Chaotic Purpur,混沌プルプァ
+item.chisel.chunky.dirt,Chunky Dirt,ゴツゴツした土
+item.chisel.encased_bricks.bricks,Encased Bricks,囲まれたレンガ
+item.chisel.encased_large.birch_planks,Large Encased Birch Planks,大きく囲まれたシラカバの板
+item.chisel.crude_vertical.spruce_planks,Crude Vertical Spruce Planks,粗い縦トウヒの板
+item.chisel.braid.birch_planks,Braid Birch Planks,編込みシラカバの板
+item.chisel.cells.stone,Stone Cells,石の格子
+item.chisel.encased_smooth.crimson_planks,Smooth Encased Crimson Planks,滑らかに囲まれた紅蓮の板
+item.chisel.mosaic.deepslate,Mosaic Deepslate,モザイク深層岩
+item.chisel.jellybean.andesite,Jellybean Andesite,ゼリービーン安山岩
+item.chisel.jellybean.cyan_concrete,Jellybean Cyan Concrete,ゼリービーン水色のコンクリート
+item.chisel.large_tile.black_concrete,Large Tiled Black Concrete,大型タイル黒いコンクリート
+item.chisel.cut.green_concrete,Cut Green Concrete,切った緑のコンクリート
+item.chisel.layer.light_blue_concrete,Layered Light Blue Concrete,層状薄青いコンクリート
+item.chisel.braid.brown_concrete,Braid Brown Concrete,編込み茶色のコンクリート
+item.chisel.layer.red_sandstone,Layered Red Sandstone,層状赤い砂岩
+item.chisel.legacy.blue_wool,Legacy Blue Wool,レガシー青い羊毛
+item.chisel.llama.cyan_wool,Llama Cyan Wool,ラマ水色の羊毛
+item.chisel.jellybean.black_concrete,Jellybean Black Concrete,ゼリービーン黒いコンクリート
+item.chisel.cells.diamond_block,Diamond Block Cells,ダイヤモンドブロック格子
+item.chisel.encased_bricks.blue_concrete,Encased Brick Blue Concrete,囲まれた青いコンクリートレンガ
+item.chisel.layer.deepslate,Layered Deepslate,層状深層岩
+item.chisel.encased.acacia_planks,Encased Acacia Planks,囲まれたアカシアの板
+item.chisel.encased_bricks.purpur,Encased Brick Purpur Block,囲まれたプルプァブロックレンガ
+item.chisel.encased_bricks.red_sandstone,Encased Brick Red Sandstone,囲まれた赤い砂岩レンガ
+item.chisel.crude_paneling.dark_oak_planks,Crude Dark Oak Planks Paneling,粗いパネリング ダークオークの板
+item.chisel.cracked_bricks.andesite,Cracked Andesite Bricks,ひび割れた安山岩レンガ
+item.chisel.layer.granite,Layered Granite,層状花崗岩
+item.chisel.cart.gold_block,Gold Block Cart,金ブロックカート
+item.chisel.legacy.brown_wool,Legacy Brown Wool,レガシー茶色の羊毛
+item.chisel.layer.redstone_block,Layered Redstone Block,層状レッドストーンブロック
+item.chisel.layer.lime_concrete,Layered Lime Concrete,層状ライム色のコンクリート
+item.chisel.array.quartz,Array Quartz Block,配列クォーツブロック
+item.chisel.large_tile.cyan_concrete,Large Tiled Cyan Concrete,大型タイル水色のコンクリート
+item.chisel.layer.bricks,Layered Bricks,層状レンガ
+item.chisel.cobble.stone,Cobble Stone,野ぶどろ石
+item.chisel.layer.dirt,Layered Dirt,層状土
+item.chisel.large_tile.diorite,Large Tiled Diorite,大型タイル閃緑岩
+item.chisel.jellybean.light_gray_concrete,Jellybean Light Gray Concrete,ゼリービーン薄灰色のコンクリート
+item.chisel.circular.glowstone,Circular Glowstone,円形グロウストーン
+item.chisel.circular.end_stone,Circular End Stone,円形エンドストーン
+item.chisel.dent.black_concrete,Dent Black Concrete,へこみ黒いコンクリート
+item.chisel.large.dark_oak_planks,Large Dark Oak Planks,大きいダークオークの板
+item.chisel.chaotic_bricks.cobblestone,Chaotic Cobblestone Bricks,混沌丸石レンガ
+item.chisel.encased_bricks.lime_concrete,Encased Brick Lime Concrete,囲まれたライム色のコンクリートレンガ
+item.chisel.mosaic.cobblestone,Mosaic Cobblestone,モザイク丸石
+item.chisel.large_tile.coal_block,Large Tiled Coal Block,大型タイル石炭ブロック
+item.chisel.chaotic_bricks.purpur,Chaotic Purpur Bricks,混沌プルプァレンガ
+item.chisel.chaotic_bricks.stone,Chaotic Stone Bricks,混沌石レンガ
+item.chisel.chrono.glass,Chrono Glass,クロノガラス
+item.chisel.layer.orange_concrete,Layered Orange Concrete,層状オレンジのコンクリート
+item.chisel.french.magenta_concrete,French Magenta Concrete,フランス式マゼンタのコンクリート
+item.chisel.jellybean.diorite,Jellybean Diorite,ゼリービーン閃緑岩
+item.chisel.light.stone,Light Stone,ライト石
+item.chisel.encased_bricks.red_concrete,Encased Brick Red Concrete,囲まれた赤いコンクリートレンガ
+item.chisel.layer.magenta_concrete,Layered Magenta Concrete,層状マゼンタのコンクリート
+item.chisel.layer.purpur,Layered Purpur,層状プルプァ
+item.chisel.goldborder.stone,Stone Gold Border,石金色の枠
+item.chisel.braid.crimson_planks,Braid Crimson Planks,編込み紅蓮の板
+item.chisel.jellybean.bricks,Jellybean Bricks,ゼリービーンレンガ
+item.chisel.encased_large.jungle_planks,Large Encased Jungle Planks,大きく囲まれたジャングルの板
+item.chisel.crude_vertical.acacia_planks,Crude Vertical Acacia Planks,粗い縦アカシアの板
+item.chisel.large_bricks.stone,Stone Large Bricks,大きい石レンガ
+item.chisel.encased_smooth.oak_planks,Smooth Encased Oak Planks,滑らかに囲まれたオークの板
+item.chisel.layer.ice,Layered Ice,層状氷
+item.chisel.layer.blue_concrete,Layered Blue Concrete,層状青いコンクリート
+item.chisel.crude_vertical.stone,Crude Vertical Stone,粗い縦石
+item.chisel.encased_bricks.black_concrete,Encased Brick Black Concrete,囲まれた黒いコンクリートレンガ
+item.chisel.jellybean.coal_block,Jellybean Coal Block,ゼリービーン石炭ブロック
+item.chisel.encased_bricks.coal_block,Encased Brick Coal Block,囲まれた石炭ブロックレンガ
+item.chisel.encased_bricks.glowstone,Encased Brick Glowstone,囲まれたグロウストーンレンガ
+item.chisel.layer.glowstone,Layered Glowstone,層状グロウストーン
+item.chisel.cobble.dirt,Cobble Dirt,野ぶどろ土
+item.chisel.jellybean.green_concrete,Jellybean Green Concrete,ゼリービーン緑のコンクリート
+item.chisel.legacy.yellow_wool,Legacy Yellow Wool,レガシー黄色い羊毛
+item.chisel.chaotic_small.purpur,Small Chaotic Purpur,小さい混沌プルプァ
+item.chisel.jellybean.brown_concrete,Jellybean Brown Concrete,ゼリービーン茶色のコンクリート
+item.chisel.braid.blue_concrete,Braid Blue Concrete,編込み青いコンクリート
+item.chisel.cut.blue_concrete,Cut Blue Concrete,切った青いコンクリート
+item.chisel.braid.black_concrete,Braid Black Concrete,編込み黒いコンクリート
+item.chisel.encased_smooth.jungle_planks,Smooth Encased Jungle Planks,滑らかに囲まれたジャングルの板
+item.chisel.neon_panel.stone,Neon Stone Panel,ネオン石パネル
+item.chisel.encased_bricks.nether_brick,Encased Brick Nether Bricks,囲まれたネザーレンガ
+item.chisel.encased_smooth.stone,Smooth Encased Stone,滑らかに囲まれた石
+item.chisel.layer.black_concrete,Layered Black Concrete,層状黒いコンクリート
+item.chisel.cut.gray_concrete,Cut Gray Concrete,切った灰色のコンクリート
+item.chisel.layer.brown_concrete,Layered Brown Concrete,層状茶色のコンクリート
+item.chisel.encased.crimson_planks,Encased Crimson Planks,囲まれた紅蓮の板
+item.chisel.bricks2.dirt,Dirt Bricks,土のレンガ3
+item.chisel.encased_large.acacia_planks,Large Encased Acacia Planks,大きく囲まれたアカシアの板
+item.chisel.encased_bricks.brown_concrete,Encased Brick Brown Concrete,囲まれた茶色のコンクリートレンガ
+item.chisel.circular.black_concrete,Circular Black Concrete,円形黒いコンクリート
+item.chisel.encased_large.crimson_planks,Large Encased Crimson Planks,大きく囲まれた紅蓮の板
+item.chisel.legacy.black_wool,Legacy Black Wool,レガシー黒い羊毛
+block.chisel.encased_bricks.bricks,Encased Bricks,囲まれたレンガ
+item.chisel.legacy.orange_wool,Legacy Orange Wool,レガシーオレンジの羊毛
+item.chisel.layer.light_gray_concrete,Layered Light Gray Concrete,層状薄灰色のコンクリート
+item.chisel.large_tile.cobblestone,Large Tiled Cobblestone,大型タイル丸石
+item.chisel.chaotic_bricks.coal_block,Chaotic Coal Bricks,混沌石炭ブロックレンガ
+item.chisel.encased_bricks.yellow_concrete,Encased Brick Yellow Concrete,囲まれた黄色いコンクリートレンガ
+item.chisel.encased_bricks.sandstone,Encased Brick Sandstone,囲まれた砂岩レンガ
+item.chisel.encased_smooth.acacia_planks,Smooth Encased Acacia Planks,滑らかに囲まれたアカシアの板
+item.chisel.jellybean.ice,Jellybean Ice,ゼリービーン氷
+item.chisel.jellybean.magenta_concrete,Jellybean Magenta Concrete,ゼリービーンマゼンタのコンクリート
+item.chisel.encased_bricks.prismarine,Encased Brick Prismarine,囲まれたプリズマリンレンガ
+item.chisel.encased.oak_planks,Encased Oak Planks,囲まれたオークの板
+item.chisel.bricks.dirt,Dirt Bricks,土のレンガ3
+item.chisel.ironfencemodern.glass,Iron Glass,鉄フェンスモダンガラス
+item.chisel.layer.red_concrete,Layered Red Concrete,層状赤いコンクリート
+item.chisel.encased_bricks.purple_concrete,Encased Brick Purple Concrete,囲まれた紫のコンクリートレンガ
+item.chisel.encased.jungle_planks,Encased Jungle Planks,囲まれたジャングルの板
+item.chisel.chunky.lapis_block,Chunky Lapis Block,ゴツゴツしたラピスラズリブロック
+item.chisel.legacy.green_wool,Legacy Green Wool,レガシー緑の羊毛
+item.chisel.cells.emerald_block,Emerald Block Cells,エメラルドブロック格子
+item.chisel.legacy.stone,Legacy Stone,レガシー石
+item.chisel.mosaic.brown_concrete,Mosaic Brown Concrete,モザイク茶色のコンクリート
+item.chisel.chaotic_medium.andesite,Medium Chaotic Andesite,混沌安山岩
+item.chisel.large.stone,Large Stone,大きい石
+item.chisel.encased_bricks.pink_concrete,Encased Brick Pink Concrete,囲まれたピンク色のコンクリートレンガ
+item.chisel.chunky.stone,Chunky Stone,ゴツゴツした石
+item.chisel.jellybean.gray_concrete,Jellybean Gray Concrete,ゼリービーン灰色のコンクリート
+item.chisel.legacy.light_gray_wool,Legacy Light Gray Wool,レガシー薄灰色の羊毛
+item.chisel.chaotic_medium.granite,Medium Chaotic Granite,混沌花崗岩
+item.chisel.jellybean.purpur,Jellybean Purpur,ゼリービーンプルプァ
+item.chisel.encased.dark_oak_planks,Encased Dark Oak Planks,囲まれたダークオークの板
+item.chisel.chaotic_bricks.quartz,Chaotic Quartz Bricks,混沌クォーツレンガ
+item.chisel.legacy.white_wool,Legacy White Wool,レガシー白い羊毛
+item.chisel.circular.deepslate,Circular Deepslate,円形深層岩
+item.chisel.crude_paneling.spruce_planks,Crude Spruce Planks Paneling,粗いパネリング トウヒの板
+item.chisel.encased_large.spruce_planks,Large Encased Spruce Planks,大きく囲まれたトウヒの板
+item.chisel.legacy.lime_wool,Legacy Lime Wool,レガシーライム色の羊毛
+item.chisel.circular.cobblestone,Circular Cobblestone,円形丸石
+item.chisel.encased_bricks.quartz,Encased Brick Quartz Block,囲まれたクォーツブロックレンガ
+item.chisel.large_tile.granite,Large Tiled Granite,大型タイル花崗岩
+item.chisel.layer.white_concrete,Layered White Concrete,層状白いコンクリート
+item.chisel.cut.brown_concrete,Cut Brown Concrete,切った茶色のコンクリート
+item.chisel.encased_bricks.cyan_concrete,Encased Brick Cyan Concrete,囲まれた水色のコンクリートレンガ
+item.chisel.braid.coal_block,Braid Coal Block,編込み石炭ブロック
+item.chisel.chaotic_bricks.bricks,Chaotic Bricks,混沌レンガ
+item.chisel.encased_bricks.orange_concrete,Encased Brick Orange Concrete,囲まれたオレンジのコンクリートレンガ
+item.chisel.array.purpur,Array Purpur Block,配列プルプァブロック
+item.chisel.bricks3.dirt,Dirt Bricks,土のレンガ3
+item.chisel.layer.prismarine,Layered Prismarine,層状プリズマリン
+item.chisel.crude_vertical.oak_planks,Crude Vertical Oak Planks,粗い縦オークの板
+item.chisel.encased_bricks.magenta_concrete,Encased Brick Magenta Concrete,囲まれたマゼンタのコンクリートレンガ
+item.chisel.jellybean.lime_concrete,Jellybean Lime Concrete,ゼリービーンライム色のコンクリート
+item.chisel.braid.deepslate,Braid Deepslate,編込み深層岩
+item.chisel.circular.purpur,Circular Purpur Block,円形プルプァブロック
+item.chisel.cart.stone,Stone Cart,石カート
+item.chisel.layer.stone,Layered Stone,層状石
+item.chisel.chunky.emerald_block,Chunky Emerald Block,ゴツゴツしたエメラルドブロック
+item.chisel.circular.brown_concrete,Circular Brown Concrete,円形茶色のコンクリート
+item.chisel.circular.bricks,Circular Bricks,円形レンガ
+item.chisel.encased_smooth.dark_oak_planks,Smooth Encased Dark Oak Planks,滑らかに囲まれたダークオークの板
+item.chisel.chaotic_bricks.black_concrete,Chaotic Black Concrete Bricks,混沌黒いコンクリートレンガ
+item.chisel.crushed.stone,Crushed Stone,砕いた石
+item.chisel.mosaic.gray_concrete,Mosaic Gray Concrete,モザイク灰色のコンクリート
+item.chisel.layer.yellow_concrete,Layered Yellow Concrete,層状黄色いコンクリート
+item.chisel.layer.diorite,Layered Diorite,層状閃緑岩
+item.chisel.layer.gray_concrete,Layered Gray Concrete,層状灰色のコンクリート
+item.chisel.encased_bricks.gray_concrete,Encased Brick Gray Concrete,囲まれた灰色のコンクリートレンガ
+item.chisel.crude_vertical.dark_oak_planks,Crude Vertical Dark Oak Planks,粗い縦ダークオークの板
+item.chisel.crude_paneling.stone,Crude Stone Paneling,粗いパネリング 石
+item.chisel.chrono.stone,Chrono Stone,クロノ石
+item.chisel.legacy.light_blue_wool,Legacy Light Blue Wool,レガシー水色の羊毛
+item.chisel.circular.coal_block,Circular Coal Block,円形石炭ブロック
+item.chisel.encased.stone,Encased Stone,囲まれた石
+item.chisel.legacy.gray_wool,Legacy Gray Wool,レガシー灰色の羊毛
+item.chisel.legacy.red_wool,Legacy Red Wool,レガシー赤い羊毛
+item.chisel.dent.brown_concrete,Dent Brown Concrete,へこみ茶色のコンクリート
+item.chisel.large.spruce_planks,Large Spruce Planks,大きいトウヒの板
+item.chisel.cut.purpur,Cut Purpur Block,切ったプルプァブロック
+item.chisel.encased_bricks.andesite,Encased Brick Andesite,囲まれた安山岩レンガ
+item.chisel.dent.purpur,Dent Purpur Block,へこみプルプァブロック
+item.chisel.encased_bricks.white_concrete,Encased Brick White Concrete,囲まれた白いコンクリートレンガ
+item.chisel.layer.pink_concrete,Layered Pink Concrete,層状ピンク色のコンクリート
+item.chisel.dent.gray_concrete,Dent Gray Concrete,へこみ灰色のコンクリート
+item.chisel.cut.light_gray_concrete,Cut Light Gray Concrete,切った薄灰色のコンクリート
+item.chisel.dent.green_concrete,Dent Green Concrete,へこみ緑のコンクリート
+item.chisel.encased_large.dark_oak_planks,Large Encased Dark Oak Planks,大きく囲まれたダークオークの板
+item.chisel.chaotic_bricks.diorite,Chaotic Diorite Bricks,混沌閃緑岩レンガ
+item.chisel.mosaic.granite,Mosaic Granite,モザイク花崗岩
+item.chisel.legacy.purple_wool,Legacy Purple Wool,レガシー紫の羊毛
+item.chisel.legacy.pink_wool,Legacy Pink Wool,レガシーピンク色の羊毛
+item.chisel.chaotic_bricks.prismarine,Chaotic Prismarine Bricks,混沌プリズマリンレンガ
+item.chisel.chaotic_bricks.sandstone,Chaotic Sandstone Bricks,混沌砂岩レンガ
+item.chisel.encased_bricks.granite,Encased Brick Granite,囲まれた花崗岩レンガ

@@ -42,7 +42,7 @@ advancements.lightmanscurrency.trading_core.title,Trading Core,交換核心
 advancements.lightmanscurrency.wallet_crafting.description,Craft your first wallet. You can use these to store your coins!,最初の財布をクラフトします。コインを保管するために使えます！
 advancements.lightmanscurrency.wallet_crafting.title,Coin Storage,コインストレージ
 block.lightmanscurrency.armor_display,Armor Display,防具ディスプレイ
-block.lightmanscurrency.atm,ATM,
+block.lightmanscurrency.atm,ATM,携帯型ATM
 block.lightmanscurrency.auction_stand_acacia,Acacia Auction Stand,アカシアの競売台
 block.lightmanscurrency.auction_stand_bamboo,Bamboo Auction Stand,竹の競売台
 block.lightmanscurrency.auction_stand_biomesoplenty_dead,Dead Auction Stand,枯木の競売台
@@ -686,19 +686,19 @@ gui.lightmanscurrency.team.salary_settings.notification,Push Notification,プッ
 gui.lightmanscurrency.ticket_station.title,Ticket Station,チケットステーション
 gui.lightmanscurrency.time.unit.day," day",日
 gui.lightmanscurrency.time.unit.day.plural," days",日
-gui.lightmanscurrency.time.unit.day.short,d,
+gui.lightmanscurrency.time.unit.day.short,d,日
 gui.lightmanscurrency.time.unit.hour," hour",時間
 gui.lightmanscurrency.time.unit.hour.plural," hours",時間
-gui.lightmanscurrency.time.unit.hour.short,h,
+gui.lightmanscurrency.time.unit.hour.short,h,時
 gui.lightmanscurrency.time.unit.millisecond," millisecond",ミリ秒
 gui.lightmanscurrency.time.unit.millisecond.plural," milliseconds",ミリ秒
 gui.lightmanscurrency.time.unit.millisecond.short,ms,
 gui.lightmanscurrency.time.unit.minute," minute",分
 gui.lightmanscurrency.time.unit.minute.plural," minutes",分
-gui.lightmanscurrency.time.unit.minute.short,m,
+gui.lightmanscurrency.time.unit.minute.short,m,分
 gui.lightmanscurrency.time.unit.second," second",秒
 gui.lightmanscurrency.time.unit.second.plural," seconds",秒
-gui.lightmanscurrency.time.unit.second.short,s,
+gui.lightmanscurrency.time.unit.second.short,s,秒
 gui.lightmanscurrency.time.unit.tick," tick",ターン
 gui.lightmanscurrency.time.unit.tick.plural," ticks"," ティック"
 gui.lightmanscurrency.time.unit.tick.short,t,
@@ -762,8 +762,8 @@ gui.lightmanscurrency.trader.slot_machine.entry_label,Entry #%s,エントリー 
 gui.lightmanscurrency.trader.slot_machine.odds_label,Chance: %s%%,確率: %s%%
 gui.lightmanscurrency.trader.slot_machine.weight_label,Weight: ,重量: 
 gui.lightmanscurrency.trader.stats.empty,No Statistics Recorded,統計が記録されていません
-gui.lightmanscurrency.trader.title,%1$s (%2$s),
-gui.lightmanscurrency.trader.title.seperator,", ",
+gui.lightmanscurrency.trader.title,%1$s (%2$s),%1$s（%2$s）
+gui.lightmanscurrency.trader.title.seperator,", ",、
 item.lightmanscurrency.atm_card,ATM Card,ATMカード
 item.lightmanscurrency.coin_chest_bank_upgrade,Bank Upgrade,銀行アップグレード
 item.lightmanscurrency.coin_chest_exchange_upgrade,Coin Exchange Upgrade,コイン交換アップグレード
@@ -776,7 +776,7 @@ item.lightmanscurrency.coin_chocolate_copper,Chocolate Copper Coin,チョコレ�
 item.lightmanscurrency.coin_chocolate_copper.initial,c,
 item.lightmanscurrency.coin_chocolate_copper.plural,Chocolate Copper Coins,チョコレート銅貨
 item.lightmanscurrency.coin_chocolate_diamond,Chocolate Diamond Coin,チョコレートダイヤモンドコイン
-item.lightmanscurrency.coin_chocolate_diamond.initial,d,
+item.lightmanscurrency.coin_chocolate_diamond.initial,d,日
 item.lightmanscurrency.coin_chocolate_diamond.plural,Chocolate Diamond Coins,チョコレートダイヤモンドコイン
 item.lightmanscurrency.coin_chocolate_emerald,Chocolate Emerald Coin,チョコレートエメラルドコイン
 item.lightmanscurrency.coin_chocolate_emerald.initial,e,
@@ -794,7 +794,7 @@ item.lightmanscurrency.coin_copper,Copper Coin,銅のコイン
 item.lightmanscurrency.coin_copper.initial,c,
 item.lightmanscurrency.coin_copper.plural,Copper Coins,銅貨
 item.lightmanscurrency.coin_diamond,Diamond Coin,ダイヤモンドコイン
-item.lightmanscurrency.coin_diamond.initial,d,
+item.lightmanscurrency.coin_diamond.initial,d,日
 item.lightmanscurrency.coin_diamond.plural,Diamond Coins,ダイヤモンドコイン
 item.lightmanscurrency.coin_emerald,Emerald Coin,エメラルドコイン
 item.lightmanscurrency.coin_emerald.initial,e,
@@ -829,7 +829,7 @@ item.lightmanscurrency.offer_upgrade_3,Trade Offer Upgrade (Gold),取引オフ�
 item.lightmanscurrency.offer_upgrade_4,Trade Offer Upgrade (Emerald),貿易オファーアップグレード（エメラルド）
 item.lightmanscurrency.offer_upgrade_5,Trade Offer Upgrade (Diamond),貿易オファーアップグレード（ダイヤモンド）
 item.lightmanscurrency.offer_upgrade_6,Trade Offer Upgrade (Netherite),取引オファーアップグレード（ネザーライト）
-item.lightmanscurrency.portable_atm,ATM,
+item.lightmanscurrency.portable_atm,ATM,携帯型ATM
 item.lightmanscurrency.portable_gem_terminal,Trading Terminal,トレーディングターミナル
 item.lightmanscurrency.portable_terminal,Trading Terminal,トレーディングターミナル
 item.lightmanscurrency.prepaid_card,Prepaid Card,事前購入カード
@@ -1325,5 +1325,5 @@ traderule.lightmanscurrency.timed_sale.info.sale,This trade is on sale for %1$s%
 traderule.lightmanscurrency.trade_limit,Trade Limit,交換制限
 traderule.lightmanscurrency.trade_limit.denial,This trade has been done %s times already,この取引はすでに%s回行われました
 traderule.lightmanscurrency.trade_limit.info,This trade has been done %1$s of %2$s times,この取引は %1$s 回／%2$s 回実施されています
-tooltip.lightmanscurrency.ticket.id,TicketID: %s,
-tooltip.lightmanscurrency.upgrade.bank,Allows the Money Chest to automatically deposit or withdraw coins from a selected bank account,
+tooltip.lightmanscurrency.ticket.id,TicketID: %s,チケットID: %s
+tooltip.lightmanscurrency.upgrade.bank,Allows the Money Chest to automatically deposit or withdraw coins from a selected bank account,マネーチェストが選択された銀行口座から自動的にコインを預金または引き出すことを可能にします

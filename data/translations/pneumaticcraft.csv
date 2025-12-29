@@ -1542,9 +1542,9 @@ pneumaticcraft.message.jackhammer.mode.vein_plus,Veinminer (full),鉱脈採掘 (
 pneumaticcraft.message.memory_stick.absorb.false,XP Orb auto-absorb: §6off,XP オーブ自動吸収: §6オフ
 pneumaticcraft.message.memory_stick.absorb.true,XP Orb auto-absorb: §aon,XP オーブ自動吸収: §aオン
 pneumaticcraft.message.minigun.outOfAmmo,§6Out of Ammo! Sneak & Right-click to load,§6弾切れ！スニーク+右クリックで装填
-pneumaticcraft.message.misc.countedItem,%d %s,
-pneumaticcraft.message.misc.fluidB,%d B,
-pneumaticcraft.message.misc.fluidmB,%d mB,
+pneumaticcraft.message.misc.countedItem,%d %s,%d %s
+pneumaticcraft.message.misc.fluidB,%d B,%d B
+pneumaticcraft.message.misc.fluidmB,%d mB,%d mB
 pneumaticcraft.message.misc.order,Order: %s,オーダー: %s
 pneumaticcraft.message.misc.outOfAir,The %s is out of air!,%sの空気がなくなりました！
 pneumaticcraft.message.misc.range,Range: %d blocks,範囲: %dブロック
@@ -2045,7 +2045,7 @@ pneumaticcraft.advancement.ethanol,Not For Drinking,飲用不可
 pneumaticcraft.advancement.ethanol.desc,Obtain a bucket of Ethanol,エタノール入りバケツを用意する
 pneumaticcraft.advancement.flight,Up And Away!,大空へ！
 pneumaticcraft.advancement.flight.desc,Use the Jet Boots Upgrade in your Pneumatic Boots to take to the skies.,空気圧ブーツのジェットブーツアップグレードを使って空を飛びます。
-pneumaticcraft.advancement.flux_compressor,FE/RF/µI/CF,
+pneumaticcraft.advancement.flux_compressor,FE/RF/µI/CF,FE/RF/µI/CF
 pneumaticcraft.advancement.flux_compressor.desc,Make a Flux Compressor so you can use Forge Energy from other mods for your compression needs.,フラックスコンプレッサーを作製して、他のModの鍛冶エネルギーを圧縮に使用します。
 pneumaticcraft.advancement.fly_into_wall,Who put that there?,誰がこれをここに置いた？
 pneumaticcraft.advancement.fly_into_wall.desc,Fly into a vertical surface fast enough to take damage.,垂直な面に十分な速度で衝突してダメージを受けます。
@@ -4740,8 +4740,8 @@ entityTracker.info.itemframe.rotation,Rotation: %d°,回転: %d°
 blockTracker.module.fluids,Fluid Tanks,液体タンク
 blockTracker.info.fluids.tankFull,Tank %d: %d/%dmB %s,タンク %d: %d/%dmB %s
 blockTracker.info.fluids.tankEmpty,Tank %d: 0/%dmB,タンク %d: 0/%dmB
-itemGroup.pneumaticcraft,PneumaticCraft: Repressurized,
-gui.amadron.addTrade.problems.noSellingOrPayingBlock,"§7No location selected to sell/pay out from. \n§0Either select an item/fluid location with the Amadron Tablet, or select a GPS Tool by clicking on the GPS button.",
+itemGroup.pneumaticcraft,PneumaticCraft: Repressurized,PneumaticCraft: Repressurized
+gui.amadron.addTrade.problems.noSellingOrPayingBlock,"§7No location selected to sell/pay out from. \n§0Either select an item/fluid location with the Amadron Tablet, or select a GPS Tool by clicking on the GPS button.",§7販売/支払い元として選択された場所がありません。§0Amadronタブレットでアイテム/液体の場所を選択するか、GPSボタンをクリックしてGPSツールを選択してください。
 gui.amadron.button.selectSellingBlock.tooltip,Select the inventory/tank used to sell the item/fluid from. By default the inventory/tank selected by the Amadron Tablet is used.,
 gui.amadron.button.selectPaymentBlock.tooltip,Select the inventory/tank used to receive payment of the the requested item/fluid. By default the inventory/tank selected by the Amadron Tablet is used.,
 gui.tab.info.item.pneumatic_boots,"§0On its own these boots are slightly better than Iron Boots. However, you can install various upgrades here to unlock many useful extra features.  The Boots provide step assist functionality for free (no upgrade, no air cost); this can be disabled in the Pneumatic Armor GUI if you don't like step assist.  The boots also negate fall damage at a small air cost.",
@@ -4756,9 +4756,9 @@ gui.tooltip.item.fuel_bucket,Can be processed in a Thermopneumatic Processing Pl
 gui.tooltip.item.manometer,Right-click a PneumaticCraft block to give information about this block.  Note: less useful with WAILA and/or The One Probe installed.,
 gui.amadron.button.addStaticTrade,"§eCustom Static Trade \n§rAdd a new static trade.  Such trades will always be available to all players in the Amadron Tablet. \n \n§7Only admins can add these trades (Forge permission node ""pneumaticcraft.amadron.addStaticTrade""). Custom trades can't be removed via GUI; edit AmadronOffersStatic.cfg to remove trades.",
 patchouli.processor.assembly.desc,$(item)%s/$ production requires an $(l:manufacturing/assembly_system)Assembly Controller/$ with a $(item)%s/$ installed.,
-pneumaticcraft.message.jackhammer.mode.1x1,1 x 1,
-pneumaticcraft.message.jackhammer.mode.1x2,1 x 2,
-pneumaticcraft.message.jackhammer.mode.1x3,1 x 3,
-pneumaticcraft.gui.progWidget.area.type.axis.x,X,
-pneumaticcraft.gui.progWidget.area.type.axis.y,Y,
-pneumaticcraft.gui.progWidget.area.type.axis.z,Z,
+pneumaticcraft.message.jackhammer.mode.1x1,1 x 1,1 x 1
+pneumaticcraft.message.jackhammer.mode.1x2,1 x 2,1 x 2
+pneumaticcraft.message.jackhammer.mode.1x3,1 x 3,1 x 3
+pneumaticcraft.gui.progWidget.area.type.axis.x,X,X
+pneumaticcraft.gui.progWidget.area.type.axis.y,Y,Y
+pneumaticcraft.gui.progWidget.area.type.axis.z,Z,Z

@@ -1026,61 +1026,101 @@ config.entity_texture_features.warn_config_load,The ETF config file was either c
 config.entity_texture_features.warn_instruction,"Some warnings disable the conflicting ETF settings, unless ignored",一部の警告は衝突するETF設定を無効にします。ただし、無視されなければ
 config.entity_texture_features.warnings.title,Mod conflicts / warnings,MODの競合・警告
 config.entity_features.empty_emf,"No settings available
-The Entity Model Features mod is needed if you want OptiFine format Custom Entity Models.",
-config.entity_features.per_entity_settings.blocks,These block entity renderers might,
+The Entity Model Features mod is needed if you want OptiFine format Custom Entity Models.","設定がありません
+OptiFine形式のカスタムエンティティモデルが必要な場合は、Entity Model Features modが必要です。"
+config.entity_features.per_entity_settings.blocks,These block entity renderers might,これらのブロックエンティティレンダラーは次の可能性があります
 config.entity_texture_features.custom_block_entity.tooltip,"Allows block entities to use a custom textures
 using the OptiFine/ETF random format.
-Incompatible with the Enhanced Block Entities mod.",
+Incompatible with the Enhanced Block Entities mod.","ブロックエンティティがOptiFine/ETFランダム形式を使用してカスタムテクスチャを使用できます
+Enhanced Block Entities modと互換性がありません。"
 config.entity_texture_features.debug_screen.mass_log.tooltip,"This setting will print out all of ETF's current texture data to the log.
  including all textures, all texture variation groups
- anything registered to ETF",
-config.entity_texture_features.emissive_fix.mobs,Remove mob pixels: ,
+ anything registered to ETF","この設定により、ETFの現在のテクスチャデータがすべてログに出力されます
+すべてのテクスチャ、すべてのテクスチャバリエーショングループを含む
+ETFに登録されているもの"
+config.entity_texture_features.emissive_fix.mobs,Remove mob pixels: ,モブの発光ピクセルを削除: 
 config.entity_texture_features.optifine.random_skips.tooltip,"OptiFine allows random suffix variants, when not using .properties, to skip some numbers
 Doing so is considered a bad practise, they should always be sequential.
-This setting will allow ETF to skip numbers like OptiFine.",
+This setting will allow ETF to skip numbers like OptiFine.","OptiFineは.propertiesを使用しない場合、ランダムサフィックスバリアントを許可でき、いくつかの番号をスキップできます
+これを行うことは悪い慣行と見なされるため、常にシーケンシャルである必要があります。
+この設定により、ETFはOptiFineのように番号をスキップできます。"
 config.entity_texture_features.player_skin_editor.cape.optifine,OptiFine,
 config.entity_texture_features.property_explanation.block,"Blocks
 sets the texture for the entity based on the block it is on
 this also checks the block it is inside allowing things like water, cave_air, flowers, etc. to be used
 Blocks added by mods can also be used but require ""modID:blockName"", whereas vanilla blocks can be either ""minecraft:stone"" or just ""stone"".
 as of v4.4 this property also allows comparing additional block properties as per the OptiFine spec here https://optifine.readthedocs.io/syntax.html#blocks-and-items
-§ablocks.<n>=<block_list>",
+§ablocks.<n>=<block_list>","ブロック
+エンティティの上にあるブロックに基づいてテクスチャを設定します
+これにより、水、cave_air、花など、その中にあるブロックもチェックされます。
+Modで追加されたブロックも使用できますが、""modID:blockName""が必要です。バニラブロックは""minecraft:stone""または単に""stone""のいずれでもかまいません。
+v4.4以降、このプロパティはOptiFine仕様に従って追加のブロックプロパティの比較も許可しています https://optifine.readthedocs.io/syntax.html#blocks-and-items
+§ablocks.<n>=<block_list>"
 config.entity_texture_features.property_explanation.block_above,"Block Above 
 Vary based on the first non-air block above the entity, no matter the distance
 Example: blockAbove.1=oak_leaves
-§ablockAbove.<n>=<list>",
+§ablockAbove.<n>=<list>","ブロック上方
+エンティティの上の最初の非エアブロックに基づいて変化します
+例: blockAbove.1=oak_leaves
+§ablockAbove.<n>=<list>"
 config.entity_texture_features.property_explanation.block_above_solid,"Block Above Solid 
 Vary based on the first solid non-air block above the entity, no matter the distance, only triggers for the first solid block found.
 Example: blockAboveSolid.1=stone
-§ablockAboveSolid.<n>=<list>",
+§ablockAboveSolid.<n>=<list>","固いブロック上方
+エンティティの上の最初の固い非エアブロックに基づいて変化します。距離に関係なく、最初に見つかった固いブロックのみをトリガーします。
+例: blockAboveSolid.1=stone
+§ablockAboveSolid.<n>=<list>"
 config.entity_texture_features.property_explanation.block_below,"Block Below 
 Vary based on the first non-air block below the entity, no matter the distance
 Example: blockBelow.1=oak_leaves
-§ablockBelow.<n>=<list>",
+§ablockBelow.<n>=<list>","ブロック下方
+エンティティの下の最初の非エアブロックに基づいて変化します
+例: blockBelow.1=oak_leaves
+§ablockBelow.<n>=<list>"
 config.entity_texture_features.property_explanation.block_below_solid,"Block Below Solid 
 Vary based on the first solid non-air block below the entity, no matter the distance, only triggers for the first solid block found.
 Example: blockBelowSolid.1=oak_leaves
-§ablockBelowSolid.<n>=<list>",
+§ablockBelowSolid.<n>=<list>","固いブロック下方
+エンティティの下の最初の固い非エアブロックに基づいて変化します。距離に関係なく、最初に見つかった固いブロックのみをトリガーします。
+例: blockBelowSolid.1=oak_leaves
+§ablockBelowSolid.<n>=<list>"
 config.entity_texture_features.property_explanation.block_spawned,"Blocks spawned
 sets the texture for the entity based on the block it spawned on or first appeared on
 this also checks the block it spawned inside allowing things like water, cave_air, flowers, etc. to be used
 Blocks added by mods can also be used but require ""modID:blockName"", whereas vanilla blocks can be either ""minecraft:stone"" or just ""stone"".
 as of v4.4 this property also allows comparing additional block properties as per the OptiFine spec here https://optifine.readthedocs.io/syntax.html#blocks-and-items
-§ablockSpawned.<n>=<block_list>",
+§ablockSpawned.<n>=<block_list>","スポーン時のブロック
+エンティティがスポーンした、または最初に表示されたブロックに基づいてテクスチャを設定します
+これにより、水、cave_air、花など、スポーン時に中にあったブロックもチェックされます。
+Modで追加されたブロックも使用できますが、""modID:blockName""が必要です。バニラブロックは""minecraft:stone""または単に""stone""のいずれでもかまいません。
+v4.4以降、このプロパティはOptiFine仕様に従って追加のブロックプロパティの比較も許可しています https://optifine.readthedocs.io/syntax.html#blocks-and-items
+§ablockSpawned.<n>=<block_list>"
 config.entity_texture_features.property_explanation.items,"Items 
 Select whether a mob must have certain, or any, items equipped or held
 Example: items.1=minecraft:book cool_mod:sunglasses   (matches a mob holding or wearing one of these items)
 Example: items.1=any                                  (matches a mob holding or wearing any item)
 Example: items.1=wearing                              (matches a mob wearing any item)
 Example: items.1=none                                 (matches a mob holding or wearing no items)
-§aitems.<n>=<list|none|any|holding|wearing>",
+§aitems.<n>=<list|none|any|holding|wearing>","アイテム
+特定のアイテムまたは任意のアイテムを装備または持つ必要があるかどうかを選択します
+例: items.1=minecraft:book cool_mod:sunglasses (これらのアイテムのいずれかを持つかかぶっているモブに一致)
+例: items.1=any (任意のアイテムを持つかかぶっているモブに一致)
+例: items.1=wearing (任意のアイテムを着用しているモブに一致)
+例: items.1=none (アイテムを持つかかぶっていないモブに一致)
+§aitems.<n>=<list|none|any|holding|wearing>"
 config.entity_texture_features.property_explanation.max_health,"Max Health 
 ETF Only!
 Select Max Health values a mob must match
 Functional for all mobs but intended for Horses, Donkeys & Mules
 Horse, Donkey & Mule max health exist within a range of: 15 - 30
 Example: maxHealth.1= 3 5 15-20 25 27-29
-§amaxHealth.<n>=<list>",
+§amaxHealth.<n>=<list>","最大体力
+ETF専用!
+モブが持つ必要のある最大体力値を選択します
+すべてのモブで機能しますが、馬、ロバ、ラバを対象としています
+馬、ロバ、ラバの最大体力は15～30の範囲内に存在します
+例: maxHealth.1= 3 5 15-20 25 27-29
+§amaxHealth.<n>=<list>"
 config.entity_texture_features.property_explanation.nbt,"NBT 
 Select whether a mob must have matching NBT data values
 Note: this is an OptiFine feature that has not yet received official documentation,
@@ -1093,7 +1133,19 @@ NBT can be used in several ways see this link https://optifine.readthedocs.io/sy
 Additionally ETF adds a variation to the ""raw:"" syntax called ""print_raw:"" which will act just like ""raw:"" but will
 also print what that raw value is to the log for testing purposes,
 ETF also allows you to start the string with ""print:"" to always print the full NBT data of the entity
-§anbt.<n>.<nbtPath>=<exists:|raw:|print_raw:|print:|range:|regex:|iregex:|pattern:|ipattern:|string_list>",
+§anbt.<n>.<nbtPath>=<exists:|raw:|print_raw:|print:|range:|regex:|iregex:|pattern:|ipattern:|string_list>","NBT
+モブが持つ必要のあるNBTデータ値に一致するかどうかを選択します
+注: これはまだ公式ドキュメントを受けていないOptiFine機能です
+ETFは現在、https://optifine.readthedocs.io/syntax.html#nbt に記載されている構文をコピーしました。
+NBTはキーの追加値が必要で、これは<nbtPath>と呼ばれます。
+- nbtPathはnbt要素の正確な名前と一致する必要があり、大文字小文字を区別します
+- nbtPathは「.」を使用して完全なnbtパスを定義することで、ネストされたnbt要素の一致をサポートしています
+- 例: Villager職業レベルのnbtPathは「VillagerData.level」です。つまり、完全なプロパティキーは「nbt.<n>.VillagerData.level」になります
+NBTは複数の方法で使用でき、詳細は https://optifine.readthedocs.io/syntax.html#nbt を参照してください
+さらに、ETFは「raw:」構文に「print_raw:」という変更を追加します。これは「raw:」のように機能しますが
+その生の値がテスト目的のログに出力されます
+ETFでは、文字列を「print:」で開始することも許可されているため、常にエンティティの完全なNBTデータが出力されます
+§anbt.<n>.<nbtPath>=<exists:|raw:|print_raw:|print:|range:|regex:|iregex:|pattern:|ipattern:|string_list>"
 config.entity_texture_features.property_explanation.profession,"Professions 
 List of villager professions with levels
 Entry format
@@ -1107,7 +1159,20 @@ Professions farmer (all levels) or librarian (levels 1,3,4)
 Professions full
   professions=fisherman shepherd minecraft:nitwit villager_mod:town_mayor
   professions=minecraft:fisherman minecraft:shepherd minecraft:nitwit
-§aprofessions.<n>=<professions>",
+§aprofessions.<n>=<professions>","職業
+レベル付きの村人職業のリスト
+エントリ形式
+  <profession>[:level1,level2,...]
+職業: none(なし), armorer(防具職人), butcher(肉屋), cartographer(製図家), cleric(司祭), farmer(農民), fisherman(漁師), fletcher(矢師),
+       leatherworker(革職人), librarian(司書), mason(石工), nitwit(間抜け), shepherd(羊飼い), toolsmith(道具鍛冶), weaponsmith(武器鍛冶)
+例:
+職業 farmer (全レベル) または librarian (レベル 1,3,4)
+  professions=farmer librarian:1,3-4
+  professions=minecraft:farmer minecraft:librarian:1,3-4
+全職業
+  professions=fisherman shepherd minecraft:nitwit villager_mod:town_mayor
+  professions=minecraft:fisherman minecraft:shepherd minecraft:nitwit
+§aprofessions.<n>=<professions>"
 config.entity_texture_features.property_explanation.variant,"Variant 
 ETF Only!
 Select which variant a mob must be
@@ -1123,7 +1188,22 @@ For all other regular & block entities it returns the EntityType or BlockEntityT
 This allows for the separation of different entity types that might use the same model or texture.
 Can prefix with ""print:"" to always print the variant the mob appears as to the log
 Example: variant.1=black yellow
-§avariant.<n>=<list>",
-config.entity_texture_features.warn.no_emf.text.2,Entity Model Features(EMF) is needed if you want OptiFine format Custom Entity Models.,
-config.entity_texture_features.warn.quark.text.4,Quark's [Variant Animal Textures] must be disabled for ETF random textures to work.,
+§avariant.<n>=<list>","バリアント
+ETF専用!
+モブが持つ必要があるバリアントを選択します
+このプロパティは、VariantHolderクラスを実装するバニラまたはModedエンティティで機能し
+タイプの文字列表現を使用します。例えば、猫の場合は「black(黒)」、ボートの場合は「oak(オーク)」です。
+このプロパティはこれらのブロックエンティティでも一意に機能します:
+- 看板 (木材)
+- ベッド (色)
+- シュルカーボックス (色)
+- 装飾ポット (4つの陶片面すべて)
+- スカル/頭蓋骨 (末尾に向き方向を追加)
+その他すべての通常エンティティ・ブロックエンティティの場合、EntityTypeまたはBlockEntityTypeレジストリIDが返されます。
+これにより、同じモデルまたはテクスチャを使用する可能性のある異なるエンティティタイプを分離できます。
+「print:」でプレフィックスしてモブが表示されるバリアントを常にログに出力できます
+例: variant.1=black yellow
+§avariant.<n>=<list>"
+config.entity_texture_features.warn.no_emf.text.2,Entity Model Features(EMF) is needed if you want OptiFine format Custom Entity Models.,Entity Model Features(EMF)は、OptiFine形式のカスタムエンティティモデルが必要な場合に必要です。
+config.entity_texture_features.warn.quark.text.4,Quark's [Variant Animal Textures] must be disabled for ETF random textures to work.,Quarkの[バリアント動物テクスチャ]機能は、ETFランダムテクスチャが機能するために無効にする必要があります。
 config.entity_texture_features.player_skin_editor.cape.minecraftcapes,minecraftcapes.net,

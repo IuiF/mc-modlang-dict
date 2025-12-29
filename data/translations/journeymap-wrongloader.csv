@@ -109,7 +109,7 @@ jm.colorpalette.save_to_world,Save to World,ワールドへ保存
 jm.colorpalette.select_all,Select all,すべて選択
 jm.colorpalette.select_same_color,Select same color,同じ色を選択
 jm.colorpalette.self_arrow,Self Arrow,自己矢
-jm.colorpalette.sort.property,sort,
+jm.colorpalette.sort.property,sort,ソート
 jm.colorpalette.sort.property.ascending,ascending,昇順
 jm.colorpalette.states,States: %1$s,状態: %1$s
 jm.colorpalette.total_biomes,Total biomes: %1$s,総バイオーム数: %1$s
@@ -121,7 +121,7 @@ jm.colorpalette.villager_label,Villager Label,村人ラベル
 jm.colorpalette.world,World,ワールド
 jm.common.action_bar.waypoint_rendering.message,JourneyMap: Waypoint rendering %1$s§f press [%2$s] to %3$s.,JourneyMap: ワンポイント描画 %1$s§f [%2$s] を押して %3$s します。
 jm.common.action_bar.waypoint_rendering.toggle.enable,§2Enabled,§2有効
-jm.common.action_bar.waypoint_rendering.toggle.opposite.enable,§eenable§f,
+jm.common.action_bar.waypoint_rendering.toggle.opposite.enable,§eenable§f,§e有効§f
 jm.common.actions,Actions,アクション
 jm.common.addon_options,Addon Options,アドオンオプション
 jm.common.addon_options_invalid,No Addons with Options Found,オプション付きアドオンが見つかりませんでした
@@ -814,7 +814,7 @@ jm.server.edit.option.all,All,すべて
 jm.server.edit.option.all.tooltip,Enabled for Everyone,全員に有効
 jm.server.edit.option.none,None,なし
 jm.server.edit.option.none.tooltip,Disabled for Everyone,全員に無効化
-jm.server.edit.option.op,Op,
+jm.server.edit.option.op,Op,オペレーター
 jm.server.edit.option.op.tooltip,Enabled for only Opped Users,オペレータのみ有効化
 jm.server.edit.radar,Radar General,レーダー一般
 jm.server.edit.radar.chkbox.animal,Animal Radar,動物レーダー
@@ -1001,7 +1001,7 @@ jm.waypoint.find.tooltip,Goes to Waypoint on Fullscreen Map,フルスクリー�
 jm.waypoint.font_scale,Font Scale,文字の大きさ
 jm.waypoint.font_scale.tooltip,The font scale used to display waypoint labels in-game.,ゲーム内のウェイポイントに表示される文字の大きさを設定します。
 jm.waypoint.green_abbreviated,G,緑
-jm.waypoint.group.edit.id,Id: %s,
+jm.waypoint.group.edit.id,Id: %s,ID: %s
 jm.waypoint.group.edit.label,Edit Group,グループを編集
 jm.waypoint.group.edit.tag,Tag: %s,タグ: %s
 jm.waypoint.group.edit.waypoints,Waypoints: %s,ウェイポイント: %s
@@ -1101,9 +1101,9 @@ jm.waypoint.single_field,"X, Y, Z",
 jm.waypoint.single_field.tooltip,"Must be formatted as ""x,y,z"" or ""x, y, z"" numeric values.","「x,y,z」または「x, y, z」の形式で数値を入力してください。"
 jm.waypoint.slot.enabled,Enabled: %s,有効化: %s
 jm.waypoint.slot.group,Group: %s,グループ: %s
-jm.waypoint.slot.mod_id,ModId: %s,
+jm.waypoint.slot.mod_id,ModId: %s,ModID: %s
 jm.waypoint.slot.pos,Position: %s,位置: %s
-jm.waypoint.sort.property,sort,
+jm.waypoint.sort.property,sort,ソート
 jm.waypoint.sort.property.ascending,ascending,昇順
 jm.waypoint.teleport,Teleport,テレポート
 jm.waypoint.teleport.tooltip,Teleport to Waypoint,ウェイポイントへテレポート
@@ -1215,47 +1215,50 @@ key.journeymap.toggle_render_waypoints_world,Toggle Waypoint World Rendering,ワ
 key.journeymap.toggle_waypoints,Toggle All Waypoints,全ウェイポイントを切替
 key.journeymap.zoom_in,Zoom In,ズームイン
 key.journeymap.zoom_out,Zoom Out,ズームアウト
-jm.colorpalette.cancel,Cancel,
-jm.common.action_bar.waypoint_rendering.toggle.disabled,§4Disabled,
-jm.common.automap_dialog_summary_2,"'Blend Foliage', 'Blend Grass', and 'Blend Water'.",
-jm.common.block_flag.ignore,Ignore,
-jm.common.block_flag.water,Water,
+jm.colorpalette.cancel,Cancel,キャンセル
+jm.common.action_bar.waypoint_rendering.toggle.disabled,§4Disabled,§4無効
+jm.common.automap_dialog_summary_2,"'Blend Foliage', 'Blend Grass', and 'Blend Water'.",「フォーリエージュのブレンド」「草のブレンド」「水のブレンド」。
+jm.common.block_flag.ignore,Ignore,無視
+jm.common.block_flag.water,Water,水
 jm.common.chat_announcement,§eJourneyMap:§f %1$s,
 jm.common.curseforge,CurseForge,
 jm.common.discord,JourneyMap Discord,
-jm.common.entity_display.icons,Icons,
-jm.common.fullscreen.minimal_mode,Minimal UI,
-jm.common.fullscreen_drag_scale,Drag Scale,
-jm.common.info_slot.weather.clear,Clear,
-jm.common.map_filter.default,Default,
-jm.common.map_type.biome,Biome,
-jm.common.map_type.night,Night,
-jm.common.map_type.surface,Surface,
-jm.common.map_type.topo,Topo,
+jm.common.entity_display.icons,Icons,アイコン
+jm.common.fullscreen.minimal_mode,Minimal UI,最小限UI
+jm.common.fullscreen_drag_scale,Drag Scale,ドラッグスケール
+jm.common.info_slot.weather.clear,Clear,晴天
+jm.common.map_filter.default,Default,デフォルト
+jm.common.map_type.biome,Biome,バイオーム
+jm.common.map_type.night,Night,夜間
+jm.common.map_type.surface,Surface,地表
+jm.common.map_type.topo,Topo,トポ
 jm.common.modrinth,Modrinth,
-jm.common.renderdistance_synced,%1$s §eSynced§r: %2$s,
-jm.common.renderstats_debug_topo,Topo: %1$s (%2$s) + %3$s (%4$s) = %5$s chunks in %6$sms (avg %7$sms),
-jm.common.renderstats_debug_topo_simple,Topo: %1$s = %2$s chunks in %3$sms (avg %4$sms),
-jm.common.reset,Reset,
-jm.common.system_time_format.tooltip,"""Time format for the InfoSlot:System Time""",
-jm.common.time_format.tooltip,Time format for the InfoSlots for game time.,
-jm.common.topo.height.max_synced,%1$s §eSynced§r: %2$s,
-jm.minimap.cave_slice.slider.tooltip,The 16 vertical slice to lock the minimap to when set to underground. This option is disabled when Map Type is not set to underground.,
-jm.mod.addon.pokemon.options.category,Pokemon Options,
+jm.common.renderdistance_synced,%1$s §eSynced§r: %2$s,%1$s §e同期§r: %2$s
+jm.common.renderstats_debug_topo,Topo: %1$s (%2$s) + %3$s (%4$s) = %5$s chunks in %6$sms (avg %7$sms),トポ: %1$s (%2$s) + %3$s (%4$s) = %5$s チャンク in %6$sms (平均 %7$sms)
+jm.common.renderstats_debug_topo_simple,Topo: %1$s = %2$s chunks in %3$sms (avg %4$sms),トポ: %1$s = %2$s チャンク in %3$sms (平均 %4$sms)
+jm.common.reset,Reset,リセット
+jm.common.system_time_format.tooltip,"""Time format for the InfoSlot:System Time""","""InfoSlot:System Time の時間形式"""
+jm.common.time_format.tooltip,Time format for the InfoSlots for game time.,ゲーム時間の InfoSlot の時間形式。
+jm.common.topo.height.max_synced,%1$s §eSynced§r: %2$s,%1$s §e同期§r: %2$s
+jm.minimap.cave_slice.slider.tooltip,The 16 vertical slice to lock the minimap to when set to underground. This option is disabled when Map Type is not set to underground.,地下に設定されている場合、ミニマップをロックする 16 の垂直スライス。マップタイプが地下に設定されていない場合、このオプションは無効になります。
+jm.mod.addon.pokemon.options.category,Pokemon Options,ポケモンオプション
 jm.server.edit.tracking.tooltip,"If [player radar] is [enabled] this feature allows the server to track players outside of the range of the client.
 Players can see each other on the map no matter the distance as long as they are in the same dimension.
 If this is [enabled] and player radar is [disabled] this feature will not work.
-If this is [disabled] and player radar is [enabled] this feature will not work, but proximity radar will still work.",
-jm.theme.labelsource.gametime.day,Daytime,
-jm.theme.labelsource.gametime.real.tooltip,"Minecraft Time has a new day starting at 6am, this setting offsets that by 6 hours so it shows a new day starting at midnight.",
-jm.theme.labelsource.gametime.sunrise,Sunrise,
-jm.waypoint.delete.confirm.title,Delete Waypoint %s,
-jm.waypoint.disable,Disable,
-jm.waypoint.disable_waypoint,Disable,
+If this is [disabled] and player radar is [enabled] this feature will not work, but proximity radar will still work.","[プレイヤーレーダー]が[有効]の場合、この機能によりサーバーはクライアントの範囲外のプレイヤーを追跡できます。
+プレイヤーは同じディメンション内にいる限り、距離に関係なくマップで互いに見ることができます。
+この[有効]で プレイヤーレーダーが[無効]の場合、この機能は動作しません。
+この[無効]でプレイヤーレーダーが[有効]の場合、この機能は動作しませんが、近接レーダーは引き続き動作します。"
+jm.theme.labelsource.gametime.day,Daytime,日中
+jm.theme.labelsource.gametime.real.tooltip,"Minecraft Time has a new day starting at 6am, this setting offsets that by 6 hours so it shows a new day starting at midnight.",Minecraft Time は午前 6 時に新しい日を開始します。この設定は 6 時間オフセットして、真夜中に新しい日を開始するように表示します。
+jm.theme.labelsource.gametime.sunrise,Sunrise,日の出
+jm.waypoint.delete.confirm.title,Delete Waypoint %s,ウェイポイント %s を削除
+jm.waypoint.disable,Disable,無効にする
+jm.waypoint.disable_waypoint,Disable,ウェイポイント無効化
 jm.colorpalette.id,ID,
 jm.waypoint.x,X,
 jm.waypoint.y,Y,
 jm.waypoint.z,Z,
-jm.common.action_bar.waypoint_rendering.toggle.opposite.disabled,§edisable§f,
+jm.common.action_bar.waypoint_rendering.toggle.opposite.disabled,§edisable§f,§e無効§f
 jm.webmap.forum_link_text,minecraftforum.net,
 jm.webmap.web_link_text,journeymap.info,

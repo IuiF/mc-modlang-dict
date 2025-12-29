@@ -439,7 +439,7 @@ item.supplementaries.wrench,Wrench,レンチ
 jukebox_song.supplementaries.pancake,Hlzfss - Pancake Music,Hlzfss - パンケーキミュージック
 leaves_type.twilightforest.dark,Darkwood,ダークウッド
 leaves_type.ulterlands.souldrained,Petrified,石化
-message.supplementaries.altimeter,Y: %d,
+message.supplementaries.altimeter,Y: %d,Y：%d
 message.supplementaries.argument.instrument.invalid,"Instrument must be one of %1$s, found %2$s",楽器は%1$sのいずれかである必要がありますが、%2$sが見つかりました
 message.supplementaries.argument.source.invalid,"Source must be one of %1$s, found %2$s",ソースは%1$sのいずれかである必要がありますが、%2$sが見つかりました
 message.supplementaries.blackboard,Drawn,蝋引き済み
@@ -461,11 +461,11 @@ message.supplementaries.command.globe_changed,Globe seed changed,地球儀のシ
 message.supplementaries.command.globe_reset,Globe seed reset,地球儀のシード値がリセットされました
 message.supplementaries.command.record.start,Noteblocks recording started,音符ブロックの録音を開始しました
 message.supplementaries.command.record.stop,Noteblocks recording stopped: saved song at recorded_songs/%s,音符ブロックの録音を停止しました：recorded_songs/%sに保存されました
-message.supplementaries.compass,"X: %d, Z: %d",
+message.supplementaries.compass,"X: %d, Z: %d","X：%d, Z：%d"
 message.supplementaries.death_marker,Last Death,最終死亡地点
 message.supplementaries.door.locked,This door is locked,このドアはロックされています
 message.supplementaries.flower_box,Can hold any big plant,大きな植物を植えることができます
-message.supplementaries.fluid_tooltip,%s: %d mBtl,
+message.supplementaries.fluid_tooltip,%s: %d mBtl,%s：%d mBtl
 message.supplementaries.flute,You can't add more pets to this flute,これ以上ペットを登録できません
 message.supplementaries.globe,Sold by the Wandering Trader,行商人が取引することがあります
 message.supplementaries.glowing,Glowing,光る
@@ -486,7 +486,7 @@ message.supplementaries.present.to,To: %s,%sへ
 message.supplementaries.quill_failed,A Cartographer's Quill could not find any target nearby.,製図家の羽根ペンは対象を見つけることができませんでした
 message.supplementaries.quill_finished,A Cartographer Map has been completed.,地図が完成しました
 message.supplementaries.quill_retry,A Cartographer's Quill could not find any target nearby. Try somewhere else.,製図家の羽根ペンは対象を見つけることができませんでした。他の場所でお試しください
-message.supplementaries.quiver.tooltip,%s [%s],
+message.supplementaries.quiver.tooltip,%s [%s],%s［%s］
 message.supplementaries.road_sign,%d bl,%d ブロック
 message.supplementaries.rope_arrow,Rope: %s,ロープ：%s
 message.supplementaries.rope_arrow_tooltip,Ropes: %1$s / %2$s,ロープ：%1$s／%2$s
@@ -1004,9 +1004,9 @@ book.supplementaries.entry.fodder.page.1.title,Fodder,飼料
 book.supplementaries.entry.fodder.page.2,Can be placed down with dispensers.$(br)Clicking with a hoe will remove and destroy one layer.,ディスペンサーで置くことができます。$(br)クワでクリックすると1層を除去して破壊します。
 book.supplementaries.entry.framed_block.name,Framed Block,枠付きブロック
 book.supplementaries.entry.framed_block.page.1.title,Framed Block,枠付きブロック
-book.supplementaries.entry.github.name,GitHub,
+book.supplementaries.entry.github.name,GitHub,ギットハブ
 book.supplementaries.entry.github.page.1.link,GitHub Link,ギットハブリンク
-book.supplementaries.entry.github.page.1.title,GitHub,
+book.supplementaries.entry.github.page.1.title,GitHub,ギットハブ
 book.supplementaries.entry.globe.page.1,A rare item found in shipwrecks or sold by the wandering trader.$(br)Will display a randomly generated blocky world that is unique to your current seed.$(br)Once interacted with it will spin and display the current world coordinates.$(br)Every spin will rotate it by one face.,船破損物または流浪商人が販売する希少アイテムです。$(br)ランダム生成されたブロック状の世界を表示し、現在のシードに固有です。$(br)操作すると回転して現在のワールド座標を表示します。$(br)各スピンで1面分回転します。
 book.supplementaries.entry.globe.page.2,"Will also spin once powered by redstone.$(br)Can give off a comparator output that depends on the current face, useful for activation mechanisms.",レッドストーンで電力が供給されると回転します。$(br)現在の面に応じたコンパレーター出力を発生させ、アクティベーション機構に便利です。
 book.supplementaries.entry.goblet.name,Goblet,ゴブレット
@@ -1041,9 +1041,9 @@ book.supplementaries.entry.jar.page.1,$(br2)$()$(br2)$()Can store up to 12 cooki
 book.supplementaries.entry.jar.page.1.title,Jar,瓶
 book.supplementaries.entry.jar.page.2,"This follows the same logic that $(l:decorative/goblet)goblets$(/l) use.$(br)Refer to that section for more information.$(br)If enabled in the configs, one can drink directly from jars, both in item and block form.",これは$(l:decorative/goblet)ガルフ$(/l)が使用するのと同じロジックに従います。$(br)詳細はそのセクションを参照してください。$(br)設定で有効にすると、アイテムおよびブロック形態のジャーから直接飲むことができます
 book.supplementaries.entry.key.page.2,"To open a locked block you won't need to have the correct key in hand, it just needs to be in your inventory or Curio slot.",ロックされたブロックを開くには、正しいキーを手に持っている必要はなく、インベントリまたはCurioスロットに入っていれば十分です。
-book.supplementaries.entry.kofi.name,Ko-Fi,
+book.supplementaries.entry.kofi.name,Ko-Fi,コ・ファイ
 book.supplementaries.entry.kofi.page.1.link,Ko-Fi Link,Ko-Fiリンク
-book.supplementaries.entry.kofi.page.1.title,Ko-Fi,
+book.supplementaries.entry.kofi.page.1.title,Ko-Fi,コ・ファイ
 book.supplementaries.entry.lamp.name,Lamps,ランプ
 book.supplementaries.entry.lamp.page.1,$(br2)$()$(br2)$()$(br2)$()$(br)$()These are blocks that emit light with part of the texture similar to the chosen base block.$(br)The end stone lamp if you click right change symbol.,$(br2)$()$(br2)$()$(br2)$()$(br)$()光を放つブロックで、テクスチャの一部が選択されたベースブロックと似ています。$(br)エンドストーンランプは右クリックするとシンボルが変わります。
 book.supplementaries.entry.lamp.page.1.title,Lamps,ランプ
@@ -1481,17 +1481,17 @@ Whether you play modded or vanilla, you should always use the mods listed here b
  さらに、パフォーマンスの観点からは、Modern fix、Embeddium、およびシェーダー用のOculusなどのはるかに優れた高性能な代替手段があります。
 
 modded または vanilla のいずれでプレイするにしても、常に以下にリストされている modを使用する必要があります。"
-jukebox_song.supplementaries.heave_ho,Hlzfss - Heave Ho!,
+jukebox_song.supplementaries.heave_ho,Hlzfss - Heave Ho!,Hlzfss - Heave Ho!
 advancements.story.turn_table.title,How the Turn Tables,テーブルが返ってきた
 book.supplementaries.book_name,§6Supplemental Manual,§6補足マニュアル
 book.supplementaries.category.tweaks.name,Tweaks,調整
-book.supplementaries.entry.allecraft.name,AlleCraft,
-book.supplementaries.entry.allecraft.page.1.title,AlleCraft,
+book.supplementaries.entry.allecraft.name,AlleCraft,アレクラフト
+book.supplementaries.entry.allecraft.page.1.title,AlleCraft,アレクラフト
 book.supplementaries.entry.bamboo_spikes.page.2,"To do so either craft them, click on them or pour the potion using a $(l:redstone/faucet)faucet$(/l).$(br)Tipped spikes can hold 16 potion charges.$(br)Each charged will only be consumed when an entity that does not have the potion effect applied walk on them.",これを行うには、クラフトするか、クリックするか、$(l:redstone/faucet)蛇口$(/l)を使ってポーションを注ぐかのいずれかです。$(br)先端のスパイクは16回分のポーション効果を保持できます。$(br)各ポーション効果は、その効果が適用されていないエンティティが上を歩いた時のみ消費されます。
 book.supplementaries.entry.books.page.1,$(br2)$()$(br2)$()Enchanted and normal books can be placed and thus have a block form.$(br)By default normal books can be piled horizontally and will have a random color assigned to them.$(br)Enchanted Books will be piled up vertically.$(br)Placed books can give enchanting power to enchanting tables.$(br)The power given depends on the number and type of books used.,$(br2)$()$(br2)$()エンチャント付きおよび通常の本はブロック形式で配置できます。$(br)デフォルトでは、通常の本を水平に積み重ねることができ、ランダムな色が割り当てられます。$(br)エンチャント付きの本は垂直に積み重ねられます。$(br)配置された本は、エンチャントテーブルにエンチャント力を与えることができます。$(br)与えられる力は、使用される本の数と種類によって異なります。
 book.supplementaries.entry.books.page.3,"By enabling mixed books in the config one can mix and match any book with each other and, for example, place enchanted books sideways.$(br)Placeable book and quill can also be enabled in the configs but will require shift clicking to place.$(br)Enchanted books can display with their enchant glint.$(br)This also can be enabled in the configs.$(br)This features also has support for Enchanted Books Redesign mod.",設定で混合本を有効にすることで、任意の本を互いに混在させることができ、例えばエンチャント付きの本を横向きに配置できます。$(br)配置可能な本と羽ペンも設定で有効にできますが、配置するにはシフトクリックが必要になります。$(br)エンチャント付きの本はエンチャントの輝きを表示できます。$(br)これも設定で有効にできます。$(br)この機能には、Enchanted Books Redesign modのサポートもあります。
-book.supplementaries.entry.curseforge.name,CurseForge,
-book.supplementaries.entry.curseforge.page.1.title,CurseForge,
+book.supplementaries.entry.curseforge.name,CurseForge,カーセフォージ
+book.supplementaries.entry.curseforge.page.1.title,CurseForge,カーセフォージ
 book.supplementaries.entry.faucet.page.3,"Once it's connected to a fluid containing block behind it can pour those fluids in any possible fluid container block below it.$(br)This will only be possible in 250mb increment.$(br)Fluid containing blocks include: Waterlogged blocks, Fluid tanks, Jars & goblets, Cauldrons (compatible with inspirations one too), special blocks like pancakes, tipped spikes, beehives and some modded ones like sappy logs or honey pots.",その後、背後の流体を含むブロックに接続することで、その流体をその下の任意の流体コンテナブロックに注ぐことができます。$(br)これは250mb単位でのみ可能になります。$(br)流体を含むブロックには、水に浸かったブロック、流体タンク、瓶とゴブレット、大釜（Inspirationsのものと互換性あり）、パンケーキなどの特別なブロック、先端のスパイク、蜂の巣、および modded ブロックのような樹液ログやハチミツポットが含まれます。
 book.supplementaries.entry.flute.name,Flute,フルート
 book.supplementaries.entry.flute.page.1.title,Flute,フルート
@@ -1501,11 +1501,11 @@ book.supplementaries.entry.globe.page.1.title,Globe,地球儀
 book.supplementaries.entry.key.name,Key,鍵
 book.supplementaries.entry.key.page.1,"Keys are used to lock $(l:decorative/safe)safes$(/l), $(l:decorative/netherite_door_trapdoor)netherite doors$(/l), $(l:decorative/netherite_door_trapdoor)netherite trapdoors$(/l) and Lock Blocks.$(br)To lock a block first rename the key to your desired password, the click on the unbounded block.$(br)To clear the ownership simply shift click with the correct key on the locked block.",鍵は$(l:decorative/safe)金庫$(/l)、$(l:decorative/netherite_door_trapdoor)ネザライト扉$(/l)、$(l:decorative/netherite_door_trapdoor)ネザライトトラップドア$(/l)、ロックブロックを鍵をかけるために使用されます。$(br)ブロックをロックするには、まず鍵を希望のパスワードに名前変更し、バウンドされていないブロックをクリックします。$(br)所有権をクリアするには、ロックされたブロックで正しい鍵をシフトクリックするだけです。
 book.supplementaries.entry.key.page.1.title,Key,鍵
-book.supplementaries.entry.mehvahdjukaar.name,MehVahdJukaar,
-book.supplementaries.entry.mehvahdjukaar.page.1.title,MehVahdJukaar,
+book.supplementaries.entry.mehvahdjukaar.name,MehVahdJukaar,メヴァハジュカール
+book.supplementaries.entry.mehvahdjukaar.page.1.title,MehVahdJukaar,メヴァハジュカール
 book.supplementaries.entry.netherite_door_trapdoor.page.1,$(br2)$()$(br2)$()Just like safes they can be locked with $(l:item/key)keys$(/l).$(br)Once this is done only a $(l:item/key)key$(/l) owner can interact with them.$(br)By default they are accessible to anyone until first locked.,$(br2)$()$(br2)$()金庫と同じように、$(l:item/key)鍵$(/l)でロックできます。$(br)これが完了すると、$(l:item/key)鍵$(/l)の所有者のみがこれらと対話できます。$(br)デフォルトでは、最初にロックされるまでは誰でもアクセス可能です。
 book.supplementaries.entry.pancake.page.2,"Pancakes with honey, chocolate or syrup will give a short speed effect when eaten.$(br)You can also insert a pancake in a jukebox for some sick tunes.$(br)Inserting a Pancake into a Jukebox will play a new tune, Pancake Music.",ハチミツ、チョコレート、またはシロップのパンケーキは、食べると短時間の速度効果を与えます。$(br)パンケーキをジュークボックスに入れて、イケてる曲をプレイすることもできます。$(br)パンケーキをジュークボックスに挿入すると、新しいチューン「パンケーク音楽」が再生されます。
-book.supplementaries.entry.patreon.page.1.title,Patreon,
+book.supplementaries.entry.patreon.page.1.title,Patreon,パトレオン
 book.supplementaries.entry.pedestal.page.2,This can be prevented if one swaps the item with a sack.$(br)If an end crystal is placed on a pedestal the block will give off an enchanting power equal to 5 bookshelves.$(br)This means that with 5 of such blocks you'll be able to max out an enchanting table,サックでアイテムを交換することで、これを防ぐことができます。$(br)エンドクリスタルがペデスタルに配置されている場合、ブロックは本棚5つに相当するエンチャント力を放出します。$(br)つまり、5つのブロックがあれば、エンチャントテーブルを最大限にすることができます。
 book.supplementaries.entry.pulley.name,Pulley,滑車
 book.supplementaries.entry.pulley.page.1.title,Pulley,滑車
@@ -1517,15 +1517,36 @@ book.supplementaries.entry.safe.page.2.title,Safe,金庫
 book.supplementaries.entry.sconce_candle.page.2,"Decorative items that are meant to provide an alternative to torches.$(br)Can be lit with flint and still, fire charges, fire arrows or placeable gunpowder.$(br)Can be unilt by waterlogging or by using a water splash potion.$(br)Won't break when waterlogged.",装飾的なアイテムで、松明の代わりを意図しています。$(br)火打石と鋼、火炎チャージ、火矢、または配置可能な火薬で点火できます。$(br)水をかけるか、水スプラッシュポーションを使用することで消すことができます。$(br)水に浸かっても破壊されません。
 book.supplementaries.entry.statue.name,Statue,彫像
 book.supplementaries.entry.statue.page.1.title,Statue,彫像
-book.supplementaries.entry.twitter.name,Twitter,
-book.supplementaries.entry.twitter.page.1.title,Twitter,
-book.supplementaries.entry.youtube.name,Youtube,
-book.supplementaries.entry.youtube.page.1.title,Youtube,
+book.supplementaries.entry.twitter.name,Twitter,ツイッター
+book.supplementaries.entry.twitter.page.1.title,Twitter,ツイッター
+book.supplementaries.entry.youtube.name,Youtube,ユーチューブ
+book.supplementaries.entry.youtube.page.1.title,Youtube,ユーチューブ
 book.supplementaries.landing_text,You can get help in this book ! Or on $(l)$(l:https://github.com/MehVahdJukaar/Supplementaries/wiki)GitHub Wiki$(/l)$(reset) our join in supplementaries $(l)$(l:https://discord.gg/cw27h3aW7Z)Discord Server$(/l)$(reset),このブックで手助けが得られます！または$(l)$(l:https://github.com/MehVahdJukaar/Supplementaries/wiki)GitHub Wiki$(/l)$(reset)に参加するか、Supplementaries $(l)$(l:https://discord.gg/cw27h3aW7Z)Discordサーバー$(/l)$(reset)に参加できます。
 subtitle.supplementaries.turntable.cat,Ching Cheng Hanji,
-item.supplementaries.music_disc_heave_ho.desc,Hlzfss - Heave Ho!,
+item.supplementaries.music_disc_heave_ho.desc,Hlzfss - Heave Ho!,Hlzfss - ウェイヘイホー
 commands.supplementaries.registry.registry_key,%s,
-supplementaries.gui.controls,Supplementaries,
-tab.supplementaries.supplementaries,Supplementaries,
-itemGroup.supplementaries,Supplementaries,
+supplementaries.gui.controls,Supplementaries,Supplementaries
+tab.supplementaries.supplementaries,Supplementaries,Supplementaries
+itemGroup.supplementaries,Supplementaries,サプリメンタリーズ
 supplementaries.comment5,endergetic: poise,
+commands.supplementaries.globe_changed,Globe seed changed,地球儀のシード値が変更されました
+block.supplementaries.ominous_flag,Ominous Flag,不吉なフラッグ
+block.supplementaries.spider_head,Spider Head,クモの頭
+item.supplementaries.blast_armor_trim_smithing_template,Smithing Template,鍛冶型
+block.supplementaries.gold_bars,Gold Bars,金格子
+entity.supplementaries.plunderer,Plunderer,プランダラー
+item.supplementaries.plunderer_spawn_egg,Plunderer Spawn Egg,プランダラーのスポーンエッグ
+commands.supplementaries.configs_reloaded,Supplementaries Configs reloaded!,Supplementariesの設定を再読み込みしました！
+commands.supplementaries.cage,Added %s to temporary Cage and Jars catchable list,%sを一時的にケージと瓶の捕獲可能リストに追加しました
+advancements.husbandry.angry_birds.description,Toss a parrot with a slingshot,スリングショットでオウムを投げる
+commands.supplementaries.record.start,Noteblocks recording started,音符ブロックの録音を開始しました
+tag.worldgen.supplementaries.structure.road_sign_destinations,Way Sign Destinations,Way Sign Destinations
+advancements.adventure.road_sign.title,This Must be a Sign!,どこからどう見ても道標
+advancements.husbandry.angry_birds.title,Angry Birds,アングリーバード
+tag.worldgen.supplementaries.biome.has_road_signs,Has Road Signs,Has Road Signs
+commands.supplementaries.record.stop,Noteblocks recording stopped: saved song at recorded_songs/%s,音符ブロックの録音を停止しました：recorded_songs/%sに保存されました
+trim_pattern.supplementaries.blast,Blast Armor Trim,爆風の装飾
+commands.supplementaries.globe_reset,Globe seed reset,地球儀のシード値がリセットされました
+block.supplementaries.barnacles,Barnacles,フジツボ
+advancements.adventure.road_sign.description,Follow me to find a village,村を見つけたいなら道標に従おう！
+commands.supplementaries.configs,Install Configured to access configs,設定にアクセスするにはConfiguredを導入してください

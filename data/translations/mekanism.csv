@@ -100,7 +100,7 @@ advancements.mekanism.robit.title,A New Best Friend!,新たな親友!
 advancements.mekanism.robit_aesthetics.description,Equip a Robit with a new coat of paint,ロビットに新しい塗装を施す
 advancements.mekanism.robit_aesthetics.title,A New Coat of Paint,新しい塗装
 advancements.mekanism.root.description,Welcome to Mekanism!,Mekanismへようこそ!
-advancements.mekanism.root.title,Mekanism,
+advancements.mekanism.root.title,Mekanism,Mekanism
 advancements.mekanism.running_free.description,Protect yourself from falling with a pair of Free Runners,フリーランナー一足で落下ダメージから守りましょう
 advancements.mekanism.sawmill.description,Craft a Precision Sawmill,精密製材機をクラフトする
 advancements.mekanism.sawmill.title,Cut Cut Cut,切る斬る伐る
@@ -501,7 +501,7 @@ boiler.mekanism.water_tank,Water Tank,水タンク
 boolean.mekanism.active,Active,アクティブ
 boolean.mekanism.disabled,Disabled,無効
 boolean.mekanism.input,Input,入力
-boolean.mekanism.no,no,
+boolean.mekanism.no,no,いいえ
 boolean.mekanism.off,off,オフ
 boolean.mekanism.off_caps,OFF,オフ
 boolean.mekanism.on,on,オン
@@ -1785,7 +1785,7 @@ constants.mekanism.alpha_warning.here,here,ここ
 constants.mekanism.debug_title,Mekanism Debug,メカニズムデバッグ
 constants.mekanism.error,Error,エラー
 constants.mekanism.error.packet.invalid,Invalid packet data received: %1$s,無効なパケットデータを受信しました: %1$s
-constants.mekanism.mod_name,Mekanism,
+constants.mekanism.mod_name,Mekanism,Mekanism
 constants.mekanism.pack_description,Resources used for Mekanism,Resources used for メカニズム
 container.mekanism.advanced_chemical_tank,Advanced Chemical Tank,高度な化学物質 タンク
 container.mekanism.advanced_combining_factory,Advanced Combining Factory,高度なコンバイニング 工場
@@ -2095,12 +2095,12 @@ free_runner.mekanism.safety,Safety,安全性
 frequency.mekanism.delete_confirm,Are you sure you want to delete this frequency? This can't be undone.,このフリーケンシを削除してもよろしいですか？この操作は取り消せません。
 frequency.mekanism.format,Frequency: %s,周波数: %s
 frequency.mekanism.none,No frequency,設定なし
-generic.mekanism.greater_equal,%1$s ≥ %2$s,
-generic.mekanism.greater_than,%1$s > %2$s,
+generic.mekanism.greater_equal,%1$s ≥ %2$s,%1$s≧%2$s
+generic.mekanism.greater_than,%1$s > %2$s,%1$s＞%2$s
 generic.mekanism.hours_minutes,%1$sh %2$sm,%1$s時間%2$s分
-generic.mekanism.less_than,%1$s < %2$s,
-generic.mekanism.less_than_equal,%1$s ≤ %2$s,
-generic.mekanism.list,- %1$s,
+generic.mekanism.less_than,%1$s < %2$s,%1$s＜%2$s
+generic.mekanism.less_than_equal,%1$s ≤ %2$s,%1$s≦%2$s
+generic.mekanism.list,- %1$s,- %1$s
 generic.mekanism.minutes,%1$sm,%1$s分
 generic.mekanism.with_comma,"%s, %s",
 gui.mekanism.back,Back,戻る
@@ -2167,8 +2167,8 @@ gui.mekanism.radiation_decay_time,Time to Decay: %1$s,崩壊までの時間: %1$
 gui.mekanism.radiation_dose,Radiation Dose: %s,放射線量: %1$s
 gui.mekanism.radiation_exposure,Radiation Exposure: %s,放射線被曝: %1$s
 gui.mekanism.radiation_exposure.entity,Entity Radiation Exposure: %1$s,エンティティの放射能被曝: %1$s
-gui.mekanism.rgb,RGB:,
-gui.mekanism.rgba,RGBA:,
+gui.mekanism.rgb,RGB:,RGB:
+gui.mekanism.rgba,RGBA:,RGBA:
 gui.mekanism.set,Set:,設定:
 gui.mekanism.stabilizer.center,"Chunk at (%1$s, %2$s) is always loaded.","(%1$s, %2$s)のチャンクは常にロードされています。"
 gui.mekanism.stabilizer.radius.disable,"Right click to disable chunk loading for all chunks with a radius of %1$s around (%2$s, %3$s).","右クリックで、(%2$s, %3$s)の半径%1$sの全てのチャンクの読み込みを無効化します。"
@@ -2459,7 +2459,7 @@ miner.mekanism.silk_touch,Silk touch,シルクタッチ
 miner.mekanism.to_mine,To mine: %s,採掘対象: %1$s
 miner.mekanism.well,All is well!,良好
 module.mekanism.attack_amplification_unit,Attack Amplification Unit,攻撃増幅ユニット
-module.mekanism.blast_area,%1$sx%1$s,
+module.mekanism.blast_area,%1$sx%1$s,%1$sx%1$s
 module.mekanism.blast_radius,Blast Radius,爆発範囲
 module.mekanism.blasting_enabled,Blast Radius: %1$s,爆発範囲: %1$s
 module.mekanism.blasting_unit,Blasting Unit,爆発ユニット
@@ -2914,7 +2914,7 @@ teleporter.mekanism.no_destination,No destination,目的地なし
 teleporter.mekanism.no_frame,No frame,フレーム無し
 teleporter.mekanism.ready,Ready,準備完了
 temperature.mekanism.ambient,Ambient,周囲
-temperature.mekanism.ambient.short,STP,
+temperature.mekanism.ambient.short,STP,STP
 temperature.mekanism.celsius,Celsius,セルシウス度
 temperature.mekanism.fahrenheit,Fahrenheit,ファーレンハイト度
 temperature.mekanism.kelvin,Kelvin,ケルビン
@@ -3080,7 +3080,7 @@ generic.mekanism.block_pos,"%s, %s, %s",
 generic.mekanism.fraction,%s/%s,
 generic.mekanism.hex,#%s,
 generic.mekanism.mb,%s mB,
-generic.mekanism.parenthesis,(%s),
+generic.mekanism.parenthesis,(%s),（%s）
 generic.mekanism.per_mb,%s/mB,
 generic.mekanism.per_tick,%s/t,
 generic.mekanism.percent,%s%%,
@@ -3089,7 +3089,7 @@ generic.mekanism.pre_pre_colon,%s %s: %s,
 generic.mekanism.square_bracket,[%s],
 generic.mekanism.stored,%s: %s,
 generic.mekanism.stored.mb,%s: %s mB,
-generic.mekanism.transfer,- %s (%s),
+generic.mekanism.transfer,- %s (%s),- %s（%s）
 generic.mekanism.with_parenthesis,%s (%s),
 gui.mekanism.chemical_dissolution_chamber.short,C. Dissolution Chamber,化学溶解室
 gui.mekanism.chemical_infuser.short,C. Infuser,化学混成機
@@ -3172,11 +3172,11 @@ transmitter.mekanism.pump_rate,Pump Rate: %s/s,転送速度: %s/s
 transmitter.mekanism.pump_rate.mb,Pump Rate: %s mB/t,汲上効率: %s mB/t
 transmitter.mekanism.speed,Speed: %s m/s,速度: %s m/s
 upgrade.mekanism.display,- %s,
-upgrade.mekanism.display.level,- %s: x%s,
+upgrade.mekanism.display.level,- %s: x%s,- %s：x%s
 upgrade.mekanism.gas,Gas,ガス
 upgrade.mekanism.gas.description,Increases the efficiency of gas-using machinery.,ガスの使用効率を上昇させます。
 waste_barrel.mekanism.decay_rate.actual,Actual Decay Rate: %s mB / %s ticks,Actual Decay レート: %s mB / %s ticks
-filter.mekanism.filter.count,T: %1$s,
+filter.mekanism.filter.count,T: %1$s,T：%1$s
 fluid.mekanism.flowing_nutritional_paste,Flowing Nutritional Paste,流れる栄養補助ペースト
 fluid.mekanism.nutritional_paste,Nutritional Paste,栄養補助ペースト
 gas.mekanism.empty,Empty,空
@@ -4289,188 +4289,188 @@ item.LazuliShovel.name,Lapis Lazuli Shovel,ラピスラズリのシャベル
 item.LazuliHoe.name,Lapis Lazuli Hoe,ラピスラズリのクワ
 item.LazuliSword.name,Lapis Lazuli Sword,ラピスラズリの剣
 mekanism.configgui.ctgy.tools.general,General,一般
-_mekanism_force_utf8,﻿,
-advancements.mekanism.advanced_qio_drive.description,Increase the storage bandwidth of your QIO Drive,
-advancements.mekanism.cleaning_gauges.description,Use a Gauge Dropper on any Gauge in a Mekanism GUI,
-advancements.mekanism.configuration_copying.title,"Ctrl+C, Ctrl+V",
-command.mekanism.testrules,"Enabled keepInventory, and disabled doMobSpawning, doDaylightCycle, doWeatherCycle and mobGriefing!",
-configuration.mekanism.client.accessibility.tooltip,"Settings for configuring Accessibility settings provided by Mekanism. Note: Some settings such as HUD scale, may be located throughout the rest of this config.",
-configuration.mekanism.client.hud.avoid_subtitles.tooltip,Shift the HUD elements when sound subtitles are being displayed to avoid overlap,
-configuration.mekanism.client.hud.color.danger.tooltip,Color (RGB) of danger HUD elements used by MekaSuit.,
-configuration.mekanism.client.hud.color.tooltip,Color (RGB) of HUD used by MekaSuit.,
-configuration.mekanism.client.hud.color.warning.tooltip,Color (RGB) of warning HUD elements used by MekaSuit.,
-configuration.mekanism.client.hud.enabled.tooltip,"Enable a HUD that displays information about equipped Mekanism items, and displays additional information when wearing a MekaSuit Helmet.",
-configuration.mekanism.client.hud.jitter.tooltip,"Visual jitter of the MekaSuit HUD, seen when moving the player's head. Higher values increases the amount of jitter.",
-configuration.mekanism.client.hud.tooltip,Settings for configuring Mekanism's HUD,
-configuration.mekanism.client.last_window_positions.pinned.tooltip,"Determines whether this window is pinned, and should open automatically when the GUI is reopened.",
-configuration.mekanism.client.particle.tooltip,Settings for configuring Mekanism's Particles,
-configuration.mekanism.client.qio.auto_focus.tooltip,Determines whether the search bar is automatically focused when a QIO Dashboard is opened.,
-configuration.mekanism.client.qio.rejects.destination.tooltip,Determines if items in a QIO crafting window should be moved to the player's inventory or the frequency first when replacing the items in the crafting grid using a recipe viewer.,
-configuration.mekanism.client.qio.slots.x.tooltip,Number of slots to view horizontally on a QIO Dashboard.,
-configuration.mekanism.client.qio.slots.y.tooltip,Number of slots to view vertically on a QIO Dashboard.,
-configuration.mekanism.client.qio.sort.direction.tooltip,Sorting direction when viewing items in a QIO Dashboard.,
-configuration.mekanism.client.qio.sort.type.tooltip,Sorting strategy when viewing items in a QIO Dashboard.,
-configuration.mekanism.client.qio.tooltip,Settings for configuring Mekanism's QIO,
-configuration.mekanism.client.render_range.block_entity.tooltip,"Range at which Block Entity Renderers added by Mekanism can render at, for example the contents of multiblocks. Vanilla defaults the rendering range for BERs to 64 for most blocks (for example chests), but uses a range of 256 for blocks like beacons and end gateways. Lowering this will likely increase your performance, at the cost of multiblock contents and wind generators 'popping' in",
-configuration.mekanism.client.sounds.tooltip,Settings for configuring Mekanism's Sounds,
-configuration.mekanism.client.transmitters.opaque.tooltip,"If true, renders sides for Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors instead of rendering their contents. If transmitters are causing you fps issues, this should hopefully help.",
-configuration.mekanism.common.copy_block_data.tooltip,Determines whether machine configuration data is copied when using middle click. If this is set to false no data will be copied and the default instance of the stack will be returned.,
-configuration.mekanism.common.decay_timers.tooltip,Display the time it will take for radiation to decay when readings are above safe levels. Set this to false on the client side to disable MekaSuit Geiger and Dosimeter Unit timers. Set this to false on the server side to disable handheld Geiger Counter and Dosimeter timers.,
-configuration.mekanism.common.unit.energy.tooltip,Displayed energy type in Mekanism GUIs (client) and network reader readings (server).,
-configuration.mekanism.common.unit.temperature.tooltip,Displayed temperature unit in Mekanism GUIs (client) and network reader readings (server).,
-configuration.mekanism.gear.disassembler.damage.max.tooltip,The bonus attack damage of the Atomic Disassembler when it has at least energyUsageWeapon power stored. (Value is in number of half hearts),
-configuration.mekanism.gear.disassembler.mining_count.tooltip,The max number of blocks the Atomic Disassembler can mine using the 'Vein Mining' mode. Requires veinMining to be enabled.,
-configuration.mekanism.gear.free_runners.fall.energy.tooltip,Energy cost multiplier in Joules for reducing fall damage with free runners. Energy cost is: FallDamage * fallEnergyCost. (1 FallDamage is 1 half heart),
-configuration.mekanism.gear.meka_suit.damage_absorption.unspecified.tooltip,Percent of damage taken from other non explicitly supported damage types that don't bypass armor when the MekaSuit has enough power and a full suit is equipped. Note: Support for specific damage types can be added by adding an entry for the damage type in the mekanism:mekasuit_absorption data map.,
-configuration.mekanism.gear.meka_suit.energy_usage.damage.tooltip,Energy usage (Joules) of MekaSuit per unit of damage applied.,
-configuration.mekanism.gear.meka_suit.energy_usage.elytra.tooltip,Energy usage (Joules) per second of the MekaSuit when flying with the Elytra Unit.,
-configuration.mekanism.gear.meka_suit.energy_usage.fall.tooltip,Energy cost multiplier in Joules for reducing fall damage with MekaSuit Boots. Energy cost is: FallDamage * fall. (1 FallDamage is 1 half heart),
-configuration.mekanism.gear.meka_suit.energy_usage.flight.tooltip,Energy usage (Joules) of MekaSuit per tick when flying via Gravitational Modulation.,
-configuration.mekanism.gear.meka_suit.energy_usage.food.tooltip,Energy usage (Joules) of MekaSuit per half-food of nutritional injection.,
-configuration.mekanism.gear.meka_suit.energy_usage.jump.tooltip,Energy usage (Joules) of MekaSuit when adding 0.1 to jump motion.,
-configuration.mekanism.gear.meka_suit.energy_usage.magic.tooltip,Energy cost multiplier in Joules for reducing magic damage via the inhalation purification unit. Energy cost is: MagicDamage * magicReduce. (1 MagicDamage is 1 half heart).,
-configuration.mekanism.gear.meka_suit.energy_usage.magnet.tooltip,Energy usage (Joules) of MekaSuit per tick of attracting a single item.,
-configuration.mekanism.gear.meka_suit.energy_usage.potion.tooltip,Energy usage (Joules) of MekaSuit when lessening a potion effect.,
-configuration.mekanism.gear.meka_suit.energy_usage.sprint.tooltip,Energy usage (Joules) of MekaSuit when adding 0.1 to sprint motion.,
-configuration.mekanism.gear.meka_suit.energy_usage.swim.tooltip,Energy usage (Joules) of MekaSuit per tick of using hydrostatic repulsion.,
-configuration.mekanism.gear.meka_suit.energy_usage.tooltip,Settings for configuring the MekaSuit's Energy Usage,
-configuration.mekanism.gear.meka_suit.energy_usage.vision.tooltip,Energy usage (Joules) of MekaSuit per tick of using vision enhancement.,
-configuration.mekanism.gear.meka_suit.gravitational_vibrations.tooltip,Should the Gravitational Modulation unit give off vibrations that can be detected by Sculk Sensors and Shriekers when in use.,
-configuration.mekanism.gear.meka_suit.knockback_resistance.tooltip,Knockback resistance value of the MekaSuit.,
-configuration.mekanism.gear.meka_suit.tooltip,Settings for configuring the MekaSuit,
-configuration.mekanism.gear.meka_tool.attack_speed.tooltip,Attack speed of the Meka-Tool.,
-configuration.mekanism.gear.meka_tool.axe.tooltip,"Cost in Joules of using the Meka-Tool as an axe for stripping logs, scraping, or removing wax.",
-configuration.mekanism.gear.meka_tool.capacity.tooltip,Energy capacity (Joules) of the Meka-Tool without any installed upgrades. Quadratically scaled by upgrades.,
-configuration.mekanism.gear.meka_tool.charge_rate.tooltip,Amount (joules) of energy the Meka-Tool can accept per tick. Quadratically scaled by upgrades.,
-configuration.mekanism.gear.meka_tool.damage.tooltip,Base bonus damage applied by the Meka-Tool without using any energy.,
-configuration.mekanism.gear.meka_tool.efficiency.tooltip,Efficiency of the Meka-Tool with energy but without any upgrades.,
-configuration.mekanism.gear.meka_tool.energy_usage.base.tooltip,Base energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor),
-configuration.mekanism.gear.meka_tool.energy_usage.silk.tooltip,Silk touch energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor),
-configuration.mekanism.gear.meka_tool.energy_usage.teleport.tooltip,Cost in Joules of using the Meka-Tool to teleport 10 blocks.,
-configuration.mekanism.gear.meka_tool.energy_usage.tooltip,Settings for configuring the Meka-Tool's Energy Usage,
-configuration.mekanism.gear.meka_tool.energy_usage.weapon.tooltip,Cost in Joules of using the Meka-Tool to deal 4 units of damage.,
-configuration.mekanism.gear.meka_tool.extended_vein.tooltip,"Enable the 'Extended Vein Mining' mode for the Meka-Tool. Allows vein mining everything, instead of being limited to just ores and logs.",
-configuration.mekanism.gear.meka_tool.hoe.tooltip,Cost in Joules of using the Meka-Tool as a hoe.,
-configuration.mekanism.gear.meka_tool.shear.block.tooltip,Cost in Joules of using the Meka-Tool to carefully shear and trim blocks.,
-configuration.mekanism.gear.meka_tool.shear.entity.tooltip,Cost in Joules of using the Meka-Tool to shear entities.,
-configuration.mekanism.gear.meka_tool.shovel.tooltip,Cost in Joules of using the Meka-Tool as a shovel for making paths and dowsing campfires.,
-configuration.mekanism.gear.meka_tool.teleportation_distance.tooltip,Maximum distance a player can teleport with the Meka-Tool.,
-configuration.mekanism.gear.meka_tool.tooltip,Settings for configuring the Meka-Tool,
-configuration.mekanism.general.boiler.capacity.cooled_coolant.tooltip,Amount of steam (mB) that each block of the boiler's cooled coolant portion contributes to the volume. Max = volume * cooledCoolantPerTank,
-configuration.mekanism.general.boiler.capacity.heated_coolant.tooltip,Amount of steam (mB) that each block of the boiler's heated coolant portion contributes to the volume. Max = volume * heatedCoolantPerTank,
-configuration.mekanism.general.boiler.capacity.steam.tooltip,Amount of steam (mB) that each block of the boiler's steam portion contributes to the volume. Max = volume * steamPerTank,
-configuration.mekanism.general.boiler.capacity.water.tooltip,Amount of fluid (mB) that each block of the boiler's water portion contributes to the volume. Max = volume * waterPerTank,
-configuration.mekanism.general.cardboard.mod_blacklist.tooltip,"Any modids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: [""mekanism""]",
-configuration.mekanism.general.dynamic_tank.capacity.chemical.tooltip,Amount of chemical (mB) that each block of the dynamic tank contributes to the volume. Total Chemical Capacity = volume * chemicalPerTank,
-configuration.mekanism.general.dynamic_tank.capacity.fluid.tooltip,Amount of fluid (mB) that each block of the dynamic tank contributes to the volume. Total Fluid Capacity = volume * fluidPerTank,
-configuration.mekanism.general.energy_conversion.blacklist.fluxnetworks.tooltip,Disables Flux Networks' higher throughput Forge Energy (FE/RF) power integration. Note: Blacklisting Forge Energy also disables this.,
-configuration.mekanism.general.energy_conversion.blacklist.grandpower.tooltip,Disables Grand Power's higher throughput Forge Energy (FE/RF) power integration. Note: Blacklisting Forge Energy also disables this.,
-configuration.mekanism.general.energy_conversion.forge_energy.tooltip,Conversion multiplier from Forge Energy to Joules (FE * feConversionRate = Joules),
-configuration.mekanism.general.misc.alpha_warning.tooltip,Display Mekanism's alpha warning when joining the game if Mekanism is currently in alpha. Dev mode only setting.,
-configuration.mekanism.general.misc.chunkloading.tooltip,"Controls whether Mekanism allows players to load chunks. If this is disabled, neither the Anchor Upgrade nor the Dimensional Stabilizer will provide any functionality.",
-configuration.mekanism.general.misc.deactivation_delay.block.tooltip,How many ticks must pass until a block's active state is synced with the client when the block stops being active. This prevents rapid state changes that can cause lag. Note: Mekanism's blocks always sync immediately when they go from inactive to active; this only controls the time it takes to go from active to inactive.,
-configuration.mekanism.general.misc.upgrade_multiplier.tooltip,Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).,
-configuration.mekanism.general.oredictionificator.tooltip,Settings for configuring the Oredictionificator,
-configuration.mekanism.general.oredictionificator.valid_filters.item.tooltip,The list of valid tag prefixes for the Oredictionificator. Note: It is highly recommended to only include well known/defined tag prefixes otherwise it is very easy to potentially add accidental conversions for things that are not actually equivalent.,
-configuration.mekanism.general.pump.infinite_fluids.tooltip,If enabled and the waterSourceConversion game rule is enabled makes Water blocks be removed from the world on pump. Similarly behavior for the lavaSourceConversion game rule and Lava,
-configuration.mekanism.general.qe.buffer.chemical.tooltip,Maximum chemical buffer (mb) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is the ultimate chemical tank's capacity.,
-configuration.mekanism.general.qe.buffer.energy.tooltip,Maximum energy buffer (Joules) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is the ultimate energy cube's capacity.,
-configuration.mekanism.general.qe.buffer.fluid.tooltip,Maximum fluid buffer (mb) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is the ultimate fluid tank's capacity.,
-configuration.mekanism.general.qe.tooltip,Settings for configuring Quantum Entangloporters,
-configuration.mekanism.general.radiation.barrel.decay.amount.tooltip,Number of mB of chemical that decay every radioactiveWasteBarrelProcessTicks ticks when stored in a Radioactive Waste Barrel. Set to zero to disable decay all together. (Chemicals in the mekanism:waste_barrel_decay_blacklist tag will not decay).,
-configuration.mekanism.general.radiation.barrel.decay.frequency.tooltip,Number of ticks required for radioactive chemical stored in a Radioactive Waste Barrel to decay radioactiveWasteBarrelDecayAmount mB.,
-configuration.mekanism.general.security.ops_bypass.tooltip,If this is enabled then players with the 'mekanism.bypass_security' permission (default for ops) can bypass block and item security restrictions.,
-configuration.mekanism.general.security.tooltip,Settings for configuring Mekanism's security system,
-configuration.mekanism.general.sps.capacity.output.tooltip,Amount of antimatter in mB that the SPS can store.,
-configuration.mekanism.general.sps.energy_per.tooltip,Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).,
-configuration.mekanism.general.tep.capacity.input.tooltip,Amount of fluid (mB) that each block of the evaporation plant contributes to the input tank capacity. Max = volume * fluidPerTank,
-configuration.mekanism.projecte.data_component_processor.contents.tooltip,Increases the EMC value of any Mekanism items by the value of the stored or installed contents,
-configuration.mekanism.projecte.mapper.item_chemical_to_item.tooltip,"Maps Mekanism Machine recipes that go from item, chemical to item. (Compressing, Purifying, Injecting, Metallurgic Infusing, Painting, Nucleosynthesizing)",
-configuration.mekanism.projecte.mapper.item_to_chemical.tooltip,"Maps Mekanism item stack to chemical recipes. (Chemical conversion, Oxidizing, Pigment Extracting)",
-configuration.mekanism.projecte.mapper.item_to_item.button,Edit Mekanism Item To Item,
-configuration.mekanism.projecte.mapper.item_to_item.tooltip,"Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)",
-configuration.mekanism.projecte.mapper.pressurized_reaction.tooltip,Maps Mekanism pressurized reaction recipes. (Disabled by default),
-configuration.mekanism.projecte.mapper.sawing.tooltip,"Maps Mekanism sawmill recipes. (Disabled by default, due to causing various EMC values to be removed pertaining to charcoal/wood)",
-configuration.mekanism.startup.gear.tooltip,Settings for configuring Mekanism's gear settings. This config is not synced automatically between client and server. It is highly recommended to ensure you are using the same values for this config on the server and client.,
-configuration.mekanism.storage.sps_port.energy.tooltip,Base energy storage in Joules of: SPS Port. Also defines max output rate.,
-configuration.mekanism.tier.transmitter.fluid.ultimate.rate.tooltip,Pump rate of Ultimate mechanical pipes in mB/t.,
-configuration.mekanism.tier.transmitter.fluid.ultimate.storage.tooltip,Capacity of Ultimate mechanical pipes in mB.,
-configuration.mekanism.tier.transmitter.heat.advanced.heat_capacity.tooltip,Heat capacity of Advanced thermodynamic conductors.,
-configuration.mekanism.tier.transmitter.heat.advanced.insulation.tooltip,Insulation value of Advanced thermodynamic conductor.,
-configuration.mekanism.tier.transmitter.heat.advanced.inverse_conduction.tooltip,Conduction value of Advanced thermodynamic conductors.,
-configuration.mekanism.tier.transmitter.heat.basic.heat_capacity.tooltip,Heat capacity of Basic thermodynamic conductors.,
-configuration.mekanism.tier.transmitter.heat.basic.insulation.tooltip,Insulation value of Basic thermodynamic conductor.,
-configuration.mekanism.tier.transmitter.heat.basic.inverse_conduction.tooltip,Conduction value of Basic thermodynamic conductors.,
-configuration.mekanism.tier.transmitter.heat.elite.heat_capacity.tooltip,Heat capacity of Elite thermodynamic conductors.,
-configuration.mekanism.tier.transmitter.heat.elite.insulation.tooltip,Insulation value of Elite thermodynamic conductor.,
-configuration.mekanism.tier.transmitter.heat.elite.inverse_conduction.tooltip,Conduction value of Elite thermodynamic conductors.,
-configuration.mekanism.tier.transmitter.heat.ultimate.heat_capacity.tooltip,Heat capacity of Ultimate thermodynamic conductors.,
-configuration.mekanism.tier.transmitter.heat.ultimate.insulation.tooltip,Insulation value of Ultimate thermodynamic conductor.,
-configuration.mekanism.tier.transmitter.heat.ultimate.inverse_conduction.tooltip,Conduction value of Ultimate thermodynamic conductors.,
-configuration.mekanism.tier.transmitter.item.advanced.pull_rate.tooltip,Item throughput rate of Advanced logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.,
-configuration.mekanism.tier.transmitter.item.basic.pull_rate.tooltip,Item throughput rate of Basic logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.,
-configuration.mekanism.tier.transmitter.item.elite.pull_rate.tooltip,Item throughput rate of Elite logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.,
-configuration.mekanism.tier.transmitter.item.ultimate.pull_rate.tooltip,Item throughput rate of Ultimate logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.,
-configuration.mekanism.usage.teleporter.distance.tooltip,Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).,
-configuration.mekanism.world.retrogen.tooltip,Allows chunks to retrogen Mekanism salt and ore blocks. In general when enabling this you also want to bump the userWorldGenVersion.,
-configuration.mekanism.world.world_version.tooltip,Change this value to cause Mekanism to regen its ore in all loaded chunks that have a version lower than this.,
-constants.mekanism.recipe_warning,"Broken tags in Mekanism recipes detected, please check server logs for details. You will be missing some recipes and machines may not accept expected inputs.",
-conversion.mekanism.energy,Item to Energy,
-description.mekanism.boiler_casing,"A pressure-resistant, dense casing used in the creation of a Thermoelectric Boiler multiblock.",
-description.mekanism.boiler_valve,"A valve that can be placed on a Thermoelectric Boiler multiblock, allowing for the insertion of energy and water along with the extraction of produced steam.",
-description.mekanism.color_modulation_unit,Uses advanced holographic projectors to modulate the perceived color of the MekaSuit.,
-description.mekanism.diversion,- Controllable by redstone,
-description.mekanism.dosimeter_unit,Displays the user's current radiation dose in the HUD.,
-description.mekanism.dynamic_tank,"The casing used in the Dynamic Tank multiblock, a structure capable of storing great amounts of fluid and chemicals.",
-description.mekanism.dynamic_valve,"A valve that can be placed on a Dynamic Tank multiblock, allowing for fluids and chemicals to be inserted and extracted via external piping.",
-description.mekanism.elytra_unit,Applies an HDPE Reinforced Elytra to the MekaSuit.,
-description.mekanism.energized_smelter,A simple machine that serves as a Mekanism-based furnace that runs off of energy.,
-description.mekanism.formulaic_assemblicator,A machine that uses energy to rapidly craft items and blocks from Crafting Formulas. Doubles as an advanced crafting bench.,
-description.mekanism.geiger_unit,Displays the ambient radiation level in the HUD.,
-description.mekanism.induction_casing,A type of energy-resistant casing used in the creation of an Energized Induction Matrix multiblock.,
-description.mekanism.induction_cell,A highly conductive energy capacitor capable of storing massive amounts of energy in a single block. Housed in an Energized Induction Matrix to expand the multiblock's energy storage.,
-description.mekanism.induction_port,"A port that can be placed on an Energized Induction Matrix multiblock, allowing for energy to be inserted from and output to external cabling.",
-description.mekanism.induction_provider,"An advanced complex of coolant systems, conductors and transformers capable of expanding the Energized Induction Matrix's maximum rate of energy transfer.",
-description.mekanism.jetpack_unit,Applies a hydrogen-fueled jetpack to the MekaSuit.,
-description.mekanism.logistical_sorter,"A filter-based, advanced sorting machine that can auto-eject specified items out of and into adjacent inventories and Logistical Transporters.",
-description.mekanism.modification_station,An advanced workbench capable of installing and removing modules from modular equipment (i.e. MekaSuit!),
-description.mekanism.nutritional_injection_unit,Automatically feeds the player Nutritional Paste when hungry.,
-description.mekanism.qio_drive_array,The foundation of any Quantum Item Orchestration system. QIO Drives are stored here.,
-description.mekanism.qio_exporter,A QIO-linked item export unit. Place on a block and export contents from your QIO system to the block.,
-description.mekanism.qio_importer,A QIO-linked item import unit. Place on a block and import its contents to your QIO system.,
-description.mekanism.qio_redstone_adapter,A QIO-linked redstone adapter. Use to monitor your QIO system's contents.,
-description.mekanism.radiation_shielding_unit,"Provides thick, radiation-proof metal plating to any MekaSuit armor piece.",
-description.mekanism.supercharged_coil,Used in Supercritical Phase Shifter multiblock to supply large quantities of energy. Must be attached to a SPS Port.,
-description.mekanism.teleporter_frame,"The frame used to construct the Teleporter multiblock, allowing a portal to be generated within the structure.",
-fml.menu.mods.info.description.mekanism,"Mekanism is a Minecraft add-on featuring high-tech machinery that can be used to create powerful tools, armor, and weapons.",
-gui.mekanism.modification.remove.tooltip,"Removes a single module, hold shift to remove all.",
-info.mekanism.jei.module_installation,"Using a Modification Station, modules can be installed on the various MekaSuit pieces and on the Meka-Tool.",
-qio.mekanism.search.focus.auto,Auto focus the QIO search bar when opening a dashboard.,
-qio.mekanism.search.focus.manual,Don't automatically focus the QIO search bar when opening a dashboard.,
-qio.mekanism.sort_mod_desc,Sort items by mod.,
-qio.mekanism.transfer.to_frequency,Prioritize moving items to the frequency when holding shift,
-qio.mekanism.transfer.to_window,Prioritize moving items to the crafting window when holding shift,
-sps.mekanism.invalid_disconnected_coil,"Couldn't form, found a coil without a connection to an SPS Port.",
-constants.mekanism.alpha_warning,"Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and various other issues that you can read more about %s.",
+_mekanism_force_utf8,﻿,﻿
+advancements.mekanism.advanced_qio_drive.description,Increase the storage bandwidth of your QIO Drive,QIOドライブの帯域幅を増やす
+advancements.mekanism.cleaning_gauges.description,Use a Gauge Dropper on any Gauge in a Mekanism GUI,Mekanism GUI の任意のゲージに対して計量スポイトを使用する
+advancements.mekanism.configuration_copying.title,"Ctrl+C, Ctrl+V","Ctrl+C, Ctrl+V"
+command.mekanism.testrules,"Enabled keepInventory, and disabled doMobSpawning, doDaylightCycle, doWeatherCycle and mobGriefing!",keepInventoryを有効にし、doMobSpawing、doDaylightCycle、doWeatherCycle、mobGriefingを無効にしました。
+configuration.mekanism.client.accessibility.tooltip,"Settings for configuring Accessibility settings provided by Mekanism. Note: Some settings such as HUD scale, may be located throughout the rest of this config.",Mekanismが提供するアクセシビリティ設定を構成するための設定。注：HUDスケールなどの一部の設定はこの設定の他の場所に配置されている可能性があります。
+configuration.mekanism.client.hud.avoid_subtitles.tooltip,Shift the HUD elements when sound subtitles are being displayed to avoid overlap,サウンドサブタイトルが表示されているときにHUD要素をシフトして重複を回避する
+configuration.mekanism.client.hud.color.danger.tooltip,Color (RGB) of danger HUD elements used by MekaSuit.,メカスーツが使用する危険HUD要素の色（RGB）
+configuration.mekanism.client.hud.color.tooltip,Color (RGB) of HUD used by MekaSuit.,メカスーツが使用するHUDの色（RGB）
+configuration.mekanism.client.hud.color.warning.tooltip,Color (RGB) of warning HUD elements used by MekaSuit.,メカスーツが使用する警告HUD要素の色（RGB）
+configuration.mekanism.client.hud.enabled.tooltip,"Enable a HUD that displays information about equipped Mekanism items, and displays additional information when wearing a MekaSuit Helmet.",装備されたMekanism アイテムに関する情報を表示するHUD を有効にし、メカスーツ ヘルメットを装着している場合は追加情報を表示します。
+configuration.mekanism.client.hud.jitter.tooltip,"Visual jitter of the MekaSuit HUD, seen when moving the player's head. Higher values increases the amount of jitter.",プレイヤーの頭を動かしたときに見えるメカスーツHUDの視覚的なジッター。値が高いほどジッターの量が増えます。
+configuration.mekanism.client.hud.tooltip,Settings for configuring Mekanism's HUD,Mekanismの HUD を構成するための設定
+configuration.mekanism.client.last_window_positions.pinned.tooltip,"Determines whether this window is pinned, and should open automatically when the GUI is reopened.",このウィンドウがピン留めされているかどうかを決定し、GUIが再度開かれたときに自動的に開く必要があります。
+configuration.mekanism.client.particle.tooltip,Settings for configuring Mekanism's Particles,Mekanismのパーティクルを構成するための設定
+configuration.mekanism.client.qio.auto_focus.tooltip,Determines whether the search bar is automatically focused when a QIO Dashboard is opened.,QIOダッシュボードが開かれたときに検索バーが自動的にフォーカスされるかどうかを決定します。
+configuration.mekanism.client.qio.rejects.destination.tooltip,Determines if items in a QIO crafting window should be moved to the player's inventory or the frequency first when replacing the items in the crafting grid using a recipe viewer.,レシピビューアーを使用してクラフティンググリッド内のアイテムを置き換えるときに、QIOクラフティングウィンドウ内のアイテムをプレイヤーのインベントリに移動するか、周波数に移動するか、どちらを優先するかを決定します。
+configuration.mekanism.client.qio.slots.x.tooltip,Number of slots to view horizontally on a QIO Dashboard.,QIOダッシュボードで水平方向に表示するスロット数。
+configuration.mekanism.client.qio.slots.y.tooltip,Number of slots to view vertically on a QIO Dashboard.,QIOダッシュボード上で垂直方向に表示するスロット数。
+configuration.mekanism.client.qio.sort.direction.tooltip,Sorting direction when viewing items in a QIO Dashboard.,QIOダッシュボード でアイテムを表示するときのソート方向。
+configuration.mekanism.client.qio.sort.type.tooltip,Sorting strategy when viewing items in a QIO Dashboard.,QIOダッシュボード でアイテムを表示するときのソート戦略。
+configuration.mekanism.client.qio.tooltip,Settings for configuring Mekanism's QIO,Mekanismの QIOを構成するための設定
+configuration.mekanism.client.render_range.block_entity.tooltip,"Range at which Block Entity Renderers added by Mekanism can render at, for example the contents of multiblocks. Vanilla defaults the rendering range for BERs to 64 for most blocks (for example chests), but uses a range of 256 for blocks like beacons and end gateways. Lowering this will likely increase your performance, at the cost of multiblock contents and wind generators 'popping' in",Mekanismによって追加されたブロックエンティティレンダラーがレンダリング できる範囲。例えば、マルチブロックの内容。バニラは、ほとんどのブロック（チェストなど）のBERのレンダリング範囲をデフォルトで64に設定しますが、ビーコンやエンドゲートウェイなどのブロックには256の範囲を使用します。これを下げると、マルチブロックの内容とウィンドジェネレーターが「ポップイン」するコストで、パフォーマンスが向上する可能性があります。
+configuration.mekanism.client.sounds.tooltip,Settings for configuring Mekanism's Sounds,Mekanismのサウンドを構成するための設定
+configuration.mekanism.client.transmitters.opaque.tooltip,"If true, renders sides for Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors instead of rendering their contents. If transmitters are causing you fps issues, this should hopefully help.",true の場合、Universal Cables、Mechanical Pipes、Pressurized Tubes、ロジスティカルトランスポーター、および Thermodynamic Conductorsの内容をレンダリングする代わりに、側面をレンダリングします。トランスミッターがfpsの問題を引き起こしている場合、これは役に立つはずです。
+configuration.mekanism.common.copy_block_data.tooltip,Determines whether machine configuration data is copied when using middle click. If this is set to false no data will be copied and the default instance of the stack will be returned.,中クリック使用時にマシン構成データをコピーするかどうかを決定します。これがfalseに設定されている場合、データはコピーされず、スタックのデフォルトインスタンスが返されます。
+configuration.mekanism.common.decay_timers.tooltip,Display the time it will take for radiation to decay when readings are above safe levels. Set this to false on the client side to disable MekaSuit Geiger and Dosimeter Unit timers. Set this to false on the server side to disable handheld Geiger Counter and Dosimeter timers.,放射線量が安全レベルを超えている場合に放射線が減衰するまでの時間を表示します。クライアント側をfalseに設定して、メカスーツガイガーおよびドーズメーターユニットタイマーを無効にします。サーバー側をfalseに設定して、ハンドヘルドガイガーカウンターおよびドーズメータータイマーを無効にします。
+configuration.mekanism.common.unit.energy.tooltip,Displayed energy type in Mekanism GUIs (client) and network reader readings (server).,Mekanism GUI（クライアント）およびネットワークリーダーの読み取り値（サーバー）に表示されるエネルギータイプ。
+configuration.mekanism.common.unit.temperature.tooltip,Displayed temperature unit in Mekanism GUIs (client) and network reader readings (server).,Mekanism GUI（クライアント）およびネットワークリーダーの読み取り値（サーバー）に表示される温度単位。
+configuration.mekanism.gear.disassembler.damage.max.tooltip,The bonus attack damage of the Atomic Disassembler when it has at least energyUsageWeapon power stored. (Value is in number of half hearts),少なくともenergyUsageWeapon電力が保存されている場合のアトミック分解機のボーナス攻撃ダメージ。（値は半心の数）
+configuration.mekanism.gear.disassembler.mining_count.tooltip,The max number of blocks the Atomic Disassembler can mine using the 'Vein Mining' mode. Requires veinMining to be enabled.,「採掘モード」を使用してアトミック分解機が採掘できるブロックの最大数。veinMiningが有効になっている必要があります。
+configuration.mekanism.gear.free_runners.fall.energy.tooltip,Energy cost multiplier in Joules for reducing fall damage with free runners. Energy cost is: FallDamage * fallEnergyCost. (1 FallDamage is 1 half heart),フリーランナーで落下ダメージを軽減するためのジュール単位のエネルギーコスト乗数。エネルギーコスト：FallDamage * fallEnergyCost。（1 FallDamageは1半心）
+configuration.mekanism.gear.meka_suit.damage_absorption.unspecified.tooltip,Percent of damage taken from other non explicitly supported damage types that don't bypass armor when the MekaSuit has enough power and a full suit is equipped. Note: Support for specific damage types can be added by adding an entry for the damage type in the mekanism:mekasuit_absorption data map.,メカスーツに十分な電力があり、完全なスーツが装備されている場合に、鎧をバイパスしない、明示的にサポートされていない他のダメージタイプから受けるダメージのパーセンテージ。注：mekanism:mekasuit_absorptionデータマップのダメージタイプのエントリを追加することにより、特定のダメージタイプのサポートを追加できます。
+configuration.mekanism.gear.meka_suit.energy_usage.damage.tooltip,Energy usage (Joules) of MekaSuit per unit of damage applied.,適用されたダメージの単位あたりのメカスーツのエネルギー使用量（ジュール）。
+configuration.mekanism.gear.meka_suit.energy_usage.elytra.tooltip,Energy usage (Joules) per second of the MekaSuit when flying with the Elytra Unit.,Elytra Unitで飛行するときのメカスーツの1秒あたりのエネルギー使用量（ジュール）。
+configuration.mekanism.gear.meka_suit.energy_usage.fall.tooltip,Energy cost multiplier in Joules for reducing fall damage with MekaSuit Boots. Energy cost is: FallDamage * fall. (1 FallDamage is 1 half heart),メカスーツブーツで落下ダメージを軽減するためのジュール単位のエネルギーコスト乗数。エネルギーコスト：FallDamage *秋。（1 FallDamageは1半心）
+configuration.mekanism.gear.meka_suit.energy_usage.flight.tooltip,Energy usage (Joules) of MekaSuit per tick when flying via Gravitational Modulation.,Gravitational Modulationで飛行するときのティックあたりのメカスーツのエネルギー使用量（ジュール）。
+configuration.mekanism.gear.meka_suit.energy_usage.food.tooltip,Energy usage (Joules) of MekaSuit per half-food of nutritional injection.,栄養注射の半食あたりのメカスーツのエネルギー使用量（ジュール）。
+configuration.mekanism.gear.meka_suit.energy_usage.jump.tooltip,Energy usage (Joules) of MekaSuit when adding 0.1 to jump motion.,ジャンプモーションに0.1を追加するときのメカスーツのエネルギー使用量（ジュール）。
+configuration.mekanism.gear.meka_suit.energy_usage.magic.tooltip,Energy cost multiplier in Joules for reducing magic damage via the inhalation purification unit. Energy cost is: MagicDamage * magicReduce. (1 MagicDamage is 1 half heart).,吸入浄化ユニット経由で魔法ダメージを軽減するためのジュール単位のエネルギーコスト乗数。エネルギーコスト：MagicDamage * magicReduce。（1 MagicDamageは1半心）。
+configuration.mekanism.gear.meka_suit.energy_usage.magnet.tooltip,Energy usage (Joules) of MekaSuit per tick of attracting a single item.,単一のアイテムを引き付ける1ティックあたりのメカスーツのエネルギー使用量（ジュール）。
+configuration.mekanism.gear.meka_suit.energy_usage.potion.tooltip,Energy usage (Joules) of MekaSuit when lessening a potion effect.,ポーション効果を軽減するときのメカスーツのエネルギー使用量（ジュール）。
+configuration.mekanism.gear.meka_suit.energy_usage.sprint.tooltip,Energy usage (Joules) of MekaSuit when adding 0.1 to sprint motion.,スプリントモーションに0.1を追加するときのメカスーツのエネルギー使用量（ジュール）。
+configuration.mekanism.gear.meka_suit.energy_usage.swim.tooltip,Energy usage (Joules) of MekaSuit per tick of using hydrostatic repulsion.,静水圧反発を使用する1ティックあたりのメカスーツのエネルギー使用量（ジュール）。
+configuration.mekanism.gear.meka_suit.energy_usage.tooltip,Settings for configuring the MekaSuit's Energy Usage,メカスーツのエネルギー使用量を構成するための設定
+configuration.mekanism.gear.meka_suit.energy_usage.vision.tooltip,Energy usage (Joules) of MekaSuit per tick of using vision enhancement.,ビジョン強化を使用する1ティックあたりのメカスーツのエネルギー使用量（ジュール）。
+configuration.mekanism.gear.meka_suit.gravitational_vibrations.tooltip,Should the Gravitational Modulation unit give off vibrations that can be detected by Sculk Sensors and Shriekers when in use.,重力変調ユニットが使用中にスカルクセンサーと悲鳴者によって検出できる振動を放出すべき。
+configuration.mekanism.gear.meka_suit.knockback_resistance.tooltip,Knockback resistance value of the MekaSuit.,メカスーツのノックバック耐性値。
+configuration.mekanism.gear.meka_suit.tooltip,Settings for configuring the MekaSuit,メカスーツを構成するための設定
+configuration.mekanism.gear.meka_tool.attack_speed.tooltip,Attack speed of the Meka-Tool.,メカツールの攻撃速度。
+configuration.mekanism.gear.meka_tool.axe.tooltip,"Cost in Joules of using the Meka-Tool as an axe for stripping logs, scraping, or removing wax.",ログのストリップ、スクレーピング、またはワックスの除去にメカツールを斧として使用するためのジュール単位のコスト。
+configuration.mekanism.gear.meka_tool.capacity.tooltip,Energy capacity (Joules) of the Meka-Tool without any installed upgrades. Quadratically scaled by upgrades.,インストール済みアップグレードなしのメカツールのエネルギー容量（ジュール）。アップグレードによって2次的にスケーリングされます。
+configuration.mekanism.gear.meka_tool.charge_rate.tooltip,Amount (joules) of energy the Meka-Tool can accept per tick. Quadratically scaled by upgrades.,メカツールが1ティックあたり受け入れることができるエネルギーの量（ジュール）。アップグレードによって2次的にスケーリングされます。
+configuration.mekanism.gear.meka_tool.damage.tooltip,Base bonus damage applied by the Meka-Tool without using any energy.,エネルギーを使用せずにメカツールによって適用されるベースボーナスダメージ。
+configuration.mekanism.gear.meka_tool.efficiency.tooltip,Efficiency of the Meka-Tool with energy but without any upgrades.,エネルギーを使用していますがアップグレードなしのメカツール効率。
+configuration.mekanism.gear.meka_tool.energy_usage.base.tooltip,Base energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor),メカツール基本エネルギー（ジュール）使用量。（速度係数で乗算される）
+configuration.mekanism.gear.meka_tool.energy_usage.silk.tooltip,Silk touch energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor),メカツール絹のタッチエネルギー（ジュール）使用量。（速度係数で乗算される）
+configuration.mekanism.gear.meka_tool.energy_usage.teleport.tooltip,Cost in Joules of using the Meka-Tool to teleport 10 blocks.,メカツールを使用して10ブロック テレポートするためのジュール単位のコスト。
+configuration.mekanism.gear.meka_tool.energy_usage.tooltip,Settings for configuring the Meka-Tool's Energy Usage,メカツール のエネルギー使用量を構成するための設定
+configuration.mekanism.gear.meka_tool.energy_usage.weapon.tooltip,Cost in Joules of using the Meka-Tool to deal 4 units of damage.,メカツールを使用して4ユニットのダメージを与えるためのジュール単位のコスト。
+configuration.mekanism.gear.meka_tool.extended_vein.tooltip,"Enable the 'Extended Vein Mining' mode for the Meka-Tool. Allows vein mining everything, instead of being limited to just ores and logs.",メカツール の「拡張採掘モード」を有効にします。鉱石とログだけに限定されるのではなく、すべてを採掘できます。
+configuration.mekanism.gear.meka_tool.hoe.tooltip,Cost in Joules of using the Meka-Tool as a hoe.,メカツールを鍬として使用するためのジュール単位のコスト。
+configuration.mekanism.gear.meka_tool.shear.block.tooltip,Cost in Joules of using the Meka-Tool to carefully shear and trim blocks.,メカツール を使用してブロックを慎重に剪定およびトリミングするためのジュール単位のコスト。
+configuration.mekanism.gear.meka_tool.shear.entity.tooltip,Cost in Joules of using the Meka-Tool to shear entities.,メカツール を使用してエンティティを剪定するためのジュール単位のコスト。
+configuration.mekanism.gear.meka_tool.shovel.tooltip,Cost in Joules of using the Meka-Tool as a shovel for making paths and dowsing campfires.,パスを作成し、キャンプファイアをダウジングするためのメカツール をスコップとして使用するためのジュール単位のコスト。
+configuration.mekanism.gear.meka_tool.teleportation_distance.tooltip,Maximum distance a player can teleport with the Meka-Tool.,プレイヤーがメカツール でテレポートできる最大距離。
+configuration.mekanism.gear.meka_tool.tooltip,Settings for configuring the Meka-Tool,メカツール を構成するための設定
+configuration.mekanism.general.boiler.capacity.cooled_coolant.tooltip,Amount of steam (mB) that each block of the boiler's cooled coolant portion contributes to the volume. Max = volume * cooledCoolantPerTank,ボイラーの冷却冷却液部分の各ブロックが体積に寄与する蒸気の量（mB）。最大=体積* cooledCoolantPerTank
+configuration.mekanism.general.boiler.capacity.heated_coolant.tooltip,Amount of steam (mB) that each block of the boiler's heated coolant portion contributes to the volume. Max = volume * heatedCoolantPerTank,ボイラーの加熱冷却液部分の各ブロックが体積に寄与する蒸気の量（mB）。最大=体積* heatedCoolantPerTank
+configuration.mekanism.general.boiler.capacity.steam.tooltip,Amount of steam (mB) that each block of the boiler's steam portion contributes to the volume. Max = volume * steamPerTank,ボイラーの蒸気部分の各ブロックが体積に寄与する蒸気の量（mB）。最大=体積* steamPerTank
+configuration.mekanism.general.boiler.capacity.water.tooltip,Amount of fluid (mB) that each block of the boiler's water portion contributes to the volume. Max = volume * waterPerTank,ボイラーの水部分の各ブロックが体積に寄与する流体の量（mB）。最大=体積* waterPerTank
+configuration.mekanism.general.cardboard.mod_blacklist.tooltip,"Any modids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: [""mekanism""]","このリストに追加されたmodidsは、段ボール箱によって拾い上げられる可能性のあるブロックを持つことができません。例：[""mekanism""]"
+configuration.mekanism.general.dynamic_tank.capacity.chemical.tooltip,Amount of chemical (mB) that each block of the dynamic tank contributes to the volume. Total Chemical Capacity = volume * chemicalPerTank,ダイナミックタンクの各ブロックが体積に寄与する化学物質の量（mB）。総化学容量=体積* chemicalPerTank
+configuration.mekanism.general.dynamic_tank.capacity.fluid.tooltip,Amount of fluid (mB) that each block of the dynamic tank contributes to the volume. Total Fluid Capacity = volume * fluidPerTank,ダイナミックタンクの各ブロックが体積に寄与する流体の量（mB）。総流体容量=体積* fluidPerTank
+configuration.mekanism.general.energy_conversion.blacklist.fluxnetworks.tooltip,Disables Flux Networks' higher throughput Forge Energy (FE/RF) power integration. Note: Blacklisting Forge Energy also disables this.,Flux Networks のより高いスループット Forge Energy（FE/RF）パワーインテグレーションを無効にします。注：Forge Energyをブラックリストに登録すると、これも無効になります。
+configuration.mekanism.general.energy_conversion.blacklist.grandpower.tooltip,Disables Grand Power's higher throughput Forge Energy (FE/RF) power integration. Note: Blacklisting Forge Energy also disables this.,Grand Power のより高いスループット Forge Energy（FE/RF）パワーインテグレーションを無効にします。注：Forge Energyをブラックリストに登録すると、これも無効になります。
+configuration.mekanism.general.energy_conversion.forge_energy.tooltip,Conversion multiplier from Forge Energy to Joules (FE * feConversionRate = Joules),Forge EnergyからJoulesへの変換乗数（FE * feConversionRate = Joules）
+configuration.mekanism.general.misc.alpha_warning.tooltip,Display Mekanism's alpha warning when joining the game if Mekanism is currently in alpha. Dev mode only setting.,Mekanismが現在アルファ版の場合、ゲームに参加するときMekanismのアルファ警告を表示します。開発者モードのみの設定。
+configuration.mekanism.general.misc.chunkloading.tooltip,"Controls whether Mekanism allows players to load chunks. If this is disabled, neither the Anchor Upgrade nor the Dimensional Stabilizer will provide any functionality.",Mekanismがプレイヤーがチャンクをロードすることを許可するかどうかを制御します。これを無効にすると、アンカーアップグレードも次元安定装置も機能を提供しません。
+configuration.mekanism.general.misc.deactivation_delay.block.tooltip,How many ticks must pass until a block's active state is synced with the client when the block stops being active. This prevents rapid state changes that can cause lag. Note: Mekanism's blocks always sync immediately when they go from inactive to active; this only controls the time it takes to go from active to inactive.,ブロックが非アクティブになったときにブロックのアクティブ状態がクライアントと同期されるまで、何ティック経過する必要があります。これは、ラグを引き起こす可能性のある急速な状態変化を防ぎます。注：Mekanismのブロックは、非アクティブからアクティブに変わるときに常に即座に同期されます。これは、アクティブから非アクティブに変わるのにかかる時間のみを制御します。
+configuration.mekanism.general.misc.upgrade_multiplier.tooltip,Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).,アップグレードでマシンパフォーマンスを機能させるための基本係数-UpgradeModifier *（UpgradesInstalled / UpgradesPossible）。
+configuration.mekanism.general.oredictionificator.tooltip,Settings for configuring the Oredictionificator,Oredictionificatorを構成するための設定
+configuration.mekanism.general.oredictionificator.valid_filters.item.tooltip,The list of valid tag prefixes for the Oredictionificator. Note: It is highly recommended to only include well known/defined tag prefixes otherwise it is very easy to potentially add accidental conversions for things that are not actually equivalent.,Oredictionificatorの有効なタグプレフィックスのリスト。注：よく知られている/定義されたタグプレフィックスのみを含めることを強くお勧めします。そうしないと、実際には同等ではないものの誤った変換を追加する可能性が非常に高くなります。
+configuration.mekanism.general.pump.infinite_fluids.tooltip,If enabled and the waterSourceConversion game rule is enabled makes Water blocks be removed from the world on pump. Similarly behavior for the lavaSourceConversion game rule and Lava,有効になっていて、waterSourceConversionゲームルールが有効になっている場合、ポンプで水ブロックをワールドから削除します。lavaSourceConversionゲームルールとLavaの同様の動作
+configuration.mekanism.general.qe.buffer.chemical.tooltip,Maximum chemical buffer (mb) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is the ultimate chemical tank's capacity.,Entangoloporter周波数の最大化学バッファ（mb）-つまり、周波数あたりのティックあたりの最大転送。デフォルトは究極の化学タンクの容量です。
+configuration.mekanism.general.qe.buffer.energy.tooltip,Maximum energy buffer (Joules) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is the ultimate energy cube's capacity.,Entangoloporter周波数の最大エネルギーバッファ（ジュール）-つまり、周波数あたりのティックあたりの最大転送。デフォルトは究極のエネルギーキューブの容量です。
+configuration.mekanism.general.qe.buffer.fluid.tooltip,Maximum fluid buffer (mb) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is the ultimate fluid tank's capacity.,Entangoloporter周波数の最大流体バッファ（mb）-つまり、周波数あたりのティックあたりの最大転送。デフォルトは究極の流体タンクの容量です。
+configuration.mekanism.general.qe.tooltip,Settings for configuring Quantum Entangloporters,量子もつれポーターを構成するための設定
+configuration.mekanism.general.radiation.barrel.decay.amount.tooltip,Number of mB of chemical that decay every radioactiveWasteBarrelProcessTicks ticks when stored in a Radioactive Waste Barrel. Set to zero to disable decay all together. (Chemicals in the mekanism:waste_barrel_decay_blacklist tag will not decay).,放射性廃棄物バレルに保存されている場合、radioactiveWasteBarrelProcessTicksティックごとに減衰する化学物質のmB数。減衰を完全に無効にするには、ゼロに設定します。（mekanism:waste_barrel_decay_blacklistタグ内の化学物質は減衰しません）。
+configuration.mekanism.general.radiation.barrel.decay.frequency.tooltip,Number of ticks required for radioactive chemical stored in a Radioactive Waste Barrel to decay radioactiveWasteBarrelDecayAmount mB.,放射性廃棄物バレルに保存されている放射性化学物質がradioactiveWasteBarrelDecayAmount mB減衰するのに必要なティック数。
+configuration.mekanism.general.security.ops_bypass.tooltip,If this is enabled then players with the 'mekanism.bypass_security' permission (default for ops) can bypass block and item security restrictions.,これが有効になっている場合、「mekanism.bypass_security」権限を持つプレイヤー（デフォルトではops）はブロックおよびアイテムセキュリティ制限をバイパスできます。
+configuration.mekanism.general.security.tooltip,Settings for configuring Mekanism's security system,Mekanismのセキュリティシステムを構成するための設定
+configuration.mekanism.general.sps.capacity.output.tooltip,Amount of antimatter in mB that the SPS can store.,SPSが保存できるmB単位の反物質の量。
+configuration.mekanism.general.sps.energy_per.tooltip,Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).,1 mBの入力を処理するのに必要なエネルギー（inputPerAntimatter * energyPerInput =1 mBの反物質を生成するエネルギー）。
+configuration.mekanism.general.tep.capacity.input.tooltip,Amount of fluid (mB) that each block of the evaporation plant contributes to the input tank capacity. Max = volume * fluidPerTank,蒸発プラントの各ブロックが入力タンク容量に寄与する流体の量（mB）。最大=体積* fluidPerTank
+configuration.mekanism.projecte.data_component_processor.contents.tooltip,Increases the EMC value of any Mekanism items by the value of the stored or installed contents,保存されたまたはインストールされたコンテンツの値によって、Mekanismアイテムのいずれかの EMC値を増加させます
+configuration.mekanism.projecte.mapper.item_chemical_to_item.tooltip,"Maps Mekanism Machine recipes that go from item, chemical to item. (Compressing, Purifying, Injecting, Metallurgic Infusing, Painting, Nucleosynthesizing)",アイテム、化学から アイテムまで進むMekanism Machine レシピをマップします。（圧縮、浄化、注入、冶金注入、絵画、核合成）
+configuration.mekanism.projecte.mapper.item_to_chemical.tooltip,"Maps Mekanism item stack to chemical recipes. (Chemical conversion, Oxidizing, Pigment Extracting)",Mekanismアイテムスタック化学レシピをマップします。（化学変換、酸化、顔料抽出）
+configuration.mekanism.projecte.mapper.item_to_item.button,Edit Mekanism Item To Item,Mekanismアイテムをアイテムに編集
+configuration.mekanism.projecte.mapper.item_to_item.tooltip,"Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)",アイテムからアイテムに進むMekanism Machine レシピをマップします。（粉砕、濃縮、製錬）
+configuration.mekanism.projecte.mapper.pressurized_reaction.tooltip,Maps Mekanism pressurized reaction recipes. (Disabled by default),Mekanismの加圧反応レシピをマップします。（デフォルトでは無効）
+configuration.mekanism.projecte.mapper.sawing.tooltip,"Maps Mekanism sawmill recipes. (Disabled by default, due to causing various EMC values to be removed pertaining to charcoal/wood)",Mekanismの製材所レシピをマップします。（木炭/木に関連する様々なEMC値を削除するため、デフォルトでは無効）
+configuration.mekanism.startup.gear.tooltip,Settings for configuring Mekanism's gear settings. This config is not synced automatically between client and server. It is highly recommended to ensure you are using the same values for this config on the server and client.,Mekanismのギア設定を構成するための設定。この設定はクライアントとサーバー間で自動的に同期されません。サーバーとクライアントでこの設定に同じ値を使用していることを確認することを強くお勧めします。
+configuration.mekanism.storage.sps_port.energy.tooltip,Base energy storage in Joules of: SPS Port. Also defines max output rate.,次のジュール単位のベースエネルギーストレージ：SPSポート。また、最大出力レートを定義します。
+configuration.mekanism.tier.transmitter.fluid.ultimate.rate.tooltip,Pump rate of Ultimate mechanical pipes in mB/t.,最終的な機械パイプのポンプレート（mB/t）。
+configuration.mekanism.tier.transmitter.fluid.ultimate.storage.tooltip,Capacity of Ultimate mechanical pipes in mB.,最終的なメカニカルパイプの容量（mB）。
+configuration.mekanism.tier.transmitter.heat.advanced.heat_capacity.tooltip,Heat capacity of Advanced thermodynamic conductors.,高度な熱力学的導体の熱容量。
+configuration.mekanism.tier.transmitter.heat.advanced.insulation.tooltip,Insulation value of Advanced thermodynamic conductor.,高度な熱力学的導体の絶縁値。
+configuration.mekanism.tier.transmitter.heat.advanced.inverse_conduction.tooltip,Conduction value of Advanced thermodynamic conductors.,高度な熱力学的導体の伝導値。
+configuration.mekanism.tier.transmitter.heat.basic.heat_capacity.tooltip,Heat capacity of Basic thermodynamic conductors.,基本的な熱力学的導体の熱容量。
+configuration.mekanism.tier.transmitter.heat.basic.insulation.tooltip,Insulation value of Basic thermodynamic conductor.,基本的な熱力学的導体の絶縁値。
+configuration.mekanism.tier.transmitter.heat.basic.inverse_conduction.tooltip,Conduction value of Basic thermodynamic conductors.,基本的な熱力学的導体の伝導値。
+configuration.mekanism.tier.transmitter.heat.elite.heat_capacity.tooltip,Heat capacity of Elite thermodynamic conductors.,精英熱力学的導体の熱容量。
+configuration.mekanism.tier.transmitter.heat.elite.insulation.tooltip,Insulation value of Elite thermodynamic conductor.,精英熱力学的導体の絶縁値。
+configuration.mekanism.tier.transmitter.heat.elite.inverse_conduction.tooltip,Conduction value of Elite thermodynamic conductors.,精英熱力学的導体の伝導値。
+configuration.mekanism.tier.transmitter.heat.ultimate.heat_capacity.tooltip,Heat capacity of Ultimate thermodynamic conductors.,究極の熱力学的導体の熱容量。
+configuration.mekanism.tier.transmitter.heat.ultimate.insulation.tooltip,Insulation value of Ultimate thermodynamic conductor.,究極の熱力学的導体の絶縁値。
+configuration.mekanism.tier.transmitter.heat.ultimate.inverse_conduction.tooltip,Conduction value of Ultimate thermodynamic conductors.,究極の熱力学的導体の伝導値。
+configuration.mekanism.tier.transmitter.item.advanced.pull_rate.tooltip,Item throughput rate of Advanced logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.,高度なロジスティカルトランスポーターのアイテムスループットレート（アイテム/半秒）。この値は、目標ティックレートが20ティック/秒であると仮定しています。
+configuration.mekanism.tier.transmitter.item.basic.pull_rate.tooltip,Item throughput rate of Basic logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.,基本的なロジスティカルトランスポーターのアイテムスループットレート（アイテム/半秒）。この値は、目標ティックレートが20ティック/秒であると仮定しています。
+configuration.mekanism.tier.transmitter.item.elite.pull_rate.tooltip,Item throughput rate of Elite logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.,精英ロジスティカルトランスポーターのアイテムスループットレート（アイテム/半秒）。この値は、目標ティックレートが20ティック/秒であると仮定しています。
+configuration.mekanism.tier.transmitter.item.ultimate.pull_rate.tooltip,Item throughput rate of Ultimate logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.,究極のロジスティカルトランスポーターのアイテムスループットレート（アイテム/半秒）。この値は、目標ティックレートが20ティック/秒であると仮定しています。
+configuration.mekanism.usage.teleporter.distance.tooltip,Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).,テレポーション中に移動した距離の単位あたりのジュール-sqrt(xDiff ^ 2 + yDiff ^ 2 + zDiff ^ 2)。
+configuration.mekanism.world.retrogen.tooltip,Allows chunks to retrogen Mekanism salt and ore blocks. In general when enabling this you also want to bump the userWorldGenVersion.,チャンクがMekanismの塩と鉱石ブロックをレトロジェンできるようにします。一般的に、これを有効にする場合は、userWorldGenVersionもバンプしたいと思います。
+configuration.mekanism.world.world_version.tooltip,Change this value to cause Mekanism to regen its ore in all loaded chunks that have a version lower than this.,この値を変更して、Mekanismが、これより低いバージョンのすべてのロードされたチャンク内の鉱石を再生成するようにします。
+constants.mekanism.recipe_warning,"Broken tags in Mekanism recipes detected, please check server logs for details. You will be missing some recipes and machines may not accept expected inputs.",Mekanismレシピの破損したタグが検出されました。詳細はサーバーログを確認してください。一部のレシピが見つからず、マシンが期待される入力を受け入れない可能性があります。
+conversion.mekanism.energy,Item to Energy,アイテムのエネルギー変換
+description.mekanism.boiler_casing,"A pressure-resistant, dense casing used in the creation of a Thermoelectric Boiler multiblock.",熱電ボイラーのマルチブロックの構成に用いられる、耐圧性のある堅牢なケーシングです。
+description.mekanism.boiler_valve,"A valve that can be placed on a Thermoelectric Boiler multiblock, allowing for the insertion of energy and water along with the extraction of produced steam.",熱電ボイラーのマルチブロックに使用できるバルブです。 生成された蒸気の搬出と、エネルギー及び水の搬入を行うことができます。
+description.mekanism.color_modulation_unit,Uses advanced holographic projectors to modulate the perceived color of the MekaSuit.,高度なホログラフィックプロジェクターを使用し、MekaSuitの知覚色を変更します。
+description.mekanism.diversion,- Controllable by redstone,- レッドストーン信号で制御可能
+description.mekanism.dosimeter_unit,Displays the user's current radiation dose in the HUD.,HUDにユーザーの現在の放射線量を表示します。
+description.mekanism.dynamic_tank,"The casing used in the Dynamic Tank multiblock, a structure capable of storing great amounts of fluid and chemicals.",ダイナミックタンクの組み立てに使います。 沢山の流体を貯蔵します。
+description.mekanism.dynamic_valve,"A valve that can be placed on a Dynamic Tank multiblock, allowing for fluids and chemicals to be inserted and extracted via external piping.",ダイナミックタンクの組み立てに使います。 パイプからの流体の搬入出をサポートします。
+description.mekanism.elytra_unit,Applies an HDPE Reinforced Elytra to the MekaSuit.,MekaSuitにHDPE強化エリトラを追加します。
+description.mekanism.energized_smelter,A simple machine that serves as a Mekanism-based furnace that runs off of energy.,エネルギーを必要とするMekanismの、炉としての働きをするシンプルな機械です
+description.mekanism.formulaic_assemblicator,A machine that uses energy to rapidly craft items and blocks from Crafting Formulas. Doubles as an advanced crafting bench.,クラフトレシピを基に、エネルギーを消費して高速にクラフトする機械です。 発展作業台のようにも使えます。
+description.mekanism.geiger_unit,Displays the ambient radiation level in the HUD.,HUDに周囲の現在の放射線量を表示します。
+description.mekanism.induction_casing,A type of energy-resistant casing used in the creation of an Energized Induction Matrix multiblock.,莫大なエネルギーに耐えられる筐体です。 インダクションマトリックスの組み立てに使います。
+description.mekanism.induction_cell,A highly conductive energy capacitor capable of storing massive amounts of energy in a single block. Housed in an Energized Induction Matrix to expand the multiblock's energy storage.,甚大なエネルギーを蓄えることが出来る、高伝導性のキャパシタです。 インダクションマトリックスの内部に組み込み、蓄電容量を増やすのに使用します。
+description.mekanism.induction_port,"A port that can be placed on an Energized Induction Matrix multiblock, allowing for energy to be inserted from and output to external cabling.",インダクションマトリックスの組み立てに用い、インダクションマトリックスのエネルギーの搬入出を行います。
+description.mekanism.induction_provider,"An advanced complex of coolant systems, conductors and transformers capable of expanding the Energized Induction Matrix's maximum rate of energy transfer.",発展的な、冷却システム及び伝導体と変圧器の統合体です。 インダクションマトリックスの内部に組み込み、エネルギーの入出力上限を増やすのに使用します。
+description.mekanism.jetpack_unit,Applies a hydrogen-fueled jetpack to the MekaSuit.,水素燃料のジェットパックをMekaSuitに追加します。
+description.mekanism.logistical_sorter,"A filter-based, advanced sorting machine that can auto-eject specified items out of and into adjacent inventories and Logistical Transporters.",フィルターによる的確な仕分けができる発展的な機械です。 隣接するインベントリから物流トランスポーターへと仕分けて搬出します。
+description.mekanism.modification_station,An advanced workbench capable of installing and removing modules from modular equipment (i.e. MekaSuit!),改造可能な装備(例 MekaSuit)へのモジュールの取り付け・取り外しを行う高度なワークベンチです。
+description.mekanism.nutritional_injection_unit,Automatically feeds the player Nutritional Paste when hungry.,空腹時に自動で栄養補助ペーストを供給します。
+description.mekanism.qio_drive_array,The foundation of any Quantum Item Orchestration system. QIO Drives are stored here.,任意の量子アイテムオーケストレーションシステムの基盤となります。QIOドライブはここに格納されます。
+description.mekanism.qio_exporter,A QIO-linked item export unit. Place on a block and export contents from your QIO system to the block.,QIOリンクされたエクスポートユニットです。ブロックに設置し、QIOシステムからアイテムを搬出します。
+description.mekanism.qio_importer,A QIO-linked item import unit. Place on a block and import its contents to your QIO system.,QIOリンクされたインポートユニットです。ブロックに設置し、QIOシステムへアイテムを搬入します。
+description.mekanism.qio_redstone_adapter,A QIO-linked redstone adapter. Use to monitor your QIO system's contents.,QIOリンクされたレッドストーンアダプタです。QIOシステム内アイテムの監視に使用します。
+description.mekanism.radiation_shielding_unit,"Provides thick, radiation-proof metal plating to any MekaSuit armor piece.",任意のMekaSuitの装甲部品に厚い放射線防護金属メッキを施します。
+description.mekanism.supercharged_coil,Used in Supercritical Phase Shifter multiblock to supply large quantities of energy. Must be attached to a SPS Port.,大量のエネルギーを供給するために超臨界相転移装置のマルチブロックに使用します。SPSポートに接続する必要があります。
+description.mekanism.teleporter_frame,"The frame used to construct the Teleporter multiblock, allowing a portal to be generated within the structure.",テレポーターの組み立てに使います。 テレポーターの中にポータルを生成します。
+fml.menu.mods.info.description.mekanism,"Mekanism is a Minecraft add-on featuring high-tech machinery that can be used to create powerful tools, armor, and weapons.",Mekanismは、強力なツール、防具、そして武器とそれらの作成に使用できるハイテク機器を備えたMinecraftのAdd-onです。
+gui.mekanism.modification.remove.tooltip,"Removes a single module, hold shift to remove all.",モジュールを一つ取り出します。Shiftキーを押しながらの操作で全て取り出します。
+info.mekanism.jei.module_installation,"Using a Modification Station, modules can be installed on the various MekaSuit pieces and on the Meka-Tool.",改造ステーションを使用すると、様々なMekaSuitの装備やMeka-Toolにモジュールを取り付けられます。
+qio.mekanism.search.focus.auto,Auto focus the QIO search bar when opening a dashboard.,ダッシュボードを開いたときに、自動的にQIO検索バーにフォーカスする。
+qio.mekanism.search.focus.manual,Don't automatically focus the QIO search bar when opening a dashboard.,ダッシュボードを開いたときに、自動的にQIO検索バーにフォーカスしない。
+qio.mekanism.sort_mod_desc,Sort items by mod.,Modで並び替え
+qio.mekanism.transfer.to_frequency,Prioritize moving items to the frequency when holding shift,Shiftキーを押した時アイテムの移動先が周波数を優先するようにする
+qio.mekanism.transfer.to_window,Prioritize moving items to the crafting window when holding shift,Shiftキーを押した時アイテムの移動先がクラフトウィンドウを優先するようにする
+sps.mekanism.invalid_disconnected_coil,"Couldn't form, found a coil without a connection to an SPS Port.",構成できませんでした。SPS ポートに接続されていないコイルが存在します。
+constants.mekanism.alpha_warning,"Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and various other issues that you can read more about %s.",警告：Mekanismは現在アルファ版です。modpackでの広範な使用はお勧めしません。ゲーム破壊バグや、その他の問題が発生する可能性があります。詳細については、%s をご覧ください。
 constants.mekanism.forge,MinecraftForge,
 constants.mekanism.ic2,IndustrialCraft,
-description.mekanism.solar_recharging_unit,Harnesses the power of the sun to charge your MekaSuit. Install multiple for faster charging. Requires Mekanism: Generators.,
-advancements.mekanism.personal_storage.title,Mine All Mine,
-mekanism.gui.logisticalSorter.singleItem.tooltip,Sends a single item instead of a whole stack each time (overrides min and max set in ItemStack filters).,
-tooltip.EnergizedSmelter,A simple machine that serves as a Mekanism-based furnace that runs off of energy.,
-mekanism.configgui.ctgy.generators.general.tooltip,Settings regarding MekanismGenerators' general configuration,
-mekanism.configgui.ctgy.tools.general.tooltip,Settings regarding MekanismTools' general configuration,
-mekanism.configgui.ctgy.tools.armor.tooltip,Settings regarding the protection values and balance of MekanismTools armor sets,
-mekanism.configgui.ctgy.tools.tools.tooltip,Settings regarding the efficiency values and balance of MekanismTools tool sets,
-energy.mekanism.forge.short,FE,
-energy.mekanism.joules.short,J,
-temperature.mekanism.celsius.short,C,
-temperature.mekanism.fahrenheit.short,F,
-temperature.mekanism.kelvin.short,K,
-temperature.mekanism.rankine.short,R,
+description.mekanism.solar_recharging_unit,Harnesses the power of the sun to charge your MekaSuit. Install multiple for faster charging. Requires Mekanism: Generators.,太陽の力を利用してメカスーツを充電します。より高速な充電のために複数をインストールします。Mekanism：Generatorsが必要です。
+advancements.mekanism.personal_storage.title,Mine All Mine,マイン・オール・マイン
+mekanism.gui.logisticalSorter.singleItem.tooltip,Sends a single item instead of a whole stack each time (overrides min and max set in ItemStack filters).,毎回スタック全体ではなく単一のアイテムを送信します（ItemStackフィルターに設定された最小値と最大値をオーバーライド）。
+tooltip.EnergizedSmelter,A simple machine that serves as a Mekanism-based furnace that runs off of energy.,エネルギーで実行される Mekanism ベースの炉として機能する単純なマシン。
+mekanism.configgui.ctgy.generators.general.tooltip,Settings regarding MekanismGenerators' general configuration,MekanismGeneratorsの一般的な設定に関する設定
+mekanism.configgui.ctgy.tools.general.tooltip,Settings regarding MekanismTools' general configuration,MekanismToolsの一般的な設定に関する設定
+mekanism.configgui.ctgy.tools.armor.tooltip,Settings regarding the protection values and balance of MekanismTools armor sets,MekanismToolsアーマーセットの保護値とバランスに関する設定
+mekanism.configgui.ctgy.tools.tools.tooltip,Settings regarding the efficiency values and balance of MekanismTools tool sets,MekanismToolsツールセットの効率値とバランスに関する設定
+energy.mekanism.forge.short,FE,FE
+energy.mekanism.joules.short,J,J
+temperature.mekanism.celsius.short,C,C
+temperature.mekanism.fahrenheit.short,F,F
+temperature.mekanism.kelvin.short,K,K
+temperature.mekanism.rankine.short,R,R
 energy.mekanism.eu.short,EU,
 generic.mekanism.format,%s,
 gui.id,ID,
-tooltip.no,no,
+tooltip.no,no,いいえ
 tooltip.hp,HP,
 holiday.mekanism.signature,-aidancbrady,

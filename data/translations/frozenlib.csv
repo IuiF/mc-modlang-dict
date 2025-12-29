@@ -68,17 +68,17 @@ option.frozenlib.file_transfer_server,Server Receives Files,サーバーがフ�
 option.frozenlib.is_debug,Debug Mode,デバッグモード
 option.frozenlib.remove_experimental_warning,Remove Experimental Warning,実験的警告を削除
 option.frozenlib.remove_experimental_warning.false,§cOFF,§cオフ
-option.frozenlib.remove_experimental_warning.true,§aON,
+option.frozenlib.remove_experimental_warning.true,§aON,§aオン
 option.frozenlib.save_item_cooldowns,Save Item Cooldowns,アイテムの冷却時間の保存
 option.frozenlib.save_item_cooldowns.false,§cOFF,§cオフ
-option.frozenlib.save_item_cooldowns.true,§aON,
+option.frozenlib.save_item_cooldowns.true,§aON,§aオン
 option.frozenlib.true,§aEnabled,§a有効
 option.frozenlib.use_wind_on_non_frozenlib_servers,Wind On Non-FrozenLib Servers,非凍結ライブラリサーバーでの風
 option.frozenlib.use_wind_on_non_frozenlib_servers.false,§cOFF,§cオフ
-option.frozenlib.use_wind_on_non_frozenlib_servers.true,§aON,
+option.frozenlib.use_wind_on_non_frozenlib_servers.true,§aON,§aオン
 option.frozenlib.warden_spawn_tracker_command,Warden Spawn Tracker Command,ワーデンスパウントレーカー コマンド
 option.frozenlib.warden_spawn_tracker_command.false,§cOFF,§cオフ
-option.frozenlib.warden_spawn_tracker_command.true,§aON,
+option.frozenlib.warden_spawn_tracker_command.true,§aON,§aオン
 tooltip.frozenlib.cape,"A list of capes added through FrozenLib.
 Click to select the next cape.",FrozenLib を通じて追加されたケープのリストです。
 tooltip.frozenlib.datafixer,Contains options for DataFixers,DataFixers のオプションを含みます。
@@ -125,4 +125,12 @@ prevent a compatibility issue with Lithium + BCLib
 The vanilla DataFix types are...
 'level', 'player', 'chunk', 'hotbar', 'options', 'structure', 'stats',
 'saved_data', 'advancements', 'poi_chunk', 'entity_chunk',
-and 'world_gen_settings'",
+and 'world_gen_settings'","The Quilt Projectの修正されたDataFixerUpper APIを通じて実行から除外されるDataFixタイプのリスト
+
+ワールドジェン設定はデフォルトで無効化されています
+Lithium + BcLibとの互換性の問題を防ぐため
+
+バニラのDataFixタイプは...
+「level」、「player」、「chunk」、「hotbar」、「options」、「structure」、「stats」、
+「saved_data」、「advancements」、「poi_chunk」、「entity_chunk」、
+「world_gen_settings」"

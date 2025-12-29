@@ -91,7 +91,7 @@ commands.rcsize.get,"[%d,%d,%d]",
 commands.rccopy.suggest,Copy,コピー
 commands.rcsightinfo.lookup,Sight Info,視覚情報
 commands.rcsightinfo.unknown,Unknown sight UUID!,未知の視覚UUID!
-commands.rcsightinfo.get,"%s %s, ID: %s",
+commands.rcsightinfo.get,"%s %s, ID: %s",%s %s、ID: %s
 commands.rcsightinfo.structure,"%s %s, Seed: %s, ID: %s",%s %s、種子：%s、ID：%s
 commands.rcforget.forget,Forget %s,忘れ %s
 commands.rcforget.success,Forgot %s!,%sを忘れました!
@@ -578,14 +578,14 @@ commands.parameters.rotation,rotation,回転
 commands.parameters.x,x,
 commands.parameters.y,y,
 commands.parameters.z,z,
-tile.negativeSpace.meta.4.name,Space (4),
-tile.negativeSpace.meta.5.name,Space (5),
-tile.negativeSpace.meta.6.name,Space (6),
-tile.negativeSpace.meta.7.name,Space (7),
-tile.negativeSpace.meta.8.name,Space (8),
-tile.negativeSpace.meta.9.name,Space (9),
-commands.rclookup.reply.silent,"%s: §bInactive§r, by: %s, is %s, %s",
-reccomplex.server.status,<Recurrent Complex> Loaded %s active structures: %s %s %s %s,
-reccomplex.worldscript.strucGen.mode.list.front,Front,
-reccomplex.gui.false,False,
-commands.rcpos.none,§onowhere§r,
+tile.negativeSpace.meta.4.name,Space (4),空間 (4)
+tile.negativeSpace.meta.5.name,Space (5),空間 (5)
+tile.negativeSpace.meta.6.name,Space (6),空間 (6)
+tile.negativeSpace.meta.7.name,Space (7),空間 (7)
+tile.negativeSpace.meta.8.name,Space (8),空間 (8)
+tile.negativeSpace.meta.9.name,Space (9),空間 (9)
+commands.rclookup.reply.silent,"%s: §bInactive§r, by: %s, is %s, %s",%s: §b非アクティブ§r、作成者: %s、形式: %s、%s
+reccomplex.server.status,<Recurrent Complex> Loaded %s active structures: %s %s %s %s,<Recurrent Complex> %s個のアクティブな構造物をロード: %s %s %s %s
+reccomplex.worldscript.strucGen.mode.list.front,Front,前面
+reccomplex.gui.false,False,いいえ
+commands.rcpos.none,§onowhere§r,§o無い§r

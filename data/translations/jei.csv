@@ -216,13 +216,13 @@ jei.key.category.mouse.hover,JEI (Hovering with Mouse),JEI(マウスを重ねた
 jei.key.category.overlays,JEI (Overlays),JEI(オーバーレイ)
 jei.key.category.recipe.gui,JEI (Recipes),JEI(レシピ)
 jei.key.category.search,JEI (Search Filter),JEI(検索フィルター)
-jei.key.combo.alt,ALT + %s,
-jei.key.combo.command,CMD + %s,
-jei.key.combo.control,CTRL + %s,
-jei.key.combo.shift,SHIFT + %s,
+jei.key.combo.alt,ALT + %s,ALT + %s
+jei.key.combo.command,CMD + %s,CMD + %s
+jei.key.combo.control,CTRL + %s,CTRL + %s
+jei.key.combo.shift,SHIFT + %s,SHIFT + %s
 jei.key.mouse.left,CLICK,クリック
 jei.key.mouse.right,RIGHT-CLICK,右クリック
-jei.key.shift,SHIFT,
+jei.key.shift,SHIFT,SHIFT
 jei.message.config.folder,Click here to open the JEI config folder,ここをクリックするとJEIの設定フォルダーを開きます
 jei.message.configured,"Install the ""Configured"" mod to access the in-game config","ゲーム内で設定にアクセスするには、
 ""設定済み"" Modを導入してください"
@@ -332,7 +332,7 @@ config.jei.search.creativeTabSearchMode,%%CreativeTab,%%クリエイティブタ
 config.jei.search.modNameSearchMode,@ModName,@Mod名
 config.jei.search.resourceIdSearchMode,&ResourceId,&リソースID
 config.jei.search.searchAdvancedTooltips,Search advanced tooltips,高度なツールチップを検索する
-config.jei.search.tagSearchMode,$Tag,
+config.jei.search.tagSearchMode,$Tag,$タグ
 config.jei.search.tooltipSearchMode,#Tooltip,#ツールチップ
 config.jei.title,%MODNAME Config,%MODNAMEの設定
 config.jei.valid,Valid,有効
@@ -340,8 +340,8 @@ jei.tooltip.bookmarks,JEI Bookmarks,JEIブックマーク
 jei.tooltip.cheat.mode.how.to.disable.no.hotkey,%s-click here to toggle it.,ここを%s+左クリックで切り替えます
 jei.tooltip.error.recipe.transfer.disabled,The server config has disabled JEI recipe transfer,サーバーの設定でJEIのレシピ転送が無効になっています
 jei.tooltip.show.all.recipes,Show All Recipes,全てのレシピを表示
-key.jei.ctrl,CTRL,
-key.jei.ctrl.mac,CMD,
+key.jei.ctrl,CTRL,CTRL
+key.jei.ctrl.mac,CMD,CMD
 config.jei.advanced.colorSearchEnabled.comment,Search ingredients by color and show the colors on tooltips in the ingredient list overlay.,色による検索とアイテムリスト内ツールチップでのアイテムの色情報表示を有効化します。
 config.jei.advanced.itemBlacklist.comment,List of ingredients that should not be displayed in the ingredient list overlay. Format: modId[:name[:meta]]. Hide Ingredients Mode will automatically add or remove entries here.,アイテムリストに表示されるべきではない要素のリスト。 書式: modId[:name[:meta]]. アイテム隠蔽モード時はここに自動的に追加・削除されます。
 config.jei.advanced.maxColumns.comment,The maximum width of the ingredient and bookmark list overlays.,アイテムリストの最大幅
@@ -361,7 +361,7 @@ jei.chat.error.command.too.long,"JEI must be installed on the server to handle t
 jei.tooltip.error.recipe.transfer.unknown,"Unknown error, see logs",不明なエラー、ログを参照してください
 config.jei.advanced.addBookmarksToFront,Prepend New Bookmarks,新しいブックマークを先頭に追加
 config.jei.advanced.addBookmarksToFront.comment,"When true, adds new bookmarks to the front of the bookmark list. When false, adds new bookmarks to the end of the bookmark list.",trueの場合、新しいブックマークをブックマークリストの先頭に追加します。falseの場合、新しいブックマークをブックマークリストの末尾に追加します
-jei.tooltip.liquid.amount,"%,d mB",
+jei.tooltip.liquid.amount,"%,d mB","%,d mB"
 jei.tooltip.recipe.ore.dict,Accepts any: %s,以下のいずれかで: %s
 jei.chat.error.no.cheat.permission.2,Permission is given to players who can /give items or are in Creative Mode.,権限はgiveコマンドが使用できるか、クリエイティブモードのプレイヤーに与えられます。
 config.jei.search.oreDictSearchMode,$OreDictionary,$鉱石辞書
@@ -369,4 +369,4 @@ config.jei.search.oreDictSearchMode.comment,Search mode for Ore Dictionary Names
 config.jei.search.resourceIdSearchMode.comment,Search mode for resources ids (prefix: &),リソースID検索 (プレフィックス：&)
 config.jei.advanced.optimizeMemoryUsage,Optimize Memory Usage,メモリ使用量の最適化
 config.jei.advanced.optimizeMemoryUsage.comment,Enable JEI memory usage optimizations.,JEIのメモリ使用量最適化を有効にします。
-_comment,"DEBUG (for debug mode, do not need translation)",
+_comment,"DEBUG (for debug mode, do not need translation)","DEBUG (for debug mode, do not need translation)"

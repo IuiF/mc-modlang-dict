@@ -630,10 +630,10 @@ cci.toast.youtube.errorDuringChat,Error processing chat! Retrying.,チャット�
 cci.toast.youtube.errorDuringChatDC,Error processing chat! Disconnecting.,チャット処理中にエラー！ 切断しています。
 cci.toast.youtube.ready,Ready.,準備完了。
 window.popup.title,Alert!,アラート！
-cci.component.EventConfiguration.from,This is the online source for this EventConfiguration. Set by CCI.,
-cci.component.EventConfiguration.type,"This is to define what type of EventConfiguration this is if pulled from an online source. Set by CCI when you are creating the config, eg: streamlabs/streamelements/chat/etc. Bear in mind that retrieving an online file will override local configs.",
-cci.component.SoundOutcome.clientSide,"Is the sound to be played on the client? ""target"" is ignored if this is ""true""",
-cci.component.SpecificUserCondition.description,"Use this to check for a specific username. Checks the ""$user"" variable.",
+cci.component.EventConfiguration.from,This is the online source for this EventConfiguration. Set by CCI.,これはこのEventConfigurationのオンラインソースです。CCIによって設定されます。
+cci.component.EventConfiguration.type,"This is to define what type of EventConfiguration this is if pulled from an online source. Set by CCI when you are creating the config, eg: streamlabs/streamelements/chat/etc. Bear in mind that retrieving an online file will override local configs.",オンラインソースから取得された場合、このEventConfigurationの種類を定義するためのものです。設定を作成するときCCIによって設定されます。例：streamlabs/streamelements/chat/etc。オンラインファイルを取得するとローカル設定が上書きされることに注意してください。
+cci.component.SoundOutcome.clientSide,"Is the sound to be played on the client? ""target"" is ignored if this is ""true""",サウンドをクライアント側で再生するか？これが「true」の場合、「target」は無視されます
+cci.component.SpecificUserCondition.description,"Use this to check for a specific username. Checks the ""$user"" variable.",特定のユーザー名をチェックするために使用します。「$user」変数をチェックします。
 cci.gui.help.info,"Content Creator Integration - Editor GUI powered by Boxes & Stuff
 
 Best viewed in 1080p with a forced GUI scale of 2 (what is this, 2006?)
@@ -659,4 +659,29 @@ Holding SHIFT when exiting will save before exit.
 
 
 
-""I hope this helpful help ui was helpful in helping you get some help."" -AuscD",
+""I hope this helpful help ui was helpful in helping you get some help."" -AuscD","Content Creator Integration - Editor GUI (Boxes & Stuff by powered)
+
+1080pで表示し、GUIスケールを強制的に2に設定することをお勧めします（これは2006年ですか？）
+
+
+このヘルプウィンドウは、このユーザーインターフェースの使い方についてのみ（残念ながらModの使い方ではありません）
+
+左のウィンドウは純粋にナビゲーション用です。
+右のウィンドウは純粋に操作用です。
+
+
+操作（右のウィンドウ）コントロール:-
+
+ダブルクリック: 追加/編集（MapsではSHIFTを保持して編集）
+右クリック: 削除
+クリック & ドラッグ（配列内）で並べ替え
+Ctrl+X/C/V: 切り取り、コピー、貼り付け
+イベントビューアー内の場合: Ctrl+C/Ctrl+Shift+Cは選択した変数名/値をコピーします
+
+操作ヒント: 常に何かに追加するために1つレベルアップする必要があります。「conditions」フィールドをダブルクリックして条件を追加し、Mapの設定タイプをダブルクリックして新しいイベントを追加します。イベントのリストを見ている場合、それらを追加するために1つレベルアップする必要があります。
+
+終了時にSHIFTを保持するとファイルが保存されてから終了します。
+
+
+
+「このヘルプUIが役に立つのを手伝ってくれてありがとう」-AuscD"

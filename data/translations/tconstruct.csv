@@ -672,10 +672,8 @@ gui.tconstruct.error.useless_tool_part,"This part can not be used to craft any t
 Either the material %s is missing some information or no tool uses a(n) %s in its crafting.","このパーツを使ってツールを作ることはできません。
 
 素材 %s に情報が欠けているか、どのツールも工芸品に a(n) %s を使用していません。"
-gui.tconstruct.fluid.bucket,%s b,
 gui.tconstruct.fluid.hold_shift,Hold §e§oShift§r§7 for buckets,バケツなら　§e§oShift§r§7 を押してください
 gui.tconstruct.fluid.kilobucket,%s kb,%s キロバケット
-gui.tconstruct.fluid.millibucket,%s mb,
 gui.tconstruct.foundry,Foundry,鋳造炉
 gui.tconstruct.general.hover,Hover over the entries for more information,エントリにカーソルを合わせると、詳細が表示されます。
 gui.tconstruct.heater,Heater,ヒーター
@@ -777,7 +775,6 @@ item.tconstruct.earth_slime_sling,Slime Sling,スライムのスリング
 item.tconstruct.earth_slime_sling.tooltip,"Charge up, aim low, get flinging!
 Use Slime Boots if you value your life!","打って飛べ!
 人生を大切にするならスライムブーツを使ってください!"
-item.tconstruct.efln_ball,EFLN,
 item.tconstruct.efln_ball.tooltip,Explodes! Safe for mining,鉱業のTNT
 item.tconstruct.emerald_reinforcement,Emerald Reinforcement,エメラルド製の補強
 item.tconstruct.encyclopedia,Encyclopedia of Tinkering,鋳掛け者事典
@@ -1074,8 +1071,6 @@ jei.tconstruct.molding.title,Molding,成形
 jei.tconstruct.part_builder.cost,Cost: %s,コスト: %s
 jei.tconstruct.part_builder.title,Part Builder,パーツビルダー
 jei.tconstruct.severing.title,Severing,切断
-jei.tconstruct.temperature,%s°C,
-jei.tconstruct.time,%s s,
 key.tconstruct.helmet_interact,Helmet Interaction,ヘルメットのアクション
 key.tconstruct.leggings_interact,Leggings Interaction,レギンスのアクション
 material.tconstruct.blazing_bone,Blazing Bone,ブレイズ骨
@@ -2167,7 +2162,6 @@ effect.tconstruct.ricochet,Ricochet,リコシェット
 effect.tconstruct.self_destructing,Self Destructing,自己破壊
 entity.tconstruct.crystalshot,Crystalshot,クリスタルショット
 entity.tconstruct.earth_slime,Earthslime,アーススライム
-entity.tconstruct.efln_ball,EFLN,
 entity.tconstruct.flint_shuriken,Flint Shuriken,フリント手裏剣
 entity.tconstruct.fluid_spit,Fluid Projectile,液体
 entity.tconstruct.glow_ball,Glowball,グロウボール
@@ -2257,8 +2251,6 @@ fluid.tconstruct.sky_slime.fluid_effect,"Skyslime is a portable piston, ideal fo
 fluid.tconstruct.venom.fluid_effect,"Venom pairs very well with venombone, the hint is in the name.",毒液はヴェノムボーンと非常に相性がいい。
 fluid_effect.tconstruct.add_breath.add,+%d Breath,酸素 +%d
 fluid_effect.tconstruct.add_breath.subtract,-%d Breath,酸素 -%d
-fluid_effect.tconstruct.award_stat.add,+%s %s,
-fluid_effect.tconstruct.award_stat.subtract,-%s %s,
 fluid_effect.tconstruct.break_block,Mines block,ブロックを採掘
 fluid_effect.tconstruct.break_block.enchanted,Mines block with %s,ブロックを%sで採掘
 fluid_effect.tconstruct.break_block.enchanted.hardness,Mines up to hardness %s with %s,硬さ%sまでのブロックを%sで採掘
@@ -2450,7 +2442,6 @@ item.tconstruct.splash_bottle,Splash Bottle,スプラッシュ瓶
 item.tconstruct.steel_ingot,Steel Ingot,鋼鉄のインゴット
 item.tconstruct.steel_nugget,Steel Nugget,鋼鉄の塊
 item.tconstruct.swasher,Swasher,スワッシャー
-item.tconstruct.tool.id_format,%s (%s),
 item.tconstruct.tool.material_separator,-,と
 item.tconstruct.tool_binding_sand_cast,Tool Binding Sand Cast,締め具の砂型
 item.tconstruct.tough_binding,Tough Collar,強化締め具
@@ -2722,7 +2713,6 @@ modifier.tconstruct.energy_handler.flavor,Current Energy,現在のエネルギ�
 modifier.tconstruct.entangled,Entangled,絡み合い
 modifier.tconstruct.entangled.description,Increases speed or knockback resistance at the cost of taking damage when unequipping,装備を外すときにダメージを受ける代わりに速度またはノックバック耐性を増加
 modifier.tconstruct.entangled.flavor,Symbiotic!,共生的！
-modifier.tconstruct.extra_modifier.type_format,%s (%s),
 modifier.tconstruct.featherweight,Featherweight,軽量
 modifier.tconstruct.featherweight.description,"Tool is so easy to use, it has higher drawspeed and accuracy. Armor makes it easier to use bows and shields but is not highly defensive",道具が扱いやすくなる、すなわち弓引き速度と正確性が向上する
 modifier.tconstruct.featherweight.flavor,Light as a feather,羽のように軽い
@@ -2915,7 +2905,6 @@ modifier.tconstruct.trick_quiver.selected,Trick Quiver: Selected %s from slot %s
 modifier.tconstruct.trim,Armor Trim,鍛冶型の装飾
 modifier.tconstruct.trim.description,Additional armor detailing using expensive patterns,高価なパターンを使った防具のディテールの追加
 modifier.tconstruct.trim.flavor,Complex detailing!,複雑なディテール！
-modifier.tconstruct.trim.formatted,%s (%s),
 modifier.tconstruct.trueshot,Trueshot,必中
 modifier.tconstruct.trueshot.description,Increases the accuracy of the weapon,武器の正確度が上がる
 modifier.tconstruct.trueshot.flavor,This bow will always aim true,この弓は常に正確に目標を捉える
@@ -3039,7 +3028,6 @@ tool_stat.tconstruct.block_angle,Block Angle: ,ブロック角度:
 tool_stat.tconstruct.block_angle.description,Total angle of protection in front when shielding out of a max 360 degrees. Any attacks from an angle beyond this are not blocked.,盾でブロックできる前方の角度で、最大360度。この範囲外からの攻撃はブロックできません。
 tool_stat.tconstruct.draw_speed,Draw Speed: ,弓引き速度: 
 tool_stat.tconstruct.draw_speed.description,Determines the number of times this tool can be used per second.,この道具を1秒あたり何回使用できるかを示します。
-tool_stat.tconstruct.energy,%s FE,
 tool_stat.tconstruct.harvest_tier,Mining Tier: ,採掘ランク: 
 tool_stat.tconstruct.harvest_tier.description,What range of blocks a tool with a tool head of this material can mine.,この素材でヘッド部を作った道具が採掘できるブロックの範囲。
 tool_stat.tconstruct.max_energy,Max Energy: ,最大エネルギー: 
@@ -3438,7 +3426,6 @@ item.tconstruct.fancy_frame.gold.name,Golden Item Frame,金の額縁
 item.tconstruct.fancy_frame.clear.name,Clear Item Frame,透明の額縁
 item.tconstruct.throwball.glow.name,Glowball,グロウボール
 item.tconstruct.throwball.glow.tooltip,Not suited for consumption.,食べないでね！
-item.tconstruct.throwball.efln.name,EFLN,
 item.tconstruct.throwball.efln.tooltip,Explodes! Safe for mining,鉱業のTNT
 item.tconstruct.moms_spaghetti.name,Mom's Spaghetti,ママのスパゲッティ
 item.tconstruct.moms_spaghetti.desc,Delicious!,おいしい！
@@ -3806,8 +3793,6 @@ gui.error.incompatible_trait,Modifier %s can not be used together with trait %s,
 gui.error.incompatible_enchantments,Modifier %s cannot be combined with enchantment %s,%sは%sのエンチャントと同時に付けられません
 gui.error.no_rename,This tool cannot be renamed,このツールは再命名できません
 gui.general.hover,Hover over the entries for more info,詳細についてはエントリの上にマウスを移動してください。
-gui.general.temperature.celsius,%s°C,
-gui.general.temperature.kelvin,%sK,
 itemGroup.TinkerGeneral,Tinkers' General Items,鋳掛け者の相アイテム
 itemGroup.TinkerTools,Tinkers' Tools,鋳掛け者のツール
 itemGroup.TinkerToolParts,Tinkers' Toolparts,TiC: 道具の部品
@@ -3901,48 +3886,63 @@ gui.searedfurnace.progress.no_recipe,Item can't be smelted,このアイテムは
 gui.searedfurnace.progress.no_fuel,No valid fuel in seared furnace,焼成炉に有効な燃料がありません
 gui.searedfurnace.progress.no_heat,Not enough heat to smelt this item,このアイテムを製錬するための熱が不足しています
 advancements.tconstruct.smeltery.tool_forge.description,Forge one of every broad tool in the anvil,金床でブロード工具を1つずつ鍛造する
-key.tconstruct.ctrl,Ctrl,
-key.tconstruct.shift,Shift,
 material.tconstruct.chain.flavor,You too can become the chain user now.,あなたもこれでチェーンユーザーになれます。
 material.tconstruct.lead.flavor,Could try and make a sandwich out of this.,これを使ってサンドイッチを作ることもできます。
 material.tconstruct.queens_slime.flavor,"Princesses are evil, get yourself a Queen.",姫はダメ、女王を手に入れてください。
 modifier.tconstruct.heavy.flavor,Dense!,重厚！
 modifier.tconstruct.overlord.flavor,Regal!,王様！
-modifier.tconstruct.the_one_probe,The One Probe,
 modifier.tconstruct.wings.flavor,The sky is yours,空はあなたのものです
 subtitles.tconstruct.little_saw,Saw used,のこぎりを使用
-key.categories.tconstruct,Tinkers' Construct,
 stat.tconstruct.binding,Binding,結合部
 tile.tconstruct.rack.item.tooltip,For decoration purpose only,装飾用のみ
-roman_numeral.value.1,I,
-roman_numeral.value.10,X,
-roman_numeral.value.11,XI,
-roman_numeral.value.12,XII,
-roman_numeral.value.13,XIII,
-roman_numeral.value.14,XIV,
-roman_numeral.value.15,XV,
-roman_numeral.value.16,XVI,
-roman_numeral.value.17,XVII,
-roman_numeral.value.18,XVIII,
-roman_numeral.value.19,XIX,
-roman_numeral.value.2,II,
-roman_numeral.value.20,XX,
-roman_numeral.value.3,III,
-roman_numeral.value.4,IV,
-roman_numeral.value.5,V,
-roman_numeral.value.6,VI,
-roman_numeral.value.7,VII,
-roman_numeral.value.8,VIII,
-roman_numeral.value.9,IX,
-item.tconstruct.tool.format,%s %s,
-tile.tconstruct.soil.slimy_mud_blue.tooltip,tile.tconstruct.soil.slimy_mud_green.tooltip,
-tile.tconstruct.soil.slimy_mud_magma.tooltip,tile.tconstruct.soil.slimy_mud_green.tooltip,
-item.tconstruct.materials.slimecrystal_blue.tooltip,item.tconstruct.materials.slimecrystal_green.tooltip,
-item.tconstruct.materials.slimecrystal_magma.tooltip,item.tconstruct.materials.slimecrystal_green.tooltip,
-material.slimevine_orange.name,material.slimevine_blue.name,
-material.slimevine_purple.name,material.slimevine_blue.name,
-material.slimeleaf_orange.name,material.slimeleaf_blue.name,
-material.slimeleaf_purple.name,material.slimeleaf_blue.name,
-modifier.holy.extra,modifier.smite.extra,
-tooltip.tank.fluid,%s,
-gui.smeltery.liquid.millibucket,mb,
+gui.tconstruct.fluid.bucket,%s b,%s b
+gui.tconstruct.fluid.millibucket,%s mb,%s mb
+item.tconstruct.efln_ball,EFLN,EFLN
+jei.tconstruct.temperature,%s°C,%s°C
+jei.tconstruct.time,%s s,%s s
+key.tconstruct.ctrl,Ctrl,Ctrl
+key.tconstruct.shift,Shift,Shift
+modifier.tconstruct.the_one_probe,The One Probe,The One Probe
+roman_numeral.value.1,I,I
+roman_numeral.value.10,X,X
+roman_numeral.value.11,XI,XI
+roman_numeral.value.12,XII,XII
+roman_numeral.value.13,XIII,XIII
+roman_numeral.value.14,XIV,XIV
+roman_numeral.value.15,XV,XV
+roman_numeral.value.16,XVI,XVI
+roman_numeral.value.17,XVII,XVII
+roman_numeral.value.18,XVIII,XVIII
+roman_numeral.value.19,XIX,XIX
+roman_numeral.value.2,II,II
+roman_numeral.value.20,XX,XX
+roman_numeral.value.3,III,III
+roman_numeral.value.4,IV,IV
+roman_numeral.value.5,V,V
+roman_numeral.value.6,VI,VI
+roman_numeral.value.7,VII,VII
+roman_numeral.value.8,VIII,VIII
+roman_numeral.value.9,IX,IX
+key.categories.tconstruct,Tinkers' Construct,Tinkers' Construct
+entity.tconstruct.efln_ball,EFLN,EFLN
+fluid_effect.tconstruct.award_stat.add,+%s %s,+%s %s
+fluid_effect.tconstruct.award_stat.subtract,-%s %s,-%s %s
+item.tconstruct.tool.format,%s %s,%s %s
+item.tconstruct.tool.id_format,%s (%s),%s (%s)
+modifier.tconstruct.extra_modifier.type_format,%s (%s),%s (%s)
+modifier.tconstruct.trim.formatted,%s (%s),%s (%s)
+tool_stat.tconstruct.energy,%s FE,%s FE
+tile.tconstruct.soil.slimy_mud_blue.tooltip,tile.tconstruct.soil.slimy_mud_green.tooltip,tile.tconstruct.soil.slimy_mud_green.tooltip
+tile.tconstruct.soil.slimy_mud_magma.tooltip,tile.tconstruct.soil.slimy_mud_green.tooltip,tile.tconstruct.soil.slimy_mud_green.tooltip
+item.tconstruct.materials.slimecrystal_blue.tooltip,item.tconstruct.materials.slimecrystal_green.tooltip,item.tconstruct.materials.slimecrystal_green.tooltip
+item.tconstruct.materials.slimecrystal_magma.tooltip,item.tconstruct.materials.slimecrystal_green.tooltip,item.tconstruct.materials.slimecrystal_green.tooltip
+item.tconstruct.throwball.efln.name,EFLN,EFLN
+material.slimevine_orange.name,material.slimevine_blue.name,material.slimevine_blue.name
+material.slimevine_purple.name,material.slimevine_blue.name,material.slimevine_blue.name
+material.slimeleaf_orange.name,material.slimeleaf_blue.name,material.slimeleaf_blue.name
+material.slimeleaf_purple.name,material.slimeleaf_blue.name,material.slimeleaf_blue.name
+modifier.holy.extra,modifier.smite.extra,modifier.smite.extra
+tooltip.tank.fluid,%s,%s
+gui.general.temperature.celsius,%s°C,%s°C
+gui.general.temperature.kelvin,%sK,%sK
+gui.smeltery.liquid.millibucket,mb,mb

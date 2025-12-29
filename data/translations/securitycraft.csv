@@ -613,7 +613,7 @@ commands.securitycraft.convert.set.failed,There is no convertible block at the g
 commands.securitycraft.convert.set.success,"Converted the block at %s, %s, %s","%s, %s, %sのブロックを変換しました"
 commands.securitycraft.dump.notFound,"SecurityCraft has nothing registered to ""%s"".","SecurityCraftでは""%s""に登録されているものはありません。"
 commands.securitycraft.dump.result,Click here to copy %s registry entries to the clipboard.,ここをクリックすると%sレジストリエントリをクリップボードにコピーできます。
-commands.securitycraft.help,%s: %s + %s,
+commands.securitycraft.help,%s: %s + %s,%s: %s + %s
 commands.securitycraft.owner.fill.failed,There are no ownable blocks in the given area or they are already owned by the given player,指定されたエリアに所有可能なブロックがないか指定されたプレイヤーがすでに所有しています
 commands.securitycraft.owner.fill.success,Successfully set the owner of %s block(s),%s個のブロックのオーナーの設定に成功しました
 commands.securitycraft.owner.set.failed,There is no ownable block at the given position or it is already owned by the given player,指定された位置に所有可能なブロックがないか指定されたプレイヤーがすでに所有しています
@@ -685,7 +685,7 @@ gui.securitycraft:camera.toggleRedstoneNote,(requires redstone module),(要レ�
 gui.securitycraft:camera.zoom,%1$s/%2$s - Zoom in/out,%1$s/%2$s - ズームイン/アウト
 gui.securitycraft:choose_outline_color_tooltip,Choose outline color,アウトラインの色を選択
 gui.securitycraft:customize.currentSetting,Currently: %s,現在: %s
-gui.securitycraft:customize.tooltip,%s (%s),
+gui.securitycraft:customize.tooltip,%s (%s),%s (%s)
 gui.securitycraft:editModule,Edit Module,モジュールの編集
 gui.securitycraft:editModule.add_player,Add Player,プレイヤーを追加
 gui.securitycraft:editModule.affectEveryone,Affect every player,全てのプレイヤーに影響
@@ -770,7 +770,7 @@ gui.securitycraft:scManual.intro.2,"by Geforce, bl4ckscor3, Redstone_Dubstep, an
 gui.securitycraft:scManual.keycards,Keycards,キーカード
 gui.securitycraft:scManual.lockable,Lockable: This block can be locked with a Sonic Security System.,ロック可能: 音波セキュリティシステムで施錠可能なブロックです。
 gui.securitycraft:scManual.modules,Available modules:,利用可能なモジュール:
-gui.securitycraft:scManual.option_text,- %s %s,
+gui.securitycraft:scManual.option_text,- %s %s,- %s %s
 gui.securitycraft:scManual.options,Available options:,利用可能なオプション:
 gui.securitycraft:scManual.ownableBlock,"Ownable: This is resistant to explosions, and can only be broken by the player who placed it down.",所有可能: これは爆発に耐性があり、設置したプレイヤーだけが壊すことができます。
 gui.securitycraft:scManual.passcodeProtectedBlock,Passcode protected: This can only be used if a passcode set by the owner is correctly entered.,パスコード保護: これはオーナーが設定したパスコードが正しく入力された場合のみ使用できます。
@@ -1048,7 +1048,7 @@ messages.securitycraft:codebreaker.failed,"Code breaking attempt failed, please 
 messages.securitycraft:codebreaker.owned,"You are trying to break the code of something you own. If you forgot the passcode, use the Universal Key Changer instead.",あなたの所有するもののコードを解読しようとしています。パスコードを忘れた場合は代わりに汎用キーチェンジャーを使用してください。
 messages.securitycraft:codebreakerDisabled,The codebreaker has been disabled through the config file.,暗号解読機はコンフィグファイルにより無効化されています
 messages.securitycraft:command.sc.usage,Usage: /sc connect OR /sc disconnect OR /sc contact OR /sc resume,使用法: /sc connect または /sc disconnect または /sc contact または /sc resume
-messages.securitycraft:formattedCoordinates,X: %1$s Y: %2$s Z: %3$s,
+messages.securitycraft:formattedCoordinates,X: %1$s Y: %2$s Z: %3$s,X: %1$s Y: %2$s Z: %3$s
 messages.securitycraft:frame.camerasSet,Added camera positions from the monitor to the frame,モニターからフレームへのカメラ位置を追加
 messages.securitycraft:frame.cannotConvert,You cannot convert a frame with an active camera feed to a Keypad! Stop viewing the current camera feed to proceed with conversion.,アクティブなカメラフィードを含むフレームをキーパッドに変換することはできません。変換を続行するには現在のカメラフィードの表示を停止してください。
 messages.securitycraft:frame.disabled,The feature of viewing camera feeds in frames has been disabled through the server's configuration file.,カメラフィードをフレームで表示する機能はサーバーの設定ファイルによって無効になっています。
@@ -1402,10 +1402,149 @@ tooltip.securitycraft:universal_block_remover.disabled,Disabled. Use vanilla too
 waila.securitycraft:customName,Custom name: %s,カスタム名: %s
 waila.securitycraft:equipped,Equipped with:,装備:
 waila.securitycraft:owner,Owner: %s,所有者: %s
-block.securitycraft.protecto,Protecto,
-config.waila.plugin_securitycraft,SecurityCraft,
-messages.securitycraft:blockpocket.position.blocksAbove,%s block(s) above,
-messages.securitycraft:blockpocket.position.blocksBehind,%s block(s) behind,
-messages.securitycraft:blockpocket.position.blocksLeft,%s block(s) left of,
-messages.securitycraft:blockpocket.position.blocksRight,%s block(s) right of,
-messages.securitycraft:blockpocket.position.1,%s,
+block.securitycraft.protecto,Protecto,Protecto
+config.waila.plugin_securitycraft,SecurityCraft,SecurityCraft
+messages.securitycraft:blockpocket.position.blocksAbove,%s block(s) above,の上%sブロック
+messages.securitycraft:blockpocket.position.blocksBehind,%s block(s) behind,の後ろ%sブロック
+messages.securitycraft:blockpocket.position.blocksLeft,%s block(s) left of,の左%sブロック
+messages.securitycraft:blockpocket.position.blocksRight,%s block(s) right of,の右%sブロック
+messages.securitycraft:blockpocket.position.1,%s,%s
+securitycraft.configuration.always_drop,Always drop blocks,常にブロックをドロップ
+securitycraft.configuration.sentry_bullet_damage.tooltip,"Set the amount of damage the default Sentry bullet inflicts onto the mobs it hits. This will not affect other projectiles the Sentry can use, like arrows. Default is one heart.",デフォルトのセントリーの弾丸が命中したMobに与えるダメージ量を設定します。これはセントリーが使用できる矢などの他の発射物には影響しません。デフォルトはハート1個です。
+securitycraft.configuration.incorrectPasscodeDamage,Incorrect passcode damage,間違ったパスコードのダメージ
+securitycraft.configuration.sentry_attackable_entities_denylist,Sentry attackable entities denylist,セントリーの攻撃可能エンティティ拒否リスト
+block.securitycraft.reinforced_copper_grate,Reinforced Copper Grate,強化された銅の格子
+securitycraft.configuration.maxAlarmRange.tooltip,"What is the maximum value that can be set for an alarm's range option? Do note, that this may be limited by chunk loading distance. Higher values may also lead to the setting being less finetuneable.",アラームの範囲オプションに設定できる最大値は？チャンクの読み込み距離によって制限される可能性があることに注意してください。値を大きくすると設定を微調整しにくくなる可能性もあります。
+block.securitycraft.reinforced_polished_tuff_slab,Reinforced Polished Tuff Slab,強化された磨かれた凝灰岩のハーフブロック
+securitycraft.configuration.inventoryScannerRange.tooltip,At most from how many blocks away can an inventory scanner connect to another inventory scanner?,インベントリスキャナーは最大で何ブロック先から他のインベントリスキャナーに接続できるか？
+securitycraft.configuration.trick_scanners_with_player_heads,Trick scanners with player heads,プレイヤーの頭でスキャナーを騙す
+securitycraft.configuration.taser_damage,Taser damage,テーザー銃のダメージ
+securitycraft.configuration.prevent_reinforced_floor_glitching.tooltip,Set this to true to prevent players from glitching through a floor made of reinforced blocks using a boat. This is achieved by not letting players exit a boat in a way that would place them inside reinforced blocks.,この値をtrueに設定するとプレイヤーがボートを使って強化されたブロックの床をすり抜けるのを防ぐことができます。これはプレイヤーが強化ブロックの内側に入るような方法でボートから降りないようにすることで実現されます。
+securitycraft.configuration.passcode_spam_log_warning,Passcode spam log warning,パスコードのスパムログ警告
+securitycraft.configuration.team_ownership_precedence.tooltip,"This list defines in which order SecurityCraft checks teams of players to determine if they're on the same team, if ""enable_team_ownership"" is enabled. First in the list means it's checked first.
+SecurityCraft will continue checking for teams down the list until it finds a case where the players are on the same team, or the list is over. E.g. Given the default config, if FTB Teams is installed but the players do not share an FTB team, the mod checks if the same players are on the same vanilla team.
+Removing an entry makes the mod ignore that kind of team. Valid values are ""FTB_TEAMS"" and ""VANILLA"".","このリストは「enable_team_ownership」がtrueに設定されている場合、SecurityCraftがプレイヤーのチームをチェックして同じチームであるかどうかを判断する順序を定義します。リストの先頭は最初にチェックされることを意味します。
+SecurityCraftはプレイヤーが同じチームであるケースが見つかるまで、またはリストが終了するまでリストの下にあるチームのチェックを続けます。たとえばデフォルトの構成ではFTB Teamsがインストールされているが、プレイヤーがFTBチームを共有していない場合、MODは同じプレイヤーが同じバニラのチームであるかどうかをチェックします。
+エントリを削除するとMODはその種類のチームを無視します。有効な値は「FTB_TEAMS」と「VANILLA」です。"
+securitycraft.configuration.allowBlockClaim,Allow block claim,ブロック要求の許可
+securitycraft.configuration.shouldSpawnFire.tooltip,Should mines spawn fire after exploding?,地雷爆発後に火災を発生させるか？
+securitycraft.configuration.frame_feed_viewing_enabled.tooltip,"Set this to false to disable the feature that camera feeds can be viewed in frames. While this feature is generally stable, it may also impact server performance due to loading chunks within all active frame cameras' views.",カメラフィードをフレームで表示できる機能を無効にするにはこれをfalseに設定します。この機能は一般的に安定していますが、すべてのアクティブなフレームカメラのビュー内でチャンクを読み込むため、サーバーのパフォーマンスに影響する可能性もあります。
+securitycraft.configuration.allowAdminTool.tooltip,Can the admin tool be used?,管理ツールを使用できるようにするか？
+securitycraft.configuration.reinforced_suffocation_damage,Reinforced suffocation damage,強化されたブロックの窒息ダメージ
+securitycraft.configuration.reinforced_block_tint_color,Reinforced block tint color,強化されたブロックの色調
+block.securitycraft.reinforced_tuff_wall,Reinforced Tuff Wall,強化された凝灰岩の塀
+block.securitycraft.reinforced_oxidized_chiseled_copper,Reinforced Oxidized Chiseled Copper,強化された酸化した模様入りの銅
+securitycraft.configuration.non_owned_breaking_slowdown,Non-owned block breaking slowdown,オーナーではないブロックの破壊の速度低下
+securitycraft.configuration.frame_feed_render_distance,Frame feed render distance,フレームフィードの描画距離
+securitycraft.configuration.frame_feed_view_distance,Frame feed view distance,フレームフィードビューの距離
+securitycraft.configuration.section.securitycraft.client.toml.title,Client config settings,クライアント設定
+block.securitycraft.reinforced_weathered_chiseled_copper,Reinforced Weathered Chiseled Copper,強化された錆びた模様入りの銅
+securitycraft.configuration.mineExplodesWhenInCreative.tooltip,Should mines explode if broken while in Creative mode?,クリエイトモードで地雷を破壊すると爆発するか？
+block.securitycraft.reinforced_tuff_bricks,Reinforced Tuff Bricks,強化された凝灰岩レンガ
+securitycraft.configuration.always_drop.tooltip,"Whether SecurityCraft's blocks always drop themselves no matter which tool is used. If this is disabled, the correct tool must be used for the block to drop (e.g. pickaxe for reinforced stone, or anything for reinforced dirt).
+This only applies when ""Vanilla tool block breaking"" are enabled.","SecurityCraftのブロックがどのツールが使われても常にドロップするかどうか。これが無効になっている場合、ブロックをドロップするには正しいツールを使用する必要(強化された石の場合はツルハシ、強化された土の場合は何でも)があります。
+これは、「バニラのツールのブロック破壊」が有効になっている場合にのみ適用されます。"
+securitycraft.configuration.frame_feed_forceloading_limit,Frame feed forceloading limit,フレームフィードの強制読み込み制限
+tooltip.securitycraft.component.success_chance.disabled,Disabled,無効
+securitycraft.configuration.maxAlarmRange,Maximum Alarm range,最大アラーム範囲
+securitycraft.configuration.retinalScannerFace,Retinal scanner face,網膜スキャナーの顔
+securitycraft.configuration.sentry_attackable_entities_denylist.tooltip,"Add entities to this list that the Sentry currently attacks, but that you want the Sentry to NOT attack. The denylist takes priority over the allowlist.",セントリーが現在攻撃しているが攻撃をしてほしくないエンティティをこのリストに追加します。拒否リストは許可リストよりも優先されます。
+securitycraft.configuration.disable_thanks_message,Disable message when joining the world,ワールドに参加したときのメッセージを無効化
+securitycraft.configuration.passcode_check_cooldown.tooltip,Defines the amount of time in milliseconds that needs to pass between two separate attempts from a player to enter a passcode.,プレイヤーがパスコードを2回入力する間に必要な待機時間をミリ秒単位で設定します。
+securitycraft.configuration.smallerMineExplosion,Smaller mine explosions,小さな地雷爆発
+block.securitycraft.reinforced_lightning_rod,Reinforced Lightning Rod,
+securitycraft.configuration.allow_breaking_non_owned_blocks,Allow breaking non-owned blocks,オーナーではないブロックの破壊の許可
+securitycraft.configuration.allowAdminTool,Allow Admin Tool,管理ツールの許可
+securitycraft.configuration.frame_feed_forceloading_limit.tooltip,Set the limit of chunks per dimension that may be forceloaded around frame feeds. A value of 0 will prevent any frame feed from forceloading chunks. A value of -1 will allow an unlimited number of chunks to be forceloaded by frame feeds.,フレームフィードの前後で強制読み込みできるチャンクの数をディメンションごとに制限します。値が0の場合、どのフレームフィードもチャンクを強制読み込みしません。値が-1の場合、フレームフィードによって強制読み込みされるチャンクの数は無制限になります。
+securitycraft.configuration.frame_feed_resolution,Frame feed resolution,フレームフィードの解像度
+securitycraft.configuration.allowBlockClaim.tooltip,Allows to claim blocks that do not have an owner by rightclicking them with the Universal Owner Changer.,汎用オーナーチェンジャーでオーナーのいないブロックの所有権の取得を許可します。
+securitycraft.configuration.frame_feed_view_distance.tooltip,"Set the radius in which chunks viewed in a frame camera should be loaded and sent to players. If this config has a higher value than the ""view-distance"" server property or the vanilla ""Render Distance"" option of the player requesting the chunks, the smaller value is used instead.",フレームカメラで表示されるチャンクをロードしてプレイヤーに送信する半径を設定します。この構成の値がチャンクを要求しているプレイヤーの「view-distance」サーバープロパティまたは標準の「描画距離」オプションよりも高い場合は、代わりに小さい値が使用されます。
+block.securitycraft.reinforced_tuff_brick_slab,Reinforced Tuff Brick Slab,強化された凝灰岩レンガのハーフブロック
+securitycraft.configuration.trick_scanners_with_player_heads.tooltip,Set this to true if you want players wearing a different player's skull to be able to trick their retinal scanners and scanner doors into activating.,別のプレイヤーの頭を装着したプレイヤーが網膜スキャナーとスキャナードアを騙して起動できるようにするにはこれをtrueに設定します。
+securitycraft.configuration.frame_feed_render_distance.tooltip,"Set the radius in which chunks viewed in a frame camera feed should be requested from the server and rendered. If this config has a higher value than the vanilla ""Render Distance"" option or the ""view-distance"" server property, the smaller value is used instead.",フレームカメラフィードに表示されるチャンクをサーバーから要求して描画する半径を設定します。この構成の値が標準の「描画距離」オプションまたは「view-distance」サーバープロパティよりも高い場合は代わりに小さい値が使用されます。
+securitycraft.configuration.section.securitycraft.server.toml.title,Server config settings,サーバー設定
+block.securitycraft.reinforced_polished_tuff,Reinforced Polished Tuff,強化された磨かれた凝灰岩
+block.securitycraft.reinforced_exposed_chiseled_copper,Reinforced Exposed Chiseled Copper,強化された風化した模様入りの銅
+securitycraft.configuration.allow_camera_night_vision.tooltip,Set this to false to disallow players to activate night vision without having the potion effect when looking through cameras.,これをfalseに設定するとプレイヤーはカメラを通して見るときにポーションの効果なしで暗視を有効化できなくなります。
+block.securitycraft.reinforced_tuff_stairs,Reinforced Tuff Stairs,強化された凝灰岩の階段
+tooltip.securitycraft.component.success_chance,Success chance: %s,成功確率: %s
+securitycraft.configuration.non_owned_breaking_slowdown.tooltip,"How much slower it should be to break a block that is not owned by the player breaking it.
+The value is calculated as the normal block breaking speed divided by the non-owned block breaking slowdown. Example: A value of 2.0 means it takes twice as long to break the block.
+This only applies when ""Allow breaking non-owned blocks"" and ""Vanilla tool block breaking"" are enabled.","プレイヤーがオーナーではないブロックを破壊するのにどれくらい時間がかかるか。
+この値は、通常のブロック破壊速度をオーナーではないブロック破壊の減速で割って計算されます。例: 値が2.0の場合、ブロックを破壊するのに2倍の時間がかかります。
+これは、「オーナーではないブロックの破壊の許可」と「バニラのツールのブロック破壊」が有効になっている場合にのみ適用されます。"
+securitycraft.configuration.team_ownership_precedence,Team ownership precedence,チーム所有権の優先順位
+securitycraft.configuration.force_reinforced_block_tint.tooltip,Set this to true if you want to force the setting of reinforced_block_tint for players.,プレイヤーに対してreinforced_block_tintの設定を強制する場合はこれをtrueに設定します。
+securitycraft.configuration.mineExplosionsBreakBlocks,Mine explosions break blocks,地雷爆発によるブロック破壊
+securitycraft.configuration.incorrectPasscodeDamage.tooltip,"Defines the damage that a block requiring a passcode deals to the player, if the player enters an incorrect code. This only works if a harming module is installed.
+Default is two hearts of damage.","パスコードを必要とするブロックがプレイヤーが間違ったコードを入力した場合にプレイヤーに与えるダメージを定義します。これはハーミングモジュールがインストールされている場合にのみ機能します。
+デフォルトはハート2個のダメージです。"
+securitycraft.configuration.inventoryScannerRange,Inventory Scanner range,インベントリスキャナーの範囲
+securitycraft.configuration.reinforced_block_tint,Enable reinforced block tint,強化されたブロックの色調の有効化
+securitycraft.configuration.passcode_check_cooldown,Passcode check cooldown,パスコードチェックのクールダウン
+block.securitycraft.reinforced_polished_tuff_wall,Reinforced Polished Tuff Wall,強化された磨かれた凝灰岩の塀
+securitycraft.configuration.reinforced_block_tint_color.tooltip,"Set the color that reinforced blocks' textures have when reinforced_block_tint is enabled. This cannot be overridden by servers, and will be applied the same to all blocks. Grayscale values look best.",強化されたブロックのテクスチャの色をreinforced_block_tintが有効な場合に設定してください。これはサーバーによって上書きすることはできずすべてのブロックに同じように適用されます。グレースケール値が最も見栄えがします。
+block.securitycraft.reinforced_oxidized_copper_grate,Reinforced Oxidized Copper Grate,強化された酸化した銅の格子
+securitycraft.configuration.sentry_attackable_entities_allowlist,Sentry attackable entities allowlist,セントリーの攻撃可能エンティティ許可リスト
+block.securitycraft.reinforced_tuff_brick_stairs,Reinforced Tuff Brick Stairs,強化された凝灰岩レンガの階段
+securitycraft.configuration.debug_camera_reset_tracing.tooltip,"If this debug feature is enabled, SecurityCraft will attempt to find and report mods that prevent the feature of viewing security cameras from working when they immediately reset the player's camera entity.",このデバッグ機能を有効にすると、SecurityCraftはプレイヤーのカメラエンティティを即座にリセットすることでセキュリティカメラの表示機能を阻害するMODを検出し、報告しようとします。
+securitycraft.configuration.title,SecurityCraft Configuration,SecurityCraft設定
+block.securitycraft.reinforced_chiseled_tuff_bricks,Reinforced Chiseled Tuff Bricks,強化された模様入りの凝灰岩レンガ
+block.securitycraft.reinforced_weathered_copper_bulb,Reinforced Weathered Copper Bulb,強化された錆びた銅の電球
+securitycraft.configuration.retinalScannerFace.tooltip,Display owner face on retinal scanner?,網膜スキャナーにオーナーの顔を表示するか？
+securitycraft.configuration.taser_damage.tooltip,Set the amount of damage the taser inflicts onto the mobs it hits. Default is half a heart.,テーザー銃が命中したMobに与えるダメージの量を設定します。デフォルトはハートの半分です。
+block.securitycraft.reinforced_copper_bulb,Reinforced Copper Bulb,強化された銅の電球
+securitycraft.configuration.passcode_spam_log_warning.tooltip,"The warning that is sent into the server log whenever a player tries to enter a passcode while on passcode cooldown. ""%1$s"" will be replaced with the player's name, ""%2$s"" with the passcode-protected object's name and ""%3$s"" with the object's position and dimension.",パスコードのクールダウン中にプレイヤーがパスコードを入力しようとするたびにサーバーログに送信される警告。「%1$s」はプレイヤーの名前に置き換えられ、「%2$s」はパスコードで保護されたオブジェクトの名前に置き換えられ、「%3$s」はオブジェクトの位置とディメンションに置き換えられます。
+securitycraft.configuration.vanilla_tool_block_breaking.tooltip,"Whether SecurityCraft's blocks should be broken using vanilla tools (axe, shovel, hoe, ...), instead of the Universal Block Remover. If enabled, this will disable the Universal Block Remover.",SecurityCraftのブロックを汎用ブロック除去機ではなく通常のツール(斧、シャベル、クワなど)を使用して破壊するかどうかを指定します。有効にすると汎用ブロック除去機が無効になります。
+securitycraft.configuration.shouldSpawnFire,Mines explosions spawn fire,地雷爆発による火災発生
+block.securitycraft.reinforced_chiseled_copper,Reinforced Chiseled Copper,強化された模様入りの銅
+securitycraft.configuration.section.securitycraft.client.toml,Client config settings,クライアント設定
+securitycraft.configuration.smallerMineExplosion.tooltip,Should mines' explosions be smaller than usual?,通常よりも小さい地雷の爆発にするか？
+securitycraft.configuration.sayThanksMessage,Send a welcome message containing tips when joining the world,ワールド参加時にヒントを含むウェルカムメッセージを送信
+config.jade.plugin_securitycraft.block_info,Show SecurityCraft block information?,SecurityCraftの情報を表示する？
+securitycraft.configuration.sentry_bullet_damage,Sentry bullet damage,セントリーの弾丸ダメージ
+securitycraft.configuration.mineExplosionsBreakBlocks.tooltip,"Set this to false if you want mines to not break blocks when they explode. If this is enabled, the ""blockExplosionDropDecay"" gamerule will be respected",地雷が爆発してもブロックを壊さないようにしたい場合はfalseに設定します。この設定をtrueにするとgameruleの「blockExplosionDropDecay」が適用されます。
+securitycraft.configuration.prevent_reinforced_floor_glitching,Prevent reinforced floor glitching,強化された床のすり抜けを防止
+securitycraft.configuration.sentry_attackable_entities_allowlist.tooltip,"Add entities to this list that the Sentry currently does not attack, but that you want the Sentry to attack. The denylist takes priority over the allowlist.",セントリーが現在攻撃していないが攻撃をさせたいエンティティをこのリストに追加します。拒否リストは許可リストよりも優先されます。
+block.securitycraft.reinforced_exposed_copper_grate,Reinforced Exposed Copper Grate,強化された風化した銅の格子
+block.securitycraft.reinforced_chiseled_tuff,Reinforced Chiseled Tuff,強化された模様入りの凝灰岩
+securitycraft.configuration.laserBlockRange,Laser Block range,レーザーブロックの範囲
+securitycraft.configuration.frame_feed_viewing_enabled,Frame feed viewing enabled,フレームフィードビューの有効化
+securitycraft.configuration.vanilla_tool_block_breaking,Vanilla tool block breaking,バニラのツールのブロック破壊
+securitycraft.configuration.disable_thanks_message.tooltip,"Set this to true to disable sending the message that SecurityCraft shows when a player joins.
+Note, that this stops showing the message for every player, even those that want to see them.","これをtrueに設定するとプレイヤーが参加したときにSecurityCraftが表示するメッセージの送信が無効になります。
+注意: これによりメッセージを見たいプレイヤーであってもすべてのプレイヤーに対してメッセージが表示されなくなります。"
+config.jade.plugin_securitycraft.entity_info,Show SecurityCraft entity information?,SecurityCraftの情報を表示する？
+securitycraft.configuration.enable_team_ownership,Enable team ownership,チーム所有の許可
+securitycraft.configuration.laser_damage,Laser damage,レーザーのダメージ
+block.securitycraft.reinforced_tuff_slab,Reinforced Tuff Slab,強化された凝灰岩のハーフブロック
+securitycraft.configuration.laserBlockRange.tooltip,At most from how many blocks away can a laser block connect to another laser block?,レーザーブロックは最大で何ブロック先から他のレーザーブロックに接続できるか？
+block.securitycraft.reinforced_oxidized_copper_bulb,Reinforced Oxidized Copper Bulb,強化された酸化した銅の電球
+securitycraft.configuration.frame_feed_fps_limit,Frame feed FPS limit,フレームフィードのFPS制限
+securitycraft.configuration.frame_feed_resolution.tooltip,"Set the resolution of the Frame camera feed. This is always a square resolution. Smaller values will be less detailed, higher values may lead to diminishing returns.",フレームカメラフィードの解像度を設定します。これは常に正方形の解像度です。値が小さいほど詳細度が低くなり、値が大きいほど効果が低下する可能性があります。
+block.securitycraft.reinforced_weathered_copper_grate,Reinforced Weathered Copper Grate,強化された錆びた銅の格子
+securitycraft.configuration.reinforced_suffocation_damage.tooltip,"Set the amount of damage the player receives when they are suffocating in a reinforced block. The default is two and a half hearts. If the value is set to -1, vanilla suffocation damage will be used.",強化されたブロック内でプレイヤーが窒息しているときに受けるダメージの量を設定します。デフォルトはハート2.5個です。値を-1に設定するとバニラの窒息ダメージが使用されます。
+securitycraft.configuration.sayThanksMessage.tooltip,Send a message when joining the world,ワールド参加時にメッセージを送信します
+securitycraft.configuration.debug_camera_reset_tracing,Debug camera reset tracing,カメラリセットのトレースをデバッグ
+securitycraft.configuration.allow_breaking_non_owned_blocks.tooltip,"Whether players who are not the owner of a block can still destroy it.
+This applies regardless of what ""Vanilla tool block breaking"" is set to.","ブロックのオーナーではないプレイヤーがブロックを破壊できるかどうか。
+これは、「バニラのツールのブロック破壊」の設定に関係なく適用されます。"
+securitycraft.configuration.laser_damage.tooltip,"Defines the damage inflicted to an entity if it passes through a laser with installed harming module. This is given in health points, meaning 2 health points = 1 heart",ハーミングモジュールが取り付けられたレーザーを通過した場合にエンティティに与えられるダメージを定義します。これはヘルスポイントで与えられ、ヘルスポイント2はハート1個を意味します。
+securitycraft.configuration.passcode_spam_log_warning_enabled.tooltip,Set this to false to disable the log warning that is sent whenever a player tries to enter a passcode while on passcode cooldown.,これをfalseに設定するとパスコードのクールダウン中にプレイヤーがパスコードを入力しようとするたびに送信されるログ警告が無効になります。
+securitycraft.configuration.powered_taser_damage,Powered taser damage,パワードテーザー銃のダメージ
+securitycraft.configuration.reinforced_block_tint.tooltip,"Should reinforced blocks' textures be slightly darker than their vanilla counterparts? Servers can force this setting on clients if the server config setting ""force_reinforced_block_tint"" is enabled.",強化されたブロックのテクスチャはバニラブロックのテクスチャよりも少し暗くする必要があるか？サーバーの設定「force_reinforced_block_tint」がtrueに設定されている場合、サーバーはクライアントにこの設定を強制できます。
+securitycraft.configuration.enable_team_ownership.tooltip,"Set this to true to enable every player on a scoreboard team (or FTB Teams party) to own the blocks of every other player on the same team.
+This enables players on the same team to break each other's reinforced blocks, change options, add/remove modules, and have access to all other owner-restricted things.","これをtrueに設定するとスコアボードチーム(またはFTBチームパーティー)のすべてのプレイヤーが同じチームの他のすべてのプレイヤーのブロックを所有できるようになります。
+これにより同じチームのプレイヤーはお互いの強化されたブロックを破壊したり、オプションを変更したり、モジュールを追加/削除したり、オーナーに制限されているその他のすべてのものにアクセスできるようになります。"
+securitycraft.configuration.section.securitycraft.server.toml,Server config settings,サーバー設定
+securitycraft.configuration.mineExplodesWhenInCreative,Mines explode when in creative mode,クリエイトモードでの地雷の爆発
+securitycraft.configuration.powered_taser_damage.tooltip,Set the amount of damage the powered taser inflicts onto the mobs it hits. Default is one heart.,パワードテーザー銃が命中したMobに与えるダメージの量を設定します。デフォルトはハート1個です。
+block.securitycraft.reinforced_tuff_brick_wall,Reinforced Tuff Brick Wall,強化された凝灰岩レンガの塀
+securitycraft.configuration.passcode_spam_log_warning_enabled,Enable passcode spam log warning,パスコードのスパムログ警告の有効化
+securitycraft.configuration.force_reinforced_block_tint,Force reinforced block tint,強化されたブロックの色調を強制
+securitycraft.configuration.allow_camera_night_vision,Allow camera night vision,カメラの暗視の許可
+securitycraft.configuration.frame_feed_fps_limit.tooltip,The maximum amount of frames per second the Frame camera feed renders at. Higher values will lead to worse performance.,フレームカメラフィードが描画する1秒あたりの最大フレーム数。値が高いほどパフォーマンスが低下します。
+securitycraft.configuration.in_world_un_reinforcing,Enable in-world un-/reinforcing,ワールド内での強化/強化解除を有効にする
+block.securitycraft.reinforced_exposed_copper_bulb,Reinforced Exposed Copper Bulb,強化された風化した銅の電球
+securitycraft.configuration.in_world_un_reinforcing.tooltip,Setting this to false disables the ability of the Universal Block Reinforcer to (un-)reinforce blocks that are placed in the world.,これをfalseに設定するとワールド内に配置されたブロックを強化(解除)する「汎用ブロック強化機」の機能が無効になります。
+block.securitycraft.reinforced_polished_tuff_stairs,Reinforced Polished Tuff Stairs,強化された磨かれた凝灰岩の階段

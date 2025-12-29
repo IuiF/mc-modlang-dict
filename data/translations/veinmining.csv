@@ -71,8 +71,10 @@ tutorial.veinmining.enchantment.standing,Crouch to stop vein mining.,ベイン�
 tutorial.veinmining.key.no_configuration,Your vein mining configuration does not use key bindings.,ベインマイニング設定はキー入力を使用しません。
 tutorial.veinmining.key.no_enchantment,You need the §3Vein Mining §fenchantment on your tool to vein mine.,ツールに §3Vein Mining §enchantment が必要です。
 gui.veinmining.config.activationState.description,"If maxBlocksBase from veinmining-server.toml is 0, determines how to activate vein mining.
-IMPORTANT: When using the ""HOLD_KEY_DOWN"" setting, remember to set a key binding by going to Options > Controls > Key Binds.",
+IMPORTANT: When using the ""HOLD_KEY_DOWN"" setting, remember to set a key binding by going to Options > Controls > Key Binds.","veinmining-server.tomlの maxBlocksBase が0の場合、脈動採掘をアクティベートする方法を決定します。
+重要: ""HOLD_KEY_DOWN"" 設定を使用する場合、オプション > コントロール > キーバインドを開いてキーバインディングを設定することを忘れずに。"
 gui.veinmining.config.activationStateWithoutEnchantment.description,"If maxBlocksBase from veinmining-server.toml is greater than 0, determines how to activate vein mining.
-IMPORTANT: When using the ""HOLD_KEY_DOWN"" setting, remember to set a key binding by going to Options > Controls > Key Binds.",
-gui.veinmining.config.blocksList.description,"The blocks or block tags for vein mining if blocks is set to ""CONFIG_LIST"".",
-gui.veinmining.config.isLootable.description,"If enabled, the enchantment can generate in loot.",
+IMPORTANT: When using the ""HOLD_KEY_DOWN"" setting, remember to set a key binding by going to Options > Controls > Key Binds.","veinmining-server.tomlの maxBlocksBase が0より大きい場合、脈動採掘をアクティベートする方法を決定します。
+重要: ""HOLD_KEY_DOWN"" 設定を使用する場合、オプション > コントロール > キーバインドを開いてキーバインディングを設定することを忘れずに。"
+gui.veinmining.config.blocksList.description,"The blocks or block tags for vein mining if blocks is set to ""CONFIG_LIST"".","blocks が ""CONFIG_LIST"" に設定されている場合の、脈動採掘用のブロックまたはブロックタグ。"
+gui.veinmining.config.isLootable.description,"If enabled, the enchantment can generate in loot.",有効にすると、エンチャントはドロップアイテムで生成できます。

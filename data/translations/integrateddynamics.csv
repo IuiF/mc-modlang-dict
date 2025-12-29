@@ -811,7 +811,7 @@ item.integrateddynamics.bucket_liquid_chorus,Liquid Chorus Bucket,液体コー�
 item.integrateddynamics.bucket_menril_resin,Menril Resin Bucket,メンリル樹脂バケツ
 item.integrateddynamics.facade,Facade,ファサード
 item.integrateddynamics.facade.info,Combine with a block in crafting table,クラフトテーブルでブロックと組み合わせ
-item.integrateddynamics.general.id,§e§lID: §r%s,
+item.integrateddynamics.general.id,§e§lID: §r%s,§e§lID: §r%s
 item.integrateddynamics.labeller,Labeller,ラベラー
 item.integrateddynamics.labeller.button.write,Write,書き込み
 item.integrateddynamics.labeller.info,Labels your variables. Also works in the Logic Programmer.,変数にラベルを付けます。Logic Programmerでも動作します
@@ -1223,7 +1223,7 @@ operator.integrateddynamics.nbt.as_string,NBT String As String,NBT文字列 → 
 operator.integrateddynamics.nbt.as_string.info,Get the String value of the given NBT String tag,取得 文字列値of与えられたNBT 文字列 タグ
 operator.integrateddynamics.nbt.as_tag_list,NBT List As NBT List,NBTリスト → NBTリスト
 operator.integrateddynamics.nbt.as_tag_list.info,Get the NBT List value of the given NBT List tag,取得 NBTリスト値of与えられたNBTリストタグ
-operator.integrateddynamics.nbt.basename,NBT %s,
+operator.integrateddynamics.nbt.basename,NBT %s,NBT %s
 operator.integrateddynamics.nbt.compound_haskey,NBT Compound Has Key,NBTコンパウンドがキーを持つ
 operator.integrateddynamics.nbt.compound_haskey.info,If the given NBT compound tag contains the given key,If与えられたNBTコンパウンドタグ contains与えられたkey
 operator.integrateddynamics.nbt.compound_intersection,NBT Compound Intersection,NBTコンパウンド交差
@@ -3216,3 +3216,45 @@ operator.operators.integrateddynamics.recipe.withInputOutput.name,Recipe With In
 config.integrateddynamics.theoneprobe,The One Probe,ワンプローブ
 aspect.aspects.integrateddynamics.read.list.refinedstorage.inventory.itemstacks.info,A list of all the items in the RS network.,RSネットワーク内のすべてのアイテムのリスト
 aspect.aspects.integrateddynamics.write.boolean.refinedstorage.cancelcraft.info,Cancel all running crafting jobs in the RS network.,RSネットワークで実行中のすべてのクラフトジョブをキャンセル
+aspect.integrateddynamics.write.integer.audio.instrument.creeper.info,"Output a creeper note, expected range [0, 24]",クリーパーの音域を出力する。予想される範囲は0から24
+aspect.integrateddynamics.write.integer.audio.instrument.custom_head,Head Note,頭音
+operator.integrateddynamics.fluidstack.datakeys,Data Keys,データキー
+aspect.integrateddynamics.write.integer.audio.instrument.zombie,Zombie Note,ゾンビ音
+operator.integrateddynamics.itemstack.datakeys,Data Keys,データキー
+aspect.integrateddynamics.read.integer.audio.instrument.custom_head.info,"Reads a head note, expected range [0, 24]",頭の音域を読み込む。予想される範囲は0から24
+aspect.integrateddynamics.write.integer.audio.instrument.piglin,Piglin Note,ピグリン音
+aspect.integrateddynamics.read.integer.audio.instrument.custom_head,Head Note,頭音
+aspect.integrateddynamics.read.integer.audio.instrument.wither_skeleton.info,"Reads a wither skeleton note, expected range [0, 24]",ウィザースケルトンの音域を読み込む。予想される範囲は0から24
+aspect.integrateddynamics.read.integer.audio.instrument.zombie.info,"Reads a zombie note, expected range [0, 24]",ゾンビの音域を読み込む。予想される範囲は0から24
+aspect.integrateddynamics.read.integer.audio.instrument.zombie,Zombie Note,ゾンビ音
+operator.integrateddynamics.fluidstack.datavalue,Data Value,データ値
+aspect.integrateddynamics.write.integer.audio.instrument.dragon.info,"Output a dragon note, expected range [0, 24]",ドラゴンの音域を出力する。予想される範囲は0から24
+aspect.integrateddynamics.write.integer.audio.instrument.skeleton,Skeleton Note,スケルトン音
+aspect.integrateddynamics.read.integer.audio.instrument.piglin.info,"Reads a piglin note, expected range [0, 24]",ピグリンの音域を読み込む。予想される範囲は0から24
+operator.integrateddynamics.itemstack.datavalue.info,Get the value of the given data component key.,指定されたデータコンポーネントキーの値を取得します。
+operator.integrateddynamics.itemstack.withdata.info,Add the given data component key and value to the given item stack.,指定されたデータコンポーネントのキーと値を指定されたアイテムスタックに追加します。
+aspect.integrateddynamics.write.integer.audio.instrument.dragon,Dragon Note,ドラゴン音
+aspect.integrateddynamics.write.integer.audio.instrument.skeleton.info,"Output a skeleton note, expected range [0, 24]",スケルトンの音域を出力する。予想される範囲は0から24
+aspect.integrateddynamics.read.integer.audio.instrument.dragon.info,"Reads a dragon note, expected range [0, 24]",ドラゴンの音域を読み込む。予想される範囲は0から24
+operator.integrateddynamics.itemstack.datakeys.info,Get all data component keys of the item stack.,アイテムスタックのすべてのデータコンポーネントキーを取得します。
+aspect.integrateddynamics.write.integer.audio.instrument.piglin.info,"Output a piglin note, expected range [0, 24]",ピグリンの音域を出力する。予想される範囲は0から24
+aspect.integrateddynamics.write.integer.audio.instrument.custom_head.info,"Output a head note, expected range [0, 24]",頭の音域を出力する。予想される範囲は0から24
+aspect.integrateddynamics.read.integer.audio.instrument.skeleton,Skeleton Note,スケルトン音
+aspect.integrateddynamics.write.integer.audio.instrument.zombie.info,"Output a zombie note, expected range [0, 24]",ゾンビの音域を出力する。予想される範囲は0から24
+aspect.integrateddynamics.read.integer.audio.instrument.dragon,Dragon Note,ドラゴン音
+aspect.integrateddynamics.read.integer.audio.instrument.creeper.info,"Reads a creeper note, expected range [0, 24]",クリーパーの音域を読み込む。予想される範囲は0から24
+aspect.integrateddynamics.read.integer.audio.instrument.skeleton.info,"Reads a skeleton note, expected range [0, 24]",スケルトンの音域を読み込む。予想される範囲は0から24
+operator.integrateddynamics.itemstack.datavalue,Data Value,データ値
+aspect.integrateddynamics.write.integer.audio.instrument.creeper,Creeper Note,クリーパー音
+operator.integrateddynamics.fluidstack.withdata,With Data,データ付き
+operator.integrateddynamics.fluidstack.withdata.info,Add the given data component key and value to the given fluid stack.,指定されたデータコンポーネントのキーと値を指定された流体スタックに追加します。
+aspect.integrateddynamics.read.integer.audio.instrument.piglin,Piglin Note,ピグリン音
+operator.integrateddynamics.fluidstack.fluidbyname,Fluid By Name,
+aspect.integrateddynamics.write.integer.audio.instrument.wither_skeleton.info,"Output a wither skeleton note, expected range [0, 24]",ウィザースケルトンの音域を出力する。予想される範囲は0から24
+operator.integrateddynamics.fluidstack.datakeys.info,Get all data component keys of the fluid stack.,流体スタックのすべてのデータコンポーネントキーを取得します。
+operator.integrateddynamics.fluidstack.fluidbyname.info,Get the fluid corresponding to the given unique name.,
+operator.integrateddynamics.itemstack.withdata,With Data,データ付き
+aspect.integrateddynamics.read.integer.audio.instrument.creeper,Creeper Note,クリーパー音
+aspect.integrateddynamics.read.integer.audio.instrument.wither_skeleton,Wither Skeleton Note,ウィザースケルトン音
+aspect.integrateddynamics.write.integer.audio.instrument.wither_skeleton,Wither Skeleton Note,ウィザースケルトン音
+operator.integrateddynamics.fluidstack.datavalue.info,Get the value of the given data component key.,指定されたデータコンポーネントキーの値を取得します。

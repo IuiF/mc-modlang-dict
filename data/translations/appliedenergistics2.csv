@@ -733,7 +733,7 @@ waila.appliedenergistics2.p2p_output_one_input,Linked (Output Side) - 1 Input,1�
 waila.appliedenergistics2.p2p_output_many_inputs,Linked (Output Side) - §2%d§r Inputs,リンク完了 (接続先) - §2%d§r個接続中
 theoneprobe.appliedenergistics2.crafting,Crafting: §2%1$s§r,クラフト中: §2%1$s§r
 theoneprobe.appliedenergistics2.p2p_frequency,Frequency: §5%1$s§r,周波数: §5%1$s§r
-theoneprobe.appliedenergistics2.stored_energy,§2%1$d§к / §4%2$d§r,
+theoneprobe.appliedenergistics2.stored_energy,§2%1$d§к / §4%2$d§r,§2%1$d§k / §4%2$d§r
 item.appliedenergistics2.fluid_storage_cell_1k.name,1k ME Fluid Storage Cell,1k ME液体セル
 item.appliedenergistics2.fluid_storage_cell_4k.name,4k ME Fluid Storage Cell,4k ME液体セル
 item.appliedenergistics2.fluid_storage_cell_16k.name,16k ME Fluid Storage Cell,16k ME液体セル
@@ -766,439 +766,439 @@ gui.appliedenergistics2.METunnel,ME,
 gui.appliedenergistics2.EUTunnel,EU,
 gui.appliedenergistics2.RFTunnel,RF,
 gui.appliedenergistics2.FETunnel,FE,
-block.appliedenergistics2.16k_crafting_storage,16k Crafting Storage,
-block.appliedenergistics2.1k_crafting_storage,1k Crafting Storage,
-block.appliedenergistics2.4k_crafting_storage,4k Crafting Storage,
-block.appliedenergistics2.64k_crafting_storage,64k Crafting Storage,
-gui.appliedenergistics2.CellWorkbench,Cell Workbench,
-gui.appliedenergistics2.Chest,ME Chest,
-gui.appliedenergistics2.Condenser,Matter Condenser,
-gui.appliedenergistics2.Drive,ME Drive,
-gui.appliedenergistics2.FluidInterface,ME Fluid Interface,
-gui.appliedenergistics2.IOPort,ME IO Port,
-gui.appliedenergistics2.Inscriber,Inscriber,
-gui.appliedenergistics2.Interface,ME Interface,
-gui.appliedenergistics2.MolecularAssembler,Molecular Assembler,
-gui.appliedenergistics2.SkyChest,Sky Stone Chest,
-gui.appliedenergistics2.SpatialIOPort,Spatial IO Port,
-gui.appliedenergistics2.VibrationChamber,Vibration Chamber,
-gui.appliedenergistics2.security.craft.name,Craft,
-gui.tooltips.appliedenergistics2.StoredItems,Stored Items,
-item.appliedenergistics2.128_cubed_spatial_cell_component,128³ Spatial Component,
-item.appliedenergistics2.128_cubed_spatial_storage_cell,128³ Spatial Storage Cell,
-item.appliedenergistics2.16_cubed_spatial_cell_component,16³ Spatial Component,
-item.appliedenergistics2.16_cubed_spatial_storage_cell,16³ Spatial Storage Cell,
-item.appliedenergistics2.16k_cell_component,16k ME Storage Component,
-item.appliedenergistics2.16k_fluid_cell_component,16k ME Fluid Storage Component,
-item.appliedenergistics2.16k_fluid_storage_cell,16k ME Fluid Storage Cell,
-item.appliedenergistics2.16k_storage_cell,16k ME Storage Cell,
-item.appliedenergistics2.1k_cell_component,1k ME Storage Component,
-item.appliedenergistics2.1k_fluid_cell_component,1k ME Fluid Storage Component,
-item.appliedenergistics2.1k_fluid_storage_cell,1k ME Fluid Storage Cell,
-item.appliedenergistics2.1k_storage_cell,1k ME Storage Cell,
-item.appliedenergistics2.2_cubed_spatial_cell_component,2³ Spatial Component,
-item.appliedenergistics2.2_cubed_spatial_storage_cell,2³ Spatial Storage Cell,
-item.appliedenergistics2.4k_cell_component,4k ME Storage Component,
-item.appliedenergistics2.4k_fluid_cell_component,4k ME Fluid Storage Component,
-item.appliedenergistics2.4k_fluid_storage_cell,4k ME Fluid Storage Cell,
-item.appliedenergistics2.4k_storage_cell,4k ME Storage Cell,
-item.appliedenergistics2.64k_cell_component,64k ME Storage Component,
-item.appliedenergistics2.64k_fluid_cell_component,64k ME Fluid Storage Component,
-item.appliedenergistics2.64k_fluid_storage_cell,64k ME Fluid Storage Cell,
-item.appliedenergistics2.64k_storage_cell,64k ME Storage Cell,
-item.appliedenergistics2.advanced_card,Advanced Card,
-item.appliedenergistics2.annihilation_core,Annihilation Core,
-item.appliedenergistics2.annihilation_plane,ME Annihilation Plane,
-item.appliedenergistics2.basic_card,Basic Card,
-item.appliedenergistics2.blank_pattern,Blank Pattern,
-item.appliedenergistics2.cable_anchor,Cable Anchor,
-item.appliedenergistics2.cable_energy_acceptor,Energy Acceptor,
-item.appliedenergistics2.cable_fluid_interface,ME Fluid Interface,
-item.appliedenergistics2.cable_interface,ME Interface,
-item.appliedenergistics2.calculation_processor,Calculation Processor,
-item.appliedenergistics2.calculation_processor_press,Inscriber Calculation Press,
-item.appliedenergistics2.capacity_card,Capacity Card,
-item.appliedenergistics2.certus_crystal_seed,Certus Quartz Seed,
-item.appliedenergistics2.certus_quartz_crystal,Certus Quartz Crystal,
-item.appliedenergistics2.certus_quartz_dust,Certus Quartz Dust,
-item.appliedenergistics2.certus_quartz_shovel,Certus Quartz Shovel,
-item.appliedenergistics2.charged_certus_quartz_crystal,Charged Certus Quartz Crystal,
-item.appliedenergistics2.conversion_monitor,ME Conversion Monitor,
-item.appliedenergistics2.crafting_card,Crafting Card,
-item.appliedenergistics2.crafting_monitor,ME Crafting Monitor,
-item.appliedenergistics2.crafting_terminal,ME Crafting Terminal,
-item.appliedenergistics2.dark_monitor,Dark Illuminated Panel,
+block.appliedenergistics2.16k_crafting_storage,16k Crafting Storage,16k クラフトストレージ
+block.appliedenergistics2.1k_crafting_storage,1k Crafting Storage,1k クラフトストレージ
+block.appliedenergistics2.4k_crafting_storage,4k Crafting Storage,4k クラフトストレージ
+block.appliedenergistics2.64k_crafting_storage,64k Crafting Storage,64k クラフトストレージ
+gui.appliedenergistics2.CellWorkbench,Cell Workbench,セルワークベンチ
+gui.appliedenergistics2.Chest,ME Chest,ME チェスト
+gui.appliedenergistics2.Condenser,Matter Condenser,物質凝縮器
+gui.appliedenergistics2.Drive,ME Drive,ME ドライブ
+gui.appliedenergistics2.FluidInterface,ME Fluid Interface,ME 流体インターフェース
+gui.appliedenergistics2.IOPort,ME IO Port,ME IO ポート
+gui.appliedenergistics2.Inscriber,Inscriber,刻印機
+gui.appliedenergistics2.Interface,ME Interface,ME インターフェース
+gui.appliedenergistics2.MolecularAssembler,Molecular Assembler,分子組立機
+gui.appliedenergistics2.SkyChest,Sky Stone Chest,スカイストーン チェスト
+gui.appliedenergistics2.SpatialIOPort,Spatial IO Port,空間 IO ポート
+gui.appliedenergistics2.VibrationChamber,Vibration Chamber,振動チャンバー
+gui.appliedenergistics2.security.craft.name,Craft,クラフト
+gui.tooltips.appliedenergistics2.StoredItems,Stored Items,保存されたアイテム
+item.appliedenergistics2.128_cubed_spatial_cell_component,128³ Spatial Component,128³ 空間コンポーネント
+item.appliedenergistics2.128_cubed_spatial_storage_cell,128³ Spatial Storage Cell,128³ 空間ストレージセル
+item.appliedenergistics2.16_cubed_spatial_cell_component,16³ Spatial Component,16³ 空間コンポーネント
+item.appliedenergistics2.16_cubed_spatial_storage_cell,16³ Spatial Storage Cell,16³ 空間ストレージセル
+item.appliedenergistics2.16k_cell_component,16k ME Storage Component,16k ME ストレージコンポーネント
+item.appliedenergistics2.16k_fluid_cell_component,16k ME Fluid Storage Component,16k ME 流体ストレージコンポーネント
+item.appliedenergistics2.16k_fluid_storage_cell,16k ME Fluid Storage Cell,16k ME 流体ストレージセル
+item.appliedenergistics2.16k_storage_cell,16k ME Storage Cell,16k ME ストレージセル
+item.appliedenergistics2.1k_cell_component,1k ME Storage Component,1k ME ストレージコンポーネント
+item.appliedenergistics2.1k_fluid_cell_component,1k ME Fluid Storage Component,1k ME 流体ストレージコンポーネント
+item.appliedenergistics2.1k_fluid_storage_cell,1k ME Fluid Storage Cell,1k ME 流体ストレージセル
+item.appliedenergistics2.1k_storage_cell,1k ME Storage Cell,1k ME ストレージセル
+item.appliedenergistics2.2_cubed_spatial_cell_component,2³ Spatial Component,2³ 空間コンポーネント
+item.appliedenergistics2.2_cubed_spatial_storage_cell,2³ Spatial Storage Cell,2³ 空間ストレージセル
+item.appliedenergistics2.4k_cell_component,4k ME Storage Component,4k ME ストレージコンポーネント
+item.appliedenergistics2.4k_fluid_cell_component,4k ME Fluid Storage Component,4k ME 流体ストレージコンポーネント
+item.appliedenergistics2.4k_fluid_storage_cell,4k ME Fluid Storage Cell,4k ME 流体ストレージセル
+item.appliedenergistics2.4k_storage_cell,4k ME Storage Cell,4k ME ストレージセル
+item.appliedenergistics2.64k_cell_component,64k ME Storage Component,64k ME ストレージコンポーネント
+item.appliedenergistics2.64k_fluid_cell_component,64k ME Fluid Storage Component,64k ME 流体ストレージコンポーネント
+item.appliedenergistics2.64k_fluid_storage_cell,64k ME Fluid Storage Cell,64k ME 流体ストレージセル
+item.appliedenergistics2.64k_storage_cell,64k ME Storage Cell,64k ME ストレージセル
+item.appliedenergistics2.advanced_card,Advanced Card,上級カード
+item.appliedenergistics2.annihilation_core,Annihilation Core,消滅コア
+item.appliedenergistics2.annihilation_plane,ME Annihilation Plane,ME 消滅プレーン
+item.appliedenergistics2.basic_card,Basic Card,基本カード
+item.appliedenergistics2.blank_pattern,Blank Pattern,空白パターン
+item.appliedenergistics2.cable_anchor,Cable Anchor,ケーブルアンカー
+item.appliedenergistics2.cable_energy_acceptor,Energy Acceptor,エネルギーアクセプター
+item.appliedenergistics2.cable_fluid_interface,ME Fluid Interface,ME 流体インターフェース
+item.appliedenergistics2.cable_interface,ME Interface,ME インターフェース
+item.appliedenergistics2.calculation_processor,Calculation Processor,計算プロセッサー
+item.appliedenergistics2.calculation_processor_press,Inscriber Calculation Press,刻印機 計算プレス
+item.appliedenergistics2.capacity_card,Capacity Card,容量カード
+item.appliedenergistics2.certus_crystal_seed,Certus Quartz Seed,サーターズクォーツシード
+item.appliedenergistics2.certus_quartz_crystal,Certus Quartz Crystal,サーターズクォーツ結晶
+item.appliedenergistics2.certus_quartz_dust,Certus Quartz Dust,サーターズクォーツダスト
+item.appliedenergistics2.certus_quartz_shovel,Certus Quartz Shovel,サーターズクォーツショベル
+item.appliedenergistics2.charged_certus_quartz_crystal,Charged Certus Quartz Crystal,帯電したサーターズクォーツ結晶
+item.appliedenergistics2.conversion_monitor,ME Conversion Monitor,ME コンバージョンモニター
+item.appliedenergistics2.crafting_card,Crafting Card,クラフティングカード
+item.appliedenergistics2.crafting_monitor,ME Crafting Monitor,ME クラフティングモニター
+item.appliedenergistics2.crafting_terminal,ME Crafting Terminal,ME クラフティングターミナル
+item.appliedenergistics2.dark_monitor,Dark Illuminated Panel,暗いイルミネーションパネル
 item.appliedenergistics2.debug_card,Dev.DebugCard,
 item.appliedenergistics2.debug_replicator_card,Dev.ReplicatorCard,
-item.appliedenergistics2.empty_storage_cell,ME Storage Housing,
-item.appliedenergistics2.ender_dust,Ender Dust,
-item.appliedenergistics2.engineering_processor,Engineering Processor,
-item.appliedenergistics2.engineering_processor_press,Inscriber Engineering Press,
-item.appliedenergistics2.export_bus,ME Export Bus,
-item.appliedenergistics2.flour,Flour,
-item.appliedenergistics2.fluid_annihilation_plane,ME Fluid Annihilation Plane,
-item.appliedenergistics2.fluid_export_bus,ME Fluid Export Bus,
-item.appliedenergistics2.fluid_formation_plane,ME Fluid Formation Plane,
-item.appliedenergistics2.fluid_import_bus,ME Fluid Import Bus,
-item.appliedenergistics2.fluid_level_emitter,ME Fluid Level Emitter,
-item.appliedenergistics2.fluid_storage_bus,ME Fluid Storage Bus,
-item.appliedenergistics2.fluid_terminal,ME Fluid Terminal,
-item.appliedenergistics2.fluix_crystal,Fluix Crystal,
-item.appliedenergistics2.fluix_crystal_seed,Fluix Seed,
-item.appliedenergistics2.fluix_dust,Fluix Dust,
-item.appliedenergistics2.fluix_pearl,Fluix Pearl,
-item.appliedenergistics2.formation_core,Formation Core,
-item.appliedenergistics2.formation_plane,ME Formation Plane,
-item.appliedenergistics2.fuzzy_card,Fuzzy Card,
-item.appliedenergistics2.gold_dust,Gold Dust,
-item.appliedenergistics2.identity_annihilation_plane,ME Identity Annihilation Plane,
-item.appliedenergistics2.import_bus,ME Import Bus,
-item.appliedenergistics2.interface_terminal,ME Interface Terminal,
-item.appliedenergistics2.invalid_type,Disabled Item,
-item.appliedenergistics2.inverted_toggle_bus,ME Inverted Toggle Bus,
-item.appliedenergistics2.inverter_card,Inverter Card,
-item.appliedenergistics2.iron_dust,Iron Dust,
-item.appliedenergistics2.level_emitter,ME Level Emitter,
-item.appliedenergistics2.logic_processor,Logic Processor,
-item.appliedenergistics2.logic_processor_asm,Unfinished Logic Processor,
-item.appliedenergistics2.logic_processor_press,Inscriber Logic Press,
-item.appliedenergistics2.matter_ball,Matter Ball,
-item.appliedenergistics2.monitor,Bright Illuminated Panel,
-item.appliedenergistics2.name_press,Inscriber Name Press,
-item.appliedenergistics2.nether_quartz_dust,Nether Quartz Dust,
-item.appliedenergistics2.nether_quartz_seed,Nether Quartz Seed,
-item.appliedenergistics2.nether_quartz_shovel,Nether Quartz Shovel,
-item.appliedenergistics2.network_tool,Network Tool,
-item.appliedenergistics2.pattern_terminal,ME Pattern Terminal,
-item.appliedenergistics2.printed_calculation_processor,Printed Calculation Circuit,
-item.appliedenergistics2.printed_engineering_processor,Printed Engineering Circuit,
-item.appliedenergistics2.printed_logic_processor,Printed Logic Circuit,
-item.appliedenergistics2.printed_silicon,Printed Silicon,
-item.appliedenergistics2.purified_certus_quartz_crystal,Pure Certus Quartz Crystal,
-item.appliedenergistics2.purified_fluix_crystal,Pure Fluix Crystal,
-item.appliedenergistics2.purified_nether_quartz_crystal,Pure Nether Quartz Crystal,
-item.appliedenergistics2.quantum_entangled_singularity,Quantum Entangled Singularity,
-item.appliedenergistics2.quartz_fiber,Quartz Fiber,
-item.appliedenergistics2.redstone_card,Redstone Card,
-item.appliedenergistics2.semi_dark_monitor,Illuminated Panel,
-item.appliedenergistics2.silicon,Silicon,
-item.appliedenergistics2.silicon_press,Inscriber Silicon Press,
-item.appliedenergistics2.singularity,Singularity,
-item.appliedenergistics2.sky_dust,Sky Stone Dust,
-item.appliedenergistics2.speed_card,Acceleration Card,
-item.appliedenergistics2.storage_bus,ME Storage Bus,
-item.appliedenergistics2.storage_monitor,ME Storage Monitor,
-item.appliedenergistics2.terminal,ME Terminal,
-item.appliedenergistics2.toggle_bus,ME Toggle Bus,
-item.appliedenergistics2.wireless_booster,Wireless Booster,
-item.appliedenergistics2.wireless_receiver,Wireless Receiver,
-item.appliedenergistics2.wooden_gear,Wooden Gear,
-stat.appliedenergistics2.items_extracted,Items extracted from ME Storage,
-stat.appliedenergistics2.items_inserted,Items added to ME Storage,
-stat.appliedenergistics2.turned_cranks,Turned Cranks,
-theoneprobe.appliedenergistics2.p2p_unlinked,Unlinked,
-waila.appliedenergistics2.Contains,Contains,
-waila.appliedenergistics2.DeviceMissingChannel,Device Missing Channel,
-waila.appliedenergistics2.DeviceOffline,Device Offline,
-waila.appliedenergistics2.DeviceOnline,Device Online,
-waila.appliedenergistics2.Locked,Locked,
-waila.appliedenergistics2.P2POutput,Linked (Output Side),
-waila.appliedenergistics2.P2PUnlinked,Unlinked,
-waila.appliedenergistics2.Showing,Showing,
-waila.appliedenergistics2.Unlocked,Unlocked,
-tile.appliedenergistics2.BlockCableBus.name,AE2 Cable and/or Bus,
-tile.appliedenergistics2.BlockCellWorkbench.name,Cell Workbench,
-tile.appliedenergistics2.BlockCharger.name,Charger,
-tile.appliedenergistics2.BlockChest.name,ME Chest,
-tile.appliedenergistics2.BlockCondenser.name,Matter Condenser,
-tile.appliedenergistics2.BlockController.name,ME Controller,
-tile.appliedenergistics2.BlockCrank.name,Wooden Crank,
-tile.appliedenergistics2.BlockCreativeEnergyCell.name,Creative Energy Cell,
-tile.appliedenergistics2.BlockDenseEnergyCell.name,Dense Energy Cell,
-tile.appliedenergistics2.BlockEnergyCell.name,Energy Cell,
-tile.appliedenergistics2.BlockDrive.name,ME Drive,
-tile.appliedenergistics2.BlockEnergyAcceptor.name,Energy Acceptor,
-tile.appliedenergistics2.BlockGrinder.name,Quartz Grindstone,
-tile.appliedenergistics2.BlockMatrixFrame.name,Matrix Frame,
-tile.appliedenergistics2.BlockIOPort.name,ME IO Port,
-tile.appliedenergistics2.BlockInscriber.name,Inscriber,
-tile.appliedenergistics2.BlockInterface.name,ME Interface,
-tile.appliedenergistics2.BlockQuantumLinkChamber.name,ME Quantum Link Chamber,
-tile.appliedenergistics2.BlockQuantumRing.name,ME Quantum Ring,
-tile.appliedenergistics2.BlockFluix.name,Fluix Block,
-tile.appliedenergistics2.BlockQuartz.name,Certus Quartz Block,
-tile.appliedenergistics2.BlockQuartzChiseled.name,Chiseled Certus Quartz Block,
-tile.appliedenergistics2.BlockQuartzGlass.name,Quartz Glass,
-tile.appliedenergistics2.BlockQuartzLamp.name,Vibrant Quartz Glass,
-tile.appliedenergistics2.BlockQuartzPillar.name,Certus Quartz Pillar,
-tile.appliedenergistics2.BlockQuartzTorch.name,Charged Quartz Fixture,
-tile.appliedenergistics2.BlockLightDetector.name,Light Detecting Fixture,
-tile.appliedenergistics2.BlockSpatialIOPort.name,Spatial IO Port,
-tile.appliedenergistics2.BlockSpatialPylon.name,Spatial Pylon,
-tile.appliedenergistics2.BlockTinyTNT.name,Tiny TNT,
-tile.appliedenergistics2.BlockVibrationChamber.name,Vibration Chamber,
-tile.appliedenergistics2.BlockWireless.name,ME Wireless Access Point,
-tile.appliedenergistics2.OreQuartz.name,Certus Quartz Ore,
-tile.appliedenergistics2.OreQuartzCharged.name,Charged Certus Quartz Ore,
-tile.appliedenergistics2.BlockSecurity.name,ME Security Terminal,
-tile.appliedenergistics2.BlockQuartzGrowthAccelerator.name,Crystal Growth Accelerator,
-tile.appliedenergistics2.BlockSkyStone.name,Sky Stone,
-tile.appliedenergistics2.BlockSkyStone.Block.name,Sky Stone Block,
-tile.appliedenergistics2.BlockSkyStone.Brick.name,Sky Stone Brick,
-tile.appliedenergistics2.BlockSkyStone.SmallBrick.name,Sky Stone Small Brick,
-tile.appliedenergistics2.BlockSkyChest.name,Sky Stone Chest,
-tile.appliedenergistics2.BlockSkyChest.Block.name,Sky Stone Block Chest,
-tile.appliedenergistics2.BlockSkyCompass.name,Meteorite Compass,
-tile.appliedenergistics2.BlockCraftingMonitor.name,Crafting Monitor,
-tile.appliedenergistics2.BlockCraftingAccelerator.name,Crafting Co-Processing Unit,
-tile.appliedenergistics2.BlockCraftingUnit.name,Crafting Unit,
-tile.appliedenergistics2.BlockMolecularAssembler.name,Molecular Assembler,
-tile.appliedenergistics2.ChiseledQuartzStairBlock.name,Chiseled Certus Quartz Stairs,
-tile.appliedenergistics2.FluixStairBlock.name,Fluix Stairs,
-tile.appliedenergistics2.QuartzPillarStairBlock.name,Certus Quartz Pillar Stairs,
-tile.appliedenergistics2.QuartzStairBlock.name,Certus Quartz Stairs,
-tile.appliedenergistics2.SkyStoneBlockStairBlock.name,Sky Stone Block Stairs,
-tile.appliedenergistics2.SkyStoneBrickStairBlock.name,Sky Stone Brick Stairs,
-tile.appliedenergistics2.SkyStoneSmallBrickStairBlock.name,Sky Stone Small Brick Stairs,
-tile.appliedenergistics2.SkyStoneStairBlock.name,Sky Stone Stairs,
-tile.appliedenergistics2.ChiseledQuartzSlabBlock.name,Chiseled Certus Quartz Slabs,
-tile.appliedenergistics2.FluixSlabBlock.name,Fluix Slabs,
-tile.appliedenergistics2.QuartzPillarSlabBlock.name,Certus Quartz Pillar Slabs,
-tile.appliedenergistics2.QuartzSlabBlock.name,Certus Quartz Slabs,
-tile.appliedenergistics2.SkyStoneBlockSlabBlock.name,Sky Stone Block Slabs,
-tile.appliedenergistics2.SkyStoneBrickSlabBlock.name,Sky Stone Brick Slabs,
-tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name,Sky Stone Small Brick Slabs,
-tile.appliedenergistics2.SkyStoneSlabBlock.name,Sky Stone Slabs,
+item.appliedenergistics2.empty_storage_cell,ME Storage Housing,ME ストレージハウジング
+item.appliedenergistics2.ender_dust,Ender Dust,エンダーダスト
+item.appliedenergistics2.engineering_processor,Engineering Processor,エンジニアリングプロセッサー
+item.appliedenergistics2.engineering_processor_press,Inscriber Engineering Press,刻印機 エンジニアリングプレス
+item.appliedenergistics2.export_bus,ME Export Bus,ME 搬出バス
+item.appliedenergistics2.flour,Flour,小麦粉
+item.appliedenergistics2.fluid_annihilation_plane,ME Fluid Annihilation Plane,ME 流体消滅プレーン
+item.appliedenergistics2.fluid_export_bus,ME Fluid Export Bus,ME 流体搬出バス
+item.appliedenergistics2.fluid_formation_plane,ME Fluid Formation Plane,ME 流体形成プレーン
+item.appliedenergistics2.fluid_import_bus,ME Fluid Import Bus,ME 流体搬入バス
+item.appliedenergistics2.fluid_level_emitter,ME Fluid Level Emitter,ME 流体レベルエミッター
+item.appliedenergistics2.fluid_storage_bus,ME Fluid Storage Bus,ME 流体ストレージバス
+item.appliedenergistics2.fluid_terminal,ME Fluid Terminal,ME 流体ターミナル
+item.appliedenergistics2.fluix_crystal,Fluix Crystal,フルイックス結晶
+item.appliedenergistics2.fluix_crystal_seed,Fluix Seed,フルイックスシード
+item.appliedenergistics2.fluix_dust,Fluix Dust,フルイックスダスト
+item.appliedenergistics2.fluix_pearl,Fluix Pearl,フルイックスパール
+item.appliedenergistics2.formation_core,Formation Core,形成コア
+item.appliedenergistics2.formation_plane,ME Formation Plane,ME 形成プレーン
+item.appliedenergistics2.fuzzy_card,Fuzzy Card,ファジーカード
+item.appliedenergistics2.gold_dust,Gold Dust,ゴールドダスト
+item.appliedenergistics2.identity_annihilation_plane,ME Identity Annihilation Plane,ME アイデンティティ消滅プレーン
+item.appliedenergistics2.import_bus,ME Import Bus,ME 搬入バス
+item.appliedenergistics2.interface_terminal,ME Interface Terminal,ME インターフェースターミナル
+item.appliedenergistics2.invalid_type,Disabled Item,無効なアイテム
+item.appliedenergistics2.inverted_toggle_bus,ME Inverted Toggle Bus,ME 反転トグルバス
+item.appliedenergistics2.inverter_card,Inverter Card,インバーターカード
+item.appliedenergistics2.iron_dust,Iron Dust,鉄ダスト
+item.appliedenergistics2.level_emitter,ME Level Emitter,ME レベルエミッター
+item.appliedenergistics2.logic_processor,Logic Processor,ロジックプロセッサー
+item.appliedenergistics2.logic_processor_asm,Unfinished Logic Processor,未完成のロジックプロセッサー
+item.appliedenergistics2.logic_processor_press,Inscriber Logic Press,刻印機 ロジックプレス
+item.appliedenergistics2.matter_ball,Matter Ball,物質ボール
+item.appliedenergistics2.monitor,Bright Illuminated Panel,明るいイルミネーションパネル
+item.appliedenergistics2.name_press,Inscriber Name Press,刻印機 ネームプレス
+item.appliedenergistics2.nether_quartz_dust,Nether Quartz Dust,ネザークォーツダスト
+item.appliedenergistics2.nether_quartz_seed,Nether Quartz Seed,ネザークォーツシード
+item.appliedenergistics2.nether_quartz_shovel,Nether Quartz Shovel,ネザークォーツショベル
+item.appliedenergistics2.network_tool,Network Tool,ネットワークツール
+item.appliedenergistics2.pattern_terminal,ME Pattern Terminal,ME パターンターミナル
+item.appliedenergistics2.printed_calculation_processor,Printed Calculation Circuit,印刷された計算回路
+item.appliedenergistics2.printed_engineering_processor,Printed Engineering Circuit,印刷されたエンジニアリング回路
+item.appliedenergistics2.printed_logic_processor,Printed Logic Circuit,印刷されたロジック回路
+item.appliedenergistics2.printed_silicon,Printed Silicon,印刷されたシリコン
+item.appliedenergistics2.purified_certus_quartz_crystal,Pure Certus Quartz Crystal,純粋なサーターズクォーツ結晶
+item.appliedenergistics2.purified_fluix_crystal,Pure Fluix Crystal,純粋なフルイックス結晶
+item.appliedenergistics2.purified_nether_quartz_crystal,Pure Nether Quartz Crystal,純粋なネザークォーツ結晶
+item.appliedenergistics2.quantum_entangled_singularity,Quantum Entangled Singularity,量子もつれ特異点
+item.appliedenergistics2.quartz_fiber,Quartz Fiber,クォーツファイバー
+item.appliedenergistics2.redstone_card,Redstone Card,レッドストーンカード
+item.appliedenergistics2.semi_dark_monitor,Illuminated Panel,イルミネーションパネル
+item.appliedenergistics2.silicon,Silicon,シリコン
+item.appliedenergistics2.silicon_press,Inscriber Silicon Press,刻印機 シリコンプレス
+item.appliedenergistics2.singularity,Singularity,特異点
+item.appliedenergistics2.sky_dust,Sky Stone Dust,スカイストーン ダスト
+item.appliedenergistics2.speed_card,Acceleration Card,加速カード
+item.appliedenergistics2.storage_bus,ME Storage Bus,ME ストレージバス
+item.appliedenergistics2.storage_monitor,ME Storage Monitor,ME ストレージモニター
+item.appliedenergistics2.terminal,ME Terminal,ME ターミナル
+item.appliedenergistics2.toggle_bus,ME Toggle Bus,ME トグルバス
+item.appliedenergistics2.wireless_booster,Wireless Booster,ワイヤレスブースター
+item.appliedenergistics2.wireless_receiver,Wireless Receiver,ワイヤレスレシーバー
+item.appliedenergistics2.wooden_gear,Wooden Gear,木製ギア
+stat.appliedenergistics2.items_extracted,Items extracted from ME Storage,ME ストレージから抽出されたアイテム
+stat.appliedenergistics2.items_inserted,Items added to ME Storage,ME ストレージに追加されたアイテム
+stat.appliedenergistics2.turned_cranks,Turned Cranks,回転させたクランク
+theoneprobe.appliedenergistics2.p2p_unlinked,Unlinked,リンク解除
+waila.appliedenergistics2.Contains,Contains,含まれる
+waila.appliedenergistics2.DeviceMissingChannel,Device Missing Channel,デバイスはチャネルが不足しています
+waila.appliedenergistics2.DeviceOffline,Device Offline,デバイスがオフラインです
+waila.appliedenergistics2.DeviceOnline,Device Online,デバイスがオンラインです
+waila.appliedenergistics2.Locked,Locked,ロック済み
+waila.appliedenergistics2.P2POutput,Linked (Output Side),リンク済み（出力側）
+waila.appliedenergistics2.P2PUnlinked,Unlinked,リンク解除
+waila.appliedenergistics2.Showing,Showing,表示中
+waila.appliedenergistics2.Unlocked,Unlocked,ロック解除
+tile.appliedenergistics2.BlockCableBus.name,AE2 Cable and/or Bus,AE2 ケーブル/バス
+tile.appliedenergistics2.BlockCellWorkbench.name,Cell Workbench,セルワークベンチ
+tile.appliedenergistics2.BlockCharger.name,Charger,充電器
+tile.appliedenergistics2.BlockChest.name,ME Chest,ME チェスト
+tile.appliedenergistics2.BlockCondenser.name,Matter Condenser,物質凝縮器
+tile.appliedenergistics2.BlockController.name,ME Controller,ME コントローラー
+tile.appliedenergistics2.BlockCrank.name,Wooden Crank,木製クランク
+tile.appliedenergistics2.BlockCreativeEnergyCell.name,Creative Energy Cell,クリエイティブエネルギーセル
+tile.appliedenergistics2.BlockDenseEnergyCell.name,Dense Energy Cell,高密度エネルギーセル
+tile.appliedenergistics2.BlockEnergyCell.name,Energy Cell,エネルギーセル
+tile.appliedenergistics2.BlockDrive.name,ME Drive,ME ドライブ
+tile.appliedenergistics2.BlockEnergyAcceptor.name,Energy Acceptor,エネルギーアクセプター
+tile.appliedenergistics2.BlockGrinder.name,Quartz Grindstone,クォーツ製粉機
+tile.appliedenergistics2.BlockMatrixFrame.name,Matrix Frame,マトリックスフレーム
+tile.appliedenergistics2.BlockIOPort.name,ME IO Port,ME IO ポート
+tile.appliedenergistics2.BlockInscriber.name,Inscriber,刻印機
+tile.appliedenergistics2.BlockInterface.name,ME Interface,ME インターフェース
+tile.appliedenergistics2.BlockQuantumLinkChamber.name,ME Quantum Link Chamber,ME 量子リンクチャンバー
+tile.appliedenergistics2.BlockQuantumRing.name,ME Quantum Ring,ME 量子リング
+tile.appliedenergistics2.BlockFluix.name,Fluix Block,フルイックスブロック
+tile.appliedenergistics2.BlockQuartz.name,Certus Quartz Block,サーターズクォーツブロック
+tile.appliedenergistics2.BlockQuartzChiseled.name,Chiseled Certus Quartz Block,彫刻されたサーターズクォーツブロック
+tile.appliedenergistics2.BlockQuartzGlass.name,Quartz Glass,クォーツガラス
+tile.appliedenergistics2.BlockQuartzLamp.name,Vibrant Quartz Glass,鮮やかなクォーツガラス
+tile.appliedenergistics2.BlockQuartzPillar.name,Certus Quartz Pillar,サーターズクォーツ柱
+tile.appliedenergistics2.BlockQuartzTorch.name,Charged Quartz Fixture,帯電したクォーツ照明
+tile.appliedenergistics2.BlockLightDetector.name,Light Detecting Fixture,光検出器
+tile.appliedenergistics2.BlockSpatialIOPort.name,Spatial IO Port,空間 IO ポート
+tile.appliedenergistics2.BlockSpatialPylon.name,Spatial Pylon,空間パイロン
+tile.appliedenergistics2.BlockTinyTNT.name,Tiny TNT,小さなTNT
+tile.appliedenergistics2.BlockVibrationChamber.name,Vibration Chamber,振動チャンバー
+tile.appliedenergistics2.BlockWireless.name,ME Wireless Access Point,ME ワイヤレスアクセスポイント
+tile.appliedenergistics2.OreQuartz.name,Certus Quartz Ore,サーターズクォーツ鉱石
+tile.appliedenergistics2.OreQuartzCharged.name,Charged Certus Quartz Ore,帯電したサーターズクォーツ鉱石
+tile.appliedenergistics2.BlockSecurity.name,ME Security Terminal,ME セキュリティターミナル
+tile.appliedenergistics2.BlockQuartzGrowthAccelerator.name,Crystal Growth Accelerator,結晶成長加速器
+tile.appliedenergistics2.BlockSkyStone.name,Sky Stone,スカイストーン
+tile.appliedenergistics2.BlockSkyStone.Block.name,Sky Stone Block,スカイストーン ブロック
+tile.appliedenergistics2.BlockSkyStone.Brick.name,Sky Stone Brick,スカイストーン レンガ
+tile.appliedenergistics2.BlockSkyStone.SmallBrick.name,Sky Stone Small Brick,スカイストーン 小さいレンガ
+tile.appliedenergistics2.BlockSkyChest.name,Sky Stone Chest,スカイストーン チェスト
+tile.appliedenergistics2.BlockSkyChest.Block.name,Sky Stone Block Chest,スカイストーン ブロック チェスト
+tile.appliedenergistics2.BlockSkyCompass.name,Meteorite Compass,隕石コンパス
+tile.appliedenergistics2.BlockCraftingMonitor.name,Crafting Monitor,クラフティングモニター
+tile.appliedenergistics2.BlockCraftingAccelerator.name,Crafting Co-Processing Unit,クラフティング コプロセッシング ユニット
+tile.appliedenergistics2.BlockCraftingUnit.name,Crafting Unit,クラフティング ユニット
+tile.appliedenergistics2.BlockMolecularAssembler.name,Molecular Assembler,分子組立機
+tile.appliedenergistics2.ChiseledQuartzStairBlock.name,Chiseled Certus Quartz Stairs,彫刻されたサーターズクォーツの階段
+tile.appliedenergistics2.FluixStairBlock.name,Fluix Stairs,フルイックスの階段
+tile.appliedenergistics2.QuartzPillarStairBlock.name,Certus Quartz Pillar Stairs,サーターズクォーツ柱の階段
+tile.appliedenergistics2.QuartzStairBlock.name,Certus Quartz Stairs,サーターズクォーツの階段
+tile.appliedenergistics2.SkyStoneBlockStairBlock.name,Sky Stone Block Stairs,スカイストーン ブロックの階段
+tile.appliedenergistics2.SkyStoneBrickStairBlock.name,Sky Stone Brick Stairs,スカイストーン レンガの階段
+tile.appliedenergistics2.SkyStoneSmallBrickStairBlock.name,Sky Stone Small Brick Stairs,スカイストーン 小さいレンガの階段
+tile.appliedenergistics2.SkyStoneStairBlock.name,Sky Stone Stairs,スカイストーンの階段
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.name,Chiseled Certus Quartz Slabs,彫刻されたサーターズクォーツのハーフブロック
+tile.appliedenergistics2.FluixSlabBlock.name,Fluix Slabs,フルイックスのハーフブロック
+tile.appliedenergistics2.QuartzPillarSlabBlock.name,Certus Quartz Pillar Slabs,サーターズクォーツ柱のハーフブロック
+tile.appliedenergistics2.QuartzSlabBlock.name,Certus Quartz Slabs,サーターズクォーツのハーフブロック
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.name,Sky Stone Block Slabs,スカイストーン ブロックのハーフブロック
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.name,Sky Stone Brick Slabs,スカイストーン レンガのハーフブロック
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name,Sky Stone Small Brick Slabs,スカイストーン 小さいレンガのハーフブロック
+tile.appliedenergistics2.SkyStoneSlabBlock.name,Sky Stone Slabs,スカイストーンのハーフブロック
 gui.appliedenergistics2.ItemTunnel,Item,
-gui.appliedenergistics2.Crafting,Crafting,
-gui.appliedenergistics2.units.thermalexpansion,Redstone Flux,
-item.appliedenergistics2.ItemCreativeStorageCell.name,Creative ME Storage Cell,
-item.appliedenergistics2.ItemEncodedPattern.name,Encoded Pattern,
-item.appliedenergistics2.ItemViewCell.name,View Cell,
-item.appliedenergistics2.ItemFacade.name,Cable Facade,
-item.appliedenergistics2.ItemMaterial.InvalidType.name,This Item Is Disabled.,
-item.appliedenergistics2.ItemMaterial.CardCrafting.name,Crafting Card,
-item.appliedenergistics2.ItemPart.ExportBus.name,ME Export Bus,
-item.appliedenergistics2.ItemPart.ImportBus.name,ME Import Bus,
-item.appliedenergistics2.ItemPart.Interface.name,ME Interface,
-item.appliedenergistics2.ItemPart.LevelEmitter.name,ME Level Emitter,
-item.appliedenergistics2.ItemPart.InvalidType.name,Disabled Item,
-item.appliedenergistics2.ToolCertusQuartzAxe.name,Certus Quartz Axe,
-item.appliedenergistics2.ToolCertusQuartzCuttingKnife.name,Certus Quartz Cutting Knife,
-item.appliedenergistics2.ToolCertusQuartzHoe.name,Certus Quartz Hoe,
-item.appliedenergistics2.ToolCertusQuartzPickaxe.name,Certus Quartz Pickaxe,
-item.appliedenergistics2.ToolCertusQuartzSword.name,Certus Quartz Sword,
-item.appliedenergistics2.ToolCertusQuartzWrench.name,Certus Quartz Wrench,
-item.appliedenergistics2.ToolNetherQuartzAxe.name,Nether Quartz Axe,
-item.appliedenergistics2.ToolNetherQuartzCuttingKnife.name,Nether Quartz Cutting Knife,
-item.appliedenergistics2.ToolNetherQuartzHoe.name,Nether Quartz Hoe,
-item.appliedenergistics2.ToolNetherQuartzPickaxe.name,Nether Quartz Pickaxe,
-item.appliedenergistics2.ToolNetherQuartzSword.name,Nether Quartz Sword,
-item.appliedenergistics2.ToolNetherQuartzWrench.name,Nether Quartz Wrench,
-item.appliedenergistics2.ItemPaintBall.name,Paint Ball,
-item.appliedenergistics2.ToolPortableCell.name,Portable Cell,
-item.appliedenergistics2.ToolNetworkTool.name,Network Tool,
-item.appliedenergistics2.ToolChargedStaff.name,Charged Staff,
-item.appliedenergistics2.ToolEntropyManipulator.name,Entropy Manipulator,
-item.appliedenergistics2.ToolMassCannon.name,Matter Cannon,
-item.appliedenergistics2.ToolMemoryCard.name,Memory Card,
-item.appliedenergistics2.ToolColorApplicator.name,Color Applicator,
-item.appliedenergistics2.ToolWirelessTerminal.name,Wireless Terminal,
-item.appliedenergistics2.ToolBiometricCard.name,Biometric Card,
-tile.appliedenergistics2.cable_bus.name,AE2 Cable and/or Bus,
-tile.appliedenergistics2.cell_workbench.name,Cell Workbench,
-tile.appliedenergistics2.charger.name,Charger,
-tile.appliedenergistics2.chest.name,ME Chest,
-tile.appliedenergistics2.condenser.name,Matter Condenser,
-tile.appliedenergistics2.controller.name,ME Controller,
-tile.appliedenergistics2.crank.name,Wooden Crank,
-tile.appliedenergistics2.creative_energy_cell.name,Creative Energy Cell,
-tile.appliedenergistics2.dense_energy_cell.name,Dense Energy Cell,
-tile.appliedenergistics2.energy_cell.name,Energy Cell,
-tile.appliedenergistics2.drive.name,ME Drive,
-tile.appliedenergistics2.energy_acceptor.name,Energy Acceptor,
-tile.appliedenergistics2.grindstone.name,Quartz Grindstone,
-tile.appliedenergistics2.matrix_frame.name,Matrix Frame,
-tile.appliedenergistics2.io_port.name,ME IO Port,
-tile.appliedenergistics2.inscriber.name,Inscriber,
-tile.appliedenergistics2.interface.name,ME Interface,
-tile.appliedenergistics2.fluid_interface.name,ME Fluid Interface,
-tile.appliedenergistics2.quantum_link.name,ME Quantum Link Chamber,
-tile.appliedenergistics2.quantum_ring.name,ME Quantum Ring,
-tile.appliedenergistics2.fluix_block.name,Fluix Block,
-tile.appliedenergistics2.quartz_block.name,Certus Quartz Block,
-tile.appliedenergistics2.chiseled_quartz_block.name,Chiseled Certus Quartz Block,
-tile.appliedenergistics2.quartz_glass.name,Quartz Glass,
-tile.appliedenergistics2.quartz_vibrant_glass.name,Vibrant Quartz Glass,
-tile.appliedenergistics2.quartz_pillar.name,Certus Quartz Pillar,
-tile.appliedenergistics2.quartz_fixture.name,Charged Quartz Fixture,
-tile.appliedenergistics2.light_detector.name,Light Detecting Fixture,
-tile.appliedenergistics2.spatial_io_port.name,Spatial IO Port,
-tile.appliedenergistics2.spatial_pylon.name,Spatial Pylon,
-tile.appliedenergistics2.tiny_tnt.name,Tiny TNT,
-tile.appliedenergistics2.vibration_chamber.name,Vibration Chamber,
-tile.appliedenergistics2.wireless_access_point.name,ME Wireless Access Point,
-tile.appliedenergistics2.quartz_ore.name,Certus Quartz Ore,
-tile.appliedenergistics2.charged_quartz_ore.name,Charged Certus Quartz Ore,
-tile.appliedenergistics2.security_station.name,ME Security Terminal,
-tile.appliedenergistics2.quartz_growth_accelerator.name,Crystal Growth Accelerator,
-tile.appliedenergistics2.sky_stone_block.name,Sky Stone,
-tile.appliedenergistics2.smooth_sky_stone_block.name,Sky Stone Block,
-tile.appliedenergistics2.sky_stone_brick.name,Sky Stone Brick,
-tile.appliedenergistics2.sky_stone_small_brick.name,Sky Stone Small Brick,
-tile.appliedenergistics2.sky_stone_chest.name,Sky Stone Chest,
-tile.appliedenergistics2.smooth_sky_stone_chest.name,Sky Stone Block Chest,
-tile.appliedenergistics2.sky_compass.name,Meteorite Compass,
-tile.appliedenergistics2.crafting_monitor.name,Crafting Monitor,
-tile.appliedenergistics2.crafting_accelerator.name,Crafting Co-Processing Unit,
-tile.appliedenergistics2.crafting_unit.name,Crafting Unit,
-tile.appliedenergistics2.molecular_assembler.name,Molecular Assembler,
-tile.appliedenergistics2.fluix_stairs.name,Fluix Stairs,
-tile.appliedenergistics2.quartz_stairs.name,Certus Quartz Stairs,
-tile.appliedenergistics2.chiseled_quartz_stairs.name,Chiseled Certus Quartz Stairs,
-tile.appliedenergistics2.quartz_pillar_stairs.name,Certus Quartz Pillar Stairs,
-tile.appliedenergistics2.smooth_sky_stone_stairs.name,Sky Stone Block Stairs,
-tile.appliedenergistics2.sky_stone_brick_stairs.name,Sky Stone Brick Stairs,
-tile.appliedenergistics2.sky_stone_small_brick_stairs.name,Sky Stone Small Brick Stairs,
-tile.appliedenergistics2.sky_stone_stairs.name,Sky Stone Stairs,
-tile.appliedenergistics2.chiseled_quartz_slab.name,Chiseled Certus Quartz Slabs,
-tile.appliedenergistics2.fluix_slab.name,Fluix Slabs,
-tile.appliedenergistics2.quartz_pillar_slab.name,Certus Quartz Pillar Slabs,
-tile.appliedenergistics2.quartz_slab.name,Certus Quartz Slabs,
-tile.appliedenergistics2.smooth_sky_stone_slab.name,Sky Stone Block Slabs,
-tile.appliedenergistics2.sky_stone_brick_slab.name,Sky Stone Brick Slabs,
-tile.appliedenergistics2.sky_stone_small_brick_slab.name,Sky Stone Small Brick Slabs,
-tile.appliedenergistics2.sky_stone_slab.name,Sky Stone Slabs,
-theoneprobe.appliedenergistics2.channels,§2%1$d§r of §4%2$d§r Channels,
-theoneprobe.appliedenergistics2.p2p_input_one_output,Linked (Input Side) - 1 Output,
-theoneprobe.appliedenergistics2.p2p_input_many_outputs,Linked (Input Side) - §4%d§r Outputs,
-theoneprobe.appliedenergistics2.p2p_output_one_input,Linked (Output Side) - 1 Input,
-theoneprobe.appliedenergistics2.p2p_output_many_inputs,Linked (Output Side) - §2%d§r Inputs,
-item.appliedenergistics2.creative_storage_cell.name,Creative ME Storage Cell,
-item.appliedenergistics2.encoded_pattern.name,Encoded Pattern,
-item.appliedenergistics2.view_cell.name,View Cell,
-item.appliedenergistics2.facade.name,Cable Facade,
-item.appliedenergistics2.crystal_seed.certus.name,Certus Quartz Seed,
-item.appliedenergistics2.crystal_seed.nether.name,Nether Quartz Seed,
-item.appliedenergistics2.crystal_seed.fluix.name,Fluix Seed,
-item.appliedenergistics2.material.advanced_card.name,Advanced Card,
-item.appliedenergistics2.material.annihilation_core.name,Annihilation Core,
-item.appliedenergistics2.material.basic_card.name,Basic Card,
-item.appliedenergistics2.material.blank_pattern.name,Blank Pattern,
-item.appliedenergistics2.material.calculation_processor.name,Calculation Processor,
-item.appliedenergistics2.material.card_capacity.name,Capacity Card,
-item.appliedenergistics2.material.card_fuzzy.name,Fuzzy Card,
-item.appliedenergistics2.material.card_inverter.name,Inverter Card,
-item.appliedenergistics2.material.card_redstone.name,Redstone Card,
-item.appliedenergistics2.material.card_speed.name,Acceleration Card,
-item.appliedenergistics2.material.certus_quartz_crystal.name,Certus Quartz Crystal,
-item.appliedenergistics2.material.certus_quartz_crystal_charged.name,Charged Certus Quartz Crystal,
-item.appliedenergistics2.material.certus_quartz_dust.name,Certus Quartz Dust,
-item.appliedenergistics2.material.empty_storage_cell.name,ME Storage Housing,
-item.appliedenergistics2.material.ender_dust.name,Ender Dust,
-item.appliedenergistics2.material.engineering_processor.name,Engineering Processor,
-item.appliedenergistics2.material.flour.name,Flour,
-item.appliedenergistics2.material.fluix_crystal.name,Fluix Crystal,
-item.appliedenergistics2.material.fluix_dust.name,Fluix Dust,
-item.appliedenergistics2.material.fluix_pearl.name,Fluix Pearl,
-item.appliedenergistics2.material.formation_core.name,Formation Core,
-item.appliedenergistics2.material.gold_dust.name,Gold Dust,
-item.appliedenergistics2.material.iron_dust.name,Iron Dust,
-item.appliedenergistics2.material.logic_processor.name,Logic Processor,
-item.appliedenergistics2.material.logic_processor_asm.name,Unfinished Logic Processor,
-item.appliedenergistics2.material.matter_ball.name,Matter Ball,
-item.appliedenergistics2.material.nether_quartz_dust.name,Nether Quartz Dust,
-item.appliedenergistics2.material.purified_certus_quartz_crystal.name,Pure Certus Quartz Crystal,
-item.appliedenergistics2.material.purified_fluix_crystal.name,Pure Fluix Crystal,
-item.appliedenergistics2.material.purified_nether_quartz_crystal.name,Pure Nether Quartz Crystal,
-item.appliedenergistics2.material.quantum_entangled_singularity.name,Quantum Entangled Singularity,
-item.appliedenergistics2.material.silicon.name,Silicon,
-item.appliedenergistics2.material.singularity.name,Singularity,
-item.appliedenergistics2.material.wireless.name,Wireless Receiver,
-item.appliedenergistics2.material.wireless_booster.name,Wireless Booster,
-item.appliedenergistics2.material.wooden_gear.name,Wooden Gear,
-item.appliedenergistics2.material.engineering_processor_press.name,Inscriber Engineering Press,
-item.appliedenergistics2.material.calculation_processor_press.name,Inscriber Calculation Press,
-item.appliedenergistics2.material.logic_processor_press.name,Inscriber Logic Press,
-item.appliedenergistics2.material.engineering_processor_print.name,Printed Engineering Circuit,
-item.appliedenergistics2.material.calculation_processor_print.name,Printed Calculation Circuit,
-item.appliedenergistics2.material.logic_processor_print.name,Printed Logic Circuit,
-item.appliedenergistics2.material.silicon_press.name,Inscriber Silicon Press,
-item.appliedenergistics2.material.silicon_print.name,Printed Silicon,
-item.appliedenergistics2.material.name_press.name,Inscriber Name Press,
-item.appliedenergistics2.material.sky_dust.name,Sky Stone Dust,
-item.appliedenergistics2.multi_part.annihilation_plane.name,ME Annihilation Plane,
-item.appliedenergistics2.multi_part.identity_annihilation_plane.name,ME Identity Annihilation Plane,
-item.appliedenergistics2.multi_part.cable_anchor.name,Cable Anchor,
-item.appliedenergistics2.multi_part.cable_covered.name,ME Covered Cable,
-item.appliedenergistics2.multi_part.cable_glass.name,ME Glass Cable,
-item.appliedenergistics2.multi_part.cable_smart.name,ME Smart Cable,
-item.appliedenergistics2.multi_part.storage_monitor.name,ME Storage Monitor,
-item.appliedenergistics2.multi_part.conversion_monitor.name,ME Conversion Monitor,
-item.appliedenergistics2.multi_part.crafting_terminal.name,ME Crafting Terminal,
-item.appliedenergistics2.multi_part.semi_dark_monitor.name,Illuminated Panel,
-item.appliedenergistics2.multi_part.monitor.name,Bright Illuminated Panel,
-item.appliedenergistics2.multi_part.dark_monitor.name,Dark Illuminated Panel,
-item.appliedenergistics2.multi_part.export_bus.name,ME Export Bus,
-item.appliedenergistics2.multi_part.fluid_export_bus.name,ME Fluid Export Bus,
-item.appliedenergistics2.multi_part.formation_plane.name,ME Formation Plane,
-item.appliedenergistics2.multi_part.import_bus.name,ME Import Bus,
-item.appliedenergistics2.multi_part.fluid_import_bus.name,ME Fluid Import Bus,
-item.appliedenergistics2.multi_part.interface.name,ME Interface,
-item.appliedenergistics2.multi_part.fluid_interface.name,ME Fluid Interface,
-item.appliedenergistics2.multi_part.level_emitter.name,ME Level Emitter,
-item.appliedenergistics2.multi_part.fluid_level_emitter.name,ME Fluid Level Emitter,
-item.appliedenergistics2.multi_part.p2p_tunnel.name,P2P Tunnel,
-item.appliedenergistics2.multi_part.pattern_terminal.name,ME Pattern Terminal,
-item.appliedenergistics2.multi_part.quartz_fiber.name,Quartz Fiber,
-item.appliedenergistics2.multi_part.storage_bus.name,ME Storage Bus,
-item.appliedenergistics2.multi_part.terminal.name,ME Terminal,
-item.appliedenergistics2.multi_part.inverted_toggle_bus.name,ME Inverted Toggle Bus,
-item.appliedenergistics2.multi_part.toggle_bus.name,ME Toggle Bus,
-item.appliedenergistics2.multi_part.crafting_monitor.name,ME Crafting Monitor,
-item.appliedenergistics2.multi_part.interface_terminal.name,ME Interface Terminal,
-item.appliedenergistics2.certus_quartz_axe.name,Certus Quartz Axe,
-item.appliedenergistics2.certus_quartz_cutting_knife.name,Certus Quartz Cutting Knife,
-item.appliedenergistics2.certus_quartz_hoe.name,Certus Quartz Hoe,
-item.appliedenergistics2.certus_quartz_pickaxe.name,Certus Quartz Pickaxe,
-item.appliedenergistics2.certus_quartz_spade.name,Certus Quartz Shovel,
-item.appliedenergistics2.certus_quartz_sword.name,Certus Quartz Sword,
-item.appliedenergistics2.certus_quartz_wrench.name,Certus Quartz Wrench,
-item.appliedenergistics2.nether_quartz_axe.name,Nether Quartz Axe,
-item.appliedenergistics2.nether_quartz_cutting_knife.name,Nether Quartz Cutting Knife,
-item.appliedenergistics2.nether_quartz_hoe.name,Nether Quartz Hoe,
-item.appliedenergistics2.nether_quartz_pickaxe.name,Nether Quartz Pickaxe,
-item.appliedenergistics2.nether_quartz_spade.name,Nether Quartz Shovel,
-item.appliedenergistics2.nether_quartz_sword.name,Nether Quartz Sword,
-item.appliedenergistics2.nether_quartz_wrench.name,Nether Quartz Wrench,
-item.appliedenergistics2.portable_cell.name,Portable Cell,
-item.appliedenergistics2.network_tool.name,Network Tool,
-item.appliedenergistics2.charged_staff.name,Charged Staff,
-item.appliedenergistics2.entropy_manipulator.name,Entropy Manipulator,
-item.appliedenergistics2.matter_cannon.name,Matter Cannon,
-item.appliedenergistics2.memory_card.name,Memory Card,
-item.appliedenergistics2.color_applicator.name,Color Applicator,
-item.appliedenergistics2.wireless_terminal.name,Wireless Terminal,
-item.appliedenergistics2.biometric_card.name,Biometric Card,
+gui.appliedenergistics2.Crafting,Crafting,クラフティング
+gui.appliedenergistics2.units.thermalexpansion,Redstone Flux,レッドストーンフラックス
+item.appliedenergistics2.ItemCreativeStorageCell.name,Creative ME Storage Cell,クリエイティブ ME ストレージセル
+item.appliedenergistics2.ItemEncodedPattern.name,Encoded Pattern,エンコードされたパターン
+item.appliedenergistics2.ItemViewCell.name,View Cell,ビューセル
+item.appliedenergistics2.ItemFacade.name,Cable Facade,ケーブルファサード
+item.appliedenergistics2.ItemMaterial.InvalidType.name,This Item Is Disabled.,このアイテムは無効です。
+item.appliedenergistics2.ItemMaterial.CardCrafting.name,Crafting Card,クラフティングカード
+item.appliedenergistics2.ItemPart.ExportBus.name,ME Export Bus,ME 搬出バス
+item.appliedenergistics2.ItemPart.ImportBus.name,ME Import Bus,ME 搬入バス
+item.appliedenergistics2.ItemPart.Interface.name,ME Interface,ME インターフェース
+item.appliedenergistics2.ItemPart.LevelEmitter.name,ME Level Emitter,ME レベルエミッター
+item.appliedenergistics2.ItemPart.InvalidType.name,Disabled Item,無効なアイテム
+item.appliedenergistics2.ToolCertusQuartzAxe.name,Certus Quartz Axe,サーターズクォーツの斧
+item.appliedenergistics2.ToolCertusQuartzCuttingKnife.name,Certus Quartz Cutting Knife,サーターズクォーツのカッティングナイフ
+item.appliedenergistics2.ToolCertusQuartzHoe.name,Certus Quartz Hoe,サーターズクォーツのクワ
+item.appliedenergistics2.ToolCertusQuartzPickaxe.name,Certus Quartz Pickaxe,サーターズクォーツのツルハシ
+item.appliedenergistics2.ToolCertusQuartzSword.name,Certus Quartz Sword,サーターズクォーツの剣
+item.appliedenergistics2.ToolCertusQuartzWrench.name,Certus Quartz Wrench,サーターズクォーツのレンチ
+item.appliedenergistics2.ToolNetherQuartzAxe.name,Nether Quartz Axe,ネザークォーツの斧
+item.appliedenergistics2.ToolNetherQuartzCuttingKnife.name,Nether Quartz Cutting Knife,ネザークォーツのカッティングナイフ
+item.appliedenergistics2.ToolNetherQuartzHoe.name,Nether Quartz Hoe,ネザークォーツのクワ
+item.appliedenergistics2.ToolNetherQuartzPickaxe.name,Nether Quartz Pickaxe,ネザークォーツのツルハシ
+item.appliedenergistics2.ToolNetherQuartzSword.name,Nether Quartz Sword,ネザークォーツの剣
+item.appliedenergistics2.ToolNetherQuartzWrench.name,Nether Quartz Wrench,ネザークォーツのレンチ
+item.appliedenergistics2.ItemPaintBall.name,Paint Ball,ペイントボール
+item.appliedenergistics2.ToolPortableCell.name,Portable Cell,ポータブルセル
+item.appliedenergistics2.ToolNetworkTool.name,Network Tool,ネットワークツール
+item.appliedenergistics2.ToolChargedStaff.name,Charged Staff,帯電したスタッフ
+item.appliedenergistics2.ToolEntropyManipulator.name,Entropy Manipulator,エントロピー操作機
+item.appliedenergistics2.ToolMassCannon.name,Matter Cannon,物質キャノン
+item.appliedenergistics2.ToolMemoryCard.name,Memory Card,メモリーカード
+item.appliedenergistics2.ToolColorApplicator.name,Color Applicator,色塗装機
+item.appliedenergistics2.ToolWirelessTerminal.name,Wireless Terminal,ワイヤレスターミナル
+item.appliedenergistics2.ToolBiometricCard.name,Biometric Card,バイオメトリックカード
+tile.appliedenergistics2.cable_bus.name,AE2 Cable and/or Bus,AE2 ケーブル/バス
+tile.appliedenergistics2.cell_workbench.name,Cell Workbench,セルワークベンチ
+tile.appliedenergistics2.charger.name,Charger,充電器
+tile.appliedenergistics2.chest.name,ME Chest,ME チェスト
+tile.appliedenergistics2.condenser.name,Matter Condenser,物質凝縮器
+tile.appliedenergistics2.controller.name,ME Controller,ME コントローラー
+tile.appliedenergistics2.crank.name,Wooden Crank,木製クランク
+tile.appliedenergistics2.creative_energy_cell.name,Creative Energy Cell,クリエイティブエネルギーセル
+tile.appliedenergistics2.dense_energy_cell.name,Dense Energy Cell,高密度エネルギーセル
+tile.appliedenergistics2.energy_cell.name,Energy Cell,エネルギーセル
+tile.appliedenergistics2.drive.name,ME Drive,ME ドライブ
+tile.appliedenergistics2.energy_acceptor.name,Energy Acceptor,エネルギーアクセプター
+tile.appliedenergistics2.grindstone.name,Quartz Grindstone,クォーツ製粉機
+tile.appliedenergistics2.matrix_frame.name,Matrix Frame,マトリックスフレーム
+tile.appliedenergistics2.io_port.name,ME IO Port,ME IO ポート
+tile.appliedenergistics2.inscriber.name,Inscriber,刻印機
+tile.appliedenergistics2.interface.name,ME Interface,ME インターフェース
+tile.appliedenergistics2.fluid_interface.name,ME Fluid Interface,ME 流体インターフェース
+tile.appliedenergistics2.quantum_link.name,ME Quantum Link Chamber,ME 量子リンクチャンバー
+tile.appliedenergistics2.quantum_ring.name,ME Quantum Ring,ME 量子リング
+tile.appliedenergistics2.fluix_block.name,Fluix Block,フルイックスブロック
+tile.appliedenergistics2.quartz_block.name,Certus Quartz Block,サーターズクォーツブロック
+tile.appliedenergistics2.chiseled_quartz_block.name,Chiseled Certus Quartz Block,彫刻されたサーターズクォーツブロック
+tile.appliedenergistics2.quartz_glass.name,Quartz Glass,クォーツガラス
+tile.appliedenergistics2.quartz_vibrant_glass.name,Vibrant Quartz Glass,鮮やかなクォーツガラス
+tile.appliedenergistics2.quartz_pillar.name,Certus Quartz Pillar,サーターズクォーツ柱
+tile.appliedenergistics2.quartz_fixture.name,Charged Quartz Fixture,帯電したクォーツ照明
+tile.appliedenergistics2.light_detector.name,Light Detecting Fixture,光検出器
+tile.appliedenergistics2.spatial_io_port.name,Spatial IO Port,空間 IO ポート
+tile.appliedenergistics2.spatial_pylon.name,Spatial Pylon,空間パイロン
+tile.appliedenergistics2.tiny_tnt.name,Tiny TNT,小さなTNT
+tile.appliedenergistics2.vibration_chamber.name,Vibration Chamber,振動チャンバー
+tile.appliedenergistics2.wireless_access_point.name,ME Wireless Access Point,ME ワイヤレスアクセスポイント
+tile.appliedenergistics2.quartz_ore.name,Certus Quartz Ore,サーターズクォーツ鉱石
+tile.appliedenergistics2.charged_quartz_ore.name,Charged Certus Quartz Ore,帯電したサーターズクォーツ鉱石
+tile.appliedenergistics2.security_station.name,ME Security Terminal,ME セキュリティターミナル
+tile.appliedenergistics2.quartz_growth_accelerator.name,Crystal Growth Accelerator,結晶成長加速器
+tile.appliedenergistics2.sky_stone_block.name,Sky Stone,スカイストーン
+tile.appliedenergistics2.smooth_sky_stone_block.name,Sky Stone Block,スカイストーン ブロック
+tile.appliedenergistics2.sky_stone_brick.name,Sky Stone Brick,スカイストーン レンガ
+tile.appliedenergistics2.sky_stone_small_brick.name,Sky Stone Small Brick,スカイストーン 小さいレンガ
+tile.appliedenergistics2.sky_stone_chest.name,Sky Stone Chest,スカイストーン チェスト
+tile.appliedenergistics2.smooth_sky_stone_chest.name,Sky Stone Block Chest,スカイストーン ブロック チェスト
+tile.appliedenergistics2.sky_compass.name,Meteorite Compass,隕石コンパス
+tile.appliedenergistics2.crafting_monitor.name,Crafting Monitor,クラフティングモニター
+tile.appliedenergistics2.crafting_accelerator.name,Crafting Co-Processing Unit,クラフティング コプロセッシング ユニット
+tile.appliedenergistics2.crafting_unit.name,Crafting Unit,クラフティング ユニット
+tile.appliedenergistics2.molecular_assembler.name,Molecular Assembler,分子組立機
+tile.appliedenergistics2.fluix_stairs.name,Fluix Stairs,フルイックスの階段
+tile.appliedenergistics2.quartz_stairs.name,Certus Quartz Stairs,サーターズクォーツの階段
+tile.appliedenergistics2.chiseled_quartz_stairs.name,Chiseled Certus Quartz Stairs,彫刻されたサーターズクォーツの階段
+tile.appliedenergistics2.quartz_pillar_stairs.name,Certus Quartz Pillar Stairs,サーターズクォーツ柱の階段
+tile.appliedenergistics2.smooth_sky_stone_stairs.name,Sky Stone Block Stairs,スカイストーン ブロックの階段
+tile.appliedenergistics2.sky_stone_brick_stairs.name,Sky Stone Brick Stairs,スカイストーン レンガの階段
+tile.appliedenergistics2.sky_stone_small_brick_stairs.name,Sky Stone Small Brick Stairs,スカイストーン 小さいレンガの階段
+tile.appliedenergistics2.sky_stone_stairs.name,Sky Stone Stairs,スカイストーンの階段
+tile.appliedenergistics2.chiseled_quartz_slab.name,Chiseled Certus Quartz Slabs,彫刻されたサーターズクォーツのハーフブロック
+tile.appliedenergistics2.fluix_slab.name,Fluix Slabs,フルイックスのハーフブロック
+tile.appliedenergistics2.quartz_pillar_slab.name,Certus Quartz Pillar Slabs,サーターズクォーツ柱のハーフブロック
+tile.appliedenergistics2.quartz_slab.name,Certus Quartz Slabs,サーターズクォーツのハーフブロック
+tile.appliedenergistics2.smooth_sky_stone_slab.name,Sky Stone Block Slabs,スカイストーン ブロックのハーフブロック
+tile.appliedenergistics2.sky_stone_brick_slab.name,Sky Stone Brick Slabs,スカイストーン レンガのハーフブロック
+tile.appliedenergistics2.sky_stone_small_brick_slab.name,Sky Stone Small Brick Slabs,スカイストーン 小さいレンガのハーフブロック
+tile.appliedenergistics2.sky_stone_slab.name,Sky Stone Slabs,スカイストーンのハーフブロック
+theoneprobe.appliedenergistics2.channels,§2%1$d§r of §4%2$d§r Channels,§2%1$d§r / §4%2$d§r チャネル
+theoneprobe.appliedenergistics2.p2p_input_one_output,Linked (Input Side) - 1 Output,リンク済み（入力側） - 1出力
+theoneprobe.appliedenergistics2.p2p_input_many_outputs,Linked (Input Side) - §4%d§r Outputs,リンク済み（入力側） - §4%d§r 出力
+theoneprobe.appliedenergistics2.p2p_output_one_input,Linked (Output Side) - 1 Input,リンク済み（出力側） - 1入力
+theoneprobe.appliedenergistics2.p2p_output_many_inputs,Linked (Output Side) - §2%d§r Inputs,リンク済み（出力側） - §2%d§r 入力
+item.appliedenergistics2.creative_storage_cell.name,Creative ME Storage Cell,クリエイティブ ME ストレージセル
+item.appliedenergistics2.encoded_pattern.name,Encoded Pattern,エンコードされたパターン
+item.appliedenergistics2.view_cell.name,View Cell,ビューセル
+item.appliedenergistics2.facade.name,Cable Facade,ケーブルファサード
+item.appliedenergistics2.crystal_seed.certus.name,Certus Quartz Seed,サーターズクォーツシード
+item.appliedenergistics2.crystal_seed.nether.name,Nether Quartz Seed,ネザークォーツシード
+item.appliedenergistics2.crystal_seed.fluix.name,Fluix Seed,フルイックスシード
+item.appliedenergistics2.material.advanced_card.name,Advanced Card,上級カード
+item.appliedenergistics2.material.annihilation_core.name,Annihilation Core,消滅コア
+item.appliedenergistics2.material.basic_card.name,Basic Card,基本カード
+item.appliedenergistics2.material.blank_pattern.name,Blank Pattern,空白パターン
+item.appliedenergistics2.material.calculation_processor.name,Calculation Processor,計算プロセッサー
+item.appliedenergistics2.material.card_capacity.name,Capacity Card,容量カード
+item.appliedenergistics2.material.card_fuzzy.name,Fuzzy Card,ファジーカード
+item.appliedenergistics2.material.card_inverter.name,Inverter Card,インバーターカード
+item.appliedenergistics2.material.card_redstone.name,Redstone Card,レッドストーンカード
+item.appliedenergistics2.material.card_speed.name,Acceleration Card,加速カード
+item.appliedenergistics2.material.certus_quartz_crystal.name,Certus Quartz Crystal,サーターズクォーツ結晶
+item.appliedenergistics2.material.certus_quartz_crystal_charged.name,Charged Certus Quartz Crystal,帯電したサーターズクォーツ結晶
+item.appliedenergistics2.material.certus_quartz_dust.name,Certus Quartz Dust,サーターズクォーツダスト
+item.appliedenergistics2.material.empty_storage_cell.name,ME Storage Housing,ME ストレージハウジング
+item.appliedenergistics2.material.ender_dust.name,Ender Dust,エンダーダスト
+item.appliedenergistics2.material.engineering_processor.name,Engineering Processor,エンジニアリングプロセッサー
+item.appliedenergistics2.material.flour.name,Flour,小麦粉
+item.appliedenergistics2.material.fluix_crystal.name,Fluix Crystal,フルイックス結晶
+item.appliedenergistics2.material.fluix_dust.name,Fluix Dust,フルイックスダスト
+item.appliedenergistics2.material.fluix_pearl.name,Fluix Pearl,フルイックスパール
+item.appliedenergistics2.material.formation_core.name,Formation Core,形成コア
+item.appliedenergistics2.material.gold_dust.name,Gold Dust,ゴールドダスト
+item.appliedenergistics2.material.iron_dust.name,Iron Dust,鉄ダスト
+item.appliedenergistics2.material.logic_processor.name,Logic Processor,ロジックプロセッサー
+item.appliedenergistics2.material.logic_processor_asm.name,Unfinished Logic Processor,未完成のロジックプロセッサー
+item.appliedenergistics2.material.matter_ball.name,Matter Ball,物質ボール
+item.appliedenergistics2.material.nether_quartz_dust.name,Nether Quartz Dust,ネザークォーツダスト
+item.appliedenergistics2.material.purified_certus_quartz_crystal.name,Pure Certus Quartz Crystal,純粋なサーターズクォーツ結晶
+item.appliedenergistics2.material.purified_fluix_crystal.name,Pure Fluix Crystal,純粋なフルイックス結晶
+item.appliedenergistics2.material.purified_nether_quartz_crystal.name,Pure Nether Quartz Crystal,純粋なネザークォーツ結晶
+item.appliedenergistics2.material.quantum_entangled_singularity.name,Quantum Entangled Singularity,量子もつれ特異点
+item.appliedenergistics2.material.silicon.name,Silicon,シリコン
+item.appliedenergistics2.material.singularity.name,Singularity,特異点
+item.appliedenergistics2.material.wireless.name,Wireless Receiver,ワイヤレスレシーバー
+item.appliedenergistics2.material.wireless_booster.name,Wireless Booster,ワイヤレスブースター
+item.appliedenergistics2.material.wooden_gear.name,Wooden Gear,木製ギア
+item.appliedenergistics2.material.engineering_processor_press.name,Inscriber Engineering Press,刻印機 エンジニアリングプレス
+item.appliedenergistics2.material.calculation_processor_press.name,Inscriber Calculation Press,刻印機 計算プレス
+item.appliedenergistics2.material.logic_processor_press.name,Inscriber Logic Press,刻印機 ロジックプレス
+item.appliedenergistics2.material.engineering_processor_print.name,Printed Engineering Circuit,印刷されたエンジニアリング回路
+item.appliedenergistics2.material.calculation_processor_print.name,Printed Calculation Circuit,印刷された計算回路
+item.appliedenergistics2.material.logic_processor_print.name,Printed Logic Circuit,印刷されたロジック回路
+item.appliedenergistics2.material.silicon_press.name,Inscriber Silicon Press,刻印機 シリコンプレス
+item.appliedenergistics2.material.silicon_print.name,Printed Silicon,印刷されたシリコン
+item.appliedenergistics2.material.name_press.name,Inscriber Name Press,刻印機 ネームプレス
+item.appliedenergistics2.material.sky_dust.name,Sky Stone Dust,スカイストーン ダスト
+item.appliedenergistics2.multi_part.annihilation_plane.name,ME Annihilation Plane,ME 消滅プレーン
+item.appliedenergistics2.multi_part.identity_annihilation_plane.name,ME Identity Annihilation Plane,ME アイデンティティ消滅プレーン
+item.appliedenergistics2.multi_part.cable_anchor.name,Cable Anchor,ケーブルアンカー
+item.appliedenergistics2.multi_part.cable_covered.name,ME Covered Cable,ME 被覆ケーブル
+item.appliedenergistics2.multi_part.cable_glass.name,ME Glass Cable,ME ガラスケーブル
+item.appliedenergistics2.multi_part.cable_smart.name,ME Smart Cable,ME スマートケーブル
+item.appliedenergistics2.multi_part.storage_monitor.name,ME Storage Monitor,ME ストレージモニター
+item.appliedenergistics2.multi_part.conversion_monitor.name,ME Conversion Monitor,ME コンバージョンモニター
+item.appliedenergistics2.multi_part.crafting_terminal.name,ME Crafting Terminal,ME クラフティングターミナル
+item.appliedenergistics2.multi_part.semi_dark_monitor.name,Illuminated Panel,イルミネーションパネル
+item.appliedenergistics2.multi_part.monitor.name,Bright Illuminated Panel,明るいイルミネーションパネル
+item.appliedenergistics2.multi_part.dark_monitor.name,Dark Illuminated Panel,暗いイルミネーションパネル
+item.appliedenergistics2.multi_part.export_bus.name,ME Export Bus,ME 搬出バス
+item.appliedenergistics2.multi_part.fluid_export_bus.name,ME Fluid Export Bus,ME 流体搬出バス
+item.appliedenergistics2.multi_part.formation_plane.name,ME Formation Plane,ME 形成プレーン
+item.appliedenergistics2.multi_part.import_bus.name,ME Import Bus,ME 搬入バス
+item.appliedenergistics2.multi_part.fluid_import_bus.name,ME Fluid Import Bus,ME 流体搬入バス
+item.appliedenergistics2.multi_part.interface.name,ME Interface,ME インターフェース
+item.appliedenergistics2.multi_part.fluid_interface.name,ME Fluid Interface,ME 流体インターフェース
+item.appliedenergistics2.multi_part.level_emitter.name,ME Level Emitter,ME レベルエミッター
+item.appliedenergistics2.multi_part.fluid_level_emitter.name,ME Fluid Level Emitter,ME 流体レベルエミッター
+item.appliedenergistics2.multi_part.p2p_tunnel.name,P2P Tunnel,P2P トンネル
+item.appliedenergistics2.multi_part.pattern_terminal.name,ME Pattern Terminal,ME パターンターミナル
+item.appliedenergistics2.multi_part.quartz_fiber.name,Quartz Fiber,クォーツファイバー
+item.appliedenergistics2.multi_part.storage_bus.name,ME Storage Bus,ME ストレージバス
+item.appliedenergistics2.multi_part.terminal.name,ME Terminal,ME ターミナル
+item.appliedenergistics2.multi_part.inverted_toggle_bus.name,ME Inverted Toggle Bus,ME 反転トグルバス
+item.appliedenergistics2.multi_part.toggle_bus.name,ME Toggle Bus,ME トグルバス
+item.appliedenergistics2.multi_part.crafting_monitor.name,ME Crafting Monitor,ME クラフティングモニター
+item.appliedenergistics2.multi_part.interface_terminal.name,ME Interface Terminal,ME インターフェースターミナル
+item.appliedenergistics2.certus_quartz_axe.name,Certus Quartz Axe,サーターズクォーツの斧
+item.appliedenergistics2.certus_quartz_cutting_knife.name,Certus Quartz Cutting Knife,サーターズクォーツのカッティングナイフ
+item.appliedenergistics2.certus_quartz_hoe.name,Certus Quartz Hoe,サーターズクォーツのクワ
+item.appliedenergistics2.certus_quartz_pickaxe.name,Certus Quartz Pickaxe,サーターズクォーツのツルハシ
+item.appliedenergistics2.certus_quartz_spade.name,Certus Quartz Shovel,サーターズクォーツショベル
+item.appliedenergistics2.certus_quartz_sword.name,Certus Quartz Sword,サーターズクォーツの剣
+item.appliedenergistics2.certus_quartz_wrench.name,Certus Quartz Wrench,サーターズクォーツのレンチ
+item.appliedenergistics2.nether_quartz_axe.name,Nether Quartz Axe,ネザークォーツの斧
+item.appliedenergistics2.nether_quartz_cutting_knife.name,Nether Quartz Cutting Knife,ネザークォーツのカッティングナイフ
+item.appliedenergistics2.nether_quartz_hoe.name,Nether Quartz Hoe,ネザークォーツのクワ
+item.appliedenergistics2.nether_quartz_pickaxe.name,Nether Quartz Pickaxe,ネザークォーツのツルハシ
+item.appliedenergistics2.nether_quartz_spade.name,Nether Quartz Shovel,ネザークォーツショベル
+item.appliedenergistics2.nether_quartz_sword.name,Nether Quartz Sword,ネザークォーツの剣
+item.appliedenergistics2.nether_quartz_wrench.name,Nether Quartz Wrench,ネザークォーツのレンチ
+item.appliedenergistics2.portable_cell.name,Portable Cell,ポータブルセル
+item.appliedenergistics2.network_tool.name,Network Tool,ネットワークツール
+item.appliedenergistics2.charged_staff.name,Charged Staff,帯電したスタッフ
+item.appliedenergistics2.entropy_manipulator.name,Entropy Manipulator,エントロピー操作機
+item.appliedenergistics2.matter_cannon.name,Matter Cannon,物質キャノン
+item.appliedenergistics2.memory_card.name,Memory Card,メモリーカード
+item.appliedenergistics2.color_applicator.name,Color Applicator,色塗装機
+item.appliedenergistics2.wireless_terminal.name,Wireless Terminal,ワイヤレスターミナル
+item.appliedenergistics2.biometric_card.name,Biometric Card,バイオメトリックカード
 item.appliedenergistics2.debug_card.name,Dev.DebugCard,
 item.appliedenergistics2.debug_replicator_card.name,Dev.ReplicatorCard,
-tile.appliedenergistics2.crafting_storage_1k.name,1k Crafting Storage,
-tile.appliedenergistics2.crafting_storage_4k.name,4k Crafting Storage,
-tile.appliedenergistics2.crafting_storage_16k.name,16k Crafting Storage,
-tile.appliedenergistics2.crafting_storage_64k.name,64k Crafting Storage,
-item.appliedenergistics2.storage_cell_1k.name,1k ME Storage Cell,
-item.appliedenergistics2.storage_cell_4k.name,4k ME Storage Cell,
-item.appliedenergistics2.storage_cell_16k.name,16k ME Storage Cell,
-item.appliedenergistics2.storage_cell_64k.name,64k ME Storage Cell,
-item.appliedenergistics2.material.cell2_spatial_part.name,2³ Spatial Component,
-item.appliedenergistics2.material.cell16_spatial_part.name,16³ Spatial Component,
-item.appliedenergistics2.material.cell128_spatial_part.name,128³ Spatial Component,
-item.appliedenergistics2.material.cell1k_part.name,1k ME Storage Component,
-item.appliedenergistics2.material.cell4k_part.name,4k ME Storage Component,
-item.appliedenergistics2.material.cell16k_part.name,16k ME Storage Component,
-item.appliedenergistics2.material.cell64k_part.name,64k ME Storage Component,
-item.appliedenergistics2.spatial_storage_cell_128_cubed.name,128³ Spatial Storage Cell,
-item.appliedenergistics2.spatial_storage_cell_16_cubed.name,16³ Spatial Storage Cell,
-item.appliedenergistics2.spatial_storage_cell_2_cubed.name,2³ Spatial Storage Cell,
+tile.appliedenergistics2.crafting_storage_1k.name,1k Crafting Storage,1k クラフトストレージ
+tile.appliedenergistics2.crafting_storage_4k.name,4k Crafting Storage,4k クラフトストレージ
+tile.appliedenergistics2.crafting_storage_16k.name,16k Crafting Storage,16k クラフトストレージ
+tile.appliedenergistics2.crafting_storage_64k.name,64k Crafting Storage,64k クラフトストレージ
+item.appliedenergistics2.storage_cell_1k.name,1k ME Storage Cell,1k ME ストレージセル
+item.appliedenergistics2.storage_cell_4k.name,4k ME Storage Cell,4k ME ストレージセル
+item.appliedenergistics2.storage_cell_16k.name,16k ME Storage Cell,16k ME ストレージセル
+item.appliedenergistics2.storage_cell_64k.name,64k ME Storage Cell,64k ME ストレージセル
+item.appliedenergistics2.material.cell2_spatial_part.name,2³ Spatial Component,2³ 空間コンポーネント
+item.appliedenergistics2.material.cell16_spatial_part.name,16³ Spatial Component,16³ 空間コンポーネント
+item.appliedenergistics2.material.cell128_spatial_part.name,128³ Spatial Component,128³ 空間コンポーネント
+item.appliedenergistics2.material.cell1k_part.name,1k ME Storage Component,1k ME ストレージコンポーネント
+item.appliedenergistics2.material.cell4k_part.name,4k ME Storage Component,4k ME ストレージコンポーネント
+item.appliedenergistics2.material.cell16k_part.name,16k ME Storage Component,16k ME ストレージコンポーネント
+item.appliedenergistics2.material.cell64k_part.name,64k ME Storage Component,64k ME ストレージコンポーネント
+item.appliedenergistics2.spatial_storage_cell_128_cubed.name,128³ Spatial Storage Cell,128³ 空間ストレージセル
+item.appliedenergistics2.spatial_storage_cell_16_cubed.name,16³ Spatial Storage Cell,16³ 空間ストレージセル
+item.appliedenergistics2.spatial_storage_cell_2_cubed.name,2³ Spatial Storage Cell,2³ 空間ストレージセル
 itemGroup.appliedenergistics2,Applied Energistics 2,
 key.appliedenergistics2.category,Applied Energistics 2,

@@ -777,31 +777,36 @@ jm.webmap.automap_complete_underground,Auto-mapping of slice %1$s has stopped.,%
 jm.webmap.slice_text,Vertical Slice:,縦方向のスライス:
 key.journeymap.minimap_type,Switch between Day/Night/Caves,昼/夜/洞窟用の表示に切り替え
 key.journeymap.night,Show Night Map,夜のマップ
-jm.colorpalette.mods,Mods,
-jm.common.automap_dialog_summary_2,"'Blend Foliage', 'Blend Grass', and 'Blend Water'.",
+jm.colorpalette.mods,Mods,Modヤ
+jm.common.automap_dialog_summary_2,"'Blend Foliage', 'Blend Grass', and 'Blend Water'.",'繰り返し葉'、'繰り返し草'、'繰り返し水'。
 jm.common.discord,JourneyMap Discord,
-jm.common.entity_display.dots,Dots,
-jm.common.entity_display.icons,Icons,
-jm.common.fullscreen_drag_scale,Drag Scale,
+jm.common.entity_display.dots,Dots,ドット
+jm.common.entity_display.icons,Icons,アイコン
+jm.common.fullscreen_drag_scale,Drag Scale,ドラッグ拡大縮小
 jm.common.hotkeys_keybinding_category,JourneyMap,
-jm.common.renderstats_debug_topo,Topo: %1$s (%2$s) + %3$s (%4$s) = %5$s chunks in %6$sms (avg %7$sms),
-jm.common.renderstats_debug_topo_simple,Topo: %1$s = %2$s chunks in %3$sms (avg %4$sms),
-jm.common.splash_artist,Artist,
-jm.common.splash_icons,Icons,
-jm.common.splash_patreon,Patron,
-jm.common.system_time_format.tooltip,"""Time format for the InfoSlot:System Time""",
-jm.common.time_format.tooltip,"""Time format for the InfoSlot:Real Game Time""",
-jm.minimap.position_custom,Custom,
-jm.server.edit.chkbox.enable,Enable,
+jm.common.renderstats_debug_topo,Topo: %1$s (%2$s) + %3$s (%4$s) = %5$s chunks in %6$sms (avg %7$sms),Topo: %1$s (%2$s) + %3$s (%4$s) = %5$s チャンク %6$sms (平均 %7$sms)
+jm.common.renderstats_debug_topo_simple,Topo: %1$s = %2$s chunks in %3$sms (avg %4$sms),Topo: %1$s = %2$s チャンク %3$sms (平均 %4$sms)
+jm.common.splash_artist,Artist,アーティスト
+jm.common.splash_icons,Icons,アイコン
+jm.common.splash_patreon,Patron,パトロン
+jm.common.system_time_format.tooltip,"""Time format for the InfoSlot:System Time""","""InfoSlot:System Timeの時間形式"""
+jm.common.time_format.tooltip,"""Time format for the InfoSlot:Real Game Time""","""InfoSlot:Real Game Timeの時間形式"""
+jm.minimap.position_custom,Custom,カスタム
+jm.server.edit.chkbox.enable,Enable,有効にする
 jm.server.edit.tracking.tooltip,"If [player radar] is [enabled] this feature allows the server to track players outside of the range of the client.
 Players can see each other on the map no matter the distance as long as they are in the same dimension.
 If this is [enabled] and player radar is [disabled] this feature will not work.
-If this is [disabled] and player radar is [enabled] this feature will not work, but proximity radar will still work.",
+If this is [disabled] and player radar is [enabled] this feature will not work, but proximity radar will still work.","[プレイヤーレーダー]が[有効]の場合、この機能はサーバーがクライアント範囲外のプレイヤーを追跡できます。
+プレイヤーは同じディメンション内にいる限り、距離に関係なくマップ上で互いを見ることができます。
+これが[有効]でプレイヤーレーダーが[無効]の場合、この機能は機能しません。
+これが[無効]でプレイヤーレーダーが[有効]の場合、この機能は機能しませんが、近接レーダーは引き続き機能します。"
 jm.server.render_range.tooltip,"Force all players to a maximum chunk render distance for the map. 0 to use client settings.
 This setting only forces the max, it does not increase their render range.
-This value will not be reflected in the client's Cartography section of the Options screen.",
-jm.theme.labelsource.gametime.sunset,Sunset,
-jm.theme.labelsource.region,Region,
+This value will not be reflected in the client's Cartography section of the Options screen.","すべてのプレイヤーをマップの最大チャンク描画距離に強制します。クライアント設定を使用するには0です。
+この設定は最大値のみを強制し、レンダーレンジを増加させません。
+この値は、オプション画面の地図作成セクションのクライアントに反映されません。"
+jm.theme.labelsource.gametime.sunset,Sunset,日没
+jm.theme.labelsource.region,Region,リージョン
 jm.waypoint.temp,Temp: ,
 jm.server.edit.option.op,Op,
 jm.waypoint.x,X,

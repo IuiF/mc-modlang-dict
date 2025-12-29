@@ -100,7 +100,7 @@ config.jade.plugin_jade.registry_name.special,Special IDs,特殊ID
 config.jade.plugin_jade.registry_name.special.block_entity_type,BlockEntity: %s,ブロックエンティティ: %s
 config.jade.plugin_jade.registry_name.special.fluid,Fluid: %s,液体: %s
 config.jade.plugin_jade.registry_name.special.painting,Painting: %s,絵画: %s
-config.jade.plugin_jade.registry_name.special.poi,POI: %s,
+config.jade.plugin_jade.registry_name.special.poi,POI: %s,POI: %s
 config.jade.plugin_jade.registry_name.special_desc,Show special IDs like BlockEntity and Fluid.,ブロックエンティティや流体などの特殊なIDを表示します。
 config.jade.plugin_jade.registry_name_advanced_tooltips,Advanced Tooltips,高度なツールチップ
 config.jade.plugin_jade.registry_name_advanced_tooltips_desc,Follow the advanced tooltips option,高度なツールチップオプションに従う
@@ -288,9 +288,9 @@ jade.block_explosion_resistance,Explosion resistance: %s,爆発耐性: %s
 jade.block_ignite_odds,Ignite odds: %s,発火確率: %s
 jade.block_jump_factor,Jump factor: %s,跳躍係数: %s
 jade.block_speed_factor,Speed factor: %s,速度係数: %s
-jade.blockpos,%s %s %s,
+jade.blockpos,%s %s %s,%s %s %s
 jade.collectingItems,Collecting items...,アイテムを収集中...
-jade.customNameEntity,%s (%s),
+jade.customNameEntity,%s (%s),%s (%s)
 jade.distance1," [%s]",[%s]
 jade.distance2,Distance: %s,距離: %s
 jade.down,Down,下
@@ -298,13 +298,13 @@ jade.east,East,東
 jade.ench_power,Ench Power: %s,エンチャ出力: %s
 jade.energy.text,Energy: %s,エネルギー: %s
 jade.error,"<Error from %s mod, plz report>",<%sMODからエラー、報告してください>
-jade.fe,%s / %s,
-jade.fluid,%s %s,
+jade.fe,%s / %s,%s/%s
+jade.fluid,%s %s,%s %s
 jade.fluid.empty,Empty,空
 jade.fluid.more_tanks,%s more tanks,%s さらにタンク
-jade.fluid.text,%s: %s,
-jade.fluid.with_capacity,%s / %s,
-jade.fraction,%d / %d,
+jade.fluid.text,%s: %s,%s: %s
+jade.fluid.with_capacity,%s / %s,%s/%s
+jade.fraction,%d / %d,%d/%d
 jade.horseStat.jump,Jump height: %d,ジャンプ高さ: %d
 jade.horseStat.speed,Speed: %d,速度: %d
 jade.ignore_list.comment,"This is an ignore list for the target of Jade. You can add registry ids to the ""values"" list.",これはJadeのターゲットの無視リストです。レジストリIDを「value」リストに追加できます。
@@ -346,7 +346,7 @@ jade.nextScute,Next scute: %s,次のウロコまで: %s
 jade.north,North,北
 jade.owner,Owner: %s,所有者: %s
 jade.south,South,南
-jade.spawner,%s (%s),
+jade.spawner,%s (%s),%s (%s)
 jade.theme.jade.create,Create,作成
 jade.theme.jade.dark,Dark,暗い
 jade.theme.jade.waila,Classic,クラシック
@@ -369,7 +369,7 @@ modmenu.descriptionTranslation.jade,Shows information about what you are looking
 mymod.fuel,Fuel: %d ticks,燃料: %dティック
 narration.jade.adjusting_position,Drag to adjust position. Press ESC to exit,ドラッグして位置を調整します。終了するにはESCを押します
 narration.jade.armor,Armor: %s,アーマー: %s
-narration.jade.blockpos,X%s Y%s Z%s ,
+narration.jade.blockpos,X%s Y%s Z%s ,X%s Y%s Z%s 
 narration.jade.bookName,Book Name: %s,ブック名: %s
 narration.jade.brewingStand.fuel,Fuel: %s,燃料: %s
 narration.jade.by,Made with Love by Snownee. Press button to check out all my works!,Snownee が愛情を込めて作りました。ボタンを押して私の作品をすべてチェックしてください。
@@ -602,8 +602,8 @@ config.jade.plugin_minecraft.energy_storage.detailed_desc,Only show energy info 
 config.jade.plugin_minecraft.fluid_storage.detailed_desc,Only show fluid info when [Show Details] key is pressed.,[詳細表示]キーが押されたときのみ液体情報を表示します。
 config.jade.plugin_minecraft.item_storage.detailed_amount_desc,The amount of items to show when [Show Details] key is pressed.,[詳細表示]キー押下時に表示するアイテム数。
 config.jade.plugin_minecraft.item_storage.normal_amount_desc,The amount of items to show when [Show Details] key is not pressed.,[詳細表示]キー未押下時に表示するアイテム数。
-jade.theme.jade.top,One Probe,
-modmenu.nameTranslation.jade,Jade,
+jade.theme.jade.top,One Probe,One Probe
+modmenu.nameTranslation.jade,Jade,Jade
 config.waila.plugin_waila,Waila,
-jade.access.block.door_open,%s,
+jade.access.block.door_open,%s,%s
 jade.infinity,+∞,

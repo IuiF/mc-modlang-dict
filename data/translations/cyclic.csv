@@ -626,14 +626,14 @@ cyclic.screen.green,Green,緑
 cyclic.screen.offset,Block Offset,ブロックオフセット
 cyclic.screen.padding,Padding,パディング
 cyclic.screen.red,Red,赤
-cyclic.screen.size0,1x1,
-cyclic.screen.size1,3x3,
+cyclic.screen.size0,1x1,1×1
+cyclic.screen.size1,3x3,3×3
 cyclic.screen.size10,21x21,21×21
 cyclic.screen.size11,23x23,23×23
 cyclic.screen.size12,25x25,25×25
-cyclic.screen.size2,5x5,
-cyclic.screen.size3,7x7,
-cyclic.screen.size4,9x9,
+cyclic.screen.size2,5x5,5×5
+cyclic.screen.size3,7x7,7×7
+cyclic.screen.size4,9x9,9×9
 cyclic.screen.size5,11x11,11×11
 cyclic.screen.size6,13x13,13×13
 cyclic.screen.size7,15x15,15×15
@@ -1385,10 +1385,10 @@ potion.potency.2,III,
 potion.potency.3,IV,
 potion.potency.4,V,
 potion.potency.5,VI,
-potion.potency.6,VII,
-potion.potency.7,VIII,
-potion.potency.8,IX,
-potion.potency.9,X,
+potion.potency.6,VII,VII
+potion.potency.7,VIII,VIII
+potion.potency.8,IX,IX
+potion.potency.9,X,X
 scepter.cyclic.empty,Out of materials,材料が足りません
 scepter.cyclic.nothing,Sneak-left-click to pick block,スニーク左クリックでブロックを選択
 screen.justification,Text Alignment,テキスト配置
@@ -1434,12 +1434,12 @@ tool.action.push,Push,押す
 tool.action.reverse,Direction: Reverse,方向：逆進
 tool.action.rotate,Rotate,回転
 tool.action.single,Single,単一
-tool.action.x19,1x9,
-tool.action.x3,3x3,
-tool.action.x5,5x5,
-tool.action.x7,7x7,
-tool.action.x9,9x9,
-tool.action.x91,9x1,
+tool.action.x19,1x9,1×9
+tool.action.x3,3x3,3×3
+tool.action.x5,5x5,5×5
+tool.action.x7,7x7,7×7
+tool.action.x9,9x9,9×9
+tool.action.x91,9x1,9×1
 tool.cable_wrench.disable,Disable mode,無効化モード
 tool.cable_wrench.extract,Extract mode,抽出モード
 tool.spelunker.cave,Hollow at distance ,遠くの空洞
@@ -1815,13 +1815,13 @@ button.exp_pylon.collect.tooltip,Toggle collecting experience orb entities in th
 button.exp_pylon.collect0,Idle,待機
 button.exp_pylon.collect1,Searching,検索中
 _comments,Thanks to https://tterrag.com/lang2json/,
-block.cyclic.sound_recorder.guide,"Record any sounds up to 8 blocks away, and record in the block.  Comes with an ignore list that you can build up.  Save to Sound Data Card for use in Sound Player. ",
-block.cyclic.structure.guide,"This advanced building machine has a fixed set of shapes such as Pyramid, Sphere, Cylander, etc.  Using power and blocks you can build any shape with this.  Also can use Shape Data Cards for custom shapes.  ",
-block.cyclic.terra_preta.guide,"Place Terra Preta below farmland to increase the speed at which crops grow.  Works just like a sprinkler except there are no particles, and it only targets the block above. ",
-block.fire_dark.guide,Does not destroy blocks or harm players.  Spawned by Duskflame Hex,
-enchantment.cyclic.excavate.guide,Randomly reaches out in all direction and mines blocks matching the original target.  Higher levels have more [ maximum_blocks = 26 + 8 * ENCHANT_LEVEL],
-item.cyclic.location.guide,"Right click on a block with the GPS Marker in hand to save its position to the Marker; crouch to use on inventories/machines. Markers with saved locations can be used in multiple machines from this mod such as the Shape Builder, and items like Ender Book. Use while jumping to select the offset of the targeted block instead. ",
-item.cyclic.scythe_forage.guide,"Forage growing resources, using the following block data tags:  minecraft:flowers, minecraft:corals, forge:mushrooms, forge:vines, forge:cactus, forge:crop_blocks",
-block.cyclic.computer_shape.guide,"Place two  GPS Card cards and one  Shape Card, then you can read, copy, paste, and merge shapes together. ",
-item.cyclic.blockstate_data.guide,"Use on a block to read and remember its block state.  Crouch while using to filter on the block only.  Can store a list of 18 blockstates.  Craft to erase the list.  It can distinguish between identical blocks in different states such as rotated stairs, double slabs, etc if in exact [blockstate] mode. Used for machine filters, See Miner",
-item.cyclic.storage_bag.guide,"The Storage Bag can be used as a portable inventory. Right-click with the bag in hand to open it. The bag can be set to pickup items, refill your hotbar, or to deposit its items into any inventory on right-click. ",
+block.cyclic.sound_recorder.guide,"Record any sounds up to 8 blocks away, and record in the block.  Comes with an ignore list that you can build up.  Save to Sound Data Card for use in Sound Player. ",8ブロック以内のあらゆる音を記録でき、ブロック内に記録できます。無視リストを構築できます。サウンドプレイヤーで使用するためにサウンドデータカードに保存します。
+block.cyclic.structure.guide,"This advanced building machine has a fixed set of shapes such as Pyramid, Sphere, Cylander, etc.  Using power and blocks you can build any shape with this.  Also can use Shape Data Cards for custom shapes.  ",このアドバンスド建築機械には、ピラミッド、球体、シリンダーなどの固定されたシェイプセットがあります。電力とブロックを使用すると、このマシンで任意のシェイプを構築できます。カスタムシェイプ用のシェイプデータカードも使用できます。
+block.cyclic.terra_preta.guide,"Place Terra Preta below farmland to increase the speed at which crops grow.  Works just like a sprinkler except there are no particles, and it only targets the block above. ",テラプレタを農地の下に配置すると、作物の成長速度が上がります。スプリンクラーと同じように機能しますが、パーティクルなし、真上のブロックのみをターゲットにします。
+block.fire_dark.guide,Does not destroy blocks or harm players.  Spawned by Duskflame Hex,ブロックを破壊したり、プレイヤーにダメージを与えません。ダスクフレイムヘックスによって生成されます
+enchantment.cyclic.excavate.guide,Randomly reaches out in all direction and mines blocks matching the original target.  Higher levels have more [ maximum_blocks = 26 + 8 * ENCHANT_LEVEL],ランダムにすべての方向に到達し、元のターゲットに一致するブロックをマイニングします。レベルが高いほど [ maximum_blocks = 26 + 8 * ENCHANT_LEVEL]
+item.cyclic.location.guide,"Right click on a block with the GPS Marker in hand to save its position to the Marker; crouch to use on inventories/machines. Markers with saved locations can be used in multiple machines from this mod such as the Shape Builder, and items like Ender Book. Use while jumping to select the offset of the targeted block instead. ",GPS マーカーを手に持ってブロックを右クリックすると、その位置をマーカーに保存します。スニークしてインベントリ/マシンで使用します。保存されたロケーション付きマーカーは、このmodの複数のマシン（シェイプビルダーなど）やエンダーブックなどのアイテムで使用できます。ジャンプ中に使用して、ターゲットブロックのオフセットを選択します。
+item.cyclic.scythe_forage.guide,"Forage growing resources, using the following block data tags:  minecraft:flowers, minecraft:corals, forge:mushrooms, forge:vines, forge:cactus, forge:crop_blocks",以下のブロックデータタグを使用して成長中のリソースを取得します：minecraft:flowers、minecraft:corals、forge:mushrooms、forge:vines、forge:cactus、forge:crop_blocks
+block.cyclic.computer_shape.guide,"Place two  GPS Card cards and one  Shape Card, then you can read, copy, paste, and merge shapes together. ",GPS カード2枚とシェイプカード1枚を配置すると、シェイプを読み込み、コピー、貼り付け、統合できます。
+item.cyclic.blockstate_data.guide,"Use on a block to read and remember its block state.  Crouch while using to filter on the block only.  Can store a list of 18 blockstates.  Craft to erase the list.  It can distinguish between identical blocks in different states such as rotated stairs, double slabs, etc if in exact [blockstate] mode. Used for machine filters, See Miner",ブロックを右クリックしてそのブロックスポットを読み込んで記憶します。スニークしながら使用してブロックのみをフィルターします。最大18個のブロックスポットのリストを保存できます。クラフトしてリストを消去します。正確な[blockstate]モードの場合、回転した階段、二重スラブなどの異なる状態の同一ブロックを区別できます。マシンフィルターやマイナーなどのアイテムに使用されます
+item.cyclic.storage_bag.guide,"The Storage Bag can be used as a portable inventory. Right-click with the bag in hand to open it. The bag can be set to pickup items, refill your hotbar, or to deposit its items into any inventory on right-click. ",ストレージバッグはポータブルインベントリとして使用できます。バッグを手に持って右クリックして開きます。バッグはアイテムを取得するか、ホットバーを補充するか、右クリック時にそのアイテムをインベントリに預けることができます。

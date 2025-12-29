@@ -61,10 +61,10 @@ commands.ftbquests.command.feedback.table_too_many_items,"WARNING: Table %s cont
 commands.ftbquests.editing_mode.disabled,Editing Mode for %s Disabled,「%s」の編集モードが無効です
 commands.ftbquests.editing_mode.enabled,Editing Mode for %s Enabled,「%s」の編集モードが有効になりました
 commands.ftbquests.export_rewards_to_chest.text,Exported %s / %s items from '%s',「%s」から %s / %s 個のアイテムをエクスポートしました
-commands.ftbquests.export_rewards_to_chest.usage,/ftbquests export_rewards_to_chest <reward_table>,
+commands.ftbquests.export_rewards_to_chest.usage,/ftbquests export_rewards_to_chest <reward_table>,/ftbquests export_rewards_to_chest <reward_table>
 commands.ftbquests.import_rewards_from_chest.invalid_id,Invalid Reward Table ID!,報酬テーブル ID が無効です。
 commands.ftbquests.import_rewards_from_chest.text,Imported %d items into %s,%d 個のアイテムを %s にインポートしました
-commands.ftbquests.import_rewards_from_chest.usage,/ftbquests import_rewards_from_chest <reward_table> [weight] [replace],
+commands.ftbquests.import_rewards_from_chest.usage,/ftbquests import_rewards_from_chest <reward_table> [weight] [replace],/ftbquests import_rewards_from_chest <reward_table> [weight] [replace]
 commands.ftbquests.locked.disabled,Unlocked quests for %s,%s のクエストが解除されました
 commands.ftbquests.locked.enabled,Locked quests for %s,%s のロック中のクエスト
 commands.ftbquests.weigh_from_emc.invalid_id,Invalid Reward Table ID!,報酬テーブル ID が無効です。
@@ -445,22 +445,22 @@ ftbquests.task.ftbquests.biome.biome,Biome,バイオーム
 ftbquests.task.ftbquests.botania_mana,Botania Mana,ボタニアマナ
 ftbquests.task.ftbquests.botania_mana.show_numbers,Show Numbers,数字を表示
 ftbquests.task.ftbquests.buildcraft_mj,BuildCraft Energy,BuildCraft エネルギー
-ftbquests.task.ftbquests.buildcraft_mj.text,%d MJ,
+ftbquests.task.ftbquests.buildcraft_mj.text,%d MJ,%d MJ
 ftbquests.task.ftbquests.checkmark,Checkmark,チェックマーク
 ftbquests.task.ftbquests.custom,Custom,カスタム
 ftbquests.task.ftbquests.dimension,Visit Dimension,ディメンションを訪れる
 ftbquests.task.ftbquests.dimension.dim,Dimension,ディメンション
-ftbquests.task.ftbquests.emc,EMC,
+ftbquests.task.ftbquests.emc,EMC,EMC
 ftbquests.task.ftbquests.fluid,Fluid,流体
 ftbquests.task.ftbquests.fluid.amount,Amount,数量
 ftbquests.task.ftbquests.fluid.fluid,Fluid,流体
 ftbquests.task.ftbquests.fluid.fluid_nbt,Fluid NBT,流体NBT
 ftbquests.task.ftbquests.forge_energy,Forge Energy,フォージエネルギー
 ftbquests.task.ftbquests.forge_energy.text,%d FE,%d エネルギー
-ftbquests.task.ftbquests.forge_energy.value,FE / RF,
+ftbquests.task.ftbquests.forge_energy.value,FE / RF,FE / RF
 ftbquests.task.ftbquests.gamestage,Game Stage,ステージ
 ftbquests.task.ftbquests.ic2_energy,IC2 Energy,IC2 エネルギー
-ftbquests.task.ftbquests.ic2_energy.text,%d EU,
+ftbquests.task.ftbquests.ic2_energy.text,%d EU,%d EU
 ftbquests.task.ftbquests.interaction,Interaction,相互作用
 ftbquests.task.ftbquests.interaction.match,Match,マッチ
 ftbquests.task.ftbquests.interaction.properties,Properties,プロパティ
@@ -518,7 +518,7 @@ ftbquests.task.ftbquests.stat.value,Value,値
 ftbquests.task.ftbquests.structure,Find Structure,構造物を見つける
 ftbquests.task.ftbquests.structure.structure,Structure,構造
 ftbquests.task.ftbquests.tech_reborn_energy,Tech Reborn Energy,テック・リボーン エネルギー
-ftbquests.task.ftbquests.tech_reborn_energy.text,%d E,
+ftbquests.task.ftbquests.tech_reborn_energy.text,%d E,%d E
 ftbquests.task.ftbquests.xp,XP Levels,経験値レベル
 ftbquests.task.ftbquests.xp.points,Points,ポイント
 ftbquests.task.ftbquests.xp.points.tooltip,Use XP points to complete instead of levels. Use a calculator to find out what the value should be,レベルの代わりにXPポイントを使用して完了します。計算機を使用して、値がいくらになるかを調べます。
@@ -902,21 +902,21 @@ commands.ftbquests.change_consumable.usage,/ftbquests change_consumable <*|chapt
 commands.ftbquests.weigh_from_emc.usage,/ftbquests weigh_from_emc <reward_table> [missing_emc_weight],
 commands.ftbquests.auto_pin.usage,/ftbquests auto_pin,
 commands.ftbquests.generate_chapter_with_all_items_in_game.usage,/ftbquests generate_chapter_with_all_items_in_game,
-ftbquests,FTB Quests,
-ftbquests.task.ftbquests.botania_mana.text,%d Mana,
-ftbquests.task.ftbquests.botania_mana.value,Mana,
-itemGroup.ftbquests.ftbquests,FTB Quests,
-key.categories.ftbquests,FTB Quests,
+ftbquests,FTB Quests,FTB Quests
+ftbquests.task.ftbquests.botania_mana.text,%d Mana,%d Mana
+ftbquests.task.ftbquests.botania_mana.value,Mana,Mana
+itemGroup.ftbquests.ftbquests,FTB Quests,FTB Quests
+key.categories.ftbquests,FTB Quests,FTB Quests
 ftbquests.file,File,
-ftbquests.chapter.image.x,X,
-ftbquests.chapter.image.y,Y,
-ftbquests.quest.appearance.x,X,
-ftbquests.quest.appearance.y,Y,
-ftbquests.quest_link.x,X,
-ftbquests.quest_link.y,Y,
-ftbquests.reward_table.loot_crate.id,ID,
-ftbquests.task.ftbquests.buildcraft_mj.value,mJ,
-ftbquests.task.ftbquests.ic2_energy.value,EU,
-ftbquests.task.ftbquests.tech_reborn_energy.value,E,
+ftbquests.chapter.image.x,X,X
+ftbquests.chapter.image.y,Y,Y
+ftbquests.quest.appearance.x,X,X
+ftbquests.quest.appearance.y,Y,Y
+ftbquests.quest_link.x,X,X
+ftbquests.quest_link.y,Y,Y
+ftbquests.reward_table.loot_crate.id,ID,ID
+ftbquests.task.ftbquests.buildcraft_mj.value,mJ,mJ
+ftbquests.task.ftbquests.ic2_energy.value,EU,EU
+ftbquests.task.ftbquests.tech_reborn_energy.value,E,E
 ftbquests.task.ftbquests.location.x,X,
 ftbquests.task.ftbquests.location.y,Y,

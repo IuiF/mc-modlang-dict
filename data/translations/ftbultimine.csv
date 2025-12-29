@@ -124,13 +124,14 @@ ftbultimine.client_settings.general.require_ultimine_key_for_cycling.tooltip,"If
 If false, shapes can be cycled at any time.",
 ftbultimine.client_settings.general.shape_feedback_hotbar_message.tooltip,"If true, show a feedback message with the new shape on the hotbar when the Ultimining shape is changed",
 ftbultimine.server_settings.costs_limits.max_blocks.tooltip,"The maximum number of blocks which can be broken or modified in one operation
-If FTB Ranks is installed, the 'ftbultimine.max_blocks' node takes priority, if present",
+If FTB Ranks is installed, the 'ftbultimine.max_blocks' node takes priority, if present","一度の操作で破壊または変更できるブロックの最大数
+FTB Ranksがインストールされている場合、'ftbultimine.max_blocks'ノードが優先されます(存在する場合)"
 ftbultimine.server_settings.costs_limits.require_valid_tool_for_block.tooltip,"If true, the equipped tool must be valid for the block being ultimined,
 i.e. it must be able to harvest dropped items
 See also 'Require Tool to Ultimine'",
 ftbultimine.server_settings.features.right_click_crystals.tooltip,"Requires the FTB Ez Crystals mod to be installed (NeoForge only)
 Harvest vanilla Amethyst and other modded crystals",
 ftbultimine.server_settings.features.single_crop_harvesting.tooltip,"When true, right-clicking a crop block without the Ultimine key held harvests it",
-key.categories.ftbultimine,FTB Ultimine,
-key.ftbultimine,FTB Ultimine,
+key.categories.ftbultimine,FTB Ultimine,FTB Ultimine
+key.ftbultimine,FTB Ultimine,FTB Ultimine
 ftbultimine.server_settings.costs_limits.require_tool.tooltip,Players must have equipped either a damageable tool or an item in the 'ftbultimine:tools' item tag,

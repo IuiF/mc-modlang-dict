@@ -185,13 +185,13 @@ sndctrl.cfg.sound.StreamingSoundCount.tooltip,Number of streaming sound channels
 sndctrl.cfg.sound.Threads,Background Workers,バックグラウンドワーカー
 sndctrl.cfg.sound.Threads.tooltip,Number of background threads to handle sound effect calculations (0 is default),サウンドエフェクト計算を処理するバックグラウンドスレッド数（0がデフォルト）
 sndctrl.cfg.sound.tooltip,General options for defining sound effects,音響効果を定義する一般的なオプション
-sndctrl.format.AM,AM,
+sndctrl.format.AM,AM,午前
 sndctrl.format.Block,Block,ブロック
 sndctrl.format.Cull,Cull,カット
 sndctrl.format.Daytime,Daytime,日中
 sndctrl.format.Nighttime,Nighttime,夜間
 sndctrl.format.NoSky,No Sky,空なし
-sndctrl.format.PM,PM,
+sndctrl.format.PM,PM,午後
 sndctrl.format.Play,Play,再生
 sndctrl.format.Stop,STOP,ストップ
 sndctrl.format.Sunrise,Sunrise,日の出
@@ -216,14 +216,14 @@ sndctrl.text.quickvolumemenu.open,Quick Volume Settings,クイックボリュー
 sndctrl.text.quickvolumemenu.title,Quick Volume Settings,クイックボリューム設定
 sndctrl.text.soundconfig.block,§aBLOCK,§aブロック
 sndctrl.text.soundconfig.block.help,A sound marked as BLOCK will be prevented from playing.  Will only apply to sounds played through the Minecraft sound engine.,BLOCKとしてマークされた音は再生されません。Minecraftの音エンジンを通じて再生される音にのみ適用されます。
-sndctrl.text.soundconfig.cull,§aCULL,
+sndctrl.text.soundconfig.cull,§aCULL,§aカット
 sndctrl.text.soundconfig.cull.help,"Marking a sound as CULL will limit the play to a single instance over a short period of time, reducing the overall load of the sound engine as well as ears.  Will only apply to sounds played through the Minecraft sound engine.",音をCULLとしてマークすると、短期間に単一のインスタンスの再生に制限され、音エンジンと耳の全体的な負荷が軽減されます。Minecraftの音エンジンを通じて再生される音にのみ適用されます。
 sndctrl.text.soundconfig.noblock,No Block,ブロックなし
 sndctrl.text.soundconfig.nocull,No Cull,カットなし
 sndctrl.text.soundconfig.open,Individual Sound Configuration Settings,個別サウンド設定
 sndctrl.text.soundconfig.play,Play,再生
 sndctrl.text.soundconfig.play.help,Plays the sound with the volume scaled by the volume scaling factor.  Does not apply any sound category volume modifiers.,音量スケーリング係数によってスケーリングされた音量で音を再生します。音カテゴリ音量モディファイアは適用されません。
-sndctrl.text.soundconfig.stop,§cSTOP,
+sndctrl.text.soundconfig.stop,§cSTOP,§c停止
 sndctrl.text.soundconfig.title,Individual Sound Configuration,個別サウンド設定
 sndctrl.text.soundconfig.volume.help,Set a volume scaling factor that gets applied when calculating the volume of a sound.  Increase to make quiet sounds louder; reduce to make loud sounds quieter.,音の音量を計算する際に適用される音量スケーリング係数を設定します。静かな音をより大きくするには増加させ、大きな音をより静かくするには減少させます。
 sndctrl.text.tooltip.category,Category: ,カテゴリ: 
@@ -233,8 +233,8 @@ dsurround.metadata.Name,§3Dynamic Surroundings,§3動的周囲
 soundCategory.ds_footsteps,Footsteps,足音
 soundCategory.ds_biome,Biomes,バイオーム
 dsurround.format.TimeOfDay,"Day %1$d, %2$d:%3$02d %4$s",日曜日 %1$d、%2$d:%3$02d %4$s
-dsurround.format.AM,AM,
-dsurround.format.PM,PM,
+dsurround.format.AM,AM,午前
+dsurround.format.PM,PM,午後
 dsurround.format.SessionTime,Session Time %1$d:%2$02d:%3$02d,セッション時間 %1$d:%2$02d:%3$02d
 dsurround.format.NoSky,No Sky,空なし
 dsurround.format.Sunrise,Sunrise,日の出
@@ -249,7 +249,7 @@ dsurround.cfg.keybind.SelectionBox,Toggle SelectionBox,選択ボックスを切�
 dsurround.cfg.keybind.LightLevel,Toggle Light Level,ライトレベル切替
 dsurround.cfg.keybind.ChunkBorders,Toggle Chunk Borders,チャンク境界を切替
 dsurround.cfg.keybind.AnimaniaBadges,Show Animania Mob Badges,Animaniaモブバッジを表示
-dsurround.cfg.keybind.msg.ON,§aON,
+dsurround.cfg.keybind.msg.ON,§aON,§a有効
 dsurround.cfg.keybind.msg.OFF,§cOFF,§cオフ
 dsurround.cfg.keybind.msg.Fencing,Block fencing %s,フェンスブロック%s
 dsurround.cfg.keybind.msg.ChunkBorder,Chunk border display %s,チャンク境界表示 %s
@@ -454,11 +454,11 @@ dsurround.season.winter,Winter,冬
 dsurround.season.early,Early,早期
 dsurround.season.mid,Mid,中
 dsurround.season.late,Late,遅い
-dsurround.dialog.missingcloth.description,To enable config editing please install §6Cloth Config API (Forge)§r from CurseForge,
+dsurround.dialog.missingcloth.description,To enable config editing please install §6Cloth Config API (Forge)§r from CurseForge,コンフィグ編集を有効にするには CurseForge から§6Cloth Config API (Forge)§rをインストールしてください
 dsurround.text.controls.group,§3Dynamic Surroundings,
-dsurround.metadata.Credits,\n\n§6Wirsbo§r for §2BetterRain§r\n§6MrRube§r for §2Aurora Rubealis§r\n§6Hurricaaane§r for §2Presence Footsteps§r and §2MAtmos§r\n§6Mr_okushama§r for §2Battle Music§r\n§6Ezer'Arch§r for §2Galacticraft §rconfigurations§r\n§eSound and Texture Attributions§r at https://tinyurl.com/mggnl76\n\n,
-dsurround.metadata.Authors,"§6OreCruncher§r,§6Abastro§r",
-dsurround.metadata.Description,Adds a variety of §6sound§r and §6visual§r effects to improve your Minecraft experience,
-dsurround.cfg.fog.MorningFogChance.tooltip,Chance morning fog will occurs expressed as 1 in N,
-dsurround.cfg.sound.StreamBufferSize.tooltip,Size of a stream buffer in kilobytes (0: system default - usually 128K bytes),
-dsurround.cfg.sound.FootstepCadence.tooltip,true to match first person arm swing; false to match 3rd person leg animation,
+dsurround.metadata.Credits,\n\n§6Wirsbo§r for §2BetterRain§r\n§6MrRube§r for §2Aurora Rubealis§r\n§6Hurricaaane§r for §2Presence Footsteps§r and §2MAtmos§r\n§6Mr_okushama§r for §2Battle Music§r\n§6Ezer'Arch§r for §2Galacticraft §rconfigurations§r\n§eSound and Texture Attributions§r at https://tinyurl.com/mggnl76\n\n,\n\n§6Wirsbo§r - §2BetterRain§rの作成者\n§6MrRube§r - §2Aurora Rubealis§rの作成者\n§6Hurricaaane§r - §2Presence Footsteps§r と §2MAtmos§r の作成者\n§6Mr_okushama§r - §2Battle Music§r の作成者\n§6Ezer'Arch§r - §2Galacticraft§r コンフィグの作成者\n§eサウンド・テクスチャ 属性§r https://tinyurl.com/mggnl76\n\n
+dsurround.metadata.Authors,"§6OreCruncher§r,§6Abastro§r","§6OreCruncher§r, §6Abastro§r"
+dsurround.metadata.Description,Adds a variety of §6sound§r and §6visual§r effects to improve your Minecraft experience,Minecraftの体験を向上させるための様々な§6サウンド§rと§6ビジュアル§rエフェクトを追加します
+dsurround.cfg.fog.MorningFogChance.tooltip,Chance morning fog will occurs expressed as 1 in N,朝靄が発生する確率（1/Nの形式で表示）
+dsurround.cfg.sound.StreamBufferSize.tooltip,Size of a stream buffer in kilobytes (0: system default - usually 128K bytes),ストリームバッファのサイズ（キロバイト単位）（0: システムデフォルト - 通常128Kバイト）
+dsurround.cfg.sound.FootstepCadence.tooltip,true to match first person arm swing; false to match 3rd person leg animation,true: 一人称視点の腕の振りに合わせる; false: 三人称視点の脚のアニメーションに合わせる

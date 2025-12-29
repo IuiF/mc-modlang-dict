@@ -337,7 +337,7 @@ mod.chiselsandbits.result.require_bag,You need empty slots in your inventory or 
 mod.chiselsandbits.result.void_excess,"Your inventory has filled up, any excess bits have been voided!",インベントリが満杯になりました。余分なビットは破棄されました！
 mod.chiselsandbits.tapemeasure.bit,Bit,ビット
 mod.chiselsandbits.tapemeasure.block,Block,ブロック
-mod.chiselsandbits.tapemeasure.chatmsg,"x: %s,  y: %s,  z: %s",
+mod.chiselsandbits.tapemeasure.chatmsg,"x: %s,  y: %s,  z: %s","x: %s, y: %s, z: %s"
 mod.chiselsandbits.tapemeasure.distance,Distance,距離
 mod.chiselsandbits.test,Placeholder text during development,開発中のプレースホルダー テキスト
 mod.chiselsandbits.ui-components.change-tracker.operations.clear.name,Clear the ChangeTracker,変更トラッカーをクリア
@@ -507,53 +507,53 @@ mod.chiselsandbits.config.requireBagSpace,Require Inventory/Bag Space,インベ�
 mod.chiselsandbits.config.requireBagSpace.tooltip,Requires there to be an empty slot in a bag or in the player's inventory before allowing them to use the chisel.,ノミを使用する前に、バッグまたはプレイヤーのインベントリに空のスロットが必要です。
 mod.chiselsandbits.config.voidExcessBits,Void Excess Bits,虚無過剰ビット
 mod.chiselsandbits.config.voidExcessBits.tooltip,Voids any bits that couldn't be fit into a bag or your inventory. Improves server performance. The undo action could have issues as some bits are voided.,バッグまたはインベントリに収納できないビットを消去します。サーバーパフォーマンスが向上します。アンドゥアクションは一部のビットが消去されるため、問題が生じる可能性があります。
-chiselsandbits.color.blue,Blue,
-chiselsandbits.color.cyan,Cyan,
-chiselsandbits.color.gray,Gray,
-chiselsandbits.color.lime,Lime,
-chiselsandbits.color.orange,Orange,
-chiselsandbits.color.purple,Purple,
-chiselsandbits.color.yellow,Yellow,
-chiselsandbits.measurements.lengths.bit,%s Bits.,
-chiselsandbits.measurements.lengths.block,%s Blks.,
-commands.setbit.usage,/setbit <x> <y> <z> <bitx> <bity> <bitz> <TileName> [dataValue],
-itemGroup.chiselsandbits,Chisels & Bits,
-mod.chiselsandbits.chisel.station.name,Chisel Station,
-mod.chiselsandbits.chiselmode.multiline.plane,Plane,
-mod.chiselsandbits.chiselmode.plane,Plane,
-mod.chiselsandbits.help.empty,Empty,
-mod.chiselsandbits.help.mirrorprint.long,"Right-click on a chiseled block face on wish to mirror from, clicking an east facing face will mirror it along the east->west axis. Craft written design with a positive or negative design to transfer the mirror image to the type of design you want.",
-mod.chiselsandbits.help.trashitem,Delete only %s,
-mod.chiselsandbits.keys.category,Chisels & Bits,
-mod.chiselsandbits.other.pickbit,Pick Bit,
-mod.chiselsandbits.pattern.placement.mode.imposement,Imposement,
-mod.chiselsandbits.pattern.placement.mode.merge,Merge,
-mod.chiselsandbits.positivepatternmode.additive,Additive,
-mod.chiselsandbits.pretty.facing-north,North,
-mod.chiselsandbits.pretty.facing-south,South,
-mod.chiselsandbits.chiselmode.line1,1 x 1,
-mod.chiselsandbits.chiselmode.line2,2 x 2,
-mod.chiselsandbits.chiselmode.line4,4 x 4,
-mod.chiselsandbits.chiselmode.line8,8 x 8,
-mod.chiselsandbits.chiselmode.multiline.line1,1 x 1,
-mod.chiselsandbits.chiselmode.multiline.line2,2 x 2,
-mod.chiselsandbits.chiselmode.multiline.line4,4 x 4,
-mod.chiselsandbits.chiselmode.multiline.line8,8 x 8,
-mod.chiselsandbits.chiselmode.multiline.plane1,1 x 1,
-mod.chiselsandbits.chiselmode.multiline.plane2,2 x 2,
-mod.chiselsandbits.chiselmode.multiline.plane4,4 x 4,
-mod.chiselsandbits.chiselmode.multiline.plane8,8 x 8,
-mod.chiselsandbits.chiselmode.multiline.snap2,1/8,
-mod.chiselsandbits.chiselmode.multiline.snap4,1/4,
-mod.chiselsandbits.chiselmode.multiline.snap8,1/2,
-mod.chiselsandbits.chiselmode.multiline.sphere_medium,1/2,
-mod.chiselsandbits.chiselmode.multiline.sphere_small,1/4,
-mod.chiselsandbits.chiselmode.plane1,1 x 1,
-mod.chiselsandbits.chiselmode.plane2,2 x 2,
-mod.chiselsandbits.chiselmode.plane4,4 x 4,
-mod.chiselsandbits.chiselmode.plane8,8 x 8,
-mod.chiselsandbits.chiselmode.sphere_medium,1/2,
-mod.chiselsandbits.chiselmode.sphere_small,1/4,
-mod.chiselsandbits.pattern.modification.across.axis.x,X,
-mod.chiselsandbits.pattern.modification.across.axis.y,Y,
-mod.chiselsandbits.pattern.modification.across.axis.z,Z,
+chiselsandbits.color.blue,Blue,青
+chiselsandbits.color.cyan,Cyan,水色
+chiselsandbits.color.gray,Gray,灰色
+chiselsandbits.color.lime,Lime,ライム色
+chiselsandbits.color.orange,Orange,オレンジ
+chiselsandbits.color.purple,Purple,紫
+chiselsandbits.color.yellow,Yellow,黄色
+chiselsandbits.measurements.lengths.bit,%s Bits.,%sビット
+chiselsandbits.measurements.lengths.block,%s Blks.,%sブロック
+commands.setbit.usage,/setbit <x> <y> <z> <bitx> <bity> <bitz> <TileName> [dataValue],/setbit <x> <y> <z> <bitx> <bity> <bitz> <タイル名> [データ値]
+itemGroup.chiselsandbits,Chisels & Bits,ノミ&ビット
+mod.chiselsandbits.chisel.station.name,Chisel Station,ノミ作業台
+mod.chiselsandbits.chiselmode.multiline.plane,Plane,平面
+mod.chiselsandbits.chiselmode.plane,Plane,平面
+mod.chiselsandbits.help.empty,Empty,空
+mod.chiselsandbits.help.mirrorprint.long,"Right-click on a chiseled block face on wish to mirror from, clicking an east facing face will mirror it along the east->west axis. Craft written design with a positive or negative design to transfer the mirror image to the type of design you want.",ミラーしたいノミで加工されたブロックの面を右クリックして、東向きの面をクリックすると東←→西軸でミラーされます。作成された設計図を、ポジティブまたはネガティブ設計図とクラフトして、デザインの種類にミラー画像を転送します。
+mod.chiselsandbits.help.trashitem,Delete only %s,%sのみ削除
+mod.chiselsandbits.keys.category,Chisels & Bits,ノミ&ビット
+mod.chiselsandbits.other.pickbit,Pick Bit,ビットを取得
+mod.chiselsandbits.pattern.placement.mode.imposement,Imposement,上書き
+mod.chiselsandbits.pattern.placement.mode.merge,Merge,マージ
+mod.chiselsandbits.positivepatternmode.additive,Additive,加算
+mod.chiselsandbits.pretty.facing-north,North,北
+mod.chiselsandbits.pretty.facing-south,South,南
+mod.chiselsandbits.chiselmode.line1,1 x 1,1×1
+mod.chiselsandbits.chiselmode.line2,2 x 2,2×2
+mod.chiselsandbits.chiselmode.line4,4 x 4,4×4
+mod.chiselsandbits.chiselmode.line8,8 x 8,8×8
+mod.chiselsandbits.chiselmode.multiline.line1,1 x 1,1×1
+mod.chiselsandbits.chiselmode.multiline.line2,2 x 2,2×2
+mod.chiselsandbits.chiselmode.multiline.line4,4 x 4,4×4
+mod.chiselsandbits.chiselmode.multiline.line8,8 x 8,8×8
+mod.chiselsandbits.chiselmode.multiline.plane1,1 x 1,1×1
+mod.chiselsandbits.chiselmode.multiline.plane2,2 x 2,2×2
+mod.chiselsandbits.chiselmode.multiline.plane4,4 x 4,4×4
+mod.chiselsandbits.chiselmode.multiline.plane8,8 x 8,8×8
+mod.chiselsandbits.chiselmode.multiline.snap2,1/8,スナップ 1/8
+mod.chiselsandbits.chiselmode.multiline.snap4,1/4,スナップ 1/4
+mod.chiselsandbits.chiselmode.multiline.snap8,1/2,スナップ 1/2
+mod.chiselsandbits.chiselmode.multiline.sphere_medium,1/2,中 1/2
+mod.chiselsandbits.chiselmode.multiline.sphere_small,1/4,小 1/4
+mod.chiselsandbits.chiselmode.plane1,1 x 1,1×1
+mod.chiselsandbits.chiselmode.plane2,2 x 2,2×2
+mod.chiselsandbits.chiselmode.plane4,4 x 4,4×4
+mod.chiselsandbits.chiselmode.plane8,8 x 8,8×8
+mod.chiselsandbits.chiselmode.sphere_medium,1/2,中 1/2
+mod.chiselsandbits.chiselmode.sphere_small,1/4,小 1/4
+mod.chiselsandbits.pattern.modification.across.axis.x,X,X軸
+mod.chiselsandbits.pattern.modification.across.axis.y,Y,Y軸
+mod.chiselsandbits.pattern.modification.across.axis.z,Z,Z軸

@@ -186,7 +186,7 @@ log.sfm.label_position_holder.header,=== Label position holder ===,=== ラベル
 log.sfm.level_updated,Log level updated to %s,ログレベルが%sに更新されました
 log.sfm.manager.cable_network_rebuild,User performed cable network rebuild,ユーザーがケーブルネットワークの再構築を実行しました
 log.sfm.program.context,Initial program context: %s,初期プログラムコンテキスト: %s
-log.sfm.program.tick,PROGRAM TICK BEGIN,
+log.sfm.program.tick,PROGRAM TICK BEGIN,プログラム TICK BEGIN
 log.sfm.program.tick.redstone_count,Program ticking with %d unprocessed redstone pulses.,プログラムは %d 個の未処理レッドストーンパルスでティックします
 log.sfm.program.voided_resources,%s,
 log.sfm.resource_type.get_capabilities.begin,Gathering capabilities of type %s (%s) against labels %s,タイプ %s (%s) の収集能力がラベル %s に対して
@@ -279,5 +279,5 @@ Use the copy button to help view in a different editor.","よぉ、ワールド�
 コピーボタンを使用して、別のエディタで表示できます。"
 program.sfm.warnings.mekanism_used_without_direction,"Mekanism blocks are read-only from the null direction, check label ""%s"" used in ""%s""",Mekanismブロックはnullの方向から読み取り専用です。確認してください...
 gui.sfm.manager.button.discord,Discord,
-log.sfm.capability_cache.miss,Capability cache MISS for %s %s direction=%s,
-log.sfm.statement.tick.io.move_to.zero_to_move,"toMove=0, skipping",
+log.sfm.capability_cache.miss,Capability cache MISS for %s %s direction=%s,キャパビリティキャッシュ MISS for %s %s direction=%s
+log.sfm.statement.tick.io.move_to.zero_to_move,"toMove=0, skipping","toMove=0, スキップ中"

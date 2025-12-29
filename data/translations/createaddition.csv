@@ -3,17 +3,17 @@ block.createaddition.accumulator,Accumulator,蓄電器
 block.createaddition.accumulator.tooltip,ACCUMULATOR,蓄電装置
 block.createaddition.accumulator.tooltip.behaviour1,Provides _FE_ to _wires_ connected to the _connector_ marked with an upwards arrow.,_搬出モード_の_コネクタ_に接続された_ワイヤー_に_FE_を供給します。
 block.createaddition.accumulator.tooltip.behaviour2,Accepts _FE_ from _wires_ connected to the _connector_ marked with a downwards arrow.,_搬入モード_の_コネクタ_に接続された_ワイヤー_から_FE_を受け取ります。
-block.createaddition.accumulator.tooltip.condition1,Output,出力
-block.createaddition.accumulator.tooltip.condition2,Input,入力
+block.createaddition.accumulator.tooltip.condition1,Output,搬出
+block.createaddition.accumulator.tooltip.condition2,Input,搬入
 block.createaddition.accumulator.tooltip.summary,Accumulates electric charge. ,電荷を蓄積します。_非推奨であり、将来的に削除される可能性があります。_
-block.createaddition.alternator,Alternator,アルテナティブ
+block.createaddition.alternator,Alternator,オルタネーター
 block.createaddition.barbed_wire,Barbed Wire,有刺鉄線
 block.createaddition.barbed_wire.tooltip,BARBED_WIRE,有刺鉄線
 block.createaddition.barbed_wire.tooltip.summary,Inflicts damage when walked through.,通り抜ける時にダメージを与えます。
 block.createaddition.bioethanol,Bioethanol,バイオエタノール
 block.createaddition.biomass_pellet_block,Biomass Pallet,バイオマスペレット
 block.createaddition.chocolate_cake,Chocolate Cake,チョコレートケーキ
-block.createaddition.connector,Connector,コネクタ
+block.createaddition.connector,Connector,小型コネクタ
 block.createaddition.connector.tooltip,CONNECTOR,コネクタ
 block.createaddition.connector.tooltip.behaviour1,Connected with _low current wires_.,_低電流ワイヤー_で接続
 block.createaddition.connector.tooltip.behaviour2,"While holding a _Copper Spool_, _Gold Spool_, or _Electrum Spool_ to create a _wire link_ with up to 4 other _Small Connectors_.",_銅_、_金_、_エレクトラム_の_スプール巻き_を使用し、4つまで_小型コネクタ_と_ワイヤーリンク_を作成できます。
@@ -22,7 +22,7 @@ block.createaddition.connector.tooltip.condition1,Low Current,低電流
 block.createaddition.connector.tooltip.condition2,R-click,右クリック
 block.createaddition.connector.tooltip.condition3,R-click with Wrench,レンチで右クリック
 block.createaddition.connector.tooltip.summary,Connects _Forge Energy_ compatible blocks with _wires_ to transfer _FE_.,_FE_対応ブロックを_ワイヤー_で接続し、_FE_を転送します。
-block.createaddition.creative_energy,Creative Generator,クリエイティブジェネレーター
+block.createaddition.creative_energy,Creative Generator,クリエイティブ発電機
 block.createaddition.creative_energy.tooltip,CREATIVE_GENERATOR,クリエイティブ発電機
 block.createaddition.creative_energy.tooltip.summary,Generates an infinite supply of _FE_.,無限の_FE_を供給します。
 block.createaddition.digital_adapter,Digital Adapter,デジタルアダプター
@@ -48,12 +48,12 @@ block.createaddition.redstone_relay.tooltip,REDSTONE_RELAY,レッドストーン
 block.createaddition.redstone_relay.tooltip.behaviour1,Provides _fe_ to _wires_ connected to the _connector_ marked with a upwards arrow.,_低電流ワイヤー_で接続
 block.createaddition.redstone_relay.tooltip.behaviour2,Provides _FE_ to _wires_ connected to the _connector_ marked with a upwards arrow.,_上向き矢印_の付いた_コネクタ_に接続されたすべての_ワイヤー_に_FE_を供給します
 block.createaddition.redstone_relay.tooltip.behaviour3,Accepts _FE_ from _wires_ connected to the _connector_ marked with a downwards arrow.,_搬入モード_の_コネクタ_に接続された_ワイヤー_から_FE_を受け取ります。
-block.createaddition.redstone_relay.tooltip.condition1,Output,出力
-block.createaddition.redstone_relay.tooltip.condition2,Input,入力
-block.createaddition.redstone_relay.tooltip.condition3,Push,押す
+block.createaddition.redstone_relay.tooltip.condition1,Output,低電流
+block.createaddition.redstone_relay.tooltip.condition2,Input,搬出
+block.createaddition.redstone_relay.tooltip.condition3,Push,搬入
 block.createaddition.redstone_relay.tooltip.summary,Allows _FE_ to pass from the _input connector_ to the _output connector_ when receiving a _redstone signal_.,レッドストーン信号を受けたときに_入力コネクタ_から_出力コネクタ_への_FE_の伝達をオンにします。
 block.createaddition.rolling_mill,Rolling Mill,圧延機
-block.createaddition.seed_oil,Seed Oil,種子油
+block.createaddition.seed_oil,Seed Oil,種油
 block.createaddition.small_light_connector,Small Connector With Light,ライト付き小型コネクタ
 block.createaddition.small_light_connector.tooltip,CONNECTOR,コネクタ
 block.createaddition.small_light_connector.tooltip.behaviour1,Connected with _low current wires_.,_低電流ワイヤー_で接続
@@ -66,9 +66,9 @@ block.createaddition.small_light_connector.tooltip.summary,"Connects _Forge Ener
 block.createaddition.tesla_coil,Tesla Coil,テスラコイル
 createaddition.command.cca_api.link,Click here to open API documentation,クリックしてAPIドキュメントを開く
 createaddition.display_source.accumulator.current,Energy Stored in FE,FEとして蓄えられたエネルギー
-createaddition.display_source.accumulator.display,Choose an Option:,オプションを選択:
+createaddition.display_source.accumulator.display,Choose an Option:,オプションを選択
 createaddition.display_source.accumulator.max,Total Capacity,総容量
-createaddition.display_source.accumulator.percent,Percentage,パーセンテージ
+createaddition.display_source.accumulator.percent,Percentage,比率
 createaddition.display_source.accumulator.progress_bar,Progress Bar,プログレスバー
 createaddition.display_source.accumulator.remaining,Remaining FE,FE残存量
 createaddition.display_source.digital_adapter_source,Digital Adapter,デジタルアダプター
@@ -83,12 +83,12 @@ createaddition.ponder.automated_rolling_mill.text_1,The Rolling Mill can be auto
 createaddition.ponder.automated_rolling_mill.text_2,Input Funnel,搬入ファンネル
 createaddition.ponder.automated_rolling_mill.text_3,Output Funnel,搬出ファンネル
 createaddition.ponder.cc_electric_motor.header,Using ComputerCraft to control an Electric Motor,ComputerCraftを使って電動モーターを制御する
-createaddition.ponder.cc_electric_motor.text_1,The Electric Motor can be controlled using ComputerCraft,ComputerCraftを使えば電動モーターを制御できます
+createaddition.ponder.cc_electric_motor.text_1,The Electric Motor can be controlled using ComputerCraft,ComputerCraftを使えば電動モーターを制御することができます
 createaddition.ponder.cc_electric_motor.text_2,Connect to the motor using 'peripheral.wrap(side)',「peripheral.wrap(side)」でモーターと接続します
 createaddition.ponder.cc_electric_motor.text_3,Get to the API documentation by issuing the command '/cca_api' in the chat,「/cca_api」コマンドを使って、APIドキュメントにアクセスできます
 createaddition.ponder.electric_motor.header,Generating Rotational Force using Electric Motors,電動モーターによる回転力の生成
 createaddition.ponder.electric_motor.text_1,Electric Motors are a compact and configurable source of Rotational Force,電動モーターはコンパクトで調整可能な原動機です
-createaddition.ponder.electric_motor.text_2,Scrolling on the back panel changes the RPM of the motors' rotational output,入力パネルで回転速度を調整できます
+createaddition.ponder.electric_motor.text_2,Scrolling on the back panel changes the RPM of the motors' rotational output,背面のパネルからモーターの回転速度を変えられます
 createaddition.ponder.electric_motor.text_3,The Electric Motor requires a source of energy (FE),電動モーターには電気(FE)が必要です
 createaddition.ponder.electric_motor.text_4,The motors' energy consumption is determined by the set RPM,電動モーターのエネルギー消費量は回転速度で決まります
 createaddition.ponder.liquid_blaze_burner.header,Liquid Fuel Burning,液体燃料の燃焼
@@ -97,16 +97,16 @@ createaddition.ponder.liquid_blaze_burner.text_2,will allow it to accept liquid 
 createaddition.ponder.liquid_blaze_burner.text_3,- or by pipes.,- またはパイプによって。
 createaddition.ponder.modular_accumulator.header,The Multi-block Accumulator,マルチブロック蓄電器
 createaddition.ponder.modular_accumulator.text_1,The Accumulator is a multi-block structure,蓄電器はマルチブロック構造体です
-createaddition.ponder.modular_accumulator.text_2,It can store large amounts of electric energy,大量の電気エネルギーを蓄電できます
+createaddition.ponder.modular_accumulator.text_2,It can store large amounts of electric energy,大量の電気エネルギーを蓄電することができます
 createaddition.ponder.modular_accumulator.text_3,Configure an input connector,搬入コネクタを設定し、
 createaddition.ponder.modular_accumulator.text_4,and an output connector.,搬出コネクタを設定します
 createaddition.ponder.modular_accumulator.text_5,"To improve mod compatibility, the Accumulator will actively push energy to blocks placed on the top and bottom faces.",Mod間の互換性を高める為、蓄電器は天面側と底面側にエネルギーを出力する機能があります
-createaddition.ponder.pei_redstone.header,Redstone Control,レッドストーン制御
+createaddition.ponder.pei_redstone.header,Redstone Control,レッドストーンによる制御
 createaddition.ponder.pei_redstone.text_1,Redstone power will prevent the stationary interface from engaging.,レッドストーン信号を受けている間、設置されたインターフェースは接続を行いません
 createaddition.ponder.pei_transfer.header,Contraption Energy Exchange,からくりでのエネルギー交換
 createaddition.ponder.pei_transfer.text_1,Accumulators on moving contraptions cannot connect to stationary connectors.,移動するからくりに付けられた蓄電器は固定されたコネクタに接続することは出来ません。
 createaddition.ponder.pei_transfer.text_2,This component can interact with Accumulators without the need to stop the contraption.,この装置はからくりを停止する必要なく蓄電器を接続できます
-createaddition.ponder.pei_transfer.text_3,Place a second one with a gap of 1 or 2 blocks inbetween,1~2ブロックの隙間を開けて2つ目のインターフェースを設置しましょう
+createaddition.ponder.pei_transfer.text_3,Place a second one with a gap of 1 or 2 blocks inbetween,1~2ブロックの隙間を開けて2つ目のブロックを設置しましょう
 createaddition.ponder.pei_transfer.text_4,"Whenever they pass by each other, they will engage in a connection",すれ違ったときに必ず接続されます
 createaddition.ponder.pei_transfer.text_5,"While engaged, the stationary interface will represent ALL Accumulators on the contraption",接続中は、設置されている方のインターフェースはからくり内全ての蓄電器のように振る舞います
 createaddition.ponder.pei_transfer.text_6,Energy can now be exchanged according to the Push/Pull configuration of the connector...,コネクタのプッシュ/プル設定に応じてエネルギーを搬出入し...
@@ -124,14 +124,14 @@ createaddition.ponder.tesla_coil_hurt.header,Dangerous Tesla Coils,テスラコ�
 createaddition.ponder.tesla_coil_hurt.text_1,The Tesla Coil is also able to inflict damage on nearby Players and Mobs,テスラコイルは近くのプレイヤーやモブにダメージを与えます
 createaddition.ponder.tesla_coil_hurt.text_2,This can be activated with a Redstone signal,レッドストーン信号で起動できます
 createaddition.ponder.tesla_coil_hurt.text_3,Prepare to be Shocked!,ショックを受けろ！
-createaddition.recipe.charging,Charging,充電中
+createaddition.recipe.charging,Charging,充電
 createaddition.recipe.liquid_burning,Liquid Burning,液体燃焼
 createaddition.recipe.liquid_burning.burn_time,Burn Time,燃焼時間
 createaddition.recipe.rolling,Rolling,圧延
 createaddition.recipe.rolling.sequence,Rolling in Mill,圧延機で圧延する
 createaddition.schedule.condition.energy_threshold,Energy Cargo Condition,エネルギー貨物の状態
 createaddition.schedule.condition.threshold.energy,Energy,エネルギー
-createaddition.schedule.condition.threshold.unit,Kfe,
+createaddition.schedule.condition.threshold.unit,Kfe,KFE
 createaddition.subtitle.little_zap,Tesla Coil sparks,テスラコイルの火花
 createaddition.subtitle.loud_zap,Tesla Coil zaps,テスラコイルの電気ショック
 createaddition.tooltip.accumulator.info,Accumulator Info:,蓄電器の詳細:
@@ -140,7 +140,7 @@ createaddition.tooltip.charging.info,Tesla Coil Info:,テスラコイル情報�
 createaddition.tooltip.charging.time_remaining,Charge Time Remaining:,充電時間残り：
 createaddition.tooltip.connector.info,Connector Info:,コネクタの詳細:
 createaddition.tooltip.energy.capacity,Capacity:,容量:
-createaddition.tooltip.energy.charged,Charged,チャージ完了
+createaddition.tooltip.energy.charged,Charged,充電済
 createaddition.tooltip.energy.consumption,Energy Usage:,消費エネルギー:
 createaddition.tooltip.energy.demand,Network Consumption:,ネットワーク消費量:
 createaddition.tooltip.energy.input,Input,入力
@@ -149,10 +149,10 @@ createaddition.tooltip.energy.none,None,なし
 createaddition.tooltip.energy.output,Output,出力
 createaddition.tooltip.energy.passive,Passive,パッシブ
 createaddition.tooltip.energy.production,Energy Generated:,生成エネルギー:
-createaddition.tooltip.energy.pull,Pull,引く
-createaddition.tooltip.energy.push,Push,押す
+createaddition.tooltip.energy.pull,Pull,搬出
+createaddition.tooltip.energy.push,Push,搬入
 createaddition.tooltip.energy.selected,Focused Connector:,フォーカスされたコネクタ:
-createaddition.tooltip.energy.stored,Stored Energy:,蓄積エネルギー:
+createaddition.tooltip.energy.stored,Stored Energy:,蓄電量:
 createaddition.tooltip.energy.supply,Network Production:,ネットワーク生成量:
 createaddition.tooltip.energy.usage,Network Usage:,ネットワーク使用状況:
 createaddition.tooltip.liquid_burning.info,Liquid Blaze Burner Info:,液体ブレイズバーナー情報：
@@ -162,11 +162,11 @@ death.attack.createaddition.barbed_wire,%1$s tried to cross barbed wire,%1$s が
 death.attack.createaddition.barbed_wire.player,%1$s tried to cross barbed wire while fighting %2$s,%1$s は %2$s と戦いながら有刺鉄線を横断しようとしました
 death.attack.createaddition.tesla_coil,%1$s received a lethal electric shock,%1$s が致命的な電撃を受けました
 death.attack.createaddition.tesla_coil.player,%1$s received a lethal electric shock while fighting %2$s,%1$s が %2$s と戦っている最中に致命的な電撃を受けました
-desc.immersiveengineering.info.mineral.sphalerite,Sphalerite,スパライト
-effect.createaddition.shocking,Shocked,ショック
+desc.immersiveengineering.info.mineral.sphalerite,Sphalerite,閃亜鉛鉱
+effect.createaddition.shocking,Shocked,感電
 effect.createaddition.shocking.description,Causes severely reduced movement speed,移動速度が大幅に低下します
 fluid.createaddition.bioethanol,Bioethanol,バイオエタノール
-fluid.createaddition.seed_oil,Seed Oil,種子油
+fluid.createaddition.seed_oil,Seed Oil,種油
 item.createaddition.bioethanol_bucket,Bucket of Bioethanol,バイオエタノール入りバケツ
 item.createaddition.bioethanol_bucket.tooltip,BIOETHANOL_BUCKET,バイオエタノール入りバケツ
 item.createaddition.bioethanol_bucket.tooltip.summary,An efficient _flammable liquid_.,効率的な_可燃性液体_です。
@@ -177,11 +177,11 @@ item.createaddition.biomass_pellet.tooltip.summary,A powerful _solid fuel_.,強�
 item.createaddition.brass_figurine,Brass Figurine,真鍮の置物
 item.createaddition.brass_figurine.tooltip,BRASS_FIGURINE,真鍮の置物
 item.createaddition.brass_figurine.tooltip.summary,.,装飾品
-item.createaddition.brass_rod,Brass Rod,ブラスロッド
-item.createaddition.bronze_rod,Bronze Rod,青銅棒
-item.createaddition.cake_base,Cake Base,スポンジ生地
+item.createaddition.brass_rod,Brass Rod,真鍮の棒
+item.createaddition.bronze_rod,Bronze Rod,青銅の棒
+item.createaddition.cake_base,Cake Base,ケーキベース
 item.createaddition.cake_base_baked,Baked Cake Base,焼いたケーキベース
-item.createaddition.capacitor,Capacitor,キャパシタ
+item.createaddition.capacitor,Capacitor,コンデンサ
 item.createaddition.copper_goblet,Copper Goblet,銅のゴブレット
 item.createaddition.copper_goblet.tooltip,COPPER_GOBLET,銅製ゴブレット
 item.createaddition.copper_goblet.tooltip.summary,The extraordinary heat transfer ability of this _goblet_ will keep you cool when you need it the most.,この_ゴブレット_の驚異的な熱伝導能力は、最も冷たさが必要なときに、あなたを冷やしてくれる。
@@ -189,12 +189,12 @@ item.createaddition.copper_rod,Copper Rod,銅の棒
 item.createaddition.copper_spool,Copper Spool,銅のスプール巻き
 item.createaddition.copper_spool.tooltip,SPOOL,スプール巻き
 item.createaddition.copper_spool.tooltip.behaviour1,Connects to _low current connectors_.,_低電流コネクタ_に接続。
-item.createaddition.copper_spool.tooltip.behaviour2,"Will create a wire link between them, while retaining the _Empty Spool_.",_空のスプール_を保ったまま、それらの間にワイヤーリンクを作成する。
+item.createaddition.copper_spool.tooltip.behaviour2,"Will create a wire link between them, while retaining the _Empty Spool_.",_空のスプール_を保持したまま、それらの間にワイヤーリンクを作成する。
 item.createaddition.copper_spool.tooltip.condition1,Low Current,低電流
 item.createaddition.copper_spool.tooltip.condition2,R-Clicking two Connectors,2つのコネクタを右クリックする
-item.createaddition.copper_spool.tooltip.summary,R-Clicking two _Connectors_ will create a wire link between them and return an _Empty Spool_.,2つの_コネクタ_を右クリックすると、それらの間にワイヤーリンクが作成され、_空のスプール_が返される。
-item.createaddition.copper_wire,Copper Wire,銅ワイヤー
-item.createaddition.diamond_grit,Diamond Grit,砂状のダイアモンド
+item.createaddition.copper_spool.tooltip.summary,R-Clicking two _Connectors_ will create a wire link between them and return an _Empty Spool_.,配線を収納するのに使用。
+item.createaddition.copper_wire,Copper Wire,銅のワイヤー
+item.createaddition.diamond_grit,Diamond Grit,ダイヤモンドの粉
 item.createaddition.diamond_grit_sandpaper,Diamond Grit Sandpaper,ダイヤモンド紙やすり
 item.createaddition.diamond_grit_sandpaper.tooltip.behaviour1,Applies polish to items held in the _offhand_ or lying on the _floor_ when _looking at them_,_オフハンド_で持っていたり、_視線先_の_ドロップ状態のアイテム_を磨きます。
 item.createaddition.diamond_grit_sandpaper.tooltip.condition1,When Used,使ったとき
@@ -202,18 +202,18 @@ item.createaddition.diamond_grit_sandpaper.tooltip.summary,Can be used to _refin
 item.createaddition.electrum_amulet,Pale Gold Amulet,淡金色のお守り
 item.createaddition.electrum_amulet.tooltip,ELECTRUM_AMULET,エレクトラムアミュレット
 item.createaddition.electrum_amulet.tooltip.summary,"When _life_ has got you down, clutching this _amulet_ in your pocket makes you feel like your _luck_ is about to change.",_人生_に落ち込んだとき、この_お守り_をポケットにしまっておくと、_運_が変わりそうな気がします。
-item.createaddition.electrum_ingot,Electrum Ingot,エレクトラムインゴット
+item.createaddition.electrum_ingot,Electrum Ingot,エレクトラムのインゴット
 item.createaddition.electrum_nugget,Electrum Nugget,エレクトラムのナゲット
-item.createaddition.electrum_rod,Electrum Rod,エレクトルムロッド
+item.createaddition.electrum_rod,Electrum Rod,エレクトラムの棒
 item.createaddition.electrum_sheet,Electrum Sheet,エレクトラム板
 item.createaddition.electrum_spool,Electrum Spool,エレクトラムのスプール巻き
 item.createaddition.electrum_spool.tooltip,SPOOL,スプール巻き
 item.createaddition.electrum_spool.tooltip.behaviour1,Connects to _high current connectors_.,_高電流コネクタ_に接続。
-item.createaddition.electrum_spool.tooltip.behaviour2,"Will create a wire link between them, while retaining the _Empty Spool_.",_空のスプール_を保ったまま、それらの間にワイヤーリンクを作成する。
+item.createaddition.electrum_spool.tooltip.behaviour2,"Will create a wire link between them, while retaining the _Empty Spool_.",_空のスプール_を保持したまま、それらの間にワイヤーリンクを作成する。
 item.createaddition.electrum_spool.tooltip.condition1,High Current,高電流
 item.createaddition.electrum_spool.tooltip.condition2,R-Clicking two Connectors,2つのコネクタを右クリックする
 item.createaddition.electrum_spool.tooltip.summary,Used to store wires.,配線を収納するのに使用。
-item.createaddition.electrum_wire,Electrum Wire,エレクトラムワイヤー
+item.createaddition.electrum_wire,Electrum Wire,エレクトラムのワイヤー
 item.createaddition.festive_spool,Copper Spool with Festive Lights,祭用ライト付き銅のスプール巻き
 item.createaddition.festive_spool.tooltip,SPOOL,スプール巻き
 item.createaddition.festive_spool.tooltip.behaviour1,Connects to _low current connectors_.,_低電流コネクタ_に接続。
@@ -228,10 +228,10 @@ item.createaddition.gold_rod,Gold Rod,金の棒
 item.createaddition.gold_spool,Gold Spool,金のスプール巻き
 item.createaddition.gold_spool.tooltip,SPOOL,スプール巻き
 item.createaddition.gold_spool.tooltip.behaviour1,Connects to _high current connectors_.,_高電流コネクタ_に接続。
-item.createaddition.gold_spool.tooltip.behaviour2,"Will create a wire link between them, while retaining the _Empty Spool_.",_空のスプール_を保ったまま、それらの間にワイヤーリンクを作成する。
+item.createaddition.gold_spool.tooltip.behaviour2,"Will create a wire link between them, while retaining the _Empty Spool_.",_空のスプール_を保持したまま、それらの間にワイヤーリンクを作成する。
 item.createaddition.gold_spool.tooltip.condition1,High Current,高電流
 item.createaddition.gold_spool.tooltip.condition2,R-Clicking two Connectors,2つのコネクタを右クリックする
-item.createaddition.gold_spool.tooltip.summary,R-Clicking two _Connectors_ will create a wire link between them and return an _Empty Spool_.,2つの_コネクタ_を右クリックすると、それらの間にワイヤーリンクが作成され、_空のスプール_が返される。
+item.createaddition.gold_spool.tooltip.summary,R-Clicking two _Connectors_ will create a wire link between them and return an _Empty Spool_.,配線を収納するのに使用。
 item.createaddition.gold_wire,Gold Wire,金のワイヤー
 item.createaddition.iron_rod,Iron Rod,鉄の棒
 item.createaddition.iron_wire,Iron Wire,鉄のワイヤー
@@ -242,9 +242,9 @@ item.createaddition.spool,Empty Spool,空のスプール
 item.createaddition.spool.nbt,Stores connection location.,接続場所を格納.
 item.createaddition.spool.tooltip.behaviour1,Will remove the wire link and return a filled _spool_.,それらの間にワイヤーリンクを作成し、_空のスプール_が戻ってきます。
 item.createaddition.spool.tooltip.condition1,R-Clicking two linked Connectors,2つのコネクタを右クリックする
-item.createaddition.spool.tooltip.summary,R-Clicking two _Connectors_ linked by a wire will remove the wire link and return a filled _spool_.,ワイヤーで接続した2つの_コネクタ_を右クリックするとワイヤーリンクが削除され、満杯の_スプール_が返される。
+item.createaddition.spool.tooltip.summary,R-Clicking two _Connectors_ linked by a wire will remove the wire link and return a filled _spool_.,配線を収納するのに使用。
 item.createaddition.straw,Straw,ストロー
-item.createaddition.zinc_sheet,Zinc Sheet,亜鉛シート
+item.createaddition.zinc_sheet,Zinc Sheet,亜鉛板
 itemGroup.createaddition.main,Create Crafts & Additions,クリエイトクラフト＆アディションズ
 statusbar.createaddition.wire.connect,Wire connector selected,ワイヤーコネクタを選択
 statusbar.createaddition.wire.connect_in,Wire connector input selected,ワイヤー入力コネクタを選択
@@ -292,8 +292,8 @@ createaddition.ponder.heater.text_2,"When connected to a sufficient source of el
 createaddition.ponder.heater.text_3,The Furnace will stay lit as long as enough energy is provided,十分な電気エネルギーが供給されている限り、かまどは点灯し続けます
 createaddition.recipe.crude_burning,Crude Burning,粗油燃焼
 createaddition.recipe.crude_burning.burn_time,Burn time,燃焼時間
-death.attack.tesla_coil,%1$s received a lethal electric shock,%1$s が致命的な電撃を受けました
-death.attack.tesla_coil.player,%1$s received a lethal electric shock while fighting %2$s,%1$s が %2$s と戦っている最中に致命的な電撃を受けました
+death.attack.tesla_coil,%1$s received a lethal electric shock,%1$sは感電死した
+death.attack.tesla_coil.player,%1$s received a lethal electric shock while fighting %2$s,%1$sは%2$sとの戦闘中に感電死した
 deprecated.block.createaddition.alternator.tooltip,ALTERNATOR,オルタネーター
 deprecated.block.createaddition.alternator.tooltip.summary,Generates _fe_ from _su_. The amount of energy produced is based on _rpm_.,_SU_から_FE_を生成します。生成されるエネルギー量は_回転速度_で決まります。
 deprecated.block.createaddition.electric_motor.tooltip,ELECTRIC MOTOR,電動モーター
@@ -330,10 +330,10 @@ item.createaddition.steel_rod,Steel Rod,鋼の棒
 item.createaddition.steel_spool,Steel Spool,鋼鉄のスプール巻き
 item.createaddition.steel_wire,Steel Wire,鋼鉄ワイヤー
 statusbar.createaddition.wire.obstructed,Wire path is obstructed,ワイヤーの通路が障害物で塞がっています
-death.attack.barbed_wire,%1$s tried to cross barbed wire,%1$s が有刺鉄線を越える試みをした
-death.attack.barbed_wire.player,%1$s tried to cross barbed wire while fighting %2$s,%1$s は %2$s と戦いながら有刺鉄線を横断しようとしました
+death.attack.barbed_wire,%1$s tried to cross barbed wire,%1$sは有刺鉄線を越えようとした
+death.attack.barbed_wire.player,%1$s tried to cross barbed wire while fighting %2$s,%1$sは%2$sとの戦闘中に有刺鉄線を越えようとした
 attack.death.createaddition.barbed_wire,%1$s tried to cross barbed wire,%1$s が有刺鉄線を越える試みをした
 attack.death.createaddition.barbed_wire.player,%1$s tried to cross barbed wire while fighting %2$s,%1$s は %2$s と戦いながら有刺鉄線を横断しようとしました
 attack.death.createaddition.tesla_coil,%1$s received a lethal electric shock,%1$s が致命的な電撃を受けました
 attack.death.createaddition.tesla_coil.player,%1$s received a lethal electric shock while fighting %2$s,%1$s が %2$s と戦っている最中に致命的な電撃を受けました
-itemGroup.createaddition:main,Create Crafts & Additions,
+itemGroup.createaddition:main,Create Crafts & Additions,クリエイト クラフツ & アディション

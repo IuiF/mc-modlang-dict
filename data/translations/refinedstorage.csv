@@ -1256,7 +1256,7 @@ item.refinedstorage:cutting_tool.name,Cutting Tool,切断ツール
 item.refinedstorage:cover.name,Cover,カバー
 item.refinedstorage:hollow_cover.name,Hollow Cover,空洞のカバー
 item.refinedstorage:processor_binding.name,Processor Binding,プロセッサ接合材
-commands.refinedstorage.createdisk.usage,/createdisk <player> <item> <metadata> <id>,
+commands.refinedstorage.createdisk.usage,/createdisk <player> <item> <metadata> <id>,/createdisk <プレイヤー> <アイテム> <メタデータ> <ID>
 commands.refinedstorage.createdisk.error.notADisk,The given disk item is not a disk.,指定されたディスクアイテムはディスクではありません。
 commands.refinedstorage.createdisk.error.diskNotFound,Disk %s was not found.,ディスク%sが見つかりません
 commands.refinedstorage.createdisk.success,Successfully gave disk %s to %s.,ディスク%sを%sに割り当てました
@@ -1328,20 +1328,20 @@ advancements.refinedstorage:hollow_covering,Hollow covering,ホローカバー
 advancements.refinedstorage:hollow_covering.description,"Craft a Hollow Cover to hide cables, but still let cable through",ケーブルを隠すホロウカバーを作成し、しかしケーブルは通過させる
 advancements.refinedstorage:binding,Binding,結合部
 advancements.refinedstorage:binding.description,Craft Processor Binding to craft the various processors,様々なプロセッサーをクラフトするためにプロセッサーバインディングを作成する
-advancements.refinedstorage.no_cables_required.description,"Add extra components to your network without using cables by using a Network Transmitter, Network Receiver and Network Card",
+advancements.refinedstorage.no_cables_required.description,"Add extra components to your network without using cables by using a Network Transmitter, Network Receiver and Network Card",ネットワークトランスミッター、ネットワークレシーバー、ネットワークカードを使用してケーブルを使わずにネットワークに追加コンポーネントを追加します
 itemGroup.refinedstorage,Refined Storage,
 sidebutton.refinedstorage.grid.sorting.type.3,InventoryTweaks,
-gui.refinedstorage:fluid_amount,Fluid amount in mB,
-gui.refinedstorage:crafting_preview.error.recursive.4,Offending pattern:,
-gui.refinedstorage:security_manager.permission.3.tooltip,Opening block GUIs,
-misc.refinedstorage:oredict,Oredict,
-sidebutton.refinedstorage:grid.view_type.2,Only craftables,
-sidebutton.refinedstorage:access_type.0,Insert and extract,
-sidebutton.refinedstorage:access_type.2,Extract only,
-block.refinedstorage:reader.name,Reader,
-block.refinedstorage:writer.name,Writer,
-item.refinedstorage:storage_disk.5.name,Debug Storage Disk,
-advancements.refinedstorage:no_cables_required.description,"Add extra components to your network without using cables by using a Network Transmitter, Network Receiver and Network Card",
+gui.refinedstorage:fluid_amount,Fluid amount in mB,流体量（mB）
+gui.refinedstorage:crafting_preview.error.recursive.4,Offending pattern:,問題のあるパターン:
+gui.refinedstorage:security_manager.permission.3.tooltip,Opening block GUIs,ブロックGUIの開放
+misc.refinedstorage:oredict,Oredict,鉱辞書
+sidebutton.refinedstorage:grid.view_type.2,Only craftables,クラフト可能なもののみ
+sidebutton.refinedstorage:access_type.0,Insert and extract,挿入と抽出
+sidebutton.refinedstorage:access_type.2,Extract only,抽出のみ
+block.refinedstorage:reader.name,Reader,リーダー
+block.refinedstorage:writer.name,Writer,ライター
+item.refinedstorage:storage_disk.5.name,Debug Storage Disk,デバッグストレージディスク
+advancements.refinedstorage:no_cables_required.description,"Add extra components to your network without using cables by using a Network Transmitter, Network Receiver and Network Card",ネットワークトランスミッター、ネットワークレシーバー、ネットワークカードを使用してケーブルを使わずにネットワークに追加コンポーネントを追加します
 gui.refinedstorage.grid.sorting.type.id,ID,
 misc.refinedstorage.storage.stored_minimal,%s,
 sidebutton.refinedstorage.grid.sorting.type.2,ID,

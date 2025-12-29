@@ -84,7 +84,7 @@ advancement.immersiveengineering.mb_tank,Water Tower,水の塔
 advancement.immersiveengineering.mb_tank.desc,Form the Tank Multiblock,液体タンクを組み立てる
 advancement.immersiveengineering.multiblocks_root,Multiblocks,マルチブロック
 advancement.immersiveengineering.multiblocks_root.desc,Large machines for large factories,大きな工場には大きな機械を
-advancement.immersiveengineering.open_manual,RTFM,
+advancement.immersiveengineering.open_manual,RTFM,RTFM
 advancement.immersiveengineering.open_manual.desc,Acquire the Engineer's Manual,技師の手引書を入手する
 advancement.immersiveengineering.place_conveyor,Road to nowhere,道無き道
 advancement.immersiveengineering.place_conveyor.desc,Place a Conveyor Belt,ベルトコンベアを設置する
@@ -1091,7 +1091,7 @@ desc.immersiveengineering.flavour.drillhead.damage,Attack Damage: %1$s,攻撃力
 desc.immersiveengineering.flavour.drillhead.level,Mining Level: %1$s,採掘レベル: %1$s
 desc.immersiveengineering.flavour.drillhead.size,Mining Area: %1$sx%1$sx%2$s,採掘範囲: %1$sx%1$sx%2$s
 desc.immersiveengineering.flavour.drillhead.speed,Mining Speed: %1$s,採掘速度: %1$s
-desc.immersiveengineering.flavour.fluidStack,%1$s: %2$s/%3$smB,
+desc.immersiveengineering.flavour.fluidStack,%1$s: %2$s/%3$smB,%1$s: %2$s/%3$smB
 desc.immersiveengineering.flavour.revolver,"Go ahead, make my day!",さあやれよ
 desc.immersiveengineering.flavour.revolver.bee,The Pain,ザ・ピンチ
 desc.immersiveengineering.flavour.revolver.dev,Regicide!,大逆罪だ!!
@@ -1213,7 +1213,7 @@ desc.immersiveengineering.info.filter.tag,Filter: Tag<br>Filters items based on<
 desc.immersiveengineering.info.filter.tag.from_mod,Item added by: %1$s,%1$sによって追加されたアイテム
 desc.immersiveengineering.info.filter.tag.none_available,"§o§8No tags available, will filter by item instead.§r",§o§8利用可能なタグがありません。代わりにアイテムでフィルターします。§r
 desc.immersiveengineering.info.filter.tag.selected_scroll,§6Selected tag: §o§8(scroll to change)§r,§6選択されたタグ：§o§8(変更するにはスクロール)§r
-desc.immersiveengineering.info.fluidStored,%1$s %2$s mB,
+desc.immersiveengineering.info.fluidStored,%1$s %2$s mB,%1$s %2$s mB
 desc.immersiveengineering.info.gasStored,Gas stored: %1$s,ガス保有量: %1$s
 desc.immersiveengineering.info.holdShift,§6Hold Shift§r,§6シフトキーを押下§r
 desc.immersiveengineering.info.holdShiftForInfo,§8Hold Shift for more info§r,§8シフトキーを押し続けて詳細を表示§r
@@ -1266,7 +1266,7 @@ desc.immersiveengineering.info.operator.or,OR,または
 desc.immersiveengineering.info.operator.set,SET,セット
 desc.immersiveengineering.info.operator.xnor,XNOR,等価
 desc.immersiveengineering.info.operator.xor,XOR,排他的論理和
-desc.immersiveengineering.info.percent,%1$s%%,
+desc.immersiveengineering.info.percent,%1$s%%,%1$s%%
 desc.immersiveengineering.info.potionMod,Potion added by %1$s,%1$sによって追加されたポーション
 desc.immersiveengineering.info.redstoneChannel,Channel: %1$s,チャンネル: %1$s
 desc.immersiveengineering.info.redstoneChannel.rec,Channel Receiving: %1$s,受信チャンネル: %1$s
@@ -1862,7 +1862,7 @@ key.immersiveengineering.chemthrowerSwitch,Switch Chemthrower Tanks,ケミカル
 key.immersiveengineering.magnetEquip,Magnetic Shield Glove (doubletap),磁気グローブ盾-切り替え(ダブルタップ)
 key.immersiveengineering.railgunZoom,Zoom with the Railgun,レールガンでズーム
 language,English,英語
-language.code,en_us,
+language.code,en_us,ja_jp
 language.region,United States,アメリカ合衆国
 manual.immersiveengineering.construction,Construction,建築
 manual.immersiveengineering.electrical_grids,Electrical Grids,電気系統
@@ -2771,7 +2771,7 @@ chat.immersiveengineering.command.mineral.set.clear,Mineral override (%1$s) clea
 chat.immersiveengineering.command.mineral.setDepletion.NFE,"Error, '%1$s' is not a valid number",エラー。'%1$s'は妥当な数字ではありません。
 chat.immersiveengineering.command.mineral.setDepletion.sucess,Mineral depletion set to '%1$s',鉱脈の枯渇料を'%1$s'に設定しました。
 advancement.immersiveengineering:root.desc,RTFM!,この素晴らしきマニュアルを読め!
-advancement.immersiveengineering:openManual,RTFM,
+advancement.immersiveengineering:openManual,RTFM,マニュアルを読もう
 advancement.immersiveengineering:openManual.desc,Acquire the Engineer's Manual,技師の手引書を入手する
 advancement.immersiveengineering:craftHammer,HAMMAH!,ハンマー!
 advancement.immersiveengineering:craftHammer.desc,Craft an Engineer's Hammer,ハンマーを作成する
@@ -3207,11 +3207,11 @@ ie.manual.entry.computer.squeezerAndFermenter.name,Fermenter and squeezer,発酵
 ie.manual.entry.computer.squeezerAndFermenter.subtext,Double post,ダブルポスト
 ie.manual.entry.computer.squeezerAndFermenter2,§lgetMaxEnergyStored()§r: returns the maximum amount of energy that can be stored in this machine,§lgetMaxEnergyStored()§r: このマシンに蓄えられる最大エネルギー量を返します
 ie.manual.entry.computer.floodlight.name,Floodlight (computers),フラッドライト（コンピュータ）
-ie.manual.entry.computer.floodlight.subtext,NO IDEA,
+ie.manual.entry.computer.floodlight.subtext,NO IDEA,不明
 ie.manual.entry.computer.floodlight0,The following assumes that the floodlight is placed on the ground. The floodlight can be connected to a computer on it's bottom face. After rotating a floodlight using a computer you have to wait for one second before you can rotate it again.<br>§lturnAroundXZ(boolean dir)§r: changes the pitch of the floodlight<br>§lturnAroundY(boolean dir)§r: turns the floodlight as if it was rightclicked on its top or bottom<br>§lcanTurn()§r: returns whether the floodlight can rotate again yet,以下は、フラッドライトが地面に配置されていることを前提としています。フラッドライトはその下の面のコンピューターに接続できます。フラッドライトを回転させた後、もう一度回転させる前に1秒待つ必要があります。<br>§lturnAroundXZ（ブール値 dir）§r：フラッドライトのピッチを変更します<br>§lturnAroundY（ブール値 dir）§r：フラッドライトを上部または下部から右クリックした場合のように回転させます<br>§lcanTurn（）§r：フラッドライトが再度回転できるかどうかを返します
 ie.manual.entry.computer.floodlight1,§lwaitForTimeout()§r: waits until the floodlight can turn again. Only available when using ComputerCraft<br>§lsetEnabled(boolean on)§r: turns the floodlight on or off<br>§lisActive()§r: returns whether this floodlight is currently active<br>§lgetEnergyStored()§r: returns the amount of energy stored in the floodlight<br>§lgetMaxEnergyStored()§r: returns the maximum amount of energy that can be stored in the floodlight,waitForTimeout()§r: 照明灯が再度回転できるようになるまで待ちます。ComputerCraft使用時のみ利用可能です<br>§lsetEnabled(boolean on)§r: 照明灯をオン/オフにします<br>§lisActive()§r: 照明灯が現在アクティブであるかを返します<br>§lgetEnergyStored()§r: 照明灯に蓄えられたエネルギー量を返します<br>§lgetMaxEnergyStored()§r: 照明灯に蓄えられるエネルギーの最大量を返します
 ie.manual.entry.computer.refinery.name,Refinery (computers),精製装置（コンピュータ）
-ie.manual.entry.computer.refinery.subtext,STOP ASKING,
+ie.manual.entry.computer.refinery.subtext,STOP ASKING,質問をやめてください
 ie.manual.entry.computer.refinery0,"§lgetInputFluidTanks()§r: returns a table storing the input tanks in the keys ""input1"" and ""input2""<br>§lgetOutputTank()§r: returns the output tank<br>§lgetRecipe()§r: returns a table containing the input fluids in the keys ""input1"" and ""input2"" and the output fluid in the key ""output""<br>§lsetEnabled(boolean on)§r: allows or disallows the refinery to run<br>§lisValidRecipe()§r: returns whether a recipe with the current input fluids exists",§lgetInputFluidTanks()§r: 入力タンクの内容を返すテーブルです。キー「input1」と「input2」に格納されます<br>§lgetOutputTank()§r: 出力タンクを返します<br>§lgetRecipe()§r: 入力液体のキー「input1」と「input2」、出力液体のキー「output」を含むテーブルを返します<br>§lsetEnabled(boolean on)§r: 精製所の実行の有無を切り替えます<br>§lisValidRecipe()§r: 現在の入力液体でレシピが存在するかどうかを返します
 ie.manual.entry.computer.refinery1,"§lgetEmptyCannisters()§r: returns a table containing the stacks of empty cannisters, the keys ""input1"" and ""input2"" for the input tanks, the key ""output"" for the output tank<br>§lgetMaxEnergyStored()§r: returns the maximum of energy that can be stored in this refinery<br>§lgetEnergyStored()§r: returns the amount of energy stored in the refinery",§lgetEmptyCannisters()§r: 空の缶詰のスタック、入力タンクのキー「input1」と「input2」、出力タンク用のキー「output」を含むテーブルを返します<br>§lgetMaxEnergyStored()§r: この精製所に保存できる最大エネルギーを返します<br>§lgetEnergyStored()§r: 精製所に保存されたエネルギー量を返します
 ie.manual.entry.computer.assembler.name,Assembler (computers),組立機（コンピュータ）
@@ -3638,7 +3638,7 @@ chat.ImmersiveEngineering.command.shaders.help,§6Usage: /ie shaders <clear>§r,
 chat.ImmersiveEngineering.command.shaders.clear.help,§6Usage: /ie shaders clear [player]§r<br> Clear the received shaders for the given player. Clear for yourself if no player is specified.,§6使用方法: /ie shaders clear [player]§r<br>指定のプレイヤーの受信したガジェットスキンを消去します。指定がない場合自分自身に作用します。
 chat.ImmersiveEngineering.command.shaders.clear.sucess,Received Shaders for '%1$s' where cleared,' %1$s' のシェーダーがクリアされました
 recipe.ImmersiveEngineering.hammerCrushing,Crushing,粉砕
-achievement.immersiveengineering.openManual,RTFM,
+achievement.immersiveengineering.openManual,RTFM,マニュアルを読もう
 achievement.immersiveengineering.openManual.desc,Open the Engineer's Manual,技士の手引書を開く
 achievement.immersiveengineering.craftHammer,HAMMAH!,ハンマー!
 achievement.immersiveengineering.craftHammer.desc,Craft an Engineer's Hammer,ハンマーを作成する
@@ -3727,7 +3727,7 @@ ie.manual.entry.chargingStation0,The Charging Station is a device that allows yo
 ie.manual.entry.workbench.name,Engineer's Workbench,技師の工具台
 ie.manual.entry.workbench.subtext,Overclocking,オーバークロック
 ie.manual.entry.workbench0,"Over the course of your Engineering career you may come to deal with some tools that can be optimized and modified. To apply these modifications, you should use a properly equipped Engineer's Workbench.<br>Rightclick the Workbench, insert the item into the slot and insert applicable upgrades into the new slots that appear.",エンジニアリングのキャリアを通じて、最適化・改良できるツールに出会うかもしれません。これらの変更を適用するには、適切に装備されたEngineer’s Workbench（エンジニアズワークベンチ）を使用してください。<br>ワークベンチを右クリックし、アイテムをスロットに挿入し、新しく表示されるスロットに該当するアップグレードを挿入します。
-ie.manual.entry.blueprints.subtext,RTFM,
+ie.manual.entry.blueprints.subtext,RTFM,マニュアルを読もう
 ie.manual.entry.blueprints0,"There are certain items which are very complex in their construction and require more than just a simple block of wood with a grid on it. These items will need to be created under the instructions of precise Blueprints on an <link;workbench;§o§nEngineer's §o§nWorkbench§r>.<br><br>Should you come across an Engineer's Blueprint (or maybe even create one yourself), you can place it in the slot of the Engineer's Workbench.",複雑な製作には「エンジニアのワークベンチ」と「ブループリント」が必要です。エンジニアのブループリント（または自作したもの）を見つけたら、エンジニアのワークベンチのスロットに配置できます。
 ie.manual.entry.blueprints1,"To create the items detailed in the Blueprint, you insert the required materials into the 6 slots in the middle, and retrieve the assembled results from the output slots to the right. Hovering your mouse over these output slots will inform you exactly which materials are needed for each item.",設計図に記載されたアイテムを作成するには、中央の6スロットに必要な材料を投入し、右側の出力スロットから組み立てられた結果を取得します。これらの出力スロットにマウスオーバーすると、それぞれのアイテムに必要な材料が正確に表示されます。
 ie.manual.entry.dieselgen0,"High-Voltage architecture might be fascinating, but it's not very useful unless you have a generator that can actually create the required output for it.<br>The Diesel Generator is one of the few ways of generating this sort of energy. It is created as a complex multiblock structure and will run off of <link;biodiesel;§o§nBiodiesel§r> or other types of combustible fuel. Due to its high output, it will work through fuel very quickly, so make sure you have a sufficient fuel production to run it.",高電圧アーキテクチャは魅力的ですが、必要な出力を実際に生成できる発電機がない限り有用ではありません。ディーゼル発電機は高電圧エネルギーを生成する方法の1つです。複雑なマルチブロック構造として作成され、バイオディーゼルなどの燃料で動作します。出力が高いため燃料をすぐに使い果たすので、十分な燃料生産を確保してください。
@@ -3778,7 +3778,7 @@ ie.manual.entry.mineral_main,"The deposits of Ore found around your world are no
 試料はスニークして右クリックすることでブロックとして配置できます。試料ブロックで地図を使用するとチャンク用のマーカーが設定されます。
 
 次のページには、すべての脈のタイプと、それらから回収できる鉱石が列挙されています。"
-item.immersiveengineering.shader.name.terra,Terra,
+item.immersiveengineering.shader.name.terra,Terra,テラ
 item.immersiveengineering.revolver.noName.name,No Name,名無し
 ie.manual.entry.updateNews_00,"Dear Engineer!<br><br>Since you last worked with Immersive Engineering, many things have changed! Among the new things are: Villager houses, <link;lighting;§o§nnew §o§nlights§r>, <link;barrel;§o§nwooden §o§nbarrels§r>, <link;tanksilo;§o§ntanks§r>, <link;tanksilo;§o§nsilos§r;1> and <link;fluidPipes;§o§nfluid §o§npipes§r>, achievements, <link;shader;§o§nshaders§r> and the <link;assembler;§o§nAssembler§r> and <link;bottlingMachine;§o§nBottling §o§nMachine§r>!","親愛なるエンジニアへ！
 
@@ -3805,11 +3805,11 @@ ie.manual.entry.updateNews_40,"Dear Engineer!<br><br>The past update has brought
 ファーネスヒーターはいくつかの改善を見ました。これにより、Thaumcraftの錬金術炉やCutting Edgeの蒸発器を加熱できるようになりました。
 
 今のところそれだけです。十分に安定していることを願いましょう。"
-ie.manual.entry.powerpack.subtext,Do....Ray....Egon!,
+ie.manual.entry.powerpack.subtext,Do....Ray....Egon!,ド....レ....ミ！
 ie.manual.entry.maneuverGear1,"§l§nControls:§r<br>Holding the <keybind;key.immersiveengineering.3dgear> Key will switch you to the Maneuver Gear controls. In this controlmode, the mousebuttons will fire the hooks at the cost of some Flux charge. While the hooks are embedded in an object, holding the button will pull you to that object. A doubleclick will dislodge the hook and return it to you.<br>Double-tapping the <keybind;key.immersiveengineering.3dgear> Key will return both hooks.","§l§nコントロール：§r
 §nキーを保持すると、マニューバーギアのコントロールに切り替わります。このコントロールモードでは、マウスボタンがフラックス消費でフックを発射します。フックがオブジェクトに埋め込まれている間、ボタンを押したままにするとそのオブジェクトに引き寄せられます。ダブルクリックでフックを引き抜き、自分に戻します。
 キーをダブルタップすると、両方のフックが戻ります。"
-ie.manual.entry.minerals.subtext,Oresome,
+ie.manual.entry.minerals.subtext,Oresome,鉱石だらけ
 ie.manual.entry.computer.arcFurnace1,specified slot (both values in ticks)<br>§lgetOutputStack(int slot)§r:returns the stack in the specified output slot(1-6)<br>§lgetAdditiveStack(int slot)§r: returns the stack in the specified additive slot (1-4)<br>§lgetSlagStack()§r: returns the stack in the slag slot<br>§lhasElectrodes()§r:returns a boolean indicating whether all 3 electrodes in the arc furnace are valid<br>§lgetElectrode(int slot)§r: returns the item stack of the specified electrode (1-4),"指定されたスロット（ティック単位で両方の値）
 §lgetOutputStack(int slot)§r：指定されたアウトプットスロット（1-6）のスタックを返します
 §lgetAdditiveStack(int slot)§r：指定されたアディティブスロット（1-4）のスタックを返します
@@ -3865,17 +3865,18 @@ ie.manual.entry.computer.arcFurnace0,"§lsetEnabled(boolean active)§r: allows o
 §lgetInputStack(int slot)§r：指定された入力スロット（1-12）のスタックを返します。テーブルには追加で§lprogress§rと§lmaxProgress§rキーがあり、現在の進行状況と完了時の進行状況を保存します"
 ie.manual.entry.computer.squeezerAndFermenter0,"The computer support for fermenters and squeezers is extremely similar. The computer can be connected anywhere on the multiblock.<br>§lgetRecipe(int slot)§r: returns 3 tables and 1 integer describing the recipe that has the item in the specified input slot (1-9) as the input. The first table is the input stack, the second table the output item, the third table the output fluid and the integer is the time it takes for this recipe to process. If no recipe is found, only the string ""No recipe","スクイーザーとファーメンターのコンピューターサポートは非常に似ています。コンピューターはマルチブロックのどこにでも接続できます。
 §lgetRecipe(int slot)§r：指定された入力スロット（1-9）に入力として持つアイテムを持つレシピを説明する3つのテーブルと1つの整数を返します。最初のテーブルは入力スタック、2番目のテーブルは出力アイテム、3番目のテーブルは出力流体で、整数はこのレシピの処理にかかる時間です。レシピが見つからない場合、""レシピなし"
-advancement.immersiveengineering.main_root,Immersive Engineering,
-item.immersiveengineering.shader.name.n7,N7,
-itemGroup.immersiveengineering,Immersive Engineering,
-key.categories.immersiveengineering,Immersive Engineering,
+advancement.immersiveengineering.main_root,Immersive Engineering,Immersive Engineering
+item.immersiveengineering.shader.name.n7,N7,N7
+itemGroup.immersiveengineering,Immersive Engineering,Immersive Engineering
+key.categories.immersiveengineering,Immersive Engineering,Immersive Engineering
 advancement.immersiveengineering.root,Immersive Engineering,
 advancement.immersiveengineering:root,Immersive Engineering,
-ie.manual.entry.updateNews_0.subtext,"Old, new; borrowed and Blu",
-ie.manual.entry.updateNews_1.subtext,"Old, new; borrowed and Blu",
-ie.manual.entry.updateNews_2.subtext,"Old, new; borrowed and Blu",
-ie.manual.entry.updateNews_3.subtext,"Old, new; borrowed and Blu",
-ie.manual.entry.updateNews_4.subtext,"Old, new; borrowed and Blu",
+ie.manual.entry.updateNews_0.subtext,"Old, new; borrowed and Blu",古いもの、新しいもの；借りたものと青
+ie.manual.entry.updateNews_1.subtext,"Old, new; borrowed and Blu",古いもの、新しいもの；借りたものと青
+ie.manual.entry.updateNews_2.subtext,"Old, new; borrowed and Blu",古いもの、新しいもの；借りたものと青
+ie.manual.entry.updateNews_3.subtext,"Old, new; borrowed and Blu",古いもの、新しいもの；借りたものと青
+ie.manual.entry.updateNews_4.subtext,"Old, new; borrowed and Blu",古いもの、新しいもの；借りたものと青
 itemGroup.ImmersiveEngineering,Immersive Engineering,
-ie.manual.entry.updateNews_5.subtext,"Old, new; borrowed and Blu",
-ie.manual.entry.updateNews_6.subtext,"Old, new; borrowed and Blu",
+ie.manual.entry.updateNews_5.subtext,"Old, new; borrowed and Blu",古いもの、新しいもの；借りたものと青
+ie.manual.entry.updateNews_6.subtext,"Old, new; borrowed and Blu",古いもの、新しいもの；借りたものと青
+immersiveengineering.config.title,,

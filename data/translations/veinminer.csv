@@ -1,8 +1,8 @@
 ﻿key,source_text,target_text
 command.veinminer,/veinminer mode/blocklist/toollist/blocklimit/radius/per_tick/saveconfig/reloadconfig/help,
 command.veinminer.enable,/veinminer mode auto/sneak/no_sneak,
-command.veinminer.blocklist,/veinminer blocklist %s add/remove <mod id>:<block name> <metadata>,
-command.veinminer.toollist,/veinminer toollist %s add/remove <tool id>,
+command.veinminer.blocklist,/veinminer blocklist %s add/remove <mod id>:<block name> <metadata>,/veinminer blocklist %s add/remove <Modid>:<ブロック名> <メタデータ>
+command.veinminer.toollist,/veinminer toollist %s add/remove <tool id>,/veinminer toollist %s add/remove <ツールid>
 command.veinminer.hasclient,You seem to have a veinminer on the client. Please use /veinminerc instead.,Veinminerはクライアントで動作しています。代わりに /veinminerc を使用してください。
 command.veinminerc.set.disabled,Veinminer client keybind disabled.,Veinminerのキー設定は無視されます。
 command.veinminerc.set.pressed,Veinminer client keybind set to activate on pressing the key.,Veinminerはキーを押している時に有効になります。
@@ -11,19 +11,19 @@ command.veinminer.set.disable,Veinminer activation: disabled,Veinminer有効化:
 command.veinminer.set.auto,Veinminer activation: Using client keybind,Veinminer有効化: クライアントのキー設定
 command.veinminer.set.sneak,Veinminer activation: When sneaking,Veinminer有効化: スニーク時有効
 command.veinminer.set.nosneak,Veinminer activation: When not sneaking,Veinminer有効化: スニーク時無効
-command.veinminer.blocklist.actionerror,/veinminer blocklist %s add/remove <mod id>:<block name> <metadata>,
-command.veinminer.blocklist.itemerror,/veinminer blocklist %s %s  <mod id>:<block name> <metadata>,
+command.veinminer.blocklist.actionerror,/veinminer blocklist %s add/remove <mod id>:<block name> <metadata>,/veinminer blocklist %s add/remove <Modid>:<ブロック名> <メタデータ>
+command.veinminer.blocklist.itemerror,/veinminer blocklist %s %s  <mod id>:<block name> <metadata>,/veinminer blocklist %s %s  <Modid>:<ブロック名> <メタデータ>
 command.veinminer.blocklist.add,Added %s/%d to the %s block whitelist,%s/%d を %s のホワイトリストに追加しました。
 command.veinminer.blocklist.remove,Removed %s/%d from the %s block whitelist,%s/%d を %s のホワイトリストから削除しました。
-command.veinminer.toollist.actionerror,/veinminer toollist %s add/remove <tool id>,
-command.veinminer.toollist.itemerror,/veinminer toollist %s %s <tool id>,
+command.veinminer.toollist.actionerror,/veinminer toollist %s add/remove <tool id>,/veinminer toollist %s add/remove <ツールid>
+command.veinminer.toollist.itemerror,/veinminer toollist %s %s <tool id>,/veinminer toollist %s %s <ツールid>
 command.veinminer.toollist.add,Added %s to the %s tool list,%s を %s のツールリストに追加しました。
 command.veinminer.toollist.remove,Removed %s from the %s tool list,%s を %s のツールリストから削除しました。
 command.veinminer.blocklimit,/veinminer blocklimit [-1 - 2147483647],
 command.veinminer.blocklimit.set,Set block limit to %d blocks,ブロックの最大同時破壊数を %d ブロックに設定しました。
 command.veinminer.range,/veinminer radius [-1 - 1000],
 command.veinminer.range.set,Set radius limit to %d blocks away,ブロックの最大破壊半径を %d ブロックに設定しました。
-command.veinminer.pertick,/veinminer per_tick <# blocks to destroy each tick>,
+command.veinminer.pertick,/veinminer per_tick <# blocks to destroy each tick>,/veinminer per_tick <1ティックあたり破壊するブロック数>
 command.veinminer.pertick.set,Set to destroy %d blocks per tick,ブロックのtickごとの破壊数を %d ブロックに設定しました。
 command.veinminer.saveconfig,Saved settings to config file,コンフィグファイルに設定をセーブしました。
 command.veinminer.loadconfig,Reloaded settings from config file,コンフィグファイルから設定をロードしました。
@@ -67,6 +67,6 @@ gui.veinminer.item.clear,Clear,クリア
 gui.veinminer.title.toollist,%s Tool List,%s ツールリスト
 gui.veinminer.title.blocklist,%s Block List,%s ブロックリスト
 veinminer.key.category,Vein Miner,
-command.veinminer.help8,'saveconfig': Save current config values to config file,
-command.veinminer.help9,'reloadconfig': Load config values from config file,
-gui.veinminer.unknown,<Unknown>,
+command.veinminer.help8,'saveconfig': Save current config values to config file,'saveconfig': 現在の設定値を設定ファイルに保存
+command.veinminer.help9,'reloadconfig': Load config values from config file,'reloadconfig': 設定ファイルから設定値を読み込み
+gui.veinminer.unknown,<Unknown>,<不明>

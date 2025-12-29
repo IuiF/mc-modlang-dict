@@ -159,35 +159,169 @@ tooltip.botanypots.time,Time: %s,時間: %s
 commands.botanypots.dump.missing_crops,Found %d potential missing crops. This list is not exhaustive and may include false positives and false negatives. Clicking this message will copy the list to your clipboard.,%dつの潜在的に不足している作物が見つかりました。このリストは完全ではなく、偽陽性と偽陰性が含まれる可能性があります。このメッセージをクリックするとリストをクリップボードにコピーします。
 commands.botanypots.dump.no_results,No results were found.,結果が見つかりませんでした。
 commands.botanypots.mod_message,[§aBotany Pots§r] %s,[§a植物ポット§r] %s
-block.botanypots.botany_pot,Botany Pot,
-block.botanypots.gray_botany_pot,Gray Botany Pot,
-block.botanypots.hopper_blue_botany_pot,Blue Hopper Botany Pot,
-block.botanypots.hopper_botany_pot,Hopper Botany Pot,
-block.botanypots.hopper_brown_botany_pot,Brown Hopper Botany Pot,
-block.botanypots.hopper_cyan_botany_pot,Cyan Hopper Botany Pot,
-block.botanypots.hopper_lime_botany_pot,Lime Hopper Botany Pot,
-block.botanypots.hopper_magenta_botany_pot,Magenta Hopper Botany Pot,
-block.botanypots.hopper_pink_botany_pot,Pink Hopper Botany Pot,
-block.botanypots.hopper_white_botany_pot,White Hopper Botany Pot,
-block.botanypots.hopper_yellow_botany_pot,Yellow Hopper Botany Pot,
-block.botanypots.purple_botany_pot,Purple Botany Pot,
-block.botanypots.red_botany_pot,Red Botany Pot,
-block.botanypots.white_botany_pot,White Botany Pot,
-block.botanypots.gray_concrete_botany_pot,Gray Botany Pot,
-block.botanypots.green_concrete_hopper_botany_pot,Green Hopper Botany Pot,
-block.botanypots.green_terracotta_hopper_botany_pot,Green Hopper Botany Pot,
-block.botanypots.light_blue_terracotta_hopper_botany_pot,Light Blue Hopper Botany Pot,
-block.botanypots.light_gray_concrete_hopper_botany_pot,Light Gray Hopper Botany Pot,
-block.botanypots.light_gray_terracotta_botany_pot,Light Gray Botany Pot,
-block.botanypots.light_gray_terracotta_hopper_botany_pot,Light Gray Hopper Botany Pot,
-block.botanypots.magenta_concrete_hopper_botany_pot,Magenta Hopper Botany Pot,
-block.botanypots.orange_concrete_hopper_botany_pot,Orange Hopper Botany Pot,
-block.botanypots.orange_terracotta_hopper_botany_pot,Orange Hopper Botany Pot,
-block.botanypots.purple_concrete_botany_pot,Purple Botany Pot,
-block.botanypots.purple_concrete_hopper_botany_pot,Purple Hopper Botany Pot,
-block.botanypots.purple_terracotta_hopper_botany_pot,Purple Hopper Botany Pot,
-block.botanypots.red_terracotta_botany_pot,Red Botany Pot,
-block.botanypots.red_terracotta_hopper_botany_pot,Red Hopper Botany Pot,
-block.botanypots.white_terracotta_hopper_botany_pot,White Hopper Botany Pot,
-block.botanypots.yellow_concrete_hopper_botany_pot,Yellow Hopper Botany Pot,
-block.botanypots.yellow_terracotta_botany_pot,Yellow Botany Pot,
+block.botanypots.botany_pot,Botany Pot,植木鉢
+block.botanypots.gray_botany_pot,Gray Botany Pot,灰色の植木鉢
+block.botanypots.hopper_blue_botany_pot,Blue Hopper Botany Pot,青ホッパー付き植木鉢
+block.botanypots.hopper_botany_pot,Hopper Botany Pot,ホッパー付き植木鉢
+block.botanypots.hopper_brown_botany_pot,Brown Hopper Botany Pot,茶ホッパー付き植木鉢
+block.botanypots.hopper_cyan_botany_pot,Cyan Hopper Botany Pot,青緑ホッパー付き植木鉢
+block.botanypots.hopper_lime_botany_pot,Lime Hopper Botany Pot,黄緑ホッパー付き植木鉢
+block.botanypots.hopper_magenta_botany_pot,Magenta Hopper Botany Pot,赤紫ホッパー付き植木鉢
+block.botanypots.hopper_pink_botany_pot,Pink Hopper Botany Pot,桃色ホッパー付き植木鉢
+block.botanypots.hopper_white_botany_pot,White Hopper Botany Pot,白ホッパー付き植木鉢
+block.botanypots.hopper_yellow_botany_pot,Yellow Hopper Botany Pot,黄ホッパー付き植木鉢
+block.botanypots.purple_botany_pot,Purple Botany Pot,紫の植木鉢
+block.botanypots.red_botany_pot,Red Botany Pot,赤の植木鉢
+block.botanypots.white_botany_pot,White Botany Pot,白い植木鉢
+block.botanypots.gray_concrete_botany_pot,Gray Botany Pot,灰色のコンクリート植木鉢
+block.botanypots.green_concrete_hopper_botany_pot,Green Hopper Botany Pot,緑のコンクリートホッパー付き植木鉢
+block.botanypots.green_terracotta_hopper_botany_pot,Green Hopper Botany Pot,緑のテラコッタホッパー付き植木鉢
+block.botanypots.light_blue_terracotta_hopper_botany_pot,Light Blue Hopper Botany Pot,空色のテラコッタホッパー付き植木鉢
+block.botanypots.light_gray_concrete_hopper_botany_pot,Light Gray Hopper Botany Pot,薄灰色のコンクリートホッパー付き植木鉢
+block.botanypots.light_gray_terracotta_botany_pot,Light Gray Botany Pot,薄灰色のテラコッタ植木鉢
+block.botanypots.light_gray_terracotta_hopper_botany_pot,Light Gray Hopper Botany Pot,薄灰色のテラコッタホッパー付き植木鉢
+block.botanypots.magenta_concrete_hopper_botany_pot,Magenta Hopper Botany Pot,赤紫のコンクリートホッパー付き植木鉢
+block.botanypots.orange_concrete_hopper_botany_pot,Orange Hopper Botany Pot,橙のコンクリートホッパー付き植木鉢
+block.botanypots.orange_terracotta_hopper_botany_pot,Orange Hopper Botany Pot,橙のテラコッタホッパー付き植木鉢
+block.botanypots.purple_concrete_botany_pot,Purple Botany Pot,紫のコンクリート植木鉢
+block.botanypots.purple_concrete_hopper_botany_pot,Purple Hopper Botany Pot,紫のコンクリートホッパー付き植木鉢
+block.botanypots.purple_terracotta_hopper_botany_pot,Purple Hopper Botany Pot,紫のテラコッタホッパー付き植木鉢
+block.botanypots.red_terracotta_botany_pot,Red Botany Pot,赤のテラコッタ植木鉢
+block.botanypots.red_terracotta_hopper_botany_pot,Red Hopper Botany Pot,赤のテラコッタホッパー付き植木鉢
+block.botanypots.white_terracotta_hopper_botany_pot,White Hopper Botany Pot,白のテラコッタホッパー付き植木鉢
+block.botanypots.yellow_concrete_hopper_botany_pot,Yellow Hopper Botany Pot,黄のコンクリートホッパー付き植木鉢
+block.botanypots.yellow_terracotta_botany_pot,Yellow Botany Pot,黄のテラコッタ植木鉢
+block.botanypots.deepslate_bricks_botany_pot,Deepslate Brick Botany Pot,深層岩レンガ植木鉢
+block.botanypots.gray_terracotta_waxed_botany_pot,Gray Waxed Botany Pot,灰色のテラコッタ蝋がけ植木鉢
+block.botanypots.green_glazed_terracotta_waxed_botany_pot,Green Glazed Waxed Botany Pot,緑の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.green_concrete_waxed_botany_pot,Green Concrete Waxed Botany Pot,緑のコンクリート蝋がけ植木鉢
+block.botanypots.orange_concrete_waxed_botany_pot,Orange Concrete Waxed Botany Pot,橙のコンクリート蝋がけ植木鉢
+attribute.botanypots.yield,Botany Pot Yield,植木鉢収量
+block.botanypots.red_concrete_waxed_botany_pot,Red Concrete Waxed Botany Pot,赤のコンクリート蝋がけ植木鉢
+block.botanypots.stone_bricks_waxed_botany_pot,Stone Brick Waxed Botany Pot,石レンガ蝋がけ植木鉢
+commands.botanypots.debug.crop_success,Tested %d crops and found no errors!,%dの作物をテストしてエラーが見つかりませんでした！
+tooltip.botanypots.yield.total,Yield: %d%%,収量: %d%%
+container.botanypots.botany_pot,Botany Pot,植木鉢
+block.botanypots.nether_bricks_waxed_botany_pot,Nether Brick Waxed Botany Pot,ネザーレンガ蝋がけ植木鉢
+tag.enchantment.botanypots.negate_harvest_damage,Negates Harvest Damage,収穫ダメージを無視
+block.botanypots.black_glazed_terracotta_waxed_botany_pot,Black Glazed Waxed Botany Pot,黒の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.purple_concrete_waxed_botany_pot,Purple Concrete Waxed Botany Pot,紫のコンクリート蝋がけ植木鉢
+commands.botanypots.debug.crop_errors,Tested %d crops. Found %d errors! Details have been logged.,%dの作物をテストしました。%dのエラーが見つかりました！詳細はログに記録されました。
+attribute.botanypots.growth,Botany Pot Growth,植木鉢成長度
+block.botanypots.blue_concrete_waxed_botany_pot,Blue Concrete Waxed Botany Pot,青のコンクリート蝋がけ植木鉢
+block.botanypots.magenta_concrete_waxed_botany_pot,Magenta Concrete Waxed Botany Pot,赤紫のコンクリート蝋がけ植木鉢
+block.botanypots.pink_glazed_terracotta_waxed_botany_pot,Pink Glazed Waxed Botany Pot,桃色の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.purple_terracotta_waxed_botany_pot,Purple Waxed Botany Pot,紫のテラコッタ蝋がけ植木鉢
+block.botanypots.red_nether_bricks_waxed_botany_pot,Red Nether Brick Waxed Botany Pot,赤いネザーレンガ蝋がけ植木鉢
+tag.item.botanypots.soil.soul_sand,Soul Soil,ソウルサンド
+block.botanypots.cyan_glazed_terracotta_waxed_botany_pot,Cyan Glazed Waxed Botany Pot,青緑の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.green_terracotta_waxed_botany_pot,Green Waxed Botany Pot,緑のテラコッタ蝋がけ植木鉢
+_tooltips,,ツールチップ
+block.botanypots.blue_glazed_terracotta_waxed_botany_pot,Blue Glazed Waxed Botany Pot,青の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.end_stone_bricks_waxed_botany_pot,End Stone Brick Waxed Botany Pot,エンドストーンレンガ蝋がけ植木鉢
+tag.item.botanypots.soil.moss,Mossy Soil,苔むした土
+tooltip.botanypots.percent,x%d%%,x%d%%
+block.botanypots.magenta_terracotta_waxed_botany_pot,Magenta Waxed Botany Pot,赤紫のテラコッタ蝋がけ植木鉢
+block.botanypots.nether_bricks_botany_pot,Nether Brick Botany Pot,ネザーレンガ植木鉢
+tooltip.botanypots.loot.chance,Chance: %s,確率: %s
+block.botanypots.bricks_botany_pot,Brick Botany Pot,レンガ植木鉢
+block.botanypots.mud_bricks_botany_pot,Mud Brick Botany Pot,泥レンガ植木鉢
+tag.item.botanypots.soil.dirt,Dirt Soil,土壌
+tooltip.botanypots.yield_modifier,%s Yield,%s収量
+tag.item.botanypots.botany_pots,All Botany Pots,すべての植木鉢
+_blocks,,ブロック
+block.botanypots.pink_terracotta_waxed_botany_pot,Pink Waxed Botany Pot,桃色のテラコッタ蝋がけ植木鉢
+block.botanypots.mossy_stone_bricks_hopper_botany_pot,Mossy Stone Brick Hopper Botany Pot,苔むした石レンガホッパー付き植木鉢
+block.botanypots.cyan_concrete_waxed_botany_pot,Cyan Concrete Waxed Botany Pot,青緑のコンクリート蝋がけ植木鉢
+block.botanypots.light_blue_glazed_terracotta_waxed_botany_pot,Light Blue Glazed Waxed Botany Pot,空色の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.orange_terracotta_waxed_botany_pot,Orange Waxed Botany Pot,橙のテラコッタ蝋がけ植木鉢
+block.botanypots.polished_blackstone_bricks_waxed_botany_pot,Polished Blackstone Brick Waxed Botany Pot,磨かれた黒石レンガ蝋がけ植木鉢
+block.botanypots.quartz_bricks_botany_pot,Quartz Brick Botany Pot,石英レンガ植木鉢
+block.botanypots.brown_concrete_waxed_botany_pot,Brown Concrete Waxed Botany Pot,茶のコンクリート蝋がけ植木鉢
+tooltip.botanypots.growth_modifier,%s Growth Speed,%s成長速度
+block.botanypots.gray_glazed_terracotta_waxed_botany_pot,Gray Glazed Waxed Botany Pot,灰色の艶出しテラコッタ蝋がけ植木鉢
+commands.botanypots.dump.generated,Generated %d crop files. Click to open directory.,%dの作物ファイルが生成されました。クリックしてディレクトリを開きます。
+tooltip.botanypots.yield.source.pot,Pot: %d%%,植木鉢: %d%%
+_attributes,,属性
+block.botanypots.bricks_hopper_botany_pot,Brick Hopper Botany Pot,レンガホッパー付き植木鉢
+block.botanypots.cyan_terracotta_waxed_botany_pot,Cyan Waxed Botany Pot,青緑のテラコッタ蝋がけ植木鉢
+block.botanypots.magenta_glazed_terracotta_waxed_botany_pot,Magenta Glazed Waxed Botany Pot,赤紫の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.polished_blackstone_bricks_botany_pot,Polished Blackstone Brick Botany Pot,磨かれた黒石レンガ植木鉢
+block.botanypots.deepslate_bricks_hopper_botany_pot,Deepslate Brick Hopper Botany Pot,深層岩レンガホッパー付き植木鉢
+block.botanypots.light_blue_terracotta_waxed_botany_pot,Light Blue Waxed Botany Pot,空色のテラコッタ蝋がけ植木鉢
+_commands,,コマンド
+block.botanypots.quartz_bricks_waxed_botany_pot,Quartz Brick Waxed Botany Pot,石英レンガ蝋がけ植木鉢
+block.botanypots.tuff_bricks_botany_pot,Tuff Brick Botany Pot,凝灰岩レンガ植木鉢
+tag.item.botanypots.soil.sand,Sandy Soil,砂質土
+tooltip.botanypots.wrong_soil,Can not be planted in %s,%sでは植えることができません
+block.botanypots.mud_bricks_hopper_botany_pot,Mud Brick Hopper Botany Pot,泥レンガホッパー付き植木鉢
+block.botanypots.orange_glazed_terracotta_waxed_botany_pot,Orange Glazed Waxed Botany Pot,橙の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.prismarine_bricks_botany_pot,Prismarine Brick Botany Pot,プリズマリンレンガ植木鉢
+block.botanypots.light_gray_terracotta_waxed_botany_pot,Light Gray Waxed Botany Pot,薄灰色のテラコッタ蝋がけ植木鉢
+block.botanypots.blue_terracotta_waxed_botany_pot,Blue Waxed Botany Pot,青のテラコッタ蝋がけ植木鉢
+block.botanypots.deepslate_bricks_waxed_botany_pot,Deepslate Brick Waxed Botany Pot,深層岩レンガ蝋がけ植木鉢
+block.botanypots.stone_bricks_botany_pot,Stone Brick Botany Pot,石レンガ植木鉢
+tooltip.botanypots.wrong_pot,Can not grow in %d.,%dで成長することはできません。
+tooltip.botanypots.yield.source.base,Base: %d%%,基本: %d%%
+tag.item.botanypots.soil.jungle_log,Jungle Wood Soil,ジャングルの木の土
+block.botanypots.light_gray_glazed_terracotta_waxed_botany_pot,Light Gray Glazed Waxed Botany Pot,薄灰色の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.white_terracotta_waxed_botany_pot,White Waxed Botany Pot,白のテラコッタ蝋がけ植木鉢
+tooltip.botanypots.yield.source.tool,Tool: %d%%,ツール: %d%%
+block.botanypots.terracotta_waxed_botany_pot,Waxed Botany Pot,テラコッタ蝋がけ植木鉢
+tag.block.botanypots.botany_pots,All Botany Pots,すべての植木鉢
+block.botanypots.brown_terracotta_waxed_botany_pot,Brown Waxed Botany Pot,茶のテラコッタ蝋がけ植木鉢
+_enchantments,,属性
+block.botanypots.tuff_bricks_hopper_botany_pot,Tuff Brick Hopper Botany Pot,凝灰岩レンガホッパー付き植木鉢
+commands.botanypots.dump.missing_soils,Found %d potential missing soils. This list is not exhaustive and may include false positives and false negatives. Click this message to copy the list to your clipboard.,%dの潜在的な欠落土壌が見つかりました。このリストは網羅的ではなく、誤検知と誤検知が含まれる場合があります。このメッセージをクリックしてリストをクリップボードにコピーします。
+tag.item.botanypots.soil_generator_ignores,Ignored Soil Candidates,無視される土壌候補
+_tags,,属性
+block.botanypots.black_terracotta_waxed_botany_pot,Black Waxed Botany Pot,黒のテラコッタ蝋がけ植木鉢
+block.botanypots.lime_concrete_waxed_botany_pot,Lime Concrete Waxed Botany Pot,黄緑のコンクリート蝋がけ植木鉢
+tag.item.botanypots.soil.mushroom,Mushroom Soil,キノコの土
+block.botanypots.mossy_stone_bricks_botany_pot,Mossy Stone Brick Botany Pot,苔むした石レンガ植木鉢
+tooltip.botanypots.yield.source.soil,Soil: %d%%,土壌: %d%%
+block.botanypots.yellow_terracotta_waxed_botany_pot,Yellow Waxed Botany Pot,黄のテラコッタ蝋がけ植木鉢
+tag.item.botanypots.soil.nether,Nether Soil,ネザーの土
+block.botanypots.red_terracotta_waxed_botany_pot,Red Waxed Botany Pot,赤のテラコッタ蝋がけ植木鉢
+block.botanypots.stone_bricks_hopper_botany_pot,Stone Brick Hopper Botany Pot,石レンガホッパー付き植木鉢
+tag.enchantment.botanypots.increase_pot_growth,Increase Growth Rate,成長速度を上昇
+tag.item.botanypots.crop_generator_ignores,Ignored Crop Candidates,無視される作物候補
+tooltip.botanypots.yield.scale,Yield Scale: %d%%,収量スケール: %d%%
+block.botanypots.mud_bricks_waxed_botany_pot,Mud Brick Waxed Botany Pot,泥レンガ蝋がけ植木鉢
+block.botanypots.prismarine_bricks_hopper_botany_pot,Prismarine Brick Hopper Botany Pot,プリズマリンレンガホッパー付き植木鉢
+block.botanypots.white_glazed_terracotta_waxed_botany_pot,White Glazed Waxed Botany Pot,白の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.yellow_concrete_waxed_botany_pot,Yellow Concrete Waxed Botany Pot,黄のコンクリート蝋がけ植木鉢
+block.botanypots.red_nether_bricks_hopper_botany_pot,Red Nether Brick Hopper Botany Pot,赤いネザーレンガホッパー付き植木鉢
+enchantment.botanypots.idle_hands,Curse of Idle Hands,怠け者の呪い
+block.botanypots.end_stone_bricks_hopper_botany_pot,End Stone Brick Hopper Botany Pot,エンドストーンレンガホッパー付き植木鉢
+block.botanypots.nether_bricks_hopper_botany_pot,Nether Brick Hopper Botany Pot,ネザーレンガホッパー付き植木鉢
+block.botanypots.pink_concrete_waxed_botany_pot,Pink Concrete Waxed Botany Pot,桃色のコンクリート蝋がけ植木鉢
+block.botanypots.polished_blackstone_bricks_hopper_botany_pot,Polished Blackstone Brick Hopper Botany Pot,磨かれた黒石レンガホッパー付き植木鉢
+enchantment.botanypots.idle_hands.desc,The item becomes effectively useless when used by players. Negates durability damage when used in a Botany Pot.,プレイヤーが使用するとアイテムは実質的に役に立たなくなります。植木鉢で使用されるときは耐久性ダメージを無視します。
+tag.item.botanypots.soil.water,Watery Soil,水の土
+block.botanypots.light_gray_concrete_waxed_botany_pot,Light Gray Concrete Waxed Botany Pot,薄灰色のコンクリート蝋がけ植木鉢
+block.botanypots.mossy_stone_bricks_waxed_botany_pot,Mossy Stone Brick Waxed Botany Pot,苔むした石レンガ蝋がけ植木鉢
+block.botanypots.red_nether_bricks_botany_pot,Red Nether Brick Botany Pot,赤いネザーレンガ植木鉢
+tag.item.botanypots.harvest_items,Valid Harvest Tools,有効な収穫ツール
+tag.item.botanypots.soil.lava,Lava Soil,溶岩の土
+block.botanypots.red_glazed_terracotta_waxed_botany_pot,Red Glazed Waxed Botany Pot,赤の艶出しテラコッタ蝋がけ植木鉢
+gui.jei.category.botanypots.interaction,Pot Interaction,植木鉢の相互作用
+block.botanypots.brown_glazed_terracotta_waxed_botany_pot,Brown Glazed Waxed Botany Pot,茶の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.light_blue_concrete_waxed_botany_pot,Light Blue Concrete Waxed Botany Pot,空色のコンクリート蝋がけ植木鉢
+block.botanypots.prismarine_bricks_waxed_botany_pot,Prismarine Brick Waxed Botany Pot,プリズマリンレンガ蝋がけ植木鉢
+block.botanypots.quartz_bricks_hopper_botany_pot,Quartz Brick Hopper Botany Pot,石英レンガホッパー付き植木鉢
+block.botanypots.white_concrete_waxed_botany_pot,White Concrete Waxed Botany Pot,白のコンクリート蝋がけ植木鉢
+block.botanypots.lime_glazed_terracotta_waxed_botany_pot,Lime Glazed Waxed Botany Pot,黄緑の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.lime_terracotta_waxed_botany_pot,Lime Waxed Botany Pot,黄緑のテラコッタ蝋がけ植木鉢
+itemGroup.botanypots.tab,Botany Pots,植木鉢
+tag.item.botanypots.soil.snow,Snowy Soil,雪の土
+block.botanypots.end_stone_bricks_botany_pot,End Stone Brick Botany Pot,エンドストーンレンガ植木鉢
+tag.item.botanypots.soil.end,Ender Soil,エンドの土
+tooltip.botanypots.base_rate,Grow Time: %s,成長時間: %s
+block.botanypots.black_concrete_waxed_botany_pot,Black Concrete Waxed Botany Pot,黒のコンクリート蝋がけ植木鉢
+block.botanypots.purple_glazed_terracotta_waxed_botany_pot,Purple Glazed Waxed Botany Pot,紫の艶出しテラコッタ蝋がけ植木鉢
+block.botanypots.tuff_bricks_waxed_botany_pot,Tuff Brick Waxed Botany Pot,凝灰岩レンガ蝋がけ植木鉢
+block.botanypots.yellow_glazed_terracotta_waxed_botany_pot,Yellow Glazed Waxed Botany Pot,黄の艶出しテラコッタ蝋がけ植木鉢
+tooltip.botanypots.growth_time,Growth Time: %s,成長時間: %s
+block.botanypots.bricks_waxed_botany_pot,Brick Waxed Botany Pot,レンガ蝋がけ植木鉢
+block.botanypots.gray_concrete_waxed_botany_pot,Gray Concrete Waxed Botany Pot,灰色のコンクリート蝋がけ植木鉢

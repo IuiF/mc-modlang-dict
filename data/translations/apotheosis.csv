@@ -77,7 +77,7 @@ advancements.apotheosis.rare_gem,Far From Perfect,完璧とは程遠い
 advancements.apotheosis.rare_gem.desc,Acquire a Flawed Gem.,ひびの入ったジェムを入手する
 advancements.apotheosis.socket,The Jeweler,宝石商
 advancements.apotheosis.socket.desc,"Using a Smithing Table, socket a Gem into an item.",鍛冶台を使い、ジェムをアイテムにソケットする
-affix.apotheosis.cooldown,[⌛ %s],
+affix.apotheosis.cooldown,[⌛ %s],[⌛ %s]
 affix.apotheosis.stacking,[Stacking],[スタックする]
 affix.apotheosis.stoneforming.desc,"Breaking [%s] converts it to %s, shift-right click to select a target.",[%s]を壊したとき、%sに変換する。シフト右クリックで変換先のブロックを選択可能。
 affix.apotheosis.stoneforming.target_updated,Target updated to: %s,対象のブロックが更新されました: %s
@@ -536,7 +536,7 @@ key.apotheosis.compare_equipment,Compare Hovered Equipment,ホバリング装備
 key.apotheosis.link_item_to_chat,Link Hovered Item to Chat,ホバリングアイテムをチャットにリンク
 key.apotheosis.open_world_tier_select,Open World Tier Select,ワールドレベル選択を開く
 key.apotheosis.toggle_radial_mining,Change Radial Mining Mode,放射採掘モードの変更
-key.categories.apotheosis,Apotheosis,
+key.categories.apotheosis,Apotheosis,Apotheosis
 loot_category.apotheosis.armor,Armor,防具
 loot_category.apotheosis.armor.plural,Armor,防具
 loot_category.apotheosis.boots,Boots,ブーツ
@@ -568,9 +568,9 @@ loot_category.apotheosis.trident.plural,Tridents,トライデント
 menu.apotheosis.gem_cutting,Gem Cutting,ジェム加工
 message.apotheosis.item_linking_disabled,Item Linking has been disabled by the server.,アイテムリンクはサーバーで無効化されています。
 misc.apotheosis.affix_bounds,[%s - %s],[%s - %s]
-misc.apotheosis.affix_name.four,%s %s %s %s,
-misc.apotheosis.affix_name.three,%s %s %s,
-misc.apotheosis.affix_name.two,%s %s,
+misc.apotheosis.affix_name.four,%s %s %s %s,%1$s %2$s%4$s%3$s
+misc.apotheosis.affix_name.three,%s %s %s,%1$s%3$s%2$s
+misc.apotheosis.affix_name.two,%s %s,%s%s
 misc.apotheosis.blacklisted_potion,Cannot be converted into a Potion Charm.,ポーションチャームには変換できません。
 misc.apotheosis.diamond,diamond,ダイヤモンド
 misc.apotheosis.explosion,Explosive,爆発
@@ -641,9 +641,9 @@ text.apotheosis.alternative_page,Page %s/%s (scroll to change),ページ %s/%s (
 text.apotheosis.any_affix_item,Any Affix Item,任意の付加語アイテム
 text.apotheosis.any_x_item,Any %s Affix Item,任意の%s称号付きアイテム
 text.apotheosis.anything,Anything,すべて
-text.apotheosis.cost,%sx %s,
+text.apotheosis.cost,%sx %s,%sx %s
 text.apotheosis.cut_cost,Gem Cutting Cost,宝石カットコスト
-text.apotheosis.dot_prefix,• %s,
+text.apotheosis.dot_prefix,• %s,・%s
 text.apotheosis.drop_chances,Drop Chances,ドロップ確率
 text.apotheosis.equipped,Equipped,装着中
 text.apotheosis.facets,Facets: %s,フェセット: %s
@@ -972,7 +972,7 @@ enchantment.level.121,CXXI,
 enchantment.level.122,CXXII,
 enchantment.level.123,CXXIII,
 enchantment.level.124,CXXIV,
-enchantment.level.125,CXXV,
+enchantment.level.125,CXXV,CXV
 enchantment.level.126,CXXVI,
 enchantment.level.127,CXXVII,
 enchantment.level.13,XIII,
@@ -1161,7 +1161,7 @@ item.minecraft.tipped_arrow.effect.knowledge,Arrow of Ancient Knowledge,古の�
 item.minecraft.tipped_arrow.effect.resistance,Arrow of Resistance,耐性の矢
 item.minecraft.tipped_arrow.effect.sundering,Arrow of Sundering,崩壊の矢
 item.minecraft.tipped_arrow.effect.wither,Arrow of Wither,ウィザーの矢
-itemGroup.apotheosis,Apotheosis,
+itemGroup.apotheosis,Apotheosis,アポセオシス
 jei.spw.changeentity,Changes entity spawned,生成されたエンティティを変更
 jei.spw.editmaxdelay,Decreases maximum spawn delay,最大出現遅延を減少させます
 jei.spw.editmindelay,Decreases minimum spawn delay,最小出現遅延を減少させます
@@ -1836,8 +1836,8 @@ affix.apotheosis:ranged/attribute/agile.suffix,of Dexterity,器用さの
 affix.apotheosis:ranged/mob_effect/acidic.suffix,of Corrosion,腐食
 painting.apotheosis.craig.author,Astrel,
 affix.apotheosis:magic_resist,%s of the Mages,%sの魔法耐性
-button.apotheosis.return,X,
-item.apotheosis.gem.normal,%s,
+button.apotheosis.return,X,X
+item.apotheosis.gem.normal,%s,%s
 enchantment.level.100,C,
 enchantment.level.101,CI,
 enchantment.level.105,CV,
@@ -1854,3 +1854,6 @@ enchantment.level.90,XC,
 potion.potency.3,IV,
 enchantment.level.0,0,
 item.apotheosis.gem.apotheosis:epic,%s,
+affix.apotheosis:durable,Durable,丈夫な
+button.apotheosis.tier_advancement_criteria,,
+affix.apotheosis:durable.suffix,of Durability,極上品の

@@ -929,7 +929,7 @@ item.rsgauges.switchlink_pearl.help,"Created by left clicking a switch
 (簡単に試してみてください)。"
 itemGroup.tabrsgauges,Gauges and Switches,ゲージとスイッチ
 language,English,英語
-language.code,en_us,
+language.code,en_us,ja_jp
 rsgauges.config.title,Gauges and Switches Config,ゲージとスイッチの設定
 rsgauges.gaugeconfig.options.comparator,Comparator Input,コンパレータ―入力
 rsgauges.gaugeconfig.options.inverted,Inverted,反転
@@ -1119,7 +1119,19 @@ block.rsgauges.glass_day_timer.help,"A small glass device that emits a
  placed on. Does not emit switching
  sounds.
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","小型ガラス製デバイスで、設定された
+開始（日時）から設定された終了時刻まで
+レッドストーン信号を発生させます。時間帯は
+デバイスの前面のボタンで設定されます
+（24時間形式、06:00は日出）。
+これらのボタンは出力電力と
+ランダム値の設定も可能です。後者は
+ランダムな時間の遅延を意味し、
+値が大きいほど遅延が長くなります。出力は
+センサーが配置されているブロックです。
+スイッチング音は発生しません。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.glass_entity_detector.help,"A small glass device that
  observes a defined volume and
  emits a redstone signal if it
@@ -1136,7 +1148,20 @@ block.rsgauges.glass_entity_detector.help,"A small glass device that
  sensor is placed on. Does not
  emit switching sounds.
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","小型ガラス製デバイスで、
+定義されたボリュームを観察し、
+エンティティが見える場合
+レッドストーン信号を発生させます。ボリュームは
+2ブロック上下、そして
+前左右に「範囲」です（180度カバー）。
+範囲は前面の小さなボタンで
+設定できます。出力強度、見えた
+エンティティ数、エンティティタイプ
+（モブ、プレイヤー、動物など）の設定も可能です。
+出力はセンサーが配置されているブロックです。
+スイッチング音は発生しません。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.glass_interval_timer.help,"Emits a signal with a defined on-
  and off-time. Configured using
  buttons on the front:
@@ -1152,7 +1177,19 @@ block.rsgauges.glass_interval_timer.help,"Emits a signal with a defined on-
 ${rsgauges.switch.feature.outputconfig.help}
  As Switch Link target the timer
  toggles between run and standby
- mode.",
+ mode.","定義されたオン・オフ時間で信号を発生させます。
+前面のボタンで設定：
+ - §1青：オン時間§r
+ - §6黄：オフ時間§r
+ - §2緑：信号ランプアップ/ダウン§r
+ - §4赤：出力電力§r
+ タイマーはセットアップ用に
+スタンバイモードに配置されます。
+前面をクリックして実行モードに設定します。
+出力はセンサーが配置されているブロックです。
+${rsgauges.switch.feature.outputconfig.help}
+ スイッチリンクターゲットとして
+タイマーは実行とスタンバイモードを切り替えます。"
 block.rsgauges.glass_linear_entity_detector.help,"A small glass device that observes
  in one direction and emits a
  redstone signal if it senses an
@@ -1168,7 +1205,19 @@ block.rsgauges.glass_linear_entity_detector.help,"A small glass device that obse
  block where the sensor is placed
  on. Does not emit switching
  sounds. ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","小型ガラス製デバイスで、
+1方向を観察し、エンティティを
+検知するとレッドストーン信号を発生させます。
+観察されるボリュームは
+前に「範囲」ブロック、側面に半ブロックです。
+範囲は前面の小さなボタンで
+設定できます。出力強度、見えた
+エンティティ数、エンティティタイプ
+（モブ、プレイヤー、動物など）の設定も可能です。
+出力はセンサーが配置されているブロックです。
+スイッチング音は発生しません。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.industrial_block_detector.help,"Emits a redstone signal if one or
  more blocks in front if it match a
  configured category. Configure
@@ -1179,7 +1228,17 @@ block.rsgauges.industrial_block_detector.help,"Emits a redstone signal if one or
  §4- Output power§r
  - §2Filter§r (solid, fluid, wood log)
  ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","前面の1つ以上のブロックが
+設定されたカテゴリと一致する場合、
+レッドストーン信号を発生させます。
+背面のボタンで設定：
+ - §1範囲§r（観察距離）
+ - §6閾値§r（一致数）
+ - §3デバウンス§r（ノイズ低減遅延）
+ - §4出力電力§r
+ - §2フィルター§r（固体、液体、木ログ）
+ ${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.industrial_comparator_switch.help,"A small device that that emits a
  redstone signal depending on the
  comparator output level, inventory
@@ -1196,7 +1255,21 @@ signal mode, the switch does not
  output power, but can be used as
  switch link source.
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","コンパレーターの出力レベル、在庫統計、
+またはそれが取り付けられているブロックの
+レッドストーン信号に応じて
+レッドストーン信号を発生させる小型デバイス。
+前面向きのボタンで出力
+信号強度、スイッチオン
+コンパレーター値、スイッチオフ
+コンパレーター値、および動作
+モード（「コンパレーター、空きスロット、
+使用スロット、...」）を設定できます。
+レッドストーン信号モードでは、スイッチは
+電力を出力しませんが、
+スイッチリンクソースとして使用できます。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.industrial_day_timer.help,"A small device that emits a
  redstone signal from a configured
  start (day) time to a configured
@@ -1212,7 +1285,18 @@ block.rsgauges.industrial_day_timer.help,"A small device that emits a
  is to the block where the sensor
  is placed on.
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","設定された開始（日時）から
+設定された終了時刻まで
+レッドストーン信号を発生させる小型デバイス。
+時間帯はデバイスの前面のボタンで設定されます
+（24時間形式、06:00は日出）。
+これらのボタンは出力電力と
+ランダム値の設定も可能です。後者は
+ランダムな時間の遅延を意味し、
+値が大きいほど遅延が長くなります。
+出力はセンサーが配置されているブロックです。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.industrial_dimmer.help,"An industrial manual redstone
  power dimmer. Allows to manually
  set an output signal between 0
@@ -1220,7 +1304,13 @@ block.rsgauges.industrial_dimmer.help,"An industrial manual redstone
  device. The vertical click position
  defines the signal strength.
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","産業用手動レッドストーン
+電力ディマー。背面で
+0から15の間の出力信号を手動で
+設定できます。垂直クリック位置が
+信号強度を定義します。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.industrial_entity_detector.help,"A small device that observes a
  defined volume and emits a
  redstone signal if it sees an
@@ -1236,7 +1326,18 @@ block.rsgauges.industrial_entity_detector.help,"A small device that observes a
  etc). Output is to the block where
  the sensor is placed on.
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","定義されたボリュームを観察し、
+エンティティが見える場合
+レッドストーン信号を発生させる小型デバイス。
+ボリュームは2ブロック上下、そして
+前左右に「範囲」です（180度カバー）。
+範囲は前面の小さなボタンで
+設定できます。出力強度、見えた
+エンティティ数、エンティティタイプ
+（モブ、プレイヤー、動物など）の設定も可能です。
+出力はセンサーが配置されているブロックです。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.industrial_interval_timer.help,"Emits a signal with a defined on-
  and off-time. Configured using
  buttons on the front:
@@ -1252,7 +1353,19 @@ block.rsgauges.industrial_interval_timer.help,"Emits a signal with a defined on-
 ${rsgauges.switch.feature.outputconfig.help}
  As Switch Link target the timer
  toggles between run and standby
- mode.",
+ mode.","定義されたオン・オフ時間で信号を発生させます。
+前面のボタンで設定：
+ - §1青：オン時間§r
+ - §6黄：オフ時間§r
+ - §2緑：信号ランプアップ/ダウン§r
+ - §4赤：出力電力§r
+ タイマーはセットアップ用に
+スタンバイモードに配置されます。
+前面をクリックして実行モードに設定します。
+出力はセンサーが配置されているブロックです。
+${rsgauges.switch.feature.outputconfig.help}
+ スイッチリンクターゲットとして
+タイマーは実行とスタンバイモードを切り替えます。"
 block.rsgauges.industrial_light_sensor.help,"A small device that measures the
  local light level at its location
  and emits a redstone signal
@@ -1271,7 +1384,22 @@ block.rsgauges.industrial_light_sensor.help,"A small device that measures the
  the set value. Output is to the
  block where the sensor is placed on.
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","位置での局所光レベルを測定し、
+前面の小さなボタンで設定した
+オン閾値とオフ閾値に応じて
+レッドストーン信号を発生させる小型デバイス。§r
+これらのボタンは出力電力と
+デバウンスの設定も可能です。デバウンスは
+スイッチオフまたはオンを遅延させ、
+光レベルが安定するまで遅延させます。
+値が高いほどノイズフィルタリングが良くなりますが、
+スイッチング遅延も増加します。
+オンとオフの設定が同じ場合、
+測定光レベルは設定値と
+正確に一致する必要があります。
+出力はセンサーが配置されているブロックです。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.industrial_lightning_sensor.help,"A small wall mounted device that
  emits a redstone signal when it
  senses a high electric potential
@@ -1282,7 +1410,15 @@ block.rsgauges.industrial_lightning_sensor.help,"A small wall mounted device tha
  to the block where the sensor
  is placed on.
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","空中の高い電位、つまり
+雷雨を感知すると
+レッドストーン信号を発生させる
+壁装着デバイス。§r
+前面向きのボタンで
+出力信号強度を設定できます。
+出力はセンサーが配置されているブロックです。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.industrial_linear_entity_detector.help,"A small device that observes in
  one direction and emits a redstone
  signal if it senses an entity.§r
@@ -1297,7 +1433,18 @@ The observed volume is 'range'
  etc). Output is to the block where
  the sensor is placed on.
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
+${rsgauges.switch.feature.linksource.help}","1方向を観察し、エンティティを
+検知するとレッドストーン信号を発生させる
+小型デバイス。§r
+観察されるボリュームは前に
+「範囲」ブロック、側面に半ブロックです。
+範囲は前面の小さなボタンで
+設定できます。出力強度、見えた
+エンティティ数、エンティティタイプ
+（モブ、プレイヤー、動物など）の設定も可能です。
+出力はセンサーが配置されているブロックです。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
 block.rsgauges.industrial_rain_sensor.help,"A small wall mounted device that
  emits a redstone signal when it
  rains on it. The buttons on the
@@ -1306,8 +1453,14 @@ block.rsgauges.industrial_rain_sensor.help,"A small wall mounted device that
  Output is to the block where the
  sensor is placed on.
 ${rsgauges.switch.feature.outputconfig.help}
-${rsgauges.switch.feature.linksource.help}",
-language.region,United States,
+${rsgauges.switch.feature.linksource.help}","雨が降ると
+レッドストーン信号を発生させる
+壁装着デバイス。前面向きのボタンで
+出力信号強度を設定できます。
+出力はセンサーが配置されているブロックです。
+${rsgauges.switch.feature.outputconfig.help}
+${rsgauges.switch.feature.linksource.help}"
+language.region,United States,Japan
 block.rsgauges.glass_button.help,"${rsgauges.switch.feature.typepulse.help}
 ${rsgauges.switch.feature.outputconfig.help}
 ${rsgauges.switch.feature.pulseextend.help}

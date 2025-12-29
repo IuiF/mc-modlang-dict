@@ -360,7 +360,7 @@ tooltip.relics.horse_flute.ability.heal.stat.amount.value,%1$s health units per 
 tooltip.relics.horse_flute.ability.paddock,Portable Stall,携帯鞍
 tooltip.relics.horse_flute.ability.paddock.description,"Using a relic on the horse will move the animal to the internal storage. Reuse will release the creature. If the distance between the wearer and the summoned horse exceeds 16 blocks, it will automatically fit back into the flute.",馬に対して使用すると、レリック内に馬を格納しておける。もう一度使うと格納した馬を召喚できる。召喚した馬とプレイヤーが16ブロック以上離れると、馬が自動的にレリックの中に格納される
 tooltip.relics.horse_flute.ability.paddock.stat.slots.title,Slots:,スロット数:
-tooltip.relics.horse_flute.ability.paddock.stat.slots.value,%1$s.,
+tooltip.relics.horse_flute.ability.paddock.stat.slots.value,%1$s.,%1$s。
 tooltip.relics.horse_flute.description,+1 experience point for every 25 blocks overcome by a horse called by the ability «Portable Stall».,アビリティ《携帯鞍》で呼んだ馬で25ブロック進むたびに経験値+1ポイント
 tooltip.relics.hunter_belt.ability.slots.stat.charm.title,Charms:,スロット数:
 tooltip.relics.hunter_belt.ability.slots.stat.charm.value,+%1$s slots.,+%1$s スロット.
@@ -399,7 +399,7 @@ tooltip.relics.midnight_robe.ability.backstab.stat.damage.value,%1$s%%.,
 tooltip.relics.midnight_robe.ability.backstab.stat.distance.title,Circle radius:,円形エリアサイズ:
 tooltip.relics.midnight_robe.ability.backstab.stat.distance.value,%1$s blocks.,半径%1$sブロック
 tooltip.relics.midnight_robe.ability.vanish.stat.light.title,Minimum light level:,最低明るさ:
-tooltip.relics.midnight_robe.ability.vanish.stat.light.value,%1$s.,
+tooltip.relics.midnight_robe.ability.vanish.stat.light.value,%1$s.,%1$s。
 tooltip.relics.midnight_robe.ability.vanish.stat.speed.title,Speed multiplier:,速度倍率:
 tooltip.relics.midnight_robe.ability.vanish.stat.speed.value,%1$s%%.,
 tooltip.relics.rage_glove.ability.phlebotomy.stat.attack_speed.title,Attack speed multiplier:,攻撃速度上昇率:
@@ -430,9 +430,9 @@ tooltip.relics.roller_skates.ability.skating.stat.speed.title,Speed multiplier p
 tooltip.relics.shadow_glaive.ability.glaive,Blind Justice,斬撃
 tooltip.relics.shadow_glaive.ability.glaive.description,"Usage releases one of 8 glaive charges, bouncing between nearby targets. The missing charges are restored themselves after a certain amount of time.",使用することで8つの攻撃チャージのうち1発を放ち、近くのターゲット間でバウンドさせる。消費したチャージは、一定の時間が経過すると回復する
 tooltip.relics.shadow_glaive.ability.glaive.stat.bounces.title,Bounces:,バウンド回数:
-tooltip.relics.shadow_glaive.ability.glaive.stat.bounces.value,%1$s.,
+tooltip.relics.shadow_glaive.ability.glaive.stat.bounces.value,%1$s.,%1$s。
 tooltip.relics.shadow_glaive.ability.glaive.stat.damage.title,Damage:,ダメージ:
-tooltip.relics.shadow_glaive.ability.glaive.stat.damage.value,%1$s.,
+tooltip.relics.shadow_glaive.ability.glaive.stat.damage.value,%1$s.,%1$s。
 tooltip.relics.shadow_glaive.ability.glaive.stat.radius.title,Bounce radius:,バウンド範囲:
 tooltip.relics.shadow_glaive.ability.glaive.stat.radius.value,%1$s blocks.,半径%1$sブロック
 tooltip.relics.shadow_glaive.ability.glaive.stat.recharge.title,Recovery time:,回復時間:
@@ -465,7 +465,7 @@ tooltip.relics.spore_sack.ability.explosion.stat.size.value,%1$s per missing hea
 tooltip.relics.spore_sack.ability.multiplying,Decomposition,分解
 tooltip.relics.spore_sack.ability.multiplying.description,"Each spore can split into several smaller spores within a given range when it explodes. The maximum number of spores is determined by the degree of the main spore size, but the final number is limited by the first unsuccessful chance of spore division.",それぞれの胞子は、破裂するときに一定の範囲内でいくつかの小さな胞子に分裂する。胞子の最大分裂数は元の胞子のサイズによって決まるが、分裂確率によって最終的な数はそれよりも少なくなることが多い。
 tooltip.relics.spore_sack.ability.multiplying.stat.amount.title,Spore size degree:,胞子サイズ等級:
-tooltip.relics.spore_sack.ability.multiplying.stat.amount.value,%1$s.,
+tooltip.relics.spore_sack.ability.multiplying.stat.amount.value,%1$s.,%1$s。
 tooltip.relics.spore_sack.ability.multiplying.stat.chance.title,Split chance:,分裂確率:
 tooltip.relics.spore_sack.ability.multiplying.stat.chance.value,%1$s%%.,
 tooltip.relics.spore_sack.ability.multiplying.stat.size.title,Spore size:,胞子サイズ:
@@ -488,18 +488,18 @@ tooltip.relics.wool_mitten.ability.mold.stat.size.title,Maximum size:,最大サ�
 tooltip.relics.wool_mitten.ability.mold.stat.stun.title,Stun:,スタン効果:
 tooltip.relics.wool_mitten.ability.mold.stat.stun.value,%1$s seconds per unit size.,サイズ1あたり%1$s秒
 tooltip.relics.amphibian_boot.ability.slipping.stat.speed.value,%1$s%%.,
-tooltip.relics.holy_locket.ability.belief.stat.capacity.value,%1$s units.,
-tooltip.relics.ice_skates.ability.ram.stat.damage.value,%1$s units.,
+tooltip.relics.holy_locket.ability.belief.stat.capacity.value,%1$s units.,%1$s個。
+tooltip.relics.ice_skates.ability.ram.stat.damage.value,%1$s units.,%1$s個。
 tooltip.relics.ice_skates.ability.skating.stat.speed.value,%1$s%%.,
-tooltip.relics.infinity_ham.ability.autophagy.stat.feed.value,%1$s units.,
+tooltip.relics.infinity_ham.ability.autophagy.stat.feed.value,%1$s units.,%1$s個。
 tooltip.relics.roller_skates.ability.skating.stat.speed.value,%1$s%%.,
-tooltip.relics.arrow_quiver.ability.receptacle.stat.slots.value,%1$s units.,
-tooltip.relics.bastion_ring.ability.trade.stat.rolls.value,%1$s units.,
-tooltip.relics.elytra_booster.ability.boost.stat.capacity.value,%1$s units.,
-tooltip.relics.holy_locket.ability.belief.stat.count.value,%1$s units.,
-tooltip.relics.ice_breaker.ability.impact.stat.damage.value,%1$s units.,
-tooltip.relics.jellyfish_necklace.ability.shock.stat.damage.value,%1$s units.,
-tooltip.relics.reflection_necklace.ability.explode.stat.capacity.value,%1$s units.,
-tooltip.relics.reflection_necklace.ability.explode.stat.damage.value,%1$s units.,
-tooltip.relics.shadow_glaive.ability.saw.stat.damage.value,%1$s units.,
-tooltip.relics.wool_mitten.ability.mold.stat.size.value,%1$s units.,
+tooltip.relics.arrow_quiver.ability.receptacle.stat.slots.value,%1$s units.,%1$s個。
+tooltip.relics.bastion_ring.ability.trade.stat.rolls.value,%1$s units.,%1$s個。
+tooltip.relics.elytra_booster.ability.boost.stat.capacity.value,%1$s units.,%1$s個。
+tooltip.relics.holy_locket.ability.belief.stat.count.value,%1$s units.,%1$s個。
+tooltip.relics.ice_breaker.ability.impact.stat.damage.value,%1$s units.,%1$s個。
+tooltip.relics.jellyfish_necklace.ability.shock.stat.damage.value,%1$s units.,%1$s個。
+tooltip.relics.reflection_necklace.ability.explode.stat.capacity.value,%1$s units.,%1$s個。
+tooltip.relics.reflection_necklace.ability.explode.stat.damage.value,%1$s units.,%1$s個。
+tooltip.relics.shadow_glaive.ability.saw.stat.damage.value,%1$s units.,%1$s個。
+tooltip.relics.wool_mitten.ability.mold.stat.size.value,%1$s units.,%1$s個。

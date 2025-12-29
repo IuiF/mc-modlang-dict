@@ -1,6 +1,6 @@
 ﻿key,source_text,target_text
 inventoryprofiles.common.enum.context.any,In-game / Gui,ゲーム内/Gui
-inventoryprofiles.common.enum.context.gui,Gui,
+inventoryprofiles.common.enum.context.gui,Gui,GUI
 inventoryprofiles.common.enum.context.ingame,In-game,ゲーム内
 inventoryprofiles.common.enum.key_action.both,Press / Release,押す / リリース
 inventoryprofiles.common.enum.key_action.press,Press,押す
@@ -11,14 +11,14 @@ inventoryprofiles.common.gui.config.activate_on,Activate On,アクティブオ�
 inventoryprofiles.common.gui.config.advanced_keybind_settings,Advanced Key Binding Settings,上級者向けのキー設定
 inventoryprofiles.common.gui.config.allow_extra_keys,Allow Extra Keys,追加キーを許可
 inventoryprofiles.common.gui.config.context,Context,コンテキスト
-inventoryprofiles.common.gui.config.false,§4false,
+inventoryprofiles.common.gui.config.false,§4false,§4いいえ
 inventoryprofiles.common.gui.config.keybind_settings_tips,"- Left click to configure
 - Right click to reset to defaults","- 左クリックで設定
 - 右クリックで既定値にリセット"
 inventoryprofiles.common.gui.config.more," ...(more)"," ...(詳しく)"
 inventoryprofiles.common.gui.config.order_sensitive,Order Sensitive,順序敏感
 inventoryprofiles.common.gui.config.reset,Reset,リセット
-inventoryprofiles.common.gui.config.true,§2true,
+inventoryprofiles.common.gui.config.true,§2true,§2はい
 inventoryprofiles.common.gui.config.yes,yes,はい
 inventoryprofiles.config.category.advanced_options,Advanced Options,詳細設定
 inventoryprofiles.config.category.auto-refill.general,General,一般
@@ -542,7 +542,7 @@ inventoryprofiles.config.name.visual_replace_failed_notification,Visual Alert on
 inventoryprofiles.config.name.visual_replace_success_notification,Visual Alert on Replace,置換時に視覚警告
 inventoryprofiles.config.notification.tool_replace_failed.replacing,"""%s"" replace failed","""%s"" の置き換えに失敗しました"
 inventoryprofiles.config.notification.tool_replace_ping.durability,"""%s"" Durability is: %s ","""%s"" 耐久値: %s "
-inventoryprofiles.config.notification.tool_replace_ping.ipn,IPN ,
+inventoryprofiles.config.notification.tool_replace_ping.ipn,IPN ,IPN
 inventoryprofiles.config.notification.tool_replace_ping.replacing,Replacing at: %s,置き換え: %s
 inventoryprofiles.config.notification.tool_replace_ping.warning,WARNING ,警告 
 inventoryprofiles.config.notification.tool_replace_success,replaced with,置換後
@@ -729,49 +729,69 @@ inventoryprofiles.tooltip.sort_button.key_help,"
 §6 - Use scroll wheel over this button
 §6to change the sort order.",§6 - Use scroll wheel over this button §6to change the sort order.
 inventoryprofiles.common.gui.config.modifier_key,Ctrl/Alt/Shift,
-inventoryprofiles.config.category.hotkeys,Hotkeys,
-inventoryprofiles.config.category.misc,Misc,
-inventoryprofiles.config.category.other,Other,
+inventoryprofiles.config.category.hotkeys,Hotkeys,ホットキー
+inventoryprofiles.config.category.misc,Misc,その他
+inventoryprofiles.config.category.other,Other,その他設定
 inventoryprofiles.config.description.auto_refill_match_custom_name,"Auto refill will take Custom Names into account when refilling blocks
-For gear custom names are ignored.",
-inventoryprofiles.config.description.category_priority_list,"Creative Menu categories in order of priority to be used as Order Source for ""Sort Order"" ""Creative Menu""",
-inventoryprofiles.config.description.enable_inventory_editor_button,When enabled a small button will appear in the to left of the screen that will open the IPN Overlay Editor.,
+For gear custom names are ignored.","自動補充時にカスタム名を考慮します。
+ギアのカスタム名は無視されます。"
+inventoryprofiles.config.description.category_priority_list,"Creative Menu categories in order of priority to be used as Order Source for ""Sort Order"" ""Creative Menu""",「ソート順」の「クリエイティブメニュー」の順序ソースとして使用するクリエイティブメニューのカテゴリを優先度順に入力してください
+inventoryprofiles.config.description.enable_inventory_editor_button,When enabled a small button will appear in the to left of the screen that will open the IPN Overlay Editor.,有効にすると、画面左上に小さなボタンが表示され、IPNオーバーレイエディターが開きます。
 inventoryprofiles.config.description.enable_lock_slots_per_server,"If enabled every server and uniquely named world will have their own locked slots.
 Notice:
 1. If you tend to name all your worlds ""New World"" they will all share the same locked slots.
-2. Servers behind bungee cord/velocity proxies will share locked slots.",
-inventoryprofiles.config.description.ignore_durability,If set to true Move Matching and Throw Matching operations will ignore the item durability when deciding what to move or throw.,
+2. Servers behind bungee cord/velocity proxies will share locked slots.","有効にするとサーバーと一意に名前が付けられたワールドごとにスロットロックが個別に設定されます。
+注意:
+1. すべてのワールドに「新しいワールド」と名前を付ける場合、すべてのロックスロットが共有されます。
+2. Bungee Cord/Velocity プロキシの背後にあるサーバーはロックスロットを共有します。"
+inventoryprofiles.config.description.ignore_durability,If set to true Move Matching and Throw Matching operations will ignore the item durability when deciding what to move or throw.,trueに設定すると、マッチング移動とマッチング投げ操作はアイテムの耐久性を無視します。
 inventoryprofiles.config.description.save_as_profile,"This hotkey saves the current equipment set as a Profile named ""Saved"".
 You can use the Saved profiles to build your own profiles.
 
 §l§cNOTE§r:
 EVERY TIME you press it a new Profile named ""Saved"" is created.
-The ""Saved"" profiles will not be part of the next/previous rotation and cannot be assigned to Quick Profiles.",
-inventoryprofiles.config.name.enable_auto_refill,Enable Auto Refill,
-inventoryprofiles.config.name.scroll_spread,Spread,
-inventoryprofiles.enum.auto_refill_nbt_match_type.exact,Exact,
-inventoryprofiles.enum.switch_type.hold,Hold,
-inventoryprofiles.enum.tool_replace_visual_notification.hotbar,Small,
-inventoryprofiles.enum.tool_replace_visual_notification.subtitle,Large,
-inventoryprofiles.gui.config.Hotkeys,Hotkeys,
+The ""Saved"" profiles will not be part of the next/previous rotation and cannot be assigned to Quick Profiles.","このホットキーは現在の装備セットを「保存済み」という名前のプロファイルとして保存します。
+保存済みプロファイルを使用して独自のプロファイルを構築できます。
+
+§l§c注意§r:
+押すたびに「保存済み」という名前の新しいプロファイルが作成されます。
+「保存済み」プロファイルは次/前の回転には含まれず、クイックプロファイルに割り当てることはできません。"
+inventoryprofiles.config.name.enable_auto_refill,Enable Auto Refill,自動補充を有効にする
+inventoryprofiles.config.name.scroll_spread,Spread,スプレッド
+inventoryprofiles.enum.auto_refill_nbt_match_type.exact,Exact,完全一致
+inventoryprofiles.enum.switch_type.hold,Hold,保持
+inventoryprofiles.enum.tool_replace_visual_notification.hotbar,Small,小
+inventoryprofiles.enum.tool_replace_visual_notification.subtitle,Large,大
+inventoryprofiles.gui.config.Hotkeys,Hotkeys,ホットキー
 inventoryprofiles.gui.editor.description.screen.force,"By default if the mod that provides the UI provides compatibility information Inventory Profiles Next will use it
-This setting allows you to override the mod.",
+This setting allows you to override the mod.","デフォルトでは、UIを提供するModが互換性情報を提供する場合、Inventory Profiles Nextはそれを使用します。
+この設定を使用するとModをオーバーライドできます。"
 inventoryprofiles.gui.editor.description.screen.player_side,"This will cause Inventory Profiles Next to detect the UI as player inventory only.
 NOTE:
-Usually you want to set this for both Screen and Container. But do try different combinations.",
-inventoryprofiles.gui.editor.name.screen.force,Force,
+Usually you want to set this for both Screen and Container. But do try different combinations.","これにより、Inventory Profiles NextはUIをプレイヤーインベントリのみとして検出します。
+注意:
+通常、スクリーンとコンテナの両方でこれを設定する必要があります。ただし異なる組み合わせも試してください。"
+inventoryprofiles.gui.editor.name.screen.force,Force,強制
 inventoryprofiles.tooltip.move_all_button.exclude_hotbar,"§5Hold §o%s§r
-§6 - Exclude Hotbar",
+§6 - Exclude Hotbar","§5%sキーを押す§r
+§6 - ホットバーを除外"
 inventoryprofiles.tooltip.move_all_button.include_hotbar,"§5Hold §o%s§r
-§6 - Include Hotbar",
+§6 - Include Hotbar","§5%sキーを押す§r
+§6 - ホットバーを含める"
 inventoryprofiles.tooltip.move_all_button.move_focused_only,"§5Hold §o%s§r
 §6 - Move Only Items same type
 §6as under the cursor or the
-§6stack in the cursor.",
+§6stack in the cursor.","§5%sキーを押す§r
+§6 - カーソルの下のアイテムと同じタイプ
+§6のアイテムのみ移動、
+§6またはカーソルのスタック"
 inventoryprofiles.tooltip.move_all_button.move_just_refill,"§5Hold §o%s§r
 §6 - Move Only enough items to
-§6top up existing stacks.",
+§6top up existing stacks.","§5%sキーを押す§r
+§6 - 既存のスタックを補充するのに
+§6十分なアイテムだけを移動します。"
 inventoryprofiles.tooltip.move_all_button.move_matching_only,"§5Hold §o%s§r
-§6 - Move Matching Only",
-inventoryprofiles.common.gui.config.no,no,
+§6 - Move Matching Only","§5%sキーを押す§r
+§6 - マッチング移動のみ"
+inventoryprofiles.common.gui.config.no,no,いいえ
 inventoryprofiles.gui.config.button.open_config_folder,config/inventoryprofilesnext,

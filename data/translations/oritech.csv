@@ -1014,7 +1014,7 @@ title.oritech.catalyst.semi_stable,Semi-Stable,準安定
 title.oritech.catalyst.stabilized,Stabilized,制御中
 title.oritech.catalyst.stable,Stable,安定
 title.oritech.catalyst.unstable,Unstable,不安定
-title.oritech.chambers,🥣: +%s,
+title.oritech.chambers,🥣: +%s,🥣： +%s
 title.oritech.details,Details,詳細
 title.oritech.enchanter.catalysts,%d / %d Catalysts,%d / %d カタリスト
 title.oritech.enchanter.catalysts_available,%d / %d catalysts available,%d / %d カタリストが利用可能
@@ -1037,7 +1037,7 @@ title.oritech.energy.outPeak,📊 %s RF/t,📊 %s RF/t(ピーク入力)
 title.oritech.energy.outPeak.tooltip,Maximum RF/t that was extracted in the last second.,最後の１秒間で送信した最大RF/t。
 title.oritech.inventory_proxy,Machine Inventory Access,機械のインベントリへのアクセス
 title.oritech.item_filter.component,Components,コンポーネント
-title.oritech.item_filter.nbt,NBT,
+title.oritech.item_filter.nbt,NBT,NBT
 title.oritech.item_filter.toggle_energy_statistics,Show Output,出力を表示
 title.oritech.item_filter.whitelist,Whitelist,ホワイトリスト
 title.oritech.laser_arm.addon_hunter_damage,%d Damage,+%d ダメージ
@@ -1116,7 +1116,7 @@ tooltip.oritech.enchanter_item_needed,Insert Item,アイテムの挿入
 tooltip.oritech.enchanter_selection,Select Enchantment,エンチャントを選択
 tooltip.oritech.enchanter_souls_used," Souls Used",ソウルを使用
 tooltip.oritech.energy_capacity,%d RF,容量: %d RF
-tooltip.oritech.energy_indicator,%d/%d RF,
+tooltip.oritech.energy_indicator,%d/%d RF,%d/%d RF
 tooltip.oritech.energy_max_transfer,Max Transfer Rate: ,最大転送速度：
 tooltip.oritech.energy_stored,Stored: %d RF,貯蔵量： %d RF
 tooltip.oritech.energy_transfer_rate,%d RF/t,転送速度: %d RF/t
@@ -1135,7 +1135,7 @@ tooltip.oritech.exo_helmet,Grants night vision,夜間視覚を付与
 tooltip.oritech.exo_jetpack,Charges equipped energy items,装備中のエネルギー駆動アイテムを充電します。
 tooltip.oritech.exo_leggings,Increases movement speed,移動速度が増加。
 tooltip.oritech.fluid_content,%f mB %s,内容: %f mB %s
-tooltip.oritech.fluid_content_tank_tooltip,%fB %s,
+tooltip.oritech.fluid_content_tank_tooltip,%fB %s,%fB %s
 tooltip.oritech.fluid_empty,Empty,空
 tooltip.oritech.fluxite,Can also be created by harvesting grown amethyst with an enderic laser,エンダリックレーザーで育ったアメジストを収穫することで作成可能です。
 tooltip.oritech.frame_needed,Must be built on a machine frame,マシンフレームに隣接している必要があります。
@@ -1167,7 +1167,7 @@ tooltip.oritech.item_pipe.1,Right-click to toggle extraction.,右クリックで
 tooltip.oritech.item_pipe.2,Only extracts from the first non-empty slot.,空ではない最初のスロットからのみ抽出されます。
 tooltip.oritech.item_pipe.4,Deposits into the closest available inventory.,最も近くにある使用可能なインベントリーに送ります。
 tooltip.oritech.jetpack_exo_elytra,Charges equipped energy items,装備中のエネルギー駆動アイテムを充電します。
-tooltip.oritech.jetpack_fuel,%f/%f mB %s,
+tooltip.oritech.jetpack_fuel,%f/%f mB %s,%f/%f mB %s
 tooltip.oritech.jetpack_usage,Needs electricity or turbofuel to fly.,飛行するには電気やターボ燃料が必要です。
 tooltip.oritech.jetpack_usage2,Is faster with turbofuel.,ターボ燃料があれば高速です。
 tooltip.oritech.laser_arm.addon_hunter_damage,Effective Beam Damage,有効ビームダメージ
@@ -1331,4 +1331,17 @@ tooltip.oritech.unstable_laser_tooltip,"Lasers will not add to the capacity of t
 tooltip.oritech.unstable_laser_tooltip.2,storage capacity of this block. This number increases exponentially (maximum x5000).,蓄電容量を増やすことができます。この数は指数関数的に増加します(最大5000倍)
 tooltip.oritech.uranium_pellet,Used as nuclear reactor fuel.,原子炉の燃料として使用します。
 tooltip.oritech.weed_killer,Removes all grass and plants in a wide radius,広い半径の草や植物をすべて取り除きます。
-tooltip.oritech.oracle_missing,Oracle Index Wiki Mod is not installed. Ingame help is not available.,
+tooltip.oritech.oracle_missing,Oracle Index Wiki Mod is not installed. Ingame help is not available.,Oracle Index Wiki Modがインストールされてないため、ゲーム内のヘルプが利用できません。
+tooltip.oritech.reactor_fuel_port.0,,
+tooltip.oritech.reactor_absorber_port.0,,
+tooltip.oritech.reactor_redstone_port.0,,
+text.oritech.noop,,
+tooltip.oritech.reactor_energy_port.0,,
+tooltip.oritech.reactor_double_rod.0,,
+tooltip.oritech.reactor_controller.2,,
+tooltip.oritech.reactor_vent.0,,
+tooltip.oritech.unstable_container.4,,
+tooltip.oritech.reactor_quad_rod.0,,
+tooltip.oritech.reactor_rod.0,,
+tooltip.oritech.portable_laser.4,,
+text.oritech.shrink_ready,,
