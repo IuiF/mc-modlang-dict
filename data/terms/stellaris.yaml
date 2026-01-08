@@ -1,0 +1,50 @@
+scope: stellaris
+terms:
+  # ===== 宇宙・宇宙船関連 =====
+  - source: "Rocket"
+    target: "ロケット"
+    tags: [space, item]
+    priority: 100
+    context: "宇宙系Modの主要な移動手段"
+
+  - source: "Space"
+    target: "宇宙"
+    tags: [space, location]
+    priority: 100
+    context: "宇宙空間を表す用語"
+
+  - source: "Planet"
+    target: "惑星"
+    tags: [space, location]
+    priority: 100
+    context: "天体・惑星を表す用語"
+
+  - source: "Suit"
+    target: "スーツ"
+    tags: [space, equipment]
+    priority: 100
+    context: "宇宙服を表す用語"
+
+  - source: "Oxygen"
+    target: "酸素"
+    tags: [space, resource]
+    priority: 100
+    context: "呼吸に必要なリソース"
+
+  - source: "Fuel"
+    target: "燃料"
+    tags: [space, resource]
+    priority: 100
+    context: "ロケットなどの燃料"
+
+  - source: "Launch"
+    target: "発射"
+    tags: [space, action]
+    priority: 100
+    context: "ロケット発射などのアクション"
+
+  - source: "Station"
+    target: "ステーション"
+    tags: [space, structure]
+    priority: 100
+    context: "宇宙ステーションなどの施設"

@@ -50,11 +50,17 @@ func (e *Extractor) Extract(jarPath, destDir string) (*ExtractResult, error) {
 	}
 
 	// First pass: detect mod info and collect file list
-	var fabricModJSON, modsToml []byte
+	var fabricModJSON, modsToml, manifestMF []byte
 	var isNeoForge bool
 
 	for _, file := range reader.File {
 		switch file.Name {
+		case "META-INF/MANIFEST.MF":
+			manifestMF, err = readZipFile(file)
+			if err != nil {
+				// Non-fatal: continue without MANIFEST.MF
+				fmt.Printf("Warning: failed to read MANIFEST.MF: %v\n", err)
+			}
 		case "fabric.mod.json":
 			fabricModJSON, err = readZipFile(file)
 			if err != nil {
@@ -119,6 +125,20 @@ func (e *Extractor) Extract(jarPath, destDir string) (*ExtractResult, error) {
 			result.Loader = "neoforge"
 		} else {
 			result.Loader = "forge"
+		}
+	}
+
+	// Resolve version placeholder from MANIFEST.MF if needed
+	if strings.HasPrefix(result.Version, "${") {
+		if resolvedVersion := resolveVersionFromManifest(manifestMF); resolvedVersion != "" {
+			fmt.Printf("Resolved version placeholder: %s -> %s\n", result.Version, resolvedVersion)
+			result.Version = resolvedVersion
+		} else {
+			// Try to extract from JAR filename as fallback
+			if versionFromFilename := extractVersionFromFilename(filepath.Base(jarPath)); versionFromFilename != "" {
+				fmt.Printf("Resolved version from filename: %s -> %s\n", result.Version, versionFromFilename)
+				result.Version = versionFromFilename
+			}
 		}
 	}
 
@@ -307,6 +327,48 @@ func detectModIDFromLangPath(langPath string) string {
 	for i, part := range parts {
 		if part == "assets" && i+2 < len(parts) && parts[i+2] == "lang" {
 			return parts[i+1]
+		}
+	}
+	return ""
+}
+
+// resolveVersionFromManifest extracts Implementation-Version from MANIFEST.MF content.
+func resolveVersionFromManifest(manifestContent []byte) string {
+	if manifestContent == nil {
+		return ""
+	}
+
+	lines := strings.Split(string(manifestContent), "\n")
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if strings.HasPrefix(line, "Implementation-Version:") {
+			version := strings.TrimPrefix(line, "Implementation-Version:")
+			return strings.TrimSpace(version)
+		}
+	}
+	return ""
+}
+
+// extractVersionFromFilename tries to extract version from JAR filename.
+// Examples: "GeOre-1.21.1-6.2.1.jar" -> "6.2.1"
+func extractVersionFromFilename(filename string) string {
+	// Remove .jar extension
+	name := strings.TrimSuffix(filename, ".jar")
+
+	// Split by common delimiters
+	parts := strings.FieldsFunc(name, func(r rune) bool {
+		return r == '-' || r == '_'
+	})
+
+	// Find version-like parts (starts with digit, not a Minecraft version like 1.20.1)
+	for i := len(parts) - 1; i >= 0; i-- {
+		part := parts[i]
+		if len(part) > 0 && part[0] >= '0' && part[0] <= '9' {
+			// Skip if it looks like a Minecraft version (1.XX.X pattern)
+			if strings.HasPrefix(part, "1.") && len(part) <= 7 {
+				continue
+			}
+			return part
 		}
 	}
 	return ""

@@ -35,6 +35,8 @@ func main() {
 		err = runMigrate(args)
 	case "repair":
 		err = runRepair(args)
+	case "analyze":
+		err = runAnalyze(args)
 	case "fix-schema":
 		err = runFixSchema(args)
 	case "version", "-v", "--version":
@@ -70,6 +72,7 @@ Commands:
   build       Build translation database from YAML files
   migrate     Migrate existing data to new source-based schema
   repair      Repair database inconsistencies
+  analyze     Analyze translation consistency and discover patterns
   version     Show version information
   help        Show this help message
 

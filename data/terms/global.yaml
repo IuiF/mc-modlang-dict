@@ -16,12 +16,64 @@ terms:
     priority: 100
 
   - source: "Iron Ingot"
-    target: "鉄インゴット"
+    target: "鉄のインゴット"
+    tags: [item, material]
+    priority: 100
+    context: "Minecraft公式訳準拠。「〜のインゴット」形式で統一"
+
+  - source: "Gold Ingot"
+    target: "金のインゴット"
+    tags: [item, material]
+    priority: 100
+    context: "Minecraft公式訳準拠。「〜のインゴット」形式で統一"
+
+  - source: "Copper Ingot"
+    target: "銅のインゴット"
     tags: [item, material]
     priority: 100
 
-  - source: "Gold Ingot"
-    target: "金インゴット"
+  - source: "Tin Ingot"
+    target: "スズのインゴット"
+    tags: [item, material]
+    priority: 100
+
+  - source: "Lead Ingot"
+    target: "鉛のインゴット"
+    tags: [item, material]
+    priority: 100
+
+  - source: "Nickel Ingot"
+    target: "ニッケルのインゴット"
+    tags: [item, material]
+    priority: 100
+
+  - source: "Silver Ingot"
+    target: "銀のインゴット"
+    tags: [item, material]
+    priority: 100
+
+  - source: "Zinc Ingot"
+    target: "亜鉛のインゴット"
+    tags: [item, material]
+    priority: 100
+
+  - source: "Bronze Ingot"
+    target: "青銅のインゴット"
+    tags: [item, material]
+    priority: 100
+
+  - source: "Steel Ingot"
+    target: "鋼鉄のインゴット"
+    tags: [item, material]
+    priority: 100
+
+  - source: "Platinum Ingot"
+    target: "プラチナのインゴット"
+    tags: [item, material]
+    priority: 100
+
+  - source: "Aluminum Ingot"
+    target: "アルミニウムのインゴット"
     tags: [item, material]
     priority: 100
 
@@ -99,6 +151,190 @@ terms:
     tags: [material]
     priority: 100
 
+  # ===== 木材種（Minecraft公式訳準拠）=====
+  - source: "Oak"
+    target: "オーク"
+    tags: [wood, material]
+    priority: 100
+
+  - source: "Spruce"
+    target: "トウヒ"
+    tags: [wood, material]
+    priority: 100
+    context: "Minecraft公式訳。「スプルース」は使わない"
+
+  - source: "Birch"
+    target: "シラカバ"
+    tags: [wood, material]
+    priority: 100
+    context: "Minecraft公式訳。「バーチ」は使わない"
+
+  - source: "Jungle"
+    target: "ジャングル"
+    tags: [wood, material]
+    priority: 100
+
+  - source: "Acacia"
+    target: "アカシア"
+    tags: [wood, material]
+    priority: 100
+
+  - source: "Dark Oak"
+    target: "ダークオーク"
+    tags: [wood, material]
+    priority: 100
+
+  - source: "Mangrove"
+    target: "マングローブ"
+    tags: [wood, material]
+    priority: 100
+
+  - source: "Cherry"
+    target: "サクラ"
+    tags: [wood, material]
+    priority: 100
+    context: "Minecraft公式訳。「チェリー」は使わない"
+
+  - source: "Bamboo"
+    target: "竹"
+    tags: [wood, material]
+    priority: 100
+    context: "Minecraft公式訳。「バンブー」は使わない"
+
+  - source: "Crimson"
+    target: "真紅"
+    tags: [wood, material, nether]
+    priority: 100
+    context: "ネザーの木材。「クリムゾン」は使わない"
+
+  - source: "Warped"
+    target: "歪んだ"
+    tags: [wood, material, nether]
+    priority: 100
+    context: "ネザーの木材。「ワープド」は使わない"
+
+  # ===== 木材派生ブロック（Minecraft公式訳準拠）=====
+  - source: "Log"
+    target: "原木"
+    tags: [wood, block]
+    priority: 100
+    context: "Minecraft公式訳準拠"
+
+  - source: "Stem"
+    target: "幹"
+    tags: [wood, block, nether]
+    priority: 100
+    context: "ネザーの木材（Crimson/Warped）用。「ステム」は使わない"
+
+  - source: "Stripped"
+    target: "皮を剥いだ"
+    tags: [wood, block, prefix]
+    priority: 100
+    context: "Minecraft公式訳準拠。「剥き落とされた」「むき出しの」は使わない"
+
+  - source: "Planks"
+    target: "板材"
+    tags: [wood, block]
+    priority: 100
+    context: "Minecraft公式訳準拠"
+
+  # ===== 色名16色（Minecraft公式訳準拠）=====
+  - source: "White"
+    target: "白"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「ホワイト」「白色」は使わない"
+
+  - source: "Orange"
+    target: "橙"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「オレンジ」は使わない"
+
+  - source: "Magenta"
+    target: "赤紫"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「マゼンタ」は使わない"
+
+  - source: "Light Blue"
+    target: "空色"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「ライトブルー」「水色」は使わない"
+
+  - source: "Yellow"
+    target: "黄"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「黄色」「イエロー」は使わない"
+
+  - source: "Lime"
+    target: "黄緑"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「ライム」は使わない"
+
+  - source: "Pink"
+    target: "桃色"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「ピンク」は使わない"
+
+  - source: "Gray"
+    target: "灰色"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「グレー」は使わない"
+
+  - source: "Light Gray"
+    target: "薄灰色"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「ライトグレー」は使わない"
+
+  - source: "Cyan"
+    target: "青緑"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「シアン」は使わない"
+
+  - source: "Purple"
+    target: "紫"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「パープル」は使わない"
+
+  - source: "Blue"
+    target: "青"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「ブルー」は使わない"
+
+  - source: "Brown"
+    target: "茶"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「茶色」「ブラウン」は使わない"
+
+  - source: "Green"
+    target: "緑"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「グリーン」は使わない"
+
+  - source: "Red"
+    target: "赤"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「レッド」は使わない"
+
+  - source: "Black"
+    target: "黒"
+    tags: [color]
+    priority: 100
+    context: "Minecraft公式訳準拠。「ブラック」は使わない"
+
   # ===== ブロック・鉱石（Minecraft公式訳準拠）=====
   - source: "Deepslate"
     target: "深層岩"
@@ -110,6 +346,18 @@ terms:
     target: "鉱石"
     tags: [block]
     priority: 100
+
+  - source: "Glass Pane"
+    target: "板ガラス"
+    tags: [block]
+    priority: 100
+    context: "Minecraft公式訳。「ガラスパネル」は使わない"
+
+  - source: "Music Disc"
+    target: "レコード"
+    tags: [item]
+    priority: 100
+    context: "Minecraft公式訳。「音楽ディスク」は使わない"
 
   # ===== 派生アイテム =====
   - source: "Ingot"
@@ -289,3 +537,88 @@ terms:
     tags: [unit]
     priority: 100
     context: "10^63"
+
+  # ===== Tier表記 =====
+  - source: "Tier 1"
+    target: "ティア1"
+    tags: [tier]
+    priority: 100
+    context: "「レベル1」「段階1」ではなく「ティア1」"
+
+  - source: "Tier 2"
+    target: "ティア2"
+    tags: [tier]
+    priority: 100
+
+  - source: "Tier 3"
+    target: "ティア3"
+    tags: [tier]
+    priority: 100
+
+  - source: "Tier 4"
+    target: "ティア4"
+    tags: [tier]
+    priority: 100
+
+  - source: "Tier 5"
+    target: "ティア5"
+    tags: [tier]
+    priority: 100
+
+  - source: "Tier 6"
+    target: "ティア6"
+    tags: [tier]
+    priority: 100
+
+  - source: "Tier 7"
+    target: "ティア7"
+    tags: [tier]
+    priority: 100
+
+  - source: "Tier 8"
+    target: "ティア8"
+    tags: [tier]
+    priority: 100
+
+  - source: "Tier 9"
+    target: "ティア9"
+    tags: [tier]
+    priority: 100
+
+  # ===== 共通UI表記 =====
+  - source: "Slab"
+    target: "ハーフブロック"
+    tags: [block]
+    priority: 100
+    context: "Minecraft公式訳準拠"
+
+  - source: "Stairs"
+    target: "階段"
+    tags: [block]
+    priority: 100
+
+  - source: "Fence"
+    target: "フェンス"
+    tags: [block]
+    priority: 100
+
+  - source: "Wall"
+    target: "塀"
+    tags: [block]
+    priority: 100
+    context: "Minecraft公式訳準拠。「壁」ではなく「塀」"
+
+  - source: "Button"
+    target: "ボタン"
+    tags: [block]
+    priority: 100
+
+  - source: "Pressure Plate"
+    target: "感圧板"
+    tags: [block]
+    priority: 100
+
+  - source: "Trapdoor"
+    target: "トラップドア"
+    tags: [block]
+    priority: 100

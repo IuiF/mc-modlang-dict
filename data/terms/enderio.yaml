@@ -1,0 +1,46 @@
+scope: enderio
+terms:
+  # ===== Ender IO 電力単位 =====
+  - source: "µI"
+    target: "µI"
+    tags: [unit, power]
+    priority: 100
+    context: "Ender IO 電力単位。翻訳不要（技術用語として定義）"
+
+  - source: "RF"
+    target: "RF"
+    tags: [unit, power]
+    priority: 100
+    context: "Redstone Flux 電力単位。翻訳不要"
+
+  # ===== Ender IO 流体単位 =====
+  - source: "mB"
+    target: "mB"
+    tags: [unit, fluid]
+    priority: 100
+    context: "ミリバケット。翻訳不要"
+
+  - source: "mB/t"
+    target: "mB/t"
+    tags: [unit, fluid]
+    priority: 100
+    context: "ミリバケット/tick。翻訳不要"
+
+  - source: "t/mB"
+    target: "t/mB"
+    tags: [unit, fluid]
+    priority: 100
+    context: "tick/ミリバケット。翻訳不要"
+
+  # ===== 技術用語 =====
+  - source: "lvs"
+    target: "lvs"
+    tags: [technical]
+    priority: 100
+    context: "Ender IO 技術用語。翻訳不要"
+
+  - source: "UID:"
+    target: "UID:"
+    tags: [technical]
+    priority: 100
+    context: "User ID。翻訳不要"

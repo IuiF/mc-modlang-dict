@@ -117,6 +117,7 @@ Examples:
 	if err := repo.SetDefaultVersion(ctx, modVersion.ID); err != nil {
 		return fmt.Errorf("failed to set default version: %w", err)
 	}
+	modVersion.IsDefault = true // Sync local state with DB
 
 	// Parse and import lang files
 	jsonParser := parser.NewJSONLangParser()

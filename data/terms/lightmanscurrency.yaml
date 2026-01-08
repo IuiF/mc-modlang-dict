@@ -1,0 +1,50 @@
+scope: lightmanscurrency
+terms:
+  # ===== 通貨・取引関連 =====
+  - source: "Coin"
+    target: "コイン"
+    tags: [currency, item]
+    priority: 100
+    context: "通貨の基本単位"
+
+  - source: "Wallet"
+    target: "財布"
+    tags: [currency, container]
+    priority: 100
+    context: "通貨を保管するアイテム"
+
+  - source: "Trader"
+    target: "トレーダー"
+    tags: [currency, entity]
+    priority: 100
+    context: "取引を行うNPC"
+
+  - source: "Shop"
+    target: "ショップ"
+    tags: [currency, structure]
+    priority: 100
+    context: "取引を行う施設"
+
+  - source: "Currency"
+    target: "通貨"
+    tags: [currency, concept]
+    priority: 100
+    context: "貨幣・金銭を表す用語"
+
+  - source: "Bank"
+    target: "銀行"
+    tags: [currency, structure]
+    priority: 100
+    context: "通貨を預ける施設"
+
+  - source: "ATM"
+    target: "ATM"
+    tags: [currency, machine]
+    priority: 100
+    context: "自動取引機。カタカナはそのまま使用"
+
+  - source: "Transaction"
+    target: "取引"
+    tags: [currency, action]
+    priority: 100
+    context: "商品やサービスの取引"
