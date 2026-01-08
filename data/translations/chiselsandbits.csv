@@ -496,7 +496,7 @@ mod.chiselsandbits.config.useVBO,Use VBOs,VBOを使用
 mod.chiselsandbits.config.defaultToDynamicRenderer.tooltip,"By default C&B uses the static renderer, and changes to the Dynamic Renderer on update, This setting reverse that; After determining the detail of the model it will decide to revert to the static renderer, helpful for more complicated scenes that cause stalls when using the static renderer.",デフォルトでは C&B は静的レンダラーを使用し、更新時に動的レンダラーに変更します。この設定はそれを逆にします。モデルの詳細度を決定した後、静的レンダラーに戻すことを決定します。複雑なシーンで静的レンダラー使用時にスタッシが発生する場合に有効です。
 mod.chiselsandbits.config.forceDynamicRenderer.tooltip,"Debug Setting, that disable the static render entirely.",デバッグ設定、静的レンダリングを完全に無効化します。
 mod.chiselsandbits.config.useVBO.tooltip,"By Default uses the same setting as MC, but can be overridden.",デフォルトではMCと同じ設定が使用されますが、上書き可能です。
-mod.chiselsandbits.config.blacklistTickingBlocks,Black List Ticking Blocks,ブラックリストに登録されたタッピングブロック
+mod.chiselsandbits.config.blacklistTickingBlocks,Black List Ticking Blocks,黒リストに登録されたタッピングブロック
 mod.chiselsandbits.config.radialMenuVolume,'Click' volume for radial menu.,'クリック' ボリュームは円形メニュー用です。
 mod.chiselsandbits.config.radialMenuVolume.tooltip,Setting to Zero will disable it.,ゼロに設定すると無効になります。
 mod.chiselsandbits.config.enableVivecraftCompatibility,Enable Vivecraft Compatibility,Vivecraftとの互換性を有効にする
@@ -508,12 +508,12 @@ mod.chiselsandbits.config.requireBagSpace.tooltip,Requires there to be an empty 
 mod.chiselsandbits.config.voidExcessBits,Void Excess Bits,虚無過剰ビット
 mod.chiselsandbits.config.voidExcessBits.tooltip,Voids any bits that couldn't be fit into a bag or your inventory. Improves server performance. The undo action could have issues as some bits are voided.,バッグまたはインベントリに収納できないビットを消去します。サーバーパフォーマンスが向上します。アンドゥアクションは一部のビットが消去されるため、問題が生じる可能性があります。
 chiselsandbits.color.blue,Blue,青
-chiselsandbits.color.cyan,Cyan,水色
+chiselsandbits.color.cyan,Cyan,青緑
 chiselsandbits.color.gray,Gray,灰色
-chiselsandbits.color.lime,Lime,ライム色
-chiselsandbits.color.orange,Orange,オレンジ
+chiselsandbits.color.lime,Lime,黄緑
+chiselsandbits.color.orange,Orange,橙
 chiselsandbits.color.purple,Purple,紫
-chiselsandbits.color.yellow,Yellow,黄色
+chiselsandbits.color.yellow,Yellow,黄
 chiselsandbits.measurements.lengths.bit,%s Bits.,%sビット
 chiselsandbits.measurements.lengths.block,%s Blks.,%sブロック
 commands.setbit.usage,/setbit <x> <y> <z> <bitx> <bity> <bitz> <TileName> [dataValue],/setbit <x> <y> <z> <bitx> <bity> <bitz> <タイル名> [データ値]

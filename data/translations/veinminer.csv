@@ -13,8 +13,8 @@ command.veinminer.set.sneak,Veinminer activation: When sneaking,Veinminer有効�
 command.veinminer.set.nosneak,Veinminer activation: When not sneaking,Veinminer有効化: スニーク時無効
 command.veinminer.blocklist.actionerror,/veinminer blocklist %s add/remove <mod id>:<block name> <metadata>,/veinminer blocklist %s add/remove <Modid>:<ブロック名> <メタデータ>
 command.veinminer.blocklist.itemerror,/veinminer blocklist %s %s  <mod id>:<block name> <metadata>,/veinminer blocklist %s %s  <Modid>:<ブロック名> <メタデータ>
-command.veinminer.blocklist.add,Added %s/%d to the %s block whitelist,%s/%d を %s のホワイトリストに追加しました。
-command.veinminer.blocklist.remove,Removed %s/%d from the %s block whitelist,%s/%d を %s のホワイトリストから削除しました。
+command.veinminer.blocklist.add,Added %s/%d to the %s block whitelist,%s/%d を %s の白リストに追加しました。
+command.veinminer.blocklist.remove,Removed %s/%d from the %s block whitelist,%s/%d を %s の白リストから削除しました。
 command.veinminer.toollist.actionerror,/veinminer toollist %s add/remove <tool id>,/veinminer toollist %s add/remove <ツールid>
 command.veinminer.toollist.itemerror,/veinminer toollist %s %s <tool id>,/veinminer toollist %s %s <ツールid>
 command.veinminer.toollist.add,Added %s to the %s tool list,%s を %s のツールリストに追加しました。
@@ -24,7 +24,7 @@ command.veinminer.blocklimit.set,Set block limit to %d blocks,ブロックの最
 command.veinminer.range,/veinminer radius [-1 - 1000],
 command.veinminer.range.set,Set radius limit to %d blocks away,ブロックの最大破壊半径を %d ブロックに設定しました。
 command.veinminer.pertick,/veinminer per_tick <# blocks to destroy each tick>,/veinminer per_tick <1ティックあたり破壊するブロック数>
-command.veinminer.pertick.set,Set to destroy %d blocks per tick,ブロックのtickごとの破壊数を %d ブロックに設定しました。
+command.veinminer.pertick.set,Set to destroy %d blocks per tick,ブロックのティックごとの破壊数を %d ブロックに設定しました。
 command.veinminer.saveconfig,Saved settings to config file,コンフィグファイルに設定をセーブしました。
 command.veinminer.loadconfig,Reloaded settings from config file,コンフィグファイルから設定をロードしました。
 command.veinminer.cannotuse,Non-players cannot use veinminer commands,非プレイヤーがveinminerコマンドを使用することはできません。
@@ -37,7 +37,7 @@ mod.veinminer.finished.noExp,You don't have enough experience to use VeinMiner.,
 veinminer.key.enable,Activate Vein Miner,Vein Minerを有効化
 command.veinminer.help1,Sub-commands available:,利用可能なサブコマンド：
 command.veinminer.help2,'mode': change VeinMiner activation modes,'mode': VeinMiner のアクティベーションモードを変更
-command.veinminer.help3,'blocklist': Add or remove blocks from the VeinMiner whitelist,'blocklist': VeinMinerホワイトリストからブロックを追加または削除
+command.veinminer.help3,'blocklist': Add or remove blocks from the VeinMiner whitelist,'blocklist': VeinMiner白リストからブロックを追加または削除
 command.veinminer.help4,'toollist': Add ore remove tools to use with VeinMiner,'toollist': VeinMinerで使用する鉱石除去ツールを追加
 command.veinminer.help5,'blocklimit': Set the limit on the number of blocks that can be destroyed at once by VeinMiner,'blocklimit': VeinMiner が一度に破壊できるブロック数の上限を設定します
 command.veinminer.help6,'radius': Set the maximum distance Veinminer will collect blocks from the first block destroyed,'radius': 最初に破壊されたブロックからVeinminerがブロックを収集する最大距離を設定します

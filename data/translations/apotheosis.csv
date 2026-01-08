@@ -321,7 +321,7 @@ block.apotheosis.boss_spawner,Boss Spawner,ボススポナー
 block.apotheosis.gem_cutting_table,Gem Cutting Table,ジェム加工台
 block.apotheosis.gem_cutting_table.desc,Uses Gem Dust and Rarity Materials to upgrade Gems,ジェムの粉とレアリティ素材を使ってジェムをアップグレードします
 block.apotheosis.reforging_table,Reforging Table,再鍛造テーブル
-block.apotheosis.reforging_table.desc,Uses Gem Dust and Rarity Materials to reroll affixes,ジェムダストとレアリティマテリアルで付与を再ロールします
+block.apotheosis.reforging_table.desc,Uses Gem Dust and Rarity Materials to reroll affixes,ジェムの粉とレアリティマテリアルで付与を再ロールします
 block.apotheosis.reforging_table.desc2,Max Rarity: %s,最大レアリティ: %s
 block.apotheosis.salvaging_table,Salvaging Table,解体作業台
 block.apotheosis.salvaging_table.desc,Breaks down Affix Items into Rarity Materials,称号付きアイテムを解体してレアリティ素材を取得します
@@ -489,7 +489,7 @@ item.apotheosis.gold_upgrade_smithing_template,Smithing Template,鍛冶テンプ
 item.apotheosis.gold_upgrade_smithing_template.additions_slot_description,Add four gold ingots,4つのスズを追加
 item.apotheosis.gold_upgrade_smithing_template.applies_to,Iron Equipment,鉄製装備
 item.apotheosis.gold_upgrade_smithing_template.base_slot_description,"Add iron armor, weapon, or tools",鉄製防具、武器、またはツールを追加する
-item.apotheosis.gold_upgrade_smithing_template.ingredients,4 Gold Ingots,4 Tin
+item.apotheosis.gold_upgrade_smithing_template.ingredients,4 Gold Ingots,金のインゴット4個
 item.apotheosis.iron_upgrade_smithing_template,Smithing Template,鍛冶テンプレート
 item.apotheosis.iron_upgrade_smithing_template.additions_slot_description,Add four iron ingots,鉄インゴットを4つ追加
 item.apotheosis.iron_upgrade_smithing_template.applies_to,Stone and Chain Equipment,石と鎖の装備
@@ -715,7 +715,7 @@ upgrade.apotheosis.gold,Gold Upgrade ,ゴールドアップグレード
 upgrade.apotheosis.iron,Iron Upgrade ,鉄製アップグレード 
 wave_entity.apotheosis.affixed_armored_bogged,Affixed Armored Bogged,固定された装甲付き沼地化
 wave_entity.apotheosis.affixed_armored_husk,Affixed Armored Husk,付着した装甲ハスク
-wave_entity.apotheosis.affixed_armored_piglin_brute,Affixed Armored Piglin Brute,固定された防具のピグリン・ブルート
+wave_entity.apotheosis.affixed_armored_piglin_brute,Affixed Armored Piglin Brute,固定された防具のピグリン・青ト
 wave_entity.apotheosis.affixed_armored_skeleton,Affixed Armored Skeleton,装備されたアーマード・スケルトン
 wave_entity.apotheosis.affixed_armored_stray,Affixed Armored Stray,付着した装甲付きストレイ
 wave_entity.apotheosis.affixed_armored_wither_skeleton,Affixed Armored Wither Skeleton,装備されたアーマー付きウィザー・スケルトン
@@ -826,7 +826,7 @@ affix.apotheosis:execute.name,Execute Damage - (%s%%),実行ダメージ - (%s%%
 affix.apotheosis:fire_damage.name,Fire Damage - (%s),火のダメージ - (%s)
 affix.apotheosis:life_steal,Vampiric %s,吸血鬼の %s
 affix.apotheosis:life_steal.name,Life Steal - (%s%%),生命値回収 - (%s%%)
-affix.apotheosis:loot_pinata,%s of Explosive Fortune,%s の 爆発の 幸運
+affix.apotheosis:loot_pinata,%s of Explosive Fortune,爆発的幸運の%s
 affix.apotheosis:loot_pinata.desc,Mobs you slay have a %s%% chance to explode into a loot pile.,倒したモブは%s%%の確率で戦利品山に爆発します。
 affix.apotheosis:loot_pinata.name,Loot Piñata - (%s%%),宝箱ピニャータ - (%s%%)
 affix.apotheosis:magic_arrow,%s of Dark Magic,%s の闇の魔法
@@ -1100,7 +1100,7 @@ info.apotheosis.retrieved_from,Extracted From: %s,抽出元: %s
 info.apotheosis.table,Max Normal Level: %s,最大通常レベル: %s
 info.apotheosis.table2,Max Hellshelf Level: %s,最上位ヘルシェルレベル: %s
 info.apotheosis.tome_error,Bugged Item - Right click in the air to turn into an enchanted book.,バグのあるアイテム - 空中で右クリックするとエンチャント本に変わる
-info.apotheosis.twisted,Twisted,ねじれた
+info.apotheosis.twisted,Twisted,歪んだ
 info.apotheosis.weapon_book,Accepts weapon enchantments.,武器のエンチャントを受け付けます。
 info.spw.entity,Entity: %s,エンティティ: %s
 ingredient.apotheosis.ench,Requires at least %s,最低限必要な値 %s
@@ -1362,7 +1362,7 @@ stat.apotheosis.silent,Silent,静音
 stat.apotheosis.silent.desc,Spawned entities will make no noise,スポーンしたエンティティは音を立てない
 stat.apotheosis.spawn_count,Spawn Count,スポーン数
 stat.apotheosis.spawn_count.desc,The number of entities spawned at once,一度にスポーンするエンティティ数
-stat.apotheosis.spawn_range,Spawn Range,スパAWN範囲
+stat.apotheosis.spawn_range,Spawn Range,スポーン範囲
 stat.apotheosis.spawn_range.desc,The radius (in blocks) that mobs can spawn in,モブがスポーンできる半径（ブロック単位）
 title.apotheosis.spawner,Spawner Modification,スポナーの改造
 tooltip.enchlib.capacity,Level Capacity: %s,レベル容量: %s
@@ -1738,7 +1738,7 @@ affix.apotheosis:crit_damage.double,%s of Subjugationn,%s の支配
 affix.apotheosis:eternal,Eternal %s,永遠の %s
 affix.apotheosis:eternal.double,Truly-Eternal %s,真に永遠の %s
 affix.apotheosis:fortunate,% of Great Fortune,% の偉大な幸運
-affix.apotheosis:fortunate.double,% of Cosmic Fortunes,% の 宇宙の幸運
+affix.apotheosis:fortunate.double,% of Cosmic Fortunes,宇宙の幸運の%
 affix.apotheosis:reflective,%s the Spiked Barricade,%s スパイクバリケード
 affix.apotheosis:reflective.double,%s the Vengeful Barricade,%s の復讐のバリケード
 affix.apotheosis:power,Dwarven-Forged %s,ドワーフ鍛造の%s

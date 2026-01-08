@@ -44,7 +44,7 @@ tooltip.compactmachines3.machine.hint,A %s provides a %s room.,「%s」は「%s�
 tooltip.compactmachines3.lockforotherplayers.checkbox,Lock for other players,他プレイヤー用ロック
 tooltip.compactmachines3.jei.crafting_trigger,Throw this into the miniaturization field to start the crafting process.,このアイテムをミニチュア化フィールドに投げてクラフトプロセスを開始します。
 tooltip.compactmachines3.jei.shape,Use these to build the multiblock,これらを使ってマルチブロックを構築してください
-compactmachines3.jei.category.multiblock_miniaturization,Multiblock Miniaturization,マルチブロックミニaturization
+compactmachines3.jei.category.multiblock_miniaturization,Multiblock Miniaturization,マルチブロックミニチュアライゼーション
 enumfacing.side,Side: %s,側面: %s
 enumfacing.up,Up,上
 enumfacing.down,Down,下
@@ -109,16 +109,16 @@ gui.compactmachines3.psd.machines.text,"Compact Machines are the core mechanic o
 サイズは3x3x3から13x13x13までの様々な大きさがあります。
 トンネルを使用して、外側のブロック面を内側の壁に接続し、アイテムや流体などを輸送できます。
 パーソナルシュリンキングデバイスを持ってコンパクトマシンを右クリックして入ることができます。
-JEIを使用してクラフティングレシピを確認してください。"
+JEIを使用してクラフトレシピを確認してください。"
 gui.compactmachines3.psd.tunnels.label,Tunnels,トンネル
 gui.compactmachines3.psd.redstone_tunnels.label,Redstone Tunnels,レッドストーントンネル
 gui.compactmachines3.psd.redstone_tunnels.text,"These can be used to transfer redstone signals between the machine and the world it is placed in. In comparison to normal Tunnels they are not bidirectional, but need to be configured to be either In- or Output. Press the button in the top right corner to toggle between modes (red=in, green=out).\nYou can use these to either enable/disable redstone based systems inside your machines or to build complicated redstone circuits inside a single block.","これらはマシンと配置された世界の間でレッドストーン信号を転送するために使用できます。通常のトンネルとは異なり、双方向ではなく、入力または出力に設定する必要があります。右上隅のボタンを押してモード間を切り替えます（赤=入力、緑=出力）。
 これらを使用して、マシン内のレッドストーンベースシステムを有効/無効にするか、単一ブロック内で複雑なレッドストーン回路を構築できます。"
-gui.compactmachines3.psd.crafting.label,Miniaturization Crafting,ミニaturizationクラフト
-gui.compactmachines3.psd.crafting.text,"To craft Compact Machines you will need to set up a miniaturization crafting structure.\nGrab 4 Miniaturization Field Projectors and place them opposite of each other, with 7, 11 or 15 spaces between them. All of them need to face the center.\nOnce placed correctly they will start emitting a miniaturization field. Build a recipe like specified in JEI and throw the catalyst item inside the field to start the crafting process.","コンパクトマシンをクラフトするには、ミニチュア化クラフティング構造をセットアップする必要があります。
+gui.compactmachines3.psd.crafting.label,Miniaturization Crafting,ミニチュアライゼーションクラフト
+gui.compactmachines3.psd.crafting.text,"To craft Compact Machines you will need to set up a miniaturization crafting structure.\nGrab 4 Miniaturization Field Projectors and place them opposite of each other, with 7, 11 or 15 spaces between them. All of them need to face the center.\nOnce placed correctly they will start emitting a miniaturization field. Build a recipe like specified in JEI and throw the catalyst item inside the field to start the crafting process.","コンパクトマシンをクラフトするには、ミニチュア化クラフト構造をセットアップする必要があります。
 ミニチュア化フィールドプロジェクター4つを取り出し、互いに反対に配置します。プロジェクター間に7、11、または15スペースを確保します。すべてが中央を向いている必要があります。
-正しく配置されると、ミニチュア化フィールドの放射を開始します。JEIで指定されたとおりにレシピを構築し、カタリストアイテムをフィールド内に投げてクラフティングプロセスを開始します。"
-gui.compactmachines3.compactsky.whitelist,Whitelist,ホワイトリスト
+正しく配置されると、ミニチュア化フィールドの放射を開始します。JEIで指定されたとおりにレシピを構築し、カタリストアイテムをフィールド内に投げてクラフトプロセスを開始します。"
+gui.compactmachines3.compactsky.whitelist,Whitelist,白リスト
 gui.compactmachines3.compactsky.preview,Preview,プレビュー
 gui.compactmachines3.compactsky.enter,Enter machine,マシンに投入
 gui.compactmachines3.compactsky.rename,Rename,名前変更

@@ -12,20 +12,20 @@ The action is probably part of a Ticker element that runs in Async mode.
 §lアクション名: §x%s"
 fancymenu.actions.audio.next_track,Next Track,次のトラック
 fancymenu.actions.audio.next_track.desc,Skips to the next track in an Audio element's playlist.,オーディオ要素のプレイリストで次のトラックにスキップします。
-fancymenu.actions.audio.next_track.value.desc,The identifier of the Audio element to control,制御するオーディオ要素のidentifier
+fancymenu.actions.audio.next_track.value.desc,The identifier of the Audio element to control,制御するオーディオ要素の識別子
 fancymenu.actions.audio.previous_track,Previous Track,前のトラック
 fancymenu.actions.audio.previous_track.desc,Returns to the previous track in an Audio element's playlist.,オーディオ要素のプレイリストで前のトラックに戻ります。
-fancymenu.actions.audio.previous_track.value.desc,The identifier of the Audio element to control,制御するオーディオ要素のidentifier
+fancymenu.actions.audio.previous_track.value.desc,The identifier of the Audio element to control,制御するオーディオ要素の識別子
 fancymenu.actions.audio.set_audio_element_volume,Set Audio Element Volume,Audio Elementの音量を設定
 fancymenu.actions.audio.set_audio_element_volume.desc,"Sets the volume of an Audio element by its identifier.
-The volume is a value between 0.0 (0%%) and 1.0 (100%%).","Audio element の identifier により音量を設定します。
+The volume is a value between 0.0 (0%%) and 1.0 (100%%).","オーディオ要素の識別子により音量を設定します。
 音量は0.0 (0%%)から1.0 (100%%)の値です。"
-fancymenu.actions.audio.set_audio_element_volume.value.desc,Element Identifier + Volume [ Separated by : ],Element Identifier + 音量 [':'で区切る]
+fancymenu.actions.audio.set_audio_element_volume.value.desc,Element Identifier + Volume [ Separated by : ],要素の識別子 + 音量 [':'で区切る]
 fancymenu.actions.audio.toggle_play,Toggle Play/Pause Track,再生/一時停止の切り替え
 fancymenu.actions.audio.toggle_play.desc,"Toggles between playing and pausing an Audio element.
 If paused, resumes playback. If playing, pauses playback.","オーディオ要素の再生と一時停止を切り替えます。
 一時停止の場合は再生を再開し、再生中の場合は一時停止します。"
-fancymenu.actions.audio.toggle_play.value.desc,The identifier of the audio element to control,制御するオーディオ要素のidentifier
+fancymenu.actions.audio.toggle_play.value.desc,The identifier of the audio element to control,制御するオーディオ要素の識別子
 fancymenu.actions.back_to_last_screen,Back to Last Screen,前の画面に戻る
 fancymenu.actions.back_to_last_screen.desc,Opens the last screen that was open before the current one.,今開いている画面の前に開いていた画面に戻るよ。
 fancymenu.actions.blocks.add.else,Append ELSE Statement,ELSE文を追加
@@ -250,7 +250,7 @@ The action will override existing text if this is disabled.","すでに入力フ
 fancymenu.actions.paste_to_chat.desc,Paste text to the chat input field.,チャットの入力フィールドにテキストを貼り付けるよ。
 fancymenu.actions.paste_to_chat.text,Text to Paste:,貼り付けるテキスト:
 fancymenu.actions.print_to_log,Print to Game Log,ゲームログに出力
-fancymenu.actions.print_to_log.desc,This action will print text to the game's log/console for debugging.,このアクションは、デバッグ用にゲームのログ/コンソールにテキストを出力します。
+fancymenu.actions.print_to_log.desc,This action will print text to the game's log/console for debugging.,このアクションは、デバッグ用にゲームの原木/コンソールにテキストを出力します。
 fancymenu.actions.print_to_log.value,Text,テキスト
 fancymenu.actions.quitgame,Quit Minecraft,Minecraftを終了
 fancymenu.actions.quitgame.desc,Quit Minecraft. (duh),Minecraftを終了するよ。（まあ、そうだよね）
@@ -541,7 +541,7 @@ fancymenu.backgrounds.video_mcef.configure.no_video,§xYou need to choose a vide
 fancymenu.backgrounds.video_mcef.desc,"Plays a video file as menu background.
 §xThis background needs the MCEF mod to work!","メニュー背景として動画ファイルを再生するよ。
 §xこの背景を使うにはMCEF modが必要だよ！"
-fancymenu.commands.closeguiscreen.error,[FANCYMENU] Failed to close GUI screen via /closeguiscreen command!,[FANCYMENU] /closeguiscreenコマンドを介してGUI screenを閉じるのに失敗しました！
+fancymenu.commands.closeguiscreen.error,[FANCYMENU] Failed to close GUI screen via /closeguiscreen command!,[FANCYMENU] /closeguiscreenコマンドを介してGUI画面を閉じるのに失敗しました！
 fancymenu.commands.openguiscreen.error,[FANCYMENU] An error happened while trying to open a GUI via the /openguiscreen command!,[FANCYMENU] /openguiscreen コマンドを介してGUIを開く際にエラーが発生しました！
 fancymenu.commands.variable.get.error,[FANCYMENU] Failed to get variable via /fmvariable command!,[FANCYMENU] /fmvariableコマンドを介して変数を取得するのに失敗しました！
 fancymenu.commands.variable.get.success,§y[FancyMenu] Variable Value: §z%s,§y[FancyMenu] 変数の値: §z%s
@@ -550,7 +550,7 @@ fancymenu.commands.variable.set.error,[FANCYMENU] Failed to set variable via /fm
 fancymenu.commands.variable.set.success,§y[FancyMenu] Variable value set to: §z%s,§y[FancyMenu] 変数の値を§z%s に設定
 fancymenu.commmands.layout.error,[FANCYMENU] An error happened while trying to set layout state of '%s'!,[FANCYMENU] '%s' のレイアウト状態設定中にエラーが発生しました！
 fancymenu.commmands.layout.unable_to_set_state,[FANCYMENU] Unable to set layout state of '%s'! Layout not found!,[FANCYMENU] '%s' のレイアウト状態を設定できません！レイアウトが見つかりません！
-fancymenu.commmands.openguiscreen.unable_to_open_gui,[FANCYMENU] Unable to open screen: %s,[FANCYMENU] Screen を開くことができません: %s
+fancymenu.commmands.openguiscreen.unable_to_open_gui,[FANCYMENU] Unable to open screen: %s,[FANCYMENU] 画面を開くことができません: %s
 fancymenu.common.close,Close,閉じる
 fancymenu.common_components.cancel,Cancel,キャンセル
 fancymenu.common_components.done,Done,完了
@@ -560,15 +560,15 @@ fancymenu.context_menu.entries.choose_or_set.current,Current: %s,現在: %s
 fancymenu.credits,Credits,クレジット
 fancymenu.custom_guis.build,Build or Edit Custom GUI,カスタム GUI を作成または編集
 fancymenu.custom_guis.build.allow_esc,Allow ESC to Close GUI: %s,ESC で GUI を閉じることを許可: %s
-fancymenu.custom_guis.build.identifier,Custom GUI Identifier:,カスタム GUI identifier：
-fancymenu.custom_guis.build.identifier.already_in_use,Identifier already in use! Identifiers need to be unique!,Identifier は既に使用されています！各 Identifier は一意でなければなりません！
-fancymenu.custom_guis.build.identifier.invalid,Invalid Identifier!,無効な identifier！
+fancymenu.custom_guis.build.identifier,Custom GUI Identifier:,カスタムGUI識別子：
+fancymenu.custom_guis.build.identifier.already_in_use,Identifier already in use! Identifiers need to be unique!,識別子は既に使用されています！各識別子は一意でなければなりません！
+fancymenu.custom_guis.build.identifier.invalid,Invalid Identifier!,無効な識別子！
 fancymenu.custom_guis.build.pause_game,Pause Game/World: %s,ゲーム／ワールドの一時停止: %s
 fancymenu.custom_guis.build.popup_mode,Popup Mode: %s,ポップアップモード: %s
 fancymenu.custom_guis.build.popup_mode.desc,If the Custom GUI should work like a popup menu that gets opened on top of the parent screen.,カスタムGUIが親画面の上に開くポップアップメニューのように動作するかどうか。
 fancymenu.custom_guis.build.popup_mode_background_overlay,Popup Mode Background Overlay: %s,ポップアップモードの背景オーバーレイ: %s
 fancymenu.custom_guis.build.popup_mode_background_overlay.desc,If there should be an overlay rendered over the screen in the background of the popup menu.,ポップアップメニューの背景にある画面の上にオーバーレイを描画するかどうか。
-fancymenu.custom_guis.build.title,Screen Title (Optional):,Screen タイトル (任意)：
+fancymenu.custom_guis.build.title,Screen Title (Optional):,画面タイトル (任意)：
 fancymenu.custom_guis.build.world_background,Render World Background: %s,ワールド背景の描画: %s
 fancymenu.custom_guis.build.world_background_overlay,Render World Background Overlay: %s,ワールド背景オーバーレイの描画: %s
 fancymenu.custom_guis.manage,Manage Custom GUIs,カスタム GUI の管理
@@ -581,8 +581,8 @@ fancymenu.custom_guis.manage.remove.confirm,"Are you sure?
 Do you really want to remove the GUI?","本当によろしいですか？
 
 本当に GUI を削除しますか？"
-fancymenu.custom_guis.manage_overridden,Manage Overridden Screens,上書きされた Screen の管理
-fancymenu.custom_guis.manage_overridden.desc,Remove override rules for Vanilla/mod screens.,Vanilla/Mod Screen の上書きルールを削除。
+fancymenu.custom_guis.manage_overridden,Manage Overridden Screens,上書きされた画面の管理
+fancymenu.custom_guis.manage_overridden.desc,Remove override rules for Vanilla/mod screens.,Vanilla/Mod画面の上書きルールを削除。
 fancymenu.custom_guis.manage_overridden.overridden_with,Overridden With: %s,上書き対象: %s
 fancymenu.custom_guis.manage_overridden.remove_override,Remove Override Rule,上書きルールを削除
 fancymenu.custom_guis.manage_overridden.remove_override.confirm,"Are you sure?
@@ -597,8 +597,8 @@ fancymenu.custom_guis.override.confirm,"Are you sure?
 Overriding screens can cause unexpected game behavior.
 Do you really want to override the screen now?","本当によろしいですか？
 
-Screen の上書きは予期しない動作を引き起こす可能性があります。
-本当に Screen を上書きしますか？"
+画面の上書きは予期しない動作を引き起こす可能性があります。
+本当に画面を上書きしますか？"
 fancymenu.customization.scroll_lists,Header/Footer Customizations,ヘッダー/フッターのカスタマイズ
 fancymenu.customization.scroll_lists.desc,"Some screens have headers and footers.
 For the most part these screens are
@@ -653,10 +653,10 @@ fancymenu.editor.anchor_overlay.visibility_mode.disabled,Disabled,無効
 fancymenu.editor.anchor_overlay.visibility_mode.dragging,Show On Element Dragging,要素をドラッグ中に表示
 fancymenu.editor.anchor_overlay.visibility_mode.keybind,"Show On Key Press (Key ""O"")","キー押下時に表示 (Key ""O"")"
 fancymenu.editor.auto_scaling.configure,Configure Auto Scaling,自動スケーリングを設定
-fancymenu.editor.auto_scaling.configure.current_screen_height,Current Screen Height: %s,現在の Screen 高さ: %s
-fancymenu.editor.auto_scaling.configure.current_screen_width,Current Screen Width: %s,現在の Screen 幅: %s
-fancymenu.editor.auto_scaling.configure.height,Optimal Layout Screen Height:,最適なレイアウト Screen 高さ：
-fancymenu.editor.auto_scaling.configure.width,Optimal Layout Screen Width:,最適なレイアウト Screen 幅：
+fancymenu.editor.auto_scaling.configure.current_screen_height,Current Screen Height: %s,現在の画面高さ: %s
+fancymenu.editor.auto_scaling.configure.current_screen_width,Current Screen Width: %s,現在の画面幅: %s
+fancymenu.editor.auto_scaling.configure.height,Optimal Layout Screen Height:,最適なレイアウト画面高さ：
+fancymenu.editor.auto_scaling.configure.width,Optimal Layout Screen Width:,最適なレイアウト画面幅：
 fancymenu.editor.auto_scaling.disable_forced_scale_first,"§xYou need to disable §lauto-scaling §r§xfirst
 §xbefore editing the forced GUI scale.",§x強制 GUI スケールを編集する前に、§lauto-scaling §r§xを先に無効にする必要があります。
 fancymenu.editor.background.blur_background,Apply Vanilla Background Blur: %s,Vanilla背景ブラーを適用: %s
@@ -681,7 +681,7 @@ walk around at the bottom of the editor screen.","エディター画面の下部
 かわいいペットの生き物が歩き回るようにするかどうか。"
 fancymenu.editor.close,Close Editor,エディターを閉じる
 fancymenu.editor.close_audio,Screen Close-Audio,スクリーン閉鎖音
-fancymenu.editor.close_audio.desc,Play an audio when closing the screen.,Screenを閉じるときにオーディオを再生します。
+fancymenu.editor.close_audio.desc,Play an audio when closing the screen.,画面を閉じるときにオーディオを再生します。
 fancymenu.editor.edit,Edit,編集
 fancymenu.editor.edit.copy,Copy,コピー
 fancymenu.editor.edit.paste,Paste,貼り付け
@@ -723,7 +723,7 @@ fancymenu.editor.menu_bar.window.grid_size,Grid Size: %s,グリッドサイズ: 
 fancymenu.editor.object.movedown,Move One Layer Down,1つ下のレイヤーに移動する
 fancymenu.editor.object.moveup,Move One Layer Up,1つ上のレイヤーに移動する
 fancymenu.editor.open_audio,Screen Open-Audio,スクリーンオープン-オーディオ
-fancymenu.editor.open_audio.desc,Play an audio when opening the screen.,Screenを開くときにオーディオを再生します。
+fancymenu.editor.open_audio.desc,Play an audio when opening the screen.,画面を開くときにオーディオを再生します。
 fancymenu.editor.render_custom_behind_vanilla,Custom Elements Behind Vanilla: %s,Vanilla の背後にカスタム要素: %s
 fancymenu.editor.render_custom_behind_vanilla.desc,"If all non-vanilla elements should
 get rendered behind vanilla elements.
@@ -760,7 +760,7 @@ fancymenu.editor.warning.unsaved,"Are you sure?
 
 All unsaved changes for the current layout will get lost!","本当にいいですか？ 
 現在のレイアウトの未保存の変更はすべて失われます！"
-fancymenu.editor.widgets,Editor Widgets,エディタ Widgets
+fancymenu.editor.widgets,Editor Widgets,エディタウィジェット
 fancymenu.editor.widgets.layers,Layers,層
 fancymenu.editor.widgets.layers.vanilla_elements,Vanilla Elements,Vanilla 要素
 fancymenu.element.anchor_point,Anchor Point,アンカーポイント
@@ -797,7 +797,7 @@ fancymenu.element.border_display.vertical_tilt,Vertical Tilt: %s degrees,垂直�
 fancymenu.element.border_display.width,Width: %s,幅: %s
 fancymenu.element.elements.splash_text,Splash Text,スプラッシュテキスト
 fancymenu.element.elements.splash_text.desc,"A splash text like the bouncing
-text in the Title screen.","タイトル screen のバウンステキストのような
+text in the Title screen.","タイトル画面のバウンステキストのような
 スプラッシュテキストです。"
 fancymenu.element.fading,Fading In/Out,フェードイン/アウト
 fancymenu.element.fading.error.negative_value,"Fading speed needs to be a positive and
@@ -860,7 +860,7 @@ are also cases where this behaviour is not optimal.","このモードでは、�
 これが有用な状況もある一方で、最適でないケースも存在します。
 
 §x他の要素をanchorとして使用している場合、これは何の効果もありません！"
-fancymenu.element.sticky_anchor.desc.disable_stay_on_screen,§xYou need to disable 'Stay on Screen' first to use this!,§xこの機能を利用するには、まず「Stay on Screen」を無効にする必要があります！
+fancymenu.element.sticky_anchor.desc.disable_stay_on_screen,§xYou need to disable 'Stay on Screen' first to use this!,§xこの機能を利用するには、まず「画面に留まる」を無効にする必要があります！
 fancymenu.element.tilt.horizontal.advanced_mode,Advanced Horizontal Tilt Mode: %s,高度な水平傾きモード: %s
 fancymenu.element.tilt.horizontal.advanced_mode.desc,"Enabling this allows you to use placeholders in the element's
 horizontal tilt degrees value, but it will also disable tilt grabbers.",これを有効にすると、エレメントの水平傾き角度の値にプレースホルダーを使えるようになるけど、傾きグラバーは無効になるよ。
@@ -2156,7 +2156,7 @@ fancymenu.helper.editor.layoutoptions.backgroundoptions.setbackground.desc,"Set 
 or slideshow as background.","画像、アニメーション、パノラマ、
 またはスライドショーを背景として設定するよ。"
 fancymenu.helper.editor.layoutoptions.universal_layout.options,Universal Layout Options,ユニバーサルレイアウトオプション
-fancymenu.helper.editor.layoutoptions.universal_layout.options.add_blacklist,Add Screen To Blacklist,Screenをブラックリストに追加
+fancymenu.helper.editor.layoutoptions.universal_layout.options.add_blacklist,Add Screen To Blacklist,Screenを黒リストに追加
 fancymenu.helper.editor.layoutoptions.universal_layout.options.add_blacklist.desc,"Add a screen to the blacklist
 by its §lscreen identifier§r.
 
@@ -2168,13 +2168,13 @@ by its §lscreen identifier§r.
 §xYou can get the identifier
 §xof a screen by clicking on
 §x§lCustomization -> Copy Identifier of Current Screen
-§r§xwhile in the screen.","§lscreen identifier§rでscreenをブラックリストに追加する。
+§r§xwhile in the screen.","§lscreen identifier§rでscreenを黒リストに追加する。
 
-§xブラックリストにあるscreenはレイアウトで無視されるため、
+§x黒リストにあるscreenはレイアウトで無視されるため、
 §xそのscreenにはカスタマイズが適用されません。
 
 §xscreenのidentifierは、screen内で§lCustomization -> Copy Identifier of Current Screen§r§xをクリックして取得できます。"
-fancymenu.helper.editor.layoutoptions.universal_layout.options.add_whitelist,Add Screen To Whitelist,Screenをホワイトリストに追加
+fancymenu.helper.editor.layoutoptions.universal_layout.options.add_whitelist,Add Screen To Whitelist,Screenを白リストに追加
 fancymenu.helper.editor.layoutoptions.universal_layout.options.add_whitelist.desc,"Add a screen to the whitelist
 by its §lscreen identifier§r.
 
@@ -2186,33 +2186,33 @@ by its §lscreen identifier§r.
 §xYou can get the identifier
 §xof a screen by clicking on
 §x§lCustomization -> Copy Identifier of Current Screen
-§r§xwhile in the screen.","§lscreen identifier§rでscreenをホワイトリストに追加する。
+§r§xwhile in the screen.","§lscreen identifier§rでscreenを白リストに追加する。
 
-§xホワイトリストに記載されたscreenのみがレイアウトでカスタマイズされ、
+§x白リストに記載されたscreenのみがレイアウトでカスタマイズされ、
 §xその他のscreenは無視されます！
 
 §xscreenのidentifierは、screen内で§lCustomization -> Copy Identifier of Current Screen§r§xをクリックして取得できます。"
 fancymenu.helper.editor.layoutoptions.universal_layout.options.choose_menu_identifier,Choose Screen Identifier,Screen Identifierを選択
-fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_blacklist,Clear Blacklist,ブラックリストをクリア
+fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_blacklist,Clear Blacklist,黒リストをクリア
 fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_blacklist.confirm,"§x§lAre you sure?
 
 Do you really want to §xclear §rthe blacklist?","§x§l本当によろしいですか？
 
-本当にブラックリストを§xクリア§rしますか？"
-fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_whitelist,Clear Whitelist,ホワイトリストをクリア
+本当に黒リストを§xクリア§rしますか？"
+fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_whitelist,Clear Whitelist,白リストをクリア
 fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_whitelist.confirm,"§x§lAre you sure?
 
 Do you really want to §xclear §rthe whitelist?","§x§l本当によろしいですか？
 
-本当にホワイトリストを§xクリア§rしますか？"
+本当に白リストを§xクリア§rしますか？"
 fancymenu.helper.editor.layoutoptions.universal_layout.options.input_menu_identifier,Input Screen Identifier,Screen Identifierを入力
-fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_blacklist,Remove Screen From Blacklist,ブラックリストからscreenを削除
+fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_blacklist,Remove Screen From Blacklist,黒リストからscreenを削除
 fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_blacklist.confirm,"§x§lAre you sure?
 
 Do you really want to §xremove §rthis identifier?","§x§l本当によろしいですか？
 
 本当にこのidentifierを§x削除§rしますか？"
-fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_whitelist,Remove Screen From Whitelist,ホワイトリストからscreenを削除
+fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_whitelist,Remove Screen From Whitelist,白リストからscreenを削除
 fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_whitelist.confirm,"§x§lAre you sure?
 
 Do you really want to §xremove §rthis identifier?","§x§l本当によろしいですか？

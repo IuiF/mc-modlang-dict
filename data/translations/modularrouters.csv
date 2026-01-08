@@ -77,7 +77,7 @@ modularrouters.chatText.security.removed,Removed player [%s],プレイヤー [%s
 modularrouters.chatText.subtitle.error,Error,エラー
 modularrouters.chatText.subtitle.success,Success,完成
 modularrouters.chatText.subtitle.thud,*THUD*,*ドスン*
-modularrouters.chatText.targetValidation.bad_dimension,✘ Dimension Blacklisted,✘ ブラックリスト済ディメンション
+modularrouters.chatText.targetValidation.bad_dimension,✘ Dimension Blacklisted,✘ 黒リスト済ディメンション
 modularrouters.chatText.targetValidation.not_inventory,✘ No Inventory,✘ インベントリなし
 modularrouters.chatText.targetValidation.not_loaded,✘ Not Loaded,✘ 未読込
 modularrouters.chatText.targetValidation.ok,✔ Target OK,✔ ターゲットOK
@@ -127,7 +127,7 @@ modularrouters.gui.config.sender2BaseRange,Base Range for Sender Module Mk2 (no 
 modularrouters.gui.config.sender2MaxRange,Hard Maximum Range for Sender Module Mk2 (with Range Upgrades),センダーモジュールMk2の最大範囲(範囲アップグレード有り)
 modularrouters.gui.config.senderParticles,Show particle effects when a Sender Module sends an item,センダーモジュールがアイテムを送信する際にパーティクル効果を表示
 modularrouters.gui.config.startWithGuide,New players start with a copy of the guide book,新規プレイヤーはガイドブックのコピーを持った状態で開始
-modularrouters.gui.config.ticksPerUpgrade,Tick rate reduction (speedup) per Speed Upgrade,Speed Upgradeごとのティックレート減少（高速化）
+modularrouters.gui.config.ticksPerUpgrade,Tick rate reduction (speedup) per Speed Upgrade,スピードアップグレードごとのティックレート減少（高速化）
 modularrouters.gui.config.vacuumBaseRange,Base Range for Vacuum Module (no Range Upgrades),吸引モジュールの基本範囲(範囲アップグレードなし)
 modularrouters.gui.config.vacuumMaxRange,Hard Maximum Range for Vacuum Module (with Range Upgrades),バキュームモジュールの最大範囲(範囲アップグレード有り)
 modularrouters.gui.config.vacuumParticles,Show particle effects when a Vacuum Module absorbs an item,バキュームモジュールがアイテムを吸収する際にパーティクル効果を表示
@@ -373,14 +373,14 @@ modularrouters.guiText.tooltip.terminate.ran.header,Terminate on Match,マッチ
 modularrouters.guiText.tooltip.tunedValue,§bTuned Value (%d → %d),§b調整値 (%d → %d)
 modularrouters.guiText.tooltip.whitelist.false,"Blacklist
 The module will not run if the filter matches.
-An empty blacklist will always allow the module to run.","ブラックリスト
+An empty blacklist will always allow the module to run.","黒リスト
 フィルターが一致する場合、モジュールは実行されません。
-ブラックリストが空の場合、モジュールの実行は常に許可されます。"
+黒リストが空の場合、モジュールの実行は常に許可されます。"
 modularrouters.guiText.tooltip.whitelist.true,"Whitelist
 The module will run only if the filter matches.
-An empty whitelist will never allow the module to run.","ホワイトリスト
+An empty whitelist will never allow the module to run.","白リスト
 モジュールはフィルターが一致する場合にのみ実行されます。
-ホワイトリストが空の場合、モジュールは実行されません。"
+白リストが空の場合、モジュールは実行されません。"
 modularrouters.guiText.tooltip.xpVacuum.ejectFluid,XP Fluids Ejected,経験値流体排出
 modularrouters.itemText.activator.action.attack_entity,Attack nearby entity,近くのエンティティを攻撃
 modularrouters.itemText.activator.action.item_or_block,Right-click,右クリック
@@ -407,7 +407,7 @@ modularrouters.itemText.extruder.mode.pulse,Extend: §bNever,拡張: §b無し
 modularrouters.itemText.extruder2.template,§eTemplate Blocks:,テンプレートブロック：
 modularrouters.itemText.fluid.maxTransfer,§eFluid Rate:§b Up to %d mB / operation,§e液体流量:§b 最大 %d mB / 操作
 modularrouters.itemText.misc.TERMINATE,Termination,終了
-modularrouters.itemText.misc.blacklist,§eBlacklist,ブラックリスト
+modularrouters.itemText.misc.blacklist,§eBlacklist,黒リスト
 modularrouters.itemText.misc.breakerPick,§ePickaxe: ,ツルハシ：
 modularrouters.itemText.misc.bulkItemFilter.count,• %d item(s) in filter,• フィルター内に%dアイテム
 modularrouters.itemText.misc.configureHint,§7§o▶ Press §3§o[%s]§7§o or §3§o[Middle-Click]§7§o to configure,▶ [%s]または[%s]を押して設定
@@ -440,7 +440,7 @@ modularrouters.itemText.misc.strongSignal.false,Weak,弱
 modularrouters.itemText.misc.strongSignal.true,Strong,強
 modularrouters.itemText.misc.upgradeCount,▶ %d x %s,▶ %d個 x %s
 modularrouters.itemText.misc.upgrades,Upgrades:,アップグレード:
-modularrouters.itemText.misc.whitelist,§eWhitelist,ホワイトリスト
+modularrouters.itemText.misc.whitelist,§eWhitelist,白リスト
 modularrouters.itemText.security.count,%d / %d other player(s):,その他プレイヤー数 %d / %d:
 modularrouters.itemText.security.owner,§eOwner: §b%s,§e所有者: §b%s
 modularrouters.itemText.sync.tuning,§eTuned Value: §b%d,チューニング値：%d
@@ -482,7 +482,7 @@ modularrouters.itemText.usage.item.fluid_module,Transfers fluids into or out of 
 modularrouters.itemText.usage.item.fluid_module_2,Transfers fluids into or out of the router to/from any nearby block.${br}• Router's buffer must have a fluid container item in it.${br}• Can transfer to/from tanks or the world.,"ルーターと近くの任意のブロックとの間で流体を転送します。
 • ルーターのバッファに流体コンテナアイテムが必要です。
 • タンクまたは世界への転送が可能です。"
-modularrouters.itemText.usage.item.fluid_upgrade,Increases the amount of fluid a router can transfer (in each direction) by %d mB/tick.,ルータが転送できる流体量（各方向）を %d mB/tick だけ増加させます。
+modularrouters.itemText.usage.item.fluid_upgrade,Increases the amount of fluid a router can transfer (in each direction) by %d mB/tick.,ルータが転送できる流体量（各方向）を %d mB/ティック だけ増加させます。
 modularrouters.itemText.usage.item.inspection_filter,Filter items by inspecting various properties of the item. Place in a router module's filter like any other item.${br}• Right-click: view/configure.,"アイテムの様々なプロパティを検査することでアイテムをフィルターします。他のアイテムと同じようにルーターモジュールのフィルターに配置します。
 • 右クリック：表示/設定。"
 modularrouters.itemText.usage.item.mod_filter,Filter items by the mods they come from. Place in a router module's filter like any other item.${br}• Right-click: view/configure.,"アイテムがから来るModでアイテムをフィルターします。他のアイテムと同じようにルーターモジュールのフィルターに配置します。
@@ -569,8 +569,8 @@ modularrouters.guiText.label.playerSect.MAIN,Main Inventory,メインインベ�
 modularrouters.guiText.label.playerSect.MAIN_NO_HOTBAR,Main Inventory (no Hotbar),メインインベントリ(ホットバーなし)
 modularrouters.guiText.label.playerSect.OFFHAND,Offhand Slot,オフハンドスロット
 modularrouters.guiText.tooltip.BACK,Back,戻る
-modularrouters.guiText.tooltip.BLACKLIST.1,Whitelist${br}The module will run only if the filter matches.${br}An empty whitelist will never allow the module to run.,ホワイトリスト${br}フィルターにマッチした場合のみモジュールが実行されます。${br}空のホワイトリストはモジュールを実行させません。
-modularrouters.guiText.tooltip.BLACKLIST.2,Blacklist${br}The module will not run if the filter matches.${br}An empty blacklist will always allow the module to run.,ブラックリスト${br}フィルターにマッチした場合、モジュールは実行されません。${br}空のブラックリストは常にモジュールを実行させます。
+modularrouters.guiText.tooltip.BLACKLIST.1,Whitelist${br}The module will run only if the filter matches.${br}An empty whitelist will never allow the module to run.,白リスト${br}フィルターにマッチした場合のみモジュールが実行されます。${br}空の白リストはモジュールを実行させません。
+modularrouters.guiText.tooltip.BLACKLIST.2,Blacklist${br}The module will not run if the filter matches.${br}An empty blacklist will always allow the module to run.,黒リスト${br}フィルターにマッチした場合、モジュールは実行されません。${br}空の黒リストは常にモジュールを実行させます。
 modularrouters.guiText.tooltip.DOWN,Down,下
 modularrouters.guiText.tooltip.FRONT,Front,前
 modularrouters.guiText.tooltip.IGNORE_DAMAGE.1,Match Item Damage${br}Distinguish between damageable items of the same type with different damage levels,アイテム耐久度を区別${br}異なる耐久度レベルの同じタイプの耐久度アイテムを区別します
@@ -623,7 +623,7 @@ modularrouters.itemText.misc.IGNORE_DAMAGE,Damage,ダメージ
 modularrouters.itemText.misc.IGNORE_NBT,NBT,
 modularrouters.itemText.misc.IGNORE_TAGS,Tags,タグ
 modularrouters.itemText.misc.modFilter.count,• %d mod(s) in filter,• %d個のModがフィルターに含まれます
-modularrouters.chatText.targetValidation.BAD_DIMENSION,§c✘ Dimension Blacklisted,§c✘ ディメンションがブラックリストされています
+modularrouters.chatText.targetValidation.BAD_DIMENSION,§c✘ Dimension Blacklisted,§c✘ ディメンションが黒リストされています
 item.blank_module.name,Blank Module,空のモジュール
 item.receiver_module.name,Receiver Module,受信モジュール
 item.puller_module.name,Puller Module Mk1,プルモジュールMk1
@@ -676,15 +676,15 @@ item.pushing_augment.name,Pushing Augment,押し出しオーグメント
 item.GuideBook.name,§l§nModular Routers,§nモジュラールーター
 tile.item_router.name,Item Router,アイテム分別器
 tile.template_frame.name,Template Frame,テンプレートフレーム
-guiText.tooltip.BLACKLIST.1,Whitelist\nAn empty whitelist will match nothing.,ホワイトリスト\\n空のホワイトリストは何も一致しません。
-guiText.tooltip.IGNORE_META.1,Match Metadata\ne.g. distinguish between different colors of wool,メタデータを一致させる\n例：ウールの色を区別する
+guiText.tooltip.BLACKLIST.1,Whitelist\nAn empty whitelist will match nothing.,白リスト\\n空の白リストは何も一致しません。
+guiText.tooltip.IGNORE_META.1,Match Metadata\ne.g. distinguish between different colors of wool,メタデータを一致させる\n例：羊毛の色を区別する
 guiText.tooltip.IGNORE_NBT.1,Match NBT\ne.g. take the enchantments on an item into account when matching,NBTを照合\n例：アイテムに付与されたエンチャントを考慮してマッチさせる
 guiText.tooltip.IGNORE_OREDICT.1,"Use Oredict\nItems with the same ore dictionary tag (e.g. ""oreIron"") as any item in the filter will match","Oredictを使用
 フィルターのアイテムと同じ鉱物辞書タグ（例：""oreIron""）を持つアイテムが一致します"
 guiText.tooltip.TERMINATE.1,"Continue Execution on Match\nThe item router will continue executing subsequent modules, even if this module processes an item.","マッチ時に実行を継続
 このモジュールがアイテムを処理しても、アイテムルーターは後続のモジュールを実行し続けます。"
-guiText.tooltip.BLACKLIST.2,Blacklist\nAn empty blacklist will match everything.,ブラックリスト\\n空のブラックリストはすべてにマッチします。
-guiText.tooltip.IGNORE_META.2,Ignore Metadata\ne.g. adding a wool to the filter will match any color of wool,メタデータを無視する\\ne.g. フィルターにウールを追加すると、任意の色のウールが一致します
+guiText.tooltip.BLACKLIST.2,Blacklist\nAn empty blacklist will match everything.,黒リスト\\n空の黒リストはすべてにマッチします。
+guiText.tooltip.IGNORE_META.2,Ignore Metadata\ne.g. adding a wool to the filter will match any color of wool,メタデータを無視する\\ne.g. フィルターに羊毛を追加すると、任意の色の羊毛が一致します
 guiText.tooltip.IGNORE_NBT.2,Ignore NBT\ne.g. ignore the enchantments on an item when matching,NBTを無視する\n例：アイテムのエンチャントをマッチ時に無視する
 guiText.tooltip.IGNORE_OREDICT.2,Don't use Oredict,Oredictを使用しないでください
 guiText.tooltip.TERMINATE.2,"Terminate Execution on Match\nIf this module processes an item, the item router won't execute any subsequent modules on this tick.","マッチ時に実行を終了
@@ -877,7 +877,7 @@ gui.config.ctgy.module.tooltip,Config settings for Item Router Modules,アイテ
 gui.config.ctgy.misc,Misc,その他
 gui.config.ctgy.misc.tooltip,Miscellaneous settings,その他の設定
 gui.config.baseTickRate,Base router tick rate (with no Speed Upgrades),基本ルーターティックレート(スピードアップグレード無し)
-gui.config.ticksPerUpgrade,Tick rate reduction (speedup) per Speed Upgrade,Speed Upgradeごとのティックレート減少（高速化）
+gui.config.ticksPerUpgrade,Tick rate reduction (speedup) per Speed Upgrade,スピードアップグレードごとのティックレート減少（高速化）
 gui.config.hardMinTicks,Hard minimum (fastest) router tick rate,ハード最小値（最速）ルーターのティック速度
 gui.config.senderParticles,Show particle effects when a Sender Module sends an item,センダーモジュールがアイテムを送信する際にパーティクル効果を表示
 gui.config.pullerParticles,Show particle effects when a Puller Module pulls an item,プルモジュールがアイテムをプルする際にパーティクル効果を表示
@@ -909,8 +909,8 @@ itemText.misc.holdCtrl,Hold §e§oCtrl§r§7 for info,情報を表示するに�
 itemText.misc.moduleCount,§fModules: §b%d,§fモジュール: §b%d
 itemText.misc.upgradeCount,§f%s: §b%d,
 itemText.misc.routerConfigured,§oThis router has been configured,§oこのルータは設定されています
-itemText.misc.whitelist,Whitelist,ホワイトリスト
-itemText.misc.blacklist,Blacklist,ブラックリスト
+itemText.misc.whitelist,Whitelist,白リスト
+itemText.misc.blacklist,Blacklist,黒リスト
 itemText.misc.noItems,Empty,空
 itemText.misc.IGNORE_META,Meta,メタ
 itemText.misc.IGNORE_NBT,NBT,
@@ -993,7 +993,7 @@ itemText.usage.item.sync_upgrade,Makes routers activate together.\n• Right-cli
 • 右クリック：チューニングGUIを開く
 • Sneak + 右クリック：ランダムな値にチューニング。
 • 同じチューニングSyncアップグレード（およびスピードアップグレードの同じ数）を持つすべてのルーターが同時に実行されます。"
-itemText.usage.item.fluid_upgrade,Increases the amount of fluid a router can transfer (in each direction) by %d mB/tick.,ルータが転送できる流体量（各方向）を %d mB/tick だけ増加させます。
+itemText.usage.item.fluid_upgrade,Increases the amount of fluid a router can transfer (in each direction) by %d mB/tick.,ルータが転送できる流体量（各方向）を %d mB/ティック だけ増加させます。
 itemText.usage.item.fluidUpgradeRouter,• This router's transfer rate: %d mB/tick,• このルーターの転送速度: %dmB/ティック
 itemText.usage.item.muffler_upgrade,Suppresses sound & particle effects from routers/modules:\n• 1 upgrade will suppress sound effects\n• 2 or more will also suppress particle effects\n• 3 or more will also suppress the router-active animation.,"ルーター/モジュールからの音と粒子効果を抑制します：
 • 1つのアップグレードは音効果を抑制します

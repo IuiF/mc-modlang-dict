@@ -13,13 +13,13 @@ cci.command.profile.profileChanged,Profile changed!,プロフィールが変更�
 cci.command.reconnect.failed,Failed to reconnect %s,再接続に失敗しました %s
 cci.command.replay.indexTooHigh,Index too high!,インデックスが高すぎます！
 cci.command.replay.noCache,No cache for %s found.,指定された %s にはキャッシュが存在しません。
-cci.command.replay.noEvents,No events logged for %s.,%s のイベントはログされていません。
-cci.command.toggleBlacklist,Blacklist now set to %s,ブラックリストが %s に設定されました
-cci.command.userAlreadyWhitelisted,That user is already whitelisted.,そのユーザーは既にホワイトリスト入りです。
+cci.command.replay.noEvents,No events logged for %s.,%s のイベントはログに記録されていません。
+cci.command.toggleBlacklist,Blacklist now set to %s,黒リストが %s に設定されました
+cci.command.userAlreadyWhitelisted,That user is already whitelisted.,そのユーザーは既に白リスト入りです。
 cci.command.userDewhitelisted,%s removed from whitelist.,%s が白リストから削除されました。
-cci.command.userNotWhitelisted,%s not whitelisted.,%s はホワイトリストにありません。
-cci.command.userWhitelisted,Whitelisted %s.,ホワイトリストに登録されました %s。
-cci.command.whitelist.client,You are trying to whitelist another user from a client! It has to be done on the server console!,クライアントから別ユーザーをホワイトリスト登録しようとしています！サーバーコンソールで行う必要があります。
+cci.command.userNotWhitelisted,%s not whitelisted.,%s は白リストにありません。
+cci.command.userWhitelisted,Whitelisted %s.,白リストに登録されました %s。
+cci.command.whitelist.client,You are trying to whitelist another user from a client! It has to be done on the server console!,クライアントから別ユーザーを白リスト登録しようとしています！サーバーコンソールで行う必要があります。
 cci.component.ArithmeticCondition.calc,"Function to use: +, -, x, /, pow, sqrt, mod, max, min, round, floor, ceil, log, signum, abs, sin, cos, tan, asin, acos, atan. Trigonometric functions uses degrees. Some operations only use the first variable.",使用する関数: +、-、x、/、pow、sqrt、mod、max、min、round、floor、ceil、log、signum、abs、sin、cos、tan、asin、acos、atan。三角関数は度数法を使用します。一部の操作は最初の変数のみを使用します。
 cci.component.ArithmeticCondition.description,Do simple arithmetic calculations on variables. Inserts 0 if something failed. Will always return a double-type number. Use round/floor/ceil to convert value1 to a integer-type (whole number).,変数に対して簡単な算術計算を実行します。失敗した場合は 0 が挿入されます。常に double 型の数値を返します。round/floor/ceil を使用して value1 を整数型（整数）に変換します。
 cci.component.ArithmeticCondition.value1,"First value, can be a variable name or number.",最初の値は変数名または数字です。
@@ -68,12 +68,12 @@ cci.component.CCISendEventToSocketOutcome.configType,The name of the Socket you 
 cci.component.CCISendEventToSocketOutcome.description,Sends the variables for this event to another Socket.,このイベントの変数を別のソケットへ送ります。
 cci.component.CCISendEventToSocketOutcome.eventType,The event type for this Event.,このイベントのイベントタイプ。
 cci.component.CCISendEventToSocketOutcome.platform,The platform for this Event. Can be null.,このイベントのプラットフォーム。null になる可能性があります。
-cci.component.CCISendToPlayerOutcome.description,Sends an Outcome to another whitelisted player.,ホワイトリストに登録されている別のプレイヤーに結果を送信します。
+cci.component.CCISendToPlayerOutcome.description,Sends an Outcome to another whitelisted player.,白リストに登録されている別のプレイヤーに結果を送信します。
 cci.component.CCISendToPlayerOutcome.error.notFound,[CCI] Player %s not found.,[CCI] プレイヤー %s を見つけることができません。
 cci.component.CCISendToPlayerOutcome.error.notWhitelisted,[CCI] %s is not whitelisted.,[CCI] %sは白リストにありません。
 cci.component.CCISendToPlayerOutcome.outcome,The outcome to trigger on the player.,プレイヤーでトリガーする結果。
 cci.component.CCISendToPlayerOutcome.player,The player name you are targeting.,ターゲットにするプレイヤーの名前
-cci.component.CCISendToPlayerOutcome.silenceErrors,"If you want to disable error messages (player not whitelisted, player not found).",エラーメッセージ（プレイヤーがホワイトリストにいない、プレイヤーが見つからない）を無効化したい場合。
+cci.component.CCISendToPlayerOutcome.silenceErrors,"If you want to disable error messages (player not whitelisted, player not found).",エラーメッセージ（プレイヤーが白リストにいない、プレイヤーが見つからない）を無効化したい場合。
 cci.component.ChatMessageOutcome.description,Use this outcome to send put a message in chat if the player is in the world.,プレイヤーがワールド内にいるかどうかを確認し、チャットにメッセージを送信するアウトカムとして使用
 cci.component.ChatMessageOutcome.inActionBar,Put the message in the player's Action Bar instead?,メッセージをプレイヤーのアクションバーに表示しますか？
 cci.component.ChatMessageOutcome.message,Message to send. Supports Minecraft's Text Formatting,送信するメッセージ。Minecraft のテキストフォーマットに対応しています
@@ -468,7 +468,7 @@ cci.config.defaultProfile,"Default profile name. If set to ""default"", loads fr
 cci.config.disallowedCommands,"Disallowed Commands. These commands are prevented from being executed by CommandOutcome. EG: To disable ""/time set day"", add the ""time"" command to the list. Does not cover for aliases (EG: /tp and /teleport)",禁止されたコマンド。これらのコマンドは CommandOutcome によって実行されるのがブロックされます。例：「/time set day」を無効にするには、「time」コマンドをリストに追加します。エイリアスはカバーしていません（「/tp」と「/teleport」など）。
 cci.config.donationAlertsTokens,Tokens for DonationAlerts. One token per line.,DonationAlerts のトークン。1行に1つずつ。
 cci.config.editorGuiScale,Adjust the scale of the Event Configuration editor. Setting it to 0 makes it follow Minecraft's GUI scale. Set to -1 to do nothing.,イベント構成エディタのスケールを調整します。0 に設定すると、Minecraft の GUI スケールに従います。-1 に設定すると何もしません。
-cci.config.enableBlacklist,Converts the list of whitelisted users to be the list of blacklisted users.,ホワイトリストユーザーのリストをブラックリストユーザーのリストに変換します。
+cci.config.enableBlacklist,Converts the list of whitelisted users to be the list of blacklisted users.,白リストユーザーのリストを黒リストユーザーのリストに変換します。
 cci.config.enableInformationToasts,The sockets we use can be unreliable at times. Turn this on to get toasts about their status and other events.,使用しているソケットは不安定な場合があります。これをオンにすると、ステータスや その他のイベントに関するトーストが表示されます。
 cci.config.firstRun,Keeping this on/true makes CCI trigger the first run wizard settings. Turned off by CCI later.,これをオン/trueにするとCCIが最初の実行ウィザード設定をトリガーします。後でCCIによってオフになります。
 cci.config.general,This mod is a product of way too many hours of development and testing and is provided free to bridge the gap between content creators and their supporters. Consider donating to the mod author via the CurseForge page!,このモッドは何時間も開発とテストを費やし、無料で提供されており、コンテンツクリエーターと彼らのサポーターのギャップを埋めるためのものです。CurseForge ページからモッド作成者への寄付を検討してください。
@@ -502,7 +502,7 @@ cci.config.twitch.pubsub.twitchOauthTokens,"We need an OAuth token with the foll
 cci.config.twitchChats,"Twitch channels' chat to listen to. One channel per line.
 We also support OAuth keys, append to the end of the name after a colon (:). EG: ""ohaiichun:<oauthkey>""","リッスンする Twitch チャネルのチャット。1 行に 1 つのチャネル。
 OAuth キーもサポートしています。名前の末尾の後にコロン（:）を付け加えます。例：「ohaiichun:<oauthkey>」"
-cci.config.whitelistedUsers,Whitelisted Users. These users will be able to trigger serverside outcomes.,ホワイトリストユーザー。これらのユーザーはサーバー側で結果をトリガーできます。
+cci.config.whitelistedUsers,Whitelisted Users. These users will be able to trigger serverside outcomes.,白リストユーザー。これらのユーザーはサーバー側で結果をトリガーできます。
 cci.config.youtube.apiKey,"We need a Google API key to connect to chats. Follow the instructions on this page, in the ""Before you start"" section: https://developers.google.com/youtube/v3/live/getting-started#before-you-start .
 
 The API Key we need is the one defined in the link in Step 2: Register your application.","チャットに接続するには Google API キーが必要です。このページの「始める前に」セクションの指示に従います: https://developers.google.com/youtube/v3/live/getting-started#before-you-start 。

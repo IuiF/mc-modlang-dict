@@ -300,10 +300,10 @@ config.buildinggadgets.general.absoluteCoordDefault,Default to absolute Coord-Mo
 config.buildinggadgets.general.absoluteCoordDefault.tooltip,"Determines if the Copy/Paste GUI's coordinate mode starts in 'Absolute' mode by default.\n Set to true for Absolute, set to False for Relative.",コピペのガジェットのGUIで、絶対値モードをデフォルトにするかを設定します。\ntrueにすると絶対値がデフォルト、falseにすると相対値がデフォルトになります。
 config.buildinggadgets.general.canOverwriteBlocks,Allow non-Air-Block-Overwrite,空気以外のブロックの上書きを許容する
 config.buildinggadgets.general.canOverwriteBlocks.tooltip,"Whether the Building / CopyPaste Gadget can overwrite blocks like water, lava, grass, etc (like a player can).\n False will only allow it to overwrite air blocks.",建築／コピペのガジェットで空気ブロック以外（水、溶岩、草など）にも配置できるようにするか（プレイヤーが行うかのように）を設定します。\nfalseにすると、空気ブロックだけに配置します。
-config.buildinggadgets.general.subCategoryBlacklist,Blacklist Settings,ブラックリスト設定
-config.buildinggadgets.general.subCategoryBlacklist.tooltip,Configure your Blacklist-Settings here,ブラックリストの設定を行います
-config.buildinggadgets.general.subCategoryBlacklist.blockBlacklist,Blacklisted Blocks,ブラックリストされたブロック
-config.buildinggadgets.general.subCategoryBlacklist.blockBlacklist.tooltip,"All Blocks added to this will be treated similar to TileEntities. Not at all. \nNotice that you can use Regular Expressions as defined by Java Patterns to express more complex name combinations. \nUse for example ""awfulmod:.*"" to blacklist all awfulmod Blocks.","ここに追加されたブロックは、タイルエンティティと同様に扱われます。\nJavaの正規表現の表記を用いて複雑なパターンの表現も可能です。\n例えば、""awfulmod:.*""と書くと、awfulmodというModIDのアイテム全てがブラックリストになります。"
+config.buildinggadgets.general.subCategoryBlacklist,Blacklist Settings,黒リスト設定
+config.buildinggadgets.general.subCategoryBlacklist.tooltip,Configure your Blacklist-Settings here,黒リストの設定を行います
+config.buildinggadgets.general.subCategoryBlacklist.blockBlacklist,Blacklisted Blocks,黒リストされたブロック
+config.buildinggadgets.general.subCategoryBlacklist.blockBlacklist.tooltip,"All Blocks added to this will be treated similar to TileEntities. Not at all. \nNotice that you can use Regular Expressions as defined by Java Patterns to express more complex name combinations. \nUse for example ""awfulmod:.*"" to blacklist all awfulmod Blocks.","ここに追加されたブロックは、タイルエンティティと同様に扱われます。\nJavaの正規表現の表記を用いて複雑なパターンの表現も可能です。\n例えば、""awfulmod:.*""と書くと、awfulmodというModIDのアイテム全てが黒リストになります。"
 config.buildinggadgets.general.subCategoryGadgets,Gadgets,ガジェット
 config.buildinggadgets.general.subCategoryGadgets.tooltip,Configure the Gadgets here,ガジェット毎の設定を行います
 config.buildinggadgets.general.subCategoryGadgets.maxRange,Maximum allowed Range,最大許容範囲

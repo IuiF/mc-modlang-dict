@@ -476,7 +476,7 @@ block.energizedpower.press_mold_maker,Press Mold Maker,プレス型作成機
 block.energizedpower.pulverizer,Pulverizer,粉砕機
 block.energizedpower.raw_tin_block,Block of Raw Tin,生のスズブロック
 block.energizedpower.reinforced_advanced_machine_frame,Reinforced Advanced Machine Frame,強化された高度なマシンフレーム
-block.energizedpower.sawdust_block,Block of Sawdust,スワーダストブロック
+block.energizedpower.sawdust_block,Block of Sawdust,スワーの粉ブロック
 block.energizedpower.sawmill,Sawmill,製材機
 block.energizedpower.silicon_block,Block of Silicon,シリコンブロック
 block.energizedpower.solar_panel_1,Solar Panel (Tier I),ソーラーパネル（ティアI）
@@ -617,7 +617,7 @@ book.energizedpower.page.energy_blocks.table_of_contents.title,"Table of Content
 book.energizedpower.page.energy_capacity_upgrades,Energy Capacity Upgrades increase the energy storage capacity and the energy transfer rate.,エネルギー容量アップグレードは、エネルギー貯蔵容量と転送速度を増加させます。
 book.energizedpower.page.energy_efficiency_upgrades,Energy Efficiency Upgrades reduce the energy consumption.,エネルギー効率アップグレードは電力消費を減らす
 book.energizedpower.page.extraction_depth_upgrades,Extraction Depth Upgrades increase the depth a machine can operate in.,抽出深度アップグレードはマシンが操作できる深さを増加させます。
-book.energizedpower.page.extraction_range_upgrades,Extraction Range Upgrades increase the range a machine can operate in.,Extraction Range Upgradesは、機械が操作できる範囲を増やします。
+book.energizedpower.page.extraction_range_upgrades,Extraction Range Upgrades increase the range a machine can operate in.,抽出範囲アップグレードは、機械が操作できる範囲を増やします。
 book.energizedpower.page.factory.1,The factory building contains some machines and something interesting in the center of the building. It can be found in Forest and Flower Forest biomes.,ファクトリー建物にはいくつかの機械と建物の中央に興味深いものが含まれています。森とフラワーフォレストバイオームで見つけることができます。
 book.energizedpower.page.factory.title,Factory Building,工場建物
 book.energizedpower.page.fertilizers,Fertilizers can be used to make the Plant Growth Chamber faster.,肥料は植物成長室の速度を上げるために使用できます
@@ -668,7 +668,7 @@ book.energizedpower.page.item_conveyor_belt_sorter.4,"The outputs are color code
 book.energizedpower.page.item_conveyor_belt_sorter.5,"The item will be routed to the first output where the filter matched (Priority: OUT 1, OUT 2, OUT 3).",アイテムはフィルターが一致した最初の出力にルーティングされます（優先度：OUT 1、OUT 2、OUT 3）。
 book.energizedpower.page.item_conveyor_belt_sorter.6,The filter matches if at least one pattern item of the output filter row matches the input item.,フィルタは、出力フィルタ行の少なくとも1つのパターンアイテムが入力アイテムと一致する場合にマッチします。
 book.energizedpower.page.item_conveyor_belt_sorter.7,Pattern items can be placed by taking the item from the inventory and left-clicking a pattern slot. The filter can be reset by left-clicking without an item.,パターンアイテムはインベントリからアイテムを取得してパターンスロットを左クリックすることで配置できます。フィルターはアイテムなしで左クリックしてリセットできます。
-book.energizedpower.page.item_conveyor_belt_sorter.8,To allow any items select blacklist without any pattern items. If an output is not connected the filter should be set to whitelist without any pattern items.,任意のアイテムを許可するには、パターンアイテムなしでブラックリストを選択してください。出力が接続されていない場合、フィルターはパターンアイテムなしでホワイトリストに設定する必要があります。
+book.energizedpower.page.item_conveyor_belt_sorter.8,To allow any items select blacklist without any pattern items. If an output is not connected the filter should be set to whitelist without any pattern items.,任意のアイテムを許可するには、パターンアイテムなしで黒リストを選択してください。出力が接続されていない場合、フィルターはパターンアイテムなしで白リストに設定する必要があります。
 book.energizedpower.page.item_conveyor_belt_sorter.9,A redstone signal of strength 15 will be emitted if no filter matches (If no output is connected or if it is full no redstone signal will be emitted).,フィルターが一致しない場合、強度15のレッドストーン信号が発出されます（出力が接続されていない、または満杯の場合、レッドストーン信号は発出されません）。
 book.energizedpower.page.item_conveyor_belt_splitter,The Item Conveyor Belt Splitter takes items from the input conveyor belt (Must face the large square and must not be ascending) and puts them evenly on the connected output conveyor belts.,アイテムコンベアベルトスプリッターはインプットコンベアベルトからアイテムを取得し（大きな正方形に面する必要があり、上昇していない必要があります）、接続された出力コンベアベルトに均等に配置します。
 book.energizedpower.page.item_conveyor_belt_switch.1,The Item Conveyor Belt Switch takes items from the input conveyor belt (Must face the large square and must not be ascending) and puts them onto the output conveyor belt on the side with the green indicator.,アイテムコンベアベルトスイッチはインプットコンベアベルトからアイテムを取得し（大きな正方形に面する必要があり、上昇していない必要があります）、緑のインジケーターがある側の出力コンベアベルトに配置します。
@@ -711,10 +711,10 @@ book.energizedpower.page.redstone_mode_configuration.2,Ignore: The machine is al
 book.energizedpower.page.redstone_mode_configuration.3,High: The machine is only active if a redstone signal of strength 1 or higher is present,高：レッドストーン信号強度1以上がある場合のみ機械が作動します
 book.energizedpower.page.redstone_mode_configuration.4,Low: The machine is only active if no redstone signal is present,Low: マシンはレッドストーン信号がないときのみアクティブです
 book.energizedpower.page.saw_blade,The saw blade is an ingredient which is used to craft the sawmill.,ノコギリ刃はサウンドミルを作るために使用される材料です。
-book.energizedpower.page.sawdust.1,Sawdust is a by-product produced by the sawmill and can be crafted to sawdust blocks.,サウダストはサイダーミルで生成される副産物で、サウダストブロックにクラフトできます。
+book.energizedpower.page.sawdust.1,Sawdust is a by-product produced by the sawmill and can be crafted to sawdust blocks.,サウの粉はサイダーミルで生成される副産物で、サウの粉ブロックにクラフトできます。
 book.energizedpower.page.sawdust.2,Sawdust blocks can be burned to charcoal.,サワードストーブブロックは木炭として燃やせます。
 book.energizedpower.page.sawmill.1,The Sawmill can saw wood blocks and items.,サーマルミルは木材ブロックとアイテムをノコギリで切断できます。
-book.energizedpower.page.sawmill.2,Sawdust will be produced which can be crafted to sawdust blocks which can be used as fuel.,サウダストが生成され、これをブロックに加工して燃料として使用できます。
+book.energizedpower.page.sawmill.2,Sawdust will be produced which can be crafted to sawdust blocks which can be used as fuel.,サウの粉が生成され、これをブロックに加工して燃料として使用できます。
 book.energizedpower.page.silicon.1,Silicon is an ingredient used in many crafting recipes of this mod.,シリコンはこのモッドの多くのクラフトレシピで使われる材料です。
 book.energizedpower.page.silicon.2,It can be crafted by smelting or blasting nether quartz.,ネザークォーツを溶解またはブラスティングでクラフトできます。
 book.energizedpower.page.small_solar_farm.1,"The small solar farm is a structure with some Solar Panels producing energy. It can be found in Desert, Badlands, and Savanna biomes.",小さなソーラーファームはエネルギーを生成するいくつかのソーラーパネルを持つ構造です。砂漠、荒地、およびサバンナバイオームで見つけることができます。
@@ -734,7 +734,7 @@ book.energizedpower.page.teleporter.2,It outputs a redstone signal if the Telepo
 book.energizedpower.page.teleporter.3.1,The Teleporter can be triggered manually by pressing,テレポーターは押すことで手動で発動できます
 book.energizedpower.page.teleporter.3.2,while above the Teleporter.,テレポーターの上にあるとき。
 book.energizedpower.page.teleporter_matrix.1,Teleporter Matrices are used for linking Teleporters.,テレポーターマトリクスはテレポーターをリンクするために使用されます。
-book.energizedpower.page.teleporter_matrix.2,The settings of a Teleporter Matrix can be copied by putting a linkend and one or more unlinked Teleporter Matricies into a Crafting Table.,テレポーターマトリックスの設定は、リンクされたテレポーターマトリックスと1つ以上のリンクされていないテレポーターマトリックスをクラフティングテーブルに配置することでコピーできます。
+book.energizedpower.page.teleporter_matrix.2,The settings of a Teleporter Matrix can be copied by putting a linkend and one or more unlinked Teleporter Matricies into a Crafting Table.,テレポーターマトリックスの設定は、リンクされたテレポーターマトリックスと1つ以上のリンクされていないテレポーターマトリックスをクラフトテーブルに配置することでコピーできます。
 book.energizedpower.page.thermal_generator.1,The Thermal Generator produces energy by consuming hot fluids.,熱流体を消費してエネルギーを生成するThermal Generator
 book.energizedpower.page.thermal_generator.2,"If you are playing a modpack, other hot fluids might be supported too.",モッドパックをプレイしている場合、他の熱い液体もサポートされる可能性があります。
 book.energizedpower.page.time_controller.1,The Time Controller can change the time of the day. It requires energy to do so.,Time Controllerは昼夜の時間を変更できます。エネルギーが必要です
@@ -756,7 +756,7 @@ book.energizedpower.page.welcome.3,You have found a bug or want to suggest a fea
 book.energizedpower.page.welcome.3.link,Issues,問題
 book.energizedpower.page.welcome.4,Discord server,Discordサーバー
 book.energizedpower.page.welcome.4.link,Discord,ディスコード
-book.energizedpower.page.welcome.5,Subreddit,サブレッド
+book.energizedpower.page.welcome.5,Subreddit,サブ赤
 book.energizedpower.page.welcome.title,Welcome to Energized Power!,エネルギーを駆動させる！
 book.energizedpower.page.wrench,The Wrench can be used to configure blocks.,レンチでブロックの設定が可能です。
 book.energizedpower.tooltip.link,Open link,リンクを開く
@@ -1070,7 +1070,7 @@ item.energizedpower.reinforced_advanced_solar_cell,Reinforced Advanced Solar Cel
 item.energizedpower.reinforced_advanced_upgrade_module,Reinforced Advanced Upgrade Module,強化された高度アップグレードモジュール
 item.energizedpower.rod_press_mold,Rod Press Mold,ロッドプレス型型
 item.energizedpower.sawdust,Sawdust,おがくず
-item.energizedpower.sawdust_block,Block of Sawdust,スワーダストブロック
+item.energizedpower.sawdust_block,Block of Sawdust,スワーの粉ブロック
 item.energizedpower.sawmill,Sawmill,製材機
 item.energizedpower.silicon,Silicon,シリコン
 item.energizedpower.silicon_block,Block of Silicon,シリコンブロック
@@ -1123,7 +1123,7 @@ painting.energizedpower.factory.title,Factory,工場
 painting.energizedpower.gear.author,JDDev0,
 painting.energizedpower.gear.title,Gear,ギア
 recipes.energizedpower.in_world_crafting,In-World Crafting,インワールドクラフト
-recipes.energizedpower.info.ticks,Ticks: %d,タッキ: %d
+recipes.energizedpower.info.ticks,Ticks: %d,ティック: %d
 recipes.energizedpower.plant_growth_chamber_fertilizer,Growth Chamber (Fertilizer),グロースチャンバー（肥料）
 recipes.energizedpower.plant_growth_chamber_fertilizer.energy_consumption_multiplier,%.2fx Energy Consumption,%.2fx エネルギー消費
 recipes.energizedpower.plant_growth_chamber_fertilizer.speed_multiplier,%.2fx Speed,%.2fx 速度
@@ -1208,9 +1208,9 @@ tooltip.energizedpower.inventory_coal_engine.txt.shift.energy_production_left,En
 tooltip.energizedpower.inventory_teleporter.txt.shift.1,Open the inventory by shift + right-clicking in the air.,空中でShift + 右クリックするとインベントリが開きます。
 tooltip.energizedpower.inventory_teleporter.txt.shift.2,Teleport by right-clicking in the air.,空中で右クリックしてテレポート
 tooltip.energizedpower.item_conveyor_belt.wrench_configuration.changed,Slope was set to %s.,勾配を %s に設定しました。
-tooltip.energizedpower.item_conveyor_belt_sorter.cbx.blacklist,Blacklist,ブラックリスト
+tooltip.energizedpower.item_conveyor_belt_sorter.cbx.blacklist,Blacklist,黒リスト
 tooltip.energizedpower.item_conveyor_belt_sorter.cbx.ignore_nbt,Ignore NBT,NBTを無視
-tooltip.energizedpower.item_conveyor_belt_sorter.cbx.whitelist,Whitelist,ホワイトリスト
+tooltip.energizedpower.item_conveyor_belt_sorter.cbx.whitelist,Whitelist,白リスト
 tooltip.energizedpower.item_conveyor_belt_sorter.label.output_connection.connection,Output %d: Belt connected,出力 %d: ベルトが接続されています
 tooltip.energizedpower.item_conveyor_belt_sorter.label.output_connection.no_connection,Output %d: No conveyor belt connected,出力%d: コンベアベルトが接続されていません
 tooltip.energizedpower.item_silo.amount,%d / %d items,%d / %d アイテム

@@ -43,7 +43,7 @@ jei.config.client.advanced,Advanced,高度
 jei.config.client.advanced.catchRenderErrorsEnabled,Catch Render Errors,レンダリングエラーのキャッチ
 jei.config.client.advanced.catchRenderErrorsEnabled.description,Catch render errors from modded ingredients and attempt to recover from them instead of crashing.,クラッシュさせる代わりに、Modのアイテムのレンダリングエラーをキャッチし、回復を試みるようになります。
 jei.config.client.advanced.description,Advanced config options to change the way JEI functions.,JEIの機能を変更する高度な設定。
-jei.config.client.advanced.itemBlacklist,Ingredient Blacklist,アイテムのブラックリスト
+jei.config.client.advanced.itemBlacklist,Ingredient Blacklist,アイテムの黒リスト
 jei.config.client.advanced.itemBlacklist.description,List of ingredients that should not be displayed in the ingredient list overlay. Format: modId[:name[:meta]]. The hide ingredients mode will automatically add or remove entries here.,アイテムリストに表示しないアイテムのリスト。形式：modId[:name[:meta]]。アイテム隠蔽モードでは、ここにアイテムが自動的に追加／削除されます。
 jei.config.client.advanced.maxColumns,Max Overlay Width,最大JEIオーバーレイ幅
 jei.config.client.advanced.maxColumns.description,The maximum width of the ingredient and bookmark list overlays.,アイテムリストの最大幅
@@ -313,7 +313,7 @@ config.jei.advanced.debugModeEnabled,Debug Mode,デバッグモード
 config.jei.advanced.debugModeEnabled.comment,"Only useful for JEI developers, adds test ingredients and some debug recipes.",JEIの開発者にとってのみ有用です。大量のテスト用アイテムといくつかのデバッグ用レシピを追加します。
 config.jei.advanced.giveMode,Give Mode,付与モード
 config.jei.advanced.giveMode.comment,Choose if JEI should give ingredients direct to the inventory (inventory) or pick them up with the mouse (mouse_pickup).,インベントリに直接アイテムに送るか (inventory)、マウスでアイテムを取得するか (mouse_pickup) を指定します。
-config.jei.advanced.itemBlacklist,Ingredient Blacklist,アイテムのブラックリスト
+config.jei.advanced.itemBlacklist,Ingredient Blacklist,アイテムの黒リスト
 config.jei.advanced.maxColumns,Max Overlay Width,最大JEIオーバーレイ幅
 config.jei.advanced.maxRecipeGuiHeight,Max Recipe GUI Height,最大レシピGUI高さ
 config.jei.advanced.maxRecipeGuiHeight.comment,The maximum height of the recipe GUI.,レシピGUIの最大の高さ

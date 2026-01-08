@@ -22,7 +22,7 @@ advancements.refinedstorage.exporting.description,Get items or fluids out of the
 advancements.refinedstorage.importing,Importing,インポート中
 advancements.refinedstorage.importing.description,Get items or fluids into the storage network with an Importer,インポーターでストレージネットワークにリソースを入れる
 advancements.refinedstorage.interface_to_the_world,Interface to the world,世界とのインターフェース
-advancements.refinedstorage.interface_to_the_world.description,Export and import items at the same time with an Interface,インターフェイスを使用してアイテムの搬入出を同時に行う
+advancements.refinedstorage.interface_to_the_world.description,Export and import items at the same time with an Interface,インターフェースを使用してアイテムの搬入出を同時に行う
 advancements.refinedstorage.interfacing_with_disks,Interfacing with disks,ディスクとのやり取り
 advancements.refinedstorage.interfacing_with_disks.description,Craft a Disk Interface to transfer resources between the storage network and storage disks,ストレージネットワークとストレージディスク間でリソースを転送するためのディスクインターフェースを作成する
 advancements.refinedstorage.managing_patterns,Managing patterns,パターンの管理
@@ -73,7 +73,7 @@ block.refinedstorage.creative_storage_block,Creative Storage Block,クリエイ�
 block.refinedstorage.destructor,Destructor,破壊器
 block.refinedstorage.detector,Detector,検出器
 block.refinedstorage.disk_drive,Disk Drive,ディスクドライブ
-block.refinedstorage.disk_interface,Disk Interface,ディスクインターフェイス
+block.refinedstorage.disk_interface,Disk Interface,ディスクインターフェース
 block.refinedstorage.exporter,Exporter,エクスポーター
 block.refinedstorage.external_storage,External Storage,外部ストレージ
 block.refinedstorage.grid,Grid,グリッド
@@ -362,7 +362,7 @@ item.refinedstorage.autocrafting_monitor.help,Displays the status of autocraftin
 item.refinedstorage.autocrafting_upgrade,Autocrafting Upgrade,オートクラフトアップグレード
 item.refinedstorage.autocrafting_upgrade.help,Will start an autocrafting task for missing resources.,不足しているリソースに対してオートクラフトタスクを発注します。
 item.refinedstorage.basic_processor,Basic Processor,基本プロセッサ
-item.refinedstorage.cable.help,"Connects storage network devices with each other. For full blocks, will connect to any color. For cable blocks, will only connect to the same color or to the default color (gray).",ストレージネットワークの機械同士を接続します。ブロックとは、あらゆる色と接続します。ケーブル同士では、同じ色またはデフォルトの色(グレー)とのみ接続します。
+item.refinedstorage.cable.help,"Connects storage network devices with each other. For full blocks, will connect to any color. For cable blocks, will only connect to the same color or to the default color (gray).",ストレージネットワークの機械同士を接続します。ブロックとは、あらゆる色と接続します。ケーブル同士では、同じ色またはデフォルトの色(灰色)とのみ接続します。
 item.refinedstorage.color_and_item_name,%s %s,
 item.refinedstorage.configuration_card,Configuration Card,設定カード
 item.refinedstorage.configuration_card.applied_configuration,Applied configuration.,設定を機械に適用しました。
@@ -525,7 +525,7 @@ tag.item.refinedstorage.crafting_grids,Crafting Grids,クラフトグリッド
 tag.item.refinedstorage.creative_controllers,Creative Controllers,クリエイティブコントローラー
 tag.item.refinedstorage.destructors,Destructors,破壊器
 tag.item.refinedstorage.detectors,Detectors,検出器
-tag.item.refinedstorage.disk_interfaces,Disk Interfaces,ディスクインターフェイス
+tag.item.refinedstorage.disk_interfaces,Disk Interfaces,ディスクインターフェース
 tag.item.refinedstorage.exporters,Exporters,エクスポーター
 tag.item.refinedstorage.external_storages,External Storages,外部ストレージ器
 tag.item.refinedstorage.fluid_storage_disks,Fluid Storage Disks,流体ストレージディスク
@@ -594,7 +594,7 @@ text.autoconfig.refinedstorage.option.diskDrive.energyUsage.tooltip,The energy u
 text.autoconfig.refinedstorage.option.diskDrive.energyUsagePerDisk,Energy usage per disk,ディスクあたりのエネルギー使用量
 text.autoconfig.refinedstorage.option.diskDrive.energyUsagePerDisk.tooltip,The energy used per disk.,ディスクごとに使用されるエネルギー。
 text.autoconfig.refinedstorage.option.diskDrive.tooltip,Configuration for the Disk Drive.,ディスクドライブの設定。
-text.autoconfig.refinedstorage.option.diskInterface,Disk Interface,ディスクインターフェイス
+text.autoconfig.refinedstorage.option.diskInterface,Disk Interface,ディスクインターフェース
 text.autoconfig.refinedstorage.option.diskInterface.energyUsage,Energy usage,エネルギー使用量
 text.autoconfig.refinedstorage.option.diskInterface.energyUsage.tooltip,The energy used by the Disk Interface.,ディスクインターフェースが使用するエネルギー。
 text.autoconfig.refinedstorage.option.diskInterface.energyUsagePerDisk,Energy usage per disk,ディスクあたりのエネルギー使用量
@@ -766,8 +766,8 @@ text.autoconfig.refinedstorage.option.wirelessTransmitter.energyUsage.tooltip,Th
 text.autoconfig.refinedstorage.option.wirelessTransmitter.tooltip,Configuration for the Wireless Transmitter.,無線発信器の設定。
 text.autoconfig.refinedstorage.title,Refined Storage Configuration,Refined Storageの設定
 advancements.refinedstorage.controlling.description,Craft a Controller,コントローラーをクラフトする
-advancements.refinedstorage.crafting_on_demand,Crafting on demand,クラフティング・オンデマンド
-advancements.refinedstorage.crafting_on_demand.description,"Use a Crafting Upgrade in a Interface, Exporter or Constructor to craft items and blocks on demand",インターフェースやエクスポーター、コンストラクターにクラフティングアップグレードを搭載してアイテムやブロックをオンデマンドで作る
+advancements.refinedstorage.crafting_on_demand,Crafting on demand,クラフト・オンデマンド
+advancements.refinedstorage.crafting_on_demand.description,"Use a Crafting Upgrade in a Interface, Exporter or Constructor to craft items and blocks on demand",インターフェースやエクスポーター、コンストラクターにクラフトアップグレードを搭載してアイテムやブロックをオンデマンドで作る
 advancements.refinedstorage.manipulating_disks,Manipulating disks,ディスク操作
 advancements.refinedstorage.manipulating_disks.description,Use a Disk Manipulator to easily modify contents of disks,ディスクマニピュレータを使用してディスクの中身を簡単に変更する
 advancements.refinedstorage.pattern_creation,Pattern creation,パターンを作成
@@ -987,8 +987,8 @@ sidebutton.refinedstorage.iomode,IO mode,搬入出
 sidebutton.refinedstorage.iomode.extract,Extract from network,ネットワークから抽出
 sidebutton.refinedstorage.iomode.insert,Insert into network,ネットワークに挿入
 sidebutton.refinedstorage.mode,Mode,モード
-sidebutton.refinedstorage.mode.blacklist,Blacklist,ブラックリスト
-sidebutton.refinedstorage.mode.whitelist,Whitelist,ホワイトリスト
+sidebutton.refinedstorage.mode.blacklist,Blacklist,黒リスト
+sidebutton.refinedstorage.mode.whitelist,Whitelist,白リスト
 sidebutton.refinedstorage.redstone_mode,Redstone mode,レッドストーン
 sidebutton.refinedstorage.redstone_mode.0,Ignore redstone signal,レッドストーン信号を無視
 sidebutton.refinedstorage.redstone_mode.1,Only work with redstone signal,レッドストーン入力時のみ動作
@@ -1143,8 +1143,8 @@ sidebutton.refinedstorage:grid.size.1,Small,小
 sidebutton.refinedstorage:grid.size.2,Medium,中
 sidebutton.refinedstorage:grid.size.3,Large,大型
 sidebutton.refinedstorage:mode,Mode,モード
-sidebutton.refinedstorage:mode.whitelist,Whitelist,ホワイトリスト
-sidebutton.refinedstorage:mode.blacklist,Blacklist,ブラックリスト
+sidebutton.refinedstorage:mode.whitelist,Whitelist,白リスト
+sidebutton.refinedstorage:mode.blacklist,Blacklist,黒リスト
 sidebutton.refinedstorage:iomode,IO mode,搬入出
 sidebutton.refinedstorage:iomode.insert,Insert into network,ネットワークに挿入
 sidebutton.refinedstorage:iomode.extract,Extract from network,ネットワークから抽出
@@ -1312,14 +1312,14 @@ advancements.refinedstorage:wireless_monitoring.description,Check the status of 
 advancements.refinedstorage:no_cables_required,No cables required,ケーブルは不要
 advancements.refinedstorage:upgrading,Upgrading,アップグレード
 advancements.refinedstorage:upgrading.description,Craft an Upgrade to improve various devices,アップグレードを作成して様々な機械を改良する
-advancements.refinedstorage:crafting_on_demand,Crafting on demand,クラフティング・オンデマンド
-advancements.refinedstorage:crafting_on_demand.description,"Use a Crafting Upgrade in a Interface, Exporter or Constructor to craft items and blocks on demand",インターフェースやエクスポーター、コンストラクターにクラフティングアップグレードを搭載してアイテムやブロックをオンデマンドで作る
+advancements.refinedstorage:crafting_on_demand,Crafting on demand,クラフト・オンデマンド
+advancements.refinedstorage:crafting_on_demand.description,"Use a Crafting Upgrade in a Interface, Exporter or Constructor to craft items and blocks on demand",インターフェースやエクスポーター、コンストラクターにクラフトアップグレードを搭載してアイテムやブロックをオンデマンドで作る
 advancements.refinedstorage:more_than_just_storage,More than just storage,ストレージ以上
 advancements.refinedstorage:more_than_just_storage.description,"Transfer items, fluids, energy and redstone from a Reader to a Writer",リーダーからライターへアイテム、液体、エネルギー、レッドストーンを転送
 advancements.refinedstorage:detecting,Detecting,検出中
 advancements.refinedstorage:detecting.description,Detect items or fluids in the network with the Detector,ストレージネットワークに保存されているリソースをレッドストーンを用いて確認する
 advancements.refinedstorage:interface_to_the_world,Interface to the world,世界とのインターフェース
-advancements.refinedstorage:interface_to_the_world.description,Export and import items at the same time with an Interface,インターフェイスを使用してアイテムの搬入出を同時に行う
+advancements.refinedstorage:interface_to_the_world.description,Export and import items at the same time with an Interface,インターフェースを使用してアイテムの搬入出を同時に行う
 advancements.refinedstorage:storing_externally,Storing externally,外部に保存
 advancements.refinedstorage:storing_externally.description,Use an External Storage to provide the network with storage from an external block like a chest,外部ストレージ器を使用して、ネットワークにチェストのような外部ブロックからストレージを用意する
 advancements.refinedstorage:covering,Covering,カバー

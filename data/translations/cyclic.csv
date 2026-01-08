@@ -320,7 +320,7 @@ block.cyclic.scaffold.guide,"Scaffolding is a cheap, easy to break block that ca
 block.cyclic.scaffold.guide.title,Scaffolding,スカフolding
 block.cyclic.scaffold_fragile,Fragile Scaffolding,壊れやすい足場
 block.cyclic.scaffold_fragile.guide,Decays over time.,時間経過で崩壊します。
-block.cyclic.scaffold_replace,Replaceable Scaffolding,交換可能なスカフolding
+block.cyclic.scaffold_replace,Replaceable Scaffolding,交換可能な足場
 block.cyclic.scaffold_replace.guide,Use a block on this to replace it.,このブロック上にブロックを使うと置き換わります。
 block.cyclic.scaffold_replace.tooltip,Angel placement in mid-air; Use a block on this to replace it,空中に設置可能；このブロック上のブロックを置き換えられます
 block.cyclic.scaffold_responsive,Responsive Scaffolding,反応する足場
@@ -531,8 +531,8 @@ cable.block.toggled.false,Restored cable connection,ケーブル接続を復元
 cable.block.toggled.true,Blocked cable connection,ケーブル接続をブロック
 chest_sack.error.config,Pickup disabled by config,設定で拾い取り禁止
 chest_sack.error.null,No tile entity found,タイルエンティティが見つかりません
-chest_sack.error.pickup,Error detected when attempting pickup - action cancelled (see logs for details),拾い上げ試行時にエラーが検出されました- アクションキャンセル(詳細はログを参照)
-chest_sack.error.place,Error detected when attempting to place - action cancelled (see logs for details),配置試行時にエラーが検出されました- アクションキャンセル(詳細はログを参照)
+chest_sack.error.pickup,Error detected when attempting pickup - action cancelled (see logs for details),拾い上げ試行時にエラーが検出されました- アクションキャンセル(詳細は原木を参照)
+chest_sack.error.place,Error detected when attempting to place - action cancelled (see logs for details),配置試行時にエラーが検出されました- アクションキャンセル(詳細は原木を参照)
 chunk.unloaded,Action failed; chunk not loaded,アクション失敗; チャンクが読み込まれていません
 colour.black,Black,黒
 colour.blue,Blue,青
@@ -574,7 +574,7 @@ curios.identifier.charm,Charm,チャーム
 curios.identifier.feet,Feet,足
 cyclic.beacon.entitytype.tooltip,Which entities are targeted,どのエンティティをターゲットにするか
 cyclic.clock.delay,Delay (ticks),遅延(ティック)
-cyclic.clock.duration,Duration (ticks),持続時間（タッキ）
+cyclic.clock.duration,Duration (ticks),持続時間（ティック）
 cyclic.clock.power,Power,力
 cyclic.detector.compare.tooltip,How to compare count to the limit,数を制限と比較する方法
 cyclic.detector.compare0,Less,減らす
@@ -1120,7 +1120,7 @@ item.cyclic.prospector,Ore Prospector,鉱石探検家
 item.cyclic.prospector.guide,Searches out for ores behind the block you click on.  Uses the forge:ores block tag,クリックしたブロックの後ろにある鉱石を探します。forge:oresブロックタグを使用します
 item.cyclic.prospector.tooltip,Detects ores nearby,近くの鉱石を検出
 item.cyclic.push,Piston Scepter,ピストンの scepter
-item.cyclic.push.guide,"This tool has three modes: Push, Pull, Rotate.  Change mode using attack (Left-Click).  Push and pull work similar to a piston, moving the block as long as there is an air block where it is moving; and it also moves tile entities with their data (full chests/furnaces/etc).  Rotate mode will try to spin the block around on its axis, such as log positioning, or halfslabs and stairs moving to alternate orientations.",このツールには3つのモードがあります：プッシュ、プル、ロテート。攻撃（左クリック）を使用してモードを変更します。プッシュとプルはピストンと同じように機能し、移動先に空ブロックがある限りブロックを移動させます。タイルエンティティもそのデータと共に移動させます（満杯のチェスト/かまど/など）。ロテートモードはブロックを軸上で回転させようとします。ログの配置方向や、ハーフハーフブロックと階段が別の方向に移動するなどの場合です。
+item.cyclic.push.guide,"This tool has three modes: Push, Pull, Rotate.  Change mode using attack (Left-Click).  Push and pull work similar to a piston, moving the block as long as there is an air block where it is moving; and it also moves tile entities with their data (full chests/furnaces/etc).  Rotate mode will try to spin the block around on its axis, such as log positioning, or halfslabs and stairs moving to alternate orientations.",このツールには3つのモードがあります：プッシュ、プル、ロテート。攻撃（左クリック）を使用してモードを変更します。プッシュとプルはピストンと同じように機能し、移動先に空ブロックがある限りブロックを移動させます。タイルエンティティもそのデータと共に移動させます（満杯のチェスト/かまど/など）。ロテートモードはブロックを軸上で回転させようとします。原木の配置方向や、ハーフハーフブロックと階段が別の方向に移動するなどの場合です。
 item.cyclic.quiver_damage,Crusader's Quiver,十字軍のクイバー
 item.cyclic.quiver_damage.guide,Arrow damage increased while this is worn in inventory or curios.  Can be disabled with right click just like other baubles,インベントリまたは好奇心で装備中に矢のダメージが増加します。他のボール同様、右クリックで無効化できます
 item.cyclic.quiver_damage.tooltip,Arrow damage increased by 50%,矢のダメージが50%増加
@@ -1137,7 +1137,7 @@ item.cyclic.redstone_carrot_speed,Redstone Carrot,レッドストーンのニン
 item.cyclic.redstone_carrot_speed.tooltip,Increase horse speed,馬の速度を上昇させます
 item.cyclic.replace_scepter,Building Scepter (exchange),ビルディング・セプター(交換)
 item.cyclic.rotate,Wooden Wrench,木製のレンチ
-item.cyclic.rotate.guide,"Attempts to rotate the targeted block while respecting the same material type.  So it will turn a log to a different angle, but will not turn oak planks into spruce planks.  This can be used to get vanilla only blocks that are otherwise un-obainable blocks, like smooth stone double slabs with the flat side, extra smooth sandstone, and a log with bark on all six sides.",対象ブロックを回転させようとしますが、同じ材質を尊重します。ログを別の角度に回転させますが、オークの板をトウヒの板に変えることはありません。これを使用して、スムーズストーン二重ハーフブロックのフラット側、追加のスムーズサンドストーン、6面すべてに樹皮がついたログなど、通常は入手できないバニラオンリーブロックを取得できます。
+item.cyclic.rotate.guide,"Attempts to rotate the targeted block while respecting the same material type.  So it will turn a log to a different angle, but will not turn oak planks into spruce planks.  This can be used to get vanilla only blocks that are otherwise un-obainable blocks, like smooth stone double slabs with the flat side, extra smooth sandstone, and a log with bark on all six sides.",対象ブロックを回転させようとしますが、同じ材質を尊重します。原木を別の角度に回転させますが、オークの板をトウヒの板に変えることはありません。これを使用して、スムーズストーン二重ハーフブロックのフラット側、追加のスムーズ砂岩、6面すべてに樹皮がついた原木など、通常は入手できないバニラオンリーブロックを取得できます。
 item.cyclic.rotate.tooltip,Rotates simple blocks/machines if they are able,対応していれば、シンプルなブロック/機械を回転させます
 item.cyclic.sandstone_axe,Sandstone Axe,砂岩の斧
 item.cyclic.sandstone_gear.guide,The sandstone tools are slightly below stone quality but better than wood.,砂岩ツールは石の品質よりわずかに低いですが、木製より優れています。
@@ -1199,7 +1199,7 @@ item.cyclic.spawn_inspector.up,Click on the top side of a block,ブロックの�
 item.cyclic.spawner_seeker,Spawner Seeker,スパウナー探知者
 item.cyclic.spawner_seeker.found,"Spawner found, preparing to launch...",スポーナーが見つかりました。発射準備中...
 item.cyclic.spawner_seeker.guide,The Spawner Seeker can be used to find the nearest spawner to your current location.,スポーナー探索機を使用して、現在地から最も近いスポーナーを見つけることができます。
-item.cyclic.spawner_seeker.notfound,No spawners in range,範囲内にスパワーバーなし
+item.cyclic.spawner_seeker.notfound,No spawners in range,範囲内にスポナーなし
 item.cyclic.spell_ice,Scepter: Ice Infusion,セプター：氷の注入
 item.cyclic.spell_ice.guide,Turns nearby water blocks into ice.  Costs durability to use.,周囲の水ブロックを氷に変えます。使用時に耐久値が消費されます。
 item.cyclic.spell_ice.tooltip,Freeze nearby water into ice,周囲の水を凍らせる
@@ -1723,7 +1723,7 @@ item.cyclic.shield_bone.tooltip,Average shield,平均的な盾
 item.cyclic.shield_flint,Flint Shield,フリントの盾
 item.cyclic.shield_flint.guide,50% chance to take no durability damage from arrows.  25% chance to reflect projectile attacks with one point of thorns damage to the attacker.  Config sets this as weaker than regular shields.   ,矢からの耐久性ダメージを受けない50%のチャンス。  1つのトゲダメージでプロジェクタイル攻撃を反射する25%のチャンス。  コンフィグはこれを通常のシールドより弱く設定します。
 item.cyclic.shield_flint.tooltip,A slightly weaker shield that can reflect damage,ダメージを反射できるわずかに弱い盾
-item.cyclic.shield_leather,Leather Shield,レザーシャield
+item.cyclic.shield_leather,Leather Shield,レザーシールド
 item.cyclic.shield_leather.guide,This shield when used takes no durability damage from explosions.  Config sets this as weaker than regular shields.  ,使用時にこのシールドは爆発からの耐久性ダメージを受けません。  コンフィグはこれを通常のシールドより弱く設定します。
 item.cyclic.shield_leather.tooltip,A slightly weaker shield,わずかに弱い盾
 item.cyclic.shield_obsidian,Obsidian Shield,黒曜石の盾
@@ -1823,5 +1823,5 @@ enchantment.cyclic.excavate.guide,Randomly reaches out in all direction and mine
 item.cyclic.location.guide,"Right click on a block with the GPS Marker in hand to save its position to the Marker; crouch to use on inventories/machines. Markers with saved locations can be used in multiple machines from this mod such as the Shape Builder, and items like Ender Book. Use while jumping to select the offset of the targeted block instead. ",GPS マーカーを手に持ってブロックを右クリックすると、その位置をマーカーに保存します。スニークしてインベントリ/マシンで使用します。保存されたロケーション付きマーカーは、このmodの複数のマシン（シェイプビルダーなど）やエンダーブックなどのアイテムで使用できます。ジャンプ中に使用して、ターゲットブロックのオフセットを選択します。
 item.cyclic.scythe_forage.guide,"Forage growing resources, using the following block data tags:  minecraft:flowers, minecraft:corals, forge:mushrooms, forge:vines, forge:cactus, forge:crop_blocks",以下のブロックデータタグを使用して成長中のリソースを取得します：minecraft:flowers、minecraft:corals、forge:mushrooms、forge:vines、forge:cactus、forge:crop_blocks
 block.cyclic.computer_shape.guide,"Place two  GPS Card cards and one  Shape Card, then you can read, copy, paste, and merge shapes together. ",GPS カード2枚とシェイプカード1枚を配置すると、シェイプを読み込み、コピー、貼り付け、統合できます。
-item.cyclic.blockstate_data.guide,"Use on a block to read and remember its block state.  Crouch while using to filter on the block only.  Can store a list of 18 blockstates.  Craft to erase the list.  It can distinguish between identical blocks in different states such as rotated stairs, double slabs, etc if in exact [blockstate] mode. Used for machine filters, See Miner",ブロックを右クリックしてそのブロックスポットを読み込んで記憶します。スニークしながら使用してブロックのみをフィルターします。最大18個のブロックスポットのリストを保存できます。クラフトしてリストを消去します。正確な[blockstate]モードの場合、回転した階段、二重スラブなどの異なる状態の同一ブロックを区別できます。マシンフィルターやマイナーなどのアイテムに使用されます
+item.cyclic.blockstate_data.guide,"Use on a block to read and remember its block state.  Crouch while using to filter on the block only.  Can store a list of 18 blockstates.  Craft to erase the list.  It can distinguish between identical blocks in different states such as rotated stairs, double slabs, etc if in exact [blockstate] mode. Used for machine filters, See Miner",ブロックを右クリックしてそのブロックスポットを読み込んで記憶します。スニークしながら使用してブロックのみをフィルターします。最大18個のブロックスポットのリストを保存できます。クラフトしてリストを消去します。正確な[blockstate]モードの場合、回転した階段、二重ハーフブロックなどの異なる状態の同一ブロックを区別できます。マシンフィルターやマイナーなどのアイテムに使用されます
 item.cyclic.storage_bag.guide,"The Storage Bag can be used as a portable inventory. Right-click with the bag in hand to open it. The bag can be set to pickup items, refill your hotbar, or to deposit its items into any inventory on right-click. ",ストレージバッグはポータブルインベントリとして使用できます。バッグを手に持って右クリックして開きます。バッグはアイテムを取得するか、ホットバーを補充するか、右クリック時にそのアイテムをインベントリに預けることができます。

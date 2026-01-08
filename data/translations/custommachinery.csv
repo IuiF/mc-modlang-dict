@@ -30,9 +30,9 @@ custommachinery.configuration.box_render_time,Box render time,ボックスレン
 custommachinery.configuration.debug_level,Debug log level,デバッグログレベル
 custommachinery.configuration.item_slot_cycle_time,Item slot cycle time,アイテムスロットのサイクル時間
 custommachinery.configuration.log_first_either_error,Log first either error,最初のエラーをログに出力
-custommachinery.configuration.log_legacy_folder_files,Log legacy folder files,レガシーフォルダファイルをログ
-custommachinery.configuration.log_missing_optional,Log missing optional properties,ログにオプションプロパティがありません
-custommachinery.configuration.logs,Logs,ログ
+custommachinery.configuration.log_legacy_folder_files,Log legacy folder files,レガシーフォルダファイルをログに出力
+custommachinery.configuration.log_missing_optional,Log missing optional properties,不足オプションプロパティをログに出力
+custommachinery.configuration.logs,Logs,原木
 custommachinery.configuration.misc,Misc,その他
 custommachinery.configuration.model_folders,Models folders,モデルフォルダ
 custommachinery.configuration.rendering,Rendering,レンダリング
@@ -141,11 +141,11 @@ Each slot id must be separated by a comma ','","アイテムが取り出され�
 custommachinery.gui.creation.components.experience.title,Experience Component,経験値コンポーネント
 custommachinery.gui.creation.components.filter,Filter,フィルター
 custommachinery.gui.creation.components.filter.add,Add,追加
-custommachinery.gui.creation.components.filter.blacklist,Blacklist,ブラックリスト
+custommachinery.gui.creation.components.filter.blacklist,Blacklist,黒リスト
 custommachinery.gui.creation.components.filter.remove,Click to remove,クリックして削除
 custommachinery.gui.creation.components.filter.single,Single,単一
 custommachinery.gui.creation.components.filter.tags,Tags,タグ
-custommachinery.gui.creation.components.filter.whitelist,Whitelist,ホワイトリスト
+custommachinery.gui.creation.components.filter.whitelist,Whitelist,白リスト
 custommachinery.gui.creation.components.fluid.title,Fluid Component,液体コンポーネント
 custommachinery.gui.creation.components.fluid.unique,Unique,ユニーク
 custommachinery.gui.creation.components.id,ID,
@@ -450,19 +450,19 @@ custommachinery.requirements.drop.info.produce,Drop %s,%sをドロップ
 custommachinery.requirements.drop.info.whitelist,Accepted items :,受け入れられたアイテム：
 custommachinery.requirements.effect.info.end,Give %s %s for %s ticks in a radius of %s blocks on end,%s %s を %s タックで半径 %s ブロック内のエンドに与えます
 custommachinery.requirements.effect.info.tick,Give %s %s for %s ticks in a radius of %s blocks each tick,%s %s を %s タックで %s ブロック半径内の各タックに与える
-custommachinery.requirements.effect.info.whitelist,Entity Whitelist :,エンティティホワイトリスト：
+custommachinery.requirements.effect.info.whitelist,Entity Whitelist :,エンティティ白リスト：
 custommachinery.requirements.energy.error.input,"Not enough energy, %sFE needed but only %sFE found !",エネルギーが不足しています、%sFEが必要ですが、%sFEしかありません！
 custommachinery.requirements.energy.error.output,Not enough space for storing %sFE !,%sFEを保存するのに十分なスペースがありません！
 custommachinery.requirements.energypertick.error.input,"Not enough energy, %sFE needed but only %sFE found !",エネルギーが不足しています、%sFEが必要ですが、%sFEしかありません！
 custommachinery.requirements.energypertick.error.output,Not enough space for storing %sFE !,%sFEを保存するのに十分なスペースがありません！
 custommachinery.requirements.entity.amount.error,Not enough entities nearby !,近くにエンティティが不足しています！
-custommachinery.requirements.entity.blacklist,Entity blacklist:,エンティティブラックリスト:
+custommachinery.requirements.entity.blacklist,Entity blacklist:,エンティティ黒リスト:
 custommachinery.requirements.entity.check_amount.info,Requires %s entities in a %s blocks radius,%sブロックの半径内に%sのエンティティを必要
 custommachinery.requirements.entity.check_health.info,Requires %s entity HP in a %s blocks radius (not consumed),%sブロックの半径内に%sエンティティHPを必要(消費されません)
 custommachinery.requirements.entity.consume_health.info,Requires and consume %s entity HP in a %s blocks radius,%sブロックの半径内に%sエンティティHPを必要および消費
 custommachinery.requirements.entity.health.error,Can't collect %s health points with nearby entities !,近くのエンティティで%sヘルスポイントを集められません！
 custommachinery.requirements.entity.kill.info,Kill %s entities in %s blocks radius,%sブロックの半径内に%sのエンティティを倒す
-custommachinery.requirements.entity.whitelist,Entity whitelist:,エンティティホワイトリスト：
+custommachinery.requirements.entity.whitelist,Entity whitelist:,エンティティ白リスト：
 custommachinery.requirements.fluid.error.input,"Not enough %s, %smB needed but %smB found !",%sが不足しています、%smB必要ですが%smB見つかりました！
 custommachinery.requirements.fluid.error.output,Not enough space for %smB of %s,%sの%smBのスペースが不足しています
 custommachinery.requirements.fluidpertick.error.input,"Not enough %s, %smB needed but %smB found !",%sが不足しています、%smB必要ですが%smB見つかりました！
@@ -481,10 +481,10 @@ custommachinery.requirements.light.block.info,Need a block light level %s %s,ブ
 custommachinery.requirements.light.sky.error,This recipe need a sky light value %s %s,空光レベル必須: %s 見つかった: %s
 custommachinery.requirements.light.sky.info,Need a sky light level %s %s,空光レベル必須: %s
 custommachinery.requirements.position.error,This recipe cannot be processed at this location,このレシピはこの場所では処理できません
-custommachinery.requirements.position.info.biome.blacklist,Biome Blacklist :,バイオームブラックリスト：
-custommachinery.requirements.position.info.biome.whitelist,Biome Whitelist :,バイオームホワイトリスト：
-custommachinery.requirements.position.info.dimension.blacklist,Dimension Blacklist :,ディメンションブラックリスト：
-custommachinery.requirements.position.info.dimension.whitelist,Dimension Whitelist :,ディメンションホワイトリスト：
+custommachinery.requirements.position.info.biome.blacklist,Biome Blacklist :,バイオーム黒リスト：
+custommachinery.requirements.position.info.biome.whitelist,Biome Whitelist :,バイオーム白リスト：
+custommachinery.requirements.position.info.dimension.blacklist,Dimension Blacklist :,ディメンション黒リスト：
+custommachinery.requirements.position.info.dimension.whitelist,Dimension Whitelist :,ディメンション白リスト：
 custommachinery.requirements.position.info.pos,Pos :,座標：
 custommachinery.requirements.redstone.error,"Not enough redstone power, need at least: %s",無効なレッドストーン信号、必要: %s
 custommachinery.requirements.redstone.info,Need a redstone signal %s %s,レッドストーン信号必要: %s
@@ -593,7 +593,7 @@ custommachinery.requirements.durability.error.output,"Can't repair %s, trying to
 custommachinery.requirements.structure.list,"   %sx %s",%sx %s
 item.custommachinery.box_creator_item,Box Creator,ボックス作成者
 item.custommachinery.machine_creator_item,Machine Creator,マシン作成者
-text.autoconfig.custommachinery.category.Logs,Logs,ログ
+text.autoconfig.custommachinery.category.Logs,Logs,原木
 text.autoconfig.custommachinery.category.Misc,Misc,その他
 text.autoconfig.custommachinery.category.Rendering,Rendering,レンダリング
 text.autoconfig.custommachinery.option.blockTagCycleTime,Block tag cycle time,ブロックタグのサイクル時間
@@ -601,7 +601,7 @@ text.autoconfig.custommachinery.option.boxRenderTime,Box render time,ボック�
 text.autoconfig.custommachinery.option.debugLevel,Debug log level,デバッグログレベル
 text.autoconfig.custommachinery.option.itemSlotCycleTime,Item slot cycle time,アイテムスロットのサイクル時間
 text.autoconfig.custommachinery.option.logFirstEitherError,Log first either error,最初のエラーをログに出力
-text.autoconfig.custommachinery.option.logMissingOptional,Log missing optional properties,ログにオプションプロパティがありません
+text.autoconfig.custommachinery.option.logMissingOptional,Log missing optional properties,不足オプションプロパティをログに出力
 text.autoconfig.custommachinery.option.modelFolders,Models folders,モデルフォルダ
 text.autoconfig.custommachinery.option.needAdvancedInfoForRecipeID,Need advanced info for recipe ID,レシピIDに高度な情報が必要
 text.autoconfig.custommachinery.option.structureRenderTime,Structure render time,構造描画時間

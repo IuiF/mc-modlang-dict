@@ -2,7 +2,7 @@
 block.darkutils.anchor_plate,Anchor Plate,アンカープレート
 block.darkutils.blank_plate,Blank Plate,無地プレート
 block.darkutils.dark_glass,Dark Glass,ダークガラス
-block.darkutils.ender_hopper,Ender Hopper,エンダーハopper
+block.darkutils.ender_hopper,Ender Hopper,エンダーホッパー
 block.darkutils.export_plate,Export Plate,輸出プレート
 block.darkutils.export_plate_extreme,Extreme Export Plate,極限輸出プレート
 block.darkutils.export_plate_fast,Fast Export Plate,高速出力プレート
@@ -47,9 +47,9 @@ block.minecraft.banner.darkutils_vector_plate.black,Black Vector Pattern,黒い�
 block.minecraft.banner.darkutils_vector_plate.blue,Blue Vector Pattern,青いベクトルパターン
 block.minecraft.banner.darkutils_vector_plate.brown,Brown Vector Pattern,茶色いベクトルパターン
 block.minecraft.banner.darkutils_vector_plate.cyan,Cyan Vector Pattern,青緑ベクトルパターン
-block.minecraft.banner.darkutils_vector_plate.gray,Gray Vector Pattern,グレーベクトルパターン
+block.minecraft.banner.darkutils_vector_plate.gray,Gray Vector Pattern,灰色ベクトルパターン
 block.minecraft.banner.darkutils_vector_plate.green,Green Vector Pattern,緑のベクトルパターン
-block.minecraft.banner.darkutils_vector_plate.lightBlue,LightBlue Vector Pattern,ライトブルー ベクターパターン
+block.minecraft.banner.darkutils_vector_plate.lightBlue,LightBlue Vector Pattern,空色 ベクターパターン
 block.minecraft.banner.darkutils_vector_plate.lime,Lime Vector Pattern,黄緑ベクトルパターン
 block.minecraft.banner.darkutils_vector_plate.magenta,Magenta Vector Pattern,赤紫ベクトルパターン
 block.minecraft.banner.darkutils_vector_plate.orange,Orange Vector Pattern,橙ベクターパターン
@@ -177,7 +177,7 @@ tooltip.darkutils.slime_crucible_wither.long,A crafting station which combines w
 tooltip.darkutils.slime_crucible_wither.short,Crafts items using decay.,腐敗を使ってアイテムを製造する。
 tooltip.darkutils.vector_plate.long,Pushes mobs and entities in the direction the arrow is pointing. Mobs can spawn on and in these blocks. Sneaking mobs will not be pushed. Sneaking plus right clicking the block will rotate it. Can be disabled with redstone. Can be waterlogged.,矢が指し示している方向にモブとエンティティを押します。モブがこれらのブロックの上及び内部にスポーンできます。スニークしているモブは押されません。スニークしながら右クリックするとブロックが回転します。レッドストーン信号で無効化できます。水に浸すことができます。
 tooltip.darkutils.vector_plate.short,Pushes mobs and entities in the direction it's pointing.,モブとエンティティを指し示す方向へ押します
-tooltip.darkutils.vector_plate_banner_pattern.long,Applies the vector plate arrow to banners when used in the Loom. Can be dyed any of the 16 wool colors.,織機でバナーに使用するとベクトルプレートの矢を適用します。16色のウール色に染められます。
+tooltip.darkutils.vector_plate_banner_pattern.long,Applies the vector plate arrow to banners when used in the Loom. Can be dyed any of the 16 wool colors.,織機でバナーに使用するとベクトルプレートの矢を適用します。16色の羊毛色に染められます。
 tooltip.darkutils.vector_plate_banner_pattern.short,Applies the vector plate arrow to banners.,バナーにベクトルプレート矢を適用します。
 tooltip.darkutils.vector_plate_extreme.long,Pushes mobs and entities in the direction the arrow is pointing. Mobs can spawn on and in these blocks. Sneaking mobs will not be pushed. Sneaking plus right clicking the block will rotate it. Can be disabled with redstone. Can be waterlogged.,矢が指し示している方向にモブとエンティティを押します。モブがこれらのブロックの上及び内部にスポーンできます。スニークしているモブは押されません。スニークしながら右クリックするとブロックが回転します。レッドストーン信号で無効化できます。水に浸すことができます。
 tooltip.darkutils.vector_plate_extreme.short,Pushes mobs and entities in the direction it's pointing.,モブとエンティティを指し示す方向へ押します
@@ -319,7 +319,7 @@ tile.darkutils.pearl.block.default.name,Pearl Block,真珠ブロック
 tile.darkutils.pearl.block.brick.name,Pearl Brick,パールレンガ
 tile.darkutils.pearl.block.carved.name,Carved Pearl Block,彫刻されたパールブロック
 tile.darkutils.pearl.block.chiseled.name,Chiseled Pearl Block,研磨されたパールブロック
-tile.darkutils.ender.hopper.name,Ender Hopper,エンダーハopper
+tile.darkutils.ender.hopper.name,Ender Hopper,エンダーホッパー
 tile.darkutils.ender.pearl.hopper.name,Pearled Ender Hopper,真珠化されたエンダーホッパー
 tile.darkutils.chest.prismarine.name,Prismarine Chest,Prismarine チェスト
 tile.darkutils.chest.sandstone.name,Sandstone Chest,砂岩のチェスト
@@ -340,7 +340,7 @@ tile.darkutils.slime.dyed.cyan.name,Cyan Slime Block,青緑のスライムブロ
 tile.darkutils.slime.dyed.silver.name,Light Gray Slime Block,薄灰色のスライムブロック
 tile.darkutils.slime.dyed.gray.name,Gray Slime Block,グレイスライムブロック
 tile.darkutils.slime.dyed.pink.name,Pink Slime Block,桃色スライムブロック
-tile.darkutils.slime.dyed.lime.name,Lime Slime Block,ライムスライムブロック
+tile.darkutils.slime.dyed.lime.name,Lime Slime Block,黄緑スライムブロック
 tile.darkutils.slime.dyed.yellow.name,Yellow Slime Block,黄のスライムブロック
 tile.darkutils.slime.dyed.light_blue.name,Light Blue Slime Block,空色のスライムブロック
 tile.darkutils.slime.dyed.magenta.name,Magenta Slime Block,赤紫のスライムブロック
@@ -352,7 +352,7 @@ tile.darkutils.wither.block.bricked.name,Wither Dust Bricks,ウィザードの�
 tile.darkutils.wither.block.carved.name,Carved Wither Dust Block,彫刻されたウィザー粉ブロック
 tile.darkutils.wither.block.chiseled.name,Chiseled Wither Dust Block,彫刻されたウィザー粉塵ブロック
 tile.darkutils.wither.block.magma.name,Corrupted Wither Dust Block,腐敗したウィザー粉ブロック
-tile.darkutils.wither.block.tiled.name,Checkered Wither Dust Block,チェック付きウィザーダストブロック
+tile.darkutils.wither.block.tiled.name,Checkered Wither Dust Block,チェック付きウィザーの粉ブロック
 tile.darkutils.monolith.exp.name,Monolith of Experience,経験値のモノリス
 tile.darkutils.monolith.spawning.name,Monolith of Spawning,生成のモノリス
 tile.darkutils.trap.anchor.name,Anchor Plate,アンカープレート
@@ -414,11 +414,11 @@ item.banner.du_vector_plate.blue,Blue Vector Pattern,青いベクトルパター
 item.banner.du_vector_plate.purple,Purple Vector Pattern,紫のベクトルパターン
 item.banner.du_vector_plate.cyan,Cyan Vector Pattern,青緑ベクトルパターン
 item.banner.du_vector_plate.silver,Silver Vector Pattern,銀のベクトルパターン
-item.banner.du_vector_plate.gray,Gray Vector Pattern,グレーベクトルパターン
+item.banner.du_vector_plate.gray,Gray Vector Pattern,灰色ベクトルパターン
 item.banner.du_vector_plate.pink,Pink Vector Pattern,桃色ベクトルパターン
 item.banner.du_vector_plate.lime,Lime Vector Pattern,黄緑ベクトルパターン
 item.banner.du_vector_plate.yellow,Yellow Vector Pattern,黄のベクトルパターン
-item.banner.du_vector_plate.lightBlue,LightBlue Vector Pattern,ライトブルー ベクターパターン
+item.banner.du_vector_plate.lightBlue,LightBlue Vector Pattern,空色 ベクターパターン
 item.banner.du_vector_plate.magenta,Magenta Vector Pattern,赤紫ベクトルパターン
 item.banner.du_vector_plate.orange,Orange Vector Pattern,橙ベクターパターン
 item.banner.du_vector_plate.white,White Vector Pattern,白いベクトルパターン

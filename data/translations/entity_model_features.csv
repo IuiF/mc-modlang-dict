@@ -254,7 +254,7 @@ than smaller mobs","有効にした場合、上記の設定のLOD（詳細度）
 entity_model_features.config.load_warn.1,EMF encountered loading errors,EMFのロードエラーが発生しました。
 entity_model_features.config.load_warn.3,Check your log or EMF settings for details,詳細はログまたはEMF設定をご確認ください
 entity_model_features.config.load_warn.title,Log all loading errors again,ロードエラーを再度ログに記録
-entity_model_features.config.load_warn.title2,Log all loading errors again (with stacktrace),ロードエラーを再度ログ（スタックトレース付き）します
+entity_model_features.config.load_warn.title2,Log all loading errors again (with stacktrace),ロードエラーを再度ログに記録（スタックトレース付き）
 entity_model_features.config.load_warn.tooltip,"This option will re-print all the encountered EMF loading errors, from the last resource reload, back into the log in the order they were encountered
 Not all errors here will be very helpful as they may be missing surrounding log context","このオプションは、最後のリソースリロードから遭遇したすべてのEMFロードエラーを、遭遇した順序でゲームログに再出力します
 これらのエラーのすべてが非常に役に立つとは限りません。周囲のログコンテキストが不足している可能性があるため"
@@ -271,10 +271,11 @@ LevelのDetail(LOD)を低下させます。これはパフォーマンス向上�
 16 = プレイヤーから16ブロック離れるごとに1フレームスキップします
 低い数値はより多くのフレームをスキップしてより多くのパフォーマンスを得られます
 ただしアニメーションはLOD距離が近いほどフレームレートが明らかに低下します"
-entity_model_features.config.log_math,Log animation calculations,ログアニメーション計算
+entity_model_features.config.log_math,Log animation calculations,アニメーション計算をログに記録
 entity_model_features.config.log_math.tooltip,"Prints animation math debug data to the log
-WARNING EXTREMELY LAG INDUCING!",アニメーション計算デバッグデータをログに出力します。
-entity_model_features.config.log_models,Log model construction info,モデル構築情報のログ
+WARNING EXTREMELY LAG INDUCING!","アニメーション計算デバッグデータをログに出力します。
+警告: 非常に重いラグを引き起こします!"
+entity_model_features.config.log_models,Log model construction info,モデル構築情報をログに記録
 entity_model_features.config.log_models.tooltip,Prints model creation debug data to the log,モデル生成デバッグデータをログに出力します。
 entity_model_features.config.low_fps_lod,Retain LOD at low fps,低FPS時にもLODを維持
 entity_model_features.config.low_fps_lod.tooltip,"If enabled this will reduce the Level of Detail (LOD)
@@ -365,7 +366,7 @@ entity_model_features.config.prevent_hand,Prevent first person hand animations,�
 entity_model_features.config.prevent_hand.tooltip,If enabled this will forcibly prevent all custom EMF animations from playing on the first person hand model,有効にした場合、カスタムEMFアニメーションがすべて一人称の手モデルで再生されるのを強制的に防ぎます。
 entity_model_features.config.print_mode,Model exporting,モデルエクスポート
 entity_model_features.config.print_mode.all_log,All models - Log only,すべてのモデル - ログのみ
-entity_model_features.config.print_mode.all_log_jem,All models - Log & .jem,全モデル - 木の原木と .jem
+entity_model_features.config.print_mode.all_log_jem,All models - Log & .jem,全モデル - ログと .jem
 entity_model_features.config.print_mode.log,Unknown models - Log only,不明なモデル - ログのみ
 entity_model_features.config.print_mode.log_jem,Unknown models - Log & .jem,不明なモデル - ログと .jem
 entity_model_features.config.print_mode.tooltip,"this will print out the part information or a complete .jem file
@@ -379,7 +380,7 @@ Unknown models refers to models not supported by OptiFine CEM","これにより�
 正しいピボット、ボックス、UVを含みます
 不明なモデルはOptiFine CEMでサポートされていないモデルを指します"
 entity_model_features.config.render,Debug render mode,デバッグレンダリングモード
-entity_model_features.config.render.green,Flash green,フラッシュグリーン
+entity_model_features.config.render.green,Flash green,フラッシュ緑
 entity_model_features.config.render.lines,Wireframe only,線画のみ
 entity_model_features.config.render.lines_texture,Wireframe over texture,テクスチャ上にワイヤーフレームを表示
 entity_model_features.config.render.lines_texture_flash,Wireframe flashing over texture,ワイヤーフレームがテクスチャ上で点滅する

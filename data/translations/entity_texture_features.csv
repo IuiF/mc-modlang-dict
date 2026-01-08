@@ -109,8 +109,8 @@ config.entity_texture_features.debug_logging_mode.tooltip,"If enabled, this will
 about any entity that has been right clicked
 to either the log file or the in-game chat","有効にすると、右クリックされたエンティティに関する関連ETFデータを
 ログファイルまたはゲーム内チャットに出力します"
-config.entity_texture_features.debug_screen.mass_log,Send ALL! ETF data to the log,すべてのデータをログに送信します
-config.entity_texture_features.debug_screen.mass_log.done,Send ALL! ETF data to the log,すべてのデータをログに送信します
+config.entity_texture_features.debug_screen.mass_log,Send ALL! ETF data to the log,すべてのETFデータをログに送信
+config.entity_texture_features.debug_screen.mass_log.done,Send ALL! ETF data to the log,すべてのETFデータをログに送信しました
 config.entity_texture_features.debug_screen.title,Debug settings,デバッグ設定
 config.entity_texture_features.disable_default_directory.title,Disable using default directory,デフォルトディレクトリを使用しない
 config.entity_texture_features.disable_default_directory.tooltip,"By default you can use the vanilla directory for random textures
@@ -153,7 +153,7 @@ as well as usually smaller bloom with shaders.","エミッシブレンダリン�
 デフォルトレンダリングはデフォルトレンダラーの効果を尊重します
 各表面の方向にはわずかな明度の変動があり
 エミッシブはやや暗くなり
-シェーダーでのブルームが通常より小さくなります"
+シェーダーでの青ムが通常より小さくなります"
 config.entity_texture_features.emissive_select.title,Select your emissive pixels,発光ピクセルを選択
 config.entity_texture_features.emissive_settings.title,Emissive texture settings,発光テクスチャ設定
 config.entity_texture_features.emissive_shield.title,Emissive shields,発光シールド
@@ -222,9 +222,9 @@ The Vanilla error message for the incorrect texture will now follow: ","ETFは�
 「違法なテクスチャパスを許可」オプションをETFの設定で有効にしない限り、このテクスチャは無視されます
 不正なテクスチャのバニラエラーメッセージが次に続きます:"
 config.entity_texture_features.illegal_path_warn,"ETF has allowed a resource with a non [a-z0-9_.-] character in the file path, it is recommended you fix this file name.",ETFが[a-z0-9_.-]文字ではない文字がファイルパスに含まれるリソースを許可しました。このファイル名を修正することをお勧めします。
-config.entity_texture_features.log_creation,Log texture initialization,ログテクスチャ初期化
+config.entity_texture_features.log_creation,Log texture initialization,テクスチャ初期化をログに記録
 config.entity_texture_features.log_creation.tooltip,"Logs details about a texture when it is first initialized.
-E.G. what variants are found if any, what has emissives, etc","テクスチャが最初に初期化されたときにテクスチャについての詳細をログします。
+E.G. what variants are found if any, what has emissives, etc","テクスチャが最初に初期化されたときにテクスチャについての詳細をログに記録します。
 例：見つかった場合のバリアント数、どれが発光を持っているかなど"
 config.entity_texture_features.optifine.desc,"These options are for backwards compatibility with OptiFine.
 Some will put limitations on certain features because OptiFine does.
@@ -520,7 +520,7 @@ helps to identify modded dimension names
 Example: dimension.1=minecraft:overworld
 §adimension.<n>=<overworld|the_nether|the_end|<modded_dimension_name>>","ETFのみ!
 モブが存在する必要があるディメンションを選択
-「print:」で始まる接頭辞を使用して、ログ内のディメンションを常に出力します
+「print:」で始まる接頭辞を使用して、ログにディメンションを常に出力します
 モッド化されたディメンション名を特定するのに役立ちます
 例: dimension.1=minecraft:overworld
 §adimension.<n>=<overworld|the_nether|the_end|<modded_dimension_name>>"

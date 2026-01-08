@@ -63,7 +63,7 @@ item.pedestals.filter_mod,Mod Filter,Modフィルター
 item.pedestals.filter_restricted,Restricted Filter,制限フィルタ
 item.pedestals.filter_tag,Tag Filter,タグフィルター
 item.pedestals.filter_tag_machine,Tag Filter (Machines),タグフィルター(機械用)
-item.pedestals.mechanical_storage_dust,Packaged Dust,パッケージ化されたダスト
+item.pedestals.mechanical_storage_dust,Packaged Dust,パッケージ化されたの粉
 item.pedestals.mechanical_storage_energy,Packaged Energy,パッケージ化されたエネルギー
 item.pedestals.mechanical_storage_fluid,Packaged Fluid,パッケージ化された液体
 item.pedestals.mechanical_storage_item,Packaged Items,パッケージ化されたアイテム
@@ -182,7 +182,7 @@ jei.pedestals.filter_tag.description,"§5 This Filter Filters By The Tags on an 
 jei.pedestals.filter_tag.interaction,"§3 Offhand Filter and Right Click to switch TYPES, Crouch Right Click to switch MODES",§3 オフハンドフィルタと右クリックでタイプを切り替え、クローン状態の右クリックでモードを切り替え
 jei.pedestals.filter_tag_machine.description,"§5 This Filter Filters By The Tags on an Item (Items in the filter must be renamed with tag names, like 'forge:stone'",§5このフィルターはアイテムのタグでフィルタリングします（フィルター内のアイテムは「forge:stone」などのタグ名で名前を変更する必要があります）。
 jei.pedestals.filter_tag_machine.interaction,"§3 Offhand Filter and Right Click to switch TYPES, Crouch Right Click to switch MODES",§3 オフハンドフィルタと右クリックでタイプを切り替え、クローン状態の右クリックでモードを切り替え
-jei.pedestals.mechanical_storage_dust.description,"Stores a lot of Dust, Will Discharge the Dust after a short duration if held by a living entity/player.",大量のダストを貯蔵します。生きたエンティティ/プレイヤーが持つと、短期間後に放出されます。
+jei.pedestals.mechanical_storage_dust.description,"Stores a lot of Dust, Will Discharge the Dust after a short duration if held by a living entity/player.",大量のの粉を貯蔵します。生きたエンティティ/プレイヤーが持つと、短期間後に放出されます。
 jei.pedestals.mechanical_storage_energy.description,"Stores a lot of Energy, Will Discharge the Energy after a short duration if held by a living entity/player.",大量のエネルギーを貯蔵します。生きたエンティティ/プレイヤーが持つと、短期間後に放出されます。
 jei.pedestals.mechanical_storage_fluid.description,"Stores a lot of Fluid, Will Discharge the Fluid after a short duration if held by a living entity/player.",大量の液体を貯蔵します。生きたエンティティ/プレイヤーが持つと、短期間後に放出されます。
 jei.pedestals.mechanical_storage_item.description,"Stores a lot of the same Item Stacks, Will Discharge the Stacks after a short duration if held by a living entity/player.",大量の同じアイテムスタックを貯蔵します。生きたエンティティ/プレイヤーが持つと、短期間後に放出されます。
@@ -226,7 +226,7 @@ jei.pedestals.upgrade_pedestal_chopper.description,§5'Chops Wood/Mushroom/Leaf 
 jei.pedestals.upgrade_pedestal_chopper.interaction,§3Uses Work Area (Card) to define the area in which it operates.,§3ワークエリア（カード）を使用して、動作範囲を定義します。
 jei.pedestals.upgrade_pedestal_cobblegen.description,"§5Based on the 'Below' Block and Inserted Tool, will generate items putting the outputs in the pedestal.",§5下のブロックと挿入されたツールに基づいて、アイテムを生成してペデスタルに出力します。
 jei.pedestals.upgrade_pedestal_crafter.description,"§5Crafts Items Like a vanilla crafter. Bind pedestals to the Pedestal Locations Card, the bound order matters! insert upgrade into pedestal, and insert crafting items in order",§5バニラのクラフターのようにアイテムをクラフトします。ペデスタルをペデスタルロケーションカードにバインドします。バインドの順序は重要です。アップグレードをペデスタルに挿入し、クラフトアイテムを順番に挿入します。
-jei.pedestals.upgrade_pedestal_crafter.interaction,§3Uses Pedestal Locations (Card) to define selected pedestals which are used as the crafting tables slots.,§3ペデスタルロケーション（カード）を使用して、クラフティングテーブルのスロットとして使用される選択されたペデスタルを定義します。
+jei.pedestals.upgrade_pedestal_crafter.interaction,§3Uses Pedestal Locations (Card) to define selected pedestals which are used as the crafting tables slots.,§3ペデスタルロケーション（カード）を使用して、クラフトテーブルのスロットとして使用される選択されたペデスタルを定義します。
 jei.pedestals.upgrade_pedestal_drain.description,"§5Rapidly Places fluid source blocks from the pedestals inventory into the selected work area, from bedrock to world height. Uses a Iron Pickaxe by default.",§5ペデスタルのインベントリから液体ソースブロックを選択されたワークエリアに迅速に配置します（岩盤からワールドの高さまで）。デフォルトでは鉄のツルハシを使用します。
 jei.pedestals.upgrade_pedestal_drain.interaction,"§3Uses either Work Area (Card) or Work Locations (Card) to define the area in which it operates. If you select a 1 high Work Area itll quarry from bedrock to world height, otherwise it'll clear out the selected area",§3ワークエリア（カード）またはワークロケーション（カード）を使用して、動作範囲を定義します。1ブロック高さのワークエリアを選択すると、岩盤からワールド高さまで採掘します。そうでなければ、選択されたエリアを消去します。
 jei.pedestals.upgrade_pedestal_dropper.description,§5'Drops' or Spawns in Items/XP/Energy in world in the selected locations/areas,§5選択されたロケーション/エリア内でアイテム/XP/エネルギーをワールドに「落とす」または生成します。
@@ -239,7 +239,7 @@ jei.pedestals.upgrade_pedestal_fertilizer.description,"§5Grows Crops in the sel
 jei.pedestals.upgrade_pedestal_fertilizer.interaction,§3Uses either Work Area (Card) or Work Locations (Card) to define the area in which it operates.,§3ワークエリア（カード）またはワークロケーション（カード）を使用して、動作範囲を定義します。
 jei.pedestals.upgrade_pedestal_filler.description,§5Rapidly Places Non-Crop Blocks from the pedestal inventory into the selected area,§5ペデスタルのインベントリから非作物ブロックを選択されたエリアに迅速に配置します。
 jei.pedestals.upgrade_pedestal_filler.interaction,"§3Uses Work Area (Card) to define the area in which it operates. If you select a 1 high area itll quarry from bedrock to world height, otherwise it'll clear out the selected area",§3ワークエリア（カード）を使用して、動作範囲を定義します。1ブロック高さのエリアを選択すると、岩盤からワールド高さまで採掘します。そうでなければ、選択されたエリアを消去します。
-jei.pedestals.upgrade_pedestal_fluidconverter.description,§5Converts Fluids into Items/Energy/Exp/Dust,§5液体をアイテム/エネルギー/経験値/ダストに変換します。
+jei.pedestals.upgrade_pedestal_fluidconverter.description,§5Converts Fluids into Items/Energy/Exp/Dust,§5液体をアイテム/エネルギー/経験値/の粉に変換します。
 jei.pedestals.upgrade_pedestal_fluidconverter.interaction,§3Fluids from the Pedestals Inventory will be consumed for this process.,§3ペデスタルのインベントリからの液体がこのプロセスで消費されます。
 jei.pedestals.upgrade_pedestal_generator.description,§5Burns Vanilla Furnace Fuels for RF Production,§5バニラの炉の燃料をRF生産に燃やします。
 jei.pedestals.upgrade_pedestal_generator.interaction,§3Requires Fuel to be put into the pedestal.,§3ペデスタルに燃料を入れる必要があります。
@@ -254,8 +254,8 @@ jei.pedestals.upgrade_pedestal_magnet.interaction,§3Uses Work Area (Card) to de
 jei.pedestals.upgrade_pedestal_milker.description,"§5Milks Animals in the selected area. Uses a Bucket by default.(Will attempt to put the fluid in the pedestal if its a valid fluid, otherwise itll do nothing) Placing items in the pedestal will allow the upgrade to attempt to milk with those items instead.(Like Bowls)",§5選択領域内の動物を搾乳します。デフォルトではバケツを使用します。（流体が台座の有効な流体タイプの場合、台座に流体を入れようとします。そうでない場合は何もしません）台座にアイテムを配置することで、アップグレードがそれらのアイテムで搾乳することができます。（例：ボウル）
 jei.pedestals.upgrade_pedestal_milker.interaction,§3Uses Work Area (Card) to define the area in which it operates.,§3ワークエリア（カード）を使用して、動作範囲を定義します。
 jei.pedestals.upgrade_pedestal_modifications.description,"§5Infuses modifications into upgrades to enhance them. Bind pedestals to the upgrade, the bound order matters! insert upgrade into pedestal on top of chest, and insert infusion items in order (upgrade goes in below chest)",§5修正をアップグレードにインフューズして、それを強化します。ペデスタルをアップグレードにバインドします。バインド順序は重要です。アップグレードをチェストの上のペデスタルに挿入し、インフュージョンアイテムを順番に挿入します（アップグレードはチェストの下に置きます）
-jei.pedestals.upgrade_pedestal_modifications.interaction,§3Uses Pedestal Locations (Card) to define the pedestals used for its crafting 'grid' inputs.,§3ペデスタルロケーション（カード）を使用して、クラフティング「グリッド」入力に使用されるペデスタルを定義します。
-jei.pedestals.upgrade_pedestal_packager.description,§5Waits till the Pedestal is Full of Fluid/Energy/XP/Dust and then Packages it up into an Item.,§5ペデスタルが液体/エネルギー/XP/ダストでいっぱいになるまで待ってから、アイテムにパッケージ化します。
+jei.pedestals.upgrade_pedestal_modifications.interaction,§3Uses Pedestal Locations (Card) to define the pedestals used for its crafting 'grid' inputs.,§3ペデスタルロケーション（カード）を使用して、クラフト「グリッド」入力に使用されるペデスタルを定義します。
+jei.pedestals.upgrade_pedestal_packager.description,§5Waits till the Pedestal is Full of Fluid/Energy/XP/Dust and then Packages it up into an Item.,§5ペデスタルが液体/エネルギー/XP/の粉でいっぱいになるまで待ってから、アイテムにパッケージ化します。
 jei.pedestals.upgrade_pedestal_placer.description,§5Places Non-Crop Blocks from the pedestal inventory into the selected area,§5ペデスタルのインベントリから非作物ブロックを選択されたエリアに配置します。
 jei.pedestals.upgrade_pedestal_placer.interaction,§3Uses either Work Area (Card) or Work Locations (Card) to define the area in which it operates.,§3ワークエリア（カード）またはワークロケーション（カード）を使用して、動作範囲を定義します。
 jei.pedestals.upgrade_pedestal_planter.description,§5Places Crop Blocks/Seeds from the pedestal inventory into the selected area,§5ペデスタルのインベントリから作物ブロック/種子を選択されたエリアに植えます。
@@ -285,22 +285,22 @@ pedestal.book.augm.crft.roundrobin,"To craft, drop a piece of paper near a parro
 pedestal.book.augm.desc.collide,"Makes the pedestal tranasfer in order of the first linked to its last. If the pedestal cannot send to another pedestal, it will move to the next one",ペデスタルは最初のリンク順から最後のリンク順に転送します。ペデスタルが別のペデスタルに送信できない場合は、次のペデスタルに移動します。
 pedestal.book.augm.desc.renderdiffuser,"Makes the pedestal tranasfer in order of the first linked to its last. If the pedestal cannot send to another pedestal, it will move to the next one",ペデスタルは最初のリンク順から最後のリンク順に転送します。ペデスタルが別のペデスタルに送信できない場合は、次のペデスタルに移動します。
 pedestal.book.augm.desc.roundrobin,"Makes the pedestal transfer in order of the first linked to its last. If the pedestal cannot send to another pedestal, it will move to the next one",ペデスタルは最初のリンク順から最後のリンク順に転送します。ペデスタルが別のペデスタルに送信できない場合は、次のペデスタルに移動します。
-pedestal.book.augm.desc.t1capacity,Transfer Rate$(2br)$(li)Increases Transfer Rates$$(li)Item: 4$(li)Fluid: 2000mb$(li)Energy: 5000 Fe/t$(li)Experience - 1 level$(li)Dust Rate: 10$(li)Maximum Upgrades: 4,転送レート$(2br)$(li)転送レートを増加させます$(li)アイテム：4$(li)液体：2000mb$(li)エネルギー：5000 Fe/t$(li)経験値 - 1レベル$(li)ダストレート：10$(li)最大アップグレード：4
+pedestal.book.augm.desc.t1capacity,Transfer Rate$(2br)$(li)Increases Transfer Rates$$(li)Item: 4$(li)Fluid: 2000mb$(li)Energy: 5000 Fe/t$(li)Experience - 1 level$(li)Dust Rate: 10$(li)Maximum Upgrades: 4,転送レート$(2br)$(li)転送レートを増加させます$(li)アイテム：4$(li)液体：2000mb$(li)エネルギー：5000 Fe/t$(li)経験値 - 1レベル$(li)の粉レート：10$(li)最大アップグレード：4
 pedestal.book.augm.desc.t1range,Increases the distance to link pedestals$(2br)$(li)Increases range: 2 Blocks$(li)Maximum allowed: 4,ペデスタルのリンク距離を増やします$(2br)$(li)範囲の増加：2ブロック$(li)最大許容値：4
 pedestal.book.augm.desc.t1speed,Decreases the time between each transfer operation$(2br)$(li)Ticks Decreased: 2$(li)Maximum allowed: 5,各転送操作間の時間を減らします$(2br)$(li)減少したティック：2$(li)最大許容値：5
-pedestal.book.augm.desc.t1storage,"Increases the storage capacity of a pedestal$(2br)$(li)Stacks: 1$(li)Fluid: 4,000Mb$(li)Energy: 20,000Fe$(li)Experience levels: 10$(li)Dust rate: 50$(li)Maximum allowed 3","ペデスタルのストレージ容量を増やします$(2br)$(li)スタック：1$(li)液体：4,000Mb$(li)エネルギー：20,000Fe$(li)経験値レベル：10$(li)ダストレート：50$(li)最大許容値：3"
-pedestal.book.augm.desc.t2capacity,Transfer Rate$(2br)$(li)Increases Transfer Rates$$(li)Item: 16$(li)Fluid: 4000mb$(li)Energy: 10000 Fe/t$(li)Experience - 5 levels$(li)Dust Rate: 10$(li)Maximum Upgrades: 8,転送レート$(2br)$(li)転送レートを増加させます$(li)アイテム：16$(li)液体：4000mb$(li)エネルギー：10000 Fe/t$(li)経験値 - 5レベル$(li)ダストレート：10$(li)最大アップグレード：8
+pedestal.book.augm.desc.t1storage,"Increases the storage capacity of a pedestal$(2br)$(li)Stacks: 1$(li)Fluid: 4,000Mb$(li)Energy: 20,000Fe$(li)Experience levels: 10$(li)Dust rate: 50$(li)Maximum allowed 3","ペデスタルのストレージ容量を増やします$(2br)$(li)スタック：1$(li)液体：4,000Mb$(li)エネルギー：20,000Fe$(li)経験値レベル：10$(li)の粉レート：50$(li)最大許容値：3"
+pedestal.book.augm.desc.t2capacity,Transfer Rate$(2br)$(li)Increases Transfer Rates$$(li)Item: 16$(li)Fluid: 4000mb$(li)Energy: 10000 Fe/t$(li)Experience - 5 levels$(li)Dust Rate: 10$(li)Maximum Upgrades: 8,転送レート$(2br)$(li)転送レートを増加させます$(li)アイテム：16$(li)液体：4000mb$(li)エネルギー：10000 Fe/t$(li)経験値 - 5レベル$(li)の粉レート：10$(li)最大アップグレード：8
 pedestal.book.augm.desc.t2range,Increases the distance to link pedestals$(2br)$(li)Increases range: 6 Blocks$(li)Maximum allowed: 4,ペデスタルのリンク距離を増やします$(2br)$(li)範囲の増加：6ブロック$(li)最大許容値：4
 pedestal.book.augm.desc.t2speed,Decreases the time between each transfer operation$(2br)$(li)Ticks Decreased: 4$(li)Maximum allowed: 5,各転送操作間の時間を減らします$(2br)$(li)減少したティック：4$(li)最大許容値：5
-pedestal.book.augm.desc.t2storage,"Increases the storage capacity of a pedestal$(2br)$(li)Stacks: 1$(li)Fluid: 16,000Mb$(li)Energy: 100,000Fe$(li)Experience levels: 15$(li)Dust rate: 100$(li)Maximum allowed 7","ペデスタルのストレージ容量を増やします$(2br)$(li)スタック：1$(li)液体：16,000Mb$(li)エネルギー：100,000Fe$(li)経験値レベル：15$(li)ダストレート：100$(li)最大許容値：7"
-pedestal.book.augm.desc.t3capacity,Transfer Rate$(2br)$(li)Increases Transfer Rates$$(li)Item: 32$(li)Fluid: 8000mb$(li)Energy: 100000 Fe/t$(li)Experience - 10 levels$(li)Dust Rate: 10$(li)Maximum Upgrades: 12,転送速度$(2br)$(li)転送速度を増加させる$$(li)アイテム：32$(li)流体：8000mb$(li)エネルギー：100000 Fe/t$(li)経験値 - 10レベル$(li)ダスト速度：10$(li)最大アップグレード数：12
+pedestal.book.augm.desc.t2storage,"Increases the storage capacity of a pedestal$(2br)$(li)Stacks: 1$(li)Fluid: 16,000Mb$(li)Energy: 100,000Fe$(li)Experience levels: 15$(li)Dust rate: 100$(li)Maximum allowed 7","ペデスタルのストレージ容量を増やします$(2br)$(li)スタック：1$(li)液体：16,000Mb$(li)エネルギー：100,000Fe$(li)経験値レベル：15$(li)の粉レート：100$(li)最大許容値：7"
+pedestal.book.augm.desc.t3capacity,Transfer Rate$(2br)$(li)Increases Transfer Rates$$(li)Item: 32$(li)Fluid: 8000mb$(li)Energy: 100000 Fe/t$(li)Experience - 10 levels$(li)Dust Rate: 10$(li)Maximum Upgrades: 12,転送速度$(2br)$(li)転送速度を増加させる$$(li)アイテム：32$(li)流体：8000mb$(li)エネルギー：100000 Fe/t$(li)経験値 - 10レベル$(li)の粉速度：10$(li)最大アップグレード数：12
 pedestal.book.augm.desc.t3range,Increases the distance to link pedestals$(2br)$(li)Increases range: 8 Blocks$(li)Maximum allowed: 5,ペデスタル間のリンク距離を伸ばします$(2br)$(li)範囲: 8ブロック$(li)最大許容値: 5
 pedestal.book.augm.desc.t3speed,Decreases the time between each transfer operation$(2br)$(li)Ticks Decreased: 6$(li)Maximum allowed: 5,各転送操作間の時間を短縮する$(2br)$(li)短縮ティック数：6$(li)最大許容値：5
-pedestal.book.augm.desc.t3storage,"Increases the storage capacity of a pedestal$(2br)$(li)Stacks: 1$(li)Fluid: 64,000Mb$(li)Energy: 1,000,000Fe$(li)Experience levels: 20$(li)Dust rate: 200$(li)Maximum allowed 11","台座の保管容量を増加させる$(2br)$(li)スタック：1$(li)流体：64,000Mb$(li)エネルギー：1,000,000Fe$(li)経験値レベル：20$(li)ダスト速度：200$(li)最大許容数11"
-pedestal.book.augm.desc.t4capacity,Transfer Rate$(2br)$(li)Increases Transfer Rates$$(li)Item: 64$(li)Fluid: 16000mb$(li)Energy: 1000000 Fe/t$(li)Experience - 14 levels$(li)Dust Rate: 10$(li)Maximum Upgrades: 16,転送速度$(2br)$(li)転送速度を増加させる$$(li)アイテム：64$(li)流体：16000mb$(li)エネルギー：1000000 Fe/t$(li)経験値 - 14レベル$(li)ダスト速度：10$(li)最大アップグレード数：16
+pedestal.book.augm.desc.t3storage,"Increases the storage capacity of a pedestal$(2br)$(li)Stacks: 1$(li)Fluid: 64,000Mb$(li)Energy: 1,000,000Fe$(li)Experience levels: 20$(li)Dust rate: 200$(li)Maximum allowed 11","台座の保管容量を増加させる$(2br)$(li)スタック：1$(li)流体：64,000Mb$(li)エネルギー：1,000,000Fe$(li)経験値レベル：20$(li)の粉速度：200$(li)最大許容数11"
+pedestal.book.augm.desc.t4capacity,Transfer Rate$(2br)$(li)Increases Transfer Rates$$(li)Item: 64$(li)Fluid: 16000mb$(li)Energy: 1000000 Fe/t$(li)Experience - 14 levels$(li)Dust Rate: 10$(li)Maximum Upgrades: 16,転送速度$(2br)$(li)転送速度を増加させる$$(li)アイテム：64$(li)流体：16000mb$(li)エネルギー：1000000 Fe/t$(li)経験値 - 14レベル$(li)の粉速度：10$(li)最大アップグレード数：16
 pedestal.book.augm.desc.t4range,Increases the distance to link pedestals$(2br)$(li)Increases range: 8 Blocks$(li)Maximum allowed: 7,ペデスタル間のリンク距離を伸ばします$(2br)$(li)範囲: 8ブロック$(li)最大許容値: 7
 pedestal.book.augm.desc.t4speed,Decreases the time between each transfer operation$(2br)$(li)Ticks Decreased: 8$(li)Maximum allowed: 5,各転送操作間の時間を短縮する$(2br)$(li)短縮ティック数：8$(li)最大許容値：5
-pedestal.book.augm.desc.t4storage,"Increases the storage capacity of a pedestal$(2br)$(li)Stacks: 1$(li)Fluid: 256,000Mb$(li)Energy: 10,000,000Fe$(li)Experience levels: 25$(li)Dust rate: 500$(li)Maximum allowed 15","台座の保管容量を増加させる$(2br)$(li)スタック：1$(li)流体：256,000Mb$(li)エネルギー：10,000,000Fe$(li)経験値レベル：25$(li)ダスト速度：500$(li)最大許容数15"
+pedestal.book.augm.desc.t4storage,"Increases the storage capacity of a pedestal$(2br)$(li)Stacks: 1$(li)Fluid: 256,000Mb$(li)Energy: 10,000,000Fe$(li)Experience levels: 25$(li)Dust rate: 500$(li)Maximum allowed 15","台座の保管容量を増加させる$(2br)$(li)スタック：1$(li)流体：256,000Mb$(li)エネルギー：10,000,000Fe$(li)経験値レベル：25$(li)の粉速度：500$(li)最大許容数15"
 pedestal.book.augm.name.capacity,Capacity Augments,容量増幅
 pedestal.book.augm.name.collide,Collision Effect Augment,衝突効果拡張
 pedestal.book.augm.name.range,Range Augments,範囲増強
@@ -314,7 +314,7 @@ pedestal.book.name,Pedestals Guide (Very WIP),ペデストルガイド (非常�
 pedestal.book.upgrades.desc.attacker,Will execute a player simulated attack in the defined work area,定義された作業領域でプレイヤーシミュレート攻撃を実行します
 pedestal.book.upgrades.desc.base,This is the base crafting item for all upgrades,これはすべてのアップグレードの基本クラフトアイテムです
 pedestal.book.upgrades.desc.blaster,Acts like a blast furnace and will use items from the inventory below,ブレイズ炉のように機能し、下部のインベントリからアイテムを使用します
-pedestal.book.upgrades.desc.bottler,"Takes Inputs out of an Inventory Below the pedestal, ""Bottles"" Fluids and XP by default, but could also work with Energy and Dust containers too.",台座の下のインベントリからアイテムを取り出し、デフォルトでは流体とXPを「瓶詰め」にしますが、エネルギーおよびダストコンテナでも機能します。
+pedestal.book.upgrades.desc.bottler,"Takes Inputs out of an Inventory Below the pedestal, ""Bottles"" Fluids and XP by default, but could also work with Energy and Dust containers too.",台座の下のインベントリからアイテムを取り出し、デフォルトでは流体とXPを「瓶詰め」にしますが、エネルギーおよびの粉コンテナでも機能します。
 pedestal.book.upgrades.desc.breaker,Breaks Items in a work area or work locations,作業エリアまたは作業場所でアイテムを破壊します
 pedestal.book.upgrades.desc.crafter,Crafts items based on what is in the selected pedestals,選択したペデスタルにあるものを基にアイテムをクラフトします。
 pedestal.book.upgrades.desc.export,Exports items/fluids/energy/xp from the Pedestal into the 'Below' Inventory.,ペデスタルからアイテム/液体/エネルギー/XPを『下側』インベントリへ輸出します。
@@ -324,7 +324,7 @@ pedestal.book.upgrades.desc.materialgen,"Placing a block under the pedestal, and
 pedestal.book.upgrades.desc.packager,Fill the contents of a package,パッケージの内容を埋め込む
 pedestal.book.upgrades.desc.smelter,Smelts items provided from a 'Below Inventory',『下部インベントリ』から提供されたアイテムを製錬します
 pedestal.book.upgrades.desc.smoker,Smokes items provided from a 'Below Inventory',『下部インベントリ』から提供されるアイテムを煙にする
-pedestal.book.upgrades.desc.unbottler,"Takes Inputs out of an Inventory Below the pedestal, ""Unbottles"" Fluids and XP by default, but could also work with Energy and Dust containers too.",台座の下のインベントリからアイテムを取り出し、デフォルトでは流体とXPを「瓶から出し」にしますが、エネルギーおよびダストコンテナでも機能します。
+pedestal.book.upgrades.desc.unbottler,"Takes Inputs out of an Inventory Below the pedestal, ""Unbottles"" Fluids and XP by default, but could also work with Energy and Dust containers too.",台座の下のインベントリからアイテムを取り出し、デフォルトでは流体とXPを「瓶から出し」にしますが、エネルギーおよびの粉コンテナでも機能します。
 pedestal.book.upgrades.desc.unpackager,Empty the package of its contents,パッケージの内容物を空にする
 pedestal.book.upgrades.name.attacker,Attacker Upgrade,攻撃アップグレード
 pedestal.book.upgrades.name.base,Upgrade Base,ベースアップグレード
@@ -361,14 +361,14 @@ pedestals.augments_storage_energyrate,Increases Energy Buffer In Pedestal: ,ペ�
 pedestals.augments_storage_fluidrate,Increases Fluid Buffer In Pedestal: ,ペデスタル内の流体バッファを増加: 
 pedestals.augments_storage_itemrate,Increases Number of Stacks Allowed In Pedestal: ,ペデスタル内で許可されるスタック数を増加: 
 pedestals.augments_storage_xprate,Increases Xp Level Buffer In Pedestal: ,ペデスタル内の XP レベルバッファを増加: 
-pedestals.bottler.dust,Dust Needed: ,必要なダスト: 
+pedestals.bottler.dust,Dust Needed: ,必要なの粉: 
 pedestals.bottler.energy,Energy Needed: ,必要なエネルギー: 
 pedestals.bottler.fluid,Fluid Needed: ,必要な流体: 
 pedestals.bottler.fluidna,None,なし
 pedestals.bottler.placementinventory,Item Inputs go into Inventory Below the Pedestal,アイテム入力はペデスタル下のインベントリに入ります
 pedestals.bottler.placementpedestal,Pedestal Needs Inventory Below it for Item Inputs,ペデスタルはアイテム入力のためにその下にインベントリが必要です
 pedestals.bottler.xp,Exp Needed: ,必要な経験値: 
-pedestals.bulkstorage_dust,Dust Stored,保存されたダスト
+pedestals.bulkstorage_dust,Dust Stored,保存されたの粉
 pedestals.bulkstorage_dust_discharge,Time Until Discharge,放出までの時間
 pedestals.bulkstorage_energy,Energy Stored,蓄えられたエネルギー
 pedestals.bulkstorage_energy_discharge,Time Until Discharge,放出までの時間
@@ -378,7 +378,7 @@ pedestals.bulkstorage_item,ItemStacks Stored,保存されたアイテムスタ�
 pedestals.bulkstorage_item_discharge,Time Until Discharge,放出までの時間
 pedestals.bulkstorage_xp,Xp Stored,保存された XP
 pedestals.bulkstorage_xp_discharge,Time Until Discharge,放出までの時間
-pedestals.cobble_gen.dust,Dust Needed: ,必要なダスト: 
+pedestals.cobble_gen.dust,Dust Needed: ,必要なの粉: 
 pedestals.cobble_gen.energy,Energy Needed: ,必要なエネルギー: 
 pedestals.cobble_gen.fluid,Fluid Needed: ,必要な流体: 
 pedestals.cobble_gen.fluidna,None,なし
@@ -387,7 +387,7 @@ pedestals.cobble_gen.warning,"§cThe Pedestal Simulates Breaking the Result Bloc
 pedestals.cobble_gen.xp,Exp Needed: ,必要な経験値: 
 pedestals.description_alt,Press 'Alt' for More Info,詳細情報は「Alt」キーを押してください
 pedestals.description_shift,Press 'Shift' for More Info,詳細情報は「Shift」キーを押してください
-pedestals.dust_mode_component,§dDust,§dダスト
+pedestals.dust_mode_component,§dDust,§dの粉
 pedestals.energy_mode_component,§4Energy,§4エネルギー
 pedestals.error,ERROR,エラー
 pedestals.filter.tooltip_filterbase,THIS FILTER BASE IS JUST A CRAFTING COMPONENT!!!,このフィルターベースは単なるクラフト部品です!!!
@@ -397,7 +397,7 @@ pedestals.filter_type,Filter Type: ,フィルタータイプ:
 pedestals.filter_type_above,Equal To and Above,以上
 pedestals.filter_type_below,Equal To and Below,以下
 pedestals.fluid_mode_component,§9Fluids,§9流体
-pedestals.fluidconverter.dust,Dust Returned: ,返却されたダスト: 
+pedestals.fluidconverter.dust,Dust Returned: ,返却されたの粉: 
 pedestals.fluidconverter.energy,Energy Returned: ,返却されたエネルギー: 
 pedestals.fluidconverter.fluid,Fluid Needed: ,必要な流体: 
 pedestals.fluidconverter.fluidna,None,なし
@@ -430,7 +430,7 @@ pedestals.manifest.description.augments.has_speed,Has Speed Augment,速度オー
 pedestals.manifest.description.augments.has_storage,Has Storage Augment,ストレージオーグメントを持つ
 pedestals.manifest.description.augments.num,Tiered Augments: ,段階別オーグメント: 
 pedestals.manifest.description.augments.num_alt,==== Pedestal Stats ====,==== ペデスタル統計 ====
-pedestals.manifest.description.augments.num_capstor_alt_dust,Dust Transfer Rate/Capacity: ,ダスト転送レート/容量: 
+pedestals.manifest.description.augments.num_capstor_alt_dust,Dust Transfer Rate/Capacity: ,の粉転送レート/容量: 
 pedestals.manifest.description.augments.num_capstor_alt_energy,Energy Transfer Rate/Capacity: ,エネルギー転送レート/容量: 
 pedestals.manifest.description.augments.num_capstor_alt_fluid,Fluid Transfer Rate/Capacity: ,流体転送レート/容量: 
 pedestals.manifest.description.augments.num_capstor_alt_item,Item Transfer Rate/Stacks: ,アイテム転送レート/スタック: 
@@ -550,7 +550,7 @@ pedestals.tooltip_error,Error,エラー
 pedestals.tooltip_separator,====================,
 pedestals.transport_mode_changed_false,Mode Disabled,モード無効
 pedestals.transport_mode_changed_true,Mode Enabled,モードが有効化されました
-pedestals.unbottler.dust,Dust Returned: ,返却されたダスト: 
+pedestals.unbottler.dust,Dust Returned: ,返却されたの粉: 
 pedestals.unbottler.energy,Energy Returned: ,返却されたエネルギー: 
 pedestals.unbottler.fluid,Fluid Returned: ,返却された流体: 
 pedestals.unbottler.fluidna,None,なし
@@ -565,7 +565,7 @@ pedestals.upgrade_blockpos_removed,Block Position Removed,ブロック位置が�
 pedestals.upgrade_blockpos_second,Point 2 Selected,ポイント2が選択されました
 pedestals.upgrade_description_alt,§8Press 'Alt' to Show Selected Block Points,§8選択ブロックポイントを表示するには「Alt」を押してください
 pedestals.upgrade_description_shift,§7Press 'Shift' to Show Enabled Transfer Types,§7有効な転送タイプを表示するには「Shift」を押してください
-pedestals.upgrade_fuel_dust,Requires Dust: ,必要なダスト: 
+pedestals.upgrade_fuel_dust,Requires Dust: ,必要なの粉: 
 pedestals.upgrade_fuel_energy,Requires Energy,エネルギーが必要
 pedestals.upgrade_fuel_xp,Requires XP,XP が必要
 pedestals.upgrade_modification.pedestalsetup,Bind Surrounding pedestals with the modification upgrade to the pedestal above the input chest,周囲のペデスタルを修正アップグレードでバインドして、入力チェストの上のペデスタルに接続
@@ -577,7 +577,7 @@ pedestals.upgrade_modification.type,Modification: ,変更:
 pedestals.upgrade_modification.upgradearea,Area,エリア
 pedestals.upgrade_modification.upgradeblockcapacity,Block Manipulation,ブロック操作
 pedestals.upgrade_modification.upgradedamagecapacity,Damage,ダメージ
-pedestals.upgrade_modification.upgradedustcapacity,Dust Capacity,ダスト容量
+pedestals.upgrade_modification.upgradedustcapacity,Dust Capacity,の粉容量
 pedestals.upgrade_modification.upgradeenergycapacity,Energy Capacity,エネルギー容量
 pedestals.upgrade_modification.upgradeentitystorage,Entity Inv. Targeting,エンティティインベントリ。ターゲット指定
 pedestals.upgrade_modification.upgradefluidcapacity,Fluid Capacity,流体容量
@@ -600,8 +600,8 @@ pedestals.upgrade_tooltip_blockpos_two,Selection 2,選択2
 pedestals.upgrade_tooltip_capacity_label,Capacity Increase: ,容量増加：
 pedestals.upgrade_tooltip_damagecapacity_allowed,Can Increase Damage,ダメージ増加可
 pedestals.upgrade_tooltip_damagecapacity_label,Damage Tiers : ,ダメージの段階: 
-pedestals.upgrade_tooltip_dustcapacity_allowed,Can Increase Dust Capacity,ダスト容量を増加可能
-pedestals.upgrade_tooltip_dustcapacity_label,Dust Capacity Increase: ,ダスト容量増加:
+pedestals.upgrade_tooltip_dustcapacity_allowed,Can Increase Dust Capacity,の粉容量を増加可能
+pedestals.upgrade_tooltip_dustcapacity_label,Dust Capacity Increase: ,の粉容量増加:
 pedestals.upgrade_tooltip_energycapacity_allowed,Can Increase Energy Capacity,エネルギー容量を増加できる
 pedestals.upgrade_tooltip_energycapacity_label,Energy Capacity Increase: ,エネルギー容量増加: 
 pedestals.upgrade_tooltip_entitycontainer_allowed,Can Add Entity Inv. Targeting,エンティティインベントリターゲット追加可能
@@ -1196,7 +1196,7 @@ item.pedestals.coin.milker.tooltip_speed,Operational Speed: ,操作速度:
 item.pedestals.coin.placeholder,Inventory Placeholder,インベントリプレースホルダー
 item.pedestals.coin.placeholder.tooltip_name,Crafting Placeholder,クラフト空白
 item.pedestals.coin.placeholderbucket,Inventory Placeholder,インベントリプレースホルダー
-item.pedestals.coin.placeholderbucket.tooltip_name,Fluid Crafting Placeholder,流体クラフティングプレースホルダー
+item.pedestals.coin.placeholderbucket.tooltip_name,Fluid Crafting Placeholder,流体クラフトプレースホルダー
 item.pedestals.coin.placer,Pedestal Upgrade,台座アップグレード
 item.pedestals.coin.placer.chat_range,Range: ,範囲: 
 item.pedestals.coin.placer.chat_speed,Operational Speed: ,操作速度: 
@@ -1779,13 +1779,13 @@ pedestals.filters.insert_remove,Filter Removed,フィルターを削除
 pedestals.filters.insert_switch,Filter Settings Copied Successfully,フィルタ設定が成功してコピーされました
 pedestals.filters.tooltip_filterabove,Durability Above,耐久値上部
 pedestals.filters.tooltip_filterbelow,Durability Below,耐久値下部
-pedestals.filters.tooltip_filterblack,Blacklist,ブラックリスト
+pedestals.filters.tooltip_filterblack,Blacklist,黒リスト
 pedestals.filters.tooltip_filterchange,Filter Type Switched to: ,フィルタタイプを切り替えました： 
 pedestals.filters.tooltip_filterlist,Items In Filter: ,フィルタ内アイテム数: 
 pedestals.filters.tooltip_filterlist_count,Count: ,数: 
 pedestals.filters.tooltip_filterlist_durability,Durability %: ,耐久率 %: 
 pedestals.filters.tooltip_filtertype,Filter Type: ,フィルタータイプ: 
-pedestals.filters.tooltip_filterwhite,Whitelist,ホワイトリスト
+pedestals.filters.tooltip_filterwhite,Whitelist,白リスト
 pedestals.fluid_to_xp,Fluid to XP Conversions,液体からXPへの変換
 pedestals.jei.fluid_to_xp,Exp Count Returned,経験値数が返されました
 pedestals.patch_book,Pedestals,ペデスタル

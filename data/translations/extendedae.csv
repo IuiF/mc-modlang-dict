@@ -10,10 +10,10 @@ block.extendedae.circuit_cutter,Circuit Slicer,回路スライサー
 block.extendedae.crystal_assembler,Crystal Assembler,クリスタル組立機
 block.extendedae.crystal_fixer,Crystal Fixer,クリスタル修復機
 block.extendedae.entro_block,Entro Block,エントロクリスタルブロック
-block.extendedae.entro_budding_fully,Budding Fully Entroized Fluix,完全に発芽したエントロフルーシュブロック
-block.extendedae.entro_budding_half,Budding Half Entroized Fluix,やや芽生え始めたエントロフルーシュブロック
-block.extendedae.entro_budding_hardly,Budding Hardly Entroized Fluix,発芽しにくいエントロフルーシュブロック
-block.extendedae.entro_budding_mostly,Budding Mostly Entroized Fluix,芽生えつつあるエントロフルーシュブロック
+block.extendedae.entro_budding_fully,Budding Fully Entroized Fluix,完全に発芽したエントロフルイックスブロック
+block.extendedae.entro_budding_half,Budding Half Entroized Fluix,やや芽生え始めたエントロフルイックスブロック
+block.extendedae.entro_budding_hardly,Budding Hardly Entroized Fluix,発芽しにくいエントロフルイックスブロック
+block.extendedae.entro_budding_mostly,Budding Mostly Entroized Fluix,芽生えつつあるエントロフルイックスブロック
 block.extendedae.entro_cluster,Entro Cluster,エントロクリスタルの塊
 block.extendedae.entro_cluster_large,Large Entro Bud,大きなエントロクリスタルの芽
 block.extendedae.entro_cluster_medium,Medium Entro Bud,中くらいのエントロクリスタルの芽
@@ -44,8 +44,8 @@ cutter.tooltip,Right click AE devices to rename,AE機械を右クリックして
 emi.extendedae.category.assembler,Crystal Assembler,クリスタル組立機
 emi.extendedae.category.cutter,Circuit Slicer,回路スライサー
 emi.extendedae.category.fixer,Crystal Fixer,クリスタル修復機
-emi.extendedae.desc.entro_crystal,"Entro Crystal is grown by Budding Entroized Fluix, like how Certus Quartz works. To get Budding Entroized Fluix, you need to craft Entro Seed and right click Fluix Block with it.",エントロクリスタルはケルタスクォーツの仕組みと同じように、芽生えたエントロフルーシュブロックによって成長します。芽生えたエントロフルーシュブロックを入手するには、エントロの種を作成し、それでフルーシュブロックを右クリックする必要があります。
-emi.extendedae.desc.entro_seed,"Right click a Fluix Block in world with Entro Seed, and the Fluix Block will be turned into Budding Entroized Fluix.",ワールド上でエントロの種でフルーシュブロックを右クリックすると、フルーシュブロックが芽生えたエントロフルーシュブロックに変化します。
+emi.extendedae.desc.entro_crystal,"Entro Crystal is grown by Budding Entroized Fluix, like how Certus Quartz works. To get Budding Entroized Fluix, you need to craft Entro Seed and right click Fluix Block with it.",エントロクリスタルはセルタスクォーツの仕組みと同じように、芽生えたエントロフルイックスブロックによって成長します。芽生えたエントロフルイックスブロックを入手するには、エントロの種を作成し、それでフルイックスブロックを右クリックする必要があります。
+emi.extendedae.desc.entro_seed,"Right click a Fluix Block in world with Entro Seed, and the Fluix Block will be turned into Budding Entroized Fluix.",ワールド上でエントロの種でフルイックスブロックを右クリックすると、フルイックスブロックが芽生えたエントロフルイックスブロックに変化します。
 emi.extendedae.text.success_chance,Success Chance: %s,成功チャンス: %s
 group.ex_io_bus_part,ME Extended Import/Export Bus,ME拡張型インポート/出力バス
 gui.extendedae.active_formation_plane,ME Active Formation Plane,ME能動的形成プレーン
@@ -138,12 +138,12 @@ gui.extendedae.set_output_sides.open,Open Output Config,出力面設定を開く
 gui.extendedae.smart_annihilation_plane,ME Smart Annihilation Plane,MEスマート消滅プレーン
 gui.extendedae.tag_export_bus,ME Tag Export Bus,ME出力バス(タグ)
 gui.extendedae.tag_storage_bus,Tag Storage bus,ストレージバス(タグ)
-gui.extendedae.tag_storage_bus.blacklist,Blacklist Filter,ブラックリストフィルター
+gui.extendedae.tag_storage_bus.blacklist,Blacklist Filter,黒リストフィルター
 gui.extendedae.tag_storage_bus.desc.01,& = AND    | = OR,& = AND    | = OR
 gui.extendedae.tag_storage_bus.desc.02,^ = XOR,^ = XOR
 gui.extendedae.tag_storage_bus.desc.03,() for priority    * for wildcard,() は優先度 * はワイルドカード
 gui.extendedae.tag_storage_bus.tooltip,Input tag here,ここにタグを入力
-gui.extendedae.tag_storage_bus.whitelist,Whitelist Filter,ホワイトリストフィルター
+gui.extendedae.tag_storage_bus.whitelist,Whitelist Filter,白リストフィルター
 gui.extendedae.threshold_export_bus,ME Threshold Export Bus,MEしきい値出力バス
 gui.extendedae.threshold_export_bus.greater,Work when above threshold,しきい値を超えたときに作業します
 gui.extendedae.threshold_export_bus.lower,Work when below threshold,しきい値を下回ったときに作業します

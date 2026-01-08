@@ -31,7 +31,7 @@ chat.immersivepetroleum.command.reservoir.setCapacity.NFE,"Error, '%1$s' is not 
 chat.immersivepetroleum.command.reservoir.setCapacity.help,§6Usage: /ip reservoir setCapacity <number>§r<br> Set the maximum amount of mB of fluid in the chunk.,§6Usage: /ip reservoir setCapacity <number>§r<br> チャンクの液体の最大埋蔵量をmB単位で設定します。
 chat.immersivepetroleum.command.reservoir.setCapacity.sucess,Reservoir capacity set to '%1$s',貯留層の最大埋蔵量を以下に設定: %1$s
 chat.immersivepetroleum.info.coresample.noOil,No Fluid Reservoir,液体貯留層なし
-chat.immersivepetroleum.info.coresample.oilRep,Up to %d mB/tick of trace %s,最大%d mB/tickで抽出できる微量の%s
+chat.immersivepetroleum.info.coresample.oilRep,Up to %d mB/tick of trace %s,最大%d mB/ティックで抽出できる微量の%s
 death.attack.ipFlarestack,%1$s was flared out of existence,%1$sは存在を燃やし尽くされた
 death.attack.ipFlarestack.player,%1$s was flared out of existence by %2$s,%1$sは%2$sによって存在を燃やし尽くされた
 desc.immersiveengineering.info.multiblock.IE:CokerUnit,Coker,コーカー
@@ -102,7 +102,7 @@ Despite the finite volume of fluid in each chunk, certain types of reservoirs ma
 各チャンクに含まれる液体の量は有限ですが、特定のタイプの貯留層の場合は、液体を取り尽くしてもなお微量の液体を抽出し続けられる場合があります。 枯渇したチャンクでは、複数のポンプジャックを用いてもメリットはありません。<np>"
 ie.manual.entry.reservoirs.replenish,"
 After the reservoir is depleted, %1$d mB/tick of trace %2$s can be extracted by a single Pumpjack.","
-貯留層が枯渇した後でも、単一のポンプジャックを用いて%1$d mB/tickで微量の%2$sを抽出できます。"
+貯留層が枯渇した後でも、単一のポンプジャックを用いて%1$d mB/ティックで微量の%2$sを抽出できます。"
 ie.manual.entry.reservoirs.subtitle,Black gold,黒い黄金
 ie.manual.entry.reservoirs.title,Fluid Reservoirs,液体貯留層
 ie.manual.entry.reservoirs.vowel,An,
@@ -192,7 +192,7 @@ ie.manual.entry.oil2,%1$s %6$s<br>It contains %3$s to %4$s mB of %2$s.%5$s,%1$s 
 ie.manual.entry.oilConsonant,A,
 ie.manual.entry.oilVowel,An,
 ie.manual.entry.oilDimAny,%2$s §l%1$s§r is a type of fluid reservoir that can be found in any Dimension.,%2$s §l%1$s§r は、任意のディメンジョンで見つかる液体貯留層です。
-ie.manual.entry.oilReplenish,"<br>After the reservoir is depleted, %1$d mB/tick of trace %2$s can be extracted by a single Pumpjack.",油田が枯渇した後、1つのポンプジャックで%1$d mB/tickのトレース%2$sを抽出できます。
+ie.manual.entry.oilReplenish,"<br>After the reservoir is depleted, %1$d mB/tick of trace %2$s can be extracted by a single Pumpjack.",油田が枯渇した後、1つのポンプジャックで%1$d mB/ティックのトレース%2$sを抽出できます。
 ie.manual.entry.oilBiomeAny,This reservoir will generate in any Biome.,この貯留層は、あらゆるバイオームで生成されます。
 ie.manual.entry.asphalt.name,Asphalt Concrete,アスファルト
 ie.manual.entry.asphalt.subtext,Highway material,道路の材料
@@ -200,7 +200,7 @@ ie.manual.entry.asphalt0,"Asphalt Concrete, held together by gooey Bitumen, is a
 ie.manual.entry.schematics.name,Multiblock Projector,マルブロックプロジェクター
 ie.manual.entry.schematics.subtext,Invaluable instructions,貴重な指示
 ie.manual.entry.schematics0,"When it comes to building large multiblock structures, referring to your Engineer's Manual time and time again has grown tedious. By crafting a primitive projector device, you believe you can project schematics of these structures into the world to use as a template.",大きなマルチブロック構造を構築するときにエンジニアマニュアルを何度も参照することは面倒になってきました。プリミティブプロジェクター装置を製作することで、これらの構造のスキーマティクスをワールドに投影でき、テンプレートとして使用できるようになります。
-ie.manual.entry.schematics1,"If you turn your Engineer's Manual to the page of a multiblock structure and then place it in a crafting bench alongside a Projector, you can set the internal slide to match that multiblock. The Projector will then act as a three dimensional building guide.",エンジニアマニュアルをマルチブロック構造のページに開いて、クラフティングテーブルの隣にプロジェクターを配置すると、内部スライドをそのマルチブロックと同期させることができます。その後、プロジェクターは3次元建築ガイドとして機能します。
+ie.manual.entry.schematics1,"If you turn your Engineer's Manual to the page of a multiblock structure and then place it in a crafting bench alongside a Projector, you can set the internal slide to match that multiblock. The Projector will then act as a three dimensional building guide.",エンジニアマニュアルをマルチブロック構造のページに開いて、クラフトテーブルの隣にプロジェクターを配置すると、内部スライドをそのマルチブロックと同期させることができます。その後、プロジェクターは3次元建築ガイドとして機能します。
 ie.manual.entry.schematics2,"Holding a Projector will display the structure. Pressing the pick block button will rotate the structure, and sneaking while doing so will mirror it. Right clicking will lock the image in place, where it will show as long as the Projector is in your hotbar.<br><br>Sneaking and right clicking with a projector that has a locked image will unlock the image.<br><br>In Creative mode, sneaking while locking the image will build the multiblock automatically.",プロジェクターを持つと構造が表示されます。ピックブロックボタンを押すと構造が回転し、その間にスニークしながら押すと鏡像反転します。右クリックで画像をロックでき、プロジェクターがホットバーにある限り表示されたままになります。<br><br>スニークしながらロックされた画像を持つプロジェクターを右クリックするとロックが解除されます。<br><br>クリエイティブモードでは、画像をロックするときにスニークしながら行うと、マルチブロックが自動的に構築されます。
 ie.manual.entry.speedboat.name,Motorboat,モーターボート
 ie.manual.entry.speedboat.subtext,Wave rider,波乗り

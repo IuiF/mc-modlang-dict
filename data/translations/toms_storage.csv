@@ -14,22 +14,22 @@ block.toms_storage.ts.painted_trim,Inventory Trim,インベントリトリム
 block.toms_storage.ts.storage_terminal,Storage Terminal,ストレージターミナル
 block.toms_storage.ts.trim,Inventory Trim,インベントリトリム
 chat.toms_storage.inv_link_access_denied,Access Denied,アクセス拒否
-chat.toms_storage.terminal_bound,Bound Advanced Wireless Terminal,発展ワイヤレスターミナルと接続
+chat.toms_storage.terminal_bound,Bound Advanced Wireless Terminal,発展無線ターミナルと接続
 chat.toms_storage.terminal_invalid_block,Invalid block,無効なブロック
 chat.toms_storage.terminal_out_of_range,Terminal out of range,ターミナルが範囲外
-item.toms_storage.ts.adv_wireless_terminal,Advanced Wireless Terminal,発展ワイヤレスターミナル
+item.toms_storage.ts.adv_wireless_terminal,Advanced Wireless Terminal,発展無線ターミナル
 item.toms_storage.ts.item_filter,Item Filter,アイテムフィルター
 item.toms_storage.ts.paint_kit,Paint Kit,塗装キット
 item.toms_storage.ts.polymorphic_item_filter,Polymorphic Item Filter,ポリモーフィックアイテムフィルタ
 item.toms_storage.ts.tag_item_filter,Tag Item Filter,タグアイテムフィルタ
-item.toms_storage.ts.wireless_terminal,Wireless Terminal,無線アクセスターミナル
+item.toms_storage.ts.wireless_terminal,Wireless Terminal,無線ターミナル
 itemGroup.toms_storage.tab,Tom's Simple Storage,トムのシンプルストレージ
 key.toms_storage.open_terminal,[Tom's Simple Storage] Open Terminal,[Tom's Simple Storage] ターミナルを開く
 narrator.toms_storage.inventory_link_channel,Inventory Link Channel Name Field,インベントリリンクチャンネル名フィールド
 narrator.toms_storage.level_emitter_amount,Level Emitter Item Count,レベルエミッター アイテム数
 narrator.toms_storage.terminal_search,Terminal Search Field,ターミナル検索失敗
 tag.toms_storage.trims,Inventory Trims,インベントリリム
-text.autoconfig.toms_storage.option.advWirelessRange,Advanced wireless terminal range,発展ワイヤレスターミナル範囲
+text.autoconfig.toms_storage.option.advWirelessRange,Advanced wireless terminal range,発展無線ターミナル範囲
 text.autoconfig.toms_storage.option.invConnectorMaxCables,Inventory Cable Connector Maximum number of cables,インベントリケーブルコネクタの最大ケーブル数
 text.autoconfig.toms_storage.option.invDupScanSize,Inventory Connector duplicate finder max slot count,インベントリ複製スキャンサイズ
 text.autoconfig.toms_storage.option.invLinkBeaconLvl,Inventory Link Beacon Level,インベントリリンクビーコンレベル
@@ -38,28 +38,28 @@ Value of 0 only requires a single beacon block nearby
 Value of -1 disables this feature entirely",インベントリリンクの無線範囲に影響するビーコンレベルを設定します
 text.autoconfig.toms_storage.option.invLinkBeaconLvlDim,Inventory Cable Connector requied beacon level for cross dimensional access,インベントリリンクビーコンレベル (ディメンション)
 text.autoconfig.toms_storage.option.invLinkBeaconLvlDim.@Tooltip,"Value of 0 only requires a single beacon block nearby
-Value of -1 disables this feature entirely",ディメンション間でのワイヤレスターミナルの無線リンク範囲に影響するビーコンレベルを設定します
+Value of -1 disables this feature entirely",ディメンション間での無線ターミナルの無線リンク範囲に影響するビーコンレベルを設定します
 text.autoconfig.toms_storage.option.invRange,Inventory Connector Range,インベントリコネクター範囲
 text.autoconfig.toms_storage.option.multiblockInv,Multiblock inventories,マルチブロックインベントリ
 text.autoconfig.toms_storage.option.onlyTrims,Only Allow Trims to Connect Inventories,トリムのみインベントリに接続可能
-text.autoconfig.toms_storage.option.wirelessRange,Wireless terminal reach,ワイヤレスターミナル範囲
-text.autoconfig.toms_storage.option.wirelessTermBeaconLvl,Adv. Wireless Terminal beacon level,ワイヤレスターミナル ビーコンレベル
+text.autoconfig.toms_storage.option.wirelessRange,Wireless terminal reach,無線ターミナル範囲
+text.autoconfig.toms_storage.option.wirelessTermBeaconLvl,Adv. Wireless Terminal beacon level,無線ターミナル ビーコンレベル
 text.autoconfig.toms_storage.option.wirelessTermBeaconLvl.@Tooltip,"Advanced wireless terminal requied beacon level for infinite range
 Value of 0 only requires a single beacon block nearby
-Value of -1 disables this feature entirely",ワイヤレスターミナルの無線範囲に影響するビーコンレベルを設定します
-text.autoconfig.toms_storage.option.wirelessTermBeaconLvlDim,Adv Wireless terminal requied beacon level for cross dimensional access,ワイヤレスターミナル ビーコンレベル (ディメンション)
+Value of -1 disables this feature entirely",無線ターミナルの無線範囲に影響するビーコンレベルを設定します
+text.autoconfig.toms_storage.option.wirelessTermBeaconLvlDim,Adv Wireless terminal requied beacon level for cross dimensional access,無線ターミナル ビーコンレベル (ディメンション)
 text.autoconfig.toms_storage.option.wirelessTermBeaconLvlDim.@Tooltip,"Value of 0 only requires a single beacon block nearby
-Value of -1 disables this feature entirely",ディメンション間でのワイヤレスターミナルの無線リンク範囲に影響するビーコンレベルを設定します
+Value of -1 disables this feature entirely",ディメンション間での無線ターミナルの無線リンク範囲に影響するビーコンレベルを設定します
 text.autoconfig.toms_storage.title,Tom's Simple Storage Configuration,Tom's Simple Storage 設定
 tomsstorage.config.adv_wireless_beacon_lvl,"Advanced wireless terminal requied beacon level for infinite range
 Value of 0 only requires a single beacon block nearby
-Value of -1 disables this feature entirely",ワイヤレスターミナルの無線範囲に影響するビーコンレベルを設定します
+Value of -1 disables this feature entirely",無線ターミナルの無線範囲に影響するビーコンレベルを設定します
 tomsstorage.config.adv_wireless_beacon_lvl_dim,"Adv Wireless terminal requied beacon level for cross dimensional access
 Value of 0 only requires a single beacon block nearby
-Value of -1 disables this feature entirely","高度ワイヤレスターミナルが要求するディメンション間通信のビーコンレベル
+Value of -1 disables this feature entirely","高度無線ターミナルが要求するディメンション間通信のビーコンレベル
 値0なら近くにビーコンブロックが1つあればよい
 値-1ならこの機能を完全に無効にする"
-tomsstorage.config.adv_wireless_range,Advanced wireless terminal range,発展ワイヤレスターミナル範囲
+tomsstorage.config.adv_wireless_range,Advanced wireless terminal range,発展無線ターミナル範囲
 tomsstorage.config.inv_cable_connector_max_scan,Inventory Cable Connector Maximum number of cables,インベントリケーブルコネクタの最大ケーブル数
 tomsstorage.config.inv_dup_scan_size,Inventory Connector duplicate finder max slot count,インベントリ複製スキャンサイズ
 tomsstorage.config.inv_link_beacon_lvl,"Inventory Cable Connector requied beacon level for inventory linking
@@ -69,7 +69,7 @@ Value of -1 disables this feature entirely",インベントリリンクビーコ
 tomsstorage.config.inventory_connector_range,Inventory Connector Range,インベントリコネクター範囲
 tomsstorage.config.multiblock_inv,Multiblock inventories,マルチブロックインベントリ
 tomsstorage.config.only_trims_connect,Only Allow Trims to Connect Inventories,トリムのみインベントリに接続可能
-tomsstorage.config.wireless_reach,Wireless terminal reach,ワイヤレスターミナル範囲
+tomsstorage.config.wireless_reach,Wireless terminal reach,無線ターミナル範囲
 tooltip.toms_storage.adv_wireless_terminal,Shift right click a terminal to bind it.\Range: %d blocks\The teminal's chunk has to be loaded,Shift-右クリックでターミナルと紐づける。\範囲: %dブロック\ターミナルのチャンクをロードする必要がある。
 tooltip.toms_storage.adv_wireless_terminal.bound,"Bound to (%s, %s, %s) in %s","(%s, %s, %s) in %sと紐づけ済"
 tooltip.toms_storage.adv_wireless_terminal.keybind,Press the %s key to open,%sキーで画面を開く
@@ -134,12 +134,12 @@ tooltip.toms_storage.tag_item_filter,Filter using tags,タグを用いた絞り�
 tooltip.toms_storage.tallMode_0,Terminal Size: Default,ターミナルサイズ: デフォルト
 tooltip.toms_storage.tallMode_1,Terminal Size: Auto,ターミナルサイズ: 自動
 tooltip.toms_storage.terminal_beacon,Beacon level: %d%s,ビーコンレベル: %d%s
-tooltip.toms_storage.terminal_beacon.anywhere,This terminal is accessible anywhere\with the Advanced Wireless Terminal,発展ワイヤレスターミナルを使えば\このターミナルはどこからでもアクセス可能
-tooltip.toms_storage.terminal_beacon.sameDim,This terminal is accessible anywhere\in this dimension\with the Advanced Wireless Terminal,発展ワイヤレスターミナルを使えば\このターミナルはこのディメンション内のどこからでもアクセス可能
+tooltip.toms_storage.terminal_beacon.anywhere,This terminal is accessible anywhere\with the Advanced Wireless Terminal,発展無線ターミナルを使えば\このターミナルはどこからでもアクセス可能
+tooltip.toms_storage.terminal_beacon.sameDim,This terminal is accessible anywhere\in this dimension\with the Advanced Wireless Terminal,発展無線ターミナルを使えば\このターミナルはこのディメンション内のどこからでもアクセス可能
 tooltip.toms_storage.trim,Connects inventories with the Inventory Connector.,インベントリコネクタとインベントリを接続する
 tooltip.toms_storage.wireless_terminal,Extends your reach for the terminal.\Reach: %d blocks,端末に届く範囲を延長する。\範囲: %dブロック
 ts.connector_filtered,Set Filter,フィルター付きコネクター
-ts.crafting_terminal,C. Terminal,クラフティングターミナル
+ts.crafting_terminal,C. Terminal,クラフトターミナル
 ts.inventory_connector,Inventory Link,インベントリリンク
 ts.inventory_connector.beacon_level,Beacon Level: %d,ビーコンレベル: %d
 ts.level_emitter,Level Emitter,レベルエミッタ
@@ -170,13 +170,13 @@ config.jade.plugin_toms_storage.inventory_config,Inventory Configurator Info,イ
 config.jade.plugin_toms_storage.inventory_connector,Inventory Connector Info,インベントリコネクター情報
 config.toms_storage.adv_wireless_beacon_lvl,"Advanced wireless terminal requied beacon level for infinite range
 Value of 0 only requires a single beacon block nearby
-Value of -1 disables this feature entirely",ワイヤレスターミナルの無線範囲に影響するビーコンレベルを設定します
+Value of -1 disables this feature entirely",無線ターミナルの無線範囲に影響するビーコンレベルを設定します
 config.toms_storage.adv_wireless_beacon_lvl_dim,"Adv Wireless terminal requied beacon level for cross dimensional access
 Value of 0 only requires a single beacon block nearby
-Value of -1 disables this feature entirely","高度ワイヤレスターミナルが要求するディメンション間通信のビーコンレベル
+Value of -1 disables this feature entirely","高度無線ターミナルが要求するディメンション間通信のビーコンレベル
 値0なら近くにビーコンブロックが1つあればよい
 値-1ならこの機能を完全に無効にする"
-config.toms_storage.adv_wireless_range,Advanced wireless terminal range,発展ワイヤレスターミナル範囲
+config.toms_storage.adv_wireless_range,Advanced wireless terminal range,発展無線ターミナル範囲
 config.toms_storage.basic_hopper_cooldown,Basic Inventory Hopper transfer cooldown (ticks),基本インベントリホッパー転送クールダウン（ティック）
 config.toms_storage.inv_blocked_blocks,List of block ids ignored by the inventory connector,インベントリコネクタで無視されるブロックIDの一覧
 config.toms_storage.inv_blocked_mods,List of mod ids whose blocks is ignored by the inventory connector,インベントリコネクタで無視されるブロックを持つモッドIDのリスト
@@ -200,8 +200,8 @@ Value of 0 disables this feature entirely","ビーコンに接続されたイン
 config.toms_storage.inventory_connector_range,Inventory Connector Range,インベントリコネクター範囲
 config.toms_storage.only_trims_connect,Only Allow Trims to Connect Inventories,トリムのみインベントリに接続可能
 config.toms_storage.run_multithreaded,Use multithreading to improve performance,マルチスレッドを使用してパフォーマンスを向上させる
-config.toms_storage.wireless_reach,Wireless terminal reach,ワイヤレスターミナル範囲
-item.toms_storage.adv_wireless_terminal,Advanced Wireless Terminal,発展ワイヤレスターミナル
+config.toms_storage.wireless_reach,Wireless terminal reach,無線ターミナル範囲
+item.toms_storage.adv_wireless_terminal,Advanced Wireless Terminal,発展無線ターミナル
 item.toms_storage.inventory_configurator,Inventory Configurator,インベントリコンフィギュレーター
 item.toms_storage.item_filter,Item Filter,アイテムフィルター
 item.toms_storage.paint_kit,Paint Kit,塗装キット
@@ -209,7 +209,7 @@ item.toms_storage.polymorphic_item_filter,Polymorphic Item Filter,ポリモー�
 item.toms_storage.tag_item_filter,Tag Item Filter,タグアイテムフィルタ
 item.toms_storage.wireless_terminal,Wireless Terminal,無線アクセスターミナル
 label.toms_storage.inventory_connector.beacon_level,Beacon Level: %d,ビーコンレベル: %d
-menu.toms_storage.crafting_terminal,C. Terminal,クラフティングターミナル
+menu.toms_storage.crafting_terminal,C. Terminal,クラフトターミナル
 menu.toms_storage.filing_cabinet,Filling Cabinet,ファイル棚
 menu.toms_storage.inventory_configurator,Inventory Configurator (%s),インベントリコンフィギュレーター (%s)
 menu.toms_storage.inventory_connector,Inventory Link,インベントリリンク
@@ -232,10 +232,10 @@ Value of -1 disables this feature entirely","インベントリケーブルコ�
 text.autoconfig.toms_storage.option.invLinkBeaconRange,Inventory Linking range with beacons,インベントリリンクのためのビーコンレベル
 text.autoconfig.toms_storage.option.invLinkBeaconRange.@Tooltip,Value of 0 disables this feature entirely,値0ならこの機能を完全に無効にする
 text.autoconfig.toms_storage.option.runMultithreaded,Use multithreading to improve performance,マルチスレッドを使用してパフォーマンスを向上させる
-text.autoconfig.toms_storage.option.wirelessTermBeaconLvlCrossDim,Adv. Wireless Terminal cross dimension level,高度ワイヤレスターミナルが要求するディメンション間通信のビーコンレベル
+text.autoconfig.toms_storage.option.wirelessTermBeaconLvlCrossDim,Adv. Wireless Terminal cross dimension level,高度無線ターミナルが要求するディメンション間通信のビーコンレベル
 text.autoconfig.toms_storage.option.wirelessTermBeaconLvlCrossDim.@Tooltip,"Advanced Wireless terminal requied beacon level for cross dimensional access
 Value of 0 only requires a single beacon block nearby
-Value of -1 disables this feature entirely","高度ワイヤレスターミナルが無限範囲のために要求するビーコンレベル
+Value of -1 disables this feature entirely","高度無線ターミナルが無限範囲のために要求するビーコンレベル
 値0なら近くにビーコンブロックが1つあればよい
 値-1ならこの機能を完全に無効にする"
 toms_storage.configuration.importantInfo.tooltip,"IMPORTANT NOTICE:

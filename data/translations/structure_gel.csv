@@ -4,7 +4,7 @@ block.structure_gel.cyan_gel,Cyan Gel,青緑ゲル
 block.structure_gel.green_gel,Green Gel,緑色ゲル
 block.structure_gel.orange_gel,Orange Gel,橙ジェル
 block.structure_gel.red_gel,Red Gel,赤いジェル
-block.structure_gel.yellow_gel,Yellow Gel,イエロージェル
+block.structure_gel.yellow_gel,Yellow Gel,黄ジェル
 commands.structure_gel.clone.override,Overriding vanilla clone limit of %s blocks by cloning %s blocks. This may take some time,ベーシックなクローン制限%sブロックを%sブロックにクローンして上書きしています。時間がかかる場合があります
 commands.structure_gel.fill.override,Overriding vanilla fill limit of %s blocks by filling %s blocks. This may take some time,%s ブロックのバニラ上限を %s ブロックで上書きする。この処理には時間がかかる場合があります
 info.structure_gel.axis_spread,• Spreads the gel in a flat plane based on how it was placed.,• ジェルを配置した位置に応じて平面上に広げます。
@@ -15,7 +15,7 @@ info.structure_gel.gunpowder,• Use gunpowder to destroy all connected gels.,�
 info.structure_gel.photosensitive,• Only spreads the gel in positions not exposed to the sky. Great for rooms with open walls.,• 空が露出していない位置にのみジェルを広げます。壁が開いている部屋に最適です。
 info.structure_gel.place,• Place while sneaking to trigger the spread effect.,• スニークしながら置くと拡散効果が発動します。
 block.structure_gel.data_handler,Data Handler,データハンドラー
-block.structure_gel.dynamic_spawner,Dynamic Spawner,動的スパワーワー
+block.structure_gel.dynamic_spawner,Dynamic Spawner,ダイナミックスポナー
 gui.structure_gel.connect_to_blocks,Connect to blocks: %s,ブロックに接続: %s
 gui.structure_gel.data_handler.apply_at_heightmap,Apply at heightmap: %s,高さマップに適用: %s
 gui.structure_gel.data_handler.compound,Compound,化合物
@@ -46,7 +46,7 @@ gui.structure_gel.data_handler.structure_gel:configured_feature.feature.label,Fe
 gui.structure_gel.data_handler.structure_gel:configured_feature.generation_chance.description,The percent chance that this will generate a feature.,この機能が生成される確率（％）
 gui.structure_gel.data_handler.structure_gel:configured_feature.generation_chance.label,Generation Chance,生成確率
 gui.structure_gel.data_handler.structure_gel:dynamic_spawner.dynamic_spawner_type.description,The registry name of the DynamicSpawnerType to create a spawner from.,Spawner を作成するための DynamicSpawnerType のレジストリ名です
-gui.structure_gel.data_handler.structure_gel:dynamic_spawner.dynamic_spawner_type.label,Spawner Type,スパワータイプ
+gui.structure_gel.data_handler.structure_gel:dynamic_spawner.dynamic_spawner_type.label,Spawner Type,スポナータイプ
 gui.structure_gel.data_handler.structure_gel:dynamic_spawner.generation_chance.description,The percent chance that this will place a Dynamic Spawner.,ダイナミックスポーナーを配置する確率（パーセンテージ）。
 gui.structure_gel.data_handler.structure_gel:dynamic_spawner.generation_chance.label,Generation Chance,生成確率
 gui.structure_gel.data_handler.structure_gel:dynamic_spawner.max_exp.description,The maximum exp dropped when breaking the spawner. Can never be lower than Min Exp.,スポナーを破壊したときに落ちる最大経験値。最低でも最小経験値より低くはなりません。
@@ -76,7 +76,7 @@ gui.structure_gel.data_handler.structure_gel:entity.spawn_chance.label,Spawn Cha
 gui.structure_gel.data_handler.structure_gel:entity.tag.description,The NBT tag to load into this entity. All other fields take priority.,このエンティティにロードする NBT タグ。その他のフィールドは優先されます
 gui.structure_gel.data_handler.structure_gel:entity.tag.label,NBT Tag,NBTタグ
 gui.structure_gel.data_handler.structure_gel:spawner.entity.description,The entity used by the spawner.,スポーナーで使用するエンティティ。
-gui.structure_gel.data_handler.structure_gel:spawner.entity.label,Spawner Entity,スパワーレンティティ
+gui.structure_gel.data_handler.structure_gel:spawner.entity.label,Spawner Entity,スポナーエンティティ
 gui.structure_gel.data_handler.structure_gel:spawner.generation_chance.description,The percent chance that this will place a Spawner.,このスポナーが設置される確率（％）
 gui.structure_gel.data_handler.structure_gel:spawner.generation_chance.label,Generation Chance,生成確率
 gui.structure_gel.data_handler.structure_gel:spawner.max_nearby_entities.description,The maximum amount of entities that can be around the spawner at once.,スポナー周辺に同時に存在できるエンティティの最大数。
@@ -90,7 +90,7 @@ gui.structure_gel.data_handler.structure_gel:spawner.required_player_range.label
 gui.structure_gel.data_handler.structure_gel:spawner.spawn_count.description,The maximum entities to spawn at a time.,一度にスポーンできる最大エンティティ数
 gui.structure_gel.data_handler.structure_gel:spawner.spawn_count.label,Spawn Count,スポーン数
 gui.structure_gel.data_handler.structure_gel:spawner.spawn_range.description,The radius to spawn mobs.,モブをスポーンさせる半径。
-gui.structure_gel.data_handler.structure_gel:spawner.spawn_range.label,Spawn Range,スパAWN範囲
+gui.structure_gel.data_handler.structure_gel:spawner.spawn_range.label,Spawn Range,スポーン範囲
 gui.structure_gel.data_handler.structure_gel:spawner.tag.description,The NBT tag to load into this spawner.,このスポーナーに読み込むNBTタグ。
 gui.structure_gel.data_handler.structure_gel:spawner.tag.label,NBT Tag,NBTタグ
 gui.structure_gel.data_handler.type,Type,タイプ

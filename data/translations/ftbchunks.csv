@@ -17,8 +17,8 @@ ftbchunks.debug_info,Debug info,デバッグ情報
 ftbchunks.experimental_performance_improvement,Experimental performance improvement,実験的パフォーマンス改善
 ftbchunks.gui.add_waypoint,Add Waypoint,ウェイポイントを追加
 ftbchunks.gui.allies,Allies,同盟者
-ftbchunks.gui.ally_blacklist,Ally blacklist,味方ブラックリスト
-ftbchunks.gui.ally_whitelist,Ally whitelist,味方ホワイトリスト
+ftbchunks.gui.ally_blacklist,Ally blacklist,味方黒リスト
+ftbchunks.gui.ally_whitelist,Ally whitelist,味方白リスト
 ftbchunks.gui.claimed,Claimed,占有
 ftbchunks.gui.claimed_chunks,Claimed Chunks,占有されたチャンク
 ftbchunks.gui.force_loaded,Force loaded,強制ロード
@@ -69,10 +69,10 @@ ftbchunks.ally_mode,Allow Player to Change Ally Settings,プレイヤーが味�
 ftbchunks.chunk_load_offline,Allow Forceloading for Offline Players,オフラインプレイヤーの強制ロード許可
 ftbchunks.chunk_load_offline.tooltip,"Fallback offline chunk loading behaviour for when
  'Forceloading Mode' is set to 'default'",「強制ロードモード」が「デフォルト」に設定されている場合のフォールバック オフラインチャンクロード動作
-ftbchunks.claim_dimension_blacklist,Dimension Blacklist,ディメンションブラックリスト
+ftbchunks.claim_dimension_blacklist,Dimension Blacklist,ディメンション黒リスト
 ftbchunks.claim_dimension_blacklist.tooltip,"Blacklist for dimension ID's where chunks may not be claimed.
 E.g. add ""minecraft:the_end"" to this list if you want to disable chunk claiming in The End
-Wildcards are allowed, e.g. ""othermod:*"" matches all dimensions added by ""othermod""","チャンクを占有できないディメンション ID のブラックリスト。
+Wildcards are allowed, e.g. ""othermod:*"" matches all dimensions added by ""othermod""","チャンクを占有できないディメンション ID の黒リスト。
 例: The End でのチャンクの占有を無効にする場合は、このリストに ""minecraft:the_end"" を追加します。
 ワイルドカードを使用できます。例: ""othermod:*"" は ""othermod"" によって追加されたすべてのディメンションに一致します。"
 ftbchunks.death_waypoint_autoremove_distance,Auto-remove deathpoint distance,死亡ポイントを自動削除する距離
@@ -198,7 +198,7 @@ FORCED_ALL: all players are always considered to be allied
 FORCED_NONE: no players are ever considered to be allied","デフォルト: FTB Teamsの味方ステータスをチェックして、プレイヤーが味方関係にあるかどうかを判断します
 強制すべて: すべてのプレイヤーが常に味方関係にあるとみなされます
 強制なし: どのプレイヤーも味方関係にあるとみなされません"
-ftbchunks.claim_dimension_whitelist,Dimension Whitelist,ディメンションホワイトリスト
+ftbchunks.claim_dimension_whitelist,Dimension Whitelist,ディメンション白リスト
 ftbchunks.claim_result,Chunks modified: %d / %d,変更されたチャンク: %d / %d
 ftbchunks.claim_result.already_claimed,Chunk already claimed,チャンクはすでに占有済み
 ftbchunks.claim_result.already_loaded,Chunk already loaded,チャンクはすでにロードされています
@@ -263,8 +263,8 @@ ftbchunks.appearance.saturation,Saturation,満腹度
 ftbchunks.appearance.shadows,Shadows,影
 ftbchunks.appearance.water_height_factor,Water height factor,水位係数
 ftbchunks.claim_dimension_whitelist.tooltip,"Whitelist for dimension ID's where chunks may be claimed. If non-empty, dimension *must* be in this list (and also not in ""Dimension Blacklist"".
-Same syntax as for ""Dimension Blacklist""","チャンクを占有できるディメンション ID のホワイトリスト。空でない場合、ディメンションはこのリストに含まれている必要があります (また、「ディメンションブラックリスト」 にも含まれていない必要があります)。
-「ディメンションブラックリスト」 と同じ構文です"
+Same syntax as for ""Dimension Blacklist""","チャンクを占有できるディメンション ID の白リスト。空でない場合、ディメンションはこのリストに含まれている必要があります (また、「ディメンション黒リスト」 にも含まれていない必要があります)。
+「ディメンション黒リスト」 と同じ構文です"
 ftbchunks.claim_result.not_enough_power,Chunk limit reached,チャンク制限に達しました
 ftbchunks.disable_protection.tooltip,"Useful for private servers where everyone is trusted, and claims are only used for force-loading",誰もが信頼されているプラ​​イベートサーバーに役立ち、占有は強制ロードにのみ使用されます。
 ftbchunks.gui.chunk_info,Chunk Claiming Reference,チャンク占有の参照
@@ -323,9 +323,9 @@ Setting this to 0 disables long-range tracking.","長距離プレイヤー追跡
 値を低くすると更新頻度は高くなりますが、サーバーの負荷とネットワークトラフィックは増加します。長距離プレイヤー追跡データを使用してクライアントに更新を送信する間隔（ティック単位）。
 値を低くすると更新頻度は高くなりますが、サーバーの負荷とネットワーク トラフィックは増加します。特に負荷の高いサーバーでは注意してください。
 これを 0 に設定すると、長距離追跡が無効になります。"
-ftbchunks.max_prevented_log_age,Fake Player Prevented Access Log Age,偽プレイヤーによるアクセス防止ログの有効期限
+ftbchunks.max_prevented_log_age,Fake Player Prevented Access Log Age,偽プレイヤーによるアクセス防止原木の有効期限
 ftbchunks.max_prevented_log_age.tooltip,"Age in days to keep logs of prevented fake player access
-Note: not fully implemented feature; will be used in future to display & control access by fake players to your claims","偽プレイヤーのアクセスを阻止したログを保存する日数
+Note: not fully implemented feature; will be used in future to display & control access by fake players to your claims","偽プレイヤーのアクセスを阻止した原木を保存する日数
 注: 完全に実装されていない機能です。将来的には、偽プレイヤーによる占有へのアクセスを表示および制御するために使用されます。"
 ftbchunks.message.no_pvp,PvP combat is disabled here,ここではPvP戦闘は無効になっています
 ftbchunks.minimap.font_scale,Font Scaling,フォントのスケーリング
@@ -420,8 +420,8 @@ minimap.info.ftbchunks.real_time.description,Render Real Time,現実時間をレ
 minimap.info.ftbchunks.real_time.title,Real Time,リアルタイム
 minimap.info.ftbchunks.zone.description,Render Zone,ゾーンをレンダリング
 minimap.info.ftbchunks.zone.title,Zone,ゾーンゾーン
-tag.item.ftbchunks.right_click_blacklist,Right Click Blacklist,右クリックブラックリスト
-tag.item.ftbchunks.right_click_whitelist,Right Click Whitelist,右クリックホワイトリスト
+tag.item.ftbchunks.right_click_blacklist,Right Click Blacklist,右クリック黒リスト
+tag.item.ftbchunks.right_click_whitelist,Right Click Whitelist,右クリック白リスト
 ftbchunks.minimap.info_settings,Info Settings,情報設定
 ftbchunks.piston_protection,Piston Protection,ピストン保護
 ftbchunks.piston_protection.tooltip,"If true, pistons may not push/pull blocks across claims owned by different teams (unless the block is entering/leaving a claim with block edit mode set to Public)
@@ -443,16 +443,16 @@ ftbchunks.team_prop_defaults.def_player_visibility,Location Visibility,位置情
 ftbchunks.team_prop_defaults.def_pvp,Allow PvP Combat,PvP戦闘を許可する
 ftbchunks.action_prevented,Interaction prevented here by claim protection!,占有保護により、ここでのやり取りは禁止されています。
 ftbchunks.claiming,Chunk Claiming,チャンク占有
-ftbchunks.claiming.claim_dimension_blacklist,Dimension Blacklist,ディメンションブラックリスト
+ftbchunks.claiming.claim_dimension_blacklist,Dimension Blacklist,ディメンション黒リスト
 ftbchunks.claiming.claim_dimension_blacklist.tooltip,"Blacklist for dimension ID's where chunks may not be claimed.
 E.g. add ""minecraft:the_end"" to this list if you want to disable chunk claiming in The End
-Wildcards are allowed, e.g. ""othermod:*"" matches all dimensions added by ""othermod""","チャンクを占有できないディメンション ID のブラックリスト。
+Wildcards are allowed, e.g. ""othermod:*"" matches all dimensions added by ""othermod""","チャンクを占有できないディメンション ID の黒リスト。
 例: The End でのチャンクの占有を無効にする場合は、このリストに ""minecraft:the_end"" を追加します。
 ワイルドカードを使用できます。例: ""othermod:*"" は ""othermod"" によって追加されたすべてのディメンションに一致します。"
-ftbchunks.claiming.claim_dimension_whitelist,Dimension Whitelist,ディメンションホワイトリスト
+ftbchunks.claiming.claim_dimension_whitelist,Dimension Whitelist,ディメンション白リスト
 ftbchunks.claiming.claim_dimension_whitelist.tooltip,"Whitelist for dimension ID's where chunks may be claimed. If non-empty, dimension *must* be in this list (and also not in ""Dimension Blacklist"".
-Same syntax as for ""Dimension Blacklist""","チャンクを占有できるディメンション ID のホワイトリスト。空でない場合、ディメンションはこのリストに含まれている必要があります (また、「ディメンションブラックリスト」 にも含まれていない必要があります)。
-「ディメンションブラックリスト」 と同じ構文です"
+Same syntax as for ""Dimension Blacklist""","チャンクを占有できるディメンション ID の白リスト。空でない場合、ディメンションはこのリストに含まれている必要があります (また、「ディメンション黒リスト」 にも含まれていない必要があります)。
+「ディメンション黒リスト」 と同じ構文です"
 ftbchunks.claiming.hard_team_claim_limit,Hard Max Team Claim Limit,ハードマックスチーム占有制限
 ftbchunks.claiming.hard_team_claim_limit.tooltip,"Hard claim limit for party teams, regardless of member count or Party Limit Calculation mode.
 Default of 0 means no hard limit.","メンバー数やパーティ制限計算モードに関係なく、パーティチームのハード占有制限。
@@ -498,9 +498,9 @@ DENY: never allow fake players
 ALLOW: always allow fake players","チェック: 偽のプレイヤーのアクセスを本物のプレイヤーと同じようにチェックする
 拒否: 偽のプレイヤーを許可しない
 許可: 偽のプレイヤーを常に許可する"
-ftbchunks.fake_players.max_prevented_log_age,Fake Player Prevented Access Log Age,偽プレイヤーによるアクセス防止ログの有効期限
+ftbchunks.fake_players.max_prevented_log_age,Fake Player Prevented Access Log Age,偽プレイヤーによるアクセス防止原木の有効期限
 ftbchunks.fake_players.max_prevented_log_age.tooltip,"Age in days to keep logs of prevented fake player access
-Note: not fully implemented feature; will be used in future to display & control access by fake players to your claims","偽プレイヤーのアクセスを阻止したログを保存する日数
+Note: not fully implemented feature; will be used in future to display & control access by fake players to your claims","偽プレイヤーのアクセスを阻止した原木を保存する日数
 注: 完全に実装されていない機能です。将来的には、偽プレイヤーによる占有へのアクセスを表示および制御するために使用されます。"
 ftbchunks.force_loading,Force-Loading,強制ロード
 ftbchunks.force_loading.force_load_mode,Offline Forceloading Mode,オフライン強制ロードモード

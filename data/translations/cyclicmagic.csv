@@ -60,7 +60,7 @@ button.height.down,Decrease height,高さを減らす
 button.height.up,Increase height,高さを増やす
 button.itemfilter.type0,B,
 button.itemfilter.type1,W,
-button.itemfilter.tooltip.type1,Allowed List,ホワイトリスト
+button.itemfilter.tooltip.type1,Allowed List,白リスト
 button.itemfilter.tooltip.type0,Ignore List,ブロックリスト
 button.inventory.hotbarswap,Swap row with hotbar,ホットバーと行を交換
 button.inventory.armorswap,Swap armor with left column,左列のアーマーと交換
@@ -68,7 +68,7 @@ button.listtype.up,List type (Allowed or Ignored),リストタイプ（許可 �
 button.listtype,Toggle the ignore list type,無視リストのタイプを切り替え
 button.miner.height,Mining Height,採掘高さ
 button.miner.whitelist.0,Ignore List,ブロックリスト
-button.miner.whitelist.1,Allowed List,ホワイトリスト
+button.miner.whitelist.1,Allowed List,白リスト
 button.reset.name,Reset,リセット
 button.reset.tooltip,Reset position to first slot,位置を最初のスロットにリセット
 button.rotations.up,Number of times to rotate the block (for stairs and such),ブロックを回転させる回数(階段など用)
@@ -277,7 +277,7 @@ item.fire_dark_anim.name,Duskflame Essence,薄暮炎エッセンス
 item.fire_dark_anim.tooltip,Used for Duskflame Hex,ダスクフレイム・ヘックス用
 item.fire_dark_anim.guide,Used for Duskflame Hex,ダスクフレイム・ヘックス用
 item.ender_dungeon.name,Spawner Seeker,スパウナー探知者
-item.ender_dungeon.notfound,No spawners in range,範囲内にスパワーバーなし
+item.ender_dungeon.notfound,No spawners in range,範囲内にスポナーなし
 item.ender_dungeon.tooltip,Searches out the nearest spawner,最も近いスポナーを検索する
 item.ender_fishing.guide,A projectile that catches a (vanilla) fish wherever it lands.,どこに落ちても（ベーシック）魚を捕まえる投射物です。
 item.ender_fishing.tooltip,Longrange Speed Fishing,長距離高速釣り
@@ -471,12 +471,12 @@ item.tool_mount_inverse.guide,Pickup a living entity and mount it on your head.,
 item.tool_prospector.guide,"Searches out for ores behind the block you click on.  Works in any direction, and lists out exactly what it finds.  If you hit the top of a block it searches down, if you hit the side it searches behind.  Always in a straight line.",クリックしたブロックの背後から鉱石を検出します。あらゆる方向で機能し、見つけたものを正確にリストアップします。ブロックの上をクリックすると下を検出し、側面をクリックすると背後を検出します。常に直線です。
 item.tool_prospector.name,Prospector,採掘者
 item.tool_prospector.tooltip,Detects ores in a straight line,真っ直ぐに鉱石を検出します
-item.tool_push.guide,"This tool has three modes: Push, Pull, Rotate.  Change mode using attack (Left-Click).  Push and pull work similar to a piston, moving the block as long as there is an air block where it is moving; and it also moves tile entities with their data (full chests/furnaces/etc).  Rotate mode will try to spin the block around on its axis, such as log positioning, or halfslabs and stairs moving to alternate orientations.",このツールには3つのモードがあります：プッシュ、プル、ロテート。攻撃（左クリック）を使用してモードを変更します。プッシュとプルはピストンと同じように機能し、移動先に空ブロックがある限りブロックを移動させます。タイルエンティティもそのデータと共に移動させます（満杯のチェスト/かまど/など）。ロテートモードはブロックを軸上で回転させようとします。ログの配置方向や、ハーフハーフブロックと階段が別の方向に移動するなどの場合です。
+item.tool_push.guide,"This tool has three modes: Push, Pull, Rotate.  Change mode using attack (Left-Click).  Push and pull work similar to a piston, moving the block as long as there is an air block where it is moving; and it also moves tile entities with their data (full chests/furnaces/etc).  Rotate mode will try to spin the block around on its axis, such as log positioning, or halfslabs and stairs moving to alternate orientations.",このツールには3つのモードがあります：プッシュ、プル、ロテート。攻撃（左クリック）を使用してモードを変更します。プッシュとプルはピストンと同じように機能し、移動先に空ブロックがある限りブロックを移動させます。タイルエンティティもそのデータと共に移動させます（満杯のチェスト/かまど/など）。ロテートモードはブロックを軸上で回転させようとします。原木の配置方向や、ハーフハーフブロックと階段が別の方向に移動するなどの場合です。
 item.tool_push.name,Piston Scepter,ピストンの scepter
 item.tool_randomize.guide,"This will mixup the blocks in the nearby area, to help you vary the texture of your wall or pathway.  Use the attack (Left-Click) to change size.  It affects a flat area along the face of whatever you hit.  Tile entities are ignored (chests and so on).",近くの領域のブロックを混ぜ合わせて、壁や通路のテクスチャを変えるのに役立ちます。攻撃（左クリック）を使用してサイズを変更します。ヒットしたもののこちら側に沿った平らな面に影響します。タイルエンティティ（チェストなど）は無視されます。
 item.tool_randomize.name,Block Randomizer,ブロックランダマイザー
 item.tool_randomize.tooltip,Randomize selected blocks.  Left click to resize.,選択したブロックをランダム化します。左クリックでサイズ変更。
-item.tool_rotate.guide,"Attempts to rotate the targeted block while respecting the same material type.  So it will turn a log to a different angle, but will not turn oak planks into spruce planks.  This can be used to get vanilla only blocks that are otherwise un-obainable blocks, like smooth stone double slabs with the flat side, extra smooth sandstone, and a log with bark on all six sides.",対象ブロックを回転させようとしますが、同じ材質を尊重します。ログを別の角度に回転させますが、オークの板をトウヒの板に変えることはありません。これを使用して、スムーズストーン二重ハーフブロックのフラット側、追加のスムーズサンドストーン、6面すべてに樹皮がついたログなど、通常は入手できないバニラオンリーブロックを取得できます。
+item.tool_rotate.guide,"Attempts to rotate the targeted block while respecting the same material type.  So it will turn a log to a different angle, but will not turn oak planks into spruce planks.  This can be used to get vanilla only blocks that are otherwise un-obainable blocks, like smooth stone double slabs with the flat side, extra smooth sandstone, and a log with bark on all six sides.",対象ブロックを回転させようとしますが、同じ材質を尊重します。原木を別の角度に回転させますが、オークの板をトウヒの板に変えることはありません。これを使用して、スムーズストーン二重ハーフブロックのフラット側、追加のスムーズ砂岩、6面すべてに樹皮がついた原木など、通常は入手できないバニラオンリーブロックを取得できます。
 item.tool_rotate.name,Wooden Wrench,木製のレンチ
 item.tool_rotate.tooltip,Rotates simple blocks/machines if they are able,対応していれば、シンプルなブロック/機械を回転させます
 item.tool_spawn_inspect.empty,Nothing can spawn here,ここにはスポーンできるものがありません
@@ -626,7 +626,7 @@ tile.block_fishing.progress,Fishing...,釣り中...
 tile.block_fishing.tooltip,Place in water and give it a fishing rod,水中に置き、釣り竿を渡します
 tile.block_forester.name,Forester,林業者
 tile.block_forester.tooltip,Plants saplings and harvests logs,植物の苗木を植え、原木を収穫
-tile.block_forester.guide,Plants saplings on any grass-like block nearby.  Harvests logs from the bottom up.  Uses coal or power.,近くの草状ブロック上に苗木を植えます。下からログを収穫します。石炭または電力を使用します。
+tile.block_forester.guide,Plants saplings on any grass-like block nearby.  Harvests logs from the bottom up.  Uses coal or power.,近くの草状ブロック上に苗木を植えます。下から原木を収穫します。石炭または電力を使用します。
 tile.block_fragile.guide,"Climb this like a ladder, and sneak to build on the opposite side.  Fragile Scaffolding breaks over time all by itself.  Useful for when you are pillaring up, or scaffolding around a building, but you want it to just be temporary.  Now you dont have to go back and take down some dirt pillar later on.",はしごのように登ります。スニークして反対側に建設します。もろい足場は時間とともに自動的に壊れます。柱を上ったり、建物の周りに足場を作ったりするのに便利ですが、ただ一時的にしたい場合に便利です。あとで土の柱を下ろすために戻って来る必要がなくなりました。
 tile.block_fragile.name,Fragile Scaffolding,壊れやすい足場
 tile.block_fragile.tooltip,Decays over time; Place in mid-air.,時間とともに劣化します；空中に置く。
@@ -634,7 +634,7 @@ tile.block_fragile_auto.guide,"Climb this like a ladder, and sneak to build on t
 tile.block_fragile_auto.name,Responsive Scaffolding,反応する足場
 tile.block_fragile_auto.tooltip,Breaks itself all in a line when you break the adjacent one; Place in mid-air.,隣接するものを壊すと自らが一直線に破壊されます；空中に置いてください。
 tile.block_fragile_weak.guide,"Climb this like a ladder, and sneak to build on the opposite side.  Replaceable scaffolding is just that, you can replace it with a block.",はしごのように登ります。スニークして反対側に建設します。交換可能なスポーンセッジはそれだけです。ブロックに置き換えることができます。
-tile.block_fragile_weak.name,Replaceable Scaffolding,交換可能なスカフolding
+tile.block_fragile_weak.name,Replaceable Scaffolding,交換可能な足場
 tile.block_fragile_weak.tooltip,Use a block on this to replace it; Place in mid-air.,ブロックをこの上に置いて交換する；空中に配置してください。
 tile.block_hydrator.guide,"Fill this with water so it can infuse blocks with water.  Designed to help automate concrete, and there are a few other recipes as well.  Input blocks above, and withdraw on other sides.",水でこれを満たすので、ブロックに水を注入できます。コンクリートの自動化を支援するために設計されており、他にもいくつかのレシピがあります。上からブロックを入力し、他の辺から引き出します。
 tile.block_hydrator.name,Hydrator,ハイドレーター
@@ -739,7 +739,7 @@ tile.builder_pattern.sizerup,Radius Up,半径増加
 tile.builder_pattern.togglerender,Toggle rendering bounding boxes,バウンディングボックス表示を切り替え
 tile.builder_pattern.tooltip,Copy and paste the selected area using supplied materials,提供されたマテリアルを使用して選択範囲をコピーして貼り付けます
 tile.clock.delay,Delay (ticks),遅延(ティック)
-tile.clock.duration,Duration (ticks),持続時間（タッキ）
+tile.clock.duration,Duration (ticks),持続時間（ティック）
 tile.clock.facing.up,Up,上
 tile.clock.facing.down,Down,下
 tile.clock.facing.west,West,西
@@ -758,7 +758,7 @@ tile.end_emerald_ore.guide,Emerald ore that spawns in the End.,エンドに出�
 tile.end_emerald_ore.name,End Emerald Ore,エンダーエメラルド鉱石
 tile.end_gold_ore.guide,"Gold ore that spawns in the End, drops nuggets.",エンドに出現する金鉱石、ニグルトをドロップします。
 tile.end_gold_ore.name,End Gold Ore,エンドの金鉱石
-tile.end_iron_ore.guide,"Iron ore that spawns in the End, drops nuggets when harvested.",エンドに出現する鉄鉱石、採掘時にナゲットをドロップします。
+tile.end_iron_ore.guide,"Iron ore that spawns in the End, drops nuggets when harvested.",エンドに出現する鉄鉱石、採掘時に塊をドロップします。
 tile.end_iron_ore.name,End Iron Ore,エンド鉄鉱石
 tile.end_lapis_ore.guide,Lapis ore that spawns in the End.,エンドに出現する青玉鉱石
 tile.end_lapis_ore.name,End Lapis Ore,エンダーラピス鉱石
@@ -1175,7 +1175,7 @@ tile.quartz_black_end_ore.name,End Black Quartz Ore,エンド黒曜石鉱石
 tile.quartz_certus_nether_ore.name,Nether Certus Quartz Ore,ネザー・セルトスクォーツ鉱石
 tile.quartz_certus_end_ore.name,End Certus Quartz Ore,エンド・セルトスクォーツ鉱石
 tile.quartz_certus_charged_nether_ore.name,Nether Charged Certus Quartz Ore,ネザー充電されたセルシスクォーツ鉱石
-tile.quartz_certus_charged_end_ore.name,End Charged Certus Quartz Ore,エンディングチャージド・セルス・クォーツ鉱石
+tile.quartz_certus_charged_end_ore.name,End Charged Certus Quartz Ore,エンディングチャージド・セルタスクォーツ鉱石
 tile.sapphire_nether_ore.name,Nether Sapphire Ore,ネザー・サファイア鉱石
 tile.sapphire_end_ore.name,End Sapphire Ore,エンドのサファイア鉱石
 tile.thorium_nether_ore.name,Nether Thorium Ore,ネザー・トリウム鉱石
@@ -1304,8 +1304,8 @@ tile.cable_wireless_fluid.guide,Wireless transmission of fluid,流体の無線�
 tile.cable_wireless_energy.name,Energy Transfer Node,エネルギー転送ノード
 tile.cable_wireless_energy.tooltip,Wireless transmission of energy,エネルギーの無線伝送
 tile.cable_wireless_energy.guide,Wireless transmission of energy,エネルギーの無線伝送
-chest_sack.error.pickup,Error detected when attempting pickup - action cancelled (see logs for details),拾い上げ試行時にエラーが検出されました- アクションキャンセル(詳細はログを参照)
-chest_sack.error.place,Error detected when attempting to place - action cancelled (see logs for details),配置試行時にエラーが検出されました- アクションキャンセル(詳細はログを参照)
+chest_sack.error.pickup,Error detected when attempting pickup - action cancelled (see logs for details),拾い上げ試行時にエラーが検出されました- アクションキャンセル(詳細は原木を参照)
+chest_sack.error.place,Error detected when attempting to place - action cancelled (see logs for details),配置試行時にエラーが検出されました- アクションキャンセル(詳細は原木を参照)
 chest_sack.error.null,No tile entity found,タイルエンティティが見つかりません
 chest_sack.error.blacklist,Pickup disabled by config,設定で拾い取り禁止
 tile.auto_packager.name,Packager,パッケージ

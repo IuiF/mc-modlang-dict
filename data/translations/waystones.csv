@@ -49,7 +49,7 @@ gui.waystones.waystone_settings.is_global,is Global,全員使用可能
 item.waystones.attuned_shard,Attuned Shard,ワーププレートの欠片
 item.waystones.bound_scroll,Bound Scroll,固定転移の巻物
 item.waystones.return_scroll,Return Scroll,帰還の巻物
-item.waystones.warp_dust,Warp Dust,ワープダスト
+item.waystones.warp_dust,Warp Dust,ワープの粉
 item.waystones.warp_scroll,Warp Scroll,転移の巻物
 item.waystones.warp_scroll_bound,Warp Scroll (Bound),転移の巻物(行先固定)
 item.waystones.warp_stone,Warp Stone,ワープストーン
@@ -156,13 +156,13 @@ config.waystones.cooldowns.globalWaystoneCooldownMultiplier.tooltip,The multipli
 config.waystones.cooldowns.inventoryButtonCooldown,Inventory Button Cooldown,インベントリのワープボタンの利用可能間隔
 config.waystones.cooldowns.inventoryButtonCooldown.tooltip,The cooldown between usages of the inventory button in seconds.,インベントリのワープボタンの使用ごとに必要になるクールダウン
 config.waystones.cooldowns.scrollUseTime,Scroll Charge Time,スクロールのチャージ間隔
-config.waystones.cooldowns.scrollUseTime.tooltip,The time in ticks it takes to use a scroll. This is the charge-up time when holding right-click.,スクロール使用時のチャージにかかるtick。右クリックを押している間進行します
+config.waystones.cooldowns.scrollUseTime.tooltip,The time in ticks it takes to use a scroll. This is the charge-up time when holding right-click.,スクロール使用時のチャージにかかるティック。右クリックを押している間進行します
 config.waystones.cooldowns.warpPlateUseTime,Warp Plate Charge Time,ワーププレートのチャージ時間
-config.waystones.cooldowns.warpPlateUseTime.tooltip,The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.,ワーププレート使用時のチャージにかかるtick。プレイヤーがプレート上に立たなければならない時間です
+config.waystones.cooldowns.warpPlateUseTime.tooltip,The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.,ワーププレート使用時のチャージにかかるティック。プレイヤーがプレート上に立たなければならない時間です
 config.waystones.cooldowns.warpStoneCooldown,Warp Stone Cooldown,ワープストーンのクールダウン時間
 config.waystones.cooldowns.warpStoneCooldown.tooltip,"The cooldown between usages of the warp stone in seconds. This is bound to the player, not the item, so multiple warp stones share the same cooldown.",ワープストーンを使用した場合のクールダウン時間。これはプレイヤー依存のため、全てのワープストーンは同じ時間を共有します
 config.waystones.cooldowns.warpStoneUseTime,Warp Stone Charge Time,ワープストーンのチャージ時間
-config.waystones.cooldowns.warpStoneUseTime.tooltip,The time in ticks that it takes to use a warp stone. This is the charge-up time when holding right-click.,ワープストーン使用時のチャージにかかるtick。右クリックを押している間進行します
+config.waystones.cooldowns.warpStoneUseTime.tooltip,The time in ticks that it takes to use a warp stone. This is the charge-up time when holding right-click.,ワープストーン使用時のチャージにかかるティック。右クリックを押している間進行します
 config.waystones.inventoryButton,Inventory Button,インベントリボタン
 config.waystones.inventoryButton.creativeWarpButtonX,Creative Mode Warp Button X Position,クリエイティブモードワープボタン X 位置
 config.waystones.inventoryButton.creativeWarpButtonX.tooltip,The x position of the warp button in the creative menu.,クリエイティブインベントリでのワープボタンのX座標
@@ -297,11 +297,11 @@ config.waystones.general.defaultVisibility.tooltip,"Set to ""GLOBAL"" to have ne
 config.waystones.general.restrictedWaystones,Restricted Waystones,制限されたウェイストーン
 config.waystones.general.restrictedWaystones.tooltip,List of waystone origins that should prevent others from editing. PLAYER is special in that it allows only edits by the owner of the waystone.,他のプレイヤーの編集を防ぐべきウェイストーンの配信元のリスト。PLAYERは特別な意味があり、ウェイストーンの所有者による編集のみを許可します。
 config.waystones.general.scrollUseTime,Scroll Use Time,スクロール使用時間
-config.waystones.general.scrollUseTime.tooltip,The time in ticks it takes to use a scroll. This is the charge-up time when holding right-click.,スクロール使用時のチャージにかかるtick。右クリックを押している間進行します
+config.waystones.general.scrollUseTime.tooltip,The time in ticks it takes to use a scroll. This is the charge-up time when holding right-click.,スクロール使用時のチャージにかかるティック。右クリックを押している間進行します
 config.waystones.general.warpPlateUseTime,Warp Plate Use Time,ワーププレート使用時間
-config.waystones.general.warpPlateUseTime.tooltip,The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.,ワーププレート使用時のチャージにかかるtick。プレイヤーがプレート上に立たなければならない時間です
+config.waystones.general.warpPlateUseTime.tooltip,The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.,ワーププレート使用時のチャージにかかるティック。プレイヤーがプレート上に立たなければならない時間です
 config.waystones.general.warpStoneUseTime,Warp Stone Use Time,ワープストーン使用時間
-config.waystones.general.warpStoneUseTime.tooltip,The time in ticks that it takes to use a warp stone. This is the charge-up time when holding right-click.,ワープストーン使用時のチャージにかかるtick。右クリックを押している間進行します
+config.waystones.general.warpStoneUseTime.tooltip,The time in ticks that it takes to use a warp stone. This is the charge-up time when holding right-click.,ワープストーン使用時のチャージにかかるティック。右クリックを押している間進行します
 config.waystones.inventoryButton.creativeInventoryButtonX,Creative Mode Warp Button X Position,クリエイティブモードワープボタン X 位置
 config.waystones.inventoryButton.creativeInventoryButtonX.tooltip,The x position of the inventory button in the creative menu.,クリエイティブメニューのインベントリボタンのX位置です。
 config.waystones.inventoryButton.creativeInventoryButtonY,Creative Mode Warp Button Y Position,クリエイティブモードワープボタン Y 位置

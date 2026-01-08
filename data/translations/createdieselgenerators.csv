@@ -137,7 +137,7 @@ block.createdieselgenerators.chemical_turret,Chemical Turret,化学的砲塔
 block.createdieselgenerators.cyan_cement,Cyan Cement,青緑コンクリート
 block.createdieselgenerators.cyan_concrete_encased_fluid_pipe,Cyan Concrete Encased Fluid Pipe,青緑コンクリートで覆われた流体パイプ
 block.createdieselgenerators.distillation_tank,Distillation Tank,蒸留タンク
-block.createdieselgenerators.gray_cement,Gray Cement,グレーコンクリート
+block.createdieselgenerators.gray_cement,Gray Cement,灰色コンクリート
 block.createdieselgenerators.gray_concrete_encased_fluid_pipe,Gray Concrete Encased Fluid Pipe,灰色のコンクリートで覆われた流体パイプ
 block.createdieselgenerators.green_cement,Green Cement,緑セメント
 block.createdieselgenerators.green_concrete_encased_fluid_pipe,Green Concrete Encased Fluid Pipe,緑のコンクリートで覆われた流体パイプ
@@ -192,11 +192,11 @@ createdieselgenerators.entity_filter.tooltip.summary,_Matches entities_ against 
 createdieselgenerators.gui.entity_filter.add_attribute,Add attribute to List,リストに属性を追加
 createdieselgenerators.gui.entity_filter.add_inverted_attribute,Add opposite attribute to List,リストに反対の属性を追加
 createdieselgenerators.gui.entity_filter.add_reference_item,Add Reference Item,参照アイテムを追加
-createdieselgenerators.gui.entity_filter.allow_list_conjunctive,Allow-List (All),ホワイトリスト(全て)
+createdieselgenerators.gui.entity_filter.allow_list_conjunctive,Allow-List (All),白リスト(全て)
 createdieselgenerators.gui.entity_filter.allow_list_conjunctive.description,Items pass only if they have ALL of the selected attributes.,選択した属性をすべてを持っている場合、アイテムは通り抜けます。
-createdieselgenerators.gui.entity_filter.allow_list_disjunctive,Allow-List (Any),ホワイトリスト(いずれか)
+createdieselgenerators.gui.entity_filter.allow_list_disjunctive,Allow-List (Any),白リスト(いずれか)
 createdieselgenerators.gui.entity_filter.allow_list_disjunctive.description,Items pass if they have any of the selected attributes.,選択した属性のいずれかを持っている場合、アイテムは通り抜けます。
-createdieselgenerators.gui.entity_filter.deny_list,Deny-List,ブラックリスト
+createdieselgenerators.gui.entity_filter.deny_list,Deny-List,黒リスト
 createdieselgenerators.gui.entity_filter.deny_list.description,Items pass if they do NOT have any of the selected attributes.,選択した属性をいずれも持たないアイテムが通過します。
 createdieselgenerators.gui.entity_filter.no_selected_attributes,No attributes Selected,属性が選択されていません
 createdieselgenerators.gui.entity_filter.selected_attributes,Selected attributes:,選択された属性:
@@ -247,9 +247,9 @@ fluid.createdieselgenerators.black_cement,Black Concrete,黒いコンクリー�
 fluid.createdieselgenerators.blue_cement,Blue Concrete,青いコンクリート
 fluid.createdieselgenerators.brown_cement,Brown Concrete,茶色いコンクリート
 fluid.createdieselgenerators.cyan_cement,Cyan Concrete,青緑コンクリート
-fluid.createdieselgenerators.gray_cement,Gray Concrete,グレーコンクリート
+fluid.createdieselgenerators.gray_cement,Gray Concrete,灰色コンクリート
 fluid.createdieselgenerators.green_cement,Green Concrete,緑コンクリート
-fluid.createdieselgenerators.light_blue_cement,Light_blue Concrete,ライトブルーコンクリート
+fluid.createdieselgenerators.light_blue_cement,Light_blue Concrete,空色コンクリート
 fluid.createdieselgenerators.light_gray_cement,Light_gray Concrete,薄灰色コンクリート
 fluid.createdieselgenerators.lime_cement,Lime Concrete,黄緑コンクリート
 fluid.createdieselgenerators.magenta_cement,Magenta Concrete,赤紫コンクリート
@@ -261,12 +261,12 @@ fluid.createdieselgenerators.white_cement,White Concrete,白いコンクリー�
 fluid.createdieselgenerators.yellow_cement,Yellow Concrete,黄コンクリート
 item.createdieselgenerators.black_cement_bucket,Black Cement Bucket,黒セメントバケツ
 item.createdieselgenerators.blue_cement_bucket,Blue Cement Bucket,青いセメントバケツ
-item.createdieselgenerators.brown_cement_bucket,Brown Cement Bucket,ブラウンセメントバケツ
+item.createdieselgenerators.brown_cement_bucket,Brown Cement Bucket,茶セメントバケツ
 item.createdieselgenerators.chemical_sprayer_lighter,Chemical Sprayer Lighter,ケミカルスプレー
 item.createdieselgenerators.cyan_cement_bucket,Cyan Cement Bucket,青緑セメントバケツ
 item.createdieselgenerators.entity_filter,Entity Filter,エンティティフィルター
-item.createdieselgenerators.gray_cement_bucket,Gray Cement Bucket,グレーセメントバケツ
-item.createdieselgenerators.green_cement_bucket,Green Cement Bucket,グリーンセメントバケツ
+item.createdieselgenerators.gray_cement_bucket,Gray Cement Bucket,灰色セメントバケツ
+item.createdieselgenerators.green_cement_bucket,Green Cement Bucket,緑セメントバケツ
 item.createdieselgenerators.hammer,Hammer,ハンマー
 item.createdieselgenerators.light_blue_cement_bucket,Light Blue Cement Bucket,空色のセメントバケツ
 item.createdieselgenerators.light_gray_cement_bucket,Light Gray Cement Bucket,薄灰色のセメントバケツ
@@ -279,7 +279,7 @@ item.createdieselgenerators.pink_cement_bucket,Pink Cement Bucket,桃色セメ�
 item.createdieselgenerators.purple_cement_bucket,Purple Cement Bucket,紫のコンクリートのバケツ
 item.createdieselgenerators.red_cement_bucket,Red Cement Bucket,赤いセメントバケツ
 item.createdieselgenerators.track_layers_bag,Track Layers Bag,トラックレイヤーズバッグ
-item.createdieselgenerators.white_cement_bucket,White Cement Bucket,ホワイトセメントバケツ
+item.createdieselgenerators.white_cement_bucket,White Cement Bucket,白セメントバケツ
 item.createdieselgenerators.wire_cutters,Wire Cutters,ワイヤーカッター
 item.createdieselgenerators.wood_chip,Wood Chip,ウッドチップ
 item.createdieselgenerators.yellow_cement_bucket,Yellow Cement Bucket,黄のコンクリートのバケツ

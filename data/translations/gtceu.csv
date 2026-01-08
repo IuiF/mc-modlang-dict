@@ -1,5 +1,5 @@
 ﻿key,source_text,target_text
-behavior.data_item.assemblyline.data,- §a%s,
+behavior.data_item.assemblyline.data,- §a%s,- §aアセンブリラインデータ: %s
 behavior.data_item.assemblyline.title,§nAssembly Line Construction Data:,§nアセンブリライン構築データ:
 behavior.item_magnet.disabled,§cMagnetic Field Disabled,§c磁場が無効
 behavior.item_magnet.enabled,§aMagnetic Field Enabled,§a磁場が有効
@@ -41,8 +41,8 @@ behavior.portable_scanner.multiblock_energy_input,Max Energy Income: %s EU/t Tie
 behavior.portable_scanner.multiblock_energy_output,Max Energy Output: %s EU/t Tier: %s,最大エネルギー出力: %s EU/t Tier: %s
 behavior.portable_scanner.multiblock_maintenance,Problems: %s,問題: %s
 behavior.portable_scanner.multiblock_parallel,Multi Processing: %s,並行処理: %s
-behavior.portable_scanner.position,----- X: %s Y: %s Z: %s D: %s -----,
-behavior.portable_scanner.state,%s: %s,
+behavior.portable_scanner.position,----- X: %s Y: %s Z: %s D: %s -----,----- X: %s Y: %s Z: %s 方向: %s -----
+behavior.portable_scanner.state,%s: %s,状態: %s
 behavior.portable_scanner.tank,Tank %s: %s mB / %s mB %s,タンク %s: %s mB / %s mB %s
 behavior.portable_scanner.tanks_empty,All Tanks Empty,すべてのタンクが空
 behavior.portable_scanner.workable_consumption,Probably Uses: %s EU/t at %s A,予想使用量: %s EU/t / %s A
@@ -108,20 +108,20 @@ block.gtceu.blue_metal_sheet,Blue Metal Sheet,青い金属板
 block.gtceu.blue_studs,Blue Studs,青いスタッド
 block.gtceu.boss_hazard_sign_block,Boss Hazard Sign Block,ボス危害警告ブロック
 block.gtceu.brittle_charcoal,Brittle Charcoal,脆い木炭
-block.gtceu.bronze_brick_casing,Bronze Brick Casing,ブロンズレンガ筐体
-block.gtceu.bronze_crate,Bronze Crate,ブロンズ製クレート
-block.gtceu.bronze_drum,Bronze Drum,ブロンズ製ドラム
-block.gtceu.bronze_firebox_casing,Bronze Firebox Casing,ブロンズ製火室外装
-block.gtceu.bronze_gearbox,Bronze Gearbox Casing,ブロンズ製ギアボックス外装
-block.gtceu.bronze_large_boiler,Large Bronze Boiler,ブロンズ製大型ボイラー
-block.gtceu.bronze_machine_casing,Bronze Machine Casing,ブロンズ製マシン外装
-block.gtceu.bronze_pipe_casing,Bronze Pipe Casing,ブロンズ製パイプ外装
+block.gtceu.bronze_brick_casing,Bronze Brick Casing,青銅レンガ筐体
+block.gtceu.bronze_crate,Bronze Crate,青銅製クレート
+block.gtceu.bronze_drum,Bronze Drum,青銅製ドラム
+block.gtceu.bronze_firebox_casing,Bronze Firebox Casing,青銅製火室外装
+block.gtceu.bronze_gearbox,Bronze Gearbox Casing,青銅製ギアボックス外装
+block.gtceu.bronze_large_boiler,Large Bronze Boiler,青銅製大型ボイラー
+block.gtceu.bronze_machine_casing,Bronze Machine Casing,青銅製マシン外装
+block.gtceu.bronze_pipe_casing,Bronze Pipe Casing,青銅製パイプ外装
 block.gtceu.brown_borderless_lamp,Brown Borderless Lamp,茶色のボーダーレスランプ
 block.gtceu.brown_lamp,Brown Lamp,茶色のランプ
 block.gtceu.brown_large_metal_sheet,Brown Large Metal Sheet,茶色の大きな金属板
 block.gtceu.brown_metal_sheet,Brown Metal Sheet,茶色い金属シート
 block.gtceu.brown_studs,Brown Studs,茶色のスタッド
-block.gtceu.casing_bronze_bricks,Bronze Machine Casing,ブロンズ製マシン外装
+block.gtceu.casing_bronze_bricks,Bronze Machine Casing,青銅製マシン外装
 block.gtceu.casing_coke_bricks,Coke Oven Bricks,コークス炉レンガ
 block.gtceu.casing_grate,Grate Machine Casing,格子マシン外装
 block.gtceu.casing_primitive_bricks,Firebricks,耐火レンガブロック
@@ -1035,7 +1035,7 @@ block.gtceu.pump_hatch,Pump Hatch,ポンプハッチ
 block.gtceu.purple_borderless_lamp,Purple Borderless Lamp,紫のボーダーレスランプ
 block.gtceu.purple_lamp,Purple Lamp,紫のランプ
 block.gtceu.purple_large_metal_sheet,Purple Large Metal Sheet,紫の大きな金属板
-block.gtceu.purple_metal_sheet,Purple Metal Sheet,パープルメタルシート
+block.gtceu.purple_metal_sheet,Purple Metal Sheet,紫メタルシート
 block.gtceu.purple_studs,Purple Studs,紫のスタッド
 block.gtceu.pyrolyse_oven,Pyrolyse Oven,熱分解炉
 block.gtceu.radioactive_hazard_sign_block,Radioactive Hazard Sign Block,放射性危害警告ブロック
@@ -1093,11 +1093,11 @@ block.gtceu.stainless_steel_crate,Stainless Steel Crate,ステンレススチー
 block.gtceu.stainless_steel_drum,Stainless Steel Drum,ステンレススチール製ドラム
 block.gtceu.stainless_steel_gearbox,Stainless Steel Gearbox Casing,ステンレススチール製ギアボックス外装
 block.gtceu.stainless_steel_turbine_casing,Stainless Turbine Casing,ステンレススチール製タービン外装
-block.gtceu.steam_casing_bricked_bronze,Bricked Bronze Hull,ブロンズ製レンガ筐体
+block.gtceu.steam_casing_bricked_bronze,Bricked Bronze Hull,青銅製レンガ筐体
 block.gtceu.steam_casing_bricked_bronze.tooltip,§7For your first Steam Machines,§7初めての蒸気機械に
 block.gtceu.steam_casing_bricked_steel,Bricked Wrought Iron Hull,錬鉄製レンガ筐体
 block.gtceu.steam_casing_bricked_steel.tooltip,§7For improved Steam Machines,§7上位蒸気機械に
-block.gtceu.steam_casing_bronze,Bronze Hull,ブロンズ製筐体
+block.gtceu.steam_casing_bronze,Bronze Hull,青銅製筐体
 block.gtceu.steam_casing_bronze.tooltip,§7For your first Steam Machines,§7初めての蒸気機械に
 block.gtceu.steam_casing_steel,Steel Hull,スチール製筐体
 block.gtceu.steam_casing_steel.tooltip,§7For improved Steam Machines,§7上位蒸気機械に
@@ -1628,7 +1628,7 @@ block.gtceu.wooden_tank_valve,Wooden Tank Valve,木製タンクバルブ
 block.gtceu.yellow_borderless_lamp,Yellow Borderless Lamp,黄のボーダーレスランプ
 block.gtceu.yellow_lamp,Yellow Lamp,黄のランプ
 block.gtceu.yellow_large_metal_sheet,Yellow Large Metal Sheet,黄の大きな金属板
-block.gtceu.yellow_metal_sheet,Yellow Metal Sheet,イエローメタルシート
+block.gtceu.yellow_metal_sheet,Yellow Metal Sheet,黄メタルシート
 block.gtceu.yellow_stripes_block.a,Yellow Stripes Block,黄斜線ブロック
 block.gtceu.yellow_stripes_block.b,Yellow Stripes Block,黄斜線ブロック
 block.gtceu.yellow_stripes_block.c,Yellow Stripes Block,黄斜線ブロック
@@ -1836,7 +1836,7 @@ compass.node.gtceu.ev/large_combustion,Large Combustion,大型燃焼エンジン
 compass.node.gtceu.ev/large_miner,Large Miner,大型採掘機
 compass.node.gtceu.generation/andesite,Andesite,安山岩
 compass.node.gtceu.generation/basalt,Basalt,玄武岩
-compass.node.gtceu.generation/blackstone,Blackstone,ブラックストーン
+compass.node.gtceu.generation/blackstone,Blackstone,黒ストーン
 compass.node.gtceu.generation/deepslate,Deepslate,深層岩
 compass.node.gtceu.generation/diorite,Diorite,閃緑岩
 compass.node.gtceu.generation/endstone,Endstone,エンドストーン
@@ -2045,7 +2045,7 @@ compass.node.gtceu.misc/petri_dish,Petri Dish,ペトリ皿
 compass.node.gtceu.misc/plant_ball,Plant Ball,プラントボール
 compass.node.gtceu.misc/power_thruster,Power Thruster,パワースラスター
 compass.node.gtceu.misc/programmed_circuit,Programmed Circuit,プログラム回路
-compass.node.gtceu.misc/purple_drink,Purple Drink,パープルドリンク
+compass.node.gtceu.misc/purple_drink,Purple Drink,紫ドリンク
 compass.node.gtceu.misc/quantum_eye,Quantum Eye,クアンタムアイ
 compass.node.gtceu.misc/quantum_star,Quantum Star,クアンタムスター
 compass.node.gtceu.misc/raw_carbon_fibers,Raw Carbon Fibers,カーボン繊維
@@ -2214,8 +2214,8 @@ config.gtceu.option.animationTime,animationTime,アニメーション時間
 config.gtceu.option.armorHud,armorHud,防具HUD
 config.gtceu.option.bedrockOreDistance,bedrockOreDistance,岩盤鉱石間隔
 config.gtceu.option.bedrockOreDropTagPrefix,bedrockOreDropTagPrefix,岩盤鉱石ドロップタグ接頭辞
-config.gtceu.option.bronzeBoilerHeatSpeed,bronzeBoilerHeatSpeed,ブロンズボイラー加熱速度
-config.gtceu.option.bronzeBoilerMaxTemperature,bronzeBoilerMaxTemperature,ブロンズボイラー最高温度
+config.gtceu.option.bronzeBoilerHeatSpeed,bronzeBoilerHeatSpeed,青銅ボイラー加熱速度
+config.gtceu.option.bronzeBoilerMaxTemperature,bronzeBoilerMaxTemperature,青銅ボイラー最高温度
 config.gtceu.option.casingsPerCraft,casingsPerCraft,筐体パークラフト
 config.gtceu.option.cleanMultiblocks,cleanMultiblocks,クリーンマルチブロック
 config.gtceu.option.client,client,クライアント
@@ -2335,13 +2335,13 @@ config.gtceu.option.universalHazards,universalHazards,普遍的汚染
 config.gtceu.option.updateIntervals,updateIntervals,更新間隔
 config.gtceu.option.useVBO,useVBO,VBOを使用する
 config.gtceu.option.voltageTierAdvImpeller,voltageTierAdvImpeller,電圧ティアアドバンスバインペラ
-config.gtceu.option.voltageTierAdvNanoSuit,voltageTierAdvNanoSuit,電圧ティアアドバンスNanoSuit
+config.gtceu.option.voltageTierAdvNanoSuit,voltageTierAdvNanoSuit,電圧ティアアドバンスナノスーツ
 config.gtceu.option.voltageTierAdvQuarkTech,voltageTierAdvQuarkTech,電圧ティアアドバンスQuarkTech
 config.gtceu.option.voltageTierImpeller,voltageTierImpeller,電圧ティアImpeller
-config.gtceu.option.voltageTierNanoSuit,voltageTierNanoSuit,電圧ティアNanoSuit
+config.gtceu.option.voltageTierNanoSuit,voltageTierNanoSuit,電圧ティアナノスーツ
 config.gtceu.option.voltageTierNightVision,voltageTierNightVision,電圧ティアNightVision
 config.gtceu.option.voltageTierQuarkTech,voltageTierQuarkTech,電圧ティアQuarkTech
-config.gtceu.option.worldAcceleratorBlacklist,worldAcceleratorBlacklist,世界加速機のブラックリスト
+config.gtceu.option.worldAcceleratorBlacklist,worldAcceleratorBlacklist,世界加速機の黒リスト
 config.gtceu.option.worldgen,worldgen,ワールド生成
 config.gtceu.option.zombieSpawnWithSabers,zombieSpawnWithSabers,ゾンビがナノセイバーを持ってスポーンするか
 config.jade.plugin_gtceu.auto_output_info,[GTCEu] Auto Output Info,[GTCEu] 自動出力情報
@@ -2424,8 +2424,8 @@ cover.ender_fluid_link.private.tooltip.disabled.0,Switch to private tank mode,�
 cover.ender_fluid_link.private.tooltip.disabled.1,Private mode uses the player who originally placed the cover,プライベートモードでは、最初にカバーをかけたプレイヤーが使用できます。
 cover.ender_fluid_link.private.tooltip.enabled,Switch to public tank mode,公開タンクモードに切り替え
 cover.ender_fluid_link.title,Ender Fluid Link,液体エンダーリンク
-cover.filter.blacklist.disabled,Whitelist,ホワイトリスト
-cover.filter.blacklist.enabled,Blacklist,ブラックリスト
+cover.filter.blacklist.disabled,Whitelist,白リスト
+cover.filter.blacklist.enabled,Blacklist,黒リスト
 cover.filter.mode.filter_both,Filter Insert/Extract,搬入/搬出フィルター
 cover.filter.mode.filter_extract,Filter Extract,搬出フィルター
 cover.filter.mode.filter_insert,Filter Insert,搬入フィルター
@@ -2818,10 +2818,10 @@ gtceu.item_filter.footer,§eClick with item to override,§e 書き換える項�
 gtceu.item_list.item_stored,§7Stored: %d,§7格納: %d
 gtceu.item_pipe.priority,§9Priority: §f%d,§9優先順位: §f%d
 gtceu.jade.cleaned_this_second,Cleaned hazard: %s/s,汚染の洗浄度: %s/s
-gtceu.jade.energy_stored,%d / %d EU,
-gtceu.jade.progress_computation,%s / %s CWU,
+gtceu.jade.energy_stored,%d / %d EU,エネルギー保存: %d / %d EU
+gtceu.jade.progress_computation,%s / %s CWU,計算進捗: %s / %s CWU
 gtceu.jade.progress_sec,%s / %s s,%s / %s 秒
-gtceu.jade.progress_tick,%s / %s t,
+gtceu.jade.progress_tick,%s / %s t,%s / %s ティック
 gtceu.jei.bedrock_fluid.heavy_oil_deposit,Heavy Oil Deposit,重油油田
 gtceu.jei.bedrock_fluid.lava_deposit,Lava Deposit,溶岩田
 gtceu.jei.bedrock_fluid.light_oil_deposit,Light Oil Deposit,軽油油田
@@ -3179,7 +3179,7 @@ gtceu.machine.large_boiler.bronze.tooltip,We need more Steam!,もっと湯沸し
 gtceu.machine.large_boiler.steel.tooltip,Charcoal Incinerator,木炭の火葬場
 gtceu.machine.large_boiler.titanium.tooltip,Where's the Magic Super Fuel?,魔法燃料使用厳禁
 gtceu.machine.large_boiler.tungstensteel.tooltip,How do you even fuel this thing?,燃料が維持できません! 活動限界まで残り3秒!
-gtceu.machine.large_chemical_reactor.tooltip,Black Box Reactor,回収されたブラックボックス
+gtceu.machine.large_chemical_reactor.tooltip,Black Box Reactor,回収された黒ボックス
 gtceu.machine.large_combustion_engine.tooltip,Fuel Ignition Chamber,燃え上がる魂
 gtceu.machine.large_combustion_engine.tooltip.boost_extreme,Supply §f80 mB/s§7 of Liquid Oxygen to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption.,液体酸素を§e80 mB/s§7で供給すると、燃料消費§e2倍§7最大出力§e%s§7 EU/tとなる。
 gtceu.machine.large_combustion_engine.tooltip.boost_regular,Supply §f20 mB/s§7 of Oxygen to produce up to §f%s EU/t§7 at §f2x§7 fuel consumption.,酸素を§e20 mB/s§7で供給すると、燃料消費§e2倍§7最大出力§e%s§7 EU/tとなる。
@@ -3606,7 +3606,7 @@ gtceu.multiblock.fluid_rig.fluid_amount,Pumping Rate: %s,採掘速度: %s
 gtceu.multiblock.fluid_rig.no_fluid_in_area,None in Area.,動作範囲内に液体はありません
 gtceu.multiblock.fluid_rig.vein_depleted,Vein Depleted.,枯渇しました
 gtceu.multiblock.fluid_rig.vein_depletion,Vein Size: %s,大きさ: %s
-gtceu.multiblock.fusion_reactor.energy,EU: %d / %d,
+gtceu.multiblock.fusion_reactor.energy,EU: %d / %d,融合炉エネルギー: %d / %d EU
 gtceu.multiblock.fusion_reactor.heat,Heat: %d,熱: %d
 gtceu.multiblock.generation_eu,Outputting: §a%s EU/t,出力: §a%s EU/t
 gtceu.multiblock.hpca.computation,Providing: %s,供給: %s
@@ -3751,8 +3751,8 @@ gtceu.multiblock.running,Running perfectly.,完璧に動作中
 gtceu.multiblock.steam.duration_modifier,"Takes §f1.5x §7base duration to process, not affected by number of items.",アイテム数に関係なく加工時間が基本の§f1.5 倍§7になる。
 gtceu.multiblock.steam.low_steam,Not enough Steam to run!,蒸気不足!
 gtceu.multiblock.steam.steam_stored,Steam: %s / %s mb,蒸気: %s / %s mb
-gtceu.multiblock.steam_grinder.description,"A Multiblock Macerator at the Steam Age. Requires at least 14 Bronze Casings to form. Cannot use normal Input/Output busses, nor Fluid Hatches other than the Steam Hatch.",蒸気時代のマルチブロック式粉砕機。ブロンズ製外装が最低14個必要。/n通常のハッチ/バスは使えず、専用の蒸気用のものが必要。
-gtceu.multiblock.steam_oven.description,"A Multi Smelter at the Steam Age. Requires at least 6 Bronze Casings to form. Cannot use normal Input/Output busses, nor Fluid Hatches other than the Steam Hatch. Steam Hatch must be on the bottom layer, no more than one.",蒸気時代のマルチスメルター。ブロンズ製外装が最低6個必要。通常のハッチ/バスは使えず、専用の蒸気用のものが必要。蒸気ハッチは最下段に一つだけ置ける。
+gtceu.multiblock.steam_grinder.description,"A Multiblock Macerator at the Steam Age. Requires at least 14 Bronze Casings to form. Cannot use normal Input/Output busses, nor Fluid Hatches other than the Steam Hatch.",蒸気時代のマルチブロック式粉砕機。青銅製外装が最低14個必要。/n通常のハッチ/バスは使えず、専用の蒸気用のものが必要。
+gtceu.multiblock.steam_oven.description,"A Multi Smelter at the Steam Age. Requires at least 6 Bronze Casings to form. Cannot use normal Input/Output busses, nor Fluid Hatches other than the Steam Hatch. Steam Hatch must be on the bottom layer, no more than one.",蒸気時代のマルチスメルター。青銅製外装が最低6個必要。通常のハッチ/バスは使えず、専用の蒸気用のものが必要。蒸気ハッチは最下段に一つだけ置ける。
 gtceu.multiblock.title,Multiblock Pattern,マルチブロックの構造
 gtceu.multiblock.turbine.efficiency,Turbine Efficiency: %s%%,タービン効率: %s%%
 gtceu.multiblock.turbine.efficiency_tooltip,Each Rotor Holder above %s§7 adds §f10%% efficiency§7.,%s§7以上のローターホルダーごとに§610%%§7の効率化。
@@ -3953,7 +3953,7 @@ gtceu.top.obstructed_structure,Structure Obstructed,どこかが塞がれてい�
 gtceu.top.primitive_pump_production,Production: %s mB/s,生産: %s mB/s
 gtceu.top.progress_computation," / %s CWU",/ %s CWU
 gtceu.top.progress_sec," / %s s"," / %s 秒"
-gtceu.top.progress_tick," / %s t",
+gtceu.top.progress_tick," / %s t"," / %s ティック"
 gtceu.top.proxies_bound,Buffer Proxies Bound: %s,バッファープロキシ: %s
 gtceu.top.recipe_output,Recipe Outputs:,レシピアウトプット:
 gtceu.top.stained,Colored: %s,カラー: %s
@@ -3967,8 +3967,8 @@ gtceu.top.working_disabled,Working Disabled,作業停止
 gtceu.universal.clear_nbt_recipe.tooltip,§cThis will destroy all contents!,§cこれによりすべてのコンテンツが破棄されます!
 gtceu.universal.disabled,Multiblock Sharing §4Disabled,マルチブロック間での共有: §4不可能
 gtceu.universal.enabled,Multiblock Sharing §aEnabled,マルチブロック間での共有: §a可能
-gtceu.universal.kiloliters,%s B,
-gtceu.universal.liters,%s mB,
+gtceu.universal.kiloliters,%s B,%s バケット
+gtceu.universal.liters,%s mB,%s ミリバケット
 gtceu.universal.tooltip.amperage_in,§eAmperage IN: §f%dA,§e入力電流: §f%dA
 gtceu.universal.tooltip.amperage_in_out,§eAmperage IN/OUT: §f%dA,§e入出力電流: §f%dA
 gtceu.universal.tooltip.amperage_in_out_till,§eAmperage IN/OUT up to: §f%dA,§e最大入出力電流: §f%dA
@@ -4100,7 +4100,7 @@ item.gtceu.bolt_extruder_mold,Extruder Mold (Bolt),押出形成用金型 (ボル
 item.gtceu.bolt_extruder_mold.tooltip,§7Extruder Shape for making Bolts,§7ボルトを作る為の押出形成用金型
 item.gtceu.bone_dust,Bone Meal,骨粉
 item.gtceu.borosilicate_glass_ingot,Borosilicate Glass Bar,ホウ素ケイ酸ガラスのバー
-item.gtceu.bottle.purple.drink.tooltip,§7How about Lemonade. Or some Ice Tea? I got Purple Drink!,§7レモネードはいかが? それともアイスティーは? いや、私にはこのパープルドリンクがあります!
+item.gtceu.bottle.purple.drink.tooltip,§7How about Lemonade. Or some Ice Tea? I got Purple Drink!,§7レモネードはいかが? それともアイスティーは? いや、私にはこの紫ドリンクがあります!
 item.gtceu.bottle_casting_mold,Casting Mold (Bottle),金型 (ボトル)
 item.gtceu.bottle_casting_mold.tooltip,§7Mold for making Bottles,§7ビンを作る為の金型
 item.gtceu.bottle_extruder_mold,Extruder Mold (Bottle),押出形成用金型 (ボトル)
@@ -4562,8 +4562,8 @@ item.gtceu.nor_memory_chip.tooltip,§7NOR Logic Gate,§7NOR論理ゲート
 item.gtceu.nor_memory_wafer,NOR Memory Wafer,NORメモリーウェハー
 item.gtceu.nor_memory_wafer.tooltip,§7Raw Logic Gate,§7論理ゲートの原料
 item.gtceu.normal_pipe_extruder_mold,Extruder Mold (Normal Pipe),押出形成用金型 (通常パイプ)
-item.gtceu.nugget_casting_mold,Casting Mold (Nugget),金型 (ナゲット)
-item.gtceu.nugget_casting_mold.tooltip,§7Mold for making Nuggets,§7ナゲットを作る為の金型
+item.gtceu.nugget_casting_mold,Casting Mold (Nugget),金型 (塊)
+item.gtceu.nugget_casting_mold.tooltip,§7Mold for making Nuggets,§7塊を作る為の金型
 item.gtceu.opv_conveyor_module,OpV Conveyor Module,OpVコンベアーモジュール
 item.gtceu.opv_electric_motor,OpV Electric Motor,OpV電動モーター
 item.gtceu.opv_electric_piston,OpV Electric Piston,OpV電動ピストン
@@ -4636,7 +4636,7 @@ item.gtceu.purified_bentonite_ore,Purified Bentonite,洗浄したベントナイ
 item.gtceu.purified_cassiterite_sand_ore,Purified Cassiterite Sand,洗浄したスズ砂
 item.gtceu.purified_pitchblende_ore,Purified Pitchblende,洗浄した瀝青ウラン鉱
 item.gtceu.purified_talc_ore,Purified Talc,洗浄した滑石
-item.gtceu.purple_drink,Purple Drink,パープルドリンク
+item.gtceu.purple_drink,Purple Drink,紫ドリンク
 item.gtceu.purple_dye_spray_can,Spray Can (Purple),紫のスプレー缶
 item.gtceu.purple_glass_lens,Glass Lens (Purple),紫のガラスレンズ
 item.gtceu.qbit_cpu_chip,Qubit CPU Chip,量子CPUチップ
@@ -4763,7 +4763,7 @@ item.gtceu.smd_resistor,SMD Resistor,SMD抵抗器
 item.gtceu.smd_resistor.tooltip,§7Electronic Component,§7電子部品
 item.gtceu.smd_transistor,SMD Transistor,SMDトランジスタ
 item.gtceu.smd_transistor.tooltip,§7Electronic Component,§7電子部品
-item.gtceu.soc,SoC,
+item.gtceu.soc,SoC,System on Chip (SoC)
 item.gtceu.soc.tooltip,§7System on Chip,§7システムオンチップ
 item.gtceu.soc_wafer,SoC Wafer,SoCウェハー
 item.gtceu.soc_wafer.tooltip,§7Raw Basic Circuit,§7基本回路の原料
@@ -5106,16 +5106,16 @@ material.gtceu.biomass,Biomass,バイオマス
 material.gtceu.biotite,Biotite,黒雲母
 material.gtceu.biphenyl,Biphenyl,ビフェニル
 material.gtceu.bismuth,Bismuth,ビスマス
-material.gtceu.bismuth_bronze,Bismuth Bronze,ビスマスブロンズ
+material.gtceu.bismuth_bronze,Bismuth Bronze,ビスマス青銅
 material.gtceu.bisphenol_a,Bisphenol A,ビスフェノール A
-material.gtceu.black_bronze,Black Bronze,ブラックブロンズ
+material.gtceu.black_bronze,Black Bronze,黒青銅
 material.gtceu.black_dye,Black Dye,黒い液体染料
-material.gtceu.black_steel,Black Steel,ブラックスチール
+material.gtceu.black_steel,Black Steel,黒スチール
 material.gtceu.blaze,Blaze,ブレイズ
 material.gtceu.blue_alloy,Blue Alloy,青合金
 material.gtceu.blue_dye,Blue Dye,青い染料
-material.gtceu.blue_steel,Blue Steel,ブルースチール
-material.gtceu.blue_topaz,Blue Topaz,ブルートパーズ
+material.gtceu.blue_steel,Blue Steel,青スチール
+material.gtceu.blue_topaz,Blue Topaz,青トパーズ
 material.gtceu.bohrium,Bohrium,ボーリウム
 material.gtceu.bone,Bone,骨
 material.gtceu.borax,Borax,ホウ砂
@@ -5277,7 +5277,7 @@ material.gtceu.glauconite_sand,Glauconite Sand,砂状海緑石の粉
 material.gtceu.glowstone,Glowstone,グロウストーン
 material.gtceu.glue,Glue,にかわ
 material.gtceu.glycerol,Glycerol,グリセロール
-material.gtceu.glyceryl_trinitrate,Glyceryl Trinitrate,ニトログリセリン
+material.gtceu.glyceryl_trinitrate,Glyceryl Trinitrate,ニト原木リセリン
 material.gtceu.glycolonitrile,Glycolonitrile,グリコロニトリル
 material.gtceu.goethite,Goethite,針鉄鉱
 material.gtceu.gold,Gold,金
@@ -5288,8 +5288,8 @@ material.gtceu.graphene,Graphene,グラフェン
 material.gtceu.graphite,Graphite,グラファイト
 material.gtceu.gray_dye,Gray Dye,灰色の液体染料
 material.gtceu.green_dye,Green Dye,緑の液体染料
-material.gtceu.green_sapphire,Green Sapphire,グリーンサファイア
-material.gtceu.green_sapphire_slurry,Green Sapphire Slurry,グリーンサファイア泥漿
+material.gtceu.green_sapphire,Green Sapphire,緑サファイア
+material.gtceu.green_sapphire_slurry,Green Sapphire Slurry,緑サファイア泥漿
 material.gtceu.grossular,Grossular,灰礬柘榴石
 material.gtceu.gunpowder,Gunpowder,火薬
 material.gtceu.gypsum,Gypsum,石膏
@@ -5308,9 +5308,9 @@ material.gtceu.hot_brine,Hot Brine,高温塩水
 material.gtceu.hot_chlorinated_brominated_brine,Hot Chlorinated Brominated Brine,高温塩素化臭素化塩水
 material.gtceu.hot_debrominated_brine,Hot Debrominated Brine,高温脱臭塩水
 material.gtceu.hsla_steel,HSLA Steel,高張力鋼
-material.gtceu.hsse,HSS-E,
-material.gtceu.hssg,HSS-G,
-material.gtceu.hsss,HSS-S,
+material.gtceu.hsse,HSS-E,高速度鋼-E (HSS-E)
+material.gtceu.hssg,HSS-G,高速度鋼-G (HSS-G)
+material.gtceu.hsss,HSS-S,高速度鋼-S (HSS-S)
 material.gtceu.hydro_cracked_butadiene,Hydro-Cracked Butadiene,水素で分解されたブタジエン
 material.gtceu.hydro_cracked_butane,Hydro-Cracked Butane,水素で分解されたブタン
 material.gtceu.hydro_cracked_butene,Hydro-Cracked Butene,水素で分解されたブテン
@@ -5524,7 +5524,7 @@ material.gtceu.pyrope,Pyrope,ピロープ
 material.gtceu.quartz_sand,Quartz Sand,クォーツサンドの粉
 material.gtceu.quartzite,Quartzite,クォーツ岩
 material.gtceu.quicklime,Quicklime,酸化カルシウム
-material.gtceu.rad_away,Rad Away,レッドアウェイ
+material.gtceu.rad_away,Rad Away,赤アウェイ
 material.gtceu.radium,Radium,ラジウム
 material.gtceu.radon,Radon,ラドン
 material.gtceu.rare_earth,Rare Earth,レアアースの粉
@@ -5537,9 +5537,9 @@ material.gtceu.raw_styrene_butadiene_rubber,Raw Styrene Butadiene Rubber,生の�
 material.gtceu.realgar,Realgar,鶏冠石
 material.gtceu.red_alloy,Red Alloy,赤合金
 material.gtceu.red_dye,Red Dye,赤い液体染料
-material.gtceu.red_garnet,Red Garnet,レッドガーネット
-material.gtceu.red_steel,Red Steel,レッドスチール
-material.gtceu.redrock,Redrock,レッドロック
+material.gtceu.red_garnet,Red Garnet,赤ガーネット
+material.gtceu.red_steel,Red Steel,赤スチール
+material.gtceu.redrock,Redrock,赤ロック
 material.gtceu.redstone,Redstone,レッドストーン
 material.gtceu.refinery_gas,Refinery Gas,精製ガス
 material.gtceu.reinforced_epoxy_resin,Reinforced Epoxy Resin,強化エポキシ樹脂
@@ -5694,7 +5694,7 @@ material.gtceu.wrought_iron,Wrought Iron,鍛鉄
 material.gtceu.wulfenite,Wulfenite,モリブデン鉛鉱
 material.gtceu.xenon,Xenon,キセノン
 material.gtceu.yellow_dye,Yellow Dye,黄の液体染料
-material.gtceu.yellow_garnet,Yellow Garnet,イエローガーネット
+material.gtceu.yellow_garnet,Yellow Garnet,黄ガーネット
 material.gtceu.yellow_limonite,Yellow Limonite,黄褐鉄鉱
 material.gtceu.ytterbium,Ytterbium,イッテルビウム
 material.gtceu.yttrium,Yttrium,イットリウム
@@ -5772,8 +5772,8 @@ metaitem.dust.tooltip.purify,Right click a Cauldron to get clean Dust,大釜を�
 metaitem.electric.discharge_mode.disabled,§eDischarge Mode Disabled,§e放電無効
 metaitem.electric.discharge_mode.enabled,§eDischarge Mode Enabled,§e放電有効
 metaitem.electric.discharge_mode.tooltip,Use while sneaking to toggle discharge mode,スニーク中に使うことで放電を切り替えできます。
-metaitem.generic.electric_item.stored,%d/%d EU (%s),
-metaitem.generic.fluid_container.tooltip,%d/%dL %s,
+metaitem.generic.electric_item.stored,%d/%d EU (%s),保存: %d/%d EU (%s)
+metaitem.generic.fluid_container.tooltip,%d/%dL %s,液体: %d/%dL %s
 metaitem.int_circuit.configuration,Configuration: %d,設定値: %d
 metaitem.liquid_fuel_jetpack.tooltip,Uses Combustion Generator Fuels for Thrust,推力に燃焼発電機の燃料を使用
 metaitem.machine_configuration.mode,§aConfiguration Mode:§r %s,§a設定モード:§r %s
@@ -5792,7 +5792,7 @@ metaitem.tool.tooltip.primary_material,§fMaterial: §e%s,§f素材: §e%s
 metaitem.tool.tooltip.rotor.efficiency,Turbine Efficiency: §9%d%%,タービン効率: §9%d%%
 metaitem.tool.tooltip.rotor.power,Turbine Power: §9%d%%,タービンパワー: §9%d%%
 metaitem.tricorder_scanner.tooltip,Tricorder,トライコーダー
-monitor.gui.title.argb,ARGB:,
+monitor.gui.title.argb,ARGB:,ARGB色:
 monitor.gui.title.back,Back,戻る
 monitor.gui.title.config,Config,設定
 monitor.gui.title.plugin,Plugin:,プラグイン:
@@ -5811,12 +5811,12 @@ recipe.condition.eu_to_start.tooltip,EU to start: %d,開始エネルギー: %d
 recipe.condition.pos_y.tooltip,Y Level: %d <= Y <= %d,Y座標レベル: %d <= Y <= %d
 recipe.condition.rain.tooltip,Rain Level: %d,雨レベル: %d
 recipe.condition.rock_breaker.tooltip,Fluid blocks around,周囲の液体ブロック
-recipe.condition.rpm.tooltip,RPM: %d,
+recipe.condition.rpm.tooltip,RPM: %d,回転数: %d
 recipe.condition.steam_vent.tooltip,Clean steam vent,蒸気排出口の清掃
 recipe.condition.thunder.tooltip,Thunder Level: %d,雷レベル: %d
 tagprefix.andesite,Andesite %s Ore,%s鉱石 (安山岩)
 tagprefix.basalt,Basalt %s Ore,%s鉱石 (玄武岩)
-tagprefix.blackstone,Blackstone %s Ore,%s鉱石 (ブラックストーン)
+tagprefix.blackstone,Blackstone %s Ore,%s鉱石 (黒ストーン)
 tagprefix.block,Block of %s,%sブロック
 tagprefix.bolt,%s Bolt,%sのボルト
 tagprefix.buzz_saw_blade,%s Buzzsaw Blade,%s製丸のこ刃
@@ -5828,7 +5828,7 @@ tagprefix.cable_gt_single,1x %s Cable,1倍%sケーブル
 tagprefix.chainsaw_head,%s Chainsaw Head,%sのチェーンソーヘッド
 tagprefix.chipped_gem,Chipped %s,欠けた%s
 tagprefix.crushed_ore,Crushed %s Ore,砕けた %s 鉱石
-tagprefix.deepslate,Deepslate %s Ore,ディープスレート%s鉱石
+tagprefix.deepslate,Deepslate %s Ore,深層岩%s鉱石
 tagprefix.dense_plate,Dense %s Plate,高密度な%sプレート
 tagprefix.diorite,Diorite %s Ore,%s鉱石 (閃緑岩)
 tagprefix.door,%s Door,%sのドア
@@ -5927,17 +5927,17 @@ compass.node.gtceu.circuits/cpus,Cpus,CPU
 compass.node.gtceu.circuits/socs,Socs,SoC
 compass.node.gtceu.tools/buzzsaw,Buzzsaw,バズソー
 cover.fluid_filter.config_amount.1,"Shift[§6x10§r],Ctrl[§ex100§r],Shift+Ctrl[§ax1000§r]",
-metaitem.generic.electric_item.tooltip,%d/%d EU - Tier %s,
+metaitem.generic.electric_item.tooltip,%d/%d EU - Tier %s,%d/%d EU - レベル %s
 metaitem.record.sus.tooltip,§7Leonz - Among Us Drip,
 cover.bucket.mode.bucket,B,バケット
 cover.bucket.mode.milli_bucket,mB,ミリバケット
-cover.ore_dictionary_filter.info.3,^ = XOR,
-cover.pump.transfer_rate,%s,
-gtceu.fluid.generic,%s,
+cover.ore_dictionary_filter.info.3,^ = XOR,^ = 排他的論理和
+cover.pump.transfer_rate,%s,転送レート: %s
+gtceu.fluid.generic,%s,汎用流体: %s
 gtceu.gui.content.units.per_second,/s,/秒
 gtceu.gui.content.units.per_tick,/t,/ティック
 gtceu.gui.overclock.off,X,✕
-gtceu.top.unit.fluid_buckets,kL,
-gtceu.top.unit.fluid_milibuckets,L,
-tagprefix.gem,%s,
-tagprefix.rock,%s,
+gtceu.top.unit.fluid_buckets,kL,kB
+gtceu.top.unit.fluid_milibuckets,L,mB
+tagprefix.gem,%s,宝石: %s
+tagprefix.rock,%s,岩: %s

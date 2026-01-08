@@ -70,7 +70,7 @@ color.white,White,白
 color.yellow,Yellow,黄
 config.general,General,一般
 config.general.pipes,Pipes,パイプ
-config.blueprints,Blueprints,ブルーブック
+config.blueprints,Blueprints,青ブック
 config.builders,Builders,建築家
 config.power,Power Usage,エネルギー消費
 config.experimental,Experimental,実験的
@@ -86,7 +86,7 @@ config.display.colorBlindMode,Colorblind mode,色覚補正モード
 config.display.hideFluidValues,Hide fluid numbers,流体数値を非表示
 config.display.hidePowerValues,Hide power numbers,電力数値を非表示
 config.experimental.kinesisPowerLossOnTravel,Kinesis pipes power perdition,キネシスパイプ：破滅のエネルギー
-config.general.boards.blacklist,Robot blacklist,ロボットブラックリスト
+config.general.boards.blacklist,Robot blacklist,ロボット黒リスト
 config.general.pumpsConsumeWater,Pumps consume water,ポンプは水を消費します
 config.general.updateCheck,Check for updates,アップデートの確認
 config.general.fuel.fuel.combustion,Combustion engine fuel multiplier,燃焼エンジン燃料乗数
@@ -98,8 +98,8 @@ config.general.canEnginesExplode,Engines explode,エンジンが爆発
 config.general.oilCanBurn,Burning oil,燃焼油
 config.general.oilIsDense,Dense oil,濃い油
 config.general.pipes.baseFluidRate,Base flow rate,基本流量
-config.general.pipes.facadeBlacklist,Facade blacklist,外観ブラックリスト
-config.general.pipes.facadeBlacklistAsWhitelist,Invert facade blacklist,フェイスブラックリストを反転
+config.general.pipes.facadeBlacklist,Facade blacklist,外観黒リスト
+config.general.pipes.facadeBlacklistAsWhitelist,Invert facade blacklist,フェイス黒リストを反転
 config.general.pipes.facadeNoLaserRecipe,Add facade recipe without laser,レーザーを使わずにファサードレシピを追加します。
 config.general.pipes.hardness,Hardness,硬度
 config.general.pipes.slimeballWaterproofRecipe,Add slimeball sealant recipe,スライムボールシーラントのレシピを追加する
@@ -252,7 +252,7 @@ gui.clickcraft,-Click to Craft-,-- クリックで作成 -
 gui.pipes.emerald.title,Filters,フィルター
 gui.pipes.emerald.blocking,Blocking,ブロック
 gui.pipes.emerald.blocking.tip,Extraction is blocked if one element in filter is missing,フィルターは左側から埋めてください
-gui.pipes.emerald.nonblocking,Non Blocking,ブラックリスト
+gui.pipes.emerald.nonblocking,Non Blocking,黒リスト
 gui.pipes.emerald.nonblocking.tip,Extraction continues with the next element in filter if one element is missing,フィルターは左側から埋めてください
 gui.pipes.emzuli.title,Extraction Presets,搬出設定
 gui.pipes.emzuli.paint,Paint Items %s,アイテムを%s色に色分けする
@@ -449,8 +449,8 @@ tip.shift.PipeItemsEmzuli,Set extraction preset filters in GUI\nA preset can pai
 tip.shift.PipeItemsLapis,Sneak-click to change color,スニーククリックで色を変更
 tip.shift.PipeItemsObsidian,Power with an engine\nMore power - greater distance,エンジンでパワーを供給します\nより多くのパワーで距離が伸びます
 tip.shift.PipePowerIron,Change the limit with a wrench or gates,レンチまたはゲートでリミットを変更する
-tip.PipeItemsEmerald.whitelist,Whitelist,ホワイトリスト
-tip.PipeItemsEmerald.blacklist,Blacklist,ブラックリスト
+tip.PipeItemsEmerald.whitelist,Whitelist,白リスト
+tip.PipeItemsEmerald.blacklist,Blacklist,黒リスト
 tip.PipeItemsEmerald.roundrobin,Round Robin (In Order),ラウンドロビン（順序）
 tip.tool.add,Add,追加
 tip.tool.fullscreen,Fullscreen,フルスクリーン
@@ -492,7 +492,7 @@ achievement.architectAchievement.desc,Craft an architect table,設計台を作�
 achievement.builderAchievement,I've got better things to do,忙しいあなたに代わって
 achievement.builderAchievement.desc,Craft a builder,ビルダーを作る
 achievement.blueprintAchievement,Building reference,建築物の参考に
-achievement.blueprintAchievement.desc,Craft a blueprint,ブループリントを作る
+achievement.blueprintAchievement.desc,Craft a blueprint,青プリントを作る
 achievement.templateAchievement,Basis,土台
 achievement.templateAchievement.desc,Craft a template,テンプレートを作る
 achievement.blueprintLibraryAchievement,Ideas live on,あなたのアイデアそのままに
@@ -502,10 +502,10 @@ bc_update.download,§cDownload from http://www.mod-buildcraft.com/download,§c�
 bc_update.once,This message only displays once,このメッセージは起動時、一度だけ表示されます
 bc_update.again,Type '/buildcraft version' if you want to see it again,このメッセージを次から表示したくない場合は'/buildcraft version'と打ち込んで下さい
 bc_update.changelog,Type '/buildcraft changelog' to see the changelog,/buildcraft changelog を入力して変更履歴を確認してください。
-chat.buildcraft.quarry.tooSmall,[BuildCraft] Quarry size is outside of chunkloading bounds or too small %d %d (%d),[BuildCraft] クエリーサイズがチャンクロード範囲外または小さすぎます %d %d (%d)
+chat.buildcraft.quarry.tooSmall,[BuildCraft] Quarry size is outside of chunkloading bounds or too small %d %d (%d),[BuildCraft] 採石機サイズがチャンクロード範囲外または小さすぎます %d %d (%d)
 chat.buildcraft.quarry.chunkloadInfo,[BuildCraft] The quarry at %d %d %d will keep %d chunks loaded,[BuildCraft] %d %d %d の採掘機は %d チャンクをロードしたままにします
 command.buildcraft.version,BuildCraft %s for Minecraft %s (Latest: %s).,BuildCraft %s for Minecraft %s (最新: %s).
-command.buildcraft.changelog_header,Changelog for BuildCraft %s:,BuildCraft %s の変更ログ：
+command.buildcraft.changelog_header,Changelog for BuildCraft %s:,BuildCraft %s の変更原木：
 command.buildcraft.aliases,Aliases: %s,別名: %s
 command.buildcraft.help,Type '%s' for help.,'%s' と入力すればヘルプを表示します。
 command.buildcraft.list,Available Commands:,利用可能なコマンド:
@@ -517,7 +517,7 @@ command.buildcraft.buildcraft.version.desc,- %s : Version Information,- %s : バ
 command.buildcraft.buildcraft.version.help,Displays the current and latest BC version.,現在と最新のBCバージョンを表示します。
 command.buildcraft.buildcraft.version.format,Format: /%s,フォーマット: /%s
 command.buildcraft.buildcraft.changelog.desc,- %s : Changelog,- %s : 変更履歴
-command.buildcraft.buildcraft.changelog.help,Displays the latest BC changelog.,最新のBC変更ログを表示します。
+command.buildcraft.buildcraft.changelog.help,Displays the latest BC changelog.,最新のBC変更原木を表示します。
 command.buildcraft.buildcraft.changelog.format,Format: /%s,フォーマット: /%s
 command.buildcraft.buildcraft.op.desc,- %s : Op FakePlayer,- %s : Op フェイクプレイヤー
 command.buildcraft.buildcraft.op.help,"Gives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)",BC偽プレイヤーにOP権限を付与（採掘場、ロボットなどの名義で動作）
@@ -606,7 +606,7 @@ buildcraft.christmas.fluid.fuel_mixed_heavy,Darker Chocolate Mix,より暗いチ
 buildcraft.christmas.fluid.fuel_mixed_light,Lighter Chocolate Mix,軽いチョコレートミックス
 buildcraft.christmas.fluid.fuel_dense,Dark Chocolate,ダークチョコレート
 buildcraft.christmas.fluid.fuel_light,Milk Chocolate,チョコレート
-buildcraft.christmas.fluid.fuel_gaseous,White Chocolate,ホワイトチョコレート
+buildcraft.christmas.fluid.fuel_gaseous,White Chocolate,白チョコレート
 buildcraft.christmas.buildcraft.fluid.heat_0,§bMelted§r %s,§b溶解した§r %s
 buildcraft.christmas.buildcraft.fluid.heat_1,§6Bubbling§r %s,§6泡立つ§r %s
 buildcraft.christmas.buildcraft.fluid.heat_2,§cSearing§r %s,§c灼熱§r %s
@@ -849,11 +849,11 @@ advancements.buildcrafttransport.colorful_electrician.description,Use 16 of each
 advancements.buildcraftbuilders.shaping_the_world.title,Shaping the world,世界を形作る
 advancements.buildcraftbuilders.shaping_the_world.description,Craft and place a Quarry,採石場をクラフトして設置する
 advancements.buildcraftbuilders.architect.title,Architect,アーキテクト
-advancements.buildcraftbuilders.architect.description,Scan an area with an architect table and record it in a blueprint/template,アーキテクトテーブルで領域をスキャンし、ブループリント/テンプレートに記録します。
+advancements.buildcraftbuilders.architect.description,Scan an area with an architect table and record it in a blueprint/template,アーキテクトテーブルで領域をスキャンし、青プリント/テンプレートに記録します。
 advancements.buildcraftbuilders.paving_the_way.title,Paving the way,道を整備する
 advancements.buildcraftbuilders.paving_the_way.description,Utilize the builder with a pathmarker to create a path,パスマーカー付きビルダーを使って道を作る
 advancements.buildcraftbuilders.diggy.title,Diggy diggy hole,"掘る,掘る,ホール(Diggy diggy hole)"
-advancements.buildcraftbuilders.diggy.description,Have a 64x64 quarry finish,64x64クエリーを完了させる
+advancements.buildcraftbuilders.diggy.description,Have a 64x64 quarry finish,採石機を完了させる
 advancements.buildcraftbuilders.start_of_something_big.title,Start of something big,大きな何かの始まり
 advancements.buildcraftbuilders.start_of_something_big.description,Build an extra-large structure with the builder,ビルダーで超大型構造物を作成します
 advancements.buildcraftbuilders.building_for_the_future.title,Building for the future,未来の建築のために

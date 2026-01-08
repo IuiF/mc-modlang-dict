@@ -1,9 +1,9 @@
 ﻿key,source_text,target_text
-block.storagenetwork.collector,Network Collection Interface,収集インターフェイス
+block.storagenetwork.collector,Network Collection Interface,収集インターフェース
 block.storagenetwork.collector.tooltip,Items inserted enter the network,アイテムをネットワークに追加できます。
 block.storagenetwork.controller,Controller,コントローラー
 block.storagenetwork.controller.tooltip,Manage all Processing Cables in the network,ネットワーク内の全てのケーブルを管理します。
-block.storagenetwork.exchange,Network Exchange Interface,交換インターフェイス
+block.storagenetwork.exchange,Network Exchange Interface,交換インターフェース
 block.storagenetwork.exchange.tooltip,Endpoint of the network for inventory connections,ネットワーク上のコンテナに接続するためのエンドポイントです。
 block.storagenetwork.export_kabel,Export Cable,出力ケーブル
 block.storagenetwork.export_kabel.guide,"While connected to an inventory, these export items from the network to the target inventory.  Has priority settings for sort order among other export cables, and optional redstone control.  Accepts upgrades.  ",コンテナに接続している間、ネットワークからそのコンテナにアイテムを出力します。出力ケーブル同士で優先度を設定でき、オプションでレッドストーン信号の出力も可能です。各種強化ができます。
@@ -142,10 +142,10 @@ item.storagenetwork.stock_upgrade.guide,"If this is in an export cable, then for
 item.storagenetwork.stock_upgrade.tooltip,Keeps a a consistent stock of items in the attached inventory,接続されたコンテナに常に一定量を残すように転送します。
 tooltip.storagenetwork.kabel_P,Can automate simple processing transactions,単純な処理トランザクションを自動化します。
 gui.storagenetwork.operate.tooltip.eq,Total in network must be equal,ネットワーク内での総数は一致する必要があります
-block.storagenetwork.collector.guide,"This exposes the network and acts as an insert-only controller for other automation systems or storage solutions.  For example, a normal Hopper will insert items similar to the  $(l:import_kabel)Import Cable$(/l).  Does not allow any item extraction.  Try this with other storage mods!  ",このブロックを経由して、ネットワークを他の自動化システムや倉庫システムに公開することができ、それらからアイテムを送り込むことができます。例えば、バニラのホッパーをネットワーク上の交換インターフェイスに向けて設置すると、$(l:import_kabel)入力ケーブル$(/l)と同じようにアイテムを追加できます。アイテムを取り出すことはできません。他の倉庫Modと組み合わせてみてください！
-block.storagenetwork.exchange.guide,"This exposes the network as an inventory interface.  For example, the AE2 mod has a ME Storage Bus that will connect to this, so the entire simple storage network can be accessed through your AE2 system.  A Hopper below will export arbitrary items.  Try this with other storage mods!  ",このブロックを経由して、ネットワークを他の自動化システムや倉庫システムに公開することができ、その場合このブロックはそれらに対するコントローラとして振舞います。例えば、バニラのホッパーをネットワーク上の交換インターフェイスに向けて設置すると、$(l:import_kabel)入力ケーブル$(/l)と同じようにアイテムを追加できます。下に設置したホッパーは任意のアイテムを出力します。他の倉庫Modと組み合わせてみてください！
+block.storagenetwork.collector.guide,"This exposes the network and acts as an insert-only controller for other automation systems or storage solutions.  For example, a normal Hopper will insert items similar to the  $(l:import_kabel)Import Cable$(/l).  Does not allow any item extraction.  Try this with other storage mods!  ",このブロックを経由して、ネットワークを他の自動化システムや倉庫システムに公開することができ、それらからアイテムを送り込むことができます。例えば、バニラのホッパーをネットワーク上の交換インターフェースに向けて設置すると、$(l:import_kabel)入力ケーブル$(/l)と同じようにアイテムを追加できます。アイテムを取り出すことはできません。他の倉庫Modと組み合わせてみてください！
+block.storagenetwork.exchange.guide,"This exposes the network as an inventory interface.  For example, the AE2 mod has a ME Storage Bus that will connect to this, so the entire simple storage network can be accessed through your AE2 system.  A Hopper below will export arbitrary items.  Try this with other storage mods!  ",このブロックを経由して、ネットワークを他の自動化システムや倉庫システムに公開することができ、その場合このブロックはそれらに対するコントローラとして振舞います。例えば、バニラのホッパーをネットワーク上の交換インターフェースに向けて設置すると、$(l:import_kabel)入力ケーブル$(/l)と同じようにアイテムを追加できます。下に設置したホッパーは任意のアイテムを出力します。他の倉庫Modと組み合わせてみてください！
 block.storagenetwork.request_expanded,Expanded Request Table,拡張リクエストテーブル
-block.storagenetwork.request_expanded.guide,"If this is unuseable for you set your GUI SCALE to a lower number.  May only work with large scale monitor resolutions.  Views the network inventory with full access to scroll, withdraw, and deposit items.  Custom crafting grid that pulls ingredients from the network.   See the $(l:crafting_remote)Remote version here$(/l)  ",使用できない場合は、GUI SCALEを小さい数字に設定してください。大規模なモニター解像度でのみ機能する可能性があります。スクロール、引き出し、アイテムの預け入れへの完全なアクセスでネットワークインベントリを表示します。ネットワークから材料を取得するカスタムクラフティンググリッド。$(l:crafting_remote)ここでリモートバージョン$(/l)を参照してください。
+block.storagenetwork.request_expanded.guide,"If this is unuseable for you set your GUI SCALE to a lower number.  May only work with large scale monitor resolutions.  Views the network inventory with full access to scroll, withdraw, and deposit items.  Custom crafting grid that pulls ingredients from the network.   See the $(l:crafting_remote)Remote version here$(/l)  ",使用できない場合は、GUI SCALEを小さい数字に設定してください。大規模なモニター解像度でのみ機能する可能性があります。スクロール、引き出し、アイテムの預け入れへの完全なアクセスでネットワークインベントリを表示します。ネットワークから材料を取得するカスタムクラフトグリッド。$(l:crafting_remote)ここでリモートバージョン$(/l)を参照してください。
 block.storagenetwork.request_expanded.tooltip,Only for use with extremely large gui scale resolutions,極端に大きなGUIスケール解像度専用です
 gui.storagenetwork.req.tooltip_cleargrid,Clear Grid,グリッドをクリア
 item.storagenetwork.expanded_remote,Expanded Remote,拡張されたリモート

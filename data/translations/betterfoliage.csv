@@ -38,8 +38,8 @@ betterfoliage.blocks.grassModels.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.grassWhitelist.tooltip,"Blocks recognized as Grass. Has an impact on Short Grass, Connected Grass",草として認識されるブロック。短い草、接続グラスへの影響がある
 betterfoliage.blocks.grassBlacklist.tooltip,"Blocks never accepted as Grass. Has an impact on Short Grass, Connected Grass",草として受け入れられないブロック。背の低い草や接続された草に影響します。
 betterfoliage.blocks.grassModels.tooltip,Models and textures recognized for grass blocks,草ブロックとして認識されるモデルとテクスチャ
-betterfoliage.blocks.leavesClassesWhitelist,Leaves Whitelist,葉のホワイトリスト
-betterfoliage.blocks.leavesClassesBlacklist,Leaves Blacklist,葉のブラックリスト
+betterfoliage.blocks.leavesClassesWhitelist,Leaves Whitelist,葉の白リスト
+betterfoliage.blocks.leavesClassesBlacklist,Leaves Blacklist,葉の黒リスト
 betterfoliage.blocks.leavesClassesWhitelist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.leavesClassesBlacklist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.leavesModels,Leaves Models,葉のモデル
@@ -51,28 +51,28 @@ betterfoliage.blocks.cropsWhitelist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.cropsBlacklist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.cropsWhitelist.tooltip,Blocks recognized as crops. Crops will render with tallgrass block ID in shader programs,ブロックが作物として認識されます。作物はシェーダー・プログラムで tallgrass ブロック ID でレンダリングされます
 betterfoliage.blocks.cropsBlacklist.tooltip,Blocks never accepted as crops. Crops will render with tallgrass block ID in shader programs,ブロックは作物として受け入れられません。作物はシェーダープログラムでタールグラスブロックIDでレンダリングされます
-betterfoliage.blocks.logClassesWhitelist,Wood Log Whitelist,木材ログホワイトリスト
-betterfoliage.blocks.logClassesBlacklist,Wood Log Blacklist,木材ブラックリスト
+betterfoliage.blocks.logClassesWhitelist,Wood Log Whitelist,木材原木白リスト
+betterfoliage.blocks.logClassesBlacklist,Wood Log Blacklist,木材黒リスト
 betterfoliage.blocks.logClassesWhitelist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.logClassesBlacklist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.logModels,Wood Log Models,木の原木モデル
 betterfoliage.blocks.logModels.arrayEntry,%d entries,%d項目
-betterfoliage.blocks.logClassesWhitelist.tooltip,Blocks recognized as wooden logs. Has an impact on Rounded Logs,木材のログとして認識されるブロック。丸いログに影響します
-betterfoliage.blocks.logClassesBlacklist.tooltip,Blocks never accepted as wooden logs. Has an impact on Rounded Logs,木材のログとしてブロックは受け付けられません。丸いログに影響します
-betterfoliage.blocks.logModels.tooltip,Models and textures recognized for wood log blocks,木材のログブロックに認識されたモデルとテクスチャ
+betterfoliage.blocks.logClassesWhitelist.tooltip,Blocks recognized as wooden logs. Has an impact on Rounded Logs,木材の原木として認識されるブロック。丸い原木に影響します
+betterfoliage.blocks.logClassesBlacklist.tooltip,Blocks never accepted as wooden logs. Has an impact on Rounded Logs,木材の原木としてブロックは受け付けられません。丸い原木に影響します
+betterfoliage.blocks.logModels.tooltip,Models and textures recognized for wood log blocks,木材の原木ブロックに認識されたモデルとテクスチャ
 betterfoliage.blocks.sandWhitelist,Sand Whitelist,砂の白リスト
 betterfoliage.blocks.sandBlacklist,Sand Blacklist,砂の黒リスト
 betterfoliage.blocks.sandWhitelist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.sandBlacklist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.sandWhitelist.tooltip,Blocks recognized as Sand. Has an impact on Coral,砂として認識されるブロック。珊瑚に影響があります。
 betterfoliage.blocks.sandBlacklist.tooltip,Blocks never accepted Sand. Has an impact on Coral,ブロックは砂を受け付けません。珊瑚に影響があります
-betterfoliage.blocks.lilypadWhitelist,Lilypad Whitelist,リリー・ホワイトリスト
-betterfoliage.blocks.lilypadBlacklist,Lilypad Blacklist,スプラッシュパッド ブラックリスト
+betterfoliage.blocks.lilypadWhitelist,Lilypad Whitelist,リリー・白リスト
+betterfoliage.blocks.lilypadBlacklist,Lilypad Blacklist,スプラッシュパッド 黒リスト
 betterfoliage.blocks.lilypadWhitelist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.lilypadBlacklist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.lilypadWhitelist.tooltip,Blocks recognized as Lilypad. Has an impact on Better Lilypad,リリーのように認識されるブロック。Better Lilypad に影響を与えます
 betterfoliage.blocks.lilypadBlacklist.tooltip,Blocks never accepted Lilypad. Has an impact on Better Lilypad,ブロックはLilypadを受け付けません。Better Lilypadに影響があります
-betterfoliage.blocks.cactusWhitelist,Cactus Whitelist,サボテンホワイトリスト
+betterfoliage.blocks.cactusWhitelist,Cactus Whitelist,サボテン白リスト
 betterfoliage.blocks.cactusBlacklist,Cactus Blacklist,サボテン禁止リスト
 betterfoliage.blocks.cactusWhitelist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.cactusBlacklist.arrayEntry,%d entries,%d項目
@@ -84,8 +84,8 @@ betterfoliage.blocks.myceliumWhitelist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.myceliumBlacklist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.myceliumWhitelist.tooltip,Blocks recognized as Mycelium. Has an impact on Better Grass,マイセリウムとして認識されるブロック。Better Grassに影響します
 betterfoliage.blocks.myceliumBlacklist.tooltip,Blocks never accepted Mycelium. Has an impact on Better Grass,ブロックはマイセリウムを受け付けません。Better Grassに影響します
-betterfoliage.blocks.netherrackWhitelist,Netherrack Whitelist,ネザーラックホワイトリスト
-betterfoliage.blocks.netherrackBlacklist,Netherrack Blacklist,ネザーの岩ブラックリスト
+betterfoliage.blocks.netherrackWhitelist,Netherrack Whitelist,ネザーラック白リスト
+betterfoliage.blocks.netherrackBlacklist,Netherrack Blacklist,ネザーの岩黒リスト
 betterfoliage.blocks.netherrackWhitelist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.netherrackBlacklist.arrayEntry,%d entries,%d項目
 betterfoliage.blocks.netherrackWhitelist.tooltip,Blocks recognized as Netherrack. Has an impact on Netherrack Vines,ネザーラックとして認識されるブロック。ネザーラックの蔓に影響を与えます。
@@ -188,7 +188,7 @@ betterfoliage.risingSoul.opacityDecay.tooltip,Trail particle opacity relative to
 betterfoliage.risingSoul.lifetime,Maximum lifetime,最大寿命
 betterfoliage.risingSoul.lifetime.tooltip,Maximum lifetime of particle effect in seconds. Minimum lifetime is 60%% of this value,パーティクルエフェクトの最大寿命（秒）。最小寿命はこの値の60%%です。
 betterfoliage.risingSoul.trailLength,Trail length,跡の長さ
-betterfoliage.risingSoul.trailLength.tooltip,Number of previous positions the particle remembers in ticks,パーティクルが覚えている過去の位置数（tick単位）
+betterfoliage.risingSoul.trailLength.tooltip,Number of previous positions the particle remembers in ticks,パーティクルが覚えている過去の位置数（ティック単位）
 betterfoliage.risingSoul.trailDensity,Trail density,トレイル密度
 betterfoliage.risingSoul.trailDensity.tooltip,Render every Nth previous position in the particle trail,粒子トレイルで毎 N 回前の位置を描画する
 betterfoliage.connectedGrass,Connected grass textures,接続されたグラステクスチャ
@@ -198,22 +198,22 @@ betterfoliage.roundLogs,Round Logs,丸木
 betterfoliage.roundLogs.tooltip,Connect round blocks to solid full blocks?,丸いブロックを完全な固体ブロックに接続しますか？
 betterfoliage.roundLogs.connectSolids,Connect to solid,固体に接続
 betterfoliage.roundLogs.connectSolids.tooltip,Connect round blocks to solid full blocks?,丸いブロックを完全な固体ブロックに接続しますか？
-betterfoliage.roundLogs.connectPerpendicular,Connect to perpendicular logs,垂直なログに接続する
+betterfoliage.roundLogs.connectPerpendicular,Connect to perpendicular logs,垂直な原木に接続する
 betterfoliage.roundLogs.connectPerpendicular.tooltip,Connect round logs to perpendicular logs along its axis?,円形原木を軸方向に垂直な原木に接続しますか？
 betterfoliage.roundLogs.lenientConnect,Lenient rounding,緩和された丸め方
-betterfoliage.roundLogs.lenientConnect.tooltip,"Connect parallel round logs in an L-shape too, not just 2x2",並列の丸いログをL字形で接続できるようにしてください。2x2だけではありません
+betterfoliage.roundLogs.lenientConnect.tooltip,"Connect parallel round logs in an L-shape too, not just 2x2",並列の丸い原木をL字形で接続できるようにしてください。2x2だけではありません
 betterfoliage.roundLogs.connectGrass,Connect Grass,草に接続
 betterfoliage.roundLogs.connectGrass.tooltip,Render grass block under trees instead of dirt if there is grass nearby,木の下に土ではなくグラスブロックを描画するようにします（近くに草がある場合）。
 betterfoliage.roundLogs.radiusSmall,Chamfer radius,面取り半径
-betterfoliage.roundLogs.radiusSmall.tooltip,How much to chop off from the log corner,ログの角から切り取る量はいくらですか？
+betterfoliage.roundLogs.radiusSmall.tooltip,How much to chop off from the log corner,原木の角から切り取る量はいくらですか？
 betterfoliage.roundLogs.radiusLarge,Connected chamfer radius,接続された角丸半径
 betterfoliage.roundLogs.radiusLarge.tooltip,How much to chop off from the outer corner of connected logs,接続された原木の外角から切り取る量
 betterfoliage.roundLogs.dimming,Dimming,暗転
 betterfoliage.roundLogs.dimming.tooltip,Amount to darken obscured log faces,隠された木の面を暗くする量
 betterfoliage.roundLogs.zProtection,Z-Protection,Z-保護
-betterfoliage.roundLogs.zProtection.tooltip,Amount to scale parallel log connection bits to stop Z-fighting (flickering). Try to set it as high as possible without having glitches.,Z-fighting（ちらつき）を防ぐために平行なログ接続ビットをスケーリングする量。不具合がない限りできるだけ高く設定してください。
+betterfoliage.roundLogs.zProtection.tooltip,Amount to scale parallel log connection bits to stop Z-fighting (flickering). Try to set it as high as possible without having glitches.,Z-fighting（ちらつき）を防ぐために平行な原木接続ビットをスケーリングする量。不具合がない限りできるだけ高く設定してください。
 betterfoliage.roundLogs.defaultY,Default to vertical,縦方向に設定
-betterfoliage.roundLogs.defaultY.tooltip,"If true, log blocks where the orientation cannot be determined will be rendered as vertical. Otherwise, they will be rendered as cube blocks.",真の場合、方向を判定できないログブロックは垂直方向としてレンダリングされます。そうでない場合は、キューブブロックとしてレンダリングされます。
+betterfoliage.roundLogs.defaultY.tooltip,"If true, log blocks where the orientation cannot be determined will be rendered as vertical. Otherwise, they will be rendered as cube blocks.",真の場合、方向を判定できない原木ブロックは垂直方向としてレンダリングされます。そうでない場合は、キューブブロックとしてレンダリングされます。
 betterfoliage.population.tooltip,Chance (N in 64) that an eligible block will have this feature,
 betterfoliage.blocks.dirtBlacklist.tooltip,"Blocks never accepted as Dirt. Has an impact on Reeds, Algae, Connected Grass",
 betterfoliage.blocks.leavesClassesWhitelist.tooltip,"Blocks recognized as Leaves. Has an impact on Extra Leaves, Falling Leaves. Leaves will render with leaves block ID in shader programs",

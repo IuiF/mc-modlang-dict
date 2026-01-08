@@ -7,7 +7,7 @@ ftbutilities.afk,AFK,退席中
 ftbutilities.afk_kicked,You will be kicked after: %s,あなたはキックされます: %s
 ftbutilities.afk.enabled_singleplayer,Enabled in Singleplayer,シングルプレイで有効化
 ftbutilities.afk.notification_timer,Notification Timer,通知タイマー
-ftbutilities.afk.log_afk,Log AFK,退席ログ
+ftbutilities.afk.log_afk,Log AFK,退席原木
 ftbutilities.server_info,Server Info,サーバー情報
 ftbutilities.server_info.difficulty,Difficulty,難易度
 ftbutilities.server_info.admin_quick_access,Admin Quick Access,管理者クイックアクセス
@@ -36,7 +36,7 @@ ftbutilities.world.forced_spawn_dimension_time,Forced Spawn Dimension Time,強�
 ftbutilities.world.forced_spawn_dimension_weather,Forced Spawn Dimension Weather,強制スポーンディメンションの気候
 ftbutilities.world.disable_player_suffocation_damage,Disable Player Suffocation Damage,プレイヤーの窒息によるダメージの無効化
 ftbutilities.world.show_playtime,Show Playtime in Top-Left Corner,左上にプレイタイムを表示
-ftbutilities.world.logging,Logging,ログ
+ftbutilities.world.logging,Logging,原木
 ftbutilities.world.logging.include_creative_players,Include Creative Players,クリエイティブプレイヤーを含める
 ftbutilities.world.logging.include_fake_players,Include Fake Players,フェイクプレイヤーを含める
 ftbutilities.world.logging.block_placed,Block Placed,ブロックの設置
@@ -51,12 +51,12 @@ ftbutilities.ranks.load_from_config_folder,Load From Config Folder,Configフォ�
 ftbutilities.ranks.print_command_errors,Print Command Errors,コマンドエラーの出力
 ftbutilities.ranks.tags.default_player_rank,Default Player Rank,デフォルトのプレイヤーランク
 ftbutilities.ranks.tags.default_op_rank,Default OP Rank,デフォルトのOPランク
-ftbutilities.debugging.log_chunkloading,Log Chunkloading,チャンクロードのログ
+ftbutilities.debugging.log_chunkloading,Log Chunkloading,チャンクロードの原木
 ftbutilities_client,FTB Utilities Client,FTBユーティリティクライアント
 ftbutilities.general.render_badges,Show Badges,バッジを表示
 ftbutilities.general.journeymap_overlay,Enable Journeymap Integration,Journeymap統合を有効にする
-ftbutilities.general.scan_items_whitelist,/scan_items Whitelist,/scan_items ホワイトリスト
-ftbutilities.general.scan_items_blacklist,/scan_items Blacklist,/scan_items ブラックリスト
+ftbutilities.general.scan_items_whitelist,/scan_items Whitelist,/scan_items 白リスト
+ftbutilities.general.scan_items_blacklist,/scan_items Blacklist,/scan_items 黒リスト
 ftbutilities.general.show_shutdown_timer,Show Shutdown Timer,シャットダウンタイマーを表示
 ftbutilities.general.shutdown_timer_start,Shutdown Timer Start,シャットダウンタイマー開始
 ftbutilities.general.button_daytime,Button Daytime,ボタン：日中
@@ -141,7 +141,7 @@ admin_panel.ftbutilities.ranks.edit.chat_formatting,Chat Formatting,チャット
 admin_panel.ftbutilities.ranks.edit.permissions,Permissions,コロニー権限
 admin_panel.ftbutilities.claimed_chunks,View All Claimed Chunks,全ての領有チャンクを表示
 admin_panel.ftbutilities.loaded_chunks,View All Loaded Chunks,全てのロード済みチャンクを表示
-admin_panel.ftbutilities.whitelist,Edit Whitelist,ホワイトリストを編集
+admin_panel.ftbutilities.whitelist,Edit Whitelist,白リストを編集
 admin_panel.ftbutilities.ops,Edit OPs,OPを編集
 admin_panel.ftbutilities.edit_world,Edit World,ワールドを編集
 key.ftbutilities.nbt,Edit NBT,"NBTを編集
@@ -190,7 +190,7 @@ ftbutilities.lang.homes.cooldown,You can only use home in %s!,%sでホームへ�
 ftbutilities.lang.homes.cross_dim,You can't teleport to another dimension!,別のディメンションへはテレポートできません！
 ftbutilities.lang.homes.limit,You can't set any more home locations!,これ以上ホームを設定することができません！
 ftbutilities.lang.homes.spectator,Exit spectator mode first!,最初にスペクテイターモードを終了してください！
-ftbutilities.lang.tpa.from_to,%s -> %s,
+ftbutilities.lang.tpa.from_to,%s -> %s,%s → %s
 ftbutilities.lang.tpa.request_received,%s requests TPA! %s to accept.,%sがTPAをリクエストしています。%sで承認。
 ftbutilities.lang.tpa.request_sent,Request sent!,リクエストを送信しました！
 ftbutilities.lang.tpa.no_request,%s is not requesting TPA!,%sはTPAを要求していません！

@@ -395,7 +395,7 @@ block.create.cut_deepslate,Cut Deepslate,カット 深層岩
 block.create.cut_deepslate_brick_slab,Cut Deepslate Brick Slab,研がれた深層岩レンガのハーフブロック
 block.create.cut_deepslate_brick_stairs,Cut Deepslate Brick Stairs,研がれた深層岩レンガの階段
 block.create.cut_deepslate_brick_wall,Cut Deepslate Brick Wall,研がれた深層岩レンガの塀
-block.create.cut_deepslate_bricks,Cut Deepslate Bricks,ディープスレートレンガ
+block.create.cut_deepslate_bricks,Cut Deepslate Bricks,深層岩レンガ
 block.create.cut_deepslate_slab,Cut Deepslate Slab,研がれた深層岩のハーフブロック
 block.create.cut_deepslate_stairs,Cut Deepslate Stairs,研がれた深層岩の階段
 block.create.cut_deepslate_wall,Cut Deepslate Wall,研がれた深層岩の塀
@@ -644,7 +644,7 @@ block.create.orange_table_cloth,Orange Table Cloth,橙色のテーブルクロ�
 block.create.orange_toolbox,Orange Toolbox,橙色の工具箱
 block.create.orange_valve_handle,Orange Valve Handle,橙色のバルブハンドル
 block.create.ornate_iron_window,Ornate Iron Window,鉄の装飾ガラス
-block.create.ornate_iron_window_pane,Ornate Iron Window Pane,鉄の装飾ガラス板
+block.create.ornate_iron_window_pane,Ornate Iron Window Pane,鉄の装飾板ガラス
 block.create.oxidized_copper_shingle_slab,Oxidized Copper Shingle Slab,酸化した銅の屋根板のハーフブロック
 block.create.oxidized_copper_shingle_stairs,Oxidized Copper Shingle Stairs,酸化した銅の屋根板の階段
 block.create.oxidized_copper_shingles,Oxidized Copper Shingles,酸化した銅の屋根板
@@ -685,7 +685,7 @@ block.create.polished_cut_crimsite,Polished Cut Crimsite,磨かれた彫られ�
 block.create.polished_cut_crimsite_slab,Polished Cut Crimsite Slab,磨かれた研がれた真紅岩のハーフブロック
 block.create.polished_cut_crimsite_stairs,Polished Cut Crimsite Stairs,磨かれた研がれた真紅岩の階段
 block.create.polished_cut_crimsite_wall,Polished Cut Crimsite Wall,磨かれた研がれた真紅岩の塀
-block.create.polished_cut_deepslate,Polished Cut Deepslate,磨かれた彫られたディープスレート
+block.create.polished_cut_deepslate,Polished Cut Deepslate,磨かれた彫られた深層岩
 block.create.polished_cut_deepslate_slab,Polished Cut Deepslate Slab,磨かれた研がれた深層岩のハーフブロック
 block.create.polished_cut_deepslate_stairs,Polished Cut Deepslate Stairs,磨かれた研がれた深層岩の階段
 block.create.polished_cut_deepslate_wall,Polished Cut Deepslate Wall,磨かれた研がれた深層岩の塀
@@ -1215,11 +1215,11 @@ create.gui.attached_computer.hint,"To use device manually, disconnect all comput
 create.gui.attribute_filter.add_attribute,Add attribute to List,リストに属性を追加
 create.gui.attribute_filter.add_inverted_attribute,Add opposite attribute to List,リストに反対の属性を追加
 create.gui.attribute_filter.add_reference_item,Add Reference Item,参照アイテムを追加
-create.gui.attribute_filter.allow_list_conjunctive,Allow-List (All),ホワイトリスト(全て)
+create.gui.attribute_filter.allow_list_conjunctive,Allow-List (All),白リスト(全て)
 create.gui.attribute_filter.allow_list_conjunctive.description,Items pass only if they have ALL of the selected attributes.,選択した属性をすべてを持っている場合、アイテムは通り抜けます。
-create.gui.attribute_filter.allow_list_disjunctive,Allow-List (Any),ホワイトリスト(いずれか)
+create.gui.attribute_filter.allow_list_disjunctive,Allow-List (Any),白リスト(いずれか)
 create.gui.attribute_filter.allow_list_disjunctive.description,Items pass if they have any of the selected attributes.,選択した属性のいずれかを持っている場合、アイテムは通り抜けます。
-create.gui.attribute_filter.deny_list,Deny-List,ブラックリスト
+create.gui.attribute_filter.deny_list,Deny-List,黒リスト
 create.gui.attribute_filter.deny_list.description,Items pass if they do NOT have any of the selected attributes.,選択した属性をいずれも持たないアイテムが通過します。
 create.gui.attribute_filter.no_selected_attributes,No attributes selected,属性が選択されていません
 create.gui.attribute_filter.selected_attributes,Selected attributes:,選択された属性:
@@ -1281,10 +1281,10 @@ create.gui.factory_panel.title_as_restocker,Restocker Settings,補充機の設�
 create.gui.factory_panel.unconfigured_input,Recipe ingredients,レシピの材料
 create.gui.factory_panel.unconfigured_input_tip,Ingredients can be added by,材料は他のファクトリーゲージを
 create.gui.factory_panel.unconfigured_input_tip_1,connecting other factory gauges,接続することで追加できます
-create.gui.filter.allow_list,Allow-List,ホワイトリスト
-create.gui.filter.allow_list.description,Items pass if they match any of the above. An empty Allow-List rejects everything.,上記のいずれかに一致した場合、アイテムは通り抜けます。空のホワイトリストはすべてを拒否します。
-create.gui.filter.deny_list,Deny-List,ブラックリスト
-create.gui.filter.deny_list.description,Items pass if they do NOT match any of the above. An empty Deny-List accepts everything.,上記のいずれにも一致しない場合、アイテムは通り抜けます。空のブラックリストはすべてを受け入れます。
+create.gui.filter.allow_list,Allow-List,白リスト
+create.gui.filter.allow_list.description,Items pass if they match any of the above. An empty Allow-List rejects everything.,上記のいずれかに一致した場合、アイテムは通り抜けます。空の白リストはすべてを拒否します。
+create.gui.filter.deny_list,Deny-List,黒リスト
+create.gui.filter.deny_list.description,Items pass if they do NOT match any of the above. An empty Deny-List accepts everything.,上記のいずれにも一致しない場合、アイテムは通り抜けます。空の黒リストはすべてを受け入れます。
 create.gui.filter.ignore_data,Ignore Data,データを無視
 create.gui.filter.ignore_data.description,Items match regardless of their attributes.,アイテムは属性に関係なく一致します。
 create.gui.filter.respect_data,Respect Data,データを尊重
@@ -2676,7 +2676,7 @@ create.portal_track.failed,Cannot place portal track:,ポータル線路を設�
 create.portal_track.missing,Target portal not generated yet,対象のポータルはまだ生成されていません
 create.potato_cannon.ammo.attack_damage,%1$s Attack Damage,攻撃力: %1$s
 create.potato_cannon.ammo.knockback,%1$s Knockback,ノックバック: %1$s
-create.potato_cannon.ammo.reload_ticks,%1$s Reload Ticks,リロード時間(tick): %1$s
+create.potato_cannon.ammo.reload_ticks,%1$s Reload Ticks,リロード時間(ティック): %1$s
 create.recipe.assembly.cutting,Cut with Saw,ソーによる切断
 create.recipe.assembly.deploying_item,Deploy %1$s,%1$sを組み込む
 create.recipe.assembly.junk,Random salvage,ランダムな仕損品
@@ -3172,7 +3172,7 @@ enchantment.create.potato_recovery,Potato Recovery,ジャガイモ回収
 enchantment.create.potato_recovery.desc,Potato Cannon projectiles have a chance to be reused.,ジャガイモ砲の弾を回収できる場合がある
 entity.create.carriage_contraption,Carriage Contraption,鉄道からくり
 entity.create.contraption,Contraption,機械装置
-entity.create.crafting_blueprint,Crafting Blueprint,クラフトブループリント
+entity.create.crafting_blueprint,Crafting Blueprint,クラフト青プリント
 entity.create.gantry_contraption,Gantry Contraption,ガントリーからくり
 entity.create.package,Package,パッケージ
 entity.create.potato_projectile,Potato Projectile,ジャガイモ弾
@@ -3232,7 +3232,7 @@ item.create.copper_diving_helmet.tooltip.summary,"Together with a _Backtank_, al
 item.create.copper_nugget,Copper Nugget,銅の塊
 item.create.copper_sheet,Copper Sheet,銅の板
 item.create.crafter_slot_cover,Crafter Slot Cover,クラフタースロットカバー
-item.create.crafting_blueprint,Crafting Blueprint,クラフトブループリント
+item.create.crafting_blueprint,Crafting Blueprint,クラフト青プリント
 item.create.crafting_blueprint.behaviour1,Opens a _Crafting_ _menu_ allowing you to _configure_ a _recipe_ and items to display.,_レシピ_や表示するアイテムを_設定_できる_クラフトメニュー_を開きます。
 item.create.crafting_blueprint.behaviour2,_Applies_ the _configured_ _recipe_ with matching Ingredients found in your _Inventory_. _Sneak_ to craft up to a _Stack_ of items.,_インベントリ_にある一致する材料で_設定したレシピ_を_クラフト_します。_スニーク_すれば最大_スタック_分を一気にクラフトできます
 item.create.crafting_blueprint.condition1,R-Click empty Slot,空きスロットを右クリックしたとき
@@ -3503,23 +3503,23 @@ tag.item.c.ingots.steel,Steel Ingots,鋼鉄のインゴット
 tag.item.c.ingots.tin,Tin Ingots,スズのインゴット
 tag.item.c.ingots.uranium,Uranium Ingots,ウランインゴット
 tag.item.c.ingots.zinc,Zinc Ingots,亜鉛インゴット
-tag.item.c.nuggets.aluminum,Aluminum Nuggets,アルミニウムナゲット
-tag.item.c.nuggets.brass,Brass Nuggets,真鍮ナゲット
-tag.item.c.nuggets.constantan,Constantan Nuggets,コンスタンタンナゲット
-tag.item.c.nuggets.copper,Copper Nuggets,銅ナゲット
-tag.item.c.nuggets.electrum,Electrum Nuggets,エレクトラムナゲット
+tag.item.c.nuggets.aluminum,Aluminum Nuggets,アルミニウム塊
+tag.item.c.nuggets.brass,Brass Nuggets,真鍮塊
+tag.item.c.nuggets.constantan,Constantan Nuggets,コンスタンタン塊
+tag.item.c.nuggets.copper,Copper Nuggets,銅塊
+tag.item.c.nuggets.electrum,Electrum Nuggets,エレクトラム塊
 tag.item.c.nuggets.gold,Gold Nuggets,金塊
 tag.item.c.nuggets.iron,Iron Nuggets,鉄塊
-tag.item.c.nuggets.lead,Lead Nuggets,鉛ナゲット
-tag.item.c.nuggets.nickel,Nickel Nuggets,ニッケルナゲット
-tag.item.c.nuggets.osmium,Osmium Nuggets,オスミウムナゲット
-tag.item.c.nuggets.platinum,Platinum Nuggets,プラチナナゲット
-tag.item.c.nuggets.quicksilver,Quicksilver Nuggets,水銀ナゲット
-tag.item.c.nuggets.silver,Silver Nuggets,銀ナゲット
-tag.item.c.nuggets.steel,Steel Nuggets,鋼ナゲット
+tag.item.c.nuggets.lead,Lead Nuggets,鉛塊
+tag.item.c.nuggets.nickel,Nickel Nuggets,ニッケル塊
+tag.item.c.nuggets.osmium,Osmium Nuggets,オスミウム塊
+tag.item.c.nuggets.platinum,Platinum Nuggets,プラチナ塊
+tag.item.c.nuggets.quicksilver,Quicksilver Nuggets,水銀塊
+tag.item.c.nuggets.silver,Silver Nuggets,銀塊
+tag.item.c.nuggets.steel,Steel Nuggets,鋼塊
 tag.item.c.nuggets.tin,Tin Nuggets,スズ塊
-tag.item.c.nuggets.uranium,Uranium Nuggets,ウランナゲット
-tag.item.c.nuggets.zinc,Zinc Nuggets,亜鉛ナゲット
+tag.item.c.nuggets.uranium,Uranium Nuggets,ウラン塊
+tag.item.c.nuggets.zinc,Zinc Nuggets,亜鉛塊
 tag.item.c.ores.aluminum,Aluminum Ores,アルミニウム鉱石
 tag.item.c.ores.ametrine,Ametrine Ores,アメトリン鉱石
 tag.item.c.ores.anthracite,Anthracite Ores,無煙炭鉱石
@@ -3610,9 +3610,9 @@ tag.item.create.contraption_controlled,Contraption-controllable,仕掛けで操�
 tag.item.create.create_ingots,Create's Ingots,クリエイティブのインゴット
 tag.item.create.crushed_raw_materials,Crushed Raw Materials,砕いた粗材料
 tag.item.create.deployable_drink,Deployable Drink,配置可能な飲料
-tag.item.create.dispense_behavior_wrap_blacklist,Dispense Behavior Wrap Blacklist,ディスペンサー動作ラップブラックリスト
+tag.item.create.dispense_behavior_wrap_blacklist,Dispense Behavior Wrap Blacklist,ディスペンサー動作ラップ黒リスト
 tag.item.create.dyed_table_cloths,Dyed Table Cloths,色付きテーブルクロス
-tag.item.create.invalid_for_track_paving,Track Paving Blacklist,レール舗装ブラックリスト
+tag.item.create.invalid_for_track_paving,Track Paving Blacklist,レール舗装黒リスト
 tag.item.create.not_upright_on_belt,Not Upright on Belts,ベルトの上で立たない
 tag.item.create.packages,Packages,パッケージ
 tag.item.create.postboxes,Postboxes,郵便箱
@@ -3689,7 +3689,7 @@ tag.block.forge.ores.silver,Silver Ores,銀鉱石
 tag.block.forge.ores.tin,Tin Ores,スズの鉱石
 tag.block.forge.ores.uranium,Uranium Ores,ウラニウム鉱石
 tag.block.forge.ores.zinc,Zinc Ores,亜鉛鉱石
-tag.block.forge.ores_in_ground.deepslate,Deepslate Ores,ディープスレート鉱石
+tag.block.forge.ores_in_ground.deepslate,Deepslate Ores,深層岩鉱石
 tag.block.forge.ores_in_ground.stone,Stone Ores,石鉱石
 tag.block.forge.relocation_not_supported,Non-relocatable,移動不可
 tag.block.forge.storage_blocks.aluminum,Aluminum Storage Blocks,アルミニウムストレージブロック
@@ -3760,23 +3760,23 @@ tag.item.forge.ingots.steel,Steel Ingots,鋼鉄のインゴット
 tag.item.forge.ingots.tin,Tin Ingots,スズのインゴット
 tag.item.forge.ingots.uranium,Uranium Ingots,ウランインゴット
 tag.item.forge.ingots.zinc,Zinc Ingots,亜鉛インゴット
-tag.item.forge.nuggets.aluminum,Aluminum Nuggets,アルミニウムナゲット
-tag.item.forge.nuggets.brass,Brass Nuggets,真鍮ナゲット
-tag.item.forge.nuggets.constantan,Constantan Nuggets,コンスタンタンナゲット
-tag.item.forge.nuggets.copper,Copper Nuggets,銅ナゲット
-tag.item.forge.nuggets.electrum,Electrum Nuggets,エレクトラムナゲット
+tag.item.forge.nuggets.aluminum,Aluminum Nuggets,アルミニウム塊
+tag.item.forge.nuggets.brass,Brass Nuggets,真鍮塊
+tag.item.forge.nuggets.constantan,Constantan Nuggets,コンスタンタン塊
+tag.item.forge.nuggets.copper,Copper Nuggets,銅塊
+tag.item.forge.nuggets.electrum,Electrum Nuggets,エレクトラム塊
 tag.item.forge.nuggets.gold,Gold Nuggets,金塊
 tag.item.forge.nuggets.iron,Iron Nuggets,鉄塊
-tag.item.forge.nuggets.lead,Lead Nuggets,鉛ナゲット
-tag.item.forge.nuggets.nickel,Nickel Nuggets,ニッケルナゲット
-tag.item.forge.nuggets.osmium,Osmium Nuggets,オスミウムナゲット
-tag.item.forge.nuggets.platinum,Platinum Nuggets,プラチナナゲット
-tag.item.forge.nuggets.quicksilver,Quicksilver Nuggets,水銀ナゲット
-tag.item.forge.nuggets.silver,Silver Nuggets,銀ナゲット
-tag.item.forge.nuggets.steel,Steel Nuggets,鋼ナゲット
+tag.item.forge.nuggets.lead,Lead Nuggets,鉛塊
+tag.item.forge.nuggets.nickel,Nickel Nuggets,ニッケル塊
+tag.item.forge.nuggets.osmium,Osmium Nuggets,オスミウム塊
+tag.item.forge.nuggets.platinum,Platinum Nuggets,プラチナ塊
+tag.item.forge.nuggets.quicksilver,Quicksilver Nuggets,水銀塊
+tag.item.forge.nuggets.silver,Silver Nuggets,銀塊
+tag.item.forge.nuggets.steel,Steel Nuggets,鋼塊
 tag.item.forge.nuggets.tin,Tin Nuggets,スズ塊
-tag.item.forge.nuggets.uranium,Uranium Nuggets,ウランナゲット
-tag.item.forge.nuggets.zinc,Zinc Nuggets,亜鉛ナゲット
+tag.item.forge.nuggets.uranium,Uranium Nuggets,ウラン塊
+tag.item.forge.nuggets.zinc,Zinc Nuggets,亜鉛塊
 tag.item.forge.ores.aluminum,Aluminum Ores,アルミニウム鉱石
 tag.item.forge.ores.ametrine,Ametrine Ores,アメトリン鉱石
 tag.item.forge.ores.anthracite,Anthracite Ores,無煙炭鉱石
@@ -3794,7 +3794,7 @@ tag.item.forge.ores.silver,Silver Ores,銀鉱石
 tag.item.forge.ores.tin,Tin Ores,スズの鉱石
 tag.item.forge.ores.uranium,Uranium Ores,ウラニウム鉱石
 tag.item.forge.ores.zinc,Zinc Ores,亜鉛鉱石
-tag.item.forge.ores_in_ground.deepslate,Deepslate Ores,ディープスレート鉱石
+tag.item.forge.ores_in_ground.deepslate,Deepslate Ores,深層岩鉱石
 tag.item.forge.ores_in_ground.stone,Stone Ores,石鉱石
 tag.item.forge.plates,Plates,お皿
 tag.item.forge.plates.aluminum,Aluminum Plates,アルミニウムプレート
@@ -3874,7 +3874,7 @@ architecture_extensions.grouped_block.create.cut_calcite_bricks,Cut Calcite Bric
 architecture_extensions.grouped_block.create.cut_crimsite,Cut Crimsite,彫られたクリムサイト
 architecture_extensions.grouped_block.create.cut_crimsite_bricks,Cut Crimsite Bricks,クリムサイトレンガ
 architecture_extensions.grouped_block.create.cut_deepslate,Cut Deepslate,カット 深層岩
-architecture_extensions.grouped_block.create.cut_deepslate_bricks,Cut Deepslate Bricks,ディープスレートレンガ
+architecture_extensions.grouped_block.create.cut_deepslate_bricks,Cut Deepslate Bricks,深層岩レンガ
 architecture_extensions.grouped_block.create.cut_diorite,Cut Diorite,カット 斑岩
 architecture_extensions.grouped_block.create.cut_diorite_bricks,Cut Diorite Bricks,研がれた閃緑岩レンガ
 architecture_extensions.grouped_block.create.cut_dripstone,Cut Dripstone,彫られた鍾乳石
@@ -3897,7 +3897,7 @@ architecture_extensions.grouped_block.create.polished_cut_andesite,Polished Cut 
 architecture_extensions.grouped_block.create.polished_cut_asurine,Polished Cut Asurine,磨かれた彫られたアズリン
 architecture_extensions.grouped_block.create.polished_cut_calcite,Polished Cut Calcite,磨かれたカルサイト
 architecture_extensions.grouped_block.create.polished_cut_crimsite,Polished Cut Crimsite,磨かれた彫られたクリムサイト
-architecture_extensions.grouped_block.create.polished_cut_deepslate,Polished Cut Deepslate,磨かれた彫られたディープスレート
+architecture_extensions.grouped_block.create.polished_cut_deepslate,Polished Cut Deepslate,磨かれた彫られた深層岩
 architecture_extensions.grouped_block.create.polished_cut_diorite,Polished Cut Diorite,磨かれた彫られた閃緑岩
 architecture_extensions.grouped_block.create.polished_cut_dripstone,Polished Cut Dripstone,磨かれた彫られた鍾乳石
 architecture_extensions.grouped_block.create.polished_cut_granite,Polished Cut Granite,磨かれた彫られた花崗岩
@@ -3953,9 +3953,9 @@ emi.category.create.sequenced_assembly,Sequenced Assembly,シーケンスアセ�
 emi.category.create.spout_filling,Filling by Spout,アイテムへの注液
 tag.c.andesite_alloy_blocks,Andesite Alloy Blocks,安山岩合金ブロック
 tag.c.boots,Boots,ブーツ
-tag.c.brass_blocks,Brass Blocks,ブロンズブロック
+tag.c.brass_blocks,Brass Blocks,青銅ブロック
 tag.c.brass_ingots,Brass Ingots,真鍮インゴット
-tag.c.brass_nuggets,Brass Nuggets,真鍮ナゲット
+tag.c.brass_nuggets,Brass Nuggets,真鍮塊
 tag.c.brass_plates,Brass Plates,真鍮プレート
 tag.c.chestplates,Chestplates,チェストプレート
 tag.c.chocolate,Chocolate,チョコレート
@@ -3980,7 +3980,7 @@ tag.c.wheat_dough,Wheat Dough,小麦粉生地
 tag.c.wheat_flour,Wheat Flour,小麦粉
 tag.c.zinc_blocks,Zinc Blocks,亜鉛ブロック
 tag.c.zinc_ingots,Zinc Ingots,亜鉛インゴット
-tag.c.zinc_nuggets,Zinc Nuggets,亜鉛ナゲット
+tag.c.zinc_nuggets,Zinc Nuggets,亜鉛塊
 tag.c.zinc_ores,Zinc Ores,亜鉛鉱石
 tag.create.blaze_burner_fuel.regular,Regular Blaze Burner Fuels,通常のブレイズバーナー燃料
 tag.create.blaze_burner_fuel.special,Special Blaze Burner Fuels,特殊なブレイズバーナー燃料
@@ -4408,7 +4408,7 @@ item.create.blaze_cake.tooltip,BLAZE CAKE,ブレイズケーキ
 item.create.builders_tea.tooltip,BUILDERS TEA,建築家のお茶
 item.create.copper_backtank.tooltip,COPPER BACKTANK,銅のバックタンク
 item.create.copper_ingot,Copper Ingot,銅インゴット
-item.create.crafting_blueprint.tooltip,CRAFTING BLUEPRINT,クラフトブループリント
+item.create.crafting_blueprint.tooltip,CRAFTING BLUEPRINT,クラフト青プリント
 item.create.creative_blaze_cake.tooltip,CREATIVE CAKE,クリエイティブブレイズケーキ
 item.create.crushed_aluminum_ore,Crushed Aluminum Ore,粉砕されたアルミニウム鉱石
 item.create.crushed_brass,Crushed Brass,砕いた真鍮

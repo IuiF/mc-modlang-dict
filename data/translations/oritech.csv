@@ -190,7 +190,7 @@ block.oritech.reactor_redstone_port,Reactor Redstone Port,反応炉レッドス�
 block.oritech.reactor_reflector,Reactor Neutron Reflector,原子炉用中性子反射器
 block.oritech.reactor_rod,Single Reactor Rod,シングル燃料棒
 block.oritech.reactor_vent,Reactor Heat Vent,原子炉放熱口
-block.oritech.reactor_wall,Reactor Wall,原子炉用ウォール
+block.oritech.reactor_wall,Reactor Wall,原子炉用塀
 block.oritech.refinery_block,Refinery,精製機
 block.oritech.refinery_module_block,Refinery Chamber Module,精製チャンバーモジュール
 block.oritech.resource_node_coal,Coal Resource Node,石炭資源ノード
@@ -433,9 +433,9 @@ message.oritech.pump.low_energy,Not enough energy!,エネルギーが足りま�
 message.oritech.pump.no_fluids,No liquids available,液体を入手できません。
 message.oritech.pump.pump_finished,All liquids have been pumped,すべての液体がポンプで送られました。
 message.oritech.pump.starting,Starting,開始
-message.oritech.reactor_edge_invalid,Invalid: Reactor Wall edges need to be rectangular,無効：原子炉用ウォールは矩形である必要があります。
+message.oritech.reactor_edge_invalid,Invalid: Reactor Wall edges need to be rectangular,無効：原子炉用塀は矩形である必要があります。
 message.oritech.reactor_interior_issues,"Invalid: Reactor Interior Components to be identical on all Y-Layers, and need corresponding ports on top",無効：原子炉の内部部品は全てが垂直方向に同一部品で構成され、その頂点に対応するポートが必要です。
-message.oritech.reactor_wall_invalid,"Invalid: Reactor Walls need to be made of reactor-compatible blocks (e.g. reactor walls, ports, controllers)",無効：原子炉を構成するブロックは、原子炉用互換ブロック(例：原子炉用ウォール、各種ポート、コントローラー)である必要があります。
+message.oritech.reactor_wall_invalid,"Invalid: Reactor Walls need to be made of reactor-compatible blocks (e.g. reactor walls, ports, controllers)",無効：原子炉を構成するブロックは、原子炉用互換ブロック(例：原子炉用塀、各種ポート、コントローラー)である必要があります。
 message.oritech.spawner.no_cage,Missing mob cage!,モブケージがありません！
 message.oritech.spawner.no_mob,No mob caught. Move a mob on top to load it into the spawner,モブを捕まえていません。上にモブを移動させてスポナーに読み込ませてください。
 message.oritech.steamengine.controller_link,Steam engine is chained to main engine (see highlighted block). Use only the main engine.,このスチームエンジンはメインエンジンに連結されています(ハイライトされたブロックを参照してください)。メインエンジンを使用してください。
@@ -474,7 +474,7 @@ oritech.text.augment.dwarf.desc,Permanently shrinks the player by replacing vita
 oritech.text.augment.dwarf.desc.1,Reduces player scale by 50%.,プレイヤーのスケールを50%縮小します。
 oritech.text.augment.dwarf.desc.2,Toggleable via augment interface.,オーグメント設定画面を通じて切り替え可能です。
 oritech.text.augment.farblockreach,Far Reach,ロングリーチ
-oritech.text.augment.farblockreach.desc,Uses holographic arms for distant manipulation.,ホログラフィックアームを追加し遠方の操作に使用する。
+oritech.text.augment.farblockreach.desc,Uses holographic arms for distant manipulation.,ホ原木ラフィックアームを追加し遠方の操作に使用する。
 oritech.text.augment.farblockreach.desc.1,Doubles total block interaction range.,ブロックを操作できる範囲を２倍にします。
 oritech.text.augment.farblockreach.desc.2,Toggleable via augment interface.,オーグメント設定画面を通じて切り替え可能です。
 oritech.text.augment.flight,Flight,飛行
@@ -734,8 +734,8 @@ text.config.oritech-config.option.basicJetpack.fuelCapacity,Basic Jetpack Fuel C
 text.config.oritech-config.option.basicJetpack.fuelUsage,Basic Jetpack Fuel Usage,基本のジェットパックの燃料使用量
 text.config.oritech-config.option.basicJetpack.speed,Basic Jetpack Speed,基本のジェットパックのスピード
 text.config.oritech-config.option.bendFactor,Particle Curve Requirement Factor,粒子加速器の要求される弧距離の増加係数
-text.config.oritech-config.option.blackHoleRequiredSpeed,Minimum Black Hole Collision Energy,ブラックホール生成の最小衝突エネルギー
-text.config.oritech-config.option.blackHoleTachyonEnergy,Energy of Tachyons from Black Holes,ブラックホールから飛来するタキオンのエネルギー
+text.config.oritech-config.option.blackHoleRequiredSpeed,Minimum Black Hole Collision Energy,黒ホール生成の最小衝突エネルギー
+text.config.oritech-config.option.blackHoleTachyonEnergy,Energy of Tachyons from Black Holes,黒ホールから飛来するタキオンのエネルギー
 text.config.oritech-config.option.blockBreakHardnessExponentialFactor,Block breaking hardness exponential scaling factor,ブロック硬度影響係数(指数)
 text.config.oritech-config.option.blockBreakHardnessExponentialFactor.tooltip,Applies to the destroyer block and enderic laser. Lower = hardness has a lower effect on speed.,デストロイヤーブロックとエンダリックレーザーに適用されます。値を小さくすると、ブロックの硬度が破壊速度に与える影響が小さくなります。
 text.config.oritech-config.option.boringNukes,Boring Nukes,核爆弾の弱体化
@@ -837,7 +837,7 @@ text.config.oritech-config.option.generators.steamEngineData.stopOnWaterFull,Sto
 text.config.oritech-config.option.generators.steamEngineData.stopOnWaterFull.tooltip,"When enabled, the steam engine will stop working when the water tank is full. It needs to be pumped out to function.",有効にすると、タンクがいっぱいになると蒸気エンジンは動作しなくなります。機能するには排出が必要です。
 text.config.oritech-config.option.generators.steamId,Steam Fluid ID,蒸気の流体ID
 text.config.oritech-config.option.generators.steamId.tooltip,Fluid ID for the steam produced by the steam boiler. Only this is accepted by steam engines.,スチームボイラーで作られる蒸気の流体ID。スチームエンジンはこのIDの蒸気のみを受け付けるようになります。
-text.config.oritech-config.option.idleWaitTicks,Black Hole Idle Wait Ticks,ブラックホールの待機ティック
+text.config.oritech-config.option.idleWaitTicks,Black Hole Idle Wait Ticks,黒ホールの待機ティック
 text.config.oritech-config.option.itemPipeIntervalDuration,Item Pipe Interval Duration,アイテムパイプのインターバル時間
 text.config.oritech-config.option.itemPipeTransferAmount,Item Pipe Transfer Amount,アイテムパイプの転送量
 text.config.oritech-config.option.largeEnergyStorage.energyCapacity,Energy Capacity,エネルギー容量
@@ -907,8 +907,8 @@ text.config.oritech-config.option.processingMachines.refineryData.energyCapacity
 text.config.oritech-config.option.processingMachines.refineryData.energyPerTick,Energy Per Tick,ティックあたりのエネルギー
 text.config.oritech-config.option.processingMachines.refineryData.maxEnergyExtraction,Max Energy Extraction,最大エネルギー出力量
 text.config.oritech-config.option.processingMachines.refineryData.maxEnergyInsertion,Max Energy Insertion,最大エネルギー入力量
-text.config.oritech-config.option.pullRange,Black Hole Pull Range,ブラックホールの吸い込み範囲
-text.config.oritech-config.option.pullTimeMultiplier,Black Hole Pull Time Multiplier,ブラックホールの吸い込み時間倍率
+text.config.oritech-config.option.pullRange,Black Hole Pull Range,黒ホールの吸い込み範囲
+text.config.oritech-config.option.pullTimeMultiplier,Black Hole Pull Time Multiplier,黒ホールの吸い込み時間倍率
 text.config.oritech-config.option.reactorMaxEnergyOutput,Maximum Energy Output in RF/t per Energy Port,1エネルギーポートあたりの最大出力RF/t量
 text.config.oritech-config.option.reactorMaxEnergyStored,Maximum Energy Stored,最大エネルギー貯蔵
 text.config.oritech-config.option.rfPerPulse,RF Per Pulse,パルス当たりのRF量
@@ -932,7 +932,7 @@ text.config.oritech-config.option.ventBaseRate,Vent Base Rate,排気口の基本
 text.config.oritech-config.option.ventRelativeRate,Vent Relative Rate,排気口の相関係数
 text.config.oritech-config.section.arcane,Arcane,秘術
 text.config.oritech-config.section.augments,Player Augmentation,プレイヤーオーグメンテーション
-text.config.oritech-config.section.blackHole,Black Hole,ブラックホール
+text.config.oritech-config.section.blackHole,Black Hole,黒ホール
 text.config.oritech-config.section.clientSettings,Client only,クライアントのみ
 text.config.oritech-config.section.equipment,Equipment,装備
 text.config.oritech-config.section.logistics,Logistics,物流
@@ -1039,7 +1039,7 @@ title.oritech.inventory_proxy,Machine Inventory Access,機械のインベント�
 title.oritech.item_filter.component,Components,コンポーネント
 title.oritech.item_filter.nbt,NBT,NBT
 title.oritech.item_filter.toggle_energy_statistics,Show Output,出力を表示
-title.oritech.item_filter.whitelist,Whitelist,ホワイトリスト
+title.oritech.item_filter.whitelist,Whitelist,白リスト
 title.oritech.laser_arm.addon_hunter_damage,%d Damage,+%d ダメージ
 title.oritech.laser_arm.addon_range,%d Size,+%d サイズ
 title.oritech.machine.addon_fortune,%d Fortune,%d 幸運
@@ -1236,7 +1236,7 @@ tooltip.oritech.reactor_absorber_port.1,Needs to be placed on the reactor shell 
 tooltip.oritech.reactor_absorber_port.2,the reactor heat absorbers.,熱吸収体の上に配置してください。
 tooltip.oritech.reactor_condenser,Absorbs 16 heat/t from ALL neighboring components.,隣接するすべての部品から 16 [熱量/t]を吸収します。
 tooltip.oritech.reactor_controller,Control piece of the variable-sized reactor multiblock.,リアクターコントローラー
-tooltip.oritech.reactor_controller.0,"Must be placed on the reactor walls, and is used to assemble the reactor.",原子炉用ウォールを用いて原子炉の外壁を組み立てる必要があります。
+tooltip.oritech.reactor_controller.0,"Must be placed on the reactor walls, and is used to assemble the reactor.",原子炉用塀を用いて原子炉の外壁を組み立てる必要があります。
 tooltip.oritech.reactor_controller.1,Interior layers need to be identical in the Y-Axis.,内部の層はY軸方向で統一されている必要があります。
 tooltip.oritech.reactor_controller.3,WARNING: Insufficient cooling of a reactor may result in catastrophic,警告：もしも原子炉の冷却が不十分な場合は
 tooltip.oritech.reactor_controller.4,consequences. Always follow proper safety procedures when operating,カタストロフィが起きる可能性があります。

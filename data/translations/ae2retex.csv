@@ -1,6 +1,6 @@
 ﻿key,source_text,target_text
 achievement.ae2.ChargedQuartz,Shocking,衝撃
-achievement.ae2.ChargedQuartz.desc,Charge Quartz with a Charger,チャージ済みクォーツを見つける
+achievement.ae2.ChargedQuartz.desc,Charge Quartz with a Charger,帯電クォーツを見つける
 achievement.ae2.Charger,It's Chargin' Time !,充電の時間だ！
 achievement.ae2.Charger.desc,Craft a Charger,チャージャーをクラフトする
 achievement.ae2.Compass,Meteorite Hunter,隕石ハンター
@@ -16,8 +16,8 @@ achievement.ae2.CrystalGrowthAccelerator.desc,Craft a Crystal Growth Accelerator
 achievement.ae2.Facade,Network Aesthetics,ネットワークの美学
 achievement.ae2.Facade.desc,Craft a Cable Facade,外装ケーブルをクラフトする
 achievement.ae2.Fluix,Unnatural,不自然
-achievement.ae2.Fluix.desc,Create Fluix Crystals,フルーシュの水晶を作成
-achievement.ae2.GlassCable,Fluix Energy Connection,フルーシュエナジー接続
+achievement.ae2.Fluix.desc,Create Fluix Crystals,フルイックス結晶を作成
+achievement.ae2.GlassCable,Fluix Energy Connection,フルイックスエナジー接続
 achievement.ae2.GlassCable.desc,Craft ME Glass Cable,MEガラスケーブルをクラフトする
 achievement.ae2.IOPort,Storage Cell Shuffle,ストレージセルシャッフル
 achievement.ae2.IOPort.desc,Craft an IO Port,入出力ポートをクラフトする
@@ -52,7 +52,7 @@ achievement.ae2.StorageCell,Better Than Chests,チェストよりも優れてる
 achievement.ae2.StorageCell.desc,Craft a Storage Cell,ストレージセルをクラフトする
 ae2.emi_integration.category_charger,Charger,充電器
 ae2.emi_integration.category_condenser,Condenser,コンデンサー
-ae2.emi_integration.category_entropy_manipulator,Entropy Manipulator,エントロピーマニピュレーター
+ae2.emi_integration.category_entropy_manipulator,Entropy Manipulator,エントロピー操作機
 ae2.emi_integration.category_inscriber,Inscriber,刻印機
 ae2.guidebook.Close,Close,閉じる
 ae2.guidebook.ContentFrom,Content from,コンテンツから
@@ -66,10 +66,10 @@ ae2.guidebook.ShowAnnotations,Show Annotations,注釈を表示
 ae2.guidebook.ZoomIn,Zoom In,ズームイン
 ae2.guidebook.ZoomOut,Zoom Out,ズームアウト
 ae2.permission_denied,You lack permission to access this.,アクセスする権限がありません。
-ae2.rei_jei_integration.budding_quartz_creation_and_worldgen,"Budding quartz can be found in meteorites, or be regenerated using charged quartz in water.",芽生えたクォーツは隕石で見つけられるか、水中でチャージ済みクォーツを使用して再生成できます。
+ae2.rei_jei_integration.budding_quartz_creation_and_worldgen,"Budding quartz can be found in meteorites, or be regenerated using charged quartz in water.",芽生えたクォーツは隕石で見つけられるか、水中で帯電クォーツを使用して再生成できます。
 ae2.rei_jei_integration.budding_quartz_decays_when_broken,Budding quartz decays when broken.,芽生えたクォーツは破壊すると朽ち果てます。
-ae2.rei_jei_integration.buds_drop_dust_when_not_fully_grown,A quartz bud drops dust when not fully grown.,クォーツの芽は完全に成長していない場合、ダストを落とします。
-ae2.rei_jei_integration.certus_quartz_growth,Certus Quartz Growth,ケルタスクォーツの成長度
+ae2.rei_jei_integration.buds_drop_dust_when_not_fully_grown,A quartz bud drops dust when not fully grown.,クォーツの芽は完全に成長していない場合、の粉を落とします。
+ae2.rei_jei_integration.certus_quartz_growth,Certus Quartz Growth,セルタスクォーツの成長度
 ae2.rei_jei_integration.charger_required_power,%d turns or %d AE,%d回転または%dAE
 ae2.rei_jei_integration.consumed,Consumed,消費
 ae2.rei_jei_integration.crank_description,Attach the crank to a charger to power it manually.,手動で給電するにはチャージャーへクランクを接続します。
@@ -106,33 +106,33 @@ ae2.rei_jei_integration.submerge_in,Submerge in,差し込みます
 ae2.rei_jei_integration.transform_category,In-World Transformation,世界中での変換
 ae2.rei_jei_integration.will_craft,Will craft unavailable items,使用できないアイテムを作成します
 biome.ae2.spatial_storage,Spatial Storage,空間ストレージ
-block.ae2.16k_crafting_storage,16k Crafting Storage,16k クラフティングストレージ
-block.ae2.1k_crafting_storage,1k Crafting Storage,1k クラフティングストレージ
+block.ae2.16k_crafting_storage,16k Crafting Storage,16k クラフトストレージ
+block.ae2.1k_crafting_storage,1k Crafting Storage,1k クラフトストレージ
 block.ae2.256k_crafting_storage,256k Crafting Storage,256k クラフトストレージ
-block.ae2.4k_crafting_storage,4k Crafting Storage,4k クラフティングストレージ
-block.ae2.64k_crafting_storage,64k Crafting Storage,64k クラフティングストレージ
+block.ae2.4k_crafting_storage,4k Crafting Storage,4k クラフトストレージ
+block.ae2.64k_crafting_storage,64k Crafting Storage,64k クラフトストレージ
 block.ae2.cable_bus,AE2 Cable and/or Bus,AE2ケーブル または バス
 block.ae2.cell_workbench,Cell Workbench,セルワークベンチ
 block.ae2.charger,Charger,充電器
 block.ae2.chest,ME Chest,MEチェスト
-block.ae2.chipped_budding_quartz,Chipped Budding Certus Quartz,欠けた芽生えたケルタスクォーツ
-block.ae2.chiseled_quartz_block,Chiseled Certus Quartz Block,模様入りケルタスクォーツブロック
+block.ae2.chipped_budding_quartz,Chipped Budding Certus Quartz,欠けた芽生えたセルタスクォーツ
+block.ae2.chiseled_quartz_block,Chiseled Certus Quartz Block,模様入りセルタスクォーツブロック
 block.ae2.chiseled_quartz_slab,Chiseled Certus Quartz Slab,模様入りのCertusクォーツハーフブロック
-block.ae2.chiseled_quartz_stairs,Chiseled Certus Quartz Stairs,模様入りケルタスクォーツの階段
-block.ae2.chiseled_quartz_wall,Chiseled Certus Quartz Wall,模様入りのケルタスクォーツの塀
+block.ae2.chiseled_quartz_stairs,Chiseled Certus Quartz Stairs,模様入りセルタスクォーツの階段
+block.ae2.chiseled_quartz_wall,Chiseled Certus Quartz Wall,模様入りのセルタスクォーツの塀
 block.ae2.condenser,Matter Condenser,マターコンデンサー
-block.ae2.controller,ME Controller,MEコントローラ
+block.ae2.controller,ME Controller,MEコントローラー
 block.ae2.crafting_accelerator,Crafting Co-Processing Unit,並列クラフトユニット
 block.ae2.crafting_monitor,Crafting Monitor,クラフトモニター
 block.ae2.crafting_unit,Crafting Unit,クラフトユニット
 block.ae2.crank,Wooden Crank,木のクランク
 block.ae2.creative_energy_cell,Creative Energy Cell,クリエイティブエナジーセル
 block.ae2.crystal_resonance_generator,Crystal Resonance Generator,水晶共振発生器
-block.ae2.cut_quartz_block,Cut Certus Quartz Block,切り込み入りのケルタスクォーツブロック
-block.ae2.cut_quartz_slab,Cut Certus Quartz Slab,切り込み入りのケルタスクォーツのハーフブロック
-block.ae2.cut_quartz_stairs,Cut Certus Quartz Stairs,切り込み入りのケルタスクォーツの階段
-block.ae2.cut_quartz_wall,Cut Certus Quartz Wall,切り込み入りのケルタスクォーツの塀
-block.ae2.damaged_budding_quartz,Damaged Budding Certus Quartz,壊れかけの芽生えたケルタスクォーツ
+block.ae2.cut_quartz_block,Cut Certus Quartz Block,切り込み入りのセルタスクォーツブロック
+block.ae2.cut_quartz_slab,Cut Certus Quartz Slab,切り込み入りのセルタスクォーツのハーフブロック
+block.ae2.cut_quartz_stairs,Cut Certus Quartz Stairs,切り込み入りのセルタスクォーツの階段
+block.ae2.cut_quartz_wall,Cut Certus Quartz Wall,切り込み入りのセルタスクォーツの塀
+block.ae2.damaged_budding_quartz,Damaged Budding Certus Quartz,壊れかけの芽生えたセルタスクォーツ
 block.ae2.debug_cube_gen,Dev.CubeGen,開発用キューブジェネレーター
 block.ae2.debug_energy_gen,Dev.EnergyGen,デバイスエネルギー生成
 block.ae2.debug_item_gen,Dev.ItemGen,開発用アイテムジェネレーター
@@ -141,20 +141,20 @@ block.ae2.dense_energy_cell,Dense Energy Cell,高密度エネルギーセル
 block.ae2.drive,ME Drive,MEドライブ
 block.ae2.energy_acceptor,Energy Acceptor,エネルギー受容体
 block.ae2.energy_cell,Energy Cell,エネルギーセル
-block.ae2.flawed_budding_quartz,Flawed Budding Certus Quartz,傷ついた芽生えたケルタスクォーツ
-block.ae2.flawless_budding_quartz,Flawless Budding Certus Quartz,完璧な芽生えたケルタスクォーツ
-block.ae2.fluix_block,Fluix Block,フルーシュブロック
-block.ae2.fluix_slab,Fluix Slab,フルーシュのハーフブロック
-block.ae2.fluix_stairs,Fluix Stairs,フルーシュの階段
-block.ae2.fluix_wall,Fluix Wall,フルーシュの塀
+block.ae2.flawed_budding_quartz,Flawed Budding Certus Quartz,傷ついた芽生えたセルタスクォーツ
+block.ae2.flawless_budding_quartz,Flawless Budding Certus Quartz,完璧な芽生えたセルタスクォーツ
+block.ae2.fluix_block,Fluix Block,フルイックスブロック
+block.ae2.fluix_slab,Fluix Slab,フルイックスのハーフブロック
+block.ae2.fluix_stairs,Fluix Stairs,フルイックスの階段
+block.ae2.fluix_wall,Fluix Wall,フルイックスの塀
 block.ae2.growth_accelerator,Growth Accelerator,成長加速器
 block.ae2.inscriber,Inscriber,刻印機
 block.ae2.interface,ME Interface,MEインターフェース
 block.ae2.io_port,ME IO Port,ME入出力ポート
-block.ae2.large_quartz_bud,Large Certus Quartz Bud,大きなケルタスクォーツの芽
+block.ae2.large_quartz_bud,Large Certus Quartz Bud,大きなセルタスクォーツの芽
 block.ae2.light_detector,Light Detecting Fixture,光検知器
 block.ae2.matrix_frame,Matrix Frame,マトリックスフレーム
-block.ae2.medium_quartz_bud,Medium Certus Quartz Bud,中くらいのケルタスクォーツの芽
+block.ae2.medium_quartz_bud,Medium Certus Quartz Bud,中くらいのセルタスクォーツの芽
 block.ae2.molecular_assembler,Molecular Assembler,分子組立機
 block.ae2.mysterious_cube,Mysterious Cube,神秘的なキューブ
 block.ae2.not_so_mysterious_cube,Not So Mysterious Cube,それほど神秘的ではないキューブ
@@ -162,22 +162,22 @@ block.ae2.paint,Paint,ペイント
 block.ae2.pattern_provider,ME Pattern Provider,MEパターンプロバイダー
 block.ae2.quantum_link,ME Quantum Link Chamber,ME量子リンクチャンバー
 block.ae2.quantum_ring,ME Quantum Ring,ME量子フィールドリンク
-block.ae2.quartz_block,Certus Quartz Block,ケルタスクォーツブロック
-block.ae2.quartz_brick_slab,Certus Quartz Brick Slab,ケルタスクォーツレンガのハーフブロック
-block.ae2.quartz_brick_stairs,Certus Quartz Brick Stairs,ケルタスクォーツレンガの階段
-block.ae2.quartz_brick_wall,Certus Quartz Brick Wall,ケルタスクォーツレンガの塀
-block.ae2.quartz_bricks,Certus Quartz Bricks,ケルタスクォーツレンガ
-block.ae2.quartz_cluster,Certus Quartz Cluster,ケルタスクォーツの塊
-block.ae2.quartz_fixture,Charged Quartz Fixture,チャージ済みケルタスクォーツ電灯
+block.ae2.quartz_block,Certus Quartz Block,セルタスクォーツブロック
+block.ae2.quartz_brick_slab,Certus Quartz Brick Slab,セルタスクォーツレンガのハーフブロック
+block.ae2.quartz_brick_stairs,Certus Quartz Brick Stairs,セルタスクォーツレンガの階段
+block.ae2.quartz_brick_wall,Certus Quartz Brick Wall,セルタスクォーツレンガの塀
+block.ae2.quartz_bricks,Certus Quartz Bricks,セルタスクォーツレンガ
+block.ae2.quartz_cluster,Certus Quartz Cluster,セルタスクォーツの塊
+block.ae2.quartz_fixture,Charged Quartz Fixture,帯電セルタスクォーツ電灯
 block.ae2.quartz_glass,Quartz Glass,クォーツガラス
-block.ae2.quartz_pillar,Certus Quartz Pillar,柱状ケルタスクォーツブロック
-block.ae2.quartz_pillar_slab,Certus Quartz Pillar Slab,ケルタスクォーツの柱のハーフブロック
-block.ae2.quartz_pillar_stairs,Certus Quartz Pillar Stairs,柱状ケルタスクォーツの階段
-block.ae2.quartz_pillar_wall,Certus Quartz Pillar Wall,ケルタスクォーツの柱の塀
-block.ae2.quartz_slab,Certus Quartz Slab,ケルタスクォーツのハーフブロック
-block.ae2.quartz_stairs,Certus Quartz Stairs,ケルタスクォーツの階段
+block.ae2.quartz_pillar,Certus Quartz Pillar,柱状セルタスクォーツブロック
+block.ae2.quartz_pillar_slab,Certus Quartz Pillar Slab,セルタスクォーツの柱のハーフブロック
+block.ae2.quartz_pillar_stairs,Certus Quartz Pillar Stairs,柱状セルタスクォーツの階段
+block.ae2.quartz_pillar_wall,Certus Quartz Pillar Wall,セルタスクォーツの柱の塀
+block.ae2.quartz_slab,Certus Quartz Slab,セルタスクォーツのハーフブロック
+block.ae2.quartz_stairs,Certus Quartz Stairs,セルタスクォーツの階段
 block.ae2.quartz_vibrant_glass,Vibrant Quartz Glass,発光クォーツガラス
-block.ae2.quartz_wall,Certus Quartz Wall,ケルタスクォーツの塀
+block.ae2.quartz_wall,Certus Quartz Wall,セルタスクォーツの塀
 block.ae2.sky_stone_block,Sky Stone,スカイストーン
 block.ae2.sky_stone_brick,Sky Stone Brick,スカイストーンレンガ
 block.ae2.sky_stone_brick_slab,Sky Stone Brick Slab,スカイストーンレンガのハーフブロック
@@ -192,11 +192,11 @@ block.ae2.sky_stone_small_brick_wall,Sky Stone Small Brick Wall,スカイスト�
 block.ae2.sky_stone_stairs,Sky Stone Stairs,スカイストーンの階段
 block.ae2.sky_stone_tank,Sky Stone Tank,スカイストーンの槽
 block.ae2.sky_stone_wall,Sky Stone Wall,スカイストーンの塀
-block.ae2.small_quartz_bud,Small Certus Quartz Bud,小さなケルタスクォーツの芽
-block.ae2.smooth_quartz_block,Smooth Certus Quartz Block,滑らかなケルタスクォーツブロック
-block.ae2.smooth_quartz_slab,Smooth Certus Quartz Slab,滑らかなケルタスクォーツのハーフブロック
-block.ae2.smooth_quartz_stairs,Smooth Certus Quartz Stairs,滑らかなケルタスクォーツの階段
-block.ae2.smooth_quartz_wall,Smooth Certus Quartz Wall,滑らかなケルタスクォーツの塀
+block.ae2.small_quartz_bud,Small Certus Quartz Bud,小さなセルタスクォーツの芽
+block.ae2.smooth_quartz_block,Smooth Certus Quartz Block,滑らかなセルタスクォーツブロック
+block.ae2.smooth_quartz_slab,Smooth Certus Quartz Slab,滑らかなセルタスクォーツのハーフブロック
+block.ae2.smooth_quartz_stairs,Smooth Certus Quartz Stairs,滑らかなセルタスクォーツの階段
+block.ae2.smooth_quartz_wall,Smooth Certus Quartz Wall,滑らかなセルタスクォーツの塀
 block.ae2.smooth_sky_stone_block,Sky Stone Block,スカイストーンブロック
 block.ae2.smooth_sky_stone_chest,Sky Stone Block Chest,スカイストーンブロックチェスト
 block.ae2.smooth_sky_stone_slab,Sky Stone Block Slab,スカイストーンブロックのハーフブロック
@@ -234,7 +234,7 @@ chat.ae2.NoLastTransition,This plot doesn't have a last known transition.,この
 chat.ae2.NoSpatialIOLevel,The spatial I/O level is missing: %s,空間I/Oレベルが不足しています: %s
 chat.ae2.NoSpatialIOPlots,There are no spatial I/O plots.,空間I/Oプロットはありません。
 chat.ae2.NotInSpatialStorageLevel,Must be within the spatial storage level.,空間ストレージレベル内にする必要があります。
-chat.ae2.NotStorageCell,Storage cell items don't implement the storage cell interface!,ストレージセルアイテムはストレージセルインターフェイスを実装していません！
+chat.ae2.NotStorageCell,Storage cell items don't implement the storage cell interface!,ストレージセルアイテムはストレージセルインターフェースを実装していません！
 chat.ae2.OnlyEmptyCellsCanBeDisassembled,Only empty storage cells can be disassembled.,空の記憶セルのみが分解できます。
 chat.ae2.Origin,Origin,原点：
 chat.ae2.OutOfRange,Wireless Out Of Range.,無線が範囲外です。
@@ -267,7 +267,7 @@ chat.ae2.isNowUnlocked,Monitor is now Unlocked.,モニターのロックが解�
 commands.ae2.ChunkLoggerOff,Chunk Logging is now off,チャンクロギング: オフ
 commands.ae2.ChunkLoggerOn,Chunk Logging is now on,チャンクロギング: オン
 commands.ae2.permissions,You do not have adequate permissions to run this command.,このコマンドを実行するための権限がありません。
-commands.ae2.usage,"Commands provided by Applied Energistics 2 - use /ae2 list for a list, and /ae2 help _____ for help with a command.",Applied Energistics 2　によるコマンド - /ae2 list でリストを表示、/ae2 help _____ でヘルプを表示。
+commands.ae2.usage,"Commands provided by Applied Energistics 2 - use /ae2 list for a list, and /ae2 help _____ for help with a command.",Applied Energistics 2 によるコマンド - /ae2 list でリストを表示、/ae2 help _____ でヘルプを表示。
 config.jade.plugin_ae2.charger,AE2 Charger,AE2チャージャー
 config.jade.plugin_ae2.crafting_monitor,AE2 Crafting Monitor,AE2クラフトモニター
 config.jade.plugin_ae2.debug,AE2 Debug Info,AE2デバッグ情報
@@ -279,7 +279,7 @@ config.jade.plugin_ae2.part_tooltip,AE2 Part Tooltip,AE2パートツールチッ
 config.jade.plugin_ae2.pattern_provider,AE2 Pattern Provider,AE2パターンプロバイダー
 config.jade.plugin_ae2.power_storage,AE2 Power State,AE2電力状態
 entity.ae2.tiny_tnt_primed,Tiny TNT Primed,小さいTNT Primed
-entity.minecraft.villager.ae2.fluix_researcher,Fluix Researcher,フルーシュ研究員
+entity.minecraft.villager.ae2.fluix_researcher,Fluix Researcher,フルイックス研究員
 gui.ae2.AdjacentToDifferentMachines,Adjacent to Different Machines,異なるマシンに隣接しています
 gui.ae2.And,and,および
 gui.ae2.AttachedTo,Attached to: %s,アタッチ: %s
@@ -297,7 +297,7 @@ gui.ae2.Cancel,Cancel,キャンセル
 gui.ae2.CantFitInsideStorageCell,This item does not fit in other storage cells,このアイテムは他のストレージセルに収まりません
 gui.ae2.CantStoreItems,Can't Store Contents!,コンテンツを保存できません！
 gui.ae2.CellWorkbench,Cell Workbench,セルワークベンチ
-gui.ae2.CertusQuartzObtain,"Certus Quartz is grown by the various Budding Certus Quartz blocks, which can be found in meteors, or crafted from regular Certus Quartz blocks.",ケルタスクォーツは、隕石から見つかる様々なケルタスクォーツブロック、または通常のケルタスクォーツブロックからクラフトされる芽ばえたケルタスクォーツブロックによって成長します。
+gui.ae2.CertusQuartzObtain,"Certus Quartz is grown by the various Budding Certus Quartz blocks, which can be found in meteors, or crafted from regular Certus Quartz blocks.",セルタスクォーツは、隕石から見つかる様々なセルタスクォーツブロック、または通常のセルタスクォーツブロックからクラフトされる芽ばえたセルタスクォーツブロックによって成長します。
 gui.ae2.ChannelEnergyDrain,Channel Passive Drain: %s,チャネル受動降水量： %s
 gui.ae2.Clean,Clean,消去
 gui.ae2.CompatibleUpgrade,%s (%s),
@@ -351,7 +351,7 @@ gui.ae2.ExternalStorage,External Storage (%s),外部ストレージ (%s)
 gui.ae2.Facade,Facade (%s),ファサード（%s）
 gui.ae2.FacadeCrafting,Facade Crafting,外装クラフト中
 gui.ae2.Fluids,Fluids,液体
-gui.ae2.Fluix,Fluix,フルーシュ
+gui.ae2.Fluix,Fluix,フルイックス
 gui.ae2.FormationPlane,Formation Plane,形成プレーン
 gui.ae2.FromStorage,Available: %s,利用可能: %s
 gui.ae2.Fuzzy,Fuzzy,ファジー
@@ -731,23 +731,23 @@ item.ae2.cell_component_1k,1k ME Storage Component,1k MEストレージセル
 item.ae2.cell_component_256k,256k ME Storage Component,256k MEストレージコンポーネント
 item.ae2.cell_component_4k,4k ME Storage Component,4k MEストレージセル
 item.ae2.cell_component_64k,64k ME Storage Component,64k MEストレージセル
-item.ae2.certus_quartz_axe,Certus Quartz Axe,ケルタスクォーツの斧
-item.ae2.certus_quartz_crystal,Certus Quartz Crystal,ケルタスクォーツの水晶
-item.ae2.certus_quartz_cutting_knife,Certus Quartz Cutting Knife,ケルタスクォーツのナイフ
-item.ae2.certus_quartz_dust,Certus Quartz Dust,ケルタスクォーツの粉
-item.ae2.certus_quartz_hoe,Certus Quartz Hoe,ケルタスクォーツのクワ
-item.ae2.certus_quartz_pickaxe,Certus Quartz Pickaxe,ケルタスクォーツのツルハシ
-item.ae2.certus_quartz_shovel,Certus Quartz Shovel,ケルタスクォーツのシャベル
-item.ae2.certus_quartz_sword,Certus Quartz Sword,ケルタスクォーツの剣
-item.ae2.certus_quartz_wrench,Certus Quartz Wrench,ケルタスクォーツのレンチ
-item.ae2.charged_certus_quartz_crystal,Charged Certus Quartz Crystal,チャージケルタスクォーツ
-item.ae2.charged_staff,Charged Staff,チャージ済みの杖
+item.ae2.certus_quartz_axe,Certus Quartz Axe,セルタスクォーツの斧
+item.ae2.certus_quartz_crystal,Certus Quartz Crystal,セルタスクォーツ結晶
+item.ae2.certus_quartz_cutting_knife,Certus Quartz Cutting Knife,セルタスクォーツのナイフ
+item.ae2.certus_quartz_dust,Certus Quartz Dust,セルタスクォーツの粉
+item.ae2.certus_quartz_hoe,Certus Quartz Hoe,セルタスクォーツのクワ
+item.ae2.certus_quartz_pickaxe,Certus Quartz Pickaxe,セルタスクォーツのツルハシ
+item.ae2.certus_quartz_shovel,Certus Quartz Shovel,セルタスクォーツのシャベル
+item.ae2.certus_quartz_sword,Certus Quartz Sword,セルタスクォーツの剣
+item.ae2.certus_quartz_wrench,Certus Quartz Wrench,セルタスクォーツのレンチ
+item.ae2.charged_certus_quartz_crystal,Charged Certus Quartz Crystal,チャージセルタスクォーツ
+item.ae2.charged_staff,Charged Staff,帯電の杖
 item.ae2.color_applicator,Color Applicator,染色ブラシ
 item.ae2.conversion_monitor,ME Conversion Monitor,ME変換モニター
 item.ae2.crafting_card,Crafting Card,クラフトカード
 item.ae2.crafting_pattern,Crafting Pattern,クラフトパターン
 item.ae2.crafting_terminal,ME Crafting Terminal,MEクラフトターミナル
-item.ae2.creative_storage_cell,Creative ME Storage Cell,クリエイティブ用MEストレージセル
+item.ae2.creative_storage_cell,Creative ME Storage Cell,クリエイティブMEストレージセル
 item.ae2.cyan_covered_cable,Cyan ME Covered Cable,水色ME被覆ケーブル
 item.ae2.cyan_covered_dense_cable,Cyan ME Dense Covered Cable,青緑ME密被ケーブル
 item.ae2.cyan_glass_cable,Cyan ME Glass Cable,水色のMEガラスケーブル
@@ -760,7 +760,7 @@ item.ae2.debug_card,Dev.DebugCard,開発用.デバッグ用カード
 item.ae2.debug_eraser,Dev.Eraser,開発用イレーサー
 item.ae2.debug_meteorite_placer,Dev.MeteoritePlacer,開発用隕石プレーサー
 item.ae2.debug_replicator_card,Dev.ReplicatorCard,開発用.反復子カード
-item.ae2.ender_dust,Ender Dust,エンダーダスト
+item.ae2.ender_dust,Ender Dust,エンダーの粉
 item.ae2.energy_card,Energy Card,エネルギーカード
 item.ae2.energy_level_emitter,ME Energy Level Emitter,MEエネルギーレベルエミッター
 item.ae2.engineering_processor,Engineering Processor,上級プロセッサ
@@ -777,20 +777,20 @@ item.ae2.fluid_storage_cell_1k,1k ME Fluid Storage Cell,1k ME液体セル
 item.ae2.fluid_storage_cell_256k,256k ME Fluid Storage Cell,256k ME流体ストレージセル
 item.ae2.fluid_storage_cell_4k,4k ME Fluid Storage Cell,4k ME液体セル
 item.ae2.fluid_storage_cell_64k,64k ME Fluid Storage Cell,64k ME液体セル
-item.ae2.fluix_axe,Fluix Axe,フルーシュの斧
+item.ae2.fluix_axe,Fluix Axe,フルイックスの斧
 item.ae2.fluix_covered_cable,Fluix ME Covered Cable,フルイックスME被覆ケーブル
-item.ae2.fluix_covered_dense_cable,Fluix ME Dense Covered Cable,フルーシュのME高密度カバーケーブル
-item.ae2.fluix_crystal,Fluix Crystal,フルーシュクリスタル
-item.ae2.fluix_dust,Fluix Dust,フルーシュの粉
+item.ae2.fluix_covered_dense_cable,Fluix ME Dense Covered Cable,フルイックスのME高密度カバーケーブル
+item.ae2.fluix_crystal,Fluix Crystal,フルイックス結晶
+item.ae2.fluix_dust,Fluix Dust,フルイックスの粉
 item.ae2.fluix_glass_cable,Fluix ME Glass Cable,フリックスMEガラスケーブル
-item.ae2.fluix_hoe,Fluix Hoe,フルーシュのクワ
-item.ae2.fluix_pearl,Fluix Pearl,フルーシュパール
-item.ae2.fluix_pickaxe,Fluix Pickaxe,フルーシュのツルハシ
-item.ae2.fluix_shovel,Fluix Shovel,フルーシュのシャベル
+item.ae2.fluix_hoe,Fluix Hoe,フルイックスのクワ
+item.ae2.fluix_pearl,Fluix Pearl,フルイックスパール
+item.ae2.fluix_pickaxe,Fluix Pickaxe,フルイックスのツルハシ
+item.ae2.fluix_shovel,Fluix Shovel,フルイックスのシャベル
 item.ae2.fluix_smart_cable,Fluix ME Smart Cable,フリックスMEスマートケーブル
-item.ae2.fluix_smart_dense_cable,Fluix ME Dense Smart Cable,フルーシュのME高密度スマートケーブル
-item.ae2.fluix_sword,Fluix Sword,フルーシュの剣
-item.ae2.fluix_upgrade_smithing_template,Fluix Upgrade,フルーシュ強化
+item.ae2.fluix_smart_dense_cable,Fluix ME Dense Smart Cable,フルイックスのME高密度スマートケーブル
+item.ae2.fluix_sword,Fluix Sword,フルイックスの剣
+item.ae2.fluix_upgrade_smithing_template,Fluix Upgrade,フルイックス強化
 item.ae2.formation_core,Formation Core,形成コア
 item.ae2.formation_plane,ME Formation Plane,ME結像プレート
 item.ae2.fuzzy_card,Fuzzy Card,ファジーカード
@@ -900,19 +900,19 @@ item.ae2.printed_silicon,Printed Silicon,シリコン基板
 item.ae2.processing_pattern,Processing Pattern,処理パターン
 item.ae2.purple_covered_cable,Purple ME Covered Cable,紫のMEカバーケーブル
 item.ae2.purple_covered_dense_cable,Purple ME Dense Covered Cable,紫のME高密度カバーケーブル
-item.ae2.purple_glass_cable,Purple ME Glass Cable,パープルMEガラスケーブル
+item.ae2.purple_glass_cable,Purple ME Glass Cable,紫MEガラスケーブル
 item.ae2.purple_lumen_paint_ball,Purple Lumen Paint Ball,紫の輝くペイントボール
-item.ae2.purple_paint_ball,Purple Paint Ball,パープルペイントボール
+item.ae2.purple_paint_ball,Purple Paint Ball,紫ペイントボール
 item.ae2.purple_smart_cable,Purple ME Smart Cable,紫のMEスマートケーブル
 item.ae2.purple_smart_dense_cable,Purple ME Dense Smart Cable,紫のME高密度スマートケーブル
 item.ae2.quantum_entangled_singularity,Quantum Entangled Singularity,量子もつれシンギュラリティ
 item.ae2.quartz_fiber,Quartz Fiber,クォーツファイバー
 item.ae2.red_covered_cable,Red ME Covered Cable,赤いMEカバーケーブル
 item.ae2.red_covered_dense_cable,Red ME Dense Covered Cable,赤いME高密度カバーケーブル
-item.ae2.red_glass_cable,Red ME Glass Cable,レッド ME ガラスケーブル
+item.ae2.red_glass_cable,Red ME Glass Cable,赤 ME ガラスケーブル
 item.ae2.red_lumen_paint_ball,Red Lumen Paint Ball,赤いルーメンペイントボール
 item.ae2.red_paint_ball,Red Paint Ball,赤いボール
-item.ae2.red_smart_cable,Red ME Smart Cable,レッド ME スマートケーブル
+item.ae2.red_smart_cable,Red ME Smart Cable,赤 ME スマートケーブル
 item.ae2.red_smart_dense_cable,Red ME Dense Smart Cable,赤いME高密度スマートケーブル
 item.ae2.redstone_card,Redstone Card,レッドストーンカード
 item.ae2.redstone_p2p_tunnel,Redstone P2P Tunnel,レッドストーンP2Pトンネル
@@ -936,7 +936,7 @@ item.ae2.terminal,ME Terminal,MEターミナル
 item.ae2.toggle_bus,ME Toggle Bus,ME切替バス
 item.ae2.view_cell,View Cell,セルを表示
 item.ae2.void_card,Overflow Destruction Card,オーバーフロー破棄カード
-item.ae2.white_covered_cable,White ME Covered Cable,ホワイト ME カバーケーブル
+item.ae2.white_covered_cable,White ME Covered Cable,白 ME カバーケーブル
 item.ae2.white_covered_dense_cable,White ME Dense Covered Cable,白色ME密被ケーブル
 item.ae2.white_glass_cable,White ME Glass Cable,白いMEガラスケーブル
 item.ae2.white_lumen_paint_ball,White Lumen Paint Ball,白い輝くペイントボール
@@ -982,7 +982,7 @@ theoneprobe.ae2.stored_energy,%1$d / %2$d,
 theoneprobe.ae2.unlocked,Unlocked,解錠された
 waila.ae2.Channels,%1$d Channels,%1$d / %2$dチャンネル
 waila.ae2.ChannelsOf,%1$d of %2$d Channels,%1$d / %2$dチャンネル
-waila.ae2.Charged,%d%% charged,%d%% チャージ済み
+waila.ae2.Charged,%d%% charged,%d%% 帯電
 waila.ae2.Contains,Contains: %s,中身: %s
 waila.ae2.Crafting,Crafting: %s,クラフト: %s
 waila.ae2.CraftingLockedByLackOfRedstoneSignal,Locked by lack of redstone signal,レッドストーン信号不足によりロックされています
@@ -1010,10 +1010,10 @@ waila.ae2.Suppressed,Suppressed,抑制されました
 waila.ae2.Unlocked,Unlocked,解錠された
 chat.ae2wtlib.NetworkNotPowered,Network Not Powered,ネットワークに電力が供給されていません
 gui.ae2wtlib.Magnet,Magnet Filter,マグネットフィルタ
-gui.ae2wtlib.blacklist,Blacklist,ブラックリスト
+gui.ae2wtlib.blacklist,Blacklist,黒リスト
 gui.ae2wtlib.copy_insert,Copy to Insert,挿入をコピー
 gui.ae2wtlib.copy_pickup,Copy to Pickup,収集をコピー
-gui.ae2wtlib.creativetab,AE2 Wireless Terminals (AE2WTLib),AE2ワイヤレスターミナル(AE2WTLib)
+gui.ae2wtlib.creativetab,AE2 Wireless Terminals (AE2WTLib),AE2無線ターミナル(AE2WTLib)
 gui.ae2wtlib.cycle_terminal.desc,Open next Terminal,次のターミナルを開く
 gui.ae2wtlib.insert_filter,Insert Filter: ,フィルターを挿入:
 gui.ae2wtlib.magnetcard,Magnet Card,マグネットカード
@@ -1028,7 +1028,7 @@ gui.ae2wtlib.restock,Restock: ,補充:
 gui.ae2wtlib.slot.magnetcard.desc,Magnet Card,マグネットカード
 gui.ae2wtlib.switch,Switch Filters,フィルターを切り替え
 gui.ae2wtlib.trash,Trash,ごみ箱
-gui.ae2wtlib.whitelist,Whitelist,ホワイトリスト
+gui.ae2wtlib.whitelist,Whitelist,白リスト
 item.ae2wtlib.magnet_card,Magnet Card,マグネットカード
 item.ae2wtlib.magnet_card.desc,Magnet upgrade for the Wireless Crafting Terminal,無線クラフトターミナルのマグネットアップグレード
 item.ae2wtlib.quantum_bridge_card,Quantum Bridge Card,量子ブリッジカード
@@ -1042,11 +1042,11 @@ key.ae2.ae2wtlib_restock,Toggle Restock,補充切替
 key.ae2.wireless_pattern_access_terminal,Open Wireless Pattern Access Terminal,無線パターンアクセスターミナルを開く
 key.ae2.wireless_pattern_encoding_terminal,Open Wireless Pattern Encoding Terminal,無線パターンエンコーディングターミナルを開く
 text.autoconfig.de/mari_023/ae2wtlib.option.magnetCardRange,Magnet Card Range,マグネットカード範囲
-text.autoconfig.de/mari_023/ae2wtlib.title,AE2 Wireless Terminals,AE2ワイヤレスターミナル
+text.autoconfig.de/mari_023/ae2wtlib.title,AE2 Wireless Terminals,AE2無線ターミナル
 appflux.cell.storage,Contains: %s %s,貯蓄: %s %s
 appflux.key.flux,Energy,エネルギー
 appflux.type.fe.name,FE,
-block.appflux.charged_redstone_block,Charged Redstone Crystal Block,チャージ済みレッドストーンの水晶ブロック
+block.appflux.charged_redstone_block,Charged Redstone Crystal Block,帯電レッドストーンの水晶ブロック
 block.appflux.flux_accessor,Flux Accessor,フラックスアクセッサー
 block.appflux.flux_accessor.tooltip.1,Pull energy from network.,ネットワーク内から貯蓄されたエネルギーを引き出します。
 block.appflux.flux_accessor.tooltip.2,Need external cable to push energy,エネルギーを伝達するための外部ケーブルが必要です。
@@ -1094,9 +1094,9 @@ block.extendedae.caner,ME Caner,ME缶詰機
 block.extendedae.crystal_assembler,Crystal Assembler,クリスタル組立機
 block.extendedae.crystal_fixer,Crystal Fixer,クリスタル修復機
 block.extendedae.entro_block,Entro Block,エントロクリスタルブロック
-block.extendedae.entro_budding_fully,Budding Fully Entroized Fluix,完全に発芽したエントロフルーシュブロック
-block.extendedae.entro_budding_hardly,Budding Hardly Entroized Fluix,発芽しにくいエントロフルーシュブロック
-block.extendedae.entro_budding_mostly,Budding Mostly Entroized Fluix,芽生えつつあるエントロフルーシュブロック
+block.extendedae.entro_budding_fully,Budding Fully Entroized Fluix,完全に発芽したエントロフルイックスブロック
+block.extendedae.entro_budding_hardly,Budding Hardly Entroized Fluix,発芽しにくいエントロフルイックスブロック
+block.extendedae.entro_budding_mostly,Budding Mostly Entroized Fluix,芽生えつつあるエントロフルイックスブロック
 block.extendedae.entro_cluster,Entro Cluster,エントロクリスタルの塊
 block.extendedae.entro_cluster_large,Large Entro Bud,大きなエントロクリスタルの芽
 block.extendedae.entro_cluster_medium,Medium Entro Bud,中くらいのエントロクリスタルの芽
@@ -1128,8 +1128,8 @@ config.jade.plugin_extendedae.jade_chamber,ME Crystal Fixer,MEクリスタル修
 config.jade.plugin_extendedae.jade_wireless,ME Wireless Connector Color,ME無線接続器色
 emi.extendedae.category.assembler,Crystal Assembler,クリスタル組立機
 emi.extendedae.category.fixer,Crystal Fixer,クリスタル修復機
-emi.extendedae.desc.entro_crystal,"Entro Crystal is grown by Budding Entroized Fluix, like how Certus Quartz works. To get Budding Entroized Fluix, you need to craft Entro Seed and right click Fluix Block with it.",エントロクリスタルはケルタスクォーツの仕組みと同じように、芽生えたエントロフルーシュブロックによって成長します。芽生えたエントロフルーシュブロックを入手するには、エントロの種を作成し、それでフルーシュブロックを右クリックする必要があります。
-emi.extendedae.desc.entro_seed,"Right click a Fluix Block in world with Entro Seed, and the Fluix Block will be turned into Budding Entroized Fluix.",ワールド上でエントロの種でフルーシュブロックを右クリックすると、フルーシュブロックが芽生えたエントロフルーシュブロックに変化します。
+emi.extendedae.desc.entro_crystal,"Entro Crystal is grown by Budding Entroized Fluix, like how Certus Quartz works. To get Budding Entroized Fluix, you need to craft Entro Seed and right click Fluix Block with it.",エントロクリスタルはセルタスクォーツの仕組みと同じように、芽生えたエントロフルイックスブロックによって成長します。芽生えたエントロフルイックスブロックを入手するには、エントロの種を作成し、それでフルイックスブロックを右クリックする必要があります。
+emi.extendedae.desc.entro_seed,"Right click a Fluix Block in world with Entro Seed, and the Fluix Block will be turned into Budding Entroized Fluix.",ワールド上でエントロの種でフルイックスブロックを右クリックすると、フルイックスブロックが芽生えたエントロフルイックスブロックに変化します。
 emi.extendedae.text.success_chance,Success Chance: %s,成功チャンス: %s
 group.ex_io_bus_part,ME Extended Import/Export Bus,ME拡張型インポート/出力バス
 gui.extendedae.active_formation_plane,ME Active Formation Plane,ME能動的形成プレーン
@@ -1197,12 +1197,12 @@ gui.extendedae.renamer.desc,Custom Name,カスタム名
 gui.extendedae.renamer.input,Input name here,ここに名前を入力
 gui.extendedae.tag_export_bus,ME Tag Export Bus,ME出力バス(タグ)
 gui.extendedae.tag_storage_bus,Tag Storage bus,ストレージバス(タグ)
-gui.extendedae.tag_storage_bus.blacklist,Blacklist Filter,ブラックリストフィルター
+gui.extendedae.tag_storage_bus.blacklist,Blacklist Filter,黒リストフィルター
 gui.extendedae.tag_storage_bus.desc.01,& = AND    | = OR,
 gui.extendedae.tag_storage_bus.desc.02,^ = XOR,
 gui.extendedae.tag_storage_bus.desc.03,() for priority    * for wildcard,() は優先度 * はワイルドカード
 gui.extendedae.tag_storage_bus.tooltip,Input tag here,ここにタグを入力
-gui.extendedae.tag_storage_bus.whitelist,Whitelist Filter,ホワイトリストフィルター
+gui.extendedae.tag_storage_bus.whitelist,Whitelist Filter,白リストフィルター
 gui.extendedae.threshold_export_bus,ME Threshold Export Bus,MEしきい値出力バス
 gui.extendedae.threshold_export_bus.greater,Work when above threshold,しきい値を超えたときに作業します
 gui.extendedae.threshold_export_bus.lower,Work when below threshold,しきい値を下回ったときに作業します

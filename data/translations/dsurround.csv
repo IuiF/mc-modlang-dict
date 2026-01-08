@@ -13,7 +13,7 @@ dsurround.cfg.lightlevel.Range.tooltip,Block range for light level analysis,光�
 dsurround.cfg.lightlevel.SpawnThreshold,Mob Spawn Light Threshold,モンスターの出現光閾値
 dsurround.cfg.lightlevel.SpawnThreshold.tooltip,Light level at which mobs can spawn,モンスターが出現する光レベル
 dsurround.cfg.lightlevel.tooltip,Options for configuring the Light Level HUD,ライトレベルHUDの設定オプション
-dsurround.cfg.logging,Logging Options,ログオプション
+dsurround.cfg.logging,Logging Options,原木オプション
 dsurround.cfg.logging.EnableDebug,Debug Logging,デバッグログ
 dsurround.cfg.logging.EnableDebug.tooltip,Enables/disables debug logging of the mod,モッドのデバッグログを有効/無効にします
 dsurround.cfg.logging.FlagMask,Debug Flag Mask,デバッグフラグマスク
@@ -37,7 +37,7 @@ environs.cfg.aurora.MaxBands,Maximum Bands,最大バンド数
 environs.cfg.aurora.MaxBands.tooltip,Cap the maximum bands that will be rendered,描画される最大バンド数を制限する
 environs.cfg.aurora.tooltip,Options that control Aurora behavior and rendering,オーロラの挙動とレンダリングを制御するオプション
 environs.cfg.biomes,Biome Options,バイオムオプション
-environs.cfg.biomes.DimBlacklist,Dimension Blacklist,ディメンションブラックリスト
+environs.cfg.biomes.DimBlacklist,Dimension Blacklist,ディメンション黒リスト
 environs.cfg.biomes.DimBlacklist.tooltip,Dimension IDs where biome sounds will not be played,バイオーム音が再生されないディメンションID
 environs.cfg.biomes.Sealevel,Overworld Sealevel Override,オーバーワールド海面オーバーライド
 environs.cfg.biomes.Sealevel.tooltip,Sealevel to set for Overworld (0 use default for World),オーバーワールド用の海面高度（Worldでデフォルトを使用するには 0）。
@@ -46,7 +46,7 @@ environs.cfg.effects,Effect Options,効果オプション
 environs.cfg.effects.Bubble,Bubble Jets,気泡ジェット
 environs.cfg.effects.Bubble.tooltip,Enable/disable Bubble Jets under water,水中でバブルジェットを有効/無効にする
 environs.cfg.effects.Dust,Dust Motes,ほこり
-environs.cfg.effects.Dust.tooltip,Enable/disable Dust Motes dropping from under blocks,ブロック下から落ちるダストモートを有効化/無効化します
+environs.cfg.effects.Dust.tooltip,Enable/disable Dust Motes dropping from under blocks,ブロック下から落ちるの粉モートを有効化/無効化します
 environs.cfg.effects.Fire,Fire Jets,火の噴射
 environs.cfg.effects.Fire.tooltip,Enable/disable Fire Jets in lava,溶岩の火炎噴射を有効/無効にする
 environs.cfg.effects.Fireflies,Fireflies,蛍
@@ -82,12 +82,12 @@ environs.cfg.fog.MorningChance.tooltip,Percentage chance morning fog will occur,
 environs.cfg.fog.Weather,Weather Fog,天気霧
 environs.cfg.fog.Weather.tooltip,Increase fog based on the strength of rain,雨の強さに応じて霧を増加させる
 environs.cfg.fog.tooltip,Options that control the various fog effects in the client,クライアント内のさまざまな霧効果を制御するオプション
-environs.cfg.logging,Logging Options,ログオプション
+environs.cfg.logging,Logging Options,原木オプション
 environs.cfg.logging.EnableDebug,Debug Logging,デバッグログ
 environs.cfg.logging.EnableDebug.tooltip,Enables/disables debug logging of the mod,モッドのデバッグログを有効/無効にします
 environs.cfg.logging.FlagMask,Debug Flag Mask,デバッグフラグマスク
 environs.cfg.logging.FlagMask.tooltip,Bitmask for toggling various debug traces,さまざまなデバッグトレースを切り替えるビットマスク
-environs.cfg.logging.tooltip,Defines how logging will behave,ログの挙動を定義します。
+environs.cfg.logging.tooltip,Defines how logging will behave,原木の挙動を定義します。
 environs.cfg.sound,Sound Options,音声設定
 environs.cfg.sound.BiomeVolume,Biome Sound Volume,バイオーム音量
 environs.cfg.sound.BiomeVolume.tooltip,Scaling factor to apply to biome sounds,バイオーム音に適用するスケーリング係数
@@ -139,12 +139,12 @@ mobeffects.cfg.footsteps.Volume.tooltip,Footstep master volume scale,足音の�
 mobeffects.cfg.footsteps.WaterLoggedAccents,Enable Water Logged Accents,水没アクセントを有効化
 mobeffects.cfg.footsteps.WaterLoggedAccents.tooltip,Enable water logged accents for footstep acoustics,足音の音響に水没したアクセントを有効化
 mobeffects.cfg.footsteps.tooltip,Defines footstep effect generation parameters,足音効果生成パラメータを定義します
-mobeffects.cfg.logging,Logging Options,ログオプション
+mobeffects.cfg.logging,Logging Options,原木オプション
 mobeffects.cfg.logging.EnableDebug,Debug Logging,デバッグログ
 mobeffects.cfg.logging.EnableDebug.tooltip,Enables/disables debug logging of the mod,モッドのデバッグログを有効/無効にします
 mobeffects.cfg.logging.FlagMask,Debug Flag Mask,デバッグフラグマスク
 mobeffects.cfg.logging.FlagMask.tooltip,Bitmask for toggling various debug traces,さまざまなデバッグトレースを切り替えるビットマスク
-mobeffects.cfg.logging.tooltip,Defines how logging will behave,ログの挙動を定義します。
+mobeffects.cfg.logging.tooltip,Defines how logging will behave,原木の挙動を定義します。
 mobeffects.modname,MobEffects,モンスター効果
 mobeffects.modname.tooltip,Enhances players and mobs with sound and visual effects.,プレイヤーとモブに音声と視覚効果を付与します
 mobeffects.soundcategory.footsteps,Footsteps,足音
@@ -155,12 +155,12 @@ sndctrl.cfg.effects.BlockRange.tooltip,Block range of entity special effect hand
 sndctrl.cfg.effects.Randoms,Replace Randoms,ランダム値を置き換える
 sndctrl.cfg.effects.Randoms.tooltip,Replace client side Randomizers with faster versions,クライアント側のランダム化器を高速版で置き換える
 sndctrl.cfg.effects.tooltip,Defines parameters for special effects,特殊効果のパラメータを定義する
-sndctrl.cfg.logging,Logging Options,ログオプション
+sndctrl.cfg.logging,Logging Options,原木オプション
 sndctrl.cfg.logging.EnableDebug,Debug Logging,デバッグログ
 sndctrl.cfg.logging.EnableDebug.tooltip,Enables/disables debug logging of the mod,モッドのデバッグログを有効/無効にします
 sndctrl.cfg.logging.FlagMask,Debug Flag Mask,デバッグフラグマスク
 sndctrl.cfg.logging.FlagMask.tooltip,Bitmask for toggling various debug traces,さまざまなデバッグトレースを切り替えるビットマスク
-sndctrl.cfg.logging.tooltip,Defines how Sound Control logging will behave,サウンドコントロールログ記録の動作方法を定義します
+sndctrl.cfg.logging.tooltip,Defines how Sound Control logging will behave,サウンドコントロール原木記録の動作方法を定義します
 sndctrl.cfg.sound,Sound Options,音声設定
 sndctrl.cfg.sound.CullInterval,Sound Culling Interval,サウンドカリング間隔
 sndctrl.cfg.sound.CullInterval.tooltip,Ticks between culled sound events (0 to disable culling),カットされたサウンドイベント間のティック数（0で無効化）
@@ -276,7 +276,7 @@ dsurround.cfg.asm.DisablePotionIcons,Disable Inventory Potion Icons,インベン
 dsurround.cfg.asm.DisablePotionIcons.tooltip,Disables the rendering of potion effects in the inventory GUI,インベントリGUIでポーション効果のレンダリングを無効化します
 dsurround.cfg.asm.EnableOptionSearch,Enable Search Option in Configuration,設定で検索オプションを有効化する
 dsurround.cfg.asm.EnableOptionSearch.tooltip,Enables the search filter textbox in mod configuration options,モッド設定オプションで検索フィルタテキストボックスを有効化します
-dsurround.cfg.logging.tooltip,Defines how Dynamic Surroundings logging will behave,Dynamic Surroundings のログがどのように振る舞うかを定義します
+dsurround.cfg.logging.tooltip,Defines how Dynamic Surroundings logging will behave,Dynamic Surroundings の原木がどのように振る舞うかを定義します
 dsurround.cfg.logging.ServerStats,Report Server Stats,サーバーステータスを報告
 dsurround.cfg.logging.ServerStats.tooltip,Enables/disables reporting of server stats,サーバー統計の報告を有効/無効にします
 dsurround.cfg.rain,Rain Options,雨のオプション
@@ -340,7 +340,7 @@ dsurround.cfg.biomes.Sealevel,Overworld Sealevel Override,オーバーワール�
 dsurround.cfg.biomes.Sealevel.tooltip,Sealevel to set for Overworld (0 use default for World),オーバーワールド用の海面高度（Worldでデフォルトを使用するには 0）。
 dsurround.cfg.biomes.Aliases,Biomes Alias,バイオームの別名
 dsurround.cfg.biomes.Aliases.tooltip,Biomes alias list,バイオームの別名リスト
-dsurround.cfg.biomes.DimBlacklist,Dimension Blacklist,ディメンションブラックリスト
+dsurround.cfg.biomes.DimBlacklist,Dimension Blacklist,ディメンション黒リスト
 dsurround.cfg.biomes.DimBlacklist.tooltip,Dimension IDs where biome sounds will not be played,バイオーム音が再生されないディメンションID
 dsurround.cfg.effects,Effect Options,効果オプション
 dsurround.cfg.effects.tooltip,Options for controlling various effects,さまざまな効果を制御するオプション
@@ -357,7 +357,7 @@ dsurround.cfg.effects.Fire.tooltip,Enable/disable Fire Jets in lava,溶岩の火
 dsurround.cfg.effects.Bubble,Bubble Jets,気泡ジェット
 dsurround.cfg.effects.Bubble.tooltip,Enable/disable Bubble Jets under water,水中でバブルジェットを有効/無効にする
 dsurround.cfg.effects.Dust,Dust Motes,ほこり
-dsurround.cfg.effects.Dust.tooltip,Enable/disable Dust Motes dropping from under blocks,ブロック下から落ちるダストモートを有効化/無効化します
+dsurround.cfg.effects.Dust.tooltip,Enable/disable Dust Motes dropping from under blocks,ブロック下から落ちるの粉モートを有効化/無効化します
 dsurround.cfg.effects.Fountain,Fountain Jets,噴水
 dsurround.cfg.effects.Fountain.tooltip,Enable/disable Fountain Jets spraying,噴水のジェットを有効/無効にします
 dsurround.cfg.effects.Fireflies,Fireflies,蛍

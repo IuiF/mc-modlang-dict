@@ -168,12 +168,12 @@ config.definition.trait.auto_io,Auto IO,自動IO
 config.definition.trait.auto_io.amount,amount,量
 config.definition.trait.auto_io.amount.tooltip,The amount of the auto IO action. (e.g. how many stacks / how much fluid amount can be processed per action.),オートIO動作の量。（例：アクションごとに処理できるスタック数/流体量）
 config.definition.trait.auto_io.interval,interval,間隔
-config.definition.trait.auto_io.interval.tooltip,The interval between each auto IO action in tick.,各自動IOアクション間のインターバル（tick単位）
+config.definition.trait.auto_io.interval.tooltip,The interval between each auto IO action in tick.,各自動IOアクション間のインターバル（ティック単位）
 config.definition.trait.auto_io.tooltip,"Apply auto io if the trait support it. (e.g. item, fluid, forge energy, etc.)",トレイトがサポートする場合、オートIOを適用します（例：アイテム、液体、フォージエネルギーなど）
 config.definition.trait.auto_world_io.input,Auto Suck,自動吸収
 config.definition.trait.auto_world_io.input.tooltip,auto suck contents from the world.,世界から自動で内容物を吸い込む
 config.definition.trait.auto_world_io.interval,Interval,間隔
-config.definition.trait.auto_world_io.interval.tooltip,The interval between each auto IO action in tick.,各自動IOアクション間のインターバル（tick単位）
+config.definition.trait.auto_world_io.interval.tooltip,The interval between each auto IO action in tick.,各自動IOアクション間のインターバル（ティック単位）
 config.definition.trait.auto_world_io.output,Auto Drop,自動ドロップ
 config.definition.trait.auto_world_io.output.tooltip,auto drop contents to the world.,自動でコンテンツを世界にドロップします。
 config.definition.trait.auto_world_io.range,Range,範囲
@@ -239,7 +239,7 @@ config.definition.trait.filter.fluids,Fluids,液体
 config.definition.trait.filter.item_tags,Item Tags,アイテムタグ
 config.definition.trait.filter.items,Items,アイテム
 config.definition.trait.filter.match_nbt,Match NBT,NBTを一致
-config.definition.trait.filter.whitelist,Whitelist Mode,ホワイトリストモード
+config.definition.trait.filter.whitelist,Whitelist Mode,白リストモード
 config.definition.trait.fluid_tank.allow_same_fluids,Allow Same Fluids,同じ流体を許可
 config.definition.trait.fluid_tank.allow_same_fluids.tooltip,Can different tanks be filled with the same fluid.,異なるタンクに同じ流体を充填できるかどうか。
 config.definition.trait.fluid_tank.auto_io.tooltip,Auto drain from the nearby tank or fill to the nearby tank.,近くのタンクから自動で排出するか、近くのタンクに充填する。

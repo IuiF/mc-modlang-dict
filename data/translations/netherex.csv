@@ -65,11 +65,11 @@ block.netherex.chiseled_polished_lively_netherrack,Chiseled Polished Lively Neth
 block.netherex.chiseled_polished_netherrack,Chiseled Polished Netherrack,彫刻された磨き上げられたネザラック
 block.netherex.chiseled_warped_nether_bricks,Chiseled Warped Nether Bricks,彫刻の歪んだネザーブロック
 block.netherex.cracked_ashen_nether_bricks,Cracked Ashen Nether Bricks,ひび割れた灰白いネザー・レンガ
-block.netherex.cracked_crimson_nether_bricks,Cracked Crimson Nether Bricks,ひび割れた深紅のネザー・レンガス
+block.netherex.cracked_crimson_nether_bricks,Cracked Crimson Nether Bricks,ひび割れた真紅のネザー・レンガス
 block.netherex.cracked_fiery_nether_bricks,Cracked Fiery Nether Bricks,ひび割れた炎のネザー・レンガ
 block.netherex.cracked_gloomy_nether_bricks,Cracked Gloomy Nether Bricks,ひび割れた陰鬱なネザー石レンガ
 block.netherex.cracked_lively_nether_bricks,Cracked Lively Nether Bricks,ひび割れた活気あるネザー石レンガ
-block.netherex.cracked_warped_nether_bricks,Cracked Warped Nether Bricks,ひび割れたねじれたネザー石レンガ
+block.netherex.cracked_warped_nether_bricks,Cracked Warped Nether Bricks,ひび割れた歪んだネザー石レンガ
 block.netherex.crimson_nether_brick_fence,Crimson Nether Brick Fence,猩紅の下界ブロックフェンス
 block.netherex.crimson_nether_brick_fence_gate,Crimson Nether Brick Fence Gate,真紅・ネザー・レンガ・フェンス・ゲート
 block.netherex.crimson_nylium_path,Crimson Nylium Path,赤いニリウムの道
@@ -279,7 +279,7 @@ config.netherex:block.thornstalk,Thornstalk Settings,Thornstalk 設定
 config.netherex:block.thornstalk.tooltip,Settings that only affect Thornstalk,トーネストラックにのみ影響する設定
 config.netherex:block.thornstalk.canDestroyItems,Can Destroy Items,アイテムを破壊できる
 config.netherex:block.thornstalk.canDestroyItems.tooltip,Can Thornstalk destroy Items,Thornstalkはアイテムを破壊できるか？
-config.netherex:block.thornstalk.mobBlacklist,Mob Blacklist,Mobブラックリスト
+config.netherex:block.thornstalk.mobBlacklist,Mob Blacklist,Mob黒リスト
 config.netherex:block.thornstalk.mobBlacklist.tooltip,Mobs Thornstalk won't hurt,Mobs Thornstalkはダメージを与えない
 config.netherex:block.hyphae,Hyphae Settings,ハイファイア設定
 config.netherex:block.hyphae.tooltip,Settings that only affect Hyphae,ハイファにのみ影響を与える設定
@@ -291,13 +291,13 @@ config.netherex:mobEffect.freeze,Freeze Effect Settings,凍結効果設定
 config.netherex:mobEffect.freeze.tooltip,Settings that only affect the Freeze Effect,凍結効果のみ影響する設定
 config.netherex:mobEffect.freeze.thawRarity,Thaw Rarity,解凍の稀有度
 config.netherex:mobEffect.freeze.thawRarity.tooltip,How rare it is for a mob to Thaw from the Freeze Effect when ticked,タックル時にモブがFreeze Effectから解凍される稀少度。
-config.netherex:mobEffect.freeze.mobBlacklist,Mob Blacklist,Mobブラックリスト
+config.netherex:mobEffect.freeze.mobBlacklist,Mob Blacklist,Mob黒リスト
 config.netherex:mobEffect.freeze.mobBlacklist.tooltip,Mobs that won't freeze,凍結しないモブ
 config.netherex:mobEffect.spore,Spore Effect Settings,胞子効果設定
 config.netherex:mobEffect.spore.tooltip,Settings that only affect the Spore Effect,胞子効果のみ影響する設定
 config.netherex:mobEffect.spore.sporeSpawnRarity,Spore Spawn Rarity,スプールの出現率
 config.netherex:mobEffect.spore.sporeSpawnRarity.tooltip,How rare it is for a Spore to spawn from an entity with the Spore Effect,スパー効果を持つエンティティからスパーが出現する確率です。
-config.netherex:mobEffect.spore.mobBlacklist,Mob Blacklist,Mobブラックリスト
+config.netherex:mobEffect.spore.mobBlacklist,Mob Blacklist,Mob黒リスト
 config.netherex:mobEffect.spore.mobBlacklist.tooltip,Mobs that won't spawn Spores,スプールを生成しないモンスター
 config.netherex:mobEffect.lost,Lost Effect Settings,失われた効果の設定
 config.netherex:mobEffect.lost.tooltip,Settings that only affect the Lost Effect,Lost Effectにのみ影響する設定
@@ -338,7 +338,7 @@ config.netherex:entity.spore.growthTime.tooltip,How long does it take for a Spor
 config.netherex:entity.spore.creeperSpawnAmount,Creeper Spawn Amount,クリーパー生成量
 config.netherex:entity.spore.creeperSpawnAmount.tooltip,How many Spore Creepers Spawn from a Spore,スパーから生成されるスパークリーパーの数
 config.netherex:entity.brute,Brute Settings,ブラート設定
-config.netherex:entity.brute.tooltip,Settings that only affect the Brute,ブルートにのみ影響する設定
+config.netherex:entity.brute.tooltip,Settings that only affect the Brute,青トにのみ影響する設定
 config.netherex:entity.brute.chargeCooldown,Charge Cooldown,充電冷却時間
 config.netherex:entity.brute.chargeCooldown.tooltip,How long is the cooldown after charging players,プレイヤー充電後のクールダウンはどれくらいですか？
 config.netherex:entity.ghastQueen,Ghast Queen Settings,ガストクイーン設定
@@ -406,7 +406,7 @@ entity.netherex:pigtificate_enchanter.name,Pigtificate Enchanter,ピグフィケ
 entity.netherex:pigtificate_brewer.name,Pigtificate Brewer,Pigtificate 醸造者
 entity.netherex:gold_golem.name,Gold Golem,金のゴーレム
 entity.netherex:mogus.name,Mogus,モグス
-entity.netherex:brown_mogus.name,Brown Mogus,ブラウンモグス
+entity.netherex:brown_mogus.name,Brown Mogus,茶モグス
 entity.netherex:red_mogus.name,Red Mogus,赤いモグス
 entity.netherex:white_mogus.name,White Mogus,白いモグス
 entity.netherex:salamander.name,Salamander,サラマンダー
@@ -479,10 +479,10 @@ item.netherex:orange_salamander_hide_helmet.name,Orange Salamander Hide Helmet,�
 item.netherex:orange_salamander_hide_chestplate.name,Orange Salamander Hide Chestplate,橙色のサラマンダーの皮のチェストプレート
 item.netherex:orange_salamander_hide_leggings.name,Orange Salamander Hide Leggings,橙サラマンダー皮レギンス
 item.netherex:orange_salamander_hide_boots.name,Orange Salamander Hide Boots,橙サラマンダー皮のブーツ
-item.netherex:black_salamander_hide_helmet.name,Black Salamander Hide Helmet,ブラックサラマンダー皮のヘルメット
-item.netherex:black_salamander_hide_chestplate.name,Black Salamander Hide Chestplate,ブラックサラマンダーの皮のチェストプレート
+item.netherex:black_salamander_hide_helmet.name,Black Salamander Hide Helmet,黒サラマンダー皮のヘルメット
+item.netherex:black_salamander_hide_chestplate.name,Black Salamander Hide Chestplate,黒サラマンダーの皮のチェストプレート
 item.netherex:black_salamander_hide_leggings.name,Black Salamander Hide Leggings,黒いサラマンダーの皮製レギンス
-item.netherex:black_salamander_hide_boots.name,Black Salamander Hide Boots,ブラックサラマンダー皮ブーツ
+item.netherex:black_salamander_hide_boots.name,Black Salamander Hide Boots,黒サラマンダー皮ブーツ
 subtitle.netherex:sound.pigtificate_ambient,Pigtificate Snort,ブタの鼻を吹き出す
 subtitle.netherex:sound.pigtificate_hurt,Pigtificate Hurt Squeal,ピグティフェクトダメージ鳴き声
 subtitle.netherex:sound.mogus_ambient,Mogus Converse,モグスの会話

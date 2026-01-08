@@ -2,7 +2,7 @@
 commands.neruina.cancel.not_logging_in,No active authentication request to cancel.,キャンセルする認証リクエストはありません。
 commands.neruina.clear,Cleared %s tracked ticking entries.,%s の追跡ティッキングエントリをクリアしました。
 commands.neruina.clear.none,There are no tracked ticking entries to clear.,クリアすべきトッキングエントリはありません
-commands.neruina.id,Ticking Entry ID: %s,タッキングエントリID: %s
+commands.neruina.id,Ticking Entry ID: %s,ティッキングエントリID: %s
 commands.neruina.id.block.not_errored,Block [%s] at (%s) is not errored.,ブロック[%s] 位置 (%s) にエラーはありません。
 commands.neruina.id.entity.not_errored,%s is not errored.,%s にエラーはありません。
 commands.neruina.id.item_stack.not_errored,%s's held Item Stack [%s] is not errored.,%s が持っているアイテムスタック [%s] はエラーではありません。
@@ -21,7 +21,7 @@ commands.neruina.kill.not_found,Target Entity could not be found. It may have be
 commands.neruina.report.aborted,Authentication Cancelled.,認証がキャンセルされました。
 commands.neruina.report.already_exists,Issue already reported.,この問題は既に報告されています。
 commands.neruina.report.authenticated,Authenticated with GitHub. Reporting issue...,GitHubで認証済みです。問題を報告中…
-commands.neruina.report.failure,"Failed to report issue, see logs for more information.",問題の報告に失敗しました。詳細はログをご覧ください。
+commands.neruina.report.failure,"Failed to report issue, see logs for more information.",問題の報告に失敗しました。詳細は原木をご覧ください。
 commands.neruina.report.in_progress,Report already in progress.,報告が既に進行中です。
 commands.neruina.report.not_found,"Could not create report as the associated ticking entry was not found. It may have been unloaded, removed or cleared.",関連するティッキングエントリーが見つからないため、レポートを作成できませんでした。アンロード、削除、またはクリアされた可能性があります。
 commands.neruina.report.processing,"Authenticating with GitHub. Please check your browser, this will expire in 5 minutes.",GitHubで認証しています。ブラウザを確認してください。このリンクは5分後に期限切れになります。
@@ -45,7 +45,7 @@ neruina.cancel.tooltip,Cancels the authentication request.,認証要求をキャ
 neruina.clear,Clear,クリア
 neruina.clear.tooltip,Clears all tracked ticking entries. This will not affect any entities that are currently suspended.,追跡中のすべてのティッキングエントリーをクリアします。現在停止しているエンティティには影響しません。
 neruina.copy_crash,Copy Crash,クラッシュをコピー
-neruina.copy_crash.tooltip,Copies the caught ticking exception to your clipboard,捕捉された ticking 例外をクリップボードにコピーします
+neruina.copy_crash.tooltip,Copies the caught ticking exception to your clipboard,捕捉された ティッキング例外をクリップボードにコピーします
 neruina.info,What Is This?,これは何ですか？
 neruina.info.tooltip,Click here to learn more about ticking exceptions and what Neruina does,ここをクリックして、ティッキング例外とNeruinaの機能について詳しく学びましょう
 neruina.kick.message,You have been kicked due to a ticking exception on your player. Server logs will contain more information.,プレイヤーのティッキング例外によってキックされました。詳細はサーバーログを確認してください。
@@ -71,18 +71,18 @@ neruina.teleport.block_entity.tooltip,Teleports you to the position of the ticki
 neruina.teleport.block_state.tooltip,Teleports you to the position of the ticking Block,タスク中のブロック位置にテレポートします
 neruina.teleport.entity.tooltip,Teleports you to the position of the ticking Entity,ティッキングエンティティの位置にテレポートする
 neruina.teleport.unknown.tooltip,Teleports you to the position of the ticking Entry,タスク中のエントリ位置にテレポートします
-neruina.ticking.block_entity,Caught Ticking Block Entity [%s] at (%s).,Ticking ブロックエンティティ [%s] を位置(%s)で検出しました。
+neruina.ticking.block_entity,Caught Ticking Block Entity [%s] at (%s).,ティッキングブロックエンティティ [%s] を位置(%s)で検出しました。
 neruina.ticking.block_state,Caught Ticking Block from random tick [%s] at (%s).,ランダムティック[%s]でTicking Blockが検出されました (%s)。
-neruina.ticking.entity.killed,Caught Ticking Entity [%s] at (%s). It has been killed.,Ticking Entity [%s] を (%s) で捕捉しました。既に死亡しています。
+neruina.ticking.entity.killed,Caught Ticking Entity [%s] at (%s). It has been killed.,ティッキングエンティティ [%s] を (%s) で捕捉しました。既に死亡しています。
 neruina.ticking.entity.suspend_failed,"Could not suspend Entity [%s], killing it instead.",エンティティ[%s]を停止できませんでした、代わりに殺害します。
-neruina.ticking.entity.suspended,Caught Ticking Entity [%s] at (%s). It has been suspended.,Ticking エンティティ [%s] を (%s) で検出しました。停止されました。
-neruina.ticking.item_stack,Caught Ticking Item Stack [%s] in slot [%s].,スロット [%s] にあるタッキングアイテムスタック [%s] を検出しました。
+neruina.ticking.entity.suspended,Caught Ticking Entity [%s] at (%s). It has been suspended.,ティッキングエンティティ [%s] を (%s) で検出しました。停止されました。
+neruina.ticking.item_stack,Caught Ticking Item Stack [%s] in slot [%s].,スロット [%s] にあるティッキングアイテムスタック [%s] を検出しました。
 neruina.ticking.player,"Caught Ticking Player, %s has been kicked.",Tickingプレイヤーが検出されました、%s はキックされました。
 neruina.ticking_entries.count,There are %s suspended ticking entries:,%s 個の停止中ティックエントリがあります:
 neruina.ticking_entries.count.single,There is 1 suspended ticking entry:,サスペンドされたティッキングエントリが 1 件あります:
 neruina.ticking_entries.entry,<%s> at (%s),<%s> に位置 (%s)
 neruina.ticking_entries.entry.tooltip,Click for more information about this entry.,このエントリに関する詳細情報を見るにはクリックしてください。
-neruina.toast.desc,"Neruina caught a ticking execption on your client, see your logs for more info.",Neruinaがクライアントでタイミング例外を検出しました。詳細はログをご確認ください。
+neruina.toast.desc,"Neruina caught a ticking execption on your client, see your logs for more info.",Neruinaがクライアントでタイミング例外を検出しました。詳細は原木をご確認ください。
 neruina.toast.title,Ticking Exception,例外のチキチキ
 neruina.try_resume,Try Resume,再開を試みる
 neruina.try_resume.block_entity.tooltip,Allows the Block Entity to resume ticking. If it crashes again it will be resuspended.,ブロックエンティティのチッキングを再開します。再びクラッシュすると、一時停止されます。

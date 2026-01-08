@@ -9,7 +9,7 @@ advancements.witherstormmod.main.cured_sickened_mob.description,Cure a wither si
 advancements.witherstormmod.main.cured_sickened_mob.title,Licensed Clinician,承認された臨床医
 advancements.witherstormmod.main.escape_wither_storm.description,Escape from the Wither Storm's clutches by inflicting a blow to its heads,ウィザーストームの捕縛から逃げるために、その頭に打撃を与えます。
 advancements.witherstormmod.main.escape_wither_storm.title,Brushing Shoulders With Death,死にの肩を梳く
-advancements.witherstormmod.main.fbomb.description,"Obtain a Formidibomb, a bomb capable of destroying almost anything in its path",ほぼすべてを破壊できる爆弾「フォーミディバンブー」を入手してください
+advancements.witherstormmod.main.fbomb.description,"Obtain a Formidibomb, a bomb capable of destroying almost anything in its path",ほぼすべてを破壊できる爆弾「フォーミディ竹」を入手してください
 advancements.witherstormmod.main.fbomb.title,F-Bomb,F-ボム
 advancements.witherstormmod.main.fully_link_amulet.description,Link all four colors of the amulet to different mobs,アミュレットの4色すべてを異なるモブにリンクする
 advancements.witherstormmod.main.fully_link_amulet.title,Order of the Stone,石の秩序
@@ -99,7 +99,7 @@ block.witherstormmod.tainted_skull_ceiling,Tainted Skull Ceiling,汚染頭蓋骨
 block.witherstormmod.tainted_slab,Tainted Slab,汚染されたハーフブロック
 block.witherstormmod.tainted_smooth_sandstone,Tainted Smooth Sandstone,汚染された滑らかな砂岩
 block.witherstormmod.tainted_smooth_sandstone_slab,Tainted Smooth Sandstone Slab,汚染された滑らかな砂岩ハーフブロック
-block.witherstormmod.tainted_smooth_sandstone_stairs,Tainted Smooth Sandstone Stairs,汚れたスムーズサンドストーン階段
+block.witherstormmod.tainted_smooth_sandstone_stairs,Tainted Smooth Sandstone Stairs,汚れたスムーズ砂岩階段
 block.witherstormmod.tainted_smooth_sandstone_wall,Tainted Smooth Sandstone Wall,汚染された滑らかな砂岩壁
 block.witherstormmod.tainted_stairs,Tainted Stairs,汚染された階段
 block.witherstormmod.tainted_stone,Tainted Stone,汚染された石
@@ -400,7 +400,7 @@ gui.witherstormmod.config.clusterSizeModifier.title,Block Cluster Size Modifier,
 gui.witherstormmod.config.clustersRemoveItems.description,Specifies if Block Clusters should remove non-important items in its path. NOTE: Disabling can cause major lag.,ブロッククラスタがその経路上の重要でないアイテムを削除するかを指定します。注意：無効化すると大きなラグが発生する可能性があります。
 gui.witherstormmod.config.clustersRemoveItems.title,Block Clusters Remove Items,ブロッククラスターからアイテム除去
 gui.witherstormmod.config.constantBlackhole.description,"CAUTION THIS WILL BE EXTREMELY LAGGY, THIS SETS THE WITHER STORM TO HAVE NO SMALL CLUSTER COOLDOWN.",⚠️ これは非常にラグが発生します。この設定はウィザー・ストームに小クラスターのクールダウンを無効化します。
-gui.witherstormmod.config.constantBlackhole.title,Constant Blackhole,恒常的なブラックホール
+gui.witherstormmod.config.constantBlackhole.title,Constant Blackhole,恒常的な黒ホール
 gui.witherstormmod.config.convertFallingBlocks.description,Specifies if the Wither Storm should convert falling blocks into clusters (NOTE: This can be very laggy and cause the Wither Storm to evolve fast!).,ウィザーストームが落下しているブロックをクラスタに変換するかを指定します（注意：これは非常にラグが生じる可能性があり、ウィザーストームが急速に進化する可能性があります）。
 gui.witherstormmod.config.convertFallingBlocks.title,Convert Falling Blocks,落下ブロックを変換
 gui.witherstormmod.config.craftFuseTicks.description,"Specifies the fuse in ticks that count down to the formidibomb's explosion. The fuse is set when the block is crafted.
@@ -483,7 +483,7 @@ gui.witherstormmod.config.ignoreUltimateTargetIfHidden.title,Ignore Ultimate Tar
 gui.witherstormmod.config.increaseAmplifier.description,Specifies if entities who are reinfected over a short period of time should receive wither sickness with a greater strength.,短時間に再感染するエンティティがより強力なウィザーシックネス効果を受け取るかを指定します。
 gui.witherstormmod.config.increaseAmplifier.title,Increase Amplifier,アンプを増強
 gui.witherstormmod.config.injectAiMobBlacklist.description,A list of mobs that should not have custom AI injected into them,カスタムAIを注入しないモブのリストです
-gui.witherstormmod.config.injectAiMobBlacklist.title,Inject AI Mob Blacklist,AIモブブラックリストをインジェクト
+gui.witherstormmod.config.injectAiMobBlacklist.title,Inject AI Mob Blacklist,AIモブ黒リストをインジェクト
 gui.witherstormmod.config.injectCustomAiBehavior.description,Specifies if custom AI behavior should be injected into certain entities (such as mobs running away from the Wither Storm). Disable if facing compatibility issues,カスタムAI動作を特定のエンティティ（ウィザーストームから逃げるMobなど）に注入するかを指定します。互換性の問題がある場合は無効化してください。
 gui.witherstormmod.config.injectCustomAiBehavior.title,Inject Custom AI Behavior,カスタムAI行動をインジェクト
 gui.witherstormmod.config.instantChomp.description,Specifies if a Wither Storm head should immediately kill the player upon biting them. Does not apply to heads inside the bowels.,ウィザーストームのヘッドがプレイヤーを咬むと即座にプレイヤーを殺すかを指定します。腸内のヘッドには適用されません。
@@ -538,7 +538,7 @@ gui.witherstormmod.config.minimumRoarInterval.description,"Specifies the lowest 
 Range: 1 ~ 100","ウィザーストームの頭のいずれかが吠えて炎の頭蓋骨を発射するのにかかる最短時間（秒単位）を指定します。
 範囲: 1 ~ 100"
 gui.witherstormmod.config.minimumRoarInterval.title,Minimum Roar Interval,最小咆哮間隔
-gui.witherstormmod.config.minimumSpawnCheckInterval.title,Minimum Spawn Check Interval,最小スパワーンチェックインターバル
+gui.witherstormmod.config.minimumSpawnCheckInterval.title,Minimum Spawn Check Interval,最小スポーンチェック間隔
 gui.witherstormmod.config.minutesTillRunawayAttemptDiminish.description,"Specifies the required time that must pass (in minutes) in order to decrease the runaway attempt amount. This timer only counts if the Wither Storms ultimate target remains in the stationary chunk radius.
 Range: 1 ~ 48","逃走試行回数を減らすために経過する必要がある時間(分単位)を指定します。このタイマーは、ウィザーストームの究極のターゲットが静止したチャンク範囲内に留まる場合にのみカウントされます。
 範囲: 1 ~ 48"
@@ -773,13 +773,13 @@ item.witherstormmod.iron_command_tool.info,"Deals it's damage twice, once as nor
 item.witherstormmod.phasometer,Phasometer,位相計
 item.witherstormmod.sickened_bee_spawn_egg,Sickened Bee Spawn Egg,病んだミツバチスポーンエッグ
 item.witherstormmod.sickened_cat_spawn_egg,Sickened Cat Spawn Egg,病んだネコのスポーンエッグ
-item.witherstormmod.sickened_chicken_spawn_egg,Sickened Chicken Spawn Egg,病気になったニワトリスパウンド
+item.witherstormmod.sickened_chicken_spawn_egg,Sickened Chicken Spawn Egg,病気のニワトリのスポーンエッグ
 item.witherstormmod.sickened_cow_spawn_egg,Sickened Cow Spawn Egg,病気の牛の産卵
-item.witherstormmod.sickened_creeper_spawn_egg,Sickened Creeper Spawn Egg,病気になったクリーパースパウンド
+item.witherstormmod.sickened_creeper_spawn_egg,Sickened Creeper Spawn Egg,病気のクリーパーのスポーンエッグ
 item.witherstormmod.sickened_iron_golem_spawn_egg,Sickened Iron Golem Spawn Egg,病気になった鉄のゴーレムのスポーン卵
 item.witherstormmod.sickened_mushroom_cow_spawn_egg,Sickened Mooshroom Spawn Egg,病んだムースチュームのスポーン卵
 item.witherstormmod.sickened_parrot_spawn_egg,Sickened Parrot Spawn Egg,病気のオウムスポーンエッグ
-item.witherstormmod.sickened_phantom_spawn_egg,Sickened Phantom Spawn Egg,病気になったフェンリースパウンド
+item.witherstormmod.sickened_phantom_spawn_egg,Sickened Phantom Spawn Egg,病気のファントムのスポーンエッグ
 item.witherstormmod.sickened_pig_spawn_egg,Sickened Pig Spawn Egg,病気の豚の産卵
 item.witherstormmod.sickened_pillager_spawn_egg,Sickened Pillager Spawn Egg,病んだピリガーのスポーンエッグ
 item.witherstormmod.sickened_skeleton_spawn_egg,Sickened Skeleton Spawn Egg,病んだスケルトンのスポーンエッグ

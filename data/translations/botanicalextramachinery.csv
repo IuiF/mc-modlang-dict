@@ -17,7 +17,7 @@ block.botanicalextramachinery.crimson_dragonstone_block,Crimson Dragonstone Bloc
 block.botanicalextramachinery.crimson_ingot_block,Crimson Block,真紅ブロック
 block.botanicalextramachinery.crystal_dragonstone_block,Crystal Dragonstone Block,クリスタルドラゴンストーンブロック
 block.botanicalextramachinery.crystal_ingot_block,Crystal Block,クリスタルブロック
-block.botanicalextramachinery.greenhouse,Greenhouse,グリーンハウス
+block.botanicalextramachinery.greenhouse,Greenhouse,緑ハウス
 block.botanicalextramachinery.jaded_amaranthus,Jaded Amaranthus,ジェイディッド・アマランサス
 block.botanicalextramachinery.malachite_dragonstone_block,Malachite Dragonstone Block,マラカイトドラゴンストーンブロック
 block.botanicalextramachinery.malachite_ingot_block,Malachite Block,マラカイトブロック
@@ -56,7 +56,7 @@ botanicalextramachinery.tooltip.item.upgradeFlower_32x,§6Increases stack of flo
 botanicalextramachinery.tooltip.item.upgradeFlower_4x,§6Increases stack of flowers to §a4,§6花の保有量が§a4§6増加する
 botanicalextramachinery.tooltip.item.upgradeFlower_64x,§6Increases stack of flowers to §a64,§6花の保有量が§a64§6増加する
 botanicalextramachinery.tooltip.item.upgradeGenMana,§6Increases mana generation by §a25%§6 and energy cost by §c100%,§6マナの生成量が§a25%§6増加し、消費電力が§c100%§6増加する
-botanicalextramachinery.tooltip.item.upgradeHeatGreenhouse,§6Adds heat to the greenhouse. Every 10 heat increases generation by §a5% §6(§cMax 20%§6),§6グリーンハウスが熱を帯びるようになる。熱量が10増えるごとにマナの生成量が§a5%§6増加する(§c最大20%§6)
+botanicalextramachinery.tooltip.item.upgradeHeatGreenhouse,§6Adds heat to the greenhouse. Every 10 heat increases generation by §a5% §6(§cMax 20%§6),§6緑ハウスが熱を帯びるようになる。熱量が10増えるごとにマナの生成量が§a5%§6増加する(§c最大20%§6)
 botanicalextramachinery.tooltip.item.upgradeSlotAdd,§6Unlocks §a2§6 rows of fuel slots,§6燃料スロットを§a2§6列拡張する
 botanicalextramachinery.tooltip.item.upgradeStorageEnergy_1,§6Increases energy storage by §a10§6 times,§6蓄電量を§a10§6倍にする
 botanicalextramachinery.tooltip.item.upgradeStorageEnergy_2,§6Increases energy storage by §a100§6 times,§6蓄電量を§a100§6倍にする
@@ -64,8 +64,8 @@ botanicalextramachinery.tooltip.item.upgradeStorageEnergy_3,§6Increases energy 
 botanicalextramachinery.tooltip.item.upgradeStorageMana_1,§6Increases mana storage by §a10§6 times,§6マナの貯蔵量を§a10§6倍にする
 botanicalextramachinery.tooltip.item.upgradeStorageMana_2,§6Increases mana storage by §a100§6 times,§6マナの貯蔵量を§a100§6倍にする
 botanicalextramachinery.tooltip.item.upgradeStorageMana_3,§6Increases mana storage by §a1000§6 times,§6マナの貯蔵量を§a1000§6倍にする
-botanicalextramachinery.tooltip.item.upgradeTickGenMana_1,§6Increases greenhouse speed by §a25%,§6グリーンハウスの速度が§a25%§6上昇する
-botanicalextramachinery.tooltip.item.upgradeTickGenMana_2,§6Increases greenhouse speed by §a50%,§6グリーンハウスの速度が§a50%§6上昇する
+botanicalextramachinery.tooltip.item.upgradeTickGenMana_1,§6Increases greenhouse speed by §a25%,§6緑ハウスの速度が§a25%§6上昇する
+botanicalextramachinery.tooltip.item.upgradeTickGenMana_2,§6Increases greenhouse speed by §a50%,§6緑ハウスの速度が§a50%§6上昇する
 botanicalextramachinery.tooltip.item.upgrade_speed_1,§6Speeds up crafting by §d4 times. §c(Max 1),§6クラフト速度を§d4倍にする§c(最大1)
 botanicalextramachinery.tooltip.item.upgrade_speed_2,§6Only for §cindustrial agglomeration factory,§c工業性集結ファクトリー§6で使用する
 botanicalextramachinery.tooltip.item.water,§6Generates infinite water,§6水を無限に生成する
@@ -133,13 +133,13 @@ item.botanicalextramachinery.upgrade_tick_gen_mana_1,Upgrade speed generation ma
 item.botanicalextramachinery.upgrade_tick_gen_mana_2,Upgrade speed generation mana (Tier 2),生成速度アップグレード(ティア2)
 itemGroup.botanicalextramachinery,Extra Botanical Machinery,追加の植物機械
 lexicon.botanicalextramachinery.description,"An expanded edition of the well-known Botanical Machinery mod. Improved mechanisms up to 4 tiers, as well as new mechanisms that will help you.",おなじみBotanical Machineryの拡張版になります。魔法装置が4つのティアに強化されるほか、新たな魔法装置も追加され、あなたの助けになることでしょう。
-lexicon.botanicalextramachinery.greenhouse,Greenhouse,グリーンハウス
+lexicon.botanicalextramachinery.greenhouse,Greenhouse,緑ハウス
 lexicon.botanicalextramachinery.greenhouse.page_1,"High technology that allows you to generate a colossal amount of $(thing)mana$(0) (with maximum improvements). This mechanism works from the $(thing)energy$(0) and fuel that the flowers eat. $(p)Initially, the fuel slots will not be accessible until a $(item)flower$(0) is placed in the top slot. This keeps the fuel slots clean. Only items for the $(item)flower$(0) to ""eat"" can be placed there.",高度な技術と最大限の改善により、膨大な量の$(thing)マナ$(0)を生成できるようになりました。この装置は$(thing)電力$(0)と花が消費する燃料により稼働します。$(p)まず、燃料はそれに対応する$(item)花$(0)を上のスロットに入れないと搬入できません。$(item)花$(0)を設置した後、消費する燃料のみ設置しましょう。
-lexicon.botanicalextramachinery.greenhouse.page_2,"The $(item)greenhouse$(0) can also be improved with the help of $(l:botanicalextramachinery/greenhouse_upgrades)$(item)upgrades$(0)$(/l), which can be read in the corresponding catalog.$(p)It is also worth noting that if there is a mod Applied Botanics Addon, then the greenhouse can connect to ME and give mana there itself",$(item)グリーンハウス$(0)は様々な$(l:botanicalextramachinery/greenhouse_upgrades)$(item)アップグレード$(0)$(/l)によって性能を強化することができます。詳しくは対応するページをご覧ください。$(p)Applied Botanicsを導入しているならば、MEネットワークに接続してグリーンハウスからマナを搬出することができます。
+lexicon.botanicalextramachinery.greenhouse.page_2,"The $(item)greenhouse$(0) can also be improved with the help of $(l:botanicalextramachinery/greenhouse_upgrades)$(item)upgrades$(0)$(/l), which can be read in the corresponding catalog.$(p)It is also worth noting that if there is a mod Applied Botanics Addon, then the greenhouse can connect to ME and give mana there itself",$(item)温室$(0)は様々な$(l:botanicalextramachinery/greenhouse_upgrades)$(item)アップグレード$(0)$(/l)によって性能を強化することができます。詳しくは対応するページをご覧ください。$(p)Applied Botanicsを導入しているならば、MEネットワークに接続して温室からマナを搬出することができます。
 lexicon.botanicalextramachinery.sparks,Sparks,スパーク
 lexicon.botanicalextramachinery.sparks.page_1,"To move mana faster, new types of $(item)sparks$(0) have been added. With each new tier, the spark transfers more $(thing)mana$(0) than the previous tier.$(p)There is also a $(item)basic sparks$(0), which is analogous to a regular $(item)spark$(0).",マナをより速く輸送するために、新たな$(item)スパーク$(0)が追加されました。ティアが上がるごとにより多くの$(thing)マナ$(0)を輸送することができます。$(p)$(item)ベーススパーク$(0)という、通常の$(item)スパーク$(0)と類似したものもあります。
-lexicon.botanicalextramachinery.suitable_flowers,Suitable Flowers,グリーンハウスの花
-lexicon.botanicalextramachinery.suitable_flowers.page_1,"The greenhouse does not support all types of generating flowers. At the moment, it supports the following flowers: $(li)Endoflame$(0)$(li)Entropinnyum$(0)$(li)Gourmaryllis$(0)$(li)Kekimurus$(0)$(li)Munchdew$(0)$(li)Narslimmus(0)$(li)Rafflowsia$(0)$(li)Rosa Arcana$(0)$(li)Wither Aconite$(0)",グリーンハウスはすべての種類のマナを生成する花に対応しているわけではありません。現在は次の花に対応しています：$(li)エンドフレイム$(0)$(li)エントロピウム$(0)$(li)ガーマリリス$(0)$(li)ケキムラス$(0)$(li)マンチデュー$(0)$(li)ナースライムス(0)$(li)ラフロウシア$(0)$(li)ローズアルカナ$(0)$(li)ウィザートリカブト$(0)
+lexicon.botanicalextramachinery.suitable_flowers,Suitable Flowers,緑ハウスの花
+lexicon.botanicalextramachinery.suitable_flowers.page_1,"The greenhouse does not support all types of generating flowers. At the moment, it supports the following flowers: $(li)Endoflame$(0)$(li)Entropinnyum$(0)$(li)Gourmaryllis$(0)$(li)Kekimurus$(0)$(li)Munchdew$(0)$(li)Narslimmus(0)$(li)Rafflowsia$(0)$(li)Rosa Arcana$(0)$(li)Wither Aconite$(0)",緑ハウスはすべての種類のマナを生成する花に対応しているわけではありません。現在は次の花に対応しています：$(li)エンドフレイム$(0)$(li)エントロピウム$(0)$(li)ガーマリリス$(0)$(li)ケキムラス$(0)$(li)マンチデュー$(0)$(li)ナースライムス(0)$(li)ラフロウシア$(0)$(li)ローズアルカナ$(0)$(li)ウィザートリカブト$(0)
 lexicon.botanicalextramachinery.suitable_flowers.page_2,"Rosa Arcana - consumes experience bubbles. But mana is given randomly from how much experience was received from 1 bubble (Normal values of experience drop when breaking a bubble)$(p)Narslimmus - Instead of slimes (mobs), it consumes slime ball or slime block$(p)Wither Aconite - available if the MythicBotany mod is installed$(p)",ローズアルカナ - エンチャントの瓶を消費します。ただし、1瓶から得られる経験値量に応じてマナの生成量が変動します。$(p)ナースライムス - モブのスライムではなくスライムボールかスライムブロックを消費します$(p)ウィザートリカブト - MythicBotanyが導入時のみ有効です$(p)
 lexicon.botanicalextramachinery.tiers,Tiers,ティア
 lexicon.botanicalextramachinery.tiers.page_1,"This mod adds new tiers of mechanisms for Botanical Machinery. There are 4 tiers in total and each one differs from each other in the available upgrades, the number of slots, and the number of crafts at a time.$(p)",このMODではBotanical Machineryの装置に新たなティアを追加します。合計4つのティアがあり、それぞれ適用可能なアップグレード・スロット・ クラフトにかかる時間などが異なります。$(p)
@@ -149,14 +149,14 @@ lexicon.botanicalextramachinery.upgrades,Upgrades,アップグレード
 lexicon.botanicalextramachinery.upgrades.cost_energy,Upgraded cost energy,省電力
 lexicon.botanicalextramachinery.upgrades.gen_mana,Upgraded generation mana,生成量
 lexicon.botanicalextramachinery.upgrades.heat,Upgraded heat,熱量
-lexicon.botanicalextramachinery.upgrades.page_1,"There are about 16 upgrades for the greenhouse. Let's go through them all in order.$(p)Stack Improvements for slots flower$(p)This upgrade increases the amount of flowers received per slot, from 4 to 64 for 1 slot.",グリーンハウスには16種類のアップグレードがあります。それらを順番に見ていきましょう。$(p)花の保有量増加$(p)スロットごとに収まる花の数が4から64まで増加します。
+lexicon.botanicalextramachinery.upgrades.page_1,"There are about 16 upgrades for the greenhouse. Let's go through them all in order.$(p)Stack Improvements for slots flower$(p)This upgrade increases the amount of flowers received per slot, from 4 to 64 for 1 slot.",緑ハウスには16種類のアップグレードがあります。それらを順番に見ていきましょう。$(p)花の保有量増加$(p)スロットごとに収まる花の数が4から64まで増加します。
 lexicon.botanicalextramachinery.upgrades.page_2,"Increases $(thing)mana$(0) generation by $(#32c962)25 percent$(0), but also increases energy consumption by $(#d4002e)100 percent$(0)",$(thing)マナ$(0)の生成量が$(#32c962)25%$(0)増加しますが、消費電力が$(#d4002e)100%$(0)増加します。
-lexicon.botanicalextramachinery.upgrades.page_3,"This upgrade adds heat to the greenhouse, which increases the amount of $(thing)mana$(0) gained by $(#32c962)5 percent$(0) for every $(#fbb954)10 heat$(0). A total of $(#fbb954)40 heat$(0) can be stored and a maximum of $(#32c962)20 percent$(0) $(thing)mana$(0) can be gained.",このアップグレードにより、グリーンハウスが熱を帯びるようになり、熱量が$(#fbb954)10$(0)増えるごとに$(thing)マナ$(0)の生成量が$(#32c962)5%$(0)増加します。熱量は最大で$(#fbb954)40$(0)、生成量は$(#32c962)20%$(0)まで増加します。
+lexicon.botanicalextramachinery.upgrades.page_3,"This upgrade adds heat to the greenhouse, which increases the amount of $(thing)mana$(0) gained by $(#32c962)5 percent$(0) for every $(#fbb954)10 heat$(0). A total of $(#fbb954)40 heat$(0) can be stored and a maximum of $(#32c962)20 percent$(0) $(thing)mana$(0) can be gained.",このアップグレードにより、緑ハウスが熱を帯びるようになり、熱量が$(#fbb954)10$(0)増えるごとに$(thing)マナ$(0)の生成量が$(#32c962)5%$(0)増加します。熱量は最大で$(#fbb954)40$(0)、生成量は$(#32c962)20%$(0)まで増加します。
 lexicon.botanicalextramachinery.upgrades.page_4,"Adds $(#32c962)2$(0) rows of fuel slots. That is, instead of the original 7 slots, $(#fbb954)21 slots$(0) will become available",燃料スロットを$(#32c962)2$(0)列追加します。通常の7スロットから$(#fbb954)21スロット$(0)まで追加できます。
 lexicon.botanicalextramachinery.upgrades.page_5,"Increases the internal $(thing)mana$(0) buffer by $(#32c962)10$(0), $(#32c962)100$(0), and $(#32c962)1000$(0) times the base value. It is worth remembering that if you remove the upgrades, the excess $(thing)mana$(0) will be removed.",$(thing)マナ$(0)の貯蔵量が$(#32c962)10$(0)・$(#32c962)100$(0)・$(#32c962)1000$(0)倍増加します。アップグレードを外すと超過分の$(thing)マナ$(0)は消滅するので注意しましょう。
 lexicon.botanicalextramachinery.upgrades.page_6,"Increases the internal energy buffer by $(#32c962)10$(0), $(#32c962)100$(0), and $(#32c962)1000$(0) times the base value. It is worth remembering that if you remove the improvements, the excess energy will be removed.",蓄電量が$(#32c962)10$(0)・$(#32c962)100$(0)・$(#32c962)1000$(0)倍増加します。アップグレードを外すと超過分の電力は消滅するので注意しましょう。
-lexicon.botanicalextramachinery.upgrades.page_7,These improvements speed up the greenhouse operation by $(#32c962)25 percent$(0) and $(#32c962)50 percent$(0) respectively.,グリーンハウスの稼働速度が$(#32c962)25%$(0)、または$(#32c962)50%$(0)上昇します。
-lexicon.botanicalextramachinery.upgrades.page_8,Reduces greenhouse energy consumption by $(#32c962)50 percent$(0).,グリーンハウスの消費電力が$(#32c962)50%$(0)減少します。
+lexicon.botanicalextramachinery.upgrades.page_7,These improvements speed up the greenhouse operation by $(#32c962)25 percent$(0) and $(#32c962)50 percent$(0) respectively.,緑ハウスの稼働速度が$(#32c962)25%$(0)、または$(#32c962)50%$(0)上昇します。
+lexicon.botanicalextramachinery.upgrades.page_8,Reduces greenhouse energy consumption by $(#32c962)50 percent$(0).,緑ハウスの消費電力が$(#32c962)50%$(0)減少します。
 lexicon.botanicalextramachinery.upgrades.slot_add,Upgraded slot add,スロット拡張
 lexicon.botanicalextramachinery.upgrades.slots_flower,Stack flower,保有量
 lexicon.botanicalextramachinery.upgrades.storage_energy,Upgraded storage energy,蓄電量

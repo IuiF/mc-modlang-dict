@@ -306,7 +306,7 @@ craftpresence.placeholders.world.weather.name.description,The current world's we
 gui.config.comment.accessibility.language_id,The locale or language identifier to be used for translating this mod's strings,翻訳に使用するロケールまたは言語識別子 this modのstrings
 gui.config.comment.accessibility.strip_translation_colors,Allows CraftPresence to remove color codes from it's translations,クラフトプレゼンスが翻訳から色コードを削除できるようにします
 gui.config.comment.accessibility.strip_translation_formatting,Allows CraftPresence to remove formatting codes from it's translations,クラフトプレゼンスが翻訳からフォーマットコードを削除できるようにします
-gui.config.comment.advanced.debug_mode,"Toggles Developer Mode, showing debug features and enabling debug logging",開発者モードを切り替えます。デバッグ機能を表示し、有効化します デバッグ logging
+gui.config.comment.advanced.debug_mode,"Toggles Developer Mode, showing debug features and enabling debug logging",開発者モードを切り替えます。デバッグ機能を表示し、デバッグログを有効化します
 gui.config.comment.advanced.enable_class_graph,"Allows CraftPresence to utilize functions from ClassGraph, improving module auto-lookup results\n Note the following:\n - These functions can be memory-intensive, and not recommended unless needed\n - Triggers a full module re-scan once enabled if previously disabled","クラフトプレゼンスがClassGraphの機能を使用できるようにします,インプroving module auto-lookup results\n Notefollowing:\n - These functions can be memory-intensive, and not recommended unless needed\n - Triggers a full module re-scan once enabled if previously disabled"
 gui.config.comment.advanced.entity_riding_messages,Customize messages to display when riding an entity\n%1$s,エンティティに乗っているときに表示するメッセージをカスタマイズ\n%1$s
 gui.config.comment.advanced.entity_target_messages,Customize messages to display when pointing at an entity\n%1$s,エンティティを指しているときに表示するメッセージをカスタマイズ\n%1$s
@@ -315,30 +315,34 @@ gui.config.comment.advanced.gui_messages,Customize messages to display with Guis
 gui.config.comment.advanced.item_messages,Customize messages to display with items\n%1$s,アイテムで表示するメッセージをカスタマイズ\n%1$s
 gui.config.comment.advanced.player_skin_endpoint,"The endpoint URL to use for retrieving player skins\n Notes:\n - This endpoint is used for Scroll List Previews and the ""player.icon"" placeholder, if not overriden","プレイヤースキンを取得するために使用するエンドポイントURL\n Notes:\n - This endpoint is used for ScrollリストPreviews and""player.icon"" placeholder, if not overriden"
 gui.config.comment.advanced.refresh_rate,"The time to take in between refreshing the Rich Presence display and modules, in seconds",リッチプレゼンス表示とモジュールの更新間隔(秒単位)
-gui.config.comment.advanced.verbose_mode,"Toggles Verbose Mode, showing more detailed logging as well as stack traces and deeper exception messages",詳細モードを切り替えます。より詳細なログ、スタックトレース、深い例外メッセージを表示します
+gui.config.comment.advanced.verbose_mode,"Toggles Verbose Mode, showing more detailed logging as well as stack traces and deeper exception messages",詳細モードを切り替えます。より詳細な原木、スタックトレース、深い例外メッセージを表示します
 gui.config.comment.biome_messages.biome_icon,Biome icon to default to when in an unsupported or unknown biome,サポートされていない、または未知のバイオーム内でデフォルトするバイオームアイコン
 gui.config.comment.biome_messages.biome_messages,Customize messages to display with biomes\n%1$s,バイオームで表示するメッセージをカスタマイズ\n%1$s
 gui.config.comment.dimension_messages.dimension_icon,Dimension icon to default to when in an unsupported or unknown dimension,サポートされていない、または未知のディメンション内でデフォルトするディメンションアイコン
 gui.config.comment.dimension_messages.dimension_messages,Customize messages to display with dimensions\n%1$s,ディメンションで表示するメッセージをカスタマイズ\n%1$s
 gui.config.comment.display.dynamic_icons,"Customize dynamic images to display in the RPC\n Notes:\n - Any placeholder from other modules can be used (Globals, Biomes, Dimensions, etc)",リッチプレゼンスで表示する動的画像をカスタマイズ\n 注:\n - プレースホルダーなど、他のモジュールのプレースホルダーを使用できます
 gui.config.comment.display.dynamic_variables,"Customize dynamic placeholders to display in the RPC\n Notes:\n - Any placeholder from other modules can be used (Globals, Biomes, Dimensions, etc)\n - Can be defined via ""custom.<name>""","リッチプレゼンスで表示する動的プレースホルダーをカスタマイズ\n 注:\n - プレースホルダーなど、他のモジュールのプレースホルダーを使用できます\n - ""custom.<name>"" で定義できます"
-gui.config.comment.display_settings,"Customize the global Rich Presence Event, including dynamic data.",動的を含むグローバルリッチプレゼンスイベントをカスタマイズ data.
+gui.config.comment.display_settings,"Customize the global Rich Presence Event, including dynamic data.",動的データを含むグローバルリッチプレゼンスイベントをカスタマイズします。
 gui.config.comment.general.client_id,"Client ID used for retrieving assets, icon keys, and titles",アセット、アイコンキー、タイトルの取得に使用されるクライアントID
 gui.config.comment.general.detect_atlauncher_instance,Enable detection for ATLauncher instance data?,ATLauncherインスタンスデータの検出を有効化?
-gui.config.comment.general.detect_biome_data,Enable detection of biome data?\n(Allows usage of Biome Messages and associated placeholders),Enable detectionのbiome data?\n(Allows usageのバイオームメッセージ and associated placeholders)
+gui.config.comment.general.detect_biome_data,Enable detection of biome data?\n(Allows usage of Biome Messages and associated placeholders),"バイオームデータの検出を有効にしますか？
+（バイオームメッセージと関連プレースホルダーの使用を許可します）"
 gui.config.comment.general.detect_curse_manifest,Enable detection for Twitch/Curse manifest data?,Twitch/Curseマニフェストデータの検出を有効化?
-gui.config.comment.general.detect_dimension_data,Enable detection of dimension data?\n(Allows usage of Dimension Messages and associated placeholders),Enable detectionのdimension data?\n(Allows usageのディメンション メッセージ and associated placeholders)
+gui.config.comment.general.detect_dimension_data,Enable detection of dimension data?\n(Allows usage of Dimension Messages and associated placeholders),"ディメンションデータの検出を有効にしますか？
+（ディメンションメッセージと関連プレースホルダーの使用を許可します）"
 gui.config.comment.general.detect_mcupdater_instance,Enable detection for MCUpdater instance data?,MCUpdaterインスタンスデータの検出を有効にしますか?
 gui.config.comment.general.detect_modrinth_pack,Enable detection for Modrinth pack data?,Modrinthパックデータの検出を有効化?
 gui.config.comment.general.detect_multimc_manifest,Enable detection for MultiMC instance data?,MultiMCインスタンスデータの検出を有効化?
 gui.config.comment.general.detect_technic_pack,Enable detection for Technic pack data?,Technicパックデータの検出を有効化?
-gui.config.comment.general.detect_world_data,Enable detection of Server/SinglePlayer world data?\n(Allows usage of Server Messages and associated placeholders),Enable detectionのServer/SinglePlayer world data?\n(Allows usageのServer メッセージ and associated placeholders)
+gui.config.comment.general.detect_world_data,Enable detection of Server/SinglePlayer world data?\n(Allows usage of Server Messages and associated placeholders),"サーバー/シングルプレイヤーワールドデータの検出を有効にしますか？
+（サーバーメッセージと関連プレースホルダーの使用を許可します）"
 gui.config.comment.general.enable_join_request,Allow sending/receiving join requests in Discord?,ディスコードでの参加リクエストの送受信を許可しますか?
 gui.config.comment.general.preferred_client,The preferred Discord Client Type to connect to\n(Will fallback to Any if a client of this type is not running),"接続するDiscordクライアントの優先タイプ
 (このタイプのクライアントが実行されていない場合は、任意にフォールバック)"
 gui.config.comment.server_messages.server_icon,Server icon to default to when in an unsupported server,サポートされていないサーバーの場合にデフォルトで使用するサーバーアイコン
 gui.config.comment.server_messages.server_messages,Customize messages to display with servers\n%1$s,サーバーで表示するメッセージをカスタマイズします\\n%1$s
-gui.config.comment.server_messages.server_name,"Server display name to default to, in the case of a null name\n(Also applies for direct connects)",サーバー表示名が null の場合にデフォルトで使用する名前\\n（直接接続時にも適用）
+gui.config.comment.server_messages.server_name,"Server display name to default to, in the case of a null name\n(Also applies for direct connects)","サーバー表示名がnullの場合にデフォルトで使用する名前
+（直接接続時にも適用されます）"
 gui.config.comment.status_messages.lan_message,Message to display while in a LAN game\n%1$s,LANゲーム中に表示されるメッセージ\\n%1$s
 gui.config.comment.status_messages.loading_message,Message to display while in a loading state\n(Between RPC initializing and the first refresh)\n%1$s,読み込み状態中に表示するメッセージ\\n(RPC初期化と最初のリフレッシュの間)\\n%1$s
 gui.config.comment.status_messages.main_menu_message,Message to display while on the main menu\n%1$s,メインメニュー上に表示するメッセージ\\n%1$s
@@ -462,14 +466,14 @@ gui.config.name.general.detect_mcupdater_instance,Detect MCUpdater Instance,MCUp
 gui.config.name.general.detect_modrinth_pack,Detect Modrinth Pack,Modrinthパックを検出
 gui.config.name.general.detect_multimc_manifest,Detect MultiMC Instance,MultiMCインスタンスを検出
 gui.config.name.general.detect_technic_pack,Detect Technic Pack,Technicパックを検出
-gui.config.name.general.detect_world_data,Detect World Data,Detect ワールド Data
+gui.config.name.general.detect_world_data,Detect World Data,ワールドデータを検出
 gui.config.name.general.enable_join_request,Enable Join Requests,参加リクエストを有効にする
 gui.config.name.general.preferred_client,Preferred Client,優先クライアント
 gui.config.name.general.reset_time_on_init,Reset Time on Init,初期化時に時刻をリセット
 gui.config.name.server_messages.server_icon,Default Server Icon,デフォルト サーバー アイコン
 gui.config.name.server_messages.server_messages,Server Messages,サーバー メッセージ
 gui.config.name.server_messages.server_motd,Default Server Motd,デフォルトサーバーMotd
-gui.config.name.server_messages.server_name,Default Server Name,Default Server 名前
+gui.config.name.server_messages.server_name,Default Server Name,デフォルトサーバー名
 gui.config.name.status_messages.lan_message,LAN Game Message,LAN ゲーム メッセージ
 gui.config.name.status_messages.loading_message,Loading Message,ローディングメッセージ
 gui.config.name.status_messages.main_menu_message,Main Menu Message,Main Menu メッセージ

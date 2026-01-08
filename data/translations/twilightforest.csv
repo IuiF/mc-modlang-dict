@@ -900,8 +900,8 @@ Set to 0 to prevent the Transformation Core from functioning.","変化の心が�
 0に設定すると、変化の心が機能しなくなります。"
 config.twilightforest.uncrafting,Uncrafting Table,解体作業台
 config.twilightforest.uncrafting.tooltip,Settings for all things related to the Uncrafting Table.,解体作業台に関するすべての設定。
-config.twilightforest.uncrafting_mod_id_flip,Mod ID Blacklist,Mod IDのブラックリスト
-config.twilightforest.uncrafting_mod_id_flip.tooltip,"If true, this will invert the above option from a blacklist to a whitelist.",trueにすると、上記のオプションがブラックリストからホワイトリストに反転します。
+config.twilightforest.uncrafting_mod_id_flip,Mod ID Blacklist,Mod IDの黒リスト
+config.twilightforest.uncrafting_mod_id_flip.tooltip,"If true, this will invert the above option from a blacklist to a whitelist.",trueにすると、上記のオプションが黒リストから白リストに反転します。
 config.twilightforest.uncrafting_mod_ids,Disabled Mod IDs,無効化するMod ID
 config.twilightforest.uncrafting_mod_ids.tooltip,"Here, you can disable all items from certain mods from being uncrafted.
 Input a valid mod id to disable all uncrafting recipes from that mod.
@@ -917,8 +917,8 @@ If you have a problematic ingredient, like infested towerwood for example, add t
 例：「twilightforest:firefly_particle_spawner」と記述すると、パーティクルスポナーをホタル入りの瓶、ホタル、ポピーに解体するレシピが無効化されます。
 アイテムに複数のクラフトレシピがあり、それらすべてを無効化したい場合は、そのアイテムをアイテムタグ「twilightforest:banned_uncraftables」に追加してください。
 タワーウッドの虫食い板材のような問題のある材料がある場合、そのアイテムをアイテムタグ「twilightforest:banned_uncrafting_ingredients」に追加してください。"
-config.twilightforest.uncrafting_recipes_flip,Recipe Blacklist,レシピのブラックリスト
-config.twilightforest.uncrafting_recipes_flip.tooltip,"If true, this will invert the above uncrafting recipe list from a blacklist to a whitelist.",trueにすると、上記の解体クラフトレシピの一覧がブラックリストからホワイトリストに反転します。
+config.twilightforest.uncrafting_recipes_flip,Recipe Blacklist,レシピの黒リスト
+config.twilightforest.uncrafting_recipes_flip.tooltip,"If true, this will invert the above uncrafting recipe list from a blacklist to a whitelist.",trueにすると、上記の解体クラフトレシピの一覧が黒リストから白リストに反転します。
 config.twilightforest.uncrafting_xp_cost,Uncrafting Cost Multiplier,解体クラフトのコストの倍率
 config.twilightforest.uncrafting_xp_cost.tooltip,"Multiplies the total XP cost of uncrafting an item and rounds up.
 Higher values means the recipe will cost more to uncraft, lower means less. Set to 0 to disable the cost altogether.
@@ -1016,7 +1016,7 @@ entity.twilightforest.armored_giant,Armored Giant,巨人(剣)
 entity.twilightforest.bighorn_sheep,Bighorn Sheep,オオツノヒツジ
 entity.twilightforest.blockchain_goblin,Block and Chain Goblin,鉄球使いゴブリン
 entity.twilightforest.boar,Boar,イノシシ
-entity.twilightforest.carminite_broodling,Carminite Broodling,カーミナイトブルードリング
+entity.twilightforest.carminite_broodling,Carminite Broodling,カーミナイト青ドリング
 entity.twilightforest.carminite_ghastguard,Carminite Ghastguard,カーミナイトガストガード
 entity.twilightforest.carminite_ghastling,Carminite Ghastling,カーミナイトガストリング
 entity.twilightforest.carminite_golem,Carminite Golem,カーミナイトゴーレム
@@ -1061,8 +1061,8 @@ entity.twilightforest.pinch_beetle,Pinch Beetle,ピンチビートル
 entity.twilightforest.protection_box,Progression Protection Box,進捗保護の箱
 entity.twilightforest.quest_ram,Quest Ram,色食みの羊
 entity.twilightforest.raven,Forest Raven,黄昏カラス
-entity.twilightforest.redcap,Redcap Goblin,レッドキャップ
-entity.twilightforest.redcap_sapper,Redcap Sapper,レッドキャップ工兵
+entity.twilightforest.redcap,Redcap Goblin,赤キャップ
+entity.twilightforest.redcap_sapper,Redcap Sapper,赤キャップ工兵
 entity.twilightforest.rising_zombie,Zombie,ゾンビ
 entity.twilightforest.roving_cube,Roving Cube [NYI],さまようキューブ
 entity.twilightforest.seeker_arrow,Seeker Arrow,シーカーの矢
@@ -1138,7 +1138,7 @@ item.twilightforest.brittle_potion_flask,Brittle Potion Flask,割れやすいポ
 item.twilightforest.canopy_boat,Canopy Boat,林冠木のボート
 item.twilightforest.canopy_chest_boat,Canopy Chest Boat,チェスト付きの林冠木のボート
 item.twilightforest.carminite,Carminite,カーミナイト
-item.twilightforest.carminite_broodling_spawn_egg,Carminite Broodling Spawn Egg,カーミナイトブルードリングのスポーンエッグ
+item.twilightforest.carminite_broodling_spawn_egg,Carminite Broodling Spawn Egg,カーミナイト青ドリングのスポーンエッグ
 item.twilightforest.carminite_ghastguard_spawn_egg,Carminite Ghastguard Spawn Egg,カーミナイトガスト(守護兵)のスポーンエッグ
 item.twilightforest.carminite_ghastling_spawn_egg,Carminite Ghastling Spawn Egg,カーミナイトガストのスポーンエッグ
 item.twilightforest.carminite_golem_spawn_egg,Carminite Golem Spawn Egg,カーミナイトゴーレムのスポーンエッグ
@@ -1309,8 +1309,8 @@ item.twilightforest.raven_spawn_egg,Forest Raven Spawn Egg,カラスのスポー
 item.twilightforest.raw_ironwood,Raw Ironwood,樹鉄の素
 item.twilightforest.raw_meef,Raw Meef,生のミノ肉
 item.twilightforest.raw_venison,Raw Venison,生の鹿肉
-item.twilightforest.redcap_sapper_spawn_egg,Redcap Sapper Spawn Egg,レッドキャップ工兵のスポーンエッグ
-item.twilightforest.redcap_spawn_egg,Redcap Goblin Spawn Egg,レッドキャップゴブリンのスポーンエッグ
+item.twilightforest.redcap_sapper_spawn_egg,Redcap Sapper Spawn Egg,赤キャップ工兵のスポーンエッグ
+item.twilightforest.redcap_spawn_egg,Redcap Goblin Spawn Egg,赤キャップゴブリンのスポーンエッグ
 item.twilightforest.scepter.desc,%s charges left,残り%s回
 item.twilightforest.seeker_bow,Seeker Bow,シーカーボウ
 item.twilightforest.skeleton_druid_spawn_egg,Skeleton Druid Spawn Egg,スケルトンドルイドのスポーンエッグ
@@ -1521,9 +1521,9 @@ subtitles.twilightforest.entity.blockchain_goblin.hurt,Block and Chain Goblin sc
 subtitles.twilightforest.entity.boar.ambient,Boar oinks,イノシシが鳴く
 subtitles.twilightforest.entity.boar.death,Boar dies,イノシシが死ぬ
 subtitles.twilightforest.entity.boar.hurt,Boar hurts,イノシシがダメージを受ける
-subtitles.twilightforest.entity.carminite_broodling.ambient,Carminite Broodling hisses,カーミナイトブルードリングが鳴く
-subtitles.twilightforest.entity.carminite_broodling.death,Carminite Broodling dies,カーミナイトブルードリングが死ぬ
-subtitles.twilightforest.entity.carminite_broodling.hurt,Carminite Broodling hurts,カーミナイトブルードリングがダメージを受ける
+subtitles.twilightforest.entity.carminite_broodling.ambient,Carminite Broodling hisses,カーミナイト青ドリングが鳴く
+subtitles.twilightforest.entity.carminite_broodling.death,Carminite Broodling dies,カーミナイト青ドリングが死ぬ
+subtitles.twilightforest.entity.carminite_broodling.hurt,Carminite Broodling hurts,カーミナイト青ドリングがダメージを受ける
 subtitles.twilightforest.entity.carminite_ghastguard.ambient,Carminite Ghastguard cries,カーミナイトガストガードが泣く
 subtitles.twilightforest.entity.carminite_ghastguard.death,Carminite Ghastguard dies,カーミナイトガストガードが死ぬ
 subtitles.twilightforest.entity.carminite_ghastguard.hurt,Carminite Ghastguard screams,カーミナイトガストガードが叫ぶ
@@ -1649,9 +1649,9 @@ subtitles.twilightforest.entity.quest_ram.death,Quest Ram dies,色食みの羊�
 subtitles.twilightforest.entity.quest_ram.hurt,Quest Ram hurts,色食みの羊がダメージを受ける
 subtitles.twilightforest.entity.raven.caw,Raven caws,カラスが鳴く
 subtitles.twilightforest.entity.raven.squawk,Raven squawks,カラスが痛みに悲鳴を上げる
-subtitles.twilightforest.entity.redcap.ambient,Redcap chuckles,レッドキャップゴブリンがけらけら笑う
-subtitles.twilightforest.entity.redcap.death,Redcap groans in agony,レッドキャップゴブリンが苦しみうめく
-subtitles.twilightforest.entity.redcap.hurt,Redcap screeches in pain,レッドキャップゴブリンが悲鳴を上げる
+subtitles.twilightforest.entity.redcap.ambient,Redcap chuckles,赤キャップゴブリンがけらけら笑う
+subtitles.twilightforest.entity.redcap.death,Redcap groans in agony,赤キャップゴブリンが苦しみうめく
+subtitles.twilightforest.entity.redcap.hurt,Redcap screeches in pain,赤キャップゴブリンが悲鳴を上げる
 subtitles.twilightforest.entity.skeleton_druid.ambient,Skeleton Druid rattles,スケルトンドルイドが骨を鳴らす
 subtitles.twilightforest.entity.skeleton_druid.death,Skeleton Druid dies,スケルトンドルイドが死ぬ
 subtitles.twilightforest.entity.skeleton_druid.hurt,Skeleton Druid hurts,スケルトンドルイドがダメージを受ける
@@ -1928,7 +1928,7 @@ twilightforest.tips.peacock_feather_fan,The Peacock Feather Fan can be used to e
 twilightforest.tips.phantom_armor,Phantom Armor is automatically kept on death.,ファントムの防具は死んでも自動的に保持される。
 twilightforest.tips.quest_ram,The Questing Ram will reward anyone who gives it what it's missing.,色食みの羊は、必要なものを提供してくれた者に報酬を与える。
 twilightforest.tips.red_thread,Red Thread can be seen through walls.,赤い糸は壁越しに見える。
-twilightforest.tips.redcap,Redcaps can place and light TNT.,レッドキャップ工兵はTNTの設置や点火ができる。
+twilightforest.tips.redcap,Redcaps can place and light TNT.,赤キャップ工兵はTNTの設置や点火ができる。
 twilightforest.tips.skull_candle,Candles can be placed on top of mob heads to create a fancy light source.,Mobの頭の上にろうそくを置くと、派手な光源になる。
 twilightforest.tips.sorting_tree,The Sorting Tree will sort chests next to it into other chests nearby.,分類の木は、その隣にあるチェストを近くの他のチェストに仕分ける。
 twilightforest.tips.spooky_forest,The Spooky Forest is not Halloween themed.,不気味な森はハロウィンがテーマというわけではない。
@@ -2117,7 +2117,7 @@ entity.twilightforest.goblin_knight_upper,Upper Goblin Knight,ゴブリン騎士
 entity.twilightforest.hydra_head,Hydra Head,ヒドラの頭
 entity.twilightforest.mini_ghast,Carminite Ghastling,カーミナイトガストリング
 entity.twilightforest.naga_segment,Naga Segment,ナーガの部位
-entity.twilightforest.tower_broodling,Carminite Broodling,カーミナイトブルードリング
+entity.twilightforest.tower_broodling,Carminite Broodling,カーミナイト青ドリング
 entity.twilightforest.tower_ghast,Carminite Ghastguard,カーミナイトガストガード
 entity.twilightforest.tower_golem,Carminite Golem,カーミナイトゴーレム
 entity.twilightforest.tower_termite,Towerwood Borer,タワーウッドボーラー
@@ -2182,7 +2182,7 @@ item.twilightforest.shader.name.ur-ghast,Ur-Ghast,ウルガスト
 item.twilightforest.shader_bag,Twilit %s Shader Bag,薄明の%sシェーダーバッグ
 item.twilightforest.shield_scepter,Scepter of Fortification,守りの杖
 item.twilightforest.tf_trophy,%s Trophy,%s テロップ
-item.twilightforest.tower_broodling_spawn_egg,Carminite Broodling Spawn Egg,カーミナイトブルードリングのスポーンエッグ
+item.twilightforest.tower_broodling_spawn_egg,Carminite Broodling Spawn Egg,カーミナイト青ドリングのスポーンエッグ
 item.twilightforest.tower_ghast_spawn_egg,Carminite Ghastguard Spawn Egg,カーミナイトガスト(守護兵)のスポーンエッグ
 item.twilightforest.tower_golem_spawn_egg,Carminite Golem Spawn Egg,カーミナイトゴーレムのスポーンエッグ
 item.twilightforest.tower_termite_spawn_egg,Towerwood Borer Spawn Egg,タワーウッドボーラーのスポーンエッグ
@@ -2240,9 +2240,9 @@ subtitles.twilightforest.entity.bighorn.hurt,Bighorn Sheep hurts,オオツノヒ
 subtitles.twilightforest.entity.blockchain.ambient,Block and Chain Goblin chuckles,鉄球使いゴブリンがけらけら笑う
 subtitles.twilightforest.entity.blockchain.death,Block and Chain Goblin dies,鉄球使いゴブリンが死ぬ
 subtitles.twilightforest.entity.blockchain.hurt,Block and Chain Goblin screams,鉄球使いゴブリンが悲鳴を上げる
-subtitles.twilightforest.entity.broodling.ambient,Carminite Broodling hisses,カーミナイトブルードリングが鳴く
-subtitles.twilightforest.entity.broodling.death,Carminite Broodling dies,カーミナイトブルードリングが死ぬ
-subtitles.twilightforest.entity.broodling.hurt,Carminite Broodling hurts,カーミナイトブルードリングがダメージを受ける
+subtitles.twilightforest.entity.broodling.ambient,Carminite Broodling hisses,カーミナイト青ドリングが鳴く
+subtitles.twilightforest.entity.broodling.death,Carminite Broodling dies,カーミナイト青ドリングが死ぬ
+subtitles.twilightforest.entity.broodling.hurt,Carminite Broodling hurts,カーミナイト青ドリングがダメージを受ける
 subtitles.twilightforest.entity.carminitegolem.attack,Carminite Golem attacks,カーミナイトゴーレムが攻撃する
 subtitles.twilightforest.entity.carminitegolem.death,Carminite Golem dies,カーミナイトゴーレムが死ぬ
 subtitles.twilightforest.entity.carminitegolem.hurt,Carminite Golem hurts,カーミナイトゴーレムがダメージを受ける
@@ -2366,7 +2366,7 @@ twilightforest.config.admin_portals,Admin-Only Twilight Portals,黄昏のポー�
 twilightforest.config.admin_portals.tooltip,"Allow portals only for admins (Operators). This severely reduces the range in which the mod usually scans for valid portal conditions, and it scans near ops only.",黄昏のポータル作成を管理者(OP権限)しかできないようにします。これにより管理者の周辺のみポータル作成条件をスキャンするようになり、負荷が減ります。
 twilightforest.config.animate_trophyitem,Rotate Trophy Heads on Item model,インベントリ内でトロフィーを回転させる
 twilightforest.config.animate_trophyitem.tooltip,Rotate trophy heads on item model. Has no performance impact at all. For those who don't like fun.,インベントリ内でトロフィーを回転させます。パフォーマンスへの影響は全くありません。好きではない人はfalseにして下さい。
-twilightforest.config.antibuilder_blacklist,Antibuilder Blacklist,アンチビルダーのブラックリスト
+twilightforest.config.antibuilder_blacklist,Antibuilder Blacklist,アンチビルダーの黒リスト
 twilightforest.config.antibuilder_blacklist.tooltip,Anti-Builder blacklist. (domain:block:meta) meta is optional.,アンチビルダーが破壊しないブロックのリスト(domain:block:meta)。 metaはオプション。
 twilightforest.config.canopy_coverage,Canopy Coverage,林冠木のカバレッジ
 twilightforest.config.canopy_coverage.tooltip,Amount of canopy coverage. Lower numbers improve chunk generation speed at the cost of a thinner forest.,林冠木のカバレッジの量。小さな値にするとワールド生成スピードが向上しますが、薄い森になります。
@@ -2905,7 +2905,7 @@ item.twilightforest.chainBlock.name,Block and Chain,モーニングスター
 item.twilightforest.cubeTalisman.name,Talisman of the Cube,六面の加護
 item.twilightforest.cubeOfAnnihilation.name,Cube of Annihilation,破滅の箱
 item.twilightforest.moonDial.name,Moon Dial,月の時計
-item.twilightforest.guide.name,Traveller's Logbook,旅人のログブック
+item.twilightforest.guide.name,Traveller's Logbook,旅人の原木ブック
 item.twilightforest.minotaurAxe.tooltip,Extra damage while charging,ダッシュ攻撃時に追加ダメージ
 item.twilightforest.minotaurAxeGold.tooltip,Extra damage while charging,ダッシュ攻撃時に追加ダメージ
 item.twilightforest.knightlySword.tooltip,Extra damage to armored targets,防具を付けた相手に追加ダメージ
@@ -2927,7 +2927,7 @@ item.twilightforest.yetiBoots.tooltip,Chills attackers,攻撃した相手を凍�
 entity.twilightforest.wild_boar.name,Wild Boar,黄昏イノシシ
 entity.twilightforest.bighorn_sheep.name,Bighorn Sheep,オオツノヒツジ
 entity.twilightforest.deer.name,Wild Deer,黄昏鹿
-entity.twilightforest.redcap.name,Redcap Goblin,レッドキャップ
+entity.twilightforest.redcap.name,Redcap Goblin,赤キャップ
 entity.twilightforest.swarm_spider.name,Swarm Spider,群れ蜘蛛
 entity.twilightforest.naga.name,Naga,ナーガ
 entity.twilightforest.naga_segment.name,Naga Segment,ナーガの部位
@@ -2956,7 +2956,7 @@ entity.twilightforest.fire_beetle.name,Fire Beetle,ファイアビートル
 entity.twilightforest.slime_beetle.name,Slime Beetle,スライムビートル
 entity.twilightforest.pinch_beetle.name,Pinch Beetle,ピンチビートル
 entity.twilightforest.maze_slime.name,Maze Slime,迷宮スライム
-entity.twilightforest.redcap_sapper.name,Redcap Sapper,レッドキャップ工兵
+entity.twilightforest.redcap_sapper.name,Redcap Sapper,赤キャップ工兵
 entity.twilightforest.mist_wolf.name,Mist Wolf,ミストウルフ
 entity.twilightforest.king_spider.name,King Spider,キングスパイダー
 entity.twilightforest.firefly.name,Firefly,ホタル
@@ -2964,7 +2964,7 @@ entity.twilightforest.mini_ghast.name,Carminite Ghastling,カーミナイトガ�
 entity.twilightforest.tower_ghast.name,Carminite Ghastguard,カーミナイトガストガード
 entity.twilightforest.tower_golem.name,Carminite Golem,カーミナイトゴーレム
 entity.twilightforest.tower_termite.name,Towerwood Borer,タワーウッドボーラー
-entity.twilightforest.tower_broodling.name,Carminite Broodling,カーミナイトブルードリング
+entity.twilightforest.tower_broodling.name,Carminite Broodling,カーミナイト青ドリング
 entity.twilightforest.ur_ghast.name,Ur-Ghast,ウルガスト
 entity.twilightforest.blockchain_goblin.name,Block and Chain Goblin,鉄球使いゴブリン
 entity.twilightforest.goblin_knight_upper.name,Upper Goblin Knight,ゴブリン騎士(上)

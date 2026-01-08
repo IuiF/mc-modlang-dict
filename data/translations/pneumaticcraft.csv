@@ -81,7 +81,7 @@ block.pneumaticcraft.pneumatic_generator,Pneumatic Generator,気動力発電機
 block.pneumaticcraft.pressure_chamber_glass,Pressure Chamber Glass,圧力室のガラス
 block.pneumaticcraft.pressure_chamber_interface,Pressure Chamber Interface,圧力チャンバーインターフェース
 block.pneumaticcraft.pressure_chamber_valve,Pressure Chamber Valve,圧力チャンバーバルブ
-block.pneumaticcraft.pressure_chamber_wall,Pressure Chamber Wall,圧力チャンバーウォール
+block.pneumaticcraft.pressure_chamber_wall,Pressure Chamber Wall,圧力チャンバー塀
 block.pneumaticcraft.pressure_tube,Pressure Tube,圧力管
 block.pneumaticcraft.pressurized_spawner,Pressurized Spawner,加圧スポナー
 block.pneumaticcraft.programmable_controller,Programmable Controller,プログラマブルコントローラー
@@ -187,7 +187,7 @@ gui.tooltip.block.pneumaticcraft.assembly_io_unit_export,Part of an Assembly lin
 gui.tooltip.block.pneumaticcraft.assembly_io_unit_import,Part of an Assembly line. Transfers items from an input inventory to an Assembly Platform.,組立ラインの一部です。入力インベントリから組立プラットフォームにアイテムを転送します。
 gui.tooltip.block.pneumaticcraft.assembly_laser,Part of an Assembly line. Lasers items on an Assembly Platform directly (not diagonally) adjacent to it.,組立ラインの一部です。組立プラットフォーム上のアイテムを直接(斜めではなく)隣接してレーザー照射します。
 gui.tooltip.block.pneumaticcraft.assembly_platform,Part of an Assembly line. Holds items in place for drilling and lasering.,組立ラインの一部です。穴あけやレーザー加工のためにアイテムを所定の位置に保持します。
-gui.tooltip.block.pneumaticcraft.compressed_iron_block,A block used as crafting component. Also an excellent heat conductor (but also see Heat Pipes).,クラフティングコンポーネントとして使用されるブロックです。優れた熱伝導体でもあります。(ヒートパイプも参照)
+gui.tooltip.block.pneumaticcraft.compressed_iron_block,A block used as crafting component. Also an excellent heat conductor (but also see Heat Pipes).,クラフトコンポーネントとして使用されるブロックです。優れた熱伝導体でもあります。(ヒートパイプも参照)
 gui.tooltip.block.pneumaticcraft.creative_compressed_iron_block,A creative-only block used to maintain any temperature you want.,任意の温度を維持するために使用するクリエイティブ専用のブロックです。
 gui.tooltip.block.pneumaticcraft.creative_compressor,A creative-only block used to generate any pressure you want.,任意の圧力を生成するために使用されるクリエイティブ専用のブロックです。
 gui.tooltip.block.pneumaticcraft.display_table,"This table can hold and display a single item, which can be interacted with via automation (hoppers/drones/pipes...)",このテーブルには自動化(ホッパー/ドローン/パイプなど)を介して操作できる単一のアイテムを保持して表示できます。
@@ -354,7 +354,7 @@ item.pneumaticcraft.jumping_upgrade_2,Jumping Upgrade: Tier II,ジャンピン�
 item.pneumaticcraft.jumping_upgrade_3,Jumping Upgrade: Tier III,ジャンピングアップグレード: ティアIII
 item.pneumaticcraft.jumping_upgrade_4,Jumping Upgrade: Tier IV,ジャンピングアップグレード: ティアIV
 item.pneumaticcraft.kerosene_bucket,Kerosene Bucket,灯油バケット
-item.pneumaticcraft.logistics_configurator,Logistics Configurator,ロジスティクスコンフィグレーター
+item.pneumaticcraft.logistics_configurator,Logistics Configurator,ロジスティクスコンフィギュレーター
 item.pneumaticcraft.logistics_core,Logistics Core,物流コア
 item.pneumaticcraft.logistics_drone,Logistics Drone,物流ドローン
 item.pneumaticcraft.logistics_frame_active_provider,Logistic Active Provider Frame,ロジスティクスアクティブプロバイダーフレーム
@@ -381,7 +381,7 @@ item.pneumaticcraft.network_registry,Network Registry,ネットワークレジ�
 item.pneumaticcraft.night_vision_upgrade,Night Vision Upgrade,暗視アップグレード
 item.pneumaticcraft.nuke_virus,Nuke Virus,核ウイルス
 item.pneumaticcraft.oil_bucket,Crude Oil Bucket,原油入りバケツ
-item.pneumaticcraft.pcb_blueprint,PCB Blueprint,基板ブループリント
+item.pneumaticcraft.pcb_blueprint,PCB Blueprint,基板青プリント
 item.pneumaticcraft.plastic,Plastic Sheet,プラスチックシート
 item.pneumaticcraft.plastic_bucket,Bucket of Molten Plastic,溶融プラスチックのバケツ
 item.pneumaticcraft.pneumatic_boots,Pneumatic Boots,空気圧ブーツ
@@ -475,7 +475,7 @@ pneumaticcraft.achievement.jackhammer.desc,Make yourself a Jackhammer and go dig
 pneumaticcraft.achievement.liquidCompressor,Better Than Coal,炭よりも優れている
 pneumaticcraft.achievement.liquidCompressor.desc,Make a Liquid Compressor for some more efficient pressure creation.,液体コンプレッサーを作製して、より効率的な圧力生成を実現します。
 pneumaticcraft.achievement.logisticsConfigurator,Smart Configuration,スマート設定
-pneumaticcraft.achievement.logisticsConfigurator.desc,"Make a Logistics Configurator to manage your Logistics frames. This tool also works on attachments like the Heat Frame, Spawner Agitator and Crop Supports.",ロジスティクスコンフィグレーターを作製して、ロジスティクスフレームを管理します。このツールはヒートフレーム、スポナー撹拌装置、作物サポートなどのアタッチメントにも使用できます。
+pneumaticcraft.achievement.logisticsConfigurator.desc,"Make a Logistics Configurator to manage your Logistics frames. This tool also works on attachments like the Heat Frame, Spawner Agitator and Crop Supports.",ロジスティクスコンフィギュレーターを作製して、ロジスティクスフレームを管理します。このツールはヒートフレーム、スポナー撹拌装置、作物サポートなどのアタッチメントにも使用できます。
 pneumaticcraft.achievement.logisticsDrone,Clever Little Helper,賢い小さなヘルパー
 pneumaticcraft.achievement.logisticsDrone.desc,Create and deploy a Logistics Drone to move items around your logistics network.,ロジスティクスドローンを作製・配置して、ロジスティクスネットワーク周辺のアイテムを移動させます。
 pneumaticcraft.achievement.logisticsFrame,Smart Storage,スマートストレージ
@@ -491,7 +491,7 @@ pneumaticcraft.achievement.minigun.desc,Craft a Minigun.,ミニガンを作製�
 pneumaticcraft.achievement.oilBucket,Black Gold,黒い金
 pneumaticcraft.achievement.oilBucket.desc,Scoop up a bucket of Oil.,原油を1バケット汲み上げます。
 pneumaticcraft.achievement.pcbBlueprint,And You're Done,そして完成
-pneumaticcraft.achievement.pcbBlueprint.desc,"(You're not, really). Use the Amadron Tablet to order a PCB Blueprint.",（本当ではありません）。アマドロンタブレットで基板ブループリントを注文します。
+pneumaticcraft.achievement.pcbBlueprint.desc,"(You're not, really). Use the Amadron Tablet to order a PCB Blueprint.",（本当ではありません）。アマドロンタブレットで基板青プリントを注文します。
 pneumaticcraft.achievement.plastic,Plastic Fantastic,プラスチック最高！
 pneumaticcraft.achievement.plastic.desc,"Create Molten Plastic by putting LPG and Coal in a TPP, then pour it out into the world.",LPGと石炭をTPPに入れて溶融プラスチックを作成し、それをワールドに放出します。
 pneumaticcraft.achievement.pneumaticArmor,Compressed Iron Man,圧縮鉄の人
@@ -785,13 +785,13 @@ pneumaticcraft.gui.keybindShiftRightClickToClear,▶ Shift + Right-Click: Clear 
 pneumaticcraft.gui.liquidCompressor.fuelsHeader,mL/mB | Fluid (x burn rate),mL/mB | 流体(x 燃焼速度)
 pneumaticcraft.gui.logistics_frame.facing,Facing: %s,向き: %s
 pneumaticcraft.gui.logistics_frame.filter_settings,Filter Settings,フィルター設定
-pneumaticcraft.gui.logistics_frame.fluidBlacklist,Fluid Blacklist,流体ブラックリスト
-pneumaticcraft.gui.logistics_frame.fluidWhitelist,Fluid Whitelist,流体ホワイトリスト
+pneumaticcraft.gui.logistics_frame.fluidBlacklist,Fluid Blacklist,流体黒リスト
+pneumaticcraft.gui.logistics_frame.fluidWhitelist,Fluid Whitelist,流体白リスト
 pneumaticcraft.gui.logistics_frame.hasFilters,§eCustom request filter configured. Place in crafting grid to clear.,§eカスタムリクエストフィルターが設定されました。クリアするにはクラフトグリッドに配置します。
 pneumaticcraft.gui.logistics_frame.invisible,Invisible,見えない
 pneumaticcraft.gui.logistics_frame.invisible.tooltip,Turns the Logistic Frame invisible (unless you have a Logistic item in your hand),ロジスティックフレームを非表示にします（手にロジスティックアイテムを持っていない限り）
-pneumaticcraft.gui.logistics_frame.itemBlacklist,Item Blacklist,アイテムブラックリスト
-pneumaticcraft.gui.logistics_frame.itemWhitelist,Item Whitelist,アイテムホワイトリスト
+pneumaticcraft.gui.logistics_frame.itemBlacklist,Item Blacklist,アイテム黒リスト
+pneumaticcraft.gui.logistics_frame.itemWhitelist,Item Whitelist,アイテム白リスト
 pneumaticcraft.gui.logistics_frame.liquid,Fluid Filters,流体フィルター
 pneumaticcraft.gui.logistics_frame.matchBlockstate,Blockstate,ブロック状態
 pneumaticcraft.gui.logistics_frame.matchBlockstate.tooltip,Check to match by block instead of dropped item. Use this if you need to match blocks which don't drop anything when broken by the drone's currently-equipped tool. §7§oOnly used by the 'Dig' programming piece.,ドロップされたアイテムではなくブロックで一致させるかどうかをチェックします。ドローンに現在装備されているツールで破壊しても何もドロップしないブロックを一致させる必要がある場合にこれを使用します。§7§o「Dig」プログラミングピースでのみ使用されます。
@@ -852,7 +852,7 @@ pneumaticcraft.gui.pastebin.button.copyToClipboard,Save code to clipboard,コー
 pneumaticcraft.gui.pastebin.button.get,Get from Pastebin,Pastebinから取得
 pneumaticcraft.gui.pastebin.button.loadFromClipboard,Load code from clipboard,クリップボードからコードを読み込む
 pneumaticcraft.gui.pastebin.button.login,Log In,ログイン
-pneumaticcraft.gui.pastebin.button.logout,Log Out,ログアウト
+pneumaticcraft.gui.pastebin.button.logout,Log Out,原木アウト
 pneumaticcraft.gui.pastebin.button.upload,Upload to Pastebin,Pastebinにアップロード
 pneumaticcraft.gui.pastebin.clipboardSetToContents,Clipboard set to contents.,クリップボードにコンテンツが設定されました。
 pneumaticcraft.gui.pastebin.invalidFormattedPastebin,Invalid formatted Pastebin or JSON.,無効な形式のPastebinまたはJSONです。
@@ -1812,7 +1812,7 @@ gui.tooltip.block.pneumaticcraft.reinforced_pressure_tube,"A stronger version of
 Max Safe Pressure: 10 bar","基本的な圧力チューブの強化版です。偽装することができ、チューブモジュールを配置して機能を追加できます。
 最大安全圧力: 10バール"
 gui.tooltip.block.pneumaticcraft.security_station,"When you want to protect an area from others messing with your stuff, you can use this machine to prevent other players from interacting with (or breaking) every block within its range. You can whitelist friends by adding them in the Trusted Players tab.
-Read the manual (Patchouli required) for detailed information on how to set up the network for best results, but do note that the Security Station is not 100%% immune from being hacked by a hostile player. You can do a dry-run test of the network's effectiveness with the Test button.","他の人があなたのものをいじる事からエリアを守りたいときは、この機械を使って他のプレイヤーがその範囲内のブロックに干渉したり壊したりできないようにすることができます。信頼できるプレイヤータブで友達を追加することで、友達をホワイトリストに登録できます。
+Read the manual (Patchouli required) for detailed information on how to set up the network for best results, but do note that the Security Station is not 100%% immune from being hacked by a hostile player. You can do a dry-run test of the network's effectiveness with the Test button.","他の人があなたのものをいじる事からエリアを守りたいときは、この機械を使って他のプレイヤーがその範囲内のブロックに干渉したり壊したりできないようにすることができます。信頼できるプレイヤータブで友達を追加することで、友達を白リストに登録できます。
 最良の結果を得るためにネットワークを設定する方法の詳細についてはマニュアル(Patchouliが必要)をお読みください。ただし、セキュリティステーションは敵対的なプレイヤーによるハッキングから100%%免れるわけではないことに注意してください。テストボタンを使用してネットワークの有効性の模擬テストを行うことができます。"
 gui.tooltip.block.pneumaticcraft.small_tank,"32,000mB capacity.
 Can be connected with tanks above and below with a wrench (if either tank is empty, or both tanks contain the same fluid).","容量は32,000mBです。
@@ -2054,7 +2054,7 @@ pneumaticcraft.advancement.jackhammer.desc,Make yourself a Jackhammer and go dig
 pneumaticcraft.advancement.liquid_compressor,Better Than Coal,炭よりも優れている
 pneumaticcraft.advancement.liquid_compressor.desc,Make a Liquid Compressor for some more efficient pressure creation.,液体コンプレッサーを作製して、より効率的な圧力生成を実現します。
 pneumaticcraft.advancement.logistics_configurator,Smart Configuration,スマート設定
-pneumaticcraft.advancement.logistics_configurator.desc,"Make a Logistics Configurator to manage your Logistics frames. This tool also works on attachments like the Heat Frame, Spawner Agitator and Crop Supports.",ロジスティクスコンフィグレーターを作製して、ロジスティクスフレームを管理します。このツールはヒートフレーム、スポナー撹拌装置、作物サポートなどのアタッチメントにも使用できます。
+pneumaticcraft.advancement.logistics_configurator.desc,"Make a Logistics Configurator to manage your Logistics frames. This tool also works on attachments like the Heat Frame, Spawner Agitator and Crop Supports.",ロジスティクスコンフィギュレーターを作製して、ロジスティクスフレームを管理します。このツールはヒートフレーム、スポナー撹拌装置、作物サポートなどのアタッチメントにも使用できます。
 pneumaticcraft.advancement.logistics_drone,Clever Little Helper,賢い小さなヘルパー
 pneumaticcraft.advancement.logistics_drone.desc,Create and deploy a Logistics Drone to move items around your logistics network.,ロジスティクスドローンを作製・配置して、ロジスティクスネットワーク周辺のアイテムを移動させます。
 pneumaticcraft.advancement.logistics_frame,Smart Storage,スマートストレージ
@@ -2070,7 +2070,7 @@ pneumaticcraft.advancement.minigun.desc,Craft a Minigun.,ミニガンを作製�
 pneumaticcraft.advancement.oil_bucket,Black Gold,黒い金
 pneumaticcraft.advancement.oil_bucket.desc,Scoop up a bucket of Oil.,原油を1バケット汲み上げます。
 pneumaticcraft.advancement.pcb_blueprint,And You're Done,そして完成
-pneumaticcraft.advancement.pcb_blueprint.desc,"(You're not, really). Use the Amadron Tablet to order a PCB Blueprint.",（本当ではありません）。アマドロンタブレットで基板ブループリントを注文します。
+pneumaticcraft.advancement.pcb_blueprint.desc,"(You're not, really). Use the Amadron Tablet to order a PCB Blueprint.",（本当ではありません）。アマドロンタブレットで基板青プリントを注文します。
 pneumaticcraft.advancement.plastic,Plastic Fantastic,プラスチック最高！
 pneumaticcraft.advancement.plastic.desc,"Create Molten Plastic by putting LPG and Coal in a TPP, then pour it out into the world.",LPGと石炭をTPPに入れて溶融プラスチックを作成し、それをワールドに放出します。
 pneumaticcraft.advancement.pneumatic_armor,Compressed Iron Man,圧縮鉄の人
@@ -2886,8 +2886,8 @@ pneumaticcraft.config.common.general.enable_dungeon_loot,Loot in dungeon chests?
 pneumaticcraft.config.common.general.fuel_bucket_efficiency,Fuel bucket efficiency,燃料バケツの効率
 pneumaticcraft.config.common.general.max_programming_area,Programmer max area size,プログラマー最大領域サイズ
 pneumaticcraft.config.common.general.min_fluid_fuel_temperature,Min temperature for fluid fueling,流体燃料の最低温度
-pneumaticcraft.config.common.general.oil_world_gen_dimension_blacklist,Oil lake dimension blacklist,オイルレイクディメンションブラックリスト
-pneumaticcraft.config.common.general.oil_world_gen_dimension_whitelist,Oil lake dimension whitelist,オイルレイクディメンションホワイトリスト
+pneumaticcraft.config.common.general.oil_world_gen_dimension_blacklist,Oil lake dimension blacklist,オイルレイクディメンション黒リスト
+pneumaticcraft.config.common.general.oil_world_gen_dimension_whitelist,Oil lake dimension whitelist,オイルレイクディメンション白リスト
 pneumaticcraft.config.common.general.plastic_brick_damage,Plastic construction brick damage,プラスチック製レンガのダメージ
 pneumaticcraft.config.common.general.top_shows_fluids,TOP shows fluids,TOPの流体表示
 pneumaticcraft.config.common.general.use_up_dyes_when_coloring,Use up dyes when coloring?,着色時に染料を使い切る？
@@ -2925,8 +2925,8 @@ pneumaticcraft.config.common.machine_properties.security_station_creative_player
 pneumaticcraft.config.common.machine_properties.solar_compressor_multiplier,Solar Compressor air multiplier,ソーラーコンプレッサーの空気倍率
 pneumaticcraft.config.common.machine_properties.speed_upgrade_speed_multiplier,Speed Upgrade speed multiplier,スピードアップグレードのスピード倍率
 pneumaticcraft.config.common.machine_properties.speed_upgrade_usage_multiplier,Speed Upgrade air usage multiplier,スピードアップグレードの空気使用倍率
-pneumaticcraft.config.common.machines.aerial_interface_dimension_blacklist,Aerial Interface dimension blacklist,空中インターフェースディメンションブラックリスト
-pneumaticcraft.config.common.machines.disenchanting_blacklist,Pressure Chamber disenchanting blacklist,圧力室のエンチャント解除ブラックリスト
+pneumaticcraft.config.common.machines.aerial_interface_dimension_blacklist,Aerial Interface dimension blacklist,空中インターフェースディメンション黒リスト
+pneumaticcraft.config.common.machines.disenchanting_blacklist,Pressure Chamber disenchanting blacklist,圧力室のエンチャント解除黒リスト
 pneumaticcraft.config.common.machines.vortex_cannon.player_boost_rate,Vortex Cannon boost interval,ボルテックスキャノンのブースト間隔
 pneumaticcraft.config.common.micromissile_properties.base_explosion_damage,Base explosion damage,基本爆発ダメージ
 pneumaticcraft.config.common.micromissile_properties.damage_terrain,Allow terrain damage?,地形ダメージを許可する？
@@ -3074,8 +3074,8 @@ pneumaticcraft.gui.entityFilter.helpText,"§a§nEntity Filtering
 • テストを反転するにはフィルターの先頭に""!""を付けます
 • 1つのフィルターで複数の一致を行うには"";""(セミコロン)を使用します(これはOR一致です)"
 pneumaticcraft.gui.jei.title.electrostaticGrid,Electrostatic Grid Blocks,静電グリッドブロック
-pneumaticcraft.gui.logistics_frame.fluidWhitelist.tooltip,An empty blacklist permits all fluids. An empty whitelist permits nothing.,空のブラックリストはすべての流体を許可します。空のホワイトリストは何も許可しません。
-pneumaticcraft.gui.logistics_frame.itemWhitelist.tooltip,An empty blacklist permits all items. An empty whitelist permits nothing.,空のブラックリストはすべてのアイテムを許可します。空のホワイトリストは何も許可しません。
+pneumaticcraft.gui.logistics_frame.fluidWhitelist.tooltip,An empty blacklist permits all fluids. An empty whitelist permits nothing.,空の黒リストはすべての流体を許可します。空の白リストは何も許可しません。
+pneumaticcraft.gui.logistics_frame.itemWhitelist.tooltip,An empty blacklist permits all items. An empty whitelist permits nothing.,空の黒リストはすべてのアイテムを許可します。空の白リストは何も許可しません。
 pneumaticcraft.gui.logistics_frame.matchComponents,Item Components,アイテムコンポーネント
 pneumaticcraft.gui.logistics_frame.matchComponents.tooltip,Check to require a match on extended item data such as enchantments or mod-specific data,エンチャントやMOD固有のデータなどの拡張アイテムデータの一致を要求する場合はチェックします
 pneumaticcraft.gui.logistics_frame.requesting_fluids,Requesting Fluids,リクエスト中の流体
@@ -3156,7 +3156,7 @@ tile.pressureTube.name,Pressure Tube,圧力管
 tile.airCompressor.name,Air Compressor,空気圧縮機
 tile.advancedAirCompressor.name,Advanced Air Compressor,高度なエアコンプレッサー
 tile.airCannon.name,Air Cannon,空気砲
-tile.pressureChamberWall.wall.name,Pressure Chamber Wall,圧力チャンバーウォール
+tile.pressureChamberWall.wall.name,Pressure Chamber Wall,圧力チャンバー塀
 tile.pressureChamberWall.window.name,Pressure Chamber Window,圧力チャンバーウィンドウ
 tile.pressureChamberValve.name,Pressure Chamber Valve,圧力チャンバーバルブ
 tile.slimePlant.name,Slime Plant,スライムの植物
@@ -3240,7 +3240,7 @@ item.turbineRotor.name,Turbine Rotor,タービンローター
 item.assemblyProgram.name,Assembly Program,組立プログラム
 item.emptyPCB.name,Empty PCB,空の基板
 item.unassembledPCB.name,Unassembled PCB,未組立基板
-item.pcbBlueprint.name,PCB Blueprint,基板ブループリント
+item.pcbBlueprint.name,PCB Blueprint,基板青プリント
 item.etchacidBucket.name,Etching Acid Bucket,エッチング酸バケット
 item.transistor.name,Transistor,トランジスタ
 item.capacitor.name,Capacitor,キャパシタ
@@ -3262,7 +3262,7 @@ item.dieselBucket.name,Diesel Bucket,ディーゼルバケット
 item.oilBucket.name,Oil Bucket,原油バケット
 item.lubricantBucket.name,Lubricant Bucket,潤滑油バケット
 item.plasticBucket.name,Plastic Bucket,プラスチックバケット
-item.logisticsConfigurator.name,Logistics Configurator,ロジスティクスコンフィグレーター
+item.logisticsConfigurator.name,Logistics Configurator,ロジスティクスコンフィギュレーター
 item.logisticFrameRequester.name,Logistic Requester Frame,ロジスティクスリクエスターフレーム
 item.logisticFramePassiveProvider.name,Logistic Passive Provider Frame,ロジスティクスパッシブプロバイダーフレーム
 item.logisticFrameActiveProvider.name,Logistic Active Provider Frame,ロジスティクスアクティブプロバイダーフレーム
@@ -3280,8 +3280,8 @@ item.programmingPuzzle.brown.name,Brown Programming Puzzle,茶色プログラミ
 item.programmingPuzzle.blue.name,Blue Programming Puzzle,青プログラミングパズル
 item.programmingPuzzle.purple.name,Purple Programming Puzzle,紫プログラミングパズル
 item.programmingPuzzle.cyan.name,Cyan Programming Puzzle,青緑プログラミングパズル
-item.programmingPuzzle.silver.name,Light Gray Programming Puzzle,薄灰色プログラミングパズル
-item.programmingPuzzle.gray.name,Gray Programming Puzzle,灰色プログラミングパズル
+item.programmingPuzzle.silver.name,Light Gray Programming Puzzle,薄グレープログラミングパズル
+item.programmingPuzzle.gray.name,Gray Programming Puzzle,グレープログラミングパズル
 item.programmingPuzzle.pink.name,Pink Programming Puzzle,桃色プログラミングパズル
 item.programmingPuzzle.lime.name,Lime Programming Puzzle,黄緑プログラミングパズル
 item.programmingPuzzle.yellow.name,Yellow Programming Puzzle,黄プログラミングパズル
@@ -3296,8 +3296,8 @@ item.plastic.brown.name,Brown Plastic,茶色プラスチック
 item.plastic.blue.name,Blue Plastic,青プラスチック
 item.plastic.purple.name,Purple Plastic,紫プラスチック
 item.plastic.cyan.name,Cyan Plastic,青緑プラスチック
-item.plastic.silver.name,Light Gray Plastic,薄灰色プラスチック
-item.plastic.gray.name,Gray Plastic,灰色プラスチック
+item.plastic.silver.name,Light Gray Plastic,薄グレープラスチック
+item.plastic.gray.name,Gray Plastic,グレープラスチック
 item.plastic.pink.name,Pink Plastic,桃色プラスチック
 item.plastic.lime.name,Lime Plastic,黄緑プラスチック
 item.plastic.yellow.name,Yellow Plastic,黄プラスチック
@@ -3539,7 +3539,7 @@ gui.tab.info.tile.assemblyPlatform,§0Part of an Assembly line. Holds the items 
 gui.tab.info.tile.assemblyDrill,§0Part of an Assembly line. Can drill items on an Assembly Platform adjacent to it. It cannot be set up diagonally in relation to the Assembly Platform!,§0アセンブリラインの一部。隣接するアセンブリプラットフォーム上のアイテムをドリルできます。アセンブリプラットフォームに対して斜めに設定することはできません！
 gui.tab.info.tile.assemblyLaser,§0Part of an Assembly line. Can laser items on an Assembly Platform adjacent to it. It cannot be set up diagonally in relation to the Assembly Platform!,§0アセンブリラインの一部。隣接するアセンブリプラットフォーム上のアイテムをレーザー加工できます。アセンブリプラットフォームに対して斜めに設定することはできません！
 gui.tab.info.tile.uvLightBox,"§0With this machine you can expose Empty PCB's to UV light. If this happens in such a way that only a part of the PCB gets exposed, this part will hold it's copper traces when etched in an Etching tank. The longer you expose a PCB, the higher the chance that the PCB will be successfully etched.",§0このマシンで空の PCB を UV 光に露光できます。PCB の一部のみが露光されている場合、その部分はエッチングタンクでエッチングされるときに銅トレースを保持します。PCB にさらに長く露光すると、PCB が正常にエッチングされる可能性が高くなります。
-gui.tab.info.tile.securityStation,"§0When you want to protect an area from others messing around with your belongings, you can use this block to prevent others from interacting/breaking with every block within its range. You can whitelist players by adding them in the Access Stat. There's no in-game tutorial available just yet for how to set up the network.",§0他の人があなたの持ち物をいじるのを防ぎたいとき、このブロックを使用して、範囲内のすべてのブロックと相互作用する/破壊するのを防ぐことができます。アクセスステーションにプレイヤーを追加してホワイトリストに登録できます。ネットワークのセットアップ方法についてのゲーム内チュートリアルはまだ利用できません。
+gui.tab.info.tile.securityStation,"§0When you want to protect an area from others messing around with your belongings, you can use this block to prevent others from interacting/breaking with every block within its range. You can whitelist players by adding them in the Access Stat. There's no in-game tutorial available just yet for how to set up the network.",§0他の人があなたの持ち物をいじるのを防ぎたいとき、このブロックを使用して、範囲内のすべてのブロックと相互作用する/破壊するのを防ぐことができます。アクセスステーションにプレイヤーを追加して白リストに登録できます。ネットワークのセットアップ方法についてのゲーム内チュートリアルはまだ利用できません。
 gui.tab.info.tile.securityStation.hacking,"§0In here you can hack a Security Station. You start at the IO Port. From there, you can hack Network Nodes by left-clicking on them. Every time you do so, you have a chance to be detected by the Diagnostic Subroutine, which then will initiate a trace. You lose when the Subroutine has found your IO Port. You win when you've either hacked every Subroutine or every Registry.",§0ここでセキュリティステーションをハッキングできます。IOポートから開始します。そこから、左クリックしてネットワークノードをハッキングできます。毎回、診断サブルーチンに検出される可能性があり、その後はトレースが開始されます。サブルーチンがあなたのIOポートを見つけたときに敗北です。すべてのサブルーチンまたはすべてのレジストリをハッキングしたときに勝利です。
 gui.tab.info.tile.securityStation.stopWorm,§0With a STOP! Worm you can stop a Diagnostic Subroutine from tracing you for 5 seconds. This software will be used in the process. To use it click on the STOP! Worm icon on the right when you are detected (else it would serve no purpose).,§0STOP!ワームを使用して、診断サブルーチンが5秒間あなたをトレースするのを停止できます。このソフトウェアはプロセス中に使用されます。検出されたときに右の STOP! ワームアイコンをクリックして使用します（そうしないと目的を果たしません）。
 gui.tab.info.tile.securityStation.nukeVirus,"§0The Nuke Virus is a consumable item which can be used to insta-capture (without time loss) a Network Node without any chance of being detected by the Diagnostic Subroutine. This also works with every other Network component. To use it, middle-click a hackable node.",§0ヌークウイルスは、診断サブルーチンに検出される可能性なく、ネットワークノードを即座にキャプチャ（時間損失なし）するために使用できる消耗品アイテムです。これは他のすべてのネットワークコンポーネントでも機能します。これを使用するには、ハッキング可能なノードで中クリックしてください。
@@ -3637,7 +3637,7 @@ gui.tab.redstoneBehaviour.uvLightBox.button.chance,Success Chance,成功確率
 gui.tab.redstoneBehaviour.plasticMixer.button.selectOnSignal,Select Plastic on Signal,信号でプラスチックを選択
 gui.tab.redstoneBehaviour.keroseneLamp.button.interpolate,Interpolate Signal,信号の補間
 gui.tab.hopperStatus,Hopper Status,ホッパーステータス
-gui.tab.hopperStatus.itemTransferPerTick,§7Item Transfer Speed: \n§0%s items/tick,§7アイテム転送速度: §0%s 項目/タッキ
+gui.tab.hopperStatus.itemTransferPerTick,§7Item Transfer Speed: \n§0%s items/tick,§7アイテム転送速度: §0%s 項目/ティック
 gui.tab.hopperStatus.itemTransferPerSecond,§7Item Transfer Speed: \n§0%s items/s,§7アイテム転送速度：\n§0%s アイテム/秒
 gui.tab.status,Status,状態
 gui.tab.status.gasLift.action,§7Action,§7アクション
@@ -3790,7 +3790,7 @@ gui.progWidget.jump.nowhereToJump,Nowhere to jump. Going back to Start.,ジャ�
 gui.progWidget.debug.hasPositions,This contains positions that can be showed.,表示可能な位置を含みます。
 gui.progWidget.debug.clickToShow,Click to show the positions permanently.,クリックして位置を永続的に表示します。
 gui.pastebin.button.login,Log In,ログイン
-gui.pastebin.button.logout,Log Out,ログアウト
+gui.pastebin.button.logout,Log Out,原木アウト
 gui.pastebin.button.upload,Upload to Pastebin,Pastebinにアップロード
 gui.pastebin.button.get,Get from Pastebin,Pastebinから取得
 gui.pastebin.button.copyToClipboard,Save code to clipboard,コードをクリップボードに保存
@@ -3970,7 +3970,7 @@ tile.pressure_tube.name,Pressure Tube,圧力管
 tile.air_compressor.name,Air Compressor,空気圧縮機
 tile.advanced_air_compressor.name,Advanced Air Compressor,高度なエアコンプレッサー
 tile.air_cannon.name,Air Cannon,空気砲
-tile.pressure_chamber_wall.name,Pressure Chamber Wall,圧力チャンバーウォール
+tile.pressure_chamber_wall.name,Pressure Chamber Wall,圧力チャンバー塀
 tile.pressure_chamber_glass.name,Pressure Chamber Glass,圧力室のガラス
 tile.pressure_chamber_valve.name,Pressure Chamber Valve,圧力チャンバーバルブ
 tile.charging_station.name,Charging Station,充電ステーション
@@ -4040,7 +4040,7 @@ item.turbine_rotor.name,Turbine Rotor,タービンローター
 item.assembly_program.name,Assembly Program,組立プログラム
 item.empty_pcb.name,Empty PCB,空の基板
 item.unassembled_pcb.name,Unassembled PCB,未組立基板
-item.pcb_blueprint.name,PCB Blueprint,基板ブループリント
+item.pcb_blueprint.name,PCB Blueprint,基板青プリント
 item.etchacid_bucket.name,Etching Acid Bucket,エッチング酸バケット
 item.printed_circuit_board.name,Printed Circuit Board,プリント基板
 item.failed_pcb.name,Failed PCB,失敗した基板
@@ -4058,7 +4058,7 @@ item.diesel_bucket.name,Diesel Bucket,ディーゼルバケット
 item.oil_bucket.name,Oil Bucket,原油バケット
 item.lubricant_bucket.name,Lubricant Bucket,潤滑油バケット
 item.plastic_bucket.name,Plastic Bucket,プラスチックバケット
-item.logistics_configurator.name,Logistics Configurator,ロジスティクスコンフィグレーター
+item.logistics_configurator.name,Logistics Configurator,ロジスティクスコンフィギュレーター
 item.logistic_frame_requester.name,Logistic Requester Frame,ロジスティクスリクエスターフレーム
 item.logistic_frame_passive_provider.name,Logistic Passive Provider Frame,ロジスティクスパッシブプロバイダーフレーム
 item.logistic_frame_active_provider.name,Logistic Active Provider Frame,ロジスティクスアクティブプロバイダーフレーム
@@ -4086,8 +4086,8 @@ item.programming_puzzle.brown.name,Brown Programming Puzzle,茶色プログラ�
 item.programming_puzzle.blue.name,Blue Programming Puzzle,青プログラミングパズル
 item.programming_puzzle.purple.name,Purple Programming Puzzle,紫プログラミングパズル
 item.programming_puzzle.cyan.name,Cyan Programming Puzzle,青緑プログラミングパズル
-item.programming_puzzle.silver.name,Light Gray Programming Puzzle,薄灰色プログラミングパズル
-item.programming_puzzle.gray.name,Gray Programming Puzzle,灰色プログラミングパズル
+item.programming_puzzle.silver.name,Light Gray Programming Puzzle,薄グレープログラミングパズル
+item.programming_puzzle.gray.name,Gray Programming Puzzle,グレープログラミングパズル
 item.programming_puzzle.pink.name,Pink Programming Puzzle,桃色プログラミングパズル
 item.programming_puzzle.lime.name,Lime Programming Puzzle,黄緑プログラミングパズル
 item.programming_puzzle.yellow.name,Yellow Programming Puzzle,黄プログラミングパズル
@@ -4161,8 +4161,8 @@ gui.tab.info.aerialInterface.insertDispenser,Insert a Dispenser Upgrade to switc
 gui.tab.info.aerialInterface.removeDispenser,Remove any Dispenser Upgrades to switch to interfacing items.,ディスペンサーアップグレードを削除して、アイテムのインターフェースに切り替えます。
 gui.tab.info.tile.pressure_tube,§0This block is used to transport air. It can be camouflaged and Tube Modules can be placed on it to provide additional functionality.,§0このブロックは空気を運ぶために使用されます。迷彩化でき、チューブモジュールを配置して追加機能を提供できます。
 gui.tab.info.tile.advanced_pressure_tube,§0This block is used to transport air. It is the high tier version of the Pressure Tube. It can be camouflaged and Tube Modules can be placed on it to provide additional functionality.,§0このブロックは空気を運ぶために使用されます。これはプレッシャーチューブのハイティアバージョンです。迷彩化でき、チューブモジュールを配置して追加機能を提供できます。
-gui.tab.info.tile.pressure_chamber_wall,§0This block is used to create a Pressure Chamber. Create a hollow 3x3x3/4x4x4/5x5x5 structure with at least one Pressure Chamber Valve in a face (not edge or corner) of the structure. Pressure Chamber Walls and Pressure Chamber Glass can be used interchangeably.,§0このブロックは圧力チャンバーを作成するために使用されます。中空の 3x3x3/4x4x4/5x5x5 構造を作成します。構造の面（エッジまたはコーナーではない）に少なくとも 1 つの圧力チャンバーバルブが必要です。圧力チャンバーウォールと圧力チャンバーガラスは互いに交換可能です。
-gui.tab.info.tile.pressure_chamber_glass,§0This block is used to create a Pressure Chamber. Create a hollow 3x3x3/4x4x4/5x5x5 structure with at least one Pressure Chamber Valve in a face (not edge or corner) of the structure. Pressure Chamber Walls and Pressure Chamber Glass can be used interchangeably.,§0このブロックは圧力チャンバーを作成するために使用されます。中空の 3x3x3/4x4x4/5x5x5 構造を作成します。構造の面（エッジまたはコーナーではない）に少なくとも 1 つの圧力チャンバーバルブが必要です。圧力チャンバーウォールと圧力チャンバーガラスは互いに交換可能です。
+gui.tab.info.tile.pressure_chamber_wall,§0This block is used to create a Pressure Chamber. Create a hollow 3x3x3/4x4x4/5x5x5 structure with at least one Pressure Chamber Valve in a face (not edge or corner) of the structure. Pressure Chamber Walls and Pressure Chamber Glass can be used interchangeably.,§0このブロックは圧力チャンバーを作成するために使用されます。中空の 3x3x3/4x4x4/5x5x5 構造を作成します。構造の面（エッジまたはコーナーではない）に少なくとも 1 つの圧力チャンバーバルブが必要です。圧力チャンバー塀と圧力チャンバーガラスは互いに交換可能です。
+gui.tab.info.tile.pressure_chamber_glass,§0This block is used to create a Pressure Chamber. Create a hollow 3x3x3/4x4x4/5x5x5 structure with at least one Pressure Chamber Valve in a face (not edge or corner) of the structure. Pressure Chamber Walls and Pressure Chamber Glass can be used interchangeably.,§0このブロックは圧力チャンバーを作成するために使用されます。中空の 3x3x3/4x4x4/5x5x5 構造を作成します。構造の面（エッジまたはコーナーではない）に少なくとも 1 つの圧力チャンバーバルブが必要です。圧力チャンバー塀と圧力チャンバーガラスは互いに交換可能です。
 gui.tab.info.tile.pressure_chamber_valve,"§0This multi-block structure can be used as air storage. Its primary usage, however, is to compress various materials into other materials. Like Iron into Compressed Iron. Or Coal into Diamonds.",§0このマルチブロック構造は空気ストレージとして使用できます。ただし、主な用途は、さまざまな材料を他の材料に圧縮することです。例えば、アイアンを圧縮アイアンに。または石炭をダイヤモンドに。
 gui.tab.info.tile.elevator_frame,§0This block needs to be stacked on top of an Elevator Base to create a working Elevator.,§0このブロックは機能するエレベーターを作成するためにエレベーターベースの上にスタックする必要があります。
 gui.tab.info.tile.air_compressor,§0This machine is used to generate compressed air. To do this insert any solid-fuel item that can burn in a Furnace in the fuel slot. Note: fuel buckets will not work; use a Liquid Compressor for burning liquid fuels.,§0このマシンは圧縮空気を生成するために使用されます。これを行うには、かまどで燃やせる固体燃料アイテムを燃料スロットに挿入してください。注：燃料バケットは機能しません。液体燃料を燃やすためにリキッドコンプレッサーを使用してください。
@@ -4216,7 +4216,7 @@ gui.tab.info.tile.assembly_platform,§0Part of an Assembly line. Holds the items
 gui.tab.info.tile.assembly_drill,§0Part of an Assembly line. Can drill items on an Assembly Platform adjacent to it. It cannot be set up diagonally in relation to the Assembly Platform!,§0アセンブリラインの一部。隣接するアセンブリプラットフォーム上のアイテムをドリルできます。アセンブリプラットフォームに対して斜めに設定することはできません！
 gui.tab.info.tile.assembly_laser,§0Part of an Assembly line. Can laser items on an Assembly Platform adjacent to it. It cannot be set up diagonally in relation to the Assembly Platform!,§0アセンブリラインの一部。隣接するアセンブリプラットフォーム上のアイテムをレーザー加工できます。アセンブリプラットフォームに対して斜めに設定することはできません！
 gui.tab.info.tile.uv_light_box,"§0With this machine you can expose Empty PCB's to UV light. If this happens in such a way that only a part of the PCB gets exposed, this part will hold it's copper traces when etched in an Etching tank. The longer you expose a PCB, the higher the chance that the PCB will be successfully etched.",§0このマシンで空の PCB を UV 光に露光できます。PCB の一部のみが露光されている場合、その部分はエッチングタンクでエッチングされるときに銅トレースを保持します。PCB にさらに長く露光すると、PCB が正常にエッチングされる可能性が高くなります。
-gui.tab.info.tile.security_station,"§0When you want to protect an area from others messing around with your belongings, you can use this block to prevent others from interacting/breaking with every block within its range. You can whitelist players by adding them in the Access Stat. There's no in-game tutorial available just yet for how to set up the network.",§0他の人があなたの持ち物をいじるのを防ぎたいとき、このブロックを使用して、範囲内のすべてのブロックと相互作用する/破壊するのを防ぐことができます。アクセスステーションにプレイヤーを追加してホワイトリストに登録できます。ネットワークのセットアップ方法についてのゲーム内チュートリアルはまだ利用できません。
+gui.tab.info.tile.security_station,"§0When you want to protect an area from others messing around with your belongings, you can use this block to prevent others from interacting/breaking with every block within its range. You can whitelist players by adding them in the Access Stat. There's no in-game tutorial available just yet for how to set up the network.",§0他の人があなたの持ち物をいじるのを防ぎたいとき、このブロックを使用して、範囲内のすべてのブロックと相互作用する/破壊するのを防ぐことができます。アクセスステーションにプレイヤーを追加して白リストに登録できます。ネットワークのセットアップ方法についてのゲーム内チュートリアルはまだ利用できません。
 gui.tab.info.tile.security_station.hacking,"§0In here you can hack a Security Station. You start at the IO Port. From there, you can hack Network Nodes by left-clicking on them. Every time you do so, you have a chance to be detected by the Diagnostic Subroutine, which then will initiate a trace. You lose when the Subroutine has found your IO Port. You win when you've either hacked every Subroutine or every Registry.",§0ここでセキュリティステーションをハッキングできます。IOポートから開始します。そこから、左クリックしてネットワークノードをハッキングできます。毎回、診断サブルーチンに検出される可能性があり、その後はトレースが開始されます。サブルーチンがあなたのIOポートを見つけたときに敗北です。すべてのサブルーチンまたはすべてのレジストリをハッキングしたときに勝利です。
 gui.tab.info.tile.security_station.stopWorm,§0With a STOP! Worm you can stop a Diagnostic Subroutine from tracing you for 5 seconds. This software will be used in the process. To use it click on the STOP! Worm icon on the right when you are detected (else it would serve no purpose).,§0STOP!ワームを使用して、診断サブルーチンが5秒間あなたをトレースするのを停止できます。このソフトウェアはプロセス中に使用されます。検出されたときに右の STOP! ワームアイコンをクリックして使用します（そうしないと目的を果たしません）。
 gui.tab.info.tile.security_station.nukeVirus,"§0The Nuke Virus is a consumable item which can be used to insta-capture (without time loss) a Network Node without any chance of being detected by the Diagnostic Subroutine. This also works with every other Network component. To use it, middle-click a hackable node.",§0ヌークウイルスは、診断サブルーチンに検出される可能性なく、ネットワークノードを即座にキャプチャ（時間損失なし）するために使用できる消耗品アイテムです。これは他のすべてのネットワークコンポーネントでも機能します。これを使用するには、ハッキング可能なノードで中クリックしてください。
@@ -4431,8 +4431,8 @@ gui.logistic_frame.invisible.tooltip,Turns the Logistic Frame invisible (unless 
 gui.logistic_frame.filter_settings,Filter Settings,フィルター設定
 gui.logistic_frame.fuzzyMeta,Ignore Item Metadata,アイテムメタデータを無視
 gui.logistic_frame.fuzzyNBT,Ignore Item NBT,アイテムNBTを無視
-gui.logistic_frame.whitelist,Whitelist,ホワイトリスト
-gui.logistic_frame.blacklist,Blacklist,ブラックリスト
+gui.logistic_frame.whitelist,Whitelist,白リスト
+gui.logistic_frame.blacklist,Blacklist,黒リスト
 gui.logistic_frame.no_items,§o• No items,§o• アイテムなし
 gui.logistic_frame.no_fluids,§o• No fluids,§o• 液体なし
 gui.logistic_frame.facing,Facing,向き
@@ -4629,7 +4629,7 @@ achievement.plastic.desc,Create Plastic by putting LPG and Coal in a TPP and run
 achievement.amadronTablet,Better Than Villagers,村人より優れている
 achievement.amadronTablet.desc,Make an Amadron Tablet for some trading flexibility.,アマドロンタブレットを作製して、取引の柔軟性を確保します。
 achievement.pcbBlueprint,And You're Done,そして完成
-achievement.pcbBlueprint.desc,"(You're not, really). Use the Amadron Tablet to order a PCB Blueprint.",（本当ではありません）。アマドロンタブレットで基板ブループリントを注文します。
+achievement.pcbBlueprint.desc,"(You're not, really). Use the Amadron Tablet to order a PCB Blueprint.",（本当ではありません）。アマドロンタブレットで基板青プリントを注文します。
 achievement.etchacidBucket.desc,Acquire an Etching Acid Bucket. You can use this nasty stuff to make PCB's.,エッチング酸バケットを獲得します。この物騒な液体を使って基板を作製できます。
 achievement.emptyPCB,Doesn't Do Much By Itself,それ自体はあまり役に立たない
 achievement.emptyPCB.desc,Make an Empty PCB in the Pressure Chamber.,圧力チャンバーで空の基板を作製します。
@@ -4670,7 +4670,7 @@ achievement.flyIntoWall.desc,Fly into a vertical surface fast enough to take dam
 achievement.logisticsFrame,Smart Storage,スマートストレージ
 achievement.logisticsFrame.desc,Create some Logistics Passive Provider and Requester Frames for smart item and fluid storage and transfer.,スマートアイテムおよび流体ストレージと転送用のロジスティクスパッシブプロバイダーフレームおよびリクエスターフレームを作製します。
 achievement.logisticsConfigurator,Smart Configuration,スマート設定
-achievement.logisticsConfigurator.desc,"Make a Logistics Configurator to manage your Logistics frames. This tool also works on attachments like the Heat Frame, Spawner Agitator and Crop Supports.",ロジスティクスコンフィグレーターを作製して、ロジスティクスフレームを管理します。このツールはヒートフレーム、スポナー撹拌装置、作物サポートなどのアタッチメントにも使用できます。
+achievement.logisticsConfigurator.desc,"Make a Logistics Configurator to manage your Logistics frames. This tool also works on attachments like the Heat Frame, Spawner Agitator and Crop Supports.",ロジスティクスコンフィギュレーターを作製して、ロジスティクスフレームを管理します。このツールはヒートフレーム、スポナー撹拌装置、作物サポートなどのアタッチメントにも使用できます。
 achievement.logisticsDrone,Clever Little Helper,賢い小さなヘルパー
 achievement.logisticsDrone.desc,Create and deploy a Logistics Drone to move items around your logistics network.,ロジスティクスドローンを作製・配置して、ロジスティクスネットワーク周辺のアイテムを移動させます。
 achievement.minigun,Say Hello to my Little Friend,我が友人に挨拶を

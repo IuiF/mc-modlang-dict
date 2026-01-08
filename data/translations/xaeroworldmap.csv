@@ -17,7 +17,7 @@ gui.xaero_box_auto_cave_mode,"How the mod should determine the ""auto"" top Y wh
 ミニマップ - インストールされている場合はミニマップmodのケーブモードに合わせます。そうでない場合は天井サイズ3x3を使用します。"
 gui.xaero_box_cave_mode,Cave Mode,洞窟
 gui.xaero_box_cave_mode_not_allowed,Cave Mode (not allowed),ケーブモード(許可されていません)
-gui.xaero_box_claims_pac_required,The chunk claim feature requires the Open Parties and Claims mod!,チャンク請求機能にはオープンパーティ and Claimsが必要です！
+gui.xaero_box_claims_pac_required,The chunk claim feature requires the Open Parties and Claims mod!,チャンク請求機能にはOpen Parties and Claimsモッドが必要です！
 gui.xaero_box_close_players,Close Tracked Player Menu,プレイヤー追跡メニューを閉じる
 gui.xaero_box_close_settings,§2%s§r Close Settings,§2%s§r 設定を閉じる
 gui.xaero_box_close_waypoints,Close Waypoints,ウェイポイントを閉じる
@@ -81,7 +81,7 @@ gui.xaero_box_open_settings,§2%s§r Open Settings,§2%s§r 設定を開く
 gui.xaero_box_open_waypoints,Waypoints,ウェイポイント
 gui.xaero_box_pac_displaying_claims,%s Displaying chunk claims,%s チャンク請求を表示中
 gui.xaero_box_pac_not_displaying_claims,%s Not displaying chunk claims,%s チャンク請求を表示していない
-gui.xaero_box_players_pac_required,The party player menu feature requires the Open Parties and Claims mod!,パーティプレイヤーメニュー機能にはオープンパーティ and Claimsが必要です！
+gui.xaero_box_players_pac_required,The party player menu feature requires the Open Parties and Claims mod!,パーティプレイヤーメニュー機能にはOpen Parties and Claimsモッドが必要です！
 gui.xaero_box_reload_viewed_regions,Reload every region that is displayed on your screen once.,画面に表示されているすべてのリージョンを1回リロード。
 gui.xaero_box_rendering_all_sets,%s Rendering all waypoint sets,%s すべてのウェイポイントセットを表示中
 gui.xaero_box_rendering_current_set,%s Rendering only the current set,%s 現在のセットのみを表示中
@@ -246,10 +246,10 @@ gui.xaero_wm_box_default_cave_mode_type,The default cave mode type assigned to d
 gui.xaero_wm_box_detect_ambiguous_y,"A single pixel on the map can contain multiple transparent layers and an opaque block under them. In older non-cache map data files, only the Y level (height) of the opaque block is stored in such cases, which often makes it unsafe to blindly teleport to the stored Y coordinate. When this setting is ON, the mod treats such map pixels as it would undiscovered chunks. It defaults to 2D waypoints and disables direct teleportation to such pixels. Disable this at your own risk!",マップの単一ピクセルは複数の透明レイヤーと、その下の不透明ブロックを含むことができます。古い非キャッシュマップデータファイルでは、このような場合、不透明ブロックのYレベル(高さ)のみが保存されます。これにより、保存されたYコーディネートに盲目的にテレポートするのが危険になることが多いです。この設定がオンの場合、modはそのようなマップピクセルを未検出チャンクとして扱います。デフォルトで2Dウェイポイントに設定され、そのようなピクセルへの直接テレポートを無効にします。自己責任で無効化！
 gui.xaero_wm_box_ignore_heightmaps,"Some servers put custom values in the world heightmaps, which can cause incorrectly rendered maps. Sometimes it can even happen in heavily modded singleplayer worlds. This option should fix such issues at the expense of a bit of performance. Do not use unless you need to. Reenter the world after toggling the option!",一部のサーバーはワールドハイトマップにカスタム値を入力し、マップレンダリングを不正にすることがあります。ヘビーにmodされたシングルプレイヤーワールドでも発生することがあります。このオプションはパフォーマンスを少し犠牲にしてそのような問題を修正する必要があります。必要がない限り使用しないでください。オプションを切り替えた後、ワールドに再度入ります！
 gui.xaero_wm_box_legible_cave_maps,"Use depth-based lighting in cave mode instead of actual block lighting, making it easier to mentally separate the different cave layers.",洞窟モードで深度ベースの照明を使用して層を視覚的に分離しやすくします。
-gui.xaero_wm_box_pac_claims,Display chunk claims from the Open Parties and Claims mod as a colored overlay.,オープンパーティ and Claimsmodのチャンククレームをオーバーレイで表示。
-gui.xaero_wm_box_pac_claims_border_opacity,The opacity of the chunk claims overlay border color. Chunk claims require the Open Parties and Claims mod.,チャンク請求オーバーレイ枠線の色の不透明度。チャンク請求にはオープンパーティ and Claimsが必要です。
-gui.xaero_wm_box_pac_claims_fill_opacity,The opacity of the chunk claims overlay fill color. Chunk claims require the Open Parties and Claims mod.,チャンク請求オーバーレイ塗りつぶしの色の不透明度。チャンク請求にはオープンパーティ and Claimsが必要です。
-gui.xaero_wm_box_pac_player_teleport_command,The chat command used on this world/server to teleport you to other players on the map when Open Parties and Claims is installed.,オープンパーティ and Claimsがインストールされている場合、マップ上の他のプレイヤーにテレポートするために使用されるこのワールド/サーバーのチャットコマンド。
+gui.xaero_wm_box_pac_claims,Display chunk claims from the Open Parties and Claims mod as a colored overlay.,Open Parties and Claimsモッドのチャンク請求を色付きオーバーレイとして表示します。
+gui.xaero_wm_box_pac_claims_border_opacity,The opacity of the chunk claims overlay border color. Chunk claims require the Open Parties and Claims mod.,チャンク請求オーバーレイの枠線の不透明度。チャンク請求にはOpen Parties and Claimsモッドが必要です。
+gui.xaero_wm_box_pac_claims_fill_opacity,The opacity of the chunk claims overlay fill color. Chunk claims require the Open Parties and Claims mod.,チャンク請求オーバーレイの塗りつぶしの不透明度。チャンク請求にはOpen Parties and Claimsモッドが必要です。
+gui.xaero_wm_box_pac_player_teleport_command,The chat command used on this world/server to teleport you to other players on the map when Open Parties and Claims is installed.,Open Parties and Claimsがインストールされている場合、マップ上の他のプレイヤーにテレポートするために使用されるチャットコマンド。
 gui.xaero_wm_box_partial_y_teleportation,"When teleporting to a map location, offset the Y coordinate by 0.5 to avoid falling through carpet-like blocks into the void. Otherwise, the integer Y coordinate is used.",マップの場所にテレポートする場合、Yコーディネートを0.5オフセットして、カーペット状のブロックを通り抜けてボイドに落ちるのを回避。そうでない場合は、整数Yコーディネートが使用されます。
 gui.xaero_wm_box_player_teleport_command,The chat command used on this world/server to teleport you to tracked players on the map (not regular radar).,このワールド/サーバーでマップ上の追跡プレイヤーにテレポートするために使用されるチャットコマンド(通常のレーダーではない)。
 gui.xaero_wm_cave_mode_depth,Cave Mode Depth,ケーブモード深さ

@@ -122,7 +122,7 @@ gui.xaero_box_arrow_color,Color of the arrow used in the non-rotating variant of
 gui.xaero_box_arrow_scale,Scale of the arrow used in the non-rotating variant of the minimap and several other cases.,回転しないミニマップ型の矢印のスケール。
 gui.xaero_box_biome_blending,Smooth out biome color edges by sampling biome colors for multiple blocks for every block on the map. Turning this off can significantly improve performance when biome color calculation is modded to be much more heavyweight than vanilla.,複数ブロックのバイオーム色をサンプリングしてバイオーム色の境界を滑らかにします。オフにするとパフォーマンスが向上します。
 gui.xaero_box_category,View/Edit §e%1$s,§e%1$s を表示/編集
-gui.xaero_box_category_exclude_list2,"A list of entities to exclude from the entities already included in the (sub-)category. Can work both as a ""whitelist"" and a ""blacklist"" depending on the exclusion mode you choose. This does not remove entities from the entity radar, unless you're excluding from the root ""Any"" category. The ""Display"" setting can remove entities from the radar.",カテゴリに含まれるエンティティの除外リスト。ホワイトリストとブラックリストの両方で機能します。
+gui.xaero_box_category_exclude_list2,"A list of entities to exclude from the entities already included in the (sub-)category. Can work both as a ""whitelist"" and a ""blacklist"" depending on the exclusion mode you choose. This does not remove entities from the entity radar, unless you're excluding from the root ""Any"" category. The ""Display"" setting can remove entities from the radar.",カテゴリに含まれるエンティティの除外リスト。白リストと黒リストの両方で機能します。
 gui.xaero_box_category_hard_include2,Controls which entities to automatically include in the (sub-)category without having to put them in the include list manually.,インクルード リストに手動で入れなくても(サブ)カテゴリに自動的に含める エンティティを制御します。
 gui.xaero_box_category_include_list2,"A list of entities to include in the (sub-)category on top of the entities included by the ""Hard Include"".",「ハード インクルード」に含まれるエンティティに加えて(サブ)カテゴリに含めるエンティティのリスト。
 gui.xaero_box_category_include_list_include_in_super,"Automatically include all entities from this list, and other lists included in this category, in the super-category/parent of this category, except the entities in the exclude list. That way you don't have to manually add duplicates on each level.",このリストのエンティティと、このカテゴリに含まれる他のリストを親カテゴリ/親に自動的に含めます(除外リストのエンティティ除く)。各レベルで手動でコピーを追加する必要がありません。
@@ -191,9 +191,9 @@ gui.xaero_box_minimap_size,"Size of the minimap frame that affects how much is v
  Large - 169",ミニマップフレームのサイズ。見える範囲に影響します。正方形のミニマップは180以上のサイズで回転ロック状態(「ミニマップを北向きロック」オプション)に強制されます。オート設定で左端にします。旧バージョンの値: 小 57、小 85、中 113、大 169
 gui.xaero_box_multiple_waypoint_info,"Whether the distance can be displayed for multiple waypoints in world at once. By default, only the distance to the closest waypoint to the crosshair is displayed. Use the ""Distance to WP"" setting to configure which waypoints the distance could even be shown for.",複数のウェイポイントの距離を同時にワールドに表示するかどうか。デフォルトでは、クロスヘアから最も近いウェイポイントまでの距離のみが表示されます。「距離WP」設定を使用して、距離を表示できるウェイポイントを設定します。
 gui.xaero_box_north_compass_color,The color of the background/shadow under the north cardinal direction displayed on the minimap.,北の方角の背景色。
-gui.xaero_box_pac_claims,Display chunk claims from the Open Parties and Claims mod as a colored overlay.,オープンパーティ and Claimsmodのチャンククレームをオーバーレイで表示。
-gui.xaero_box_pac_claims_border_opacity,The opacity of the chunk claims overlay border color. Chunk claims require the Open Parties and Claims mod.,チャンク請求オーバーレイ枠線の色の不透明度。チャンク請求にはオープンパーティ and Claimsが必要です。
-gui.xaero_box_pac_claims_fill_opacity,The opacity of the chunk claims overlay fill color. Chunk claims require the Open Parties and Claims mod.,チャンク請求オーバーレイ塗りつぶしの色の不透明度。チャンク請求にはオープンパーティ and Claimsが必要です。
+gui.xaero_box_pac_claims,Display chunk claims from the Open Parties and Claims mod as a colored overlay.,Open Parties and Claimsモッドのチャンク請求をカラーオーバーレイで表示
+gui.xaero_box_pac_claims_border_opacity,The opacity of the chunk claims overlay border color. Chunk claims require the Open Parties and Claims mod.,チャンク請求オーバーレイの枠線色の不透明度。チャンク請求にはOpen Parties and Claimsモッドが必要です。
+gui.xaero_box_pac_claims_fill_opacity,The opacity of the chunk claims overlay fill color. Chunk claims require the Open Parties and Claims mod.,チャンク請求オーバーレイの塗りつぶし色の不透明度。チャンク請求にはOpen Parties and Claimsモッドが必要です。
 gui.xaero_box_partial_y_teleportation,"When teleporting to a waypoint, offset the Y coordinate by 0.5 to avoid falling through carpet-like blocks into the void. Otherwise, the integer Y coordinate is used.",ウェイポイントにテレポ時、Y座標を0.5オフセットしてカーペット系ブロックの落下を防ぎます。
 gui.xaero_box_pushbox_boss_health,"An invisible box around the vanilla boss health display that pushes the mod's interfaces out of the way. 
  
@@ -350,11 +350,11 @@ gui.xaero_cross_tp,Cross-Dimensional TP,クロスディメンションTP
 gui.xaero_crosshair,Crosshair,十字線
 gui.xaero_current_biome,Display Current Biome,現在のバイオームを表示
 gui.xaero_dark_aqua,Dark Aqua,ダークアクアマリン
-gui.xaero_dark_blue,Dark Blue,ダークブルー
+gui.xaero_dark_blue,Dark Blue,ダーク青
 gui.xaero_dark_gray,Dark Gray,ダークグレイ
-gui.xaero_dark_green,Dark Green,ダークグリーン
-gui.xaero_dark_purple,Dark Purple,ダークパープル
-gui.xaero_dark_red,Dark Red,ダークレッド
+gui.xaero_dark_green,Dark Green,ダーク緑
+gui.xaero_dark_purple,Dark Purple,ダーク紫
+gui.xaero_dark_red,Dark Red,ダーク赤
 gui.xaero_day,Day,昼
 gui.xaero_deathpoint,Latest Death,最新の死亡地点
 gui.xaero_deathpoint_old,Old Death,古い死亡地点
@@ -584,7 +584,7 @@ gui.xaero_preset_topright,Top-Right Corner,右上隅
 gui.xaero_press_c,(pr. C),(Cキーを押す)
 gui.xaero_press_f,(pr. F),(Fキーを押す)
 gui.xaero_previous,<< Prev,<< 前へ
-gui.xaero_purple,Light Purple,ライトパープル
+gui.xaero_purple,Light Purple,ライト紫
 gui.xaero_pushbox_boss_health,Boss Health Push Box,ボス体力プッシュボックス
 gui.xaero_pushbox_normal,Normal,通常
 gui.xaero_pushbox_potion_effects,Potion Effects Push Box,ポーション効果プッシュボックス

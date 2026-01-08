@@ -64,7 +64,7 @@ config.nex:block.thornstalk,Thornstalk Settings,Thornstalk 設定
 config.nex:block.thornstalk.tooltip,Settings that only affect Thornstalk,トーネストラックにのみ影響する設定
 config.nex:block.thornstalk.canDestroyItems,Can Destroy Items,アイテムを破壊できる
 config.nex:block.thornstalk.canDestroyItems.tooltip,Can Thornstalk destroy Items,Thornstalkはアイテムを破壊できるか？
-config.nex:block.thornstalk.mobBlacklist,Mob Blacklist,Mobブラックリスト
+config.nex:block.thornstalk.mobBlacklist,Mob Blacklist,Mob黒リスト
 config.nex:block.thornstalk.mobBlacklist.tooltip,Mobs Thornstalk won't hurt,Mobs Thornstalkはダメージを与えない
 config.nex:block.hyphae,Hyphae Settings,ハイファイア設定
 config.nex:block.hyphae.tooltip,Settings that only affect Hyphae,ハイファにのみ影響を与える設定
@@ -76,13 +76,13 @@ config.nex:potionEffect.freeze,Freeze Effect Settings,凍結効果設定
 config.nex:potionEffect.freeze.tooltip,Settings that only affect the Freeze Effect,凍結効果のみ影響する設定
 config.nex:potionEffect.freeze.thawRarity,Thaw Rarity,解凍の稀有度
 config.nex:potionEffect.freeze.thawRarity.tooltip,How rare it is for a mob to Thaw from the Freeze Effect when ticked,タックル時にモブがFreeze Effectから解凍される稀少度。
-config.nex:potionEffect.freeze.mobBlacklist,Mob Blacklist,Mobブラックリスト
+config.nex:potionEffect.freeze.mobBlacklist,Mob Blacklist,Mob黒リスト
 config.nex:potionEffect.freeze.mobBlacklist.tooltip,Mobs that won't freeze,凍結しないモブ
 config.nex:potionEffect.spore,Spore Effect Settings,胞子効果設定
 config.nex:potionEffect.spore.tooltip,Settings that only affect the Spore Effect,胞子効果のみ影響する設定
 config.nex:potionEffect.spore.sporeSpawnRarity,Spore Spawn Rarity,スプールの出現率
 config.nex:potionEffect.spore.sporeSpawnRarity.tooltip,How rare it is for a Spore to spawn from an entity with the Spore Effect,スパー効果を持つエンティティからスパーが出現する確率です。
-config.nex:potionEffect.spore.mobBlacklist,Mob Blacklist,Mobブラックリスト
+config.nex:potionEffect.spore.mobBlacklist,Mob Blacklist,Mob黒リスト
 config.nex:potionEffect.spore.mobBlacklist.tooltip,Mobs that won't spawn Spores,スプールを生成しないモンスター
 config.nex:potionEffect.lost,Lost Effect Settings,失われた効果の設定
 config.nex:potionEffect.lost.tooltip,Settings that only affect the Lost Effect,Lost Effectにのみ影響する設定
@@ -117,7 +117,7 @@ config.nex:entity.spore.growthTime.tooltip,How long does it take for a Spore to 
 config.nex:entity.spore.creeperSpawnAmount,Creeper Spawn Amount,クリーパー生成量
 config.nex:entity.spore.creeperSpawnAmount.tooltip,How many Spore Creepers Spawn from a Spore,スパーから生成されるスパークリーパーの数
 config.nex:entity.brute,Brute Settings,ブラート設定
-config.nex:entity.brute.tooltip,Settings that only affect the Brute,ブルートにのみ影響する設定
+config.nex:entity.brute.tooltip,Settings that only affect the Brute,青トにのみ影響する設定
 config.nex:entity.brute.chargeCooldown,Charge Cooldown,充電冷却時間
 config.nex:entity.brute.chargeCooldown.tooltip,How long is the cooldown after charging players,プレイヤー充電後のクールダウンはどれくらいですか？
 config.nex:entity.ghast,Ghast Settings,ガスト設定
@@ -186,7 +186,7 @@ entity.nex:pigtificate.enchanter.name,Pigtificate Enchanter,ピグフィケー�
 entity.nex:pigtificate.brewer.name,Pigtificate Brewer,Pigtificate 醸造者
 entity.nex:goldGolem.name,Gold Golem,金のゴーレム
 entity.nex:mogus.name,Mogus,モグス
-entity.nex:mogus.brown.name,Brown Mogus,ブラウンモグス
+entity.nex:mogus.brown.name,Brown Mogus,茶モグス
 entity.nex:mogus.red.name,Red Mogus,赤いモグス
 entity.nex:mogus.white.name,White Mogus,白いモグス
 entity.nex:salamander.name,Salamander,サラマンダー

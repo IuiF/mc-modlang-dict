@@ -11,7 +11,7 @@ advancements.woot.cell_3.description,Craft a Premium Conatus Cell,プレミア�
 advancements.woot.cell_3.title,Pint glass,パイントグラス
 advancements.woot.cell_4.description,Craft an Ultimate Conatus Cell,究極 コンータス セルをクラフトする
 advancements.woot.cell_4.title,Stein glass,ジョッキ
-advancements.woot.conatus_fluid.description,Collect a bucket of Conatus Fluid,コンータス フルイッドのバケツを集める
+advancements.woot.conatus_fluid.description,Collect a bucket of Conatus Fluid,コナタスフルイッドのバケツを集める
 advancements.woot.conatus_fluid.title,Takes a lot of effort,大変な努力が必要
 advancements.woot.controller.description,Craft a Mob Controller,モブ コントローラーをクラフトする
 advancements.woot.controller.title,I have the power,私は力を持っている
@@ -79,7 +79,7 @@ advancements.woot.shard_perk_1.description,Craft a Scale The Summit I Perk,ス�
 advancements.woot.shard_perk_1.title,Nearly at the top,ほぼ頂上に
 advancements.woot.si_anvil.description,Craft a Stygian Anvil,スティギアン アンビルをクラフトする
 advancements.woot.si_anvil.title,Shape the things to come,来るべきものを形作る
-advancements.woot.si_dust.description,Craft Stygian Iron Dust,スティギアン鉄ダストをクラフト
+advancements.woot.si_dust.description,Craft Stygian Iron Dust,スティギアン鉄の粉をクラフト
 advancements.woot.si_dust.title,Cheaper ingots,より安いインゴット
 advancements.woot.si_ingot.description,Craft your first ingot the expensive way,高い方法で最初のインゴットをクラフトする
 advancements.woot.si_ingot.title,How much for one ingot!?,1つのインゴットにいくら？！
@@ -171,7 +171,7 @@ chat.woot.intern.validate.start,-- Validating %s --,-- %s を検証中 --
 chat.woot.intern.validate.valid,### Found valid %s factory,### 有効な%sファクトリーが見つかりました
 chat.woot.intern.validate.wrongtier,"Controller at (%d,%d,%d) not valid for %s","コントローラー at (%d,%d,%d) not valid for %s"
 chat.woot.mobshard.failure,Cannot capture mob,モブを捕獲できません
-chat.woot.mobshard.success,Captured mob,キャップtured mob
+chat.woot.mobshard.success,Captured mob,捕獲されたモブ
 chat.woot.perk.fail.0,Only level 1 perks can be added to an empty upgrade block,空のアップグレードブロックにはレベル1のパークしか追加できません。
 chat.woot.perk.fail.1,Cannot add a different perk to an existing one,既存のものに別の特典を追加できません
 chat.woot.perk.fail.2,Max level perk already installed,最大レベルの特典は既にインストール済み
@@ -186,12 +186,12 @@ commands.woot.pupils,Simulating %s,シミュレート中：%s
 commands.woot.simulation.dump.drop,Drops {0},ドロップ{0}
 commands.woot.simulation.learn.fail,Failed to start learning Entity: {0},エンティティ: {0} の学習を開始できませんでした
 commands.woot.simulation.learn.ok,Starting learning Entity: {0},学習開始エンティティ：{0}
-commands.woot.simulation.roll,{0} Looting {1} dropped {2},{0} ルートing {1} dropped {2}
+commands.woot.simulation.roll,{0} Looting {1} dropped {2},{0} ドロップ増加 {1} が {2} をドロップ
 commands.woot.simulation.status.simulating,Simulating {0},{0}をシミュレート中
 commands.woot.simulation.status.waiting,Waiting for cell {0},セル{0}を待機中
 config.waila.plugin_woot,Woot,おおきい
 config.waila.plugin_woot.display_layout_items,Show Layout Items,Show レイアウト Items
-fluid.woot.conatus_fluid,Conatus Fluid,コンータス フルイッド
+fluid.woot.conatus_fluid,Conatus Fluid,コナタスフルイッド
 fluid.woot.enchant_fluid,Liquid Enchant,Liquid エンチャント
 fluid.woot.mob_essence_fluid,Purge Fluid,Purge フルイッド
 fluid.woot.puredye_fluid,Pure Dye Fluid,純粋な 染料 フルイッド
@@ -208,9 +208,9 @@ gui.woot.heart.6,Item/Fluid Ingredients,Item/フルイッド イングレディ�
 gui.woot.heart.7,Exotic,エキゾチック
 gui.woot.infuser.name,Injection Press,Injection プレス
 gui.woot.oracle.looting.0,No looting : %.2f%%,略奪なし : %.2f%%
-gui.woot.oracle.looting.1,Looting I : %.2f%%,ルートing I : %.2f%%
-gui.woot.oracle.looting.2,Looting II : %.2f%%,ルートing II : %.2f%%
-gui.woot.oracle.looting.3,Looting III : %.2f%%,ルートing III : %.2f%%
+gui.woot.oracle.looting.1,Looting I : %.2f%%,ドロップ増加 I : %.2f%%
+gui.woot.oracle.looting.2,Looting II : %.2f%%,ドロップ増加 II : %.2f%%
+gui.woot.oracle.looting.3,Looting III : %.2f%%,ドロップ増加 III : %.2f%%
 gui.woot.oracle.name,Dee's Oracle,Dee's オラクル
 gui.woot.squeezer.blue,Blue %d/%d mb,青 %d/%d mb
 gui.woot.squeezer.dump,Dumping,廃棄
@@ -219,13 +219,13 @@ gui.woot.squeezer.red,Red %d/%d mb,赤 %d/%d mb
 gui.woot.squeezer.strict,Strict,厳格
 gui.woot.squeezer.white,White %d/%d mb,白 %d/%d mb
 gui.woot.squeezer.yellow,Yellow %d/%d mb,黄 %d/%d mb
-guide.woot.basics.conatus.name,Conatus Fluid,コンータス フルイッド
+guide.woot.basics.conatus.name,Conatus Fluid,コナタスフルイッド
 guide.woot.basics.credits.name,Credits,クレジット
 guide.woot.basics.ingredients.name,Ingredients,材料
 guide.woot.basics.intro.0,"Woot provides a solution to the ago old Minecraft problem of - $(#f00)I WANT ALL THE MOB DROPS!.$() The traditional solution is to spawn mobs as quickly as possible, kill them automatically and then pick up all the drops that they leave behind.",Wootは、Minecraftの古くからある問題 - $(#f00)モブのドロップ品を全て欲しい!$() - の解決策を提供します。従来の解決法は、モブをできるだけ素早く出現させ、自動的に倒し、その後ドロップ品をすべて拾うというものです。
 guide.woot.basics.intro.1,There are many interesting ways to perform this operation. The main drawback is that there are lots of entities generated and when scaled up on a server can impact performance. Woot gives you a mob farm/factory without generating all those messy entities and hopefully takes a bit of load off your server. It is also for lazy people like me that don't like building mob farms.,この操作を行う方法には様々な興味深い方法があります。主な欠点は、多くのエンティティが生成されることで、サーバーでスケールアップする場合にパフォーマンスに影響を与える可能性があることです。Wootは、これらのごちゃごちゃしたエンティティを生成せずにモブファーム/ファクトリーを提供し、サーバーの負荷を軽減することが期待できます。また、私のようにモブファームを構築したくない怠け者のためのModでもあります。
 guide.woot.basics.intro.name,What is this mod for?,このモッドの目的は？
-guide.woot.basics.mobshard.name,Capturing mobs,キャップturing mobs
+guide.woot.basics.mobshard.name,Capturing mobs,モブの捕獲中
 guide.woot.basics.stygianiron.name,Stygian Iron,スティギアン Iron
 guide.woot.basics.tiers.1,Every factory requires the following$(br2)$(li)1xHeart$(li)1xPrimary Base$(li)1xConatus Cell$(li)1xIngredient Importer$(li)1xLoot Exporter,Every factory requiresfollowing$(br2)$(li)1xハート$(li)1xPrimary ベース$(li)1xコンータス セル$(li)1xイングレディエント インポーター$(li)1xルート エクスポーター
 guide.woot.basics.tiers.11,Requires the following extra blocks:$(br)$(li)10x$(l:factory_blocks/factory_a)Amaranth Block$()$(li)17x$(l:factory_blocks/factory_b)Amber Block$()$(li)24x$(l:factory_blocks/factory_c)Celadon Block$()$(li)8x$(l:factory_blocks/factory_d)Cerulean Block$()$(li)8x$(l:factory_blocks/factory_e)Byzantium Block$()$(li)11x$(l:factory_blocks/factory_connector)Factory Connector$()$(li)3x$(l:factory_blocks/secctrl_base)Secondary Base$()$(li)4x$(l:factory_blocks/perkslot)Perk Slot$()$(li)4x$(l:factory_blocks/cap_a)Theoricus Cap$()$(li)8x$(l:factory_blocks/cap_b)Practicus Cap$()$(li)4x$(l:factory_blocks/cap_c)Exemptus Cap$()$(li)8x$(l:factory_blocks/cap_d)Magister Cap$(),Requiresfollowing extra blocks:$(br)$(li)10x$(l:factory_blocks/factory_a)アマランス ブロック$()$(li)17x$(l:factory_blocks/factory_b)アンバー ブロック$()$(li)24x$(l:factory_blocks/factory_c)セラドン ブロック$()$(li)8x$(l:factory_blocks/factory_d)セルリアン ブロック$()$(li)8x$(l:factory_blocks/factory_e)ビザンティウム ブロック$()$(li)11x$(l:factory_blocks/factory_connector)ファクトリー Connector$()$(li)3x$(l:factory_blocks/secctrl_base)Secondary ベース$()$(li)4x$(l:factory_blocks/perkslot)パーク スロット$()$(li)4x$(l:factory_blocks/cap_a)テオリクス キャップ$()$(li)8x$(l:factory_blocks/cap_b)プラクティクス キャップ$()$(li)4x$(l:factory_blocks/cap_c)エクセンプトゥス キャップ$()$(li)8x$(l:factory_blocks/cap_d)マギステル キャップ$()
@@ -289,17 +289,17 @@ guide.woot.machines.dyesqueezer.name,Dye Liquifier,染料 リキュイファイ�
 guide.woot.machines.enchsqueezer.0,"The $(item)Enchant Liquifier$(0) takes enchanted items (books, swords etc), extracts the enchantments from them and creates Liquid Enchant fluid. Higher level enchants create more fluid.","$(item)エンチャント リキュイファイアー$(0) takes enchanted items (books, swords etc), extractsenchantments from them and creates Liquid エンチャント fluid. Higher level enchants create more fluid."
 guide.woot.machines.enchsqueezer.2,$(li) Enchant I 500mb $(li) Enchant II 1000mb $(li) Enchant III 1500mb $(li) Enchant IV 2000mb $(li) Enchant V 2500mb $(li) Each extra level 500mb,$(li) エンチャント I 500mb $(li) エンチャント II 1000mb $(li) エンチャント III 1500mb $(li) エンチャント IV 2000mb $(li) エンチャント V 2500mb $(li) Each extra level 500mb
 guide.woot.machines.enchsqueezer.name,Enchant Liquifier,エンチャント リキュイファイアー
-guide.woot.machines.fluidconvertor.0,"The Woot factory runs on Conatus Fluid, which is primarily generated with the $(item)Fluid Vat$(0). The machine takes a fluid and a catalyst, then converts that into Conatus Fluid. Different fluid/catalyst combinations give differing amounts on Conatus Fluid.","Woot factory runs on コンータス フルイッド, which is primarily generated with$(item)フルイッド バット$(0). machine takes a fluid and a catalyst, then converts that into コンータス フルイッド. Different fluid/catalyst combinations give differing amounts on コンータス フルイッド."
+guide.woot.machines.fluidconvertor.0,"The Woot factory runs on Conatus Fluid, which is primarily generated with the $(item)Fluid Vat$(0). The machine takes a fluid and a catalyst, then converts that into Conatus Fluid. Different fluid/catalyst combinations give differing amounts on Conatus Fluid.",Wootファクトリーはコナタスフルイッドで動作し、主に$(item)フルイッドバット$(0)で生成されます。この機械は流体と触媒を取り、それをコナタスフルイッドに変換します。異なる流体/触媒の組み合わせは異なる量のコナタスフルイッドを生成します。
 guide.woot.machines.fluidconvertor.1,"Items can be inserted from any side. Input fluids can be inserted from the left, top or front. Output fluids can be removed from the bottom, back and right sides.",アイテムは任意の側から挿入できます。入力流体は左、上、または前から挿入できます。出力流体は、下、背面、および右側から削除できます。
 guide.woot.machines.fluidconvertor.name,Fluid Vat,フルイッドバット
 guide.woot.machines.infuser.1,"Items can be inserted from the top, left and front sides. Output items can be removed from the bottom, right and back sides. Fluids can be inserted via any side.","Items can be inserted fromtop, left and front sides. Output items can be removed frombottom, right and back sides. フルイッドs can be inserted via any side."
 guide.woot.machines.infuser.name,Injection Press,Injection プレス
 guide.woot.perks.crusher.name,Pressing Engagement,圧力 エンゲージメント
-guide.woot.perks.efficiency.0,This perk decreases the amount of Conatus Fluid required by the factory. Higher levels of this perk will decrease the fluid requirement further.,This perk decreasesamountのコンータス フルイッド required byfactory. Higher levelsのthis perk will decreasefluid requirement further.
+guide.woot.perks.efficiency.0,This perk decreases the amount of Conatus Fluid required by the factory. Higher levels of this perk will decrease the fluid requirement further.,このパークはファクトリーに必要なコンナタスフルイドの量を減らします。このパークのより高いレベルは、流体の必要量をさらに減らします。
 guide.woot.perks.efficiency.1,$(li)Tier I - 15%% decrease$(li)Tier II - 25%% decrease$(li)Tier III - 30%% decrease,$(li)Tier I - 15%% 減少$(li)Tier II - 25%% 減少$(li)Tier III - 30%% 減少
 guide.woot.perks.flayed.0,This perk allows mobs being processed by the Woot factory to be used by the Martyr ritual to generate LP. Higher levels of this perk will increase the mob health available to the ritual.,このパークにより、Wootファクトリーで処理されているモブを、マーティル儀式で使用してLPを生成することができます。このパークの高いレベルは、儀式に利用できるモブの体力を増加させます。
 guide.woot.perks.flayed.name,Flayed,剥がれた
-guide.woot.perks.headless.0,The $(item)Head Start$(0) perk drops skulls. Higher levels of this perk give a better chance of the drop.,$(item)ヘッドスタート$(0) perk drops skulls. Higher levelsのthis perk give a better chanceのthe drop.
+guide.woot.perks.headless.0,The $(item)Head Start$(0) perk drops skulls. Higher levels of this perk give a better chance of the drop.,$(item)ヘッドスタート$(0)パークはスカルをドロップします。このパークのより高いレベルは、ドロップの確率を高めます。
 guide.woot.perks.headless.name,Head Start,ヘッドスタート
 guide.woot.perks.laser.name,Frickin Laser Breams,クソみたいなレーザーブレームズ
 guide.woot.perks.looting.name,Treasure Island,トレジャー アイランド
@@ -318,13 +318,13 @@ guide.woot.tools.intern.name,The Intern,インターン
 guide.woot.tools.layout.1,$(li)Right clicking will step through the different tiers$(li)Sneak right click will step through the y-levels of the current tier,$(li)右クリックすると異なるティアをステップスルーします$(li)スニーク右クリックすると現在のティアのy-レベルをステップスルーします
 guide.woot.tools.layout.name,Layout Guide,レイアウトガイド
 guide.woot.tools.oracle.name,Dee's Oracle,Dee's オラクル
-info.woot.cell.0,Conatus Fluid %d/%dmB,コンータス フルイッド %d/%dmB
+info.woot.cell.0,Conatus Fluid %d/%dmB,コナタスフルイッド %d/%dmB
 info.woot.cell.1,Transfer rate %dmB/tick,転送速度 %dmB/ティック
 info.woot.controller.0,Right-click for required tier information,右クリックで必要な階層情報を確認してください
 info.woot.energy,Energy: %d/%d RF,エネルギー: %d/%d RF
 info.woot.exotic.0,Drops from End City loot chests,エンドシティの宝箱からドロップされるアイテム。
-info.woot.exotic.exotic_a,Reduce fluid ingredients by %0.2f%%,赤uce fluid ingredients×%0.2f%%
-info.woot.exotic.exotic_b,Reduce item ingredients by %0.2f%%,赤uce item ingredients×%0.2f%%
+info.woot.exotic.exotic_a,Reduce fluid ingredients by %0.2f%%,流体素材を%0.2f%%削減
+info.woot.exotic.exotic_b,Reduce item ingredients by %0.2f%%,アイテム素材を%0.2f%%削減
 info.woot.exotic.exotic_d,Fixed spawn time of %d ticks,スパーン時間を%dティックで固定
 info.woot.exotic.exotic_e,Spawns %d mobs,%d個のMobを生成
 info.woot.input_tank,Input Tank: %s %d/%d mB,入力タンク: %s %d/%d mB
@@ -358,7 +358,7 @@ info.woot.perk.looting,Change the looting level,収集レベルを変更しま�
 info.woot.perk.mass,Increases the number of mobs,モブ数を増やす
 info.woot.perk.mass.0,Spawn %d mobs,%d 個のモンスターを生成
 info.woot.perk.rate,Speeds up the spawn time,出現時間を早めます
-info.woot.perk.rate.0,Reduce spawn time by %d%%,赤uce spawn time×%d%%
+info.woot.perk.rate.0,Reduce spawn time by %d%%,スポーン時間を%d%%削減
 info.woot.perk.slaughter,Generate Industrial Foregoing pink slime and liquid meat,Industrial Foregoingの桃色・スライムと液体肉を生成する
 info.woot.perk.slaughter.0,Produce %d%% of liquid,%d%% の液体を生産
 info.woot.perk.tier_shard,Generate essence to upgrade the factory,工場をアップグレードするためにエッセンスを生成する
@@ -369,7 +369,7 @@ info.woot.perk.xp,Generate experience,経験値を生成
 info.woot.perk.xp.0,Generate %d%% of mob experience,%d%% のモンスターの経験値を生成します。
 info.woot.shard.0,Right click to gain experience,右クリックで経験値を獲得
 info.woot.shard.1,Sneak right click to consume full stack,スニークしながら右クリックで全スタックを消費する
-info.woot.squeezer.0,Internal: R:%dmB Y:%dmB B:%dmB W:%dmB,インターンal: R:%dmB Y:%dmB B:%dmB W:%dmB
+info.woot.squeezer.0,Internal: R:%dmB Y:%dmB B:%dmB W:%dmB,内部: R:%dmB Y:%dmB B:%dmB W:%dmB
 info.woot.squeezer.glow,Use glowstone on machine to swap dump/strict mode,機械にグロウストーンを使用してダンプ／厳格モードを切り替えます
 item.woot.black_dyecasing,Black Dye Casing,黒 Dye Casing
 item.woot.black_dyeplate,Black Dye Plate,黒 Dye Plate
@@ -377,10 +377,10 @@ item.woot.blue_dyecasing,Blue Dye Casing,青 Dye Casing
 item.woot.blue_dyeplate,Blue Dye Plate,青 Dye Plate
 item.woot.brown_dyecasing,Brown Dye Casing,茶 Dye Casing
 item.woot.brown_dyeplate,Brown Dye Plate,茶 Dye Plate
-item.woot.conatus_fluid_bucket,Conatus Bucket,コンータス Bucket
-item.woot.crusher_1,Pressing Engagement I Perk,プレスing Engagement I パーク
-item.woot.crusher_2,Pressing Engagement II Perk,プレスing Engagement II パーク
-item.woot.crusher_3,Pressing Engagement III Perk,プレスing Engagement III パーク
+item.woot.conatus_fluid_bucket,Conatus Bucket,コンータスのバケツ
+item.woot.crusher_1,Pressing Engagement I Perk,プレッシングエンゲージメント I パーク
+item.woot.crusher_2,Pressing Engagement II Perk,プレッシングエンゲージメント II パーク
+item.woot.crusher_3,Pressing Engagement III Perk,プレッシングエンゲージメント III パーク
 item.woot.cyan_dyecasing,Cyan Dye Casing,青緑 Dye Casing
 item.woot.cyan_dyeplate,Cyan Dye Plate,青緑 染料 板
 item.woot.debug,Debug Tool (Dev),デバッグツール (開発者用)
@@ -388,7 +388,7 @@ item.woot.dye_die,Dye Casing Die,染料 Casing ダイ
 item.woot.ench_plate_1,Neophyte Plate,初級者 板
 item.woot.ench_plate_2,Adeptus Plate,上級者 板
 item.woot.ench_plate_3,Magus Plate,マグスプレート
-item.woot.enchant_fluid_bucket,Liquid Enchant Bucket,Liquid エンチャント Bucket
+item.woot.enchant_fluid_bucket,Liquid Enchant Bucket,液体エンチャントのバケツ
 item.woot.flayed_1,Flayed I Perk,Flayed I パーク
 item.woot.flayed_2,Flayed II Perk,Flayed II パーク
 item.woot.flayed_3,Flayed III Perk,Flayed III パーク
@@ -420,7 +420,7 @@ item.woot.magenta_dyeplate,Magenta Dye Plate,赤紫 Dye Plate
 item.woot.mass_1,Rampage I Perk,Rampage I パーク
 item.woot.mass_2,Rampage II Perk,Rampage II パーク
 item.woot.mass_3,Rampage III Perk,Rampage III パーク
-item.woot.mob_essence_fluid_bucket,Purge Fluid Bucket,Purge フルイッド Bucket
+item.woot.mob_essence_fluid_bucket,Purge Fluid Bucket,パージ液のバケツ
 item.woot.mobshard,Mob Shard,Mob シャード
 item.woot.orange_dyecasing,Orange Dye Casing,橙 Dye Casing
 item.woot.orange_dyeplate,Orange Dye Plate,橙 Dye Plate
@@ -428,7 +428,7 @@ item.woot.pink_dyecasing,Pink Dye Casing,桃色 Dye Casing
 item.woot.pink_dyeplate,Pink Dye Plate,桃色 Dye Plate
 item.woot.plate_die,Plate Die,Plate ダイ
 item.woot.prism,Prism,プリズム
-item.woot.puredye_fluid_bucket,Pure Dye Bucket,純粋な 染料 Bucket
+item.woot.puredye_fluid_bucket,Pure Dye Bucket,純粋な染料のバケツ
 item.woot.purple_dyecasing,Purple Dye Casing,紫 染料 Casing
 item.woot.purple_dyeplate,Purple Dye Plate,紫 Dye Plate
 item.woot.rate_1,Feeding Frenzy I Perk,Feeding Frenzy I パーク
@@ -438,7 +438,7 @@ item.woot.red_dyecasing,Red Dye Casing,赤 Dye Casing
 item.woot.red_dyeplate,Red Dye Plate,赤 Dye Plate
 item.woot.shard_die,Shard Die,シャード ダイ
 item.woot.si_dust,Stygian Iron Dust,スティギアン Iron Dust
-item.woot.si_ingot,Stygian Iron Ingot,スティギアン Iron Ingot
+item.woot.si_ingot,Stygian Iron Ingot,スティギアン鉄インゴット
 item.woot.si_plate,Stygian Iron Plate,スティギアン Iron Plate
 item.woot.t1shard,Celadon Essence,セラドン エッセンス
 item.woot.t2shard,Cerulean Essence,セルリアン エッセンス
@@ -507,10 +507,10 @@ item.woot.factorycore.power.name,Power Core,パワーコア
 item.woot.factorycore.cap.name,Cap Core,キャップ Core
 item.woot.factorybase.name,Factory Base,ファクトリー ベース
 item.woot.prism.name,Prism,プリズム
-item.woot.stygianironingot.name,Stygian Iron Ingot,スティギアン Iron Ingot
+item.woot.stygianironingot.name,Stygian Iron Ingot,スティギアン鉄インゴット
 item.woot.stygianironplate.name,Stygian Iron Plate,スティギアン Iron Plate
 item.woot.stygianirondust.name,Stygian Iron Dust,スティギアン Iron Dust
-item.woot.soulsanddust.name,Soul Dust,ソウルダスト
+item.woot.soulsanddust.name,Soul Dust,ソウルの粉
 item.woot.endershard.name,Ender Shard,エンダーシャード
 item.woot.shard.diamond.name,Diamond Shard,Diamond シャード
 item.woot.shard.emerald.name,Emerald Shard,エメラルドの欠片
@@ -536,7 +536,7 @@ tile.woot.structure.block_2.name,Factory Bone Casing,ファクトリー Bone Cas
 tile.woot.structure.block_3.name,Factory Blaze Casing,ファクトリー Blaze Casing
 tile.woot.structure.block_4.name,Factory Ender Casing,ファクトリー Ender Casing
 tile.woot.structure.block_5.name,Factory Nether Casing,ファクトリー Nether Casing
-tile.woot.structure.block_upgrade.name,Factory Upgrade Base,ファクトリー Upgrade ベース
+tile.woot.structure.block_upgrade.name,Factory Upgrade Base,ファクトリーアップグレードベース
 tile.woot.structure.tier_i_cap.name,Factory Tier I Cap,ファクトリー Tier I キャップ
 tile.woot.structure.tier_ii_cap.name,Factory Tier II Cap,ファクトリー Tier II キャップ
 tile.woot.structure.tier_iii_cap.name,Factory Tier III Cap,ファクトリー Tier III キャップ
@@ -544,15 +544,15 @@ tile.woot.structure.tier_iv_cap.name,Factory Tier IV Cap,ファクトリー Tier
 tile.woot.cell.tier_i.name,Basic Power Cell,Basic Power セル
 tile.woot.cell.tier_ii.name,Advanced Power Cell,Advanced Power セル
 tile.woot.cell.tier_iii.name,Premium Power Cell,Premium Power セル
-tile.woot.upgrade.xp_i.name,XP I Upgrade,経験値 I Upgrade
-tile.woot.upgrade.xp_ii.name,XP II Upgrade,経験値 II Upgrade
-tile.woot.upgrade.xp_iii.name,XP III Upgrade,経験値 III Upgrade
+tile.woot.upgrade.xp_i.name,XP I Upgrade,経験値 I アップグレード
+tile.woot.upgrade.xp_ii.name,XP II Upgrade,経験値 II アップグレード
+tile.woot.upgrade.xp_iii.name,XP III Upgrade,経験値 III アップグレード
 tile.woot.upgrade.rate_i.name,Rate I Upgrade,レートIアップグレード
 tile.woot.upgrade.rate_ii.name,Rate II Upgrade,レートIIアップグレード
 tile.woot.upgrade.rate_iii.name,Rate III Upgrade,レートIIIアップグレード
-tile.woot.upgrade.looting_i.name,Looting I Upgrade,ルートing I Upgrade
-tile.woot.upgrade.looting_ii.name,Looting II Upgrade,ルートing II Upgrade
-tile.woot.upgrade.looting_iii.name,Looting III Upgrade,ルートing III Upgrade
+tile.woot.upgrade.looting_i.name,Looting I Upgrade,ルーティング I アップグレード
+tile.woot.upgrade.looting_ii.name,Looting II Upgrade,ルーティング II アップグレード
+tile.woot.upgrade.looting_iii.name,Looting III Upgrade,ルーティング III アップグレード
 tile.woot.upgrade.mass_i.name,Mass I Upgrade,マスIアップグレード
 tile.woot.upgrade.mass_ii.name,Mass II Upgrade,マスIIアップグレード
 tile.woot.upgrade.mass_iii.name,Mass III Upgrade,質量IIIアップグレード
@@ -562,12 +562,12 @@ tile.woot.upgrade.decapitate_iii.name,Decapitate III Upgrade,斬首IIIアップ�
 tile.woot.upgradeb.efficiency_i.name,Efficiency I Upgrade,効率Iアップグレード
 tile.woot.upgradeb.efficiency_ii.name,Efficiency II Upgrade,効率IIアップグレード
 tile.woot.upgradeb.efficiency_iii.name,Efficiency III Upgrade,効率IIIアップグレード
-tile.woot.upgradeb.bm_le_tank_i.name,Blood Magic Life Essence Tank I Upgrade,Blood Magic Life エッセンス Tank I Upgrade
-tile.woot.upgradeb.bm_le_tank_ii.name,Blood Magic Life Essence Tank II Upgrade,Blood Magic Life エッセンス Tank II Upgrade
-tile.woot.upgradeb.bm_le_tank_iii.name,Blood Magic Life Essence Tank III Upgrade,Blood Magic Life エッセンス Tank III Upgrade
-tile.woot.upgradeb.bm_le_altar_i.name,Blood Magic Life Essence Altar I Upgrade,Blood Magic Life エッセンス Altar I Upgrade
-tile.woot.upgradeb.bm_le_altar_ii.name,Blood Magic Life Essence Altar II Upgrade,Blood Magic Life エッセンス Altar II Upgrade
-tile.woot.upgradeb.bm_le_altar_iii.name,Blood Magic Life Essence Altar III Upgrade,Blood Magic Life エッセンス Altar III Upgrade
+tile.woot.upgradeb.bm_le_tank_i.name,Blood Magic Life Essence Tank I Upgrade,ブラッドマジック ライフエッセンスタンク I アップグレード
+tile.woot.upgradeb.bm_le_tank_ii.name,Blood Magic Life Essence Tank II Upgrade,Blood Magic Life エッセンスタンク II アップグレード
+tile.woot.upgradeb.bm_le_tank_iii.name,Blood Magic Life Essence Tank III Upgrade,Blood Magic Life エッセンスタンク III アップグレード
+tile.woot.upgradeb.bm_le_altar_i.name,Blood Magic Life Essence Altar I Upgrade,Blood Magic Life エッセンス祭壇 I アップグレード
+tile.woot.upgradeb.bm_le_altar_ii.name,Blood Magic Life Essence Altar II Upgrade,Blood Magic Life エッセンス祭壇 II アップグレード
+tile.woot.upgradeb.bm_le_altar_iii.name,Blood Magic Life Essence Altar III Upgrade,Blood Magic Life エッセンス祭壇 III アップグレード
 tile.woot.upgradeb.ec_blood_i.name,EvilCraft Blood Tank I Upgrade,EvilCraft 血のタンク I アップグレード
 tile.woot.upgradeb.ec_blood_ii.name,EvilCraft Blood Tank II Upgrade,EvilCraft 血液タンク II アップグレード
 tile.woot.upgradeb.ec_blood_iii.name,EvilCraft Blood Tank III Upgrade,EvilCraft 血のタンクIIIアップグレード
@@ -588,7 +588,7 @@ info.woot.endershard.b.1,%s [Fully programmed],%s [完全にプログラム済�
 info.woot.tier,Tier %s,段階 %s
 info.woot.heart.unformed,Factory not formed,ファクトリー not formed
 info.woot.heart.progress,Progress: %d%% (%s),進捗: %d%% (%s)
-info.woot.heart.recipe,Spawning %s * %d,スパawning %s * %d
+info.woot.heart.recipe,Spawning %s * %d,スポーニング %s * %d
 info.woot.heart.cost,Power %dRF @ %dRF/tick for %d ticks,パワー %dRF @ %dRF/ティック for %d ticks
 info.woot.heart.ingredients,Ingredients Per Mob: %d * %s,イングレディエントs Per モブ: %d * %s
 info.woot.guide.rclick,Right-click to change tiers,右クリックで階層を変更
@@ -619,7 +619,7 @@ info.woot.hammer.mode.validate_export,Validate exports,エクスポートの検�
 info.woot.hammer.mode.validate_export.desc,Checks that tanks and inventories and valid export blocks,タンク、インベントリ、および有効なエクスポートブロックを確認します
 enchant.woot.headhunter,Headhunter,ヘッドハンター
 chat.woot.endershard.failure,Cannot capture mob,モブを捕獲できません
-chat.woot.endershard.success,Captured mob,キャップtured mob
+chat.woot.endershard.success,Captured mob,捕獲されたモブ
 chat.woot.anvil.nomagma,Anvil must be sitting on a Magma Block,アンビル must be sitting on a Magma ブロック
 chat.woot.anvil.emptyshard,Unprogrammed Ender Shard,Unprogrammed Ender シャード
 chat.woot.anvil.invalid,No matching recipe,対応するレシピがありません
@@ -655,7 +655,7 @@ ritual.woot.ritualLifeEssenceAltar,Ritual of the Mechanical Altar,機械の祭�
 ritual.woot.ritualClonedSoul,Ritual of the Cloned Soul,クローンされた魂の儀式
 ui.woot.mass.desc,"Mass %d: %dRF/tick, %d mobs",質量 %d: %dRF/ターン、%d 個のモンスター
 ui.woot.decapitate.desc,"Decapitate %d: %dRF/tick, %d%% chance","頭切断 %d: %dRF/tick, %d%% の確率"
-ui.woot.looting.desc,Looting %d: %dRF/tick,ルートing %d: %dRF/tick
+ui.woot.looting.desc,Looting %d: %dRF/tick,ルーティング %d: %dRF/tick
 ui.woot.rate.desc,"Rate %d: %dRF/tick, %d%% time decrease",レート %d: %d RF/ティック、%d%% 時間減少
 ui.woot.efficiency.desc,"Efficiency %d: %dRF/tick, %d power decrease",効率 %d: %dRF/ティック、%dパワー減少
 ui.woot.xp.desc,"XP %d: %dRF/tick, %d%% generation","経験値 %d: %dRF/tick, %d%% generation"
@@ -673,7 +673,7 @@ guide.woot.category.foreword,Foreword,序文
 guide.woot.category.factory,Factory,工場
 guide.woot.category.anvil,Stygian Anvil,スティギアンアンビル
 guide.woot.category.ingredients,Mob Spawning Ingredients,モブ Spawning イングレディエントs
-guide.woot.category.upgrades,Factory Upgrades,ファクトリー Upgrades
+guide.woot.category.upgrades,Factory Upgrades,ファクトリーアップグレード
 guide.woot.category.bloodmagic,Blood Magic,血魔術
 guide.woot.category.evilcraft,EvilCraft,イビルクラフト
 guide.woot.category.changelog,Changelog,変更履歴
@@ -699,7 +699,7 @@ guide.woot.entry.factory.importer,The Importer,インポーター
 guide.woot.entry.factory.exporter,The Exporter,エクスポーター
 guide.woot.entry.factory.power,Power Cells,Power セルs
 guide.woot.entry.factory.stygianiron,Stygian Iron,スティギアン Iron
-guide.woot.entry.factory.capturing,Capturing Mobs,キャップturing Mobs
+guide.woot.entry.factory.capturing,Capturing Mobs,モブの捕獲
 guide.woot.entry.factory.programming,Mob Controller,モブ コントローラー
 guide.woot.entry.factory.stygiananvil,Stygian Anvil,スティギアンアンビル
 guide.woot.entry.factory.intern,The Intern,インターン
@@ -723,7 +723,7 @@ guide.woot.entry.factory.tiers.info,"There are four tiers of factory available. 
 すべてのティアのファクトリーはすべてのパワーセルをサポートします。"
 guide.woot.entry.upgrades.intro,Introduction,はじめに
 guide.woot.entry.upgrades.totems,Tiers And Totems,ランクとトーマス
-guide.woot.entry.upgrades.mobs,Upgrades And Mobs,Upgrades And モブs
+guide.woot.entry.upgrades.mobs,Upgrades And Mobs,アップグレードとモブ
 guide.woot.entry.upgrades.decapitation,Decapitation,斬首
 guide.woot.entry.upgrades.efficiency,Efficiency,効率
 guide.woot.entry.upgrades.looting,Looting,略奪
@@ -749,7 +749,7 @@ guide.woot.entry.anvil.intro,Introduction,はじめに
 guide.woot.entry.anvil.dies,Dies,ダイs
 guide.woot.entry.anvil.plate,Stygian Iron Plate,スティギアン Iron Plate
 guide.woot.entry.anvil.shards,Shards,欠片
-guide.woot.entry.anvil.dusts,Dusts,ダスト
+guide.woot.entry.anvil.dusts,Dusts,の粉
 guide.woot.entry.anvil.cores,Cores,コア
 guide.woot.entry.anvil.controller,Programmed Controller,Programmed コントローラー
 guide.woot.entry.evilcraft.intro,Introduction,はじめに

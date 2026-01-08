@@ -118,11 +118,11 @@ block.projecte.interdiction_torch,Interdiction Torch,結界の灯火
 block.projecte.mobius_fuel_block,Mobius Fuel Block,メビウス燃料ブロック
 block.projecte.nova_cataclysm,Nova Cataclysm,スーパーノヴァTNT
 block.projecte.nova_catalyst,Nova Catalyst,ノヴァTNT
-block.projecte.red_matter_block,Red Matter Block,レッドマターブロック
+block.projecte.red_matter_block,Red Matter Block,赤マターブロック
 block.projecte.relay_mk1,Anti-Matter Relay MK1,反物質炉 MK1
 block.projecte.relay_mk2,Anti-Matter Relay MK2,反物質炉 MK2
 block.projecte.relay_mk3,Anti-Matter Relay MK3,反物質炉 MK3
-block.projecte.rm_furnace,Red Matter Furnace,レッドマターかまど
+block.projecte.rm_furnace,Red Matter Furnace,赤マターかまど
 block.projecte.transmutation_table,Transmutation Table,変換テーブル
 command.projecte.dump_missing_emc.none_missing,All Items have an EMC value.,全てのアイテムがEMC値を持っています。
 command.projecte.dump_missing_emc.one_missing,"One Item is missing an EMC value, printing to server log.",1個のアイテムがEMC値を持っていません。サーバーログに出力します。
@@ -139,7 +139,7 @@ configuration.projecte.client.tooltips.emc.shift.tooltip,Requires holding shift 
 configuration.projecte.client.tooltips.emc.tooltip,Show the EMC value as a tooltip on items and blocks.,アイテムとブロックのツールチップに EMC 値を表示します。
 configuration.projecte.client.tooltips.learned.shift,Shift Learned Tooltips,Shiftで学習済みツールチップを表示
 configuration.projecte.client.tooltips.learned.shift.tooltip,Requires holding shift to display the learned/unlearned text as a tooltip on items and blocks. Note: this does nothing if EMC Tooltips are disabled.,Shiftキーを保持すると、アイテムとブロックのツールチップに習得/未習得テキストを表示します。注意：EMCツールチップが無効になっている場合は機能しません。
-configuration.projecte.client.tooltips.pedestal,DM Pedestal Tooltips,DMペダストルのツールチップ
+configuration.projecte.client.tooltips.pedestal,DM Pedestal Tooltips,DMペの粉ルのツールチップ
 configuration.projecte.client.tooltips.pedestal.tooltip,Show Dark Matter Pedestal functions in item tooltips.,アイテムツールチップにダークマターペデスタル機能を表示する
 configuration.projecte.client.tooltips.stats,Stat Tooltips,ステータスツールチップ
 configuration.projecte.client.tooltips.stats.tooltip,Show stats as tooltips for various ProjectE blocks.,ProjectE ブロックの統計をツールチップとして表示
@@ -160,11 +160,11 @@ configuration.projecte.mapping.dump_to_file.tooltip,Want to take a look at the i
 configuration.projecte.mapping.log_exploits,Log Known EMC Exploits,既知のEMCエクスプロイトを記録
 configuration.projecte.mapping.log_exploits.tooltip,Logs known EMC Exploits. This can not and will not find all possible exploits. This will only find exploits that result in fixed/custom emc values that the algorithm did not overwrite. Exploits that derive from conversions that are unknown to ProjectE will not be found.,既知のEMCエクスプロイトをログに記録します。これは完全にはすべてのエクスプロイトを検出することはできません。これはアルゴリズムが上書きしなかった固定/カスタムemc値を引き起こすエクスプロイトのみを検出します。ProjectEに不明な変換から生じるエクスプロイトは検出されません。
 configuration.projecte.mapping.mapper,EMC Mappers,EMCマッパー
-configuration.projecte.mapping.mapper.blacklist.ore,Ore Blacklist Mapper,鉱石ブラックリストマッパー
-configuration.projecte.mapping.mapper.blacklist.ore.button,Edit Ore Blacklist,鉱石ブラックリスト編集
+configuration.projecte.mapping.mapper.blacklist.ore,Ore Blacklist Mapper,鉱石黒リストマッパー
+configuration.projecte.mapping.mapper.blacklist.ore.button,Edit Ore Blacklist,鉱石黒リスト編集
 configuration.projecte.mapping.mapper.blacklist.ore.tooltip,Set EMC=0 for everything in the c:ores tag.,c:ores タグ内のすべてに EMC=0 を設定します。
-configuration.projecte.mapping.mapper.blacklist.raw_ore,Raw Ore Blacklist Mapper,未精製鉱石ブラックリストマッパー
-configuration.projecte.mapping.mapper.blacklist.raw_ore.button,Edit Raw Ores Blacklist,レアアイテムブラックリストを編集
+configuration.projecte.mapping.mapper.blacklist.raw_ore,Raw Ore Blacklist Mapper,未精製鉱石黒リストマッパー
+configuration.projecte.mapping.mapper.blacklist.raw_ore.button,Edit Raw Ores Blacklist,レアアイテム黒リストを編集
 configuration.projecte.mapping.mapper.blacklist.raw_ore.tooltip,Set EMC=0 for everything in the c:raw_materials tag.,c:raw_materials タグ内のすべてに EMC=0 を設定します。
 configuration.projecte.mapping.mapper.brewing,Brewing Mapper,製造マッパー
 configuration.projecte.mapping.mapper.brewing.button,Edit Brewing Mapper,醸造マッパー編集
@@ -344,7 +344,7 @@ configuration.projecte.server.items.harvest_band_indirect.tooltip,"Allows the Ha
 configuration.projecte.server.items.op_evertide,Overpowered Evertide Amulet,過剰なエバーテイドのアミュレット
 configuration.projecte.server.items.op_evertide.tooltip,Allow the Evertide amulet to place water in dimensions that water evaporates. For example: The Nether.,水が蒸発する次元でEvertideのお守りが水を置くことを許可します。例えば：ネザー。
 configuration.projecte.server.items.pickaxe_aoe_vein_mining,Pickaxe AOE Vein Mining,ツルハシAOE鉱脈採掘
-configuration.projecte.server.items.pickaxe_aoe_vein_mining.tooltip,Instead of vein mining the ore you right click with your Dark/Red Matter Pick/Star it vein mines all ores in an AOE around you like it did in ProjectE before version 1.4.4.,ダーク/レッドマターピック/スターで右クリックした鉱石を鉱脈採掘する代わりに、ProjectEバージョン1.4.4以前のようにあなたの周りのAOEのすべての鉱石を鉱脈採掘します。
+configuration.projecte.server.items.pickaxe_aoe_vein_mining.tooltip,Instead of vein mining the ore you right click with your Dark/Red Matter Pick/Star it vein mines all ores in an AOE around you like it did in ProjectE before version 1.4.4.,ダーク/赤マターピック/スターで右クリックした鉱石を鉱脈採掘する代わりに、ProjectEバージョン1.4.4以前のようにあなたの周りのAOEのすべての鉱石を鉱脈採掘します。
 configuration.projecte.server.items.time_watch,Watch of Flowing Time,時流計
 configuration.projecte.server.items.time_watch.tooltip,Enables the Watch of Flowing Time.,流れの時間の観測者を有効にする。
 configuration.projecte.server.items.tooltip,Settings for configuring Item options provided by ProjectE.,ProjectE が提供するアイテムオプションの設定です。
@@ -445,21 +445,21 @@ item.projecte.philosophers_stone,Philosopher's Stone,賢者の石
 item.projecte.pink_alchemical_bag,Alchemical Bag (Pink),錬金バッグ
 item.projecte.purple_alchemical_bag,Alchemical Bag (Purple),錬金バッグ
 item.projecte.red_alchemical_bag,Alchemical Bag (Red),錬金バッグ
-item.projecte.red_matter,Red Matter,レッドマター
+item.projecte.red_matter,Red Matter,赤マター
 item.projecte.repair_talisman,Repair Talisman,補修のお守り
-item.projecte.rm_axe,Red Matter Axe,レッドマターアクス
-item.projecte.rm_boots,Red Matter Boots,レッドマターのブーツ
-item.projecte.rm_chestplate,Red Matter Chestplate,レッドマターの鎧
-item.projecte.rm_hammer,Red Matter Hammer,レッドマターハンマー
-item.projecte.rm_helmet,Red Matter Helmet,レッドマターの兜
-item.projecte.rm_hoe,Red Matter Hoe,レッドマタークワ
-item.projecte.rm_katar,Red Katar,レッドカタール
-item.projecte.rm_leggings,Red Matter Leggings,レッドマターの脛当て
-item.projecte.rm_morning_star,Red Morningstar,レッドモーニングスター
-item.projecte.rm_pick,Red Matter Pickaxe,レッドマターつるはし
-item.projecte.rm_shears,Red Matter Shears,レッドマターはさみ
-item.projecte.rm_shovel,Red Matter Shovel,レッドマターシャベル
-item.projecte.rm_sword,Red Matter Sword,レッドマターソード
+item.projecte.rm_axe,Red Matter Axe,赤マターアクス
+item.projecte.rm_boots,Red Matter Boots,赤マターのブーツ
+item.projecte.rm_chestplate,Red Matter Chestplate,赤マターの鎧
+item.projecte.rm_hammer,Red Matter Hammer,赤マターハンマー
+item.projecte.rm_helmet,Red Matter Helmet,赤マターの兜
+item.projecte.rm_hoe,Red Matter Hoe,赤マタークワ
+item.projecte.rm_katar,Red Katar,赤カタール
+item.projecte.rm_leggings,Red Matter Leggings,赤マターの脛当て
+item.projecte.rm_morning_star,Red Morningstar,赤モーニングスター
+item.projecte.rm_pick,Red Matter Pickaxe,赤マターつるはし
+item.projecte.rm_shears,Red Matter Shears,赤マターはさみ
+item.projecte.rm_shovel,Red Matter Shovel,赤マターシャベル
+item.projecte.rm_sword,Red Matter Sword,赤マターソード
 item.projecte.soul_stone,Soul Stone,魂の石
 item.projecte.swiftwolf_rending_gale,Swiftwolf's Rending Gale,風統べる狼王の指輪
 item.projecte.tome,Tome of Knowledge,錬金大全
@@ -478,10 +478,10 @@ key.projecte.extra_function,Extra Function,追加機能
 key.projecte.fire_projectile,Fire Projectile,ファイアボール発射
 key.projecte.helmet_toggle,Helmet Effects,ヘルメット効果
 key.projecte.mode,Change Mode,モード変更
-misc.projecte.blacklist,Blacklist,ブラックリスト
+misc.projecte.blacklist,Blacklist,黒リスト
 misc.projecte.pack_description,Resources used for ProjectE,ProjectEで使用される資源
 misc.projecte.update.get_it,Get it here!,ここで取得！
-misc.projecte.whitelist,Whitelist,ホワイトリスト
+misc.projecte.whitelist,Whitelist,白リスト
 mode.projecte.arcana.1,Zero,ゼロ
 mode.projecte.arcana.2,Ignition,点火
 mode.projecte.arcana.3,Harvest,収穫
@@ -540,7 +540,7 @@ tag.block.c.mineable.hammer,Hammer Mineable,ハンマーの掘削可能
 tag.block.c.mineable.katar,Katar Mineable,カタール可採掘
 tag.block.c.mineable.morning_star,Morning Star Mineable,朝星の掘削可能
 tag.block.projecte.blacklist.harvest,Harvest Band Blacklist,収穫禁止ブロックリスト
-tag.block.projecte.blacklist.time_watch,Time Watch Blacklist,タイムウォッチブラックリスト
+tag.block.projecte.blacklist.time_watch,Time Watch Blacklist,タイムウォッチ黒リスト
 tag.block.projecte.farming_override,Farming Override,農業オーバーライド
 tag.block.projecte.incorrect_for_dark_matter_tool,Alchemical,化学的
 tag.block.projecte.incorrect_for_red_matter_tool,Alchemical,化学的
@@ -550,12 +550,12 @@ tag.block.projecte.mineable.morning_star,ProjectE Morning Star Mineable,ProjectE
 tag.block.projecte.mineable.shears,ProjectE Shears Mineable,ProjectE シェアーズ：掘削可能
 tag.block.projecte.mineable.sword,ProjectE Sword Mineable,ProjectEの剣（掘削可能）
 tag.block.projecte.needs_dark_matter_tool,Needs Dark Matter Tools,ダークマター工具が必要
-tag.block.projecte.needs_red_matter_tool,Needs Red Matter Tools,レッドマター工具が必要
+tag.block.projecte.needs_red_matter_tool,Needs Red Matter Tools,赤マター工具が必要
 tag.block.projecte.override.plantable,Harvest Band Plantable Override,ハーベストバンド可植えオーバーライド
 tag.block.projecte.vein.shovel,Valid Matter Shovel Vein,有効なマター用シャベルの脈
-tag.block_entity_type.projecte.blacklist.time_watch,Time Watch Blacklist,タイムウォッチブラックリスト
+tag.block_entity_type.projecte.blacklist.time_watch,Time Watch Blacklist,タイムウォッチ黒リスト
 tag.entity_type.projecte.blacklist.interdiction,Interdiction Blacklist,封鎖禁止リスト
-tag.entity_type.projecte.blacklist.swrg,SWRG Blacklist,SWRG ブラックリスト
+tag.entity_type.projecte.blacklist.swrg,SWRG Blacklist,SWRG 黒リスト
 tag.entity_type.projecte.randomizer.hostile,Hostile Randomizer Mobs,敵対的なランダム化されたモンスター
 tag.entity_type.projecte.randomizer.peaceful,Peaceful Randomizer Mobs,平和なランダム化モブ
 tag.item.c.tools.hammers,Hammers,ハンマー
@@ -684,7 +684,7 @@ tooltip.projecte.evertide.1,Press %s to fire a water projectile,%s キーで水�
 tooltip.projecte.evertide.3,Right click to fill tanks and cauldrons,右クリックしてタンクと大釜を満たす
 tooltip.projecte.gem_density.2,Current target: %s,現在のターゲット: %s
 tooltip.projecte.gem_density.3,Press %s to change target,%s キーでターゲットを変更
-tooltip.projecte.gem_density.4,Right click to set up blacklist/whitelist,ブラックリスト/ホワイトリストを設定するには右クリック
+tooltip.projecte.gem_density.4,Right click to set up blacklist/whitelist,黒リスト/白リストを設定するには右クリック
 tooltip.projecte.gem_density.5,Shift right click to toggle,シフト+右クリックでトグル
 tooltip.projecte.philostone,Press %s to open a crafting grid,%s キーで作成グリッドを開く
 tooltip.projecte.stored_xp,Stored XP: %s,保存XP: %s
@@ -725,7 +725,7 @@ item.pe_covalence_dust_low.name,Low Covalence Dust,共有結合粉 (low)
 item.pe_covalence_dust_medium.name,Medium Covalence Dust,共有結合粉 (medium)
 item.pe_covalence_dust_high.name,High Covalence Dust,共有結合粉 (high)
 item.pe_matter_dark.name,Dark Matter,ダークマター
-item.pe_matter_red.name,Red Matter,レッドマター
+item.pe_matter_red.name,Red Matter,赤マター
 item.pe_ring_iron_band.name,Iron Band,鉄の指輪
 item.pe_black_hole.name,Black Hole Band,吸引の指輪
 item.pe_harvest_god.name,Harvest Goddess Band,豊穣の女神の指輪
@@ -759,15 +759,15 @@ item.pe_dm_sword.name,Dark Matter Sword,ダークマターソード
 item.pe_dm_hoe.name,Dark Matter Hoe,ダークマタークワ
 item.pe_dm_shears.name,Dark Matter Shears,ダークマターはさみ
 item.pe_dm_hammer.name,Dark Matter Hammer,ダークマターハンマー
-item.pe_rm_pick.name,Red Matter Pickaxe,レッドマターつるはし
-item.pe_rm_axe.name,Red Matter Axe,レッドマターアクス
-item.pe_rm_shovel.name,Red Matter Shovel,レッドマターシャベル
-item.pe_rm_sword.name,Red Matter Sword,レッドマターソード
-item.pe_rm_hoe.name,Red Matter Hoe,レッドマタークワ
-item.pe_rm_shears.name,Red Matter Shears,レッドマターはさみ
-item.pe_rm_hammer.name,Red Matter Hammer,レッドマターハンマー
-item.pe_rm_katar.name,Red Katar,レッドカタール
-item.pe_rm_morning_star.name,Red Morningstar,レッドモーニングスター
+item.pe_rm_pick.name,Red Matter Pickaxe,赤マターつるはし
+item.pe_rm_axe.name,Red Matter Axe,赤マターアクス
+item.pe_rm_shovel.name,Red Matter Shovel,赤マターシャベル
+item.pe_rm_sword.name,Red Matter Sword,赤マターソード
+item.pe_rm_hoe.name,Red Matter Hoe,赤マタークワ
+item.pe_rm_shears.name,Red Matter Shears,赤マターはさみ
+item.pe_rm_hammer.name,Red Matter Hammer,赤マターハンマー
+item.pe_rm_katar.name,Red Katar,赤カタール
+item.pe_rm_morning_star.name,Red Morningstar,赤モーニングスター
 item.pe_arcana_ring.name,Ring of Arcana,アルカナの指輪
 item.pe_void_ring.name,Void Ring,ボイドリング
 item.pe_zero_ring.name,Zero Ring,絶対零度の指輪
@@ -780,9 +780,9 @@ tile.pe_interdiction_torch.name,Interdiction Torch,結界の灯火
 tile.pe_transmutation_stone.name,Transmutation Table,変換テーブル
 tile.pe_condenser.name,Energy Condenser,EMCコンデンサー
 tile.pe_condenser_mk2.name,Energy Condenser MK2,エネルギー凝縮器 MK2
-tile.pe_rm_furnace.name,Red Matter Furnace,レッドマターかまど
+tile.pe_rm_furnace.name,Red Matter Furnace,赤マターかまど
 tile.pe_dm_furnace.name,Dark Matter Furnace,ダークマターかまど
-tile.pe_rm_block.name,Red Matter Block,レッドマターブロック
+tile.pe_rm_block.name,Red Matter Block,赤マターブロック
 tile.pe_dm_block.name,Dark Matter Block,ダークマターブロック
 tile.pe_collector_MK1.name,Energy Collector MK1,EMCコレクター MK1
 tile.pe_collector_MK2.name,Energy Collector MK2,EMCコレクター MK2
@@ -910,14 +910,14 @@ pe.gem.nightvision_tooltip,Night Vision:,夜間視覚:
 pe.gem.nightvision.prompt,Press %s + %s to toggle Night Vision,%s + %s を押してナイトビジョンを切り替える
 pe.gem.stepassist_tooltip,Step Assist:,ステップアシスト:
 pe.gem.stepassist.prompt,Press %s to toggle Step Assist,%s を押してステップ補助を切り替えます。
-pe.gemdensity.blacklist,Blacklist,ブラックリスト
+pe.gemdensity.blacklist,Blacklist,黒リスト
 pe.gemdensity.mode_switch,Set target to,设定目标为
 pe.gemdensity.tooltip1,Condenses items on the go,移動中にもアイテムを圧縮します
 pe.gemdensity.tooltip2,Current target: %s,現在のターゲット: %s
 pe.gemdensity.tooltip3,Press %s to change target,%s キーでターゲットを変更
-pe.gemdensity.tooltip4,Right click to set up blacklist/whitelist,ブラックリスト/ホワイトリストを設定するには右クリック
+pe.gemdensity.tooltip4,Right click to set up blacklist/whitelist,黒リスト/白リストを設定するには右クリック
 pe.gemdensity.tooltip5,Shift right click to toggle,シフト+右クリックでトグル
-pe.gemdensity.whitelist,Whitelist,ホワイトリスト
+pe.gemdensity.whitelist,Whitelist,白リスト
 pe.harvestgod.pedestal1,Accelerates growth of nearby crops,周囲の作物の成長を促進します
 pe.harvestgod.pedestal2,Harvests nearby grown crops,近い育成作物を収穫
 pe.harvestgod.pedestal3,Activates every %s,%s ごとに有効化
@@ -1014,19 +1014,19 @@ pe.nei.philo,Philosopher's Stone Smelting,哲学者の石の製錬
 pe.nei.collector,Collector Fuel Upgrades,コレクター燃料アップグレード
 pe.manual.index,Index,インデックス
 pe.manual.index_button,ToC,目次
-pe.manual.pe_alchemical_bag,"A practicing alchemist like yourself has no time to constantly pick up and place down Alchemical Chests for storage. By sprinkling High power Covalence Dust on an alchemical chest and wrapping it in cloth, one can shrink the chest down to the size of a pouch. The bag has all the capacity of the chest. Curiously, the bags seem to be bound to some metaphysical network, as all bags of the same color seem to contain the same items, regardless of if the bag was yours or your neighbor's. The bag also seems to activate magical items the same way the chest does.",あなたのような実践的な錬金術師は、常に錬金術チェストを出し入れしながら保管する時間がありません。高い力のコヴァレンシー・ダストを錬金術チェストに振りかけ、布で包むことで、チェストをポーチのサイズまで縮小できます。バッグはチェストの全ての容量を持っています。興味深いことに、バッグは何らかのメタフィジカルネットワークに結合されているようで、同じ色のバッグはそのバッグがあなたのものであろうと隣人のものであろうと、関係なく同じアイテムを含んでいるようです。バッグはまたチェストと同じ方法で魔法のアイテムを起動することができます。
+pe.manual.pe_alchemical_bag,"A practicing alchemist like yourself has no time to constantly pick up and place down Alchemical Chests for storage. By sprinkling High power Covalence Dust on an alchemical chest and wrapping it in cloth, one can shrink the chest down to the size of a pouch. The bag has all the capacity of the chest. Curiously, the bags seem to be bound to some metaphysical network, as all bags of the same color seem to contain the same items, regardless of if the bag was yours or your neighbor's. The bag also seems to activate magical items the same way the chest does.",あなたのような実践的な錬金術師は、常に錬金術チェストを出し入れしながら保管する時間がありません。高い力のコヴァレンシー・の粉を錬金術チェストに振りかけ、布で包むことで、チェストをポーチのサイズまで縮小できます。バッグはチェストの全ての容量を持っています。興味深いことに、バッグは何らかのメタフィジカルネットワークに結合されているようで、同じ色のバッグはそのバッグがあなたのものであろうと隣人のものであろうと、関係なく同じアイテムを含んでいるようです。バッグはまたチェストと同じ方法で魔法のアイテムを起動することができます。
 pe.manual.pe_philosophers_stone,"For centuries legends have been spread about the Philosopher's Stone and its powers. Transmutation without circles, immortality, all of the riches one could desire, and more are said to be within the wielders power. While it may forever be lost to time, modern alchemists have discovered the secret to synthesizing a suitable replacement for some of the more basic powers. Be warned however as those who have succeeded in its creation often have a new look in their eyes, bringing with them tales of fire and demons.",何世紀にもわたり、賢者の石とその力についての伝説が広がってきました。円を使わない錬成、不死、望むだけの富など、使い手の力に属していると言われるものが多くあります。それは永遠に時間とともに失われてしまったかもしれませんが、現代の錬金術師たちはより基本的な力の適切な代替品を合成する秘密を発見しました。しかし、その作成に成功した者たちは、しばしば火と悪魔の物語をもたらし、新しい視線で見つめるようになることに注意してください。
-pe.manual.pe_repair_talisman,"Covalence Dust may be a cure-all for tool wear and tear, however manually rubbing it over knicks and dings can get tedious fast. Enter the Repair Talisman, by wrapping up the three colors of Covalence Dust in a tight bundle it can be distributed gradually over the tools in your bag, allowing you to tend to your sheep and perform other tasks of utmost importance.",コヴァレンシー・ダストは工具の摩耗の万能薬かもしれませんが、傷やへこみを手で塗り続けるのはすぐに退屈になります。修復タリスマンを試してみてください。3色のコヴァレンシー・ダストを束ねて包むことで、バッグ内の工具に徐々に分配でき、羊の世話やその他の最も重要なタスクを実行できます。
+pe.manual.pe_repair_talisman,"Covalence Dust may be a cure-all for tool wear and tear, however manually rubbing it over knicks and dings can get tedious fast. Enter the Repair Talisman, by wrapping up the three colors of Covalence Dust in a tight bundle it can be distributed gradually over the tools in your bag, allowing you to tend to your sheep and perform other tasks of utmost importance.",コヴァレンシー・の粉は工具の摩耗の万能薬かもしれませんが、傷やへこみを手で塗り続けるのはすぐに退屈になります。修復タリスマンを試してみてください。3色のコヴァレンシー・の粉を束ねて包むことで、バッグ内の工具に徐々に分配でき、羊の世話やその他の最も重要なタスクを実行できます。
 pe.manual.pe_fuel_block_2,Like other solid fuels Aeternalis can be compressed into block form. Stylish and efficient.,他の固体燃料と同様に、Aeternalis はブロック形態に圧縮できます。スタイリッシュかつ効率的です。
-pe.manual.pe_alchemy_chest,"It is no secret that alchemists like shiny things, a desire for endless gold comes with the territory, but normal storage solutions do not live up to these demands. Enter the Alchemical Chest which can store 104 item stacks, at the cost of one shiny and some Covalence Dust you can store practically endless shinies.",錬金術師が光るもの好きなことは秘密ではありません。終わりのない金への欲望は領土に付属していますが、通常の保管ソリューションはこれらの要求に応えられません。光沢のある錬金術チェストをお試しください。光沢のあるアイテムが104スタック保存でき、1つの光沢とコヴァレンシー・ダストのコストで、実質的に無限の光沢を保存できます。
+pe.manual.pe_alchemy_chest,"It is no secret that alchemists like shiny things, a desire for endless gold comes with the territory, but normal storage solutions do not live up to these demands. Enter the Alchemical Chest which can store 104 item stacks, at the cost of one shiny and some Covalence Dust you can store practically endless shinies.",錬金術師が光るもの好きなことは秘密ではありません。終わりのない金への欲望は領土に付属していますが、通常の保管ソリューションはこれらの要求に応えられません。光沢のある錬金術チェストをお試しください。光沢のあるアイテムが104スタック保存でき、1つの光沢とコヴァレンシー・の粉のコストで、実質的に無限の光沢を保存できます。
 pe.manual.pe_relay_MK1,"Relays are your one stop shop for providing EMC to a Condensers and other alchemical devices, simply attach it to the side of one and away you go. EMC can be provided by raw materials, or by an attached Collector. ToDo merge pages.",リレーは、コンデンサーと他の錬金術装置にEMCを供給するための万能な場所です。単に側面に取り付けるだけです。EMCは原材料、または接続されたコレクターから供給できます。TODO ページをマージしてください。
-pe.manual.pe_dm_block,"Raw Dark and Red Matter can be formed into a block, not only can it be used as high class decor in this form, but also as a key material for a number of alchemical devices. ToDo merge pages.",生のダークマターとレッドマターをブロックに形成することができます。この形式では高級装飾品として使用できるだけでなく、多くの錬金術装置の重要な素材としても使用できます。TODO ページをマージしてください。
+pe.manual.pe_dm_block,"Raw Dark and Red Matter can be formed into a block, not only can it be used as high class decor in this form, but also as a key material for a number of alchemical devices. ToDo merge pages.",生のダークマターと赤マターをブロックに形成することができます。この形式では高級装飾品として使用できるだけでなく、多くの錬金術装置の重要な素材としても使用できます。TODO ページをマージしてください。
 pe.manual.pe_dm_furnace,"Matter furnaces are powerful alchemical devices which can be powered by a EMC source such as a Relay or Collector. They are well known for efficiency due to both their speed, and their ability to automatically output to a nearby chest. ToDo merge pages.",マター炉は強力な錬金術装置で、リレーやコレクターなどのEMC源で駆動できます。速度と近くのチェストへの自動出力機能の両方のため、効率で知られています。TODO ページをマージしてください。
 pe.manual.pe_collector_MK1,"Collectors are some of the most controversial alchemical devices due to their ability to generate EMC using nothing more than a light source. This EMC can be transfered to an attached device such as a Relay or Condenser, or used by the collector itself to charge a alchemical item such as a Klein Star. One can also use a collector to transform raw fuel materials into more powerful ones. ToDo merge pages.",コレクターは光源以外に何も使わずにEMCを生成する能力のため、最も議論の多い錬金術デバイスの一つです。このEMCはリレーやコンデンサーなどの接続されたデバイスに転送したり、クラインスターなどの錬金術アイテムを充電するためにコレクター自身で使用したりできます。また、コレクターを使用して生の燃料材料をより強力なものに変換することもできます。ページの統合予定。
 pe.manual.pe_condenser,"Transmutation Tables are great for turning one thing into another, however the process is manual and not fit for automation. Condensers are the solution to this problem, simply set a item as the target and anything dumped into it will be transmuted into the target. The target can also be created from EMC provided by a attached device such as a Relay or Collector.",錬成テーブルは一つのものを別のものに変えるのに最適ですが、プロセスは手動で自動化には適していません。コンデンサーはこの問題の解決策です。単にターゲットとしてアイテムを設定すると、そこに流し込まれたものはターゲットに錬成されます。ターゲットはリレーやコレクターなどの接続されたデバイスから供給されるEMCから作成することもできます。
 pe.manual.pe_condenser_mk2,"The Energy Condenser MK2 has all the features of the MK1, but splits the inventory to have a separate input and output.",エネルギーコンデンサーMK2はMK1のすべての機能を備えていますが、在庫を別々の入力と出力に分割します。
 pe.manual.pe_interdiction_torch,"The Interdiction Torch is more than just a stylish alternative to coal and twigs, any mob that approaches it will be pushed away, as a wise man once said... NONE SHALL PASS!",進入禁止の松火は、単なるスタイリッシュな石炭と小枝の代替品以上のものです。それに近づくMOBはどんなMOBでも押し出されます。賢い男がかつて言ったように...誰も通さん！
-pe.manual.pe_fuel_block_0,"Like other solid fuels Mobius Fuel can be compressed into block form. Use it as a efficient fuel, or a poor mans Red Matter for decor.",他の固体燃料と同様に、メービウス燃料をブロック形式に圧縮できます。効率的な燃料として使用するか、装飾用の廉価版レッドマターとして使用します。
+pe.manual.pe_fuel_block_0,"Like other solid fuels Mobius Fuel can be compressed into block form. Use it as a efficient fuel, or a poor mans Red Matter for decor.",他の固体燃料と同様に、メービウス燃料をブロック形式に圧縮できます。効率的な燃料として使用するか、装飾用の廉価版赤マターとして使用します。
 pe.manual.pe_nova_cataclysm,"All the fun of the Nova Catalyst, but with double the boom!",ノヴァカタリストのすべての楽しみを、倍の爆発とともに
 pe.manual.pe_nova_catalyst,"The Nova Catalyst is a powerful alchemical explosive, it causes quite the boom with the added benefit of preserving the nearby blocks for pickup.",ノヴァ触媒は強力な錬金術爆発物です。近くのブロックを保存して拾い上げる利点を加えて、かなりの爆発を引き起こします。
 pe.manual.pe_transmutation_stone,"The Transmutation Table allows the alchemist to study the makeup of materials, and break down others to create more of them. Dirt goes in, Diamonds come out!",錬成テーブルは、錬金術師が材料の構成を研究し、他のものを分解してより多くを作成することを可能にします。土が入ると、ダイヤモンドが出てきます！
@@ -1037,10 +1037,10 @@ item.pe_dm_armor_0.name,Dark Matter Helmet,ダークマターの兜
 item.pe_dm_armor_1.name,Dark Matter Chestplate,ダークマターの鎧
 item.pe_dm_armor_2.name,Dark Matter Leggings,ダークマターの脛当て
 item.pe_dm_armor_3.name,Dark Matter Boots,ダークマターのブーツ
-item.pe_rm_armor_0.name,Red Matter Helmet,レッドマターの兜
-item.pe_rm_armor_1.name,Red Matter Chestplate,レッドマターの鎧
-item.pe_rm_armor_2.name,Red Matter Leggings,レッドマターの脛当て
-item.pe_rm_armor_3.name,Red Matter Boots,レッドマターのブーツ
+item.pe_rm_armor_0.name,Red Matter Helmet,赤マターの兜
+item.pe_rm_armor_1.name,Red Matter Chestplate,赤マターの鎧
+item.pe_rm_armor_2.name,Red Matter Leggings,赤マターの脛当て
+item.pe_rm_armor_3.name,Red Matter Boots,赤マターのブーツ
 item.pe_gem_armor_0.name,Gem Helmet,ジェムの兜
 item.pe_gem_armor_1.name,Gem Chestplate,ジェムの鎧
 item.pe_gem_armor_2.name,Gem Leggings,ジェムの脛当て
@@ -1089,11 +1089,11 @@ configuration.projecte.mapping.pregenerated.tooltip,"When the next EMC mapping o
 configuration.projecte.server.cooldown.pedestal.life_stone.tooltip,Delay between Life Stone healing both food and hunger by 0.5 shank/heart while in the pedestal.,ペデスタル内でライフストーンが食料と満腹度を0.5シャンク/ハート回復させる間隔。
 configuration.projecte.server.difficulty.covalence_loss.rounding.tooltip,How rounding occurs when Covalence Loss results in a burn value less than 1 EMC. If true the value will be rounded up to 1. If false the value will be rounded down to 0.,コバレンス喪失が1 EMC未満のバーン値になる場合、丸めがどのように発生するかを指定します。trueの場合、値は1に切り上げられます。falseの場合、値は0に切り下げられます。
 configuration.projecte.server.difficulty.offensive_abilities.tooltip,Set to false to disable Gem Armor offensive abilities (helmet zap and chestplate explosion).,falseに設定するとジェムアーマーの攻撃能力（ヘルメットの放電とチェストプレートの爆発）が無効になります。
-configuration.projecte.server.effects.interdiction_mode.tooltip,If true the Interdiction Torch only affects hostile mobs and projectiles. If false it affects all non blacklisted living entities.,trueの場合、インターディクショントーチはホスティル化したモブと飛来物のみに影響します。falseの場合、すべての非ブラックリストの生物エンティティに影響します。
+configuration.projecte.server.effects.interdiction_mode.tooltip,If true the Interdiction Torch only affects hostile mobs and projectiles. If false it affects all non blacklisted living entities.,trueの場合、インターディクショントーチはホスティル化したモブと飛来物のみに影響します。falseの場合、すべての非黒リストの生物エンティティに影響します。
 fml.menu.mods.info.displayname.projecte,ProjectE,プロジェクトE
 misc.projecte.mod_name,ProjectE,プロジェクトE
 itemGroup.projecte,ProjectE,プロジェクトE
-pe.command.main.usage,"/projecte <changelog, clearKnowledge, setEMC, reloadEMC, removeEMC, resetEMC>","/projecte <変更ログ, 知識をクリア, EMCを設定, EMCをリロード, EMCを削除, EMCをリセット>"
+pe.command.main.usage,"/projecte <changelog, clearKnowledge, setEMC, reloadEMC, removeEMC, resetEMC>","/projecte <変更原木, 知識をクリア, EMCを設定, EMCをリロード, EMCを削除, EMCをリセット>"
 pe.emc.postfix.1,Quadrillion,クアドリリオン
 pe.emc.postfix.2,Quintillion,クイントリリオン
 pe.morningstar.mode2,3x Tallshot,3x トールショット

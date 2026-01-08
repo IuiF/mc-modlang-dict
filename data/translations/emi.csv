@@ -212,7 +212,7 @@ emi.recipe_book_action.default,Default,デフォルト
 emi.recipe_book_action.toggle_craftables,Toggle Craftables,作業台の切り替え
 emi.recipe_book_action.toggle_visibility,Toggle Visibility,表示の切り替え
 emi.reloading,EMI Reloading...,EMIを再読み込みしています...
-emi.reloading.error,"§cEMI experienced a critical exception while reloading, check log",§cEMIは再読み込み中に重大な例外が発生しました. ログをチェックしてください。
+emi.reloading.error,"§cEMI experienced a critical exception while reloading, check log",§cEMIは再読み込み中に重大な例外が発生しました. 原木をチェックしてください。
 emi.reloading.still_baking_recipes,§dBaking recipes...,§dレシピをベイク中...
 emi.reloading.waiting,EMI waiting for recipe data from server...,EMIがサーバーからレシピデータを待機中...
 emi.reloading.worry,"§cExperiencing delay, is everything alright?",§c処理が遅延しています。問題ありませんか？
@@ -284,7 +284,7 @@ tag.fluid.c.milk,Milk,牛乳
 tag.fluid.c.water,Water,水
 tag.fluid.minecraft.lava,Lava,溶岩
 tag.fluid.minecraft.water,Water,水
-tag.item.c.amethyst_dusts,Amethyst Dusts,アメジストダスト
+tag.item.c.amethyst_dusts,Amethyst Dusts,アメジストの粉
 tag.item.c.armors,Armor,防具
 tag.item.c.armors.boots,Boots,ブーツ
 tag.item.c.armors.chestplates,Chestplates,チェストプレート
@@ -319,7 +319,7 @@ tag.item.c.cobblestone.normal,Cobblestone,丸石
 tag.item.c.copper_blocks,Copper Blocks,銅ブロック
 tag.item.c.copper_dusts,Copper Dusts,銅の粉末
 tag.item.c.copper_ingots,Copper Ingots,銅インゴット
-tag.item.c.copper_nuggets,Copper Nuggets,銅ナゲット
+tag.item.c.copper_nuggets,Copper Nuggets,銅塊
 tag.item.c.crops,Crops,作物
 tag.item.c.crops.beetroot,Beetroots,ビートルート
 tag.item.c.crops.carrot,Carrots,ニンジン
@@ -329,19 +329,19 @@ tag.item.c.crops.wheat,Wheat,小麦
 tag.item.c.cyan_dyes,Cyan Dyes,青緑染料
 tag.item.c.diamond_dusts,Diamond Dusts,ダイヤモンドの粉
 tag.item.c.diamonds,Diamonds,ダイヤモンド
-tag.item.c.dusts,Dusts,ダスト
+tag.item.c.dusts,Dusts,の粉
 tag.item.c.dusts.copper,Copper Dusts,銅の粉末
-tag.item.c.dusts.glowstone,Glowstone Dusts,グロウストーンダスト
+tag.item.c.dusts.glowstone,Glowstone Dusts,グロウストーンの粉
 tag.item.c.dusts.gold,Gold Dusts,金の粉末
 tag.item.c.dusts.iron,Iron Dusts,鉄の粉末
-tag.item.c.dusts.prismarine,Prismarine Dusts,プリズマリンダスト
-tag.item.c.dusts.redstone,Redstone Dusts,レッドストーンダスト
+tag.item.c.dusts.prismarine,Prismarine Dusts,プリズマリンの粉
+tag.item.c.dusts.redstone,Redstone Dusts,レッドストーンの粉
 tag.item.c.dyes,Dyes,染料
 tag.item.c.dyes.black,Black Dyes,黒色染料
 tag.item.c.dyes.blue,Blue Dyes,青い染料
 tag.item.c.dyes.brown,Brown Dyes,茶色染料
 tag.item.c.dyes.cyan,Cyan Dyes,青緑染料
-tag.item.c.dyes.gray,Gray Dyes,グレー染料
+tag.item.c.dyes.gray,Gray Dyes,灰色染料
 tag.item.c.dyes.green,Green Dyes,緑の染料
 tag.item.c.dyes.light_blue,Light Blue Dyes,空色色の染料
 tag.item.c.dyes.light_gray,Light Gray Dyes,薄灰色の染料
@@ -358,7 +358,7 @@ tag.item.c.emeralds,Emeralds,エメラルド
 tag.item.c.empty_buckets,Empty Buckets,空のバケツ
 tag.item.c.enchanting_fuels,Enchanting Fuels,エンチャントの燃料
 tag.item.c.end_stones,End Stones,エンドストーン
-tag.item.c.ender_pearl_dusts,Ender Pearl Dusts,エンダーパールダスト
+tag.item.c.ender_pearl_dusts,Ender Pearl Dusts,エンダーパールの粉
 tag.item.c.ender_pearls,Ender Pearls,エンダーパール
 tag.item.c.entity_water_buckets,Entity Water Buckets,生き物入りの水入りバケツ
 tag.item.c.feathers,Feathers,羽
@@ -420,7 +420,7 @@ tag.item.c.gold_dusts,Gold Dusts,金の粉末
 tag.item.c.gold_ingots,Gold Ingots,金のインゴット
 tag.item.c.gold_nuggets,Gold Nuggets,金塊
 tag.item.c.gravel,Gravel,砂利
-tag.item.c.gray_dyes,Gray Dyes,グレー染料
+tag.item.c.gray_dyes,Gray Dyes,灰色染料
 tag.item.c.green_dyes,Green Dyes,緑の染料
 tag.item.c.gunpowder,Gunpowder,火薬
 tag.item.c.heads,Heads,頭
@@ -446,13 +446,13 @@ tag.item.c.magenta_dyes,Magenta Dyes,赤紫の染料
 tag.item.c.milk_bottles,Milk Bottles,ミルク入りの瓶
 tag.item.c.milk_buckets,Milk Buckets,牛乳のバケツ
 tag.item.c.mushrooms,Mushrooms,キノコ
-tag.item.c.nether_quartz_dusts,Nether Quartz Dusts,ネザークォーツダスト
+tag.item.c.nether_quartz_dusts,Nether Quartz Dusts,ネザークォーツの粉
 tag.item.c.nether_stars,Nether Stars,ネザースター
 tag.item.c.netherite_ingots,Netherite Ingots,ネザライトインゴット
-tag.item.c.netherite_scrap_dusts,Netherite Scrap Dusts,ネザータイトスクラップダスト
+tag.item.c.netherite_scrap_dusts,Netherite Scrap Dusts,ネザータイトスクラップの粉
 tag.item.c.netherrack,Netherrack,ネザーラック
 tag.item.c.nuggets,Nuggets,小塊
-tag.item.c.nuggets.copper,Copper Nuggets,銅ナゲット
+tag.item.c.nuggets.copper,Copper Nuggets,銅塊
 tag.item.c.nuggets.gold,Gold Nuggets,金塊
 tag.item.c.nuggets.iron,Iron Nuggets,鉄塊
 tag.item.c.obsidian,Obsidian,黒曜石
@@ -468,7 +468,7 @@ tag.item.c.ores.lapis,Lapis Ores,ラピスラズリ鉱石
 tag.item.c.ores.netherite_scrap,Netherite Scrap Ores,ネザーライトスクラップ鉱石
 tag.item.c.ores.quartz,Quartz Ores,クォーツ鉱石
 tag.item.c.ores.redstone,Redstone Ores,レッドストーン鉱石
-tag.item.c.ores_in_ground.deepslate,Deepslate Ores,ディープスレート鉱石
+tag.item.c.ores_in_ground.deepslate,Deepslate Ores,深層岩鉱石
 tag.item.c.ores_in_ground.netherrack,Netherrack Ores,ネザーラック鉱石
 tag.item.c.ores_in_ground.stone,Stone Ores,石鉱石
 tag.item.c.pickaxes,Pickaxes,ツルハシ
@@ -498,7 +498,7 @@ tag.item.c.red_sandstone,Red Sandstone,赤い砂岩
 tag.item.c.red_sandstone_blocks,Red Sandstone Blocks,赤い砂岩ブロック
 tag.item.c.red_sandstone_slabs,Red Sandstone Slabs,赤い砂岩のハーフブロック
 tag.item.c.red_sandstone_stairs,Red Sandstone Stairs,赤い砂岩の階段
-tag.item.c.redstone_dusts,Redstone Dusts,レッドストーンダスト
+tag.item.c.redstone_dusts,Redstone Dusts,レッドストーンの粉
 tag.item.c.redstone_ores,Redstone Ores,レッドストーン鉱石
 tag.item.c.rods,Rods,棒
 tag.item.c.rods.blaze,Blaze Rods,ブレイズロッド
@@ -526,7 +526,7 @@ tag.item.c.spears,Spears,スピア
 tag.item.c.stained_glass,Stained Glass,彩色ガラス
 tag.item.c.stained_glass_panes,Stained Glass Panes,色付き板ガラス
 tag.item.c.stone,Stone,石
-tag.item.c.stone_dusts,Stone Dusts,石のダスト
+tag.item.c.stone_dusts,Stone Dusts,石のの粉
 tag.item.c.stones,Stones,石
 tag.item.c.storage_blocks,Storage Blocks,保管用ブロック
 tag.item.c.storage_blocks.amethyst,Amethyst Storage Blocks,アメジストの保管用ブロック
@@ -620,7 +620,7 @@ tag.item.minecraft.jungle_logs,Jungle Logs,ジャングルの原木
 tag.item.minecraft.lapis_ores,Lapis Lazuli Ores,ラピスラズリ鉱石
 tag.item.minecraft.leaves,Leaves,葉
 tag.item.minecraft.lectern_books,Lectern Books,書見台
-tag.item.minecraft.logs,Logs,ログ
+tag.item.minecraft.logs,Logs,原木
 tag.item.minecraft.logs_that_burn,Burnable Logs,可燃性の原木
 tag.item.minecraft.mangrove_logs,Mangrove Logs,マングローブ
 tag.item.minecraft.music_discs,Music Discs,レコード

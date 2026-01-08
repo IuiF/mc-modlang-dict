@@ -28,23 +28,23 @@ text.little_big_redstone.logic_config_button_label_sequencer_reset_port,Reset Po
 text.little_big_redstone.logic_gate_algebra_not,¬A,
 text.little_big_redstone.sticky_note,Sticky Note,付箋
 block.little_big_redstone.brown_microchip,Brown Microchip,茶色いマイクロチップ
-item.little_big_redstone.lime_sticky_note,Lime Sticky Note,ライムの付箋
+item.little_big_redstone.lime_sticky_note,Lime Sticky Note,黄緑の付箋
 text.little_big_redstone.direction_up,Up,上
 text.little_big_redstone.logic_config_button_label_duration,Duration: ,継続時間：
 text.little_big_redstone.yes,Yes,はい
-block.little_big_redstone.lime_microchip,Lime Microchip,ライムのマイクロチップ
+block.little_big_redstone.lime_microchip,Lime Microchip,黄緑のマイクロチップ
 item.little_big_redstone.light_blue_floppy_disk,Light Blue Floppy Disk,明るい青のフロッピーディスク
 item.little_big_redstone.yellow_logic_array,Yellow Logic Array,黄色の論理配列
 text.little_big_redstone.floppy_disk_help_3,Use %s on a Microchip to install the program. This does require that you have all the components and wires needed available in your inventory.,マイクロチップで%sを使用するとプログラムをインストールできます。必要なコンポーネントとワイヤーがインベントリにある必要があります。
 text.little_big_redstone.logic_config_button_label_ticks_and_seconds,%s ticks (%ss),%sティック（%ss）
-item.little_big_redstone.orange_floppy_disk,Orange Floppy Disk,オレンジのフロッピーディスク
+item.little_big_redstone.orange_floppy_disk,Orange Floppy Disk,橙のフロッピーディスク
 item.little_big_redstone.red_sticky_note,Red Sticky Note,赤い付箋
 text.little_big_redstone.logic_config_button_label_inputs,Inputs: ,入力：
 text.little_big_redstone.logic_help_or_gate,"Output is ON when any input is ON, otherwise output is OFF.",いずれかの入力がONの場合は出力ON、それ以外は出力OFF。
 text.little_big_redstone.floppy_disk_button_load,Load,読込
 text.little_big_redstone.logic_config_button_tooltip_sequencer_auto_reset,Whether the sequencer should automatically reset its progress immediately after yielding an output of ON.,シーケンサーがONの出力を生成した直後に自動的にリセットするかどうか。
 block.little_big_redstone.purple_microchip,Purple Microchip,紫のマイクロチップ
-item.little_big_redstone.magenta_sticky_note,Magenta Sticky Note,マゼンタの付箋
+item.little_big_redstone.magenta_sticky_note,Magenta Sticky Note,赤紫の付箋
 item.little_big_redstone.selector,Selector,セレクター
 text.little_big_redstone.floppy_disk_apply_failure,Failed to install microchip program.,マイクロチッププログラムのインストールに失敗しました。
 text.little_big_redstone.floppy_disk_help_4,Use %s to open the menu to save or load a program to or from a local file.,%sを使用してプログラムをローカルファイルに保存または読み込むメニューを開きます。
@@ -53,7 +53,7 @@ text.little_big_redstone.logic_config_button_tooltip_sequencer_mode_strong,"Whil
 item.little_big_redstone.brown_logic_array,Brown Logic Array,茶色い論理配列
 text.little_big_redstone.logic_config_tooltip_sequencer_reset_port,"  Reset Port: %s","  リセットポート：%s"
 text.little_big_redstone.logic_help_rs_nor_latch_2,"When the set (S) input is ON and the reset (R) input is OFF, the output is set to ON and will remain ON until the reset (R) input is ON.",セット(S)入力がONでリセット(R)入力がOFFの場合、出力はONに設定され、リセット(R)入力がONになるまでON状態が続きます。
-item.little_big_redstone.orange_sticky_note,Orange Sticky Note,オレンジの付箋
+item.little_big_redstone.orange_sticky_note,Orange Sticky Note,橙の付箋
 text.little_big_redstone.logic_config_tooltip_mode,"  Mode: %s","  モード：%s"
 text.little_big_redstone.logic_help_sequencer_3,"By default the sequencer will not reset after yielding an output state. If auto reset is enabled, the progress will be reset immediately after yielding an output of ON. Additionally, if reset port is enabled, a second input port will be available. When the second input port is given an ON input, the progress of the sequencer will be reset. As long as an ON input is present on this input, the sequencer cannot progress.",デフォルトではシーケンサーはONの出力状態を生成した後にリセットしません。自動リセットが有効な場合、ONの出力を生成した直後に進行がリセットされます。さらに、リセットポートが有効な場合、2番目の入力ポートが利用可能になります。2番目の入力ポートにON入力が与えられると、シーケンサーの進行がリセットされます。この入力にON入力が存在する限り、シーケンサーは進行できません。
 text.little_big_redstone.logic_gate_algebra_and,A ∧ B,
@@ -78,16 +78,16 @@ item.little_big_redstone.gray_sticky_note,Gray Sticky Note,灰色の付箋
 text.little_big_redstone.floppy_disk_file_doesnt_exist,No microchip program file exists for the name %s.,%sという名前のマイクロチッププログラムファイルが存在しません。
 text.little_big_redstone.guide_tooltip_output,Output,出力
 text.little_big_redstone.direction_east,East,東
-text.little_big_redstone.floppy_disk_file_failed_to_save,There was an error while trying to save the floppy disk's contents to a file. See logs for more information.,フロッピーディスクの内容をファイルに保存中にエラーが発生しました。詳細はログを参照してください。
+text.little_big_redstone.floppy_disk_file_failed_to_save,There was an error while trying to save the floppy disk's contents to a file. See logs for more information.,フロッピーディスクの内容をファイルに保存中にエラーが発生しました。詳細は原木を参照してください。
 text.little_big_redstone.floppy_disk_help_2,Press %s + %s on a Microchip to save it to the disk.,マイクロチップで%sと%sを同時押しするとディスクに保存できます。
 text.little_big_redstone.logic_help_reader_1,Checks the filled percentage of an adjacent block and yields an ON signal if the block's filled percentage is greater than or equal to the set fill threshold.,隣接ブロックの充填率をチェックし、ブロックの充填率が設定された充填閾値以上の場合、ON信号を生成します。
-block.little_big_redstone.magenta_microchip,Magenta Microchip,マゼンタのマイクロチップ
+block.little_big_redstone.magenta_microchip,Magenta Microchip,赤紫のマイクロチップ
 text.little_big_redstone.logic_help_rs_nor_latch_1,"When the reset (R) input is ON, the output is always OFF.",リセット(R)入力がONの場合、出力は常にOFF。
 item.little_big_redstone.white_floppy_disk,White Floppy Disk,白いフロッピーディスク
 text.little_big_redstone.logic_config_sequencer_mode_counter,Counter,カウンター
 text.little_big_redstone.logic_gate_algebra_nand,A ↑ B,
 text.little_big_redstone.logic_help_and_gate,"Output is ON when all inputs are ON, otherwise output is OFF.",すべての入力がONの場合は出力ON、それ以外は出力OFF。
-item.little_big_redstone.cyan_sticky_note,Cyan Sticky Note,シアンの付箋
+item.little_big_redstone.cyan_sticky_note,Cyan Sticky Note,青緑の付箋
 text.little_big_redstone.logic_config_button_tooltip_io_direction,The direction this port should interact with redstone power on.,このポートがレッドストーン信号を相互作用する方向。
 text.little_big_redstone.logic_config_button_tooltip_io_signal_comparison_mode_greater_than_or_equal_to,The input signal must be greater than or equal to %s.,入力信号は%s以上である必要があります。
 text.little_big_redstone.floppy_disk_file_saved,Saved the floppy disk's contents as %s!,フロッピーディスクの内容を%sとして保存しました！
@@ -101,11 +101,11 @@ text.little_big_redstone.floppy_disk_button_save,Save,保存
 text.little_big_redstone.logic_config_tooltip_outputs,"  Outputs: %s","  出力：%s"
 text.little_big_redstone.floppy_disk_input_program_name,Program Name,プログラム名
 text.little_big_redstone.logic_config_button_tooltip_io_signal_strength_output,The redstone signal strength that will be outputted.,出力されるレッドストーン信号強度。
-block.little_big_redstone.cyan_microchip,Cyan Microchip,シアンのマイクロチップ
+block.little_big_redstone.cyan_microchip,Cyan Microchip,青緑のマイクロチップ
 text.little_big_redstone.logic_gate_algebra_nor,A ↓ B,
 text.little_big_redstone.logic_config_button_label_mode,Mode,モード
 text.little_big_redstone.logic_config_button_tooltip_reader_fill_threshold,The percentage filled the container capacity must be for the output to be on.,出力がオンになるためのコンテナ容量の充填率（パーセンテージ）。
-block.little_big_redstone.orange_microchip,Orange Microchip,オレンジのマイクロチップ
+block.little_big_redstone.orange_microchip,Orange Microchip,橙のマイクロチップ
 text.little_big_redstone.logic_config_tooltip_duration,"  Duration: %s","  継続時間：%s"
 text.little_big_redstone.logic_config_button_label_chance,Chance: ,確率：
 text.little_big_redstone.logic_config_button_tooltip_sequencer_delay,The time before the output is on.,出力がオンになるまでの時間。
@@ -117,7 +117,7 @@ text.little_big_redstone.direction_west,West,西
 text.little_big_redstone.floppy_disk_file_loaded,Loaded the microchip program %s!,マイクロチッププログラム%sを読み込みました！
 text.little_big_redstone.logic_array_help_4,Can insert and extract items while in your inventory using %s.,インベントリにいる間、%sを使用してアイテムの挿入と抽出ができます。
 text.little_big_redstone.logic_config_button_label_ticks_and_seconds_singular,%s tick (%ss),%sティック（%ss）
-item.little_big_redstone.cyan_logic_array,Cyan Logic Array,シアンの論理配列
+item.little_big_redstone.cyan_logic_array,Cyan Logic Array,青緑の論理配列
 text.little_big_redstone.logic_config_button_tooltip_io_signal_strength_input,The redstone signal strength required for the output to be on.,出力がオンになるために必要なレッドストーン信号強度。
 block.little_big_redstone.white_microchip,White Microchip,白いマイクロチップ
 item.little_big_redstone.green_floppy_disk,Green Floppy Disk,緑のフロッピーディスク
@@ -133,7 +133,7 @@ item.little_big_redstone.black_logic_array,Black Logic Array,黒い論理配列
 text.little_big_redstone.logic_config_button_tooltip_reader_threshold_comparison_mode_less_than_or_equal_to,The fill percentage must be less than or equal to %s.,充填率は%s以下である必要があります。
 text.little_big_redstone.logic_help_randomizer,"When the input is ON, a random output will be ON a configurable percentage of the time.",入力がONの場合、設定可能なパーセンテージの時間、ランダムな出力がONになります。
 item.little_big_redstone.blue_floppy_disk,Blue Floppy Disk,青いフロッピーディスク
-item.little_big_redstone.orange_logic_array,Orange Logic Array,オレンジの論理配列
+item.little_big_redstone.orange_logic_array,Orange Logic Array,橙の論理配列
 item.little_big_redstone.white_logic_array,White Logic Array,白い論理配列
 item.little_big_redstone.yellow_floppy_disk,Yellow Floppy Disk,黄色のフロッピーディスク
 text.little_big_redstone.logic_config_tooltip_inputs,"  Inputs: %s","  入力：%s"
@@ -146,7 +146,7 @@ item.little_big_redstone.red_floppy_disk,Red Floppy Disk,赤いフロッピー�
 text.little_big_redstone.logic_config_button_tooltip_sequencer_mode_weak,"After an ON input signal, the sequencer will wait X ticks and then emit an output of ON.",ON入力信号の後、シーケンサーはXティック待機してからONの出力を生成します。
 text.little_big_redstone.logic_config_tooltip_io_signal,"  Signal: %s","  信号：%s"
 text.little_big_redstone.direction_down,Down,下
-text.little_big_redstone.floppy_disk_file_failed_to_load,There was an error while trying to load the microchip program from a file. See logs for more information.,ファイルからマイクロチッププログラムを読み込み中にエラーが発生しました。詳細はログを参照してください。
+text.little_big_redstone.floppy_disk_file_failed_to_load,There was an error while trying to load the microchip program from a file. See logs for more information.,ファイルからマイクロチッププログラムを読み込み中にエラーが発生しました。詳細は原木を参照してください。
 text.little_big_redstone.logic_array_help_1,Stores all of your redstone bits and logic components!,すべてのレッドストーンビットと論理コンポーネントを保存します！
 text.little_big_redstone.logic_config_tooltip_direction,"  Direction: %s","  方向：%s"
 text.little_big_redstone.logic_gate_algebra,Q = %s,
@@ -159,18 +159,18 @@ item.little_big_redstone.purple_floppy_disk,Purple Floppy Disk,紫のフロッ�
 item.little_big_redstone.reader,Reader,リーダー
 text.little_big_redstone.floppy_disk_save,Saved microchip program to the floppy disk.,フロッピーディスクにマイクロチッププログラムを保存しました。
 text.little_big_redstone.logic_config_button_tooltip_inputs,The number of inputs that this component can accept.,このコンポーネントが受け入れることができる入力の数。
-item.little_big_redstone.cyan_floppy_disk,Cyan Floppy Disk,シアンのフロッピーディスク
+item.little_big_redstone.cyan_floppy_disk,Cyan Floppy Disk,青緑のフロッピーディスク
 item.little_big_redstone.nor_gate,NOR Gate,NORゲート
-item.little_big_redstone.pink_logic_array,Pink Logic Array,ピンクの論理配列
+item.little_big_redstone.pink_logic_array,Pink Logic Array,桃色の論理配列
 text.little_big_redstone.logic_help_selector,Emits a single ON output and will switch to adjacent ports in a strategy depending on the mode selected.,単一のON出力を生成し、選択されたモードに応じた戦略で隣接ポートに切り替わります。
 item.little_big_redstone.light_gray_logic_array,Light Gray Logic Array,薄い灰色の論理配列
-item.little_big_redstone.pink_floppy_disk,Pink Floppy Disk,ピンクのフロッピーディスク
+item.little_big_redstone.pink_floppy_disk,Pink Floppy Disk,桃色のフロッピーディスク
 text.little_big_redstone.logic_config_selector_mode_setter,Setter,セッター
-item.little_big_redstone.magenta_floppy_disk,Magenta Floppy Disk,マゼンタのフロッピーディスク
-item.little_big_redstone.magenta_logic_array,Magenta Logic Array,マゼンタの論理配列
+item.little_big_redstone.magenta_floppy_disk,Magenta Floppy Disk,赤紫のフロッピーディスク
+item.little_big_redstone.magenta_logic_array,Magenta Logic Array,赤紫の論理配列
 item.little_big_redstone.sequencer,Sequencer,シーケンサー
 item.little_big_redstone.green_sticky_note,Green Sticky Note,緑の付箋
-item.little_big_redstone.lime_floppy_disk,Lime Floppy Disk,ライムのフロッピーディスク
+item.little_big_redstone.lime_floppy_disk,Lime Floppy Disk,黄緑のフロッピーディスク
 text.little_big_redstone.logic_config_button_tooltip_outputs,The number of outputs that this component can yield.,このコンポーネントが生成できる出力の数。
 text.little_big_redstone.logic_config_tooltip_sequencer_auto_reset,"  Auto Reset: %s","  自動リセット：%s"
 text.little_big_redstone.logic_config_button_tooltip_io_signal_comparison_output,The output signal will be equal to %s.,出力信号は%sと等しくなります。
@@ -185,7 +185,7 @@ text.little_big_redstone.logic_config_button_label_sequencer_delay,Delay: ,遅�
 text.little_big_redstone.logic_config_button_tooltip_io_signal_comparison_mode_less_than_or_equal_to,The input signal must be less than or equal to %s.,入力信号は%s以下である必要があります。
 text.little_big_redstone.floppy_disk_clear,Cleared floppy disk microchip program.,フロッピーディスクのマイクロチッププログラムをクリアしました。
 text.little_big_redstone.logic_config_button_tooltip_selector_mode_setter,The lowest output with a corresponding ON input will have an ON output.,対応するON入力を持つ最も低い出力がON出力を持ちます。
-item.little_big_redstone.pink_sticky_note,Pink Sticky Note,ピンクの付箋
+item.little_big_redstone.pink_sticky_note,Pink Sticky Note,桃色の付箋
 text.little_big_redstone.guide_button_resume,Resume,再開
 text.little_big_redstone.logic_comparison_mode_less_than_or_equal_to,≤,
 text.little_big_redstone.logic_config_button_label_direction,Direction,方向
@@ -199,12 +199,12 @@ text.little_big_redstone.floppy_disk_button_close,Close,閉じる
 text.little_big_redstone.logic_config_button_tooltip_sequencer_mode_counter,"While input is ON, the sequencer will increment until it has met X ticks and then emit an output of ON.",入力がONの間、シーケンサーはXティックに達するまでインクリメントし、ONの出力を生成します。
 block.little_big_redstone.light_blue_microchip,Light Blue Microchip,明るい青のマイクロチップ
 item.little_big_redstone.black_sticky_note,Black Sticky Note,黒い付箋
-item.little_big_redstone.lime_logic_array,Lime Logic Array,ライムの論理配列
+item.little_big_redstone.lime_logic_array,Lime Logic Array,黄緑の論理配列
 text.little_big_redstone.logic_help_io_port_2,A microchip cannot have both an input and output port on the same face.,マイクロチップは同じ面に入力ポートと出力ポートの両方を持つことはできません。
 text.little_big_redstone.logic_config_sequencer_mode_strong,Strong,強
 text.little_big_redstone.logic_config_tooltip,Configuration:,設定：
 block.little_big_redstone.light_gray_microchip,Light Gray Microchip,薄い灰色のマイクロチップ
-block.little_big_redstone.pink_microchip,Pink Microchip,ピンクのマイクロチップ
+block.little_big_redstone.pink_microchip,Pink Microchip,桃色のマイクロチップ
 text.little_big_redstone.logic_comparison_mode_greater_than_or_equal_to,≥,
 text.little_big_redstone.capability_item,Item,アイテム
 text.little_big_redstone.logic_config_button_tooltip_randomizer_chance,The percentage chance of one of the outputs to be ON for a given tick while the input is ON.,入力がONの間、出力の1つがONになる確率（パーセンテージ）。
