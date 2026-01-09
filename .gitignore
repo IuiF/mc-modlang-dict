@@ -27,14 +27,18 @@ vendor/
 Thumbs.db
 
 # Database files
+moddict.db
+moddict.db.*
 *.db-shm
 *.db-wal
 *.db.backup
 *.sqlite
 *.sqlite3
+*.dbbk
 
 # Backup files
 *.backup
+*.backup_*
 
 # Workspace - Mod files (copyright)
 workspace/imports/**/*.jar
