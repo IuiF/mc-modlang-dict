@@ -808,7 +808,7 @@ func (r *Repository) GetOrCreateVersion(ctx context.Context, modID, version, loa
 func (r *Repository) GetTranslationForSource(ctx context.Context, sourceID int64) (*models.Translation, error) {
 	var trans models.Translation
 	err := r.db.WithContext(ctx).
-		Where("source_id = ?", sourceID).
+		Where("source_id = ? AND target_lang = ?", sourceID, "ja_jp").
 		First(&trans).Error
 	if err != nil {
 		if errors.Is(err, gorm.ErrRecordNotFound) {
@@ -817,6 +817,55 @@ func (r *Repository) GetTranslationForSource(ctx context.Context, sourceID int64
 		return nil, fmt.Errorf("failed to get translation: %w", err)
 	}
 	return &trans, nil
+}
+
+// CopyTranslationFromSameKey copies translation from existing source with same key.
+// Old translations are preserved - this only creates a new translation for the new source.
+// Since source_text has changed, the copied translation is marked as needs_review.
+// Returns (true, nil) if a translation was copied, (false, nil) if no copy was needed/possible,
+// or (false, error) if an error occurred.
+func (r *Repository) CopyTranslationFromSameKey(ctx context.Context, modID, key string, newSourceID int64) (bool, error) {
+	// 1. Check if new source already has a translation
+	var existingTrans models.Translation
+	err := r.db.WithContext(ctx).
+		Where("source_id = ? AND target_lang = ?", newSourceID, "ja_jp").
+		First(&existingTrans).Error
+	if err == nil {
+		return false, nil // Translation already exists
+	}
+
+	// 2. Find translation from other sources with same mod_id + key
+	var oldTrans models.Translation
+	err = r.db.WithContext(ctx).
+		Table("translations").
+		Select("translations.*").
+		Joins("JOIN translation_sources ON translation_sources.id = translations.source_id").
+		Where("translation_sources.mod_id = ? AND translation_sources.key = ? AND translation_sources.id != ?",
+			modID, key, newSourceID).
+		Where("translations.target_lang = ? AND translations.target_text IS NOT NULL AND translations.target_text != ''", "ja_jp").
+		Order("translations.updated_at DESC"). // Prefer most recent translation
+		First(&oldTrans).Error
+
+	if err != nil {
+		return false, nil // No source translation found
+	}
+
+	// 3. Copy translation to new source with needs_review status
+	// Since source_text changed, the translation may need adjustment
+	newTrans := models.Translation{
+		SourceID:   newSourceID,
+		TargetText: oldTrans.TargetText,
+		TargetLang: "ja_jp",
+		Status:     models.StatusNeedsReview, // Mark for review since source_text changed
+		Translator: oldTrans.Translator,
+		Tags:       oldTrans.Tags,
+		Notes:      oldTrans.Notes,
+	}
+	if err := r.db.WithContext(ctx).Create(&newTrans).Error; err != nil {
+		return false, fmt.Errorf("failed to copy translation: %w", err)
+	}
+
+	return true, nil
 }
 
 // GetPendingSourcesBySameText retrieves pending sources with the same mod_id and source_text.

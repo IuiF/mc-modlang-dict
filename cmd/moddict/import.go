@@ -122,7 +122,7 @@ Examples:
 	// Parse and import lang files
 	jsonParser := parser.NewJSONLangParser()
 	legacyParser := parser.NewLegacyLangParser()
-	var totalKeys, reusedSources, newSources, reusedTranslations, newTranslations, officialTranslations int
+	var totalKeys, reusedSources, newSources, reusedTranslations, newTranslations, officialTranslations, copiedTranslations int
 
 	// First pass: Import source language (en_us) and create sources
 	sourceEntries := make(map[string]interfaces.ParsedEntry) // key -> entry
@@ -201,6 +201,12 @@ Examples:
 
 		if created {
 			newSources++
+			// Try to copy translation from existing source with same key (preserves old translations)
+			if copied, err := repo.CopyTranslationFromSameKey(ctx, result.ModID, entry.Key, source.ID); err != nil {
+				fmt.Printf("Warning: failed to copy translation for %s: %v\n", key, err)
+			} else if copied {
+				copiedTranslations++
+			}
 		} else {
 			reusedSources++
 		}
@@ -264,6 +270,9 @@ Examples:
 	fmt.Printf("  Total keys: %d\n", totalKeys)
 	fmt.Printf("  Sources: %d reused, %d new\n", reusedSources, newSources)
 	fmt.Printf("  Translations: %d reused, %d new\n", reusedTranslations, newTranslations)
+	if copiedTranslations > 0 {
+		fmt.Printf("  Copied from same key: %d\n", copiedTranslations)
+	}
 	if officialTranslations > 0 {
 		fmt.Printf("  Official Japanese: %d keys\n", officialTranslations)
 	}
